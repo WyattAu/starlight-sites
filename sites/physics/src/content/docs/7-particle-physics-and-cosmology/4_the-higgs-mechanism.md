@@ -149,6 +149,10 @@ The Higgs boson was discovered at the LHC by ATLAS and CMS on July 4, 2012, with
 GeV/$c^2$. The discovery confirmed the mechanism of electroweak symmetry Breaking and earned the
 2013 Nobel Prize for Englert and Higgs.
 
+## Intuition
+
+The Higgs mechanism explains how particles acquire mass without breaking gauge invariance. The Higgs field has a Mexican-hat shaped potential with a minimum away from zero, so the vacuum state picks a particular direction in field space. This spontaneous symmetry breaking gives mass to the W and Z bosons while keeping the photon massless. Fermions acquire mass through Yukawa coupling to the Higgs field, like a drag force that depends on how strongly they interact with the vacuum condensate. The Higgs boson is the observable excitation of this field, detectable as a resonance in particle collisions. Most of the mass of everyday matter comes from QCD binding energy, not the Higgs directly.
+
 ### 4.6 Common Mistakes
 
 **Mistake 1: Assuming that the Higgs field gives mass to all particles.**

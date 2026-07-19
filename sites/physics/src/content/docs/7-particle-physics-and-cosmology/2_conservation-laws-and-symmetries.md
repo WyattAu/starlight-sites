@@ -153,6 +153,10 @@ Discrete symmetries ($P$, $C$, $T$) do not arise from Noether's theorem but are 
 Constraints. The **CPT theorem** states that any Lorentz-invariant local quantum field theory is
 Invariant under the combined transformation $CPT$.
 
+## Intuition
+
+Conservation laws are the bookkeeping rules of particle physics, arising from symmetries of nature via Noether's theorem. Energy conservation comes from time-translation symmetry, momentum from spatial translation, and angular momentum from rotational invariance. Electric charge, baryon number, and lepton number are conserved quantities that constrain which particle reactions can occur. Parity violation in weak interactions means nature distinguishes left from right, a surprising asymmetry. The Gell-Mann-Nishijima formula links charge, isospin, and strangeness, providing a classification scheme for hadrons. These conservation laws are the selection rules that determine which decays and reactions are allowed.
+
 ### 2.6 Common Mistakes
 
 **Mistake 1: Assuming that all conservation laws are exact.**

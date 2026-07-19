@@ -157,3 +157,14 @@ metric.
 
 **Problem 7.** Prove that a Riemannian manifold with constant sectional curvature $\kappa$ is
 Einstein with $\mathrm{Ric} = (n-1)\kappa\, g$.
+
+### 7.14 Common Mistakes
+
+**Mistake 1: Confusing Gaussian curvature with sectional curvature**
+Gaussian curvature is the sectional curvature of a 2-dimensional surface, while sectional curvature is defined for any 2-plane in the tangent space of a higher-dimensional manifold. Gaussian curvature is an intrinsic invariant of surfaces (Gauss's Theorema Egregium), but sectional curvature requires the full Riemann tensor in higher dimensions.
+
+**Mistake 2: Assuming Ricci curvature determines the full Riemann tensor**
+The Ricci tensor is a trace of the Riemann tensor and loses information. Two manifolds can have the same Ricci tensor but different Riemann tensors (and hence different sectional curvatures). In dimension $3$, the Riemann tensor is determined by the Ricci tensor, but in dimension $4$ and above, the Weyl tensor carries additional information.
+
+**Mistake 3: Confusing scalar curvature with Gaussian curvature**
+Scalar curvature is the trace of the Ricci tensor and is a single number at each point, while Gaussian curvature is the product of principal curvatures for a surface. On a 2-dimensional manifold, $S = 2K$ where $K$ is the Gaussian curvature. In higher dimensions, scalar curvature is a coarser invariant than sectional curvature.

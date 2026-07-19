@@ -286,3 +286,14 @@ There are exactly two groups of order $21$. $\blacksquare$
 
 </details>
 
+### 5.10 Common Mistakes
+
+**Mistake 1: Assuming the kernel is always a trivial subgroup**
+The kernel of a homomorphism is always a normal subgroup, but it need not be trivial. A trivial kernel ($\ker(\phi) = \{e\}$) is equivalent to injectivity. The first isomorphism theorem says $G/\ker(\phi) \cong \mathrm{im}(\phi)$, so a large kernel means the quotient is small. Do not assume injectivity without verifying the kernel is trivial.
+
+**Mistake 2: Confusing the image with the codomain**
+The image $\mathrm{im}(\phi)$ is a subgroup of the codomain $H$, but it need not equal $H$ unless $\phi$ is surjective. The first isomorphism theorem gives $G/\ker(\phi) \cong \mathrm{im}(\phi)$, not $G/\ker(\phi) \cong H$. Only when $\phi$ is surjective does the image equal the codomain.
+
+**Mistake 3: Applying isomorphism theorems to non-normal subgroups**
+The first isomorphism theorem requires $\ker(\phi) \trianglelefteq G$, which is guaranteed. However, the second and third isomorphism theorems require the relevant subgroups to be normal. For example, $H/(H \cap N) \cong HN/N$ requires $N \trianglelefteq G$. Applying these theorems without normality leads to incorrect conclusions.
+

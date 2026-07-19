@@ -130,3 +130,9 @@ $\blacksquare$
 | Arbitrary unions     | Any union of open sets is open                   | Ensures topology is closed under "or"   |
 | Finite intersections | Finite intersections of open sets are open       | Prevents pathological singleton limits  |
 
+## Cross-References
+
+- **[Introduction to Topology](1_introduction-to-topology.md)**: Foundational concepts including open sets, continuity, and the motivation for topology.
+- **[Continuity and Homeomorphisms](4_continuity-and-homeomorphisms.md)**: Continuous functions between topological spaces preserve structure without requiring metrics.
+- **[Compactness](5_compactness.md)**: Compactness is a key property of topological spaces related to finite subcovers and sequential convergence.
+

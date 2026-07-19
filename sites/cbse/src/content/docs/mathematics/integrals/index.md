@@ -10,11 +10,15 @@ Integration is the reverse process of differentiation. This topic covers basic i
 ## Key Concepts
 
 - $\int x^n \, dx = \frac{x^{n+1}}{n+1} + C$ for $n \neq -1$
-- $\int e^x \, dx = e^x + C$, $\int \frac{1}{x} \, dx = \ln|x| + C$
+- $\int \frac{1}{x} \, dx = \ln|x| + C$
+- $\int e^x \, dx = e^x + C$, $\int a^x \, dx = \frac{a^x}{\ln a} + C$
 - $\int \sin x \, dx = -\cos x + C$, $\int \cos x \, dx = \sin x + C$
+- $\int \sec^2 x \, dx = \tan x + C$, $\int \csc^2 x \, dx = -\cot x + C$
+- $\int \sec x \tan x \, dx = \sec x + C$, $\int \csc x \cot x \, dx = -\csc x + C$
 - Substitution: $\int f(g(x))g'(x) \, dx = \int f(u) \, du$ where $u = g(x)$
 - Integration by parts: $\int u \, dv = uv - \int v \, du$
 - Definite integral: $\int_a^b f(x) \, dx = F(b) - F(a)$
+- Properties: $\int_a^b f(x) \, dx = -\int_b^a f(x) \, dx$, $\int_a^b f(x) \, dx = \int_a^c f(x) \, dx + \int_c^b f(x) \, dx$
 
 ## Worked Example 1 — Substitution Method
 
@@ -54,11 +58,48 @@ $$= \frac{1}{2}\left[\frac{\pi}{2} - 0 - (0 - 0)\right] = \frac{\pi}{4}$$
 
 **Common mistake:** Forgetting to evaluate at both limits. The definite integral is $F(b) - F(a)$, not just $F(b)$.
 
+## Worked Example 4 — Partial Fractions
+
+**Problem:** Evaluate $\int \frac{2x + 3}{(x+1)(x+2)} \, dx$.
+
+**Solution:**
+
+Decompose into partial fractions:
+$$\frac{2x+3}{(x+1)(x+2)} = \frac{A}{x+1} + \frac{B}{x+2}$$
+
+$$2x + 3 = A(x+2) + B(x+1)$$
+
+Set $x = -1$: $1 = A(1)$, so $A = 1$.
+Set $x = -2$: $-1 = B(-1)$, so $B = 1$.
+
+$$\int \frac{2x+3}{(x+1)(x+2)} \, dx = \int \frac{1}{x+1} \, dx + \int \frac{1}{x+2} \, dx = \ln|x+1| + \ln|x+2| + C$$
+
+$$= \ln|(x+1)(x+2)| + C$$
+
+**Common mistake:** Forgetting the absolute value inside the logarithm. The integral of $\frac{1}{x}$ is $\ln|x| + C$, not $\ln x + C$.
+
+## Worked Example 5 — Integration by Substitution (Trigonometric)
+
+**Problem:** Evaluate $\int \tan x \, dx$.
+
+**Solution:**
+
+Rewrite:
+$$\int \tan x \, dx = \int \frac{\sin x}{\cos x} \, dx$$
+
+Let $u = \cos x$, so $du = -\sin x \, dx$:
+
+$$= -\int \frac{1}{u} \, du = -\ln|u| + C = -\ln|\cos x| + C = \ln|\sec x| + C$$
+
+**Common mistake:** Not recognizing that $\tan x = \frac{\sin x}{\cos x}$ is the starting point. Many students forget this basic identity.
+
 ## Practice Problems
 
 1. Evaluate $\int \frac{x}{\sqrt{1 + x^2}} \, dx$ using substitution.
 2. Evaluate $\int x \ln x \, dx$ using integration by parts.
 3. Evaluate $\int_0^1 x^2 e^x \, dx$.
+4. Evaluate $\int \frac{3x + 5}{(x-1)(x+2)} \, dx$ using partial fractions.
+5. Evaluate $\int \sec x \, dx$ (Hint: multiply by $\frac{\sec x + \tan x}{\sec x + \tan x}$).
 
 ## Common Exam Patterns
 
@@ -66,3 +107,13 @@ $$= \frac{1}{2}\left[\frac{\pi}{2} - 0 - (0 - 0)\right] = \frac{\pi}{4}$$
 - For integration by parts, choose $u$ using LIATE rule
 - For definite integrals, always evaluate at both limits
 - Practice with trigonometric identities for integrals of $\sin^2 x$ and $\cos^2 x$
+- Partial fractions require the degree of the numerator to be less than the degree of the denominator
+- For repeated linear factors, use $\frac{A}{(x-a)} + \frac{B}{(x-a)^2}$
+
+## Exam Tips
+
+1. Always include the constant of integration $C$ for indefinite integrals.
+2. For definite integrals, write $F(b) - F(a)$ explicitly before computing.
+3. When using substitution, change the limits of integration if the integral is definite.
+4. Check your answer by differentiating the result.
+5. For partial fractions with irreducible quadratic factors in the denominator, use $\frac{Ax + B}{ax^2 + bx + c}$.

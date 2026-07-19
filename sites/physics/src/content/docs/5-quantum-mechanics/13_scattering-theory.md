@@ -209,3 +209,16 @@ As $k \to 0$: $a_s \to \pm\infty$ (diverges), changing sign as the bound state a
 
 </details>
 
+## Intuition
+
+Scattering theory extracts information about forces by firing particles at targets and analyzing how they deflect. The differential cross-section tells you the probability of scattering into a given solid angle, and it is directly measurable. For a central potential, the scattering amplitude is decomposed into partial waves, each corresponding to a specific angular momentum. The scattering length characterizes low-energy scattering and diverges when a new bound state appears, signaling a resonance. The optical theorem connects the total cross-section to the forward scattering amplitude, reflecting the fact that particles removed from the forward beam must go somewhere. Partial wave analysis turns a complex three-dimensional scattering problem into a sum of one-dimensional problems.
+
+</details>
+
+
+
+## Cross-References
+
+- **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: The Schrodinger equation provides the foundation for scattering theory and partial wave analysis.
+- **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom.md)**: Angular momentum theory provides the partial wave expansion for scattering amplitudes.
+- **[Time-Dependent Perturbation Theory](12_time-dependent-perturbation-theory.md)**: Fermi's Golden Rule from time-dependent perturbation theory underlies transition rates in scattering.

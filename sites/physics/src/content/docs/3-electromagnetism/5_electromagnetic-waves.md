@@ -260,4 +260,19 @@ $\blacksquare$
 </details>
 
 
+## Intuition
+
+Electromagnetic waves are self-sustaining ripples in the electric and magnetic fields that regenerate each other as they propagate. A changing electric field creates a magnetic field, which in turn creates an electric field, and this feedback loop allows the wave to travel through empty space. The energy carried by the wave is split equally between the electric and magnetic components, stored in the field configuration itself. Radiation from an accelerating charge becomes more intense at higher frequencies because the charge's acceleration changes direction faster, producing stronger field ripples. The inverse-square law for intensity reflects how the wave's energy spreads over an expanding sphere.
+
 </aside>
+
+### 5.9 Common Mistakes
+
+**Mistake 1: Assuming $\mathbf{E}$ and $\mathbf{B}$ are in the same direction**
+In an electromagnetic wave, $\mathbf{E}$ and $\mathbf{B}$ are perpendicular to each other and both are perpendicular to the direction of propagation. This is a transverse wave. Students sometimes draw $\mathbf{E}$ and $\mathbf{B}$ parallel, which violates Maxwell's equations. The relation $\mathbf{B} = \hat{\mathbf{k}} \times \mathbf{E}/c$ enforces orthogonality.
+
+**Mistake 2: Confusing phase velocity with group velocity**
+In free space, phase velocity $v_p = \omega/k = c$ and group velocity $v_g = d\omega/dk = c$ are equal. In dispersive media or waveguides, they differ: $v_p > c$ is possible while $v_g < c$ always holds. Information travels at the group velocity, not the phase velocity. Phase velocity exceeding $c$ does not violate relativity.
+
+**Mistake 3: Forgetting that the Poynting vector represents energy flux**
+The Poynting vector $\mathbf{S} = \mathbf{E} \times \mathbf{B}/\mu_0$ gives the rate of energy flow per unit area. Students sometimes confuse energy density ($u = \frac{1}{2}(\varepsilon_0 E^2 + B^2/\mu_0)$) with energy flux. The time-averaged Poynting vector gives the intensity, which is what a detector measures.

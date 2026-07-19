@@ -153,3 +153,9 @@ $\int_{|z|=R} f\, dz = 2\pi i \sum_{\mathrm{finite} \mathrm{Res}(f, z_k)}$.
 But $\mathrm{Res}(f, \infty) = -\frac{1}{2\pi i}\int_{|z|=R} f\, dz$So the sum is zero.
 $\blacksquare$
 
+## Cross-References
+
+- **[Cauchy's Integral Formula](6_cauchy-s-integral-formula.md)**: The integral formula provides the coefficients for Taylor and Laurent series expansions.
+- **[Singularities and Residue Theory](8_singularities-and-residue-theory.md)**: Laurent series reveal the structure of singularities and enable residue computation.
+- **[Analytic Continuation](13_analytic-continuation.md)**: Laurent series can extend functions beyond their original domain through analytic continuation.
+

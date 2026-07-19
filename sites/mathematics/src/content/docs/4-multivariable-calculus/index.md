@@ -73,3 +73,14 @@ Each section includes:
 3. **Draw diagrams**: Visualise surfaces, curves, and vector fields
 4. **Learn standard examples**: Know the properties of common surfaces (planes, spheres, paraboloids)
 5. **Connect to physics**: Relate multivariable calculus to electromagnetism and fluid dynamics
+
+### 4.1 Common Mistakes
+
+**Mistake 1: Confusing the gradient with the directional derivative**
+The gradient $\nabla f$ is a vector, while the directional derivative $D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u}$ is a scalar. Students often write $\nabla f$ when they mean $D_{\mathbf{u}} f$ or vice versa. The gradient points in the direction of steepest ascent; the directional derivative gives the rate of change in a specific direction.
+
+**Mistake 2: Applying the chain rule incorrectly for multivariable functions**
+When $z = f(x, y)$ with $x = g(t)$ and $y = h(t)$, the chain rule is $\frac{dz}{dt} = \frac{\partial f}{\partial x}\frac{dx}{dt} + \frac{\partial f}{\partial y}\frac{dy}{dt}$. A common error is omitting one of the partial derivative terms or treating partial derivatives like ordinary derivatives. Always account for every path through which the variable depends on $t$.
+
+**Mistake 3: Misidentifying critical points in multivariable optimisation**
+Setting $\nabla f = \mathbf{0}$ is necessary but not sufficient. The Hessian matrix must be checked: positive definite means local minimum, negative definite means local maximum, and indefinite means saddle point. A zero determinant of the Hessian means the test is inconclusive and further analysis is required.

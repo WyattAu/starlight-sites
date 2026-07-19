@@ -138,3 +138,14 @@ and by the triangle inequality $d_2(x_k, x) \to 0$. $\blacksquare$
 then for $m,n \geq N$, $|1/m - 1/n| \leq 1/m + 1/n \leq 2/N < \varepsilon$. But $x_n \to 0 \notin (0,1)$,
 so the sequence does not converge in $X$. Thus $(0,1)$ with the Euclidean metric is not complete.
 However, $[0,1]$ is complete (closed subset of complete $\mathbb{R}$). $\blacksquare$
+
+### 7.11 Common Mistakes
+
+**Mistake 1: Confusing a metric with a topology**
+Every metric induces a topology (the metric topology), but not every topology comes from a metric. A topological space is metrizable if and only if it satisfies certain separation and countability axioms (Urysohn's metrization theorem). The cofinite topology on an infinite set is not metrizable because it is not Hausdorff.
+
+**Mistake 2: Assuming completeness implies compactness**
+A complete metric space need not be compact; compactness requires both completeness and total boundedness. For example, $\mathbb{R}$ is complete but not compact (it is not totally bounded). Conversely, a compact metric space is always complete. The Bolzano-Weierstrass property (every bounded sequence has a convergent subsequence) holds in compact metric spaces but not in all complete metric spaces.
+
+**Mistake 3: Forgetting that contractions require a uniform contraction constant**
+The Banach fixed-point theorem requires $d(f(x), f(y)) \leq c \cdot d(x, y)$ for a fixed $c < 1$ and all $x, y$. A map satisfying $d(f(x), f(y)) < d(x, y)$ for all $x \neq y$ (strictly contractive but without a uniform constant) need not have a fixed point. For example, $f(x) = x + 1/x$ on $(1, \infty)$ is strictly contractive but has no fixed point.

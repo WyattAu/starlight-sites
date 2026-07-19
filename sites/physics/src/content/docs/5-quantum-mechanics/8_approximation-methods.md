@@ -212,5 +212,14 @@ theory.
 
 </details>
 
+## Intuition
+
+Approximation methods tackle quantum problems that cannot be solved exactly. Perturbation theory treats a complicated Hamiltonian as a simple known part plus a small correction, then systematically calculates how the correction shifts energy levels and wavefunctions. The key assumption is that the correction is small compared to the energy spacing of the unperturbed system. The variational method provides an upper bound on the ground state energy by testing trial wavefunctions and minimizing the expectation value. WKB approximates the wavefunction as a locally oscillating function whose wavelength varies with position, working best when the potential changes slowly compared to the wavelength. These methods turn intractable problems into calculable ones.
 
 </aside>
+
+## Cross-References
+
+- **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: The Schrodinger equation provides the foundation for approximation methods.
+- **[One-Dimensional Problems](5_one-dimensional-problems.md)**: Exactly solvable 1D problems provide test cases for approximation methods.
+- **[Variational Methods](11_variational-methods.md)**: The variational principle provides a systematic approach to estimating ground state energies.

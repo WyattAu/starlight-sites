@@ -168,3 +168,18 @@ The relative fluctuation $\sqrt{\langle (\Delta E)^2 \rangle}/\langle E \rangle 
 | Chemical potential | $\mu = -T\,\partial S/\partial N$ |
 | Sackur-Tetrode (ideal gas) | $S = Nk_B[\ln(V/N) + \frac{3}{2}\ln(4\pi m E/(3Nh^2)) + \frac{5}{2}]$ |
 
+## Intuition
+
+The microcanonical ensemble describes an isolated system with fixed energy, volume, and particle number. The central idea is that all accessible microstates are equally probable, and the number of these microstates determines the entropy through Boltzmann's formula. Temperature emerges as the rate of change of entropy with energy: adding energy to a system with many available microstates raises the entropy slowly, giving a high temperature. The entropy is maximized at equilibrium because that is the macrostate compatible with the most microstates. For an ideal gas, the Sackur-Tetrode equation shows that entropy increases with volume and energy, capturing the logarithmic counting of phase space volumes.
+
+### 14.10 Common Mistakes
+
+**Mistake 1: Confusing entropy with multiplicity**
+Entropy $S = k_B \ln \Omega$ is a logarithmic function of the multiplicity $\Omega$. A system with twice the multiplicity does not have twice the entropy; it has $S + k_B \ln 2$. Students often treat entropy and multiplicity as interchangeable, but they differ by a logarithm and a constant. The entropy is what appears in thermodynamic relations, not the multiplicity directly.
+
+**Mistake 2: Assuming microcanonical and canonical ensembles always give the same results**
+The ensembles are equivalent only in the thermodynamic limit ($N \to \infty$, $V \to \infty$, $N/V$ fixed). For small systems, the canonical ensemble (which allows energy exchange with a reservoir) can give different predictions than the microcanonical ensemble (fixed energy). The relative energy fluctuation in the canonical ensemble scales as $1/\sqrt{N}$, which is negligible for macroscopic systems but not for small ones.
+
+**Mistake 3: Forgetting the $1/N!$ factor in the classical partition function**
+For indistinguishable particles, the phase space volume must be divided by $N!$ to avoid overcounting microstates that differ only by particle labels. Omitting this factor leads to the Gibbs paradox: the entropy of mixing two identical gases would be nonzero, which is physically incorrect. The $1/N!$ factor ensures extensivity of the entropy.
+

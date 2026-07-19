@@ -136,3 +136,10 @@ The photoionisation cross section near threshold is $\sigma \approx 6.3 \times 1
 | Two-photon | No parity constraint | $A \propto I^2$ | Depends on intensity |
 | Forbidden (all channels) | None allowed | $A = 0$ | Metastable if no decay path |
 
+
+
+## Cross-References
+
+- **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: Time-dependent perturbation theory builds on the Schrodinger equation for time evolution.
+- **[Operators and Observables](4_operators-and-observables.md)**: Matrix elements of operators determine transition rates and selection rules.
+- **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom.md)**: Angular momentum theory provides the selection rules for electric dipole transitions.

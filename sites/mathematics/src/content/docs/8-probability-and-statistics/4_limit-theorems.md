@@ -151,3 +151,9 @@ $$= P\left(\frac{-10}{13.23} < Z < \frac{30}{13.23}\right) = P(-0.756 < Z < 2.26
 
 $$\approx \Phi(2.268) - \Phi(-0.756) = 0.9883 - 0.2248 = 0.7635$$
 
+## Cross-References
+
+- **[Random Variables](2_random-variables.md)**: Random variables provide the building blocks for understanding convergence in distribution and probability.
+- **[Joint Distributions and Independence](3_joint-distributions-and-independence.md)**: Independence of random variables is essential for the law of large numbers and central limit theorem.
+- **[Probability Spaces](1_probability-spaces.md)**: Probability spaces provide the measure-theoretic foundation for defining convergence concepts.
+

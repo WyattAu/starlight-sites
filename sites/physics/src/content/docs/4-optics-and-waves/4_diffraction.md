@@ -265,4 +265,8 @@ $d/a = 3$ as the ratio for missing orders.
 </details>
 
 
+## Intuition
+
+Diffraction is the bending of waves around obstacles and through openings, arising because a wavefront passing through a slit becomes a source of secondary wavelets in every direction. The narrower the slit relative to the wavelength, the more the wave spreads out. Double-slit diffraction combines two effects: the interference pattern from two point sources, modulated by the single-slit diffraction envelope. Missing orders appear when the interference maximum coincides with a diffraction minimum, effectively canceling that bright fringe. The Fourier transform of the aperture function gives the far-field pattern directly, linking the shape of the opening to the shape of the light distribution.
+
 </aside>

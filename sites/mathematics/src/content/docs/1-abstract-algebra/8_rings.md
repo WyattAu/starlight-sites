@@ -162,3 +162,14 @@ $(x) + (x-1) = (1)$. $\blacksquare$
 
 </details>
 
+### 8.9 Common Mistakes
+
+**Mistake 1: Confusing ideals with subrings**
+An ideal $I$ of $R$ is a subring that is also closed under multiplication by arbitrary ring elements: $rI \subseteq I$ and $Ir \subseteq I$ for all $r \in R$. Not every subring is an ideal. For example, $2\mathbb{Z}$ is a subring of $\mathbb{Z}$ but not an ideal of $\mathbb{Z}[x]$ because $x \cdot 2 = 2x \notin 2\mathbb{Z}$ as a polynomial. Always verify the absorption property.
+
+**Mistake 2: Confusing zero divisors with units**
+A zero divisor $a$ satisfies $ab = 0$ for some nonzero $b$, while a unit $a$ satisfies $ab = 1$ for some $b$. In $\mathbb{Z}/6\mathbb{Z}$, $[2]$ is a zero divisor (since $[2][3] = [0]$) but not a unit. In $\mathbb{Z}/5\mathbb{Z}$, every nonzero element is a unit and there are no zero divisors. These are opposite extremes of multiplicative behaviour.
+
+**Mistake 3: Assuming all rings have a multiplicative identity**
+The definition of a ring does not require a multiplicative identity $1$. Some authors include $1$ in the definition (called "rings with unity"), while others do not. When working with rings without unity, statements about units and the cancellation law may fail. Always check whether the ring is assumed to have unity.
+

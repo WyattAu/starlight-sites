@@ -184,3 +184,14 @@ Definite $S_z$ gives probabilistic outcomes, and vice versa.
 
 </details>
 
+## Intuition
+
+Quantum operators are the machinery that extracts measurable information from a quantum state. Each observable, like position or momentum, has an associated operator whose eigenvalues are the possible measurement outcomes. The expectation value of an operator gives the average result over many identical measurements. Commuting operators share eigenstates, meaning both observables can be known simultaneously. Non-commuting operators, like position and momentum, obey an uncertainty relation: measuring one precisely forces the other to become uncertain. This is not a limitation of instruments but a fundamental feature of quantum reality. Spin-half systems illustrate this vividly: measuring spin along one axis gives random results for the orthogonal axis.
+
+
+
+## Cross-References
+
+- **[Postulates of Quantum Mechanics](2_postulates-of-quantum-mechanics.md)**: The postulates establish that observables are represented by Hermitian operators.
+- **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: Wave functions are the state vectors that operators act upon to extract physical information.
+- **[Spin](7_spin.md)**: Spin operators illustrate the algebraic properties of angular momentum in quantum mechanics.

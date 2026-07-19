@@ -158,3 +158,9 @@ Only homeomorphisms preserve all topological properties. A continuous map need n
 **Mistake 5: Misapplying the pasting lemma.**
 The pasting lemma requires that the two pieces agree on their intersection and that both pieces are either both closed or both open. If one piece is closed and the other is open, or if they disagree on the intersection, the resulting function may not be continuous.
 
+## Cross-References
+
+- **[Topological Spaces](2_topological-spaces.md)**: Topological spaces provide the foundation for defining continuity and homeomorphisms.
+- **[Compactness](5_compactness.md)**: Compactness is preserved by continuous functions and characterizes spaces where extreme value theorem holds.
+- **[Connectedness](6_connectedness.md)**: Connectedness is a topological invariant preserved by homeomorphisms and continuous images.
+

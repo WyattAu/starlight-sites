@@ -161,3 +161,14 @@ The Maxwell-Boltzmann distribution fails when quantum effects become significant
 
 ---
 
+### 7.10 Common Mistakes
+
+**Mistake 1: Confusing temperature with average kinetic energy**
+Temperature is a macroscopic thermodynamic variable defined through $1/T = \partial S/\partial E$, while average kinetic energy is $\langle \varepsilon \rangle = \frac{3}{2}k_B T$ for a monatomic ideal gas. Temperature is defined for any system in thermal equilibrium, not just ideal gases. For systems with internal degrees of freedom (rotations, vibrations), the relationship between temperature and kinetic energy is different.
+
+**Mistake 2: Assuming the Maxwell-Boltzmann distribution applies to all gases**
+The Maxwell-Boltzmann distribution is the classical limit valid only when $n\lambda_{\text{th}}^3 \ll 1$. At high densities or low temperatures, quantum statistics (Fermi-Dirac or Bose-Einstein) must be used. Electrons in metals, atoms in a Bose-Einstein condensate, and neutrons in a neutron star all require quantum statistics.
+
+**Mistake 3: Misapplying the equipartition theorem**
+The equipartition theorem assigns $\frac{1}{2}k_B T$ per quadratic degree of freedom, but it fails at low temperatures when quantum effects freeze out degrees of freedom. For example, the vibrational mode of a diatomic molecule at room temperature may not contribute $\frac{1}{2}k_B T$ if $\hbar\omega \gg k_B T$. Always check whether the classical limit applies before using equipartition.
+

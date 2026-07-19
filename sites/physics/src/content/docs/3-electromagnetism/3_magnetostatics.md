@@ -223,3 +223,14 @@ the Auxiliary H field.
 
 
 </aside>
+
+### 3.9 Common Mistakes
+
+**Mistake 1: Confusing the Biot-Savart law with Ampere's law**
+The Biot-Savart law gives the magnetic field from any current distribution by direct integration, while Ampere's law relates the line integral of $\mathbf{B}$ to the enclosed current. Ampere's law is easier to use when high symmetry exists (infinite wire, solenoid), but the Biot-Savart law is needed for finite or asymmetric configurations. Do not apply Ampere's law without verifying cylindrical or planar symmetry.
+
+**Mistake 2: Misapplying the right-hand rule**
+The right-hand rule for the magnetic field of a current element states that $d\mathbf{B}$ is in the direction of $d\mathbf{l} \times \hat{\mathbf{r}}$. Students often reverse the direction by curling the fingers in the wrong direction or using the left hand. For a straight wire, curl your right-hand fingers around the wire with your thumb pointing in the current direction; your fingers point in the direction of $\mathbf{B}$.
+
+**Mistake 3: Assuming $\mathbf{B}$ is always parallel to $\mathbf{H}$**
+In linear magnetic materials, $\mathbf{B} = \mu \mathbf{H}$, so they are parallel. But in ferromagnetic materials, the relationship is nonlinear and hysteretic: $\mathbf{B}$ depends on the history of $\mathbf{H}$. The $\mathbf{H}$ field is defined as $\mathbf{H} = \mathbf{B}/\mu_0 - \mathbf{M}$, and it is the auxiliary field that simplifies problems with free currents, not a fundamental field.

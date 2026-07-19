@@ -164,3 +164,9 @@ The residue theorem states that $\int_\gamma f(z)\, dz = 2\pi i \sum \mathrm{Res
 **Mistake 5: Confusing the order of a pole with the residue.**
 The residue at a pole of order $m$ is given by $\mathrm{Res}(f, z_0) = \frac{1}{(m-1)!} \lim_{z \to z_0} \frac{d^{m-1}}{dz^{m-1}} [(z - z_0)^m f(z)]$. Do not assume that the residue is zero at a pole of order greater than one; it can be non-zero.
 
+## Cross-References
+
+- **[Taylor and Laurent Series](7_taylor-and-laurent-series.md)**: Laurent series reveal the structure of singularities and provide the coefficients for residue computation.
+- **[Cauchy's Theorem](5_cauchy-s-theorem.md)**: Cauchy's theorem for multiply connected domains leads to the residue theorem.
+- **[Applications of Contour Integration](9_applications-of-contour-integration.md)**: The residue theorem is applied to evaluate real integrals and solve physics problems.
+

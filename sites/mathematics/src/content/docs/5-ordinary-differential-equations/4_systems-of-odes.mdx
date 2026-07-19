@@ -215,3 +215,14 @@ $\mathbf{x}(t) = c_1 \begin{pmatrix} e^t \\ 0 \end{pmatrix} + c_2 \begin{pmatrix
 $\blacksquare$
 
 </details>
+
+### 4.11 Common Mistakes
+
+**Mistake 1: Forgetting to account for all initial conditions**
+When solving a system of $n$ ODEs, the general solution must contain $n$ arbitrary constants. Students often omit constants or assume the initial conditions are automatically satisfied. Always apply all initial conditions to determine every constant, and verify the solution satisfies each equation in the system.
+
+**Mistake 2: Using the wrong eigenvalue-eigenvector pairs**
+When a matrix has repeated eigenvalues, the eigenvectors may not span the full space, requiring generalised eigenvectors. A common error is writing the same eigenvector for both occurrences of a repeated eigenvalue instead of constructing the Jordan chain. Check the geometric multiplicity against the algebraic multiplicity.
+
+**Mistake 3: Confusing the matrix exponential $e^{At}$ with $e^A e^{t}$**
+The identity $e^{At} = e^{At}$ holds trivially, but $e^{A+B} = e^A e^B$ only when $AB = BA$. Students sometimes write $e^{At} = (e^A)^t$ or attempt to exponentiate component-wise. For diagonalisable matrices, use $e^{At} = Pe^{Dt}P^{-1}$ where $D$ is the diagonal matrix of eigenvalues.

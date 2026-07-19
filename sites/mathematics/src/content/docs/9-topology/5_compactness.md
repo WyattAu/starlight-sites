@@ -172,3 +172,9 @@ Tychonoff's theorem states that the product of any collection of compact spaces 
 **Mistake 5: Confusing local compactness with compactness.**
 A space is locally compact if every point has a compact neighbourhood, but this does not imply that the space itself is compact. For example, $\mathbb{R}$ is locally compact (every point has a compact neighbourhood) but not compact (it is not bounded). Local compactness is a weaker condition than compactness.
 
+## Cross-References
+
+- **[Topological Spaces](2_topological-spaces.md)**: Topological spaces provide the framework for defining compactness through open covers.
+- **[Connectedness](6_connectedness.md)**: Compactness and connectedness are both fundamental topological properties that characterize space structure.
+- **[Continuity and Homeomorphisms](4_continuity-and-homeomorphisms.md)**: Continuous functions preserve compactness, and homeomorphisms preserve all topological properties.
+

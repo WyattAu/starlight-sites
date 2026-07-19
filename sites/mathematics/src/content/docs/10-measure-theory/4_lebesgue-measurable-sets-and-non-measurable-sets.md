@@ -122,3 +122,14 @@ $n$, $m(C) \leq \lim_{n\to\infty} (2/3)^n = 0$. $\blacksquare$
 3. Prove that every Lebesgue measurable set is the union of an $F_\sigma$ set and a null set.
 4. Show that if $m^*(A) = 0$ then $A$ is measurable.
 5. Construct a non-measurable set using a Hamel basis approach.
+
+### 4.8 Common Mistakes
+
+**Mistake 1: Assuming all subsets of $\mathbb{R}$ are Lebesgue measurable**
+The existence of non-measurable sets (like the Vitali set) depends on the Axiom of Choice. In ZF without Choice, it is consistent that all subsets of $\mathbb{R}$ are measurable. Never assume a set is measurable without verification, especially when constructing sets using Choice-based arguments.
+
+**Mistake 2: Confusing Lebesgue measurability with Borel measurability**
+Every Borel set is Lebesgue measurable, but not vice versa. The Cantor set is Borel (closed) and has measure zero, but adding any subset of the Cantor set to a Borel set produces a Lebesgue measurable set that may not be Borel. The Lebesgue $\sigma$-algebra is strictly larger than the Borel $\sigma$-algebra.
+
+**Mistake 3: Assuming outer measure is additive**
+Outer measure $m^*$ is subadditive ($m^*(\bigcup A_n) \leq \sum m^*(A_n)$) but not additive. For disjoint non-measurable sets, outer measure can fail to be additive. Additivity holds only for measurable sets. The Vitali construction exploits this failure: the outer measure of the union of translates of $V$ is bounded, but the sum of outer measures is not.

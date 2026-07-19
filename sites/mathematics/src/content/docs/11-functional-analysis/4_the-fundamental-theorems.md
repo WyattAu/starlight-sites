@@ -150,3 +150,14 @@ or construct the inverse explicitly.
 
 **Problem 7.** Let $X$ and $Y$ be Banach spaces and suppose $T : X \to Y$ is a linear operator.
 Prove that if $x_n \to 0$ and $Tx_n \to y$ implies $y = 0$, then $T$ is bounded.
+
+### 4.15 Common Mistakes
+
+**Mistake 1: Confusing the Hahn-Banach theorem with the open mapping theorem**
+Hahn-Banach is about extending linear functionals from subspaces to the whole space while preserving boundedness. The open mapping theorem is about surjective operators between Banach spaces mapping open sets to open sets. They address completely different problems: extension versus mapping properties. Do not use one where the other is needed.
+
+**Mistake 2: Assuming the open mapping theorem applies to all linear operators**
+The open mapping theorem requires both the domain and codomain to be Banach spaces and the operator to be surjective. For example, the identity map from an incomplete normed space to its completion is bijective and continuous but not open (since the domain is not complete). Always verify the completeness hypothesis.
+
+**Mistake 3: Misapplying the uniform boundedness principle**
+The UBP requires pointwise boundedness ($\sup_\alpha \|T_\alpha x\| < \infty$ for each $x$) to conclude uniform boundedness ($\sup_\alpha \|T_\alpha\| < \infty$). Pointwise boundedness means the bound can depend on $x$; uniform boundedness means the bound is independent of $x$. The Baire category theorem is the key tool in the proof, and it requires the domain to be a complete metric space.

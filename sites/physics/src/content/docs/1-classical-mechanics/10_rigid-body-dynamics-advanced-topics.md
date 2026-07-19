@@ -180,6 +180,10 @@ steady precession and topples.
   axis spontaneously flips 180° periodically, visible in microgravity. This confirms the
   instability of intermediate-axis rotation predicted by Euler's equations.
 
+## Intuition
+
+Rigid body dynamics describes how extended objects rotate, where the distribution of mass matters as much as the total mass. The moment of inertia generalizes mass to rotation, depending on how far the mass is distributed from the axis. Euler's equations govern free rotation: a body spinning about its fastest or slowest axis is stable, but rotation about the intermediate axis is unstable, causing the Dzhanibekov flipping effect. A spinning top precesses because gravity exerts a torque that changes the angular momentum direction without changing its magnitude. Nutation adds a wobble on top of precession, arising from the competition between gravitational torque and gyroscopic stiffness.
+
 ### Key Relationships Summary
 
 | Quantity | Expression | Notes |
@@ -192,3 +196,10 @@ steady precession and topples.
 These relationships apply to free rigid bodies (no external torque) and tops (constant gravity). For
 coupled or driven systems, numerical integration of the full Euler equations is required.
 
+
+
+## Cross-References
+
+- **[Rigid Body Dynamics](8_rigid-body-dynamics.md)**: Basic rigid body dynamics provides the foundation for understanding advanced topics like gyroscopic precession.
+- **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation gives the effective potential for analyzing tops and gyroscopes.
+- **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism provides phase space representation of rigid body motion.

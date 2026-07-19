@@ -195,6 +195,10 @@ wave function (Pauli principle), and is $10$--$100$ meV.
 
 </aside>
 
+## Intuition
+
+Magnetism in solids arises from the alignment of electron spins and orbital angular momenta. Diamagnetism is universal: every material develops a weak opposing magnetization when placed in a magnetic field, like a spring pushing back. Paramagnetism requires unpaired electrons whose spins can align with the field, overcoming thermal randomness. Ferromagnetism occurs when exchange interactions lock neighboring spins into parallel alignment, creating spontaneous magnetization below the Curie temperature. Antiferromagnetism has neighboring spins pointing opposite, canceling out. Ferrimagnetism has unequal opposing spins, producing a net magnetization. The exchange interaction is purely quantum mechanical, arising from the overlap of electron wavefunctions and the Pauli exclusion principle.
+
 ### 10.8 Common Mistakes
 
 **Mistake 1: Confusing diamagnetism with paramagnetism.**

@@ -131,3 +131,10 @@ Thus $E(\beta) = \frac{\hbar^2\beta}{4m} - V_0\,\text{erf}(\sqrt{\beta}a)$. Mini
 for typical parameters ($V_0 = 10$ eV, $a = 2$ Å, $m = m_e$) gives $\beta_{\text{opt}} \approx 0.8$ Å$^{-2}$
 and $E \approx -6.2$ eV, compared to the exact value $-7.0$ eV. The Gaussian trial function cannot
 capture the exponential decay outside the well, leading to a 12% error. $\blacksquare$
+
+
+## Cross-References
+
+- **[Approximation Methods](8_approximation-methods.md)**: The variational principle is one of the key approximation methods in quantum mechanics.
+- **[Identical Particles and Exchange Symmetry](10_identical-particles-and-exchange-symmetry.md)**: Exchange symmetry and Slater determinants are essential for variational calculations of many-body systems.
+- **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom.md)**: The hydrogen atom provides exact solutions that test variational methods.

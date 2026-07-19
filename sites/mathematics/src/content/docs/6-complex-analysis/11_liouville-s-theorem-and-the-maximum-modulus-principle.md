@@ -161,3 +161,9 @@ The Schwarz lemma applies only to analytic functions $f: \mathbb{D} \to \mathbb{
 
 **Mistake 5: Forgetting that Liouville's theorem is used to prove the fundamental theorem of algebra.**
 Liouville's theorem is a key tool in proving that every non-constant polynomial has a root in $\mathbb{C}$. If you forget this connection, you may miss elegant proofs of existence results. Always consider Liouville's theorem when dealing with entire functions and their properties.
+
+## Cross-References
+
+- **[Cauchy's Integral Formula](6_cauchy-s-integral-formula.md)**: Cauchy's estimates provide the quantitative foundation for Liouville's theorem.
+- **[Taylor and Laurent Series](7_taylor-and-laurent-series.md)**: Power series representations reveal the local behavior of analytic functions near singularities.
+- **[Conformal Mappings](10_conformal-mappings.md)**: The Riemann mapping theorem uses maximum modulus principles to establish conformal equivalences.

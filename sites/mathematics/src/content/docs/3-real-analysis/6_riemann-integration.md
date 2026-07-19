@@ -284,6 +284,17 @@ So $\int_0^{\infty} x e^{-x}\, dx = 1$. This equals $\Gamma(2) = 1! = 1$. $\blac
 
 </details>
 
+### 6.7 Common Mistakes
+
+**Mistake 1: Confusing Riemann integrability with Lebesgue integrability**
+Every Riemann integrable function is Lebesgue integrable, but not vice versa. The Dirichlet function is not Riemann integrable but is Lebesgue integrable (with integral zero). The Riemann integral requires the set of discontinuities to have measure zero, while the Lebesgue integral handles a much broader class of functions.
+
+**Mistake 2: Interchanging limits and integrals without justification**
+Swapping $\lim$ and $\int$ requires a convergence theorem such as the dominated convergence theorem or the monotone convergence theorem. Pointwise convergence alone is insufficient: the sequence $f_n = n\chi_{(0, 1/n)}$ converges pointwise to $0$ on $[0, 1]$, yet $\int_0^1 f_n = 1$ for all $n$. Always verify the hypotheses of a convergence theorem before interchanging limits and integrals.
+
+**Mistake 3: Applying the Fundamental Theorem of Calculus to discontinuous integrands**
+The FTC Part 1 requires $f$ to be continuous. If $f$ has a jump discontinuity, the integral function $F(x) = \int_a^x f(t)\,dt$ is continuous but not differentiable at the discontinuity. The FTC Part 2 requires $F' = f$ everywhere on $[a, b]$, which fails if $f$ is discontinuous. Check continuity before applying the FTC.
+
 ### Intuition
 
 The Riemann integral answers the question: how do we add up infinitely many infinitely thin slices? Consider the area under a curve f(x) from a to b. The Riemann sum approximates this by dividing the interval into subintervals and summing f(x) times the width of each subinterval -- a collection of rectangles whose total area approaches the true area as the partition becomes finer. This is the same logic as computing distance by summing velocity over time, or charge by summing current over time: the integral accumulates a quantity that varies continuously.

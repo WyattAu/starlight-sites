@@ -269,3 +269,20 @@ the Hamiltonian formulation requires special treatment (Dirac brackets or Constr
 
 
 </aside>
+
+## Cross-References
+
+- **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation provides the foundation for deriving the Hamiltonian via Legendre transform.
+- **[Noether's Theorem](5_noether-s-theorem-and-conservation-laws.md)**: Noether's theorem connects symmetries to conserved quantities, which are expressed as Poisson brackets in Hamiltonian mechanics.
+- **[Quantum Mechanics](../5-quantum-mechanics/2_postulates-of-quantum-mechanics.md)**: The Hamiltonian becomes an operator in quantum mechanics, and Poisson brackets become commutators.
+
+### 4.11 Common Mistakes
+
+**Mistake 1: Assuming the Hamiltonian always equals $T + V$**
+The Hamiltonian equals the total energy $H = T + V$ only when the potential is velocity-independent and the coordinate transformation is scleronomic. For systems with velocity-dependent potentials (like charged particles in electromagnetic fields) or rheonomic constraints, $H \neq T + V$ even though $H$ is still conserved when $\partial L/\partial t = 0$.
+
+**Mistake 2: Confusing canonical momentum with mechanical momentum**
+Canonical momentum $p_j = \partial L/\partial \dot{q}_j$ is not always equal to mechanical momentum $m\dot{q}_j$. For a charged particle in a magnetic field, the canonical momentum includes the vector potential: $\mathbf{p} = m\mathbf{v} + q\mathbf{A}$. Always derive canonical momentum from the Lagrangian, not from $m\mathbf{v}$.
+
+**Mistake 3: Misapplying Poisson brackets**
+The Poisson bracket $\{f, g\}$ is antisymmetric: $\{f, g\} = -\{g, f\}$. A common error is forgetting this sign when computing brackets of position and momentum. The fundamental brackets are $\{q_j, p_k\} = \delta_{jk}$, $\{q_j, q_k\} = 0$, and $\{p_j, p_k\} = 0$. Mixing up the order changes the sign.

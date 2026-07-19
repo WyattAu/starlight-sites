@@ -106,3 +106,57 @@ Step 4: $\theta = \arcsin(0.3) \approx 17.5°$
 1. A wave travels at $340\,\text{m/s}$ with wavelength $0.5\,\text{m}$. Find the frequency.
 2. Two sound sources are $2\,\text{m}$ apart and vibrate in phase. Find the position of the first minimum between them for sound of wavelength $0.4\,\text{m}$.
 3. What is the energy of a photon with wavelength $500\,\text{nm}$? ($h = 6.63 \times 10^{-34}\,\text{J s}$, $c = 3 \times 10^8\,\text{m/s}$)
+
+### Example 4: Standing Waves on a String
+
+**Problem:** A string of length $0.5\,\text{m}$ is fixed at both ends and vibrates in its third harmonic at $150\,\text{Hz}$. Find the wave speed.
+
+**Solution:**
+
+Step 1: For a string fixed at both ends, the $n$-th harmonic frequency is:
+$$f_n = \frac{nv}{2L}$$
+
+Step 2: For the third harmonic ($n = 3$):
+$$150 = \frac{3v}{2 \times 0.5} = \frac{3v}{1}$$
+
+Step 3: Solve for $v$:
+$$v = \frac{150}{3} = 50\,\text{m/s}$$
+
+**Answer:** The wave speed is $50\,\text{m/s}$
+
+**Common mistake:** Using $f_n = nv/L$ instead of $f_n = nv/(2L)$ for a string fixed at both ends. The factor of 2 arises because both ends are nodes.
+
+### Example 5: Doppler Effect
+
+**Problem:** A train sounding its horn at $400\,\text{Hz}$ approaches a stationary observer at $30\,\text{m/s}$. The speed of sound is $340\,\text{m/s}$. Find the frequency heard by the observer.
+
+**Solution:**
+
+Step 1: For a source approaching a stationary observer:
+$$f' = f \cdot \frac{v}{v - v_s}$$
+
+Step 2: Substitute values:
+$$f' = 400 \times \frac{340}{340 - 30} = 400 \times \frac{340}{310} = 400 \times 1.097 = 438.7\,\text{Hz}$$
+
+**Answer:** The observer hears a frequency of approximately $439\,\text{Hz}$
+
+**Common mistake:** Using the wrong sign in the Doppler formula. When the source approaches, the denominator is $v - v_s$ (frequency increases). When the source recedes, it is $v + v_s$ (frequency decreases).
+
+### Example 6: Photon Energy and Photoelectric Effect
+
+**Problem:** Light of wavelength $200\,\text{nm}$ strikes a metal with work function $3.5\,\text{eV}$. Find the maximum kinetic energy of the emitted electrons ($h = 6.63 \times 10^{-34}\,\text{J s}$, $c = 3 \times 10^8\,\text{m/s}$, $1\,\text{eV} = 1.6 \times 10^{-19}\,\text{J}$).
+
+**Solution:**
+
+Step 1: Calculate photon energy:
+$$E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{200 \times 10^{-9}} = 9.945 \times 10^{-19}\,\text{J}$$
+
+Step 2: Convert to eV:
+$$E = \frac{9.945 \times 10^{-19}}{1.6 \times 10^{-19}} = 6.22\,\text{eV}$$
+
+Step 3: Apply the photoelectric equation:
+$$E_k = E - W_0 = 6.22 - 3.5 = 2.72\,\text{eV}$$
+
+**Answer:** The maximum kinetic energy is $2.72\,\text{eV}$
+
+**Common mistake:** Forgetting to convert between joules and electron volts. Always check the units requested in the answer.

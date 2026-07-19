@@ -246,3 +246,21 @@ order $\alpha^2 E_n$ where $\alpha \approx 1/137$ is the fine structure constant
 
 Angular momentum in quantum mechanics is like a spinning top that can only point in certain discrete directions. The ladder operators are like climbing stairs: you can raise or lower the magnetic quantum number one step at a time, but you cannot stop between steps. The hydrogen atom is nature's simplest atom and the hydrogen of quantum mechanics: the electron orbits the nucleus not in fixed paths but in probability clouds shaped like dumbbells, clovers, and spheres. The quantum numbers are like an address: n tells you the floor (energy), l tells you the room shape (angular momentum), and m tells you the orientation. The energy depends only on n, which is a hidden symmetry of the Coulomb potential. The selection rules are like dance rules: the electron can only jump between certain states, which is why hydrogen emits only specific colors of light.
 
+
+
+## Cross-References
+
+- **[Operators and Observables](4_operators-and-observables.md)**: Operators represent physical observables and their commutation relations determine the structure of angular momentum.
+- **[Spin](7_spin.md)**: Spin is an intrinsic angular momentum that extends the orbital angular momentum formalism.
+- **[Scattering Theory](13_scattering-theory.md)**: Scattering theory applies angular momentum techniques to analyze particle collisions.
+
+### 6.7 Common Mistakes
+
+**Mistake 1: Confusing the orbital quantum number $l$ with the magnetic quantum number $m$**
+For a given $l$, the magnetic quantum number $m$ ranges from $-l$ to $l$ in integer steps, giving $2l + 1$ values. Students sometimes confuse these and assign $m$ values outside this range. The quantum number $l$ determines the total angular momentum magnitude $\hbar\sqrt{l(l+1)}$, while $m$ determines the $z$-component $\hbar m$.
+
+**Mistake 2: Assuming $L_z$ can equal $L$**
+The $z$-component of angular momentum satisfies $|L_z| \leq \hbar l < \hbar\sqrt{l(l+1)} = |\mathbf{L}|$. The magnitude of $\mathbf{L}$ is always greater than the magnitude of any single component. This is a consequence of the uncertainty relations between $L_x$, $L_y$, and $L_z$: they cannot all be simultaneously determined.
+
+**Mistake 3: Forgetting that $l$ is restricted to integers for orbital angular momentum**
+For orbital angular momentum (defined as $\hat{\mathbf{L}} = \hat{\mathbf{r}} \times \hat{\mathbf{p}}$), $l$ must be a non-negative integer because the wave function must be single-valued under a full rotation. Half-integer $l$ values are allowed for spin angular momentum but not for orbital angular momentum. Never assign $l = 1/2$ to an orbital state.

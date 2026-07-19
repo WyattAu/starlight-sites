@@ -307,3 +307,21 @@ $V_{fi} \to \langle f|\hat{V}_1|i\rangle$.
 
 The Schrodinger equation is the quantum version of Newton's second law: it tells you how a quantum state evolves in time. The wave function is like a ghostly cloud that describes where a particle might be found, with the square of its height giving the probability. A particle in a box is like a vibrating string fixed at both ends: only certain wavelengths fit, so only certain energies are allowed. The zero-point energy is the quantum version of the jitterbug: you cannot pin a particle down completely because the uncertainty principle demands it keep moving. Probability current is like water flow: the continuity equation ensures that probability is never created or destroyed, only moved around. Unitarity guarantees that quantum mechanics is reversible: if you run time backward, you recover the initial state, just like rewinding a video.
 
+
+
+## Cross-References
+
+- **[Postulates of Quantum Mechanics](2_postulates-of-quantum-mechanics.md)**: The postulates provide the mathematical framework for wave functions and the Schrodinger equation.
+- **[Operators and Observables](4_operators-and-observables.md)**: Operators represent physical observables and act on wave functions to extract measurable quantities.
+- **[One-Dimensional Problems](5_one-dimensional-problems.md)**: The infinite square well and other 1D problems illustrate the application of the Schrodinger equation.
+
+### 3.10 Common Mistakes
+
+**Mistake 1: Forgetting to normalise the wave function**
+A physically valid wave function must satisfy $\int |\psi|^2\,dx = 1$. Students often solve the Schrodinger equation and present the unnormalised solution. The normalisation constant is determined by this integral and affects all expectation values and probabilities. Always normalise before computing physical quantities.
+
+**Mistake 2: Applying incorrect boundary conditions**
+For the infinite square well, $\psi = 0$ at the walls because the potential is infinite there. For the finite square well, $\psi$ and $d\psi/dx$ must be continuous at the boundary. For the delta function potential, $\psi$ is continuous but $d\psi/dx$ has a discontinuity. Using the wrong matching conditions gives incorrect energy eigenvalues.
+
+**Mistake 3: Assuming all wave functions are normalisable**
+Plane waves $e^{ikx}$ are not normalisable over all space and cannot represent physical states by themselves. Physical states are wave packets constructed by superposing plane waves. The energy spectrum for free particles is continuous, and the eigenfunctions form a continuum rather than a discrete set.

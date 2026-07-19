@@ -162,3 +162,9 @@ The identity theorem requires that the functions be analytic. If $f$ and $g$ are
 
 **Mistake 5: Forgetting that analytic continuation may introduce singularities.**
 When analytically continuing a function to a larger domain, new singularities may appear. For example, the Gamma function is analytic for $\mathrm{Re}(z) > 0$, but its analytic continuation to $\mathbb{C}$ has poles at $z = 0, -1, -2, \dots$. Always check for singularities in the extended domain.
+
+## Cross-References
+
+- **[Taylor and Laurent Series](7_taylor-and-laurent-series.md)**: Power series provide local representations that can be analytically continued to larger domains.
+- **[Liouville's Theorem](11_liouville-s-theorem-and-the-maximum-modulus-principle.md)**: Liouville's theorem characterizes entire functions and is used in proving uniqueness of analytic continuation.
+- **[Complex Functions and Analyticity](2_complex-functions-and-analyticity.md)**: Analyticity is the essential property that enables continuation beyond the original domain.

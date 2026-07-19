@@ -230,3 +230,9 @@ $\blacksquare$
 
 
 </aside>
+
+## Cross-References
+
+- **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation provides the foundation for deriving Euler's equations for rigid body rotation.
+- **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism gives the total energy and phase space representation of rigid body dynamics.
+- **[Noether's Theorem](5_noether-s-theorem-and-conservation-laws.md)**: Rotational symmetry leads to angular momentum conservation, which is fundamental to rigid body motion.

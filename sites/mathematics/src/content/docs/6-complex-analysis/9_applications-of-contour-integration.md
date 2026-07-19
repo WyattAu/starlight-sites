@@ -165,3 +165,9 @@ When substituting $z = e^{i\theta}$, the integral $\int_0^{2\pi} R(\cos\theta, \
 **Mistake 5: Assuming that the integral over the semicircular arc vanishes.**
 The integral over the semicircular arc vanishes only if the integrand decays sufficiently fast. For rational functions, the condition $\deg(Q) \geq \deg(P) + 2$ ensures this. For other integrands, check the decay explicitly using the ML inequality or Jordan's lemma.
 
+## Cross-References
+
+- **[Singularities and Residue Theory](8_singularities-and-residue-theory.md)**: The residue theorem provides the computational tool for evaluating contour integrals.
+- **[Complex Integration](4_complex-integration.md)**: Contour integration techniques form the foundation for evaluating real integrals.
+- **[Conformal Mappings](10_conformal-mappings.md)**: Conformal mappings can transform difficult integrals into simpler ones that are easier to evaluate.
+

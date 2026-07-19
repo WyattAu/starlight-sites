@@ -139,3 +139,9 @@ $= \frac{\pi i e^{-2}}{2} - \frac{\pi i e^2}{2} + 2\pi i e^2 = \frac{\pi i e^{-2
   $\gamma$.
 - Confusing the orientation: the contour must be positively oriented (counterclockwise).
 - Neglecting to check that $f$ is analytic **on and inside** $\gamma$, not just on $\gamma$.
+
+## Cross-References
+
+- **[Cauchy's Theorem](5_cauchy-s-theorem.md)**: Cauchy's theorem provides the foundation for the integral formula by establishing path independence.
+- **[Taylor and Laurent Series](7_taylor-and-laurent-series.md)**: The integral formula leads to power series representations of analytic functions.
+- **[Liouville's Theorem](11_liouville-s-theorem-and-the-maximum-modulus-principle.md)**: Liouville's theorem follows from Cauchy's estimates and characterizes bounded entire functions.

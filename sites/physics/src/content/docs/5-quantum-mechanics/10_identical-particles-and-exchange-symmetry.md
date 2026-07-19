@@ -139,3 +139,10 @@ $$\Psi = \frac{1}{\sqrt{3!}}\begin{vmatrix} \phi_1(r_1)\alpha(1) & \phi_1(r_1)\b
 
 The total energy is $E_1 + E_1 + E_2 = 6\pi^2\hbar^2/(2mL^2)$. The exchange splitting between the two possible spin configurations (total $S = 1/2$) depends on the exchange integral $K_{12}$ between the $n = 1$ and $n = 2$ states.
 
+
+
+## Cross-References
+
+- **[Spin](7_spin.md)**: Spin is an intrinsic angular momentum that determines particle statistics and exchange symmetry.
+- **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom.md)**: Angular momentum theory provides the foundation for understanding spin statistics.
+- **[Approximation Methods](8_approximation-methods.md)**: Perturbation theory and variational methods are essential for solving many-body quantum problems.

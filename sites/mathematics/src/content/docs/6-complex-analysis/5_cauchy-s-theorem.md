@@ -145,3 +145,9 @@ Hence $\int_0^\infty \frac{\sqrt{x}}{x^2 + 1}\,dx = \frac{\pi}{\sqrt{2}}$.
 - **Signal processing:** The Laplace and Fourier transforms rely on contour integration techniques derived from Cauchy's theorem.
 - **Number theory:** Contour integrals related to the Riemann zeta function use Cauchy's theorem to establish properties of prime number distribution.
 
+## Cross-References
+
+- **[Complex Integration](4_complex-integration.md)**: Contour integration provides the foundation for understanding Cauchy's theorem.
+- **[Cauchy's Integral Formula](6_cauchy-s-integral-formula.md)**: The integral formula extends Cauchy's theorem to express function values via boundary integrals.
+- **[Singularities and Residue Theory](8_singularities-and-residue-theory.md)**: The residue theorem computes integrals by summing contributions from singularities inside contours.
+

@@ -169,3 +169,9 @@ Conformal maps preserve angles but not distances. A conformal map can stretch or
 **Mistake 5: Forgetting the cross-ratio invariance property.**
 The cross-ratio $(z_1, z_2, z_3, z_4)$ is invariant under Möbius transformations. This property is useful for constructing Möbius transformations that map three given points to three specified points. Do not forget to use the cross-ratio when solving such problems.
 
+## Cross-References
+
+- **[Complex Functions and Analyticity](2_complex-functions-and-analyticity.md)**: Analytic functions with non-zero derivatives provide the foundation for conformal mappings.
+- **[Applications of Contour Integration](9_applications-of-contour-integration.md)**: Conformal mappings transform difficult integrals into simpler ones that are easier to evaluate.
+- **[Argument Principle and Rouché's Theorem](12_argument-principle-and-rouch-s-theorem.md)**: The argument principle counts zeros and poles using the change in argument along contours.
+

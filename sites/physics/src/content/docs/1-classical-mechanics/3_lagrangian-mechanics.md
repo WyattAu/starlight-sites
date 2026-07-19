@@ -316,3 +316,20 @@ natural before identifying $h$ With the total energy.
 
 
 </aside>
+
+## Cross-References
+
+- **[Generalised Coordinates and Constraints](2_generalised-coordinates-and-constraints.md)**: Generalised coordinates and constraints provide the foundation for formulating the Lagrangian.
+- **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism extends Lagrangian mechanics to phase space and provides energy conservation.
+- **[Noether's Theorem](5_noether-s-theorem-and-conservation-laws.md)**: Noether's theorem connects symmetries of the Lagrangian to conserved quantities.
+
+### 3.11 Common Mistakes
+
+**Mistake 1: Including constraint forces in the Lagrangian**
+The Lagrangian formulation eliminates constraint forces (like normal forces or tension in a string) by choosing appropriate generalised coordinates. A common error is adding the constraint force back into the Euler-Lagrange equations. Constraint forces do no work in holonomic systems and should not appear in $L = T - V$.
+
+**Mistake 2: Assuming $L = T - V$ always gives the correct equations**
+The Lagrangian $L = T - V$ is valid when the potential $V$ is velocity-independent and the coordinate transformation is scleronomic (time-independent). For rheonomic constraints or velocity-dependent potentials, the correct Lagrangian may differ. Always verify the conditions under which $L = T - V$ applies.
+
+**Mistake 3: Forgetting that the action is stationary, not necessarily minimised**
+Hamilton's principle states the action is stationary ($\delta S = 0$), not necessarily minimised. The actual path can be a saddle point or even a local maximum of the action. The stationarity condition is what yields the Euler-Lagrange equations, and the second variation determines whether the path is a minimum.

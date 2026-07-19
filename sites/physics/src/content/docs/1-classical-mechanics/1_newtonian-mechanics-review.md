@@ -328,3 +328,14 @@ without any ad-hoc force terms.
 
 
 </aside>
+
+### 1.13 Common Mistakes
+
+**Mistake 1: Confusing mass with weight**
+Mass is an intrinsic property of an object (measured in kg), while weight is the gravitational force on it ($W = mg$, measured in N). Students often use "weight" when they mean "mass" and apply $F = mg$ without recognising that $g$ varies with location. On the Moon, your mass is the same but your weight is about one-sixth of Earth's.
+
+**Mistake 2: Getting the direction of friction wrong**
+Kinetic friction opposes the direction of motion relative to the surface, not the direction of the applied force. Static friction opposes the tendency of motion and can point in any direction along the surface. A common error is assuming friction always acts opposite to the applied force, which fails when the applied force has a component parallel to the surface that does not cause motion.
+
+**Mistake 3: Forgetting that Newton's third law pairs act on different objects**
+The action-reaction pair in Newton's third law always acts on different objects. If object A exerts a force on object B, then object B exerts an equal and opposite force on object A. These forces do not cancel because they act on different bodies. A frequent mistake is adding action-reaction forces together and concluding the net force is zero.

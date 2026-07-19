@@ -165,6 +165,10 @@ understanding electronic, photonic, and energy-harvesting technologies.
 
 The IQHE is used to define the ohm internationally; $R_K$ is exact by definition since 2019.
 
+## Intuition
+
+The quantum Hall effect reveals that in a strong magnetic field at low temperature, the Hall resistance of a two-dimensional electron gas becomes quantized in integer multiples of $h/e^2$. This occurs because the magnetic field quantizes the electron orbits into discrete Landau levels, and the filling factor determines how many levels are occupied. Plateaus appear because localized states in the gaps between Landau levels pin the Fermi energy, making the Hall resistance insensitive to small changes in field or density. The integer quantum Hall effect is topological: the quantization is exact regardless of sample geometry or impurities, protected by the topology of the electron's band structure in magnetic field.
+
 ## Cross-References
 
 | Topic                           | Site        | Link                                                                                       |

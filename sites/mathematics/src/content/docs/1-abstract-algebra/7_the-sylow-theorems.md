@@ -132,6 +132,17 @@ _Proof sketch._ If $G$ is simple and $|G| = p^n m$ with $\gcd(p, m) = 1$ and $m 
 (since $n_p \neq 1$And $n_p$ divides $m$ with $n_p \equiv 1 \pmod{p}$). For many orders,
 $n_p = 1$Forcing a normal Sylow subgroup and contradicting simplicity. $\blacksquare$
 
+### 7.8 Common Mistakes
+
+**Mistake 1: Assuming Sylow $p$-subgroups are unique**
+Sylow's first theorem guarantees existence but not uniqueness. The number $n_p$ of Sylow $p$-subgroups can be greater than $1$. Only when $n_p = 1$ is the Sylow $p$-subgroup unique and therefore normal. Always compute $n_p$ from the constraints $n_p \equiv 1 \pmod{p}$ and $n_p \mid m$ before concluding uniqueness.
+
+**Mistake 2: Assuming a Sylow $p$-subgroup is automatically normal**
+A Sylow $p$-subgroup is normal if and only if it is the unique Sylow $p$-subgroup ($n_p = 1$). Sylow's second theorem states that all Sylow $p$-subgroups are conjugate, so if $n_p > 1$, none of them are normal. For example, in $S_3$ with $|S_3| = 6 = 2 \cdot 3$, the Sylow $2$-subgroups are not normal.
+
+**Mistake 3: Misapplying Sylow's third theorem constraints**
+The conditions $n_p \equiv 1 \pmod{p}$ and $n_p \mid m$ are necessary but not sufficient to determine $n_p$ uniquely. For instance, if $|G| = 48 = 2^4 \cdot 3$, then $n_2$ divides $3$ and $n_2 \equiv 1 \pmod{2}$, giving $n_2 \in \{1, 3\}$. Both values satisfy the congruence condition, so further group-theoretic arguments are needed to pin down $n_p$.
+
 <aside class="starlight-aside starlight-aside--caution">
 $p$-subgroups, But they are all conjugate. A common mistake is to assume $n_p = 1$ without checking
 the Sylow Conditions. Always verify that $n_p \equiv 1 \pmod{p}$ and $n_p$ divides $m$.

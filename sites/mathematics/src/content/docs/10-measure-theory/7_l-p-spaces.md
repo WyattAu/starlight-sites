@@ -124,7 +124,16 @@ $\blacksquare$
 
 </details>
 
-### 7.12 Weak $L^p$ and Lorentz Spaces
+### 7.14 Common Mistakes
+
+**Mistake 1: Confusing $L^p$ spaces with $\ell^p$ spaces**
+$L^p(\mu)$ consists of measurable functions with finite $p$-norm, while $\ell^p$ consists of sequences with finite $p$-norm. They are different spaces: $L^p$ is a function space and $\ell^p$ is a sequence space. For counting measure on $\mathbb{N}$, $L^p(\mathbb{N})$ coincides with $\ell^p$, but this is a special case.
+
+**Mistake 2: Assuming $L^p$ convergence implies pointwise convergence**
+$L^p$ convergence does not imply pointwise convergence everywhere. A sequence can converge in $L^p$-norm while diverging on a set of measure zero. Conversely, pointwise convergence a.e. does not imply $L^p$ convergence (counterexample: $f_n = n\chi_{[0,1/n]}$). Use the dominated convergence theorem to bridge the two.
+
+**Mistake 3: Assuming completeness implies reflexivity**
+$L^p$ spaces are complete (Banach spaces) for all $1 \leq p \leq \infty$, but they are reflexive only for $1 < p < \infty$. The spaces $L^1$ and $L^\infty$ are not reflexive. Reflexivity requires the natural embedding into the bidual to be surjective, which fails for $p = 1$ and $p = \infty$.
 
 **Definition.** The **weak $L^p$ space** $L^{p,\infty}(\mu)$ consists of measurable functions for which
 

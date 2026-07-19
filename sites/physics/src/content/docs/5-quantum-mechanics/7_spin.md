@@ -274,3 +274,10 @@ The singlet state $|0,0\rangle$ is antisymmetric under particle exchange, while 
 **Mistake 5: Assuming that spin-1/2 particles have only two states.**
 A single spin-1/2 particle has two states ($|\uparrow\rangle$ and $|\downarrow\rangle$), but a system of two spin-1/2 particles has four states (triplet and singlet). Do not assume that the number of states is always two; it depends on the number of particles.
 
+
+
+## Cross-References
+
+- **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom.md)**: Orbital angular momentum provides the foundation for understanding spin as an intrinsic angular momentum.
+- **[Operators and Observables](4_operators-and-observables.md)**: Operators represent physical observables and their commutation relations determine spin algebra.
+- **[Identical Particles and Exchange Symmetry](10_identical-particles-and-exchange-symmetry.md)**: Spin statistics connect spin to particle exchange symmetry and quantum statistics.

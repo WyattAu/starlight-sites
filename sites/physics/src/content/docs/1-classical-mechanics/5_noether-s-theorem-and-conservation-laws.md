@@ -148,3 +148,10 @@ $$p_\phi = \frac{\partial L}{\partial \dot{\phi}} = mr^2\sin^2\theta\,\dot{\phi}
 This is the $z$-component of angular momentum. By Noether's theorem, the full angular momentum
 vector Is conserved for any central potential. $\blacksquare$
 
+
+
+## Cross-References
+
+- **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation provides the framework for applying Noether's theorem to find conserved quantities.
+- **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism expresses conserved quantities as functions of phase space variables.
+- **[Central Force Problems](6_central-force-problems.mdx)**: Central potentials exhibit rotational symmetry, leading to angular momentum conservation via Noether's theorem.

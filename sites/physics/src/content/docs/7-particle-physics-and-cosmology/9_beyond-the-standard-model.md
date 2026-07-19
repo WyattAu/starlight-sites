@@ -152,6 +152,10 @@ Several experiments are probing physics beyond the Standard Model:
 | Euclid                   | Space telescope    | Dark energy, modified gravity           |
 | Future Circular Collider | CERN (proposed)    | Precision Higgs, new physics at 100 TeV |
 
+## Intuition
+
+The Standard Model is remarkably successful but leaves major questions unanswered: what is dark matter, why is there more matter than antimatter, and why are the forces so different in strength. Supersymmetry proposes that every particle has a heavier partner, solving the hierarchy problem and potentially providing a dark matter candidate. Grand unification tries to merge the three forces into one at high energy, requiring new physics to make the coupling constants meet. String theory replaces point particles with vibrating strings, naturally incorporating gravity but requiring extra dimensions. The hierarchy problem is the puzzle of why the Higgs mass is so much lighter than the Planck scale, suggesting unknown symmetry or dynamics at work.
+
 ### 9.5 Common Mistakes
 
 **Mistake 1: Assuming that supersymmetry has been experimentally confirmed.**

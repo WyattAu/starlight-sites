@@ -471,9 +471,96 @@ encoder layers with lr=1e-5 and continue training. Use binary cross-entropy loss
 
 **Problem:** At time step t, the old policy assigns probability 0.3 to action a_t, and the new
 policy assigns 0.5. The advantage is A_t = 0.8. epsilon = 0.2. Compute the clipped objective.
-**Solution:** r_t(θ) = 0.5/0.3 = 1.667. Clipped r_t in [1-0.2, 1+0.2] = [0.8, 1.2]. r_t = 1.667 is
-clipped to 1.2. L(θ) = min(1.667 × 0.8, 1.2 × 0.8) = min(1.333, 0.96) = 0.96. The clip prevents the
-destructively large update from the high probability ratio.
+
+**Solution:**
+
+Step 1: Compute the probability ratio:
+$$r_t(\theta) = \frac{\pi_\theta(a_t | s_t)}{\pi_{\theta_{old}}(a_t | s_t)} = \frac{0.5}{0.3} = 1.667$$
+
+Step 2: Compute the clipped ratio:
+$$\text{clip}(r_t(\theta), 1 - \epsilon, 1 + \epsilon) = \text{clip}(1.667, 0.8, 1.2) = 1.2$$
+
+Step 3: Compute both terms:
+$$r_t(\theta) \cdot A_t = 1.667 \times 0.8 = 1.333$$
+$$\text{clip}(r_t(\theta), 0.8, 1.2) \cdot A_t = 1.2 \times 0.8 = 0.96$$
+
+Step 4: Take the minimum:
+$$L(\theta) = \min(1.333, 0.96) = 0.96$$
+
+**Answer:** The clipped objective is 0.96. The clip prevents the destructively large update.
+
+**Common mistake:** Taking the maximum instead of the minimum. PPO clips to prevent the ratio from moving too far from 1, so we take the minimum to be conservative.
+
+### Example 4: Computing Self-Attention (Detailed)
+
+**Problem:** Given a sequence of 3 tokens with d_k = 2, compute the self-attention output.
+Token A = [1, 0], Token B = [0, 1], Token C = [1, 1]. W_Q, W_K, W_V are identity matrices.
+
+**Solution:**
+
+Step 1: Compute Q, K, V (identity projections, so Q = K = V = X):
+$$Q = K = V = \begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 1 \end{pmatrix}$$
+
+Step 2: Compute attention scores QK^T:
+$$QK^T = \begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 1 \end{pmatrix} \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \end{pmatrix} = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 1 & 1 & 2 \end{pmatrix}$$
+
+Step 3: Scale by $\sqrt{d_k} = \sqrt{2}$:
+$$\frac{QK^T}{\sqrt{2}} = \begin{pmatrix} 0.707 & 0 & 0.707 \\ 0 & 0.707 & 0.707 \\ 0.707 & 0.707 & 1.414 \end{pmatrix}$$
+
+Step 4: Apply softmax row-wise (each row sums to 1):
+Row 1: softmax([0.707, 0, 0.707]) = [0.420, 0.160, 0.420]
+Row 2: softmax([0, 0.707, 0.707]) = [0.160, 0.420, 0.420]
+Row 3: softmax([0.707, 0.707, 1.414]) = [0.211, 0.211, 0.578]
+
+Step 5: Compute output = softmax(QK^T/sqrt(d_k)) * V:
+$$\text{Output}_A = 0.420 \times [1,0] + 0.160 \times [0,1] + 0.420 \times [1,1] = [0.840, 0.580]$$
+$$\text{Output}_B = 0.160 \times [1,0] + 0.420 \times [0,1] + 0.420 \times [1,1] = [0.580, 0.840]$$
+$$\text{Output}_C = 0.211 \times [1,0] + 0.211 \times [0,1] + 0.578 \times [1,1] = [0.789, 0.789]$$
+
+**Answer:** Each token now has a context-aware representation that incorporates information from all other tokens.
+
+**Common mistake:** Forgetting to scale by sqrt(d_k). Without scaling, large dot products cause the softmax to saturate, producing nearly one-hot attention weights.
+
+### Example 5: KL Divergence in VAE Training
+
+**Problem:** A VAE encoder produces a latent distribution $q(z|x) = \mathcal{N}(0.5, 0.25)$ and the prior is $p(z) = \mathcal{N}(0, 1)$. Compute the KL divergence term.
+
+**Solution:**
+
+Step 1: KL divergence between two Gaussians $\mathcal{N}(\mu_1, \sigma_1^2)$ and $\mathcal{N}(\mu_2, \sigma_2^2)$:
+$$KL = \ln\frac{\sigma_2}{\sigma_1} + \frac{\sigma_1^2 + (\mu_1 - \mu_2)^2}{2\sigma_2^2} - \frac{1}{2}$$
+
+Step 2: Substitute $\mu_1 = 0.5$, $\sigma_1^2 = 0.25$, $\mu_2 = 0$, $\sigma_2^2 = 1$:
+$$KL = \ln\frac{1}{0.5} + \frac{0.25 + (0.5 - 0)^2}{2 \times 1} - \frac{1}{2}$$
+
+Step 3: Compute:
+$$KL = \ln 2 + \frac{0.25 + 0.25}{2} - 0.5 = 0.693 + 0.25 - 0.5 = 0.443$$
+
+**Answer:** The KL divergence is approximately 0.443 nats.
+
+**Common mistake:** Using the wrong formula for KL divergence between Gaussians. The formula involves both the mean difference and the variance ratio.
+
+### Example 6: Q-Learning Update
+
+**Problem:** In a grid world, an agent is in state $s = (2, 3)$, takes action $a = \text{right}$, receives reward $r = -1$, and transitions to state $s' = (2, 4)$. The current Q-value is $Q(s, a) = 5.0$. The learning rate is $\alpha = 0.1$, discount factor $\gamma = 0.9$, and $\max_{a'} Q(s', a') = 4.0$. Compute the updated Q-value.
+
+**Solution:**
+
+Step 1: Apply the Q-learning update rule:
+$$Q(s, a) \leftarrow Q(s, a) + \alpha[r + \gamma \max_{a'} Q(s', a') - Q(s, a)]$$
+
+Step 2: Substitute values:
+$$Q(s, a) \leftarrow 5.0 + 0.1[-1 + 0.9 \times 4.0 - 5.0]$$
+
+Step 3: Compute the temporal difference error:
+$$\delta = -1 + 3.6 - 5.0 = -2.4$$
+
+Step 4: Update:
+$$Q(s, a) \leftarrow 5.0 + 0.1 \times (-2.4) = 5.0 - 0.24 = 4.76$$
+
+**Answer:** The updated Q-value is 4.76. The negative TD error indicates the outcome was worse than expected.
+
+**Common mistake:** Forgetting to include the discount factor $\gamma$ when computing the target value. The target is $r + \gamma \max Q(s', a')$, not $r + \max Q(s', a')$.
 
 1. **Treating accuracy as the only metric.** A model that is 99.5% accurate on an imbalanced dataset
    with a 99% majority class is performing worse than random guessing on the minority class. Use

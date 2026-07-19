@@ -153,3 +153,14 @@ The negative sign indicates the image is inverted.
 
 Geometric optics treats light as rays that travel in straight lines and bend when they cross between materials. Snell's law is nature minimizing travel time: light bends at an interface because it travels at different speeds in different media, just as a lifeguard running on sand and swimming in water takes a path that minimizes total rescue time. Total internal reflection is like a one-way mirror: light coming from the dense side at a shallow enough angle cannot escape and bounces back perfectly, which is how fiber optic cables trap and guide light over kilometers. A lens is like a carefully shaped hill that redirects rays to converge at a focal point. The thin lens equation is simply counting how much bending each surface contributes. Mirrors work the same way but with reflection instead of refraction.
 
+### 6.8 Common Mistakes
+
+**Mistake 1: Sign errors in the thin lens and mirror equations**
+The sign convention is the most common source of errors. For lenses, a real object has $s > 0$, a real image has $s' > 0$ (on the opposite side), and a virtual image has $s' < 0$. For concave mirrors $f > 0$, for convex mirrors $f < 0$. Students often forget that the magnification $M = -s'/s$ includes a sign that indicates image orientation.
+
+**Mistake 2: Confusing real and virtual images**
+A real image is formed by converging rays and can be projected onto a screen. A virtual image is formed by diverging rays that appear to come from a point behind the optical element. A concave mirror forms a real image when the object is outside the focal point and a virtual image inside it. Students sometimes assume mirrors always form virtual images.
+
+**Mistake 3: Misidentifying the direction of total internal reflection**
+Total internal reflection occurs only when light travels from a denser medium to a rarer medium ($n_1 > n_2$) at an angle greater than the critical angle. It does not occur in the opposite direction. Students sometimes apply the critical angle formula regardless of the direction of propagation, which gives incorrect results.
+

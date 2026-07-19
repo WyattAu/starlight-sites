@@ -170,3 +170,9 @@ $E[XY] = E[X]E[Y]$ holds only when $X$ and $Y$ are independent (or uncorrelated)
 **Mistake 5: Forgetting that variance is not linear.**
 $\mathrm{Var}(aX + b) = a^2 \mathrm{Var}(X)$, not $a \mathrm{Var}(X) + b$. The variance of a sum is $\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y) + 2\mathrm{Cov}(X, Y)$. If $X$ and $Y$ are independent, then $\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$, but this does not hold in general.
 
+## Cross-References
+
+- **[Probability Spaces](1_probability-spaces.md)**: Probability spaces provide the foundational framework for defining random variables and their distributions.
+- **[Joint Distributions and Independence](3_joint-distributions-and-independence.md)**: Joint distributions describe the behavior of multiple random variables simultaneously.
+- **[Limit Theorems](4_limit-theorems.md)**: The central limit theorem shows that sums of random variables converge to normal distributions.
+

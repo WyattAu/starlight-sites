@@ -161,3 +161,9 @@ The Cauchy-Riemann equations are necessary but not sufficient for analyticity. E
 **Mistake 5: Forgetting that analytic functions are infinitely differentiable.**
 If $f$ is analytic on a domain $D$, then $f$ is infinitely differentiable on $D$. This is a powerful property that does not hold for real-differentiable functions. Do not assume that an analytic function has only finitely many derivatives.
 
+## Cross-References
+
+- **[Complex Numbers Review](1_complex-numbers-review.md)**: Complex arithmetic and polar form provide the foundation for understanding complex functions.
+- **[Cauchy-Riemann Equations](3_the-cauchy-riemann-equations.md)**: The Cauchy-Riemann equations are necessary and sufficient conditions for analyticity.
+- **[Complex Integration](4_complex-integration.md)**: Integration of analytic functions leads to powerful results like Cauchy's integral theorem.
+

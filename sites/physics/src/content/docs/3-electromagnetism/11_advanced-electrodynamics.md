@@ -213,3 +213,9 @@ dipole ($D = 1.5$).
 
 </details>
 
+## Intuition
+
+Antenna theory describes how oscillating currents generate electromagnetic radiation. A half-wave dipole has a current distribution shaped like a half-sine wave along its length, producing a radiation pattern that is doughnut-shaped with maximum intensity broadside to the antenna. The radiation resistance quantifies how efficiently the antenna converts input power into radiated power. The key physical picture is that the accelerating charges in the antenna create time-varying electric and magnetic fields that detach from the antenna and propagate outward as a self-sustaining electromagnetic wave. The impedance matching between the antenna and the transmission line determines how much power is reflected versus radiated.
+
+</aside>
+

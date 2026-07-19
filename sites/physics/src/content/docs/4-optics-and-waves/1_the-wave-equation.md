@@ -283,3 +283,14 @@ velocity (front velocity) never Exceeds $c$.
 Waves are disturbances that travel without the medium itself moving. Throw a stone into a pond and the ripples spread outward, but the water molecules mostly bob up and down. The wave equation captures this essential behavior: the second time derivative equals a constant times the second spatial derivative, meaning the acceleration of any point is proportional to how different its neighbors are from it. Standing waves are like a dance where two identical waves moving in opposite directions create a pattern of fixed nodes and oscillating antinodes. A guitar string vibrates this way: the ends cannot move, so only certain frequencies fit. Group velocity is how fast information or energy travels, while phase velocity is how fast individual crests move. In dispersive media, these differ, which is why ocean waves can have crests moving faster than the overall wave front.
 
 </aside>
+
+### 1.7 Common Mistakes
+
+**Mistake 1: Confusing phase velocity with group velocity**
+Phase velocity $v_p = \omega/k$ is the speed of individual wave crests, while group velocity $v_g = d\omega/dk$ is the speed of the wave packet envelope (and hence of information). In non-dispersive media they are equal, but in dispersive media they differ. A common error is assuming energy travels at the phase velocity, which is incorrect when dispersion is present.
+
+**Mistake 2: Forgetting that standing waves do not transport energy**
+A standing wave is a superposition of two counter-propagating waves of equal amplitude. The net energy flux is zero because the energy flowing in one direction is exactly cancelled by energy flowing in the other. Students sometimes assume standing waves carry energy because individual travelling waves do. The energy in a standing wave oscillates between kinetic and potential forms but does not propagate.
+
+**Mistake 3: Misapplying superposition to non-linear media**
+The superposition principle applies only to linear media. In non-linear optics (e.g., high-intensity lasers in certain crystals), waves interact and the total field is not simply the sum of individual fields. The wave equation itself is derived from Maxwell's equations, which are linear in vacuum, but material responses can introduce non-linearity.

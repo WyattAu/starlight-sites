@@ -61,3 +61,14 @@ Each section includes:
 3. **Draw diagrams**: Visualise vector spaces, transformations, and decompositions
 4. **Learn standard examples**: Know the properties of common matrices (diagonal, symmetric, orthogonal)
 5. **Connect to applications**: Relate linear algebra to data science, physics, and engineering
+
+### 2.1 Common Mistakes
+
+**Mistake 1: Assuming $AB = BA$ for matrix multiplication**
+Matrix multiplication is not commutative. Even when both $AB$ and $BA$ are defined and have the same dimensions, they are generally not equal. For example, with $A = \begin{pmatrix} 0 & 1 \\ 0 & 0 \end{pmatrix}$ and $B = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}$, we get $AB \neq BA$. Always check the order of multiplication carefully.
+
+**Mistake 2: Assuming eigenvectors of a symmetric matrix are orthogonal only for distinct eigenvalues**
+Eigenvectors corresponding to distinct eigenvalues of a symmetric (Hermitian) matrix are always orthogonal, but eigenvectors within the same eigenspace are not automatically orthogonal. When an eigenvalue has multiplicity greater than one, you must apply the Gram-Schmidt process to obtain an orthonormal basis for that eigenspace.
+
+**Mistake 3: Confusing the column space with the null space**
+The column space of $A$ consists of all vectors $A\mathbf{x}$, while the null space consists of all $\mathbf{x}$ such that $A\mathbf{x} = \mathbf{0}$. These are subspaces of different spaces in general (column space in the codomain, null space in the domain). The rank-nullity theorem relates their dimensions, but they are not the same object.

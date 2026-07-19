@@ -204,9 +204,13 @@ _If you get this wrong, revise:_ Section 3.5 (Cauchy Condensation Test).
 
 </details>
 
-<aside class="starlight-aside starlight-aside--caution">
-cases, try the comparison Test, integral test, or other methods. For example, $\sum 1/n$ diverges
-(harmonic series) and $\sum 1/n^2$ converges, but both give a ratio test limit of 1.
+### 3.8 Common Mistakes
 
+**Mistake 1: Assuming absolute convergence from conditional convergence**
+A series that converges conditionally (like the alternating harmonic series) does not converge absolutely. Applying the ratio test or root test to a conditionally convergent series gives $L = 1$, which is inconclusive. Always test for absolute convergence separately and use the alternating series test when appropriate.
 
-</aside>
+**Mistake 2: Misapplying the ratio test when the limit equals 1**
+When $\lim |a_{n+1}/a_n| = 1$, the ratio test tells you nothing. Many students conclude convergence or divergence incorrectly in this case. For example, $\sum 1/n$ and $\sum 1/n^2$ both give ratio test limit $1$, yet the first diverges and the second converges. Use another test when $L = 1$.
+
+**Mistake 3: Confusing rearrangement of absolutely and conditionally convergent series**
+The Riemann rearrangement theorem states that any conditionally convergent series can be rearranged to converge to any value. Students often assume that rearranging a series preserves its sum, which is only true for absolutely convergent series. Always check absolute convergence before rearranging terms.

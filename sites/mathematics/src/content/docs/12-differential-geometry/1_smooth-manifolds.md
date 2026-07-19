@@ -157,3 +157,14 @@ $\mathbb{R}^3$.
 
 **Problem 5.** Construct an atlas for $\mathbb{RP}^2$ and verify that the transition maps are
 smooth.
+
+### 1.10 Common Mistakes
+
+**Mistake 1: Confusing a chart with an atlas**
+A chart $(U, \varphi)$ maps a single open set to $\mathbb{R}^n$, while an atlas is a collection of charts that cover the entire manifold. A single chart is not sufficient for most manifolds (e.g., $S^1$ requires at least two charts). An atlas must have smooth transition maps on all overlaps.
+
+**Mistake 2: Assuming embedded submanifolds are the same as immersed submanifolds**
+An embedded submanifold has the subspace topology, while an immersed submanifold may have a finer topology. For example, a dense line on a torus is an immersed submanifold but not embedded. The key difference is that embedded submanifolds are locally flat in the ambient manifold, while immersed submanifolds may self-intersect globally.
+
+**Mistake 3: Forgetting that partitions of unity are necessary for gluing local constructions**
+Local objects like Riemannian metrics or differential forms can be defined on each chart, but gluing them into a global object requires a partition of unity. Without it, there is no canonical way to combine local data that agree on overlaps. Partitions of unity always exist on smooth manifolds, which is a key reason smoothness is assumed.

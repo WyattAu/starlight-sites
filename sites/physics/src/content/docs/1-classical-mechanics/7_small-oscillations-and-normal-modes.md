@@ -150,3 +150,10 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 | Beat phenomenon | Two pendulums with close frequencies exchange energy periodically |
 | Degeneracy | When $\omega_\alpha = \omega_\beta$, eigenvectors are not uniquely determined |
 
+
+
+## Cross-References
+
+- **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation provides the foundation for analyzing small oscillations and normal modes.
+- **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism gives the total energy and phase space representation of normal mode oscillations.
+- **[Rigid Body Dynamics](8_rigid-body-dynamics.md)**: Rigid body rotations exhibit normal modes that describe small oscillations about equilibrium orientations.

@@ -164,3 +164,9 @@ The correlation coefficient $\rho(X, Y)$ measures the strength of the linear rel
 
 **Mistake 5: Assuming that linear regression is appropriate for nonlinear relationships.**
 Linear regression fits a straight line to the data, but if the relationship between $X$ and $Y$ is nonlinear, the regression line may be misleading. Always check the scatterplot and consider nonlinear models if the relationship appears curved.
+
+## Cross-References
+
+- **[Random Variables](2_random-variables.md)**: Random variables provide the building blocks for constructing joint distributions and analyzing dependence.
+- **[Probability Spaces](1_probability-spaces.md)**: Probability spaces provide the measure-theoretic foundation for defining joint distributions.
+- **[Limit Theorems](4_limit-theorems.md)**: The central limit theorem extends to sums of independent random variables with different distributions.

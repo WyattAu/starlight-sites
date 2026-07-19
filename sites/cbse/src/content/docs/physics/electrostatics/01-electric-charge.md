@@ -1,11 +1,11 @@
 ---
 title: "Electric charge"
-description: "CBSE Class 12 physics: Electric charge"
+description: "CBSE Class 12 physics: Electric charge with Coulomb's law, superposition principle, and worked examples."
 ---
 
 # Electric charge
 
-Study notes for CBSE Class 12 physics - Electric charge.
+Electric charge is a fundamental property of matter. This topic covers Coulomb's law, the superposition principle, quantization, and conservation of charge.
 
 ## Key Concepts
 
@@ -13,6 +13,9 @@ Study notes for CBSE Class 12 physics - Electric charge.
 - Principle of superposition: $\vec{F}_{net} = \sum \vec{F}_i$
 - Quantization of charge: $q = ne$, where $e = 1.6 \times 10^{-19} \, \text{C}$
 - Conservation of charge: total charge in an isolated system is constant
+- Like charges repel, unlike charges attract
+- Charge is conserved in all interactions (nuclear, chemical, etc.)
+- The force between two charges is along the line joining them
 
 ## Worked Example 1 — Coulomb's Law (Two Charges)
 
@@ -24,6 +27,8 @@ $$= 9 \times 10^9 \times \frac{15 \times 10^{-12}}{0.04} = 9 \times 10^9 \times 
 $$= 3.375 \, \text{N}$$
 
 Since the charges have opposite signs, the force is attractive (directed toward each other).
+
+**Common mistake:** Forgetting to convert microcoulombs to coulombs. Always write $3 \, \mu\text{C} = 3 \times 10^{-6} \, \text{C}$ before substituting.
 
 ## Worked Example 2 — Superposition of Forces
 
@@ -46,6 +51,8 @@ $$|\vec{F}_{net}| = \sqrt{5.4^2 + 7.2^2} = \sqrt{29.16 + 51.84} = \sqrt{81} = 9 
 
 Direction: $\theta = \tan^{-1}\left(\frac{7.2}{5.4}\right) \approx 53.1^\circ$ below the $x$-axis.
 
+**Common mistake:** Adding force magnitudes directly without considering direction. Forces are vectors and must be added using vector components.
+
 ## Worked Example 3 — Equilibrium of Three Charges
 
 **Problem:** A charge $q_1 = +4 \, \mu\text{C}$ is at the origin and $q_2 = +9 \, \mu\text{C}$ is at $x = 3$ m. Where should a third charge $q_3$ be placed on the $x$-axis so that it is in equilibrium?
@@ -63,6 +70,8 @@ $$2(3-x) = 3x \implies 6 - 2x = 3x \implies x = 1.2 \, \text{m}$$
 
 The third charge should be placed at $x = 1.2$ m from the origin.
 
+**Common mistake:** Taking the negative square root. Since we are looking for a position between the charges where both forces oppose, the solution must be between $x = 0$ and $x = 3$.
+
 ## Practice Problems
 
 1. Two charges of $+6 \, \mu\text{C}$ and $-2 \, \mu\text{C}$ are 0.3 m apart. Find the force between them.
@@ -73,3 +82,19 @@ The third charge should be placed at $x = 1.2$ m from the origin.
 
 4. Three equal charges of $+2 \, \mu\text{C}$ are placed at the vertices of an equilateral triangle of side 0.1 m. Find the net force on any one charge.
 5. A charge $q_1 = +1 \, \mu\text{C}$ is at the origin and $q_2 = +4 \, \mu\text{C}$ is at $x = 6$ m. A third charge is placed at $x = 2$ m. Find the net force on the third charge.
+
+## Common Exam Patterns
+
+- Always convert units to SI before substituting into Coulomb's law
+- When finding net force on a charge, compute each force separately and add as vectors
+- For equilibrium problems, set the magnitudes of opposing forces equal
+- The equilibrium position between two like charges is always between them, closer to the smaller charge
+- Coulomb's law applies only to point charges or spherical charge distributions
+
+## Exam Tips
+
+1. Draw a diagram showing all charges and the point where force is to be calculated.
+2. Use vector notation to avoid sign errors when forces act in different directions.
+3. Remember that Coulomb's law gives the magnitude; determine the direction from the signs of the charges.
+4. For three or more charges, use the superposition principle: compute the force from each pair separately.
+5. Check that your answer makes physical sense: like charges repel, unlike charges attract.

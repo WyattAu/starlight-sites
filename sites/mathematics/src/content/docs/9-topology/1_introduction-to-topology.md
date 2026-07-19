@@ -183,3 +183,9 @@ Homeomorphism preserves topological properties but not geometric ones. A coffee 
 3. Show that every closed subset of a compact space is compact.
 4. Find the closure, interior, and boundary of $\mathbb{Q} \subseteq \mathbb{R}$.
 5. Prove that $X$ is Hausdorff iff the diagonal $\Delta = \{(x, x) : x \in X\} \subseteq X \times X$ is closed.
+
+## Cross-References
+
+- **[Metric Spaces](7_metric-spaces.md)**: Metric spaces induce topologies through open balls, providing concrete examples of topological concepts.
+- **[Continuity and Homeomorphisms](4_continuity-and-homeomorphisms.md)**: Continuous functions and homeomorphisms are fundamental morphisms in topology.
+- **[Topological Spaces](2_topological-spaces.md)**: Detailed study of topological space definitions, bases, and subspace topologies.

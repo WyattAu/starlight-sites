@@ -227,4 +227,19 @@ $\delta\lambda = \lambda/\mathcal{R} = 500/1.19 \times 10^5 = 4.20 \times 10^{-3
 </details>
 
 
+## Intuition
+
+Interference occurs when two or more coherent waves overlap and their amplitudes add, producing regions of constructive and destructive combination. The path difference between the waves determines whether peaks align with peaks (bright) or peaks align with troughs (dark). Young's double slit demonstrates that light from a single source, split and recombined, produces a fringe pattern whose spacing depends on wavelength and geometry. A Fabry-Perot etalon uses multiple reflections between parallel mirrors to create extremely narrow transmission peaks, acting like a spectral magnifying glass. The finesse quantifies how sharp these peaks are, determined by how reflective the mirrors are.
+
 </aside>
+
+### 3.7 Common Mistakes
+
+**Mistake 1: Confusing path difference with phase difference**
+Path difference $\Delta$ and phase difference $\Delta\phi$ are related by $\Delta\phi = 2\pi\Delta/\lambda$, not $\Delta\phi = \Delta/\lambda$. A path difference of one wavelength corresponds to a phase difference of $2\pi$, not $1$. Students often drop the factor of $2\pi$ when converting between the two, leading to incorrect fringe conditions.
+
+**Mistake 2: Forgetting phase shifts upon reflection in thin-film interference**
+When light reflects from a medium with higher refractive index, it undergoes a $\pi$ phase shift. This changes the conditions for constructive and destructive interference. Forgetting this phase shift leads to predicting bright fringes where dark fringes appear (or vice versa). Always count the total number of $\pi$ shifts before applying the interference conditions.
+
+**Mistake 3: Assuming interference requires two separate sources**
+Interference can occur with a single source split and recombined (as in Young's double slit or a Michelson interferometer). The key requirement is coherence, not separate sources. Even with two independent sources, interference is only observable if the sources are coherent (same frequency and fixed phase relationship). Thermal light sources are incoherent and do not produce stable interference patterns.

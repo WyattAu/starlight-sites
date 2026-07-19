@@ -162,3 +162,9 @@ Analyticity requires differentiability in a neighborhood, not just at a point. A
 **Mistake 5: Forgetting to check that partial derivatives are continuous.**
 The sufficiency condition for the Cauchy-Riemann equations requires that the partial derivatives $u_x, u_y, v_x, v_y$ be continuous in a neighborhood. If the partial derivatives are not continuous, the function may not be differentiable even if the Cauchy-Riemann equations hold. Always verify continuity of partial derivatives.
 
+## Cross-References
+
+- **[Complex Functions and Analyticity](2_complex-functions-and-analyticity.md)**: Analytic functions satisfy the Cauchy-Riemann equations and are infinitely differentiable.
+- **[Complex Integration](4_complex-integration.md)**: Cauchy's integral theorem relies on the Cauchy-Riemann equations for its proof.
+- **[Taylor and Laurent Series](7_taylor-and-laurent-series.md)**: Analytic functions can be represented as power series, which follows from the Cauchy-Riemann equations.
+

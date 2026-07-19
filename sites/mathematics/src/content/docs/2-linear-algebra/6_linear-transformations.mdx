@@ -195,3 +195,13 @@ $i = 1, \ldots, k$. So $f = \sum_{j=k+1}^n c_j \varphi_j$Giving $\dim(W^0) = n -
 
 ---
 
+### 6.10 Common Mistakes
+
+**Mistake 1: Confusing injectivity with surjectivity for finite-dimensional spaces**
+For linear maps between finite-dimensional spaces of the same dimension, injectivity and surjectivity are equivalent (Corollary 6.5). However, this does not hold in infinite dimensions or when the dimensions differ. A map from a lower-dimensional space to a higher-dimensional one cannot be surjective, and vice versa. Always check the dimensions before concluding.
+
+**Mistake 2: Assuming the kernel equals the zero vector implies the image equals the codomain**
+If $\ker(T) = \{\mathbf{0}\}$, then $T$ is injective, but it need not be surjective unless $\dim(V) = \dim(W)$. For example, the inclusion map $\mathbb{R}^2 \hookrightarrow \mathbb{R}^3$ is injective but not surjective. Injectivity only tells you that distinct inputs map to distinct outputs, not that every output is achieved.
+
+**Mistake 3: Misapplying the rank-nullity theorem**
+The rank-nullity theorem states $\dim(\ker(T)) + \dim(\mathrm{im}(T)) = \dim(V)$. Students often confuse $\dim(V)$ with $\dim(W)$ or forget that the theorem applies to the domain dimension. The image lives in $W$ but its dimension is bounded by $\min(\dim(V), \dim(W))$, not by $\dim(W)$ alone.

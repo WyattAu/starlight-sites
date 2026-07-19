@@ -161,3 +161,14 @@ compact.
 
 **Problem 6.** Prove that $\ell^p$ for $1 < p < \infty$ is reflexive using the fact that
 $(\ell^p)^{**} \cong \ell^p$ via the natural embedding.
+
+### 1.13 Common Mistakes
+
+**Mistake 1: Confusing a norm with a metric**
+A norm $\|\cdot\|$ on a vector space induces a metric $d(x, y) = \|x - y\|$, but not every metric comes from a norm. The discrete metric $d(x, y) = 1$ for $x \neq y$ is not induced by any norm because norms are homogeneous ($\|\alpha x\| = |\alpha|\|x\|$), which the discrete metric violates. Always verify that a metric is translation-invariant and homogeneous before assuming it comes from a norm.
+
+**Mistake 2: Assuming bounded linear operators are automatically continuous**
+In the context of linear operators, boundedness and continuity are equivalent for linear maps between normed spaces. However, students sometimes confuse bounded linear functionals with bounded sets. A bounded linear functional $f \in X^*$ satisfies $\|f(x)\| \leq C\|x\|$ for some constant $C$, not that $f(X)$ is a bounded set.
+
+**Mistake 3: Forgetting that $(C[a,b], \|\cdot\|_1)$ is not complete**
+The space of continuous functions with the $L^1$-norm is not a Banach space because Cauchy sequences can converge to discontinuous functions. Only $(C[a,b], \|\cdot\|_\infty)$ is complete. When completeness is required, always verify the norm, not just the underlying set.

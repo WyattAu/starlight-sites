@@ -193,3 +193,16 @@ is non-linear and the frequency depends on amplitude.
 
 </details>
 
+## Intuition
+
+Hamiltonian mechanics reformulates Newton's laws in terms of energy rather than forces. The state of a system is a point in phase space with coordinates and momenta, and time evolution traces a trajectory on the energy surface. Canonical transformations change coordinates while preserving the structure of Hamilton's equations, allowing you to find variables where the motion is simple. Action-angle variables are particularly powerful: the action is a conserved quantity and the angle evolves uniformly in time. For integrable systems with enough conserved quantities, motion is confined to tori in phase space. This framework connects classical mechanics to quantum mechanics through the correspondence principle.
+
+</details>
+
+
+
+## Cross-References
+
+- **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: Basic Hamiltonian mechanics provides the foundation for understanding canonical transformations and action-angle variables.
+- **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation provides the basis for deriving the Hamiltonian and understanding variational principles.
+- **[Quantum Mechanics](../5-quantum-mechanics/2_postulates-of-quantum-mechanics.md)**: The Hamiltonian becomes an operator in quantum mechanics, and the correspondence principle connects classical and quantum descriptions.

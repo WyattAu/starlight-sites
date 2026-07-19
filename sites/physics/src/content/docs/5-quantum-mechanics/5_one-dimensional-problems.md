@@ -352,3 +352,21 @@ Of about 10.
 
 One-dimensional quantum problems are the laboratory where quantum weirdness becomes visible. The infinite square well is like a ball bouncing in a perfectly elastic box: the standing waves that fit inside determine the allowed energies, and the zero-point energy means the ball can never be perfectly still. The harmonic oscillator is the quantum version of a pendulum: the ladder operators let you climb up and down the energy ladder one rung at a time, and each rung costs exactly one quantum of energy. The delta function potential is an infinitely sharp spike that still manages to bind a particle, showing that even an infinitely narrow potential can trap a quantum state. Quantum tunneling is the most dramatic departure from classical physics: a particle can pass through a barrier it classically cannot climb over, like a ball rolling through a wall. The thinner and lower the barrier, the more likely the tunnel, which is how nuclear decay and scanning tunneling microscopes work.
 
+
+
+## Cross-References
+
+- **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: The Schrodinger equation provides the foundation for solving 1D quantum problems.
+- **[Operators and Observables](4_operators-and-observables.md)**: Operators like the Hamiltonian act on wave functions to extract energy eigenvalues.
+- **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom.md)**: The hydrogen atom extends 1D techniques to three dimensions with central potentials.
+
+### 5.7 Common Mistakes
+
+**Mistake 1: Assuming energy quantisation always occurs**
+Energy is quantised only for bound states (particles trapped in a potential well). For scattering states ($E > 0$ for a finite potential), the energy spectrum is continuous. Students often assume all quantum systems have discrete energy levels, which is only true for confined particles.
+
+**Mistake 2: Forgetting the zero-point energy**
+The ground state energy of a quantum system is never zero for a confining potential. For the infinite square well, $E_1 = \pi^2\hbar^2/(2mL^2) > 0$. This is a consequence of the uncertainty principle: confining a particle to a region of size $L$ requires momentum $\sim \hbar/L$, giving kinetic energy $\sim \hbar^2/(2mL^2)$. Students sometimes set the lowest energy to zero as in classical mechanics.
+
+**Mistake 3: Misunderstanding quantum tunnelling**
+Tunnelling does not require the particle to "have" energy greater than the barrier height inside the barrier. The wave function extends into the classically forbidden region with exponentially decreasing amplitude. The particle's energy is $E < V_0$ throughout, and the tunnelling probability decreases exponentially with barrier width and height.

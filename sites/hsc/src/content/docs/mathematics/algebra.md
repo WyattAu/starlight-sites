@@ -112,3 +112,66 @@ Step 3: Verify: $AA^{-1} = \begin{pmatrix} 3 & 1 \\ 5 & 2 \end{pmatrix} \begin{p
 1. Solve $x^2 - 5x + 6 = 0$ using the quadratic formula
 2. Find the sum of the first 10 terms of $5 + 15 + 45 + \ldots$
 3. Find the inverse of $\begin{pmatrix} 2 & 3 \\ 1 & 4 \end{pmatrix}$
+
+### Example 4: Logarithmic Equations
+
+**Problem:** Solve $\log_2(x + 3) + \log_2(x - 1) = 5$.
+
+**Solution:**
+
+Step 1: Determine the domain. Both arguments must be positive:
+$$x + 3 > 0 \implies x > -3$$
+$$x - 1 > 0 \implies x > 1$$
+
+Step 2: Combine logarithms:
+$$\log_2[(x+3)(x-1)] = 5$$
+
+Step 3: Convert to exponential form:
+$$(x+3)(x-1) = 2^5 = 32$$
+
+Step 4: Expand and solve:
+$$x^2 + 2x - 3 = 32$$
+$$x^2 + 2x - 35 = 0$$
+$$(x+7)(x-5) = 0$$
+$$x = -7 \quad \text{or} \quad x = 5$$
+
+Step 5: Check domain: $x = -7$ fails $x > 1$, so reject. $x = 5$ satisfies $x > 1$.
+
+**Answer:** $x = 5$
+
+**Common mistake:** Forgetting to check the domain. Always verify that the solution satisfies the original logarithmic constraints.
+
+### Example 5: Arithmetic and Geometric Sequences Combined
+
+**Problem:** The first term of an arithmetic sequence is 5 and the common difference is 3. Find the sum of the first 20 terms.
+
+**Solution:**
+
+Step 1: Use the arithmetic series formula:
+$$S_n = \frac{n}{2}[2a + (n-1)d]$$
+
+Step 2: Substitute $n = 20$, $a = 5$, $d = 3$:
+$$S_{20} = \frac{20}{2}[2(5) + 19(3)] = 10[10 + 57] = 10 \times 67 = 670$$
+
+**Answer:** $S_{20} = 670$
+
+**Common mistake:** Using the wrong formula. For arithmetic series, $S_n = \frac{n}{2}(2a + (n-1)d)$ or equivalently $S_n = \frac{n}{2}(a + l)$ where $l$ is the last term.
+
+### Example 6: Matrix Determinant Properties
+
+**Problem:** If $A$ is a $3 \times 3$ matrix with $\det(A) = 5$, find $\det(2A)$ and $\det(A^{-1})$.
+
+**Solution:**
+
+Step 1: For a scalar multiple of an $n \times n$ matrix:
+$$\det(kA) = k^n \det(A)$$
+
+Step 2: For $n = 3$ and $k = 2$:
+$$\det(2A) = 2^3 \times 5 = 8 \times 5 = 40$$
+
+Step 3: For the inverse:
+$$\det(A^{-1}) = \frac{1}{\det(A)} = \frac{1}{5} = 0.2$$
+
+**Answer:** $\det(2A) = 40$, $\det(A^{-1}) = 0.2$
+
+**Common mistake:** Writing $\det(2A) = 2\det(A)$. For an $n \times n$ matrix, $\det(kA) = k^n \det(A)$ because each of the $n$ rows is multiplied by $k$.

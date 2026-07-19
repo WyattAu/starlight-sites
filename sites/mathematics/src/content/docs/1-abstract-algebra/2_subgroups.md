@@ -136,3 +136,14 @@ Transpositions), we have $S_n = \langle \sigma, \tau \rangle$. $\blacksquare$
 
 </details>
 
+### 2.8 Common Mistakes
+
+**Mistake 1: Forgetting to check closure under inverses when verifying subgroups**
+The subgroup criterion requires $ab^{-1} \in H$ for all $a, b \in H$. Students sometimes only check closure under the operation ($ab \in H$) and forget to verify that inverses exist in $H$. For example, $\{1, 2, 3\}$ under multiplication mod $4$ is closed but not a subgroup because $2$ has no inverse. Always check the full criterion.
+
+**Mistake 2: Assuming the identity element is obvious**
+When proving a subset is a subgroup, explicitly verify that the identity element of $G$ belongs to $H$. This is part of the non-empty requirement in the subgroup criterion. For example, $\{x \in \mathbb{R} : x > 0\}$ under addition does not contain $0$ and is not a subgroup of $(\mathbb{R}, +)$.
+
+**Mistake 3: Confusing quotient groups with cosets**
+A coset $gH$ is a set of elements, not a group (unless $H$ is normal). The quotient group $G/H$ consists of cosets as elements, but its group operation is only well-defined when $H \trianglelefteq G$. Never assume a set of cosets forms a group without first verifying normality of $H$.
+

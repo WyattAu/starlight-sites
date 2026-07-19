@@ -245,3 +245,9 @@ $$V_{BD} = \frac{\varepsilon_s E_{\text{crit}^2}{2eN_D} = \frac{11.7 \times 8.85
 
 </details>
 
+## Intuition
+
+Advanced semiconductor physics goes beyond the simple pn junction to describe how devices actually work. The depletion region at a junction is like a stretched rubber band: the electric field stores energy and pushes carriers apart until the diffusion and drift forces balance. Breakdown occurs when the field becomes strong enough to ionize atoms, creating an avalanche of carriers. The Hall effect reveals the type and density of charge carriers by measuring a transverse voltage in a magnetic field. Heterostructures stack different semiconductors to create quantum wells that confine electrons in two dimensions, enabling high-mobility transistors and quantum devices. The quantum Hall effect shows that resistance can be quantized exactly, independent of material details.
+
+</details>
+

@@ -156,3 +156,9 @@ The argument principle requires that $f$ has no zeros or poles on the contour $\
 
 **Mistake 5: Misapplying Rouché's theorem to non-analytic functions.**
 Rouché's theorem requires that $f$ and $g$ be analytic inside and on the contour. If either function is not analytic, the theorem does not apply. Always verify analyticity before using Rouché's theorem.
+
+## Cross-References
+
+- **[Singularities and Residue Theory](8_singularities-and-residue-theory.md)**: The residue theorem provides the computational foundation for the argument principle.
+- **[Liouville's Theorem](11_liouville-s-theorem-and-the-maximum-modulus-principle.md)**: Liouville's theorem characterizes bounded entire functions and is used to prove the fundamental theorem of algebra.
+- **[Conformal Mappings](10_conformal-mappings.md)**: The argument principle helps count zeros and poles in conformal mapping problems.

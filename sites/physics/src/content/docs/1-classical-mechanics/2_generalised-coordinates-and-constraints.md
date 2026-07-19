@@ -143,3 +143,10 @@ $$\sum_i (\mathbf{F}_i - m_i\ddot{\mathbf{r}}_i) \cdot \delta\mathbf{r}_i = 0$$
 
 $\blacksquare$
 
+
+
+## Cross-References
+
+- **[Newtonian Mechanics Review](1_newtonian-mechanics-review.md)**: Newton's laws provide the foundation for understanding constraints and virtual displacements.
+- **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation uses generalised coordinates to eliminate constraint forces.
+- **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism extends Lagrangian mechanics to phase space representations.

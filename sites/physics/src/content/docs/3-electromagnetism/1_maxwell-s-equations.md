@@ -235,3 +235,14 @@ $\blacksquare$
 **Common mistake.** Using the total number of turns instead of turns per meter. The formula uses $n = N/L$, not $N$.
 
 </details>
+
+### 1.9 Common Mistakes
+
+**Mistake 1: Confusing the sources of electric and magnetic fields**
+Electric fields are produced by electric charges ($\nabla \cdot \mathbf{E} = \rho/\varepsilon_0$), while magnetic fields are produced by currents and changing electric fields ($\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0\varepsilon_0 \partial\mathbf{E}/\partial t$). There are no magnetic monopoles ($\nabla \cdot \mathbf{B} = 0$). Students sometimes assume magnetic fields are produced by magnetic charges analogous to electric charges.
+
+**Mistake 2: Forgetting the displacement current term in Ampere's law**
+The original Ampere's law $\nabla \times \mathbf{B} = \mu_0 \mathbf{J}$ is inconsistent with the continuity equation. Maxwell's addition of the displacement current $\mu_0\varepsilon_0 \partial\mathbf{E}/\partial t$ fixes this and predicts electromagnetic waves. Omitting this term leads to incorrect predictions for time-varying fields, such as the charging of a capacitor.
+
+**Mistake 3: Confusing integral and differential forms**
+The integral form of Gauss's law $\oint \mathbf{E} \cdot d\mathbf{A} = Q_{\text{enc}}/\varepsilon_0$ applies to specific symmetric configurations, while the differential form $\nabla \cdot \mathbf{E} = \rho/\varepsilon_0$ is the general statement. Students often apply the integral form without verifying that the symmetry assumptions (spherical, cylindrical, or planar) are satisfied.

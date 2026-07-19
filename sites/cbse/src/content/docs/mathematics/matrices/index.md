@@ -1,6 +1,6 @@
 ---
 title: "Matrices"
-description: "CBSE Class 12 mathematics: Matrices with operations, determinants, and worked examples."
+description: "CBSE Class 12 mathematics: Matrices with operations, determinants, inverse, and worked examples."
 ---
 
 # Matrices
@@ -10,11 +10,14 @@ Matrices are rectangular arrays of numbers used to represent linear transformati
 ## Key Concepts
 
 - Matrix addition: $(A + B)_{ij} = A_{ij} + B_{ij}$
+- Scalar multiplication: $(\lambda A)_{ij} = \lambda A_{ij}$
 - Matrix multiplication: $(AB)_{ij} = \sum_k A_{ik}B_{kj}$
 - Transpose: $(A^T)_{ij} = A_{ji}$
 - Inverse: $A A^{-1} = I$ (exists only if $\det(A) \neq 0$)
-- Determinant of 2×2: $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$
+- Determinant of 2x2: $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$
 - For a system $AX = B$: $X = A^{-1}B$ if $A$ is invertible
+- Properties: $(AB)^T = B^T A^T$, $(AB)^{-1} = B^{-1}A^{-1}$, $(A^T)^{-1} = (A^{-1})^T$
+- A square matrix is singular if $\det(A) = 0$ and non-singular if $\det(A) \neq 0$
 
 ## Worked Example 1 — Matrix Multiplication
 
@@ -58,15 +61,43 @@ $$x = -2(5) + 1(11) = 1, \quad y = 1.5(5) - 0.5(11) = 2$$
 
 **Common mistake:** Not checking if the determinant is zero before finding the inverse. If $\det(A) = 0$, the matrix is singular and has no inverse.
 
+## Worked Example 4 — Properties of Transpose
+
+**Problem:** If $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ and $B = \begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix}$, verify that $(AB)^T = B^T A^T$.
+
+**Solution:**
+
+From Example 1: $AB = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}$, so $(AB)^T = \begin{pmatrix} 19 & 43 \\ 22 & 50 \end{pmatrix}$.
+
+$B^T = \begin{pmatrix} 5 & 7 \\ 6 & 8 \end{pmatrix}$ and $A^T = \begin{pmatrix} 1 & 3 \\ 2 & 4 \end{pmatrix}$.
+
+$$B^T A^T = \begin{pmatrix} 5 & 7 \\ 6 & 8 \end{pmatrix}\begin{pmatrix} 1 & 3 \\ 2 & 4 \end{pmatrix} = \begin{pmatrix} 5+14 & 15+28 \\ 6+16 & 18+32 \end{pmatrix} = \begin{pmatrix} 19 & 43 \\ 22 & 50 \end{pmatrix}$$
+
+Thus $(AB)^T = B^T A^T$.
+
+**Common mistake:** Writing $(AB)^T = A^T B^T$. The correct identity reverses the order: $(AB)^T = B^T A^T$.
+
 ## Practice Problems
 
 1. Find $AB$ and $BA$ for $A = \begin{pmatrix} 2 & 0 \\ 1 & 3 \end{pmatrix}$ and $B = \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}$. Are they equal?
 2. Find the inverse of $\begin{pmatrix} 3 & 1 \\ 5 & 2 \end{pmatrix}$.
 3. Solve the system $2x + y = 7$, $x + 3y = 11$ using matrix inversion.
+4. Verify that $(A + B)^T = A^T + B^T$ for the matrices given in Example 1.
+5. Find a $2 \times 2$ matrix $A$ such that $A^2 = I$ (an involutory matrix).
 
 ## Common Exam Patterns
 
 - Always check if the determinant is zero before finding the inverse
 - Remember that matrix multiplication is not commutative
-- For 2×2 matrices, the inverse formula is straightforward
+- For 2x2 matrices, the inverse formula is straightforward
 - Practice solving systems using both matrix method and elimination
+- The transpose of a product reverses the order: $(AB)^T = B^T A^T$
+- A matrix with $\det(A) = 0$ is singular and cannot be inverted
+
+## Exam Tips
+
+1. Write out the full multiplication step by step to avoid arithmetic errors.
+2. For the inverse of a 2x2 matrix, swap the diagonal elements and negate the off-diagonal elements, then divide by the determinant.
+3. When solving $AX = B$, always verify your answer by computing $AX$ and checking it equals $B$.
+4. For systems with three or more equations, the matrix method is efficient but requires careful arithmetic.
+5. Remember that $(A + B)(A - B) = A^2 - B^2$ only if $AB = BA$.

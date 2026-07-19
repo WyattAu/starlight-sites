@@ -74,3 +74,14 @@ Each section includes:
 3. **Draw diagrams**: Visualise sequences, series, and functions
 4. **Learn standard examples**: Know the properties of common functions (polynomials, trigonometric, exponential)
 5. **Connect to calculus**: Relate real analysis to the calculus you already know
+
+### 3.1 Common Mistakes
+
+**Mistake 1: Confusing pointwise convergence with uniform convergence**
+Pointwise convergence requires $\lim_{n \to \infty} f_n(x) = f(x)$ for each $x$, while uniform convergence requires the same limit to hold uniformly across all $x$ simultaneously. A sequence of continuous functions can converge pointwise to a discontinuous function, but uniform convergence preserves continuity. Always verify the $\varepsilon$ does not depend on $x$.
+
+**Mistake 2: Assuming completeness implies compactness**
+A complete metric space need not be compact; compactness requires both completeness and total boundedness. For example, $\mathbb{R}$ is complete but not compact. Conversely, a compact subset of a metric space is always complete. Do not confuse these properties when constructing counterexamples.
+
+**Mistake 3: Ignoring the Archimedean property in proofs**
+Many proofs in real analysis implicitly rely on the Archimedean property (for any real $x$, there exists an integer $n > x$). For instance, showing that $\inf S = 0$ for $S = \{1/n : n \in \mathbb{N}\}$ requires it. Always check whether your argument needs this property or can proceed without it.
