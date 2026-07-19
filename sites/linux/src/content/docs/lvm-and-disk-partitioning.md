@@ -1888,5 +1888,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [File Systems and Mounting](02-file-systems/filesystems-and-mounting) -- LVM creates logical volumes that are mounted using the standard file system mounting process.
+- [File Permissions and ACLs](02-file-systems/file-permissions) -- Permissions on LVM volumes follow the same Unix permission model as any other file system.
+- [Bash Scripting](01-cli-fundamentals/bash-scripting) -- Automating LVM operations like snapshots and resizing is done through bash scripts.
+- [Core Utilities](01-cli-fundamentals/core-utilities) -- Commands like fdisk, mkfs, and pvcreate are essential utilities for disk management.
 
 </aside>

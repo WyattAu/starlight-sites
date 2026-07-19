@@ -4,6 +4,10 @@ description: "merges a repository into a subdirectory of another repository. Unl
 
 ---
 
+## Intuition
+
+Git subtrees embed an external repository's files directly into a subdirectory of your project, making them part of your repository's object database. Unlike submodules which maintain a reference to an external repo, subtrees are just regular files that can be committed, branched, and merged normally. The squash option collapses the upstream history into a single commit for a cleaner parent history, while keeping the full history preserves provenance. Subtrees eliminate the complexity of submodule management at the cost of larger repository size.
+
 ## What Subtrees Are
 
 `git subtree` merges a repository into a subdirectory of another repository. Unlike submodules,

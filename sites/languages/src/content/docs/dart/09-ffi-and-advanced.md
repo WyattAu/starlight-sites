@@ -1789,3 +1789,10 @@ $\blacksquare$
 
 
 </aside>
+
+## Cross-References
+
+- [Dart Classes and Objects](../../dart/04-classes-and-objects/01-classes) -- Null safety and type system features build on the class fundamentals covered in OOP.
+- [Dart Asynchronous Programming](../../dart/08-asynchronous/01-async) -- Isolates and async patterns are both approaches to concurrent programming in Dart.
+- [Rust Ownership](../../rust/02-ownership-borrowing) -- Rust's ownership model provides memory safety without garbage collection, contrasting with Dart's approach.
+- [Java GraalVM](../../java/graalvm-and-modern-jvm) -- Both GraalVM native images and Dart FFI address native code interoperability.

@@ -2259,3 +2259,10 @@ sufficient consumer surplus gains to offset it.
 - **The WTO** facilitates multilateral trade negotiations and dispute resolution
 - Key diagrams: comparative advantage PPF, tariff welfare analysis, trade creation/diversion
 - Key calculations: opportunity cost, terms of trade index, tariff revenue, deadweight loss
+
+## Cross-References
+
+- [Theory of the Firm](../1-microeconomics/4-theory-of-the-firm) -- Market structures determine how firms respond to international competition and trade policy.
+- [Supply-Side Policy](../2-macroeconomics/4-supply-side-policy) -- Trade liberalisation is a supply-side policy that increases productive capacity through specialisation.
+- [Descriptive Statistics](../5-quantitative-economics/1-descriptive-statistics) -- Terms of trade indices and trade data require the quantitative skills covered in this topic.
+- [Game Theory and Behavioural Economics](../6-game-theory/1_game-theory-and-behavioural) -- Strategic trade theory applies game-theoretic models to international trade policy.

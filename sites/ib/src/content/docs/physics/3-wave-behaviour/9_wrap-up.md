@@ -512,6 +512,10 @@ $$f' = f\left(\frac{v}{v + v_s}\right) = 800\left(\frac{343}{343 + 30}\right) = 
 | $f' = f\left(\frac{v \pm v_o}{v \mp v_s}\right)$    | Doppler effect (sound)           |
 | $\frac{\Delta\lambda}{\lambda} \approx \frac{v}{c}$ | Doppler shift (light, $v \ll c$) |
 
+## Intuition
+
+Waves carry energy without carrying matter, like a stadium wave where people stay seated but the disturbance travels. The wave equation links frequency, wavelength, and speed into one relationship. Standing waves form when two identical waves overlap, creating stationary nodes and oscillating antinodes like a guitar string. Diffraction spreads waves through gaps, most noticeably when the gap matches the wavelength. Interference combines waves to produce regions of reinforcement and cancellation, and the Doppler effect shifts frequencies when source and observer move relative to each other.
+
 ## Common Pitfalls
 
 1. Rounding intermediate answers too early, which compounds errors in multi-step calculations.

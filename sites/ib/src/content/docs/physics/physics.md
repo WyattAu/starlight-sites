@@ -1388,3 +1388,10 @@ and past paper questions, is essential for success in examinations.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Atomic Structure and Periodicity](../chemistry/2-atomic-structure/2_atomic-structure-and-periodicity) -- Quantum physics and atomic models connect to the particulate nature of matter in chemistry.
+- [Chemical Bonding](../chemistry/4-chemical-bonding/1_chemical-bonding) -- Electron behaviour in atoms underlies both physical and chemical properties of matter.
+- [Thermochemistry](../chemistry/5-energetics/1_thermochemistry) -- Energy conservation principles apply across both physics mechanics and chemical energetics.
+- [Genetics](../biology/3-genetics/1_genetics) -- Molecular biology and DNA structure involve the same quantum mechanical principles governing atomic behaviour.

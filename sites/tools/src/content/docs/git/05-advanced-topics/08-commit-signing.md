@@ -4,6 +4,10 @@ description: "Commit signing uses cryptographic signatures to prove that a commi
 
 ---
 
+## Intuition
+
+Commit signing cryptographically proves who authored a commit by attaching a digital signature that covers the entire commit content. Without signing, Git's author fields are just text that anyone can forge. GPG and SSH keys provide the cryptographic foundation, and platforms like GitHub display a verified badge when signatures validate. This creates a chain of trust from the developer's private key to the commit, making it tamper-evident. Signing is one layer of defence-in-depth, not a complete security solution on its own.
+
 ## Why Sign Commits
 
 Commit signing uses cryptographic signatures to prove that a commit was authored by the holder of a

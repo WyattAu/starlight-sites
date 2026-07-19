@@ -9,6 +9,10 @@ categories:
 
 ---
 
+## Intuition
+
+Ruby's type system is dynamic and duck-typed, meaning variables have no fixed types and objects respond to messages based on their capabilities rather than their class hierarchy. This flexibility enables rapid prototyping but shifts type checking from compile time to runtime. Constants, instance variables, class variables, and global variables each have distinct scoping rules that determine where data is accessible. Ruby's object model treats everything as an object, enabling a uniform interface for all values.
+
 ## Variables in Ruby
 
 Ruby has several types of variables, each with distinct scope and purpose. Variables do not need

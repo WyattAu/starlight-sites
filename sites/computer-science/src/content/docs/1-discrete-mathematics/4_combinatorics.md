@@ -275,6 +275,14 @@ few terms: $1 + x + 2x^2 + 2x^3 + 3x^4 + 4x^5 + \cdots$So there are 4 ways to ma
 
 Combinatorics counts and structures discrete objects. Permutations arrange objects in order. Combinations select objects without order. The pigeonhole principle guarantees duplicates when distributing more items than containers. These counting techniques appear in algorithm analysis (how many operations?), probability (what's the likelihood?), and cryptography (how many possible keys?). Generating functions encode counting sequences as algebraic expressions.
 
+## Common Mistakes
+
+**Double counting in inclusion-exclusion.** When applying the inclusion-exclusion principle, students often add intersections of three or more sets without alternating the sign. The formula alternates: add singles, subtract pairs, add triples, and so on. Forgetting the sign alternation leads to overcounting or undercounting.
+
+**Confusing permutations with combinations.** Permutations count ordered arrangements ($P(n,r) = n!/(n-r)!$) while combinations count unordered selections ($\binom{n}{r} = n!/(r!(n-r)!)$). A common error is using $P(n,r)$ when the problem asks for unordered groups, or vice versa. Ask: does order matter?
+
+**Incorrect stars and bars setup.** The number of solutions to $x_1 + \cdots + x_k = n$ with $x_i \geq 0$ is $\binom{n+k-1}{k-1}$, not $\binom{n+k-1}{n}$. These are equal by symmetry, but the denominator must correspond to the number of dividers (not the number of objects). Also, when $x_i \geq 1$, substitute $y_i = x_i - 1$ first.
+
 ## Cross-References
 
 - [[1-discrete-mathematics/5_graph-theory]] - Graph counting problems

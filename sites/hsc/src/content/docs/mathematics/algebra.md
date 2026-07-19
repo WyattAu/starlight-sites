@@ -235,6 +235,13 @@ Step 4: Verify: $AX = \begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix} \begin{pmatri
 
 **Common mistake:** For matrix equations $AX = B$, multiply both sides by $A^{-1}$ on the left: $X = A^{-1}B$, not $X = BA^{-1}$. Matrix multiplication is not commutative.
 
+## Cross-References
+
+- [Calculus](../physics/calculus) -- Differentiation and integration build on the algebraic foundations of functions and equations covered here.
+- [Waves](../physics/waves) -- Wave equations use logarithmic and trigonometric functions that extend the algebraic techniques in this topic.
+- [Mechanics](../physics/mechanics) -- Kinematic equations and force calculations apply algebraic manipulation to physical systems.
+- [Inorganic](../chemistry/inorganic) -- Electrochemistry and thermochemistry calculations use the logarithmic and matrix skills developed in this topic.
+
 ### Example 10: Solving Quadratic Inequalities
 
 **Problem:** Solve the inequality $2x^2 - 5x - 3 < 0$.

@@ -1257,4 +1257,11 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [The Cold War](../history/the-cold-war) -- The post-war American context of Streetcar connects to Cold War anxieties about social change and conformity.
+- [The Move to Global War](../history/the-move-to-global-war) -- Southern decline and economic upheaval in the play reflect broader historical forces of the early twentieth century.
+- [Cell Biology](../biology/1-cell-biology/1_cell-biology) -- Understanding the biological basis of mental health adds depth to Blanche's psychological deterioration.
+- [Genetics](../biology/3-genetics/1_genetics) -- Hereditary mental illness and family trauma explored in the play connect to genetic predisposition concepts.
+
 </aside>

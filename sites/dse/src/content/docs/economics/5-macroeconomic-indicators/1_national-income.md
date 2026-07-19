@@ -1595,3 +1595,10 @@ success in this subject.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Money and Banking](../8-money-and-banking/1_money-and-banking) -- Money supply and banking systems directly affect the macroeconomic indicators measured here.
+- [Human Physiology](../../biology/4-human-physiology/1_human-physiology) -- Healthcare spending and public health are components of GDP and economic output.
+- [Plant Biology](../../biology/5-plant-biology/1_plant-biology) -- Agricultural output and food production contribute to national income measures.
+- [Nuclear Physics](../../physics/5-nuclear-physics/1_nuclear-physics) -- Energy production and nuclear power investment affect economic growth indicators.

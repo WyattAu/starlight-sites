@@ -28,3 +28,11 @@ Step 3: Calculate the answer
 1. [Problem 1]
 2. [Problem 2]
 3. [Problem 3]
+
+## Common Mistakes
+
+**Run-on sentences and fused sentences.** A run-on sentence occurs when two independent clauses are joined without proper punctuation or a conjunction. A fused sentence is two independent clauses with no punctuation at all. Fix these by adding a period, semicolon, or comma with a coordinating conjunction between the clauses.
+
+**Incorrect pronoun-antecedent agreement.** Pronouns must agree with their antecedents in number and gender. When the antecedent is singular and gender-neutral, use "he or she" or restructure the sentence to avoid the pronoun. Do not use "they" as a singular pronoun on the SAT, and ensure pronoun references are unambiguous.
+
+**Faulty parallel structure.** Items in a list or comparison must have the same grammatical form. For example, "She likes swimming, to run, and cycling" is not parallel; correct it to "She likes swimming, running, and cycling." Parallel structure applies to infinitives, gerunds, clauses, and any coordinated elements.

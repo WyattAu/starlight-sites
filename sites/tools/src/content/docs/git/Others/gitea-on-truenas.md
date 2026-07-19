@@ -9,6 +9,10 @@ categories:
 
 ---
 
+## Intuition
+
+Gitea on TrueNAS provides a self-hosted Git solution that gives you full control over your code repositories without relying on third-party services. TrueNAS handles persistent storage and networking, while Gitea provides the Git hosting interface. WireGuard VPN secures remote access, and the backup strategy ensures data survives hardware failures. Understanding the separation between the storage layer (TrueNAS datasets) and the application layer (Gitea container) is key to maintaining a reliable self-hosted Git infrastructure.
+
 ## Procedure
 
 1. Since there is built in support for Gitea with TrueCharts, install Gitea using `Discover Apps`.

@@ -9,6 +9,10 @@ categories:
 ---
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
+## Intuition
+
+C++ modules replace the textual inclusion model with a semantic import system. Instead of copying header text into every source file, modules are compiled once into a binary representation that downstream code can import directly. This eliminates macro leakage, reduces build times by avoiding redundant parsing, and provides stronger encapsulation because only exported symbols are visible to importers. The module hierarchy of primary interfaces, partitions, and implementation units mirrors the public API and private implementation separation that header files attempted but could not enforce.
+
 The inclusion model (`#include`) has defined C++ physical architecture for decades. It relies on
 Textual substitution, resulting in fragile builds, macro leakage, and redundant parsing of the same
 Header millions of times across a project, precompile headers is a workaround but not a solution.

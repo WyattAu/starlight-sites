@@ -9,6 +9,10 @@ categories:
 ---
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
+## Intuition
+
+Static analysis reads your code without executing it, searching for patterns that indicate bugs or style violations. It operates at different levels of sophistication: simple pattern matching finds obvious issues, data flow analysis tracks values through the program, and abstract interpretation models runtime behaviour to find deep bugs. clang-tidy uses the same Clang compiler frontend that builds your code, so it understands templates, macros, and type deduction perfectly. Integrating static analysis into your build system catches issues before they reach production.
+
 Static Analysis involves examining source code without executing it. Unlike the compiler, which
 Focuses on grammar and binary generation, static analyzers focus on correctness, readability.
 

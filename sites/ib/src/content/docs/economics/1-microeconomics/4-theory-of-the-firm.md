@@ -1788,3 +1788,10 @@ models, evidence, and policy implications.
 
 The ability to apply these theories to real-world data and evaluate policy decisions is central to
 success in this subject.
+
+## Cross-References
+
+- [Game Theory and Behavioural Economics](../6-game-theory/1_game-theory-and-behavioural) -- Oligopoly behaviour is analysed using game-theoretic models of strategic interaction.
+- [Supply-Side Policy](../2-macroeconomics/4-supply-side-policy) -- Deregulation and competition policy are supply-side measures that affect market structures.
+- [International Trade](../3-international-economics/1-trade) -- Firms in international markets face trade barriers that affect their competitive strategies.
+- [Descriptive Statistics](../5-quantitative-economics/1-descriptive-statistics) -- Cost and revenue data require the quantitative analysis techniques covered in this topic.

@@ -11,6 +11,10 @@ categories:
 
 ---
 
+## Intuition
+
+Network security is the practice of protecting systems and data from unauthorised access, damage, or theft. Malware taxonomy classifies threats by their behaviour: viruses need host files and user action, while worms spread autonomously across networks. Phishing exploits human trust rather than technical vulnerabilities, using social engineering to trick users into revealing credentials. Defence requires layered security measures combining technical controls like firewalls and encryption with human awareness training and organisational policies.
+
 This document extends the network security and social implications topics covered in
 [../4-networking-and-internet/1_internet-and-data-communications](../4-networking-and-internet/1_internet-and-data-communications)
 with deeper analysis of Threats, security measures, legal frameworks, and professional

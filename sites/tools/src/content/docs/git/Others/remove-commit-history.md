@@ -9,6 +9,10 @@ categories:
 
 ---
 
+## Intuition
+
+Removing commit history is a destructive operation that creates a fresh repository with a single commit containing the current state of all files. This is useful when sensitive data like passwords or API keys have been accidentally committed, or when a repository's history is too cluttered to be useful. The orphan branch technique creates a new branch with no parent, and force-pushing replaces the remote history entirely. The key insight is that Git stores content by hash, so rewriting history creates entirely new commit objects.
+
 ## Proposed Solution
 
 - Clone Git repository

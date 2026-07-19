@@ -1181,4 +1181,11 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [The Cold War](the-cold-war) -- The ideological origins of the Cold War can be traced to the failures of the interwar peacemaking discussed here.
+- [Economic Development](../economics/2-macroeconomics/4-supply-side-policy) -- Economic instability in the 1930s connects to the macroeconomic analysis of unemployment and growth.
+- [Cell Biology](../biology/1-cell-biology/1_cell-biology) -- The biological sciences context helps understand the human cost of conflict and displacement.
+- [Descriptive Statistics](../economics/5-quantitative-economics/1-descriptive-statistics) -- Quantifying the scale of economic damage and reparations requires statistical analysis of economic data.
+
 </aside>

@@ -112,6 +112,10 @@ all pure mathematics content from algebraic manipulation through to numerical me
 5. **Check calculus answers**. Differentiate your integral (or integrate your derivative) to
    verify.
 
+## Intuition
+
+Pure mathematics is the language of pattern and structure underlying all quantitative reasoning. Algebra provides the grammar for expressing relationships, while calculus gives the tools to analyse change. Functions are machines that transform inputs to outputs, and their inverses reverse the process. Sequences and series build complexity from repetition, and proof ensures every claim rests on unshakeable logical foundations. The discipline trains your mind to decompose complex problems into manageable steps, a skill that transfers far beyond mathematics.
+
 ## How to Use These Notes
 
 Follow the sidebar order. Each page provides rigorous definitions, proofs, worked examples with full

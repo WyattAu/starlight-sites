@@ -11,6 +11,10 @@ categories:
 
 ---
 
+## Intuition
+
+Advanced spreadsheet functions like VLOOKUP and INDEX-MATCH enable relational data lookups within flat spreadsheet structures, bridging the gap between simple grids and database queries. Conditional formatting visualises data patterns through colour, and pivot tables summarise large datasets dynamically. Database normalisation eliminates redundancy by organising data into related tables, while SQL provides a declarative language for querying. Understanding these advanced techniques transforms spreadsheets from simple calculators into powerful data analysis platforms.
+
 This document extends the spreadsheet, database, and office automation topics in
 [../5-office-automation/1_office-automation](../5-office-automation/1_office-automation) with
 advanced Spreadsheet functions, deeper database operations, and detailed coverage of presentation

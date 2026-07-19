@@ -855,3 +855,10 @@ evidence, and real-world applications.
 
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
+
+## Cross-References
+
+- [Atomic Structure](../chemistry/1-atomic-structure/1_atomic-structure) -- Understanding atoms and elements provides the chemical foundation for cell structure and function.
+- [Algebra](../../maths/2-algebra/2_algebra) -- Mathematical modelling of population growth and enzyme kinetics requires algebraic skills.
+- [Data Representation](../computer-science/1-fundamentals/1_fundamentals) -- Microscopy and image analysis involve digital data, connecting biology to computer science.
+- [Ratio and Proportion](../../maths/3-ratio-proportion/3_ratio-proportion) -- Dilution calculations and concentration ratios in biology require proportion skills.

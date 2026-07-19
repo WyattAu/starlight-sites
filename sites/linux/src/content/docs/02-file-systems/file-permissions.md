@@ -819,5 +819,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [File Systems and Mounting](filesystems-and-mounting) -- File permissions are a property of the file system; understanding mounting helps with permission management across partitions.
+- [LVM and Disk Partitioning](../lvm-and-disk-partitioning) -- Logical volumes have the same permission model as physical partitions.
+- [Processes and Signals](../03-process-management/processes-and-signals) -- Process credentials determine which permissions apply during file operations.
+- [Bash Scripting](../01-cli-fundamentals/bash-scripting) -- Scripts often check and modify file permissions programmatically.
 
 </aside>

@@ -866,5 +866,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Bash Scripting](bash-scripting) -- Shell variables, control flow, and functions are the building blocks of bash scripts.
+- [I/O Redirection](../03-process-management/io-redirection) -- Shell features like pipes and redirection are fundamental to command composition.
+- [Core Utilities](core-utilities) -- Shell commands invoke core utilities; understanding the shell enhances command-line efficiency.
+- [Processes and Signals](../03-process-management/processes-and-signals) -- The shell creates and manages processes; background jobs and signals are shell-level concepts.
 
 </aside>

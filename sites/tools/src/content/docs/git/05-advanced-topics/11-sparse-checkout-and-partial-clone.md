@@ -4,6 +4,10 @@ description: "As repositories grow into monorepos containing hundreds of thousan
 
 ---
 
+## Intuition
+
+Sparse checkout and partial clone solve the problem of working with massive repositories without downloading everything. Sparse checkout controls which directories appear in your working tree, letting you focus on just the parts you need. Partial clone defers downloading objects until they are actually required, reducing initial clone time and bandwidth. Together they enable developers to work efficiently on monorepos with millions of files by downloading only what matters for their current task. The cone mode introduced in Git 2.37 makes sparse checkout significantly faster by using directory-based matching instead of evaluating every pattern.
+
 ## The Problem
 
 As repositories grow into monorepos containing hundreds of thousands of files, the cost of a full

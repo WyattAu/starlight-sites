@@ -1755,3 +1755,10 @@ and evaluate experimental evidence critically.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 </aside>
+
+## Cross-References
+
+- [Human Reproduction and Homeostasis](2_human-reproduction-and-homeostasis) -- Homeostasis extends the organ system physiology covered here to reproductive and endocrine regulation.
+- [Plant Biology](../5-plant-biology/1_plant-biology) -- Comparing animal and plant transport systems highlights adaptations to different environments.
+- [Genetics](../3-genetics/1_genetics) -- Enzyme and protein synthesis underlying physiological processes are encoded by genes.
+- [Organic Chemistry](../../chemistry/7-organic-chemistry/1_organic-chemistry) -- Metabolism of carbohydrates, lipids, and proteins involves organic reaction mechanisms.

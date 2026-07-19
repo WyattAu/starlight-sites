@@ -10,6 +10,10 @@ categories:
 
 ---
 
+## Intuition
+
+Network flow models the movement of commodities through capacity-constrained networks. The max-flow min-cut theorem reveals a deep duality: the maximum flow equals the minimum cut, connecting optimisation to combinatorial structure. Ford-Fulkerson finds augmenting paths in the residual graph, pushing flow until no more can be sent. Linear programming generalises optimisation to continuous variables, and approximation algorithms provide provably near-optimal solutions when exact algorithms are too slow.
+
 ## 1. Network Flow
 
 ### 1.1 Flow Networks

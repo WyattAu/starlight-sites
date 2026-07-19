@@ -1389,4 +1389,11 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
+## Cross-References
+
+- [Macroeconomic Performance](01-macroeconomic-performance) -- GDP measurement and economic indicators provide the empirical foundation for evaluating Keynesian and monetarist predictions.
+- [Supply-Side Policy](05-supply-side-policy) -- Supply-side reforms represent an alternative to demand management, central to the policy debate.
+- [Labour Markets](../microeconomics/05-labour-markets) -- Unemployment theory and labour market dynamics are central to macroeconomic policy discussions.
+- [Macroeconomic Policy Debates](07-macroeconomic-policy-debates) -- Fiscal and monetary policy effectiveness is the core question in these debates.
+
 </aside>

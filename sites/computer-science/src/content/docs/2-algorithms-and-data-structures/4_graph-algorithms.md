@@ -6,6 +6,10 @@ tags:
 description: "BFS explores the graph level by level from a source vertex. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
+## Intuition
+
+Graph algorithms explore the structure of connections. BFS radiates outward like ripples in a pond, discovering vertices level by level and guaranteeing shortest paths in unweighted graphs. DFS plunges deep into branches before backtracking, useful for detecting cycles and exploring connectivity. Dijkstra's algorithm extends BFS to weighted graphs using a priority queue, always expanding the cheapest unvisited vertex. The Bellman-Ford algorithm handles negative weights by relaxing edges repeatedly, while minimum spanning tree algorithms find the cheapest way to connect all vertices.
+
 ### 4.1 Breadth-First Search (BFS)
 
 BFS explores the graph level by level from a source vertex.
@@ -474,4 +478,12 @@ $\\{A, B, C, D, E\\}$. Cost: 14.
 **MST:** $(A,B,4)$, $(B,C,5)$, $(C,E,3)$, $(D,E,2)$. Total weight: 14 (same as Kruskal's).
 
 </details>
+
+## Common Mistakes
+
+**Using Dijkstra's algorithm with negative edge weights.** Dijkstra's greedy approach fails when negative edges are present because once a vertex is marked "settled," its distance is assumed final. Negative edges can create shorter paths to settled vertices. Use Bellman-Ford instead for graphs with negative weights (but no negative cycles).
+
+**Confusing BFS shortest paths with DFS.** BFS finds shortest paths in unweighted graphs (fewest edges), but DFS does not. Students often use DFS when they need shortest paths, or assume BFS works for weighted graphs. For weighted shortest paths, use Dijkstra's (non-negative weights) or Bellman-Ford (negative weights).
+
+**Misunderstanding the cut property for MSTs.** The cut property states that for any cut, the minimum-weight edge crossing the cut belongs to some MST. Students sometimes forget that this guarantees the edge is in *some* MST, not necessarily *every* MST. Multiple MSTs can exist when edges have equal weights.
 

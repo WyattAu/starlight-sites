@@ -1239,3 +1239,10 @@ $\blacksquare$
   callable generics.
 - `TypeGuard` and `TypeIs` narrow types in conditional branches for the type checker.
 - `dataclass_transform` decorates functions that create dataclass-like classes from type hints.
+
+## Cross-References
+
+- [Functions, Closures, and Decorators](../02-fundamentals/03-functions) -- Type annotations on functions use the generics and overload patterns covered here.
+- [Generators and Iterators](../02-fundamentals/04-generators-and-iterators) -- Iterator and generator types are expressible using `Iterator[T]` and `Generator[T]` generics.
+- [Protocols and Abstract Base Classes](02-protocols) -- Structural subtyping via Protocol extends the type system beyond nominal inheritance.
+- [Dataclasses and Attrs](03-dataclasses) -- `dataclass_transform` bridges type hints and dataclass-style class creation.

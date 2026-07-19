@@ -949,5 +949,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Processes and Signals](processes-and-signals) -- Cron jobs create child processes; understanding process lifecycle helps with scheduling and monitoring.
+- [Bash Scripting](../01-cli-fundamentals/bash-scripting) -- Scheduled tasks are typically bash scripts that automate system maintenance and backups.
+- [I/O Redirection and Pipes](io-redirection) -- Cron job output is often redirected to log files for monitoring and debugging.
+- [File Permissions](../02-file-systems/file-permissions) -- Crontab files and scripts require appropriate permissions for execution.
 
 </aside>

@@ -1126,5 +1126,11 @@ applying these mathematical techniques.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Linked Lists and Stacks](../01-linked-lists/01-linked-lists) -- Linked lists provide the dynamic memory allocation used in tree node implementations.
+- [Graph Algorithms](../../07-graph-algorithms/graph-algorithms) -- Trees are a special case of graphs; BFS and DFS traversal on trees extends to general graph algorithms.
+- [Dynamic Programming](../../06-dynamic-programming/01-introduction) -- Tree DP and memoisation on tree structures are key techniques in dynamic programming.
+- [Advanced Data Structures](../../07-graph-algorithms/advanced-data-structures) -- Segment trees and Fenwick trees extend BST principles to range query problems.
 
 </aside>

@@ -65,3 +65,11 @@ Each section includes:
 3. **Analyse complexity**: Practice deriving time and space complexity for new algorithms
 4. **Learn the patterns**: Recognise common algorithm design paradigms (divide-and-conquer, dynamic programming)
 5. **Connect to applications**: Relate algorithms to real-world problems and data structures
+
+## Common Mistakes
+
+**Confusing time complexity with space complexity.** Big-O notation describes either time or space, but they are not interchangeable. An algorithm with $O(n)$ time may use $O(n^2)$ space, and vice versa. Always specify which resource you are analysing, and consider both when comparing algorithms.
+
+**Ignoring constant factors in practice.** Asymptotic analysis hides constant factors that matter for small inputs. An $O(n^2)$ algorithm with small constants can outperform an $O(n \log n)$ algorithm with large constants for typical input sizes. Profile your code before assuming asymptotic superiority.
+
+**Overlooking worst-case vs average-case trade-offs.** Quicksort has $O(n^2)$ worst-case but $O(n \log n)$ average-case; mergesort guarantees $O(n \log n)$ but uses $O(n)$ space. Choosing an algorithm requires considering the expected input distribution, not just the asymptotic bound.

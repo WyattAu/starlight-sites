@@ -1608,4 +1608,11 @@ and evaluate experimental evidence critically.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Human Physiology](../4-human-physiology/1_human-physiology) -- Enzyme production and protein synthesis underlying physiological processes are controlled by genes.
+- [Plant Biology](../5-plant-biology/1_plant-biology) -- Plant breeding and genetic modification connect genetics to agricultural biology.
+- [Organic Chemistry](../../chemistry/7-organic-chemistry/1_organic-chemistry) -- DNA and protein structure are fundamentally organic molecules governed by chemical bonding.
+- [Nuclear Physics](../../physics/5-nuclear-physics/1_nuclear-physics) -- Radiation-induced mutations link nuclear physics to genetic variation.
+
 </aside>

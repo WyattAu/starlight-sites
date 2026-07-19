@@ -1490,6 +1490,13 @@ decorators, including key theorems, methods, and problem-solving approaches.
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
 
+## Cross-References
+
+- [Generators and Iterators](04-generators-and-iterators) -- Generator functions are a specialised form of closures that produce sequences lazily.
+- [Advanced Type System](../08-advanced-topics/01-advanced-typing) -- Type annotations on functions and closures enable static type checking with mypy.
+- [Decorators and Closures](03-functions) -- Decorators are functions that modify other functions, using the closure mechanics covered here.
+- [List Comprehensions](02-data-structures) -- List comprehensions provide concise syntax for creating lists, while generators extend this to lazy evaluation.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

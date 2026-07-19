@@ -4,6 +4,10 @@ description: "Rust Introduction to Rust notes covering key definitions, core con
 
 ---
 
+## Intuition
+
+Rust combines C-level performance with memory safety guaranteed at compile time. The ownership system is like a library book checkout: only one person holds the book at a time, and it must be returned before anyone else can use it. Borrowing lets you read without taking possession. The compiler enforces these rules, catching bugs that would cause crashes or security vulnerabilities in other languages. Zero-cost abstractions mean high-level code compiles to efficient machine code, so safety does not come at a performance penalty.
+
 ## Why Rust
 
 Rust solves a problem that has plagued systems programming for decades: how to write fast,

@@ -1012,6 +1012,10 @@ Newton's Laws with other topics to test synthesis under exam conditions.
 See for instructions on self-marking and
 building a personal test matrix.
 </aside>
+## Intuition
+
+Forces are pushes and pulls that change motion. Free body diagrams are like detective sketches showing every suspect (force) acting on a single object. Resolving forces is breaking diagonal pushes into horizontal and vertical components, like separating a suitcase pull into forward and downward parts. Friction opposes sliding and grows up to a maximum that depends on how hard surfaces press together. Connected particles share acceleration through tension, and the principle of moments ensures rotational balance just as force balance ensures translational equilibrium.
+
 ## Common Pitfalls
 
 1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components

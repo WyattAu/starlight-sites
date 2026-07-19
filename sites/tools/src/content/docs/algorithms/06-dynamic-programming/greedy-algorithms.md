@@ -961,5 +961,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Dynamic Programming Introduction](01-introduction) -- Greedy and DP are contrasting paradigms; understanding when each applies is fundamental to algorithm design.
+- [Graph Algorithms](../../07-graph-algorithms/graph-algorithms) -- Dijkstra's algorithm is a classic greedy algorithm applied to shortest path problems.
+- [Binary Search Trees](../../04-trees-graphs/binary-search-trees) -- Huffman coding and optimal BSTs use greedy strategies for efficient data encoding and retrieval.
+- [Advanced Graph Algorithms](../../07-graph-algorithms/advanced-graph-algorithms) -- Kruskal's and Prim's MST algorithms are greedy algorithms applied to graph structures.
 
 </aside>

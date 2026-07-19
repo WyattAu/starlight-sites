@@ -535,6 +535,10 @@ other pure mathematics topics to test synthesis under exam conditions.
 See for instructions on self-marking and
 building a personal test matrix.
 
+## Intuition
+
+Proof is the process of converting mathematical truth into certainty through logical chains. Deduction builds forward from known facts like constructing a bridge from solid foundations. Contradiction works backward: assume the opposite of what you want to prove and watch the logical structure collapse under its own weight. Exhaustion is brute force applied to small finite cases, checking every door in a room. Induction is like a line of falling dominoes: tip the first one and prove each one knocks over the next, guaranteeing the entire chain falls regardless of length.
+
 ## Common Pitfalls
 
 1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.

@@ -1186,5 +1186,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Shell Basics](shell-basics) -- Understanding shell invocation and environment variables is essential for writing effective bash scripts.
+- [I/O Redirection and Pipes](../03-process-management/io-redirection) -- Scripts use redirection and pipes to compose commands and handle output.
+- [Processes and Signals](../03-process-management/processes-and-signals) -- Bash scripts create and manage child processes using fork, exec, and signal handling.
+- [Cron and Scheduling](../03-process-management/cron-and-scheduling) -- Scheduled tasks often execute bash scripts at specified intervals.
 
 </aside>

@@ -4,6 +4,10 @@ description: "is a Python-based tool for rewriting Git repository history. It is
 
 ---
 
+## Intuition
+
+Filter-repo is a tool for rewriting Git history that replaces the deprecated and dangerous filter-branch. It works by exporting history through Git's fast-export format, applying transformations via Python callbacks, and reimporting the result. This streaming approach is both fast and memory-efficient because it never loads the full object database. Use cases include removing sensitive files from all commits, restructuring directory layouts, and cleaning up repository history before open-sourcing. The key advantage over filter-branch is safety: it refuses to run on dirty working trees and automatically cleans up refs.
+
 ## What filter-repo Is
 
 `git-filter-repo` is a Python-based tool for rewriting Git repository history. It is the modern,

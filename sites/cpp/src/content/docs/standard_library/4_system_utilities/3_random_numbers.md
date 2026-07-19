@@ -9,6 +9,10 @@ categories:
 
 ---
 
+## Intuition
+
+Random number generation in C++ separates the source of randomness (engine) from the statistical properties (distribution). The Mersenne Twister engine produces a long, high-quality sequence of uniform random bits, and distributions reshape those bits into the bell curve, dice rolls, or other patterns you need. `std::random_device` provides true entropy from the operating system for seeding. The key insight is that the same engine can produce different distributions by changing only the distribution object, making the system modular and reusable.
+
 ## Random Number Generation
 
 The `<random>` header provides a modular random number generation system consisting of engines

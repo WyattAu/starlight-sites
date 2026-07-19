@@ -2247,3 +2247,10 @@ Ratio: **90 purple : 70 white**. $\blacksquare$
 - The chi-squared test compares observed and expected ratios to test for linkage or deviation from
   H-W equilibrium.
 
+## Cross-References
+
+- [Genetics and DNA](genetics-and-dna) -- Mendelian inheritance and basic genetic principles are prerequisites for understanding epistasis and linked genes.
+- [Biotechnology](biotechnology) -- Gene manipulation techniques build on the principles of allele interaction and genetic variation covered here.
+- [Biodiversity, Classification and Evolution](biodiversity-classification-evolution) -- Natural selection and population genetics connect Hardy-Weinberg equilibrium to evolutionary change.
+- [Cells](cells) -- Cell division and meiosis provide the mechanistic basis for understanding inheritance patterns.
+

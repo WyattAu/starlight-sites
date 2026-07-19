@@ -4,6 +4,10 @@ description: "Understanding the translation stages are critical for debugging co
 ---
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
+## Intuition
+
+The C++ compilation pipeline transforms human-readable source code into machine-executable binary through a series of stages. The preprocessor is a text manipulation engine that handles file inclusion and macros before the compiler understands C++ syntax. The frontend then parses tokens into an abstract syntax tree, validates semantics, and generates intermediate representation. Understanding these stages helps you debug cryptic compiler errors, optimise build times, and appreciate why modules represent such a significant improvement over the textual inclusion model.
+
 Understanding the translation stages are critical for debugging compilation errors, optimizing build
 Times, and understanding.
 The pipeline processes one **Translation Unit (TU)** at a time. A TU is the output of the

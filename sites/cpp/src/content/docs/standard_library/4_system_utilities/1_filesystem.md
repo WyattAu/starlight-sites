@@ -9,6 +9,10 @@ categories:
 
 ---
 
+## Intuition
+
+The filesystem library abstracts platform differences between POSIX and Windows into a portable interface. It provides path manipulation that normalises separators and handles platform-specific quirks automatically. Directory iteration and recursive traversal let you walk file trees without writing platform-specific code. The library follows RAII principles, managing file handles and directory streams safely. Understanding the difference between paths and their string representations is key to writing portable file operations.
+
 ## The Filesystem Library
 
 `std::filesystem` (C++17) provides a portable interface for manipulating paths, querying file

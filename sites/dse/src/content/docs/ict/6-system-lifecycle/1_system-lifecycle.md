@@ -11,6 +11,10 @@ categories:
 
 ---
 
+## Intuition
+
+The system development lifecycle provides a structured approach to building information systems, ensuring each phase delivers value before moving to the next. Analysis understands the problem, design plans the solution, implementation builds it, testing verifies it works, and maintenance keeps it running. Skipping phases or rushing through them is the primary cause of project failure. The SDLC is not just a sequence of steps but a framework for managing risk, ensuring that problems are caught early when they are cheapest to fix.
+
 This document covers the system development lifecycle (SDLC) for the DSE ICT examination.
 Understanding The SDLC is essential for analysing how information systems are developed, from
 initial problem Identification through to ongoing maintenance.

@@ -9,6 +9,10 @@ categories:
 ---
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
+## Intuition
+
+Sanitizers are like having a careful supervisor watching your program execute, checking every memory access and arithmetic operation against the rules. Unlike static analysis that reads code without running it, sanitizers instrument the binary to detect actual runtime violations. Address Sanitizer wraps memory allocations with guard zones that catch overflows. Thread Sanitizer tracks which thread accesses what and when, catching data races. Undefined Behavior Sanitizer catches the subtle violations that the C++ standard leaves to the implementation, preventing silent corruption that might appear harmless but can cause arbitrary bugs.
+
 Static analysis predicts defects by parsing source code. **Runtime Sanitizers** detect defects by
 Monitoring the program during execution.
 

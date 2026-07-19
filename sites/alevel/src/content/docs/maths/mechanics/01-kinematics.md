@@ -802,6 +802,10 @@ with other topics to test synthesis under exam conditions.
 See for instructions on self-marking and
 building a personal test matrix.
 </aside>
+## Intuition
+
+Kinematics describes motion without considering its causes. The SUVAT equations are relationships between position, velocity, acceleration, and time that emerge from integrating constant acceleration. Motion graphs translate algebra into geometry: the gradient of a displacement graph gives velocity, and the area under a velocity graph gives displacement. Projectiles separate into independent horizontal and vertical motions, like watching a ball roll off a table while simultaneously dropping another straight down. Variable acceleration requires calculus because the simple geometric relationships no longer hold.
+
 ## Common Pitfalls
 
 1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components

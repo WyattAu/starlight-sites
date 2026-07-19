@@ -9,6 +9,10 @@ categories:
 
 ---
 
+## Intuition
+
+Data races are the silent killers of concurrent programs. When two threads access the same memory without synchronisation and at least one writes, the compiler and hardware can reorder, cache, or tear the operations in unpredictable ways. This is undefined behaviour, meaning anything can happen. The fix is to use atomic operations or mutexes to establish happens-before relationships. Critical sections are the guarded regions where shared state is accessed, and mutual exclusion ensures only one thread executes within them at a time.
+
 # Data Races and Critical Sections
 
 This section covers the formal definition of data races in the C++ memory model, their undefined

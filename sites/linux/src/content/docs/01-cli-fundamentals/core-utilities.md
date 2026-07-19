@@ -904,5 +904,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Text Processing](text-processing) -- Utilities like grep, sed, and awk build on core file operations for advanced text manipulation.
+- [Shell Basics](shell-basics) -- Core utilities are invoked from the shell; understanding shell features enhances their use.
+- [I/O Redirection](../03-process-management/io-redirection) -- Piping core utilities together is the foundation of the Unix philosophy.
+- [File Permissions](../02-file-systems/file-permissions) -- Commands like chmod and chown are core utilities for managing file access.
 
 </aside>

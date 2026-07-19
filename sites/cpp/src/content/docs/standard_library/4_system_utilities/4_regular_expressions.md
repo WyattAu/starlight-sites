@@ -9,6 +9,10 @@ categories:
 
 ---
 
+## Intuition
+
+Regular expressions are a mini-language for pattern matching in text. `std::regex_match` tests whether an entire string fits a pattern, while `std::regex_search` finds the first occurrence within a string. Capture groups let you extract parts of a match. The ECMAScript grammar is the default, familiar from JavaScript. Performance can be a concern with pathological patterns that trigger catastrophic backtracking, so for high-throughput applications consider compile-time regex libraries or hand-written parsers.
+
 ## Regular Expressions
 
 `std::regex` (C++11) provides regular expression matching, searching, and replacement using the

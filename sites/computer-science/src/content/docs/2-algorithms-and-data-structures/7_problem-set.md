@@ -6,6 +6,10 @@ tags:
 description: "Problem Set: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
+## Intuition
+
+Problem sets consolidate understanding through practice. Each problem targets a specific skill: asymptotic proofs test your ability to bound growth rates, data structure problems verify you understand balancing invariants and amortised analysis, and algorithm design problems exercise your ability to construct efficient solutions. Working through problems systematically reveals patterns that pure reading cannot, and the proofs build the mathematical maturity needed for advanced study.
+
 ### 7.1 Analysis (Problems 1--3)
 
 **Problem 1.** Prove that $n^3 / 1000 - 100n^2 - 100n + 3 = \Theta(n^3)$.

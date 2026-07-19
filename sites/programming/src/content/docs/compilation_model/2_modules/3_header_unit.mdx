@@ -9,8 +9,11 @@ categories:
 ---
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
-The transition from a text-based inclusion model (`#include`) to a semantic module model (`import`)
-Cannot happen instantaneously. The C++ ecosystem relies on millions of lines of headers (POSIX,
+## Intuition
+
+Header units bridge the gap between the legacy `#include` system and modern C++ modules. Instead of every source file re-parsing the same header text, header units compile the header once into a binary module interface that can be imported like a native module. The Global Module Fragment provides a sandbox where `#include` directives can be used safely within module files without polluting the module's exported interface. This enables incremental adoption of modules without requiring the entire ecosystem to migrate simultaneously.
+
+The transition from a text-based inclusion model (`#include`) to a semantic module model (`import`) cannot happen instantaneously. The C++ ecosystem relies on millions of lines of headers (POSIX,
 Windows SDK, OpenSSL, Boost) that may never be converted to native modules.
 
 To bridge this gap, C++20/23 introduces two architectural mechanisms:

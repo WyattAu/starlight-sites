@@ -4,6 +4,10 @@ description: "Rust' s expression does not require parentheses around the conditi
 
 ---
 
+## Intuition
+
+Control flow in Rust is expression-oriented, meaning nearly everything returns a value. Pattern matching with `match` is like a Swiss Army knife for branching, destructuring data while simultaneously making decisions. The `if` expression eliminates the need for ternary operators by treating branches as value-producing blocks. Enums with associated data enable algebraic data types where the compiler ensures exhaustive handling of all cases, preventing forgotten branches at compile time rather than runtime.
+
 ## `if` / `else`
 
 Rust's `if` expression does not require parentheses around the condition, but braces around the body

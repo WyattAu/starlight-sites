@@ -10,6 +10,10 @@ categories:
 
 ---
 
+## Intuition
+
+Advanced data structures solve fundamental problems with provable performance guarantees. Red-black trees maintain balance through colour invariants and rotations, guaranteeing logarithmic operations. AVL trees use height differences for stricter balancing. B-trees optimise for disk access by maximising branching factor. Skip lists achieve probabilistic balancing through layered linked lists. Hash tables provide constant-time average-case operations through careful hash function design and collision resolution strategies. Understanding the tradeoffs between these structures guides appropriate selection for specific use cases.
+
 ## 1. Balanced Search Trees
 
 ### 1.1 Red-Black Trees

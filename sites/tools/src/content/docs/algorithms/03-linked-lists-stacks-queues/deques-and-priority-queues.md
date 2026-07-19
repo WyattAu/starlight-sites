@@ -1023,5 +1023,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Linked Lists](../01-linked-lists/01-linked-lists) -- Deques can be implemented using doubly-linked lists for O(1) operations at both ends.
+- [Stacks and Queues](../02-stacks-queues/01-stacks-queues) -- Deques generalise both stacks and queues, supporting LIFO and FIFO operations.
+- [Binary Search Trees](../../04-trees-graphs/binary-search-trees) -- Priority queues are used in tree balancing algorithms and heap operations.
+- [Graph Algorithms](../../07-graph-algorithms/graph-algorithms) -- Priority queues are essential for Dijkstra's and Prim's algorithms.
 
 </aside>

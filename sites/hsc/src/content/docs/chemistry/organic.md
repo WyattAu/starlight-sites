@@ -228,6 +228,13 @@ Step 4: The number of monomers $n$ in the polymer chain is the degree of polymer
 
 **Confusing SN1 and SN2 reaction mechanisms for haloalkanes.** SN1 proceeds through a carbocation intermediate and gives racemisation. SN2 proceeds through backside attack and gives inversion of configuration. Students often assume all nucleophilic substitutions follow the same mechanism.
 
+## Cross-References
+
+- [Inorganic](../chemistry/inorganic) -- Redox reactions and electrochemistry provide the foundation for understanding organic oxidation and reduction.
+- [Algebra](../mathematics/algebra) -- Logarithmic functions are used in rate equations for organic reaction kinetics.
+- [Calculus](../mathematics/calculus) -- Integration is used to derive integrated rate laws for organic reaction mechanisms.
+- [Reading](../english/reading) -- Close reading skills help analyse organic chemistry problems and interpret reaction mechanisms.
+
 **Forgetting Markovnikov's rule for alkene addition reactions.** When HX adds to an unsymmetrical alkene, hydrogen adds to the carbon with more hydrogens (Markovnikov product). Students sometimes add in the reverse direction, getting the anti-Markovnikov product which only forms in the presence of peroxides.
 
 **Misidentifying the functional group in organic molecules.** Alcohols (-OH), ethers (-O-), aldehydes (-CHO), ketones (-CO-), and carboxylic acids (-COOH) have distinct structures and reactivities. Students often confuse esters (-COO-) with ethers (-O-) or aldehydes with ketones, leading to incorrect reaction predictions.

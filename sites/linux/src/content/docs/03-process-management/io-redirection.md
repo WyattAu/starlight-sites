@@ -863,5 +863,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Shell Basics](../01-cli-fundamentals/shell-basics) -- Shell features like pipes and redirection are part of the shell's command-line interface.
+- [Text Processing](../01-cli-fundamentals/text-processing) -- Text processing pipelines use redirection and pipes to compose sed, awk, and grep.
+- [Processes and Signals](processes-and-signals) -- File descriptors are per-process resources managed by the kernel.
+- [Cron and Scheduling](cron-and-scheduling) -- Scheduled tasks use redirection to log output to files.
 
 </aside>

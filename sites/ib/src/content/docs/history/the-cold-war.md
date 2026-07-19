@@ -1125,3 +1125,10 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [The Move to Global War](the-move-to-global-war) -- The failures of interwar diplomacy and the Treaty of Versailles created the conditions for Cold War tensions.
+- [Supply-Side Policy](../economics/2-macroeconomics/4-supply-side-policy) -- Economic competition between superpowers involved supply-side policies and central planning.
+- [Game Theory and Behavioural Economics](../economics/6-game-theory/1_game-theory-and-behavioural) -- Nuclear deterrence strategy is a real-world application of game-theoretic models.
+- [Descriptive Statistics](../economics/5-quantitative-economics/1-descriptive-statistics) -- Comparing economic performance of the US and USSR requires the quantitative skills covered in this topic.
+

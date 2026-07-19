@@ -256,3 +256,10 @@ The cell potential is $E_{cell} = E_{cathode} - E_{anode}$, where the cathode is
 ### Mistake 3: Forgetting to multiply by the number of electrons in Faraday's law calculations
 
 Faraday's first law states $m = MIt/(nF)$, where $n$ is the number of electrons transferred per ion. For example, depositing Cu²⁺ requires 2 electrons ($n = 2$), while depositing Ag⁺ requires only 1 ($n = 1$). Students often use $n = 1$ by default, leading to mass calculations that are off by a factor of 2 or more. Always check the ion's charge to determine $n$.
+
+## Cross-References
+
+- [Algebra](../mathematics/algebra) -- Logarithmic functions and matrix operations are used in electrochemistry and equilibrium calculations.
+- [Calculus](../mathematics/calculus) -- Rate equations and integrated rate laws in chemical kinetics require differentiation and integration.
+- [Organic](../chemistry/organic) -- Organic reactions involve redox processes and functional group transformations that build on inorganic principles.
+- [Mechanics](../physics/mechanics) -- Energy conservation and work-energy concepts connect thermochemistry to mechanical systems.

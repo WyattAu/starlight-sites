@@ -1741,3 +1741,10 @@ models, evidence, and policy implications.
 
 The ability to apply these theories to real-world data and evaluate policy decisions is central to
 success in this subject.
+
+## Cross-References
+
+- [Descriptive Statistics](../5-quantitative-economics/1-descriptive-statistics) -- Measuring the effects of supply-side policies requires real GDP and index number calculations.
+- [International Trade](../3-international-economics/1-trade) -- Supply-side reforms affect a country's comparative advantage and trade competitiveness.
+- [Game Theory and Behavioural Economics](../6-game-theory/1_game-theory-and-behavioural) -- Behavioural insights inform the design of supply-side policies like nudge interventions.
+- [Theory of the Firm](../1-microeconomics/4-theory-of-the-firm) -- Labour market regulation and deregulation directly affect firm costs and market structure.

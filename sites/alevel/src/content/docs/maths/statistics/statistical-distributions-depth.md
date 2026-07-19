@@ -324,6 +324,10 @@ $= \Phi(1.558) - \Phi(-0.866) = 0.9404 - 0.1931 = 0.7473$.
 
 </details>
 
+## Intuition
+
+Statistical distributions are models that describe how probability mass is spread across possible outcomes. The binomial distribution counts successes in fixed trials like flipping a coin ten times and counting heads. The normal distribution emerges naturally when many small random effects combine, like measuring heights where genetics and nutrition each contribute tiny variations. The Poisson distribution captures rare events in continuous time, like customers arriving at a shop. These three are deeply connected: the Poisson is a limiting case of the binomial when trials are numerous but success is rare, and the normal approximates both when conditions are right.
+
 ## Common Pitfalls
 
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both

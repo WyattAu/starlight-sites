@@ -11,6 +11,10 @@ categories:
 
 ---
 
+## Intuition
+
+Web development separates concerns into three layers: HTML provides structure like the skeleton of a building, CSS adds presentation like paint and decoration, and JavaScript enables interactivity like electrical wiring. Semantic HTML improves accessibility and search engine indexing by describing the meaning of content rather than just its appearance. Client-side processing runs in the browser for immediate feedback, while server-side processing handles data and business logic on the remote machine. Understanding this division is fundamental to building effective web applications.
+
 This document provides in-depth coverage of web development (HTML, CSS, JavaScript), web hosting,
 Client-side vs server-side processing, multimedia applications, and user interface design. A brief
 Introduction to HTML, CSS, and JavaScript is available in

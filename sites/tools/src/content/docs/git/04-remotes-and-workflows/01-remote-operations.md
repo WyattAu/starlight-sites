@@ -10,6 +10,10 @@ categories:
 
 ---
 
+## Intuition
+
+Git's distributed architecture means every clone is a complete repository with full history, and remotes are simply pointers to other repositories. Push uploads your commits to a remote, fetch downloads new commits without merging, and pull combines fetch with merge. The distinction between bare repositories (server-side, no working directory) and non-bare repositories (developer workstations) explains why you cannot push to a non-bare repo by default. Understanding these operations is fundamental to collaborative development workflows.
+
 ## Distributed Architecture
 
 Git's distributed architecture means there is no intrinsic client-server relationship. Any

@@ -9,6 +9,10 @@ categories:
 ---
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
+## Intuition
+
+The Language Server Protocol is a universal translator between code editors and language intelligence tools. Rather than each editor reimplementing code completion, diagnostics, and refactoring for every language, LSP provides a standard interface where one server can serve many editors. Clangd acts as this server for C++, using the same Clang compiler frontend that builds your code, ensuring that editor suggestions are always consistent with what the compiler accepts. The compilation database bridges the gap between what the editor sees and how the compiler actually builds each file.
+
 **Language Server Protocol (LSP)** decouples the specific IDE (VS Code, Neovim, Emacs) from the
 Language intelligence logic.
 

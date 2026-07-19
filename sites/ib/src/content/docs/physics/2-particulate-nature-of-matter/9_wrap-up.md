@@ -466,6 +466,10 @@ Kg$^{-1}$$L_v = 2.26 \times 10^6$ J kg$^{-1}$)
 
 </details>
 
+## Intuition
+
+Thermal physics connects microscopic molecular motion to macroscopic temperature and pressure. The ideal gas law emerges from countless molecular collisions, each tiny impact contributing to the pressure we measure. Heat is energy in transit, flowing from hot to cold like water flowing downhill. Phase changes occur when molecules gain enough energy to break their bonds, and the latent heat represents this hidden energy cost. Thermodynamics governs energy conversion limits, with entropy always increasing in isolated systems, explaining why perpetual motion machines are impossible.
+
 ## Common Pitfalls
 
 1. Using the wrong equation from the data sheet. Take time to read the full equation, including

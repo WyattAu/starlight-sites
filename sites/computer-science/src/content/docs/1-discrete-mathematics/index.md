@@ -65,3 +65,11 @@ Each section includes:
 3. **Draw graphs**: Visualise graph problems to find solutions
 4. **Learn standard examples**: Know the properties of common graphs (complete, bipartite, planar)
 5. **Connect to algorithms**: Discrete math is the language of algorithm analysis
+
+## Common Mistakes
+
+**Confusing "necessary" with "sufficient" conditions.** Students often treat "if and only if" as simply "if," leading to incorrect proofs. For example, a graph being connected is necessary for having an Euler circuit, but not sufficient (all vertices must also have even degree).
+
+**Overlooking edge cases in definitions.** When proving a relation is an equivalence relation, students frequently forget to verify reflexivity for all elements, or assume symmetry implies reflexivity. Every property must be checked explicitly for the given set.
+
+**Treating discrete structures as continuous.** Applying calculus intuition to discrete objects leads to errors. For example, the Pigeonhole Principle has no continuous analogue, and counting arguments require careful attention to whether items are distinguishable.

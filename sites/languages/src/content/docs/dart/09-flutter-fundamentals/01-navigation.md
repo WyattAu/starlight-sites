@@ -1297,3 +1297,10 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Dart State Management](../10-state-management/01-state-management) -- Navigation state must be managed alongside application state for consistent user experience.
+- [Dart Widgets](02-widgets) -- Navigation relies on the widget tree and build context to manage screen transitions.
+- [Dart Asynchronous Programming](../08-asynchronous/01-async) -- Asynchronous data loading often accompanies navigation between screens.
+- [Dart Classes and Objects](../04-classes-and-objects/01-classes) -- Route arguments and parameters are passed as objects between navigated screens.

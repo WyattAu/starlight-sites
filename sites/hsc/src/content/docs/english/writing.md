@@ -174,3 +174,10 @@ Phrases like "nice weather" or "a big building" are vague and unpersuasive. Effe
 ### Mistake 3: Neglecting to link technique to theme in analytical writing
 
 In analytical paragraphs, students often describe what happens in the text without explaining why it matters thematically. Every piece of evidence should connect back to your thesis. For example, don't just say "the author uses short sentences." Instead: "The author's use of short, clipped sentences mirrors the character's fractured mental state, reinforcing the theme of psychological disintegration." Always close the loop between technique and meaning.
+
+## Cross-References
+
+- [Reading](../english/reading) -- Close reading and analytical skills are prerequisites for effective essay and creative writing.
+- [Algebra](../mathematics/algebra) -- Logical structuring and systematic thinking in writing parallel algebraic reasoning.
+- [Mechanics](../physics/mechanics) -- Scientific report writing requires the same evidence-based structure used in English essays.
+- [Intro](../intro) -- Understanding the HSC assessment framework helps tailor writing to marking criteria.

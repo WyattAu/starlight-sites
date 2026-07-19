@@ -6,6 +6,10 @@ tags:
 description: "An IPv4 address is a 32-bit number in dotted-decimal: . Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
+## Intuition
+
+The network layer routes packets across multiple hops from source to destination. IP addresses provide globally unique identifiers, and subnetting divides large networks into manageable pieces. Routing algorithms like link-state and distance-vector build forwarding tables by exchanging topology information. NAT conserves address space by remapping private addresses. The layer's design philosophy of best-effort delivery trades guaranteed reliability for simplicity and performance, leaving reliability to higher layers.
+
 ### 4.1 IPv4 Addressing
 
 An IPv4 address is a 32-bit number in dotted-decimal: `192.168.1.1`.

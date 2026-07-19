@@ -167,3 +167,10 @@ HSC examiners reward essays that acknowledge complexity and alternative readings
 8. In essays, use topic sentences that clearly link to your thesis
 9. For creative responses, engage with the prompt from multiple angles
 10. Practice writing under timed conditions to build speed and fluency
+
+## Cross-References
+
+- [Writing](../english/writing) -- Essay and creative writing techniques apply the analytical skills developed through close reading.
+- [Algebra](../mathematics/algebra) -- Logical reasoning and structured argumentation in reading mirror algebraic proof techniques.
+- [Mechanics](../physics/mechanics) -- Scientific literacy and comprehension skills transfer to interpreting physics problems and experimental reports.
+- [Intro](../intro) -- Understanding the HSC assessment structure helps focus reading strategies on exam-relevant skills.

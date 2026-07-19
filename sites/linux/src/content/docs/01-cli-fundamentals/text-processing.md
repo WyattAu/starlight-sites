@@ -1053,5 +1053,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Core Utilities](core-utilities) -- Text processing tools like sort, uniq, and wc are part of GNU coreutils and build on basic file utilities.
+- [I/O Redirection](../03-process-management/io-redirection) -- Text processing pipelines use redirection and pipes to compose commands.
+- [Bash Scripting](bash-scripting) -- Regular expressions and text processing are frequently used in bash scripts for data manipulation.
+- [File Permissions](../02-file-systems/file-permissions) -- Log file analysis requires understanding file ownership and access permissions.
 
 </aside>

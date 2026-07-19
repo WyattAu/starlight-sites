@@ -11,6 +11,10 @@ categories:
 
 ---
 
+## Intuition
+
+Office automation tools transform raw data into information through structured manipulation. Spreadsheets organise data in grids where formulas create relationships between cells, and relative versus absolute references control how formulas behave when copied. Databases store structured data with defined relationships, enabling efficient querying and reporting. Word processing combines text formatting with layout control, while presentation software visualises information for communication. Understanding these tools and their integration enables efficient information management across organisations.
+
 This document covers spreadsheet concepts, database usage from an end-user perspective, word
 Processing, presentation software, application integration, and macro basics. Database design and
 SQL are covered in depth in

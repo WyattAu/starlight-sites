@@ -1935,5 +1935,12 @@ $$\mathrm{Percentage\ yield} = \frac{4.8}{6.90} \times 100\% = 69.6\%$$
 5. Confusing enthalpy of formation with enthalpy of combustion, or using the wrong sign convention.
 
 6. Misidentifying the limiting reagent. Compare mole ratios rather than comparing masses.
-   > > > > > > > Stashed changes:docs/docs_dse/Chemistry/organic-chemistry.md
+    > > > > > > > Stashed changes:docs/docs_dse/Chemistry/organic-chemistry.md
+
+## Cross-References
+
+- [Human Physiology](../../biology/4-human-physiology/1_human-physiology) -- Digestion and metabolism of organic molecules connects chemistry to biological systems.
+- [Plant Biology](../../biology/5-plant-biology/1_plant-biology) -- Photosynthesis and plant metabolism involve organic reactions like carbon fixation.
+- [Genetics](../../biology/3-genetics/1_genetics) -- DNA structure and protein synthesis are fundamentally organic chemistry processes.
+- [Nuclear Physics](../5-nuclear-physics/1_nuclear-physics) -- Radioactive isotopes used in organic analysis and carbon dating connect these fields.
 

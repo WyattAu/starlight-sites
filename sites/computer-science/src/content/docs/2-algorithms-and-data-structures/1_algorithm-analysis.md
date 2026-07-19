@@ -6,6 +6,10 @@ tags:
 description: "Algorithm Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
+## Intuition
+
+Algorithm analysis measures how an algorithm's resource requirements grow with input size, independent of hardware. Big-O notation provides an upper bound on growth rate, like saying a car's top speed is at most 120 mph regardless of road conditions. The limit rule gives a practical shortcut: compare growth rates by taking the ratio as the input grows. Asymptotic notation is transitive because bounding one function by another creates a chain of bounds. The key insight is that constants and lower-order terms become irrelevant for large inputs.
+
 ### 1.1 Asymptotic Notation
 
 **Definition.** $f(n) = O(g(n))$ if there exist constants $c > 0$ and $n_0$ such that
@@ -280,5 +284,12 @@ a per-operation worst-case bound. A single operation can still be expensive (e.g
 dynamic array costs $O(n)$). Amortised bounds are meaningful only when the sequence length is not
 bounded by a constant.
 
+## Common Mistakes
+
+**Confusing Big-O with Big-Theta.** Big-O ($O$) is an upper bound, while Big-Theta ($\Theta$) is a tight bound. Saying $f(n) = O(g(n))$ means $f$ grows no faster than $g$, but $f(n) = \Theta(g(n))$ means they grow at the same rate. Using $O$ when you mean $\Theta$ overstates the generality of your claim.
+
+**Applying the Master Theorem to non-divide-and-conquer recurrences.** The Master Theorem applies only to recurrences of the form $T(n) = aT(n/b) + f(n)$. Recurrences like $T(n) = T(n-1) + n$ (from iterative algorithms) or $T(n) = T(n/2) + T(n/3) + n$ (uneven splits) require different techniques such as the recursion tree method or Akra-Bazzi.
+
+**Misunderstanding amortised analysis.** Amortised cost is an average over a sequence of operations, not a guarantee for any single operation. A single operation in an amortised $O(1)$ sequence can still cost $O(n)$. Amortised bounds are meaningful only when you care about the total cost of many operations, not individual latency.
 
 </aside>

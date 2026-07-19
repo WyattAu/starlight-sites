@@ -500,6 +500,10 @@ Loss of KE $= 166 - 144.4 = 21.6\;\mathrm{J}$
 
 </details>
 
+## Intuition
+
+Dynamics describes how forces shape motion. Newton's laws are the rules of the game: objects resist changes to their state, forces cause acceleration proportional to mass, and every interaction produces equal and opposite reactions. Friction is like invisible grit between surfaces that opposes sliding, proportional to how hard surfaces press together. Momentum is the inertia of motion, conserved when no external force acts. Impulse is a momentary push that changes momentum, and the coefficient of restitution measures how bouncy a collision is.
+
 ## Common Pitfalls
 
 1. Confusing scalar and vector quantities. Always check whether direction matters for the quantity

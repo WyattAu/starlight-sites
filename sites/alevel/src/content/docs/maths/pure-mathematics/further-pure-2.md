@@ -387,6 +387,10 @@ $\phi(a + b) = i^{a+b} = i^a \cdot i^b = \phi(a)\phi(b)$. The multiplication tab
 $\{1, -1, i, -i\}$ matches the addition table of $\mathbb{Z}_4$ under this mapping, confirming the
 isomorphism.
 
+## Intuition
+
+Further Pure 2 deepens abstract algebra and geometric reasoning. Groups capture the essence of symmetry, where every element has an inverse and operations compose predictably. Euler's relation unifies exponentials and trigonometry into a single elegant expression, revealing that rotation in the complex plane is exponential growth in disguise. Taylor series approximate complicated functions as infinite polynomials, and reduction formulae break difficult integrals into simpler recursive steps. Conics unify circles, ellipses, parabolas, and hyperbolas under one eccentricity parameter.
+
 ## Common Pitfalls
 
 - **Omitting axioms when checking groups:** All four axioms (closure, associativity, identity,

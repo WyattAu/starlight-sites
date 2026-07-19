@@ -9,6 +9,10 @@ categories:
 
 ---
 
+## Intuition
+
+Macros are Rust's compile-time code generation mechanism. Declarative macros are like sophisticated find-and-replace operating on token trees, enabling variadic functions and syntax sugar that the type system cannot express. Procedural macros are Rust programs that transform code, with full access to the abstract syntax tree. They power derive macros that automatically generate trait implementations, eliminating boilerplate while maintaining type safety. Macros trade readability for expressiveness, and should be used when functions and generics are insufficient.
+
 ## Introduction
 
 Macros in Rust are a metaprogramming mechanism that operates on the abstract syntax tree (AST)
@@ -1647,5 +1651,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Rust Ownership and Borrowing](../02-ownership-borrowing) -- Ownership rules are enforced at compile time, while macros operate on the syntax tree before type checking.
+- [Rust Traits](../06-traits) -- Derive macros automatically generate trait implementations, reducing boilerplate.
+- [Rust Generics](../05-generics) -- Generic functions and trait bounds work alongside macros for type-safe code generation.
+- [Rust Error Handling](../04-error-handling) -- Procedural macros can generate error handling boilerplate for custom error types.
 
 </aside>

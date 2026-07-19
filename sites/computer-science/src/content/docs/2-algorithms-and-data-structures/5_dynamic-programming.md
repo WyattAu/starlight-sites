@@ -267,8 +267,10 @@ exists. The number of piles equals the LIS length.
 
 Dynamic programming is solving complex problems by breaking them into overlapping subproblems. Think of it as a filing cabinet: instead of recalculating the same answer repeatedly, you store it and look it up later. The key insight is optimal substructure: the optimal solution to a problem contains optimal solutions to its subproblems. Memoisation (top-down) caches results of recursive calls, while tabulation (bottom-up) fills a table iteratively. DP is powerful but requires recognising the right subproblem decomposition.
 
-## Cross-References
+## Common Mistakes
 
-- [Algorithm Analysis](/computer-science/2-algorithms-and-data-structures/1_algorithm_analysis)
-- [Sorting Algorithms](/computer-science/2-algorithms-and-data-structures/3_sorting-algorithms)
-- [Graph Algorithms](/computer-science/2-algorithms-and-data-structures/4_graph-algorithms)
+**Assuming optimal substructure without verification.** Not all problems exhibit optimal substructure. The longest simple path problem, for example, does not: the longest simple path from $u$ to $v$ may not contain the longest simple path from $u$ to an intermediate vertex $w$, because subpaths might share vertices with the rest of the path. Always prove optimal substructure before applying DP.
+
+**Incorrect state transitions.** In the 0/1 knapsack, the recurrence is $\max(dp[i-1][c], dp[i-1][c-w_i] + v_i)$, not $\max(dp[i][c], dp[i-1][c-w_i] + v_i)$. Using the current row instead of the previous row causes items to be counted multiple times. Trace through small examples to verify your recurrence.
+
+**Confusing memoisation and tabulation space complexity.** Memoisation uses $O(n)$ stack space plus $O(n)$ table space, while tabulation uses only $O(n)$ table space (or $O(1)$ with rolling arrays). For deep recursion, memoisation may cause stack overflow. Choose tabulation when space is constrained or the recursion depth is large.

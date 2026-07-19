@@ -195,6 +195,14 @@ $$T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a
 
 Recurrence relations define sequences where each term depends on previous terms. They naturally arise in divide-and-conquer algorithms (binary search: T(n) = T(n/2) + O(1)). Solving recurrences via substitution, recursion trees, or the Master theorem determines algorithm time complexity. Linear recurrences with constant coefficients have closed-form solutions using characteristic equations, connecting discrete math to continuous analysis.
 
+## Common Mistakes
+
+**Incorrect characteristic equation.** For a recurrence $a_n + c_1 a_{n-1} + \cdots + c_k a_{n-k} = 0$, the characteristic equation is $r^k + c_1 r^{k-1} + \cdots + c_k = 0$. A common error is using the wrong signs on the coefficients. For $a_n = 5a_{n-1} - 6a_{n-2}$, the characteristic equation is $r^2 - 5r + 6 = 0$, not $r^2 + 5r - 6 = 0$.
+
+**Misapplying the Master Theorem.** The Master Theorem does not apply to recurrences that are not of the form $T(n) = aT(n/b) + f(n)$. For example, $T(n) = T(n-1) + n$ cannot be solved with the Master Theorem. Also, if $f(n)$ falls between cases (e.g., $f(n) = n \log n$ with critical exponent 1), the theorem does not apply.
+
+**Forgetting repeated roots.** When the characteristic equation has a repeated root $r$ with multiplicity $m$, the general solution includes terms $(A_1 + A_2 n + \cdots + A_m n^{m-1}) r^n$, not just $A r^n$. Students often omit the polynomial factor, leading to incorrect solutions for recurrences like $a_n = 4a_{n-1} - 4a_{n-2}$.
+
 ## Cross-References
 
 - [[1-algorithms/algorithm-design]] - Divide-and-conquer recurrences

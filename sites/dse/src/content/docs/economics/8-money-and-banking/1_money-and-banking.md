@@ -1606,3 +1606,10 @@ success in this subject.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [National Income](../5-macroeconomic-indicators/1_national-income) -- Money supply and banking activity are measured through national income accounting and GDP.
+- [Human Physiology](../../biology/4-human-physiology/1_human-physiology) -- Healthcare spending and pharmaceutical economics connect biology to money and banking.
+- [Organic Chemistry](../../chemistry/7-organic-chemistry/1_organic-chemistry) -- Pharmaceutical industry economics involve the commercialisation of organic compounds.
+- [Plant Biology](../../biology/5-plant-biology/1_plant-biology) -- Agricultural economics and commodity markets link plant biology to financial systems.

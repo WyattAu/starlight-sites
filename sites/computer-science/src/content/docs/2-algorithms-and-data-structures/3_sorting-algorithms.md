@@ -255,6 +255,14 @@ and cannot sort arbitrary objects.
 
 Sorting is arranging data in a specific order. It is one of the most studied problems in computer science because so many other problems reduce to sorting. Comparison-based sorts (merge sort, quicksort) cannot do better than O(n log n) in the worst case, because each comparison eliminates only one possibility. Non-comparison sorts (counting sort, radix sort) can achieve O(n) but only work on specific data types. The choice of algorithm depends on your data: nearly sorted data favours insertion sort, random data favours quicksort, and guaranteed O(n log n) favours merge sort.
 
+## Common Mistakes
+
+**Assuming quicksort is always $O(n \log n)$.** Quicksort's $O(n^2)$ worst case occurs when the pivot is consistently the smallest or largest element (e.g., already sorted input with first-element pivot). Use median-of-three or randomised pivot selection to avoid this. If guaranteed $O(n \log n)$ is required, use mergesort or heapsort.
+
+**Confusing stability with performance.** A stable sort preserves the relative order of equal elements, which matters when sorting by multiple keys. Merge sort and insertion sort are stable; quicksort and heapsort are not. Choosing an unstable sort when stability is needed produces incorrect results for secondary sort criteria.
+
+**Incorrect counting sort range calculation.** Counting sort requires knowing the range of values in advance. If the range $k$ is much larger than $n$, counting sort uses $O(n + k)$ space, which may exceed $O(n \log n)$ comparison sorts. Always verify that $k = O(n)$ before choosing counting sort.
+
 ## Cross-References
 
 - [Algorithm Analysis](/computer-science/2-algorithms-and-data-structures/1_algorithm_analysis)

@@ -9,6 +9,10 @@ categories:
 ---
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
+## Intuition
+
+Debugging is the process of stepping through compiled machine code and mapping it back to source-level concepts. Debug symbols are the Rosetta Stone that translates between binary addresses and variable names. DWARF on Linux and PDB on Windows serve this purpose in different formats. The debugger works by setting breakpoints that trap execution, inspecting memory and registers, and evaluating expressions using the compiler's own type information. Understanding the compilation pipeline helps you produce the right debug information for your needs.
+
 A compiled C++ binary consists of machine code instructions. To map an Instruction Pointer (IP)
 Address back to a specific line of C++ source code, variable name, or stack frame, the debugger
 Requires **Debug Symbols**.

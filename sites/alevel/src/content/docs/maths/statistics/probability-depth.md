@@ -354,6 +354,10 @@ $P = \dfrac{4}{15} \times \dfrac{6}{14} \times \dfrac{5}{13} \times 6 = \dfrac{7
 
 </details>
 
+## Intuition
+
+Probability is fundamentally about quantifying uncertainty before an event occurs. Think of the sample space as a pizza: conditional probability asks what fraction of one topping's area also contains another topping, effectively shrinking the pizza to just that topping's region. Bayes' theorem reverses the direction of reasoning like looking at a photograph and asking which camera likely took it. Independence means one slice of information tells you nothing about another, just as flipping a coin tells you nothing about the next roll. The law of total probability is like weighing several possible routes by their likelihoods to find your overall chance of arriving on time.
+
 ## Common Pitfalls
 
 1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires

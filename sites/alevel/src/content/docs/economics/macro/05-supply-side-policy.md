@@ -1280,5 +1280,12 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
+## Cross-References
+
+- [Macroeconomic Performance](01-macroeconomic-performance) -- GDP growth and productivity measures are the outcomes that supply-side policies aim to improve.
+- [Macroeconomic Policy Debates](07-macroeconomic-policy-debates) -- The effectiveness of supply-side versus demand-side policies is central to macroeconomic policy debates.
+- [Labour Markets](../microeconomics/05-labour-markets) -- Labour market flexibility and education reform are key supply-side interventions.
+- [Market Failure and Government Intervention](../microeconomics/market-failure) -- Government failure can arise when supply-side policies produce unintended consequences.
+
 $
 </aside>

@@ -6,6 +6,10 @@ tags:
 description: "Transport Layer: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
+## Intuition
+
+The transport layer provides end-to-end communication services between applications. UDP is the minimalist option: connectionless, unreliable, but fast, suitable for real-time applications where occasional loss is acceptable. TCP is the reliable option: it establishes connections through handshakes, numbers bytes for ordering, acknowledges receipt, and retransmits lost data. Flow control prevents the sender from overwhelming the receiver, and congestion control prevents the sender from overwhelming the network. The choice between TCP and UDP depends on whether reliability or latency matters more.
+
 ### 5.1 UDP
 
 **Connectionless, unreliable, message-oriented.** 8-byte header.

@@ -369,6 +369,10 @@ $y'(0) = 2A + 3B = 5$. Solving: $B = 3$, $A = -2$. Solution: $y = 3e^{3x} - 2e^{
 loop is traced as $\theta$ goes from $0$ to $\pi/2$ (where $r$ returns to zero).
 $$A = \frac{1}{2}\int_0^{\pi/2} a^2\sin^2 2\theta\,d\theta = \frac{a^2}{2}\int_0^{\pi/2}\frac{1 - \cos 4\theta}{2}\,d\theta = \frac{a^2}{4}\left[\theta - \frac{\sin 4\theta}{4}\right]_0^{\pi/2} = \frac{a^2\pi}{8}$$
 
+## Intuition
+
+Further Pure 1 extends familiar algebra into the complex plane and beyond. Complex numbers are like二维 coordinates but with multiplication that rotates and scales simultaneously. Matrices encode linear transformations, where multiplication composes actions and determinants measure area scaling. Integration by parts is a controlled exchange of complexity between two factors, and the integrating factor method transforms a difficult differential equation into a recognisable product rule. Polar coordinates replace the Cartesian grid with a compass and ruler, naturally describing rotation and radial symmetry.
+
 ## Common Pitfalls
 
 - **Confusing the principal argument:** For points in the third and fourth quadrants, the argument

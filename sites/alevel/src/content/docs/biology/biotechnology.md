@@ -2305,4 +2305,11 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
+## Cross-References
+
+- [Genetics and DNA](genetics-and-dna) -- Understanding DNA structure and replication is essential for grasping how restriction enzymes and vectors work in recombinant DNA technology.
+- [Advanced Genetics](genetics-advanced) -- Epistasis and linkage analysis complement the gene manipulation techniques discussed in biotechnology.
+- [Cells](cells) -- Cell structure and membrane transport are relevant to understanding how transformed cells take up foreign DNA.
+- [Ecology](ecology) -- Environmental impacts of genetically modified organisms connect biotechnology to broader ecological considerations.
+
 </aside>

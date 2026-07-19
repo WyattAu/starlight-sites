@@ -9,6 +9,10 @@ categories:
 
 ---
 
+## Intuition
+
+C++ provides low-level character types for Unicode but minimal high-level text processing. UTF-8 is the dominant encoding because it is backward compatible with ASCII and has no byte-order issues. The key challenge is that one Unicode code point may require 1 to 4 bytes, so byte count does not equal character count. The standard library offers basic encoding and decoding, but operations like case conversion and grapheme cluster segmentation require external libraries. Understanding the distinction between code points, code units, and grapheme clusters is essential for correct Unicode handling.
+
 ## Unicode Support
 
 C++ provides several character types for Unicode support and `u8` string literals for UTF-8 text.

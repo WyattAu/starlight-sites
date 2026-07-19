@@ -1491,3 +1491,10 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Stoichiometric Relationships](../1-stoichiometry/1_stoichiometric-relationships) -- Mole concept and Avogadro's number are foundational for understanding atomic structure calculations.
+- [Chemical Bonding](../4-chemical-bonding/1_chemical-bonding) -- Electron configuration determines bonding behaviour, linking atomic structure to chemical properties.
+- [Periodicity](../3-periodicity/1_periodicity) -- Trends in ionisation energy and electronegativity arise directly from the atomic structure covered here.
+- [Thermochemistry](../5-energetics/1_thermochemistry) -- Enthalpy changes in reactions depend on bond energies derived from atomic and molecular structure.
+

@@ -201,3 +201,10 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Cross-References
+
+- [Algebra](mathematics/algebra) -- Core algebraic skills underpin all HSC mathematics and science subjects.
+- [Calculus](mathematics/calculus) -- Calculus is essential for advanced mathematics and physics at the HSC level.
+- [Reading](english/reading) -- Reading comprehension and analytical skills are fundamental across all HSC subjects.
+- [Writing](english/writing) -- Essay writing and persuasive techniques are assessed across English and humanities subjects.

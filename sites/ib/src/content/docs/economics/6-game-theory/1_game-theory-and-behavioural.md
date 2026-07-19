@@ -2694,3 +2694,10 @@ economics, including key models, evidence, and policy implications.
 
 The ability to apply these theories to real-world data and evaluate policy decisions is central to
 success in this subject.
+
+## Cross-References
+
+- [Theory of the Firm](../1-microeconomics/4-theory-of-the-firm) -- Oligopoly market structures are directly analysed using game-theoretic models like the prisoner's dilemma.
+- [International Trade](../3-international-economics/1-trade) -- Strategic trade policy and trade negotiations between countries are applications of game theory.
+- [Supply-Side Policy](../2-macroeconomics/4-supply-side-policy) -- Behavioural economics challenges the rational actor assumption underlying traditional supply-side analysis.
+- [Descriptive Statistics](../5-quantitative-economics/1-descriptive-statistics) -- Empirical evidence in behavioural economics relies on statistical methods for analysing decision-making data.

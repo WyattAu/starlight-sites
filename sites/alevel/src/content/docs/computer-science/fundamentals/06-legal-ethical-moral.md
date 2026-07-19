@@ -1437,4 +1437,11 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Data Representation](../data/data-representation) -- Understanding binary data and encoding is essential for evaluating privacy and data protection legislation.
+- [Communication and Networking](../networks/communication-networking) -- Internet governance and cybersecurity laws directly relate to network protocols and data transmission.
+- [Programming Paradigms](../programming/programming-paradigms) -- Software development practices raise ethical questions about AI, automation, and algorithmic bias.
+- [Data Types and Structures](../data/data-types-structures) -- Data storage and processing techniques have legal implications under data protection regulations.
+
 </aside>

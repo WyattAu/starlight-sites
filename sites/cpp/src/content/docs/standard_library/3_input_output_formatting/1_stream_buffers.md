@@ -9,6 +9,10 @@ categories:
 
 ---
 
+## Intuition
+
+Stream buffers are the engine room of C++ I/O. High-level streams handle formatting and parsing, but the actual character transfer happens through stream buffers. The put area collects characters before writing to the destination, and the get area holds characters read from the source. Custom stream buffers let you direct I/O to strings, files, or even network sockets by implementing just a few virtual functions. Locales provide cultural formatting rules like decimal separators and date formats through pluggable facet objects.
+
 ## Stream Buffers and Locale Facets
 
 The C++ I/O system is built on a layered architecture. High-level stream classes (`std::istream`

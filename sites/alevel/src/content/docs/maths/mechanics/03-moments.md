@@ -827,6 +827,10 @@ with other topics to test synthesis under exam conditions.
 See for instructions on self-marking and
 building a personal test matrix.
 </aside>
+## Intuition
+
+Moments measure the turning effect of a force about a point, like how pushing a door near its edge is more effective than pushing near the hinge. The principle of moments states that balance occurs when clockwise and anticlockwise turning effects cancel. Centre of mass is the average position of all mass, the point where gravity effectively acts. Frameworks distribute forces through members in tension or compression, and ladders against walls combine moments with friction to create stability problems that test all equilibrium conditions simultaneously.
+
 ## Common Pitfalls
 
 1. Using the wrong equation from the data sheet. Take time to read the full equation, including

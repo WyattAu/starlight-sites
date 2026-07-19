@@ -353,6 +353,14 @@ Guaranteeing termination.
 
 Graph theory studies networks of vertices connected by edges. Paths, cycles, and connectivity describe graph structure. Trees are connected acyclic graphs, fundamental for hierarchies and search. Planar graphs can be drawn without edge crossings. Graph coloring assigns labels satisfying constraints, modeling scheduling and resource allocation. Euler and Hamiltonian paths visit edges or vertices exactly once, connecting to classic optimization problems.
 
+## Common Mistakes
+
+**Confusing Euler and Hamilton paths.** An Euler path visits every edge exactly once, while a Hamilton path visits every vertex exactly once. Euler paths have a simple degree-based characterisation (0 or 2 odd-degree vertices), but Hamilton path existence is NP-complete. Do not assume a graph with an Euler path also has a Hamilton path, or vice versa.
+
+**Misapplying Euler's formula for planarity.** Euler's formula $V - E + F = 2$ applies only to connected planar graphs. Students often apply it to disconnected graphs or forget that faces include the unbounded outer face. Also, satisfying Euler's formula is necessary but not sufficient for planarity; Kuratowski's theorem provides the complete characterisation.
+
+**Incorrect chromatic polynomial evaluation.** When computing $P(G, k)$, students sometimes forget that the chromatic polynomial counts proper colourings (adjacent vertices must differ). Evaluating at $k = 2$ gives 0 for non-bipartite graphs, which is a useful sanity check. Also, the deletion-contraction recurrence must be applied carefully to avoid double-counting.
+
 ## Cross-References
 
 - [[1-algorithms/graph-algorithms]] - Graph algorithm implementations

@@ -1458,4 +1458,11 @@ graph TD
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Java Interfaces](02-interfaces) -- Interfaces define contracts that classes must implement, complementing class inheritance.
+- [Java Generics](04-generics) -- Generic type parameters enable reusable class designs that work with multiple types.
+- [Java Concurrency](../02-concurrency) -- Thread safety and synchronization are essential considerations for mutable class state.
+- [GraalVM and Modern JVM](../graalvm-and-modern-jvm) -- AOT compilation and native images affect how classes are loaded and instantiated.
+
 </aside>

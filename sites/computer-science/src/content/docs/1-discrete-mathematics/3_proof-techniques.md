@@ -176,6 +176,14 @@ $\blacksquare$
 
 Proof techniques establish mathematical truth. Direct proof assumes premises and derives conclusions. Proof by contradiction assumes the negation and finds a contradiction. Mathematical induction proves statements for all natural numbers by showing a base case and inductive step. These techniques are essential for verifying algorithm correctness, proving complexity bounds, and establishing security properties.
 
+## Common Mistakes
+
+**Circular reasoning in direct proofs.** A proof is circular when the conclusion is assumed (even implicitly) in the premises. For example, proving "if $n$ is even then $n^2$ is even" by writing $n = 2k$ so $n^2 = 4k^2 = 2(2k^2)$ is valid, but assuming $n^2$ is even to prove $n$ is even is not. Always verify that your assumptions do not presuppose the result.
+
+**Incorrect base case in mathematical induction.** Students sometimes start induction at $n = 0$ when the statement only holds for $n \geq 1$, or verify only one base case when the inductive step requires two (as with Fibonacci-type recurrences). Check that the base case matches the domain of the statement and that enough base cases are proven.
+
+**Confusing contrapositive with converse.** The contrapositive of $P \implies Q$ is $\neg Q \implies \neg P$, which is logically equivalent to the original. The converse is $Q \implies P$, which is not equivalent. Proving the converse does not prove the original statement.
+
 ## Cross-References
 
 - [[1-discrete-mathematics/1_propositional-and-predicate-logic]] - Logical foundations

@@ -9,6 +9,10 @@ categories:
 ---
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
+## Intuition
+
+The C Runtime is the hidden scaffolding that supports your C++ program before main() even executes. When the operating system loads your binary, it jumps to a CRT startup routine that sets up the stack, initialises the heap, runs global constructors, and only then calls main(). The CRT provides fundamental services like memory allocation, thread creation, and signal handling that the standard library builds upon. Understanding this startup sequence explains why global objects are constructed before main() and why the order of initialisation across translation units can cause subtle bugs.
+
 A common misconception is that the execution of a C++ program begins at `main()`. In reality,
 `main()` is merely a callback function invoked by the **C Runtime (CRT)** after a complex
 Initialization sequence.

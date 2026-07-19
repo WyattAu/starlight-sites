@@ -329,6 +329,14 @@ Checking validity is Co-NP-complete, not NP-complete.
 
 Logic is the foundation of mathematical reasoning and computer science. Propositional logic deals with truth values and connectives (AND, OR, NOT, IMPLIES). Predicate logic adds quantifiers (FOR ALL, EXISTS) to reason about properties of objects. Boolean algebra provides the mathematical framework for digital circuits. Understanding logic helps you write precise specifications and verify program correctness.
 
+## Common Mistakes
+
+**Confusing implication with biconditional.** The statement "if P then Q" is not the same as "P if and only if Q." A common error is assuming that because $p \implies q$ is true, $q \implies p$ must also be true. The converse is a separate claim that requires its own proof.
+
+**Misinterpreting nested quantifier order.** The formulas $\forall x \exists y\, P(x,y)$ and $\exists y \forall x\, P(x,y)$ have fundamentally different meanings. The first allows $y$ to depend on $x$; the second requires a single $y$ that works for all $x$. Swapping quantifier order changes the truth value.
+
+**Errors in truth table construction for implications.** The implication $p \implies q$ is false only when $p$ is true and $q$ is false. Students often incorrectly mark it as false when both $p$ and $q$ are false, or when $p$ is false and $q$ is true. Memorise the truth table or derive it from $p \implies q \equiv \neg p \lor q$.
+
 ## Cross-References
 
 - [[1-discrete-mathematics/2_sets-relations-and-functions]] - Sets and relations

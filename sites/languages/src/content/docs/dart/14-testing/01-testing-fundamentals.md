@@ -1412,3 +1412,10 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Dart Null Safety](../01-dart-basics/03-null-safety) -- Null safety catches many potential bugs at compile time, complementing runtime testing.
+- [Dart Asynchronous Programming](../08-asynchronous/01-async) -- Testing async code requires understanding of futures, streams, and isolate patterns.
+- [Dart Classes and Objects](../04-classes-and-objects/01-classes) -- Dependency injection and mocking in tests rely on OOP principles and interfaces.
+- [Rust Error Handling](../rust/04-error-handling) -- Testing error conditions and edge cases is a shared concern across Dart and Rust development.

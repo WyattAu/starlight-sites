@@ -1307,3 +1307,10 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Dart Navigation](../09-flutter-fundamentals/01-navigation) -- Navigation and state management are deeply connected; route state must be synchronised with app state.
+- [Dart Asynchronous Programming](../08-asynchronous/01-async) -- State changes often involve async operations like network requests or database queries.
+- [Dart Widgets](../09-flutter-fundamentals/02-widgets) -- Understanding widget lifecycle is essential for choosing the right state management approach.
+- [Dart Classes and Objects](../04-classes-and-objects/01-classes) -- State management solutions rely on OOP patterns for encapsulating and exposing state.

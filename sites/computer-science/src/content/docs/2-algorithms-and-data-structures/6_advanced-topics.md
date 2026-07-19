@@ -6,6 +6,10 @@ tags:
 description: "The class of decision problems solvable in polynomial time by a deterministic Tu Comprehensive educational content coverage with definitions and practice proble"
 ---
 
+## Intuition
+
+Computational complexity theory classifies problems by their inherent difficulty. P contains problems solvable in polynomial time, while NP contains those whose solutions can be verified in polynomial time. NP-complete problems are the hardest problems in NP, and if any one can be solved efficiently, all can. Polynomial-time reductions are the tool for proving NP-completeness: if problem A can be transformed into problem B efficiently, then B is at least as hard as A. The Cook-Levin theorem establishes SAT as the first NP-complete problem.
+
 ### 6.1 NP-Completeness
 
 #### 6.1.1 P, NP, and NP-Completeness
@@ -115,6 +119,14 @@ size).
 <aside class="starlight-aside starlight-aside--caution">
 known polynomial-time Algorithm. Many NP-complete problems have efficient approximation algorithms
 or can be solved Exactly for practical input sizes using branch-and-bound or SAT solvers.
+
+## Common Mistakes
+
+**Confusing P with NP.** P is the class of problems solvable in polynomial time; NP is the class whose solutions are verifiable in polynomial time. Showing a problem is in NP does not mean it is in P. Most researchers believe P $\neq$ NP, meaning NP-complete problems have no polynomial-time solution.
+
+**Incorrect polynomial-time reductions.** A reduction from $A$ to $B$ must transform instances of $A$ into instances of $B$ in polynomial time, preserving the answer. A common error is constructing a transformation that is not polynomial, or that does not preserve the yes/no answer. The reduction must be correct in both directions.
+
+**Misunderstanding approximation algorithm guarantees.** A 2-approximation for vertex cover means the solution is at most twice the optimal, not exactly twice. The actual ratio depends on the input. Also, some problems (like general TSP) cannot be approximated within any constant factor unless P = NP.
 
 ### 6.2 Approximation Algorithms
 

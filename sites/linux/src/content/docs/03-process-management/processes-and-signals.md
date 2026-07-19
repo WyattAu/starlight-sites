@@ -797,5 +797,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [I/O Redirection](io-redirection) -- Processes communicate through file descriptors; redirection and pipes connect process I/O.
+- [Cron and Scheduling](cron-and-scheduling) -- Cron creates child processes at scheduled times; understanding process lifecycle helps with job control.
+- [Shell Basics](../01-cli-fundamentals/shell-basics) -- The shell is a process that creates and manages child processes.
+- [File Permissions](../02-file-systems/file-permissions) -- Process credentials determine which file permissions apply during execution.
 
 </aside>

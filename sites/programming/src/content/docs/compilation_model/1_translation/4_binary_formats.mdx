@@ -9,6 +9,10 @@ categories:
 ---
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
+## Intuition
+
+Binary formats are the structured containers that the operating system loader understands. They organise compiled code, data, and metadata into sections with specific memory permissions, enabling the OS to map them efficiently into virtual memory. ELF on Linux, PE on Windows, and Mach-O on macOS each solve the same problem differently, but all separate executable code from read-write data and include symbol tables for linking and debugging. Understanding these formats explains why stripped binaries are smaller, how dynamic linking resolves symbols at load time, and why position-independent code is necessary for shared libraries.
+
 When the linker completes its work, it produces a binary file. This file is not merely a linear
 Sequence of machine code; it is a structured database containing instructions, static data, symbol
 Tables, relocation entries, and metadata required by the Operating System's **Loader**.

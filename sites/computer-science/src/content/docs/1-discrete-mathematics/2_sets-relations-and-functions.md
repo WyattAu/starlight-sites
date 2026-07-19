@@ -175,6 +175,14 @@ $\mathbb{{'}R{}'}$ is uncountable. $\blacksquare$
 
 Sets are unordered collections of distinct elements. Relations connect elements from different sets, with properties like reflexivity, symmetry, and transitivity. Functions are special relations where each input maps to exactly one output. These concepts underpin database theory (relations), type systems (functions), and abstract algebra (groups, rings). Understanding set operations (union, intersection, complement) is essential for query languages and logic.
 
+## Common Mistakes
+
+**Confusing reflexivity with symmetry.** A reflexive relation requires $(a, a) \in R$ for every $a \in A$, while symmetry requires that if $(a, b) \in R$ then $(b, a) \in R$. These are independent properties: a relation can be reflexive without being symmetric, and vice versa. Always verify each property separately.
+
+**Misapplying the Pigeonhole Principle.** Students often state that placing $n$ items into $m$ boxes guarantees one box has at least $n/m$ items, but forget the ceiling function. The correct bound is $\lceil n/m \rceil$, not $n/m$. For example, 5 items into 3 boxes guarantees at least 2 in one box, not 1.67.
+
+**Assuming injectivity from surjectivity (or vice versa).** For finite sets, a function $f: A \to B$ is injective if and only if $|A| \leq |B|$, and surjective if and only if $|A| \geq |B|$. These are not interchangeable: an injective function from a smaller set to a larger set cannot be surjective.
+
 ## Cross-References
 
 - [[1-discrete-mathematics/1_propositional-and-predicate-logic]] - Logic foundations

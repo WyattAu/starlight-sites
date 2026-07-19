@@ -6,6 +6,10 @@ tags:
 description: 'The data link layer receives a bit stream and divides it into manageable . Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
+## Intuition
+
+The data link layer transforms unreliable physical transmission into reliable frame delivery between adjacent nodes. Framing marks where each message begins and ends in the continuous bit stream. Error detection uses redundant bits to catch corruption, while error correction like Hamming codes can fix single-bit errors automatically. MAC addresses provide local addressing, and protocols like CSMA/CD manage shared access to the physical medium. The layer bridges the gap between raw signals and structured data.
+
 ### 3.1 Framing
 
 The data link layer receives a bit stream and divides it into manageable **frames**.
@@ -349,4 +353,12 @@ $$\mathrm{Latency} = \frac{1500 \times 8}{10^9} + 2 \times \frac{14 \times 8}{10
 Cannot detect corrupted frames before forwarding them.
 
 </details>
+
+## Common Mistakes
+
+**Incorrect minimum frame size calculation.** The minimum frame size ensures the sender is still transmitting when a collision signal returns. For 10 Mbps Ethernet with 2500m cable, the minimum is 64 bytes, not the full MTU. Students often confuse the minimum frame size (for collision detection) with the maximum transmission unit (for payload size).
+
+**Confusing error detection with error correction.** CRC detects errors but does not correct them; Hamming codes can correct single-bit errors. Using CRC when correction is needed (or vice versa) leads to either undetected errors or unnecessary overhead. Match the code to the requirement: detection for reliable links, correction for noisy channels.
+
+**Misunderstanding CSMA/CD vs CSMA/CA.** CSMA/CD (collision detection) works for wired networks where collisions can be detected during transmission. CSMA/CA (collision avoidance) is used in wireless networks where collisions cannot be detected while transmitting. Applying CSMA/CD logic to wireless networks (or vice versa) produces incorrect protocol behaviour.
 

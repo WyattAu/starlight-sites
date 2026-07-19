@@ -785,4 +785,11 @@ of change, including key theorems, methods, and problem-solving approaches.
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
 
+## Cross-References
+
+- [Algebra](../2-algebra/2_algebra) -- Ratio and proportion problems are often solved using algebraic equations and substitution.
+- [Geometry and Measure](../4-geometry-measure) -- Scale drawings and similar triangles use ratio and proportion concepts.
+- [Forces](../../physics/5-forces/5_forces) -- Calculating forces and acceleration involves proportional relationships between mass and force.
+- [Cell Biology](../biology/1-cell-biology/1_cell-biology) -- Dilution ratios and concentration calculations in biology require proportion skills.
+
 </aside>

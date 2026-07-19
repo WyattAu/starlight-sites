@@ -9,6 +9,10 @@ categories:
 ---
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
+## Intuition
+
+Binary Module Interfaces are the compiled form of module declarations, similar to how object files are compiled forms of source code. When a module is compiled, the BMI captures all exported types, templates, and declarations in a serialised format that downstream code can consume without re-parsing the source. This creates a directed acyclic graph of dependencies where each module must be compiled before its importers, replacing the flat textual inclusion model with a structured dependency tree. BMIs are compiler-specific and cannot be shared across different compiler implementations.
+
 The introduction of Modules alters the C++ compilation model. In the header-based model, source
 Files are compiled in parallel because `#include` is handled locally by the preprocessor.
 

@@ -1411,3 +1411,10 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Git Fundamentals](../02-core-concepts/01-basics) -- Understanding Git basics is essential before configuring CI/CD workflows that trigger on commits and branches.
+- [Branching and Merging](../03-branching-merging/01-branching) -- Branch protection rules in CI/CD depend on understanding branching strategies and merge workflows.
+- [Pre-commit Framework](../../git/05-advanced-topics/09-pre-commit-framework) -- Pre-commit hooks complement CI/CD by catching issues locally before they reach the pipeline.
+- [Code Review Practices](../../general/collaboration/code-review) -- Pull request workflows and review processes integrate with CI checks in GitHub Actions.

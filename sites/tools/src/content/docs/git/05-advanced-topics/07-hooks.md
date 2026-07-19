@@ -4,6 +4,10 @@ description: "Git hooks are scripts that Git executes automatically before or af
 
 ---
 
+## Intuition
+
+Git hooks are automation points that fire at specific moments in the Git workflow, like pre-commit checks that run linters before allowing a commit, or pre-push hooks that run tests before allowing a push. Client-side hooks enforce local conventions and catch issues early, while server-side hooks enforce repository-wide policies that cannot be bypassed. The hook's exit code is the enforcement mechanism: zero means proceed, anything else means abort. Understanding hook lifecycle helps you build automated quality gates into your development process.
+
 ## Hook Lifecycle
 
 Git hooks are scripts that Git executes automatically before or after specific events in the

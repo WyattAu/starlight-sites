@@ -224,3 +224,10 @@ $$\theta_2 = \arcsin(0.964) = 74.6°$$
 **Using the wrong sign in the Doppler effect formula.** When the source approaches the observer, the observed frequency increases: f' = f * v / (v - vs). When the source recedes, frequency decreases: f' = f * v / (v + vs). Students often use the wrong sign, giving the opposite effect to what actually occurs.
 
 **Forgetting that sound intensity follows the inverse square law.** Sound intensity decreases as 1/r^2 with distance from the source. Doubling the distance reduces intensity to one-quarter, not one-half. Students often assume a linear decrease, leading to incorrect calculations of sound levels at different distances.
+
+## Cross-References
+
+- [Mechanics](../physics/mechanics) -- Simple harmonic motion is the foundation for understanding oscillatory wave behaviour.
+- [Algebra](../mathematics/algebra) -- Logarithmic functions are used in decibel calculations and sound intensity levels.
+- [Calculus](../mathematics/calculus) -- Differentiation and integration are used in wave equations and standing wave analysis.
+- [Inorganic](../chemistry/inorganic) -- Electromagnetic spectrum properties connect to atomic structure and electron transitions.

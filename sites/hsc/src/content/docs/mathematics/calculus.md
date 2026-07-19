@@ -294,6 +294,13 @@ $$V = \pi \left[\frac{x^5}{5}\right]_0^1 = \pi \left(\frac{1}{5} - 0\right) = \f
 
 **Common mistake:** Forgetting to square the function when using the disk method. The formula is $\pi \int [f(x)]^2 \, dx$, not $\pi \int f(x) \, dx$.
 
+## Cross-References
+
+- [Algebra](../mathematics/algebra) -- Quadratic equations and logarithmic functions from algebra are prerequisites for many calculus techniques.
+- [Mechanics](../physics/mechanics) -- Kinematics uses derivatives and integrals to describe motion, directly applying calculus to physics.
+- [Waves](../physics/waves) -- Wave equations involve trigonometric differentiation and integration used throughout this topic.
+- [Organic](../chemistry/organic) -- Reaction rate equations in organic chemistry use exponential and logarithmic functions from calculus.
+
 ## Common Mistakes
 
 **Forgetting the constant of integration for indefinite integrals.** Every indefinite integral must include "+ C" because the derivative of a constant is zero. Students often omit the constant, losing the family of antiderivatives. This is automatically handled in definite integrals via the Fundamental Theorem, but is essential for indefinite integrals.

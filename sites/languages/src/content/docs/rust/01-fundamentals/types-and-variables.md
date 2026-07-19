@@ -3,6 +3,10 @@ title: Types and Variables
 description: "Rust types and variables fundamentals."
 ---
 
+## Intuition
+
+Rust's type system is its core safety mechanism. Every value has a definite type known at compile time, enabling the compiler to verify memory safety without runtime checks. Ownership and borrowing replace garbage collection by tracking which part of the code is responsible for each piece of data. Move semantics prevent accidental sharing, and the borrow checker ensures references never outlive the data they point to, eliminating use-after-free bugs at compile time.
+
 ## Integer Types
 
 Rust provides signed and unsigned integers at every power-of-two width from 8 to 128 bits, plus

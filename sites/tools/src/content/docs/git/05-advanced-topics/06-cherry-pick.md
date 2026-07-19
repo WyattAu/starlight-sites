@@ -4,6 +4,10 @@ description: "applies the introduced by a specific commit onto the current branc
 
 ---
 
+## Intuition
+
+Cherry-pick is a surgical tool for transplanting individual commits between branches. Unlike merge or rebase which operate on entire branch histories, cherry-pick extracts the diff from a specific commit and applies it as a new commit on the current branch. This is invaluable for backporting bug fixes to release branches or applying specific features without merging entire development lines. The new commit has a different SHA because it has a different parent, even though the code change is identical.
+
 ## What Cherry-Pick Does
 
 `git cherry-pick` applies the **diff** introduced by a specific commit onto the current branch as a

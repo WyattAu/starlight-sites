@@ -8,6 +8,10 @@ categories:
   - Ruby
 ---
 
+## Intuition
+
+Ruby's control flow is expressive and permissive. Conditionals can be used as expressions that return values, and modifiers let you append conditions to single statements. The `case` statement performs pattern matching against ranges, regexes, and objects. Loops in Ruby are actually method calls with blocks, meaning iterators like `each` and `times` are the idiomatic way to repeat operations. Exceptions provide structured error handling, and blocks create scopes that manage resources like file handles automatically.
+
 ## Conditionals
 
 ### if / elsif / else

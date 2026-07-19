@@ -1285,3 +1285,10 @@ Four sides. $\blacksquare$
 
 </details>
 
+## Cross-References
+
+- [Further Algebra and Functions](further-algebra-functions) -- Polynomial roots and factor theorem are extended to the complex domain in this topic.
+- [Matrices](matrices) -- Linear transformations in the complex plane can be represented using matrix multiplication.
+- [Further Calculus](further-calculus) -- Integration of complex-valued functions and residue theory build on the algebraic foundations here.
+- [Mechanics](../../physics/mechanics) -- Oscillations and wave motion in physics are naturally described using complex exponentials.
+

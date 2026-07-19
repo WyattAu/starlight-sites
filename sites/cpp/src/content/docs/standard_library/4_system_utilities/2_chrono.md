@@ -9,6 +9,10 @@ categories:
 
 ---
 
+## Intuition
+
+The chrono library uses C++'s type system to prevent accidental mixing of time units. Different duration types like milliseconds and seconds are distinct types, so the compiler catches unit mismatches at compile time. Clocks provide sources of time, with `steady_clock` being monotonic for measuring elapsed time and `system_clock` being the wall clock. Time points represent specific moments relative to a clock's epoch, and durations represent spans of time. C++20 extended this with calendar types and timezone support for real-world date handling.
+
 ## The Chrono Library
 
 `std::chrono` (C++11) provides types and functions for representing and manipulating time values.

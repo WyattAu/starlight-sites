@@ -991,5 +991,11 @@ applying these mathematical techniques.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Binary Search Trees](01-binary-search-trees) -- Tries and BSTs both provide O(log n) or O(L) lookup; tries are optimised for prefix-based string operations.
+- [Advanced Data Structures](../../07-graph-algorithms/advanced-data-structures) -- Suffix trees and Aho-Corasick extend trie concepts to more complex string matching problems.
+- [Graph Algorithms](../../07-graph-algorithms/graph-algorithms) -- Pattern matching in strings can be modelled as graph traversal problems.
+- [Dynamic Programming](../../06-dynamic-programming/01-introduction) -- String DP problems like edit distance and longest common subsequence relate to trie-based solutions.
 
 </aside>

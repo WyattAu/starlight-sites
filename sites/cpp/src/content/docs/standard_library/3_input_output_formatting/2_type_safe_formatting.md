@@ -9,6 +9,10 @@ categories:
 
 ---
 
+## Intuition
+
+`std::format` brings Python-style string formatting to C++ with compile-time type checking. The format specification syntax is concise and composable, supporting alignment, sign, width, and precision in a single placeholder. Unlike `printf`, mismatched argument types are caught at compile time, preventing undefined behaviour. `std::print` extends this to direct output without intermediate string construction. Custom formatters let you control how your types are formatted, integrating seamlessly with the standard formatting system.
+
 ## Type-Safe Formatting (std::format, std::print)
 
 C++20 introduced `std::format`A type-safe formatting function that checks argument types at Compile
