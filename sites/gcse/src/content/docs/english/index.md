@@ -155,6 +155,10 @@ Specification for precise details.
 
 4. Describing the content of a text without analysing the language techniques the writer uses.
 
+
+## Intuition
+
+GCSE English Literature is like learning to be both a detective and a lawyer -- you investigate the text for clues (language, structure, form) and then build a case (essay) that convinces the examiner. The four assessment objectives are your checklist: comprehend (AO1), analyse (AO2), contextualise (AO3), and communicate (AO4). The closed-book requirement means you must carry the evidence in your head, which is why memorising key quotations is essential. The unseen poetry component tests whether your analytical skills are genuinely transferable or merely rehearsed.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

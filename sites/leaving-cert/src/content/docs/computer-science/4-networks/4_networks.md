@@ -751,6 +751,10 @@ When 192.168.1.2 sends a request to a web server:
 14. A company has 200 devices on a LAN with subnet mask 255.255.255.0. What is the network address
     and how many host addresses are available?
 
+
+## Intuition
+
+Networking is like a postal system with superpowers -- messages are broken into packets, routed through multiple paths, and reassembled at the destination. The OSI model is the set of rules at each layer: physical (the road), data link (the postal service), network (the address system), transport (the delivery guarantee), session (the conversation manager), presentation (the translator), and application (the letter itself). TCP/IP is the practical implementation of this model. Firewalls are the security checkpoints, encryption is the sealed envelope, and DNS is the address book that converts names to numbers.
 ## Worked Examples
 
 **Example 1: SQL query**

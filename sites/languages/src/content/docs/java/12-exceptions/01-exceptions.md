@@ -904,6 +904,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+
+## Intuition
+
+Exception handling is like the immune system of your program -- it detects threats (errors), responds to them (catch blocks), and tries to restore normal function (finally blocks). Checked exceptions are like vaccines: the compiler forces you to prepare for known dangers before they happen. Unchecked exceptions are like sudden infections: they indicate something has gone fundamentally wrong in the code itself. The try-with-resources pattern is the automatic cleanup crew that ensures resources are released even if something goes wrong. The key design principle is fail-fast: detect problems as early as possible and throw exceptions with clear, actionable messages.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

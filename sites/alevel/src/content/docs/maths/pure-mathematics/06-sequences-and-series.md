@@ -842,15 +842,11 @@ building a personal test matrix.
 4. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary
    conditions in definite integrals.
 
-## Summary
+## Cross-References
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
-## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
+- [Algebraic Expressions](01-algebraic-expressions.md) — Algebraic manipulation and partial fractions are essential for the method of differences.
+- [Proof](13-proof.md) — Mathematical induction is used to prove the sum formulas for arithmetic and geometric series.
+- [Functions](05-functions.md) — Exponential and logarithmic functions arise in the analysis of geometric series convergence.
+- [Equations and Inequalities](03-equations-and-inequalities.md) — Solving equations for unknown parameters in sequences draws on the equation-solving methods developed here.
 
 </aside>

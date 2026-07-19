@@ -770,6 +770,10 @@ original 8 bytes).
 | Cost per GB | Low              | Higher          |
 | Durability  | Mechanical parts | No moving parts |
 
+
+## Intuition
+
+Computer hardware follows the Von Neumann architecture like a factory follows an assembly line: instructions and data flow through the same channels, processed sequentially by the CPU. The memory hierarchy is a series of trade-offs: registers are fast but tiny, cache is faster than RAM but smaller, and secondary storage is vast but slow. The fetch-decode-execute cycle is the factory's heartbeat, and understanding it explains why some operations are fast (in cache) and others are slow (requiring disk access). The key is to think of hardware not as a black box but as a system of constrained resources competing for speed, space, and power.
 ## Worked Examples
 
 See the examples integrated throughout the sections above.

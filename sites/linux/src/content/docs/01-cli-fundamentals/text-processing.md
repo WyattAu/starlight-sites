@@ -1048,6 +1048,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+
+## Intuition
+
+Text processing in Linux is like having a team of specialised editors -- grep finds lines matching a pattern, sed makes find-and-replace changes, awk processes structured data, and sort/order/uniq organise the results. Regular expressions are the pattern language that these tools share: they let you describe what you are looking for with precision. The Unix philosophy of small, composable tools means you can chain them together like building blocks: cat file | grep error | sort | uniq -c finds all error lines, sorts them, and counts duplicates. This pipeline approach turns complex text transformations into simple, readable commands.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

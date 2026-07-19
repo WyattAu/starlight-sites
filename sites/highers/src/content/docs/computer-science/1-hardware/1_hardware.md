@@ -640,6 +640,10 @@ Restores the saved state, and resumes the calculation. The user does not notice 
 
 ---
 
+
+## Intuition
+
+Computer hardware is like a city's infrastructure -- the CPU is the central government making decisions, RAM is the desk where current work sits, and secondary storage is the filing cabinet for long-term records. The fetch-decode-execute cycle is the city's heartbeat: fetch instructions from memory, decode what they mean, execute them, and repeat millions of times per second. Cache memory is like having your most important files on the desk rather than in the filing cabinet -- faster access but limited space. Understanding the hardware-software interface means understanding why some programs are fast and others are slow.
 ## Worked Examples
 
 See the examples integrated throughout the sections above.

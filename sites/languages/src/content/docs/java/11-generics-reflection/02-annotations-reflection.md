@@ -914,6 +914,10 @@ practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+
+## Intuition
+
+Annotations are like sticky notes on your code -- they do not change what the code does, but they tell frameworks and tools how to treat it. @Override is a safety net that catches typos in method signatures. @Deprecated is a farewell letter warning future developers not to use this code. Reflection is the ability to read those sticky notes at runtime and act on them -- this is how Spring discovers your @Controller classes, how JPA maps your @Entity classes to database tables, and how Mockito creates test doubles. The performance cost of reflection means it is best used at startup (framework initialization) rather than in hot paths.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

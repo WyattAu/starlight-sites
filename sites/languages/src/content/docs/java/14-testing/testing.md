@@ -924,6 +924,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+
+## Intuition
+
+Testing in Java is like quality control in a factory -- unit tests check individual components, integration tests verify that components fit together, and end-to-end tests run the entire production line. JUnit 5 provides the testing framework (the quality control manual), Mockito provides the test doubles (simulated parts), and JaCoCo measures coverage (the inspection checklist). The Arrange-Act-Assert pattern is your quality control protocol: set up the conditions, perform the operation, and verify the result. The most dangerous tests are those that pass vacuously -- they run without error but verify nothing meaningful.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

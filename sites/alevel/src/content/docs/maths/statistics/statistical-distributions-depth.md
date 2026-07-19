@@ -371,14 +371,9 @@ $$P(X < 3) = P(X = 0) + P(X = 1) + P(X = 2) = e^{-4}(1 + 4 + 8) = 13e^{-4} \appr
 
 $\blacksquare$
 
-## Summary
+## Cross-References
 
-- Binomial: $X \sim B(n, p)$, $P(X = x) = \binom{n}{x}p^x(1-p)^{n-x}$; models number of successes in
-  $n$ independent trials.
-- Normal: $X \sim N(\mu, \sigma^2)$; standardise with $Z = \frac{X - \mu}{\sigma}$; use $\Phi(z)$
-  tables.
-- Poisson: $X \sim \mathrm{Po}(\lambda)$, $P(X = x) = \frac{e^{-\lambda}\lambda^x}{x!}$; models rare
-  events in a fixed interval.
-- Normal approximates binomial when $np > 5$ and $n(1-p) > 5$; use continuity correction.
-- Poisson approximates binomial when $n$ is large and $p$ is small ($np = \lambda$).
+- [Probability](03-probability.md) — The probability axioms and conditional probability theory underpin all distributions covered here.
+- [Hypothesis Testing](05-hypothesis-testing.md) — Binomial and normal distributions are the test statistics used in hypothesis testing.
+- [Data Representation](01-data-representation.md) — Frequency tables and grouped data are approximated by these theoretical distributions.
 

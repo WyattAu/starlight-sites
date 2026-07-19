@@ -562,6 +562,10 @@ Carries 10 marks.
 3. **Insufficient working**. In calculation or analysis questions, marks are awarded for method.
    Show every intermediate step.
 
+
+## Intuition
+
+Poetry is like compressed code -- every word carries multiple meanings, every sound choice is deliberate, and the form itself is part of the message. A sonnet is fourteen lines of concentrated argument; free verse is the liberation from that constraint, which is itself meaningful. The key to analysis is specificity: 'the poet uses imagery' tells the examiner nothing; 'Owen uses the simile floundering like a man in fire or lime to reduce the gas victim to a figure of animal helplessness, creating a visceral sense of physical suffering' tells them everything. Compare poems not by listing techniques but by explaining how different poets use similar tools for different purposes.
 ## Worked Examples
 
 **Example 1:**

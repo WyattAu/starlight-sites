@@ -814,6 +814,10 @@ practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+
+## Intuition
+
+File permissions are like the security system of a building -- the owner has the master key (full access), the group has a shared keycard (limited access), and everyone else gets whatever the building manager allows. The permission bits (rwx for owner, group, others) are like three sets of switches: read lets you look, write lets you change, and execute lets you use. chmod is the tool that flips these switches, and chown changes who holds the master key. The principle of least privilege means giving each user only the permissions they need -- like giving the janitor access to the maintenance closet but not the CEO's office.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

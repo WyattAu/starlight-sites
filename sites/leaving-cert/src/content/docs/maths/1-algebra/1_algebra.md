@@ -640,6 +640,10 @@ Solution: $x < -2$ or $x > 1$I.e., $x \in (-\infty, -2) \cup (1, \infty)$.
 Note that $x = -1$ is not a solution (the product equals zero, not positive). And $x = 1$ is not a
 Solution despite being a root, because the factor is squared.
 
+
+## Intuition
+
+Algebra is the mathematics of the unknown -- it lets you solve for x when you do not know what x is, which is the foundation of all quantitative reasoning. Equations are balance scales: whatever you do to one side, you must do to the other. Inequalities are like equations with a range of solutions rather than a single answer. Complex numbers extend the number line into a plane, opening up solutions to equations that have no real answers. Matrices are grids of numbers that represent transformations -- they can rotate, scale, and shear shapes in ways that are essential for computer graphics and physics simulations.
 ## Worked Examples
 
 See the examples integrated throughout the sections above.

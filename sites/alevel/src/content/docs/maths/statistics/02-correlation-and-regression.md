@@ -607,15 +607,10 @@ building a personal test matrix.
 4. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
-## Summary
+## Cross-References
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
-## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
+- [Data Representation](../statistics/01-data-representation.md) — The mean, standard deviation, and quartiles used here are defined in the data representation topic.
+- [Probability](../statistics/03-probability.md) — Understanding probability distributions is essential for interpreting correlation in a statistical context.
+- [Hypothesis Testing](../statistics/05-hypothesis-testing.md) — Regression residuals and PMCC values are tested for significance using hypothesis testing methods.
 
 </aside>

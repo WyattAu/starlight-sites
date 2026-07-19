@@ -83,6 +83,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
+
+## Intuition
+
+Leaving Certificate Computer Science bridges the gap between theoretical understanding and practical application -- you must understand how computers work (hardware), how to instruct them (programming), how to store data (databases), how to connect them (networking), and how to think systematically (computational thinking). The course rewards both memorisation of key concepts and the ability to apply them in unfamiliar contexts. The practical programming project is where theory meets reality: it tests whether you can design, implement, and evaluate a software solution to a real problem.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

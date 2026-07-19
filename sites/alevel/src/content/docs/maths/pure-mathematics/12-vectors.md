@@ -838,6 +838,13 @@ building a personal test matrix.
 6. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary
    conditions in definite integrals.
 
+## Cross-References
+
+- [Coordinates and Geometry](04-coordinates-and-geometry.md) — The distance formula, perpendicular lines, and circle equations are expressed using vector notation.
+- [Proof](13-proof.md) — Vector methods provide elegant alternative proofs for geometric results such as collinearity and perpendicularity.
+- [Trigonometry](11-trigonometry.md) — The angle between two vectors uses the cosine rule and direction cosines from trigonometry.
+- [Mechanics](../physics/mechanics/01-mechanics.md) — Velocity and acceleration vectors in mechanics are particular applications of the vector concept.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

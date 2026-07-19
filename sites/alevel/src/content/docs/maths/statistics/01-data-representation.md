@@ -807,14 +807,9 @@ building a personal test matrix.
 4. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
-## Summary
+## Cross-References
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
-## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
+- [Correlation and Regression](../statistics/02-correlation-and-regression.md) — The mean and standard deviation are foundational for calculating PMCC and regression coefficients.
+- [Probability](../statistics/03-probability.md) — Probability distributions provide the theoretical basis for understanding data variation.
+- [Hypothesis Testing](../statistics/05-hypothesis-testing.md) — Summary statistics from this topic feed directly into significance tests and confidence intervals.
 

@@ -739,6 +739,10 @@ methodology, including historical interpretations and evidence.
 The ability to construct well-supported, analytical arguments using a range of evidence is key to
 success in history.
 
+
+## Intuition
+
+Historical methodology is like being a detective at a crime scene: every source is a witness, and every witness has a perspective, a motive, and gaps in their testimony. The OPVL framework forces you to think like a lawyer -- who wrote this, why, and what were they trying to prove? The real skill is not identifying bias (everything has bias) but calibrating how much weight to give a source given its context. A propaganda poster is not 'wrong' -- it reveals what the regime wanted people to believe, which is itself valuable evidence. The historian's craft is assembling a mosaic from fragments, each distorted by its own angle of reflection.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

@@ -490,6 +490,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
+
+## Intuition
+
+Studying history is like assembling a jigsaw puzzle where the picture on the box keeps changing. Each historian brings a different frame -- Marxist, revisionist, post-revisionist -- that highlights certain pieces and obscures others. The comparative method is your magnifying glass: it lets you see patterns across cases that invisible within a single study. When you compare Mao's China with Hitler's Germany, you are not just listing similarities; you are testing whether the mechanisms of authoritarian power follow common logic or diverge because of culture, ideology, and circumstance. The strongest historical arguments weigh evidence like a scale, not a hammer.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

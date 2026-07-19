@@ -338,6 +338,10 @@ theorems, methods, and problem-solving approaches.
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
 
+
+## Intuition
+
+Functions in Kotlin are like recipes -- they take ingredients (parameters), follow steps (body), and produce a result (return value). Extension functions are like adding new recipes to an existing cookbook without rewriting it. Higher-order functions are recipes that accept other recipes as ingredients, enabling patterns like filtering, mapping, and transformation. The inline keyword is a performance optimisation that avoids creating anonymous classes for each lambda call -- think of it as baking the recipe directly into the calling code rather than passing a separate instruction card. Default parameters eliminate method overloading, keeping the API surface clean.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

@@ -1164,6 +1164,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+
+## Intuition
+
+Dependency injection is like ordering food delivery instead of cooking -- you specify what you want (interface), the kitchen (provider) prepares it, and you do not need to know the recipe (implementation). Constructor injection is the transparent kitchen: you see exactly what ingredients go in. GetIt is the mystery box: you ask for a dish by name and trust the kitchen to deliver. Riverpod is the smart kitchen: it knows what ingredients you need, prepares them lazily, and cleans up when you are done eating. The key insight is that DI is not about frameworks -- it is about making dependencies explicit, visible, and replaceable.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

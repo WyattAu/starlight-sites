@@ -82,6 +82,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
+
+## Intuition
+
+Computer science at Higher level is like learning both the theory and practice of engineering -- you must understand the principles (algorithms, data structures, networking) and apply them (programming, system design). The course spans the full stack: from the physics of silicon (hardware) to the logic of code (software) to the architecture of distributed systems (networks). The key to success is not memorising facts but understanding relationships: how does the choice of data structure affect algorithm performance? How does the network topology affect security? Everything is connected.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

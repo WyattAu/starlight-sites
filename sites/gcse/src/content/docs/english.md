@@ -354,6 +354,10 @@ Use the PETAL method for analytical paragraphs:
    highest-mark questions. The last question is in most cases worth the most marks — allocate your
    time accordingly.
 
+
+## Intuition
+
+GCSE English is like learning to see in two dimensions at once -- you must read what the text says (comprehension) and how the writer made you feel that way (analysis). The PETAL structure is your magnifying glass: it forces you to zoom in on a specific technique, explain how it works, and connect it back to the bigger picture. The trick is that every writer's choice -- a word, a sentence length, a structural shift -- is deliberate, and your job is to explain the effect of that choice on the reader. Context is not decoration; it is the lens that reveals why the writer made those choices.
 ## Worked Examples
 
 ### Example 1: Analysing Language Effect

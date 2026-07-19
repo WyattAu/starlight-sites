@@ -424,6 +424,10 @@ $$P(B \mid A) = \frac{P(A \text{ and } B)}{P(A)}$$
 6. **Using the wrong trigonometric ratio.** Always label the triangle first, then apply SOH CAH TOA systematically.
 7. **Forgetting units in the final answer.** Always include correct units.
 
+
+## Intuition
+
+GCSE Maths is like learning a musical instrument -- you need both theory (formulas, rules) and practice (working through problems). The formulas are your scales: you must know them fluently so that when you see a problem, you reach for the right tool automatically. Estimation is your ear for music: it tells you whether your answer sounds right before you check the details. The discriminant is like a weather forecast for quadratic equations: positive means two solutions, zero means one, negative means none. Showing your working is like playing with sheet music visible -- the examiner awards method marks even when the final note is wrong.
 ## Worked Examples
 
 ### Example 1: Solving a Quadratic by Factorising

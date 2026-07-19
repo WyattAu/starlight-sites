@@ -1883,6 +1883,10 @@ practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+
+## Intuition
+
+LVM is like having a storage system with rubber walls -- you can resize, move, and rearrange partitions without unplugging drives or losing data. Physical volumes are the raw drives, volume groups are pools of storage assembled from multiple drives, and logical volumes are the partitions you actually use. The key advantage over traditional partitioning is flexibility: if you run out of space on one volume, you can add a new drive to the pool and extend the volume without downtime. Snapshots in LVM are like taking a photograph of your storage at a point in time -- useful for backups and testing. Think of LVM as the difference between carved-in-stone partitions and adjustable shelves.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

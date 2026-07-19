@@ -607,6 +607,10 @@ $r^2 = 0.64$: 64% of the variation in $y$ is explained by the linear relationshi
 **Warning:** The regression line of $y$ on $x$ should only be used for prediction within the range
 Of the data (interpolation). Extrapolation beyond the data range is unreliable.
 
+
+## Intuition
+
+Probability is the mathematics of uncertainty -- it quantifies how likely events are and helps you make decisions when you cannot be sure of the outcome. The key rules (addition, multiplication, conditional probability) are like the grammar of uncertainty: they tell you how to combine chances in different situations. Statistics is the science of drawing conclusions from data -- the mean tells you the centre, the standard deviation tells you the spread, and hypothesis testing tells you whether an observed effect is real or just noise. The most important insight is that correlation does not imply causation -- two things can happen together without one causing the other.
 ## Worked Examples
 
 See the examples integrated throughout the sections above.

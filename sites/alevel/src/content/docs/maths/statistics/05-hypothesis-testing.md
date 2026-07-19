@@ -775,6 +775,13 @@ building a personal test matrix.
 4. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
+## Cross-References
+
+- [Probability](../statistics/03-probability.md) — The probability theory and distributions used as test statistics are developed in the probability topic.
+- [Statistical Distributions](04-statistical-distributions.md) — Binomial and normal distributions provide the test statistics for hypothesis testing.
+- [Data Representation](../statistics/01-data-representation.md) — Summary statistics from data representation are the inputs for significance tests and confidence intervals.
+- [Correlation and Regression](../statistics/02-correlation-and-regression.md) — Hypothesis tests on PMCC and regression coefficients use the methods from this topic.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -203,3 +203,7 @@ When analysing Cold War sources in Paper 1:
 - Assess whether the source was produced during or after the Cold War, as hindsight alters interpretation.
 - Compare sources from different sides of the Iron Curtain to identify divergent perspectives.
 - Note the distinction between public rhetoric and private policy documents.
+
+## Intuition
+
+Cold War superpower relations operated like two magnets held close together -- the closer they got, the stronger the repulsive force, yet neither could let go without losing face. The Berlin crises, the Cuban Missile Crisis, and the arms race were all manifestations of this magnetic tension. Gorbachev's reforms were like one magnet suddenly becoming weaker -- the balance of forces collapsed, and the entire structure rearranged itself overnight. The key insight is that the Cold War ended not because one side won militarily but because one side lost the will and capacity to sustain the competition.

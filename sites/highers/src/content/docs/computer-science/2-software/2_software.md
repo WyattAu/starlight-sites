@@ -679,6 +679,10 @@ def add(a, b):
 
 ---
 
+
+## Intuition
+
+Software development is like building a house -- you need a blueprint (design), raw materials (code), and a construction process (testing). The waterfall model is like building in strict sequence: foundation, walls, roof, then interior. Agile is like building room by room, getting feedback after each one. Object-oriented programming is like building with prefabricated modules: each class is a room with a defined interface (doors and windows) and hidden internals (furniture and wiring). The key insight is that good software design is about managing complexity -- the bigger the project, the more important the architecture.
 ## Worked Examples
 
 See the examples integrated throughout the sections above.

@@ -542,6 +542,10 @@ And structure, it would achieve the highest level.
 3. **Insufficient working**. In calculation or analysis questions, marks are awarded for method.
    Show every intermediate step.
 
+
+## Intuition
+
+Essay writing in English Literature is like building a bridge between the text and the reader -- your thesis is the design, your evidence is the materials, and your analysis is the engineering that holds it together. The PETAL structure is your construction protocol: state what you are arguing, show the evidence, explain how it works, and connect it back. The most common failure is narration instead of analysis -- describing what happens instead of explaining how the writer creates meaning. Every paragraph should answer the question 'so what?' after presenting evidence. A strong essay does not merely describe the bridge; it explains why it stands.
 ## Worked Examples
 
 **Example 1:**

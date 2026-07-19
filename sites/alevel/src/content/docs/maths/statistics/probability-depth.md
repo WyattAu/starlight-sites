@@ -406,12 +406,8 @@ $$P(A|R) = \frac{P(R|A)P(A)}{P(R)} = \frac{0.4 \times \frac{1}{3}}{0.6} = \frac{
 
 $\blacksquare$
 
-## Summary
+## Cross-References
 
-- $P(A|B) = \frac{P(A \cap B)}{P(B)}$; multiplication rule: $P(A \cap B) = P(A|B)P(B)$.
-- Independence: $A$ and $B$ are independent iff $P(A \cap B) = P(A)P(B)$.
-- Bayes' theorem: $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$ inverts conditional probabilities.
-- Total probability: $P(B) = \sum P(B|A_i)P(A_i)$ partitions the sample space.
-- Tree diagrams organise multi-stage probability calculations systematically.
-
-</aside>
+- [Probability](03-probability.md) — The core probability axioms and basic results are developed in the standard probability topic.
+- [Statistical Distributions](04-statistical-distributions.md) — Binomial, normal, and Poisson distributions build on the probability theory presented here.
+- [Hypothesis Testing](05-hypothesis-testing.md) — Bayes' theorem and conditional probability are directly applied in statistical hypothesis testing.

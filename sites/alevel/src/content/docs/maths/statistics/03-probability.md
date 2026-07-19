@@ -850,14 +850,10 @@ building a personal test matrix.
 4. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary
    conditions in definite integrals.
 
-## Summary
+## Cross-References
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
-## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
+- [Data Representation](../statistics/01-data-representation.md) — Frequency tables and grouped data from this topic form the empirical basis for probability models.
+- [Correlation and Regression](../statistics/02-correlation-and-regression.md) — Conditional probability underpins the interpretation of regression and correlation analysis.
+- [Statistical Distributions](04-statistical-distributions.md) — The binomial and Poisson distributions extend probability theory to counting and rare events.
+- [Hypothesis Testing](../statistics/05-hypothesis-testing.md) — Probability theory provides the p-values and significance levels used in hypothesis testing.
 

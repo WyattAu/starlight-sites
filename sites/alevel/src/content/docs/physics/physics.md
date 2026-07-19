@@ -70,19 +70,12 @@ Each topic page follows a consistent structure:
 When finished, attempt the to
 identify gaps.
 
-## Common Pitfalls
+## Cross-References
 
-1. Confusing scalar and vector quantities. Always check whether direction matters for the quantity
-   in question.
-
-2. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
-   scenario.
-
-3. Forgetting to include units in final answers, especially when working with derived units like
-   $\text{N}\,\text{kg}^{-1}\,\text{m}^2$.
-
-4. Using the wrong equation from the data sheet. Take time to read the full equation, including
-   conditions and variable definitions.
+- [Mechanics](./mechanics/01-mechanics.md) — Kinematics, dynamics, and momentum form the foundation of classical mechanics.
+- [Waves](./waves/01-waves.md) — Progressive and stationary waves, interference, and diffraction describe oscillatory phenomena.
+- [Electricity](./electricity/01-electricity.md) — Current, resistance, and DC circuits are central to understanding electrical systems.
+- [Fields](./fields/06-fields.md) — Gravitational, electric, and magnetic fields unify the forces acting at a distance.
 
 ### Key Exam Board Differences
 

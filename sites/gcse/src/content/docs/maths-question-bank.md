@@ -450,6 +450,10 @@ the answer is £180.
 | Ratio & Proportion | Q17–Q20   | 0      | 3      | 1     | 13          |
 | **Total**          | **20**    | **10** | **9**  | **1** | **51**      |
 
+
+## Intuition
+
+A question bank is like a diagnostic tool -- each question tests a specific concept, and the pattern of your answers reveals where your understanding is solid and where it has gaps. Multiple-choice questions are particularly useful for revealing misconceptions: the wrong answers are designed to catch common errors. The key to using a question bank effectively is not just getting the right answer but understanding why each wrong answer is wrong. This turns practice from rote repetition into genuine learning.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

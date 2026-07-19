@@ -475,6 +475,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+
+## Intuition
+
+Testing is like proof-reading a book -- unit tests check individual sentences, widget tests check paragraphs, and integration tests check the whole chapter. MockK is your stand-in actor who follows a script (stubs) and remembers every line (verification). The key insight is that good tests verify behaviour, not implementation: if you refactor the internals and the test breaks, the test is coupled to implementation. Property-based testing is like stress-testing a bridge -- instead of testing with specific loads, you generate thousands of random loads to find the breaking point. FakeAsync is the time machine that lets you test debounce and timeout logic without waiting.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

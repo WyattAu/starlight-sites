@@ -769,6 +769,10 @@ PROCEDURE findMin(list)
 15. Design an FSM for a vending machine that accepts 10p, 20p, and 50p coins and dispenses items
     costing 60p. Include change-returning functionality.
 
+
+## Intuition
+
+Computational thinking is like being a detective -- you break down complex crimes (problems) into smaller clues (decomposition), look for patterns (pattern recognition), focus on what matters (abstraction), and design a step-by-step investigation (algorithms). Finite state machines are like traffic lights: they have a fixed set of states and specific rules for transitioning between them. Regular expressions are like search warrants: they define exactly what you are looking for in a sea of text. The key insight is that computational thinking is not about computers -- it is a problem-solving methodology that applies to any complex system.
 ## Worked Examples
 
 See the examples integrated throughout the sections above.

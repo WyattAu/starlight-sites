@@ -1065,6 +1065,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+
+## Intuition
+
+Code generation is like a photocopy machine for boilerplate -- you write the original (annotated class), and the machine produces the copies (generated files) with copyWith, equality, and serialization already filled in. Build_runner is the power cord that connects the machine to your source code. The generated files (.freezed.dart, .g.dart) are the copies that should not be edited by hand -- they are disposable and can be regenerated at any time. The discipline is: change the original, regenerate the copies, and never write by hand what the machine can produce reliably.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

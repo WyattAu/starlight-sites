@@ -946,14 +946,10 @@ building a personal test matrix.
 4. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way
    around.
 
-## Summary
+## Cross-References
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
-## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
+- [Algebraic Expressions](01-algebraic-expressions.md) — Factorisation and the factor theorem are used to solve polynomial equations in this topic.
+- [Quadratics](02-quadratics.mdx) — Quadratic inequalities and the discriminant extend the quadratic equations covered there.
+- [Coordinates and Geometry](04-coordinates-and-geometry.md) — Graphical inequalities and intersection of lines and circles apply coordinate geometry techniques.
+- [Proof](13-proof.md) — The rigorous proofs of inequality properties connect to the proof methods developed in the proof topic.
 

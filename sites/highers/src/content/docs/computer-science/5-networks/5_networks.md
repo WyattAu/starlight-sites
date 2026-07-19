@@ -639,6 +639,10 @@ Another.
 
 ---
 
+
+## Intuition
+
+The internet is like a postal system for data -- your message is broken into packets, each packet is addressed and routed through a series of post offices (routers), and reassembled at the destination. The TCP/IP model is the set of rules that governs this process: IP handles addressing, TCP handles reliable delivery, and HTTP is the language the messages are written in. DNS is the phonebook that converts human-readable names (google.com) into machine-readable addresses (142.250.80.46). Firewalls are the security guards who check every package entering or leaving the building.
 ## Worked Examples
 
 See the examples integrated throughout the sections above.

@@ -669,15 +669,10 @@ building a personal test matrix.
 4. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
 
-## Summary
+## Cross-References
 
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
-## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
+- [Quadratics](02-quadratics.mdx) — Quadratic equations are solved using the factorisation and completing-the-square methods introduced here.
+- [Equations and Inequalities](03-equations-and-inequalities.md) — The factor theorem and polynomial division are applied to solving simultaneous equations.
+- [Sequences and Series](06-sequences-and-series.md) — Summation notation and algebraic manipulation are essential for working with series.
 
 </aside>

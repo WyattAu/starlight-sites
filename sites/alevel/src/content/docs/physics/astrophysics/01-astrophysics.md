@@ -794,27 +794,9 @@ Converting to megaparsecs: $d = 4.99 \times 10^{24}/(3.09 \times 10^{22}) = 161$
 </details>
 
 
-## Common Pitfalls
+## Cross-References
 
-1. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
-   first.
-
-2. Confusing displacement with distance, or velocity with speed, particularly in graphs and
-   calculations.
-
-3. Rounding intermediate answers too early, which compounds errors in multi-step calculations.
-
-4. Misidentifying the system boundary when applying conservation laws. Define what is included
-   before writing equations.
-
-## Summary
-
-The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
-the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
-each approach.
-
-## Worked Examples
-
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
-
+- [Waves](../waves/01-waves.md) — The Doppler effect for light, used in cosmological redshift, is a wave phenomenon.
+- [Thermal Physics](../thermal-physics/01-thermal-physics.md) — Black body radiation and the Stefan-Boltzmann law connect stellar temperatures to thermal energy.
+- [Nuclear and Quantum Physics](../nuclear-and-quantum-physics/07-quantum-physics.md) — Nuclear fusion in stellar cores and the Chandrasekhar limit depend on quantum mechanics.
+- [Mechanics](../mechanics/01-mechanics.md) — Gravitational potential energy and orbital mechanics underpin the formation and evolution of stars.

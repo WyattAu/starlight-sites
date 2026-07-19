@@ -335,6 +335,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+
+## Intuition
+
+Java-Kotlin interoperability is like two countries sharing a border -- most traffic flows freely, but there are customs checkpoints where the rules differ. Platform types are the border guards: they represent values where Kotlin cannot enforce null safety because the information was lost on the Java side. SAM conversions let Kotlin lambdas slip through as Java functional interfaces, bridging the syntactic gap. The @Jvm annotations are like passport stamps that make Kotlin code behave in ways Java expects. Understanding interoperability means understanding where the two languages' type systems diverge and where the bridges are.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

@@ -1408,6 +1408,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+
+## Intuition
+
+Testing is like a safety net under a trapeze artist -- you hope you never need it, but you cannot perform without it. Unit tests catch individual missteps, widget tests verify that the trapeze (widget tree) is properly rigged, and integration tests ensure the whole act (app flow) works end to end. Mocking with mockito creates stand-in performers who follow a script, letting you test in isolation. The Arrange-Act-Assert pattern is your rehearsal protocol: set up the stage, perform the move, check the landing. Property-based testing stress-tests the net itself by throwing random loads at it to find weak points.
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
