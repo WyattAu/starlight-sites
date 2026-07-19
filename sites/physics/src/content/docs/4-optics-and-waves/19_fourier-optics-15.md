@@ -128,3 +128,9 @@ For $N = 5$, $d = 3a$:
 The resolving power: $R = mN = m \times 5$.
 
 </details>
+
+## Cross-References
+
+- [Coherence Theory](/physics/4-optics-and-waves/20_coherence-theory-16) -- Spatial coherence determines the visibility of diffraction patterns; the van Cittert-Zernike theorem connects source size to coherence width.
+- [Lasers](/physics/4-optics-and-waves/9_lasers) -- Gaussian beam propagation and spatial filtering of laser beams are direct applications of Fourier optics principles.
+- [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The wave equation and diffraction theory provide the physical foundation for the Fourier transform interpretation of lens systems.

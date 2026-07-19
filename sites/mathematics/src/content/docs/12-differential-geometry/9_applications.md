@@ -117,6 +117,10 @@ low-dimensional embedding.
 **t-SNE and UMAP** use local neighbourhood information to construct embeddings that preserve
 the local geometry of the data manifold, revealing clustering and topological structure.
 
+## Intuition
+
+Differential geometry is the mathematics of curved spaces, and its applications reveal a deep unity across disciplines. In general relativity, gravity is not a force but the curvature of spacetime itself, like a heavy ball warping a stretched rubber sheet. Gauge theory uses the same language of connections and curvature to describe fundamental forces. Minimal surfaces are nature's way of finding efficient shapes, as soap films do automatically. The configuration space of a robot is a manifold where each point represents a possible pose. Even high-dimensional data often lives on a curved manifold, and geometry reveals its true structure.
+
 ### Practice Problems
 
 1. Verify that the Schwarzschild metric satisfies the vacuum Einstein equations $R_{\mu\nu} = 0$

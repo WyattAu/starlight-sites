@@ -169,6 +169,10 @@ $$r_p = \frac{n_2\cos\theta_c - 0}{n_2\cos\theta_c + 0} = 1$$
 Both polarisations have $R = 1$ at the critical angle, and the transmitted wave propagates exactly
 along the interface with no energy flow into the second medium.
 
+## Intuition
+
+The Fresnel equations describe how light splits at an interface between two media. At normal incidence, reflection and transmission depend only on the refractive index mismatch. As the angle increases, the two polarisations behave differently: s-polarised light reflects more strongly, while p-polarised light can reach zero reflection at Brewster's angle. Total internal reflection occurs beyond the critical angle, where the transmitted wave becomes evanescent, decaying exponentially while carrying no energy across the boundary. This is the optical analogue of quantum tunnelling. The Fresnel coefficients encode both amplitude and phase changes, essential for thin-film coatings and anti-reflection layers.
+
 ## Common Mistakes
 
 **Mistake 1: Swapping the numerator and denominator terms in $r_s$ and $r_p$**

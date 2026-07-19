@@ -186,3 +186,10 @@ manifold is a Hamiltonian flow with respect to the natural symplectic structure.
 ## Intuition
 
 Geodesics are the straightest possible paths on a curved surface. On a flat plane, they are straight lines; on a sphere, they are great circles. The key insight is that a geodesic has zero acceleration as measured along the surface — it does not turn left or right relative to the surface geometry. The exponential map sends a tangent vector to the point you reach by following the geodesic in that direction for unit time, providing local coordinates that straighten out the geometry near a point. On negatively curved surfaces, geodesics diverge rapidly, while on positively curved surfaces they converge — this is why parallel geodesics on a sphere eventually meet.
+
+## Cross-References
+
+- [Vector Fields and Flows](/mathematics/12-differential-geometry/3_vector-fields-and-flows) -- Geodesics are integral curves of the geodesic spray vector field on the tangent bundle, linking flow theory to metric geometry.
+- [Differential Geometry Summary](/mathematics/12-differential-geometry/10_summary) -- The summary table of Christoffel symbols and curvature tensors provides the computational tools used throughout this chapter.
+- [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The wave equation in curved spacetime uses geodesic deviation to describe tidal forces in general relativity.
+- [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- Minkowski spacetime is a flat Lorentzian manifold whose geodesics are the worldlines of free particles.

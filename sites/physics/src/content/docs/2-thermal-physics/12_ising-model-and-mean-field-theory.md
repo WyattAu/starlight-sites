@@ -177,3 +177,9 @@ The 1D Ising model has no phase transition at any finite temperature. The transf
 **Mistake 3: Assuming critical exponents depend on microscopic details**
 Critical exponents are universal: they depend only on the dimensionality of the system and the symmetry of the order parameter, not on the coupling constant $J$ or lattice structure. This universality means that the 2D Ising model on a square lattice and on a triangular lattice have the same critical exponents despite different microscopic Hamiltonians.
 
+## Cross-References
+
+- [Thermodynamic Response Functions](/physics/2-thermal-physics/17_thermodynamic-response-functions) -- The susceptibility and specific heat divergences near $T_c$ are examples of the response functions analysed in that chapter.
+- [Irreversible Thermodynamics and Fluctuations](/physics/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations) -- The fluctuation-dissipation theorem connects the susceptibility divergence to spin fluctuations near criticality.
+- [The Debye Model of Solids](/physics/2-thermal-physics/16_the-debye-model-of-solids) -- The lattice dynamics and phonon spectrum of solids provide the microscopic foundation for understanding spin-phonon coupling in magnetic materials.
+

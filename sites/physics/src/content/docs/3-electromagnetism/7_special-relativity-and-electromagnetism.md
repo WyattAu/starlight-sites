@@ -150,3 +150,9 @@ Special relativity and electromagnetism are two aspects of the same theory. Elec
 
 - **Parallel vs.\ perpendicular boost components.** When boosting along $\hat{x}$, the $E_x$ and $B_x$ components are unchanged; only the perpendicular components mix. Students often incorrectly apply $\gamma$ to all components.
 
+## Cross-References
+
+- [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The wave equation and Poynting vector analysis provide the non-relativistic foundation for the covariant field theory developed here.
+- [Potentials and Gauge Transformations](/physics/3-electromagnetism/6_potentials-and-gauge-transformations) -- The Lorenz gauge condition $\partial_\mu A^\mu = 0$ is the four-vector form of the gauge choice introduced in the potentials chapter.
+- [Radiation from Accelerating Charges](/physics/3-electromagnetism/10_radiation-from-accelerating-charges) -- The relativistic Larmor formula and Liénard-Wiechert fields extend the dipole radiation analysis to moving charges.
+

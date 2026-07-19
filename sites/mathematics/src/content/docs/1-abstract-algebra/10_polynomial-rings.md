@@ -135,3 +135,9 @@ By Eisenstein with $p = 2$: $2 \mid 0, 4, 2$ but $2 \nmid 1$ (leading coefficien
 
 </details>
 
+## Cross-References
+
+- [Euclidean Domains, PIDs, and UFDs](/mathematics/1-abstract-algebra/11_euclidean-domains-pids-and-ufds) -- The classification of $F[x]$ as a Euclidean domain, PID, and UFD is central to polynomial ring theory.
+- [Worked Examples](/mathematics/1-abstract-algebra/15_worked-examples) -- Several worked examples apply irreducibility criteria and division algorithms developed in this chapter.
+- [Common Pitfalls](/mathematics/1-abstract-algebra/17_common-pitfalls) -- The common pitfalls section addresses frequent errors in applying Eisenstein's criterion and checking irreducibility.
+

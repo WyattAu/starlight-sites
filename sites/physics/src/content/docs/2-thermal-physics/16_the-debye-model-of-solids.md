@@ -166,3 +166,9 @@ The Debye frequency $\omega_D$ is an artificial cutoff imposed to match the tota
 
 **Mistake 3: Forgetting to account for longitudinal and transverse modes separately**
 The average sound speed $v_s$ used in the Debye model must account for both longitudinal and transverse phonon branches. The correct formula is $3/v_s^3 = 1/v_L^3 + 2/v_T^3$, reflecting one longitudinal and two transverse modes per wavevector. Using only the longitudinal speed overestimates $\theta_D$ and gives incorrect specific heat values.
+
+## Cross-References
+
+- [Thermodynamic Response Functions](/physics/2-thermal-physics/17_thermodynamic-response-functions) -- The heat capacity $C_V$ derived from the Debye model is an example of the response functions treated in that chapter.
+- [Ising Model and Mean-Field Theory](/physics/2-thermal-physics/12_ising-model-and-mean-field-theory) -- Both the Debye model and mean-field theory illustrate how simplified models capture essential physics of phase transitions and collective excitations.
+- [Irreversible Thermodynamics and Fluctuations](/physics/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations) -- Phonon transport and thermal conductivity connect the equilibrium Debye model to irreversible thermodynamic processes.

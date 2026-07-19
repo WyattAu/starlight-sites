@@ -265,6 +265,10 @@ $d/a = 3$ as the ratio for missing orders.
 </details>
 
 
+## Intuition
+
+Diffraction arises because every point on a wavefront acts as a new source of spherical wavelets. When light passes through a slit, these wavelets interfere, creating bright and dark regions. A narrower slit relative to the wavelength produces a wider spread, because the wavelets have more opportunity to spread sideways. The Fourier transform of the aperture function gives the far-field pattern directly, linking the shape of the opening to the light distribution. A circular aperture produces the Airy disk pattern, setting the fundamental resolution limit of telescopes. The deeper message is that confinement in one direction produces spreading in another.
+
 ## Cross-References
 
 - **[Fourier Optics](./7_fourier-optics.md)**: Formalises the Fourier transform relationship between aperture functions and far-field diffraction patterns introduced in the Fraunhofer limit.

@@ -77,6 +77,10 @@ semidirect products.
 
 
 </aside>
+## Intuition
+
+Classifying small groups is like cataloguing all possible symmetries of objects with a given number of elements. Prime-order groups are always cyclic, reflecting the rigidity imposed by Lagrange's theorem. Groups of order p-squared are always abelian because the centre is large enough to force commutativity. The fascinating cases begin at order 8, where non-abelian groups like the dihedral group D4 and the quaternion group Q8 appear. The number of groups grows explosively: 5 at order 8, 14 at order 16, 51 at order 32. This combinatorial explosion reveals that symmetry becomes exponentially richer as systems grow.
+
 ## Common Pitfalls
 
 - **Assuming all groups of a given order are abelian:** While groups of order $p$ and $p^2$ are always abelian, groups of order $p^3$ need not be (e.g., $D_4$ and $Q_8$ are non-abelian of order 8). Never assume abelianness without proof.
@@ -119,3 +123,9 @@ Beyond order 12, the classification continues to grow in complexity:
 - **Cryptography:** Understanding group structure is essential for elliptic curve cryptography, where the group of points on a curve must have suitable properties.
 - **Crystallography:** The 230 space groups describe all possible crystal symmetries, built from small-order groups acting on lattices.
 - **Particle physics:** The Standard Model is based on the gauge group $SU(3) \times SU(2) \times U(1)$, whose finite subgroups classify possible symmetry-breaking patterns.
+
+## Cross-References
+
+- [The Sylow Theorems](/mathematics/1-abstract-algebra/7_the-sylow-theorems) -- Sylow counting arguments are the primary tool for determining the number of groups of each order.
+- [Group Actions](/mathematics/1-abstract-algebra/6_group-actions) -- Conjugacy class analysis and semidirect product constructions rely on the group action framework.
+- [Lagrange's Theorem](/mathematics/1-abstract-algebra/3_lagrange-s-theorem) -- Lagrange's theorem constrains possible subgroup orders, which is essential for the classification arguments.

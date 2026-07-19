@@ -192,3 +192,10 @@ center is $Z(D_4) = \{e, r^2\}$, which is one of the order-2 subgroups. $\blacks
 - **Number theory:** Fermat's Little Theorem and Euler's Theorem underpin RSA encryption and primality testing.
 - **Coding theory:** The structure of cosets of subgroups in finite groups is used in linear codes and syndrome decoding.
 - **Computational group theory:** Lagrange's Theorem bounds the search space when testing subgroup membership; the index determines the number of coset representatives needed.
+
+## Cross-References
+
+- [Group Actions](/mathematics/1-abstract-algebra/6_group-actions) -- The orbit-stabilizer theorem generalises Lagrange's theorem to group actions, linking subgroup indices to orbit sizes.
+- [The Sylow Theorems](/mathematics/1-abstract-algebra/7_the-sylow-theorems) -- Sylow's theorems refine Lagrange's theorem by guaranteeing subgroups of prime-power order and constraining their count.
+- [Classification of Groups of Small Order](/mathematics/1-abstract-algebra/16_classification-of-groups-of-small-order) -- Lagrange's theorem limits the possible subgroup structure used in classifying small-order groups.
+- [Common Pitfalls](/mathematics/1-abstract-algebra/17_common-pitfalls) -- The common pitfalls section warns against assuming the converse of Lagrange's theorem and confusing index with order.

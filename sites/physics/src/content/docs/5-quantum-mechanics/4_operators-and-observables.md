@@ -184,6 +184,10 @@ Definite $S_z$ gives probabilistic outcomes, and vice versa.
 
 </details>
 
+## Intuition
+
+Quantum operators are the bridge between abstract mathematical states and physical measurements. Each observable, such as position or momentum, is represented by an operator whose eigenvalues are the possible outcomes you could measure. Operators for incompatible observables do not commute, which means measuring one precisely forces the other to become uncertain. This is not a limitation of instruments but a fundamental feature of quantum reality. Ehrenfest's theorem shows that quantum expectation values follow classical equations of motion on average, providing a smooth bridge from quantum to classical behaviour. Spin-half systems illustrate these ideas most vividly.
+
 ## Common Mistakes
 
 **Mistake 1: Assuming $\langle V'(x) \rangle = V'(\langle x \rangle)$ in Ehrenfest's theorem**

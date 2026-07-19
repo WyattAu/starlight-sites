@@ -166,3 +166,9 @@ The Rayleigh range $z_R = \pi w_0^2/\lambda$ is the distance over which the beam
 
 **Mistake 3: Neglecting the spontaneous emission factor in rate equations**
 The spontaneous emission factor $\beta$ distributes a small fraction of spontaneously emitted photons into the lasing mode. Ignoring $\beta$ leads to an incorrect threshold condition and overestimates the required pump rate. In semiconductor lasers, $\beta$ can be as large as $10^{-4}$, making it non-negligible for threshold calculations.
+
+## Cross-References
+
+- [Coherence Theory](/physics/4-optics-and-waves/20_coherence-theory-16) -- Laser coherence length and linewidth are determined by the cavity finesse and spontaneous emission processes described here.
+- [Fourier Optics](/physics/4-optics-and-waves/19_fourier-optics-15) -- Gaussian beam propagation and spatial filtering of laser output are applications of the Fourier optics framework.
+- [Nonlinear Optics](/physics/4-optics-and-waves/22_nonlinear-optics) -- High peak powers from mode-locked and Q-switched lasers drive the nonlinear optical effects treated in that chapter.

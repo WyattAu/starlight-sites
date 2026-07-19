@@ -160,6 +160,10 @@ antibunching), $g^{(2)}(0) < 1$.
 0.01 arcseconds at $\lambda = 550$ nm. Compute the fringe visibility and determine whether the
 fringes are observable.
 
+## Intuition
+
+Coherence measures how predictable phase relationships are between different points on a wave. Temporal coherence tells you how long you can trust the phase before it wanders randomly, like how long a tuning fork stays in tune. Spatial coherence tells you how far apart two points can be while maintaining a fixed phase relationship. The van Cittert-Zernike theorem connects source size to coherence: a smaller source produces more coherent light. Thermal light has short coherence because atoms emit independently, while laser light has long coherence because the photons are in phase. The Wiener-Khinchin theorem links coherence time to spectral width.
+
 ## Common Mistakes
 
 **Mistake 1: Assuming temporal and spatial coherence are independent properties**

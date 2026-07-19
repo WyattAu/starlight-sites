@@ -146,3 +146,9 @@ The RC low-pass filter ($f_c = 1/(2\pi RC) \approx 16$ kHz) limits the effective
 
 $\blacksquare$
 
+## Cross-References
+
+- [Thermodynamic Response Functions](/physics/2-thermal-physics/17_thermodynamic-response-functions) -- The fluctuation-dissipation theorem relates the response functions (susceptibility, compressibility) to equilibrium fluctuations.
+- [Ising Model and Mean-Field Theory](/physics/2-thermal-physics/12_ising-model-and-mean-field-theory) -- Near $T_c$, the susceptibility divergence in the Ising model is a manifestation of the fluctuation-dissipation relation.
+- [The Debye Model of Solids](/physics/2-thermal-physics/16_the-debye-model-of-solids) -- Phonon thermal conductivity in the Debye model is an irreversible transport process governed by the same fluctuation principles.
+

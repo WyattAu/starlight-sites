@@ -132,3 +132,9 @@ $w = 0.2$ mm at distance $D = 50$ cm ($\lambda = 550$ nm). Find the fringe visib
 $\pi w d/(\lambda D) = \pi \times 2\times10^{-4} \times 5\times10^{-4} / (5.5\times10^{-7} \times 0.5)$
 $= \pi \times 10^{-7} / (2.75\times10^{-7}) = \pi \times 0.364 = 1.143$ rad. $|\gamma| = |\sin(1.143)/1.143| = 0.81/1.143 = 0.709$.
 Fringe visibility $V = 0.71$ (71%). $\blacksquare$
+
+## Cross-References
+
+- [Fourier Optics](/physics/4-optics-and-waves/19_fourier-optics-15) -- The Abbe theory of microscopy and spatial filtering depend directly on the coherence properties developed in this chapter.
+- [Lasers](/physics/4-optics-and-waves/9_lasers) -- Laser linewidth determines temporal coherence; single-mode lasers achieve long coherence lengths essential for interferometry.
+- [Common Pitfalls in Optics](/physics/4-optics-and-waves/18_common-pitfalls) -- Confusing temporal and spatial coherence and misidentifying coherence length are among the most common errors in optics.

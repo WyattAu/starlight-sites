@@ -137,6 +137,12 @@ For TE$_{011}$: $f = 1.5 \times 10^8 \times \sqrt{(1/0.015)^2 + (1/0.02)^2} = 1.
 
 TE$_{101}$ at 9.01 GHz is closest to 10 GHz. Fine-tuning the dimensions or inserting a dielectric can adjust the resonant frequency upward to exactly 10 GHz.
 
+## Cross-References
+
+- [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The wave equation and dispersion relation for free-space propagation provide the starting point for waveguide mode analysis.
+- [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The phase velocity exceeding $c$ in waveguides is consistent with special relativity because only the group velocity carries information.
+- [Lasers](/physics/4-optics-and-waves/9_lasers) -- Laser cavities are optical resonators governed by the same standing-wave and quality-factor principles as microwave cavities.
+
 ## Key Relationships
 
 - **Cutoff frequency determines single-mode operation:** For a waveguide with $a > b$, the TE$_{10}$ mode has the lowest cutoff. Operating between $f_{c,10}$ and the next higher cutoff ensures only one mode propagates, avoiding modal dispersion.

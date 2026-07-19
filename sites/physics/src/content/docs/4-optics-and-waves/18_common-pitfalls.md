@@ -149,3 +149,9 @@ and coherence place fundamental limits on imaging and interference systems.
 ## Intuition
 
 Optics pitfalls stem from conflating wave and ray descriptions. Fraunhofer and Fresnel diffraction differ because waves remember their curvature differently at different distances. Phase determines interference, not intensity, so tracking optical path length is essential. Brewster's angle works because reflected p-polarized light vanishes when the refracted ray is perpendicular to the reflected ray. Coherence determines whether interference fringes appear at all. The f-number trades light gathering against resolution because smaller apertures diffract more, setting a fundamental limit on image sharpness.
+
+## Cross-References
+
+- [Fourier Optics](/physics/4-optics-and-waves/19_fourier-optics-15) -- The Fraunhofer/Fresnel distinction and spatial filtering concepts are developed systematically in the Fourier optics chapter.
+- [Coherence Theory](/physics/4-optics-and-waves/20_coherence-theory-16) -- Temporal and spatial coherence, fringe visibility, and the van Cittert-Zernike theorem are treated in detail here.
+- [Lasers](/physics/4-optics-and-waves/9_lasers) -- Coherence length, mode structure, and the relationship between linewidth and coherence are covered in the laser chapter.

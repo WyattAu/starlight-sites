@@ -276,3 +276,10 @@ In free space, phase velocity $v_p = \omega/k = c$ and group velocity $v_g = d\o
 
 **Mistake 3: Forgetting that the Poynting vector represents energy flux**
 The Poynting vector $\mathbf{S} = \mathbf{E} \times \mathbf{B}/\mu_0$ gives the rate of energy flow per unit area. Students sometimes confuse energy density ($u = \frac{1}{2}(\varepsilon_0 E^2 + B^2/\mu_0)$) with energy flux. The time-averaged Poynting vector gives the intensity, which is what a detector measures.
+
+## Cross-References
+
+- [Potentials and Gauge Transformations](/physics/3-electromagnetism/6_potentials-and-gauge-transformations) -- The scalar and vector potentials simplify the derivation of radiation fields from accelerated charges.
+- [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The relativistic invariance of Maxwell's equations shows that EM waves propagate at $c$ in all frames.
+- [Radiation from Accelerating Charges](/physics/3-electromagnetism/10_radiation-from-accelerating-charges) -- The Larmor formula and dipole radiation patterns extend the plane-wave analysis to realistic sources.
+- [Lasers](/physics/4-optics-and-waves/9_lasers) -- Laser cavity modes are solutions of the wave equation with boundary conditions, connecting EM wave theory to laser physics.

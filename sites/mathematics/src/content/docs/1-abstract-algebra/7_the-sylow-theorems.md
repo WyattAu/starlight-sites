@@ -155,3 +155,10 @@ the Sylow Conditions. Always verify that $n_p \equiv 1 \pmod{p}$ and $n_p$ divid
 
 
 </aside>
+
+## Cross-References
+
+- [Group Actions](/mathematics/1-abstract-algebra/6_group-actions) -- The proofs of Sylow's theorems rely heavily on group actions, orbits, and fixed-point counting.
+- [Lagrange's Theorem](/mathematics/1-abstract-algebra/3_lagrange-s-theorem) -- Lagrange's theorem constrains the possible orders of subgroups, which Sylow's theorems refine for prime-power orders.
+- [Classification of Groups of Small Order](/mathematics/1-abstract-algebra/16_classification-of-groups-of-small-order) -- Sylow's theorems are the main tool for determining which groups of a given order can exist.
+- [Worked Examples](/mathematics/1-abstract-algebra/15_worked-examples) -- The worked examples apply Sylow counting arguments to classify groups of specific orders.

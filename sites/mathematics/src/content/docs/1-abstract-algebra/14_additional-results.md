@@ -124,6 +124,10 @@ Taking all products, the six abelian groups of order 72 are:
 
 - **[Galois Theory Fundamentals](./13_galois-theory-fundamentals.md)**: Uses group-theoretic results such as solvability and the structure of symmetric groups to determine which polynomials are solvable by radicals.
 
+## Intuition
+
+Cauchy's theorem tells us that primes leave fingerprints in group structure: if a prime divides the group's order, an element of that prime order must exist, like a resonance frequency that cannot be suppressed. The structure theorem for abelian groups shows every finitely generated abelian group decomposes into cyclic building blocks, much like integers factor into primes. Simple groups are the atoms of group theory, indivisible under normal subgroups, and their classification is one of the great intellectual achievements of the twentieth century. These results together paint a picture of algebraic structure as both rigid and beautifully ordered.
+
 ### 14.7 Common Pitfalls
 
 - Applying Cauchy's theorem backwards: $|G|$ divisible by $p$ does not imply $G$ has a normal subgroup of order $p$; only a subgroup.
