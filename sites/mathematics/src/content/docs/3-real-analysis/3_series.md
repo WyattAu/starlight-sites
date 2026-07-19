@@ -206,6 +206,12 @@ _If you get this wrong, revise:_ Section 3.5 (Cauchy Condensation Test).
 
 ### 3.8 Common Mistakes
 
+## Intuition
+
+A series converges when its partial sums settle down to a finite limit. The challenge is determining this without computing infinitely many terms. Convergence tests are comparison tools: if your series behaves like a known convergent series (geometric, $p$-series), it converges too. The ratio test captures exponential decay of terms — if consecutive terms shrink by a constant factor, the series converges. Conditional convergence is subtle: the alternating harmonic series converges, but rearranging its terms can produce any sum. Absolute convergence is robust: rearrangement preserves the sum. The integral test connects discrete sums to continuous areas, treating the series as a Riemann sum.
+
+### 3.8 Common Mistakes
+
 **Mistake 1: Assuming absolute convergence from conditional convergence**
 A series that converges conditionally (like the alternating harmonic series) does not converge absolutely. Applying the ratio test or root test to a conditionally convergent series gives $L = 1$, which is inconclusive. Always test for absolute convergence separately and use the alternating series test when appropriate.
 
@@ -214,3 +220,10 @@ When $\lim |a_{n+1}/a_n| = 1$, the ratio test tells you nothing. Many students c
 
 **Mistake 3: Confusing rearrangement of absolutely and conditionally convergent series**
 The Riemann rearrangement theorem states that any conditionally convergent series can be rearranged to converge to any value. Students often assume that rearranging a series preserves its sum, which is only true for absolutely convergent series. Always check absolute convergence before rearranging terms.
+
+## Cross-References
+
+- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: Series convergence is defined through the convergence of partial sums, which are sequences studied in the preceding chapter.
+- **[Sequences and Series of Functions](3-real-analysis/7_sequences-and-series-of-functions.md)**: The convergence tests for numerical series extend to function series through the Weierstrass M-test and uniform convergence.
+- **[Complex Numbers Review](6-complex-analysis/1_complex-numbers-review.md)**: Complex series and power series in the complex plane extend the convergence theory to two dimensions.
+- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: Fourier series are infinite series of trigonometric functions whose convergence depends on the tests developed in this chapter.

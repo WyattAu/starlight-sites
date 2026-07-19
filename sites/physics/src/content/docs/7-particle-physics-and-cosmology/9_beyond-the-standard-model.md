@@ -173,3 +173,9 @@ The running gauge couplings of the Standard Model do not meet at a single point,
 **Mistake 5: Assuming that string theory is the only approach to quantum gravity.**
 String theory is one approach to quantum gravity, but there are other approaches (such as loop quantum gravity, causal dynamical triangulations, and asymptotic safety). Do not assume that string theory is the only viable theory of quantum gravity.
 
+## Cross-References
+
+- **[The Standard Model](7-particle-physics-and-cosmology/1_the-standard-model.md)**: The hierarchy problem and gauge coupling unification are motivations for extending the Standard Model.
+- **[The Higgs Mechanism](7-particle-physics-and-cosmology/4_the-higgs-mechanism.md)**: Supersymmetry solves the hierarchy problem by cancelling quadratic divergences in the Higgs mass.
+- **[Running Coupling Constants](7-particle-physics-and-cosmology/6_running-coupling-constants.md)**: Gauge coupling unification requires new physics beyond the Standard Model, such as supersymmetry.
+- **[Big Bang Cosmology](7-particle-physics-and-cosmology/7_big-bang-cosmology.md)**: Dark matter candidates and inflation models are extensions to the cosmological framework motivated by BSM physics.

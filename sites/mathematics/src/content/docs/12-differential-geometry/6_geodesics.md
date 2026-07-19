@@ -173,3 +173,7 @@ curvature, no two points are conjugate.
 
 **Problem 8.** Show that the geodesic flow on the unit tangent bundle of a compact Riemannian
 manifold is a Hamiltonian flow with respect to the natural symplectic structure.
+
+## Intuition
+
+Geodesics are the straightest possible paths on a curved surface. On a flat plane, they are straight lines; on a sphere, they are great circles. The key insight is that a geodesic has zero acceleration as measured along the surface — it does not turn left or right relative to the surface geometry. The exponential map sends a tangent vector to the point you reach by following the geodesic in that direction for unit time, providing local coordinates that straighten out the geometry near a point. On negatively curved surfaces, geodesics diverge rapidly, while on positively curved surfaces they converge — this is why parallel geodesics on a sphere eventually meet.

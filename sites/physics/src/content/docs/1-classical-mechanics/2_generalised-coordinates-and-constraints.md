@@ -145,6 +145,10 @@ $\blacksquare$
 
 
 
+## Intuition
+
+Generalised coordinates are the minimum number of independent parameters needed to describe a system's configuration. A pendulum needs only one angle, not two Cartesian coordinates. Constraints are the rules that reduce the degrees of freedom, like a bead confined to a wire. Holonomic constraints can be written as equations, making them mathematically tractable. D'Alembert's principle extends virtual work to dynamics by treating inertia as a fictitious force. This insight leads directly to Lagrangian mechanics, where constraint forces disappear entirely because they do no virtual work.
+
 ## Cross-References
 
 - **[Newtonian Mechanics Review](1_newtonian-mechanics-review.md)**: Newton's laws provide the foundation for understanding constraints and virtual displacements.

@@ -239,3 +239,10 @@ The Gell-Mann matrices are the generators of SU(3) in the fundamental representa
 
 **Mistake 5: Assuming that all hadrons are colour singlets.**
 All observable hadrons are colour singlets (colour-neutral). This is a consequence of colour confinement. However, there is ongoing research into exotic states (such as tetraquarks and pentaquarks) that may not be simple colour singlets. Do not assume that all hadrons are simple $q\bar{q}$ or $qqq$ states.
+
+## Cross-References
+
+- **[The Standard Model](7-particle-physics-and-cosmology/1_the-standard-model.md)**: The gauge group SU(3) x SU(2) x U(1) organises the fundamental particles and their interactions.
+- **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: Gauge invariance under the Standard Model group determines the conserved quantum numbers of particles.
+- **[The Higgs Mechanism](7-particle-physics-and-cosmology/4_the-higgs-mechanism.md)**: The electroweak symmetry breaking pattern is determined by the SU(2) x U(1) group structure.
+- **[Running Coupling Constants](7-particle-physics-and-cosmology/6_running-coupling-constants.md)**: The beta functions of the gauge couplings depend on the group-theoretic factors of SU(3), SU(2), and U(1).

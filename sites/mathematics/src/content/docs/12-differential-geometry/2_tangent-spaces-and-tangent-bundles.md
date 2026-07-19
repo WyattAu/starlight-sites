@@ -132,6 +132,12 @@ $p$-$v$-plane. Thus $T_p S^2 \cong p^\perp$. $\blacksquare$
 
 ### 2.9 Practice Problems
 
+## Intuition
+
+The tangent space at a point on a manifold is the collection of all possible velocities of curves passing through that point — it is the "flat approximation" to the curved space at that point. On a sphere, the tangent space at the north pole is the horizontal plane touching the sphere there. The tangent bundle glues together all tangent spaces into a single space, giving a manifold a way to talk about directions and velocities globally. A differential form is a machine that takes a tangent vector and returns a number, consistently across all points. The exterior derivative of a form measures how the form changes — it is the infinitesimal version of Stokes' theorem.
+
+### 2.9 Practice Problems
+
 1. Prove that the curve and derivation definitions of $T_p M$ are equivalent.
 2. Compute the transition matrix for $T_p \mathbb{R}^2$ between Cartesian and polar coordinates.
 3. Show that $d(fg)_p = f(p) dg_p + g(p) df_p$.

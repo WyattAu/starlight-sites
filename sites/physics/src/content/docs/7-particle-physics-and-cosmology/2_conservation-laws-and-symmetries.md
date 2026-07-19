@@ -174,3 +174,9 @@ The Gell-Mann-Nishijima formula $Q = I_3 + Y/2$ relates electric charge to isosp
 **Mistake 5: Assuming that Noether's theorem applies to discrete symmetries.**
 Noether's theorem relates continuous symmetries to conserved quantities. Discrete symmetries (parity $P$, charge conjugation $C$, time reversal $T$) do not give rise to conserved charges via Noether's theorem. However, they still impose powerful constraints on physical theories.
 
+## Cross-References
+
+- **[The Standard Model](7-particle-physics-and-cosmology/1_the-standard-model.md)**: The conservation laws arise from the gauge symmetry structure of the Standard Model and determine which particle decays are allowed.
+- **[Group Theory in Particle Physics](7-particle-physics-and-cosmology/5_group-theory-in-particle-physics.md)**: Noether's theorem connects continuous symmetries to conserved quantities, and the gauge group structure determines the conservation laws.
+- **[The Higgs Mechanism](7-particle-physics-and-cosmology/4_the-higgs-mechanism.md)**: Spontaneous symmetry breaking gives mass to gauge bosons while preserving the underlying gauge invariance.
+- **[Advanced Topics in Particle Physics](7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics.md)**: CP violation in the quark and lepton sectors is a manifestation of the symmetry properties studied here.

@@ -137,3 +137,9 @@ $M_U \sim 2\times 10^{16}$ GeV, providing indirect evidence for supersymmetry.
 
 </details>
 
+## Cross-References
+
+- **[The Standard Model](7-particle-physics-and-cosmology/1_the-standard-model.md)**: Problems involving quark content, particle identification, and the CKM matrix draw directly on the particle taxonomy and gauge symmetry structure.
+- **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: Many problems require checking conservation of charge, baryon number, and strangeness using the Gell-Mann-Nishijima formula.
+- **[Big Bang Cosmology](7-particle-physics-and-cosmology/7_big-bang-cosmology.md)**: Cosmology problems on dark matter halos, the CMB, and the Hubble constant connect to the Friedmann equations and observational cosmology.
+- **[Running Coupling Constants](7-particle-physics-and-cosmology/6_running-coupling-constants.md)**: Problems on the QCD running coupling and unification require understanding beta functions and the renormalisation group.

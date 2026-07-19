@@ -162,3 +162,7 @@ critical point.
 **Neural networks.** The Hopfield model of associative memory is formally equivalent to an Ising
 model with random couplings, where stored memories correspond to ground states.
 
+## Intuition
+
+The Ising model is the simplest system that shows how local interactions create global order. Each spin is like a person who copies their neighbors' opinions. Below the critical temperature, the copying wins and everyone aligns. Above it, thermal noise randomizes opinions. Mean-field theory assumes each spin sees only the average behavior of its neighbors, like a voter influenced by the national mood rather than individual neighbors. This approximation ignores fluctuations but captures the essential physics: a phase transition occurs when the coupling strength overcomes thermal disorder.
+

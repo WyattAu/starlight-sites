@@ -272,3 +272,10 @@ The heat equation $u_t = \alpha^2 u_{xx}$ describes diffusion and has solutions 
 
 **Mistake 5: Assuming that superposition always applies.**
 Superposition applies to linear PDEs but not to nonlinear PDEs. Do not assume that you can add solutions of a nonlinear PDE to get another solution; superposition only works for linear equations.
+
+## Cross-References
+
+- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: Fourier series provide the eigenfunction expansions needed to solve PDEs by separation of variables.
+- **[Second-Order Linear ODEs](5-ordinary-differential-equations/3_second-order-linear-odes.mdx)**: The spatial ODEs arising from separation of variables are second-order linear equations with boundary conditions.
+- **[Laplace Transforms](5-ordinary-differential-equations/5_laplace-transforms.md)**: The Laplace transform can solve the heat equation in the time variable, converting the PDE to an ODE.
+- **[Vector Calculus](4-multivariable-calculus/3_vector-calculus.md)**: The gradient, divergence, and curl operators appearing in PDE formulations are central concepts in vector calculus.

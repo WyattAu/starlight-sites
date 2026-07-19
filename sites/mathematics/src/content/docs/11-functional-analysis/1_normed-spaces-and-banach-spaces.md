@@ -164,6 +164,12 @@ $(\ell^p)^{**} \cong \ell^p$ via the natural embedding.
 
 ### 1.13 Common Mistakes
 
+## Intuition
+
+Functional analysis extends linear algebra to infinite dimensions. A normed space is a vector space where you can measure the "size" of vectors, and a Banach space is one where Cauchy sequences converge — the space has no "holes." Think of it as doing linear algebra with functions instead of finite arrays. The dual space contains all continuous linear functionals: machines that take in a vector and return a number. Boundedness and continuity coincide for linear maps, a fact that fails in nonlinear settings. The key challenge of infinite dimensions is that bounded sequences need not have convergent subsequences — compactness becomes a rare and precious property, requiring special conditions like reflexivity.
+
+### 1.13 Common Mistakes
+
 **Mistake 1: Confusing a norm with a metric**
 A norm $\|\cdot\|$ on a vector space induces a metric $d(x, y) = \|x - y\|$, but not every metric comes from a norm. The discrete metric $d(x, y) = 1$ for $x \neq y$ is not induced by any norm because norms are homogeneous ($\|\alpha x\| = |\alpha|\|x\|$), which the discrete metric violates. Always verify that a metric is translation-invariant and homogeneous before assuming it comes from a norm.
 

@@ -83,3 +83,95 @@ Inverse trigonometric functions are essential for integration (they appear as an
 - Use the addition formulas carefully, checking conditions on $xy$
 - Standard values: $\sin^{-1}(1/2) = \pi/6$, $\tan^{-1}(1) = \pi/4$, $\cos^{-1}(1/2) = \pi/3$
 - Practice converting between different inverse trig forms using complementary angle identities
+
+## Key Formulas
+
+- Domain and range:
+  - $\sin^{-1} x$: domain $[-1, 1]$, range $[-\pi/2, \pi/2]$
+  - $\cos^{-1} x$: domain $[-1, 1]$, range $[0, \pi]$
+  - $\tan^{-1} x$: domain $\mathbb{R}$, range $(-\pi/2, \pi/2)$
+- Complementary identities:
+  - $\sin^{-1} x + \cos^{-1} x = \pi/2$
+  - $\tan^{-1} x + \cot^{-1} x = \pi/2$
+  - $\sec^{-1} x + \csc^{-1} x = \pi/2$
+- Negative argument:
+  - $\sin^{-1}(-x) = -\sin^{-1} x$
+  - $\cos^{-1}(-x) = \pi - \cos^{-1} x$
+  - $\tan^{-1}(-x) = -\tan^{-1} x$
+- Addition formulas:
+  - $\tan^{-1} x + \tan^{-1} y = \tan^{-1}\left(\frac{x+y}{1-xy}\right)$ when $xy < 1$
+  - $\tan^{-1} x + \tan^{-1} y = \pi + \tan^{-1}\left(\frac{x+y}{1-xy}\right)$ when $xy > 1, x > 0$
+
+## Worked Example 4 — Converting Between Forms
+
+**Problem:** Express $\cos^{-1}\left(\frac{3}{5}\right)$ in terms of $\sin^{-1}$.
+
+**Solution:**
+
+Let $\theta = \cos^{-1}(3/5)$, so $\cos\theta = 3/5$ and $\theta \in [0, \pi]$.
+
+Since $\cos\theta = 3/5 > 0$, $\theta$ is in the first quadrant, so $\sin\theta > 0$.
+
+$$\sin\theta = \sqrt{1 - \cos^2\theta} = \sqrt{1 - \frac{9}{25}} = \sqrt{\frac{16}{25}} = \frac{4}{5}$$
+
+Therefore:
+$$\cos^{-1}\left(\frac{3}{5}\right) = \sin^{-1}\left(\frac{4}{5}\right)$$
+
+**Common mistake:** Forgetting that $\sin^{-1} x + \cos^{-1} x = \pi/2$, so $\cos^{-1} x = \pi/2 - \sin^{-1} x$. This is another valid answer.
+
+## Worked Example 5 — Evaluating Expressions
+
+**Problem:** Find the value of $\sin\left(2\tan^{-1}\frac{3}{4}\right)$.
+
+**Solution:**
+
+Let $\theta = \tan^{-1}(3/4)$, so $\tan\theta = 3/4$ and $\theta \in (-\pi/2, \pi/2)$.
+
+Since $\tan\theta = 3/4 > 0$, $\theta$ is in the first quadrant.
+
+$$\sin\theta = \frac{3}{5}, \quad \cos\theta = \frac{4}{5}$$
+
+$$\sin(2\theta) = 2\sin\theta\cos\theta = 2 \times \frac{3}{5} \times \frac{4}{5} = \frac{24}{25}$$
+
+**Common mistake:** Forgetting that $\tan^{-1}(3/4)$ gives an angle, not a ratio. After finding the angle, use it in the double-angle formula.
+
+## Worked Example 6 — Solving Equations
+
+**Problem:** Solve $\tan^{-1}(x+1) + \tan^{-1}(x-1) = \tan^{-1}\left(\frac{8}{31}\right)$.
+
+**Solution:**
+
+Using the addition formula (check $xy = (x+1)(x-1) = x^2 - 1$):
+
+Case 1: $x^2 - 1 < 1$, i.e., $x^2 < 2$:
+$$\tan^{-1}\left(\frac{(x+1)+(x-1)}{1-(x+1)(x-1)}\right) = \tan^{-1}\left(\frac{8}{31}\right)$$
+
+$$\frac{2x}{1-(x^2-1)} = \frac{8}{31}$$
+
+$$\frac{2x}{2-x^2} = \frac{8}{31}$$
+
+$$62x = 16 - 8x^2$$
+
+$$8x^2 + 62x - 16 = 0$$
+
+$$4x^2 + 31x - 8 = 0$$
+
+$$(4x - 1)(x + 8) = 0$$
+
+$x = 1/4$ or $x = -8$
+
+Check: For $x = 1/4$: $(1/4)^2 = 1/16 < 2$ (valid). For $x = -8$: $(-8)^2 = 64 > 2$ (not valid for Case 1).
+
+For Case 2 ($x^2 > 1$), we need to check separately. Testing $x = -8$ in the original equation shows it doesn't satisfy.
+
+**Answer:** $x = 1/4$
+
+**Common mistake:** Not checking the condition $xy < 1$ when using the addition formula. Always verify the domain condition after solving.
+
+## Exam Tips
+
+1. Memorize the standard values: $\sin^{-1}(0) = 0$, $\sin^{-1}(1/2) = \pi/6$, $\sin^{-1}(1/\sqrt{2}) = \pi/4$, $\sin^{-1}(\sqrt{3}/2) = \pi/3$, $\sin^{-1}(1) = \pi/2$
+2. When simplifying inverse trig expressions, always check that the result is within the correct range
+3. For addition formulas, the condition on $xy$ determines which form to use
+4. Converting between inverse trig functions: use complementary identities or construct a right triangle
+5. Practice with both numerical and algebraic arguments

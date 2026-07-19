@@ -260,3 +260,13 @@ confirming that colour forces are screened in the QGP and quarkonium states are 
 
 </details>
 
+## Intuition
+
+The Sachs-Wolfe effect is gravitational redshift in action: photons climbing out of potential wells lose energy and appear cooler. The integrated version accumulates this effect along the entire line of sight, like a traveler collecting tolls on a long journey. Dark matter halos follow the NFW profile because gravity pulls matter inward while expansion stretches it outward, creating a characteristic density shape. Primordial nucleosynthesis produced light elements in the first few minutes when the universe was hot enough for nuclear fusion but too hot for nuclei to survive long.
+
+## Cross-References
+
+- **[Big Bang Cosmology](7-particle-physics-and-cosmology/7_big-bang-cosmology.md)**: The Friedmann equations and CMB physics provide the framework for understanding the Sachs-Wolfe effect and primordial nucleosynthesis.
+- **[The Standard Model](7-particle-physics-and-cosmology/1_the-standard-model.md)**: Topological defects from symmetry breaking and the neutrino sector connect particle physics to cosmological observations.
+- **[Beyond the Standard Model](7-particle-physics-and-cosmology/9_beyond-the-standard-model.md)**: Dark matter candidates and inflation models are motivated by questions beyond the Standard Model.
+- **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: The matter-antimatter asymmetry requires CP violation beyond the Standard Model, connecting to Sakharov conditions.

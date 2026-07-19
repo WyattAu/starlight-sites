@@ -82,3 +82,72 @@ Probability is fundamental to statistics, data science, risk assessment, and dec
 - Binomial distribution applies when there are independent trials with two outcomes
 - Practice with tree diagrams for multi-stage probability problems
 - Always check if events are independent before applying multiplication rule
+
+## Key Formulas
+
+- Conditional probability: $P(A|B) = \frac{P(A \cap B)}{P(B)}$, $P(B) > 0$
+- Addition rule: $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+- Bayes' theorem: $P(A_i|B) = \frac{P(B|A_i) P(A_i)}{\sum_j P(B|A_j) P(A_j)}$
+- Binomial: $P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}$
+- Mean of binomial: $\mu = np$, Variance: $\sigma^2 = np(1-p)$
+- Variance formula: $\text{Var}(X) = E(X^2) - [E(X)]^2$
+
+## Worked Example 4 — Conditional Probability with Cards
+
+**Problem:** Two cards are drawn from a standard deck of 52 cards without replacement. Given that the first card is an ace, find the probability that the second card is also an ace.
+
+**Solution:**
+
+Given the first card is an ace, there are 3 aces left out of 51 remaining cards.
+
+$$P(\text{2nd ace} | \text{1st ace}) = \frac{3}{51} = \frac{1}{17}$$
+
+This is a direct application of conditional probability. The sample space reduces from 52 to 51 cards after the first draw.
+
+**Common mistake:** Calculating $\frac{4}{52} \times \frac{3}{51}$ instead of just $\frac{3}{51}$. Since we are given the first card is an ace, we don't multiply by its probability.
+
+## Worked Example 5 — Mean and Variance of Random Variable
+
+**Problem:** A random variable $X$ has the probability distribution:
+
+| $X$ | 0 | 1 | 2 | 3 | 4 |
+|-----|---|---|---|---|---|
+| $P(X)$ | 0.1 | 0.2 | 0.3 | 0.25 | 0.15 |
+
+Find $E(X)$, $E(X^2)$, and $\text{Var}(X)$.
+
+**Solution:**
+
+$$E(X) = 0(0.1) + 1(0.2) + 2(0.3) + 3(0.25) + 4(0.15) = 0 + 0.2 + 0.6 + 0.75 + 0.6 = 2.15$$
+
+$$E(X^2) = 0^2(0.1) + 1^2(0.2) + 2^2(0.3) + 3^2(0.25) + 4^2(0.15) = 0 + 0.2 + 1.2 + 2.25 + 2.4 = 6.05$$
+
+$$\text{Var}(X) = E(X^2) - [E(X)]^2 = 6.05 - (2.15)^2 = 6.05 - 4.6225 = 1.4275$$
+
+**Common mistake:** Forgetting to square $E(X)$ in the variance formula. $\text{Var}(X) = E(X^2) - [E(X)]^2$, not $E(X^2) - E(X)$.
+
+## Worked Example 6 — Binomial Distribution Application
+
+**Problem:** A survey shows that 60% of students prefer online learning. If 8 students are selected at random, find the probability that exactly 5 prefer online learning. Also find the mean and standard deviation.
+
+**Solution:**
+
+This is a binomial distribution with $n = 8$, $p = 0.6$, $q = 0.4$.
+
+$$P(X = 5) = \binom{8}{5} (0.6)^5 (0.4)^3 = 56 \times 0.07776 \times 0.064 = 0.2787$$
+
+Mean: $\mu = np = 8 \times 0.6 = 4.8$
+
+Variance: $\sigma^2 = npq = 8 \times 0.6 \times 0.4 = 1.92$
+
+Standard deviation: $\sigma = \sqrt{1.92} \approx 1.386$
+
+**Common mistake:** Confusing standard deviation with variance. The standard deviation is the square root of the variance.
+
+## Exam Tips
+
+1. For Bayes' theorem problems, always draw a tree diagram to visualize the stages
+2. Conditional probability problems: identify what is "given" and reduce the sample space accordingly
+3. Binomial distribution requires: fixed number of trials, two outcomes, constant probability, independent trials
+4. When calculating variance, always use $\text{Var}(X) = E(X^2) - [E(X)]^2$ (not $E(X^2) - E(X)$)
+5. Practice problems involving "at least one" — use the complement: $P(\text{at least one}) = 1 - P(\text{none})$

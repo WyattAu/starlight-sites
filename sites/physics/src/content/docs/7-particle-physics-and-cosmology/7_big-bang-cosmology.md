@@ -511,6 +511,10 @@ involved.
 
 </aside>
 
+## Intuition
+
+The Big Bang was not an explosion in space but the expansion of space itself. Every galaxy is receding because the fabric between them stretches, like dots on an inflating balloon moving apart. The Friedmann equation is Newton's second law applied to the universe's expansion: gravity decelerates expansion while dark energy accelerates it. The critical density is the tipping point between eternal expansion and eventual collapse. The Hubble parameter measures how fast space is stretching right now. The universe's geometry depends on whether its density exceeds, equals, or falls below the critical value.
+
 ### 7.12 Common Mistakes
 
 **Mistake 1: Assuming that the Big Bang was an explosion in space.**
@@ -527,3 +531,9 @@ The critical density $\rho_c = 3H^2/(8\pi G)$ is the density at which the univer
 
 **Mistake 5: Assuming that the宇宙 has no boundary implies it is infinite.**
 A universe with no boundary can be finite or infinite. For example, a closed universe (positive curvature) is finite but has no boundary. Do not assume that a boundaryless universe is infinite.
+## Cross-References
+
+- **[The Standard Model](7-particle-physics-and-cosmology/1_the-standard-model.md)**: Particle physics determines the conditions during Big Bang nucleosynthesis and the electroweak phase transition.
+- **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: Baryon number conservation and its possible violation are essential for understanding the matter-antimatter asymmetry.
+- **[Running Coupling Constants](7-particle-physics-and-cosmology/6_running-coupling-constants.md)**: The running of coupling constants affects the physics of the early universe and primordial nucleosynthesis.
+- **[Advanced Topics in Cosmology](7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology.md)**: Dark matter halos, the Sachs-Wolfe effect, and topological defects extend the basic cosmological framework.

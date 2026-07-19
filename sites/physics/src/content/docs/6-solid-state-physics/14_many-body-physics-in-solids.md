@@ -135,3 +135,9 @@ Similarly, the Pauli susceptibility is enhanced: $\chi/\chi_0 = m^*/m_e = 1000$.
 - Neglecting that the Kondo effect requires a magnetic impurity in a non-magnetic host; in a magnetic host the physics is different.
 - Confusing the Mott insulator (driven by electron correlations) with a band insulator (driven by filled bands and a band gap).
 
+## Cross-References
+
+- **[Crystal Structures](6-solid-state-physics/1_crystal-structures.md)**: The lattice geometry and crystal symmetry determine the electronic band structure and the validity of the tight-binding model.
+- **[Lattice Vibrations and Phonons](6-solid-state-physics/4_lattice-vibrations-and-phonons.md)**: Electron-phonon coupling leads to Cooper pairing in conventional superconductors and affects quasiparticle properties.
+- **[Semiconductors](6-solid-state-physics/6_semiconductors.md)**: The Fermi liquid concept and quasiparticle picture build on the semiconductor band structure framework.
+- **[Magnetism in Solids](6-solid-state-physics/10_magnetism-in-solids.md)**: The Hubbard model and exchange interactions connect many-body physics to magnetic ordering in solids.

@@ -160,3 +160,59 @@ $$E_k = E - W_0 = 6.22 - 3.5 = 2.72\,\text{eV}$$
 **Answer:** The maximum kinetic energy is $2.72\,\text{eV}$
 
 **Common mistake:** Forgetting to convert between joules and electron volts. Always check the units requested in the answer.
+
+## More Worked Examples
+
+### Example 7: Standing Waves in a Pipe
+
+**Problem:** Find the fundamental frequency of a pipe of length $0.8\,\text{m}$ that is open at both ends ($v = 340\,\text{m/s}$).
+
+**Solution:**
+
+Step 1: For a pipe open at both ends, the fundamental frequency occurs when the length equals half a wavelength:
+$$L = \frac{\lambda}{2} \implies \lambda = 2L = 2 \times 0.8 = 1.6\,\text{m}$$
+
+Step 2: Apply the wave equation:
+$$f = \frac{v}{\lambda} = \frac{340}{1.6} = 212.5\,\text{Hz}$$
+
+**Answer:** The fundamental frequency is $212.5\,\text{Hz}$
+
+**Common mistake:** Using $L = \lambda$ instead of $L = \lambda/2$ for the fundamental mode in a pipe open at both ends.
+
+### Example 8: Beats
+
+**Problem:** Two tuning forks produce frequencies of $256\,\text{Hz}$ and $260\,\text{Hz}$. Find the beat frequency and the time interval between successive maxima.
+
+**Solution:**
+
+Step 1: Beat frequency is the difference of the two frequencies:
+$$f_{\text{beat}} = |f_1 - f_2| = |256 - 260| = 4\,\text{Hz}$$
+
+Step 2: Time interval between successive maxima:
+$$T = \frac{1}{f_{\text{beat}}} = \frac{1}{4} = 0.25\,\text{s}$$
+
+**Answer:** The beat frequency is $4\,\text{Hz}$ and the time interval is $0.25\,\text{s}$
+
+**Common mistake:** Confusing beat frequency with the average frequency. The beat frequency is the difference, not the sum or average.
+
+### Example 9: Refraction and Snell's Law
+
+**Problem:** Light traveling in glass ($n = 1.5$) strikes the glass-air boundary at an angle of incidence of $40°$. Find the angle of refraction and determine if total internal reflection occurs.
+
+**Solution:**
+
+Step 1: Check for total internal reflection. The critical angle is:
+$$\sin C = \frac{n_2}{n_1} = \frac{1}{1.5} = 0.667$$
+$$C = \arcsin(0.667) = 41.8°$$
+
+Step 2: Since the angle of incidence ($40°$) is less than the critical angle ($41.8°$), total internal reflection does not occur.
+
+Step 3: Apply Snell's law:
+$$n_1 \sin\theta_1 = n_2 \sin\theta_2$$
+$$1.5 \times \sin 40° = 1 \times \sin\theta_2$$
+$$\sin\theta_2 = 1.5 \times 0.643 = 0.964$$
+$$\theta_2 = \arcsin(0.964) = 74.6°$$
+
+**Answer:** The angle of refraction is $74.6°$ and no total internal reflection occurs
+
+**Common mistake:** Forgetting to check the critical angle before applying Snell's law. If the angle of incidence exceeds the critical angle, all light is reflected back into the denser medium.

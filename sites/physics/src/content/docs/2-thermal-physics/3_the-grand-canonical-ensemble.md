@@ -145,3 +145,7 @@ where $+$ is for fermions (Fermi-Dirac) and $-$ is for bosons (Bose-Einstein). T
 - **Chemical equilibrium:** Reactions in solution are described in the grand canonical ensemble, where the chemical potentials of reactants and products are fixed by the reservoir.
 - **Monte Carlo simulations:** Grand canonical Monte Carlo (GCMC) simulations insert and delete particles to sample the grand canonical distribution, used extensively in studies of porous materials and fluid adsorption.
 
+## Intuition
+
+The grand canonical ensemble is the most flexible statistical framework because it allows both energy and particle number to fluctuate. The chemical potential acts like a price for adding particles: if it is low, particles flow in; if high, they flow out. The fugacity is the exponential of this price, weighting different particle numbers. For quantum gases, the grand partition function naturally produces Fermi-Dirac and Bose-Einstein statistics from the same formalism, with the only difference being whether states can be occupied once or many times.
+

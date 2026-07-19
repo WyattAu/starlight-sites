@@ -81,3 +81,72 @@ Determinants are used in linear algebra, multivariable calculus (Jacobian), and 
 - Remember: $\det(A^{-1}) = 1/\det(A)$
 - For a triangular matrix, the determinant is the product of diagonal entries
 - Practice with both numerical and symbolic determinants
+
+## Key Formulas
+
+- 2x2: $\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$
+- 3x3 cofactor expansion: $\det(A) = a_{11}C_{11} + a_{12}C_{12} + a_{13}C_{13}$ (along first row)
+- Cramer's rule: $x_i = \frac{D_i}{D}$
+- Area of triangle: $\frac{1}{2} \left| \begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix} \right|$
+- Collinearity condition: $\begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix} = 0$
+
+## Worked Example 4 — Symbolic Determinant
+
+**Problem:** Find $x$ if $\begin{vmatrix} 2 & x & 3 \\ 4 & 1 & 6 \\ 1 & 2 & 3 \end{vmatrix} = 0$.
+
+**Solution:**
+
+Expand along the first row:
+$$2 \begin{vmatrix} 1 & 6 \\ 2 & 3 \end{vmatrix} - x \begin{vmatrix} 4 & 6 \\ 1 & 3 \end{vmatrix} + 3 \begin{vmatrix} 4 & 1 \\ 1 & 2 \end{vmatrix} = 0$$
+
+$$2(3 - 12) - x(12 - 6) + 3(8 - 1) = 0$$
+
+$$2(-9) - x(6) + 3(7) = 0$$
+
+$$-18 - 6x + 21 = 0$$
+
+$$3 - 6x = 0 \implies x = \frac{1}{2}$$
+
+**Common mistake:** Sign errors in cofactor expansion. The signs alternate as $+, -, +$ along the first row.
+
+## Worked Example 5 — Properties of Determinants
+
+**Problem:** If $A$ is a $3 \times 3$ matrix with $\det(A) = 5$, find $\det(2A)$, $\det(A^{-1})$, and $\det(A^T A)$.
+
+**Solution:**
+
+For a $3 \times 3$ matrix:
+$$\det(2A) = 2^3 \det(A) = 8 \times 5 = 40$$
+
+$$\det(A^{-1}) = \frac{1}{\det(A)} = \frac{1}{5}$$
+
+$$\det(A^T A) = \det(A^T) \det(A) = \det(A) \cdot \det(A) = 5 \times 5 = 25$$
+
+**Common mistake:** Using $\det(kA) = k \det(A)$ instead of $\det(kA) = k^n \det(A)$ for an $n \times n$ matrix.
+
+## Worked Example 6 — Solving System Using Cramer's Rule
+
+**Problem:** Solve the system:
+$$x + y + z = 6$$
+$$2x + 3y + z = 14$$
+$$3x - 2y + 4z = 5$$
+
+**Solution:**
+
+$$D = \begin{vmatrix} 1 & 1 & 1 \\ 2 & 3 & 1 \\ 3 & -2 & 4 \end{vmatrix} = 1(12+2) - 1(8-3) + 1(-4-9) = 14 - 5 - 13 = -4$$
+
+$$D_x = \begin{vmatrix} 6 & 1 & 1 \\ 14 & 3 & 1 \\ 5 & -2 & 4 \end{vmatrix} = 6(12+2) - 1(56-5) + 1(-28-15) = 84 - 51 - 43 = -10$$
+
+$$x = \frac{D_x}{D} = \frac{-10}{-4} = \frac{5}{2}$$
+
+Similarly: $D_y = -8$, $y = 2$; $D_z = 2$, $z = -\frac{1}{2}$
+
+**Common mistake:** When computing $D_x$, replace the first column (not row) with the constants.
+
+## Exam Tips
+
+1. Always expand along the row or column with the most zeros to save time
+2. Use row operations to simplify before expanding: adding a multiple of one row to another doesn't change the determinant
+3. For Cramer's rule, check that $D \neq 0$ before proceeding
+4. Collinearity of three points $(x_1, y_1)$, $(x_2, y_2)$, $(x_3, y_3)$ is equivalent to the determinant being zero
+5. Practice with matrices containing variables to build algebraic fluency

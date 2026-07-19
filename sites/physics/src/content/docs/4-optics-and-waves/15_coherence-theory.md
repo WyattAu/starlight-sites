@@ -159,3 +159,7 @@ antibunching), $g^{(2)}(0) < 1$.
 **Problem 5.** Two slits separated by 0.5 mm are illuminated by a star of angular diameter
 0.01 arcseconds at $\lambda = 550$ nm. Compute the fringe visibility and determine whether the
 fringes are observable.
+
+## Intuition
+
+Coherence measures how predictable the phase relationship is between different points on a wave. Temporal coherence tells you how long you can trust the phase before it wanders randomly, like how long a tuning fork stays in tune. Spatial coherence tells you how far apart two points can be while still maintaining a fixed phase relationship, like how many people in a crowd are clapping in sync. The van Cittert-Zernike theorem connects source size to coherence: a smaller source produces more coherent light. Thermal light has short coherence because atoms emit independently.

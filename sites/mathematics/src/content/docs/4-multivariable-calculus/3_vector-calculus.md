@@ -374,6 +374,13 @@ Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
   planar curves, right-hand rule for surfaces). The divergence theorem requires the outward normal.
   Reversing orientation changes the sign of the result.
 
+## Cross-References
+
+- **[Partial Derivatives](4-multivariable-calculus/1_partial-derivatives.md)**: The gradient, curl, and divergence are differential operators defined using partial derivatives.
+- **[Multiple Integrals](4-multivariable-calculus/2_multiple-integrals.md)**: Green's, Stokes', and the divergence theorems relate line and surface integrals to double and triple integrals.
+- **[Curves and Surfaces](4-multivariable-calculus/5_curves-and-surfaces.md)**: Line integrals and surface integrals require parametrisation of curves and surfaces using the tools from this chapter.
+- **[Optimization](4-multivariable-calculus/4_optimization.md)**: Conservative vector fields and potential functions connect to the theory of exact differentials and constrained optimisation.
+
 ### 3.9 Intuition: What Do Curl, Divergence, and the Integral Theorems Mean?
 
 Divergence measures how much a vector field "flows out" of a point. If the divergence is positive, the point is a source; if negative, it is a sink. The divergence theorem says that the total flow out of a volume equals the total flux through its boundary, which is a conservation law: what flows in must flow out.

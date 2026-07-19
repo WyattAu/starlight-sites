@@ -245,3 +245,86 @@ November 1st, 2026
 3. **连贯性：** 文章逻辑是否清晰，连接词使用是否恰当
 4. **词汇丰富度：** 是否使用了多样化的词汇和句式
 5. **格式规范：** 书信格式、通知格式等是否正确
+
+## 更多典型例题
+
+### 例题7：申请信
+
+**题目：** 假如你是李华，你校将举办国际文化交流活动，你希望参加并担任志愿者。请给活动负责人Mr. Wang写一封申请信。
+
+**解答：**
+
+```
+Dear Mr. Wang,
+
+  I am writing to apply for the volunteer position at the upcoming
+International Cultural Exchange Activity.
+
+  I believe I am well-qualified for this role for the following reasons.
+First, I have a strong command of English, having won the first prize in
+the school English Speech Contest last year. Second, I am familiar with
+Chinese culture and history, which enables me to introduce our traditions
+to international guests effectively. Moreover, I have previous experience
+as a volunteer at the city museum, where I developed excellent
+communication and organisational skills.
+
+  I am enthusiastic about cultural exchange and eager to contribute to
+the success of this activity. I would be grateful if you could consider
+my application. I am available for an interview at your convenience.
+
+Yours sincerely,
+Li Hua
+```
+
+**考试技巧：** 申请信要突出与申请职位相关的经历和能力，用具体事例支撑，避免空泛的自我评价。
+
+### 例题8：读后续写——情感描写
+
+**题目：** 阅读下面短文，根据所给情节进行续写（两段）。
+
+"Twelve-year-old Tom had always dreamed of becoming a musician. When his school announced a talent show, he decided to play the piano. However, on the day of the performance, his hands trembled as he sat down at the piano. The audience fell silent."
+
+**解答：**
+
+续写示范：
+
+第一段：
+"He closed his eyes and took a deep breath, trying to calm his racing heart. The first few notes came out hesitant and shaky, but as his fingers found their rhythm, the music began to flow smoothly. The melody filled the auditorium, carrying with it all the months of practice and the passion that had driven him to this moment. When he played the final chord, there was a moment of perfect silence — and then the audience erupted in thunderous applause."
+
+第二段：
+"Tom opened his eyes, stunned by the response. Tears welled up as he stood to bow, his trembling hands now steady with relief and joy. After the show, his music teacher approached him with a warm smile. 'You didn't just play the piano tonight, Tom. You shared your heart with everyone here.' From that day forward, Tom no longer feared the stage. He had discovered that courage was not the absence of fear, but the determination to move forward despite it."
+
+**考试技巧：** 续写中的情感描写要自然真实，通过动作、语言、心理活动等多种方式展现人物情感变化。
+
+### 例题9：建议信——环境保护
+
+**题目：** 假如你是李华，你班将召开以"保护环境"为主题的班会。请你给全班同学写一封建议信，提出至少三条具体建议。
+
+**解答：**
+
+```
+Dear Classmates,
+
+  I am writing to share some practical suggestions for protecting our
+environment, which I hope will be discussed at our upcoming class meeting.
+
+  Here are my suggestions. First, we should reduce the use of disposable
+products. Bringing our own water bottles and shopping bags can significantly
+cut down on plastic waste. Second, we should save energy by turning off
+lights and electrical appliances when they are not in use. Even small actions,
+such as using natural light during the day, can make a difference. Third,
+we should recycle paper, bottles, and cans whenever possible. Setting up
+recycling bins in our classroom and dormitories would make this easier.
+
+  In addition, I suggest we organise a monthly "Green Day" activity,
+where we can plant trees, clean up litter around the campus, or invite
+experts to give talks on environmental protection. Every effort counts,
+and together we can build a more sustainable future.
+
+  I look forward to hearing your ideas at the meeting.
+
+Yours sincerely,
+Li Hua
+```
+
+**考试技巧：** 建议信中的建议要具体可行，避免空洞的口号。每条建议最好有简要的理由或说明。

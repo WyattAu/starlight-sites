@@ -152,6 +152,12 @@ $\blacksquare$
 
 ### 6.7 Common Mistakes
 
+## Intuition
+
+When an ODE has no elementary closed-form solution, power series methods let you build a solution term by term. At an ordinary point, you can expand the solution as a Taylor series and substitute into the ODE to find recurrence relations for the coefficients. At a regular singular point, the solution may have a factor of $x^r$ multiplied by a power series — the Frobenius method. The indicial equation determines the possible exponents $r$. Bessel functions, Legendre polynomials, and other special functions all arise from this process. The radius of convergence is determined by the distance to the nearest singular point of the ODE, linking local analyticity to global solution behaviour.
+
+### 6.7 Common Mistakes
+
 **Mistake 1: Confusing ordinary and regular singular points.**
 An ordinary point is where $p(x)$ and $q(x)$ are analytic. A regular singular point is where $(x - x_0)p(x)$ and $(x - x_0)^2 q(x)$ are analytic. An irregular singular point is where neither condition holds. Misclassifying the type of singular point leads to incorrect solution methods.
 
@@ -166,3 +172,10 @@ The Frobenius method is applicable only at regular singular points. At irregular
 
 **Mistake 5: Confusing Bessel functions of the first and second kind.**
 Bessel functions of the first kind $J_\nu(x)$ are analytic at $x = 0$, while Bessel functions of the second kind $Y_\nu(x)$ are singular at $x = 0$. Do not confuse the two; they serve different purposes in solving Bessel's equation.
+
+## Cross-References
+
+- **[Second-Order Linear ODEs](5-ordinary-differential-equations/3_second-order-linear-odes.mdx)**: The power series method extends the characteristic equation approach to variable-coefficient ODEs.
+- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: Bessel functions arise naturally when solving PDEs in cylindrical coordinates via separation of variables.
+- **[Laplace Transforms](5-ordinary-differential-equations/5_laplace-transforms.md)**: The Laplace transform provides an alternative to series methods for solving ODEs with initial conditions.
+- **[Complex Numbers Review](6-complex-analysis/1_complex-numbers-review.md)**: The Frobenius method involves analysing singularities in the complex plane to determine convergence of series solutions.

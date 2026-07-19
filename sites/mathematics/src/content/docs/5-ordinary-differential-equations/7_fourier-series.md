@@ -150,3 +150,10 @@ $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$. $\blacksquare$
 | Complex form | $c_n = \frac{1}{2\pi}\int_{-\pi}^{\pi} f(x)e^{-inx}\,dx$ |
 | Sine series (odd ext.) | $b_n = \frac{2}{L}\int_0^L f(x)\sin\frac{n\pi x}{L}\,dx$ |
 | Cosine series (even ext.) | $a_n = \frac{2}{L}\int_0^L f(x)\cos\frac{n\pi x}{L}\,dx$ |
+
+## Cross-References
+
+- **[Laplace Transforms](5-ordinary-differential-equations/5_laplace-transforms.md)**: Both Fourier and Laplace transforms decompose functions into frequency components, but Fourier series handle periodic functions while Laplace handles transient signals.
+- **[Introduction to Partial Differential Equations](5-ordinary-differential-equations/8_introduction-to-partial-differential-equations.md)**: Fourier series are the essential tool for solving the heat and wave equations by separation of variables.
+- **[Sequences and Series of Functions](3-real-analysis/7_sequences-and-series-of-functions.md)**: Convergence of Fourier series relies on uniform convergence theory and the Weierstrass M-test.
+- **[Complex Numbers Review](6-complex-analysis/1_complex-numbers-review.md)**: Euler's formula converts between real and complex forms of the Fourier series.

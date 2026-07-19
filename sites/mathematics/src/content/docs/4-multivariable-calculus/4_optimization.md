@@ -219,6 +219,12 @@ $(1/3, 1/3, 1/3)$. $\blacksquare$
 
 ### 4.7 Common Pitfalls
 
+## Intuition
+
+Optimization asks: what is the best I can do under constraints? In unconstrained problems, the gradient points uphill — critical points are where it vanishes, meaning all first-order effects balance. The Hessian (matrix of second derivatives) tells you whether the critical point is a minimum, maximum, or saddle, like feeling the curvature of a bowl. Lagrange multipliers handle constraints by saying: at an optimum, the gradient of the objective must be parallel to the gradient of the constraint. Geometrically, this means the level curves of the objective are tangent to the constraint surface. The multiplier $\lambda$ measures the sensitivity — how much the optimum changes if you relax the constraint slightly.
+
+### 4.7 Common Pitfalls
+
 <aside class="starlight-aside starlight-aside--caution">
 - **Lagrange multipliers find candidates only.** The method produces candidates for constrained
   extrema but does not guarantee they are extrema. Always evaluate $f$ at all candidates and use
@@ -234,3 +240,10 @@ $(1/3, 1/3, 1/3)$. $\blacksquare$
 
 
 </aside>
+
+## Cross-References
+
+- **[Partial Derivatives](4-multivariable-calculus/1_partial-derivatives.md)**: The gradient and Hessian matrices used in optimisation are constructed from first and second partial derivatives.
+- **[Vector Calculus](4-multivariable-calculus/3_vector-calculus.md)**: Lagrange multipliers use the geometric relationship between gradients and tangent spaces, which is formalised in the study of conservative fields.
+- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: The extreme value theorem and convergence of iterative optimisation methods rely on completeness and compactness from real analysis.
+- **[Multiple Integrals](4-multivariable-calculus/2_multiple-integrals.md)**: Computing volumes and moments over constraint surfaces uses the multiple integration techniques developed in this chapter.

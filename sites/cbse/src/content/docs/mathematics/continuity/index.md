@@ -82,3 +82,71 @@ Continuity and differentiability are the foundations of calculus. They guarantee
 - Chain rule problems often have 2-3 nested functions
 - Logarithmic differentiation is useful for functions of the form $f(x)^{g(x)}$
 - Piecewise functions often have discontinuities at the boundaries
+
+## Key Formulas
+
+- Continuity: $\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = f(a)$
+- Derivative definition: $f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}$
+- Chain rule: $\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$
+- Implicit differentiation: differentiate both sides, then solve for $\frac{dy}{dx}$
+- Logarithmic differentiation: $\frac{d}{dx}[f(x)] = f(x) \cdot \frac{d}{dx}[\ln f(x)]$
+
+## Worked Example 4 — Continuity of Piecewise Function
+
+**Problem:** Find the value of $k$ if $f(x) = \begin{cases} kx + 1 & x \leq 3 \\ 2x - 1 & x > 3 \end{cases}$ is continuous at $x = 3$.
+
+**Solution:**
+
+For continuity at $x = 3$, we need $\lim_{x \to 3^-} f(x) = \lim_{x \to 3^+} f(x) = f(3)$.
+
+Left-hand limit: $\lim_{x \to 3^-} f(x) = k(3) + 1 = 3k + 1$
+
+Right-hand limit: $\lim_{x \to 3^+} f(x) = 2(3) - 1 = 5$
+
+Function value: $f(3) = 3k + 1$
+
+Setting equal: $3k + 1 = 5 \implies k = \frac{4}{3}$
+
+**Common mistake:** Forgetting to check that the function value equals the limits, not just that the left and right limits are equal.
+
+## Worked Example 5 — Derivative Using Chain Rule (Multi-layer)
+
+**Problem:** Find $\frac{d}{dx} \left[ \ln\left(\sqrt{\sin(x^2)}\right) \right]$.
+
+**Solution:**
+
+Simplify first: $\ln\left(\sqrt{\sin(x^2)}\right) = \frac{1}{2} \ln(\sin(x^2))$
+
+Now differentiate:
+$$\frac{d}{dx} \left[ \frac{1}{2} \ln(\sin(x^2)) \right] = \frac{1}{2} \cdot \frac{1}{\sin(x^2)} \cdot \cos(x^2) \cdot 2x$$
+
+$$= \frac{x \cos(x^2)}{\sin(x^2)} = x \cot(x^2)$$
+
+**Common mistake:** Not simplifying before differentiating. Simplifying $\ln(\sqrt{u})$ to $\frac{1}{2}\ln u$ makes the chain rule much easier.
+
+## Worked Example 6 — Implicit Differentiation
+
+**Problem:** Find $\frac{dy}{dx}$ if $x^2 + y^2 + \sin(xy) = 4$.
+
+**Solution:**
+
+Differentiate both sides with respect to $x$:
+$$2x + 2y \frac{dy}{dx} + \cos(xy) \left(y + x \frac{dy}{dx}\right) = 0$$
+
+Expand:
+$$2x + 2y \frac{dy}{dx} + y\cos(xy) + x\cos(xy) \frac{dy}{dx} = 0$$
+
+Collect $\frac{dy}{dx}$ terms:
+$$\frac{dy}{dx} \left(2y + x\cos(xy)\right) = -2x - y\cos(xy)$$
+
+$$\frac{dy}{dx} = \frac{-2x - y\cos(xy)}{2y + x\cos(xy)}$$
+
+**Common mistake:** Forgetting to apply the chain rule when differentiating $\sin(xy)$. The derivative of $\sin(xy)$ is $\cos(xy) \cdot (y + x \frac{dy}{dx})$.
+
+## Exam Tips
+
+1. For piecewise functions, always check continuity at the boundary by computing left and right limits separately
+2. The function $|x - a|$ is continuous everywhere but not differentiable at $x = a$
+3. When using logarithmic differentiation, remember that $\ln(ab) = \ln a + \ln b$ can simplify products
+4. For implicit differentiation, always collect $\frac{dy}{dx}$ terms on one side before solving
+5. The derivative of $a^x$ is $a^x \ln a$ (not $xa^{x-1}$), while the derivative of $x^n$ is $nx^{n-1}$ (not $n^x \ln x$)

@@ -143,6 +143,10 @@ The exact result is $E_0 = 1.060 \hbar \sqrt{\alpha/m} a^2$, so WKB is within 4%
 state and improves for higher $n$. $\blacksquare$
 
 
+## Intuition
+
+WKB is the semiclassical bridge between classical and quantum mechanics. When the potential changes slowly compared to the wavelength, the wavefunction behaves like a classical particle with a locally varying momentum. The amplitude adjusts to conserve probability current, getting larger where the particle moves slowly. At turning points where the classical kinetic energy vanishes, the wavefunction transitions from oscillating to decaying, like a wave approaching a cliff. The Bohr-Sommerfeld quantization condition says the phase accumulated over one complete orbit must be a multiple of pi, like a standing wave on a string.
+
 ## Cross-References
 
 - **[Approximation Methods](8_approximation-methods.md)**: The WKB approximation is one of the key semiclassical methods in quantum mechanics.

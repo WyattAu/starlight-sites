@@ -143,5 +143,9 @@ This gives the mean field critical exponent $\gamma = 1$. $\blacksquare$
   generalise the 1D result to higher dimensions.
 - Critical exponents are universal (depend only on dimension and symmetry), not on lattice details.
 
+## Intuition
+
+The Ising model is the simplest system showing how local interactions create global order. Each spin copies its neighbors' tendency, and below the critical temperature this copying wins, creating spontaneous magnetization. Mean-field theory averages over neighbors, ignoring fluctuations that become important near the critical point. The 1D model has no phase transition because any domain wall costs only finite energy. In 2D, Onsager's exact solution shows a phase transition exists. Critical exponents are universal because near the critical point, the correlation length diverges, making microscopic details irrelevant.
+
 ---
 

@@ -159,3 +159,7 @@ Matthiessen's rule states that the total resistivity is the sum of impurity and 
 **Mistake 5: Confusing the electronic specific heat with the total specific heat.**
 The electronic specific heat $\gamma_{\mathrm{electron}}$ is only one contribution to the total specific heat. The lattice (phonon) contribution dominates at high temperatures. Do not assume that the total specific heat is entirely electronic.
 
+## Intuition
+
+Electrical conductivity is like traffic flow: electrons are cars, the electric field is the slope of the road, and scattering events are red lights. The Drude model treats electrons as a classical gas bouncing off ions, which explains Ohm's law but fails at low temperatures where quantum effects matter. The mean free path is how far an electron travels between collisions. Matthiessen's rule says different scattering mechanisms add independently, like different types of road obstacles. The Hall coefficient reveals whether charge carriers are positive or negative, which the simple model cannot predict.
+

@@ -237,3 +237,10 @@ Miller indices $(hkl)$ refer to a family of lattice planes, while direction indi
 
 **Mistake 5: Assuming that all crystals are perfect.**
 Real crystals contain defects (point defects, dislocations, grain boundaries) that significantly affect their properties. Do not assume that real crystals are perfect; defects play a crucial role in determining mechanical, electrical, and thermal properties.
+
+## Cross-References
+
+- **[Reciprocal Lattice](6-solid-state-physics/2_reciprocal-lattice.md)**: The reciprocal lattice is constructed from the real-space lattice vectors and is essential for understanding diffraction and electronic band structure.
+- **[Diffraction](6-solid-state-physics/3_diffraction.md)**: X-ray and electron diffraction probe crystal structure through Bragg's law and the Laue condition.
+- **[Lattice Vibrations and Phonons](6-solid-state-physics/4_lattice-vibrations-and-phonons.md)**: The phonon dispersion relations depend on the lattice geometry and interatomic forces.
+- **[Semiconductors](6-solid-state-physics/6_semiconductors.md)**: The crystal structure determines the band structure and electronic properties of semiconductors.

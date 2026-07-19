@@ -132,6 +132,12 @@ So $[X, Y] = -x \partial/\partial x + y \partial/\partial y$. The flows are: $\P
 
 ### 3.9 Practice Problems
 
+## Intuition
+
+A vector field assigns a direction and magnitude to every point of a manifold — like a wind map on the Earth's surface. The flow of a vector field is the family of curves that follow these arrows: starting at any point and moving along the field traces out a path. If the field is complete, the flow is defined for all time. The Lie bracket of two vector fields measures how their flows fail to commute — if you flow along $X$ then $Y$, and compare with flowing along $Y$ then $X$, the discrepancy is the Lie bracket $[X, Y]$. Zero bracket means the flows commute, generalising the fact that mixed partial derivatives are equal.
+
+### 3.9 Practice Problems
+
 1. Find the flow of $X = x^2 \partial/\partial x + y \partial/\partial y$ on $\mathbb{R}^2$.
 2. Prove that $[X, fY] = f[X, Y] + (Xf)Y$ for $f \in C^\infty(M)$.
 3. Show that the vector field $X = \partial/\partial\theta$ on $S^1$ is complete and find its flow.

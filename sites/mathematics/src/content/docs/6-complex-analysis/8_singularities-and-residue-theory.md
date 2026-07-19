@@ -149,6 +149,12 @@ $\int_\gamma \frac{dz}{z^4 + 1} = 2\pi i \cdot 0 = 0$. $\blacksquare$
 
 ### 8.8 Common Mistakes
 
+## Intuition
+
+Singularities are points where a holomorphic function misbehaves — it either blows up, has a limit, or oscillates infinitely. The Laurent series decomposes a function near a singularity into a regular part (non-negative powers) and a principal part (negative powers). The residue is the coefficient of $1/(z - z_0)$, and it captures the "amount of singularity" in a precise sense. The residue theorem says that the integral around a closed curve equals $2\pi i$ times the sum of residues inside — integrating around a singularity picks up a topological quantity that depends only on what is inside, not on the exact path. This converts hard integration problems into bookkeeping.
+
+### 8.8 Common Mistakes
+
 **Mistake 1: Confusing the residue with the coefficient $a_{-1}$.**
 The residue of $f$ at an isolated singularity $z_0$ is the coefficient $a_{-1}$ in the Laurent series expansion $f(z) = \sum_{n=-\infty}^{\infty} a_n (z - z_0)^n$. Do not confuse this with other coefficients or with the value of the function at the singularity.
 

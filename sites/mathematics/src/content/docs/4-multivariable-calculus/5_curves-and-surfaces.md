@@ -291,3 +291,10 @@ $\blacksquare$
 
 
 </aside>
+
+## Cross-References
+
+- **[Partial Derivatives](4-multivariable-calculus/1_partial-derivatives.md)**: Tangent vectors and normal vectors to surfaces are computed using partial derivatives of the parametrisation.
+- **[Vector Calculus](4-multivariable-calculus/3_vector-calculus.md)**: Surface integrals and flux integrals are computed using the normal vector and the tools of vector calculus.
+- **[Multiple Integrals](4-multivariable-calculus/2_multiple-integrals.md)**: Surface area and surface integrals are evaluated as double integrals using the parametrisation and the cross product.
+- **[Curvature and Torsion](4-multivariable-calculus/5_curves-and-surfaces.md)**: The Frenet-Serret formulas describe how the tangent, normal, and binormal vectors move along a curve.

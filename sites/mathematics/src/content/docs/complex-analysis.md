@@ -1994,6 +1994,10 @@ Let $u = x \implies \frac{du}{dx} = 1$ and $\frac{dv}{dx} = e^{2x} \implies v = 
 
 $$\int x e^{2x}\,dx = x \cdot \frac{1}{2}e^{2x} - \int \frac{1}{2}e^{2x}\,dx = \frac{x e^{2x}}{2} - \frac{e^{2x}}{4} + c = \frac{e^{2x}(2x - 1)}{4} + c$$
 
+## Intuition
+
+Complex analysis studies functions of a complex variable that are differentiable in a surprisingly strong sense. A holomorphic function is conformal: it preserves angles locally, stretching and rotating the plane like a flexible mirror. Cauchy's theorem says the integral of a holomorphic function around any closed curve is zero — the function has "no sources or sinks" inside the curve. The residue theorem converts hard contour integrals into simple arithmetic: just count the singularities inside the curve and add up their residues. Laurent series reveal that every holomorphic function near a singularity looks like a polynomial in $1/z$. This machinery makes complex analysis one of the most computationally powerful branches of mathematics.
+
 ## Summary
 
 - Holomorphic functions: complex differentiable on an open set; Cauchy-Riemann equations

@@ -242,3 +242,14 @@ verify the uniform Cauchy criterion directly.
 
 
 </aside>
+
+## Cross-References
+
+- **[Series](3-real-analysis/3_series.md)**: The Weierstrass M-test and convergence criteria for function series build directly on the numerical series tests from this chapter.
+- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: Pointwise and uniform convergence are generalisations of the sequence convergence concepts from the first chapter.
+- **[Partial Derivatives](4-multivariable-calculus/1_partial-derivatives.md)**: Taylor series convergence and analyticity connect real analysis to the partial derivative computations in multivariable calculus.
+- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: Fourier series are function series whose convergence properties are analysed using the uniform convergence theory developed here.
+
+## Intuition
+
+A sequence of functions converges pointwise if each point eventually stabilises, but this is too weak to preserve analytical properties — the limit of continuous functions can be discontinuous. Uniform convergence demands that all points stabilise simultaneously: given any tolerance, there is a single $N$ beyond which every point in the domain is within that tolerance. Think of it as the difference between each person eventually sitting down (pointwise) versus everyone sitting down at the same command (uniform). Power series are the paradigmatic example: within their radius of convergence, they converge uniformly on compact sets, which justifies term-by-term differentiation and integration.

@@ -126,6 +126,12 @@ Integration of an $n$-form over an oriented manifold is independent of the choic
 
 ### 4.10 Vector Calculus and Differential Forms
 
+## Intuition
+
+Differential forms are the natural objects to integrate on manifolds. A 0-form is a function, a 1-form is something you integrate along a curve (like work done by a force), a 2-form is something you integrate over a surface (like flux), and a 3-form is something you integrate over a volume. The exterior derivative $d$ increases the degree by one and encodes differentiation: $df$ is the gradient, $d$ of a 1-form is the curl, and $d$ of a 2-form is the divergence. The fundamental identity $d^2 = 0$ unifies the vector calculus identities $\nabla \times \nabla f = 0$ and $\nabla \cdot (\nabla \times \mathbf{F}) = 0$. Stokes' theorem generalises the fundamental theorem of calculus to manifolds.
+
+### 4.10 Vector Calculus and Differential Forms
+
 Differential forms unify the classical vector calculus operators in $\mathbb{R}^3$ via the identifications:
 
 - $0$-forms $\leftrightarrow$ scalar functions

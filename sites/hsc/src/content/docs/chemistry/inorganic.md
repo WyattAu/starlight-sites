@@ -174,3 +174,71 @@ $$E = 1.10 - 0.01285 \times 3.912 = 1.10 - 0.0503 = 1.050\,\text{V}$$
 **Answer:** $E = 1.05\,\text{V}$
 
 **Common mistake:** Using $\log_{10}$ instead of $\ln$ in the Nernst equation. At $25°\text{C}$, $\frac{RT}{F} = 0.0257\,\text{V}$ with $\ln$, or $\frac{0.0592}{n}$ with $\log_{10}$.
+
+## More Worked Examples
+
+### Example 7: Periodic Trends
+
+**Problem:** Arrange the following elements in order of increasing ionisation energy: Na, Mg, Al, Si, P.
+
+**Solution:**
+
+Step 1: These elements are all in Period 3 of the periodic table.
+
+Step 2: Ionisation energy generally increases across a period due to increasing nuclear charge and decreasing atomic radius.
+
+Step 3: However, there are exceptions:
+- Between Mg and Al: Al has a lower IE than Mg because Al's outer electron is in a higher energy subshell (3p vs 3s)
+- Between P and S: S has a lower IE than P due to electron-electron repulsion in the paired 3p orbital
+
+Step 4: Order: Na < Al < Mg < Si < P
+
+**Answer:** Na < Al < Mg < Si < P
+
+**Common mistake:** Assuming ionisation energy always increases uniformly across a period. Exceptions occur at Groups 2-13 and 15-16 due to subshell and pairing effects.
+
+### Example 8: Hess's Law Application
+
+**Problem:** Given the following data, calculate the enthalpy of formation of ethane ($\text{C}_2\text{H}_6$):
+1. $\text{C}_2\text{H}_6(g) + \frac{7}{2}\text{O}_2(g) \rightarrow 2\text{CO}_2(g) + 3\text{H}_2\text{O}(l)$, $\Delta H_1 = -1560\,\text{kJ/mol}$
+2. $\text{C}(s) + \text{O}_2(g) \rightarrow \text{CO}_2(g)$, $\Delta H_2 = -393.5\,\text{kJ/mol}$
+3. $\text{H}_2(g) + \frac{1}{2}\text{O}_2(g) \rightarrow \text{H}_2\text{O}(l)$, $\Delta H_3 = -285.8\,\text{kJ/mol}$
+
+**Solution:**
+
+Step 1: The formation reaction is:
+$$2\text{C}(s) + 3\text{H}_2(g) \rightarrow \text{C}_2\text{H}_6(g)$$
+
+Step 2: Using Hess's Law:
+$$\Delta H_f = 2\Delta H_2 + 3\Delta H_3 - \Delta H_1$$
+
+Step 3: Calculate:
+$$\Delta H_f = 2(-393.5) + 3(-285.8) - (-1560)$$
+$$= -787 - 857.4 + 1560 = -84.4\,\text{kJ/mol}$$
+
+**Answer:** $\Delta H_f(\text{C}_2\text{H}_6) = -84.4\,\text{kJ/mol}$
+
+**Common mistake:** Forgetting to reverse the combustion equation (multiply by -1) when using Hess's Law. The combustion equation is the reverse of what we need to subtract.
+
+### Example 9: Galvanic Cell
+
+**Problem:** A galvanic cell is constructed with Fe/Fe²⁺ ($E° = -0.44\,\text{V}$) and Ag/Ag⁺ ($E° = +0.80\,\text{V}$). Write the cell notation, calculate the cell potential, and determine the spontaneous reaction.
+
+**Solution:**
+
+Step 1: Identify cathode and anode:
+- Fe has the lower reduction potential, so it is oxidised (anode)
+- Ag has the higher reduction potential, so it is reduced (cathode)
+
+Step 2: Cell notation:
+$$\text{Fe}(s) | \text{Fe}^{2+}(aq) || \text{Ag}^{+}(aq) | \text{Ag}(s)$$
+
+Step 3: Cell potential:
+$$E_{\text{cell}} = E_{\text{cathode}} - E_{\text{anode}} = 0.80 - (-0.44) = 1.24\,\text{V}$$
+
+Step 4: Spontaneous reaction:
+$$\text{Fe}(s) + 2\text{Ag}^{+}(aq) \rightarrow \text{Fe}^{2+}(aq) + 2\text{Ag}(s)$$
+
+**Answer:** $E_{\text{cell}} = 1.24\,\text{V}$, reaction: $\text{Fe} + 2\text{Ag}^{+} \rightarrow \text{Fe}^{2+} + 2\text{Ag}$
+
+**Common mistake:** Forgetting to balance the number of electrons transferred when writing the overall cell reaction.

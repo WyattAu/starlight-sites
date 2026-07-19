@@ -125,6 +125,12 @@ $n$, $m(C) \leq \lim_{n\to\infty} (2/3)^n = 0$. $\blacksquare$
 
 ### 4.8 Common Mistakes
 
+## Intuition
+
+Lebesgue measurability determines which sets can be assigned a consistent "size." The outer measure covers any set with intervals from above, but only measurable sets satisfy the property that their size equals the sizes of their pieces added together. The Vitali construction shows that not all sets are measurable: using the axiom of Choice, you can build a set that is so irregular that no consistent measure can be assigned. The Cantor set shows the opposite extreme — an uncountable set with measure zero, demonstrating that measure and cardinality are unrelated. Lebesgue measurability is the sweet spot: large enough to include all Borel sets and null sets, but small enough to avoid pathological constructions.
+
+### 4.8 Common Mistakes
+
 **Mistake 1: Assuming all subsets of $\mathbb{R}$ are Lebesgue measurable**
 The existence of non-measurable sets (like the Vitali set) depends on the Axiom of Choice. In ZF without Choice, it is consistent that all subsets of $\mathbb{R}$ are measurable. Never assume a set is measurable without verification, especially when constructing sets using Choice-based arguments.
 

@@ -131,6 +131,12 @@ giving $\mathrm{Area} = \pi$. $\blacksquare$
 
 ### 8.8 Practice Problems
 
+## Intuition
+
+The Gauss-Bonnet theorem is one of the most beautiful results in mathematics: it says the total curvature of a compact surface equals $2\pi$ times its Euler characteristic, a topological invariant. On a sphere, the total curvature is $4\pi$ (positive), reflecting its bowl-like shape. On a torus, the total curvature is zero — the positive curvature on the outer rim exactly cancels the negative curvature on the inner rim. This means you cannot change the total curvature by deforming the surface, only by changing its topology. The theorem connects three different worlds: local geometry (curvature), global topology (Euler characteristic), and topology (genus).
+
+### 8.8 Practice Problems
+
 1. Compute the Euler characteristic of a compact surface of genus 3. What is its total curvature?
 2. Show that a metric on $S^2$ with $K \geq 1$ has area $\leq 4\pi$.
 3. Prove that any metric on $S^2$ has at least one point with $K > 0$.

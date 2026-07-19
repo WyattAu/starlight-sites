@@ -124,8 +124,21 @@ $B^2 - 4AC = -4 \lt 0$ (elliptic). $\blacksquare$
 
 ### 1.9 Applications in Practice
 
+## Intuition
+
+Differential equations describe how things change. An ODE relates a function to its derivatives, capturing the idea that the rate of change depends on the current state. A first-order ODE like $y' = f(x, y)$ says the slope at each point is determined by the coordinates. Linearity means the superposition principle applies: sums of solutions are solutions. The order is the number of times you differentiate — a second-order equation involves acceleration, as in Newton's second law. Homogeneous equations have no external forcing, so the zero solution works. Classification guides the solution method: constant-coefficient equations use characteristic equations, while variable-coefficient equations may require series or numerical methods.
+
+### 1.9 Applications in Practice
+
 - **Engineering:** Electrical circuit analysis (RLC circuits) and control systems rely on linear ODEs with constant coefficients.
 - **Biology:** Epidemiological models (SIR equations) and population dynamics use nonlinear systems of ODEs.
 - **Physics:** Newtonian mechanics, quantum mechanics (Schrödinger equation), and general relativity (Einstein field equations) are formulated as differential equations.
 - **Economics:** Black-Scholes equation for option pricing is a PDE; macroeconomic growth models use ODE systems.
+
+## Cross-References
+
+- **[First-Order ODEs](5-ordinary-differential-equations/2_first-order-odes.md)**: First-order equations are the building blocks for understanding higher-order ODEs and their classification.
+- **[Second-Order Linear ODEs](5-ordinary-differential-equations/3_second-order-linear-odes.mdx)**: The harmonic oscillator and other second-order examples illustrate the classification scheme introduced here.
+- **[Introduction to Partial Differential Equations](5-ordinary-differential-equations/8_introduction-to-partial-differential-equations.md)**: The heat, wave, and Laplace equations are canonical PDEs that extend the ODE framework to multiple variables.
+- **[Stability and Phase Plane Analysis](5-ordinary-differential-equations/9_stability-and-phase-plane-analysis.md)**: Classifying ODEs by linearity and homogeneity determines which stability analysis techniques apply.
 

@@ -152,3 +152,7 @@ needed to pass spatial frequencies up to 50 cycles/mm?
 *Solution.* Frequency $f_x = u/(\lambda f)$, so $u = f_x \lambda f = 50 \times 10^3 \times 500 \times
 10^{-9} \times 0.2 = 5$ mm. A circular aperture of radius $a = 5$ mm passes all frequencies
 $f_x \leq 50$ cycles/mm. $\blacksquare$
+
+## Intuition
+
+Fourier optics treats lenses as analog computers that perform Fourier transforms at the speed of light. A lens converts spatial patterns into their frequency components at its focal plane. The convolution theorem explains why complex apertures produce predictable patterns: multiplying apertures convolves their spectra. This is why a grating produces discrete spots while a single slit produces a continuous spread. The optical transfer function describes how well an imaging system preserves different spatial frequencies, like an equalizer for images.

@@ -168,3 +168,68 @@ Mechanics is the foundation of physics and engineering. From designing bridges a
 6. Kinetic energy is always positive; work can be positive or negative
 7. In elastic collisions, both momentum and kinetic energy are conserved
 8. Use energy methods when speed and height are involved — they are often simpler than force methods
+
+## More Worked Examples
+
+### Example 7: Inclined Plane with Friction
+
+**Problem:** A $5\,\text{kg}$ block is placed on a $30°$ incline with coefficient of kinetic friction $\mu = 0.2$. The block is given an initial velocity of $4\,\text{m/s}$ up the incline. Find how far up the incline the block travels before stopping ($g = 10\,\text{m/s}^2$).
+
+**Solution:**
+
+Step 1: Forces along the incline (taking up as positive):
+$$F_{\text{gravity along incline}} = -mg\sin\theta = -5 \times 10 \times \sin 30° = -25\,\text{N}$$
+
+Step 2: Normal force: $N = mg\cos\theta = 5 \times 10 \times \cos 30° = 43.3\,\text{N}$
+
+Step 3: Friction (opposes motion, so acts down the incline):
+$$f = \mu N = 0.2 \times 43.3 = 8.66\,\text{N}$$
+
+Step 4: Net force: $F_{\text{net}} = -25 - 8.66 = -33.66\,\text{N}$
+
+Step 5: Acceleration: $a = \frac{F_{\text{net}}}{m} = \frac{-33.66}{5} = -6.73\,\text{m/s}^2$
+
+Step 6: Using $v^2 = u^2 + 2as$:
+$$0 = 16 + 2(-6.73)s \implies s = \frac{16}{13.46} = 1.19\,\text{m}$$
+
+**Answer:** The block travels $1.19\,\text{m}$ up the incline before stopping
+
+**Common mistake:** Forgetting that friction acts down the incline when the block is moving up. Friction always opposes the direction of motion.
+
+### Example 8: Work-Energy Theorem
+
+**Problem:** A $2\,\text{kg}$ ball is thrown vertically upward at $15\,\text{m/s}$. Find the height at which its speed is $5\,\text{m/s}$ ($g = 10\,\text{m/s}^2$).
+
+**Solution:**
+
+Step 1: Apply the work-energy theorem: $W_{\text{net}} = \Delta E_k$
+
+Step 2: The only force doing work is gravity: $W = -mgh$
+
+Step 3: Change in kinetic energy:
+$$\Delta E_k = \frac{1}{2}m v_f^2 - \frac{1}{2}m v_i^2 = \frac{1}{2}(2)(25) - \frac{1}{2}(2)(225) = 25 - 225 = -200\,\text{J}$$
+
+Step 4: Set equal:
+$$-mgh = -200$$
+$$-2 \times 10 \times h = -200$$
+$$h = 10\,\text{m}$$
+
+**Answer:** The height is $10\,\text{m}$
+
+**Common mistake:** Forgetting the negative sign for work done by gravity. Gravity does negative work when the object moves upward.
+
+### Example 9: Centripetal Force
+
+**Problem:** A $0.5\,\text{kg}$ ball is tied to a string of length $1\,\text{m}$ and swung in a horizontal circle at $3\,\text{rev/s}$. Find the tension in the string.
+
+**Solution:**
+
+Step 1: Find the angular velocity:
+$$\omega = 2\pi f = 2\pi \times 3 = 6\pi\,\text{rad/s}$$
+
+Step 2: The tension provides the centripetal force:
+$$T = m\omega^2 r = 0.5 \times (6\pi)^2 \times 1 = 0.5 \times 36\pi^2 = 18\pi^2 \approx 177.7\,\text{N}$$
+
+**Answer:** The tension is approximately $178\,\text{N}$
+
+**Common mistake:** Using $v = \omega r$ incorrectly. For uniform circular motion, $v = \omega r$ and $T = mv^2/r = m\omega^2 r$.

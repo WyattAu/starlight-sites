@@ -160,6 +160,12 @@ $\Delta = \{(x, x) : x \in X\}$ is closed in $X \times X$.
 
 ### 8.16 Common Mistakes
 
+## Intuition
+
+Separation axioms measure how well a topological space distinguishes points and sets. $T_0$ means any two points can be separated by an open set containing one but not the other. $T_1$ means each point is closed (singletons are closed sets). $T_2$ (Hausdorff) means any two distinct points have disjoint neighbourhoods — you can draw a wall between them. Higher axioms ($T_3$, $T_4$) separate points from closed sets and closed sets from each other with open neighbourhoods. The hierarchy matters because compactness, convergence, and uniqueness of limits all depend on having enough separation. Without Hausdorff, limits are not unique and compact sets need not be closed.
+
+### 8.16 Common Mistakes
+
 **Mistake 1: Assuming that all separation axioms are independent.**
 The separation axioms form a hierarchy: $T_4 \implies T_3 \implies T_2 \implies T_1 \implies T_0$. A space that is $T_3$ is automatically $T_2$, $T_1$, and $T_0$. Do not assume that a space can be $T_3$ without being $T_2$.
 
@@ -174,3 +180,9 @@ In a Hausdorff space, every compact subset is closed. This is a key property tha
 
 **Mistake 5: Assuming that $T_1$ implies $T_2$.**
 A $T_1$ space need not be $T_2$. The cofinite topology on an infinite set is $T_1$ (every singleton is closed) but not $T_2$ (any two nonempty open sets intersect). Do not assume that $T_1$ implies Hausdorff.
+
+## Cross-References
+
+- **[Metric Spaces](9-topology/7_metric-spaces.md)**: Every metric space satisfies all separation axioms (T6), providing a concrete class of well-separated spaces.
+- **[Closed Sets, Closure, Interior, and Boundary](9-topology/3_closed-sets-closure-interior-and-boundary.md)**: Separation axioms formalise how well points and closed sets can be separated by open sets.
+- **[Introduction to Algebraic Topology](9-topology/9_introduction-to-algebraic-topology.md)**: Compact Hausdorff spaces are normal, which is essential for proving results about covering spaces and quotient maps.

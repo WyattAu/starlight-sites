@@ -126,6 +126,12 @@ $(1, 1, 1, \ldots)$), $J$ is not surjective, so $c_0$ is not reflexive.
 
 ### 3.9 Worked Example: Unbounded Operator
 
+## Intuition
+
+Bounded linear operators are the continuous linear maps between normed spaces — they do not blow up small inputs into large outputs. The operator norm measures the maximum stretching factor. The open mapping theorem says that surjective bounded operators between Banach spaces are automatically open maps, which implies the bounded inverse theorem: an invertible bounded operator has a bounded inverse. The closed graph theorem provides a practical test: a linear operator is bounded if and only if its graph is closed. These three results — open mapping, bounded inverse, and closed graph — are the fundamental theorems of functional analysis, guaranteeing that well-behaved operators behave as expected.
+
+### 3.9 Worked Example: Unbounded Operator
+
 **Problem.** Let $T : C[0,1] \to C[0,1]$ be defined by $(Tf)(x) = xf'(x)$. Show that $T$ is unbounded.
 
 <details>

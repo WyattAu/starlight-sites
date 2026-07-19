@@ -229,3 +229,84 @@ D. problem-solution
 - **偷换概念：** 将原文的某个概念替换成相似但不同的概念
 - **无中生有：** 选项内容在原文中完全没有提及
 - **过度推断：** 超出原文信息范围的推论
+
+## 更多典型例题
+
+### 例题7：推理判断题——作者态度
+
+**题目：** Read the following passage and answer the question.
+
+"The rapid expansion of online education has sparked debate among educators. While some praise its accessibility and flexibility, others worry about the lack of face-to-face interaction and the digital divide. The truth likely lies somewhere in between — online education is a powerful tool, but it cannot completely replace the traditional classroom."
+
+What is the author's attitude towards online education?
+
+A. Entirely supportive
+B. Strongly opposed
+C. Balanced and objective
+D. Indifferent
+
+**解答：**
+
+步骤1：分析作者观点——作者既提到优点（accessibility and flexibility）也提到缺点（lack of interaction, digital divide）。
+
+步骤2：关键句"The truth likely lies somewhere in between"表明作者采取平衡立场。
+
+步骤3：最后一句"cannot completely replace"说明作者认为线上教育有局限性。
+
+步骤4：排除A（entirely太绝对）、B（作者并未strongly oppose）、D（作者有明确态度）。
+
+**答案：** C
+
+**考试技巧：** 作者态度题要避免选择极端选项（entirely, strongly, completely），除非原文有明确的极端表述。高考阅读中，作者通常持平衡、客观的态度。
+
+### 例题8：细节理解题——数据推理
+
+**题目：** Read the following passage and answer the question.
+
+"According to a recent study, the average person spends approximately 4.8 hours per day on their smartphone. This figure has increased by 30% over the past five years. The study also found that 70% of screen time is spent on social media and video streaming platforms."
+
+If the trend continues at the same rate, approximately how many hours per day will the average person spend on their smartphone in five years' time?
+
+A. 5.2 hours
+B. 6.2 hours
+C. 7.0 hours
+D. 7.8 hours
+
+**解答：**
+
+步骤1：当前时间：$4.8$ 小时/天
+
+步骤2：五年增长30%：$4.8 \times 1.3 = 6.24$ 小时
+
+步骤3：若再过五年，以相同速率增长：$6.24 \times 1.3 = 8.112$ 小时
+
+步骤4：最接近的选项是 $7.8$ 小时（选项D）。
+
+**答案：** D
+
+**常见错误：** 注意"at the same rate"是指增长率相同，而不是增长量相同。30%的增长率意味着乘以1.3。
+
+### 例题9：文章结构分析——论证方法
+
+**题目：** What argumentative method does the author primarily use in the following paragraph?
+
+"Studies have shown that children who read for pleasure perform better academically. For instance, a survey of 10,000 students found that those who read daily scored 20% higher on standardized tests. Moreover, countries with strong reading cultures, such as Finland and Japan, consistently rank among the top performers in international education comparisons."
+
+A. Comparison and contrast
+B. Cause and effect
+C. Exemplification
+D. Problem-solution
+
+**解答：**
+
+步骤1：分析段落结构——先提出论点（reading improves academic performance），再举例论证。
+
+步骤2：关键词"For instance"和"Moreover"表明作者在举例支持论点。
+
+步骤3：第一个例子是调查数据，第二个例子是国家间的比较。
+
+步骤4：这种方法是"exemplification"（举例论证）。
+
+**答案：** C
+
+**考试技巧：** 识别论证方法要注意信号词：for example, for instance（举例）；therefore, thus（因果）；on the other hand（对比）；the solution is（问题解决）。

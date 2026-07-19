@@ -100,3 +100,56 @@ Step 4: Connect to theme: This reflects the broader theme of resilience and the 
 ## Why This Matters
 
 Reading comprehension and analytical writing are foundational skills across all subjects. The ability to close read a text, identify literary techniques, and construct a well-supported argument transfers to every discipline in the HSC and beyond.
+
+## More Worked Examples
+
+### Example 4: Analysing a Poem
+
+**Problem:** Analyse the following lines from a poem: "The fog comes / on little cat feet."
+
+**Solution:**
+
+Step 1: Identify the technique: Personification (fog described as a cat) and visual imagery
+
+Step 2: Explain the literal meaning: Fog arrives quietly and gradually
+
+Step 3: Explain the figurative meaning: The simile compares fog to a cat — both are quiet, stealthy, and move without warning. The image of "little cat feet" suggests delicacy and softness.
+
+Step 4: Connect to theme: This reflects the theme of nature's quiet beauty and the way natural phenomena can be observed with wonder and appreciation.
+
+**Answer:** The personification of fog as a cat with "little cat feet" creates a vivid image of quiet, stealthy movement, suggesting the speaker observes nature with attentive wonder.
+
+### Example 5: Constructing an Argument
+
+**Problem:** Write a body paragraph for an essay arguing that a character in a novel represents the cost of ambition.
+
+**Solution:**
+
+"The protagonist's relentless pursuit of power ultimately costs him his humanity, as demonstrated through his deteriorating relationships. Initially presented as a loving family man, his ambition gradually erodes his moral compass. The pivotal scene in which he chooses career advancement over his daughter's recital illustrates this transformation: 'He watched the phone ring, knowing what it meant, and answered anyway.' The author uses this moment of direct speech to reveal the character's conscious choice, suggesting that ambition demands sacrifice. This portrayal implies that the pursuit of power, when unchecked by moral boundaries, transforms individuals into hollow versions of their former selves."
+
+**Answer:** The paragraph uses the PEEL structure, integrates a quote, and connects to the broader theme of ambition's cost.
+
+### Example 6: Evaluating Sources
+
+**Problem:** You are researching the impact of social media on teenagers. How would you evaluate the reliability of a blog post versus a peer-reviewed journal article?
+
+**Solution:**
+
+Step 1: Consider the source: A blog post is typically written by an individual without peer review, while a journal article undergoes rigorous evaluation by experts.
+
+Step 2: Check the evidence: Journal articles cite empirical data and methodology; blog posts may rely on anecdotal evidence.
+
+Step 3: Assess bias: Blog posts may reflect personal opinions; journal articles are held to standards of objectivity.
+
+Step 4: Currency: Both may be current, but journal articles have publication delays.
+
+Step 5: Conclusion: The journal article is more reliable for academic purposes, though blog posts may offer accessible overviews.
+
+**Answer:** Journal articles are more reliable due to peer review, empirical evidence, and methodological rigour. Blog posts should be used cautiously and cross-referenced with authoritative sources.
+
+## Additional Exam Tips
+
+7. When analysing poetry, consider the interplay between form and content
+8. In essays, use topic sentences that clearly link to your thesis
+9. For creative responses, engage with the prompt from multiple angles
+10. Practice writing under timed conditions to build speed and fluency

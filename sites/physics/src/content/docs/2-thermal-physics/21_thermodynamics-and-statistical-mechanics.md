@@ -2485,6 +2485,10 @@ $\Delta S = \frac{Q}{T} = \frac{n \Delta H_{\text{fus}}}{T} = \frac{2 \times 601
 
 $\blacksquare$
 
+## Intuition
+
+Thermodynamics is the universe's accounting system. The first law is a balance sheet: energy can change form but the total never changes. Temperature measures the average kinetic energy of particles, like a crowd's average excitement level. Entropy tracks how many microscopic arrangements correspond to the same macroscopic state, so it measures information disorder. The second law says the universe's entropy always increases because there are overwhelmingly more disordered states than ordered ones. Carnot efficiency is the theoretical maximum because it assumes no wasted motion, like a frictionless machine. Statistical mechanics bridges the microscopic and macroscopic by counting microstates.
+
 ## Common Pitfalls
 
 - **Confusing heat, temperature, and internal energy.** Temperature is a state variable; heat is

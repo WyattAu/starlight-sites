@@ -150,3 +150,7 @@ is a key signature of a Fermi liquid. $\blacksquare$
   expansion shows that $\mu$ decreases quadratically with $T$, not linearly. Assuming
   $\mu = \varepsilon_F$ at all temperatures leads to errors in the electronic heat capacity
   calculation.
+
+## Intuition
+
+Thermodynamic pitfalls arise from confusing mathematical formalism with physical meaning. Natural variables are not arbitrary labels but determine which potential is minimized under given conditions. The chemical potential measures the energy cost of adding a particle, like a admission price. Phase transitions can be first-order (discontinuous, with latent heat) or continuous (no latent heat, but diverging susceptibilities). Metastable states like supercooled water are thermodynamically unstable but kinetically trapped, like a ball stuck in a shallow dip on a slope.

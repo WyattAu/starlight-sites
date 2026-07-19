@@ -170,3 +170,9 @@ The Higgs boson is an excitation of the Higgs field, not the field itself. The H
 **Mistake 5: Confusing the Higgs mechanism with the Anderson-Higgs mechanism.**
 The Higgs mechanism in particle physics is a relativistic generalisation of the Anderson-Higgs mechanism in condensed matter physics. The condensed matter version describes the Higgs mechanism for superconductivity, while the particle physics version describes electroweak symmetry breaking. Do not confuse the two contexts.
 
+## Cross-References
+
+- **[The Standard Model](7-particle-physics-and-cosmology/1_the-standard-model.md)**: The Higgs mechanism explains how the W and Z bosons acquire mass within the electroweak sector of the Standard Model.
+- **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: Spontaneous symmetry breaking preserves the underlying gauge invariance while breaking the symmetry of the vacuum state.
+- **[Group Theory in Particle Physics](7-particle-physics-and-cosmology/5_group-theory-in-particle-physics.md)**: The Higgs doublet transforms under SU(2) x U(1), and the Goldstone bosons correspond to broken generators of the gauge group.
+- **[Beyond the Standard Model](7-particle-physics-and-cosmology/9_beyond-the-standard-model.md)**: Extensions to the Higgs sector, such as supersymmetry and two-Higgs-doublet models, address the hierarchy problem.

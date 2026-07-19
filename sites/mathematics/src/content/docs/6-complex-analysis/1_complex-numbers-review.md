@@ -221,6 +221,12 @@ ratio $\omega$.
 
 ### 1.10 Common Mistakes
 
+## Intuition
+
+Complex numbers solve the problem that $x^2 = -1$ has no real solution: we simply declare that $i$ exists and build the algebra on top of it. The key insight is that complex numbers are two-dimensional — each one is a point in the plane, not a point on a line. Addition is vector addition; multiplication combines scaling and rotation. The modulus measures distance from the origin, and the argument measures angle. Polar form $re^{i\theta}$ makes multiplication natural: multiply the magnitudes and add the angles. Euler's formula $e^{i\theta} = \cos\theta + i\sin\theta$ bridges exponential and trigonometric functions, revealing that complex exponentials trace circles.
+
+### 1.10 Common Mistakes
+
 **Mistake 1: Assuming that complex numbers can be ordered.**
 There is no total ordering on $\mathbb{C}$ compatible with the field operations. You cannot say $i > 0$ or $i < 0$ because $i^2 = -1$ would then imply $-1 > 0$ or $-1 < 0$, both of which contradict the ordering axioms. Never attempt to compare complex numbers using inequalities.
 
@@ -235,4 +241,11 @@ This property holds for non-negative real numbers but fails for complex numbers 
 
 **Mistake 5: Confusing the argument of a complex number with a unique value.**
 The argument $\arg(z)$ is multi-valued: if $\theta$ is an argument, then so is $\theta + 2\pi k$ for any integer $k$. The principal argument $\mathrm{Arg}(z)$ is defined to be in $(-\pi, \pi]$, but be careful when adding or subtracting arguments, as the result may need to be adjusted by $2\pi$.
+
+## Cross-References
+
+- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: The epsilon-delta definition of limits extends naturally to complex sequences and the topology of the complex plane.
+- **[Partial Derivatives](4-multivariable-calculus/1_partial-derivatives.md)**: Complex differentiability relates to the Cauchy-Riemann equations, which involve partial derivatives of real and imaginary parts.
+- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: Euler's formula connects complex exponentials to trigonometric functions used in Fourier analysis.
+- **[Laplace Transforms](5-ordinary-differential-equations/5_laplace-transforms.md)**: The Laplace transform extends to complex analysis through the Bromwich integral and residue calculus.
 

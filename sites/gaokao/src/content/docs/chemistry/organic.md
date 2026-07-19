@@ -198,3 +198,72 @@ $$\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$$
 | 还原反应 | 醛加氢还原为醇 | H₂/催化剂 |
 | 缩聚反应 | 酯化缩聚、酰胺化缩聚 | 催化剂、加热 |
 | 加聚反应 | 烯烃加聚 | 引发剂 |
+
+## 更多典型例题
+
+### 例题7：有机物的鉴别
+
+**题目：** 用化学方法鉴别乙醇、乙醛、乙酸和苯四种无色液体。
+
+**解答：**
+
+步骤1：分别取四种液体少许于四支试管中。
+
+步骤2：加入金属钠：
+- 乙醇：产生气泡（放出 $\text{H}_2$）
+- 乙醛：无明显现象
+- 乙酸：产生气泡（放出 $\text{H}_2$）
+- 苯：无明显现象
+
+步骤3：将产生气泡的两种（乙醇、乙酸）区分——加入 $\text{Na}_2\text{CO}_3$ 溶液：
+- 乙酸：产生气泡（$\text{CO}_2$）
+- 乙醇：无明显现象
+
+步骤4：将剩余两种（乙醛、苯）区分——加入银氨溶液并水浴加热：
+- 乙醛：产生银镜反应
+- 苯：无明显现象
+
+**答案：** 鉴别顺序：钠→碳酸钠→银氨溶液
+
+**考试技巧：** 有机物鉴别的常用试剂：钠（检验活泼氢）、碳酸钠（检验羧酸）、银氨溶液（检验醛基）、溴水（检验不饱和键）、$\text{FeCl}_3$（检验酚羟基）。
+
+### 例题8：有机合成路线设计
+
+**题目：** 以苯为原料，设计合成对硝基苯甲酸的路线。
+
+**解答：**
+
+步骤1：苯硝化制硝基苯：
+$$\text{C}_6\text{H}_6 + \text{HNO}_3 \xrightarrow{\text{浓H}_2\text{SO}_4, 50\text{-}60°\text{C}} \text{C}_6\text{H}_5\text{NO}_2 + \text{H}_2\text{O}$$
+
+步骤2：硝基苯还原为苯胺：
+$$\text{C}_6\text{H}_5\text{NO}_2 + 3\text{Fe} + 6\text{HCl} \rightarrow \text{C}_6\text{H}_5\text{NH}_2 + 3\text{FeCl}_2 + 2\text{H}_2\text{O}$$
+
+步骤3：苯胺重氮化后水解制苯酚：
+$$\text{C}_6\text{H}_5\text{NH}_2 \xrightarrow{\text{NaNO}_2, \text{HCl}} \text{C}_6\text{H}_5\text{N}_2\text{Cl} \xrightarrow{\text{H}_2\text{O}, \Delta} \text{C}_6\text{H}_5\text{OH}$$
+
+步骤4：苯酚与 $\text{CO}_2$ 反应制水杨酸（Kolbe反应）：
+$$\text{C}_6\text{H}_5\text{OH} + \text{CO}_2 + \text{NaOH} \rightarrow o\text{-HOC}_6\text{H}_4\text{COONa} \xrightarrow{\text{H}^+} o\text{-HOC}_6\text{H}_4\text{COOH}$$
+
+**答案：** 苯→硝基苯→苯胺→苯酚→水杨酸
+
+**常见错误：** 有机合成路线设计要注意官能团的引入顺序和保护策略，避免不必要的副反应。
+
+### 例题9：高分子化合物的合成
+
+**题目：** 写出由乙烯合成聚乙烯醇的化学方程式。
+
+**解答：**
+
+步骤1：乙烯氧化制乙酸乙烯酯：
+$$2\text{CH}_2=\text{CH}_2 + 2\text{CH}_3\text{COOH} + \text{O}_2 \xrightarrow{\text{催化剂}} 2\text{CH}_3\text{COOCH}=\text{CH}_2 + 2\text{H}_2\text{O}$$
+
+步骤2：乙酸乙烯酯加聚：
+$$n\text{CH}_3\text{COOCH}=\text{CH}_2 \xrightarrow{\text{引发剂}} \left[-\text{CH}_2-\text{CH(OOCCH}_3)-\right]_n$$
+
+步骤3：聚乙酸乙烯酯水解：
+$$\left[-\text{CH}_2-\text{CH(OOCCH}_3)-\right]_n + n\text{NaOH} \xrightarrow{\text{水}} \left[-\text{CH}_2-\text{CH(OH)}-\right]_n + n\text{CH}_3\text{COONa}$$
+
+**答案：** 乙烯→乙酸乙烯酯→聚乙酸乙烯酯→聚乙烯醇
+
+**考试技巧：** 聚乙烯醇不能直接由乙烯醇聚合得到，因为乙烯醇不稳定，会互变为乙醛。必须通过间接方法合成。

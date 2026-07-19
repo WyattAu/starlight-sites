@@ -141,3 +141,7 @@ Verification: $1260 / 252 = 5$ and $1260 / 105 = 12$Both integers. $\blacksquare
   the extended Euclidean algorithm for RSA key generation.
 - **Diophantine equations:** The linear Diophantine equation $ax + by = c$ has integer solutions iff
   $\gcd(a,b) \mid c$, and the solutions are parameterised by the lcm-related step size.
+
+## Intuition
+
+Number theory is the study of whole numbers and their hidden patterns. The integers behave like atoms for arithmetic: every integer greater than $1$ factors uniquely into primes, making primes the fundamental building blocks. The Euclidean algorithm is a simple but deep idea: repeated division produces the greatest common divisor, and the process terminates because remainders strictly decrease. Modular arithmetic wraps the integers into a finite circle — like a clock — where only remainders matter. Bezout's identity reveals that the gcd of two numbers is the smallest positive combination of them, connecting division to linear algebra over the integers.

@@ -144,3 +144,10 @@ So only about 1.94% of positive tests are true positives, despite the high sensi
 
 </details>
 
+## Cross-References
+
+- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: The convergence concepts from real analysis underpin the definition of limits of random variables and the law of large numbers.
+- **[Series](3-real-analysis/3_series.md)**: Series convergence tests are used to verify that probability measures are well-defined and to establish moment generating function properties.
+- **[Sequences and Series of Functions](3-real-analysis/7_sequences-and-series-of-functions.md)**: Convergence of distribution functions and characteristic functions relies on uniform convergence theory.
+- **[Complex Numbers Review](6-complex-analysis/1_complex-numbers-review.md)**: Complex analysis provides the tools for understanding characteristic functions and moment generating functions in probability theory.
+

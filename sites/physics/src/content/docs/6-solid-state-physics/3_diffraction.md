@@ -166,3 +166,10 @@ The Ewald sphere is a sphere in reciprocal space with radius $k = 2\pi/\lambda$,
 
 **Mistake 5: Assuming that powder diffraction gives single-crystal information.**
 Powder diffraction averages over all orientations of crystallites, producing rings rather than spots. Single-crystal diffraction gives more detailed information about the crystal structure. Do not assume that powder diffraction gives the same information as single-crystal diffraction.
+
+## Cross-References
+
+- **[Crystal Structures](6-solid-state-physics/1_crystal-structures.md)**: Diffraction measures the lattice constants, symmetry, and atomic positions that define the crystal structure.
+- **[Reciprocal Lattice](6-solid-state-physics/2_reciprocal-lattice.md)**: The Laue condition for diffraction is most naturally expressed in terms of reciprocal lattice vectors.
+- **[Lattice Vibrations and Phonons](6-solid-state-physics/4_lattice-vibrations-and-phonons.md)**: Inelastic neutron scattering extends diffraction to measure phonon dispersion relations.
+- **[Semiconductors](6-solid-state-physics/6_semiconductors.md)**: X-ray diffraction characterises the crystal quality and composition of semiconductor materials.

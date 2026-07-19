@@ -136,6 +136,10 @@ $\blacksquare$
 - Hamiltonian: $H = \sum p_i \dot{q}_i - L$; Hamilton's equations give $2n$ first-order ODEs.
 - Conservation laws follow from symmetries via Noether's theorem.
 
+## Intuition
+
+Classical field theory extends mechanics from particles to continuous media. A field assigns a value to every point in space, like temperature in a room or displacement in a vibrating string. The Lagrangian density replaces the Lagrangian, integrating over space gives the total Lagrangian. Noether's theorem connects symmetries to conservation laws: time translation symmetry gives energy conservation, spatial translation gives momentum conservation. The wave equation emerges as the simplest field theory, describing how disturbances propagate through a medium at a finite speed.
+
 ## Cross-References
 
 | Topic                          | Site        | Link                                                                      |

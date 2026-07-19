@@ -145,3 +145,7 @@ and coherence place fundamental limits on imaging and interference systems.
   both the light-gathering power (exposure) and the depth of field. Doubling the f-number reduces
   the area by a factor of 4 (two stops), requiring four times the exposure time. The f-number
   also affects diffraction: the Airy disk diameter scales as $2.44\lambda N$.
+
+## Intuition
+
+Optics pitfalls stem from conflating wave and ray descriptions. Fraunhofer and Fresnel diffraction differ because waves remember their curvature differently at different distances. Phase determines interference, not intensity, so tracking optical path length is essential. Brewster's angle works because reflected p-polarized light vanishes when the refracted ray is perpendicular to the reflected ray. Coherence determines whether interference fringes appear at all. The f-number trades light gathering against resolution because smaller apertures diffract more, setting a fundamental limit on image sharpness.

@@ -149,3 +149,10 @@ A complete metric space need not be compact; compactness requires both completen
 
 **Mistake 3: Forgetting that contractions require a uniform contraction constant**
 The Banach fixed-point theorem requires $d(f(x), f(y)) \leq c \cdot d(x, y)$ for a fixed $c < 1$ and all $x, y$. A map satisfying $d(f(x), f(y)) < d(x, y)$ for all $x \neq y$ (strictly contractive but without a uniform constant) need not have a fixed point. For example, $f(x) = x + 1/x$ on $(1, \infty)$ is strictly contractive but has no fixed point.
+
+## Cross-References
+
+- **[Closed Sets, Closure, Interior, and Boundary](9-topology/3_closed-sets-closure-interior-and-boundary.md)**: The metric topology induces open and closed sets whose properties are studied using closure and interior operations.
+- **[Separation Axioms](9-topology/8_separation-axioms.md)**: Every metric space is Hausdorff and normal, placing it high in the separation axiom hierarchy.
+- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: Convergence of sequences in metric spaces generalises the real-number convergence studied in analysis.
+- **[Introduction to Algebraic Topology](9-topology/9_introduction-to-algebraic-topology.md)**: Completeness and compactness of metric spaces are prerequisites for understanding covering spaces and fundamental groups.

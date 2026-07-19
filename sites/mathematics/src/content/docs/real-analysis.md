@@ -2140,6 +2140,10 @@ $\blacksquare$
 - Sequences and series: tests for convergence (comparison, ratio, root, integral); absolute vs
   conditional convergence; power series and radius of convergence.
 
+## Intuition
+
+Real analysis is the art of making calculus rigorous. The central idea is that limits capture what happens "eventually" without requiring us to reach infinity. The $\varepsilon$-$\delta$ definition of a limit is a challenge game: an opponent picks any tolerance $\varepsilon > 0$, and you must find a distance $\delta$ that keeps the function within that tolerance. Continuity means no jumps: small changes in input produce small changes in output. The completeness of the reals — every bounded sequence has a convergent subsequence — is the engine that makes the whole theory work. Without completeness, Cauchy sequences could "fall through gaps" in the number line, and the intermediate value theorem would fail.
+
 ## Cross-References
 
 | Topic                      | Site        | Link                                                                 |

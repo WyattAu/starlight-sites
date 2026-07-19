@@ -141,6 +141,12 @@ Thus $\text{Var}(X) = 1/3 - 1/4 = 1/12$, confirming the known result. $\blacksqu
 
 ### 5.5 Key Relationships Summary
 
+## Intuition
+
+When you transform a random variable, its distribution changes according to how the transformation stretches or compresses the number line. The change-of-variables formula accounts for the Jacobian — the local stretching factor. When you add two independent random variables, their distributions convolve: the density of the sum at a point is the integral of one density times a shifted version of the other, like sliding two waveforms past each other. Moment generating functions turn this convolution into multiplication, making sums of independent variables easy to handle. The central limit theorem is the grand payoff: no matter what distribution you start with, the sum of many independent copies approaches a normal distribution because convolutions smooth out irregularities.
+
+### 5.5 Key Relationships Summary
+
 | Operation | Resulting Distribution | Key Formula |
 | --------- | ---------------------- | ----------- |
 | $Y = g(X)$ monotone | $f_Y(y) = f_X(g^{-1}(y))\|d g^{-1}/dy\|$ | Change of variables |

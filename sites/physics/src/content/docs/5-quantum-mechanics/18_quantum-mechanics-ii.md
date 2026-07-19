@@ -702,6 +702,10 @@ of hydrogen-like sodium (Z*eff = 11). **Solution:** The spin-orbit coupling ener
 alpha^2 _ E_n / n^3, which gives the D-line splitting observed in the sodium spectrum (589.0 nm and
 589.6 nm).
 
+## Intuition
+
+Perturbation theory is like adding small corrections to a solution you already know. If you know how a hydrogen atom behaves, an external electric field is a small kick that shifts its energy levels. The Stark effect splits levels because the field breaks the atom's symmetry, like pushing a swinging pendulum off-center. The Zeeman effect does the same with magnetic fields, aligning electron spins like compass needles. Spin-orbit coupling is the electron's own magnetic field interacting with its orbital motion, creating fine structure. These effects reveal the quantum world's sensitivity to symmetry breaking.
+
 ## Cross-References
 
 | Topic               | Link                                               |

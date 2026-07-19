@@ -128,3 +128,35 @@ Writing is a transferable skill essential for academic success, professional com
 8. In analytical writing, always use the present tense when discussing texts
 9. Vary sentence length for effect — short sentences for emphasis, longer for complexity
 10. Leave time to proofread — errors in spelling and grammar cost marks
+
+## More Worked Examples
+
+### Example 7: Creative Writing — Building Tension
+
+**Problem:** Write a 150-word passage that builds tension through pacing and imagery.
+
+**Solution:**
+
+"The corridor stretched ahead, fluorescent lights flickering in staccato bursts. Each step echoed against linoleum, too loud in the silence. She counted doors: three, four, five. The fifth was ajar. Through the gap, a sliver of amber light cut across the floor. She pressed her palm against the wood. It yielded with a groan. Inside, the desk lamp cast long shadows across scattered papers. A chair faced the window, its back to her. Someone was sitting in it — motionless, waiting. She opened her mouth to speak, but the words dissolved. The chair creaked. A hand reached for the lamp. Click."
+
+**Answer:** The passage uses short sentences, sensory detail, and strategic punctuation to build tension progressively, culminating in an ambiguous cliffhanger.
+
+### Example 8: Persuasive Essay Introduction
+
+**Problem:** Write an introduction for a persuasive essay arguing that schools should teach financial literacy as a core subject.
+
+**Solution:**
+
+"In an era of rising student debt, cryptocurrency volatility, and widening economic inequality, financial literacy has become an essential life skill rather than a peripheral concern. Yet most secondary school curricula remain silent on the practical knowledge students need to navigate the financial world — from understanding compound interest to evaluating investment risks. This silence perpetuates a cycle of financial disadvantage, disproportionately affecting students from lower socioeconomic backgrounds. Schools must integrate financial literacy into the core curriculum, not as an elective but as a fundamental component of education that equips students for the economic realities of the twenty-first century."
+
+**Answer:** The introduction establishes context (financial challenges), identifies the problem (curriculum gap), and presents a clear thesis (financial literacy must be core).
+
+### Example 9: Analytical Short Answer
+
+**Problem:** How does the author use setting to reflect the protagonist's emotional state in the opening chapter?
+
+**Solution:**
+
+"The author employs pathetic fallacy to mirror the protagonist's internal turmoil through the depiction of a relentless storm. The description of 'rain lashing against windows like accusations' and 'thunder that shook the foundations' creates an atmosphere of chaos and hostility. This external turbulence parallels the character's emotional distress, suggesting that his inner world is as fractured as the landscape around him. By conflating setting and psychology, the author establishes from the outset that the protagonist's journey will be one of confronting both external and internal storms. The pathetic fallacy thus functions not merely as atmosphere but as a narrative device that deepens the reader's understanding of the character's psychological state."
+
+**Answer:** The response identifies the technique (pathetic fallay), provides textual evidence, explains the effect, and links to the broader narrative purpose.

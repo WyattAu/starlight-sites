@@ -154,6 +154,12 @@ to the boundary (no penetration condition). $\blacksquare$
 
 ### 10.9 Common Mistakes
 
+## Intuition
+
+Conformal mappings are angle-preserving transformations of the complex plane. A holomorphic function with non-zero derivative acts locally as a rotation plus a scaling — it preserves the shape of infinitesimal figures while possibly changing their size and orientation. This makes conformal maps the natural language for problems involving fluid flow, electrostatics, and heat conduction, where the geometry of the domain can be simplified by mapping it to a simpler shape. Möbius transformations are the building blocks: they map circles to circles and are determined by where they send three points. The Riemann mapping theorem guarantees that any simply connected domain (except the whole plane) can be conformally mapped to the unit disk.
+
+### 10.9 Common Mistakes
+
 **Mistake 1: Assuming that all analytic functions are conformal.**
 An analytic function is conformal only where its derivative is non-zero. At points where $f'(z_0) = 0$, the mapping is not conformal (angles are not preserved). For example, $f(z) = z^2$ is conformal everywhere except at $z = 0$, where it doubles angles.
 

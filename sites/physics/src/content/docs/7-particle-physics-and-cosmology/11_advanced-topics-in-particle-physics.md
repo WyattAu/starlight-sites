@@ -197,3 +197,9 @@ ps$^{-1}$Because $|V_{ts}| > |V_{td}|$.
 | $V_{cb}$ and $V_{ub}$ determination | Semileptonic $B$ decays | Belle II, LHCb |
 | Oscillation frequency search | High-$p_T$ $b$-jets produce $B$ mesons that oscillate | LHCb, CMS |
 
+## Cross-References
+
+- **[The Standard Model](7-particle-physics-and-cosmology/1_the-standard-model.md)**: Deep inelastic scattering and the parton model provide experimental confirmation of the quark structure described in the Standard Model.
+- **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: CP violation and flavour-changing transitions are constrained by the conservation laws and symmetry properties of the Standard Model.
+- **[Running Coupling Constants](7-particle-physics-and-cosmology/6_running-coupling-constants.md)**: The DGLAP equations and scaling violations are governed by the running of the strong coupling constant.
+- **[Group Theory in Particle Physics](7-particle-physics-and-cosmology/5_group-theory-in-particle-physics.md)**: Anomalies and the strong CP problem involve the group-theoretic structure of SU(3) colour.

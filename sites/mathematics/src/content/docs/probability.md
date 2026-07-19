@@ -482,6 +482,10 @@ $E(X) = G'(1) = \frac{0.5}{(1-0.5)^2} = \frac{0.5}{0.25} = 2$.
 
 $\blacksquare$
 
+## Intuition
+
+Probability quantifies uncertainty. The expected value is not a value you expect to see — it is the long-run average if you repeated the experiment forever. Variance measures how spread out the outcomes are around that average. Conditional probability is the mechanism for updating beliefs: given new evidence, you restrict to the subset of outcomes consistent with that evidence and renormalise. The law of total probability says you can compute any probability by conditioning on a partition of the sample space and averaging. Generating functions encode an entire distribution as a single function, turning convolutions of random variables into products of functions — a powerful algebraic shortcut.
+
 ## Summary
 
 - Sample spaces, events, and sigma-algebras provide the rigorous foundation for probability theory.

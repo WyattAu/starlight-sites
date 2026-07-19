@@ -158,3 +158,80 @@ Calculus is the mathematical study of continuous change. Differentiation and int
 6. The chain rule is the most commonly tested rule — practise identifying inner and outer functions
 7. When finding areas between curves, always sketch the graph first
 8. Remember: $\int_a^b f(x) \, dx = F(b) - F(a)$, not $F(a) - F(b)$
+
+## More Worked Examples
+
+### Example 7: Quotient Rule
+
+**Problem:** Find the derivative of $f(x) = \frac{\sin x}{x^2 + 1}$.
+
+**Solution:**
+
+Step 1: Apply the quotient rule with $u = \sin x$ and $v = x^2 + 1$:
+$$f'(x) = \frac{u'v - uv'}{v^2}$$
+
+Step 2: Compute derivatives:
+$$u' = \cos x, \quad v' = 2x$$
+
+Step 3: Substitute:
+$$f'(x) = \frac{\cos x \cdot (x^2 + 1) - \sin x \cdot 2x}{(x^2 + 1)^2}$$
+
+Step 4: Simplify:
+$$f'(x) = \frac{(x^2 + 1)\cos x - 2x\sin x}{(x^2 + 1)^2}$$
+
+**Answer:** $f'(x) = \frac{(x^2 + 1)\cos x - 2x\sin x}{(x^2 + 1)^2}$
+
+**Common mistake:** Forgetting the minus sign in the quotient rule numerator. Remember: "low d-high minus high d-low, over low squared."
+
+### Example 8: Integration by Substitution
+
+**Problem:** Evaluate $\int_0^1 2x\sqrt{x^2 + 1} \, dx$.
+
+**Solution:**
+
+Step 1: Let $u = x^2 + 1$, so $du = 2x \, dx$
+
+Step 2: Change limits: when $x = 0$, $u = 1$; when $x = 1$, $u = 2$
+
+Step 3: Substitute:
+$$\int_0^1 2x\sqrt{x^2 + 1} \, dx = \int_1^2 \sqrt{u} \, du = \int_1^2 u^{1/2} \, du$$
+
+Step 4: Integrate:
+$$\left[\frac{2}{3}u^{3/2}\right]_1^2 = \frac{2}{3}(2^{3/2} - 1^{3/2}) = \frac{2}{3}(2\sqrt{2} - 1)$$
+
+**Answer:** $\frac{2}{3}(2\sqrt{2} - 1) \approx 1.22$
+
+**Common mistake:** Forgetting to change the limits of integration when making a substitution. If you change variables, you must also change the limits.
+
+### Example 9: Kinematics with Calculus
+
+**Problem:** A particle moves along a line with velocity $v(t) = 3t^2 - 12t + 9$ m/s. Find the total distance traveled between $t = 0$ and $t = 4$ seconds.
+
+**Solution:**
+
+Step 1: Find when $v(t) = 0$:
+$$3t^2 - 12t + 9 = 0 \implies t^2 - 4t + 3 = 0 \implies (t-1)(t-3) = 0$$
+$$t = 1 \text{ or } t = 3$$
+
+Step 2: Check the sign of $v(t)$ in each interval:
+- $[0, 1]$: $v(0.5) = 3(0.25) - 12(0.5) + 9 = 0.75 - 6 + 9 = 3.75 > 0$ (moving forward)
+- $[1, 3]$: $v(2) = 3(4) - 12(2) + 9 = 12 - 24 + 9 = -3 < 0$ (moving backward)
+- $[3, 4]$: $v(3.5) = 3(12.25) - 12(3.5) + 9 = 36.75 - 42 + 9 = 3.75 > 0$ (moving forward)
+
+Step 3: Distance = $\int_0^4 |v(t)| \, dt$:
+$$= \int_0^1 (3t^2 - 12t + 9) \, dt + \int_1^3 -(3t^2 - 12t + 9) \, dt + \int_3^4 (3t^2 - 12t + 9) \, dt$$
+
+Step 4: Compute each integral:
+$$\int (3t^2 - 12t + 9) \, dt = t^3 - 6t^2 + 9t$$
+
+$$[t^3 - 6t^2 + 9t]_0^1 = (1 - 6 + 9) - 0 = 4$$
+
+$$-[t^3 - 6t^2 + 9t]_1^3 = -[(27 - 54 + 27) - (1 - 6 + 9)] = -[0 - 4] = 4$$
+
+$$[t^3 - 6t^2 + 9t]_3^4 = [(64 - 96 + 36) - (27 - 54 + 27)] = [4 - 0] = 4$$
+
+Step 5: Total distance = $4 + 4 + 4 = 12$ m
+
+**Answer:** Total distance traveled is $12$ m
+
+**Common mistake:** Confusing distance with displacement. Displacement would be $\int_0^4 v(t) \, dt = 4$, but distance requires integrating the absolute value of velocity.

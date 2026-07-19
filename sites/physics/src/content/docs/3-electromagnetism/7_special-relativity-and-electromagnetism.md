@@ -142,6 +142,10 @@ These invariants classify electromagnetic fields:
 - If $c^2 B^2 \gt E^2$There exists a frame where $\mathbf{E} = \mathbf{0}$ (purely magnetic).
 - If $\mathbf{E} \cdot \mathbf{B} = 0$ and $E = cB$The field is a null field (electromagnetic wave).
 
+## Intuition
+
+Special relativity and electromagnetism are two aspects of the same theory. Electric and magnetic fields are not separate entities but components of a single electromagnetic field tensor. What one observer calls a pure electric field, another moving observer may see as a mixture of electric and magnetic fields. The invariants classify field configurations: if the electric field dominates in some frame, you can always find a frame where the magnetic field vanishes. Light emerges as the unique null field where E equals cB, making electromagnetism inherently relativistic.
+
 ## Common Pitfalls
 
 - **Parallel vs.\ perpendicular boost components.** When boosting along $\hat{x}$, the $E_x$ and $B_x$ components are unchanged; only the perpendicular components mix. Students often incorrectly apply $\gamma$ to all components.

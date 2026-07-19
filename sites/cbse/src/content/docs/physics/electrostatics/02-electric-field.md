@@ -95,3 +95,41 @@ The force is in the same direction as the field (to the right) because the charg
 
 4. An electric dipole with moment $p = 4 \times 10^{-9} \, \text{C}\cdot\text{m}$ is placed in a uniform electric field of $2 \times 10^5 \, \text{N/C}$ at $30^\circ$ to the field. Find the torque.
 5. Find the electric field at the centre of a uniformly charged circular arc of radius 0.2 m carrying $2 \, \mu\text{C}$ over an angle of $90^\circ$.
+
+## Key Formulas
+
+- Point charge: $\vec{E} = k\frac{q}{r^2}\hat{r}$
+- Electric dipole (axial): $E = \frac{2kp}{r^3}$ (for $r \gg a$)
+- Electric dipole (equatorial): $E = \frac{kp}{r^3}$ (for $r \gg a$)
+- Charged ring on axis: $E = \frac{kqx}{(R^2+x^2)^{3/2}}$
+- Force on charge: $\vec{F} = q\vec{E}$
+- Torque on dipole: $\vec{\tau} = \vec{p} \times \vec{E}$, $\tau = pE\sin\theta$
+
+## Worked Example 6 — Electric Field Lines
+
+**Problem:** Describe the electric field lines for (a) a positive point charge, (b) an electric dipole, and (c) two equal positive charges.
+
+**Solution:**
+
+(a) Positive point charge: Field lines radiate outward uniformly in all directions. They are closer together near the charge (stronger field) and spread out with distance.
+
+(b) Electric dipole: Field lines emerge from the positive charge and terminate on the negative charge. Near each charge, lines are radial. Between the charges, lines curve from positive to negative. Far from the dipole, lines resemble those of a single dipole.
+
+(c) Two equal positive charges: Field lines emerge from both charges and repel each other. At the midpoint between the charges, the field is zero. Far away, the field resembles that of a single charge of magnitude $2q$.
+
+**Common mistake:** Field lines never cross each other. The density of field lines represents the strength of the field.
+
+## Worked Example 7 — Electric Field of a Line Charge
+
+**Problem:** A long straight wire has a uniform linear charge density $\lambda = 5 \times 10^{-8} \, \text{C/m}$. Find the electric field at a distance of 0.1 m from the wire.
+
+**Solution:**
+
+For an infinite line charge, the electric field is:
+$$E = \frac{2k\lambda}{r}$$
+
+$$E = \frac{2 \times 9 \times 10^9 \times 5 \times 10^{-8}}{0.1} = \frac{900}{0.1} = 9 \times 10^3 \, \text{N/C}$$
+
+The field points radially away from the wire (if $\lambda > 0$).
+
+**Common mistake:** The field of a line charge decreases as $1/r$, not as $1/r^2$ (which is for point charges).

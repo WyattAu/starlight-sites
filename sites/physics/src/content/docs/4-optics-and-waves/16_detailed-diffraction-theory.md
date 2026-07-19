@@ -152,3 +152,7 @@ $$I(\theta) = 4I_0 \mathrm{sinc}^2\left(\frac{\pi a\sin\theta}{\lambda}\right) \
 
 The $\cos^2$ term gives interference fringes at $\sin\theta = m\lambda/d$ for integer $m$. The
 fringe spacing in the small-angle limit is $\Delta y = \lambda R / d$ at distance $R$. $\blacksquare$
+
+## Intuition
+
+Fresnel diffraction is the transition zone between near-field and far-field behavior. Close to an aperture, wavefront curvature matters and the pattern changes with distance. Fresnel zones divide the aperture into rings where contributions alternate in phase, like concentric ripples on a pond. Zone plates exploit this by blocking every other ring, focusing light like a lens. The straight-edge diffraction pattern shows light bending into the shadow, demonstrating that geometric optics is an approximation. Fraunhofer diffraction emerges when the screen is far enough that wavefronts appear flat.

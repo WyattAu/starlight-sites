@@ -88,3 +88,73 @@ $$N = N_0 e^{-\lambda t} = N_0 e^{-0.0693 \times 30} = N_0 e^{-2.079} = 0.125 \,
 - Binding energy problems always involve mass defect and $E = mc^2$
 - Radioactive decay problems use either the half-life or the decay constant
 - The Lyman series (UV), Balmer series (visible), and Paschen series (IR) correspond to different final states
+
+## Key Formulas
+
+- Energy levels: $E_n = \frac{-13.6}{n^2}$ eV (hydrogen)
+- Rydberg formula: $\frac{1}{\lambda} = R\left(\frac{1}{n_1^2} - \frac{1}{n_2^2}\right)$
+- de Broglie wavelength: $\lambda = \frac{h}{mv}$
+- Mass-energy equivalence: $E = mc^2$, $1\,\text{u} = 931.5\,\text{MeV}/c^2$
+- Radioactive decay: $N = N_0 e^{-\lambda t}$, $t_{1/2} = \frac{0.693}{\lambda}$
+- Activity: $A = \lambda N = A_0 e^{-\lambda t}$
+
+## Worked Example 4 — de Broglie Wavelength of Electron
+
+**Problem:** Find the de Broglie wavelength of an electron accelerated through a potential difference of 100 V.
+
+**Solution:**
+
+Kinetic energy gained: $eV = \frac{1}{2}mv^2$
+
+Momentum: $p = mv = \sqrt{2meV}$
+
+de Broglie wavelength:
+$$\lambda = \frac{h}{p} = \frac{h}{\sqrt{2meV}}$$
+
+$$= \frac{6.63 \times 10^{-34}}{\sqrt{2 \times 9.11 \times 10^{-31} \times 1.6 \times 10^{-19} \times 100}}$$
+
+$$= \frac{6.63 \times 10^{-34}}{\sqrt{2.915 \times 10^{-47}}} = \frac{6.63 \times 10^{-34}}{5.40 \times 10^{-24}} = 1.23 \times 10^{-10}\,\text{m} = 0.123\,\text{nm}$$
+
+**Common mistake:** Forgetting to convert electron-volts to joules. $1\,\text{eV} = 1.6 \times 10^{-19}\,\text{J}$.
+
+## Worked Example 5 — Nuclear Reaction
+
+**Problem:** Complete the nuclear reaction: $^{238}_{92}\text{U} \rightarrow \, ? + \, ^4_2\text{He}$
+
+**Solution:**
+
+Conservation of mass number: $238 = A + 4 \implies A = 234$
+
+Conservation of atomic number: $92 = Z + 2 \implies Z = 90$
+
+The product is $^{234}_{90}\text{Th}$ (thorium-234).
+
+$$^{238}_{92}\text{U} \rightarrow \, ^{234}_{90}\text{Th} + \, ^4_2\text{He}$$
+
+**Common mistake:** Forgetting to conserve both mass number and atomic number. Both must balance on both sides.
+
+## Worked Example 6 — Activity of Radioactive Sample
+
+**Problem:** A radioactive sample has a half-life of 5 years. If its initial activity is 800 Bq, what is the activity after 15 years?
+
+**Solution:**
+
+Number of half-lives: $n = \frac{15}{5} = 3$
+
+Activity after $n$ half-lives:
+$$A = A_0 \left(\frac{1}{2}\right)^n = 800 \times \left(\frac{1}{2}\right)^3 = 800 \times \frac{1}{8} = 100\,\text{Bq}$$
+
+Alternatively, using the decay formula:
+$$\lambda = \frac{0.693}{t_{1/2}} = \frac{0.693}{5} = 0.1386\,\text{year}^{-1}$$
+
+$$A = A_0 e^{-\lambda t} = 800 \times e^{-0.1386 \times 15} = 800 \times e^{-2.079} = 800 \times 0.125 = 100\,\text{Bq}$$
+
+**Common mistake:** Using the wrong formula for activity. Activity follows the same exponential decay law as the number of radioactive nuclei.
+
+## Exam Tips
+
+1. For Bohr model problems, remember that the electron orbits in the $n$-th orbit with radius $r_n = n^2 a_0$
+2. The Rydberg formula gives wavelengths of emitted/absorbed light; use $n_1 < n_2$ for emission
+3. In nuclear reactions, always conserve mass number, atomic number, and charge
+4. For binding energy calculations, the mass defect is always positive (products have less mass than constituents)
+5. Activity is measured in Becquerels (Bq): 1 Bq = 1 decay per second

@@ -126,6 +126,10 @@ $d = v/H_0 = 15000/70 = 214 \mathrm{ Mpc}$.
 
 $\blacksquare$
 
+## Intuition
+
+Precision tests of the Standard Model are like checking a clock against atomic time. The electron's magnetic moment agrees with QED to twelve decimal places, making it the most precise prediction in physics. The muon g-2 discrepancy is like finding a tiny wobble in a precision instrument, suggesting unseen particles contributing virtual effects. Electroweak precision observables test the self-consistency of the Standard Model's gauge structure. Rare decays probe energy scales far beyond direct collider reach, like hearing echoes from distant thunder. Any deviation from Standard Model predictions would signal new physics.
+
 ## Common Pitfalls
 
 - **Confusing Feynman diagrams with physical trajectories.** Feynman diagrams are calculational

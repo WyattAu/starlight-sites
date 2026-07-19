@@ -218,6 +218,12 @@ $\blacksquare$
 
 ### 4.11 Common Mistakes
 
+## Intuition
+
+Systems of ODEs describe how multiple quantities evolve together, each potentially influencing the others. A linear system $\mathbf{x}' = A\mathbf{x}$ decomposes along the eigenvectors of $A$: each eigenvector defines a natural direction of motion, and its eigenvalue determines whether the solution grows, decays, or oscillates along that direction. The matrix exponential $e^{At}$ is the fundamental object — it maps initial conditions to solutions at time $t$. When eigenvalues are complex, the solution spirals; when real and negative, it decays toward the origin; when real and positive, it explodes. The trace-determinant plane classifies all 2D linear systems into nodes, saddles, spirals, and centres.
+
+### 4.11 Common Mistakes
+
 **Mistake 1: Forgetting to account for all initial conditions**
 When solving a system of $n$ ODEs, the general solution must contain $n$ arbitrary constants. Students often omit constants or assume the initial conditions are automatically satisfied. Always apply all initial conditions to determine every constant, and verify the solution satisfies each equation in the system.
 
@@ -226,3 +232,10 @@ When a matrix has repeated eigenvalues, the eigenvectors may not span the full s
 
 **Mistake 3: Confusing the matrix exponential $e^{At}$ with $e^A e^{t}$**
 The identity $e^{At} = e^{At}$ holds trivially, but $e^{A+B} = e^A e^B$ only when $AB = BA$. Students sometimes write $e^{At} = (e^A)^t$ or attempt to exponentiate component-wise. For diagonalisable matrices, use $e^{At} = Pe^{Dt}P^{-1}$ where $D$ is the diagonal matrix of eigenvalues.
+
+## Cross-References
+
+- **[Stability and Phase Plane Analysis](5-ordinary-differential-equations/9_stability-and-phase-plane-analysis.md)**: The phase portrait classification of 2D systems uses the eigenvalue analysis developed for matrix systems.
+- **[Second-Order Linear ODEs](5-ordinary-differential-equations/3_second-order-linear-odes.mdx)**: Systems of first-order ODEs can be derived from a single second-order ODE by introducing new variables.
+- **[Laplace Transforms](5-ordinary-differential-equations/5_laplace-transforms.md)**: The Laplace transform converts systems of ODEs into algebraic equations in the frequency domain.
+- **[Partial Derivatives](4-multivariable-calculus/1_partial-derivatives.md)**: The Jacobian matrix and matrix exponential are fundamental tools from linear algebra used throughout systems theory.

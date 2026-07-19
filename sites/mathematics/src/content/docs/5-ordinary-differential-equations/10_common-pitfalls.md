@@ -142,3 +142,10 @@ boundary is chosen so that Trajectories point inward). $\blacksquare$
   long-term behaviour, focus on the particular solution, but remember that the transient may be
   significant at early times.
 
+## Cross-References
+
+- **[First-Order ODEs](5-ordinary-differential-equations/2_first-order-odes.md)**: Many pitfalls in higher-order ODEs stem from misunderstanding first-order techniques like separation of variables and integrating factors.
+- **[Second-Order Linear ODEs](5-ordinary-differential-equations/3_second-order-linear-odes.mdx)**: The characteristic equation method and undetermined coefficients are frequent sources of error when overlap with the homogeneous solution occurs.
+- **[Stability and Phase Plane Analysis](5-ordinary-differential-equations/9_stability-and-phase-plane-analysis.md)**: Non-hyperbolic critical points and incorrect linearisation are common mistakes in stability analysis.
+- **[Series Solutions](5-ordinary-differential-equations/6_series-solutions.md)**: Confusing ordinary and regular singular points leads to incorrect application of the Frobenius method.
+

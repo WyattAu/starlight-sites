@@ -303,3 +303,10 @@ The key to setting up multiple integrals is describing the region correctly. Typ
 
 
 </aside>
+
+## Cross-References
+
+- **[Partial Derivatives](4-multivariable-calculus/1_partial-derivatives.md)**: The Jacobian determinant in change of variables is computed from partial derivatives of the coordinate transformation.
+- **[Vector Calculus](4-multivariable-calculus/3_vector-calculus.md)**: Surface integrals and flux integrals extend multiple integrals to curved surfaces in three dimensions.
+- **[Optimization](4-multivariable-calculus/4_optimization.md)**: Multiple integrals are used to compute volumes and averages needed in constrained optimisation problems.
+- **[Curves and Surfaces](4-multivariable-calculus/5_curves-and-surfaces.md)**: Surface area and surface integrals are computed using parametrisations and the cross product of partial derivatives.

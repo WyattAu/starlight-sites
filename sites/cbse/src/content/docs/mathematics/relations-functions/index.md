@@ -85,3 +85,76 @@ Relations and functions are the language of mathematics. Every equation, mapping
 - Composition is not commutative: $f \circ g \neq g \circ f$
 - The number of functions from a set of $m$ elements to a set of $n$ elements is $n^m$
 - Practice identifying domain and range from graphs and equations
+
+## Key Formulas
+
+- Number of relations from $A$ to $B$: $2^{|A| \times |B|}$
+- Number of functions from $A$ to $B$: $|B|^{|A|}$
+- Number of one-one functions from $A$ to $B$: $P(|B|, |A|) = \frac{|B|!}{(|B|-|A|)!}$ (when $|B| \geq |A|$)
+- Composition: $(f \circ g)(x) = f(g(x))$
+- Inverse: if $f(x) = y$, then $f^{-1}(y) = x$
+
+## Worked Example 4 — Equivalence Relation from Partition
+
+**Problem:** Let $A = \{1, 2, 3, 4, 5, 6\}$. Define $R$ on $A$ by $aRb$ if $a$ and $b$ leave the same remainder when divided by 3. Show that $R$ is an equivalence relation and find the equivalence classes.
+
+**Solution:**
+
+Remainders when divided by 3: $1 \equiv 1$, $2 \equiv 2$, $3 \equiv 0$, $4 \equiv 1$, $5 \equiv 2$, $6 \equiv 0$.
+
+**Reflexive:** $a$ and $a$ leave the same remainder. Yes.
+
+**Symmetric:** If $a$ and $b$ leave the same remainder, then $b$ and $a$ leave the same remainder. Yes.
+
+**Transitive:** If $a$ and $b$ leave the same remainder, and $b$ and $c$ leave the same remainder, then $a$ and $c$ leave the same remainder. Yes.
+
+Equivalence classes:
+- Remainder 0: $\{3, 6\}$
+- Remainder 1: $\{1, 4\}$
+- Remainder 2: $\{2, 5\}$
+
+**Common mistake:** Forgetting that equivalence classes partition the set. Each element belongs to exactly one class.
+
+## Worked Example 5 — Injective Function with Restricted Domain
+
+**Problem:** Determine whether $f: \mathbb{Z}^+ \to \mathbb{Z}^+$ defined by $f(n) = 2n + 1$ is injective, surjective, or bijective.
+
+**Solution:**
+
+**Injective:** Suppose $f(a) = f(b)$:
+$$2a + 1 = 2b + 1 \implies a = b$$
+Yes, $f$ is injective.
+
+**Surjective:** Is every positive integer in the range? For $f(n) = 2n + 1$, the range is $\{3, 5, 7, 9, ...\}$ (odd numbers greater than or equal to 3). So $1$ and $2$ are not in the range. No, $f$ is not surjective.
+
+Since $f$ is injective but not surjective, it is not bijective.
+
+**Common mistake:** Confusing the codomain with the range. The codomain is $\mathbb{Z}^+$, but the range is only the odd numbers $\geq 3$.
+
+## Worked Example 6 — Inverse Function
+
+**Problem:** Find the inverse of $f: \mathbb{R} \to \mathbb{R}$ defined by $f(x) = \frac{2x + 3}{x - 1}$, $x \neq 1$.
+
+**Solution:**
+
+Let $y = \frac{2x + 3}{x - 1}$.
+
+Solve for $x$:
+$$y(x - 1) = 2x + 3$$
+$$xy - y = 2x + 3$$
+$$xy - 2x = y + 3$$
+$$x(y - 2) = y + 3$$
+$$x = \frac{y + 3}{y - 2}$$
+
+Therefore:
+$$f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2$$
+
+**Common mistake:** Forgetting to specify the domain of the inverse function. The domain of $f^{-1}$ is $\mathbb{R} \setminus \{2\}$.
+
+## Exam Tips
+
+1. To check transitivity, look for counterexamples: find $(a, b) \in R$ and $(b, c) \in R$ where $(a, c) \notin R$
+2. For injectivity, assume $f(a) = f(b)$ and show $a = b$. If you get $a = \pm b$, the function is not injective.
+3. For surjectivity, try to solve $f(x) = y$ for arbitrary $y$ in the codomain
+4. Composition order matters: $(f \circ g)(x) = f(g(x))$, not $g(f(x))$
+5. A function has an inverse if and only if it is bijective; to find it, solve $y = f(x)$ for $x$

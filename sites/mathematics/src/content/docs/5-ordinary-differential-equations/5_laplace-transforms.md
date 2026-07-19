@@ -360,3 +360,9 @@ uniformly Cauchy on some interval $[x_0 - h, x_0 + h]$Hence converges uniformly 
 $\phi$. Passing to the limit in the integral equation shows $\phi$ satisfies the ODE. Uniqueness
 follows From the **Gronwall inequality** applied to the difference of two solutions.
 
+## Cross-References
+
+- **[Second-Order Linear ODEs](5-ordinary-differential-equations/3_second-order-linear-odes.mdx)**: The Laplace transform converts the characteristic equation approach into algebraic manipulation in the frequency domain.
+- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: Both Fourier and Laplace transforms decompose signals into frequency components, but Laplace handles transient and aperiodic signals.
+- **[Complex Numbers Review](6-complex-analysis/1_complex-numbers-review.md)**: The Laplace variable $s$ is complex, and poles and zeros in the complex plane determine system behaviour.
+- **[Systems of ODEs](5-ordinary-differential-equations/4_systems-of-odes.mdx)**: The Laplace transform extends naturally to systems of ODEs, converting coupled differential equations into algebraic systems.

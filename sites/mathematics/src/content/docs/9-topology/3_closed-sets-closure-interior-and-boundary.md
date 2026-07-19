@@ -131,3 +131,10 @@ In the language of closure: the closure of the polynomials in the sup-norm topol
 | $\partial A$ | $\partial A = \partial(X \setminus A)$ | $\partial(A \cup B) \subseteq \partial A \cup \partial B$ | $\partial(A \cap B) \subseteq \partial A \cup \partial B$ |
 | Dense | $\overline{A} = X$ | $A$ intersects every nonempty open set | $A^c$ has empty interior |
 
+## Cross-References
+
+- **[Metric Spaces](9-topology/7_metric-spaces.md)**: Closure, interior, and boundary can be characterised using sequences and limits in metric spaces.
+- **[Separation Axioms](9-topology/8_separation-axioms.md)**: Dense sets and closure properties are used to prove Urysohn's lemma and the Tietze extension theorem.
+- **[Introduction to Algebraic Topology](9-topology/9_introduction-to-algebraic-topology.md)**: The boundary operator in algebraic topology generalises the topological boundary concept to higher dimensions.
+- **[Common Pitfalls](9-topology/10_common-pitfalls.md)**: Confusing open with closed and misunderstanding closure under infinite operations are frequent errors.
+

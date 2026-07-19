@@ -169,3 +169,10 @@ Critical points can be isolated or form a continuum (e.g., a line of critical po
 **Mistake 5: Confusing the phase plane with the phase portrait.**
 The phase plane is the coordinate space $(x, y)$, while the phase portrait is the collection of trajectories in the phase plane. Do not confuse the two; the phase portrait includes the trajectories, not just the coordinate axes.
 
+## Cross-References
+
+- **[Systems of ODEs](5-ordinary-differential-equations/4_systems-of-odes.mdx)**: The eigenvalue analysis of the Jacobian matrix used here is developed systematically in the systems of ODEs chapter.
+- **[Introduction and Classification](5-ordinary-differential-equations/1_introduction-and-classification.md)**: Stability analysis applies to the autonomous nonlinear systems classified in the introduction.
+- **[First-Order ODEs](5-ordinary-differential-equations/2_first-order-odes.md)**: Phase plane methods reduce systems to qualitative analysis when first-order methods like separation of variables are unavailable.
+- **[Partial Derivatives](4-multivariable-calculus/1_partial-derivatives.md)**: The Jacobian matrix and its eigenvalues, computed using partial derivatives, determine local stability.
+

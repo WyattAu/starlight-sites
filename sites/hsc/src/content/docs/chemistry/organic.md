@@ -165,3 +165,61 @@ Organic chemistry is the basis of pharmaceuticals, plastics, food science, and b
 6. Degree of unsaturation = $\frac{2C + 2 - H}{2}$ helps determine if rings or double bonds are present
 7. Esterification is reversible — use excess reagent or remove water to drive equilibrium
 8. Cis-trans isomerism requires restricted rotation (C=C or ring) and two different groups on each carbon
+
+## More Worked Examples
+
+### Example 7: Identifying Functional Groups
+
+**Problem:** Identify all functional groups in the following molecule: $\text{CH}_3\text{CH(OH)CHO}$
+
+**Solution:**
+
+Step 1: Draw the structure:
+$$\text{CH}_3-\text{CH(OH)}-\text{CHO}$$
+
+Step 2: Identify functional groups:
+- $-\text{OH}$: hydroxyl group (alcohol)
+- $-\text{CHO}$: aldehyde group
+
+Step 3: The molecule has both alcohol and aldehyde functional groups. The IUPAC name is 2-hydroxypropanal.
+
+**Answer:** The molecule contains a hydroxyl group ($-\text{OH}$) and an aldehyde group ($-\text{CHO}$).
+
+**Common mistake:** Confusing the aldehyde group ($-\text{CHO}$) with the alcohol group ($-\text{OH}$). The aldehyde carbon is bonded to both a hydrogen and a double-bonded oxygen.
+
+### Example 8: Reaction of Alcohols
+
+**Problem:** Write the equation for the dehydration of ethanol to form ethene. What conditions are required?
+
+**Solution:**
+
+Step 1: Dehydration is an elimination reaction where water is removed from an alcohol.
+
+Step 2: The reaction requires concentrated sulfuric acid as a catalyst and heating to approximately $170°\text{C}$:
+$$\text{CH}_3\text{CH}_2\text{OH} \xrightarrow[\text{170°C}]{\text{conc. H}_2\text{SO}_4} \text{CH}_2=\text{CH}_2 + \text{H}_2\text{O}$$
+
+Step 3: At lower temperatures ($140°\text{C}$), the substitution product (diethyl ether) forms instead:
+$$2\text{CH}_3\text{CH}_2\text{OH} \xrightarrow[\text{140°C}]{\text{conc. H}_2\text{SO}_4} \text{CH}_3\text{CH}_2\text{OCH}_2\text{CH}_3 + \text{H}_2\text{O}$$
+
+**Answer:** $\text{CH}_3\text{CH}_2\text{OH} \xrightarrow[\text{170°C}]{\text{conc. H}_2\text{SO}_4} \text{CH}_2=\text{CH}_2 + \text{H}_2\text{O}$
+
+**Common mistake:** Confusing elimination (forming alkenes) with substitution (forming ethers). Temperature determines which product forms.
+
+### Example 9: Polymerisation
+
+**Problem:** Draw the repeating unit of the polymer formed from the addition polymerisation of propene ($\text{CH}_3\text{CH}=\text{CH}_2$).
+
+**Solution:**
+
+Step 1: In addition polymerisation, the double bond opens up and monomers join together.
+
+Step 2: The repeating unit is:
+$$-\left[\text{CH}_2-\text{CH(CH}_3)\right]-$$
+
+Step 3: The polymer is polypropene (polypropylene). The methyl group ($\text{CH}_3$) is a side chain.
+
+Step 4: The number of monomers $n$ in the polymer chain is the degree of polymerisation.
+
+**Answer:** The repeating unit is $-\text{CH}_2-\text{CH(CH}_3)-$
+
+**Common mistake:** Forgetting that in addition polymerisation, the double bond becomes a single bond in the polymer backbone. The side groups remain as branches.

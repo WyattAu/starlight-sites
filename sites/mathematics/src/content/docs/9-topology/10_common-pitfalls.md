@@ -145,3 +145,10 @@ infinitely often, contradicting continuity. $\blacksquare$
     compactification $X^* = X \cup \{\infty\}$ is Hausdorff if and only if $X$ is locally compact
     and Hausdorff. For example, the one-point compactification of $\mathbb{Q}$ is not Hausdorff
     because $\mathbb{Q}$ is not locally compact.
+
+## Cross-References
+
+- **[Metric Spaces](9-topology/7_metric-spaces.md)**: Many pitfalls involve metric-specific properties like completeness and the Heine-Borel theorem that fail in general topological spaces.
+- **[Separation Axioms](9-topology/8_separation-axioms.md)**: Confusion between separation levels (T1 vs T2 vs T3) generates common errors about compactness and continuity.
+- **[Closed Sets, Closure, Interior, and Boundary](9-topology/3_closed-sets-closure-interior-and-boundary.md)**: Several pitfalls involve misunderstanding the relationship between open, closed, and clopen sets.
+- **[Introduction to Algebraic Topology](9-topology/9_introduction-to-algebraic-topology.md)**: The distinction between homotopy equivalence and homeomorphism is a frequent source of confusion.

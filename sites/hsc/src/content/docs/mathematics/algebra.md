@@ -175,3 +175,69 @@ $$\det(A^{-1}) = \frac{1}{\det(A)} = \frac{1}{5} = 0.2$$
 **Answer:** $\det(2A) = 40$, $\det(A^{-1}) = 0.2$
 
 **Common mistake:** Writing $\det(2A) = 2\det(A)$. For an $n \times n$ matrix, $\det(kA) = k^n \det(A)$ because each of the $n$ rows is multiplied by $k$.
+
+## More Worked Examples
+
+### Example 7: Quadratic Inequalities
+
+**Problem:** Solve $x^2 - 5x + 6 < 0$.
+
+**Solution:**
+
+Step 1: Factor the quadratic:
+$$x^2 - 5x + 6 = (x - 2)(x - 3)$$
+
+Step 2: Find the roots: $x = 2$ and $x = 3$
+
+Step 3: Since the coefficient of $x^2$ is positive, the parabola opens upward. The quadratic is negative between the roots.
+
+Step 4: Solution: $2 < x < 3$
+
+**Answer:** $x \in (2, 3)$
+
+**Common mistake:** Forgetting that the inequality sign determines whether the solution is between or outside the roots. For $ax^2 + bx + c < 0$ with $a > 0$, the solution is between the roots.
+
+### Example 8: Sum of an Infinite Geometric Series
+
+**Problem:** Find the sum of the infinite series $1 + \frac{1}{3} + \frac{1}{9} + \frac{1}{27} + \ldots$
+
+**Solution:**
+
+Step 1: Identify $a = 1$, $r = \frac{1}{3}$
+
+Step 2: Check $|r| < 1$: $\left|\frac{1}{3}\right| = \frac{1}{3} < 1$ (converges)
+
+Step 3: Apply the infinite sum formula:
+$$S_\infty = \frac{a}{1 - r} = \frac{1}{1 - \frac{1}{3}} = \frac{1}{\frac{2}{3}} = \frac{3}{2}$$
+
+**Answer:** $S_\infty = \frac{3}{2}$
+
+**Common mistake:** Using the formula when $|r| \geq 1$. The infinite geometric series only converges when $|r| < 1$.
+
+### Example 9: Matrix Equation
+
+**Problem:** Solve for $X$ if $\begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix} X = \begin{pmatrix} 7 & 4 \\ 17 & 10 \end{pmatrix}$.
+
+**Solution:**
+
+Step 1: Let $A = \begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix}$. We need $X = A^{-1} B$.
+
+Step 2: Find $A^{-1}$:
+$$\det(A) = 2 \times 3 - 1 \times 5 = 1$$
+$$A^{-1} = \begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix}$$
+
+Step 3: Multiply:
+$$X = \begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix} \begin{pmatrix} 7 & 4 \\ 17 & 10 \end{pmatrix} = \begin{pmatrix} 21 - 17 & 12 - 10 \\ -35 + 34 & -20 + 20 \end{pmatrix} = \begin{pmatrix} 4 & 2 \\ -1 & 0 \end{pmatrix}$$
+
+Step 4: Verify: $AX = \begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix} \begin{pmatrix} 4 & 2 \\ -1 & 0 \end{pmatrix} = \begin{pmatrix} 7 & 4 \\ 17 & 10 \end{pmatrix}$ (correct)
+
+**Answer:** $X = \begin{pmatrix} 4 & 2 \\ -1 & 0 \end{pmatrix}$
+
+**Common mistake:** For matrix equations $AX = B$, multiply both sides by $A^{-1}$ on the left: $X = A^{-1}B$, not $X = BA^{-1}$. Matrix multiplication is not commutative.
+
+## Additional Exam Tips
+
+5. For logarithmic equations, always check the domain after solving
+6. When solving matrix equations, always verify your answer by multiplying back
+7. The sum of an arithmetic series can also be written as $S_n = \frac{n}{2}(a + l)$ where $l$ is the last term
+8. For geometric series with $|r| > 1$, the series diverges (no finite sum)

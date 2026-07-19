@@ -80,3 +80,71 @@ $$t = \frac{Q}{I} = \frac{6{,}078}{2.0} = 3{,}039 \text{ s} \approx 50.6 \text{ 
 - In the Nernst equation, $Q$ is products over reactants (excluding solids)
 - For electrolysis problems, first write the half-reaction to determine electrons transferred
 - Practice converting between mass, moles, and charge using Faraday's constant
+
+## Key Formulas
+
+- Cell potential: $E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}}$
+- Nernst equation: $E = E^\circ - \frac{0.0592}{n} \log Q$ (at 298 K)
+- Faraday's first law: $m = \frac{MIt}{nF}$
+- Molar conductivity: $\Lambda_m = \frac{\kappa}{c}$
+- Relation between conductivity and cell constant: $\kappa = \frac{1}{R} \times \frac{l}{A}$
+
+## Worked Example 4 — Electrolysis with Multiple Ions
+
+**Problem:** An aqueous solution of CuSO$_4$ is electrolyzed using inert electrodes. What products are formed at each electrode? If 2.0 A current is passed for 30 minutes, what mass of each product is deposited? (Molar masses: Cu = 63.5 g/mol, O = 16.0 g/mol)
+
+**Solution:**
+
+At the cathode: Cu$^{2+}$ is preferentially reduced over H$^+$ because Cu$^{2+}$ has a higher reduction potential.
+$$\text{Cu}^{2+} + 2e^- \rightarrow \text{Cu}$$
+
+At the anode: OH$^-$ from water is oxidized (SO$_4^{2-}$ is not oxidized).
+$$2\text{H}_2\text{O} \rightarrow \text{O}_2 + 4\text{H}^+ + 4e^-$$
+
+Charge passed: $Q = It = 2.0 \times 30 \times 60 = 3{,}600$ C
+
+Moles of electrons: $n_{e^-} = \frac{3{,}600}{96{,}485} = 0.0373$ mol
+
+Mass of Cu deposited: $m_{\text{Cu}} = \frac{0.0373}{2} \times 63.5 = 1.18$ g
+
+Mass of O$_2$ produced: $m_{\text{O}_2} = \frac{0.0373}{4} \times 32 = 0.298$ g
+
+**Common mistake:** Forgetting that water is oxidized at the anode, not SO$_4^{2-}$. The sulfate ion is not oxidized under normal conditions.
+
+## Worked Example 5 — Conductivity Calculation
+
+**Problem:** A conductivity cell has electrodes of area 4.0 cm$^2$ and separation 0.80 cm. When filled with 0.01 M KCl solution ($\kappa = 1.41 \times 10^{-3}$ S/cm), the resistance is 141 ohms. Calculate the cell constant and the molar conductivity.
+
+**Solution:**
+
+Cell constant: $\frac{l}{A} = \frac{0.80}{4.0} = 0.20$ cm$^{-1}$
+
+Conductivity from resistance: $\kappa = \frac{1}{R} \times \frac{l}{A} = \frac{0.20}{141} = 1.42 \times 10^{-3}$ S/cm (matches given value)
+
+Molar conductivity: $\Lambda_m = \frac{\kappa}{c} = \frac{1.42 \times 10^{-3}}{0.01} = 0.142$ S cm$^2$ mol$^{-1}$
+
+**Common mistake:** Forgetting to convert units. Molar conductivity is typically expressed in S cm$^2$ mol$^{-1}$, requiring concentration in mol/cm$^3$ or careful unit conversion.
+
+## Worked Example 6 — Gibbs Free Energy and Cell Potential
+
+**Problem:** Calculate the Gibbs free energy change for the reaction Zn + Cu$^{2+}$ $\rightarrow$ Zn$^{2+}$ + Cu at 298 K if $E_{\text{cell}} = 1.10$ V. Is the reaction spontaneous?
+
+**Solution:**
+
+$$\Delta G = -nFE_{\text{cell}}$$
+
+$n = 2$ (2 electrons transferred), $F = 96{,}485$ C/mol
+
+$$\Delta G = -2 \times 96{,}485 \times 1.10 = -212{,}267 \text{ J/mol} \approx -212.3 \text{ kJ/mol}$$
+
+Since $\Delta G < 0$, the reaction is spontaneous.
+
+**Common mistake:** The negative sign in $\Delta G = -nFE$ is essential. A positive $E_{\text{cell}}$ corresponds to a negative $\Delta G$ (spontaneous reaction).
+
+## Exam Tips
+
+1. For Nernst equation problems, always identify $n$ from the balanced half-reaction
+2. In electrolysis, determine which ion is preferentially discharged by comparing standard reduction potentials
+3. Molar conductivity increases (strong electrolytes) or changes significantly (weak electrolytes) with dilution
+4. The relationship $\Delta G = -nFE$ connects electrochemistry to thermodynamics
+5. Practice problems involving concentration cells, where $E^\circ_{\text{cell}} = 0$ but $E_{\text{cell}} \neq 0$

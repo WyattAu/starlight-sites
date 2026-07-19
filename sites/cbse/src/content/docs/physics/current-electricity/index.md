@@ -86,3 +86,81 @@ $$R_4 = \frac{R_2 \times R_3}{R_1} = \frac{200 \times 150}{100} = 300 \, \Omega$
 - Use Kirchhoff's laws for complex circuits
 - Always check units (ohms, volts, amperes)
 - Power calculations often appear in multi-step problems
+
+## Key Formulas
+
+- Ohm's law: $V = IR$
+- Resistance: $R = \rho\frac{L}{A}$
+- Series: $R_{eq} = R_1 + R_2 + ...$, $V_{total} = V_1 + V_2 + ...$, $I$ is constant
+- Parallel: $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + ...$, $V$ is constant, $I_{total} = I_1 + I_2 + ...$
+- Power: $P = IV = I^2R = \frac{V^2}{R}$
+- Internal resistance: $V_{terminal} = E - Ir$
+- Temperature dependence: $R = R_0[1 + \alpha(T - T_0)]$
+
+## Worked Example 4 — Mixed Series-Parallel Circuit
+
+**Problem:** Find the equivalent resistance of the circuit shown below: $R_1 = 6\,\Omega$ and $R_2 = 3\,\Omega$ are in parallel, and this combination is in series with $R_3 = 4\,\Omega$.
+
+**Solution:**
+
+Step 1: Parallel combination of $R_1$ and $R_2$:
+$$R_{12} = \frac{R_1 \times R_2}{R_1 + R_2} = \frac{6 \times 3}{6 + 3} = \frac{18}{9} = 2\,\Omega$$
+
+Step 2: Series combination with $R_3$:
+$$R_{eq} = R_{12} + R_3 = 2 + 4 = 6\,\Omega$$
+
+**Common mistake:** Adding the parallel resistors directly without using the parallel formula. Parallel resistors always give a smaller equivalent resistance.
+
+## Worked Example 5 — Kirchhoff's Loop Rule
+
+**Problem:** In the circuit below, find the current through each resistor. Battery EMF = 12 V, $R_1 = 4\,\Omega$, $R_2 = 6\,\Omega$, $R_3 = 3\,\Omega$. $R_1$ and $R_2$ are in parallel, connected to the battery through $R_3$.
+
+**Solution:**
+
+Let $I$ be the total current through $R_3$, and $I_1$, $I_2$ be currents through $R_1$ and $R_2$ respectively.
+
+By junction rule: $I = I_1 + I_2$
+
+Voltage across parallel combination: $V_{12} = I_1 R_1 = I_2 R_2$
+$$4I_1 = 6I_2 \implies I_1 = 1.5 I_2$$
+
+Loop rule for outer loop:
+$$E - IR_3 - I_1 R_1 = 0$$
+$$12 - (I_1 + I_2) \times 3 - 4I_1 = 0$$
+
+Substitute $I_1 = 1.5I_2$:
+$$12 - (1.5I_2 + I_2) \times 3 - 4(1.5I_2) = 0$$
+$$12 - 7.5I_2 - 6I_2 = 0$$
+$$12 = 13.5I_2$$
+$$I_2 = \frac{12}{13.5} = \frac{8}{9} \approx 0.889\,\text{A}$$
+
+$$I_1 = 1.5 \times \frac{8}{9} = \frac{4}{3} \approx 1.333\,\text{A}$$
+
+$$I = I_1 + I_2 = \frac{4}{3} + \frac{8}{9} = \frac{12 + 8}{9} = \frac{20}{9} \approx 2.222\,\text{A}$$
+
+**Common mistake:** Forgetting to include the internal resistance of the battery or the series resistor when applying Kirchhoff's loop rule.
+
+## Worked Example 6 — Temperature Dependence of Resistance
+
+**Problem:** A copper wire has resistance $10\,\Omega$ at $20°\text{C}$. What is its resistance at $80°\text{C}$? (Temperature coefficient of copper: $\alpha = 0.00404\,°\text{C}^{-1}$)
+
+**Solution:**
+
+Using the temperature dependence formula:
+$$R = R_0[1 + \alpha(T - T_0)]$$
+
+$$R = 10[1 + 0.00404 \times (80 - 20)]$$
+
+$$R = 10[1 + 0.00404 \times 60]$$
+
+$$R = 10[1 + 0.2424] = 10 \times 1.2424 = 12.424\,\Omega$$
+
+**Common mistake:** Using the wrong temperature difference. Always use $\Delta T = T_{final} - T_{initial}$, not just $T_{final}$.
+
+## Exam Tips
+
+1. For complex circuits, simplify step by step: identify parallel combinations first, then add series components
+2. When using Kirchhoff's rules, assign current directions consistently; a negative result means the actual direction is opposite
+3. The terminal voltage of a battery is less than its EMF when current flows: $V = E - Ir$
+4. Power dissipated in a resistor is always positive: $P = I^2R > 0$
+5. For maximum power transfer, the load resistance should equal the internal resistance of the source
