@@ -106,7 +106,11 @@ This is consistent with the 1995 Cornell--Wieman BEC experiment.
 | Sommerfeld expansion | $C_V \propto T/T_F$ | Linear specific heat at low $T$ |
 | Condensate fraction | $N_0/N = 1 - (T/T_c)^{3/2}$ | Order parameter for BEC |
 
-### Common Pitfalls
+## Intuition
+
+Quantum statistics is the story of two fundamentally different types of matter. Fermions, governed by the Pauli exclusion principle, refuse to share quantum states, creating a Fermi sea that fills up like a stadium seating chart. Bosons, by contrast, are social particles that pile into the same state, leading to Bose-Einstein condensation when cooled. At high temperatures both distributions merge into the classical Maxwell-Boltzmann form because quantum identity becomes irrelevant when particles are far apart. The Fermi energy sets the scale of electron behaviour in metals, while the BEC critical temperature marks the onset of macroscopic quantum coherence.
+
+## Common Pitfalls
 
 1. **Confusing FD and BE limits:** At high temperature ($T \gg T_F$ or $T \gg T_c$), both distributions reduce to the Maxwell--Boltzmann distribution. The quantum statistical corrections vanish when the interparticle spacing is much larger than the thermal de Broglie wavelength.
 
@@ -140,4 +144,10 @@ This is consistent with the 1995 Cornell--Wieman BEC experiment.
 | $C_V$ at low $T$ | $\frac{3}{2}Nk_B$ | $\propto T$ | $\propto T^{3/2}$ |
 | Validity condition | $n\lambda_{\text{th}}^3 \ll 1$ | $n\lambda_{\text{th}}^3 \gtrsim 1$ | $n\lambda_{\text{th}}^3 \gtrsim 2.612$ |
 | Symmetry of wavefunction | No constraint | Antisymmetric | Symmetric |
+
+## Cross-References
+
+- **[Classical Limit and the Maxwell-Boltzmann Distribution](7_classical-limit-and-the-maxwell-boltzmann-distribution.md)**: The Maxwell-Boltzmann distribution emerges as the high-temperature limit of both quantum distributions derived here.
+- **[Bose-Einstein Condensation](5_bose-einstein-condensation.md)**: BEC is the macroscopic occupation of the ground state predicted by Bose-Einstein statistics at low temperatures.
+- **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature.md)**: The Fermi-Dirac distribution is applied to electrons in metals, giving the linear specific heat and Fermi surface.
 

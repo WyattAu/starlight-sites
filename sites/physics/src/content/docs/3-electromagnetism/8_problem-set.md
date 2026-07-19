@@ -517,3 +517,13 @@ _Cross-reference:_ Section 7.4, Section 1.1.
 
 </details>
 
+## Intuition
+
+Maxwell's equations are the four laws that govern all classical electromagnetic phenomena. Gauss's law says electric charges create field lines that spread outward; the magnetostatic version says magnetic field lines always close on themselves. Faraday's law and the Ampere-Maxwell law describe how changing fields create each other: a changing magnetic field produces an electric field and vice versa. This mutual regeneration is what allows electromagnetic waves to propagate through empty space, carrying energy and momentum without any medium.
+
+## Cross-References
+
+- **[Maxwell's Equations](1_maxwell-s-equations.md)**: Every problem in this set originates from or feeds back into the four Maxwell equations in differential form.
+- **[Electrodynamics](4_electrodynamics.md)**: The continuity equation and displacement current derivations require the time-dependent field equations from electrodynamics.
+- **[Electromagnetic Waves](5_electromagnetic-waves.md)**: Wave propagation problems in this set build directly on the wave equation derived from Maxwell's equations.
+

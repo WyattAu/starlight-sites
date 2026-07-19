@@ -151,6 +151,10 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
 | Computer vision | Shape space | Geodesic distances for shape matching |
 | Robotics | Configuration space $C$ | Motion planning via geodesics in $C$ |
 
+## Intuition
+
+Differential geometry studies curved spaces by doing calculus on them. A manifold looks flat at each point, like the Earth appears flat locally, but the way these local patches fit together encodes curvature. The Levi-Civita connection tells you how to compare vectors at different points without leaving the surface, and geodesics are the straightest possible paths on curved ground. The Riemann curvature tensor measures how much parallel transport depends on the path taken. Gauss-Bonnet ties local curvature to global topology: you cannot curve a surface without changing its Euler characteristic.
+
 ## Cross-References
 
 - [Vector Fields and Flows](/mathematics/12-differential-geometry/3_vector-fields-and-flows) -- Integral curves, Lie brackets, and flows are foundational to the differential geometry covered in this summary.

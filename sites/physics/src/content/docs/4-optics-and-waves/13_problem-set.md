@@ -193,3 +193,13 @@ $M = A - s'C = 1 - (-15)(1/60) = 1 + 1/4 = 5/4 = 1.25$ (upright, slightly magnif
 
 ---
 
+## Intuition
+
+Optics problems revolve around a central theme: light behaves as a wave when the relevant dimensions are comparable to its wavelength. Interference, diffraction, and polarisation all arise from the superposition principle. The key insight is that every optical element, from a lens to a grating, modifies the phase or amplitude of the wavefront in a predictable way. Understanding optics means understanding how phase differences accumulate along different paths and how those differences translate into intensity patterns on a screen or detector.
+
+## Cross-References
+
+- **[The Wave Equation](1_the-wave-equation.md)**: The string and wave problems here apply the classical wave equation solutions derived in this chapter.
+- **[Interference](3_interference.md)**: The thin-film and double-slit problems use the path difference and phase shift principles from interference theory.
+- **[Diffraction](4_diffraction.md)**: The grating and single-slit problems require the Fraunhofer diffraction formulas developed in this chapter.
+

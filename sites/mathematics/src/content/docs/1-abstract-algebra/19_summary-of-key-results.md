@@ -54,6 +54,10 @@ The key dependencies among topics are:
 Mastering the earlier topics is essential before proceeding to the later ones. The problem set
 (Section 18) Is designed to test understanding across all these areas.
 
+## Intuition
+
+Abstract algebra distils the essence of mathematical structures into axioms. A group captures symmetry, a ring captures arithmetic, and a field captures both. The isomorphism theorems say that quotient structures are the only way to build new structures from old ones. Lagrange's theorem constrains subgroup sizes like a divisibility rule for symmetry. Galois theory is the crown jewel: it translates the solvability of polynomial equations into a question about group structure, explaining in one stroke why equations of degree five resist radical solutions.
+
 ## Common Pitfalls
 
 - **Confusing groups, rings, and fields.** Group: one operation, inverses, identity. Ring: two

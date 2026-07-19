@@ -241,3 +241,13 @@ thermal energy $k_B T$ is comparable to $\varepsilon$. $\blacksquare$
 
 </details>
 
+## Intuition
+
+Thermal physics connects the microscopic world of individual particles to the macroscopic world of temperature, pressure, and entropy. The partition function is the central object: it encodes all thermodynamic information about a system by summing Boltzmann weights over every possible state. From it, one can derive free energies, equations of state, and response functions. The key insight is that entropy counts the number of microstates consistent with a macrostate, and equilibrium corresponds to the macrostate with the most microstates.
+
+## Cross-References
+
+- **[Statistical Mechanics](2_statistical-mechanics.md)**: The Fermi energy and partition function calculations in this problem set apply the canonical ensemble methods from this chapter.
+- **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature.md)**: The Fermi energy problems are direct applications of the finite-temperature electron gas theory.
+- **[Classical Limit and the Maxwell-Boltzmann Distribution](7_classical-limit-and-the-maxwell-boltzmann-distribution.md)**: The high-temperature limit of quantum statistics recovers the classical ideal gas results tested in several problems.
+

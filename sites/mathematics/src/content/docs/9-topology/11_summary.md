@@ -125,6 +125,10 @@ $\tilde\gamma(1)$ is an integer (the winding number), and this defines the isomo
 | $T_4$ | Normal | $T_1$ + disjoint closed sets separated by open sets | $\mathbb{R}$ standard |
 | $T_{3\frac12}$ | Tychonoff | $T_1$ + continuous function separates point from closed set | $\mathbb{R}$ standard |
 
+## Intuition
+
+Topology is often called "rubber-sheet geometry" because it studies properties that survive continuous stretching and bending. A coffee mug and a donut are topologically identical because one can be smoothly deformed into the other. The key insight is that topology ignores distances and angles entirely, focusing instead on connectivity: how many holes a space has, whether points can be separated, and whether curves can be shrunk to a point. Compactness captures the idea that "closed and bounded" means no escape to infinity, while connectedness means the space comes in one piece.
+
 ## Common Mistakes
 
 **Mistake 1: Assuming compactness equals sequential compactness in general topological spaces**

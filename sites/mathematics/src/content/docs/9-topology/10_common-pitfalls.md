@@ -146,6 +146,10 @@ infinitely often, contradicting continuity. $\blacksquare$
     and Hausdorff. For example, the one-point compactification of $\mathbb{Q}$ is not Hausdorff
     because $\mathbb{Q}$ is not locally compact.
 
+## Intuition
+
+The pitfalls in topology arise from a single source: intuition from Euclidean space does not transfer wholesale to abstract topological spaces. In familiar settings, "closed and bounded" means compact, "connected" implies "path-connected," and open sets are easy to visualise. None of these hold in general. The deeper lesson is that topology cares only about the open-set structure, not about distances, angles, or smoothness. Every counterexample in this file is a reminder that theorems require exactly the hypotheses stated, and relaxing even one condition can produce wildly different behaviour.
+
 ## Cross-References
 
 - **[Metric Spaces](9-topology/7_metric-spaces.md)**: Many pitfalls involve metric-specific properties like completeness and the Heine-Borel theorem that fail in general topological spaces.

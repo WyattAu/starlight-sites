@@ -64,6 +64,10 @@ Each section includes:
 4. **Learn standard examples**: Know the properties of common mathematical objects
 5. **Connect to applications**: Relate abstract concepts to physics, computer science, and engineering
 
+## Intuition
+
+Mathematics is the art of precise abstraction. Each subject in this collection strips away the inessential to reveal underlying structure: analysis formalises limits and continuity, algebra captures symmetry and arithmetic, and geometry studies shape and curvature. The power of mathematics lies in its cumulative nature: theorems proven once are true forever, and each result becomes a tool for the next. Learning mathematics is less about memorising formulas and more about internalising ways of thinking: decomposing problems, identifying invariants, and translating between different representations of the same structure.
+
 ## Common Mistakes
 
 **Mistake 1: Skipping foundational topics to jump to advanced material**

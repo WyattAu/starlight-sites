@@ -150,3 +150,9 @@ The specific heat jump at $T_c$: $\Delta C = T_c a_0^2/(2b) = 400 \times 0.25/(4
 
 Landau theory is a mathematical framework for understanding how systems choose between ordered and disordered states. The order parameter tracks the degree of ordering, like magnetization in a magnet. Above the critical temperature, thermal fluctuations destroy order. Below it, the free energy landscape develops two minima, and the system must choose one, breaking symmetry. The theory is powerful because it makes few assumptions about microscopic details, capturing universal features of continuous phase transitions through simple polynomial expansions.
 
+## Cross-References
+
+- **[Phase Transitions](10_phase-transitions.md)**: Landau theory provides the phenomenological foundation for the critical exponents and scaling relations discussed in the phase transitions chapter.
+- **[The Ising Model](12_ising-model-and-mean-field-theory.md)**: The Ising model's mean-field solution recovers Landau free energy predictions near the critical point.
+- **[Statistical Mechanics](2_statistical-mechanics.md)**: Landau theory connects the microscopic partition function to macroscopic thermodynamic behaviour through the free energy expansion.
+

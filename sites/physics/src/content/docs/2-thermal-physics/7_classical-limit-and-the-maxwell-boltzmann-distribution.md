@@ -172,3 +172,13 @@ The Maxwell-Boltzmann distribution is the classical limit valid only when $n\lam
 **Mistake 3: Misapplying the equipartition theorem**
 The equipartition theorem assigns $\frac{1}{2}k_B T$ per quadratic degree of freedom, but it fails at low temperatures when quantum effects freeze out degrees of freedom. For example, the vibrational mode of a diatomic molecule at room temperature may not contribute $\frac{1}{2}k_B T$ if $\hbar\omega \gg k_B T$. Always check whether the classical limit applies before using equipartition.
 
+## Intuition
+
+The Maxwell-Boltzmann distribution is what quantum statistics looks like when particles are far apart and quantum effects are negligible. At high temperatures or low densities, the thermal de Broglie wavelength shrinks below the inter-particle spacing, and the distinction between bosons and fermions vanishes. The speed distribution reflects a tug-of-war between energy and entropy: the Boltzmann factor suppresses high energies, while the density of states favours them. The most probable speed is lower than the mean, which is lower than the RMS, because the distribution is asymmetric with a tail toward higher speeds.
+
+## Cross-References
+
+- **[Quantum Statistics in Detail](15_quantum-statistics-in-detail.md)**: The Maxwell-Boltzmann distribution is the high-temperature limit of the Fermi-Dirac and Bose-Einstein distributions derived in this chapter.
+- **[Statistical Mechanics](2_statistical-mechanics.md)**: The partition function approach to statistical mechanics reduces to the classical result when the thermal wavelength is small.
+- **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: The classical limit simplifies the grand partition function to recover the Maxwell-Boltzmann ideal gas.
+

@@ -421,6 +421,10 @@ _If you get this wrong, revise: Section 6.2 (Matrix Representation) and Section 
 
 </details>
 
+## Intuition
+
+Linear algebra is the mathematics of linearity: systems where superposition holds. The key insight is that linear transformations are completely determined by what they do to a basis, and eigenvalues tell you the scaling factors along special directions. Determinants measure volume distortion: a zero determinant means the transformation squashes space into a lower dimension, making inversion impossible. The rank-nullity theorem captures a conservation law: the dimensions consumed by the kernel plus the dimensions remaining in the image always equal the total dimension of the input space.
+
 ## Common Pitfalls
 
 - **Confusing linear independence and span.** Linear independence means no non-trivial linear

@@ -198,3 +198,9 @@ physical predictions.
 ## Intuition
 
 Feynman diagrams are like sheet music for particle interactions. Each note represents a particle, and the melody is the process unfolding in time. An electron does not just fly straight: it is constantly emitting and reabsorbing virtual photons, and those photons can briefly split into particle-antiparticle pairs. Feynman diagrams let you organize these contributions by complexity. The simplest diagram (tree level) is the main melody; each additional loop is a finer correction, like adding harmony. The rules translate each visual element into a mathematical expression: straight lines for fermions, wavy lines for photons, and vertices for interactions. The sum of all diagrams gives the total amplitude. Renormalization is like retuning an instrument: the raw calculations produce infinities from loops, but these infinities can be absorbed into redefined physical parameters, leaving finite predictions that match experiment to extraordinary precision.
+
+## Cross-References
+
+- **[The Standard Model](1_the-standard-model.md)**: Feynman diagrams encode the interaction vertices defined by the Standard Model Lagrangian.
+- **[Conservation Laws and Symmetries](2_conservation-laws-and-symmetries.md)**: Each vertex in a Feynman diagram must conserve the quantum numbers governed by the symmetry principles in this chapter.
+- **[Running Coupling Constants](6_running-coupling-constants.md)**: Loop corrections in Feynman diagrams drive the energy dependence of coupling constants through renormalisation group evolution.

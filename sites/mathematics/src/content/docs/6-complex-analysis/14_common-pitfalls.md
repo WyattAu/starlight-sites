@@ -137,6 +137,10 @@ analytic on the punctured plane.
 
 </aside>
 
+## Intuition
+
+The pitfalls in complex analysis stem from the deceptive similarity between real and complex differentiation. In the real world, differentiability is a mild condition; in the complex world, it is extraordinarily restrictive. A single complex derivative implies infinitely many real derivatives and forces the function to satisfy Laplace's equation. This rigidity means that seemingly innocent mistakes, like forgetting branch cuts or misidentifying residues, lead to fundamentally wrong answers. The complex logarithm is multi-valued, Laurent expansions depend on the annulus, and the residue at infinity requires a change of variable.
+
 ## Cross-References
 
 - **[Complex Functions and Analyticity](2_complex-functions-and-analyticity.md)**: Analytic functions are infinitely differentiable and satisfy the Cauchy-Riemann equations.

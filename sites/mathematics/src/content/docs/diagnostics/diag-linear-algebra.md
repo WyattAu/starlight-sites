@@ -117,3 +117,9 @@ tableOfContents: false
 | 10       | B             |
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of linear algebra fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
+
+## Cross-References
+
+- **[Linear Independence, Span, Basis](2-linear-algebra/2_linear-independence-span-basis-and-dimension.md)**: Questions on basis and dimension test core concepts from this chapter.
+- **[Systems of Linear Equations](2-linear-algebra/4_systems-of-linear-equations.md)**: Several diagnostic questions involve solving linear systems and understanding solution structure.
+- **[Linear Transformations](2-linear-algebra/6_linear-transformations.mdx)**: Questions on kernel and image draw on the theory of linear maps between vector spaces.

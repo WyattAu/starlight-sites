@@ -129,6 +129,10 @@ The resolving power: $R = mN = m \times 5$.
 
 </details>
 
+## Intuition
+
+Fourier optics reveals that every lens is a frequency analyser. When light passes through an aperture, the far-field pattern is the spatial Fourier transform of the aperture shape. A lens placed at the focal plane physically computes this transform, placing each spatial frequency at a specific point. This means spatial filtering is simply blocking or attenuating frequency components at the Fourier plane. The Abbe theory shows that resolution is fundamentally limited by how many diffraction orders the lens can collect, establishing that optical systems are bandpass filters for spatial information.
+
 ## Cross-References
 
 - [Coherence Theory](/physics/4-optics-and-waves/20_coherence-theory-16) -- Spatial coherence determines the visibility of diffraction patterns; the van Cittert-Zernike theorem connects source size to coherence width.

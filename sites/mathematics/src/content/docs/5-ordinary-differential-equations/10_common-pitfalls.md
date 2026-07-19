@@ -142,6 +142,10 @@ boundary is chosen so that Trajectories point inward). $\blacksquare$
   long-term behaviour, focus on the particular solution, but remember that the transient may be
   significant at early times.
 
+## Intuition
+
+Differential equations are the language of change. Every pitfall in this file reflects a mismatch between the equation's structure and the method applied to it. The particular integral must complement, not duplicate, the complementary solution, just as a resonant driving force must be handled differently from a non-resonant one. Separable equations can miss equilibrium solutions because dividing by zero eliminates them. The deeper pattern is that ODE methods are not universal recipes: they work because the equation has specific structural properties, and ignoring those properties produces nonsense.
+
 ## Cross-References
 
 - **[First-Order ODEs](5-ordinary-differential-equations/2_first-order-odes.md)**: Many pitfalls in higher-order ODEs stem from misunderstanding first-order techniques like separation of variables and integrating factors.

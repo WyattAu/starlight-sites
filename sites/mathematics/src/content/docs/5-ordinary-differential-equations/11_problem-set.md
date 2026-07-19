@@ -476,6 +476,10 @@ General solution: $y = Ae^{2x} + Be^{3x} + \frac{1}{2}e^x$.
 
 $\blacksquare$
 
+## Intuition
+
+Ordinary differential equations describe how quantities evolve, and each method in this problem set corresponds to a different structural pattern. Separable equations factorise the rate of change; linear first-order equations have integrating factors that straighten them out; constant-coefficient equations have exponential solutions because exponentials are eigenfunctions of differentiation. The Laplace transform converts differential equations into algebraic ones by shifting the problem from the time domain to the frequency domain. Phase plane analysis reveals the qualitative behaviour of systems without solving them explicitly, like reading the weather from a map rather than computing every air molecule.
+
 ## Common Pitfalls
 
 - **Confusing homogeneous and non-homogeneous ODEs.** Homogeneous: $f(x, y, y') = 0$ with no forcing

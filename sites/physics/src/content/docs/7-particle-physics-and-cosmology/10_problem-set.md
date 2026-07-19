@@ -137,6 +137,10 @@ $M_U \sim 2\times 10^{16}$ GeV, providing indirect evidence for supersymmetry.
 
 </details>
 
+## Intuition
+
+Particle physics seeks the fundamental building blocks of matter and the forces that govern their interactions. The Standard Model organises these into quarks, leptons, and gauge bosons, with the Higgs boson giving mass to the others. The key insight is that symmetries dictate allowed interactions: conservation laws like charge, baryon number, and lepton number are consequences of gauge symmetries. Cosmology extends this to the largest scales, where dark matter and dark energy dominate the universe's composition, and the cosmic microwave background encodes the conditions of the early universe.
+
 ## Cross-References
 
 - **[The Standard Model](7-particle-physics-and-cosmology/1_the-standard-model.md)**: Problems involving quark content, particle identification, and the CKM matrix draw directly on the particle taxonomy and gauge symmetry structure.

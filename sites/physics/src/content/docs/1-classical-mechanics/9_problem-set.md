@@ -587,3 +587,13 @@ Bertrand's theorem).
 
 </details>
 
+## Intuition
+
+Classical mechanics is the foundation of physics: it describes how objects move under forces. Newton's second law, F equals ma, is the starting point, but the deeper principles are conservation laws. Energy conservation says the total stays constant when forces are conservative; momentum conservation says the centre of mass moves as if all external forces acted on a single particle; angular momentum conservation explains why planets orbit in ellipses. Lagrangian and Hamiltonian mechanics reformulate these ideas in terms of energy rather than force, revealing symmetries that lead directly to conservation laws via Noether's theorem.
+
+## Cross-References
+
+- **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: Many problems here apply the Euler-Lagrange equations and generalised coordinates from the Lagrangian formalism.
+- **[Central Force Problems](6_central-force-problems.mdx)**: The orbital mechanics and scattering problems draw on central force theory and the effective potential.
+- **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: Phase space analysis and canonical transformations are needed for the more advanced problems in this set.
+

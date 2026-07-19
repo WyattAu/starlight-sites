@@ -144,6 +144,10 @@ $\rho_{xx} = 0$, and $\sigma_{xy} = \nu e^2/h$.
 
 </details>
 
+## Intuition
+
+Solid-state physics studies how atoms arranged in crystals give rise to electronic, thermal, and magnetic properties. The key insight is that periodicity creates band structure: just as a vibrating string has discrete harmonics, electrons in a crystal have allowed energy bands separated by gaps. Metals have partially filled bands, insulators have filled bands with large gaps, and semiconductors have small gaps that can be bridged by thermal excitation or doping. Phonons, the quantised vibrations of the lattice, determine thermal conductivity and specific heat. The reciprocal lattice and Brillouin zone provide the natural framework for understanding diffraction and electronic states.
+
 ## Cross-References
 
 - **[Crystal Structures](6-solid-state-physics/1_crystal-structures.md)**: Problems on lattice types, Miller indices, and packing fractions draw directly on the crystal structure classification.

@@ -67,3 +67,7 @@ Each section includes:
 3. **Derive results**: Follow derivations step by step to build understanding
 4. **Learn the experiments**: Understand the experimental evidence for physical theories
 5. **Connect to applications**: Relate theoretical physics to real-world phenomena and technology
+
+## Intuition
+
+Physics is the study of how the universe works, from the motion of planets to the behaviour of subatomic particles. The unifying theme is that nature is governed by mathematical laws that can be discovered through experiment and confirmed by prediction. Classical mechanics describes the macroscopic world, electromagnetism unifies electricity and light, thermodynamics governs energy and entropy, and quantum mechanics rules at the smallest scales. Each theory has a domain of validity, and the deepest understanding comes from knowing where one theory ends and another begins.

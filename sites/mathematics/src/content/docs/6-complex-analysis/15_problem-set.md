@@ -437,6 +437,10 @@ $\blacksquare$
 
 $\blacksquare$
 
+## Intuition
+
+Complex analysis is the study of functions that respect the geometry of the complex plane. Unlike real functions, which can wiggle freely, holomorphic functions are astonishingly rigid: knowing their values on any small region determines them everywhere. The residue theorem encapsulates this rigidity by saying that contour integrals depend only on what singularities lie inside, not on the path taken. This is why complex analysis solves real integrals that resist elementary methods: the integral becomes a counting problem for poles, weighted by their residues.
+
 ## Common Pitfalls
 
 - **Confusing complex conjugate and complex inverse.** $\bar{z} = a - bi$;

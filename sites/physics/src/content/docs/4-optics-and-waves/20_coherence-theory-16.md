@@ -133,6 +133,10 @@ $\pi w d/(\lambda D) = \pi \times 2\times10^{-4} \times 5\times10^{-4} / (5.5\ti
 $= \pi \times 10^{-7} / (2.75\times10^{-7}) = \pi \times 0.364 = 1.143$ rad. $|\gamma| = |\sin(1.143)/1.143| = 0.81/1.143 = 0.709$.
 Fringe visibility $V = 0.71$ (71%). $\blacksquare$
 
+## Intuition
+
+Coherence theory bridges the gap between perfectly monochromatic waves and reality. Temporal coherence measures how long a wave maintains predictable phase, like how long a singer holds a steady note. Spatial coherence measures how correlated the phase is across different points, like how synchronised a crowd of clappers is. The van Cittert-Zernike theorem is the central insight: even an incoherent source produces spatial coherence over a finite area, and the coherence width is inversely proportional to source size. This is why starlight, despite originating from an incoherent source, can produce interference fringes.
+
 ## Cross-References
 
 - [Fourier Optics](/physics/4-optics-and-waves/19_fourier-optics-15) -- The Abbe theory of microscopy and spatial filtering depend directly on the coherence properties developed in this chapter.

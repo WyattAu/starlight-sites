@@ -449,6 +449,10 @@ Abel's theorem.
 
 </details>
 
+## Intuition
+
+Real analysis is the rigorous foundation of calculus. Where calculus asks "what is the derivative," analysis asks "what does it mean for a derivative to exist, and when can we be sure it does." The epsilon-delta definition replaces geometric intuition with logical precision: limits, continuity, and convergence are all statements about how close you can force outputs to be by constraining inputs. The supremum formalises "least upper bound" without requiring the bound to be attained. Uniform convergence means the approximation works simultaneously across all points, not just point by point.
+
 ## Common Pitfalls
 
 - **Assuming every bounded set has a maximum.** A set can be bounded above without having a maximum;

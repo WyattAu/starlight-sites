@@ -154,3 +154,9 @@ is a key signature of a Fermi liquid. $\blacksquare$
 ## Intuition
 
 Thermodynamic pitfalls arise from confusing mathematical formalism with physical meaning. Natural variables are not arbitrary labels but determine which potential is minimized under given conditions. The chemical potential measures the energy cost of adding a particle, like a admission price. Phase transitions can be first-order (discontinuous, with latent heat) or continuous (no latent heat, but diverging susceptibilities). Metastable states like supercooled water are thermodynamically unstable but kinetically trapped, like a ball stuck in a shallow dip on a slope.
+
+## Cross-References
+
+- **[The Laws of Thermodynamics](1_the-laws-of-thermodynamics.md)**: The ensemble distinctions and entropy arguments reviewed here rest on the foundational laws covered in this chapter.
+- **[Statistical Mechanics](2_statistical-mechanics.md)**: The correct use of ensembles and the $1/N!$ factor are clarified through the partition function formalism.
+- **[Phase Transitions](10_phase-transitions.md)**: The first-order versus continuous distinction is developed quantitatively in the phase transitions chapter.

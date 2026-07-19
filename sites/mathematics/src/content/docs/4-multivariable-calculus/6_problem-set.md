@@ -496,6 +496,10 @@ If you get this wrong, revise: Section 2.5 Coordinate System Worked Examples.
 
 </details>
 
+## Intuition
+
+Multivariable calculus extends the ideas of single-variable calculus to higher dimensions. The gradient replaces the derivative as the direction of steepest ascent, and level curves become contour maps of a terrain. Double and triple integrals accumulate quantities over regions and volumes, just as single integrals accumulate over intervals. The major theorems, Green's, Stokes', and the divergence theorem, all say the same thing in different costumes: the total circulation or flux through a boundary equals the integral of the curl or divergence inside. This is the fundamental principle that local behaviour determines global outcomes.
+
 ## Common Pitfalls
 
 - **Confusing partial and total derivatives.** Partial derivatives hold other variables constant;

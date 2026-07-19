@@ -144,3 +144,9 @@ $$\langle V_C^2 \rangle_\omega = 2k_B T R \left| \frac{1/(i\omega C)}{R + i(\ome
 
 The total mean-square voltage across the capacitor is $\langle V_C^2 \rangle = k_B T / C$ (equipartition). This is independent of $R$, illustrating that the fluctuation-dissipation relation always yields the correct thermal equilibrium result regardless of the dissipation mechanism.
 
+## Cross-References
+
+- **[Statistical Mechanics](2_statistical-mechanics.md)**: The fluctuation-dissipation theorem connects equilibrium statistical mechanics to transport coefficients measured in non-equilibrium settings.
+- **[Irreversible Thermodynamics and Fluctuations](19_irreversible-thermodynamics-and-fluctuations.md)**: Linear response theory is extended to irreversible processes and entropy production in this chapter.
+- **[Common Pitfalls](8_common-pitfalls.md)**: Confusing response functions with fluctuation quantities is a frequent error addressed in both sections.
+
