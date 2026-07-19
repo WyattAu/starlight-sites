@@ -630,3 +630,14 @@ polymers), chemical analysis (chromatography, flame tests, instrumental methods)
 reaction (collision theory, factors affecting rate, Le Chatelier's principle). Key exam skills
 include balancing equations with state symbols, showing all working in calculations, and applying Le
 Chatelier's principle with full reasoning.
+
+## Intuition
+
+Chemistry explains how atoms combine to form the substances that make up everything around you. Bonding is about how electrons are shared or transferred between atoms, determining properties like melting point and conductivity. Chemical reactions are rearrangements of atoms, where old bonds break and new ones form. The mole concept bridges the atomic world and the laboratory, letting you predict exactly how much product a reaction will produce. Understanding these principles lets you predict the behavior of matter before you even enter the lab.
+
+## Cross-References
+
+- [Chemistry](chemistry)
+- [2 Bonding](chemistry/2-bonding/2_bonding)
+- [Biology](biology)
+- [2 Organisation](biology/2-organisation/2_organisation)

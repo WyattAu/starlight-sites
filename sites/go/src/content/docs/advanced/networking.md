@@ -444,3 +444,13 @@ client := &http.Client{
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Networking in Go is built on the net package which provides low-level TCP and UDP primitives, and the net/http package which layers HTTP semantics on top. TCP connections are persistent bidirectional streams -- you always set timeouts to prevent goroutines from blocking forever on a dead connection. The HTTP server uses a multiplexer that routes requests to handlers based on URL patterns, and middleware wraps handlers in a chain to add cross-cutting behavior like logging or authentication. Context propagation lets you cancel in-flight work when a client disconnects. WebSockets upgrade a standard HTTP connection into a persistent bidirectional channel for real-time communication.
+
+## Cross-References
+
+- [Functions](/docs/go/basics/functions) -- first-class functions and closures used in middleware
+- [Goroutines and Synchronization](/docs/go/concurrency/goroutines) -- lightweight threads for handling connections
+- [Channels and Concurrency Patterns](/docs/go/concurrency/channels) -- fan-out, fan-in, and pipelines

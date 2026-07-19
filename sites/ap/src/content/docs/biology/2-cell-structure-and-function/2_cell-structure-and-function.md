@@ -865,3 +865,15 @@ genetic variation.
 | Chromosome number | Same as parent                       | Half of parent                              |
 | Genetic variation | No                                   | Yes (crossing over, independent assortment) |
 | Function          | Growth, repair, asexual reproduction | Production of gametes                       |
+
+## Intuition
+
+Behind every scientific discovery and technological innovation lies mathematics. Functions model relationships between variables, statistics reveals patterns in data, and logic ensures rigorous reasoning. Mathematics teaches us to think precisely, solve systematically, and communicate clearly - skills that are valuable far beyond the classroom.
+
+
+## Cross-References
+
+- [Algebra](/docs/ap/mathematics/algebra)
+- [Calculus](/docs/ap/mathematics/calculus)
+- [Statistics](/docs/ap/mathematics/statistics)
+- [Trigonometry](/docs/ap/mathematics/trigonometry)

@@ -392,5 +392,12 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
 
-</aside>
+Dart classes are blueprints for objects, with single inheritance and implicit interfaces -- every class defines both an implementation and a contract that other classes can implement. Mixins provide code reuse across unrelated classes without the diamond problem of multiple inheritance. Data classes are auto-generators that produce equals, hashCode, toString, and copy from the property list. Extension methods add behavior to existing types without modifying their source, compiling to static methods with the receiver as the first parameter. Operator overloading lets you define custom behavior for symbols like +, -, [], and () by implementing specific method names.
+
+## Cross-References
+
+- [Variables](/docs/dart/03-basics/02-variables) -- final fields and type system
+- [Async and Futures](/docs/dart/05-async/01-async-and-futures) -- async factory constructors
+- [Pattern Matching](/docs/dart/07-dart3-features/01-pattern-matching) -- sealed classes and exhaustive matching

@@ -183,3 +183,13 @@ $$f'(x) = \frac{(1 + x^2)^2}{1 + 3x^2 + x^4} \cdot \frac{1 - x^2}{(1 + x^2)^2} =
 8. When differentiating inverse trigonometric functions, always apply the chain rule: $\frac{d}{dx}[\tan^{-1}(u)] = \frac{u'}{1 + u^2}$.
 9. For piecewise functions, check differentiability at the boundary by verifying that the left and right derivatives are equal.
 10. In CBSE exams, questions often combine multiple rules (product + chain, quotient + chain). Practice identifying which rules to apply in which order.
+
+## Intuition
+
+A derivative measures how fast something changes at a single instant. Think of it as the slope of a tangent line touching a curve -- it tells you whether the function is going up, going down, or flat at that point. The power rule is the simplest case: the derivative of x^n is n times x^(n-1), which follows from the pattern of how polynomial rates work. The chain rule handles nested functions: if something depends on something else that depends on x, you multiply their individual rates of change. Implicit differentiation is useful when y is buried inside an equation and you cannot isolate it easily.
+
+## Cross-References
+
+- [Integrals](/docs/cbse/mathematics/integrals) -- the reverse of differentiation
+- [Matrices](/docs/cbse/mathematics/matrices) -- linear algebra foundations
+- [CBSE Physics](/docs/cbse/physics) -- applications of derivatives in mechanics

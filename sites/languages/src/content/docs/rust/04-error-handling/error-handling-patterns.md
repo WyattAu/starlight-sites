@@ -999,3 +999,13 @@ linked above.
 
 
 </aside>
+## Intuition
+
+Error handling patterns in Rust build on Result and Option to create robust applications. The map_err function transforms error types without unwrapping. and_then chains operations that might fail. The anyhow crate provides dynamic error types for applications, while thiserror facilitates library error types. Combining these patterns with the ? operator creates clean error propagation that the compiler verifies exhaustively.
+
+## Cross-References
+
+- [[rust/04-error-handling/error-handling]] - Result and Option fundamentals
+- [[rust/02-ownership-borrowing/ownership]] - Ownership semantics in error chains
+- [[rust/05-traits-generics/traits-and-generics]] - Trait-based error conversion
+- [[rust/03-structs-enums/advanced-patterns]] - Pattern matching on error variants

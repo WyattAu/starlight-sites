@@ -736,3 +736,15 @@ $$a = \frac{F_{\text{net}}}{m} = \frac{10}{2.0} = 5.0\,\text{m\,s}^{-2}$$
 - Circular motion in magnetic field: $r = mv/(qB)$, $T = 2\pi m/(qB)$
 - Magnetic fields do no work (force $\perp$ velocity), so speed and KE are constant
 - Fleming's left-hand rule for direction of force on conventional current
+
+## Intuition
+
+Physics reveals that nature follows mathematical laws at every scale. Matter is made of atoms, forces arise from field interactions, and energy is conserved in every transformation. The power of physics lies in its predictive ability - from calculating projectile trajectories to designing particle accelerators. Understanding these principles helps us technology, predict natural phenomena, and appreciate the universe's underlying order.
+
+
+## Cross-References
+
+- [Mechanics](/docs/ib/physics/mechanics)
+- [Waves](/docs/ib/physics/waves)
+- [Electricity](/docs/ib/physics/electricity)
+- [Fields](/docs/ib/physics/fields)

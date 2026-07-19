@@ -961,3 +961,13 @@ linked above.
 
 
 </aside>
+## Intuition
+
+Interior mutability lets you modify data through a shared reference, bypassing the usual borrowing rules at runtime. RefCell performs borrow checking at runtime, panicking on violations. Cell provides copyable values without borrow checks. Mutex and RwLock enable thread-safe interior mutability. This pattern is essential for building safe abstractions like caches, lazy initialization, and reference-counted shared state where compile-time checking is too restrictive.
+
+## Cross-References
+
+- [[rust/02-ownership-borrowing/ownership]] - Compile-time borrow checking rules
+- [[rust/02-ownership-borrowing/lifetimes]] - Lifetime constraints on mutable references
+- [[rust/06-concurrency/concurrency]] - Thread-safe mutability patterns
+- [[rust/03-structs-enums/structs-and-enums]] - Structs with RefCell fields

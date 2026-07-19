@@ -754,3 +754,14 @@ Swift's type system separates value types (structs) from reference types (classe
 distinct semantics. Protocols and extensions enable flexible abstractions without inheritance.
 Generics provide type-safe reusable code, and ARC manages reference type memory automatically.
 Understanding these concepts is essential for designing robust, efficient Swift applications.
+
+## Intuition
+
+Swift's choice between structs and classes is a fundamental design decision. Structs are value types: they copy on assignment and live on the stack for small sizes. Classes are reference types: they share references and live on the heap with ARC managing their lifetime. Use structs by default and switch to classes only when you need inheritance, shared mutable state, or Objective-C interop. Protocol-oriented design often eliminates the need for class inheritance entirely.
+
+## Cross-References
+
+- [[swift/01-basics/1_variables-and-types]] - Value types versus reference types
+- [[swift/02-functions-closures/1_functions]] - Methods, initializers, and closures
+- [[swift/04-advanced/1_error-handling]] - Error propagation in class hierarchies
+- [[swift/04-advanced/2_concurrency]] - Actors for thread-safe reference types

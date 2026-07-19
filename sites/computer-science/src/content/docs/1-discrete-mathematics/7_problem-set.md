@@ -350,6 +350,10 @@ $\blacksquare$
 - Combinatorics: permutations, combinations, inclusion-exclusion, pigeonhole principle.
 - Graph theory: Euler's formula ($V - E + F = 2$), trees, planarity, chromatic number.
 
+## Intuition
+
+Practice problems consolidate theoretical understanding. Work through problems systematically: understand the problem, identify relevant concepts, design a solution approach, implement or prove, and verify. Start with concrete examples, then generalize. This iterative process builds intuition for recognizing problem types and selecting appropriate techniques from your mathematical toolkit.
+
 ## Cross-References
 
 | Topic                           | Site        | Link                                                                                   |

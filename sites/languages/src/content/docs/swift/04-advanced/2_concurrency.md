@@ -705,3 +705,14 @@ Swift's structured concurrency model provides compile-time safety for asynchrono
 prevent data races, `Sendable` ensures safe data transfer, and `@MainActor` keeps UI updates on the
 main thread. Together, these eliminate entire categories of concurrency bugs while maintaining the
 expressiveness and performance Swift is known for.
+
+## Intuition
+
+Swift's concurrency model provides structured concurrency where tasks form a hierarchy. Async/await replaces callback-based APIs with linear code flow. Actors are reference types that serialize access to their mutable state, preventing data races without locks. Sendable conformance proves that a value can be safely transferred across concurrency boundaries. The MainActor ensures UI updates happen on the main thread, and the compiler enforces isolation boundaries at compile time.
+
+## Cross-References
+
+- [[swift/00-intro/1_swift-intro]] - Swift's safety and performance goals
+- [[swift/02-functions-closures/1_functions]] - Async function signatures
+- [[swift/03-oop/1_classes-and-structs]] - Actors as concurrent reference types
+- [[swift/04-advanced/1_error-handling]] - Error handling in async contexts

@@ -461,3 +461,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Binary caching stores pre-compiled packages to avoid rebuilding dependencies. vcpkg, Conan, and CCache all support binary caching strategies. Local caches serve individual developers, while shared caches (S3, Artifactory) distribute binaries across teams. Cache invalidation based on compiler version, build flags, and dependency changes ensures correctness while maximizing cache hits.
+
+## Cross-References
+
+- [[enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models]] - Dependency management overview
+- [[enviroment_and_toolchain/2_build_system/4_build_caching.mdx]] - Build-level caching
+- [[enviroment_and_toolchain/3_dependency_management/3_vcpkg.md]] - vcpkg binary caching
+- [[enviroment_and_toolchain/3_dependency_management/4_conan.md]] - Conan binary packages

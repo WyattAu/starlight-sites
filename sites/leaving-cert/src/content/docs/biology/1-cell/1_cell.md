@@ -745,3 +745,14 @@ evidence, and real-world applications.
 
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
+
+## Intuition
+
+Biology is the study of living systems at every scale, from molecules to ecosystems. Cells are the fundamental units of life, each one a factory of chemical reactions powered by energy from food or sunlight. Understanding how structures relate to functions, like how the shape of an enzyme determines what it can do, helps you see why organisms work the way they do. The key insight is that all life shares common molecular machinery, from DNA to ATP, which is why studying one organism often reveals principles that apply across all life.
+
+## Cross-References
+
+- [1 Cell](biology/1-cell/1_cell)
+- [2 Ecology](biology/2-ecology/2_ecology)
+- [1 Atomic Structure](chemistry/1-atomic-structure/1_atomic-structure)
+- [2 Bonding](chemistry/2-bonding/2_bonding)

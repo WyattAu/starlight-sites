@@ -432,3 +432,13 @@ Research methods form the foundation of all psychological investigation. Key poi
   distinct strengths and limitations.
 - Peer review ensures quality control in published research but is not without its own biases and
   limitations.
+
+## Intuition
+
+Human behaviour emerges from the interaction of biological, cognitive, and social factors. Our brains are wired to respond to threats, form relationships, and seek meaning. Psychology reveals the hidden mechanisms behind everyday decisions - why we conform to groups, how memories form and fade, and what drives us to pursue goals. These insights apply to education, relationships, and personal wellbeing.
+
+
+## Cross-References
+
+- [Approaches in Psychology](/docs/alevel/psychology/approaches)
+- [Biopsychology](/docs/alevel/psychology/biopsychology)

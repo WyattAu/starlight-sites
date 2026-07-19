@@ -304,3 +304,15 @@ $$y^2 = x^2 + 3$$
 - Not checking whether $\frac{d^2y}{dx^2} = 0$ requires a first derivative test
 - Errors in substitution for integration by substitution (forgetting to change the limits for
   definite integrals or to convert $dx$ to $du$)
+
+## Intuition
+
+Mathematical thinking is about abstraction and pattern recognition. Numbers, shapes, and equations are tools for modelling reality - from calculating interest to predicting weather. The beauty of mathematics is that once a pattern is discovered, it can be applied universally. This connects algebra, geometry, and calculus into a coherent framework for understanding quantity, space, and change.
+
+
+## Cross-References
+
+- [Algebra](/docs/dse/mathematics/algebra)
+- [Calculus](/docs/dse/mathematics/calculus)
+- [Statistics](/docs/dse/mathematics/statistics)
+- [Trigonometry](/docs/dse/mathematics/trigonometry)

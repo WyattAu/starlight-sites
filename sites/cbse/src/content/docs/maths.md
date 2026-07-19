@@ -455,3 +455,14 @@ $$P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}$$
 ## Summary
 
 CBSE Mathematics covers sets and functions, algebra (matrices, determinants, complex numbers, quadratics), calculus (limits, derivatives, integration, applications), coordinate geometry (straight lines, conic sections), trigonometry (identities, equations, inverse functions, properties of triangles), and probability and statistics (measures of central tendency, variance, binomial distribution, Bayes' theorem). The theory paper is 80 marks and the internal assessment is 20 marks. Key exam strategies include showing all working, managing time, memorising NCERT formulas, and practising previous-year papers.
+
+## Intuition
+
+Mathematics is generalized arithmetic with patterns that repeat across problems. Algebra lets you solve problems without knowing the specific numbers -- you work with symbols that stand for any value. Functions are machines: you put a number in, follow a rule, and get a number out. Calculus has two sides -- derivatives measure instantaneous rate of change (like a speedometer reading at a single moment), and integrals accumulate quantity (like adding up infinitely many thin slices to find total area). Matrices are grids of numbers that encode transformations, and probability quantifies how uncertain outcomes actually are.
+
+## Cross-References
+
+- [Derivatives](/docs/cbse/mathematics/derivatives) -- differentiation rules and chain rule
+- [Integrals](/docs/cbse/mathematics/integrals) -- integration techniques and definite integrals
+- [Matrices](/docs/cbse/mathematics/matrices) -- operations, determinants, and inverse
+- [Types of Relations](/docs/cbse/mathematics/relations-functions/types-of-relations) -- equivalence and properties

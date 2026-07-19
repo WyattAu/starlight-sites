@@ -220,3 +220,13 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Intuition
+
+Think of CBSE as a structured ladder for Indian students. Each class builds on the previous one, with Class 10 as a checkpoint and Class 12 as the launchpad for university. The board exam pattern rewards understanding over memorization -- questions test whether you can apply concepts, not just recall them. Internal assessments give you marks for consistent effort throughout the year, while the board exam tests your ability to perform under pressure. The nine-point grading scale in Class 10 reduces stress by grouping marks into bands, but Class 12 uses raw scores because university admissions need precise differentiation.
+
+## Cross-References
+
+- [CBSE Mathematics](/docs/cbse/maths) -- algebra, calculus, and probability
+- [CBSE Physics](/docs/cbse/physics) -- mechanics, thermodynamics, and electromagnetism
+- [CBSE Chemistry](/docs/cbse/chemistry) -- physical, inorganic, and organic branches

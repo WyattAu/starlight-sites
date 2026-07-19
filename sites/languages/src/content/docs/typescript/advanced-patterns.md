@@ -914,3 +914,14 @@ $\blacksquare$
 - Branded types encode semantic distinctions (e.g., `UserId` vs `OrderId`) without runtime cost.
 - Recursive type aliases (TypeScript 4.1+) enable deep utility types like `DeepReadonly`,
   `DeepPartial`.
+
+## Intuition
+
+Advanced patterns combine TypeScript's type-level features to create sophisticated abstractions. Discriminated unions with exhaustive checking ensure every variant is handled, using never to prove completeness. Branded types add semantic meaning to primitive types without runtime cost. Builder patterns use method chaining with return types to enforce required steps. Recursive types like DeepPartial and DeepReadonly traverse nested structures, while variadic tuples enable type-safe function composition.
+
+## Cross-References
+
+- [[typescript/generics]] - Conditional and mapped type foundations
+- [[typescript/advanced-types]] - Type-level arithmetic and template literals
+- [[typescript/classes]] - Structural versus nominal typing trade-offs
+- [[typescript/error-handling]] - Result patterns and exhaustive switch statements

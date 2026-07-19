@@ -717,3 +717,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Records are concise data carriers where the compiler generates the constructor, accessors, equals, hashCode, and toString from the component list. They are inherently immutable and provide structural equality, making them ideal for value objects and map keys. Sealed classes restrict which types can extend them, enabling the compiler to verify exhaustive pattern matching in switch expressions -- this transforms runtime dispatch bugs into compile-time errors. Pattern matching for instanceof combines type checking and casting into one expression, eliminating verbose boilerplate. Switch expressions with arrow syntax eliminate fall-through bugs and can produce values directly, aligning Java with functional programming patterns.
+
+## Cross-References
+
+- [Classes and Inheritance](/docs/java/03-object-oriented/01-classes) -- class declarations and Object methods
+- [Inheritance and Polymorphism](/docs/java/03-object-oriented/02-inheritance-polymorphism) -- abstract classes and interfaces
+- [Control Flow](/docs/java/02-fundamentals/02-control-flow) -- switch expressions and pattern matching

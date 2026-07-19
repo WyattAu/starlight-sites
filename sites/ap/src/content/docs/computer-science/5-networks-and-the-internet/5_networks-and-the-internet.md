@@ -916,3 +916,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Computer science combines mathematical logic with engineering实践. Algorithms are the blueprints for solving problems, data structures are the building blocks for organising information, and programming is the construction process. Understanding these concepts allows us to create software systems that are efficient, reliable, and scalable.
+
+
+## Cross-References
+
+- [Computational Thinking](/docs/ap/computer.?science/computational-thinking)
+- [Data Analysis](/docs/ap/computer.?science/data-analysis)
+- [Algorithms](/docs/ap/computer.?science/algorithms)

@@ -848,3 +848,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+TypeScript's type system is your compile-time documentation. Primitives like string and number map directly to JavaScript values. The key insight is understanding any versus unknown: any disables type checking entirely while unknown forces you to narrow before use. Union types create value sets where only shared members are accessible, and discriminated unions enable exhaustive pattern matching. Type narrowing through control flow analysis lets the compiler track exactly which type a variable holds at each point in your code.
+
+## Cross-References
+
+- [[typescript/generics]] - Building reusable type-safe abstractions
+- [[typescript/advanced-types]] - Conditional types, mapped types, and type-level computation
+- [[typescript/error-handling]] - Using never and unknown for robust error handling
+- [[typescript/classes]] - Structural typing for class hierarchies

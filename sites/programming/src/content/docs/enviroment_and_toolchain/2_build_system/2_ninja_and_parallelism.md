@@ -742,3 +742,14 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Ninja is a small, fast build system that CMake can generate for. It excels at incremental builds by tracking file dependencies precisely. Parallelism is automatic based on available CPU cores, and job server integration allows coordination with other build tools. Ninja's speed makes it the preferred generator for development, while Make remains common for CI environments.
+
+## Cross-References
+
+- [[enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator]] - CMake target configuration
+- [[enviroment_and_toolchain/2_build_system/4_build_caching.mdx]] - Build caching for faster iterations
+- [[enviroment_and_toolchain/2_build_system/6_code_coverage.mdx]] - Coverage with parallel builds
+- [[enviroment_and_toolchain/2_build_system/5_unit_tests]] - Parallel test execution

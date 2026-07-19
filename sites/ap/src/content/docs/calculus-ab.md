@@ -459,3 +459,15 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Intuition
+
+Mathematics provides the language for describing patterns, relationships, and change. Functions transform inputs to outputs like machines, calculus measures how things change and accumulate, and probability quantifies uncertainty. The power of mathematics lies in its ability to model real-world situations abstractly, allowing us to solve problems and make predictions across science, engineering, and everyday life.
+
+
+## Cross-References
+
+- [Algebra](/docs/ap/mathematics/algebra)
+- [Calculus](/docs/ap/mathematics/calculus)
+- [Statistics](/docs/ap/mathematics/statistics)
+- [Trigonometry](/docs/ap/mathematics/trigonometry)

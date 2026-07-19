@@ -511,6 +511,10 @@ A property is **non-trivial** if it holds for some TMs and not for others.
 - **Church-Turing thesis:** TMs capture all algorithmic computation.
 - **Halting problem** is undecidable (diagonalization). **Rice's theorem** generalizes undecidability.
 
+## Intuition
+
+Automata theory studies abstract computing models. Finite automata recognize regular languages. Pushdown automata recognize context-free languages. Turing machines define the limits of computation. The Chomsky hierarchy classifies languages by automata complexity. Understanding these models reveals what can and cannot be computed, and informs compiler design, protocol verification, and formal specification.
+
 ## Cross-References
 
 | Topic | Link |

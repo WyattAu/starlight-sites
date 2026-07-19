@@ -148,3 +148,15 @@ This page includes:
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
+
+## Intuition
+
+From Newton's apple to quantum particles, physics explains how the world works through measurable quantities and testable laws. Forces cause acceleration, energy transforms between forms but is never lost, and waves carry information across vast distances. These concepts form the foundation for engineering, astronomy, and our understanding of reality itself.
+
+
+## Cross-References
+
+- [Mechanics](/docs/alevel/physics/mechanics)
+- [Waves](/docs/alevel/physics/waves)
+- [Electricity](/docs/alevel/physics/electricity)
+- [Fields](/docs/alevel/physics/fields)

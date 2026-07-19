@@ -125,3 +125,15 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+
+## Intuition
+
+The molecular world governs our everyday experience. Chemical bonds determine material properties, reactions drive metabolism, and equilibrium governs biological processes. Understanding chemistry means understanding how matter transforms - from cooking food to manufacturing pharmaceuticals. These principles are essential for medicine, environmental science, and materials engineering.
+
+
+## Cross-References
+
+- [Atomic Structure](/docs/ap/chemistry/atomic-structure)
+- [Bonding](/docs/ap/chemistry/bonding)
+- [Stoichiometry](/docs/ap/chemistry/stoichiometry)
+- [Thermodynamics](/docs/ap/chemistry/thermodynamics)

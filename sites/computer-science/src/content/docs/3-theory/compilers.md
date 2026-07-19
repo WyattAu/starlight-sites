@@ -717,6 +717,10 @@ instructions in sequence.
 - **Code generation** maps IR to target machine instructions with instruction selection and
   scheduling.
 
+## Intuition
+
+Compilers translate source code to machine code through phases: lexical analysis tokenizes input, parsing builds syntax trees, semantic analysis checks meaning, optimization transforms for performance, and code generation produces output. Understanding these phases helps you write code that compilers can optimize effectively and diagnose cryptic error messages by knowing which compilation phase produced them.
+
 ## Cross-References
 
 | Topic                         | Link                                                                    |

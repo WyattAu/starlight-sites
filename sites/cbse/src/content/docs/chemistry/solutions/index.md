@@ -101,3 +101,13 @@ Freezing point = $0 - 5.58 = -5.58^\circ$C
 3. Osmotic pressure is measured in SI units: use $R = 8.314$ J/(mol K) with Pa, or convert to atm and use $R = 0.0821$ L atm/(mol K).
 4. When comparing solutions, the one with higher effective particle concentration has larger colligative effects.
 5. Abnormal molar masses from colligative properties indicate dissociation (lower molar mass) or association (higher molar mass).
+
+## Intuition
+
+Solutions are mixtures where solute particles disperse evenly through a solvent. Concentration units are just different ways of expressing the same ratio -- molarity counts moles per liter of solution, molality counts moles per kilogram of solvent. Raoult's law says that a solvent's vapor pressure drops when you add solute because solute particles occupy surface sites, reducing the solvent's ability to evaporate. Colligative properties are the macroscopic consequences of this microscopic crowding: more particles mean more interference with boiling, freezing, and osmosis. Strong electrolytes like NaCl produce more particles than weak ones, amplifying these effects.
+
+## Cross-References
+
+- [Colligative Properties](/docs/cbse/chemistry/solutions/01-colligative-properties) -- detailed colligative property calculations
+- [Chemical Kinetics](/docs/cbse/chemistry/chemical-kinetics) -- concentration effects on reaction rates
+- [CBSE Physics](/docs/cbse/physics) -- kinetic theory of gases

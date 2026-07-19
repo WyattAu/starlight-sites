@@ -894,3 +894,15 @@ $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 
 
 </aside>
+
+## Intuition
+
+Chemistry studies how atoms combine and react to form everything around us. The periodic table organises elements by their properties, chemical bonds hold molecules together, and reactions transform one substance into another. From the air we breathe to the food we eat, chemistry explains the material basis of life and the principles behind countless technologies.
+
+
+## Cross-References
+
+- [Atomic Structure](/docs/ap/chemistry/atomic-structure)
+- [Bonding](/docs/ap/chemistry/bonding)
+- [Stoichiometry](/docs/ap/chemistry/stoichiometry)
+- [Thermodynamics](/docs/ap/chemistry/thermodynamics)

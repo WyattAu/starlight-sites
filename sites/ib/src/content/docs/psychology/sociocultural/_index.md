@@ -129,3 +129,7 @@ superordinate goals, and recategorisation.
 | Social Identity Theory       | [View](/docs_ib/psychology/sociocultural/social-identity-theory)        |
 | Cultural Norms and Attitudes | [View](/docs_ib/psychology/sociocultural/cultural-norms-and-attritudes) |
 | Prejudice and Discrimination | [View](/docs_ib/psychology/sociocultural/prejudice-and-discrimination)  |
+
+## Intuition
+
+The mind works like an information processing system. Perception filters raw sensory data, memory stores and retrieves experiences, and thinking organises knowledge into decisions. Understanding these mental processes helps explain why people behave differently in similar situations. The key insight is that internal mental states, though invisible, can be studied scientifically through careful observation and experimentation.

@@ -324,3 +324,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Control flow in Kotlin is expression-oriented -- if, when, try/catch, and even lambdas return values. The when expression replaces switch with pattern matching, type checking, and range containment in one construct. When used as an expression, when must be exhaustive -- the compiler ensures all cases are covered for sealed classes and enums, turning missing cases into compile-time errors. For loops iterate over anything with an iterator, including ranges, collections, and destructuring patterns. Labeled returns let you break out of nested lambdas, though in practice standard library functions like firstOrNull are preferred. Kotlin has no checked exceptions, so try/catch is optional and used only when you can meaningfully recover.
+
+## Cross-References
+
+- [Types and Variables](/docs/kotlin/basics/types-and-variables) -- nullable types and smart casts
+- [Functions](/docs/kotlin/basics/functions) -- lambdas and higher-order functions
+- [Classes and Objects](/docs/kotlin/basics/classes-and-objects) -- sealed classes and exhaustive when

@@ -320,3 +320,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Kotlin collections split into read-only and mutable interfaces, where read-only means no mutation methods are exposed -- but the underlying object may still be mutable through another reference. Transformation operations like map, filter, and flatMap create new collections, enabling a functional style without modifying originals. Sequences are lazy versions of collections that process elements one at a time through the entire pipeline, avoiding intermediate collection allocation for large datasets. Grouping, partitioning, and association operations reorganize collections by keys or predicates. The toList() function creates a defensive snapshot, which is essential when modifying a collection during iteration.
+
+## Cross-References
+
+- [Types and Variables](/docs/kotlin/basics/types-and-variables) -- nullable collections vs collections of nullables
+- [Functions](/docs/kotlin/basics/functions) -- higher-order functions like map and filter
+- [Coroutines](/docs/kotlin/intermediate/coroutines) -- Flow as a lazy asynchronous collection

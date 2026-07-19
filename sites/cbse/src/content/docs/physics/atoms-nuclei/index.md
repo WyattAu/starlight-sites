@@ -158,3 +158,13 @@ $$A = A_0 e^{-\lambda t} = 800 \times e^{-0.1386 \times 15} = 800 \times e^{-2.0
 3. In nuclear reactions, always conserve mass number, atomic number, and charge
 4. For binding energy calculations, the mass defect is always positive (products have less mass than constituents)
 5. Activity is measured in Becquerels (Bq): 1 Bq = 1 decay per second
+
+## Intuition
+
+Atoms are tiny solar systems where electrons orbit the nucleus in quantized energy levels. When an electron jumps between levels, it emits or absorbs a photon with energy exactly equal to the gap -- this is why atoms produce discrete spectral lines rather than a continuous rainbow. The nucleus holds protons and neutrons together with the strong nuclear force, and the mass defect tells you how much energy is locked in that bond. Radioactive decay is random at the individual atom level but predictable in bulk: the half-life tells you how long it takes for half the atoms to decay, regardless of how many you start with.
+
+## Cross-References
+
+- [CBSE Physics](/docs/cbse/physics) -- modern physics and photoelectric effect
+- [CBSE Chemistry](/docs/cbse/chemistry) -- atomic structure and electronic configuration
+- [CBSE Mathematics](/docs/cbse/maths) -- exponential functions and logarithms

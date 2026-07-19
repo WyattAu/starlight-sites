@@ -895,4 +895,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-</aside>
+## Intuition
+
+Inheritance establishes an is-a relationship where a subclass inherits fields and methods from a superclass. Java enforces single class inheritance to avoid the diamond problem, but allows multiple interface implementation for type polymorphism. Polymorphism means the JVM dispatches method calls based on the actual object type at runtime, not the declared reference type -- this is why a Dog reference stored in an Animal variable still calls Dog's eat method. The Liskov Substitution Principle says subtypes must honor their superclass contract; violating it breaks code that depends on the superclass. Composition over inheritance is generally preferred because it creates looser coupling and avoids the fragile base class problem.
+
+## Cross-References
+
+- [Classes and Inheritance](/docs/java/03-object-oriented/01-classes) -- class declarations and access modifiers
+- [Streams API](/docs/java/05-streams/01-streams-api) -- functional interfaces and lambdas
+- [Concurrency](/docs/java/06-concurrency/01-concurrency) -- thread safety and synchronization</aside>

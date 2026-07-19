@@ -170,3 +170,14 @@ Then $s \in [0, 1)$ and $s$ differs from $r_i$ in the $i$-th decimal place for e
 $s \notin \\{r_1, r_2, \ldots\\}$Contradicting the assumption that the list was complete. Therefore
 $\mathbb{{'}R{}'}$ is uncountable. $\blacksquare$
 
+
+## Intuition
+
+Sets are unordered collections of distinct elements. Relations connect elements from different sets, with properties like reflexivity, symmetry, and transitivity. Functions are special relations where each input maps to exactly one output. These concepts underpin database theory (relations), type systems (functions), and abstract algebra (groups, rings). Understanding set operations (union, intersection, complement) is essential for query languages and logic.
+
+## Cross-References
+
+- [[1-discrete-mathematics/1_propositional-and-predicate-logic]] - Logic foundations
+- [[1-discrete-mathematics/3_proof-techniques]] - Proof techniques
+- [[2-systems/databases]] - Relational database theory
+- [[1-discrete-mathematics/4_combinatorics]] - Counting and sets

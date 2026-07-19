@@ -871,3 +871,14 @@ Describe the roles of photosystems I and II in the light-dependent reactions of 
 - **Photosystem I (PSI):** Absorbs light at $700\,\text{nm}$ (P700). Electrons from PSII (via the
   electron transport chain) are re-energised. These electrons are passed to NADP$^+$ along with
   $\text{H}^+$ ions to form NADPH.
+
+## Intuition
+
+Living organisms are remarkably organised systems. Cells function as factories with specialised departments, genetics stores the blueprint library, and ecology maps the web of interconnected relationships. Life maintains itself through intricate feedback mechanisms, from molecular pathways within cells to population dynamics across ecosystems. Understanding biology reveals how structure determines function at every level.
+
+
+## Cross-References
+
+- [Cell Structure and Function](/docs/ap/biology/cell-structure)
+- [Heredity](/docs/ap/biology/heredity)
+- [Natural Selection](/docs/ap/biology/natural-selection)

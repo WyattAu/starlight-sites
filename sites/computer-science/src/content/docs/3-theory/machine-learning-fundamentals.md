@@ -597,6 +597,10 @@ equidistant from all training data, so the classification is ambiguous.
 - **Bias-variance tradeoff** guides model complexity: underfitting (high bias) vs. overfitting (high
   variance).
 
+## Intuition
+
+Machine learning finds patterns in data without explicit programming. Supervised learning trains on labeled examples. Unsupervised learning discovers structure in unlabeled data. Neural networks compose simple functions into complex models. Backpropagation computes gradients through chain rule application. The bias-variance trade-off balances model complexity against generalization, and cross-validation estimates real-world performance.
+
 ## Cross-References
 
 | Topic               | Link                                                        |

@@ -676,3 +676,14 @@ Swift's type system provides strong safety guarantees through explicit optionals
 and comprehensive pattern matching. Collections (arrays, dictionaries, sets) are value types with
 rich functional operations. Control flow with `guard`, `switch`, and pattern matching enables clean,
 safe code that is difficult to write incorrectly.
+
+## Intuition
+
+Swift's type system enforces safety at compile time. Let creates immutable constants while var creates mutable variables, and the compiler prefers let whenever possible. Type inference eliminates verbose annotations while keeping full type safety. Optionals (Type?) represent values that might be absent, forcing explicit unwrapping with if let, guard let, or the nil-coalescing operator. The distinction between value types (structs, enums) and reference types (classes) is fundamental to Swift's memory model.
+
+## Cross-References
+
+- [[swift/00-intro/1_swift-intro]] - Language overview and design philosophy
+- [[swift/02-functions-closures/1_functions]] - Function parameter types and return values
+- [[swift/03-oop/1_classes-and-structs]] - Structs and classes in depth
+- [[swift/04-advanced/1_error-handling]] - Optional handling patterns

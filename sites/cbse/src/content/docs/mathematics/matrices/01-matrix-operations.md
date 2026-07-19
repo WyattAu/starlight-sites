@@ -98,3 +98,13 @@ So $x = 1$, $y = 2$.
 4. If $\det(A) = 0$, the matrix is singular and the system may have no solution or infinitely many solutions.
 5. Practice expanding determinants along different rows to build speed and accuracy.
 6. For a triangular matrix (upper or lower), the determinant is the product of diagonal entries.
+
+## Intuition
+
+Matrix operations are rules for combining grids of numbers. Multiplication is not just multiplying corresponding entries -- it is a dot-product process that combines rows of one matrix with columns of another, encoding how linear transformations compose. The determinant measures the scaling factor of a transformation: if it is zero, the transformation squashes space into a lower dimension, losing information and making the matrix impossible to invert. Finding an inverse is like asking "what transformation undoes this one?" The adjugate method is systematic but tedious; for 2x2 matrices there is a simple shortcut of swapping diagonal elements and negating off-diagonal ones.
+
+## Cross-References
+
+- [Matrices](/docs/cbse/mathematics/matrices) -- broader matrix theory and properties
+- [Derivatives](/docs/cbse/mathematics/derivatives) -- calculus foundations
+- [CBSE Physics](/docs/cbse/physics) -- vectors and coordinate transformations

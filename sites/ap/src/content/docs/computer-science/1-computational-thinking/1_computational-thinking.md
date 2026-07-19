@@ -1052,3 +1052,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Computer science is about solving problems efficiently. Algorithms are like recipes - step-by-step procedures for accomplishing tasks. Data structures are containers that organise information for efficient access and modification. The art of computer science lies in choosing the right algorithm and data structure for each problem, balancing speed, memory, and complexity.
+
+
+## Cross-References
+
+- [Data Analysis](/docs/ap/computer.?science/data-analysis)
+- [Algorithms](/docs/ap/computer.?science/algorithms)

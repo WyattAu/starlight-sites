@@ -335,3 +335,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Go's type system is strict about explicit conversions -- you cannot accidentally mix int and float64 without casting. Every type has a zero value (0 for numbers, false for bools, nil for pointers/slices/maps) so variables are never uninitialized, eliminating an entire class of bugs. Strings are immutable sequences of UTF-8 bytes, and indexing gives you bytes not runes -- use for range to iterate over Unicode characters. iota generates sequential constants automatically, perfect for bit flags and enumerations. Type aliases create true new types that cannot be implicitly converted, preventing you from accidentally adding meters to kilograms.
+
+## Cross-References
+
+- [Arrays, Slices, and Maps](/docs/go/basics/arrays-slices-maps) -- collection types and zero values
+- [Functions](/docs/go/basics/functions) -- closures and type conversions
+- [Pointers and Memory](/docs/go/advanced/pointers-and-memory) -- escape analysis and heap allocation

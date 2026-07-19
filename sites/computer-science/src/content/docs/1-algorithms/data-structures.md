@@ -644,6 +644,10 @@ h(k) = k mod 7. **Solution:** h(10)=3, h(22)=1, h(31)=3, h(4)=4, h(15)=1, h(28)=
 - **Amortized analysis** (aggregate, accounting, potential) bounds total cost of a sequence, not
   individual operations.
 
+## Intuition
+
+Data structures organize data for efficient access and modification. Arrays provide O(1) access but O(n) insertion. Linked lists offer O(1) insertion but O(n) access. Hash tables combine O(1) average operations with O(n) worst case. Trees maintain sorted order with O(log n) operations. The choice depends on your access patterns: random access favors arrays, frequent insertion favors linked lists, key-value lookup favors hash tables.
+
 ## Cross-References
 
 | Topic             | Link                                                        |

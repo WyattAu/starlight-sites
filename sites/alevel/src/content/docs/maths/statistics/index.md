@@ -119,3 +119,15 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+
+## Intuition
+
+Behind every scientific discovery and technological innovation lies mathematics. Functions model relationships between variables, statistics reveals patterns in data, and logic ensures rigorous reasoning. Mathematics teaches us to think precisely, solve systematically, and communicate clearly - skills that are valuable far beyond the classroom.
+
+
+## Cross-References
+
+- [Algebra](/docs/alevel/mathematics/algebra)
+- [Calculus](/docs/alevel/mathematics/calculus)
+- [Statistics](/docs/alevel/mathematics/statistics)
+- [Trigonometry](/docs/alevel/mathematics/trigonometry)

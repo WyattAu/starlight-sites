@@ -152,3 +152,13 @@ Step 2: Match with crystal systems:
 **Answer:** The compound belongs to the tetragonal crystal system.
 
 **Common mistake:** Forgetting that crystal systems are defined by both edge length relationships and angle relationships.
+
+## Intuition
+
+Crystal structure is nature's way of packing atoms as efficiently as possible. Imagine stacking oranges at a grocery store -- there are only a few ways to arrange them so they do not fall. Simple cubic is like stacking layers directly on top of each other (wasteful, lots of gaps). Body-centered cubic puts one atom in the center of a cube of eight corner atoms. Face-centered cubic fills the gaps by placing atoms on each face, achieving the densest packing at 74%. The voids between atoms are like empty pockets where smaller atoms can sit, and the radius ratio tells you which voids a smaller atom can fit into.
+
+## Cross-References
+
+- [Solutions](/docs/cbse/chemistry/solutions) -- how solutes interact with crystal lattices
+- [CBSE Physics](/docs/cbse/physics) -- solid-state physics and material properties
+- [CBSE Mathematics](/docs/cbse/maths) -- geometry and 3D coordinate systems

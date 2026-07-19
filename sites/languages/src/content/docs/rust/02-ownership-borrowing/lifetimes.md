@@ -982,3 +982,13 @@ linked above.
 
 
 </aside>
+## Intuition
+
+Lifetimes are Rust's way of tracking how long references remain valid. Every reference has a lifetime that the compiler infers or you annotate explicitly. Lifetime elision rules reduce boilerplate in common patterns. The 'static lifetime means a reference lives for the entire program duration. Lifetimes prevent dangling references by ensuring data outlives the pointers that reference it, and they enable safe borrowing across function boundaries without runtime checks.
+
+## Cross-References
+
+- [[rust/02-ownership-borrowing/ownership]] - Move semantics and the borrow checker
+- [[rust/02-ownership-borrowing/interior-mutability]] - Mutability within shared references
+- [[rust/04-error-handling/error-handling]] - Result with lifetime annotations
+- [[rust/05-traits-generics/traits-and-generics]] - Generic bounds with lifetime constraints

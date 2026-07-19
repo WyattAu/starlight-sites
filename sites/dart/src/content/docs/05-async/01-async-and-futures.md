@@ -455,5 +455,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
 
-</aside>
+Dart's async model is built on a single-threaded event loop with Future and Stream as the core abstractions. A Future represents a value that will be available later, and async/await is syntactic sugar that makes asynchronous code read like synchronous code. Streams deliver sequences of asynchronous events -- a single-subscription stream is like a fire hose you can only tap once, while a broadcast stream allows multiple listeners. Isolates provide true parallelism by giving each execution unit its own memory heap, eliminating data races entirely. The trade-off is that message serialization has overhead, so isolates work best for coarse-grained parallelism like parsing large JSON blobs.
+
+## Cross-References
+
+- [Entry Point](/docs/dart/03-basics/01-entrypoint) -- main() and event loop basics
+- [Collections Deep Dive](/docs/dart/06-collections/01-collections-deep-dive) -- Stream operations and async iteration
+- [Error Handling](/docs/dart/08-error-handling) -- try/catch with async code

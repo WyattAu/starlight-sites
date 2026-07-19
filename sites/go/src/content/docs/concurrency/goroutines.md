@@ -326,3 +326,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Goroutines are lightweight threads managed by the Go runtime, not the operating system. Starting a goroutine costs almost nothing -- a few kilobytes of stack that grows on demand -- so you can run millions simultaneously. The Go scheduler multiplexes many goroutines onto a small number of OS threads, using work-stealing to balance load. Channels are the primary way goroutines communicate: they are typed pipes that synchronize sender and receiver. Mutexes protect shared state when channels are not the right fit. sync.Once ensures lazy initialization happens exactly once even with many concurrent callers. The key rule is: never share memory by communicating; communicate by sharing memory through channels.
+
+## Cross-References
+
+- [Channels and Concurrency Patterns](/docs/go/concurrency/channels) -- select, pipelines, and fan-out
+- [Functions](/docs/go/basics/functions) -- goroutines as anonymous function launches
+- [Testing](/docs/go/advanced/testing) -- testing concurrent code

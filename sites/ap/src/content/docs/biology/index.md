@@ -125,3 +125,14 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+
+## Intuition
+
+Biology explores how living things work, interact, and evolve. Cells are the basic units of life, each containing molecular machines that carry out specialised functions. Genetics encodes the instructions for building organisms, while ecology examines how species coexist in complex communities. These levels of organisation - from molecules to ecosystems - are interconnected through evolution and natural selection.
+
+
+## Cross-References
+
+- [Cell Structure and Function](/docs/ap/biology/cell-structure)
+- [Heredity](/docs/ap/biology/heredity)
+- [Natural Selection](/docs/ap/biology/natural-selection)

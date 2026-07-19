@@ -851,3 +851,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Virtual threads decouple Java-level threads from OS threads. When a virtual thread blocks on I/O, the JVM unmounts it from its carrier thread and mounts a different one, so the carrier stays busy. This means millions of virtual threads can run on a handful of carrier threads, making blocking operations cheap without reactive complexity. Structured concurrency enforces parent-child relationships between tasks -- if a child fails, the parent can cancel siblings automatically, preventing thread leaks. ScopedValue replaces ThreadLocal with immutable, scope-bound values that work efficiently with virtual threads, avoiding the memory overhead of per-thread copies.
+
+## Cross-References
+
+- [Concurrency](/docs/java/06-concurrency/01-concurrency) -- threads, synchronized, and volatile
+- [Concurrency Deep Dive](/docs/java/06-concurrency/02-concurrency-deep-dive) -- locks, atomics, and ForkJoin
+- [Streams API](/docs/java/05-streams/01-streams-api) -- parallel streams and ForkJoinPool

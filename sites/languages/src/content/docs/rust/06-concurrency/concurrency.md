@@ -922,3 +922,13 @@ linked above.
 
 
 </aside>
+## Intuition
+
+Rust's concurrency safety comes from its ownership system extended to threads. The Send marker trait indicates a type can be transferred between threads, while Sync indicates it can be shared. Channels provide message-passing concurrency, and Arc<Mutex<T>> enables shared mutable state. The compiler prevents data races at compile time without runtime overhead, catching threading bugs that other languages only find during testing.
+
+## Cross-References
+
+- [[rust/02-ownership-borrowing/ownership]] - Ownership across thread boundaries
+- [[rust/02-ownership-borrowing/interior-mutability]] - Mutex and RwLock for shared state
+- [[rust/05-traits-generics/traits-and-generics]] - Send and Sync trait bounds
+- [[rust/06-concurrency/channels-and-message-passing]] - Channel-based communication patterns

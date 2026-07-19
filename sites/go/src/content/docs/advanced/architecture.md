@@ -566,3 +566,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Go project architecture is about organizing code so it stays maintainable as it grows. The key idea is separation of concerns: executable entry points go in cmd/, private business logic goes in internal/ where the Go compiler enforces that outsiders cannot import it, and shared libraries go in pkg/ only if you intend external consumption. Interfaces are implicit contracts -- any type that satisfies the methods automatically implements the interface, which means you define interfaces where they are consumed, not where they are implemented. This decouples packages and makes testing easier since you can swap implementations without changing callers.
+
+## Cross-References
+
+- [Modules and Packages](/docs/go/advanced/modules-and-packages) -- dependency management and versioning
+- [Functions](/docs/go/basics/functions) -- first-class functions and closures
+- [Goroutines and Synchronization](/docs/go/concurrency/goroutines) -- lightweight concurrency primitives

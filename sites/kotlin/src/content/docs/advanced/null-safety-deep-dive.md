@@ -343,3 +343,13 @@ prove it covers the null case.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Kotlin's null safety is a compile-time guarantee that eliminates most NullPointerExceptions. The type system distinguishes between nullable (String?) and non-null (String) types, and the compiler enforces this distinction -- you cannot pass a nullable value where a non-null one is expected without explicit handling. The safe call operator (?.) chains through nullable references and short-circuits to null if any link is null. The elvis operator (?:) provides a default value when the left side is null. The let scope function executes a block only when the receiver is non-null, giving you smart-cast access to the unwrapped value. Java interop uses platform types that the compiler treats as potentially nullable.
+
+## Cross-References
+
+- [Types and Variables](/docs/kotlin/basics/types-and-variables) -- nullable type declarations
+- [Classes and Objects](/docs/kotlin/basics/classes-and-objects) -- data classes and sealed classes
+- [Coroutines](/docs/kotlin/intermediate/coroutines) -- null safety in suspend functions

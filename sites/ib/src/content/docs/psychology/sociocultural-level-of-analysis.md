@@ -179,3 +179,7 @@ perspectives.
 | Social Identity Theory       | [View](/docs_ib/psychology/sociocultural/social-identity-theory)        |
 | Cultural Norms and Attitudes | [View](/docs_ib/psychology/sociocultural/cultural-norms-and-attritudes) |
 | Prejudice and Discrimination | [View](/docs_ib/psychology/sociocultural/prejudice-and-discrimination)  |
+
+## Intuition
+
+Our minds are prediction machines, constantly building models of the world to guide behaviour. Psychology studies how these mental models form, how they influence perception, and why they sometimes lead us astray. From memory biases to social stereotypes, understanding mental shortcuts explains both their efficiency and their limitations. This knowledge is essential for critical thinking and personal development.

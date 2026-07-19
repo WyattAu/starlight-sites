@@ -483,3 +483,14 @@ $\blacksquare$
 - Magnetic flux: $\Phi = BA\cos\theta$; flux linkage for a coil: $N\Phi = BAN\cos\theta$.
 $
 
+## Intuition
+
+Physics explores the fundamental rules governing matter, energy, space, and time. At its heart lies the principle that complex phenomena emerge from simple interactions - gravity shapes orbits, electromagnetism binds atoms, and quantum mechanics governs the subatomic realm. Understanding these laws allows us to build technologies from smartphones to spacecraft and to comprehend our place in the cosmos.
+
+
+## Cross-References
+
+- [Mechanics](/docs/alevel/physics/mechanics)
+- [Waves](/docs/alevel/physics/waves)
+- [Electricity](/docs/alevel/physics/electricity)
+- [Fields](/docs/alevel/physics/fields)

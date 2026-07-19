@@ -1201,4 +1201,12 @@ structure (the scope is lexically scoped via try-with-resources).
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-</aside>
+## Intuition
+
+Concurrency is about managing multiple tasks that may execute interleaved on a single core or truly in parallel on multiple cores. The Java Memory Model defines happens-before relationships that guarantee when writes by one thread become visible to another -- without these guarantees, CPU caches and instruction reordering can cause threads to see stale data. Synchronized blocks acquire intrinsic locks that provide mutual exclusion, but they lack fairness, timeout, and multiple condition variables. Volatile guarantees visibility and ordering but not atomicity of compound operations. CompletableFuture chains asynchronous computations with a fluent API, and virtual threads decouple Java threads from OS threads so blocking I/O is cheap.
+
+## Cross-References
+
+- [Concurrency Deep Dive](/docs/java/06-concurrency/02-concurrency-deep-dive) -- locks, atomics, and ForkJoin
+- [Virtual Threads and Structured Concurrency](/docs/java/08-modern-java/02-virtual-threads-structured-concurrency) -- Project Loom
+- [Collections Framework](/docs/java/04-collections/01-collections-framework) -- ConcurrentHashMap and thread-safe collections</aside>

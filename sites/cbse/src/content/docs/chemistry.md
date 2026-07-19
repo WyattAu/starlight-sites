@@ -417,3 +417,14 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
 ## Summary
 
 CBSE Chemistry covers three branches. Physical chemistry includes atomic structure, bonding, thermodynamics (delta G = delta H - T delta S), equilibrium (Le Chatelier's principle, Kc, Kp), electrochemistry (Nernst equation), kinetics (first-order rate laws, Arrhenius equation), and solutions (colligative properties). Inorganic chemistry covers periodic trends, s-block and p-block properties, transition metal chemistry (variable oxidation states, coordination compounds, crystal field theory). Organic chemistry covers IUPAC nomenclature, hydrocarbons, halogen derivatives (SN1, SN2, E1, E2), oxygen compounds, nitrogen compounds, polymers, and biomolecules. Key exam skills include balancing equations, arrow-pushing mechanisms, and applying named reactions.
+
+## Intuition
+
+Chemistry is fundamentally about electron deals between atoms. Bonding is nature's way of letting atoms share or transfer electrons to reach lower energy states, like two people splitting a bill to save money. Chemical reactions are rearrangements of these electron partnerships -- atoms break old deals and form new ones, releasing or absorbing energy in the process. Equilibrium is a dynamic balance where forward and reverse reactions happen at equal rates, like two teams constantly scoring against each other but keeping the same score. The periodic table is a map of how eagerly each element trades electrons, with metals as generous givers and nonmetals as eager takers.
+
+## Cross-References
+
+- [Chemical Kinetics](/docs/cbse/chemistry/chemical-kinetics) -- how fast reactions proceed
+- [Electrochemistry](/docs/cbse/chemistry/electrochemistry) -- electron transfer as electrical energy
+- [Solutions](/docs/cbse/chemistry/solutions) -- mixing and colligative behavior
+- [CBSE Physics](/docs/cbse/physics) -- thermodynamics and energy concepts

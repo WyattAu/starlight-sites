@@ -101,3 +101,13 @@ Thus $(AB)^T = B^T A^T$.
 3. When solving $AX = B$, always verify your answer by computing $AX$ and checking it equals $B$.
 4. For systems with three or more equations, the matrix method is efficient but requires careful arithmetic.
 5. Remember that $(A + B)(A - B) = A^2 - B^2$ only if $AB = BA$.
+
+## Intuition
+
+Matrices are rectangular arrays that compactly represent systems of linear equations and transformations. Adding matrices is straightforward entry-by-entry, but multiplication follows a row-column dot product that encodes how multiple linear relationships interact. The transpose flips rows and columns, and for products the order reverses: (AB)^T = B^T A^T. The determinant is the key to invertibility -- a zero determinant means the transformation collapses space, making it impossible to reverse. Solving AX = B with matrices is like solving a puzzle: if A is invertible, you can isolate X by multiplying both sides by A inverse.
+
+## Cross-References
+
+- [Matrix Operations](/docs/cbse/mathematics/matrices/01-matrix-operations) -- multiplication, determinant, and inverse
+- [Types of Relations](/docs/cbse/mathematics/relations-functions/types-of-relations) -- set theory foundations
+- [CBSE Physics](/docs/cbse/physics) -- vectors and coordinate systems

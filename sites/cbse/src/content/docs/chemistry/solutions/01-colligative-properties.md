@@ -84,3 +84,13 @@ $$= 4.926 \times 10^{-4} \, \text{atm} \approx 0.000493 \, \text{atm}$$
 
 4. $1 \, \text{g}$ of $\text{CaCl}_2$ ($M = 111 \, \text{g/mol}$) is dissolved in $100 \, \text{g}$ of water. Calculate the freezing point depression. ($K_f = 1.86 \, \text{K}\cdot\text{kg/mol}$, assume complete dissociation).
 5. A solution of glucose ($M = 180 \, \text{g/mol}$) has a freezing point of $-0.93^\circ\text{C}$. Find the molality and the mass of glucose in $500 \, \text{g}$ of water. ($K_f = 1.86 \, \text{K}\cdot\text{kg/mol}$)
+
+## Intuition
+
+Colligative properties depend only on how many solute particles you add, not what they are. Adding salt to water raises the boiling point and lowers the freezing point because solute particles get in the way of molecules trying to escape into the gas phase or lock into a crystal. Osmotic pressure is nature's way of balancing concentrations across a membrane -- water flows toward the more concentrated side until pressures equalize. The van't Hoff factor accounts for the fact that electrolytes like NaCl split into multiple ions, so they have roughly double the effect of a sugar molecule that stays intact.
+
+## Cross-References
+
+- [Solutions](/docs/cbse/chemistry/solutions) -- concentration units and Raoult's law
+- [Chemical Kinetics](/docs/cbse/chemistry/chemical-kinetics) -- how solute concentration affects rates
+- [CBSE Physics](/docs/cbse/physics) -- kinetic theory and thermodynamics

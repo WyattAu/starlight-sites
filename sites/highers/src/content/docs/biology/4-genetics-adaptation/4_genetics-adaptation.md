@@ -782,3 +782,14 @@ and evaluate experimental evidence critically.
 
 
 </aside>
+
+## Intuition
+
+Biology is the study of living systems at every scale, from molecules to ecosystems. Cells are the fundamental units of life, each one a factory of chemical reactions powered by energy from food or sunlight. Understanding how structures relate to functions, like how the shape of an enzyme determines what it can do, helps you see why organisms work the way they do. The key insight is that all life shares common molecular machinery, from DNA to ATP, which is why studying one organism often reveals principles that apply across all life.
+
+## Cross-References
+
+- [1 Cell Biology](biology/1-cell-biology/1_cell-biology)
+- [2 Metabolism](biology/2-metabolism/2_metabolism)
+- [1 Structure Bonding](chemistry/1-structure-bonding/1_structure-bonding)
+- [2 Heat Matter](chemistry/2-heat-matter/2_heat-matter)

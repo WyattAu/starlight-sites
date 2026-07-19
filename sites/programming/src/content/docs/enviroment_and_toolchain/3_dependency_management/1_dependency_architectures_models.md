@@ -749,3 +749,14 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Dependency management in C++ has historically been fragmented. Package managers like vcpkg and Conan provide centralized dependency resolution. CMake's FetchContent downloads dependencies at configure time. The choice between vendoring, system packages, and package managers affects reproducibility, build times, and binary compatibility. Understanding these trade-offs is essential for project sustainability.
+
+## Cross-References
+
+- [[enviroment_and_toolchain/3_dependency_management/2_cpm.md]] - CPM package management
+- [[enviroment_and_toolchain/3_dependency_management/3_vcpkg.md]] - vcpkg integration
+- [[enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator]] - CMake dependency targets
+- [[enviroment_and_toolchain/3_dependency_management/6_binary_caching]] - Binary dependency caching

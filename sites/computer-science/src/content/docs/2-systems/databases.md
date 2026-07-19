@@ -541,6 +541,10 @@ a candidate key for R2.
 - **Query optimization** transforms logical plans using equivalence rules, selects join algorithms,
   and estimates costs.
 
+## Intuition
+
+Databases organize data for efficient retrieval and modification. The relational model uses tables with keys to eliminate redundancy through normalization. SQL provides a declarative query language where you specify what data you want, not how to get it. Indexes accelerate lookups at the cost of storage and write performance. Transactions ensure ACID properties: atomicity, consistency, isolation, and durability.
+
 ## Cross-References
 
 | Topic               | Link                                                          |

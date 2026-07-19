@@ -1053,3 +1053,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Dart collections are built on three core types: List for ordered indexed access, Set for unique elements with fast membership checks, and Map for key-value lookups. All three implement the Iterable interface, which provides lazy transformation methods like map, where, and expand that process elements on demand without creating intermediate collections. The distinction between growable and fixed-length lists matters at the VM level -- fixed lists pre-allocate exactly the right size, while growable lists use amortized doubling. The operator== on List and Map checks identity, not structural equality, so you need ListEquality from package:collection for deep comparisons. Unmodifiable views are wrappers, not copies, so mutations to the source are visible through the view.
+
+## Cross-References
+
+- [Variables](/docs/dart/03-basics/02-variables) -- List, Set, and Map literals
+- [Async and Futures](/docs/dart/05-async/01-async-and-futures) -- Stream as an async collection
+- [Pattern Matching](/docs/dart/07-dart3-features/01-pattern-matching) -- list and map pattern destructuring

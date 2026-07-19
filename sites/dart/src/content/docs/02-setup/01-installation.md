@@ -451,5 +451,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Setting up Dart involves choosing between the standalone Dart SDK (for server-side and CLI tools) and the Flutter SDK (which bundles Dart for cross-platform UI development). The Flutter SDK includes everything you need: the Dart compiler, the Impeller rendering engine, and platform-specific toolchains. Version management with fvm ensures that different projects can use different Flutter versions without conflicts. The pub package manager handles dependency resolution with a lockfile model similar to npm or Cargo, ensuring reproducible builds across machines.
+
+## Cross-References
+
+- [Development Environment](/docs/dart/02-setup/02-dev-enviroment) -- IDE setup and debugging
+- [Entry Point](/docs/dart/03-basics/01-entrypoint) -- first Dart program
+- [Introduction to Dart](/docs/dart/01-intro) -- language overview and compilation targets
 
 </aside>

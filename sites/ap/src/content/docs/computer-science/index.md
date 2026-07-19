@@ -125,3 +125,14 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+
+## Intuition
+
+The digital world runs on algorithms and data. From search engines to social media, software systems process information through carefully designed procedures. Computer science teaches us to think systematically about problems, design efficient solutions, and understand the technologies that shape modern life. These skills are essential for innovation in every field.
+
+
+## Cross-References
+
+- [Computational Thinking](/docs/ap/computer.?science/computational-thinking)
+- [Data Analysis](/docs/ap/computer.?science/data-analysis)
+- [Algorithms](/docs/ap/computer.?science/algorithms)

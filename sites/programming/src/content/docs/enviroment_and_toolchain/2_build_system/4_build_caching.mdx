@@ -767,3 +767,14 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Build caching stores compiled artifacts to avoid redundant work. ccache and sccache cache compiler output based on input hashes. CMake's build cache (CCache) integrates transparently. Content-addressable caching systems like Buck2 and Bazel go further by caching at the action level. Effective caching can reduce rebuild times from minutes to seconds, especially in large codebases with many translation units.
+
+## Cross-References
+
+- [[enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism]] - Fast incremental builds
+- [[enviroment_and_toolchain/2_build_system/6_code_coverage.mdx]] - Caching with coverage instrumentation
+- [[enviroment_and_toolchain/3_dependency_management/6_binary_caching]] - Binary package caching
+- [[enviroment_and_toolchain/2_build_system/5_unit_tests]] - Cached test results

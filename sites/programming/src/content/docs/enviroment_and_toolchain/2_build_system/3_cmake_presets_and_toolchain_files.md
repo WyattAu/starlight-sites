@@ -623,3 +623,14 @@ This overrides the toolchain for local development without modifying the shared 
 - **Cross-compilation for embedded systems:** Toolchain files target bare-metal ARM, RISC-V, or ESP32 without installing a full IDE; presets configure the build type and optimisation flags.
 - **Multi-platform game development:** A single `CMakePresets.json` defines presets for Windows (MSVC), Linux (GCC/Clang), and macOS (Apple Clang), with conditions selecting the appropriate toolchain.
 - **Sanitiser and static analysis builds:** Dedicated presets enable AddressSanitizer, UBSan, or clang-tidy with a single command (`cmake --preset asan`), lowering the barrier for developers to run diagnostics.
+
+## Intuition
+
+CMake presets define reusable build configurations (debug, release, sanitizer builds). Toolchain files specify cross-compilation settings, compiler paths, and target platforms. Presets standardize builds across your team, ensuring everyone compiles with identical settings. Combining presets with toolchain files creates reproducible builds for multiple target platforms from a single configuration.
+
+## Cross-References
+
+- [[enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator]] - Target-based CMake design
+- [[enviroment_and_toolchain/1_compiler_and_standards/4_crosscompilation_toolchains]] - Cross-compilation toolchains
+- [[enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator]] - Build type configuration
+- [[enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models]] - Dependency presets

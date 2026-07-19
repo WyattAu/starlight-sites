@@ -990,3 +990,13 @@ linked above.
 
 
 </aside>
+## Intuition
+
+Rust's ownership system enforces three rules at compile time: each value has exactly one owner, ownership transfers on assignment (move), and you can have either many immutable references or one mutable reference. The borrow checker operates on MIR with zero runtime cost. Move semantics transfer the pointer without copying heap data, while the Copy trait marks types that duplicate on assignment. This eliminates garbage collection overhead while preventing dangling pointers and data races.
+
+## Cross-References
+
+- [[rust/02-ownership-borrowing/lifetimes]] - Lifetime annotations and scope tracking
+- [[rust/02-ownership-borrowing/interior-mutability]] - RefCell and interior mutability patterns
+- [[rust/03-structs-enums/structs-and-enums]] - Structs as owner containers
+- [[rust/04-error-handling/error-handling]] - Result and Option for error propagation

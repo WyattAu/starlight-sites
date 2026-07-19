@@ -802,3 +802,14 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Conan is a decentralized C++ package manager with a large community-maintained repository. It supports multiple build systems and provides fine-grained control over package configurations. Conan's profile system manages compiler settings, build types, and options. Binary packages reduce build times, and the ConanCenter repository provides thousands of pre-built libraries.
+
+## Cross-References
+
+- [[enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models]] - Dependency architecture patterns
+- [[enviroment_and_toolchain/3_dependency_management/3_vcpkg.md]] - Alternative: vcpkg
+- [[enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator]] - CMake integration
+- [[enviroment_and_toolchain/3_dependency_management/6_binary_caching]] - Binary package distribution

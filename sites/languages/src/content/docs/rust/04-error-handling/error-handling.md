@@ -864,3 +864,13 @@ linked above.
 
 
 </aside>
+## Intuition
+
+Rust uses Result<T, E> instead of exceptions. The ? operator propagates errors up the call stack concisely. Option<T> handles nullable values without null pointer exceptions. This explicit error handling makes failure paths visible in function signatures, forcing callers to handle errors. The type system ensures you cannot accidentally ignore a Result, and the compiler guides you toward proper error recovery patterns.
+
+## Cross-References
+
+- [[rust/02-ownership-borrowing/ownership]] - Ownership of error values
+- [[rust/03-structs-enums/structs-and-enums]] - Custom error types with enums
+- [[rust/05-traits-generics/traits-and-generics]] - From trait for error conversion
+- [[rust/04-error-handling/error-handling-patterns]] - Advanced error handling patterns

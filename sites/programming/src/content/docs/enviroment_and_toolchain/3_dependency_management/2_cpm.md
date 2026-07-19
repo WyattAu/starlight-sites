@@ -721,3 +721,14 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+CPM.cmake is a lightweight CMake package manager that fetches dependencies at configure time. It uses CMake's FetchContent under the hood but adds version caching and minimal configuration. CPM is ideal for projects that want dependency management without external tools. It integrates directly into your CMakeLists.txt, keeping your build system self-contained.
+
+## Cross-References
+
+- [[enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models]] - Dependency management overview
+- [[enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator]] - CMake target integration
+- [[enviroment_and_toolchain/3_dependency_management/6_binary_caching]] - Caching fetched dependencies
+- [[enviroment_and_toolchain/3_dependency_management/3_vcpkg.md]] - Alternative: vcpkg

@@ -598,3 +598,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+The TypeScript toolchain revolves around tsconfig.json, which controls compilation, type checking, and project structure. The strict flag enables all safety checks simultaneously, though incremental migration via individual flags is recommended for existing codebases. Module resolution strategies (node, node16, bundler) determine how imports are found. Project references enable monorepo builds with incremental compilation, while declaration files (.d.ts) bridge untyped JavaScript libraries into the type system.
+
+## Cross-References
+
+- [[typescript/typescript]] - Overview of the TypeScript ecosystem
+- [[typescript/enums-and-modules]] - Module resolution and import patterns
+- [[typescript/types-and-annotations]] - Type system fundamentals
+- [[typescript/advanced-types]] - Declaration file patterns and module augmentation

@@ -282,3 +282,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Pointers in Go hold memory addresses instead of values. When you pass a pointer to a function, you pass the address of the original data so the function can modify it, but the pointer itself is still copied. The compiler uses escape analysis to decide whether a variable lives on the fast stack or the garbage-collected heap -- if a variable's address escapes the function (returned, stored in a struct, or passed to a goroutine), it moves to the heap. The unsafe package bypasses type safety for low-level operations like pointer arithmetic, but should be used sparingly since it defeats the garbage collector's assumptions and makes code fragile across Go versions.
+
+## Cross-References
+
+- [Types and Variables](/docs/go/basics/types-and-variables) -- zero values and type conversions
+- [Arrays, Slices, and Maps](/docs/go/basics/arrays-slices-maps) -- value vs reference semantics
+- [Functions](/docs/go/basics/functions) -- value vs pointer receivers

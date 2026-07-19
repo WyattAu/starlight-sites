@@ -95,3 +95,13 @@ $$E_a = \frac{0.693 \times 8.314}{1.075 \times 10^{-4}} = 53.6 \text{ kJ/mol}$$
 - For first-order reactions, remember $t_{1/2} = 0.693/k$ is independent of concentration
 - In Arrhenius problems, watch units: $R = 8.314$ J/(mol·K) and $E_a$ is usually in kJ/mol
 - Practice graphing: $\ln[A]$ vs $t$ is linear for first-order, $[A]$ vs $t$ is linear for zero-order
+
+## Intuition
+
+Chemical kinetics is about how fast reactions happen and why. Think of activation energy as a hill that molecules must climb before they can react -- temperature gives them more speed to get over the hill, and catalysts lower the hill itself. The rate law tells you which ingredients matter most: doubling a first-order reactant doubles the speed, but doubling a zero-order reactant does nothing. The Arrhenius equation connects temperature to speed: a small temperature increase can dramatically speed up a reaction because more molecules suddenly have enough energy to overcome the activation barrier.
+
+## Cross-References
+
+- [Electrochemistry](/docs/cbse/chemistry/electrochemistry) -- electron transfer rates
+- [Solutions](/docs/cbse/chemistry/solutions) -- concentration and reaction rates
+- [CBSE Physics](/docs/cbse/physics) -- kinetic theory and energy concepts

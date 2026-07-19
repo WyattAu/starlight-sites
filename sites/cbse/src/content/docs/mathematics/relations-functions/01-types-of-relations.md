@@ -132,3 +132,13 @@ So $3 \mid (a - c)$, giving $aRc$.
 3. Equivalence relations partition the set; use this to verify your answer by checking that equivalence classes are disjoint and their union is $A$.
 4. The relation "$a$ divides $b$" on $\mathbb{Z}^+$ is reflexive and transitive, but not symmetric (since $2 \mid 4$ but $4 \nmid 2$).
 5. The relation defined by $a^2 = b^2$ on $\mathbb{Z}$ is an equivalence class because $a^2 = b^2$ implies $|a| = |b|$, so $[2] = \{2, -2\}$.
+
+## Intuition
+
+Relations are rules that connect elements from one set to another. A relation on a set is like a social network where some pairs of people are connected. Reflexive means everyone is friends with themselves. Symmetric means if A is friends with B, then B is friends with A. Transitive means if A is friends with B and B is friends with C, then A is friends with C. When all three hold, you get an equivalence relation -- a perfect grouping system where the set splits into non-overlapping equivalence classes, like sorting numbers by their remainder when divided by n.
+
+## Cross-References
+
+- [Matrices](/docs/cbse/mathematics/matrices) -- matrices as representations of relations
+- [CBSE Mathematics](/docs/cbse/maths) -- sets, functions, and algebra
+- [CBSE Physics](/docs/cbse/physics) -- symmetry and conservation laws

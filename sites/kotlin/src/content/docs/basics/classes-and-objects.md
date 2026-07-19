@@ -397,3 +397,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Kotlin classes are blueprints for objects, final by default to prevent accidental inheritance. The primary constructor is declared in the class header and can declare properties directly. Data classes are auto-generators for data carriers -- the compiler produces equals, hashCode, toString, copy, and destructuring functions from the property list. Sealed classes restrict inheritance to a known set of subtypes, enabling exhaustive when expressions that the compiler checks at compile time. Object declarations create thread-safe singletons. Companion objects provide static-like members tied to a class, and they can implement interfaces just like any other object.
+
+## Cross-References
+
+- [Types and Variables](/docs/kotlin/basics/types-and-variables) -- val vs var and nullable types
+- [Functions](/docs/kotlin/basics/functions) -- extension functions and higher-order functions
+- [Coroutines](/docs/kotlin/intermediate/coroutines) -- object declarations as coroutine scopes

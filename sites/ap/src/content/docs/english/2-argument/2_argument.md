@@ -212,3 +212,13 @@ democratic process."
 - Relying entirely on personal anecdote without broader evidence
 - Committing logical fallacies in your own argument
 - Using absolutes ("always," "never") that undermine credibility
+
+## Intuition
+
+Literature is a window into human experience across time and culture. Analysing texts is detective work - examining language, structure, and context to uncover meaning and purpose. Great writing reveals universal truths about human nature while reflecting specific historical and cultural moments. Critical thinking and clear expression are essential tools for understanding and communicating ideas effectively.
+
+
+## Cross-References
+
+- [Rhetorical Analysis](/docs/ap/english/rhetorical-analysis)
+- [Literary Analysis](/docs/ap/english/literary-analysis)

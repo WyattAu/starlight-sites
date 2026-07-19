@@ -148,3 +148,13 @@ Since $\Delta G < 0$, the reaction is spontaneous.
 3. Molar conductivity increases (strong electrolytes) or changes significantly (weak electrolytes) with dilution
 4. The relationship $\Delta G = -nFE$ connects electrochemistry to thermodynamics
 5. Practice problems involving concentration cells, where $E^\circ_{\text{cell}} = 0$ but $E_{\text{cell}} \neq 0$
+
+## Intuition
+
+Electrochemistry bridges chemistry and electricity. A galvanic cell is like a electron pump: a spontaneous chemical reaction pushes electrons through an external wire, creating current. The anode is where oxidation happens (electrons leave), and the cathode is where reduction happens (electrons arrive). The Nernst equation tells us that concentration affects voltage -- a battery runs down because its reactants get used up. Electrolysis reverses the process: you force electrons in the opposite direction to drive a non-spontaneous reaction, like splitting water into hydrogen and oxygen using electricity.
+
+## Cross-References
+
+- [Chemical Kinetics](/docs/cbse/chemistry/chemical-kinetics) -- reaction rates and activation energy
+- [Solutions](/docs/cbse/chemistry/solutions) -- concentration and colligative properties
+- [CBSE Physics](/docs/cbse/physics) -- current electricity and circuits

@@ -609,3 +609,14 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Functions in TypeScript are first-class values with precise type signatures. Parameter annotations define the contract, return types document the output, and overloading provides multiple call signatures for a single implementation. The this parameter is a special first parameter that enforces correct binding context. Arrow functions capture this lexically, making them ideal for callbacks. Function types are expressed as arrow syntax (a: T) => U and can be stored in type aliases for reuse across your codebase.
+
+## Cross-References
+
+- [[typescript/types-and-annotations]] - Type annotations and narrowing rules
+- [[typescript/generics]] - Generic function patterns and constraints
+- [[typescript/classes]] - Method signatures and this typing
+- [[typescript/error-handling]] - Result types and assertion functions

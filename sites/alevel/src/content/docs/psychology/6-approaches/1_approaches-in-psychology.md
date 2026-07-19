@@ -584,3 +584,13 @@ The six approaches in psychology offer different perspectives on human behaviour
   Comprehensive but unfalsifiable and unscientific.
 - **Humanistic approach** (Maslow, Rogers) emphasises free will and self-actualisation. Positive but
   unscientific and culturally biased.
+
+## Intuition
+
+The mind works like an information processing system. Perception filters raw sensory data, memory stores and retrieves experiences, and thinking organises knowledge into decisions. Understanding these mental processes helps explain why people behave differently in similar situations. The key insight is that internal mental states, though invisible, can be studied scientifically through careful observation and experimentation.
+
+
+## Cross-References
+
+- [Research Methods](/docs/alevel/psychology/research-methods)
+- [Biopsychology](/docs/alevel/psychology/biopsychology)

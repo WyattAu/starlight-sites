@@ -733,3 +733,14 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+vcpkg is Microsoft's C++ package manager with a large catalog of pre-built libraries. It integrates with CMake via toolchain files and supports both manifest and classic modes. Binary caching eliminates redundant compilation across projects. vcpkg's triplet system handles cross-compilation for different platforms and architectures, making it suitable for multi-target projects.
+
+## Cross-References
+
+- [[enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models]] - Package manager comparison
+- [[enviroment_and_toolchain/3_dependency_management/6_binary_caching]] - vcpkg binary caching
+- [[enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files]] - Toolchain integration
+- [[enviroment_and_toolchain/3_dependency_management/4_conan.md]] - Alternative: Conan

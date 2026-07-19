@@ -134,3 +134,7 @@ explanation and empirical evaluation.
 | Attachment Theory      | [View](/docs_ib/psychology/developmental/attachment-theory)      |
 | Cognitive Development  | [View](/docs_ib/psychology/developmental/cognitive-development)  |
 | Adolescent Development | [View](/docs_ib/psychology/developmental/adolescent-development) |
+
+## Intuition
+
+The mind works like an information processing system. Perception filters raw sensory data, memory stores and retrieves experiences, and thinking organises knowledge into decisions. Understanding these mental processes helps explain why people behave differently in similar situations. The key insight is that internal mental states, though invisible, can be studied scientifically through careful observation and experimentation.

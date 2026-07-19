@@ -939,3 +939,13 @@ linked above.
 
 
 </aside>
+## Intuition
+
+Structs group related data under named fields, while enums represent variants where exactly one variant is active at a time. Rust enums are algebraic data types: each variant can carry different data, enabling pattern matching that the compiler verifies for exhaustiveness. Structs are value types that move on assignment unless they implement Copy. Methods are defined in impl blocks, and associated functions (like constructors) are called with :: syntax.
+
+## Cross-References
+
+- [[rust/02-ownership-borrowing/ownership]] - Value types and move semantics
+- [[rust/04-error-handling/error-handling]] - Result and Option enums
+- [[rust/05-traits-generics/traits-and-generics]] - Trait implementations for custom types
+- [[rust/03-structs-enums/advanced-patterns]] - Pattern matching and destructuring

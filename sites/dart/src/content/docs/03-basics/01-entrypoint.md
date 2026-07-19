@@ -458,5 +458,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
 
-</aside>
+Every Dart program starts at the main() function, which is the entry point the VM looks for. Dart's type system is sound -- non-nullable by default, with the ? suffix making types nullable. The compiler guarantees no null reaches a non-nullable variable at runtime. Variables declared with final cannot be reassigned (but the object itself may still be mutable), while const creates compile-time constants that are canonicalized. The late keyword defers initialization until first access, useful for fields that depend on setup methods. Dart has no truthy/falsy coercion -- only true and false are valid booleans, preventing an entire class of bugs common in JavaScript.
+
+## Cross-References
+
+- [Variables](/docs/dart/03-basics/02-variables) -- var, final, const, and late
+- [Introduction to Dart](/docs/dart/01-intro) -- type system and sound null safety
+- [Async and Futures](/docs/dart/05-async/01-async-and-futures) -- async main and Future handling

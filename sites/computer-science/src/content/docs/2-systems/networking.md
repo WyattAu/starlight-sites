@@ -542,6 +542,10 @@ sequence numbers and the connection is established for full-duplex data transfer
   congestion-controlled).
 - **Application layer** includes HTTP, DNS, SMTP, and other end-user protocols.
 
+## Intuition
+
+Networking connects computers through layered protocols. TCP provides reliable, ordered delivery through handshakes and acknowledgments. UDP trades reliability for speed, suitable for real-time applications. DNS translates domain names to IP addresses. HTTP builds on TCP for web communication. Understanding the protocol stack helps you diagnose issues: physical problems at layer 1, addressing at layer 3, reliability at layer 4, and application logic at layer 7.
+
 ## Cross-References
 
 | Topic               | Link                                                          |

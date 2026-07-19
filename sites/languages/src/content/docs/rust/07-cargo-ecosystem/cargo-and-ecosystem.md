@@ -965,3 +965,13 @@ linked above.
 
 
 </aside>
+## Intuition
+
+Cargo is Rust's build system and package manager, handling compilation, dependency resolution, and publishing. Crates.io hosts the ecosystem with semantic versioning. Workspaces enable monorepo structures. Cargo features allow conditional compilation, and build scripts handle code generation. The ecosystem's emphasis on small, composable crates means most functionality comes from libraries rather than the standard library, making dependency management a core skill.
+
+## Cross-References
+
+- [[rust/05-traits-generics/traits-and-generics]] - Trait conventions in the ecosystem
+- [[rust/04-error-handling/error-handling]] - Error handling crate conventions
+- [[rust/06-concurrency/concurrency]] - Async runtime ecosystem
+- [[rust/03-structs-enums/structs-and-enums]] - Derive macros for common traits

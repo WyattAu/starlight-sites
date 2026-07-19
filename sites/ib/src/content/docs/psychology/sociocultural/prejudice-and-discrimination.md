@@ -285,3 +285,14 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Our minds are prediction machines, constantly building models of the world to guide behaviour. Psychology studies how these mental models form, how they influence perception, and why they sometimes lead us astray. From memory biases to social stereotypes, understanding mental shortcuts explains both their efficiency and their limitations. This knowledge is essential for critical thinking and personal development.
+
+
+## Cross-References
+
+- [Research Methods](/docs/ib/psychology/research-methods)
+- [Approaches in Psychology](/docs/ib/psychology/approaches)
+- [Biopsychology](/docs/ib/psychology/biopsychology)

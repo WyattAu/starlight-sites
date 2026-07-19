@@ -939,3 +939,13 @@ linked above.
 
 
 </aside>
+## Intuition
+
+Unsafe Rust lets you bypass the borrow checker's guarantees when you can prove safety manually. Raw pointers, unsafe function calls, and trait implementations require unsafe blocks. FFI (Foreign Function Interface) uses unsafe to call C code. The key insight is that unsafe does not disable the type system; it adds five additional capabilities that the compiler cannot verify automatically. Properly encapsulated unsafe code behind safe abstractions maintains the overall safety guarantee.
+
+## Cross-References
+
+- [[rust/02-ownership-borrowing/ownership]] - What unsafe bypasses
+- [[rust/05-traits-generics/traits-and-generics]] - Unsafe trait implementations
+- [[rust/06-concurrency/concurrency]] - Unsafe Send and Sync implementations
+- [[rust/07-cargo-ecosystem/cargo-and-ecosystem]] - FFI and system programming patterns

@@ -112,3 +112,15 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+
+## Intuition
+
+Physics explores the fundamental rules governing matter, energy, space, and time. At its heart lies the principle that complex phenomena emerge from simple interactions - gravity shapes orbits, electromagnetism binds atoms, and quantum mechanics governs the subatomic realm. Understanding these laws allows us to build technologies from smartphones to spacecraft and to comprehend our place in the cosmos.
+
+
+## Cross-References
+
+- [Mechanics](/docs/alevel/physics/mechanics)
+- [Waves](/docs/alevel/physics/waves)
+- [Electricity](/docs/alevel/physics/electricity)
+- [Fields](/docs/alevel/physics/fields)

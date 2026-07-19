@@ -142,3 +142,15 @@ This page includes:
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
+
+## Intuition
+
+The universe operates through fundamental forces and energy transfers. Forces are pushes and pulls that change motion, energy is the currency that drives all processes, and waves transfer energy without transferring matter. These principles connect seemingly different phenomena - from the orbit of planets to the vibration of atoms - under unified explanations that reveal the elegant simplicity underlying nature's complexity.
+
+
+## Cross-References
+
+- [Mechanics](/docs/dse/physics/mechanics)
+- [Waves](/docs/dse/physics/waves)
+- [Electricity](/docs/dse/physics/electricity)
+- [Fields](/docs/dse/physics/fields)

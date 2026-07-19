@@ -479,3 +479,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Testing in Kotlin leverages JUnit 5 with Kotlin-specific enhancements. MockK handles Kotlin's final classes, coroutines, and object singletons natively -- Mockito struggles with these because Kotlin classes are final by default. Parameterized tests run the same logic with different inputs, catching edge cases that single examples miss. Property-based testing generates random inputs to verify mathematical properties hold universally, like reverse-reverse equals original. Coroutine testing uses runTest which provides virtual time control so delay() calls advance instantly. Relaxed mocks return defaults for all calls, which is convenient but can hide unexpected interactions.
+
+## Cross-References
+
+- [Coroutines](/docs/kotlin/intermediate/coroutines) -- testing suspend functions with runTest
+- [Functions](/docs/kotlin/basics/functions) -- extension functions used in test utilities
+- [Null Safety Deep Dive](/docs/kotlin/advanced/null-safety-deep-dive) -- null assertions in tests

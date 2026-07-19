@@ -727,3 +727,15 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+## Intuition
+
+From Newton's apple to quantum particles, physics explains how the world works through measurable quantities and testable laws. Forces cause acceleration, energy transforms between forms but is never lost, and waves carry information across vast distances. These concepts form the foundation for engineering, astronomy, and our understanding of reality itself.
+
+
+## Cross-References
+
+- [Mechanics](/docs/alevel/physics/mechanics)
+- [Waves](/docs/alevel/physics/waves)
+- [Electricity](/docs/alevel/physics/electricity)
+- [Fields](/docs/alevel/physics/fields)

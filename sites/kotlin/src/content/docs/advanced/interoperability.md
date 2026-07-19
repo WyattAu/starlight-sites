@@ -339,3 +339,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Kotlin and Java run on the same JVM, so interoperability is seamless at the bytecode level. Kotlin compiles to standard JVM bytecode, and Java compiles to the same. The compiler maps Kotlin properties to Java getter/setter pairs, and Java getters/setters appear as Kotlin properties automatically. The key friction point is nullability: Java has no nullability annotations, so Kotlin treats Java return types as platform types that could be null. Annotations like @Nullable and @NotNull bridge this gap. Kotlin default parameters do not exist in Java bytecode, so @JvmOverloads generates overloaded methods. Extension functions compile to static methods, so Java calls them via ClassNameKt.functionName(receiver, args).
+
+## Cross-References
+
+- [Null Safety Deep Dive](/docs/kotlin/advanced/null-safety-deep-dive) -- null safety and platform types
+- [Functions](/docs/kotlin/basics/functions) -- extension functions and lambda syntax
+- [Java Interoperability](/docs/java/02-fundamentals/01-types-and-variables) -- Java's type system from the Kotlin perspective

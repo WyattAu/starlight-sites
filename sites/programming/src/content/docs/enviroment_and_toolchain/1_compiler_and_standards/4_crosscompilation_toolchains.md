@@ -756,3 +756,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Cross-compilation lets you build code for a different architecture than your development machine. Toolchains combine a cross-compiler, linker, and target libraries. CMake's toolchain files specify the target system, compiler paths, and sysroot. This is essential for embedded development, mobile apps, and targeting different operating systems from a single build machine.
+
+## Cross-References
+
+- [[enviroment_and_toolchain/1_compiler_and_standards/1_installing_compiler.mdx]] - Installing cross-compilers
+- [[enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files]] - CMake toolchain configuration
+- [[enviroment_and_toolchain/1_compiler_and_standards/2_language_standard_and_abi_compatibility]] - ABI across architectures
+- [[enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism]] - Parallel cross-compilation

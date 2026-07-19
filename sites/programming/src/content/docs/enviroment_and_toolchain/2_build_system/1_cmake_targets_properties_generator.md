@@ -605,3 +605,14 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+CMake generates build files from a declarative configuration. Targets represent build artifacts (executables, libraries). Properties control compile flags, include paths, and dependencies. The generator expression system enables conditional configuration based on build type, platform, or compiler. Modern CMake emphasizes target-based design where properties propagate through dependency chains automatically.
+
+## Cross-References
+
+- [[enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism]] - Build execution and parallelism
+- [[enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files]] - Presets and toolchain files
+- [[enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models]] - Fetching dependencies
+- [[enviroment_and_toolchain/2_build_system/5_unit_tests]] - Test target configuration

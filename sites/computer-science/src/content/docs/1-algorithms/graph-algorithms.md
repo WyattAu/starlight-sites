@@ -532,6 +532,10 @@ Process C: remove edge to D (in-degree D becomes 0). Queue: [D]. Process D: remo
 - **Bipartite matching:** Hopcroft-Karp ($O(E\sqrt{V})$) for unweighted, Hungarian ($O(n^3)$) for
   weighted.
 
+## Intuition
+
+Graphs model relationships between entities. BFS explores level by level, finding shortest paths in unweighted graphs. DFS explores deeply, useful for topological sorting and cycle detection. Dijkstra's algorithm handles weighted graphs with non-negative edges. Bellman-Ford handles negative weights. Minimum spanning trees connect all vertices with minimum total weight. These algorithms form the backbone of network routing, dependency resolution, and social network analysis.
+
 ## Cross-References
 
 | Topic             | Link                                                        |

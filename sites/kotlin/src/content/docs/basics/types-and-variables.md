@@ -290,3 +290,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Kotlin's type system is built on three pillars: immutability by default (val over var), nullable types that force explicit null handling, and type inference that keeps code concise without sacrificing safety. The compiler maps Kotlin types to JVM primitives when possible, avoiding boxing overhead. Null safety is enforced at compile time -- the ? suffix marks nullable types, and the compiler prevents you from using nullable values where non-null ones are expected without safe calls, elvis operators, or explicit checks. Smart casts automatically narrow types after null checks and type checks, eliminating verbose manual casting. Type aliases create readable names for complex types without introducing new distinct types.
+
+## Cross-References
+
+- [Functions](/docs/kotlin/basics/functions) -- extension functions and function types
+- [Classes and Objects](/docs/kotlin/basics/classes-and-objects) -- data classes and sealed classes
+- [Null Safety Deep Dive](/docs/kotlin/advanced/null-safety-deep-dive) -- advanced null handling patterns

@@ -285,3 +285,14 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Psychology bridges the gap between biological processes and human experience. The brain generates consciousness, emotions, and behaviour through neural networks that process information in parallel. Understanding this connection helps us appreciate how thoughts shape actions and how experiences shape the brain. This knowledge empowers us to make better decisions about mental health, learning, and relationships.
+
+
+## Cross-References
+
+- [Research Methods](/docs/ib/psychology/research-methods)
+- [Approaches in Psychology](/docs/ib/psychology/approaches)
+- [Biopsychology](/docs/ib/psychology/biopsychology)

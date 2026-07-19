@@ -528,5 +528,12 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
 
-</aside>
+Dart's variable specifiers control mutability and initialization timing. var infers the type from the initializer and creates a mutable reference. final locks the reference after assignment but does not make the object immutable -- a final list can still have elements added. const is the strongest guarantee: the value is computed at compile time and cannot be changed by anything at runtime. Late defers initialization, telling the compiler to trust that you will set it before use. Null safety means every type is non-nullable by default, and the ? suffix explicitly marks nullable types. The compiler enforces this distinction, preventing null pointer exceptions at compile time.
+
+## Cross-References
+
+- [Entry Point](/docs/dart/03-basics/01-entrypoint) -- basic types and main()
+- [Classes and Inheritance](/docs/dart/04-object-oriented/01-classes-and-inheritance) -- final fields and constructors
+- [Collections Deep Dive](/docs/dart/06-collections/01-collections-deep-dive) -- List, Set, and Map

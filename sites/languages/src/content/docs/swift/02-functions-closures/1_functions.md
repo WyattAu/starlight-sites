@@ -688,3 +688,14 @@ Swift functions are first-class values that can be stored, passed, and returned.
 inline function definitions with shorthand syntax. Escaping closures handle asynchronous work, while
 property wrappers encapsulate storage logic. Higher-order functions (`map`, `filter`, `reduce`)
 enable concise, expressive data transformations.
+
+## Intuition
+
+Swift functions are first-class values that can be assigned to variables, passed as arguments, and returned from other functions. Argument labels make function calls read like natural English sentences. Closures capture values from their surrounding scope, and trailing closure syntax makes them concise. The difference between reference types and value types matters when closures capture mutable state, potentially creating reference cycles that ARC cannot detect without weak references.
+
+## Cross-References
+
+- [[swift/01-basics/1_variables-and-types]] - Type annotations and optional parameters
+- [[swift/03-oop/1_classes-and-structs]] - Methods and self reference
+- [[swift/04-advanced/1_error-handling]] - Throwing functions and try/catch
+- [[swift/04-advanced/2_concurrency]] - Async functions and structured concurrency

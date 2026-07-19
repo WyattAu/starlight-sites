@@ -533,6 +533,10 @@ TSP_RECURSE(cost, path, visited, curr, curr_cost, best):
 - **Backtracking** incrementally builds solutions and prunes invalid paths. Used for N-queens, subset sum, Sudoku.
 - **Branch and bound** enhances backtracking with bounds to prune provably suboptimal branches.
 
+## Intuition
+
+Algorithm design is the art of solving problems efficiently. Divide and conquer splits problems into independent subproblems. Dynamic programming overlaps subproblems and caches solutions. Greedy algorithms make locally optimal choices hoping for global optimum. The key insight is recognizing problem structure: does it have optimal substructure and overlapping subproblems? This determines which technique applies and what time complexity you can achieve.
+
 ## Cross-References
 
 | Topic | Link |

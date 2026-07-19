@@ -1180,3 +1180,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspecting values. Patterns describe the shape of a value -- its type, structure, and relationships between parts. Irrefutable patterns always match (used in variable declarations), while refutable patterns may fail (used in switch cases and if-case). Sealed classes enable exhaustive matching: the compiler verifies that every subtype is handled, turning missing cases into compile-time errors. Destructuring lets you extract fields from records and objects directly in variable declarations and for-in loops. Guard clauses with when add boolean conditions to narrow matches after the pattern succeeds.
+
+## Cross-References
+
+- [Classes and Inheritance](/docs/dart/04-object-oriented/01-classes-and-inheritance) -- sealed classes and class hierarchies
+- [Variables](/docs/dart/03-basics/02-variables) -- records and destructuring
+- [Error Handling](/docs/dart/08-error-handling) -- sealed exception hierarchies and pattern matching

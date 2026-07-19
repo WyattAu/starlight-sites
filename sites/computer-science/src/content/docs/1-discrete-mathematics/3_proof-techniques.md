@@ -171,3 +171,14 @@ $\blacksquare$
 
 </details>
 
+
+## Intuition
+
+Proof techniques establish mathematical truth. Direct proof assumes premises and derives conclusions. Proof by contradiction assumes the negation and finds a contradiction. Mathematical induction proves statements for all natural numbers by showing a base case and inductive step. These techniques are essential for verifying algorithm correctness, proving complexity bounds, and establishing security properties.
+
+## Cross-References
+
+- [[1-discrete-mathematics/1_propositional-and-predicate-logic]] - Logical foundations
+- [[1-discrete-mathematics/2_sets-relations-and-functions]] - Set-theoretic proofs
+- [[1-algorithms/algorithm_design]] - Algorithm correctness proofs
+- [[1-algorithms/complexity-theory]] - Complexity proofs

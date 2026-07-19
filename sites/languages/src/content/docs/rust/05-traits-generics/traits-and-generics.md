@@ -945,3 +945,13 @@ linked above.
 
 
 </aside>
+## Intuition
+
+Traits define shared behavior as interfaces, while generics enable code that works with multiple types. Trait bounds constrain generics to types that implement specific traits. Static dispatch (monomorphization) generates specialized code for each concrete type, while dynamic dispatch (trait objects) uses vtables for runtime polymorphism. The orphan rule prevents implementing foreign traits on foreign types, maintaining coherence across the ecosystem.
+
+## Cross-References
+
+- [[rust/03-structs-enums/structs-and-enums]] - Implementing traits for custom types
+- [[rust/04-error-handling/error-handling]] - Result with generic error types
+- [[rust/06-concurrency/concurrency]] - Send and Sync trait bounds
+- [[rust/07-cargo-ecosystem/cargo-and-ecosystem]] - Crate ecosystem and trait conventions

@@ -629,3 +629,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 ## Worked Examples
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+The linker combines object files into executables or libraries. Static linking embeds all dependencies at build time, while dynamic linking loads shared libraries at runtime. Linker scripts control memory layout for embedded systems. Understanding symbol resolution, dead code elimination, and library search paths prevents cryptic build errors. LTO (Link-Time Optimization) enables whole-program optimization across translation units.
+
+## Cross-References
+
+- [[enviroment_and_toolchain/1_compiler_and_standards/3_standard_library_implementation]] - Library linking patterns
+- [[enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator]] - Target linking in CMake
+- [[enviroment_and_toolchain/1_compiler_and_standards/2_language_standard_and_abi_compatibility]] - ABI compatibility
+- [[enviroment_and_toolchain/3_dependency_management/6_binary_caching]] - Pre-built binary distribution

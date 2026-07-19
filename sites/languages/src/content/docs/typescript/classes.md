@@ -780,3 +780,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+TypeScript classes combine JavaScript's class syntax with compile-time type checking. Access modifiers (public, private, protected) control visibility, while readonly prevents reassignment. Abstract classes define contracts that subclasses must implement. The key distinction from nominal languages is structural typing: two classes are compatible if they have the same shape, regardless of their inheritance chain. This means you can simulate nominal typing with branded types when you need identity-based compatibility.
+
+## Cross-References
+
+- [[typescript/types-and-annotations]] - Interface versus class trade-offs
+- [[typescript/generics]] - Generic classes and factory patterns
+- [[typescript/functions]] - Method signatures and this parameter typing
+- [[typescript/enums-and-modules]] - Module patterns for organizing class hierarchies

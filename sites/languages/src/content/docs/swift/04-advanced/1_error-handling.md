@@ -589,3 +589,14 @@ information. The `do`/`catch`/`try` pattern propagates errors while `Result` mak
 composable. `defer` ensures cleanup code runs reliably, and `guard` keeps the happy path clean.
 Combined, these tools enable robust error handling without the overhead of exceptions in other
 languages.
+
+## Intuition
+
+Swift's error handling is explicit and type-safe. Functions marked with throws can propagate errors, and callers must handle them with do-catch, try?, or try!. The Result type captures success or failure in the return type, making error handling part of the function's contract rather than an invisible side effect. Typed throws (Swift 5.9+) let you specify exactly which error types a function can produce, enabling the compiler to verify exhaustive error handling.
+
+## Cross-References
+
+- [[swift/01-basics/1_variables-and-types]] - Optional handling as error absence
+- [[swift/02-functions-closures/1_functions]] - Throwing function signatures
+- [[swift/03-oop/1_classes-and-structs]] - Error class hierarchies
+- [[swift/04-advanced/2_concurrency]] - Error handling in async contexts

@@ -727,3 +727,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Generics are TypeScript's way of writing code that works with any type while preserving type safety. Think of type parameters as placeholders that get filled in at the call site, like template variables in a document. Constraints narrow which types are acceptable using the extends keyword. The real power comes from conditional types and mapped types, which enable type-level programming: computing new types from existing ones. Variance annotations (in, out) control how subtyping relationships flow through generic containers.
+
+## Cross-References
+
+- [[typescript/types-and-annotations]] - Foundation of the type system
+- [[typescript/advanced-types]] - Recursive types, variadic tuples, and branded types
+- [[typescript/classes]] - Generic classes and interface implementation
+- [[typescript/functions]] - Generic function signatures and overload patterns

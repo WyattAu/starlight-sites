@@ -357,3 +357,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Arrays, slices, and maps are Go's collection types. Arrays are fixed-size and value-typed -- assigning one array to another copies all elements. Slices are flexible windows into arrays, containing a pointer, length, and capacity. When you append beyond capacity, Go allocates a new larger array and copies elements over, so always capture the return value. Maps are hash tables that map keys to values -- nil maps can be read but not written to, and iteration order is intentionally randomized. The nil vs empty distinction matters for JSON serialization: nil marshals to null, empty marshals to an empty array or object.
+
+## Cross-References
+
+- [Types and Variables](/docs/go/basics/types-and-variables) -- zero values and type system
+- [Functions](/docs/go/basics/functions) -- closures and variable capture
+- [Goroutines and Synchronization](/docs/go/concurrency/goroutines) -- concurrent map access

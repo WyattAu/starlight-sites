@@ -133,3 +133,14 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+TypeScript is like giving JavaScript a safety net. Think of types as labels that tell the compiler what shape your data has. The type system is structural, meaning two types are compatible if they have the same shape, not if they declare the same name. This mirrors JavaScript's own duck-typing but catches errors at compile time instead of runtime. The compiler erases all types during compilation, producing standard JavaScript with zero runtime overhead.
+
+## Cross-References
+
+- [[typescript/types-and-annotations]] - Deep dive into TypeScript's type system
+- [[typescript/generics]] - Parametric polymorphism and type-level programming
+- [[typescript/functions]] - Function typing and overload resolution
+- [[typescript/classes]] - Object-oriented programming with TypeScript

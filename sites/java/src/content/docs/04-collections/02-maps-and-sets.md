@@ -952,3 +952,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Maps associate keys with values, and Sets enforce uniqueness -- both rely on equals and hashCode to function correctly. HashMap is the workhorse: it hashes keys to find buckets, handles collisions with linked lists (treeified at 8 entries), and resizes when load factor exceeds 0.75. TreeMap keeps keys sorted using a red-black tree, enabling efficient range queries. ConcurrentHashMap provides thread-safe operations without locking the entire map, using CAS on individual buckets. HashSet is just a HashMap with a dummy value, and TreeSet wraps TreeMap. The equals/hashCode contract is non-negotiable: overriding equals without hashCode causes objects to vanish from hash-based collections.
+
+## Cross-References
+
+- [Collections Framework](/docs/java/04-collections/01-collections-framework) -- List, Queue, and collection hierarchy
+- [Concurrency](/docs/java/06-concurrency/01-concurrency) -- ConcurrentHashMap and concurrent collections
+- [Streams API](/docs/java/05-streams/01-streams-api) -- stream operations on maps and sets

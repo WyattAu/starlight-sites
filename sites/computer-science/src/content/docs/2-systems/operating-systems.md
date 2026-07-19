@@ -700,6 +700,10 @@ P1, P3, P5.
 - **Virtual memory** (demand paging) allows programs larger than physical memory. Page replacement
   (OPT, LRU, FIFO, Clock) minimizes page faults.
 
+## Intuition
+
+Operating systems manage hardware resources and provide abstractions for applications. Processes are isolated programs with their own address space. Threads share memory within a process, enabling concurrent execution. Virtual memory gives each process the illusion of private address space through paging. Scheduling algorithms decide which process runs when. System calls bridge user programs to kernel services.
+
 ## Cross-References
 
 | Topic               | Link                                                          |

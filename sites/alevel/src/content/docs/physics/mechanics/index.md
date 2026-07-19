@@ -129,3 +129,15 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+
+## Intuition
+
+Physics reveals that nature follows mathematical laws at every scale. Matter is made of atoms, forces arise from field interactions, and energy is conserved in every transformation. The power of physics lies in its predictive ability - from calculating projectile trajectories to designing particle accelerators. Understanding these principles helps us technology, predict natural phenomena, and appreciate the universe's underlying order.
+
+
+## Cross-References
+
+- [Mechanics](/docs/alevel/physics/mechanics)
+- [Waves](/docs/alevel/physics/waves)
+- [Electricity](/docs/alevel/physics/electricity)
+- [Fields](/docs/alevel/physics/fields)

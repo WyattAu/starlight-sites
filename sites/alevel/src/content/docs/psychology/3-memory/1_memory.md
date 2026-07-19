@@ -423,3 +423,14 @@ Memory research reveals a complex, multi-component system:
 - **Eyewitness testimony** is affected by leading questions, anxiety, and age; the cognitive
   interview improves accuracy through context reinstatement, reporting everything, reversing order,
   and changing perspective.
+
+## Intuition
+
+The mind works like an information processing system. Perception filters raw sensory data, memory stores and retrieves experiences, and thinking organises knowledge into decisions. Understanding these mental processes helps explain why people behave differently in similar situations. The key insight is that internal mental states, though invisible, can be studied scientifically through careful observation and experimentation.
+
+
+## Cross-References
+
+- [Research Methods](/docs/alevel/psychology/research-methods)
+- [Approaches in Psychology](/docs/alevel/psychology/approaches)
+- [Biopsychology](/docs/alevel/psychology/biopsychology)

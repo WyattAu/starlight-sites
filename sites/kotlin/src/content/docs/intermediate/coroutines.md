@@ -346,3 +346,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Coroutines are Kotlin's answer to asynchronous programming without the complexity of callbacks or reactive streams. A suspend function can pause execution without blocking its thread, and the compiler generates a state machine that saves and restores local variables at each suspension point. Structured concurrency ensures that child coroutines are bound to their parent scope -- when the parent is cancelled or fails, all children are cancelled too, preventing resource leaks. Dispatchers control which thread pool runs each coroutine: Default for CPU work, IO for blocking operations, Main for UI. Flow is a cold asynchronous stream that processes elements lazily, similar to RxJava's Observable but built entirely on coroutines.
+
+## Cross-References
+
+- [Functions](/docs/kotlin/basics/functions) -- suspend functions and higher-order functions
+- [Classes and Objects](/docs/kotlin/basics/classes-and-objects) -- sealed classes for flow state
+- [Testing](/docs/kotlin/advanced/testing) -- testing coroutines with runTest

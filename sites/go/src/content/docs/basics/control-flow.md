@@ -406,3 +406,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Go's control flow is deliberately simple. There is only one loop construct (for) that handles all iteration patterns -- classic, while, and infinite loops. Switch cases break automatically unless you explicitly fall through, which prevents accidental fall-through bugs from C. The defer keyword schedules cleanup to run when a function returns, executing in LIFO order so nested resources clean up correctly. Range copies values on each iteration, which means modifying the loop variable does not change the original collection -- use index-based access for mutations. Closures capture variables by reference, so loop variables shared across goroutines can cause surprising behavior unless you pass them as arguments.
+
+## Cross-References
+
+- [Functions](/docs/go/basics/functions) -- closures and deferred calls
+- [Types and Variables](/docs/go/basics/types-and-variables) -- zero values and scope
+- [Goroutines and Synchronization](/docs/go/concurrency/goroutines) -- concurrent execution

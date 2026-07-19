@@ -877,3 +877,12 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Processes are programs in execution, each with its own memory space and priority. Systemd manages the lifecycle of services, starting them at boot and restarting them if they fail. Understanding process states (running, sleeping, stopped, zombie) helps you diagnose why a service is not responding. Signals like SIGTERM and SIGKILL provide graceful and forceful ways to control processes.
+
+## Cross-References
+
+- [Package Management](07-package-management/package-management)
+- [Linux Security](06-security/linux-security)

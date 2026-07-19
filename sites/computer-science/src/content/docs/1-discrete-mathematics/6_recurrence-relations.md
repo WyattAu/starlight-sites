@@ -191,3 +191,13 @@ $$T(n) = \Theta\!\left(n^{c_{\mathrm{crit}}\right) + \sum_{j=0}^{\log_b n - 1} a
   (e.g., $f(n) = n \log n$ with $c_{\mathrm{crit{}} = 1$), the Master Theorem does not apply and the
   Akra--Bazzi method should be used Instead.
 </aside>
+## Intuition
+
+Recurrence relations define sequences where each term depends on previous terms. They naturally arise in divide-and-conquer algorithms (binary search: T(n) = T(n/2) + O(1)). Solving recurrences via substitution, recursion trees, or the Master theorem determines algorithm time complexity. Linear recurrences with constant coefficients have closed-form solutions using characteristic equations, connecting discrete math to continuous analysis.
+
+## Cross-References
+
+- [[1-algorithms/algorithm-design]] - Divide-and-conquer recurrences
+- [[1-algorithms/complexity-theory]] - Complexity analysis
+- [[1-discrete-mathematics/4_combinatorics]] - Counting sequences
+- [[1-algorithms/data-structures]] - Recursive data structures

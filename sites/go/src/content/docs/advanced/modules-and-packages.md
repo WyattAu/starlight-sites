@@ -293,3 +293,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Go modules are dependency management made simple. The go.mod file is a manifest that declares your module path and all direct dependencies with exact versions, while go.sum provides checksums to ensure nobody tampers with your dependencies. Minimal Version Selection picks the highest version required by any module in the graph -- not the latest available -- which guarantees reproducible builds. Packages are just directories of Go files sharing a package declaration, and the internal/ directory is enforced by the compiler to keep private code truly private. The module cache stores downloaded dependencies locally so builds do not repeat network fetches.
+
+## Cross-References
+
+- [Project Architecture](/docs/go/advanced/architecture) -- directory layout and patterns
+- [Arrays, Slices, and Maps](/docs/go/basics/arrays-slices-maps) -- core data structures
+- [Types and Variables](/docs/go/basics/types-and-variables) -- Go's type system

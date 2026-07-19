@@ -991,3 +991,13 @@ linked above.
 
 
 </aside>
+## Intuition
+
+Channels are Rust's message-passing primitive, inspired by Go's CSP model. mpsc channels allow multiple producers but single consumption. Crossbeam provides multi-producer multi-consumer channels with better performance. Messages are moved through channels, transferring ownership and preventing shared state. This pattern naturally serializes access to shared resources without locks, and the type system ensures messages cannot be used after being sent.
+
+## Cross-References
+
+- [[rust/06-concurrency/concurrency]] - Thread creation and management
+- [[rust/02-ownership-borrowing/ownership]] - Ownership transfer through channels
+- [[rust/05-traits-generics/traits-and-generics]] - Generic channel type parameters
+- [[rust/04-error-handling/error-handling]] - Error propagation in concurrent code

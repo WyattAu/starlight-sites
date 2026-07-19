@@ -287,3 +287,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Reflection lets you inspect and manipulate types at runtime when static typing is not enough. Think of it as a mirror that shows you the shape of any value -- its type, its fields, its methods. The reflect.Value and reflect.Type types are the two faces of this mirror. You can only modify values obtained through a pointer (pass a pointer, then call .Elem() to get a settable value). Struct tags are metadata annotations read by reflection-based libraries for serialization and validation. Reflection is powerful but slow -- about 100 times slower than direct field access -- so prefer type assertions and generics when the type is known at compile time.
+
+## Cross-References
+
+- [Types and Variables](/docs/go/basics/types-and-variables) -- type system and conversions
+- [Functions](/docs/go/basics/functions) -- first-class values and closures
+- [Goroutines and Synchronization](/docs/go/concurrency/goroutines) -- concurrency primitives

@@ -205,3 +205,13 @@ Authors structure their arguments using recognisable organisational patterns:
 - Using vague descriptions of tone without textual support
 - Confusing the author's tone with the reader's emotional response (mood)
 - Over-identifying devices at the expense of depth
+
+## Intuition
+
+Reading and writing are fundamental to intellectual development. Literature exposes us to diverse perspectives, develops empathy, and hones critical thinking. Analysing texts teaches us to identify arguments, evaluate evidence, and construct coherent interpretations. These skills are essential for academic success, professional communication, and informed citizenship in a complex world.
+
+
+## Cross-References
+
+- [Argument](/docs/ap/english/argument)
+- [Literary Analysis](/docs/ap/english/literary-analysis)

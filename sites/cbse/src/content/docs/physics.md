@@ -439,3 +439,13 @@ and modern physics (photoelectric effect, atomic structure, nuclear physics, sem
 theory paper is 70 marks and practicals are 30 marks. Key exam strategies include drawing diagrams,
 using SI units consistently, showing dimensional analysis checks, and practising NCERT exemplar
 numericals.
+
+## Intuition
+
+Physics describes how the universe works through forces, energy, and fields. Forces are pushes and pulls that change motion -- every interaction in nature is a force between particles. Energy is the currency of change: it cannot be created or destroyed, only converted from one form to another, like converting chemical energy in food into kinetic energy of movement. Waves are disturbances that carry energy without carrying matter, like a crowd wave at a stadium where people stay in place but the pattern moves. Electromagnetism unifies electricity and magnetism as two aspects of the same force, and modern physics reveals that at tiny scales, particles behave like waves and energy comes in discrete packets.
+
+## Cross-References
+
+- [Atoms and Nuclei](/docs/cbse/physics/atoms-nuclei) -- atomic models and nuclear physics
+- [CBSE Chemistry](/docs/cbse/chemistry) -- thermodynamics and electrochemistry overlap
+- [CBSE Mathematics](/docs/cbse/maths) -- calculus and vectors used in physics

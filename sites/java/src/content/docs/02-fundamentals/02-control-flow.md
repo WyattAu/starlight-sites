@@ -1046,3 +1046,12 @@ convenience -- they do not introduce a new type.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Control flow in Java is deliberately strict to prevent bugs. The if statement requires an explicit boolean condition, eliminating the C-style trap of using integers as truth values. Switch expressions replaced the traditional switch statement by eliminating fall-through bugs, enabling exhaustiveness checking with sealed classes, and producing values directly. The try-with-resources statement guarantees that resources are closed in reverse order even if an exception occurs, removing an entire class of resource leak bugs. Checked exceptions force you to handle recoverable errors at compile time, though this remains controversial because it creates boilerplate. Assertions verify internal invariants during development but are disabled in production.
+
+## Cross-References
+
+- [Types and Variables](/docs/java/02-fundamentals/01-types-and-variables) -- primitive and reference types
+- [Strings and Text Processing](/docs/java/02-fundamentals/03-strings) -- string manipulation
+- [Records, Sealed Classes, and Pattern Matching](/docs/java/08-modern-java/01-records-sealed-patterns) -- modern switch patterns

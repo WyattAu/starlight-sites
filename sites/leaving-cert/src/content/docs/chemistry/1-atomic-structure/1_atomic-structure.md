@@ -705,3 +705,14 @@ appropriate equations, and performing calculations with correct units and signif
 2. Write balanced chemical equations where applicable
 3. Apply the correct formulae and show working
 4. Give the final answer with appropriate units and significant figures
+
+## Intuition
+
+Chemistry explains how atoms combine to form the substances that make up everything around you. Bonding is about how electrons are shared or transferred between atoms, determining properties like melting point and conductivity. Chemical reactions are rearrangements of atoms, where old bonds break and new ones form. The mole concept bridges the atomic world and the laboratory, letting you predict exactly how much product a reaction will produce. Understanding these principles lets you predict the behavior of matter before you even enter the lab.
+
+## Cross-References
+
+- [1 Atomic Structure](chemistry/1-atomic-structure/1_atomic-structure)
+- [2 Bonding](chemistry/2-bonding/2_bonding)
+- [1 Cell](biology/1-cell/1_cell)
+- [2 Ecology](biology/2-ecology/2_ecology)

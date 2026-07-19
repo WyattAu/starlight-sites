@@ -258,3 +258,15 @@ Total stopping distance $= 12 + 33.3 = 45.3\ \text{m}$.
 ## Summary
 
 Kinematics covers the distinction between scalars and vectors, the equations of uniformly accelerated motion (suvat), projectile motion (independent horizontal and vertical components), stopping distance (thinking and braking components), and graphical interpretations of motion (displacement-time and velocity-time graphs). The acceleration due to gravity ($g \approx 9.81\ \mathrm{m\,s^{-2}}$) is constant for free fall near Earth's surface.
+
+## Intuition
+
+Physics reveals that nature follows mathematical laws at every scale. Matter is made of atoms, forces arise from field interactions, and energy is conserved in every transformation. The power of physics lies in its predictive ability - from calculating projectile trajectories to designing particle accelerators. Understanding these principles helps us technology, predict natural phenomena, and appreciate the universe's underlying order.
+
+
+## Cross-References
+
+- [Mechanics](/docs/dse/physics/mechanics)
+- [Waves](/docs/dse/physics/waves)
+- [Electricity](/docs/dse/physics/electricity)
+- [Fields](/docs/dse/physics/fields)

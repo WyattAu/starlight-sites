@@ -953,4 +953,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-</aside>
+## Intuition
+
+Strings in Java are immutable sequences of UTF-16 code units. Every operation that appears to modify a string actually creates a new one, which is why concatenation in loops is O(n^2) -- use StringBuilder instead. The string pool deduplicates identical literals to save memory, and since strings are immutable, the JVM can safely share them across threads and cache their hash codes for fast map lookups. Compact strings (JDK 9+) use 1 byte per character for Latin-1 text, cutting memory usage in half for most real-world strings. The equals/hashCode contract ensures that strings with the same content work correctly as map keys and set elements.
+
+## Cross-References
+
+- [Types and Variables](/docs/java/02-fundamentals/01-types-and-variables) -- String immutability and the pool
+- [Collections Framework](/docs/java/04-collections/01-collections-framework) -- using Strings as keys
+- [Streams API](/docs/java/05-streams/01-streams-api) -- string processing with streams</aside>

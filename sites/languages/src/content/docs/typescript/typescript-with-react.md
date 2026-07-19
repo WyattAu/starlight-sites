@@ -830,3 +830,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+TypeScript and React form a powerful combination where types serve as live documentation for your component API. Props interfaces define the contract for each component, while hooks like useState and useRef infer types from initial values. Event handlers use generic types parameterized by the target element, ensuring you only access valid properties. Custom hooks leverage generics to create reusable, type-safe abstractions that work across different data types.
+
+## Cross-References
+
+- [[typescript/typescript]] - TypeScript fundamentals
+- [[typescript/classes]] - Component lifecycle and class components
+- [[typescript/generics]] - Generic hooks and polymorphic components
+- [[typescript/functions]] - Callback typing and event handler patterns

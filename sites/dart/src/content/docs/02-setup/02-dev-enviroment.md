@@ -360,5 +360,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
 
-</aside>
+The development environment is where your code comes alive. VS Code with Dart and Flutter extensions gives you autocompletion, debugging, and hot reload in one editor. The pubspec.yaml file is the single source of truth for your project's dependencies, SDK constraints, and metadata -- think of it as package.json for Dart. The dart analyze command catches errors before runtime, and dart format enforces a single canonical style so you never argue about formatting in code reviews. DevTools provides widget inspection, CPU profiling, memory analysis, and network inspection for Flutter apps.
+
+## Cross-References
+
+- [Installation](/docs/dart/02-setup/01-installation) -- SDK and Flutter setup
+- [Entry Point](/docs/dart/03-basics/01-entrypoint) -- running Dart programs
+- [Error Handling](/docs/dart/08-error-handling) -- debugging and error reporting

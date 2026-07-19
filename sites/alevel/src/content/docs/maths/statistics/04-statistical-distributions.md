@@ -701,3 +701,14 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Mathematical thinking is about abstraction and pattern recognition. Numbers, shapes, and equations are tools for modelling reality - from calculating interest to predicting weather. The beauty of mathematics is that once a pattern is discovered, it can be applied universally. This connects algebra, geometry, and calculus into a coherent framework for understanding quantity, space, and change.
+
+
+## Cross-References
+
+- [Algebra](/docs/alevel/mathematics/algebra)
+- [Calculus](/docs/alevel/mathematics/calculus)
+- [Statistics](/docs/alevel/mathematics/statistics)
+- [Trigonometry](/docs/alevel/mathematics/trigonometry)

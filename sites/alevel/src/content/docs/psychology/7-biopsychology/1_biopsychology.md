@@ -533,3 +533,13 @@ Biopsychology examines the biological basis of behaviour:
   limitations.
 - **Biological rhythms** (circadian, ultradian, infradian) are regulated by endogenous pacemakers
   (SCN) and entrained by exogenous zeitgebers (light).
+
+## Intuition
+
+Psychology bridges the gap between biological processes and human experience. The brain generates consciousness, emotions, and behaviour through neural networks that process information in parallel. Understanding this connection helps us appreciate how thoughts shape actions and how experiences shape the brain. This knowledge empowers us to make better decisions about mental health, learning, and relationships.
+
+
+## Cross-References
+
+- [Research Methods](/docs/alevel/psychology/research-methods)
+- [Approaches in Psychology](/docs/alevel/psychology/approaches)

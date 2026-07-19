@@ -773,3 +773,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Error handling in TypeScript centers on the never type (the bottom type with no inhabitants) and the unknown type (the type-safe counterpart to any). Discriminated unions with a status field model operation outcomes without exceptions. The Result pattern makes success or failure explicit in the return type, forcing callers to handle both cases. Assertion functions narrow types when they return normally, while throw expressions enable concise null checking in expression positions.
+
+## Cross-References
+
+- [[typescript/types-and-annotations]] - never, unknown, and any semantics
+- [[typescript/functions]] - Function return types and assertion signatures
+- [[typescript/generics]] - Generic Result type with type parameters
+- [[typescript/classes]] - Custom error class hierarchies

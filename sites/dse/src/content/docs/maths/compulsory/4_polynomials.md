@@ -975,3 +975,15 @@ the definitions, applying the formulas or frameworks, and evaluating strengths a
 each approach.
 
 </aside>
+
+## Intuition
+
+Mathematics is the study of structure, quantity, and change. Algebra provides symbols for unknown quantities, geometry describes spatial relationships, and calculus captures motion and growth. Together, these branches form a powerful toolkit for solving problems that range from calculating areas to predicting population dynamics. Mathematical literacy is essential for science, technology, and informed citizenship.
+
+
+## Cross-References
+
+- [Algebra](/docs/dse/mathematics/algebra)
+- [Calculus](/docs/dse/mathematics/calculus)
+- [Statistics](/docs/dse/mathematics/statistics)
+- [Trigonometry](/docs/dse/mathematics/trigonometry)

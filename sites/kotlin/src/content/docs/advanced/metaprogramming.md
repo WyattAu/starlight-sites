@@ -388,3 +388,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Reflection lets you inspect and manipulate types at runtime when compile-time information is insufficient. Kotlin's reflection API uses KClass, KFunction, and KProperty to represent types, functions, and properties. Annotations attach metadata that frameworks read via reflection -- they do not affect program behavior directly but enable configuration-driven development. Value classes wrap a single value with a distinct type that compiles away at runtime, providing type safety without allocation overhead. Operator overloading lets you define custom behavior for symbols like +, -, [], and () by implementing specific function names, making domain-specific code read like natural mathematical notation.
+
+## Cross-References
+
+- [Classes and Objects](/docs/kotlin/basics/classes-and-objects) -- data classes and sealed classes
+- [Functions](/docs/kotlin/basics/functions) -- extension functions and higher-order functions
+- [Coroutines](/docs/kotlin/intermediate/coroutines) -- suspend functions and structured concurrency

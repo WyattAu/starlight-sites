@@ -264,3 +264,14 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+The mind works like an information processing system. Perception filters raw sensory data, memory stores and retrieves experiences, and thinking organises knowledge into decisions. Understanding these mental processes helps explain why people behave differently in similar situations. The key insight is that internal mental states, though invisible, can be studied scientifically through careful observation and experimentation.
+
+
+## Cross-References
+
+- [Research Methods](/docs/ib/psychology/research-methods)
+- [Approaches in Psychology](/docs/ib/psychology/approaches)
+- [Biopsychology](/docs/ib/psychology/biopsychology)

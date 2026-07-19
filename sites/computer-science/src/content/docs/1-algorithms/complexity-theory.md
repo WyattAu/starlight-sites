@@ -379,6 +379,10 @@ Some problems cannot be approximated within any constant factor unless P = NP.
 - **Approximation algorithms** provide near-optimal solutions in polynomial time with provable guarantees.
 - **Hardness of approximation** shows limits on how well NP-hard problems can be approximated.
 
+## Intuition
+
+Complexity theory classifies problems by their inherent difficulty. P contains problems solvable in polynomial time. NP contains problems verifiable in polynomial time. NP-complete problems are the hardest in NP, and solving any one in polynomial time would solve all. The P versus NP question asks whether every problem whose solution can be quickly verified can also be quickly solved, remaining one of mathematics' great open problems.
+
 ## Cross-References
 
 | Topic | Link |

@@ -530,3 +530,13 @@ adjacency lists takes $O(V + E)$.
 
 
 </aside>
+## Intuition
+
+Fundamental data structures include arrays, linked lists, stacks, queues, hash tables, and trees. Each excels at different operations: stacks for LIFO access, queues for FIFO processing, hash tables for O(1) lookup, trees for sorted data. Understanding these building blocks lets you compose complex data structures and select the right one for your access patterns.
+
+## Cross-References
+
+- [[1-algorithms/data-structures]] - Advanced data structures
+- [[2-algorithms-and-data-structures/1_algorithm_analysis]] - Complexity analysis
+- [[1-algorithms/algorithm_design]] - Algorithm-structure pairing
+- [[3-theory/automata-and-formal-languages]] - Formal structure models

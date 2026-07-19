@@ -162,3 +162,14 @@ neurotransmitters, hormones, genetics) influence behaviour. Key principles inclu
 brain function, neuroplasticity, and the use of animal and twin studies. Brain imaging techniques
 (fMRI, PET, EEG) are essential methodological tools. Students must describe and evaluate empirical
 studies and apply BLOA concepts to explain behaviour and abnormality.
+
+## Intuition
+
+Human behaviour emerges from the interaction of biological, cognitive, and social factors. Our brains are wired to respond to threats, form relationships, and seek meaning. Psychology reveals the hidden mechanisms behind everyday decisions - why we conform to groups, how memories form and fade, and what drives us to pursue goals. These insights apply to education, relationships, and personal wellbeing.
+
+
+## Cross-References
+
+- [Research Methods](/docs/ib/psychology/research-methods)
+- [Approaches in Psychology](/docs/ib/psychology/approaches)
+- [Biopsychology](/docs/ib/psychology/biopsychology)

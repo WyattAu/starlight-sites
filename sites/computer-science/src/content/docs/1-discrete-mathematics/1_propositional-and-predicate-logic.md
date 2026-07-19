@@ -325,3 +325,13 @@ Checking validity is Co-NP-complete, not NP-complete.
 
 
 </aside>
+## Intuition
+
+Logic is the foundation of mathematical reasoning and computer science. Propositional logic deals with truth values and connectives (AND, OR, NOT, IMPLIES). Predicate logic adds quantifiers (FOR ALL, EXISTS) to reason about properties of objects. Boolean algebra provides the mathematical framework for digital circuits. Understanding logic helps you write precise specifications and verify program correctness.
+
+## Cross-References
+
+- [[1-discrete-mathematics/2_sets-relations-and-functions]] - Sets and relations
+- [[1-discrete-mathematics/3_proof-techniques]] - Logical proof methods
+- [[3-theory/automata-and-formal-languages]] - Logic in formal languages
+- [[1-algorithms/algorithm-design]] - Logical reasoning in algorithms

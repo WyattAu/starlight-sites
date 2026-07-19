@@ -342,3 +342,13 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Kotlin functions are first-class values that can be passed as parameters, returned from other functions, and stored in variables. Default parameters eliminate most method overloading, and named arguments make call sites self-documenting. Extension functions add behavior to existing types without modifying their source -- they compile to static methods with the receiver as the first parameter, resolved at compile time by static type. Higher-order functions take or return function types, enabling powerful abstractions like map, filter, and custom DSLs. The inline modifier eliminates lambda allocation overhead by substituting the function body at each call site.
+
+## Cross-References
+
+- [Types and Variables](/docs/kotlin/basics/types-and-variables) -- function types and nullable functions
+- [Control Flow](/docs/kotlin/basics/control-flow) -- lambdas in for-each and labeled returns
+- [Coroutines](/docs/kotlin/intermediate/coroutines) -- suspend functions as coroutines

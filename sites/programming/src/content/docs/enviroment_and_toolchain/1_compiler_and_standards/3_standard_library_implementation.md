@@ -770,3 +770,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+The C++ standard library provides containers, algorithms, I/O, and utilities. libstdc++ (GCC), libc++ (Clang), and MSVC's STL are the three main implementations. Each optimizes differently and may have varying performance characteristics. The choice affects binary compatibility, so your entire project should use the same implementation. Understanding which library your compiler uses by default prevents linking errors.
+
+## Cross-References
+
+- [[enviroment_and_toolchain/1_compiler_and_standards/1_installing_compiler.mdx]] - Compiler and library pairing
+- [[enviroment_and_toolchain/1_compiler_and_standards/2_language_standard_and_abi_compatibility]] - Standard library versioning
+- [[enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models]] - Library integration patterns
+- [[enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration]] - Linking standard libraries

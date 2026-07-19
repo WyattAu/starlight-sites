@@ -384,5 +384,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Dart is a language designed for building user interfaces, particularly with Flutter. Its dual compilation strategy -- JIT during development for hot reload, AOT for production -- means you get instant feedback while coding and native performance when shipping. Isolates are Dart's answer to concurrency: each has its own memory heap and event loop, so there are no data races, no mutexes, and communication happens through message passing. The sound null safety system catches null-related bugs at compile time, and the garbage collector uses a generational approach with sub-millisecond pause times, making it ideal for smooth 60fps UIs.
+
+## Cross-References
+
+- [Entry Point](/docs/dart/03-basics/01-entrypoint) -- main() and basic types
+- [Async and Futures](/docs/dart/05-async/01-async-and-futures) -- Future, Stream, and async/await
+- [Pattern Matching](/docs/dart/07-dart3-features/01-pattern-matching) -- Dart 3 pattern matching
 
 </aside>

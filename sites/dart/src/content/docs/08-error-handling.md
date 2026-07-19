@@ -1089,3 +1089,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Dart distinguishes between Exception (recoverable runtime conditions) and Error (programming bugs that indicate broken invariants). Catching Error is almost always wrong because it masks bugs like null dereferences and stack overflows. The rethrow keyword preserves the original stack trace, while throw e resets it to the current line. Sealed exception hierarchies enable exhaustive pattern matching, so the compiler ensures you handle every failure type. The Result/Either pattern makes expected failures explicit in the return type instead of using exceptions for control flow, which is both faster and more composable. Uncaught async errors go to the zone handler rather than crashing the app, which is why you need runZonedGuarded for production error reporting.
+
+## Cross-References
+
+- [Async and Futures](/docs/dart/05-async/01-async-and-futures) -- error handling in async code
+- [Pattern Matching](/docs/dart/07-dart3-features/01-pattern-matching) -- sealed classes and exhaustive switch
+- [Classes and Inheritance](/docs/dart/04-object-oriented/01-classes-and-inheritance) -- custom exception classes

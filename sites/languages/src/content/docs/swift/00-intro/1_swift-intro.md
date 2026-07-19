@@ -492,3 +492,14 @@ Swift is a modern, safe, and fast programming language designed for the Apple ec
 extending well beyond it. Its combination of protocol-oriented design, value semantics, strong type
 safety, and modern concurrency support makes it well-suited for applications ranging from mobile UI
 to server-side services.
+
+## Intuition
+
+Swift is Apple's answer to the question: can we have C++ performance with Python-like safety? The language uses Automatic Reference Counting for memory management, catching reference cycles at compile time. Value types (structs) versus reference types (classes) is a core design decision that affects performance and thread safety. Protocol-oriented programming favours composition over inheritance, letting you build flexible abstractions without the fragile base class problem.
+
+## Cross-References
+
+- [[swift/01-basics/1_variables-and-types]] - Type inference and optionals
+- [[swift/03-oop/1_classes-and-structs]] - Value versus reference type semantics
+- [[swift/04-advanced/1_error-handling]] - Error handling with do-catch
+- [[swift/04-advanced/2_concurrency]] - Structured concurrency with async/await

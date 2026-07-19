@@ -378,3 +378,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Channels are typed message pipes that connect goroutines. An unbuffered channel synchronizes sender and receiver -- both must be ready at the same time, which is how Go achieves coordination without locks. Buffered channels add a queue so the sender can proceed without waiting for the receiver up to the buffer capacity. Select lets a goroutine wait on multiple channel operations, choosing whichever is ready first, and a default case makes it non-blocking. Nil channels block forever, which is useful in select to temporarily disable a case. Context provides cancellation propagation -- when a parent context is cancelled, all child contexts receive the signal, enabling clean shutdown of goroutine trees.
+
+## Cross-References
+
+- [Goroutines and Synchronization](/docs/go/concurrency/goroutines) -- lightweight threads and mutexes
+- [Functions](/docs/go/basics/functions) -- first-class functions used in goroutines
+- [Networking](/docs/go/advanced/networking) -- context propagation in HTTP handlers

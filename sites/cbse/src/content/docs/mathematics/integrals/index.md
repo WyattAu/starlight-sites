@@ -117,3 +117,13 @@ $$= -\int \frac{1}{u} \, du = -\ln|u| + C = -\ln|\cos x| + C = \ln|\sec x| + C$$
 3. When using substitution, change the limits of integration if the integral is definite.
 4. Check your answer by differentiating the result.
 5. For partial fractions with irreducible quadratic factors in the denominator, use $\frac{Ax + B}{ax^2 + bx + c}$.
+
+## Intuition
+
+Integration is the reverse of differentiation -- if a derivative gives you the rate, an integral gives you the total accumulated quantity. Think of it as adding up infinitely many infinitely thin slices to find total area under a curve. Substitution is like undoing a chain rule: you identify an inner function and simplify. Integration by parts undoes the product rule, letting you trade one integral for another that might be simpler. Definite integrals give exact numerical answers by evaluating the antiderivative at the boundaries and subtracting, like measuring the net displacement from a velocity graph.
+
+## Cross-References
+
+- [Derivatives](/docs/cbse/mathematics/derivatives) -- differentiation rules and chain rule
+- [Matrices](/docs/cbse/mathematics/matrices) -- linear algebra and systems
+- [CBSE Physics](/docs/cbse/physics) -- work as integral of force, and area under curves

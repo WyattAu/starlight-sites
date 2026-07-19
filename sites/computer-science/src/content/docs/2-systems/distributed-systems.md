@@ -567,6 +567,10 @@ V_old. Once a majority accepts, V_old is chosen.
 - **Time and ordering:** Lamport clocks capture happens-before; vector clocks distinguish concurrent
   events.
 
+## Intuition
+
+Distributed systems face fundamental challenges: the CAP theorem states you can only guarantee two of consistency, availability, and partition tolerance. Consensus algorithms coordinate agreement across nodes. Replication provides fault tolerance but introduces consistency concerns. Vector clocks track causality in distributed events. These trade-offs appear in every distributed database, message queue, and microservice architecture.
+
 ## Cross-References
 
 | Topic             | Link                                                        |

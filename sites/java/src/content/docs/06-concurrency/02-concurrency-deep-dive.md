@@ -884,3 +884,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Explicit locks like ReentrantLock extend synchronized with fairness control, timed acquisition, interruptibility, and multiple condition variables. ReadWriteLock allows concurrent readers but exclusive writers, and StampedLock adds optimistic reads that avoid blocking entirely. Atomic classes use CPU-level CAS instructions for lock-free thread-safe operations, with LongAdder distributing contention across cells for high-throughput counters. ThreadLocal gives each thread its own copy of a variable, but this is expensive with virtual threads -- ScopedValue is the replacement. Deadlock prevention requires consistent lock ordering, and ForkJoin's work-stealing scheduler automatically balances load across idle threads.
+
+## Cross-References
+
+- [Concurrency](/docs/java/06-concurrency/01-concurrency) -- threads, synchronized, and volatile
+- [Virtual Threads and Structured Concurrency](/docs/java/08-modern-java/02-virtual-threads-structured-concurrency) -- modern concurrency
+- [Streams API](/docs/java/05-streams/01-streams-api) -- parallel streams and ForkJoinPool

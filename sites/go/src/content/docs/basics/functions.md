@@ -343,3 +343,13 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Functions in Go are first-class values -- you can assign them to variables, pass them as arguments, and return them from other functions. Go functions can return multiple values, which is how error handling works: return a result and an error, then check the error. Closures capture variables by reference, not by value, so all closures in a loop share the same variable unless you pass it as an argument. Methods are just functions with a receiver -- value receivers operate on copies while pointer receivers modify the original. Defer schedules cleanup to run after the function returns, and deferred functions can even modify named return values.
+
+## Cross-References
+
+- [Control Flow](/docs/go/basics/control-flow) -- for loops, switch, and defer
+- [Types and Variables](/docs/go/basics/types-and-variables) -- type system and closures
+- [Goroutines and Synchronization](/docs/go/concurrency/goroutines) -- goroutines as lightweight threads

@@ -176,3 +176,14 @@ This page includes:
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 </aside>
+
+## Intuition
+
+Chemistry explains how atoms combine to form the substances that make up everything around you. Bonding is about how electrons are shared or transferred between atoms, determining properties like melting point and conductivity. Chemical reactions are rearrangements of atoms, where old bonds break and new ones form. The mole concept bridges the atomic world and the laboratory, letting you predict exactly how much product a reaction will produce. Understanding these principles lets you predict the behavior of matter before you even enter the lab.
+
+## Cross-References
+
+- [1 Structure Bonding](chemistry/1-structure-bonding/1_structure-bonding)
+- [2 Heat Matter](chemistry/2-heat-matter/2_heat-matter)
+- [1 Cell Biology](biology/1-cell-biology/1_cell-biology)
+- [2 Metabolism](biology/2-metabolism/2_metabolism)

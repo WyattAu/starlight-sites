@@ -947,3 +947,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+## Intuition
+
+The digital world runs on algorithms and data. From search engines to social media, software systems process information through carefully designed procedures. Computer science teaches us to think systematically about problems, design efficient solutions, and understand the technologies that shape modern life. These skills are essential for innovation in every field.
+
+
+## Cross-References
+
+- [Computational Thinking](/docs/ap/computer.?science/computational-thinking)
+- [Algorithms](/docs/ap/computer.?science/algorithms)
