@@ -747,6 +747,13 @@ with other pure mathematics topics to test synthesis under exam conditions.
 See for instructions on self-marking and
 building a personal test matrix.
 </aside>
+
+## Cross-References
+
+- [Differentiation](10-differentiation.mdx) -- Derivatives describe the rate of change of functions and are used to find stationary points and sketch graphs.
+- [Exponentials and Logarithms](09-exponentials-and-logarithms.mdx) -- The exponential and logarithmic functions are inverses of each other, a key example of function inversion.
+- [Integration](11-integration.mdx) -- Integration finds areas under function curves and reverses the process of differentiation.
+- [Sequences and Series](06-sequences-and-series.md) -- Sequences are functions defined on the natural numbers, linking function behaviour to series convergence.
 ## Common Pitfalls
 
 1. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary

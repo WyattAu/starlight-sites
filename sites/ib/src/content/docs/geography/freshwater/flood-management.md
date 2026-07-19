@@ -275,6 +275,10 @@ For related topics, see [./drainage-basins-and-hydrology](./drainage-basins-and-
 [./water-scarcity-and-management](./water-scarcity-and-management). The parent topic page is at
 [../freshwater-issues](../freshwater-issues).
 
+## Intuition
+
+Flood management is the art of choosing between fighting water and making room for it. Hard engineering builds walls against nature, but water always finds the weakest point -- often the very structures built to contain it. Soft engineering works with natural processes, treating floods as part of the river's metabolism rather than an enemy. The Netherlands Room for the River programme represents this paradigm shift: instead of building higher levees, they gave the river wider floodplains. Bangladesh shows that community preparedness can save more lives than concrete alone.
+
 ## Common Pitfalls
 
 1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires

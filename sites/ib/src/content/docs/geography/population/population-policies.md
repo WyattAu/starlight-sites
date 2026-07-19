@@ -240,6 +240,10 @@ For related topics, see [./demographic-transition-model](./demographic-transitio
 [./migration-theories-and-patterns](./migration-theories-and-patterns). The parent topic page is at
 [../population-distribution](../population-distribution).
 
+## Intuition
+
+Population policies are instruments played on a timescale longer than political careers -- consequences emerge decades after implementation. China's one-child policy shows how quickly culture can be disrupted by coercion, while France demonstrates that structural support for working parents produces sustainable fertility outcomes. Pro-natalist policies are attempts to reverse a river's flow through incentives, but culture is a slower-moving current than policy. Gender equity is the hidden lever: when fathers share domestic labour and institutions support childcare, the opportunity cost of children falls and fertility stabilises.
+
 ## Common Pitfalls
 
 1. Rounding too early in multi-step calculations. Carry full precision through and round only the

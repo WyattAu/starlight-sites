@@ -829,6 +829,13 @@ Methods with other pure mathematics topics to test synthesis under exam conditio
 See for instructions on self-marking and
 building a personal test matrix.
 </aside>
+
+## Cross-References
+
+- [Differentiation](10-differentiation.mdx) -- Newton-Raphson requires the derivative, and convergence analysis relies on Taylor's theorem from differentiation.
+- [Integration](11-integration.mdx) -- The trapezium rule and Simpson's rule are numerical approximations of definite integrals.
+- [Exponentials and Logarithms](09-exponentials-and-logarithms.mdx) -- Many root-finding problems involve exponential equations solved iteratively.
+- [Proof](13-proof.md) -- Convergence proofs use logical deduction techniques such as contradiction and induction.
 ## Common Pitfalls
 
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both

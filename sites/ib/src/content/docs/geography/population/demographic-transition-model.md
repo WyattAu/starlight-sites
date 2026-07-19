@@ -237,6 +237,10 @@ For related topics, see [./migration-theories-and-patterns](./migration-theories
 [./population-policies](./population-policies). The parent topic page is at
 [../population-distribution](../population-distribution).
 
+## Intuition
+
+The demographic transition is a society's journey from high birth and death rates to low ones, driven by improvements in medicine, education, and economic structure. Think of it as a dam being built: first the water (people) flows freely, then barriers (contraception, education) reduce the flow while existing water remains. The demographic dividend is a temporary window when a large working-age population can accelerate growth, like a tree that bears fruit only during a specific season. Population pyramids are portraits of a nation's past choices rendered in age structure.
+
 ## Common Pitfalls
 
 1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires

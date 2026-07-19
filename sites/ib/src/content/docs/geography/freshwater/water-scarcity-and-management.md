@@ -221,6 +221,10 @@ For related topics, see [./drainage-basins-and-hydrology](./drainage-basins-and-
 [./flood-management](./flood-management). The parent topic page is at
 [../freshwater-issues](../freshwater-issues).
 
+## Intuition
+
+Water scarcity is not just about how much rain falls but about whether societies have built the infrastructure to capture and deliver it. Physical scarcity is an absolute deficit; economic scarcity is a failure of governance and investment. Supply-side management is like adding water to a bathtub from a bigger pipe; demand-side management is learning to use less water in the bath. Singapore demonstrates that a combination of diversified supply and aggressive demand management can achieve water security even in one of the most water-scarce nations on Earth.
+
 ## Common Pitfalls
 
 1. Losing marks by not showing sufficient working. Always write out each step, especially in proof

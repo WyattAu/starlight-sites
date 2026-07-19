@@ -210,6 +210,10 @@ For related topics, see [./demographic-transition-model](./demographic-transitio
 [./population-policies](./population-policies). The parent topic page is at
 [../population-distribution](../population-distribution).
 
+## Intuition
+
+Migration is the calculus of human decision-making: individuals weigh gradients of opportunity, subtracting costs and obstacles from perceived benefits. Push and pull factors are not independent forces but two sides of the same coin -- a push at origin becomes a pull toward destination. Lee's model is essentially an accountant's ledger where each person balances debits and credits of staying versus moving. The impacts of migration are always asymmetric: remittances flow one way while skills and cultural connections flow both, and the balance depends entirely on context.
+
 ## Common Pitfalls
 
 1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires

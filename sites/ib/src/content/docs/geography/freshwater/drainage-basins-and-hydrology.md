@@ -241,6 +241,10 @@ For an overview of freshwater issues and management, see
 [./flood-management](./flood-management). The parent topic page is at
 [../freshwater-issues](../freshwater-issues).
 
+## Intuition
+
+A drainage basin is a complete water machine: precipitation enters, water is stored and transformed in multiple reservoirs, and discharge exits. The storm hydrograph is the basin's fingerprint, revealing how quickly or slowly it delivers water to the channel. Urbanisation strips away the basin's natural sponges -- soil and vegetation -- and replaces them with concrete pipes that rush water downstream. The water balance equation is conservation of matter applied to hydrology: what goes in must come out or be stored somewhere.
+
 ## Common Pitfalls
 
 1. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way

@@ -317,6 +317,10 @@ Step 4: Eigenvalues: $\lambda_1 = 5$ and $\lambda_2 = 2$
 7. The sum of an arithmetic series can also be written as $S_n = \frac{n}{2}(a + l)$ where $l$ is the last term
 8. For geometric series with $|r| > 1$, the series diverges (no finite sum)
 
+## Intuition
+
+Quadratic equations describe parabolas, and the discriminant tells you how many times the curve crosses the x-axis -- the roots are where the curve meets the ground. Sequences and series are patterns of growth: arithmetic sequences add a constant like footsteps, while geometric sequences multiply like compound interest. The sum of an infinite convergent series is a finite number approached but never quite reached, like Zeno's paradox resolved by mathematics. Matrices are machines that transform space, and their inverses reverse that transformation.
+
 ## Common Mistakes
 
 **Forgetting to check the discriminant before solving quadratics.** Always compute Delta = b^2 - 4ac first. If Delta < 0, there are no real roots. Students sometimes proceed with the quadratic formula and obtain complex numbers when the problem expects real solutions or no solution.

@@ -178,6 +178,10 @@ The student should maintain a research diary, come to meetings prepared, and mee
 
 ---
 
+## Intuition
+
+Independent historical research is like detective work: you begin with a question, gather evidence from multiple witnesses (sources), evaluate their credibility, and construct a case. The research question is your case theory -- if it is weak, no amount of evidence will save the investigation. Source evaluation is not a checklist exercise but an act of empathy: you must imagine the world from the creator's position to understand what they could see and what they chose to hide. The reflection is your opportunity to show the jury how you grew as a thinker.
+
 ## Common Pitfalls
 
 1. **Descriptive rather than analytical writing.** Both the IA and EE require sustained argument, not narration. Every piece of evidence must be followed by analysis of its significance.

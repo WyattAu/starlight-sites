@@ -119,5 +119,12 @@ Pure mathematics is the language of pattern and structure underlying all quantit
 ## How to Use These Notes
 
 Follow the sidebar order. Each page provides rigorous definitions, proofs, worked examples with full
-working, and exam-style problems. The material is cumulative — master each topic before moving to
+working, and exam-style problems. The material is cumulative -- master each topic before moving to
 the next.
+
+## Cross-References
+
+- [Mechanics Index](../mechanics/index.md) -- Mechanics applies the algebraic, calculus, and vector skills developed in Pure Mathematics to physical problems.
+- [Statistics Index](../statistics/index.md) -- Statistics uses algebraic manipulation, functions, and numerical methods to analyse data and probability.
+- [Further Pure Mathematics 1](further-pure-1.md) -- Extends the core Pure content into complex numbers, matrices, and advanced calculus.
+- [Proof](13-proof.md) -- Proof techniques unify all pure mathematics topics through rigorous logical argument.

@@ -243,6 +243,10 @@ $$\text{Fe}(s) + 2\text{Ag}^{+}(aq) \rightarrow \text{Fe}^{2+}(aq) + 2\text{Ag}(
 
 **Common mistake:** Forgetting to balance the number of electrons transferred when writing the overall cell reaction.
 
+## Intuition
+
+The periodic table is a map of elemental behaviour -- position predicts chemical personality. Periodic trends arise from a tug-of-war between nuclear charge (pulling electrons inward) and electron shielding (pushing them outward). Redox chemistry is fundamentally about electron transfer, and electrochemistry measures the driving force behind that transfer as cell potential. Hess's Law is an energy bookkeeping principle: energy is conserved regardless of the path taken, just as distance walked does not depend on the route.
+
 ## Common Mistakes
 
 ### Mistake 1: Confusing endothermic and exothermic sign conventions

@@ -202,6 +202,10 @@ linked above.
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
+## Intuition
+
+The HSC and VCE are two different roads to the same destination -- university admission. They test the same capabilities through different assessment structures: the HSC relies more heavily on external exams while the VCE distributes weight across School-Assessed Coursework. The ATAR is not an absolute score but a relative ranking, like placing every student on a single line sorted by performance. Internal and external assessments moderate each other to prevent any single exam from defining a student's outcome.
+
 ## Cross-References
 
 - [Algebra](mathematics/algebra) -- Core algebraic skills underpin all HSC mathematics and science subjects.

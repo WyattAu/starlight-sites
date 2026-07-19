@@ -247,6 +247,10 @@ For related topics, see [./urban-environmental-quality](./urban-environmental-qu
 [./urban-planning-and-sustainability](./urban-planning-and-sustainability). The parent topic page is
 At [../urban-environments](../urban-environments).
 
+## Intuition
+
+Urbanisation is gravity in human form -- people are pulled toward economic opportunity like water flowing downhill. Natural increase, migration, and reclassification are three rivers feeding the same reservoir of urban growth. Megacities are enormous engines of agglomeration, concentrating talent and capital, but they also concentrate risk. Primate cities reflect historical path dependence: colonial port cities became dominant because infrastructure followed trade routes, and dominance became self-reinforcing over generations.
+
 ## Common Pitfalls
 
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both

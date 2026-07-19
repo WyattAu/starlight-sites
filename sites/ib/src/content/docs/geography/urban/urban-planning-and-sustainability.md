@@ -246,6 +246,10 @@ For related topics, see [./urbanisation-trends-and-patterns](./urbanisation-tren
 [./urban-environmental-quality](./urban-environmental-quality). The parent topic page is at
 [../urban-environments](../urban-environments).
 
+## Intuition
+
+Sustainable urban planning is like designing a building that must stand for centuries while its inhabitants' needs constantly change. The three pillars -- environmental, social, economic -- are in permanent tension, like three musicians who must play in harmony but each hears a different tempo. Smart cities are experiments in urban nervous systems, giving cities the ability to sense and respond. Transit-oriented development works by planting seeds of density around transport roots, allowing the city to grow along its arteries rather than sprawling uncontrollably.
+
 ## Common Pitfalls
 
 1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires

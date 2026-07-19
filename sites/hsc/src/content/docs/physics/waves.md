@@ -217,6 +217,10 @@ $$\theta_2 = \arcsin(0.964) = 74.6°$$
 
 **Common mistake:** Forgetting to check the critical angle before applying Snell's law. If the angle of incidence exceeds the critical angle, all light is reflected back into the denser medium.
 
+## Intuition
+
+Waves are energy in motion without matter following it -- think of a Mexican wave in a stadium where each person moves up and down while the pattern travels forward. Interference is what happens when two waves occupy the same space: they add together, creating regions of reinforcement and cancellation. Diffraction reveals that waves bend around obstacles, a behaviour that becomes more pronounced when the obstacle size approaches the wavelength. The Doppler effect is the reason a siren changes pitch as it passes you -- the wavefronts compress ahead and stretch behind.
+
 ## Common Mistakes
 
 **Confusing the wave speed equation variables.** The equation v = f * lambda relates wave speed (m/s), frequency (Hz), and wavelength (m). Students often rearrange it incorrectly or mix up which variable to solve for. Remember: speed equals frequency times wavelength, always.
