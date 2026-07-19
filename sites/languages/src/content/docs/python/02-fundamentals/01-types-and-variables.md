@@ -952,6 +952,10 @@ def make_counter():
 Difficult to test and reason about. Prefer passing state explicitly through function parameters or
 Using classes.
 
+## Intuition
+
+Python variables are not boxes that contain values — they are labels stuck on objects. When you write `x = [1, 2, 3]`, you are not putting a list inside `x`; you are sticking the label `x` on a list object that lives somewhere in memory. This is why `a = b` does not copy the list — both labels point to the same object. Dynamic typing means these labels can be moved to different objects at any time. Strong typing means Python will not silently convert incompatible types — it raises an error instead, because silent conversion would be like a librarian reorganizing your books without telling you. The immutable nature of strings means every "modification" creates a new string, like photocopying a page and writing on the copy.
+
 ## Common Pitfalls
 
 1. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its

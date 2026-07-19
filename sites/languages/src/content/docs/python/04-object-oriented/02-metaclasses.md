@@ -737,6 +737,10 @@ Prefer these alternatives:
 - **`__init__`** for instance-level setup.
 - **`abc.ABC`** for abstract enforcement.
 
+## Intuition
+
+A metaclass is the blueprint for blueprints. If a class defines how objects behave, a metaclass defines how classes themselves are built. When Python encounters a class statement, it does not just create a class — it executes code, collects a namespace, and hands it to a metaclass factory. The metaclass is like a building inspector that checks the blueprint before approving construction. It can reject invalid classes, add automatic methods, or transform attributes. Most of the time you do not need metaclasses because `__init_subclass__` and decorators handle the same jobs more simply. Metaclasses are power tools — use them when simpler tools break, but expect complexity as the price.
+
 ## Common Pitfalls
 
 **1. Using `__init__` on the metaclass when you meant `__new__`.**

@@ -106,6 +106,10 @@ The Boxer Rebellion represented the conservative backlash against foreign influe
 
 **Source Analysis:** When examining Boxer Rebellion sources, consider the perspective of different participants. Foreign accounts emphasise the violence against missionaries and diplomats, while Chinese sources may reflect sympathy for anti-imperialist sentiment or criticism of the Qing court's recklessness.
 
+## Intuition
+
+European imperialism in Asia was like a game of Monopoly where one player keeps buying up everyone else's properties. The Industrial Revolution gave Europe the tools — guns, ships, telegraphs — to project power across oceans. China's encounter with imperialism was a collision between a self-contained civilisation that saw itself as the centre of the world and外来 powers who did not recognise that hierarchy. The Opium Wars were not really about drugs — they were about who controls trade and who sets the rules. Hong Kong became a permanent reminder of this power imbalance, a piece of China that was governed by Britain for over 150 years.
+
 ## Exam Tips
 
 - When analysing the causes of imperialism, distinguish between economic motivations (trade, raw materials, markets), political motivations (strategic advantage, prestige), and ideological motivations (civilising mission, racial superiority).

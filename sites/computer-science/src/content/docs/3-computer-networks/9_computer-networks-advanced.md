@@ -1346,3 +1346,8 @@ $\blacksquare$
 
 
 </aside>
+## Cross-References
+
+- [Network Models](./1_network-models) -- Advanced networking topics extend the OSI and TCP/IP models discussed in the fundamentals.
+- [Network Security](./7_network-security) -- Advanced topics include intrusion detection and prevention systems that build on basic security concepts.
+- [Transport Layer](./5_transport-layer) -- TCP congestion control and advanced protocols extend the reliable transport mechanisms.

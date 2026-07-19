@@ -348,6 +348,10 @@ on sustained political leadership over decades.
 
 ---
 
+## Intuition
+
+A city is a living organism with its own metabolism. It breathes in food, water, and energy, and breathes out waste, pollution, and heat. The urban heat island effect is the city running a fever — concrete and asphalt absorb heat like a storage radiator, while tall buildings trap it like walls around a bonfire. Social segregation is the city's circulatory system, carrying wealth to some neighbourhoods and starving others. Curitiba shows what happens when a city is designed thoughtfully — its bus system works like arteries, efficiently moving people where they need to go. But most cities grew organically, like tumors, and their challenges are the growing pains of unplanned growth.
+
 ## Common Pitfalls
 
 1. **Applying developed-world urban models to all cities**: The Burgess model was based on Chicago

@@ -594,6 +594,10 @@ constexpr IPv4 priv = IPv4::from_octets(10, 0, 0, 1);
 static_assert(priv.is_private() == true);
 ```
 
+## Intuition
+
+Bit manipulation is the art of speaking the machine's native language. Every value in memory is just a sequence of bits, and bitwise operations let you flip individual switches without disturbing the others. It is like having a control panel with 64 light switches — AND turns on only lights that are on in both panels, OR turns on any light that is on in either panel, XOR toggles differences. Bit shifting is multiplication and division by powers of two, which is the fastest arithmetic the CPU can do. These operations are the building blocks of cryptography, network protocol parsing, and performance optimization where every CPU cycle counts.
+
 ## Common Pitfalls
 
 ### 1. Signed Integer Bit Operations

@@ -1113,3 +1113,10 @@ From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 
 </aside>
+
+## Cross-References
+
+- [Atomic Structure](./atomic-structure) -- Electronic configurations of transition metals explain their variable oxidation states and colour properties.
+- [Bonding and Structure](./bonding-and-structure) -- Coordinate bonding in complex ions extends the general theory of chemical bonding.
+- [Organic Chemistry](./organic-chemistry) -- Transition metal catalysts are essential in many organic reactions, linking inorganic and organic chemistry.
+- [Kinetics](./kinetics) -- The role of transition metals as catalysts connects directly to activation energy and reaction rate theory.

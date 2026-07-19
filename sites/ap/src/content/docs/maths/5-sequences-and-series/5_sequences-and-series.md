@@ -874,3 +874,9 @@ applying these mathematical techniques.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+## Cross-References
+
+- [Limits and Continuity](../1-limits-and-continuity/1_limits-and-continuity) -- Convergence of sequences and series is defined using the same limit concepts as continuity.
+- [Derivatives](../2-derivatives/2_derivatives) -- Taylor and Maclaurin series express functions as infinite sums of derivative-based terms.
+- [Integrals](../3-integrals/3_integrals) -- Term-by-term integration of power series connects series convergence to integral calculus.

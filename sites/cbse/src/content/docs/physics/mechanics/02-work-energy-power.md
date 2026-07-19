@@ -155,3 +155,9 @@ Conservation of mechanical energy ($K_i + U_i = K_f + U_f$) only holds when no n
 ### Mistake 3: Confusing instantaneous power with average power
 
 Instantaneous power is $P = \vec{F} \cdot \vec{v}$ (force times velocity at that instant), while average power is $P_{avg} = W/t$ (total work divided by total time). Students sometimes use $P = Fv$ for average power when the force or velocity changes over time. For constant force and velocity, both formulas give the same result, but for varying conditions, use the appropriate definition.
+
+## Cross-References
+
+- [Laws of Motion](./01-laws-of-motion) -- The work-energy theorem connects Newton's second law to energy methods, providing an alternative approach to dynamics problems.
+- [Rotational Motion](./03-rotational-motion) -- Rotational kinetic energy and work done by torque extend energy concepts to rotational systems.
+- [Electrostatics](../electrostatics/index) -- Electric potential energy applies the work-energy framework to charges in electric fields.

@@ -487,3 +487,9 @@ $\\{A, B, C, D, E\\}$. Cost: 14.
 
 **Misunderstanding the cut property for MSTs.** The cut property states that for any cut, the minimum-weight edge crossing the cut belongs to some MST. Students sometimes forget that this guarantees the edge is in *some* MST, not necessarily *every* MST. Multiple MSTs can exist when edges have equal weights.
 
+
+## Cross-References
+
+- [Algorithm Analysis](./1_algorithm-analysis) -- Graph algorithm complexity is analysed using the same Big-O framework as other algorithms.
+- [Data Structures](./2_fundamental-data-structures) -- Adjacency lists and matrices are the data structures that represent graphs for algorithmic processing.
+- [Discrete Mathematics](../../1-discrete-mathematics/5_graph-theory) -- Graph theory provides the mathematical foundations for graph algorithms including connectivity and paths.

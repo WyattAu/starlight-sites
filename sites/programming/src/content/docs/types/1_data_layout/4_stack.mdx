@@ -577,6 +577,10 @@ void* stack_size_example(void*) {
 }
 ```
 
+## Intuition
+
+The stack is like a stack of plates in a cafeteria — you can only add or remove from the top, and you do it in constant time. When a function is called, a new plate is placed on top with all its local variables; when it returns, that plate is removed. This is why stack allocation is so fast — it is just moving a pointer. But the stack has a fixed size (usually a few megabytes), so you cannot put infinitely many plates on it — that is a stack overflow. The heap is like a warehouse with unlimited space, but finding and claiming space there takes more effort because the warehouse manager must search for a free spot.
+
 ## Common Pitfalls
 
 ### 1. Large Stack Allocations

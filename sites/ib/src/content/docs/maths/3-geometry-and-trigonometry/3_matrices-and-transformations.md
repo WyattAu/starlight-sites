@@ -1449,6 +1449,10 @@ $$= \frac{1}{2}\begin{pmatrix} 1 & 81 \\ -1 & 81 \end{pmatrix}\begin{pmatrix} 1 
 
 </details>
 
+## Intuition
+
+A matrix is a machine that transforms space. It stretches, rotates, reflects, and shears every point according to a fixed rule. The determinant measures how much the matrix scales area — a determinant of two means every region doubles in area; a determinant of zero means the transformation collapses the plane onto a line or point, losing information permanently. Eigenvalues reveal the special directions where the matrix only stretches without rotating, and eigenvectors point along those directions. Diagonalisation is like finding the natural coordinate system of the transformation — the basis in which the matrix acts as simple scaling along each axis.
+
 ## Common Pitfalls
 
 1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires

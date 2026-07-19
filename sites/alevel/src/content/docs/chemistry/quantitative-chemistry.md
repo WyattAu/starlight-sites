@@ -1129,3 +1129,10 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+## Cross-References
+
+- [Bonding and Structure](./bonding-and-structure) -- Understanding molecular structure explains why formulas and stoichiometric ratios take the values they do.
+- [Energetics](./thermodynamics) -- Enthalpy calculations in this topic connect directly to Hess's law and bond enthalpy methods.
+- [Electrochemistry](./electrochemistry) -- Redox titrations in quantitative chemistry are grounded in the electron transfer concepts of electrochemistry.
+- [Equilibrium](./equilibrium) -- Percentage yield and limiting reagent analysis depend on whether reactions reach completion or equilibrium.

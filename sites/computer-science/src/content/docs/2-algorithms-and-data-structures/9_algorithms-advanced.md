@@ -1672,3 +1672,8 @@ $\blacksquare$
 
 
 </aside>
+## Cross-References
+
+- [Algorithm Analysis](./1_algorithm-analysis) -- Advanced algorithms build on the complexity analysis foundations of Big-O notation and asymptotic analysis.
+- [Dynamic Programming](./5_dynamic-programming) -- Many advanced algorithms use memoisation or tabulation, connecting greedy and divide-and-conquer approaches to dynamic programming.
+- [Graph Algorithms](./4_graph-algorithms) -- Advanced topics include network flow and matching algorithms that extend classical graph traversal.

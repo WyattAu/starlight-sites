@@ -381,3 +381,8 @@ $\blacksquare$
 
 
 </aside>
+## Cross-References
+
+- [Algorithm Analysis](./1_algorithm-analysis) -- Advanced algorithm design uses amortised analysis and potential methods beyond basic complexity.
+- [Dynamic Programming](./5_dynamic-programming) -- Advanced topics include approximation algorithms and randomised algorithms that complement dynamic programming.
+- [Graph Algorithms](./4_graph-algorithms) -- Network flow and matching algorithms are advanced graph problems with practical applications.

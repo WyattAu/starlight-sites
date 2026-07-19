@@ -173,6 +173,10 @@ skills.
 - Failing to evaluate both advantages and disadvantages in discussion questions.
 - Overlooking the requirement to link human and physical geography in integrated questions.
 
+## Intuition
+
+DSE Geography is the study of why the world looks the way it does and how it is changing. It connects the physical landscape — mountains, rivers, climate — with the human landscape — cities, economies, migration. The subject is like a bridge between science and social science: you need to understand both rainfall patterns and population policy. South China is a living laboratory where rapid urbanisation, economic growth, and environmental pressure collide. The exam rewards not just knowledge but the ability to explain connections — why does this place look like this? What forces shaped it? What will happen next?
+
 ## Cross-References
 
 - [Biology](/dse/biology)

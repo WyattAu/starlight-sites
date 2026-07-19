@@ -453,6 +453,10 @@ int main() {
 }
 ```
 
+## Intuition
+
+Standard concepts are the vocabulary of the C++ type system — they give names to the requirements that algorithms have always silently assumed. `std::sortable` means "can be arranged in order," `std::equality_comparable` means "can be compared with ==". Before concepts, the STL documented these requirements in prose; now the compiler enforces them. Think of concepts as the grammar rules of a language — they tell you which sentences are well-formed before you try to speak them. Using standard concepts makes your code self-documenting and your error messages human-readable, because the compiler can say "type X does not satisfy concept Y" instead of dumping pages of template instantiation errors.
+
 ## Common Pitfalls
 
 ### Pitfall 1: `std::integral` Excludes `bool`

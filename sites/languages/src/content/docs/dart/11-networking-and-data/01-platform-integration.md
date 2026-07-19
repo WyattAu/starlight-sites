@@ -1239,3 +1239,9 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Async and Futures](../05-async/01-async-and-futures) -- Network requests return Futures, making asynchronous programming essential for HTTP calls.
+- [Error Handling](../08-error-handling) -- Network errors require proper exception handling to manage timeouts and connection failures.
+- [FFI and Advanced](../09-ffi-and-advanced) -- Platform channels can use FFI for direct native code integration alongside HTTP-based communication.

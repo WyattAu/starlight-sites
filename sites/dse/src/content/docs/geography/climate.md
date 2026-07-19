@@ -180,6 +180,10 @@ Hong Kong has adopted several climate adaptation measures:
 - **Building standards:** Revision of design standards for structures to account for increased wind
   loads and rainfall intensity.
 
+## Intuition
+
+Climate is the personality of a place — it determines what grows, what people wear, and how they build their homes. South China's climate is shaped by the monsoon, which is like a seasonal heartbeat — the land breathes in moisture from the ocean in summer and exhales dry air in winter. Tropical cyclones are nature's heat engines, converting warm ocean water into spinning winds. Climate change is like turning up the thermostat on the entire planet — small changes in average temperature produce big changes in extreme weather. For South China, this means more intense typhoons, rising sea levels, and shifting agricultural zones.
+
 ## Exam Tips
 
 1. **Link circulation to local climate:** Explain how the Hadley Cell creates Hong Kong's subtropical

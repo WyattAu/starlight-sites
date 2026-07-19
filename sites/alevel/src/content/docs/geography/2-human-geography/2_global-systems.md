@@ -312,6 +312,10 @@ political parties across Europe and was a factor in the UK's Brexit vote (2016).
 
 ---
 
+## Intuition
+
+Globalisation is like a vast spider web, with TNCs sitting at the centre. Each strand — trade routes, supply chains, migration flows, financial transactions — connects distant places in ways that are invisible until something breaks. When a tsunami hits Japan, car factories in Tennessee stop producing. When a pandemic closes Chinese ports, shelves in British supermarkets empty. The web creates wealth but also vulnerability. The tragedy of global governance is that the web needs a spider — someone to manage it — but the most powerful strands are controlled by nations that do not want to share their autonomy. The result is a system that is interconnected enough to cause global crises but disorganised enough to struggle with global solutions.
+
 ## Common Pitfalls
 
 1. **Equating globalisation with westernisation**: Globalisation is not a one-way process of Western

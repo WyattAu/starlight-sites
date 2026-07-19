@@ -196,3 +196,9 @@ Gauss's law is always true, but it is only useful for calculation when the charg
 ### Mistake 3: Mixing up series and parallel capacitor combinations
 
 When dielectrics or plate separations change, students often treat capacitors as series when they should be parallel, or vice versa. If the dielectric fills half the area (not half the distance), the two regions share the same voltage and are in parallel: $C_{total} = C_1 + C_2$. If the dielectric fills half the distance (not half the area), the two regions share the same charge and are in series: $1/C_{total} = 1/C_1 + 1/C_2$.
+
+## Cross-References
+
+- [Current Electricity](../current-electricity/index) -- Electrostatics describes charge at rest while current electricity describes charge in motion, together covering the full behaviour of electric charge.
+- [Magnetic Effects of Current](../magnetic-effects/index) -- Moving charges produce magnetic fields, linking electrostatics to electromagnetism through the relationship between electricity and magnetism.
+- [Modern Physics](../atoms-nuclei/index) -- Atomic structure depends on electrostatic attraction between nucleus and electrons, connecting macroscopic charge behaviour to quantum models.

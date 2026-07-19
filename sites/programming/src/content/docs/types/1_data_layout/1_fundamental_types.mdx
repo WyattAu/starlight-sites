@@ -461,6 +461,10 @@ int main() {
 }
 ```
 ---
+## Intuition
+
+Fundamental types are the alphabet of the machine — each one maps directly to a register or a specific instruction set. An `int` is not an abstract concept; it is a specific number of bits that the CPU knows how to add, subtract, and compare in a single cycle. The data model (LP64 vs LLP64) is like different countries using different paper sizes — the same type has different sizes on different platforms, which is why you cannot assume `long` is always 8 bytes. Endianness is about which end of the number you read first — like reading a number left-to-right versus right-to-left. These details matter when data crosses system boundaries: a file written on one machine may be garbled on another if the byte order is different.
+
 ## Common Pitfalls
 - **Using `int` or `long` for binary protocol fields.** The size of `int` and `long` varies across
   platforms. Always use `<cstdint>` fixed-width types (`uint32_t``int64_t`Etc.) for network

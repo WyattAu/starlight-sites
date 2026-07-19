@@ -1320,6 +1320,10 @@ If you get this wrong, revise: Section 5.1.
 
 </details>
 
+## Intuition
+
+Advanced databases tackle the hardest problems in data management. Distributed transactions are like ensuring a multi-city bank transfer completes everywhere or nowhere — the two-phase commit protocol is the handshake that makes this happen. Concurrency control is the traffic system that prevents two transactions from writing to the same row at the same time — locks are traffic lights, timestamps are reservation systems. Recovery and backup are the fire insurance of data — write-ahead logging ensures that even if the power cuts out, you can reconstruct what happened. These systems are the invisible infrastructure that keeps the digital world running reliably.
+
 ## Common Pitfalls
 
 - **Confusing 2NF and 3NF.** 2NF removes partial dependencies; 3NF removes transitive dependencies.
@@ -1364,3 +1368,9 @@ $\blacksquare$
 - SQL: DDL (CREATE, ALTER, DROP), DML (SELECT, INSERT, UPDATE, DELETE), DCL (GRANT, REVOKE).
 - CAP theorem: distributed systems trade off consistency, availability, and partition tolerance.
 
+
+## Cross-References
+
+- [SQL](./3_sql) -- Advanced query optimisation builds on fundamental SQL knowledge including joins and subqueries.
+- [Normalisation](./4_normalisation) -- Advanced normal forms extend the normalisation theory beyond third normal form.
+- [Transaction Management](./6_transaction-management) -- Concurrency control and recovery in advanced databases build on the ACID properties.

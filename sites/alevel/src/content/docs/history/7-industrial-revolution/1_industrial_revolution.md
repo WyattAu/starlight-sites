@@ -165,6 +165,10 @@ When analysing sources from the Industrial Revolution:
 4. **Contemporary observers**: Engels (*Condition of the Working Class*, 1845) and Gaskell (*Mary
    Barton*, 1848) offer vivid accounts but had political agendas.
 
+## Intuition
+
+The Industrial Revolution is like a dam breaking. For centuries, agricultural improvements, trade profits, and population growth had been building water pressure behind a wall of tradition and manual labour. When the first machines cracked that wall, the flood of change was unstoppable. Each invention pulled the next — steam engines needed iron, iron needed coal, coal needed deeper mines, deeper mines needed better pumps. The factory system was not just a new way to work; it was a new way of living, where time itself was regimented by the clock rather than the seasons. The social upheaval that followed was the price of progress, paid by those who had no voice in demanding it.
+
 ## Common Pitfalls
 
 1. **Treating the Industrial Revolution as a single event**. It unfolded unevenly across regions,

@@ -153,3 +153,9 @@ Static friction opposes the tendency of motion, while kinetic friction opposes t
 ### Mistake 3: Incorrectly resolving forces on an inclined plane
 
 On an inclined plane at angle $\theta$, the component of weight along the incline is $mg\sin\theta$ and the component perpendicular to the incline is $mg\cos\theta$. Students often swap these, writing $mg\cos\theta$ for the parallel component. A useful check: at $\theta = 0$ (horizontal), the parallel component should be zero ($\sin 0 = 0$), and at $\theta = 90°$ (vertical), the parallel component should be $mg$ ($\sin 90° = 1$).
+
+## Cross-References
+
+- [Work, Energy, and Power](./02-work-energy-power) -- The work-energy theorem provides an alternative formulation of Newton's second law in terms of energy.
+- [Rotational Motion](./03-rotational-motion) -- Newton's second law extends to rotational dynamics through torque and angular acceleration.
+- [Gravitation](../optics/index) -- Gravitational force is an application of Newton's law of universal gravitation combined with the second law.

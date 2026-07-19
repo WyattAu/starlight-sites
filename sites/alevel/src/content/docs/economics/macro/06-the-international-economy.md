@@ -854,6 +854,13 @@ discrepancy). The country is a net borrower from the rest of the world. If capit
 
 - Depreciation makes exports cheaper and imports more expensive.
 - The current account improves (Marshall-Lerner condition permitting).
+
+## Cross-References
+
+- [Aggregate Demand and Aggregate Supply](../02-aggregate-demand-and-supply) -- Exchange rate changes shift AD through net exports, linking the international economy to domestic macroeconomic equilibrium.
+- [The Financial Sector](../03-the-financial-sector) -- Interest rate and monetary policy decisions directly affect exchange rates and capital flows discussed in this chapter.
+- [Demand, Supply and Equilibrium](../../microeconomics/02-demand-supply-and-equilibrium) -- The supply and demand framework underpins analysis of exchange rate determination and trade balances.
+- [Fiscal Policy](../04-fiscal-policy) -- Government spending and taxation decisions influence the current account through their effect on aggregate demand and national saving.
 - The required depreciation: if the current account deficit must be eliminated through exchange rate
   adjustment, and the sum of PEDs is 1.5, the required depreciation is approximately
   $\frac{90}{200 \times 1.5 - 280 \times 0.75} \times 100 \approx 20\%$ (very

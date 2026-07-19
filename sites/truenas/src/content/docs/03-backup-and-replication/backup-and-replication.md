@@ -1073,3 +1073,9 @@ Backup is the practice of keeping copies of your data in case the original is lo
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+## Cross-References
+
+- [ZFS Deep Dive](../01-zfs/zfs-deep-dive) -- Replication uses ZFS snapshots, requiring understanding of snapshot creation and management.
+- [ZFS Encryption](../zfs-encryption) -- Replicating encrypted datasets requires careful handling of encryption keys and wrapping keys.
+- [Monitoring and Alerting](../05-monitoring-and-alerting/monitoring-and-alerting) -- Backup jobs can be monitored and failures alerted through the monitoring subsystem.

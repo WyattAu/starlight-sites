@@ -1132,3 +1132,10 @@ Mastery of these concepts requires both theoretical understanding and the abilit
 to unfamiliar contexts, particularly in calculation and practical questions.
 
 </aside>
+
+## Cross-References
+
+- [Market Failure](./03-market-failure) -- Externalities and market power cause the price mechanism to misallocate resources, extending the equilibrium analysis.
+- [The Theory of the Firm](./04-theory-of-the-firm) -- Profit maximisation and cost analysis determine the firm-level supply curve underlying market supply.
+- [The Economic Problem](./01-the-economic-problem) -- Scarcity and opportunity cost provide the foundational context for why demand and supply interact to allocate resources.
+- [Labour Markets](./05-labour-markets) -- Wage determination applies the same supply and demand framework to the market for labour.

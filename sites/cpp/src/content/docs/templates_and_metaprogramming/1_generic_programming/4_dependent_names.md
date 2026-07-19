@@ -772,6 +772,10 @@ void good() {
 }
 ```
 
+## Intuition
+
+Dependent names are names that depend on a template parameter, and the compiler cannot know their meaning until the template is instantiated. This is like reading a letter where some words are written in a code you only receive later — you cannot understand the full message until you have the key. The `typename` keyword tells the compiler "treat this as a type, not a value," and `template` disambiguates nested dependent names. Two-phase lookup means the compiler checks non-dependent names immediately and defers dependent names until instantiation, which is why some errors only appear when you actually use a template.
+
 ## Common Pitfalls
 
 1. **Forgetting `this->` in dependent base classes.** This is the most frequent two-phase lookup

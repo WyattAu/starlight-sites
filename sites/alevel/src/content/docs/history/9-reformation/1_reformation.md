@@ -162,6 +162,10 @@ indulgence sales, clerical absenteeism, papal corruption — generated resentmen
 4. **Visual sources**: Religious art and architecture reveal the visual culture of reform and
    counter-reform.
 
+## Intuition
+
+The Reformation was a forest fire that started from a single match. Luther's complaints about indulgences were not new — people had criticised Church corruption for centuries. What made 1517 different was the printing press, which turned a local academic dispute into a continental conversation within weeks. Think of it as the first viral moment in European history. But like a real forest fire, the Reformation burned differently depending on the terrain. Where princes wanted to seize Church wealth, Protestantism took root quickly. Where the Catholic Church reorganised effectively, as in southern Europe, the fire was contained. The Counter-Reformation was not just about theology; it was about institutional survival.
+
 ## Common Pitfalls
 
 1. **Treating the Reformation as a single movement**. Protestantism was diverse from the outset —

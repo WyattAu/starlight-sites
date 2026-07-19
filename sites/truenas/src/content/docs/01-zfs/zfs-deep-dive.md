@@ -1009,3 +1009,8 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+## Cross-References
+
+- [Sharing and Permissions](../02-sharing-and-permissions/sharing-and-permissions) -- ZFS datasets are shared through protocols like SMB and NFS, connecting pool management to file access.
+- [Backup and Replication](../03-backup-and-replication/backup-and-replication) -- ZFS snapshots are the foundation for replication-based backup strategies.
+- [ZFS Encryption](../zfs-encryption) -- Encryption is configured at the dataset level, building on the ZFS pool and dataset architecture.

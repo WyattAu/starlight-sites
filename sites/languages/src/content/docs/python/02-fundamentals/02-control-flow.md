@@ -1024,6 +1024,10 @@ class ReliableCleanup:
 Other resource that requires explicit cleanup. Never rely on `__del__` or the garbage collector for
 Resource management.
 
+## Intuition
+
+Control flow is the road system of your program. `if`/`elif`/`else` are intersections where you choose which road to take. A `for` loop is a conveyor belt — items arrive one at a time and you process each one. The iterator protocol is the rule that the conveyor belt must follow: keep producing items until you run out. `while` loops are like waiting rooms — you stay until a condition changes. Pattern matching in Python 3.10 is not just a fancy switch statement — it is like a sorting machine that unpacks boxes and routes each piece to the right bin based on what is inside. Context managers are the RAII of Python — they guarantee cleanup happens even when exceptions occur, like a lifeguard who watches you swim and pulls you out regardless of whether you finish or drown.
+
 ## Common Pitfalls
 
 1. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.

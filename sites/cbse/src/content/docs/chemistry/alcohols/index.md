@@ -173,3 +173,9 @@ $$2\text{C}_6\text{H}_5\text{OH} + 2\text{Na} \rightarrow 2\text{C}_6\text{H}_5\
 **Using a tertiary alkyl halide in Williamson synthesis.** Williamson synthesis requires a primary (or methyl) alkyl halide to favour SN2 substitution over E2 elimination. When a tertiary halide reacts with a strong base like alkoxide, elimination dominates and no ether is formed. Always pair a primary halide with the alkoxide for successful ether synthesis.
 
 **Assuming phenol reacts with sodium bicarbonate.** Phenol (pKa = 10) is a weaker acid than carbonic acid (pKa = 6.4), so it cannot displace CO2 from NaHCO3. Only carboxylic acids (pKa = 4-5) are acidic enough to react with sodium bicarbonate. This is a reliable test to distinguish phenols from carboxylic acids.
+
+## Cross-References
+
+- [Organic Chemistry Fundamentals](../haloalkanes/index) -- Alcohols are synthesised from haloalkanes via nucleophilic substitution, connecting the two functional group families.
+- [Carboxylic Acids](../carboxylic-acids/index) -- Oxidation of alcohols produces carboxylic acids, linking alcohol chemistry to the broader oxidation-reduction framework.
+- [Chemical Kinetics](../chemical-kinetics/index) -- Reaction rates of alcohol substitution and elimination depend on concentration and temperature, connecting organic reactions to kinetics.

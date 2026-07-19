@@ -914,3 +914,9 @@ applying these mathematical techniques.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+## Cross-References
+
+- [Derivatives](../2-derivatives/2_derivatives) -- Solving differential equations requires mastery of differentiation techniques including chain rule and implicit differentiation.
+- [Integrals](../3-integrals/3_integrals) -- Separable differential equations are solved by integrating both sides, making integration essential to the topic.
+- [Sequences and Series](../5-sequences-and-series/5_sequences-and-series) -- Power series solutions to differential equations connect the two topics through Taylor and Maclaurin series.

@@ -288,6 +288,10 @@ A good evaluation should:
 
 ---
 
+## Intuition
+
+Fieldwork is where geography stops being abstract and becomes tangible. It is the difference between reading about a river and standing in one, feeling the current push against your legs. The methodology is not a bureaucratic hurdle — it is the difference between collecting evidence and collecting noise. A poorly designed问卷 gives you data that tells you nothing; a well-designed one reveals patterns invisible from a textbook. Think of sampling like tasting a soup: you need the right amount from the right places to know what the whole pot tastes like. The statistical tests are not just maths — they are the difference between guessing and knowing.
+
 ## Common Pitfalls
 
 1. **Collecting data without a clear question**: Data collection should be driven by the research

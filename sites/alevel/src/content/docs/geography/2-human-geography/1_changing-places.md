@@ -294,6 +294,10 @@ the needs of poorer communities in outer districts.
 
 ---
 
+## Intuition
+
+A place is not just coordinates on a map — it is a living memory. Think of your own neighbourhood: the corner shop where you bought sweets as a child, the park where you played, the street that feels safe or threatening. These feelings are what geographers call "sense of place," and they explain why regeneration is never just about buildings. When Barcelona rebuilt its waterfront for the Olympics, it created a beautiful space but also displaced communities who had lived there for generations. Detroit's downtown revival looks like success from a helicopter, but from street level the abandoned houses nearby tell a different story. Places are layered like archaeological sites — each generation adds a new layer without fully removing the old.
+
 ## Common Pitfalls
 
 1. **Confusing endogenous and exogenous factors**: Endogenous factors are internal to the place

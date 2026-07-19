@@ -1098,3 +1098,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Pattern Matching](./01-pattern-matching) -- Sealed classes are designed to be used with pattern matching for exhaustive switch expressions.
+- [Object-Oriented Programming](../04-object-oriented/01-classes-and-inheritance) -- Sealed classes extend the class hierarchy with restricted inheritance for algebraic data types.
+- [Error Handling](../08-error-handling) -- Sealed classes model error states as typed variants, improving on untyped exception handling.

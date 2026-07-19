@@ -963,3 +963,8 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+## Cross-References
+
+- [Derivatives](../2-derivatives/2_derivatives) -- The derivative is defined as a limit of a difference quotient, making limits the foundation of differential calculus.
+- [Integrals](../3-integrals/3_integrals) -- The definite integral is defined as a limit of Riemann sums, connecting limits to the accumulation of quantities.
+- [Sequences and Series](../5-sequences-and-series/5_sequences-and-series) -- Convergence of sequences and series relies on the same limit concepts that underpin continuity.

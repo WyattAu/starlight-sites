@@ -1238,3 +1238,9 @@ File I/O is the bridge between your program's temporary memory and the permanent
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Essential Modules](./01-essential-modules) -- The io module builds on os.path and built-in functions for comprehensive file system interaction.
+- [Context Managers](../08-advanced-topics/03-context-managers) -- File objects support the context manager protocol for safe resource management with with statements.
+- [Generators and Iterators](../02-fundamentals/04-generators-and-iterators) -- File objects are iterators that yield lines lazily, connecting file I/O to the iterator protocol.

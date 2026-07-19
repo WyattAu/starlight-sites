@@ -775,6 +775,10 @@ As of Python 3.13, the free-threaded build is experimental and not recommended f
 Popular packages (NumPy, Pandas, etc.) do not yet fully support it. The expectation is that by
 Python 3.15-3.16, free-threading will be production-ready and the GIL will be optional by default.
 
+## Intuition
+
+CPython is an interpreter, not a compiler. It reads your code, compiles it to bytecode — an intermediate representation — and then executes it one instruction at a time on a virtual machine. This virtual machine is like a stack of plates: operations push results on top and pop operands off. The GIL is a single key to a shared bathroom — only one thread can hold it, so only one thread can execute Python code at a time. Reference counting is Python's memory janitor: every time something points to an object, the refcount goes up; every time it stops pointing, the refcount goes down. When refcount hits zero, the object is immediately cleaned up. This is fast but cannot handle circular references, which is why a periodic garbage collector exists as a backup.
+
 ## Common Pitfalls
 
 **1. Relying on implementation-specific object identity.**

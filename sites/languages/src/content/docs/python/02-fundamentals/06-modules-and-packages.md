@@ -1111,3 +1111,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Essential Modules](../05-standard-library/01-essential-modules) -- Understanding modules is prerequisite to using the standard library effectively.
+- [Generators and Iterators](./04-generators-and-iterators) -- Modules can define generator functions and iterator classes that other modules import.
+- [Object-Oriented Programming](../04-object-oriented/01-classes) -- Packages organise classes into namespaces, connecting module structure to OOP design.

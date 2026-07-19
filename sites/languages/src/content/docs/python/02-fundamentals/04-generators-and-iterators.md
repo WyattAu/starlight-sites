@@ -1171,6 +1171,10 @@ json.dumps(gen)  # TypeError: Object of type generator is not JSON serializable
 json.dumps(list(gen))
 ```
 
+## Intuition
+
+A generator is a function that remembers where it left off. Instead of running to completion and returning a result, it pauses at each `yield` and hands you one piece of the puzzle. When you ask for the next piece, it resumes right where it stopped. This is like a vending machine — you insert a coin (call `next()`), it dispenses one item (yields a value), and waits for the next coin. The machine does not produce all items at once; it makes them on demand. This is why generators are memory-efficient — a million-item generator uses the memory of a single item. The `yield from` keyword is a delegation mechanism: imagine a manager handing a customer to a specialist, staying on the line but letting the specialist handle the conversation directly.
+
 ## Common Pitfalls
 
 ### Consuming a Generator Exhausts It

@@ -813,6 +813,10 @@ int main() {
 }
 ```
 
+## Intuition
+
+Argument deduction is the compiler playing detective — it looks at the function arguments you provided and works backwards to figure out what the template parameters must be. It is like solving a jigsaw puzzle where the pieces are your arguments and the picture on the box is the function signature. Class Template Argument Deduction (CTAD) extends this to constructors, so you can write `std::pair(1, 2.0)` instead of `std::pair<int, double>(1, 2.0)`. Deduction guides are hints you give the compiler when the natural deduction would be wrong — like telling the detective "the suspect is left-handed, not right-handed."
+
 ## Common Pitfalls
 
 1. **Array-to-pointer decay during deduction.** Passing an array to a template function by value

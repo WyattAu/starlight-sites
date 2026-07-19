@@ -1018,3 +1018,9 @@ File sharing and permissions are the access control system for your data. Permis
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+## Cross-References
+
+- [ZFS Deep Dive](../01-zfs/zfs-deep-dive) -- Sharing permissions interact with ZFS ACLs and dataset properties.
+- [Apps and Services](../04-apps-and-services/apps-and-services) -- Applications may require specific sharing configurations to access storage datasets.
+- [Home Server Setup](../setup/home-server-setup) -- Setting up shares is a key step in home server configuration for file access.

@@ -959,3 +959,9 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+## Cross-References
+
+- [ZFS Deep Dive](../01-zfs/zfs-deep-dive) -- Storage performance tuning requires understanding ZFS caching, SLOG, and L2ARC devices.
+- [Apps and Services](../04-apps-and-services/apps-and-services) -- Application workloads determine which performance tuning parameters are most relevant.
+- [Home Server Setup](../setup/home-server-setup) -- Performance tuning optimises the home server for its intended workloads.

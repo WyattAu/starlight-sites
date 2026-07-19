@@ -1178,3 +1178,9 @@ Command-line tools are the workhorses of automation: they take inputs, process t
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Essential Modules](./01-essential-modules) -- argparse and sys modules provide the core functionality for command-line argument parsing.
+- [Context Managers](../08-advanced-topics/03-context-managers) -- CLI tools often use context managers for resource management of files and connections.
+- [Generators and Iterators](../02-fundamentals/04-generators-and-iterators) -- Lazy evaluation patterns in CLI tools process input streams efficiently.

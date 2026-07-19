@@ -872,3 +872,8 @@ linked above.
 
 
 </aside>
+## Cross-References
+
+- [Computational Thinking](../1-computational-thinking/1_computational-thinking) -- Algorithm design applies the decomposition and pattern recognition principles of computational thinking.
+- [Computing Systems](../2-computing-systems/2_computing-systems) -- Hardware architecture and memory models influence how algorithms are implemented and optimised.
+- [Data Analysis](../4-data-analysis/4_data-analysis) -- Algorithms for sorting and searching are applied to data sets analysed using statistical methods.

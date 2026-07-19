@@ -135,3 +135,7 @@ the damage from any single vulnerability.
 | CFI | Validates indirect branch targets | Control-flow hijacking | Overhead; imprecise in some implementations |
 | Privilege separation | Limits damage from compromised components | Full system compromise | Complexity; IPC design errors |
 | Least privilege | Reduces attack surface | Unauthorised access | Requires careful capability analysis |
+
+## Intuition
+
+Operating system security is the bouncer, the lock, and the surveillance camera all in one. Authentication is checking your ID at the door — are you who you claim to be? Authorisation is checking your ticket — are you allowed in this room? The protection ring model is like concentric castle walls — the kernel lives in the innermost ring with maximum privilege, and user programs live in outer rings with limited access. Buffer overflow attacks are like pouring more water into a glass than it can hold — the excess spills into adjacent memory, and a clever attacker can make it spill in a way that executes their code. Defence means building taller glasses and checking the pour.

@@ -157,6 +157,10 @@ When analysing diplomatic sources from this period:
 4. **Alliance treaties**: Reveal formal commitments but not always the spirit in which they were
    made.
 
+## Intuition
+
+Think of European diplomacy 1871-1914 as a game of Jenga. Bismarck carefully balanced the blocks — keeping France isolated while managing rivalries between Austria-Hungary and Russia. When Kaiser Wilhelm II removed the Reinsurance Treaty block in 1890, the structure began to wobble. Each new alliance, each dreadnought launched, each colonial dispute added a block higher. The alliance system was meant to prevent war through deterrence, but it actually created a hair-trigger mechanism where one local spark — an assassination in Sarajevo — could ignite the entire structure. The tragedy is that most leaders did not want a general war; they simply could not find a way to step back from the commitments they had made.
+
 ## Common Pitfalls
 
 1. **Attributing sole blame to one state**. The causes were multiple and interactive.

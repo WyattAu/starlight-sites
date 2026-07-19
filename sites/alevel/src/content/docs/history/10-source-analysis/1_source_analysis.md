@@ -169,6 +169,10 @@ Examiners look for:
 5. **Balanced judgement**: Weighing value and limitations; avoiding one-sided conclusions.
 6. **Clear communication**: Structured, precise writing directly answering the question.
 
+## Intuition
+
+Source analysis is like being a detective at a crime scene. Every witness has a perspective, every piece of evidence has a context, and nothing speaks for itself. A factory inspector's report is not a photograph of reality — it is a painting, shaped by who held the brush and why they painted it that way. The OPVL framework is your magnifying glass: it forces you to ask who made this, why, what does it tell us, and what does it hide. The deepest skill in history is not knowing what happened, but understanding why people described it the way they did, and what they chose to leave out of the picture.
+
 ## Common Pitfalls
 
 1. **Describing rather than analysing**. Stating what a source says without evaluating reliability,

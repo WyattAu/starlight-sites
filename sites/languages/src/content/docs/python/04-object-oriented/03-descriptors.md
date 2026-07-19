@@ -742,6 +742,10 @@ s.state = "running"  # Logs: Setting state = 'running' on Service
 _ = s.state          # Logs: Accessed state on Service
 ```
 
+## Intuition
+
+Descriptors are the invisible machinery behind Python's attribute access. When you write `obj.attr`, Python does not just look up a dictionary — it consults a priority list. Data descriptors (like `property`) always win over instance attributes, which is why you cannot bypass a property setter by assigning directly. Non-data descriptors (like regular functions) lose to instance attributes, which is why you can shadow a method with `obj.method = lambda: 42`. This hierarchy is the reason `self` exists in methods — the descriptor protocol inserts the instance as the first argument. Understanding descriptors is understanding how Python's object model actually works under the hood.
+
 ## Common Pitfalls
 
 ### 1. Forgetting **set_name**

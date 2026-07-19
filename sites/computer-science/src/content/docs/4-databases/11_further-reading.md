@@ -11,6 +11,10 @@ description: "- Silberschatz, Korth, Sudarshan: _Database System Concepts_ (7th 
 - Elmasri, Navathe: _Fundamentals of Database Systems_ (7th ed.).
 - Kleppmann: _Designing Data-Intensive Applications_ (2017).
 
+## Intuition
+
+Database systems are built on a tension between correctness and speed. Transactions are the promise that your money will not vanish mid-transfer — ACID properties guarantee that. Indexes are like the index at the back of a textbook — they let you find a topic without reading every page, but they take up space and slow down updates. Normalisation is the art of organising data so that each fact is stored in exactly one place, preventing the chaos of contradictory copies. Query optimisation is the database's way of finding the fastest route through a maze of joins and filters, like a GPS that recalculates when traffic changes.
+
 ## Common Pitfalls
 
 - **Confusing 2NF and 3NF.** 2NF removes partial dependencies; 3NF removes transitive dependencies.

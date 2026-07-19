@@ -1139,3 +1139,8 @@ linked above.
 
 
 </aside>
+## Cross-References
+
+- [Types and Variables](../02-fundamentals/01-types-and-variables) -- Standard library modules work with Python's built-in types including lists, dicts, and strings.
+- [File I/O](./02-file-io) -- The os and pathlib modules provide file system interaction beyond basic file reading and writing.
+- [Context Managers](../08-advanced-topics/03-context-managers) -- Many standard library resources support the context manager protocol for safe resource management.

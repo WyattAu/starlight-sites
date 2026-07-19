@@ -887,6 +887,10 @@ with other IB mathematics topics to test synthesis under exam conditions.
 See for instructions on self-marking
 and building a personal test matrix.
 
+## Intuition
+
+Statistics is the science of making decisions under uncertainty. The mean tells you the center of the data, but the standard deviation tells you how much trust to place in that center — a low standard deviation means the data clusters tightly around the mean, while a high one means the data spreads widely. Correlation measures the strength of a linear relationship, but it does not prove causation — two variables may move together because a third hidden variable drives both. Hypothesis testing is a courtroom argument: you assume innocence (the null hypothesis) and check whether the evidence is strong enough to convict. The p-value is the probability of seeing evidence this extreme if innocence is true.
+
 ## Common Pitfalls
 
 1. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator

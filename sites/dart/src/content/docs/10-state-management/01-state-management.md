@@ -1307,3 +1307,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Object-Oriented Programming](./04-object-oriented/01-classes-and-inheritance) -- State management patterns use classes and inheritance to encapsulate and expose application state.
+- [Async and Futures](./05-async/01-async-and-futures) -- State changes often trigger asynchronous operations that update the UI through streams and futures.
+- [Widgets and Lifecycle](../09-flutter-fundamentals/02-widgets-and-lifecycle) -- Stateful widgets have lifecycle methods that manage state creation, update, and disposal.

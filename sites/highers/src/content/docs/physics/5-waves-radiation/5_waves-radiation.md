@@ -732,3 +732,8 @@ Where $\tau$ is the dead time.
     scintillator crystal, photomultiplier tubes, and computer work together to produce an image.
 
 </aside>
+## Cross-References
+
+- [Electricity](../3-electricity/3_electricity) -- Electromagnetic waves are produced by oscillating charges, connecting wave theory to electricity.
+- [Particles and Waves](../4-particles-waves/4_particles-waves) -- Wave-particle duality shows that particles exhibit wave properties, bridging classical and quantum physics.
+- [Trigonometry](../../maths/2-trigonometry/2_trigonometry) -- Wave equations use trigonometric functions to describe amplitude, wavelength, and phase.

@@ -499,6 +499,10 @@ Actual error: $|0.1823 - 0.18| = 0.0023$Which is within the bound.
 
 ---
 
+## Intuition
+
+A sequence is a list of numbers marching toward a destination. Some sequences march steadily, like soldiers in step (arithmetic), while others multiply their stride at each step (geometric). The question is whether they converge — whether they settle on a value or wander off forever. The geometric series formula is the key that unlocks repeating decimals and infinite sums: 0.777... is just a geometric series with ratio one-tenth. Maclaurin series are a microscope for functions — they reveal that every smooth function is secretly an infinite polynomial. The more terms you include, the closer you zoom in on the true shape of the function near zero.
+
 ## Common Pitfalls
 
 1. **Misidentifying the first term in sigma notation.** $\sum_{k=0}^{n}$ has $n + 1$ terms, while

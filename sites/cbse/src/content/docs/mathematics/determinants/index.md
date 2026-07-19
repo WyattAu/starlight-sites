@@ -158,3 +158,9 @@ Similarly: $D_y = -8$, $y = 2$; $D_z = 2$, $z = -\frac{1}{2}$
 **Confusing det(kA) with k*det(A).** For an n x n matrix, det(kA) = k^n * det(A), not k * det(A). Each of the n rows is multiplied by k, so the determinant is multiplied by k^n. Students frequently write det(2A) = 2*det(A) instead of 2^n * det(A).
 
 **Applying Cramer's rule without checking that det(A) != 0.** Cramer's rule requires the system to have a unique solution, which means the coefficient matrix must be non-singular. If det(A) = 0, the system has either no solution or infinitely many. Students sometimes proceed with Cramer's rule on singular systems, getting division by zero.
+
+## Cross-References
+
+- [Matrices](../matrices/index) -- Determinants are properties of square matrices, used to test invertibility and compute areas and volumes.
+- [Calculus](../integrals/index) -- Jacobian determinants appear in change of variables for multiple integrals, connecting determinants to integration.
+- [Linear Equations](../relations-functions/index) -- The determinant determines whether a system of linear equations has a unique solution.

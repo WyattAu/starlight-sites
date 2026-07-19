@@ -976,6 +976,10 @@ with other IB mathematics topics to test synthesis under exam conditions.
 See for instructions on self-marking
 and building a personal test matrix.
 
+## Intuition
+
+Integration is the art of undoing differentiation, and each technique is a different strategy for dismantling complexity. Substitution is the chain rule in reverse — if you spot a function inside another function, you peel away the outer layer by changing variables. Integration by parts splits a product into something you can integrate and something that disappears, guided by the LIATE hierarchy which ranks functions by how much they simplify when differentiated. Partial fractions拆 apart rational functions into pieces that each integrate to logarithms or arctangents. The Fundamental Theorem of Calculus is the bridge connecting the two halves of calculus — area and slope are inverse operations.
+
 ## Common Pitfalls
 
 1. Forgetting the chain rule when integrating composite functions. Look for an inner function and

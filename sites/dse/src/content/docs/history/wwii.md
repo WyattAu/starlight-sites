@@ -67,6 +67,10 @@ Several resistance movements operated during the occupation:
 
 The occupation left a lasting legacy on Hong Kong's identity. The experience of Japanese rule reinforced anti-colonial sentiment among some residents while simultaneously creating nostalgia for British governance among others. The occupation also established patterns of cross-border movement and refugee flows that would characterise Hong Kong's post-war development.
 
+## Intuition
+
+The Pacific War was a collision between an industrialising Japan seeking resources and a Western colonial order that controlled them. Japan's strategy was like a boxer who knocks out opponents quickly before their superior endurance kicks in — Pearl Harbor was a first-round knockout attempt against the United States. The Battle of Hong Kong showed the vulnerability of colonial outposts that were never designed to be defended alone. The occupation years reveal how power structures collapse when the coloniser becomes the colonised — familiar hierarchies were overturned as Japanese soldiers replaced British administrators overnight.
+
 ## Exam Tips
 
 - When discussing causes of the Pacific War, distinguish between long-term factors (Japanese imperial ideology, resource dependency) and short-term triggers (oil embargo, strategic calculations).

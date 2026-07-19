@@ -159,3 +159,9 @@ Standard deviation: $\sigma = \sqrt{1.92} \approx 1.386$
 **Forgetting that Bayes' theorem requires the total probability in the denominator.** The formula is P(Ai|B) = P(B|Ai) * P(Ai) / sum(P(B|Aj) * P(Aj)). Students sometimes omit the summation, using only one term in the denominator. The denominator must account for all possible ways B can occur.
 
 **Confusing the mean and variance formulas for binomial distribution.** For binomial(n, p), the mean is np and the variance is npq where q = 1 - p. Students often write variance as np instead of npq, forgetting to multiply by the probability of failure. The variance is always less than the mean for binomial distributions.
+
+## Cross-References
+
+- [Statistics](../relations-functions/index) -- Probability distributions provide the theoretical foundation for statistical inference and hypothesis testing.
+- [Matrices](../matrices/index) -- Transition matrices in Markov chains use matrix multiplication to compute state probabilities.
+- [Calculus](../integrals/index) -- Continuous probability distributions require integration to find probabilities over intervals.

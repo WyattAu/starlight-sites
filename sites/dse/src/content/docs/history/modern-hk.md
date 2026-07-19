@@ -114,6 +114,10 @@ The period after 1997 has been marked by significant political, economic, and so
 
 The post-handover period has seen ongoing debates about Hong Kong's autonomy and its relationship with mainland China.
 
+## Intuition
+
+Modern Hong Kong is a story of transformation under pressure. The handover was like a relay race where the baton was passed mid-sprint — the runners had different techniques but had to keep the race going. The Basic Law was designed as a bridge between two systems, promising that Hong Kong's way of life would remain unchanged for fifty years. The challenge has been keeping that bridge stable when the two banks it connects are pulling in different directions. Economic development shows how a small territory can punch above its weight by being a gateway between East and West, but this advantage depends on maintaining trust on both sides.
+
 ## Exam Tips
 
 - When analysing Hong Kong's post-war development, distinguish between economic, political, and social dimensions. Each area has its own trajectory and should be examined separately before drawing connections.

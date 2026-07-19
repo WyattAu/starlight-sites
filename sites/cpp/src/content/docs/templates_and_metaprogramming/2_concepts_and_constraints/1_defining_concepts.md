@@ -827,6 +827,10 @@ Random access and sortability. This means any type satisfying `SortableRange` au
 Satisfies `InputRange` --- the subsumption relationship enables the compiler to select the most
 Constrained overload during overload resolution.
 
+## Intuition
+
+Concepts are like ingredient lists for recipes — they define what a type must be able to do before it can be used in a function template. Without concepts, a template accepts any type and only fails when the body tries an unsupported operation, producing cryptic error messages. With concepts, the constraint is stated upfront, like a bouncer checking IDs at the door. A requires expression asks "can this type do X?" and returns true or false at compile time. This transforms templates from "anything goes" to "you must meet these conditions," making code self-documenting and errors clear.
+
 ## Common Pitfalls
 
 **1. Concepts do not short-circuit in the usual sense:** While `&&` and `||` in constraint

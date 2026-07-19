@@ -728,6 +728,10 @@ print(pq.pop())  # low priority task
 <aside class="starlight-aside starlight-aside--caution">
 Invariant may be violated. Either use immutable data or call `heapq.heapify()` after modifications.
 </aside>
+## Intuition
+
+A dictionary is a book with tabs — you open directly to the right page without flipping through every one. The hash function turns your key into a page number, and if two keys collide, you just check the next few pages until you find the right one. Counter is like a tally sheet — it counts occurrences of each item automatically. defaultdict is a dictionary that never says "I don't know" — it creates a default value when you ask for something missing. ChainMap is a stack of dictionaries where the top one shadows the ones below, perfect for layered configuration where command-line args override environment variables which override defaults. The hash table is the most important data structure in Python because dicts, sets, and even object attribute lookup all use it.
+
 ## Common Pitfalls
 
 ### 1. Mutating a Dict While Iterating

@@ -66,6 +66,10 @@ The election of Ronald Reagan in 1980 initially intensified Cold War tensions, w
 
 The Cold War ended abruptly with the fall of the Berlin Wall on 9 November 1989 and the subsequent dissolution of the Soviet Union on 25 December 1991. The causes of the Soviet collapse remain debated among historians. Some emphasise economic stagnation and the unsustainability of the Soviet system; others focus on the role of Gorbachev's reforms in inadvertently triggering centrifugal forces.
 
+## Intuition
+
+The Cold War was a staring contest between two superpowers, each pointing nuclear weapons at the other while trying not to blink. Neither side wanted direct confrontation because mutual assured destruction meant both would lose, so they fought through proxies — like chess players using other people's pieces. Hong Kong sat on the fault line between these two worlds, a capitalist outpost on the doorstep of communist China. The city became a listening post, a trading post, and an escape route — its prosperity was built partly on the tensions of the era.
+
 ## Exam Tips
 
 - When analysing Cold War events, distinguish between the perspectives of the superpowers, regional actors, and the developing world. Different historiographical schools (orthodox, revisionist, post-revisionist) assign varying responsibility for the conflict.

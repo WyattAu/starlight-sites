@@ -1789,3 +1789,8 @@ $\blacksquare$
 
 
 </aside>
+## Cross-References
+
+- [Object-Oriented Programming](./04-object-oriented/01-classes-and-inheritance) -- FFI interop with native code extends the object model to interact with C libraries and system calls.
+- [Error Handling](./08-error-handling) -- FFI calls require careful error handling since native code failures may not propagate through Dart's exception system.
+- [Async and Futures](./05-async/01-async-and-futures) -- Native FFI calls can be wrapped in isolates for asynchronous execution, connecting FFI to Dart's concurrency model.

@@ -529,6 +529,10 @@ Error: $|1.522 - 1.505| \approx 0.017$Roughly $1.1\%$.
 
 ---
 
+## Intuition
+
+A differential equation is a sentence about change. It does not tell you where you are; it tells you how you are moving. Separable equations are the simplest case — imagine a car whose speed depends only on its position. You can separate the "where" from the "how fast" and integrate each side independently. The integrating factor trick for linear equations is like finding the right lens through which a tangled expression suddenly comes into focus — it transforms a messy left side into the derivative of a product you can integrate directly. Second order equations describe systems with inertia, like springs and circuits, where the future depends on both position and velocity.
+
 ## Common Pitfalls
 
 1. **Forgetting the constant of integration.** When solving a separable equation, each side of the

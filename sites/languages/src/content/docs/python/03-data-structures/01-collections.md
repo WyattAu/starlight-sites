@@ -1032,6 +1032,10 @@ graph TD
 | Grouping by key             | `defaultdict`  | `itertools.groupby`        |
 | Layered configuration       | `ChainMap`     |                            |
 
+## Intuition
+
+A list in Python is not an array — it is an array of pointers, each pointing to a separate object on the heap. This is why a list can hold anything: it holds references, not values. Appending is amortized O(1) because Python pre-allocates extra space, like a restaurant keeping empty tables ready for walk-ins. When the restaurant fills up, it moves to a bigger building — that is the resize. A dictionary is a hash table: it hashes the key, looks up a slot, and finds the value in constant time. A set is a dictionary without values — it only cares whether something is present. A deque is a linked list of blocks that lets you add or remove from both ends in constant time, unlike a list which must shift everything when you pop from the front.
+
 ## Common Pitfalls
 
 1. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already

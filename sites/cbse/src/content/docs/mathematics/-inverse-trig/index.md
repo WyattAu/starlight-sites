@@ -189,3 +189,9 @@ Each inverse trigonometric function has a specific range: $\sin^{-1}$ maps to $[
 ### Mistake 3: Forgetting the complementary angle identity
 
 The identity $\sin^{-1}x + \cos^{-1}x = \pi/2$ is extremely useful for converting between inverse trig functions, but students often overlook it. For example, $\cos^{-1}(3/5) = \pi/2 - \sin^{-1}(3/5) = \sin^{-1}(4/5)$. When a problem gives you one inverse trig function and asks for another, check whether the complementary identity simplifies the calculation.
+
+## Cross-References
+
+- [Trigonometry](../relations-functions/index) -- Inverse trigonometric functions are defined as inverses of restricted trigonometric functions, requiring understanding of domain restrictions.
+- [Matrices](../matrices/index) -- Rotation matrices use trigonometric functions, and their inverses connect to inverse trigonometric representations.
+- [Calculus](../derivatives/index) -- Differentiation and integration of inverse trigonometric functions are key applications in calculus.

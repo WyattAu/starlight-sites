@@ -772,3 +772,9 @@ In every particle interaction, the following must be conserved:
     nature, charge, mass, speed, penetrating power, ionising power, and deflection in magnetic
     fields.
 
+
+## Cross-References
+
+- [Electricity](../3-electricity/3_electricity) -- Photoelectric effect and wave-particle duality connect electromagnetic radiation to the particle model.
+- [Waves and Radiation](../5-waves-radiation/5_waves-radiation) -- Wave behaviour of particles extends the classical wave theory to quantum phenomena.
+- [Mechanics](../1-mechanics/1_mechanics) -- Momentum and energy conservation apply to particle collisions and photon interactions.

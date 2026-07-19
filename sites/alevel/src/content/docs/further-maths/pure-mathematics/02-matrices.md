@@ -1157,3 +1157,10 @@ Therefore $\text{tr}\,\mathbf{A} = \lambda_1 + \lambda_2 + \cdots + \lambda_n$. 
 $$
 
 $$
+
+## Cross-References
+
+- [Complex Numbers](./01-complex-numbers) -- Complex eigenvalues lead to rotation-scaling transformations, connecting matrix theory to the geometry of complex arithmetic.
+- [Further Algebra](./03-further-algebra) -- The Cayley-Hamilton theorem links matrices to polynomial algebra through the characteristic equation.
+- [Further Calculus](./04-further-calculus) -- Matrix methods underpin systems of differential equations solved using eigenvalues and eigenvectors.
+- [Vectors in 3D](./09-vectors-in-3d) -- The cross product can be written as a matrix multiplication, connecting vector algebra to linear transformations.

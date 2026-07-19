@@ -521,6 +521,10 @@ gaining control of execution when the function returns.
 by the overflow would fail the CFI check.
 </details>
 
+## Intuition
+
+Operating systems problems test your ability to think like the machine itself. Deadlock questions ask you to trace circular waits — like four people sitting around a table, each holding one chopstick and reaching for the next. Scheduling questions test whether you can simulate the OS choosing which process runs next — like an air traffic controller deciding which plane lands first. Memory management questions ask you to track where every byte lives and who owns it — like an accountant balancing a ledger where every dollar must be accounted for. The key insight is that every OS concept exists because hardware is fast but dumb, and software must bridge the gap between raw speed and useful behaviour.
+
 ## Common Pitfalls
 
 - **Confusing processes and threads.** Processes have separate address spaces; threads share the

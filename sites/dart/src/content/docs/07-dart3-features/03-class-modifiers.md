@@ -938,3 +938,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Object-Oriented Programming](../04-object-oriented/01-classes-and-inheritance) -- Class modifiers like final, sealed, and abstract control inheritance and instantiation.
+- [Sealed Classes](./02-sealed-classes) -- The sealed modifier restricts which classes can extend a class, enabling exhaustive pattern matching.
+- [Error Handling](../08-error-handling) -- Abstract classes define error hierarchies that concrete error types implement.

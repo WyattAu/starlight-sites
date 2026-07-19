@@ -466,6 +466,10 @@ int main() {
 }
 ```
 
+## Intuition
+
+Alignment is like packing a suitcase — you cannot just throw items in randomly; some items must be placed in specific positions to fit properly. The compiler inserts padding bytes between struct members to ensure each member starts at an address that is a multiple of its alignment requirement. This wastes memory but enables the CPU to read data in a single instruction. Without alignment, the CPU might need two memory reads to fetch a single value that straddles a cache line boundary — like needing to open two doors to walk through one doorway. The `alignas` and `alignof` keywords give you explicit control over this packing process.
+
 ## Common Pitfalls
 
 ### 1. Assuming Layout Across Compilers

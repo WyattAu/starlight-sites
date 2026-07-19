@@ -546,6 +546,10 @@ Policies.
 - **`std::span`** — [N4950 §22.7.3], C++20.
 - **`std::mdspan`** — [N4950 §22.7.4], C++23 (multi-dimensional views).
 
+## Intuition
+
+A span is a window into memory — it does not own the data, it just looks at it. Think of a span as a book open on a table: you can read any page, but you did not write the book and you cannot burn it. This is useful when you want to pass a piece of an array to a function without copying: instead of handing over a photocopy, you hand over the bookmark. The key danger is that a span becomes a dangling reference if the underlying data is destroyed — like reading from a book that someone has already put back on the shelf and removed. Spans replace the old C pattern of passing a pointer and a size separately, bundling them into one safe package.
+
 ## Summary
 
 This topic covers the core concepts of contiguous memory views (std::span), including underlying

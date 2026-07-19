@@ -1069,3 +1069,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Object-Oriented Programming](../04-object-oriented/01-classes-and-inheritance) -- Code generation produces boilerplate classes, extensions, and implementations from annotations.
+- [Dependency Injection](../12-dependency-injection) -- Code generators like injectable automate dependency injection wiring from annotations.
+- [Pattern Matching](../07-dart3-features/01-pattern-matching) -- Generated code may use pattern matching and sealed classes for type-safe dispatch.

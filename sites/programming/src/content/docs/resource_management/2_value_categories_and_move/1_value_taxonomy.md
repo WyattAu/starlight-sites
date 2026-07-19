@@ -814,6 +814,10 @@ S obj = make_s();  // C++17: prvalue is directly materialized into obj (zero cop
                    // C++14: prvalue creates temporary, then move/copy into obj
 ```
 
+## Intuition
+
+Value categories are the bouncer at the door of memory management. An lvalue is something that has a name and a持久address — like a house you own. A prvalue is a temporary — like a taxi that exists only for the duration of your ride. An xvalue is a temporary that has been explicitly marked as "I am done with this" — like handing your taxi keys to someone else. Move semantics is the process of stealing the taxi instead of copying it: you take the steering wheel, the engine, the seats, and leave the original owner with an empty frame. This is why `std::move` does not actually move anything — it just casts to an rvalue reference, signalling that the object can be plundered.
+
 ## Common Pitfalls
 
 - **Using `std::move` on a `const` object.** `std::move(const T&)` returns `const T&&`Which binds to

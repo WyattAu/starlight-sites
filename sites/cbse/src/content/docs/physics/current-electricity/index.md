@@ -178,3 +178,9 @@ When combining resistors in parallel, the equivalent resistance is always less t
 ### Mistake 3: Confusing the Wheatstone bridge ratio arrangement
 
 In a balanced Wheatstone bridge, the ratio is $\frac{R_1}{R_2} = \frac{R_3}{R_4}$ where $R_1$ and $R_2$ are in one branch and $R_3$ and $R_4$ are in the other. Students frequently write the ratio as $\frac{R_1}{R_3} = \frac{R_2}{R_4}$ or mix up which resistors are paired. The correct pairing is determined by the bridge geometry: opposite arms form the ratio.
+
+## Cross-References
+
+- [Electrostatics](../electrostatics/index) -- Current electricity involves the flow of charge, building on the electrostatic concepts of charge and electric fields.
+- [Magnetic Effects of Current](../magnetic-effects/index) -- Electric currents produce magnetic fields, connecting current electricity to electromagnetism.
+- [Electromagnetic Induction](../magnetic-effects/index) -- Changing magnetic fields induce currents, linking magnetism back to current electricity through Faraday's law.

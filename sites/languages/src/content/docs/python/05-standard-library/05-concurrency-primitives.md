@@ -741,6 +741,10 @@ with ProcessPoolExecutor(max_workers=10) as executor:
 print(f"Collected metrics from {len(all_metrics)} servers")
 ```
 
+## Intuition
+
+Concurrency is about doing many things at once, but Python's GIL means threads cannot truly execute Python code in parallel. Think of threads like workers sharing a single tool — they can take turns using it, but only one can hold the tool at a time. Multiprocessing gives each worker their own tool, but now they cannot easily share notes. Locks are like traffic lights at an intersection — they prevent crashes by ensuring only one direction moves at a time. The event loop is a single waiter serving many tables — they take orders from one table, start it cooking, then move to the next while the first one waits. The right concurrency model depends on whether your bottleneck is waiting for external systems or crunching numbers.
+
 ## Common Pitfalls
 
 ### 1. Deadlock with Locks

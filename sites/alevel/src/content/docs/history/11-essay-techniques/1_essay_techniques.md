@@ -162,6 +162,10 @@ Based on examiner reports and mark schemes:
 5. **Clear structure**. Logical progression with each paragraph building on the previous.
 6. **Accurate terminology**. Precise vocabulary of the period and topic; avoid anachronism.
 
+## Intuition
+
+Writing a history essay is like building an argument in a courtroom. You are the barrister, the examiner is the jury, and the evidence is your exhibits. A weak essay lists facts like an inventory; a strong essay constructs a case. The PEEL structure is your cross-examination technique — each paragraph must make a claim, present evidence, explain why it matters, and connect to the next point. The best essays do something more: they acknowledge the opposing counsel. When you engage with competing interpretations, you show the examiner that you understand history is not a single story but a conversation between different perspectives, and you can judge which argument is most convincing.
+
 ## Common Pitfalls
 
 1. **Description without analysis**. The most common error — telling the examiner what happened

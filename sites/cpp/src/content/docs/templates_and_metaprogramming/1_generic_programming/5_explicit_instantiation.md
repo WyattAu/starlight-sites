@@ -642,6 +642,10 @@ This occurs when:
 | Non-template wrappers                     | Fastest            | Smallest                              | Fastest          | Limited to wrapped types                              | Medium             |
 | PIMPL / type erasure                      | Fastest            | Smallest                              | Fastest          | Opaque types only                                     | High               |
 
+## Intuition
+
+Explicit instantiation is telling the compiler "generate this template now, in this file, for these specific types." Without it, the compiler generates the template code separately in every translation unit that uses it, like printing the same book in every library. Explicit instantiation prints it once and shares the copies. This reduces compilation time and binary size. Extern templates are the opposite declaration — they tell other files "this template is already instantiated elsewhere, do not generate it again." Together, they are the publication and citation system of template code: one file publishes, others cite.
+
 ## Common Pitfalls
 
 **Forgetting `extern template` in the header.** If you provide the explicit instantiation definition

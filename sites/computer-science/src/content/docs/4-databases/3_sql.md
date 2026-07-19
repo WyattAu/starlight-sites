@@ -373,3 +373,9 @@ Use nested-loop index joins to find matching enrolments and students, avoiding f
 ## Intuition
 
 SQL is the language of asking questions of data. A SELECT statement is a question: "Give me all employees in the sales department who earned more than $50,000 last year." JOINs are the way you combine information from multiple tables, like cross-referencing a phone book with an address book. The ORDER BY clause sorts your results, GROUP BY organizes them into categories, and HAVING filters those categories, the way a librarian might sort books by genre, count how many are in each genre, and then show you only genres with more than 100 books.
+
+## Cross-References
+
+- [Relational Model](./2_relational-model) -- SQL operates on the relational model, with tables corresponding to relations and rows to tuples.
+- [Normalisation](./4_normalisation) -- Well-normalised schemas produce cleaner SQL queries with fewer anomalies.
+- [Indexing](./5_indexing) -- SQL query performance depends on indexing strategies that accelerate data retrieval.

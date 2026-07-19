@@ -363,3 +363,8 @@ Just that page.
 
 
 </aside>
+## Cross-References
+
+- [Process Management](./2_process_management) -- Each process has its own address space managed by the operating system's memory management subsystem.
+- [Virtualization](./8_virtualization) -- Memory virtualization extends basic memory management to support multiple virtual machines.
+- [File Systems](./6_file-systems) -- Memory-mapped files blur the boundary between memory management and file system operations.

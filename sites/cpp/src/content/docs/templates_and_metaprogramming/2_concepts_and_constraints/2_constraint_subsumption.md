@@ -854,6 +854,10 @@ The previous.
 
 ---
 
+## Intuition
+
+Constraint subsumption is the rulebook for overload resolution when multiple templates could match. Think of it as a hierarchy of requirements — if concept A implies concept B, then a template constrained by A is more specific than one constrained by B. The compiler picks the most specific template, like choosing the most detailed map when navigating. Without subsumption, two equally-valid templates would cause ambiguity. The compiler needs a total ordering of constraints to break ties, which is why subsumption rules exist — they create a clear pecking order among competing templates.
+
 ## Common Pitfalls
 
 - **Structurally different but semantically equivalent constraints are incomparable.**

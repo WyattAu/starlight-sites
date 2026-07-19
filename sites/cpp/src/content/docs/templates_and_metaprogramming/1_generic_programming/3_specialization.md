@@ -806,6 +806,10 @@ int main() {
 }
 ```
 
+## Intuition
+
+Template specialization is like having a general recipe and a special version for specific ingredients. The primary template handles most types, but when you know a particular type needs different treatment — perhaps for performance or correctness — you write a specialization. Full specialization locks in every template parameter; partial specialization locks in some and leaves others open. It is like saying "for all types, do X, but for pointers specifically, do Y instead." Specialization is how the standard library implements type-specific optimizations, like `std::vector<bool>` packing bits instead of bytes.
+
 ## Common Pitfalls
 
 1. **Partial specializations of function templates are not allowed.** You can only partially

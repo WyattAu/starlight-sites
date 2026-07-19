@@ -982,3 +982,9 @@ Apps and services are the software applications that run on your TrueNAS server,
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+## Cross-References
+
+- [ZFS Deep Dive](../01-zfs/zfs-deep-dive) -- Applications store data on ZFS datasets, requiring understanding of pool configuration and performance.
+- [Sharing and Permissions](../02-sharing-and-permissions/sharing-and-permissions) -- Apps may need network shares configured to access external storage or serve files.
+- [Performance Tuning](../06-performance-tuning/truenas-performance) -- Application performance depends on storage pool configuration and system resource allocation.

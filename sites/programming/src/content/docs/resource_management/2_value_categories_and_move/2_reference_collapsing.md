@@ -639,6 +639,10 @@ void move_vs_forward() {
 }
 ```
 
+## Intuition
+
+Reference collapsing is the rulebook for what happens when you layer references on top of each other. It is like Russian nesting dolls — a reference to a reference collapses into a single reference, except that two lvalue references stay as an lvalue reference while any rvalue reference involvement produces an rvalue reference. Forwarding references use this collapsing to preserve the value category of their arguments — like a courier who delivers the package exactly as it was sent, whether it was wrapped in bubble wrap (lvalue) or thrown over the fence (rvalue). Without reference collapsing, generic code could not preserve the distinction between objects you want to keep and objects you want to steal from.
+
 ## Common Pitfalls
 
 1. **Calling `std::forward` outside of a forwarding reference context:** `std::move(x)` is

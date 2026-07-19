@@ -342,6 +342,10 @@ agricultural production.
 
 ---
 
+## Intuition
+
+The population debate is a tension between two clocks. Malthus heard a ticking time bomb — population growing exponentially while food grows linearly, guaranteeing eventual disaster. Boserup heard an alarm clock — population pressure waking up human ingenuity to find new solutions. Both were partly right. The Green Revolution proved Boserup correct in the short term: necessity produced miracle wheat and rice that fed billions. But Malthus was right about limits — we are now hitting planetary boundaries that no amount of ingenuity can ignore. Food insecurity is rarely about not growing enough food; it is about who controls the food and who can afford to buy it. The real crisis is one of distribution, not production.
+
 ## Common Pitfalls
 
 1. **Using the DTM uncritically**: The DTM is a generalised model, not a law. Not all countries

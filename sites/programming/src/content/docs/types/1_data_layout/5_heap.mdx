@@ -596,6 +596,10 @@ Resources (`std::pmr`)**.
 - **Synchronized Pool:** Thread-safe version of pool resource.
 - See the dedicated `std::pmr` module for implementation details.
 
+## Intuition
+
+The heap is the Wild West of memory — vast and untamed, where any object can live at any address. Unlike the stack, which moves like a well-organised conveyor belt, the heap is a scattered collection of free blocks that must be found, claimed, and later returned. Virtual memory is the illusion that gives each process its own private continent, even though physical RAM is shared. Page tables are the translation maps that turn virtual addresses into physical ones. When you allocate on the heap, the allocator searches its free lists like a real estate agent looking for available lots — and when you deallocate, you are returning the lot to the market.
+
 ## Common Pitfalls
 
 1. **Assuming `malloc` always succeeds.** On Linux with overcommit, `malloc` can return non-null for

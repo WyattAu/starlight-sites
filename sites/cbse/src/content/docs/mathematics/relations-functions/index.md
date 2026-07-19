@@ -172,3 +172,9 @@ A relation can be reflexive and symmetric without being transitive. For example,
 ### Mistake 3: Forgetting that composition is not the same as multiplication
 
 Students sometimes compute $(f \circ g)(x)$ as $f(x) \cdot g(x)$ instead of $f(g(x))$. Composition means substituting the entire function $g(x)$ into $f$ as the input variable. For example, if $f(x) = 2x + 3$ and $g(x) = x^2$, then $(f \circ g)(x) = 2x^2 + 3$, not $(2x + 3)(x^2)$.
+
+## Cross-References
+
+- [Inverse Trigonometric Functions](../-inverse-trig/index) -- Inverse trigonometric functions are specific examples of inverse functions, requiring understanding of bijectivity.
+- [Matrices](../matrices/index) -- Linear transformations are functions from vectors to vectors, extending function theory to matrix algebra.
+- [Calculus](../derivatives/index) -- Derivatives measure rates of change of functions, connecting function theory to differential calculus.
