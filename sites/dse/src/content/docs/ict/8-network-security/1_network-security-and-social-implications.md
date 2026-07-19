@@ -781,3 +781,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [Internet and Data Communications](/docs/dse/ict/4-networking-and-internet/1_internet-and-data-communications) covers the network infrastructure that security measures are designed to protect.
+- [Web Development and Multimedia](/docs/dse/ict/7-web-and-multimedia/1_web-development-and-multimedia) addresses the web technologies where security vulnerabilities are most commonly exploited.
+- [System Lifecycle](/docs/dse/ict/6-system-lifecycle/1_system-lifecycle) incorporates security requirements into each phase of system development.

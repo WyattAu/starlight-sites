@@ -893,3 +893,11 @@ Child.new.greet
 # => "Base#greet"
 # (Base calls super, goes to Object, then Kernel, no more greet methods)
 ```
+
+---
+
+## Cross-References
+
+- [Variables and Types](/docs/languages/ruby/01-basics/1_variables-and-types) defines the instance variables and data types used within object-oriented class definitions.
+- [Methods and Blocks](/docs/languages/ruby/03-methods-blocks/1_methods-and-blocks) covers the method definitions and block passing that are central to Ruby's OOP style.
+- [Metaprogramming](/docs/languages/ruby/05-advanced/1_metaprogramming) uses Ruby's OOP features to dynamically define classes and methods at runtime.

@@ -749,6 +749,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
+## Intuition
+
+Associative containers are like dictionaries, but organized by content rather than by position. A `std::set` is a bookshelf where every book is automatically placed in alphabetical order by title, so you can find any book quickly without scanning the whole shelf. A `std::map` is a card catalog where each card has a unique label (the key) and points to information (the value). The trade-off is that insertion is slower than a vector because the container must maintain order, but lookup is logarithmic rather than linear.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

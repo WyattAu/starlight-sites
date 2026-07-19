@@ -288,6 +288,10 @@ a chaotic system of competing power blocs held together by Hitler's personal aut
 ideological direction. The term "totalitarian" captures the regime's aspirations better than its
 reality. Terror and propaganda were effective but never achieved total control over German society.
 
+## Intuition
+
+The Weimar Republic was like a bridge built from two ends that never quite met in the middle: democratic ideals from one side, entrenched military and aristocratic traditions from the other. The Depression was the truck that proved the bridge was not strong enough. Hitler did not storm the building; he was handed the keys by people who thought they could control him, like hiring a wolf to guard the sheep. The Nazi state itself resembled a corporation with too many rival departments, each pursuing its own agenda while competing for the boss's approval. This chaos, paradoxically, made the regime more dangerous, not less.
+
 ## Summary
 
 The Weimar Republic was born in crisis, briefly stabilised, and destroyed by economic collapse and

@@ -134,3 +134,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [Remote Operations](/docs/tools/git/04-remotes-and-workflows/01-remote-operations) covers the standard Git remote commands used to interact with a self-hosted Gitea instance.
+- [Workflows](/docs/tools/git/04-remotes-and-workflows/02-workflows) defines team collaboration patterns that a Gitea server enables for self-hosted teams.
+- [Pull Requests](/docs/tools/git/04-remotes-and-workflows/03-pull-requests) describes the code review process that Gitea supports natively.

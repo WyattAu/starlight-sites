@@ -152,3 +152,10 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 - Practice problems with detailed worked solutions
 - Cross-references to related topics
 </aside>
+---
+
+## Cross-References
+
+- [Security Fundamentals](/docs/security/01-security-fundamentals/security-fundamentals) provides the core concepts and principles that this introduction to cybersecurity builds upon.
+- [Cryptography](/docs/security/02-cryptography/cryptography) covers the mathematical foundations of the security mechanisms introduced here.
+- [Pentesting and Attacks](/docs/security/pentesting-and-attacks) extends this introduction into offensive security techniques and vulnerability assessment.

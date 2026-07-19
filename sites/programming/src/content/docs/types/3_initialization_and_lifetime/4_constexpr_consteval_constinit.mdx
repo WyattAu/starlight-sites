@@ -561,6 +561,10 @@ key principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
+## Intuition
+
+`constexpr` tells the compiler "this value can be computed at compile time if all inputs are known," turning runtime work into compile-time work, like pre-calculating a tip at home instead of fumbling with a calculator at the restaurant. `consteval` forces compile-time evaluation, a strict guarantee that this function will never run at runtime. `constinit` ensures a variable is initialized at compile time but is not const, solving the static initialization order fiasco where global variables in different files initialize in unpredictable order.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

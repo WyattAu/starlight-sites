@@ -724,3 +724,15 @@ end
 - **Ruby Weekly newsletter**: https://rubyweekly.com/
 - **Ruby source code**: https://github.com/ruby/ruby
 - **Rails guides**: https://guides.rubyonrails.org/
+
+## Intuition
+
+Ruby was designed to make programmers happy, which is unusual for a programming language. Think of Ruby as a well-organized toolbox where every tool has a comfortable handle: the syntax reads like English prose because Matz wanted code to feel like writing poetry. Everything being an object means you can ask any piece of data to describe itself or transform itself, just as you would ask a person. Ruby on Rails succeeded not because it was the fastest framework but because it made common tasks feel effortless, like a waiter who refills your glass before you notice it is empty.
+
+---
+
+## Cross-References
+
+- [Variables and Types](/docs/languages/ruby/01-basics/1_variables-and-types) introduces Ruby's dynamic typing and variable conventions covered in this overview.
+- [Control Flow](/docs/languages/ruby/02-control-flow/1_control-flow) implements the conditional logic and iteration described in this introduction.
+- [Object-Oriented Programming](/docs/languages/ruby/04-oop/1_oop) extends Ruby's basic concepts into full object-oriented design.

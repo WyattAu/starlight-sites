@@ -157,3 +157,7 @@ This page includes:
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
+
+## Intuition
+
+ICT is the study of how information technology shapes the way we live, work, and communicate. Each topic explores a different facet of this relationship: hardware is the physical machinery, networking is how machines talk to each other, and databases are how information is organized. The field is constantly evolving, but the fundamental principles of data representation, communication, and processing remain constant, like the rules of grammar that persist even as languages evolve.

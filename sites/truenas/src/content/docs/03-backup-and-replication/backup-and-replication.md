@@ -1064,6 +1064,10 @@ key principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
+## Intuition
+
+Backup is the practice of keeping copies of your data in case the original is lost or damaged. The 3-2-1 rule says keep 3 copies on 2 different media with 1 offsite, the way you might keep important documents in a safe at home, a safety deposit box at the bank, and a digital scan in cloud storage. Replication is the process of automatically copying data between systems, like a secretary who files a copy of every document in two different cabinets. The key insight is that a backup you have never tested is not a backup.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

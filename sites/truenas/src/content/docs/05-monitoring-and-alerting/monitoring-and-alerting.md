@@ -937,6 +937,10 @@ including key principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
+## Intuition
+
+Monitoring is the vital signs of your server: CPU usage, memory consumption, disk health, and network traffic are the pulse, temperature, and blood pressure of your system. Alerting is the alarm that goes off when something goes wrong, like a smoke detector that warns you before a small problem becomes a catastrophic failure. The goal is not to watch every metric constantly but to set thresholds that trigger notifications when something deviates from normal, the way a thermostat triggers the furnace when the temperature drops.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

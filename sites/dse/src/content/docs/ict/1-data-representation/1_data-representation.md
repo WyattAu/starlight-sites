@@ -1364,6 +1364,10 @@ for mastery of this topic.
 
 > > > > > > > Stashed changes:docs/docs_dse/ICT/data-representation.md
 
+## Intuition
+
+Data representation is the translation between human concepts and machine reality. Every photo, song, and text message is ultimately a sequence of binary digits, the way every painting is ultimately a collection of colored dots. The challenge is encoding rich, meaningful information in a format that a machine can store, process, and transmit without losing fidelity. Compression, sampling, and quantization are the tools that make this translation practical, like the shorthand a court reporter uses to capture every word in real time.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

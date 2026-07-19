@@ -532,6 +532,10 @@ functions, and applying formulas become automatic.
 - [Geometry](mathematics/geometry) -- Circle equations, coordinate geometry, and trigonometry are covered in greater depth in this topic.
 - [Data Analysis](mathematics/data-analysis) -- Statistics, probability, and data interpretation build on the Problem Solving section here.
 
+## Intuition
+
+SAT Mathematics tests your ability to reason quantitatively, not just compute. The math is rarely beyond algebra and basic geometry, but the questions are designed to reward logical thinking over rote memorization. Think of each problem as a puzzle where the pieces are mathematical relationships: the key is identifying which relationship matters, not performing complex calculations. Estimation is your secret weapon: if a calculation gives you an answer that seems unreasonable, you have probably made an error.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

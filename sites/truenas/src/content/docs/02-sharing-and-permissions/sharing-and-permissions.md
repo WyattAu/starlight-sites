@@ -1009,6 +1009,10 @@ including key principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
+## Intuition
+
+File sharing and permissions are the access control system for your data. Permissions determine who can read, write, or execute files, like the lock system on a building where different keys open different doors. Sharing protocols (SMB, NFS,AFP) are the languages that different operating systems speak to access shared files, the way different postal services use different formats but all deliver mail to the same address. Getting permissions wrong can expose sensitive data or lock out legitimate users, so they must be configured carefully.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

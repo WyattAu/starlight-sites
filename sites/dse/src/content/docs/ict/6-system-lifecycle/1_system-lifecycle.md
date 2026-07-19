@@ -766,3 +766,11 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [Web Development and Multimedia](/docs/dse/ict/7-web-and-multimedia/1_web-development-and-multimedia) applies system lifecycle stages to web application development projects.
+- [Programming and Databases](/docs/dse/ict/3-programming-and-databases/2_programming-and-databases) covers the implementation phase of the system lifecycle where code and data structures are built.
+- [Network Security](/docs/dse/ict/8-network-security/1_network-security-and-social-implications) addresses security considerations that must be integrated throughout the system lifecycle.

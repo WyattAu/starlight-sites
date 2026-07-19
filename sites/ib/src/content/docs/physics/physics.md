@@ -3,7 +3,9 @@ title: Physics
 description: "This section contains notes and study materials for IB Physics, based on the 2025 syllabus. The Course is available at both Standard Level (SL) and Higher"
 ---
 
-## IB Physics -- Course Overview
+## Intuition
+
+IB Physics is structured like a building with five floors, each floor depending on the one below. Theme A (mechanics) is the foundation: if you do not understand forces and energy, the upper floors will wobble. Theme B explores what matter is made of at the molecular level, revealing that temperature is just atoms jiggling. Theme C shows that waves are disturbances that carry energy without carrying matter, like a Mexican wave in a stadium. Theme D introduces fields, which are nature's way of exerting force at a distance. Theme E pushes into the quantum world, where particles behave like waves and certainty dissolves into probability.
 
 This section contains notes and study materials for IB Physics, based on the 2025 syllabus. The
 Course is available at both Standard Level (SL) and Higher Level (HL), with HL students covering

@@ -973,6 +973,10 @@ principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
+## Intuition
+
+Apps and services are the software applications that run on your TrueNAS server, each providing a specific function like file sharing, media streaming, or backup. Think of them as appliances in a kitchen: each one does a specific job, and the kitchen works best when you choose appliances that complement each other. TrueNAS SCALE uses Docker containers to run these services, isolating them from each other so that a problem with one does not affect the others, the way separate burners on a stove can operate independently.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

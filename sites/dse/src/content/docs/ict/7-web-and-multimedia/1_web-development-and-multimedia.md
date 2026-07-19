@@ -1084,3 +1084,11 @@ marks in geography assessments.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [Internet and Data Communications](/docs/dse/ict/4-networking-and-internet/1_internet-and-data-communications) explains the network protocols that enable web technologies and multimedia delivery.
+- [Network Security](/docs/dse/ict/8-network-security/1_network-security-and-social-implications) covers the security measures needed to protect web applications and user data.
+- [Office Automation](/docs/dse/ict/5-office-automation/1_office-automation) provides the foundational computing skills that web development builds upon.

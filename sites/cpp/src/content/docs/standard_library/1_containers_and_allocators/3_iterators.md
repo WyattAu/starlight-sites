@@ -569,6 +569,10 @@ underlying theory, practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+## Intuition
+
+Iterators are the universal remote controls of the C++ standard library. Each container provides its own iterator type, but all iterators support the same basic operations: dereference, increment, and comparison. This abstraction lets you write one algorithm that works on any container, the way a universal remote can control any television. The five iterator categories (input, forward, bidirectional, random access, contiguous) describe what operations are available, like the difference between a tape player (forward only) and a CD player (random access).
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

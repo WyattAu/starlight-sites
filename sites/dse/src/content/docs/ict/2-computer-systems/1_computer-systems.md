@@ -971,6 +971,10 @@ for mastery of this topic.
 
 > > > > > > > Stashed changes:docs/docs_dse/ICT/computer-systems.md
 
+## Intuition
+
+A computer system is a hierarchy of layers, each one providing services to the layer above it. The hardware is the foundation, the operating system manages resources, and applications provide the user interface. Think of it as a restaurant: the kitchen (hardware) does the actual cooking, the manager (OS) coordinates staff and supplies, and the waiter (application) takes your order and delivers the food. Understanding these layers helps you diagnose problems by identifying which layer is failing.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

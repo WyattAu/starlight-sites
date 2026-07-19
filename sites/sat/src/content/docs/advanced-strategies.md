@@ -274,6 +274,10 @@ After each practice test, spend at least 60 minutes reviewing:
 4. **Update your strategy**. If a particular strategy didn't work (e.g., you spent too long on hard
    questions), adjust your approach for the next test.
 
+## Intuition
+
+Advanced SAT strategies are about working smarter, not harder. Elimination is like whittling down a suspect list: even if you cannot prove who did it, ruling out impossible answers dramatically improves your odds. Time management is the art of knowing when to move on from a difficult question and return to it later, the way a marathon runner paces themselves rather than sprinting at the start. The highest-scoring students are not necessarily the smartest; they are the best at recognizing patterns and avoiding traps.
+
 ## Worked Examples
 
 ### Example 1: Applying the Two-Pass System

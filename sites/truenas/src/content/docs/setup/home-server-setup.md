@@ -531,6 +531,10 @@ key principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
+## Intuition
+
+Setting up a home server is like building a small data center in your closet. The key decisions are what hardware to use, how much storage you need, and how to keep it running reliably. Think of the server as a librarian who never sleeps: it stores your files, serves media to your devices, and runs services in the background. The investment in time upfront pays dividends in convenience and data ownership, the way building a good workshop saves time on every future project.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

@@ -1223,3 +1223,12 @@ Where $\bar{x} = \dfrac{1}{A}\displaystyle\int_A x\,dA$ is the centroid's $x$-co
 The centroid travels a distance $2\pi\bar{x}$So $V = 2\pi\bar{x}\cdot A$. $\blacksquare$
 
 </details>
+
+---
+
+## Cross-References
+
+- [Projectile Motion](/docs/alevel/further-maths/further-mechanics/projectile-motion) uses energy conservation and impulse-momentum principles that underpin the analysis of elastic collisions.
+- [Circular Motion](/docs/alevel/further-maths/further-mechanics/further-circular-motion) applies centripetal force analysis to particles on circular paths, complementing the linear collision analysis here.
+- [Further Calculus](/docs/alevel/further-maths/pure-mathematics/further-calculus) provides the integration techniques used to find centres of mass of laminas and solids by continuous integration.
+- [Vectors in 3D](/docs/alevel/further-maths/pure-mathematics/vectors-in-3d) supplies the vector resolution methods needed to analyse oblique impacts where velocities have components in multiple directions.

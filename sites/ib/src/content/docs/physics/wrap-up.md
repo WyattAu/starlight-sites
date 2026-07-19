@@ -47,6 +47,10 @@ final mark.
 Core topics (80 hours SL, 80 hours HL) are assessed at both levels. AHL topics (55 additional hours)
 extend the core with greater mathematical rigour and are only assessed at HL.
 
+## Intuition
+
+A course wrap-up is like the final chapter of a novel: it does not introduce new characters but reminds you how all the existing ones connect. The five themes of IB Physics are not isolated islands but a single continent connected by the principle of conservation: energy, momentum, and charge are conserved across all scales. The exam does not test whether you memorised formulas but whether you understand the physical stories those formulas tell. The best revision strategy is to explain concepts aloud, as if teaching someone else, because understanding is not complete until you can articulate it.
+
 ## Exam Format
 
 ### Paper 1 (MCQ)
@@ -210,3 +214,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [Syllabus](/docs/ib/physics/Syllabus) details the complete IB Physics content requirements that this wrap-up consolidates.
+- [Mechanics](/docs/ib/physics/1-space-time-and-motion/1_kinematics) covers Thematic Area A on space, time, and motion.
+- [Fields](/docs/ib/physics/4-fields/1_gravitational-fields) covers Thematic Area D on gravitational, electric, and magnetic fields.

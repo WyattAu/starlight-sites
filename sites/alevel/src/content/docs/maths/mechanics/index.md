@@ -150,6 +150,10 @@ This page includes:
 - **Interleaving**: Mix this topic with others during study sessions
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
+## Intuition
+
+Mechanics is the art of predicting what happens next when objects push, pull, and collide. Think of it as Newton's detective work: every moving object tells a story through its acceleration, and forces are the motives behind that motion. The SUVAT equations are like a travel timetable for objects under constant acceleration, recording where they started, how fast they are going, and when they will arrive. Energy methods offer a shortcut by asking what changed rather than tracing every step. Forces always come in pairs through action and reaction, which is why a swimmer moves forward by pushing water backward.
+
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.

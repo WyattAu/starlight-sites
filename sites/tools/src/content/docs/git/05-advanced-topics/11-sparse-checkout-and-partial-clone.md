@@ -828,3 +828,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [Remote Operations](/docs/tools/git/04-remotes-and-workflows/01-remote-operations) covers the clone and fetch commands that sparse checkout and partial clone modify.
+- [Git Objects](/docs/tools/git/02-fundamentals/02-git-objects) explains the object storage model that partial clone selectively downloads.
+- [Branching](/docs/tools/git/03-branching-and-merging/01-branching) shows how sparse checkout works with branch-specific directory filtering.

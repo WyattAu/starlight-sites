@@ -85,3 +85,7 @@ Mao Zedong proclaimed the establishment of the People's Republic of China on 1 O
 - In essay questions, avoid presenting the Chinese Revolution as a simple narrative of Communist victory. Analyse the role of contingency, strategy, and external factors (Japanese invasion, American support) in shaping outcomes.
 - Use specific evidence including dates, casualty figures, policy details, and historiographical interpretations to support arguments.
 - When evaluating Mao's legacy, present a balanced assessment that acknowledges both achievements (national unification, literacy improvements) and catastrophic failures (Great Leap Forward, Cultural Revolution).
+
+## Intuition
+
+The Chinese Revolution was a decades-long upheaval that transformed one of the world's oldest civilizations. Think of it as a river that changed course multiple times: initially flowing toward Western-style reform, then diverting toward radical Maoism, and finally settling into a pragmatic socialist-market hybrid. The revolution succeeded not because of a single brilliant strategy but because the Communist Party adapted more effectively than its rivals to the conditions of rural China, the way a plant survives by growing toward whatever light is available.

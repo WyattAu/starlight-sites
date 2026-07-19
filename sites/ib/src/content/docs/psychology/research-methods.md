@@ -432,3 +432,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [Thinking and Decision Making](/docs/ib/psychology/cognitive/thinking-and-decision-making) applies the research methods discussed here to study cognitive biases and judgement under uncertainty.
+- [Nervous System](/docs/ib/biology/8-nervous-system-and-immunology/1_nervous-system) provides the biological basis for understanding behaviour, which is the primary subject of psychological research.
+- [Cell Biology](/docs/ib/biology/1-cell-biology/1_cell-biology) covers the cellular mechanisms that underpin the biological processes studied through psychological research methods.

@@ -857,3 +857,11 @@ Integer("abc")     # => ArgumentError
 | nil      | `nil`          | No      | Singleton NilClass                     |
 | true     | `true`         | No      | Singleton TrueClass                    |
 | false    | `false`        | No      | Singleton FalseClass                   |
+
+---
+
+## Cross-References
+
+- [Control Flow](/docs/languages/ruby/02-control-flow/1_control-flow) uses variable values and type checks in conditional branching and loop constructs.
+- [Methods and Blocks](/docs/languages/ruby/03-methods-blocks/1_methods-and-blocks) demonstrates how variables are passed to methods and blocks as parameters.
+- [Ruby Introduction](/docs/languages/ruby/00-intro/1_ruby-intro) provides the overview of Ruby's dynamic typing system that governs how these types behave.

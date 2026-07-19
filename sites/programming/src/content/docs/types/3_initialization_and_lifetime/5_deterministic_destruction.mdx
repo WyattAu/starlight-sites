@@ -600,6 +600,10 @@ including key principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
+## Intuition
+
+Deterministic destruction means objects are destroyed in the exact reverse order they were created, the way you would undress in the opposite order you dressed. RAII (Resource Acquisition Is Initialization) ties resource management to object lifetime: open a file in the constructor, close it in the destructor, and the compiler guarantees cleanup happens no matter how you leave the scope. This is why C++ can manage resources safely without garbage collection, the way a responsible person returns a rental car the moment they finish driving it.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

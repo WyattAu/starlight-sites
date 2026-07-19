@@ -294,6 +294,10 @@ Might combine:
 4. Using the wrong equation from the data sheet. Take time to read the full equation, including
    conditions and variable definitions.
 
+## Intuition
+
+The IB Physics syllabus is a map of the physical world organized into five territories: how things move (Theme A), what matter is made of (Theme B), how waves travel (Theme C), how fields reach across space (Theme D), and what happens at the smallest scales (Theme E). Each theme builds on the previous ones, much like learning to read before writing essays. The AHL topics are not separate subjects but deeper dives into the same rivers you have already waded into. Knowing the syllabus is like knowing the exam room layout: it reduces anxiety and lets you focus on the physics itself.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -304,3 +308,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [IB Physics Index](/docs/ib/physics/) provides a structured overview linking to all syllabus topics with detailed notes.
+- [Mechanics](/docs/ib/physics/1-space-time-and-motion/1_kinematics) covers the foundational kinematics and dynamics topics in Thematic Area A.
+- [Wrap Up](/docs/ib/physics/wrap-up) provides a summary and revision strategy aligned to this syllabus structure.

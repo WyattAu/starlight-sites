@@ -1230,6 +1230,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+## Intuition
+
+File I/O is the bridge between your program's temporary memory and the permanent world of stored data. Reading a file is like borrowing a book from a library: you open it, read what you need, and return it. The `with` statement ensures you always return the book, even if you get distracted mid-sentence. Text mode and binary mode are like reading a novel versus copying a photograph: one interprets the content, the other preserves it byte-for-byte. Buffered I/O is a librarian who checks out multiple books at once to save you trips to the shelf.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

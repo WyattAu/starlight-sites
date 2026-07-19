@@ -738,6 +738,10 @@ $a = \frac{5}{7}g\sin\theta$.
 - **DSE Forces and Motion:**
   [Forces and Motion](https://dse.wyattau.com/docs/dse/physics/1-mechanics)
 
+## Intuition
+
+Momentum is the physics of collisions, and it obeys one of the universe's most unbreakable rules: what goes in must come out. Imagine two billiard balls on a frictionless table: the total momentum before the crash equals the total after, no exceptions. Centripetal force is not a new force but a job description for whatever force happens to be pulling an object inward, whether it is gravity holding a planet in orbit or friction keeping a car on a curve. Angular momentum conservation explains why an ice skater spins faster when pulling in her arms, much like a figure skater gathering speed before a jump.
+
 ## Summary
 
 This topic covers the fundamental principles of forces and momentums, including the key equations,

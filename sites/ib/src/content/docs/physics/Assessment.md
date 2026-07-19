@@ -206,6 +206,10 @@ Examination session and vary from session to session depending on the difficulty
 
 ---
 
+## Intuition
+
+Understanding the assessment structure is like knowing the rules of a game before you play it. Paper 1 tests whether you truly understand physics without the crutch of a calculator, forcing you to think in terms of proportions and physical reasoning. Paper 2 rewards showing your work, which means that even a wrong final answer can earn marks if your method is sound. Paper 3 is about thinking like a scientist: designing experiments, evaluating data, and recognising that uncertainty is not a flaw but an honest measurement of what you do not know.
+
 ## Cross-References
 
 - **[Syllabus](Syllabus.md)** -- Full topic-by-topic syllabus breakdown with key understandings and

@@ -123,6 +123,10 @@ Each page in this section includes:
 - **Interleaving**: Mix with other topics during revision sessions
 - **Elaboration**: Explain concepts in your own words
 
+## Intuition
+
+History is not a list of dates to memorize but a conversation between the past and the present. Every historical event is like a stone dropped in a pond, sending ripples forward through time that shape the world you live in now. Learning to read sources is like learning to read body language: what someone chooses to say is important, but what they avoid saying is often more revealing. The skill of a historian is not knowing everything that happened, but knowing which questions to ask about what happened and why the answers matter.
+
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.

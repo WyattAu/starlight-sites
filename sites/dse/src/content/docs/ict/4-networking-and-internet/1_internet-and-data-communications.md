@@ -1034,8 +1034,20 @@ for mastery of this topic.
 
 > > > > > > > Stashed changes:docs/docs_dse/ICT/internet-and-data-communications.md
 
+## Intuition
+
+The internet is a network of networks, like a postal system where every neighborhood has its own mailroom that connects to a central sorting facility. Data travels in packets, each carrying a piece of the message along with its destination address, the way letters carry both the content and the address on the envelope. Protocols like TCP ensure reliable delivery by checking that every packet arrives and requesting retransmission of lost ones, like a careful sender who insists on delivery confirmation.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+---
+
+## Cross-References
+
+- [Network Security](/docs/dse/ict/8-network-security/1_network-security-and-social-implications) applies security protocols to protect the networks and data communications covered here.
+- [Web Development and Multimedia](/docs/dse/ict/7-web-and-multimedia/1_web-development-and-multimedia) uses internet infrastructure to deliver web content and multimedia services.
+- [Data Representation](/docs/dse/ict/1-data-representation/1_data-representation) explains how data is encoded for transmission across networks.

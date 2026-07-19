@@ -119,6 +119,17 @@ Each page in this section includes:
 - **Interleaving**: Mix with other topics during revision sessions
 - **Elaboration**: Explain concepts in your own words
 
+## Intuition
+
+Physics is the study of how the universe behaves when you ask it direct questions. Each topic in IB Physics is a different lens for looking at the same reality: kinematics describes what happens, dynamics explains why it happens, energy tells you how much it costs, and fields reveal how objects influence each other across empty space. The beauty of physics is that the same principles that explain a falling apple also explain the motion of planets, because nature recycles its rules across vastly different scales.
+
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+---
+
+## Cross-References
+
+- [Syllabus](/docs/ib/physics/Syllabus) provides the complete IB Physics syllabus outline with key understanding statements and equations.
+- [Wrap Up](/docs/ib/physics/wrap-up) offers a revision summary across all five thematic areas with exam-focused strategies.
+- [Kinematics](/docs/ib/physics/1-space-time-and-motion/1_kinematics) is the starting point for Thematic Area A covering motion, velocity, and acceleration.

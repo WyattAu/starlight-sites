@@ -1303,5 +1303,9 @@ iterates through the array again to count scores above average, and outputs both
   a foreign key referencing another table.
 
 </aside>
+## Intuition
+
+Databases are the filing cabinets of the digital world, organizing data so it can be retrieved efficiently. A well-designed database avoids duplication the way a good library avoids stocking multiple copies of the same book on the same shelf. Querying a database is like asking a librarian a question: the more specific your question, the faster the answer. The relationship between tables is the web of connections that allows you to cross-reference information, like following footnotes from one source to another.
+
 ## Worked Examples
 

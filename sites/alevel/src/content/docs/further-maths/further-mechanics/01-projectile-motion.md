@@ -1187,3 +1187,12 @@ $u\sin\theta - gt = 0 \implies t = \dfrac{u\sin\theta}{g}$. $\blacksquare$
 
 </details>
 
+---
+
+## Cross-References
+
+- [Circular Motion](/docs/alevel/further-maths/further-mechanics/further-circular-motion) extends Newton's second law to particles moving in circular paths, using the same force resolution techniques.
+- [Centres of Mass and Elastic Collisions](/docs/alevel/further-maths/further-mechanics/centres-of-mass-and-elastic-collisions) applies energy conservation and impulse-momentum principles to systems of particles in direct and oblique impacts.
+- [Further Calculus](/docs/alevel/further-maths/pure-mathematics/further-calculus) provides the parametric differentiation and integration methods used to derive the trajectory equation and optimise range.
+- [Vectors in 3D](/docs/alevel/further-maths/pure-mathematics/vectors-in-3d) supplies the vector notation and resolution techniques that generalise projectile analysis to three-dimensional motion.
+

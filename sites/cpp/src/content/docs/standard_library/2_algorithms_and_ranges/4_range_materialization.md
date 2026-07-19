@@ -802,6 +802,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
+## Intuition
+
+Range materialization is the moment when a lazy computation becomes a concrete collection. Think of it as a chef who has planned a recipe (the lazy range) but has not yet cooked anything. When you call `to<std::vector>()`, the chef starts chopping, heating, and plating. Materialization is necessary when you need to store results, pass them to APIs that expect containers, or when the computation has side effects that must happen exactly once.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

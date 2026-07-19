@@ -1311,6 +1311,10 @@ If you get this wrong, revise: Section 1.2.
   Forwarding: looking up the next hop (per-packet). **Fix:** Routing algorithms: distance vector,
   link state. Forwarding: match destination IP to routing table entry.
 
+## Intuition
+
+Advanced networking topics reveal the hidden complexity beneath the surface of everyday internet use. Software-defined networking separates the brain (control plane) from the muscles (data plane), letting network administrators reconfigure traffic flow without touching individual routers. Content delivery networks are like warehouses placed in every neighborhood so that the book you order arrives in minutes rather than days. Network function virtualization replaces dedicated hardware with software, the way streaming replaced physical media.
+
 ## Worked Examples
 
 ### Example 1: Subnetting

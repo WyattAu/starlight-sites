@@ -539,3 +539,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [Simple Harmonic Motion](/docs/ib/physics/3-wave-behaviour/1_simple-harmonic-motion) provides the oscillatory foundation for understanding wave behaviour and phenomena.
+- [Wave Properties](/docs/ib/physics/3-wave-behaviour/2_wave-properties) covers the fundamental characteristics of waves including wavelength, frequency, and amplitude.
+- [Gravitational Fields](/docs/ib/physics/4-fields/1_gravitational-fields) explains the field theory that underpins orbital mechanics problems in this wrap-up.

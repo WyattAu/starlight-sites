@@ -369,3 +369,7 @@ Use nested-loop index joins to find matching enrolments and students, avoiding f
 
 
 </aside>
+
+## Intuition
+
+SQL is the language of asking questions of data. A SELECT statement is a question: "Give me all employees in the sales department who earned more than $50,000 last year." JOINs are the way you combine information from multiple tables, like cross-referencing a phone book with an address book. The ORDER BY clause sorts your results, GROUP BY organizes them into categories, and HAVING filters those categories, the way a librarian might sort books by genre, count how many are in each genre, and then show you only genres with more than 100 books.

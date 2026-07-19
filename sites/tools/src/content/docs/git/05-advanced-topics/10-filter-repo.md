@@ -790,3 +790,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [Remote Operations](/docs/tools/git/04-remotes-and-workflows/01-remote-operations) explains how rewritten history must be force-pushed to update remote repositories.
+- [Git Objects](/docs/tools/git/02-fundamentals/02-git-objects) covers the object model that filter-repo rewrites when removing or modifying commits.
+- [Reflog](/docs/tools/git/05-advanced-topics/01-reflog) provides a safety net for recovering references after history rewriting operations.

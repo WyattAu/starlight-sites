@@ -775,3 +775,11 @@ practical implementation, and key applications.
 
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
+
+---
+
+## Cross-References
+
+- [Hardware](/docs/highers/computer-science/1-hardware/1_hardware) provides the physical platform that software executes on, including processor and memory architecture.
+- [Databases](/docs/highers/computer-science/3-databases/3_databases) covers data management software that is a key application of software engineering principles.
+- [Algorithms](/docs/highers/computer-science/4-algorithms/4_algorithms) defines the computational procedures that software implements to solve problems efficiently.

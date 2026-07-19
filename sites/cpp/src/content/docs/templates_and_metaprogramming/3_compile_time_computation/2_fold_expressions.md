@@ -902,6 +902,10 @@ theory, practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+## Intuition
+
+Fold expressions reduce a parameter pack using an operator, like folding a map to make it smaller. `(... + args)` sums all arguments by repeatedly applying the plus operator, the way you would add a list of numbers by starting with the first and adding each subsequent number. The beauty is that this happens at compile time, so the compiler generates the optimized code directly rather than running a loop at runtime. It is the compile-time equivalent of inlining every iteration.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

@@ -296,3 +296,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [Research Methods](/docs/ib/psychology/research-methods) provides the experimental methodology used to study cognitive biases and decision-making processes.
+- [Nervous System](/docs/ib/biology/8-nervous-system-and-immunology/1_nervous-system) explains the neural mechanisms underlying perception, memory, and the cognitive processes studied in decision-making research.
+- [Cell Biology](/docs/ib/biology/1-cell-biology/1_cell-biology) covers the cellular foundations of neural function that enable the cognitive processes examined in thinking and judgement.

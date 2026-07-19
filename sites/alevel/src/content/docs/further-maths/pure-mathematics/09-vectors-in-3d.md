@@ -1171,3 +1171,12 @@ The lines intersect at $\boxed{(1,0,0)}$.
    around.
 
 </aside>
+
+---
+
+## Cross-References
+
+- [Matrices](/docs/alevel/further-maths/pure-mathematics/further-matrices) provides the determinant and linear transformation methods used to compute cross products and scalar triple products.
+- [Projectile Motion](/docs/alevel/further-maths/further-mechanics/projectile-motion) applies vector resolution techniques to analyse motion under gravity in two and three dimensions.
+- [Polar Coordinates](/docs/alevel/further-maths/pure-mathematics/polar-coordinates) connects vector geometry to parametric representations of curves and surfaces in different coordinate systems.
+- [Further Calculus](/docs/alevel/further-maths/pure-mathematics/further-calculus) supplies the integration and differentiation methods used in deriving volume formulas from the scalar triple product.

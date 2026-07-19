@@ -511,6 +511,10 @@ $$s = \int_0^4 \!\left(\frac{3}{2}t^2 - 6t + 8\right)dt = \left[\frac{t^3}{2} - 
 
 $\blacksquare$
 
+## Intuition
+
+Kinematics is the language of motion stripped bare of its causes. Imagine filming a car and then rewinding the tape: the SUVAT equations let you predict every frame of that journey without asking why the engine is running. Projectile motion is a beautiful illusion of independence: a ball thrown sideways falls at the same rate as one dropped straight down, because horizontal and vertical worlds do not interfere. The calculus approach reveals that acceleration is velocity's rate of change, just as velocity is position's rate of change, forming a chain of derivatives that connects position to motion to the forces that cause it.
+
 ## Summary
 
 - SUVAT equations apply only for constant acceleration; use calculus for variable acceleration.

@@ -1200,5 +1200,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
-$
+## Cross-References
+
+- [The International Economy](/docs/alevel/economics/macro/the-international-economy) covers comparative advantage, trade agreements, and exchange rates central to development trade strategies.
+- [The Financial Sector](/docs/alevel/economics/macro/the-financial-sector) explains financial intermediation and monetary policy that shape savings and investment in developing economies.
+- [Market Failure](/docs/alevel/economics/microeconomics/market-failure) provides the theoretical basis for understanding externalities, public goods, and the tragedy of the commons in development contexts.
+- [Supply-Side Policy](/docs/alevel/economics/macro/supply-side-policy) analyses how education, training, and infrastructure investment raise productivity and promote long-run development.
 </aside>

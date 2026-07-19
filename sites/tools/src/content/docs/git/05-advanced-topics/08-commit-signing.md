@@ -871,3 +871,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [Hooks](/docs/tools/git/05-advanced-topics/07-hooks) can be configured to enforce commit signing policies automatically before accepting commits.
+- [Branching](/docs/tools/git/03-branching-and-merging/01-branching) shows how signed commits maintain integrity across branch operations and merges.
+- [Remote Operations](/docs/tools/git/04-remotes-and-workflows/01-remote-operations) explains how signed commits are verified during push and pull operations with remote repositories.

@@ -411,6 +411,10 @@ duration of measurement, type of light source, and CO₂ concentration in the wa
 relationship ($1/d$), deviating from the strict inverse square law due to limiting factors. (c)
 Plant type, water volume, water temperature, light source type, CO₂ concentration.
 
+## Intuition
+
+The SAT Science questions test data interpretation and experimental reasoning, not scientific knowledge. You are given graphs, tables, and experimental descriptions and asked to draw conclusions, the way a detective draws conclusions from evidence at a crime scene. The answers are always supported by the provided data, so you never need outside scientific knowledge. The skill being tested is whether you can read a graph, identify a trend, and select the conclusion that the data actually supports.
+
 ## Worked Examples
 
 ### Example 1: Analysing an Experimental Design

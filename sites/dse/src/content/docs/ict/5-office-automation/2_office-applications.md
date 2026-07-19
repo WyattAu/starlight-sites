@@ -1061,3 +1061,11 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [Office Automation](/docs/dse/ict/5-office-automation/1_office-automation) provides the overview of office automation tools and their deployment in workplace settings.
+- [System Lifecycle](/docs/dse/ict/6-system-lifecycle/1_system-lifecycle) covers how office applications are selected, implemented, and maintained within an organisation.
+- [Data Representation](/docs/dse/ict/1-data-representation/1_data-representation) explains how office applications store and process different data formats.

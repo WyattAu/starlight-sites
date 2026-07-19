@@ -772,6 +772,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
+## Intuition
+
+Parallel algorithms split work across multiple threads the way a restaurant distributes orders across multiple chefs. Each chef handles one dish, and the head waiter coordinates when everything is ready. The challenge is that parallel execution introduces race conditions and synchronization costs, so parallel algorithms are only faster when the work is large enough to justify the overhead of coordination. Sorting a list of three items in parallel would be slower than sorting it sequentially, just as hiring three chefs to make one sandwich wastes more time than it saves.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

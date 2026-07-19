@@ -999,6 +999,10 @@ principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
+## Intuition
+
+ZFS is not just a filesystem but a complete storage management system that combines the roles of filesystem, volume manager, and RAID controller. Think of it as a self-healing bookshelf: it not only stores your books but also checks for damaged pages, repairs them automatically from backup copies, and alerts you when a book is wearing out. The copy-on-write mechanism means that every modification creates a new version of the data rather than overwriting the old one, like a word processor that saves every revision.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

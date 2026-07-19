@@ -1145,3 +1145,11 @@ debug &&= false  # debug is still false, no change
 timeout = ENV.fetch("TIMEOUT", 30).to_i
 mode = ENV.key?("DEBUG") ? :debug : :production
 ```
+
+---
+
+## Cross-References
+
+- [Variables and Types](/docs/languages/ruby/01-basics/1_variables-and-types) defines the data types that control flow statements operate on in conditional expressions.
+- [Methods and Blocks](/docs/languages/ruby/03-methods-blocks/1_methods-and-blocks) shows how control flow interacts with method definitions, blocks, and iteration patterns.
+- [Object-Oriented Programming](/docs/languages/ruby/04-oop/1_oop) applies control flow within class methods and object behaviour.

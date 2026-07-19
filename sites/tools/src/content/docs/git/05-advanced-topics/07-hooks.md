@@ -931,3 +931,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [Commit Signing](/docs/tools/git/05-advanced-topics/08-commit-signing) extends hooks by adding cryptographic verification to the commit process that hooks can enforce.
+- [Cherry-Pick](/docs/tools/git/05-advanced-topics/06-cherry-pick) selectively applies commits where hooks may trigger on the newly applied changes.
+- [Remote Operations](/docs/tools/git/04-remotes-and-workflows/01-remote-operations) shows how hooks interact with server-side workflows during push and receive operations.

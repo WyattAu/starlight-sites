@@ -516,6 +516,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
+## Intuition
+
+Polymorphic memory resources are like choosing between buying furniture (global allocator), renting (pool allocator), or borrowing from a friend (arena allocator). The key insight is that the allocator is invisible to the code using the container: you can swap the allocator without changing any of the data structure code, the way you can move furniture between rooms without changing how you use the rooms. Arena allocators are especially useful when you allocate many small objects that all die together, like parsing a JSON document where the entire parse tree can be freed at once.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

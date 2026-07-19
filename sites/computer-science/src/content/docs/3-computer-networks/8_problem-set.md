@@ -139,6 +139,10 @@ _Hint:_ Total data = 630 KB = 5.04 Mb. Transmission time = 5.04 / 10 = 0.504 s.
   Forwarding: looking up the next hop (per-packet). **Fix:** Routing algorithms: distance vector,
   link state. Forwarding: match destination IP to routing table entry.
 
+## Intuition
+
+Problem sets are where theory meets practice. Working through network problems trains you to think about data flow the way a postal system thinks about mail: addresses, routing, queuing, and delivery guarantees. Each problem is a scenario where you must choose the right protocol or configuration, like a logistics manager deciding whether to send a package by air or sea based on cost, speed, and reliability requirements.
+
 ## Worked Examples
 
 ### Example 1: Subnetting

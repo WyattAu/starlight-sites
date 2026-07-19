@@ -1401,6 +1401,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+## Intuition
+
+ZFS encryption protects your data at rest, ensuring that even if someone steals your hard drives, they cannot read the contents. It works like a locked safe: the data is encrypted with a key, and without the key, the data is meaningless noise. ZFS encryption is transparent to legitimate users, who access data normally through the mounted filesystem, but completely opaque to anyone who does not have the encryption key. The key insight is that encryption protects against physical theft, while proper permissions protect against unauthorized access by authorized users.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

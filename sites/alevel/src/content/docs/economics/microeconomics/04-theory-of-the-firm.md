@@ -1264,5 +1264,10 @@ the definitions, applying the formulas or frameworks, and evaluating strengths a
 each approach.
 
 </aside>
-$$
-$$
+
+## Cross-References
+
+- [Market Failure](/docs/alevel/economics/microeconomics/market-failure) covers externalities and government intervention that constrain firm behaviour and market outcomes.
+- [Labour Markets](/docs/alevel/economics/microeconomics/labour-markets) applies the monopsony and minimum wage models that extend the theory of the firm to factor markets.
+- [The Financial Sector](/docs/alevel/economics/macro/the-financial-sector) explains how interest rates and monetary policy affect firms' cost of borrowing and investment decisions.
+- [Demand, Supply and Equilibrium](/docs/alevel/economics/microeconomics/demand-supply-and-equilibrium) provides the demand and cost foundations used throughout the theory of the firm analysis.

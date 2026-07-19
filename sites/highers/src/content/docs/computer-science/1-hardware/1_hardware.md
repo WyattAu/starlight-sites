@@ -754,3 +754,11 @@ implementation, and key applications.
 
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
+
+---
+
+## Cross-References
+
+- [Software](/docs/highers/computer-science/2-software/2_software) covers the operating systems and applications that run on the hardware foundations described here.
+- [Algorithms](/docs/highers/computer-science/4-algorithms/4_algorithms) explains the computational methods that hardware executes through its instruction set architecture.
+- [Networks](/docs/highers/computer-science/5-networks/5_networks) extends hardware concepts to the communication infrastructure connecting distributed systems.

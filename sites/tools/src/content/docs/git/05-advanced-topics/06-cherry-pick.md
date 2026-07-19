@@ -688,3 +688,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Cross-References
+
+- [Remote Operations](/docs/tools/git/04-remotes-and-workflows/01-remote-operations) shows how cherry-picked commits are pushed to shared branches after selective application.
+- [Branching](/docs/tools/git/03-branching-and-merging/01-branching) provides the branch context in which cherry-pick operations target specific commits.
+- [Conflict Resolution](/docs/tools/git/03-branching-and-merging/04-conflict-resolution) addresses the merge conflicts that can arise when cherry-picked commits overlap with other changes.

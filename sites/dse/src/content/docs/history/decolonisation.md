@@ -116,3 +116,7 @@ The 1997 Handover ceremony on 1 July 1997 marked the end of 156 years of British
 - In essay questions, avoid treating decolonisation as a single, uniform process. Compare the experiences of different colonies, noting the factors that led to peaceful transitions versus prolonged conflicts.
 - Use specific evidence including dates, casualty figures, treaty terms, and policy details to support arguments about the causes and consequences of decolonisation.
 - When discussing Hong Kong's path to 1997, analyse the interests and perspectives of the British government, the Chinese government, and the Hong Kong population. Each party had distinct priorities that shaped the outcome.
+
+## Intuition
+
+Decolonisation was the process of empires dismantling themselves, sometimes voluntarily and sometimes under pressure. Imagine a landlord who built a house, rented it to tenants, and then had to decide whether to sell it, return it, or try to keep collecting rent while the tenants changed the locks. The timing, method, and consequences of decolonisation varied enormously across regions, shaped by the strength of independence movements, the economic interests of the coloniser, and the Cold War competition between superpowers.

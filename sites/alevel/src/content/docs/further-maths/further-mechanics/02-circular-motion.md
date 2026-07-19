@@ -1246,3 +1246,12 @@ $T = \dfrac{2\pi}{\omega} = \boxed{2\pi\sqrt{l/g}}$. $\blacksquare$
 
 </details>
 
+---
+
+## Cross-References
+
+- [Projectile Motion](/docs/alevel/further-maths/further-mechanics/projectile-motion) uses the same energy conservation and Newton's second law techniques applied to parabolic rather than circular trajectories.
+- [Centres of Mass and Elastic Collisions](/docs/alevel/further-maths/further-mechanics/centres-of-mass-and-elastic-collisions) extends particle dynamics to systems of particles, using momentum conservation alongside force analysis.
+- [Further Calculus](/docs/alevel/further-maths/pure-mathematics/further-calculus) provides the differentiation and integration methods required for angular velocity, angular acceleration, and energy derivations in circular motion.
+- [Vectors in 3D](/docs/alevel/further-maths/pure-mathematics/vectors-in-3d) supplies the vector notation and resolution techniques used to analyse forces in vertical and horizontal circles.
+

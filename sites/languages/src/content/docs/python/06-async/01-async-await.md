@@ -995,6 +995,10 @@ True parallelism at the cost of inter-process communication overhead. The practi
 Use `asyncio` as the default for I/O-bound work, `ProcessPoolExecutor` for CPU-bound bursts, and
 `asyncio.to_thread()` as a bridge between the two worlds.
 
+## Intuition
+
+Async programming is the art of doing other things while waiting. Imagine you are a waiter taking orders: instead of standing at one table until the food arrives, you take other orders while the kitchen cooks. An event loop is the head waiter who manages all the tables. Coroutines are the orders themselves, each pausing when they need to wait (for network data, file reads) and resuming when the data arrives. This is fundamentally different from threads, which are like hiring more waiters who all bump into each other in the hallway.
+
 ## Worked Examples
 
 **Example 1: Stack operations**

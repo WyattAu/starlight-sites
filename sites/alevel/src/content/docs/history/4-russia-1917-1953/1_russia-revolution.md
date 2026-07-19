@@ -318,6 +318,10 @@ society, the establishment of terror as a governing tool — vastly outweighs th
 military achievements. The USSR might have industrialised through less brutal means. Stalin's rule
 was a catastrophe for the Soviet people, even if it created a superpower.
 
+## Intuition
+
+Russia's twentieth-century journey resembles a house that collapsed and was rebuilt several times, each reconstruction using different blueprints but the same foundation. The Tsarist regime fell not because Lenin was strong but because the existing structure was rotten: war, hunger, and a ruler who could not adapt. Stalin's industrialisation was like forcing a horse to pull a cart at the speed of a train, breaking both horse and cart in the process. The purges created a climate where loyalty mattered more than competence, which nearly cost the USSR the war it ultimately won through sheer sacrifice and vast resources.
+
 ## Summary
 
 Russia's journey from Tsarism to Stalinism was shaped by the interaction of long-term structural

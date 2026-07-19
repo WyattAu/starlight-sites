@@ -817,3 +817,10 @@ linked above.
 
 
 </aside>
+---
+
+## Cross-References
+
+- [OWASP Top 10](/docs/security/04-web-security/owasp-top-10) lists the most critical web application security risks that this broader overview contextualises.
+- [Cryptography](/docs/security/02-cryptography/cryptography) provides the encryption and hashing mechanisms used to protect web communications and data.
+- [Network Security](/docs/security/05-network-security/network-security) covers the transport-layer protections (TLS, firewalls) that secure web traffic.

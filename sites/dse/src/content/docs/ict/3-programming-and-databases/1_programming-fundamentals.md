@@ -1058,6 +1058,10 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 > > > > > > > Stashed changes:docs/docs_dse/ICT/programming-fundamentals.md
 
+## Intuition
+
+Programming fundamentals are the grammar of a conversation with a computer. Variables are labeled boxes where you store information, loops are instructions to repeat a task (like stirring a pot until the soup thickens), and conditionals are decision points where the program forks based on what it finds. The key insight is that every complex program is built from these simple building blocks, the way every novel is built from sentences that follow basic grammar rules.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

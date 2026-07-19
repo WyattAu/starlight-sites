@@ -248,6 +248,10 @@ limitations for the specific enquiry.
 **Conclusion**: Summarise the source's value, acknowledging both its strengths and limitations. Make
 a clear judgement about how useful it is for the specific enquiry.
 
+## Intuition
+
+Historical thinking is like being a detective at a crime scene that happened centuries ago. You cannot interview witnesses, so you examine the fingerprints they left behind in documents, buildings, and artefacts. Every source is a witness with a motive, and your job is to figure out what they are hiding as much as what they are revealing. Historiography is the trail of previous detectives who investigated the same case, each influenced by the tools and assumptions of their own era. Strong historical argument is not about being right; it is about building a case so well-reasoned that your interpretation commands respect even from those who disagree.
+
 ## Summary
 
 Historical skills are the foundation of A-Level History. Source analysis requires systematic

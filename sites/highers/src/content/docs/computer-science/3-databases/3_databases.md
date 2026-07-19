@@ -736,3 +736,11 @@ reactions, underlying theories, and practical applications.
 
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
+
+---
+
+## Cross-References
+
+- [Software](/docs/highers/computer-science/2-software/2_software) covers the software engineering principles used to design and implement database systems.
+- [Hardware](/docs/highers/computer-science/1-hardware/1_hardware) explains the storage and processing architecture that determines database performance characteristics.
+- [Algorithms](/docs/highers/computer-science/4-algorithms/4_algorithms) provides the sorting, searching, and graph algorithms used in database query optimisation.

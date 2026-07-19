@@ -236,3 +236,10 @@ linked above.
 
 
 </aside>
+---
+
+## Cross-References
+
+- [Remote Operations](/docs/tools/git/04-remotes-and-workflows/01-remote-operations) provides the push and fetch mechanics that underpin pull request creation and merging.
+- [Workflows](/docs/tools/git/04-remotes-and-workflows/02-workflows) defines the team conventions within which pull requests operate as the review mechanism.
+- [Merging](/docs/tools/git/03-branching-and-merging/02-merging) covers the merge strategies used when integrating pull request branches.

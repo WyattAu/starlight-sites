@@ -179,6 +179,10 @@ sovereignty.
 - Neglecting to use specific evidence (dates, names, statistics) to support claims.
 - Confusing chronologically distant events or misattributing policies to wrong leaders.
 
+## Intuition
+
+History is not a collection of dates to memorize but a conversation between the past and the present. Every historical event is like a stone dropped in a pond, sending ripples forward through time that shape the world you live in now. Learning to read sources is like learning to read body language: what someone chooses to say is important, but what they avoid saying is often more revealing. The skill of a historian is not knowing everything that happened, but knowing which questions to ask about what happened and why the answers matter.
+
 ## Cross-References
 
 - [Biology](/dse/biology)

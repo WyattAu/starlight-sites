@@ -268,6 +268,10 @@ durability and pragmatic compromise made it a qualified success in maintaining r
 the pragmatic goal of moderate Protestant stability. Elizabeth's political skill in enforcing a
 middle way preserved national unity and established a religious framework that endured.
 
+## Intuition
+
+Tudor England was a poker game where the stakes were the throne itself. Henry VII won by being the tightest player at the table, never bluffing and always collecting debts. Henry VIII played like a man who changed the rules whenever he was losing, particularly when the Pope refused to deal him the annulment card he wanted. The Reformation was less a theological revolution than a property deal dressed in religious language: the Crown took the Church's land and called it reform. Elizabeth I was the master bluffer, keeping everyone guessing about her intentions on religion and marriage while maintaining control through patience and timing.
+
 ## Summary
 
 Tudor England was defined by dynastic insecurity, religious transformation, and the growth of royal

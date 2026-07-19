@@ -757,6 +757,10 @@ principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
+## Intuition
+
+Name mangling is the compiler's way of encoding extra information into function names so the linker can distinguish between functions that share the same base name but differ in namespaces or parameter types. Think of it as giving each function a full postal address rather than just a first name. When you declare two functions called `process` in different namespaces, mangling gives each a unique mangled name so the linker never confuses them, the way two people named John Smith need distinct addresses to receive different mail.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
