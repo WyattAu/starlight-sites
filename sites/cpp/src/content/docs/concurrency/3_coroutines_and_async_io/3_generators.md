@@ -526,3 +526,12 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Generators are like vending machines that dispense items one at a time. Instead of computing all possible values upfront (which might be infinite), a generator computes values on demand. When you ask for the next value, it runs until it produces one, then pauses. This is like a recipe that says "when you need the next cookie, bake it" instead of baking all cookies at once. The key insight is that generators enable lazy evaluation - you only compute what you need, which is crucial for infinite sequences or large datasets. Python's `yield` and C++'s `co_yield` both implement this pattern, though C++ adds more control over suspension behavior.
+
+## Cross-References
+
+- [Stackless Coroutine Frames](/cpp/concurrency/3_coroutines_and_async_io/1_coroutine_frames) - How coroutine frames enable generator implementation
+- [Promise, Awaiter](/cpp/concurrency/3_coroutines_and_async_io/2_promise_awaiter) - How promise types control generator behavior
+

@@ -470,6 +470,12 @@ numactl --cpunodebind=0 --membind=0 ./my_app
 
 ---
 
+## Intuition
+
+Memory tuning is like organizing a workshop. If your tools (frequently accessed data) are close at hand (in cache), you work faster. If you have to walk to the garage (RAM) or the warehouse (disk), you waste time. Memory tuning ensures your most-used tools are always within reach.
+
+RAM timings are like the speed of a librarian. Lower latency means the librarian finds your book faster. Higher frequency means the librarian can process more requests per second. The best performance comes from a librarian who is both fast and handles many requests.
+
 ## Common Pitfalls
 
 ### Mixing RAM Kits

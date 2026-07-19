@@ -715,6 +715,12 @@ myReverse = go []
 7. **Consider `-Wincomplete-patterns`**: GHC flag that turns incomplete pattern warnings into
    errors.
 
+## Intuition
+
+Pattern matching in Haskell is like sorting mail into pigeonholes. Each pattern is a pigeonhole with a specific shape, and each value is a piece of mail. The compiler tries to fit the mail into each hole in order, and the first hole that fits determines where the mail goes. This is how Haskell chooses which function clause to execute.
+
+Guards are like bouncers at a club. Even if the shape of the value matches the pattern, the guard checks additional conditions before letting it in. A function clause with a guard is like a VIP section: the door shape matches, but you also need to meet the dress code.
+
 ## Worked Examples
 
 ### Example 1: Expression Evaluator with Pattern Matching

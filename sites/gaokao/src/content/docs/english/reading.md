@@ -394,6 +394,12 @@ D. confusion
 
 **考试技巧：** 词义猜测题要利用上下文线索，特别是同义词、反义词或解释性短语。
 
+## Intuition
+
+English reading comprehension on the Gaokao is like solving a puzzle. Each question asks you to find a specific piece of information in the text, and the challenge is locating it quickly among many sentences. Skimming is like scanning the puzzle box for the right color; scanning is like looking for the specific shape of the piece you need.
+
+Vocabulary in context is like deciphering a code. The word itself may have multiple meanings, but the surrounding sentences act as clues that narrow down which meaning fits. Think of it as a crossword puzzle: the intersecting words tell you which definition is correct.
+
 ## Cross-References
 
 - [English Writing](/gaokao/english/writing) - Writing skills that reinforce reading comprehension through active vocabulary use

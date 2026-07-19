@@ -582,3 +582,12 @@ Manual `stop_token` integration as shown above is the recommended approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Futures and promises are like a restaurant order ticket system. When you place an order (call `std::async`), you get a ticket (future) that you can check later. The kitchen (worker thread) prepares your meal and writes the result on the ticket (promise). You can either wait at the counter (`get()`) or come back later (`wait_for()`). The key insight is that futures provide a simple way to do async I/O without coroutines, but they lack composability - you cannot easily chain multiple async operations. Coroutines solve this by letting you write sequential-looking code that the compiler transforms into async chains. The `stop_token` mechanism is like a cancellation request that propagates through the entire order chain.
+
+## Cross-References
+
+- [Task Scheduling](/cpp/concurrency/3_coroutines_and_async_io/4_task_scheduling) - How executors schedule coroutine-based tasks
+- [Promise, Awaiter](/cpp/concurrency/3_coroutines_and_async_io/2_promise_awaiter) - How coroutine promise types differ from std::promise
+

@@ -834,6 +834,12 @@ Integer("abc")     # => ArgumentError
 "key=value".split("=")          # => ["key", "value"]
 ```
 
+## Intuition
+
+Ruby variables are like name tags. When you write x = 5, you are putting a name tag that says x on the number 5. You can take that name tag off and put it on something else (reassignment), but the number 5 does not change. It just does not have a name tag anymore.
+
+Symbols in Ruby are like permanent labels. Unlike strings, which can be modified and duplicated, symbols are unique and immutable. Using a symbol as a hash key is like using a metal nameplate instead of a sticky note: it does not wear out, it does not get confused with other labels, and it takes less memory.
+
 ## Summary Table of Core Types
 
 | Type     | Example        | Mutable | Notes                                  |

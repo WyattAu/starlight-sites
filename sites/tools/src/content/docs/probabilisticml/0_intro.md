@@ -188,3 +188,12 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Probabilistic machine learning is like being a detective who deals in probabilities instead of certainties. Instead of saying "the suspect is guilty," you say "there is an 80% chance the suspect is guilty." Traditional ML gives you a single answer; probabilistic ML gives you a distribution of possible answers with confidence levels. This matters because in the real world, uncertainty is everywhere - medical diagnoses, self-driving cars, financial predictions. The key insight is that knowing how uncertain you are is often more valuable than the prediction itself. A model that says "I am 99% sure this is benign" is very different from one that says "I am 51% sure this is benign" - even though both predict the same thing.
+
+## Cross-References
+
+- [Supervised Learning](/tools/probabilisticml/1_fundamentals/1_supervised_learning) - The foundation of predictive modeling that probabilistic methods extend
+- [Definitions](/tools/probabilisticml/1_fundamentals/2_definitions) - Mathematical foundations for probability and statistics

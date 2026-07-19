@@ -258,6 +258,12 @@ Is handled entirely by the OS and firmware. You cannot undervolt or overclock Ap
 - **WHEA Errors** — Windows Hardware Error Architecture errors. Logged when the CPU detects and
   corrects internal errors. Even corrected errors indicate instability and should not be ignored.
 
+## Intuition
+
+PC tuning is like tuning a musical instrument. Each component must work in harmony with the others. If the CPU is overclocked too aggressively while the cooling is inadequate, the system is like a violin with strings too tight: it might sound louder, but it will eventually break. Finding the right balance between performance and stability is the art of tuning.
+
+Benchmarking is like taking a fitness test. Before you start training, you need to know your baseline. Running a benchmark before and after a change tells you whether the change helped or hurt. Without measurement, you are guessing; with measurement, you are informed.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

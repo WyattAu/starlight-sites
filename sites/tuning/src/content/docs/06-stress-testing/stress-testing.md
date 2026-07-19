@@ -506,6 +506,12 @@ If any single criterion fails, the system is not stable. There are no partial pa
 
 ---
 
+## Intuition
+
+Stress testing is like a fire drill. You intentionally push the system to its limits to find out what breaks before a real emergency reveals it. A system that passes stress testing is like a building that passes fire inspection: you hope you never need the safety margin, but you are glad it is there.
+
+Monitoring temperatures during stress testing is like watching vital signs during a medical stress test. If the heart rate (temperature) climbs too high, the test is stopped. Similarly, if CPU or GPU temperatures exceed safe limits, the stress test is halted to prevent damage.
+
 ## Common Pitfalls
 
 ### Testing Only Under Load

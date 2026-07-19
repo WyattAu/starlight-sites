@@ -20,6 +20,26 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 Ruby is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked examples, practice problems, and flashcards.
 
+## Intuition
+
+Ruby is like a well-organized workshop. Everything has a place, everything is within reach, and the tools are designed to feel natural in your hand. The language was built for developer happiness, which means the syntax is readable, the conventions are consistent, and the community values elegance over cleverness.
+
+These notes take you from the basic tools (variables, control flow) to the advanced machinery (metaprogramming, concurrency). Each section builds on the previous, like learning to use hand tools before power tools. Master the basics first, and the advanced topics become natural extensions of what you already know.
+
+## Common Mistakes
+
+### Mistake 1: Confusing `=` (assignment) with `==` (equality comparison)
+
+In Ruby, `=` is the assignment operator and `==` is the equality comparison operator. Students coming from mathematics often write `if x = 5` when they mean `if x == 5`. The single `=` will assign 5 to `x` and evaluate to 5 (truthy), so the condition always succeeds. Use `==` for comparison and `=` for assignment. Ruby will warn about this with `-w` flag.
+
+### Mistake 2: Not using blocks and procs for iteration
+
+Ruby provides blocks, procs, and lambdas as first-class objects for iteration and callbacks. Students often write explicit `for` loops instead of using `each`, `map`, `select`, and `reduce`. For example, `for i in 0..10; puts i; end` should be `(0..10).each { |i| puts i }`. Blocks are more idiomatic, more readable, and integrate with Ruby's iterator pattern.
+
+### Mistake 3: Forgetting that `self` is the current object reference
+
+In Ruby, `self` refers to the current object -- the object that is receiving the method call. Students often forget to use `self` when calling setter methods inside constructors or when defining class-level accessors. For example, in `initialize(name)`, writing `name = name` assigns the parameter to a local variable, not the instance variable. You need `self.name = name` or `@name = name`.
+
 ## Topics
 
 <CardGrid>
@@ -64,3 +84,9 @@ Ruby is a programming language with a rich type system and ecosystem. These note
     </Card>
   </a>
 </CardGrid>
+
+## Cross-References
+
+- [Ruby Introduction](/ruby/00-intro/1_ruby-intro) - Language overview and design philosophy
+- [Methods and Blocks](/ruby/03-methods-blocks/1_methods-and-blocks) - Block syntax, procs, and closures
+- [OOP](/ruby/04-oop/1_oop) - Classes, modules, and inheritance patterns

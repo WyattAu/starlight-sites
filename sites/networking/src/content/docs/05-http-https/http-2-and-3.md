@@ -916,6 +916,10 @@ linked above.
 
 
 </aside>
+## Intuition
+
+HTTP/2 is like upgrading from a single-lane road to a multi-lane highway. HTTP/1.1 forces all requests to wait in line (head-of-line blocking), while HTTP/2 lets multiple requests travel simultaneously in separate lanes (streams) on the same connection. Header compression is like using abbreviations for frequently used phrases - instead of repeating the full address every time, you use a short code. HTTP/3 goes further by replacing the road entirely - QUIC runs over UDP, eliminating TCP's requirement that all packets arrive in order. This is like switching from a convoy system (where a slow truck blocks everyone) to independent delivery drones that can take different paths. The key insight is that these versions improve transport mechanics without changing HTTP semantics.
+
 ## Cross-References
 
 - [HTTP](/networking/05-http-https/http) - HTTP/1.1 fundamentals that HTTP/2 and HTTP/3 build upon

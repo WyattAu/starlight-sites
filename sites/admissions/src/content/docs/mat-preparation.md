@@ -526,6 +526,12 @@ Therefore the only solutions are $f(x) = x$ and $f(x) = 0$.
 
 ---
 
+## Intuition
+
+The MAT is like a conversation with a friend who happens to be a mathematician. You do not simply recite facts; you must explain your reasoning, anticipate objections, and adjust your approach when something does not work. The multiple choice format traps those who rely on pattern recognition rather than genuine understanding, much like a quiz show rewards depth of knowledge over surface-level recall.
+
+Multiple choice questions on the MAT are like locked doors. You can try to pick the lock through brute-force calculation, or you can look for the key hidden in the structure of the options. Eliminating wrong answers is like narrowing down suspects in a mystery: each eliminated option brings you closer to the truth, and sometimes the remaining answer reveals itself without further effort.
+
 ## 8. Common Pitfalls
 
 **Not reading the question carefully.** MAT questions often have specific conditions or constraints

@@ -303,6 +303,12 @@ $$\vec{PA} \cdot \vec{PB} = x_0^2 - 4 + 3 - \frac{3x_0^2}{4} = \frac{x_0^2}{4} -
 
 **考试技巧：** 线面角公式：$\sin\theta = \dfrac{|\vec{v} \cdot \vec{n}|}{|\vec{v}||\vec{n}|}$，其中 $\vec{v}$ 是直线方向向量，$\vec{n}$ 是平面法向量。
 
+## Intuition
+
+Geometry is like architecture. You start with basic shapes (points, lines, circles) and combine them according to rules (theorems) to build complex structures (proofs). Each theorem is like a building code that ensures your structure is sound.
+
+Coordinate geometry is like GPS navigation. The coordinate plane is your map, and points are locations with addresses. Finding the distance between two points is like calculating the driving distance between two cities. Understanding the map lets you navigate without a physical compass or ruler.
+
 ## Cross-References
 
 - [Functions](/gaokao/mathematics/functions) - How coordinate geometry uses function concepts for curve analysis

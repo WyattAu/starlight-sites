@@ -312,6 +312,12 @@ $$\eta = \frac{P_{\text{出}}}{P_{\text{总}}} = \frac{1075}{1100} \approx 97.7\
 
 **考试技巧：** 电源输出功率最大的条件是外电阻等于内阻，即 $R = r$。此时效率为 $50\%$。
 
+## Intuition
+
+Electricity is like water flowing through pipes. Voltage is the water pressure: higher pressure pushes more water through. Current is the flow rate: how much water passes a point per second. Resistance is the pipe diameter: narrower pipes restrict flow. Ohm's law (V = IR) is like the rule that says flow rate equals pressure divided by restriction.
+
+Circuits are like road networks. Series circuits are single-lane roads where traffic must flow through every checkpoint. Parallel circuits are multiple lanes that split the traffic. Understanding the layout helps you predict where bottlenecks occur and how to reroute when something blocks the road.
+
 ## Common Mistakes
 
 **Confusing series and parallel resistance formulas.** For series resistors, R_total = R1 + R2. For parallel resistors, 1/R_total = 1/R1 + 1/R2, not R1 * R2 / (R1 + R2) applied directly. Students often apply the wrong formula or forget that parallel resistance is always less than the smallest individual resistance.
@@ -319,3 +325,9 @@ $$\eta = \frac{P_{\text{出}}}{P_{\text{总}}} = \frac{1075}{1100} \approx 97.7\
 **Forgetting that capacitors act as open circuits in DC steady state.** In DC circuits, after the capacitor is fully charged, no current flows through the capacitor branch. Students sometimes include capacitor branches in current calculations, leading to incorrect circuit analysis. The capacitor voltage equals the voltage across the parallel branch.
 
 **Misapplying the power formula for non-ohmic devices.** For devices like motors and bulbs, P = UI is the total power, but P = I^2 R gives only the heat dissipation. Students often use P = U^2 / R for motors, which gives incorrect results because the back-EMF reduces the effective voltage across the resistance.
+
+## Cross-References
+
+- [Mechanics](/gaokao/physics/mechanics) - Force and energy principles that govern electromagnetic systems through work-energy relationships
+- [Optics](/gaokao/physics/optics) - Wave properties of electromagnetic radiation connecting to electric field theory
+- [Algebra](/gaokao/mathematics/algebra) - Mathematical techniques for solving circuit equations and calculating equivalent resistance

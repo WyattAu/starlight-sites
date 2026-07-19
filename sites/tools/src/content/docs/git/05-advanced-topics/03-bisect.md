@@ -220,5 +220,11 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
 
-</aside>
+Bisect is like playing "20 Questions" with your commit history. You start with a range of commits and ask "Is the bug here?" If yes, you eliminate the second half; if no, you eliminate the first half. Each question cuts the search space in half, so you find the culprit in logarithmic time. It is like finding a specific page in a book by repeatedly asking "Is it in the first half?" instead of reading every page. The key insight is that bisect leverages the fact that commits are ordered - if a bug is introduced at commit X, it must be present in all commits after X. This monotonic property makes binary search applicable.
+
+## Cross-References
+
+- [Reflog](/tools/git/05-advanced-topics/01-reflog) - How to recover if bisect leads to unexpected results
+- [Submodules](/tools/git/05-advanced-topics/04-submodules) - Managing external dependencies that complicate bisect

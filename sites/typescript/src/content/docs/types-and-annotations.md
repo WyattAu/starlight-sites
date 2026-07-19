@@ -752,6 +752,12 @@ function handleResponse(response: ApiResponse): string {
 }
 ```
 
+## Intuition
+
+Type annotations in TypeScript are like labels on jars in a pantry. Without labels, you must open every jar to find the flour. With labels, you know exactly what is inside without looking. Type annotations tell both the compiler and other developers what kind of data a variable holds.
+
+Union types are like a Swiss Army knife. A variable typed as string | number can be either a string or a number, like a tool that can be a knife or a screwdriver depending on what you need. The type system keeps track of which blade is out so you do not try to use the knife as a screwdriver.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Using `any` as a Escape Hatch

@@ -323,6 +323,12 @@ $$-8a_1 = 100d \implies d = -\frac{2a_1}{25}$$
 
 **考试技巧：** "$\forall$"型命题转化为最值问题，"$\exists$"型命题转化为判别式问题。注意逻辑联结词"且"对应交集，"或"对应并集。
 
+## Intuition
+
+Algebra is like a balance scale. Whatever you do to one side, you must do to the other to keep it balanced. This is the fundamental principle behind solving equations: you are trying to isolate the variable on one side while keeping the scale balanced. Each operation you perform is like adding or removing weights from both sides.
+
+Functions are like machines in a factory. You put raw materials in (input), the machine processes them according to a specific recipe (the function rule), and成品 comes out (output). Understanding the machine's recipe lets you predict what will come out for any input, and working backward from the output tells you what input was needed.
+
 ## Cross-References
 
 - [Functions](/gaokao/mathematics/functions) - How algebraic manipulation underpins function analysis and equation solving

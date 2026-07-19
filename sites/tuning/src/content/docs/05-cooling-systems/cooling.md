@@ -411,6 +411,12 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
 
 ---
 
+## Intuition
+
+Cooling is like climate control in a greenhouse. Too hot and the plants wilt (thermal throttling). Too cold and they stop growing (wasted energy). The goal is to maintain the optimal temperature where the plants thrive (the CPU runs at peak performance).
+
+Airflow is like the ventilation system. Hot air must be removed and replaced with cool air. Positive pressure (more air coming in than going out) prevents dust from entering through gaps. The direction of airflow matters: front-to-back is like a breeze that carries heat away from the components.
+
 ## Common Pitfalls
 
 ### Mounting the AIO Radiator as Intake

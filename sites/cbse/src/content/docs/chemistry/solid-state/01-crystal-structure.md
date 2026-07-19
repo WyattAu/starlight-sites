@@ -157,6 +157,20 @@ Step 2: Match with crystal systems:
 
 Crystal structure is nature's way of packing atoms as efficiently as possible. Imagine stacking oranges at a grocery store -- there are only a few ways to arrange them so they do not fall. Simple cubic is like stacking layers directly on top of each other (wasteful, lots of gaps). Body-centered cubic puts one atom in the center of a cube of eight corner atoms. Face-centered cubic fills the gaps by placing atoms on each face, achieving the densest packing at 74%. The voids between atoms are like empty pockets where smaller atoms can sit, and the radius ratio tells you which voids a smaller atom can fit into.
 
+## Common Mistakes
+
+### Mistake 1: Using the wrong radius-edge relation for the crystal type
+
+Each unit cell type has a specific relation between atomic radius $r$ and edge length $a$. Students frequently mix these up: SC uses $a = 2r$, BCC uses $a = 4r/\sqrt{3}$, and FCC uses $a = 4r/\sqrt{2}$. The key is knowing where atoms touch: along the edge (SC), along the body diagonal (BCC), or along the face diagonal (FCC). Using the wrong relation gives incorrect packing efficiency and density.
+
+### Mistake 2: Confusing the number of atoms per unit cell with the coordination number
+
+The number of atoms per unit cell ($Z$) counts how many atoms belong to one unit cell after accounting for sharing at corners, edges, and faces. The coordination number counts how many nearest neighbours each atom has (6 for SC, 8 for BCC, 12 for FCC). Students often report $Z$ when the question asks for the coordination number, or vice versa. Read the question carefully to determine which value is needed.
+
+### Mistake 3: Forgetting to convert units in density calculations
+
+The density formula $\rho = ZM / (N_A a^3)$ requires consistent units. If the edge length $a$ is given in angstroms (Å), convert to centimetres ($1\,\text{Å} = 10^{-8}\,\text{cm}$) before cubing. Similarly, ensure the molar mass $M$ is in g/mol and Avogadro's number $N_A = 6.022 \times 10^{23}\,\text{mol}^{-1}$. A common error is cubing $a$ in angstroms and then mixing it with cgs units, yielding a density that is off by orders of magnitude.
+
 ## Cross-References
 
 - [Solutions](/docs/cbse/chemistry/solutions) -- how solutes interact with crystal lattices

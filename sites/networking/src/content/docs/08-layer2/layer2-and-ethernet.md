@@ -1041,6 +1041,10 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Layer 2 is the neighbourhood delivery service of networking. MAC addresses are like house numbers on a street - they only matter within the local area. When you send a letter to someone in another city, the postal service (router) handles the long-distance routing, but within your neighbourhood, the delivery person needs exact house addresses. Switches are like intelligent mailboxes that learn which house is at which address by watching who picks up mail. VLANs are like apartment buildings - even though everyone shares the same physical infrastructure, they are logically separated into different communities. The FCS is like a wax seal that lets you detect if someone tampered with your letter during delivery.
+
 ## Cross-References
 
 - [Wireless Networking](/networking/09-wireless/wireless-networking) - How 802.11 extends Ethernet concepts to wireless media

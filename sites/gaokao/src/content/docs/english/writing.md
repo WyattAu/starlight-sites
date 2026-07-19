@@ -388,6 +388,26 @@ Li Hua
 
 **考试技巧：** 续写中的情感描写要自然真实，通过动作、语言、心理活动等多种方式展现人物情感变化。
 
+## Intuition
+
+English writing on the Gaokao is like following a recipe. The format is the recipe card: it tells you what ingredients (paragraphs) to include and in what order. The introduction appetizer, the body main courses, and the conclusion dessert. Following the recipe ensures you do not forget any essential components.
+
+Coherence is like the thread that stitches a quilt. Each sentence connects to the next with transition words and logical flow. Without the thread, the quilt falls apart. Learning to use transition words like however, therefore, and moreover is like learning the stitches that hold your writing together.
+
+## Common Mistakes
+
+### Mistake 1: Using informal language in application and formal letters
+
+Gaokao English letters require formal register, but students often use contractions (I'm, can't), slang, or casual phrasing. Formal letters should use "I am writing to..." not "I'm writing to...", and "Yours sincerely" not "Best wishes." The tone must match the relationship: use "Dear Sir/Madam" for unknown recipients and "Dear [Name]" when you know the person.
+
+### Mistake 2: Failing to use underlined keywords in读后续写
+
+The读后续写 task requires using at least 5 underlined keywords from the original passage. Students often write cohesive continuations that omit these keywords, losing marks. Before writing, list all underlined words and plan where each will appear naturally in your continuation. The keywords should fit the context, not be forced in awkwardly.
+
+### Mistake 3: Writing a conclusion that introduces new arguments
+
+In persuasive and argumentative essays, the conclusion should synthesise existing points, not introduce new evidence or arguments. Students sometimes add a new example or a fresh line of reasoning in the final paragraph, which weakens the essay's structure. The conclusion should restate the thesis, summarise the key arguments, and end with a broader statement or call to action.
+
 ## Cross-References
 
 - [English Reading](/gaokao/english/reading) - Reading comprehension strategies that inform effective writing structure

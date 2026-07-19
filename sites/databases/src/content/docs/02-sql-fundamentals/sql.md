@@ -817,6 +817,12 @@ WHERE commission_rate IS DISTINCT FROM 0;
 Division-by-zero errors: `ratio = a / NULLIF(b, 0)` returns NULL instead of raising an error when
 `b` is zero.
 
+## Intuition
+
+SQL is like a conversation with your database. You ask questions (SELECT), you give instructions (INSERT, UPDATE, DELETE), and you make requests (CREATE, ALTER). The grammar of SQL is the structure of this conversation: each sentence must follow the rules, or the database will not understand you.
+
+Joins are like matching puzzle pieces. An inner join finds only the pieces that fit together. A left join keeps all the pieces from the left side and matches what it can from the right. Understanding joins is understanding how your tables relate to each other, like understanding how departments relate to employees in an organization.
+
 ## Common Pitfalls
 
 ### Off-by-One Errors with BETWEEN
@@ -883,5 +889,10 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Normalization](/databases/01-relational-theory/normalization) - How normal forms shape table design and influence SQL query structure
+- [Indexing](/databases/03-indexing-optimization/indexing) - How indexes improve the performance of SQL queries on large datasets
+- [Relational Theory](/databases/01-relational-theory/relational-theory) - The formal foundations underlying SQL's set-based operations
 
 </aside>

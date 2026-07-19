@@ -164,3 +164,17 @@ $$R = 10[1 + 0.2424] = 10 \times 1.2424 = 12.424\,\Omega$$
 3. The terminal voltage of a battery is less than its EMF when current flows: $V = E - Ir$
 4. Power dissipated in a resistor is always positive: $P = I^2R > 0$
 5. For maximum power transfer, the load resistance should equal the internal resistance of the source
+
+## Common Mistakes
+
+### Mistake 1: Assuming voltage is constant in series circuits
+
+In a series circuit, the current through each component is the same, but the voltage divides across components proportionally to their resistance ($V = IR$). Students often assume the battery voltage appears across every resistor, which is only true in parallel circuits. Always apply $V_{total} = V_1 + V_2 + \ldots$ for series circuits and use Ohm's law to find the voltage across each resistor.
+
+### Mistake 2: Forgetting that parallel resistors always produce a smaller equivalent resistance
+
+When combining resistors in parallel, the equivalent resistance is always less than the smallest individual resistance. Students sometimes add parallel resistors directly ($R_1 + R_2$) instead of using $1/R_{eq} = 1/R_1 + 1/R_2$. A quick sanity check: if two equal resistors $R$ are in parallel, the equivalent is $R/2$, not $2R$.
+
+### Mistake 3: Confusing the Wheatstone bridge ratio arrangement
+
+In a balanced Wheatstone bridge, the ratio is $\frac{R_1}{R_2} = \frac{R_3}{R_4}$ where $R_1$ and $R_2$ are in one branch and $R_3$ and $R_4$ are in the other. Students frequently write the ratio as $\frac{R_1}{R_3} = \frac{R_2}{R_4}$ or mix up which resistors are paired. The correct pairing is determined by the bridge geometry: opposite arms form the ratio.

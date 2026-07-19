@@ -855,5 +855,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+DNS architecture is like a hierarchical phone directory system. The root server is like the national telephone directory, TLD servers are like city directories, and authoritative servers are like individual phone books. DNSSEC is like having a tamper-proof seal on each page - you can verify the information has not been altered. Anycast is like having the same phone number ring the nearest office - if one office closes, calls automatically route to the next closest. Zone transfers are like synchronizing copies of the phone book between branches. The key insight is that DNS is distributed by design - no single point of failure, and each level of the hierarchy delegates responsibility to the next.
+
+## Cross-References
+
+- [DNS](/networking/04-dns/dns) - Foundational DNS concepts including record types, resolution process, and domain hierarchy
+- [TCP and UDP](/networking/03-tcp-udp/tcp-and-udp) - Transport protocols that carry DNS queries between resolvers and authoritative servers
+- [HTTP](/networking/05-http-https/http) - Application protocol that relies on DNS for hostname resolution before establishing connections
 
 </aside>

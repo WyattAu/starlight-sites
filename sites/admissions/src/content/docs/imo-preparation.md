@@ -601,6 +601,12 @@ $PBC$, $PCA$, $PAB$ partition $\triangle ABC$ without overlap.
 
 ---
 
+## Intuition
+
+IMO preparation is like learning to climb mountains. At first, you focus on individual techniques such as footholds and grip positions. Over time, you develop the ability to read the rock face and choose the most efficient route before your hands touch the stone. The transition from solving known problem types to tackling genuinely novel challenges mirrors a climber moving from indoor walls to unpredictable outdoor terrain.
+
+The probabilistic method is like finding a needle in a haystack by shaking the entire haystack rather than searching piece by piece. Instead of constructing an object directly, you prove it must exist because the random choice works on average. This counterintuitive approach saves enormous effort when direct construction seems impossible.
+
 ## 7. Common Pitfalls
 
 **Insufficient rigour in number theory.** Modular arithmetic arguments must specify the modulus at

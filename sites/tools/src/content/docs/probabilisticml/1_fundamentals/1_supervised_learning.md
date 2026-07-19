@@ -201,3 +201,12 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Supervised learning is like learning with a teacher. The teacher shows you examples (training data) and tells you the correct answers (labels). You study these examples and learn patterns - like learning to recognize cats by seeing many cat photos labeled "cat." Classification is like sorting mail into categories (spam or not spam), while regression is like predicting house prices based on features (size, location, age). The loss function is like a scorecard that tells you how wrong your predictions are - your goal is to minimize this score. Overfitting is like memorizing the answers instead of understanding the concepts - you ace the practice test but fail the real exam. Regularization is like a coach who penalizes overly complex strategies, pushing you toward simpler, more general solutions.
+
+## Cross-References
+
+- [Definitions](/tools/probabilisticml/1_fundamentals/2_definitions) - Formal mathematical definitions for the concepts used in supervised learning
+- [Probabilistic ML Introduction](/tools/probabilisticml/0_intro) - Overview of probabilistic approaches to machine learning

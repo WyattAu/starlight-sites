@@ -590,6 +590,12 @@ COMMIT;
 | Deadlocks                    | Possible                   | Not possible                         |
 | Best for                     | Write-heavy, hot rows      | Read-heavy, cold rows                |
 
+## Intuition
+
+Transactions are like signing a contract with a friend. Both of you agree that the deal is binding only if all conditions are met. If one party walks away before the ink is dry, the entire agreement is void. Atomicity guarantees this all-or-nothing property. Durability means that once both signatures are on the paper, the agreement survives even if the building burns down.
+
+MVCC is like a time machine for your database. Each transaction sees the world as it existed at a specific moment in time, regardless of what other transactions are doing simultaneously. This means readers never block writers and writers never block readers, because they are each looking at their own snapshot. The trade-off is that old versions of data linger until cleanup, much like archaeological layers of sediment that must be managed.
+
 ## Common Pitfalls
 
 ### Long-Running Transactions

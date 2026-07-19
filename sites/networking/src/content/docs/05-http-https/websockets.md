@@ -824,6 +824,10 @@ linked above.
 
 
 </aside>
+## Intuition
+
+WebSockets are like a phone call versus sending letters. HTTP is like sending letters back and forth - each message requires a new request and response. WebSockets are like picking up the phone - once connected, either party can speak at any time without waiting for the other to finish. The upgrade handshake is like calling someone and asking "Can we switch from letters to a phone call?" The server agrees, and from then on, the connection stays open for instant two-way communication. This is essential for real-time applications like chat, gaming, and live feeds where you need immediate updates without the overhead of establishing a new connection for each message.
+
 ## Cross-References
 
 - [HTTP](/networking/05-http-https/http) - How the WebSocket handshake upgrades from an HTTP connection

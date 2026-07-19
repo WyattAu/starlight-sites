@@ -947,3 +947,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Software licensing is like choosing how to share a recipe. Permissive licenses are like posting your recipe online with a note "use this however you want, just mention my name." Copyleft licenses are like saying "you can use my recipe, but any new dishes you create from it must be shared with the same rules." AGPL is like "even if you serve the dish in a restaurant (SaaS), you must share the recipe." The key insight is that licenses create a social contract - they define what kind of community forms around your software. MIT creates a free-for-all; GPL creates a sharing community; AGPL creates a sharing community that includes service providers.
+
+## Cross-References
+
+- [Introduction to Licensing](/tools/licensing/intro) - Conceptual foundations and the licensing spectrum

@@ -160,3 +160,17 @@ Writing is a transferable skill essential for academic success, professional com
 "The author employs pathetic fallacy to mirror the protagonist's internal turmoil through the depiction of a relentless storm. The description of 'rain lashing against windows like accusations' and 'thunder that shook the foundations' creates an atmosphere of chaos and hostility. This external turbulence parallels the character's emotional distress, suggesting that his inner world is as fractured as the landscape around him. By conflating setting and psychology, the author establishes from the outset that the protagonist's journey will be one of confronting both external and internal storms. The pathetic fallacy thus functions not merely as atmosphere but as a narrative device that deepens the reader's understanding of the character's psychological state."
 
 **Answer:** The response identifies the technique (pathetic fallay), provides textual evidence, explains the effect, and links to the broader narrative purpose.
+
+## Common Mistakes
+
+### Mistake 1: Telling emotions instead of showing them through action
+
+In creative writing, "She was sad" is weak compared to "She stared at the empty chair, her coffee growing cold." The HSC marking criteria reward "showing" over "telling." Instead of stating emotions directly, convey them through physical actions, dialogue, sensory details, and environmental cues. This creates vivid, immersive writing that demonstrates technical skill.
+
+### Mistake 2: Using vague language instead of specific concrete details
+
+Phrases like "nice weather" or "a big building" are vague and unpersuasive. Effective writing uses precise, concrete details: "a sun-bleached Queenslander with peeling paint" or "the sharp December heat pressing against the classroom windows." Specificity makes writing vivid and demonstrates vocabulary control, both of which are assessed in the HSC.
+
+### Mistake 3: Neglecting to link technique to theme in analytical writing
+
+In analytical paragraphs, students often describe what happens in the text without explaining why it matters thematically. Every piece of evidence should connect back to your thesis. For example, don't just say "the author uses short sentences." Instead: "The author's use of short, clipped sentences mirrors the character's fractured mental state, reinforcing the theme of psychological disintegration." Always close the loop between technique and meaning.

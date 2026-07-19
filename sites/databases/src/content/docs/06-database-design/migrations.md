@@ -556,6 +556,12 @@ UPDATE orders SET status = 'archived' WHERE created_at &lt; '2023-01-01';
 A migration that blocks on a lock can wait indefinitely. Always set `lock_timeout` and
 `statement_timeout` before running production migrations.
 
+## Intuition
+
+Schema migrations are like renovating a house while people are living in it. You cannot simply tear down all the walls and rebuild overnight. Instead, you add the new wall next to the old one, move the furniture over, and then remove the old wall once everyone is settled. This expand-contract pattern is the key to zero-downtime deployments: add, migrate, then remove.
+
+Testing migrations against production data is like rehearsing a surgical procedure before operating on a real patient. You need to know exactly how long the procedure will take, whether the instruments are ready, and what to do if something goes wrong. A migration that works perfectly on a development laptop with a hundred rows may take hours on a production table with a hundred million rows. The only way to be sure is to measure on real data.
+
 ## Common Pitfalls
 
 ### Forgetting That Concurrent Index Creation Can Fail

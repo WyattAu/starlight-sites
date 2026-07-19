@@ -20,6 +20,26 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 Haskell is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked examples, practice problems, and flashcards.
 
+## Intuition
+
+Haskell is like a mathematical proof: once you write it, you know it is correct. The type system acts as a proof checker, catching logical errors before the program runs. This makes Haskell programs reliable but requires you to think carefully about types from the start.
+
+These notes are structured like a math textbook: each concept builds on the previous one. Understanding types leads to understanding functions, which leads to understanding type classes, which leads to understanding monads. Each layer adds power, but each layer also requires the foundation beneath it to be solid.
+
+## Common Mistakes
+
+### Mistake 1: Confusing `==` with `Eq` type class membership
+
+In Haskell, `==` is a method of the `Eq` type class and only works on types that implement `Eq`. Students sometimes try to use `==` on functions or other non-`Eq` types and get a compile error. Additionally, `==` compares structural equality, not reference equality. Two different lists with the same elements are equal: `[1,2,3] == [1,2,3]` is `True`.
+
+### Mistake 2: Not handling all cases in pattern matching
+
+Haskell requires exhaustive pattern matching. If you write a function that only matches some constructors of a type, the compiler will warn about non-exhaustive patterns, and the program will crash at runtime on unmatched inputs. Always either cover all cases or include a wildcard `_` catch-all. For example, `head []` crashes because `head` only matches non-empty lists.
+
+### Mistake 3: Forgetting that Haskell is lazily evaluated
+
+Haskell evaluates expressions only when their values are needed (lazy evaluation). Students from strict languages sometimes expect expressions to be evaluated immediately. This means infinite lists are valid (`[1..]`), and `take 5 [1..]` works fine. However, it also means space leaks can occur when thunks accumulate. Use `seq` or strict data types (`Data.Vector`, `Data.ByteString`) when performance matters.
+
 ## Topics
 
 <CardGrid>
@@ -64,3 +84,9 @@ Haskell is a programming language with a rich type system and ecosystem. These n
     </Card>
   </a>
 </CardGrid>
+
+## Cross-References
+
+- [Haskell Introduction](/haskell/00-intro/1_haskell-intro) - Language overview and functional programming foundations
+- [Types and Functions](/haskell/01-basics/1_types-and-functions) - Type system basics and pure function definitions
+- [Monads and Functors](/haskell/04-monads/1_monads-and-functors) - Applicative functors and monadic computation patterns

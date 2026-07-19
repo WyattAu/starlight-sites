@@ -175,3 +175,17 @@ For Case 2 ($x^2 > 1$), we need to check separately. Testing $x = -8$ in the ori
 3. For addition formulas, the condition on $xy$ determines which form to use
 4. Converting between inverse trig functions: use complementary identities or construct a right triangle
 5. Practice with both numerical and algebraic arguments
+
+## Common Mistakes
+
+### Mistake 1: Using the tangent addition formula without checking the condition $xy < 1$
+
+The formula $\tan^{-1}x + \tan^{-1}y = \tan^{-1}\left(\frac{x+y}{1-xy}\right)$ is only valid when $xy < 1$. When $xy > 1$ and $x > 0$, the correct formula is $\pi + \tan^{-1}\left(\frac{x+y}{1-xy}\right)$. Students frequently apply the first formula blindly and get answers that are off by $\pi$. Always check the product $xy$ before choosing which form to use.
+
+### Mistake 2: Confusing the ranges of inverse trigonometric functions
+
+Each inverse trigonometric function has a specific range: $\sin^{-1}$ maps to $[-\pi/2, \pi/2]$, $\cos^{-1}$ maps to $[0, \pi]$, and $\tan^{-1}$ maps to $(-\pi/2, \pi/2)$. Students often forget that $\cos^{-1}(-x) = \pi - \cos^{-1}x$ (not $-\cos^{-1}x$) because the range of $\cos^{-1}$ is $[0, \pi]$. Always verify that your answer falls within the correct range before finalising.
+
+### Mistake 3: Forgetting the complementary angle identity
+
+The identity $\sin^{-1}x + \cos^{-1}x = \pi/2$ is extremely useful for converting between inverse trig functions, but students often overlook it. For example, $\cos^{-1}(3/5) = \pi/2 - \sin^{-1}(3/5) = \sin^{-1}(4/5)$. When a problem gives you one inverse trig function and asks for another, check whether the complementary identity simplifies the calculation.

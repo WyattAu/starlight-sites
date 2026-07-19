@@ -268,3 +268,12 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Worktrees are like having multiple desks in the same office. Instead of clearing your desk to work on a different project (stash/switch), you simply walk to another desk that already has the other project set up. Both desks share the same filing cabinet (object database) but have their own workspace. This is like having multiple browser tabs open - you can switch between them instantly without losing your place. The key insight is that worktrees eliminate context-switching overhead. You can run tests on the main branch while developing a feature on another branch, without stashing or committing incomplete work.
+
+## Cross-References
+
+- [Stash](/tools/git/05-advanced-topics/02-stash) - The simpler alternative for brief interruptions
+- [Submodules](/tools/git/05-advanced-topics/04-submodules) - How submodules interact with worktrees

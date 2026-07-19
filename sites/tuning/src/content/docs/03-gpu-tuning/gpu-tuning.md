@@ -420,6 +420,12 @@ Different benchmarks stress different aspects of the GPU:
 
 ---
 
+## Intuition
+
+GPU tuning is like adjusting the settings on a camera. Clock speed is the shutter speed: faster captures action but needs more light (power). Memory bandwidth is the film speed: more bandwidth captures more detail but generates more noise (heat).
+
+Voltage and frequency curves are like finding the right exposure. Too much voltage and you overexpose (waste power, generate heat). Too little and you underexpose (artifacts, crashes). The art is finding the exposure that produces a clear image without waste.
+
 ## Common Pitfalls
 
 ### Using FurMark as a Stability Test

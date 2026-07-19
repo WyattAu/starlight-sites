@@ -147,6 +147,20 @@ Step 5: Conclusion: The journal article is more reliable for academic purposes, 
 
 **Answer:** Journal articles are more reliable due to peer review, empirical evidence, and methodological rigour. Blog posts should be used cautiously and cross-referenced with authoritative sources.
 
+## Common Mistakes
+
+### Mistake 1: Describing techniques without explaining their effect
+
+In HSC short answer questions, simply naming a technique (metaphor, symbolism, etc.) earns minimal marks. You must explain how the technique shapes meaning and connects to the theme. For example, writing "The author uses metaphor" is insufficient. Instead, write "The author uses the metaphor of X to suggest Y, which reinforces the theme of Z." Always link technique to effect to theme.
+
+### Mistake 2: Writing in past tense when discussing texts
+
+When analysing literature, always use the present tense: the author "demonstrates," the character "rejects," the poem "explores." Students frequently slip into past tense ("the author showed"), which suggests the text is a historical event rather than a living work. The convention is that texts exist in a permanent present.
+
+### Mistake 3: Failing to consider multiple interpretations
+
+HSC examiners reward essays that acknowledge complexity and alternative readings. Students who present only one interpretation without considering counterarguments or nuanced readings limit their marks. Even if you strongly favour one reading, briefly acknowledge another perspective and explain why your interpretation is more convincing. This demonstrates critical thinking.
+
 ## Additional Exam Tips
 
 7. When analysing poetry, consider the interplay between form and content

@@ -937,5 +937,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
 
-</aside>
+Structs and enums are like Lego bricks and decision trees. Structs are labeled containers - you can have a `Point` struct with `x` and `y` fields, each with a specific purpose. Enums are like multiple choice questions - a `Shape` can be a `Circle`, `Rectangle`, or `Triangle`, but only one at a time. Pattern matching is like a sorting machine that routes each item to the correct bin based on its shape. The key insight is that Rust enums are algebraic data types - they can carry data, not just be simple labels. This makes them incredibly powerful for modeling domains where things can be one of several variants, each with different information.
+
+## Cross-References
+
+- [Advanced Patterns](/rust/03-structs-enums/advanced-patterns) - Design patterns that build on basic struct and enum concepts
+- [Ownership](/rust/02-ownership-borrowing/ownership) - How ownership rules affect struct field access and enum variant data
+- [Control Flow](/rust/01-fundamentals/control-flow) - Pattern matching in match expressions and if-let

@@ -662,6 +662,12 @@ const errors = validate(
 );
 ```
 
+## Intuition
+
+Generics in TypeScript are like templates. A generic function is a recipe that works with any ingredient. Instead of writing a separate function for each type, you write one function that works with all types. The type parameter is like a placeholder that gets filled in when you use the function.
+
+Think of generics like a shipping box that comes in different sizes. The box (generic type) can hold any item (specific type), but once you choose a size, everything inside must fit that size. This gives you flexibility without sacrificing type safety.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Over-Constraining Generics

@@ -511,6 +511,12 @@ If temperatures are too high, address these in order:
 
 ---
 
+## Intuition
+
+Undervolting is like finding the minimum voltage needed to light a bulb. You want the bulb bright enough to see, but you do not want to waste electricity. Undervolting reduces power consumption and heat while maintaining the same performance.
+
+Overclocking is like turning up the volume on a stereo. More volume means more sound (performance), but too much causes distortion (instability). The key is finding the maximum volume that is still clear, which depends on the quality of your speakers (silicon quality) and the acoustics of your room (cooling).
+
 ## Common Pitfalls
 
 ### "It Works for Me" Syndrome

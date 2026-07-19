@@ -1090,5 +1090,12 @@ $\blacksquare$
   fields.
 - Type-state pattern moves validation to compile time by encoding state in generic type parameters.
 
+## Intuition
 
-</aside>
+Advanced patterns are like specialized tools in a workshop. The newtype pattern is like putting a label on a container - even though both containers hold the same substance, you cannot accidentally pour from the wrong one. The builder pattern is like filling out a form step by step - you set each field one at a time, and the form validates itself only when you submit. The type-state pattern is like a machine that only operates in certain modes - you cannot start the washing machine while it is in spin mode because the state forbids it. The key insight is that Rust's type system is powerful enough to encode business rules directly in types, catching errors at compile time rather than runtime.
+
+## Cross-References
+
+- [Structs and Enums](/rust/03-structs-enums/structs-and-enums) - The basic building blocks that these patterns extend
+- [Ownership](/rust/02-ownership-borrowing/ownership) - How ownership rules affect pattern design and implementation
+- [Control Flow](/rust/01-fundamentals/control-flow) - Pattern matching in match expressions and if-let

@@ -312,6 +312,26 @@ description: "高考 chinese: Writing"
 
 **常见错误：** 记叙文容易写成流水账。要注意细节描写、心理描写和环境描写，使文章生动感人。
 
+## Intuition
+
+Writing an essay is like building a bridge. The introduction is the foundation that must be solid and well-placed. Each paragraph is a support beam that must connect logically to the next. The conclusion is the capstone that ties everything together. If any beam is weak or poorly placed, the entire structure collapses.
+
+Argumentation is like a debate. You must present your position clearly, anticipate counterarguments, and respond to them with evidence. A strong essay does not just state opinions; it defends them with logic and examples, just as a skilled debater uses facts and reasoning to persuade.
+
+## Common Mistakes
+
+### Mistake 1: Drifting from the core theme of the material in作文
+
+In material-based essays, students often seize on a secondary detail and write an essay that偏离 the material's central message. For example, a material about a snail that never acted because it worried about failure should be addressed with a theme like "action over hesitation," not simply "bravery." Always identify the core矛盾 (contradiction) in the material before choosing your立意.
+
+### Mistake 2: Writing a记叙文 that reads like a流水账
+
+Narrative essays that simply recount events in chronological order without detail描写, psychological描写, or environmental描写 score poorly. The examiners look for vivid sensory details, internal monologue, and meaningful dialogue. Instead of writing "I was moved," show the character's reaction through actions, thoughts, and surrounding atmosphere.
+
+### Mistake 3: Using examples that are irrelevant or poorly explained
+
+In议论文, students sometimes cite famous figures or events without explaining how they support the argument. An example without analysis is just a name-drop. Each piece of evidence should be followed by a sentence that explicitly connects it to your论点 (thesis). Ask yourself: "How does this example prove my point?"
+
 ## Cross-References
 
 - [Chinese Reading](/gaokao/chinese/reading) - Reading analysis skills that inform effective essay structure and argumentation

@@ -97,3 +97,17 @@ For any angle of incidence greater than $41.8°$, total internal reflection occu
 - For total internal reflection, light must go from denser to rarer medium
 - Practice with both real and virtual images
 - Remember that convex lenses and concave mirrors form real images when the object is beyond the focal point
+
+## Common Mistakes
+
+### Mistake 1: Mixing up the mirror and lens sign conventions
+
+The mirror equation is $1/f = 1/v + 1/u$ while the lens equation is $1/f = 1/v - 1/u$. The sign of the $1/u$ term differs between the two. Students often use the same equation for both, leading to incorrect results. A useful check: for a concave mirror, $f$ is positive; for a convex lens, $f$ is positive. Apply the Cartesian sign convention consistently.
+
+### Mistake 2: Confusing real and virtual images
+
+A real image is formed where light rays actually converge and can be projected on a screen. A virtual image is formed where light rays appear to diverge from and cannot be projected. Concave mirrors and convex lenses form real images when the object is beyond the focal point. Students sometimes assume all images formed by lenses are real, which is incorrect when the object is within the focal length.
+
+### Mistake 3: Forgetting that total internal reflection requires light to travel from denser to rarer medium
+
+Total internal reflection (TIR) only occurs when light travels from a medium with higher refractive index to one with lower refractive index, and the angle of incidence exceeds the critical angle. Students sometimes apply TIR to light going from air to water, which is impossible. The critical angle formula $\sin\theta_c = n_2/n_1$ assumes $n_1 > n_2$.

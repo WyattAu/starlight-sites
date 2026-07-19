@@ -937,6 +937,12 @@ Elixir provides a comprehensive testing and deployment story:
 - [Functions and Modules](/elixir/02-functions-modules/1_functions-and-modules) - How behaviours enable mock-based testing with Mox
 - [Metaprogramming](/elixir/04-advanced/1_metaprogramming) - How doctests extract and run code examples from module documentation
 
+## Intuition
+
+Testing in Elixir is like proofreading a book. Each test is a sentence that must make sense on its own, and together they tell the story of your application's correctness. Doctests are like having the book's examples double-check themselves: if the author says the answer is five, the doctest verifies it. This keeps documentation honest because the examples either work or the build fails.
+
+Hot code upgrades are like changing the tires on a car while it is driving. The old tires (old code) keep rolling while the new tires are prepared. Once the new tires are ready, they are swapped in one at a time. The car never stops moving. This is only possible because the BEAM keeps old and new code alive side by side, letting processes choose which version to use.
+
 ## Common Mistakes
 
 **Not using ExUnit's `setup` and `on_exit` for test isolation.** Tests should be independent and not depend on execution order. Use `setup` to initialize state and `on_exit` to clean up resources. Students often share mutable state between tests, causing flaky failures that depend on test order.

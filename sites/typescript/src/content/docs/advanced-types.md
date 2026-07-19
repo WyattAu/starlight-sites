@@ -793,6 +793,12 @@ bus.on('startup', ({ timestamp }) => {
 });
 ```
 
+## Intuition
+
+Advanced types in TypeScript are like power tools. Conditional types are like a drill that switches between drilling and screwdriving depending on the bit you attach. Mapped types are like a paint roller that applies the same action to every wall in a room. These tools let you transform types in powerful ways.
+
+Discriminated unions are like a switch on a machine. The discriminant field is the switch position, and each position activates different functionality. The type system uses the switch position to determine which features are available, preventing you from using features that are not active.
+
 ## Worked Examples
 
 ### Example 1: Building a Type-Safe API Response Handler

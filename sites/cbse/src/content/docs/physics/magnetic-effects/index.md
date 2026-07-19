@@ -94,3 +94,17 @@ $$f = \frac{8 \times 10^{-20}}{1.049 \times 10^{-26}} \approx 7.62 \times 10^6 \
 - The right-hand rule determines the direction of the magnetic field
 - Force on a current-carrying wire is the vector sum of forces on individual charges
 - Practice converting between SI units (T, G where $1 \, \text{T} = 10^4 \, \text{G}$)
+
+## Common Mistakes
+
+### Mistake 1: Using the right-hand rule incorrectly for force on a moving charge
+
+The force on a moving charge is $\vec{F} = q\vec{v} \times \vec{B}$. For a positive charge, point your right hand fingers in the direction of $\vec{v}$, curl them toward $\vec{B}$, and your thumb points in the direction of $\vec{F}$. For a negative charge, reverse the result. Students often forget to reverse for negative charges or use the left hand instead of the right.
+
+### Mistake 2: Confusing the magnetic field inside a solenoid with the field of a single loop
+
+The magnetic field inside a long solenoid is $B = \mu_0 nI$ (uniform), where $n$ is the number of turns per unit length. The field at the centre of a single circular loop is $B = \mu_0 I / (2R)$. Students sometimes use the solenoid formula for a single loop, which gives a much larger field. Count the number of turns and the length carefully.
+
+### Mistake 3: Forgetting that magnetic force does no work
+
+The magnetic force $\vec{F} = q\vec{v} \times \vec{B}$ is always perpendicular to the velocity, so it does no work and cannot change the kinetic energy of a charged particle. It only changes the direction of motion, not the speed. Students sometimes calculate work done by magnetic force and get a non-zero result, which is physically impossible.

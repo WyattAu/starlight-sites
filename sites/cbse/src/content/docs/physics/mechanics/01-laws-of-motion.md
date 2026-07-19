@@ -139,3 +139,17 @@ $$N = mg = 60 \times 9.8 = 588 \, \text{N}$$
 4. A 20 kg block is pushed with 100 N force on a surface with $\mu_k = 0.4$. Find the acceleration. ($g = 9.8 \, \text{m/s}^2$)
 5. A block slides down a frictionless incline of angle $45^\circ$. Find the acceleration.
 6. Two masses of 4 kg and 6 kg are connected over a frictionless pulley. Find the acceleration and tension.
+
+## Common Mistakes
+
+### Mistake 1: Confusing mass with weight
+
+Mass ($m$) is a scalar measured in kilograms and represents the amount of matter. Weight ($W = mg$) is a force measured in newtons and depends on the local gravitational field. Students often write $F = ma$ using weight instead of mass, or report weight in kilograms. In Newton's second law, $m$ is always the mass in kg; the gravitational force $mg$ is just one of the forces that may act on the body.
+
+### Mistake 2: Forgetting that friction opposes relative motion, not velocity
+
+Static friction opposes the tendency of motion, while kinetic friction opposes the direction of sliding. Students frequently assume friction always acts opposite to the velocity, which is incorrect for situations like a block on an accelerating conveyor belt. Determine the direction of relative motion (or intended motion for static friction) and place friction accordingly.
+
+### Mistake 3: Incorrectly resolving forces on an inclined plane
+
+On an inclined plane at angle $\theta$, the component of weight along the incline is $mg\sin\theta$ and the component perpendicular to the incline is $mg\cos\theta$. Students often swap these, writing $mg\cos\theta$ for the parallel component. A useful check: at $\theta = 0$ (horizontal), the parallel component should be zero ($\sin 0 = 0$), and at $\theta = 90°$ (vertical), the parallel component should be $mg$ ($\sin 90° = 1$).

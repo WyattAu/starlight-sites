@@ -801,6 +801,12 @@ The "let it crash" philosophy, combined with supervision trees, provides a funda
 approach to reliability: instead of trying to prevent all failures, Elixir applications are
 structured to gracefully recover from them.
 
+## Intuition
+
+Elixir processes are like actors on a stage. Each actor has their own script, their own costume, and their own spotlight. They never share props or costumes; instead, they communicate by passing notes to each other. If one actor forgets their lines and crashes, the director (supervisor) simply calls in an understudy to take their place with a fresh script. The show goes on.
+
+The BEAM virtual machine is like a traffic controller at a busy intersection. Instead of letting every car drive through at once, it gives each car a small turn at the wheel. No car can hog the road because the controller preemptively stops it after a set number of steps. This fair scheduling means no single process can starve the others, even if one tries to do too much work.
+
 ## Common Mistakes
 
 **Expecting mutable state in Elixir.** All data in Elixir is immutable. When you "reassign" a variable, you create a new binding pointing to a new value, not modifying the original. Variables like `list` or `map` never change; operations return new data structures. This is fundamental to Elixir's concurrency model.

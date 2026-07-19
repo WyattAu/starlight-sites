@@ -1142,6 +1142,12 @@ debug &&= false  # debug is still false, no change
   mode = ENV.key?("DEBUG") ? :debug : :production
 ```
 
+## Intuition
+
+Ruby's if/unless are like two sides of a coin. If is the standard choice: do something when a condition is true. Unless is the contrarian: do something when a condition is false. Using unless with a negative condition is like saying do not not do something, which is confusing. The golden rule: use unless only when it makes the code clearer, not just shorter.
+
+Ruby's blocks are like instructions you hand to a method. You give the method a task, and it decides when and how many times to execute it. This is like handing a recipe to a chef: you describe what to make, but the chef handles the cooking. The method might call the block once, many times, or not at all.
+
 ## Common Mistakes
 
 **Confusing `=` with `==` in conditional expressions.** Writing `if x = 5` assigns 5 to `x` and evaluates as truthy, rather than comparing `x` to 5. This is a silent bug that produces unexpected behaviour. Always use `==` for comparison in conditionals: `if x == 5`.

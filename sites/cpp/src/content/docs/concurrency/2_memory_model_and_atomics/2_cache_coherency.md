@@ -850,3 +850,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Cache coherency is like a shared document editing system. When one person edits a paragraph (Modified state), everyone else must see the update (Invalid state). The MESI protocol ensures that all CPUs see the same memory values, like ensuring all editors see the latest version of a document. False sharing is like two people trying to edit adjacent paragraphs in the same document - they keep forcing each other to reload the entire page, even though they are editing different parts. The key insight is that cache lines (typically 64 bytes) are the unit of coherency - if two threads access different variables on the same cache line, they experience false sharing. Padding is like giving each editor their own separate page.
+
+## Cross-References
+
+- [Instruction Reordering](/cpp/concurrency/2_memory_model_and_atomics/1_instruction_reordering) - How compiler and CPU reordering affect memory visibility
+- [Atomic Operations](/cpp/concurrency/2_memory_model_and_atomics/3_atomic_operations) - How atomic operations interact with cache coherency
+

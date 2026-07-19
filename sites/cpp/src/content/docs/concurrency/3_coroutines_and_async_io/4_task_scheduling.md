@@ -842,4 +842,11 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-</aside>
+## Intuition
+
+Task scheduling is like a restaurant kitchen. The executor is the head chef who assigns tasks (orders) to cooks (threads). Coroutines are like orders that can be paused mid-preparation - when a cook waits for water to boil, they switch to another order instead of standing idle. The thread pool is like having multiple cooks working in parallel, each handling one order at a time. Structured concurrency (`when_all`/`when_any`) is like saying "serve all these dishes together" or "serve whichever dish finishes first." The key insight is that cooperative scheduling avoids data races because coroutines only switch at explicit suspension points, not arbitrarily like preemptive threads.
+
+## Cross-References
+
+- [Futures, Promises](/cpp/concurrency/3_coroutines_and_async_io/5_futures_promises) - How futures and promises integrate with coroutine-based task scheduling
+- [Generators](/cpp/concurrency/3_coroutines_and_async_io/3_generators) - Using coroutines for lazy sequence generation

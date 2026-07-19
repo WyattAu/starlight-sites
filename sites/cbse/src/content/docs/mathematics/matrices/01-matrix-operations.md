@@ -103,6 +103,20 @@ So $x = 1$, $y = 2$.
 
 Matrix operations are rules for combining grids of numbers. Multiplication is not just multiplying corresponding entries -- it is a dot-product process that combines rows of one matrix with columns of another, encoding how linear transformations compose. The determinant measures the scaling factor of a transformation: if it is zero, the transformation squashes space into a lower dimension, losing information and making the matrix impossible to invert. Finding an inverse is like asking "what transformation undoes this one?" The adjugate method is systematic but tedious; for 2x2 matrices there is a simple shortcut of swapping diagonal elements and negating off-diagonal ones.
 
+## Common Mistakes
+
+### Mistake 1: Assuming matrix multiplication is commutative
+
+Matrix multiplication is NOT commutative: $AB \neq BA$ in general. Students often rearrange the order of matrices in products without realising this changes the result. For example, if $A$ is $2 \times 3$ and $B$ is $3 \times 2$, then $AB$ is $2 \times 2$ while $BA$ is $3 \times 3$ -- they are not even the same size. Always preserve the order of multiplication.
+
+### Mistake 2: Forgetting the sign pattern when computing cofactors
+
+The cofactor expansion of a determinant requires alternating signs: $\begin{pmatrix} + & - & + \\ - & + & - \\ + & - & + \end{pmatrix}$. Students often forget the negative signs on the off-diagonal positions, leading to incorrect determinants and inverses. A memory aid: the sign at position $(i,j)$ is $(-1)^{i+j}$.
+
+### Mistake 3: Attempting to invert a singular matrix
+
+A matrix has an inverse only if its determinant is non-zero. Students sometimes compute the adjugate and divide by zero, or write $A^{-1}$ without checking $\det(A)$. If $\det(A) = 0$, the matrix is singular and no inverse exists. Always check the determinant first before attempting to find the inverse.
+
 ## Cross-References
 
 - [Matrices](/docs/cbse/mathematics/matrices) -- broader matrix theory and properties

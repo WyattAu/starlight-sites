@@ -553,6 +553,12 @@ function example(): void {
 The `using` keyword ensures that `dispose()` is called when the variable goes out of scope, even if
 An exception is thrown.
 
+## Intuition
+
+TypeScript configuration is like setting the rules for a game. The tsconfig.json file defines what the compiler should check, how strict the rules are, and which files are in play. Strict mode is like playing with professional rules: more penalties for mistakes, but the game is played at a higher level.
+
+Type checking modes are like different levels of inspection. A casual check catches obvious errors. A strict check catches subtle errors. The level of strictness you choose depends on how much confidence you need in the result.
+
 ## Common Pitfalls
 
 ### Pitfall 1: `include` vs `files`

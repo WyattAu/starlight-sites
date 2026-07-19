@@ -134,3 +134,17 @@ Precession angular velocity:
 $$\Omega = \frac{\tau}{L} = \frac{0.49}{4} = 0.1225 \text{ rad/s}$$
 
 **Common mistake:** Confusing precession angular velocity with spin angular velocity. Precession is typically much slower than spin.
+
+## Common Mistakes
+
+### Mistake 1: Forgetting that moment of inertia depends on the axis of rotation
+
+The moment of inertia $I = \sum m_i r_i^2$ is defined relative to a specific axis. The same object has different moments of inertia about different axes. Students often use the moment of inertia about the centre of mass when the problem asks about rotation about a different axis. Use the parallel axis theorem $I = I_{cm} + Md^2$ to shift between axes.
+
+### Mistake 2: Confusing rotational and translational kinetic energy
+
+Rotational kinetic energy is $K_{rot} = \frac{1}{2}I\omega^2$, not $\frac{1}{2}mv^2$. For rolling motion without slipping, the total kinetic energy is $K = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2$, which combines both translational and rotational contributions. Students sometimes use only the translational term and get speeds that are too high.
+
+### Mistake 3: Applying conservation of angular momentum when external torques exist
+
+Angular momentum is conserved only when the net external torque is zero. Students often apply $I_1\omega_1 = I_2\omega_2$ to situations where an external torque acts (such as a spinning top precessing under gravity). Always check whether external torques are present before applying conservation.

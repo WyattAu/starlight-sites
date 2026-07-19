@@ -335,6 +335,12 @@ $$\left[-\text{CH}_2-\text{CH}(\text{CN})-\text{CH}=\text{CH}-\text{CH}_2-\right
 
 **考试技巧：** 判断高分子化合物单体的方法：①若链节中含有双键，可能是共聚物；②将链节断开，还原双键；③注意1,4-加聚和1,2-加聚的区别。
 
+## Intuition
+
+Organic chemistry is like a Lego set with a limited number of brick types but unlimited combinations. Carbon, hydrogen, oxygen, and nitrogen are your basic bricks, and the rules of bonding are your building instructions. Once you understand how these bricks connect, you can build millions of different molecules, just as you can build millions of different structures with Lego.
+
+Functional groups are like personality traits. An alcohol group is like someone who loves to make hydrogen bonds. A carbonyl group is like someone who attracts electrons. When you see a molecule with these groups, you can predict how it will behave in a reaction because you understand its personality.
+
 ## Cross-References
 
 - [Inorganic Chemistry](/gaokao/chemistry/inorganic) - Inorganic reaction principles that provide context for organic reaction mechanisms

@@ -699,6 +699,12 @@ stateDiagram-v2
     cancelled --> [*]
 ```
 
+## Intuition
+
+Data modeling is like organizing a kitchen. If you put every ingredient in its own labeled container on separate shelves, finding what you need takes longer. But if you group frequently-used items together and keep related spices in one drawer, your cooking becomes more efficient. Normalization is the principle of giving each ingredient its own home so you never update the same spice in five different jars. Denormalization is the decision to keep a few extra copies of salt on the counter because you reach for it constantly.
+
+Hierarchical data is like a family tree. Adjacency lists store only the parent of each person, making it easy to add new members but requiring recursive queries to find all descendants. Nested sets assign each person a range of numbers that encompasses all their children, making ancestor queries instant but making family reunions expensive to update. The right choice depends on whether you read the tree more often than you change it.
+
 ## Common Pitfalls
 
 ### Over-Normalization

@@ -570,6 +570,12 @@ sudo cpupower frequency-set -g performance
 
 ---
 
+## Intuition
+
+CPU fundamentals are like understanding the engine of a car. Clock speed is how fast the engine spins, core count is how many cylinders it has, and cache is the size of the fuel tank. A bigger engine is not always better if the fuel economy is terrible.
+
+Overclocking is like revving the engine higher than the manufacturer intended. It produces more power, but it also generates more heat and uses more fuel. The key is finding the sweet spot where you get the extra performance without cooking the engine.
+
 ## Common Pitfalls
 
 ### Forcing Maximum Frequency Does Not Always Improve Performance

@@ -1295,4 +1295,14 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Routing is like a GPS navigation system for internet packets. Static routes are like programmed addresses - you tell the router exactly where to go. Dynamic protocols are like a live traffic system - routers share information about network conditions and automatically find the best path. OSPF is like a detailed city map that every router carries - each router knows the entire topology and calculates the shortest path itself. BGP is like the postal system between countries - autonomous systems (ISPs) tell each other which addresses they can reach, but each makes its own routing decisions. The key insight is that routing is fundamentally about trust and policy - BGP works because ISPs agree to share reachability information, not because there is a central authority.
+
+## Cross-References
+
+- [IP Addressing](/networking/02-ip-addressing/ip-addressing) - The address space that routing protocols distribute across autonomous systems
+- [OSI and TCP/IP](/networking/01-osi-model/osi-and-tcp-ip) - Reference models that place routing at the network layer
+- [TCP and UDP](/networking/03-tcp-udp/tcp-and-udp) - Transport protocols that routing decisions affect end-to-end
+
 </aside>

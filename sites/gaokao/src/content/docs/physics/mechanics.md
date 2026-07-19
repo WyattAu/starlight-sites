@@ -306,6 +306,12 @@ $$= \frac{3}{8}mv_0^2 - \frac{m^2 v_0^2}{8M}$$
 
 **考试技巧：** 功能关系问题通常选择全过程应用动能定理，可以避免分析中间过程的细节。
 
+## Intuition
+
+Mechanics is like understanding how things move and why. Forces are like pushes and pulls: gravity pulls you down, friction slows you down, and normal force pushes back when you stand on a surface. Newton's laws are the rules of the game: every push has an equal and opposite push back.
+
+Motion is like a story with chapters. Velocity tells you how fast the story is moving, acceleration tells you how the pace is changing, and displacement tells you how far the story has progressed. Understanding these chapters lets you predict what happens next without watching the whole movie.
+
 ## Common Mistakes
 
 **Confusing mass with weight.** Mass (kg) is a scalar property of matter, while weight (N) is the gravitational force on an object (W = mg). A 1 kg object has a weight of approximately 10 N on Earth. Students often use mass where weight is required in force calculations, leading to incorrect Newton's law applications.
@@ -313,3 +319,9 @@ $$= \frac{3}{8}mv_0^2 - \frac{m^2 v_0^2}{8M}$$
 **Forgetting the direction of friction.** Friction always opposes the direction of relative motion or attempted motion. When a block slides up an incline, friction acts down the incline. When it slides down, friction acts up. Students often assume friction always acts horizontally or in the direction of applied force.
 
 **Sign errors in energy calculations.** Work done by gravity is negative when an object moves upward (against gravity) and positive when it moves downward. The work-energy theorem requires consistent sign conventions. Students frequently forget the negative sign for work done against gravity, leading to incorrect energy balances.
+
+## Cross-References
+
+- [Electricity](/gaokao/physics/electricity) - Electromagnetic forces and circuits that extend classical mechanics into electrical domains
+- [Optics](/gaokao/physics/optics) - Wave optics and geometric optics that apply mechanical principles to light propagation
+- [Functions](/gaokao/mathematics/functions) - Mathematical functions used to model motion, energy, and force relationships

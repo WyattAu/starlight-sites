@@ -141,3 +141,17 @@ The work-energy theorem and conservation of energy are among the most powerful t
 - Power = force x velocity applies only when force and velocity are in the same direction
 - Remember that kinetic energy is always positive, but work can be negative (friction)
 - When using energy methods, define a reference level for potential energy
+
+## Common Mistakes
+
+### Mistake 1: Forgetting the negative sign for work done against conservative forces
+
+When an object moves upward, gravity does negative work ($W = -mgh$), but the work done against gravity (by an external agent) is positive ($W = +mgh$). Students often mix these up and assign the wrong sign. The key is to identify which force is doing the work: if the force and displacement are in opposite directions, the work is negative.
+
+### Mistake 2: Applying conservation of energy when non-conservative forces do work
+
+Conservation of mechanical energy ($K_i + U_i = K_f + U_f$) only holds when no non-conservative forces (friction, air resistance, applied forces) do work. Students frequently apply it to problems with friction and get incorrect answers. When friction is present, use the work-energy theorem: $W_{net} = \Delta K$, where $W_{net}$ includes work done by friction.
+
+### Mistake 3: Confusing instantaneous power with average power
+
+Instantaneous power is $P = \vec{F} \cdot \vec{v}$ (force times velocity at that instant), while average power is $P_{avg} = W/t$ (total work divided by total time). Students sometimes use $P = Fv$ for average power when the force or velocity changes over time. For constant force and velocity, both formulas give the same result, but for varying conditions, use the appropriate definition.

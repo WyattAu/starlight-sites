@@ -232,5 +232,11 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
 
-</aside>
+Submodules are like including a reference to a book in your library catalog instead of photocopying the entire book. You record the exact edition (commit hash) so you always know which version you are using. The parent repository does not store the submodule's files - it stores a pointer to a specific commit in the submodule's repository. This is like citing a source in a bibliography - you reference the original work, not a copy. The key insight is that submodules pin dependencies to exact commits, ensuring reproducibility. The trade-off is complexity - you must explicitly initialize and update submodules, unlike package managers that handle this automatically.
+
+## Cross-References
+
+- [Git Directory Structure](/tools/git/06-internals/01-git-directory-structure) - How submodules are stored in the .git directory
+- [Worktrees](/tools/git/05-advanced-topics/05-worktrees) - Another technique for managing multiple working directories

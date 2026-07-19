@@ -598,6 +598,12 @@ src/
 Each subdirectory has its own barrel file. The top-level `index.ts` re-exports from subdirectory
 Barrels.
 
+## Intuition
+
+Enums in TypeScript are like labeled switches. Each position on the switch has a name and a number, and you can flip the switch to any position. String enums are like labeled toggles where each position has a descriptive name instead of a number, making the code more readable.
+
+Modules in TypeScript are like rooms in a house. Each room has a door (export) that lets people in, and the hallway (import) connects the rooms. You decide which furniture (functions, classes, variables) goes in each room and which doors to open. This organization prevents the chaos of having everything in one big open space.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Enum Value Conflicts
@@ -659,3 +665,10 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Types and Annotations](/typescript/types-and-annotations) - Type system fundamentals that enums and modules extend with structured organization
+- [Generics](/typescript/generics) - Generic type parameters that work with modules to create reusable, type-safe exports
+- [Advanced Types](/typescript/advanced-types) - Utility types and mapped types that complement enum and module patterns
+- [Functions](/typescript/functions) - Function signatures and overloads used within module exports

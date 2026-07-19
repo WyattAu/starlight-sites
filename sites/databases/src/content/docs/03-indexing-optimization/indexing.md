@@ -596,6 +596,12 @@ statements that are scoped to a server connection may not work as expected, beca
 transaction might use a different server connection.
 
 
+## Intuition
+
+An index is like the index at the back of a textbook. Without it, finding a specific topic means reading the entire book. With it, you jump to the page and start reading from there. The cost of maintaining the index is that every time you add or change content, you must also update the index. This is why over-indexing slows down writes: too many indexes means too many updates for every change.
+
+A B-tree is like a sorted phone book. The first page tells you where to find names starting with A, B, or C. Within each section, another page breaks it down further. This hierarchical structure means you never have to search more than four or five levels deep, even in a phone book with billions of entries. The tree stays balanced automatically, so every lookup is equally fast regardless of where you start.
+
 ## Common Pitfalls
 
 ### Creating an Index Without Checking the Query Plan

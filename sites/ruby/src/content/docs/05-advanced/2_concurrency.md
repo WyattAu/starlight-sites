@@ -879,6 +879,12 @@ end
 promise.execute
 ```
 
+## Intuition
+
+Ruby threads are like workers in a kitchen. The GIL (Global Interpreter Lock) is like having only one stove: even if you have multiple chefs, only one can cook at a time. This means Ruby threads are good for I/O-bound tasks (waiting for the oven, the dishwasher, or a delivery) but not for CPU-bound tasks (chopping, mixing, or kneading).
+
+Fibers in Ruby are like coroutine workers who can pause and resume. A fiber is like a chef who can stop mid-chop, hand the knife to another chef, and resume later exactly where they left off. This cooperative multitasking is useful for handling many connections simultaneously without the overhead of full threads.
+
 ## Cross-References
 
 - [OOP](/ruby/04-oop/1_oop) - How Ruby's object model and GIL constrain concurrent object access

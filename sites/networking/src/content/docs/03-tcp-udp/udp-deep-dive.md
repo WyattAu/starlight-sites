@@ -837,5 +837,14 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+UDP is like sending a postcard without tracking - you write the address, drop it in the mailbox, and hope it arrives. There is no delivery confirmation, no retry if lost, no guarantee of order. This sounds terrible, but it is perfect when speed matters more than reliability. Live video streaming uses UDP because a lost frame is better than a delayed one - you cannot replay the past. DNS uses UDP because a query is small and a retry is fast if needed. The key insight is that UDP is not "worse TCP" - it is a different tool for different jobs. TCP adds overhead (handshake, acknowledgments, retransmission) that is unnecessary when the application handles its own reliability or when speed is critical.
+
+## Cross-References
+
+- [TCP and UDP](/networking/03-tcp-udp/tcp-and-udp) - Overview comparing TCP reliability with UDP speed for different application requirements
+- [TCP State Machine](/networking/03-tcp-udp/tcp-state-machine) - TCP connection states that UDP deliberately avoids for lower overhead
+- [DNS](/networking/04-dns/dns) - Primary protocol using UDP for fast, stateless name resolution queries
 
 </aside>

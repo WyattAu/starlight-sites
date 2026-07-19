@@ -696,6 +696,12 @@ class Hashable a where
   -- Minimal complete definition: hash
 ```
 
+## Intuition
+
+Type classes are like interfaces in other languages, but more flexible. A type class defines a set of behaviors (like Show or Eq), and any type that implements those behaviors can participate. This is like a club membership: the club defines the rules, and any type that follows the rules can join.
+
+The difference between type classes and interfaces is that type classes are separate from the types themselves. A type can gain new abilities by being made an instance of a type class after it is defined. This is like getting a new skill certification after you have already started your career: your abilities grow without changing who you are.
+
 ## Worked Examples
 
 ### Example 1: Custom Functor and Monad for a Parser

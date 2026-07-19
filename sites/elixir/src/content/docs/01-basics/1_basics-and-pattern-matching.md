@@ -1014,6 +1014,12 @@ and process data. Key takeaways:
 - The pipe operator (`|>`) makes data transformations readable
 - Immutability enables safe concurrency without locks
 
+## Intuition
+
+Pattern matching in Elixir is like fitting a key into a lock. The left side is the lock with a specific shape; the right side is the key. If the key fits, the lock opens and variables are bound. If it does not fit, you get a MatchError. This is the opposite of assignment in most languages: you are not telling the computer what to store, you are asking it whether a value matches a shape.
+
+The pin operator is like pointing at a value instead of replacing it. Without the pin, writing x = 1 on the left side of a match rebinds x. With ^x = value, you are saying compare the current value of x against value. It is the difference between saying put this here and check if this matches what is already there.
+
 ## Common Mistakes
 
 **Forgetting to use the pipe operator for sequential transformations.** Elixir developers chain data transformations with `|>` instead of nesting function calls. Writing `String.trim(String.upcase("hello"))` works, but `"hello" |> String.trim() |> String.upcase()` is more readable and idiomatic. The pipe passes the left side as the first argument to the right.

@@ -693,6 +693,12 @@ Haskell is used in production at companies that value correctness and abstractio
 The combination of strong typing, purity, and concurrency makes Haskell particularly well-suited for
 systems where correctness is critical and where concurrent operations are the norm.
 
+## Intuition
+
+Haskell types are like contracts. When you write a function with type Int -> String -> Bool, you are promising that the function will always return a Bool when given an Int and a String. The compiler enforces this contract, catching errors before the program ever runs. This is like having a building inspector who checks your blueprints before construction begins.
+
+Pure functions in Haskell are like mathematical equations. The expression 2 + 3 always equals 5, regardless of when or where you evaluate it. Similarly, a pure function always returns the same output for the same input, with no side effects. This predictability makes Haskell programs easier to reason about, test, and debug.
+
 ## Cross-References
 
 - [Types and Functions](/haskell/01-basics/1_types-and-functions) - Foundational type system and pure function concepts that underpin Haskell's design

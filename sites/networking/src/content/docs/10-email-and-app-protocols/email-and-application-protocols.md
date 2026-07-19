@@ -1270,6 +1270,10 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Email protocols follow a postal system analogy. SMTP is like dropping a letter at the post office - you hand it off and the postal service handles routing through multiple distribution centres (MTAs) until it reaches the recipient's local post office (MDA). IMAP is like having a personal mailbox at the post office where you can read letters without taking them home, while POP3 is like picking up all your mail and taking it with you. The key insight is that email is store-and-forward - each hop stores the message before forwarding, unlike real-time protocols. Authentication mechanisms like SPF, DKIM, and DMARC are like verifying the return address and postmark to prevent forgery.
+
 ## Cross-References
 
 - [HTTP](/networking/05-http-https/http) - How HTTP underlies many application protocols including REST APIs and web-based email

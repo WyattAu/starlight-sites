@@ -163,6 +163,20 @@ $$A = A_0 e^{-\lambda t} = 800 \times e^{-0.1386 \times 15} = 800 \times e^{-2.0
 
 Atoms are tiny solar systems where electrons orbit the nucleus in quantized energy levels. When an electron jumps between levels, it emits or absorbs a photon with energy exactly equal to the gap -- this is why atoms produce discrete spectral lines rather than a continuous rainbow. The nucleus holds protons and neutrons together with the strong nuclear force, and the mass defect tells you how much energy is locked in that bond. Radioactive decay is random at the individual atom level but predictable in bulk: the half-life tells you how long it takes for half the atoms to decay, regardless of how many you start with.
 
+## Common Mistakes
+
+### Mistake 1: Dropping the negative sign in Bohr energy levels
+
+The energy levels of hydrogen are $E_n = -13.6/n^2$ eV, and the negative sign indicates a bound state. Students often forget the negative sign when calculating transition energies, leading to incorrect wavelengths. When computing $\Delta E = E_{final} - E_{initial}$, always include the signs: $\Delta E = (-13.6/n_f^2) - (-13.6/n_i^2)$. A positive $\Delta E$ means a photon was emitted.
+
+### Mistake 2: Confusing mass number with atomic mass in binding energy calculations
+
+The mass number $A$ is the count of nucleons (an integer), while the atomic mass is the measured mass in unified atomic mass units. Students sometimes use the mass number directly in the mass defect formula $\Delta m = Zm_p + Nm_n - M$ instead of the actual atomic mass. Always use the tabulated atomic mass (e.g., 4.00260 u for helium-4), not the mass number (4).
+
+### Mistake 3: Using the wrong decay constant formula
+
+The radioactive decay law is $N = N_0 e^{-\lambda t}$ where $\lambda = \ln 2 / t_{1/2}$. A common error is writing $N = N_0 e^{-t/t_{1/2}}$ or $N = N_0 (1/2)^{t/t_{1/2}}$ interchangeably without understanding they are equivalent only when $\lambda = \ln 2 / t_{1/2}$. The exponential form with $\lambda$ is preferred for calculus-based problems, while the half-life form is quicker for integer multiples of half-lives.
+
 ## Cross-References
 
 - [CBSE Physics](/docs/cbse/physics) -- modern physics and photoelectric effect

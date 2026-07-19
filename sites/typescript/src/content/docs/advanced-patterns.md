@@ -766,6 +766,12 @@ type Methods = {
 };
 ```
 
+## Intuition
+
+Pattern matching with discriminated unions is like having a multi-tool. Each tool (case) has a specific shape, and the pattern matcher folds out the right tool for the job. This is more explicit than if/else chains because each case is self-contained and the compiler ensures all cases are handled.
+
+Type narrowing is like a funnel. As your code progresses, the type system narrows down what a value could be. After checking if a value is a string, the type system knows it is a string in the rest of that branch. This is like a detective eliminating suspects: each clue narrows the possibilities until only one remains.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Excessive Recursion Depth

@@ -319,6 +319,12 @@ $$\Delta x' = \Delta x \cdot \frac{\lambda'}{\lambda} = 2 \times \frac{700}{500}
 
 **考试技巧：** 马吕斯定律：$I = I_0 \cos^2\theta$，其中 $\theta$ 是两偏振片透振方向的夹角。
 
+## Intuition
+
+Optics is like understanding how mirrors and lenses bend light. Reflection is like a ball bouncing off a wall: the angle of incidence equals the angle of refraction. This is why you can see yourself in a mirror: light from your face bounces off the mirror and into your eyes.
+
+Refraction is like light changing lanes on a highway. When light moves from air to water, it slows down and bends toward the normal. This is why a straw in water looks bent: the light from the submerged part changes direction as it exits the water. Understanding these bends lets you predict how lenses focus light and how mirrors redirect it.
+
 ## Common Mistakes
 
 **Confusing the mirror formula with the lens formula.** For mirrors, 1/f = 1/v + 1/u. For lenses, 1/f = 1/v - 1/u. Students often use the mirror formula for lenses or vice versa, leading to incorrect sign conventions and wrong focal length calculations.
@@ -326,3 +332,9 @@ $$\Delta x' = \Delta x \cdot \frac{\lambda'}{\lambda} = 2 \times \frac{700}{500}
 **Forgetting sign conventions in geometric optics.** The sign convention determines whether distances and image sizes are positive or negative. For mirrors, distances in front are positive. For lenses, distances on the opposite side of the incoming light are positive. Mixing conventions gives wrong answers.
 
 **Confusing total internal reflection conditions.** Total internal reflection occurs when light travels from a denser medium to a rarer medium AND the angle of incidence exceeds the critical angle. Students often forget one of these conditions, incorrectly predicting total internal reflection when it does not occur.
+
+## Cross-References
+
+- [Mechanics](/gaokao/physics/mechanics) - Wave mechanics and oscillatory motion underlying the wave theory of light
+- [Electricity](/gaokao/physics/electricity) - Electromagnetic theory connecting electric and magnetic fields to light propagation
+- [Algebra](/gaokao/mathematics/algebra) - Algebraic manipulation of lens and mirror formulas for image calculations

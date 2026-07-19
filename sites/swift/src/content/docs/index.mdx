@@ -20,6 +20,26 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 Swift is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked examples, practice problems, and flashcards.
 
+## Intuition
+
+Swift is like a modern sports car: fast, safe, and comfortable. The type system protects you from crashes (both memory and logical), the syntax is clean and expressive, and the performance rivals lower-level languages. The optional system is like the car's safety features: it forces you to check for dangers before they cause accidents.
+
+These notes guide you from the driver's seat (basic types and functions) to the engine room (concurrency and advanced patterns). Each chapter adds a new capability, like learning to use cruise control before tackling the racetrack. The goal is not just to drive, but to drive well.
+
+## Common Mistakes
+
+### Mistake 1: Force unwrapping optionals with `!`
+
+Force unwrapping (`value!`) crashes the program if the optional is `nil`. Students often use `!` to quickly unwrap optionals without checking for nil, leading to runtime crashes. Instead, use optional binding (`if let value = optional`), nil coalescing (`value ?? defaultValue`), or guard statements (`guard let value = optional else { return }`). Only force unwrap when you are absolutely certain the value is non-nil.
+
+### Mistake 2: Not handling errors with do-try-catch
+
+Swift's error handling uses the `do-try-catch` pattern. Students sometimes call throwing functions without `try` or without wrapping them in a `do` block, leading to compile errors. The correct pattern is `do { try someThrowingFunction() } catch { handleError(error) }`. Alternatively, use `try?` to silently convert errors to nil, or `try!` to assert the function will not throw (crashes if it does).
+
+### Mistake 3: Creating retain cycles with strong reference captures in closures
+
+When a closure captures `self` strongly, it creates a retain cycle: the object holds the closure, and the closure holds the object, preventing deallocation. Students often write `closure = { self.doSomething() }` without thinking about memory. Use capture lists to break the cycle: `closure = { [weak self] in self?.doSomething() }` or `[unowned self]` when you know `self` will not be nil during the closure's lifetime.
+
 ## Topics
 
 <CardGrid>
@@ -59,3 +79,9 @@ Swift is a programming language with a rich type system and ecosystem. These not
     </Card>
   </a>
 </CardGrid>
+
+## Cross-References
+
+- [Swift Introduction](/swift/00-intro/1_swift-intro) - Language overview and modern Swift features
+- [Variables and Types](/swift/01-basics/1_variables-and-types) - Type system including optionals and type inference
+- [Error Handling](/swift/04-advanced/1_error-handling) - do-try-catch patterns and optional-based error propagation

@@ -889,6 +889,10 @@ linked above.
 
 
 </aside>
+## Intuition
+
+TLS is like a secure diplomatic pouch system. The handshake is like two ambassadors meeting, verifying each other's credentials (certificates), and agreeing on a secret code (shared secret) for their correspondence. The record layer is like the pouch itself - it wraps messages so eavesdroppers cannot read them and tamperers cannot modify them. TLS 1.3 simplified the handshake from two round trips to one, like speeding up the credential verification process. The key insight is that TLS provides confidentiality (encryption), integrity (MAC), and authentication (certificates) - the three pillars of secure communication. Perfect forward secrecy ensures that even if a server's private key is compromised later, past sessions remain secure.
+
 ## Cross-References
 
 - [TLS](/networking/06-tls/tls) - Overview of TLS protocol versions and deployment best practices

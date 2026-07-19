@@ -875,6 +875,12 @@ cache.fetch("expensive") { compute_expensive_result }
 cache.fetch("expensive") { compute_expensive_result }  # returns cached value
 ```
 
+## Intuition
+
+Blocks in Ruby are like closures, which is a fancy way of saying they remember the context where they were created. When you define a block inside a method, it captures the local variables from that method. Even if the method finishes, the block still has access to those variables. This is like a photograph that captures not just the subject but the entire background.
+
+Procs and lambdas are like different flavors of blocks. A Proc is a casual block that does not care about argument counts. A lambda is a strict block that enforces its argument rules. Using a lambda is like calling a function with a signature; using a Proc is like calling a function that accepts whatever you give it.
+
 ## Worked Examples
 
 ### Example 1: Building a Configuration DSL with Blocks

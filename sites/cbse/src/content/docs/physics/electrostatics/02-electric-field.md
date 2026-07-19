@@ -133,3 +133,17 @@ $$E = \frac{2 \times 9 \times 10^9 \times 5 \times 10^{-8}}{0.1} = \frac{900}{0.
 The field points radially away from the wire (if $\lambda > 0$).
 
 **Common mistake:** The field of a line charge decreases as $1/r$, not as $1/r^2$ (which is for point charges).
+
+## Common Mistakes
+
+### Mistake 1: Confusing the axial and equatorial fields of a dipole
+
+For an electric dipole, the field on the axial line is $E = 2kp/r^3$ while on the equatorial line it is $E = kp/r^3$ -- a factor of two difference. Students often use the same formula for both. The axial field is twice as strong because the two charges contribute constructively along the axis, while on the equatorial line their contributions partially cancel.
+
+### Mistake 2: Assuming the electric field inside a charged conductor is non-zero
+
+In electrostatic equilibrium, the electric field inside a conductor is always zero. This is because any internal field would cause charges to redistribute until the field is cancelled. Students sometimes calculate a non-zero field inside a conductor using Gauss's law incorrectly. If you choose a Gaussian surface entirely inside the conductor, the enclosed charge must be zero, so $E = 0$.
+
+### Mistake 3: Forgetting that electric field is a vector and must be added as such
+
+When calculating the net electric field from multiple charges, students often add the magnitudes directly instead of resolving into components. Electric field is a vector quantity: $\vec{E}_{net} = \vec{E}_1 + \vec{E}_2 + \ldots$. For two charges, you must find the angle between the field vectors and add components: $E_x = E_1\cos\theta_1 + E_2\cos\theta_2$ and $E_y = E_1\sin\theta_1 + E_2\sin\theta_2$.

@@ -693,3 +693,12 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |
 
+## Intuition
+
+CAS loops are like trying to update a shared whiteboard. You read the current value, compute the new value, and then try to atomically swap it in. If someone else changed the whiteboard while you were computing, your swap fails and you start over. This is optimistic concurrency - you assume no one will interfere, and retry if they do. The weak vs strong CAS is like rolling a die vs flipping a coin - weak CAS might fail spuriously (like rolling a 1 when you needed a 6), but in a loop it does not matter because you just try again. Strong CAS is like a coin flip - it always gives a definitive answer. The ABA problem is like someone changing the whiteboard from A to B and back to A before you check - you think nothing changed, but the world moved on.
+
+## Cross-References
+
+- [Atomic Operations](/cpp/concurrency/2_memory_model_and_atomics/3_atomic_operations) - How atomic operations form the basis of CAS loops
+- [Memory Orderings](/cpp/concurrency/2_memory_model_and_atomics/4_memory_orderings) - How to choose the right memory ordering for CAS operations
+

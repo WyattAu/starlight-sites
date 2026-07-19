@@ -980,5 +980,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
 
-</aside>
+Lifetimes are like library book due dates. When you borrow a book (reference), the library needs to know that the book will still be on the shelf (valid memory) as long as you have it checked out. Lifetime annotations are like writing the due date on your library card - they tell the compiler how long you plan to keep the reference. The compiler is a strict librarian that refuses to let you check out a book that is due back before you finish reading it. Lifetime elision is like the library automatically filling in the due date for common patterns - you do not need to write it explicitly when the rules are obvious. The key insight is that lifetimes are about scope, not time - they track which parts of the code can use which references.
+
+## Cross-References
+
+- [Ownership](/rust/02-ownership-borrowing/ownership) - The ownership rules that lifetimes enforce at compile time
+- [Interior Mutability](/rust/02-ownership-borrowing/interior-mutability) - How interior mutability types work within lifetime constraints
+- [Structs and Enums](/rust/03-structs-enums/structs-and-enums) - How to design types with proper lifetime relationships

@@ -290,6 +290,12 @@ $$\frac{1}{a} + \frac{1}{b} = \lg 2 + \lg 5 = \lg(2 \times 5) = \lg 10 = 1$$
 
 **考试技巧：** 函数图像变换遵循"左加右减，上加下减"原则。注意平移是针对 $x$ 还是整个函数。
 
+## Intuition
+
+Functions are like vending machines. You put in a specific amount of money (input), press a button (the function), and get a specific snack (output). The same input always gives the same output, which is why functions are predictable and useful. Domain is the set of coins the machine accepts; range is the set of snacks it can dispense.
+
+The graph of a function is like a footprint. It shows you where the function has been and where it is going. The slope tells you how steep the climb is; the intercept tells you where the journey starts. Reading a graph is like reading a hiking trail map: you can see the terrain without actually walking the path.
+
 ## Cross-References
 
 - [Algebra](/gaokao/mathematics/algebra) - Algebraic foundations that enable function composition and equation solving

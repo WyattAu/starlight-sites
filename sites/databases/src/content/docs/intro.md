@@ -91,6 +91,12 @@ Write throughput.
 4. **Schema evolution is a feature, not a bug** -- design for change from the start
 5. **Measure before optimising** -- `EXPLAIN ANALYZE` before adding indexes, and benchmark after
 
+## Intuition
+
+Databases are like libraries. Tables are the shelves, rows are the books, and columns are the categories on the spine. Without an index (the library catalog), finding a specific book means walking every aisle. With an index, you go directly to the right shelf.
+
+SQL is like the librarian's language. You ask for books in a specific category (SELECT with WHERE), you arrange them by author (ORDER BY), and you count how many are in each section (GROUP BY). Learning SQL is like learning to communicate with the librarian in their language, and the librarian always knows exactly where the books are.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
@@ -155,3 +161,9 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 - Diagnostic tests to identify remaining gaps
 - Practice problems with detailed worked solutions
 - Cross-references to related topics
+
+## Cross-References
+
+- [Relational Theory](/databases/01-relational-theory/relational-theory) - The formal foundations of the relational model used throughout this course
+- [SQL Fundamentals](/databases/02-sql-fundamentals/sql) - Core SQL syntax and query construction techniques
+- [Indexing](/databases/03-indexing-optimization/indexing) - How indexes improve query performance on relational databases

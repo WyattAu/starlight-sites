@@ -1307,6 +1307,12 @@ Pitfalls with dual BIOS:
 - Some dual-BIOS boards have different firmware on each chip (e.g., one optimized for memory
   overclocking, one for CPU overclocking). This is rare but documented on some enthusiast boards.
 
+## Intuition
+
+The PSU is like the heart of the system. It pumps power (electricity) to every component, and if it fails, everything stops. A quality PSU with headroom is like a heart with reserve capacity: it handles peak loads without strain.
+
+BIOS settings are like the instructions in a user manual. They tell the hardware how to behave before the operating system takes over. Changing BIOS settings is like rewriting the manual: you can unlock features the manufacturer disabled, but you must understand what you are changing.
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to psu selection and bios

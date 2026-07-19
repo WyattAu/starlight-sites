@@ -231,5 +231,11 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
 
-</aside>
+The reflog is like a flight data recorder for your Git repository. Every time you move `HEAD` (checkout, commit, reset, rebase), the reflog records where you were and what you did. It is like a breadcrumb trail that lets you retrace your steps. If you accidentally delete a branch or do a bad rebase, the reflog shows you exactly where the old commits are. The key insight is that Git rarely deletes objects immediately - it marks them for garbage collection later. The reflog gives you a grace period to recover from mistakes. Think of it as Git's "undo" button that works even for operations that seem destructive.
+
+## Cross-References
+
+- [Git Directory Structure](/tools/git/06-internals/01-git-directory-structure) - Where reflog entries are stored in the .git directory
+- [Stash](/tools/git/05-advanced-topics/02-stash) - Another recovery mechanism for temporary changes

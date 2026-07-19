@@ -242,3 +242,17 @@ $$\text{Fe}(s) + 2\text{Ag}^{+}(aq) \rightarrow \text{Fe}^{2+}(aq) + 2\text{Ag}(
 **Answer:** $E_{\text{cell}} = 1.24\,\text{V}$, reaction: $\text{Fe} + 2\text{Ag}^{+} \rightarrow \text{Fe}^{2+} + 2\text{Ag}$
 
 **Common mistake:** Forgetting to balance the number of electrons transferred when writing the overall cell reaction.
+
+## Common Mistakes
+
+### Mistake 1: Confusing endothermic and exothermic sign conventions
+
+For exothermic reactions, $\Delta H$ is negative (heat is released). For endothermic reactions, $\Delta H$ is positive (heat is absorbed). Students often write the correct numerical value but assign the wrong sign. In calorimetry, $q = mc\Delta T$ gives the heat absorbed by the solution, so the reaction enthalpy is $\Delta H = -q/n$ for an exothermic reaction. The negative sign is essential.
+
+### Mistake 2: Using the wrong standard electrode potential in cell calculations
+
+The cell potential is $E_{cell} = E_{cathode} - E_{anode}$, where the cathode is where reduction occurs and the anode is where oxidation occurs. Students sometimes add the two standard potentials instead of subtracting, or misidentify which half-cell is the cathode. The cathode always has the higher (more positive) reduction potential in a galvanic cell.
+
+### Mistake 3: Forgetting to multiply by the number of electrons in Faraday's law calculations
+
+Faraday's first law states $m = MIt/(nF)$, where $n$ is the number of electrons transferred per ion. For example, depositing Cu²⁺ requires 2 electrons ($n = 2$), while depositing Ag⁺ requires only 1 ($n = 1$). Students often use $n = 1$ by default, leading to mass calculations that are off by a factor of 2 or more. Always check the ion's charge to determine $n$.

@@ -938,6 +938,10 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Wireless networking is like shouting across a crowded room - the signal weakens with distance, other conversations create interference, and walls muffle the message. The fundamental challenge is that radio waves share air as a medium, unlike wired connections where each cable is isolated. CSMA/CA works like waiting for a pause in conversation before speaking, since you cannot detect collisions while transmitting (unlike wired Ethernet). MIMO uses multiple antennas like having multiple speakers and listeners, allowing parallel streams of information. The trade-off between frequency bands is intuitive: 2.4 GHz travels farther but is more congested (like a busy highway), while 5 GHz is faster but shorter-range (like an express lane with fewer cars).
+
 ## Cross-References
 
 - [Layer 2 and Ethernet](/networking/08-layer2/layer2-and-ethernet) - How wireless framing relates to Ethernet and MAC address concepts

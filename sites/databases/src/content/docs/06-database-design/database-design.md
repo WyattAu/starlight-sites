@@ -843,6 +843,12 @@ Dimensions change over time. SCD strategies define how to handle these changes:
 | 1002        | Ada  | Edinburgh| 2023-07-01 | 9999-12-31 | TRUE       |
 ```
 
+## Intuition
+
+Database design is like city planning. You start with a blank landscape and must decide where to place homes, roads, and utilities. A well-planned city has logical neighborhoods, efficient traffic flow, and room to grow. A poorly planned one has gridlock, sprawl, and infrastructure that cannot keep pace with demand. The phases of database design mirror urban planning: requirements analysis is surveying the land, conceptual design is zoning, logical design is drawing the blueprints, and physical design is laying the pipes and roads.
+
+Partitioning is like dividing a city into districts. Each district handles its own traffic, its own services, and its own maintenance. When you query a specific district, you do not need to search the entire city. But moving between districts becomes more complex, and the boundaries between them must be carefully managed to avoid confusion.
+
 ## Common Pitfalls
 
 ### Not Designing for Data Lifecycle

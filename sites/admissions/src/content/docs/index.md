@@ -50,6 +50,12 @@ Each section includes:
 - Common pitfalls and how to avoid them
 - Connections to university-level material
 
+## Intuition
+
+Admissions tests are like job interviews for your brain. You might have all the knowledge, but the test evaluates how you think under pressure and how you approach problems you have never seen before. This is why preparation involves not just learning content but practising the art of problem-solving itself, the ability to stay calm, organise your thoughts, and present a clear argument when the clock is ticking.
+
+Each admissions test has its own personality. The MAT is a careful conversation, STEP is an endurance challenge, and TMUA is a logic puzzle. Understanding this character helps you prepare effectively, much like knowing whether you are training for a sprint or a marathon determines your workout plan.
+
 ## Study Tips
 
 1. **Start early**: Begin preparation at least three months before the test

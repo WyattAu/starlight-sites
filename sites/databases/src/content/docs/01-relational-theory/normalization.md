@@ -1650,6 +1650,12 @@ Decompose:
 Both in BCNF (and 4NF, since there are no MVDs in single-key relations).
 ```
 
+## Intuition
+
+Normalization is like organizing a kitchen. In a disorganized kitchen, you might have salt in five different places. When you need to change the brand of salt, you have to find and update all five locations. Normalization puts the salt in one place and makes sure every recipe points to that single location. This eliminates redundancy and prevents update anomalies.
+
+The normal forms are like levels of organization. First normal form eliminates junk drawers (repeating groups). Second normal form eliminates duplicate labels (partial dependencies). Third normal form eliminates indirect references (transitive dependencies). Each level removes a type of confusion, making the database easier to maintain and query.
+
 ## Common Pitfalls
 
 1. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
@@ -1675,5 +1681,11 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Relational Theory](/databases/01-relational-theory/relational-theory) - The formal model of relations, tuples, and attributes that normalization builds upon
+- [Database Design](/databases/06-database-design/database-design) - How normalized schemas translate into practical database designs
+- [SQL](/databases/02-sql-fundamentals/sql) - How SQL implements the relational operations that normalization assumes
+- [Migrations](/databases/06-database-design/migrations) - Strategies for applying normalization changes to existing databases
 
 </aside>

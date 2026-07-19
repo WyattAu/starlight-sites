@@ -748,6 +748,12 @@ open class PublicClass {
 }
 ```
 
+## Intuition
+
+Classes and structs in Swift are like different types of buildings. Classes are like old houses with history: they can inherit from other classes, they have reference identities, and they can change over time. Structs are like modern apartments: they are simpler, they are copied when passed around, and they are value types that do not share state.
+
+The choice between class and struct is like the choice between renting and owning. When you pass a class instance around, everyone shares the same house (reference). When you pass a struct around, everyone gets their own copy (value). Choose based on whether you want shared state or independent copies.
+
 ## Worked Examples
 
 ### Example 1: Protocol-Oriented Network Layer

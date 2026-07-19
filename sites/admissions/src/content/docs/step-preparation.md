@@ -514,6 +514,12 @@ $$\text{Var(X) = \text{Var(B_1) = \frac{r(n-r)}{(r+1)^2}$$
 
 ---
 
+## Intuition
+
+STEP preparation is like learning to cook without a recipe book. You develop an instinct for which techniques to combine and when to improvise. A question about integration might require you to see it as a geometry problem in disguise, just as a skilled chef recognises that a savoury dish could benefit from an unexpected spice. The ability to look at a problem from multiple angles separates those who score highly from those who merely pass.
+
+Differential equations are like ecosystems: they describe how things change in response to their surroundings. A population grows proportionally to its current size, a heated object cools at a rate proportional to the temperature difference with its environment. Understanding this pattern-matching instinct transforms abstract symbols into stories about the physical world.
+
 ## 8. Common Pitfalls
 
 **Arithmetic errors in long calculations.** STEP questions involve sustained algebra. A single sign

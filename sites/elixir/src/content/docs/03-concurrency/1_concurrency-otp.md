@@ -842,6 +842,12 @@ framework:
 - Agents simplify state management for shared state
 - The "let it crash" philosophy relies on supervision trees for fault tolerance
 
+## Intuition
+
+Supervision trees are like a chain of command in a well-run kitchen. If a chef burns a dish, the sous-chef replaces them with a fresh one. If the sous-chef goes down, the head chef steps in. The key insight is that failures are expected and handled by restarting with a clean slate. This is the opposite of defensive programming, where you try to catch every possible error. Let it crash means let the process die and let the supervisor bring it back.
+
+GenServer is like a waiter in a restaurant. Customers (callers) place orders (call messages), and the waiter takes those orders to the kitchen (server state). The waiter does not let two customers order at the same time; each order is processed one at a time. This serialization of requests is what makes GenServer safe for mutable state: only one message is processed at a time, so there are no race conditions.
+
 ## Common Mistakes
 
 **Using `GenServer.call` when `GenServer.cast` is appropriate.** `call` is synchronous and blocks the caller until the server replies, while `cast` is asynchronous and returns immediately. Using `call` for fire-and-forget operations wastes resources by blocking unnecessarily. Use `cast` when you do not need a reply.

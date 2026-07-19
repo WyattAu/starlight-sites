@@ -182,3 +182,17 @@ $$F' = \frac{9 \times 10^9 \times (1 \times 10^{-6})^2}{(0.3)^2} = \frac{9 \time
 13. For a system of charges, the total potential energy is the sum over all pairs: $U = \sum_{i<j} \frac{kq_i q_j}{r_{ij}}$.
 14. When a dielectric is inserted into a capacitor connected to a battery, the voltage remains constant but the charge increases by a factor of $K$.
 15. When a dielectric is inserted into an isolated capacitor (battery disconnected), the charge remains constant but the voltage decreases by a factor of $K$.
+
+## Common Mistakes
+
+### Mistake 1: Confusing electric potential with electric potential energy
+
+Electric potential ($V$) is a scalar quantity measured in volts, while electric potential energy ($U$) is also a scalar but measured in joules. Students often use the formula $V = kq/r$ when the question asks for energy, or vice versa. Remember that $U = qV$ -- potential energy equals charge times potential. When assembling a system of charges, always use $U = \sum_{i<j} kq_iq_j/r_{ij}$, not the potential formula.
+
+### Mistake 2: Applying Gauss's law to asymmetric charge distributions
+
+Gauss's law is always true, but it is only useful for calculation when the charge distribution has sufficient symmetry (spherical, cylindrical, or planar). Students frequently attempt to apply Gauss's law to arbitrary charge configurations and end up with incorrect results. If you cannot construct a Gaussian surface where the electric field is constant and perpendicular to the surface, use integration or superposition instead.
+
+### Mistake 3: Mixing up series and parallel capacitor combinations
+
+When dielectrics or plate separations change, students often treat capacitors as series when they should be parallel, or vice versa. If the dielectric fills half the area (not half the distance), the two regions share the same voltage and are in parallel: $C_{total} = C_1 + C_2$. If the dielectric fills half the distance (not half the area), the two regions share the same charge and are in series: $1/C_{total} = 1/C_1 + 1/C_2$.

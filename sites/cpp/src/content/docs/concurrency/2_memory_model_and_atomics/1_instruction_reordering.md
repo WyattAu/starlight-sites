@@ -708,4 +708,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-</aside>
+## Intuition
+
+Instruction reordering is like a chef rearranging tasks in the kitchen. The chef might chop vegetables while waiting for water to boil (independent operations), or move a quick task ahead of a slow one (store buffering). This is fine when you are the only cook, but with multiple cooks (threads), reordering can cause race conditions. The happens-before relationship is like a timeline that shows which operations must complete before others. The key insight is that without explicit synchronization, both compilers and CPUs are free to reorder instructions for performance, and this reordering can break multi-threaded programs. Memory orderings are the rules that prevent this reordering when it matters.
+
+## Cross-References
+
+- [Cache Coherency](/cpp/concurrency/2_memory_model_and_atomics/2_cache_coherency) - How CPU caches affect memory visibility across threads
+- [Memory Orderings](/cpp/concurrency/2_memory_model_and_atomics/4_memory_orderings) - How to control instruction ordering with atomic operations

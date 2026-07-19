@@ -372,6 +372,26 @@ D. 苏轼的母亲鼓励他学习范滂
 
 **考试技巧：** 哲理诗的鉴赏要透过表面现象，分析深层含义。注意诗中的关键词和比喻义。
 
+## Intuition
+
+Reading comprehension on the Gaokao is like being a detective. Each passage is a crime scene full of clues, and you must piece together what the author is really saying. The surface meaning is the obvious evidence, but the deeper meaning is hidden in word choices, sentence structure, and what the author chose not to say. The best readers are the best observers.
+
+Understanding the author's intent is like reading between the lines of a letter. The words on the page are only half the story; the tone, the emphasis, and the structure reveal what the author truly means. Training yourself to notice these subtle cues is the difference between summarizing what was said and understanding what was meant.
+
+## Common Mistakes
+
+### Mistake 1: Choosing options with absolute language in论述类文本
+
+In argumentative text reading questions, options containing words like "唯一" (only), "全部" (all), " always" are often incorrect because the original text uses more nuanced language. Students frequently select these options without checking whether the text actually makes such absolute claims. Always compare each option against the original text word by word, paying special attention to qualifiers and extent words.
+
+### Mistake 2: Providing translations that miss classical Chinese grammar structures
+
+Classical Chinese uses patterns that differ from modern Chinese, such as 使动用法 (causative usage), 意动用法 (considerative usage), and 宾语前置 (object fronting). Students often translate these as ordinary sentences without recognising the special grammar. For example, "固其根本" means "make its roots firm" (causative), not "its roots are firm." Identify grammatical structures before translating.
+
+### Mistake 3: Analysing poetry without connecting technique to theme
+
+In poetry appreciation questions, students sometimes identify the technique (e.g., 借景抒情) but fail to explain how it serves the poem's theme. The exam requires you to state the technique, cite the specific lines, explain the effect, and then connect to the broader meaning or emotion. Stopping at technique identification loses significant marks.
+
 ## Cross-References
 
 - [Chinese Writing](/gaokao/chinese/writing) - Writing techniques that complement reading comprehension skills

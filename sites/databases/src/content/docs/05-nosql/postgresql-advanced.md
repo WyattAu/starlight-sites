@@ -711,6 +711,12 @@ ORDER BY datname;
 # auto_explain.log_format = 'text'
 ```
 
+## Intuition
+
+PostgreSQL extensions are like plugins for a Swiss Army knife. The base tool already handles most tasks, but when you need a Phillips head screwdriver or a corkscrew, you attach the right extension. PostGIS gives you spatial awareness, pg_trgm gives you fuzzy matching, and pgcrypto gives you encryption. The power comes from knowing which attachment to reach for rather than trying to do everything with the standard blade.
+
+Logical replication is like sending a newsletter to subscribers. You publish updates from a source database, and only interested parties receive them. This is different from physical replication, which copies the entire newspaper verbatim. The ability to choose which tables and which rows to replicate makes logical replication a precise tool for data sharing, migration, and change capture.
+
 ## Common Pitfalls
 
 ### Not Setting wal_level Before Creating Replicas

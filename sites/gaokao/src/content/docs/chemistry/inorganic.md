@@ -331,6 +331,26 @@ $$\begin{array}{lccc}
 
 **考试技巧：** 强碱弱酸盐溶液的 $\text{pH}$ 计算，先求水解常数，再利用近似计算求 $[\text{OH}^-]$，最后求 $\text{pH}$。
 
+## Intuition
+
+Inorganic chemistry is like learning the periodic table as a map of neighborhoods. Each element lives in a specific neighborhood with specific properties, and elements in the same neighborhood behave similarly. Sodium and potassium are neighbors who both react vigorously with water; fluorine and chlorine are neighbors who both love to steal electrons. Understanding these neighborhood patterns lets you predict behavior without memorizing every individual reaction.
+
+Chemical reactions are like conversations between elements. Some elements are shy and prefer to share electrons gently (covalent bonding), while others are aggressive and demand electrons outright (ionic bonding). Knowing which elements are introverts and which are extroverts helps you predict how they will interact when they meet.
+
+## Common Mistakes
+
+### Mistake 1: Forgetting that solids and pure liquids are excluded from equilibrium constant expressions
+
+When writing the equilibrium constant $K = [C]^c[D]^d / [A]^a[B]^b$, only gaseous and aqueous species are included. Pure solids and pure liquids have activity of 1 and do not appear in the expression. Students often include solid reactants or products in $K$, leading to incorrect calculations. Always check the physical state of each species before writing the expression.
+
+### Mistake 2: Confusing the direction of equilibrium shift when concentration changes
+
+Le Chatelier's principle states that the system shifts to partially counteract the change. If you increase the concentration of a reactant, the equilibrium shifts toward products (right). Students sometimes reverse this logic. A reliable method is to calculate the reaction quotient $Q$ after the change: if $Q < K$, the reaction shifts right; if $Q > K$, it shifts left.
+
+### Mistake 3: Mixing up the anode and cathode in electrochemical cells
+
+In a galvanic cell, oxidation occurs at the anode and reduction at the cathode. The anode has the lower (more negative) reduction potential. Students frequently swap anode and cathode, leading to incorrect cell potential calculations. Remember: $E_{cell} = E_{cathode} - E_{anode}$, and the anode is where electrons are produced (oxidation).
+
 ## Cross-References
 
 - [Organic Chemistry](/gaokao/chemistry/organic) - Organic reaction types and functional group conversions that complement inorganic principles

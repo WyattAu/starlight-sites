@@ -431,6 +431,12 @@ Identities.
 
 ---
 
+## Intuition
+
+Think of BMO preparation like training for a marathon. You would not expect to run a race without building stamina through daily practice, and the same applies to mathematical problem-solving. Each past paper you attempt is a training run: some days feel easy, other days you hit a wall. The key is consistent effort over months, not cramming in the final week.
+
+Mathematical proof is like building a bridge. You start with known materials such as axioms and theorems, and you must connect them in a way that holds weight under scrutiny. A single weak joint such as an unjustified step can cause the entire structure to collapse. The elegance of a proof lies not in its length but in the clarity of its logical flow, much like the best bridges are those that appear simple despite the engineering behind them.
+
 ## 8. Common Pitfalls
 
 **Assuming what you need to prove.** The most common error. Each step must follow from previous

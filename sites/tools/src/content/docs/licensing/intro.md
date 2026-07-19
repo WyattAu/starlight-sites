@@ -238,3 +238,11 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Intuition
+
+Software licensing is like setting the rules for a public park. By default, the park is private (all rights reserved). A license is like putting up a sign that says "You can walk here, but do not litter." Permissive licenses are like "Use this park however you want, just do not claim you built it." Copyleft licenses are like "You can use this park, but if you build an extension, it must follow the same rules." The key insight is that licensing is about permissions and obligations - you get certain rights (to use, modify, distribute) in exchange for certain duties (attribution, sharing derivatives under the same license). Choosing a license is choosing what kind of community you want around your software.
+
+## Cross-References
+
+- [Software Licensing](/tools/licensing/software-licensing) - Detailed reference for specific licenses and compliance obligations

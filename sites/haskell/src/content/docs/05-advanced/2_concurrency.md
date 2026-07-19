@@ -667,6 +667,12 @@ ghc -O2 -threaded -rtsopts -with-rtsopts=-N MyProgram.hs
 7. **Profile before optimizing**: Use `+RTS -s` and ThreadScope to identify bottlenecks
 8. **Prefer pure parallelism with strategies**: When you do not need side effects
 
+## Intuition
+
+Haskell concurrency is like a busy restaurant kitchen. Each chef (green thread) works independently, and the head chef (scheduler) coordinates them. Haskell's lightweight threads are like having many part-time chefs: they are cheap to create and can be assigned to different stations as needed.
+
+STM (Software Transactional Memory) is like a bank transaction. You write your changes to a temporary log, and if everything looks good, you commit. If someone else made a conflicting change, you roll back and try again. This atomic approach prevents the kind of data corruption that happens when two people try to update the same record at the same time.
+
 ## Cross-References
 
 - [Monads and Functors](/haskell/04-monads/1_monads-and-functors) - How IO monad and STM provide the foundation for composable concurrency

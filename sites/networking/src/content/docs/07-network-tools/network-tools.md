@@ -1075,6 +1075,10 @@ linked above.
 
 
 </aside>
+## Intuition
+
+Network troubleshooting is like detective work - you follow clues from the physical layer up. `ping` is like knocking on someone's door to see if they are home. `traceroute` is like asking each post office along the way to tell you which path your letter took. `tcpdump` is like secretly reading every letter that passes through your mailbox. `dig` is like calling directory assistance to look up someone's address. The OSI-layer approach works because each layer depends on the one below it - if the cable is unplugged (Layer 1), nothing else matters. The key insight is that most network problems are simple (cable unplugged, DNS misconfigured, firewall blocking), so always start with the basics before diving into packet captures.
+
 ## Cross-References
 
 - [Traffic Analysis](/networking/07-network-tools/traffic-analysis) - Deep packet inspection and protocol analysis techniques

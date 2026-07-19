@@ -670,6 +670,12 @@ let handler: CompletionHandler = { result in
 }
 ```
 
+## Intuition
+
+Swift's type inference is like a smart assistant who figures out what you mean without you having to explain everything. When you write let x = 5, Swift knows x is an Int without you saying so. This is like a friend who understands your shorthand: you say grab the thing, and they know exactly which thing you mean.
+
+Constants with let are like promises. Once you set a constant, you are promising not to change it. This is not just a suggestion; the compiler enforces it. Using let when you do not need to change a value is like writing a contract that prevents future accidents.
+
 ## Worked Examples
 
 ### Example 1: Safe Optional Chain with Result

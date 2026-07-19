@@ -558,6 +558,12 @@ Operating 5 different databases often exceeds the cost of operating one database
 Your use cases adequately.
 
 
+## Intuition
+
+The CAP theorem is like a three-legged stool: consistency, availability, and partition tolerance. You can have at most two legs at any time. Since network partitions are a fact of life in distributed systems, the real choice is between consistency and availability. This is not a failure of design but a physical reality of building systems across multiple machines.
+
+NoSQL databases are like different types of transportation. A document store is a cargo van: it carries large, self-contained packages of data. A key-value store is a filing cabinet: you put something in, you take it out by its label. A column-family store is a warehouse with narrow aisles optimized for reading many rows of the same item. A graph database is a road map optimized for navigating relationships. The right vehicle depends on what you are hauling and where you need to go.
+
 ## Common Pitfalls
 
 ### Using NoSQL to Avoid Learning SQL

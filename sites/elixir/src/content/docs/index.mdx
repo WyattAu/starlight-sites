@@ -20,6 +20,26 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 Elixir is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked examples, practice problems, and flashcards.
 
+## Intuition
+
+Elixir is like a team of skilled workers, each with their own workspace and tools. They communicate by passing notes rather than sharing a whiteboard. This isolation means one worker's mistake does not corrupt another's work, and the supervisor can replace a worker without disrupting the team.
+
+These notes guide you from the basics of the workshop (data types and pattern matching) to the advanced machinery (metaprogramming and OTP). Each section builds on the previous, like learning to use hand tools before power tools. Master the fundamentals, and the advanced topics become natural extensions of what you already know.
+
+## Common Mistakes
+
+### Mistake 1: Forgetting to use the pipe operator for function chaining
+
+Elixir developers often nest function calls deeply, making code hard to read. The pipe operator `|>` passes the result of the left-hand expression as the first argument to the right-hand function. Instead of `Enum.sum(Enum.filter(Enum.map(list, &(&1 * 2)), &(&1 > 10)))`, write `list |> Enum.map(&(&1 * 2)) |> Enum.filter(&(&1 > 10)) |> Enum.sum()`. The pipe operator is idiomatic Elixir and makes data transformation pipelines clear.
+
+### Mistake 2: Not using pattern matching for function clauses
+
+Students often use conditional statements (`if`/`case`) inside a single function body instead of defining multiple function clauses with pattern matching. For example, instead of writing `def handle(:ok, data), do: ...` and `def handle(:error, reason), do: ...` as separate clauses, they write one function with a case statement. Multiple clauses are more readable and follow Elixir conventions.
+
+### Mistake 3: Ignoring process isolation in concurrent code
+
+Elixir processes are isolated by default -- they do not share memory. Students coming from shared-memory languages sometimes assume they can mutate shared state. Instead, use message passing (`send/2` and `receive`) or agents/ETS for shared state. Each process has its own heap and stack, so a crash in one process does not affect others unless you explicitly link them.
+
 ## Topics
 
 <CardGrid>
@@ -59,3 +79,9 @@ Elixir is a programming language with a rich type system and ecosystem. These no
     </Card>
   </a>
 </CardGrid>
+
+## Cross-References
+
+- [Elixir Introduction](/elixir/00-intro/1_elixir-intro) - Language overview and BEAM VM fundamentals
+- [Basics and Pattern Matching](/elixir/01-basics/1_basics-and-pattern-matching) - Core data types and pattern matching syntax
+- [Concurrency and OTP](/elixir/03-concurrency/1_concurrency-otp) - Processes, GenServer, and supervision trees

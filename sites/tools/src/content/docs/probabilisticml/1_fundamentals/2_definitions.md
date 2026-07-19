@@ -2129,6 +2129,11 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-$$
+## Intuition
 
-$$
+Probability theory is the mathematics of uncertainty. Think of it like a weather forecast - you cannot predict exactly if it will rain, but you can say there is a 70% chance. Sets are like labeled containers - you can put items in them, combine them, or find what is common between them. Random variables are like dice rolls - they produce different outcomes with different probabilities. The expectation is like the average outcome if you rolled the dice many times. The key insight is that probability is not about what will happen, but about what is likely to happen and how confident we are in our predictions. This framework lets us make decisions under uncertainty, which is the heart of machine learning.
+
+## Cross-References
+
+- [Supervised Learning](/tools/probabilisticml/1_fundamentals/1_supervised_learning) - How probability theory is applied to training predictive models
+- [Probabilistic ML Introduction](/tools/probabilisticml/0_intro) - Overview of probabilistic approaches to machine learning

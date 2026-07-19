@@ -698,6 +698,12 @@ func processLargeDataset(_ data: [DataPoint]) async {
 }
 ```
 
+## Intuition
+
+Swift concurrency with async/await is like giving instructions to a personal assistant. You say go fetch this, and the assistant goes off to do it while you continue with other work. When the assistant returns with the result, you pick up where you left off. The assistant handles the complexity of managing the task in the background.
+
+Actors in Swift are like single-threaded offices. Only one person can be in the office at a time, so there is never confusion about who is working on what. If someone else needs to do something in the office, they must wait their turn. This serialization prevents data races by design.
+
 ## Worked Examples
 
 ### Example 1: Actor-Based Rate Limiter

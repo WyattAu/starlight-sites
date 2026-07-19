@@ -682,6 +682,12 @@ runApp config state action =
   runExceptT (evalStateT (runReaderT action config) state)
 ```
 
+## Intuition
+
+Monads are like containers with rules. A Maybe monad is a box that might be empty. An IO monad is a box that performs side effects. The rules say how to put values into the box (return) and how to chain operations on boxed values (>>=). Understanding monads is like understanding how to work with packages: you must follow the shipping rules to move items safely.
+
+The do notation is like a recipe. Each line in a do block is a step, and the monad handles the plumbing between steps. Without do notation, you would chain operations manually with >>=. With do notation, it reads like a normal sequential program, even though the underlying operations might be doing something complex like handling failures or performing I/O.
+
 ## Worked Examples
 
 ### Example 1: Chain of Maybe Computations

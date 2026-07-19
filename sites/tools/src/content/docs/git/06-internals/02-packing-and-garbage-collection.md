@@ -251,5 +251,11 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
 
-</aside>
+Packing is like compressing a photo album. Loose objects are like individual photos scattered in a drawer - easy to add but take up space. Packfiles are like putting all photos in an album with shared pages - similar photos share the same background, saving space. Delta compression is like storing only the differences between similar photos instead of full copies. Garbage collection is like cleaning out the attic - it removes photos that nobody is looking at anymore (unreachable objects) and organizes the rest. The key insight is that Git balances speed (loose objects for quick writes) with efficiency (packed objects for storage), automatically transitioning between the two as needed.
+
+## Cross-References
+
+- [Git Directory Structure](/tools/git/06-internals/01-git-directory-structure) - How the .git directory organizes objects and references
+- [Hash Algorithm](/tools/git/06-internals/03-hash-algorithm) - How SHA-1 hashing ensures object integrity

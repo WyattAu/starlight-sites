@@ -708,6 +708,12 @@ WHERE created_at >= '2024-01-15' AND created_at &lt; '2024-01-16';
 CREATE INDEX idx_orders_created_date ON orders ((DATE(created_at)));
 ```
 
+## Intuition
+
+Query optimization is like planning a route through a city. You can take the highway, the back roads, or a combination. The highway is fast but may have traffic; the back roads are slow but predictable. The query planner chooses the route based on distance, traffic, and road conditions. When the planner's information is stale, it chooses the wrong route and your query takes the scenic path.
+
+Statistics are the weather report for your query planner. Without accurate statistics, the planner is navigating blind. A column with ten distinct values and a column with a million distinct values require different strategies. If the planner thinks there are ten values when there are actually a million, it will choose the wrong index and the wrong join strategy. Running ANALYZE regularly is like checking the weather before you leave the house.
+
 ## Common Pitfalls
 
 ### Stale Statistics

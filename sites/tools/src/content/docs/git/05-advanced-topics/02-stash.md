@@ -209,5 +209,11 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
 
-</aside>
+Stash is like a "pause button" for your work. Imagine you are writing a letter and someone asks you to check something else quickly. Instead of finishing the letter or throwing it away, you put it in a drawer (stash) and come back to it later. The drawer is a stack - the last letter you put in is the first one you take out. Stash is useful when you need to switch tasks but your current work is not ready to commit. The key insight is that stash is a convenience mechanism, not a replacement for commits - it stores temporary changes that you intend to reapply soon. For longer-term storage, create a branch and commit.
+
+## Cross-References
+
+- [Reflog](/tools/git/05-advanced-topics/01-reflog) - How to recover stashes that were accidentally dropped
+- [Bisect](/tools/git/05-advanced-topics/03-bisect) - Another advanced Git technique for finding bugs

@@ -778,4 +778,11 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-</aside>
+## Intuition
+
+The coroutine machinery is like a theater production. The promise type is the script - it defines what happens when the coroutine starts, ends, and produces values. The awaiter is the stage manager - it decides when to pause the action (suspend) and when to resume. The coroutine handle is like a remote control for the actor - it lets you pause, resume, and check if the performance is over. The key insight is that coroutines separate the "what" (promise) from the "when" (awaiter) - you can reuse the same promise with different awaiters to control suspension behavior. This separation enables powerful patterns like lazy evaluation, async I/O, and cooperative multitasking.
+
+## Cross-References
+
+- [Stackless Coroutine Frames](/cpp/concurrency/3_coroutines_and_async_io/1_coroutine_frames) - How coroutine frames are allocated and managed
+- [Generators](/cpp/concurrency/3_coroutines_and_async_io/3_generators) - Using coroutines to produce lazy sequences

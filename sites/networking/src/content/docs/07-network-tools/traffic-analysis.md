@@ -872,6 +872,10 @@ linked above.
 
 
 </aside>
+## Intuition
+
+Traffic analysis is like wiretapping a phone system to understand what conversations are happening. A SPAN port is like putting a splitter on a phone line so you can listen in without cutting the connection. A TAP is like a professional recording device that sits inline and captures everything perfectly. The challenge is that modern traffic is mostly encrypted (TLS), so you see the envelope (metadata) but not the letter (content). NetFlow is like keeping a phone log - you record who called whom, when, and for how long, but not what was said. The key insight is that metadata alone is incredibly powerful for troubleshooting and security, even without decrypting the content.
+
 ## Cross-References
 
 - [Network Tools](/networking/07-network-tools/network-tools) - Complementary diagnostic tools for network troubleshooting

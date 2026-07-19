@@ -725,6 +725,12 @@ end
 - **Ruby source code**: https://github.com/ruby/ruby
 - **Rails guides**: https://guides.rubyonrails.org/
 
+## Intuition
+
+Ruby is like a conversation. Methods are verbs, objects are nouns, and blocks are parenthetical asides. Writing Ruby code feels like speaking a natural language because Yukihiro Matsumoto designed it to be human-readable first and machine-executable second. This philosophy means that Ruby code often reads like English prose.
+
+Everything in Ruby is an object, which is like saying everything in the real world has properties and behaviors. Numbers can tell you if they are even, strings can tell you their length, and even the concept of nothingness (nil) can tell you that it is nil. This object-oriented consistency means you do not need to remember different rules for different types.
+
 ## Worked Examples
 
 ### Example 1: Idiomatic Ruby Data Transformation

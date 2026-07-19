@@ -158,3 +158,17 @@ $$f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2$$
 3. For surjectivity, try to solve $f(x) = y$ for arbitrary $y$ in the codomain
 4. Composition order matters: $(f \circ g)(x) = f(g(x))$, not $g(f(x))$
 5. A function has an inverse if and only if it is bijective; to find it, solve $y = f(x)$ for $x$
+
+## Common Mistakes
+
+### Mistake 1: Confusing composition order
+
+Function composition is not commutative: $(f \circ g)(x) = f(g(x))$ is generally not equal to $(g \circ f)(x) = g(f(x))$. Students often compute $g(f(x))$ when the question asks for $f(g(x))$, or assume the order does not matter. Always write out the substitution explicitly: for $f \circ g$, plug $g(x)$ into $f$, not the other way around.
+
+### Mistake 2: Assuming a relation that is reflexive and symmetric must be transitive
+
+A relation can be reflexive and symmetric without being transitive. For example, on $\{1, 2, 3\}$, the relation $\{(1,1), (2,2), (3,3), (1,2), (2,1), (2,3), (3,2)\}$ is reflexive and symmetric but not transitive because $(1,2)$ and $(2,3)$ are in $R$ while $(1,3)$ is not. Always check all three properties independently.
+
+### Mistake 3: Forgetting that composition is not the same as multiplication
+
+Students sometimes compute $(f \circ g)(x)$ as $f(x) \cdot g(x)$ instead of $f(g(x))$. Composition means substituting the entire function $g(x)$ into $f$ as the input variable. For example, if $f(x) = 2x + 3$ and $g(x) = x^2$, then $(f \circ g)(x) = 2x^2 + 3$, not $(2x + 3)(x^2)$.

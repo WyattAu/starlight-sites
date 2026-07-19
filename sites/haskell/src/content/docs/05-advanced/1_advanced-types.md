@@ -653,6 +653,12 @@ data Person = Person
 7. **Document kind signatures** when working with DataKinds.
 8. **Use Template Haskell sparingly**: it can make code harder to read and debug.
 
+## Intuition
+
+Phantom types are like invisible labels. They add type information without adding runtime data. A phantom type parameter does not appear in the value, but the compiler uses it to enforce constraints at compile time. This is like having a secret code that only the compiler can read.
+
+GADTs are like typed constructors. Each constructor can return a different specific type, not just the generic type. This is like a factory where each machine produces a different product, and the type system knows exactly which product each machine makes.
+
 ## Cross-References
 
 - [Type Classes](/haskell/03-type-classes/1_type-classes) - How type families and GADTs extend the type class system

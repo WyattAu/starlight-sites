@@ -91,3 +91,17 @@ Understanding the chemistry of everyday products helps make informed decisions a
 - Soaps are biodegradable; detergents may not be (branching prevents biodegradation)
 - Food preservatives: maximum permitted levels
 - Drug-receptor interactions: lock-and-key model
+
+## Common Mistakes
+
+### Mistake 1: Confusing antiseptics with disinfectants
+
+Antiseptics are applied to living tissue (skin, wounds) to kill or inhibit microorganisms, while disinfectants are used on non-living surfaces (floors, instruments). Students often swap these terms. Examples: Dettol is an antiseptic; phenol solution is a disinfectant. Using a disinfectant on skin could cause chemical burns, and using an antiseptic on surfaces may be ineffective.
+
+### Mistake 2: Assuming all soaps work equally in hard water
+
+Soap (sodium/potassium salts of fatty acids) reacts with calcium and magnesium ions in hard water to form insoluble scum. Detergents (sodium salts of sulphonic acids) do not form scum and work well in hard water. Students often think soap and detergent are interchangeable, but soap is ineffective in hard water regions. This is why detergents are preferred for laundry.
+
+### Mistake 3: Misclassifying drug types by their mechanism
+
+Analgesics relieve pain, antipyretics reduce fever, and anti-inflammatory drugs reduce inflammation -- but many drugs have overlapping effects. Aspirin is analgesic, antipyretic, AND anti-inflammatory. Students sometimes assume a drug can only belong to one category. Always check the specific pharmacological profile rather than assuming a single classification.

@@ -691,6 +691,12 @@ const a: Secret = new NotSecret();
 
 This is a compile error because the private `secret` field has a different origin class.
 
+## Intuition
+
+Classes in TypeScript are like architectural blueprints with runtime behavior. The class defines the structure (properties) and behavior (methods), and objects are the actual buildings constructed from that blueprint. Access modifiers (public, private, protected) are like security levels: public areas anyone can enter, private areas only the owner can access, and protected areas family members can reach.
+
+Abstract classes are like incomplete blueprints. They define some methods but leave others for the architect (subclass) to complete. You cannot build directly from an abstract blueprint; you must first fill in the missing details.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Forgetting to Call `super()`

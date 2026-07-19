@@ -571,6 +571,12 @@ WHERE account_id = 1 AND balance >= 100;
 -- Check result count: 1 = success, 0 = insufficient funds
 ```
 
+## Intuition
+
+Locking is like a traffic intersection. When two cars arrive at the same time, one must wait. If both cars wait for the other, neither moves and you have a deadlock. The solution is simple: always follow a consistent rule, such as the car on the right goes first. In databases, this means always accessing tables and rows in the same order, always holding locks for the shortest time possible, and always having a retry strategy when deadlocks occur.
+
+Advisory locks are like reserving a table at a restaurant. They do not protect specific rows or tables; they protect the right to perform an operation. If one person reserves the table for a meeting, others must wait until the reservation is released. This is useful for preventing concurrent job execution, coordinating deployments, or ensuring that only one instance of a critical process runs at a time.
+
 ## Common Pitfalls
 
 ### Not Setting lock_timeout

@@ -667,3 +667,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Atomic operations are like using a public restroom with an "occupied" sign. When you flip the sign (store), everyone else knows the room is taken. When you check the sign (load), you know if someone is inside. Compare-and-swap is like checking if the sign says "occupied" and flipping it to "occupied" only if it was "vacant" - all in one indivisible operation. Lock-free programming is like having multiple people waiting for the restroom, but they take turns trying instead of forming a queue. The key insight is that atomics provide the building blocks for synchronization without the overhead of mutexes, but they require careful memory ordering to ensure correctness. The ABA problem is like someone leaving the restroom between your check and your entry - the sign looks the same, but the person inside changed.
+
+## Cross-References
+
+- [Cache Coherency](/cpp/concurrency/2_memory_model_and_atomics/2_cache_coherency) - How CPU caches affect atomic operation performance
+- [Memory Orderings](/cpp/concurrency/2_memory_model_and_atomics/4_memory_orderings) - How to control ordering guarantees for atomic operations
+

@@ -695,6 +695,12 @@ function applySettings(settings: Settings): void {
 `??` treats only `null` and `undefined` as nullish, making it the correct operator for default
 Values when `0``""`Or `false` are valid values.
 
+## Intuition
+
+Error handling in TypeScript is like having a safety manual for a factory. The try/catch pattern is the emergency procedure: when something goes wrong, you follow the documented steps to handle it safely. The type system ensures that you have documented the possible errors before the factory opens.
+
+Result types (like those in fp-ts) are like a quality control checkpoint. Every product (value) that passes through must be inspected, and the inspection result is either pass (Ok) or fail (Err). This forces you to handle both outcomes explicitly, rather than hoping nothing goes wrong.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Catching `any` Instead of `unknown`

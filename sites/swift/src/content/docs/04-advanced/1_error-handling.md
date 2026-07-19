@@ -582,6 +582,12 @@ func decodeUser(from data: Data) -> Result<User, Error> {
 }
 ```
 
+## Intuition
+
+Error handling in Swift is like a safety protocol in a laboratory. The try/catch/finally pattern ensures that when something goes wrong, you clean up properly and inform someone about the problem. The do/try/catch syntax makes the error path explicit: you must acknowledge that an operation might fail.
+
+Optional chaining is like a series of connected pipes. If any pipe in the chain is broken (nil), the water (value) does not flow through. You do not need to check each pipe individually; the chain handles it for you. This is elegant but means you must decide what to do when the chain breaks.
+
 ## Worked Examples
 
 ### Example 1: Nested Result Pipeline with Error Mapping

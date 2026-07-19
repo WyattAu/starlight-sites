@@ -1161,6 +1161,12 @@ SELECT name FROM customers
 WHERE (shipping_address).state = 'CA';
 ```
 
+## Intuition
+
+Advanced SQL is like learning to speak a second language fluently. Basic SQL is like ordering coffee: you know the essentials. Advanced SQL is like having a philosophical conversation: you need complex sentence structures, nuanced expressions, and the ability to convey subtle meanings. Window functions, CTEs, and lateral joins are the advanced vocabulary that lets you express complex ideas.
+
+Common table expressions are like creating temporary shortcuts. Instead of writing a long, complex query multiple times, you define it once and reference it by name. This is like creating a variable in programming: you do the work once and reuse the result whenever needed.
+
 ## Common Pitfalls
 
 ### Using Window Functions in WHERE
@@ -1296,5 +1302,11 @@ $\blacksquare$
 - `LAG`, `LEAD`, `FIRST_VALUE`, `LAST_VALUE` provide positional access within a window frame.
 - Recursive CTEs enable hierarchical queries (org charts, bill-of-materials, tree traversal).
 
+## Cross-References
+
+- [Normalization](/databases/01-relational-theory/normalization) - How normal forms reduce redundancy and prevent update anomalies in relational schemas
+- [Indexing](/databases/03-indexing-optimization/indexing) - How indexes accelerate the queries built with advanced SQL techniques
+- [Query Optimization](/databases/03-indexing-optimization/query-optimization) - How the cost-based optimizer evaluates execution plans for complex SQL
+- [Transactions](/databases/04-transactions/transactions) - How transaction isolation levels affect concurrent SQL operations
 
 </aside>

@@ -975,6 +975,10 @@ linked above.
 
 
 </aside>
+## Intuition
+
+TLS is the security guard of the internet. When you connect to a website, the TLS handshake is like showing your ID at a secure building - the server proves its identity (certificate), you agree on a secret language (cipher suite), and then all your conversations are encrypted. The certificate chain is like a chain of trust - your browser trusts root CAs, which sign intermediate CAs, which sign the server's certificate. If any link breaks, trust fails. TLS 1.3 is like upgrading from a 3-step verification to a 2-step process - faster but equally secure. The key insight is that TLS protects against three threats: eavesdropping (encryption), tampering (MAC), and impersonation (certificates).
+
 ## Cross-References
 
 - [TLS Internals](/networking/06-tls/tls-internals) - Deep dive into handshake mechanics and cryptographic primitives

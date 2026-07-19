@@ -855,6 +855,12 @@ Functions and modules are the organizational backbone of Elixir:
 - Behaviours define interfaces with `@callback` and `@impl`
 - Typespecs with `@type` and `@spec` add optional static type checking
 
+## Intuition
+
+Elixir modules are like toolboxes. Each toolbox has a name, contains specific tools (functions), and some tools are private (defp) so only you can use them inside the box. You can have many toolboxes, and you can combine tools from different toolboxes to build things. The module system gives you namespacing, so you never confuse a hammer from one project with a hammer from another.
+
+Protocols are like electrical outlets. The protocol defines the shape of the outlet (what functions it must provide). Any device (data type) that fits that shape can be plugged in. A List, a Map, and a Tuple can all implement the same protocol, and the code using the protocol does not care which device is plugged in. This is polymorphism without inheritance.
+
 ## Common Mistakes
 
 **Forgetting that `defp` functions are private and cannot be called from outside the module.** Private functions defined with `defp` are only accessible within the defining module. Attempting to call `Module.private_func/1` from another module raises `UndefinedFunctionError`. Use `def` for public APIs and `defp` for internal helpers.

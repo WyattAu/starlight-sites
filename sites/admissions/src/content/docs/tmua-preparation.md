@@ -426,6 +426,12 @@ Question, only one option would be correct. Assuming the question intended to as
 
 ---
 
+## Intuition
+
+TMUA preparation is like learning to navigate without a map. Instead of memorising routes, you develop the ability to reason about directions using landmarks and logical deduction. The test rewards those who can think through unfamiliar territory rather than those who have memorised every possible path. This is why understanding logical arguments matters more than knowing specific theorems.
+
+Statistical reasoning on the TMUA is like being a detective. You examine evidence such as data and correlations, but you must resist the temptation to jump to conclusions. A strong correlation between ice cream sales and drowning rates does not mean one causes the other; it means a third factor such as summer heat drives both. Learning to separate coincidence from causation is the heart of statistical thinking.
+
 ## 5. Common Pitfalls
 
 **Confusing the contrapositive with the converse.** The contrapositive of $P \implies Q$ is

@@ -688,6 +688,12 @@ BRPOP queue:jobs 30
 LPUSH queue:jobs:failed job_payload
 ```
 
+## Intuition
+
+Redis is like a whiteboard in a busy office. Everyone can read from it and write to it, and the current state is always visible. Because everything lives in memory, it is fast, but when the power goes out, the whiteboard is wiped clean. Persistence mechanisms like RDB and AOF are the sticky notes that remind you what was written, but choosing between them is a trade-off between durability and speed.
+
+Redis data structures are like specialized tools in a toolbox. Strings are the screwdriver, lists are the conveyor belt, sets are the collection jar, sorted sets are the ranked leaderboard, and hashes are the filing folder. Using the right structure for each job makes the difference between elegant efficiency and clumsy workarounds. A leaderboard built on sorted sets is natural; a leaderboard built on strings requires manual sorting every time.
+
 ## Common Pitfalls
 
 ### Using KEYS in Production

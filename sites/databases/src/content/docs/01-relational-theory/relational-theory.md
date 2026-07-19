@@ -593,6 +593,12 @@ erDiagram
 4. **1:N relationships:** add the foreign key to the "N" side
 5. **M:N relationships:** create an association table with composite primary key
 
+## Intuition
+
+Relational theory is like the rules of chess. The pieces (tables, rows, columns) have specific roles, and the rules (relational algebra) define how they can move. Understanding the theory does not mean memorizing formulas; it means understanding why the pieces move the way they do.
+
+Codd's rules are like the principles of good governance. They define what a relational database should guarantee: logical data independence, referential integrity, and consistent views. A database that follows these rules is like a government that follows its constitution: predictable, reliable, and trustworthy.
+
 ## Common Pitfalls
 
 ### Using Natural Keys When Surrogate Keys Are Appropriate
@@ -883,5 +889,10 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Normalization](/databases/01-relational-theory/normalization) - How normal forms apply relational theory to eliminate redundancy
+- [SQL](/databases/02-sql-fundamentals/sql) - The query language that implements relational algebra and relational calculus
+- [Data Modeling](/databases/06-database-design/data-modeling) - How conceptual models map to the relational structures described here
 
 </aside>

@@ -849,6 +849,12 @@ wordFrequenciesLet text =
     countGroup ws = (head ws, length ws)
 ```
 
+## Intuition
+
+Type inference in Haskell is like a detective solving a case. The compiler looks at the clues (how you use variables and functions) and deduces what types they must be. You do not need to state the type of every variable because the compiler figures it out from context. This is like a detective who can identify suspects without being told their names.
+
+Currying in Haskell is like a assembly line. A function that takes two arguments is actually a function that takes one argument and returns a new function that takes the second argument. This is like a factory worker who performs one step and passes the result to the next worker. Currying makes partial application natural: you can specialize a function by giving it some arguments now and the rest later.
+
 ## Common Mistakes
 
 **Confusing `==` with `eq` for type equality.** In Haskell, `==` is the equality operator defined in the `Eq` type class for comparing values. `Eq` is a type class, not a function. Students coming from other languages often write `eq a b` instead of `a == b`, which causes a compilation error because `eq` is not a function name.

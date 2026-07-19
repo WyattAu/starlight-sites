@@ -174,3 +174,12 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Hashing is like a fingerprint for data. Just as a fingerprint uniquely identifies a person, a hash uniquely identifies a piece of content. Content-addressable storage is like a library where books are shelved by their ISBN number instead of by title or author - if two books have the same ISBN, they must be the same book. SHA-1 produces a 40-character hex string that acts as this ISBN. The key insight is that hashing provides integrity verification - if even one bit of a file changes, its hash changes completely. This is like a tamper-evident seal on a package - any attempt to open it leaves evidence. Git uses this to ensure that every object in the repository is exactly what it claims to be.
+
+## Cross-References
+
+- [Git Directory Structure](/tools/git/06-internals/01-git-directory-structure) - How hashed objects are stored in the .git directory
+- [Packing and Garbage Collection](/tools/git/06-internals/02-packing-and-garbage-collection) - How Git manages object lifecycle using hashes

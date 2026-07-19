@@ -534,6 +534,12 @@ const log = debounce((message: string) => console.log(message), 300);
 log('hello');
 ```
 
+## Intuition
+
+Function types in TypeScript are like machine specifications. A function that takes a number and returns a string is like a machine that converts raw materials (numbers) into finished products (strings). The type annotation describes what goes in and what comes out, so you know exactly what the machine does.
+
+Optional parameters are like adjustable settings on a machine. You can run the machine with default settings, or you can tweak the parameters to customize the output. The type system ensures that when you do adjust the settings, you provide values of the right type.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Implementation Signature Mismatch

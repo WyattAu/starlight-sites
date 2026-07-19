@@ -753,6 +753,12 @@ function Example() {
 }
 ```
 
+## Intuition
+
+TypeScript with React is like having a co-pilot. When you write a component, TypeScript checks that you are passing the right props with the right types. This is like a navigator who calls out hazards before you hit them: wrong prop type? The compiler warns you before the component renders incorrectly.
+
+Typed hooks are like labeled containers. useState<number>(0) tells TypeScript that this state holds a number. This prevents you from accidentally putting a string in a number container, catching the bug before it causes a runtime error.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Event Handler Type Mismatches

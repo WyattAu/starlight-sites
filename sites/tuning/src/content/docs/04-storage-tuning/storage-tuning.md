@@ -408,6 +408,12 @@ DEVICESCAN -m admin@example.com -M exec /usr/share/smartmontools/smartd-runner
 
 ---
 
+## Intuition
+
+Storage tuning is like organizing a library. SSDs are like having all your books on your desk: fast access but limited space. HDDs are like having books in the basement: slow to retrieve but lots of room. The right storage strategy puts frequently used books on the desk and archives the rest.
+
+TRIM and garbage collection are like librarians who reshelve books. Without them, the shelves fill up with mis-shelved books and finding anything takes longer. Regular maintenance keeps the library running smoothly.
+
 ## Common Pitfalls
 
 ### Using RAID 5 with Large Drives

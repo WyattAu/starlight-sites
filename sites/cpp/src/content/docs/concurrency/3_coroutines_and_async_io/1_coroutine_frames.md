@@ -769,4 +769,11 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-</aside>
+## Intuition
+
+Coroutine frames are like paused video games. When you suspend a coroutine, it is like saving your game state - all local variables, the instruction pointer, and the call stack are preserved in a heap-allocated frame. When you resume, it is like loading the saved game and continuing exactly where you left off. The "stackless" part means the coroutine does not keep its own call stack - instead, the compiler transforms it into a state machine that fits in a single heap allocation. This is different from threads (which have their own stacks) and is more memory-efficient. The key insight is that coroutines enable asynchronous programming without callback hell - you write sequential-looking code that the compiler transforms into non-blocking operations.
+
+## Cross-References
+
+- [Promise, Awaiter](/cpp/concurrency/3_coroutines_and_async_io/2_promise_awaiter) - How promise types and awaiters control coroutine behavior
+- [Generators](/cpp/concurrency/3_coroutines_and_async_io/3_generators) - Using coroutines to produce lazy sequences

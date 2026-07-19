@@ -94,6 +94,12 @@ Each module contains rigorous definitions, compile-ready code examples, comparis
 Common-pitfall warnings. Cross-references between modules are provided where topics are
 Interdependent.
 
+## Intuition
+
+TypeScript types are like blueprints for a building. The blueprint describes what the building should look like: how many rooms, what goes in each room, and how they connect. JavaScript is the actual building; TypeScript is the blueprint that ensures the building is constructed correctly.
+
+The type checker in TypeScript is like a building inspector who reviews your blueprints before construction begins. If you try to put a bedroom where the blueprint says kitchen, the inspector catches the error before you pour any concrete. This catches bugs at design time rather than at runtime.
+
 ## Common Pitfalls
 
 1. Using `any` as a shortcut. It disables all type checking for a value and propagates unsoundness.

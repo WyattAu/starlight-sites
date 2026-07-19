@@ -959,5 +959,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
 
-</aside>
+Interior mutability is like a locked diary with a special pen that can write through the cover. Normally, if someone hands you a sealed box (shared reference), you cannot modify its contents. Interior mutability types are like giving you a special key that lets you modify the contents while still promising others that the box is sealed. `Cell` is like a small safe where you can swap items without opening it. `RefCell` is like a library book that tracks who is reading and writing - it panics at runtime if someone tries to write while others are reading. The key insight is that interior mutability trades compile-time guarantees for runtime checks, which is sometimes necessary when the borrow checker cannot prove safety statically.
+
+## Cross-References
+
+- [Ownership](/rust/02-ownership-borrowing/ownership) - The foundational ownership rules that interior mutability works within
+- [Lifetimes](/rust/02-ownership-borrowing/lifetimes) - How lifetime constraints interact with interior mutability types
+- [Structs and Enums](/rust/03-structs-enums/structs-and-enums) - How to design types that use interior mutability patterns

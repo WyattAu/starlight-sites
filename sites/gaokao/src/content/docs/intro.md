@@ -186,6 +186,12 @@ questions, and detailed solutions.
   strategies: adequate sleep, regular exercise, and balanced nutrition in the weeks leading up to
   the exam are as important as academic preparation.
 
+## Intuition
+
+The Gaokao is like a marathon, not a sprint. You would not expect to run 26 miles without months of training, and the same applies to this exam. Each subject you study is a training session: some days you build endurance with long practice sets, other days you work on speed with timed drills. The key is consistent effort over the months leading up to the exam, not cramming in the final week.
+
+Strategy is like a game plan in sports. You would not enter a basketball game without knowing which plays to run in different situations. Similarly, knowing which sections to tackle first, which questions to skip and return to, and how to allocate your time across subjects is the difference between a good performance and a great one. The best athletes and the best students both succeed because they prepare their strategy as carefully as their skills.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
