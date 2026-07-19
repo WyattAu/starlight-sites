@@ -530,6 +530,10 @@ int main() {
 }
 ```
 
+## Intuition
+
+The special member functions are the compiler's default behaviours for creating, copying, moving, and destroying objects. The rule of five says: if you customise any one of these five operations, you should customise all five -- like a restaurant that manages its own deliveries rather than relying on defaults. Declaring a destructor suppresses implicit move generation because the compiler assumes you are doing something special with resources. The = default specifier tells the compiler "give me the standard behaviour," while = delete says "this operation is forbidden," like marking a door as exit-only.
+
 ## Common Pitfalls
 
 ### 1. Copy Assignment Without Self-Assignment Check

@@ -1016,3 +1016,10 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 | push(8)   | [8, 5]               | —      |
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |
+
+## Cross-References
+
+- [Context Managers](/python/context-managers): Shows how async context managers provide resource management for asynchronous operations.
+- [Object-Oriented Programming](/python/object-oriented): Demonstrates how to create async classes with async methods and async iterators.
+- [Error Handling](/python/error-handling): Explains how to handle exceptions in async code, including try/except with async context managers.
+- [Concurrency with Threading](/python/threading): Compares asyncio with threading and multiprocessing for different concurrency needs.

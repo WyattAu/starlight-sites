@@ -135,3 +135,10 @@ The AP English Language exam consists of two sections:
 - Use topic sentences that advance the argument rather than merely describing the source or device.
 - Embed quotations smoothly into your analysis; avoid "dropped quotes" without context.
 - Allocate approximately 40 minutes for each essay; keep track of time.
+
+## Cross-References
+
+- [Rhetorical Analysis](/ap/english/rhetorical-analysis): Develops the analytical skills needed to examine how authors use language to achieve their purposes.
+- [Argument Essay](/ap/english/argument): Builds on close reading and analysis skills to construct persuasive arguments with evidence.
+- [Synthesis Essay](/ap/english/synthesis): Integrates multiple sources into a coherent argument, requiring strong reading and writing skills.
+- [Close Reading](/ap/english/close-reading): Strengthens your ability to analyze texts carefully, which is foundational for all AP English essay types.

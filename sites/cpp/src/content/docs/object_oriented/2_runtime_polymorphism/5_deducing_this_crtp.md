@@ -707,6 +707,10 @@ int main() {
 }
 ```
 
+## Intuition
+
+CRTP is a compile-time trick where a derived class passes itself as a template parameter to its base, like a student telling the teacher "I am the example you should use." The base class can then call methods on the derived class without virtual dispatch -- it knows the exact type at compile time. Deducing this in C++23 eliminates the need for this pattern by letting you write methods that explicitly deduce the object's type, like a function that asks "what kind of thing am I?" at call time. Both techniques achieve static polymorphism, avoiding the runtime cost of virtual functions.
+
 ## See Also
 
 - [Virtual Functions and vtables](./1_vtables.md)

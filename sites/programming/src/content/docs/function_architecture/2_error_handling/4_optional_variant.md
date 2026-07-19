@@ -595,6 +595,10 @@ int main() {
 }
 ```
 
+## Intuition
+
+std::optional is a box that may or may not contain a value, like a treasure chest that could be empty. You must check before using it, which forces you to handle the absence case explicitly -- no null pointer dereferences. std::variant is a type-safe union, like a multi-tool that holds exactly one implement at a time. You use std::visit to handle each possible type, like a switch statement that the compiler enforces exhaustively. Both are stack-allocated, meaning no heap allocation and no garbage collection -- they are zero-overhead alternatives to exceptions for representing success-or-failure and multi-type results.
+
 ## Common Pitfalls
 
 - **Using `*opt` without checking.** Dereferencing an empty `std::optional` is undefined behavior.

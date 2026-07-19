@@ -167,3 +167,10 @@ Bacon's Rebellion, King Philip's War, triangular trade, chattel slavery
 - Analyse how interactions between Europeans and Native Americans varied by region
 - Understand how colonial labour systems evolved from indentured servitude to racial slavery
 - Connect the First Great Awakening to later revolutionary ideas about individual liberty
+
+## Cross-References
+
+- [Periods 3-4 (1754-1848)](/ap/history/periods-3-4): Continues the narrative of colonial development into the American Revolution and early republic, building on themes of governance and colonial resistance.
+- [Period 5 (1844-1877)](/ap/history/period-5): Explores the consequences of slavery and westward expansion that began in the colonial period.
+- [AP US History Diagnostic Test](/ap/history/diagnostic-test): Tests your knowledge of colonial American history and identifies gaps in understanding.
+- [AP US History Practice](/ap/history/practice): Provides exam-style questions to reinforce your understanding of colonial America's development.

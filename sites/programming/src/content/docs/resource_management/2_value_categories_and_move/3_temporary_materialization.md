@@ -744,6 +744,10 @@ void new_demo() {
 }
 ```
 
+## Intuition
+
+Temporary materialization is the bridge between abstract recipes and real objects. Think of a prvalue as a recipe written on a card -- it tells you how to construct something but is not the thing itself. The card only becomes a real object when someone actually needs to hold it: binding to a reference, reading a member, or taking its address. Before C++17, every temporary was already a real object, and the compiler could optionally skip copying it. Now the recipe is applied directly to the destination when possible, making guaranteed copy elision work without the compiler needing to prove anything.
+
 ## Common Pitfalls
 
 - **Dangling references from lifetime non-extension.** Returning a reference to a materialized

@@ -1074,3 +1074,9 @@ linked above.
 
 
 </aside>
+## Cross-References
+
+- [Types and Variables](./types-and-variables): Provides the foundation of Rust's type system, which is essential for understanding pattern matching and control flow expressions.
+- [Ownership and Borrowing](/rust/ownership-borrowing): Explains Rust's memory safety guarantees that enable fearless control flow without runtime checks.
+- [Structs and Enums](/rust/structs-enums): Shows how to define the data types that pattern matching operates on, including enums with associated data.
+- [Error Handling](/rust/error-handling): Builds on pattern matching with Result and Option types for robust error handling in control flow.

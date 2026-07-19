@@ -253,3 +253,10 @@ Vietnam War, Watergate, Reagan Revolution, September 11
 - Explain the causes and consequences of the Cold War
 - Trace the development of the civil rights movement from legal challenges to mass protest
 - Connect events across periods using the thematic framework
+
+## Cross-References
+
+- [Period 6 (1865-1898)](/ap/history/period-6): Shows the industrialisation and social problems that the Progressive Era sought to address.
+- [AP US History Diagnostic Test](/ap/history/diagnostic-test): Tests your knowledge of the 20th century, including the world wars, Cold War, and civil rights movement.
+- [AP US History Practice](/ap/history/practice): Provides practice questions on modern American history and contemporary issues.
+- [AP US History Index](/ap/history): Offers an overview of all periods covered in the AP US History curriculum.

@@ -155,3 +155,9 @@ This page includes:
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 </aside>
+## Cross-References
+
+- [AP Biology](/ap/biology): Covers the study of living organisms, including细胞结构, genetics, and evolution.
+- [AP Chemistry](/ap/chemistry): Explores matter and its interactions, including atomic structure, chemical reactions, and thermodynamics.
+- [AP Physics](/ap/physics): Investigates the fundamental principles of matter and energy, including mechanics, electricity, and magnetism.
+- [AP Calculus](/ap/calculus): Develops mathematical skills for analysing change and motion, essential for science and engineering.

@@ -924,3 +924,9 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+## Cross-References
+
+- [Serialization](./04-serialization): Shows how to serialize and deserialize data for inter-process communication in multiprocessing scenarios.
+- [Async/Await](/python/async): Explores the asyncio event loop and coroutines as an alternative concurrency model to threads and processes.
+- [File I/O](/python/file-io): Demonstrates thread-safe file operations and how concurrency primitives protect shared file resources.
+- [Error Handling](/python/error-handling): Explains how to handle exceptions in concurrent code, including thread-safe error logging and recovery.

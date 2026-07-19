@@ -840,3 +840,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+## Cross-References
+
+- [Control Flow and Pattern Matching](./control-flow): Shows how to use variables and types in conditional expressions and pattern matching constructs.
+- [Ownership and Borrowing](/rust/ownership-borrowing): Explains how variable ownership and borrowing rules enforce memory safety at compile time.
+- [Structs and Enums](/rust/structs-enums): Demonstrates how to create custom types using the primitive types and variables covered here.
+- [Traits and Generics](/rust/traits-generics): Extends the type system with polymorphism and shared behaviour across different types.

@@ -731,6 +731,10 @@ Typical results show `dynamic_cast` is 2--5x slower than a manual tag check for 
 But the absolute cost is still only a few nanoseconds per call. The overhead becomes significant
 Only in tight inner loops processing millions of objects.
 
+## Intuition
+
+RTTI is the runtime identification system -- like a metal detector that finds the type of an object buried in a base class pointer. dynamic_cast is the safe downcast: it checks at runtime whether the object actually is of the target type, returning nullptr if it is not, like a security guard who verifies your ID before letting you through. typeid gives you the type's name or identity card. The vtable stores the type info alongside the virtual function pointers, so the runtime can walk the inheritance chain to verify the cast. Disabling RTTI with -fno-rtti removes this capability but does not eliminate the vtable itself.
+
 ## Common Pitfalls
 
 **1. `dynamic_cast` on non-polymorphic types:** `dynamic_cast` requires the source type to be

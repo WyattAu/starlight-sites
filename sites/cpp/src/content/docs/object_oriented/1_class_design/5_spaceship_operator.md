@@ -512,6 +512,10 @@ int main() {
 3. **Correctness.** Compiler-generated comparisons are always consistent with the defined ordering.
 4. **Performance.** No risk of calling `operator<` twice to compute `operator<=`.
 
+## Intuition
+
+The spaceship operator <=> is a three-way comparison that returns a category telling you whether the left side is less than, equal to, or greater than the right. Think of it like asking "how do these two things compare?" and getting back a single answer that encodes the relationship. When you default it, the compiler compares each member in declaration order, like reading a book page by page. The comparison categories (strong, weak, partial) describe how substitutable equal values are -- strong means equal values are interchangeable everywhere, weak means they may differ in non-comparable ways.
+
 ## Common Pitfalls
 
 - **Defaulting `<=>` on types with `bool` and floating-point members.** `bool` uses

@@ -721,6 +721,10 @@ clang-tidy --checks="cppcoreguidelines-slicing' file.cpp
 
 This is a static analysis tool and does not add runtime overhead.
 
+## Intuition
+
+Inheritance is like a family tree where children inherit traits from parents. Single inheritance is a straight lineage -- one parent, one set of inherited traits. Multiple inheritance is like having two parents, each contributing their own characteristics. Object slicing is the danger of cutting off the child's unique traits when you copy a derived object into a base class variable, like photocopying only the top half of a page. Virtual destructors are the safety net that ensures the correct cleanup code runs when you delete through a base pointer, preventing the child's resources from leaking.
+
 ## Common Pitfalls
 
 **1. Slicing through container value semantics:** `std::vector&lt;Base>` stores `Base` objects.

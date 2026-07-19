@@ -718,6 +718,10 @@ By the row-sum property: $\sum_{k=0}^{10} \binom{10}{k} = 2^{10} = 1024$.
 
 </details>
 
+## Intuition
+
+Sets are collections that define membership -- like a guest list for a party where you must be on the list to enter. Venn diagrams visualise how sets overlap, making abstract relationships concrete. Functions are the workhorses of mathematics: they take inputs and produce outputs with machine-like consistency. Logarithms are the undo button for exponentiation -- they answer the question "what power must I raise the base to in order to get this number." Induction is a chain of dominoes: prove the first falls, prove each one knocks over the next, and the whole chain must fall. The binomial theorem distributes the work of expanding powers across combinations.
+
 ## Common Pitfalls
 
 ### Confusing Subset and Element

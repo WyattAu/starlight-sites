@@ -525,6 +525,10 @@ int main() {
 }
 ```
 
+## Intuition
+
+std::formatter specialisation is like teaching std::format how to print your custom type. You provide two functions: parse reads the format specifiers from the format string (like {:#x} or {:.2f}), and format writes the actual output. Think of it as a translation layer between your type and the formatting system. The parse function is the instruction reader, and format is the printer. By specialising in namespace std, you opt into the type-safe formatting system without modifying the original type, following the open-closed principle.
+
 ## Common Pitfalls
 
 - **Specializing `std::formatter` in the wrong namespace.** The specialization must be in

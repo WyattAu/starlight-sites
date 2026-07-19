@@ -440,6 +440,10 @@ The standard library provides RAII wrappers for most common resources:
 | Sockets              | `socket`                           | Custom `Socket` class (see §1.5)             |
 | Database connections | `sqlite3_open``mysql_real_connect` | Custom connection class (see §1.6)           |
 
+## Intuition
+
+RAII is the idea that resource lifetime should be tied to object lifetime, like a library card that is automatically returned when you leave the building. The constructor acquires the resource (opens a file, locks a mutex) and the destructor releases it (closes the file, unlocks the mutex). Stack unwinding guarantees that destructors run even when exceptions fly, making cleanup deterministic. Without RAII, you must remember to release resources manually, which is error-prone -- like remembering to turn off every light when you leave a building. RAII lets the compiler handle cleanup automatically.
+
 ## Common Pitfalls
 
 **Forgetting to delete copy constructor and assignment operator.** RAII types that own a resource

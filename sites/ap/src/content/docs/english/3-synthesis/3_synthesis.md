@@ -211,3 +211,10 @@ of each body paragraph because it demonstrates your thinking.
 - Ignoring counterarguments
 - Taking a vague or noncommittal position
 - Organising the essay by source rather than by reason or theme
+
+## Cross-References
+
+- [Rhetorical Analysis](/ap/english/rhetorical-analysis): Develops skills in analyzing how authors use language strategies, which enhances your ability to evaluate source credibility and argumentation in synthesis essays.
+- [Argument Essay](/ap/english/argument): Builds on the thesis development and evidence integration techniques central to synthesis writing.
+- [Close Reading](/ap/english/close-reading): Strengthens your ability to analyze texts carefully, a skill essential for understanding and evaluating the sources provided in synthesis prompts.
+- [AP English Diagnostic Test](/ap/english/diagnostic-test): Tests your understanding of synthesis concepts and identifies areas for improvement in source integration and argumentation.

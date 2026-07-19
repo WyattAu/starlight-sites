@@ -224,3 +224,10 @@ Strong passages operate on multiple levels simultaneously. A passage may:
 - Failing to consider the rhetorical situation (audience, occasion, context)
 - Over-annotating (marking everything) or under-annotating (missing key choices)
 - Identifying devices without explaining their effect on meaning or audience
+
+## Cross-References
+
+- [Rhetorical Analysis](/ap/english/rhetorical-analysis): Builds directly on close reading skills to analyze how authors use language to achieve specific purposes and effects.
+- [Argument Essay](/ap/english/argument): Applies close reading techniques to evaluate the strength and effectiveness of arguments in written texts.
+- [Synthesis Essay](/ap/english/synthesis): Uses close reading to evaluate and integrate multiple sources into a coherent argument.
+- [AP English Diagnostic Test](/ap/english/diagnostic-test): Assesses your close reading abilities and provides practice with exam-style questions requiring careful textual analysis.

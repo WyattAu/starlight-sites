@@ -183,3 +183,10 @@ War of 1812, Market Revolution, Trail of Tears, Nullification Crisis
 - Connect economic changes (Market Revolution) to social and political developments
 - Understand how the Constitution resolved weaknesses of the Articles of Confederation
 - Analyse the contradiction between revolutionary ideals and the continuation of slavery
+
+## Cross-References
+
+- [Periods 1-2 (1491-1754)](/ap/history/periods-1-2): Provides the colonial background that led to the revolutionary movement and the creation of the United States.
+- [Period 5 (1844-1877)](/ap/history/period-5): Examines how the tensions between states' rights and federal authority, which began in this period, ultimately led to the Civil War.
+- [AP US History Diagnostic Test](/ap/history/diagnostic-test): Assesses your understanding of the American Revolution and early republic, identifying areas for improvement.
+- [AP US History Practice](/ap/history/practice): Offers practice questions on revolutionary era topics and early American governance.

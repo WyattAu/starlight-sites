@@ -596,6 +596,10 @@ public:
 };
 ```
 
+## Intuition
+
+The Itanium Exception ABI is the hidden machinery that makes try/catch work. When an exception is thrown, the runtime allocates the exception object and walks up the call stack using compile-time tables, like reading a treasure map to find where the matching catch block lives. The zero-cost model means that normal execution pays nothing for exception handling -- the tables are only consulted when an exception actually occurs, like insurance that costs nothing until you file a claim. The personality function is the judge that decides whether a catch clause matches the thrown exception type.
+
 ## Common Pitfalls
 
 ### 1. Throwing from Destructors During Stack Unwinding

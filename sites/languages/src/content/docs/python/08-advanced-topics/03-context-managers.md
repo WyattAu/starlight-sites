@@ -865,3 +865,9 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+## Cross-References
+
+- [Advanced Typing](./01-advanced-typing): Extends Python's type system with protocols and generics, which can be used to type context managers more precisely.
+- [Data Validation](./02-data-validation): Shows how to validate data within context managers, ensuring resources receive properly validated input.
+- [Protocols and Dunder Methods](./04-protocols-dunder-methods): Explains the __enter__ and __exit__ dunder methods that define context manager protocol.
+- [Async Context Managers](/python/async): Builds on context managers for asynchronous resource management with async with and async generators.

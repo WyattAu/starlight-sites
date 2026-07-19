@@ -165,3 +165,10 @@ The AP US History exam consists of two sections:
 - **Continuity and Change**: Identifying patterns of change and continuity over time
 - **Contextualisation**: Placing events within broader historical circumstances
 - **Argumentation**: Developing and supporting an argument with evidence
+
+## Cross-References
+
+- [Periods 1-2 (1491-1754)](/ap/history/periods-1-2): Covers colonial American history, establishing the foundations of American society and governance.
+- [Periods 3-4 (1754-1848)](/ap/history/periods-3-4): Explores the American Revolution and early republic, including the creation of the Constitution.
+- [Period 5 (1844-1877)](/ap/history/period-5): Examines the Civil War and Reconstruction era, a turning point in American history.
+- [Period 6 (1865-1898)](/ap/history/period-6): Covers industrialisation, immigration, and the rise of the United States as a world power.

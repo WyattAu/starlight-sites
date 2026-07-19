@@ -884,3 +884,10 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Classes](./01-classes): Provides the foundation of class creation and instance behaviour that metaclasses extend and customise.
+- [Descriptors](./03-descriptors): Explains the attribute access mechanism that metaclasses often manipulate, including __set_name__ and __get__.
+- [Protocols and Dunder Methods](/python/protocols-dunder-methods): Shows how dunder methods enable Python's data model, which metaclasses can customise at the class level.
+- [Data Validation](/python/data-validation): Demonstrates how metaclasses can enforce validation rules during class creation.

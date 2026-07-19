@@ -609,6 +609,10 @@ An `inline` friend function defined inside a class body is subject to the same a
 Other friend: it can access all members of the granting class. The `inline` specifier affects
 Linkage (multiple definitions are allowed across translation units) but has no effect on access.
 
+## Intuition
+
+Access control is the lock system on a class's doors. Public is the lobby anyone can enter. Protected is the family room accessible to relatives (derived classes). Private is the bedroom only you can enter. Friendship is giving someone a spare key -- the friend function or class can access private members. Access control is enforced at compile time with zero runtime cost, like a lock that only exists on the blueprint but disappears once the building is constructed. The key insight is that access control protects the interface contract, not the implementation details, allowing you to change internals without breaking external code.
+
 ## Common Pitfalls
 
 - **Assuming friendship is transitive or inherited.** If `A` declares `B` as a friend, and `C`

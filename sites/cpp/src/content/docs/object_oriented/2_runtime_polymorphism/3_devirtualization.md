@@ -698,6 +698,10 @@ These reports show which virtual call sites were devirtualized and which were no
 Reason. This is invaluable for verifying that `final` specifiers and type propagation are having the
 Intended effect.
 
+## Intuition
+
+Devirtualization is the compiler's detective work: it looks at the code and figures out the exact type of an object at compile time, then replaces the indirect vtable lookup with a direct call. Think of it like replacing a phone call to a switchboard (virtual dispatch) with a direct line to the person you need. The final specifier is the clue that tells the detective there are no more branches in the family tree. Profile-guided optimization uses runtime data to guess which virtual function is most likely called, like a bartender who starts pouring your usual before you order.
+
 ## Common Pitfalls
 
 - **Adding `final` too early.** Marking a class `final` prevents extension, which can be problematic

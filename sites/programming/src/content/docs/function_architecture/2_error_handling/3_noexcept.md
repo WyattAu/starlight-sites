@@ -414,6 +414,10 @@ int main() {
 }
 ```
 
+## Intuition
+
+noexcept is a contract that says "this function will not throw." It is part of the function type since C++17, meaning noexcept and non-noexcept functions are different types, like two different phone numbers. std::move_if_noexcept is a safety valve: it moves if the move is noexcept (fast and safe), but copies if it might throw (preserving the strong guarantee). The conditional noexcept specifier lets you write functions that are noexcept only when their template arguments are nothrow-movable, adapting the contract to the actual types used.
+
 ## Common Pitfalls
 
 ### 1. `noexcept` is Not Verified by the Compiler

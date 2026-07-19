@@ -182,3 +182,10 @@ Reconstruction
 - Compare Presidential and Congressional Reconstruction
 - Evaluate the successes and failures of Reconstruction
 - Connect the 13th, 14th, and 15th Amendments to ongoing struggles for civil rights
+
+## Cross-References
+
+- [Periods 3-4 (1754-1848)](/ap/history/periods-3-4): Shows how westward expansion and the slavery debate intensified after the American Revolution and early republic.
+- [Period 6 (1865-1898)](/ap/history/period-6): Explores the consequences of the Civil War and Reconstruction, including the rise of Jim Crow laws and economic transformation.
+- [AP US History Diagnostic Test](/ap/history/diagnostic-test): Tests your knowledge of the Civil War and Reconstruction era, highlighting areas needing review.
+- [AP US History Practice](/ap/history/practice): Provides practice questions on slavery, the Civil War, and Reconstruction.

@@ -582,6 +582,10 @@ int main() {
 `unique_ptr` to null. The caller assumes responsibility for cleanup. Use `release()` only when you
 Are transferring ownership to another mechanism (e.g., a C API that takes ownership).
 </aside>
+## Intuition
+
+std::unique_ptr is a single-owner smart pointer -- like a house key that only one person holds. When that person leaves (the unique_ptr is destroyed), the house is demolished (the object is deleted). You cannot copy the key (copy semantics are deleted), but you can hand it to someone else (move semantics). make_unique is the safe factory that builds the house and hands you the key in one step, avoiding the dangerous gap where a raw pointer exists without ownership. The zero-cost abstraction means unique_ptr is as efficient as a raw pointer -- it adds safety without adding overhead.
+
 ## Common Pitfalls
 
 ### Using `unique_ptr` with Arrays Incorrectly

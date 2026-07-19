@@ -499,6 +499,10 @@ During insertion, the table must be rebuilt. If rehash allocation fails after so
 Re-linked, the container is valid (no leaks, no dangling pointers) but elements may have been moved
 To a new bucket array that was only partially constructed.
 
+## Intuition
+
+Exception safety guarantees are like service level agreements for your code. The no-throw guarantee says "this operation will never fail" -- like a bank vault that cannot be opened from inside. The strong guarantee says "if it fails, nothing changes" -- like an atomic transaction that either completes fully or rolls back entirely. The basic guarantee says "if it fails, at least the object is still valid" -- like a restaurant that cannot fulfil your order but still seats you. The no-guarantee says "all bets are off" -- like a construction zone where anything might happen. RAII is the tool that makes these guarantees achievable.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Destructors That Throw

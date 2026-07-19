@@ -734,6 +734,10 @@ Lambda.
 The hierarchy of preference is clear: `unique_ptr` first, `shared_ptr` when genuinely needed, raw
 Pointers only for non-owning observation, and `weak_ptr` specifically to break `shared_ptr` cycles.
 
+## Intuition
+
+Smart pointers are safety nets, but misuse still creates holes. Raw new followed by complex logic is like carrying a fragile vase through a crowd -- if you trip (exception), the vase shatters (leaks). make_unique wraps the vase in bubble wrap from the start. shared_ptr overuse is like giving everyone a key to the same house -- eventually nobody knows who is responsible for cleaning up, and the reference cycle is like two people each waiting for the other to turn off the lights. The aliasing constructor lets a shared_ptr point to a sub-object while sharing ownership with the parent, useful for returning internal data safely.
+
 ## Common Pitfalls
 
 **Using `delete` instead of `delete[]` for arrays.** The default `std::shared_ptr` deleter calls

@@ -610,6 +610,10 @@ int main() {
 }
 ```
 
+## Intuition
+
+Move semantics are like handing someone the keys to your car instead of buying them an identical one. The move constructor steals the resources (pointer, size, capacity) from the source object and leaves it empty, like a house after you have moved out -- still standing but with nothing inside. The swap idiom is a safe way to exchange resources: both parties hand over their keys simultaneously, so neither is left without transport. The move-and-swap pattern combines these ideas into a bulletproof assignment operator that works correctly even when exceptions occur, because the swap is always noexcept.
+
 ## Common Pitfalls
 
 A move constructor takes `T&&`Which is an rvalue reference, not a forwarding reference. This means

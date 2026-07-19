@@ -714,6 +714,10 @@ int main() {
 <aside class="starlight-aside starlight-aside--caution">
 regular types Creates confusing semantics that mislead readers into expecting pointer-like behavior.
 
+## Intuition
+
+Operator overloading lets you give meaning to operators for your own types, like teaching the + symbol to concatenate strings or add vectors. Member functions only apply implicit conversions to the right operand, so symmetric operators (where both sides should convert equally) should be non-member functions. The subscript operator [] must be a member function and should return a reference to allow assignment. The function call operator () enables functors -- objects that act like functions, useful for callbacks and stateful algorithms.
+
 ## Common Pitfalls
 
 **1. Overloading `operator&&` and `operator||`:** These operators lose short-circuit evaluation when
