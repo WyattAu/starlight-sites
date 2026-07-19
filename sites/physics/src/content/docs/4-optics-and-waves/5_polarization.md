@@ -205,6 +205,12 @@ This explains why the sky is polarised at $90°$ from the sun and why polarising
 Glare from horizontal surfaces (Brewster's angle reflection from road/water).
 
 
+## Cross-References
+
+- **[Fresnel Equations](./10_fresnel-equations.md)**: Derives the reflection and transmission coefficients that depend on polarisation, including Brewster's angle where p-polarised light has zero reflection.
+- **[Geometric Optics](./6_geometric-optics.md)**: Provides the ray-tracing framework for understanding polarisation by reflection and Brewster windows.
+- **[Coherence](./8_coherence.md)**: Partially polarised light is described by the mutual coherence function, connecting polarisation to the coherence theory of partially polarised fields.
+
 ## Common Mistakes
 
 **Mistake 1: Assuming a quarter-wave plate produces circular polarisation for any input angle**

@@ -133,6 +133,16 @@ and integration when differentiating under the integral to compute moments.
 4. Let $f(x,y) = e^{-xy} - 2e^{-2xy}$ on $(0,\infty)^2$. Show that the iterated integrals differ
    and explain why this does not contradict Fubini.
 
+## Cross-References
+
+- **[Measurable Functions](./5_measurable-functions.md)**: Provides the measurability framework for functions on product spaces required by Fubini and Tonelli theorems.
+- **[$L^p$ Spaces](./7_l-p-spaces.md)**: The integrability conditions in Fubini's theorem connect to the $L^1$ norm and the broader theory of function spaces.
+- **[Radon-Nikodym Derivative and Lebesgue Decomposition](./9_radon-nikodym-derivative-and-lebesgue-decomposition.md)**: Uses the measure-theoretic foundations that make product measures and iterated integrals well-defined.
+
+## Intuition
+
+The Fubini and Tonelli theorems justify the interchange of the order of integration for functions of multiple variables. Tonelli's theorem applies to non-negative functions and requires no integrability assumption: you can always swap the order of integration for non-negative measurable functions. Fubini's theorem applies to integrable functions and concludes that the iterated integrals are equal and finite. The key physical intuition is that integrating over a product space can be done one variable at a time, like summing rows then columns of a matrix. The cautionary example of functions with different iterated integrals shows that integrability is essential: without it, the order of integration can matter.
+
 ### 8.8 Common Pitfalls
 
 1. **Forgetting $\sigma$-finiteness.** Tonelli and Fubini require $\sigma$-finite measure spaces.

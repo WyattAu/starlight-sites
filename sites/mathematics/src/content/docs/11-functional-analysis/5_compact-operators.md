@@ -76,6 +76,16 @@ $\lambda \neq 0$. Then exactly one of the following holds:
 | Self-adjoint        | $T^* = T$                         | Real                              | Schrodinger operator     |
 | Normal              | $T^*T = TT^*$                     | Any compact set                   | Unitary, self-adjoint    |
 
+## Cross-References
+
+- **[Bounded Linear Operators](./3_bounded-linear-operators.md)**: Provides the framework of bounded linear maps between Banach spaces within which compact operators are defined.
+- **[The Fundamental Theorems](./4_the-fundamental-theorems.md)**: The bounded inverse theorem and closed graph theorem are used in the Fredholm alternative for compact operators.
+- **[Weak and Weak* Convergence](./6_weak-and-weak-convergence.md)**: Compact operators map weakly convergent sequences to strongly convergent sequences, linking these two modes of convergence.
+
+## Intuition
+
+Compact operators are the infinite-dimensional analogue of finite matrices. In finite dimensions, the unit ball is compact and every bounded operator maps it to a relatively compact set. In infinite dimensions this fails, and compact operators are precisely those that restore this finite-dimensional behaviour: they squeeze the unit ball into a nearly finite-dimensional image. The spectral theorem for compact self-adjoint operators decomposes them as weighted sums of rank-one projections, with eigenvalues decaying to zero. The Fredholm alternative then says that for compact operators, solving a linear equation reduces to a finite-dimensional problem: either the homogeneous equation has only the trivial solution, or it has a finite-dimensional space of solutions.
+
 ### 5.6 Common Pitfalls
 
 - **Assuming all bounded operators are compact.** The identity operator on an infinite-dimensional

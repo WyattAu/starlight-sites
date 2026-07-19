@@ -62,6 +62,10 @@ Each section includes:
 4. **Learn standard examples**: Know the properties of common matrices (diagonal, symmetric, orthogonal)
 5. **Connect to applications**: Relate linear algebra to data science, physics, and engineering
 
+## Intuition
+
+Linear algebra is the study of straight-line transformations. Vectors represent quantities with magnitude and direction; linear transformations stretch, rotate, and shear these vectors while preserving the operations of addition and scalar multiplication. Matrices are the numerical embodiment of these transformations. Eigenvalues reveal the natural stretching directions of a transformation, and diagonalisation exposes its simplest form. The singular value decomposition decomposes any matrix into rotation, scaling, and rotation, providing the best low-rank approximation to data. Linear algebra underpins everything from solving systems of equations to principal component analysis in statistics and quantum mechanics in physics.
+
 ### 2.1 Common Mistakes
 
 **Mistake 1: Assuming $AB = BA$ for matrix multiplication**

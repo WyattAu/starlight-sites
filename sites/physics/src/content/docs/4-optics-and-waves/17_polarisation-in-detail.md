@@ -152,6 +152,12 @@ The Stokes parameters describe the polarisation state including partially polari
 The Poincare sphere uses the normalised Stokes parameters $(S_1/S_0, S_2/S_0, S_3/S_0)$ as coordinates. Points on the sphere surface represent fully polarised states, while interior points represent partially polarised light. Students sometimes confuse the Poincare sphere with a representation of the electric field vector in real space.
 
 
+## Cross-References
+
+- **[Polarization](./5_polarization.md)**: Introduces the fundamental polarisation states, Malus's law, and birefringence that the Jones calculus and Stokes parameters formalise.
+- **[Fresnel Equations](./10_fresnel-equations.md)**: The polarisation-dependent reflection and transmission coefficients at interfaces are described by the Fresnel equations.
+- **[Geometric Optics](./6_geometric-optics.md)**: Brewster's angle and polarisation by reflection arise from the boundary conditions in the ray optics limit.
+
 ## Intuition
 
 Polarisation describes the direction in which light's electric field oscillates. Unpolarised light has random orientations, but passing it through a polariser selects one direction. Malus's law gives the intensity after a second polariser as proportional to the cosine squared of the angle between them. Birefringent materials split light into two polarisation components that travel at different speeds, creating phase shifts. Circular polarisation occurs when two orthogonal linear components have a quarter-cycle phase difference. Polarisation is used in LCD screens, 3D cinema, and stress analysis, where birefringent patterns reveal mechanical strain.

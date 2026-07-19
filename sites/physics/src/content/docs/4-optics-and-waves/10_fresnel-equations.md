@@ -177,6 +177,12 @@ The s-polarisation coefficient is $r_s = (n_1\cos\theta_i - n_2\cos\theta_t)/(n_
 **Mistake 2: Assuming $R + T = 1$ always implies no absorption**
 Energy conservation $R + T = 1$ holds for lossless dielectric interfaces. In absorbing media, the Fresnel coefficients become complex and $R + T$ may not equal 1 when using the real-valued intensity definitions. Students often apply the simple form to metallic surfaces where the refractive index is complex.
 
+## Cross-References
+
+- **[Electromagnetic Waves](./2_electromagnetic-waves.md)**: Derives the boundary conditions for electromagnetic fields at interfaces from which the Fresnel equations follow.
+- **[Polarization](./5_polarization.md)**: The s- and p-polarisation decomposition used in the Fresnel equations is the basis for Brewster angle polarisation and wave plate theory.
+- **[Geometric Optics](./6_geometric-optics.md)**: Takes the ray limit of Fresnel reflection and refraction, yielding Snell's law and the thin lens equation.
+
 **Mistake 3: Forgetting that the phase shift on reflection depends on the refractive index ordering**
 For external reflection ($n_1 < n_2$), $r_s < 0$ at all angles, meaning the reflected wave undergoes a $\pi$ phase shift. For internal reflection ($n_1 > n_2$), $r_s > 0$ at normal incidence with no phase shift. Students frequently apply the wrong phase convention, which matters for thin-film interference calculations.
 

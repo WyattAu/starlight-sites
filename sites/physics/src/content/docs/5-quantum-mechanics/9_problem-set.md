@@ -146,6 +146,10 @@ and $\rho^2 = \rho$.
 
 
 
+## Intuition
+
+Working through quantum mechanics problems builds physical intuition about the counterintuitive quantum world. The particle in a box teaches confinement: restricting a particle to a finite region quantises its energy into discrete levels, like guitar strings vibrating at specific frequencies. The harmonic oscillator reveals that even in quantum mechanics, nature prefers equally spaced energy levels, explaining why molecular vibrations produce infrared spectra at specific wavelengths. The hydrogen atom shows how angular momentum quantisation produces the familiar shell structure of chemistry. Tunneling problems demonstrate that particles can penetrate classically forbidden regions, a phenomenon essential for nuclear fusion in stars and for the operation of scanning tunnelling microscopes.
+
 ## Cross-References
 
 - **[Postulates of Quantum Mechanics](2_postulates-of-quantum-mechanics.md)**: The postulates provide the mathematical framework for solving quantum problems.

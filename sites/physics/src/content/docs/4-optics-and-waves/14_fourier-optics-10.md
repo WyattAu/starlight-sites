@@ -165,6 +165,12 @@ $$I(u,v) = I_0\,a^2 b^2\,\mathrm{sinc}^2(\pi a u)\,\mathrm{sinc}^2(\pi b v)$$
 
 The pattern is a product of two sinc$^2$ functions. The first zero along $u$ occurs at $u = 1/a$ (angular position $\sin\theta_x = \lambda/a$), and along $v$ at $v = 1/b$ ($\sin\theta_y = \lambda/b$). A wider aperture produces a narrower diffraction pattern in that direction.
 
+## Cross-References
+
+- **[Diffraction](./4_diffraction.md)**: Provides the physical foundation for Fraunhofer diffraction through the Huygens-Fresnel principle and Kirchhoff integral.
+- **[Fourier Optics](./7_fourier-optics.md)**: Develops the 4f imaging system, optical transfer function, and spatial filtering applications that build on the Fourier transform framework.
+- **[Coherence](./15_coherence-theory.md)**: The coherence properties of the source determine whether the Fourier transform relationship between aperture and far-field pattern is valid.
+
 ## Intuition
 
 Fourier optics reveals that diffraction is fundamentally a frequency decomposition. When light passes through an aperture, the far-field pattern is the spatial frequency content of that aperture shape. A narrow slit has broad frequency content, producing a wide diffraction pattern. The convolution theorem explains why grating patterns combine: multiplying apertures convolves their patterns. This is why a double-slit produces interference fringes modulated by the single-slit envelope. The lens performs a physical Fourier transform, converting spatial information into angular information at its focal plane.

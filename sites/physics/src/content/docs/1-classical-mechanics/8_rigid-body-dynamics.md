@@ -231,8 +231,18 @@ $\blacksquare$
 
 </aside>
 
+## Common Mistakes
+
+**Mistake 1: Treating the moment of inertia as a scalar instead of a tensor**
+The moment of inertia is a rank-2 tensor $\mathbf{I}$, not a single number, for general three-dimensional rotation. Using a scalar $I$ only works for rotation about a fixed principal axis. For precession, nutation, or rotation about a non-principal axis, the full tensor $\mathbf{I}\boldsymbol{\omega}$ must be used to correctly compute the angular momentum $\mathbf{L} = \mathbf{I}\boldsymbol{\omega}$.
+
+**Mistake 2: Assuming all axes are stable for torque-free rotation**
+Torque-free rotation about a principal axis is stable only if the axis corresponds to the largest or smallest principal moment of inertia. Rotation about the intermediate axis is unstable: small perturbations grow exponentially. This is the tennis racket theorem, and it explains why a spinning phone tumbles when flipped about its intermediate axis.
+
+**Mistake 3: Confusing the parallel axis theorem for tensors with the scalar version**
+The parallel axis theorem for the inertia tensor is $I_{jk}' = I_{jk}^{(\mathrm{CM})} + M(a^2\delta_{jk} - a_j a_k)$, which involves the full tensor structure. The scalar version $I = I_{\mathrm{CM}} + Ma^2$ only applies to the moment about a single axis parallel to the displacement. Using the scalar version for off-diagonal components gives incorrect results.
+
 ## Cross-References
 
-- **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation provides the foundation for deriving Euler's equations for rigid body rotation.
 - **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism gives the total energy and phase space representation of rigid body dynamics.
 - **[Noether's Theorem](5_noether-s-theorem-and-conservation-laws.md)**: Rotational symmetry leads to angular momentum conservation, which is fundamental to rigid body motion.

@@ -175,6 +175,12 @@ frequency-voltage relation is used to maintain the volt standard worldwide.
 The GL theory underpins the design of all these devices. For MRI and accelerator magnets, the
 critical current density $J_c$ (determined by vortex pinning) is the key engineering parameter.
 
+## Cross-References
+
+- **[Superconductivity](./7_superconductivity.md)**: Provides the basic BCS theory and phenomenology that the Ginzburg-Landau theory generalises near the critical temperature.
+- **[Electronic Band Structure](./5_electronic-band-structure.md)**: The density of states at the Fermi level and the Fermi velocity enter the BCS expressions for the coherence length and penetration depth.
+- **[Topological Insulators and Semimetals](./13_topological-insulators-and-semimetals.md)**: Majorana zero modes at the interface of a superconductor and a topological insulator provide a platform for topological quantum computing.
+
 ## Intuition
 
 Superconductivity is the complete disappearance of electrical resistance below a critical temperature. Electrons pair up into Cooper pairs through lattice vibrations, forming a macroscopic quantum state that flows without scattering. Type I superconductors expel all magnetic flux (Meissner effect), while Type II superconductors allow flux to penetrate in quantized vortices. The Ginzburg-Landau theory describes the superconducting order parameter as a complex field whose magnitude squared gives the density of superconducting electrons. The coherence length and penetration depth compete: when the penetration depth exceeds the coherence length, the material becomes Type II. Josephson junctions exploit the phase sensitivity of the supercurrent to create ultra-sensitive magnetometers and voltage standards.

@@ -168,6 +168,12 @@ While they can be treated separately in many situations, they are fundamentally 
 **Mistake 2: Confusing the coherence length with the wavelength**
 The coherence length $L_c = \lambda^2/\Delta\lambda$ depends on the spectral bandwidth, not just the wavelength. For a sodium lamp at $\lambda = 589$ nm with $\Delta\lambda = 0.6$ nm, $L_c \approx 0.6$ mm, which is much smaller than the wavelength. Students sometimes assume $L_c$ is always much larger than $\lambda$, which is only true for highly monochromatic sources.
 
+## Cross-References
+
+- **[Coherence](./8_coherence.md)**: Provides the foundational definitions of temporal and spatial coherence, the mutual coherence function, and the Wiener-Khinchin theorem.
+- **[Diffraction](./4_diffraction.md)**: The formation of diffraction fringes depends on source coherence; partially coherent illumination reduces fringe visibility.
+- **[Fourier Optics](./7_fourier-optics.md)**: The van Cittert-Zernike theorem relates source intensity distributions to spatial coherence via Fourier transforms.
+
 **Mistake 3: Assuming fringe visibility of 1 requires perfect coherence**
 Fringe visibility also depends on the intensity ratio of the two beams. For equal intensities $I_1 = I_2$, the visibility equals $|\gamma_{12}|$. But if $I_1 \neq I_2$, the visibility is reduced even for fully coherent light. The correct formula is $V = (2\sqrt{I_1 I_2}/(I_1 + I_2))|\gamma_{12}|$.
 

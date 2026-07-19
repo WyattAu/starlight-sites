@@ -62,6 +62,10 @@ Each section includes:
 - Common pitfalls and how to avoid them
 - Connections to other areas of mathematics
 
+## Intuition
+
+Differential geometry equips smooth manifolds with a notion of distance and angle through the metric tensor. Think of it as assigning a flexible, position-dependent ruler and protractor to space itself. The metric determines how to measure lengths of curves, angles between vectors, and volumes of regions. The Levi-Civita connection provides the notion of parallel transport, telling you how to compare vectors at different points. Geodesics are the straightest possible paths, generalising lines in flat space. The Riemann curvature tensor measures precisely how the geometry deviates from flatness: parallel-transporting a vector around a small loop returns it rotated by an amount determined by the curvature. These ideas form the mathematical backbone of general relativity.
+
 ## Common Mistakes
 
 **Mistake 1: Confusing tangent vectors with points on the manifold**

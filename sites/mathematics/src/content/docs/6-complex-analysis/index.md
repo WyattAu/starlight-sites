@@ -60,6 +60,10 @@ Each section includes:
 - Common pitfalls and how to avoid them
 - Connections to other areas of mathematics
 
+## Intuition
+
+Complex analysis studies functions of a complex variable, where the single requirement of differentiability is enormously more powerful than in real analysis. A complex function that is differentiable once is automatically differentiable forever, with remarkable consequences: it can be represented by power series, its values on a boundary determine it everywhere inside, and contour integrals depend only on singularities rather than the path taken. The residue theorem converts difficult real integrals into simple algebraic computations by counting poles. Conformal mappings preserve angles, making them indispensable for solving boundary value problems in physics and engineering. Complex analysis thus unifies geometry, algebra, and analysis in a framework of unexpected elegance.
+
 ## Study Tips
 
 1. **Master the definitions**: Complex analysis requires precise understanding of analytic functions and singularities

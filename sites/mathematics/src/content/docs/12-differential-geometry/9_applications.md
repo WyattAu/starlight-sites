@@ -139,6 +139,12 @@ uses configuration manifolds for motion planning. Discrete differential geometry
 computer graphics. The Gauss-Bonnet theorem forces trade-offs in cartography. String theory
 uses Calabi-Yau manifolds, and manifold learning algorithms exploit geometry for data analysis.
 
+## Cross-References
+
+- **[Curvature](./7_curvature.md)**: Defines the Riemann curvature tensor and Ricci curvature used in Einstein field equations and gauge theory.
+- **[The Gauss-Bonnet Theorem](./8_the-gauss-bonnet-theorem.md)**: Relates total Gaussian curvature to the Euler characteristic, explaining cartographic constraints and serving as a prototype for index theorems.
+- **[Tangent Spaces and Tangent Bundles](./2_tangent-spaces-and-tangent-bundles.md)**: Provides the tangent bundle and connection theory needed to formulate geodesics in general relativity and gauge fields.
+
 ## Common Mistakes
 
 **Mistake 1: Confusing the metric signature in general relativity with Riemannian geometry**

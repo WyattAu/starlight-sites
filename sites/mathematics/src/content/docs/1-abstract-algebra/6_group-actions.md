@@ -120,6 +120,10 @@ has the form $g^k z$ for some $k \in \mathbb{Z}$ and $z \in Z(G)$. For any two s
 $(g^{k_1}z_1)(g^{k_2}z_2) = g^{k_1+k_2}z_1z_2 = g^{k_2+k_1}z_2z_1 = (g^{k_2}z_2)(g^{k_1}z_1)$ So $G$
 is abelian, contradicting $|Z(G)| = p$. Thus $|Z(G)| = p^2$ and $G$ is abelian. $\blacksquare$
 
+## Intuition
+
+Group actions describe how symmetry groups interact with sets. A group acts on a set by assigning to each group element a permutation of the set, subject to compatibility conditions. The orbit of an element is the set of all positions reachable by the group action, while the stabiliser is the subgroup that fixes that element. The orbit-stabilizer theorem links these quantities: the size of the orbit equals the index of the stabiliser, relating local symmetry to global structure. Burnside's lemma counts orbits by averaging fixed points, turning a potentially difficult enumeration into a manageable computation. These tools appear throughout mathematics, from counting colourings of objects to classifying crystal structures.
+
 ### 6.7 Common Pitfalls
 
 - Forgetting that the stabilizer is always a subgroup (it inherits identity and closure from the group axioms).

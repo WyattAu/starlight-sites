@@ -50,6 +50,10 @@ Each section includes:
 - Common pitfalls and how to avoid them
 - Connections to other areas of mathematics
 
+## Intuition
+
+Probability Theory is the mathematics of uncertainty. Imagine you have a coin that might be biased, but you do not know which way. Probability theory gives you the tools to quantify that uncertainty, update your beliefs as evidence arrives, and make predictions that are optimal given what you know. A probability space is the stage on which random phenomena perform: the sample space lists all possible outcomes, the sigma-algebra defines which events you can measure, and the probability measure assigns likelihoods. Random variables translate raw outcomes into numbers you can compute with. The great limit theorems reveal that randomness becomes predictable in the aggregate: the law of large numbers says averages stabilise, and the central limit theorem explains why the bell curve appears everywhere.
+
 ## Study Tips
 
 1. **Master the definitions**: Probability theory requires precise understanding of measures and distributions
@@ -57,3 +61,14 @@ Each section includes:
 3. **Draw diagrams**: Visualise distributions and random variables
 4. **Learn standard examples**: Know the properties of common distributions (normal, binomial, Poisson)
 5. **Connect to applications**: Relate probability theory to statistics, finance, and physics
+
+## Common Mistakes
+
+**Mistake 1: Assuming independence from correlation**
+Two random variables can be uncorrelated yet dependent. For example, if $X$ is uniformly distributed on $[-1, 1]$ and $Y = X^2$, then $\text{Cov}(X, Y) = 0$ but $Y$ is completely determined by $X$. Independence requires zero covariance for jointly Gaussian variables, but not in general.
+
+**Mistake 2: Confusing the law of large numbers with the central limit theorem**
+The law of large numbers says the sample mean converges to the population mean as the sample size grows. The central limit theorem says the standardized sum converges to a normal distribution. These are different results: the LLN gives pointwise convergence while the CLT gives distributional convergence.
+
+**Mistake 3: Misapplying Bayes' theorem by ignoring the prior**
+Bayes' theorem requires a prior probability distribution, not just the likelihood. Students often compute $P(A|B) = P(B|A)P(A)/P(B)$ but forget to specify or update the prior $P(A)$. Without a well-defined prior, Bayesian inference reduces to computing conditional probabilities rather than performing full posterior updates.

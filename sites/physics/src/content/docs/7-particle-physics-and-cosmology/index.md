@@ -59,6 +59,10 @@ Each section includes:
 - Common pitfalls and how to avoid them
 - Connections to other areas of physics
 
+## Intuition
+
+Particle physics seeks to identify the fundamental building blocks of matter and the forces governing their interactions. The Standard Model organises these into quarks, leptons, and gauge bosons, with the Higgs mechanism explaining how particles acquire mass. Feynman diagrams translate abstract quantum field theory calculations into intuitive pictures of particle collisions and decays. Symmetries are central: every conservation law corresponds to a symmetry via Noether's theorem, and gauge symmetries dictate the form of interactions. Cosmology connects particle physics to the large-scale universe, tracing how the hot, dense early universe cooled through phase transitions that froze out the particles and forces we observe today.
+
 ## Study Tips
 
 1. **Master the Standard Model**: Understand the particles and their interactions

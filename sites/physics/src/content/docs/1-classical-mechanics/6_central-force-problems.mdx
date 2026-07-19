@@ -181,8 +181,18 @@ Central force problems describe motion under forces that point toward or away fr
 
 
 
+## Common Mistakes
+
+**Mistake 1: Confusing the effective potential with the actual potential**
+The effective potential $V_{\mathrm{eff}}(r) = V(r) + l^2/(2mr^2)$ includes the centrifugal barrier term $l^2/(2mr^2)$, which is not a real force but a consequence of angular momentum conservation. Students often forget this term and attempt to find circular orbits from $V'(r_0) = 0$ instead of the correct $V_{\mathrm{eff}}'(r_0) = 0$.
+
+**Mistake 2: Assuming all central force orbits are closed**
+Bertrand's theorem states that only the Kepler potential ($V \propto 1/r$) and the harmonic oscillator potential ($V \propto r^2$) produce closed orbits for all bound states. For other central potentials, orbits generally precess and are not closed. The orbit equation still applies, but the trajectory does not repeat.
+
+**Mistake 3: Mixing up the semi-latus rectum with the semi-major axis**
+The semi-latus rectum $p = l^2/(mk)$ determines the shape of the orbit, while the semi-major axis $a$ determines the energy via $E = -k/(2a)$. For a circular orbit $p = a$, but for eccentric orbits $p < a$. Using $p$ in place of $a$ in energy formulas gives incorrect results.
+
 ## Cross-References
 
-- **[Noether's Theorem](5_noether-s-theorem-and-conservation-laws.md)**: Rotational symmetry of central potentials leads to angular momentum conservation via Noether's theorem.
 - **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation provides the effective potential analysis for central force problems.
 - **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism gives the total energy and phase space representation of central force orbits.

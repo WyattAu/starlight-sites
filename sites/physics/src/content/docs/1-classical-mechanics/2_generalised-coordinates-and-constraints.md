@@ -149,8 +149,18 @@ $\blacksquare$
 
 Generalised coordinates are the minimum number of independent parameters needed to describe a system's configuration. A pendulum needs only one angle, not two Cartesian coordinates. Constraints are the rules that reduce the degrees of freedom, like a bead confined to a wire. Holonomic constraints can be written as equations, making them mathematically tractable. D'Alembert's principle extends virtual work to dynamics by treating inertia as a fictitious force. This insight leads directly to Lagrangian mechanics, where constraint forces disappear entirely because they do no virtual work.
 
+## Common Mistakes
+
+**Mistake 1: Confusing virtual displacements with actual displacements**
+A virtual displacement $\delta\mathbf{r}_i$ is an infinitesimal change consistent with the constraints at a fixed instant in time ($\delta t = 0$). An actual displacement occurs over a finite time interval and may violate constraints that change with time. For rheonomic constraints, virtual and actual displacements differ because the constraint surface itself moves.
+
+**Mistake 2: Assuming all constraints reduce the degrees of freedom by one**
+Non-holonomic constraints (inequalities or non-integrable differential relations) do not reduce the number of degrees of freedom in the same way holonomic constraints do. A holonomic constraint $f(q_1, \ldots, q_n) = 0$ reduces the degrees of freedom by one, but a non-holonomic constraint like $z \geq 0$ restricts the accessible region without reducing the dimensionality of the configuration space.
+
+**Mistake 3: Applying D'Alembert's principle without checking that constraints are ideal**
+D'Alembert's principle requires that constraint forces do no virtual work. This holds for frictionless surfaces, rigid rods, and inextensible strings, but not for sliding friction or deformable boundaries. If the constraints are not ideal, the constraint forces contribute to the virtual work and must be included explicitly.
+
 ## Cross-References
 
-- **[Newtonian Mechanics Review](1_newtonian-mechanics-review.md)**: Newton's laws provide the foundation for understanding constraints and virtual displacements.
 - **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation uses generalised coordinates to eliminate constraint forces.
 - **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism extends Lagrangian mechanics to phase space representations.

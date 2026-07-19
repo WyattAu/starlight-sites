@@ -155,3 +155,14 @@ $U = \frac{3\pi^4}{5} Nk_B T (T/\theta_D)^3$ by evaluating the integral $\int_0^
 ## Intuition
 
 The Debye model treats a crystal like a box of sound waves. At low temperatures, only long-wavelength vibrations are excited, like a drum that can only produce deep bass notes. The T^3 law for specific heat reflects the three-dimensional density of phonon states. At high temperatures, every mode is equally excited, giving the classical Dulong-Petit result. The Debye temperature marks the crossover: below it, quantum effects freeze out modes; above it, classical behavior emerges. The model succeeds because phonons are the natural excitations of a crystal lattice.
+
+## Common Mistakes
+
+**Mistake 1: Applying the Einstein model at low temperatures instead of the Debye model**
+The Einstein model predicts $C_V \propto e^{-\theta_E/T}$ at low temperatures, which decays exponentially and fails to match the experimentally observed $T^3$ power law. The Debye model correctly captures the $T^3$ behavior because its density of states $g(\omega) \propto \omega^2$ allows low-frequency acoustic modes to contribute. Use the Debye model for thermal properties of crystals below their Debye temperature.
+
+**Mistake 2: Confusing the Debye cutoff frequency with the optical phonon frequency**
+The Debye frequency $\omega_D$ is an artificial cutoff imposed to match the total number of modes ($3N$), not a physical phonon frequency. Real crystals have optical branches with higher frequencies that the Debye model ignores. The Debye temperature $\theta_D$ is an effective parameter that averages over all branches using a single sound speed.
+
+**Mistake 3: Forgetting to account for longitudinal and transverse modes separately**
+The average sound speed $v_s$ used in the Debye model must account for both longitudinal and transverse phonon branches. The correct formula is $3/v_s^3 = 1/v_L^3 + 2/v_T^3$, reflecting one longitudinal and two transverse modes per wavevector. Using only the longitudinal speed overestimates $\theta_D$ and gives incorrect specific heat values.

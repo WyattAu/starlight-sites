@@ -120,6 +120,10 @@ Taking all products, the six abelian groups of order 72 are:
 | Structure Theorem | Finitely generated abelian $\cong \mathbb{Z}^r \times$ cyclic groups | Classification of abelian groups |
 | Simplicity of $A_n$ | $A_n$ is simple for $n \geq 5$ | Impossibility of quintic formula |
 
+## Cross-References
+
+- **[Galois Theory Fundamentals](./13_galois-theory-fundamentals.md)**: Uses group-theoretic results such as solvability and the structure of symmetric groups to determine which polynomials are solvable by radicals.
+
 ### 14.7 Common Pitfalls
 
 - Applying Cauchy's theorem backwards: $|G|$ divisible by $p$ does not imply $G$ has a normal subgroup of order $p$; only a subgroup.

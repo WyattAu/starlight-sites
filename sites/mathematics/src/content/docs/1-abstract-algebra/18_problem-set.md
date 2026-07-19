@@ -531,3 +531,16 @@ $\mathbb{F}_{p^m} \subseteq \mathbb{F}_{p^n}$ If and only if $m$ divides $n$. $\
 
 _If you get this wrong, revise: Section 12.4, Theorem 12.5; Section 12.6._
 
+## Common Mistakes
+
+**Mistake 1: Forgetting that the order formula for elements requires gcd computation**
+When computing the order of $g^k$ in a group, students often write $|g^k| = |g|/k$ instead of the correct $|g^k| = |g|/\gcd(|g|, k)$. The correct formula requires dividing by the greatest common divisor, not $k$ directly. Always verify by checking that $(g^k)^{n/d} = e$ where $d = \gcd(n, k)$.
+
+**Mistake 2: Confusing conjugacy classes with cosets**
+Conjugacy classes partition a group by the equivalence relation $a \sim b$ iff $b = gag^{-1}$ for some $g$, while cosets partition a group by a subgroup. The class equation involves conjugacy classes, not cosets, and the size of each class divides the group order by the orbit-stabilizer theorem.
+
+**Mistake 3: Assuming all groups of a given order are isomorphic**
+Groups of order $p^2$ (for prime $p$) are always abelian, but groups of order $p^3$ are not all isomorphic. For example, there are two groups of order 8 that are non-abelian: $D_4$ and $Q_8$. Always check whether the group is abelian before assuming a unique structure.
+
+### Challenge Problems
+

@@ -158,6 +158,12 @@ metric.
 **Problem 7.** Prove that a Riemannian manifold with constant sectional curvature $\kappa$ is
 Einstein with $\mathrm{Ric} = (n-1)\kappa\, g$.
 
+## Cross-References
+
+- **[Tangent Spaces and Tangent Bundles](./2_tangent-spaces-and-tangent-bundles.md)**: Defines the tangent bundle and connections on which the Riemann curvature tensor is built.
+- **[The Gauss-Bonnet Theorem](./8_the-gauss-bonnet-theorem.md)**: Connects the total Gaussian curvature of a surface to its Euler characteristic, a deep link between local geometry and global topology.
+- **[Applications](./9_applications.md)**: Applies curvature concepts to general relativity, gauge theory, and minimal surfaces.
+
 ### 7.14 Common Mistakes
 
 ## Intuition

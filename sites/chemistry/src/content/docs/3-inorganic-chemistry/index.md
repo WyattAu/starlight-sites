@@ -60,3 +60,14 @@ Inorganic chemistry covers the vast majority of the periodic table beyond carbon
 3. **Use visual models**: Molecular models help understand coordination geometry
 4. **Learn the spectrochemical series**: Essential for predicting colour and magnetism
 5. **Connect theory to application**: Relate concepts to catalysis and materials science
+
+## Common Mistakes
+
+**Mistake 1: Assuming high-spin and low-spin only depend on the metal ion**
+The spin state of a transition metal complex depends on both the metal ion's d-electron count and the ligand field strength. A $d^6$ metal like $\text{Co}^{3+}$ can be low-spin with strong-field ligands ($\text{CN}^-$) but high-spin with weak-field ligands ($\text{H}_2\text{O}$). Always check the spectrochemical series before predicting the spin state.
+
+**Mistake 2: Confusing crystal field splitting with ligand field splitting**
+Crystal field theory treats ligands as point charges, while ligand field theory includes covalent bonding effects. For $\pi$-donor and $\pi$-acceptor ligands, the two theories predict different d-orbital splitting patterns. Crystal field theory cannot explain why CO is a strong-field ligand, but ligand field theory can through its $\pi$-acceptor character.
+
+**Mistake 3: Ignoring the trans effect in square planar substitution**
+The trans effect governs the rate of ligand substitution in square planar complexes. A ligand trans to a strong trans-directing group (like $\text{CN}^-$ or $\text{CO}$) is substituted faster. Students often predict substitution products based only on steric arguments, missing the electronic trans effect that dominates kinetic selectivity.

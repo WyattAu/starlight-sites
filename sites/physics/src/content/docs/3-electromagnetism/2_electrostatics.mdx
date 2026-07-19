@@ -301,7 +301,14 @@ Dielectric. $\blacksquare$
 
 </details>
 
-## Intuition
+## Common Mistakes
 
-Electric fields are the universe's force landscape. Every charge creates hills and valleys in the electric potential, and other charges roll along these slopes like marbles on a terrain. Positive charges sit on peaks and negative charges in wells. Gauss's law is like measuring how many field lines escape through a bubble: the total flux tells you the enclosed charge. The method of images is a clever trick where you replace a complicated boundary problem with a simpler arrangement of imaginary charges that produce the same field on one side. Think of it as staging a mirror image of your charge distribution to satisfy boundary conditions. Dielectrics are like sponges that absorb some of the electric field: the molecules align to partially cancel the external field, reducing the net field inside the material.
+**Mistake 1: Using Gauss's law when the symmetry is insufficient**
+Gauss's law is always true, but it is only useful for computing $\mathbf{E}$ when the charge distribution has sufficient symmetry (spherical, cylindrical, or planar) to pull $E$ out of the integral. Applying it to asymmetric distributions without the symmetry argument gives an integral equation that cannot be solved analytically.
+
+**Mistake 2: Confusing the potential of a point charge with the potential energy**
+The electric potential $V = q/(4\pi\varepsilon_0 r)$ is the potential energy per unit charge, not the total energy. To find the energy of a system of charges, you must compute $U = \frac{1}{2}\sum_i q_i V_i$ or equivalently $U = \frac{1}{2}\int \rho V\, d^3\mathbf{r}$. The factor of $\frac{1}{2}$ avoids double-counting.
+
+**Mistake 3: Assuming the electric field is continuous across a charged surface**
+The normal component of $\mathbf{E}$ is discontinuous across a surface charge density $\sigma$: $E_{2n} - E_{1n} = \sigma/\varepsilon_0$. Only the tangential component $E_t$ is continuous. Students who assume full continuity obtain incorrect boundary conditions for dielectric interfaces.
 

@@ -56,6 +56,10 @@ Each section includes:
 - Common pitfalls and how to avoid them
 - Connections to other areas of mathematics
 
+## Intuition
+
+Differential equations describe how systems evolve, from planetary orbits to population dynamics. The core insight is that knowing the current state and the laws of motion determines the future: an ODE encodes rates of change as relationships between a function and its derivatives. First-order equations model exponential growth and decay, while second-order equations capture oscillations and resonance. Laplace transforms convert differential equations into algebraic ones, trading calculus for algebra. Stability analysis asks whether equilibria attract or repel nearby trajectories, visualised through phase portraits that reveal the qualitative behaviour of solutions without solving explicitly.
+
 ## Study Tips
 
 1. **Master the methods**: Learn to identify and solve different types of ODEs

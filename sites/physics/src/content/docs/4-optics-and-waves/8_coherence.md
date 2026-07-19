@@ -164,6 +164,12 @@ The second-order correlation function $g^{(2)}(0) = 2$ for thermal light reflect
 **Mistake 2: Confusing the coherence time with the correlation time of the source**
 The coherence time $\tau_c \approx 1/\Delta\nu$ characterises how long the field maintains a definite phase, while the source correlation time relates to the atomic emission process. For a laser, $\tau_c$ can be microseconds or longer despite atomic transitions occurring on nanosecond timescales. Students often assume these timescales must be comparable.
 
+## Cross-References
+
+- **[Diffraction](./4_diffraction.md)**: The formation of diffraction fringes depends on the coherence of the source; partially coherent light produces reduced-visibility fringes.
+- **[Fourier Optics](./7_fourier-optics.md)**: Uses the Wiener-Khinchin theorem to relate the power spectrum of the source to the mutual coherence function via Fourier transforms.
+- **[Polarization](./5_polarization.md)**: The coherence matrix extends to vector fields, connecting coherence theory to the polarisation state of partially polarised light.
+
 **Mistake 3: Assuming that spatial coherence requires a point source**
 The van Cittert-Zernike theorem shows that even an extended incoherent source produces spatially coherent light over a finite area $A_c \approx \lambda^2/\Omega$. The coherence area increases as the source becomes more compact. Students sometimes think only lasers or point sources produce spatially coherent light, when in fact any source produces some degree of spatial coherence over sufficiently small transverse distances.
 

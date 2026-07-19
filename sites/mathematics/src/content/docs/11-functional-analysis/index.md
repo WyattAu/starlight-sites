@@ -55,6 +55,10 @@ Each section includes:
 - Common pitfalls and how to avoid them
 - Connections to other areas of mathematics
 
+## Intuition
+
+Functional analysis extends linear algebra to infinite dimensions, studying spaces of functions rather than finite tuples of numbers. A normed space adds a notion of length to a vector space; completeness ensures that Cauchy sequences converge, producing Banach spaces. When the norm comes from an inner product, we get Hilbert spaces, the natural setting for quantum mechanics. Bounded linear operators are the continuous transformations between these spaces. The great theorems of functional analysis, including Hahn-Banach and the open mapping theorem, reveal the surprisingly rigid structure that completeness imposes. The key insight is that many problems in analysis, differential equations, and quantum theory become statements about geometry in function space.
+
 ## Common Mistakes
 
 **Mistake 1: Confusing Banach spaces with Hilbert spaces**

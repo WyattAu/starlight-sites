@@ -161,6 +161,12 @@ If the aperture function is a product $t = t_1 \cdot t_2$, the diffraction patte
 **Mistake 2: Assuming a lens performs an exact Fourier transform without considering the paraxial approximation**
 A thin lens adds a quadratic phase factor $\exp(-ik(x^2+y^2)/(2f))$. The Fourier transform relationship at the back focal plane holds only in the paraxial approximation (small angles). For high-NA lenses or large off-axis distances, aberrations and non-paraxial effects distort the transform. Students sometimes assume the Fourier relationship is exact for all configurations.
 
+## Cross-References
+
+- **[Diffraction](./4_diffraction.md)**: Establishes the Huygens-Fresnel principle and Fraunhofer diffraction integral that the Fourier transform relationship formalises.
+- **[Coherence](./8_coherence.md)**: The spatial and temporal coherence of the source determines whether the Fourier transform relationship between aperture and far-field pattern holds.
+- **[Fourier Optics](./14_fourier-optics-10.md)**: Provides the mathematical framework for diffraction as Fourier decomposition, including the convolution theorem and Airy pattern.
+
 **Mistake 3: Forgetting that the 4f system inverts the image**
 The second lens in a 4f system performs another Fourier transform, which introduces a coordinate inversion: $U_{\text{out}}(x,y) \propto U_{\text{in}}(-x,-y)$ when no filter is present. Students sometimes forget this inversion when designing spatial filtering experiments, leading to unexpectedly mirrored output images.
 

@@ -157,3 +157,9 @@ the Radon-Nikodym theorem connects measures via densities.
 | H\"older | $\|fg\|_1 \leq \|f\|_p \|g\|_q$ | Duality of $L^p$ spaces |
 | Minkowski | $\|f+g\|_p \leq \|f\|_p + \|g\|_p$ | Triangle inequality |
 | Jensen | $\phi(\int f) \leq \int \phi(f)$ for convex $\phi$ | Entropy inequalities |
+
+## Cross-References
+
+- **[Lebesgue Outer Measure and Caratheodory Extension](./3_lebesgue-outer-measure-and-caratheodory-extension.md)**: The foundational construction of Lebesgue measure upon which all these results depend.
+- **[Measurable Functions](./5_measurable-functions.md)**: Defines the function classes to which the convergence theorems and inequalities apply.
+- **[$L^p$ Spaces](./7_l-p-spaces.md)**: Provides the Banach space framework where Hölder and Minkowski inequalities govern the geometry.

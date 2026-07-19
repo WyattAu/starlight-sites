@@ -64,3 +64,14 @@ Organic chemistry is the chemistry of carbon compounds, which dominate because c
 3. **Draw mechanisms**: Practice drawing reaction mechanisms by hand
 4. **Use models**: Physical models help understand molecular geometry
 5. **Connect theory to practice**: Relate theoretical concepts to real-world applications
+
+## Common Mistakes
+
+**Mistake 1: Confusing $S_N1$ and $S_N2$ mechanism conditions**
+$S_N2$ reactions require a strong nucleophile, a primary or methyl substrate, and a polar aprotic solvent. $S_N1$ reactions proceed through a carbocation intermediate and are favoured by tertiary substrates, weak nucleophiles, and polar protic solvents. Using an $S_N2$ mechanism with a tertiary substrate gives no reaction because backside attack is sterically blocked.
+
+**Mistake 2: Forgetting that elimination competes with substitution**
+E2 elimination competes with $S_N2$ substitution, especially with strong, bulky bases like potassium tert-butoxide. Increasing the temperature or using a bulky base favours elimination over substitution. Students often assume that adding a nucleophile always gives substitution, ignoring the elimination pathway.
+
+**Mistake 3: Misidentifying the leaving group in acyl substitution**
+In nucleophilic acyl substitution, the leaving group is the group that departs from the tetrahedral intermediate. For acid chlorides, $\text{Cl}^-$ is the leaving group. For esters, the alkoxide $\text{RO}^-$ is the leaving group. Confusing which group leaves leads to incorrect product predictions in multi-step syntheses.

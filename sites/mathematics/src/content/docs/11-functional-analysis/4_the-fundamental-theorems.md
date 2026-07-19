@@ -151,6 +151,16 @@ or construct the inverse explicitly.
 **Problem 7.** Let $X$ and $Y$ be Banach spaces and suppose $T : X \to Y$ is a linear operator.
 Prove that if $x_n \to 0$ and $Tx_n \to y$ implies $y = 0$, then $T$ is bounded.
 
+## Cross-References
+
+- **[Bounded Linear Operators](./3_bounded-linear-operators.md)**: Defines the operator spaces and norms that the fundamental theorems operate on, including the open mapping and closed graph theorems.
+- **[Compact Operators](./5_compact-operators.md)**: Applies the Fredholm alternative, which relies on the bounded inverse theorem established here.
+- **[Weak and Weak* Convergence](./6_weak-and-weak-convergence.md)**: Uses the Banach-Alaoglu theorem, a consequence of Hahn-Banach, to establish weak* compactness of the dual unit ball.
+
+## Intuition
+
+The fundamental theorems of functional analysis establish the basic infrastructure of infinite-dimensional analysis. Hahn-Banach says you can always extend a bounded linear functional from a subspace to the whole space without losing control of its norm, ensuring the dual space is rich enough to separate points. The open mapping theorem states that surjective bounded operators between Banach spaces are automatically open, meaning approximate solutions to linear equations can be upgraded to exact ones. The uniform boundedness principle says that if a family of operators is pointwise bounded, it is uniformly bounded. These theorems all rely on the Baire category theorem, which captures the idea that complete spaces are too large to be filled by countably many thin sets.
+
 ### 4.15 Common Mistakes
 
 **Mistake 1: Confusing the Hahn-Banach theorem with the open mapping theorem**

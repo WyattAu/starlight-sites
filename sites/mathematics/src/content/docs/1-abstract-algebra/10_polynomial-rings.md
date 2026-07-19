@@ -102,6 +102,10 @@ Thus $f$ has no factor of degree $1$ or $2$So $f$ is irreducible in $\mathbb{Q}[
 - If $R$ is a PID, then $R[x]$ is a UFD but generally not a PID.
 - The degree map $\deg : F[x] \setminus \{0\} \to \mathbb{N}$ is a Euclidean valuation.
 
+## Intuition
+
+Polynomial rings extend arithmetic to algebraic structures. The ring F[x] consists of formal sums of powers of x with coefficients in a field, and it inherits the familiar operations of addition and multiplication. The division algorithm allows you to divide one polynomial by another, producing a quotient and remainder, just as with integers. This makes polynomial rings Euclidean domains, where unique factorisation into irreducibles holds. Eisenstein's criterion provides a practical test for irreducibility: if a prime divides all coefficients except the leading one, and its square does not divide the constant term, the polynomial is irreducible. Polynomial rings are fundamental to coding theory, cryptography, and algebraic geometry.
+
 ### 10.5 Common Pitfalls
 
 - Assuming that irreducibility in $R[x]$ implies irreducibility in $S[x]$ for an extension $S \supseteq R$.

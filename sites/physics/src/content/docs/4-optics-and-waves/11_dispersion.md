@@ -154,6 +154,12 @@ Normal dispersion ($dn/d\lambda < 0$) occurs away from resonances, while anomalo
 **Mistake 3: Forgetting that the Abbe number characterises dispersive power**
 The Abbe number $V_d = (n_d - 1)/(n_F - n_C)$ measures how much a material disperses. A high Abbe number means low dispersion. Students sometimes use the Abbe number formula backwards or confuse crown glass (high $V_d$, low dispersion) with flint glass (low $V_d$, high dispersion) when designing achromatic doublets.
 
+## Cross-References
+
+- **[Electromagnetic Waves](./2_electromagnetic-waves.md)**: The dispersion relation $\omega = ck$ in vacuum is modified in dispersive media where the refractive index depends on frequency.
+- **[Optical Fibres](./12_optical-fibres.md)**: Material and waveguide dispersion broaden pulses in fibre communication, limiting the bit rate and requiring dispersion compensation.
+- **[Geometric Optics](./6_geometric-optics.md)**: Chromatic aberration in lenses arises from wavelength-dependent refraction, requiring achromatic doublets for correction.
+
 ## Intuition
 
 Dispersion occurs when different frequencies of light travel at different speeds through a medium. This is why prisms split white light into colors and why glass fibers spread out short pulses. The refractive index depends on frequency because the medium's electrons respond differently to different driving frequencies. Normal dispersion means higher frequencies see a higher refractive index and travel slower. Near absorption resonances, anomalous dispersion occurs. Group velocity describes how fast a pulse envelope travels, while phase velocity describes individual wave crests. In dispersive media, these can differ dramatically, even exceeding the speed of light without violating causality.

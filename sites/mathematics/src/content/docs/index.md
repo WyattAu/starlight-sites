@@ -63,3 +63,14 @@ Each section includes:
 3. **Build connections**: Understand how different areas of mathematics relate to each other
 4. **Learn standard examples**: Know the properties of common mathematical objects
 5. **Connect to applications**: Relate abstract concepts to physics, computer science, and engineering
+
+## Common Mistakes
+
+**Mistake 1: Skipping foundational topics to jump to advanced material**
+Students often attempt measure theory or algebraic topology without a solid grasp of real analysis and linear algebra. This leads to shallow understanding and an inability to construct proofs. Master the foundational subjects first, as the later material builds directly on them.
+
+**Mistake 2: Reading proofs without attempting to reconstruct them**
+Mathematics is learned by doing, not by passive reading. Simply following a proof step-by-step gives a false sense of comprehension. After reading a proof, close the book and try to reproduce it from memory, filling in gaps by working through the logical structure yourself.
+
+**Mistake 3: Treating definitions as suggestions rather than precise requirements**
+In proof-based mathematics, every word in a definition matters. For example, a "normal subgroup" requires both closure under conjugation and the subgroup property. Omitting any condition leads to incorrect results. Always verify that all parts of a definition are satisfied before applying a theorem.

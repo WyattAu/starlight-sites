@@ -61,3 +61,14 @@ Chemistry is the science of matter and its transformations, bridging physics and
 3. **Draw mechanisms**: Practice drawing reaction mechanisms by hand
 4. **Use models**: Physical models help understand molecular geometry
 5. **Connect theory to practice**: Relate theoretical concepts to real-world applications
+
+## Common Mistakes
+
+**Mistake 1: Confusing equilibrium constants with rate constants**
+The equilibrium constant $K_{eq}$ describes the ratio of product to reactant concentrations at equilibrium, while the rate constant $k$ describes how fast a reaction proceeds. A large $K_{eq}$ means the reaction favours products at equilibrium but says nothing about how quickly equilibrium is reached. A reaction with large $K_{eq}$ can be very slow if the activation energy is high.
+
+**Mistake 2: Mixing up exothermic with spontaneous**
+An exothermic reaction ($\Delta H < 0$) releases heat, but spontaneity is determined by $\Delta G = \Delta H - T\Delta S$, not $\Delta H$ alone. An exothermic reaction with a large negative entropy change can be non-spontaneous at high temperatures. Always check the full Gibbs free energy expression before predicting spontaneity.
+
+**Mistake 3: Assuming all strong acids have the same strength in water**
+All strong acids appear to have the same acidity in water because water levels their strengths through the leveling effect. In a less basic solvent like acetic acid, the differences between strong acids become apparent. The leveling effect means that the strongest acid that can exist in water is $\text{H}_3\text{O}^+$, so any stronger acid is leveled to this strength.

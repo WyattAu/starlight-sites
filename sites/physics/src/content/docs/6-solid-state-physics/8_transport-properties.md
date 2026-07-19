@@ -159,6 +159,12 @@ Matthiessen's rule states that the total resistivity is the sum of impurity and 
 **Mistake 5: Confusing the electronic specific heat with the total specific heat.**
 The electronic specific heat $\gamma_{\mathrm{electron}}$ is only one contribution to the total specific heat. The lattice (phonon) contribution dominates at high temperatures. Do not assume that the total specific heat is entirely electronic.
 
+## Cross-References
+
+- **[Electronic Band Structure](./5_electronic-band-structure.md)**: The Fermi surface geometry and effective mass from band theory determine the transport coefficients measured in the Drude and Boltzmann frameworks.
+- **[Defects in Crystals](./9_defects-in-crystals.md)**: Point defects and dislocations act as scattering centres that contribute to the residual resistivity in Matthiessen's rule.
+- **[Superconductivity](./7_superconductivity.md)**: Represents the extreme limit where scattering vanishes entirely, producing zero resistivity below the critical temperature.
+
 ## Intuition
 
 Electrical conductivity is like traffic flow: electrons are cars, the electric field is the slope of the road, and scattering events are red lights. The Drude model treats electrons as a classical gas bouncing off ions, which explains Ohm's law but fails at low temperatures where quantum effects matter. The mean free path is how far an electron travels between collisions. Matthiessen's rule says different scattering mechanisms add independently, like different types of road obstacles. The Hall coefficient reveals whether charge carriers are positive or negative, which the simple model cannot predict.

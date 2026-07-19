@@ -55,6 +55,10 @@ Each section includes:
 - Common pitfalls and how to avoid them
 - Connections to other areas of mathematics
 
+## Intuition
+
+Measure theory provides the rigorous foundation for integration and probability. A measure assigns sizes to sets, generalising length, area, and volume. Sigma-algebras specify which sets can be measured: they are collections closed under complements and countable unions, large enough to contain all open sets yet small enough to avoid paradoxical constructions. Lebesgue measure extends the intuitive notion of length to a vast class of subsets of the real line. The power of measure theory lies in its convergence theorems: the monotone convergence theorem and dominated convergence theorem justify passing limits inside integrals, operations that fail spectacularly for the Riemann integral. Measure theory thus transforms integration from a computational tool into a flexible framework for analysis.
+
 ## Study Tips
 
 1. **Master the definitions**: Measure theory requires precise understanding of sigma-algebras and measures

@@ -118,6 +118,16 @@ $\varphi(e_n) = 1 \not\to 0$, so $e_n$ does not converge weakly to $0$ in $\ell^
 $\int_0^{2\pi} \sin(nx) g(x)\, dx \to 0$. Hence $\langle f_n, g\rangle \to 0$, so
 $f_n \rightharpoonup 0$. Note that $\|f_n\|_2 = \sqrt{\pi}$, so $f_n$ does not converge strongly. $\blacksquare$
 
+## Cross-References
+
+- **[Normed Spaces and Banach Spaces](./1_normed-spaces-and-banach-spaces.md)**: Defines the dual spaces and weak topologies that underpin the notions of weak and weak* convergence.
+- **[Bounded Linear Operators](./3_bounded-linear-operators.md)**: Bounded operators are weakly continuous, and compact operators upgrade weak convergence to strong convergence.
+- **[Compact Operators](./5_compact-operators.md)**: Compact operators map weakly convergent sequences to strongly convergent sequences, connecting the two convergence modes.
+
+## Intuition
+
+Weak convergence generalises the idea of convergence beyond the strong topology. In infinite dimensions, bounded sequences need not converge in norm, but they may converge weakly: a sequence converges weakly if every continuous linear functional applied to it produces a convergent sequence of numbers. This is a weaker requirement, like asking whether all measurements stabilise rather than whether the object itself stabilises. The Banach-Alaoglu theorem guarantees that bounded sets in dual spaces are weak-star compact, providing the existence of convergent subsequences. Weak convergence is the natural mode of convergence in the calculus of variations and in PDE theory, where direct methods extract weakly convergent subsequences from minimising sequences.
+
 ## Common Mistakes
 
 **Mistake 1: Assuming weak convergence implies norm convergence**

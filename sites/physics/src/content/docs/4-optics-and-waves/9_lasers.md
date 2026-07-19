@@ -155,3 +155,14 @@ Calculate the peak power, average power, and photon energy at 1064 nm.
 ## Intuition
 
 A laser works by making light copy itself through stimulated emission. Population inversion is the key: more atoms must be in the excited state than the ground state, which thermal equilibrium forbids. This is like having more people running uphill than downhill. The optical cavity provides feedback, allowing light to pass through the gain medium multiple times. Gaussian beams are the natural modes because diffraction spreads light, and the beam waist balances this spreading. The coherence of laser light comes from all photons being in the same quantum state.
+
+## Common Mistakes
+
+**Mistake 1: Assuming a two-level system can achieve population inversion**
+A two-level system at thermal equilibrium always has $N_2 < N_1$ because the Boltzmann factor $e^{-\hbar\omega/(k_BT)}$ is less than one. Stimulated emission and absorption have equal rates ($B_{21} = B_{12}$), so the system reaches equilibrium with more atoms in the lower level. A three-level or four-level pumping scheme is required to bypass this limitation.
+
+**Mistake 2: Confusing the Rayleigh range with the beam waist**
+The Rayleigh range $z_R = \pi w_0^2/\lambda$ is the distance over which the beam area doubles, not the beam waist $w_0$ itself. Students often swap these quantities in formulas for beam radius $w(z)$ or divergence angle $\theta$. The beam waist is the minimum spot size at $z = 0$, while the Rayleigh range characterizes how quickly the beam spreads.
+
+**Mistake 3: Neglecting the spontaneous emission factor in rate equations**
+The spontaneous emission factor $\beta$ distributes a small fraction of spontaneously emitted photons into the lasing mode. Ignoring $\beta$ leads to an incorrect threshold condition and overestimates the required pump rate. In semiconductor lasers, $\beta$ can be as large as $10^{-4}$, making it non-negligible for threshold calculations.

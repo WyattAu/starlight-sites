@@ -88,6 +88,10 @@ $\sqrt{\langle x^2 \rangle} \approx 0.94$ $\mu$M.
 
 </details>
 
+## Intuition
+
+The fluctuation-dissipation theorem reveals a profound link between how a system wobbles on its own and how it resists being pushed. A resistor at thermal equilibrium has voltage noise because charge carriers jitter randomly; the same microscopic collisions that cause this noise also produce electrical resistance. The theorem quantifies this: the power spectrum of spontaneous fluctuations is proportional to the dissipative part of the response function, with temperature as the bridge. A stiff spring that resists displacement strongly also fluctuates less. A particle in a viscous fluid diffuses slowly because the same drag that slows it also heats it. This deep connection means you can learn about a system's dissipation just by watching it fluctuate at equilibrium, without ever applying an external force.
+
 ### Key Relationships
 
 | Quantity | Expression | Physical Content |

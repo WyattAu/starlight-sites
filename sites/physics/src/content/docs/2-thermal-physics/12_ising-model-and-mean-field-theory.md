@@ -166,3 +166,14 @@ model with random couplings, where stored memories correspond to ground states.
 
 The Ising model is the simplest system that shows how local interactions create global order. Each spin is like a person who copies their neighbors' opinions. Below the critical temperature, the copying wins and everyone aligns. Above it, thermal noise randomizes opinions. Mean-field theory assumes each spin sees only the average behavior of its neighbors, like a voter influenced by the national mood rather than individual neighbors. This approximation ignores fluctuations but captures the essential physics: a phase transition occurs when the coupling strength overcomes thermal disorder.
 
+## Common Mistakes
+
+**Mistake 1: Assuming mean-field theory is exact in all dimensions**
+Mean-field theory overestimates the critical temperature and gives incorrect critical exponents for dimensions below the upper critical dimension ($d < 4$). For the 2D Ising model, mean-field theory predicts $T_c = 4J/k_B$ while the exact Onsager solution gives $T_c \approx 2.269J/k_B$. The approximation improves as dimensionality increases because each spin has more neighbors, making the mean-field assumption more accurate.
+
+**Mistake 2: Confusing the partition function of the 1D Ising model with a phase transition**
+The 1D Ising model has no phase transition at any finite temperature. The transfer matrix eigenvalues $\lambda_+$ and $\lambda_-$ are always distinct for $T > 0$, so the free energy is analytic. Students sometimes mistake the mathematical structure of the transfer matrix for evidence of a phase transition, but the free energy has no singularity.
+
+**Mistake 3: Assuming critical exponents depend on microscopic details**
+Critical exponents are universal: they depend only on the dimensionality of the system and the symmetry of the order parameter, not on the coupling constant $J$ or lattice structure. This universality means that the 2D Ising model on a square lattice and on a triangular lattice have the same critical exponents despite different microscopic Hamiltonians.
+

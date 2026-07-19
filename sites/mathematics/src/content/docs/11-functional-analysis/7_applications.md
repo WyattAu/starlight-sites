@@ -142,6 +142,16 @@ A **reproducing kernel Hilbert space (RKHS)** $H$ is a Hilbert space of function
 
 The **kernel** $k(x, y) = \langle k_x, k_y \rangle$ is a positive definite function. The Moore-Aronszajn theorem states that every positive definite kernel corresponds to a unique RKHS. RKHS theory underpins kernel methods in machine learning, including support vector machines and Gaussian processes.
 
+## Cross-References
+
+- **[The Fundamental Theorems](./4_the-fundamental-theorems.md)**: Provides the Lax-Milgram theorem and Hahn-Banach extension used to establish existence and uniqueness of weak solutions.
+- **[Compact Operators](./5_compact-operators.md)**: The Fredholm alternative for compact operators is applied to solve integral equations arising in physics.
+- **[Weak and Weak* Convergence](./6_weak-and-weak-convergence.md)**: Weak compactness is essential for extracting convergent subsequences in the calculus of variations and PDE theory.
+
+## Intuition
+
+Functional analysis provides the language and machinery for solving differential equations, signal processing, and machine learning. In PDE theory, weak solutions are obtained by projecting onto finite-dimensional subspaces via the Galerkin method, with existence guaranteed by the Lax-Milgram theorem. The Fourier transform decomposes signals into frequencies, and the sampling theorem connects continuous signals to their discrete representations. In quantum mechanics, states live in Hilbert space and observables are self-adjoint operators whose spectral decompositions determine measurement outcomes. In machine learning, reproducing kernel Hilbert spaces provide the mathematical framework for support vector machines and Gaussian processes, where inner products encode similarity between data points.
+
 ## Common Mistakes
 
 **Mistake 1: Assuming the Lax-Milgram theorem requires a Hilbert space inner product**

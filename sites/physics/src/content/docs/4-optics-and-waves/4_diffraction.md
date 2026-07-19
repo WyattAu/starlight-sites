@@ -265,6 +265,12 @@ $d/a = 3$ as the ratio for missing orders.
 </details>
 
 
+## Cross-References
+
+- **[Fourier Optics](./7_fourier-optics.md)**: Formalises the Fourier transform relationship between aperture functions and far-field diffraction patterns introduced in the Fraunhofer limit.
+- **[Coherence](./8_coherence.md)**: The visibility and formation of diffraction fringes depend on the temporal and spatial coherence of the source.
+- **[Fresnel Equations](./10_fresnel-equations.md)**: Determines the amplitude and phase of reflected and transmitted waves at boundaries, affecting diffraction from layered structures.
+
 ## Common Mistakes
 
 **Mistake 1: Using the double-slit maximum condition for single-slit minima**

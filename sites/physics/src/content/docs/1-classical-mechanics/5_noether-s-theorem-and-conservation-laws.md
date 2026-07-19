@@ -150,8 +150,18 @@ vector Is conserved for any central potential. $\blacksquare$
 
 
 
+## Common Mistakes
+
+**Mistake 1: Assuming every symmetry implies a conservation law without checking continuity**
+Noether's theorem applies only to continuous symmetries. Discrete symmetries like parity or time reversal do not yield conserved quantities via Noether's theorem. For example, a crystal lattice has discrete translational symmetry but does not conserve crystal momentum in the same sense as continuous translation invariance conserves linear momentum.
+
+**Mistake 2: Confusing the conserved quantity with the symmetry generator**
+The conserved quantity $Q = \sum_j p_j \delta q_j - F$ is not the same as the infinitesimal generator of the transformation. The generator is the vector field $\delta q_j$, while $Q$ is the corresponding momentum map. For time translation, the generator is $\dot{q}_j$ but the conserved quantity is the Hamiltonian $H = \sum_j p_j \dot{q}_j - L$.
+
+**Mistake 3: Applying Noether's theorem to systems with explicit time dependence in the Lagrangian**
+When the Lagrangian depends explicitly on time, the action is not invariant under time translations, so energy is not conserved. The quantity $h = \sum_j p_j \dot{q}_j - L$ is still well-defined but is not conserved. Students often assume $h$ is always the energy, but it only equals the conserved energy when $\partial L/\partial t = 0$.
+
 ## Cross-References
 
-- **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation provides the framework for applying Noether's theorem to find conserved quantities.
 - **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism expresses conserved quantities as functions of phase space variables.
 - **[Central Force Problems](6_central-force-problems.mdx)**: Central potentials exhibit rotational symmetry, leading to angular momentum conservation via Noether's theorem.

@@ -159,6 +159,17 @@ $$L = \frac{\mu_0 N^2 A}{\ell}$$
 
 Electrodynamics is the physics of how changing fields create each other. Faraday's law says a changing magnetic field whips up an electric field like stirring tea creates a whirlpool. The displacement current is Maxwell's brilliant addition: a changing electric field produces a magnetic field just as a real current does, which is what allows electromagnetic waves to propagate through empty space. Lenz's law is nature's stubbornness: when you try to change the magnetic flux through a loop, the loop fights back by inducing a current that opposes the change. This is why a magnet falling through a copper pipe slows down even though copper is not magnetic. Self-inductance is like electrical inertia: an inductor resists changes in current the way a massive object resists changes in velocity. The energy stored in an inductor's magnetic field is like the kinetic energy of a moving mass.
 
+## Common Mistakes
+
+**Mistake 1: Forgetting the minus sign in Faraday's law**
+The induced EMF is $\mathcal{E} = -d\Phi_B/dt$, not $+d\Phi_B/dt$. The minus sign encodes Lenz's law: the induced current opposes the change in flux that produced it. Dropping the sign leads to predictions of perpetual motion machines where induced currents accelerate rather than resist motion.
+
+**Mistake 2: Treating displacement current as actual charge flow**
+The displacement current $\mu_0\varepsilon_0\,\partial\mathbf{E}/\partial t$ is not a real current carried by moving charges. It is a term in Maxwell's equations that accounts for the magnetic field produced by a time-varying electric field. Inside a charging capacitor, $\mathbf{J} = 0$ but $\partial\mathbf{E}/\partial t \neq 0$, so the displacement current fills the gap.
+
+**Mistake 3: Applying Faraday's law to non-conservative fields**
+Faraday's law $\nabla \times \mathbf{E} = -\partial\mathbf{B}/\partial t$ applies to induced electric fields, which are non-conservative. Students sometimes attempt to define a scalar potential for these fields, but $\mathbf{E} \neq -\nabla V$ when $\partial\mathbf{B}/\partial t \neq 0$. The scalar potential formulation only works in the static limit.
+
 ## Cross-References
 
 - **[Maxwell's Equations](1_maxwell-s-equations.md)**: Faraday's law and the displacement current are two of Maxwell's four equations that govern electrodynamics.

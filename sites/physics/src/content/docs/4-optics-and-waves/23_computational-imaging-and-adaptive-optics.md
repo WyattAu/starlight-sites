@@ -51,6 +51,10 @@ $\Delta\lambda = \lambda/R$.
 
 $\blacksquare$
 
+## Intuition
+
+Computational imaging combines optical hardware with algorithmic processing to overcome physical limits. Compressed sensing exploits the fact that most natural signals are sparse in some basis, meaning they can be reconstructed from far fewer measurements than the Nyquist theorem would suggest, like learning a song from just a few notes if you know it is simple. Adaptive optics corrects atmospheric turbulence in real time by measuring wavefront distortions with a guide star and deforming a mirror to cancel them, much like noise-cancelling headphones but for light. These techniques push imaging systems beyond their classical diffraction limits by treating image formation as an inverse problem rather than a purely optical one.
+
 ## Common Pitfalls
 
 - **Confusing group and phase velocity.** Phase velocity $v_p = \omega/k$; group velocity

@@ -93,6 +93,16 @@ Every Hilbert space is a Banach space, but the converse fails: $L^p$ for $p \neq
 not Hilbert. The parallelogram law characterises normed spaces whose norm comes from an inner
 product.
 
+## Cross-References
+
+- **[Normed Spaces and Banach Spaces](./1_normed-spaces-and-banach-spaces.md)**: Provides the general framework of normed vector spaces that inner product spaces specialise with additional geometric structure.
+- **[Bounded Linear Operators](./3_bounded-linear-operators.md)**: Develops the theory of continuous linear maps on Hilbert spaces, where the adjoint operator plays a central role.
+- **[Compact Operators](./5_compact-operators.md)**: Uses the spectral theorem for compact self-adjoint operators on Hilbert spaces to decompose operators via orthonormal bases.
+
+## Intuition
+
+Inner product spaces generalise the dot product to abstract vector spaces, enabling notions of angle and orthogonality. An inner product measures how aligned two vectors are, with zero indicating perpendicularity. The Cauchy-Schwarz inequality bounds this alignment, and the parallelogram law characterises exactly which norms arise from inner products. Hilbert spaces are complete inner product spaces, and the Riesz representation theorem guarantees that every continuous linear functional on a Hilbert space is itself given by an inner product. This self-referential structure, where a space is isometrically isomorphic to its dual, is what makes Hilbert spaces the natural home for quantum states, Fourier series, and least-squares approximation.
+
 ### 2.7 Common Pitfalls
 
 - **Assuming every Cauchy sequence converges in an inner product space.** Completeness is an extra

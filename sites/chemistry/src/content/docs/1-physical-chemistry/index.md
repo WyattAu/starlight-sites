@@ -65,3 +65,14 @@ Physical chemistry applies physics to chemical systems, asking why reactions hap
 3. **Work through derivations**: Practice deriving equations from first principles
 4. **Use mathematical tools**: Familiarise yourself with calculus and linear algebra techniques
 5. **Connect theory to experiment**: Relate theoretical concepts to experimental observations
+
+## Common Mistakes
+
+**Mistake 1: Confusing $\Delta G$ with $\Delta G^\circ$**
+$\Delta G$ is the Gibbs free energy change under arbitrary conditions, while $\Delta G^\circ$ is the standard free energy change at defined standard states. The relationship $\Delta G = \Delta G^\circ + RT\ln Q$ connects them through the reaction quotient $Q$. At equilibrium ($Q = K$), $\Delta G = 0$ and $\Delta G^\circ = -RT\ln K$, but this does not mean $\Delta G = \Delta G^\circ$.
+
+**Mistake 2: Assuming the Arrhenius equation applies to all reactions**
+The Arrhenius equation $k = Ae^{-E_a/RT}$ assumes a single-step reaction with a well-defined activation energy. For multi-step mechanisms, the observed activation energy is an effective value that may not correspond to any single elementary step. Reactions with negative activation energies or complex temperature dependences require the Eyring equation from transition state theory.
+
+**Mistake 3: Treating entropy as disorder without quantitative reasoning**
+Entropy is a quantitative thermodynamic quantity measured in $\text{J K}^{-1}$, not a qualitative measure of disorder. The entropy change $\Delta S = q_{\text{rev}}/T$ must be calculated from reversible heat transfer, not estimated from visual inspection. Students often predict sign errors by confusing the system entropy with the total (system + surroundings) entropy.

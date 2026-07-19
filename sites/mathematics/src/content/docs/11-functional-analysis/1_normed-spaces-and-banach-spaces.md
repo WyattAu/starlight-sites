@@ -164,6 +164,12 @@ $(\ell^p)^{**} \cong \ell^p$ via the natural embedding.
 
 ### 1.13 Common Mistakes
 
+## Cross-References
+
+- **[$L^p$ Spaces](../10-measure-theory/7_l-p-spaces.md)**: Provides concrete examples of Banach spaces that are fundamental throughout analysis, with the completeness result proved here.
+- **[Inner Product Spaces and Hilbert Spaces](./2_inner-product-spaces-and-hilbert-spaces.md)**: Specialises the normed space theory to spaces where the norm comes from an inner product, enabling orthogonal projections.
+- **[Bounded Linear Operators](./3_bounded-linear-operators.md)**: Develops the theory of continuous linear maps between normed spaces, building on the dual space concept.
+
 ## Intuition
 
 Functional analysis extends linear algebra to infinite dimensions. A normed space is a vector space where you can measure the "size" of vectors, and a Banach space is one where Cauchy sequences converge — the space has no "holes." Think of it as doing linear algebra with functions instead of finite arrays. The dual space contains all continuous linear functionals: machines that take in a vector and return a number. Boundedness and continuity coincide for linear maps, a fact that fails in nonlinear settings. The key challenge of infinite dimensions is that bounded sequences need not have convergent subsequences — compactness becomes a rare and precious property, requiring special conditions like reflexivity.

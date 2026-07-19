@@ -128,6 +128,10 @@ The fluctuation-dissipation theorem unifies these: the Einstein relation and Joh
 | Jarzynski equality      | Non-equilibrium     | Any driving protocol   | $\langle e^{-\beta W}\rangle = e^{-\beta\Delta F}$ |
 | Crooks theorem          | Non-equilibrium     | Forward/reverse pairs  | $P_F(W)/P_R(-W) = e^{\beta(W - \Delta F)}$     |
 
+## Intuition
+
+Irreversible thermodynamics describes systems that are driven away from equilibrium and eventually settle into a steady state. The Onsager relations reveal a deep symmetry: the way a temperature gradient drives particle flow is mathematically related to how a concentration gradient drives heat flow. Entropy production is always positive in irreversible processes, providing an arrow of time. Fluctuation theorems extend these ideas to small systems where thermal noise dominates, showing that entropy-decreasing fluctuations are possible but exponentially unlikely. These frameworks connect microscopic randomness to macroscopic irreversibility, explaining why heat flows from hot to cold and why perpetual motion machines are impossible.
+
 ### 19.9 Worked Example: Johnson-Nyquist Noise in an RC Circuit
 
 **Problem.** A $10$ k$\Omega$ resistor at $T = 300$ K is connected to a $1$ nF capacitor. Compute the RMS voltage fluctuation across the capacitor and the noise power in a $1$ MHz bandwidth.

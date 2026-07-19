@@ -124,6 +124,14 @@ Therefore $\mathrm{Gal}(E/\mathbb{Q}) \cong D_4$ (dihedral group of order $8$). 
 
 </details>
 
+## Cross-References
+
+- **[Additional Results](./14_additional-results.md)**: Extends the group theory toolkit with Cauchy's theorem and the structure theorem for abelian groups, which underpin the classification of Galois groups.
+
+## Intuition
+
+Galois theory reveals the deep connection between field extensions and group theory. The fundamental theorem establishes a correspondence between intermediate fields of a field extension and subgroups of its Galois group, with inclusion-reversing properties. This transforms questions about the solvability of polynomial equations into questions about the structure of groups. A polynomial is solvable by radicals precisely when its Galois group is a solvable group, meaning it has a chain of normal subgroups with abelian quotients. Since the symmetric group on five or more elements is not solvable, the general quintic equation cannot be solved by radicals, answering a question that had remained open for centuries.
+
 ## Common Pitfalls
 
 - **Splitting field degree vs.\ polynomial degree.** The degree $[E:\mathbb{Q}]$ of a splitting field is not always equal to the degree of the polynomial; it equals the order of the Galois group, which can be larger (e.g.\ $x^3-2$ has degree 3 but $[E:\mathbb{Q}]=6$).

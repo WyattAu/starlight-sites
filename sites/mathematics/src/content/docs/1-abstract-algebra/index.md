@@ -64,6 +64,10 @@ Each section includes:
 - Common pitfalls and how to avoid them
 - Connections to other areas of mathematics
 
+## Intuition
+
+Abstract algebra distils the essence of arithmetic into algebraic structures. A group captures the idea of symmetry: any set of operations that can be composed and undone forms a group, from the rotations of a square to the permutations of a Rubik's cube. A ring extends this by adding a second operation, like multiplication, enabling the study of number systems and polynomial equations. A field adds the requirement that every non-zero element has a multiplicative inverse, producing the familiar arithmetic of fractions. The power of abstraction is that the same theorems apply to wildly different objects: the structure of finite groups illuminates crystal symmetries, Galois theory connects field extensions to polynomial solvability, and ring theory underpins modern cryptography.
+
 ## Study Tips
 
 1. **Master the definitions**: Abstract algebra requires precise understanding of definitions

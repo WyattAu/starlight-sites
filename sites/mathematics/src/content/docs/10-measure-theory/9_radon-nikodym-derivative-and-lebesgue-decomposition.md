@@ -130,6 +130,16 @@ $\nu = m + \delta_0$ with $m \ll m$ and $\delta_0 \perp m$. $\blacksquare$
 4. Prove that if $\mu$ and $\nu$ are $\sigma$-finite and $\nu \ll \mu$, then
    $\int f\, d\nu = \int f (d\nu/d\mu)\, d\mu$ for all measurable $f \geq 0$.
 
+## Cross-References
+
+- **[Lebesgue Outer Measure and Caratheodory Extension](./3_lebesgue-outer-measure-and-caratheodory-extension.md)**: Constructs the Lebesgue measure that serves as the reference measure for the Radon-Nikodym derivative.
+- **[Lebesgue Measurable Sets and Non-Measurable Sets](./4_lebesgue-measurable-sets-and-non-measurable-sets.md)**: Establishes the $\sigma$-algebra of measurable sets needed for the decomposition of measures.
+- **[Fubini and Tonelli Theorems](./8_fubini-and-tonelli-theorems.md)**: Product measures and integration techniques used in applications of the Radon-Nikodym derivative.
+
+## Intuition
+
+The Radon-Nikodym derivative generalises the concept of a density function. If one measure is absolutely continuous with respect to another, meaning it assigns zero to every set that the reference measure does, then the Radon-Nikodym theorem guarantees the existence of a derivative function that converts one measure into the other via integration. This is analogous to the fundamental theorem of calculus: just as differentiation recovers a function from its integral, the Radon-Nikodym derivative recovers the density from a measure. The Lebesgue decomposition theorem shows that any measure can be uniquely split into an absolutely continuous part and a singular part, like decomposing a signal into a smooth component and a spike.
+
 ## Common Mistakes
 
 **Mistake 1: Assuming the Radon-Nikodym derivative exists without absolute continuity**
