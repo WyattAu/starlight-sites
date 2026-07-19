@@ -84,6 +84,10 @@ pitfalls, and exam-style problems.
 - **DSE Maths:** [DSE Maths](https://dse.wyattau.com/docs/dse/maths)
 - **University Maths:** [University Maths](https://university.wyattau.com/docs/maths)
 
+## Intuition
+
+IB Mathematics AA is the study of patterns, structures, and change. Algebra provides the language for expressing relationships, calculus gives tools for measuring how things evolve, and statistics helps us reason about uncertainty. The course emphasizes mathematical reasoning over rote calculation, rewarding students who can explain why a method works, not just apply it. The internal assessment allows exploration of personal interests, connecting abstract mathematics to real-world phenomena.
+
 ## Common Pitfalls
 
 1. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires

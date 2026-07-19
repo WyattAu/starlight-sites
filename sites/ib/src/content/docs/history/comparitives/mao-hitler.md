@@ -162,6 +162,10 @@ Both leaders cultivated extensive cults of personality, though through different
 | Richard J. Evans     | N/A                                                                                                                          | _The Third Reich Trilogy_ (2003–2008) — nuanced synthesis of structuralist and intentionalist perspectives                              |
 | Roderick MacFarquhar | Views the Hundred Flowers Campaign as a deliberate trap to identify opposition                                               | N/A                                                                                                                                     |
 
+## Intuition
+
+Comparing authoritarian regimes reveals how different ideologies can produce strikingly similar mechanisms of control. Both Mao and Hitler exploited national crises and used propaganda, terror, and personality cults to consolidate power. The key difference lies in their ideological foundations: class-based struggle versus racial hierarchy. Understanding these parallels helps explain why authoritarian regimes recur throughout history under different ideological banners.
+
 ## Exam Strategies
 
 ### Comparative essay approach

@@ -904,6 +904,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+## Intuition
+
+Java's exception hierarchy separates recoverable errors (exceptions) from unrecoverable JVM failures (errors). Checked exceptions force callers to handle anticipated failures, while unchecked exceptions signal programming bugs. The try-with-resources pattern ensures cleanup happens automatically, like a librarian who always returns books to their shelf regardless of whether the reader finished. Effective exception handling means catching specific types, providing meaningful messages, and never silently swallowing errors.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

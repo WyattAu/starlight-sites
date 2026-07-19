@@ -980,5 +980,12 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- [Control Flow](/docs/languages/python/02-fundamentals/02-control-flow.md) — Truthiness rules and short-circuit evaluation govern how booleans behave in conditional expressions and loops.
+- [Collections](/docs/languages/python/03-data-structures/01-collections.md) — Lists, tuples, and dicts are the primary data structures whose type properties depend on mutability and hashability.
+- [Python Internals](/docs/languages/python/02-fundamentals/05-python-internals.md) — Integer caching, string interning, and the PyObject header explain the runtime behaviour of types introduced here.
+- [Dicts, Sets, and Collections Deep Dive](/docs/languages/python/03-data-structures/02-dicts-sets-counter.md) — The type hierarchy and immutability concepts are prerequisites for understanding dict key and set membership requirements.
+
 
 </aside>

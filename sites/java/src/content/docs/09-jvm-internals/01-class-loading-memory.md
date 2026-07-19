@@ -693,6 +693,10 @@ concepts, experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
+## Intuition
+
+The JVM class loading system works like a chain of trust. When your code needs a class, the request travels up to the bootstrap loader, which loads core Java classes. Only if the parent cannot find it does the child try. This prevents malicious code from replacing trusted classes. The memory model ensures that all threads see a consistent view of shared data through happens-before relationships, like agreed-upon rules for how information flows between workers in different rooms.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

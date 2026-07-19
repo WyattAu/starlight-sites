@@ -810,6 +810,10 @@ principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
+## Intuition
+
+Web security is the practice of protecting web applications from attacks that exploit vulnerabilities in authentication, authorization, data handling, and configuration. The fundamental principle is defense in depth: no single control is sufficient, so security measures are layered. Input validation, output encoding, parameterized queries, and least privilege each address different attack vectors. Understanding how data flows through an application helps identify where trust boundaries are crossed.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

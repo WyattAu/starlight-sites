@@ -270,6 +270,10 @@ Type aliases are useful for domain modeling and reducing verbosity in complex ge
 - \*\* Using `lateinit` for properties that can be initialized in the constructor. If the value is
   known at construction time, pass it as a constructor parameter.
 
+## Intuition
+
+Kotlin's type system is designed to eliminate null reference errors at compile time. Non-nullable types are the default, and nullable types require explicit handling through safe calls, Elvis operators, or not-null assertions. Type inference lets the compiler deduce types from context, keeping code concise while maintaining safety. Smart casts reduce boilerplate by automatically casting values after a type check. Together, these features make Kotlin's type system both expressive and safe.
+
 ## Summary
 
 This topic covers the core concepts of types and variables, including underlying theory, practical

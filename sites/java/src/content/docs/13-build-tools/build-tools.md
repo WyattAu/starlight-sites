@@ -992,6 +992,10 @@ theory, practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+## Intuition
+
+Build tools automate the process of compiling, testing, and packaging Java code. Maven uses a convention-over-configuration approach with a fixed directory layout and declarative XML. Gradle offers more flexibility with a Groovy or Kotlin DSL. Both manage dependencies by downloading libraries from central repositories and resolving version conflicts. The standard directory layout (src/main/java, src/test/java) makes projects recognizable across the Java ecosystem.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

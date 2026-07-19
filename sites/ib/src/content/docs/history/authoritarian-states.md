@@ -357,6 +357,10 @@ All three regimes used remarkably similar methods:
 
 ---
 
+## Intuition
+
+Authoritarian regimes are not monolithic. They emerge from specific historical conditions, economic crises, and political failures. The common thread is that each regime promised national renewal through a charismatic leader who claimed to embody the will of the people. Once in power, they used terror, propaganda, and institutional control to eliminate alternatives. Understanding authoritarianism requires examining not just the leader but the society that enabled their rise.
+
 ## 7. Summary
 
 The study of authoritarian states in the 20th century reveals both common patterns and significant

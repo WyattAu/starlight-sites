@@ -362,6 +362,10 @@ each function, how they differ in context and return type, and how to combine th
 Understanding scope functions thoroughly improves readability and reduces boilerplate in Kotlin
 code. Practice each function with realistic examples to build fluency.
 
+## Intuition
+
+Scope functions let you execute a block of code within the context of an object, reducing repetitive references. They differ in two dimensions: whether the object is accessed as this or it, and whether the function returns the object itself or the block's result. Think of them as shorthand patterns: apply configures, let transforms, also logs, and run computes. Choosing the right one depends on whether you need the object back or a computed result, and whether you prefer direct member access or explicit argument naming.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

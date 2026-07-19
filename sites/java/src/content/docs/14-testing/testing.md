@@ -924,6 +924,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+## Intuition
+
+Testing is the practice of verifying that code behaves as expected. Unit tests check individual methods in isolation, integration tests verify how components work together, and end-to-end tests validate complete user workflows. JUnit 5 provides annotations like @Test and @BeforeEach to structure tests, while assertions like assertEquals verify outcomes. Mocking isolates the unit under test by replacing collaborators with controlled fakes.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

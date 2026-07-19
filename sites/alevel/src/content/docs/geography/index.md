@@ -106,6 +106,12 @@ Each page in this section includes:
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 
+## Intuition
+
+Geography is the study of how people and places interact. Physical geography examines the natural systems that shape our planet, while human geography explores how societies organize and modify those systems. The subject connects local observations to global patterns: a single flood event in Cumbria reveals the same hydrological principles that govern river systems worldwide. Understanding geography means seeing connections between topics that appear unrelated, such as how climate change affects both coastal erosion and food security.
+
+---
+
 ## Overview
 
 This landing page provides comprehensive coverage of Geography content for the Alevel qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.

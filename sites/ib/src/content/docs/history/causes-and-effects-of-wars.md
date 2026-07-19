@@ -338,6 +338,10 @@ analytical skills needed for high-scoring essay responses.
 
 ---
 
+## Intuition
+
+Wars do not erupt from single causes. They result from accumulated tensions that finally snap. The assassination of Franz Ferdinand did not cause WWI alone; it was the spark that ignited a powder keg of alliances, militarism, imperialism, and nationalism. Similarly, WWII grew from the unresolved grievances of WWI, economic collapse, and the failure of collective security. Understanding war means understanding how long-term pressures interact with short-term triggers.
+
 ## 7. Summary
 
 The two World Wars were the defining catastrophes of the 20th century, and understanding their

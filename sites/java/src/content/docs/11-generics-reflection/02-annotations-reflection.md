@@ -914,6 +914,10 @@ practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+## Intuition
+
+Annotations are metadata that attach information to code elements without changing their behavior. Built-in annotations like @Override and @SuppressWarnings communicate intent to the compiler. Custom annotations enable frameworks to process code declaratively. Reflection is the ability to inspect and modify code at runtime, which is how frameworks like Spring discover and wire components. Together, annotations and reflection form the backbone of modern Java frameworks.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

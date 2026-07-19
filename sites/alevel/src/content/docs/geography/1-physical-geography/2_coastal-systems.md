@@ -269,6 +269,12 @@ intrusion into freshwater aquifers.
 
 ---
 
+## Intuition
+
+Imagine the coast as a tug-of-war between the ocean and the land. Waves are the ocean's tools, constantly chiseling at the shoreline through erosion, while longshore drift acts like a conveyor belt moving sediment along the beach. Deposition happens when the ocean runs out of energy, like a truck dropping its load when it slows down. A spit is essentially a sand accumulation at a point where the coastline turns a corner, much like snow drifting behind a fence when wind changes direction. Hard engineering tries to build walls against the sea, but this simply redirects the energy elsewhere, like pressing on one end of a balloon. Soft engineering works with nature instead, allowing the coast to reshape itself gradually.
+
+---
+
 ## Common Pitfalls
 
 1. **Describing landforms without explaining the process**: Merely naming a stack is insufficient.

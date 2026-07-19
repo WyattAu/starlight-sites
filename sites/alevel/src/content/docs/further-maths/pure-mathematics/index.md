@@ -137,3 +137,7 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+
+## Intuition
+
+Pure mathematics is the language of abstraction. Complex numbers extend our number line into a plane, allowing us to solve equations that have no real solutions. Matrices encode transformations, treating rotation, scaling, and shearing as operations on objects. Differential equations describe how systems evolve over time, from cooling cups of tea to oscillating springs. The power of pure mathematics lies in its generality: the same equations that describe a vibrating string also model electrical circuits and quantum mechanics.

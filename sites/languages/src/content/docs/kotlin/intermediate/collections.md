@@ -300,6 +300,10 @@ val seq4 = generateSequence(seed = 0) { if (it < 100) it + 1 else null }  // 0..
   underlying implementation may be mutable. Use `toList()` or `toImmutableList()` (Kotlinx
   Collections) for defensive copies.
 
+## Intuition
+
+Collections are containers for groups of related data. Lists store ordered sequences, sets enforce uniqueness, and maps store key-value pairs. Kotlin's collection hierarchy separates read-only from mutable interfaces, making it clear at the type level whether a collection can be modified. Transformation operations like map, filter, and fold let you express data pipelines declaratively, treating collections as streams to be shaped rather than loops to be managed.
+
 ## Summary
 
 This topic covers the core concepts of collections, including underlying theory, practical
@@ -320,3 +324,10 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Coroutines](/docs/languages/kotlin/intermediate/coroutines.md) — Flow operators on collections parallel coroutine-based async processing; both use functional transformation patterns.
+- [Generics](/docs/languages/kotlin/intermediate/generics.md) — Collection type parameters and variance annotations (in/out) are governed by the generic type system.
+- [Delegation and Result](/docs/languages/kotlin/intermediate/delegation-and-result.md) — Property delegation can be used to lazily initialise collections or wrap them with observable behaviour.
+- [Coroutines Advanced](/docs/languages/kotlin/intermediate/coroutines-advanced.md) — StateFlow and SharedFlow build on collection concepts to provide reactive state management.

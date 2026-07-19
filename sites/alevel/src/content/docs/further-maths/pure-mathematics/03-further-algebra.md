@@ -766,6 +766,12 @@ Similarly: $y = \dfrac{5}{3}$ and $z = \dfrac{1}{6}$.
 
 ---
 
+## Intuition
+
+Partial fractions are the algebraic equivalent of decomposing a complex signal into pure tones. Just as a musical chord can be broken into individual notes, a rational expression can be decomposed into simpler fractions that are each easier to integrate. The relationships between roots and coefficients reveal that a polynomial's coefficients encode information about its solutions without requiring you to solve it. The method of differences is like a domino chain: each term cancels with the next, leaving only the first and last terms. Symmetric functions of roots exploit the fact that certain combinations of roots remain unchanged regardless of how the roots are ordered.
+
+---
+
 ## 9. Common Pitfalls
 
 | Pitfall                                                                                         | Correct Approach                                                                                                     |

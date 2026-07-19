@@ -637,6 +637,10 @@ concepts, experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
+## Intuition
+
+The JIT compiler is like a chef who starts by following a recipe exactly (interpretation) but then starts improvising shortcuts after making the dish many times (compilation). The JVM watches which methods are called frequently and optimizes those hot paths into native machine code. Deoptimization is the safety net: if the JIT's assumptions prove wrong, it bails back to interpretation. This adaptive approach combines fast startup with peak performance.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

@@ -304,6 +304,10 @@ val result: String = fail("unreachable")  // type-checks because Nothing is a su
 - \*\* Creating ranges with `..` that are accidentally empty. `10..1` is empty; use `10 downTo 1`.
 - \*\* Assuming `for (i in range)` mutates `i`. The loop variable is a new `val` on each iteration.
 
+## Intuition
+
+Control flow structures determine the order in which code executes. Kotlin treats if, when, and try as expressions that return values, eliminating the need for a ternary operator. The when expression is a powerful pattern matcher that can check ranges, types, and arbitrary conditions. Ranges provide a concise syntax for iteration. Labeled returns allow fine-grained control over lambda execution. These constructs make Kotlin code more declarative and less verbose than traditional imperative styles.
+
 ## Summary
 
 This topic covers the core concepts of control flow, including underlying theory, practical

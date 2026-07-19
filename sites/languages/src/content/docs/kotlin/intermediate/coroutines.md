@@ -326,6 +326,10 @@ suspend fun consumer(channel: ReceiveChannel<Int>) {
 - \*\* Collecting multiple flows sequentially. Use `combine``merge`Or `zip` to compose flows
   concurrently.
 
+## Intuition
+
+Coroutines are a way to write asynchronous code that reads like synchronous code. Instead of blocking a thread while waiting for IO, a coroutine suspends and lets other coroutines run, then resumes when the result is ready. Think of coroutines as workers in a restaurant: instead of one waiter standing idle while a dish cooks, they serve other tables and return when the food is ready. Structured concurrency ensures that when the restaurant closes, all workers go home together.
+
 ## Summary
 
 This topic covers the core concepts of coroutines, including underlying theory, practical
@@ -346,3 +350,10 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Coroutines Advanced](/docs/languages/kotlin/intermediate/coroutines-advanced.md) — Flow error handling, StateFlow, SharedFlow, and testing patterns extend the coroutine basics covered here.
+- [Collections](/docs/languages/kotlin/intermediate/collections.md) — Flow operators (map, filter, fold) mirror collection transformation operations; sequences provide lazy evaluation.
+- [Generics](/docs/languages/kotlin/intermediate/generics.md) — Deferred<T>, Flow<T>, and Channel<T> use generic type parameters with variance annotations.
+- [Delegation and Result](/docs/languages/kotlin/intermediate/delegation-and-result.md) — Property delegation and the Result type complement coroutine patterns for state management and error handling.

@@ -799,6 +799,10 @@ theorems, methods, and problem-solving approaches.
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
 
+## Intuition
+
+Cryptography is the science of securing information through mathematical transformations. Symmetric encryption uses one key for both locking and unlocking, like a door with a key that both opens and closes it. Asymmetric encryption uses a key pair: a public key that anyone can use to lock, and a private key that only the owner can use to unlock. Hash functions are one-way transformations that produce a fixed-size fingerprint from any input, useful for verifying data integrity without revealing the data itself.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

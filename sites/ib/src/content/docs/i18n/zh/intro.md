@@ -97,6 +97,10 @@ This page includes:
 - **Interleaving**: Mix this topic with others during study sessions
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
+## Intuition
+
+The IB program is designed to develop internationally minded students who recognize their common humanity and shared guardianship of the planet. The notes in this section follow the official syllabus structure, providing definitions, worked examples, and practice questions that mirror the examination format.
+
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.

@@ -823,6 +823,10 @@ experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
+## Intuition
+
+Garbage collection is the JVM's automatic memory manager. It traces from GC roots (stack variables, static fields, JNI references) to find all reachable objects, then reclaims memory from unreachable ones. The generational hypothesis says most objects die young, so the heap is split into young and old generations. The young generation uses a copying collector for speed, while the old generation uses a mark-sweep-compact collector for space efficiency. The goal is to maximize throughput while keeping pause times short.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

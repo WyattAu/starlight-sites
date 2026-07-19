@@ -532,6 +532,10 @@ correct order. No delays are needed for StateFlow tests since values update sync
 - **Testing with `runBlocking` instead of `runTest`.** `runBlocking` does not control virtual time,
   making tests with `delay` slow and non-deterministic.
 
+## Intuition
+
+Advanced coroutine patterns are about managing failure and sharing state across concurrent operations. Flow error handling mirrors how a resilient system works: catch failures, retry when appropriate, and circuit-break when failures exceed a threshold. StateFlow and SharedFlow distinguish between state that always has a value and events that happen once. The key insight is that coroutines are not threads but lightweight tasks that can be suspended, resumed, and cancelled, making structured concurrency the natural way to manage their lifecycle.
+
 ## Common Pitfalls
 
 1. **Catching CancellationException in a generic catch block.** Always rethrow
@@ -560,3 +564,10 @@ This document covers advanced coroutine patterns that build on the fundamentals.
 
 Understanding these advanced patterns is essential for building robust, maintainable, and testable
 asynchronous systems with Kotlin coroutines.
+
+## Cross-References
+
+- [Coroutines](/docs/languages/kotlin/intermediate/coroutines.md) — This advanced guide builds on the coroutine fundamentals: suspend functions, dispatchers, and structured concurrency.
+- [Collections](/docs/languages/kotlin/intermediate/collections.md) — Flow transformations (map, filter, flatMap) mirror collection operations; sequences share the lazy evaluation model.
+- [Generics](/docs/languages/kotlin/intermediate/generics.md) — Flow<T>, StateFlow<T>, and SharedFlow<T> use generic type parameters and variance annotations.
+- [Delegation and Result](/docs/languages/kotlin/intermediate/delegation-and-result.md) — StateFlow integrates with property delegation patterns for reactive state management in ViewModels.

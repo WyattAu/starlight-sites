@@ -957,6 +957,10 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+## Intuition
+
+NIO is built on three abstractions: buffers hold data, channels move data, and selectors monitor multiple channels for readiness. Think of a selector as a receptionist who handles many phone lines simultaneously, only picking up when someone calls. Selectors enable non-blocking I/O, where a single thread can manage thousands of connections. The buffer's flip, clear, and compact operations manage the transition between reading and writing modes, like flipping a notepad between write and read pages.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

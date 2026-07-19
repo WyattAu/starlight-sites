@@ -903,6 +903,10 @@ practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+## Intuition
+
+Generics add a layer of type safety to collections and other parameterized types. Before generics, you could put anything in a list and had to cast when retrieving. Generics let the compiler catch type mismatches at compile time instead of runtime. Type erasure means generic type information is removed after compilation, which is why you cannot do `new T()` or `instanceof List<String>`. Wildcards provide flexibility: `? extends T` for reading, `? super T` for writing.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

@@ -283,6 +283,10 @@ At runtime in Kotlin.
 - \*_ Using `List<_>` and then trying to add elements. Star projection makes the list effectively
   read-only for generic types.
 
+## Intuition
+
+Generics let you write code that works with any type while maintaining type safety. Think of a generic class as a mold that can produce objects of different types depending on what you pour in. Variance controls how subtypes relate: covariant types can only produce values (like a source), contravariant types can only consume values (like a sink), and invariant types do both. Type erasure means generic information disappears at runtime, which is why reified types use inline functions to preserve type information at compile time.
+
 ## Summary
 
 This topic covers the core concepts of generics, including underlying theory, practical
@@ -303,3 +307,10 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Collections](/docs/languages/kotlin/intermediate/collections.md) — List<T>, Set<T>, and Map<K,V> use generic type parameters; variance annotations control read/write access.
+- [Coroutines](/docs/languages/kotlin/intermediate/coroutines.md) — Deferred<T> and Flow<T> are generic types that use variance to define producer/consumer relationships.
+- [Coroutines Advanced](/docs/languages/kotlin/intermediate/coroutines-advanced.md) — StateFlow<T> and SharedFlow<T> are generic flows whose type parameters constrain what values can be emitted and collected.
+- [Delegation and Result](/docs/languages/kotlin/intermediate/delegation-and-result.md) — Generic delegate classes and the Result<T> type use type parameters to provide type-safe delegation and error handling.

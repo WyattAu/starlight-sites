@@ -800,6 +800,10 @@ If you get this wrong, revise: Exponential growth and separable differential equ
 
 </details>
 
+## Intuition
+
+Mathematics is the science of patterns. Algebra captures relationships between quantities, trigonometry describes circular and periodic phenomena, calculus measures change and accumulation, and statistics quantifies uncertainty. Each topic builds on the previous ones: you cannot do calculus without algebra, nor statistics without probability. The IB AA course emphasizes understanding over memorization, rewarding students who can explain the reasoning behind a solution rather than just producing the correct answer.
+
 ## Common Pitfalls
 
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both

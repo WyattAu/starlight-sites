@@ -284,6 +284,12 @@ restoration to slow runoff and increase infiltration.
 
 ---
 
+## Intuition
+
+Think of the water cycle as a giant conveyor belt driven by solar energy. The sun heats water at the surface, lifting it into the atmosphere like steam rising from a kettle. Gravity pulls it back down as rain, and the water finds its way back to the ocean through rivers and groundwater, completing the loop. The carbon cycle works like a bank account with multiple vaults. Carbon moves between the atmosphere (cash in hand), living organisms (savings), the ocean (a massive reserve), and fossil fuels (a locked vault). Human activity is essentially withdrawing carbon from the locked vault and dumping it into the atmosphere faster than the system can rebalance. Positive feedback loops act like a snowball rolling downhill, amplifying initial changes, while negative feedback loops work like a thermostat, pushing the system back toward equilibrium.
+
+---
+
 ## Common Pitfalls
 
 1. **Confusing open and closed systems**: The global water cycle is a closed system (fixed total

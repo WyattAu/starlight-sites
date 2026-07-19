@@ -485,6 +485,10 @@ Mikhail Gorbachev became General Secretary of the Communist Party in March 1985.
 
 ---
 
+## Intuition
+
+The Cold War was a contest between two superpowers who could not afford to fight directly. Instead, they competed through proxy wars, arms races, space races, and ideological influence. The logic of mutually assured destruction created a paradox: the weapons that could destroy the world also prevented direct conflict. Understanding the Cold War means grasping how fear, ideology, and national interest combined to produce a global standoff lasting nearly half a century.
+
 ## 8. Summary
 
 The Cold War was a global struggle between two ideologically opposed superpowers that shaped

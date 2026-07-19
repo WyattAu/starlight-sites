@@ -820,6 +820,10 @@ including key principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
+## Intuition
+
+Authentication answers the question "who are you?" while authorization answers "what can you do?" Multi-factor authentication adds layers of security by requiring something you know (password), something you have (phone), and something you are (biometrics). Session management is the glue that maintains identity across requests. The security of authentication depends not just on the mechanism but on how credentials are stored, transmitted, and validated.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

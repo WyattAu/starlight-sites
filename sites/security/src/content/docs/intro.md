@@ -97,6 +97,10 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Cybersecurity is the practice of protecting systems, networks, and data from digital attacks. The CIA triad (Confidentiality, Integrity, Availability) forms the foundation: keep secrets secret, keep data accurate, and keep systems running. Security is not a product but a process that requires constant vigilance, regular updates, and a defense-in-depth approach where multiple controls protect against different attack vectors.
+
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.

@@ -408,7 +408,18 @@ Understanding delegation and Result patterns reduces boilerplate, improves code 
 error handling more explicit and composable. Practice these patterns with real-world scenarios to
 build fluency.
 
+## Intuition
+
+Delegation is the principle of forwarding a responsibility to another object rather than implementing it yourself. Property delegation lets you attach behavior to a property without writing getter and setter code. Class delegation lets you compose functionality by wrapping one object inside another. The Result type brings functional error handling to Kotlin, letting you chain operations that might fail without try-catch blocks. Together, delegation and Result reduce boilerplate and make code more explicit about what can go wrong.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Coroutines](/docs/languages/kotlin/intermediate/coroutines.md) — StateFlow and MutableStateFlow use property delegation for reactive state management in coroutine-based architectures.
+- [Coroutines Advanced](/docs/languages/kotlin/intermediate/coroutines-advanced.md) — StateFlow update patterns and ViewModel lifecycle management build on the delegation concepts here.
+- [Generics](/docs/languages/kotlin/intermediate/generics.md) — Generic type parameters with variance constraints apply to delegate classes and Result type transformations.
+- [Collections](/docs/languages/kotlin/intermediate/collections.md) — Lazy collection initialization and observable wrappers use the same delegation patterns covered in this topic.

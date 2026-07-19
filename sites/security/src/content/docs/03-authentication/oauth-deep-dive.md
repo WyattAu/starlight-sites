@@ -557,6 +557,10 @@ key principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
+## Intuition
+
+OAuth 2.0 is a delegation protocol that lets users grant third-party applications limited access to their resources without sharing passwords. Think of it as a valet key for your car: it lets someone drive but not open the trunk. The authorization code flow is the most secure pattern, exchanging a short-lived code for tokens through a back-channel. Access tokens grant temporary access, while refresh tokens allow obtaining new access tokens without re-authentication.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

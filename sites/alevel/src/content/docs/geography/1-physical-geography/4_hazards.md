@@ -319,6 +319,12 @@ most likely catastrophic disasters facing the US.
 
 ---
 
+## Intuition
+
+Think of plate tectonics as a giant jigsaw puzzle floating on hot tar. The pieces grind, crash, and pull apart, and the friction builds up like tension in a rubber band until it snaps, releasing an earthquake. A volcano is like a pressure cooker with a blocked vent: the magma contains dissolved gases, and when the pressure drops near the surface, those gases expand violently, producing explosive eruptions. Vulnerability is not about the hazard itself but about a society's ability to withstand it. Two buildings can face the same earthquake, but one survives because it was designed with flexibility, while the other crumbles because it was rigid and poorly built. This is why the same magnitude event kills hundreds of thousands in one country but causes minimal deaths in another.
+
+---
+
 ## Common Pitfalls
 
 1. **Confusing hazard and disaster**: A hazard is the physical event (e.g., an M7.0 earthquake). A

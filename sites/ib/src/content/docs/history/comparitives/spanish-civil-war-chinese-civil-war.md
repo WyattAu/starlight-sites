@@ -587,6 +587,10 @@ Victories.
 
 </details>
 
+## Intuition
+
+Civil wars are the most destructive form of conflict because they pit citizens against each other within the same borders. The Spanish and Chinese civil wars both involved foreign powers using domestic conflicts as proxies for larger ideological struggles. The decisive difference was that the Chinese communists built rural support bases through land reform, while the Spanish Republicans remained fragmented. Understanding how internal divisions weaken a side helps explain why seemingly stronger forces can lose.
+
 ## Common Pitfalls
 
 1. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.

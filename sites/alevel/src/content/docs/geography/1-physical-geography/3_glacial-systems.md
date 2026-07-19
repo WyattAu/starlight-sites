@@ -283,6 +283,12 @@ Monitoring Network (GLAMOS) reported that Swiss glaciers lost over 6% of their r
 
 ---
 
+## Intuition
+
+A glacier behaves like an incredibly slow-moving river of ice. It flows downhill under its own weight, lubricated by meltwater at its base, carving the landscape much like a sheet of sandpaper dragged across wood. The U-shaped valley it leaves behind is like a scoop mark made by a giant spoon. A drumlin is like a streamlined pebble in a stream, shaped by the ice flowing over it. Think of permafrost as a frozen sponge: when it thaws, the water it releases destabilizes the ground above, creating the hummocky terrain of thermokarst. Erratics are geological fingerprints, boulders dropped by melting ice that tell us exactly where ancient glaciers traveled, much like finding a seashell far from the ocean.
+
+---
+
 ## Common Pitfalls
 
 1. **Confusing erosional and depositional landforms**: Students sometimes attribute drumlins to
