@@ -146,3 +146,14 @@ and the Marcinkiewicz interpolation theorem.
 
 **Problem 5.** Show that if $f_n \to f$ in $L^p$, then $f_n \to f$ in measure, but the converse
 does not hold. Construct a counterexample.
+
+## Common Mistakes
+
+**Mistake 1: Assuming convergence in measure implies pointwise convergence**
+Convergence in measure only guarantees an a.e.\ convergent *subsequence*, not that the original sequence converges pointwise. The typewriter sequence (moving indicator functions) converges in measure to $0$ on $[0,1]$ but diverges pointwise everywhere. Students often conflate these two modes of convergence.
+
+**Mistake 2: Forgetting that Egorov's theorem requires a finite measure space**
+Egorov's theorem states that pointwise a.e.\ convergence implies uniform convergence outside a set of small measure, but this requires $\mu(X) < \infty$. On $\mathbb{R}$ with Lebesgue measure, $f_n = \chi_{[n, n+1]}$ converges pointwise to $0$ but Egorov's theorem fails because the measure space is infinite.
+
+**Mistake 3: Assuming that measurable functions are continuous or have nice properties**
+Measurable functions can be highly discontinuous -- in fact, a function is measurable if and only if it is a pointwise limit of simple functions. Students sometimes assume measurability implies continuity or boundedness, which is false. The indicator function of the rationals is measurable but discontinuous everywhere.

@@ -310,5 +310,10 @@ factor of 57. $\blacksquare$
 
 ---
 
+## Cross-References
+
+- **[Eigenvalues and Eigenvectors](5_eigenvalues-and-eigenvectors.md)**: Eigenvalues are the roots of the characteristic polynomial defined via determinants.
+- **[Systems of Linear Equations](4_systems-of-linear-equations.md)**: Gaussian elimination transforms matrices into row echelon form to solve linear systems.
+- **[Singular Value Decomposition](8_singular-value-decomposition.md)**: The SVD factorises any matrix using its singular values, generalising the eigendecomposition.
 
 </aside>

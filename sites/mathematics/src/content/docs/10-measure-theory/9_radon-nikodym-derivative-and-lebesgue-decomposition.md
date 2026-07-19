@@ -129,3 +129,14 @@ $\nu = m + \delta_0$ with $m \ll m$ and $\delta_0 \perp m$. $\blacksquare$
    with respect to Lebesgue measure.
 4. Prove that if $\mu$ and $\nu$ are $\sigma$-finite and $\nu \ll \mu$, then
    $\int f\, d\nu = \int f (d\nu/d\mu)\, d\mu$ for all measurable $f \geq 0$.
+
+## Common Mistakes
+
+**Mistake 1: Assuming the Radon-Nikodym derivative exists without absolute continuity**
+The Radon-Nikodym theorem requires $\nu \ll \mu$ (absolute continuity). If $\nu$ is not absolutely continuous with respect to $\mu$, the derivative $d\nu/d\mu$ does not exist as a function. The Dirac measure $\delta_0$ is not absolutely continuous with respect to Lebesgue measure, so it has no Radon-Nikodym derivative with respect to $m$.
+
+**Mistake 2: Confusing mutual singularity with absolute continuity**
+Absolute continuity ($\nu \ll \mu$) and mutual singularity ($\nu \perp \mu$) are not opposites. A measure can be neither absolutely continuous nor singular with respect to another -- the Lebesgue decomposition theorem shows that any $\sigma$-finite measure decomposes uniquely into an absolutely continuous part and a singular part. Students sometimes think these are the only two possibilities.
+
+**Mistake 3: Forgetting that the Radon-Nikodym derivative is unique only up to $\mu$-null sets**
+The function $f = d\nu/d\mu$ is determined $\mu$-almost everywhere, not pointwise. Two functions that differ on a $\mu$-null set both serve as Radon-Nikodym derivatives. Students sometimes treat the derivative as a pointwise-defined function, which matters when evaluating it at specific points or when composing with other functions.

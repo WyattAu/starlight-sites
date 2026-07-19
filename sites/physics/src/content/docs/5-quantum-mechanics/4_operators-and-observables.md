@@ -184,7 +184,16 @@ Definite $S_z$ gives probabilistic outcomes, and vice versa.
 
 </details>
 
-## Intuition
+## Common Mistakes
+
+**Mistake 1: Assuming $\langle V'(x) \rangle = V'(\langle x \rangle)$ in Ehrenfest's theorem**
+Ehrenfest's theorem gives $d\langle p \rangle/dt = -\langle \partial V/\partial x \rangle$, not $-V'(\langle x \rangle)$. The expectation value of the derivative of $V$ is generally not the derivative of $V$ at the expectation value. This equality holds only for linear or quadratic potentials. Students frequently make this substitution when applying Ehrenfest's theorem to anharmonic oscillators.
+
+**Mistake 2: Confusing Hermitian operators with self-adjoint operators**
+Every self-adjoint operator is Hermitian, but the converse is not true for operators on infinite-dimensional spaces. The momentum operator $\hat{p} = -i\hbar\,d/dx$ is Hermitian on a dense domain but may fail to be self-adjoint depending on boundary conditions. Self-adjointness requires the domain of $\hat{A}$ and $\hat{A}^\dagger$ to coincide, which is essential for the spectral theorem.
+
+**Mistake 3: Assuming the uncertainty principle limits measurement precision**
+The Heisenberg uncertainty principle $\sigma_x \sigma_p \geq \hbar/2$ is a property of quantum states, not a limitation of measurement apparatus. It reflects the inherent spread of a state in position and momentum space simultaneously. A minimum-uncertainty Gaussian state saturates the bound, showing it is a fundamental feature of quantum mechanics, not an instrumental error.
 
 Quantum operators are the machinery that extracts measurable information from a quantum state. Each observable, like position or momentum, has an associated operator whose eigenvalues are the possible measurement outcomes. The expectation value of an operator gives the average result over many identical measurements. Commuting operators share eigenstates, meaning both observables can be known simultaneously. Non-commuting operators, like position and momentum, obey an uncertainty relation: measuring one precisely forces the other to become uncertain. This is not a limitation of instruments but a fundamental feature of quantum reality. Spin-half systems illustrate this vividly: measuring spin along one axis gives random results for the orthogonal axis.
 

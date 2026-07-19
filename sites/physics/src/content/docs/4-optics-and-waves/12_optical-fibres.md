@@ -135,3 +135,18 @@ The power lost is $1\ \mathrm{mW} - 17.8\ \mu\mathrm{W} \approx 0.982\ \mathrm{m
 - Dispersion broadens pulses and limits the data rate; different dispersion types require
   different compensation strategies.
 - Fibre fabrication via MCVD and drawing produces high-quality fibres with minimal loss.
+
+## Common Mistakes
+
+**Mistake 1: Assuming the numerical aperture determines the number of modes**
+The V-number $V = (2\pi a/\lambda)\mathrm{NA}$ determines the number of modes, not the NA alone. A fibre with large NA but small core radius may still be single-mode. Students often check only the NA without computing $V$ and incorrectly predict multimode behaviour.
+
+**Mistake 2: Confusing attenuation with dispersion as the limiting factor for distance**
+Attenuation limits the maximum unrepeatered transmission distance by reducing signal power below the detection threshold. Dispersion limits the data rate by broadening pulses until they overlap. For high-speed long-haul systems, dispersion is typically the more restrictive limit. Students sometimes focus only on attenuation when designing fibre links.
+
+**Mistake 3: Assuming the V-number threshold for single-mode operation is exactly $V = 2.405$**
+The value $2.405$ is the first zero of $J_0$, which determines the cutoff of the TE$_{01}$ mode in a step-index fibre. In practice, the single-mode regime extends slightly beyond this value, and the exact cutoff depends on the fibre profile. Students should treat $V < 2.405$ as a guideline rather than a sharp boundary.
+
+## Intuition
+
+Optical fibers guide light through total internal reflection, trapping it in a core surrounded by cladding with a lower refractive index. The critical angle determines the cone of acceptance: light entering within this cone is guided, while light at steeper angles escapes. Multimode fibers allow many paths, causing pulse spreading as different modes travel different distances. Single-mode fibers restrict light to one path, eliminating this dispersion and enabling long-distance communication. The cladding is not just protective but essential for guiding, and the fiber's bending radius determines how much light leaks out.

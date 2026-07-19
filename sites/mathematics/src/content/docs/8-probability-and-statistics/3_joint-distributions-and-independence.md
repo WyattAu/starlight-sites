@@ -165,6 +165,10 @@ The correlation coefficient $\rho(X, Y)$ measures the strength of the linear rel
 **Mistake 5: Assuming that linear regression is appropriate for nonlinear relationships.**
 Linear regression fits a straight line to the data, but if the relationship between $X$ and $Y$ is nonlinear, the regression line may be misleading. Always check the scatterplot and consider nonlinear models if the relationship appears curved.
 
+
+## Intuition
+
+Joint distributions describe how two or more random variables vary together. Independence means knowing one variable tells you nothing about the other, which mathematically factorizes the joint distribution into a product. Dependence creates structure: positive correlation means variables tend to move together, negative correlation means they move oppositely. The marginal distribution is what you see when you ignore one variable, like looking at a 3D landscape from above. Conditional distributions slice the joint distribution along one variable, revealing how the other behaves given specific information. These concepts form the backbone of statistical modeling.
 ## Cross-References
 
 - **[Random Variables](2_random-variables.md)**: Random variables provide the building blocks for constructing joint distributions and analyzing dependence.

@@ -173,3 +173,9 @@ A zero divisor $a$ satisfies $ab = 0$ for some nonzero $b$, while a unit $a$ sat
 **Mistake 3: Assuming all rings have a multiplicative identity**
 The definition of a ring does not require a multiplicative identity $1$. Some authors include $1$ in the definition (called "rings with unity"), while others do not. When working with rings without unity, statements about units and the cancellation law may fail. Always check whether the ring is assumed to have unity.
 
+## Cross-References
+
+- **[Ideals and Quotient Rings](9_ideals-and-quotient-rings.md)**: Ideals are the ring-theoretic analogue of normal subgroups and enable quotient ring constructions.
+- **[Homomorphisms and Isomorphism Theorems](5_homomorphisms-and-isomorphism-theorems.md)**: Ring homomorphisms preserve both addition and multiplication, generalising group homomorphisms.
+- **[Field Theory](12_field-theory.md)**: Fields are commutative rings in which every nonzero element has a multiplicative inverse.
+

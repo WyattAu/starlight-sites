@@ -135,6 +135,17 @@ giving $\mathrm{Area} = \pi$. $\blacksquare$
 
 The Gauss-Bonnet theorem is one of the most beautiful results in mathematics: it says the total curvature of a compact surface equals $2\pi$ times its Euler characteristic, a topological invariant. On a sphere, the total curvature is $4\pi$ (positive), reflecting its bowl-like shape. On a torus, the total curvature is zero — the positive curvature on the outer rim exactly cancels the negative curvature on the inner rim. This means you cannot change the total curvature by deforming the surface, only by changing its topology. The theorem connects three different worlds: local geometry (curvature), global topology (Euler characteristic), and topology (genus).
 
+## Common Mistakes
+
+**Mistake 1: Confusing the Gauss-Bonnet theorem with Gaussian curvature itself**
+The theorem states $\int_M K\, dA = 2\pi\chi(M)$, meaning the *total* curvature is a topological invariant. Students often mistakenly conclude that $K$ must be constant or that individual points must have $K > 0$. The curvature can vary wildly across the surface as long as the integral equals $2\pi\chi$.
+
+**Mistake 2: Forgetting to include the geodesic curvature and angle terms in the boundary version**
+The Gauss-Bonnet formula with boundary is $\int_M K\, dA + \int_{\partial M} \kappa_g\, ds + \sum \alpha_i = 2\pi\chi(M)$. Students frequently omit the geodesic curvature $\kappa_g$ of the boundary curves or the exterior angle contributions $\alpha_i$ at corners, leading to incorrect area or angle computations.
+
+**Mistake 3: Misidentifying the Euler characteristic of non-orientable surfaces**
+The Euler characteristic $\chi = V - E + F$ is well-defined for all surfaces, but students sometimes assume orientability is required. A projective plane has $\chi = 1$ and a Klein bottle has $\chi = 0$. The Gauss-Bonnet theorem applies to compact surfaces regardless of orientability.
+
 ### 8.8 Practice Problems
 
 1. Compute the Euler characteristic of a compact surface of genus 3. What is its total curvature?

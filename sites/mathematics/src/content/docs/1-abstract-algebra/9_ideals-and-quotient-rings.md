@@ -140,3 +140,9 @@ Prime ideals are the ring-theoretic analogue of prime numbers: $I$ is prime if $
 - **Error-correcting codes:** Polynomial rings over finite fields and quotient constructions underpin Reed-Solomon and BCH codes.
 - **Algebraic geometry:** The correspondence between ideals of $k[x_1, \ldots, x_n]$ and algebraic varieties (Hilbert's Nullstellensatz) generalises the prime/maximal ideal classification.
 
+## Cross-References
+
+- **[Rings](8_rings.md)**: Rings provide the ambient structure in which ideals and quotient rings are defined.
+- **[Homomorphisms and Isomorphism Theorems](5_homomorphisms-and-isomorphism-theorems.md)**: The kernel of a ring homomorphism is always an ideal, enabling the ring isomorphism theorem.
+- **[Field Theory](12_field-theory.md)**: Quotienting a polynomial ring by an irreducible ideal produces a field extension.
+

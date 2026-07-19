@@ -140,5 +140,18 @@ where $V$ is the Verdet constant. Faraday rotation is non-reciprocal: reversing 
 5. **Quantum cryptography:** The BB84 protocol encodes qubits in the polarisation states of single photons (horizontal/vertical and diagonal/anti-diagonal bases).
 6. **Optical isolators:** Combining a polariser with a Faraday rotator creates a non-reciprocal device that allows light to pass in one direction only.
 
----
+## Common Mistakes
 
+**Mistake 1: Multiplying Jones matrices in the wrong order**
+Matrix multiplication is not commutative. The correct order for a sequence of optical elements is $\mathbf{M}_n \cdots \mathbf{M}_2\,\mathbf{M}_1$, where $\mathbf{M}_1$ is the first element encountered by the light. Students frequently reverse this order, especially when rotating coordinate systems for wave plates at arbitrary orientations.
+
+**Mistake 2: Assuming the Stokes parameters fully determine the Jones vector**
+The Stokes parameters describe the polarisation state including partially polarised light, while the Jones vector only describes fully polarised light. For partially polarised light, there is no Jones vector representation. Students sometimes try to invert the Stokes parameters to get a Jones vector without checking whether $P = 1$.
+
+**Mistake 3: Forgetting that the Poincare sphere represents polarisation states, not field amplitudes**
+The Poincare sphere uses the normalised Stokes parameters $(S_1/S_0, S_2/S_0, S_3/S_0)$ as coordinates. Points on the sphere surface represent fully polarised states, while interior points represent partially polarised light. Students sometimes confuse the Poincare sphere with a representation of the electric field vector in real space.
+
+
+## Intuition
+
+Polarisation describes the direction in which light's electric field oscillates. Unpolarised light has random orientations, but passing it through a polariser selects one direction. Malus's law gives the intensity after a second polariser as proportional to the cosine squared of the angle between them. Birefringent materials split light into two polarisation components that travel at different speeds, creating phase shifts. Circular polarisation occurs when two orthogonal linear components have a quarter-cycle phase difference. Polarisation is used in LCD screens, 3D cinema, and stress analysis, where birefringent patterns reveal mechanical strain.

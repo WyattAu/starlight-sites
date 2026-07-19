@@ -66,6 +66,10 @@ Each section includes:
 - Common pitfalls and how to avoid them
 - Connections to other areas of mathematics
 
+
+## Intuition
+
+Multivariable calculus extends single-variable ideas to higher dimensions, where functions map vectors to scalars or vectors. The gradient points in the direction of steepest ascent, like a compass pointing uphill. Divergence measures how much a vector field spreads out from a point, like air flowing from a source. Curl measures rotation, like water swirling around a drain. The fundamental theorems of calculus generalize: the line integral of a gradient field depends only on endpoints, and the flux of a curl through a surface equals the circulation around its boundary. These are the language of physics.
 ## Study Tips
 
 1. **Master the definitions**: Multivariable calculus requires precise understanding of derivatives and integrals

@@ -153,6 +153,15 @@ $$I(\theta) = 4I_0 \mathrm{sinc}^2\left(\frac{\pi a\sin\theta}{\lambda}\right) \
 The $\cos^2$ term gives interference fringes at $\sin\theta = m\lambda/d$ for integer $m$. The
 fringe spacing in the small-angle limit is $\Delta y = \lambda R / d$ at distance $R$. $\blacksquare$
 
-## Intuition
+## Common Mistakes
+
+**Mistake 1: Assuming Fraunhofer diffraction requires the screen to be at infinity**
+The Fraunhofer condition $R \gg a^2/\lambda$ can be satisfied at finite distance by placing a lens after the aperture. The lens performs an optical Fourier transform, producing the far-field pattern at its back focal plane. Students often think a lens is unnecessary or that Fraunhofer diffraction can only be observed at very large distances.
+
+**Mistake 2: Forgetting the obliquity factor in Huygens-Fresnel theory**
+The Huygens-Fresnel integral includes a $\cos\theta$ obliquity factor that suppresses backward-propagating wavelets. Omitting this factor leads to incorrect amplitude predictions, particularly for wide-angle diffraction. The Kirchhoff formulation provides the rigorous justification for including this factor.
+
+**Mistake 3: Confusing the Cornu spiral representation with the actual diffraction pattern**
+The Cornu spiral is a parametric plot of $(C(u), S(u))$ whose arc length and tangent angle encode the amplitude and phase of Fresnel diffraction. Students sometimes interpret the spiral itself as the intensity pattern, when in fact the intensity at each point is found by computing the chord length from the spiral's endpoint to the origin.
 
 Fresnel diffraction is the transition zone between near-field and far-field behavior. Close to an aperture, wavefront curvature matters and the pattern changes with distance. Fresnel zones divide the aperture into rings where contributions alternate in phase, like concentric ripples on a pond. Zone plates exploit this by blocking every other ring, focusing light like a lens. The straight-edge diffraction pattern shows light bending into the shadow, demonstrating that geometric optics is an approximation. Fraunhofer diffraction emerges when the screen is far enough that wavefronts appear flat.

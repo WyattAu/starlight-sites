@@ -118,9 +118,16 @@ $\varphi(e_n) = 1 \not\to 0$, so $e_n$ does not converge weakly to $0$ in $\ell^
 $\int_0^{2\pi} \sin(nx) g(x)\, dx \to 0$. Hence $\langle f_n, g\rangle \to 0$, so
 $f_n \rightharpoonup 0$. Note that $\|f_n\|_2 = \sqrt{\pi}$, so $f_n$ does not converge strongly. $\blacksquare$
 
-### 6.10 Practice Problems
+## Common Mistakes
 
-1. Prove that weak limits are unique.
+**Mistake 1: Assuming weak convergence implies norm convergence**
+Weak convergence is strictly weaker than norm convergence. The standard basis vectors $e_n$ in $\ell^2$ converge weakly to $0$ but $\|e_n\| = 1$ for all $n$. Students often try to pass limits inside norms or integrals under weak convergence, which is invalid without additional compactness or weak lower semicontinuity arguments.
+
+**Mistake 2: Confusing weak convergence with weak\* convergence**
+Weak convergence $x_n \rightharpoonup x$ requires testing against all functionals in $X^*$, while weak\* convergence $\varphi_n \xrightarrow{w^*} \varphi$ only tests against elements of $X \subseteq X^{**}$. In reflexive spaces these coincide, but in non-reflexive spaces like $L^1$ or $\ell^1$ they differ. The Banach-Alaoglu theorem gives weak\* compactness, not weak compactness.
+
+**Mistake 3: Forgetting that weakly convergent sequences are bounded**
+If $x_n \rightharpoonup x$, then $\sup_n \|x_n\| < \infty$ (uniform boundedness principle). Students sometimes work with weakly convergent sequences without first verifying boundedness, which is a necessary hypothesis for many theorems including Mazur's lemma and the Eberlein-Smulian theorem.
 2. Show that if $x_n \rightharpoonup x$ and $\varphi \in X^*$, then $\varphi(x_n) \to \varphi(x)$.
 3. Prove that in a finite-dimensional space, weak convergence is equivalent to norm convergence.
 4. Show that $L^\infty([0,1])$ is not reflexive by finding a bounded sequence with no weakly

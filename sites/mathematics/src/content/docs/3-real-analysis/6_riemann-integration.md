@@ -310,5 +310,10 @@ limit. Also, conditional Convergence of improper integrals behaves differently f
 convergence: rearranging the "terms" (subintervals) of a conditionally convergent improper integral
 can change its value.
 
+## Cross-References
+
+- **[Continuity](4_continuity.md)**: The Heine-Cantor theorem guarantees that continuous functions on closed bounded intervals are uniformly continuous, which is used to prove Riemann integrability.
+- **[Differentiability](5_differentiability.md)**: The fundamental theorem of calculus connects the Riemann integral with antiderivatives and differentiation.
+- **[Lebesgue Integration](../../10-measure-theory/6_lebesgue-integration.md)**: Lebesgue integration generalises Riemann integration and handles functions with more complex discontinuity patterns.
 
 </aside>

@@ -145,3 +145,9 @@ Verification: $1260 / 252 = 5$ and $1260 / 105 = 12$Both integers. $\blacksquare
 ## Intuition
 
 Number theory is the study of whole numbers and their hidden patterns. The integers behave like atoms for arithmetic: every integer greater than $1$ factors uniquely into primes, making primes the fundamental building blocks. The Euclidean algorithm is a simple but deep idea: repeated division produces the greatest common divisor, and the process terminates because remainders strictly decrease. Modular arithmetic wraps the integers into a finite circle — like a clock — where only remainders matter. Bezout's identity reveals that the gcd of two numbers is the smallest positive combination of them, connecting division to linear algebra over the integers.
+
+## Cross-References
+
+- **[Groups](1-abstract-algebra/1_groups.md)**: The integers under addition form a group, and modular arithmetic arises from quotient groups.
+- **[Rings](1-abstract-algebra/8_rings.md)**: The integers form a Euclidean domain, and polynomial rings share analogous factorisation properties.
+- **[Field Theory](1-abstract-algebra/12_field-theory.md)**: Finite fields are constructed from prime powers, and field extensions underpin algebraic number theory.

@@ -153,6 +153,15 @@ needed to pass spatial frequencies up to 50 cycles/mm?
 10^{-9} \times 0.2 = 5$ mm. A circular aperture of radius $a = 5$ mm passes all frequencies
 $f_x \leq 50$ cycles/mm. $\blacksquare$
 
-## Intuition
+## Common Mistakes
+
+**Mistake 1: Confusing the convolution theorem for products and convolutions**
+If the aperture function is a product $t = t_1 \cdot t_2$, the diffraction pattern is the *convolution* of their Fourier transforms: $\mathcal{F}\{t_1 \cdot t_2\} = \mathcal{F}\{t_1\} * \mathcal{F}\{t_2\}$. Students often apply the theorem backwards, assuming that a product in real space gives a product in Fourier space. The correct statement is that convolution in real space corresponds to multiplication in Fourier space.
+
+**Mistake 2: Assuming a lens performs an exact Fourier transform without considering the paraxial approximation**
+A thin lens adds a quadratic phase factor $\exp(-ik(x^2+y^2)/(2f))$. The Fourier transform relationship at the back focal plane holds only in the paraxial approximation (small angles). For high-NA lenses or large off-axis distances, aberrations and non-paraxial effects distort the transform. Students sometimes assume the Fourier relationship is exact for all configurations.
+
+**Mistake 3: Forgetting that the 4f system inverts the image**
+The second lens in a 4f system performs another Fourier transform, which introduces a coordinate inversion: $U_{\text{out}}(x,y) \propto U_{\text{in}}(-x,-y)$ when no filter is present. Students sometimes forget this inversion when designing spatial filtering experiments, leading to unexpectedly mirrored output images.
 
 Fourier optics treats lenses as analog computers that perform Fourier transforms at the speed of light. A lens converts spatial patterns into their frequency components at its focal plane. The convolution theorem explains why complex apertures produce predictable patterns: multiplying apertures convolves their spectra. This is why a grating produces discrete spots while a single slit produces a continuous spread. The optical transfer function describes how well an imaging system preserves different spatial frequencies, like an equalizer for images.

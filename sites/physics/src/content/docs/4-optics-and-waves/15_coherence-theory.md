@@ -160,6 +160,15 @@ antibunching), $g^{(2)}(0) < 1$.
 0.01 arcseconds at $\lambda = 550$ nm. Compute the fringe visibility and determine whether the
 fringes are observable.
 
-## Intuition
+## Common Mistakes
+
+**Mistake 1: Assuming temporal and spatial coherence are independent properties**
+While they can be treated separately in many situations, they are fundamentally linked through the mutual coherence function. A source with large angular extent (low spatial coherence) may still have high temporal coherence if its bandwidth is narrow. Students often conflate these two types of coherence or assume a laser has both perfect temporal and spatial coherence.
+
+**Mistake 2: Confusing the coherence length with the wavelength**
+The coherence length $L_c = \lambda^2/\Delta\lambda$ depends on the spectral bandwidth, not just the wavelength. For a sodium lamp at $\lambda = 589$ nm with $\Delta\lambda = 0.6$ nm, $L_c \approx 0.6$ mm, which is much smaller than the wavelength. Students sometimes assume $L_c$ is always much larger than $\lambda$, which is only true for highly monochromatic sources.
+
+**Mistake 3: Assuming fringe visibility of 1 requires perfect coherence**
+Fringe visibility also depends on the intensity ratio of the two beams. For equal intensities $I_1 = I_2$, the visibility equals $|\gamma_{12}|$. But if $I_1 \neq I_2$, the visibility is reduced even for fully coherent light. The correct formula is $V = (2\sqrt{I_1 I_2}/(I_1 + I_2))|\gamma_{12}|$.
 
 Coherence measures how predictable the phase relationship is between different points on a wave. Temporal coherence tells you how long you can trust the phase before it wanders randomly, like how long a tuning fork stays in tune. Spatial coherence tells you how far apart two points can be while still maintaining a fixed phase relationship, like how many people in a crowd are clapping in sync. The van Cittert-Zernike theorem connects source size to coherence: a smaller source produces more coherent light. Thermal light has short coherence because atoms emit independently.

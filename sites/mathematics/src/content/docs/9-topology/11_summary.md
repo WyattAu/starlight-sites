@@ -125,6 +125,17 @@ $\tilde\gamma(1)$ is an integer (the winding number), and this defines the isomo
 | $T_4$ | Normal | $T_1$ + disjoint closed sets separated by open sets | $\mathbb{R}$ standard |
 | $T_{3\frac12}$ | Tychonoff | $T_1$ + continuous function separates point from closed set | $\mathbb{R}$ standard |
 
+## Common Mistakes
+
+**Mistake 1: Assuming compactness equals sequential compactness in general topological spaces**
+In metric spaces, compactness and sequential compactness are equivalent. In general topological spaces, they are not: the space $[0, \omega_1)$ with the order topology is sequentially compact but not compact. Students often assume these concepts are interchangeable without checking whether the space is metrizable.
+
+**Mistake 2: Assuming connectedness implies path-connectedness**
+Every path-connected space is connected, but the converse is false. The topologist's sine curve $\{(x, \sin(1/x)) : x > 0\} \cup \{(0, y) : -1 \leq y \leq 1\}$ is connected but not path-connected. Students frequently use these terms interchangeably, which leads to errors when constructing continuous paths between points.
+
+**Mistake 3: Forgetting that the product of Hausdorff spaces is Hausdorff, but the product of normal spaces need not be normal**
+Tychonoff's theorem guarantees that products of compact spaces are compact, and finite products of Hausdorff spaces are Hausdorff. However, the Sorgenfrey plane (product of two Sorgenfrey lines) is a classic example showing that the product of normal spaces need not be normal. Students often assume normality is preserved under products.
+
 ### Key Counterexamples Reference
 
 | Claim | Counterexample | Explanation |

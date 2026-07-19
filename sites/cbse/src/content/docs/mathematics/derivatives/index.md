@@ -107,3 +107,79 @@ $$\frac{d^2y}{dx^2} = 2 \cdot 2e^{2x} = 4e^{2x}$$
 3. In implicit differentiation, collect all $\frac{dy}{dx}$ terms on one side and factor.
 4. Simplify your answer by factoring common terms; examiners reward simplified forms.
 5. Verify your derivative by checking dimensions or testing a specific value.
+
+## Worked Example 6 — Product of Three Functions
+
+**Problem:** Find $\frac{d}{dx}[x \cdot e^x \cdot \sin x]$.
+
+**Solution:**
+
+Apply the product rule iteratively. Let $u = x$, $v = e^x \sin x$.
+
+First, find $\frac{dv}{dx}$ using the product rule on $e^x \sin x$:
+$$\frac{d}{dx}[e^x \sin x] = e^x \sin x + e^x \cos x = e^x(\sin x + \cos x)$$
+
+Now apply the product rule to $x \cdot (e^x \sin x)$:
+$$\frac{d}{dx}[x \cdot e^x \sin x] = 1 \cdot e^x \sin x + x \cdot e^x(\sin x + \cos x)$$
+
+Factor:
+$$= e^x[\sin x + x\sin x + x\cos x] = e^x[(1 + x)\sin x + x\cos x]$$
+
+**Common mistake:** Trying to apply the product rule to three factors at once. Instead, group two factors together and apply the rule iteratively.
+
+## Worked Example 7 — Logarithmic Differentiation
+
+**Problem:** Find $\frac{dy}{dx}$ if $y = x^x$ for $x > 0$.
+
+**Solution:**
+
+Take the natural logarithm of both sides:
+$$\ln y = \ln(x^x) = x \ln x$$
+
+Differentiate both sides with respect to $x$:
+$$\frac{1}{y}\frac{dy}{dx} = \ln x + x \cdot \frac{1}{x} = \ln x + 1$$
+
+Solve for $\frac{dy}{dx}$:
+$$\frac{dy}{dx} = y(\ln x + 1) = x^x(\ln x + 1)$$
+
+**Common mistake:** Treating $x^x$ as a power function ($nx^{n-1}$) or an exponential function ($a^x \ln a$). It is neither — use logarithmic differentiation.
+
+## Worked Example 8 — Derivative of an Inverse Function
+
+**Problem:** If $f(x) = \tan^{-1}\left(\frac{x}{1 + x^2}\right)$, find $f'(x)$.
+
+**Solution:**
+
+Let $u = \frac{x}{1 + x^2}$. Then $f(x) = \tan^{-1}(u)$ and:
+$$f'(x) = \frac{1}{1 + u^2} \cdot \frac{du}{dx}$$
+
+Compute $\frac{du}{dx}$ using the quotient rule:
+$$\frac{du}{dx} = \frac{(1 + x^2)(1) - x(2x)}{(1 + x^2)^2} = \frac{1 + x^2 - 2x^2}{(1 + x^2)^2} = \frac{1 - x^2}{(1 + x^2)^2}$$
+
+Now compute $\frac{1}{1 + u^2}$:
+$$1 + u^2 = 1 + \frac{x^2}{(1 + x^2)^2} = \frac{(1 + x^2)^2 + x^2}{(1 + x^2)^2} = \frac{1 + 2x^2 + x^4 + x^2}{(1 + x^2)^2} = \frac{1 + 3x^2 + x^4}{(1 + x^2)^2}$$
+
+Therefore:
+$$f'(x) = \frac{(1 + x^2)^2}{1 + 3x^2 + x^4} \cdot \frac{1 - x^2}{(1 + x^2)^2} = \frac{1 - x^2}{1 + 3x^2 + x^4}$$
+
+**Common mistake:** Forgetting the chain rule when differentiating inverse trigonometric functions. The derivative of $\tan^{-1}(u)$ is $\frac{1}{1 + u^2} \cdot \frac{du}{dx}$, not just $\frac{1}{1 + u^2}$.
+
+## Key Formulas
+
+| Function | Derivative | Notes |
+| --- | --- | --- |
+| $x^n$ | $nx^{n-1}$ | Power rule |
+| $e^{ax}$ | $ae^{ax}$ | Chain rule applied |
+| $\ln(ax)$ | $\frac{1}{x}$ | Chain rule gives same result |
+| $\sin(ax)$ | $a\cos(ax)$ | Chain rule applied |
+| $\tan^{-1}(x)$ | $\frac{1}{1 + x^2}$ | Inverse trig derivative |
+| $\sin^{-1}(x)$ | $\frac{1}{\sqrt{1 - x^2}}$ | Inverse trig derivative |
+| $u^n$ (chain rule) | $nu^{n-1} \cdot u'$ | Generalised power rule |
+
+## Additional Exam Tips
+
+6. For logarithmic differentiation, take $\ln$ of both sides first, then differentiate implicitly. This is useful for functions of the form $f(x)^{g(x)}$.
+7. The derivative of $\ln|f(x)|$ is $\frac{f'(x)}{f(x)}$ — remember the absolute value for the domain.
+8. When differentiating inverse trigonometric functions, always apply the chain rule: $\frac{d}{dx}[\tan^{-1}(u)] = \frac{u'}{1 + u^2}$.
+9. For piecewise functions, check differentiability at the boundary by verifying that the left and right derivatives are equal.
+10. In CBSE exams, questions often combine multiple rules (product + chain, quotient + chain). Practice identifying which rules to apply in which order.

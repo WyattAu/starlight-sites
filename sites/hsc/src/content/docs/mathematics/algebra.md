@@ -235,6 +235,74 @@ Step 4: Verify: $AX = \begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix} \begin{pmatri
 
 **Common mistake:** For matrix equations $AX = B$, multiply both sides by $A^{-1}$ on the left: $X = A^{-1}B$, not $X = BA^{-1}$. Matrix multiplication is not commutative.
 
+### Example 10: Solving Quadratic Inequalities
+
+**Problem:** Solve the inequality $2x^2 - 5x - 3 < 0$.
+
+**Solution:**
+
+Step 1: Factor the quadratic:
+$$2x^2 - 5x - 3 = (2x + 1)(x - 3)$$
+
+Step 2: Find the roots: $x = -\frac{1}{2}$ and $x = 3$
+
+Step 3: Since the coefficient of $x^2$ is positive ($2 > 0$), the parabola opens upward. The quadratic is negative between the roots.
+
+Step 4: Solution: $-\frac{1}{2} < x < 3$
+
+**Answer:** $x \in \left(-\frac{1}{2}, 3\right)$
+
+**Common mistake:** Forgetting that the inequality sign determines whether the solution is between or outside the roots. For $ax^2 + bx + c < 0$ with $a > 0$, the solution is between the roots. For $ax^2 + bx + c > 0$ with $a > 0$, the solution is outside the roots.
+
+### Example 11: Logarithmic Equations with Different Bases
+
+**Problem:** Solve $9^x - 4 \cdot 3^x + 3 = 0$.
+
+**Solution:**
+
+Step 1: Let $u = 3^x$ (note $u > 0$). Then $9^x = (3^2)^x = (3^x)^2 = u^2$.
+
+Step 2: Substitute:
+$$u^2 - 4u + 3 = 0$$
+
+Step 3: Factor:
+$$(u - 1)(u - 3) = 0$$
+
+Step 4: $u = 1$ or $u = 3$
+
+Step 5: Back-substitute:
+- $3^x = 1 \implies x = 0$
+- $3^x = 3 \implies x = 1$
+
+Step 6: Both solutions are valid (both satisfy $u > 0$).
+
+**Answer:** $x = 0$ or $x = 1$
+
+**Common mistake:** Forgetting to check that the solutions satisfy the original domain constraints. Always substitute back to verify.
+
+### Example 12: Matrix Eigenvalues (Extension)
+
+**Problem:** Find the eigenvalues of $A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$.
+
+**Solution:**
+
+Step 1: Set up the characteristic equation $\det(A - \lambda I) = 0$:
+$$\det \begin{pmatrix} 4 - \lambda & 1 \\ 2 & 3 - \lambda \end{pmatrix} = 0$$
+
+Step 2: Compute the determinant:
+$$(4 - \lambda)(3 - \lambda) - (1)(2) = 0$$
+$$12 - 7\lambda + \lambda^2 - 2 = 0$$
+$$\lambda^2 - 7\lambda + 10 = 0$$
+
+Step 3: Factor:
+$$(\lambda - 5)(\lambda - 2) = 0$$
+
+Step 4: Eigenvalues: $\lambda_1 = 5$ and $\lambda_2 = 2$
+
+**Answer:** The eigenvalues are $\lambda = 5$ and $\lambda = 2$
+
+**Common mistake:** The characteristic equation is $\det(A - \lambda I) = 0$, not $\det(A) - \lambda = 0$. The eigenvalues are the roots of the characteristic polynomial.
+
 ## Additional Exam Tips
 
 5. For logarithmic equations, always check the domain after solving

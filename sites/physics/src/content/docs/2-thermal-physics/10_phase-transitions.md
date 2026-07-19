@@ -150,3 +150,9 @@ At $T = 374.15$ K (1 K above boiling), $P \approx 1.013 \times 10^5 + 1.35 \time
 
 Phase transitions are sudden rearrangements of matter's structure. First-order transitions like boiling involve latent heat because energy goes into breaking bonds rather than raising temperature. The Clausius-Clapeyron equation links the boiling point's pressure sensitivity to the volume change during vaporization. At the critical point, the distinction between liquid and gas vanishes because thermal fluctuations overcome both attractions and repulsions. Critical exponents describe how physical quantities diverge near this point, and their universality reflects that wildly different systems share the same mathematical structure near criticality.
 
+## Cross-References
+
+- **[The Ising Model](6_the-ising-model.md)**: The Ising model is the simplest model exhibiting a second-order phase transition with well-characterised critical exponents.
+- **[Statistical Mechanics](2_statistical-mechanics.md)**: Phase transitions are understood through the partition function and free energy minima in statistical mechanics.
+- **[Bose-Einstein Condensation](5_bose-einstein-condensation.md)**: Bose-Einstein condensation is a quantum phase transition driven purely by Bose statistics.
+

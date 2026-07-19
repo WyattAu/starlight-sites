@@ -152,3 +152,9 @@ The second law is the deepest and most subtle. It says that heat flows spontaneo
 
 ---
 
+## Cross-References
+
+- **[Statistical Mechanics](2_statistical-mechanics.md)**: Statistical mechanics derives the laws of thermodynamics from microscopic probabilities and the partition function.
+- **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: The grand canonical ensemble extends statistical mechanics to open systems where particle number fluctuates.
+- **[Phase Transitions](10_phase-transitions.md)**: Phase transitions involve discontinuities in thermodynamic quantities and are classified using the framework of the laws of thermodynamics.
+

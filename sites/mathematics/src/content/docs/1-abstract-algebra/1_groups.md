@@ -227,3 +227,9 @@ $n$And for each divisor There is exactly one such subgroup.
 
 
 </aside>
+
+## Cross-References
+
+- **[Subgroups](2_subgroups.md)**: Subgroups are subsets of a group that inherit the group structure.
+- **[Lagrange's Theorem](3_lagrange-s-theorem.md)**: Lagrange's theorem constrains the order of subgroups based on the order of the group.
+- **[Homomorphisms and Isomorphism Theorems](5_homomorphisms-and-isomorphism-theorems.md)**: Homomorphisms preserve group structure and lead to the isomorphism theorems.

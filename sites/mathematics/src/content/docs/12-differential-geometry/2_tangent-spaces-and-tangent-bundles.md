@@ -132,6 +132,17 @@ $p$-$v$-plane. Thus $T_p S^2 \cong p^\perp$. $\blacksquare$
 
 ### 2.9 Practice Problems
 
+## Common Mistakes
+
+**Mistake 1: Confusing the two definitions of tangent vectors**
+The derivation definition and the equivalence-of-curves definition are equivalent, but students often try to use the wrong one in context. When computing with coordinates, the derivation approach is cleaner. When proving geometric results about curves on manifolds, the curve-equivalence approach is more natural.
+
+**Mistake 2: Misapplying the chain rule for pushforwards**
+The chain rule states $d(g \circ f)_p = dg_{f(p)} \circ df_p$, where the differentials compose in the order $g$ then $f$, not $f$ then $g$. Students frequently write $df_p \circ dg_{f(p)}$ or forget that the middle spaces must match: $df_p : T_pM \to T_{f(p)}N$ and $dg_{f(p)} : T_{f(p)}N \to T_{g(f(p))}P$.
+
+**Mistake 3: Forgetting that tangent bundle components transform contravariantly**
+Under a coordinate change $y = y(x)$, the components of a tangent vector transform as $\tilde{v}^j = v^i \partial y^j/\partial x^i$, using the Jacobian matrix. Students often mistakenly apply the inverse Jacobian, which would give covariant (covector) transformation, not contravariant.
+
 ## Intuition
 
 The tangent space at a point on a manifold is the collection of all possible velocities of curves passing through that point — it is the "flat approximation" to the curved space at that point. On a sphere, the tangent space at the north pole is the horizontal plane touching the sphere there. The tangent bundle glues together all tangent spaces into a single space, giving a manifold a way to talk about directions and velocities globally. A differential form is a machine that takes a tangent vector and returns a number, consistently across all points. The exterior derivative of a form measures how the form changes — it is the infinitesimal version of Stokes' theorem.

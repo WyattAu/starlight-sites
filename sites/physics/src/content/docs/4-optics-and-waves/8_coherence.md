@@ -156,7 +156,16 @@ $\blacksquare$
 
 </details>
 
-## Intuition
+## Common Mistakes
+
+**Mistake 1: Assuming $g^{(2)}(0) = 2$ means thermal light has "twice the coherence"**
+The second-order correlation function $g^{(2)}(0) = 2$ for thermal light reflects photon bunching -- photons from a chaotic source tend to arrive in pairs. This is an intensity correlation effect, not a measure of coherence in the traditional sense. Students sometimes interpret $g^{(2)}(0) > 1$ as enhanced coherence, when it actually indicates the opposite: the light is more chaotic.
+
+**Mistake 2: Confusing the coherence time with the correlation time of the source**
+The coherence time $\tau_c \approx 1/\Delta\nu$ characterises how long the field maintains a definite phase, while the source correlation time relates to the atomic emission process. For a laser, $\tau_c$ can be microseconds or longer despite atomic transitions occurring on nanosecond timescales. Students often assume these timescales must be comparable.
+
+**Mistake 3: Assuming that spatial coherence requires a point source**
+The van Cittert-Zernike theorem shows that even an extended incoherent source produces spatially coherent light over a finite area $A_c \approx \lambda^2/\Omega$. The coherence area increases as the source becomes more compact. Students sometimes think only lasers or point sources produce spatially coherent light, when in fact any source produces some degree of spatial coherence over sufficiently small transverse distances.
 
 Coherence is the predictability of a wave's phase over time and space. A laser maintains phase relationships for microseconds, allowing interference over meters. A light bulb's atoms emit independently, so phases randomize in femtoseconds, limiting coherence to micrometers. The coherence length is the maximum path difference where interference fringes remain visible, like the distance over which two runners stay in step. Spatial coherence depends on source size: a point source is perfectly coherent across space, while an extended source like the sun has limited spatial coherence. The van Cittert-Zernike theorem connects source angular size to coherence area.
 

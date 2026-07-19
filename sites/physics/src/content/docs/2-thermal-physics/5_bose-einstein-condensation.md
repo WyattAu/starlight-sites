@@ -133,3 +133,9 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 | Phase transition | BEC at $T_c$ | No phase transition |
 | High-$T$ limit | Maxwell--Boltzmann | Maxwell--Boltzmann |
 
+## Cross-References
+
+- **[Statistical Mechanics](2_statistical-mechanics.md)**: Bose-Einstein statistics are derived from the grand canonical ensemble for particles with integer spin.
+- **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: The grand canonical ensemble is the natural framework for deriving Bose-Einstein and Fermi-Dirac distributions.
+- **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature.md)**: The contrast between Bose and Fermi statistics leads to fundamentally different low-temperature behaviours.
+

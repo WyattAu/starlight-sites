@@ -127,3 +127,9 @@ $\limsup A_n \in \mathcal{F}$. Similarly $\liminf A_n \in \mathcal{F}$. $\blacks
 <strong>Research Connections</strong>
 The Borel sigma-algebra is foundational for modern probability theory. Kolmogorov (1933) used it to build the axioms of probability that underpin all of statistics. The Carathéodory extension theorem (1914) shows how measures on algebras extend to sigma-algebras — this is the bridge between intuitive "length" and rigorous measure theory. Current research uses sigma-algebras in stochastic processes (Brownian motion, martingales), financial mathematics (Black-Scholes), and functional analysis (measure-theoretic probability on infinite-dimensional spaces).
 </aside>
+
+## Cross-References
+
+- **[Measures](2_measures.md)**: Measures are countably additive set functions defined on sigma-algebras, assigning sizes to measurable sets.
+- **[Lebesgue Integration](6_lebesgue-integration.md)**: Lebesgue integration is built on measures defined on sigma-algebras, generalising the Riemann integral.
+- **[Continuity](../../3-real-analysis/4_continuity.md)**: Continuous functions generate Borel sigma-algebras, and continuity is a measurable property.

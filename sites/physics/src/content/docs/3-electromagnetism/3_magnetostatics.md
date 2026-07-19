@@ -234,3 +234,9 @@ The right-hand rule for the magnetic field of a current element states that $d\m
 
 **Mistake 3: Assuming $\mathbf{B}$ is always parallel to $\mathbf{H}$**
 In linear magnetic materials, $\mathbf{B} = \mu \mathbf{H}$, so they are parallel. But in ferromagnetic materials, the relationship is nonlinear and hysteretic: $\mathbf{B}$ depends on the history of $\mathbf{H}$. The $\mathbf{H}$ field is defined as $\mathbf{H} = \mathbf{B}/\mu_0 - \mathbf{M}$, and it is the auxiliary field that simplifies problems with free currents, not a fundamental field.
+
+## Cross-References
+
+- **[Maxwell's Equations](1_maxwell-s-equations.md)**: Magnetostatics is the time-independent limit of Maxwell's equations, where Faraday's law and the displacement current vanish.
+- **[Electrodynamics](4_electrodynamics.md)**: Electrodynamics extends magnetostatics to include time-varying fields and induction effects.
+- **[Solid State Physics: Electronic Band Structure](../6-solid-state-physics/5_electronic-band-structure.md)**: Magnetic properties of materials arise from electron band structure and exchange interactions.

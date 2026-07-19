@@ -55,6 +55,10 @@ Each section includes:
 - Common pitfalls and how to avoid them
 - Connections to other areas of mathematics
 
+
+## Intuition
+
+Topology is the study of properties preserved under continuous deformation. Imagine stretching a rubber sheet without tearing or gluing: a coffee mug can become a donut because they share the same topological structure. The key insight is that topology abstracts away metric details like distance and angle, focusing instead on connectivity, holes, and boundaries. This abstraction makes topological results remarkably general, applying to shapes in any dimension and even to abstract spaces like function spaces. The fundamental group captures one-dimensional holes by counting how many ways loops can wind around obstacles, turning geometric questions into algebraic computations.
 ## Study Tips
 
 1. **Master the definitions**: Topology requires precise understanding of open sets and continuity

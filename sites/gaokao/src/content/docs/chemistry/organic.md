@@ -267,3 +267,70 @@ $$\left[-\text{CH}_2-\text{CH(OOCCH}_3)-\right]_n + n\text{NaOH} \xrightarrow{\t
 **答案：** 乙烯→乙酸乙烯酯→聚乙酸乙烯酯→聚乙烯醇
 
 **考试技巧：** 聚乙烯醇不能直接由乙烯醇聚合得到，因为乙烯醇不稳定，会互变为乙醛。必须通过间接方法合成。
+
+### 例题10：有机物的结构与性质
+
+**题目：** 分子式为 $C_4H_8O_2$ 的有机物，能与银氨溶液发生银镜反应，且能发生水解反应，写出该有机物的结构简式。
+
+**解答：**
+
+步骤1：不饱和度 $\Omega = 4 + 1 - \dfrac{8}{2} = 1$，含一个双键
+
+步骤2：能发生银镜反应，说明含有醛基 $-\text{CHO}$ 或甲酸酯基 $\text{HCOO}-$
+
+步骤3：能发生水解反应，说明含有酯基 $-\text{COO}-$
+
+步骤4：同时满足两个条件，只能是甲酸酯类：$\text{HCOO}-$
+
+步骤5：$C_4H_8O_2$ 的甲酸酯有：
+- $\text{HCOOCH}_2\text{CH}_2\text{CH}_3$（甲酸丙酯）
+- $\text{HCOOCH(CH}_3)_2$（甲酸异丙酯）
+
+**答案：** $\text{HCOOCH}_2\text{CH}_2\text{CH}_3$ 或 $\text{HCOOCH(CH}_3)_2$
+
+**考试技巧：** 甲酸酯含有醛基结构，能发生银镜反应。这是高考常考的官能团识别点。
+
+### 例题11：有机合成路线设计
+
+**题目：** 以乙醇为原料，合成乙二酸乙二酯（草酸乙二酯）。
+
+**解答：**
+
+步骤1：乙醇氧化制乙醛：$2\text{CH}_3\text{CH}_2\text{OH} + \text{O}_2 \xrightarrow{\text{Cu/Ag, }\Delta} 2\text{CH}_3\text{CHO} + 2\text{H}_2\text{O}$
+
+步骤2：乙醛氧化制乙酸：$2\text{CH}_3\text{CHO} + \text{O}_2 \xrightarrow{\text{催化剂}} 2\text{CH}_3\text{COOH}$
+
+步骤3：乙醇脱水制乙烯：$\text{CH}_3\text{CH}_2\text{OH} \xrightarrow{\text{浓H}_2\text{SO}_4, 170°\text{C}} \text{CH}_2=\text{CH}_2 + \text{H}_2\text{O}$
+
+步骤4：乙烯氧化制乙二醛：$\text{CH}_2=\text{CH}_2 + \text{O}_2 \xrightarrow{\text{催化剂}} \text{OHC-CHO}$
+
+步骤5：乙二醛氧化制乙二酸：$\text{OHC-CHO} + \text{O}_2 \xrightarrow{\text{催化剂}} \text{HOOC-COOH}$
+
+步骤6：乙二酸与乙醇酯化：$\text{HOOC-COOH} + 2\text{CH}_3\text{CH}_2\text{OH} \xrightleftharpoons[\Delta]{\text{浓H}_2\text{SO}_4} \text{CH}_3\text{CH}_2\text{OOC-COOCH}_2\text{CH}_3 + 2\text{H}_2\text{O}$
+
+**答案：** 乙醇→乙醛→乙酸；乙醇→乙烯→乙二醛→乙二酸→乙二酸乙二酯
+
+**常见错误：** 有机合成路线设计要注意官能团的引入顺序，避免不必要的副反应。酯化反应需要浓硫酸作催化剂和吸水剂。
+
+### 例题12：高分子化合物的单体判断
+
+**题目：** 写出下列高分子化合物的单体：
+
+$$\left[-\text{CH}_2-\text{CH}(\text{CN})-\text{CH}=\text{CH}-\text{CH}_2-\right]_n$$
+
+**解答：**
+
+步骤1：这是丁二烯与丙烯腈的共聚产物（丁腈橡胶）
+
+步骤2：分析链节结构：$-\text{CH}_2-\text{CH}(\text{CN})-\text{CH}=\text{CH}-\text{CH}_2-$
+
+步骤3：找到双键位置，断开后还原单体：
+- 断开 $-\text{CH}_2-\text{CH}(\text{CN})-$ 和 $-\text{CH}=\text{CH}-\text{CH}_2-$ 之间的单键
+- 前一部分来自丙烯腈：$\text{CH}_2=\text{CHCN}$
+- 后一部分来自1,3-丁二烯：$\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$
+
+步骤4：验证：丙烯腈和1,3-丁二烯发生共聚反应，生成丁腈橡胶
+
+**答案：** 单体为丙烯腈 $\text{CH}_2=\text{CHCN}$ 和1,3-丁二烯 $\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$
+
+**考试技巧：** 判断高分子化合物单体的方法：①若链节中含有双键，可能是共聚物；②将链节断开，还原双键；③注意1,4-加聚和1,2-加聚的区别。

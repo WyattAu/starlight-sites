@@ -138,6 +138,10 @@ The photoionisation cross section near threshold is $\sigma \approx 6.3 \times 1
 
 
 
+
+## Intuition
+
+Time-dependent perturbation theory treats external influences as small disturbances to a quantum system. When a system is subjected to a time-varying field, transitions between energy levels become possible. The transition rate depends on how much the perturbation overlaps with the initial and final states, measured by matrix elements. Fermi's golden rule packages this into a simple formula: the transition rate is proportional to the square of the matrix element times the density of final states. This explains atomic transitions, photon absorption, and spontaneous emission, forming the basis of spectroscopy and laser physics.
 ## Cross-References
 
 - **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: Time-dependent perturbation theory builds on the Schrodinger equation for time evolution.

@@ -99,3 +99,86 @@ The negative sign indicates the system is bound (energy would be required to sep
 8. Electric field due to an infinite plane sheet: $E = \frac{\sigma}{2\varepsilon_0}$ (independent of distance).
 9. The potential at a point due to multiple charges is the algebraic sum of potentials due to each charge.
 10. For conductors in electrostatic equilibrium, all excess charge resides on the surface.
+
+## Worked Example 4 — Capacitor with Dielectric
+
+**Problem:** A parallel plate capacitor has capacitance $C_0 = 10 \, \mu\text{F}$ when air-filled. A dielectric slab of dielectric constant $K = 4$ is inserted to fill half the space between the plates (while the capacitor remains connected to a 12 V battery). Find the new capacitance and the charge stored.
+
+**Solution:**
+
+When the dielectric fills only half the space, the capacitor can be treated as two capacitors in parallel: one with air ($C_{\text{air}}$) and one with dielectric ($C_{\text{dielectric}}$).
+
+Let the plate area be $A$ and separation $d$. The air-filled half has area $A/2$:
+$$C_{\text{air}} = \frac{\varepsilon_0 (A/2)}{d} = \frac{C_0}{2} = 5 \, \mu\text{F}$$
+
+The dielectric-filled half:
+$$C_{\text{dielectric}} = \frac{K\varepsilon_0 (A/2)}{d} = \frac{KC_0}{2} = \frac{4 \times 10}{2} = 20 \, \mu\text{F}$$
+
+Total capacitance:
+$$C = C_{\text{air}} + C_{\text{dielectric}} = 5 + 20 = 25 \, \mu\text{F}$$
+
+Charge stored (battery maintains $V = 12$ V):
+$$Q = CV = 25 \times 10^{-6} \times 12 = 3 \times 10^{-4} \, \text{C} = 300 \, \mu\text{C}$$
+
+**Common mistake:** Treating the two halves as capacitors in series rather than parallel. When the dielectric fills half the area (not half the distance), the two regions are in parallel because they share the same potential difference.
+
+## Worked Example 5 — Electric Potential of a Dipole
+
+**Problem:** An electric dipole consists of charges $+q$ and $-q$ separated by distance $2a$. Find the electric potential at a point on the perpendicular bisector at distance $r$ from the centre ($r \gg a$).
+
+**Solution:**
+
+Let the dipole be oriented along the $y$-axis with charges at $(0, +a)$ and $(0, -a)$. The point $P$ is at distance $r$ on the $x$-axis.
+
+Distance from each charge to $P$:
+$$d = \sqrt{r^2 + a^2}$$
+
+Potential at $P$:
+$$V = \frac{1}{4\pi\varepsilon_0}\left(\frac{+q}{d} + \frac{-q}{d}\right) = 0$$
+
+The potential on the perpendicular bisector is always zero because the point is equidistant from both charges.
+
+This is a general result: the perpendicular bisector of a dipole is an equipotential surface with $V = 0$.
+
+**Common mistake:** Confusing the electric field (which is non-zero on the perpendicular bisector) with the electric potential (which is zero). The field and potential are different quantities.
+
+## Worked Example 6 — Force Between Charged Conducting Spheres
+
+**Problem:** Two identical conducting spheres of radius $r = 0.05$ m carry charges $q_1 = +2 \, \mu\text{C}$ and $q_2 = -4 \, \mu\text{C}$. They are placed 0.3 m apart (centre to centre). Find the force between them.
+
+**Solution:**
+
+Since the spheres are conducting and the separation is much larger than the radius ($0.3 \gg 0.05$), the charge distribution is approximately uniform and we can treat them as point charges.
+
+$$F = \frac{k|q_1||q_2|}{r^2} = \frac{9 \times 10^9 \times 2 \times 10^{-6} \times 4 \times 10^{-6}}{(0.3)^2}$$
+
+$$= \frac{9 \times 10^9 \times 8 \times 10^{-12}}{0.09} = \frac{72 \times 10^{-3}}{0.09} = 0.8 \, \text{N}$$
+
+The force is attractive (opposite charges).
+
+If the spheres were brought into contact and then separated, the total charge $q_1 + q_2 = -2 \, \mu\text{C}$ would be equally distributed: each sphere carries $-1 \, \mu\text{C}$. The new force would be:
+
+$$F' = \frac{9 \times 10^9 \times (1 \times 10^{-6})^2}{(0.3)^2} = \frac{9 \times 10^9 \times 10^{-12}}{0.09} = 0.1 \, \text{N}$$
+
+**Common mistake:** When conducting spheres touch, charge is shared equally only if they are identical (same radius). For non-identical spheres, the charge distribution depends on the radii.
+
+## Key Formulas
+
+| Quantity | Formula | Unit |
+| --- | --- | --- |
+| Coulomb's law | $F = k\frac{|q_1 q_2|}{r^2}$ | N |
+| Electric field (point charge) | $E = k\frac{q}{r^2}$ | N/C or V/m |
+| Electric potential (point charge) | $V = k\frac{q}{r}$ | V |
+| Capacitance (parallel plate) | $C = \frac{\varepsilon_0 A}{d}$ | F |
+| Energy stored in capacitor | $U = \frac{1}{2}CV^2 = \frac{Q^2}{2C}$ | J |
+| Gauss's law | $\oint \vec{E} \cdot d\vec{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}$ | — |
+| Electric potential energy (two charges) | $U = k\frac{q_1 q_2}{r}$ | J |
+| Work done by electric field | $W = q(V_A - V_B)$ | J |
+
+## Additional Exam Tips
+
+11. For conductors in electrostatic equilibrium, the electric field just outside the surface is $E = \sigma/\varepsilon_0$, where $\sigma$ is the surface charge density.
+12. The potential inside a uniformly charged spherical shell is constant and equals the potential at the surface.
+13. For a system of charges, the total potential energy is the sum over all pairs: $U = \sum_{i<j} \frac{kq_i q_j}{r_{ij}}$.
+14. When a dielectric is inserted into a capacitor connected to a battery, the voltage remains constant but the charge increases by a factor of $K$.
+15. When a dielectric is inserted into an isolated capacitor (battery disconnected), the charge remains constant but the voltage decreases by a factor of $K$.

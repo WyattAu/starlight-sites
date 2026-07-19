@@ -205,7 +205,16 @@ This explains why the sky is polarised at $90°$ from the sun and why polarising
 Glare from horizontal surfaces (Brewster's angle reflection from road/water).
 
 
-## Intuition
+## Common Mistakes
+
+**Mistake 1: Assuming a quarter-wave plate produces circular polarisation for any input angle**
+A quarter-wave plate only converts linear polarisation to circular polarisation when the input polarisation is at exactly 45 degrees to the fast and slow axes. For other angles, the output is elliptically polarised because the two components have unequal amplitudes after passing through the plate. Students often overlook this angular dependence.
+
+**Mistake 2: Confusing the rotation direction of Faraday rotation with natural optical activity**
+Natural optical activity is reciprocal: rotating the beam direction reverses the rotation, so a round trip produces no net rotation. Faraday rotation is non-reciprocal: reversing the propagation direction doubles the rotation. This distinction is the basis of optical isolators. Students frequently assume all polarisation rotation is reciprocal.
+
+**Mistake 3: Assuming unpolarised light becomes polarised after a single polariser at arbitrary intensity**
+After passing through one ideal polariser, unpolarised light of intensity $I_0$ becomes linearly polarised with intensity $I_0/2$, regardless of the polariser orientation. The factor of 1/2 comes from averaging $\cos^2\theta$ over all angles. Students sometimes expect the output intensity to depend on the polariser angle, which is only true for already-polarised input.
 
 Polarization describes the orientation of a light wave's electric field oscillation. Unpolarised light has field vectors pointing in random directions, while linearly polarised light oscillates in a single plane. Malus's law states that when polarised light passes through a polariser, intensity drops as the cosine squared of the angle between them because only the component along the polariser's axis gets through. Brewster's angle is the angle at which reflected light becomes completely polarised because the reflected and refracted rays are perpendicular, eliminating one polarisation component. Scattering at 90 degrees also produces polarisation through the same dipole radiation pattern.
 

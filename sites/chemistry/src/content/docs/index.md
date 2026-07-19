@@ -50,6 +50,10 @@ Each section includes:
 - Common pitfalls and how to avoid them
 - Connections to other areas of chemistry
 
+
+## Intuition
+
+Chemistry is the science of matter and its transformations, bridging physics and biology. It explains why substances have the properties they do, from why water is liquid at room temperature to why iron rusts. The field is organized by the types of substances studied: inorganic for metals and minerals, organic for carbon compounds, physical for the underlying principles, and analytical for measurement. Modern chemistry intersects with materials science, pharmacology, and environmental science. The central theme is understanding chemical bonding, which determines structure, which determines properties, which determines function.
 ## Study Tips
 
 1. **Build a strong foundation**: Ensure you understand the basic concepts before moving to advanced topics

@@ -296,5 +296,9 @@ Think of the SVD as finding the "natural coordinate system" for a transformation
   matrix, but the eigendecomposition requires the matrix to be square. Even for symmetric matrices,
   the singular values are $|\lambda_i|$Not $\lambda_i$.
 
----
+## Cross-References
+
+- **[Eigenvalues and Eigenvectors](5_eigenvalues-and-eigenvectors.md)**: Singular values are the square roots of eigenvalues of $A^T A$, linking SVD to spectral theory.
+- **[Inner Product Spaces](7_inner-product-spaces.md)**: The SVD uses orthonormal bases derived from inner products on the column and row spaces of a matrix.
+- **[Systems of Linear Equations](4_systems-of-linear-equations.md)**: The pseudoinverse derived from the SVD provides minimum-norm least squares solutions to inconsistent linear systems.
 

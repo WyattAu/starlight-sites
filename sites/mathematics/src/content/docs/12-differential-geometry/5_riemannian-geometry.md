@@ -136,3 +136,20 @@ Computing $R^\theta_{\phi\theta\phi}$ gives $-\sin^2\theta$, so $K = R^\theta_{\
 | Sectional curvature | $K(\Pi) = \langle R(v,w)w,v\rangle / (|v|^2|w|^2 - \langle v,w\rangle^2)$ |
 | Ricci curvature | $R_{ij} = R^k_{ikj}$ |
 | Scalar curvature | $S = g^{ij}R_{ij}$ |
+
+## Cross-References
+
+- **[Smooth Manifolds](1_smooth-manifolds.md)**: A Riemannian metric is defined on a smooth manifold and assigns an inner product to each tangent space.
+- **[Differential Forms](4_differential-forms.md)**: The Levi-Civita connection and curvature can be expressed using differential forms and the exterior derivative.
+- **[Geodesics](6_geodesics.md)**: Geodesics are curves on a Riemannian manifold that locally minimise length, determined by the Christoffel symbols of the metric.
+
+## Common Mistakes
+
+**Mistake 1: Confusing the metric tensor with the inner product on $\mathbb{R}^n$**
+The Riemannian metric $g_{ij}$ varies from point to point and depends on the coordinate system. Students often assume $g_{ij} = \delta_{ij}$ globally as in Euclidean space. Even on a sphere with the standard metric, $g_{ij}$ is not the identity matrix in spherical coordinates -- it involves $\sin^2\theta$ terms.
+
+**Mistake 2: Miscomputing Christoffel symbols by forgetting index placement**
+The formula $\Gamma^k_{ij} = \frac{1}{2}g^{k\ell}(\partial_i g_{j\ell} + \partial_j g_{i\ell} - \partial_\ell g_{ij})$ requires contracting with the *inverse* metric $g^{k\ell}$, not $g_{k\ell}$. Students frequently omit this step or use the wrong index position, leading to incorrect geodesic equations and curvature computations.
+
+**Mistake 3: Assuming vanishing Riemann curvature implies flatness in coordinates**
+A manifold with zero Riemann curvature is *locally* isometric to Euclidean space, but the coordinate expressions for the metric may still look complicated. The vanishing of curvature is a coordinate-independent statement. In non-normal coordinates, the Christoffel symbols need not vanish even when $R = 0$.

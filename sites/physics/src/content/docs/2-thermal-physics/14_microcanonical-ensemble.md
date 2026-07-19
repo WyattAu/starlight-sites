@@ -183,3 +183,9 @@ The ensembles are equivalent only in the thermodynamic limit ($N \to \infty$, $V
 **Mistake 3: Forgetting the $1/N!$ factor in the classical partition function**
 For indistinguishable particles, the phase space volume must be divided by $N!$ to avoid overcounting microstates that differ only by particle labels. Omitting this factor leads to the Gibbs paradox: the entropy of mixing two identical gases would be nonzero, which is physically incorrect. The $1/N!$ factor ensures extensivity of the entropy.
 
+## Cross-References
+
+- **[Statistical Mechanics](2_statistical-mechanics.md)**: The canonical ensemble is the fixed-temperature counterpart to the microcanonical ensemble, with equivalent predictions in the thermodynamic limit.
+- **[The Laws of Thermodynamics](1_the-laws-of-thermodynamics.md)**: The microcanonical entropy $S = k_B \ln \Omega$ provides the microscopic foundation for the second law of thermodynamics.
+- **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: The grand canonical ensemble further extends the framework to systems that exchange both energy and particles with a reservoir.
+

@@ -55,9 +55,16 @@ Each section includes:
 - Common pitfalls and how to avoid them
 - Connections to other areas of mathematics
 
-## Study Tips
+## Common Mistakes
 
-1. **Master the definitions**: Functional analysis requires precise understanding of norms and inner products
+**Mistake 1: Confusing Banach spaces with Hilbert spaces**
+Not every complete normed space is a Hilbert space. A Hilbert space requires the norm to come from an inner product, which is equivalent to the parallelogram law holding. The space $L^1$ is a Banach space but not a Hilbert space because its norm does not satisfy the parallelogram identity.
+
+**Mistake 2: Assuming all bounded linear operators are compact**
+Boundedness does not imply compactness. The identity operator on an infinite-dimensional Hilbert space is bounded but not compact. Compact operators map bounded sets to precompact sets, which is a strictly stronger condition than continuity in infinite dimensions.
+
+**Mistake 3: Forgetting that duality in $L^p$ spaces requires $1 \leq p < \infty$**
+The dual of $L^p(\mu)$ is $L^q(\mu)$ where $1/p + 1/q = 1$, but this fails for $p = \infty$. The dual of $L^1$ is $L^\infty$, but the dual of $L^\infty$ is strictly larger than $L^1$ when the measure space is not finite. Students often blindly apply the $L^p$ duality formula to $p = \infty$.
 2. **Practise proofs**: Learn to write clear, rigorous proofs
 3. **Draw diagrams**: Visualise function spaces and operators
 4. **Learn standard examples**: Know the properties of common spaces (l-p spaces, L-p spaces)

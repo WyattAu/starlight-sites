@@ -130,9 +130,16 @@ $$[X, Y]^2 = y\frac{\partial(x)}{\partial x} - 0\frac{\partial(0)}{\partial x} +
 So $[X, Y] = -x \partial/\partial x + y \partial/\partial y$. The flows are: $\Phi_t^X(x,y) = (x+yt, y)$
 (shear), $\Phi_s^Y(x,y) = (x, y+xs)$ (shear). These do not commute. $\blacksquare$
 
-### 3.9 Practice Problems
+## Common Mistakes
 
-## Intuition
+**Mistake 1: Assuming the Lie bracket is commutative**
+The Lie bracket satisfies anti-symmetry: $[X, Y] = -[Y, X]$. Students often write $[X, Y] = [Y, X]$ or forget the sign when computing brackets. This is fundamentally different from the ordinary product of functions, which is commutative. The non-commutativity of the Lie bracket reflects the non-commutativity of flowing along different vector fields.
+
+**Mistake 2: Confusing completeness with compactness of the domain**
+A vector field on a non-compact manifold can be complete (e.g., $X = \partial/\partial x$ on $\mathbb{R}$), while a vector field on a compact manifold is always complete. Students sometimes assume that non-compact domains automatically produce incomplete flows, which is false -- completeness depends on the specific growth rate of the vector field.
+
+**Mistake 3: Miscomputing the Lie bracket in coordinates**
+The coordinate formula $[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$ requires differentiating the *component functions* of $Y$ along $X$ and vice versa. Students frequently differentiate the wrong components or forget that the partial derivatives act on the coefficients, not on the basis vector fields themselves.
 
 A vector field assigns a direction and magnitude to every point of a manifold — like a wind map on the Earth's surface. The flow of a vector field is the family of curves that follow these arrows: starting at any point and moving along the field traces out a path. If the field is complete, the flow is defined for all time. The Lie bracket of two vector fields measures how their flows fail to commute — if you flow along $X$ then $Y$, and compare with flowing along $Y$ then $X$, the discrepancy is the Lie bracket $[X, Y]$. Zero bracket means the flows commute, generalising the fact that mixed partial derivatives are equal.
 

@@ -147,5 +147,11 @@ This gives the mean field critical exponent $\gamma = 1$. $\blacksquare$
 
 The Ising model is the simplest system showing how local interactions create global order. Each spin copies its neighbors' tendency, and below the critical temperature this copying wins, creating spontaneous magnetization. Mean-field theory averages over neighbors, ignoring fluctuations that become important near the critical point. The 1D model has no phase transition because any domain wall costs only finite energy. In 2D, Onsager's exact solution shows a phase transition exists. Critical exponents are universal because near the critical point, the correlation length diverges, making microscopic details irrelevant.
 
+## Cross-References
+
+- **[Statistical Mechanics](2_statistical-mechanics.md)**: The Ising model partition function is computed using the same statistical mechanics framework as the canonical ensemble.
+- **[Phase Transitions](10_phase-transitions.md)**: The Ising model exhibits a second-order phase transition with universal critical exponents described by Landau theory.
+- **[The Laws of Thermodynamics](1_the-laws-of-thermodynamics.md)**: The Ising model free energy minimisation at equilibrium follows from the second law of thermodynamics.
+
 ---
 

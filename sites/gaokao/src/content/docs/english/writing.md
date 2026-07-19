@@ -328,3 +328,62 @@ Li Hua
 ```
 
 **考试技巧：** 建议信中的建议要具体可行，避免空洞的口号。每条建议最好有简要的理由或说明。
+
+### 例题10：读后续写——情节发展
+
+**题目：** 阅读下面短文，根据所给情节进行续写（两段）。
+
+"Lisa had always been a straight-A student. When her final exam results came out, she was shocked to find she had failed Mathematics. She couldn't believe her eyes — she had studied so hard. That evening, she locked herself in her room, refusing to eat or talk to anyone."
+
+**解答：**
+
+续写示范：
+
+第一段：
+"Her mother knocked gently on the door. 'Lisa, I know you're disappointed, but locking yourself away won't solve anything.' After a long silence, Lisa opened the door. Tears streamed down her face as she whispered, 'I don't understand what went wrong. I studied every night.' Her mother sat beside her and said softly, 'Sometimes the hardest exams aren't the ones on paper. They're the ones that teach us how to handle failure.'"
+
+第二段：
+"The next morning, Lisa asked her mother to help her make a new study plan. Instead of studying alone in her room, she joined a study group where they explained problems to each other. She also visited her Mathematics teacher, who helped her identify the concepts she had misunderstood. Within weeks, her confidence returned. She realised that one failure did not define her — it was how she responded to it that truly mattered.
+
+**考试技巧：** 续写要保持人物性格一致，情节发展合理。使用适当的连接词使文章连贯。
+
+### 例题11：应用文写作——道歉信
+
+**题目：** 假如你是李华，你因病未能参加昨天的英语角活动，请给活动组织者写一封道歉信。
+
+**解答：**
+
+```
+Dear Mr. Wang,
+
+  I am writing to express my sincere apologies for not being able to attend yesterday's English Corner activity.
+
+  Unfortunately, I came down with a sudden fever yesterday morning and had to be taken to the hospital for medical treatment. I tried to inform you beforehand, but I was too ill to use my phone. I understand that my absence may have caused inconvenience to the activity, and I deeply regret any disruption this may have caused.
+
+  I am now recovering and hope to participate in the next English Corner. I would be grateful if you could share the materials or topics discussed yesterday so that I can catch up with what I missed.
+
+  Once again, I apologise for any inconvenience caused. I promise to make every effort to attend future activities.
+
+Yours sincerely,
+Li Hua
+```
+
+**考试技巧：** 道歉信要说明原因、表达歉意、提出补救措施。语气要诚恳，不要找借口。
+
+### 例题12：读后续写——动作与心理描写
+
+**题目：** 阅读下面短文，根据所给情节进行续写（两段）。
+
+"Twelve-year-old Tom had always dreamed of becoming a musician. When his school announced a talent show, he decided to play the piano. However, on the day of the performance, his hands trembled as he sat down at the piano. The audience fell silent."
+
+**解答：**
+
+续写示范：
+
+第一段：
+"He closed his eyes and took a deep breath, trying to calm his racing heart. The first few notes came out hesitant and shaky, but as his fingers found their rhythm, the music began to flow smoothly. The melody filled the auditorium, carrying with it all the months of practice and the passion that had driven him to this moment. When he played the final chord, there was a moment of perfect silence — and then the audience erupted in thunderous applause."
+
+第二段：
+"Tom opened his eyes, stunned by the response. Tears welled up as he stood to bow, his trembling hands now steady with relief and joy. After the show, his music teacher approached him with a warm smile. 'You didn't just play the piano tonight, Tom. You shared your heart with everyone here.' From that day forward, Tom no longer feared the stage. He had discovered that courage was not the absence of fear, but the determination to move forward despite it."
+
+**考试技巧：** 续写中的情感描写要自然真实，通过动作、语言、心理活动等多种方式展现人物情感变化。

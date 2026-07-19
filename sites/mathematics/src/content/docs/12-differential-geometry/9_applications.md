@@ -138,3 +138,14 @@ connections on bundles. Minimal surfaces model soap films and biological membran
 uses configuration manifolds for motion planning. Discrete differential geometry powers modern
 computer graphics. The Gauss-Bonnet theorem forces trade-offs in cartography. String theory
 uses Calabi-Yau manifolds, and manifold learning algorithms exploit geometry for data analysis.
+
+## Common Mistakes
+
+**Mistake 1: Confusing the metric signature in general relativity with Riemannian geometry**
+In Riemannian geometry the metric is positive-definite, but in general relativity the metric has Lorentzian signature $(-,+,+,+)$. Students often apply Riemannian formulas directly to spacetime metrics, forgetting that the sign change affects geodesic equations, curvature calculations, and the definition of distances.
+
+**Mistake 2: Assuming minimal surfaces are flat**
+A minimal surface has zero mean curvature $H = 0$, not zero Gaussian curvature $K$. The catenoid and helicoid are classic examples of minimal surfaces with non-zero Gaussian curvature. Students frequently confuse $H = 0$ with $K = 0$, which would describe a flat surface.
+
+**Mistake 3: Misapplying the Gauss-Bonnet theorem to non-compact or open surfaces**
+The theorem $\int_M K\, dA = 2\pi\chi(M)$ requires $M$ to be compact. Students sometimes attempt to apply it to open surfaces like the plane or hyperbolic space, where the integral diverges and the formula does not hold. The theorem is fundamentally a statement about compact topology.

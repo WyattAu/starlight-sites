@@ -243,3 +243,9 @@ When light reflects from a medium with higher refractive index, it undergoes a $
 
 **Mistake 3: Assuming interference requires two separate sources**
 Interference can occur with a single source split and recombined (as in Young's double slit or a Michelson interferometer). The key requirement is coherence, not separate sources. Even with two independent sources, interference is only observable if the sources are coherent (same frequency and fixed phase relationship). Thermal light sources are incoherent and do not produce stable interference patterns.
+
+## Cross-References
+
+- **[The Wave Equation](1_the-wave-equation.md)**: Interference arises from the superposition principle applied to solutions of the wave equation.
+- **[Maxwell's Equations](../3-electromagnetism/1_maxwell-s-equations.md)**: Electromagnetic waves obey Maxwell's equations, and interference patterns are observed in their superposition.
+- **[Coherence Theory](8_coherence.md)**: Coherence theory explains the conditions under which stable interference patterns can be observed.

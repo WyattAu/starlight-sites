@@ -62,6 +62,17 @@ Each section includes:
 - Common pitfalls and how to avoid them
 - Connections to other areas of mathematics
 
+## Common Mistakes
+
+**Mistake 1: Confusing tangent vectors with points on the manifold**
+Students often write $v \in M$ when they mean $v \in T_pM$. A tangent vector lives in the tangent space at a point, not on the manifold itself. The tangent bundle $TM$ is the correct space that pairs points with their tangent vectors.
+
+**Mistake 2: Assuming coordinate expressions are basis-independent**
+When writing $X = X^i \partial/\partial x^i$, the components $X^i$ depend on the choice of coordinates. Under a coordinate change, the components transform contravariantly. Students frequently forget that formulas written in one chart may look different in another.
+
+**Mistake 3: Treating the differential as a linear map between tangent spaces of the same manifold**
+The pushforward $df_p : T_pM \to T_{f(p)}N$ maps between tangent spaces of *different* manifolds when $f : M \to N$. A common error is writing $df_p : T_pM \to T_pM$, which only makes sense when $f$ is a self-map and even then is misleading.
+
 ## Study Tips
 
 1. **Master the definitions**: Differential geometry requires precise understanding of manifolds and forms

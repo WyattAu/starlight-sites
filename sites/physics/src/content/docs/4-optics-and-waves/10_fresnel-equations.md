@@ -169,7 +169,16 @@ $$r_p = \frac{n_2\cos\theta_c - 0}{n_2\cos\theta_c + 0} = 1$$
 Both polarisations have $R = 1$ at the critical angle, and the transmitted wave propagates exactly
 along the interface with no energy flow into the second medium.
 
-## Intuition
+## Common Mistakes
+
+**Mistake 1: Swapping the numerator and denominator terms in $r_s$ and $r_p$**
+The s-polarisation coefficient is $r_s = (n_1\cos\theta_i - n_2\cos\theta_t)/(n_1\cos\theta_i + n_2\cos\theta_t)$ while $r_p = (n_2\cos\theta_i - n_1\cos\theta_t)/(n_2\cos\theta_i + n_1\cos\theta_t)$. The key difference is that $r_s$ starts with $n_1\cos\theta_i$ in the numerator while $r_p$ starts with $n_2\cos\theta_i$. Swapping these gives incorrect reflection coefficients, especially near Brewster's angle.
+
+**Mistake 2: Assuming $R + T = 1$ always implies no absorption**
+Energy conservation $R + T = 1$ holds for lossless dielectric interfaces. In absorbing media, the Fresnel coefficients become complex and $R + T$ may not equal 1 when using the real-valued intensity definitions. Students often apply the simple form to metallic surfaces where the refractive index is complex.
+
+**Mistake 3: Forgetting that the phase shift on reflection depends on the refractive index ordering**
+For external reflection ($n_1 < n_2$), $r_s < 0$ at all angles, meaning the reflected wave undergoes a $\pi$ phase shift. For internal reflection ($n_1 > n_2$), $r_s > 0$ at normal incidence with no phase shift. Students frequently apply the wrong phase convention, which matters for thin-film interference calculations.
 
 Fresnel equations describe how light splits at an interface between two media. At normal incidence, reflection and transmission depend only on the refractive index mismatch. As the angle of incidence increases, the two polarisations behave differently: s-polarised light reflects more strongly, while p-polarised light can reach zero reflection at Brewster's angle. Total internal reflection occurs beyond the critical angle, where the transmitted wave becomes evanescent. The Fresnel coefficients encode both amplitude and phase changes, which is essential for understanding thin-film coatings and anti-reflection layers. The key physical picture is that the boundary conditions for the electric and magnetic fields force the reflected and transmitted amplitudes to adjust continuously with angle.
 

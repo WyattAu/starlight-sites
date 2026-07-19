@@ -152,7 +152,16 @@ equals the number of conjugate points along $\gamma$, counted with multiplicity.
 
 This theorem connects the calculus of variations to the topology of the loop space of a manifold.
 
-### 6.13 Geodesic Polygons and Angle Defect
+## Common Mistakes
+
+**Mistake 1: Assuming geodesics are always the shortest path**
+Geodesics are locally length-minimizing, but globally they may not be the shortest curve between two points. On a sphere, great circle arcs longer than $\pi$ are geodesics but not shortest paths. The cut locus marks where geodesics cease to be minimizing.
+
+**Mistake 2: Confusing the exponential map with a global diffeomorphism**
+The exponential map $\exp_p$ is only a local diffeomorphism near the origin. Beyond the injectivity radius, it may fail to be one-to-one. Students often assume $\exp_p$ gives a global coordinate system, which is only true for spaces like Euclidean space or hyperbolic space.
+
+**Mistake 3: Forgetting that the geodesic equation is second-order**
+The equation $\ddot\gamma^k + \Gamma^k_{ij}\dot\gamma^i\dot\gamma^j = 0$ requires both an initial point $p$ and an initial velocity $v$ to determine a unique geodesic. Specifying only the starting point leaves infinitely many geodesics. Students sometimes treat geodesics like integral curves of vector fields, which are first-order and need only an initial point.
 
 On a surface of constant curvature $K$, the area of a geodesic triangle with interior angles
 $\alpha, \beta, \gamma$ is:

@@ -310,3 +310,86 @@ D. Problem-solution
 **答案：** C
 
 **考试技巧：** 识别论证方法要注意信号词：for example, for instance（举例）；therefore, thus（因果）；on the other hand（对比）；the solution is（问题解决）。
+
+### 例题10：细节理解题——推理计算
+
+**题目：** Read the following passage and answer the question.
+
+"The library has increased its opening hours from 8 hours to 12 hours per day since the new librarian took over. The number of daily visitors has risen from 200 to 350. Additionally, the library has introduced a new digital catalogue system, which has reduced the average waiting time for book retrieval from 10 minutes to 3 minutes."
+
+What is the percentage increase in the number of daily visitors?
+
+A. 42.9%
+B. 58.3%
+C. 75.0%
+D. 175.0%
+
+**解答：**
+
+步骤1：原始读者数量：$200$
+
+步骤2：现在读者数量：$350$
+
+步骤3：增加数量：$350 - 200 = 150$
+
+步骤4：百分比增长：$\dfrac{150}{200} \times 100\% = 75\%$
+
+步骤5：验证：$200 \times 1.75 = 350$（正确）
+
+**答案：** C
+
+**常见错误：** 百分比增长的基数是原始值，不是新值。$\dfrac{350 - 200}{200}$，不是 $\dfrac{350 - 200}{350}$。
+
+### 例题11：推理判断题——隐含信息
+
+**题目：** Read the following passage and answer the question.
+
+"Despite the government's efforts to promote electric vehicles, the adoption rate remains low. Many consumers cite the high upfront cost as the primary barrier. However, experts point out that the total cost of ownership over a vehicle's lifetime is actually lower for electric cars compared to traditional vehicles."
+
+What can be inferred about the experts' view?
+
+A. Electric vehicles are cheaper to purchase than traditional vehicles
+B. Consumers are making irrational decisions
+C. The long-term savings of electric vehicles outweigh the initial cost
+D. The government should ban traditional vehicles
+
+**解答：**
+
+步骤1：分析原文——政府推广电动车，但采用率低，消费者认为初始成本高
+
+步骤2：专家观点——电动车的总拥有成本实际上低于传统汽车
+
+步骤3：推理——专家认为长期节省超过初始成本
+
+步骤4：排除A（专家说的是总成本，不是购买价格）、B（专家没有说消费者不理性）、D（专家没有说应该禁止）
+
+**答案：** C
+
+**考试技巧：** 推理题要基于文中信息，不能过度推断。专家观点通常比较客观，避免极端选项。
+
+### 例题12：词义猜测题——语境推断
+
+**题目：** Read the following passage and answer the question.
+
+"The new policy has been met with widespread skepticism. Many citizens doubt its effectiveness, and some have even called it a mere 'political gesture' with no real substance. The government, however, remains optimistic about the policy's potential impact."
+
+The underlined word "skepticism" probably means:
+
+A. enthusiasm
+B. doubt
+C. support
+D. confusion
+
+**解答：**
+
+步骤1：分析上下文——公民怀疑政策的有效性，有人称之为"政治姿态"
+
+步骤2：关键词"doubt"（怀疑）和"mere political gesture"（仅仅是政治姿态）
+
+步骤3："skepticism"与"doubt"意思相近，表示怀疑
+
+步骤4：排除A（与原文相反）、C（与原文相反）、D（怀疑不是困惑）
+
+**答案：** B
+
+**考试技巧：** 词义猜测题要利用上下文线索，特别是同义词、反义词或解释性短语。

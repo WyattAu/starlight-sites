@@ -235,3 +235,61 @@ Step 5: Total distance = $4 + 4 + 4 = 12$ m
 **Answer:** Total distance traveled is $12$ m
 
 **Common mistake:** Confusing distance with displacement. Displacement would be $\int_0^4 v(t) \, dt = 4$, but distance requires integrating the absolute value of velocity.
+
+### Example 10: Implicit Differentiation
+
+**Problem:** Find $\frac{dy}{dx}$ if $x^2 + xy + y^2 = 7$.
+
+**Solution:**
+
+Step 1: Differentiate both sides with respect to $x$:
+$$2x + y + x\frac{dy}{dx} + 2y\frac{dy}{dx} = 0$$
+
+Step 2: Collect $\frac{dy}{dx}$ terms:
+$$\frac{dy}{dx}(x + 2y) = -2x - y$$
+
+Step 3: Solve:
+$$\frac{dy}{dx} = \frac{-2x - y}{x + 2y} = -\frac{2x + y}{x + 2y}$$
+
+**Answer:** $\frac{dy}{dx} = -\frac{2x + y}{x + 2y}$
+
+**Common mistake:** Forgetting that $y$ is a function of $x$, so $\frac{d}{dx}[xy] = y + x\frac{dy}{dx}$ (product rule), not just $y$.
+
+### Example 11: Integration by Parts
+
+**Problem:** Evaluate $\int x \cos x \, dx$.
+
+**Solution:**
+
+Step 1: Choose $u = x$ and $dv = \cos x \, dx$
+
+Step 2: Then $du = dx$ and $v = \sin x$
+
+Step 3: Apply integration by parts $\int u \, dv = uv - \int v \, du$:
+$$\int x \cos x \, dx = x \sin x - \int \sin x \, dx$$
+
+Step 4: Evaluate the remaining integral:
+$$= x \sin x - (-\cos x) + C = x \sin x + \cos x + C$$
+
+**Answer:** $\int x \cos x \, dx = x \sin x + \cos x + C$
+
+**Common mistake:** Choosing the wrong $u$ and $dv$. A good rule of thumb is LIATE (Logarithmic, Inverse trig, Algebraic, Trigonometric, Exponential) — choose $u$ from left to right.
+
+### Example 12: Volume of Revolution
+
+**Problem:** Find the volume generated when the region bounded by $y = x^2$, $y = 0$, $x = 1$ is rotated about the $x$-axis.
+
+**Solution:**
+
+Step 1: The volume formula for rotation about the $x$-axis:
+$$V = \pi \int_a^b [f(x)]^2 \, dx$$
+
+Step 2: Substitute $f(x) = x^2$, $a = 0$, $b = 1$:
+$$V = \pi \int_0^1 (x^2)^2 \, dx = \pi \int_0^1 x^4 \, dx$$
+
+Step 3: Integrate:
+$$V = \pi \left[\frac{x^5}{5}\right]_0^1 = \pi \left(\frac{1}{5} - 0\right) = \frac{\pi}{5}$$
+
+**Answer:** Volume $= \frac{\pi}{5}$ cubic units
+
+**Common mistake:** Forgetting to square the function when using the disk method. The formula is $\pi \int [f(x)]^2 \, dx$, not $\pi \int f(x) \, dx$.

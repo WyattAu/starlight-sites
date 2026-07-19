@@ -221,3 +221,9 @@ Statistical mechanics bridges the microscopic world of individual atoms to the m
 
 ---
 
+## Cross-References
+
+- **[The Laws of Thermodynamics](1_the-laws-of-thermodynamics.md)**: Statistical mechanics provides the microscopic foundation for the thermodynamic laws through the partition function and entropy.
+- **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: The grand canonical ensemble extends the canonical formalism to systems that exchange particles with a reservoir.
+- **[The Ising Model](6_the-ising-model.md)**: The Ising model is a foundational statistical mechanics model for studying phase transitions and magnetic ordering.
+

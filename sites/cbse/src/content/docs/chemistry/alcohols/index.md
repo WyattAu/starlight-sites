@@ -86,3 +86,82 @@ Alcohols are solvents (ethanol, methanol), fuels (methanol), and precursors to m
 - Oxidation: primary $\rightarrow$ aldehyde $\rightarrow$ acid; secondary $\rightarrow$ ketone
 - Williamson synthesis: primary halide + alkoxide (avoid elimination)
 - Phenol: activates ring for electrophilic substitution (ortho/para directing)
+
+## Worked Example 4 — Oxidation of Alcohols
+
+**Problem:** What are the products when (a) propan-1-ol and (b) propan-2-ol are heated with acidified potassium dichromate?
+
+**Solution:**
+
+(a) Propan-1-ol is a primary alcohol. Oxidation proceeds in two steps:
+
+First oxidation:
+$$3\text{CH}_3\text{CH}_2\text{CH}_2\text{OH} + \text{K}_2\text{Cr}_2\text{O}_7 + 4\text{H}_2\text{SO}_4 \rightarrow 3\text{CH}_3\text{CH}_2\text{CHO} + \text{Cr}_2(\text{SO}_4)_3 + \text{K}_2\text{SO}_4 + 7\text{H}_2\text{O}$$
+
+Product: propanal (an aldehyde)
+
+Further oxidation:
+$$\text{CH}_3\text{CH}_2\text{CHO} \xrightarrow{[\text{O}]} \text{CH}_3\text{CH}_2\text{COOH}$$
+
+Product: propanoic acid (a carboxylic acid)
+
+(b) Propan-2-ol is a secondary alcohol. Oxidation gives a ketone:
+
+$$\text{CH}_3\text{CH(OH)CH}_3 \xrightarrow{[\text{O}]} \text{CH}_3\text{COCH}_3$$
+
+Product: propanone (acetone, a ketone)
+
+**Common mistake:** Forgetting that primary alcohols can be oxidised further to carboxylic acids. To stop at the aldehyde stage, use PCC (pyridinium chlorochromate) as the oxidising agent.
+
+## Worked Example 5 — Esterification
+
+**Problem:** Write the equation for the reaction between ethanol and ethanoic acid in the presence of concentrated sulfuric acid.
+
+**Solution:**
+
+This is a Fischer esterification — a condensation reaction between a carboxylic acid and an alcohol:
+
+$$\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightleftharpoons[\Delta]{\text{conc. H}_2\text{SO}_4} \text{CH}_3\text{COOCH}_2\text{CH}_3 + \text{H}_2\text{O}$$
+
+The product is ethyl ethanoate (an ester) with a fruity smell.
+
+The reaction is reversible. Concentrated $\text{H}_2\text{SO}_4$ acts as both a catalyst and a dehydrating agent, shifting the equilibrium towards the ester.
+
+**Common mistake:** Forgetting that the reaction is reversible. Using excess alcohol or removing water drives the equilibrium towards ester formation (Le Chatelier's principle).
+
+## Worked Example 6 — Phenol as a Weak Acid
+
+**Problem:** Write equations showing the reaction of phenol with (a) NaOH and (b) Na. Explain why phenol does not react with $\text{NaHCO}_3$.
+
+**Solution:**
+
+(a) Phenol reacts with NaOH to form sodium phenoxide (a salt):
+$$\text{C}_6\text{H}_5\text{OH} + \text{NaOH} \rightarrow \text{C}_6\text{H}_5\text{ONa} + \text{H}_2\text{O}$$
+
+(b) Phenol reacts with sodium metal:
+$$2\text{C}_6\text{H}_5\text{OH} + 2\text{Na} \rightarrow 2\text{C}_6\text{H}_5\text{ONa} + \text{H}_2$$
+
+(c) Phenol does not react with $\text{NaHCO}_3$ because phenol is a weaker acid than carbonic acid ($\text{H}_2\text{CO}_3$). The $\text{p}K_a$ of phenol is 10, while $\text{p}K_a$ of $\text{H}_2\text{CO}_3$ is 6.4. A weaker acid cannot displace a stronger acid from its salt.
+
+**Common mistake:** Assuming that because phenol is more acidic than alcohols, it behaves like a carboxylic acid. Phenol is still a very weak acid ($pK_a = 10$) compared to carboxylic acids ($pK_a \approx 4$-$5$).
+
+## Key Formulas
+
+| Property | Formula | Notes |
+| --- | --- | --- |
+| Esterification | $\text{RCOOH} + \text{R'OH} \rightleftharpoons \text{RCOOR'} + \text{H}_2\text{O}$ | Acid + alcohol $\rightarrow$ ester + water |
+| Williamson synthesis | $\text{RONa} + \text{R'X} \rightarrow \text{ROR'} + \text{NaX}$ | Use primary halides to avoid elimination |
+| Oxidation (primary) | $\text{RCH}_2\text{OH} \rightarrow \text{RCHO} \rightarrow \text{RCOOH}$ | Two-step oxidation |
+| Oxidation (secondary) | $\text{R}_2\text{CHOH} \rightarrow \text{R}_2\text{C=O}$ | Stops at ketone |
+| Dehydration | $\text{RCH}_2\text{CH}_2\text{OH} \xrightarrow{\text{H}_2\text{SO}_4, \Delta} \text{RCH=CH}_2$ | Follows Saytzeff's rule |
+
+## Exam Tips
+
+1. For acidity questions, always compare the stability of the conjugate base (phenoxide vs. alkoxide vs. hydroxide).
+2. In Williamson synthesis, always use a primary alkyl halide to minimise elimination.
+3. Oxidation of primary alcohols can stop at the aldehyde stage using PCC; without it, the carboxylic acid forms.
+4. Phenol undergoes electrophilic aromatic substitution at the ortho and para positions due to activation by the $-\text{OH}$ group.
+5. Esterification is reversible; use Le Chatelier's principle to predict the effect of changing conditions.
+6. Dehydration follows Saytzeff's rule: the more substituted alkene is the major product.
+7. Tertiary alcohols dehydrate most easily (most stable carbocation); primary alcohols require harsher conditions.
+8. Remember the Lucas test: tertiary alcohols react immediately, secondary within 5 minutes, primary do not react at room temperature.

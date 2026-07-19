@@ -142,3 +142,14 @@ A **reproducing kernel Hilbert space (RKHS)** $H$ is a Hilbert space of function
 
 The **kernel** $k(x, y) = \langle k_x, k_y \rangle$ is a positive definite function. The Moore-Aronszajn theorem states that every positive definite kernel corresponds to a unique RKHS. RKHS theory underpins kernel methods in machine learning, including support vector machines and Gaussian processes.
 
+## Common Mistakes
+
+**Mistake 1: Assuming the Lax-Milgram theorem requires a Hilbert space inner product**
+The Lax-Milgram theorem applies to any coercive bounded bilinear form on a Hilbert space, not just the standard inner product. Students often restrict themselves to the inner product formulation and miss that the theorem handles more general problems like those arising from PDEs with non-symmetric bilinear forms.
+
+**Mistake 2: Confusing weak and strong solutions of PDEs**
+A weak solution satisfies the PDE in a distributional sense, while a strong solution satisfies it pointwise with enough regularity. Students sometimes assume that existence of a weak solution immediately gives a classical solution. Additional regularity theory (elliptic regularity, Sobolev embedding) is needed to upgrade weak solutions to strong ones.
+
+**Mistake 3: Forgetting that compactness is essential for extracting convergent subsequences**
+In the direct method of calculus of variations, one needs a minimizing sequence, weak lower semicontinuity of the functional, and weak compactness of the domain. Students frequently try to extract a strongly convergent subsequence from a bounded sequence, which fails in infinite dimensions. Weak compactness (via reflexivity) and then using the compactness of certain operators is the correct approach.
+

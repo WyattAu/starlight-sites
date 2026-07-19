@@ -265,7 +265,16 @@ $d/a = 3$ as the ratio for missing orders.
 </details>
 
 
-## Intuition
+## Common Mistakes
+
+**Mistake 1: Using the double-slit maximum condition for single-slit minima**
+Single-slit diffraction minima occur at $a\sin\theta = m\lambda$, while double-slit interference maxima occur at $d\sin\theta = m\lambda$. Students frequently confuse these conditions, especially when both effects are present simultaneously. The factor of 2 difference arises because single-slit minima require edge-to-edge path difference of one wavelength, while double-slit maxima require constructive interference from two sources.
+
+**Mistake 2: Assuming all diffraction maxima have equal intensity**
+The central maximum in single-slit diffraction contains approximately 84% of the total power. Secondary maxima have rapidly decreasing intensities: $I_1 \approx 4.5\%$, $I_2 \approx 1.6\%$. Students often treat all bright fringes as having equal brightness, which leads to incorrect predictions about what will be visible in a diffraction pattern.
+
+**Mistake 3: Confusing the resolving power formula with the resolution criterion**
+The Rayleigh criterion gives $\theta_{\min} = 1.22\lambda/D$ for circular apertures (the factor 1.22 comes from the first zero of $J_1$), while the grating resolving power is $R = mN$. Students sometimes apply the Rayleigh criterion formula to diffraction gratings or vice versa, mixing up angular resolution with spectral resolution.
 
 Diffraction is the bending of waves around obstacles and through openings, arising because a wavefront passing through a slit becomes a source of secondary wavelets in every direction. The narrower the slit relative to the wavelength, the more the wave spreads out. Double-slit diffraction combines two effects: the interference pattern from two point sources, modulated by the single-slit diffraction envelope. Missing orders appear when the interference maximum coincides with a diffraction minimum, effectively canceling that bright fringe. The Fourier transform of the aperture function gives the far-field pattern directly, linking the shape of the opening to the shape of the light distribution.
 

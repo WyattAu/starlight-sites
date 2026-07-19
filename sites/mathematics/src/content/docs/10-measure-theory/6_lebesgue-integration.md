@@ -133,6 +133,12 @@ The key advantage is that the Lebesgue integral can handle functions with wild d
 | Non-negative meas.   | $\sup\{\int s : 0 \leq s \leq f,\ s\text{ simple}\}$                    | MCT applies                      |
 | General measurable   | $\int f = \int f^+ - \int f^-$                                          | $f \in L^1$ iff $\int|f| < \infty$ |
 
+## Cross-References
+
+- **[Measures](2_measures.md)**: Lebesgue integration is built on measure theory, with the integral defined as a supremum over simple functions.
+- **[Sigma-Algebras and Measurable Spaces](1_sigma-algebras-and-measurable-spaces.md)**: Measurable functions and their integrals are defined with respect to a sigma-algebra on the domain.
+- **[Riemann Integration](../../3-real-analysis/6_riemann-integration.md)**: Every Riemann integrable function is Lebesgue integrable, but the Lebesgue integral handles a strictly larger class of functions.
+
 ### 6.10 Worked Example: Applying DCT to a Sequence with Oscillations
 
 **Problem.** Evaluate $\lim_{n\to\infty} \int_0^\pi \frac{\sin(nx)}{n}\, dx$ using the dominated convergence theorem.

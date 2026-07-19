@@ -258,3 +258,75 @@ $$c(\text{Na}^+) > c(\text{CO}_3^{2-}) > c(\text{OH}^-) > c(\text{HCO}_3^-) > c(
 **答案：** $c(\text{Na}^+) > c(\text{CO}_3^{2-}) > c(\text{OH}^-) > c(\text{HCO}_3^-) > c(\text{H}^+)$
 
 **考试技巧：** 比较离子浓度大小时，先考虑电离和水解的主次关系，再考虑电荷守恒和物料守恒。
+
+### 例题10：化学平衡常数与转化率
+
+**题目：** 在某温度下，反应 $\text{H}_2(g) + \text{I}_2(g) \rightleftharpoons 2\text{HI}(g)$ 的平衡常数 $K = 50$。若起始时 $\text{H}_2$ 和 $\text{I}_2$ 的浓度均为 $1\,\text{mol/L}$，求平衡时 $\text{HI}$ 的浓度和 $\text{H}_2$ 的转化率。
+
+**解答：**
+
+步骤1：设平衡时 $\text{H}_2$ 消耗了 $x\,\text{mol/L}$
+
+步骤2：列三段式：
+$$\begin{array}{lccc}
+ & \text{H}_2 & \text{I}_2 & \text{HI} \\
+\text{起始 (mol/L)} & 1 & 1 & 0 \\
+\text{变化 (mol/L)} & -x & -x & +2x \\
+\text{平衡 (mol/L)} & 1-x & 1-x & 2x
+\end{array}$$
+
+步骤3：代入平衡常数表达式：$K = \dfrac{(2x)^2}{(1-x)^2} = 50$
+
+步骤4：开方：$\dfrac{2x}{1-x} = \sqrt{50} = 5\sqrt{2} \approx 7.07$
+
+步骤5：$2x = 7.07(1-x)$，$2x = 7.07 - 7.07x$，$9.07x = 7.07$，$x \approx 0.78\,\text{mol/L}$
+
+步骤6：$[\text{HI}] = 2x \approx 1.56\,\text{mol/L}$
+
+步骤7：$\text{H}_2$ 的转化率 $= \dfrac{x}{1} \times 100\% \approx 78\%$
+
+**答案：** $[\text{HI}] \approx 1.56\,\text{mol/L}$，$\text{H}_2$ 的转化率约为 $78\%$
+
+**常见错误：** 平衡常数表达式中，固体和纯液体不写入。$K$ 只与温度有关，与浓度、压强无关。
+
+### 例题11：氧化还原反应的计算
+
+**题目：** 将 $0.1\,\text{mol}$ 的 $\text{Fe}$ 与足量稀 $\text{HNO}_3$ 反应，求生成气体在标准状况下的体积和消耗 $\text{HNO}_3$ 的物质的量。
+
+**解答：**
+
+步骤1：反应方程式：$\text{Fe} + 4\text{HNO}_3(\text{稀}) = \text{Fe(NO}_3)_3 + \text{NO} \uparrow + 2\text{H}_2\text{O}$
+
+步骤2：$\text{Fe}$ 与 $\text{HNO}_3$ 的物质的量之比为 $1:4$
+
+步骤3：消耗 $\text{HNO}_3$：$0.1 \times 4 = 0.4\,\text{mol}$
+
+步骤4：生成 $\text{NO}$：$0.1\,\text{mol}$
+
+步骤5：标准状况下体积：$0.1 \times 22.4 = 2.24\,\text{L}$
+
+**答案：** 生成气体体积为 $2.24\,\text{L}$，消耗 $\text{HNO}_3$ 为 $0.4\,\text{mol}$
+
+**考试技巧：** 铁与稀硝酸反应，铁过量时生成 $\text{Fe}^{2+}$，硝酸过量时生成 $\text{Fe}^{3+}$。注意判断反应物的量。
+
+### 例题12：电解质溶液的综合
+
+**题目：** 在 $25°C$ 时，将 $0.1\,\text{mol/L}$ 的 $\text{CH}_3\text{COOH}$ 溶液与 $0.1\,\text{mol/L}$ 的 $\text{NaOH}$ 溶液等体积混合，求混合后溶液的 $\text{pH}$（已知 $\text{CH}_3\text{COOH}$ 的 $K_a = 1.8 \times 10^{-5}$）。
+
+**解答：**
+
+步骤1：等体积混合后，溶质为 $\text{CH}_3\text{COONa}$，浓度为 $0.05\,\text{mol/L}$
+
+步骤2：$\text{CH}_3\text{COONa}$ 水解：$\text{CH}_3\text{COO}^- + \text{H}_2\text{O} \rightleftharpoons \text{CH}_3\text{COOH} + \text{OH}^-$
+
+步骤3：水解常数 $K_h = \dfrac{K_w}{K_a} = \dfrac{10^{-14}}{1.8 \times 10^{-5}} \approx 5.56 \times 10^{-10}$
+
+步骤4：设水解产生的 $[\text{OH}^-] = x$，则 $[\text{CH}_3\text{COOH}] = x$，$[\text{CH}_3\text{COO}^-] \approx 0.05 - x \approx 0.05$
+
+步骤5：$K_h = \dfrac{x^2}{0.05} = 5.56 \times 10^{-10}$，$x^2 = 2.78 \times 10^{-11}$，$x \approx 5.27 \times 10^{-6}\,\text{mol/L}$
+
+步骤6：$[\text{OH}^-] \approx 5.27 \times 10^{-6}\,\text{mol/L}$，$\text{pOH} \approx 5.28$，$\text{pH} \approx 8.72$
+
+**答案：** 混合后溶液的 $\text{pH}$ 约为 $8.72$
+
+**考试技巧：** 强碱弱酸盐溶液的 $\text{pH}$ 计算，先求水解常数，再利用近似计算求 $[\text{OH}^-]$，最后求 $\text{pH}$。

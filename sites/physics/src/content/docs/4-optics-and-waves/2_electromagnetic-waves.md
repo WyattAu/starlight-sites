@@ -263,3 +263,14 @@ m$^{-1}$.
 Total internal reflection occurs when light tries to pass from a denser medium to a less dense medium at too steep an angle. Instead of refracting, the light bounces back completely, with an evanescent wave that decays exponentially into the less dense medium. This evanescent field is real but carries no net energy away from the interface. The critical angle depends only on the ratio of refractive indices. This principle underpins fiber optic communication, where light is trapped inside a glass core by repeated total internal reflections, traveling long distances with minimal loss. The penetration depth of the evanescent wave can be tuned by changing the angle of incidence.
 
 </aside>
+
+## Common Mistakes
+
+**Mistake 1: Forgetting that frequency is conserved when light crosses a boundary**
+When light passes from one medium to another, the frequency remains constant while the wavelength and speed change. Students often mistakenly assume the wavelength is conserved, leading to incorrect calculations of refraction. The correct approach is $v = c/n$, $\lambda_n = \lambda_0/n$, with $f = c/\lambda_0$ unchanged across the boundary.
+
+**Mistake 2: Confusing amplitude coefficients with energy coefficients in Fresnel equations**
+The Fresnel coefficients $r$ and $t$ are amplitude ratios, while $R = |r|^2$ and $T = (n_2\cos\theta_t/n_1\cos\theta_i)|t|^2$ are energy fractions. Students frequently use $R = r^2$ instead of $R = |r|^2$ (which matters when $r$ is negative, indicating a phase shift) and forget the cos factor in the transmittance formula.
+
+**Mistake 3: Assuming $|\mathbf{E}| = c|\mathbf{B}|$ implies $\mathbf{E}$ and $\mathbf{B}$ have the same units**
+The relation $E = cB$ is in SI units, where $E$ is in V/m and $B$ is in tesla. The numerical values differ by a factor of $c \approx 3 \times 10^8$. In Gaussian units, $E = B$ numerically. Students sometimes forget this distinction when comparing results from different unit systems.

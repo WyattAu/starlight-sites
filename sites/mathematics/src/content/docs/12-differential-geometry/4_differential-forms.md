@@ -126,6 +126,17 @@ Integration of an $n$-form over an oriented manifold is independent of the choic
 
 ### 4.10 Vector Calculus and Differential Forms
 
+## Common Mistakes
+
+**Mistake 1: Forgetting the sign rule in the wedge product**
+The wedge product is anti-commutative: $\alpha \wedge \beta = (-1)^{k\ell} \beta \wedge \alpha$ for a $k$-form and an $\ell$-form. Students often write $\alpha \wedge \beta = \beta \wedge \alpha$ or forget the sign entirely. For 1-forms, $dx \wedge dy = -dy \wedge dx$, so $dx \wedge dx = 0$.
+
+**Mistake 2: Applying the exterior derivative incorrectly to products**
+The product rule for the exterior derivative is $d(\alpha \wedge \beta) = d\alpha \wedge \beta + (-1)^{\deg(\alpha)} \alpha \wedge d\beta$. The sign factor $(-1)^{\deg(\alpha)}$ is frequently omitted. Forgetting it leads to incorrect computations of $d$ of higher-degree forms.
+
+**Mistake 3: Assuming $d^2 = 0$ means every closed form is exact on any manifold**
+The Poincare lemma guarantees that closed forms are exact only on contractible (or star-shaped) domains. On manifolds with nontrivial topology like $S^1$ or $S^2$, there exist closed forms that are not exact. For example, the angular form $d\theta$ on $S^1$ is closed but not exact.
+
 ## Intuition
 
 Differential forms are the natural objects to integrate on manifolds. A 0-form is a function, a 1-form is something you integrate along a curve (like work done by a force), a 2-form is something you integrate over a surface (like flux), and a 3-form is something you integrate over a volume. The exterior derivative $d$ increases the degree by one and encodes differentiation: $df$ is the gradient, $d$ of a 1-form is the curl, and $d$ of a 2-form is the divergence. The fundamental identity $d^2 = 0$ unifies the vector calculus identities $\nabla \times \nabla f = 0$ and $\nabla \cdot (\nabla \times \mathbf{F}) = 0$. Stokes' theorem generalises the fundamental theorem of calculus to manifolds.
@@ -145,4 +156,10 @@ Under these identifications:
 - $d\omega \leftrightarrow \nabla \cdot \mathbf{F}$ (divergence) for a $2$-form $\omega$
 
 The identity $d^2 = 0$ becomes $\nabla \times (\nabla f) = 0$ and $\nabla \cdot (\nabla \times \mathbf{F}) = 0$.
+
+## Cross-References
+
+- **[Smooth Manifolds](1_smooth-manifolds.md)**: Differential forms are defined on smooth manifolds and require the smooth structure for their construction.
+- **[Riemannian Geometry](5_riemannian-geometry.md)**: The Hodge star operator on differential forms uses the Riemannian metric to relate $k$-forms to $(n-k)$-forms.
+- **[Curvature](7_curvature.md)**: The curvature tensor can be expressed using differential forms and the exterior derivative.
 

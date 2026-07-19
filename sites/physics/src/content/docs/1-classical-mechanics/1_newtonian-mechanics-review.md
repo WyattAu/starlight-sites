@@ -339,3 +339,9 @@ Kinetic friction opposes the direction of motion relative to the surface, not th
 
 **Mistake 3: Forgetting that Newton's third law pairs act on different objects**
 The action-reaction pair in Newton's third law always acts on different objects. If object A exerts a force on object B, then object B exerts an equal and opposite force on object A. These forces do not cancel because they act on different bodies. A frequent mistake is adding action-reaction forces together and concluding the net force is zero.
+
+## Cross-References
+
+- **[The Laws of Thermodynamics](../2-thermal-physics/1_the-laws-of-thermodynamics.md)**: The first law of thermodynamics extends conservation of energy to include heat transfer, building on mechanical energy conservation.
+- **[Statistical Mechanics](../2-thermal-physics/2_statistical-mechanics.md)**: Statistical mechanics provides the microscopic foundation for thermodynamic laws by averaging over particle dynamics.
+- **[Maxwell's Equations](../3-electromagnetism/1_maxwell-s-equations.md)**: Electromagnetic forces between charged particles are described by Maxwell's equations, extending Newtonian mechanics to electrodynamics.

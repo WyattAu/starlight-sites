@@ -207,7 +207,16 @@ De Broglie relation $\lambda = h/p$ was subsequently confirmed for neutrons, ato
 Wavelength of molecules exceeding 25,000 atomic mass units was demonstrated, pushing the boundary Of
 quantum mechanics to the macroscopic regime.
 
-## Intuition
+## Common Mistakes
+
+**Mistake 1: Thinking the photoelectric effect proves light is "just particles"**
+The photoelectric effect demonstrates that light energy is quantised in photons, but it does not mean light is exclusively a particle. Wave-particle duality means light exhibits both wave and particle properties depending on the experiment. Diffraction and interference confirm the wave nature, while the photoelectric effect and Compton scattering confirm quantisation.
+
+**Mistake 2: Assuming higher light intensity increases the maximum kinetic energy of photoelectrons**
+Intensity determines the number of photons per unit time, hence the photocurrent, but each photon still carries energy $h\nu$. Increasing intensity above threshold produces more photoelectrons, each with the same maximum kinetic energy $K_{\max} = h\nu - \phi$. Only increasing the frequency $\nu$ increases $K_{\max}$.
+
+**Mistake 3: Confusing the Compton wavelength with the de Broglie wavelength**
+The Compton wavelength $\lambda_C = h/(m_e c)$ characterises the wavelength shift in Compton scattering and depends on the electron mass. The de Broglie wavelength $\lambda = h/p$ describes the wave nature of any massive particle and depends on the particle's momentum. These are fundamentally different quantities despite their similar form.
 
 Quantum mechanics emerged because classical physics kept hitting walls. Imagine predicting that a toaster should emit infinite energy or that an electron should spiral into the nucleus in a fraction of a second. These were not small errors but fundamental breakdowns. The key insight was that nature is granular at the smallest scales. Light comes in packets called photons, each carrying a fixed amount of energy proportional to its frequency, like musical notes rather than a continuous slide whistle. The photoelectric effect showed that light behaves like a stream of tiny bullets when it hits electrons. Compton scattering proved these bullets carry momentum. And the Davisson-Germer experiment revealed that electrons, the quintessential particles, also create diffraction patterns like waves. Nature does not choose between wave and particle: it is both, depending on how you look.
 

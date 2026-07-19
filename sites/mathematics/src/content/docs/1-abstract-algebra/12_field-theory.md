@@ -168,3 +168,9 @@ An element $\alpha$ is algebraic over $F$ if and only if $[F(\alpha) : F] < \inf
 **Mistake 3: Forgetting that finite fields have characteristic $p$**
 Every finite field has order $p^n$ for some prime $p$ and integer $n \geq 1$. Students sometimes attempt to construct a finite field of order $6$ or $10$, which is impossible since these are not prime powers. The characteristic of any finite field is prime, and the multiplicative group is cyclic.
 
+## Cross-References
+
+- **[Rings](8_rings.md)**: Fields are special commutative rings where every nonzero element is a unit.
+- **[Ideals and Quotient Rings](9_ideals-and-quotient-rings.md)**: Quotienting a polynomial ring by an irreducible ideal yields a field, the fundamental construction of field extensions.
+- **[Number Theory](../../number-theory.md)**: Number theory uses finite fields and field extensions in the study of Diophantine equations and cryptography.
+

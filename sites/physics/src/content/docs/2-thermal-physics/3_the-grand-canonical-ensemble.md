@@ -137,6 +137,12 @@ where $+$ is for fermions (Fermi-Dirac) and $-$ is for bosons (Bose-Einstein). T
 - **The fugacity $z = e^{\beta\mu}$ parameterises particle number:** The grand partition function is a power series in $z$, where each coefficient encodes the thermodynamics of the $N$-particle sector.
 - **Ideal gas statistics emerge:** The grand canonical treatment of the ideal gas reproduces the canonical results ($\langle E \rangle = \frac{3}{2}Nk_BT$, $PV = Nk_BT$) without the need to compute $N$-particle partition functions.
 
+## Cross-References
+
+- **[Statistical Mechanics](2_statistical-mechanics.md)**: The canonical ensemble fixes particle number and derives thermodynamics from the partition function $Z$.
+- **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature.md)**: The Sommerfeld expansion describes how Fermi-Dirac statistics modify the ideal gas at low temperatures.
+- **[Bose-Einstein Condensation](5_bose-einstein-condensation.md)**: Bose-Einstein condensation arises from Bose statistics in the grand canonical ensemble when $\mu$ approaches the ground state energy.
+
 ## Applications
 
 - **Adsorption and surface science:** The grand canonical ensemble describes gas molecules adsorbing on a surface, where the number of adsorbed particles fluctuates as the system exchanges molecules with the gas phase.

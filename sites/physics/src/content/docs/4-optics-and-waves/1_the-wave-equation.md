@@ -294,3 +294,9 @@ A standing wave is a superposition of two counter-propagating waves of equal amp
 
 **Mistake 3: Misapplying superposition to non-linear media**
 The superposition principle applies only to linear media. In non-linear optics (e.g., high-intensity lasers in certain crystals), waves interact and the total field is not simply the sum of individual fields. The wave equation itself is derived from Maxwell's equations, which are linear in vacuum, but material responses can introduce non-linearity.
+
+## Cross-References
+
+- **[Maxwell's Equations](../3-electromagnetism/1_maxwell-s-equations.md)**: The electromagnetic wave equation is derived from Maxwell's equations in free space by taking curls of Faraday's and Ampere-Maxwell's laws.
+- **[Electrodynamics](../3-electromagnetism/4_electrodynamics.md)**: Electrodynamics provides the foundation for understanding how changing electric and magnetic fields propagate as waves.
+- **[Interference](3_interference.md)**: The superposition of wave solutions to the wave equation produces interference patterns used in Young's double slit and Fabry-Perot interferometers.

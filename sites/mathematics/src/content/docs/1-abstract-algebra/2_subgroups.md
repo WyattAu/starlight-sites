@@ -153,3 +153,9 @@ When proving a subset is a subgroup, explicitly verify that the identity element
 **Mistake 3: Confusing quotient groups with cosets**
 A coset $gH$ is a set of elements, not a group (unless $H$ is normal). The quotient group $G/H$ consists of cosets as elements, but its group operation is only well-defined when $H \trianglelefteq G$. Never assume a set of cosets forms a group without first verifying normality of $H$.
 
+## Cross-References
+
+- **[Groups](1_groups.md)**: Every subgroup is itself a group under the inherited operation.
+- **[Lagrange's Theorem](3_lagrange-s-theorem.md)**: Lagrange's theorem shows the order of a subgroup divides the order of the group.
+- **[Normal Subgroups and Quotient Groups](4_normal-subgroups-and-quotient-groups.md)**: Normal subgroups are those for which the quotient group construction is well-defined.
+

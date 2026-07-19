@@ -115,6 +115,12 @@ $\blacksquare$
 - **White dwarf cooling:** Degenerate electron gas thermodynamics determines the heat capacity and cooling rate of white dwarfs, with $T_F \sim 10^8$ K.
 - **Heavy fermion systems:** Materials with strongly renormalised effective masses show an enhanced Sommerfeld coefficient $\gamma = C_V/T$, signalling strong correlations.
 
+## Cross-References
+
+- **[Statistical Mechanics](2_statistical-mechanics.md)**: The Fermi gas is built on the Fermi-Dirac distribution derived from quantum statistical mechanics.
+- **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: Fermi-Dirac statistics emerge naturally from the grand canonical ensemble for non-interacting fermions.
+- **[Bose-Einstein Condensation](5_bose-einstein-condensation.md)**: Bose-Einstein condensation contrasts with Fermi gas behaviour, showing how quantum statistics determine low-temperature properties.
+
 ### 4.8 Worked Example: Sommerfeld Correction to the Electron Density
 
 **Problem.** For a 3D free electron gas at $T = 100$ K with $\varepsilon_F = 5$ eV, compute the fractional change in the chemical potential $\mu(T)$ relative to $\varepsilon_F$.
