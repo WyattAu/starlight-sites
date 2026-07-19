@@ -1135,3 +1135,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Python's standard library is "batteries included": it ships with modules for almost everything. `os` and `sys` interact with the operating system, `pathlib` handles file paths in a cross-platform way, `json` and `csv` parse common data formats, and `logging` provides structured output. The key insight is to check the standard library before reaching for a third-party package. Most common tasks, from email parsing to HTTP requests to regular expressions, are already built in.
+
+## Cross-References
+
+- [File I/O](/python/05-standard-library/02-file-io)
+- [CLI Tools](/python/05-standard-library/03-cli-tools)
+- [Modules and Packages](/python/02-fundamentals/06-modules-and-packages)

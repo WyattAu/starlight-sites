@@ -2227,3 +2227,8 @@ $\blacksquare$
 - PFK is the key regulatory enzyme of glycolysis, inhibited by ATP and citrate, activated by AMP.
 
 </aside>
+## Cross-References
+
+- [Biology](/alevel/biology)
+- [Cells](/alevel/biology/cells)
+- [Genetics and DNA](/alevel/biology/genetics-and-dna)

@@ -937,3 +937,9 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Layer 2 and Ethernet](/networking/08-layer2/layer2-and-ethernet) - How wireless framing relates to Ethernet and MAC address concepts
+- [HTTP](/networking/05-http-https/http) - How wireless networks carry HTTP traffic and affect web performance
+- [Network Tools](/networking/07-network-tools/network-tools) - Tools for diagnosing wireless connectivity and signal strength issues

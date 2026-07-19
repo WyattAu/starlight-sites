@@ -613,3 +613,17 @@ for item in items {
 **Solution:** The `Printable` protocol defines a contract with `title`, `content`, and `formatted()`. The extension provides a default implementation of `formatted()`, so conforming types get it for free. Both `Article` and `Note` adopt the protocol without sharing a base class.
 
 **Explanation:** Protocol-oriented programming in Swift favors composition over inheritance. Protocols define behavior contracts, extensions provide default implementations, and value types conform to protocols without class hierarchy constraints. The `any Printable` existential type allows heterogeneous collections while maintaining type safety.
+
+## Common Mistakes
+
+**Force unwrapping optionals with `!` instead of handling them safely.** Force unwrapping crashes the program if the optional is `nil`. Always use optional binding (`if let`, `guard let`), nil coalescing (`??`), or optional chaining (`?.`) to handle optionals safely. Force unwrap should only be used when you are absolutely certain the value exists.
+
+**Confusing value types (structs) with reference types (classes).** Structs are copied on assignment, while classes are shared by reference. Modifying a copy of a struct does not affect the original, but modifying an object through one class reference changes it for all references. This leads to unexpected behaviour when the wrong type is chosen.
+
+**Not handling errors with `try`.** Every throwing function call must be preceded by `try`, `try?`, or `try!`. Forgetting `try` causes a compilation error. Using `try?` silently converts errors to `nil`, which may hide bugs. Use `do/catch` for proper error handling when the error reason matters.
+
+## Cross-References
+
+- [Variables and Types](/swift/01-basics/1_variables-and-types) - Swift's type inference system and optionals that underpin safe coding
+- [Functions](/swift/02-functions-closures/1_functions) - How closures and function types enable functional programming patterns
+- [Classes and Structs](/swift/03-oop/1_classes-and-structs) - Swift's value and reference type system for object-oriented design

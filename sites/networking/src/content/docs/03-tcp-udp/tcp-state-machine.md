@@ -820,3 +820,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+The TCP state machine is the lifecycle of a TCP connection. Think of it as a phone call: you dial (SYN), the other person answers (SYN-ACK), you confirm (ACK), you talk (ESTABLISHED), one party hangs up (FIN), the other acknowledges (ACK), and both sides close (TIME-WAIT). Each state represents where the connection is in this process. Understanding the state machine is essential for debugging connection issues: a connection stuck in SYN-SENT means the server is unreachable, while TIME-WAIT is normal cleanup.
+
+## Cross-References
+
+- [TCP and UDP](/networking/03-tcp-udp/tcp-and-udp)
+- [UDP Deep Dive](/networking/03-tcp-udp/udp-deep-dive)
+- [Network Tools](/networking/07-network-tools/network-tools)

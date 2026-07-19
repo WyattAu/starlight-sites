@@ -660,3 +660,13 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Object layout determines how class members are arranged in memory. The compiler may reorder members for alignment, add padding to prevent misaligned access, and insert a vptr (virtual pointer) for polymorphic classes. Think of it as packing a suitcase: items are arranged for efficiency, with gaps where needed. The vptr points to a vtable (virtual table) that stores function pointers for dynamic dispatch. Understanding layout is essential for performance tuning and FFI.
+
+## Cross-References
+
+- [Access Control](/cpp/object_oriented/1_class_design/2_access_control)
+- [Special Member Functions](/cpp/object_oriented/1_class_design/3_special_member_functions)
+- [VTables](/cpp/object_oriented/2_runtime_polymorphism/1_vtables)
+

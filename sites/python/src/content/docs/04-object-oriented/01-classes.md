@@ -1052,3 +1052,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Python's OOP is duck-typed: if a quacks like a duck, it is a duck. You do not need to declare interfaces; any object that implements the right methods can be used. Classes define blueprints, instances are the objects built from them. `self` is just the instance, passed explicitly (unlike `this` in Java). Dataclasses eliminate boilerplate: add `@dataclass` and get `__init__`, `__repr__`, and `__eq__` for free. Inheritance exists but composition is preferred: "has-a" relationships are more flexible than "is-a" relationships.
+
+## Cross-References
+
+- [Metaclasses](/python/04-object-oriented/02-metaclasses)
+- [Descriptors](/python/04-object-oriented/03-descriptors)
+- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods)

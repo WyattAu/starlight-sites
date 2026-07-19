@@ -165,3 +165,11 @@ $$2\text{C}_6\text{H}_5\text{OH} + 2\text{Na} \rightarrow 2\text{C}_6\text{H}_5\
 6. Dehydration follows Saytzeff's rule: the more substituted alkene is the major product.
 7. Tertiary alcohols dehydrate most easily (most stable carbocation); primary alcohols require harsher conditions.
 8. Remember the Lucas test: tertiary alcohols react immediately, secondary within 5 minutes, primary do not react at room temperature.
+
+## Common Mistakes
+
+**Confusing the acidity order of alcohols, water, and phenols.** Many students assume alcohols are more acidic than water because the -OH group is present in both. In reality, water (pKa = 15.7) is slightly more acidic than most simple alcohols (pKa = 16-18) because the ethoxide ion is destabilised by the electron-donating alkyl group, making the conjugate base less stable.
+
+**Using a tertiary alkyl halide in Williamson synthesis.** Williamson synthesis requires a primary (or methyl) alkyl halide to favour SN2 substitution over E2 elimination. When a tertiary halide reacts with a strong base like alkoxide, elimination dominates and no ether is formed. Always pair a primary halide with the alkoxide for successful ether synthesis.
+
+**Assuming phenol reacts with sodium bicarbonate.** Phenol (pKa = 10) is a weaker acid than carbonic acid (pKa = 6.4), so it cannot displace CO2 from NaHCO3. Only carboxylic acids (pKa = 4-5) are acidic enough to react with sodium bicarbonate. This is a reliable test to distinguish phenols from carboxylic acids.

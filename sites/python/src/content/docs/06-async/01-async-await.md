@@ -1012,3 +1012,13 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 | push(8)   | [8, 5]               | —      |
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |
+
+## Intuition
+
+Async/await is Python's way of handling concurrency without threads. An async function (coroutine) can pause execution and yield control back to the event loop, which then runs other tasks. Think of it as a chef juggling multiple dishes: instead of waiting for one dish to cook, the chef prepares other dishes and comes back when the first one needs attention. `await` is the pause point: it tells the event loop "I am waiting for something, run other tasks while you wait." This is ideal for I/O-bound work like web servers and API clients.
+
+## Cross-References
+
+- [Concurrency Primitives](/python/05-standard-library/05-concurrency-primitives)
+- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators)
+- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns)

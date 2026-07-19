@@ -861,3 +861,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+## Intuition
+
+Context managers are Python's way of ensuring cleanup happens. The `with` statement guarantees that resources are released when the block exits, even if an exception occurs. Think of a context manager as a hotel check-in/check-out: you get the room (resource acquisition) on entry and return the key (cleanup) on exit. The `@contextmanager` decorator lets you write context managers as generators, making them easy to create for custom resources like database connections or temporary files.
+
+## Cross-References
+
+- [File I/O](/python/05-standard-library/02-file-io)
+- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns)
+- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods)

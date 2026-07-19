@@ -130,3 +130,13 @@ string. Then $D$ is not in the list — contradiction. This technique reappears 
 - **Complexity theory:** Understanding which problems are decidable guides the search for efficient algorithms.
 - **Cryptography:** Security proofs rely on hardness assumptions tied to complexity classes (e.g., NP-hardness).
 
+## Intuition
+
+Theory of computation asks: what can computers do, and how efficiently? The hierarchy of languages (regular, context-free, decidable, recognisable) defines the limits of computation. Think of it as a power ladder: finite automata can recognise patterns, pushdown automata can match nested structures, and Turing machines can compute anything computable. The halting problem shows that some questions are fundamentally unanswerable. Complexity theory (P vs NP) asks which problems are efficiently solvable, which is the most important open question in computer science.
+
+## Cross-References
+
+- [Regular Languages](/computer-science/6-theory-of-computation/2_regular-languages)
+- [Context-Free Languages](/computer-science/6-theory-of-computation/3_context-free-languages)
+- [Turing Machines](/computer-science/6-theory-of-computation/4_turing-machines)
+

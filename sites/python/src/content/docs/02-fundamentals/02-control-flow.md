@@ -1049,3 +1049,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Python's control flow is built on the idea that code should read like prose. `if`/`elif`/`else` chains read naturally, and `for` loops iterate over any iterable (lists, strings, ranges, generators). List comprehensions are the Pythonic way to transform data: `[x*2 for x in items if x > 0]` reads as "double each item if it is positive." The `else` clause on loops is a unique feature: it runs only if the loop completes without a `break`, making it useful for search patterns.
+
+## Cross-References
+
+- [Types and Variables](/python/02-fundamentals/01-types-and-variables)
+- [Functions](/python/02-fundamentals/03-functions)
+- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators)

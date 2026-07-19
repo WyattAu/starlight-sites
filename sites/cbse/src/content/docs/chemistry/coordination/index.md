@@ -95,3 +95,11 @@ Coordination compounds are used in analytical chemistry (complexometric titratio
 - Paramagnetism: unpaired electrons attract to magnetic field
 - Isomerism: linkage (ambidentate ligands), geometrical (cis/trans), optical (chirality)
 - Spectrochemical series determines the magnitude of d-orbital splitting
+
+## Common Mistakes
+
+**Forgetting alphabetical order of ligands in IUPAC naming.** Ligands must be listed in alphabetical order, not by charge or size. For example, ammine (NH3) comes before chloro (Cl) because 'a' precedes 'c'. Prefixes like di-, tri- do not affect alphabetical ordering, so diamminodichlorido is correct.
+
+**Using high-spin filling for strong-field ligands.** Strong-field ligands like CN- and CO cause large d-orbital splitting, forcing electrons to pair in lower orbitals before occupying higher ones (low-spin configuration). Students often apply the Aufbau principle without considering the ligand field strength, leading to incorrect electron configurations and magnetic moments.
+
+**Confusing linkage isomerism with geometrical isomerism.** Linkage isomerism occurs when an ambidentate ligand (like NO2- or SCN-) bonds through different atoms. Geometrical isomerism involves different spatial arrangements (cis/trans) of ligands around the metal. These are fundamentally different types of isomerism with different causes.

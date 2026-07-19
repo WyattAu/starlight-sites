@@ -609,3 +609,9 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Types and Annotations](/typescript/types-and-annotations) - How function signatures use type annotations for parameter and return types
+- [Generics](/typescript/generics) - How generic functions enable type-safe reusable utilities
+- [Advanced Types](/typescript/advanced-types) - How conditional types and infer extend function type manipulation

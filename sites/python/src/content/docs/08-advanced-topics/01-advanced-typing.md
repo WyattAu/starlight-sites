@@ -1239,3 +1239,13 @@ $\blacksquare$
   callable generics.
 - `TypeGuard` and `TypeIs` narrow types in conditional branches for the type checker.
 - `dataclass_transform` decorates functions that create dataclass-like classes from type hints.
+
+## Intuition
+
+Advanced typing in Python adds compile-time safety to a dynamically typed language. Type hints do not affect runtime behaviour but enable tools like `mypy` and `pyright` to catch bugs before they reach production. `Protocol` enables structural subtyping: any object with the right methods satisfies the protocol, regardless of class hierarchy. `TypeVar` creates generic types, and `overload` lets you specify different return types based on input types. Think of type hints as documentation that the compiler can verify.
+
+## Cross-References
+
+- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods)
+- [Data Validation](/python/08-advanced-topics/02-data-validation)
+- [Classes](/python/04-object-oriented/01-classes)

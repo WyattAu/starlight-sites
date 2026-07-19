@@ -1269,3 +1269,9 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [HTTP](/networking/05-http-https/http) - How HTTP underlies many application protocols including REST APIs and web-based email
+- [TLS](/networking/06-tls/tls) - How TLS secures email and application protocol transmissions
+- [DNS](/networking/07-network-tools/network-tools) - How DNS resolution supports email MX records and application service discovery

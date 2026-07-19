@@ -330,3 +330,9 @@ $$\begin{array}{lccc}
 **答案：** 混合后溶液的 $\text{pH}$ 约为 $8.72$
 
 **考试技巧：** 强碱弱酸盐溶液的 $\text{pH}$ 计算，先求水解常数，再利用近似计算求 $[\text{OH}^-]$，最后求 $\text{pH}$。
+
+## Cross-References
+
+- [Organic Chemistry](/gaokao/chemistry/organic) - Organic reaction types and functional group conversions that complement inorganic principles
+- [Functions](/gaokao/mathematics/functions) - How equilibrium constants and rate equations use function concepts
+- [Algebra](/gaokao/mathematics/algebra) - Algebraic manipulation skills needed for stoichiometry and concentration calculations

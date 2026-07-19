@@ -942,3 +942,8 @@ Mastery of these concepts requires both theoretical understanding and the abilit
 to unfamiliar contexts, particularly in calculation and practical questions.
 
 </aside>
+## Cross-References
+
+- [Chemistry](/alevel/chemistry)
+- [Atomic Structure](/alevel/chemistry/atomic-structure)
+- [Organic Chemistry](/alevel/chemistry/organic-chemistry)

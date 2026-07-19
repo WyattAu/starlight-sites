@@ -318,3 +318,11 @@ $$\Delta x' = \Delta x \cdot \frac{\lambda'}{\lambda} = 2 \times \frac{700}{500}
 **答案：** 旋转后的光强为 $\dfrac{3I_0}{8}$
 
 **考试技巧：** 马吕斯定律：$I = I_0 \cos^2\theta$，其中 $\theta$ 是两偏振片透振方向的夹角。
+
+## Common Mistakes
+
+**Confusing the mirror formula with the lens formula.** For mirrors, 1/f = 1/v + 1/u. For lenses, 1/f = 1/v - 1/u. Students often use the mirror formula for lenses or vice versa, leading to incorrect sign conventions and wrong focal length calculations.
+
+**Forgetting sign conventions in geometric optics.** The sign convention determines whether distances and image sizes are positive or negative. For mirrors, distances in front are positive. For lenses, distances on the opposite side of the incoming light are positive. Mixing conventions gives wrong answers.
+
+**Confusing total internal reflection conditions.** Total internal reflection occurs when light travels from a denser medium to a rarer medium AND the angle of incidence exceeds the critical angle. Students often forget one of these conditions, incorrectly predicting total internal reflection when it does not occur.

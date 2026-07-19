@@ -273,3 +273,9 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Cross-References
+
+- [CPU Fundamentals](/tuning/01-cpu-tuning/cpu-fundamentals) - Core concepts of CPU architecture and performance tuning
+- [Undervolting and Overclocking](/tuning/undervolting-and-overclocking) - Techniques for optimizing voltage and frequency
+- [PSU and BIOS Guide](/tuning/psu-and-bios-guide) - Foundational knowledge for BIOS configuration and power management

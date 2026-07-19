@@ -931,3 +931,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+## Intuition
+
+Serialization is converting objects to bytes or strings for storage or transmission. `json` is the universal format for web APIs, `pickle` serialises arbitrary Python objects (but never unpickle untrusted data), and `csv` handles tabular data. `dataclasses.asdict()` converts dataclasses to dictionaries, making JSON serialisation trivial. The key trade-off is between human readability (JSON, CSV) and Python-specific capability (pickle, marshal).
+
+## Cross-References
+
+- [Standard Library Essentials](/python/05-standard-library/01-essential-modules)
+- [Data Validation](/python/08-advanced-topics/02-data-validation)
+- [File I/O](/python/05-standard-library/02-file-io)

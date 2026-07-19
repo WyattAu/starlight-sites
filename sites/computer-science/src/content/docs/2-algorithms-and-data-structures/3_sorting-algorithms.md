@@ -250,3 +250,13 @@ and cannot sort arbitrary objects.
 
 
 </aside>
+
+## Intuition
+
+Sorting is arranging data in a specific order. It is one of the most studied problems in computer science because so many other problems reduce to sorting. Comparison-based sorts (merge sort, quicksort) cannot do better than O(n log n) in the worst case, because each comparison eliminates only one possibility. Non-comparison sorts (counting sort, radix sort) can achieve O(n) but only work on specific data types. The choice of algorithm depends on your data: nearly sorted data favours insertion sort, random data favours quicksort, and guaranteed O(n log n) favours merge sort.
+
+## Cross-References
+
+- [Algorithm Analysis](/computer-science/2-algorithms-and-data-structures/1_algorithm_analysis)
+- [Data Structures](/computer-science/2-algorithms-and-data-structures/2_fundamental-data-structures)
+- [Dynamic Programming](/computer-science/2-algorithms-and-data-structures/5_dynamic-programming)

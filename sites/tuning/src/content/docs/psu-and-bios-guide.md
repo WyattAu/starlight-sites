@@ -1329,3 +1329,8 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+## Cross-References
+
+- [Undervolting and Overclocking](/tuning/undervolting-and-overclocking) - How BIOS settings control voltage regulation and power delivery
+- [Cooling](/tuning/05-cooling-systems/cooling) - How fan headers and power connectors support cooling infrastructure
+- [CPU Fundamentals](/tuning/01-cpu-tuning/cpu-fundamentals) - How BIOS overclocking settings affect CPU power consumption

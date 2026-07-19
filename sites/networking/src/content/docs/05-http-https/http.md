@@ -923,3 +923,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+HTTP is the request-response protocol that powers the web. A client sends a request (GET, POST, etc.) and the server returns a response (status code + body). Think of it as ordering at a restaurant: you choose from the menu (method), specify your order (URL + headers), and the server delivers your meal (response body). Status codes tell you what happened: 200 means success, 404 means not found, 500 means server error. HTTP is stateless: each request is independent, so cookies and sessions add state when needed.
+
+## Cross-References
+
+- [HTTP/2 and HTTP/3](/networking/05-http-https/http-2-and-3) - Evolution of HTTP with multiplexing, header compression, and QUIC
+- [TLS](/networking/06-tls/tls) - How HTTPS adds transport-layer encryption to HTTP
+- [WebSockets](/networking/05-http-https/websockets) - How WebSockets upgrade from HTTP for full-duplex communication

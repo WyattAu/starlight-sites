@@ -177,3 +177,13 @@ kotlin {
   different concurrency model, different performance profile.
 - \*\* Using `kotlinc` directly for production builds. Always use Gradle or Maven for dependency
   management, incremental compilation, and reproducible builds.
+
+## Intuition
+
+Kotlin is the language that modernised the JVM. It runs on the JVM but adds null safety, coroutines, data classes, and extension functions. Null safety is the killer feature: the type system distinguishes between nullable and non-nullable types, eliminating NullPointerException at compile time. Coroutines provide asynchronous programming without callback hell. Kotlin is fully interoperable with Java: you can call Java code from Kotlin and vice versa. It is the preferred language for Android development and is gaining traction on the server side.
+
+## Cross-References
+
+- [Types and Variables](/languages/kotlin/basics/types-and-variables)
+- [Classes and Objects](/languages/kotlin/basics/classes-and-objects)
+- [Coroutines](/languages/kotlin/intermediate/coroutines)

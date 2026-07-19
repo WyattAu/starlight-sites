@@ -387,3 +387,9 @@ Li Hua
 "Tom opened his eyes, stunned by the response. Tears welled up as he stood to bow, his trembling hands now steady with relief and joy. After the show, his music teacher approached him with a warm smile. 'You didn't just play the piano tonight, Tom. You shared your heart with everyone here.' From that day forward, Tom no longer feared the stage. He had discovered that courage was not the absence of fear, but the determination to move forward despite it."
 
 **考试技巧：** 续写中的情感描写要自然真实，通过动作、语言、心理活动等多种方式展现人物情感变化。
+
+## Cross-References
+
+- [English Reading](/gaokao/english/reading) - Reading comprehension strategies that inform effective writing structure
+- [Chinese Writing](/gaokao/chinese/writing) - Cross-language essay writing techniques for narrative and argumentative styles
+- [Organic Chemistry](/gaokao/chemistry/organic) - Analytical thinking from chemistry problems that supports structured essay argumentation

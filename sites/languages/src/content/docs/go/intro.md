@@ -252,3 +252,13 @@ Version control and never edited manually.
 6. **Circular imports.** Go does not allow circular imports between packages. If A imports B and B
    imports A, the compiler rejects it. Restructure by extracting the shared code into a third
    package.
+
+## Intuition
+
+Go is the language of simplicity at scale. It was designed at Google to solve the problem of large codebases with many contributors: fast compilation, clear syntax, and built-in concurrency. Goroutines are lightweight threads managed by the Go runtime, and channels are the pipes that connect them. Go intentionally omits features like inheritance, generics (until 1.18), and exceptions, favouring composition, error values, and explicit error handling. The result is code that looks similar across teams and projects.
+
+## Cross-References
+
+- [Types and Variables](/languages/go/basics/types-and-variables)
+- [Goroutines](/languages/go/concurrency/goroutines)
+- [Channels](/languages/go/concurrency/channels)

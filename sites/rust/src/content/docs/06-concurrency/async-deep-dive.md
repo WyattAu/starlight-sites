@@ -930,3 +930,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Async Rust is like a restaurant with a single waiter who can handle many tables. Instead of blocking while each table orders, the waiter takes an order, moves to the next table, and comes back when the food is ready. Futures are the order tickets: they describe work that might not be done yet. The executor polls futures cooperatively, and when a future says "I am not ready," the executor moves on to another. This model is efficient for I/O-bound work: thousands of connections can be handled with just a few threads, because threads spend most of their time waiting.
+
+## Cross-References
+
+- [Concurrency](/rust/06-concurrency/concurrency)
+- [Channels and Message Passing](/rust/06-concurrency/channels-and-message-passing)
+- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership)

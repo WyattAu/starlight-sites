@@ -311,3 +311,9 @@ description: "高考 chinese: Writing"
 **答案：** 见写作提纲
 
 **常见错误：** 记叙文容易写成流水账。要注意细节描写、心理描写和环境描写，使文章生动感人。
+
+## Cross-References
+
+- [Chinese Reading](/gaokao/chinese/reading) - Reading analysis skills that inform effective essay structure and argumentation
+- [English Writing](/gaokao/english/writing) - Cross-language writing techniques for narrative and argumentative essays
+- [Algebra](/gaokao/mathematics/algebra) - Logical structuring skills that apply to essay organization and argumentation

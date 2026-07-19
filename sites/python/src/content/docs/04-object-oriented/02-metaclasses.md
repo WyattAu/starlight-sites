@@ -880,3 +880,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Metaclasses are classes of classes: just as a class defines how instances behave, a metaclass defines how classes behave. Think of a metaclass as a factory that produces factories. When you write `class Foo(metaclass=MyMeta)`, Python calls `MyMeta('Foo', bases, namespace)` to create the class. Use cases include enforcing coding standards, auto-registering classes, or modifying class attributes at creation time. Most Python code never needs metaclasses; decorators or `__init_subclass__` are simpler alternatives.
+
+## Cross-References
+
+- [Classes](/python/04-object-oriented/01-classes)
+- [Descriptors](/python/04-object-oriented/03-descriptors)
+- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods)

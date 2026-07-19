@@ -840,3 +840,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+The OSI model is a conceptual map of network communication: seven layers, each with a specific job. Layer 1 is the physical wire, Layer 2 handles local delivery (Ethernet), Layer 3 routes between networks (IP), Layer 4 ensures reliable transport (TCP), and Layers 5-7 handle sessions, presentation, and application. The TCP/IP model is the practical version: it collapses OSI layers 5-7 into one "Application" layer. Think of OSI as the organisational chart and TCP/IP as how the company actually operates.
+
+## Cross-References
+
+- [IP Addressing](/networking/02-ip-addressing/ip-addressing)
+- [TCP and UDP](/networking/03-tcp-udp/tcp-and-udp)
+- [DNS](/networking/04-dns/dns)

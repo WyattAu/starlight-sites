@@ -801,5 +801,21 @@ The "let it crash" philosophy, combined with supervision trees, provides a funda
 approach to reliability: instead of trying to prevent all failures, Elixir applications are
 structured to gracefully recover from them.
 
+## Common Mistakes
+
+**Expecting mutable state in Elixir.** All data in Elixir is immutable. When you "reassign" a variable, you create a new binding pointing to a new value, not modifying the original. Variables like `list` or `map` never change; operations return new data structures. This is fundamental to Elixir's concurrency model.
+
+**Confusing Erlang atoms with Ruby symbols.** While Elixir atoms look like Ruby symbols (`:hello`), they are not the same. Atoms are created at compile time and never garbage-collected, so creating atoms from user input can cause memory leaks. Use strings for dynamic data, atoms only for known identifiers.
+
+**Assuming process isolation means no communication.** Elixir processes are isolated in memory but communicate through asynchronous message passing using `send` and `receive`. Isolation prevents shared-memory bugs, but processes must explicitly send messages to interact. This is the actor model, not shared-nothing.
+
+## Cross-References
+
 In the next section, we will explore Elixir's basic data types and the pattern matching system that
 is central to the language.
+
+## Cross-References
+
+- [Basics and Pattern Matching](/elixir/01-basics/1_basics-and-pattern-matching) - Core data types and the pattern matching system that is central to Elixir
+- [Concurrency and OTP](/elixir/03-concurrency/1_concurrency-otp) - How BEAM processes and supervision trees deliver fault tolerance
+- [Functions and Modules](/elixir/02-functions-modules/1_functions-and-modules) - How modules and protocols organize Elixir applications

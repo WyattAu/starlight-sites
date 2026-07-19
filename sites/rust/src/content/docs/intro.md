@@ -146,3 +146,13 @@ Key changes in Rust 2024:
 
 - [Resource Management in C++](https://programming.wyattau.com/resource-management/) — C++ ownership and RAII compared to Rust's borrow checker.
 - [C++ Basics](https://programming.wyattau.com/1_enviroment_and_toolchain/1_cpp_basics/) — Fundamentals of C++ for readers transitioning from systems programming.
+
+## Intuition
+
+Rust is a systems programming language that gives you the control of C without the memory bugs. Think of it as a strict librarian: every piece of data has exactly one owner, and when that owner leaves the building, the data is cleaned up automatically. The compiler acts as a safety inspector, catching mistakes before your program ever runs. You write code that runs as fast as C, but the compiler guarantees no null pointer dereferences, no buffer overflows, and no data races. It feels restrictive at first, but once the borrow checker clicks, you realise it is preventing real bugs that would haunt you in production.
+
+## Cross-References
+
+- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership)
+- [Traits and Generics](/rust/05-traits-generics/traits-and-generics)
+- [Error Handling](/rust/04-error-handling/error-handling)

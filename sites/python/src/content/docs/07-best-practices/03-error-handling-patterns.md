@@ -855,3 +855,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+## Intuition
+
+Error handling in Python is about being specific and recoverable. `try`/`except` catches exceptions, `else` runs if no exception occurred, and `finally` always runs. The key rule is to catch the narrowest exception possible: `except ValueError` not `except Exception`. Raise exceptions that are meaningful to the caller, not low-level implementation details. The `logging.exception()` call in an except block automatically captures the traceback, which is essential for debugging.
+
+## Cross-References
+
+- [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms)
+- [Functions](/python/02-fundamentals/03-functions)

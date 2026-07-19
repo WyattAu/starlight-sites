@@ -1138,6 +1138,20 @@ debug &&= false  # debug => false
 debug &&= false  # debug is still false, no change
 
 # Ternary for computed defaults
-timeout = ENV.fetch("TIMEOUT", 30).to_i
-mode = ENV.key?("DEBUG") ? :debug : :production
+  timeout = ENV.fetch("TIMEOUT", 30).to_i
+  mode = ENV.key?("DEBUG") ? :debug : :production
 ```
+
+## Common Mistakes
+
+**Confusing `=` with `==` in conditional expressions.** Writing `if x = 5` assigns 5 to `x` and evaluates as truthy, rather than comparing `x` to 5. This is a silent bug that produces unexpected behaviour. Always use `==` for comparison in conditionals: `if x == 5`.
+
+**Not using blocks for iteration.** Ruby's iterator methods with blocks (`each`, `map`, `select`) create proper block scoping, while `for` loops leak the loop variable. Use `[1, 2, 3].each { |x| ... }` instead of `for x in [1, 2, 3]` to keep variables scoped correctly and write more idiomatic Ruby.
+
+**Forgetting that `unless` with `else` is confusing.** The `unless...else` construct reads unnaturally: "unless condition, do this, else do that." Most Ruby style guides recommend using `if` with the negated condition instead. `unless x` is fine, but `unless x; ...; else; ...; end` should be rewritten as `if x; ...; else; ...; end`.
+
+## Cross-References
+
+- [Variables and Types](/ruby/01-basics/1_variables-and-types) - How Ruby's truthy/falsy values affect conditional evaluation
+- [Methods and Blocks](/ruby/03-methods-blocks/1_methods-and-blocks) - How blocks and procs enable functional-style control flow patterns
+- [Metaprogramming](/ruby/05-advanced/1_metaprogramming) - How method_missing and eval can create custom control structures

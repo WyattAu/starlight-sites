@@ -1058,3 +1058,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Python's built-in collections are the workhorses of data manipulation. Lists are dynamic arrays: fast to append, slow to insert in the middle. Tuples are immutable lists: once created, they cannot change, which makes them hashable and useful as dictionary keys. Sets are unordered collections of unique elements, perfect for membership testing and deduplication. The `collections` module adds specialised containers: `defaultdict` eliminates key-existence checks, `Counter` tallies occurrences, and `deque` provides O(1) operations at both ends.
+
+## Cross-References
+
+- [Dicts, Sets, and Counter](/python/03-data-structures/02-dicts-sets-counter)
+- [Types and Variables](/python/02-fundamentals/01-types-and-variables)
+- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators)

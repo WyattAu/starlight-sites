@@ -853,3 +853,17 @@ Integer("abc")     # => ArgumentError
 | nil      | `nil`          | No      | Singleton NilClass                     |
 | true     | `true`         | No      | Singleton TrueClass                    |
 | false    | `false`        | No      | Singleton FalseClass                   |
+
+## Common Mistakes
+
+**Confusing `=` (assignment) with `==` (equality comparison).** In Ruby, `=` assigns a value to a variable, while `==` compares two values. Writing `if x = 5` performs assignment (always truthy), not comparison. Use `==` in conditionals: `if x == 5`. This is one of the most common bugs in Ruby code.
+
+**Not using blocks for iteration.** Ruby emphasises iterator methods with blocks (`each`, `map`, `select`) over manual `for` loops. Blocks create proper variable scoping, while `for` loops leak the loop variable into the enclosing scope. Prefer `[1, 2, 3].each { |x| ... }` over `for x in [1, 2, 3]`.
+
+**Forgetting that only `nil` and `false` are falsy.** In Ruby, `0`, `""`, `[]`, and `{}` are all truthy. This differs from JavaScript and Python where `0` and empty collections are falsy. Writing `if value` where `value` is `0` will execute the block, which may not be the intended behaviour.
+
+## Cross-References
+
+- [Control Flow](/ruby/02-control-flow/1_control-flow) - How conditionals and loops use Ruby's truthy/falsy evaluation
+- [Methods and Blocks](/ruby/03-methods-blocks/1_methods-and-blocks) - How blocks interact with method arguments and variable scope
+- [OOP](/ruby/04-oop/1_oop) - How every value in Ruby is an object with methods and class hierarchy

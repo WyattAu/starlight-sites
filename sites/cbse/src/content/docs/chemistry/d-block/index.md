@@ -91,3 +91,11 @@ Transition metals are essential for industrial catalysis (Haber process, catalyt
 - Catalysis: variable oxidation states enable redox cycling
 - Complex formation: CN$^-$, NH$_3$, H$_2$O as common ligands
 - Magnetic moment: $\mu = \sqrt{n(n+2)}$ BM where $n$ = unpaired electrons
+
+## Common Mistakes
+
+**Writing copper as [Ar] 3d9 4s2.** Copper has the anomalous configuration [Ar] 3d10 4s1 because a fully filled d-subshell is more stable than a partially filled one. Similarly, chromium is [Ar] 3d5 4s1, not [Ar] 3d4 4s2. These exceptions arise from the extra stability of half-filled and fully filled d-orbitals.
+
+**Assuming the catalyst is consumed in a reaction.** Catalysts provide an alternative reaction pathway with lower activation energy but are regenerated at the end. MnO2 in the decomposition of H2O2 cycles between Mn4+ and Mn6+ oxidation states but is recovered unchanged. A catalyst is not a reactant.
+
+**Confusing the colour origin in transition metal compounds.** The characteristic colours of transition metal ions arise from d-d electronic transitions, not from s or p electrons. When white light passes through a solution, certain wavelengths are absorbed to promote d electrons to higher energy levels, and the transmitted complementary colour is observed.

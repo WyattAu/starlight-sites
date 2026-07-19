@@ -861,3 +861,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Dicts are hash tables: they map keys to values with O(1) average lookup time. Think of a dict as a real dictionary: you look up a word (key) and find its definition (value). Sets are dict keys without values, optimised for membership testing. Counter is a dict subclass that counts hashable objects. The order-preserving nature of modern Python dicts (3.7+) means you can rely on insertion order, which was not guaranteed in earlier versions.
+
+## Cross-References
+
+- [Collections](/python/03-data-structures/01-collections)
+- [Types and Variables](/python/02-fundamentals/01-types-and-variables)
+- [Functions](/python/02-fundamentals/03-functions)
+

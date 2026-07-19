@@ -1130,3 +1130,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Data validation ensures that input data conforms to expected shapes and types. Pydantic uses type hints to validate data at runtime, converting and coercing values automatically. Think of it as a bouncer at a club: it checks IDs (types), rejects invalid entries (validation errors), and transforms acceptable variations (coercion). Dataclasses with `@dataclass` plus `__post_init__` provide lighter-weight validation. The key insight is that validation should happen at system boundaries, not deep in your logic.
+
+## Cross-References
+
+- [Classes](/python/04-object-oriented/01-classes)
+- [Advanced Typing](/python/08-advanced-topics/01-advanced-typing)
+- [Serialization](/python/05-standard-library/04-serialization)

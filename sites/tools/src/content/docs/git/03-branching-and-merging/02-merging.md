@@ -392,3 +392,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Merging combines two branches' histories into one. A fast-forward merge is a simple pointer move when the target branch has no new commits. A three-way merge creates a new commit that combines both branches, with a common ancestor as the reference. Conflicts happen when both branches modify the same lines: Git asks you to choose which version to keep. Think of merging as reconciling two drafts of a document: you keep the best parts from each and resolve any contradictions.
+
+## Cross-References
+
+- [Branching](/tools/git/03-branching-and-merging/01-branching)
+- [Conflict Resolution](/tools/git/03-branching-and-merging/04-conflict-resolution)
+- [Rebasing](/tools/git/03-branching-and-merging/03-rebasing)

@@ -111,3 +111,11 @@ Solutions are mixtures where solute particles disperse evenly through a solvent.
 - [Colligative Properties](/docs/cbse/chemistry/solutions/01-colligative-properties) -- detailed colligative property calculations
 - [Chemical Kinetics](/docs/cbse/chemistry/chemical-kinetics) -- concentration effects on reaction rates
 - [CBSE Physics](/docs/cbse/physics) -- kinetic theory of gases
+
+## Common Mistakes
+
+**Confusing molality and molarity.** Molarity (M) is moles of solute per litre of solution, while molality (m) is moles of solute per kg of solvent. Students often use them interchangeably, but they differ because volume changes with temperature while mass does not. Colligative properties use molality.
+
+**Forgetting that van't Hoff factor i accounts for dissociation or association.** For NaCl, i = 2 (dissociates into Na+ and Cl-). For acetic acid, i is between 1 and 2 (partial dissociation). Students often use i = 1 for all solutes, ignoring the effect of dissociation on colligative properties.
+
+**Confusing the boiling point elevation and freezing point depression formulas.** Both use Delta T = i * K * m, but K_b is for boiling point elevation and K_f is for freezing point depression. Students sometimes use the wrong K constant or forget that boiling point increases while freezing point decreases with dissolved solute.

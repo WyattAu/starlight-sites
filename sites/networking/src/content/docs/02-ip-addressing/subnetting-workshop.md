@@ -852,3 +852,13 @@ for mastery of this topic.
 
 
 </aside>
+
+## Intuition
+
+Subnetting is dividing a network into smaller, manageable pieces. Think of an IP address as a street address: the network portion is the street name, and the host portion is the house number. A subnet mask determines which bits are the street name and which are the house number. CIDR notation (like /24) is a shorthand for the mask length. Subnetting lets you allocate addresses efficiently, reduce broadcast domains, and isolate network segments for security.
+
+## Cross-References
+
+- [IP Addressing](/networking/02-ip-addressing/ip-addressing)
+- [TCP and UDP](/networking/03-tcp-udp/tcp-and-udp)
+- [Layer 2 and Ethernet](/networking/08-layer2/layer2-and-ethernet)

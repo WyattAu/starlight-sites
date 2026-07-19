@@ -920,3 +920,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+## Intuition
+
+Python's concurrency primitives address the GIL limitation. `threading` works for I/O-bound tasks where threads spend time waiting. `multiprocessing` spawns separate processes with their own GIL, enabling true CPU parallelism. `concurrent.futures` provides a high-level API with `ThreadPoolExecutor` and `ProcessPoolExecutor`. Think of threads as workers sharing one desk (the GIL) and processes as workers each with their own desk. For I/O-bound work, threads are fine; for CPU-bound work, use processes or native extensions.
+
+## Cross-References
+
+- [Async/Await](/python/06-async/01-async-await)
+- [Python Internals](/python/02-fundamentals/05-python-internals)
+- [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling)

@@ -150,3 +150,11 @@ Similarly: $D_y = -8$, $y = 2$; $D_z = 2$, $z = -\frac{1}{2}$
 3. For Cramer's rule, check that $D \neq 0$ before proceeding
 4. Collinearity of three points $(x_1, y_1)$, $(x_2, y_2)$, $(x_3, y_3)$ is equivalent to the determinant being zero
 5. Practice with matrices containing variables to build algebraic fluency
+
+## Common Mistakes
+
+**Forgetting that swapping rows changes the sign of the determinant.** When using row operations to simplify a determinant, swapping two rows multiplies the determinant by -1. Students often forget this sign change, leading to incorrect final values. Track the number of row swaps to determine the correct sign.
+
+**Confusing det(kA) with k*det(A).** For an n x n matrix, det(kA) = k^n * det(A), not k * det(A). Each of the n rows is multiplied by k, so the determinant is multiplied by k^n. Students frequently write det(2A) = 2*det(A) instead of 2^n * det(A).
+
+**Applying Cramer's rule without checking that det(A) != 0.** Cramer's rule requires the system to have a unique solution, which means the coefficient matrix must be non-singular. If det(A) = 0, the system has either no solution or infinitely many. Students sometimes proceed with Cramer's rule on singular systems, getting division by zero.

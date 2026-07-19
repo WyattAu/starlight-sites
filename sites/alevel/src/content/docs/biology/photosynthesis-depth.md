@@ -2367,3 +2367,8 @@ $\blacksquare$
   enzyme concentration.
 
 </aside>
+## Cross-References
+
+- [Biology](/alevel/biology)
+- [Cells](/alevel/biology/cells)
+- [Genetics and DNA](/alevel/biology/genetics-and-dna)

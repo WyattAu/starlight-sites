@@ -149,7 +149,19 @@ Since $\Delta G < 0$, the reaction is spontaneous.
 4. The relationship $\Delta G = -nFE$ connects electrochemistry to thermodynamics
 5. Practice problems involving concentration cells, where $E^\circ_{\text{cell}} = 0$ but $E_{\text{cell}} \neq 0$
 
-## Intuition
+## Common Mistakes
+
+**Using the wrong value of n in the Nernst equation.** The variable n represents the number of electrons transferred in the balanced equation, not the charge on the metal ion. For Cu2+ + 2e- -> Cu, n = 2, not 1. Using n = 1 gives a cell potential that is twice the correct value.
+
+**Forgetting to include the negative sign in delta-G = -nFE.** A positive cell potential corresponds to a spontaneous reaction with negative delta-G. Students often omit the negative sign, incorrectly concluding that the reaction is non-spontaneous when the cell potential is positive.
+
+**Assuming sulfate is oxidised at the anode during electrolysis.** In aqueous CuSO4 electrolysis, water is oxidised at the anode (producing O2), not sulfate. SO4^2- is extremely difficult to oxidise because of its very negative standard reduction potential. Always check which species is preferentially discharged.
+
+## Cross-References
+
+- [Chemical Kinetics](/docs/cbse/chemistry/chemical-kinetics) -- reaction rates and activation energy
+- [Solutions](/docs/cbse/chemistry/solutions) -- concentration and colligative properties
+- [CBSE Physics](/docs/cbse/physics) -- current electricity and circuits
 
 Electrochemistry bridges chemistry and electricity. A galvanic cell is like a electron pump: a spontaneous chemical reaction pushes electrons through an external wire, creating current. The anode is where oxidation happens (electrons leave), and the cathode is where reduction happens (electrons arrive). The Nernst equation tells us that concentration affects voltage -- a battery runs down because its reactants get used up. Electrolysis reverses the process: you force electrons in the opposite direction to drive a non-spontaneous reaction, like splitting water into hydrogen and oxygen using electricity.
 

@@ -86,3 +86,11 @@ Carboxylic acids are found in vinegar (acetic acid), citrus fruits (citric acid)
 - Acid chlorides are the most reactive carboxylic acid derivatives
 - HVZ reaction introduces halogen at the alpha-carbon
 - Decarboxylation: RCOOH + NaOH/CaO $\rightarrow$ RH (loss of CO$_2$)
+
+## Common Mistakes
+
+**Assuming more carbon atoms means higher acidity in carboxylic acids.** Acidity depends on the stability of the carboxylate conjugate base, which is enhanced by electron-withdrawing groups through the inductive effect. Longer alkyl chains are weakly electron-donating, so formic acid (HCOOH) is more acidic than acetic acid (CH3COOH).
+
+**Writing the ester linkage incorrectly.** The ester functional group is -COO-, not -O-. In ethyl ethanoate, the structure is CH3COOCH2CH3, where the carbonyl carbon connects to both the oxygen and the ethyl group. Students often write CH3OCH2CH3, which is an ether, not an ester.
+
+**Forgetting that the HVZ reaction targets the alpha-carbon.** The Hell-Volhard-Zelinsky reaction specifically brominates the carbon adjacent to the carboxyl group. Students sometimes brominate the beta-carbon or the aromatic ring, but the enolisation mechanism ensures only the alpha-position is reactive.

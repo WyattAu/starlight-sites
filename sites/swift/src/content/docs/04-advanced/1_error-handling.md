@@ -727,3 +727,17 @@ information. The `do`/`catch`/`try` pattern propagates errors while `Result` mak
 composable. `defer` ensures cleanup code runs reliably, and `guard` keeps the happy path clean.
 Combined, these tools enable robust error handling without the overhead of exceptions in other
 languages.
+
+## Common Mistakes
+
+**Using `try!` without being certain the call will not throw.** `try!` force-unwraps the result and crashes if an error is thrown. Only use `try!` when you have verified that the function cannot fail in the current context. In most cases, `try` with `do/catch` or `try?` is safer.
+
+**Catching too broad an exception type.** Writing `catch { }` without specifying an error type catches everything, including programming errors that should crash. Always catch specific error types: `catch NetworkError.timeout { }`. This prevents silently swallowing unexpected errors.
+
+**Forgetting that `defer` runs even when an error is thrown.** The `defer` block executes when leaving the current scope, regardless of whether an error occurred. This is useful for cleanup (closing files, releasing locks) but can cause unexpected behaviour if the deferred code has side effects. Place `defer` at the beginning of the scope for clarity.
+
+## Cross-References
+
+- [Variables and Types](/swift/01-basics/1_variables-and-types) - How optionals relate to error handling with try? and optional chaining
+- [Functions](/swift/02-functions-closures/1_functions) - How throwing functions and rethrows extend the function type system
+- [Concurrency](/swift/04-advanced/2_concurrency) - How async/await integrates with try/catch for concurrent error handling

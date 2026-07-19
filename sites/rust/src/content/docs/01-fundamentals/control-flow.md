@@ -1070,3 +1070,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Control flow in Rust is expression-oriented: almost everything returns a value. An `if` block returns a value, a `match` arm returns a value, and even a `let` binding returns `()`. Pattern matching is Rust's Swiss Army knife: it destructures data, filters ranges, and enforces exhaustiveness so you never miss a case. Think of `match` as a bouncer that checks every possible variant and refuses to let your program proceed until every path is handled. Loops are also expressions, so you can extract values from them directly.
+
+## Cross-References
+
+- [Types and Variables](/rust/01-fundamentals/types-and-variables)
+- [Structs and Enums](/rust/03-structs-enums/structs-and-enums)
+- [Error Handling](/rust/04-error-handling/error-handling)

@@ -773,3 +773,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Functions](/typescript/functions) - How throwing functions and result types model error propagation
+- [Types and Annotations](/typescript/types-and-annotations) - How union types and type guards handle error discrimination
+- [Advanced Types](/typescript/advanced-types) - How discriminated unions and never type model exhaustive error handling

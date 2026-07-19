@@ -96,3 +96,11 @@ Surface chemistry is critical in industrial processes (Haber process, catalytic 
 - Electrophoresis demonstrates the charge on colloidal particles
 - Catalysts lower activation energy but do not change equilibrium position
 - Practice with Freundlich and Langmuir isotherm calculations
+
+## Common Mistakes
+
+**Confusing lyophilic and lyophobic colloids.** Lyophilic colloids are solvent-loving and easily formed (like starch in water). Lyophobic colloids are solvent-hating and require stabilising agents (like gold sol). Students often assume all colloids are formed the same way.
+
+**Forgetting that catalysts do not change equilibrium position.** Catalysts speed up both forward and reverse reactions equally, reaching equilibrium faster but not shifting the equilibrium position. Students sometimes think a catalyst favours the products, which is incorrect.
+
+**Confusing adsorption with absorption.** Adsorption is a surface phenomenon where molecules accumulate on the surface. Absorption is a bulk phenomenon where molecules penetrate into the volume. Colloids exhibit adsorption on the surface of dispersed particles, which gives them their charge.

@@ -1234,3 +1234,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+File I/O in Python is about reading from and writing to the outside world. `open()` returns a file object that you iterate over line by line, which is memory-efficient for large files. Context managers (`with` statements) ensure files are closed even if an exception occurs. `pathlib` provides an object-oriented way to work with paths, replacing string manipulation with methods like `.stem`, `.suffix`, and `.parent`. Always prefer `pathlib` over `os.path` for new code.
+
+## Cross-References
+
+- [Standard Library Essentials](/python/05-standard-library/01-essential-modules)
+- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns)
+- [CLI Tools](/python/05-standard-library/03-cli-tools)

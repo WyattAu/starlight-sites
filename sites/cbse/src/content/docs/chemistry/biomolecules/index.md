@@ -91,3 +91,11 @@ Biomolecules are the basis of biochemistry, molecular biology, and medicine. Und
 - Proteins give biuret test (violet color with Cu$^{2+}$)
 - DNA denaturation: breaking of hydrogen bonds (heat, pH change)
 - Enzyme specificity: lock-and-key model
+
+## Common Mistakes
+
+**Writing the peptide bond as -NH-CO- instead of -CO-NH-.** The peptide bond forms between the carboxyl group of one amino acid and the amino group of the next. The correct structure is -CO-NH- where the carbonyl carbon is bonded to the nitrogen. Reversing this gives an incorrect connectivity that does not represent actual peptide chemistry.
+
+**Assuming all carbohydrates follow the general formula Cn(H2O)n.** While many carbohydrates fit this formula, exceptions exist. Deoxyribose (C5H10O4) and rhamnose (C6H12O5) do not follow the general formula. The definition is based on polyhydroxy aldehyde or ketone structure, not the empirical formula.
+
+**Confusing the anomeric carbon in disaccharides.** In sucrose, the glycosidic bond links C1 of glucose to C2 of fructose, involving both anomeric carbons. This is why sucrose is a non-reducing sugar. Students often assume all disaccharides are reducing sugars, but this depends on whether a free anomeric carbon remains.

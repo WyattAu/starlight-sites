@@ -692,3 +692,9 @@ Haskell is used in production at companies that value correctness and abstractio
 
 The combination of strong typing, purity, and concurrency makes Haskell particularly well-suited for
 systems where correctness is critical and where concurrent operations are the norm.
+
+## Cross-References
+
+- [Types and Functions](/haskell/01-basics/1_types-and-functions) - Foundational type system and pure function concepts that underpin Haskell's design
+- [Type Classes](/haskell/03-type-classes/1_type-classes) - How Haskell achieves polymorphism through type class constraints
+- [Monads and Functors](/haskell/04-monads/1_monads-and-functors) - The abstraction hierarchy that structures side effects in pure functional code

@@ -322,3 +322,17 @@ $$-8a_1 = 100d \implies d = -\frac{2a_1}{25}$$
 **答案：** $a \in (-\infty, -2] \cup \{1\}$
 
 **考试技巧：** "$\forall$"型命题转化为最值问题，"$\exists$"型命题转化为判别式问题。注意逻辑联结词"且"对应交集，"或"对应并集。
+
+## Cross-References
+
+- [Functions](/gaokao/mathematics/functions) - How algebraic manipulation underpins function analysis and equation solving
+- [Geometry](/gaokao/mathematics/geometry) - Coordinate geometry that connects algebraic and geometric reasoning
+- [Chinese Reading](/gaokao/chinese/reading) - Logical reasoning skills that support mathematical proof writing
+
+## Common Mistakes
+
+**Forgetting to check the discriminant before solving quadratics.** When using the quadratic formula, always compute Delta = b^2 - 4ac first. If Delta < 0, there are no real roots, and continuing with the formula gives complex numbers that may not be expected. This is especially important when the problem asks for real solutions only.
+
+**Confusing the sum and product of roots.** Vieta's formulas state x1 + x2 = -b/a and x1 * x2 = c/a. Students often forget the negative sign in the sum formula or swap the two formulas. The sum is -b/a (note the negative), while the product is c/a (no negative sign).
+
+**Forgetting to verify the endpoint in set operations.** When solving inequalities involving sets, always check whether endpoints should be included (closed interval) or excluded (open interval). Forgetting to test boundary values can lead to incorrect answers, especially when the inequality is non-strict (<= or >=).

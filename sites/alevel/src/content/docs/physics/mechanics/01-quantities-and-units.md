@@ -797,3 +797,9 @@ The universe operates through fundamental forces and energy transfers. Forces ar
 - [Waves](/docs/alevel/physics/waves)
 - [Electricity](/docs/alevel/physics/electricity)
 - [Fields](/docs/alevel/physics/fields)
+
+## Cross-References
+
+- [Physics](/alevel/physics)
+- [Mechanics](/alevel/physics/mechanics)
+- [Fields](/alevel/physics/fields)

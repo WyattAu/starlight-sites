@@ -900,3 +900,17 @@ print(stack.pop())       // Optional("third")
 ```
 
 **Explanation:** The `Stackable` protocol defines the interface. `Stack<T: Equatable>` constrains `T` to types that support equality comparison, enabling the `contains` method. The internal array handles storage while the public interface exposes stack-specific operations only.
+
+## Common Mistakes
+
+**Using a class when a struct would suffice.** Swift defaults to structs for a reason: value semantics prevent shared mutable state bugs. Only use classes when you need inheritance, reference identity (`===`), or deinitialisers. Most data models, view models, and utility types should be structs.
+
+**Forgetting `mutating` on struct methods that modify properties.** Struct methods that change `self` or any property must be marked `mutating`. Without it, the compiler prevents modification because structs have value semantics. This is a common error when converting class methods to struct methods.
+
+**Confusing `weak` and `unowned` references for memory management.** `weak` references are optional and become `nil` when the referenced object is deallocated. `unowned` references are non-optional and crash if the object is deallocated first. Use `weak` when the referenced object may disappear first; use `unowned` when you are certain it outlives the reference.
+
+## Cross-References
+
+- [Functions](/swift/02-functions-closures/1_functions) - How closures and function types define protocol witness tables
+- [Error Handling](/swift/04-advanced/1_error-handling) - How classes and structs implement throwing initializers and methods
+- [Concurrency](/swift/04-advanced/2_concurrency) - How actors protect shared mutable state in concurrent class instances

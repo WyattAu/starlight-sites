@@ -699,3 +699,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+## Intuition
+
+Exception ABI defines how exceptions propagate across library boundaries. The Itanium ABI (used by GCC and Clang) uses a zero-cost model: normal execution has no overhead, but throwing an exception is expensive. Think of it as insurance: you pay nothing until something goes wrong, then you pay a lot. The `noexcept` specifier tells the compiler a function will not throw, enabling optimisations. Stack unwinding destroys local objects in reverse order, so RAII ensures cleanup even during exceptions.
+
+## Cross-References
+
+- [Exception Safety](/cpp/function_architecture/2_error_handling/2_exception_safety)
+- [Noexcept](/cpp/function_architecture/2_error_handling/3_noexcept)
+- [RAII Patterns](/cpp/resource_management/1_ownership_and_raii/1_raii_patterns)

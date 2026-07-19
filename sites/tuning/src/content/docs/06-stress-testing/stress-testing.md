@@ -887,3 +887,9 @@ essential for examination success.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+## Cross-References
+
+- [CPU Fundamentals](/tuning/01-cpu-tuning/cpu-fundamentals) - How CPU architecture affects stress test behavior and thermal limits
+- [Memory Tuning](/tuning/02-memory-tuning/memory-tuning) - How memory stress tests validate XMP/EXPO profiles and stability
+- [Undervolting and Overclocking](/tuning/undervolting-and-overclocking) - How stress tests verify stability after voltage and frequency adjustments

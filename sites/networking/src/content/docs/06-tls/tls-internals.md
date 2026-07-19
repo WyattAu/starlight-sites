@@ -889,3 +889,8 @@ linked above.
 
 
 </aside>
+## Cross-References
+
+- [TLS](/networking/06-tls/tls) - Overview of TLS protocol versions and deployment best practices
+- [HTTP](/networking/05-http-https/http) - How HTTPS combines HTTP with TLS for secure web communication
+- [Network Tools](/networking/07-network-tools/network-tools) - Tools for testing TLS certificate configuration and cipher suites

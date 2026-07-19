@@ -553,3 +553,9 @@ From Newton's apple to quantum particles, physics explains how the world works t
 - [Waves](/docs/alevel/physics/waves)
 - [Electricity](/docs/alevel/physics/electricity)
 - [Fields](/docs/alevel/physics/fields)
+
+## Cross-References
+
+- [Physics](/alevel/physics)
+- [Mechanics](/alevel/physics/mechanics)
+- [Fields](/alevel/physics/fields)

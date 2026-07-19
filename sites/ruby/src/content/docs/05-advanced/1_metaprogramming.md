@@ -1108,3 +1108,17 @@ emp = Employee.new
 emp.email   # => "a@b.com"
 emp.job_title  # => "Engineer"
 ```
+
+## Cross-References
+
+- [OOP](/ruby/04-oop/1_oop) - How metaprogramming extends Ruby's object model with dynamic behavior
+- [Methods and Blocks](/ruby/03-methods-blocks/1_methods-and-blocks) - How define_method and method_missing dynamically create method dispatch
+- [Concurrency](/ruby/05-advanced/2_concurrency) - How thread safety concerns affect metaprogrammed code
+
+## Common Mistakes
+
+**Using `method_missing` without defining `respond_to_missing?`.** When you override `method_missing`, you should also override `respond_to_missing?` to return true for the dynamically handled methods. Without this, `obj.respond_to?(:dynamic_method)` returns false even though the method works.
+
+**Overusing `eval` and `class_eval` with string interpolation.** `eval("def #{name}")` executes arbitrary string code, which is slow and poses security risks. Prefer `define_method` for dynamic method creation, which is safer and faster. Use `class_eval` with blocks instead of strings when possible.
+
+**Forgetting that metaprogramming happens at compile time.** Macros and `define_method` execute when the class is loaded, not when methods are called. Students sometimes expect runtime values in metaprogrammed code, which only has access to compile-time information like module attributes.

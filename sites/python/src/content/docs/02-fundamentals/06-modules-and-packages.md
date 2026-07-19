@@ -1111,3 +1111,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Modules are Python's way of organising code into reusable files. Think of a module as a toolbox: each file contains tools (functions, classes) for a specific task. Packages are collections of modules in directories, like a workshop with multiple toolboxes. The `__name__ == "__main__"` idiom lets a file work both as a library and as a script. Modern Python packaging uses `pyproject.toml` instead of `setup.py`, and tools like `pip` and `uv` manage dependencies from PyPI.
+
+## Cross-References
+
+- [Functions](/python/02-fundamentals/03-functions)
+- [Packaging and Distribution](/python/07-best-practices/04-packaging-distribution)
+- [Standard Library Essentials](/python/05-standard-library/01-essential-modules)

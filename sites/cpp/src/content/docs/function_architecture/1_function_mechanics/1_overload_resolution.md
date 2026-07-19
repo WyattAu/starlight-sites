@@ -857,3 +857,13 @@ and past paper questions, is essential for success in examinations.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Overload resolution is the compiler's process of choosing which function to call when multiple functions share the same name. Think of it as a dating app: the compiler matches the arguments (preferences) against the available overloads (candidates) and picks the best match. Exact matches win first, then promotions, then standard conversions, then user-defined conversions. Ambiguity means no single best match exists, and the compiler refuses to choose.
+
+## Cross-References
+
+- [Calling Conventions](/cpp/function_architecture/1_function_mechanics/2_calling_conventions)
+- [Lambdas](/cpp/function_architecture/1_function_mechanics/3_lambdas)
+- [Type Erasure](/cpp/function_architecture/1_function_mechanics/4_type_erasure)
+

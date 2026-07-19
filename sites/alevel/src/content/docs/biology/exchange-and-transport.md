@@ -1996,3 +1996,9 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+## Cross-References
+
+- [Biology](/alevel/biology)
+- [Cells](/alevel/biology/cells)
+- [Genetics and DNA](/alevel/biology/genetics-and-dna)

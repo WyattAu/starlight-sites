@@ -848,3 +848,17 @@ wordFrequenciesLet text =
   where
     countGroup ws = (head ws, length ws)
 ```
+
+## Common Mistakes
+
+**Confusing `==` with `eq` for type equality.** In Haskell, `==` is the equality operator defined in the `Eq` type class for comparing values. `Eq` is a type class, not a function. Students coming from other languages often write `eq a b` instead of `a == b`, which causes a compilation error because `eq` is not a function name.
+
+**Forgetting that `head` and `tail` are partial functions.** Calling `head []` or `tail []` crashes at runtime with an "empty list" error. Always use pattern matching or `null` to check for empty lists before accessing elements. Safe alternatives like `safeHead` returning `Maybe a` prevent runtime crashes.
+
+**Misunderstanding currying and partial application.** In Haskell, `f x y` is actually `(f x) y` -- `f` takes one argument and returns a function that takes the next. Partial application means `map (+1)` works because `(+)` is partially applied. Students often misunderstand that all functions take exactly one argument.
+
+## Cross-References
+
+- [Pattern Matching](/haskell/02-pattern-matching/1_pattern-matching) - How pattern matching works with algebraic data types and function definitions
+- [Type Classes](/haskell/03-type-classes/1_type-classes) - How type classes provide ad-hoc polymorphism over built-in types
+- [Introduction to Haskell](/haskell/00-intro/1_haskell-intro) - The broader context of why Haskell's type system is designed this way

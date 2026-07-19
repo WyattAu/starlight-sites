@@ -371,3 +371,9 @@ D. 苏轼的母亲鼓励他学习范滂
 **答案：** 这首诗蕴含的哲理是：人往往受限于自身立场，难以全面客观地认识事物；要认识事物的全貌，需要跳出局限，从更高角度观察。体现了"当局者迷，旁观者清"的道理。
 
 **考试技巧：** 哲理诗的鉴赏要透过表面现象，分析深层含义。注意诗中的关键词和比喻义。
+
+## Cross-References
+
+- [Chinese Writing](/gaokao/chinese/writing) - Writing techniques that complement reading comprehension skills
+- [Functions](/gaokao/mathematics/functions) - Logical thinking patterns shared between literary analysis and mathematical reasoning
+- [English Reading](/gaokao/english/reading) - Cross-language reading strategies applicable to both Chinese and English comprehension

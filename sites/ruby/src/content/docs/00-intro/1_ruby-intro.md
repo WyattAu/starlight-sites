@@ -839,3 +839,9 @@ puts fetch_with_retry(99)
 ```
 
 **Explanation:** Custom exceptions inherit from `StandardError` (not `Exception`) to ensure they can be caught by bare `rescue`. `ValidationError` is re-raised immediately because it indicates a programming error. `NotFoundError` is retried because it may be a transient issue. The `retry` keyword restarts the `begin` block from the beginning.
+
+## Cross-References
+
+- [Variables and Types](/ruby/01-basics/1_variables-and-types) - Ruby's dynamic type system and variable scoping rules
+- [Methods and Blocks](/ruby/03-methods-blocks/1_methods-and-blocks) - How blocks, procs, and closures form Ruby's functional capabilities
+- [OOP](/ruby/04-oop/1_oop) - Ruby's object model where everything is an object

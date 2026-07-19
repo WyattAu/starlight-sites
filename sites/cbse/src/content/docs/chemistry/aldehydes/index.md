@@ -88,3 +88,11 @@ Aldehydes and ketones are found in formaldehyde (preservative), acetone (solvent
 - Cannizzaro reaction: no $\alpha$-H, concentrated base
 - 2,4-DNP test: orange/red precipitate indicates C=O group
 - Haloform test: methyl ketones give yellow CHI$_3$ precipitate with I$_2$/NaOH
+
+## Common Mistakes
+
+**Writing the aldol product as the beta-hydroxy aldehyde instead of the unsaturated product.** Aldol condensation gives the alpha,beta-unsaturated aldehyde upon heating because dehydration occurs spontaneously. Students often stop at the beta-hydroxy stage and forget that the final product loses water to form a conjugated double bond.
+
+**Assuming Tollens' test works for all carbonyl compounds.** Only aldehydes (and alpha-hydroxy ketones) reduce Tollens' reagent to give a silver mirror. Ketones like acetone do not react because they lack the hydrogen atom on the carbonyl carbon needed for oxidation. This is a key distinction between aldehydes and ketones.
+
+**Confusing the Cannizzaro reaction with the aldol reaction.** The Cannizzaro reaction requires aldehydes that have no alpha-hydrogen atoms (such as benzaldehyde or formaldehyde). These undergo disproportionation in concentrated base, not self-addition. Only aldehydes with at least one alpha-hydrogen can undergo aldol condensation.

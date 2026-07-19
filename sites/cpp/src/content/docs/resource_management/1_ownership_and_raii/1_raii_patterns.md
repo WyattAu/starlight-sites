@@ -544,3 +544,13 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+RAII (Resource Acquisition Is Initialization) is C++'s most important idiom: tie resource lifetime to object lifetime. When an object is constructed, it acquires a resource (file handle, lock, memory); when it is destroyed, the resource is released automatically. Think of it as a library book: when you check it out (constructor), you are responsible for it; when you leave the library (destructor), it is returned automatically. This eliminates resource leaks without a garbage collector. Smart pointers (unique_ptr, shared_ptr) apply RAII to heap memory.
+
+## Cross-References
+
+- [Unique Ptr](/cpp/resource_management/1_ownership_and_raii/2_unique_ptr)
+- [Shared Ptr](/cpp/resource_management/1_ownership_and_raii/3_shared_ptr)
+- [Move Constructors and RVO](/cpp/resource_management/2_value_categories_and_move/4_move_constructors_rvo)
+

@@ -841,3 +841,17 @@ framework:
 - Tasks provide async/await patterns for concurrent computations
 - Agents simplify state management for shared state
 - The "let it crash" philosophy relies on supervision trees for fault tolerance
+
+## Common Mistakes
+
+**Using `GenServer.call` when `GenServer.cast` is appropriate.** `call` is synchronous and blocks the caller until the server replies, while `cast` is asynchronous and returns immediately. Using `call` for fire-and-forget operations wastes resources by blocking unnecessarily. Use `cast` when you do not need a reply.
+
+**Ignoring process isolation by trying to share mutable state.** Elixir processes have no shared memory. Attempting to read and modify state across processes without using GenServer, Agent, or ETS leads to race conditions. Each process should own its state, and other processes should request changes through messages.
+
+**Forgetting that `spawn` does not link processes.** If a spawned process crashes, the parent process is not notified and continues running. Use `spawn_link` when the parent should know about child crashes, or `spawn_monitor` for one-way monitoring. Plain `spawn` is only appropriate for fire-and-forget tasks.
+
+## Cross-References
+
+- [Functions and Modules](/elixir/02-functions-modules/1_functions-and-modules) - How behaviours and protocols define the interfaces that GenServer and supervisors implement
+- [Basics and Pattern Matching](/elixir/01-basics/1_basics-and-pattern-matching) - How pattern matching handles incoming messages in receive blocks
+- [Testing and Deployment](/elixir/04-advanced/2_testing-and-deployment) - How to test GenServer processes and supervise test environments

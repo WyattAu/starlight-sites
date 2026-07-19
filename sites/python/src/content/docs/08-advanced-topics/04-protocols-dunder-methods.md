@@ -866,3 +866,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Protocols are Python's structural subtyping system: if an object has the right methods, it satisfies the protocol, regardless of its class. Think of protocols as job descriptions: if your object can do the job, it qualifies. Dunder methods (double underscore methods like `__len__`, `__getitem__`, `__iter__`) let your objects work with Python's built-in syntax. `__repr__` defines how your object is printed, `__eq__` defines equality, and `__add__` enables the `+` operator. Together, protocols and dunders make Python's duck typing explicit and checkable.
+
+## Cross-References
+
+- [Classes](/python/04-object-oriented/01-classes)
+- [Descriptors](/python/04-object-oriented/03-descriptors)
+- [Advanced Typing](/python/08-advanced-topics/01-advanced-typing)
+

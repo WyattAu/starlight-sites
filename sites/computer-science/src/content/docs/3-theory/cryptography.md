@@ -546,6 +546,12 @@ ML-KEM_DECAP(sk, c):
 
 ## Cross-References
 
+## Intuition
+
+Cryptography is the science of keeping secrets. Symmetric encryption (AES) is like a shared lock: both parties have the same key. Asymmetric encryption (RSA, ECC) is like a mailbox: anyone can drop a letter in (public key), but only the owner can read it (private key). Hash functions are fingerprinting machines: they produce a unique signature for any input, and you cannot reverse-engineer the input from the signature. Digital signatures prove who sent a message and that it was not tampered with. The arms race between cryptographers and cryptanalysts drives the field forward.
+
+## Cross-References
+
 | Topic | Link |
 |-------|------|
 | Algorithms Overview | [View](/docs_infrastructure/cs/algorithms-overview) |

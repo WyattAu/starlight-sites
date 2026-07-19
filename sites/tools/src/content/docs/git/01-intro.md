@@ -235,3 +235,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Git is a time machine for your code. Every commit is a snapshot you can return to, branch from, or compare. Unlike a simple backup system, Git tracks the relationships between snapshots, letting you merge parallel lines of work. The working directory is your workshop, the staging area is your prep table, and the repository is the archive. Branching is cheap and instant, so you should branch often and merge frequently to avoid conflicts.
+
+## Cross-References
+
+- [Git Fundamentals](/tools/git/02-fundamentals/01-the-three-trees)
+- [Branching and Merging](/tools/git/03-branching-and-merging/01-branching)
+- [Advanced Git Commands](/tools/git/advanced-git-commands)

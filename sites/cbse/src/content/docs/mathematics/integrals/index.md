@@ -127,3 +127,11 @@ Integration is the reverse of differentiation -- if a derivative gives you the r
 - [Derivatives](/docs/cbse/mathematics/derivatives) -- differentiation rules and chain rule
 - [Matrices](/docs/cbse/mathematics/matrices) -- linear algebra and systems
 - [CBSE Physics](/docs/cbse/physics) -- work as integral of force, and area under curves
+
+## Common Mistakes
+
+**Forgetting the constant of integration for indefinite integrals.** Every indefinite integral must include "+ C" because the derivative of a constant is zero. Students often omit the constant, losing the family of antiderivatives. This is automatically handled in definite integrals via the Fundamental Theorem of Calculus.
+
+**Confusing the product rule and chain rule for integration.** Integration by parts (product rule in reverse) is for products of functions: integral u dv = uv - integral v du. The chain rule substitution is for composite functions: integral f(g(x))g'(x) dx = integral f(u) du. Applying the wrong technique leads to incorrect or unsolvable integrals.
+
+**Not changing the limits when using substitution in definite integrals.** When substituting u = g(x), the limits must also change to u(a) and u(b). Students sometimes evaluate the antiderivative at the original x-limits instead of the new u-limits, giving incorrect numerical answers.

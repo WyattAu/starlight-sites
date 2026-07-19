@@ -150,3 +150,11 @@ $$\frac{dy}{dx} = \frac{-2x - y\cos(xy)}{2y + x\cos(xy)}$$
 3. When using logarithmic differentiation, remember that $\ln(ab) = \ln a + \ln b$ can simplify products
 4. For implicit differentiation, always collect $\frac{dy}{dx}$ terms on one side before solving
 5. The derivative of $a^x$ is $a^x \ln a$ (not $xa^{x-1}$), while the derivative of $x^n$ is $nx^{n-1}$ (not $n^x \ln x$)
+
+## Common Mistakes
+
+**Confusing continuity with differentiability.** A function can be continuous but not differentiable (like |x| at x = 0). Continuity means no breaks or jumps; differentiability means the derivative exists. Students often assume continuity implies differentiability, which is false.
+
+**Forgetting that the derivative of a^x is a^x ln(a), not x*a^(x-1).** The power rule x^n -> nx^(n-1) applies only when x is the variable and n is constant. For a^x where a is constant, the derivative is a^x ln(a). Students frequently apply the power rule to exponential functions.
+
+**Making sign errors in implicit differentiation.** When differentiating y^2 implicitly, the result is 2y * dy/dx, not just 2y. Students often forget the chain rule factor dy/dx when differentiating terms involving y. Always multiply by dy/dx when differentiating any term containing y with respect to x.

@@ -914,3 +914,9 @@ $\blacksquare$
 - Branded types encode semantic distinctions (e.g., `UserId` vs `OrderId`) without runtime cost.
 - Recursive type aliases (TypeScript 4.1+) enable deep utility types like `DeepReadonly`,
   `DeepPartial`.
+
+## Cross-References
+
+- [Advanced Types](/typescript/advanced-types) - Type-level programming techniques that enable advanced design patterns
+- [Generics](/typescript/generics) - How generic constraints shape pattern implementations
+- [Functions](/typescript/functions) - How function overloads and conditional types enable pattern dispatch

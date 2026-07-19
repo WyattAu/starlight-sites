@@ -878,3 +878,17 @@ end.on_error do |error|
 end
 promise.execute
 ```
+
+## Cross-References
+
+- [OOP](/ruby/04-oop/1_oop) - How Ruby's object model and GIL constrain concurrent object access
+- [Metaprogramming](/ruby/05-advanced/1_metaprogramming) - How thread safety considerations affect dynamically defined methods
+- [Methods and Blocks](/ruby/03-methods-blocks/1_methods-and-blocks) - How blocks and procs interact with Fiber and Thread scheduling
+
+## Common Mistakes
+
+**Assuming Ruby threads run in parallel.** Due to the Global Interpreter Lock (GIL), only one Ruby thread executes Ruby code at a time. Threads provide concurrency (interleaving), not parallelism (simultaneous execution). For CPU-bound parallelism, use processes (via `fork` or the `parallel` gem) instead of threads.
+
+**Forgetting that Fibers are cooperatively scheduled.** Fibers yield control explicitly with `Fiber.yield` and resume with `fiber.resume`. They do not preempt each other. If a fiber never yields, it blocks all other fibers. Students often expect fibers to automatically switch, which they do not.
+
+**Not handling thread safety with Mutex.** Shared mutable state accessed by multiple threads requires a Mutex for synchronization. Without it, race conditions occur. Students sometimes modify shared hashes or arrays from multiple threads without locking, leading to corrupted data.

@@ -309,3 +309,11 @@ Step 4: Eigenvalues: $\lambda_1 = 5$ and $\lambda_2 = 2$
 6. When solving matrix equations, always verify your answer by multiplying back
 7. The sum of an arithmetic series can also be written as $S_n = \frac{n}{2}(a + l)$ where $l$ is the last term
 8. For geometric series with $|r| > 1$, the series diverges (no finite sum)
+
+## Common Mistakes
+
+**Forgetting to check the discriminant before solving quadratics.** Always compute Delta = b^2 - 4ac first. If Delta < 0, there are no real roots. Students sometimes proceed with the quadratic formula and obtain complex numbers when the problem expects real solutions or no solution.
+
+**Confusing the geometric series sum formula for finite and infinite series.** The finite sum Sn = a(1 - r^n)/(1 - r) applies for any r != 1. The infinite sum S_infinity = a/(1 - r) only converges when |r| < 1. Using the infinite formula when |r| >= 1 gives incorrect results because the series diverges.
+
+**Making sign errors in matrix inverses.** For a 2x2 matrix, the inverse formula swaps the diagonal elements and negates the off-diagonal elements, all divided by the determinant. Students often forget to negate the off-diagonal elements or swap the diagonal elements, giving an incorrect inverse that does not satisfy AA^-1 = I.

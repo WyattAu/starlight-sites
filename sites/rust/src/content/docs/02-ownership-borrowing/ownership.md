@@ -990,3 +990,14 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Ownership is Rust's single most important concept. Imagine every value is a library book: only one person can check it out at a time. When you assign `let s2 = s1`, the book moves from s1 to s2, and s1 can no longer use it. References are like library cards: you can have many read-only cards (immutable borrows) or one write card (mutable borrow), but never both at once. This prevents two people from writing in the same book simultaneously. The borrow checker enforces these rules at compile time, so there is zero runtime cost.
+
+## Cross-References
+
+- [Lifetimes](/rust/02-ownership-borrowing/lifetimes)
+- [Interior Mutability](/rust/02-ownership-borrowing/interior-mutability)
+- [Structs and Enums](/rust/03-structs-enums/structs-and-enums)
+- [Unsafe Rust](/rust/07-cargo-ecosystem/unsafe-rust)

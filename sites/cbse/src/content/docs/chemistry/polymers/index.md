@@ -88,3 +88,11 @@ Polymers are everywhere: clothing, packaging, electronics, medical devices, and 
 - Nylon, polyester, bakelite are condensation polymers
 - Polyethene, PVC, polystyrene are addition polymers
 - Natural polymers include proteins (peptide bonds), cellulose (glycosidic bonds), and rubber
+
+## Common Mistakes
+
+**Confusing addition and condensation polymerisation.** Addition polymerisation involves breaking double bonds in monomers (like ethene to polyethene) with no by-product. Condensation polymerisation joins monomers with loss of a small molecule like water (like nylon formation). Students often misclassify polymers by their structure rather than their formation mechanism.
+
+**Forgetting the difference between thermoplastics and thermosetting plastics.** Thermoplastics can be remelted and reshaped (like polyethene). Thermosetting plastics form cross-linked networks and cannot be remelted (like bakelite). Students sometimes assume all plastics behave the same way when heated.
+
+**Confusing homopolymers and copolymers.** Homopolymers are made from one type of monomer (like polyethene from ethene). Copolymers are made from two or more different monomers (like nylon from a diamine and a dicarboxylic acid). Students often assume all synthetic polymers are homopolymers.

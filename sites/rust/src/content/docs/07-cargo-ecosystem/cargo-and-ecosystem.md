@@ -965,3 +965,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Cargo is Rust's project manager, build system, and dependency registry rolled into one. Think of it as a chef who handles the recipe (Cargo.toml), the ingredients (dependencies from crates.io), and the cooking (compilation). The manifest file tells Cargo what to build, what dependencies to fetch, and how to optimise the output. Workspaces let you organise related crates in a monorepo, and profiles control the trade-off between compilation speed and runtime performance. Cargo is the toolchain that makes Rust's ecosystem cohesive and productive.
+
+## Cross-References
+
+- [Unsafe Rust](/rust/07-cargo-ecosystem/unsafe-rust)
+- [Macros](/rust/08-macros)
+- [Traits and Generics](/rust/05-traits-generics/traits-and-generics)

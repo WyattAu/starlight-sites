@@ -727,3 +727,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Advanced Types](/typescript/advanced-types) - How mapped types and conditional types extend generic programming
+- [Functions](/typescript/functions) - How generic functions and function overloads work together
+- [Classes](/typescript/classes) - How generic classes and interfaces enable type-safe component design

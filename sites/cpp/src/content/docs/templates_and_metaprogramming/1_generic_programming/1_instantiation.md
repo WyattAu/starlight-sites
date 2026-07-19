@@ -921,3 +921,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+## Intuition
+
+Template instantiation is the compiler generating code for each concrete type used with a template. When you write `std::vector<int>`, the compiler creates a specialised version of vector for int. Think of it as a stamp: the template is the mould, and each type produces a different stamp. Monomorphisation means the generated code is as fast as hand-written specialised code, but it can increase binary size. Two-phase name lookup in templates means dependent and non-dependent names are resolved differently.
+
+## Cross-References
+
+- [Argument Deduction](/cpp/templates_and_metaprogramming/1_generic_programming/2_argument_deduction)
+- [Specialization](/cpp/templates_and_metaprogramming/1_generic_programming/3_specialization)
+- [Defining Concepts](/cpp/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts)

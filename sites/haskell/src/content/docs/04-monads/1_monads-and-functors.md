@@ -822,3 +822,17 @@ combined = do
 ```
 
 **Explanation:** The `Writer [String]` monad accumulates log messages alongside the computation. `tell` appends messages to the log. The monad's bind operation concatenates logs from sequential computations. `runWriter` returns both the result and the accumulated log.
+
+## Common Mistakes
+
+**Confusing `fmap` with monadic bind `>>=`.** `fmap` applies a pure function inside a functor: `fmap f x` wraps `f` over the value. The bind operator `>>=` threads an effectful computation: `x >>= f` unwraps `x`, applies `f` (which produces a new monadic value), and combines the effects. Using `fmap` when you need `>>=` gives type errors.
+
+**Assuming all monads compose automatically.** Different monads do not automatically stack. To combine effects (like Maybe and IO), you need monad transformers like `MaybeT IO`. Writing a do-block that mixes `Maybe` and `IO` actions directly does not work because they are different monadic types.
+
+**Ignoring the monad laws.** The three monad laws (left identity, right identity, associativity) ensure predictable behaviour. While the compiler does not enforce them, violating these laws through custom monad instances leads to unexpected behaviour when code is refactored or combined with standard library functions.
+
+## Cross-References
+
+- [Type Classes](/haskell/03-type-classes/1_type-classes) - How Functor, Applicative, and Monad form a type class hierarchy
+- [Pattern Matching](/haskell/02-pattern-matching/1_pattern-matching) - How pattern matching on Maybe and Either enables monadic error handling
+- [Concurrency](/haskell/05-advanced/2_concurrency) - How IO monad and STM provide composable concurrency primitives

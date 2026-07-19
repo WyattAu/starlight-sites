@@ -930,3 +930,17 @@ Elixir provides a comprehensive testing and deployment story:
 - Hot code upgrades enable zero-downtime deployments
 - Docker multi-stage builds produce small, efficient images
 - Umbrella apps organize multiple applications in one repository
+
+## Cross-References
+
+- [Concurrency and OTP](/elixir/03-concurrency/1_concurrency-otp) - How supervision trees and process isolation affect test setup and teardown
+- [Functions and Modules](/elixir/02-functions-modules/1_functions-and-modules) - How behaviours enable mock-based testing with Mox
+- [Metaprogramming](/elixir/04-advanced/1_metaprogramming) - How doctests extract and run code examples from module documentation
+
+## Common Mistakes
+
+**Not using ExUnit's `setup` and `on_exit` for test isolation.** Tests should be independent and not depend on execution order. Use `setup` to initialize state and `on_exit` to clean up resources. Students often share mutable state between tests, causing flaky failures that depend on test order.
+
+**Forgetting that doctests run as regular tests.** Code examples in `@doc` strings starting with `iex>` are executed by `mix test`. If a doctest has side effects or depends on external state, it may fail unexpectedly. Ensure doctests are self-contained and deterministic.
+
+**Deploying without configuring the release properly.** Elixir releases bundle the application with the BEAM runtime. Misconfiguring `config/runtime.exs` or forgetting to set the `:prod` environment leads to deployment failures. Always test the release locally with `mix release` before deploying.

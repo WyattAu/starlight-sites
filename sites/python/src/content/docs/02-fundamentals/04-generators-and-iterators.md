@@ -1385,3 +1385,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Generators are lazy factories: they produce values one at a time instead of building entire lists in memory. Think of a generator as a vending machine: you press the button (call next) and get one item, rather than dumping the entire inventory on the floor. The `yield` keyword pauses the function and saves its state, resuming where it left off on the next call. This is powerful for processing large datasets, streaming data, or creating infinite sequences without running out of memory.
+
+## Cross-References
+
+- [Control Flow](/python/02-fundamentals/02-control-flow)
+- [Data Structures](/python/03-data-structures/01-collections)
+- [Async/Await](/python/06-async/01-async-await)

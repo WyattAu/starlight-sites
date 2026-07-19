@@ -105,3 +105,11 @@ Differential equations model nearly every physical phenomenon: population growth
 - For homogeneous equations, always use $v = y/x$
 - Linear equations require finding the integrating factor first
 - Check your solution by differentiating and substituting back into the original equation
+
+## Common Mistakes
+
+**Confusing the order and degree of a differential equation.** The order is the highest derivative present (e.g., d^2y/dx^2 gives order 2). The degree is the power of the highest derivative when the equation is polynomial in derivatives. Students often swap these or forget to clear fractions before determining the degree.
+
+**Forgetting to check if a differential equation is homogeneous before substituting v = y/x.** The substitution v = y/x only works for homogeneous equations where dy/dx = F(y/x). If the equation is not homogeneous, this substitution does not simplify it. Always verify the homogeneous condition first.
+
+**Making errors with the integrating factor in linear equations.** For dy/dx + Py = Q, the integrating factor is mu = e^(integral P dx). Students often forget to compute the integral of P before exponentiating, or confuse P with Q. The integrating factor must be applied to both sides of the equation after multiplication.

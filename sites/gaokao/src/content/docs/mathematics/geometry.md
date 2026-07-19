@@ -302,3 +302,17 @@ $$\vec{PA} \cdot \vec{PB} = x_0^2 - 4 + 3 - \frac{3x_0^2}{4} = \frac{x_0^2}{4} -
 **答案：** $A_1E$ 与平面 $ABCD$ 所成角为 $\arcsin\dfrac{\sqrt{5}}{5}$
 
 **考试技巧：** 线面角公式：$\sin\theta = \dfrac{|\vec{v} \cdot \vec{n}|}{|\vec{v}||\vec{n}|}$，其中 $\vec{v}$ 是直线方向向量，$\vec{n}$ 是平面法向量。
+
+## Cross-References
+
+- [Functions](/gaokao/mathematics/functions) - How coordinate geometry uses function concepts for curve analysis
+- [Algebra](/gaokao/mathematics/algebra) - Algebraic vector operations that form the basis of geometric proofs
+- [Organic Chemistry](/gaokao/chemistry/organic) - Molecular geometry and spatial reasoning that parallels geometric thinking
+
+## Common Mistakes
+
+**Confusing the conditions for triangle congruence.** SSS, SAS, ASA, and AAS are valid congruence criteria, but SSA (two sides and a non-included angle) is not. Students often assume any three measurements determine a unique triangle, which is false when the angle is not between the two sides.
+
+**Forgetting that similarity requires corresponding angles to be equal and sides to be proportional.** Two triangles are similar if their angles match and their sides are in the same ratio. Students sometimes check only angles or only sides, missing that both conditions must hold.
+
+**Misapplying the area formula for triangles.** The area is (1/2) * base * height, where height is the perpendicular distance from the base to the opposite vertex. Students often use a side length as the height, which is incorrect unless the triangle is right-angled.

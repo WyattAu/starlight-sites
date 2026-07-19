@@ -916,3 +916,8 @@ linked above.
 
 
 </aside>
+## Cross-References
+
+- [HTTP](/networking/05-http-https/http) - HTTP/1.1 fundamentals that HTTP/2 and HTTP/3 build upon
+- [TLS](/networking/06-tls/tls) - How TLS 1.3 is required for HTTP/2 and integral to HTTP/3's QUIC transport
+- [WebSockets](/networking/05-http-https/websockets) - How persistent connections differ between HTTP/2 streams and WebSocket frames

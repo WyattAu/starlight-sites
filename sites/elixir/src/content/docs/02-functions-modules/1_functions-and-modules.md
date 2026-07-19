@@ -854,3 +854,17 @@ Functions and modules are the organizational backbone of Elixir:
 - Protocols provide polymorphism based on type dispatch
 - Behaviours define interfaces with `@callback` and `@impl`
 - Typespecs with `@type` and `@spec` add optional static type checking
+
+## Common Mistakes
+
+**Forgetting that `defp` functions are private and cannot be called from outside the module.** Private functions defined with `defp` are only accessible within the defining module. Attempting to call `Module.private_func/1` from another module raises `UndefinedFunctionError`. Use `def` for public APIs and `defp` for internal helpers.
+
+**Confusing `import`, `alias`, and `use`.** `import` brings functions into the current scope (like `import Enum`). `alias` creates a short name (like `alias MyApp.User`). `use` invokes the `__using__/1` macro on the target module, injecting its behaviour (like `use GenServer`). They are not interchangeable.
+
+**Assuming default arguments create only one function arity.** When a function has default arguments, Elixir generates multiple clause heads. `def greet(name, greeting \\ "Hello")` creates both `greet/1` and `greet/2`. Referencing the function as a function value requires specifying the arity: `&Module.greet/1` or `&Module.greet/2`.
+
+## Cross-References
+
+- [Basics and Pattern Matching](/elixir/01-basics/1_basics-and-pattern-matching) - How pattern matching enables multi-clause function dispatch
+- [Concurrency and OTP](/elixir/03-concurrency/1_concurrency-otp) - How GenServer and supervisors use modules to structure concurrent processes
+- [Metaprogramming](/elixir/04-advanced/1_metaprogramming) - How macros extend module functionality at compile time

@@ -864,3 +864,17 @@ json = JObj
 ```
 
 **Explanation:** Each `JValue` constructor represents a different JSON type. Pattern matching in `prettyPrint` handles each case with appropriate formatting. Nested patterns (like `JArr xs`) bind the contained values for further processing. The `indent` parameter controls formatting depth for nested structures.
+
+## Common Mistakes
+
+**Not handling all cases in pattern matching.** When pattern matching on custom types, every constructor must be covered or a catch-all wildcard `_` must be provided. GHC warns about non-exhaustive patterns with `-Wall`, but ignoring the warning leads to runtime crashes when unhandled cases occur. Always ensure all constructors are covered.
+
+**Using variable patterns where wildcards are intended.** Writing `f x = ...` in multiple equations means `x` is rebound in each equation, not compared. If you want to match a specific value, use a literal pattern. If you want to ignore a value, use `_`. Mixing up variables and wildcards leads to unexpected behaviour.
+
+**Forgetting that pattern matching is top-to-bottom.** Patterns are evaluated in order, and the first match wins. Placing a general pattern before specific ones shadows the specific cases. For example, `f _ = "default"` before `f 0 = "zero"` makes the zero case unreachable.
+
+## Cross-References
+
+- [Types and Functions](/haskell/01-basics/1_types-and-functions) - How algebraic data types define the patterns that can be matched
+- [Type Classes](/haskell/03-type-classes/1_type-classes) - How type class instances interact with pattern matching dispatch
+- [Monads and Functors](/haskell/04-monads/1_monads-and-functors) - How pattern matching on monadic values enables do-notation desugaring

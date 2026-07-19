@@ -991,3 +991,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Channels are Rust's answer to "share memory by communicating" instead of "communicate by sharing memory." Think of a channel as a pipe: one end sends messages, the other receives them. The sender moves ownership of data into the pipe, so the receiver gets exclusive access. This eliminates the need for locks in many cases. Bounded channels are like a queue with a maximum length: if the queue is full, the sender blocks until space opens up. This creates natural backpressure, preventing one fast producer from overwhelming a slow consumer.
+
+## Cross-References
+
+- [Concurrency](/rust/06-concurrency/concurrency)
+- [Async Deep Dive](/rust/06-concurrency/async-deep-dive)
+- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership)

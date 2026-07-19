@@ -906,3 +906,8 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+## Cross-References
+
+- [Memory Tuning](/tuning/02-memory-tuning/memory-tuning) - How RAM and storage interact in caching and virtual memory performance
+- [CPU Fundamentals](/tuning/01-cpu-tuning/cpu-fundamentals) - How CPU queue depth and I/O scheduling affect storage throughput
+- [PSU and BIOS Guide](/tuning/psu-and-bios-guide) - How BIOS NVMe and SATA configuration affects storage performance

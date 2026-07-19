@@ -193,3 +193,11 @@ A derivative measures how fast something changes at a single instant. Think of i
 - [Integrals](/docs/cbse/mathematics/integrals) -- the reverse of differentiation
 - [Matrices](/docs/cbse/mathematics/matrices) -- linear algebra foundations
 - [CBSE Physics](/docs/cbse/physics) -- applications of derivatives in mechanics
+
+## Common Mistakes
+
+**Confusing the product rule and chain rule.** The product rule (uv)' = u'v + uv' applies to the product of two functions. The chain rule (f(g(x)))' = f'(g(x)) * g'(x) applies to composition. Students often apply the product rule to composite functions or the chain rule to products, giving incorrect derivatives.
+
+**Forgetting the negative sign in trigonometric derivatives.** The derivatives of cos(x), cot(x), csc(x), and their reciprocals all have negative signs. Students frequently forget these negatives, especially for cos(x) -> -sin(x) and csc(x) -> -csc(x)cot(x). This is the most common source of sign errors in differentiation.
+
+**Incorrectly applying the chain rule to nested functions.** When differentiating sin(x^2), the result is cos(x^2) * 2x, not just cos(x^2). Students often differentiate the outer function but forget to multiply by the derivative of the inner function. The chain rule must be applied at every level of nesting.

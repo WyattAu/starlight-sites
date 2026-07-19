@@ -1008,3 +1008,17 @@ emitter.emit(:user_created, { name: "Alice", email: "alice@example.com" })
 ```
 
 **Explanation:** `Hash.new { |h, k| h[k] = [] }` auto-creates empty arrays for new event keys. Each `on` call appends a lambda to the handler list. `emit` calls all handlers with the provided arguments. The method returns `self` to allow chaining.
+
+## Cross-References
+
+- [OOP](/ruby/04-oop/1_oop) - How methods define the interface of Ruby objects and classes
+- [Metaprogramming](/ruby/05-advanced/1_metaprogramming) - How define_method and method_missing dynamically create methods
+- [Variables and Types](/ruby/01-basics/1_variables-and-types) - How closures capture variables from their enclosing scope
+
+## Common Mistakes
+
+**Confusing blocks, procs, and lambdas.** Blocks are not objects and cannot be stored in variables. Procs are anonymous functions that are lenient about argument count. Lambdas are anonymous functions that enforce strict argument checking. Students often treat them as interchangeable, but they behave differently with `return` and argument validation.
+
+**Forgetting that blocks do not create a new scope for variables.** Variables defined inside a block are accessible in the enclosing scope (unlike methods which create a new scope). This can cause unexpected variable leakage. Use `define` inside a method to create a truly local variable.
+
+**Not understanding when to use `yield` vs `&block`.** `yield` calls the block passed to the method. `&block` converts the block to a Proc object for storage or passing. Students often use `yield` when they need to pass the block to another method, or use `&block` when they just want to call it directly.

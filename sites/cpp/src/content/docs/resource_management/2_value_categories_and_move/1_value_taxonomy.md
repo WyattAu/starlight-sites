@@ -863,3 +863,13 @@ When working with value taxonomy, follow these steps:
 4. Test with edge cases and verify correctness
 
 </aside>
+
+## Intuition
+
+C++ value categories determine how expressions are treated: lvalues have identity (you can take their address), xvalues are expiring values ready to be moved, and prvalues are temporary results. Think of it as a delivery system: lvalues are items sitting on your desk (addressable), prvalues are packages just dropped off (temporary), and xvalues are items you are about to ship out (moved). Move semantics let you transfer resources from one object to another without copying, which is essential for efficient resource management.
+
+## Cross-References
+
+- [Move Constructors and RVO](/cpp/resource_management/2_value_categories_and_move/4_move_constructors_rvo)
+- [Reference Collapsing](/cpp/resource_management/2_value_categories_and_move/2_reference_collapsing)
+- [RAII Patterns](/cpp/resource_management/1_ownership_and_raii/1_raii_patterns)

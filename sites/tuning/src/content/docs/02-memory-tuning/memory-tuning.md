@@ -1018,3 +1018,8 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+## Cross-References
+
+- [CPU Fundamentals](/tuning/01-cpu-tuning/cpu-fundamentals) - How memory controllers and IMC settings interact with CPU performance
+- [Stress Testing](/tuning/06-stress-testing/stress-testing) - How memory stress tests validate XMP/EXPO profile stability
+- [Undervolting and Overclocking](/tuning/undervolting-and-overclocking) - How memory voltage and timing adjustments affect system stability

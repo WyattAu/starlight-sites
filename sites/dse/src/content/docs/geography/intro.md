@@ -172,3 +172,9 @@ skills.
 - Neglecting fieldwork skills and data presentation techniques.
 - Failing to evaluate both advantages and disadvantages in discussion questions.
 - Overlooking the requirement to link human and physical geography in integrated questions.
+
+## Cross-References
+
+- [Biology](/dse/biology)
+- [Chemistry](/dse/chemistry)
+- [Economics](/dse/economics)

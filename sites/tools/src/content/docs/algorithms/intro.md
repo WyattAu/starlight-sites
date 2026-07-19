@@ -109,3 +109,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Algorithms are step-by-step recipes for solving problems. The key question is efficiency: how fast does the solution scale as input grows? Big O notation describes this: O(n) means the time grows linearly, O(n^2) means it grows quadratically. Think of algorithms as travel routes: a direct flight (O(1) lookup) is better than driving through every city (O(n) scan). Choosing the right algorithm for the job is the difference between a program that runs in milliseconds and one that runs for days.
+
+## Cross-References
+
+- [Complexity Analysis](/tools/algorithms/01-complexity-analysis/complexity-analysis)
+- [Arrays and Strings](/tools/algorithms/02-arrays-strings/arrays-and-strings)
+- [Sorting](/tools/algorithms/05-sorting/sorting)

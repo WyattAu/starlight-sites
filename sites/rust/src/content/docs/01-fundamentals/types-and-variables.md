@@ -836,3 +836,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Rust's type system is like a strict inventory manager. Every value has a precise type that determines what you can do with it. Fixed-size integers like i32 are like labelled boxes: the compiler knows exactly how much space they take and what operations are valid. Floating-point numbers follow IEEE 754, so you get the same behaviour across platforms. The borrow checker enforces that each piece of data has one owner, preventing the chaos of multiple pointers to the same memory. Mutability is explicit: you declare `mut` when you intend to change a value, making state changes visible at a glance.
+
+## Cross-References
+
+- [Control Flow and Pattern Matching](/rust/01-fundamentals/control-flow)
+- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership)
+- [Structs and Enums](/rust/03-structs-enums/structs-and-enums)

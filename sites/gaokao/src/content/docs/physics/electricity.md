@@ -311,3 +311,11 @@ $$\eta = \frac{P_{\text{出}}}{P_{\text{总}}} = \frac{1075}{1100} \approx 97.7\
 **答案：** 当 $R = 1\,\Omega$ 时，电源输出功率最大，最大为 $36\,\text{W}$
 
 **考试技巧：** 电源输出功率最大的条件是外电阻等于内阻，即 $R = r$。此时效率为 $50\%$。
+
+## Common Mistakes
+
+**Confusing series and parallel resistance formulas.** For series resistors, R_total = R1 + R2. For parallel resistors, 1/R_total = 1/R1 + 1/R2, not R1 * R2 / (R1 + R2) applied directly. Students often apply the wrong formula or forget that parallel resistance is always less than the smallest individual resistance.
+
+**Forgetting that capacitors act as open circuits in DC steady state.** In DC circuits, after the capacitor is fully charged, no current flows through the capacitor branch. Students sometimes include capacitor branches in current calculations, leading to incorrect circuit analysis. The capacitor voltage equals the voltage across the parallel branch.
+
+**Misapplying the power formula for non-ohmic devices.** For devices like motors and bulbs, P = UI is the total power, but P = I^2 R gives only the heat dissipation. Students often use P = U^2 / R for motors, which gives incorrect results because the back-EMF reduces the effective voltage across the resistance.

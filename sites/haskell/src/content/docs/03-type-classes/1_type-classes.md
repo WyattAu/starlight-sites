@@ -845,3 +845,17 @@ getDebug = fromConfig config "debug"  -- Right True
 ```
 
 **Explanation:** The `FromConfig` type class defines how to extract a value of type `a` from a `Map String String`. Each instance implements the conversion for its type. `reads` is used for `Int` parsing (returns a list of successful parses). The `Either String a` return type provides explicit error messages.
+
+## Common Mistakes
+
+**Confusing type class instances with type class definitions.** A type class defines an interface (like `Eq`), while an instance makes a specific type implement that interface (like `instance Eq Bool`). Students often mix up the `class` keyword (which defines the interface) with the `instance` keyword (which provides an implementation).
+
+**Using `show` on values without a `Show` instance.** The `show` function requires the `Show` type class. If a type does not derive or implement `Show`, calling `show` on it produces a compilation error. Always check that the type has a `Show` instance before using `show` or `print`.
+
+**Forgetting that type class constraints propagate through function signatures.** Writing `f :: Eq a => a -> a -> Bool` means the function works for any type with an `Eq` instance. Students sometimes omit the constraint, then wonder why the compiler complains about `==` being undefined for their type.
+
+## Cross-References
+
+- [Types and Functions](/haskell/01-basics/1_types-and-functions) - How parametric polymorphism works alongside type class constraints
+- [Monads and Functors](/haskell/04-monads/1_monads-and-functors) - How Functor, Applicative, and Monad form a type class hierarchy
+- [Advanced Types](/haskell/05-advanced/1_advanced-types) - Higher-kinded types and type families that extend type class programming

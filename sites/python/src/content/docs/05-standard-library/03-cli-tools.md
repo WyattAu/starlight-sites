@@ -1174,3 +1174,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Building command-line tools in Python is straightforward with `argparse` for argument parsing, `pathlib` for file operations, and `logging` for output. Think of a CLI as a function with a user interface: arguments are parameters, and the exit code is the return value. `click` and `typer` are popular third-party libraries that use decorators to define commands, making CLIs even more declarative. Always provide `--help` and handle errors gracefully with informative messages.
+
+## Cross-References
+
+- [Standard Library Essentials](/python/05-standard-library/01-essential-modules)
+- [File I/O](/python/05-standard-library/02-file-io)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms)

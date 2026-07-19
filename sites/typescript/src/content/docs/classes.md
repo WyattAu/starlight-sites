@@ -780,3 +780,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Types and Annotations](/typescript/types-and-annotations) - How TypeScript's structural typing affects class compatibility
+- [Generics](/typescript/generics) - How generic classes and interfaces enable type-safe reusable components
+- [Error Handling](/typescript/error-handling) - How class hierarchies structure custom error types

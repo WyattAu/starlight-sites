@@ -652,3 +652,17 @@ data Person = Person
 6. **Keep type-level programming simple**: complex type-level code is hard to debug and understand.
 7. **Document kind signatures** when working with DataKinds.
 8. **Use Template Haskell sparingly**: it can make code harder to read and debug.
+
+## Cross-References
+
+- [Type Classes](/haskell/03-type-classes/1_type-classes) - How type families and GADTs extend the type class system
+- [Types and Functions](/haskell/01-basics/1_types-and-functions) - How kind polymorphism and type-level programming build on basic type concepts
+- [Monads and Functors](/haskell/04-monads/1_monads-and-functors) - How monad transformers and indexed types compose monadic effects
+
+## Common Mistakes
+
+**Confusing type synonyms with new types.** A `type` declaration creates an alias (interchangeable with the original). A `newtype` declaration creates a distinct type at compile time with zero runtime overhead. Students often use `type` when they need compile-time type safety, which `newtype` provides.
+
+**Forgetting that GADT pattern matching refines types.** When you pattern match on a GADT constructor, the type variable is refined in that branch. This allows type-safe operations that would otherwise be impossible. Students sometimes ignore the type refinement, missing the whole point of GADTs.
+
+**Overusing type families when simpler type classes suffice.** Type families associate types with type constructors, enabling type-level computation. However, they add complexity. Students often reach for type families when a simple type class with associated types would solve the problem more clearly.

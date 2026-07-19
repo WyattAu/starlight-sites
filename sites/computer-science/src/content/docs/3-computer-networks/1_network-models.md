@@ -114,3 +114,13 @@ Consider an HTTP request traversing three networks: the client LAN (Ethernet), a
 
 At each hop, only the relevant layer headers are processed. The HTTP payload is untouched from client to server.
 
+## Intuition
+
+Network models are the organisational charts of data communication. The OSI model separates concerns into seven layers, each with a specific job. Think of it as a relay race: each layer passes the baton (data) to the next, adding its own header (instructions). The TCP/IP model is the practical version used on the internet. Encapsulation is the key concept: each layer wraps the data from the layer above, like nesting dolls. Understanding layers helps you debug: a cable problem is Layer 1, an IP issue is Layer 3, and a web bug is Layer 7.
+
+## Cross-References
+
+- [Physical Layer](/computer-science/3-computer-networks/2_physical-layer)
+- [Network Layer](/computer-science/3-computer-networks/4_network-layer)
+- [Transport Layer](/computer-science/3-computer-networks/5_transport-layer)
+

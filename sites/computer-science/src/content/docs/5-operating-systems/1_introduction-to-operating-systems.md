@@ -130,3 +130,13 @@ A **deadlock** occurs when two or more processes are each waiting for resources 
 
 Deadlock prevention strategies: eliminate one of the four conditions. Deadlock avoidance (banker's algorithm) requires advance knowledge of maximum resource needs. Detection and recovery (resource allocation graph) is used in practice.
 
+## Intuition
+
+An operating system is the government of a computer: it manages resources (CPU time, memory, I/O devices) and provides services to applications. Process management handles who runs when (scheduling), memory management handles what goes where (pagination, segmentation), and file management handles how data is stored. System calls are the interface between applications and the OS: when a program needs to read a file or send a network packet, it asks the OS through a system call. The OS runs in kernel mode with full hardware access, while applications run in user mode with restricted access.
+
+## Cross-References
+
+- [Process Management](/computer-science/5-operating-systems/2_process-management)
+- [Memory Management](/computer-science/5-operating-systems/5_memory-management)
+- [File Systems](/computer-science/5-operating-systems/6_file-systems)
+

@@ -980,3 +980,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+## Intuition
+
+Packaging turns your code into something others can install and use. `pyproject.toml` is the modern configuration file that replaces `setup.py` and `setup.cfg`. `pip` installs packages from PyPI, while `uv` is a faster alternative. Virtual environments isolate project dependencies so different projects can use different versions of the same package. The workflow is: write code, add a `pyproject.toml`, build a wheel, and upload to PyPI.
+
+## Cross-References
+
+- [Modules and Packages](/python/02-fundamentals/06-modules-and-packages)
+- [Standard Library Essentials](/python/05-standard-library/01-essential-modules)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms)

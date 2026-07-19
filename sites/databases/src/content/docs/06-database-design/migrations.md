@@ -615,6 +615,13 @@ theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 
+## Cross-References
+
+- [Database Design](/databases/06-database-design/database-design) - How migration strategies differ across schema design approaches
+- [Transactions and Concurrency](/databases/04-transactions/transactions) - Why zero-downtime migrations require careful transaction handling
+- [Locking and Deadlocks](/databases/04-transactions/locking-and-deadlocks) - How DDL locks during migrations can block concurrent operations
+- [Indexing and Optimization](/databases/03-indexing-optimization/indexing) - Concurrent index creation and its impact on migration safety
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

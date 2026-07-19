@@ -1494,3 +1494,13 @@ applying these mathematical techniques.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Functions in Python are first-class objects: they can be passed as arguments, returned from other functions, and stored in data structures. Decorators are functions that wrap other functions, adding behaviour without modifying the original code. Think of a decorator as gift wrap: the present inside (the original function) stays the same, but the wrapping adds something extra. Default arguments are evaluated once at function definition time, which is why mutable defaults like `[]` are a common pitfall.
+
+## Cross-References
+
+- [Types and Variables](/python/02-fundamentals/01-types-and-variables)
+- [Control Flow](/python/02-fundamentals/02-control-flow)
+- [Object-Oriented Programming](/python/04-object-oriented/01-classes)

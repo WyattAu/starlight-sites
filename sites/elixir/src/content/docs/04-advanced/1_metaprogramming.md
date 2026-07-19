@@ -731,3 +731,17 @@ Elixir's metaprogramming system is powerful but should be used judiciously:
 - `bind_quoted` safely injects values while preserving hygiene
 - `__using__/1` is the hook for the `use` macro
 - Use macros for DSLs and compile-time code generation, not for simple functions
+
+## Common Mistakes
+
+**Using macros when regular functions would suffice.** Macros receive unevaluated AST and execute at compile time, while functions receive evaluated values at runtime. If the code can be written as a normal function call without manipulating the AST, use a function instead. Macros add complexity and make debugging harder.
+
+**Forgetting that macro arguments are not evaluated.** When you pass `1 + 2` to a macro, the macro receives the AST `{:+, ..., [1, 2]}`, not the value `3`. To inject runtime values into quoted expressions, use `unquote`. Forgetting `unquote` results in the AST node being inserted literally instead of its evaluated result.
+
+**Breaking hygiene with `var!` unintentionally.** Elixir macros are hygienic by default, meaning variables inside a macro do not leak into the caller's scope. Using `var!` breaks this guarantee and can cause subtle naming collisions. Only use `var!` when you intentionally need to access or set the caller's variables.
+
+## Cross-References
+
+- [Functions and Modules](/elixir/02-functions-modules/1_functions-and-modules) - How the `use` macro and module attributes connect to metaprogramming
+- [Concurrency and OTP](/elixir/03-concurrency/1_concurrency-otp) - How metaprogramming reduces boilerplate in GenServer and supervisor definitions
+- [Testing and Deployment](/elixir/04-advanced/2_testing-and-deployment) - How macros and DSLs are tested with ExUnit and property-based testing

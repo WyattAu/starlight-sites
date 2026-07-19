@@ -869,3 +869,17 @@ struct ItemListView: View {
 ```
 
 **Explanation:** The `@MainActor` annotation ensures all published property updates happen on the main thread. The `State` enum models all possible UI states. `load()` implements exponential backoff retry logic. SwiftUI's `.task` modifier starts the async load and automatically cancels when the view disappears.
+
+## Common Mistakes
+
+**Updating UI from a background thread.** SwiftUI requires all UI updates to happen on the main thread. Updating `@Published` properties from a background actor causes runtime warnings or crashes. Always dispatch UI updates to `@MainActor` or use `@MainActor`-annotated properties.
+
+**Forgetting that `async let` runs child tasks concurrently.** When you write `async let a = fetch1()` and `async let b = fetch2()`, both tasks run concurrently until you `await` their results. If you `await` them sequentially, you lose the concurrency benefit. Structure code to start all independent tasks before awaiting any of them.
+
+**Ignoring task cancellation.** Structured concurrency propagates cancellation from parent to child tasks. If a parent task is cancelled, all child tasks are too. Always check `Task.isCancelled` or call `try Task.checkCancellation()` in long-running loops to respond to cancellation promptly.
+
+## Cross-References
+
+- [Classes and Structs](/swift/03-oop/1_classes-and-structs) - How actors extend the class model for safe concurrent access
+- [Error Handling](/swift/04-advanced/1_error-handling) - How async functions use try/catch for error propagation
+- [Functions](/swift/02-functions-closures/1_functions) - How async/await changes function signatures and closure patterns

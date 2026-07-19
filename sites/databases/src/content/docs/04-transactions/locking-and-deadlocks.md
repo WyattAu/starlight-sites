@@ -947,6 +947,13 @@ underlying theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 
+## Cross-References
+
+- [Transactions and Concurrency](/databases/04-transactions/transactions) - How isolation levels determine which lock behaviors are necessary
+- [Indexing and Optimization](/databases/03-indexing-optimization/indexing) - How index scans interact with row-level locks during concurrent updates
+- [Query Optimization](/databases/03-indexing-optimization/query-optimization) - How the planner chooses between lock strategies for parallel queries
+- [Schema Migrations](/databases/06-database-design/migrations) - How DDL operations acquire locks that can block application queries
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

@@ -1013,3 +1013,17 @@ and process data. Key takeaways:
 - Keyword lists are lists, maps are hash tables -- choose based on access patterns
 - The pipe operator (`|>`) makes data transformations readable
 - Immutability enables safe concurrency without locks
+
+## Common Mistakes
+
+**Forgetting to use the pipe operator for sequential transformations.** Elixir developers chain data transformations with `|>` instead of nesting function calls. Writing `String.trim(String.upcase("hello"))` works, but `"hello" |> String.trim() |> String.upcase()` is more readable and idiomatic. The pipe passes the left side as the first argument to the right.
+
+**Not using pattern matching for conditional logic.** Pattern matching with `case` or function clauses is preferred over nested `if/else` for dispatching on data structure shapes. Writing `case result do {:ok, value} -> ... end` is more expressive and safer than checking tuple elements manually.
+
+**Confusing the pin operator `^` with the match operator `=`.** Without the pin, the left side of a match is rebound. With `^x = value`, the current value of `x` is compared against `value`. Forgetting the pin in guard clauses or function heads causes silent rebinding instead of comparison.
+
+## Cross-References
+
+- [Functions and Modules](/elixir/02-functions-modules/1_functions-and-modules) - How pattern matching integrates with multi-clause function definitions
+- [Introduction to Elixir](/elixir/00-intro/1_elixir-intro) - The BEAM virtual machine that underlies Elixir's type system and process model
+- [Concurrency and OTP](/elixir/03-concurrency/1_concurrency-otp) - How immutable data and pattern matching enable safe concurrent message passing

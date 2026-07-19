@@ -494,3 +494,9 @@ Physics explores the fundamental rules governing matter, energy, space, and time
 - [Waves](/docs/alevel/physics/waves)
 - [Electricity](/docs/alevel/physics/electricity)
 - [Fields](/docs/alevel/physics/fields)
+
+## Cross-References
+
+- [Physics](/alevel/physics)
+- [Mechanics](/alevel/physics/mechanics)
+- [Fields](/alevel/physics/fields)

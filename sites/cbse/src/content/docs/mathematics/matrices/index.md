@@ -111,3 +111,11 @@ Matrices are rectangular arrays that compactly represent systems of linear equat
 - [Matrix Operations](/docs/cbse/mathematics/matrices/01-matrix-operations) -- multiplication, determinant, and inverse
 - [Types of Relations](/docs/cbse/mathematics/relations-functions/types-of-relations) -- set theory foundations
 - [CBSE Physics](/docs/cbse/physics) -- vectors and coordinate systems
+
+## Common Mistakes
+
+**Assuming matrix multiplication is commutative.** In general, AB != BA for matrices. Students often write AB = BA without checking, which leads to incorrect solutions for matrix equations. Always preserve the order of multiplication when manipulating matrix equations.
+
+**Forgetting that (AB)^-1 = B^-1 A^-1 (reversed order).** The inverse of a product reverses the order: (AB)^-1 = B^-1 A^-1. Students often write (AB)^-1 = A^-1 B^-1, which is incorrect. The same reversal applies to transposes: (AB)^T = B^T A^T.
+
+**Confusing the conditions for matrix inverse existence.** A matrix has an inverse only if its determinant is non-zero (non-singular). Students sometimes attempt to find the inverse of a singular matrix, which is impossible. Always check det(A) != 0 before computing A^-1.

@@ -1287,3 +1287,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Debugging in Python is detective work: you gather clues (print statements, logging, breakpoints) and narrow down the suspect (the bug). `pdb` and `breakpoint()` let you step through code interactively. `cProfile` and `line_profiler` reveal which functions are slow. `coverage.py` shows which lines are actually tested. The key habit is to reproduce the bug with a minimal test case before fixing it. A good bug report is worth a thousand lines of debugging.
+
+## Cross-References
+
+- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms)
+- [Standard Library Essentials](/python/05-standard-library/01-essential-modules)

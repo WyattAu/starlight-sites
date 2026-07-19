@@ -1009,3 +1009,8 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+## Cross-References
+
+- [Chemistry](/alevel/chemistry)
+- [Atomic Structure](/alevel/chemistry/atomic-structure)
+- [Organic Chemistry](/alevel/chemistry/organic-chemistry)

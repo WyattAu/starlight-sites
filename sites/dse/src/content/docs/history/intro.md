@@ -178,3 +178,9 @@ sovereignty.
 - Writing essays without a clear argument or thesis statement.
 - Neglecting to use specific evidence (dates, names, statistics) to support claims.
 - Confusing chronologically distant events or misattributing policies to wrong leaders.
+
+## Cross-References
+
+- [Biology](/dse/biology)
+- [Chemistry](/dse/chemistry)
+- [Economics](/dse/economics)

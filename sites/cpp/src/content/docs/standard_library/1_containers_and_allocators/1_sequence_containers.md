@@ -779,3 +779,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+## Intuition
+
+Sequence containers store elements in a linear order. `std::vector` is a dynamic array: fast to access by index, slow to insert in the middle. `std::deque` is a double-ended queue: fast at both ends, moderate in the middle. `std::list` is a doubly-linked list: fast insertion anywhere, slow access by index. `std::array` is a fixed-size array with STL interface. Choose vector as the default; use deque when you need frequent front insertions; use list only when you need stable iterators during insertion.
+
+## Cross-References
+
+- [Associative Containers](/cpp/standard_library/1_containers_and_allocators/2_associative_containers)
+- [Iterators](/cpp/standard_library/1_containers_and_allocators/3_iterators)
+- [Algorithms and Ranges](/cpp/standard_library/2_algorithms_and_ranges/1_iterator_sentinel)

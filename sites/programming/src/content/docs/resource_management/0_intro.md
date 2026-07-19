@@ -161,3 +161,13 @@ linked above.
 
 - [Rust Ownership and Borrowing](https://languages.wyattau.com/rust/ownership/) — Rust"s compile-time ownership model as an alternative to C++ manual resource management.
 - [Unsafe Rust](https://languages.wyattau.com/rust/07-cargo-ecosystem/unsafe-rust/) — When Rust's safety guarantees are deliberately bypassed.
+
+## Intuition
+
+Resource management is the central challenge in C++ programming: who owns a resource and when is it released? In garbage-collected languages, the runtime handles this. In C++, you must establish explicit ownership contracts. RAII (Resource Acquisition Is Initialization) binds resource lifetime to scope: when an object goes out of scope, its destructor runs and releases the resource. Smart pointers (unique_ptr, shared_ptr) extend this to heap memory. Move semantics let you transfer ownership without copying, eliminating unnecessary duplication.
+
+## Cross-References
+
+- [RAII Patterns](/programming/resource_management/1_ownership_and_raii/1_raii_patterns)
+- [Unique Ptr](/programming/resource_management/1_ownership_and_raii/2_unique_ptr)
+- [Value Taxonomy](/programming/resource_management/2_value_categories_and_move/1_value_taxonomy)

@@ -289,3 +289,17 @@ $$\frac{1}{a} + \frac{1}{b} = \lg 2 + \lg 5 = \lg(2 \times 5) = \lg 10 = 1$$
 **答案：** $g(x) = 2^{x-2} - 1$
 
 **考试技巧：** 函数图像变换遵循"左加右减，上加下减"原则。注意平移是针对 $x$ 还是整个函数。
+
+## Cross-References
+
+- [Algebra](/gaokao/mathematics/algebra) - Algebraic foundations that enable function composition and equation solving
+- [Geometry](/gaokao/mathematics/geometry) - Geometric interpretation of function graphs and transformations
+- [Inorganic Chemistry](/gaokao/chemistry/inorganic) - How equilibrium and rate functions apply to chemical reaction modeling
+
+## Common Mistakes
+
+**Confusing the domain restrictions for logarithmic and radical functions.** When finding the domain, each part must be satisfied simultaneously: radicands must be non-negative, logarithm arguments must be positive, and denominators must be non-zero. Students often forget one of these conditions, leading to incomplete domain answers.
+
+**Misapplying the composite function monotonicity rule.** The rule is "same direction = increasing, opposite direction = decreasing" for composite functions. If both inner and outer functions are increasing, the composite is increasing. If one increases and the other decreases, the composite is decreasing. Students often reverse this rule.
+
+**Forgetting to check the base of logarithms when comparing sizes.** When comparing log values, the base determines whether the function is increasing (base > 1) or decreasing (0 < base < 1). If the base is less than 1, larger arguments give smaller logarithm values, which reverses the inequality direction.

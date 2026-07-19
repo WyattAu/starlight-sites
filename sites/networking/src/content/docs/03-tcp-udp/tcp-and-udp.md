@@ -802,3 +802,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+TCP and UDP are the two main transport protocols. TCP is the reliable courier: it tracks every packet, retransmits lost ones, and delivers data in order. UDP is the fast messenger: it sends packets without waiting for confirmation, trading reliability for speed. TCP is used for web browsing, email, and file transfers where every byte matters. UDP is used for video streaming, gaming, and DNS where speed matters more than perfect delivery.
+
+## Cross-References
+
+- [TCP State Machine](/networking/03-tcp-udp/tcp-state-machine)
+- [UDP Deep Dive](/networking/03-tcp-udp/udp-deep-dive)
+- [HTTP](/networking/05-http-https/http)

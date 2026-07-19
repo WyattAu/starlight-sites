@@ -86,3 +86,11 @@ Amines are found in amino acids, neurotransmitters, pharmaceuticals (ephedrine, 
 - Diazonium salts are versatile intermediates for synthesis
 - Azo dyes are formed by coupling reactions
 - Carbylamine reaction is specific to primary amines (isocyanide test)
+
+## Common Mistakes
+
+**Assuming more alkyl groups always means higher basicity.** While alkyl groups are electron-donating and increase basicity in the gas phase, steric effects and solvation effects in aqueous solution can reduce basicity for highly substituted amines. For example, trimethylamine is less basic than dimethylamine in water despite having more methyl groups.
+
+**Forgetting that the Hinsberg test distinguishes primary and secondary amines by solubility.** The sulfonamide from a primary amine has an acidic N-H proton that dissolves in NaOH, while the sulfonamide from a secondary amine lacks this proton and remains insoluble. Tertiary amines do not react with benzenesulfonyl chloride at all.
+
+**Coupling diazonium salts at the wrong position.** The -OH and -NH2 groups on phenol and aniline are ortho/para-directing. Diazonium coupling occurs at the para position (or ortho if para is blocked). Students sometimes write coupling at the meta position, which is incorrect because the activating group directs to ortho/para positions.

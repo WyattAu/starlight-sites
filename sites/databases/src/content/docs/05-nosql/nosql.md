@@ -837,6 +837,13 @@ theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 
+## Cross-References
+
+- [Transactions and Concurrency](/databases/04-transactions/transactions) - How ACID guarantees differ across relational and NoSQL systems
+- [Redis Deep Dive](/databases/05-nosql/redis) - Detailed implementation of key-value store data structures and persistence
+- [PostgreSQL Advanced](/databases/05-nosql/postgresql-advanced) - PostgreSQL extensions that bridge relational and document store patterns
+- [Indexing and Optimization](/databases/03-indexing-optimization/indexing) - How indexing strategies differ between B-tree, GIN, and NoSQL index types
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

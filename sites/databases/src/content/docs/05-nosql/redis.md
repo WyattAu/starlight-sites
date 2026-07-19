@@ -1006,6 +1006,12 @@ theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 
+## Cross-References
+
+- [NoSQL Databases](/databases/05-nosql/nosql) - How Redis fits within the broader NoSQL ecosystem and key-value store category
+- [PostgreSQL Advanced](/databases/05-nosql/postgresql-advanced) - Comparison of Redis caching with PostgreSQL's pgBouncer connection pooling
+- [Transactions and Concurrency](/databases/04-transactions/transactions) - How Redis transactions differ from traditional ACID database transactions
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

@@ -835,3 +835,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+DNS is the internet's phone book: it translates human-readable names (google.com) into IP addresses (142.250.80.46). When you type a URL, your computer asks a recursive resolver, which queries root servers, then TLD servers (.com), then authoritative servers to find the answer. DNS uses UDP for queries (fast) and TCP for zone transfers (reliable). Caching at every level means most lookups are instant, but TTL values determine how long cached results remain valid.
+
+## Cross-References
+
+- [DNS Architecture](/networking/04-dns/dns-architecture)
+- [HTTP](/networking/05-http-https/http)
+- [IP Addressing](/networking/02-ip-addressing/ip-addressing)

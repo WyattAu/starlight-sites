@@ -864,3 +864,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Rust splits errors into two bins: bugs (panics) and expected failures (Results). Panics are for things that should never happen, like indexing out of bounds. Results are for things that might fail, like reading a file. The `?` operator is the magic wand: it either unwraps the success value or propagates the error upward. Think of Result as a postal package that is either delivered (Ok) or returned to sender (Err). The type system forces you to acknowledge every possible failure, so forgotten error handling is impossible.
+
+## Cross-References
+
+- [Error Handling Patterns](/rust/04-error-handling/error-handling-patterns)
+- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership)
+- [Traits and Generics](/rust/05-traits-generics/traits-and-generics)

@@ -334,3 +334,17 @@ $$\left[-\text{CH}_2-\text{CH}(\text{CN})-\text{CH}=\text{CH}-\text{CH}_2-\right
 **答案：** 单体为丙烯腈 $\text{CH}_2=\text{CHCN}$ 和1,3-丁二烯 $\text{CH}_2=\text{CH}-\text{CH}=\text{CH}_2$
 
 **考试技巧：** 判断高分子化合物单体的方法：①若链节中含有双键，可能是共聚物；②将链节断开，还原双键；③注意1,4-加聚和1,2-加聚的区别。
+
+## Cross-References
+
+- [Inorganic Chemistry](/gaokao/chemistry/inorganic) - Inorganic reaction principles that provide context for organic reaction mechanisms
+- [Functions](/gaokao/mathematics/functions) - Mathematical modeling of reaction rates and yield in organic synthesis
+- [English Reading](/gaokao/english/reading) - Reading comprehension strategies that help analyze complex chemistry problems
+
+## Common Mistakes
+
+**Confusing substitution and elimination reactions.** Substitution replaces one functional group with another (like halogenation). Elimination removes atoms to form a double bond (like dehydrohalogenation). Students often misidentify the reaction type by not tracking whether bonds are formed or broken.
+
+**Forgetting that Markovnikov's rule applies to unsymmetrical addition.** When HX adds to an unsymmetrical alkene, H goes to the carbon with more hydrogens (Markovnikov product). Students sometimes add HX in the wrong direction, getting the anti-Markovnikov product which is only formed with peroxides.
+
+**Misidentifying functional groups in complex molecules.** Students often confuse ethers (-O-) with esters (-COO-), or aldehydes (-CHO) with ketones (-CO-). Careful attention to the connectivity of atoms is needed: aldehydes have the carbonyl at the end of a chain, while ketones have it in the middle.

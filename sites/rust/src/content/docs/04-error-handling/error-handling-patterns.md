@@ -999,3 +999,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Error handling patterns in Rust are about designing APIs that make failure modes impossible to ignore. The `thiserror` crate turns error enums into proper Display implementations, while `anyhow` gives you a catch-all error type for applications. The `?` operator chains errors like a conveyor belt: each step either passes the value forward or sends the error to the caller. Think of it as a factory quality line: defective parts are routed to the reject bin automatically. The key insight is that error handling is not boilerplate; it is documentation of what can go wrong.
+
+## Cross-References
+
+- [Error Handling](/rust/04-error-handling/error-handling)
+- [Traits and Generics](/rust/05-traits-generics/traits-and-generics)
+- [Cargo and Ecosystem](/rust/07-cargo-ecosystem/cargo-and-ecosystem)

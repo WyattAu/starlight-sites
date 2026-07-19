@@ -85,3 +85,11 @@ Haloalkanes are key intermediates in organic synthesis. Grignard reagents, forme
 - Saytzeff's rule: major product is the more substituted alkene
 - Grignard reagents react with water (must use dry conditions)
 - Optical activity tests distinguish SN1 from SN2
+
+## Common Mistakes
+
+**Assuming secondary haloalkanes always follow one mechanism.** Secondary haloalkanes can undergo either SN1 or SN2 depending on reaction conditions. Strong nucleophiles in polar aprotic solvents favour SN2, while weak nucleophiles in polar protic solvents favour SN1. Students often default to one mechanism without analysing the conditions.
+
+**Producing the less substituted alkene as the major elimination product.** Saytzeff's rule states that the more substituted alkene is the major product because it is more stable due to hyperconjugation. Students frequently write the terminal alkene as the major product, which contradicts the rule.
+
+**Using wet conditions for Grignard reagent formation.** Grignard reagents (RMgX) react violently with water and must be prepared in dry ether under anhydrous conditions. Even trace moisture destroys the reagent. Students often forget this requirement and obtain poor yields or no reaction.

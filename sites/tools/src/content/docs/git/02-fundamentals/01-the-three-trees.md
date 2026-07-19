@@ -312,3 +312,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Git's three trees are the working directory (your desk), the staging area (your outbox), and the repository (the archive). When you `git add`, you move changes from the desk to the outbox. When you `git commit`, you file the outbox into the archive. This three-stage process lets you craft commits carefully: you can stage some changes and leave others, creating clean, logical commits. Understanding these trees is the foundation for every Git operation.
+
+## Cross-References
+
+- [Introduction to Git](/tools/git/01-intro)
+- [Branching](/tools/git/03-branching-and-merging/01-branching)
+- [References](/tools/git/02-fundamentals/03-references)

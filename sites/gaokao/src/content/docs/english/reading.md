@@ -393,3 +393,17 @@ D. confusion
 **答案：** B
 
 **考试技巧：** 词义猜测题要利用上下文线索，特别是同义词、反义词或解释性短语。
+
+## Cross-References
+
+- [English Writing](/gaokao/english/writing) - Writing skills that reinforce reading comprehension through active vocabulary use
+- [Chinese Reading](/gaokao/chinese/reading) - Shared analytical reading strategies across languages
+- [Algebra](/gaokao/mathematics/algebra) - Logical reasoning skills that support inference and deduction in reading passages
+
+## Common Mistakes
+
+**Choosing answers with absolute language.** Options containing words like "all," "never," "always," "only," or "completely" are almost always wrong in reading comprehension. Authors typically present balanced views, and extreme statements rarely reflect the passage accurately. Eliminate absolute options first.
+
+**Over-inferring beyond the passage content.** Reading comprehension answers must be directly supported by the text. Making logical leaps or bringing in outside knowledge leads to incorrect inferences. The correct answer is always a paraphrase or restatement of information explicitly stated in the passage.
+
+**Misidentifying the question type.** Main idea questions ask about the overall theme, detail questions ask about specific facts, inference questions require logical reasoning from stated facts, and vocabulary questions ask about word meaning based on context. Reading the question stem carefully determines which approach to use.

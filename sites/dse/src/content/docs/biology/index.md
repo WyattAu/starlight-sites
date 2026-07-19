@@ -150,3 +150,8 @@ This page includes:
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
+## Cross-References
+
+- [Biology](/dse/biology)
+- [Chemistry](/dse/chemistry)
+- [Economics](/dse/economics)

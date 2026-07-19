@@ -100,6 +100,14 @@ $$E_a = \frac{0.693 \times 8.314}{1.075 \times 10^{-4}} = 53.6 \text{ kJ/mol}$$
 
 Chemical kinetics is about how fast reactions happen and why. Think of activation energy as a hill that molecules must climb before they can react -- temperature gives them more speed to get over the hill, and catalysts lower the hill itself. The rate law tells you which ingredients matter most: doubling a first-order reactant doubles the speed, but doubling a zero-order reactant does nothing. The Arrhenius equation connects temperature to speed: a small temperature increase can dramatically speed up a reaction because more molecules suddenly have enough energy to overcome the activation barrier.
 
+## Common Mistakes
+
+**Deriving the rate law from stoichiometric coefficients.** The rate law exponents (m and n) must be determined experimentally from initial rate data, not from the balanced equation. The reaction 2NO + O2 -> 2NO2 is second order in NO and first order in O2, not third order overall, even though the sum of coefficients is 4.
+
+**Confusing half-life formulas for different orders.** The half-life formula t1/2 = 0.693/k applies only to first-order reactions. For zero-order reactions, t1/2 = [A]0/(2k), which depends on initial concentration. Using the wrong formula gives incorrect answers for non-first-order reactions.
+
+**Forgetting unit conversions in Arrhenius equation problems.** The gas constant R = 8.314 J/(mol K) requires Ea in J/mol, but answers are typically reported in kJ/mol. Always divide the final answer by 1000 when converting from J to kJ. Mixing units between R and Ea is the most common source of numerical errors.
+
 ## Cross-References
 
 - [Electrochemistry](/docs/cbse/chemistry/electrochemistry) -- electron transfer rates

@@ -223,3 +223,11 @@ Step 4: The number of monomers $n$ in the polymer chain is the degree of polymer
 **Answer:** The repeating unit is $-\text{CH}_2-\text{CH(CH}_3)-$
 
 **Common mistake:** Forgetting that in addition polymerisation, the double bond becomes a single bond in the polymer backbone. The side groups remain as branches.
+
+## Common Mistakes
+
+**Confusing SN1 and SN2 reaction mechanisms for haloalkanes.** SN1 proceeds through a carbocation intermediate and gives racemisation. SN2 proceeds through backside attack and gives inversion of configuration. Students often assume all nucleophilic substitutions follow the same mechanism.
+
+**Forgetting Markovnikov's rule for alkene addition reactions.** When HX adds to an unsymmetrical alkene, hydrogen adds to the carbon with more hydrogens (Markovnikov product). Students sometimes add in the reverse direction, getting the anti-Markovnikov product which only forms in the presence of peroxides.
+
+**Misidentifying the functional group in organic molecules.** Alcohols (-OH), ethers (-O-), aldehydes (-CHO), ketones (-CO-), and carboxylic acids (-COOH) have distinct structures and reactivities. Students often confuse esters (-COO-) with ethers (-O-) or aldehydes with ketones, leading to incorrect reaction predictions.

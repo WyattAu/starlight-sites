@@ -598,3 +598,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [TypeScript](/typescript/typescript) - Core TypeScript language features that tsconfig.json controls
+- [Types and Annotations](/typescript/types-and-annotations) - How strict mode options affect type checking behavior
+- [Advanced Types](/typescript/advanced-types) - How compiler flags like strictNullChecks enable advanced type patterns

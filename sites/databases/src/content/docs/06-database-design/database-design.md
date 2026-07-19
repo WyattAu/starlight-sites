@@ -911,6 +911,13 @@ theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 
+## Cross-References
+
+- [Data Modeling Patterns](/databases/06-database-design/data-modeling) - Detailed normalization, denormalization, and hierarchical data patterns
+- [Indexing and Optimization](/databases/03-indexing-optimization/indexing) - How index selection methodology supports the physical design phase
+- [Schema Migrations](/databases/06-database-design/migrations) - Tools and strategies for evolving schemas after initial design
+- [Transactions and Concurrency](/databases/04-transactions/transactions) - How isolation levels and MVCC interact with schema design decisions
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

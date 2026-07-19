@@ -920,3 +920,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+IP addressing is like the postal address system for the internet. Every device needs a unique number (IP address) to be reachable. IPv4 uses 32-bit addresses (about 4 billion), which is why we ran out and needed IPv6 with 128-bit addresses. Subnetting divides a network into smaller pieces, like apartment numbers within a building. NAT lets many devices share one public IP address, acting like a receptionist who forwards mail to internal offices. DHCP automatically assigns addresses, and ARP maps IP addresses to MAC addresses on the local network.
+
+## Cross-References
+
+- [Subnetting Workshop](/networking/02-ip-addressing/subnetting-workshop)
+- [TCP and UDP](/networking/03-tcp-udp/tcp-and-udp)
+- [Layer 2 and Ethernet](/networking/08-layer2/layer2-and-ethernet)

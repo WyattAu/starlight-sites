@@ -350,3 +350,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Branching in Git is like creating a parallel universe: you can experiment freely without affecting the main line. A branch is just a pointer to a commit, so creating one is instant. When you switch branches, Git updates your working directory to match the snapshot at that commit. Think of it as time travel: you jump to a different point in the codebase's history and work from there. Merging brings the parallel universes back together.
+
+## Cross-References
+
+- [Introduction to Git](/tools/git/01-intro)
+- [Merging](/tools/git/03-branching-and-merging/02-merging)
+- [Git Workflows](/tools/git/04-remotes-and-workflows/02-workflows)

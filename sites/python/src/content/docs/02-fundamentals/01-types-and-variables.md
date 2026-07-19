@@ -978,3 +978,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Python variables are like labelled boxes: the label (name) points to a box (object) in memory. Unlike C, you do not declare types; Python figures out the type at runtime. Immutable types (int, str, tuple) cannot be changed in place; mutable types (list, dict, set) can. Think of `a = b` as putting a new label on the same box, not copying the box. This explains why modifying a list through one variable affects all references to it. Type hints exist for documentation and static checking, but Python remains dynamically typed.
+
+## Cross-References
+
+- [Control Flow](/python/02-fundamentals/02-control-flow)
+- [Functions](/python/02-fundamentals/03-functions)
+- [Data Structures](/python/03-data-structures/01-collections)

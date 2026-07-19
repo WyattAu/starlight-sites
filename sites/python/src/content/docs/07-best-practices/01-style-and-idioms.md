@@ -1322,3 +1322,13 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Pythonic code is code that looks and feels like Python. PEP 8 is the style guide: use `snake_case` for variables and functions, `PascalCase` for classes, and keep lines under 79 characters. Idioms like list comprehensions, `with` statements, and `enumerate()` make code concise and readable. The key principle is "readability counts": code is read far more often than it is written, so optimise for the reader, not the writer.
+
+## Cross-References
+
+- [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling)
+- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms)

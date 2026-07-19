@@ -128,3 +128,13 @@ $\blacksquare$
 | Conceptual         | Logical structure of the entire database      | ER diagrams, table definitions      |
 | Internal           | Physical storage and access methods            | Indexes, file organisations, hashing |
 
+## Intuition
+
+A database is a organised collection of data designed for efficient retrieval. Think of it as a library: the catalogue (schema) tells you where everything is, the shelves (tables) hold the books (rows), and the index cards (indexes) help you find things quickly. The three-schema architecture separates user views from the logical structure and physical storage, so you can change how data is stored without breaking applications. SQL is the query language that lets you ask questions of the data without knowing how it is stored.
+
+## Cross-References
+
+- [Relational Model](/computer-science/4-databases/2_relational-model)
+- [SQL](/computer-science/4-databases/3_sql)
+- [Normalisation](/computer-science/4-databases/4_normalisation)
+

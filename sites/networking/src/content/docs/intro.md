@@ -154,3 +154,13 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 - Diagnostic tests to identify remaining gaps
 - Practice problems with detailed worked solutions
 - Cross-references to related topics
+
+## Intuition
+
+Networking is the postal system of the digital world. Data is broken into packets (letters), addressed with IP numbers (street addresses), routed through switches and routers (post offices), and delivered to the destination application. The OSI model is the organisational chart: each layer has a specific job, from physical cables (Layer 1) to application protocols (Layer 7). TCP guarantees delivery with acknowledgements and retransmission, while UDP trades reliability for speed. DNS is the phone book that translates human-readable names into IP addresses.
+
+## Cross-References
+
+- [OSI and TCP/IP Models](/networking/01-osi-model/osi-and-tcp-ip)
+- [IP Addressing](/networking/02-ip-addressing/ip-addressing)
+- [TCP and UDP](/networking/03-tcp-udp/tcp-and-udp)

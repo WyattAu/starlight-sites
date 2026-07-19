@@ -751,6 +751,13 @@ underlying theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 
+## Cross-References
+
+- [Database Design](/databases/06-database-design/database-design) - How the conceptual and logical phases of data modeling translate into physical schema implementation
+- [Indexing and Optimization](/databases/03-indexing-optimization/indexing) - How indexing strategies interact with normalized and denormalized schema designs
+- [Transactions and Concurrency](/databases/04-transactions/transactions) - Why ACID guarantees matter when choosing between normalization and denormalization patterns
+- [NoSQL Databases](/databases/05-nosql/nosql) - How document stores and column-family stores model data differently from relational schemas
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

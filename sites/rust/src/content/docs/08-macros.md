@@ -1649,3 +1649,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Macros are Rust's compile-time code generators. Think of them as copy-paste with intelligence: you write a pattern once, and the compiler expands it into the full code wherever you use it. Declarative macros (macro_rules!) are like templates: they match token patterns and produce new tokens. Procedural macros are like mini-programs that run during compilation and can inspect types and generate arbitrary code. Macros solve the "variadic arguments" problem (println! takes any number of arguments) and eliminate boilerplate (derive macros generate trait implementations automatically).
+
+## Cross-References
+
+- [Cargo and Ecosystem](/rust/07-cargo-ecosystem/cargo-and-ecosystem)
+- [Traits and Generics](/rust/05-traits-generics/traits-and-generics)
+- [Unsafe Rust](/rust/07-cargo-ecosystem/unsafe-rust)

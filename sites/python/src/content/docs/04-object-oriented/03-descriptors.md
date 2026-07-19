@@ -903,3 +903,13 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Descriptors are objects that define `__get__`, `__set__`, or `__delete__` methods, controlling how attributes are accessed on another object. Think of a descriptor as a security guard at a building entrance: it decides who gets in (read), who can modify things (write), and who gets removed (delete). Properties are the most common use case: they let you run code when an attribute is read or written, without changing the external API. Class methods and static methods are also descriptors under the hood.
+
+## Cross-References
+
+- [Classes](/python/04-object-oriented/01-classes)
+- [Metaclasses](/python/04-object-oriented/02-metaclasses)
+- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods)
+

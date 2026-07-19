@@ -811,3 +811,17 @@ Swift functions are first-class values that can be stored, passed, and returned.
 inline function definitions with shorthand syntax. Escaping closures handle asynchronous work, while
 property wrappers encapsulate storage logic. Higher-order functions (`map`, `filter`, `reduce`)
 enable concise, expressive data transformations.
+
+## Common Mistakes
+
+**Forgetting that closures capture variables by reference.** Closures in Swift capture variables by reference, not by value. If a closure modifies a captured variable, the change persists after the closure executes. This can cause unexpected side effects. Use capture lists (`[x]`) to capture values explicitly when needed.
+
+**Confusing trailing closure syntax with regular function calls.** When the last argument to a function is a closure, you can use trailing closure syntax: `func { body }` instead of `func({ body })`. However, this only works for the last closure parameter. If there are multiple closure parameters, only the last one can use trailing syntax.
+
+**Not distinguishing between escaping and non-escaping closures.** By default, closure parameters are non-escaping, meaning they execute before the function returns. Mark closures as `@escaping` when they are stored or executed after the function returns (e.g., in async callbacks). Forgetting `@escaping` causes compilation errors for stored closures.
+
+## Cross-References
+
+- [Variables and Types](/swift/01-basics/1_variables-and-types) - How closures capture variables and how optionals affect function signatures
+- [Error Handling](/swift/04-advanced/1_error-handling) - How throwing functions extend the function type system
+- [Classes and Structs](/swift/03-oop/1_classes-and-structs) - How methods, initializers, and deinitializers structure object behavior

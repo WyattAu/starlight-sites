@@ -945,3 +945,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Traits are Rust's way of saying "anything that can do X." A trait is a contract: if a type implements a trait, it guarantees it can perform certain operations. Generics let you write code that works with any type that satisfies a trait bound. Think of traits as job descriptions and generics as "we are hiring for any candidate who meets these qualifications." Monomorphisation means the compiler generates specialised code for each concrete type, so generics have zero runtime cost. Trait objects (dyn Trait) provide dynamic dispatch when you need to work with heterogeneous types at runtime.
+
+## Cross-References
+
+- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership)
+- [Structs and Enums](/rust/03-structs-enums/structs-and-enums)
+- [Unsafe Rust](/rust/07-cargo-ecosystem/unsafe-rust)

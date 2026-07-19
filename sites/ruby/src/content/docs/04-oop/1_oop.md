@@ -1073,3 +1073,17 @@ end
 ```
 
 **Explanation:** The `Observable` module uses `self.included` to set up the observers array when included. `add_observer` registers observer classes. `notify_observers` iterates through observers and calls `handle_event`. Each observer type (Email, Audit) handles events differently, decoupling the notification logic from the model.
+
+## Cross-References
+
+- [Methods and Blocks](/ruby/03-methods-blocks/1_methods-and-blocks) - How mixins via modules extend object behavior without inheritance
+- [Metaprogramming](/ruby/05-advanced/1_metaprogramming) - How method_missing and included hooks enable dynamic class behavior
+- [Concurrency](/ruby/05-advanced/2_concurrency) - How Ruby's GIL affects object-oriented concurrent programming
+
+## Common Mistakes
+
+**Confusing `==` with `equal?` and `eql?`.** `==` checks value equality (can be overridden). `equal?` checks object identity (same object in memory). `eql?` checks value and type equality (used as hash key). Students often assume `==` checks identity, which leads to unexpected behaviour with custom classes.
+
+**Forgetting that instance variables are private by default.** Ruby instance variables cannot be accessed directly from outside the object. You must define accessor methods (`attr_reader`, `attr_writer`, `attr_accessor`). Students sometimes try to access `@variable` from outside the class, causing `NoMethodError`.
+
+**Not using modules for mixins instead of multiple inheritance.** Ruby does not support multiple inheritance of classes, but modules provide a way to share behaviour. Students often create deep class hierarchies when a module mixin would be simpler and more flexible.

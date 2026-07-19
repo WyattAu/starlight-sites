@@ -829,3 +829,8 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+## Cross-References
+
+- [Cooling](/tuning/05-cooling-systems/cooling) - How GPU thermal design and cooling solutions affect boost clock behavior
+- [Undervolting and Overclocking](/tuning/undervolting-and-overclocking) - How GPU undervolting reduces power consumption while maintaining clock speeds
+- [PSU and BIOS Guide](/tuning/psu-and-bios-guide) - How PSU wattage and PCIe power delivery affect GPU stability

@@ -848,3 +848,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Functions](/typescript/functions) - How type annotations apply to function parameters and return types
+- [Generics](/typescript/generics) - How type parameters extend basic type annotations for reuse
+- [Classes](/typescript/classes) - How class members use type annotations for property and method typing

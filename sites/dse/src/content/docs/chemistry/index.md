@@ -116,3 +116,8 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+## Cross-References
+
+- [Biology](/dse/biology)
+- [Chemistry](/dse/chemistry)
+- [Economics](/dse/economics)

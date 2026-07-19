@@ -293,3 +293,11 @@ $$V = \pi \left[\frac{x^5}{5}\right]_0^1 = \pi \left(\frac{1}{5} - 0\right) = \f
 **Answer:** Volume $= \frac{\pi}{5}$ cubic units
 
 **Common mistake:** Forgetting to square the function when using the disk method. The formula is $\pi \int [f(x)]^2 \, dx$, not $\pi \int f(x) \, dx$.
+
+## Common Mistakes
+
+**Forgetting the constant of integration for indefinite integrals.** Every indefinite integral must include "+ C" because the derivative of a constant is zero. Students often omit the constant, losing the family of antiderivatives. This is automatically handled in definite integrals via the Fundamental Theorem, but is essential for indefinite integrals.
+
+**Confusing the product rule and chain rule.** The product rule (fg)' = f'g + fg' applies to the product of two functions. The chain rule (f(g(x)))' = f'(g(x)) * g'(x) applies to composition. Students often apply the product rule to composite functions or the chain rule to products, giving incorrect derivatives.
+
+**Forgetting to change limits when using substitution in definite integrals.** When substituting u = g(x), the limits of integration must also change to u(a) and u(b). Students sometimes evaluate the antiderivative at the original x-limits instead of the new u-limits, giving incorrect numerical answers.

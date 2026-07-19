@@ -86,3 +86,11 @@ Solid state chemistry is fundamental to materials science, metallurgy, semicondu
 - Packing fractions: SC = 52%, BCC = 68%, FCC/HCP = 74%
 - Schottky defects: similar-sized ions, low coordination number
 - Frenkel defects: large size difference, usually in Ag halides
+
+## Common Mistakes
+
+**Confusing the number of atoms per unit cell.** For BCC, there are 2 atoms per unit cell (1 at corners + 1 at body centre). For FCC, there are 4 atoms per unit cell (8 corner atoms x 1/8 + 6 face atoms x 1/2). Students often count atoms without applying the sharing fractions for corners, edges, and faces.
+
+**Confusing Schottky and Frenkel defects.** Schottky defects involve missing pairs of ions (cation and anion), reducing density. Frenkel defects involve an ion displaced to an interstitial site, keeping density unchanged. Students often mix up which defect reduces density.
+
+**Forgetting that coordination number depends on crystal structure.** In BCC, each atom has 8 nearest neighbours. In FCC, each atom has 12 nearest neighbours. In HCP, each atom also has 12 nearest neighbours. Students sometimes assume all close-packed structures have the same coordination number.

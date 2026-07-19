@@ -1019,6 +1019,12 @@ underlying theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 
+## Cross-References
+
+- [NoSQL Databases](/databases/05-nosql/nosql) - How PostgreSQL extensions like JSONB and hstore compare to native document stores
+- [Indexing and Optimization](/databases/03-indexing-optimization/indexing) - How GIN and GiST indexes power PostgreSQL extension queries
+- [Schema Migrations](/databases/06-database-design/migrations) - Strategies for managing PostgreSQL version upgrades and extension dependencies
+
 ## Worked Examples
 
 ### Example 1: PostGIS Spatial Query

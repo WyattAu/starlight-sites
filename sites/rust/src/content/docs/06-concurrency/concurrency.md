@@ -922,3 +922,13 @@ linked above.
 
 
 </aside>
+
+## Intuition
+
+Rust's concurrency model is like a traffic system with strict rules. Each thread is a lane, and the type system is the traffic controller. Arc and Mutex are the traffic lights: Arc lets multiple threads share ownership of data, and Mutex ensures only one thread accesses it at a time. The compiler prevents data races before your program runs, which is like having a safety inspector who checks every vehicle before it enters the highway. Channels are the postal system: threads send messages instead of sharing memory, reducing contention.
+
+## Cross-References
+
+- [Channels and Message Passing](/rust/06-concurrency/channels-and-message-passing)
+- [Async Deep Dive](/rust/06-concurrency/async-deep-dive)
+- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership)

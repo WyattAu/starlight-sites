@@ -830,3 +830,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- [Types and Annotations](/typescript/types-and-annotations) - How TypeScript's type system models React component props and state
+- [Generics](/typescript/generics) - How generic components and hooks enable reusable typed UI patterns
+- [Functions](/typescript/functions) - How typed event handlers and callbacks structure React component logic
