@@ -134,6 +134,14 @@ Deadlock prevention strategies: eliminate one of the four conditions. Deadlock a
 
 An operating system is the government of a computer: it manages resources (CPU time, memory, I/O devices) and provides services to applications. Process management handles who runs when (scheduling), memory management handles what goes where (pagination, segmentation), and file management handles how data is stored. System calls are the interface between applications and the OS: when a program needs to read a file or send a network packet, it asks the OS through a system call. The OS runs in kernel mode with full hardware access, while applications run in user mode with restricted access.
 
+## Common Mistakes
+
+**Confusing processes with threads:** Processes have their own memory space. Threads share memory within a process. Don't use them interchangeably.
+
+**Assuming more RAM always improves performance:** More RAM helps if the system is memory-bound. If the bottleneck is CPU or I/O, adding RAM won't help. Identify the bottleneck first.
+
+**Mixing up kernel mode with user mode:** Kernel mode has full hardware access. User mode has restricted access. System calls switch from user mode to kernel mode temporarily.
+
 ## Cross-References
 
 - [Process Management](/computer-science/5-operating-systems/2_process-management)

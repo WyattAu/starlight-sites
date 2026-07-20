@@ -223,3 +223,8 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Cross-References
+
+- **[Bioenergetics](./diag-bioenergetics.md):** Energy processes within cells.
+- **[Organisation](./diag-organisation.md):** Cell organisation and body systems.

@@ -117,3 +117,11 @@ tableOfContents: false
 | 10       | B             |
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of Linux fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
+
+## Common Mistakes
+
+**Confusing `rm` with `rmdir`:** `rm` deletes files; `rmdir` removes empty directories. `rm -r` recursively deletes directories and their contents — this is dangerous. Always double-check paths before running `rm -r`.
+
+**Using `kill` without understanding signals:** `kill` sends signals, not just "stopping" processes. `kill -9` (SIGKILL) force-kills without cleanup. `kill -15` (SIGTERM) allows graceful shutdown. Always try SIGTERM first; use SIGKILL only as a last resort.
+
+**Confusing `>` with `>>`:** `>` overwrites the file. `>>` appends to the file. Using `>` when you mean `>>` destroys existing content. This is irreversible without backups.

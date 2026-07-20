@@ -170,3 +170,11 @@ theories (Lee's model, push-pull factors), population policies (pro-natalist and
 the Malthus-Boserup debate. Students must analyse demographic data, evaluate population policies
 with case study evidence, and understand how population dynamics interact with development and
 resource management.
+
+
+
+## Cross-References
+
+- **[Climate Change](../geography/climate-change):** Climate change affects all geography
+- **[Population](../geography/population-distribution):** Population distribution is studied
+- **[Economic Development](../geography/economic-development):** Development is a core topic

@@ -177,3 +177,11 @@ strategies (carbon trading, renewable energy transition, afforestation) and adap
 (coastal management, drought-resistant crops) using case studies from contrasting locations.
 Vulnerability and resilience are influenced by economic development, governance, and geographic
 location.
+
+
+
+## Cross-References
+
+- **[Climate Change](../geography/climate-change):** Climate change affects all geography
+- **[Population](../geography/population-distribution):** Population distribution is studied
+- **[Economic Development](../geography/economic-development):** Development is a core topic

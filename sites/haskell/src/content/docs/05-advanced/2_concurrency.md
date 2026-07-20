@@ -678,3 +678,11 @@ STM (Software Transactional Memory) is like a bank transaction. You write your c
 - [Monads and Functors](/haskell/04-monads/1_monads-and-functors) - How IO monad and STM provide the foundation for composable concurrency
 - [Types and Functions](/haskell/01-basics/1_types-and-functions) - How pure functions and immutability simplify concurrent reasoning
 - [Advanced Types](/haskell/05-advanced/1_advanced-types) - How type-level guarantees can enforce thread safety at compile time
+
+## Common Mistakes
+
+**Assuming STM is lock-free:** STM uses optimistic concurrency (retry and commutative transactions), not locks. But transactions that conflict frequently will retry endlessly, wasting CPU. Design transactions to be short and operate on minimal shared state.
+
+**Confusing `forkIO` with `forkOS`:** `forkIO` creates a green thread (M:N threading), while `forkOS` creates an OS-level thread. Use `forkOS` only when you need FFI calls that bind to a specific OS thread. For pure Haskell concurrency, `forkIO` is almost always correct.
+
+**Ignoring exception handling in spawned threads:** Exceptions in green threads killed by `forkIO` are silently swallowed unless caught. Always use `forkIO` with exception handling (`try`, `catch`, or `bracket`) to avoid losing errors.

@@ -179,3 +179,19 @@ $x^2 - 2x + 1 + y^2 - 4y + 4 = x^2 - 6x + 9 + y^2 - 8y + 16$. $-2x - 4y + 5 = -6
 $4x + 4y = 20$. $x + y = 5$.
 
 This is a straight line: the perpendicular bisector of the segment joining $(1, 2)$ and $(3, 4)$.
+
+## Common Mistakes
+
+**Confusing the modulus and argument when converting between forms:** When converting $z = a + bi$ to modulus-argument form, the modulus is $|z| = \sqrt{a^2 + b^2}$ and the argument is $\arg(z) = \arctan(b/a)$ (adjusted for the correct quadrant). Students often forget to adjust the argument for quadrants 2 and 3, giving the wrong angle.
+
+**Forgetting that $i^2 = -1$ when expanding powers:** When calculating $(a + bi)^2$ or higher powers, students frequently make sign errors by forgetting that $i^2 = -1$, $i^3 = -i$, and $i^4 = 1$. Write out each power of $i$ explicitly until the pattern is automatic.
+
+**Confusing the complex conjugate with the negative:** The conjugate of $z = a + bi$ is $\bar{z} = a - bi$ (flip the sign of the imaginary part). The negative is $-z = -a - bi$ (flip both parts). Students sometimes compute $-z$ when asked for $\bar{z}$, or vice versa. These are different operations.
+
+
+
+## Cross-References
+
+- **[Complex Numbers](../further-maths/pure-mathematics/complex-numbers):** Complex numbers extend the real number system
+- **[Further Calculus](../further-maths/pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
+- **[Pure Mathematics](../further-maths/further-maths):** Further maths extends A-level mathematics

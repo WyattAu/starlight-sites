@@ -1321,6 +1321,14 @@ If you get this wrong, revise: Section 3.4.
 
 </details>
 
+## Intuition
+
+**The OS is a resource manager:** Think of the operating system as a hotel manager — it分配 rooms (memory) to guests (processes), makes sure they don't bother each other (isolation), handles checkout when they leave (process termination), and manages shared amenities like the pool (shared resources). Fork() is like cloning a guest — the new guest gets an exact copy of the room's contents.
+
+**Why it matters:** Understanding process management, memory allocation, and synchronization is essential for building efficient, correct concurrent programs. These concepts underpin everything from web servers to operating system kernels.
+
+**The key insight:** Copy-on-Write makes fork() fast by deferring the actual copying until one process modifies a page — most fork() calls are followed immediately by exec(), so the copy is never needed.
+
 ## Common Pitfalls
 
 - **Confusing processes and threads.** Processes have separate address spaces; threads share the

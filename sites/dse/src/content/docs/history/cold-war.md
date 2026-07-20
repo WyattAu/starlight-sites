@@ -77,3 +77,11 @@ The Cold War was a staring contest between two superpowers, each pointing nuclea
 - In essay questions, avoid presenting the Cold War as a simple binary conflict. The involvement of middle powers, the role of ideology versus national interest, and the experiences of non-aligned states all complicate the narrative.
 - Use specific evidence including dates, treaty terms, casualty figures, and policy details to support arguments about the causes and consequences of Cold War conflicts.
 - When discussing proxy wars, analyse the local conditions and motivations alongside the superpower involvement. Reducing conflicts like Korea or Vietnam solely to Cold War dynamics oversimplifies their complexity.
+
+## Common Mistakes
+
+**Treating the Cold War as purely ideological:** While ideology mattered, national interest and power politics drove most decisions. The Sino-Soviet split shows that Communist solidarity was weaker than often assumed.
+
+**Assuming the Domino Theory was accurate:** The fall of one country to communism did not automatically cause neighbours to fall. Each country's outcome depended on local conditions, not just ideological contagion.
+
+**Confusing containment with rollback:** Containment meant preventing further spread of communism. Rollback meant actively reversing it. The US pursued containment (except briefly under Reagan), not rollback.

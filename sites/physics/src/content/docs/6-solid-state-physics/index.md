@@ -69,3 +69,9 @@ Each section includes:
 3. **Draw diagrams**: Visualise crystal structures and band diagrams
 4. **Learn Bloch's theorem**: Understand the foundation of band theory
 5. **Connect to applications**: Relate solid state physics to semiconductors and superconductors
+
+## Cross-References
+
+- **[Thermal Physics](../../2-thermal-physics/index.md):** Statistical mechanics of condensed matter.
+- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum theory of solids.
+- **[Electromagnetism](../../3-electromagnetism/index.md):** Electromagnetic properties of materials.

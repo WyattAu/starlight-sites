@@ -1008,3 +1008,11 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+
+
+## Cross-References
+
+- **[Poetry Analysis](../english/poetry-analysis-guide):** Literary analysis develops through study
+- **[Comparative Analysis](../english/comparitives/chronicle-streetcar):** Comparing texts builds analytical skills
+- **[Flashcards](../english/flashcards-poetry):** Literary terms support analysis

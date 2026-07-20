@@ -296,3 +296,19 @@ $R$).
 
 This confirms that the energy loss is independent of the resistance value -- even with $R = 0$The
 same amount of energy would be lost (as radiation rather than heat).
+
+## Common Mistakes
+
+**Confusing capacitance with charge:** Capacitance $C = Q/V$ is the ability to store charge, not the charge itself. A capacitor with higher capacitance stores more charge at the same voltage, but capacitance is a property of the device, not the stored charge. Students often conflate $C$ and $Q$.
+
+**Forgetting that energy stored is $\frac{1}{2}CV^2$, not $CV^2$:** The energy stored in a capacitor is $E = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$. The factor of $\frac{1}{2}$ arises because the voltage increases linearly from 0 to $V$ as the capacitor charges. Students often write $E = CV^2$, which is double the correct value.
+
+**Misidentifying series and parallel capacitor combinations:** Capacitors in series combine like resistors in parallel: $\frac{1}{C_{total}} = \frac{1}{C_1} + \frac{1}{C_2}$. Capacitors in parallel combine like resistors in series: $C_{total} = C_1 + C_2$. This is the opposite of resistors — students frequently get this backwards.
+
+
+
+## Cross-References
+
+- **[Mechanics](../physics/flashcards-mechanics-waves):** Mechanics covers motion, forces, and energy
+- **[Waves](../physics/flashcards-mechanics-waves):** Waves transfer energy through oscillations
+- **[Electricity](../physics/flashcards-electricity-fields):** Electricity covers circuits and fields

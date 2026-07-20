@@ -593,3 +593,11 @@ independent.
 
 As shown in UT-1 part (d), independent events with positive probability cannot be mutually
 exclusive. The student has confused two fundamentally different concepts.
+
+## Common Mistakes
+
+**Confusing mutually exclusive with independent:** Mutually exclusive means $P(A \cap B) = 0$ — the events cannot happen together. Independent means $P(A \cap B) = P(A)P(B)$ — one event occurring does not affect the probability of the other. These are different concepts: mutually exclusive events with positive probabilities are always dependent (if one happens, the other cannot).
+
+**Forgetting the complement rule for "at least one":** $P(\text{at least one}) = 1 - P(\text{none})$ is one of the most useful identities in probability. Students often try to calculate $P(\text{at least one})$ directly by adding up $P(\text{exactly 1}) + P(\text{exactly 2}) + \cdots$, which is tedious and error-prone. The complement approach is almost always simpler.
+
+**Confusing $P(A|B)$ with $P(B|A)$:** $P(A|B)$ is the probability of $A$ given $B$ has occurred. $P(B|A)$ is the probability of $B$ given $A$ has occurred. These are generally not equal. Bayes' theorem relates them: $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$. Swapping the conditioning event gives a completely different probability.

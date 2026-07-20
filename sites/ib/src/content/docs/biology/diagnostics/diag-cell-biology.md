@@ -209,3 +209,17 @@ The $\text{Na}^+/\text{K}^+$ pump is estimated to consume approximately 60--70% 
 ATP at rest. This is because the pump must continuously work against the leak channels that allow
 $\text{Na}^+$ to diffuse back in and $\text{K}^+$ to diffuse back out, maintaining the resting
 potential that is essential for action potential generation.
+
+## Common Mistakes
+
+**Confusing prokaryotic and eukaryotic cells:** Prokaryotes lack membrane-bound organelles and have 70S ribosomes. Eukaryotes have organelles and 80S ribosomes. Don't assume all cells are the same.
+
+**Forgetting that the Na⁺/K⁺ pump uses ATP:** It's an active transport mechanism that moves 3 Na⁺ out and 2 K⁺ in per ATP. Without ATP, the resting potential cannot be maintained.
+
+**Mixing up osmosis with diffusion:** Osmosis is specifically the movement of water across a semi-permeable membrane. Diffusion is the general movement of any particle from high to low concentration.
+
+## Cross-References
+
+- **[Cell Biology](../biology/flashcards-cell-biology):** Cells are the basic units of life
+- **[Genetics](../biology/flashcards-genetics):** Genetics studies heredity and variation
+- **[Ecology](../biology/diagnostics/diag-ecology):** Ecology studies organism-environment interactions

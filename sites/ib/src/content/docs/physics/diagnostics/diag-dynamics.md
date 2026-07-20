@@ -466,3 +466,11 @@ parachute drag $F_d = 500v$ is speed-dependent, so the landing speed depends on 
 At terminal velocity $v_t = 13.1\,\text{m}\,\text{s}^{-1}$ (downward), the helicopter hits the
 ground at approximately $13.1\,\text{m}\,\text{s}^{-1}$Which is above the
 $6.0\,\text{m}\,\text{s}^{-1}$ safety threshold. The helicopter does **not** land safely.
+
+
+
+## Cross-References
+
+- **[Kinematics](../physics/flashcards-kinematics):** Kinematics describes motion
+- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
+- **[Waves](../physics/flashcards-waves):** Waves transfer energy

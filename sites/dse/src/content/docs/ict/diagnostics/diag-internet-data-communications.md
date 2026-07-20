@@ -229,3 +229,11 @@ customers and how to mitigate each.
 3. **Malware distribution:** Attackers can intercept unencrypted HTTP connections and inject
    malware. Mitigation: Ensure software is updated, use HTTPS, avoid sensitive transactions on
    public Wi-Fi.
+
+## Common Mistakes
+
+**Confusing TCP with UDP:** TCP is reliable and connection-oriented (guarantees delivery). UDP is fast but unreliable (no delivery guarantee). Use TCP for web/email, UDP for video streaming/gaming.
+
+**Forgetting that OSI layers add headers at each level:** Each layer encapsulates data by adding its own header. Don't assume data remains unchanged as it moves through the stack.
+
+**Mixing up routers and switches:** Switches connect devices on the same network (Layer 2). Routers connect different networks (Layer 3). Don't use them interchangeably.

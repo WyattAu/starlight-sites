@@ -628,6 +628,14 @@ as columns.
 
 See the examples integrated throughout the sections above.
 
+## Intuition
+
+**Vectors are arrows in space:** A vector is like an arrow — it has a direction and a length. The direction tells you where it points, and the length (magnitude) tells you how far. Vectors are essential for describing anything that has both direction and size: force, velocity, acceleration, displacement.
+
+**Why it matters:** Vectors are the language of physics and engineering. They describe forces on structures, motion of objects, fields in space, and transformations in computer graphics. Understanding vector operations (addition, dot product, cross product) is fundamental to these fields.
+
+**The key insight:** The dot product measures how aligned two vectors are (parallel = maximum, perpendicular = zero), while the cross product measures how perpendicular they are (parallel = zero, perpendicular = maximum).
+
 ## Common Pitfalls
 
 1. **Confusing scalar and vector products:** The scalar product gives a scalar (number); the vector

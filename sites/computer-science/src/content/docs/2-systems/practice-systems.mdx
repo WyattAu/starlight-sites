@@ -35,5 +35,16 @@ kernel, and virtual memory. Select an option to check your answer and view the e
 ## Virtual Memory and File Systems
 
 <PracticeProblem client:only="solid-js" question={"What is the primary advantage of multi-level page tables over a single-level page table?&quot; options={[ 'They reduce the amount of physical memory required to store the page table by only allocating page table pages for valid address ranges', 'They reduce the TLB miss rate', 'They eliminate the need for a TLB entirely', 'They provide faster address translation', ]} correctAnswer={0} explanation=&quot;A single-level page table for a 48-bit address space with 4 KB pages requires $2^{36}$ entries (~2 TB). Multi-level page tables use a tree structure where only the pages corresponding to valid address ranges need to be allocated in physical memory. The trade-off is extra memory accesses per translation (one per level), mitigated by TLB caching."} difficulty="medium"  />
-
 <PracticeProblem client:only="solid-js" question={"In a Unix-like file system, an inode stores all of the following EXCEPT:&quot; options={[ 'The file name', 'File size and timestamps', 'Direct and indirect block pointers', 'Owner permissions (UID/GID) and mode', ]} correctAnswer={0} explanation=&quot;Inodes store file metadata (size, timestamps, ownership, permissions) and block pointers (direct, single/double/triple indirect), but NOT the file name. File names are stored in directory entries, which map names to inode numbers. This separation allows multiple hard links (names) to point to the same inode, and renaming a file only requires updating the directory entry."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Confusing virtual memory with virtual machines:** Virtual memory is an OS technique for using disk as extended RAM. Virtual machines are emulated computers. They're different concepts.
+
+**Assuming more RAM always improves performance:** More RAM helps if the system is memory-bound. If the bottleneck is CPU or I/O, adding RAM won't help.
+
+**Mixing up pre-emptive with cooperative multitasking:** Pre-emptive multitasking forces context switches (OS controls scheduling). Cooperative multitasking relies on processes voluntarily yielding. Don't assume all systems are pre-emptive.
+
+## Cross-References
+- **[Operating Systems](../../5-operating-systems/index.md):** File systems and I/O management.
+- **[Databases](../../4-databases/index.md):** Storage engines that build on file system abstractions.

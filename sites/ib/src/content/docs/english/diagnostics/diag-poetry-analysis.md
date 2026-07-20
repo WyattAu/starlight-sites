@@ -93,3 +93,11 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (B) | Effective comparison identifies meaningful parallels and distinctions, demonstrating analytical depth rather than mere summary. |
 | 9 | (B) | Structure shapes meaning; formal constraints and free verse each carry interpretive significance. |
 | 10 | (B) | An extended metaphor develops a single comparison across multiple lines, creating a sustained framework for exploration. |
+
+## Common Mistakes
+
+**Confusing metaphor with simile:** Metaphor states something IS something else. Simile uses "like" or "as" to compare. Don't use the terms interchangeably.
+
+**Assuming form and content are separate:** In poetry, how something is said (form) shapes what is said (content). Always connect technical analysis to meaning.
+
+**Forgetting to consider multiple interpretations:** Poetry is often ambiguous. Consider different readings and explain which you find most convincing and why.

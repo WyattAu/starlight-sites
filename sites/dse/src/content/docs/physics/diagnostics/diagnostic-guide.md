@@ -196,3 +196,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+
+
+## Cross-References
+
+- **[Mechanics](../physics/diagnostics/diag-mechanics):** Diagnostics test mechanics
+- **[Waves](../physics/diagnostics/diag-waves-sound):** Waves are assessed
+- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Circuits are tested

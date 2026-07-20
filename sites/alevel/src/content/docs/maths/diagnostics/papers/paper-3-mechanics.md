@@ -356,3 +356,11 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+
+
+## Cross-References
+
+- **[Momentum](../maths/mechanics/05-momentum):** Momentum is a core mechanics topic
+- **[Energy and Work](../maths/mechanics/energy-and-work-depth):** Work-energy is fundamental to mechanics
+- **[Kinematics](../maths/mechanics/kinematics-depth):** Kinematics describes motion

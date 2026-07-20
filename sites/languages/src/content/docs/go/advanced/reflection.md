@@ -295,3 +295,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Interfaces](../intermediate/interfaces.md):** Interface satisfaction and type assertions underlying reflection.
+- **[Generics](../intermediate/generics.md):** Compile-time type parameters as an alternative to runtime reflection.
+- **[Types and Variables](../basics/types-and-variables.md):** Go's type system fundamentals that reflection inspects at runtime.

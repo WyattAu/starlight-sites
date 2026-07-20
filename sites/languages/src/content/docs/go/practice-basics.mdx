@@ -53,3 +53,17 @@ explanation.
 <PracticeProblem client:only="solid-js" question='What does `fmt.Errorf("task failed: %w", err)` do?' options={[ 'Wraps err with additional context, creating an error chain', 'Replaces err entirely', 'Panics with the error message', 'Logs the error to stderr', ]} correctAnswer={0} explanation="The `%w` verb in `fmt.Errorf` wraps the original error, creating a new error that contains the original. This allows using `errors.Is()` and `errors.As()` to inspect the error chain, which is Go\'s preferred error wrapping pattern." difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"How do you create a custom error type in Go?&quot; options={[ 'Define a struct implementing the `error` interface with an `Error() string` method', 'Use the `throw` keyword', 'Subclass the `Error` struct', 'Use `errors.New` only', ]} correctAnswer={0} explanation='To create a custom error, define a struct type and give it an `Error() string` method. For example: `type MyError struct { Code int }; func (e *MyError) Error() string { return fmt.Sprintf(&quot;error %d&quot;, e.Code) }`. This satisfies the built-in `error` interface.' difficulty=&quot;medium"}  />
+
+## Cross-References
+
+- **[Go Standard Library Flashcards](../flashcards-standard-library.mdx):** Interactive flashcards covering Go's standard library packages.
+- **[Types and Variables](../basics/types-and-variables.md):** Type system fundamentals tested in the types section.
+- **[Error Handling](../intermediate/error-handling.md):** Error wrapping and custom error patterns covered in the error section.
+
+## Common Mistakes
+
+**Forgetting that `defer` arguments are evaluated immediately:** In `defer fmt.Println(x)`, `x` is evaluated at the defer statement, not when the deferred call runs. Use a closure `defer func() { fmt.Println(x) }()` to capture the current value.
+
+**Using `select` without a `default` case:** A `select` with no ready cases and no `default` blocks forever. Always include a `default` if you need non-blocking channel operations.
+
+**Ignoring errors from functions that return them:** Go functions return errors explicitly. Forgetting to check `if err != nil` causes silent failures and makes debugging difficult.

@@ -319,3 +319,11 @@ struct InfoSheet: View {
 ```
 
 **Solution:** `NavigationStack` manages the navigation path. `NavigationLink` pushes detail views. `.searchable` adds a built-in search bar that filters the list. `.sheet` presents a modal. `@Environment(\.dismiss)` dismisses the sheet. The `filteredItems` computed property handles search filtering.
+
+## Common Mistakes
+
+**Mutating state in init instead of using @State:** SwiftUI views are structs. If you modify properties in init, those changes are not reflected in the UI. Use @State for mutable view state. @State properties are stored separately from the view struct.
+
+**Confusing @State with @Binding:** @State owns the data (declared in the parent view). @Binding references data owned by a parent. Using @State when you need @Binding creates separate state instances that dont sync.
+
+**Ignoring view identity:** SwiftUI identifies views by their position in the view tree. Using ForEach without stable, unique identifiers causes rendering bugs. Always provide id: or use Identifiable conformance for collections.

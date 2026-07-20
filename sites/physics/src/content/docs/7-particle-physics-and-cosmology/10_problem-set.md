@@ -147,3 +147,11 @@ Particle physics seeks the fundamental building blocks of matter and the forces 
 - **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: Many problems require checking conservation of charge, baryon number, and strangeness using the Gell-Mann-Nishijima formula.
 - **[Big Bang Cosmology](7-particle-physics-and-cosmology/7_big-bang-cosmology.md)**: Cosmology problems on dark matter halos, the CMB, and the Hubble constant connect to the Friedmann equations and observational cosmology.
 - **[Running Coupling Constants](7-particle-physics-and-cosmology/6_running-coupling-constants.md)**: Problems on the QCD running coupling and unification require understanding beta functions and the renormalisation group.
+
+## Common Mistakes
+
+**Confusing quark flavors with generations:** Up, charm, top are generation 1, 2, 3 of the up-type quarks. Mixing flavors with generations gives wrong particle assignments.
+
+**Forgetting that neutrinos have mass:** The original Standard Model assumed massless neutrinos. Oscillation experiments prove they have mass, but the mechanism is unknown. Using massless neutrino assumptions in cosmology gives wrong relic density.
+
+**Confusing baryon number with quark number:** Baryon number B = 1/3 for each quark; protons have B = 1. Using quark number instead of baryon number in conservation equations gives wrong results.

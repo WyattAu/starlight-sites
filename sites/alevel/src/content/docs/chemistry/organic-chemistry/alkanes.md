@@ -941,3 +941,11 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+
+
+## Cross-References
+
+- **[Alkenes](../chemistry/organic-chemistry/alkenes):** Alkanes can be cracked to produce alkenes
+- **[Alcohols](../chemistry/organic-chemistry/alcohols):** Alkanes undergo free radical substitution to form halogenoalkanes
+- **[Organic Introduction](../chemistry/organic-chemistry/introduction):** Alkanes are the simplest organic compounds

@@ -855,4 +855,10 @@ wordFrequenciesLet text =
   in map countGroup grouped
   where
     countGroup ws = (head ws, length ws)
+
+## Cross-References
+
+- **[Pattern Matching](../02-pattern-matching/1_pattern-matching.md):** Extends function dispatch with structural pattern matching on data types.
+- **[Monads and Functors](../04-monads/1_monads-and-functors.md):** Higher-kinded abstractions built on the function composition introduced here.
+- **[Advanced Types](../05-advanced/1_advanced-types.md):** GADTs and type families that extend the basic type system.
 ```

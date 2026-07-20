@@ -124,3 +124,11 @@ Check your exam board's specification for the exact set texts. Common set texts 
 - **Post-1900**: An Inspector Calls, A Streetcar Named Desire, Never Let Me Go
 - **Poetry Anthology**: Specific poems from the exam board's anthology
 - **Unseen Poetry**: Unknown poems requiring timed analysis
+
+
+
+## Cross-References
+
+- **[Poetry](../english/2-poetry/1_poetry-analysis):** Poetry is a major form in English literature
+- **[Literary Terms](../english/flashcards-literary-terms):** Literary analysis develops through study
+- **[Practice](../english/practice-literary-analysis.mdx):** Practice builds analytical skills

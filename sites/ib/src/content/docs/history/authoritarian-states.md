@@ -375,3 +375,11 @@ debates surrounding them — is essential for constructing high-scoring comparat
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+
+
+## Cross-References
+
+- **[Cold War](../history/cold-war):** Cold War geopolitics shaped the 20th century
+- **[Authoritarian States](../history/authoritarian-states):** Authoritarian regimes are key case studies
+- **[Causes and Effects](../history/causes-and-effects-of-wars):** Wars have profound causes and effects

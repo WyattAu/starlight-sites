@@ -217,3 +217,17 @@ Rate limiting, connection throttling.
 ## Intuition
 
 Network security is a layered defense strategy: encryption hides the message, authentication proves who sent it, and integrity checks verify nothing was tampered with in transit. TLS is the locked envelope that ensures your credit card number arrives intact and unreadable to anyone who intercepts it. The key insight is that security is not a single feature but a chain of mechanisms, and the chain is only as strong as its weakest link, like a fence with a gate that anyone can walk through.
+
+## Common Mistakes
+
+**Confusing symmetric with asymmetric encryption:** Symmetric uses one key (fast, used for data). Asymmetric uses key pairs (slower, used for key exchange). Don't assume they're interchangeable.
+
+**Assuming encryption provides authentication:** Encryption protects confidentiality. Digital certificates and signatures provide authentication. They're different security properties.
+
+**Forgetting that security is about trade-offs:** Stronger security often means slower performance or worse usability. Find the right balance for your use case.
+
+## Cross-References
+
+- **[Transport Layer](./5_transport-layer.md):** TLS handshake and encryption.
+- **[Network Layer](./4_network-layer.md):** IPsec and network security.
+- **[Application Layer](./6_application-layer.md):** HTTPS and certificate management.

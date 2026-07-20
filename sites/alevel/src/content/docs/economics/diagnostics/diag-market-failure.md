@@ -381,3 +381,19 @@ $= \frac{1}{2}(133.33 - 100)(333.33 - 140) = \frac{1}{2}(33.33)(193.33) = 3222.0
 control policy causes a secondary market failure: the incentive for landlords to exit the market
 worsens the original shortage. This is a classic example of government intervention creating
 unintended consequences that make the original problem worse.
+
+## Common Mistakes
+
+**Confusing negative and positive externalities:** A negative externality means the social cost exceeds the private cost (e.g., pollution). A positive externality means the social benefit exceeds the private benefit (e.g., vaccination, education). Students often mix these up or confuse which curve shifts in each case.
+
+**Assuming public goods are always provided by the government:** Public goods are characterised by non-excludability and non-rivalry, leading to the free-rider problem. While governments often provide public goods, private firms can sometimes provide club goods (excludable but non-rival) or use technology to make previously non-excludable goods excludable (e.g., encryption for digital content).
+
+**Confusing allocative and productive efficiency:** Allocative efficiency occurs when $P = MC$ (resources produce what society values most). Productive efficiency occurs at the minimum of the ATC curve (goods are produced at lowest cost). A firm can be productively efficient but allocatively inefficient (e.g., a monopoly producing at minimum ATC but above MC).
+
+
+
+## Cross-References
+
+- **[Demand and Supply](../economics/diagnostics/diag-demand-supply):** Market failure occurs when allocation is inefficient
+- **[Theory of the Firm](../economics/diagnostics/diag-theory-of-the-firm):** Firm behaviour relates to market structure
+- **[Fiscal Policy](../economics/macro/04-fiscal-policy):** Government intervention corrects failures

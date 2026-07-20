@@ -800,3 +800,11 @@ Converting to megaparsecs: $d = 4.99 \times 10^{24}/(3.09 \times 10^{22}) = 161$
 - [Thermal Physics](../thermal-physics/01-thermal-physics.md) — Black body radiation and the Stefan-Boltzmann law connect stellar temperatures to thermal energy.
 - [Nuclear and Quantum Physics](../nuclear-and-quantum-physics/07-quantum-physics.md) — Nuclear fusion in stellar cores and the Chandrasekhar limit depend on quantum mechanics.
 - [Mechanics](../mechanics/01-mechanics.md) — Gravitational potential energy and orbital mechanics underpin the formation and evolution of stars.
+
+## Common Mistakes
+
+**Confusing luminosity with brightness:** Luminosity ($L$) is the total power radiated by a star (an intrinsic property). Brightness ($b$) is the power received per unit area at Earth (depends on distance). A distant bright star can have high luminosity but low brightness. The relationship is $b = L/(4\pi d^2)$ — the inverse square law.
+
+**Mixing up the H-R diagram axes:** The H-R diagram has temperature decreasing from left to right (hot blue stars on the left, cool red stars on the right). Students often plot temperature increasing left to right, which reverses the diagram. Luminosity increases upward.
+
+**Confusing Type Ia and Type II supernovae:** Type Ia supernovae occur when a white dwarf exceeds the Chandrasekhar limit (thermonuclear explosion, no remnant). Type II supernovae occur when a massive star's core collapses (leaves behind a neutron star or black hole). Type Ia are standard candles; Type II are not.

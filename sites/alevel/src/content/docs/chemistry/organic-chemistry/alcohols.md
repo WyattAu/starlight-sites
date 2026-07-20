@@ -881,3 +881,11 @@ Mastery of these concepts requires both theoretical understanding and the abilit
 to unfamiliar contexts, particularly in calculation and practical questions.
 
 </aside>
+
+
+
+## Cross-References
+
+- **[Alkanes](../chemistry/organic-chemistry/alkanes):** Alcohols can be synthesised from alkanes via substitution
+- **[Alkenes](../chemistry/organic-chemistry/alkenes):** Alcohols undergo dehydration to form alkenes
+- **[Organic Introduction](../chemistry/organic-chemistry/introduction):** Alcohols are a key functional group in organic synthesis

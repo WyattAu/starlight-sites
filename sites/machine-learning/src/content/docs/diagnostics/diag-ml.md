@@ -117,3 +117,11 @@ tableOfContents: false
 | 10       | B             |
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of machine learning fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
+
+## Common Mistakes
+
+**Confusing bias and variance:** Bias is error from overly simplistic models (underfitting). Variance is error from models that are too complex (overfitting). Reducing one often increases the other. The bias-variance tradeoff is fundamental.
+
+**Using accuracy for imbalanced datasets:** If 95% of samples are class A, a model that always predicts A achieves 95% accuracy but is useless. Use precision, recall, F1-score, or AUC-ROC for imbalanced problems.
+
+**Forgetting to split data before feature engineering:** If you compute statistics on the entire dataset before splitting, information from the test set leaks into training. Always split first, then compute statistics only on the training set.

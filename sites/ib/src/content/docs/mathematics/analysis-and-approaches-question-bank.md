@@ -432,3 +432,11 @@ A question bank serves as a diagnostic tool. Each question tests a specific skil
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+
+
+## Cross-References
+
+- **[Calculus](../maths/5-calculus/calculus):** Analysis covers calculus
+- **[Functions](../maths/2-functions/functions):** Functions are central to analysis
+- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Algebra underpins analysis

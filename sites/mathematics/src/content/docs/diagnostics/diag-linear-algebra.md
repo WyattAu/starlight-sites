@@ -123,3 +123,11 @@ tableOfContents: false
 - **[Linear Independence, Span, Basis](2-linear-algebra/2_linear-independence-span-basis-and-dimension.md)**: Questions on basis and dimension test core concepts from this chapter.
 - **[Systems of Linear Equations](2-linear-algebra/4_systems-of-linear-equations.md)**: Several diagnostic questions involve solving linear systems and understanding solution structure.
 - **[Linear Transformations](2-linear-algebra/6_linear-transformations.mdx)**: Questions on kernel and image draw on the theory of linear maps between vector spaces.
+
+## Common Mistakes
+
+**Confusing the inverse formula $(AB)^{-1} = B^{-1}A^{-1}$ with $A^{-1}B^{-1}$:** The order reverses when distributing the inverse over a product. This is because $(AB)(B^{-1}A^{-1}) = A(BB^{-1})A^{-1} = AIA^{-1} = I$. Forgetting to reverse the order leads to incorrect inverses of matrix products.
+
+**Assuming all eigenvectors are orthogonal:** Eigenvectors from different eigenvalues of a symmetric matrix are orthogonal, but eigenvectors from the same eigenvalue (eigenspace) need not be. For non-symmetric matrices, eigenvectors from different eigenvalues may not be orthogonal at all. Always orthogonalize eigenvectors from the same eigenspace using Gram-Schmidt if orthogonality is needed.
+
+**Confusing rank with the number of non-zero rows in a specific row echelon form:** The rank equals the number of pivot columns (dimension of the column space), which equals the number of non-zero rows in any row echelon form — but different row reduction algorithms can produce different echelon forms. The rank is an invariant of the matrix, not of a particular reduction.

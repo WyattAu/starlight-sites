@@ -170,3 +170,11 @@ it has an extremely high melting point ($1713\ ^\circ\text{C}$). Any "triple poi
 extremely high temperatures and pressures far beyond normal laboratory conditions. The covalent
 bonds throughout the network must be broken (rather than merely overcome, as with intermolecular
 forces) to change state, making all phase transitions require enormous energy input.
+
+
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines bonding
+- **[Energetics](../chemistry/flashcards-energetics):** Energy changes are fundamental
+- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium is a core topic

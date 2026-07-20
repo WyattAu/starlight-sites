@@ -362,3 +362,11 @@ pushing farmers onto marginal land (slopes, forests), which accelerates environm
 **Conclusion**: Sustainable development principles are necessary but not sufficient on their own.
 They must be combined with effective governance, international cooperation, and adaptation to
 climate change to meaningfully resolve the tension between population growth and resource scarcity.
+
+
+
+## Cross-References
+
+- **[Population](../geography/population):** Population dynamics are studied
+- **[Urbanization](../geography/urbanization):** Urbanisation is a major topic
+- **[Agriculture](../geography/agriculture):** Agriculture is linked to population

@@ -55,3 +55,17 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"A 0.050 mol dm-3 solution of HF has a pH of 2.10. Calculate the Ka of HF.&quot; options={['8.0 x 10-4', '3.2 x 10-3', '6.3 x 10-5', '2.5 x 10-2']} correctAnswer={0} explanation=&quot;[H+] = 10-2.10 = 7.94 x 10-3 mol dm-3. For a weak acid HA: Ka = [H+][A-]/[HA]. Since [H+] = [A-] from dissociation of HF: Ka = (7.94 x 10-3)2/(0.050 - 7.94 x 10-3) = 6.31 x 10-5/0.04206 = 1.50 x 10-3. Let me recalculate more carefully: [H+]  = 10-2.10 = 7.94 x 10-3. Ka = (7.94 x 10-3)2/0.04206 = 6.30 x 10-5/0.0421 = 1.50 x 10-3. This gives Ka = 1.5 x 10-3. The closest reasonable option considering the calculation is approximately 8.0 x 10-4 when using simplified values or different rounding conventions."} difficulty="hard"  />
 
 <PracticeProblem client:only="solid-js" question={"The pH of a 0.010 mol dm-3 solution of a weak monoprotic acid HA is 3.45. What percentage of the acid has dissociated?&quot; options={['3.5%', '5.4%', '10.0%', '1.0%']} correctAnswer={0} explanation=&quot;[H+] = 10-3.45 = 3.55 x 10-4 mol dm-3. Since [H+] = [A-]  (from HA dissociation), the concentration of dissociated acid = 3.55 x 10-4 mol dm-3. Percentage dissociation = ([H+]/[HA]initial) x 100 = (3.55 x 10-4/0.010) x 100 = 3.55%. This is the degree of dissociation (alpha). For a weak acid, alpha is very small (less than 5%), which justifies the approximation used in pH calculations for weak acids."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Confusing weak acids with dilute acids:** Weak acids don't dissociate completely (Ka < 1). Dilute acids have low concentration. A dilute weak acid is still weak; a concentrated weak acid is still weak.
+
+**Forgetting that buffers resist pH change:** Buffers contain a weak acid and its conjugate base. They absorb added H⁺ or OH⁻ to maintain relatively constant pH. Don't assume buffers prevent all pH changes.
+
+**Mixing up acid with acid salt:** An acid donates H⁺ (e.g., HCl). An acid salt is formed from partial neutralisation of a polyprotic acid (e.g., NaHCO₃). Don't use the terms interchangeably.
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure supports practice
+- **[Energetics](../chemistry/flashcards-energetics):** Energy calculations are tested
+- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium problems are practiced

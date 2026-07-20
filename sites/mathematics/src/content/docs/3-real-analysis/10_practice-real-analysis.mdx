@@ -45,3 +45,13 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"What does the Fundamental Theorem of Calculus (Part 1) state about $F(x) = \int_a^x f(t)\,dt$ when $f$ is continuous on $[a, b]$?&quot; options={[ `$F$ is differentiable on $(a, b)$ and $F'(x) = f(x)$`, `$F$ is continuous and $\int_a^b F'(x)\,dx = F(b) - F(a)$`, `$F(x) = f'(x)$ for all $x \in (a, b)$`, `$F$ is twice differentiable and $F''(x) = f'(x)$`, ]} correctAnswer={0} explanation=&quot;FTC Part 1: If $f$ is continuous on $[a, b]$, then $F(x) = \int_a^x f(t)\,dt$ is differentiable on $(a, b)$ and $F'(x) = f(x)$. This establishes that integration and differentiation are inverse operations. FTC Part 2 (the evaluation theorem) states $\int_a^b f(x)\,dx = F(b) - F(a)$ where $F$ is any antiderivative of $f$."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"Which of the following series converges absolutely?&quot; options={[ '$\sum_{n=1}^{\infty} \frac{(-1)^n}{n^2}$', '$\sum_{n=1}^{\infty} \frac{(-1)^n}{n}$', '$\sum_{n=1}^{\infty} \frac{(-1)^n}{\sqrt{n}}$', '$\sum_{n=1}^{\infty} (-1)^n \frac{n}{n+1}$', ]} correctAnswer={0} explanation=&quot;A series converges absolutely if $\sum |a_n|$ converges. For $\sum |(-1)^n/n^2| = \sum 1/n^2$: this is a convergent $p$-series ($p = 2 > 1$), so the original series converges absolutely. The other three converge conditionally (by the alternating series test) but their absolute-value versions are $\sum 1/n$ (divergent), $\sum 1/\sqrt{n}$ (divergent $p$-series), and $\sum n/(n+1)$ (terms do not approach 0), all divergent."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Confusing pointwise and uniform convergence:** A sequence of continuous functions can converge pointwise to a discontinuous function (e.g., $f_n(x) = x^n$ on $[0,1]$). Uniform convergence preserves continuity, but pointwise convergence does not. Always check whether the convergence is uniform before concluding the limit function inherits properties like continuity or integrability.
+
+**Assuming continuity implies differentiability:** The function $f(x) = |x|$ is continuous everywhere but not differentiable at $x = 0$. Continuity is necessary but not sufficient for differentiability. The intermediate value theorem applies to continuous functions, but the mean value theorem requires differentiability on the open interval.
+
+**Confusing conditional and absolute convergence:** A series like $\sum (-1)^n / n$ converges conditionally but not absolutely. Rearranging the terms of a conditionally convergent series can change its sum (Riemann's rearrangement theorem). Always test $\sum |a_n|$ separately when determining convergence properties.
+
+

@@ -73,3 +73,9 @@ The dual of $L^p(\mu)$ is $L^q(\mu)$ where $1/p + 1/q = 1$, but this fails for $
 3. **Draw diagrams**: Visualise function spaces and operators
 4. **Learn standard examples**: Know the properties of common spaces (l-p spaces, L-p spaces)
 5. **Connect to analysis**: Relate functional analysis to real analysis and PDEs
+
+## Cross-References
+
+- **[Linear Algebra](../../2-linear-algebra/index.md):** Vector spaces and linear operators.
+- **[Real Analysis](../../3-real-analysis/index.md):** Foundational analysis extended by functional analysis.
+- **[Measure Theory](../../10-measure-theory/index.md):** L^p spaces and measure-theoretic foundations.

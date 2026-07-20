@@ -66,3 +66,9 @@ Each section includes:
 3. **Draw diagrams**: Visualise electric and magnetic fields
 4. **Learn symmetry arguments**: Use Gauss's law and Ampere's law effectively
 5. **Connect to modern physics**: Relate electromagnetism to quantum electrodynamics and optics
+
+## Cross-References
+
+- **[Optics and Waves](../../4-optics-and-waves/index.md):** Electromagnetic waves and optics.
+- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Electromagnetic forces in mechanics.
+- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum electrodynamics.

@@ -219,3 +219,17 @@ Range: $(4.08 \text{ to } 4.80) \times 10^{-3}$.
 
 The literature value $4.6 \times 10^{-3}$ falls within the 95% confidence interval, so the
 experimental result **agrees** with the literature value at the 95% confidence level.
+
+## Common Mistakes
+
+**Confusing precision with accuracy:** Precision is reproducibility (small random error). Accuracy is closeness to the true value (small systematic error). A measurement can be precise but inaccurate.
+
+**Forgetting to propagate uncertainties:** When combining measurements (addition, multiplication, etc.), uncertainties must be propagated using specific rules. Don't just add or average them arbitrarily.
+
+**Mixing up significant figures with decimal places:** Significant figures count all meaningful digits. Decimal places count digits after the decimal point. They're different and serve different purposes.
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines bonding
+- **[Energetics](../chemistry/flashcards-energetics):** Energy changes are fundamental
+- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium is a core topic

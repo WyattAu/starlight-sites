@@ -153,3 +153,13 @@ The huge jump between the first ($496$) and second ($4562$) ionisation energies 
 removing the first electron is easy but removing a second electron requires breaking into the stable
 $[Ne]$ core. The ratio $4562/496 \approx 9.2$ shows that $\text{Na}^+$ is highly stable -- it is
 extremely energetically unfavourable to form $\text{Na}^{2+}$.
+
+## Common Mistakes
+
+**Confusing ionisation energy with electron affinity:** Ionisation energy is energy to remove an electron. Electron affinity is energy released when gaining an energy. They measure different processes.
+
+**Assuming noble gases have infinite ionisation energy:** Noble gases have very high ionisation energies, but they're not infinite. With enough energy, electrons can be removed.
+
+**Forgetting that successive ionisation energies increase:** Each subsequent electron is harder to remove because it comes from an increasingly positive ion. The jump between shells is much larger than within a shell.
+
+## Cross-References

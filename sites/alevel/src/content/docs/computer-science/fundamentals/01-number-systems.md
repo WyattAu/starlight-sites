@@ -703,3 +703,10 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+
+## Cross-References
+
+- **[Boolean Algebra](../computer-science/fundamentals/03-boolean-algebra):** Binary connects to logic gates
+- **[Programming](../computer-science/programming/03-data-representation-in-programming):** Number systems determine data representation
+- **[Operating Systems](../computer-science/fundamentals/05-operating-systems):** OS handles binary data

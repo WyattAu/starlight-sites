@@ -546,3 +546,11 @@ that cannot be correctly translated — the bacterial ribosomes would try to tra
 part of the protein, producing a non-functional product. CDNA, being a copy of the processed mRNA
 (without introns), can be transcribed and translated directly by the bacterial cell to produce
 functional insulin.
+
+## Common Mistakes
+
+**Forgetting that DNA polymerase cannot start a new strand from scratch:** Both in vivo replication and PCR require a primer to provide a free 3'-OH group. DNA polymerase can only extend an existing chain. Students often omit the primer step or forget to mention why two different primers are needed in PCR (forward and reverse, defining the region to be amplified).
+
+**Confusing epistasis with dominance:** Dominance is an interaction between alleles of the same gene (one allele masks another at the same locus). Epistasis is an interaction between different genes — the genotype at one gene locus masks or modifies the expression of alleles at a different locus. The 9:3:4 ratio in coat colour is epistasis, not a modified dihybrid ratio.
+
+**Assuming all substitution mutations change the amino acid sequence:** The genetic code is degenerate — most amino acids are encoded by more than one codon. A substitution in the third (wobble) position of a codon often produces a silent mutation that codes for the same amino acid. Not every base change alters the protein.

@@ -44,3 +44,11 @@ coroutines. Select an answer, submit, and review the explanation.
 <PracticeProblem client:only="solid-js" question={"What is the key difference between `launch` and `async` in Kotlin coroutines?&quot; options={[ 'launch returns a Job (fire-and-forget); async returns a Deferred<T> that produces a result', 'launch is blocking; async is non-blocking', 'launch runs on IO dispatcher; async runs on Default', 'There is no difference', ]} correctAnswer={0} explanation=&quot;`launch` starts a coroutine that returns a `Job` — it\'s fire-and-forget and doesn\'t return a value. `async` starts a coroutine that returns a `Deferred<T>`, which you can await with `.await()` to get the computed result. Use `async` when you need a result."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"What does the `suspend` keyword on a function signify?&quot; options={[ 'The function can be paused and resumed, and can only be called from a coroutine or another suspend function', 'The function runs on a separate thread', 'The function blocks the calling thread', 'The function is marked for garbage collection', ]} correctAnswer={0} explanation=&quot;A `suspend` function can suspend execution at suspension points without blocking a thread. It can only be called from within a coroutine or another suspend function. The compiler transforms suspend functions into state machines that handle suspension and resumption efficiently."} difficulty="easy"  />
+
+## Common Mistakes
+
+**Using `!!` (not-null assertion) as a shortcut:** `!!` throws a NullPointerException if the value is null. It defeats the purpose of null safety. Use safe calls (`?.`), Elvis operator (`?:`), or explicit null checks instead.
+
+**Forgetting that smart casts dont work with mutable properties:** If a variable is declared `var` and could be modified between the null check and usage, Kotlin cannot smart-cast it. Use a local val or explicit cast to work around this.
+
+**Confusing `let` with `apply` for null handling:** `?.let { ... }` executes the block only if the receiver is non-null and provides the non-null value as `it`. `?.apply { ... }` executes only if non-null but provides the receiver as `this`.

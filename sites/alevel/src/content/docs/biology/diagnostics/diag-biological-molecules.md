@@ -373,3 +373,18 @@ facilitated diffusion through a GLUT2 transporter on the basolateral membrane in
 blood, glucose dissolves in the plasma (water as solvent) and is transported to body cells. Cells
 take up glucose via facilitated diffusion through GLUT transporters on their cell surface membranes,
 driven by the concentration gradient between blood and the cell cytoplasm.
+
+## Common Mistakes
+
+**Confusing competitive and non-competitive inhibition on rate graphs:** Competitive inhibitors increase the apparent $K_m$ (the curve shifts right) but $V_{\max}$ stays the same, because at high substrate concentrations the substrate outcompetes the inhibitor. Non-competitive inhibitors reduce $V_{\max}$ (the plateau drops) but $K_m$ is unchanged. Students often swap these or assume non-competitive means the inhibitor binds the active site.
+
+**Thinking DNA replication is conservative after one generation:** In the Meselson-Stahl experiment, after one generation all DNA is of intermediate density, which is consistent with both semi-conservative and dispersive replication. Only after two generations does the appearance of a light band rule out dispersive replication. Do not conclude semi-conservative from one generation alone.
+
+**Assuming cellulose is indigestible because it is "inert":** Cellulose is not chemically inert — it is a polysaccharide with strong beta-1,4-glycosidic bonds. Humans lack cellulase, the enzyme needed to hydrolyse these bonds. The issue is enzyme specificity, not the chemical stability of the molecule itself.
+
+
+
+## Cross-References
+
+- **[Cell Biology](../biology/flashcards-cell-biology):** Explores the cellular structures that biological molecules build and maintain
+- **[Ecology](../biology/diagnostics/diag-ecology):** Biological molecules are the foundation of all living organisms in ecosystems

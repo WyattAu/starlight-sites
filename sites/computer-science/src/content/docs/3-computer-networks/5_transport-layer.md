@@ -274,3 +274,9 @@ The smoothed RTT converges toward the true average (~240 ms) and the RTO stabili
 
 
 </aside>
+
+## Cross-References
+
+- **[Network Layer](./4_network-layer.md):** IP addressing and routing protocols.
+- **[Application Layer](./6_application-layer.md):** HTTP and application protocols.
+- **[Network Security](./7_network-security.md):** TLS and transport security.

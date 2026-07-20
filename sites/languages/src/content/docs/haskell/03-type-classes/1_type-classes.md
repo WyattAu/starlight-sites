@@ -703,3 +703,11 @@ class Hashable a where
   hashWithSalt salt x = salt `combine` hash x
   -- Minimal complete definition: hash
 ```
+
+## Common Mistakes
+
+**Creating orphan instances:** Defining an instance for a type class in a module that defines neither the type nor the class causes orphan instances. These can conflict with other instances and break the global consistency guarantee.
+
+**Confusing `Foldable` with `Traversable`:** `Foldable` only consumes elements; `Traversable` applies an effectful function and preserves structure. Using `foldMap` when you need `traverse` loses the container shape.
+
+**Ignoring the monad laws:** Breaking left identity, right identity, or associativity laws makes monadic code behave unpredictably. Relying on a monad that violates these laws leads to subtle bugs during refactoring.

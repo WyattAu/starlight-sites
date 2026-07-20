@@ -743,3 +743,10 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+
+## Cross-References
+
+- **[Number Systems](../computer-science/fundamentals/01-number-systems):** OS manages binary data
+- **[Boolean Algebra](../computer-science/fundamentals/03-boolean-algebra):** OS uses Boolean logic
+- **[Data Structures](../computer-science/data-structures/05-graphs):** OS uses data structures for process management

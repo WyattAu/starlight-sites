@@ -117,3 +117,11 @@ tableOfContents: false
 | 10   | C        |
 
 **评分标准:** 答对 8 题及以上表示对高考数学基础知识掌握良好。对于答错的题目，请回顾相关章节内容并重新练习。
+
+## Common Mistakes
+
+**Confusing necessary and sufficient conditions:** "If A then B" does not mean "If B then A." In logical reasoning questions, reversing the implication is a common trap. Always check the direction of the implication.
+
+**Calculation errors in differentiation and integration:** Sign errors, wrong chain rule application, and incorrect substitution are the most common mistakes. Double-check each step, especially when dealing with negative signs and composite functions.
+
+**Misreading the question:** Gaokao questions sometimes include subtle constraints (e.g., "positive real numbers", "integer solutions"). Missing these constraints leads to solving the wrong problem entirely. Read every word carefully.

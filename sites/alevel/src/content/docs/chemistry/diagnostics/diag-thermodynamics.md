@@ -391,3 +391,19 @@ $$\text{LE} = -1220 - 1415 = -2635\,\mathrm{kJ\,mol^{-1}}$$ (2 marks).
 The large (negative) lattice energy reflects the high charges on $\mathrm{Ca}^{2+}$ and
 $\mathrm{F}^-$ and the small ionic radii, both of which increase the electrostatic attraction in the
 lattice (1 mark).
+
+## Common Mistakes
+
+**Confusing exothermic and endothermic bond-breaking:** Breaking bonds always requires energy (endothermic, $\Delta H > 0$). Forming bonds always releases energy (exothermic, $\Delta H < 0$). The sign of $\Delta H$ for a reaction depends on the balance between energy required to break bonds and energy released when new bonds form. Students often state that breaking bonds is exothermic.
+
+**Forgetting the sign convention in Hess's law cycles:** When reversing an equation, reverse the sign of $\Delta H$. When adding equations, add their $\Delta H$ values. A common error is forgetting to reverse the sign when reversing an arrow in the cycle, leading to incorrect enthalpy changes.
+
+**Confusing standard enthalpy of formation with standard enthalpy of combustion:** $\Delta H_f^\circ$ is the enthalpy change when 1 mol of a compound is formed from its elements in their standard states. $\Delta H_c^\circ$ is the enthalpy change when 1 mol of a substance is completely burned in excess oxygen. Using the wrong one in a Hess's law calculation gives the wrong answer.
+
+
+
+## Cross-References
+
+- **[Organic Chemistry](../chemistry/organic-chemistry/introduction):** Organic chemistry covers carbon-based compounds and their reactions
+- **[Physical Chemistry](../chemistry/flashcards-physical-chemistry):** Physical chemistry underpins reaction rates, energetics, and equilibrium
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines chemical bonding and reactivity

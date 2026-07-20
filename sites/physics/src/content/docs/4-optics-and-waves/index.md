@@ -76,3 +76,9 @@ Each section includes:
 3. **Draw diagrams**: Visualise interference and diffraction patterns
 4. **Learn Fourier optics**: Understand the connection between spatial and frequency domains
 5. **Connect to applications**: Relate optics to lasers, imaging, and telecommunications
+
+## Cross-References
+
+- **[Electromagnetism](../../3-electromagnetism/index.md):** Electromagnetic wave theory.
+- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum optics and photonics.
+- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Wave mechanics foundations.

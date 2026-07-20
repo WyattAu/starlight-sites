@@ -140,6 +140,14 @@ $$N = mg = 60 \times 9.8 = 588 \, \text{N}$$
 5. A block slides down a frictionless incline of angle $45^\circ$. Find the acceleration.
 6. Two masses of 4 kg and 6 kg are connected over a frictionless pulley. Find the acceleration and tension.
 
+## Intuition
+
+**Newton's laws are about prediction, not explanation:** The first law tells you what happens when nothing is pushing. The second law tells you how hard things accelerate when you push them. The third law tells you that every push comes with a push-back. Together, they form a complete framework for predicting motion — from a ball rolling down a hill to a planet orbiting a star.
+
+**Why it matters:** These laws are the foundation of classical mechanics. Every engineering calculation — bridge design, rocket trajectory, car crash analysis — starts with F=ma. Understanding friction, normal forces, and inertial frames is essential for solving real-world problems.
+
+**The key insight:** The normal force is not always equal to weight — it adjusts to whatever is needed to prevent surfaces from passing through each other. On an incline, the normal force is mg cosθ, not mg.
+
 ## Common Mistakes
 
 ### Mistake 1: Confusing mass with weight

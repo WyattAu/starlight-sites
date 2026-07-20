@@ -57,3 +57,17 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is the pH of a 0.050 M solution of HCl? (HCl is a strong acid.)&quot; options={['1.30', '1.00', '2.00', '0.50']} correctAnswer={0} explanation=&quot;HCl is a strong acid, so [H⁺]  = 0.050 M. pH = −log(0.050) = −log(5 × 10⁻²) = 2 − log5 = 2 − 0.699 = 1.30."} difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"You need to prepare a buffer with pH = 5.00. If you have 0.10 M CH₃COOH (pKa = 4.74), what concentration of CH₃COONa do you need?&quot; options={['0.18 M', '0.055 M', '0.10 M', '0.36 M']} correctAnswer={0} explanation=&quot;Using the Henderson-Hasselbalch equation: pH = pKa + log([A⁻]/[HA]). 5.00 = 4.74 + log([A⁻]/0.10). log([A⁻]/0.10) = 0.26. [A⁻]/0.10 = 10^0.26 = 1.82. [A⁻]  = 0.182 M ≈ 0.18 M."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Confusing strong acids with concentrated acids:** Strong acids dissociate completely. Concentrated acids have high molarity. A dilute strong acid is still strong; a concentrated weak acid is still weak.
+
+**Forgetting that pH is a logarithmic scale:** A change of 1 pH unit means a 10-fold change in [H⁺]. Don't assume pH 3 is "twice as acidic" as pH 6 — it's 1000 times more acidic.
+
+**Mixing up Ka with pKa:** Ka is the acid dissociation constant. pKa = -log Ka. Lower pKa means stronger acid. Don't confuse the two scales.
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure supports practice
+- **[Energetics](../chemistry/flashcards-energetics):** Energy calculations are tested
+- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium problems are practiced

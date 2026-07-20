@@ -222,3 +222,11 @@ $$\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{45
 - For microscopy questions, state both magnification and resolution differences between light and electron microscopes.
 - In osmosis problems, always draw a water potential gradient and indicate the direction of water movement.
 - When describing mitosis or meiosis phases, include the key event of each phase and the final chromosome number.
+
+
+
+## Cross-References
+
+- **[Cell Biology](../biology/cell-biology):** Cell biology is foundational
+- **[Genetics](../biology/3-genetics/genetics):** Genetics studies heredity
+- **[Ecology](../biology/2-ecology/ecology):** Ecology studies environments

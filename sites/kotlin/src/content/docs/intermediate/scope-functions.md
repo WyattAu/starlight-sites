@@ -323,6 +323,14 @@ val server = ServerBuilder()
     .also { log.info("Server started on ${it.host}:${it.port}") }
 ```
 
+## Intuition
+
+**Scope functions are about reducing repetition:** When you work with an object, you often repeat its name over and over: `obj.doThis(); obj.doThat(); obj.andThis()`. Scope functions let you say "do all this stuff with obj" without naming it each time. The choice between them comes down to two questions: do you want `this` or `it` context, and do you want the object or the block result back?
+
+**Why it matters:** Scope functions make Kotlin code concise and readable. They're everywhere in idiomatic Kotlin — from Android view setup (apply) to null-safe transformations (let) to logging (also). Understanding when to use each one separates fluent Kotlin from verbose Kotlin.
+
+**The key insight:** Use `apply` for configuration (returns the object), `let` for transformations (returns the block result), and `also` for side effects (returns the object without modifying the chain).
+
 ## Common Pitfalls
 
 - **Using `let` for configuration when `apply` is more appropriate.** `let` returns the block

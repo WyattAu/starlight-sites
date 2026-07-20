@@ -234,3 +234,11 @@ condition being signalled. The loop Re-checks the condition after every wakeup.
 ## Intuition
 
 Synchronisation is the art of preventing chaos when multiple threads share resources. A mutex is a key to a bathroom — only one person can hold it at a time. A semaphore is a count of available parking spaces — multiple cars can park, but once the lot is full, new arrivals must wait. A condition variable is like a waiting room buzzer — you wait until someone signals that the resource is ready. The dining philosophers problem illustrates the deadlock danger: if each philosopher picks up their left fork first and waits for the right, everyone starves. Solutions involve breaking the symmetry — making one philosopher pick up forks in a different order.
+
+## Common Mistakes
+
+**Confusing mutexes with semaphores:** A mutex is a binary lock (one thread at a time). A semaphore is a counting mechanism (multiple threads up to a limit). Don't use them interchangeably.
+
+**Forgetting that race conditions occur when operations aren't atomic:** Even simple operations like counter++ can race if multiple threads execute simultaneously. Always protect shared data.
+
+**Assuming locks prevent all concurrency issues:** Locks prevent race conditions but can cause deadlocks, livelocks, and priority inversion. synchronisation is more than just locking.

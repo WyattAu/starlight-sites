@@ -89,3 +89,11 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (B) | Convergence analysis identifies shared thematic concerns across texts while acknowledging their distinct contexts. |
 | 9 | (B) | Free indirect discourse blends third-person narration with a character's voice, thoughts, and linguistic patterns. |
 | 10 | (B) | Strong analysis depends on a coherent, well-supported argument rather than mere accumulation of quotations. |
+
+## Common Mistakes
+
+**Confusing denotation with connotation:** Denotation is the literal meaning of a word; connotation is the associated or implied meaning. When analysing language, the power usually lies in connotation. Saying "the word 'dark' means it is nighttime" is denotation; saying "dark connotes danger, ignorance, and moral corruption" is analysis. Always explore the associative meanings.
+
+**Using literary terminology without understanding it:** Terms like "unreliable narrator," "pathetic fallacy," and "free indirect discourse" have specific meanings. Using them incorrectly (e.g., calling any first-person narrator "unreliable" without evidence) weakens your analysis. Only use terminology you can define and apply precisely.
+
+**Accumulating quotations instead of building an argument:** A string of quotations with brief comments is not analysis. Each quotation should serve a specific point in a sustained argument. Plan your essay as a series of claims, each supported by close reading of specific evidence. Quality of engagement matters more than quantity of quotations.

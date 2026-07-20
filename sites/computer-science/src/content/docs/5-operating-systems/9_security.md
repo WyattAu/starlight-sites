@@ -139,3 +139,11 @@ the damage from any single vulnerability.
 ## Intuition
 
 Operating system security is the bouncer, the lock, and the surveillance camera all in one. Authentication is checking your ID at the door — are you who you claim to be? Authorisation is checking your ticket — are you allowed in this room? The protection ring model is like concentric castle walls — the kernel lives in the innermost ring with maximum privilege, and user programs live in outer rings with limited access. Buffer overflow attacks are like pouring more water into a glass than it can hold — the excess spills into adjacent memory, and a clever attacker can make it spill in a way that executes their code. Defence means building taller glasses and checking the pour.
+
+## Common Mistakes
+
+**Confusing authentication with authorisation:** Authentication verifies identity (who you are). Authorisation determines permissions (what you can do). Don't use them interchangeably.
+
+**Assuming encryption alone ensures security:** Encryption protects data confidentiality but doesn't prevent all attacks (e.g., denial of service, social engineering). Defence in depth is needed.
+
+**Forgetting that security is a process, not a product:** No single mechanism provides complete security. Regular updates, monitoring, and user education are essential components.

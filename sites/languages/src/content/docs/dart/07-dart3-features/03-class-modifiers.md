@@ -946,3 +946,10 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Classes and Inheritance](../04-object-oriented/01-classes-and-inheritance.md):** Foundational OOP concepts that class modifiers extend and restrict.
+- **[Error Handling](../08-error-handling.md):** Sealed class hierarchies for exhaustive exception handling patterns.
+- **[Variables](../03-basics/02-variables.md):** Type specifiers and null safety concepts underlying modifier design.
+- **[Best Practices](../04-best-practices.md):** API boundary best practices that motivate modifier usage.

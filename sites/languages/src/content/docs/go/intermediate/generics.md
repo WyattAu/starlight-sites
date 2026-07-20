@@ -334,3 +334,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Interfaces](./interfaces.md):** Type constraints in generics build on interface satisfaction.
+- **[Error Handling](./error-handling.md):** Generic error handling patterns with type parameters.
+- **[Arrays, Slices, and Maps](../basics/arrays-slices-maps.md):** Generic collection operations replacing type-specific implementations.

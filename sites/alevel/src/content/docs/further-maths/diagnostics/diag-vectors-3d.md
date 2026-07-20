@@ -162,3 +162,19 @@ $\mathbf{r} = \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix} + \int_0^t \begin{pmatri
 (d) At $t = 2$:
 $\mathbf{v} = \begin{pmatrix} 1+3 \\ 2 \\ 2-1 \end{pmatrix} = \begin{pmatrix} 4 \\ 2 \\ 1 \end{pmatrix}$.
 $\text{KE} = \frac{1}{2} \times 2 \times (16+4+1) = 21$ J.
+
+## Common Mistakes
+
+**Confusing the scalar (dot) and vector (cross) products:** The dot product $\mathbf{a} \cdot \mathbf{b}$ gives a scalar. The cross product $\mathbf{a} \times \mathbf{b}$ gives a vector perpendicular to both. Students often compute the cross product when asked for the dot product or vice versa. The dot product checks parallelism ($\mathbf{a} \cdot \mathbf{b} = |\mathbf{a}||\mathbf{b}|\cos\theta$); the cross product checks perpendicularity.
+
+**Forgetting to use unit direction vectors for lines:** The equation of a line through point $\mathbf{a}$ in direction $\mathbf{d}$ is $\mathbf{r} = \mathbf{a} + t\mathbf{d}$ where $\mathbf{d}$ should be a direction vector (not necessarily a unit vector). However, when finding the perpendicular distance from a point to a line, you need the component of $\mathbf{AP}$ perpendicular to $\mathbf{d}$, which requires the unit vector $\hat{\mathbf{d}} = \mathbf{d}/|\mathbf{d}|$.
+
+**Mixing up the angle between two vectors with the angle between a vector and a plane:** The angle between two vectors uses $\cos\theta = \frac{\mathbf{a} \cdot \mathbf{b}}{|\mathbf{a}||\mathbf{b}|}$. The angle between a vector and a plane uses $\sin\theta = \frac{\mathbf{a} \cdot \mathbf{n}}{|\mathbf{a}||\mathbf{n}|}$ where $\mathbf{n}$ is the normal to the plane. Using cosine for the plane angle gives the complement of the correct answer.
+
+
+
+## Cross-References
+
+- **[3D Vectors](../further-maths/pure-mathematics/vectors-3d):** 3D vectors extend 2D vector concepts
+- **[Further Calculus](../further-maths/pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
+- **[Pure Mathematics](../further-maths/further-maths):** Further maths extends A-level mathematics

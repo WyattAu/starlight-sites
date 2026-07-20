@@ -290,3 +290,11 @@ hubris.
 - For anthology study, group poems by theme and practise comparative plans
 - Learn to spot the volta: the turn that reveals the poem's true argument
 - Practise close reading on unseen poems to develop analytical speed and confidence
+
+
+
+## Cross-References
+
+- **[Literary Terms](../english/flashcards-literary-terms):** Poetry uses many literary devices
+- **[Twentieth Century](../english/10-twentieth-century/1_twentieth_century):** Modern poetry spans twentieth-century movements
+- **[Practice](../english/practice-literary-analysis.mdx):** Poetry analysis practice develops close reading

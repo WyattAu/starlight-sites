@@ -92,3 +92,17 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (B) | Tropical cyclones bring intense rainfall, storm surge, and flooding, posing significant hazards to Hong Kong. |
 | 9 | (B) | RCPs are scenarios used in IPCC reports projecting future greenhouse gas concentrations and their climate impacts. |
 | 10 | (A) | Hong Kong's seasonal temperatures are primarily influenced by latitude and the alternation between summer and winter monsoons. |
+
+## Common Mistakes
+
+**Confusing climate zones with latitude alone:** Climate is affected by latitude, altitude, ocean currents, and continental position. Two places at the same latitude can have very different climates.
+
+**Assuming all tropical cyclones are called hurricanes:** They're called typhoons in the western Pacific, cyclones in the Indian Ocean, and hurricanes in the Atlantic. Same phenomenon, different regional names.
+
+**Mixing up greenhouse effect with ozone depletion:** The greenhouse effect traps heat using CO₂ and other gases. Ozone depletion involves CFCs destroying the ozone layer. They're separate environmental issues.
+
+## Cross-References
+
+- **[Population](../geography/population):** Population dynamics are studied
+- **[Urbanization](../geography/urbanization):** Urbanisation is a major topic
+- **[Agriculture](../geography/agriculture):** Agriculture is linked to population

@@ -274,3 +274,19 @@ For subsequent stages: the carry-in must propagate through. The longest path for
 For 4 stages: $5$ (first stage) $+ 3 \times 13 = 5 + 39 = 44\text{ ns}$.
 
 Maximum propagation delay: $44\text{ ns}$.
+
+## Common Mistakes
+
+**Confusing AND, OR, and XOR gates in truth tables:** AND outputs 1 only when both inputs are 1. OR outputs 1 when at least one input is 1. XOR outputs 1 when inputs are different. Students often mix up OR and XOR, or forget that NAND is the complement of AND. Memorise the truth tables — they are the foundation of all digital logic.
+
+**Forgetting that processors fetch-execute in a cycle:** The fetch-decode-execute cycle repeats for every instruction. Students sometimes describe it as a one-time process. Each instruction goes through: fetch from memory, decode the opcode, execute the operation, store the result, then increment the program counter and fetch the next instruction.
+
+**Confusing volatile and non-volatile memory:** Volatile memory (RAM) loses its contents when power is off. Non-volatile memory (ROM, SSD, HDD) retains data without power. Cache is volatile. This distinction matters when discussing boot processes, data persistence, and memory hierarchy.
+
+
+
+## Cross-References
+
+- **[Number Systems](../computer-science/fundamentals/01-number-systems):** Binary and hexadecimal are essential for computing
+- **[Boolean Algebra](../computer-science/fundamentals/03-boolean-algebra):** Logic gates implement Boolean operations
+- **[Graph Algorithms](../computer-science/algorithms/03-graph-algorithms):** Algorithm design is central to computer science

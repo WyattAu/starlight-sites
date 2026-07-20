@@ -36,6 +36,14 @@ Using more memory can make an algorithm faster, and vice versa:
 - **Bloom filters:** Trade accuracy for space (probabilistic membership testing)
 - **In-place algorithms:** Trade speed for space (in-place sorts use O(1) extra space)
 
+## Common Mistakes
+
+**Confusing Big-O with exact running time:** Big-O describes growth rate, not exact time. O(n²) could be 1000n² or 0.001n² — both are O(n²). Don't assume O(n²) is always slower than O(n).
+
+**Forgetting that space complexity matters:** An algorithm with O(1) space may be preferred over O(n) space even if time complexity is similar. Memory is a finite resource.
+
+**Assuming all sorting algorithms have the same complexity:** Bubble sort is O(n²). Merge sort is O(n log n). Quick sort is O(n log n) average but O(n²) worst case. Know the differences.
+
 ## Cross-References
 
 - [[1-algorithms/data-structures]] - Data structure operations

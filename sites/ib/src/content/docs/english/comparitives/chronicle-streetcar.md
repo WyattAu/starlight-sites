@@ -657,3 +657,10 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+
+## Cross-References
+
+- **[Chronicle of a Death Foretold](../english/chronicle-of-a-death-foretold):** Comparative analysis examines both texts
+- **[Poetry Analysis](../english/poetry-analysis-guide):** Analytical skills transfer to poetry
+- **[Flashcards](../english/flashcards-poetry):** Literary terms apply across texts

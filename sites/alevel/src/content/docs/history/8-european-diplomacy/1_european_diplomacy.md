@@ -204,3 +204,11 @@ division into the Triple Alliance and Triple Entente. The assassination of Franz
 triggered a crisis that the alliance system, combined with miscalculation and rigid military
 planning, transformed into general war within a week. Key historiographical debates concern war
 guilt attribution and whether war was structurally inevitable or contingent on specific decisions.
+
+
+
+## Cross-References
+
+- **[Source Analysis](../history/diagnostics/diag-source-analysis):** Source analysis skills support historical study
+- **[Essay Techniques](../history/11-essay-techniques/1_essay_techniques):** Essay writing is essential for history
+- **[Tudor England](../history/2-tudor-england/1_tudor-england):** Tudor period provides rich historical material

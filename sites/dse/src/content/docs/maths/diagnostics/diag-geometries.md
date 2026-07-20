@@ -579,3 +579,11 @@ Equation: $y - (-2) = -1(x - 5) \implies y + 2 = -x + 5 \implies x + y - 3 = 0$.
 (c) On the $x$-axis, $y = 0$: $x - 3 = 0 \implies x = 3$.
 
 $T = (3, 0)$.
+
+
+
+## Cross-References
+
+- **[Functions](../maths/diagnostics/diag-functions):** Functions are central
+- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics are a core topic
+- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is fundamental

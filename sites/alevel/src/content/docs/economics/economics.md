@@ -271,3 +271,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+
+
+## Cross-References
+
+- **[Demand and Supply](../economics/diagnostics/diag-demand-supply):** Economics studies resource allocation
+- **[Macroeconomics](../economics/diagnostics/diag-macroeconomic-policy):** Macroeconomics examines economy-wide phenomena
+- **[Theory of the Firm](../economics/diagnostics/diag-theory-of-the-firm):** Microeconomics studies firm behaviour

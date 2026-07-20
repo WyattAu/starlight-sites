@@ -212,3 +212,17 @@ $5.87 \times 10^{-4}v = 2.92 \times 10^{-3}$
 $v = 4.97\ \text{cm}^3$
 
 Maximum volume of HCl: $4.97\ \text{cm}^3$.
+
+## Common Mistakes
+
+**Confusing strong acids with concentrated acids:** Strong acids dissociate completely. Concentrated acids have high molarity. A dilute strong acid is still strong; a concentrated weak acid is still weak.
+
+**Forgetting that pH is a logarithmic scale:** A change of 1 pH unit means a 10-fold change in [H⁺]. Don't assume pH 3 is "twice as acidic" as pH 6 — it's 1000 times more acidic.
+
+**Mixing up Ka with pKa:** Ka is the acid dissociation constant. pKa = -log Ka. Lower pKa means stronger acid. Don't confuse the two scales.
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines bonding
+- **[Energetics](../chemistry/flashcards-energetics):** Energy changes are fundamental
+- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium is a core topic

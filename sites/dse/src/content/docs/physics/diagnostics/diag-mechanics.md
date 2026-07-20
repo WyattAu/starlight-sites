@@ -287,3 +287,17 @@ $$d = \frac{0.1}{9.81} = 0.0102 \text{ m} = 1.02 \text{ cm}$$
 **Key insight:** Momentum is always conserved in collisions, but kinetic energy is only conserved in
 elastic collisions. The massive energy loss ($38.4$ J out of $38.5$ J) shows this is a highly
 inelastic collision.
+
+## Common Mistakes
+
+**Confusing mass with weight:** Mass is the amount of matter (kg). Weight is the force due to gravity (N). Don't use them interchangeably — a 70 kg person weighs about 686 N on Earth.
+
+**Forgetting to consider friction in real-world problems:** Idealised physics problems often ignore friction, but real systems always have it. When friction is mentioned, include it in your force diagrams and equations.
+
+**Mixing up momentum conservation with energy conservation:** Momentum is conserved in ALL collisions (isolated systems). Kinetic energy is only conserved in elastic collisions. Inelastic collisions lose KE to heat, sound, or deformation.
+
+## Cross-References
+
+- **[Mechanics](../physics/diagnostics/diag-mechanics):** Mechanics covers forces and motion
+- **[Waves](../physics/diagnostics/diag-waves-sound):** Waves transfer energy
+- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Electricity covers circuits

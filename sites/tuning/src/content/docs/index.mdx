@@ -10,3 +10,11 @@ hero:
       icon: right-arrow
       variant: primary
 ---
+
+## Common Mistakes
+
+**Optimising without profiling:** Guessing where bottlenecks are wastes time. Profile first to identify the actual bottleneck. A function that takes 1% of runtime is not worth optimising even if you make it 10x faster.
+
+**Confusing premature optimisation with good design:** Writing clean, well-structured code is not premature optimisation. Optimising obscure code paths before understanding the problem is. Know the difference.
+
+**Ignoring I/O bottlenecks:** CPU-bound optimisations are useless if the program spends most of its time waiting for disk or network I/O. Profile wall-clock time, not just CPU time. Async I/O, caching, and connection pooling often give bigger wins.

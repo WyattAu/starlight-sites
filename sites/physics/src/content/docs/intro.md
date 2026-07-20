@@ -24,3 +24,11 @@ Physics describes the fundamental laws governing the universe — from the motio
 - **[Classical Mechanics](/docs/university/physics/classical-mechanics)**: Newtonian and Lagrangian mechanics describe motion of macroscopic objects.
 - **[Electromagnetism](/docs/university/physics/electromagnetism)**: Maxwell's equations unify electricity, magnetism, and light.
 - **[Quantum Mechanics](/docs/university/physics/quantum-mechanics)**: Quantum theory governs behaviour at atomic and subatomic scales.
+
+## Common Mistakes
+
+**Skipping the derivation and memorising the formula:** Physics formulas are derived from principles. Memorising without understanding leads to wrong applications when conditions change.
+
+**Confusing precision with accuracy:** High-precision calculations with wrong assumptions give precise but inaccurate results. Always check whether the model matches the physical situation.
+
+**Ignoring sig figs and unit consistency:** Physics answers must have correct significant figures and consistent units. Dropping units mid-calculation leads to dimensional errors.

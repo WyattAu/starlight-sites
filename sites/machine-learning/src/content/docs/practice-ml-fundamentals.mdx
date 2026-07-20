@@ -216,3 +216,11 @@ sidebar_position: 50
 **Correct Answer:** (C)
 
 **Explanation:** When missingness depends on observed features (missing at random), model-based imputation methods leverage the relationships between features to produce more accurate imputations. k-NN imputation uses similar complete records to estimate missing values. Multiple imputation generates several plausible imputed datasets to account for imputation uncertainty. Simple mean imputation ignores relationships and distorts distributions. Listwise deletion can introduce bias and loses data.
+
+## Common Mistakes
+
+**Confusing classification with regression:** Classification predicts discrete labels. Regression predicts continuous values. Using a classification model for regression (or vice versa) gives meaningless results.
+
+**Not regularising when needed:** Regularisation prevents overfitting by penalising complex models. Without regularisation, models with many parameters memorise training data. Always use regularisation unless you have strong reasons not to.
+
+**Ignoring the cost function:** The cost function measures how wrong your model is. Different problems need different cost functions: MSE for regression, cross-entropy for classification. Optimising the wrong cost function produces models that minimise the wrong objective.

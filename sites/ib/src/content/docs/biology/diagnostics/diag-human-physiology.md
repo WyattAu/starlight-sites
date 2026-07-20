@@ -276,3 +276,13 @@ $\sim 98\%$ to $\sim 70\%$). This hypoxia causes altitude sickness symptoms: hea
 fatigue, and in severe cases, pulmonary or cerebral oedema. The body partially compensates through
 hyperventilation (reducing $P_{\text{CO}_2}$), increased heart rate, and eventually increased red
 blood cell production (polycythaemia).
+
+## Common Mistakes
+
+**Confusing arteries with veins:** Arteries carry blood away from the heart (usually oxygenated). Veins carry blood toward the heart (usually deoxygenated). The exception is pulmonary circulation.
+
+**Forgetting that homeostasis involves negative feedback:** Most body systems work by detecting deviations from a set point and reversing them. Don't assume positive feedback is the norm.
+
+**Mixing up the roles of the liver and kidneys:** The liver detoxifies chemicals and metabolises drugs. The kidneys filter blood and remove waste. They're both excretory but do different jobs.
+
+## Cross-References

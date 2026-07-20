@@ -373,3 +373,11 @@ trade balance (after the J-curve adjustment period).
 - Fixed exchange rates require foreign currency reserves and may involve sacrificing monetary policy
   independence (impossible trinity)
 - Key diagrams: exchange rate determination, J-curve, effects of appreciation/depreciation on trade
+
+
+
+## Cross-References
+
+- **[National Income](../economics/2-macroeconomics/1-national-income):** Exchange rates affect income
+- **[Fiscal Policy](../economics/2-macroeconomics/2-fiscal-policy):** Policy influences exchange rates
+- **[Barriers to Growth](../economics/4-development-economics/2-barriers-to-growth):** Volatility hinders development

@@ -263,3 +263,17 @@ $$\Delta d_{\min} = \frac{2.31}{2} = 1.16 \text{ mm}$$
 **Key insight:** Higher frequency gives better resolution (shorter wavelength) but poorer
 penetration depth. There is a fundamental trade-off in ultrasound imaging determined by the pulse
 repetition frequency and the speed of sound in the medium.
+
+## Common Mistakes
+
+**Confusing frequency with pitch and loudness:** Frequency determines pitch (high/low). Amplitude determines loudness (loud/quiet). Don't mix up which property affects which perception.
+
+**Forgetting that standing waves require reflection at boundaries:** Standing waves form when identical waves travelling in opposite directions interfere. This requires reflection at fixed ends (nodes) or free ends (antinodes).
+
+**Mixing up transverse and longitudinal standing waves:** String waves are transverse (displacement perpendicular to propagation). Sound waves are longitudinal (displacement parallel). The node/antinode concepts apply to both but represent different physical movements.
+
+## Cross-References
+
+- **[Mechanics](../physics/diagnostics/diag-mechanics):** Mechanics covers forces and motion
+- **[Waves](../physics/diagnostics/diag-waves-sound):** Waves transfer energy
+- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Electricity covers circuits

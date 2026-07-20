@@ -909,4 +909,10 @@ The Java type system reflects a series of deliberate tradeoffs:
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- **[Control Flow](./02-control-flow.md):** If-else, switch, and loop constructs that use the types defined here.
+- **[Concurrency Deep Dive](../../06-concurrency/02-concurrency-deep-dive.md):** Thread-safe variable access and synchronization patterns.
+- **[Generics](../../11-generics-reflection/01-generics.md):** Type parameterization extending the basic type system.
+
 </aside>

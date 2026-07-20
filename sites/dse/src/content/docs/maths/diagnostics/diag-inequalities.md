@@ -564,3 +564,11 @@ Solution: $x \in (1,\; 3)$.
 Intersection: $((-\infty,\; 0) \cup (2,\; \infty)) \cap (1,\; 3) = (2,\; 3)$.
 
 Solution: $x \in (2,\; 3)$.
+
+
+
+## Cross-References
+
+- **[Functions](../maths/diagnostics/diag-functions):** Functions are central
+- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics are a core topic
+- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is fundamental

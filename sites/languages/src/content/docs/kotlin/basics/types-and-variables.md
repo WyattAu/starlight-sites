@@ -294,3 +294,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Control Flow](./control-flow.md):** If-expressions, when, and loops that use the types defined here.
+- **[Null Safety Deep Dive](../advanced/null-safety-deep-dive.md):** Nullable type specifiers and safe-call operators.
+- **[Kotlin Practice](../practice-kotlin-basics.mdx):** Auto-graded problems testing type system fundamentals.

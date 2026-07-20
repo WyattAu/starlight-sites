@@ -352,3 +352,11 @@ $P = Fv$. As speed increases:
 The cyclist reaches a terminal velocity where the power output equals the rate of energy dissipation
 against resistance. The quadratic nature of the air resistance term ensures this equilibrium always
 exists at finite speed.
+
+
+
+## Cross-References
+
+- **[Kinematics](../physics/flashcards-kinematics):** Kinematics describes motion
+- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
+- **[Waves](../physics/flashcards-waves):** Waves transfer energy

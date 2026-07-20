@@ -356,6 +356,14 @@ func (t *Time) UnmarshalJSON(data []byte) error {
 }
 ```
 
+## Intuition
+
+**I/O is about composing streams:** Think of data flowing through a pipe system. `io.Reader` is a faucet that produces bytes, `io.Writer` is a drain that consumes them, and `io.Copy` is the pipe connecting them. Buffering (bufio) is like adding a reservoir — it batches small reads and writes to reduce the overhead of frequent system calls.
+
+**Why it matters:** Nearly every Go program does I/O — reading files, serving HTTP requests, processing JSON, logging. The io.Reader/io.Writer interfaces are the foundation that makes Go's standard library so composable. Once you understand these interfaces, you can read from files, network connections, strings, or any custom source with the same code.
+
+**The key insight:** `io.EOF` is not an error — it's a signal that the stream is exhausted. Always check for it separately from other errors.
+
 ## Common Pitfalls
 
 1. **Not closing files.** Always use `defer f.Close()` after opening a file. Even when `Close`

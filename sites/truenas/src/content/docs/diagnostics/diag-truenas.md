@@ -117,3 +117,11 @@ tableOfContents: false
 | 10       | D             |
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of TrueNAS administration fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
+
+## Common Mistakes
+
+**Confusing ZFS RAID levels:** RAIDZ1 is single-parity (like RAID 5). RAIDZ2 is double-parity (like RAID 6). RAIDZ3 has triple parity. Mirrors are RAID 1. Choosing the wrong level for your redundancy requirements risks data loss.
+
+**Not monitoring ZFS pool health:** ZFS scrubs should run regularly (monthly). Without scrubs, silent data corruption goes undetected. Configure automatic scrubs and monitor pool status.
+
+**Ignoring network bottlenecks:** TrueNAS performance depends on network speed. 1 Gbps Ethernet limits throughput to ~120 MB/s. For large file transfers, use 10 Gbps Ethernet or link aggregation.

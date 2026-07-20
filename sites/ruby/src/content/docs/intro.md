@@ -20,3 +20,11 @@ Ruby's elegant syntax and powerful metaprogramming features make it ideal for ra
 - **Testing and conventions**: RSpec, Minitest, and Ruby community conventions
 
 Browse the content using the sidebar navigation on the left.
+
+## Common Mistakes
+
+**Confusing nil with empty string/array:** nil is the absence of a value. "" is an empty string. [] is an empty array. Using .nil? vs .empty? vs checking size gives different results. nil.to_s returns "", which can mask nil values.
+
+**Using == for string comparison:** In Ruby, == compares string content (unlike Java). But equal? compares object identity. eql? compares content and type. Use == for most string comparisons, but be aware of the distinction.
+
+**Forgetting Ruby is object-oriented:** Everything in Ruby is an object, including integers, strings, and nil. 5.times { ... } works because integers are objects. This means methods can be called on any value, which is different from languages with primitive types.

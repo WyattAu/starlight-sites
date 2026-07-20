@@ -159,6 +159,14 @@ $$f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2$$
 4. Composition order matters: $(f \circ g)(x) = f(g(x))$, not $g(f(x))$
 5. A function has an inverse if and only if it is bijective; to find it, solve $y = f(x)$ for $x$
 
+## Intuition
+
+**A function is a machine with strict rules:** Picture a vending machine — you put in a specific coin (input), and you always get the same snack (output). A function is the same: same input always produces same output. Injective means no two different coins give the same snack. Surjective means every snack in the display can be obtained. Bijective means it's a perfect one-to-one correspondence.
+
+**Why it matters:** Functions are the language of mathematics itself — every equation, mapping, and transformation is expressed through functions. Understanding injectivity and surjectivity determines whether you can invert a function, solve equations uniquely, and define meaningful compositions.
+
+**The key insight:** Composition is not commutative because it's about the order of operations — putting on socks then shoes is fundamentally different from shoes then socks.
+
 ## Common Mistakes
 
 ### Mistake 1: Confusing composition order

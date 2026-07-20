@@ -340,3 +340,11 @@ $$T_{f2} = 58.97°\text{C}$$
 **Key insight:** The calorimeter absorbs some heat, which is often forgotten. Also, when mixing
 substances, the final temperature must be between the initial temperatures of all components. If the
 calculation gives a temperature outside this range, there is an error.
+
+
+
+## Cross-References
+
+- **[Mechanics](../physics/diagnostics/diag-mechanics):** Mechanics covers forces and motion
+- **[Waves](../physics/diagnostics/diag-waves-sound):** Waves transfer energy
+- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Electricity covers circuits

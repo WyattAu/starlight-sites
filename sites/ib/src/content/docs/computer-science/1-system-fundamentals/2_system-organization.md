@@ -908,3 +908,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+
+
+## Cross-References
+
+- **[System Fundamentals](../computer-science/flashcards-system-fundamentals):** System organisation builds on fundamentals
+- **[Algorithms](../computer-science/flashcards-algorithms-data-structures):** Hardware affects algorithm execution
+- **[Networking](../computer-science/flashcards-networks-databases):** Systems include network interfaces

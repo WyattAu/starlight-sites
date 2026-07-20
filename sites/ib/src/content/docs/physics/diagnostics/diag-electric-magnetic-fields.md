@@ -348,3 +348,17 @@ At $t \to \infty$: $I \to V/R = 0.12\,\text{A}$ and $V_L \to 0$.
 Energy stored in inductor:
 
 $$E = \frac{1}{2}LI_{\max}^2 = \frac{1}{2} \times 0.50 \times 0.12^2 = \frac{1}{2} \times 0.50 \times 0.0144 = 3.6 \times 10^{-3}\,\text{J} = 3.6\,\text{mJ}$$
+
+## Common Mistakes
+
+**Confusing electric field with electric potential:** Field is force per unit charge (N/C or V/m). Potential is energy per unit charge (V). Field is a vector; potential is a scalar.
+
+**Forgetting that magnetic fields do no work:** Magnetic forces are always perpendicular to velocity, so they change direction but not speed. They can't increase kinetic energy.
+
+**Mixing up right-hand rule conventions:** Use the right-hand rule for positive charges. For negative charges, the force is opposite. Don't forget to flip for electrons.
+
+## Cross-References
+
+- **[Kinematics](../physics/flashcards-kinematics):** Kinematics describes motion
+- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
+- **[Waves](../physics/flashcards-waves):** Waves transfer energy

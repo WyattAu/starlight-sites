@@ -318,4 +318,12 @@ are allowed to be loaded. For example,
 `Content-Security-Policy: default-src 'self'; script-src 'self' https://trusted-cdn.com` prevents:
 (1) Execution of inline scripts (blocking XSS attacks). (2) Loading scripts from unauthorised
 external domains. (3) Loading resources (images, styles, fonts) from untrusted sources. CSP provides
-defence in depth against XSS even if input sanitisation fails.
+ defence in depth against XSS even if input sanitisation fails.
+
+## Common Mistakes
+
+**Confusing HTML structure with CSS presentation:** HTML defines content structure (headings, paragraphs). CSS defines appearance (colours, layout). Don't use HTML tags for styling when CSS exists.
+
+**Forgetting that responsive design requires viewport meta tag:** Without `<meta name="viewport" content="width=device-width, initial-scale=1">`, mobile devices render pages at desktop width and zoom out.
+
+**Mixing up lossy and lossless image formats:** JPEG is lossy (compression degrades quality). PNG is lossless (preserves all data). Use JPEG for photos, PNG for graphics requiring transparency or sharp edges.

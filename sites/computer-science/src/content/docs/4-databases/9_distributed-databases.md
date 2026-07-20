@@ -165,3 +165,11 @@ reader returns the most recent version among the 3 responses.
 
 A distributed database is like a library with multiple branches — each branch has some books, and they need to coordinate to serve readers. Replication is making copies of books at every branch so that if one burns down, the books survive. Sharding is splitting the encyclopedia so each branch holds a different letter — no single branch has everything, but together they cover the whole alphabet. The hard part is keeping copies in sync when branches are far apart and connections are slow. Consistency models are the rules about how quickly changes at one branch show up at others — from "instantly everywhere" to "eventually, probably."
 
+## Common Mistakes
+
+**Confusing replication with sharding:** Replication copies data across nodes (for availability). Sharding splits data across nodes (for scalability). Don't use them interchangeably.
+
+**Assuming CAP theorem means choosing two of three:** CAP theorem says a distributed system can only guarantee two of three properties (consistency, availability, partition tolerance) during a network partition. In practice, you choose between CP and AP systems.
+
+**Forgetting that distributed transactions are expensive:** Two-phase commit across nodes has significant overhead. Consider eventual consistency for performance-critical applications.
+

@@ -380,3 +380,11 @@ $\int_0^3 \frac{x+1}{\sqrt{x+1}}\, dx = \int_0^3 (x+1)^{1/2}\, dx = \left[\frac{
 Alternatively, using linearity:
 $\int_0^3 \frac{x+1}{\sqrt{x+1}}\, dx = \int_0^3 \frac{x}{\sqrt{x+1}}\, dx + \int_0^3 \frac{1}{\sqrt{x+1}}\, dx = \frac{8}{3} + [2\sqrt{x+1}]_0^3 = \frac{8}{3} + 2(2-1) = \frac{8}{3} + 2 = \frac{14}{3}$.
 Confirmed.
+
+## Common Mistakes
+
+**Forgetting the absolute value in $\int \frac{1}{x}\,dx = \ln|x| + C$:** The antiderivative of $\frac{1}{x}$ is $\ln|x|$, not $\ln x$. Writing $\ln x$ is only valid for $x > 0$. When integrating over an interval that includes negative values (e.g., $\int_{-2}^{-1}$), you must use $\ln|x|$ to get the correct result.
+
+**Applying the Fundamental Theorem of Calculus across a singularity:** If the integrand has a discontinuity within the interval of integration (e.g., $\frac{1}{x}$ at $x = 0$), you must split the integral and treat it as a limit. Writing $[\ln|x|]_{-1}^{1} = 0$ is incorrect because the integral diverges at $x = 0$.
+
+**Confusing displacement with distance travelled:** Displacement is $\int \mathbf{v}\,dt$ (can be positive or negative). Distance is $\int |\mathbf{v}|\,dt$ (always positive). Students often compute displacement when the question asks for distance, or vice versa. When the velocity changes sign, you must split the integral at the point where $v = 0$.

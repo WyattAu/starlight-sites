@@ -63,3 +63,16 @@ the explanation.
 ### Metaprogramming
 
 <PracticeProblem client:only="solid-js" question={"Which method should you always define alongside method_missing to maintain respond_to? correctness?&quot; options={['respond_to_missing?', 'respond_to?', 'method_defined?', 'has_method?']} correctAnswer={0} explanation=&quot;respond_to_missing? must be defined alongside method_missing. Without it, respond_to? returns false for dynamically handled methods, breaking polymorphism. The second parameter include_private controls whether private methods are included."} difficulty="hard"  />
+
+## Cross-References
+
+- **[Ruby Flashcards](../flashcards-ruby-basics.mdx):** Interactive flashcards covering the same core Ruby concepts.
+- **[Elixir Basics](../../elixir/01-basics/1_basics-and-pattern-matching.md):** Functional programming patterns shared between Ruby and Elixir.
+
+## Common Mistakes
+
+**Using `equal?` when you mean `==`:** `equal?` checks object identity, not content. Two strings with identical content are different objects. Use `==` for value comparison.
+
+**Confusing `super` with `super()`:** `super` passes all arguments to the parent method; `super()` passes none. Using the wrong one causes unexpected argument forwarding or missing argument errors.
+
+**Assuming `return` exits the block:** `return` inside a block exits the enclosing method, not just the block. Use `next` to skip an iteration or `break` to exit the block early.

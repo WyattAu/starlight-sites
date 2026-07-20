@@ -115,3 +115,11 @@ Effective close reading of poetry requires attention to:
 - **AO3**: Contextualise within Romantic, Victorian, or Metaphysical traditions and their specific historical pressures.
 - **AO4**: Compare poems across periods to identify shifts in form, theme, and poetic voice.
 - **AO5**: Engage with critical interpretations, particularly of contested passages such as the closing of "Ode on a Grecian Urn."
+
+## Common Mistakes
+
+**Identifying poetic devices without explaining their effect:** Listing "the poet uses alliteration, metaphor, and enjambment" earns no marks unless you explain what each device achieves. Why does Keats use enjambment at this specific point? What does the sibilance create in the line's tone? The analysis must connect technique to meaning.
+
+**Assuming the speaker equals the poet:** In a dramatic monologue (e.g., Browning's "My Last Duchess"), the speaker is a character, not the poet. Attributing the speaker's views to the poet confuses the dramatic situation with the poet's own beliefs. Always consider who is speaking and why.
+
+**Ignoring the volta:** The turn in a sonnet (typically at line 9 for Petrarchan, or the final couplet for Shakespearean) is where the argument shifts, deepens, or reverses. Failing to identify and analyse the volta means missing the poem's structural argument. Ask: what changes at the turn, and why?

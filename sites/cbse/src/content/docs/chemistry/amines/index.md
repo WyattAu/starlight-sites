@@ -87,6 +87,14 @@ Amines are found in amino acids, neurotransmitters, pharmaceuticals (ephedrine, 
 - Azo dyes are formed by coupling reactions
 - Carbylamine reaction is specific to primary amines (isocyanide test)
 
+## Intuition
+
+**Amines are ammonia wearing different hats:** Picture ammonia (NH₃) with its lone pair of electrons sitting on nitrogen like a raised hand ready to bond. When you replace one or more hydrogens with carbon groups, you get amines. The more alkyl groups you add, the more you push electron density onto nitrogen, making it more eager to accept protons — until steric crowding gets in the way.
+
+**Why it matters:** Amines are everywhere in biology — amino acids, neurotransmitters, caffeine, and most drugs contain nitrogen. Understanding basicity trends helps predict drug absorption, and diazonium chemistry enables the synthesis of azo dyes used in textiles and food coloring.
+
+**The key insight:** Basicity in aqueous solution is a three-way competition between electron donation (increases basicity), steric hindrance (decreases it), and solvation of the conjugate acid (stabilizes it).
+
 ## Common Mistakes
 
 **Assuming more alkyl groups always means higher basicity.** While alkyl groups are electron-donating and increase basicity in the gas phase, steric effects and solvation effects in aqueous solution can reduce basicity for highly substituted amines. For example, trimethylamine is less basic than dimethylamine in water despite having more methyl groups.

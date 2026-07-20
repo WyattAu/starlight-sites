@@ -349,3 +349,17 @@ Buffer capacity can be increased by:
 1. Increasing the **total concentration** of the weak acid and its conjugate base (higher
    concentrations provide more $H^{+}$ or $OH^{-}$ to absorb).
 2. Keeping the ratio $[A^{-}]/[HA]$ close to 1 (maximum buffer capacity occurs when $pH = pK_{a}$).
+
+## Common Mistakes
+
+**Assuming diluting a weak acid by 10x increases pH by exactly 1:** This only applies to strong acids. For weak acids, dilution shifts the equilibrium right (Le Chatelier's principle), so more acid dissociates and pH increases by less than 1.
+
+**Confusing buffer capacity with buffer pH:** Buffer capacity is how much acid/base the buffer can absorb before pH changes significantly. A buffer with pH 5.00 can have different capacities depending on the total concentrations of the acid and conjugate base.
+
+**Forgetting that salt hydrolysis depends on the strength of the parent acid and base:** Salts of strong acid + strong base are neutral. Salts of weak acid + strong base are alkaline. Salts of strong acid + weak base are acidic. Don't assume all salts are neutral.
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is foundational
+- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium connects topics
+- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is a major area

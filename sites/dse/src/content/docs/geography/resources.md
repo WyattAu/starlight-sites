@@ -215,3 +215,17 @@ Resources are not just things in the ground — they are relationships between n
 6. **Consider trade-offs:** Resource management inherently involves trade-offs. Acknowledge that
    meeting one objective (e.g., housing supply) may conflict with another (e.g., environmental
    conservation). The examiner expects nuanced analysis.
+
+## Common Mistakes
+
+**Confusing water supply with water self-sufficiency:** Hong Kong can only meet 20-30% of water demand locally, but it's water secure because of Dongjiang supply. Don't assume dependence on imports equals insecurity.
+
+**Assuming Country Parks are only for conservation:** They also provide recreation, water catchment, and education functions. Don't describe them as purely environmental protection areas.
+
+**Mixing up land premium with rates:** Land premium is from selling/leasing land. Rates are annual property taxes. They're different revenue sources with different economic implications.
+
+## Cross-References
+
+- **[Population](../geography/population):** Population studies are central
+- **[Urbanization](../geography/urbanization):** Urbanisation is a key topic
+- **[Climate](../geography/diagnostics/diag-climate):** Climate affects geography

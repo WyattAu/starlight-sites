@@ -92,3 +92,17 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (B) | The fall of the Berlin Wall on 9 November 1989 became the iconic symbol of the end of communist rule in Eastern Europe. |
 | 9 | (B) | Inefficiencies of central planning, corruption, and excessive military expenditure contributed to Soviet economic stagnation. |
 | 10 | (B) | The Non-Aligned Movement comprised states seeking independence from both the Western and Soviet blocs during the Cold War. |
+
+## Common Mistakes
+
+**Assuming the Cold War was only between the US and USSR:** Many countries were involved as allies, proxies, or non-aligned states. The Sino-Soviet split shows the Communist bloc wasn't monolithic.
+
+**Confusing the Truman Doctrine with the Marshall Plan:** The Truman Doctrine (1947) was about military/political containment. The Marshall Plan (1948) was about economic reconstruction of Europe. They're related but different policies.
+
+**Mixing up détente with the end of the Cold War:** Détente (1970s) was a period of reduced tensions, not the end. The Cold War ended in 1989-1991 with the fall of the Berlin Wall and Soviet collapse.
+
+## Cross-References
+
+- **[Cold War](../history/diagnostics/diag-cold-war):** Cold War history is studied
+- **[Modern China](../history/diagnostics/diag-modern-china):** Modern China is a key topic
+- **[WWII](../history/diagnostics/diag-wwii):** WWII is a major topic

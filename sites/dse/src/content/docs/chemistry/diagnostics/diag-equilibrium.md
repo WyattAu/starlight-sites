@@ -356,3 +356,17 @@ New equilibrium concentrations:
 (c) **Yes**, $K_{c}$ remains the same ($49.0$). $K_{c}$ depends only on temperature, and the
 temperature has not changed. The equilibrium position shifts, but the ratio of product
 concentrations to reactant concentrations at equilibrium remains constant.
+
+## Common Mistakes
+
+**Thinking Kc changes with concentration or pressure changes:** Kc only changes with temperature. Adding reactants, changing volume, or adding inert gas shifts the equilibrium position but doesn't change Kc.
+
+**Confusing inert gas effects at constant volume vs constant pressure:** Adding inert gas at constant volume has no effect on equilibrium (partial pressures unchanged). Adding inert gas at constant pressure increases volume, decreasing partial pressures and shifting equilibrium toward more gas moles.
+
+**Forgetting to use equilibrium concentrations (not initial) in Kc expressions:** Set up an ICE table to track changes. The Kc expression uses equilibrium concentrations, not the initial amounts you started with.
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is foundational
+- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium connects topics
+- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is a major area

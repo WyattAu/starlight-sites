@@ -372,3 +372,17 @@ energies at $15^\circ\text{C}$ ($k_BT \approx 0.025\,\text{eV}$ vs nuclear bindi
 $\sim 10^6\,\text{eV}$).
 
 The dating calculation is therefore unaffected by the burial temperature.
+
+## Common Mistakes
+
+**Assuming temperature affects radioactive decay:** Decay constant λ is a nuclear property unaffected by temperature, pressure, or chemical state. Nuclear forces are much stronger than thermal energies.
+
+**Confusing mass number with atomic mass:** Mass number is the count of protons + neutrons (integer). Atomic mass is the actual mass in u (not necessarily integer). Don't round atomic mass to get mass number.
+
+**Mixing up binding energy with binding energy per nucleon:** Total binding energy is the energy to disassemble the nucleus. Binding energy per nucleon is total divided by nucleon count — this is what determines stability.
+
+## Cross-References
+
+- **[Kinematics](../physics/flashcards-kinematics):** Kinematics describes motion
+- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
+- **[Waves](../physics/flashcards-waves):** Waves transfer energy

@@ -933,4 +933,10 @@ Testing in Java is like quality control in a factory -- unit tests check individ
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- **[Annotations and Reflection](../11-generics-reflection/02-annotations-reflection.md):** Annotation-driven test discovery and reflection-based mocking.
+- **[Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive.md):** Concurrent test execution and thread-safe test fixtures.
+- **[I/O and NIO](../10-io-nio/01-io-nio.md):** File-based test fixtures and temporary directory management.
+
 </aside>

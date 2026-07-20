@@ -558,3 +558,10 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+
+## Cross-References
+
+- **[Number Systems](../computer-science/fundamentals/01-number-systems):** Data representation uses binary
+- **[Programming Constructs](../computer-science/programming/01-programming-constructs):** Data types determine operations
+- **[Boolean Algebra](../computer-science/fundamentals/03-boolean-algebra):** Boolean types implement logical values

@@ -178,3 +178,11 @@ After completing your own analysis of "Mirror," review your response against the
 10. Did you consider the poem's context where relevant, without relying on biographical speculation?
 
 If you are preparing for HL Paper 1, also review your response against the comparison criteria in Section 4.3 above. Ensure that your comparative analysis is explicit, sustained, and balanced between the two texts.
+
+
+
+## Cross-References
+
+- **[Poetry Analysis](../english/poetry-analysis-guide):** Literary analysis develops through study
+- **[Comparative Analysis](../english/comparitives/chronicle-streetcar):** Comparing texts builds analytical skills
+- **[Flashcards](../english/flashcards-poetry):** Literary terms support analysis

@@ -313,3 +313,17 @@ system meets their real-world needs. (3) It catches usability issues, workflow p
 requirement misunderstandings that technical testing misses. (4) UAT sign-off provides business
 confidence before deployment, reducing the risk of costly post-release fixes. (5) Involving users in
 testing increases adoption and reduces resistance to the new system.
+
+## Common Mistakes
+
+**Assuming binary search works on unsorted arrays:** Binary search requires a sorted array. Applying it to unsorted data gives incorrect results. Always sort first or use linear search.
+
+**Confusing primary keys with foreign keys:** A primary key uniquely identifies each record in a table. A foreign key references a primary key in another table to establish relationships. Don't confuse their roles.
+
+**Forgetting that SQL injection is a real threat:** Never concatenate user input directly into SQL queries. Always use parameterised queries or stored procedures to prevent attackers from injecting malicious SQL.
+
+## Cross-References
+
+- **[Data Representation](../ict/1-data-representation/1_data-representation):** Data is fundamental to ICT
+- **[Computer Systems](../ict/diagnostics/diag-computer-systems):** Systems process data
+- **[Programming](../ict/diagnostics/diag-programming-databases):** Programming manipulates data

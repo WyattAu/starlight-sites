@@ -987,4 +987,10 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- **[Python Flashcards](../flashcards-python-basics.mdx):** Interactive flashcards covering core Python concepts.
+- **[Python Practice](../practice-python-basics.mdx):** Auto-graded problems testing packaging and module patterns.
+- **[Python Interactive Practice](../practice-interactive.mdx):** Advanced practice problems including async and functional patterns.
+
 </aside>

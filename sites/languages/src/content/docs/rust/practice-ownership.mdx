@@ -95,3 +95,11 @@ import PracticeProblem from "@components/PracticeProblem";
 ### Enums and Pattern Matching
 
 <PracticeProblem client:only="solid-js" question={"What does `if let Some(x) = option_value { ... }` do?&quot; options={[ 'Executes the block only if the Option is Some, binding x to the inner value', 'Always executes', 'Unwraps the Option or panics', 'Converts Option to Result', ]} correctAnswer={0} explanation=&quot;if let is a pattern match that handles only one variant. If option_value is Some(x), x is bound to the inner value and the block executes. If it is Nothing, the block is skipped. It is a concise alternative to a full match statement."} difficulty="easy"  />
+
+## Common Mistakes
+
+**Assuming `Copy` types are moved:** Primitive types like `i32` and `bool` implement `Copy` and are copied, not moved. But structs and `String` are moved by default. Forgetting which types copy vs move causes confusion.
+
+**Confusing `Box`, `Rc`, and `Arc`:** `Box` is single-owner heap allocation; `Rc` is single-threaded shared ownership; `Arc` is multi-threaded shared ownership. Using the wrong one causes compile errors or data races.
+
+**Forgetting that `push` may reallocate:** Calling `push` on a `Vec` while holding an immutable reference to its contents invalidates the reference. Rust prevents this at compile time to avoid dangling pointers.

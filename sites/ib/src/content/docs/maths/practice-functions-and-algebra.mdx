@@ -54,3 +54,17 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"Find the coefficient of x³ in the expansion of (2x − 1)⁵.&quot; options={['−40', '80', '−80', '40']} correctAnswer={0} explanation=&quot;Using the binomial theorem: (2x − 1)⁵ = Σ C(5,k)(2x)^(5−k)(−1)^k. For x³, we need 5−k = 3, so k = 2. Coefficient = C(5,2)(2)³(−1)² = 10 × 8 × 1 = 80. Hmm, 80 not −40. Let me recheck: For x³: (2x)³ term comes from k where exponent of (2x) is 3, so we need the term C(5,2)(−1)²(2x)³ = 10 × 1 × 8x³ = 80x³. The coefficient is 80."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"In the expansion of (1 + 2x)⁸, find the term independent of x.&quot; options={['256', '128', '64', '1']} correctAnswer={0} explanation=&quot;The term independent of x has x⁰. From C(8,k)(2x)^k = C(8,k)(2^k)(x^k), we need k = 0 for x⁰. This gives C(8,0)(1) = 1. But that seems too simple. Actually the constant term (independent of x) is when k = 0: C(8,0)(1)(2x)⁰ = 1. However, if the question means the coefficient of x⁰ in the full expansion, it is directly 1 from the first term. If we consider (1 + 2x)⁸ expanded, the constant is 1, but the coefficients of x terms are large. The answer is 1."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Confusing the binomial coefficient with the term itself:** C(n,k) is just the coefficient. The full term includes the powers of a and b: C(n,k)a^(n-k)b^k. Don't forget the powers.
+
+**Forgetting to check domain restrictions:** When solving equations or finding inverses, always check for values that make expressions undefined (division by zero, square roots of negatives).
+
+**Mixing up function composition with multiplication:** f(g(x)) is composition, not f(x) × g(x). The order matters: f(g(x)) ≠ g(f(x)) in general.
+
+## Cross-References
+
+- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Algebra supports all practice
+- **[Functions](../maths/2-functions/functions):** Functions are tested
+- **[Calculus](../maths/5-calculus/calculus):** Calculus practice covers core techniques

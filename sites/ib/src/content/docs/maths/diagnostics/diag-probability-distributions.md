@@ -195,3 +195,13 @@ is indeed $730\,\mathrm{g}$The total weight is a random variable with spread (st
 $\approx 29.7\,\mathrm{g}$). The probability of exceeding $750\,\mathrm{g}$ is not $50\%$ — it is
 approximately $25\%$. The student failed to account for the variance of the sum. The probability is
 $50\%$ only at the mean ($730\,\mathrm{g}$), not at $750\,\mathrm{g}$.
+
+## Common Mistakes
+
+**Confusing mean with probability:** The mean is the expected value, not the probability of exceeding a value. Probability depends on the entire distribution, not just the mean.
+
+**Forgetting to add variances for independent random variables:** When summing independent variables, variances add (not standard deviations). Don't add standard deviations directly.
+
+**Mixing up discrete and continuous distributions:** Discrete distributions (binomial, Poisson) use exact values. Continuous distributions (normal) use intervals. Don't apply continuity correction to discrete distributions.
+
+## Cross-References

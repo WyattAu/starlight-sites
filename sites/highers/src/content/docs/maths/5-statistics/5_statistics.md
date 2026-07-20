@@ -647,6 +647,14 @@ Regression on $x$. The remaining 15% is due to other factors or random variation
 
 See the examples integrated throughout the sections above.
 
+## Intuition
+
+**Statistics is about making decisions from incomplete information:** You can't measure every fish in the ocean, but you can measure a sample and make educated guesses about the population. Statistics gives you the tools to quantify uncertainty — how confident can you be in your conclusions, and what could go wrong?
+
+**Why it matters:** Every scientific study, medical trial, quality control process, and election poll relies on statistics. Understanding probability distributions, hypothesis testing, and confidence intervals lets you evaluate claims and make data-driven decisions.
+
+**The key insight:** The standard deviation measures spread, not size — a dataset with values clustered near the mean has a small standard deviation, while one with values spread far from the mean has a large one.
+
 ## Common Pitfalls
 
 1. **Using $n$ instead of $n - 1$ for sample standard deviation:** The sample standard deviation

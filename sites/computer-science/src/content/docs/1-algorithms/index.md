@@ -56,3 +56,8 @@ Each section includes:
 3. **Analyse complexity**: Practice deriving time and space complexity for new algorithms
 4. **Learn the patterns**: Recognise common algorithm design paradigms (divide-and-conquer, dynamic programming)
 5. **Connect to applications**: Relate algorithms to real-world problems and data structures
+
+## Cross-References
+
+- **[Algorithm Analysis](../../2-algorithms-and-data-structures/1_algorithm-analysis.md):** Formal complexity analysis for the algorithms studied here.
+- **[Discrete Mathematics](../../mathematics/src/content/docs/1-abstract-algebra/index.md):** Graph theory and combinatorics foundations for algorithm design.

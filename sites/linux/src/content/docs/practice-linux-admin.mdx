@@ -216,3 +216,11 @@ sidebar_position: 50
 **Correct Answer:** (C)
 
 **Explanation:** AIDE (Advanced Intrusion Detection Environment) maintains a database of file checksums, permissions, and other attributes. Running `aide --check` compares the current filesystem state against the baseline database and reports any modifications, additions, or deletions. `diff` compares file contents. `find` searches for files. `ls -la` lists file attributes but does not compare against a baseline.
+
+## Common Mistakes
+
+**Editing system files without backups:** Before editing /etc/fstab, /etc/ssh/sshd_config, or other critical files, always create a backup. A typo in /etc/fstab can prevent the system from booting.
+
+**Not checking disk space before operations:** Large operations (package installation, log rotation) can fill disk space. A full root partition can crash the system. Check with `df -h` before major operations.
+
+**Ignoring log files for troubleshooting:** System logs (/var/log/syslog, journalctl) contain diagnostic information. When something fails, check the logs first. The error message usually tells you exactly what went wrong.

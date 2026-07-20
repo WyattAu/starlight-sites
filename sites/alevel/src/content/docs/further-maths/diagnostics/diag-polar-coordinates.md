@@ -218,3 +218,19 @@ Area inside cardioid, outside circle: $3\pi/2 - \pi = \pi/2$.
 The circle area is $9\pi/4 = 2.25\pi$ and cardioid area is $1.5\pi$. The circle area exceeds the
 cardioid area, so the overlap plus outside-cardioid-in-circle should equal $9\pi/4$. Outside
 cardioid, inside circle $= 9\pi/4 - \pi = 5\pi/4$.
+
+## Common Mistakes
+
+**Forgetting the $\frac{1}{2}$ in the polar area formula:** The area enclosed by a polar curve is $A = \frac{1}{2}\int r^2\,d\theta$, not $\int r^2\,d\theta$. The factor of $\frac{1}{2}$ comes from the geometry of the sector area. Omitting it doubles the answer — a very common error.
+
+**Mixing up the conversion between polar and Cartesian:** $x = r\cos\theta$, $y = r\sin\theta$, $r^2 = x^2 + y^2$, $\tan\theta = y/x$. Students sometimes write $r = x\cos\theta + y\sin\theta$ or confuse which functions go with which variable. Always derive from the right-angled triangle.
+
+**Using the wrong limits for polar integration:** The limits must be angles $\theta$, not distances $r$. When finding the area between two curves, identify the intersection angles by setting $r_1(\theta) = r_2(\theta)$ and solving for $\theta$. Do not use Cartesian $x$ or $y$ limits for polar integrals.
+
+
+
+## Cross-References
+
+- **[Polar Coordinates](../further-maths/pure-mathematics/polar-coordinates):** Polar coordinates extend coordinate geometry
+- **[Further Calculus](../further-maths/pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
+- **[Pure Mathematics](../further-maths/further-maths):** Further maths extends A-level mathematics

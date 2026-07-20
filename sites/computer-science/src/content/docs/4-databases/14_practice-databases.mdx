@@ -40,5 +40,17 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"In a B+ tree of order 4 (maximum 4 child pointers per internal node), what is the minimum number of keys in a non-root internal node?&quot; options={['1', '2', '3', '0']} correctAnswer={0} explanation=&quot;A B+ tree of order m requires non-root internal nodes to have at least ceil(m/2) children. With m=4: minimum children = ceil(4/2) = 2. Since the number of keys equals the number of children minus 1, the minimum number of keys is 2 - 1 = 1. The root is exempt from this constraint and may have as few as 1 key (2 children). This minimum occupancy guarantee ensures the tree remains balanced after deletions."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"Given R(a,b) with 1000 tuples (V(R,a)=100) and S(a,c) with 500 tuples (V(S,a)=100), estimate the size of R JOIN S on attribute a using the standard formula.&quot; options={['5000', '1500', '500', '500000']} correctAnswer={0} explanation=&quot;The standard join size estimation formula is: |R JOIN S| = |R| x |S| / max(V(R,join_attr), V(S,join_attr)). Substituting: 1000 x 500 / max(100, 100) = 500000 / 100 = 5000. The max of the distinct-value counts represents the number of distinct join key values available. Each of those values matches approximately |R|/V(R,a) = 10 tuples in R and |S|/V(S,a) = 5 tuples in S, giving roughly 10 x 5 = 50 result tuples per distinct value, times 100 distinct values = 5000."} difficulty="medium"  />
-
 <PracticeProblem client:only="solid-js" question={"Which index structure is most appropriate for efficiently answering range queries such as `WHERE price BETWEEN 50 AND 200`?&quot; options={[ 'B+ tree index, because leaf nodes are linked for sequential range scans', 'Hash index, because it provides O(1) average lookup time', 'Bitmap index, because it is optimized for high-cardinality columns', 'A covering index without any specific tree structure', ]} correctAnswer={0} explanation=&quot;B+ tree indexes store keys in sorted order within each node, and crucially, the leaf nodes are connected via sibling pointers forming a linked list. This allows a range query to find the starting point via tree traversal (O(log n)) and then scan sequentially through all matching leaves. Hash indexes support only equality lookups (O(1) average) but cannot perform range scans since data is distributed by hash buckets. Bitmap indexes are best for low-cardinality columns with Boolean operations, not range predicates."} difficulty="medium"  />
+
+## Common Mistakes
+
+**Confusing hash indexes with B-tree indexes:** Hash indexes are fast for equality lookups (O(1)) but can't do range queries. B-tree indexes handle both equality and range queries efficiently.
+
+**Forgetting that normalisation is about eliminating redundancy:** The goal is to reduce data duplication and update anomalies. Don't normalise just for the sake of it — consider query performance trade-offs.
+
+**Mixing up 2NF with 3NF:** 2NF eliminates partial dependencies. 3NF eliminates transitive dependencies. Don't confuse the two.
+
+## Cross-References
+- **[Databases Flashcards](../13_flashcards-databases.mdx):** Interactive flashcards covering database concepts.
+- **[Indexing](../5_indexing.md):** B-tree and hash index structures.
+- **[Normalisation](../4_normalisation.md):** Schema design and functional dependencies.

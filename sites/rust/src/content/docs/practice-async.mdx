@@ -242,3 +242,11 @@ async fn combined_operation() -> Result<(String, i32), AppError> {
     Ok((config, parsed))
 }
 ```
+
+## Common Mistakes
+
+**Spawning too many tasks:** Tokio tasks are lightweight but not free. Each task has overhead. For CPU-bound work, use a thread pool (spawn_blocking) rather than thousands of async tasks.
+
+**Blocking inside async functions:** Calling .await on a blocking operation blocks the async runtime thread. Use spawn_blocking for CPU-bound work and tokio::fs for async file I/O. Blocking the runtime starves other tasks.
+
+**Forgetting that futures are lazy:** Async functions return futures that do nothing until polled. Creating a future without .awaiting it or spawning it does nothing. The future must be driven to completion by the runtime.

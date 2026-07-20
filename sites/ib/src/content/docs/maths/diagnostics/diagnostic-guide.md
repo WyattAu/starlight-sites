@@ -333,3 +333,11 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+
+
+## Cross-References
+
+- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Diagnostics assess core skills
+- **[Functions](../maths/2-functions/functions):** Functions are tested
+- **[Calculus](../maths/5-calculus/calculus):** Calculus diagnostics cover differentiation

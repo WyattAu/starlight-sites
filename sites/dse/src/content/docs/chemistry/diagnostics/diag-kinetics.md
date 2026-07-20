@@ -348,3 +348,17 @@ on the **collision frequency** and the correct **orientation** of collisions (th
 factor). The rate would increase dramatically but would not be truly "instantaneous." In practice,
 at very high temperatures, other factors such as reactant decomposition or competing reactions may
 become significant.
+
+## Common Mistakes
+
+**Confusing reaction order with stoichiometric coefficients:** The order of reaction with respect to a reactant is determined experimentally, not from the balanced equation. Don't assume a coefficient of 2 means second order.
+
+**Thinking a catalyst shifts the Maxwell-Boltzmann distribution:** A catalyst lowers the activation energy threshold, it doesn't change the energy distribution of molecules. More molecules now exceed the lower Ea, but the distribution curve itself stays the same.
+
+**Mixing up half-life behaviour for different reaction orders:** First-order reactions have constant half-life. Second-order reactions have increasing half-life as concentration decreases. Use this to identify reaction order from half-life data.
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is foundational
+- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium connects topics
+- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is a major area

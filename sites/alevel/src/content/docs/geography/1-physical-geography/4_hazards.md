@@ -437,3 +437,11 @@ South Atlantic (too cool, strong wind shear) or the southeastern Pacific (cool H
 > **Sources**: AQA Geography (7037) specification; Smith, _Environmental Hazards_ (2013); USGS
 > earthquake data; NOAA National Hurricane Center; Haitian government reports; Japanese
 > Meteorological Agency; IPCC AR6.
+
+
+
+## Cross-References
+
+- **[Physical Geography](../geography/flashcards-physical-geography):** Physical geography studies natural Earth processes
+- **[Human Geography](../geography/flashcards-human-geography):** Human geography studies people-environment interactions
+- **[Fieldwork](../geography/3-fieldwork/1_fieldwork-methodology):** Fieldwork methods apply to geographic study

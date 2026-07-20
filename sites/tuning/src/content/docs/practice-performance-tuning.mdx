@@ -61,3 +61,11 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is the primary purpose of the turbostat tool?"} options={'Monitoring real-time CPU frequency, power, and thermal statistics', 'Profiling application code', 'Measuring disk throughput', 'Analyzing network traffic'} correctAnswer={0} explanation="turbostat reads MSRs directly to report per-core frequency, power draw, temperature, and C-state residency. It is the gold standard for CPU frequency and thermal monitoring on Intel and AMD platforms." difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"What does a high L1 cache miss rate in perf stat indicate?"} options={'The working set exceeds L1 cache capacity, or poor data access patterns', 'The CPU is thermally throttling', 'The disk is too slow', 'The network is congested'} correctAnswer={0} explanation="A high L1 cache miss rate means the application frequently accesses data not in L1 cache, forcing slower L2/L3/DRAM accesses. Solutions include improving data locality, restructuring data structures, or increasing cache-friendly access patterns." difficulty="medium"  />
+
+## Common Mistakes
+
+**Optimising code before understanding requirements:** Different requirements demand different optimisations. Low-latency systems prioritize latency over throughput. Data pipelines prioritize throughput. Know which metric matters before starting.
+
+**Ignoring algorithm complexity:** An O(n^2) algorithm cannot be made fast enough for large n by optimising constants. Switch to an O(n log n) algorithm. No amount of micro-optimisation fixes a fundamentally wrong algorithm choice.
+
+**Forgetting about memory allocation patterns:** Frequent small allocations cause GC pressure. Pre-allocate buffers, reuse objects, or use object pools. In hot paths, avoid allocation entirely.

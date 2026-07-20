@@ -288,6 +288,14 @@ Specialization of the generic function or type. There is no boxing or type erasu
 5. **Methods cannot add type parameters.** Only the type's own type parameters are available in
    methods.
 
+## Intuition
+
+**Generics are like templates with type safety:** Imagine writing a recipe that works for any ingredient — flour, sugar, or chocolate. Instead of writing three separate recipes, you write one generic recipe that works for all. Generics do the same for code: write a function or data structure once, use it with any type, and the compiler ensures type safety at compile time.
+
+**Why it matters:** Before Go 1.18, you either wrote duplicate code for each type or used `interface{}` and lost type safety. Generics give you the best of both worlds: code reuse without sacrificing compile-time guarantees. They're essential for writing generic data structures (trees, graphs, queues) and utility functions (Map, Filter, Reduce).
+
+**The key insight:** Constraints are the key to generics — they define what operations a type must support. A `Max[T cmp.Ordered]` function works because `cmp.Ordered` guarantees the type supports comparison operators.
+
 ## Common Pitfalls
 
 1. **Using `any` as a constraint when a narrower constraint exists.** `any` allows any type,

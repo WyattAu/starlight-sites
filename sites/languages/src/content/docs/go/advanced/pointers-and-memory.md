@@ -290,3 +290,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Types and Variables](../basics/types-and-variables.md):** Value types and variable declarations that interact with pointer semantics.
+- **[Networking](./networking.md):** Network buffer management using pointer-based I/O patterns.
+- **[Race Conditions](../concurrency/race-conditions.md):** Synchronization primitives for safe concurrent memory access.

@@ -555,3 +555,11 @@ $r^3 = \dfrac{313}{38}$.
 This does not simplify to a nice equation. The problem likely expects integer answers, suggesting
 the numbers may differ. The method is correct; the specific numbers may need adjustment for a clean
 result.
+
+
+
+## Cross-References
+
+- **[Functions](../maths/diagnostics/diag-functions):** Functions are central
+- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics are a core topic
+- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is fundamental

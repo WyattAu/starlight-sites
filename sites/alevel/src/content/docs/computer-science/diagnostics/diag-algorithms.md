@@ -265,3 +265,11 @@ def fib_iterative(n):
 
 Time complexity: $O(n)$ -- one loop iteration per value. Space complexity: $O(1)$ -- only three
 variables are used regardless of $n$.
+
+## Common Mistakes
+
+**Confusing time complexity with space complexity:** Big-O notation describes how the time (or space) requirement grows with input size. $O(n)$ means time grows linearly. $O(n^2)$ means time grows quadratically. A common mistake is stating "the algorithm is $O(n)$" without specifying whether you mean time or space — these are different things and must be evaluated separately.
+
+**Off-by-one errors in loop bounds:** When implementing binary search or iterative algorithms, the boundary conditions (whether to use $<$ or $\leq$, and how to update $lo$ and $hi$) are critical. An off-by-one error can cause the algorithm to miss the target or loop forever. Always trace through the smallest input case to verify your bounds.
+
+**Assuming recursion is always more efficient than iteration:** Recursion adds overhead from function call stacking. For problems like Fibonacci, naive recursion gives $O(2^n)$ while iteration gives $O(n)$. Use recursion when it naturally expresses the problem (e.g., tree traversal), but prefer iteration for simple loops.

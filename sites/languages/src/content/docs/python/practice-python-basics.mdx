@@ -61,3 +61,9 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What happens when you call an `async def` function without using `await`?&quot; options={[ 'It returns a coroutine object without executing the function body', 'It runs the function synchronously', 'It raises SyntaxError', 'It returns None', ]} correctAnswer={0} explanation=&quot;Calling an `async def` function does not execute its body. It creates and returns a coroutine object. To actually run the coroutine, you must `await` it inside another async function, or schedule it with `asyncio.run()`, `asyncio.create_task()`, or `asyncio.gather()`. The coroutine must be awaited or scheduled exactly once."} difficulty="hard"  />
 
 <PracticeProblem client:only="solid-js" question={"What is the effect of defining `__slots__ = ('x', 'y')` on a class?&quot; options={[ 'It replaces the per-instance __dict__ with fixed-size slots, preventing dynamic attribute assignment and reducing memory usage by 40-60%', 'It makes the class abstract', 'It enables multiple inheritance', 'It adds type checking to attributes x and y', ]} correctAnswer={0} explanation=&quot;`__slots__` tells the metaclass to allocate fixed attribute descriptors instead of a per-instance `__dict__`. This reduces memory overhead significantly for classes with many instances. Instances cannot have attributes not listed in `__slots__`, catching typos at runtime. All classes in the hierarchy must define `__slots__` for the full benefit."} difficulty="hard"  />
+
+## Cross-References
+
+- **[Python Flashcards](../flashcards-python-basics.mdx):** Interactive flashcards covering core Python concepts.
+- **[Python Interactive Practice](../practice-interactive.mdx):** Advanced practice with async and functional patterns.
+- **[Packaging and Distribution](../07-best-practices/04-packaging-distribution.md):** Package management and distribution best practices.

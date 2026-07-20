@@ -736,3 +736,11 @@ Ruby was designed to make programmers happy, which is unusual for a programming 
 - [Variables and Types](/docs/languages/ruby/01-basics/1_variables-and-types) introduces Ruby's dynamic typing and variable conventions covered in this overview.
 - [Control Flow](/docs/languages/ruby/02-control-flow/1_control-flow) implements the conditional logic and iteration described in this introduction.
 - [Object-Oriented Programming](/docs/languages/ruby/04-oop/1_oop) extends Ruby's basic concepts into full object-oriented design.
+
+## Common Mistakes
+
+**Not using `bundle exec` to run gems:** Running `rspec` directly instead of `bundle exec rspec` may use a system-installed version instead of the Gemfile-specified version, causing version conflicts.
+
+**Confusing `puts` with `print`:** `puts` adds a newline; `print` does not. Mixing them up leads to unexpected output formatting, especially in loops.
+
+**Forgetting Ruby uses 0-based indexing:** While obvious, a common off-by-one error occurs when counting array elements with `.length` vs accessing the last element with `.last` or `[-1]`.

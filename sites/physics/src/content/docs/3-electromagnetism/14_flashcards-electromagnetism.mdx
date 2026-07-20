@@ -20,3 +20,17 @@ import { flashcards1, flashcards2, flashcards3 } from '@/data/flashcards/physics
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="university-physics-electromagnetism" title="University Physics — Electromagnetism" description="Electrostatics, magnetism, electromagnetic induction, Maxwell's equations, and electromagnetic waves" cards={[...flashcards1, ...flashcards2, ...flashcards3]}  />
+
+## Cross-References
+
+- **[Electromagnetism](../index.md):** Maxwell's equations and electromagnetic theory.
+- **[Optics and Waves](../../4-optics-and-waves/index.md):** Electromagnetic waves and optics.
+- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Electromagnetic forces in classical mechanics.
+
+## Common Mistakes
+
+**Confusing the electric field from a point charge with that from a dipole:** Point charge: E ∝ 1/r². Dipole: E ∝ 1/r³ at large distances. Using the wrong falloff gives incorrect field strengths.
+
+**Forgetting that magnetic forces do no work:** The Lorentz force F = qv × B is always perpendicular to velocity. It changes direction but not speed. Including magnetic work in energy calculations is wrong.
+
+**Mixing up SI and Gaussian units:** Coulomb's law is F = q₁q₂/(4πε₀r²) in SI; F = q₁q₂/r² in Gaussian. Mixing unit systems gives answers off by factors of 4π or c.

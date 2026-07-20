@@ -10,3 +10,11 @@ hero:
       icon: right-arrow
       variant: primary
 ---
+
+## Common Mistakes
+
+**Assuming security is a feature you add later:** Security must be built in from the start (security by design). Bolting security onto an existing system is expensive and error-prone. Threat modelling and secure coding should be part of development from day one.
+
+**Using MD5 or SHA-1 for password hashing:** MD5 and SHA-1 are cryptographically broken. Never use them for password storage. Use bcrypt, scrypt, or Argon2 — these are slow by design to resist brute-force attacks.
+
+**Hardcoding secrets in source code:** API keys, passwords, and certificates in source code are exposed in version control. Use environment variables, secret managers (Vault, AWS Secrets Manager), or encrypted configuration files. Never commit secrets.

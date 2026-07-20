@@ -811,3 +811,17 @@ structured to gracefully recover from them.
 
 In the next section, we will explore Elixir's basic data types and the pattern matching system that
 is central to the language.
+
+## Cross-References
+
+- **[Basics and Pattern Matching](../01-basics/1_basics-and-pattern-matching.md):** Explores the pattern matching and data type fundamentals introduced here.
+- **[Metaprogramming](../04-advanced/1_metaprogramming.md):** Advanced compile-time code generation using macros and quote/unquote.
+- **[Elixir Flashcards](../flashcards-elixir-basics.mdx):** Interactive flashcards testing the core concepts from this introduction.
+
+## Common Mistakes
+
+**Confusing Erlang and Elixir syntax:** While they run on the same BEAM VM, Elixir uses Ruby-like syntax. Using Erlang-style syntax like `atom()` or `end.` causes parse errors in Elixir.
+
+**Forgetting that strings are binaries:** Elixir strings are UTF-8 binaries, not charlists. Using Erlang-style single-quoted strings (`'hello'`) creates charlists, which behave differently from double-quoted strings.
+
+**Using `=` without understanding pattern matching:** `=` is a match operator, not assignment. On first use it binds, but subsequent uses must match the existing value. Forgetting this causes `MatchError` exceptions.

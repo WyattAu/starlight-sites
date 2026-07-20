@@ -53,3 +53,11 @@ review the explanation.
 ### Lazy Evaluation
 
 <PracticeProblem client:only="solid-js" question={"Why can you write `take 5 [1..]` in Haskell without it looping forever?&quot; options={[ 'Lazy evaluation only computes elements as needed', 'The list [1..] is finite', 'take forces the entire list then truncates', 'Haskell uses strict evaluation for ranges', ]} correctAnswer={0} explanation=&quot;Laziness (call-by-need) means [1..] produces an infinite list but elements are only computed when demanded. take 5 demands only the first 5 elements, so the rest of the infinite list is never computed. This is a core advantage of lazy evaluation."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Forgetting that Haskell uses 0-based indexing:** Lists and arrays in Haskell are indexed from 0. `xs !! 0` gives the first element. Using 1-based indexing from other languages causes off-by-one errors.
+
+**Confusing `=` (definition) with `==` (equality test):** `=` defines a name; `==` tests equality. Using `=` in a guard or comparison context is a syntax error. This is a common mistake for programmers from C-family languages.
+
+**Ignoring the type checker:** Haskell has one of the most powerful type systems in mainstream use. When the type checker complains, it is almost always telling you something is wrong. Read the error message carefully — it usually points directly to the bug.

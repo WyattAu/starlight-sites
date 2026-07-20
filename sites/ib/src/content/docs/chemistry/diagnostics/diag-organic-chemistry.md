@@ -201,3 +201,17 @@ intermediate), so there is no opportunity for the configuration to racemise.
 Using hybridisation: the central carbon's $sp^3$ orbital involved in the C--Br bond rehybridises
 towards $sp^2$ in the transition state (trigonal planar geometry), then back to $sp^3$ in the
 product with the nucleophile occupying the position vacated by the leaving group.
+
+## Common Mistakes
+
+**Confusing SN1 with SN2 mechanisms:** SN1 is two-step (carbocation intermediate), favoured by tertiary substrates. SN2 is one-step (backside attack), favoured by primary substrates. Don't assume all nucleophilic substitutions follow the same mechanism.
+
+**Forgetting that Markovnikov's rule applies to HX addition:** When HX adds to an unsymmetrical alkene, H goes to the carbon with more H atoms. This gives the more stable carbocation intermediate.
+
+**Mixing up elimination with substitution:** Elimination removes atoms to form a double bond. Substitution replaces one atom/group with another. Both can compete under the same conditions.
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines bonding
+- **[Energetics](../chemistry/flashcards-energetics):** Energy changes are fundamental
+- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium is a core topic

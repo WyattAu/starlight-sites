@@ -39,5 +39,17 @@ the explanation.
 ### Graph Theory
 
 <PracticeProblem client:only="solid-js" question={"Which condition is necessary for a connected graph to have an Euler circuit?&quot; options={[ 'Every vertex has even degree', 'The graph has exactly two vertices of odd degree', 'The graph is a tree', 'The graph has no cycles', ]} correctAnswer={0} explanation=&quot;Euler\'s theorem: a connected graph has an Euler circuit (closed walk using every edge exactly once) if and only if every vertex has even degree. If exactly two vertices have odd degree, the graph has an Euler trail but not a circuit. Trees have no cycles so they cannot have Euler circuits, since a circuit requires returning to the start via edges."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"A connected planar graph has 6 vertices, each of degree 4. How many edges does it have, and does it have an Euler circuit?&quot; options={[ '12 edges, yes (all degrees are even)', '12 edges, no (degrees are odd)', '24 edges, yes', '6 edges, no', ]} correctAnswer={0} explanation=&quot;By the handshaking lemma: sum of all degrees = 2 * |E|. Sum = 6 * 4 = 24, so |E| = 24/2 = 12 edges. Since every vertex has degree 4 (even), and the graph is connected, it satisfies Euler's condition. The graph has an Euler circuit because all vertices have even degree and the graph is connected."} difficulty="hard"  />
 
-<PracticeProblem client:only="solid-js" question={"A connected planar graph has 6 vertices, each of degree 4. How many edges does it have, and does it have an Euler circuit?&quot; options={[ '12 edges, yes (all degrees are even)', '12 edges, no (degrees are odd)', '24 edges, yes', '6 edges, no', ]} correctAnswer={0} explanation=&quot;By the handshaking lemma: sum of all degrees = 2 * |E|. Sum = 6 * 4 = 24, so |E| = 24/2 = 12 edges. Since every vertex has degree 4 (even), and the graph is connected, it satisfies Euler\'s condition. The graph has an Euler circuit because all vertices have even degree and the graph is connected."} difficulty="hard"  />
+## Common Mistakes
+
+**Confusing Euler circuits with Hamiltonian circuits:** Euler circuits visit every EDGE exactly once. Hamiltonian circuits visit every VERTEX exactly once. They're different graph problems.
+
+**Forgetting the handshaking lemma:** The sum of all vertex degrees equals twice the number of edges. This is useful for counting and verification.
+
+**Mixing up planar with planar-embedded:** A planar graph can be drawn without edge crossings. A planar embedding is a specific drawing. Don't assume all drawings of a planar graph are planar embeddings.
+
+## Cross-References
+- **[Discrete Mathematics Flashcards](../8_flashcards-discrete-mathematics.mdx):** Interactive flashcards covering the same discrete math concepts.
+- **[Algorithms](../../1-algorithms/index.md):** Algorithm design techniques that apply graph theory from discrete math.
+- **[Mathematics](../../mathematics/src/content/docs/index.mdx):** University-level mathematics including graph theory and combinatorics.

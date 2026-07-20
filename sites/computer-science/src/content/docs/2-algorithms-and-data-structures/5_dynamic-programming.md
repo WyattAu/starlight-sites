@@ -274,3 +274,9 @@ Dynamic programming is solving complex problems by breaking them into overlappin
 **Incorrect state transitions.** In the 0/1 knapsack, the recurrence is $\max(dp[i-1][c], dp[i-1][c-w_i] + v_i)$, not $\max(dp[i][c], dp[i-1][c-w_i] + v_i)$. Using the current row instead of the previous row causes items to be counted multiple times. Trace through small examples to verify your recurrence.
 
 **Confusing memoisation and tabulation space complexity.** Memoisation uses $O(n)$ stack space plus $O(n)$ table space, while tabulation uses only $O(n)$ table space (or $O(1)$ with rolling arrays). For deep recursion, memoisation may cause stack overflow. Choose tabulation when space is constrained or the recursion depth is large.
+
+## Cross-References
+
+- **[Algorithm Analysis](./1_algorithm-analysis.md):** Complexity analysis fundamentals for dynamic programming.
+- **[Algorithms Flashcards](../1-algorithms/flashcards-algorithms.mdx):** Algorithm design paradigms including dynamic programming.
+- **[Databases](../../4-databases/index.md):** Query optimization using dynamic programming for join ordering.

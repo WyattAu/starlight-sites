@@ -660,3 +660,17 @@ data Person = Person
 6. **Keep type-level programming simple**: complex type-level code is hard to debug and understand.
 7. **Document kind signatures** when working with DataKinds.
 8. **Use Template Haskell sparingly**: it can make code harder to read and debug.
+
+## Cross-References
+
+- **[Types and Functions](../01-basics/1_types-and-functions.md):** Basic type system that advanced types extend with GADTs and type families.
+- **[Monads and Functors](../04-monads/1_monads-and-functors.md):** Monad transformers and effect stacking that use advanced type features.
+- **[Concurrency](./2_concurrency.md):** STM and async patterns that benefit from phantom type safety.
+
+## Common Mistakes
+
+**Using `data` when `newtype` would suffice:** `data` allocates an extra constructor wrapper at runtime. Use `newtype` for single-constructor, single-field types to get zero-cost abstractions.
+
+**Forgetting that type families are open:** Type family instances can be added anywhere, potentially causing overlapping instances. Close your type families or use closed type families to prevent unexpected overlaps.
+
+**Overusing Template Haskell:** TH makes code harder to read, debug, and compile. It creates separate compilation boundaries and can produce confusing error messages. Prefer plain Haskell unless TH is truly necessary.

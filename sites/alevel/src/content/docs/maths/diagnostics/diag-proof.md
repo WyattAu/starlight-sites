@@ -400,3 +400,11 @@ Divisible by 7. By induction, $3^{2n+1} + 2^{n+2}$ is divisible by 7 for all $n 
 | 4   | 21            | No ($21 = 3 \times 7$) |
 
 The smallest counterexample is $n = 4$: $4^2 + 4 + 1 = 21$Which is not prime.
+
+
+
+## Cross-References
+
+- **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Pure maths covers algebra, calculus, and functions
+- **[Mechanics](../maths/practice-mechanics):** Mechanics applies maths to physical problems
+- **[Statistics](../maths/statistics/statistics):** Statistics develops data analysis methods

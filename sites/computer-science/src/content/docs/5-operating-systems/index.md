@@ -68,3 +68,9 @@ Each section includes:
 3. **Learn synchronisation**: Master mutexes, semaphores, and condition variables
 4. **Analyse trade-offs**: OS design always involves trade-offs (performance vs. fairness)
 5. **Connect to real systems**: Study Linux/Unix internals to understand theoretical concepts
+
+## Cross-References
+
+- **[Systems](../../2-systems/index.md):** Computer architecture and hardware systems.
+- **[Databases](../../4-databases/index.md):** Transaction management and concurrency control.
+- **[Computer Networks](../../3-computer-networks/index.md):** Network I/O and protocol handling.

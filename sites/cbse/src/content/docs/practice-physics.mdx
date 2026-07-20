@@ -40,3 +40,11 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"In a transistor, the current gain $\\beta = 99$. If the base current $I_B = 20$ $\\mu$A, the collector current $I_C$ is:&quot; options={['1.98 mA', '2.00 mA', '0.20 mA', '0.99 mA']} correctAnswer={0} explanation=&quot;$\\beta = \\dfrac{I_C}{I_B}$, so $I_C = \\beta \\cdot I_B = 99 \\times 20 \\times 10^{-6} = 1980 \\times 10^{-6}$ A $= 1.98$ mA. The emitter current $I_E = I_C + I_B = 1.98 + 0.02 = 2.00$ mA."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"In an LED (Light Emitting Diode), the colour of emitted light depends on:&quot; options={[ 'The band gap energy of the semiconductor material', 'The intensity of forward current', 'The applied reverse voltage', 'The physical size of the diode', ]} correctAnswer={0} explanation=&quot;The colour of light emitted by an LED is determined by the energy of photons released during electron-hole recombination across the band gap: $E = hc/\\lambda$. A wider band gap produces shorter wavelength (higher energy) light. For example, GaAs ($E_g \\approx 1.43$ eV) emits infrared; GaAsP ($\\approx 1.9$ eV) emits red; GaN ($\\approx 3.4$ eV) emits blue/violet."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Using the wrong value of gravitational acceleration:** CBSE physics problems use $g = 9.8$ m/s$^2$ (or sometimes $g = 10$ m/s$^2$ for approximation). Using $g = 32.2$ ft/s$^2$ (imperial) or mixing units gives incorrect numerical answers. Always check whether the problem specifies $g = 9.8$ or $g = 10$.
+
+**Confusing the lens formula sign convention:** The lens formula $1/f = 1/v - 1/u$ uses sign conventions where distances measured in the direction of incident light are positive. A common error is using $1/f = 1/v + 1/u$ (mirror formula) for lenses. Convex lenses have positive focal lengths; concave lenses have negative focal lengths.
+
+**Confusing drift velocity with thermal velocity of electrons:** Drift velocity ($v_d \approx 10^{-4}$ m/s) is the average velocity of electrons in a conductor under an applied field. Thermal velocity ($\approx 10^5$ m/s) is the random velocity due to thermal agitation. The drift velocity is orders of magnitude smaller, but it is what determines current flow.

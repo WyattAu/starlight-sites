@@ -421,3 +421,11 @@ $$
 
 $$
 - Key calculations: nominal-to-real conversion, GDP deflator, per capita adjustments
+
+
+
+## Cross-References
+
+- **[Fiscal Policy](../economics/2-macroeconomics/2-fiscal-policy):** Fiscal policy affects national income
+- **[Market Failure](../economics/1-microeconomics/3-market-failure):** Aggregate supply relates to markets
+- **[Exchange Rates](../economics/3-international-economics/2-exchange-rates):** Income affects exchange rates

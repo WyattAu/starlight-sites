@@ -281,3 +281,11 @@ Protestantism; Mary I attempted Catholic restoration. Elizabeth I's settlement s
 through compromise. Key debates centre on whether the Reformation was popular or imposed, the nature
 of Elizabeth's settlement, and the effectiveness of Tudor governance. Source analysis requires
 attention to religious bias, propaganda, and the political purposes behind all types of evidence.
+
+
+
+## Cross-References
+
+- **[Source Analysis](../history/diagnostics/diag-source-analysis):** Source analysis skills support historical study
+- **[Essay Techniques](../history/11-essay-techniques/1_essay_techniques):** Essay writing is essential for history
+- **[Tudor England](../history/2-tudor-england/1_tudor-england):** Tudor period provides rich historical material

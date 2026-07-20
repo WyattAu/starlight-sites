@@ -168,3 +168,11 @@ After completing your own analysis of "Digging," review your response against th
 10. Did you consider the poem's context where relevant, without relying on biographical speculation?
 
 If you answered "no" to any of these questions, revise your response to address the gap. The difference between a competent and an excellent Paper 1 response lies not in the quantity of observations but in the precision and depth with which each observation is developed.
+
+## Common Mistakes
+
+**Confusing summary with analysis:** Summary describes what happens in the poem. Analysis explains how and why the poet creates meaning. IB English Paper 1 rewards analysis, not summary.
+
+**Forgetting to connect technique to meaning:** Always explain why a poet chose a particular technique and what effect it creates. Don't just identify techniques without explaining their significance.
+
+**Assuming there's one correct interpretation:** Poetry often supports multiple valid readings. Consider different perspectives and explain which you find most convincing.

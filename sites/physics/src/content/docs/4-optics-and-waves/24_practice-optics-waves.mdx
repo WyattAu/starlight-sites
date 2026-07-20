@@ -52,3 +52,11 @@ modern optics (laser fundamentals, interferometry).
 <PracticeProblem client:only="solid-js" question={"According to Malus\'s law, if linearly polarized light of intensity I_0 passes through a polarizer whose transmission axis is at 45 degrees to the polarization direction, what is the transmitted intensity?&quot; options={['I_0 / 2', 'I_0 / sqrt(2)', 'I_0 / 4', 'I_0 * cos(45 degrees)']} correctAnswer={0} explanation=&quot;Malus\'s law: I = I_0 * cos^2(theta) = I_0 * cos^2(45 degrees) = I_0 * (1/sqrt(2))^2 = I_0 * 1/2 = I_0/2. Note that the transmitted intensity is proportional to cos^2(theta), not cos(theta). At theta = 90 degrees (crossed polarizers), the transmitted intensity drops to zero."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"A helium-neon laser (lambda = 632.8 nm) is used in a Michelson interferometer. How far must one mirror be moved to observe exactly 500 bright fringe shifts pass?&quot; options={['0.158 mm', '0.316 mm', '0.079 mm', '0.063 mm']} correctAnswer={0} explanation=&quot;Each fringe shift corresponds to a mirror displacement of lambda/2 (the light traverses the changed path twice). Total displacement: d = N * lambda / 2 = 500 * 632.8 x 10^-9 m / 2 = 500 * 316.4 x 10^-9 m = 1.582 x 10^-4 m = 0.158 mm. Michelson interferometers can measure displacements with sub-wavelength precision using fringe counting."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Forgetting that unpolarized light loses half its intensity:** When unpolarized light passes through a polarizer, the transmitted intensity is I₀/2, not I₀. This is an average over all polarization angles.
+
+**Confusing fringe spacing with mirror displacement:** In a Michelson interferometer, each fringe shift corresponds to λ/2 mirror movement (double pass). Using λ instead of λ/2 gives answers off by a factor of 2.
+
+**Using degrees instead of radians in wave equations:** Phase calculations in wave optics require radians. Using degrees in sin(θ) or cos(θ) gives incorrect interference patterns.

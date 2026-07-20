@@ -1595,3 +1595,11 @@ and evaluate experimental evidence critically.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+
+
+## Cross-References
+
+- **[Market Failure](../economics/diagnostics/diag-market-failure):** Market failure is a key topic
+- **[Fiscal Policy](../economics/diagnostics/diag-fiscal-monetary-policy):** Government policy addresses failures
+- **[Macroeconomics](../economics/flashcards-macroeconomics):** Macroeconomics covers policy

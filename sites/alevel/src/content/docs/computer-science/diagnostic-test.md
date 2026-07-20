@@ -647,3 +647,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+
+
+## Cross-References
+
+- **[Fundamentals](../computer-science/fundamentals/01-number-systems):** CS fundamentals cover number systems and logic
+- **[Programming](../computer-science/programming/01-programming-constructs):** Programming translates algorithms into code
+- **[Data Structures](../computer-science/data-structures/05-graphs):** Data structures organise information efficiently

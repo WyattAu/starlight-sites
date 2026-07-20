@@ -234,3 +234,11 @@ class MinHeap:
             raise IndexError("peek from empty heap")
         return self.heap[0]
 ```
+
+## Common Mistakes
+
+**Confusing lists and tuples:** Lists are mutable (can be modified after creation). Tuples are immutable. Use tuples for fixed collections (coordinates, RGB values) and lists for dynamic collections. Tuples can be dictionary keys; lists cannot.
+
+**Misunderstanding dictionary key requirements:** Dictionary keys must be hashable (immutable). Lists, sets, and other dictionaries cannot be keys. Tuples can be keys if all elements are hashable. Using unhashable types as keys raises TypeError.
+
+**Not using collections module:** Python provides deque, Counter, defaultdict, and namedtuple. These are often better than hand-rolled solutions. Check the collections module before implementing custom data structures.

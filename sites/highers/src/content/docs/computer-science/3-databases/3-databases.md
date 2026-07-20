@@ -24,3 +24,11 @@ Databases underpin virtually every digital system — from banking and healthcar
 - **[SQL Fundamentals](./2-sql-fundamentals.md)**: Learn the language used to interact with databases
 - **[Networks](../5-networks/1-networks.md)**: How databases are accessed across networks
 - **[Data Security](./4-data-security.md)**: Protecting database contents from unauthorised access
+
+## Common Mistakes
+
+**Confusing primary key with foreign key:** A primary key uniquely identifies each record in a table. A foreign key references a primary key in another table to create relationships. Using the wrong key type breaks referential integrity.
+
+**Assuming 1NF is sufficient normalisation:** First Normal Form eliminates repeating groups but does not address partial or transitive dependencies. Most practical databases should be in at least 3NF to avoid update anomalies.
+
+**Ignoring NULL behaviour in SQL:** NULL is not equal to NULL (`NULL = NULL` returns UNKNOWN, not TRUE). Use `IS NULL` or `IS NOT NULL` for null checks. Aggregation functions like COUNT ignore NULLs, which can produce unexpected results.

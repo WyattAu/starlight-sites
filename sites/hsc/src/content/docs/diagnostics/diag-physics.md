@@ -117,3 +117,11 @@ tableOfContents: false
 | 10       | C             |
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of HSC Physics fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
+
+## Common Mistakes
+
+**Confusing weight and mass:** Weight is a force ($W = mg$, in Newtons). Mass is the amount of matter (in kg). On Earth, $g = 9.8$ m/s², so a 10 kg mass has a weight of 98 N. Confusing the two leads to wrong force calculations.
+
+**Using the wrong formula for projectile motion:** Horizontal and vertical components are independent. Horizontal velocity is constant (no air resistance); vertical velocity changes due to gravity. Using $v = u + at$ for the horizontal component is wrong because $a_x = 0$.
+
+**Misunderstanding electric field direction:** Electric field lines point from positive to negative charges. A positive test charge experiences force in the direction of the field. A negative test charge experiences force opposite to the field direction.

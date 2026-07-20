@@ -509,3 +509,10 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+
+## Cross-References
+
+- **[Mechanics](../physics/flashcards-mechanics-waves):** The diagnostic tests mechanics concepts
+- **[Waves](../physics/flashcards-mechanics-waves):** Wave properties are assessed
+- **[Electricity](../physics/flashcards-electricity-fields):** Circuit analysis is tested

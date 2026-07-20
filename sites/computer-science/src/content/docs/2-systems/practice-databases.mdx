@@ -35,5 +35,16 @@ strategies, and query optimization. Select an option to check your answer and vi
 <PracticeProblem client:only="solid-js" question={"In Multi-Version Concurrency Control (MVCC), how are readers and writers handled to avoid blocking?&quot; options={[ 'Readers see a consistent snapshot (old version); writers create new versions without blocking readers', 'Both readers and writers acquire exclusive locks on rows', 'Readers block writers and writers block readers', 'Only one transaction can access any row at any time', ]} correctAnswer={0} explanation=&quot;MVCC maintains multiple versions of each row with version start/end timestamps. Readers see the version that was current when their transaction began (snapshot isolation), while writers create new versions. This eliminates reader-writer blocking. Garbage collection removes old versions no longer visible to any active transaction. Used by PostgreSQL and MySQL InnoDB."} difficulty="hard"  />
 
 <PracticeProblem client:only="solid-js" question={"Which join algorithm has cost $O(|R| + |S|)$ and is most efficient when one relation fits entirely in memory?&quot; options={['Hash join', 'Nested-loop join', 'Sort-merge join', 'Block nested-loop join']} correctAnswer={0} explanation=&quot;The hash join has two phases: build (hash all tuples of the smaller relation $R$ into a hash table) and probe (scan $S$ and look up matches). Cost is $O(|R| + |S|)$. It requires $O(\\min(|R|, |S|))$ memory for the hash table. Nested-loop is $O(|R| \\cdot |S|)$. Sort-merge is $O(|R|\\log|R| + |S|\\log|S|)$."} difficulty="hard"  />
-
 <PracticeProblem client:only="solid-js" question={"Bitmap indexes are most appropriate for columns with which characteristic?&quot; options={[ 'Low cardinality (few distinct values)', 'High cardinality (many distinct values)', 'Continuous numeric values', 'Variable-length text data', ]} correctAnswer={0} explanation=&quot;Bitmap indexes store one bitmap per distinct value, where each bit represents whether a row has that value. For low-cardinality columns (e.g., gender, status flags), this is efficient: few bitmaps, fast bitwise AND/OR for queries. For high-cardinality columns, the number of bitmaps grows prohibitively. B+ tree or hash indexes are better for high-cardinality data."} difficulty="easy"  />
+
+## Common Mistakes
+
+**Confusing normalisation with denormalisation:** Normalisation eliminates redundancy. Denormalisation adds redundancy for performance. Don't assume normalisation is always better.
+
+**Forgetting that NULL is not a value:** NULL represents missing data. Comparisons with NULL return NULL, not true or false. Use IS NULL instead.
+
+**Mixing up cursor-based with cursor-free pagination:** Cursor-based uses a pointer for efficient pagination. Cursor-free (OFFSET) skips rows, which gets slower with large offsets. Don't assume OFFSET is efficient for deep pagination.
+
+## Cross-References
+- **[Databases](../../4-databases/index.md):** Relational model, normalisation, and query optimisation.
+- **[Databases Practice](../../4-databases/14_practice-databases.mdx):** Auto-graded problems testing database concepts.

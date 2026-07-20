@@ -10,3 +10,11 @@ hero:
       icon: right-arrow
       variant: primary
 ---
+
+## Common Mistakes
+
+**Assuming SQL syntax is identical across all database systems:** While standard SQL exists, each RDBMS (PostgreSQL, MySQL, SQLite) has proprietary extensions and syntax differences. Always test queries against your target database, not just "SQL in general."
+
+**Ignoring database indexing:** A query that runs in milliseconds with proper indexes can take minutes without them. Always consider which columns appear in WHERE, JOIN, and ORDER BY clauses, and create indexes accordingly.
+
+**Confusing ACID properties:** Atomicity (all or nothing), Consistency (valid state transitions), Isolation (concurrent transactions dont interfere), and Durability (committed data survives crashes) are four distinct properties. Weakening one (e.g., eventual consistency in NoSQL) has specific trade-offs.

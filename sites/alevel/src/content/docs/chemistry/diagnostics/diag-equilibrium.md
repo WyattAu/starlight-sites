@@ -380,7 +380,16 @@ $$K_p = p(\mathrm{NH}_3) \times p(\mathrm{H}_2\mathrm{S})$$
 From stoichiometry,
 $p(\mathrm{NH}_3) = p(\mathrm{H}_2\mathrm{S}) = \frac{0.660}{2} = 0.330\,\mathrm{atm}$ (1 mark).
 
-$$K_p = 0.330 \times 0.330 = 0.109\,\mathrm{atm}^2$$ (1 mark).
+$$K_p = 0.330 \times 0.330 = 0.109\,\mathrm{atm}^2$$
+(1 mark).
+
+## Common Mistakes
+
+**Confusing the effect of a catalyst on equilibrium yield:** A catalyst speeds up both the forward and reverse reactions equally. It does not shift the equilibrium position and does not change the yield. It only helps the system reach equilibrium faster. Many students incorrectly state that a catalyst increases the yield.
+
+**Using $K_c$ expressions with solids or pure liquids:** Heterogeneous equilibria exclude pure solids and liquids from the $K_c$ or $K_p$ expression because their concentrations (or activities) are constant. For $\text{CaCO}_3(s) \rightleftharpoons \text{CaO}(s) + \text{CO}_2(g)$, only $\text{CO}_2$ appears in the expression: $K_c = [\text{CO}_2]$.
+
+**Misapplying Le Chatelier's principle to catalysts or inert gas addition:** Le Chatelier's principle only applies to changes in concentration, pressure, or temperature. Adding a catalyst does not shift equilibrium. Adding an inert gas at constant volume does not change partial pressures and has no effect. Adding an inert gas at constant total pressure increases volume and may shift the equilibrium.
 
 #### UT-5: Le Chatelier Applied
 
@@ -462,3 +471,11 @@ $$
 
 $$
 (1 mark).
+
+
+
+## Cross-References
+
+- **[Organic Chemistry](../chemistry/organic-chemistry/introduction):** Organic chemistry covers carbon-based compounds and their reactions
+- **[Physical Chemistry](../chemistry/flashcards-physical-chemistry):** Physical chemistry underpins reaction rates, energetics, and equilibrium
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines chemical bonding and reactivity

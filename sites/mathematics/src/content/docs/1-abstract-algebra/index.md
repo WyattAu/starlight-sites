@@ -75,3 +75,9 @@ Abstract algebra distils the essence of arithmetic into algebraic structures. A 
 3. **Draw Cayley tables**: Visualise group structure for small examples
 4. **Learn standard examples**: Know the properties of common groups (cyclic, symmetric, dihedral)
 5. **Connect to applications**: Relate abstract concepts to number theory, geometry, and physics
+
+## Cross-References
+
+- **[Linear Algebra](../../2-linear-algebra/index.md):** Vector spaces and linear transformations.
+- **[Number Theory](../../7-number-theory/index.md):** Group theory in modular arithmetic.
+- **[Topology](../../9-topology/index.md):** Topological groups and algebraic topology.

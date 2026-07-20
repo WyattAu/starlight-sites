@@ -303,3 +303,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Error Handling](./error-handling.md):** The error interface and custom error type patterns.
+- **[Testing](../advanced/testing.md):** Interface-based mock design for unit testing.
+- **[Reflection](../advanced/reflection.md):** Runtime type inspection as an alternative to interface-based polymorphism.

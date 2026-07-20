@@ -397,3 +397,11 @@ At $m = 1$: $x = -\ln 1 = 0$And the tangent at the origin has gradient $e^0(1-0)
 Confirmed.
 
 The only solution is $m = 1$.
+
+
+
+## Cross-References
+
+- **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Pure maths covers algebra, calculus, and functions
+- **[Mechanics](../maths/practice-mechanics):** Mechanics applies maths to physical problems
+- **[Statistics](../maths/statistics/statistics):** Statistics develops data analysis methods

@@ -402,3 +402,11 @@ Quays area?
 > **Sources**: AQA Geography (7037) specification; AQA NEA guidance documents; Clark, _Skills in
 > Geography_ (2017); Harris and Jenner, _Geographical Skills and Fieldwork_ (2016); Environment
 > Agency data services; OS mapping guidelines.
+
+
+
+## Cross-References
+
+- **[Physical Geography](../geography/flashcards-physical-geography):** Physical geography studies natural Earth processes
+- **[Human Geography](../geography/flashcards-human-geography):** Human geography studies people-environment interactions
+- **[Fieldwork](../geography/3-fieldwork/1_fieldwork-methodology):** Fieldwork methods apply to geographic study

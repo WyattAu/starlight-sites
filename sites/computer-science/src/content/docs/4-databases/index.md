@@ -69,3 +69,8 @@ Each section includes:
 3. **Learn normalisation**: Practice decomposing relations and checking normal forms
 4. **Understand transactions**: Know how ACID properties ensure data integrity
 5. **Connect to applications**: Relate database concepts to real-world systems
+
+## Cross-References
+
+- **[Systems](../../2-systems/index.md):** Computer architecture and systems that databases build upon.
+- **[Theory of Computation](../../6-theory-of-computation/index.md):** Formal languages underlying query languages.

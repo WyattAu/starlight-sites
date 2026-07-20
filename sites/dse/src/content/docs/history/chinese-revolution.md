@@ -89,3 +89,11 @@ Mao Zedong proclaimed the establishment of the People's Republic of China on 1 O
 ## Intuition
 
 The Chinese Revolution was a decades-long upheaval that transformed one of the world's oldest civilizations. Think of it as a river that changed course multiple times: initially flowing toward Western-style reform, then diverting toward radical Maoism, and finally settling into a pragmatic socialist-market hybrid. The revolution succeeded not because of a single brilliant strategy but because the Communist Party adapted more effectively than its rivals to the conditions of rural China, the way a plant survives by growing toward whatever light is available.
+
+## Common Mistakes
+
+**Assuming the CCP won because of ideology alone:** The CCP succeeded because of practical advantages: land reform won peasant support, guerrilla tactics exploited rural areas, and KMT corruption alienated the population. Ideology mattered less thanorganisation and strategy.
+
+**Confusing the Long March with a military victory:** It was a strategic retreat that nearly destroyed the CCP. Its significance is mythological (demonstrating resilience) rather than military. Only 8,000 of 80,000 survived.
+
+**Assuming the Chinese Civil War ended in 1949:** Fighting continued in remote areas into the early 1950s. The PRC was proclaimed in October 1949, but consolidation of control took years.

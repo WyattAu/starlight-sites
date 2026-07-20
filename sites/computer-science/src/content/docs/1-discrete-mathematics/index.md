@@ -73,3 +73,8 @@ Each section includes:
 **Overlooking edge cases in definitions.** When proving a relation is an equivalence relation, students frequently forget to verify reflexivity for all elements, or assume symmetry implies reflexivity. Every property must be checked explicitly for the given set.
 
 **Treating discrete structures as continuous.** Applying calculus intuition to discrete objects leads to errors. For example, the Pigeonhole Principle has no continuous analogue, and counting arguments require careful attention to whether items are distinguishable.
+
+## Cross-References
+
+- **[Algorithms](../../1-algorithms/index.md):** Algorithm design techniques that build on discrete math foundations.
+- **[Mathematics](../../mathematics/src/content/docs/index.mdx):** University-level mathematics including abstract algebra and number theory.

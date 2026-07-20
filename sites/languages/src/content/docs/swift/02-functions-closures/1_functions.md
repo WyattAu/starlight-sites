@@ -699,3 +699,11 @@ Swift functions are first-class values that can be assigned to variables, passed
 - [[swift/03-oop/1_classes-and-structs]] - Methods and self reference
 - [[swift/04-advanced/1_error-handling]] - Throwing functions and try/catch
 - [[swift/04-advanced/2_concurrency]] - Async functions and structured concurrency
+
+## Common Mistakes
+
+**Confusing argument labels with parameter names:** Swift function calls use argument labels (e.g., `greet(person:)`) while the function body uses parameter names. Forgetting to include the argument label at call sites is a frequent compile error.
+
+**Capturing `self` strongly in escaping closures:** Escaping closures that capture `self` without `[weak self]` create retain cycles. Always use a capture list in closures stored beyond the function's lifetime.
+
+**Using `map` when `compactMap` is needed:** `map` preserves optionals in the result array, leading to `[T?]` instead of `[T]`. Use `compactMap` to filter out `nil` values automatically.

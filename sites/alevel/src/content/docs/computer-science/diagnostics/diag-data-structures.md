@@ -303,3 +303,19 @@ $\times 1\ \mu\text{s} = 20\ \mu\text{s}$.
 
 The balanced tree is $50000$ times faster. This demonstrates why tree balancing (e.g., AVL trees,
 red-black trees) is critical for maintaining efficient search operations.
+
+## Common Mistakes
+
+**Confusing linked lists and arrays for the wrong use case:** Arrays give $O(1)$ random access but $O(n)$ insertion/deletion. Linked lists give $O(1)$ insertion/deletion at a known position but $O(n)$ access. Students often choose a linked list when random access is needed, or an array when frequent insertions are required.
+
+**Forgetting that hash tables have worst-case $O(n)$ lookup:** Average-case lookup in a hash table is $O(1)$, but if all keys hash to the same bucket (worst case), it degrades to $O(n)$. A good hash function and collision resolution strategy (chaining or open addressing) are essential to maintain efficiency.
+
+**Assuming a binary search tree is always balanced:** A BST built from sorted input degenerates into a linked list with $O(n)$ operations. Self-balancing trees (AVL, red-black) guarantee $O(\log n)$ by maintaining balance. Always consider whether your input could be pre-sorted.
+
+
+
+## Cross-References
+
+- **[Number Systems](../computer-science/fundamentals/01-number-systems):** Binary and hexadecimal are essential for computing
+- **[Boolean Algebra](../computer-science/fundamentals/03-boolean-algebra):** Logic gates implement Boolean operations
+- **[Graph Algorithms](../computer-science/algorithms/03-graph-algorithms):** Algorithm design is central to computer science

@@ -166,6 +166,14 @@ $$2\text{C}_6\text{H}_5\text{OH} + 2\text{Na} \rightarrow 2\text{C}_6\text{H}_5\
 7. Tertiary alcohols dehydrate most easily (most stable carbocation); primary alcohols require harsher conditions.
 8. Remember the Lucas test: tertiary alcohols react immediately, secondary within 5 minutes, primary do not react at room temperature.
 
+## Intuition
+
+**The -OH group is a double-edged sword:** Think of the hydroxyl group as a magnetic pull on electrons. In alcohols, it pulls electron density toward itself, making the O-H bond polar and the carbon slightly positive. This polarity drives most of alcohol chemistry — nucleophiles attack the carbon, acids easily donate the proton, and the oxygen can participate in hydrogen bonding.
+
+**Why it matters:** Alcohols are the bridge between simple organic molecules and complex pharmaceuticals. The ability to oxidize, dehydrate, and form ethers makes them essential intermediates in synthesis. Understanding acidity trends helps predict which reactions will work.
+
+**The key insight:** Acidity is really about conjugate base stability — the more stable the anion after losing a proton, the stronger the acid.
+
 ## Common Mistakes
 
 **Confusing the acidity order of alcohols, water, and phenols.** Many students assume alcohols are more acidic than water because the -OH group is present in both. In reality, water (pKa = 15.7) is slightly more acidic than most simple alcohols (pKa = 16-18) because the ethoxide ion is destabilised by the electron-donating alkyl group, making the conjugate base less stable.

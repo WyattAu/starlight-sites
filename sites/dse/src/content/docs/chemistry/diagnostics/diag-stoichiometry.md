@@ -370,3 +370,17 @@ converted to products. Additionally:
 - Some product may be lost during purification (e.g., during separation from the reaction mixture).
 - Some reactants may undergo side reactions.
 - The equilibrium position may not lie far enough towards the products.
+
+## Common Mistakes
+
+**Forgetting to account for all elements when determining empirical formula:** Don't assume a compound contains only C and H. Calculate the mass of each element present, then find oxygen (or other elements) by difference from the total sample mass.
+
+**Confusing molar concentration with mass concentration:** mol/dm³ is moles per litre; g/dm³ is grams per litre. To convert between them, multiply by the molar mass. Don't mix up the units in calculations.
+
+**Not adjusting for dilution or aliquot factors in titrations:** If you dissolve a sample in 250 cm³ but only titrate 25 cm³, multiply your result by 10 to get the total amount in the original sample. Forgetting this factor gives answers that are 10x too low.
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is foundational
+- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium connects topics
+- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is a major area

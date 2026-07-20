@@ -168,3 +168,17 @@ For IB Paper 2, Fascist Italy is examined under **Topic 3 (Authoritarian States)
 ## Intuition
 
 Fascism is like a political chameleon -- it changed its colours to match whatever audience it needed to seduce. Mussolini's genius was positioning Fascism as the antidote to both liberal capitalism and Bolshevism, offering national solidarity as an alternative to class warfare. But the corporate state was largely theatre: behind the rhetoric of class collaboration lay the reality of employer dominance and worker suppression. Comparing Italy with Germany and the USSR reveals that authoritarian regimes share surface features (one-party state, leader cult, terror) but differ fundamentally in their coherence, efficiency, and ideological depth. Mussolini's Fascism was always more spectacle than substance.
+
+## Common Mistakes
+
+**Assuming all authoritarian regimes are the same:** Fascism, Nazism, and Stalinism share features (one-party state, leader cult) but differ in ideology, coherence, and implementation. Don't treat them as identical.
+
+**Confusing Mussolini's rise with Hitler's:** Mussolini marched on Rome (1922) with political support. Hitler was appointed legally (1933) after electoral success. Their paths to power were different.
+
+**Forgetting that Italy was an ally of Britain and France before WWI:** Italy joined the Allies in WWI, then felt betrayed by the peace settlement. This grievance fuelled fascist nationalism.
+
+## Cross-References
+
+- **[Cold War](../history/cold-war):** Cold War geopolitics shaped the 20th century
+- **[Authoritarian States](../history/authoritarian-states):** Authoritarian regimes are key case studies
+- **[Causes and Effects](../history/causes-and-effects-of-wars):** Wars have profound causes and effects

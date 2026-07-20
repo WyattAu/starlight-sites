@@ -39,5 +39,17 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"What is the purpose of the TCP three-way handshake?&quot; options={[ 'To synchronise sequence numbers and establish a reliable connection between both ends', 'To encrypt data before transmission', 'To resolve IP addresses to MAC addresses', 'To fragment large packets into smaller segments', ]} correctAnswer={0} explanation=&quot;The three-way handshake: (1) Client sends SYN with initial sequence number. (2) Server replies with SYN-ACK, acknowledging the client\'s sequence number and sending its own. (3) Client sends ACK confirming the server\'s sequence number. This synchronises both ends and establishes parameters for reliable data transfer. Encryption is handled by TLS at a higher layer."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"Which routing protocol uses Dijkstra\'s shortest-path algorithm and maintains a complete link-state database?&quot; options={[ 'OSPF (Open Shortest Path First)', 'RIP (Routing Information Protocol)', 'BGP (Border Gateway Protocol)', 'IGMP (Internet Group Management Protocol)', ]} correctAnswer={0} explanation=&quot;OSPF is a link-state protocol: each router floods its local link information to all routers, building a complete topology map (link-state database), then independently runs Dijkstra\'s SPF algorithm to compute shortest paths. RIP is distance-vector using Bellman-Ford, sharing tables only with neighbours. BGP is path-vector for inter-domain routing. IGMP manages multicast group membership."} difficulty="medium"  />
-
 <PracticeProblem client:only="solid-js" question={"In CRC error detection with generator polynomial G(x) = x^3 + x + 1, how many redundant bits are appended?&quot; options={['3', '4', '1', '7']} correctAnswer={0} explanation=&quot;The number of redundant bits equals the degree of the generator polynomial. G(x) = x^3 + x + 1 has degree 3. Therefore 3 zero bits are appended to the data before modulo-2 division, and the 3-bit remainder replaces them. This CRC detects all single-bit and double-bit errors, any odd number of errors, and burst errors of length at most 3."} difficulty="medium"  />
+
+## Common Mistakes
+
+**Confusing stop-and-wait with sliding window:** Stop-and-wait sends one packet and waits for acknowledgement. Sliding window sends multiple packets before waiting. Don't assume all protocols are stop-and-wait.
+
+**Forgetting that TCP uses cumulative acknowledgements:** An ACK for sequence number n acknowledges all bytes up to n-1. Don't assume each packet needs its own ACK.
+
+**Mixing up routing with forwarding:** Routing determines the path. Forwarding moves packets from input to output. They're different network layer functions.
+
+## Cross-References
+- **[Computer Networks Flashcards](../10_flashcards-computer-networks.mdx):** Interactive flashcards covering networking concepts.
+- **[Data Link Layer](./3_data-link-layer.md):** Physical and data link layer protocols.
+- **[Network Security](./7_network-security.md):** Encryption and authentication protocols.

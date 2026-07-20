@@ -73,3 +73,9 @@ Each section includes:
 3. **Draw diagrams**: Visualise phase diagrams and thermodynamic processes
 4. **Learn ensembles**: Understand the microcanonical, canonical, and grand canonical ensembles
 5. **Connect to modern physics**: Relate thermal physics to condensed matter and cosmology
+
+## Cross-References
+
+- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Newtonian mechanics underlying thermodynamics.
+- **[Solid State Physics](../../6-solid-state-physics/index.md):** Statistical mechanics of solids.
+- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum statistics and thermal properties.

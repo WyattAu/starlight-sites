@@ -270,3 +270,17 @@ Both are in 4NF (the determining attribute `Course` is a candidate key in each).
 ## Intuition
 
 Normalization is the process of breaking a large, messy table into smaller, well-organized tables to eliminate redundancy and prevent update anomalies. Think of it as decluttering a closet: instead of stuffing everything into one drawer, you separate shirts, pants, and socks into their own compartments. Each normal form is a rule that says "if your data looks like this, split it further," the way a good filing system has categories within categories. The trade-off is that more tables mean more JOINs at query time, like having to visit multiple shelves to assemble an outfit.
+
+## Common Mistakes
+
+**Confusing functional dependencies with key constraints:** Functional dependency X → Y means X determines Y. Key constraint means X uniquely identifies a row. They're related but different concepts.
+
+**Forgetting that normalisation is about eliminating redundancy:** The goal is to reduce data duplication and update anomalies. Don't normalise just for the sake of it — consider query performance trade-offs.
+
+**Mixing up 2NF with 3NF:** 2NF eliminates partial dependencies (non-key attributes depending on part of a composite key). 3NF eliminates transitive dependencies (non-key attributes depending on other non-key attributes). Don't confuse the two.
+
+## Cross-References
+
+- **[Relational Model](./2_relational-model.md):** Relational model fundamentals.
+- **[Indexing](./5_indexing.md):** Index structures for normalised schemas.
+- **[Query Optimisation](./7_query-optimisation.md):** How normalisation affects query planning.

@@ -52,3 +52,11 @@ fundamentals (partition functions, Boltzmann distribution).
 <PracticeProblem client:only="solid-js" question={"For water, the enthalpy of vaporization is 40.7 kJ/mol and the vapor pressure at 100 degrees C is 1.0 atm. Using the Clausius-Clapeyron equation, estimate the vapor pressure at 90 degrees C.&quot; options={['0.70 atm', '0.85 atm', '0.55 atm', '0.40 atm']} correctAnswer={0} explanation=&quot;Integrated Clausius-Clapeyron equation: ln(P_2/P_1) = -(Delta_H_vap / R)(1/T_2 - 1/T_1). Substituting: ln(P_2/1.0) = -(40700/8.314)(1/363 - 1/373) = -4895.5 * 7.39 x 10^-5 = -0.362. Therefore P_2 = e^(-0.362) = 0.696 atm, rounding to 0.70 atm. The exponential sensitivity to temperature explains why vapor pressure rises steeply near the boiling point."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"A two-level system has energy states epsilon_0 = 0 and epsilon_1 = epsilon. The partition function is Z = 1 + exp(-epsilon/kT). What fraction of particles occupies the upper energy level when kT = epsilon?&quot; options={['26.9%', '36.8%', '50.0%', '13.5%']} correctAnswer={0} explanation=&quot;The Boltzmann distribution gives the fraction in the upper level: f_1 = exp(-epsilon/kT) / Z = exp(-1) / (1 + exp(-1)) = 0.3679 / 1.3679 = 0.269 = 26.9%. When kT = epsilon, the thermal energy matches the level spacing, so a significant minority of particles occupies the excited state. As T -> infinity, f_1 approaches 50%."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Using Celsius instead of Kelvin in thermodynamic equations:** Clausius-Clapeyron and Boltzmann distributions require absolute temperature. Using °C gives exponentially wrong vapor pressures and occupation fractions.
+
+**Confusing the partition function with a probability:** Z is a normalization factor for the Boltzmann distribution, not a probability itself. Individual probabilities are exp(-ε/kT)/Z.
+
+**Forgetting that latent heat units vary:** L can be J/kg (specific) or J/mol (molar). Mixing them up gives answers off by the molar mass factor. Always check which form the problem uses.

@@ -328,3 +328,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Types and Variables](./types-and-variables.md):** Type system fundamentals used in control flow expressions.
+- **[Null Safety Deep Dive](../advanced/null-safety-deep-dive.md):** Null-safe branching and safe-call operators in control flow.
+- **[Kotlin Practice](../practice-kotlin-basics.mdx):** Auto-graded problems testing control flow patterns.

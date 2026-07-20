@@ -86,3 +86,17 @@ import PracticeProblem from "@components/PracticeProblem";
 ### Coroutines and Flows
 
 <PracticeProblem client:only="solid-js" question={"What does `flow { emit(1); emit(2); emit(3) }.collect { println(it) }` do?&quot; options={[ 'Prints 1, 2, 3 each on a new line', 'Prints [1, 2, 3]', 'Only prints 3', 'Compilation error', ]} correctAnswer={0} explanation=&quot;A flow is a cold asynchronous stream. The block only executes when collected. emit sends each value to the collector. collect is the terminal operator that processes each emitted value. The values are printed sequentially."} difficulty="medium"  />
+
+## Cross-References
+
+- **[Null Safety Deep Dive](../advanced/null-safety-deep-dive.md):** Safe-call operators and nullable flow handling.
+- **[Types and Variables](../basics/types-and-variables.md):** Nullable type fundamentals behind null safety patterns.
+- **[Kotlin Practice](../practice-kotlin-basics.mdx):** Core Kotlin concepts including coroutines and collections.
+
+## Common Mistakes
+
+**Confusing `require` with `check`:** `require` validates function arguments (throws `IllegalArgumentException`); `check` validates internal state (throws `IllegalStateException`). Using the wrong one misleads callers about whether a failure is bad input or a bug.
+
+**Using `!!` (not-null assertion) unnecessarily:** `!!` converts any nullable type to non-nullable and throws `NullPointerException` if null. Prefer safe calls `?.`, elvis `?:`, or `let` for safe handling.
+
+**Forgetting that `lazy` is thread-safe by default:** `by lazy` uses synchronized double-checked locking. For single-threaded contexts, pass `LazyThreadSafetyMode.NONE` to avoid unnecessary synchronization overhead.

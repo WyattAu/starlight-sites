@@ -600,3 +600,11 @@ Swift's error handling is explicit and type-safe. Functions marked with throws c
 - [[swift/02-functions-closures/1_functions]] - Throwing function signatures
 - [[swift/03-oop/1_classes-and-structs]] - Error class hierarchies
 - [[swift/04-advanced/2_concurrency]] - Error handling in async contexts
+
+## Common Mistakes
+
+**Using `try!` without being certain the operation succeeds:** Force-trying crashes your app at runtime if the throwing function actually throws. Only use `try!` when you have a provable guarantee (e.g., loading a bundled resource that must exist).
+
+**Swallowing errors with `try?` everywhere:** Discarding error information with `try?` makes debugging impossible. Use `try?` only when the failure case is truly irrelevant; otherwise use `do-catch` to log or propagate.
+
+**Not using `defer` for cleanup:** Forgetting to release resources (file handles, database connections) in `defer` blocks leads to leaks when errors cause early exits. Always pair resource acquisition with a `defer` cleanup.

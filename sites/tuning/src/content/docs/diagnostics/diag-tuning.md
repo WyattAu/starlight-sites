@@ -117,3 +117,11 @@ tableOfContents: false
 | 10       | B             |
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of performance tuning fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
+
+## Common Mistakes
+
+**Confusing latency with throughput:** Latency is the time for a single operation. Throughput is operations per second. Optimising for one may hurt the other. Batch processing increases throughput but may increase latency.
+
+**Over-optimising without measuring:** Micro-optimisations add complexity. Measure whether the optimisation actually helps before adding it. Profiling tools show where time is actually spent.
+
+**Ignoring caching opportunities:** Repeated expensive computations, database queries, or API calls are prime candidates for caching. But caching introduces complexity (invalidation, stale data). Cache strategically.

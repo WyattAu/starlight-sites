@@ -87,3 +87,17 @@ import PracticeProblem from "@components/PracticeProblem";
 ### Inheritance and Polymorphism
 
 <PracticeProblem client:only="solid-js" question={"What does `@Override` annotation do in Java?&quot; options={[ 'Signals the compiler to verify the method actually overrides a superclass method', 'Changes the method signature', 'Makes the method private', 'Enables runtime polymorphism', ]} correctAnswer={0} explanation=&quot;@Override tells the compiler to verify that the method actually overrides a method from a superclass or interface. If there is no matching method (e.g., typo in name or parameters), compilation fails. It is not required but catches errors early."} difficulty="easy"  />
+
+## Cross-References
+
+- **[Java Fundamentals Practice](../java/practice-java-basics.mdx):** Core Java concepts including types, streams, and concurrency.
+- **[Types and Variables](../java/02-fundamentals/01-types-and-variables.md):** Class declaration, inheritance, and polymorphism fundamentals.
+- **[Generics](../java/11-generics-reflection/01-generics.md):** Generic type bounds and wildcard patterns.
+
+## Common Mistakes
+
+**Forgetting that arrays use `.length` not `.length()`:** Arrays have a `length` field; strings have a `length()` method. Mixing them up causes compile errors.
+
+**Using `List<Object>` when you need `List<?>`:** `List<Object>` allows adding any object; `List<?>` is read-only for any specific type. Using the wrong one causes type safety issues.
+
+**Confusing `extends` with `implements` in generics:** `T extends Number` is an upper bound (class or interface); `T implements Comparable` is not valid. Use `extends` for both classes and interfaces in generic bounds.

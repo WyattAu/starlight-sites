@@ -351,3 +351,17 @@ Since PE decreases (becomes more negative), the probe gains KE. It needs zero in
 gravity will pull it to the surface. The probe at the zero-field point is at a gravitational
 potential "ridge" (unstable equilibrium). Any perturbation towards either planet will cause it to
 fall. The minimum speed is zero (it is at an unstable equilibrium point).
+
+## Common Mistakes
+
+**Confusing gravitational field strength with gravitational potential:** Field strength is force per unit mass (N/kg or m/s²). Potential is energy per unit mass (J/kg or m²/s²). Field is a vector; potential is a scalar.
+
+**Assuming g is constant everywhere:** g varies with altitude, latitude, and local geology. At high altitudes, g decreases. Don't assume 9.81 m/s² applies everywhere.
+
+**Mixing up escape velocity with orbital velocity:** Escape velocity is √(2GM/r). Orbital velocity is √(GM/r). Escape velocity is √2 times orbital velocity.
+
+## Cross-References
+
+- **[Kinematics](../physics/flashcards-kinematics):** Kinematics describes motion
+- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
+- **[Waves](../physics/flashcards-waves):** Waves transfer energy

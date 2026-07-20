@@ -365,3 +365,19 @@ $$V = \frac{nRT}{p} = \frac{0.050 \times 8.314 \times 298}{100000} = \frac{123.9
 The student's answer of $123.7$ is actually correct numerically but lacks units. If they meant
 $\mathrm{dm}^3$Their answer is close. The key error was likely not tracking units through the
 calculation (1 mark).
+
+## Common Mistakes
+
+**Using the wrong molar mass in empirical formula calculations:** The empirical formula is the simplest whole-number ratio of moles of each element. Always use the correct atomic masses from the periodic table and divide all mole values by the smallest to get the ratio. Students often forget to multiply to get whole numbers when the ratio is fractional (e.g., 1 : 1.5 becomes 2 : 3).
+
+**Forgetting to convert between units in gas calculations:** The ideal gas equation $pV = nRT$ requires consistent SI units: pressure in Pa (not kPa or atm), volume in m$^3$ (not dm$^3$ or cm$^3$). A common error is using $p = 100$ when it should be $p = 100\,000$ Pa, or forgetting that $1\,\text{m}^3 = 1000\,\text{dm}^3$.
+
+**Confusing atom economy with percentage yield:** Atom economy measures how many atoms from the reactants end up in the desired product (a measure of waste). Percentage yield measures how much product you actually get compared to the theoretical maximum. A reaction can have 100% atom economy but a low yield, or vice versa.
+
+
+
+## Cross-References
+
+- **[Organic Chemistry](../chemistry/organic-chemistry/introduction):** Organic chemistry covers carbon-based compounds and their reactions
+- **[Physical Chemistry](../chemistry/flashcards-physical-chemistry):** Physical chemistry underpins reaction rates, energetics, and equilibrium
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines chemical bonding and reactivity

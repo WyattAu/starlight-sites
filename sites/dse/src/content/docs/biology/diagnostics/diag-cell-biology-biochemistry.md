@@ -336,3 +336,11 @@ white). Coagulation is a **consequence** of denaturation, not the same process.
 
 (Alternative: ease of product purification; continuous flow processing; prevention of enzyme
 contamination of the product.)
+
+## Common Mistakes
+
+**Confusing prokaryotic and eukaryotic ribosome sizes:** Prokaryotes have 70S ribosomes (~20 nm) while eukaryotes have 80S ribosomes (~25 nm). Don't mix up which is larger — eukaryotic ribosomes are bigger.
+
+**Assuming all cells with no cell wall must be animal cells:** Protozoa like Amoeba are eukaryotic but lack cell walls. The absence of a cell wall alone doesn't prove a cell is from an animal.
+
+**Confusing competitive and non-competitive inhibition effects on Vmax and Km:** Competitive inhibitors increase Km (lower apparent affinity) but don't change Vmax. Non-competitive inhibitors decrease Vmax but don't change Km. Mixing these up is a common exam error.

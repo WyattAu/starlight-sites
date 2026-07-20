@@ -252,3 +252,11 @@ and the four main types of bonding: ionic (electron transfer, giant lattice), co
 sharing, simple and giant structures), metallic (delocalised electron sea), and intermolecular
 forces (London, dipole-dipole, hydrogen bonding). The type of bonding determines physical properties
 including melting point, conductivity, and solubility.
+
+
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure determines bonding
+- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium is a core topic
+- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry covers carbon compounds

@@ -380,3 +380,11 @@ The key difference is that silicon (Period 3) can expand its octet and form four
 oxygen, creating the extended network. Carbon (Period 2) cannot expand its octet beyond eight
 electrons and forms stable double bonds instead, producing discrete $\mathrm{O}=\text{C}=\text{O}$
 molecules (1 mark).
+
+## Common Mistakes
+
+**Confusing molecular shape with electron domain geometry:** VSEPR gives the electron domain geometry first (e.g., tetrahedral for four domains), then the molecular shape depends on how many of those domains are bonding pairs vs lone pairs. Water has tetrahedral electron geometry but is bent (two lone pairs compress the bond angle). Students often state the electron geometry as the molecular shape.
+
+**Assuming polar bonds always make a molecule polar:** A molecule can have polar bonds but be non-polar if the bond dipoles cancel due to symmetry. CO$_2$ has two polar C=O bonds but is linear and symmetric, so the dipoles cancel. CCl$_4$ has four polar C-Cl bonds but tetrahedral symmetry cancels them. Check the molecular geometry, not just the bond polarity.
+
+**Thinking intermolecular forces and intramolecular bonds are the same thing:** Melting and boiling involve overcoming intermolecular forces (hydrogen bonds, dipole-dipole, van der Waals), not breaking covalent or ionic bonds within molecules. SiO$_2$ has a high melting point because you must break covalent bonds in the giant covalent network, but CO$_2$ sublimes at low temperature because only weak van der Waals forces between molecules need to be overcome.

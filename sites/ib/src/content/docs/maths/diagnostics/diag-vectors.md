@@ -231,3 +231,17 @@ $\frac{1}{2}\!\left[\begin{pmatrix} 1 \\ 3 \\ -1 \end{pmatrix} + \begin{pmatrix}
 Check on $\Pi$:
 $2\!\left(\frac{25}{9}\right) - \frac{19}{9} + 2\!\left(\frac{7}{9}\right) = \frac{50 - 19 + 14}{9} = \frac{45}{9} = 5$.
 Confirmed.
+
+## Common Mistakes
+
+**Confusing scalar product with vector product:** Scalar product (dot product) gives a scalar. Vector product (cross product) gives a vector. They measure different things.
+
+**Forgetting that vectors must have the same dimension to add:** You can't add a 2D vector to a 3D vector directly. Ensure all vectors in an operation have the same number of components.
+
+**Mixing up direction cosines with components:** Direction cosines are cosines of the angles between the vector and each axis. Components are the actual values along each axis. They're related but not the same.
+
+## Cross-References
+
+- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Algebra is foundational
+- **[Functions](../maths/2-functions/functions):** Functions are central
+- **[Calculus](../maths/5-calculus/calculus):** Calculus is a major topic

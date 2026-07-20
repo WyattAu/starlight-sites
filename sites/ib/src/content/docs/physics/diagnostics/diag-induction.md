@@ -309,3 +309,13 @@ If a capacitor $C$ were added, resonance occurs when $X_L = X_C$I.e. $\omega_0 =
 
 Without a capacitor, increasing the frequency increases $X_L$ and therefore $Z$Which decreases the
 current. There is no resonance in a purely RL circuit.
+
+## Common Mistakes
+
+**Confusing Faraday's Law with Lenz's Law:** Faraday's Law gives the magnitude of induced EMF. Lenz's Law gives the direction (opposes the change). Both are needed for complete answers.
+
+**Forgetting that induced EMF depends on rate of change, not the field itself:** A constant magnetic field induces no EMF. Only changing fields do. Don't assume a strong field always induces EMF.
+
+**Mixing up self-inductance with mutual inductance:** Self-inductance is a coil's opposition to changes in its own current. Mutual inductance is how one coil affects another. They're related but different concepts.
+
+## Cross-References

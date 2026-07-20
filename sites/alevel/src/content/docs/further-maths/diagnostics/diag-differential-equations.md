@@ -173,3 +173,19 @@ $= \frac{V_0}{R^2 + \omega^2 L^2}\sqrt{R^2 + \omega^2 L^2} = \frac{V_0}{\sqrt{R^
 $V_0/R$ with time constant $L/R$. This is the classic RL circuit charging: the inductor initially
 opposes current flow, but as the magnetic field builds, the current asymptotically approaches
 $V_0/R$.
+
+## Common Mistakes
+
+**Forgetting the constant of integration:** When solving differential equations, always include the constant $C$ (or use initial conditions to find it). A common error is to solve the homogeneous part and particular integral but forget to combine them with the arbitrary constant, giving an incomplete general solution.
+
+**Confusing the homogeneous and particular solutions:** The homogeneous solution solves $\frac{dy}{dx} + Py = 0$ and gives the transient behaviour (decays to zero). The particular solution solves the full equation with the forcing term and gives the steady-state behaviour. The general solution is the sum of both. Students often write only one and forget the other.
+
+**Mixing up the integrating factor method:** For equations of the form $\frac{dy}{dx} + Py = Q$, the integrating factor is $\mu = e^{\int P\,dx}$. Multiply both sides by $\mu$, then recognise the left side as $\frac{d}{dx}(\mu y)$. A common error is to forget to multiply the right-hand side $Q$ by the integrating factor.
+
+
+
+## Cross-References
+
+- **[Differential Equations](../further-maths/pure-mathematics/differential-equations):** Differential equations require calculus techniques
+- **[Further Calculus](../further-maths/pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
+- **[Pure Mathematics](../further-maths/further-maths):** Further maths extends A-level mathematics

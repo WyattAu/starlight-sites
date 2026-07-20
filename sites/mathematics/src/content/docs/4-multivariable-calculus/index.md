@@ -88,3 +88,9 @@ When $z = f(x, y)$ with $x = g(t)$ and $y = h(t)$, the chain rule is $\frac{dz}{
 
 **Mistake 3: Misidentifying critical points in multivariable optimisation**
 Setting $\nabla f = \mathbf{0}$ is necessary but not sufficient. The Hessian matrix must be checked: positive definite means local minimum, negative definite means local maximum, and indefinite means saddle point. A zero determinant of the Hessian means the test is inconclusive and further analysis is required.
+
+## Cross-References
+
+- **[Linear Algebra](../../2-linear-algebra/index.md):** Jacobians and Hessians as matrices.
+- **[Real Analysis](../../3-real-analysis/index.md):** Foundational analysis for multivariable calculus.
+- **[Ordinary Differential Equations](../../5-ordinary-differential-equations/index.md):** Systems of ODEs using multivariable calculus.

@@ -226,3 +226,11 @@ Journal needs to be replayed, which takes seconds instead of hours for large fil
 
 A file system is the librarian of storage — it keeps track of which bytes belong to which file and where they live on disk. Inodes are the index cards that describe each file — they hold metadata but not the actual data, which lives in data blocks pointed to by the inode. Directories are special files that map names to inode numbers, like a phone book mapping names to phone numbers. Journaling is the file system's diary — it writes down what it plans to do before doing it, so if the power fails mid-operation, it can finish or roll back safely. Fragmentation is like a jigsaw puzzle with pieces scattered across the table — the file exists but its parts are spread out, making reading slower.
 
+## Common Mistakes
+
+**Confusing inodes with directory entries:** Inodes store metadata (permissions, timestamps, block pointers). Directory entries map filenames to inode numbers. A filename can point to the same inode (hard link).
+
+**Assuming journaling guarantees data integrity:** Journaling ensures file system consistency (structure is recoverable) but doesn't guarantee file content integrity. Application-level backups are still needed.
+
+**Mixing up sequential with random access performance:** Sequential reads are fast (disk head moves continuously). Random reads are slow (head seeks between locations). This affects file system design choices.
+

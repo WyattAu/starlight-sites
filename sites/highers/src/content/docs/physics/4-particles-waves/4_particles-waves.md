@@ -270,6 +270,14 @@ $$f' = 800 \times \frac{343}{343 - 25} = 800 \times \frac{343}{318} = 800 \times
 
 ---
 
+## Intuition
+
+**Light is both a wave and a particle:** Imagine light as a chameleon — it behaves like a wave (diffracting, interfering) in some experiments and like a particle (ejecting electrons) in others. This wave-particle duality is one of the most counterintuitive concepts in physics, but it's essential for understanding the quantum world.
+
+**Why it matters:** Quantum physics explains how atoms work, how lasers produce light, how semiconductors conduct electricity, and how MRI machines image our bodies. Understanding the photoelectric effect, de Broglie wavelength, and energy quantization is fundamental to modern technology.
+
+**The key insight:** Energy comes in discrete packets (quanta), not continuous streams — this is why the photoelectric effect has a threshold frequency below which no electrons are emitted, regardless of light intensity.
+
 ## Common Pitfalls
 
 1. **Units in the photoelectric effect:** Convert between eV and joules as needed.

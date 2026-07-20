@@ -505,3 +505,11 @@ $(1, 8), (2, 5), (3, 4), (6, 3)$.
 
 All satisfy $(n-2)a = 6$. The problem has multiple solutions unless additional constraints are
 given. If we assume $n \geq 3$ (needed for $x^3$ term to exist), all four are valid.
+
+
+
+## Cross-References
+
+- **[Functions](../maths/diagnostics/diag-functions):** Functions are central
+- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics are a core topic
+- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is fundamental

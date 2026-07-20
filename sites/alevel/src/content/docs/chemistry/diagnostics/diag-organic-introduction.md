@@ -396,3 +396,19 @@ racemic butan-2-amine (1 mark).
 This produces a racemic mixture, not a single enantiomer. To obtain a single enantiomer, a chiral
 resolving agent or enzymatic resolution would be needed. This illustrates the challenge of
 stereospecific synthesis with amines.
+
+## Common Mistakes
+
+**Confusing homolytic and heterolytic fission:** Homolytic fission produces free radicals (each atom takes one electron from the bond). Heterolytic fission produces ions (one atom takes both electrons). Free radical substitution involves homolytic fission; nucleophilic substitution involves heterolytic fission. Mixing these up leads to wrong mechanism diagrams.
+
+**Forgetting that 2,4-DNP tests for carbonyl groups, not specifically aldehydes:** 2,4-DNP reacts with both aldehydes and ketones to give an orange precipitate. To distinguish between them, you need a further test — Tollens' reagent (silver mirror test) or Fehling's solution. A positive 2,4-DNP test only tells you a carbonyl is present.
+
+**Using the wrong reagent for elimination vs substitution:** Hot, concentrated, ethanolic KOH favours elimination (OH$^-$ acts as a base, abstracting a $\beta$-hydrogen). Dilute, aqueous KOH favours substitution (OH$^-$ acts as a nucleophile). Students often forget to specify the solvent, which is the key factor in determining the reaction type.
+
+
+
+## Cross-References
+
+- **[Organic Chemistry](../chemistry/organic-chemistry/introduction):** Organic chemistry covers carbon-based compounds and their reactions
+- **[Physical Chemistry](../chemistry/flashcards-physical-chemistry):** Physical chemistry underpins reaction rates, energetics, and equilibrium
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines chemical bonding and reactivity

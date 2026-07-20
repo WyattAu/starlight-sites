@@ -42,3 +42,11 @@ import PracticeProblem from "@components/PracticeProblem";
 ### Algorithms
 
 <PracticeProblem client:only="solid-js" question={"A sorting algorithm has a worst-case time complexity of O(n^2). For an input of 1,000 elements, approximately how many operations might be performed in the worst case?&quot; options={['1,000,000', '10,000', '1,000', '500,000']} correctAnswer={0} explanation=&quot;With a time complexity of O(n^2), the number of operations scales with the square of the input size n. For n = 1,000: n^2 = 1,000^2 = 1,000,000 operations in the worst case. This is why O(n^2) algorithms (such as bubble sort, selection sort, and insertion sort) become impractical for large datasets. More efficient sorting algorithms like merge sort and quicksort have average-case complexity of O(n log n), which for n = 1,000 gives approximately 10,000 operations."} difficulty="medium"  />
+
+## Common Mistakes
+
+**Confusing compilation with interpretation:** Compilation translates entire source code to machine code before execution. Interpretation translates and executes line by line. Some languages use both — compilation to bytecode then interpretation.
+
+**Ignoring time complexity in sorting algorithms:** Bubble sort is O(n^2) and practically unusable for large datasets. Merge sort is O(n log n) and handles large datasets well. Choosing the wrong algorithm for the data size leads to unacceptable performance.
+
+**Misunderstanding recursion limits:** Each recursive call adds a stack frame. Too many recursive calls cause stack overflow. Factorial(1000) overflows in most languages. Convert deep recursion to iteration or use tail-call optimisation where supported.

@@ -41,3 +41,17 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"What is the time complexity of Dijkstra\'s algorithm using an adjacency list and a binary min-heap?&quot; options={['O((V + E) log V)', 'O(V^2)', 'O(E log E)', 'O(V * E)']} correctAnswer={0} explanation=&quot;Each vertex is extracted from the heap once: O(V log V). Each edge causes at most one decrease-key at O(log V): O(E log V). Total: O(V log V + E log V) = O((V + E) log V). For dense graphs where E = O(V^2), this becomes O(V^2 log V). A Fibonacci heap improves this to O(V log V + E) with O(1) amortised decrease-key."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"What is the time and space complexity of bottom-up tabulation for 0/1 knapsack with n items and capacity W?&quot; options={[ 'O(nW) time, O(nW) space (reducible to O(W))', 'O(nW) time, O(n) space', 'O(2^n) time, O(n) space', 'O(n^2) time, O(n^2) space', ]} correctAnswer={0} explanation=&quot;Bottom-up 0/1 knapsack builds a 2D table dp[i][w] for i in [0,n] and w in [0,W]. Each cell is O(1) to compute, giving O(nW) time and O(nW) space. Space is optimisable to O(W) using two 1D arrays since dp[i] depends only on dp[i-1]. This is pseudo-polynomial: W is numeric, not logarithmic in input size."} difficulty="hard"  />
+
+## Cross-References
+
+- **[Algorithms and Data Structures Flashcards](../10_flashcards-algorithms-and-data-structures.mdx):** Interactive flashcards covering the same algorithmic concepts.
+- **[Algorithm Analysis](../1_algorithm-analysis.md):** Complexity analysis and amortised bounds.
+- **[Discrete Mathematics](../../1-discrete-mathematics/index.md):** Mathematical foundations for algorithm analysis.
+
+## Common Mistakes
+
+**Confusing max-heaps with min-heaps:** Max-heaps have the largest element at the root. Min-heaps have the smallest. Don't assume heap operations always extract the maximum.
+
+**Forgetting that hash table worst-case is O(n):** Average case is O(1) with good hashing. But if all keys collide, performance degrades to O(n). Always consider worst-case.
+
+**Mixing up BFS with DFS traversal order:** BFS explores level by level (queue). DFS explores depth-first (stack/recursion). They visit nodes in different orders.

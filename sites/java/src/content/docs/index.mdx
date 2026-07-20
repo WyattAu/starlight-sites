@@ -84,3 +84,11 @@ Java is a programming language with a rich type system and ecosystem. These note
     </Card>
   </a>
 </CardGrid>
+
+## Common Mistakes
+
+**Assuming Java is slow because of the JVM:** Modern JVMs use JIT compilation, garbage collection optimisations, and intrinsic methods. Java performance is competitive with C++ for many workloads. The JVM overhead is often negligible compared to algorithmic efficiency.
+
+**Overusing static methods:** Static methods cannot be overridden or mocked easily, making testing harder. They also create tight coupling. Prefer instance methods and dependency injection for testable, maintainable code.
+
+**Ignoring the Java Memory Model:** Concurrent programming in Java requires understanding the Java Memory Model. Without proper synchronization (volatile, synchronized, java.util.concurrent), thread interactions may not see each others writes due to caching and reordering.

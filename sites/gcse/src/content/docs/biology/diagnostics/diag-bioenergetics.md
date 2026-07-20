@@ -223,3 +223,8 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Cross-References
+
+- **[Cell Biology](./diag-cell-biology.md):** Cell structures and organelles involved in energy processes.
+- **[Inheritance and Variation](./diag-inheritance-variation-evolution.md):** Genetics and evolution linked to energy metabolism.

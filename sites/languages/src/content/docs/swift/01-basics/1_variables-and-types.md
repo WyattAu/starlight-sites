@@ -687,3 +687,11 @@ Swift's type system enforces safety at compile time. Let creates immutable const
 - [[swift/02-functions-closures/1_functions]] - Function parameter types and return values
 - [[swift/03-oop/1_classes-and-structs]] - Structs and classes in depth
 - [[swift/04-advanced/1_error-handling]] - Optional handling patterns
+
+## Common Mistakes
+
+**Force unwrapping optionals with `!`:** Using `!` crashes if the value is `nil`. Prefer `if let`, `guard let`, or `??` to handle missing values safely.
+
+**Confusing `sort` and `sorted`:** `sort()` mutates the array in place (requires `var`), while `sorted()` returns a new array. Using the wrong one causes unexpected mutations or compiler errors.
+
+**Assuming `String.Index` is an integer:** You cannot use integer subscripts on strings. Use `str.index(str.startIndex, offsetBy: n)` for safe character access. Integer indexing causes compile errors.

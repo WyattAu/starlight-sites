@@ -442,3 +442,11 @@ $\blacksquare$
 - Use diagnostic results to create a prioritised study plan, allocating more time to weaker areas
   while maintaining stronger ones.
 - Re-test regularly to measure progress and adjust the study plan accordingly.
+
+
+
+## Cross-References
+
+- **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Diagnostics assess pure maths skills
+- **[Mechanics](../maths/practice-mechanics):** Mechanics diagnostics test physics applications
+- **[Statistics](../maths/statistics/statistics):** Statistics diagnostics test data analysis

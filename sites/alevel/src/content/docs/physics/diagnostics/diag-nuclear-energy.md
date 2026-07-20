@@ -339,3 +339,11 @@ and density) for sustained fusion reactions.
 Note: In practice, tritium must be "bred" from lithium using the fusion neutrons, and the achievable
 efficiency is much lower than $100\%$But the resource is still effectively limitless on human
 timescales.
+
+## Common Mistakes
+
+**Confusing current and voltage:** Current (A) is the flow of charge; voltage (V) is the energy per unit charge. Resistance opposes current, not voltage. Students often say "the resistor uses up the voltage" when they should say "the voltage drops across the resistor."
+
+**Forgetting Ohm's law applies only to ohmic conductors:**  = IR$ is valid only when resistance is constant (ohmic conductors at constant temperature). For non-ohmic devices (diodes, thermistors, filament lamps), resistance changes with voltage or temperature, so  = IR$ gives the resistance at that point, not a constant.
+
+**Confusing the conventions for electron flow and conventional current:** Conventional current flows from positive to negative (the direction a positive charge would move). Electron flow is from negative to positive (the actual movement of electrons). Most circuit analysis uses conventional current. Using electron flow when conventional current is expected gives reversed directions.

@@ -209,3 +209,17 @@ $\text{O}^{2-}$ ions strongly, forming a tightly bonded, compact oxide lattice. 
 with a larger ionic radius ($\text{Fe}^{2+} = 78\ \text{pm}$, $\text{Fe}^{3+} = 64.5\ \text{pm}$) and
 the oxide lattice has more defects and is less uniformly bonded, allowing water incorporation and
 porosity.
+
+## Common Mistakes
+
+**Confusing oxidation with reduction:** Oxidation is loss of electrons (OIL). Reduction is gain of electrons (RIG). Don't mix up which is which.
+
+**Forgetting that oxidation number changes indicate redox:** Always assign oxidation numbers before and after a reaction to identify what's oxidised and what's reduced.
+
+**Mixing up oxidising agents with reducing agents:** Oxidising agents cause oxidation (they get reduced themselves). Reducing agents cause reduction (they get oxidised themselves).
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines bonding
+- **[Energetics](../chemistry/flashcards-energetics):** Energy changes are fundamental
+- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium is a core topic

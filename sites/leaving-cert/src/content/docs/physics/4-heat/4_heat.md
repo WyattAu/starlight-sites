@@ -849,6 +849,14 @@ Surroundings, and heat up when colder.
 
 See the examples integrated throughout the sections above.
 
+## Intuition
+
+**Temperature measures average molecular motion:** When you feel something is hot, its molecules are vibrating faster. Temperature is the average kinetic energy of all those molecules. Heat is the energy flowing from hot objects to cold ones — it's the transfer, not the state.
+
+**Why it matters:** Thermodynamics governs everything from car engines to refrigerators, from power plants to weather systems. Understanding heat transfer, gas laws, and entropy explains how energy converts between forms and why some processes are irreversible.
+
+**The key insight:** The Second Law of Thermodynamics tells us that total entropy always increases in isolated systems — this is why heat flows from hot to cold (never the reverse), and why perpetual motion machines are impossible.
+
 ## Common Pitfalls
 
 1. **Kelvin vs Celsius** -- always use Kelvin for gas law calculations and for any equation

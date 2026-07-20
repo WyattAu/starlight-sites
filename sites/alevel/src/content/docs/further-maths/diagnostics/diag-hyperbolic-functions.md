@@ -141,3 +141,19 @@ The chain hangs with the lowest point at the vertex of the catenary (where $\cos
 curve rises symmetrically on both sides. The hyperbolic cosine arises from the equilibrium of
 forces: the horizontal component of tension is constant, while the vertical component varies with
 the weight of the chain below each point.
+
+## Common Mistakes
+
+**Confusing hyperbolic and trigonometric identities:** $\cosh^2 x - \sinh^2 x = 1$ (note the minus sign), whereas $\cos^2 x + \sin^2 x = 1$ (plus sign). Students often mix these up, writing $\cosh^2 x + \sinh^2 x = 1$ or $\cos^2 x - \sin^2 x = 1$. The hyperbolic identity has a minus; the trigonometric one has a plus.
+
+**Forgetting the signs in hyperbolic inverse definitions:** $\text{arsinh}(x) = \ln(x + \sqrt{x^2 + 1})$, $\text{arcosh}(x) = \ln(x + \sqrt{x^2 - 1})$ for $x \ge 1$, $\text{artanh}(x) = \frac{1}{2}\ln\frac{1+x}{1-x}$ for $|x| < 1$. The domains and signs differ between the three — applying the wrong formula gives incorrect results.
+
+**Confusing $\sinh$ and $\text{arsinh}$ behaviour:** $\sinh(x)$ is an odd function that grows exponentially. $\text{arsinh}(x)$ is the inverse, which grows logarithmically. When solving equations like $\sinh(x) = 5$, apply $\text{arsinh}$ to both sides — do not try to use trigonometric inverses.
+
+
+
+## Cross-References
+
+- **[Hyperbolic Functions](../further-maths/pure-mathematics/hyperbolic-functions):** Hyperbolic functions extend exponential concepts
+- **[Further Calculus](../further-maths/pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
+- **[Pure Mathematics](../further-maths/further-maths):** Further maths extends A-level mathematics

@@ -10,3 +10,11 @@ hero:
       icon: right-arrow
       variant: primary
 ---
+
+## Common Mistakes
+
+**Using `sudo` for everything:** `sudo` grants root privileges. Running unnecessary commands as root risks damaging the system. Use `sudo` only when required (package installation, system configuration). Regular operations should use your normal user account.
+
+**Not reading man pages:** The `man` command provides comprehensive documentation for every command. Guessing options wastes time. `man ls` gives you all options with explanations. Man pages are the authoritative source.
+
+**Ignoring file permissions:** Linux file permissions (rwx for user/group/other) control access. Setting `chmod 777` on sensitive files exposes them to all users. Understand permission bits and use the principle of least privilege.

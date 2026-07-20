@@ -344,3 +344,11 @@ the effector muscle. [5 marks]
    the impulse out of the spinal cord via the ventral root (anterior root) of the spinal nerve.
 5. **Effector**: The motor neurone stimulates a muscle (effector) in the arm via a neuromuscular
    junction, causing the muscle to contract. The arm is pulled away from the hot object.
+
+
+
+## Cross-References
+
+- **[Cell Biology](../biology/cell-biology):** Cell biology supports physiology
+- **[Genetics](../biology/3-genetics/genetics):** Genetics underpins biotechnology
+- **[Ecology](../biology/2-ecology/ecology):** Ecology studies organism interactions

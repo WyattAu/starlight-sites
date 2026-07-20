@@ -466,5 +466,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- **[Variables](./02-variables.md):** Covers the type specifiers and data types used in `main()`.
+- **[Async and Futures](../05-async/01-async-and-futures.md):** Extends `main()` with asynchronous entry points and event loop mechanics.
+- **[Classes and Inheritance](../04-object-oriented/01-classes-and-inheritance.md):** Object-oriented patterns used within `main()` function bodies.
+- **[Error Handling](../08-error-handling.md):** Try-catch patterns for handling failures in the entry point.
+
 
 </aside>

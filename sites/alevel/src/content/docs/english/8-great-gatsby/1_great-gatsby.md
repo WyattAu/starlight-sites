@@ -99,3 +99,11 @@ Myrtle Wilson's attempt to cross class boundaries through her affair with Tom en
 - **AO2 (20%)**: Analyse how meanings are shaped. Focus on how Fitzgerald's narrative choices create ambiguity and irony.
 - **AO3 (20%)**: Contextualise the novel within 1920s America, Prohibition, and post-war disillusionment.
 - **AO4 (20%)**: Connect to other texts studied, particularly those exploring class, ambition, or the American Dream.
+
+## Common Mistakes
+
+**Reading the green light as a simple symbol with one fixed meaning:** The green light at the end of Daisy's dock operates on multiple levels — hope, the American Dream, the unattainable past, class aspiration. Reducing it to a single meaning ("it represents the American Dream") misses the layered ambiguity that makes the symbol powerful. Discuss how its meaning shifts across the novel.
+
+**Conflating Gatsby's dream with the American Dream uncritically:** Gatsby's personal obsession with Daisy mirrors the broader American Dream, but the novel also critiques both. Gatsby's dream is built on criminal wealth and self-invention; the American Dream promises merit-based success. The parallel invites critique, not identification. Consider how Fitzgerald uses Gatsby to expose the hollowness of the Dream.
+
+**Forgetting that Nick is an unreliable narrator:** Nick claims to be "one of the few honest people" he has ever known, yet his account is full of contradictions, omissions, and self-justifications. His judgement of other characters reflects his own values and blind spots. Always question what Nick tells you — the novel's meaning often lies in the gap between his account and the truth.

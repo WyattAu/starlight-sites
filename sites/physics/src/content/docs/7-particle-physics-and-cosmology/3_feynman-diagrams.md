@@ -204,3 +204,11 @@ Feynman diagrams are like sheet music for particle interactions. Each note repre
 - **[The Standard Model](1_the-standard-model.md)**: Feynman diagrams encode the interaction vertices defined by the Standard Model Lagrangian.
 - **[Conservation Laws and Symmetries](2_conservation-laws-and-symmetries.md)**: Each vertex in a Feynman diagram must conserve the quantum numbers governed by the symmetry principles in this chapter.
 - **[Running Coupling Constants](6_running-coupling-constants.md)**: Loop corrections in Feynman diagrams drive the energy dependence of coupling constants through renormalisation group evolution.
+
+## Common Mistakes
+
+**Confusing virtual and real particles:** Virtual particles in internal lines don't satisfy E² = p²c² + m²c⁴. They are off-shell and cannot be detected directly. Treating them as real gives wrong cross-sections.
+
+**Forgetting fermion flow direction:** Fermion lines have arrows indicating particle vs antiparticle flow. Reversing the arrow changes the particle to its antiparticle, altering the amplitude.
+
+**Neglecting the symmetry factor:** Identical particles in final states require a 1/n! symmetry factor. Forgetting it overcounts identical configurations and gives wrong decay rates.

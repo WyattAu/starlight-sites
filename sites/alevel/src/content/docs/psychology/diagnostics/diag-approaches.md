@@ -123,3 +123,19 @@ sidebar_position: 40
 **9. (B)** Maslow proposed a hierarchy of needs: physiological, safety, love/belonging, esteem, and self-actualisation. Lower-level needs must be substantially satisfied before an individual can progress to higher-level needs. Self-actualisation is the fulfilment of one\'s potential.
 
 **10. (C)** The cognitive approach (Beck) explains depression in terms of negative cognitive schemas, distorted thinking patterns, and maladaptive automatic thoughts. These cognitive distortions maintain depressive symptoms and are the target of cognitive therapy.
+
+
+
+## Cross-References
+
+- **[Memory](../psychology/flashcards-memory):** Approaches explain cognitive processes
+- **[Social Influence](../psychology/practice-social-influence):** Social influence theories use approaches
+- **[Research Methods](../psychology/1-research-methods/research-methods):** Each approach uses specific methods
+
+## Common Mistakes
+
+**Confusing the approaches' key assumptions:** Each approach has a distinct assumption about what determines behaviour. Behaviourism: environment and learning. Biological: brain, genes, neurotransmitters. Psychodynamic: unconscious conflicts. Cognitive: mental processes. Humanistic: free will and self-actualisation. Students often attribute a concept to the wrong approach.
+
+**Assuming all approaches are equally scientific:** The biological and cognitive approaches use empirical, scientific methods (experiments, brain scans). The psychodynamic and humanistic approaches are harder to test empirically and are often criticised for lacking falsifiability. This does not mean they are wrong, but their evidence base is different.
+
+**Confusing Bandura's social learning theory with behaviourism:** Bandura's Bobo doll experiment showed that learning can occur through observation (modelling) without direct reinforcement. This challenged pure behaviourism, which required direct reinforcement. Social learning theory bridges behaviourism and cognitivism — it is not simply an extension of behaviourism.

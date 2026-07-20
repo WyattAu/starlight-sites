@@ -532,6 +532,14 @@ correct order. No delays are needed for StateFlow tests since values update sync
 - **Testing with `runBlocking` instead of `runTest`.** `runBlocking` does not control virtual time,
   making tests with `delay` slow and non-deterministic.
 
+## Intuition
+
+**Flows are lazy pipelines that only execute when someone asks for data:** Think of a Flow like a water pipe system — water doesn't flow until you turn on the tap (call collect). Each operator (map, filter, catch) is a valve or filter in the pipeline. If something goes wrong upstream, the error travels downstream until it hits a catch operator or reaches the collector.
+
+**Why it matters:** Kotlin coroutines enable writing asynchronous code that reads like synchronous code. Understanding Flow error handling, sharing, and lifecycle management is essential for building reactive Android apps, server-side services, and any system that processes streams of data.
+
+**The key insight:** StateFlow and SharedFlow serve different purposes — StateFlow is for holding current state (like a dashboard display), while SharedFlow is for broadcasting one-time events (like navigation commands). Using the wrong one leads to subtle bugs like dropped events or stale state.
+
 ## Common Pitfalls
 
 1. **Catching CancellationException in a generic catch block.** Always rethrow

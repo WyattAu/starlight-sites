@@ -896,3 +896,11 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure determines bonding
+- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium is a core topic
+- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry covers carbon compounds

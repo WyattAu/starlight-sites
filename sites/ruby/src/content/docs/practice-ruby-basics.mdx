@@ -55,3 +55,11 @@ the explanation.
 ### Metaprogramming
 
 <PracticeProblem client:only="solid-js" question={"Which method should you always define alongside method_missing to maintain respond_to? correctness?&quot; options={['respond_to_missing?', 'respond_to?', 'method_defined?', 'has_method?']} correctAnswer={0} explanation=&quot;respond_to_missing? must be defined alongside method_missing. Without it, respond_to? returns false for dynamically handled methods, breaking polymorphism. The second parameter include_private controls whether private methods are included."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Confusing `puts` with `print`:** `puts` adds a newline; `print` does not. Using `print` in a loop creates output without line breaks, which may be confusing. Use `puts` for line-by-line output.
+
+**Not using symbol keys for hashes:** `{:key => "value"}` works, but `key: "value"` is preferred. Symbol keys are immutable and faster than string keys. For new code, always use symbol syntax for hash keys.
+
+**Ignoring Ruby naming conventions:** Methods are snake_case. Classes and modules are CamelCase. Constants are SCREAMING_SNAKE_CASE. Instance variables start with @. Following conventions makes code readable to other Ruby developers.

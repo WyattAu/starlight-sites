@@ -675,3 +675,10 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+
+## Cross-References
+
+- **[Graph Algorithms](../computer-science/algorithms/03-graph-algorithms):** Dijkstra's and Prim's algorithms operate on graphs
+- **[Linked Lists](../computer-science/data-structures/02-linked-lists):** Graphs can use adjacency lists with linked structures
+- **[Number Systems](../computer-science/fundamentals/01-number-systems):** Graph representations use binary data

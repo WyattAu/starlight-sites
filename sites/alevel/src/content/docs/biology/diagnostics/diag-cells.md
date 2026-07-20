@@ -408,3 +408,11 @@ leucine in the lumen could partially or fully overcome this inhibition (as subst
 inhibitor for the binding site). Therefore, unlike ATP inhibition (which indirectly affects the
 gradient and cannot be overcome by increasing substrate), competitive inhibition of the
 co-transporter can be partially overcome by increasing substrate concentration.
+
+## Common Mistakes
+
+**Confusing magnification with resolution:** Increasing magnification without improving resolution just produces a larger blurry image. Resolution — the minimum distance between two distinguishable points — is what determines how much detail you can see. A light microscope at $\times 1500$ cannot reveal ribosomes because its resolution is limited to about 200 nm.
+
+**Forgetting that TEM specimens must be dead:** Transmission electron microscopy requires a vacuum, so specimens must be fixed, dehydrated, and sectioned. You cannot observe living cells or dynamic processes with TEM. If a question asks you to observe a live process, suggest light microscopy or fluorescent labelling instead.
+
+**Mixing up the isolation buffer requirements:** The homogenisation buffer must be cold (reduces enzyme activity that damages organelles), isotonic (prevents osmotic lysis or shrinkage), and buffered (maintains constant pH). Omitting any one of these three will damage the organelles you are trying to isolate.

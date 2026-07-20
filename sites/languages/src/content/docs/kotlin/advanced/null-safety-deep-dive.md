@@ -347,3 +347,9 @@ Kotlin's null safety is like a building's fire code -- it prevents disasters by 
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Types and Variables](../basics/types-and-variables.md):** Nullable type declarations and type inference fundamentals.
+- **[Control Flow](../basics/control-flow.md):** When expressions and null-safe branching patterns.
+- **[Metaprogramming](./metaprogramming.md):** Reflection-based null handling and contract annotations.

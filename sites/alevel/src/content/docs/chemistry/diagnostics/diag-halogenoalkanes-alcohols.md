@@ -458,3 +458,19 @@ does not solvate the nucleophile as effectively as water would (1 mark).
 substitution (it involves breaking a C--H bond in addition to the C--Br bond). According to the
 Arrhenius equation, reactions with higher $E_a$ are more sensitive to temperature increases, so the
 rate of elimination increases more than the rate of substitution as temperature rises (1 mark).
+
+## Common Mistakes
+
+**Confusing substitution and elimination conditions:** Aqueous NaOH (dilute, with water as solvent) favours nucleophilic substitution. Ethanolic NaOH (concentrated, with ethanol as solvent) favours elimination. The key difference is the solvent: water solvates the nucleophile making it less basic (favouring substitution), while ethanol does not solvate it as well, allowing OH$^-$ to act as a base (favouring elimination).
+
+**Forgetting that tertiary alcohols cannot be oxidised:** Oxidation of an alcohol requires a hydrogen atom on the carbon bearing the OH group. Tertiary alcohols have no such hydrogen, so they resist oxidation by acidified potassium dichromate. Students often assume all alcohols give a positive result with this test.
+
+**Mixing up SN1 and SN2 mechanisms:** SN1 proceeds via a carbocation intermediate (unimolecular, rate depends only on substrate concentration, racemisation, favoured by tertiary substrates and polar protic solvents). SN2 is a single-step backside attack (bimolecular, rate depends on both substrate and nucleophile, inversion of configuration, favoured by primary substrates and polar aprotic solvents). Getting the conditions wrong leads to incorrect predictions.
+
+
+
+## Cross-References
+
+- **[Organic Chemistry](../chemistry/organic-chemistry/introduction):** Organic chemistry covers carbon-based compounds and their reactions
+- **[Physical Chemistry](../chemistry/flashcards-physical-chemistry):** Physical chemistry underpins reaction rates, energetics, and equilibrium
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines chemical bonding and reactivity

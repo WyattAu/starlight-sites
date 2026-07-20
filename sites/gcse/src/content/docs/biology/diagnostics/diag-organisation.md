@@ -235,3 +235,8 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Cross-References
+
+- **[Cell Biology](./diag-cell-biology.md):** Cell structures and their functions.
+- **[Bioenergetics](./diag-bioenergetics.md):** Energy processes in living organisms.

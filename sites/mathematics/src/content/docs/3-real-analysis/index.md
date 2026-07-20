@@ -89,3 +89,9 @@ A complete metric space need not be compact; compactness requires both completen
 
 **Mistake 3: Ignoring the Archimedean property in proofs**
 Many proofs in real analysis implicitly rely on the Archimedean property (for any real $x$, there exists an integer $n > x$). For instance, showing that $\inf S = 0$ for $S = \{1/n : n \in \mathbb{N}\}$ requires it. Always check whether your argument needs this property or can proceed without it.
+
+## Cross-References
+
+- **[Linear Algebra](../../2-linear-algebra/index.md):** Metric spaces and normed spaces.
+- **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Extensions to several variables.
+- **[Measure Theory](../../10-measure-theory/index.md):** Lebesgue integration extending Riemann integration.

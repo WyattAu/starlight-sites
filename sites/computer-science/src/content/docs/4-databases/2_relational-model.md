@@ -242,3 +242,11 @@ These rules form the foundation of heuristic query optimisation (see Section 7).
 ## Intuition
 
 The relational model organizes data into tables with rows and columns, like a spreadsheet where each sheet represents a different entity and the relationships between sheets represent how entities connect. Primary keys are the unique ID badges that distinguish every row, and foreign keys are the references that link tables together. The beauty of the relational model is that it separates the logical view of data from its physical storage, the way a restaurant menu separates the description of a dish from the kitchen's recipe.
+
+## Common Mistakes
+
+**Confusing primary keys with foreign keys:** A primary key uniquely identifies each record in a table. A foreign key references a primary key in another table to establish relationships. Don't confuse their roles.
+
+**Forgetting that NULL is not a value:** NULL represents missing or unknown data. Comparisons with NULL (e.g., = NULL) always return NULL, not true or false. Use IS NULL instead.
+
+**Mixing up cardinality with selectivity:** Cardinality is the number of rows in a relation. Selectivity is the fraction of rows selected by a query. Don't use them interchangeably.

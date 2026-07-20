@@ -218,3 +218,11 @@ sidebar_position: 50
 - **[Vectors and Vector Spaces](2-linear-algebra/1_vectors-and-vector-spaces.md)**: The foundational definitions of vector spaces and subspaces underpin every exercise in this practice set.
 - **[Eigenvalues and Eigenvectors](2-linear-algebra/5_eigenvalues-and-eigenvectors.md)**: Problems on diagonalisation and spectral decomposition require the eigenvalue techniques from this chapter.
 - **[Inner Product Spaces](2-linear-algebra/7_inner-product-spaces.md)**: The Gram-Schmidt and orthogonality questions draw directly on inner product space theory.
+
+## Common Mistakes
+
+**Forgetting the $k^n$ factor in $\det(kA)$:** For an $n \times n$ matrix, $\det(kA) = k^n \det(A)$, not $k \cdot \det(A)$. The scalar multiplies each of the $n$ rows independently, and the determinant is multilinear. For a $3 \times 3$ matrix, $\det(2A) = 8\det(A)$, not $2\det(A)$.
+
+**Confusing the characteristic polynomial with the minimal polynomial:** The characteristic polynomial $\det(A - \lambda I)$ always has degree $n$ and its roots are the eigenvalues. The minimal polynomial is the lowest-degree monic polynomial $m(\lambda)$ such that $m(A) = 0$. For diagonalisable matrices they share roots but may have different multiplicities.
+
+**Assuming that a matrix with determinant zero has no eigenvalues:** A singular matrix (determinant zero) has at least one eigenvalue equal to zero, but it may have other non-zero eigenvalues. The matrix $[[1, 0], [0, 0]]$ has determinant 0 but eigenvalues 1 and 0. The zero determinant tells you about the product of eigenvalues, not their individual values.

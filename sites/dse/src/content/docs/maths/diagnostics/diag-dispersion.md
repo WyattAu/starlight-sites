@@ -588,3 +588,11 @@ New mean $= \dfrac{(n-1)\mu}{n-1} = \mu$.
 After removing $\mu$: $\sum x_i^2 = n(\sigma^2 + \mu^2) - \mu^2 = n\sigma^2 + (n-1)\mu^2$.
 
 New variance $= \dfrac{n\sigma^2 + (n-1)\mu^2}{n-1} - \mu^2 = \dfrac{n\sigma^2}{n-1}$.
+
+
+
+## Cross-References
+
+- **[Functions](../maths/diagnostics/diag-functions):** Functions are central
+- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics are a core topic
+- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is fundamental

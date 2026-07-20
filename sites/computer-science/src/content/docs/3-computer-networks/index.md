@@ -66,3 +66,9 @@ Each section includes:
 3. **Practise with tools**: Use Wireshark to capture and analyse network traffic
 4. **Understand trade-offs**: Reliability vs. speed, security vs. performance
 5. **Connect to applications**: Relate networking concepts to web, email, and streaming
+
+## Cross-References
+
+- **[Systems](../../2-systems/index.md):** Computer architecture and operating systems that networking relies on.
+- **[Network Security](./7_network-security.md):** TLS, encryption, and authentication protocols.
+- **[Databases](../../4-databases/index.md):** Distributed databases that depend on network communication.

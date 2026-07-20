@@ -674,3 +674,9 @@ ghc -O2 -threaded -rtsopts -with-rtsopts=-N MyProgram.hs
    single-threaded
 7. **Profile before optimizing**: Use `+RTS -s` and ThreadScope to identify bottlenecks
 8. **Prefer pure parallelism with strategies**: When you do not need side effects
+
+## Cross-References
+
+- **[Monads and Functors](../04-monads/1_monads-and-functors.md):** IO monad and monad transformers used for concurrent effect management.
+- **[Types and Functions](../01-basics/1_types-and-functions.md):** Function composition and higher-order functions in parallel strategies.
+- **[Advanced Types](./1_advanced-types.md):** Phantom types and GADTs for type-safe concurrent data structures.

@@ -386,3 +386,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Race Conditions](./race-conditions.md):** Mutex-based synchronization as an alternative to channel communication.
+- **[Networking](../advanced/networking.md):** Goroutine-based network servers using channel patterns.
+- **[I/O](../standard-library/io.md):** Stream processing with io.Reader/Writer in concurrent pipelines.

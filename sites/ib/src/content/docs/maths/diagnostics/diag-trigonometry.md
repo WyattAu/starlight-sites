@@ -188,3 +188,11 @@ This is an elliptic integral and does not have an elementary closed form. The co
 $\frac{\pi}{16}$ comes from the double-angle identity approach, not from this substitution. The
 student's error was applying two substitutions simultaneously without accounting for both $\cos x$
 factors.
+
+
+
+## Cross-References
+
+- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Algebra is foundational
+- **[Functions](../maths/2-functions/functions):** Functions are central
+- **[Calculus](../maths/5-calculus/calculus):** Calculus is a major topic

@@ -201,3 +201,17 @@ limited ( 25 MB) and would require splitting the file. (2) Cloud storage provide
 rather than attaching the file to an email, keeping mailbox sizes manageable. (3) Access can be
 controlled (password, expiry date, download limit). (4) The link can be shared via email or
 messaging, keeping the actual file on secure servers. For sensitive video, encrypt before uploading.
+
+## Common Mistakes
+
+**Confusing relative and absolute cell references in spreadsheets:** Relative references (A1) change when copied. Absolute references ($A$1) stay fixed. Use $ to lock rows or columns when copying formulas.
+
+**Forgetting that mail merge requires a data source:** Mail merge combines a template document with a structured data source (spreadsheet or database). Without the data source, the merge cannot work.
+
+**Assuming cloud storage is always private:** Cloud files can be accessed by the provider's employees, government requests, or hackers if not encrypted. Sensitive files should be encrypted before uploading.
+
+## Cross-References
+
+- **[Data Representation](../ict/1-data-representation/1_data-representation):** Data is fundamental to ICT
+- **[Computer Systems](../ict/diagnostics/diag-computer-systems):** Systems process data
+- **[Programming](../ict/diagnostics/diag-programming-databases):** Programming manipulates data

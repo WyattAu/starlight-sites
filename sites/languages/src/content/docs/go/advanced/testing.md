@@ -395,3 +395,9 @@ fi
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Interfaces](../intermediate/interfaces.md):** Interface-based mock design for test doubles.
+- **[Error Handling](../intermediate/error-handling.md):** Error wrapping and inspection patterns used in test assertions.
+- **[net/http](../standard-library/net-http.md):** HTTP handler testing with httptest and middleware chains.

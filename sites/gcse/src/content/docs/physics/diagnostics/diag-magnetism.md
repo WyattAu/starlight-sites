@@ -219,3 +219,8 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Cross-References
+
+- **[Electricity](./diag-electricity.md):** Electric circuits and currents.
+- **[Forces](./diag-forces.md):** Forces and motion.

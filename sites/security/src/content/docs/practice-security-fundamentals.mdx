@@ -214,3 +214,11 @@ sidebar_position: 50
 **Correct Answer:** (B)
 
 **Explanation:** RTO is the maximum duration an organization can tolerate a system being offline after an incident before unacceptable business consequences occur. RPO (Recovery Point Objective) defines the maximum acceptable data loss measured in time (e.g., you can afford to lose at most 4 hours of data). RTO and RPO drive backup strategies and disaster recovery planning.
+
+## Common Mistakes
+
+**Confusing authentication with authorisation:** Authentication verifies identity. Authorisation determines permissions. A user can be authenticated but unauthorised for specific actions. Implement both.
+
+**Using symmetric encryption for key exchange:** Symmetric encryption requires both parties to share the same key. Exchanging this key securely is the problem. Use asymmetric encryption for key exchange, then switch to symmetric for bulk data.
+
+**Trusting client-side validation:** Client-side validation improves user experience but provides no security. Attackers can bypass it by modifying HTTP requests. Always validate on the server. Client-side checks are a convenience, not a security control.

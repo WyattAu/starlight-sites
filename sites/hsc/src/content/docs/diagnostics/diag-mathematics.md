@@ -117,3 +117,11 @@ tableOfContents: false
 | 10       | C             |
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of HSC Mathematics fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
+
+## Common Mistakes
+
+**Confusing arithmetic and geometric progressions:** Arithmetic has constant difference $d$; geometric has constant ratio $r$. Using the wrong formula ($a_n = a_1 + (n-1)d$ vs $a_n = a_1 r^{n-1}$) gives completely wrong answers for term values and sums.
+
+**Sign errors in trigonometry:** The CAST diagram (All, Sin, Tan, Cos) determines which quadrants give positive values. Forgetting the sign in specific quadrants leads to wrong angle solutions. Always check the quadrant before finalising an answer.
+
+**Misapplying the cosine rule:** The cosine rule $c^2 = a^2 + b^2 - 2ab\cos C$ requires the angle to be between sides $a$ and $b$. Using the wrong angle gives incorrect side lengths. Identify the included angle before applying the rule.

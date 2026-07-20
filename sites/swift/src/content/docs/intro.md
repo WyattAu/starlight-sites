@@ -20,3 +20,11 @@ Swift is the primary language for Apple platform development. Its optionals enfo
 - **Concurrency**: async/await, actors, and structured concurrency for safe parallel execution
 
 Browse the content using the sidebar navigation on the left.
+
+## Common Mistakes
+
+**Confusing `let` and `var`:** `let` declares a constant (cannot be reassigned). `var` declares a variable. Swift encourages immutability — use `let` everywhere possible. This makes code safer and helps the compiler optimise.
+
+**Ignoring optionals:** Swift uses optionals (Type?) to represent values that may be absent. Forcing an optional with ! crashes the program if nil. Use optional binding (if let, guard let) or nil coalescing (??) to handle optionals safely.
+
+**Not using guard statements for early exits:** guard is like if but for conditions that must be true for the rest of the function to work. Using guard with else { return } makes preconditions explicit and reduces nesting.

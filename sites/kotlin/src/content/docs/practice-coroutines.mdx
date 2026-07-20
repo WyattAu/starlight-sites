@@ -187,3 +187,11 @@ suspend fun main() {
 ```
 
 **Solution:** `withContext` switches the coroutine's dispatcher for a specific block while maintaining structured concurrency. The thread name changes between steps, demonstrating the context switch. The coroutine resumes on the original context after `withContext` completes.
+
+## Common Mistakes
+
+**Launching coroutines without a scope:** Coroutines must be launched within a CoroutineScope. Using GlobalScope leaks coroutines that survive beyond their intended lifecycle. Always use structured concurrency with appropriate scopes.
+
+**Confusing `launch` with `async`:** `launch` returns a Job (no result). `async` returns a Deferred (awaitable result). Use `launch` for fire-and-forget work. Use `async` when you need the result. Mixing them up leads to either missing results or unnecessary waiting.
+
+**Forgetting to handle coroutine exceptions:** Uncaught exceptions in coroutines propagate to the CoroutineScope and cancel all sibling coroutines. Always use `CoroutineExceptionHandler` or try-catch inside the coroutine to handle errors gracefully.

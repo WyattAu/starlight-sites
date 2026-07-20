@@ -579,3 +579,10 @@ waterways.
    nutrient available for leaching at any one time.
 4. **Precision farming**: use GPS-guided equipment and soil testing to apply fertiliser only where
    needed and at the correct rate, avoiding over-application.
+
+
+
+## Cross-References
+
+- **[Biological Molecules](../biology/diagnostics/diag-biological-molecules):** Energy flow in ecosystems depends on biological molecules
+- **[Cell Biology](../biology/flashcards-cell-biology):** Ecological interactions occur between organisms at the cellular level

@@ -132,3 +132,17 @@ sidebar_position: 40
 **9. (B)** Progressive income taxes automatically stabilise the economy: during expansion, rising incomes push taxpayers into higher brackets, dampening demand; during contraction, falling incomes reduce tax burdens, cushioning the fall in demand.
 
 **10. (B)** Real GDP is adjusted for inflation by using constant base-year prices, allowing meaningful comparison of output across different time periods. Nominal GDP uses current prices and can rise due to inflation alone.
+
+## Common Mistakes
+
+**Confusing nominal with real values:** Nominal values are in current prices. Real values are adjusted for inflation. Real GDP growth shows actual output changes, not just price changes.
+
+**Mixing up fiscal and monetary policy:** Fiscal policy is government spending/taxation (controlled by government). Monetary policy is interest rates/money supply (controlled by central bank). Don't confuse who controls what.
+
+**Assuming trade deficits are always bad:** A trade deficit means importing more than exporting. It can be sustainable if funded by investment inflows. Don't automatically equate deficits with problems.
+
+## Cross-References
+
+- **[Fiscal Policy](../economics/2-macroeconomics/2-fiscal-policy):** Macroeconomics covers fiscal policy
+- **[National Income](../economics/2-macroeconomics/1-national-income):** GDP is a macro indicator
+- **[Exchange Rates](../economics/3-international-economics/2-exchange-rates):** Exchange rates are macro variables

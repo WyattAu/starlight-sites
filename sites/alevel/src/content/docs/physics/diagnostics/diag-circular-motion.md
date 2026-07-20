@@ -343,3 +343,19 @@ $$T = 2\pi\sqrt{\frac{0.30}{50 - 0.30 \times 100}} = 2\pi\sqrt{\frac{0.30}{20}} 
 
 Note: as $\omega$ approaches $\omega_c$The period diverges (the oscillation becomes infinitely
 slow), indicating the onset of instability.
+
+## Common Mistakes
+
+**Confusing centripetal and centrifugal force:** Centripetal force is the real net force directed towards the centre of the circle (e.g., tension, friction, gravity). Centrifugal force is a fictitious force that appears in a rotating reference frame. In an inertial frame, there is no centrifugal force — only the centripetal force keeps the object in circular motion.
+
+**Forgetting that centripetal acceleration is $v^2/r$, not $v^2r$:** The centripetal acceleration is $a = v^2/r = \omega^2 r$. Students sometimes write $v^2r$ instead of $v^2/r$. A larger radius means less acceleration for the same speed, which makes physical sense — a gentle curve requires less force than a tight one.
+
+**Confusing angular velocity with linear velocity:** $\omega$ (rad/s) is angular velocity; $v$ (m/s) is linear velocity. They are related by $v = \omega r$. Students often use $\omega$ when the question asks for $v$, or forget to multiply by $r$ when converting between them.
+
+
+
+## Cross-References
+
+- **[Mechanics](../physics/flashcards-mechanics-waves):** Mechanics covers motion, forces, and energy
+- **[Waves](../physics/flashcards-mechanics-waves):** Waves transfer energy through oscillations
+- **[Electricity](../physics/flashcards-electricity-fields):** Electricity covers circuits and fields

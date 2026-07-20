@@ -347,3 +347,17 @@ product.
 The key point: once the $C=C$ is consumed in step 1, the subsequent $Br_{2}$ reaction is
 substitution (not addition), placing $Br$ at a different position. The direct addition of $Br_{2}$
 to the alkene is the only efficient route.
+
+## Common Mistakes
+
+**Confusing SN1 and SN2 mechanisms:** SN1 is favoured by tertiary halogenoalkanes (stable carbocation, steric hindrance prevents backside attack). SN2 is favoured by primary halogenoalkanes (no steric hindrance, strong nucleophile needed). Don't assume all nucleophilic substitutions follow the same mechanism.
+
+**Forgetting the requirements for cis-trans isomerism:** You need a C=C double bond (or ring) AND each carbon of the double bond must have two different groups attached. But-1-ene doesn't show cis-trans isomerism because one carbon has two identical H atoms.
+
+**Mixing up electrophilic addition with nucleophilic substitution:** Alkenes undergo electrophilic addition (electron-rich C=C attacks electrophile). Halogenoalkanes undergo nucleophilic substitution (nucleophile attacks electron-poor carbon). The mechanisms are fundamentally different.
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is foundational
+- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium connects topics
+- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is a major area

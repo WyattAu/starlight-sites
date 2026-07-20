@@ -1054,3 +1054,8 @@ convenience -- they do not introduce a new type.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- **[Types and Variables](./01-types-and-variables.md):** Primitive and reference types used in control flow expressions.
+- **[Garbage Collection](../../09-jvm-internals/03-garbage-collection.md):** JVM memory management affecting loop and object lifecycle.
+- **[Generics](../../11-generics-reflection/01-generics.md):** Type-safe iteration and switch expressions with sealed classes.

@@ -765,3 +765,11 @@ Swift's choice between structs and classes is a fundamental design decision. Str
 - [[swift/02-functions-closures/1_functions]] - Methods, initializers, and closures
 - [[swift/04-advanced/1_error-handling]] - Error propagation in class hierarchies
 - [[swift/04-advanced/2_concurrency]] - Actors for thread-safe reference types
+
+## Common Mistakes
+
+**Using classes when structs would suffice:** Classes introduce reference semantics, ARC overhead, and potential retain cycles. Default to structs unless you specifically need inheritance or shared mutable state.
+
+**Confusing `weak` and `unowned`:** `weak` becomes nil when the referenced object is deallocated; `unowned` crashes. Use `weak` when the referenced object may outlive the reference, and `unowned` only when lifetimes are guaranteed to be equal.
+
+**Forgetting `mutating` on struct methods:** Struct methods that modify properties must be marked `mutating`. Without it, the compiler prevents any property changes. This is a common error when transitioning from classes to structs.

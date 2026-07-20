@@ -171,3 +171,17 @@ favouring dissolution.
 "Like dissolves like" means that solubility is maximised when the intermolecular forces in the
 solute are similar to those in the solvent. Water has strong hydrogen bonding, so solutes that can
 also participate in hydrogen bonding (or strong dipole-dipole interactions) dissolve readily.
+
+## Common Mistakes
+
+**Assuming all bonds are purely ionic or purely covalent:** Most bonds have some degree of both. Even ionic bonds have partial covalent character, and covalent bonds can be polar.
+
+**Confusing intermolecular forces with intramolecular forces:** Intermolecular forces (van der Waals, hydrogen bonds) exist BETWEEN molecules. Intramolecular forces (ionic, covalent, metallic) exist WITHIN molecules. Don't confuse their effects on physical properties.
+
+**Forgetting that molecular shape affects polarity:** A molecule can have polar bonds but be non-polar overall if the geometry causes dipole cancellation (e.g., CO₂ is linear, so bond dipoles cancel).
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines bonding
+- **[Energetics](../chemistry/flashcards-energetics):** Energy changes are fundamental
+- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium is a core topic

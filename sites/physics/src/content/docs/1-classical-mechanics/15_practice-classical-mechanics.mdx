@@ -53,3 +53,11 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"A particle of mass m slides on a frictionless parabolic wire y = ½ax² under gravity. Using x as the generalised coordinate, what is the Lagrangian L?&quot; options={['L = ½m(1 + a²x²)ẋ² − ½mgax²', 'L = ½mẋ² + ½mgax²', 'L = ½mẋ² − mgy', 'L = ½mv² + mgy']} correctAnswer={0} explanation=&quot;T = ½m(ẋ² + ẏ²) = ½m(ẋ² + a²x²ẋ²) = ½m(1 + a²x²)ẋ². V = mgy = mg(½ax²) = ½mgax². L = T − V = ½m(1 + a²x²)ẋ² − ½mgax². The Euler-Lagrange equation gives the equation of motion along the wire."} difficulty="hard"  />
 
 <PracticeProblem client:only="solid-js" question={"For a simple pendulum with Lagrangian L = ½mL²θ̇² − mgL(1 − cosθ), what is the Euler-Lagrange equation?&quot; options={[ 'mL²θ̈ + mgL sinθ = 0', 'mL²θ̈ − mgL sinθ = 0', 'mLθ̈ + mg sinθ = 0', 'mL²θ̈ + mgL cosθ = 0', ]} correctAnswer={0} explanation=&quot;Apply ∂L/∂θ − d/dt(∂L/∂θ̇) = 0. ∂L/∂θ = −mgL sinθ. ∂L/∂θ̇ = mL²θ̇. d/dt(∂L/∂θ̇) = mL²θ̈. So: −mgL sinθ − mL²θ̈ = 0 → mL²θ̈ + mgL sinθ = 0 → θ̈ + (g/L)sinθ = 0. For small angles: θ̈ + (g/L)θ = 0 (SHM with ω² = g/L)."} difficulty="medium"  />
+
+## Common Mistakes
+
+**Confusing static and kinetic friction:** Static friction matches the applied force up to μₛN. Kinetic friction is always μₖN. Using the wrong coefficient gives incorrect acceleration.
+
+**Forgetting that Lagrangian L = T − V, not T + V:** The sign convention is critical. L = T − V, not T + V. Using the wrong sign flips the equations of motion.
+
+**Neglecting the centrifugal term in central force problems:** The effective potential V_eff = L²/(2mr²) + V(r) includes the centrifugal barrier. Forgetting this term misses the minimum that gives stable circular orbits.

@@ -624,6 +624,14 @@ $$
 
 See the examples integrated throughout the sections above.
 
+## Intuition
+
+**Number systems are nested sets of mathematical objects:** Think of natural numbers as counting numbers (1, 2, 3...), integers add negatives (...-2, -1, 0, 1, 2...), rationals add fractions (1/2, 3/4), and reals fill in the gaps (π, √2). Each set contains the previous one, like Russian nesting dolls.
+
+**Why it matters:** Understanding number systems helps you choose the right tools for different problems. Sequences and series model repeated patterns — from compound interest to radioactive decay. Financial mathematics applies these concepts to real-world money problems.
+
+**The key insight:** An arithmetic sequence has a constant difference between terms (linear growth), while a geometric sequence has a constant ratio (exponential growth) — understanding this distinction determines which formulas you use.
+
 ## Common Pitfalls
 
 1. **Mixing up arithmetic and geometric** formulas -- arithmetic has $d$Geometric has $r$. Remember:

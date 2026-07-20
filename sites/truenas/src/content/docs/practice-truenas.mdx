@@ -61,3 +61,11 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"When creating a mirror pool, what is the capacity efficiency of a 2-way mirror?"} options={'50%', '100%', '75%', '33%'} correctAnswer={0} explanation="A 2-way mirror stores two copies of every block, so usable capacity is 50% of total raw capacity. The trade-off is excellent random I/O performance." difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"What is the recommended scrub frequency for an all-HDD ZFS pool?"} options={'Monthly', 'Weekly', 'Daily', 'Annually'} correctAnswer={0} explanation="Monthly scrubs are recommended for HDD pools. Scrubbing reads all data and verifies checksums, repairing any corruption from redundant copies. HDD scrubs can take 12-48 hours." difficulty="easy"  />
+
+## Common Mistakes
+
+**Configuring SMB shares without proper permissions:** SMB uses Windows-style ACLs. Setting permissions incorrectly causes access denied errors or exposes data to unauthorized users. Test share access from multiple clients before going live.
+
+**Using TrueNAS for VM storage without understanding IOPS:** ZFS volumes for VMs need sufficient IOPS. Small random reads/writes perform differently than sequential transfers. Use SSDs for VM storage and configure appropriate record sizes.
+
+**Not configuring email alerts:** TrueNAS can email you about pool degradation, temperature warnings, and SMART alerts. Without email configuration, hardware failures may go unnoticed until its too late.

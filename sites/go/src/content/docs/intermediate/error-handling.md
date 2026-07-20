@@ -264,6 +264,14 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 ```
 
+## Intuition
+
+**Errors are values, not exceptions:** Go treats errors like any other return value — you get them back from functions and check them explicitly. This is like a function that always hands you a receipt: you look at it to see if the transaction succeeded or failed. There's no hidden control flow, no try-catch blocks that might jump somewhere unexpected.
+
+**Why it matters:** Explicit error handling forces you to think about failure modes at every step. While it can feel verbose, it makes error paths visible and debuggable. You always know where errors are checked and how they propagate up the call stack.
+
+**The key insight:** Error wrapping with %w creates a chain of context — each layer adds information about what it was trying to do, while preserving the ability to inspect the original error with errors.Is and errors.As.
+
 ## Common Pitfalls
 
 1. **Ignoring errors.** `result, _ := someFunc()` silently discards errors. At minimum, log the

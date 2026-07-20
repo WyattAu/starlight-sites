@@ -355,3 +355,17 @@ algorithms.
 **Key insight:** Mass-energy equivalence ($E = mc^2$) is not just theoretical -- it is the operating
 principle of PET scanners, one of the most important medical imaging technologies. The complete
 conversion of mass to energy is the most efficient energy release possible.
+
+## Common Mistakes
+
+**Confusing mass number with atomic mass:** Mass number is the total count of protons and neutrons (integer). Atomic mass is the actual mass in unified atomic mass units (not necessarily an integer). Don't round atomic mass to get mass number.
+
+**Assuming half-life means half the sample decays in that time:** Half-life is the time for HALF the remaining atoms to decay. After one half-life, 50% remains; after two, 25%; after three, 12.5%. It's exponential decay, not linear.
+
+**Mixing up alpha, beta, and gamma radiation properties:** Alpha is largest/heaviest (stopped by paper), beta is medium (stopped by aluminium), gamma is smallest (requires thick lead). Don't confuse their penetrating power or ionising ability.
+
+## Cross-References
+
+- **[Mechanics](../physics/diagnostics/diag-mechanics):** Mechanics covers forces and motion
+- **[Waves](../physics/diagnostics/diag-waves-sound):** Waves transfer energy
+- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Electricity covers circuits

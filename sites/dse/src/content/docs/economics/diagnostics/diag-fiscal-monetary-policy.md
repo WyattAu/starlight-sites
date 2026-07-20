@@ -642,3 +642,11 @@ automatic stabilisers than a European welfare state.
    depends on the economy's openness (the Mundell-Fleming model). For a small open economy with a
    floating exchange rate, the exchange rate channel may dominate, potentially weakening the
    domestic effect of monetary policy.
+
+
+
+## Cross-References
+
+- **[Market Failure](../economics/diagnostics/diag-market-failure):** Market failure analysis is key
+- **[Fiscal Policy](../economics/diagnostics/diag-fiscal-monetary-policy):** Policy addresses economic issues
+- **[Macroeconomics](../economics/flashcards-macroeconomics):** Macroeconomics covers indicators

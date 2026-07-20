@@ -247,3 +247,17 @@ formalised in RFC 7766.
 ## Intuition
 
 The application layer is the interface between your code and the network, like the front desk of a hotel that handles requests from guests and routes them to the right department. HTTP is the language spoken at this desk, with methods like GET and POST representing different types of requests. DNS is the phone book that translates human-friendly names into machine-friendly addresses, and without it you would need to memorize IP numbers the way you once had to memorize phone numbers.
+
+## Common Mistakes
+
+**Confusing DNS with DHCP:** DNS translates domain names to IP addresses. DHCP assigns IP addresses to devices automatically. They're different services.
+
+**Forgetting that HTTP is stateless:** Each HTTP request is independent. The server doesn't remember previous requests unless cookies or sessions are used. Don't assume state is maintained automatically.
+
+**Mixing up HTTP with HTTPS:** HTTP sends data in plaintext. HTTPS encrypts data using TLS. Always use HTTPS for sensitive data.
+
+## Cross-References
+
+- **[Transport Layer](./5_transport-layer.md):** TCP and UDP protocols.
+- **[Network Security](./7_network-security.md):** HTTPS and TLS encryption.
+- **[Data Link Layer](./3_data-link-layer.md):** MAC addressing and Ethernet.

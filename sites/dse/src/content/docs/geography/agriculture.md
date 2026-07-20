@@ -203,3 +203,17 @@ Agriculture is the original human technology — the first time we stopped chasi
 6. **Link to other topics:** Connect agriculture to climate (changing rainfall and temperature
    affecting yields), population (food demand linked to population size and income), and resources
    (water use for irrigation, land use competition with urbanisation).
+
+## Common Mistakes
+
+**Confusing subsistence with commercial agriculture based on crop type alone:** Both can grow rice. The difference is purpose (feeding family vs selling) and scale (small vs large), not just what's grown.
+
+**Assuming the Green Revolution was purely beneficial:** It increased yields but also caused inequality (small farmers couldn't afford inputs), environmental damage (chemical runoff), and loss of traditional varieties.
+
+**Mixing up food security with food self-sufficiency:** Hong Kong imports 90% of its food but is food secure because it can afford to buy what it needs. Food self-sufficiency means producing your own food, which is different from having access to food.
+
+## Cross-References
+
+- **[Population](../geography/population):** Population studies are central
+- **[Urbanization](../geography/urbanization):** Urbanisation is a key topic
+- **[Climate](../geography/diagnostics/diag-climate):** Climate affects geography

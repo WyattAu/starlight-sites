@@ -41,3 +41,11 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is the result of `type((1, 2, 3))`?&quot; options={'<class 'list'>&quot;, &quot;<class 'set'>&quot;, &quot;<class 'tuple'>&quot;, &quot;<class 'dict'>&quot;]} correctAnswer={2} explanation=&quot;(1, 2, 3) with parentheses and commas is a tuple, not a list or set."} difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"What does `(yield from x for x in range(3))` do?&quot; options={['Returns a generator that yields 0, 1, 2', 'Returns [0, 1, 2]', 'Raises SyntaxError', 'Yields a single generator object']} correctAnswer={0} explanation=&quot;This is a generator expression. It returns a generator object that yields 0, 1, 2 when iterated."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Confusing mutable and immutable defaults:** Defining `def f(x=[])` creates a shared mutable default. The list persists between calls. Use `def f(x=None): x = x or []` instead. This is Pythons most notorious gotcha.
+
+**Using `is` for value comparison:** `is` checks identity (same object in memory), not equality. `a is b` may be False even if `a == b` is True. Use `==` for value comparison. Reserve `is` for checking None, True, False, or singletons.
+
+**Forgetting that Python uses 0-based indexing:** Lists, strings, and arrays are indexed from 0. `s[0]` is the first character. Using 1-based indexing from other languages causes off-by-one errors, especially in slicing.

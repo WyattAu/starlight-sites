@@ -192,3 +192,17 @@ We can verify:
 $f(f^{-1}(x)) = \frac{2 \cdot \frac{2x-3}{2-x} + 3}{\frac{2x-3}{2-x} + 2} = \frac{\frac{2(2x-3) + 3(2-x)}{2-x}}{\frac{(2x-3) + 2(2-x)}{2-x}} = \frac{4x-6+6-3x}{2x-3+4-2x} = \frac{x}{1} = x$.
 
 So $f^{-1}(x) = \dfrac{2x - 3}{2 - x}$ with domain $x \neq 2$.
+
+## Common Mistakes
+
+**Confusing one-to-one with many-to-one functions:** A function can only have an inverse if it's one-to-one (passes horizontal line test). Many-to-one functions don't have inverses unless you restrict the domain.
+
+**Forgetting to state domain restrictions:** When finding inverses, always check for domain restrictions. Dividing by zero or taking square roots of negatives creates undefined values.
+
+**Mixing up f(x) with f⁻¹(x):** f⁻¹(x) is the inverse function, not 1/f(x). The -1 is notation for inverse, not an exponent.
+
+## Cross-References
+
+- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Algebra is foundational
+- **[Functions](../maths/2-functions/functions):** Functions are central
+- **[Calculus](../maths/5-calculus/calculus):** Calculus is a major topic

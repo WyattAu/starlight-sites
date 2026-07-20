@@ -10,3 +10,11 @@ hero:
       icon: right-arrow
       variant: primary
 ---
+
+## Common Mistakes
+
+**Not implementing the 3-2-1 backup rule:** Keep 3 copies of data, on 2 different media types, with 1 offsite. TrueNAS replication, snapshots, and cloud sync help achieve this. Relying on a single TrueNAS server without offsite backups risks total data loss.
+
+**Ignoring snapshot management:** ZFS snapshots are lightweight but accumulate over time. Without a retention policy, old snapshots consume space indefinitely. Configure automatic snapshot pruning.
+
+**Confusing ZFS datasets with volumes:** Datasets are filesystem-like containers within a pool (share via SMB/NFS). Volumes (zvols) are raw block devices (used for VMs, iSCSI). Using the wrong type for your workload leads to performance issues.

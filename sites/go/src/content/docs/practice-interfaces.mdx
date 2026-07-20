@@ -223,3 +223,11 @@ func (s *UserService) CreateUser(name string) {
 	s.logger.Info("creating user: " + name)
 }
 ```
+
+## Common Mistakes
+
+**Checking concrete types inside interface methods:** If your interface method does `switch v := i.(type)`, youve broken the interface abstraction. Interfaces should work with any implementation. Type assertions inside interface methods defeat the purpose of polymorphism.
+
+**Defining interfaces too broadly:** Go interfaces should be small (1-3 methods). Large interfaces are hard to implement and test. The `io.Reader` interface (one method: `Read`) is the gold standard. Prefer many small interfaces over one large one.
+
+**Confusing interface satisfaction with struct embedding:** Embedding a struct gives you its methods automatically, but you can also implement an interface by defining the required methods directly. These are different mechanisms — dont assume embedding is the only way to satisfy interfaces.

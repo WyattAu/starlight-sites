@@ -76,3 +76,17 @@ the explanation.
 ### Inline and Reified
 
 <PracticeProblem client:only="solid-js" question={ 'Why does this code fail to compile without `reified`?\n```\ninline fun <T> myGenericCheck(value: Any) = value is T\n```' } options={[ 'Type parameters are erased at runtime on the JVM, so `T` cannot be checked with `is` without `reified`', '`is` checks are not supported for generic types in Kotlin', 'Inline functions cannot have type parameters', 'The function must be declared as `suspend` to check types at runtime', ]} correctAnswer={0} explanation="The JVM erases generic type parameters at runtime due to type erasure, so `T` is reduced to `Any` and `value is T` would always be true (or fail to compile). The `reified` keyword on an `inline` function tells the compiler to substitute the actual type argument at each call site, making the type available at runtime. Only `inline` functions support `reified` because the compiler inlines the function body with the concrete type." difficulty="hard"  />
+
+## Cross-References
+
+- **[Types and Variables](../basics/types-and-variables.md):** Type system fundamentals tested in the types section.
+- **[Control Flow](../basics/control-flow.md):** When expressions and lambda patterns.
+- **[Null Safety Deep Dive](../advanced/null-safety-deep-dive.md):** Nullable type handling tested in null safety problems.
+
+## Common Mistakes
+
+**Using `GlobalScope.launch`:** GlobalScope creates coroutines that outlive their intended scope and cannot be cancelled properly. Always use structured concurrency with `viewModelScope`, `lifecycleScope`, or custom scopes.
+
+**Confusing `let`, `also`, `apply`, and `run`:** `let`/`run` return the last expression; `also`/`apply` return the receiver. Mixing them up leads to unexpected return values and confusing chains.
+
+**Forgetting that `lazy` properties must be `val`:** `by lazy` only works with read-only `val` properties. Using it with `var` causes a compile error because lazy initialization assumes the value never changes after first access.

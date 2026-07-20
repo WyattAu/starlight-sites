@@ -247,3 +247,11 @@ Review the following statements and rate your development honestly:
 | Reflective | I complete assignments without reviewing my process | I review my work to identify strengths and weaknesses | I use reflection to develop specific strategies for improvement |
 
 Use this audit to identify areas for growth and to set goals for the remainder of the course.
+
+## Common Mistakes
+
+**Confusing summary with analysis:** Summary describes what happens. Analysis explains how and why it happens. IB English rewards analysis, not summary.
+
+**Forgetting to connect technique to meaning:** Always explain why a poet chose a particular technique and what effect it creates. Don't just identify techniques without explaining their significance.
+
+**Assuming there's one correct interpretation:** Poetry often supports multiple valid readings. Consider different perspectives and explain which you find most convincing.

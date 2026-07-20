@@ -46,3 +46,17 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"A sample of chlorine gas consists of two isotopes, ³⁵Cl and ³⁷Cl, in a 3:1 ratio. In a mass spectrum of Cl₂ molecules, what is the ratio of the heights of the M (70), M+2 (72), and M+4 (74) peaks?&quot; options={['9:6:1', '3:1:0', '6:6:1', '9:3:1']} correctAnswer={0} explanation=&quot;For Cl₂, the molecule can consist of: two ³⁵Cl atoms (³⁵Cl-³⁵Cl, m/z = 70), one ³⁵Cl and one ³⁷Cl (³⁵Cl-³⁷Cl, m/z = 72), or two ³⁷Cl atoms (³⁷Cl-³⁷Cl, m/z = 74). Using probability: P(³⁵Cl) = 3/4, P(³⁷Cl) = 1/4. Peak at 70: (3/4)² = 9/16. Peak at 72: 2 × (3/4) × (1/4) = 6/16 (factor of 2 because two arrangements exist). Peak at 74: (1/4)² = 1/16. Ratio = 9:6:1."} difficulty="hard"  />
 
 <PracticeProblem client:only="solid-js" question={"Which statement about subatomic particles is correct?&quot; options={[ 'A neutron has a slightly greater mass than a proton and no electric charge.', 'An electron has approximately the same mass as a proton but opposite charge.', 'The mass of a proton is approximately 1/1836 of the mass of an electron.', 'Neutrons are found in the nucleus and also orbit the nucleus in electron shells.', ]} correctAnswer={0} explanation=&quot;A neutron has a mass of approximately 1.0087 u and carries no electric charge. A proton has a mass of approximately 1.0073 u, so the neutron is slightly heavier. Option B is incorrect: an electron has a mass of approximately 1/1836 of a proton. Option C has the ratio inverted. Option D is incorrect: only electrons orbit the nucleus in shells; neutrons are confined to the nucleus along with protons."} difficulty="medium"  />
+
+## Common Mistakes
+
+**Confusing mass number with atomic mass:** Mass number is the count of protons + neutrons (integer). Atomic mass is the actual mass in unified atomic mass units (not necessarily an integer). Don't round atomic mass to get mass number.
+
+**Assuming electrons have significant mass:** Electrons have approximately 1/1836 the mass of a proton. For most calculations, electron mass is negligible. Don't include it in mass number calculations.
+
+**Forgetting that isotopes have the same chemical properties:** Isotopes differ only in neutron number. They have identical electron configurations and therefore identical chemical behaviour. Don't assume different isotopes behave differently chemically.
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure supports practice
+- **[Energetics](../chemistry/flashcards-energetics):** Energy calculations are tested
+- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium problems are practiced

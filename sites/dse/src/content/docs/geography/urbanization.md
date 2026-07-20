@@ -193,3 +193,17 @@ converting a densely packed, unregulated settlement into the Kowloon Walled City
    cities and do not fully account for Hong Kong's extreme density, mountainous topography, or
    government-led planning approach. High-density, mixed-use development is the norm rather than
    the exception in Hong Kong.
+
+## Common Mistakes
+
+**Assuming all cities follow the Burgess concentric zone model:** This model was designed for early 20th century American cities. Modern cities, especially Asian ones like Hong Kong, have multiple centres and don't follow neat concentric rings.
+
+**Confusing urbanisation with urban growth:** Urbanisation is the increase in the proportion living in cities. Urban growth is the absolute increase in urban population. A city can have urban growth without urbanisation if the rural population grows faster.
+
+**Forgetting that counter-urbanisation requires improved rural infrastructure:** People don't move back to the countryside unless transport, communication, and services are good enough. Without this, it's just rural-urban migration.
+
+## Cross-References
+
+- **[Population](../geography/population):** Population studies are central
+- **[Urbanization](../geography/urbanization):** Urbanisation is a key topic
+- **[Climate](../geography/diagnostics/diag-climate):** Climate affects geography

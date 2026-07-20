@@ -586,3 +586,11 @@ Maximum at $(0, 4)$.
 (c) $y = -f(x) + 2$: reflect in the $x$-axis (all $y$-values change sign), then translate up by 2
 units. New maximum at $(0, -4 + 2) = (0, -2)$. New $x$-intercepts at $(-2, 2)$ and $(2, 2)$ (which
 are not on the $x$-axis anymore).
+
+
+
+## Cross-References
+
+- **[Functions](../maths/diagnostics/diag-functions):** Functions are central
+- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics are a core topic
+- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is fundamental

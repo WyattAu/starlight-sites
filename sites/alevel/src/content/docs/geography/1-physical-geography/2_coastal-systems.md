@@ -365,3 +365,11 @@ Holderness Coast is a well-known example, extending approximately 5.5 km across 
 > **Sources**: AQA Geography (7037) specification; Masselink and Hughes, _Introduction to Coastal
 > Processes and Geomorphology_ (2003); East Riding of Yorkshire Council coastal erosion data; IPCC
 > AR6; Government of Maldives climate reports.
+
+
+
+## Cross-References
+
+- **[Physical Geography](../geography/flashcards-physical-geography):** Physical geography studies natural Earth processes
+- **[Human Geography](../geography/flashcards-human-geography):** Human geography studies people-environment interactions
+- **[Fieldwork](../geography/3-fieldwork/1_fieldwork-methodology):** Fieldwork methods apply to geographic study

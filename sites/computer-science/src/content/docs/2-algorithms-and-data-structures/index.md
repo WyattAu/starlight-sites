@@ -73,3 +73,9 @@ Each section includes:
 **Ignoring constant factors in practice.** Asymptotic analysis hides constant factors that matter for small inputs. An $O(n^2)$ algorithm with small constants can outperform an $O(n \log n)$ algorithm with large constants for typical input sizes. Profile your code before assuming asymptotic superiority.
 
 **Overlooking worst-case vs average-case trade-offs.** Quicksort has $O(n^2)$ worst-case but $O(n \log n)$ average-case; mergesort guarantees $O(n \log n)$ but uses $O(n)$ space. Choosing an algorithm requires considering the expected input distribution, not just the asymptotic bound.
+
+## Cross-References
+
+- **[Algorithm Analysis](./1_algorithm-analysis.md):** Formal complexity analysis for the algorithms studied here.
+- **[Dynamic Programming](./5_dynamic-programming.md):** Memoisation and tabulation patterns for optimisation problems.
+- **[Systems](../../2-systems/index.md):** Hardware systems that affect real-world algorithm performance.

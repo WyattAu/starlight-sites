@@ -92,3 +92,17 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (C) | The atomic bombs were dropped on Hiroshima (6 August) and Nagasaki (9 August) 1945, leading to Japan's surrender. |
 | 9 | (B) | The Greater East Asia Co-Prosperity Sphere was a Japanese-led bloc intended to secure resources and strategic control. |
 | 10 | (A) | The Battle of Midway (June 1942) destroyed four Japanese carriers and shifted the strategic initiative to the Allies. |
+
+## Common Mistakes
+
+**Assuming WWII started in 1939 everywhere:** In Asia, the Second Sino-Japanese War began in 1937. The Pacific War started in 1941. WWII is often dated 1939-1945 from the European perspective.
+
+**Confusing the Greater East Asia Co-Prosperity Sphere with actual prosperity:** It was a Japanese imperial concept used to justify resource extraction and military control, not genuine cooperation or prosperity for Asian nations.
+
+**Underestimating the significance of the Battle of Midway:** It was the turning point of the Pacific War — Japan lost four carriers and never recovered naval superiority. Don't assume Pearl Harbor was the decisive battle.
+
+## Cross-References
+
+- **[Cold War](../history/diagnostics/diag-cold-war):** Cold War history is studied
+- **[Modern China](../history/diagnostics/diag-modern-china):** Modern China is a key topic
+- **[WWII](../history/diagnostics/diag-wwii):** WWII is a major topic

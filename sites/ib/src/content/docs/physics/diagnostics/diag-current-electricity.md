@@ -426,3 +426,17 @@ The minimum detectable change in $R_4$ is approximately $0.03\,\Omega$.
 
 This shows that the Wheatstone bridge is a very sensitive instrument for measuring small resistance
 changes, which is why it is used in strain gauges and precision measurement applications.
+
+## Common Mistakes
+
+**Confusing EMF with PD:** EMF is energy per unit charge supplied by the source. PD is energy per unit charge used by the circuit. EMF ≥ PD because some energy is lost internally.
+
+**Assuming current is the same in all circuit configurations:** Current is the same in series but splits in parallel. Don't assume it's constant everywhere.
+
+**Mixing up conventional current with electron flow:** Conventional current flows from positive to negative. Electrons flow from negative to positive. Most formulas use conventional current.
+
+## Cross-References
+
+- **[Kinematics](../physics/flashcards-kinematics):** Kinematics describes motion
+- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
+- **[Waves](../physics/flashcards-waves):** Waves transfer energy

@@ -344,3 +344,17 @@ $$mgx_{\max} = \frac{1}{2}kx_{\max}^2$$
 $$x_{\max} = \frac{2mg}{k} = 2x_0 = 0.3924\,\text{m}$$
 
 This confirms: $x_{\max} = 2x_0 = x_0 + A = 0.1962 + 0.1962 = 0.3924\,\text{m}$.
+
+## Common Mistakes
+
+**Confusing amplitude with maximum displacement from equilibrium:** Amplitude is the maximum displacement from equilibrium, not the total distance travelled. In SHM, total distance in one cycle is 4× amplitude.
+
+**Assuming SHM always means a pendulum:** Any system with a linear restoring force exhibits SHM — springs, floating objects, and even molecules vibrating. Don't limit your thinking to pendulums.
+
+**Forgetting that velocity is maximum at equilibrium:** In SHM, velocity is greatest at the equilibrium position and zero at maximum displacement. Acceleration is the opposite — maximum at displacement, zero at equilibrium.
+
+## Cross-References
+
+- **[Kinematics](../physics/flashcards-kinematics):** Kinematics describes motion
+- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
+- **[Waves](../physics/flashcards-waves):** Waves transfer energy

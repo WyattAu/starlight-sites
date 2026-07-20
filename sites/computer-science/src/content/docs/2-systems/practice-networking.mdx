@@ -48,5 +48,16 @@ DNS, HTTP, and error detection. Select an option to check your answer and view t
 <PracticeProblem client:only="solid-js" question={"In software-defined networking (SDN), what is the role of the OpenFlow protocol?&quot; options={[ 'It defines the communication interface between the SDN controller and the data-plane switches', 'It implements the BGP routing algorithm in hardware', 'It provides encryption for SDN control messages only', 'It replaces Ethernet framing at the data link layer', ]} correctAnswer={0} explanation=&quot;OpenFlow is the standard protocol for SDN controller-switch communication. It defines a flow-table abstraction where the controller installs forwarding rules into switches. Each flow table entry specifies match fields (e.g., source/destination IP, port), actions (forward, drop, modify), and priority. This decouples the control plane (centralised in the controller) from the data plane (distributed across switches)."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"What problem does QUIC solve that TCP cannot, and how does it achieve this?&quot; options={[ 'Head-of-line blocking at the transport layer, by implementing reliable delivery over UDP with independent streams', 'IP address exhaustion, by using IPv6 addressing', 'DNS cache poisoning, by encrypting DNS queries', 'Physical layer errors, by using stronger error-correcting codes', ]} correctAnswer={0} explanation=&quot;TCP transmits all data over a single byte stream. If one packet is lost, all subsequent data (even for independent HTTP requests) must wait for retransmission. QUIC multiplexes independent streams over a single UDP connection. A loss on one stream does not block others. QUIC also integrates TLS 1.3, reducing handshake latency, and supports connection migration across network changes (e.g., Wi-Fi to cellular)."} difficulty="hard"  />
-
 <PracticeProblem client:only="solid-js" question={"What is the purpose of the Spanning Tree Protocol (STP) in a switched Ethernet network?&quot; options={[ 'To prevent Layer 2 loops by logically disabling redundant links while maintaining a loop-free tree topology', 'To encrypt traffic between switches', 'To load-balance traffic across all available links simultaneously', 'To convert unicast traffic to multicast', ]} correctAnswer={0} explanation=&quot;Ethernet switches forward frames out all ports except the incoming one (flooding). Without STP, broadcast frames would loop indefinitely. STP elects a root bridge, then designates one root port per switch and blocks redundant ports, creating a loop-free spanning tree. If an active link fails, STP unblocks a backup link. RSTP (Rapid STP) reduces convergence time from ~30 seconds to sub-second."} difficulty="easy"  />
+
+## Common Mistakes
+
+**Confusing TCP with UDP:** TCP is reliable and connection-oriented. UDP is fast but unreliable. Don't assume all applications need TCP reliability.
+
+**Forgetting that DNS uses both UDP and TCP:** DNS queries typically use UDP (fast, small). Zone transfers and large responses use TCP. Don't assume DNS always uses UDP.
+
+**Mixing up unicast with multicast:** Unicast is one-to-one. Multicast is one-to-many. Broadcast is one-to-all. Don't confuse the three communication patterns.
+
+## Cross-References
+- **[Computer Networks](../../3-computer-networks/index.md):** OSI/TCP-IP models and network layer protocols.
+- **[Computer Networks Practice](../../3-computer-networks/11_practice-computer-networks.mdx):** Auto-graded problems testing networking concepts.

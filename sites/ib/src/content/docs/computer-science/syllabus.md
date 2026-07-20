@@ -326,3 +326,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+
+
+## Cross-References
+
+- **[System Fundamentals](../computer-science/flashcards-system-fundamentals):** The syllabus covers fundamentals
+- **[Algorithms](../computer-science/flashcards-algorithms-data-structures):** Algorithms are a major component
+- **[Networking](../computer-science/flashcards-networks-databases):** Networks are included

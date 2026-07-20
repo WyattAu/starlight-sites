@@ -319,3 +319,17 @@ $$E_R = E_{\text{battery}} - E_C = 14.4 - 7.2 = 7.2 \text{ mJ}$$
 **Key insight:** Exactly half the energy supplied by the battery is stored in the capacitor, and the
 other half is dissipated as heat in the resistor. This is always true for RC charging from a
 constant voltage source, regardless of $R$ and $C$ values.
+
+## Common Mistakes
+
+**Confusing EMF with terminal PD:** EMF is the total energy per unit charge supplied by the cell. Terminal PD is what's actually available to the external circuit (EMF minus internal voltage drop). They're equal only when no current flows.
+
+**Forgetting that capacitors block DC but pass AC:** In steady-state DC, a fully charged capacitor acts as an open circuit. In AC circuits, it allows current to flow. Don't treat capacitors as always open or always closed.
+
+**Mixing up series and parallel circuit rules:** In series, current is the same and voltages add. In parallel, voltage is the same and currents add. Applying the wrong rule gives incorrect results.
+
+## Cross-References
+
+- **[Mechanics](../physics/diagnostics/diag-mechanics):** Mechanics covers forces and motion
+- **[Waves](../physics/diagnostics/diag-waves-sound):** Waves transfer energy
+- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Electricity covers circuits

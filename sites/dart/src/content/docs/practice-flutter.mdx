@@ -521,3 +521,11 @@ class SettingsPage extends StatelessWidget {
 ```
 
 **Solution:** `MaterialApp.routes` defines named routes as a `Map<String, WidgetBuilder>`. `Navigator.pushNamed` navigates by route name. `arguments` passes data to the destination. `ModalRoute.of(context)!.settings.arguments` retrieves the passed data. This pattern decouples navigation from direct widget references.
+
+## Common Mistakes
+
+**Calling `setState` after `dispose`:** If an async operation completes after the widget is disposed, calling `setState` throws a error. Always check `mounted` before calling `setState` in async callbacks, or cancel subscriptions in `dispose`.
+
+**Building the entire UI in `initState`:** `initState` should only perform one-time setup (subscriptions, controllers). The UI must be built in `build`, which is called whenever state changes. Putting UI logic in `initState` means it never updates.
+
+**Forgetting to dispose controllers and subscriptions:** `TextEditingController`, `AnimationController`, `StreamSubscription`, and `Timer` all hold resources. Failing to call `dispose()` on them causes memory leaks. Always pair `initState` subscriptions with `dispose` cleanup.

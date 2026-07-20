@@ -301,3 +301,11 @@ concern intentionalism versus functionalism in explaining the Holocaust, whether
 from the start, and the extent of popular support for the Nazi regime. Source analysis must account
 for propaganda, the purposes behind official documentation, and the distortions of post-war
 testimony.
+
+
+
+## Cross-References
+
+- **[Source Analysis](../history/diagnostics/diag-source-analysis):** Source analysis skills support historical study
+- **[Essay Techniques](../history/11-essay-techniques/1_essay_techniques):** Essay writing is essential for history
+- **[Tudor England](../history/2-tudor-england/1_tudor-england):** Tudor period provides rich historical material

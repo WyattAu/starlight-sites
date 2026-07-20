@@ -970,3 +970,8 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- **[I/O and NIO](./01-io-nio.md):** Foundational streams, channels, and buffer operations.
+- **[Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive.md):** Selector-based event loops and thread pool integration.
+- **[Garbage Collection](../09-jvm-internals/03-garbage-collection.md):** MappedByteBuffer lifecycle and native memory management.

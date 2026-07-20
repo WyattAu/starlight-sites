@@ -248,6 +248,14 @@ The efficiency is less than 100\% due to:
 - Heat losses in the electrolytic cell
 - Some aluminium re-oxidising before it is collected
 
+## Common Mistakes
+
+**Forgetting to balance electrons before combining half-equations:** When combining oxidation and reduction half-equations, you must multiply them so the number of electrons lost equals electrons gained. Don't just add the half-equations directly.
+
+**Confusing anode and cathode in electrolysis vs galvanic cells:** In electrolysis, the anode is positive (oxidation) and cathode is negative (reduction). In galvanic cells, it's reversed — anode is negative (oxidation) and cathode is positive (reduction).
+
+**Assuming Na⁺ is discharged in aqueous NaCl electrolysis:** Na⁺ is never discharged in aqueous solution because water is reduced instead (Na is very reactive). At the anode, Cl⁻ is discharged in concentrated solution, but OH⁻ from water is discharged in dilute solution.
+
 ---
 
 ## Integration Test 3: Cell EMF + Spontaneity
@@ -303,3 +311,11 @@ Note: In the DSE context, the Nernst equation is often presented as
 $E = E^{\circ} + \frac{0.0592}{n}\log\frac{[\text{oxidised}]}{[\text{reduced}]}$ applied to each
 half-cell separately. The conclusion is the same: increasing $[Sn^{2+}]$ makes the tin half-cell
 potential more positive, reducing the overall cell potential.
+
+
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is foundational
+- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium connects topics
+- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is a major area

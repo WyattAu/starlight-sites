@@ -1021,3 +1021,18 @@ and process data. Key takeaways:
 - Keyword lists are lists, maps are hash tables -- choose based on access patterns
 - The pipe operator (`|>`) makes data transformations readable
 - Immutability enables safe concurrency without locks
+
+## Cross-References
+
+- **[Elixir Introduction](../00-intro/1_elixir-intro.md):** Language overview and motivation before diving into data types.
+- **[Metaprogramming](../04-advanced/1_metaprogramming.md):** Uses pattern matching with quote/unquote for compile-time code generation.
+- **[Elixir Flashcards](../flashcards-elixir-basics.mdx):** Interactive flashcards covering pattern matching and type concepts.
+- **[Elixir Practice](../practice-elixir-basics.mdx):** Auto-graded problems testing pattern matching and guard clauses.
+
+## Common Mistakes
+
+**Using `=` as assignment instead of match:** In Elixir, `=` is a match operator, not assignment. On the first use it binds, but subsequent uses must match the existing value. Forgetting this causes unexpected `MatchError` exceptions.
+
+**Using `&&`/`||` in guards:** Guards require strict boolean operators `and`/`or`/`not`. Using `&&`/`||` causes a compile error because they accept any truthy/falsy value, not just booleans.
+
+**Forgetting the pin operator `^` in case clauses:** Without `^`, a variable in a case clause rebinds instead of comparing. This silently accepts any value instead of matching the expected one.

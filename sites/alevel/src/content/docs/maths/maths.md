@@ -135,3 +135,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+
+
+## Cross-References
+
+- **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Maths encompasses pure, applied, and stats
+- **[Mechanics](../maths/practice-mechanics):** Mechanics applies maths to physics
+- **[Statistics](../maths/statistics/statistics):** Statistics develops data methods

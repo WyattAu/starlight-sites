@@ -459,5 +459,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- **[Introduction to Dart](../01-intro.md):** Provides the language overview and motivation before diving into setup.
+- **[Entry Point](../03-basics/01-entrypoint.md):** First code you run after installation — the `main()` function.
+- **[Best Practices](../04-best-practices.md):** Configuration and tooling best practices once your environment is ready.
+- **[Error Handling](../08-error-handling.md):** Error handling setup and crash reporting integration for production apps.
+
 
 </aside>

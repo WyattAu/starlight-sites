@@ -268,6 +268,14 @@ println(stringList::class == intList::class)  // true -- both are ArrayList
 Reified types and inline functions are the primary mechanism for accessing generic type information
 At runtime in Kotlin.
 
+## Intuition
+
+**Variance is about subtyping relationships:** Imagine a box of animals. Can you put a Dog box where an Animal box is expected? Covariance (out) says yes — a Producer<Dog> is a Producer<Animal>. Contravariance (in) says the opposite — a Consumer<Animal> can consume Dogs. Invariance says no conversion is safe.
+
+**Why it matters:** Variance determines how generic types relate to each other in inheritance hierarchies. Getting it wrong causes compile errors or, worse, runtime ClassCastExceptions. Kotlin's declaration-site variance (using `in`/`out` on the class) is cleaner than Java's use-site variance.
+
+**The key insight:** Reified type parameters work because inline functions are expanded at compile time — the actual type is substituted at each call site, making runtime type information available.
+
 ## Common Pitfalls
 
 - \*\* Confusing `out` and `in` variance. Remember: producers are `out`Consumers are `in`. If a

@@ -38,3 +38,11 @@ answer and view the explanation.
 <PracticeProblem client:only="solid-js" question={"Dijkstra\'s algorithm fails to find shortest paths when the graph contains negative edge weights. Which algorithm should be used instead?&quot; options={['Bellman-Ford algorithm', &quot;Kruskal\'s algorithm&quot;, 'BFS', 'A* search algorithm']} correctAnswer={0} explanation=&quot;The Bellman-Ford algorithm correctly handles negative edge weights (but not negative cycles reachable from the source). It relaxes all edges $|V|-1$ times, guaranteeing shortest paths if no negative cycles exist. Time complexity is $O(VE)$. Dijkstra\'s greedy choice fails with negative edges because a shorter path through unvisited vertices may be discovered later."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"In amortized analysis, what is the amortized cost of a sequence of $n$ push and pop operations on a dynamic array that doubles its size when full (starting from size 1)?&quot; options={[ '$O(1)$ per operation', '$O(\\log n)$ per operation', '$O(n)$ per operation', '$O(\\sqrt{n})$ per operation', ]} correctAnswer={0} explanation=&quot;Using the aggregate method: total cost of $n$ operations is at most $cn$ (each element is pushed once, popped once, and copied at most $O(\\log n)$ times across resizings). By the accounting or potential method, each push charges $O(1)$ amortized cost (3 units: 1 for the push, 2 saved toward the next resize). Amortized cost per operation is $O(1)$, even though individual operations may cost $O(n)$."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Confusing worst-case with amortised analysis:** Worst-case is the cost of the single most expensive operation. Amortised is the average cost per operation over a sequence. Don't confuse the two.
+
+**Assuming greedy algorithms always give optimal solutions:** Greedy algorithms work for some problems (Huffman, MST) but fail for others (0/1 knapsack). Always check if greedy choice property holds.
+
+**Forgetting that Big-O is an upper bound:** O(n) means the algorithm is at most linear. It doesn't mean it's exactly linear. Don't confuse O(n) with Θ(n).

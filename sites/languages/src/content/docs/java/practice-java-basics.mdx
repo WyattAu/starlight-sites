@@ -76,3 +76,17 @@ the explanation.
 ### Class Loading Order (Hard)
 
 <PracticeProblem client:only="solid-js" question={`In what order does the JVM initialize a class? Given:\n\`\`\`\nclass Super {\n    static { System.out.print("A"); }\n}\nclass Sub extends Super {\n    static { System.out.print("B"); }\n    public static void main(String[] args) { System.out.print("C"); }\n}\n\`\`\`\nWhat is printed when \`Sub.main()\` is invoked?`} options={['ABC', 'BAC', 'ACB', 'CBA']} correctAnswer={0} explanation={`When \`Sub.main\` is invoked, the JVM triggers class initialization for \`Sub\`. Before initializing \`Sub\`, the JVM must first ensure its superclass \`Super\` is initialized. Superclass static initializers run before subclass static initializers. So: Super static block prints "A", then Sub static block prints "B", then \`main\` executes and prints "C". Output: ABC.`} difficulty="hard"  />
+
+## Cross-References
+
+- **[Java Fundamentals Flashcards](../java/flashcards-java-basics.mdx):** Interactive flashcards covering the same core Java concepts tested here.
+- **[Types and Variables](../java/02-fundamentals/01-types-and-variables.md):** Type system fundamentals tested in the types section.
+- **[Control Flow](../java/02-fundamentals/02-control-flow.md):** Exception handling and switch expressions.
+
+## Common Mistakes
+
+**Forgetting that `b + 1` promotes to `int`:** Byte arithmetic automatically widens to `int`. Assigning back to `byte` requires an explicit cast. Use `b += 1` for implicit casting.
+
+**Confusing `volatile` with synchronization:** `volatile` ensures visibility but not atomicity. `count++` is not atomic even with `volatile`. Use `synchronized` or `AtomicInteger` for compound operations.
+
+**Using `==` to compare strings:** `==` compares object identity, not content. Use `.equals()` or `.compareTo()` for string comparison.

@@ -42,3 +42,11 @@ import PracticeProblem from "@components/PracticeProblem";
 ### Modern Physics
 
 <PracticeProblem client:only="solid-js" question={"In the photoelectric effect, what happens when photons of light with energy less than the work function of the metal surface strike the surface?&quot; options={[ 'No electrons are emitted, regardless of the intensity or number of photons', 'Electrons are emitted but with very low kinetic energy', 'Electrons are emitted after a time delay while energy accumulates', 'The metal surface becomes positively charged but no electrons escape', ]} correctAnswer={0} explanation=&quot;The photoelectric effect demonstrates the particle nature of light. Each photon must have sufficient energy (greater than the work function) to eject a single electron. If the photon energy E = hf is less than the work function phi, no electrons are emitted regardless of how many photons strike the surface (intensity). This is because energy transfer is a one-photon-to-one-electron interaction, not a cumulative process. Increasing intensity only increases the number of photons, not their individual energy. Einstein\'s photoelectric equation is: hf = phi + KE_max."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Using g = 9.81 vs g = 10 without checking the question:** Some questions specify g = 10 m/s² for simplicity. Using 9.81 when the question says 10 gives wrong numerical answers. Always check the value of g specified in the question.
+
+**Confusing distance-time graphs with velocity-time graphs:** A distance-time graph shows position over time (slope = speed). A velocity-time graph shows velocity over time (slope = acceleration, area = distance). Misidentifying the graph type leads to wrong physical interpretations.
+
+**Forgetting to include air resistance in projectile questions:** Most projectile motion questions assume no air resistance. If the question mentions air resistance, the standard kinematic equations dont apply. Check whether the question specifies "ignore air resistance".

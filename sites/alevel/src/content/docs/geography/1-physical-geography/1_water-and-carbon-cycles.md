@@ -380,3 +380,11 @@ the ocean's buffering capacity, potentially weakening its future role as a carbo
 > **Sources**: AQA Geography (7037) specification; Witherick et al., _AQA A-level Geography_
 > (Hodder, 2016); IPCC AR6 WG1 (2021); INPE deforestation data; Gatti et al. (2021), _Nature_;
 > Environment Agency flood data for Cumbria 2015.
+
+
+
+## Cross-References
+
+- **[Physical Geography](../geography/flashcards-physical-geography):** Physical geography studies natural Earth processes
+- **[Human Geography](../geography/flashcards-human-geography):** Human geography studies people-environment interactions
+- **[Fieldwork](../geography/3-fieldwork/1_fieldwork-methodology):** Fieldwork methods apply to geographic study

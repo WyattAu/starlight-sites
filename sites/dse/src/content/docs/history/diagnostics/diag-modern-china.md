@@ -412,3 +412,11 @@ estimated 500,000-1 million with US support.)
 conflict and opened economic opportunities, but it did not bring comprehensive stability to Asia.
 Old conflicts persisted or evolved into new forms, and the emergence of China as a great power has
 created new strategic tensions that shape the region today.
+
+
+
+## Cross-References
+
+- **[Cold War](../history/diagnostics/diag-cold-war):** Cold War history is studied
+- **[Modern China](../history/diagnostics/diag-modern-china):** Modern China is a key topic
+- **[WWII](../history/diagnostics/diag-wwii):** WWII is a major topic

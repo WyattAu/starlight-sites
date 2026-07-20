@@ -421,3 +421,19 @@ $$\overrightarrow{MN} = \frac{\mathbf{a}+\mathbf{c}}{2} - \frac{\mathbf{a}+\math
 
 Since $\overrightarrow{MN} = \frac{1}{2}\overrightarrow{BC}$The segment $MN$ is parallel to $BC$ and
 half its length. This is the midpoint theorem.
+
+## Common Mistakes
+
+**Confusing the scalar (dot) product with the vector (cross) product:** The dot product $\mathbf{a} \cdot \mathbf{b} = |\mathbf{a}||\mathbf{b}|\cos\theta$ gives a scalar and is used to find angles and test perpendicularity. The cross product $\mathbf{a} \times \mathbf{b}$ gives a vector perpendicular to both and is used to find areas and the direction perpendicular to two vectors. Using the wrong one gives fundamentally different results.
+
+**Forgetting that two vectors are parallel if one is a scalar multiple of the other:** $\mathbf{a} \parallel \mathbf{b}$ if and only if $\mathbf{a} = k\mathbf{b}$ for some scalar $k$. Students often try to use the dot product to test for parallelism (which actually tests perpendicularity). For parallelism, check that the ratios of corresponding components are equal.
+
+**Misidentifying the direction vector of a line of intersection:** The line where two planes intersect has direction vector $\mathbf{n}_1 \times \mathbf{n}_2$ (the cross product of the normals). Students sometimes use the dot product instead, which gives a scalar, not a direction vector.
+
+
+
+## Cross-References
+
+- **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Pure maths covers algebra, calculus, and functions
+- **[Mechanics](../maths/practice-mechanics):** Mechanics applies maths to physical problems
+- **[Statistics](../maths/statistics/statistics):** Statistics develops data analysis methods

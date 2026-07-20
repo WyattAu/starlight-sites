@@ -224,3 +224,11 @@ Economic development is the process of climbing a ladder — each rung represent
 
 6. **Connect to other topics:** Economic development links to population (migration patterns), urban
    (industrial location and urbanisation), and resources (energy demand for industrialisation).
+
+## Common Mistakes
+
+**Assuming Rostow's stages apply universally:** Not all countries develop through the same stages in the same order. Some skip stages (e.g., countries that went straight to services without manufacturing), and the model is criticised for being Eurocentric.
+
+**Confusing FDI with portfolio investment:** FDI involves direct control of production facilities in another country (building a factory). Portfolio investment is just buying stocks or bonds without management control.
+
+**Mixing up core-periphery with developed-developing:** Core regions aren't always countries — they can be regions within countries (e.g., Shanghai is a core within China). Periphery isn't always poor — it's about the economic relationship, not absolute wealth.

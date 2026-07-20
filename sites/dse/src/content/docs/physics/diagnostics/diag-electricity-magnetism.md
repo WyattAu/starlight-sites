@@ -299,3 +299,17 @@ $$d = \int_0^{\infty} v_0 e^{-t/\tau} dt = v_0 \tau = 8 \times 5 = 40 \text{ m}$
 **Key insight:** The bar undergoes exponential deceleration (similar to RC decay). The "time
 constant" is $\tau = mR / B^2L^2$. In principle the bar never fully stops, but practically it stops
 within a few time constants.
+
+## Common Mistakes
+
+**Confusing Faraday's Law with Lenz's Law:** Faraday's Law gives the magnitude of induced EMF. Lenz's Law gives the direction (opposing the change in flux). Both are needed for complete answers.
+
+**Forgetting that induced current opposes the change, not the motion:** If you push a magnet into a coil, the induced current creates a field that opposes the magnet's approach — not necessarily opposing your hand's motion.
+
+**Mixing up the right-hand rule for motors vs generators:** Use Fleming's Left Hand Rule for motors (force on current). Use Fleming's Right Hand Rule for generators (induced current from motion). Don't swap them.
+
+## Cross-References
+
+- **[Mechanics](../physics/diagnostics/diag-mechanics):** Mechanics covers forces and motion
+- **[Waves](../physics/diagnostics/diag-waves-sound):** Waves transfer energy
+- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Electricity covers circuits

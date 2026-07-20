@@ -240,3 +240,11 @@ The combined effect: at lower pH and higher $\text{CO}_2$ (as found in actively 
 the oxygen dissociation curve shifts to the right. At any given partial pressure of
 $\text{O}_2$Haemoglobin releases more $\text{O}_2$. This ensures that oxygen delivery is matched to
 metabolic demand -- tissues that are respiring most actively receive the most oxygen.
+
+
+
+## Cross-References
+
+- **[Cell Biology](../biology/flashcards-cell-biology):** Cells are the basic units of life
+- **[Genetics](../biology/flashcards-genetics):** Genetics studies heredity and variation
+- **[Ecology](../biology/diagnostics/diag-ecology):** Ecology studies organism-environment interactions

@@ -70,3 +70,9 @@ Particle physics seeks to identify the fundamental building blocks of matter and
 3. **Learn symmetries**: Understand the connection between symmetries and conservation laws
 4. **Follow experiments**: Keep up with recent discoveries at CERN and other facilities
 5. **Connect to cosmology**: Relate particle physics to the early universe
+
+## Cross-References
+
+- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum field theory foundations.
+- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Gravitational theory in cosmology.
+- **[Thermal Physics](../../2-thermal-physics/index.md):** Thermodynamics of the early universe.

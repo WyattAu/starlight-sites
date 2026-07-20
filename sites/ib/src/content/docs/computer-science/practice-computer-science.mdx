@@ -57,3 +57,17 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"Which SQL command is used to retrieve all columns from a table named Students where the Grade column has a value greater than 85?&quot; options={[ 'SELECT * FROM Students WHERE Grade > 85', 'GET * FROM Students WHERE Grade > 85', 'FETCH ALL FROM Students HAVING Grade > 85', 'RETRIEVE * FROM Students WITH Grade > 85', ]} correctAnswer={0} explanation=&quot;The correct SQL syntax is SELECT * FROM Students WHERE Grade > 85. SELECT retrieves data, * selects all columns, FROM specifies the table, and WHERE filters rows based on a condition. GET, FETCH, and RETRIEVE are not valid SQL commands. HAVING is used with GROUP BY for filtering aggregated results, not for simple row-level filtering. SQL uses WHERE for row filtering and HAVING for group-level filtering."} difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"In object-oriented programming, polymorphism allows objects of different classes to be treated as objects of a common superclass. Which of the following is the best example of polymorphism?&quot; options={[ 'A method called draw() is defined in a Shape superclass, and Circle and Rectangle subclasses each override draw() with their own implementation', 'A class inherits all properties from its parent class without modification', 'A variable can only hold one type of data at a time', 'A class contains only private attributes with no public methods', ]} correctAnswer={0} explanation=&quot;Polymorphism (meaning many forms) allows a single interface to represent different underlying implementations. When a Shape superclass defines a draw() method, and subclasses Circle and Rectangle each provide their own override of draw(), calling draw() on a Shape reference will execute the appropriate subclass implementation. This is called runtime polymorphism (method overriding). The key aspect is that the same method call produces different behavior depending on the actual object type. Simple inheritance without overriding does not demonstrate polymorphism."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Confusing syntax errors with logic errors:** Syntax errors prevent code from running (missing semicolons). Logic errors produce wrong output (incorrect algorithm). Don't confuse debugging approaches.
+
+**Forgetting that arrays start at index 0:** In most programming languages, the first element is at index 0, not 1. Off-by-one errors are extremely common.
+
+**Mixing up pass-by-value with pass-by-reference:** Pass-by-value copies the value. Pass-by-reference shares the original. Modifying a parameter in a function affects the original only with pass-by-reference.
+
+## Cross-References
+
+- **[System Fundamentals](../computer-science/flashcards-system-fundamentals):** CS fundamentals are essential
+- **[Algorithms](../computer-science/flashcards-algorithms-data-structures):** Algorithm design is core
+- **[Networking](../computer-science/flashcards-networks-databases):** Networks are a major topic

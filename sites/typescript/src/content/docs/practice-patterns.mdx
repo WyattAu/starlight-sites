@@ -259,3 +259,11 @@ class NotificationService {
   }
 }
 ```
+
+## Common Mistakes
+
+**Using type assertions instead of type narrowing:** `const el = document.getElementById("app") as HTMLDivElement` assumes the element exists and is a div. If it doesnt exist, this crashes at runtime. Use instanceof or optional chaining instead.
+
+**Ignoring the difference between `unknown` and `any`:** `unknown` is type-safe — you must narrow before using. `any` is type-unsafe — it bypasses all checking. Prefer `unknown` for values whose type is uncertain.
+
+**Over-engineering patterns:** Design patterns add abstraction. Use them only when the complexity they solve is real. Over-engineering makes code harder to understand without providing real benefits. Start simple, refactor when patterns emerge.

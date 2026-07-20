@@ -71,3 +71,9 @@ Complex analysis studies functions of a complex variable, where the single requi
 3. **Draw diagrams**: Visualise contours, singularities, and mappings
 4. **Learn standard examples**: Know the properties of common functions (exponential, logarithmic, trigonometric)
 5. **Connect to analysis**: Relate complex analysis to real analysis and number theory
+
+## Cross-References
+
+- **[Real Analysis](../../3-real-analysis/index.md):** Foundational analysis extended to complex numbers.
+- **[Number Theory](../../7-number-theory/index.md):** Analytic number theory using complex analysis.
+- **[ODEs](../../5-ordinary-differential-equations/index.md):** Contour integration for solving ODEs.

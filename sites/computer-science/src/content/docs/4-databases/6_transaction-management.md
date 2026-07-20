@@ -246,3 +246,13 @@ with a Midpoint insertion strategy to avoid scan pollution.
 ## Intuition
 
 Transaction management guarantees that database operations follow the ACID properties: Atomicity (all or nothing), Consistency (rules are never violated), Isolation (concurrent transactions do not interfere), and Durability (committed data survives crashes). Think of a transaction as a contract: either all terms are fulfilled or none are, and no partial agreement is acceptable. The two-phase commit protocol is like a wedding ceremony: everyone prepares, then either everyone says "I do" simultaneously or the ceremony is called off.
+
+## Common Mistakes
+
+**Confusing atomicity with isolation:** Atomicity means all or nothing (no partial commits). Isolation means concurrent transactions don't interfere. They're different ACID properties.
+
+**Assuming serialisable isolation is always best:** Serialisable provides the strongest isolation but has the worst performance. Read committed or repeatable read may be sufficient for many applications.
+
+**Forgetting that transactions have overhead:** Each transaction requires logging, locking, and possibly two-phase commit. Don't wrap every single operation in a transaction if it's not needed.
+
+## Cross-References

@@ -263,3 +263,11 @@ disclosure. The process involves: (1) Discovering a vulnerability. (2) Notifying
 through a secure channel. (3) Allowing adequate time ( 30--90 days) for a fix. (4) Not exploiting
 the vulnerability or sharing details publicly before the fix is deployed. This balances the need for
 public awareness with the organisation's ability to protect its users.
+
+## Common Mistakes
+
+**Confusing viruses with worms:** Viruses need a host program and user action to spread. Worms are self-replicating and spread automatically across networks without user intervention.
+
+**Assuming HTTPS alone is sufficient security:** HTTPS encrypts data in transit but doesn't protect against all attacks. Phishing, malware, and social engineering can still compromise security even with HTTPS.
+
+**Mixing up authentication with encryption:** Authentication verifies identity (who you are). Encryption protects data confidentiality (what you send). They serve different purposes and both are needed for security.

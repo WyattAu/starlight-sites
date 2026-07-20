@@ -117,3 +117,11 @@ tableOfContents: false
 | 10       | B             |
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of security fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
+
+## Common Mistakes
+
+**Confusing encryption with hashing:** Encryption is reversible (you can decrypt with the key). Hashing is one-way (you cannot reverse it). Use encryption for data you need to recover. Use hashing for passwords and integrity verification.
+
+**Ignoring the principle of least privilege:** Give users and services only the permissions they need. Overly permissive access increases the blast radius of a breach. Audit permissions regularly.
+
+**Not updating dependencies:** Outdated libraries contain known vulnerabilities. Use npm audit, pip-audit, or similar tools to check for known CVEs. Automate dependency updates where possible.

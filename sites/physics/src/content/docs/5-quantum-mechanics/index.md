@@ -68,3 +68,9 @@ Each section includes:
 3. **Draw diagrams**: Visualise wave functions and probability distributions
 4. **Learn symmetries**: Understand conservation laws and selection rules
 5. **Connect to applications**: Relate quantum mechanics to atomic, molecular, and particle physics
+
+## Cross-References
+
+- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Classical limit of quantum mechanics.
+- **[Electromagnetism](../../3-electromagnetism/index.md):** Quantum electrodynamics.
+- **[Particle Physics](../../7-particle-physics-and-cosmology/index.md):** Quantum field theory.

@@ -282,3 +282,17 @@ Among all red-flowered F2 plants:
 The effect of mutation at $10^{-6}$ is negligible compared to the normal Mendelian ratios. The
 expected proportion of Rr vs RR among red-flowered plants remains approximately $\frac{2}{3}$ Rr :
 $\frac{1}{3}$ RR.
+
+## Common Mistakes
+
+**Assuming all plants are autotrophs:** Most plants are, but parasitic plants (e.g., mistletoe) and mycoheterotrophic plants obtain nutrients from other organisms. Don't assume all plants photosynthesise.
+
+**Confusing transpiration with guttation:** Transpiration is water vapour loss through stomata. Guttation is liquid water loss through hydathodes at leaf tips. They're different processes with different causes.
+
+**Forgetting that plant hormones can have opposite effects in different tissues:** Auxin promotes elongation in shoots but inhibits it in roots. The same hormone, opposite effects depending on tissue type.
+
+## Cross-References
+
+- **[Cell Biology](../biology/flashcards-cell-biology):** Cells are the basic units of life
+- **[Genetics](../biology/flashcards-genetics):** Genetics studies heredity and variation
+- **[Ecology](../biology/diagnostics/diag-ecology):** Ecology studies organism-environment interactions

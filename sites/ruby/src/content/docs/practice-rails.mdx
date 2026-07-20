@@ -311,3 +311,11 @@ end
 ```
 
 **Solution:** `perform_once` ensures the job is idempotent by preventing duplicate execution. `each_slice(100)` batches inserts to avoid memory bloat. `model_class.import` performs bulk inserts for performance. Per-row validation catches data issues. `ImportResult` persists a summary. `File.delete` cleans up the temp file after processing. `sidekiq_options retry: 3` limits retries to prevent infinite loops.
+
+## Common Mistakes
+
+**Not using Rails migrations:** Directly modifying the database schema breaks the migration history. Always generate migrations to track schema changes. This ensures consistency across development, test, and production environments.
+
+**N+1 query problem:** Loading associated records in a loop executes a separate query for each association. Use includes(:author) to eager-load associations. The bullet gem automatically detects N+1 queries.
+
+**Forgetting about strong parameters:** Rails requires whitelisting parameters for mass assignment. Use params.require(:model).permit(:field1, :field2) to prevent mass-assignment vulnerabilities. Failing to do so exposes your application to security risks.

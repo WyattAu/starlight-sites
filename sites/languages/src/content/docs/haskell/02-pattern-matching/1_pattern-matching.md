@@ -722,3 +722,17 @@ myReverse = go []
 6. **Use `case` when matching on computed values**: Function equations match only on arguments.
 7. **Consider `-Wincomplete-patterns`**: GHC flag that turns incomplete pattern warnings into
    errors.
+
+## Cross-References
+
+- **[Types and Functions](../01-basics/1_types-and-functions.md):** Foundational type system and function composition used in pattern matching.
+- **[Monads and Functors](../04-monads/1_monads-and-functors.md):** Monadic pattern matching with do-notation and bind.
+- **[Advanced Types](../05-advanced/1_advanced-types.md):** GADTs and phantom types that enable type-safe pattern matching.
+
+## Common Mistakes
+
+**Writing non-exhaustive patterns:** Missing a constructor in a pattern match causes runtime crashes. Always enable `-Wall` and add a catch-all `_` pattern or handle every constructor.
+
+**Placing general patterns before specific ones:** Patterns match top to bottom. A wildcard `_` before a specific constructor makes the specific case unreachable, silently producing wrong results.
+
+**Using `let` patterns instead of `case` for partial matches:** `let (x:y:_) = xs` crashes if `xs` has fewer than two elements. Use `case` with exhaustive patterns to handle all possibilities safely.

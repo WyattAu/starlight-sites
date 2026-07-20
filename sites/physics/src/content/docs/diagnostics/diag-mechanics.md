@@ -117,3 +117,11 @@ tableOfContents: false
 | 10       | C             |
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of classical mechanics. Review the explanations in the practice problems for any questions you answered incorrectly.
+
+## Common Mistakes
+
+**Confusing inertial and non-inertial reference frames:** Newton's laws only hold in inertial frames. In accelerating frames, fictitious forces (Coriolis, centrifugal) must be added manually.
+
+**Forgetting that acceleration is the second derivative of position:** Many students use v = at for non-constant acceleration. Only valid for constant acceleration; otherwise use calculus.
+
+**Neglecting that momentum is conserved only when net external force is zero:** Internal forces cancel by Newton's third law, but external forces change total momentum. Always check the system boundary.

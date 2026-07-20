@@ -93,3 +93,17 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (B) | Economic decline, Gorbachev's reforms, and rising nationalism in Soviet republics led to the USSR's dissolution. |
 | 9 | (B) | MAD deterred nuclear war by ensuring that any attack would result in the destruction of both attacker and defender. |
 | 10 | (C) | Gorbachev's glasnost (openness) and perestroika (restructuring) reforms weakened Soviet control and hastened the Cold War's end. |
+
+## Common Mistakes
+
+**Assuming the Cold War was only between the US and USSR:** Many countries were involved as allies, proxies, or non-aligned states. The Sino-Soviet split shows the Communist bloc wasn't monolithic.
+
+**Confusing détente with the end of the Cold War:** Détente (1970s) reduced tensions but didn't end the rivalry. The Cold War ended in 1989-1991 with Soviet collapse.
+
+**Mixing up the Truman Doctrine with the Marshall Plan:** The Truman Doctrine was about military/political containment. The Marshall Plan was about economic reconstruction. They're related but different.
+
+## Cross-References
+
+- **[Cold War](../history/cold-war):** Cold War diagnostics test core knowledge
+- **[Authoritarian States](../history/authoritarian-states):** Authoritarian regimes are examined
+- **[Causes and Effects](../history/causes-and-effects-of-wars):** Proxy wars are studied

@@ -336,3 +336,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[I/O](./io.md):** Buffered I/O and stream processing for string manipulation.
+- **[net/http](./net-http.md):** HTTP header parsing and time-based cache headers.
+- **[Types and Variables](../basics/types-and-variables.md):** String and time type fundamentals.

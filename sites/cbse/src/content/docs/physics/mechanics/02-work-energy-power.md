@@ -142,6 +142,14 @@ The work-energy theorem and conservation of energy are among the most powerful t
 - Remember that kinetic energy is always positive, but work can be negative (friction)
 - When using energy methods, define a reference level for potential energy
 
+## Intuition
+
+**Work is about transferring energy through force:** When you push a box across a room, you're doing work — transferring energy from you to the box. The amount depends on how hard you push (force), how far it moves (distance), and the angle between them. Friction does negative work because it opposes motion, draining energy from the system.
+
+**Why it matters:** The work-energy theorem is one of the most powerful tools in physics. It lets you solve complex problems by comparing initial and final states without tracking every force at every moment. This is how engineers calculate car crash impacts, how physicists analyze particle collisions, and how astronomers predict orbital mechanics.
+
+**The key insight:** Power is the rate of energy transfer — a car engine doesn't just need to produce energy, it needs to produce it fast enough to accelerate quickly. This distinction between energy and power explains why a small car can outperform a large truck.
+
 ## Common Mistakes
 
 ### Mistake 1: Forgetting the negative sign for work done against conservative forces

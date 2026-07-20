@@ -372,3 +372,19 @@ producing a string not in the language -- proving it is not regular.
 - **Primality testing:** P (since the AKS algorithm, 2002). It was known to be in NP (a certificate
   of compositeness -- a factor -- is verifiable in polynomial time) and was known to be in co-NP,
   and is now known to be in P.
+
+## Common Mistakes
+
+**Confusing decidability with complexity:** A problem being decidable means an algorithm exists that always halts and gives the correct answer. Complexity (P vs NP) is about how fast that algorithm runs. The halting problem is undecidable — no algorithm can solve it for all inputs. Sorting is decidable and in P — a fast algorithm exists.
+
+**Assuming NP means "not solvable in polynomial time":** NP stands for "nondeterministic polynomial time." It means the solution can be verified in polynomial time, not that it cannot be solved in polynomial time. All P problems are also in NP (if you can solve it quickly, you can certainly verify it quickly).
+
+**Confusing regular languages with context-free languages:** Regular languages can be recognised by finite automata (DFA/NFA) and described by regular expressions. Context-free languages require a pushdown automaton (with a stack). The language $a^n b^n$ is context-free but not regular because counting requires unbounded memory, which a finite automaton cannot provide.
+
+
+
+## Cross-References
+
+- **[Number Systems](../computer-science/fundamentals/01-number-systems):** Binary and hexadecimal are essential for computing
+- **[Boolean Algebra](../computer-science/fundamentals/03-boolean-algebra):** Logic gates implement Boolean operations
+- **[Graph Algorithms](../computer-science/algorithms/03-graph-algorithms):** Algorithm design is central to computer science

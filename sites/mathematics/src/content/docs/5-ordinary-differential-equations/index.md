@@ -67,3 +67,9 @@ Differential equations describe how systems evolve, from planetary orbits to pop
 3. **Draw phase portraits**: Visualise solutions for systems of ODEs
 4. **Learn standard examples**: Know the properties of common equations (harmonic oscillator, exponential decay)
 5. **Connect to applications**: Relate differential equations to physics, biology, and engineering
+
+## Cross-References
+
+- **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Vector calculus and partial derivatives.
+- **[Linear Algebra](../../2-linear-algebra/index.md):** Systems of linear ODEs using eigenvalues.
+- **[Complex Analysis](../../6-complex-analysis/index.md):** Contour integration for solving ODEs.

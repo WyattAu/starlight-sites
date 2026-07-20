@@ -236,4 +236,18 @@ Implications for survival:
 - Reduced genetic diversity limits the population's ability to adapt to environmental changes (e.g.,
   disease, climate change).
 - The population may require genetic rescue (introduction of individuals from other populations) to
-  increase $N_e$ and genetic diversity.
+   increase $N_e$ and genetic diversity.
+
+## Common Mistakes
+
+**Confusing community with ecosystem:** A community is all living organisms in an area. An ecosystem includes the community PLUS the abiotic environment. Don't use them interchangeably.
+
+**Forgetting that energy flows but nutrients cycle:** Energy enters as sunlight, flows through food chains, and exits as heat. Nutrients (carbon, nitrogen) cycle through ecosystems repeatedly.
+
+**Mixing up primary and secondary succession:** Primary succession starts on bare rock (no soil). Secondary succession starts where soil already exists (after fire, farming). They have different pioneer species and timelines.
+
+## Cross-References
+
+- **[Cell Biology](../biology/flashcards-cell-biology):** Cells are the basic units of life
+- **[Genetics](../biology/flashcards-genetics):** Genetics studies heredity and variation
+- **[Ecology](../biology/diagnostics/diag-ecology):** Ecology studies organism-environment interactions

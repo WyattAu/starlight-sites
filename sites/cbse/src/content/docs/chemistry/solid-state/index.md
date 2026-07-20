@@ -87,6 +87,14 @@ Solid state chemistry is fundamental to materials science, metallurgy, semicondu
 - Schottky defects: similar-sized ions, low coordination number
 - Frenkel defects: large size difference, usually in Ag halides
 
+## Intuition
+
+**Atoms are lazy packers — they fill space as efficiently as possible:** Imagine stacking oranges at a grocery store. You'd naturally arrange them so each orange touches as many neighbors as possible, minimizing gaps. This is exactly what atoms do in metals and ionic solids — they pack to maximize coordination number and minimize wasted space.
+
+**Why it matters:** Crystal structure determines material properties — conductivity, hardness, melting point, and brittleness all depend on how atoms are arranged. Understanding packing helps predict why copper is ductile while ceramics are brittle, and why semiconductors have band gaps.
+
+**The key insight:** The density formula ρ = ZM/(Nₐa³) connects the microscopic world (unit cell geometry) to the macroscopic world (measurable density), bridging atomic-scale structure to bulk material properties.
+
 ## Common Mistakes
 
 **Confusing the number of atoms per unit cell.** For BCC, there are 2 atoms per unit cell (1 at corners + 1 at body centre). For FCC, there are 4 atoms per unit cell (8 corner atoms x 1/8 + 6 face atoms x 1/2). Students often count atoms without applying the sharing fractions for corners, edges, and faces.

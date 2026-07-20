@@ -370,6 +370,14 @@ fun fetchUserProfile(userId: Long): Result<Profile> {
 }
 ```
 
+## Intuition
+
+**Delegation is composition in disguise:** Instead of inheriting behavior from a parent class, you hand off responsibilities to helper objects. The `by` keyword says "I'll just forward calls to this delegate." It's like having an assistant who handles specific tasks while you focus on the main work.
+
+**Why it matters:** Delegation reduces boilerplate code, makes responsibilities explicit, and enables flexible composition. The Result type brings functional error handling to Kotlin, making error paths explicit and composable instead of hidden in exception stacks.
+
+**The key insight:** Result is for expected failures (user input validation, network timeouts), while exceptions are for unexpected bugs (null pointer, index out of bounds). Using the right mechanism makes code intent clear.
+
 ## Common Pitfalls
 
 - **Using `by lazy` with `var`.** `lazy` only works with `val` properties. Using it with `var` is a

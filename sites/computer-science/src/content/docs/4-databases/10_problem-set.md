@@ -155,3 +155,17 @@ default; stale reads occur during failover if reads are allowed on secondaries. 
 ## Intuition
 
 Database problems teach you to think about data as a structured resource that must be stored efficiently, queried quickly, and modified safely. Normalization is the process of eliminating redundancy, the way a good filing system avoids storing the same information in multiple folders. Query optimization is about finding the fastest path through a maze of tables and indexes, like a librarian who knows exactly which shelf to check rather than scanning every book in the library.
+
+## Common Mistakes
+
+**Confusing normalisation forms:** 1NF eliminates repeating groups. 2NF eliminates partial dependencies. 3NF eliminates transitive dependencies. Don't mix up the progression.
+
+**Forgetting that indexing isn't free:** Indexes speed up reads but slow down writes. Over-indexing degrades write performance. Choose indexes based on query patterns.
+
+**Assuming SQL queries are portable across databases:** While SQL is standard, each database (PostgreSQL, MySQL, Oracle) has proprietary extensions. Don't assume queries work identically everywhere.
+
+## Cross-References
+
+- **[Databases Practice](./14_practice-databases.mdx):** Auto-graded database problems.
+- **[Normalisation](./4_normalisation.md):** Schema design and functional dependencies.
+- **[Query Optimisation](./7_query-optimisation.md):** Query planning and execution.

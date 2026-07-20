@@ -254,6 +254,14 @@ func (ip IPAddr) String() string {
 fmt.Println(IPAddr{127, 0, 0, 1}) // 127.0.0.1
 ```
 
+## Intuition
+
+**Interfaces are behavioral contracts, not inheritance hierarchies:** In Go, you don't declare that a type implements an interface — it just does. If a duck walks like a duck and quacks like a duck, it satisfies the Duck interface. This structural typing means interfaces emerge naturally from concrete types, not from forced inheritance trees.
+
+**Why it matters:** Interfaces enable dependency injection, testability, and polymorphism without complex class hierarchies. The standard library is built on small interfaces (io.Reader, io.Writer) that thousands of types satisfy. Understanding interface satisfaction, pointer receivers, and nil interfaces is essential for writing idiomatic Go.
+
+**The key insight:** An interface value is a (type, value) tuple — even if the value is nil, the interface itself is not nil if it has a type. This is the most common source of nil interface bugs.
+
 ## Common Pitfalls
 
 1. **Nil interface with non-nil concrete type.** An interface holding a `*T` where `T` is nil is not

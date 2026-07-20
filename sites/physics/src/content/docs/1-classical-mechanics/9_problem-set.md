@@ -597,3 +597,11 @@ Classical mechanics is the foundation of physics: it describes how objects move 
 - **[Central Force Problems](6_central-force-problems.mdx)**: The orbital mechanics and scattering problems draw on central force theory and the effective potential.
 - **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: Phase space analysis and canonical transformations are needed for the more advanced problems in this set.
 
+## Common Mistakes
+
+**Forgetting that normal force does no work:** When a particle slides on a surface, the normal force is perpendicular to displacement and contributes zero work. Including it in energy calculations gives incorrect kinetic energy.
+
+**Confusing centripetal and centrifugal forces:** Centripetal force is the real net force directed inward; centrifugal force is a fictitious force in the rotating frame. Using centrifugal in an inertial frame gives wrong equations of motion.
+
+**Neglecting sign conventions in potential energy:** The gravitational potential V = mgh assumes a reference at h = 0. Choosing the wrong reference point or sign flips the energy conservation equation.
+

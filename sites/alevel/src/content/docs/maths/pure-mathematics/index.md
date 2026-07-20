@@ -128,3 +128,11 @@ the next.
 - [Statistics Index](../statistics/index.md) -- Statistics uses algebraic manipulation, functions, and numerical methods to analyse data and probability.
 - [Further Pure Mathematics 1](further-pure-1.md) -- Extends the core Pure content into complex numbers, matrices, and advanced calculus.
 - [Proof](13-proof.md) -- Proof techniques unify all pure mathematics topics through rigorous logical argument.
+
+## Common Mistakes
+
+**Confusing $f'(x)$ with $f(x)$:** The derivative $f'(x)$ gives the gradient of the tangent at any point, not the value of the function. Students often evaluate $f'(x)$ when asked for $f(x)$, or vice versa. Always check whether the question asks for the function value or the rate of change.
+
+**Forgetting the chain rule:** When differentiating composite functions like $\sin(2x)$ or $e^{3x}$, the chain rule gives $\frac{d}{dx}f(g(x)) = f'(g(x)) \cdot g'(x)$. Students often forget the inner derivative, writing the derivative of $\sin(2x)$ as $\cos(2x)$ instead of $2\cos(2x)$.
+
+**Losing the constant of integration:** Every indefinite integral requires $+ C$. Forgetting it loses a mark even if the rest of the integration is correct. The constant represents the family of all antiderivatives.

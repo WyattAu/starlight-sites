@@ -89,3 +89,19 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (B) | Effective comparison evaluates the evidential basis and analytical reasoning of each interpretation. |
 | 9 | (B) | Corroboration involves checking a source's claims against other independent sources to test reliability. |
 | 10 | (B) | Historians contest interpretations due to differing evidence, methodology, and analytical frameworks, not merely bias. |
+
+## Common Mistakes
+
+**Assuming that a primary source is automatically reliable:** Primary sources are contemporary accounts, but they can be biased, incomplete, or deliberately misleading. A soldier's letter home may omit atrocities; a government report may conceal failures. Always evaluate the source's origin, purpose, and potential bias rather than accepting it at face value.
+
+**Confusing corroboration with agreement:** Corroboration means checking a source's claims against other independent sources to test reliability. It does not mean finding sources that say the same thing. If three sources agree because they all copied from the same original, they are not independently corroborated. True corroboration uses independent evidence.
+
+**Treating historical interpretations as fixed facts:** Interpretations change as new evidence emerges, methodologies evolve, and perspectives shift. The Cold War was once explained primarily through ideological conflict; revisionist historians later emphasised economic motives. Understanding why interpretations change is part of historical thinking, not a sign that history is "wrong."
+
+
+
+## Cross-References
+
+- **[Essay Techniques](../history/11-essay-techniques/1_essay_techniques):** Source analysis supports essay writing
+- **[Tudor England](../history/2-tudor-england/1_tudor-england):** Tudor sources illustrate bias and propaganda
+- **[Reformation](../history/9-reformation/1_reformation):** Religious sources require careful interpretation

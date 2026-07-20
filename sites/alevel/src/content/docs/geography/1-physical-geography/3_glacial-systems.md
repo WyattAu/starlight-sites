@@ -386,3 +386,11 @@ Mayo, Ireland.
 > **Sources**: AQA Geography (7037) specification; Benn and Evans, _Glaciers and Glaciation_ (2010);
 > GLAMOS Swiss Glacier Monitoring; Evans, _Glacial Geomorphology_ (2013); Lake District National
 > Park data; IPCC AR6.
+
+
+
+## Cross-References
+
+- **[Physical Geography](../geography/flashcards-physical-geography):** Physical geography studies natural Earth processes
+- **[Human Geography](../geography/flashcards-human-geography):** Human geography studies people-environment interactions
+- **[Fieldwork](../geography/3-fieldwork/1_fieldwork-methodology):** Fieldwork methods apply to geographic study

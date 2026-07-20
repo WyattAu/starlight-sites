@@ -50,3 +50,11 @@ reductions, Cook\'s theorem, and approximation algorithms. Select an option to c
 <PracticeProblem client:only="solid-js" question={"Which of the following problems is known to be in coNP but not known to be in P?&quot; options={[ 'The complement of SAT (UNSAT)', 'Hamiltonian Cycle', 'Subset Sum', 'Graph Colouring (3-colouring)', ]} correctAnswer={0} explanation=&quot;UNSAT (the complement of SAT) is in coNP because a satisfying assignment can be checked and rejected in polynomial time. SAT is in NP (a satisfying assignment is a polynomial-time verifiable certificate). UNSAT is not known to be in P because solving it efficiently would imply P = NP. Hamiltonian Cycle, Subset Sum, and Graph Colouring are all in NP."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"What does Savitch's theorem state about the relationship between deterministic and nondeterministic space?&quot; options={[ '$\\text{NSPACE}(s(n)) \\subseteq \\text{DSPACE}(s(n)^2)$ for $s(n) \\geq \\log n$', '$\\text{NSPACE}(s(n)) = \\text{DSPACE}(s(n))$ for all $s(n)$', '$\\text{NSPACE}(s(n)) \\subseteq \\text{DSPACE}(2^{s(n)})$', '$\\text{NSPACE}(s(n)) \\subseteq \\text{DSPACE}(s(n) \\log s(n))$', ]} correctAnswer={0} explanation=&quot;Savitch's theorem (1970) proves that nondeterministic space is at most the square of deterministic space: $\\text{NSPACE}(s(n)) \\subseteq \\text{DSPACE}(s(n)^2)$. The proof uses a recursive reachability algorithm with $O(s(n)^2)$ space. This shows that NSPACE is not fundamentally more powerful than DSPACE (unlike the time hierarchy, where NP vs P remains open). For $s(n) = \\log n$, this gives $\\text{NSPACE}(\\log n) \\subseteq \\text{DSPACE}(\\log^2 n)$."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Confusing decidability with complexity:** Decidable means a Turing machine halts on all inputs. Complexity classes (P, NP) describe how efficiently problems are solved. Don't confuse the two concepts.
+
+**Assuming NP-complete means unsolvable:** NP-complete problems can be solved — just not in polynomial time (unless P = NP). They're hard but not impossible.
+
+**Forgetting that reductions go the wrong way for hardness:** To show problem X is hard, reduce a known hard problem TO X. Don't reduce X to something else — that shows X is easy.

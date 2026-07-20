@@ -341,6 +341,14 @@ $$
   law).
 - **Medical ultrasound:** the Doppler effect is used to measure blood flow velocity.
 
+## Intuition
+
+**Waves transfer energy without transferring matter:** When you throw a stone into a pond, the water ripples outward but the water itself doesn't travel with the wave. The disturbance moves, but the medium stays put. This is the fundamental difference between waves and particles — particles carry matter from A to B, while waves carry energy from A to B.
+
+**Why it matters:** Waves explain how light reaches us from distant stars, how sound travels through air, how Wi-Fi signals connect our devices, and how medical ultrasound images our bodies. Understanding wave behaviour is essential for telecommunications, medicine, and astronomy.
+
+**The key insight:** The wave equation v = fλ connects three fundamental quantities — changing one affects the others. When light enters glass, its speed decreases, so its wavelength decreases while frequency stays the same.
+
 ## Common Pitfalls
 
 1. **Mixing up diffraction and interference** -- diffraction is spreading; interference is

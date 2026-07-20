@@ -225,3 +225,17 @@ Hardware and software security are complementary: TPM protects keys at the hardw
 (preventing extraction), secure boot ensures a trusted execution environment, and software
 encryption (e.g., AES-256 full-disk encryption) protects data at rest. Together they provide defence
 in depth.
+
+## Common Mistakes
+
+**Confusing RAM with ROM:** RAM is volatile (loses data when powered off) and used for temporary storage. ROM is non-volatile (retains data) and stores firmware. Don't use them interchangeably.
+
+**Mixing up clock speed with processor performance:** Higher clock speed doesn't always mean better performance. Architecture, cache size, and number of cores also matter. A 3 GHz quad-core can outperform a 4 GHz single-core.
+
+**Forgetting that 64-bit processors can address more than 4 GB RAM:** 32-bit processors have a 2^32 = 4 GB address limit. 64-bit processors can theoretically address 2^64 bytes, far more than any current system needs.
+
+## Cross-References
+
+- **[Data Representation](../ict/1-data-representation/1_data-representation):** Data is fundamental to ICT
+- **[Computer Systems](../ict/diagnostics/diag-computer-systems):** Systems process data
+- **[Programming](../ict/diagnostics/diag-programming-databases):** Programming manipulates data

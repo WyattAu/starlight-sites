@@ -379,6 +379,14 @@ if err := g.Wait(); err != nil {
 }
 ```
 
+## Intuition
+
+**Data races are like two people writing in the same notebook simultaneously:** Imagine two people trying to write on the same page at the same time without coordinating. They might overwrite each other's words, read incomplete sentences, or produce garbled text. In Go, two goroutines accessing the same variable without synchronization creates the same chaos — the program's state becomes unpredictable.
+
+**Why it matters:** Data races are insidious because they may not cause crashes immediately — a program might work perfectly in testing but fail unpredictably in production. The race detector is your safety net, but understanding the patterns helps you write correct concurrent code from the start.
+
+**The key insight:** All data races are bugs, but not all race conditions involve data races — a race condition is about program correctness depending on timing, while a data race is specifically about unsynchronized memory access.
+
 ## Common Pitfalls
 
 1. **Not running the race detector.** Data races are nondeterministic. A program may appear to work

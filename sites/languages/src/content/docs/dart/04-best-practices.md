@@ -148,3 +148,10 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Error Handling](../08-error-handling.md):** Detailed exception hierarchy and try-catch patterns referenced in best practices.
+- **[Classes and Inheritance](../04-object-oriented/01-classes-and-inheritance.md):** Object-oriented design patterns for immutable data classes.
+- **[Async and Futures](../05-async/01-async-and-futures.md):** Concurrency best practices including async/await and isolate usage.
+- **[Class Modifiers](../07-dart3-features/03-class-modifiers.md):** Dart 3 modifier patterns for API boundary enforcement.

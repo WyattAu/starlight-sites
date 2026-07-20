@@ -360,3 +360,11 @@ Domain of $g^{-1}$: $\mathbb{R}$ (since $e^x + 1 \gt 0$ for all $x$). Range of $
 $(1, \infty)$.
 
 Verification: $g(g^{-1}(x)) = \ln(e^x + 1 - 1) = \ln(e^x) = x$. Confirmed.
+
+
+
+## Cross-References
+
+- **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Pure maths covers algebra, calculus, and functions
+- **[Mechanics](../maths/practice-mechanics):** Mechanics applies maths to physical problems
+- **[Statistics](../maths/statistics/statistics):** Statistics develops data analysis methods

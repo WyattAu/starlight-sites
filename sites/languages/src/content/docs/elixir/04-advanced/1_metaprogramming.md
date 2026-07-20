@@ -739,3 +739,16 @@ Elixir's metaprogramming system is powerful but should be used judiciously:
 - `bind_quoted` safely injects values while preserving hygiene
 - `__using__/1` is the hook for the `use` macro
 - Use macros for DSLs and compile-time code generation, not for simple functions
+
+## Cross-References
+
+- **[Basics and Pattern Matching](../01-basics/1_basics-and-pattern-matching.md):** Pattern matching used in macro dispatch and guard clauses.
+- **[Elixir Introduction](../00-intro/1_elixir-intro.md):** Language overview covering the functional paradigm macros extend.
+
+## Common Mistakes
+
+**Using functions where macros are needed:** Compile-time code generation (DSLs, `defstruct`, `defprotocol`) requires macros. Using regular functions for these tasks fails because they receive evaluated values, not AST.
+
+**Forgetting `quote`/`unquote` boundaries:** Writing code outside `quote` blocks in a macro executes at compile time, not injecting into the caller. Always wrap generated code in `quote do...end`.
+
+**Breaking hygiene with `var!` unnecessarily:** `var!` escapes the macro's hygiene boundary, risking variable name collisions with the caller. Only use `var!` when you explicitly need to modify the caller's scope.

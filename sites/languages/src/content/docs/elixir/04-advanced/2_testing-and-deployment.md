@@ -938,3 +938,11 @@ Elixir provides a comprehensive testing and deployment story:
 - Hot code upgrades enable zero-downtime deployments
 - Docker multi-stage builds produce small, efficient images
 - Umbrella apps organize multiple applications in one repository
+
+## Common Mistakes
+
+**Putting secrets in `config/prod.exs`:** Committing secrets to version control is a security risk. Use `config/runtime.exs` which reads environment variables at runtime, keeping secrets out of the codebase.
+
+**Forgetting `async: true` in isolated tests:** Tests without `async: true` run sequentially by default. Adding `async: true` to tests that don't share state significantly speeds up the test suite.
+
+**Skipping `code_change/3` in hot upgrades:** Without implementing the `code_change/3` callback in GenServers, hot code upgrades will crash processes that have state. Always implement state transformation for both upgrades and downgrades.

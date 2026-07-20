@@ -17,3 +17,17 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="university-physics-classical-mechanics" title="University Physics -- Classical Mechanics" description="Newton's laws, Lagrangian and Hamiltonian mechanics, rigid body dynamics, canonical transformations, and scattering theory" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
+
+## Cross-References
+
+- **[Classical Mechanics](../index.md):** Newton's laws and Lagrangian mechanics fundamentals.
+- **[Thermal Physics](../../2-thermal-physics/index.md):** Statistical mechanics built on classical mechanics.
+- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Classical limit of quantum mechanics.
+
+## Common Mistakes
+
+**Confusing Lagrangian and Hamiltonian mechanics:** L = T − V uses generalised coordinates and velocities; H = T + V uses coordinates and momenta. Using the wrong formalism gives incorrect equations of motion.
+
+**Forgetting that constraint forces do no work:** In Lagrangian mechanics, constraint forces (tension, normal force) are eliminated by choosing appropriate generalised coordinates. Including them doubles-counts.
+
+**Mixing up active and passive transformations:** Active transformations move the particle; passive transformations change the coordinate system. Confusing them flips the sign of rotation angles.

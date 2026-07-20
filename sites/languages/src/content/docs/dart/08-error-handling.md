@@ -1097,3 +1097,10 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Async and Futures](./05-async/01-async-and-futures.md):** Error handling in Futures, Streams, and zone error handlers.
+- **[Class Modifiers](./07-dart3-features/03-class-modifiers.md):** Sealed class hierarchies for exhaustive pattern matching on error types.
+- **[Classes and Inheritance](./04-object-oriented/01-classes-and-inheritance.md):** Custom exception class design using inheritance and abstract classes.
+- **[Best Practices](./04-best-practices.md):** Error handling best practices including specific exception catching.

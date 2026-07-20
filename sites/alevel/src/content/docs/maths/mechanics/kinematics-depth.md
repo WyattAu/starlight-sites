@@ -525,3 +525,11 @@ Kinematics is the language of motion stripped bare of its causes. Imagine filmin
 - Chain rule form: $a = v\frac{dv}{ds}$ is useful when acceleration depends on displacement.
 
 </aside>
+
+
+
+## Cross-References
+
+- **[Momentum](../maths/mechanics/05-momentum):** Kinematics describes motion
+- **[Energy and Work](../maths/mechanics/energy-and-work-depth):** Kinematic equations relate to energy
+- **[Forces](../maths/mechanics/statics-depth):** Forces cause acceleration

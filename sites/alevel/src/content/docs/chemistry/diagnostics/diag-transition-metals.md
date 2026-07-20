@@ -374,3 +374,19 @@ $\text{O}_2$ without these protective factors.
    outcompetes $\text{O}_2$ for the binding site on haemoglobin. Once bound, CO is very difficult to
    displace, reducing the oxygen-carrying capacity of blood. This is why CO poisoning is so
    dangerous even at low concentrations.
+
+## Common Mistakes
+
+**Assuming transition metals always have a fixed oxidation state:** Transition metals can exhibit multiple oxidation states (e.g., Fe$^{2+}$ and Fe$^{3+}$, Cu$^+$ and Cu$^{2+}$, Cr$^{3+}$ and Cr$_2$O$_7^{2-}$). You must determine the oxidation state from the formula or the reaction context, not assume a default value.
+
+**Confusing ligand exchange with redox reactions:** When a ligand is replaced in a complex ion (e.g., $[\text{Cu}(\text{H}_2\text{O})_6]^{2+}$ becoming $[\text{CuCl}_4]^{2-}$), the oxidation state of the metal does not change — this is a ligand substitution, not a redox reaction. Redox involves a change in oxidation state (e.g., Fe$^{3+}$ being reduced to Fe$^{2+}$).
+
+**Forgetting that colour in transition metal complexes arises from d-d transitions:** The colour comes from electrons absorbing visible light and jumping between split d-orbitals. If the d subshell is empty (d$^0$) or full (d$^{10}$), no d-d transitions are possible and the compound is colourless (e.g., Sc$^{3+}$, Zn$^{2+}$, Cu$^+$). Students often assume all transition metal compounds must be coloured.
+
+
+
+## Cross-References
+
+- **[Organic Chemistry](../chemistry/organic-chemistry/introduction):** Organic chemistry covers carbon-based compounds and their reactions
+- **[Physical Chemistry](../chemistry/flashcards-physical-chemistry):** Physical chemistry underpins reaction rates, energetics, and equilibrium
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines chemical bonding and reactivity

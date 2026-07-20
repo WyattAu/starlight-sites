@@ -214,3 +214,11 @@ sidebar_position: 50
 **Correct Answer:** (C)
 
 **Explanation:** Query optimizers do not follow the syntactic order of joins. They use cost-based optimization to evaluate alternative join orderings and select the plan with the lowest estimated cost. Options (A), (B), and (D) are all standard optimizer heuristics: pushing selections reduces the number of tuples early, early projection reduces tuple width, and join reordering minimizes intermediate result sizes.
+
+## Common Mistakes
+
+**Confusing primary keys with unique keys:** A primary key cannot be NULL and there can be only one per table. A unique key allows NULL values (in most RDBMS) and a table can have multiple unique keys. Choose primary keys carefully — they affect index performance and foreign key references.
+
+**Over-normalising to 5NF/6NF without justification:** Boyce-Codd Normal Form handles most practical cases. Higher normal forms address rare edge cases (join dependencies) that almost never matter in real applications. Over-normalising makes queries complex without meaningful benefit.
+
+**Forgetting to index foreign keys:** Foreign keys are frequently used in JOIN operations but are not automatically indexed in most RDBMS. Always create indexes on foreign key columns to avoid full table scans on joins.

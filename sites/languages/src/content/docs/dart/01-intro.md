@@ -384,5 +384,12 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- **[Installation](../02-setup/01-installation.md):** Sets up the Dart SDK and Flutter environment needed to run the examples in this introduction.
+- **[Variables](../03-basics/02-variables.md):** Covers the type system overview and variable specifiers introduced here.
+- **[Async and Futures](../05-async/01-async-and-futures.md):** Explores Dart's single-threaded event loop and isolate concurrency model in depth.
+- **[Classes and Inheritance](../04-object-oriented/01-classes-and-inheritance.md):** Deep dives into Dart's object-oriented features mentioned in the type system overview.
+
 
 </aside>

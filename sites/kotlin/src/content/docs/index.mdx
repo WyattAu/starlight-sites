@@ -54,3 +54,11 @@ Kotlin is a programming language with a rich type system and ecosystem. These no
     </Card>
   </a>
 </CardGrid>
+
+## Common Mistakes
+
+**Assuming Kotlin is just "better Java":** Kotlin has fundamentally different features (coroutines, sealed classes, extension functions, null safety) that change how you design programs. Dont just write Java syntax with Kotlin — embrace Kotlin-specific patterns.
+
+**Overusing extension functions:** Extension functions are powerful but can make code harder to discover and debug. If an extension function is used in many places, consider making it a regular function or utility method. Overuse creates a confusing API surface.
+
+**Ignoring Kotlin Multiplatform:** Kotlin is not just for Android. Kotlin Multiplatform allows sharing code between JVM, JS, iOS, and native. If youre only using Kotlin for Android, you may be missing opportunities to share business logic across platforms.

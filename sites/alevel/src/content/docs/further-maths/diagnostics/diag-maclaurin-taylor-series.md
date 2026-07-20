@@ -163,3 +163,19 @@ $\sum_{n=1}^{\infty} \frac{(-1)^n}{n} = -1 + \frac{1}{2} - \frac{1}{3} + \frac{1
 alternating series with terms $a_n = 1/n$ that decrease to 0. By the alternating series test, it
 converges (to $-\ln 2$). The partial sums oscillate above and below $-\ln 2$With the amplitude of
 oscillation decreasing.
+
+## Common Mistakes
+
+**Using the wrong general term in Maclaurin series:** Common series to memorise: $e^x = \sum x^n/n!$, $\sin x = \sum (-1)^n x^{2n+1}/(2n+1)!$, $\cos x = \sum (-1)^n x^{2n}/(2n)!$, $\ln(1+x) = \sum (-1)^{n+1} x^n/n$, $(1+x)^n = \sum \binom{n}{k} x^k$. Mixing up the signs or factorials (e.g., writing $n!$ instead of $(2n+1)!$) gives wrong expansions.
+
+**Forgetting to check the radius of convergence:** A series may converge for some values of $x$ but not others. Always determine the radius of convergence before using a series. For $\ln(1+x)$, the series converges for $|x| < 1$ (and at $x = 1$). Substituting $x = 2$ into the $\ln(1+x)$ series gives a divergent sum — a common error.
+
+**Confusing the Maclaurin and Taylor series:** A Maclaurin series is a Taylor series centred at $x = 0$. When a question asks for a series about $x = a$ where $a \neq 0$, you must compute $f^{(n)}(a)$, not $f^{(n)}(0)$. The formula is $\sum f^{(n)}(a)(x-a)^n/n!$.
+
+
+
+## Cross-References
+
+- **[Maclaurin-Taylor Series](../further-maths/pure-mathematics/maclaurin-taylor-series):** Series expansions use calculus
+- **[Further Calculus](../further-maths/pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
+- **[Pure Mathematics](../further-maths/further-maths):** Further maths extends A-level mathematics

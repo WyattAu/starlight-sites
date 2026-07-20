@@ -591,6 +591,14 @@ $$Q(s, a) \leftarrow 5.0 + 0.1 \times (-2.4) = 5.0 - 0.24 = 4.76$$
    hyperparameters. If you cannot reproduce the exact conditions under which a model was trained,
    you cannot debug it, retrain it, or roll back to a previous version.
 
+## Intuition
+
+**Attention is learned relevance:** When you read a sentence, your brain automatically focuses on the words that matter for understanding each concept. Self-attention does the same thing computationally — each word learns which other words in the sequence are most relevant to its meaning. This is why transformers revolutionized NLP: they capture long-range dependencies that RNNs struggle with.
+
+**Why it matters:** Transformers power GPT, BERT, and virtually all modern language models. Understanding attention mechanisms explains how these models generate coherent text, translate languages, and answer questions. The same architecture now dominates vision, audio, and protein folding.
+
+**The key insight:** Multi-head attention lets the model track multiple types of relationships simultaneously — one head might capture syntax while another captures semantics — which is why transformers are so expressive despite their relatively simple architecture.
+
 ## Common Pitfalls
 
 1. **Confusing the roles of generator and discriminator loss functions.** The generator minimizes

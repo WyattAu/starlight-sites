@@ -56,3 +56,9 @@ Each section includes:
 3. **Draw automata**: Visualise state machines and their transitions
 4. **Learn the hierarchy**: Understand the relationships between complexity classes
 5. **Connect to practice**: Relate theory to practical applications (compilers, cryptography)
+
+## Cross-References
+
+- **[Algorithms](../../1-algorithms/index.md):** Algorithm design and complexity theory.
+- **[Databases](../../4-databases/index.md):** Query optimisation using automata theory.
+- **[Computer Networks](../../3-computer-networks/index.md):** Protocol design based on formal languages.

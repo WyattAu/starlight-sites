@@ -113,3 +113,19 @@ Postcolonial literature examines the cultural, psychological, and political lega
 - **AO2**: Focus on how techniques such as stream of consciousness, fragmentation, and unreliable narration shape meaning.
 - **AO3**: Contextualise within the specific historical moment: modernism's response to WWI, post-war fiction's engagement with totalitarianism and nuclear anxiety, contemporary writing's postcolonial concerns.
 - **AO4**: Draw connections between texts across the twentieth century and earlier periods.
+
+## Common Mistakes
+
+**Confusing the narrator's perspective with the author's views:** The narrator is a construct within the text, not the author. An unreliable narrator (e.g., Stevens in _The Remains of the Day_) may express views that Fitzgerald, Ishiguro, or Atwood deliberately contradict through irony, structure, or other characters. Always distinguish between narrator and author.
+
+**Using context as a list of facts rather than integrated analysis:** Dropping in historical dates or biographical details without connecting them to the text's language and form earns minimal marks. Context should illuminate your analysis of how meaning is created, not replace it. For example, mentioning post-war disillusionment is only useful if you show how it shapes specific word choices or structural decisions.
+
+**Writing about what the text says instead of how it says it:** Describing plot events ("Gatsby is revealed to be a criminal") is retelling, not analysis. Focus on how Fitzgerald's narrative choices — point of view, symbolism, sentence structure — create that meaning. Ask "how does the text produce this effect?" not "what happens?"
+
+
+
+## Cross-References
+
+- **[Poetry Analysis](../english/2-poetry/1_poetry-analysis):** Modern poetry reflects twentieth-century themes
+- **[Literary Terms](../english/flashcards-literary-terms):** Literary analysis skills apply to modern texts
+- **[Practice](../english/practice-literary-analysis.mdx):** Analytical practice develops interpretation skills

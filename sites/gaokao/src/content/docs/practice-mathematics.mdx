@@ -59,3 +59,11 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"函数 $f(x) = x^3 - 12x + 1$ 的极大值为:"} options={['$8$', '$-8$', '$17$', '$-15$']} correctAnswer={2} explanation="$f'(x) = 3x^2 - 12 = 3(x+2)(x-2)$。令 $f'(x) = 0$ 得 $x = \\pm 2$。$f''(x) = 6x$，$f''(-2) = -12 < 0$，故 $x = -2$ 为极大值点。极大值 $f(-2) = -8 + 24 + 1 = 17$。" difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"$\\displaystyle\\int_0^1 (3x^2 + 2x) \\, dx$ 的值为:"} options={['$2$', '$3$', '$1$', '$4$']} correctAnswer={0} explanation="$\\displaystyle\\int_0^1 (3x^2 + 2x) \\, dx = \\left[x^3 + x^2\\right]_0^1 = (1 + 1) - 0 = 2$。" difficulty="easy"  />
+
+## Common Mistakes
+
+**Forgetting the domain when solving equations:** When solving $\sqrt{x} = x - 2$, squaring both sides introduces extraneous solutions. Always check that proposed solutions satisfy the original equation and any domain restrictions.
+
+**Confusing arithmetic and geometric sequences:** The nth term formula $a_n = a_1 + (n-1)d$ (arithmetic) is fundamentally different from $a_n = a_1 \cdot r^{n-1}$ (geometric). Using the wrong formula gives incorrect answers for sum and term calculations.
+
+**Sign errors in vector dot product:** The dot product $\vec{a} \cdot \vec{b} = |\vec{a}||\vec{b}|\cos\theta$ can be negative when $\theta > 90°$. Forgetting the sign leads to wrong angle calculations. Always track the sign through the computation.

@@ -373,3 +373,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+
+
+## Cross-References
+
+- **[Poetry Analysis](../english/poetry-analysis-guide):** English literature develops analysis skills
+- **[Chronicle](../english/chronicle-of-a-death-foretold):** Prose fiction is studied
+- **[Comparative](../english/comparitives/chronicle-streetcar):** Comparing texts is a key skill

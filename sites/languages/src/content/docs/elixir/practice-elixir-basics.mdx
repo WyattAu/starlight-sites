@@ -55,3 +55,9 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"When should you use the `:one_for_all` supervision strategy?&quot; options={[ 'When children are tightly coupled and cannot function without each other', 'When each child is completely independent', 'When you want only the first child to restart', 'When children are on different machines', ]} correctAnswer={0} explanation=&quot;The :one_for_all strategy restarts ALL children when any single child crashes. This is appropriate for tightly coupled processes that share state or dependencies and cannot operate correctly if one component is missing."} difficulty="hard"  />
 
 <PracticeProblem client:only="solid-js" question={'What does `quote do: 1 + 2` return in Elixir?'} options={[ 'An AST tuple: {:+, meta, [1, 2]}', 'The number 3', 'A string "1 + 2"', 'A macro definition', ]} correctAnswer={0} explanation="quote converts Elixir code into its Abstract Syntax Tree representation. 1 + 2 becomes {:+, [context: Elixir, imports: [{2, Kernel}]], [1, 2]} -- a three-element tuple with the operation atom, metadata, and argument list. Literals like integers represent themselves." difficulty="hard"  />
+
+## Cross-References
+
+- **[Elixir Flashcards](../flashcards-elixir-basics.mdx):** Interactive flashcards covering the same core Elixir concepts tested here.
+- **[Basics and Pattern Matching](../01-basics/1_basics-and-pattern-matching.md):** Pattern matching and guard clause fundamentals.
+- **[Metaprogramming](../04-advanced/1_metaprogramming.md):** Quote/unquote and AST concepts tested in the final practice problem.

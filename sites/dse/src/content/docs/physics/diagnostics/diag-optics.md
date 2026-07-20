@@ -307,3 +307,11 @@ $$v = \frac{c}{n} = \frac{3 \times 10^8}{1.52} = 1.974 \times 10^8 \text{ m s}^{
 Frequency NEVER changes when light enters a different medium -- only the wavelength and speed
 change. The colour we perceive is determined by frequency (or equivalently, vacuum wavelength), not
 the wavelength inside the medium.
+
+
+
+## Cross-References
+
+- **[Mechanics](../physics/diagnostics/diag-mechanics):** Mechanics covers forces and motion
+- **[Waves](../physics/diagnostics/diag-waves-sound):** Waves transfer energy
+- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Electricity covers circuits

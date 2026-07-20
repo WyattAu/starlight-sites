@@ -550,6 +550,14 @@ func slowDatabaseCall(ctx context.Context) (string, error) {
 When the client disconnects, `r.Context()` is cancelled, propagating cancellation through all
 Downstream operations.
 
+## Intuition
+
+**HTTP handlers are stateless functions:** Think of each HTTP request as a customer walking into a restaurant. The handler is the waiter — it takes the order (request), brings the food (response), and moves on to the next customer. The waiter doesn't remember previous customers (stateless), so each request must contain all the information needed to process it.
+
+**Why it matters:** Go's net/http is the foundation for web services, APIs, and microservices. Understanding handlers, middleware, routing, and context propagation is essential for building production-ready HTTP servers. The standard library is powerful enough that many teams don't need external frameworks.
+
+**The key insight:** Middleware is just function composition — each middleware wraps the next handler, adding pre/post-processing. The request flows inward through the middleware chain, and the response flows back outward.
+
 ## Common Pitfalls
 
 1. **Not closing response bodies.** Always `defer resp.Body.Close()` after an HTTP client request.

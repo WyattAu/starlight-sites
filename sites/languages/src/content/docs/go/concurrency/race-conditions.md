@@ -442,3 +442,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Channels](./channels.md):** Channel-based concurrency as an alternative to shared-memory synchronization.
+- **[Pointers and Memory](../advanced/pointers-and-memory.md):** Memory layout and escape analysis relevant to concurrent access.
+- **[Testing](../advanced/testing.md):** Race detector and concurrency testing patterns.

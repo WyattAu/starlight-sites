@@ -125,3 +125,19 @@ Modern Hong Kong is a story of transformation under pressure. The handover was l
 - In essay questions, avoid presenting Hong Kong's development as a simple narrative of economic success. Analyse the social costs of industrialisation, the political limitations of colonial governance, and the tensions inherent in the One Country, Two Systems framework.
 - Use specific evidence including dates, statistics, policy details, and personal accounts to support arguments about Hong Kong's development.
 - When evaluating the significance of the 1997 Handover, consider both the immediate reactions and the longer-term implications for Hong Kong's political, economic, and social development.
+
+
+
+## Cross-References
+
+- **[Cold War](../history/diagnostics/diag-cold-war):** WWII led to the Cold War
+- **[Modern China](../history/diagnostics/diag-modern-china):** Hong Kong's history is linked to China
+- **[WWII](../history/diagnostics/diag-wwii):** WWII shaped modern history
+
+## Common Mistakes
+
+**Assuming Hong Kong's industrialisation was planned:** It was largely spontaneous, driven by refugee entrepreneurs with capital and skills from Shanghai. The colonial government played a supporting role, not a planning role.
+
+**Confusing the 1967 riots with a pro-democracy movement:** The 1967 riots were pro-Communist, inspired by the Cultural Revolution. They were not about democracy but about workers' rights and colonial governance. Don't conflate them with later pro-democracy movements.
+
+**Assuming the Basic Law was universally accepted:** The drafting process was contentious, with debates over democratic reform, the pace of elections, and the relationship between the NPCSC and Hong Kong courts. Many provisions were contested.

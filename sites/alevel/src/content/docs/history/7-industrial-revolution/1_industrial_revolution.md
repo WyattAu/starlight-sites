@@ -213,3 +213,11 @@ technological innovation drove the process; urbanisation and poor working condit
 dislocation; and Reform Acts and factory legislation responded to popular demands. Key
 historiographical debates concern whether the revolution improved or worsened living standards,
 whether it was truly revolutionary, and the role of slavery in funding industrialisation.
+
+
+
+## Cross-References
+
+- **[Source Analysis](../history/diagnostics/diag-source-analysis):** Source analysis skills support historical study
+- **[Essay Techniques](../history/11-essay-techniques/1_essay_techniques):** Essay writing is essential for history
+- **[Tudor England](../history/2-tudor-england/1_tudor-england):** Tudor period provides rich historical material

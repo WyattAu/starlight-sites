@@ -117,3 +117,11 @@ tableOfContents: false
 | 10       | B             |
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of database fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
+
+## Common Mistakes
+
+**Confusing INNER JOIN with LEFT JOIN:** INNER JOIN returns only matching rows from both tables. LEFT JOIN returns all rows from the left table, with NULLs for non-matching right rows. Using the wrong join type produces incomplete or incorrect result sets.
+
+**Assuming normalisation is always desirable:** While 3NF/BCNF reduce redundancy,过度 normalisation can hurt read performance due to excessive joins. In data warehousing and analytics, denormalisation is often preferred for query speed.
+
+**Ignoring transaction isolation levels:** The default isolation level may not suit your use case. READ COMMITTED can cause non-repeatable reads; SERIALIZABLE can cause deadlocks. Understand what anomalies each level prevents before choosing.

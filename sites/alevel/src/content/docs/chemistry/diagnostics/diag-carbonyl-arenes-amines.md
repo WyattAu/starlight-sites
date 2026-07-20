@@ -383,3 +383,11 @@ shifting the absorption to longer wavelengths.
 The colour change occurs because protonation/deprotonation alters the extent of conjugation and the
 energy gap between the HOMO and LUMO orbitals in the delocalised $\pi$-system, changing which
 wavelengths of visible light are absorbed.
+
+## Common Mistakes
+
+**Assuming ketones are more reactive than aldehydes towards nucleophilic addition:** The opposite is true. Aldehydes are more reactive because they have only one electron-donating alkyl group (less steric hindrance and the carbonyl carbon is more electrophilic). Ketones have two alkyl groups that donate electron density and create more steric crowding around the carbonyl carbon.
+
+**Confusing electrophilic addition with electrophilic substitution:** Alkenes undergo electrophilic addition (the double bond breaks and atoms add across it). Arenes undergo electrophilic substitution (a hydrogen is replaced while the aromatic ring is preserved). Getting the mechanism type wrong loses marks even if the individual steps are correct.
+
+**Forgetting that diazonium salts must be kept cold:** Diazonium salts are thermally unstable. Above about $5\,^\circ\text{C}$, they decompose to release N$_2$ gas and form a carbocation that reacts with water, giving a mixture of unwanted products. Always state the $0$--$5\,^\circ\text{C}$ condition when preparing diazonium salts.

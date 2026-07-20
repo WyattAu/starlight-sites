@@ -293,3 +293,9 @@ bounded by a constant.
 **Misunderstanding amortised analysis.** Amortised cost is an average over a sequence of operations, not a guarantee for any single operation. A single operation in an amortised $O(1)$ sequence can still cost $O(n)$. Amortised bounds are meaningful only when you care about the total cost of many operations, not individual latency.
 
 </aside>
+
+## Cross-References
+
+- **[Dynamic Programming](./5_dynamic-programming.md):** Memoisation and tabulation patterns that build on complexity analysis.
+- **[Algorithms Flashcards](../1-algorithms/flashcards-algorithms.mdx):** Interactive flashcards covering algorithm complexity.
+- **[Systems](../../2-systems/index.md):** Hardware and software systems that impose real-world performance constraints.

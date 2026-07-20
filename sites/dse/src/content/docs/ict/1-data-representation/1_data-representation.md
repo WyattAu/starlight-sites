@@ -1372,3 +1372,11 @@ Data representation is the translation between human concepts and machine realit
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+
+
+## Cross-References
+
+- **[Computer Systems](../ict/diagnostics/diag-computer-systems):** Data representation is fundamental
+- **[Programming](../ict/diagnostics/diag-programming-databases):** Programming uses data
+- **[Networking](../ict/diagnostics/diag-data-representation):** Networks transmit data

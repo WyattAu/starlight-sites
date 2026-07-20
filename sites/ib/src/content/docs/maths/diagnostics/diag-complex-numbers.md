@@ -234,3 +234,17 @@ $R^3 = I$ (the identity matrix), since rotating by $2\pi$ returns to the origina
 The connection: $\omega = e^{2\pi i/3}$ corresponds to $R$, $\omega^2 = e^{4\pi i/3}$ corresponds to
 $R^2$And $\omega^3 = 1$ corresponds to $R^3 = I$. The cube roots of unity $\{1, \omega, \omega^2\}$
 correspond to the matrices $\{I, R, R^2\}$.
+
+## Common Mistakes
+
+**Confusing i² = -1 with i = √(-1):** The definition is i² = -1. Writing i = √(-1) is misleading because √ usually denotes the principal (non-negative) square root.
+
+**Forgetting that complex conjugates have the same modulus:** If z = a + bi, then |z| = |z̄| = √(a² + b²). The conjugate reflects across the real axis but doesn't change the distance from origin.
+
+**Mixing up argument and modulus:** Modulus is the distance from origin (|z|). Argument is the angle from the positive real axis (arg z). Don't confuse the two.
+
+## Cross-References
+
+- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Algebra is foundational
+- **[Functions](../maths/2-functions/functions):** Functions are central
+- **[Calculus](../maths/5-calculus/calculus):** Calculus is a major topic

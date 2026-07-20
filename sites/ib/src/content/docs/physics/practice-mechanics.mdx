@@ -53,3 +53,17 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"A 2.0 kg ball moving at 5.0 m s⁻¹ collides head-on with a 3.0 kg ball moving at 2.0 m s⁻¹ in the opposite direction. If the collision is perfectly elastic, what is the velocity of the 2.0 kg ball after the collision?&quot; options={['−2.0 m s⁻¹', '+3.2 m s⁻¹', '−3.8 m s⁻¹', '+0.8 m s⁻¹']} correctAnswer={0} explanation=&quot;Using conservation of momentum and kinetic energy for elastic collision: m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂. 2(5) + 3(−2) = 2v₁ + 3v₂ → 4 = 2v₁ + 3v₂. Also ½m₁u₁² + ½m₂u₂² = ½m₁v₁² + ½m₂v₂². Solving: v₁ = (m₁−m₂)/(m₁+m₂) × u₁ + 2m₂/(m₁+m₂) × u₂ = (−1/5)(5) + (6/5)(−2) = −1 − 2.4 = −3.4 m s⁻¹. Rechecking: v₁ = [(m₁−m₂)u₁ + 2m₂u₂]/(m₁+m₂) = [(−1)(5) + 6(−2)]/5 = −17/5 = −3.4 m s⁻¹. Closest: −3.8 m s⁻¹. Actually with exact values, −3.4 ≈ −3.8 is the best fit given options."} difficulty="hard"  />
 
 <PracticeProblem client:only="solid-js" question={"A 0.15 kg cricket ball is bowled at 40 m s⁻¹ and is hit back at 30 m s⁻¹ in the opposite direction. If the bat is in contact with the ball for 3.0 ms, what is the average force exerted by the bat?&quot; options={['3150 N', '1050 N', '2100 N', '4200 N']} correctAnswer={0} explanation=&quot;Impulse = FΔt = Δp = m(v − u). Taking the initial direction as positive: u = 40 m s⁻¹, v = −30 m s⁻¹. Δp = 0.15(−30 − 40) = 0.15(−70) = −10.5 kg m s⁻². F = Δp/Δt = 10.5/0.003 = 3500 N in magnitude. The force exerted by the bat on the ball is in the return direction. Using F = mΔv/Δt = 0.15 × 70/0.003 = 3500 N ≈ 3150 N with sign convention adjustments."} difficulty="medium"  />
+
+## Common Mistakes
+
+**Confusing elastic with perfectly inelastic collisions:** Elastic collisions conserve both momentum AND kinetic energy. Perfectly inelastic collisions conserve momentum but stick together (maximum KE loss). Don't assume all collisions are elastic.
+
+**Forgetting to define a sign convention:** Always specify which direction is positive before solving momentum problems. Mixing up signs is the most common error.
+
+**Mixing up impulse with force:** Impulse is force × time (Ns). Force is impulse/time (N). They're related but different quantities.
+
+## Cross-References
+
+- **[Kinematics](../physics/flashcards-kinematics):** Kinematics is fundamental
+- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
+- **[Waves](../physics/flashcards-waves):** Waves transfer energy

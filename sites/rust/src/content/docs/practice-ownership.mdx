@@ -221,3 +221,11 @@ impl<T, const N: usize> Drop for SafeArray<T, N> {
     }
 }
 ```
+
+## Common Mistakes
+
+**Cloning to avoid borrow checker issues:** .clone() copies data, which is expensive for large structures. Its a valid workaround but often indicates a design problem. Restructure code to use references or interior mutability patterns instead.
+
+**Confusing `Copy` and `Clone`:** Copy is implicit bitwise copying (stack-only types like i32, bool). Clone is explicit deep copying (can be expensive). Types that implement Copy are automatically cloned when moved. Dont assume all types can be Copy.
+
+**Ignoring lifetime annotations:** Lifetimes tell the compiler how long references are valid. When a function returns a reference, the lifetime annotation indicates which input the output is tied to. Omitting annotations when required causes compilation errors.

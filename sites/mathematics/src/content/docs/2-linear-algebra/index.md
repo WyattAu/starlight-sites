@@ -76,3 +76,9 @@ Eigenvectors corresponding to distinct eigenvalues of a symmetric (Hermitian) ma
 
 **Mistake 3: Confusing the column space with the null space**
 The column space of $A$ consists of all vectors $A\mathbf{x}$, while the null space consists of all $\mathbf{x}$ such that $A\mathbf{x} = \mathbf{0}$. These are subspaces of different spaces in general (column space in the codomain, null space in the domain). The rank-nullity theorem relates their dimensions, but they are not the same object.
+
+## Cross-References
+
+- **[Abstract Algebra](../../1-abstract-algebra/index.md):** Groups, rings, and modules.
+- **[Real Analysis](../../3-real-analysis/index.md):** Metric spaces and convergence.
+- **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Applications of linear algebra in calculus.

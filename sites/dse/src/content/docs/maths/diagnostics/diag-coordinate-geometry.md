@@ -586,3 +586,11 @@ Wait: $6\sqrt{2} = 6 \times 1.414 = 8.485 > 8 = r_1 + r_2$.
 Therefore the circles are **separate** (0 intersection points). Part (c) would have no common chord.
 The question may have an error, or the circles may need adjustment. If the problem is solvable, we
 proceed assuming the circles do intersect.
+
+
+
+## Cross-References
+
+- **[Functions](../maths/diagnostics/diag-functions):** Functions are central
+- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics are a core topic
+- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is fundamental

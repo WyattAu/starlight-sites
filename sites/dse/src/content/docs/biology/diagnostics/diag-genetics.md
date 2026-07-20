@@ -453,3 +453,11 @@ children.
 
 Note: If the question asks for the probability given that the child is a son, the answer is
 $\frac{1}{2}$. If it asks for the probability among all children, the answer is $\frac{1}{4}$.
+
+## Common Mistakes
+
+**Confusing the template strand with the coding strand in transcription:** The template strand is read 3' to 5' by RNA polymerase, producing mRNA that matches the coding strand (with U replacing T). Don't assume the mRNA is complementary to the coding strand.
+
+**Forgetting that males need only one copy of X-linked recessive alleles:** Males are hemizygous (XY), so a single recessive allele on their X chromosome will be expressed. Females need two copies (homozygous recessive) to show the condition.
+
+**Mixing up DNA helicase and DNA polymerase functions:** Helicase unwinds the double helix by breaking hydrogen bonds; polymerase synthesises the new strand by forming phosphodiester bonds. Don't swap their roles.

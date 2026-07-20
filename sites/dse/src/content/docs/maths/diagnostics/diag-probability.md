@@ -543,3 +543,11 @@ Since $P(A \cap B) = 0.24 \neq 0.30 = P(A) \times P(B)$The events are **not inde
 
 $$
 $$
+
+
+
+## Cross-References
+
+- **[Functions](../maths/diagnostics/diag-functions):** Functions are central
+- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics are a core topic
+- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is fundamental

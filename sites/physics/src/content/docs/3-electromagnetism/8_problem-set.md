@@ -527,3 +527,11 @@ Maxwell's equations are the four laws that govern all classical electromagnetic 
 - **[Electrodynamics](4_electrodynamics.md)**: The continuity equation and displacement current derivations require the time-dependent field equations from electrodynamics.
 - **[Electromagnetic Waves](5_electromagnetic-waves.md)**: Wave propagation problems in this set build directly on the wave equation derived from Maxwell's equations.
 
+## Common Mistakes
+
+**Confusing divergence and curl:** Div E = ρ/ε₀ (charges create fields); curl E = -∂B/∂t (changing B creates E). Using the wrong one gives incorrect field solutions.
+
+**Forgetting the displacement current term:** Maxwell added ε₀∂E/∂t to Ampère's law. Without it, the equation is inconsistent with charge conservation and cannot predict electromagnetic waves.
+
+**Sign errors in Faraday's law:** The minus sign in curl E = -∂B/∂t is Lenz's law — the induced EMF opposes the change in flux. Dropping the minus sign gives the wrong direction of induced current.
+

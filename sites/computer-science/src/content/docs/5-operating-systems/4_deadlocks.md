@@ -208,3 +208,17 @@ Most modern OSes (Linux, Windows) use the **ostrich algorithm**: ignore deadlock
 process Termination or reboot. Rationale: deadlocks are rare, detection is expensive, and prevention
 is Overly restrictive.
 
+## Common Mistakes
+
+**Confusing deadlock with livelock:** Deadlock is when processes wait indefinitely for each other. Livelock is when processes change state but make no progress (e.g., both backing up and retrying). They're different concurrency problems.
+
+**Assuming all four Coffman conditions must be present for deadlock:** All four must hold simultaneously. If even one is broken, deadlock cannot occur. Focus on breaking one condition.
+
+**Forgetting that deadlock prevention can reduce concurrency:** Strategies like resource ordering or requiring all resources upfront limit how processes can request resources. There's always a trade-off.
+
+## Cross-References
+
+- **[Synchronisation](./3_synchronisation.md):** Mutexes, semaphores, and condition variables.
+- **[Process Management](./2_process-management.md):** Process scheduling and lifecycle.
+- **[I/O Systems](./7_i-o-systems.md):** I/O resource allocation and deadlock.
+

@@ -208,3 +208,11 @@ Climate is the personality of a place — it determines what grows, what people 
 
 6. **Connect to other topics:** Climate change links to agriculture (shifting growing zones), water
    resources (altered precipitation), and population (climate migration and coastal vulnerability).
+
+## Common Mistakes
+
+**Confusing weather with climate:** Weather is short-term (days to weeks), climate is long-term average (30+ years). Don't describe a single cold day as evidence against climate change.
+
+**Assuming tropical cyclones form at the equator:** They need the Coriolis effect to rotate, which is zero at the equator. Most form between 5° and 20° latitude where there's sufficient Coriolis force.
+
+**Mixing up Hadley, Ferrel, and Polar cells:** Hadley cells are at the equator (0-30°), Ferrel cells at mid-latitudes (30-60°), Polar cells at high latitudes (60-90°). Each produces different wind patterns and pressure zones.

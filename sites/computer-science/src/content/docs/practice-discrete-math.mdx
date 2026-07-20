@@ -33,6 +33,14 @@ import { practiceQuestions } from '@/data/flashcards/computing/practice-discrete
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions.slice(10, 12)}  />
 
+## Common Mistakes
+
+**Confusing injective with surjective functions:** Injective (one-to-one) means each element in the codomain is mapped to by at most one element in the domain. Surjective (onto) means each element in the codomain is mapped to by at least one element. Don't mix up the two.
+
+**Forgetting that graph connectivity requires a path between ALL pairs:** A connected graph has a path between every pair of vertices. A graph with just one edge connecting two vertices is connected only if those are the only vertices.
+
+**Mixing up planar with planar-embedded:** A planar graph can be drawn without edge crossings. A planar embedding is a specific drawing without crossings. Don't assume all drawings of a planar graph are planar embeddings.
+
 ---
 
 ## Related Topics

@@ -54,3 +54,11 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"What is the output of the following code? `struct Point { var x: Int }; var a = Point(x: 1); var b = a; b.x = 2; print(a.x)`&quot; options={['1', '2', 'nil', 'Compile error']} correctAnswer={0} explanation=&quot;Structs are value types. Assigning `a` to `b` creates a copy. Modifying `b.x` does not affect `a`. This is different from classes, which share the same reference."} difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"In the statement `do { try riskyOp() } catch NetworkError.timeout { } catch { }`, what does the bare `catch` block handle?&quot; options={[ 'Only `NetworkError.timeout`', 'Only non-NetworkError errors', 'Any error not caught by previous catch blocks', 'Nothing -- it is unreachable', ]} correctAnswer={2} explanation=&quot;A bare `catch` acts as a catch-all for any error not matched by preceding specific `catch` patterns. It must be the last catch block."} difficulty="medium"  />
+
+## Common Mistakes
+
+**Confusing value types and reference types:** Swift structs and enums are value types (copied on assignment). Classes are reference types (shared reference). Modifying a copy of a struct does not affect the original. Modifying a class instance affects all references to it.
+
+**Forgetting that String is a value type:** Strings in Swift are value types. When you assign let b = a, b is a copy. Mutating a does not affect b. This is different from NSString (reference type) in Objective-C.
+
+**Overusing force unwrapping (!):** Force unwrapping crashes if the optional is nil. Use optional binding, nil coalescing, or optional chaining instead. Reserve ! for cases where you are absolutely certain the value is non-nil.

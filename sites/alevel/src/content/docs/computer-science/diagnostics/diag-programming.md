@@ -457,3 +457,19 @@ ancestors. Specifically:
 
 Time complexity: $O(n)$ -- each node is visited exactly once. Space complexity: $O(h)$ where $h$ is
 the tree height (recursion stack depth).
+
+## Common Mistakes
+
+**Confusing syntax errors with logic errors:** A syntax error prevents the program from compiling or running (e.g., missing parenthesis, wrong indentation). A logic error produces incorrect output but the program runs without crashing (e.g., using $>$ instead of $\geq$ in a boundary check). Logic errors are harder to find because no error message is produced.
+
+**Forgetting to close files or database connections:** Failing to close resources leads to memory leaks and file locking issues. In Python, use `with open(...) as f:` to automatically close files. In database programming, always close cursors and connections, or use context managers.
+
+**Confusing = (assignment) with == (comparison):** In most languages, `=` assigns a value while `==` tests for equality. Writing `if (x = 5)` instead of `if (x == 5)` is a common bug that may not produce a syntax error in some languages but will assign rather than compare.
+
+
+
+## Cross-References
+
+- **[Number Systems](../computer-science/fundamentals/01-number-systems):** Binary and hexadecimal are essential for computing
+- **[Boolean Algebra](../computer-science/fundamentals/03-boolean-algebra):** Logic gates implement Boolean operations
+- **[Graph Algorithms](../computer-science/algorithms/03-graph-algorithms):** Algorithm design is central to computer science

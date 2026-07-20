@@ -186,3 +186,11 @@ Transitions for clock recovery, preventing long runs of identical bits.
 
 
 </aside>
+
+## Common Mistakes
+
+**Confusing bandwidth with bit rate:** Bandwidth is the range of frequencies a channel can carry. Bit rate is the number of bits transmitted per second. They're related but different concepts.
+
+**Forgetting that noise limits channel capacity:** Shannon's theorem shows that even with perfect encoding, noise limits the maximum reliable bit rate. Don't assume infinite capacity is possible.
+
+**Mixing up guided with unguided media:** Guided media use physical cables (twisted pair, fibre). Unguided media use wireless (radio, microwave). Don't confuse the two categories.

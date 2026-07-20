@@ -434,3 +434,11 @@ $$n(n-1) \cdot 2^{n-2} = \sum_{r=0}^{n} r(r-1)\binom{n}{r}$$
 
 **Verification for $n = 4$:** LHS $= 4 \cdot 3 \cdot 4 = 48$. RHS
 $= 0 + 0 + 2 \cdot 6 + 6 \cdot 4 + 12 \cdot 1 = 12 + 24 + 12 = 48$. Confirmed.
+
+## Common Mistakes
+
+**Using the positive integer binomial formula for negative or fractional powers:** The formula $\binom{n}{r} = \frac{n!}{r!(n-r)!}$ only works for positive integers $n$. For negative or fractional $n$, use $\binom{n}{r} = \frac{n(n-1)\cdots(n-r+1)}{r!}$. Students often try to compute factorials of negative numbers, which is undefined.
+
+**Forgetting the range of validity for binomial expansions:** Expansions of $(1+x)^n$ converge only when $|x| < 1$ (for non-positive integer $n$). Substituting a value outside this range gives a divergent series. Always state the range and check whether the value you substitute lies within it.
+
+**Confusing the general term formula:** The general term in the expansion of $(a+b)^n$ is $\binom{n}{r}a^{n-r}b^r$, not $\binom{n}{r}a^rb^{n-r}$. The powers go in the order $a^{n-r}b^r$. Getting this backwards gives the wrong coefficient for each term.

@@ -66,3 +66,9 @@ Each section includes:
 3. **Draw diagrams**: Visualise coordinate systems and phase space
 4. **Learn symmetries**: Understand Noether's theorem and conservation laws
 5. **Connect to advanced physics**: Relate classical mechanics to quantum mechanics and field theory
+
+## Cross-References
+
+- **[Thermal Physics](../../2-thermal-physics/index.md):** Statistical mechanics and thermodynamics.
+- **[Electromagnetism](../../3-electromagnetism/index.md):** Electromagnetic forces and fields.
+- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Classical limit of quantum theory.

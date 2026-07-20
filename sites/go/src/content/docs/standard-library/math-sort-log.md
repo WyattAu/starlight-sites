@@ -389,6 +389,14 @@ log.Printf("user %s logged in from %s", username, ip)
 slog.Info("user logged in", "username", username, "ip", ip)
 ```
 
+## Intuition
+
+**The standard library provides the basics you need, nothing more:** The `math` package gives you constants (π, e) and functions (sqrt, pow, sin) without pulling in external dependencies. The `sort` package provides efficient sorting primitives. The `log/slog` package gives you structured logging that machines can parse. Together, they cover the fundamentals that every Go program might need.
+
+**Why it matters:** Using the standard library means no external dependencies, no version conflicts, and guaranteed compatibility. These packages are battle-tested and optimized — you don't need a third-party library for basic math, sorting, or logging.
+
+**The key insight:** `sort.Slice` is the easiest way to sort — you just provide a `less` function. For custom types, implement `sort.Interface` (Len, Less, Swap) for more control.
+
 ## Common Pitfalls
 
 1. **Floating-point precision.** `math.Pow(10, 308)` overflows. `math/big.Float` handles numbers

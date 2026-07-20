@@ -374,6 +374,14 @@ Use nested-loop index joins to find matching enrolments and students, avoiding f
 
 SQL is the language of asking questions of data. A SELECT statement is a question: "Give me all employees in the sales department who earned more than $50,000 last year." JOINs are the way you combine information from multiple tables, like cross-referencing a phone book with an address book. The ORDER BY clause sorts your results, GROUP BY organizes them into categories, and HAVING filters those categories, the way a librarian might sort books by genre, count how many are in each genre, and then show you only genres with more than 100 books.
 
+## Common Mistakes
+
+**Confusing WHERE with HAVING:** WHERE filters rows before grouping. HAVING filters groups after GROUP BY. Don't use HAVING for row-level conditions.
+
+**Forgetting that SQL is case-insensitive for keywords but case-sensitive for string values:** SELECT and select are the same. But 'John' and 'john' are different string values. Don't assume case doesn't matter.
+
+**Mixing up INNER JOIN with OUTER JOIN:** INNER JOIN returns only matching rows. LEFT/RIGHT/FULL OUTER JOIN returns all rows from one or both tables, with NULLs where there's no match. Don't confuse the join types.
+
 ## Cross-References
 
 - [Relational Model](./2_relational-model) -- SQL operates on the relational model, with tables corresponding to relations and rows to tuples.

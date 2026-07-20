@@ -201,6 +201,14 @@ Without knowing the identity of the substances, the general explanation is that 
 (either hydrogen bonding, stronger dipole-dipole interactions, or significantly stronger London
 forces due to larger molecular size) requiring more energy to overcome.
 
+## Common Mistakes
+
+**Forgetting to count lone pairs when predicting molecular shape with VSEPR:** VSEPR requires counting ALL electron domains (bonding pairs + lone pairs) around the central atom. ClF₃ has 5 domains (3 bonding + 2 lone pairs), not 3, giving T-shaped not trigonal planar.
+
+**Assuming symmetric molecules with polar bonds are always non-polar:** CF₄ is non-polar because the four C-F dipoles cancel symmetrically, but CH₂F₂ is polar because the C-F and C-H dipoles don't cancel. Check the geometry, not just bond polarity.
+
+**Confusing hydrogen bonding requirements with general polarity:** Hydrogen bonding only occurs when H is bonded directly to F, O, or N. HCl has polar bonds but cannot form hydrogen bonds because Cl is not electronegative enough and too large.
+
 ---
 
 ## Integration Test 2: VSEPR + Polarity + IMF
@@ -308,3 +316,11 @@ together and experience strong **inter-electronic repulsion**. In $Cl_{2}$The ch
 larger, so the bonding electrons are further apart and the repulsion is weaker. The small size of
 fluorine also means the lone pairs on each $F$ atom are close to the bonding region, creating
 additional **lone pair-bond pair repulsion** that weakens the $F-F$ bond.
+
+
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is foundational
+- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium connects topics
+- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is a major area

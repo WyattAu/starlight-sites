@@ -87,3 +87,17 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is the output of `print(list(map(lambda x, y: x + y, [1,2,3], [4,5,6])))`?&quot; options={['[5, 7, 9]', '[1, 2, 3, 4, 5, 6]', '[4, 8, 12]', 'TypeError: map() takes exactly one argument']} correctAnswer={0} explanation=&quot;map with two iterables passes corresponding elements as positional arguments to the lambda. It adds element-wise: 1+4=5, 2+5=7, 3+6=9."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"What does `*` unpacking do in `[1, *[2,3], 4]`?&quot; options={['Produces [1, 2, 3, 4]', 'Produces [1, [2, 3], 4]', 'Raises TypeError', 'Produces [1, 2, 3, 4] with a nested list']} correctAnswer={0} explanation=&quot;The * operator unpacks an iterable into individual elements in the enclosing list. [2,3] is unpacked to 2,3, so the result is [1, 2, 3, 4]." } difficulty="easy"  />
+
+## Cross-References
+
+- **[Python Flashcards](../flashcards-python-basics.mdx):** Interactive flashcards covering core Python concepts.
+- **[Python Practice](../practice-python-basics.mdx):** Foundational Python practice problems.
+- **[Packaging and Distribution](../07-best-practices/04-packaging-distribution.md):** Package management and distribution best practices.
+
+## Common Mistakes
+
+**Using mutable default arguments:** `def f(a, b=[]):` shares the same list across all calls. Use `b=None` and `b = b or []` inside the function to create a fresh list each time.
+
+**Confusing `is` with `==`:** `is` checks identity (same object in memory); `==` checks equality. Using `is` for value comparison fails for integers outside the cached range and for strings.
+
+**Forgetting that generators are exhausted:** A generator can only be iterated once. Iterating it a second time yields nothing. Convert to a list with `list(gen)` if you need multiple passes.

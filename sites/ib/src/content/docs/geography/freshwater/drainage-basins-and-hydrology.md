@@ -268,3 +268,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+
+
+## Cross-References
+
+- **[Climate Change](../geography/climate-change):** Climate affects water systems
+- **[Population](../geography/population-distribution):** Water affects population distribution
+- **[Economic Development](../geography/economic-development):** Water is essential for development

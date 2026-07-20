@@ -214,3 +214,17 @@ Population is the heartbeat of a society — it tells you how young or old a pla
 6. **Link to other topics:** Connect ageing to urban planning (accessibility, elderly care
    facilities), economic development (labour shortage, productivity), and resources (healthcare
    demand).
+
+## Common Mistakes
+
+**Confusing birth rate with fertility rate:** Birth rate is per 1,000 population per year. Total fertility rate is the average number of children per woman. They measure different things and shouldn't be used interchangeably.
+
+**Assuming all countries follow the DTM in order:** Some countries skip stages or experience unique patterns. Hong Kong went directly from high growth to very low fertility without the typical Stage 4 stability period.
+
+**Mixing up dependency ratio with old-age dependency ratio:** The general dependency ratio includes children (0-14) AND elderly (65+). The old-age dependency ratio only counts elderly. Make sure you're using the right one.
+
+## Cross-References
+
+- **[Population](../geography/population):** Population studies are central
+- **[Urbanization](../geography/urbanization):** Urbanisation is a key topic
+- **[Climate](../geography/diagnostics/diag-climate):** Climate affects geography

@@ -68,3 +68,17 @@ review the explanation.
 ### React Integration
 
 <PracticeProblem client:only="solid-js" question={`How should you type a component that accepts an \`onClick\` handler for a button in React with TypeScript?`} options={[ 'Use `React.MouseEvent<HTMLButtonElement>` as the event type in the handler prop', 'Use `React.UIEvent` as the event type', 'Use `Event` from the DOM API directly', 'Type the handler as `() => void` without an event parameter', ]} correctAnswer={0} explanation="React event types are parameterized by the HTML element they target. `React.MouseEvent<HTMLButtonElement>` gives you type-safe access to button-specific properties like `button` (which mouse button) and correct `currentTarget` typing. Using the generic DOM `Event` loses React-specific typing, and `React.UIEvent` is a broader type that misses mouse-specific details. Always match the event type to the specific element and interaction." difficulty="medium"  />
+
+## Cross-References
+
+- **[TypeScript Flashcards](../flashcards-typescript-basics.mdx):** Interactive flashcards covering core TypeScript concepts.
+- **[Java Generics](../../java/11-generics-reflection/01-generics.md):** Generic type system concepts shared across languages.
+- **[Kotlin Types](../../kotlin/basics/types-and-variables.md):** Type system fundamentals compared across languages.
+
+## Common Mistakes
+
+**Using `any` instead of `unknown` for dynamic data:** Using `any` disables type checking entirely, letting runtime errors slip through. Use `unknown` and narrow with type guards to maintain type safety.
+
+**Ignoring exhaustiveness checking in discriminated unions:** Omitting a `never` default case in switch statements means new union members won't trigger compile errors. Always add a `never` assertion to catch missing cases.
+
+**Forgetting that `Readonly` is shallow:** `Readonly<T>` only makes top-level properties readonly. Nested objects remain mutable. Use `ReadonlyDeep` from `type-fest` for deep immutability.

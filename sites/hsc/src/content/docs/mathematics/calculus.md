@@ -301,6 +301,14 @@ $$V = \pi \left[\frac{x^5}{5}\right]_0^1 = \pi \left(\frac{1}{5} - 0\right) = \f
 - [Waves](../physics/waves) -- Wave equations involve trigonometric differentiation and integration used throughout this topic.
 - [Organic](../chemistry/organic) -- Reaction rate equations in organic chemistry use exponential and logarithmic functions from calculus.
 
+## Intuition
+
+**Calculus is about change and accumulation:** Differentiation measures how fast something changes (slope of a curve), while integration measures how much accumulates (area under a curve). These are inverse operations — the Fundamental Theorem of Calculus connects them, just as addition and subtraction are inverses.
+
+**Why it matters:** Calculus is the language of change — it describes how planets orbit, how populations grow, how heat flows, and how objects move. Every branch of science and engineering uses calculus to model dynamic systems.
+
+**The key insight:** The derivative tells you the rate of change at an instant, while the integral tells you the total change over an interval — they're two perspectives on the same relationship.
+
 ## Common Mistakes
 
 **Forgetting the constant of integration for indefinite integrals.** Every indefinite integral must include "+ C" because the derivative of a constant is zero. Students often omit the constant, losing the family of antiderivatives. This is automatically handled in definite integrals via the Fundamental Theorem, but is essential for indefinite integrals.

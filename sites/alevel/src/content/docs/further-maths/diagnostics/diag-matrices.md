@@ -194,3 +194,19 @@ grow exponentially, with $x \approx 2e^{3t}$ and $y \approx 2e^{3t}$. The soluti
 from the origin -- the origin is an **unstable node**. The ratio $x/y \to 1$ as
 $t \to \infty$Meaning the trajectory approaches the direction of the eigenvector
 $\begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
+
+## Common Mistakes
+
+**Multiplying matrices in the wrong order:** For a system $A\mathbf{x} = \mathbf{b}$, the solution is $\mathbf{x} = A^{-1}\mathbf{b}$, not $\mathbf{b}A^{-1}$. Matrix multiplication is not commutative. Always multiply the inverse on the left: $A^{-1}$ times $\mathbf{b}$, not $\mathbf{b}$ times $A^{-1}$.
+
+**Confusing eigenvalues with eigenvectors:** An eigenvalue $\lambda$ is a scalar satisfying $\det(A - \lambda I) = 0$. An eigenvector $\mathbf{v}$ satisfies $A\mathbf{v} = \lambda\mathbf{v}$. Students often compute the characteristic equation correctly but then substitute the eigenvalue back into $A - \lambda I$ instead of solving $(A - \lambda I)\mathbf{v} = \mathbf{0}$ for the eigenvector.
+
+**Forgetting to normalise or verify eigenvectors:** After finding an eigenvector, always verify by computing $A\mathbf{v}$ and checking it equals $\lambda\mathbf{v}$. A common error is a sign mistake in the eigenvector components that goes undetected. Also, any scalar multiple of an eigenvector is still an eigenvector — you can scale to simplify.
+
+
+
+## Cross-References
+
+- **[Matrices](../further-maths/pure-mathematics/matrices):** Matrix algebra is core to further maths
+- **[Further Calculus](../further-maths/pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
+- **[Pure Mathematics](../further-maths/further-maths):** Further maths extends A-level mathematics

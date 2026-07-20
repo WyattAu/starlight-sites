@@ -61,3 +61,11 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"When a gas is heated at constant volume, its pressure:"} options={'Increases proportionally to absolute temperature', 'Decreases', 'Stays the same', 'Doubles'} correctAnswer={0} explanation="By Gay-Lussac's law: $\\dfrac{P}{T} = \\text{constant}$ at constant volume. As temperature increases, pressure increases proportionally." difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"Which process involves zero work done on the gas?"} options={'Isochoric (constant volume)', 'Isobaric (constant pressure)', 'Isothermal (constant temperature)', 'Adiabatic'} correctAnswer={0} explanation="Work done by a gas is $W = P\\Delta V$. At constant volume, $\\Delta V = 0$, so $W = 0$." difficulty="easy"  />
+
+## Common Mistakes
+
+**Confusing centripetal and centrifugal forces:** Centripetal force is real and directed toward the center of circular motion. Centrifugal force is a fictitious force perceived in a rotating reference frame. In inertial frames, only centripetal force exists.
+
+**Using the wrong value for g in energy calculations:** Gravitational potential energy $mgh$ assumes constant $g$ near Earths surface. For satellite orbits or large height changes, use $U = -GMm/r$. Using $mgh$ for orbital mechanics gives wrong answers.
+
+**Confusing current and voltage in circuit analysis:** Current is the flow rate of charge (amperes). Voltage is the energy per unit charge (volts). In series circuits, current is the same; voltage divides. In parallel circuits, voltage is the same; current divides.

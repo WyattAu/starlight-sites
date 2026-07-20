@@ -175,3 +175,11 @@ This excerpt integrates close reading (language analysis), context (narrative th
 - **AO3 (20%)**: Integrate historical, social, and biographical context where relevant.
 - **AO4 (20%)**: Develop a genuine comparative argument that goes beyond thematic list-making.
 - **AO5 (20%)**: Engage critically with at least one secondary source per text, demonstrating awareness of different interpretations.
+
+## Common Mistakes
+
+**Producing a descriptive comparison instead of a sustained argument:** Listing what each text does separately ("Text A does X, Text B does Y") is not a comparative essay. You need a thesis that runs through the entire essay, using both texts as evidence for a single argument. Every paragraph should advance that argument.
+
+**Treating secondary criticism as decoration rather than engagement:** Dropping in a critic's name without engaging with their argument does not demonstrate critical awareness. You must explain what the critic argues, evaluate their interpretation, and use it to develop your own reading. Disagreement with a critic is just as valid as agreement.
+
+**Neglecting structure at the essay level:** A coursework essay needs an argumentative structure, not just a sequence of paragraph topics. Each section should build on the previous one, and the conclusion should synthesise rather than merely summarise. Plan the essay as an argument, not a list.

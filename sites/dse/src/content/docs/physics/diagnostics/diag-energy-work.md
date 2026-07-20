@@ -306,3 +306,17 @@ $$
 
 $$
 positive normal force from the track.
+
+## Common Mistakes
+
+**Confusing work done with energy transferred:** Work done is energy transferred by a force. They're equal but don't use "work done" when you mean "energy stored" or "energy dissipated."
+
+**Forgetting that kinetic energy depends on speed squared:** Doubling speed quadruples KE. This is why high-speed collisions are so much more destructive than low-speed ones.
+
+**Mixing up conservative and non-conservative forces:** Gravity is conservative (work depends only on height change). Friction is non-conservative (work depends on path). Only conservative forces allow energy conservation equations.
+
+## Cross-References
+
+- **[Mechanics](../physics/diagnostics/diag-mechanics):** Mechanics covers forces and motion
+- **[Waves](../physics/diagnostics/diag-waves-sound):** Waves transfer energy
+- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Electricity covers circuits

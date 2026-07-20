@@ -287,3 +287,17 @@ $n = 3$ shell of a $2+$ ion where the remaining electron already experiences a v
 nuclear charge (10 core electrons shielding 14 protons). P's 1st IE is from a neutral atom with only
 10 protons shielded by 10 core electrons. The difference is approximately 15,000 kJ/mol -- nowhere
 near "approximately the same."
+
+## Common Mistakes
+
+**Assuming electrons are removed from 3d before 4s when forming transition metal ions:** When ionising transition metals, electrons are removed from the 4s orbital first (higher energy once the atom is ionised), then from 3d. Don't apply the filling order to ionisation.
+
+**Confusing successive ionisation energy jumps with group number:** A large jump between the 3rd and 4th IE indicates 3 valence electrons (Group 3, e.g. Al). Count how many relatively low IEs there are before the big jump.
+
+**Forgetting that half-filled and fully filled d-subshells have extra stability:** This is why chromium is [Ar]3d⁵4s¹ (not 3d⁴4s²) and copper is [Ar]3d¹⁰4s¹ (not 3d⁹4s²).
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is foundational
+- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium connects topics
+- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is a major area

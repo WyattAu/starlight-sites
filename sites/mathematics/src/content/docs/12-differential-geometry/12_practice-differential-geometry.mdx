@@ -44,4 +44,12 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={"Which of the following is NOT a symmetry of the Riemann curvature tensor $R_{ijkl}$?&quot; options={[ '$R_{ijkl} = R_{ikjl}$', '$R_{ijkl} = -R_{jikl}$', '$R_{ijkl} = -R_{ijlk}$', '$R_{ijkl} = R_{klij}$', ]} correctAnswer={0} explanation=&quot;The Riemann tensor satisfies: (1) $R_{ijkl} = -R_{jikl}$ (anti-symmetry in first pair), (2) $R_{ijkl} = -R_{ijlk}$ (anti-symmetry in second pair), (3) $R_{ijkl} = R_{klij}$ (pair interchange), and (4) the first Bianchi identity. It does NOT satisfy $R_{ijkl} = R_{ikjl}$ in general (swapping the second and third indices is not a symmetry)."} difficulty="hard"  />
 
+## Common Mistakes
+
+**Confusing the tangent bundle with the cotangent bundle:** The tangent bundle $TM$ consists of tangent vectors (velocity vectors), while the cotangent bundle $T^*M$ consists of covectors (1-forms, linear functionals on tangent spaces). Both have dimension $2n$, but they are different manifolds. The differential $df$ lives in $T^*M$, not $TM$.
+
+**Assuming a closed form is exact without checking topology:** By Poincaré's lemma, every closed form is exact on contractible (simply connected) domains. But on spaces with nontrivial topology (like $S^1$ or $T^2$), closed forms need not be exact. The form $d\theta$ on $S^1 \setminus \{0\}$ is closed ($d(d\theta) = 0$) but not exact — its integral around $S^1$ is $2\pi \neq 0$.
+
+**Misidentifying symmetries of the Riemann curvature tensor:** The Riemann tensor $R_{ijkl}$ satisfies $R_{ijkl} = -R_{jikl}$, $R_{ijkl} = -R_{ijlk}$, and $R_{ijkl} = R_{klij}$, but it does NOT satisfy $R_{ijkl} = R_{ikjl}$. Swapping the second and third indices (interior swap) is not a symmetry. Misidentifying symmetries leads to incorrect simplifications in curvature computations.
+
 <PracticeProblem client:only="solid-js" question={"By the Gauss-Bonnet theorem, what is the total Gaussian curvature $\\int_M K\\, dA$ of a torus $T^2$?&quot; options={['$4\\pi$', '$0$', '$-4\\pi$', '$2\\pi$']} correctAnswer={0} explanation=&quot;The Gauss-Bonnet theorem states $\int_M K\, dA = 2\pi \chi(M)$. The torus has Euler characteristic $\chi(T^2) = 0$ (genus 1: $\chi = 2 - 2g = 0$). Therefore the total Gaussian curvature is $2\pi \cdot 0 = 0$. A flat torus (the quotient of $\mathbb{R}^2$ by a lattice) has $K = 0$ everywhere, consistent with this result."} difficulty="hard"  />

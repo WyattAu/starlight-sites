@@ -401,3 +401,11 @@ community pride.
 > **Sources**: AQA Geography (7037) specification; Massey, _Space, Place and Gender_ (1994); Tuan,
 > _Topophilia_ (1974); Detroit Future City framework; Barcelona City Council data; ONS and US Census
 > Bureau data.
+
+
+
+## Cross-References
+
+- **[Physical Geography](../geography/flashcards-physical-geography):** Physical geography studies natural Earth processes
+- **[Human Geography](../geography/flashcards-human-geography):** Human geography studies people-environment interactions
+- **[Fieldwork](../geography/3-fieldwork/1_fieldwork-methodology):** Fieldwork methods apply to geographic study

@@ -457,3 +457,11 @@ the project generates HK$1.72 of benefits for every HK$1 of cost. The government
    by the government (e.g., public healthcare, public education) are actually private goods (rival
    and excludable) that are publicly provided for equity reasons. They are not public goods in the
    economic sense.
+
+
+
+## Cross-References
+
+- **[Market Failure](../economics/diagnostics/diag-market-failure):** Market failure analysis is key
+- **[Fiscal Policy](../economics/diagnostics/diag-fiscal-monetary-policy):** Policy addresses economic issues
+- **[Macroeconomics](../economics/flashcards-macroeconomics):** Macroeconomics covers indicators

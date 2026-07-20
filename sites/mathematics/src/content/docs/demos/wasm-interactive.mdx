@@ -34,3 +34,11 @@ Each widget is compiled from Rust to WebAssembly using `wasm-pack`. The Rust cod
 - **[Fourier Analysis](/docs/university/mathematics/real-analysis)**: Fourier series decomposition is a central topic in real analysis, connecting periodic functions to infinite sums of sines and cosines.
 - **[Linear Algebra](/docs/university/mathematics/linear-algebra)**: The sine and square wave visualisations illustrate orthogonal function bases, a key concept in linear algebra.
 - **[Complex Analysis](/docs/university/mathematics/complex-analysis)**: Complex exponentials provide an alternative formulation of Fourier series via Euler's formula.
+
+## Common Mistakes
+
+**Assuming WASM runs natively in the browser without compilation:** WebAssembly is not a source format — it must be compiled from Rust (or another language) via `wasm-pack` or `wasm-bindgen`. Writing Rust code alone does not produce a runnable WASM module; you need the full toolchain to generate the `.wasm` binary and JavaScript glue code.
+
+**Confusing canvas rendering with DOM manipulation:** WASM widgets render to an HTML `<canvas>` element, not the DOM. You cannot inspect individual drawn elements with CSS or JavaScript selectors. If you need interactive DOM elements, use Astro components instead of canvas-based WASM widgets.
+
+**Forgetting that WASM runs in a sandboxed environment:** WASM modules cannot access the file system, network, or browser APIs directly. All I/O must go through JavaScript imports defined in the `bindgen` configuration. Trying to use `std::fs` or `reqwest` directly will fail at runtime.

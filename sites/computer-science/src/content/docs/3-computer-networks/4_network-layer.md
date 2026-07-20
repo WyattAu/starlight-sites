@@ -362,3 +362,17 @@ single host route. The Formula $2^n - 2$ usable hosts applies only for prefixes 
 
 
 </aside>
+
+## Common Mistakes
+
+**Confusing IP addresses with MAC addresses:** IP addresses are logical (network layer). MAC addresses are physical (data link layer). Don't use them interchangeably.
+
+**Forgetting that NAT conserves addresses but breaks end-to-end connectivity:** NAT allows many private addresses to share one public address. But it complicates peer-to-peer connections.
+
+**Mixing up routing with forwarding:** Routing determines the path packets take. Forwarding is the actual movement of packets from input to output port. They're different functions.
+
+## Cross-References
+
+- **[Data Link Layer](./3_data-link-layer.md):** MAC addressing and Ethernet protocols.
+- **[Transport Layer](./5_transport-layer.md):** TCP and UDP protocols.
+- **[Network Security](./7_network-security.md):** IPsec and network security protocols.

@@ -10,3 +10,11 @@ hero:
       icon: right-arrow
       variant: primary
 ---
+
+## Common Mistakes
+
+**Confusing training accuracy with generalisation:** A model can memorise training data (overfitting) while failing on new data. Always evaluate on a held-out test set. Training accuracy alone is misleading.
+
+**Ignoring data preprocessing:** Raw data often contains missing values, outliers, and different scales. Feeding unscaled features into gradient-based optimisers causes slow convergence or divergence. Always normalise/standardise features before training.
+
+**Assuming more data always helps:** More data helps only if the data is representative and relevant. Adding noisy or biased data can hurt performance. Data quality matters more than quantity.

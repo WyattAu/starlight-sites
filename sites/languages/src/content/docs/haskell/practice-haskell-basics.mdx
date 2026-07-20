@@ -61,3 +61,11 @@ review the explanation.
 ### Lazy Evaluation
 
 <PracticeProblem client:only="solid-js" question={"Why can you write `take 5 [1..]` in Haskell without it looping forever?&quot; options={[ 'Lazy evaluation only computes elements as needed', 'The list [1..] is finite', 'take forces the entire list then truncates', 'Haskell uses strict evaluation for ranges', ]} correctAnswer={0} explanation=&quot;Laziness (call-by-need) means [1..] produces an infinite list but elements are only computed when demanded. take 5 demands only the first 5 elements, so the rest of the infinite list is never computed. This is a core advantage of lazy evaluation."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Confusing `=` with `==`:** `=` is binding/definition; `==` is equality comparison from the `Eq` type class. Using `=` in a guard or condition causes a parse error.
+
+**Assuming `++` works on non-list types:** `++` only concatenates lists. For other types like `Seq` or `Vector`, use their specific append functions. Type errors from using `++` on non-lists are common for beginners.
+
+**Forgetting that Haskell is lazy by default:** Evaluating `take 5 [1..1000000]` doesn't create a million-element list. But forcing strict evaluation with `seq` or `foldl'` can prevent space leaks. Understanding when laziness helps vs hurts is essential.

@@ -688,3 +688,11 @@ correlation.
 This demonstrates that **statistical significance depends on both the strength of the effect
 (correlation) and the sample size**. A large sample can detect even a weak but real correlation,
 while a small sample may fail to detect even a strong correlation.
+
+
+
+## Cross-References
+
+- **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Pure maths covers algebra, calculus, and functions
+- **[Mechanics](../maths/practice-mechanics):** Mechanics applies maths to physical problems
+- **[Statistics](../maths/statistics/statistics):** Statistics develops data analysis methods

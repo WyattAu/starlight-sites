@@ -52,3 +52,11 @@ Poynting vector, reflection and refraction).
 <PracticeProblem client:only="solid-js" question={"A light beam travels from air (n = 1.0) into glass (n = 1.5) at an angle of incidence of 30 degrees. What is the angle of refraction inside the glass?&quot; options={['19.5 degrees', '45.0 degrees', '20.0 degrees', '30.0 degrees']} correctAnswer={0} explanation=&quot;By Snell\'s law: n_1*sin(theta_1) = n_2*sin(theta_2). sin(theta_2) = (n_1/n_2)*sin(theta_1) = (1.0/1.5)*sin(30 degrees) = (2/3)*0.500 = 0.333. theta_2 = arcsin(0.333) = 19.47 degrees, rounding to 19.5 degrees. Light bends toward the normal when entering a denser medium."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"A linearly polarized EM wave (E_0 = 60 V/m) passes through three successive polarizers. The transmission axes are at 0 degrees, 30 degrees, and 60 degrees relative to the initial polarization. What is the intensity after the third polarizer?&quot; options={['2.69 W/m^2', '4.78 W/m^2', '1.19 W/m^2', '0.30 W/m^2']} correctAnswer={0} explanation=&quot;Apply Malus\'s law at each polarizer. Initial intensity: I_0 = E_0^2/(2*mu_0*c) = 3600/(2*4pi*10^-7*3*10^8) = 4.775 W/m^2. After polarizer 1 (0 degrees): I_1 = I_0*cos^2(0) = I_0. After polarizer 2 (30 degrees from I_1 polarization): I_2 = I_0*cos^2(30) = I_0*3/4. After polarizer 3 (30 degrees from I_2 polarization): I_3 = I_0*(3/4)*cos^2(30) = I_0*9/16 = 4.775*0.5625 = 2.686 W/m^2 = 2.69 W/m^2."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Using cos(θ) instead of cos²(θ) in Malus's law:** Transmitted intensity goes as cos²(θ), not cos(θ). Forgetting the square gives intensity values that are too high.
+
+**Confusing inductive and capacitive reactance signs:** X_L = ωL is positive; X_C = 1/(ωC) is negative in impedance. Adding them with the wrong sign gives incorrect resonance conditions.
+
+**Forgetting that light bends toward the normal when entering a denser medium:** Snell's law gives n₁sin(θ₁) = n₂sin(θ₂). When n₂ > n₁, θ₂ < θ₁ — the refracted ray bends toward the normal, not away from it.

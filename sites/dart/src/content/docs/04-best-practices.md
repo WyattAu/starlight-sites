@@ -117,6 +117,14 @@ categories:
 - ndk version mismatch
 - Set `ndkVersion` in build.gradle.kts to the specific ndk version installed
 
+## Intuition
+
+**Best practices are shortcuts to correctness:** Instead of learning every pitfall the hard way, you follow patterns that experienced developers have discovered. Null safety prevents entire categories of bugs. Using `const` widgets prevents unnecessary rebuilds. Catching specific exceptions prevents swallowing errors silently.
+
+**Why it matters:** Following best practices means fewer bugs, better performance, and more maintainable code. These patterns aren't arbitrary — they're solutions to real problems that have plagued developers for years.
+
+**The key insight:** The most important best practice is using null safety and avoiding `dynamic` — these two choices prevent the majority of runtime errors in Dart and Flutter applications.
+
 ## Common Pitfalls
 
 1. Neglecting to normalise database designs, leading to data redundancy and update anomalies.

@@ -455,3 +455,19 @@ exit (e.g., planes can be redeployed to other routes). (2) Free entry and exit -
 Information symmetry -- the entrant knows the incumbent's costs and demand. In practice, airline
 routes are NOT perfectly contestable because airport slots are scarce (sunk entry cost) and loyalty
 programmes create switching costs.
+
+## Common Mistakes
+
+**Confusing normal profit with economic profit:** Normal profit is the minimum return needed to keep a firm in the market (it is a cost of production, included in ATC). Economic profit is revenue minus all costs including normal profit. When economic profit is zero, the firm is earning normal profit and has no incentive to enter or exit.
+
+**Mixing up the shutdown condition with the break-even condition:** A firm shuts down in the short run if $P < AVC$ (it cannot even cover its variable costs). It exits in the long run if $P < ATC$ (it cannot cover all costs). Students often say a firm shuts down when $P < ATC$, but that is the exit condition, not the shutdown condition.
+
+**Assuming monopolies always earn supernormal profits:** A monopoly earns supernormal profit only if $P > ATC$ at the profit-maximising output. If demand is low or costs are high, a monopoly can make a loss. The key difference from perfect competition is that barriers to entry prevent new firms from entering and eroding any profits that do exist.
+
+
+
+## Cross-References
+
+- **[Demand and Supply](../economics/diagnostics/diag-demand-supply):** Firm behaviour is influenced by demand
+- **[Market Failure](../economics/diagnostics/diag-market-failure):** Market structures affect efficiency
+- **[Macroeconomic Policy](../economics/diagnostics/diag-macroeconomic-policy):** Firms operate within macroeconomic conditions

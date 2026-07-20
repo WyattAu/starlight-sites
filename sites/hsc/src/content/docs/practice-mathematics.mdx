@@ -59,3 +59,11 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"A set of data has mean 50 and standard deviation 5. The z-score for a value of 60 is:"} options={'$2$', '$-2$', '$10$', '$0.5$'} correctAnswer={0} explanation="$z = \\dfrac{x - \\mu}{\\sigma} = \\dfrac{60 - 50}{5} = \\dfrac{10}{5} = 2$." difficulty="easy"  />
 
 <PracticeProblem client:only="solid-js" question={"In a normal distribution, approximately what percentage of data falls within one standard deviation of the mean?"} options={'$68\\%$', '$95\\%$', '$99.7\\%$', '$50\\%$'} correctAnswer={0} explanation="By the empirical rule (68-95-99.7 rule), approximately $68\\%$ of data in a normal distribution falls within one standard deviation of the mean." difficulty="easy"  />
+
+## Common Mistakes
+
+**Confusing probability with odds:** Probability = favorable/total outcomes. Odds = favorable/unfavorable outcomes. Converting between them: P(A) = odds/(1+odds). Using the wrong formula gives incorrect probability values.
+
+**Forgetting boundary conditions in differential equations:** When solving $y'' + y = 0$ with $y(0) = 1, y'(0) = 0$, you must apply both conditions to find the specific solution. Using only one condition leaves an arbitrary constant, giving the general solution instead.
+
+**Misidentifying conic sections from equations:** $x^2 + y^2 = r^2$ is a circle. $x^2/a^2 + y^2/b^2 = 1$ is an ellipse. $x^2/a^2 - y^2/b^2 = 1$ is a hyperbola. The sign between the squared terms determines the conic type.

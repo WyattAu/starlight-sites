@@ -187,3 +187,17 @@ two linearly independent eigenvectors, meaning $P$ is invertible.
 However, the student should verify that $P$ is indeed invertible (i.e., $\det P \neq 0$) before
 using this method. If the eigenvectors were accidentally computed incorrectly (e.g., picking a
 dependent pair), $P^{-1}$ would not exist.
+
+## Common Mistakes
+
+**Assuming matrix multiplication is commutative:** AB ≠ BA in general. Order matters in matrix multiplication. Don't assume you can swap the order of matrices.
+
+**Confusing determinant with trace:** Determinant is the product of eigenvalues (or ad-bc for 2×2). Trace is the sum of eigenvalues (or a+d for 2×2). They measure different things.
+
+**Forgetting that not all matrices are diagonalisable:** A matrix is diagonalisable only if it has enough linearly independent eigenvectors. Repeated eigenvalues don't guarantee diagonalisability.
+
+## Cross-References
+
+- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Algebra is foundational
+- **[Functions](../maths/2-functions/functions):** Functions are central
+- **[Calculus](../maths/5-calculus/calculus):** Calculus is a major topic

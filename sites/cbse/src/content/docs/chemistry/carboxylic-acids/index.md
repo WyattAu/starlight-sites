@@ -87,6 +87,14 @@ Carboxylic acids are found in vinegar (acetic acid), citrus fruits (citric acid)
 - HVZ reaction introduces halogen at the alpha-carbon
 - Decarboxylation: RCOOH + NaOH/CaO $\rightarrow$ RH (loss of CO$_2$)
 
+## Intuition
+
+**Resonance makes the carboxylate ion surprisingly stable:** When a carboxylic acid loses its proton, the resulting negative charge doesn't sit on one oxygen — it delocalizes equally across both oxygens through resonance. This spreading of charge makes carboxylate ions much more stable than alkoxide ions, which is why carboxylic acids are stronger acids than alcohols.
+
+**Why it matters:** Carboxylic acids are the backbone of organic chemistry — from acetic acid in vinegar to citric acid in citrus fruits to aspirin. Their derivatives (acid chlorides, esters, amides) are the building blocks for pharmaceuticals, polymers, and biological molecules.
+
+**The key insight:** Electron-withdrawing groups stabilize the conjugate base through the inductive effect, making the acid stronger — this explains why trichloroacetic acid is 10,000 times stronger than acetic acid.
+
 ## Common Mistakes
 
 **Assuming more carbon atoms means higher acidity in carboxylic acids.** Acidity depends on the stability of the carboxylate conjugate base, which is enhanced by electron-withdrawing groups through the inductive effect. Longer alkyl chains are weakly electron-donating, so formic acid (HCOOH) is more acidic than acetic acid (CH3COOH).

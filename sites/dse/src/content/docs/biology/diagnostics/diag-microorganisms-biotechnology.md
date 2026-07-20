@@ -357,3 +357,11 @@ disulfide bonds. Scientists overcame the size problem by:
 populations; playing God -- some people have religious or moral objections to modifying the genetic
 code of organisms; patenting of life -- companies patenting GM organisms raises concerns about
 corporate control of living resources.)
+
+
+
+## Cross-References
+
+- **[Cell Biology](../biology/cell-biology):** Cell biology supports physiology
+- **[Genetics](../biology/3-genetics/genetics):** Genetics underpins biotechnology
+- **[Ecology](../biology/2-ecology/ecology):** Ecology studies organism interactions

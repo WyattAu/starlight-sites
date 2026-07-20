@@ -89,6 +89,14 @@ Aldehydes and ketones are found in formaldehyde (preservative), acetone (solvent
 - 2,4-DNP test: orange/red precipitate indicates C=O group
 - Haloform test: methyl ketones give yellow CHI$_3$ precipitate with I$_2$/NaOH
 
+## Intuition
+
+**The carbonyl carbon is an electrophile's dream target:** The C=O bond is like a tug-of-war where oxygen always wins — pulling electron density away from carbon, leaving it electron-deficient. Nucleophiles rush in to fill this electron gap, which is why nucleophilic addition is the signature reaction of aldehydes and ketones.
+
+**Why it matters:** Aldehydes and ketones appear ineverything from formaldehyde preservatives to vanilla flavoring to drug molecules. The ability to distinguish aldehydes from ketones (Tollens' test) and to build larger molecules (aldol condensation) are foundational organic chemistry skills.
+
+**The key insight:** The presence or absence of an alpha-hydrogen determines whether a carbonyl compound undergoes aldol condensation or the Cannizzaro reaction — one H atom changes the entire reaction pathway.
+
 ## Common Mistakes
 
 **Writing the aldol product as the beta-hydroxy aldehyde instead of the unsaturated product.** Aldol condensation gives the alpha,beta-unsaturated aldehyde upon heating because dehydration occurs spontaneously. Students often stop at the beta-hydroxy stage and forget that the final product loses water to form a conjugated double bond.

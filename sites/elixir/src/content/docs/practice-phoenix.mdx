@@ -380,3 +380,11 @@ end
 ```
 
 **Solution:** `join/3` authenticates and stores the user ID in the socket. `Presence.track` registers the user with metadata. `handle_info(:after_join)` runs after join completes. `broadcast!` sends to all subscribers. `broadcast_from!` sends to all except the sender (used for typing indicators). `Presence.list` returns all tracked presences. The Presence module is configured via `use Phoenix.Presence`.
+
+## Common Mistakes
+
+**Confusing processes with OS threads:** Elixir/Erlang processes are lightweight (a few KB) and scheduled by the BEAM VM, not the OS. You can spawn millions of processes. Do not worry about thread pools or OS-level concurrency limits.
+
+**Blocking in GenServer handle_info:** `handle_info` callbacks run in the GenServer process. If you perform blocking I/O (HTTP calls, file reads), the entire GenServer blocks. Use Task.async or spawn separate processes for blocking work.
+
+**Ignoring OTP supervision tree design:** Supervisors restart failed processes. If your supervision strategy is `:one_for_one` but processes depend on each other, restarting one may leave others in an inconsistent state. Design supervision trees to match your applications dependency structure.

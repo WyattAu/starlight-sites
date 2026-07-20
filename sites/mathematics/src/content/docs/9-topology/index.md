@@ -66,3 +66,9 @@ Topology is the study of properties preserved under continuous deformation. Imag
 3. **Draw diagrams**: Visualise topological spaces and their properties
 4. **Learn standard examples**: Know the properties of common spaces (metric spaces, product spaces, quotient spaces)
 5. **Connect to analysis**: Relate topology to real analysis and geometry
+
+## Cross-References
+
+- **[Real Analysis](../../3-real-analysis/index.md):** Metric spaces and topological spaces.
+- **[Abstract Algebra](../../1-abstract-algebra/index.md):** Topological groups and algebraic topology.
+- **[Differential Geometry](../../12-differential-geometry/index.md):** Smooth manifolds as topological spaces.

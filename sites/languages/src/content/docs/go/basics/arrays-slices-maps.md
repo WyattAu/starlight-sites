@@ -365,3 +365,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Types and Variables](./types-and-variables.md):** Scalar types that compose into slices, maps, and arrays.
+- **[I/O](../standard-library/io.md):** Buffer and stream operations on byte slices and strings.
+- **[Interfaces](../intermediate/interfaces.md):** How slices and maps implement standard library interfaces.

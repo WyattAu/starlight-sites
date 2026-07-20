@@ -325,3 +325,19 @@ $$T' = \frac{2\pi}{4.610} = 1.363\,\text{s}$$
 
 The period increases when the tube is tilted because the effective restoring acceleration is
 reduced.
+
+## Common Mistakes
+
+**Confusing current and voltage:** Current (A) is the flow of charge; voltage (V) is the energy per unit charge. Resistance opposes current, not voltage. Students often say "the resistor uses up the voltage" when they should say "the voltage drops across the resistor."
+
+**Forgetting Ohm's law applies only to ohmic conductors:**  = IR$ is valid only when resistance is constant (ohmic conductors at constant temperature). For non-ohmic devices (diodes, thermistors, filament lamps), resistance changes with voltage or temperature, so  = IR$ gives the resistance at that point, not a constant.
+
+**Confusing the conventions for electron flow and conventional current:** Conventional current flows from positive to negative (the direction a positive charge would move). Electron flow is from negative to positive (the actual movement of electrons). Most circuit analysis uses conventional current. Using electron flow when conventional current is expected gives reversed directions.
+
+
+
+## Cross-References
+
+- **[Mechanics](../physics/flashcards-mechanics-waves):** Mechanics covers motion, forces, and energy
+- **[Waves](../physics/flashcards-mechanics-waves):** Waves transfer energy through oscillations
+- **[Electricity](../physics/flashcards-electricity-fields):** Electricity covers circuits and fields

@@ -1153,3 +1153,11 @@ mode = ENV.key?("DEBUG") ? :debug : :production
 - [Variables and Types](/docs/languages/ruby/01-basics/1_variables-and-types) defines the data types that control flow statements operate on in conditional expressions.
 - [Methods and Blocks](/docs/languages/ruby/03-methods-blocks/1_methods-and-blocks) shows how control flow interacts with method definitions, blocks, and iteration patterns.
 - [Object-Oriented Programming](/docs/languages/ruby/04-oop/1_oop) applies control flow within class methods and object behaviour.
+
+## Common Mistakes
+
+**Using `=` instead of `==` in conditionals:** `=` is assignment, not comparison. Ruby allows this without error, causing silent bugs. Always use `==` for comparison in `if` and `unless`.
+
+**Confusing `unless` with `if !`:** `unless` with an `else` clause reads confusingly and is error-prone. Avoid `unless...else`; use `if` with the negated condition instead.
+
+**Assuming `&&` and `||` return booleans:** These operators return the actual value of the last evaluated expression, not necessarily `true` or `false`. Use `!!` to force boolean conversion when needed.

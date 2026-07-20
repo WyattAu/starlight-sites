@@ -922,3 +922,9 @@ Annotations are like sticky notes on your code -- they do not change what the co
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Generics](./01-generics.md):** Type erasure and generic type tokens used in reflective type inspection.
+- **[Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive.md):** MethodHandle and VarHandle for low-level concurrent field access.
+- **[Testing](../14-testing/testing.md):** Reflection-based test doubles and annotation-driven test configuration.

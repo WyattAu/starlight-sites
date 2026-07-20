@@ -843,3 +843,11 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 
 </aside>
+
+
+
+## Cross-References
+
+- **[Equilibrium](../chemistry/7-equilibrium/equilibrium):** Acid-base equilibria involve dynamic balance
+- **[Redox](../chemistry/9-redox/redox):** Acid-base reactions can involve redox
+- **[Energetics](../chemistry/5-energetics/energetics):** Neutralisation releases enthalpy

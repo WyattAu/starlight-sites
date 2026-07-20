@@ -454,3 +454,19 @@ $= 150/1200 = 0.125$ m$^2$/\pounds.
 
 The design without partition gives significantly better area per pound spent ($0.375$ vs $0.125$
 m$^2$/\pounds).
+
+## Common Mistakes
+
+**Forgetting to check that solutions satisfy the original equation:** When solving quadratic equations (especially by completing the square or using the formula), always substitute your answers back into the original equation. Squaring both sides or multiplying by expressions containing $x$ can introduce extraneous solutions.
+
+**Confusing the vertex form with the standard form:** The vertex form $y = a(x-h)^2 + k$ has its vertex at $(h, k)$, not $(-h, k)$. The sign inside the bracket is opposite to the $x$-coordinate of the vertex. Students often write the vertex as $(h, k)$ when it should be $(-h, k)$ if the form is $y = a(x+h)^2 + k$.
+
+**Misapplying Vieta's formulas:** For $ax^2 + bx + c = 0$ with roots $\alpha$ and $\beta$: $\alpha + \beta = -b/a$ (note the minus sign) and $\alpha\beta = c/a$. Students often forget the minus sign in the sum of roots, writing $\alpha + \beta = b/a$ instead.
+
+
+
+## Cross-References
+
+- **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Pure maths covers algebra, calculus, and functions
+- **[Mechanics](../maths/practice-mechanics):** Mechanics applies maths to physical problems
+- **[Statistics](../maths/statistics/statistics):** Statistics develops data analysis methods

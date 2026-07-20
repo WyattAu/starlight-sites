@@ -250,3 +250,9 @@ gives a valid implication ("if $B \leq_m A$ and $A$ is undecidable, then...") th
 about $B$.
 
 </aside>
+
+## Cross-References
+
+- **[Turing Machines](./4_turing-machines.md):** Turing machine formalism and computability.
+- **[Theory of Computation Flashcards](./8_flashcards-theory-of-computation.mdx):** Interactive flashcards covering complexity classes.
+- **[Algorithms](../../1-algorithms/index.md):** Algorithm design and complexity theory.

@@ -727,3 +727,10 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+
+## Cross-References
+
+- **[OOP](../computer-science/programming/02-object-oriented-programming):** OOP supports modular software design
+- **[Programming Constructs](../computer-science/programming/01-programming-constructs):** SDLC requires programming skills
+- **[Data Structures](../computer-science/data-structures/05-graphs):** Software engineering uses data structures

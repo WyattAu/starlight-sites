@@ -85,6 +85,14 @@ $$v = \sqrt{\frac{4gh}{3}} = \sqrt{\frac{4 \times 9.8 \times 2}{3}} = \sqrt{26.1
 
 Mechanics forms the foundation of all physics. Understanding Newton's laws, energy conservation, and rotational dynamics is essential for engineering, aerospace, robotics, and any field involving motion and forces.
 
+## Intuition
+
+**Energy is the great simplifier:** Instead of tracking every force at every moment (Newton's approach), you can just compare the beginning and end states. If you know a ball is at height h and want its speed, you don't need to know the path it took — just equate potential energy lost to kinetic energy gained. Energy methods cut through complexity by focusing on what matters: the state, not the journey.
+
+**Why it matters:** Mechanics is the foundation of all physics and engineering. Every bridge, airplane, and robot is designed using these principles. The work-energy theorem connects forces to motion through energy, and rotational dynamics explains everything from spinning tops to galaxy formation.
+
+**The key insight:** The work-energy theorem (W_net = ΔK) is Newton's second law in disguise — integrating F=ma over distance gives you the energy relationship, making many problems dramatically simpler.
+
 ## Common Exam Patterns
 
 - Always draw free-body diagrams before applying Newton's second law

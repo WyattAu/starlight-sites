@@ -1052,3 +1052,11 @@ From the equation, ratio is $1:1$, so $n(\text{CaCl}_2) = 0.100\,\text{mol}$.
 $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 
 </aside>
+
+
+
+## Cross-References
+
+- **[Alkanes](../chemistry/organic-chemistry/alkanes):** Alkanes are the foundation of organic chemistry
+- **[Alkenes](../chemistry/organic-chemistry/alkenes):** Alkenes introduce C=C double bonds
+- **[Alcohols](../chemistry/organic-chemistry/alcohols):** Alcohols contain hydroxyl groups

@@ -603,3 +603,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[I/O](./io.md):** Reader/Writer interfaces underlying HTTP request and response bodies.
+- **[Testing](../advanced/testing.md):** HTTP handler testing with httptest and middleware verification.
+- **[Channels](../concurrency/channels.md):** Goroutine-based concurrent request handling patterns.

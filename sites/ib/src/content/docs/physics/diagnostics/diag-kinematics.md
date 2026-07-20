@@ -367,3 +367,11 @@ New braking distance:
 $s = \frac{0.5 \times 1200 \times 400}{7500} = \frac{240000}{7500} = 32.0\,\text{m}$
 
 New total stopping distance $= 14.0 + 32.0 = 46.0\,\text{m}$
+
+
+
+## Cross-References
+
+- **[Kinematics](../physics/flashcards-kinematics):** Kinematics describes motion
+- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
+- **[Waves](../physics/flashcards-waves):** Waves transfer energy

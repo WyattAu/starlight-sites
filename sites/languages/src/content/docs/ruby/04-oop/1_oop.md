@@ -901,3 +901,11 @@ Child.new.greet
 - [Variables and Types](/docs/languages/ruby/01-basics/1_variables-and-types) defines the instance variables and data types used within object-oriented class definitions.
 - [Methods and Blocks](/docs/languages/ruby/03-methods-blocks/1_methods-and-blocks) covers the method definitions and block passing that are central to Ruby's OOP style.
 - [Metaprogramming](/docs/languages/ruby/05-advanced/1_metaprogramming) uses Ruby's OOP features to dynamically define classes and methods at runtime.
+
+## Common Mistakes
+
+**Confusing class variables (`@@`) with class instance variables:** Class variables are shared across the entire inheritance hierarchy, leading to unexpected sharing. Use class instance variables (`@` in class methods) for class-level state that shouldn't be inherited.
+
+**Forgetting that `self` changes in blocks:** Inside a block passed to `class_eval` or `instance_eval`, `self` refers to the evaluation context, not the original receiver. This can cause methods to be defined on the wrong object.
+
+**Using `==` instead of `eql?` and `hash`:** By default, `==` compares object identity. Override both `eql?` and `hash` together for value-based equality in hashes and sets, or objects won't behave correctly as keys.

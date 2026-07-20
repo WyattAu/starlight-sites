@@ -277,3 +277,19 @@ under 512 bytes for standard queries, fitting in a single UDP packet). The overh
 handshake is unnecessary for a single request-response. However, TCP is used for DNS zone transfers
 (large data) and for responses over 512 bytes (EDNS0 allows larger UDP packets, but TCP fallback
 exists for oversized responses).
+
+## Common Mistakes
+
+**Confusing TCP and UDP use cases:** TCP guarantees delivery, ordering, and error correction — use it for web browsing, email, and file transfer. UDP is connectionless and faster but unreliable — use it for video streaming, online gaming, and DNS lookups. Students often say "TCP is always better" when the choice depends on whether reliability or speed matters more.
+
+**Mixing up the OSI and TCP/IP layer models:** The OSI model has 7 layers (Physical, Data Link, Network, Transport, Session, Presentation, Application). The TCP/IP model has 4 layers (Network Access, Internet, Transport, Application). Students often confuse which protocol belongs to which layer — IP is Network/Internet layer, TCP/UDP is Transport layer, HTTP is Application layer.
+
+**Forgetting that MAC addresses are used for local delivery and IP addresses for routing:** When a packet travels across networks, the source and destination MAC addresses change at each hop (router), but the source and destination IP addresses remain the same throughout the journey. MAC addresses are for the local network; IP addresses are for end-to-end routing.
+
+
+
+## Cross-References
+
+- **[Number Systems](../computer-science/fundamentals/01-number-systems):** Binary and hexadecimal are essential for computing
+- **[Boolean Algebra](../computer-science/fundamentals/03-boolean-algebra):** Logic gates implement Boolean operations
+- **[Graph Algorithms](../computer-science/algorithms/03-graph-algorithms):** Algorithm design is central to computer science

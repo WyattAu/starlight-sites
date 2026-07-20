@@ -409,3 +409,19 @@ Solution is **basic** (1 mark).
 the conjugate base of $\mathrm{H}_2\mathrm{CO}_3$ (weak acid) and the conjugate acid of
 $\mathrm{CO}_3^{2-}$ (weak base). Since $K_a(\mathrm{HCO}_3^-) < K_b(\mathrm{HCO}_3^-)$The basic
 character predominates and the solution is **slightly basic**, pH $\approx 8.3$ (1 mark).
+
+## Common Mistakes
+
+**Assuming pH 7 is always neutral:** Neutral means $[\text{H}^+] = [\text{OH}^-]$, not pH 7. At temperatures above $25\,^\circ\text{C}$, $K_w$ increases and the pH of pure water drops below 7, yet the solution is still neutral. At $50\,^\circ\text{C}$, pure water has pH 6.63 but is neutral.
+
+**Forgetting that dilution does not change buffer pH:** When a buffer is diluted, both the acid and conjugate base concentrations decrease by the same factor, so their ratio stays the same. The Henderson-Hasselbalch equation shows pH depends only on the ratio $[\text{A}^-]/[\text{HA}]$, not on the absolute concentrations. Students often calculate a new pH after dilution when there should be none.
+
+**Confusing which species reacts when acid or base is added to a buffer:** When strong acid (HCl) is added, it reacts with the conjugate base component ($\text{A}^-$), not the weak acid. When strong base (NaOH) is added, it reacts with the weak acid component (HA). Getting this backwards leads to the wrong direction of pH change.
+
+
+
+## Cross-References
+
+- **[Organic Chemistry](../chemistry/organic-chemistry/introduction):** Organic chemistry covers carbon-based compounds and their reactions
+- **[Physical Chemistry](../chemistry/flashcards-physical-chemistry):** Physical chemistry underpins reaction rates, energetics, and equilibrium
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure determines chemical bonding and reactivity

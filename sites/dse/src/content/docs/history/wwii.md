@@ -78,3 +78,19 @@ The Pacific War was a collision between an industrialising Japan seeking resourc
 - In essay questions, structure your argument around specific themes such as economic impact, social transformation, or resistance activities, rather than providing a chronological narrative.
 - Use specific evidence including dates, casualty figures, and policy details to support your arguments. Avoid vague generalisations about "suffering" or "hardship."
 - When evaluating the significance of the Battle of Hong Kong, consider both its military outcome and its broader implications for British prestige in Asia.
+
+
+
+## Cross-References
+
+- **[Cold War](../history/diagnostics/diag-cold-war):** WWII led to the Cold War
+- **[Modern China](../history/diagnostics/diag-modern-china):** Hong Kong's history is linked to China
+- **[WWII](../history/diagnostics/diag-wwii):** WWII shaped modern history
+
+## Common Mistakes
+
+**Assuming Japan attacked Pearl Harbor to conquer America:** The goal was to neutralise the US Pacific Fleet so Japan could seize resource-rich territories in Southeast Asia without interference. It was a strategic gamble, not an invasion plan.
+
+**Confusing the Second Sino-Japanese War with WWII in Europe:** China was fighting Japan from 1937, two years before war began in Europe. The two conflicts merged when Japan attacked Pearl Harbor, but they had separate origins.
+
+**Underestimating the significance of the Battle of Hong Kong:** It was one of the earliest Allied defeats, showing that Britain could not defend its Asian colonies. This influenced post-war decolonisation.

@@ -412,3 +412,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[net/http](./net-http.md):** HTTP handlers and clients built on io.Reader/Writer interfaces.
+- **[Strings and Time](./strings-and-time.md):** String manipulation and time parsing used with I/O streams.
+- **[Channels](../concurrency/channels.md):** Concurrent pipeline patterns using io.Reader/Writer with goroutines.

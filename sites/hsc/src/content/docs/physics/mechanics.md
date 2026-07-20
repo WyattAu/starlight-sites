@@ -234,6 +234,14 @@ $$T = m\omega^2 r = 0.5 \times (6\pi)^2 \times 1 = 0.5 \times 36\pi^2 = 18\pi^2 
 
 **Common mistake:** Using $v = \omega r$ incorrectly. For uniform circular motion, $v = \omega r$ and $T = mv^2/r = m\omega^2 r$.
 
+## Intuition
+
+**Mechanics describes how objects move under forces:** Think of forces as pushes and pulls. When you push a shopping cart, you apply a force. Friction pushes back. The net force determines how the cart accelerates. This simple principle — force equals mass times acceleration — explains everything from falling apples to orbiting planets.
+
+**Why it matters:** Mechanics is the foundation of physics and engineering. Every bridge, building, vehicle, and aircraft is designed using these principles. Understanding kinematics, forces, momentum, and energy is essential for solving real-world problems.
+
+**The key insight:** Energy methods are often simpler than force methods — instead of tracking every force at every moment, just compare the beginning and end states.
+
 ## Common Mistakes
 
 **Confusing mass with weight in force calculations.** Mass (kg) is the amount of matter, while weight (N) is the gravitational force W = mg. When applying Newton's second law F = ma, the mass in kg is used, not the weight in Newtons. Students often substitute weight where mass is required, giving acceleration values that are too large.

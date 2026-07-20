@@ -539,3 +539,11 @@ The true SD is 0.775, so the grouped estimate underestimates by about 3.6%. The 
 approach loses precision because it replaces the continuous distribution with a discrete
 $
 approximation within each class.
+
+## Common Mistakes
+
+**Confusing frequency density with frequency:** In a histogram, the area of each bar represents the frequency, not the height. Frequency density = frequency / class width. Students often treat the height of the bar as the frequency, which is only correct when all class widths are equal.
+
+**Forgetting that coding affects the mean and standard deviation differently:** If $y = \frac{x-a}{b}$, then $\bar{y} = \frac{\bar{x}-a}{b}$ and $\text{SD}(y) = \frac{\text{SD}(x)}{|b|}$. The additive constant $a$ affects the mean but not the standard deviation. The multiplicative constant $b$ scales both. Students often forget the $|b|$ (absolute value) for the standard deviation.
+
+**Confusing population and sample standard deviation:** The population standard deviation divides by $n$; the sample standard deviation divides by $n-1$. For a sample, using $n$ underestimates the true variability. Always check whether the question asks for $\sigma$ (population) or $s$ (sample).

@@ -277,3 +277,11 @@ $$y(2) = \sqrt{4 + 3} = \sqrt{7} \approx 2.646$$
 **(c)**
 
 $$\text{Percentage error} = \frac{\lvert 2.583 - \sqrt{7} \rvert}{\sqrt{7}} \times 100\% = \frac{2.646 - 2.583}{2.646} \times 100\% \approx 2.4\%$$
+
+
+
+## Cross-References
+
+- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Algebra is foundational
+- **[Functions](../maths/2-functions/functions):** Functions are central
+- **[Calculus](../maths/5-calculus/calculus):** Calculus is a major topic

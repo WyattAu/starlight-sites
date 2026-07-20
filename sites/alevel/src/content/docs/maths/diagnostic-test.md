@@ -532,3 +532,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+
+
+## Cross-References
+
+- **[Pure Mathematics](../maths/flashcards-pure-mathematics):** The diagnostic covers pure maths topics
+- **[Mechanics](../maths/practice-mechanics):** Mechanics is tested in the diagnostic
+- **[Statistics](../maths/statistics/statistics):** Statistics is assessed in the diagnostic

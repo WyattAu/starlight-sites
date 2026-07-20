@@ -251,3 +251,11 @@ Thermal physics connects the microscopic world of individual particles to the ma
 - **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature.md)**: The Fermi energy problems are direct applications of the finite-temperature electron gas theory.
 - **[Classical Limit and the Maxwell-Boltzmann Distribution](7_classical-limit-and-the-maxwell-boltzmann-distribution.md)**: The high-temperature limit of quantum statistics recovers the classical ideal gas results tested in several problems.
 
+## Common Mistakes
+
+**Using wrong units for temperature in statistical mechanics:** All statistical formulas require absolute temperature (Kelvin). Using Celsius or Fahrenheit gives exponentially wrong Boltzmann factors.
+
+**Confusing specific heat at constant volume vs pressure:** C_V = (∂U/∂T)_V; C_P = (∂H/∂T)_P. For ideal gases C_P = C_V + nR, but this relation fails for real gases and solids.
+
+**Forgetting the density of states in Fermi energy calculations:** The Fermi energy depends on the number density n through E_F = (ℏ²/2m)(3π²n)^(2/3). Omitting the density of states factor gives incorrect degeneracy temperatures.
+

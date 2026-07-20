@@ -221,3 +221,17 @@ principle, collisions must exist (infinite possible inputs mapped to $2^{256}$ o
 finding a collision is computationally infeasible -- the birthday attack would require approximately
 $2^{128}$ attempts, which is practically impossible with current computing power. SHA-256 is
 designed to be collision-resistant.
+
+## Common Mistakes
+
+**Confusing two's complement with sign-and-magnitude:** Two's complement inverts bits and adds 1 for negatives. Sign-and-magnitude uses the MSB as a sign bit. Two's complement is preferred because it simplifies arithmetic operations.
+
+**Forgetting to check bit limits in number conversions:** When converting between number systems, always verify the result fits within the specified bit width. Overflow occurs when results exceed the available bits.
+
+**Mixing up lossy and lossless compression:** Lossy compression (JPEG, MP3) permanently discards data. Lossless compression (ZIP, PNG) preserves all original data. Lossy is irreversible; lossless is reversible.
+
+## Cross-References
+
+- **[Data Representation](../ict/1-data-representation/1_data-representation):** Data is fundamental to ICT
+- **[Computer Systems](../ict/diagnostics/diag-computer-systems):** Systems process data
+- **[Programming](../ict/diagnostics/diag-programming-databases):** Programming manipulates data

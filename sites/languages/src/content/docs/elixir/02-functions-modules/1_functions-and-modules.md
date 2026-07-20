@@ -862,3 +862,11 @@ Functions and modules are the organizational backbone of Elixir:
 - Protocols provide polymorphism based on type dispatch
 - Behaviours define interfaces with `@callback` and `@impl`
 - Typespecs with `@type` and `@spec` add optional static type checking
+
+## Common Mistakes
+
+**Confusing `import`, `alias`, and `require`:** `import` brings functions into scope; `alias` creates a shorthand name; `require` makes macros available. Using the wrong one causes "undefined function" or "unused import" errors.
+
+**Forgetting `@enforce_keys` in structs:** Without `@enforce_keys`, struct fields default to `nil` silently. Always enforce required fields to catch missing data at compile time.
+
+**Using exceptions for control flow:** Elixir favors `{:ok, result}` / `{:error, reason}` tuples over `raise`/`rescue`. Exceptions are for truly exceptional cases, not expected error paths.

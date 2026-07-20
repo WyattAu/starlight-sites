@@ -125,3 +125,9 @@ Transfer, interrupting the CPU only when complete.
 
 I/O systems are the nervous system connecting the CPU to the outside world. Polling is like checking the mailbox every minute — simple but wasteful. Interrupts are like a doorbell — the device signals when it needs attention, and the CPU drops what it is doing to respond. DMA is like hiring a delivery service — the device transfers data directly to memory without bothering the CPU for every byte. Buffering is the waiting room — data is collected in a holding area before being processed in bulk, smoothing out the mismatch between fast producers and slow consumers.
 
+## Cross-References
+
+- **[Synchronisation](./3_synchronisation.md):** I/O synchronisation and interrupt handling.
+- **[File Systems](./6_file-systems.md):** File system I/O operations.
+- **[Process Management](./2_process-management.md):** Process scheduling and I/O wait states.
+

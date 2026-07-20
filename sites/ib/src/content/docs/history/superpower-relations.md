@@ -207,3 +207,11 @@ When analysing Cold War sources in Paper 1:
 ## Intuition
 
 Cold War superpower relations operated like two magnets held close together -- the closer they got, the stronger the repulsive force, yet neither could let go without losing face. The Berlin crises, the Cuban Missile Crisis, and the arms race were all manifestations of this magnetic tension. Gorbachev's reforms were like one magnet suddenly becoming weaker -- the balance of forces collapsed, and the entire structure rearranged itself overnight. The key insight is that the Cold War ended not because one side won militarily but because one side lost the will and capacity to sustain the competition.
+
+## Common Mistakes
+
+**Assuming the Cold War was purely ideological:** National interest, power politics, and leader personalities also drove decisions. Don't reduce everything to capitalism vs communism.
+
+**Confusing détente with the end of the Cold War:** Détente (1970s) reduced tensions but didn't end the rivalry. The Cold War ended in 1989-1991 with Soviet collapse.
+
+**Forgetting to consider multiple historiographical perspectives:** Orthodox, revisionist, and post-revisionist interpretations assign different responsibility. Engage with all three in essays.

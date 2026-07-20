@@ -150,3 +150,11 @@ def kmp_search(text: str, pattern: str) -> list[int]:
             j = failure[j - 1]
     return results
 ```
+
+## Common Mistakes
+
+**Confusing time complexity with wall-clock time:** O(n^2) can be faster than O(n log n) for small n due to constant factors. Big O describes asymptotic behavior, not actual runtime for specific inputs. Profile real inputs to measure actual performance.
+
+**Using the wrong data structure:** A list has O(n) lookup; a set has O(1) lookup. If you need frequent membership checks, use a set, not a list. Choosing the wrong data structure can turn an O(n) algorithm into O(n^2).
+
+**Forgetting that Python integers have arbitrary precision:** Unlike C or Java, Python integers can be arbitrarily large. This means hash table performance may vary for very large integers, and some algorithms that depend on fixed-width integer overflow behave differently.

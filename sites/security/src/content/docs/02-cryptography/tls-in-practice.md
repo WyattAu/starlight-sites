@@ -564,6 +564,14 @@ curl "https://api.ssllabs.com/api/v3/analyze?host=example.com&amp;publish=off&am
 # Tests security headers, TLS configuration, and more
 ```
 
+## Intuition
+
+**TLS is like a locked mailbox:** When you send a letter (data) through TLS, it's encrypted so only the intended recipient can read it. The certificate is like a verified ID card — it proves the server is who it claims to be. The ACME protocol is like an automated verification system that checks you own the domain before issuing a certificate.
+
+**Why it matters:** TLS protects every HTTPS connection, from online banking to email. Understanding certificate management, the ACME protocol, and common configuration mistakes is essential for securing web services.
+
+**The key insight:** Let's Encrypt made TLS free and automated — the ACME protocol handles domain verification, certificate issuance, and renewal without manual intervention, making encryption the default for the web.
+
 ## Common Pitfalls
 
 ### Let's Encrypt Rate Limits

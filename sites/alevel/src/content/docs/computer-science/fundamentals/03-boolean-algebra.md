@@ -825,3 +825,10 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+
+## Cross-References
+
+- **[Number Systems](../computer-science/fundamentals/01-number-systems):** Boolean algebra operates on binary values
+- **[Operating Systems](../computer-science/fundamentals/05-operating-systems):** OS uses Boolean logic for decisions
+- **[Graph Algorithms](../computer-science/algorithms/03-graph-algorithms):** Logic underpins algorithm design

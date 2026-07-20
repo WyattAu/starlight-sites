@@ -944,3 +944,11 @@ Understanding these concepts thoroughly is essential for both examinations and p
 programming, and requires both theoretical knowledge and hands-on practice.
 
 </aside>
+
+
+
+## Cross-References
+
+- **[OOP](../computer-science/programming/02-object-oriented-programming):** OOP extends procedural constructs
+- **[Data Structures](../computer-science/data-structures/05-graphs):** Programming manipulates data structures
+- **[Algorithms](../computer-science/algorithms/03-graph-algorithms):** Programming implements algorithms

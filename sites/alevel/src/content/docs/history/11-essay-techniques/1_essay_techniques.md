@@ -210,3 +210,11 @@ framework provides clear paragraph structure. Argument construction requires a c
 sustained evaluation, and historiographical engagement. Causation, continuity, change, and
 significance each require specific techniques and appropriate language. Time management is
 essential — plan before writing, allocate time to each section, and answer the question directly.
+
+
+
+## Cross-References
+
+- **[Source Analysis](../history/diagnostics/diag-source-analysis):** Source analysis skills support historical study
+- **[Essay Techniques](../history/11-essay-techniques/1_essay_techniques):** Essay writing is essential for history
+- **[Tudor England](../history/2-tudor-england/1_tudor-england):** Tudor period provides rich historical material

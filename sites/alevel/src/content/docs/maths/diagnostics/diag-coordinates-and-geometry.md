@@ -363,3 +363,19 @@ In terms of the original variables (after translation, using $x$ and $y$ for the
 $$y = x^2$$
 
 So $a = 1$, $b = 0$, $c = 0$.
+
+## Common Mistakes
+
+**Confusing the equation of a line in different forms:** $y = mx + c$ is the gradient-intercept form. $ax + by + c = 0$ is the general form. $y - y_1 = m(x - x_1)$ is the point-gradient form. Converting between these requires care — for example, rearranging $y = 2x + 3$ to general form gives $2x - y + 3 = 0$, not $2x + y + 3 = 0$.
+
+**Forgetting that perpendicular gradients multiply to $-1$:** If a line has gradient $m$, the perpendicular line has gradient $-1/m$. Students often write $1/m$ instead. Also, horizontal and vertical lines are perpendicular ($m = 0$ and $m$ undefined), which is a special case often missed.
+
+**Mixing up the discriminant conditions for quadratics:** $\Delta > 0$ means two distinct real roots. $\Delta = 0$ means one repeated real root. $\Delta < 0$ means no real roots (two complex roots). Students sometimes swap $>$ and $<$ or forget that $\Delta = 0$ gives a tangent (one point of contact).
+
+
+
+## Cross-References
+
+- **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Pure maths covers algebra, calculus, and functions
+- **[Mechanics](../maths/practice-mechanics):** Mechanics applies maths to physical problems
+- **[Statistics](../maths/statistics/statistics):** Statistics develops data analysis methods

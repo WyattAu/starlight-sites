@@ -59,3 +59,11 @@ Go is a programming language with a rich type system and ecosystem. These notes 
     </Card>
   </a>
 </CardGrid>
+
+## Common Mistakes
+
+**Assuming Go has classes:** Go uses structs and interfaces for object-oriented patterns, but there are no classes, inheritance, or constructors. Composition via struct embedding replaces inheritance. This is a deliberate design choice, not a limitation.
+
+**Not using `go vet` and `staticcheck`:** Go provides built-in static analysis tools. Running `go vet ./...` before committing catches common mistakes (printf format errors, unreachable code, incorrect struct tags). These tools are fast and should be part of your workflow.
+
+**Goroutine leaks:** Goroutines that block on channels or I/O without a way to exit will leak. Always provide a mechanism for goroutines to terminate (context cancellation, done channels, or timeout). Monitor goroutine counts in production.

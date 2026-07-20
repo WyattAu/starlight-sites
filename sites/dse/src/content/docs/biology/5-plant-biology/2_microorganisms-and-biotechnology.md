@@ -1564,3 +1564,11 @@ and evaluate experimental evidence critically.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
+
+
+## Cross-References
+
+- **[Cell Biology](../biology/cell-biology):** Cell biology is foundational
+- **[Genetics](../biology/3-genetics/genetics):** Genetics studies heredity
+- **[Ecology](../biology/2-ecology/ecology):** Ecology studies environments

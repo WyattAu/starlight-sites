@@ -115,3 +115,11 @@ across days (spaced practice) is more effective than cramming.
 | Decidability | Whether a Turing machine halts on all inputs for a given problem. |
 | Consistency model | A contract specifying what values a read may return in a distributed store. |
 | Invariant | A property that holds throughout execution and is maintained by each operation. |
+
+## Common Mistakes
+
+**Confusing complexity classes:** P is problems solvable in polynomial time. NP is problems verifiable in polynomial time. P ⊆ NP but it's unknown if P = NP. Don't assume they're the same.
+
+**Forgetting that recursion has overhead:** Recursive calls use stack space. Very deep recursion can cause stack overflow. Consider iterative alternatives for large inputs.
+
+**Mixing up determinism with randomness:** Deterministic algorithms produce the same output for the same input. Randomised algorithms use random choices. Don't assume all algorithms are deterministic.

@@ -224,6 +224,14 @@ Step 4: The number of monomers $n$ in the polymer chain is the degree of polymer
 
 **Common mistake:** Forgetting that in addition polymerisation, the double bond becomes a single bond in the polymer backbone. The side groups remain as branches.
 
+## Intuition
+
+**Organic chemistry is about carbon's unique bonding:** Carbon forms four covalent bonds and can chain with other carbons indefinitely. This creates an enormous variety of molecules — from simple methane (CH₄) to complex proteins. The functional groups attached to the carbon backbone determine how the molecule behaves chemically.
+
+**Why it matters:** Organic chemistry is the foundation of biochemistry, pharmaceuticals, and materials science. Understanding reaction mechanisms (SN1/SN2, addition, elimination) lets you predict products and design synthesis routes for new molecules.
+
+**The key insight:** The structure of a molecule determines its reactivity — the same atoms arranged differently (isomers) can have completely different chemical properties.
+
 ## Common Mistakes
 
 **Confusing SN1 and SN2 reaction mechanisms for haloalkanes.** SN1 proceeds through a carbocation intermediate and gives racemisation. SN2 proceeds through backside attack and gives inversion of configuration. Students often assume all nucleophilic substitutions follow the same mechanism.

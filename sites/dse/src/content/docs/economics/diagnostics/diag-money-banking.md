@@ -563,3 +563,11 @@ South African rand, which immediately stabilised prices.
    bank is committed to controlling inflation, it may actually _increase_ investment by improving
    business confidence and reducing uncertainty about future inflation. This is the "expectations
    channel" of monetary policy.
+
+
+
+## Cross-References
+
+- **[Market Failure](../economics/diagnostics/diag-market-failure):** Market failure analysis is key
+- **[Fiscal Policy](../economics/diagnostics/diag-fiscal-monetary-policy):** Policy addresses economic issues
+- **[Macroeconomics](../economics/flashcards-macroeconomics):** Macroeconomics covers indicators

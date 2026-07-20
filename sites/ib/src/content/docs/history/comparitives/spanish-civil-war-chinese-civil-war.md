@@ -614,3 +614,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+
+
+## Cross-References
+
+- **[Cold War](../history/cold-war):** Comparative studies relate to Cold War
+- **[Authoritarian States](../history/authoritarian-states):** Authoritarian systems are compared
+- **[Causes and Effects](../history/causes-and-effects-of-wars):** Wars are compared

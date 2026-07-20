@@ -559,3 +559,11 @@ By the cosine rule in triangle $AEF$:
 $$\cos \angle AEF = \frac{AE^2 + EF^2 - AF^2}{2 \cdot AE \cdot EF} = \frac{40 + 25 - 45}{2 \times 2\sqrt{10} \times 5} = \frac{20}{20\sqrt{10}} = \frac{1}{\sqrt{10}} = \frac{\sqrt{10}}{10}$$
 
 $$\angle AEF = \arccos\left(\frac{\sqrt{10}}{10}\right) \approx 71.6°$$
+
+
+
+## Cross-References
+
+- **[Functions](../maths/diagnostics/diag-functions):** Functions are central
+- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics are a core topic
+- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is fundamental

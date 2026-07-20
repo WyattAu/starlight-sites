@@ -716,3 +716,11 @@ Swift's concurrency model provides structured concurrency where tasks form a hie
 - [[swift/02-functions-closures/1_functions]] - Async function signatures
 - [[swift/03-oop/1_classes-and-structs]] - Actors as concurrent reference types
 - [[swift/04-advanced/1_error-handling]] - Error handling in async contexts
+
+## Common Mistakes
+
+**Assuming `Task.detached` inherits context:** Detached tasks do not inherit actor isolation, priority, or task-local values. Use `Task` (structured) when you need context inheritance, and only use `Task.detached` for truly independent work.
+
+**Calling actor methods synchronously from outside the actor:** Accessing actor state without `await` is a compile error. If you find yourself using `@unchecked Sendable` or nonisolated access to avoid `await`, you are likely bypassing safety guarantees.
+
+**Not checking `Task.isCancelled` in long loops:** Cancellation in Swift is cooperative, not preemptive. Long-running tasks that ignore cancellation waste resources. Always check periodically with `Task.checkCancellation()` or `Task.isCancelled`.

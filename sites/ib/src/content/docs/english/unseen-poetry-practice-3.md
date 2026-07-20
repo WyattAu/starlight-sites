@@ -191,3 +191,11 @@ After completing your own analysis of "A Far Cry from Africa," review your respo
 10. Did your introduction state a clear argument, and did your conclusion return to it?
 
 If you answered "no" to any of these questions, revise your response to address the gap. The IB rewards responses that demonstrate both technical precision and interpretive depth -- the ability to identify _what_ a poem does and to explain _why_ it matters.
+
+
+
+## Cross-References
+
+- **[Poetry Analysis](../english/poetry-analysis-guide):** Literary analysis develops through study
+- **[Comparative Analysis](../english/comparitives/chronicle-streetcar):** Comparing texts builds analytical skills
+- **[Flashcards](../english/flashcards-poetry):** Literary terms support analysis

@@ -154,3 +154,11 @@ Solid-state physics studies how atoms arranged in crystals give rise to electron
 - **[Reciprocal Lattice](6-solid-state-physics/2_reciprocal-lattice.md)**: Diffraction problems require computing reciprocal lattice vectors and Brillouin zones.
 - **[Lattice Vibrations and Phonons](6-solid-state-physics/4_lattice-vibrations-and-phonons.md)**: Problems on specific heat, phonon dispersion, and thermal conductivity use the phonon framework.
 - **[Semiconductors](6-solid-state-physics/6_semiconductors.md)**: Problems on carrier concentration, Fermi level, and conductivity require the semiconductor physics developed in this chapter.
+
+## Common Mistakes
+
+**Confusing direct and reciprocal lattice vectors:** Direct lattice vectors describe real-space positions; reciprocal lattice vectors describe momentum space. Using the wrong one in Bragg's law gives wrong diffraction angles.
+
+**Forgetting that phonon dispersion has two branches:** Acoustic and optical branches exist in crystals with more than one atom per unit cell. Using only one branch misses half the vibrational modes.
+
+**Confusing metals, insulators, and semiconductors by band filling:** Metals have partially filled bands; insulators have filled bands with large gaps; semiconductors have small gaps. The distinction depends on both gap size and temperature.

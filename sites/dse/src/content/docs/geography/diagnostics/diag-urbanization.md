@@ -92,3 +92,17 @@ Answer each question. Check your answers against the key at the end.
 | 8 | (B) | Hong Kong's public housing programme provides subsidised rental and Home Ownership Scheme flats to eligible low-income residents. |
 | 9 | (B) | The urban-rural fringe is the transitional zone where urban development meets rural land uses, often experiencing rapid change. |
 | 10 | (B) | Mountainous terrain and limited land release by government have forced Hong Kong to develop at very high densities. |
+
+## Common Mistakes
+
+**Assuming all cities follow the same urban model:** Western models (Burgess, Hoyt) were designed for North American cities. Asian cities like Hong Kong have different patterns due to density, topography, and government planning.
+
+**Confusing urbanisation rate with population growth:** Urbanisation rate is the percentage living in cities. Population growth is the absolute increase. A country can have population growth without urbanisation.
+
+**Mixing up new towns with satellite towns:** New towns are planned, self-contained settlements (e.g., Sha Tin). Satellite towns are dormitory communities dependent on a nearby city. Don't use them interchangeably.
+
+## Cross-References
+
+- **[Population](../geography/population):** Population dynamics are studied
+- **[Urbanization](../geography/urbanization):** Urbanisation is a major topic
+- **[Agriculture](../geography/agriculture):** Agriculture is linked to population

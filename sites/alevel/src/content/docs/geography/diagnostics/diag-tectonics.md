@@ -128,3 +128,19 @@ sidebar_position: 40
 **9. (B)** Shield volcanoes (e.g. Mauna Loa, Hawaii) are characterised by broad, gently sloping sides formed by successive flows of low-viscosity basaltic lava that travels long distances before solidifying. Eruptions are effusive (non-explosive) with lava flows rather than pyroclastic material, due to the low viscosity of basaltic lava.
 
 **10. (B)** The HDI (combining life expectancy, education, and GDP per capita) is relevant to tectonic hazard impact because vulnerability is closely linked to development. Countries with lower HDI have weaker building infrastructure, fewer emergency services, less effective early warning systems, and fewer resources for recovery, resulting in higher death tolls from the same magnitude event compared to wealthier nations.
+
+## Common Mistakes
+
+**Confusing the Richter scale with a linear scale:** The Richter scale is logarithmic — each whole number increase represents approximately 10 times the amplitude and 32 times the energy released. A magnitude 7 earthquake is not "slightly worse" than a magnitude 6; it releases about 32 times more energy. Students often treat the scale as linear.
+
+**Confusing destructive and constructive plate boundaries:** Constructive (divergent) boundaries create new crust as plates move apart (e.g., Mid-Atlantic Ridge). Destructive (convergent) boundaries destroy crust as one plate subducts beneath another (e.g., Pacific Plate under the Philippine Plate). The terminology refers to what happens to the crust, not whether the boundary is "good" or "bad."
+
+**Assuming all volcanoes at plate boundaries are the same type:** Volcanic type depends on the plate boundary and magma composition. Subduction zones produce explosive stratovolcanoes (viscous silica-rich magma). Divergent boundaries produce effusive shield basalt flows (low-viscosity magma). Hotspots in ocean basins also produce shield volcanoes. Match the volcano type to the tectonic setting.
+
+
+
+## Cross-References
+
+- **[Hazards](../geography/1-physical-geography/4_hazards):** Tectonic activity causes natural hazards
+- **[Coastal Systems](../geography/1-physical-geography/2_coastal-systems):** Tectonics affect coastal landforms
+- **[Physical Geography](../geography/flashcards-physical-geography):** Tectonics is a physical geography topic

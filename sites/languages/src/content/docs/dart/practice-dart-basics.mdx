@@ -64,3 +64,18 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"During Dart null safety migration, which approach does the Dart team recommend as the primary strategy?&quot; options={[ 'Analyze existing code, add `?` where nulls are intended, remove unnecessary `!`, and use `late` for lazily initialized fields', 'Set the entire project to `// @dart=2.9` and avoid migration', 'Replace all nullable types with `dynamic`', 'Rewrite the project from scratch with null safety from day one', ]} correctAnswer={0} explanation=&quot;The recommended migration flow: 1) Enable null safety incrementally with `// @dart=2.12` or per-package. 2) Run the migration tool (`dart fix --apply`). 3) Review: add `?` where nulls are intentional, replace `!` with proper null checks, use `late` for fields initialized in `initState` or constructors. 4) Run analysis (`dart analyze`) to find remaining issues. 5) Remove `!` operators one by one -- each removed operator is a safety improvement."} difficulty="hard"  />
 
 <PracticeProblem client:only="solid-js" question={"In a Flutter StatefulWidget, which lifecycle method should you use to initialize data that depends on `BuildContext` or to subscribe to a stream?&quot; options={['`initState`', 'the constructor', '`didChangeDependencies`', '`build`']} correctAnswer={0} explanation=&quot;`initState()` is called once when the State object is created, before `build()`. It is the correct place to initialize data, subscribe to streams, and set up controllers that depend on `this.context`. Do NOT call `BuildContext`-dependent methods (like `Theme.of(context)`) in `initState` -- use `didChangeDependencies` for those. Clean up subscriptions in `dispose()`."} difficulty="hard"  />
+
+## Cross-References
+
+- **[Dart Flashcards](../dart/flashcards-dart-basics.mdx):** Interactive flashcards covering the same core Dart concepts tested here.
+- **[Variables](../dart/03-basics/02-variables.md):** Type specifiers and null safety fundamentals behind these practice problems.
+- **[Async and Futures](../dart/05-async/01-async-and-futures.md):** Async patterns and event loop mechanics tested in the async section.
+- **[Error Handling](../dart/08-error-handling.md):** Exception handling patterns referenced in the practice explanations.
+
+## Common Mistakes
+
+**Forgetting that async functions return Future immediately:** Calling `fetchName()` without `await` gives you a `Future<String>`, not the string. Always `await` to get the actual value.
+
+**Using `!` (null assertion) excessively:** `!` throws a runtime exception if the value is null. Prefer safe navigation `?.`, `??`, or proper null checks to handle nullable values gracefully.
+
+**Confusing mixins with inheritance:** Mixins are composed into a class via `with`, not `extends`. Using `with` when you need `extends` (or vice versa) causes "class not found" errors.

@@ -304,3 +304,17 @@ $$
 
 $$
 static friction adjusts to prevent relative motion.
+
+## Common Mistakes
+
+**Confusing Newton's Third Law pairs with action-reaction on the same object:** Third Law pairs act on DIFFERENT objects. The table pushes the book up; the book pushes the table down. These are equal and opposite but act on different bodies.
+
+**Forgetting that apparent weight changes in accelerating lifts:** In an accelerating lift, the normal force (apparent weight) differs from actual weight. Upward acceleration increases apparent weight; downward acceleration decreases it.
+
+**Mixing up static and kinetic friction:** Static friction adjusts to prevent motion (up to a maximum). Kinetic friction acts during motion and is constant. Don't use kinetic friction when the object is stationary.
+
+## Cross-References
+
+- **[Mechanics](../physics/diagnostics/diag-mechanics):** Mechanics covers forces and motion
+- **[Waves](../physics/diagnostics/diag-waves-sound):** Waves transfer energy
+- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Electricity covers circuits

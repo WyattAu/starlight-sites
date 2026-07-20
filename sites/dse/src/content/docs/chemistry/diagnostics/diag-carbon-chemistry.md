@@ -279,3 +279,17 @@ occurs (or only the orange-to-green colour change does not happen). The carbon b
 group in a tertiary alcohol has no alpha hydrogen, so oxidation cannot proceed. The only way to
 break down a tertiary alcohol is through more drastic conditions such as dehydration to form an
 alkene, or complete combustion.
+
+## Common Mistakes
+
+**Confusing substitution with addition reactions in alkanes vs alkenes:** Alkanes undergo substitution (with halogens under UV light), while alkenes undergo addition (with bromine water at room temperature). Don't assume both react the same way with bromine.
+
+**Forgetting that addition polymerisation consumes the double bond:** When alkenes polymerise, the pi bond opens to form new sigma bonds. The resulting polymer has only single bonds — there are no remaining double bonds in the main chain.
+
+**Mixing up Markovnikov and anti-Markovnikov addition:** HBr adds to propene to give 2-bromopropane (Markovnikov — Br goes to the more substituted carbon). Only with peroxides does HBr add anti-Markovnikov to give 1-bromopropane.
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is foundational
+- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium connects topics
+- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is a major area

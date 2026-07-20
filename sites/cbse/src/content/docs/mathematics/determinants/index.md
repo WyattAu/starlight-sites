@@ -151,6 +151,14 @@ Similarly: $D_y = -8$, $y = 2$; $D_z = 2$, $z = -\frac{1}{2}$
 4. Collinearity of three points $(x_1, y_1)$, $(x_2, y_2)$, $(x_3, y_3)$ is equivalent to the determinant being zero
 5. Practice with matrices containing variables to build algebraic fluency
 
+## Intuition
+
+**A determinant measures how much a matrix stretches or squishes space:** Think of a 2×2 matrix as transforming a unit square into a parallelogram. The determinant is the signed area of that parallelogram — positive if orientation is preserved, negative if flipped, zero if the parallelogram collapses to a line or point. For 3×3, it's the signed volume of the transformed unit cube.
+
+**Why it matters:** Determinants tell you whether a system of equations has a unique solution, whether a transformation is invertible, and how volumes change under linear maps. They appear in Jacobians for change of variables, cross products in physics, and eigenvalue problems in engineering.
+
+**The key insight:** A zero determinant means the matrix collapses space to a lower dimension — information is lost, and the transformation cannot be reversed.
+
 ## Common Mistakes
 
 **Forgetting that swapping rows changes the sign of the determinant.** When using row operations to simplify a determinant, swapping two rows multiplies the determinant by -1. Students often forget this sign change, leading to incorrect final values. Track the number of row swaps to determine the correct sign.

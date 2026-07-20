@@ -413,3 +413,11 @@ affecting households and national accounts.
 > **Sources**: AQA Geography (7037) specification; Dicken, _Global Shift_ (2015); UNHCR refugee
 > data; World Bank remittance data; Apple Inc. annual reports; WTO statistics; IMF and World Bank
 > publications.
+
+
+
+## Cross-References
+
+- **[Physical Geography](../geography/flashcards-physical-geography):** Physical geography studies natural Earth processes
+- **[Human Geography](../geography/flashcards-human-geography):** Human geography studies people-environment interactions
+- **[Fieldwork](../geography/3-fieldwork/1_fieldwork-methodology):** Fieldwork methods apply to geographic study

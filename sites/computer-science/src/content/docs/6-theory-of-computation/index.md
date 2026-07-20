@@ -65,3 +65,8 @@ Each section includes:
 3. **Draw automata**: Visualise state machines and their transitions
 4. **Learn the hierarchy**: Understand the relationships between complexity classes
 5. **Connect to practice**: Relate theory to practical applications (compilers, cryptography)
+
+## Cross-References
+
+- **[Algorithms](../../1-algorithms/index.md):** Algorithm design and complexity analysis.
+- **[Discrete Mathematics](../../1-discrete-mathematics/index.md):** Mathematical foundations for formal languages.

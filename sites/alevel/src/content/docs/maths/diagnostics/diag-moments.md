@@ -494,3 +494,11 @@ inconsistent.
 **Note:** This question is designed to test whether the student recognises inconsistent data, a
 critical diagnostic skill. The student should state that no valid solution exists with the given
 numbers.
+
+
+
+## Cross-References
+
+- **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Pure maths covers algebra, calculus, and functions
+- **[Mechanics](../maths/practice-mechanics):** Mechanics applies maths to physical problems
+- **[Statistics](../maths/statistics/statistics):** Statistics develops data analysis methods

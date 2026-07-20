@@ -120,3 +120,11 @@ The 1997 Handover ceremony on 1 July 1997 marked the end of 156 years of British
 ## Intuition
 
 Decolonisation was the process of empires dismantling themselves, sometimes voluntarily and sometimes under pressure. Imagine a landlord who built a house, rented it to tenants, and then had to decide whether to sell it, return it, or try to keep collecting rent while the tenants changed the locks. The timing, method, and consequences of decolonisation varied enormously across regions, shaped by the strength of independence movements, the economic interests of the coloniser, and the Cold War competition between superpowers.
+
+## Common Mistakes
+
+**Assuming all decolonisation was peaceful:** Some transitions were violent (Indonesia, Vietnam, Algeria), while others were negotiated (India, Malaysia). The method depended on the strength of independence movements and colonial power willingness to negotiate.
+
+**Confusing the Joint Declaration with the Basic Law:** The Joint Declaration (1984) was the Sino-British agreement on Hong Kong's future. The Basic Law (1990) is Hong Kong's post-handover constitution. They serve different functions.
+
+**Assuming Hong Kong's handover was unique:** While special in its details, decolonisation of Hong Kong followed broader patterns of empire retreat. What made it unusual was the接手 by another Chinese sovereign power rather than independence.

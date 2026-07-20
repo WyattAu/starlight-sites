@@ -851,3 +851,11 @@ puts fetch_with_retry(99)
 - [Variables and Types](/ruby/01-basics/1_variables-and-types) - Ruby's dynamic type system and variable scoping rules
 - [Methods and Blocks](/ruby/03-methods-blocks/1_methods-and-blocks) - How blocks, procs, and closures form Ruby's functional capabilities
 - [OOP](/ruby/04-oop/1_oop) - Ruby's object model where everything is an object
+
+## Common Mistakes
+
+**Confusing Ruby with Python:** Ruby uses `end` to close blocks, not indentation. Methods are defined with def/end, not def:. Ruby uses @ for instance variables. These syntactic differences cause confusion when switching between languages.
+
+**Not using Ruby blocks and procs correctly:** Ruby blocks are closures passed to methods. yield calls the block. Procs and Lambdas are first-class block objects. Confusing these three leads to incorrect control flow.
+
+**Ignoring Ruby conventions (RuboCop):** Ruby has strong community conventions (snake_case for methods, CamelCase for classes, 2-space indentation). RuboCop enforces these automatically. Running rubocop before committing ensures consistent, idiomatic code.

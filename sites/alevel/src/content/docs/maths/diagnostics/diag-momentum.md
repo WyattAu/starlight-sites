@@ -466,3 +466,19 @@ $J = m(v - u) = 2(-6 - 8) = 2(-14) = -28$ Ns.
 
 The impulse is $28$ Ns away from the wall (the wall pushes $P$ back). This equals the change in
 momentum, confirming the impulse-momentum theorem.
+
+## Common Mistakes
+
+**Confusing conservation of momentum with conservation of energy:** Momentum is conserved in all collisions (provided no external force acts). Kinetic energy is only conserved in perfectly elastic collisions ($e = 1$). In inelastic collisions, kinetic energy is lost to heat, sound, and deformation. Students often assume both are conserved.
+
+**Forgetting that momentum is a vector:** When solving 2D collision problems, you must resolve momentum into components and conserve each component separately. The direction matters — a particle moving at $-5$ m/s has negative momentum. Getting the sign wrong leads to incorrect answers.
+
+**Confusing the coefficient of restitution with energy conservation:** $e = 1$ means perfectly elastic (no KE lost). $e = 0$ means perfectly inelastic (maximum KE lost, particles stick together). The coefficient of restitution applies along the line of centres only, not to the total speed. Students often apply $e$ to the full velocity vector instead of just the component along the line of impact.
+
+
+
+## Cross-References
+
+- **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Pure maths covers algebra, calculus, and functions
+- **[Mechanics](../maths/practice-mechanics):** Mechanics applies maths to physical problems
+- **[Statistics](../maths/statistics/statistics):** Statistics develops data analysis methods

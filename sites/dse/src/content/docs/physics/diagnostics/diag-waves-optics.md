@@ -307,3 +307,17 @@ exceeding $eV$ cannot be produced because no single electron has more energy tha
 **Key insight:** The minimum wavelength depends only on the accelerating voltage, not on the target
 material. The characteristic X-ray lines (from inner-shell electron transitions) are superimposed on
 this continuous spectrum.
+
+## Common Mistakes
+
+**Confusing diffraction with interference:** Diffraction is the bending/spreading of waves around obstacles. Interference is the superposition of two or more waves. Diffraction causes the spreading; interference creates the pattern.
+
+**Forgetting that the double slit formula assumes small angles:** The formula y = λD/d only works when the angle to the screen is small. For large angles, you need to use trigonometry instead.
+
+**Mixing up longitudinal and transverse waves:** Longitudinal waves (sound) oscillate parallel to propagation. Transverse waves (light, water) oscillate perpendicular. Don't assume all waves are transverse.
+
+## Cross-References
+
+- **[Mechanics](../physics/diagnostics/diag-mechanics):** Mechanics covers forces and motion
+- **[Waves](../physics/diagnostics/diag-waves-sound):** Waves transfer energy
+- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Electricity covers circuits

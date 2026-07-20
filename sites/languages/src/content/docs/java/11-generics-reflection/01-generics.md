@@ -911,3 +911,9 @@ Generics are like a type-safe shipping container -- they ensure that what goes i
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Annotations and Reflection](./02-annotations-reflection.md):** Runtime type introspection and generic type resolution via reflection.
+- **[Types and Variables](../02-fundamentals/01-types-and-variables.md):** Type system fundamentals that generics extend with parameterization.
+- **[Testing](../14-testing/testing.md):** Generic test utilities and type-safe mock patterns.

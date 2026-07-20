@@ -180,3 +180,19 @@ $2\mathbf{I}$$-2\mathbf{I}$$\begin{pmatrix}0&1\\1&0\end{pmatrix}$$\begin{pmatrix
 That is 4 matrices. From case 2 (d = -a): For $a = 1$: 5 matrices. For $a = -1$: 5 matrices. For
 $a = 0$: same 2 matrices (already counted). Total: $4 + 5 + 5 = 14$ matrices with entries in
 $\{0, 1, -1\}$.
+
+## Common Mistakes
+
+**Confusing matrix multiplication order:** Matrix multiplication is not commutative: $AB \neq BA$ in general. When computing $M^2$ or $MN$, always multiply in the correct order. For $M^2 = M \times M$, the rows of the first $M$ multiply the columns of the second $M$ — getting the order wrong gives a completely different result.
+
+**Forgetting that $\det(AB) = \det(A)\det(B)$ but $\det(A+B) \neq \det(A) + \det(B)$:** The determinant of a product is the product of determinants, but the determinant of a sum has no simple relationship. Students often try to distribute the determinant over addition, which is incorrect. Always compute $A + B$ first, then take the determinant.
+
+**Assuming invertibility from a non-zero determinant alone:** A matrix is invertible if and only if $\det(A) \neq 0$. But when working over restricted domains (e.g., integer entries), having $\det(A) = \pm 1$ does not guarantee that $A^{-1}$ also has integer entries. Check whether the adjugate matrix divided by the determinant produces integer entries.
+
+
+
+## Cross-References
+
+- **[Further Algebra](../further-maths/pure-mathematics/further-algebra):** Further algebra includes matrices and complex numbers
+- **[Further Calculus](../further-maths/pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
+- **[Pure Mathematics](../further-maths/further-maths):** Further maths extends A-level mathematics

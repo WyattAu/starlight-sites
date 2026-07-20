@@ -331,3 +331,11 @@ value is given to 2 significant figures: $h = (6.7 \pm 0.3) \times 10^{-34}\,\te
 
 The accepted value is $6.63 \times 10^{-34}\,\text{J}\,\text{s}$Which lies within the uncertainty
 range, confirming consistency.
+
+## Common Mistakes
+
+**Confusing current and voltage:** Current (A) is the flow of charge; voltage (V) is the energy per unit charge. Resistance opposes current, not voltage. Students often say "the resistor uses up the voltage" when they should say "the voltage drops across the resistor."
+
+**Forgetting Ohm's law applies only to ohmic conductors:**  = IR$ is valid only when resistance is constant (ohmic conductors at constant temperature). For non-ohmic devices (diodes, thermistors, filament lamps), resistance changes with voltage or temperature, so  = IR$ gives the resistance at that point, not a constant.
+
+**Confusing the conventions for electron flow and conventional current:** Conventional current flows from positive to negative (the direction a positive charge would move). Electron flow is from negative to positive (the actual movement of electrons). Most circuit analysis uses conventional current. Using electron flow when conventional current is expected gives reversed directions.

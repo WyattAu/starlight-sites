@@ -287,6 +287,14 @@ Background radiation comes from:
 
 ---
 
+## Intuition
+
+**Waves are nature's way of transferring energy efficiently:** Whether it's sound traveling through air, light reaching us from the sun, or seismic waves shaking the ground, waves carry energy from one place to another without moving matter. The wave equation v = fλ is the fundamental relationship that connects all wave phenomena.
+
+**Why it matters:** Understanding waves is essential for telecommunications, medical imaging, astronomy, and materials science. Wave behaviour explains how fibre optics transmit data, how ultrasound creates images, and how X-rays reveal crystal structures.
+
+**The key insight:** When a wave changes speed (entering a new medium), its wavelength changes but frequency stays the same — this is why light bends when entering water, and why the colour (frequency) doesn't change.
+
 ## Common Pitfalls
 
 1. **Confusing frequency and wavelength:** They are inversely related via $v = f\lambda$.

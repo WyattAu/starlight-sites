@@ -228,3 +228,11 @@ func (c *ConcurrentCache) Delete(key string) {
 	c.items.Delete(key)
 }
 ```
+
+## Common Mistakes
+
+**Forgetting that goroutines are not OS threads:** Goroutines are multiplexed onto a small number of OS threads by the Go scheduler. You can spawn millions, but each still consumes stack memory. Creating unbounded goroutines (e.g., one per HTTP request without limits) can exhaust memory.
+
+**Using channels when mutexes suffice:** Channels are for communication between goroutines. If youre protecting shared state, a `sync.Mutex` or `sync.RWMutex` is simpler and faster. Overusing channels for synchronization creates unnecessary complexity.
+
+**Deadlocking on unbuffered channels:** An unbuffered channel requires both sender and receiver to be ready simultaneously. If both sides block waiting for the other, you deadlock. Use buffered channels or ensure sender/receiver goroutines are properly coordinated.

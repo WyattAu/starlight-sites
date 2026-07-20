@@ -332,3 +332,11 @@ Stalin's industrialisation and collectivisation transformed the USSR at enormous
 victory over Nazi Germany came at a price of approximately 27 million Soviet dead. Key
 historiographical debates concern the continuity between Lenin and Stalin, whether October was a
 coup or a popular rising, and whether Stalin's brutal methods were necessary for modernisation.
+
+
+
+## Cross-References
+
+- **[Source Analysis](../history/diagnostics/diag-source-analysis):** Source analysis skills support historical study
+- **[Essay Techniques](../history/11-essay-techniques/1_essay_techniques):** Essay writing is essential for history
+- **[Tudor England](../history/2-tudor-england/1_tudor-england):** Tudor period provides rich historical material

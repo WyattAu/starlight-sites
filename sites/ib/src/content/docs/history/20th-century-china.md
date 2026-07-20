@@ -199,3 +199,17 @@ The history of 20th-century China connects directly to several IB Paper 2 topics
 ## Intuition
 
 China's twentieth century is like watching a river change course multiple times -- the Qing collapse, warlord fragmentation, civil war, Mao's revolutionary transformation, and Deng's market reforms represent not a straight line but a series of violent pivots. Each pivot was driven by the failure of the previous system: the Qing could not modernise, the warlords could not unite, the KMT could not govern, and Mao's collectivism could not feed the population. The CCP's genius was learning from each failure -- Mao's Great Leap Forward killed millions, and Deng's reforms were explicitly framed as correcting Mao's mistakes. The through-line is a civilisation wrestling with how to modernise without losing its identity.
+
+## Common Mistakes
+
+**Assuming the CCP's victory was inevitable:** Revisionist historians emphasise contingent factors (KMT corruption, Japanese invasion, Soviet support) rather than presenting Communist victory as historically determined.
+
+**Confusing the Nanjing Decade with stability:** While the KMT achieved nominal unification, it faced ongoing challenges from warlords, Communists, and Japanese aggression. The period was far from stable.
+
+**Forgetting the human cost of Mao's policies:** The Great Leap Forward caused 15-55 million deaths. The Cultural Revolution caused 500,000-2 million deaths. These aren't abstract numbers — they represent real human suffering.
+
+## Cross-References
+
+- **[Cold War](../history/cold-war):** Cold War geopolitics shaped the 20th century
+- **[Authoritarian States](../history/authoritarian-states):** Authoritarian regimes are key case studies
+- **[Causes and Effects](../history/causes-and-effects-of-wars):** Wars have profound causes and effects

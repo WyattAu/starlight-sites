@@ -25,3 +25,11 @@ Haskell's approach to programming — purity, immutability, and referential tran
 - **[Category Theory](/docs/university/mathematics/category-theory)**: Functors, natural transformations, and monads have their mathematical foundations here.
 
 Browse the content using the sidebar navigation on the left.
+
+## Common Mistakes
+
+**Confusing laziness with inefficiency:** Lazy evaluation delays computation until needed, which can save work (short-circuit evaluation, infinite data structures). But it can also cause space leaks when thunks accumulate. Strictness annotations (`BangPatterns`, `StrictData`) control this.
+
+**Assuming all Haskell code is pure:** The IO monad allows side effects (I/O, state, exceptions). Haskell is pure by default, but `IO` is a deliberate escape hatch. Understanding which code is pure and which is effectful is essential for reasoning about correctness.
+
+**Overcomplicating simple problems:** Haskell beginners often reach for complex abstractions (monad transformers, free monads) when simpler solutions exist. Start with plain functions and basic types. Only add abstraction when you have a concrete need.

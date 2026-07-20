@@ -356,3 +356,17 @@ $$\%\text{ efficiency} = \frac{208.6}{726} \times 100\% = 28.7\%$$
 
 This low efficiency is due to significant heat loss to the surroundings, incomplete combustion, and
 heat absorbed by the container.
+
+## Common Mistakes
+
+**Forgetting to multiply by stoichiometric coefficients in Hess's law:** When using combustion or formation data, multiply each value by the coefficient from the balanced equation. The student in Unit Test 1 forgot to multiply ΔHf°(H₂O) by 2.
+
+**Confusing bond breaking (endothermic) with bond forming (exothermic):** Breaking bonds requires energy (+ΔH), forming bonds releases energy (-ΔH). ΔH = bonds broken - bonds formed, not the other way around.
+
+**Using average bond enthalpies for precise calculations:** Average bond enthalpies give approximate values because they're averaged across many compounds. For accurate results, use standard enthalpies of formation or combustion.
+
+## Cross-References
+
+- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is foundational
+- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium connects topics
+- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is a major area

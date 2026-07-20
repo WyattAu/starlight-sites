@@ -189,3 +189,8 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Cross-References
+
+- **[Algebra](./diag-algebra.md):** Equations and expressions.
+- **[Geometry](./diag-geometry.md):** Shapes and measurements.

@@ -279,6 +279,14 @@ t2 := time.Date(2026, 5, 30, 10, 0, 0, 0, loc) // same instant, different zone
 t1.Equal(t2)  // true
 ```
 
+## Intuition
+
+**Strings are just byte sequences with UTF-8 encoding:** Think of a Go string as an immutable array of bytes that happens to be encoded in UTF-8. The `strings` package gives you tools to manipulate these bytes — searching, splitting, trimming, and converting case. Time handling is about parsing and formatting these byte representations of dates and times.
+
+**Why it matters:** String manipulation is fundamental to data processing, parsing, and formatting. Understanding Go's string handling (UTF-8 aware, immutable) prevents bugs like assuming strings are arrays of characters. Time handling is essential for logging, scheduling, and data processing.
+
+**The key insight:** Go strings are immutable — every string operation creates a new string. For heavy string concatenation in loops, use `strings.Builder` to avoid quadratic allocation.
+
 ## Common Pitfalls
 
 1. **Using += for string concatenation in loops.** Each `+=` allocates a new string. Use

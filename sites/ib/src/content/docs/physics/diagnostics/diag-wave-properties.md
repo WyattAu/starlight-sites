@@ -304,3 +304,17 @@ This demonstrates that:
 - Filters do not "block" light; they project the electric field onto their transmission axis
 - Intermediate rotations allow transmission through crossed polarisers, which is the principle
   behind liquid crystal displays and optical activity measurements
+
+## Common Mistakes
+
+**Confusing diffraction with interference:** Diffraction is waves spreading around obstacles. Interference is waves superposing. Diffraction causes the spreading; interference creates the pattern.
+
+**Forgetting that polarisation only applies to transverse waves:** Longitudinal waves (sound) cannot be polarised because their oscillation is parallel to propagation.
+
+**Mixing up constructive and destructive interference:** Constructive occurs when waves are in phase (crest meets crest). Destructive occurs when out of phase (crest meets trough).
+
+## Cross-References
+
+- **[Kinematics](../physics/flashcards-kinematics):** Kinematics describes motion
+- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
+- **[Waves](../physics/flashcards-waves):** Waves transfer energy

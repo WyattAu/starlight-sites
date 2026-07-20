@@ -340,3 +340,11 @@ fishing quotas.)
 - Manufacturing and installing wind turbines has an **environmental cost** (mining for materials,
   energy for construction).
 - The initial setup cost is high, although operational costs are low.
+
+## Common Mistakes
+
+**Confusing species richness with species evenness:** Species richness is just the number of different species, while species evenness measures how evenly individuals are distributed among those species. A community with 5 species where one dominates (90% of individuals) has the same richness but much lower evenness than one where all species are equally abundant.
+
+**Forgetting that Simpson's Diversity Index ranges from 0 to 1 where higher means more diverse:** Students often assume a higher D value means less diversity. Remember: D = 0 means no diversity (one species dominates entirely), while D = 1 means maximum diversity.
+
+**Mixing up in situ and ex situ conservation:** In situ means "on site" (protecting species in their natural habitat), while ex situ means "off site" (zoos, seed banks). Don't confuse which preserves the entire ecosystem versus just individual species.

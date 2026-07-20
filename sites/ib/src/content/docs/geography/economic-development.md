@@ -172,3 +172,11 @@ Economic development in IB Geography examines how development is measured (indic
 the theoretical frameworks explaining disparities (Rostow, dependency theory), and the roles of
 trade, aid, TNCs, and international organisations. Students must critically evaluate development
 strategies using quantitative data and qualitative case study evidence from contrasting countries.
+
+
+
+## Cross-References
+
+- **[Climate Change](../geography/climate-change):** Climate change affects all geography
+- **[Population](../geography/population-distribution):** Population distribution is studied
+- **[Economic Development](../geography/economic-development):** Development is a core topic
