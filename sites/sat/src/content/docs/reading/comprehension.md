@@ -14,8 +14,22 @@ SAT reading study notes - Comprehension
 - **Inferences**: logical conclusions drawn from textual evidence. Must be directly supported — not reasonable guesses.
 - **Purpose**: why the author wrote the passage or included a specific detail — to inform, persuade, entertain, or explain.
 - **Tone**: the author's attitude toward the subject — objective, critical, enthusiastic, skeptical. Determined by word choice.
+- **Structure**: how the passage is organised — chronological, compare/contrast, cause/effect, problem/solution.
 
-## Worked Example
+## Question Type Strategy
+
+| Question Type | Signal Words | Strategy |
+|---------------|-------------|----------|
+| Main idea | "primary purpose", "central claim" | Find the thesis; check first/last paragraph |
+| Detail | "according to the passage", "the author states" | Locate specific text; match exactly |
+| Inference | "implies", "suggests", "most likely" | Go one step beyond the text; no leaps |
+| Purpose | "the author includes X to" | Ask why that detail serves the argument |
+| Tone | "the author's attitude" | Look at word choice (connotations) |
+| Vocabulary | "as used in line X", "most nearly means" | Replace the word in context; test each option |
+
+## Worked Examples
+
+### Example 1: Main Idea
 
 **Problem:** The passage states that "the committee decided to postpone the project indefinitely." What can be inferred?
 
@@ -23,6 +37,35 @@ SAT reading study notes - Comprehension
 Step 1: "Postpone" means delay; "indefinitely" means with no set end date
 Step 2: The committee has not cancelled the project but has no current plans to continue
 Step 3: The correct inference is that the project may resume in the future but there is no timeline
+
+---
+
+### Example 2: Purpose Question
+
+**Problem:** The author mentions "a 2019 study" in paragraph 3. What is the primary purpose of this reference?
+
+**Solution:**
+Step 1: Read the sentence containing the reference
+Step 2: Check what claim the study supports
+Step 3: The study provides evidence for the author's argument — it is not the main point itself
+Step 4: Choose the answer that says "to provide evidence for" or "to support the claim that"
+
+**Key insight:** Specific examples, studies, and data are always in service of a broader claim. The question asks what function they serve.
+
+---
+
+### Example 3: Vocabulary in Context
+
+**Problem:** "The scientist's findings were **provocative**." What does "provocative" most nearly mean?
+
+**Solution:**
+Step 1: Read the surrounding sentences for context
+Step 2: If the findings sparked debate or challenged existing views, "provocative" means "stimulating discussion"
+Step 3: It does NOT mean "annoying" or "offensive" — test each option by substituting it back
+
+**Key insight:** The SAT tests words with multiple meanings. Always use context, not just the most common definition.
+
+---
 
 ## Intuition
 

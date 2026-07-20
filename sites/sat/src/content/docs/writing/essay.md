@@ -14,8 +14,23 @@ SAT writing study notes - Essay
 - **Analysis**: explaining how evidence supports the thesis. Don't just list evidence — explain its significance.
 - **Organisation**: clear introduction, body paragraphs with topic sentences, and conclusion. Each body paragraph focuses on one supporting point.
 - **Transitions**: words and phrases that connect ideas between sentences and paragraphs — "however," "for example," "in contrast."
+- **Counterargument**: acknowledging and refuting opposing views strengthens your argument.
+- **Style**: varied sentence structure, precise vocabulary, and appropriate tone for the audience.
 
-## Worked Example
+## Essay Template
+
+| Section | Content | Time |
+|---------|---------|------|
+| Introduction | Hook + context + thesis statement | 5 min |
+| Body ¶1 | Strongest argument + evidence + analysis | 8 min |
+| Body ¶2 | Second argument + evidence + analysis | 8 min |
+| Body ¶3 | Third argument OR counterargument + rebuttal | 8 min |
+| Conclusion | Restate thesis + broader significance | 4 min |
+| Revision | Check flow, grammar, clarity | 7 min |
+
+## Worked Examples
+
+### Example 1: Thesis Statement
 
 **Problem:** Write a thesis statement for an essay arguing that schools should require community service.
 
@@ -23,6 +38,34 @@ SAT writing study notes - Essay
 Step 1: Identify the position: schools should require community service
 Step 2: Identify reasons: builds character, serves the community, develops skills
 Step 3: Thesis: "Schools should require community service because it builds character, strengthens communities, and develops practical skills that classroom learning alone cannot provide."
+
+**Key insight:** A strong thesis is specific, arguable, and previews your supporting points.
+
+---
+
+### Example 2: Evidence + Analysis
+
+**Problem:** You claim that "reading fiction improves empathy." How do you support this?
+
+**Solution:**
+Step 1 (Evidence): "A 2013 study in Science found that reading literary fiction significantly improved participants' scores on tests measuring empathy and social perception."
+Step 2 (Analysis): "This study demonstrates that fiction does not merely entertain — it actively trains readers to understand others' perspectives. By inhabiting characters' inner lives, readers practise the cognitive skill of perspective-taking, which transfers to real-world social interactions."
+
+**Key insight:** Evidence without analysis is just a list. Always explain WHY the evidence supports your claim.
+
+---
+
+### Example 3: Counterargument
+
+**Problem:** You argue for mandatory uniforms. How do you address the opposing view?
+
+**Solution:**
+Step 1 (Counterargument): "Critics argue that uniforms suppress individuality and self-expression."
+Step 2 (Rebuttal): "However, uniforms do not eliminate self-expression — they redirect it. Students express individuality through accessories, hairstyles, and activities. Moreover, uniforms reduce socioeconomic visibility, decreasing bullying based on clothing."
+
+**Key insight:** Acknowledging the strongest counterargument and refuting it makes your argument more persuasive than ignoring opposing views.
+
+---
 
 ## Intuition
 

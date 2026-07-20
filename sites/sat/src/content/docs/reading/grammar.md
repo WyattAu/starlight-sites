@@ -14,8 +14,23 @@ SAT reading study notes - Grammar
 - **Comma Usage**: commas separate items in a series, set off introductory clauses, and join independent clauses with a conjunction. Never use a comma alone to join two independent clauses.
 - **Semicolons**: join two independent clauses without a conjunction. "It was late; we went home." Also separate items in complex lists.
 - **Modifier Placement**: modifiers should be placed next to the word they modify. Misplaced modifiers create ambiguity.
+- **Apostrophes**: possessives use apostrophes ("the dog's bone"); contractions use apostrophes ("it's" = "it is"). Never use apostrophes for plurals.
 
-## Worked Example
+## Quick Reference: Punctuation Rules
+
+| Punctuation | Use | Example |
+|------------|-----|---------|
+| Comma | List items | "apples, bananas, and cherries" |
+| Comma | Introductory clause | "After the meeting, we left" |
+| Comma + conjunction | Join independent clauses | "It was late, so we left" |
+| Semicolon | Join independent clauses (no conjunction) | "It was late; we left" |
+| Colon | Introduce a list or explanation | "You need three things: time, money, and effort" |
+| Apostrophe | Possession | "the teacher's desk" |
+| Apostrophe | Contraction | "don't" = "do not" |
+
+## Worked Examples
+
+### Example 1: Dangling Modifier
 
 **Problem:** "Running quickly, the finish line was reached." Is this sentence correct?
 
@@ -23,6 +38,34 @@ SAT reading study notes - Grammar
 Step 1: The participial phrase "Running quickly" should modify the subject performing the action
 Step 2: The subject is "the finish line" — a finish line cannot run
 Step 3: Correct: "Running quickly, the runner reached the finish line"
+
+---
+
+### Example 2: Comma Splice
+
+**Problem:** "The experiment failed, the team decided to start over." Fix the error.
+
+**Solution:**
+Step 1: "The experiment failed" is an independent clause
+Step 2: "the team decided to start over" is an independent clause
+Step 3: Two independent clauses joined by only a comma = comma splice
+Step 4: Fix: "The experiment failed**;** the team decided to start over" (semicolon)
+   OR: "The experiment failed**, so** the team decided to start over" (comma + conjunction)
+
+---
+
+### Example 3: Subject-Verb Agreement
+
+**Problem:** "Neither the students nor the teacher **were** aware of the change." Is this correct?
+
+**Solution:**
+Step 1: With "neither...nor," the verb agrees with the **nearer** subject
+Step 2: "the teacher" is nearer and is singular
+Step 3: Correct: "Neither the students nor the teacher **was** aware of the change"
+
+**Key insight:** "Neither...nor" and "either...or" follow proximity agreement — the verb matches the subject closest to it.
+
+---
 
 ## Intuition
 

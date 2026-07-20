@@ -14,8 +14,22 @@ SAT writing study notes - Language
 - **Parallel Structure**: items in a list or comparison must have the same grammatical form — all gerunds, all infinitives, or all clauses.
 - **Conciseness**: eliminate redundant words and phrases. "Due to the fact that" → "because."
 - **Transition Words**: use appropriate transitions to show relationships — cause/effect, contrast, addition, sequence.
+- **Modifier Placement**: modifiers must be next to the word they modify. Dangling modifiers create confusion.
+- **Comma Rules**: use commas after introductory elements, between items in a list, and before coordinating conjunctions joining independent clauses.
 
-## Worked Example
+## Key Rules
+
+| Rule | Incorrect | Correct |
+|------|-----------|---------|
+| Subject-verb agreement | "The group of students **were** late" | "The group of students **was** late" |
+| Parallel structure | "She likes **swimming, to run, and cycling**" | "She likes **swimming, running, and cycling**" |
+| Modifier placement | "**Walking to school**, the rain started" | "**Walking to school**, I noticed the rain started" |
+| Conciseness | "Due to the fact that" | "Because" |
+| Comma splice | "It was late**,** we went home" | "It was late**;** we went home" |
+
+## Worked Examples
+
+### Example 1: Parallel Structure
 
 **Problem:** "She likes swimming, to run, and cycling." Is this sentence correct?
 
@@ -23,6 +37,34 @@ SAT writing study notes - Language
 Step 1: The list items have different forms: gerund (swimming), infinitive (to run), gerund (cycling)
 Step 2: Parallel structure requires the same form for all items
 Step 3: Correct: "She likes swimming, running, and cycling" (all gerunds)
+
+---
+
+### Example 2: Subject-Verb Agreement
+
+**Problem:** "The collection of rare stamps **were** recently sold." Fix the error.
+
+**Solution:**
+Step 1: The true subject is "collection" (singular), not "stamps"
+Step 2: "of rare stamps" is a prepositional phrase — ignore it for agreement
+Step 3: Correct: "The collection of rare stamps **was** recently sold"
+
+**Key insight:** Prepositional phrases between subject and verb are the SAT's favourite trap. Find the true subject first.
+
+---
+
+### Example 3: Dangling Modifier
+
+**Problem:** "After reviewing the data, the conclusion was obvious." Is this correct?
+
+**Solution:**
+Step 1: "After reviewing the data" is a participial phrase
+Step 2: It must modify the subject of the main clause — but "the conclusion" did not review the data
+Step 3: Correct: "After reviewing the data, **the researchers found** the conclusion obvious"
+
+**Key insight:** A dangling modifier has no logical subject in the main clause. Add the missing subject.
+
+---
 
 ## Intuition
 
