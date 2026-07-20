@@ -9,25 +9,20 @@ SAT writing study notes - Language
 
 ## Key Concepts
 
-- Core definitions and principles
-- Important strategies and techniques
-- Worked examples with step-by-step solutions
-- Common test patterns and tips
+- **Subject-Verb Agreement**: the verb must agree with the true subject. Ignore prepositional phrases between subject and verb.
+- **Pronoun Clarity**: every pronoun must clearly refer to one antecedent. Avoid ambiguous references.
+- **Parallel Structure**: items in a list or comparison must have the same grammatical form — all gerunds, all infinitives, or all clauses.
+- **Conciseness**: eliminate redundant words and phrases. "Due to the fact that" → "because."
+- **Transition Words**: use appropriate transitions to show relationships — cause/effect, contrast, addition, sequence.
 
 ## Worked Example
 
-**Problem:** [Describe a typical problem]
+**Problem:** "She likes swimming, to run, and cycling." Is this sentence correct?
 
 **Solution:**
-Step 1: Identify the question type
-Step 2: Apply the relevant strategy
-Step 3: Calculate the answer
-
-## Practice Problems
-
-1. [Problem 1]
-2. [Problem 2]
-3. [Problem 3]
+Step 1: The list items have different forms: gerund (swimming), infinitive (to run), gerund (cycling)
+Step 2: Parallel structure requires the same form for all items
+Step 3: Correct: "She likes swimming, running, and cycling" (all gerunds)
 
 ## Intuition
 

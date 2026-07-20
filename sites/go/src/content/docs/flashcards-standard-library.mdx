@@ -27,6 +27,18 @@ Go's standard library is deliberately comprehensive — the language philosophy 
 - **Ignoring errors**: Go returns `(value, error)` tuples — discarding the error with `_` hides failures that will bite you later. Always check `err != nil`.
 - **String indexing**: `s[i]` returns a `byte`, not a rune — iterating over a string by index breaks for multi-byte UTF-8 characters. Use `for _, r := range s` instead.
 - **Deferred function arguments**: Arguments to `defer` are evaluated immediately when the statement executes, not when the function returns — this catches many developers off guard.
+- **HTTP client timeouts**: The default `http.Client` has no timeout — requests can hang forever. Always set `Timeout` on production HTTP clients.
+- **JSON struct tags**: Forgetting `json:"name"` tags means Go uses the field name as-is (capitalised), which may not match the expected API field name. Always add explicit tags.
+
+## Study Tips
+
+- **Read the standard library source:** Go's standard library is well-documented and readable. Reading `fmt`, `strings`, and `io` source code teaches idiomatic Go patterns.
+- **Use `go doc` and `godoc`:** Run `go doc fmt.Println` or `godoc -http=:6060` to browse documentation offline. The standard library docs are comprehensive.
+- **Practice error handling patterns:** Write functions that return `(T, error)` and handle each error explicitly. This builds the discipline that prevents silent failures in production.
+- **Write HTTP servers with net/http:** Build a simple REST API using only the standard library. This demonstrates Go's approach to web development without external dependencies.
+- **Explore the testing package:** Use `testing.T` and table-driven tests to verify your code. Go's testing framework is built into the language and encourages thorough coverage.
+- **Practise with io.Reader and io.Writer interfaces:** These interfaces are the foundation of Go's I/O model. Write programs that read from files, write to network connections, and pipe data through multiple transformations.
+- **Study the context package:** Context controls cancellation, timeouts, and request-scoped values in Go programs. Understanding context is essential for writing production-grade Go services.
 
 ---
 

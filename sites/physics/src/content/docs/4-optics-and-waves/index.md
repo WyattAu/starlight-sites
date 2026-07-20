@@ -40,10 +40,10 @@ University-level optics and wave physics notes covering interference, diffractio
 
 ## Topics Covered
 
-- **Wave Equation**: Derivation, solutions, superposition principle
-- **Interference**: Young"s slits, thin films, Michelson interferometer
-- **Diffraction**: Single slit, grating, Fraunhofer and Fresnel regimes
-- **Polarisation**: Malus's law, birefringence, wave plates
+- **Wave Equation**: Derivation, solutions, superposition principle. The wave equation ∂²u/∂t² = v²∇²u describes all wave phenomena — sound, light, water waves.
+- **Interference**: Young's slits, thin films, Michelson interferometer. When waves overlap, they add constructively or destructively, producing interference patterns.
+- **Diffraction**: Single slit, grating, Fraunhofer and Fresnel regimes. Diffraction is the bending of waves around obstacles, limiting the resolution of optical systems.
+- **Polarisation**: Malus's law, birefringence, wave plates. Polarisation is the orientation of the electric field vector in electromagnetic waves.
 
 ## Prerequisites
 
@@ -71,14 +71,15 @@ Each section includes:
 
 ## Study Tips
 
-1. **Master the wave equation**: Understand the physical meaning of wave solutions
-2. **Practise problems**: Work through many problems to build intuition
-3. **Draw diagrams**: Visualise interference and diffraction patterns
-4. **Learn Fourier optics**: Understand the connection between spatial and frequency domains
-5. **Connect to applications**: Relate optics to lasers, imaging, and telecommunications
+1. **Master the wave equation**: Understand the physical meaning of wave solutions. The wave equation describes all wave phenomena — sound, light, water, and seismic waves.
+2. **Practise problems**: Work through many problems to build intuition. Interference and diffraction patterns require careful calculation of path differences.
+3. **Draw diagrams**: Visualise interference and diffraction patterns. Diagrams help identify constructive and destructive interference conditions.
+4. **Learn Fourier optics**: Understand the connection between spatial and frequency domains. Fourier transforms relate the aperture pattern to the far-field diffraction pattern.
+5. **Connect to applications**: Relate optics to lasers, imaging, and telecommunications. Optical fibres, holography, and adaptive optics all use wave physics principles.
 
 ## Cross-References
 
-- **[Electromagnetism](../../3-electromagnetism/index.md):** Electromagnetic wave theory.
-- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum optics and photonics.
-- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Wave mechanics foundations.
+- **[Electromagnetism](../../3-electromagnetism/index.md):** Electromagnetic wave theory; light is an electromagnetic wave.
+- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum optics and photonics; photons are quantum particles of light.
+- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Wave mechanics foundations; oscillations and vibrations are mechanical waves.
+- **[Mathematics](../../mathematics/index.md):** Fourier analysis and complex numbers are essential mathematical tools for optics.

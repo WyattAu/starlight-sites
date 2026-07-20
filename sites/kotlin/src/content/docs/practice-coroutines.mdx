@@ -188,6 +188,14 @@ suspend fun main() {
 
 **Solution:** `withContext` switches the coroutine's dispatcher for a specific block while maintaining structured concurrency. The thread name changes between steps, demonstrating the context switch. The coroutine resumes on the original context after `withContext` completes.
 
+## Intuition
+
+**Coroutines are lightweight threads for asynchronous programming:** Instead of blocking a thread while waiting for I/O, coroutines suspend execution and resume when the result is available. This enables handling thousands of concurrent operations with minimal resources.
+
+**Why it matters:** Coroutines simplify asynchronous code that would otherwise require complex callback chains or reactive streams.
+
+**The key insight:** Structured concurrency ensures that coroutines are properly cancelled and cleaned up — preventing memory leaks and orphaned background work.
+
 ## Common Mistakes
 
 **Launching coroutines without a scope:** Coroutines must be launched within a CoroutineScope. Using GlobalScope leaks coroutines that survive beyond their intended lifecycle. Always use structured concurrency with appropriate scopes.

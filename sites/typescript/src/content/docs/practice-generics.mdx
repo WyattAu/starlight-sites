@@ -193,6 +193,14 @@ emitter.emit("login", "user-42");
 emitter.emit("purchase", 29.99, "item-7");
 ```
 
+## Intuition
+
+**Generics let you write code that works with any type:** Instead of writing separate functions for numbers, strings, and objects, generics let you write one function that works with all types while maintaining type safety.
+
+**Why it matters:** Generics are essential for writing reusable, type-safe libraries and data structures.
+
+**The key insight:** Generic constraints (extends) let you require that type parameters have specific properties — this provides flexibility while maintaining type safety.
+
 ## Common Mistakes
 
 **Using generics when union types suffice:** `function f<T>(x: T): T` is often overkill. If the function doesnt need to be generic, use a union type or overload instead. Generics add complexity — use them only when you need type-parameterised behavior.

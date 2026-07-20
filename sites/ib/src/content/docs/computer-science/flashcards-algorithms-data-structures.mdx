@@ -18,13 +18,13 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ### Key Concepts
 
-**Boolean Logic**: AND, OR, NOT, XOR gates form the foundation of digital circuits. De Morgan's laws connect them: NOT(A AND B) = (NOT A) OR (NOT B). These are used in circuit design and logical expressions in programming.
+**Boolean Logic**: AND, OR, NOT, XOR gates form the foundation of digital circuits. De Morgan's laws connect them: NOT(A AND B) = (NOT A) OR (NOT B), and NOT(A OR B) = (NOT A) AND (NOT B). These are used in circuit design and logical expressions in programming. Truth tables show all possible input-output combinations for each gate. NAND and NOR gates are "universal" -- any Boolean expression can be built using only NAND or only NOR gates.
 
-**Sorting Algorithms**: Bubble sort (O(n²), simple but slow), insertion sort (O(n²), good for small/partially sorted data), merge sort (O(n log n), divide and conquer, stable), quicksort (O(n log n) average, O(n²) worst, in-place). The choice depends on data size, initial order, and memory constraints.
+**Sorting Algorithms**: Bubble sort (O(n²), simple but slow -- repeatedly swaps adjacent elements), insertion sort (O(n²), good for small/partially sorted data -- builds sorted array one element at a time), merge sort (O(n log n), divide and conquer, stable -- splits array in half, sorts each half, merges), quicksort (O(n log n) average, O(n²) worst, in-place -- uses a pivot to partition). The choice depends on data size, initial order, and memory constraints. For IB exams, you must be able to trace through each algorithm and state its time complexity.
 
-**Data Structures**: Arrays (fixed size, O(1) access), linked lists (dynamic size, O(n) access), stacks (LIFO), queues (FIFO), trees (hierarchical, O(log n) search if balanced), hash tables (O(1) average lookup). Each has strengths and weaknesses for different operations.
+**Data Structures**: Arrays (fixed size, O(1) access by index, O(n) insertion/deletion), linked lists (dynamic size, O(n) access, O(1) insertion/deletion at head), stacks (LIFO -- last in, first out; push/pop operations), queues (FIFO -- first in, first out; enqueue/dequeue), trees (hierarchical, O(log n) search if balanced -- binary search trees), hash tables (O(1) average lookup -- uses hash function to map keys to indices). Each has strengths and weaknesses for different operations.
 
-**Searching Algorithms**: Linear search (O(n), works on unsorted data), binary search (O(log n), requires sorted data). Binary search halves the search space each step, making it exponentially faster for large datasets.
+**Searching Algorithms**: Linear search (O(n), works on unsorted data -- checks each element sequentially), binary search (O(log n), requires sorted data -- repeatedly halves the search space). Binary search is exponentially faster for large datasets: for n = 1,000,000, linear search takes up to 1,000,000 comparisons; binary search takes at most 20. Always check if data is sorted before choosing binary search.
 
 ---
 
@@ -34,18 +34,23 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ## Intuition
 
-Think of data structures as different types of containers. An array is like a row of numbered mailboxes -- you can go directly to any box if you know its number. A linked list is like a treasure hunt -- each clue points to the next. A hash table is like a filing system with a magic index that tells you exactly where to look. Sorting algorithms are different strategies for organising a messy pile of papers -- some are simple but slow, others are clever but complex.
+Think of data structures as different types of containers. An array is like a row of numbered mailboxes -- you can go directly to any box if you know its number. A linked list is like a treasure hunt -- each clue points to the next. A hash table is like a filing system with a magic index that tells you exactly where to look. Sorting algorithms are different strategies for organising a messy pile of papers -- some are simple but slow, others are clever but complex. The choice of algorithm and data structure is the core of computer science -- it determines how efficiently your program runs.
+
+**Why it matters**: Algorithms and data structures are the building blocks of all software. Choosing the right algorithm can mean the difference between a program that runs in seconds and one that takes years. Understanding Big O notation helps you predict how your code scales as data grows -- essential for building efficient, real-world systems.
+
+---
 
 ## Common Pitfalls
 
-- Confusing time complexities. O(n²) is much worse than O(n log n) for large n. For n = 1,000,000: O(n²) = 10¹² operations; O(n log n) ≈ 2 × 10⁷ operations. The difference is enormous.
-- Forgetting that binary search requires sorted data. Using binary search on unsorted data gives incorrect results. Always sort first or use linear search.
-- Assuming the fastest algorithm is always best. Quicksort is fast on average but has O(n²) worst case. For guaranteed O(n log n), use merge sort -- but it requires extra memory. Context matters.
+- Confusing time complexities. O(n²) is much worse than O(n log n) for large n. For n = 1,000,000: O(n²) = 10¹² operations; O(n log n) ≈ 2 × 10⁷ operations. The difference is enormous. Always compare algorithms using their Big O notation.
+- Forgetting that binary search requires sorted data. Using binary search on unsorted data gives incorrect results. Always sort first or use linear search. This is a common exam trick -- the question gives unsorted data and expects you to notice.
+- Assuming the fastest algorithm is always best. Quicksort is fast on average but has O(n²) worst case. For guaranteed O(n log n), use merge sort -- but it requires extra memory. Context matters: small datasets may be faster with insertion sort despite its O(n²) complexity.
+- Confusing stacks and queues. Stack = LIFO (like a pile of plates); Queue = FIFO (like a queue at a shop). Using the wrong one for the problem gives incorrect results.
 
-
+---
 
 ## Cross-References
 
-- **[System Fundamentals](../computer-science/flashcards-system-fundamentals):** CS fundamentals are essential
-- **[Algorithms](../computer-science/flashcards-algorithms-data-structures):** Algorithm design is core
-- **[Networking](../computer-science/flashcards-networks-databases):** Networks are a major topic
+- **[System Fundamentals](../computer-science/flashcards-system-fundamentals):** CS fundamentals cover number systems, logic gates, and hardware architecture that underpin algorithm design.
+- **[Networking](../computer-science/flashcards-networks-databases):** Networks use algorithms for routing, error detection, and data transmission efficiency.
+- **[Programming and OOP](../computer-science/flashcards-programming-oop):** Programming paradigms implement algorithms and data structures in code.

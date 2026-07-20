@@ -16,23 +16,29 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ### Additional Flashcard Topics
 
-- **Average Velocity**: displacement divided by time interval. It is a vector quantity (has direction), unlike speed which is scalar. Average velocity = total displacement / total time. A car travelling 100 km north in 2 hours has average velocity 50 km/h north.
+- **Average Velocity**: displacement divided by time interval. It is a vector quantity (has direction), unlike speed which is scalar. Average velocity = total displacement / total time. A car travelling 100 km north in 2 hours has average velocity 50 km/h north. Average speed, by contrast, uses total distance: if the car took a winding route of 120 km, average speed = 120/2 = 60 km/h.
 
-- **Instantaneous Velocity**: the velocity of an object at a specific instant. Found by taking the gradient of a displacement-time graph at that point. Mathematically, v = ds/dt.
+- **Instantaneous Velocity**: the velocity of an object at a specific instant. Found by taking the gradient of a displacement-time graph at that point. Mathematically, v = ds/dt. On a position-time graph, a steeper slope means greater speed. If the slope is negative, the object moves in the negative direction.
 
-- **Uniform Acceleration**: acceleration that is constant over time. When acceleration is uniform, we can use the four SUVAT equations to relate displacement (s), initial velocity (u), final velocity (v), acceleration (a), and time (t).
+- **Uniform Acceleration**: acceleration that is constant over time. When acceleration is uniform, we can use the four SUVAT equations to relate displacement (s), initial velocity (u), final velocity (v), acceleration (a), and time (t). The equations are: v = u + at, s = ut + ½at², v² = u² + 2as, s = ½(u+v)t. These only apply when acceleration is constant.
 
-- **Projectile Motion**: motion under gravity alone (ignoring air resistance). An object launched horizontally still has horizontal velocity that remains constant, while vertical velocity increases due to gravity (g ≈ 9.81 m/s²).
+- **Projectile Motion**: motion under gravity alone (ignoring air resistance). An object launched horizontally still has horizontal velocity that remains constant, while vertical velocity increases due to gravity (g ≈ 9.81 m/s²). The trajectory is a parabola. At the highest point, vertical velocity is zero but horizontal velocity is unchanged. Time of flight depends only on initial vertical velocity and g.
+
+- **Free Fall**: a special case of uniformly accelerated motion where the only force is gravity. All objects in free fall near Earth's surface accelerate at g ≈ 9.81 m/s² downward, regardless of mass (ignoring air resistance). A feather and a hammer fall at the same rate in a vacuum.
+
+- **Relative Motion**: velocity is always measured relative to a reference frame. A passenger walking forward on a moving train has a ground velocity equal to the train's velocity plus the passenger's velocity relative to the train. Velocities add vectorially: if the train moves east at 20 m/s and the passenger walks north at 1 m/s, the ground velocity is √(20² + 1²) ≈ 20.02 m/s at a slight angle.
 
 ## Intuition
 
-Think of kinematics as the "grammar" of motion. Just as grammar tells you how words fit together without worrying about meaning, kinematics describes how position, velocity, and acceleration relate without worrying about forces. A car speeding up on a highway is like a function with positive gradient on a v-t graph.
+Think of kinematics as the "grammar" of motion. Just as grammar tells you how words fit together without worrying about meaning, kinematics describes how position, velocity, and acceleration relate without worrying about forces. A car speeding up on a highway is like a function with positive gradient on a v-t graph. The area under a velocity-time graph gives displacement, and the area under an acceleration-time graph gives the change in velocity. Mastering these graphical interpretations is essential for DSE questions that ask you to extract information from diagrams rather than equations.
 
 ## Common Pitfalls
 
 - **Confusing distance and displacement**: distance is scalar (total path), displacement is vector (net change in position). A runner who completes a full lap has zero displacement but positive distance.
-- **Forgetting direction**: velocity and acceleration are vectors. Negative velocity means moving in the negative direction, not slowing down.
-- **Using g as positive**: in equations, gravity acts downward. If up is positive, then g = -9.81 m/s².
+- **Forgetting direction**: velocity and acceleration are vectors. Negative velocity means moving in the negative direction, not slowing down. An object can have negative velocity and positive acceleration (slowing down while moving in the negative direction).
+- **Using g as positive**: in equations, gravity acts downward. If up is positive, then g = -9.81 m/s². Sign errors with g are the single most common mistake in kinematics problems.
+- **Assuming horizontal and vertical motion affect each other**: in projectile motion, horizontal velocity is constant (no horizontal force) while vertical velocity changes due to gravity. These components are independent and must be analysed separately.
+- **Forgetting that time is the same for both components**: when solving projectile problems, the time of flight is identical for horizontal and vertical motion. Use the vertical component to find time, then apply it to the horizontal component.
 
 <FlashcardDeck client:only="solid-js" deckId="dse-physics-kinematics" title="DSE Physics: Kinematics" description="Master scalars and vectors, SUVAT equations, projectile motion and kinematics graph analysis for the HKDSE Physics exam." cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
 
@@ -40,6 +46,7 @@ Think of kinematics as the "grammar" of motion. Just as grammar tells you how wo
 
 ## Cross-References
 
-- **[Mechanics](../physics/diagnostics/diag-mechanics):** Kinematics is part of mechanics
-- **[Waves](../physics/diagnostics/diag-waves-sound):** Kinematics connects to waves
-- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Kinematics is foundational
+- **[Mechanics](../physics/diagnostics/diag-mechanics):** Kinematics is part of mechanics; forces and dynamics build directly on kinematic concepts.
+- **[Waves](../physics/diagnostics/diag-waves-sound):** Wave motion involves periodic kinematics; understanding oscillatory motion helps with wave analysis.
+- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Circuit analysis uses similar mathematical techniques (rate of change, area under curves) as kinematics graphs.
+- **[Mathematics Compulsory](../maths/flashcards-compulsory):** Quadratic equations and trigonometry from maths are directly applied in kinematics problems.

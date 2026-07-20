@@ -37,6 +37,14 @@ thermodynamic properties from partition functions, and ensembles.
 
 <PracticeProblem client:only="solid-js" question={"The equipartition theorem states that each quadratic degree of freedom contributes $\\frac{1}{2}k_BT$ to the internal energy. For a diatomic gas at moderate temperatures (translational and rotational modes fully excited, vibrational modes frozen), what is $C_V$?&quot; options={[ '$C_V = \\frac{5}{2}R$ per mole (3 translational + 2 rotational degrees of freedom)', '$C_V = \\frac{3}{2}R$ (translational only)', '$C_V = 3R$ (including vibration)', '$C_V = \\frac{7}{2}R$', ]} correctAnswer={0} explanation=&quot;A diatomic molecule has 3 translational degrees of freedom (contributes $3/2 R$ to $C_V$), 2 rotational (linear molecule rotates about 2 axes, contributes $2 \\times 1/2 R = R$), and 1 vibrational mode. At moderate temperatures ($T_{\\text{rot}} \\ll T \\ll T_{\\text{vib}}$), vibration is not excited. Total $C_V = 3/2 R + R = 5/2 R$. At very high $T$, vibration adds $R$ more (kinetic + potential), giving $7/2 R$."} difficulty="easy"  />
 
+## Intuition
+
+**Statistical mechanics bridges the microscopic and macroscopic worlds:** A single molecule has no "temperature" or "entropy" — these are emergent properties of vast numbers of particles. Statistical mechanics uses probability to connect the behaviour of individual atoms to the bulk properties we measure in the lab.
+
+**Why it matters:** It explains *why* thermodynamic laws work, predicts material properties from first principles, and is essential for understanding phase transitions, protein folding, and climate models.
+
+**The key insight:** Entropy is really about the number of microstates — the more ways a system can arrange itself while looking the same macroscopically, the higher its entropy.
+
 ## Common Mistakes
 
 **Confusing $C_V$ and $C_P$:** For an ideal gas, $C_P = C_V + R$. At constant volume, heat goes entirely into temperature change ($C_V$). At constant pressure, some energy does expansion work, so $C_P > C_V$. Using $C_V$ when the process is at constant pressure (or vice versa) gives wrong heat calculations.

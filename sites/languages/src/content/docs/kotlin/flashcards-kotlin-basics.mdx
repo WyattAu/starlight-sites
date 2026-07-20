@@ -15,16 +15,38 @@ Space to flip, rate 1-4.
 
 ---
 
+### Additional Flashcard Topics
+
+- **Null Safety**: `String?` is nullable; `String` is non-nullable. The compiler enforces null checks: `?.` (safe call), `?:` (elvis operator), `!!` (force unwrap — dangerous).
+
+- **Data Classes**: `data class User(val name: String, val age: Int)` auto-generates `equals`, `hashCode`, `toString`, `copy`, and destructuring.
+
+- **Sealed Classes**: restricted class hierarchies. All subclasses are known at compile time, enabling exhaustive `when` expressions.
+
+- **Extension Functions**: `fun String.isEmail() = ...` — add methods to existing types without modifying them. Resolved statically (not polymorphic).
+
+- **Coroutines**: `suspend` functions, `launch`, `async`, `withContext`. Lightweight concurrency; coroutines are multiplexed onto threads by the runtime.
+
+- **Delegation**: `by lazy { ... }` for lazy initialization; `by observable { ... }` for change notification; custom delegates via `ReadOnlyProperty`/`ReadWriteProperty`.
+
 ## Intuition
 
-Kotlin is a modern JVM language that combines object-oriented and functional programming. Null safety is enforced at the type level — the compiler prevents null pointer exceptions by making nullable types explicit. Coroutines provide lightweight concurrency without callback hell, and inline functions eliminate the overhead of passing lambdas by inlining the lambda body at the call site. Data classes auto-generate equals, hashCode, toString, and copy methods.
+Kotlin is a modern JVM language that combines object-oriented and functional programming. Null safety is enforced at the type level — the compiler prevents null pointer exceptions by making nullable types explicit. Coroutines provide lightweight concurrency without callback hell, and inline functions eliminate the overhead of passing lambdas by inlining the lambda body at the call site. Data classes auto-generate equals, hashCode, toString, and copy methods. Kotlin is fully interoperable with Java — you can use Java libraries from Kotlin and vice versa.
 
 ## Common Pitfalls
 
 - **`var` vs `val` misuse**: Using `var` when `val` suffices makes code harder to reason about — prefer immutability and only use `var` when reassignment is truly needed.
 - **Scope function confusion**: `let`, `run`, `with`, `apply`, and `also` differ in context object (`this` vs `it`) and return value — mixing them up leads to unreadable code.
 - **Coroutine dispatcher selection**: Running CPU-bound work on `Dispatchers.Main` freezes the UI; running IO-bound work on `Dispatchers.Default` wastes CPU threads — match the dispatcher to the work type.
+- **Confusing `is` and `as`**: `is` checks type (with smart cast); `as` casts (throws ClassCastException on failure). Use `as?` for safe casting.
+- **Inline function overhead**: `inline` eliminates lambda allocation but can increase code size. Use `noinline` for parameters that shouldn't be inlined.
 
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="kotlin-basics" title="Kotlin -- Fundamentals" description="30 interactive flashcards covering null safety, coroutines, scope functions, data classes, sealed classes, extension functions, delegation, companion objects, type system, collections, and more." cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
+
+## Cross-References
+
+- **[Swift Basics](../../swift/flashcards-swift-basics.mdx):** Null safety and protocol-oriented patterns compared across languages.
+- **[Java Basics](../../java/flashcards-java-basics.mdx):** Kotlin runs on the JVM; understanding Java helps with Kotlin interop.
+- **[Dart Basics](../../dart/flashcards-dart-basics.mdx):** Null safety and async patterns compared across languages.

@@ -118,6 +118,14 @@ tableOfContents: false
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of HSC Physics fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
+## Intuition
+
+**Physics describes the fundamental rules of the universe:** From motion to electricity to quantum phenomena, physics provides mathematical models that predict how the natural world behaves. It is the most quantitative of the sciences.
+
+**Why it matters:** Physics understanding underpins all technology — from smartphones to solar panels to medical imaging devices.
+
+**The key insight:** Physics is about building models — choosing the right simplification for the right situation. A physicist knows when to treat a car as a point mass and when its internal structure matters.
+
 ## Common Mistakes
 
 **Confusing weight and mass:** Weight is a force ($W = mg$, in Newtons). Mass is the amount of matter (in kg). On Earth, $g = 9.8$ m/s², so a 10 kg mass has a weight of 98 N. Confusing the two leads to wrong force calculations.

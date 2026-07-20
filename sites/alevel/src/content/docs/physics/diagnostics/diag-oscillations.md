@@ -326,6 +326,14 @@ $$T' = \frac{2\pi}{4.610} = 1.363\,\text{s}$$
 The period increases when the tube is tilted because the effective restoring acceleration is
 reduced.
 
+## Intuition
+
+**Oscillations are everywhere in nature:** From pendulums to sound waves to electrons in atoms, oscillatory motion is one of nature's fundamental behaviours. Understanding oscillations explains music, electronics, and structural engineering.
+
+**Why it matters:** Oscillation concepts underpin telecommunications (radio waves), medical imaging (MRI), and timekeeping (clocks).
+
+**The key insight:** Simple harmonic motion is the "universal" oscillation — any system near a stable equilibrium oscillates approximately sinusoidally, regardless of the specific forces involved.
+
 ## Common Mistakes
 
 **Confusing current and voltage:** Current (A) is the flow of charge; voltage (V) is the energy per unit charge. Resistance opposes current, not voltage. Students often say "the resistor uses up the voltage" when they should say "the voltage drops across the resistor."

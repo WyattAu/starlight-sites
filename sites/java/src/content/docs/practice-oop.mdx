@@ -288,6 +288,14 @@ class Box<T> {
 }
 ```
 
+## Intuition
+
+**Object-oriented programming models real-world entities as objects:** Objects combine data (fields) and behaviour (methods) into cohesive units. Encapsulation hides internal details, inheritance enables code reuse, and polymorphism allows flexible method dispatch.
+
+**Why it matters:** OOP is the dominant paradigm for large-scale software development, enabling teams to build complex systems by decomposing them into manageable objects.
+
+**The key insight:** Favor composition over inheritance — inheriting implementation creates tight coupling, while composing objects with interfaces creates flexible, testable code.
+
 ## Common Mistakes
 
 **Confusing composition with inheritance:** Inheritance ("is-a" relationship) should only be used when the subclass is genuinely a subtype. Composition ("has-a" relationship) is preferred when the subclass merely uses functionality. Overusing inheritance creates fragile class hierarchies.

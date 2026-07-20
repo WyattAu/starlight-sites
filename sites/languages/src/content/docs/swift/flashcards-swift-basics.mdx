@@ -16,6 +16,18 @@ import { flashcards1, flashcards2 } from '@/data/flashcards/swift/flashcards-swi
 
 ---
 
+### Additional Flashcard Topics
+
+- **Optionals**: `var x: Int?` can hold `nil`. Unwrap with `if let`, `guard let`, `??` (nil-coalescing), or `!` (force unwrap — dangerous). Optionals enforce nil safety at compile time.
+
+- **Protocol-Oriented Programming**: protocols define capabilities; structs/classes adopt them. Protocols support default implementations, enabling composition over inheritance.
+
+- **Value Types vs Reference Types**: structs and enums are value types (copied on assignment); classes are reference types (shared). Value types prevent unintended shared state mutations.
+
+- **Error Handling**: `throw`, `try`, `catch`, `do-catch` blocks. `throws` marks functions that can throw. `try?` converts errors to optionals; `try!` force-unwraps (crashes on error).
+
+- **Closures**: `{ (params) -> ReturnType in body }`. Trailing closure syntax, shorthand argument names (`$0`, `$1`), and implicit returns for single expressions.
+
 ## Intuition
 
 Swift is designed for safety and performance — optionals force you to handle the possibility of nil values at compile time, value types (structs, enums) are copied rather than shared, and ARC (Automatic Reference Counting) manages memory without a garbage collector. Protocols define capabilities that types can adopt, and protocol-oriented programming (POP) favours composition over inheritance. Enums in Swift are algebraic data types that can carry associated values, making them far more powerful than C-style enums.
@@ -25,6 +37,8 @@ Swift is designed for safety and performance — optionals force you to handle t
 - **Force unwrap (`!`)**: Using `!` on an optional that is nil crashes the program at runtime — prefer `guard let`, `if let`, or the nil-coalescing operator (`??`).
 - **Reference cycle with closures**: Capturing `self` strongly in a closure creates a retain cycle — use `[weak self]` or `[unowned self]` capture lists.
 - **Value vs reference semantics**: Structs are value types (copied on assignment), classes are reference types (shared) — confusion here leads to unexpected mutations or shared state bugs.
+- **Mutating methods on value types**: Methods that modify `self` must be marked `mutating`. Forgetting this causes compile errors when trying to modify struct properties.
+- **Protocol witness tables**: Protocol conformance is checked at compile time, but dynamic dispatch through protocols has overhead compared to static dispatch.
 
 ---
 
@@ -34,3 +48,4 @@ Swift is designed for safety and performance — optionals force you to handle t
 
 - **[Kotlin Null Safety](../../kotlin/advanced/null-safety-deep-dive.md):** Optional handling patterns similar to Swift's optionals.
 - **[Dart Introduction](../../dart/01-intro.md):** Language comparison including Swift's compilation and concurrency model.
+- **[Rust Ownership](../../rust/flashcards-rust-basics.mdx):** Memory safety without garbage collection; Rust uses ownership instead of ARC.

@@ -27,13 +27,32 @@ import { flashcards1, flashcards2, flashcards3 } from '@/data/flashcards/physics
 
 ---
 
-<FlashcardDeck client:only="solid-js" deckId="university-physics-electromagnetism" title="University Physics — Electromagnetism" description="Electrostatics, magnetism, electromagnetic induction, Maxwell's equations, and electromagnetic waves" cards={[...flashcards1, ...flashcards2, ...flashcards3]}  />
+### Additional Flashcard Topics
+
+- **Gauss's Law**: ∮ E · dA = Q/ε₀. The electric flux through a closed surface equals the enclosed charge divided by ε₀. For symmetric charge distributions (spherical, cylindrical, planar), this gives E directly.
+
+- **Ampere's Law**: ∮ B · dl = μ₀I. The line integral of B around a closed loop equals μ₀ times the enclosed current. With Maxwell's correction (displacement current), it becomes ∇ × B = μ₀J + μ₀ε₀ ∂E/∂t.
+
+- **Faraday's Law**: ∮ E · dl = -dΦ_B/dt. A changing magnetic flux induces an electric field. This is the principle behind transformers, generators, and electromagnetic induction.
+
+- **Lorentz Force**: F = q(E + v × B). The force on a charged particle is the sum of electric and magnetic contributions. The magnetic part is always perpendicular to velocity, doing no work.
+
+- **Electromagnetic Waves**: solutions to Maxwell's equations in free space are transverse waves traveling at c = 1/√(μ₀ε₀). The electric and magnetic fields are perpendicular to each other and to the direction of propagation.
+
+## Intuition
+
+**Electricity and magnetism as one force:** Electromagnetism unifies two seemingly separate forces — electric charges push and pull, magnetic poles attract and repel, but they are actually the same force viewed from different reference frames. A moving charge creates a magnetic field; a changing magnetic field creates an electric field.
+
+**Why it matters:** Electromagnetism is the force behind almost all everyday phenomena — light, electronics, chemistry, and biology all depend on electromagnetic interactions. Maxwell equations are the foundation of all electrical engineering.
+
+**The key insight:** Light is an electromagnetic wave — Maxwell equations predicted the speed of light from electrical and magnetic constants, revealing that light is just one manifestation of the electromagnetic spectrum. This unification of optics and electromagnetism was one of the greatest achievements in physics.
 
 ## Cross-References
 
-- **[Electromagnetism](../index.md):** Maxwell's equations and electromagnetic theory.
-- **[Optics and Waves](../../4-optics-and-waves/index.md):** Electromagnetic waves and optics.
-- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Electromagnetic forces in classical mechanics.
+- **[Electromagnetism](../index.md):** Maxwell's equations and electromagnetic theory; the complete mathematical description of electric and magnetic fields.
+- **[Optics and Waves](../../4-optics-and-waves/index.md):** Electromagnetic waves and optics; light is an electromagnetic wave.
+- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Electromagnetic forces in classical mechanics; charged particle motion in fields.
+- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum electrodynamics; the quantum theory of electromagnetic interactions.
 
 ## Common Mistakes
 
@@ -42,3 +61,7 @@ import { flashcards1, flashcards2, flashcards3 } from '@/data/flashcards/physics
 **Forgetting that magnetic forces do no work:** The Lorentz force F = qv × B is always perpendicular to velocity. It changes direction but not speed. Including magnetic work in energy calculations is wrong.
 
 **Mixing up SI and Gaussian units:** Coulomb's law is F = q₁q₂/(4πε₀r²) in SI; F = q₁q₂/r² in Gaussian. Mixing unit systems gives answers off by factors of 4π or c.
+
+**Confusing electric flux with electric field:** Electric flux is the integral of E · dA over a surface; electric field is a vector at a point. Gauss's law relates flux to charge, not field to charge directly.
+
+**Forgetting the displacement current:** Maxwell's correction to Ampere's law (∂E/∂t term) is essential for electromagnetic waves. Without it, the theory predicts no wave solutions.

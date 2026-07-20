@@ -11,15 +11,29 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 20 interactive flashcards for university-level Complex Analysis. Press Space to flip, rate 1-4.
 ---
 
+### Additional Flashcard Topics
+
+- **Cauchy-Riemann Equations**: for f(z) = u + iv to be analytic, we need uₓ = vᵧ and uᵧ = -vₓ. These are necessary but not sufficient — the partial derivatives must also be continuous. If satisfied, f is infinitely differentiable (analytic).
+
+- **Cauchy's Integral Formula**: if f is analytic inside and on a simple closed contour C, and a is inside C, then f(a) = (1/2πi) ∮_C f(z)/(z-a) dz. This remarkable result means the value inside is determined entirely by boundary values.
+
+- **Residue Theorem**: ∮_C f(z) dz = 2πi × Σ Res(f, aₖ) where the sum is over singularities inside C. The residue is the coefficient a₋₁ in the Laurent expansion. This converts contour integrals into algebraic computations.
+
+- **Maximum Modulus Principle**: if f is analytic and non-constant on a domain, then |f| has no local maximum inside the domain — the maximum occurs on the boundary. This constrains the behaviour of analytic functions.
+
+- **Argument Principle**: ∮_C f'(z)/f(z) dz = 2πi(Z - P) where Z is the number of zeros and P the number of poles inside C (counted with multiplicity). This counts zeros and poles from boundary data.
+
 ## Intuition
 
-Complex analysis studies functions of complex numbers — and the surprise is how much more rigid and beautiful they are than real functions. If a complex function is differentiable once, it's infinitely differentiable (analytic). The Cauchy-Riemann equations encode this rigidity: the real and imaginary parts of an analytic function are harmonic (satisfy Laplace's equation). Contour integration and the residue theorem turn hard real integrals into simple algebraic computations by counting poles inside closed curves.
+Complex analysis studies functions of complex numbers — and the surprise is how much more rigid and beautiful they are than real functions. If a complex function is differentiable once, it's infinitely differentiable (analytic). The Cauchy-Riemann equations encode this rigidity: the real and imaginary parts of an analytic function are harmonic (satisfy Laplace's equation). Contour integration and the residue theorem turn hard real integrals into simple algebraic computations by counting poles inside closed curves. The key insight is that analytic functions are "rigid" — their global behaviour is determined by local properties.
 
 ## Common Pitfalls
 
 - **Cauchy-Riemann as a sufficient condition**: The Cauchy-Riemann equations are necessary but not sufficient for differentiability — the partial derivatives must also be continuous at the point.
 - **Residue theorem misapplication**: The residue theorem requires the contour to be closed and positively oriented, and the function must be analytic inside except at isolated singularities — violating any condition invalidates the result.
 - **Branch cut confusion**: Multi-valued functions (log, z^(1/n)) require branch cuts to define a single-valued branch — choosing the wrong branch cut leads to discontinuities across the cut.
+- **Forgetting the 2πi factor**: The residue theorem includes a factor of 2πi. Forgetting this gives answers that are off by this factor. Always include it in your calculation.
+- **Confusing poles with essential singularities**: At a pole of order m, the Laurent series has finitely many negative-power terms. At an essential singularity, there are infinitely many — the Casorati-Weierstrass theorem describes behaviour near essential singularities.
 
 ---
 
@@ -28,5 +42,6 @@ Complex analysis studies functions of complex numbers — and the surprise is ho
 ## Cross-References
 
 - **[Complex Analysis](../index.md):** Analytic functions and contour integration fundamentals.
-- **[Real Analysis](../../3-real-analysis/index.md):** Foundational analysis extended to complex numbers.
-- **[Number Theory](../../7-number-theory/index.md):** Complex analysis in analytic number theory.
+- **[Real Analysis](../../3-real-analysis/index.md):** Foundational analysis extended to complex numbers; continuity and limits are shared concepts.
+- **[Number Theory](../../7-number-theory/index.md):** Complex analysis in analytic number theory (e.g., prime number theorem via zeta function).
+- **[ODEs](../../5-ordinary-differential-equations/index.md):** Contour integration for solving ODEs and inverse Laplace transforms.

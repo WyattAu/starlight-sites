@@ -232,6 +232,14 @@ Version control and never edited manually.
 | **FreeBSD/OpenBSD**                  | Networking, infrastructure |
 | **Embedded** (GOOS=linux GOARCH=arm) | IoT, routers, ARM devices  |
 
+## Intuition
+
+**Go is simplicity by design:** Created at Google to solve real engineering problems, Go deliberately omits features found in other languages (generics were added later, no inheritance, no exceptions). This simplicity means faster compilation, easier maintenance, and less cognitive overhead.
+
+**Why it matters:** Go excels at concurrent servers, command-line tools, and cloud infrastructure. Its fast compilation and static binaries make it ideal for containerised deployments.
+
+**The key insight:** Go's goroutines and channels make concurrent programming accessible — instead of complex thread management, you communicate between lightweight processes using channels.
+
 ## Common Pitfalls
 
 1. **Not setting `GOPATH`/`GOBIN` on `$PATH`.** `go install` places binaries in `$GOPATH/bin` or

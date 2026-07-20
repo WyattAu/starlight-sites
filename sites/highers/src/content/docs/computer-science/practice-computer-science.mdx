@@ -45,6 +45,14 @@ import PracticeProblem from "@components/PracticeProblem";
 
 <PracticeProblem client:only="solid-js" question={"Which network security measure encrypts data transmitted between a client and a web server, and what protocol is commonly used to establish this secure connection?&quot; options={[ 'SSL/TLS encryption is used, with HTTPS (HTTP Secure) being the protocol that uses TLS to encrypt data transmitted between client and server.', 'A firewall is used, with FTPS being the protocol that encrypts data by filtering packets at the network boundary.', 'MAC address filtering is used, with SSH being the protocol that encrypts web traffic using key pairs.', 'WPA2 encryption is used, with SMTP being the protocol that secures client-server communication through password authentication.', ]} correctAnswer={0} explanation=&quot;SSL (Secure Sockets Layer) and its successor TLS (Transport Layer Security) are cryptographic protocols that encrypt data transmitted between a client (web browser) and a server. HTTPS (HTTP Secure) is the protocol that implements TLS encryption on top of HTTP. When a user connects to a website using HTTPS, the browser and server perform a TLS handshake to establish a secure encrypted connection, exchange certificates to verify the server\'s identity, and then transmit all data in encrypted form. This protects sensitive information (passwords, credit card numbers) from being intercepted during transmission. SSL is now considered insecure and has been deprecated in favour of TLS. A firewall filters traffic, MAC filtering restricts network access by device, and WPA2 secures wireless networks -- none of these encrypt transmitted web data."} difficulty="easy"  />
 
+## Intuition
+
+**Computer science is the study of computation and information:** It spans algorithms (how to solve problems efficiently), data structures (how to organise information), and systems (how computers work). The unifying theme is transforming inputs into outputs through well-defined processes.
+
+**Why it matters:** Every app, website, and digital device relies on computer science principles. Understanding these concepts lets you build reliable, efficient software and understand the technology that shapes modern life.
+
+**The key insight:** Abstraction is the most powerful tool in computing — by hiding complexity behind simple interfaces, we can build enormously complex systems from understandable components.
+
 ## Common Mistakes
 
 **Confusing stack and heap memory:** The stack stores local variables and function call frames (fast, limited size). The heap stores dynamically allocated objects (slower, larger). Stack overflow occurs when too many recursive calls or large local arrays exhaust stack space.

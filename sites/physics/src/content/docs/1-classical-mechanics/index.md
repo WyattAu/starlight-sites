@@ -30,10 +30,10 @@ University-level classical mechanics notes covering Lagrangian, Hamiltonian, and
 
 ## Topics Covered
 
-- **Lagrangian Mechanics**: Generalised coordinates, Euler-Lagrange equations, constraints
-- **Hamiltonian Mechanics**: Phase space, canonical transformations, Hamilton-Jacobi theory
-- **Central Force Problems**: Kepler orbits, scattering, potential theory
-- **Rigid Body Dynamics**: Rotations, inertia tensor, Euler equations
+- **Lagrangian Mechanics**: Generalised coordinates, Euler-Lagrange equations, constraints. Lagrangian mechanics reformulates Newton's laws using energy rather than forces, making constrained systems tractable.
+- **Hamiltonian Mechanics**: Phase space, canonical transformations, Hamilton-Jacobi theory. Hamiltonian mechanics provides the foundation for quantum mechanics and statistical mechanics.
+- **Central Force Problems**: Kepler orbits, scattering, potential theory. Central forces (gravity, electrostatics) lead to conservation of angular momentum and closed orbits.
+- **Rigid Body Dynamics**: Rotations, inertia tensor, Euler equations. Rotational motion requires tensor mathematics — the inertia tensor relates angular velocity to angular momentum.
 
 ## Prerequisites
 
@@ -61,14 +61,15 @@ Each section includes:
 
 ## Study Tips
 
-1. **Master Lagrangian mechanics**: Understand the principle of least action and generalised coordinates
-2. **Practise problems**: Work through many problems to build intuition
-3. **Draw diagrams**: Visualise coordinate systems and phase space
-4. **Learn symmetries**: Understand Noether's theorem and conservation laws
-5. **Connect to advanced physics**: Relate classical mechanics to quantum mechanics and field theory
+1. **Master Lagrangian mechanics**: Understand the principle of least action and generalised coordinates. The Lagrangian formulation is more powerful than Newtonian mechanics for constrained systems.
+2. **Practise problems**: Work through many problems to build intuition. Classical mechanics requires careful application of conservation laws and coordinate transformations.
+3. **Draw diagrams**: Visualise coordinate systems and phase space. Phase portraits reveal the qualitative behaviour of dynamical systems.
+4. **Learn symmetries**: Understand Noether's theorem and conservation laws. Every continuous symmetry corresponds to a conserved quantity — this insight extends to quantum mechanics and field theory.
+5. **Connect to advanced physics**: Relate classical mechanics to quantum mechanics and field theory. The Hamiltonian formulation is the starting point for quantum mechanics; Lagrangian field theory underpins the Standard Model.
 
 ## Cross-References
 
-- **[Thermal Physics](../../2-thermal-physics/index.md):** Statistical mechanics and thermodynamics.
-- **[Electromagnetism](../../3-electromagnetism/index.md):** Electromagnetic forces and fields.
-- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Classical limit of quantum theory.
+- **[Thermal Physics](../../2-thermal-physics/index.md):** Statistical mechanics and thermodynamics; kinetic theory connects classical mechanics to temperature.
+- **[Electromagnetism](../../3-electromagnetism/index.md):** Electromagnetic forces and fields; charged particle motion in electromagnetic fields.
+- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Classical limit of quantum theory; the correspondence principle connects classical and quantum mechanics.
+- **[Mathematics](../../mathematics/index.md):** Multivariable calculus, linear algebra, and differential equations are the mathematical tools of classical mechanics.

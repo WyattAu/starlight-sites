@@ -80,6 +80,26 @@ Rust is a programming language with a rich type system and ecosystem. These note
   </a>
 </CardGrid>
 
+## Intuition
+
+**Rust provides safety without sacrifice:** The borrow checker, ownership system, and type system catch errors at compile time that would be runtime bugs in other languages. This safety comes without garbage collection overhead.
+
+**Why it matters:** Rust is used in operating systems, web browsers, game engines, and cloud infrastructure where performance and reliability are critical.
+
+**The key insight:** Rust's learning curve is steep but the payoff is significant — once the borrow checker "clicks," you write correct code more naturally.
+
+## What You Will Find
+
+- **Fundamentals:** Ownership, borrowing, lifetimes, and pattern matching
+- **Type System:** Traits, generics, enums, and associated types
+- **Error Handling:** Result, Option, the `?` operator, and custom error types
+- **Concurrency:** Threads, async/await, Send/Sync, and lock-free data structures
+- **Ecosystem:** Cargo, crates.io, and the Rust standard library
+
+## Why This Matters
+
+Rust eliminates memory bugs (null pointer dereferences, use-after-free, data races) at compile time without a garbage collector. This makes it ideal for systems programming, embedded development, and performance-critical applications where memory safety and speed are both essential. Understanding Rust's ownership model, lifetime system, and trait-based polymorphism produces code that is both safe and fast.
+
 ## Common Mistakes
 
 **Assuming Rust is hard because of the borrow checker:** The borrow checker enforces memory safety at compile time. Once you understand ownership and lifetimes, you write fewer bugs. The learning curve is steep, but the payoff is significant.

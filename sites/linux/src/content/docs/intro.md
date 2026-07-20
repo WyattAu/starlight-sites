@@ -129,6 +129,14 @@ This section covers the core Linux competencies expected of a systems engineer:
 Editing files). The focus is on depth — understanding _how_ things work, not just _what_ commands to
 Run.
 
+## Intuition
+
+**Linux is the foundation of modern infrastructure:** From smartphones (Android) to supercomputers to cloud servers, Linux runs the majority of the world's computing infrastructure. Understanding Linux is essential for system administration, DevOps, and cloud computing.
+
+**Why it matters:** Linux skills are among the most sought-after in IT. The command line, file system hierarchy, and process management concepts transfer across all Unix-like systems.
+
+**The key insight:** Linux follows the Unix philosophy — small, focused tools that do one thing well, combined via pipes to build complex workflows.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -9,25 +9,25 @@ SAT mathematics study notes - Algebra
 
 ## Key Concepts
 
-- Core definitions and principles
-- Important strategies and techniques
-- Worked examples with step-by-step solutions
-- Common test patterns and tips
+- **Linear Equations**: y = mx + b models constant rate of change. Slope m = rise/run; b is the starting value. Parallel lines have equal slopes; perpendicular lines have negative reciprocal slopes.
+- **Quadratic Equations**: y = ax² + bx + c models parabolic relationships. Solutions found by factoring, completing the square, or the quadratic formula: x = (-b ± √(b²-4ac)) / 2a.
+- **Systems of Equations**: two or more equations solved simultaneously. Use substitution (solve one equation, substitute into the other) or elimination (add/subtract equations to eliminate a variable).
+- **Inequalities**: like equations but with <, >, ≤, ≥. Flip the inequality when multiplying/dividing by a negative number.
 
 ## Worked Example
 
-**Problem:** [Describe a typical problem]
+**Problem:** If 3x + 7 = 22, what is the value of 6x + 14?
 
 **Solution:**
-Step 1: Identify the question type
-Step 2: Apply the relevant strategy
-Step 3: Calculate the answer
+Step 1: Solve for x: 3x = 15, so x = 5
+Step 2: Notice that 6x + 14 = 2(3x + 7) = 2(22) = 44
+Step 3: The answer is 44 — recognising the relationship avoids recalculating from scratch.
 
 ## Practice Problems
 
-1. [Problem 1]
-2. [Problem 2]
-3. [Problem 3]
+1. Solve for x: 2(x - 3) = 4x + 6
+2. If f(x) = x² - 5x + 6, find all values of x where f(x) = 0
+3. A system: x + y = 10, x - y = 4. Find x and y.
 
 ## Intuition
 

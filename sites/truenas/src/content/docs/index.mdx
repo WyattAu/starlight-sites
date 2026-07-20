@@ -15,12 +15,40 @@ hero:
 
 TrueNAS configuration and administration: ZFS pool management, dataset and zvol creation, SMB/NFS sharing, snapshots and replication, cloud sync, user management, and performance tuning. Covers both TrueNAS CORE (FreeBSD-based) and TrueNAS SCALE (Linux-based).
 
+## Why This Matters
+
+TrueNAS is a widely-used open-source storage platform for home labs, small businesses, and enterprise environments. Understanding ZFS concepts (pools, datasets, snapshots, replication) is essential for building reliable, performant storage systems. These notes cover both the theoretical foundations of ZFS and the practical administration of TrueNAS, from initial setup to advanced data protection strategies.
+
+## Getting Started
+
+Start with ZFS fundamentals: pools, datasets, and zvols. Then learn sharing protocols (SMB for Windows, NFS for Linux/macOS). Move to snapshot management, replication, and cloud sync for data protection. Finally, explore performance tuning and monitoring.
+
+## Practical Applications
+
+- **Home labs:** TrueNAS provides affordable, reliable storage for media, backups, and virtual machines. ZFS snapshots protect against accidental deletion and ransomware.
+- **Small business:** TrueNAS SCALE supports Docker containers and VMs alongside traditional file sharing, making it a versatile platform for mixed workloads.
+- **Enterprise:** TrueNAS Enterprise provides high-availability, replication, and integration with Active Directory for large-scale deployments.
+
 ## Key Topics
 
 - **ZFS Pools** — Creating, expanding, and monitoring storage pools
 - **Shares** — SMB, NFS, and iSCSI configuration
 - **Snapshots** — Automatic and manual snapshot management
 - **Cloud Sync** — Backing up to AWS, Google Cloud, Backblaze B2
+
+## Resources
+
+- TrueNAS documentation (TrueNAS.com/docs) — Official administration guides
+- OpenZFS documentation (openzfs.github.io/openzfs-docs) — ZFS internals and concepts
+- TrueNAS community forums (forums.truenas.com) — Community support and discussion
+
+## Intuition
+
+**TrueNAS is a storage operating system built on open source:** Based on FreeBSD and OpenZFS, TrueNAS provides enterprise-grade storage features — snapshots, replication, encryption, and redundancy — through a web-based interface.
+
+**Why it matters:** TrueNAS provides affordable, reliable network-attached storage for homes and businesses, with data protection features that prevent data loss.
+
+**The key insight:** ZFS is both a filesystem and a volume manager — it handles RAID, snapshots, compression, and checksums in a single integrated system.
 
 ## Common Mistakes
 
@@ -29,6 +57,11 @@ TrueNAS configuration and administration: ZFS pool management, dataset and zvol 
 **Ignoring snapshot management:** ZFS snapshots are lightweight but accumulate over time. Without a retention policy, old snapshots consume space indefinitely. Configure automatic snapshot pruning.
 
 **Confusing ZFS datasets with volumes:** Datasets are filesystem-like containers within a pool (share via SMB/NFS). Volumes (zvols) are raw block devices (used for VMs, iSCSI). Using the wrong type for your workload leads to performance issues.
+
+## Study Approach
+
+Start with ZFS fundamentals before moving to sharing protocols and cloud sync. Build a test lab with TrueNAS SCALE in a VM to experiment safely. Read the release notes for each version to understand new features.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for truenas notes.

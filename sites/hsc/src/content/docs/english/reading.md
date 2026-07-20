@@ -147,6 +147,14 @@ Step 5: Conclusion: The journal article is more reliable for academic purposes, 
 
 **Answer:** Journal articles are more reliable due to peer review, empirical evidence, and methodological rigour. Blog posts should be used cautiously and cross-referenced with authoritative sources.
 
+## Intuition
+
+**Reading comprehension is active engagement with text:** Effective reading is not passive — it involves questioning, analysing, and evaluating what you read. Understanding an author's purpose, audience, and technique deepens your comprehension.
+
+**Why it matters:** Strong reading skills are essential for academic success across all subjects, professional communication, and informed citizenship.
+
+**The key insight:** Authors make deliberate choices about language, structure, and form — identifying these choices reveals deeper meaning beyond the surface content.
+
 ## Common Mistakes
 
 ### Mistake 1: Describing techniques without explaining their effect

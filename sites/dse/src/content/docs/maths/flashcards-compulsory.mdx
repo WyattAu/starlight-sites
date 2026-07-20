@@ -16,23 +16,29 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ### Additional Flashcard Topics
 
-- **Quadratic Formula**: for ax² + bx + c = 0, x = (-b ± √(b² - 4ac)) / (2a). The discriminant Δ = b² - 4ac determines the nature of roots: Δ > 0 two real roots, Δ = 0 one repeated root, Δ < 0 no real roots.
+- **Quadratic Formula**: for ax² + bx + c = 0, x = (-b ± √(b² - 4ac)) / (2a). The discriminant Δ = b² - 4ac determines the nature of roots: Δ > 0 two real roots, Δ = 0 one repeated root, Δ < 0 no real roots. When Δ is a perfect square, the roots are rational. When Δ is positive but not a perfect square, the roots are irrational conjugates.
 
-- **Sum and Product of Roots**: for ax² + bx + c = 0, sum of roots = -b/a, product of roots = c/a. These are derived directly from the quadratic formula without solving.
+- **Sum and Product of Roots**: for ax² + bx + c = 0, sum of roots α + β = -b/a, product of roots αβ = c/a. These are derived directly from the quadratic formula without solving. They are useful for forming new equations: if the roots of one equation are needed to form another, use these relationships.
 
-- **Logarithm Laws**: logₐ(xy) = logₐx + logₐy, logₐ(x/y) = logₐx - logₐy, logₐ(xⁿ) = n·logₐx. Change of base: logₐx = logₓx / logₓa.
+- **Logarithm Laws**: logₐ(xy) = logₐx + logₐy, logₐ(x/y) = logₐx - logₐy, logₐ(xⁿ) = n·logₐx. Change of base: logₐx = logₓx / logₓa. Special cases: logₐ1 = 0, logₐa = 1. These laws allow you to simplify complex logarithmic expressions and solve equations.
 
-- **Sine and Cosine Rules**: Sine rule: a/sinA = b/sinB = c/sinC. Cosine rule: a² = b² + c² - 2bc·cosA. Used for non-right-angled triangles.
+- **Sine and Cosine Rules**: Sine rule: a/sinA = b/sinB = c/sinC. Cosine rule: a² = b² + c² - 2bc·cosA. Used for non-right-angled triangles. The sine rule works when you have a matching side-angle pair. The cosine rule works when you have two sides and the included angle, or three sides.
+
+- **Arithmetic and Geometric Sequences**: arithmetic sequence: aₙ = a₁ + (n-1)d where d is common difference. Geometric sequence: aₙ = a₁ × r^(n-1) where r is common ratio. Sum of arithmetic series: Sₙ = n/2 × (2a₁ + (n-1)d). Sum of geometric series: Sₙ = a₁(1-rⁿ)/(1-r) for r ≠ 1.
+
+- **Functions and Transformations**: for y = af(b(x-h)) + k, the transformations are: a = vertical stretch/compression and reflection, b = horizontal stretch/compression and reflection, h = horizontal shift, k = vertical shift. Domain restrictions apply: for f(x) = √x, x ≥ 0; for f(x) = 1/x, x ≠ 0.
 
 ## Intuition
 
-Mathematics compulsory part is about building a toolkit of techniques. Each formula (quadratic, logarithmic, trigonometric) is a tool for a specific type of problem. The key is recognising which tool fits the problem, not memorising the tool in isolation.
+Mathematics compulsory part is about building a toolkit of techniques. Each formula (quadratic, logarithmic, trigonometric) is a tool for a specific type of problem. The key is recognising which tool fits the problem, not memorising the tool in isolation. Think of problem-solving as diagnosis: first identify what type of problem it is (equation, inequality, sequence, function), then apply the appropriate method. The exam rewards systematic thinking over speed.
 
 ## Common Pitfalls
 
-- **Sign errors in quadratics**: when using the quadratic formula, the minus sign before b applies to the entire -b term, not just b.
-- **Logarithm domain errors**: logₐx is only defined for x > 0. Students often forget to check the domain before simplifying.
-- **Confusing sin⁻¹ with 1/sin**: sin⁻¹x is the inverse function (angle), not the reciprocal (cosecant).
+- **Sign errors in quadratics**: when using the quadratic formula, the minus sign before b applies to the entire -b term, not just b. If b = -3, then -b = 3, not -3.
+- **Logarithm domain errors**: logₐx is only defined for x > 0. Students often forget to check the domain before simplifying. Always verify that all arguments are positive before applying log laws.
+- **Confusing sin⁻¹ with 1/sin**: sin⁻¹x is the inverse function (angle whose sine is x), not the reciprocal (cosecant). sin⁻¹(0.5) = 30°, but 1/sin(30°) = 2.
+- **Forgetting the ± in square roots**: √(x²) = |x|, not just x. If x² = 9, then x = ±3. This is critical when solving equations by taking square roots.
+- **Mixing up sequence formulas**: arithmetic uses common difference d, geometric uses common ratio r. Using the wrong formula gives incorrect nth terms and sums.
 
 <FlashcardDeck client:only="solid-js" deckId="dse-maths-compulsory" title="DSE Mathematics: Compulsory Part" description="Master indices, surds, quadratics, functions, coordinate geometry, trigonometry, and sequences for the HKDSE Mathematics exam." cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
 
@@ -40,6 +46,7 @@ Mathematics compulsory part is about building a toolkit of techniques. Each form
 
 ## Cross-References
 
-- **[Functions](../maths/diagnostics/diag-functions):** Functions are core
-- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics are tested
-- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is covered
+- **[Functions](../maths/diagnostics/diag-functions):** Functions are core to the compulsory part; transformations and composite functions are frequently tested.
+- **[Quadratics](../maths/diagnostics/diag-quadratics):** Quadratics appear in equations, inequalities, coordinate geometry, and word problems throughout the exam.
+- **[Trigonometry](../maths/diagnostics/diag-trigonometry):** Trigonometry is covered extensively, including identities, equations, and applications in triangles.
+- **[Physics Kinematics](../physics/flashcards-kinematics):** Kinematics problems directly apply quadratic equations and trigonometric ratios from the compulsory maths syllabus.

@@ -11,15 +11,29 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 20 interactive flashcards for university-level Differential Geometry. Press Space to flip, rate 1-4.
 ---
 
+### Additional Flashcard Topics
+
+- **Smooth Manifold**: a topological space that is locally homeomorphic to ℝⁿ with smooth transition maps. Examples: spheres Sⁿ, torus Tⁿ, projective spaces ℝPⁿ. The tangent space TₚM at a point p is the space of all directional derivatives.
+
+- **Vector Fields**: a vector field on M assigns a tangent vector to each point. Integral curves follow the vector field. The Lie bracket [X,Y] measures how two vector fields fail to commute — it is the infinitesimal version of flowing along X then Y versus Y then X.
+
+- **Differential Forms**: a k-form assigns an alternating multilinear map to each point. They can be integrated over k-dimensional submanifolds. The exterior derivative d turns k-forms into (k+1)-forms, generalising grad, curl, and div.
+
+- **Riemannian Metric**: a positive-definite inner product on each tangent space, varying smoothly from point to point. It defines distances, angles, volumes, and curvature. The metric tensor gᵢⱼ encodes all geometric information.
+
+- **Gaussian Curvature**: K = det(S) where S is the shape operator. K > 0 for spheres, K < 0 for saddles, K = 0 for planes. The Theorema Egregium states that K is intrinsic — it depends only on the metric, not on how the surface sits in space.
+
 ## Intuition
 
-Differential geometry studies the geometry of curved spaces using calculus. A manifold is a space that looks locally like Euclidean space but may be globally curved (like the surface of a sphere). Vector fields assign a tangent vector to each point — think of them as "flows" on the surface. The Riemannian metric measures distances and angles on curved surfaces, and curvature quantifies how much the surface deviates from flat space. The Gauss-Bonnet theorem is a masterpiece: the total curvature of a closed surface depends only on its topology (Euler characteristic).
+Differential geometry studies the geometry of curved spaces using calculus. A manifold is a space that looks locally like Euclidean space but may be globally curved (like the surface of a sphere). Vector fields assign a tangent vector to each point — think of them as "flows" on the surface. The Riemannian metric measures distances and angles on curved surfaces, and curvature quantifies how much the surface deviates from flat space. The Gauss-Bonnet theorem is a masterpiece: the total curvature of a closed surface depends only on its topology (Euler characteristic). This connects local geometry to global topology.
 
 ## Common Pitfalls
 
 - **Curvature sign convention**: Gaussian curvature K is positive for spheres (saddle-shaped curves in both directions), negative for saddles, and zero for planes — but sign conventions vary between authors.
 - **Parallel transport on curved surfaces**: Parallel transporting a vector around a closed loop on a curved surface returns a rotated vector — the rotation angle equals the enclosed curvature, not zero as in flat space.
 - **Geodesic ≠ straight line**: Geodesics are "straightest" curves on curved surfaces, not straight lines in the ambient space — a great circle on a sphere is a geodesic but curved in 3D.
+- **Confusing intrinsic and extrinsic geometry**: intrinsic properties (curvature, distances) depend only on the metric; extrinsic properties (how a surface sits in space) depend on the embedding. The Theorema Egregium shows Gaussian curvature is intrinsic.
+- **Forgetting that differential forms are oriented**: integrating a form over a manifold requires an orientation. Reversing the orientation flips the sign of the integral.
 
 ---
 
@@ -28,5 +42,6 @@ Differential geometry studies the geometry of curved spaces using calculus. A ma
 ## Cross-References
 
 - **[Differential Geometry](../index.md):** Manifolds, curvature, and geodesics fundamentals.
-- **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Partial derivatives and vector calculus on manifolds.
-- **[Topology](../../9-topology/index.md):** Topological spaces underlying smooth manifolds.
+- **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Partial derivatives and vector calculus on manifolds; forms generalise vector calculus.
+- **[Topology](../../9-topology/index.md):** Topological spaces underlying smooth manifolds; smoothness is a topological property.
+- **[Abstract Algebra](../../1-abstract-algebra/index.md):** Lie groups are smooth manifolds with group structure.

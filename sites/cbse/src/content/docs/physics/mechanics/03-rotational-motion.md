@@ -135,6 +135,14 @@ $$\Omega = \frac{\tau}{L} = \frac{0.49}{4} = 0.1225 \text{ rad/s}$$
 
 **Common mistake:** Confusing precession angular velocity with spin angular velocity. Precession is typically much slower than spin.
 
+## Intuition
+
+**Rotational motion extends linear concepts to spinning objects:** Just as linear motion has force, mass, and acceleration, rotational motion has torque, moment of inertia, and angular acceleration. The rotational world mirrors the linear world with different variable names.
+
+**Why it matters:** Rotational motion explains how gears work, why gyroscopes stabilise, how planets orbit, and why ice skaters spin faster when they pull in their arms.
+
+**The key insight:** Moment of inertia is the rotational analogue of mass — it depends not just on how much matter there is, but on how that matter is distributed relative to the axis of rotation.
+
 ## Common Mistakes
 
 ### Mistake 1: Forgetting that moment of inertia depends on the axis of rotation

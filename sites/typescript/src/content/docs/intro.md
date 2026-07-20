@@ -19,7 +19,29 @@ TypeScript's type system catches bugs that JavaScript would only reveal at runti
 - **Advanced patterns**: Mapped types, conditional types, template literal types
 - **React integration**: Typing components, hooks, props, and state in React applications
 
+## How to Get Started
+
+Install TypeScript with `npm install -g typescript` and compile your first `.ts` file with `tsc`. Start with strict mode enabled (`"strict": true` in tsconfig.json) from the beginning — it catches more bugs and teaches good habits. The TypeScript Handbook (typescriptlang.org/docs/handbook) is the definitive reference.
+
 Browse the content using the sidebar navigation on the left.
+
+## Intuition
+
+**TypeScript adds static types to JavaScript:** Types catch errors at compile time that would otherwise be runtime bugs. TypeScript's type system is structural (shapes matter, not names) and gradually adoptable (any JavaScript is valid TypeScript).
+
+**Why it matters:** TypeScript is the standard for large-scale JavaScript development, improving code quality, maintainability, and developer productivity.
+
+**The key insight:** TypeScript's type inference means you rarely need explicit annotations — the compiler can usually figure out types from context.
+
+## Study Approach
+
+Start with TypeScript fundamentals: type annotations, interfaces, and type narrowing. Then learn generics and utility types for writing reusable, type-safe code. Advanced patterns (conditional types, mapped types, template literals) come last — they build on the basics. Use the TypeScript Playground (typescriptlang.org/play) for rapid experimentation.
+
+## Practical Applications
+
+- **React applications:** TypeScript provides type-safe props, hooks, and state management. The `@types/react` package provides comprehensive type definitions.
+- **Node.js backends:** TypeScript catches runtime errors at compile time, improving reliability. Use `ts-node` for development and `tsc` for production builds.
+- **Library development:** TypeScript declarations (`.d.ts` files) provide type information for JavaScript libraries, improving developer experience across the ecosystem.
 
 ## Common Mistakes
 

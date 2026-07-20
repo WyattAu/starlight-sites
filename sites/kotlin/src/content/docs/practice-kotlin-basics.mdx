@@ -69,6 +69,14 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={ 'Why does this code fail to compile without `reified`?\n```\ninline fun <T> myGenericCheck(value: Any) = value is T\n```' } options={[ 'Type parameters are erased at runtime on the JVM, so `T` cannot be checked with `is` without `reified`', '`is` checks are not supported for generic types in Kotlin', 'Inline functions cannot have type parameters', 'The function must be declared as `suspend` to check types at runtime', ]} correctAnswer={0} explanation="The JVM erases generic type parameters at runtime due to type erasure, so `T` is reduced to `Any` and `value is T` would always be true (or fail to compile). The `reified` keyword on an `inline` function tells the compiler to substitute the actual type argument at each call site, making the type available at runtime. Only `inline` functions support `reified` because the compiler inlines the function body with the concrete type." difficulty="hard"  />
 
+## Intuition
+
+**Kotlin combines object-oriented and functional programming:** You can write imperative code with classes and objects or functional code with lambdas and higher-order functions. The language encourages immutable data and expressive, concise syntax.
+
+**Why it matters:** Kotlin's modern features (null safety, smart casts, extension functions) make it more productive than Java for most use cases.
+
+**The key insight:** val vs var is not just about mutability — preferring val makes code easier to reason about and test because you know values will not change.
+
 ## Common Mistakes
 
 **Confusing `val` and `var`:** `val` declares an immutable reference (read-only after assignment). `var` declares a mutable reference. Prefer `val` everywhere possible — immutable code is easier to reason about and thread-safe by default.

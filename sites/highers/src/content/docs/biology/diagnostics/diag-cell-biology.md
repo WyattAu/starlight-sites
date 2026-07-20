@@ -313,6 +313,14 @@ small systematic error. **Improvement**: include a control tube without catalase
 to measure the background rate of spontaneous decomposition, and subtract this from the experimental
 values.
 
+## Intuition
+
+**Cell biology is the study of life's fundamental unit:** Every living organism is built from cells, and understanding their structure and function explains how life works at the most basic level. Organelles are like specialised departments in a factory — each has a specific role that contributes to the cell's survival.
+
+**Why it matters:** Cell biology underpins medicine (understanding disease), biotechnology (engineering cells for production), and genetics (how DNA is expressed). Without grasping cell structure, advanced biology is impossible.
+
+**The key insight:** The fluid mosaic model explains how cell membranes are both barriers and gatekeepers — fluid enough to allow movement, but structured enough to control what enters and exits.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

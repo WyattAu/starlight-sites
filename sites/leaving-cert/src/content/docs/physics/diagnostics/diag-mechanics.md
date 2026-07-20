@@ -318,6 +318,14 @@ same height in a vacuum will reach the ground at the same time. The misconceptio
 air, heavier objects often fall faster due to the ratio of gravitational force to air resistance
 being more favourable for massive objects.
 
+## Intuition
+
+**Mechanics describes how and why things move:** From a ball thrown in the air to a car braking at a junction, mechanics provides the mathematical framework for predicting motion. Forces cause acceleration, and energy conservation constrains what is possible.
+
+**Why it matters:** Mechanics is the foundation of engineering, vehicle safety design, sports science, and structural analysis.
+
+**The key insight:** Free body diagrams are the essential first step — correctly identifying all forces acting on an object determines whether your calculation will be correct.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

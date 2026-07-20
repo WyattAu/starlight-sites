@@ -18,13 +18,13 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ### Key Concepts
 
-**Mole Concept**: One mole contains 6.022 × 10²³ particles (Avogadro's constant). The mole bridges the gap between the microscopic (atoms/molecules) and macroscopic (grams) worlds. Molar mass (g/mol) numerically equals the relative molecular mass.
+**Mole Concept**: One mole contains 6.022 × 10²³ particles (Avogadro's constant, Nₐ). The mole bridges the gap between the microscopic (atoms/molecules) and macroscopic (grams) worlds. Molar mass (g/mol) numerically equals the relative molecular mass (Mr). Number of moles = mass / molar mass (n = m/M). The mole is the central concept of quantitative chemistry -- every calculation involves converting between moles, mass, volume, and number of particles.
 
-**Empirical and Molecular Formula**: The empirical formula is the simplest whole-number ratio of atoms. The molecular formula is the actual number of atoms in a molecule. Determine the empirical formula from percentage composition or mass data, then use the molar mass to find the molecular formula.
+**Empirical and Molecular Formula**: The empirical formula is the simplest whole-number ratio of atoms (e.g., CH₂O for glucose). The molecular formula is the actual number of atoms in a molecule (e.g., C₆H₁₂O₆ for glucose). Determine the empirical formula from percentage composition or mass data by converting to moles, then finding the simplest ratio. Use the molar mass to find the molecular formula: molecular formula = (empirical formula) × n, where n = Mr(empirical) / Mr(molecular).
 
-**Concentration and Solutions**: Concentration (mol/dm³) = moles of solute / volume of solution (dm³). To prepare a solution, dissolve the required moles in solvent and make up to the total volume in a volumetric flask. Dilution: C₁V₁ = C₂V₂.
+**Concentration and Solutions**: Concentration (mol/dm³) = moles of solute / volume of solution (dm³). To prepare a solution, dissolve the required moles in solvent and make up to the total volume in a volumetric flask (not adding solvent to the moles -- the final volume must be correct). Dilution: C₁V₁ = C₂V₂ (moles stay constant, volume changes). 1 dm³ = 1000 cm³ = 1000 mL. Always convert cm³ to dm³ before calculating concentration.
 
-**Titration Calculations**: In acid-base titrations, the equivalence point occurs when moles of acid = moles of base (for monoprotic acid and base). Use the concentration and volume of the known solution to find the unknown. Always record concordant results (within 0.1 cm³) and calculate the mean.
+**Titration Calculations**: In acid-base titrations, the equivalence point occurs when moles of acid = moles of base (for monoprotic acid and base). Use the concentration and volume of the known solution to find the unknown: CₐVₐ = CᵦVᵦ (for 1:1 stoichiometry). Always write the balanced equation first and use the mole ratio. Record concordant results (within 0.1 cm³) and calculate the mean. Common acids: HCl (monoprotic), H₂SO₄ (diprotic). Common bases: NaOH (monobasic), Ca(OH)₂ (dibasic).
 
 ---
 
@@ -34,18 +34,24 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ## Intuition
 
-Think of the mole as a "chemist's dozen." Just as a dozen always means 12 items regardless of what they are, a mole always means 6.022 × 10²³ particles. This lets you count atoms by weighing them. Titration is like a chemical balancing act -- you add just enough of one solution to completely react with the other, and the indicator tells you when you've reached the balance point.
+Think of the mole as a "chemist's dozen." Just as a dozen always means 12 items regardless of what they are, a mole always means 6.022 × 10²³ particles. This lets you count atoms by weighing them. Titration is like a chemical balancing act -- you add just enough of one solution to completely react with the other, and the indicator tells you when you've reached the balance point. The volumetric flask is like a measuring jug that guarantees the exact volume -- you add solvent until the meniscus reaches the mark.
+
+**Why it matters**: Quantitative chemistry is the backbone of all chemical calculations. The mole concept connects mass, volume, and number of particles -- essential for stoichiometry, solutions, and reaction calculations. Titration is a fundamental laboratory technique used in quality control, pharmaceutical analysis, and environmental monitoring.
+
+---
 
 ## Common Pitfalls
 
-- Forgetting to convert cm³ to dm³ in concentration calculations. 1 dm³ = 1000 cm³. A very common error is using volume in cm³ when the formula requires dm³.
-- Confusing empirical and molecular formulas. The empirical formula is the simplest ratio; the molecular formula is the actual number of atoms. For example, the empirical formula of glucose is CH₂O, but the molecular formula is C₆H₁₂O₆.
+- Forgetting to convert cm³ to dm³ in concentration calculations. 1 dm³ = 1000 cm³. A very common error is using volume in cm³ when the formula requires dm³. Always convert first -- 25 cm³ = 0.025 dm³.
+- Confusing empirical and molecular formulas. The empirical formula is the simplest ratio; the molecular formula is the actual number of atoms. For example, the empirical formula of glucose is CH₂O, but the molecular formula is C₆H₁₂O₆. You need the Mr to distinguish them.
 - Using the wrong stoichiometric ratio in titration calculations. Always write the balanced equation first and use the mole ratio, not a 1:1 assumption. Some acids are diprotic (H₂SO₄) and some bases have different stoichiometries (Ca(OH)₂).
+- Forgetting that Avogadro's constant applies to any particle -- atoms, molecules, ions, electrons. The "particle" must be specified.
 
-
+---
 
 ## Cross-References
 
-- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure is foundational
-- **[Energetics](../chemistry/flashcards-energetics):** Energy changes connect topics
-- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium is central to chemistry
+- **[Stoichiometry](../chemistry/flashcards-stoichiometry):** Stoichiometry uses the mole concept for balancing equations, limiting reagent, and yield calculations.
+- **[Kinetics and Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Rate equations and equilibrium constants are determined from concentration data.
+- **[Measurement and Data Processing](../chemistry/flashcards-measurement-data):** Accurate measurements and uncertainty analysis are essential for quantitative chemistry.
+- **[Energetics](../chemistry/flashcards-energetics):** Enthalpy changes are often calculated from concentration and volume data in calorimetry experiments.

@@ -260,6 +260,14 @@ class NotificationService {
 }
 ```
 
+## Intuition
+
+**TypeScript patterns solve common design problems:** Discriminated unions, mapped types, conditional types, and template literal types provide powerful abstractions that express complex constraints in the type system.
+
+**Why it matters:** These patterns enable type-safe code that would be impossible with JavaScript alone, catching bugs at compile time.
+
+**The key insight:** Discriminated unions (tagged unions) make impossible states unrepresentable — the compiler ensures you handle every possible case.
+
 ## Common Mistakes
 
 **Using type assertions instead of type narrowing:** `const el = document.getElementById("app") as HTMLDivElement` assumes the element exists and is a div. If it doesnt exist, this crashes at runtime. Use instanceof or optional chaining instead.

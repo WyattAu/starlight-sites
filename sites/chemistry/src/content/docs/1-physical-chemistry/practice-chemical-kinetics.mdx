@@ -37,6 +37,14 @@ equation, and catalysis. Select an option to check your answer and view the expl
 
 <PracticeProblem client:only="solid-js" question={"For a consecutive reaction $\\text{A} \\xrightarrow{k_1} \\text{B} \\xrightarrow{k_2} \\text{C}$, under what condition does the concentration of intermediate B reach a maximum?&quot; options={[ 'When $k_1[A] = k_2[B]$, i.e., the rate of formation of B equals the rate of consumption of B', 'When $[A] = [B] = [C]$', 'When $k_1 = k_2$', 'When $[A] = 0$', ]} correctAnswer={0} explanation=&quot;B is formed from A ($d[B]/dt = k_1[A] - k_2[B]$) and consumed to give C. B reaches maximum concentration when $d[B]/dt = 0$, i.e., $k_1[A] = k_2[B]$. Before this point, B accumulates ($k_1[A] > k_2[B]$); after, B is consumed faster than formed ($k_2[B] > k_1[A]$). The time of maximum B depends on both rate constants."} difficulty="hard"  />
 
+## Intuition
+
+**Chemical kinetics is about timing, not just possibility:** Thermodynamics tells you *whether* a reaction can happen; kinetics tells you *how fast* it actually happens. Think of it like a ball sitting at the top of a hill — thermodynamics says it *can* roll down, but kinetics tells you whether it rolls now or in a million years.
+
+**Why it matters:** Understanding reaction rates lets you control industrial processes, design drugs that metabolise at the right speed, and predict how quickly pollutants break down in the environment.
+
+**The key insight:** The rate law is always determined experimentally — you can never predict reaction order from the balanced equation alone.
+
 ## Common Mistakes
 
 **Confusing reaction order with stoichiometric coefficients:** The rate law $\text{rate} = k[A]^m[B]^n$ has orders $m$ and $n$ determined experimentally, not from the balanced equation. A reaction $2A \to B$ is not necessarily second order in $A$ — it could be first order, zero order, or any order. Always determine orders from experimental data.

@@ -22,25 +22,29 @@ programming, and networking.
 
 ### Practice Problem Tips
 
-- **Use the place value method**: for binary conversions, write out powers of 2 (128, 64, 32, 16, 8, 4, 2, 1) and match each to a binary digit. This avoids errors in mental arithmetic.
-- **Check byte boundaries**: when converting between units, remember that storage is measured in bytes (8 bits), not bits. A 16-bit colour value uses 2 bytes.
-- **Verify network calculations**: bandwidth × time = data transferred. Double-check units: Mbps = megabits per second, MB/s = megabytes per second. They differ by a factor of 8.
+- **Use the place value method**: for binary conversions, write out powers of 2 (128, 64, 32, 16, 8, 4, 2, 1) and match each to a binary digit. This avoids errors in mental arithmetic. For example, 10110010₂ = 128 + 32 + 16 + 2 = 178₁₀.
+- **Check byte boundaries**: when converting between units, remember that storage is measured in bytes (8 bits), not bits. A 16-bit colour value uses 2 bytes. A 32-bit integer uses 4 bytes.
+- **Verify network calculations**: bandwidth × time = data transferred. Double-check units: Mbps = megabits per second, MB/s = megabytes per second. They differ by a factor of 8. 100 Mbps = 12.5 MB/s.
+- **Practise two's complement**: to negate a binary number, flip all bits and add 1. For example, to find -5 in 8-bit: 5 = 00000101, flip = 11111010, add 1 = 11111011. This is how computers represent negative numbers.
 
 ### Approach Strategy
 
-- For number system conversions, work step by step and write out the full calculation.
-- For CPU questions, trace through the fetch-decode-execute cycle to identify which component is involved.
-- For networking questions, draw a simple diagram showing devices and connections before answering.
+- For number system conversions, work step by step and write out the full calculation. Don't try to do binary-to-decimal conversions in your head.
+- For CPU questions, trace through the fetch-decode-execute cycle to identify which component is involved. The question often asks which register or unit performs a specific operation.
+- For networking questions, draw a simple diagram showing devices and connections before answering. This helps visualise the topology and data flow.
+- For data storage questions, remember that compression (lossy or lossless) reduces file size. Lossy compression (JPEG, MP3) discards data permanently; lossless (ZIP, PNG) preserves all data.
 
 ## Intuition
 
-ICT practice questions test your understanding of how data moves through a system. Think of a computer as a factory: data enters (input), is processed (CPU), stored temporarily (RAM), stored permanently (disk), and exits (output). Each question asks about one part of this pipeline.
+ICT practice questions test your understanding of how data moves through a system. Think of a computer as a factory: data enters (input), is processed (CPU), stored temporarily (RAM), stored permanently (disk), and exits (output). Each question asks about one part of this pipeline. The key insight is that computers process binary data only—all text, images, and sounds are converted to binary before processing.
 
 ## Common Mistakes
 
-- **Confusing binary and hexadecimal**: each hex digit is 4 bits, not 8. 0xFF = 11111111₂ = 255₁₀, not 256.
-- **Forgetting signed number representation**: in two's complement, the leftmost bit is the sign bit. 1000₂ in 4-bit two's complement is -8, not 8.
-- **Mixing up topologies**: mesh topology has every device connected to every other (high redundancy), while star has a central hub. Don't confuse redundancy with cost.
+- **Confusing binary and hexadecimal**: each hex digit is 4 bits, not 8. 0xFF = 11111111₂ = 255₁₀, not 256. Hexadecimal is a shorthand for binary, not a separate number base in terms of magnitude.
+- **Forgetting signed number representation**: in two's complement, the leftmost bit is the sign bit. 1000₂ in 4-bit two's complement is -8, not 8. The range for n-bit two's complement is -2^(n-1) to 2^(n-1)-1.
+- **Mixing up topologies**: mesh topology has every device connected to every other (high redundancy), while star has a central hub. Don't confuse redundancy with cost—mesh is expensive but fault-tolerant.
+- **Incorrect unit conversions**: 1 KB = 1024 bytes, not 1000. The "kilo" in computing is 2^10 = 1024, reflecting binary addressing. Similarly, 1 MB = 1024 KB.
+- **Misunderstanding protocols**: TCP is connection-oriented (reliable, slower), UDP is connectionless (unreliable, faster). Don't assume faster always means better—file transfers need TCP's reliability.
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions}  />
 
@@ -48,6 +52,7 @@ ICT practice questions test your understanding of how data moves through a syste
 
 ## Cross-References
 
-- **[Data Representation](../ict/1-data-representation/1_data-representation):** Data is foundational
-- **[Computer Systems](../ict/diagnostics/diag-computer-systems):** Systems are core
-- **[Programming](../ict/diagnostics/diag-programming-databases):** Programming is tested
+- **[Data Representation](../ict/1-data-representation/1_data-representation):** Data representation covers number systems, encoding, and compression in detail.
+- **[Computer Systems](../ict/diagnostics/diag-computer-systems):** Computer systems examines hardware components, storage, and processing in the DSE syllabus.
+- **[Programming](../ict/diagnostics/diag-programming-databases):** Programming and databases test logical thinking and data manipulation skills.
+- **[Networking](../ict/diagnostics/diag-networking):** Networking extends fundamentals into protocols, topologies, and the Internet.

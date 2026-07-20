@@ -167,6 +167,14 @@ Transformers underpin modern language models (BERT, GPT, T5).
 5. **Wrong evaluation metric:** Accuracy is misleading for imbalanced datasets
 6. **P-hacking:** Trying many models and reporting the best without accounting for multiple comparisons
 
+## Intuition
+
+**Machine learning finds patterns in data to make predictions:** Instead of programming explicit rules, ML algorithms learn patterns from data. The quality of predictions depends on the quality of data, the appropriateness of the model, and the evaluation methodology.
+
+**Why it matters:** ML powers recommendation systems, medical diagnosis, autonomous vehicles, and natural language processing. Understanding ML is essential for modern data science.
+
+**The key insight:** The bias-variance trade-off is the central challenge — simple models underfit (high bias), complex models overfit (high variance), and the best model balances both.
+
 ## Summary
 
 Machine learning spans a rich landscape of algorithms and techniques. The field requires understanding both the mathematical foundations (linear algebra, probability, optimization) and practical engineering (data preprocessing, evaluation, deployment). The accompanying pages cover advanced topics including attention mechanisms, generative models, reinforcement learning, and transfer learning.

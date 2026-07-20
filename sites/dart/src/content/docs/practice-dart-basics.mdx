@@ -57,6 +57,14 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={"In a Flutter StatefulWidget, which lifecycle method should you use to initialize data that depends on `BuildContext` or to subscribe to a stream?&quot; options={['`initState`', 'the constructor', '`didChangeDependencies`', '`build`']} correctAnswer={0} explanation=&quot;`initState()` is called once when the State object is created, before `build()`. It is the correct place to initialize data, subscribe to streams, and set up controllers that depend on `this.context`. Do NOT call `BuildContext`-dependent methods (like `Theme.of(context)`) in `initState` -- use `didChangeDependencies` for those. Clean up subscriptions in `dispose()`."} difficulty="hard"  />
 
+## Intuition
+
+**Dart is a client-optimised language for building apps:** Designed for UI development, Dart combines the performance of compiled languages with the productivity of scripting languages. Its sound null safety and strong typing catch errors at compile time.
+
+**Why it matters:** Dart is the language behind Flutter, one of the fastest-growing cross-platform app frameworks. Learning Dart opens doors to mobile, web, and desktop development.
+
+**The key insight:** Dart's async/await model simplifies asynchronous programming — instead of callback hell, you write asynchronous code that looks synchronous.
+
 ## Common Mistakes
 
 **Forgetting that Dart is single-threaded with async/await:** Dart uses an event loop, not threads. `async` does not create a new thread — it schedules work on the event loop. CPU-intensive work on the main isolate blocks the UI. Use `Isolate.spawn` for compute-bound tasks.

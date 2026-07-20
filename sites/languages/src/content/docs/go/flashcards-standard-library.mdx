@@ -18,15 +18,31 @@ encoding/json, and os.
 
 ---
 
+### Additional Flashcard Topics
+
+- **fmt Package**: `fmt.Printf`, `fmt.Sprintf`, `fmt.Errorf`. Format verbs: `%v` (default), `%+v` (struct fields), `%#v` (Go syntax), `%T` (type). `Errorf` creates formatted errors.
+
+- **strings Package**: `strings.Contains`, `strings.Split`, `strings.Join`, `strings.TrimSpace`. `strings.Builder` for efficient string concatenation.
+
+- **io Package**: `io.Reader` and `io.Writer` are the foundational interfaces. `io.Copy(dst, src)` streams data. `io.TeeReader` splits a reader into two.
+
+- **net/http Package**: `http.ListenAndServe(":8080", nil)` starts a server. `http.HandleFunc` registers route handlers. `http.Client` with timeouts for production use.
+
+- **encoding/json Package**: `json.Marshal`/`json.Unmarshal` for JSON. Struct tags control field names: `` `json:"name,omitempty"` ``. `json.RawMessage` for deferred parsing.
+
+- **os Package**: `os.Args`, `os.Getenv`, `os.Open`, `os.Create`. `os.Exit` terminates the program. `os.Signal` handles OS signals.
+
 ## Intuition
 
-Go's standard library is remarkably complete — `fmt` handles formatted I/O, `strings` provides text manipulation, `io` defines the foundational `Reader`/`Writer` interfaces that compose like Unix pipes, `net/http` offers a production-ready HTTP server and client, `encoding/json` handles JSON marshalling/unmarshalling, and `os` interacts with the operating system. The key philosophy: small, composable interfaces that snap together.
+Go's standard library is remarkably complete — `fmt` handles formatted I/O, `strings` provides text manipulation, `io` defines the foundational `Reader`/`Writer` interfaces that compose like Unix pipes, `net/http` offers a production-ready HTTP server and client, `encoding/json` handles JSON marshalling/unmarshalling, and `os` interacts with the operating system. The key philosophy: small, composable interfaces that snap together. Go's standard library is intentionally minimal — it provides the building blocks, not the entire framework.
 
 ## Common Pitfalls
 
 - **Goroutine leaks**: Starting goroutines without a cancellation mechanism (context or done channel) — they run forever, consuming memory. Always use `context.Context` for cancellation.
 - **Map concurrency**: Maps in Go are not safe for concurrent read/write — using them from multiple goroutines without a mutex causes a runtime panic. Use `sync.Map` or wrap with `sync.RWMutex`.
 - **Defer evaluation timing**: `defer` arguments are evaluated when the `defer` statement executes, not when the deferred function runs — this often surprises developers with pointer semantics.
+- **Error wrapping**: `fmt.Errorf("context: %w", err)` wraps errors; `%v` does not. Unwrapping with `errors.Is` and `errors.As` requires `%w`.
+- **String vs []byte**: `string` is immutable; `[]byte` is mutable. Converting between them copies data. `unsafe.Pointer` can avoid copying but is unsafe.
 
 ---
 
@@ -37,3 +53,4 @@ Go's standard library is remarkably complete — `fmt` handles formatted I/O, `s
 - **[I/O](../standard-library/io.md):** Deep dive into io.Reader, io.Writer, and buffered I/O covered in these flashcards.
 - **[net/http](../standard-library/net-http.md):** HTTP server and client patterns using the standard library.
 - **[Go Practice](../practice-basics.mdx):** Auto-graded problems testing core Go concepts alongside standard library usage.
+- **[Rust Basics](../../rust/flashcards-rust-basics.mdx):** Ownership model compared to Go's garbage collection.

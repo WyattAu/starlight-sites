@@ -381,6 +381,14 @@ end
 
 **Solution:** `join/3` authenticates and stores the user ID in the socket. `Presence.track` registers the user with metadata. `handle_info(:after_join)` runs after join completes. `broadcast!` sends to all subscribers. `broadcast_from!` sends to all except the sender (used for typing indicators). `Presence.list` returns all tracked presences. The Presence module is configured via `use Phoenix.Presence`.
 
+## Intuition
+
+**Phoenix is Elixir's web framework, optimised for real-time:** Phoenix uses channels and LiveView to build interactive web applications without writing JavaScript. The BEAM VM's concurrency model handles thousands of simultaneous connections efficiently.
+
+**Why it matters:** Phoenix enables building real-time features (live dashboards, collaborative editing, chat) that are difficult to achieve with traditional request-response frameworks.
+
+**The key insight:** LiveView renders HTML on the server and sends only diffs to the client — this eliminates the complexity of client-side state management while delivering a responsive user experience.
+
 ## Common Mistakes
 
 **Confusing processes with OS threads:** Elixir/Erlang processes are lightweight (a few KB) and scheduled by the BEAM VM, not the OS. You can spawn millions of processes. Do not worry about thread pools or OS-level concurrency limits.

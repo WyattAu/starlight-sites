@@ -19,7 +19,29 @@ Swift is the primary language for Apple platform development. Its optionals enfo
 - **Memory management**: Automatic Reference Counting (ARC), strong/weak/unowned references
 - **Concurrency**: async/await, actors, and structured concurrency for safe parallel execution
 
+## Resources
+
+- Swift.org documentation (swift.org/documentation) — Official language reference
+- Hacking with Swift (hackingwithswift.com) — Free tutorials and projects
+- Apple Developer documentation (developer.apple.com/documentation) — Framework reference
+
+## How to Get Started
+
+Install Xcode from the Mac App Store (includes Swift) or use Swift.org's toolchain for Linux. Start with Swift Playgrounds for interactive experimentation, then build a small command-line tool or SwiftUI app. The "100 Days of SwiftUI" course (hackingwithswift.com) is an excellent structured learning path.
+
 Browse the content using the sidebar navigation on the left.
+
+## Intuition
+
+**Swift is Apple's modern language for iOS, macOS, and beyond:** Designed for safety and performance, Swift eliminates common C/Objective-C errors while providing modern language features like optionals, closures, and protocol-oriented programming.
+
+**Why it matters:** Swift is the primary language for Apple platform development and is expanding to server-side and cross-platform use.
+
+**The key insight:** Swift's optionals (String?) make the absence of a value explicit in the type system, eliminating null pointer exceptions at compile time.
+
+## Study Approach
+
+Start with Swift basics: variables, optionals, functions, and control flow. Then move to value types (structs, enums) vs reference types (classes), protocols, and extensions. Concurrency (async/await, actors) comes last — it builds on all previous concepts. Use Swift Playgrounds for rapid experimentation before committing to a full Xcode project.
 
 ## Common Mistakes
 

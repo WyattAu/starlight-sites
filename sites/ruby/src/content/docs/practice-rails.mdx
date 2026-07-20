@@ -312,6 +312,14 @@ end
 
 **Solution:** `perform_once` ensures the job is idempotent by preventing duplicate execution. `each_slice(100)` batches inserts to avoid memory bloat. `model_class.import` performs bulk inserts for performance. Per-row validation catches data issues. `ImportResult` persists a summary. `File.delete` cleans up the temp file after processing. `sidekiq_options retry: 3` limits retries to prevent infinite loops.
 
+## Intuition
+
+**Rails is a convention-over-configuration web framework:** Instead of writing configuration files, Rails follows sensible defaults that let you build web applications quickly. The MVC pattern separates concerns, and ActiveRecord handles database interactions elegantly.
+
+**Why it matters:** Rails pioneered rapid web development and influenced modern frameworks like Laravel, Django, and Phoenix.
+
+**The key insight:** Rails' "don't repeat yourself" (DRY) principle encourages extracting reusable code — but pragmatism matters more than dogmatic adherence to any principle.
+
 ## Common Mistakes
 
 **Not using Rails migrations:** Directly modifying the database schema breaks the migration history. Always generate migrations to track schema changes. This ensures consistency across development, test, and production environments.

@@ -42,6 +42,14 @@ import PracticeProblem from "@components/PracticeProblem";
 
 <PracticeProblem client:only="solid-js" question={"What does `(yield from x for x in range(3))` do?&quot; options={['Returns a generator that yields 0, 1, 2', 'Returns [0, 1, 2]', 'Raises SyntaxError', 'Yields a single generator object']} correctAnswer={0} explanation=&quot;This is a generator expression. It returns a generator object that yields 0, 1, 2 when iterated."} difficulty="hard"  />
 
+## Intuition
+
+**Interactive Python coding builds muscle memory:** Writing code, running it, and seeing results immediately is the fastest way to learn programming. Interactive environments (REPL, Jupyter notebooks) accelerate this feedback loop.
+
+**Why it matters:** Interactive coding develops intuition about how Python behaves — what each function returns, how data structures work, and where errors occur.
+
+**The key insight:** Python's interactive mode is ideal for experimenting with new libraries, debugging small functions, and exploring data.
+
 ## Common Mistakes
 
 **Confusing mutable and immutable defaults:** Defining `def f(x=[])` creates a shared mutable default. The list persists between calls. Use `def f(x=None): x = x or []` instead. This is Pythons most notorious gotcha.

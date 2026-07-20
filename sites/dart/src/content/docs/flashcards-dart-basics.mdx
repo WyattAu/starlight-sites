@@ -27,6 +27,17 @@ Dart is a language designed for UI development — it compiles to native code fo
 - **Null safety surprises**: Forgetting that `late` variables can throw at runtime if accessed before initialisation — `late` shifts the null check from compile time to runtime, so use it sparingly.
 - **Async confusion**: Using `await` inside a loop instead of `Future.wait` — this serialises what could be parallel work, dramatically slowing down network requests.
 - **Mixin linearisation**: When multiple mixins define the same method, the last one in the `with` clause wins — this ordering can be unintuitive and cause subtle bugs.
+- **Type inference surprises**: Dart infers types in declarations (`var x = 5` infers `int`), but dynamic-typed containers (`List`) can hold unexpected types. Use explicit type annotations when the inferred type is not what you intend.
+- **Isolate communication overhead**: Dart isolates communicate via message passing, not shared memory. Passing large objects between isolates involves copying, which can be slow. Use `TransferableTypedData` for large binary data.
+- **Type inference surprises**: Dart infers types in declarations (`var x = 5` infers `int`), but dynamic-typed containers (`List`) can hold unexpected types. Use explicit type annotations when the inferred type is not what you intend.
+
+## Study Tips
+
+- **Run `dart analyze` before every commit:** The Dart analyser catches unused imports, type errors, and API misuse early. Integrate it into your CI pipeline for automatic checks.
+- **Practice null safety patterns:** Write functions that accept both nullable and non-nullable parameters. Use `??`, `?.`, and `if-else` to handle null cases gracefully.
+- **Experiment with isolates:** Create a small program that spawns multiple isolates and measures message passing overhead. This builds intuition for when isolates help and when they add unnecessary complexity.
+- **Use `dart format` consistently:** Dart has an official code formatter. Run `dart format .` before every commit to ensure consistent style across your team.
+- **Explore Flutter integration:** If you are learning Dart for Flutter, build a small app that demonstrates widgets, state management, and navigation. The Dart language skills transfer directly.
 
 ---
 

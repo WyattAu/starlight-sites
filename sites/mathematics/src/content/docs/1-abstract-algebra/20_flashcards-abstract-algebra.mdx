@@ -11,15 +11,31 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 20 interactive flashcards for university-level Abstract Algebra. Press Space to flip, rate 1-4.
 ---
 
+### Additional Flashcard Topics
+
+- **Group Axioms**: a group (G,·) satisfies: closure (a·b ∈ G), associativity (a·(b·c) = (a·b)·c), identity (∃e: a·e = e·a = a), inverses (∃a⁻¹: a·a⁻¹ = e). Examples: (ℤ,+), (Sₙ,∘), (GL(n,ℝ),×).
+
+- **Lagrange's Theorem**: the order of a subgroup H divides the order of the group G. Corollary: every element of a finite group has order dividing |G|. This constrains possible subgroup structures.
+
+- **Normal Subgroups**: H is normal in G if gHg⁻¹ = H for all g ∈ G. Equivalently, left and right cosets coincide. Normal subgroups are precisely the kernels of group homomorphisms and enable quotient groups G/H.
+
+- **Isomorphism Theorems**: (1) G/ker(φ) ≅ im(φ), (2) if H ◁ G and K ◁ G, then HK/K ≅ H/(H∩K), (3) if H ◁ G and H ≤ K ≤ G, then (K/H) ≅ (G/H)/(G/K). These describe how quotient structures relate.
+
+- **Sylow Theorems**: for a finite group G with |G| = pⁿm where gcd(p,m) = 1: (1) Sylow p-subgroups exist, (2) all Sylow p-subgroups are conjugate, (3) the number of Sylow p-subgroups nₚ divides m and nₚ ≡ 1 (mod p). These are the main tools for classifying finite groups.
+
+- **Ring Ideals**: a subset I of a ring R is an ideal if (I,+) is a subgroup and ra, ar ∈ I for all r ∈ R, a ∈ I. Ideals enable quotient rings R/I and generalise "divisible" subsets.
+
 ## Intuition
 
-Abstract algebra studies algebraic structures — sets equipped with operations satisfying specific axioms. Groups capture symmetry: a set with a binary operation, identity, inverses, and associativity. Rings add a second operation (multiplication) with distributivity. Homomorphisms are structure-preserving maps between these objects, and the isomorphism theorems describe how quotient structures arise from normal subgroups and ideals. Polynomial rings connect algebra to number theory and geometry.
+Abstract algebra distils the essence of arithmetic into algebraic structures. A group captures the idea of symmetry: any set of operations that can be composed and undone forms a group, from the rotations of a square to the permutations of a Rubik's cube. A ring extends this by adding a second operation, like multiplication, enabling the study of number systems and polynomial equations. A field adds the requirement that every non-zero element has a multiplicative inverse, producing the familiar arithmetic of fractions. The power of abstraction is that the same theorems apply to wildly different objects.
 
 ## Common Pitfalls
 
 - **Normal subgroup requirement**: Quotient groups G/H only make sense when H is a normal subgroup of G (closed under conjugation) — forming G/H with a non-normal subgroup gives a set of cosets but not a group structure.
 - **Ideal vs subring**: A subring doesn't need to absorb multiplication from the full ring, but an ideal does — this is why ring quotients R/I require I to be an ideal, not just a subring.
 - **Isomorphism ≠ equality**: Two isomorphic groups have the same structure but may be different sets — the cyclic group of order 4 is isomorphic to ℤ/4ℤ, but they may be presented differently.
+- **Forgetting that the trivial group is a subgroup**: every group contains the trivial subgroup {e}. Lagrange's theorem applies to this subgroup: |{e}| = 1 divides |G|.
+- **Confusing abelian with commutative**: "abelian" refers to groups where the operation is commutative; "commutative" refers to rings where multiplication is commutative. These are different concepts in different structures.
 
 ---
 
@@ -28,5 +44,6 @@ Abstract algebra studies algebraic structures — sets equipped with operations 
 ## Cross-References
 
 - **[Abstract Algebra](../index.md):** Groups, rings, and homomorphisms fundamentals.
-- **[Linear Algebra](../../2-linear-algebra/index.md):** Vector spaces as modules over fields.
-- **[Number Theory](../../7-number-theory/index.md):** Algebraic structures in number theory.
+- **[Linear Algebra](../../2-linear-algebra/index.md):** Vector spaces as modules over fields; linear algebra uses field theory.
+- **[Number Theory](../../7-number-theory/index.md):** Algebraic structures in number theory; modular arithmetic uses group and ring structures.
+- **[Topology](../../9-topology/index.md):** Topological groups and algebraic topology; group theory underpins homology groups.

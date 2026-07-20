@@ -15,12 +15,32 @@ hero:
 
 Computer networking from fundamentals to administration: OSI and TCP/IP models, routing and switching, DNS, DHCP, HTTP/HTTPS, firewall configuration, VPNs, network security, and troubleshooting. Practical examples use real equipment and command-line tools.
 
+## Why This Matters
+
+Every internet-connected application relies on networking infrastructure that most developers never think about. Understanding how packets traverse networks, how DNS resolves domain names, and how TLS encrypts traffic makes you a more effective engineer. Network knowledge also helps you debug issues that appear to be application bugs but are actually connectivity, latency, or configuration problems.
+
 ## Key Topics
 
 - **Protocols** — TCP, UDP, HTTP, DNS, DHCP, ARP
 - **Infrastructure** — Routers, switches, VLANs, firewalls
 - **Security** — TLS/SSL, IPsec, network segmentation
 - **Troubleshooting** — ping, traceroute, tcpdump, Wireshark
+## Intuition
+
+**Networking is the infrastructure of the digital world:** The Internet, Wi-Fi, and mobile networks all depend on networking protocols and standards. Understanding networking is essential for security, performance optimisation, and system design.
+
+**Why it matters:** Network knowledge is essential for cybersecurity, cloud computing, and building reliable distributed applications.
+
+**The key insight:** The TCP/IP model is the practical foundation — while the OSI model is theoretically complete, real networks use TCP/IP protocols at every layer.
+
+## Common Mistakes
+
+**Confusing OSI model layers:** The OSI model has 7 layers, and mixing them up leads to misconfigured networks. Remember the mnemonic: "Please Do Not Throw Sausage Pizza Away" (Physical, Data Link, Network, Transport, Session, Presentation, Application). Each layer has distinct responsibilities.
+
+**Forgetting to check subnet masks:** Incorrect subnet masks cause devices on different subnets to be unable to communicate, or allow broadcast storms across unintended network segments. Always verify CIDR notation and subnet calculations before deploying network changes.
+
+**Using `ping` as the only diagnostic tool:** `ping` tests ICMP connectivity but does not reveal TCP/UDP issues, DNS resolution failures, or application-layer problems. Use `traceroute`, `tcpdump`, `nslookup`, and `curl` alongside `ping` for comprehensive troubleshooting.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for networking notes.

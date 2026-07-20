@@ -17,15 +17,31 @@ import { flashcardData } from '@/data/flashcards/haskell/flashcards-haskell-basi
 
 ---
 
+### Additional Flashcard Topics
+
+- **Pure Functions**: no side effects; same input always produces same output. This makes reasoning and testing trivial but requires monads for I/O.
+
+- **Lazy Evaluation**: expressions are evaluated only when needed. Infinite data structures are possible: `ones = 1 : ones`. Strictness annotations (`seq`, `!`) force evaluation.
+
+- **Type Classes**: ad-hoc polymorphism. `Eq`, `Ord`, `Show`, `Read`, `Num` are standard type classes. Custom type classes define interfaces for new types.
+
+- **Algebraic Data Types**: `data Shape = Circle Double | Rectangle Double Double`. Sum types (OR) and product types (AND). Pattern matching exhaustively handles all constructors.
+
+- **Monads**: `IO`, `Maybe`, `List`, `State`. `>>=` (bind) chains effectful computations. `do` notation provides imperative-looking syntax for monadic code.
+
+- **Higher-Order Functions**: functions that take or return functions. `map`, `filter`, `foldr` are the building blocks of functional programming.
+
 ## Intuition
 
-Haskell is a purely functional language where expressions are evaluated lazily (on demand) and functions have no side effects. The type system is your most powerful tool — if the types align, the program is very likely correct. Type classes provide ad-hoc polymorphism (like interfaces in OOP), and monads sequence effectful computations while keeping the language pure. Currying means every function takes one argument and returns a function waiting for the next.
+Haskell is a purely functional language where expressions are evaluated lazily (on demand) and functions have no side effects. The type system is your most powerful tool — if the types align, the program is very likely correct. Type classes provide ad-hoc polymorphism (like interfaces in OOP), and monads sequence effectful computations while keeping the language pure. Currying means every function takes one argument and returns a function waiting for the next. Haskell's type system is the most powerful among mainstream languages, enabling correctness guarantees that few other languages can match.
 
 ## Common Pitfalls
 
 - **Infinite recursion**: Writing a base case that never triggers — the function recurses forever, building up the stack until it overflows. Always ensure the base case is reachable.
 - **Off-by-one in infinite lists**: Defining `[1..]` produces an infinite list — this is fine if consumed lazily but can hang if forced into a strict context (e.g., `length [1..]` never terminates).
 - **Type class ambiguity**: When a function uses a type class that has multiple instances for a type, Haskell cannot infer which one to use — add a type annotation to resolve the ambiguity.
+- **Forgetting strictness**: Lazy evaluation can cause space leaks. Use `seq`, `BangPatterns`, or strict data types to control when evaluation happens.
+- **Confusing `=` with `==`**: `=` is assignment (in `let`/`where`); `==` is equality comparison (from `Eq` class). Using one instead of the other causes parse errors.
 
 ---
 
@@ -36,3 +52,4 @@ Haskell is a purely functional language where expressions are evaluated lazily (
 - **[Types and Functions](../01-basics/1_types-and-functions.md):** Deep dive into currying, higher-order functions, and type classes.
 - **[Pattern Matching](../02-pattern-matching/1_pattern-matching.md):** Structural pattern matching on algebraic data types.
 - **[Monads and Functors](../04-monads/1_monads-and-functors.md):** Monad transformers and effect management covered in the flashcards.
+- **[Rust Traits](../../rust/flashcards-rust-basics.mdx):** Rust's trait system provides similar type-level abstractions to Haskell's type classes.

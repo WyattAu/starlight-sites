@@ -9,25 +9,20 @@ SAT writing study notes - Essay
 
 ## Key Concepts
 
-- Core definitions and principles
-- Important strategies and techniques
-- Worked examples with step-by-step solutions
-- Common test patterns and tips
+- **Thesis Statement**: a clear, specific claim that the essay supports. Usually one or two sentences at the end of the introduction.
+- **Evidence**: specific examples, data, or quotations that support the thesis. Strong essays use multiple types of evidence.
+- **Analysis**: explaining how evidence supports the thesis. Don't just list evidence — explain its significance.
+- **Organisation**: clear introduction, body paragraphs with topic sentences, and conclusion. Each body paragraph focuses on one supporting point.
+- **Transitions**: words and phrases that connect ideas between sentences and paragraphs — "however," "for example," "in contrast."
 
 ## Worked Example
 
-**Problem:** [Describe a typical problem]
+**Problem:** Write a thesis statement for an essay arguing that schools should require community service.
 
 **Solution:**
-Step 1: Identify the question type
-Step 2: Apply the relevant strategy
-Step 3: Calculate the answer
-
-## Practice Problems
-
-1. [Problem 1]
-2. [Problem 2]
-3. [Problem 3]
+Step 1: Identify the position: schools should require community service
+Step 2: Identify reasons: builds character, serves the community, develops skills
+Step 3: Thesis: "Schools should require community service because it builds character, strengthens communities, and develops practical skills that classroom learning alone cannot provide."
 
 ## Intuition
 

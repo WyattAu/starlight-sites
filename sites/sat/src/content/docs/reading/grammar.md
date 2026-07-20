@@ -9,25 +9,20 @@ SAT reading study notes - Grammar
 
 ## Key Concepts
 
-- Core definitions and principles
-- Important strategies and techniques
-- Worked examples with step-by-step solutions
-- Common test patterns and tips
+- **Subject-Verb Agreement**: the verb must agree with the true subject, not the nearest noun. "The group of students IS ready" (group is the subject).
+- **Pronoun-Antecedent Agreement**: pronouns must agree with their antecedents in number and gender. Use "he or she" for singular gender-neutral antecedents.
+- **Comma Usage**: commas separate items in a series, set off introductory clauses, and join independent clauses with a conjunction. Never use a comma alone to join two independent clauses.
+- **Semicolons**: join two independent clauses without a conjunction. "It was late; we went home." Also separate items in complex lists.
+- **Modifier Placement**: modifiers should be placed next to the word they modify. Misplaced modifiers create ambiguity.
 
 ## Worked Example
 
-**Problem:** [Describe a typical problem]
+**Problem:** "Running quickly, the finish line was reached." Is this sentence correct?
 
 **Solution:**
-Step 1: Identify the question type
-Step 2: Apply the relevant strategy
-Step 3: Calculate the answer
-
-## Practice Problems
-
-1. [Problem 1]
-2. [Problem 2]
-3. [Problem 3]
+Step 1: The participial phrase "Running quickly" should modify the subject performing the action
+Step 2: The subject is "the finish line" — a finish line cannot run
+Step 3: Correct: "Running quickly, the runner reached the finish line"
 
 ## Intuition
 

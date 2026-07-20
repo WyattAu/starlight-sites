@@ -30,6 +30,17 @@ Kotlin is a modern JVM language that eliminates Java's verbosity while maintaini
 - **`!!` operator overuse**: The not-null assertion (`!!`) throws a NullPointerException if the value is null — prefer safe calls (`?.`) or `let` blocks.
 - **Sealed class exhaustiveness**: Forgetting to handle all cases in a `when` expression on a sealed class — the compiler catches this if you omit the `else` branch, but only for sealed hierarchies.
 - **Coroutine scope leaks**: Launching coroutines in the wrong scope (e.g., `GlobalScope.launch`) — always use structured concurrency with `viewModelScope` or `lifecycleScope`.
+- **Data class copy陷阱**: Forgetting that `copy()` does a shallow copy — nested mutable objects are still shared references between original and copy.
+- **Inline function misuse**: Marking functions as `inline` unnecessarily increases code size. Only inline functions with lambda parameters to avoid the overhead of creating Function objects.
+
+## Study Tips
+
+- **Use IntelliJ's Kotlin REPL:** The built-in REPL lets you test Kotlin expressions interactively. This is faster than writing a full program for quick experiments.
+- **Practise null safety patterns:** Write functions that accept both nullable and non-nullable parameters. Use `?.let {}`, `?:`, and `if-else` to handle null cases gracefully.
+- **Study the Kotlin standard library:** Functions like `also`, `let`, `run`, `apply`, and `with` are concise but powerful. Understanding when to use each one is key to idiomatic Kotlin.
+- **Build a small Android app:** If learning Kotlin for Android, create a simple app that demonstrates coroutines, sealed classes for UI state, and extension functions for utility methods.
+- **Explore Kotlin Playground:** The online Kotlin Playground (play.kotlinlang.org) lets you experiment with Kotlin code interactively without installing anything.
+- **Study coroutines deeply:** Kotlin coroutines are essential for async programming. Understand structured concurrency, scope functions, and flow for building responsive applications.
 
 ---
 

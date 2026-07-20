@@ -320,6 +320,14 @@ struct InfoSheet: View {
 
 **Solution:** `NavigationStack` manages the navigation path. `NavigationLink` pushes detail views. `.searchable` adds a built-in search bar that filters the list. `.sheet` presents a modal. `@Environment(\.dismiss)` dismisses the sheet. The `filteredItems` computed property handles search filtering.
 
+## Intuition
+
+**SwiftUI is a declarative UI framework:** Instead of imperatively modifying UI elements, you describe what the UI should look like for a given state, and SwiftUI handles the updates. This eliminates many categories of UI bugs.
+
+**Why it matters:** SwiftUI dramatically reduces the amount of code needed to build reactive, animated user interfaces for Apple platforms.
+
+**The key insight:** SwiftUI's @State and @Binding properties create a unidirectional data flow — state flows down, events flow up, making UI behaviour predictable and testable.
+
 ## Common Mistakes
 
 **Mutating state in init instead of using @State:** SwiftUI views are structs. If you modify properties in init, those changes are not reflected in the UI. Use @State for mutable view state. @State properties are stored separately from the view struct.

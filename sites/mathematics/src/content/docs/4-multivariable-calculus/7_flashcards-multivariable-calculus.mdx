@@ -11,15 +11,31 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 20 interactive flashcards for university-level Multivariable Calculus. Press Space to flip, rate 1-4.
 ---
 
+### Additional Flashcard Topics
+
+- **Partial Derivatives**: ∂f/∂x measures the rate of change of f in the x-direction while holding y constant. Higher-order partials ∂²f/∂x², ∂²f/∂x∂y describe curvature. Mixed partials are equal (Clairaut's theorem) if continuous.
+
+- **Gradient Vector**: ∇f = (∂f/∂x, ∂f/∂y) points in the direction of steepest ascent. Its magnitude |∇f| is the maximum rate of change. The directional derivative in direction u is D_u f = ∇f · u.
+
+- **Multiple Integrals**: double integrals ∬_R f dA compute volumes under surfaces; triple integrals ∬∭_E f dV compute hyper-volumes. Change of variables uses the Jacobian: dA = |det J| du dv.
+
+- **Green's Theorem**: ∮_C (P dx + Q dy) = ∬_R (∂Q/∂x - ∂P/∂y) dA. Converts a line integral around a simple closed curve to a double integral over the enclosed region. Requires positive (counterclockwise) orientation.
+
+- **Stokes' Theorem**: ∮_C F · dr = ∬_S (curl F) · dS. Generalises Green's theorem to surfaces in 3D. The surface integral of the curl equals the line integral around the boundary curve.
+
+- **Divergence Theorem**: ∬_S F · dS = ∬∭_V div F dV. Relates the flux through a closed surface to the volume integral of divergence inside. This is the higher-dimensional version of the fundamental theorem of calculus.
+
 ## Intuition
 
-Multivariable calculus extends single-variable calculus to functions of several variables. Partial derivatives measure the rate of change in one direction while holding others constant. The gradient vector points in the direction of steepest ascent — its magnitude is the maximum rate of change. Multiple integrals compute volumes and masses over regions, and the theorems of Green, Stokes, and Gauss connect local differential properties to global integral properties over boundaries.
+Multivariable calculus extends single-variable calculus to functions of several variables. Partial derivatives measure the rate of change in one direction while holding others constant. The gradient vector points in the direction of steepest ascent — its magnitude is the maximum rate of change. Multiple integrals compute volumes and masses over regions, and the theorems of Green, Stokes, and Gauss connect local differential properties to global integral properties over boundaries. These theorems are the unifying principle: they all state that the integral of a derivative over a region equals the integral of the original function over the boundary.
 
 ## Common Pitfalls
 
 - **Clairaut's theorem order**: Mixed partial derivatives f_xy and f_yx are equal only if they're continuous — assuming equality without checking continuity can lead to wrong results for non-smooth functions.
 - **Jacobian determinant sign**: The Jacobian determinant in change-of-variables can be negative — the absolute value is used for volume scaling, but the sign indicates orientation reversal.
 - **Green's theorem orientation**: The boundary curve must be positively oriented (counterclockwise) for Green's theorem — reversing orientation flips the sign of the integral.
+- **Confusing parameterisation with integration**: When computing surface or line integrals, the parameterisation determines the limits of integration. A poor choice of parameterisation can make the integral much harder.
+- **Forgetting the chain rule for multivariable functions**: If z = f(x,y) and x = g(t), y = h(t), then dz/dt = (∂f/∂x)(dx/dt) + (∂f/∂y)(dy/dt). The chain rule has more terms in multivariable calculus.
 
 ---
 
@@ -28,5 +44,6 @@ Multivariable calculus extends single-variable calculus to functions of several 
 ## Cross-References
 
 - **[Multivariable Calculus](../index.md):** Partial derivatives and vector calculus fundamentals.
-- **[Linear Algebra](../../2-linear-algebra/index.md):** Jacobians and Hessians as matrices.
-- **[Ordinary Differential Equations](../../5-ordinary-differential-equations/index.md):** Systems of ODEs using multivariable calculus.
+- **[Linear Algebra](../../2-linear-algebra/index.md):** Jacobians and Hessians as matrices; gradients are vector quantities.
+- **[Ordinary Differential Equations](../../5-ordinary-differential-equations/index.md):** Systems of ODEs use multivariable calculus; vector fields are multivariable functions.
+- **[Differential Geometry](../../12-differential-geometry/index.md):** Manifolds extend multivariable calculus to curved spaces.

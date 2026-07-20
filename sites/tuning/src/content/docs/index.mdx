@@ -15,12 +15,40 @@ hero:
 
 Performance tuning across Linux systems: CPU scheduling, memory management, I/O optimization, network tuning, and application profiling. Practical techniques using perf, strace, vmstat, iostat, and other profiling tools. Focus on measuring before optimising.
 
+## Why This Matters
+
+Performance tuning is the difference between a system that handles 100 requests per second and one that handles 10,000. Understanding how the Linux kernel schedules processes, manages memory, and handles I/O is essential for building scalable applications. These notes cover both the theory (how the scheduler works) and the practice (how to use `perf` to find bottlenecks), enabling you to make data-driven optimisation decisions.
+
+## Getting Started
+
+Start with profiling: use `perf`, `strace`, and `vmstat` to identify where time is actually spent. Then learn the tuning knobs: CPU affinity, I/O schedulers, memory overcommit, and network buffer sizes. Measure before and after every change to verify improvement.
+
+## Practical Applications
+
+- **Web servers:** Tuning TCP parameters, connection limits, and worker processes can double throughput without hardware changes.
+- **Databases:** Optimising memory allocation, I/O scheduling, and query execution plans dramatically improves database performance.
+- **Containerised applications:** Understanding cgroup limits, namespace overhead, and container networking helps tune Kubernetes deployments.
+
 ## Key Topics
 
 - **CPU** — Scheduler tuning, CPU affinity, interrupt handling
 - **Memory** — Swap configuration, huge pages, NUMA awareness
 - **I/O** — Disk scheduling, read-ahead, write-back caching
 - **Network** — Buffer tuning, congestion control, TCP parameters
+
+## Resources
+
+- Brendan Gregg's blog (brendangregg.com) — Performance analysis methodology and tools
+- Linux Performance (brendangregg.com/linuxperf.html) — Comprehensive Linux performance guide
+- perf wiki (perf.wiki.kernel.org) — Official perf documentation
+
+## Intuition
+
+**Performance tuning is about finding and eliminating bottlenecks:** Every system has a limiting factor — CPU, memory, disk I/O, or network. Tuning means identifying which resource is constrained and optimising how it is used.
+
+**Why it matters:** Untuned systems waste resources, respond slowly, and fail to scale. Proper tuning can dramatically improve performance without hardware upgrades.
+
+**The key insight:** Measure before you tune — assumptions about bottlenecks are often wrong. Profiling tools reveal the actual constraints.
 
 ## Common Mistakes
 
@@ -29,6 +57,11 @@ Performance tuning across Linux systems: CPU scheduling, memory management, I/O 
 **Confusing premature optimisation with good design:** Writing clean, well-structured code is not premature optimisation. Optimising obscure code paths before understanding the problem is. Know the difference.
 
 **Ignoring I/O bottlenecks:** CPU-bound optimisations are useless if the program spends most of its time waiting for disk or network I/O. Profile wall-clock time, not just CPU time. Async I/O, caching, and connection pooling often give bigger wins.
+
+## Study Approach
+
+Start with profiling — identify where time is actually spent before optimising. Use `perf top` for quick overviews, `perf record` + `perf report` for detailed analysis, and `strace` for system call tracing. Always measure before and after changes.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for tuning notes.

@@ -21,25 +21,31 @@ Questions follow the DSE examination style and cover the full kinematics syllabu
 
 ### Practice Problem Tips
 
-- **Read the direction carefully**: many questions have negative signs embedded in the setup. A ball thrown upward has u > 0 and a = -9.81 m/s².
-- **Draw a diagram**: for multi-stage problems (e.g., a car accelerating then braking), sketch a v-t graph to visualise the motion before solving.
-- **Check units**: DSE questions sometimes mix km/h with m/s. Convert first using 1 m/s = 3.6 km/h.
+- **Read the direction carefully**: many questions have negative signs embedded in the setup. A ball thrown upward has u > 0 and a = -9.81 m/s². Always define your positive direction at the start of the problem.
+- **Draw a diagram**: for multi-stage problems (e.g., a car accelerating then braking), sketch a v-t graph to visualise the motion before solving. This helps identify when velocity changes sign or when acceleration changes.
+- **Check units**: DSE questions sometimes mix km/h with m/s. Convert first using 1 m/s = 3.6 km/h. A common trap is giving velocity in km/h but expecting displacement in metres.
+- **Identify the type of motion**: is it constant velocity (a = 0), constant acceleration (use SUVAT), or changing acceleration (use graphs)? Choosing the wrong approach wastes time.
+- **Work backwards from what's asked**: if the question asks for time, identify which SUVAT equation contains time and the known variables. Don't substitute into the first equation you see.
 
 ### Approach Strategy
 
-- Identify which SUVAT variables are known and which is unknown.
-- If time is not involved, use v² = u² + 2as.
-- For projectile problems, split into horizontal (constant velocity) and vertical (constant acceleration) components.
+- Identify which SUVAT variables are known and which is unknown. List them explicitly: u = ?, v = ?, a = ?, s = ?, t = ?.
+- If time is not involved, use v² = u² + 2as. This is the most common equation in DSE kinematics questions.
+- For projectile problems, split into horizontal (constant velocity) and vertical (constant acceleration) components. The time component links both.
+- For multi-stage problems (e.g., a ball thrown up and caught), set up separate equations for each stage and link them through the final state of one stage being the initial state of the next.
+- When interpreting graphs, remember: gradient of s-t graph = velocity, gradient of v-t graph = acceleration, area under v-t graph = displacement.
 
 ## Intuition
 
-Think of each practice question as a mini-story about an object moving. First, understand the story: what is moving, what forces act on it, and what is being asked. Then translate the story into equations.
+Think of each practice question as a mini-story about an object moving. First, understand the story: what is moving, what forces act on it, and what is being asked. Then translate the story into equations. The key skill in DSE kinematics is not memorising formulas but recognising which formula to apply. A good strategy is to write down all known quantities, identify the unknown, and then select the equation that links them. For graph-based questions, practise reading values from axes and calculating gradients and areas quickly.
 
 ## Common Mistakes
 
-- **Forgetting to square velocity**: in v² = u² + 2as, students often write v = u + 2as or forget the square entirely.
-- **Mixing up initial and final velocity**: u is initial (at t = 0), v is final (at time t). Swapping them gives wrong answers.
-- **Not converting units**: if displacement is in metres, time in seconds, then velocity must be in m/s. Mixing km/h with m/s leads to incorrect magnitudes.
+- **Forgetting to square velocity**: in v² = u² + 2as, students often write v = u + 2as or forget the square entirely. Always double-check that you are using the squared form.
+- **Mixing up initial and final velocity**: u is initial (at t = 0), v is final (at time t). Swapping them gives wrong answers. Label your variables clearly before solving.
+- **Not converting units**: if displacement is in metres, time in seconds, then velocity must be in m/s. Mixing km/h with m/s leads to incorrect magnitudes. A car at 72 km/h is moving at 20 m/s.
+- **Ignoring sign conventions**: if upward is positive, then g = -9.81 m/s² and a downward initial velocity is negative. Sign errors propagate through calculations.
+- **Assuming horizontal motion affects vertical motion**: in projectile problems, the horizontal and vertical components are independent. A ball thrown horizontally from a cliff has the same time of flight as one dropped from the same height.
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions}  />
 
@@ -47,6 +53,7 @@ Think of each practice question as a mini-story about an object moving. First, u
 
 ## Cross-References
 
-- **[Mechanics](../physics/diagnostics/diag-mechanics):** Kinematics is part of mechanics
-- **[Waves](../physics/diagnostics/diag-waves-sound):** Kinematics connects to waves
-- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Kinematics is foundational
+- **[Mechanics](../physics/diagnostics/diag-mechanics):** Kinematics is part of mechanics; dynamics (forces) builds on these concepts.
+- **[Waves](../physics/diagnostics/diag-waves-sound):** Wave motion involves periodic kinematics; oscillatory motion connects to simple harmonic motion.
+- **[Electricity](../physics/diagnostics/diag-electrical-circuits):** Circuit analysis uses similar mathematical techniques (rate of change, area under curves).
+- **[Mathematics Compulsory](../maths/flashcards-compulsory):** Quadratic equations and trigonometry are directly applied in kinematics problems.

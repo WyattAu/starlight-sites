@@ -36,20 +36,20 @@ University-level abstract algebra notes covering groups, rings, fields, and Galo
 
 ## Topics Covered
 
-- **Groups and Subgroups**: Definitions, examples, Lagrange's theorem
-- **Homomorphisms**: Isomorphism theorems, group actions, Sylow theorems
-- **Rings and Ideals**: Polynomial rings, Euclidean domains, PIDs, UFDs
-- **Field Theory**: Extensions, splitting fields, Galois theory
+- **Groups and Subgroups**: Definitions, examples, Lagrange's theorem. Groups capture symmetry; subgroups are subsets closed under the group operation.
+- **Homomorphisms**: Isomorphism theorems, group actions, Sylow theorems. Homomorphisms preserve structure; the isomorphism theorems describe quotient structures.
+- **Rings and Ideals**: Polynomial rings, Euclidean domains, PIDs, UFDs. Rings extend groups with a second operation; ideals enable quotient rings.
+- **Field Theory**: Extensions, splitting fields, Galois theory. Fields are the most structured algebraic objects; Galois theory connects field extensions to polynomial solvability.
 
 ## Prerequisites
 
-- Mathematical proofs and logic
-- Basic linear algebra (helpful but not required)
-- Mathematical maturity
+- Mathematical proofs and logic. Abstract algebra is proof-based — you will write many proofs about abstract structures.
+- Basic linear algebra (helpful but not required). Vector spaces are examples of modules; eigenvalues connect to group representations.
+- Mathematical maturity. You should be comfortable with abstraction and working with definitions.
 
 ## How to Use These Notes
 
-Start with groups to build foundational knowledge, then progress to rings and fields. Each section includes worked examples and practice problems.
+Start with groups to build foundational knowledge, then progress to rings and fields. Each section includes worked examples and practice problems. The key is to work through proofs yourself — reading proofs is not enough.
 
 ## Navigation
 
@@ -70,14 +70,14 @@ Abstract algebra distils the essence of arithmetic into algebraic structures. A 
 
 ## Study Tips
 
-1. **Master the definitions**: Abstract algebra requires precise understanding of definitions
-2. **Practise proofs**: Learn to write clear, rigorous proofs
-3. **Draw Cayley tables**: Visualise group structure for small examples
-4. **Learn standard examples**: Know the properties of common groups (cyclic, symmetric, dihedral)
-5. **Connect to applications**: Relate abstract concepts to number theory, geometry, and physics
+1. **Master the definitions**: Abstract algebra requires precise understanding of definitions. Misremembering a definition leads to incorrect proofs.
+2. **Practise proofs**: Learn to write clear, rigorous proofs. Abstract algebra is excellent training for mathematical reasoning.
+3. **Draw Cayley tables**: Visualise group structure for small examples. Cayley tables reveal patterns in multiplication.
+4. **Learn standard examples**: Know the properties of common groups (cyclic, symmetric, dihedral). These serve as test cases for general theorems.
+5. **Connect to applications**: Relate abstract concepts to number theory, geometry, and physics. Applications provide motivation.
 
 ## Cross-References
 
-- **[Linear Algebra](../../2-linear-algebra/index.md):** Vector spaces and linear transformations.
-- **[Number Theory](../../7-number-theory/index.md):** Group theory in modular arithmetic.
-- **[Topology](../../9-topology/index.md):** Topological groups and algebraic topology.
+- **[Linear Algebra](../../2-linear-algebra/index.md):** Vector spaces and linear transformations; vector spaces are modules over fields.
+- **[Number Theory](../../7-number-theory/index.md):** Group theory in modular arithmetic; (Z/nZ)* is a group under multiplication.
+- **[Topology](../../9-topology/index.md):** Topological groups and algebraic topology; group theory underpins homology groups.

@@ -26,6 +26,19 @@ Elixir is a functional language built on the Erlang VM (BEAM), designed for conc
 - **Mutable thinking**: Trying to update a variable in place — Elixir variables are immutable bindings; use `=` pattern matching to bind new values, not reassign.
 - **Ignoring return values**: Elixir functions always return the last expression — forgetting this leads to unexpected return values when refactoring.
 - **String vs charlist confusion**: `"hello"` is a binary (UTF-8 encoded), while `'hello'` is a charlist (Erlang-compatible list of codepoints) — mixing them up causes unexpected behaviour with string functions.
+- **Blocking in process message loops**: Using `receive` without a timeout or catch-all clause can cause a process to hang indefinitely — always include a timeout or default handler in message loops.
+- **Supervision tree mistakes**: Placing a frequently crashing worker directly under the root supervisor instead of behind a `one_for_one` strategy — this can cascade failures to unrelated services.
+
+## Study Tips
+
+- **Use IEx extensively:** Elixir's interactive shell (IEx) is excellent for experimenting with pattern matching, pipe operators, and OTP concepts. Run `iex -S mix` in your project to test functions in context.
+- **Trace GenServer calls:** Use `:sys.trace/2` or `:observer` to inspect GenServer state and message flow during debugging. Understanding message passing is key to building fault-tolerant applications.
+- **Start with mix new:** Use `mix new` to scaffold projects with proper structure, test configuration, and dependency management from the beginning.
+- **Read the Elixir getting started guide:** The official guide (elixir-lang.org/getting-started) covers fundamentals through advanced topics with clear examples. Work through each section sequentially.
+- **Build a Phoenix project:** Phoenix is the standard Elixir web framework. Building a small Phoenix app demonstrates how Elixir's concurrency model, supervision trees, and functional patterns work in practice.
+- **Practise pattern matching extensively:** Pattern matching is Elixir's most powerful feature. Write functions that destructure tuples, lists, and maps in a single expression.
+- **Study OTP GenServer:** GenServer is the building block of concurrent Elixir applications. Understanding its callback model (init, handle_call, handle_cast, handle_info) is essential for building stateful services.
+- **Practise with the pipe operator:** The `|>` operator chains function calls left-to-right. Rewrite nested function calls using pipes to make code more readable.
 
 ---
 

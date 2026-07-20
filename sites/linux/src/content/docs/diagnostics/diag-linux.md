@@ -118,6 +118,14 @@ tableOfContents: false
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of Linux fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
+## Intuition
+
+**Linux system administration is about managing resources and services:** From user management to networking to security hardening, Linux administration involves configuring the system to be reliable, secure, and efficient.
+
+**Why it matters:** Linux systems power the majority of web servers, cloud platforms, and embedded devices. Administration skills are essential for IT professionals.
+
+**The key insight:** The principle of least privilege — granting only the minimum permissions needed — is the foundation of Linux security.
+
 ## Common Mistakes
 
 **Confusing `rm` with `rmdir`:** `rm` deletes files; `rmdir` removes empty directories. `rm -r` recursively deletes directories and their contents — this is dangerous. Always double-check paths before running `rm -r`.

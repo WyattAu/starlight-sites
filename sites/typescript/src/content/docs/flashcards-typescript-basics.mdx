@@ -24,6 +24,22 @@ TypeScript adds a compile-time type layer on top of JavaScript — the types exi
 - **Type assertion vs type guard**: `as` assertions lie to the compiler ("trust me, this is a string") — type guards (`typeof`, `instanceof`, custom predicates) actually check at runtime.
 - **Enum gotchas**: Numeric enums allow reverse mapping and can be assigned any number without a compile error — prefer string enums or union types for safety.
 - **Generic constraints**: Forgetting to constrain generic types — `T` can be anything, so you can't call methods on it without a constraint like `T extends SomeInterface`.
+- **Structural typing surprises**: TypeScript uses structural typing, not nominal — two unrelated types with the same shape are compatible. This can mask design errors.
+- **Type erasure at runtime**: TypeScript types are erased during compilation — `instanceof T` does not work for generic type parameters at runtime. Use type guards or runtime validation libraries.
+
+## Study Tips
+
+- **Enable strict mode from day one:** `"strict": true` in tsconfig.json enables null checks, strict function types, and other safety features. It catches more bugs than loose mode.
+- **Write type-first code:** Define the types first, then implement the function. This reveals design issues before you write any logic.
+- **Use the TypeScript playground:** The official playground (typescriptlang.org/play) lets you experiment with types interactively and see the compiled JavaScript output.
+- **Practise generic constraints:** Write functions that work with any type but enforce specific capabilities (e.g., `T extends { length: number }`). This builds understanding of generic power.
+- **Study the utility types:** `Partial`, `Pick`, `Omit`, `Record`, and `Readonly` are used constantly in real codebases. Understanding when to use each one is essential.
+
+## Advanced Topics
+
+- **Conditional types:** `T extends U ? X : Y` enables type-level programming. Used for extracting return types, parameter types, and building type-safe APIs.
+- **Template literal types:** `` `${A}-${B}` `` creates string types from combinations. Useful for type-safe route parameters and SQL queries.
+- **Type inference with `infer`:** The `infer` keyword extracts types from complex structures. Used in utility types like `ReturnType<T>` and `Parameters<T>`.
 
 ---
 

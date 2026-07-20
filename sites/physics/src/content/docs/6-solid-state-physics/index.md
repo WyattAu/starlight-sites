@@ -33,10 +33,10 @@ University-level solid state physics notes covering crystal structures, band the
 
 ## Topics Covered
 
-- **Crystal Structures**: Lattices, unit cells, reciprocal lattice, diffraction
-- **Lattice Dynamics**: Phonons, thermal properties, specific heat
-- **Electronic Structure**: Band theory, Fermi surface, semiconductors
-- **Superconductivity**: BCS theory, critical temperature, Meissner effect
+- **Crystal Structures**: Lattices, unit cells, reciprocal lattice, diffraction. Crystals are periodic arrangements of atoms; the reciprocal lattice describes diffraction patterns.
+- **Lattice Dynamics**: Phonons, thermal properties, specific heat. Phonons are quantised lattice vibrations that carry heat and sound.
+- **Electronic Structure**: Band theory, Fermi surface, semiconductors. Band theory explains why materials are metals, insulators, or semiconductors based on their electronic structure.
+- **Superconductivity**: BCS theory, critical temperature, Meissner effect. Superconductors exhibit zero resistance and expel magnetic fields below a critical temperature.
 
 ## Prerequisites
 
@@ -64,14 +64,15 @@ Each section includes:
 
 ## Study Tips
 
-1. **Master crystal structures**: Understand lattice geometry and symmetry
-2. **Practise problems**: Work through many problems to build intuition
-3. **Draw diagrams**: Visualise crystal structures and band diagrams
-4. **Learn Bloch's theorem**: Understand the foundation of band theory
-5. **Connect to applications**: Relate solid state physics to semiconductors and superconductors
+1. **Master crystal structures**: Understand lattice geometry and symmetry. Crystal structures determine the electronic and optical properties of materials.
+2. **Practise problems**: Work through many problems to build intuition. Solid state physics requires visualising 3D structures and their properties.
+3. **Draw diagrams**: Visualise crystal structures and band diagrams. Energy band diagrams explain why materials conduct or insulate.
+4. **Learn Bloch's theorem**: Understand the foundation of band theory. Bloch's theorem states that electron wavefunctions in a periodic potential are plane waves modulated by a periodic function.
+5. **Connect to applications**: Relate solid state physics to semiconductors and superconductors. Modern electronics, solar cells, and quantum computers all depend on solid state physics.
 
 ## Cross-References
 
-- **[Thermal Physics](../../2-thermal-physics/index.md):** Statistical mechanics of condensed matter.
-- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum theory of solids.
-- **[Electromagnetism](../../3-electromagnetism/index.md):** Electromagnetic properties of materials.
+- **[Thermal Physics](../../2-thermal-physics/index.md):** Statistical mechanics of condensed matter; phonons and heat capacity require thermal physics.
+- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum theory of solids; band theory is built on quantum mechanics.
+- **[Electromagnetism](../../3-electromagnetism/index.md):** Electromagnetic properties of materials; dielectrics and conductors are electromagnetic phenomena.
+- **[Mathematics](../../mathematics/index.md):** Fourier transforms, group theory, and linear algebra are essential mathematical tools.

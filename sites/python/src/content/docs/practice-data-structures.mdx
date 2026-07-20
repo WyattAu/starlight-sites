@@ -235,6 +235,14 @@ class MinHeap:
         return self.heap[0]
 ```
 
+## Intuition
+
+**Data structures organise data for efficient access:** The same data can be stored in lists, sets, dictionaries, or trees — each with different performance characteristics for insertion, deletion, and lookup. Choosing the right structure is essential for efficient programs.
+
+**Why it matters:** Data structure choice directly impacts program performance. Using a set for membership testing (O(1)) instead of a list (O(n)) can make the difference between a fast program and a slow one.
+
+**The key insight:** Python's dictionaries are implemented as hash tables — understanding this explains why dictionary lookup is O(1) and why unhashable types cannot be dictionary keys.
+
 ## Common Mistakes
 
 **Confusing lists and tuples:** Lists are mutable (can be modified after creation). Tuples are immutable. Use tuples for fixed collections (coordinates, RGB values) and lists for dynamic collections. Tuples can be dictionary keys; lists cannot.

@@ -11,15 +11,29 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 20 interactive flashcards for university-level Number Theory. Press Space to flip, rate 1-4.
 ---
 
+### Additional Flashcard Topics
+
+- **Euclidean Algorithm**: repeatedly apply division with remainder: a = bq + r, then replace (a,b) with (b,r) until r = 0. The last non-zero remainder is gcd(a,b). Extended version finds integers x,y such that ax + by = gcd(a,b), enabling modular inverse computation.
+
+- **Fundamental Theorem of Arithmetic**: every integer n > 1 factors uniquely into primes: n = p₁^{a₁} × p₂^{a₂} × ... × pₖ^{aₖ} (up to ordering). This is the foundation of number theory — primes are the "atoms" of arithmetic.
+
+- **Euler's Theorem**: if gcd(a,n) = 1, then a^{φ(n)} ≡ 1 (mod n), where φ(n) is Euler's totient function counting integers ≤ n coprime to n. Fermat's Little Theorem is the special case n = p prime: a^{p-1} ≡ 1 (mod p).
+
+- **Quadratic Residues**: a is a quadratic residue mod p if there exists x with x² ≡ a (mod p). The Legendre symbol (a/p) = 1 if a is a residue, -1 if not, 0 if p|a. Quadratic Reciprocity relates (p/q) to (q/p) for odd primes p,q.
+
+- **Chinese Remainder Theorem**: if gcd(m,n) = 1, the system x ≡ a (mod m), x ≡ b (mod n) has a unique solution mod mn. This enables solving congruences by breaking them into simpler parts.
+
 ## Intuition
 
-Number theory studies the properties of integers — the simplest objects in mathematics, yet endlessly deep. Divisibility and primes are the foundation: every integer factors uniquely into primes (Fundamental Theorem of Arithmetic). Modular arithmetic wraps integers around a modulus, creating finite structures where Fermat's Little Theorem and Euler's theorem govern exponentiation. These "simple" ideas underpin RSA cryptography and elliptic curve methods.
+Number theory studies the properties of integers — the simplest objects in mathematics, yet endlessly deep. Divisibility and primes are the foundation: every integer factors uniquely into primes (Fundamental Theorem of Arithmetic). Modular arithmetic wraps integers around a modulus, creating finite structures where Fermat's Little Theorem and Euler's theorem govern exponentiation. These "simple" ideas underpin RSA cryptography and elliptic curve methods. The beauty of number theory is that questions easy to state (e.g., "is n prime?") can be extraordinarily difficult to answer.
 
 ## Common Pitfalls
 
 - **Modular inverse existence**: The inverse a⁻¹ mod n exists only when gcd(a, n) = 1 — if a and n share a common factor, no inverse exists, and division mod n is undefined.
 - **Fermat's Little Theorem converse**: If aⁿ⁻¹ ≡ 1 (mod n), n is not necessarily prime — Carmichael numbers are composite numbers that satisfy this for all a coprime to n.
 - **Euclidean algorithm errors**: Forgetting to continue reducing until the remainder is 0 — stopping early gives a GCD that is a common divisor but not the greatest.
+- **Confusing φ(n) with n-1**: Euler's totient φ(n) = n-1 only when n is prime. For composite n, φ(n) < n-1. For example, φ(12) = 4 (coprime to 12: 1,5,7,11), not 11.
+- **Modular arithmetic sign errors**: (a + b) mod n = ((a mod n) + (b mod n)) mod n, but (a × b) mod n ≠ (a mod n) × (b mod n) without the final mod n. Always reduce intermediate results.
 
 ---
 
@@ -28,5 +42,6 @@ Number theory studies the properties of integers — the simplest objects in mat
 ## Cross-References
 
 - **[Number Theory](../index.md):** Divisibility and modular arithmetic fundamentals.
-- **[Abstract Algebra](../../1-abstract-algebra/index.md):** Group theory in modular arithmetic.
-- **[Complex Analysis](../../6-complex-analysis/index.md):** Analytic number theory.
+- **[Abstract Algebra](../../1-abstract-algebra/index.md):** Group theory in modular arithmetic; (Z/nZ)* is a group under multiplication.
+- **[Complex Analysis](../../6-complex-analysis/index.md):** Analytic number theory uses complex analysis (e.g., Riemann zeta function).
+- **[Linear Algebra](../../2-linear-algebra/index.md):** Matrix methods in number theory (e.g., lattice reduction).

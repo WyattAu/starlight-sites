@@ -52,6 +52,14 @@ an answer, submit, and review the explanation.
 
 <PracticeProblem client:only="solid-js" question={"What is cancellation safety in async Rust and how does tokio::select! relate to it?&quot; options={[ 'Cancellation safety ensures that dropping a future (e.g., via select! branch not chosen) does not leave shared state inconsistent. Only cancellation-safe futures should be used in select! branches that may be cancelled.', 'Cancellation safety means futures cannot be cancelled under any circumstances', 'Cancellation safety is enforced by the Rust compiler through the async keyword alone', 'Cancellation safety only applies to synchronous code, not async code', ]} correctAnswer={0} explanation=&quot;When tokio::select! runs multiple branches, the futures that are not chosen are dropped (cancelled). If a future was partway through updating shared state when dropped, that state may be left inconsistent. A future is cancellation-safe if dropping it at any await point leaves the program in a valid state. Many futures are NOT cancellation-safe by default (e.g., splitting a futures::stream::Stream into two readers). Tokio documents which operations are cancellation-safe. To make select! safe, use patterns like completing operations fully before branching, or using AbortHandle for controlled cancellation."} difficulty="hard"  />
 
+## Intuition
+
+**Rust combines low-level control with high-level ergonomics:** Pattern matching, algebraic data types (Option, Result), and traits provide expressive abstractions without runtime overhead. Zero-cost abstractions mean you do not pay for features you do not use.
+
+**Why it matters:** Rust's memory safety guarantees make it ideal for systems programming, embedded devices, and performance-critical applications.
+
+**The key insight:** Option<T> and Result<T, E> replace null and exceptions with explicit types that force you to handle absence and error cases.
+
 ## Common Mistakes
 
 **Confusing `&T` with `&mut T`:** `&T` is an immutable reference (many allowed). `&mut T` is a mutable reference (only one allowed at a time). This prevents data races at compile time. You cannot have both simultaneously.

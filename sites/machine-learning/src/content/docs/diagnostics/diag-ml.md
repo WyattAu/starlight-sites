@@ -118,6 +118,14 @@ tableOfContents: false
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of machine learning fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
+## Intuition
+
+**ML diagnostic assessment tests foundational understanding:** Before building complex models, you need to understand the basics — data preprocessing, model evaluation, overfitting, and the bias-variance trade-off.
+
+**Why it matters:** These fundamentals determine whether your models will actually work in practice, not just in theory.
+
+**The key insight:** Always evaluate on data the model has never seen — training accuracy tells you almost nothing about real-world performance.
+
 ## Common Mistakes
 
 **Confusing bias and variance:** Bias is error from overly simplistic models (underfitting). Variance is error from models that are too complex (overfitting). Reducing one often increases the other. The bias-variance tradeoff is fundamental.

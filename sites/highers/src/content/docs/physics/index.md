@@ -77,6 +77,14 @@ grade, depending on the subject and level.
 <aside class="starlight-aside starlight-aside--tip">
 most recent SQA documentation for definitive syllabus and assessment requirements.
 
+## Intuition
+
+**Physics is the most fundamental natural science:** It studies matter, energy, and their interactions — from subatomic particles to the entire universe. Physics provides the mathematical framework that all other sciences build upon.
+
+**Why it matters:** Physics principles underpin technology (lasers, semiconductors, MRI), explain natural phenomena (rainbows, earthquakes, northern lights), and drive innovation in energy, medicine, and communications.
+
+**The key insight:** Physics is about building models — simplifying complex reality into mathematical descriptions that capture the essential behaviour while discarding irrelevant details.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

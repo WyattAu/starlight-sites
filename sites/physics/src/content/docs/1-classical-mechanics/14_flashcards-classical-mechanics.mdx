@@ -24,13 +24,32 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
-<FlashcardDeck client:only="solid-js" deckId="university-physics-classical-mechanics" title="University Physics -- Classical Mechanics" description="Newton's laws, Lagrangian and Hamiltonian mechanics, rigid body dynamics, canonical transformations, and scattering theory" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
+### Additional Flashcard Topics
+
+- **Newton's Three Laws**: (1) F=ma — force equals mass times acceleration, (2) action-reaction — forces come in equal and opposite pairs, (3) inertia — objects maintain their state of motion unless acted upon. These are the foundation of classical mechanics.
+
+- **Lagrangian Mechanics**: L = T - V (kinetic minus potential energy). The Euler-Lagrange equation d/dt(∂L/∂q̇) - ∂L/∂q = 0 gives equations of motion in generalised coordinates. This formulation is powerful for constrained systems.
+
+- **Hamiltonian Mechanics**: H = T + V (kinetic plus potential energy) expressed in terms of coordinates and momenta. Hamilton's equations q̇ = ∂H/∂p, ṗ = -∂H/∂q give first-order equations of motion. Phase space trajectories conserve H.
+
+- **Noether's Theorem**: every continuous symmetry of the action corresponds to a conserved quantity. Time translation symmetry → energy conservation, spatial translation → momentum, rotational symmetry → angular momentum.
+
+- **Central Force Motion**: for forces directed toward a fixed point, angular momentum is conserved. The Kepler problem (F ∝ 1/r²) gives elliptical orbits. The effective potential combines gravitational and centrifugal terms.
+
+## Intuition
+
+**The physics of everyday motion:** Classical mechanics describes everything you can see and touch — from thrown balls to orbiting planets. Newton laws are simple but universal: F=ma tells you exactly how forces produce motion, and conservation laws tell you what stays constant.
+
+**Why it matters:** Classical mechanics is the foundation of engineering — bridges, buildings, rockets, and cars are all designed using Newton laws. It is also the starting point for all of physics.
+
+**The key insight:** Conservation laws (energy, momentum, angular momentum) are not just convenient shortcuts — they reflect deep symmetries of nature (time translation, space translation, rotational symmetry). Noether theorem connects symmetries to conservation laws. This insight extends to quantum mechanics and particle physics, where symmetry principles determine the form of interactions.
 
 ## Cross-References
 
-- **[Classical Mechanics](../index.md):** Newton's laws and Lagrangian mechanics fundamentals.
-- **[Thermal Physics](../../2-thermal-physics/index.md):** Statistical mechanics built on classical mechanics.
-- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Classical limit of quantum mechanics.
+- **[Classical Mechanics](../index.md):** Newton's laws and Lagrangian mechanics fundamentals; the complete mathematical framework for macroscopic motion.
+- **[Thermal Physics](../../2-thermal-physics/index.md):** Statistical mechanics built on classical mechanics; the kinetic theory of gases uses Newton's laws.
+- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Classical limit of quantum mechanics; the correspondence principle connects quantum to classical.
+- **[Electromagnetism](../../3-electromagnetism/index.md):** Electromagnetic forces in classical mechanics; charged particle dynamics.
 
 ## Common Mistakes
 
@@ -39,3 +58,7 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 **Forgetting that constraint forces do no work:** In Lagrangian mechanics, constraint forces (tension, normal force) are eliminated by choosing appropriate generalised coordinates. Including them doubles-counts.
 
 **Mixing up active and passive transformations:** Active transformations move the particle; passive transformations change the coordinate system. Confusing them flips the sign of rotation angles.
+
+**Confusing conservative and non-conservative forces:** conservative forces (gravity, springs) have potential energy functions; non-conservative forces (friction, air resistance) do not. Energy conservation only applies to conservative systems.
+
+**Forgetting that the Lagrangian is not unique:** adding a total time derivative dF(q,t)/dt to L does not change the equations of motion. Different Lagrangians can describe the same physics.

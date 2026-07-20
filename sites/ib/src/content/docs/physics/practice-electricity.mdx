@@ -22,18 +22,32 @@ import { practiceQuestions } from '@/data/flashcards/physics/practice-electricit
 
 ## Intuition
 
-When approaching electricity problems, always start by identifying what type of circuit you have (series, parallel, or a combination) and what the question is asking for. Redraw the circuit if needed -- simplifying complex diagrams into recognizable series/parallel blocks makes calculations much easier. For internal resistance problems, treat the battery as an ideal EMF source in series with a small resistor.
+When approaching electricity problems, always start by identifying what type of circuit you have (series, parallel, or a combination) and what the question is asking for. Redraw the circuit if needed -- simplifying complex diagrams into recognizable series/parallel blocks makes calculations much easier. For internal resistance problems, treat the battery as an ideal EMF source in series with a small resistor. For potential divider problems, remember that the voltage across each resistor is proportional to its resistance: V_out = V_in × R₂ / (R₁ + R₂).
+
+**Why it matters**: Electricity problems test your ability to apply Kirchhoff's laws, Ohm's law, and power equations in combination. These skills are essential for understanding real circuits and for solving problems in electronics, telecommunications, and power systems. The ability to simplify complex circuits and identify series/parallel combinations is a transferable problem-solving skill.
+
+---
+
+## Worked Example
+
+**Question**: A battery has EMF 12V and internal resistance 2Ω. It is connected to a 4Ω resistor. Calculate the current in the circuit and the terminal PD.
+
+**Solution**: Total resistance = external + internal = 4 + 2 = 6Ω. Current I = ε / R_total = 12 / 6 = 2A. Terminal PD = ε − Ir = 12 − (2 × 2) = 8V. Alternatively, terminal PD = IR_external = 2 × 4 = 8V. Both methods give the same answer, confirming the calculation.
+
+---
 
 ## Common Mistakes
 
-- Forgetting that in parallel circuits, voltage is the same across each branch but current splits. In series circuits, current is the same but voltage splits. Mixing these up is the most common error.
-- Calculating total resistance incorrectly for parallel circuits: 1/R_total = 1/R₁ + 1/R₂ + ... is NOT the same as R_total = R₁ + R₂. The reciprocal formula must be used.
+- Forgetting that in parallel circuits, voltage is the same across each branch but current splits. In series circuits, current is the same but voltage splits. Mixing these up is the most common error. A useful mnemonic: "In parallel, voltage is constant; in series, current is constant."
+- Calculating total resistance incorrectly for parallel circuits: 1/R_total = 1/R₁ + 1/R₂ + ... is NOT the same as R_total = R₁ + R₂. The reciprocal formula must be used. For two resistors in parallel, R_total = (R₁ × R₂) / (R₁ + R₂).
 - Using the wrong form of the power equation. If you know current, use P = I²R; if you know voltage, use P = V²/R. Using the wrong one requires an extra calculation step and introduces rounding errors.
+- Forgetting that internal resistance reduces the terminal PD. The equation V = ε − Ir shows that as current increases, terminal PD decreases. This is why batteries heat up under heavy load.
 
-
+---
 
 ## Cross-References
 
-- **[Kinematics](../physics/flashcards-kinematics):** Kinematics is fundamental
-- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
-- **[Waves](../physics/flashcards-waves):** Waves transfer energy
+- **[Kinematics](../physics/flashcards-kinematics):** Kinematics describes charge movement in electric fields.
+- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers energy conservation, which underpins electrical energy conversion and power transfer.
+- **[Waves](../physics/flashcards-waves):** Waves transfer energy, and alternating current (AC) circuits involve wave phenomena like frequency and phase.
+- **[Thermal Physics](../physics/flashcards-thermal-physics):** Thermal physics explains why resistance changes with temperature and why internal resistance causes batteries to heat up.

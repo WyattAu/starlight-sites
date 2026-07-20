@@ -62,6 +62,14 @@ import PracticeProblem from "@components/PracticeProblem";
 
 <PracticeProblem client:only="solid-js" question={"What does a high L1 cache miss rate in perf stat indicate?"} options={'The working set exceeds L1 cache capacity, or poor data access patterns', 'The CPU is thermally throttling', 'The disk is too slow', 'The network is congested'} correctAnswer={0} explanation="A high L1 cache miss rate means the application frequently accesses data not in L1 cache, forcing slower L2/L3/DRAM accesses. Solutions include improving data locality, restructuring data structures, or increasing cache-friendly access patterns." difficulty="medium"  />
 
+## Intuition
+
+**Performance tuning combines measurement with reasoning:** Profiling reveals where time is spent, but understanding *why* a particular code path is slow requires knowledge of hardware, algorithms, and system architecture.
+
+**Why it matters:** Performance tuning skills are essential for building scalable applications and efficient infrastructure.
+
+**The key insight:** The 80/20 rule applies — 80% of performance problems come from 20% of the code. Focus your optimisation efforts where they matter most.
+
 ## Common Mistakes
 
 **Optimising code before understanding requirements:** Different requirements demand different optimisations. Low-latency systems prioritize latency over throughput. Data pipelines prioritize throughput. Know which metric matters before starting.

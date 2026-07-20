@@ -17,15 +17,31 @@ unsafe. Press Space to flip, rate 1-4.
 
 ---
 
+### Additional Flashcard Topics
+
+- **Ownership Rules**: each value has one owner; when the owner goes out of scope, the value is dropped. Moving a value transfers ownership; the previous binding is invalidated.
+
+- **Borrowing**: `&T` (immutable borrow) allows read access; `&mut T` (mutable borrow) allows exclusive write access. Multiple immutable borrows are allowed; only one mutable borrow at a time.
+
+- **Lifetimes**: `'a` annotations tell the compiler how long references are valid. The borrow checker uses lifetimes to prevent dangling references. Most lifetimes are inferred.
+
+- **Traits**: define shared behaviour (like interfaces). `trait Animal { fn speak(&self); }`. Trait objects (`dyn Animal`) enable dynamic dispatch; static dispatch uses generics.
+
+- **Enums and Pattern Matching**: `enum Shape { Circle(f64), Rectangle(f64, f64) }`. `match` exhaustively handles all variants. Enums with data are sum types (algebraic data types).
+
+- **Error Handling**: `Result<T, E>` for recoverable errors; `panic!` for unrecoverable. The `?` operator propagates errors up the call stack. No exceptions.
+
 ## Intuition
 
-Rust achieves memory safety without a garbage collector through its ownership system: every value has exactly one owner, and when that owner goes out of scope, the value is dropped. Borrowing lets you use a value without taking ownership — immutable borrows (`&T`) allow simultaneous read access, while mutable borrows (`&mut T`) grant exclusive write access. The compiler enforces these rules at compile time, catching data races, dangling pointers, and use-after-free before the code ever runs.
+Rust achieves memory safety without a garbage collector through its ownership system: every value has exactly one owner, and when that owner goes out of scope, the value is dropped. Borrowing lets you use a value without taking ownership — immutable borrows (`&T`) allow simultaneous read access, while mutable borrows (`&mut T`) grant exclusive write access. The compiler enforces these rules at compile time, catching data races, dangling pointers, and use-after-free before the code ever runs. Zero-cost abstractions mean you pay no runtime penalty for using high-level features.
 
 ## Common Pitfalls
 
 - **Borrow checker fights**: Trying to mutate data while an immutable borrow is still in scope — the compiler rejects this to prevent data races. Restructure your code to limit borrow lifetimes.
 - **Clone overuse**: Calling `.clone()` to satisfy the borrow checker avoids the real issue — understand when to use owned vs borrowed data, and consider `Rc<T>` or `Arc<T>` for shared ownership.
 - **Unwrap panics**: Using `.unwrap()` on a `Result::Err` or `Option::None` panics at runtime — handle errors with `?`, `match`, or `if let` instead.
+- **Confusing `move` closures**: Closures capture variables by reference by default; `move` transfers ownership into the closure. Forgetting `move` can cause lifetime errors.
+- **String vs &str**: `String` is owned and heap-allocated; `&str` is a borrowed string slice. Use `String` for owned data, `&str` for references.
 
 ---
 
@@ -36,3 +52,4 @@ Rust achieves memory safety without a garbage collector through its ownership sy
 - **[Rust Practice](../practice-rust-basics.mdx):** Auto-graded problems testing ownership, borrowing, and concurrency concepts.
 - **[Go Concurrency](../../go/concurrency/channels.md):** Channel-based concurrency patterns compared to Rust's ownership model.
 - **[Haskell Types](../../haskell/01-basics/1_types-and-functions.md):** Type system fundamentals that Rust's traits and generics build upon.
+- **[Swift Value Types](../../swift/flashcards-swift-basics.mdx):** Value semantics and memory safety without garbage collection.

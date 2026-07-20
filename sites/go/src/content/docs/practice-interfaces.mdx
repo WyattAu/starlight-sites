@@ -224,6 +224,14 @@ func (s *UserService) CreateUser(name string) {
 }
 ```
 
+## Intuition
+
+**Go interfaces are implicit — you satisfy them by implementing methods:** Unlike languages with explicit interface declarations, Go interfaces are satisfied implicitly. This enables flexible, decoupled code where types do not need to know about the interfaces they satisfy.
+
+**Why it matters:** Interfaces are the key to writing testable, reusable Go code. They enable dependency injection, mock testing, and polymorphism without inheritance.
+
+**The key insight:** Small interfaces (one or two methods) are more powerful than large ones — the io.Reader and io.Writer interfaces with a single method each are the most widely used interfaces in Go.
+
 ## Common Mistakes
 
 **Checking concrete types inside interface methods:** If your interface method does `switch v := i.(type)`, youve broken the interface abstraction. Interfaces should work with any implementation. Type assertions inside interface methods defeat the purpose of polymorphism.

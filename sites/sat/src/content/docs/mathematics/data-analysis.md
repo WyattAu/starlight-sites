@@ -9,25 +9,20 @@ SAT mathematics study notes - Data analysis
 
 ## Key Concepts
 
-- Core definitions and principles
-- Important strategies and techniques
-- Worked examples with step-by-step solutions
-- Common test patterns and tips
+- **Mean**: arithmetic average = sum of values / number of values. Sensitive to outliers.
+- **Median**: middle value when sorted. More robust than mean for skewed data.
+- **Mode**: most frequent value. Can have multiple modes.
+- **Standard Deviation**: measures spread from the mean. Low = data clusters near mean; high = data spreads out.
+- **Probability**: P(event) = favorable outcomes / total outcomes. Independent events multiply; mutually exclusive events add.
 
 ## Worked Example
 
-**Problem:** [Describe a typical problem]
+**Problem:** A dataset has values 2, 3, 5, 5, 7, 8, 10. What is the median?
 
 **Solution:**
-Step 1: Identify the question type
-Step 2: Apply the relevant strategy
-Step 3: Calculate the answer
-
-## Practice Problems
-
-1. [Problem 1]
-2. [Problem 2]
-3. [Problem 3]
+Step 1: Sort the data (already sorted): 2, 3, 5, 5, 7, 8, 10
+Step 2: Find the middle value: 7 values, so the 4th value is the median
+Step 3: The median is 5
 
 ## Intuition
 

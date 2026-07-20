@@ -15,15 +15,29 @@ integration. Press Space to flip, rate 1-4.
 
 ---
 
+### Additional Flashcard Topics
+
+- **Union Types**: `string | number` allows a value to be one of several types. Discriminated unions use a common literal property to narrow types in switch statements.
+
+- **Intersection Types**: `A & B` combines all properties of A and B into a single type. Useful for mixing behaviours (e.g., `Serializable & Loggable`).
+
+- **Template Literal Types**: `` `${string}-${number}` `` creates types from string patterns. Useful for type-safe route parameters or CSS values.
+
+- **Conditional Types**: `T extends U ? X : Y` selects types based on conditions. Enables type-level programming (e.g., extracting return types from functions).
+
+- **Mapped Types**: `{ [K in keyof T]: ... }` transforms every property of a type. Utility types like `Partial`, `Required`, `Readonly` are built using mapped types.
+
 ## Intuition
 
-TypeScript adds a compile-time type layer on top of JavaScript — the types exist only during development and are erased when the code runs. Generics let you write functions that work with any type while preserving type safety. Utility types (`Partial`, `Pick`, `Omit`, `Record`) let you transform existing types without defining new ones. The `any` type is an escape hatch that disables type checking — using it is admitting defeat.
+TypeScript adds a compile-time type layer on top of JavaScript — the types exist only during development and are erased when the code runs. Generics let you write functions that work with any type while preserving type safety. Utility types (`Partial`, `Pick`, `Omit`, `Record`) let you transform existing types without defining new ones. The `any` type is an escape hatch that disables type checking — using it is admitting defeat. TypeScript's type system is Turing-complete: you can compute types at compile time, enabling powerful type-level abstractions.
 
 ## Common Pitfalls
 
 - **Type assertion vs type guard**: `as` assertions lie to the compiler ("trust me, this is a string") — type guards (`typeof`, `instanceof`, custom predicates) actually check at runtime.
 - **Enum gotchas**: Numeric enums in TypeScript allow reverse mapping and can be assigned any number without a compile error — prefer string enums or union types.
 - **Generic constraints**: Forgetting to constrain generic types — `T` can be anything, so you can't call methods on it without a constraint like `T extends SomeInterface`.
+- **Structural vs nominal typing**: TypeScript uses structural typing — two types are compatible if their structures match, even if they have different names. This can cause unexpected compatibility.
+- **Type widening**: `let x = "hello"` infers `string`, not `"hello"`. Use `as const` or explicit type annotations to narrow types.
 
 ---
 
@@ -34,3 +48,4 @@ TypeScript adds a compile-time type layer on top of JavaScript — the types exi
 - **[TypeScript Practice](../practice-typescript-basics.mdx):** Auto-graded problems testing the same core TypeScript concepts.
 - **[Java Generics](../../java/11-generics-reflection/01-generics.md):** Generic type system concepts that TypeScript adapts for JavaScript.
 - **[Dart Variables](../../dart/03-basics/02-variables.md):** Type system fundamentals compared across languages.
+- **[Rust Traits](../../rust/flashcards-rust-basics.mdx):** Rust's trait system provides similar type-level abstractions to TypeScript interfaces.

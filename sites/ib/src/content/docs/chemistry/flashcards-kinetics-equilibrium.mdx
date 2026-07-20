@@ -18,13 +18,13 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ### Key Concepts
 
-**Rate Equation**: Rate = k[A]ⁿ[B]ᵐ, where k is the rate constant, and n and m are the orders with respect to each reactant. Orders are determined experimentally, not from stoichiometric coefficients. The overall order is n + m.
+**Rate Equation**: Rate = k[A]ⁿ[B]ᵐ, where k is the rate constant (units depend on overall order), and n and m are the orders with respect to each reactant. Orders are determined experimentally, not from stoichiometric coefficients -- a common exam trap. The overall order is n + m. Zero order means rate is independent of that reactant. First order means rate is proportional to concentration. Second order means rate is proportional to concentration squared. The rate-determining step is the slowest step in the mechanism.
 
-**Arrhenius Equation**: k = Ae^(−Ea/RT), where A is the pre-exponential factor, Ea is the activation energy, R is the gas constant, and T is temperature in Kelvin. A plot of ln k vs 1/T gives a straight line with gradient −Ea/R.
+**Arrhenius Equation**: k = Ae^(−Ea/RT), where A is the pre-exponential factor (frequency of successful collisions), Ea is the activation energy (minimum energy for reaction), R is the gas constant (8.31 J mol⁻¹ K⁻¹), and T is temperature in Kelvin. A plot of ln k vs 1/T gives a straight line with gradient −Ea/R and intercept ln A. This shows that increasing temperature increases k (faster reactions) and that catalysts lower Ea.
 
-**Equilibrium Constant (Kc)**: For aA + bB ⇌ cC + dD, Kc = [C]ᶜ[D]ᵈ / [A]ᵃ[B]ᵇ. Kc > 1 favours products; Kc < 1 favours reactants. Kc changes with temperature only -- concentration, pressure, and catalysts do not change its value.
+**Equilibrium Constant (Kc)**: For aA + bB ⇌ cC + dD, Kc = [C]ᶜ[D]ᵈ / [A]ᵃ[B]ᵇ. Kc > 1 favours products; Kc < 1 favours reactants; Kc = 1 means equal amounts. Kc changes with temperature only -- concentration, pressure, and catalysts do not change its value. A large Kc means the reaction goes essentially to completion. A small Kc means very little product forms.
 
-**Le Chatelier's Principle**: If a system at equilibrium is disturbed, it shifts to partially counteract the change. Increasing temperature favours the endothermic direction. Increasing pressure favours the side with fewer moles of gas. A catalyst speeds up both forward and reverse reactions equally, reaching equilibrium faster but not changing Kc.
+**Le Chatelier's Principle**: If a system at equilibrium is disturbed, it shifts to partially counteract the change. Increasing temperature favours the endothermic direction (absorbs heat). Increasing pressure favours the side with fewer moles of gas (reduces pressure). A catalyst speeds up both forward and reverse reactions equally, reaching equilibrium faster but not changing Kc or the position of equilibrium. Adding a reactant shifts equilibrium toward products.
 
 ---
 
@@ -34,18 +34,24 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ## Intuition
 
-Think of kinetics as "how fast" and equilibrium as "how far." A reaction might be thermodynamically favourable (large Kc) but kinetically slow (high Ea). A catalyst is like building a tunnel through a mountain -- it lowers the energy barrier without changing the starting or ending altitude. Le Chatelier's principle is like a thermostat -- the system resists change by shifting in the direction that opposes the disturbance.
+Think of kinetics as "how fast" and equilibrium as "how far." A reaction might be thermodynamically favourable (large Kc) but kinetically slow (high Ea) -- like a ball at the top of a hill that can't roll down because there's a barrier in the way. A catalyst is like building a tunnel through a mountain -- it lowers the energy barrier without changing the starting or ending altitude. Le Chatelier's principle is like a thermostat -- the system resists change by shifting in the direction that opposes the disturbance.
+
+**Why it matters**: Kinetics determines how fast reactions occur (essential for industrial processes, pharmaceuticals, and food preservation). Equilibrium determines how much product forms (essential for maximising yields in chemical manufacturing). Understanding both is essential for optimising chemical processes.
+
+---
 
 ## Common Pitfalls
 
-- Using stoichiometric coefficients as rate equation orders. Orders must be found experimentally. A common exam trap is giving balanced equations and expecting you to guess the orders.
-- Forgetting that only temperature changes Kc. Changing concentration or pressure shifts the position of equilibrium but does not change Kc itself. Only temperature does that.
-- Confusing Kc with Kp. Kc uses concentrations (mol/dm³); Kp uses partial pressures. For gas equilibria, Kp is often more convenient. The relationship is Kp = Kc(RT)^Δn.
+- Using stoichiometric coefficients as rate equation orders. Orders must be found experimentally. A common exam trap is giving balanced equations and expecting you to guess the orders. Always look for experimental data.
+- Forgetting that only temperature changes Kc. Changing concentration or pressure shifts the position of equilibrium (Le Chatelier's principle) but does not change Kc itself. Only temperature does that. This is a very common MCQ trap.
+- Confusing Kc with Kp. Kc uses concentrations (mol/dm³); Kp uses partial pressures (kPa or atm). For gas equilibria, Kp is often more convenient. The relationship is Kp = Kc(RT)^Δn, where Δn is the difference in moles of gas between products and reactants.
+- Forgetting that catalysts do not affect equilibrium position. They speed up both forward and reverse reactions equally, so equilibrium is reached faster but the same Kc and composition result.
 
-
+---
 
 ## Cross-References
 
-- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure is foundational
-- **[Energetics](../chemistry/flashcards-energetics):** Energy changes connect topics
-- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium is central to chemistry
+- **[Energetics](../chemistry/flashcards-energetics):** Gibbs free energy determines the direction of equilibrium, and temperature affects both ΔG and Kc.
+- **[Chemical Bonding](../chemistry/flashcards-chemical-bonding):** Bond strengths affect reaction rates (activation energy) and enthalpy changes.
+- **[Stoichiometry](../chemistry/flashcards-stoichiometry):** Stoichiometric calculations are needed for equilibrium calculations and rate equation determination.
+- **[Quantitative Chemistry](../chemistry/flashcards-quantitative-chemistry):** Concentration calculations are essential for determining Kc and rate equations.

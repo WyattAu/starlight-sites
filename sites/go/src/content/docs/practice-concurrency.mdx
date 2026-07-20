@@ -229,6 +229,14 @@ func (c *ConcurrentCache) Delete(key string) {
 }
 ```
 
+## Intuition
+
+**Go's concurrency model is based on communicating sequential processes:** Instead of sharing memory and using locks, Go encourages goroutines to communicate via channels. This model avoids many common concurrency bugs like race conditions and deadlocks.
+
+**Why it matters:** Concurrency is essential for building responsive servers, processing data pipelines, and utilising multi-core processors efficiently.
+
+**The key insight:** "Don't communicate by sharing memory; share memory by communicating" — this Go proverb captures the philosophy that channel-based communication is safer and clearer than shared-state concurrency.
+
 ## Common Mistakes
 
 **Forgetting that goroutines are not OS threads:** Goroutines are multiplexed onto a small number of OS threads by the Go scheduler. You can spawn millions, but each still consumes stack memory. Creating unbounded goroutines (e.g., one per HTTP request without limits) can exhaust memory.

@@ -11,15 +11,29 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 20 interactive flashcards for university-level ODEs. Press Space to flip, rate 1-4.
 ---
 
+### Additional Flashcard Topics
+
+- **Separable Equations**: dy/dx = g(x)h(y) can be solved by separating variables: ∫dy/h(y) = ∫g(x)dx. The key is to verify that h(y) ≠ 0 before dividing. Constant solutions (where h(y) = 0) are equilibrium solutions that may be missed.
+
+- **Linear First-Order ODEs**: dy/dx + P(x)y = Q(x). Solution uses integrating factor μ(x) = exp(∫P(x)dx), giving y = (1/μ)∫μQ dx + C. This method works because the left side becomes d/dx(μy).
+
+- **Characteristic Equation**: for ay'' + by' + cy = 0, assume y = e^{rx} to get ar² + br + c = 0. Roots r₁, r₂ give solutions: distinct real roots → y = c₁e^{r₁x} + c₂e^{r₂x}; repeated root → y = (c₁ + c₂x)e^{rx}; complex roots → y = e^{αx}(c₁cos(βx) + c₂sin(βx)).
+
+- **Laplace Transform**: L{f(t)} = ∫₀^∞ e^{-st}f(t)dt converts ODEs to algebraic equations. Key properties: L{f'} = sF(s) - f(0), L{f''} = s²F(s) - sf(0) - f'(0). Partial fractions and inverse transforms recover the solution.
+
+- **Existence and Uniqueness**: the Picard-Lindelöf theorem guarantees a unique solution to y' = f(x,y) with y(x₀) = y₀ if f and ∂f/∂y are continuous near (x₀,y₀). This is the fundamental theorem ensuring ODEs are well-posed.
+
 ## Intuition
 
-ODEs describe how quantities change in relation to their current state — they're the mathematical language of dynamics. A first-order ODE like dy/dx = f(x, y) defines a slope field, and solutions are curves that follow those slopes. Linear ODEs have superposition: if y₁ and y₂ are solutions, so is any combination. The Laplace transform converts differential equations into algebraic equations, solving initial value problems systematically.
+ODEs describe how quantities change in relation to their current state — they're the mathematical language of dynamics. A first-order ODE like dy/dx = f(x, y) defines a slope field, and solutions are curves that follow those slopes. Linear ODEs have superposition: if y₁ and y₂ are solutions, so is any combination. The Laplace transform converts differential equations into algebraic equations, solving initial value problems systematically. The key insight is that ODEs encode rates of change as relationships between a function and its derivatives.
 
 ## Common Pitfalls
 
 - **Separable equation errors**: Forgetting to separate variables completely — dy/dx = xy must become dy/y = x dx, not dy = x dx with y still mixed in.
 - **Characteristic equation sign errors**: When solving ay'' + by' + cy = 0, the characteristic equation ar² + br + c = 0 must match the ODE's coefficients exactly — sign errors produce wrong roots.
 - **Particular solution forgetting homogeneous**: The general solution is y = y_h + y_p (homogeneous + particular) — omitting y_h gives an incomplete solution that doesn't satisfy arbitrary initial conditions.
+- **Forgetting constant solutions in separable equations**: When dividing by h(y), you may lose constant solutions where h(y) = 0. Always check for equilibrium solutions.
+- **Laplace transform domain errors**: The Laplace transform requires the function to be of exponential order. Functions that grow too fast (e.g., e^{t²}) do not have Laplace transforms.
 
 ---
 
@@ -27,6 +41,7 @@ ODEs describe how quantities change in relation to their current state — they'
 
 ## Cross-References
 
-- **[ODEs](../index.md):** Differential equation solution methods.
-- **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Vector fields and gradients used in ODE systems.
-- **[Complex Analysis](../../6-complex-analysis/index.md):** Contour integration for inverse Laplace transforms.
+- **[ODEs](../index.md):** Differential equation solution methods and classification.
+- **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Vector fields and gradients used in ODE systems; systems of ODEs require multivariable calculus.
+- **[Complex Analysis](../../6-complex-analysis/index.md):** Contour integration for inverse Laplace transforms and solving linear ODEs.
+- **[Linear Algebra](../../2-linear-algebra/index.md):** Systems of linear ODEs use eigenvalues and matrix exponentials.

@@ -44,9 +44,13 @@ Using more memory can make an algorithm faster, and vice versa:
 
 **Assuming all sorting algorithms have the same complexity:** Bubble sort is O(n²). Merge sort is O(n log n). Quick sort is O(n log n) average but O(n²) worst case. Know the differences.
 
+**Confusing worst-case with average-case:** Big-O without qualification means worst case. An algorithm with O(n²) worst case may have O(n) average case for typical inputs. Always specify which case you mean.
+
+**Forgetting that constants matter for small inputs:** An O(n²) algorithm with small constants may be faster than an O(n log n) algorithm with large constants for small n. Asymptotic analysis only describes behaviour as n → ∞.
+
 ## Cross-References
 
-- [[1-algorithms/data-structures]] - Data structure operations
-- [[1-algorithms/algorithm_design]] - Design for efficiency
-- [[1-algorithms/complexity_theory]] - Complexity classes
-- [[1-discrete-mathematics/6_recurrence-relations]] - Recurrence solutions
+- **[Algorithms and Data Structures](10_flashcards-algorithms-and-data-structures.mdx):** Data structure operations and algorithm design techniques.
+- **[Discrete Mathematics](../../1-discrete-mathematics/8_flashcards-discrete-mathematics.mdx):** Recurrence relations and combinatorics underpin algorithm analysis.
+- **[Theory of Computation](../../3-theory/flashcards-theory.mdx):** Complexity classes classify problems by their algorithmic difficulty.
+- **[Operating Systems](../../5-operating-systems/12_flashcards-operating-systems.mdx):** OS scheduling and resource management depend on algorithm efficiency.

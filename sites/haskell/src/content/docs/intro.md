@@ -19,12 +19,28 @@ Haskell's approach to programming — purity, immutability, and referential tran
 - **Lazy evaluation**: Values are computed only when needed, enabling infinite data structures
 - **Algebraic data types**: Modelling data precisely with sum and product types
 
+## How to Get Started
+
+Install GHCup (https://www.haskell.org/ghcup/) to get GHC (the compiler), Cabal, and Stack. Start GHCi (`ghc`) and experiment with basic functions, pattern matching, and list comprehensions. The "Learn You a Haskell" tutorial (free online) is an excellent first resource. Work through exercises — reading Haskell without writing it does not build intuition.
+
+## Study Approach
+
+Start with the basics: pure functions, pattern matching, and list operations. Then move to type classes and algebraic data types. Monads come last — they are a consequence of understanding functors and applicatives, not a starting point. Use GHCi constantly to verify your mental model against the compiler's type inference.
+
 ## Cross-References
 
 - **[Abstract Algebra](/docs/university/mathematics/abstract-algebra)**: Groups, rings, and fields — the algebraic structures that inspire Haskell's type class hierarchy.
 - **[Category Theory](/docs/university/mathematics/category-theory)**: Functors, natural transformations, and monads have their mathematical foundations here.
 
 Browse the content using the sidebar navigation on the left.
+
+## Intuition
+
+**Haskell is a purely functional programming language:** In Haskell, functions have no side effects — the same input always produces the same output. This purity enables powerful reasoning about code and eliminates entire categories of bugs.
+
+**Why it matters:** Haskell's type system catches errors at compile time that would be runtime bugs in other languages. It influences modern language design (Rust's Option, Swift's Result).
+
+**The key insight:** Monads are not as mysterious as they sound — they are just a pattern for sequencing operations that have effects (like I/O or state) within a purely functional language.
 
 ## Common Mistakes
 

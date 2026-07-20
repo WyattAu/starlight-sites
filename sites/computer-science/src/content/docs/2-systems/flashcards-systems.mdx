@@ -12,6 +12,14 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
+### Additional Flashcard Topics
+
+- **CPU Architecture**: fetch-decode-execute cycle, pipelining, branch prediction. Modern CPUs use out-of-order execution and speculation to maximise instruction throughput.
+- **Cache Memory**: L1 (fastest, smallest), L2, L3 (slowest, largest). Cache lines transfer data between CPU and main memory. Cache hits are fast; cache misses are expensive.
+- **Virtual Memory**: page tables map virtual to physical addresses. TLB (Translation Lookaside Buffer) caches recent translations. Page faults trigger OS intervention to load data from disk.
+- **I/O Systems**: DMA (Direct Memory Access) transfers data between devices and memory without CPU involvement. Interrupts signal the CPU when I/O completes.
+- **Network Protocols**: TCP (reliable, ordered) vs UDP (fast, unreliable). The TCP/IP stack: link layer, network layer, transport layer, application layer.
+
 ## Intuition
 
 Computer systems are about **how hardware and software cooperate** to execute programs efficiently. The key abstractions — processes, virtual memory, file systems — hide complexity while creating performance trade-offs.
@@ -44,11 +52,16 @@ Computer systems are about **how hardware and software cooperate** to execute pr
 
 **Ignoring the cost of synchronisation.** Locks, semaphores, and monitors ensure correctness but add overhead. Over-synchronisation can serialise what should be parallel work, negating the benefit of multi-threading.
 
+**Confusing little-endian and big-endian byte ordering.** Little-endian stores the least significant byte first; big-endian stores the most significant byte first. Network protocols typically use big-endian; x86 processors use little-endian. Mixing them without conversion corrupts data.
+
+**Forgetting that context switches are expensive.** A context switch involves saving and restoring CPU state, flushing TLBs, and potentially swapping cache contents. Frequent context switches degrade performance significantly.
+
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="uni-cs-systems" title="University CS -- Systems" description="Architecture, memory hierarchy, deadlock, scheduling, file systems, CAP theorem" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
 
 ## Cross-References
 
-- **[Operating Systems](../../5-operating-systems/index.md):** Process management, memory, and synchronisation covered in systems.
-- **[Databases](../../4-databases/index.md):** Transaction management and concurrency control in systems context.
+- **[Operating Systems](../../5-operating-systems/index.md):** Process management, memory, and synchronisation covered in systems; OS implements the abstractions.
+- **[Databases](../../4-databases/index.md):** Transaction management and concurrency control in systems context; databases depend on OS for I/O and memory.
+- **[Theory of Computation](../../3-theory/flashcards-theory.mdx):** Computability limits affect what systems can and cannot do automatically.

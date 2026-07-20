@@ -26,6 +26,18 @@ Rust achieves memory safety without a garbage collector through its ownership sy
 - **Borrow checker fights**: Trying to mutate data while an immutable borrow is still in scope — the compiler rejects this to prevent data races. Restructure your code to limit borrow lifetimes.
 - **Clone overuse**: Calling `.clone()` to satisfy the borrow checker avoids the real issue — understand when to use owned vs borrowed data, and consider `Rc<T>` or `Arc<T>` for shared ownership.
 - **Unwrap panics**: Using `.unwrap()` on a `Result::Err` or `Option::None` panics at runtime — handle errors with `?`, `match`, or `if let` instead.
+- **Lifetime annotation confusion**: Forgetting that struct fields containing references need lifetime parameters — the compiler requires explicit lifetimes to prove references are valid.
+- **Iterator laziness**: Many iterator methods are lazy — calling `.map()` or `.filter()` without consuming the iterator (with `.collect()`, `.sum()`, etc.) does nothing. Always ensure you consume the iterator.
+
+## Study Tips
+
+- **Read compiler errors carefully:** Rust compiler errors are among the best in any language. They explain what went wrong, why, and often suggest fixes. Read the full error message before searching online.
+- **Start with ownership exercises:** Write programs that transfer ownership, borrow, and return values. This builds intuition for the borrow checker.
+- **Use `cargo clippy`:** Clippy catches common Rust mistakes and suggests idiomatic alternatives. Run it regularly to improve your Rust code quality.
+- **Implement a linked list:** The classic "implement a linked list in Rust" exercise teaches ownership, lifetimes, and enum patterns in depth.
+- **Study the error handling chapter:** Rust's `Result` and `Option` types with the `?` operator provide elegant error handling. Master this pattern before moving to async code.
+- **Practise with trait objects:** Understand the difference between static dispatch (generics) and dynamic dispatch (trait objects). Know when to use `Box<dyn Trait>` vs `impl Trait`.
+- **Study async Rust:** Async/await in Rust requires understanding Futures, Pin, and the executor model. Start with simple async programs before building complex concurrent systems.
 
 ---
 

@@ -118,6 +118,14 @@ tableOfContents: false
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of database fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
+## Intuition
+
+**Database design balances competing priorities:** Fast reads vs fast writes, normalisation vs performance, consistency vs availability — database design is about making informed trade-offs based on your application's needs.
+
+**Why it matters:** Poor database design leads to slow applications, data corruption, and expensive migrations. Getting the design right early saves enormous time and money.
+
+**The key insight:** ACID properties (Atomicity, Consistency, Isolation, Durability) guarantee that database transactions are reliable even when failures occur.
+
 ## Common Mistakes
 
 **Confusing INNER JOIN with LEFT JOIN:** INNER JOIN returns only matching rows from both tables. LEFT JOIN returns all rows from the left table, with NULLs for non-matching right rows. Using the wrong join type produces incomplete or incorrect result sets.

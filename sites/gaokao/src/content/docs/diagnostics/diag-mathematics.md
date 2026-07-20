@@ -118,6 +118,26 @@ tableOfContents: false
 
 **评分标准:** 答对 8 题及以上表示对高考数学基础知识掌握良好。对于答错的题目，请回顾相关章节内容并重新练习。
 
+## How to Use This Diagnostic
+
+**Step 1:** Complete all 10 questions without looking at notes. Time yourself — aim for 30 minutes total.
+
+**Step 2:** Check your answers against the table above. For each question you got wrong, note the topic area.
+
+**Step 3:** Review the relevant flashcards and notes for topics where you made errors.
+
+**Step 4:** Retake the diagnostic in 2-3 days to verify improvement. Spaced repetition of diagnostic tests strengthens long-term retention.
+
+**Step 5:** If you consistently score below 6/10, revisit the foundational topics (sets, functions, basic trigonometry) before attempting harder practice problems.
+
+## Intuition
+
+**Mathematics is the language of quantitative reasoning:** From algebra to calculus to statistics, mathematics provides tools for solving problems involving numbers, patterns, and change. Each topic builds on foundational concepts.
+
+**Why it matters:** Mathematical skills are essential for science, engineering, economics, and competitive exam performance.
+
+**The key insight:** Mathematics is cumulative — a gap in algebra will cascade into difficulties with calculus and beyond.
+
 ## Common Mistakes
 
 **Confusing necessary and sufficient conditions:** "If A then B" does not mean "If B then A." In logical reasoning questions, reversing the implication is a common trap. Always check the direction of the implication.

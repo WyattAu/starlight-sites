@@ -118,6 +118,14 @@ tableOfContents: false
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of security fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
+## Intuition
+
+**Security assessment tests your ability to identify and mitigate threats:** Understanding common attack vectors (SQL injection, XSS, social engineering) is the first step toward building secure systems.
+
+**Why it matters:** Security vulnerabilities can be exploited to steal data, disrupt services, and cause financial damage.
+
+**The key insight:** The most dangerous vulnerabilities are often the simplest — weak passwords, unpatched software, and misconfigured services cause more breaches than sophisticated attacks.
+
 ## Common Mistakes
 
 **Confusing encryption with hashing:** Encryption is reversible (you can decrypt with the key). Hashing is one-way (you cannot reverse it). Use encryption for data you need to recover. Use hashing for passwords and integrity verification.

@@ -54,6 +54,14 @@ review the explanation.
 
 <PracticeProblem client:only="solid-js" question={"Why can you write `take 5 [1..]` in Haskell without it looping forever?&quot; options={[ 'Lazy evaluation only computes elements as needed', 'The list [1..] is finite', 'take forces the entire list then truncates', 'Haskell uses strict evaluation for ranges', ]} correctAnswer={0} explanation=&quot;Laziness (call-by-need) means [1..] produces an infinite list but elements are only computed when demanded. take 5 demands only the first 5 elements, so the rest of the infinite list is never computed. This is a core advantage of lazy evaluation."} difficulty="hard"  />
 
+## Intuition
+
+**Haskell's type system is your ally, not your enemy:** Strong static types catch errors before code runs. Pattern matching, algebraic data types, and type classes provide expressive power without sacrificing safety.
+
+**Why it matters:** Haskell's approach to types and pure functions leads to code that is easier to test, refactor, and reason about.
+
+**The key insight:** List comprehensions and higher-order functions (map, filter, fold) replace loops — thinking in transformations rather than iterations is the key to functional programming.
+
 ## Common Mistakes
 
 **Forgetting that Haskell uses 0-based indexing:** Lists and arrays in Haskell are indexed from 0. `xs !! 0` gives the first element. Using 1-based indexing from other languages causes off-by-one errors.

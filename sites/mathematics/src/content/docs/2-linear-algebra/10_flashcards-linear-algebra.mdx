@@ -11,15 +11,31 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 20 interactive flashcards for university-level Linear Algebra. Press Space to flip, rate 1-4.
 ---
 
+### Additional Flashcard Topics
+
+- **Vector Space Axioms**: a vector space V over a field F satisfies closure under addition and scalar multiplication, associativity, commutativity, existence of zero vector and inverses, and distributivity. Examples: ℝⁿ, function spaces, polynomial spaces.
+
+- **Linear Independence**: vectors v₁,...,vₖ are linearly independent if c₁v₁ + ... + cₖvₖ = 0 implies all cᵢ = 0. The dimension of a vector space is the size of any basis (maximum linearly independent set).
+
+- **Rank-Nullity Theorem**: for a linear map T: V → W, rank(T) + nullity(T) = dim(V). The rank is the dimension of the image; the nullity is the dimension of the kernel. This relates the "output size" to the "kernel size."
+
+- **Eigenvalues and Eigenvectors**: Av = λv where v ≠ 0. The characteristic polynomial det(A - λI) = 0 gives eigenvalues. Eigenvectors span invariant subspaces where A acts as scalar multiplication.
+
+- **Inner Product Spaces**: a vector space with an inner product (·,·) satisfying conjugate symmetry, linearity, and positive-definiteness. The Cauchy-Schwarz inequality |⟨u,v⟩| ≤ ‖u‖‖v‖ follows from these axioms.
+
+- **Spectral Theorem**: a real symmetric matrix is orthogonally diagonalisable: A = QDQᵀ where Q is orthogonal and D is diagonal. This is the foundation of principal component analysis and quadratic form classification.
+
 ## Intuition
 
-Linear algebra studies vector spaces and linear maps between them. A vector space is a set closed under addition and scalar multiplication; a linear map preserves these operations. The key insight is that every linear map can be represented as a matrix, and matrix operations correspond to compositions of linear maps. Eigenvalues and eigenvectors reveal the "natural axes" along which a linear transformation simply stretches or compresses — this is the foundation of diagonalisation, SVD, and principal component analysis.
+Linear algebra studies vector spaces and linear maps between them. A vector space is a set closed under addition and scalar multiplication; a linear map preserves these operations. The key insight is that every linear map can be represented as a matrix, and matrix operations correspond to compositions of linear maps. Eigenvalues and eigenvectors reveal the "natural axes" along which a linear transformation simply stretches or compresses — this is the foundation of diagonalisation, SVD, and principal component analysis. Linear algebra is the language of data science, quantum mechanics, and computer graphics.
 
 ## Common Pitfalls
 
 - **Dimension mismatch**: The rank-nullity theorem (rank + nullity = n) applies to the domain — confusing the dimensions of domain and codomain leads to wrong nullity calculations.
 - **Orthogonality ≠ independence**: Orthogonal vectors are always linearly independent, but linearly independent vectors are not necessarily orthogonal — don't assume orthogonality without proof.
 - **Diagonalisability condition**: A matrix is diagonalisable if and only if it has a complete set of eigenvectors (geometric multiplicity = algebraic multiplicity for each eigenvalue) — defective matrices cannot be diagonalised.
+- **Forgetting that matrix multiplication is not commutative**: AB ≠ BA in general. This affects eigenvalue calculations: eigenvectors of AB are not necessarily eigenvectors of BA.
+- **Confusing null space with column space**: the null space contains vectors mapped to zero; the column space contains all possible outputs. These are subspaces of different spaces (domain vs codomain).
 
 ---
 
@@ -28,5 +44,6 @@ Linear algebra studies vector spaces and linear maps between them. A vector spac
 ## Cross-References
 
 - **[Linear Algebra](../index.md):** Vector spaces and linear transformations fundamentals.
-- **[Abstract Algebra](../../1-abstract-algebra/index.md):** Algebraic structures underlying vector spaces.
-- **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Linear algebra in multivariable contexts.
+- **[Abstract Algebra](../../1-abstract-algebra/index.md):** Algebraic structures underlying vector spaces; vector spaces are modules over fields.
+- **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Linear algebra in multivariable contexts; Hessians and Jacobians are matrices.
+- **[Functional Analysis](../../11-functional-analysis/index.md):** Infinite-dimensional vector spaces extending linear algebra to function spaces.

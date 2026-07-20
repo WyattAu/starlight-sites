@@ -47,6 +47,14 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"When should you use the `:one_for_all` supervision strategy?&quot; options={[ 'When children are tightly coupled and cannot function without each other', 'When each child is completely independent', 'When you want only the first child to restart', 'When children are on different machines', ]} correctAnswer={0} explanation=&quot;The :one_for_all strategy restarts ALL children when any single child crashes. This is appropriate for tightly coupled processes that share state or dependencies and cannot operate correctly if one component is missing."} difficulty="hard"  />
 
 <PracticeProblem client:only="solid-js" question={'What does `quote do: 1 + 2` return in Elixir?'} options={[ 'An AST tuple: {:+, meta, [1, 2]}', 'The number 3', 'A string "1 + 2"', 'A macro definition', ]} correctAnswer={0} explanation="quote converts Elixir code into its Abstract Syntax Tree representation. 1 + 2 becomes {:+, [context: Elixir, imports: [{2, Kernel}]], [1, 2]} -- a three-element tuple with the operation atom, metadata, and argument list. Literals like integers represent themselves." difficulty="hard"  />
+## Intuition
+
+**Elixir brings functional programming to scalable systems:** Built on the Erlang VM, Elixir combines functional programming principles with tools for building fault-tolerant, distributed applications. Pattern matching and immutability are core to the language.
+
+**Why it matters:** Elixir excels at real-time applications (chat, gaming, IoT) where thousands of concurrent connections must be handled efficiently.
+
+**The key insight:** "Let it crash" is not sloppy coding — it is a deliberate strategy where supervised processes restart in known good states, creating systems that are more reliable than those that try to handle every error manually.
+
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for elixir notes.

@@ -18,13 +18,13 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ### Key Concepts
 
-**Number Systems**: Binary (base 2), denary (base 10), hexadecimal (base 16). Conversion between systems is essential. Hexadecimal is used as a compact representation of binary (1 hex digit = 4 binary digits). Two's complement represents negative binary numbers.
+**Number Systems**: Binary (base 2), denary (base 10), hexadecimal (base 16). Conversion between systems is essential. Hexadecimal is used as a compact representation of binary (1 hex digit = 4 binary digits). Two's complement represents negative binary numbers: to negate, invert all bits and add 1. Floating point representation uses a sign bit, exponent, and mantissa to represent real numbers. The IB exam tests conversions between bases and representation of negative numbers.
 
-**Boolean Logic in Circuits**: Logic gates (AND, OR, NOT, NAND, NOR, XOR) are combined to create circuits that perform binary operations. Truth tables show all possible inputs and outputs. Karnaugh maps simplify Boolean expressions for circuit design.
+**Boolean Logic in Circuits**: Logic gates (AND, OR, NOT, NAND, NOR, XOR) are combined to create circuits that perform binary operations. Truth tables show all possible inputs and outputs. Karnaugh maps simplify Boolean expressions for circuit design by grouping adjacent 1s. Boolean algebra laws (commutative, associative, distributive, De Morgan's) allow algebraic simplification. NAND and NOR gates are universal -- any circuit can be built using only one type.
 
-**Hardware Architecture**: The CPU contains the ALU (arithmetic and logic unit), control unit, registers, and cache. The fetch-decode-execute cycle is the fundamental operation: fetch instruction from memory, decode it, execute it, store result. Bus width determines how much data can be transferred at once.
+**Hardware Architecture**: The CPU contains the ALU (arithmetic and logic unit -- performs calculations), control unit (directs operations), registers (fast, small storage locations), and cache (fast memory between CPU and RAM). The fetch-decode-execute cycle is the fundamental operation: fetch instruction from memory at the address in the program counter, decode it (determine what operation), execute it (perform the operation), store the result. Bus width determines how much data can be transferred at once.
 
-**Systems Development Life Cycle (SDLC)**: A structured approach to developing information systems. Models include waterfall (sequential phases), agile (iterative, incremental), and spiral (risk-focused). Each model has strengths and is suited to different project types and scales.
+**Systems Development Life Cycle (SDLC)**: A structured approach to developing information systems. Models include: waterfall (sequential phases -- requirements, design, implementation, testing, maintenance -- simple but inflexible), agile (iterative, incremental -- sprints, user stories, continuous feedback -- flexible but requires active involvement), and spiral (risk-focused -- combines iterative development with systematic risk analysis at each cycle). Each model has strengths and is suited to different project types and scales.
 
 ---
 
@@ -34,18 +34,23 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ## Intuition
 
-Think of a computer as a layered onion. The outermost layer is the software you interact with. Beneath that is the operating system. Beneath that is the hardware architecture (CPU, memory, storage). At the very core are the logic gates doing binary arithmetic. The SDLC is like planning a building project -- you wouldn't start laying bricks without a blueprint, and you wouldn't use the same planning approach for a garden shed and a skyscraper.
+Think of a computer as a layered onion. The outermost layer is the software you interact with. Beneath that is the operating system. Beneath that is the hardware architecture (CPU, memory, storage). At the very core are the logic gates doing binary arithmetic. The SDLC is like planning a building project -- you wouldn't start laying bricks without a blueprint, and you wouldn't use the same planning approach for a garden shed and a skyscraper. The fetch-decode-execute cycle is the heartbeat of the computer -- it repeats billions of times per second.
+
+**Why it matters**: System fundamentals are the foundation of all computer science. Understanding number systems explains how computers represent data. Boolean logic explains how circuits make decisions. The CPU architecture explains how programs actually run. The SDLC explains how software projects are managed. Without this knowledge, you can't understand how computers work at a fundamental level.
+
+---
 
 ## Common Pitfalls
 
-- Forgetting two's complement rules. To negate a binary number: invert all bits and add 1. A common error is inverting without adding 1, or adding 1 without inverting first.
-- Confusing the fetch-decode-execute cycle stages. Fetch = get instruction from memory. Decode = figure out what it means. Execute = do it. Store = save the result. Each stage has a specific purpose.
-- Assuming waterfall is always bad and agile is always good. Waterfall works well for small, well-defined projects with fixed requirements. Agile is better for large, evolving projects but requires active user involvement.
+- Forgetting two's complement rules. To negate a binary number: invert all bits and add 1. A common error is inverting without adding 1, or adding 1 without inverting first. Practice with examples: 5 = 0101, −5 = 1011.
+- Confusing the fetch-decode-execute cycle stages. Fetch = get instruction from memory (using the program counter address). Decode = figure out what it means (instruction decoder). Execute = do it (ALU performs the operation). Store = save the result (write back to register or memory). Each stage has a specific purpose.
+- Assuming waterfall is always bad and agile is always good. Waterfall works well for small, well-defined projects with fixed requirements and low risk. Agile is better for large, evolving projects but requires active user involvement and can be chaotic without discipline.
+- Forgetting that cache is faster than RAM, which is faster than hard disk. The memory hierarchy (registers > cache > RAM > disk) balances speed and cost. Understanding this explains why program performance depends on memory access patterns.
 
-
+---
 
 ## Cross-References
 
-- **[System Fundamentals](../computer-science/flashcards-system-fundamentals):** CS fundamentals are essential
-- **[Algorithms](../computer-science/flashcards-algorithms-data-structures):** Algorithm design is core
-- **[Networking](../computer-science/flashcards-networks-databases):** Networks are a major topic
+- **[Algorithms](../computer-science/flashcards-algorithms-data-structures):** Algorithms run on the hardware described by system fundamentals, and their efficiency depends on the underlying architecture.
+- **[Networking](../computer-science/flashcards-networks-databases):** Networks use number systems for IP addressing and Boolean logic for error detection (parity bits, CRC).
+- **[Programming and OOP](../computer-science/flashcards-programming-oop):** Programming constructs are implemented at the hardware level through the fetch-decode-execute cycle.

@@ -215,6 +215,14 @@ sidebar_position: 50
 
 **Explanation:** Query optimizers do not follow the syntactic order of joins. They use cost-based optimization to evaluate alternative join orderings and select the plan with the lowest estimated cost. Options (A), (B), and (D) are all standard optimizer heuristics: pushing selections reduces the number of tuples early, early projection reduces tuple width, and join reordering minimizes intermediate result sizes.
 
+## Intuition
+
+**Good database design is the foundation of reliable applications:** The schema you choose determines how efficiently data can be queried, how easily it can be updated, and how well it scales. Design decisions made early are expensive to change later.
+
+**Why it matters:** Database design affects application performance, data integrity, and developer productivity. A well-designed database makes applications faster and easier to maintain.
+
+**The key insight:** Normalisation follows a progression (1NF, 2NF, 3NF, BCNF) where each level eliminates a specific type of redundancy — understanding *why* each level exists is more important than memorising the rules.
+
 ## Common Mistakes
 
 **Confusing primary keys with unique keys:** A primary key cannot be NULL and there can be only one per table. A unique key allows NULL values (in most RDBMS) and a table can have multiple unique keys. Choose primary keys carefully — they affect index performance and foreign key references.

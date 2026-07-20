@@ -62,6 +62,14 @@ import PracticeProblem from "@components/PracticeProblem";
 
 <PracticeProblem client:only="solid-js" question={"What is the recommended scrub frequency for an all-HDD ZFS pool?"} options={'Monthly', 'Weekly', 'Daily', 'Annually'} correctAnswer={0} explanation="Monthly scrubs are recommended for HDD pools. Scrubbing reads all data and verifies checksums, repairing any corruption from redundant copies. HDD scrubs can take 12-48 hours." difficulty="easy"  />
 
+## Intuition
+
+**TrueNAS management is about balancing performance, capacity, and reliability:** Storage configuration involves trade-offs between redundancy (RAID level), performance (stripe width), and capacity (usable space).
+
+**Why it matters:** Proper storage configuration prevents data loss and ensures consistent performance for users and applications.
+
+**The key insight:** Regular monitoring and proactive maintenance — checking SMART data, verifying scrub results, and monitoring usage trends — prevents catastrophic failures.
+
 ## Common Mistakes
 
 **Configuring SMB shares without proper permissions:** SMB uses Windows-style ACLs. Setting permissions incorrectly causes access denied errors or exposes data to unauthorized users. Test share access from multiple clients before going live.

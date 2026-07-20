@@ -77,6 +77,14 @@ grade, depending on the subject and level.
 <aside class="starlight-aside starlight-aside--tip">
 most recent SEC documentation for definitive syllabus and assessment requirements.
 
+## Intuition
+
+**Physics explains the fundamental laws of nature:** From the motion of planets to the behaviour of light, physics seeks to understand the rules that govern the universe. It combines mathematical modelling with experimental testing.
+
+**Why it matters:** Physics principles drive technological innovation — from electricity generation to medical imaging to telecommunications.
+
+**The key insight:** Physics is about building and testing models — simplifying complex reality into mathematical descriptions that predict observable behaviour.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

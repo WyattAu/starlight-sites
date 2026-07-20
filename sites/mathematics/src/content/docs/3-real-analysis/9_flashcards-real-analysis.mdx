@@ -11,15 +11,29 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 20 interactive flashcards for university-level Real Analysis. Press Space to flip, rate 1-4.
 ---
 
+### Additional Flashcard Topics
+
+- **Supremum and Infimum**: the supremum (sup) is the least upper bound of a set; the infimum (inf) is the greatest lower bound. The Completeness Axiom states every non-empty set of reals bounded above has a supremum. This is the foundation of real analysis.
+
+- **ε-δ Continuity**: f is continuous at a if for every ε > 0, there exists δ > 0 such that |x - a| < δ implies |f(x) - f(a)| < ε. This quantifies "small changes in input produce small changes in output."
+
+- **Compactness**: a set is compact if every open cover has a finite subcover. In ℝⁿ, compact = closed and bounded (Heine-Borel). In general metric spaces, compactness is strictly stronger than closed and bounded.
+
+- **Convergence**: a sequence (xₙ) converges to x if for every ε > 0, there exists N such that n > N implies |xₙ - x| < ε. Uniform convergence: for every ε > 0, there exists N such that n > N implies |fₙ(x) - f(x)| < ε for all x.
+
+- **Riemann Integration**: a bounded function on [a,b] is Riemann integrable if the upper and lower sums converge to the same limit as the partition mesh → 0. Continuity on [a,b] implies Riemann integrability, but the converse is false.
+
 ## Intuition
 
-Real analysis is where calculus gets rigorous — every epsilon, every delta, every limit is precisely defined. The supremum (least upper bound) axiom is the foundation: every non-empty set of real numbers bounded above has a least upper bound. Compactness generalises "closed and bounded" to abstract spaces. Convergence means sequences settle down to a limit, and continuity means small changes in input produce small changes in output — all quantified with ε-δ definitions.
+Real analysis is where calculus gets rigorous — every epsilon, every delta, every limit is precisely defined. The supremum (least upper bound) axiom is the foundation: every non-empty set of real numbers bounded above has a least upper bound. Compactness generalises "closed and bounded" to abstract spaces. Convergence means sequences settle down to a limit, and continuity means small changes in input produce small changes in output — all quantified with ε-δ definitions. The key insight is that real analysis provides the logical foundation for all of calculus.
 
 ## Common Pitfalls
 
 - **Compact ≠ closed and bounded**: In ℝⁿ, closed and bounded sets are compact (Heine-Borel), but in general metric spaces this equivalence fails — the set {1/n : n ∈ ℕ} ∪ {0} is compact but not closed and bounded in some metric spaces.
 - **Uniform vs pointwise convergence**: A sequence of continuous functions can converge pointwise to a discontinuous function — uniform convergence preserves continuity, but pointwise convergence does not.
 - **Riemann vs Lebesgue integration**: Not every bounded function with infinitely many discontinuities is Riemann integrable — Lebesgue integration extends the class of integrable functions significantly.
+- **Forgetting the direction of inequalities in proofs**: In ε-δ proofs, the choice of δ often depends on ε. Getting the inequality direction wrong invalidates the proof.
+- **Confusing convergence of sequences with convergence of series**: A sequence (aₙ) converges if the terms approach a limit; a series Σaₙ converges if the partial sums converge. These are different concepts.
 
 ---
 
@@ -27,6 +41,7 @@ Real analysis is where calculus gets rigorous — every epsilon, every delta, ev
 
 ## Cross-References
 
-- **[Real Analysis](../index.md):** Foundational analysis concepts.
-- **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Extensions to several variables.
-- **[Measure Theory](../../10-measure-theory/index.md):** Lebesgue integration extending Riemann integration.
+- **[Real Analysis](../index.md):** Foundational analysis concepts and rigorous proofs.
+- **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Extensions to several variables; partial derivatives require real analysis foundations.
+- **[Measure Theory](../../10-measure-theory/index.md):** Lebesgue integration extending Riemann integration; measures generalise length and area.
+- **[Topology](../../9-topology/index.md):** Topological spaces generalise convergence and continuity beyond metric spaces.

@@ -287,6 +287,14 @@ example3 = eval (If (Equal (LitInt 5) (LitInt 5)) (LitInt 10) (LitInt 20))
 
 **Solution:** The GADT syntax `Expr a where` gives each constructor a specific return type. `Add :: Expr Int -> Expr Int -> Expr Int` ensures you cannot add booleans. The type checker rejects expressions like `Add (LitBool True) (LitInt 1)` at compile time. `eval` pattern matches and returns the correct type for each constructor. `If` is polymorphic in `a`, allowing any expression type in both branches.
 
+## Intuition
+
+**Type classes define interfaces that types can implement:** Unlike Java interfaces, type classes can be added to existing types without modifying them (ad-hoc polymorphism). This enables flexible, extensible code.
+
+**Why it matters:** Type classes are the mechanism behind Haskell's overloaded operators, formatting, and equality testing. Understanding them is essential for reading and writing Haskell code.
+
+**The key insight:** Type classes enable "the expression problem" — you can add new types to an existing interface or new interfaces to an existing type, without modifying existing code.
+
 ## Common Mistakes
 
 **Confusing type classes with interfaces:** Type classes define behavior that types can implement. Unlike OOP interfaces, type classes support ad-hoc polymorphism and can be defined after the types they operate on. A type can gain instances of a type class without modifying its definition.

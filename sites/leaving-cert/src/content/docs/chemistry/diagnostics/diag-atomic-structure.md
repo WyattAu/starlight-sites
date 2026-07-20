@@ -307,6 +307,14 @@ based on periodic trends, but uncertainties exist because relativistic effects (
 at speeds approaching the speed of light) become significant for very heavy elements and can alter
 expected properties. The element has not yet been synthesised, so the claim remains theoretical.
 
+## Intuition
+
+**Atomic structure determines chemical identity:** Every element is defined by its number of protons, but it is the arrangement of electrons that determines how an atom behaves chemically. Electron configuration is the "address" that predicts an element's reactivity and bonding.
+
+**Why it matters:** Understanding atomic structure explains the periodic table's organisation, why elements in the same group behave similarly, and how chemical bonds form.
+
+**The key insight:** The periodic table is a map of electron configurations — each row adds a new electron shell, and each column shares the same valence electron arrangement.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

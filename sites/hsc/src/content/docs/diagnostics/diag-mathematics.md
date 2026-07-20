@@ -118,6 +118,14 @@ tableOfContents: false
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of HSC Mathematics fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
+## Intuition
+
+**Mathematics is the tool for quantitative reasoning:** From algebra to calculus, mathematics provides systematic methods for solving problems involving numbers, patterns, and change. Each topic builds on previous ones to create a powerful problem-solving toolkit.
+
+**Why it matters:** Mathematical skills are essential for science, engineering, finance, and any career involving data or quantitative analysis.
+
+**The key insight:** Mathematics is cumulative — gaps in algebra will cause difficulties in calculus, and weak trigonometry will hinder physics and engineering.
+
 ## Common Mistakes
 
 **Confusing arithmetic and geometric progressions:** Arithmetic has constant difference $d$; geometric has constant ratio $r$. Using the wrong formula ($a_n = a_1 + (n-1)d$ vs $a_n = a_1 r^{n-1}$) gives completely wrong answers for term values and sums.

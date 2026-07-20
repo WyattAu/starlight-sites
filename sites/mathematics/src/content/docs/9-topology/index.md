@@ -27,20 +27,20 @@ University-level topology notes covering topological spaces, compactness, and co
 
 ## Topics Covered
 
-- **Topological Spaces**: Definitions, bases, subbases, continuity
-- **Compactness**: Open covers, Heine-Borel theorem, Tychonoff theorem
-- **Connectedness**: Path connectedness, components, local connectedness
-- **Algebraic Topology**: Fundamental group, homology, Euler characteristic
+- **Topological Spaces**: Definitions, bases, subbases, continuity. A topology on a set X is a collection of open sets satisfying the axioms: ∅ and X are open, arbitrary unions of open sets are open, finite intersections of open sets are open.
+- **Compactness**: Open covers, Heine-Borel theorem, Tychonoff theorem. Compactness is the topological analogue of finiteness — many results that hold for finite sets extend to compact spaces.
+- **Connectedness**: Path connectedness, components, local connectedness. A space is connected if it cannot be written as a union of two disjoint non-empty open sets. Path connectedness is stronger: any two points can be joined by a continuous path.
+- **Algebraic Topology**: Fundamental group, homology, Euler characteristic. These invariants classify spaces up to homeomorphism by associating algebraic objects (groups, numbers) to topological spaces.
 
 ## Prerequisites
 
-- Real analysis (sequences, continuity, metric spaces)
-- Basic set theory and logic
-- Mathematical proofs and logic
+- Real analysis (sequences, continuity, metric spaces). You should be comfortable with ε-δ arguments and convergence.
+- Basic set theory and logic. Familiarity with unions, intersections, complements, and proof techniques.
+- Mathematical proofs and logic. Topology is proof-based — you will write many proofs.
 
 ## How to Use These Notes
 
-Start with topological spaces to build foundational knowledge, then progress to compactness and connectedness. Each section includes worked examples and practice problems.
+Start with topological spaces to build foundational knowledge, then progress to compactness and connectedness. Each section includes worked examples and practice problems. The key to learning topology is to work through proofs yourself — reading proofs is not enough.
 
 ## Navigation
 
@@ -61,14 +61,14 @@ Each section includes:
 Topology is the study of properties preserved under continuous deformation. Imagine stretching a rubber sheet without tearing or gluing: a coffee mug can become a donut because they share the same topological structure. The key insight is that topology abstracts away metric details like distance and angle, focusing instead on connectivity, holes, and boundaries. This abstraction makes topological results remarkably general, applying to shapes in any dimension and even to abstract spaces like function spaces. The fundamental group captures one-dimensional holes by counting how many ways loops can wind around obstacles, turning geometric questions into algebraic computations.
 ## Study Tips
 
-1. **Master the definitions**: Topology requires precise understanding of open sets and continuity
-2. **Practise proofs**: Learn to write clear, rigorous proofs
-3. **Draw diagrams**: Visualise topological spaces and their properties
-4. **Learn standard examples**: Know the properties of common spaces (metric spaces, product spaces, quotient spaces)
-5. **Connect to analysis**: Relate topology to real analysis and geometry
+1. **Master the definitions**: Topology requires precise understanding of open sets and continuity. Misremembering a definition leads to incorrect proofs.
+2. **Practise proofs**: Learn to write clear, rigorous proofs. Topology is an excellent training ground for mathematical reasoning.
+3. **Draw diagrams**: Visualise topological spaces and their properties. Pictures help build intuition, even when proofs must be rigorous.
+4. **Learn standard examples**: Know the properties of common spaces (metric spaces, product spaces, quotient spaces). These serve as test cases for general theorems.
+5. **Connect to analysis**: Relate topology to real analysis and geometry. Topological concepts generalise metric space concepts.
 
 ## Cross-References
 
-- **[Real Analysis](../../3-real-analysis/index.md):** Metric spaces and topological spaces.
-- **[Abstract Algebra](../../1-abstract-algebra/index.md):** Topological groups and algebraic topology.
-- **[Differential Geometry](../../12-differential-geometry/index.md):** Smooth manifolds as topological spaces.
+- **[Real Analysis](../../3-real-analysis/index.md):** Metric spaces and topological spaces; every metric space induces a topology.
+- **[Abstract Algebra](../../1-abstract-algebra/index.md):** Topological groups and algebraic topology; group theory underpins homology and fundamental groups.
+- **[Differential Geometry](../../12-differential-geometry/index.md):** Smooth manifolds as topological spaces; differential geometry adds calculus to topology.

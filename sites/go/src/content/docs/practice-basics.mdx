@@ -46,6 +46,14 @@ explanation.
 
 <PracticeProblem client:only="solid-js" question={"How do you create a custom error type in Go?&quot; options={[ 'Define a struct implementing the `error` interface with an `Error() string` method', 'Use the `throw` keyword', 'Subclass the `Error` struct', 'Use `errors.New` only', ]} correctAnswer={0} explanation='To create a custom error, define a struct type and give it an `Error() string` method. For example: `type MyError struct { Code int }; func (e *MyError) Error() string { return fmt.Sprintf(&quot;error %d&quot;, e.Code) }`. This satisfies the built-in `error` interface.' difficulty=&quot;medium"}  />
 
+## Intuition
+
+**Go basics establish the foundation for all Go programming:** Types, functions, control flow, and error handling are the building blocks. Go's explicit error handling forces you to think about failure modes at every step.
+
+**Why it matters:** Mastering Go basics enables you to write efficient, readable Go code that takes advantage of the language's simplicity and performance.
+
+**The key insight:** Go's error handling (returning error values) is verbose but explicit — you always know what can fail and how failures are handled.
+
 ## Common Mistakes
 
 **Ignoring error returns:** Go functions that can fail return error values. Forgetting to check `if err != nil` means silent failures that are hard to debug. Always handle errors explicitly — the linter will flag unchecked errors.

@@ -15,13 +15,13 @@ Flashcards with spaced repetition. Press Space to flip, then rate your recall (1
 
 ### Key Concepts
 
-**Ohm's Law** states that the current through a conductor is directly proportional to the potential difference across it, provided temperature remains constant. Written as V = IR, this relationship forms the foundation of circuit analysis. The gradient of a V-I graph for an ohmic conductor gives resistance.
+**Ohm's Law** states that the current through a conductor is directly proportional to the potential difference across it, provided temperature remains constant. Written as V = IR, this relationship forms the foundation of circuit analysis. The gradient of a V-I graph for an ohmic conductor gives resistance. Ohm's law is not a fundamental law of nature -- it's an empirical relationship that holds for certain materials under specific conditions. Non-ohmic conductors (diodes, filament lamps, thermistors) do not obey Ohm's law because their resistance changes with voltage or temperature.
 
-**Kirchhoff's Junction Rule** (KCL) states that the total current entering a junction equals the total current leaving it. This is a consequence of conservation of charge -- charge cannot accumulate at a point in a circuit.
+**Kirchhoff's Junction Rule** (KCL) states that the total current entering a junction equals the total current leaving it. This is a consequence of conservation of charge -- charge cannot accumulate at a point in a circuit. KCL applies at every junction in a circuit and is essential for solving complex circuit problems. It is analogous to water flowing through pipes -- the total water entering a junction must equal the total water leaving.
 
-**Power Dissipation** in a circuit element is given by P = IV = I²R = V²/R. Choosing the right form depends on what quantities are known. For example, using P = I²R is useful when current is constant (series circuits), while P = V²/R is better when voltage is constant (parallel circuits).
+**Power Dissipation** in a circuit element is given by P = IV = I²R = V²/R. Choosing the right form depends on what quantities are known. For example, using P = I²R is useful when current is constant (series circuits), while P = V²/R is better when voltage is constant (parallel circuits). The total power supplied by a battery equals the total power dissipated in the circuit -- energy is conserved. Power is measured in watts (W), where 1 W = 1 J/s.
 
-**Internal Resistance** means every real battery has some resistance inside it. The terminal PD is less than the EMF by an amount equal to Ir, where I is the current and r is the internal resistance. At maximum power transfer, the external resistance equals the internal resistance.
+**Internal Resistance** means every real battery has some resistance inside it. The terminal PD is less than the EMF by an amount equal to Ir, where I is the current and r is the internal resistance. The equation V = ε − Ir describes this relationship. At maximum power transfer, the external resistance equals the internal resistance (R = r). This is important in practical circuit design -- matching impedance maximises power delivery.
 
 ---
 
@@ -31,18 +31,24 @@ Flashcards with spaced repetition. Press Space to flip, then rate your recall (1
 
 ## Intuition
 
-Think of voltage as the "pressure" pushing charge through a pipe (the wire), and resistance as the pipe's narrowness. A wider pipe (lower resistance) lets more water (current) flow for the same pressure. Internal resistance is like a kink inside the battery itself -- some of the battery's own pressure is used up pushing charge through that internal kink before it even reaches the external circuit.
+Think of voltage as the "pressure" pushing charge through a pipe (the wire), and resistance as the pipe's narrowness. A wider pipe (lower resistance) lets more water (current) flow for the same pressure. Internal resistance is like a kink inside the battery itself -- some of the battery's own pressure is used up pushing charge through that internal kink before it even reaches the external circuit. Power is like the flow rate -- how much energy passes through per second. The maximum power transfer theorem is like matching the size of your pipe to the size of the kink in the battery -- too big or too small wastes energy.
+
+**Why it matters**: Electricity is the backbone of modern technology. Understanding circuits, resistance, and power is essential for designing everything from phone chargers to power grids. Internal resistance explains why batteries heat up and why real circuits never achieve the theoretical maximum efficiency.
+
+---
 
 ## Common Pitfalls
 
-- Confusing EMF with terminal PD: EMF is the total energy per unit charge the source provides, while terminal PD is what's actually available to the external circuit. They differ by Ir.
-- Forgetting that ammeters are placed in series and voltmeters in parallel -- reversing them gives incorrect readings and can damage the meter.
-- Assuming V = IR applies to all components. It only works for ohmic conductors; diodes and filament lamps have non-linear I-V characteristics.
+- Confusing EMF with terminal PD: EMF is the total energy per unit charge the source provides (the "battery's full capability"), while terminal PD is what's actually available to the external circuit (what's left after internal resistance takes its share). They differ by Ir. A common exam error is using EMF when terminal PD is needed.
+- Forgetting that ammeters are placed in series and voltmeters in parallel -- reversing them gives incorrect readings and can damage the meter. Ammeters have very low resistance (to not affect the circuit); voltmeters have very high resistance (to not draw current).
+- Assuming V = IR applies to all components. It only works for ohmic conductors; diodes and filament lamps have non-linear I-V characteristics. A diode has very low resistance above its threshold voltage and very high resistance below it.
+- Forgetting that power equations give instantaneous power, not total energy. To find total energy, you need to multiply power by time: E = Pt = I²Rt = V²t/R.
 
-
+---
 
 ## Cross-References
 
-- **[Kinematics](../physics/flashcards-kinematics):** Kinematics is fundamental
-- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers forces and energy
-- **[Waves](../physics/flashcards-waves):** Waves transfer energy
+- **[Kinematics](../physics/flashcards-kinematics):** Kinematics is fundamental to understanding charge movement in electric fields.
+- **[Mechanics](../physics/flashcards-mechanics):** Mechanics covers energy conservation, which underpins electrical energy conversion and power transfer.
+- **[Waves](../physics/flashcards-waves):** Waves transfer energy, and alternating current (AC) circuits involve wave phenomena like frequency and phase.
+- **[Thermal Physics](../physics/flashcards-thermal-physics):** Thermal physics explains why resistance changes with temperature and why internal resistance causes batteries to heat up.

@@ -284,6 +284,14 @@ From (4): $b = 3 - 6 = -3$. From (1): $c = -2 - 2 + 3 = -1$.
 
 $f(x) = 2x^3 - 3x^2 - x + 4$.
 
+## Intuition
+
+**Algebra is the language of generalisation:** Instead of solving one specific equation, algebra lets you solve entire families of equations at once. Variables represent unknowns, and operations on variables reveal relationships that hold universally.
+
+**Why it matters:** Algebraic thinking underpins all quantitative reasoning — from calculating finances to modelling population growth to programming computers. It is the foundation for all higher mathematics.
+
+**The key insight:** Functions are machines that transform inputs to outputs — understanding this concept unlocks calculus, statistics, and virtually all applied mathematics.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

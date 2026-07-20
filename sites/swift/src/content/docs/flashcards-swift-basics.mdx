@@ -30,6 +30,16 @@ Swift is designed for safety and performance — optionals force you to handle n
 - **Force unwrap (`!`)**: Using `!` on an optional that is nil crashes the program — prefer `guard let`, `if let`, or the nil-coalescing operator (`??`).
 - **Reference cycle with closures**: Capturing `self` strongly in a closure creates a retain cycle — use `[weak self]` or `[unowned self]` capture lists.
 - **Value vs reference semantics**: Structs are value types (copied on assignment), classes are reference types (shared) — confusion here leads to unexpected mutations.
+- **String indexing pitfalls**: Swift strings are not randomly accessible by integer index — use `String.Index` methods or ` enumerated()` for iteration.
+- **Actor re-entrancy**: Actors protect shared mutable state but are re-entrant — multiple tasks can interleave at `await` boundaries. Use `@Sendable` closures and careful state management to avoid race conditions.
+
+## Study Tips
+
+- **Use Swift Playgrounds for experimentation:** Swift Playgrounds on iPad or Mac let you test code interactively without setting up a full project. This is ideal for learning syntax and APIs.
+- **Study the Swift Evolution proposals:** SE proposals (github.com/apple/swift-evolution) explain why features exist and how they work. Reading SE-0154 (Compact Alternate Roots) and SE-0279 (Add super for single-concat expressions) builds deep understanding.
+- **Build a SwiftUI project:** Applying Swift concepts to a real SwiftUI app reinforces both the language and the framework. Start with a todo app and add features incrementally.
+- **Practise optionals extensively:** Write functions that return optional values and handle them with `if let`, `guard let`, `??`, and optional chaining. Optionals are Swift's most distinctive feature.
+- **Study ARC behaviour:** Understand strong, weak, and unowned references by creating retain cycles and fixing them. This builds intuition for memory management.
 
 ---
 

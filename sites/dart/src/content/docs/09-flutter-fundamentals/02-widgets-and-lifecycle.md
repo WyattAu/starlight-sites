@@ -900,6 +900,14 @@ Note that in modern Flutter (2.3+), this restriction is somewhat relaxed — you
 `initState()` for non-dependent lookups, but `Theme.of``MediaQuery.of`Etc. Still fail because They
 internally call `dependOnInheritedWidgetOfExactType`.
 
+## Intuition
+
+**Flutter UIs are built from composable widgets:** Everything in Flutter is a widget — text, buttons, layouts, even entire screens. Widgets are immutable descriptions of what the UI should look like, and the framework efficiently updates the screen when state changes.
+
+**Why it matters:** Understanding the widget model and lifecycle is essential for building responsive, performant Flutter apps that update correctly when data changes.
+
+**The key insight:** Flutter's "everything is a widget" philosophy means complex UIs are built by nesting simple widgets — mastering composition is the key to Flutter mastery.
+
 ## Summary
 
 This topic covers the core concepts of widgets and lifecycle, including underlying theory, practical

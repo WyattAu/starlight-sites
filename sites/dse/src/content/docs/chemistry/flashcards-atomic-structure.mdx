@@ -19,23 +19,29 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ### Additional Flashcard Topics
 
-- **Isotopes**: atoms of the same element with different numbers of neutrons. They have the same atomic number (protons) but different mass numbers (protons + neutrons). Carbon-12, carbon-13, and carbon-14 are isotopes of carbon.
+- **Isotopes**: atoms of the same element with different numbers of neutrons. They have the same atomic number (protons) but different mass numbers (protons + neutrons). Carbon-12, carbon-13, and carbon-14 are isotopes of carbon. Isotopes have identical chemical properties but different physical properties (e.g., mass, nuclear stability).
 
-- **Mass Spectrometry**: technique used to determine relative atomic mass. The mass spectrum shows peaks at different m/z ratios, with height proportional to abundance. Ar = Σ(isotope mass × abundance) / 100.
+- **Mass Spectrometry**: technique used to determine relative atomic mass. The mass spectrum shows peaks at different m/z ratios, with height proportional to abundance. Ar = Σ(isotope mass × abundance) / 100. The molecular ion peak (M⁺) gives the molecular mass; the base peak (tallest) is the most abundant fragment.
 
-- **Electron Configuration**: electrons fill orbitals in order: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p. Each orbital holds 2 electrons (Pauli exclusion principle). Hund's rule: electrons occupy degenerate orbitals singly first.
+- **Electron Configuration**: electrons fill orbitals in order: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p. Each orbital holds 2 electrons (Pauli exclusion principle). Hund's rule: electrons occupy degenerate orbitals singly first, with parallel spins. Exceptions: Cr is [Ar]3d⁵4s¹ and Cu is [Ar]3d¹⁰4s¹ for extra stability.
 
-- **Periodic Trends**: atomic radius decreases across a period (more protons, stronger nuclear pull), increases down a group (more shells). Ionisation energy decreases down a group, increases across a period.
+- **Periodic Trends**: atomic radius decreases across a period (more protons, stronger nuclear pull on same shell), increases down a group (more shells). Ionisation energy decreases down a group (electrons farther from nucleus), increases across a period (stronger nuclear attraction). Electronegativity follows the same trend as ionisation energy.
+
+- **Ionisation Energy**: energy required to remove one mole of electrons from one mole of gaseous atoms. First IE removes the outermost electron; successive IEs remove inner electrons. Large jumps in successive IEs indicate new electron shells (e.g., in sodium, the jump from IE₁ to IE₂ is huge because the second electron is from the core).
+
+- **Atomic Orbitals**: s orbitals are spherical, p orbitals are dumbbell-shaped (three orientations: px, py, pz), d orbitals have more complex shapes (five orientations). Each orbital can hold 2 electrons with opposite spins. The shape and orientation of orbitals affect bonding and molecular geometry.
 
 ## Intuition
 
-Atomic structure is like a building: the nucleus is the foundation (protons + neutrons), and electrons are the rooms arranged in floors (energy levels) and corridors (orbitals). The building rules (quantum mechanics) determine how many rooms fit on each floor and how they connect.
+Atomic structure is like a building: the nucleus is the foundation (protons + neutrons), and electrons are the rooms arranged in floors (energy levels) and corridors (orbitals). The building rules (quantum mechanics) determine how many rooms fit on each floor and how they connect. The periodic table is the floor plan—it organises elements by their electron configuration, revealing patterns in chemical behaviour. Understanding these patterns allows you to predict how elements will react without memorising every reaction.
 
 ## Common Pitfalls
 
-- **Confusing atomic number with mass number**: atomic number = protons (defines the element), mass number = protons + neutrons. They are not the same.
-- **Forgetting isotopes have same chemistry**: isotopes of an element have identical electron configurations, so they react the same way chemically. Only nuclear properties differ.
-- **Misreading mass spectra**: the tallest peak is the most abundant isotope, not necessarily the one with the lowest mass.
+- **Confusing atomic number with mass number**: atomic number = protons (defines the element), mass number = protons + neutrons. They are not the same. Carbon-12 has atomic number 6 and mass number 12.
+- **Forgetting isotopes have same chemistry**: isotopes of an element have identical electron configurations, so they react the same way chemically. Only nuclear properties differ. C-12 and C-14 form the same compounds.
+- **Misreading mass spectra**: the tallest peak is the most abundant isotope, not necessarily the one with the lowest mass. Always check the m/z axis and abundance values.
+- **Forgetting the 4s exception**: for transition metals beyond calcium, 4s fills before 3d. But when forming cations, 4s electrons are lost first. Fe²⁺ is [Ar]3d⁶, not [Ar]3d⁴4s².
+- **Confusing first and successive ionisation energies**: the first IE is always lower than the second, which is lower than the third, etc. Large jumps indicate core electrons being removed.
 
 <FlashcardDeck client:only="solid-js" deckId="dse-chemistry-atomic-structure" title="DSE Chemistry: Atomic Structure" description="Atomic models, subatomic particles, isotopes, mass spectrometry, electron configuration, orbitals, and periodic trends for the HKDSE" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
 
@@ -43,6 +49,7 @@ Atomic structure is like a building: the nucleus is the foundation (protons + ne
 
 ## Cross-References
 
-- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is core
-- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium is tested
-- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is covered
+- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is core to understanding chemical bonding and reactions.
+- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium is tested; understanding electron configuration helps predict reaction tendencies.
+- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is covered; carbon's electron configuration explains its bonding versatility.
+- **[Biology Cell Biology](../biology/flashcards-cell-biology):** Biological molecules depend on atomic structure for their properties and functions.

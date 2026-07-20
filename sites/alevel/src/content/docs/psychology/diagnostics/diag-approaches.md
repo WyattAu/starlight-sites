@@ -132,6 +132,14 @@ sidebar_position: 40
 - **[Social Influence](../psychology/practice-social-influence):** Social influence theories use approaches
 - **[Research Methods](../psychology/1-research-methods/research-methods):** Each approach uses specific methods
 
+## Intuition
+
+**Psychology approaches are different lenses for understanding behaviour:** The biological, cognitive, behavioural, psychodynamic, and humanistic approaches each explain human behaviour from a different perspective. No single approach has all the answers — each highlights different aspects.
+
+**Why it matters:** Understanding multiple approaches lets you analyse psychological phenomena from different angles and evaluate research more critically.
+
+**The key insight:** The debate between approaches (nature vs nurture, free will vs determinism) reflects genuine complexity in human behaviour — the best psychology integrates multiple perspectives.
+
 ## Common Mistakes
 
 **Confusing the approaches' key assumptions:** Each approach has a distinct assumption about what determines behaviour. Behaviourism: environment and learning. Biological: brain, genes, neurotransmitters. Psychodynamic: unconscious conflicts. Cognitive: mental processes. Humanistic: free will and self-actualisation. Students often attribute a concept to the wrong approach.

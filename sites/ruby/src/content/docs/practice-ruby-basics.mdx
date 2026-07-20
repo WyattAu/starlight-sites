@@ -56,6 +56,14 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={"Which method should you always define alongside method_missing to maintain respond_to? correctness?&quot; options={['respond_to_missing?', 'respond_to?', 'method_defined?', 'has_method?']} correctAnswer={0} explanation=&quot;respond_to_missing? must be defined alongside method_missing. Without it, respond_to? returns false for dynamically handled methods, breaking polymorphism. The second parameter include_private controls whether private methods are included."} difficulty="hard"  />
 
+## Intuition
+
+**Ruby is a dynamically typed, object-oriented language:** Everything in Ruby is an object, including numbers and strings. This uniformity means you can call methods on any value, making the language consistent and predictable.
+
+**Why it matters:** Ruby's elegance and productivity make it excellent for scripting, web development, and prototyping.
+
+**The key insight:** Ruby's symbol syntax (:name) creates immutable, reusable identifiers that are more efficient than strings for keys and method names.
+
 ## Common Mistakes
 
 **Confusing `puts` with `print`:** `puts` adds a newline; `print` does not. Using `print` in a loop creates output without line breaks, which may be confusing. Use `puts` for line-by-line output.

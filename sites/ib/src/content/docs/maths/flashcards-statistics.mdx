@@ -17,13 +17,13 @@ Flashcards with spaced repetition. Press Space to flip, then rate your recall (1
 
 ### Key Concepts
 
-**Normal Distribution** N(μ, σ²) is a bell-shaped curve symmetric about the mean μ. About 68% of data falls within 1σ, 95% within 2σ, and 99.7% within 3σ of the mean. The standard normal Z = (X − μ)/σ allows you to use Z-tables for any normal distribution.
+**Normal Distribution** N(μ, σ²) is a bell-shaped curve symmetric about the mean μ. About 68% of data falls within 1σ, 95% within 2σ, and 99.7% within 3σ of the mean (the empirical rule). The standard normal Z = (X − μ)/σ allows you to use Z-tables for any normal distribution. Properties: the total area under the curve is 1, the mean = median = mode, and the curve never touches the x-axis (asymptotic). Normal distributions arise naturally when many small random effects combine (central limit theorem).
 
-**Hypothesis Testing** follows a structured process: state H₀ and H₁, choose a significance level (usually 5%), calculate the test statistic, find the p-value, and compare to the significance level. If p < α, reject H₀. Type I error = rejecting a true H₀; Type II error = failing to reject a false H₀.
+**Hypothesis Testing** follows a structured process: (1) state H₀ (null hypothesis -- no effect) and H₁ (alternative hypothesis -- there is an effect), (2) choose a significance level (usually 5% or α = 0.05), (3) calculate the test statistic from sample data, (4) find the p-value (probability of observing data this extreme if H₀ is true), (5) compare p to α. If p < α, reject H₀. Type I error = rejecting a true H₀ (false positive); Type II error = failing to reject a false H₀ (false negative). The power of a test is 1 − P(Type II error).
 
-**Probability Trees** represent sequential events. The probability of a branch is the conditional probability given the previous event. Total probability along any complete path is found by multiplying the branch probabilities. Use the law of total probability to combine paths.
+**Probability Trees** represent sequential events. The probability of a branch is the conditional probability given the previous event. Total probability along any complete path is found by multiplying the branch probabilities (AND rule). Use the law of total probability to combine paths for events that can occur through multiple routes. Bayes' theorem reverses conditional probabilities: P(A|B) = P(B|A)P(A)/P(B). Tree diagrams are essential for visualising conditional probability problems.
 
-**Regression and Correlation**: The correlation coefficient r measures the strength and direction of a linear relationship (−1 ≤ r ≤ 1). The regression line ŷ = a + bx minimises the sum of squared residuals. Correlation does not imply causation -- a strong r value does not prove that one variable causes changes in the other.
+**Regression and Correlation**: The correlation coefficient r measures the strength and direction of a linear relationship (−1 ≤ r ≤ 1). The regression line ŷ = a + bx minimises the sum of squared residuals (least squares method). Correlation does not causation -- a strong r value does not prove that one variable causes changes in the other. Outliers can dramatically affect r. The coefficient of determination r² tells you the proportion of variance in y explained by x.
 
 ---
 
@@ -33,10 +33,23 @@ Flashcards with spaced repetition. Press Space to flip, then rate your recall (1
 
 ## Intuition
 
-Think of the normal distribution as the "natural" shape that emerges when many small random effects combine -- like the distribution of heights in a population. Hypothesis testing is like a courtroom: you assume innocence (H₀) until the evidence (data) is strong enough to prove guilt (reject H₀). The p-value is the probability of seeing evidence this strong if the defendant were actually innocent.
+Think of the normal distribution as the "natural" shape that emerges when many small random effects combine -- like the distribution of heights in a population. Hypothesis testing is like a courtroom: you assume innocence (H₀) until the evidence (data) is strong enough to prove guilt (reject H₀). The p-value is the probability of seeing evidence this strong if the defendant were actually innocent. Probability trees are like decision trees -- each branch represents a possible outcome, and you multiply along branches to find compound probabilities.
+
+**Why it matters**: Statistics is the science of making decisions from data. It's used in medicine (testing new treatments), business (market research), government (census analysis), and science (validating experiments). Understanding probability helps you make better decisions under uncertainty and avoid common reasoning errors.
+
+---
 
 ## Common Pitfalls
 
-- Confusing Type I and Type II errors. Type I is a "false alarm" (rejecting a true null); Type II is a "missed detection" (failing to reject a false null). Remember: Type I = false positive, Type II = false negative.
-- Assuming correlation implies causation. Two variables can be strongly correlated due to a third lurking variable or pure coincidence.
-- Using the wrong standard deviation in the normal distribution formula. For samples, use s (sample std dev); for populations, use σ. Mixing these up changes the Z-score.
+- Confusing Type I and Type II errors. Type I is a "false alarm" (rejecting a true null); Type II is a "missed detection" (failing to reject a false null). Remember: Type I = false positive, Type II = false negative. Increasing sample size reduces Type II error.
+- Assuming correlation implies causation. Two variables can be strongly correlated due to a third lurking variable or pure coincidence. Always consider alternative explanations before claiming causation.
+- Using the wrong standard deviation in the normal distribution formula. For samples, use s (sample std dev); for populations, use σ. Mixing these up changes the Z-score and gives wrong probabilities.
+- Forgetting that the total probability in a probability tree must equal 1. If your paths don't add up to 1, you've missed a branch or made a calculation error.
+
+---
+
+## Cross-References
+
+- **[Calculus](../maths/flashcards-calculus):** Calculus is used to derive probability density functions and to find areas under curves for continuous distributions.
+- **[Geometry and Vectors](../maths/flashcards-geometry-vectors):** Coordinate geometry and vectors are used in scatter plots and regression analysis.
+- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Algebra is used for manipulating formulas in hypothesis testing and probability calculations.

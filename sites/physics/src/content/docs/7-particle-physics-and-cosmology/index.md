@@ -30,10 +30,10 @@ University-level particle physics and cosmology notes covering the Standard Mode
 
 ## Topics Covered
 
-- **Standard Model**: Quarks, leptons, gauge bosons, Higgs mechanism
-- **Feynman Diagrams**: Rules, calculations, cross sections, decay rates
-- **Symmetries**: Conservation laws, gauge invariance, spontaneous symmetry breaking
-- **Cosmology**: Big bang, inflation, dark matter, dark energy
+- **Standard Model**: Quarks, leptons, gauge bosons, Higgs mechanism. The Standard Model classifies all known fundamental particles and describes three of the four fundamental forces (electromagnetic, weak, strong).
+- **Feynman Diagrams**: Rules, calculations, cross sections, decay rates. Feynman diagrams are pictorial representations of particle interactions that encode mathematical expressions.
+- **Symmetries**: Conservation laws, gauge invariance, spontaneous symmetry breaking. Every conservation law corresponds to a symmetry (Noether's theorem), and gauge symmetries dictate the form of interactions.
+- **Cosmology**: Big bang, inflation, dark matter, dark energy. Cosmology connects particle physics to the large-scale universe, tracing how the early universe cooled through phase transitions.
 
 ## Prerequisites
 

@@ -18,13 +18,13 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ### Key Concepts
 
-**Object-Oriented Programming**: OOP organises code into objects that combine data (attributes) and behaviour (methods). Four pillars: encapsulation (bundling data with methods, hiding internal details), inheritance (new classes inherit from existing ones), polymorphism (same method name, different behaviour), and abstraction (hiding complexity).
+**Object-Oriented Programming**: OOP organises code into objects that combine data (attributes) and behaviour (methods). Four pillars: encapsulation (bundling data with methods, hiding internal details through access modifiers), inheritance (new classes inherit from existing ones, promoting code reuse), polymorphism (same method name, different behaviour depending on object type), and abstraction (hiding complexity by showing only essential features). OOP models real-world entities and relationships, making code more intuitive and maintainable.
 
-**Inheritance**: A child class inherits attributes and methods from a parent class. This promotes code reuse and establishes "is-a" relationships. For example, a Dog class inherits from Animal. Method overriding allows child classes to provide specific implementations of parent methods.
+**Inheritance**: A child class inherits attributes and methods from a parent class. This promotes code reuse and establishes "is-a" relationships (Dog IS-A Animal). Method overriding allows child classes to provide specific implementations of parent methods. The `super` keyword calls the parent class constructor or methods. In IB exams, you must be able to write inheritance hierarchies and explain when inheritance is appropriate vs when composition is better.
 
-**Encapsulation**: Data and methods that operate on that data are bundled together in a class. Access modifiers (public, private, protected) control what can be accessed from outside. This protects data integrity and reduces complexity for users of the class.
+**Encapsulation**: Data and methods that operate on that data are bundled together in a class. Access modifiers (public, private, protected) control what can be accessed from outside. Public methods provide a controlled interface; private attributes are hidden. This protects data integrity (external code can't directly modify internal state) and reduces complexity for users of the class. Getters and setters provide controlled access to private attributes.
 
-**Programming Paradigms**: Imperative/procedural programming specifies step-by-step instructions. Object-oriented programming organises code around objects. Functional programming treats computation as evaluation of mathematical functions, avoiding mutable state. Most modern languages support multiple paradigms.
+**Programming Paradigms**: Imperative/procedural programming specifies step-by-step instructions (like a recipe). Object-oriented programming organises code around objects (like modelling the real world). Functional programming treats computation as evaluation of mathematical functions, avoiding mutable state and side effects. Most modern languages support multiple paradigms. The IB syllabus primarily focuses on OOP but expects awareness of other paradigms.
 
 ---
 
@@ -34,10 +34,23 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ## Intuition
 
-Think of OOP as modelling the real world in code. A class is a blueprint (like an architectural plan), and an object is a building made from that blueprint. Encapsulation is like putting the building's electrical wiring inside the walls -- it works but you can't see or touch it directly. Inheritance is like having a general "Building" blueprint and creating specific versions (House, Office, Factory) that share common features but have their own unique elements.
+Think of OOP as modelling the real world in code. A class is a blueprint (like an architectural plan), and an object is a building made from that blueprint. Encapsulation is like putting the building's electrical wiring inside the walls -- it works but you can't see or touch it directly. Inheritance is like having a general "Building" blueprint and creating specific versions (House, Office, Factory) that share common features but have their own unique elements. Polymorphism is like a universal remote -- the same button (method name) does different things depending on which device (object) you're controlling.
+
+**Why it matters**: OOP is the dominant paradigm in modern software development. Understanding it is essential for building large, maintainable systems. The principles of encapsulation, inheritance, and polymorphism are used in virtually every programming language and framework. They help manage complexity, promote code reuse, and make software easier to understand and modify.
+
+---
 
 ## Common Pitfalls
 
-- Confusing encapsulation with abstraction. Encapsulation hides data and provides controlled access through methods. Abstraction hides complexity by showing only essential features. They're related but distinct concepts.
-- Overusing inheritance. Not every relationship is "is-a." If a class doesn't truly belong in the parent's category, composition (having objects of other classes as attributes) is often better than inheritance.
-- Forgetting that polymorphism means the same method name behaves differently depending on the object type. This is powerful but can make code harder to follow if overused.
+- Confusing encapsulation with abstraction. Encapsulation hides data and provides controlled access through methods (implementation hiding). Abstraction hides complexity by showing only essential features (complexity hiding). They're related but distinct -- encapsulation is about data protection; abstraction is about simplifying interfaces.
+- Overusing inheritance. Not every relationship is "is-a." If a class doesn't truly belong in the parent's category, composition (having objects of other classes as attributes) is often better than inheritance. Overuse creates tight coupling and fragile class hierarchies.
+- Forgetting that polymorphism means the same method name behaves differently depending on the object type. This is powerful but can make code harder to follow if overused. Always consider readability.
+- Confusing class and object. A class is a template/definition; an object is an instance. You can create many objects from one class. "Car" is a class; "my red Toyota" is an object.
+
+---
+
+## Cross-References
+
+- **[System Fundamentals](../computer-science/flashcards-system-fundamentals):** CS fundamentals cover the hardware and software foundations that OOP programs run on.
+- **[Algorithms](../computer-science/flashcards-algorithms-data-structures):** Algorithms are implemented using OOP constructs, and data structures are designed as classes.
+- **[Networking](../computer-science/flashcards-networks-databases):** Network protocols and database systems are built using OOP principles in modern implementations.

@@ -18,15 +18,31 @@ Flutter basics. Press Space to flip, rate 1-4.
 
 ---
 
+### Additional Flashcard Topics
+
+- **Null Safety**: `String` is non-nullable; `String?` is nullable. The `?` suffix, `!` (force unwrap), `??` (default), and `?.` (safe call) operators handle nullability.
+
+- **Async/Await**: `async` functions return `Future<T>`. `await` pauses execution until the Future completes. `then()` chains async operations. Error handling with `try-catch`.
+
+- **Records** (Dart 3): `(int, String)` — unnamed, fixed-size collections with named fields. Destructure with `var (a, b) = record`.
+
+- **Patterns** (Dart 3): switch expressions, destructuring, guards. `switch (shape) { Circle(r: var radius) => ... }`.
+
+- **Mixins**: `class A extends B with C, D` — reuse code across class hierarchies. Mixins can declare `on` constraints.
+
+- **Isolates**: Dart's concurrency model. Each isolate has its own memory and event loop. Communication via message passing. No shared state.
+
 ## Intuition
 
-Dart is a client-optimised language for building apps on any platform — it compiles to native code (AOT) for mobile and JavaScript for web. The single-threaded event loop model handles concurrency via async/await and Futures (similar to JavaScript Promises). Null safety, introduced in Dart 2.12, makes every variable non-nullable by default — the `?` suffix marks nullable types, and `late` defers initialisation to runtime. Records and patterns (Dart 3) bring modern data modelling to the language.
+Dart is a client-optimised language for building apps on any platform — it compiles to native code (AOT) for mobile and JavaScript for web. The single-threaded event loop model handles concurrency via async/await and Futures (similar to JavaScript Promises). Null safety, introduced in Dart 2.12, makes every variable non-nullable by default — the `?` suffix marks nullable types, and `late` defers initialisation to runtime. Records and patterns (Dart 3) bring modern data modelling to the language. Dart is the language of Flutter — understanding Dart is essential for Flutter development.
 
 ## Common Pitfalls
 
 - **Future timing**: Starting an async operation without awaiting it — the code continues executing before the Future completes, causing race conditions. Use `await` or chain with `.then()`.
 - **Widget rebuilds**: Rebuilding the entire widget tree on state changes in Flutter — use `const` constructors and targeted state management to minimise rebuilds.
 - **Mixin ordering**: When using `with A, B`, the last mixin's methods take precedence — this can override earlier mixin methods unexpectedly if they share the same method name.
+- **Late variable misuse**: `late` defers initialisation but throws `LateInitializationError` if accessed before being set. Use only when the variable cannot be initialised in the constructor.
+- **Double vs double precision**: Dart uses 64-bit doubles for all numbers. `int` and `double` are separate types — `1.0` is a double, `1` is an int.
 
 ---
 

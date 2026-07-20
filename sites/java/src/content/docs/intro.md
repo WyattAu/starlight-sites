@@ -4,6 +4,14 @@ description: 'Java Introduction to Java notes covering key definitions, core con
 
 ---
 
+## Intuition
+
+**Java's "write once, run anywhere" uses the JVM as abstraction:** Java compiles to bytecode that runs on the Java Virtual Machine, separating code from platform specifics. This portability, combined with strong typing and a massive ecosystem, made Java the backbone of enterprise computing.
+
+**Why it matters:** Java powers millions of enterprise applications, Android apps, and big data platforms. Its tooling and libraries are unmatched in scope.
+
+**The key insight:** Java's garbage collector manages memory automatically — understanding object lifecycle is key to writing efficient, leak-free code.
+
 ## Abstract
 
 This resource is created as an aggregation of best practices in Java. If you are learning Java for a

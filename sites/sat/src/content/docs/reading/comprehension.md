@@ -9,25 +9,20 @@ SAT reading study notes - Comprehension
 
 ## Key Concepts
 
-- Core definitions and principles
-- Important strategies and techniques
-- Worked examples with step-by-step solutions
-- Common test patterns and tips
+- **Main Idea**: the central point the author is making. Often found in the first or last paragraph. Every detail connects back to this.
+- **Supporting Details**: facts, examples, and evidence that support the main idea. Always verify answer choices against specific textual evidence.
+- **Inferences**: logical conclusions drawn from textual evidence. Must be directly supported — not reasonable guesses.
+- **Purpose**: why the author wrote the passage or included a specific detail — to inform, persuade, entertain, or explain.
+- **Tone**: the author's attitude toward the subject — objective, critical, enthusiastic, skeptical. Determined by word choice.
 
 ## Worked Example
 
-**Problem:** [Describe a typical problem]
+**Problem:** The passage states that "the committee decided to postpone the project indefinitely." What can be inferred?
 
 **Solution:**
-Step 1: Identify the question type
-Step 2: Apply the relevant strategy
-Step 3: Calculate the answer
-
-## Practice Problems
-
-1. [Problem 1]
-2. [Problem 2]
-3. [Problem 3]
+Step 1: "Postpone" means delay; "indefinitely" means with no set end date
+Step 2: The committee has not cancelled the project but has no current plans to continue
+Step 3: The correct inference is that the project may resume in the future but there is no timeline
 
 ## Intuition
 

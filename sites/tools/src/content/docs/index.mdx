@@ -178,6 +178,14 @@ Every piece of software you write, compile, or deploy is subject to copyright la
 3. **Test yourself** -- use the practice problems and flashcards to check your understanding
 4. **Review regularly** -- spaced repetition helps retain what you have learned
 
+## Common Mistakes
+
+**Choosing the wrong algorithm based on input size:** Big-O notation tells you how an algorithm scales, but constant factors matter for small inputs. A O(n^2) algorithm with small constants may outperform O(n log n) for small datasets. Always profile with realistic data sizes before optimising.
+
+**Ignoring version control discipline:** Committing broken code, writing cryptic commit messages, or not branching for features creates a tangled history that is hard to debug. Use meaningful commit messages, feature branches, and pull requests for reviewable, bisectable history.
+
+**Not understanding licensing before using open-source code:** Using GPL-licensed code in a proprietary project, or failing to include required attribution, creates legal liability. Always check the license of dependencies before incorporating them into your project.
+
 ## Cross-References
 
 - **[Computer Science](../../computer-science/src/content/docs/index.mdx):** Algorithms, data structures, and theory of computation.

@@ -28,20 +28,20 @@ University-level differential equations notes covering ODEs, Laplace transforms,
 
 ## Topics Covered
 
-- **First-Order ODEs**: Separable, linear, exact, integrating factors
-- **Second-Order Linear ODEs**: Homogeneous, non-homogeneous, characteristic equation
-- **Laplace Transforms**: Properties, inverse transforms, solving ODEs
-- **Stability Analysis**: Phase planes, equilibrium points, linearisation
+- **First-Order ODEs**: Separable, linear, exact, integrating factors. These are the building blocks — mastering first-order techniques is essential for higher-order equations.
+- **Second-Order Linear ODEs**: Homogeneous, non-homogeneous, characteristic equation. These model oscillations (springs, circuits) and appear throughout physics and engineering.
+- **Laplace Transforms**: Properties, inverse transforms, solving ODEs. The Laplace transform converts differential equations into algebraic equations, solving initial value problems systematically.
+- **Stability Analysis**: Phase planes, equilibrium points, linearisation. Stability analysis asks whether equilibria attract or repel nearby trajectories, revealing qualitative behaviour without solving explicitly.
 
 ## Prerequisites
 
-- Single-variable calculus (differentiation, integration)
-- Linear algebra (eigenvalues, matrices)
-- Mathematical proofs and logic
+- Single-variable calculus (differentiation, integration). You must be comfortable with techniques of integration, including substitution and partial fractions.
+- Linear algebra (eigenvalues, matrices). Systems of ODEs require eigenvalue methods; matrix exponentials solve linear systems.
+- Mathematical proofs and logic. Existence and uniqueness theorems require rigorous argumentation.
 
 ## How to Use These Notes
 
-Start with first-order ODEs to build foundational knowledge, then progress to second-order and systems. Each section includes worked examples and practice problems.
+Start with first-order ODEs to build foundational knowledge, then progress to second-order and systems. Each section includes worked examples and practice problems. The key is to learn to classify ODEs and identify the appropriate solution method.
 
 ## Navigation
 
@@ -62,14 +62,14 @@ Differential equations describe how systems evolve, from planetary orbits to pop
 
 ## Study Tips
 
-1. **Master the methods**: Learn to identify and solve different types of ODEs
-2. **Practise regularly**: Differential equations require active practice
-3. **Draw phase portraits**: Visualise solutions for systems of ODEs
-4. **Learn standard examples**: Know the properties of common equations (harmonic oscillator, exponential decay)
-5. **Connect to applications**: Relate differential equations to physics, biology, and engineering
+1. **Master the methods**: Learn to identify and solve different types of ODEs. Classification is the first step in any solution.
+2. **Practise regularly**: Differential equations require active practice. You cannot learn to solve ODEs by reading alone.
+3. **Draw phase portraits**: Visualise solutions for systems of ODEs. Phase plane analysis reveals qualitative behaviour.
+4. **Learn standard examples**: Know the properties of common equations (harmonic oscillator, exponential decay). These are the building blocks.
+5. **Connect to applications**: Relate differential equations to physics, biology, and engineering. Applications provide motivation and context.
 
 ## Cross-References
 
-- **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Vector calculus and partial derivatives.
-- **[Linear Algebra](../../2-linear-algebra/index.md):** Systems of linear ODEs using eigenvalues.
-- **[Complex Analysis](../../6-complex-analysis/index.md):** Contour integration for solving ODEs.
+- **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Vector calculus and partial derivatives; systems of ODEs use multivariable calculus.
+- **[Linear Algebra](../../2-linear-algebra/index.md):** Systems of linear ODEs using eigenvalues; matrix exponentials solve linear systems.
+- **[Complex Analysis](../../6-complex-analysis/index.md):** Contour integration for solving ODEs; the Laplace transform uses complex analysis.

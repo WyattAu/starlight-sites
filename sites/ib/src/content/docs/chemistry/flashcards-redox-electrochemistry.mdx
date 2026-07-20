@@ -18,13 +18,13 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ### Key Concepts
 
-**Oxidation States**: Oxidation is loss of electrons (increase in oxidation state); reduction is gain of electrons (decrease in oxidation state). OIL RIG: Oxidation Is Loss, Reduction Is Gain. Assign oxidation states using rules: free elements = 0, monatomic ions = charge, oxygen usually = −2, hydrogen = +1 in compounds.
+**Oxidation States**: Oxidation is loss of electrons (increase in oxidation state); reduction is gain of electrons (decrease in oxidation state). OIL RIG: Oxidation Is Loss, Reduction Is Gain. Assign oxidation states using rules: free elements = 0, monatomic ions = charge, oxygen usually = −2 (except in peroxides = −1), hydrogen = +1 in compounds (−1 in metal hydrides), sum of oxidation states in a neutral compound = 0. These rules allow you to identify which species is oxidised and which is reduced.
 
-**Half-Equations**: Redox reactions can be split into two half-equations -- one for oxidation, one for reduction. Balancing involves ensuring atoms balance first, then charges balance by adding electrons. Combine half-equations by making electrons equal and adding.
+**Half-Equations**: Redox reactions can be split into two half-equations -- one for oxidation, one for reduction. Balancing involves: (1) balance atoms other than O and H, (2) balance O by adding H₂O, (3) balance H by adding H⁺, (4) balance charge by adding electrons. Combine half-equations by making electrons equal and adding. Example: Zn → Zn²⁺ + 2e⁻ (oxidation) and Cu²⁺ + 2e⁻ → Cu (reduction).
 
-**Standard Electrode Potentials (E°)**: Measured relative to the standard hydrogen electrode (0.00 V). A more positive E° means greater tendency to be reduced (stronger oxidising agent). A more negative E° means greater tendency to be oxidised (stronger reducing agent). E°cell = E°(reduction) − E°(oxidation).
+**Standard Electrode Potentials (E°)**: Measured relative to the standard hydrogen electrode (SHE, defined as 0.00 V). A more positive E° means greater tendency to be reduced (stronger oxidising agent). A more negative E° means greater tendency to be oxidised (stronger reducing agent). E°cell = E°(cathode/reduction) − E°(anode/oxidation). A positive E°cell means the reaction is spontaneous. The species with the more positive E° is reduced; the species with the more negative E° is oxidised.
 
-**Electrolysis**: Using electrical energy to drive a non-spontaneous reaction. At the cathode (negative), reduction occurs (cations gain electrons). At the anode (positive), oxidation occurs (anions lose electrons). Faraday's laws relate the amount of substance deposited to the charge passed: m = (Q × M) / (n × F).
+**Electrolysis**: Using electrical energy to drive a non-spontaneous reaction. At the cathode (negative electrode), reduction occurs (cations gain electrons). At the anode (positive electrode), oxidation occurs (anions lose electrons). Faraday's laws relate the amount of substance deposited to the charge passed: m = (Q × M) / (n × F), where Q = charge (C), M = molar mass, n = number of electrons, F = Faraday's constant (96,500 C/mol). The products of electrolysis depend on the electrolyte and electrodes used.
 
 ---
 
@@ -34,18 +34,24 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ## Intuition
 
-Think of redox as a "tug-of-war" for electrons. One species loses electrons (oxidised, the "loser") and another gains them (reduced, the "winner"). The standard electrode potential tells you how strong each species is at pulling electrons -- the more positive the E°, the stronger the pull. Electrolysis is like forcing the tug-of-war to go the "wrong" way by using external electrical energy.
+Think of redox as a "tug-of-war" for electrons. One species loses electrons (oxidised, the "loser") and another gains them (reduced, the "winner"). The standard electrode potential tells you how strong each species is at pulling electrons -- the more positive the E°, the stronger the pull. Electrolysis is like forcing the tug-of-war to go the "wrong" way by using external electrical energy. Faraday's law is the accountant's formula -- it tells you exactly how much product you get for a given amount of electricity.
+
+**Why it matters**: Redox reactions are everywhere -- batteries, corrosion, rusting, combustion, and metabolism. Electrolysis is used for refining metals, electroplating, and producing chemicals. Understanding redox is essential for energy technology, materials science, and biochemistry.
+
+---
 
 ## Common Pitfalls
 
-- Confusing the anode and cathode in electrolysis vs galvanic cells. In electrolysis: cathode = negative (reduction), anode = positive (oxidation). In galvanic cells: cathode = positive, anode = negative. The definitions (oxidation at anode, reduction at cathode) are consistent, but the signs flip.
-- Forgetting to reverse the sign of E° when combining half-equations. If you write the reduction half-equation as oxidation (to find the anode), you must flip the sign of E°.
-- Mixing up Faraday's constant (96,500 C/mol) with Avogadro's constant (6.022 × 10²³). Faraday's is charge per mole of electrons; Avogadro's is particles per mole.
+- Confusing the anode and cathode in electrolysis vs galvanic cells. In electrolysis: cathode = negative (reduction), anode = positive (oxidation). In galvanic cells: cathode = positive, anode = negative. The definitions (oxidation at anode, reduction at cathode) are consistent, but the signs flip. Always use the definitions, not the signs.
+- Forgetting to reverse the sign of E° when combining half-equations. If you write the reduction half-equation as oxidation (to find the anode), you must flip the sign of E°. The equation E°cell = E°(cathode) − E°(anode) already accounts for this.
+- Mixing up Faraday's constant (96,500 C/mol of electrons) with Avogadro's constant (6.022 × 10²³ particles/mol). Faraday's is charge per mole of electrons; Avogadro's is particles per mole. They're different concepts used in different calculations.
+- Forgetting that electrolysis requires an electrolyte (liquid or dissolved state) to conduct electricity. Solid ionic compounds don't conduct because ions are fixed in the lattice.
 
-
+---
 
 ## Cross-References
 
-- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure is foundational
-- **[Energetics](../chemistry/flashcards-energetics):** Energy changes connect topics
-- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium is central to chemistry
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Ionisation energy and electron affinity (used in electrode potentials) are determined by atomic structure.
+- **[Energetics](../chemistry/flashcards-energetics):** Redox reactions involve energy changes -- galvanic cells convert chemical energy to electrical energy; electrolysis converts electrical energy to chemical energy.
+- **[Kinetics and Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Electrode potentials determine the direction of redox reactions and the position of equilibrium.
+- **[Stoichiometry](../chemistry/flashcards-stoichiometry):** Faraday's laws use stoichiometric relationships between charge and amount of substance.

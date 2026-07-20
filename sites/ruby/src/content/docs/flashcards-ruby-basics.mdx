@@ -31,6 +31,17 @@ Ruby is a language designed for developer happiness — everything is an object,
 - **Symbol vs string**: `:symbol` and `"string"` differ — symbols are immutable and interned (memory efficient), strings are mutable. Use symbols for hash keys and identifiers.
 - **Block vs proc vs lambda**: Blocks are not objects, Procs don't check argument count, and Lambdas do — mixing them up causes subtle argument-passing bugs.
 
+## Study Tips
+
+- **Use IRB for rapid experimentation:** Ruby's interactive shell is perfect for testing metaprogramming techniques, exploring the object model, and verifying assumptions about method dispatch.
+- **Read the Ruby style guide:** The community style guide (rubystyle.guide) covers conventions that make Ruby code readable and maintainable. Follow it from the beginning.
+- **Study Rails source code:** Rails is a masterclass in Ruby metaprogramming. Reading how ActiveRecord defines dynamic finders or how ActiveRecord::Base uses `method_missing` reveals advanced techniques.
+- **Write your own metaprogramming examples:** Create a simple class that uses `method_missing` to delegate calls, or define methods dynamically with `define_method`. Hands-on experimentation builds understanding.
+- **Practise with blocks and procs:** Write functions that accept blocks using `yield`, convert blocks to procs with `&block`, and use lambdas for strict argument checking.
+- **Explore Ruby 3.x features:** Ractors for concurrency, endless methods for brevity, and pattern matching for data destructuring are modern additions worth learning.
+- **Study the Enumerable module:** Ruby's Enumerable mixin provides powerful iteration methods (map, select, reduce, sort_by). Understanding how to use and extend Enumerable is fundamental to idiomatic Ruby.
+- **Practise with regular expressions:** Ruby's regex support is excellent. Write patterns for common validation tasks (email, phone, URL) and use `match?`, `scan`, and `gsub` for string processing.
+
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="ruby-basics" title="Ruby -- Basics" description="15 interactive flashcards covering blocks, procs, lambdas, mixins, eigenclasses, method_missing, symbols, splat operator, safe navigation, pattern matching, refinements, frozen string, monkey patching, metaprogramming, YARD." cards={flashcardData} />

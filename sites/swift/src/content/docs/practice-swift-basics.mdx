@@ -55,6 +55,14 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={"In the statement `do { try riskyOp() } catch NetworkError.timeout { } catch { }`, what does the bare `catch` block handle?&quot; options={[ 'Only `NetworkError.timeout`', 'Only non-NetworkError errors', 'Any error not caught by previous catch blocks', 'Nothing -- it is unreachable', ]} correctAnswer={2} explanation=&quot;A bare `catch` acts as a catch-all for any error not matched by preceding specific `catch` patterns. It must be the last catch block."} difficulty="medium"  />
 
+## Intuition
+
+**Swift combines safety with expressiveness:** Type inference, optionals, and value types (structs) catch errors at compile time while keeping code concise. Protocol-oriented design provides flexibility without inheritance complexity.
+
+**Why it matters:** Swift's safety features prevent common bugs, while its performance makes it suitable for demanding applications.
+
+**The key insight:** Swift structs are value types (copied on assignment) while classes are reference types (shared) — choosing the right type depends on whether you want copy semantics or shared identity.
+
 ## Common Mistakes
 
 **Confusing value types and reference types:** Swift structs and enums are value types (copied on assignment). Classes are reference types (shared reference). Modifying a copy of a struct does not affect the original. Modifying a class instance affects all references to it.

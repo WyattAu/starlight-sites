@@ -19,7 +19,23 @@ Ruby's elegant syntax and powerful metaprogramming features make it ideal for ra
 - **Mixins**: Code reuse through modules, avoiding the diamond inheritance problem
 - **Testing and conventions**: RSpec, Minitest, and Ruby community conventions
 
+## How to Get Started
+
+Install Ruby via rbenv (https://github.com/rbenv/rbenv) or your system package manager. Open IRB (Interactive Ruby) and experiment with the basics: `5.times { puts "Hello" }`, `[1,2,3].map { |n| n * 2 }`, and defining classes with `attr_accessor`. The "Ruby in 20 Minutes" tutorial (ruby-lang.org) is an excellent starting point. Build a small project — a command-line tool or a simple web app with Sinatra — to apply what you learn.
+
 Browse the content using the sidebar navigation on the left.
+
+## Intuition
+
+**Ruby prioritises developer happiness:** Designed by Yukihiro Matsumoto, Ruby emphasises natural, readable syntax and elegant solutions. Its "everything is an object" philosophy and powerful blocks make Ruby expressive and fun to write.
+
+**Why it matters:** Ruby powers Rails, one of the most productive web frameworks. Ruby's emphasis on convention over configuration enabled rapid web application development.
+
+**The key insight:** Ruby's blocks and iterators provide a clean alternative to loops — iterating over collections with .each, .map, and .select is more readable than traditional for loops.
+
+## Study Approach
+
+Start with the basics: variables, methods, blocks, and classes. Then move to metaprogramming (method_missing, eigenclasses, refinements) and Rails integration. Ruby's object model is consistent — everything is an object, including numbers, strings, and nil. Understanding this uniformity is key to writing idiomatic Ruby.
 
 ## Common Mistakes
 

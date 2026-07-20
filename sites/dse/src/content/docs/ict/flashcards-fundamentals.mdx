@@ -19,23 +19,28 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ### Additional Flashcard Topics
 
-- **Binary to Decimal Conversion**: multiply each binary digit by 2 raised to the power of its position (starting from 0 on the right). For example, 1011₂ = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 11₁₀.
+- **Binary to Decimal Conversion**: multiply each binary digit by 2 raised to the power of its position (starting from 0 on the right). For example, 1011₂ = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 8 + 0 + 2 + 1 = 11₁₀. To convert decimal to binary, repeatedly divide by 2 and record remainders from bottom to top.
 
-- **Hexadecimal System**: base-16 number system using digits 0-9 and letters A-F. One hexadecimal digit represents exactly 4 binary digits (nibbles), making it a compact way to represent binary data.
+- **Hexadecimal System**: base-16 number system using digits 0-9 and letters A-F. One hexadecimal digit represents exactly 4 binary digits (nibbles), making it a compact way to represent binary data. For example, 3F₁₆ = 00111111₂ = 63₁₀. Hex is commonly used for memory addresses and colour codes (e.g., #FF0000 for red).
 
-- **CPU Components**: the ALU (Arithmetic Logic Unit) performs calculations, the Control Unit directs operations, and registers provide fast temporary storage. The fetch-decode-execute cycle is the fundamental operation of a CPU.
+- **CPU Components**: the ALU (Arithmetic Logic Unit) performs calculations, the Control Unit directs operations, and registers provide fast temporary storage. The fetch-decode-execute cycle is the fundamental operation of a CPU: fetch the instruction from memory, decode it in the control unit, execute it in the ALU, then store the result.
 
-- **Memory Hierarchy**: registers (fastest, smallest) → cache (L1, L2, L3) → RAM → SSD/HDD → optical/magnetic (slowest, largest). Each level trades speed for capacity and cost.
+- **Memory Hierarchy**: registers (fastest, smallest) → cache (L1, L2, L3) → RAM → SSD/HDD → optical/magnetic (slowest, largest). Each level trades speed for capacity and cost. Cache memory reduces the speed gap between CPU and RAM by storing frequently accessed data.
+
+- **Boolean Logic Gates**: AND (output 1 only if both inputs 1), OR (output 1 if at least one input 1), NOT (inverts input), NAND (NOT AND), NOR (NOT OR), XOR (output 1 if inputs differ). These are the building blocks of all digital circuits. Any Boolean expression can be built from NAND gates alone.
+
+- **Networking Fundamentals**: LAN connects devices in a local area (e.g., a school), WAN spans large distances (e.g., the Internet). Protocols define communication rules: TCP ensures reliable delivery, UDP is faster but unreliable. IP addresses uniquely identify devices on a network.
 
 ## Intuition
 
-ICT fundamentals are like the anatomy of a computer. Just as a doctor needs to know organs and their functions, an ICT student needs to understand components (CPU, memory, storage) and how data flows between them. Binary is the "language" of computers, just as DNA is the language of biology.
+ICT fundamentals are like the anatomy of a computer. Just as a doctor needs to know organs and their functions, an ICT student needs to understand components (CPU, memory, storage) and how data flows between them. Binary is the "language" of computers, just as DNA is the language of biology. The fetch-decode-execute cycle is the heartbeat of computing: every operation, from adding numbers to displaying graphics, follows this cycle. Understanding this cycle helps you trace through any computational process.
 
 ## Common Pitfalls
 
-- **Confusing RAM and ROM**: RAM is volatile (loses data when power off), ROM is non-volatile (retains data). Students often mix up their characteristics.
-- **Forgetting byte conversions**: 1 byte = 8 bits, 1 KB = 1024 bytes. The "kilo" in computing is 1024, not 1000.
-- **Mixing up network topologies**: star topology has a central hub (single point of failure), bus topology uses a shared cable (cheaper but less reliable). Don't confuse their advantages.
+- **Confusing RAM and ROM**: RAM is volatile (loses data when power off), ROM is non-volatile (retains data). Students often mix up their characteristics. RAM is for temporary working memory; ROM stores permanent instructions like BIOS.
+- **Forgetting byte conversions**: 1 byte = 8 bits, 1 KB = 1024 bytes. The "kilo" in computing is 1024, not 1000. This is because memory is addressed in binary, and 2^10 = 1024.
+- **Mixing up network topologies**: star topology has a central hub (single point of failure), bus topology uses a shared cable (cheaper but less reliable). Ring topology connects devices in a circle; mesh topology connects every device to every other device.
+- **Confusing logical and physical topologies**: the physical layout (how cables are arranged) may differ from the logical layout (how data flows). A network may be physically wired as a star but logically operate as a bus.
 
 <FlashcardDeck client:only="solid-js" deckId="dse-ict-fundamentals" title="DSE ICT: Fundamentals" description="Number systems, data representation, CPU architecture, memory hierarchy, storage devices, and network topologies for the HKDSE ICT exam" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
 
@@ -43,6 +48,7 @@ ICT fundamentals are like the anatomy of a computer. Just as a doctor needs to k
 
 ## Cross-References
 
-- **[Data Representation](../ict/1-data-representation/1_data-representation):** Data is foundational
-- **[Computer Systems](../ict/diagnostics/diag-computer-systems):** Systems are core
-- **[Programming](../ict/diagnostics/diag-programming-databases):** Programming is tested
+- **[Data Representation](../ict/1-data-representation/1_data-representation):** Data representation covers number systems, encoding, and compression in detail.
+- **[Computer Systems](../ict/diagnostics/diag-computer-systems):** Computer systems examines hardware components, storage, and processing in the DSE syllabus.
+- **[Programming](../ict/diagnostics/diag-programming-databases):** Programming and databases test logical thinking and data manipulation skills.
+- **[Networking](../ict/diagnostics/diag-networking):** Networking extends fundamentals into protocols, topologies, and the Internet.

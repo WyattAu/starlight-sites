@@ -294,6 +294,14 @@ constant factor of 100 (giving $100 \times 50 \times 5.6 = 28000$ operations), A
 faster despite having worse asymptotic complexity. However, for large $n$, the $O(n^2)$ algorithm
 will eventually be slower regardless of constant factors.
 
+## Intuition
+
+**Algorithms are step-by-step recipes for solving problems:** Just as a cooking recipe tells you the order and method for preparing a dish, an algorithm specifies exact steps to transform input into output. The choice of algorithm determines efficiency — the same problem can be solved in seconds or centuries depending on the approach.
+
+**Why it matters:** Algorithm design is the core of computer science. It determines how fast software runs, how much memory it uses, and whether a problem is practically solvable at all.
+
+**The key insight:** Big-O notation describes how an algorithm's time or space requirements grow with input size — understanding this lets you predict performance before writing any code.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -28,3 +28,17 @@ These notes are structured to guide you from understanding the admissions landsc
 **Starting test preparation too late:** Admissions tests like the TMUA and MAT require months of practice, not weeks. These tests assess mathematical reasoning beyond the syllabus — cramming does not work. Begin preparation at least 3-4 months before the test date and work through past papers systematically.
 
 **Confusing extracurricular activities with super-curricular activities:** Extracurriculars (sports, music, volunteering) are valuable but do not demonstrate academic engagement. Super-curriculars (reading subject-specific books, independent projects, lecture attendance) show genuine intellectual interest in your chosen field. UK admissions tutors prioritise super-curricular depth over extracurricular breadth.
+
+**Neglecting the personal statement until the last minute:** Your personal statement is the only part of the application where you speak directly to admissions tutors. Rushing it produces generic, forgettable content. Start drafting early, get feedback from teachers and peers, and revise multiple times. Authenticity and specific examples matter more than polished prose.
+
+**Not preparing for interviews as a conversation:** Oxbridge interviews are not about what you know — they are about how you think. Practise explaining your reasoning aloud, working through unfamiliar problems step by step, and admitting when you do not know something. Memorised answers fail when interviewers follow up with unexpected questions.
+
+## Study Approach
+
+**Sequential learning:** Work through topics in the order presented. Each section builds on previous knowledge. The introduction provides context, admissions tests build analytical skills, personal statements synthesise your academic journey, and interviews test your thinking under pressure.
+
+**Active recall:** Close your notes and try to explain what you learned. Use flashcards for key facts (test dates, score requirements, common question types). The spaced repetition system optimises your review schedule automatically.
+
+**Past papers:** For admissions tests (TMUA, MAT, ENGAA, NSAA), past papers are the most valuable resource. Work through them under timed conditions, then review every question — including ones you got right — to understand the reasoning.
+
+**Peer review:** Share your personal statement drafts with teachers, mentors, and peers. Fresh eyes catch weaknesses you cannot see in your own writing. Ask specifically: "Does this sound like me?" and "Does this demonstrate intellectual curiosity?"

@@ -9,6 +9,14 @@ Programming is the practical application of computational thinking: translating 
 executable code. This section covers the programming constructs, paradigms, and techniques required
 for A-Level, with a focus on writing clear, correct, and maintainable code.
 
+## Intuition
+
+**Programming is translating ideas into precise instructions:** Computers execute exactly what you tell them — nothing more, nothing less. Programming requires breaking vague human intentions into unambiguous steps that a machine can execute. The three fundamental constructs (sequence, selection, iteration) are sufficient to express any computable algorithm.
+
+**Why it matters:** Programming skills are increasingly essential across all careers, from scientific research to business analysis to creative industries.
+
+**The key insight:** Good code is written for humans first, computers second — readability and maintainability matter as much as correctness.
+
 ## Topics Covered
 
 ### Programming Constructs

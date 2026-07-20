@@ -25,11 +25,21 @@ Haskell is the language where "if it compiles, it probably works." Pure function
 
 **Code practice:** After reviewing a card, open GHCi and experiment with the concept. Type inference is your friend — let the compiler check your understanding.
 
-**Common Pitfalls**
+## Common Pitfalls
 
 - **Lazy evaluation traps**: Building a large thunk (unevaluated expression) by accumulating list operations without forcing evaluation — this causes stack overflow on large datasets. Use `foldl'` (strict) instead of `foldl` (lazy).
 - **Infinite types**: Writing a function that produces an infinite type (e.g., `f x = f (f x)`) — the compiler rejects this because it cannot determine a finite type.
 - **Monad confusion**: Trying to use `do` notation without understanding that it's just syntactic sugar for `(>>=)` and `(>>)` — the monad laws still apply.
+- **Non-exhaustive patterns**: Forgetting to handle all cases in a pattern match — the compiler warns about this, but runtime crashes occur if the warning is ignored.
+- **Type class ambiguity**: Writing a function that uses a type class method without a concrete type signature — the compiler cannot determine which instance to use.
+
+## Study Tips
+
+- **Start with list functions:** Master `map`, `filter`, `foldr`, and list comprehensions before tackling monads. These are the building blocks of functional programming in Haskell.
+- **Use `:t` in GHCi:** Type-check every expression you write. Haskell's type system is your most powerful debugging tool — if the type does not make sense, the logic is wrong.
+- **Read type signatures backwards:** Start from the rightmost type and work left. This reveals the data flow through the function.
+- **Work through "Learn You a Haskell":** This free online tutorial (learnyouahaskell.com) covers fundamentals through advanced concepts with clear examples and exercises.
+- **Implement standard functions from scratch:** Write your own `map`, `filter`, `foldr`, and `zip` implementations. This builds deep understanding of how these functions work.
 
 ---
 

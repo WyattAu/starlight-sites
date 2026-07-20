@@ -11,15 +11,29 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 20 interactive flashcards for university-level Probability and Statistics. Press Space to flip, rate 1-4.
 ---
 
+### Additional Flashcard Topics
+
+- **Kolmogorov Axioms**: probability P is a function from events to [0,1] satisfying: (1) P(A) ≥ 0 for all events A, (2) P(Ω) = 1 where Ω is the sample space, (3) for disjoint events A₁, A₂, ..., P(∪Aᵢ) = ΣP(Aᵢ). These axioms generate all probability results.
+
+- **Conditional Probability and Bayes' Theorem**: P(A|B) = P(A∩B)/P(B). Bayes' theorem: P(A|B) = P(B|A)P(A)/P(B). This flips conditioning, enabling inference from effects to causes. It is the foundation of Bayesian statistics.
+
+- **Common Distributions**: Binomial(n,p) counts successes in n trials; Poisson(λ) counts events in a fixed interval; Normal(μ,σ²) is the bell curve; Exponential(λ) models waiting times. Each has specific moment generating functions and properties.
+
+- **Central Limit Theorem**: for iid random variables X₁,...,Xₙ with mean μ and variance σ², the sample mean X̄ₙ converges in distribution to N(μ, σ²/n) as n→∞. This justifies using the normal distribution for sample means regardless of the underlying distribution.
+
+- **Maximum Likelihood Estimation**: the MLE θ̂ maximises the likelihood function L(θ) = ∏f(xᵢ;θ). For regular models, MLEs are consistent and asymptotically normal. The Fisher information I(θ) = E[-∂²log f/∂θ²] determines the asymptotic variance.
+
 ## Intuition
 
-Probability theory provides the mathematical framework for quantifying uncertainty. The Kolmogorov axioms define probability as a measure on a sample space satisfying non-negativity, normalisation (total = 1), and additivity for disjoint events. Statistics applies these tools to real data — estimating unknown parameters (point estimation), quantifying uncertainty (confidence intervals), and testing hypotheses (p-values, likelihood ratios). The Central Limit Theorem is the bridge: sample means approach a normal distribution regardless of the underlying distribution.
+Probability theory provides the mathematical framework for quantifying uncertainty. The Kolmogorov axioms define probability as a measure on a sample space satisfying non-negativity, normalisation (total = 1), and additivity for disjoint events. Statistics applies these tools to real data — estimating unknown parameters (point estimation), quantifying uncertainty (confidence intervals), and testing hypotheses (p-values, likelihood ratios). The Central Limit Theorem is the bridge: sample means approach a normal distribution regardless of the underlying distribution. This is why the normal distribution appears everywhere in statistics — it is the limiting distribution of averages.
 
 ## Common Pitfalls
 
 - **Confidence interval misinterpretation**: A 95% CI does not mean there's a 95% probability the parameter lies in the interval — the parameter is fixed; the interval is random. 95% of such intervals (from repeated sampling) would contain the true value.
 - **p-value misconception**: A p-value is not the probability that the null hypothesis is true — it's the probability of observing data as extreme as (or more extreme than) what was observed, assuming the null is true.
 - **MLE bias**: Maximum likelihood estimators are not always unbiased — the MLE for variance in a normal distribution underestimates the true variance by a factor of (n-1)/n.
+- **Confusing independence with disjointness**: independent events can occur simultaneously (P(A∩B) = P(A)P(B)); disjoint events cannot (P(A∩B) = 0). These are different concepts.
+- **Forgetting to check assumptions**: CLT requires iid random variables with finite mean and variance. Violating these conditions (e.g., heavy-tailed distributions) can invalidate normal-based inference.
 
 ---
 
@@ -27,6 +41,7 @@ Probability theory provides the mathematical framework for quantifying uncertain
 
 ## Cross-References
 
-- **[Probability and Statistics](../index.md):** Probability axioms and statistical inference.
-- **[Measure Theory](../../10-measure-theory/index.md):** Measure-theoretic probability foundations.
-- **[Real Analysis](../../3-real-analysis/index.md):** Convergence theorems used in probability.
+- **[Probability and Statistics](../index.md):** Probability axioms and statistical inference fundamentals.
+- **[Measure Theory](../../10-measure-theory/index.md):** Measure-theoretic probability foundations; probability is a measure on a σ-algebra.
+- **[Real Analysis](../../3-real-analysis/index.md):** Convergence theorems used in probability; expectation is a Lebesgue integral.
+- **[Linear Algebra](../../2-linear-algebra/index.md):** Multivariate distributions use covariance matrices and quadratic forms.

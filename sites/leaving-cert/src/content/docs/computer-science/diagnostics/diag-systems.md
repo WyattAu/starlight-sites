@@ -292,6 +292,14 @@ Maximum addressable memory $= 2^{32}$ bytes $= 4{,}294{,}967{,}296\,\text{bytes}
 SSDs are preferred for the operating system and frequently used applications due to their speed.
 HDDs remain useful for large-capacity storage where speed is less critical.
 
+## Intuition
+
+**Computer systems are layered abstractions:** From hardware circuits to operating systems to applications, each layer hides complexity and provides services to the layer above. Understanding these layers helps you troubleshoot problems and design efficient software.
+
+**Why it matters:** Systems knowledge lets you understand how computers actually work — from why programs crash to how networks transmit data to how security vulnerabilities arise.
+
+**The key insight:** The operating system is the mediator between hardware and software — it manages resources, enforces security, and provides the illusion that each program has the computer to itself.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -22,25 +22,29 @@ syllabus.
 
 ### Practice Problem Tips
 
-- **Write out the full configuration**: for elements beyond calcium, remember the 4s fills before 3d. Chromium and copper are exceptions: Cr is [Ar]3d⁵4s¹, Cu is [Ar]3d¹⁰4s¹.
-- **Count electrons carefully**: for ions, add electrons for anions, remove for cations. Fe²⁺ loses 4s electrons first, not 3d.
-- **Use the periodic table**: the block (s, p, d, f) tells you which orbital is being filled. Group number relates to valence electrons.
+- **Write out the full configuration**: for elements beyond calcium, remember the 4s fills before 3d. Chromium and copper are exceptions: Cr is [Ar]3d⁵4s¹, Cu is [Ar]3d¹⁰4s¹. These exceptions occur because half-filled and fully filled d subshells are extra stable.
+- **Count electrons carefully**: for ions, add electrons for anions, remove for cations. Fe²⁺ loses 4s electrons first, not 3d. Always remove from the outermost shell first (highest n value).
+- **Use the periodic table**: the block (s, p, d, f) tells you which orbital is being filled. Group number relates to valence electrons for main group elements. Period number tells you the highest occupied energy level.
+- **Calculate relative atomic mass**: Ar = Σ(isotope mass × abundance) / 100. For example, if chlorine has two isotopes: Cl-35 (75%) and Cl-37 (25%), Ar = (35×75 + 37×25)/100 = 35.5.
 
 ### Approach Strategy
 
-- For isotope questions, use the weighted average formula: Ar = (mass₁ × abundance₁ + mass₂ × abundance₂) / 100.
-- For electron configuration, identify the element's position in the periodic table to determine which orbitals are occupied.
-- For periodic trend questions, consider both nuclear charge (increases across period) and electron shielding (increases down group).
+- For isotope questions, use the weighted average formula: Ar = (mass₁ × abundance₁ + mass₂ × abundance₂) / 100. If given mass spectrum data, read the m/z values and peak heights carefully.
+- For electron configuration, identify the element's position in the periodic table to determine which orbitals are occupied. Use the block structure: s-block (groups 1-2), p-block (groups 13-18), d-block (groups 3-12).
+- For periodic trend questions, consider both nuclear charge (increases across period, pulling electrons closer) and electron shielding (increases down group, pushing electrons outward). The balance of these forces determines the trend.
+- For ionisation energy questions, identify which electron is being removed. A large jump between successive IEs indicates a new shell. For example, in Mg: IE₁ = 738, IE₂ = 1451, IE₃ = 7733 kJ/mol—the huge jump from IE₂ to IE₃ shows the third electron is from the core (1s²).
 
 ## Intuition
 
-Atomic structure practice is about applying rules systematically. Each question tests whether you can follow the building-up principle (Aufbau), apply exclusion and Hund's rules, or predict trends based on nuclear charge and shielding.
+Atomic structure practice is about applying rules systematically. Each question tests whether you can follow the building-up principle (Aufbau), apply exclusion and Hund's rules, or predict trends based on nuclear charge and shielding. The periodic table is your most powerful tool—it encodes patterns in electron configuration that determine chemical behaviour. Learn to read it as a map: rows are shells, columns are groups with similar valence configurations.
 
 ## Common Mistakes
 
-- **Forgetting the 4s exception**: for transition metals, 4s electrons are lost before 3d when forming cations. Fe²⁺ is [Ar]3d⁶, not [Ar]3d⁴4s².
-- **Miscounting subshell electrons**: s holds 2, p holds 6, d holds 10, f holds 14. Students often forget p holds 6, not 8.
-- **Confusing first and successive ionisation energies**: the first jump in ionisation energy indicates a new electron shell (e.g., from 2nd to 3rd in Li indicates 1s² core).
+- **Forgetting the 4s exception**: for transition metals, 4s electrons are lost before 3d when forming cations. Fe²⁺ is [Ar]3d⁶, not [Ar]3d⁴4s². This is because 4s is outermost (highest n) even though it fills before 3d.
+- **Miscounting subshell electrons**: s holds 2, p holds 6, d holds 10, f holds 14. Students often forget p holds 6, not 8. The maximum number of electrons in a subshell is 2(2l+1), where l is the angular momentum quantum number.
+- **Confusing first and successive ionisation energies**: the first jump in ionisation energy indicates a new electron shell (e.g., from 2nd to 3rd in Li indicates 1s² core). Successive IEs always increase; the pattern of increases reveals electron structure.
+- **Incorrectly applying Hund's rule**: electrons fill degenerate orbitals singly before pairing, with parallel spins. Don't pair electrons until each orbital in the subshell has one electron.
+- **Forgetting Pauli exclusion principle**: no two electrons in an atom can have the same four quantum numbers. Each orbital holds maximum 2 electrons with opposite spins.
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions}  />
 
@@ -48,6 +52,7 @@ Atomic structure practice is about applying rules systematically. Each question 
 
 ## Cross-References
 
-- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is core
-- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium is tested
-- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is covered
+- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure is core; electron configuration determines bonding and chemical properties.
+- **[Equilibrium](../chemistry/4-equilibrium/equilibrium):** Equilibrium is tested; reaction tendencies depend on electron configuration.
+- **[Organic Chemistry](../chemistry/7-organic-chemistry/organic-chemistry):** Organic chemistry is covered; carbon's electron configuration explains its bonding versatility.
+- **[Biology Cell Biology](../biology/flashcards-cell-biology):** Biological molecules depend on atomic structure for their properties.

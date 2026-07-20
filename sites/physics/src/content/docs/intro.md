@@ -21,11 +21,13 @@ Physics describes the fundamental laws governing the universe — from the motio
 
 ## What You Will Find
 
-- **Classical Mechanics**: Newtonian, Lagrangian, and Hamiltonian formulations for describing motion and dynamics
-- **Electromagnetism**: Maxwell's equations, electromagnetic waves, and the interaction of fields with matter
-- **Quantum Mechanics**: Wave functions, operators, and the probabilistic description of physical systems
-- **Thermal Physics**: Thermodynamics, statistical mechanics, and the connection between microscopic and macroscopic properties
-- **Optics**: Wave optics, interference, diffraction, and polarisation
+- **Classical Mechanics**: Newtonian, Lagrangian, and Hamiltonian formulations for describing motion and dynamics. From projectile motion to orbital mechanics, classical mechanics provides the tools to analyse any macroscopic system. Conservation laws (energy, momentum, angular momentum) simplify complex problems.
+- **Electromagnetism**: Maxwell's equations, electromagnetic waves, and the interaction of fields with matter. Electromagnetism is the force behind electronics, light, and chemistry. Maxwell's equations are the foundation of all electrical engineering.
+- **Quantum Mechanics**: Wave functions, operators, and the probabilistic description of physical systems. Quantum mechanics governs atoms, molecules, and subatomic particles. It explains the periodic table, chemical bonding, and the behaviour of semiconductors.
+- **Thermal Physics**: Thermodynamics, statistical mechanics, and the connection between microscopic and macroscopic properties. Thermal physics explains heat, entropy, and phase transitions. Statistical mechanics bridges the gap between individual particles and bulk properties.
+- **Optics**: Wave optics, interference, diffraction, and polarisation. Optics describes how light propagates, interferes, and diffracts. Applications include lasers, holography, and optical fibres.
+- **Solid State Physics**: Crystal structures, band theory, superconductivity. Solid state physics explains the properties of materials from their atomic structure. Semiconductors, superconductors, and magnets are all solid state phenomena.
+- **Particle Physics and Cosmology**: The Standard Model, Big Bang, dark matter. Particle physics identifies the fundamental building blocks of matter and the forces between them. Cosmology traces the history of the universe from the Big Bang to the present.
 
 ## Cross-References
 

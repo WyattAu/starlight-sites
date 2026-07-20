@@ -16,6 +16,20 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
+### Additional Flashcard Topics
+
+- **Process Scheduling**: FCFS, SJF, Round Robin, Priority, MLFQ. Scheduling algorithms balance throughput, response time, and fairness. Preemptive vs non-preemptive scheduling affects system responsiveness.
+
+- **Memory Management**: paging, segmentation, virtual memory. Pages are fixed-size blocks; segments are variable-size. Page tables map virtual to physical addresses; TLB caches recent translations.
+
+- **Synchronisation Primitives**: mutex, semaphore, monitor, condition variable. Mutex provides mutual exclusion; semaphore counts available resources; monitor encapsulates shared data with methods.
+
+- **Deadlock**: four conditions (mutual exclusion, hold-and-wait, no preemption, circular wait). Prevention breaks one condition; avoidance uses Banker's algorithm; detection and recovery allows deadlocks but cleans them up.
+
+- **File Systems**: inodes, directory structures, journaling. Inodes store metadata (permissions, timestamps, block pointers). Journaling prevents corruption after crashes by logging changes before applying them.
+
+- **I/O Management**: DMA, interrupts, device drivers. DMA transfers data between devices and memory without CPU involvement. Interrupts signal completion; device drivers abstract hardware differences.
+
 ## Intuition
 
 An operating system is **the layer between hardware and applications** — it manages resources (CPU, memory, I/O) and provides abstractions (processes, files, sockets) that make programming manageable.
@@ -48,6 +62,10 @@ An operating system is **the layer between hardware and applications** — it ma
 
 **Ignoring deadlock conditions.** Deadlock requires all four conditions simultaneously. Breaking even one (e.g., allowing preemption, or imposing a resource ordering) is sufficient to prevent it. Many systems use timeout-based deadlock avoidance rather than prevention.
 
+**Confusing thrashing with normal paging.** Thrashing occurs when the system spends more time paging than executing useful work. It happens when the total working set exceeds physical memory. The cure is more memory or a better page replacement algorithm.
+
+**Forgetting that context switches are expensive.** A context switch involves saving and restoring CPU state, flushing TLBs, and potentially swapping cache contents. Frequent context switches degrade performance significantly.
+
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="uni-cs-operating-systems" title="University Computing -- Operating Systems" description="Flashcards covering process management, memory management, file systems, synchronization, I/O, and security." cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
@@ -55,5 +73,6 @@ An operating system is **the layer between hardware and applications** — it ma
 ## Cross-References
 
 - **[Operating Systems Practice](../index.md):** Process management, synchronisation, and memory management.
-- **[Systems](../../2-systems/index.md):** Computer architecture and hardware systems.
-- **[Databases](../../4-databases/index.md):** Transaction management and concurrency control.
+- **[Systems](../../2-systems/index.md):** Computer architecture and hardware systems; OS implements the abstractions.
+- **[Databases](../../4-databases/index.md):** Transaction management and concurrency control; databases depend on OS primitives.
+- **[Algorithms](../../2-algorithms-and-data-structures/10_flashcards-algorithms-and-data-structures.mdx):** Scheduling and page replacement algorithms use algorithm design techniques.

@@ -118,6 +118,14 @@ tableOfContents: false
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of TrueNAS administration fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
+## Intuition
+
+**TrueNAS diagnostics test your understanding of storage systems:** From ZFS concepts to network configuration, TrueNAS administration requires understanding how storage, networking, and permissions interact.
+
+**Why it matters:** Proper TrueNAS configuration ensures data availability, security, and performance.
+
+**The key insight:** ZFS's copy-on-write design means snapshots are nearly free — take them frequently for data protection.
+
 ## Common Mistakes
 
 **Confusing ZFS RAID levels:** RAIDZ1 is single-parity (like RAID 5). RAIDZ2 is double-parity (like RAID 6). RAIDZ3 has triple parity. Mirrors are RAID 1. Choosing the wrong level for your redundancy requirements risks data loss.

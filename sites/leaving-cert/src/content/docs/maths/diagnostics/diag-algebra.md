@@ -290,6 +290,14 @@ Length $= 8 + 5 = 13\,\text{cm}$. Width $= 8 - 3 = 5\,\text{cm}$.
 
 Perimeter $= 2(13 + 5) = 2(18) = 36\,\text{cm}$.
 
+## Intuition
+
+**Algebra is the art of solving for the unknown:** By using letters to represent unknown quantities, algebra lets you set up equations that describe real-world relationships and solve for specific values. It is the foundation of all mathematical modelling.
+
+**Why it matters:** Algebraic skills are essential for science, engineering, finance, and everyday problem-solving. They develop the logical thinking needed for any quantitative career.
+
+**The key insight:** Rearranging equations is not arbitrary manipulation — each step must maintain balance, reflecting the physical or mathematical equality the equation represents.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

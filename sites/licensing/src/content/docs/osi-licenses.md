@@ -359,6 +359,14 @@ not to.
    and later want to switch to GPL, you need permission from every contributor — or you must rewrite
    the code yourself. Plan the license from the start.
 
+## Intuition
+
+**Open source licences are legal frameworks for code sharing:** They define what you can, cannot, and must do when using, modifying, and distributing software. The choice of licence affects how your code can be used by others.
+
+**Why it matters:** Using the wrong licence can expose you to legal liability or prevent others from using your code. Understanding licences is essential for any software project.
+
+**The key insight:** Copyleft licences (GPL) require derivative works to use the same licence, while permissive licences (MIT, Apache) allow proprietary use — this fundamental distinction shapes the open source ecosystem.
+
 ## Summary
 
 Open source licenses exist on a spectrum from permissive (MIT, Apache, BSD, ISC) to copyleft (LGPL,

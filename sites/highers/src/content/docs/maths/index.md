@@ -80,6 +80,14 @@ grade, depending on the subject and level.
 <aside class="starlight-aside starlight-aside--tip">
 most recent SQA documentation for definitive syllabus and assessment requirements.
 
+## Intuition
+
+**Mathematics is the toolbox for modelling reality:** From calculating compound interest to predicting planetary orbits, mathematics provides precise language and tools for describing patterns, relationships, and change. It is not about memorising formulas — it is about thinking logically.
+
+**Why it matters:** Mathematical literacy is essential for science, engineering, finance, and informed citizenship. Even everyday decisions (best buy, probability of events) benefit from mathematical reasoning.
+
+**The key insight:** Mathematics is cumulative — each concept builds on previous ones. Gaps in foundational knowledge (algebra, functions) will cascade into difficulties with advanced topics.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

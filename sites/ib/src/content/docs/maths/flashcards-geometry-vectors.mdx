@@ -17,13 +17,13 @@ Flashcards with spaced repetition. Press Space to flip, then rate your recall (1
 
 ### Key Concepts
 
-**Vector Operations**: Vectors have magnitude and direction. Addition is done tip-to-tail or component-wise. The dot product (a⃗·b⃗ = |a||b|cosθ) gives a scalar and is used to find the angle between vectors or check perpendicularity (dot product = 0). The cross product gives a vector perpendicular to both.
+**Vector Operations**: Vectors have magnitude and direction. Addition is done tip-to-tail or component-wise. The dot product (a⃗·b⃗ = |a||b|cosθ) gives a scalar and is used to find the angle between vectors or check perpendicularity (dot product = 0). The cross product (a⃗ × b⃗) gives a vector perpendicular to both, with magnitude |a||b|sinθ. The cross product is used to find areas of parallelograms and triangles, and to find normals to planes.
 
-**Equations of Lines and Planes**: A line can be written as r⃗ = a⃗ + tb⃗, where a⃗ is a position vector of a point on the line and b⃗ is the direction vector. A plane is r⃗·n⃗ = d, where n⃗ is the normal vector. The angle between a line and a plane uses sinθ = |b⃗·n⃗|/(|b||n|).
+**Equations of Lines and Planes**: A line can be written as r⃗ = a⃗ + tb⃗, where a⃗ is a position vector of a point on the line and b⃗ is the direction vector. A plane is r⃗·n⃗ = d, where n⃗ is the normal vector. The angle between a line and a plane uses sinθ = |b⃗·n⃗|/(|b||n|). The angle between two planes uses cosθ = |n₁⃗·n₂⃗|/(|n₁||n₂|). The shortest distance from a point to a plane is |r⃗·n⃗ − d|/|n⃗|.
 
-**Trigonometric Identities**: The key identities for IB include sin²θ + cos²θ = 1, tanθ = sinθ/cosθ, and the double angle formulas sin2θ = 2sinθcosθ and cos2θ = cos²θ − sin²θ. These are used to simplify expressions and solve trigonometric equations.
+**Trigonometric Identities**: The key identities for IB include sin²θ + cos²θ = 1, tanθ = sinθ/cosθ, and the double angle formulas sin2θ = 2sinθcosθ and cos2θ = cos²θ − sin²θ = 2cos²θ − 1 = 1 − 2sin²θ. These are used to simplify expressions and solve trigonometric equations. The addition formulas sin(A ± B) = sinAcosB ± cosAsinB and cos(A ± B) = cosAcosB ∓ sinAsinB extend these further.
 
-**Transformations in 3D**: Rotations, reflections, and enlargements can be represented by matrices. A 3×3 matrix can describe a transformation in 3D space. The determinant of the matrix gives the scale factor for area/volume changes.
+**Transformations in 3D**: Rotations, reflections, and enlargements can be represented by matrices. A 3×3 matrix can describe a transformation in 3D space. The determinant of the matrix gives the scale factor for area/volume changes. A negative determinant indicates a reflection. The inverse matrix reverses the transformation. Composite transformations are represented by matrix multiplication (order matters -- AB ≠ BA in general).
 
 ---
 
@@ -33,18 +33,24 @@ Flashcards with spaced repetition. Press Space to flip, then rate your recall (1
 
 ## Intuition
 
-Vectors are like arrows: they have a length (magnitude) and a direction. Adding vectors is like following a path -- walk along one arrow, then along the next, and the resultant is the direct route from start to finish. The dot product measures how much two vectors "point in the same direction" -- if they're perpendicular, there's no overlap and the dot product is zero. Think of the cross product as creating a new vector that is perpendicular to the plane containing the original two.
+Vectors are like arrows: they have a length (magnitude) and a direction. Adding vectors is like following a path -- walk along one arrow, then along the next, and the resultant is the direct route from start to finish. The dot product measures how much two vectors "point in the same direction" -- if they're perpendicular, there's no overlap and the dot product is zero. Think of the cross product as creating a new vector that is perpendicular to the plane containing the original two. Trigonometric identities are like algebraic shortcuts for simplifying expressions involving sine and cosine.
+
+**Why it matters**: Vectors are essential for describing forces, velocities, and fields in physics. They're used in computer graphics to position objects in 3D space, in engineering to analyse structures, and in navigation to calculate routes. Geometry provides the spatial reasoning skills needed for architecture, design, and map-making.
+
+---
 
 ## Common Pitfalls
 
-- Mixing up the dot product (scalar result) and cross product (vector result). The dot product uses cosθ and gives a number; the cross product uses sinθ and gives a vector.
-- Forgetting that the angle between two vectors is always between 0° and 180°. If you get a negative angle, take the absolute value of the cosine.
-- Confusing the equation of a line (r⃗ = a⃗ + tb⃗) with the equation of a plane (r⃗·n⃗ = d). A line needs a point and a direction; a plane needs a point and a normal.
+- Mixing up the dot product (scalar result) and cross product (vector result). The dot product uses cosθ and gives a number; the cross product uses sinθ and gives a vector. The dot product is commutative (a·b = b·a); the cross product is anti-commutative (a×b = −b×a).
+- Forgetting that the angle between two vectors is always between 0° and 180°. If you get a negative angle, take the absolute value of the cosine. Vectors have no inherent "direction" beyond their orientation -- there's no "negative angle" between them.
+- Confusing the equation of a line (r⃗ = a⃗ + tb⃗) with the equation of a plane (r⃗·n⃗ = d). A line needs a point and a direction; a plane needs a point and a normal. Mixing these up is a common error in 3D geometry questions.
+- Forgetting that matrix multiplication is not commutative. AB ≠ BA in general. The order of transformations matters -- a rotation followed by a reflection gives a different result than a reflection followed by a rotation.
 
-
+---
 
 ## Cross-References
 
-- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Geometry uses algebra
-- **[Functions](../maths/2-functions/functions):** Geometric transformations are functions
-- **[Calculus](../maths/5-calculus/calculus):** Vector calculus applies differentiation
+- **[Number and Algebra](../maths/1-number-and-algebra/number-and-algebra):** Geometry uses algebra for solving equations and manipulating expressions involving vectors and coordinates.
+- **[Functions](../maths/2-functions/functions):** Geometric transformations can be described as functions, and trigonometric functions are fundamental to geometry.
+- **[Calculus](../maths/5-calculus/calculus):** Vector calculus applies differentiation and integration to vector fields, and trigonometric identities are used in integration.
+- **[Statistics](../maths/flashcards-statistics):** Coordinate geometry and vectors are used in statistical graphics and spatial analysis.

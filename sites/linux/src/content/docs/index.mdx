@@ -15,12 +15,40 @@ hero:
 
 Linux system administration from fundamentals to advanced topics: file system management, user and group administration, networking configuration, service management (systemd), shell scripting, security hardening, and performance tuning. Examples use Debian/Ubuntu and CentOS/RHEL conventions.
 
+## Why This Matters
+
+Linux runs the majority of servers, cloud infrastructure, and embedded systems worldwide. Understanding Linux administration is essential for backend engineers, DevOps professionals, and system administrators. These notes cover both the theoretical foundations (file system hierarchy, process management, networking stack) and practical skills (systemd units, firewall configuration, log analysis) needed to operate Linux systems reliably.
+
+## Getting Started
+
+Start with the file system hierarchy (FHS) — understand where configuration files, binaries, and data live. Then learn process management (ps, top, kill), user administration (useradd, chmod, chown), and networking basics (ip, ss, ping). Build from fundamentals to advanced topics like systemd, SELinux, and performance tuning.
+
+## Practical Applications
+
+- **Server administration:** Linux runs the majority of web servers, databases, and cloud infrastructure. Understanding systemd, firewalls, and log management is essential for reliable operation.
+- **DevOps and CI/CD:** Linux knowledge underpins Docker, Kubernetes, and cloud-native tooling. Understanding namespaces, cgroups, and process isolation helps you debug containerised applications.
+- **Embedded systems:** Linux powers routers, IoT devices, and automotive systems. Understanding resource constraints and cross-compilation is essential for embedded development.
+
 ## Key Topics
 
 - **File Systems** — Permissions, mounts, LVM, RAID
 - **Networking** — Interface configuration, firewalls, DNS
 - **Services** — systemd, cron, logging (journald)
 - **Security** — SSH hardening, SELinux, AppArmor
+
+## Resources
+
+- The Linux Documentation Project (tldp.org) — Comprehensive guides and HOWTOs
+- Linux man-pages project (man7.org/linux/man-pages) — Authoritative manual pages
+- ArchWiki (wiki.archlinux.org) — Detailed guides applicable to all distributions
+
+## Intuition
+
+**Linux is an open source operating system kernel that became an ecosystem:** The Linux kernel, combined with GNU utilities and thousands of packages, forms the operating systems that power servers, embedded devices, and mobile platforms worldwide.
+
+**Why it matters:** Linux knowledge is essential for cloud computing, containerisation (Docker, Kubernetes), and system administration.
+
+**The key insight:** The Linux file system hierarchy (/, /etc, /var, /home) follows conventions that make system administration predictable across different distributions.
 
 ## Common Mistakes
 

@@ -34,6 +34,14 @@ import PracticeProblem from "@components/PracticeProblem";
 
 <PracticeProblem client:only="solid-js" question={"For a system of $N$ indistinguishable, non-interacting particles, what is the relationship between the molecular partition function $q$ and the canonical partition function $Q$?&quot; options={[ '$Q = \\frac{q^N}{N!}$ (Maxwell-Boltzmann limit)', '$Q = q^N$', '$Q = \\frac{q^N}{N}$', '$Q = Nq^N$', ]} correctAnswer={0} explanation=&quot;For indistinguishable particles in the classical (Maxwell-Boltzmann) limit where the number of available states far exceeds $N$, the canonical partition function is $Q = q^N / N!$. The $N!$ corrects for overcounting indistinguishable arrangements. The internal energy is $U = k_B T^2 (\\partial \\ln Q / \\partial T)$ and the Helmholtz free energy is $A = -k_B T \\ln Q$. For bosons and fermions at low temperature, quantum statistics (Bose-Einstein or Fermi-Dirac) must be used instead."} difficulty="hard"  />
 
+## Intuition
+
+**Physical chemistry is the mathematical backbone of all chemistry:** It connects abstract thermodynamic quantities (entropy, free energy) to measurable quantities (temperature, pressure, voltage). Think of it as the "physics of chemical systems" — applying energy conservation and statistical reasoning to molecules.
+
+**Why it matters:** Physical chemistry principles underpin battery design, refrigeration, atmospheric chemistry, and pharmaceutical stability. Without understanding Gibbs free energy, you cannot predict whether a drug will degrade on the shelf.
+
+**The key insight:** $\Delta G = \Delta H - T\Delta S$ is the single most important equation in chemistry — it determines spontaneity at constant temperature and pressure, unifying enthalpy and entropy into one decision rule.
+
 ## Cross-References
 
 - **[Quantum Chemistry](quantum-chemistry.md):** Detailed notes on quantum mechanics and molecular orbital theory.

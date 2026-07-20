@@ -28,7 +28,25 @@ Every piece of software has a license — even if you did not choose one. Withou
 | AGPL v3 | Strong Copyleft | Network use triggers copyleft |
 | MPL 2.0 | Weak Copyleft | File-level copyleft |
 
+## Why This Matters
+
+Choosing the wrong license can have lasting consequences for your project. A GPL license in a commercial product may require you to release your source code. A permissive license without patent protection may leave you vulnerable to patent claims. Understanding the legal implications of each license family is not optional — it is a fundamental part of software development.
+
+## Practical Guidance
+
+- **For personal projects:** MIT or BSD are simple and permissive. They allow anyone to use, modify, and distribute your code with minimal restrictions.
+- **For commercial products:** Apache 2.0 provides patent grants and explicit contributor licensing. Avoid GPL if you want to keep your code proprietary.
+- **For community projects:** GPL or AGPL ensure that improvements remain open. Choose based on whether you want to allow proprietary forks.
+
 ---
+
+## Intuition
+
+**Software licences govern the legal use of code:** Every piece of software has a licence, whether explicitly stated or determined by default copyright law. Understanding licensing is essential for developers, companies, and open source contributors.
+
+**Why it matters:** Incorrect licensing can result in legal disputes, forced code disclosure, or loss of intellectual property rights.
+
+**The key insight:** There is no such thing as "no licence" — if you do not specify one, default copyright applies, meaning nobody can legally use, modify, or distribute your code.
 
 ## Common Mistakes
 

@@ -15,12 +15,40 @@ hero:
 
 Database administration across relational (PostgreSQL, MySQL, SQLite) and NoSQL systems. Topics include SQL query writing, schema design, indexing strategies, performance tuning, backup/recovery, replication, and security. Practical examples use real-world schemas and query patterns.
 
+## Why This Matters
+
+Databases are the persistent memory of nearly every application. Understanding how to design schemas, write efficient queries, and manage data at scale is essential for backend engineering, data science, and system administration. Poor database design leads to slow queries, data anomalies, and scaling bottlenecks that are expensive to fix after deployment.
+
+## Getting Started
+
+Start with SQL fundamentals — SELECT, JOIN, WHERE, GROUP BY, and subqueries. Then learn schema design principles (normalisation, entity-relationship modelling) before tackling performance optimisation (indexing, EXPLAIN analysis). Work with a real database (PostgreSQL recommended) from the beginning rather than reading about SQL theoretically.
+
+## Practical Applications
+
+- **Web applications:** Most web apps use PostgreSQL or MySQL for user data, sessions, and content storage. Understanding schema design prevents performance issues as data grows.
+- **Data analytics:** SQL is the language of data analysis. Window functions, CTEs, and aggregate queries are essential for extracting insights from large datasets.
+- **System administration:** Database backups, replication, and monitoring are critical for production systems. Understanding these concepts prevents data loss and downtime.
+
 ## Key Topics
 
 - **SQL Fundamentals** — SELECT, JOIN, subqueries, window functions
 - **Schema Design** — Normalization, entity-relationship modelling, migrations
 - **Performance** — Query optimization, indexing, EXPLAIN analysis
 - **Administration** — Backup strategies, replication, monitoring
+
+## Study Tips
+
+- **Start with PostgreSQL:** PostgreSQL is the most feature-complete open-source RDBMS. Its documentation is excellent, and it supports advanced features (CTEs, window functions, JSON) that appear in other databases.
+- **Practise writing queries daily:** Write at least one complex query per day. Use SQLBolt or similar interactive platforms for structured practice.
+- **Learn EXPLAIN ANALYZE:** Understanding query execution plans is the single most important skill for database performance tuning.
+
+## Intuition
+
+**Databases are organised repositories for persistent data:** Just as a library organises books for easy retrieval, databases organise information with structured schemas, indexing, and query languages. The design of a database determines how efficiently data can be stored, retrieved, and maintained.
+
+**Why it matters:** Every application that stores data — from e-commerce to social media to banking — depends on database design for performance, reliability, and scalability.
+
+**The key insight:** Normalisation eliminates data redundancy by splitting data into logical tables — the trade-off is more complex queries but better data integrity.
 
 ## Common Mistakes
 

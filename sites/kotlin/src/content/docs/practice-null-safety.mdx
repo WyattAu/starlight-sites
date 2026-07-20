@@ -45,6 +45,14 @@ coroutines. Select an answer, submit, and review the explanation.
 
 <PracticeProblem client:only="solid-js" question={"What does the `suspend` keyword on a function signify?&quot; options={[ 'The function can be paused and resumed, and can only be called from a coroutine or another suspend function', 'The function runs on a separate thread', 'The function blocks the calling thread', 'The function is marked for garbage collection', ]} correctAnswer={0} explanation=&quot;A `suspend` function can suspend execution at suspension points without blocking a thread. It can only be called from within a coroutine or another suspend function. The compiler transforms suspend functions into state machines that handle suspension and resumption efficiently."} difficulty="easy"  />
 
+## Intuition
+
+**Kotlin's null safety eliminates null pointer exceptions at compile time:** By distinguishing between nullable (String?) and non-nullable (String) types, the compiler forces you to handle null cases explicitly rather than discovering them at runtime.
+
+**Why it matters:** Null pointer exceptions are the most common runtime error in Java. Kotlin's type system prevents them entirely.
+
+**The key insight:** The safe call operator (?.) and Elvis operator (?:) provide concise ways to handle nullability without verbose null checks.
+
 ## Common Mistakes
 
 **Using `!!` (not-null assertion) as a shortcut:** `!!` throws a NullPointerException if the value is null. It defeats the purpose of null safety. Use safe calls (`?.`), Elvis operator (`?:`), or explicit null checks instead.

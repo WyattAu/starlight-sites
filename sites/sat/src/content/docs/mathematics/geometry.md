@@ -9,25 +9,20 @@ SAT mathematics study notes - Geometry
 
 ## Key Concepts
 
-- Core definitions and principles
-- Important strategies and techniques
-- Worked examples with step-by-step solutions
-- Common test patterns and tips
+- **Area Formulas**: triangle = ½bh, rectangle = lw, circle = πr², trapezoid = ½(b₁+b₂)h
+- **Volume Formulas**: rectangular prism = lwh, cylinder = πr²h, sphere = ⁴⁄₃πr³
+- **Pythagorean Theorem**: a² + b² = c² for right triangles. Special triples: 3-4-5, 5-12-13, 8-15-17.
+- **Angle Relationships**: vertical angles are equal, supplementary angles sum to 180°, complementary angles sum to 90°.
+- **Coordinate Geometry**: distance formula = √((x₂-x₁)² + (y₂-y₁)²), midpoint = ((x₁+x₂)/2, (y₁+y₂)/2)
 
 ## Worked Example
 
-**Problem:** [Describe a typical problem]
+**Problem:** A right triangle has legs of length 6 and 8. What is the length of the hypotenuse?
 
 **Solution:**
-Step 1: Identify the question type
-Step 2: Apply the relevant strategy
-Step 3: Calculate the answer
-
-## Practice Problems
-
-1. [Problem 1]
-2. [Problem 2]
-3. [Problem 3]
+Step 1: Apply Pythagorean theorem: a² + b² = c²
+Step 2: 6² + 8² = 36 + 64 = 100
+Step 3: c = √100 = 10
 
 ## Intuition
 

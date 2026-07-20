@@ -522,6 +522,14 @@ class SettingsPage extends StatelessWidget {
 
 **Solution:** `MaterialApp.routes` defines named routes as a `Map<String, WidgetBuilder>`. `Navigator.pushNamed` navigates by route name. `arguments` passes data to the destination. `ModalRoute.of(context)!.settings.arguments` retrieves the passed data. This pattern decouples navigation from direct widget references.
 
+## Intuition
+
+**Flutter builds UIs by composing widgets in a tree structure:** The widget tree describes what the UI should look like, and Flutter efficiently renders it using its own drawing engine. State management determines how data flows through this tree.
+
+**Why it matters:** Flutter's widget-based architecture enables rapid UI development with consistent rendering across platforms.
+
+**The key insight:** Understanding the difference between stateless and stateful widgets is fundamental — stateless widgets are immutable descriptions, while stateful widgets can change over time.
+
 ## Common Mistakes
 
 **Calling `setState` after `dispose`:** If an async operation completes after the widget is disposed, calling `setState` throws a error. Always check `mounted` before calling `setState` in async callbacks, or cancel subscriptions in `dispose`.

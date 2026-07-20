@@ -28,13 +28,13 @@ University-level physics notes covering mechanics, electromagnetism, quantum mec
 
 ## Subjects Covered
 
-- **Classical Mechanics**: Newtonian, Lagrangian, Hamiltonian, rigid body dynamics
-- **Electromagnetism**: Maxwell's equations, electrodynamics, relativity
-- **Thermodynamics and Statistical Mechanics**: Laws of thermodynamics, ensembles, phase transitions
-- **Quantum Mechanics**: Postulates, operators, approximation methods
-- **Optics and Waves**: Interference, diffraction, lasers
-- **Solid State Physics**: Crystal structures, band theory, superconductivity
-- **Particle Physics and Cosmology**: Standard Model, Big Bang, dark matter
+- **Classical Mechanics**: Newtonian, Lagrangian, Hamiltonian, rigid body dynamics. From F=ma to the principle of least action, classical mechanics describes all macroscopic motion.
+- **Electromagnetism**: Maxwell's equations, electrodynamics, relativity. Electromagnetism unifies electricity, magnetism, and light into a single force.
+- **Thermodynamics and Statistical Mechanics**: Laws of thermodynamics, ensembles, phase transitions. Statistical mechanics connects microscopic particle behaviour to macroscopic observables like temperature and pressure.
+- **Quantum Mechanics**: Postulates, operators, approximation methods. Quantum mechanics governs physics at atomic and subatomic scales, where particles exhibit wave-particle duality.
+- **Optics and Waves**: Interference, diffraction, lasers. Wave optics describes how light behaves as a wave, while geometric optics treats it as rays.
+- **Solid State Physics**: Crystal structures, band theory, superconductivity. Solid state physics explains the properties of materials from their atomic structure.
+- **Particle Physics and Cosmology**: Standard Model, Big Bang, dark matter. Particle physics identifies the fundamental building blocks of matter and the forces between them.
 
 ## Prerequisites
 

@@ -118,6 +118,14 @@ tableOfContents: false
 
 **Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of performance tuning fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
 
+## Intuition
+
+**Performance diagnosis is systematic problem-solving:** Identifying the bottleneck requires measuring resource utilisation, analysing bottlenecks, and understanding how changes affect the overall system.
+
+**Why it matters:** Efficient systems save money, improve user experience, and enable scaling.
+
+**The key insight:** Optimising code that is not the bottleneck wastes effort — always identify the constraint before attempting to improve it.
+
 ## Common Mistakes
 
 **Confusing latency with throughput:** Latency is the time for a single operation. Throughput is operations per second. Optimising for one may hurt the other. Batch processing increases throughput but may increase latency.

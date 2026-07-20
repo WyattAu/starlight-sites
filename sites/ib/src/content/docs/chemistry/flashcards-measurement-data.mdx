@@ -18,13 +18,13 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ### Key Concepts
 
-**Significant Figures**: All non-zero digits are significant. Leading zeros are not significant. Trailing zeros after a decimal point are significant. In calculations, the result should be reported to the same number of significant figures as the least precise measurement.
+**Significant Figures**: All non-zero digits are significant. Leading zeros are not significant (0.05 has 1 sig fig). Trailing zeros after a decimal point are significant (2.00 has 3 sig figs). Trailing zeros without a decimal point are ambiguous (100 may have 1, 2, or 3 sig figs). In calculations, the result should be reported to the same number of significant figures as the least precise measurement. Multiplication/division: fewest sig figs. Addition/subtraction: fewest decimal places.
 
-**Uncertainty**: Every measurement has uncertainty. Absolute uncertainty is ± the smallest division of the instrument. Relative uncertainty = (absolute uncertainty / measured value) × 100%. For readings from analogue scales, uncertainty is typically ± half the smallest division.
+**Uncertainty**: Every measurement has uncertainty. Absolute uncertainty is ± the smallest division of the instrument (e.g., a ruler marked in mm has ±0.5 mm uncertainty). Relative uncertainty = (absolute uncertainty / measured value) × 100%. For readings from analogue scales, uncertainty is typically ± half the smallest division. Digital instruments have uncertainty of ±1 in the last displayed digit.
 
-**Propagation of Uncertainties**: When adding/subtracting, add absolute uncertainties. When multiplying/dividing, add percentage uncertainties. For powers, multiply the percentage uncertainty by the power. These rules ensure the final uncertainty reflects all sources of error.
+**Propagation of Uncertainties**: When adding/subtracting, add absolute uncertainties (in the same units). When multiplying/dividing, add percentage uncertainties. For powers, multiply the percentage uncertainty by the power. For mixed operations, propagate step by step, combining uncertainties at each step. These rules ensure the final uncertainty reflects all sources of error.
 
-**Graphical Analysis**: A best-fit line should pass through or near most points, with roughly equal numbers above and below. The gradient gives the rate of change; the area under a curve gives the integrated quantity. Outliers should be identified but not automatically excluded without justification.
+**Graphical Analysis**: A best-fit line should pass through or near most points, with roughly equal numbers above and below. The gradient gives the rate of change; the y-intercept gives the initial value; the area under a curve gives the integrated quantity. Outliers should be identified but not automatically excluded without justification. Error bars show the uncertainty in each data point.
 
 ---
 
@@ -34,18 +34,24 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 ## Intuition
 
-Think of uncertainty as the "fuzziness" of a measurement. A ruler marked in millimetres is fuzzy to ±0.5 mm; a burette marked in 0.1 mL increments is fuzzy to ±0.05 mL. When you combine measurements (like dividing mass by volume), the fuzziness accumulates -- that's propagation of uncertainty. Significant figures are the code for communicating how fuzzy your result is.
+Think of uncertainty as the "fuzziness" of a measurement. A ruler marked in millimetres is fuzzy to ±0.5 mm; a burette marked in 0.1 mL increments is fuzzy to ±0.05 mL. When you combine measurements (like dividing mass by volume), the fuzziness accumulates -- that's propagation of uncertainty. Significant figures are the code for communicating how fuzzy your result is. A measurement of 2.34 g tells you the balance is precise to ±0.01 g; writing 2.3400 g implies false precision.
+
+**Why it matters**: All scientific measurements have uncertainty. Understanding uncertainty is essential for interpreting results, comparing measurements, and determining whether differences are significant. It prevents overconfidence in results and helps identify where improvements in precision are needed.
+
+---
 
 ## Common Pitfalls
 
-- Reporting too many significant figures. If your balance reads to ±0.01 g and you measure 2.34 g, claiming the result is 2.3412 g implies false precision. Match your sig figs to your measurement precision.
-- Forgetting to include units in uncertainty calculations. Uncertainties must have the same units as the measured value -- you can't add a uncertainty in grams to one in millilitres.
-- Using the wrong propagation rule. Addition/subtraction uses absolute uncertainties; multiplication/division uses percentage uncertainties. Mixing these up gives incorrect final uncertainties.
+- Reporting too many significant figures. If your balance reads to ±0.01 g and you measure 2.34 g, claiming the result is 2.3412 g implies false precision. Match your sig figs to your measurement precision. The number of sig figs communicates the precision of the measurement.
+- Forgetting to include units in uncertainty calculations. Uncertainties must have the same units as the measured value -- you can't add an uncertainty in grams to one in millilitres. Always check units before combining uncertainties.
+- Using the wrong propagation rule. Addition/subtraction uses absolute uncertainties; multiplication/division uses percentage uncertainties. Mixing these up gives incorrect final uncertainties. When in doubt, convert everything to percentage uncertainties.
+- Confusing precision with accuracy. Precision is reproducibility (close together); accuracy is closeness to the true value. A measurement can be precise but inaccurate (systematic error) or accurate but imprecise (large random error).
 
-
+---
 
 ## Cross-References
 
-- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure is foundational
-- **[Energetics](../chemistry/flashcards-energetics):** Energy changes connect topics
-- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium is central to chemistry
+- **[Stoichiometry](../chemistry/flashcards-stoichiometry):** Stoichiometric calculations require accurate measurements and proper use of significant figures.
+- **[Quantitative Chemistry](../chemistry/flashcards-quantitative-chemistry):** Quantitative chemistry involves precise measurements of concentration, volume, and mass -- all subject to uncertainty.
+- **[Kinetics and Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Rate equations and equilibrium constants are determined experimentally and require careful data analysis.
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Mass spectrometry provides precise mass measurements with specific uncertainty considerations.

@@ -291,6 +291,14 @@ viable. In practice, a compromise temperature must be chosen that balances a rea
 yield with an acceptable reaction rate. The catalyst helps by allowing this compromise to be at a
 lower temperature than would otherwise be possible, but there is a practical lower limit.
 
+## Intuition
+
+**Chemical reactions are about rearranging atoms:** Atoms are neither created nor destroyed in reactions — they are simply rearranged into new configurations. Understanding reaction types (synthesis, decomposition, displacement) lets you predict what products will form.
+
+**Why it matters:** Chemical reactions govern everything from cooking to combustion, from drug metabolism to battery operation. Predicting reaction outcomes is essential for chemistry, medicine, and engineering.
+
+**The key insight:** Balancing equations is not just bookkeeping — it reflects the physical reality that atoms are conserved, and the coefficients represent the actual mole ratios in which substances react.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

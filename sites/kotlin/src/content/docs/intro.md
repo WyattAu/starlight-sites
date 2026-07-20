@@ -169,6 +169,14 @@ kotlin {
 - `languageVersion`: Language features available to the compiler.
 - `apiVersion`: API surface available at runtime (must be &lt;= `languageVersion`).
 
+## Intuition
+
+**Kotlin is a modern JVM language that fixes Java's pain points:** Null safety, data classes, extension functions, and coroutines address common Java complaints while maintaining full Java interoperability. Kotlin is now the preferred language for Android development.
+
+**Why it matters:** Kotlin's conciseness and safety features reduce boilerplate and prevent common bugs, making development faster and code more reliable.
+
+**The key insight:** Kotlin's null safety system (nullable vs non-nullable types) eliminates the billion-dollar mistake of null pointer exceptions at compile time.
+
 ## Common Pitfalls
 
 - \*\* Mixing JVM and Native targets in the same module without Kotlin Multiplatform. Use KMP

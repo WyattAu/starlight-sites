@@ -37,10 +37,10 @@ University-level thermal physics notes covering thermodynamics, statistical mech
 
 ## Topics Covered
 
-- **Thermodynamics**: Laws, entropy, free energy, thermodynamic potentials
-- **Statistical Mechanics**: Ensembles, partition functions, quantum statistics
-- **Phase Transitions**: Landau theory, mean-field theory, critical phenomena
-- **Advanced Topics**: Fluctuation-dissipation theorem, irreversible thermodynamics
+- **Thermodynamics**: Laws, entropy, free energy, thermodynamic potentials. The four laws of thermodynamics govern energy, entropy, and temperature — they apply to all physical systems.
+- **Statistical Mechanics**: Ensembles, partition functions, quantum statistics. Statistical mechanics connects microscopic particle behaviour to macroscopic thermodynamic properties.
+- **Phase Transitions**: Landau theory, mean-field theory, critical phenomena. Phase transitions (solid-liquid-gas, ferromagnetic) involve sudden changes in system properties.
+- **Advanced Topics**: Fluctuation-dissipation theorem, irreversible thermodynamics. These extend thermodynamics to non-equilibrium systems.
 
 ## Prerequisites
 
@@ -68,14 +68,15 @@ Each section includes:
 
 ## Study Tips
 
-1. **Master the laws**: Understand the four laws of thermodynamics and their implications
-2. **Practise problems**: Work through many problems to build intuition
-3. **Draw diagrams**: Visualise phase diagrams and thermodynamic processes
-4. **Learn ensembles**: Understand the microcanonical, canonical, and grand canonical ensembles
-5. **Connect to modern physics**: Relate thermal physics to condensed matter and cosmology
+1. **Master the laws**: Understand the four laws of thermodynamics and their implications. Zeroth: thermal equilibrium is transitive. First: energy conservation. Second: entropy increases. Third: absolute zero is unattainable.
+2. **Practise problems**: Work through many problems to build intuition. Thermodynamics problems require careful identification of systems and processes.
+3. **Draw diagrams**: Visualise phase diagrams and thermodynamic processes. PV diagrams show work done; TS diagrams show entropy changes.
+4. **Learn ensembles**: Understand the microcanonical, canonical, and grand canonical ensembles. Each ensemble describes a different physical situation (isolated, thermal contact, particle exchange).
+5. **Connect to modern physics**: Relate thermal physics to condensed matter and cosmology. Bose-Einstein condensation, neutron stars, and the cosmic microwave background all require thermal physics.
 
 ## Cross-References
 
-- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Newtonian mechanics underlying thermodynamics.
-- **[Solid State Physics](../../6-solid-state-physics/index.md):** Statistical mechanics of solids.
-- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum statistics and thermal properties.
+- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Newtonian mechanics underlying thermodynamics; kinetic theory connects microscopic motion to temperature.
+- **[Solid State Physics](../../6-solid-state-physics/index.md):** Statistical mechanics of solids; phonons and electronic heat capacity require thermal physics.
+- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum statistics and thermal properties; Fermi-Dirac and Bose-Einstein distributions are quantum.
+- **[Mathematics](../../mathematics/index.md):** Probability theory and combinatorics underpin statistical mechanics.

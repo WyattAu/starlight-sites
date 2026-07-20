@@ -20,13 +20,13 @@ cycles, calorimetry, bond enthalpies, entropy, and Gibbs free energy.
 
 ### Key Concepts
 
-**Enthalpy Changes**: Exothermic reactions release heat (ΔH < 0, temperature rises). Endothermic reactions absorb heat (ΔH > 0, temperature falls). Standard enthalpy changes are measured under standard conditions (298 K, 100 kPa, 1 mol dm⁻³).
+**Enthalpy Changes**: Exothermic reactions release heat (ΔH < 0, temperature rises, products have lower energy than reactants). Endothermic reactions absorb heat (ΔH > 0, temperature falls, products have higher energy than reactants). Standard enthalpy changes are measured under standard conditions (298 K, 100 kPa, 1 mol dm⁻³). Common types: combustion (fuel burning), formation (elements → compound), neutralisation (acid + base → salt + water), atomisation (element → gaseous atoms), and bond dissociation (breaking a specific bond).
 
-**Hess's Law**: The total enthalpy change is independent of the route taken, as long as initial and final conditions are the same. This allows us to construct energy cycles and calculate unknown enthalpy changes from known ones.
+**Hess's Law**: The total enthalpy change is independent of the route taken, as long as initial and final conditions are the same. This allows us to construct energy cycles and calculate unknown enthalpy changes from known ones. ΔH for the direct route = sum of ΔH values for any alternative route. Hess's law is a consequence of the first law of thermodynamics (energy conservation). It is used when direct measurement is difficult.
 
-**Born-Haber Cycles**: A Hess's Law cycle for ionic compounds that links lattice enthalpy to other measurable quantities (atomisation, ionisation energy, electron affinity). The lattice enthalpy of MgO is much more negative than NaCl due to higher charges and smaller ionic radii.
+**Born-Haber Cycles**: A Hess's Law cycle for ionic compounds that links lattice enthalpy to other measurable quantities (atomisation, ionisation energy, electron affinity). The lattice enthalpy of MgO is much more negative than NaCl due to higher charges (Mg²⁺O²⁻ vs Na⁺Cl⁻) and smaller ionic radii. Born-Haber cycles allow calculation of lattice enthalpies that cannot be measured directly.
 
-**Gibbs Free Energy**: ΔG = ΔH − TΔS. A reaction is spontaneous when ΔG < 0. A reaction with ΔH > 0 can still be spontaneous if TΔS is large enough (entropy-driven). At equilibrium, ΔG = 0.
+**Gibbs Free Energy**: ΔG = ΔH − TΔS. A reaction is spontaneous when ΔG < 0 (exergonic). A reaction with ΔH > 0 can still be spontaneous if TΔS is large enough (entropy-driven -- e.g., ice melting at room temperature). A reaction with ΔH < 0 can be non-spontaneous if TΔS is large and negative (entropy opposes). At equilibrium, ΔG = 0. Temperature determines whether entropy or enthalpy dominates.
 
 ---
 
@@ -36,18 +36,24 @@ cycles, calorimetry, bond enthalpies, entropy, and Gibbs free energy.
 
 ## Intuition
 
-Think of enthalpy as the "heat content" of a system. Exothermic reactions are like releasing stored energy (opening a battery), while endothermic reactions absorb energy from surroundings (like a cold pack). Hess's Law is like a GPS -- you can take different routes to reach the same destination, and the total energy cost is the same. Gibbs free energy is the "real cost" of a reaction -- it accounts for both the heat (ΔH) and the disorder (TΔS) involved.
+Think of enthalpy as the "heat content" of a system. Exothermic reactions are like releasing stored energy (opening a battery), while endothermic reactions absorb energy from surroundings (like a cold pack). Hess's Law is like a GPS -- you can take different routes to reach the same destination, and the total energy cost is the same. Gibbs free energy is the "real cost" of a reaction -- it accounts for both the heat (ΔH) and the disorder (TΔS) involved. If the real cost is negative, the reaction proceeds spontaneously.
+
+**Why it matters**: Energetics explains why some reactions happen and others don't, why some release heat and others absorb it, and how energy is stored and transferred in chemical systems. It's essential for designing fuels, batteries, and industrial processes.
+
+---
 
 ## Common Pitfalls
 
-- Confusing exothermic (ΔH < 0, releases heat) with endothermic (ΔH > 0, absorbs heat). A common mistake is thinking negative ΔH means "less energy" -- it means energy is released.
-- Forgetting that entropy (ΔS) must be in J/K, not kJ/K, when using ΔG = ΔH − TΔS. The temperature T is in Kelvin. Unit conversion errors are extremely common.
-- Assuming a reaction with ΔH > 0 never happens spontaneously. If the entropy increase (TΔS) is large enough, it can overcome the positive ΔH and make ΔG negative.
+- Confusing exothermic (ΔH < 0, releases heat) with endothermic (ΔH > 0, absorbs heat). A common mistake is thinking negative ΔH means "less energy" -- it means energy is released to the surroundings. The system loses energy; the surroundings gain it.
+- Forgetting that entropy (ΔS) must be in J/K, not kJ/K, when using ΔG = ΔH − TΔS. The temperature T is in Kelvin. Unit conversion errors are extremely common -- always convert ΔS to kJ/K before calculating.
+- Assuming a reaction with ΔH > 0 never happens spontaneously. If the entropy increase (TΔS) is large enough, it can overcome the positive ΔH and make ΔG negative. This is why ice melts at room temperature despite being endothermic.
+- Forgetting that bond enthalpies are for gaseous species. Using bond enthalpy calculations for reactions involving liquids or solids introduces errors because phase changes involve additional energy changes.
 
-
+---
 
 ## Cross-References
 
-- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Atomic structure is foundational
-- **[Energetics](../chemistry/flashcards-energetics):** Energy changes connect topics
-- **[Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Equilibrium is central to chemistry
+- **[Atomic Structure](../chemistry/flashcards-atomic-structure):** Ionisation energy and electron affinity (used in Born-Haber cycles) are determined by atomic structure.
+- **[Chemical Bonding](../chemistry/flashcards-chemical-bonding):** Bond energies are used to calculate enthalpy changes -- breaking bonds requires energy; forming bonds releases energy.
+- **[Kinetics and Equilibrium](../chemistry/flashcards-kinetics-equilibrium):** Gibbs free energy determines the direction of equilibrium, and temperature affects both ΔG and Kc.
+- **[Stoichiometry](../chemistry/flashcards-stoichiometry):** Stoichiometric calculations are needed to determine enthalpy changes per mole.

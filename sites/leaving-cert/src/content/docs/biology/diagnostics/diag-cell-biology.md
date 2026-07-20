@@ -320,6 +320,14 @@ Controls: use a tube with boiled amylase (denatured enzyme) to confirm that star
 enzymatic, not spontaneous. Keep all variables except temperature constant (concentration of amylase
 and starch, volume, pH).
 
+## Intuition
+
+**Cell biology is the study of life's smallest functional unit:** Cells are not just containers — they are highly organised factories with specialised compartments (organelles) that carry out specific tasks. The structure of each organelle is intimately linked to its function.
+
+**Why it matters:** Understanding cell biology explains how organisms grow, heal, fight disease, and respond to their environment. It is the foundation for medicine, genetics, and biotechnology.
+
+**The key insight:** The cell membrane is not a passive wall — it is a dynamic, selectively permeable barrier that actively controls what enters and leaves the cell.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -32,20 +32,20 @@ University-level complex analysis notes covering analytic functions, integration
 
 ## Topics Covered
 
-- **Complex Functions**: Analyticity, Cauchy-Riemann equations, conformal mappings
-- **Complex Integration**: Contour integrals, Cauchy's theorem, integral formula
-- **Series and Singularities**: Taylor and Laurent series, residues, poles
-- **Applications**: Contour integration, argument principle, maximum modulus principle
+- **Complex Functions**: Analyticity, Cauchy-Riemann equations, conformal mappings. A function f(z) is analytic if it is differentiable in a neighbourhood — this single condition imposes enormous rigidity.
+- **Complex Integration**: Contour integrals, Cauchy's theorem, integral formula. Contour integrals depend only on singularities, not the path, for analytic functions.
+- **Series and Singularities**: Taylor and Laurent series, residues, poles. Singularities are classified by the Laurent expansion: removable, pole, or essential.
+- **Applications**: Contour integration, argument principle, maximum modulus principle. The residue theorem converts hard real integrals into algebraic computations.
 
 ## Prerequisites
 
-- Single-variable calculus (differentiation, integration)
-- Linear algebra (complex numbers, vectors)
-- Mathematical proofs and logic
+- Single-variable calculus (differentiation, integration). You should be comfortable with derivatives, integrals, and series.
+- Linear algebra (complex numbers, vectors). Complex numbers are the foundation; polar form and Euler's formula are essential.
+- Mathematical proofs and logic. Complex analysis is proof-based — you will need to write rigorous arguments.
 
 ## How to Use These Notes
 
-Start with complex numbers review to build foundational knowledge, then progress to analytic functions and integration. Each section includes worked examples and practice problems.
+Start with complex numbers review to build foundational knowledge, then progress to analytic functions and integration. Each section includes worked examples and practice problems. The residue theorem is the central computational tool — master it early.
 
 ## Navigation
 
@@ -66,14 +66,14 @@ Complex analysis studies functions of a complex variable, where the single requi
 
 ## Study Tips
 
-1. **Master the definitions**: Complex analysis requires precise understanding of analytic functions and singularities
-2. **Practise proofs**: Learn to write clear, rigorous proofs
-3. **Draw diagrams**: Visualise contours, singularities, and mappings
-4. **Learn standard examples**: Know the properties of common functions (exponential, logarithmic, trigonometric)
-5. **Connect to analysis**: Relate complex analysis to real analysis and number theory
+1. **Master the definitions**: Complex analysis requires precise understanding of analytic functions and singularities. The Cauchy-Riemann equations are the gateway.
+2. **Practise proofs**: Learn to write clear, rigorous proofs. Cauchy's theorem and its consequences require careful argumentation.
+3. **Draw diagrams**: Visualise contours, singularities, and mappings. The geometry of complex analysis is intuitive once you see it.
+4. **Learn standard examples**: Know the properties of common functions (exponential, logarithmic, trigonometric). These are the building blocks.
+5. **Connect to analysis**: Relate complex analysis to real analysis and number theory. Many results have analogues in both settings.
 
 ## Cross-References
 
-- **[Real Analysis](../../3-real-analysis/index.md):** Foundational analysis extended to complex numbers.
-- **[Number Theory](../../7-number-theory/index.md):** Analytic number theory using complex analysis.
-- **[ODEs](../../5-ordinary-differential-equations/index.md):** Contour integration for solving ODEs.
+- **[Real Analysis](../../3-real-analysis/index.md):** Foundational analysis extended to complex numbers; continuity, limits, and convergence are shared concepts.
+- **[Number Theory](../../7-number-theory/index.md):** Analytic number theory using complex analysis; the Riemann zeta function is a central object.
+- **[ODEs](../../5-ordinary-differential-equations/index.md):** Contour integration for solving ODEs; the Laplace transform uses complex analysis.

@@ -16,6 +16,20 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
+### Additional Flashcard Topics
+
+- **Propositional Logic**: AND (∧), OR (∨), NOT (¬), IMPLIES (→), BICONDITIONAL (↔). Truth tables enumerate all possible truth values. Logical equivalences (De Morgan's, contrapositive, distribution) simplify expressions.
+
+- **Predicate Logic**: extends propositional logic with quantifiers (∀ "for all", ∃ "there exists"). Predicates are statements with variables that become propositions when variables are bound.
+
+- **Set Operations**: union (A ∪ B), intersection (A ∩ B), complement (A'), power set (P(A)). Set theory is the foundation of databases, type systems, and formal verification.
+
+- **Relations**: reflexive, symmetric, transitive properties. Equivalence relations partition sets into equivalence classes. Partial orders define hierarchies (subset, divisibility).
+
+- **Combinatorics**: counting principles, permutations, combinations, pigeonhole principle. Combinatorics answers "how many?" — essential for algorithm analysis and probability.
+
+- **Graph Theory**: vertices and edges model relationships. Trees are connected acyclic graphs. Euler paths visit every edge once; Hamiltonian paths visit every vertex once.
+
 ## Intuition
 
 Discrete mathematics is the **language of computer science** — it provides the tools for reasoning about algorithms, data structures, and computation. Unlike calculus (which deals with continuous quantities), discrete math deals with countable, distinct objects.
@@ -48,12 +62,17 @@ Discrete mathematics is the **language of computer science** — it provides the
 
 **Confusing a relation with a function.** A function assigns exactly one output to each input. A relation can assign multiple outputs. Every function is a relation, but not every relation is a function.
 
+**Confusing injective with surjective functions.** Injective (one-to-one) means no two inputs map to the same output. Surjective (onto) means every output has at least one input. Bijective means both — a perfect pairing.
+
+**Forgetting that graph connectivity requires a path between ALL pairs.** A connected graph has a path between every pair of vertices. A graph with just one edge connecting two vertices is connected only if those are the only vertices.
+
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="uni-cs-discrete-mathematics" title="University Computing -- Discrete Mathematics" description="20 interactive flashcards covering propositional logic, set theory, relations, combinatorics, graph theory, and proof techniques." cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
 
 ## Cross-References
 
-- **[Discrete Mathematics Practice](../9_practice-discrete-mathematics.mdx):** Auto-graded problems testing the same discrete math concepts.
-- **[Algorithms](../../1-algorithms/index.md):** Algorithm design techniques that build on discrete math foundations.
-- **[Mathematics](../../mathematics/src/content/docs/index.mdx):** University-level mathematics including abstract algebra and real analysis.
+- **[Discrete Mathematics Practice](../practice-discrete-math.mdx):** Auto-graded problems testing the same discrete math concepts.
+- **[Algorithms](../../2-algorithms-and-data-structures/10_flashcards-algorithms-and-data-structures.mdx):** Algorithm design techniques build on discrete math foundations.
+- **[Theory of Computation](../../3-theory/flashcards-theory.mdx):** Automata theory and complexity classes use formal languages from discrete math.
+- **[Databases](../../4-databases/13_flashcards-databases.mdx):** Relational databases are based on set theory and relations from discrete math.

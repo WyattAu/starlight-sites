@@ -30,6 +30,17 @@ Advanced Haskell is about abstraction at the highest level. Functors, applicativ
 - **Monad transformer order matters**: `StateT s (ReaderT r IO) a` behaves differently from `ReaderT r (StateT s IO) a` — the outer transformer runs first, and mixing up the order changes which effects are visible where.
 - **Phantom types misuse**: A phantom type parameter (one not used in the type's definition) can enforce invariants at compile time, but forgetting to include it in data constructors leads to unsatisfiable constraints.
 - **Lens overuse**: Deep lens chains can be hard to read and debug — sometimes a plain pattern match or function composition is clearer.
+- **Stack overflow from lazy IO:** Using lazy I/O (`readFile`, `hGetContents`) without forcing evaluation can cause the entire file to be held in memory as a thunk chain. Use strict I/O or `BangPatterns` for large files.
+- **Type family exhaustiveness:** Forgetting to add all cases to a closed type family leads to runtime errors when unexpected types are used. Always add a catch-all or document the complete set of cases.
+
+## Study Tips
+
+- **Draw the transformer stack:** For complex monad stacks, sketch which effects are visible at each layer. This visual model prevents ordering mistakes.
+- **Use `:type` and `:info` in GHCi:** Type-check lens compositions and understand what each lens focuses on before writing code.
+- **Read the lens library source:** The lens package is a masterclass in Haskell abstraction. Studying how `makeLenses` generates code reveals advanced metaprogramming patterns.
+- **Implement a monad transformer from scratch:** Writing `StateT`, `ReaderT`, or `WriterT` manually builds understanding of how transformers compose effects.
+- **Study the free monad pattern:** Free monads separate program description from interpretation. Understanding this pattern opens up DSL design and program analysis techniques.
+- **Practise with Foldable and Traversable:** These type classes generalise list operations to any structure. Understanding them unlocks powerful generic programming patterns.
 
 ---
 

@@ -308,6 +308,14 @@ energy stored in the stretched cord. The total energy (gravitational potential +
 potential) remains constant throughout the jump. Energy losses to air resistance and internal
 friction in the cord reduce the total mechanical energy, producing heat.
 
+## Intuition
+
+**Mechanics is the study of motion and its causes:** Newton's laws describe how forces change the motion of objects — from a ball thrown in the air to planets orbiting the sun. Force, mass, and acceleration are the fundamental trio that governs all motion.
+
+**Why it matters:** Mechanics is the foundation of engineering, architecture, sports science, and vehicle design. Understanding forces and motion lets you predict where a projectile will land and how structures bear loads.
+
+**The key insight:** Newton's second law ($F = ma$) is deceptively simple — applying it correctly requires identifying all forces acting on an object and choosing the right coordinate system.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

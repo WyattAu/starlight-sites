@@ -144,6 +144,16 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 3. **Test yourself** -- use the practice problems and flashcards to check your understanding
 4. **Review regularly** -- spaced repetition helps retain what you have learned## Cross-References
 
+## Common Mistakes
+
+**Forgetting rule of zero/three/five:** If your class manages a resource, define or delete the copy constructor, copy assignment, move constructor, and move assignment. If it does not, the compiler-generated defaults may silently cause double-free bugs or shallow copies of owned resources.
+
+**Using raw `new`/`delete` instead of RAII:** Manual memory management with `new` and `delete` is error-prone — exceptions, early returns, and forgotten cleanup cause leaks and dangling pointers. Use smart pointers and stack allocation to bind resource lifetime to scope.
+
+**Assuming `std::move` moves data:** `std::move` casts an lvalue to an rvalue reference — it does not itself move anything. The actual move happens in the move constructor or move assignment operator. Misusing `std::move` on objects after they have been moved-from leads to undefined or surprising behaviour.
+
+## Cross-References
+
 - **[Site Home](../../):** Main landing page for Programming notes.
 - **[Types](../../types/):** Type system fundamentals.
 - **[Resource Management](../../resource_management/):** RAII and smart pointers.

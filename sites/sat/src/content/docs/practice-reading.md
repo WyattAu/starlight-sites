@@ -577,6 +577,14 @@ is moving, according to critics
 
 ---
 
+## Intuition
+
+**SAT reading tests comprehension and evidence-based reasoning:** Questions ask you to identify what the passage *actually says* — not what you think it means. Evidence-based questions require finding specific support in the text.
+
+**Why it matters:** Strong reading comprehension is essential for college success across all disciplines.
+
+**The key insight:** The correct answer is always directly supported by the passage — if you cannot point to specific evidence, you are likely inferring beyond what the text says.
+
 ## Summary
 
 These five passages cover the full range of question types on the digital SAT Reading & Writing

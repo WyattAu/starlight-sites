@@ -252,6 +252,14 @@ class AsyncPatterns {
 }
 ```
 
+## Intuition
+
+**Java concurrency is built into the language and standard library:** From synchronized blocks to ExecutorService to CompletableFuture, Java provides multiple levels of abstraction for concurrent programming. The JVM's memory model defines the rules for shared state access.
+
+**Why it matters:** Modern applications must handle thousands of concurrent users. Understanding Java concurrency is essential for building responsive, scalable server applications.
+
+**The key insight:** The java.util.concurrent package is almost always preferable to low-level synchronized blocks — it provides thread-safe collections, executors, and atomic operations that are easier to use correctly.
+
 ## Common Mistakes
 
 **Using `Thread.stop()` or `Thread.suspend()`:** These methods are deprecated because they leave shared data in inconsistent states. Use interruption and cooperative cancellation instead. Always design threads to check for interruption and exit gracefully.

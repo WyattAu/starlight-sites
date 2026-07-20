@@ -32,10 +32,10 @@ University-level quantum mechanics notes covering postulates, operators, and app
 
 ## Topics Covered
 
-- **Postulates**: State vectors, observables, measurement, time evolution
-- **Wave Functions**: Schrodinger equation, probability interpretation, normalisation
-- **Operators**: Commutation relations, uncertainty principle, eigenvalues
-- **Approximation Methods**: Perturbation theory, variational method, WKB
+- **Postulates**: State vectors, observables, measurement, time evolution. The postulates of quantum mechanics provide the mathematical framework: states are vectors in Hilbert space, observables are Hermitian operators, and measurement gives eigenvalues.
+- **Wave Functions**: Schrödinger equation, probability interpretation, normalisation. The wavefunction encodes all information about a quantum system; |ψ|² gives probability density.
+- **Operators**: Commutation relations, uncertainty principle, eigenvalues. Non-commuting operators (like position and momentum) cannot be simultaneously measured — this is the uncertainty principle.
+- **Approximation Methods**: Perturbation theory, variational method, WKB. Exact solutions are rare; approximation methods make quantum mechanics practical for real systems.
 
 ## Prerequisites
 
@@ -63,14 +63,15 @@ Each section includes:
 
 ## Study Tips
 
-1. **Master the postulates**: Understand the physical meaning of each postulate
-2. **Practise problems**: Work through many problems to build intuition
-3. **Draw diagrams**: Visualise wave functions and probability distributions
-4. **Learn symmetries**: Understand conservation laws and selection rules
-5. **Connect to applications**: Relate quantum mechanics to atomic, molecular, and particle physics
+1. **Master the postulates**: Understand the physical meaning of each postulate. The postulates define the mathematical framework — states, observables, measurement, and time evolution.
+2. **Practise problems**: Work through many problems to build intuition. Quantum mechanics is counterintuitive; practice is essential for developing physical intuition.
+3. **Draw diagrams**: Visualise wave functions and probability distributions. Probability densities show where particles are likely to be found.
+4. **Learn symmetries**: Understand conservation laws and selection rules. Symmetries determine which transitions are allowed and which are forbidden.
+5. **Connect to applications**: Relate quantum mechanics to atomic, molecular, and particle physics. Quantum mechanics explains the periodic table, chemical bonding, and particle interactions.
 
 ## Cross-References
 
-- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Classical limit of quantum mechanics.
-- **[Electromagnetism](../../3-electromagnetism/index.md):** Quantum electrodynamics.
-- **[Particle Physics](../../7-particle-physics-and-cosmology/index.md):** Quantum field theory.
+- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Classical limit of quantum mechanics; the correspondence principle connects quantum to classical.
+- **[Electromagnetism](../../3-electromagnetism/index.md):** Quantum electrodynamics; the quantum theory of electromagnetic interactions.
+- **[Particle Physics](../../7-particle-physics-and-cosmology/index.md):** Quantum field theory and particle physics; quantum mechanics is the foundation.
+- **[Thermal Physics](../../2-thermal-physics/index.md):** Statistical mechanics uses quantum theory to explain thermodynamic properties.

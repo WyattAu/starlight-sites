@@ -26,14 +26,14 @@ description: "UNIVERSITY Physics notes: Electromagnetism. Comprehensive study ma
 
 ## Overview
 
-University-level electromagnetism notes covering Maxwell's equations, electrodynamics, and relativity.
+University-level electromagnetism notes covering Maxwell's equations, electrodynamics, and relativity. Electromagnetism is one of the four fundamental forces and is responsible for all electromagnetic phenomena — from the structure of atoms to the behaviour of light and the operation of electronic devices.
 
 ## Topics Covered
 
-- **Electrostatics**: Coulomb's law, Gauss's law, potentials, boundary value problems
-- **Magnetostatics**: Biot-Savart law, Ampere's law, magnetic materials
-- **Electrodynamics**: Faraday's law, displacement current, electromagnetic waves
-- **Relativity**: Four-vectors, Lorentz transformations, relativistic electrodynamics
+- **Electrostatics**: Coulomb's law, Gauss's law, potentials, boundary value problems. Electrostatics describes the fields and forces between stationary charges. The electric field E = F/q gives the force per unit charge; the electric potential V relates to work done.
+- **Magnetostatics**: Biot-Savart law, Ampere's law, magnetic materials. Magnetostatics describes the fields and forces produced by steady currents. The magnetic field B exerts forces on moving charges: F = qv × B.
+- **Electrodynamics**: Faraday's law, displacement current, electromagnetic waves. Electrodynamics describes how changing electric and magnetic fields produce each other. This mutual generation is the basis of electromagnetic wave propagation.
+- **Relativity**: Four-vectors, Lorentz transformations, relativistic electrodynamics. Maxwell's equations are naturally relativistic — electricity and magnetism are unified by special relativity. A moving charge produces both electric and magnetic fields.
 
 ## Prerequisites
 
@@ -61,14 +61,15 @@ Each section includes:
 
 ## Study Tips
 
-1. **Master Maxwell's equations**: Understand the physical meaning of each equation
-2. **Practise problems**: Work through many problems to build intuition
-3. **Draw diagrams**: Visualise electric and magnetic fields
-4. **Learn symmetry arguments**: Use Gauss's law and Ampere's law effectively
-5. **Connect to modern physics**: Relate electromagnetism to quantum electrodynamics and optics
+1. **Master Maxwell's equations**: Understand the physical meaning of each equation. Gauss's law relates electric fields to charges; Ampere's law relates magnetic fields to currents; Faraday's law describes electromagnetic induction; the displacement current completes the symmetry.
+2. **Practise problems**: Work through many problems to build intuition. Electromagnetism requires careful application of vector calculus.
+3. **Draw diagrams**: Visualise electric and magnetic fields. Field lines show direction and density; symmetry arguments simplify calculations.
+4. **Learn symmetry arguments**: Use Gauss's law and Ampere's law effectively. High symmetry (spherical, cylindrical, planar) makes field calculations tractable.
+5. **Connect to modern physics**: Relate electromagnetism to quantum electrodynamics and optics. QED is the quantum theory of electromagnetic interactions.
 
 ## Cross-References
 
-- **[Optics and Waves](../../4-optics-and-waves/index.md):** Electromagnetic waves and optics.
-- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Electromagnetic forces in mechanics.
-- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum electrodynamics.
+- **[Optics and Waves](../../4-optics-and-waves/index.md):** Electromagnetic waves and optics; light is an electromagnetic wave.
+- **[Classical Mechanics](../../1-classical-mechanics/index.md):** Electromagnetic forces in mechanics; charged particle dynamics.
+- **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum electrodynamics; the quantum theory of electromagnetic interactions.
+- **[Particle Physics](../../7-particle-physics-and-cosmology/index.md):** The photon is the gauge boson of electromagnetism in the Standard Model.

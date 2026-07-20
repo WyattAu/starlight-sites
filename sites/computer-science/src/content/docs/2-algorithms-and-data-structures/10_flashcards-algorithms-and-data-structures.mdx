@@ -16,6 +16,20 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
+### Additional Flashcard Topics
+
+- **Sorting Algorithms**: bubble sort O(n²), merge sort O(n log n), quicksort O(n log n) average, heapsort O(n log n). Stable sorts preserve relative order of equal elements. In-place sorts use O(1) extra space.
+
+- **Search Algorithms**: linear search O(n), binary search O(log n) on sorted arrays, hash table O(1) average. Binary search requires sorted data; hash tables require good hash functions.
+
+- **Graph Algorithms**: BFS (level-by-level), DFS (depth-first), Dijkstra's (shortest path), Kruskal's/Prim's (MST). BFS uses a queue; DFS uses a stack (or recursion).
+
+- **Dynamic Programming**: solve subproblems once and store results. Optimal substructure + overlapping subproblems = DP candidate. Bottom-up (tabulation) vs top-down (memoisation).
+
+- **Greedy Algorithms**: make locally optimal choices hoping for global optimum. Greedy works when the problem has matroid structure (e.g., activity selection, Huffman coding).
+
+- **Divide and Conquer**: split problem into subproblems, solve independently, combine results. Master theorem solves recurrences: T(n) = aT(n/b) + O(n^d).
+
 ## Intuition
 
 Data structures are **organised ways to store and access data**. The choice of data structure determines the efficiency of operations — a linked list is great for insertion but poor for random access; an array is the opposite.
@@ -48,11 +62,17 @@ Data structures are **organised ways to store and access data**. The choice of d
 
 **Confusing stability with correctness.** A stable sort preserves the relative order of equal elements. Stability matters when sorting by multiple criteria but does not affect correctness of a single sort.
 
+**Forgetting that hash table performance depends on the hash function.** A poor hash function clusters keys, degrading O(1) to O(n). The worst case for hash tables is O(n) per operation.
+
+**Confusing BFS with DFS.** BFS explores level-by-level (queue); DFS explores depth-first (stack). BFS finds shortest paths in unweighted graphs; DFS is useful for cycle detection and topological sorting.
+
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="uni-cs-algorithms-and-data-structures" title="University Computing -- Algorithms and Data Structures" description="20 interactive flashcards covering complexity analysis, sorting, searching, data structures, dynamic programming, and graph algorithms." cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
 
 ## Cross-References
 
-- **[Algorithm Analysis](../1_algorithm-analysis.md):** Formal complexity analysis for the data structures covered here.
+- **[Algorithm Analysis](../1_algorithm_analysis.md):** Formal complexity analysis for the data structures covered here.
 - **[Dynamic Programming](../5_dynamic-programming.md):** Memoisation and tabulation patterns tested in the flashcards.
+- **[Discrete Mathematics](../../1-discrete-mathematics/8_flashcards-discrete-mathematics.mdx):** Graph theory and combinatorics underpin algorithm design.
+- **[Theory of Computation](../../3-theory/flashcards-theory.mdx):** Complexity classes classify algorithm efficiency.

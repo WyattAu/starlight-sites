@@ -17,15 +17,31 @@ import { flashcardData } from '@/data/flashcards/elixir/flashcards-elixir-basics
 
 ---
 
+### Additional Flashcard Topics
+
+- **Pattern Matching**: `case`, `with`, function heads. `{:ok, value} = {:ok, 42}` binds `value` to 42. Pin operator `^` matches existing values.
+
+- **Pipe Operator**: `|>` passes the result of the left side as the first argument to the right. Enables readable function chains: `data |> parse() |> transform() |> save()`.
+
+- **OTP GenServer**: `handle_call`, `handle_cast`, `handle_info`. GenServer is a stateful process with a synchronous request/reply interface.
+
+- **Supervision Trees**: supervisors restart failed processes. Strategies: `:one_for_one`, `:one_for_all`, `:rest_for_one`. "Let it crash" philosophy.
+
+- **Concurrency**: processes are lightweight (not OS threads). Message passing with `send`/`receive`. Elixir processes are isolated — one crash doesn't affect others.
+
+- **Protocols and Behaviours**: protocols provide polymorphism; behaviours define callback interfaces. Similar to type classes (Haskell) or traits (Rust).
+
 ## Intuition
 
-Elixir runs on the Erlang VM (BEAM), designed for building fault-tolerant, distributed systems. Everything is a function call — there are no loops, only recursion and higher-order functions like `Enum.map`. Pattern matching is pervasive: it's used for function dispatch, error handling (`case`/`with`), and data destructuring. OTP provides battle-tested building blocks (GenServer, Supervisor) that implement the "let it crash" philosophy — processes fail independently and supervisors restart them.
+Elixir runs on the Erlang VM (BEAM), designed for building fault-tolerant, distributed systems. Everything is a function call — there are no loops, only recursion and higher-order functions like `Enum.map`. Pattern matching is pervasive: it's used for function dispatch, error handling (`case`/`with`), and data destructuring. OTP provides battle-tested building blocks (GenServer, Supervisor) that implement the "let it crash" philosophy — processes fail independently and supervisors restart them. Elixir combines the robustness of Erlang with a modern, Ruby-like syntax.
 
 ## Common Pitfalls
 
 - **Pipe operator precedence**: The `|>` pipe operator has low precedence — expressions in the pipe chain can bind unexpectedly. Use parentheses for complex arguments.
 - **Agent vs GenServer**: Using Agent for anything beyond simple state — Agent is a convenience wrapper; GenServer gives you full control over handle_call/handle_cast/handle_info.
 - **Binary pattern matching**: Forgetting that `<<a, b::binary>>` matches a byte and the rest as binary — `b::binary` is required to capture remaining bytes, not just `b`.
+- **Tail recursion**: Not all recursion is tail-recursive. Only the last call being the recursive call (with no further computation) allows the BEAM to optimise stack usage.
+- **Erlang vs Elixir syntax**: Elixir compiles to Erlang bytecode. Understanding Erlang documentation and error messages is essential for debugging.
 
 ---
 
@@ -36,3 +52,4 @@ Elixir runs on the Erlang VM (BEAM), designed for building fault-tolerant, distr
 - **[Elixir Practice](../practice-elixir-basics.mdx):** Auto-graded problems testing the same core Elixir concepts covered in these flashcards.
 - **[Basics and Pattern Matching](../01-basics/1_basics-and-pattern-matching.md):** Deep dive into pattern matching and data types referenced in the flashcards.
 - **[Metaprogramming](../04-advanced/1_metaprogramming.md):** Advanced quote/unquote and macro system concepts.
+- **[Haskell Basics](../../haskell/flashcards-haskell-basics.mdx):** Functional programming patterns compared across languages.

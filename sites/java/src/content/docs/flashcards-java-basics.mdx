@@ -30,6 +30,16 @@ Java is "write once, run anywhere" — code compiles to bytecode that runs on th
 - **NullPointerException**: Java's most infamous runtime error — calling a method on a null reference crashes the program. Always use Optional or null checks.
 - **String immutability**: Strings in Java are immutable — concatenating strings in a loop creates many temporary objects. Use StringBuilder for performance-critical string operations.
 - **Integer caching**: Java caches Integer objects from -128 to 127 — comparing cached integers with == works, but larger values require .equals(), leading to subtle bugs.
+- **Classpath issues**: Forgetting to include dependencies on the classpath causes `ClassNotFoundException` at runtime. Always verify classpath configuration before running.
+- **Thread safety with collections**: Using `ArrayList` or `HashMap` from multiple threads without synchronisation causes `ConcurrentModificationException`. Use `Collections.synchronizedList` or `ConcurrentHashMap` for thread-safe access.
+
+## Study Tips
+
+- **Write small test programs:** For each concept (generics, streams, concurrency), write a minimal program that demonstrates it. Hands-on experimentation builds deeper understanding than reading alone.
+- **Use javap to inspect bytecode:** Running `javap -c ClassName` reveals what the compiler actually generates. This is invaluable for understanding generics erasure and lambda implementation.
+- **Read the Java Language Specification for edge cases:** The JLS defines exact behaviour for type inference, overload resolution, and exception handling. When in doubt, the JLS is authoritative.
+- **Practise with IntelliJ IDEA:** The IDE's debugger, type inference highlighting, and refactoring tools help you understand Java's type system visually.
+- **Study the Stream API:** The Stream API (filter, map, reduce, collect) is essential for modern Java. Write stream-based solutions to common problems to build fluency.
 
 ---
 

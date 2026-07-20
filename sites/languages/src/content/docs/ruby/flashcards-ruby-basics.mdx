@@ -17,15 +17,29 @@ import { flashcardData } from '@/data/flashcards/ruby/flashcards-ruby-basics-dat
 
 ---
 
+### Additional Flashcard Topics
+
+- **Everything is an Object**: integers, booleans, nil, and even classes are objects. Methods like `5.times { puts "hi" }` work because integers are objects with methods.
+
+- **Blocks, Procs, Lambdas**: blocks `{ }` are closures passed to methods. Procs are anonymous functions; lambdas enforce arity. `yield` calls the block passed to a method.
+
+- **Metaprogramming**: `method_missing`, `define_method`, `class_eval`. Ruby can modify classes and create methods at runtime — powerful but can be confusing.
+
+- **Modules and Mixins**: modules group methods that can be mixed into classes. `include` adds instance methods; `extend` adds class methods. No multiple inheritance.
+
+- **Enumerable Module**: `each`, `map`, `select`, `reduce` — any class that defines `each` can use all Enumerable methods. This is Ruby's most powerful abstraction.
+
 ## Intuition
 
-Ruby is a language optimised for developer happiness — everything is an object (including integers and booleans), and blocks/procs/lambdas make functional patterns feel natural. Metaprogramming is Ruby's superpower: you can define methods at runtime, open classes and add methods (monkey patching), and use `method_missing` to handle calls to undefined methods. Mixins via modules provide code reuse without the diamond inheritance problem.
+Ruby is a language optimised for developer happiness — everything is an object (including integers and booleans), and blocks/procs/lambdas make functional patterns feel natural. Metaprogramming is Ruby's superpower: you can define methods at runtime, open classes and add methods (monkey patching), and use `method_missing` to handle calls to undefined methods. Mixins via modules provide code reuse without the diamond inheritance problem. Ruby's syntax is designed to read like English, prioritising expressiveness over ceremony.
 
 ## Common Pitfalls
 
 - **Monkey patching risks**: Reopening a class and changing method behaviour affects every instance globally — this is powerful but can introduce hard-to-debug conflicts between libraries.
 - **Symbol vs string**: `:symbol` and `"string"` are different — symbols are immutable and interned (memory efficient), strings are mutable and duplicated. Use symbols for hash keys and identifiers.
 - **Block vs proc vs lambda**: Blocks are not objects (can't be stored in variables), Procs don't check argument count, and Lambdas do — mixing them up causes subtle argument-passing bugs.
+- **Frozen string literals**: In Ruby 2.3+, `# frozen_string_literal: true` makes string literals immutable. Forgetting this pragma can cause unexpected mutations.
+- **`self` in blocks vs methods**: `self` in a block refers to the enclosing context; `self` in a method refers to the receiver. This distinction matters for metaprogramming.
 
 ---
 
@@ -35,3 +49,4 @@ Ruby is a language optimised for developer happiness — everything is an object
 
 - **[Ruby Practice](../practice-ruby-basics.mdx):** Auto-graded problems testing the same core Ruby concepts covered in these flashcards.
 - **[Elixir Basics](../../elixir/01-basics/1_basics-and-pattern-matching.md):** Functional programming and pattern matching concepts that Ruby also supports.
+- **[Python Basics](../../python/flashcards-python-basics.mdx):** Dynamic typing and object-oriented patterns compared across languages.

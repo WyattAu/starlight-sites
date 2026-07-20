@@ -16,6 +16,20 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
+### Additional Flashcard Topics
+
+- **Relational Model**: tables (relations) with rows (tuples) and columns (attributes). Primary keys uniquely identify rows; foreign keys reference other tables. The relational algebra provides operations (select, project, join, union).
+
+- **SQL**: SELECT, FROM, WHERE, JOIN, GROUP BY, HAVING, ORDER BY. SQL is declarative — you describe what you want, not how to get it. The query optimizer determines the execution plan.
+
+- **Normal Forms**: 1NF (atomic values), 2NF (no partial dependencies), 3NF (no transitive dependencies), BCNF (every determinant is a candidate key). Normalisation eliminates redundancy.
+
+- **ACID Properties**: Atomicity (all or nothing), Consistency (valid state transitions), Isolation (concurrent transactions don't interfere), Durability (committed data survives crashes).
+
+- **Indexing**: B-tree indexes support O(log n) lookups and range queries. Hash indexes support O(1) equality lookups. Indexes speed up reads but slow down writes.
+
+- **NoSQL**: document stores (MongoDB), key-value stores (Redis), column families (Cassandra), graph databases (Neo4j). Trade ACID for scalability and flexibility.
+
 ## Intuition
 
 Databases are about **organising, storing, and retrieving data efficiently and reliably**. The relational model provides a mathematical foundation (set theory and first-order logic) for data manipulation through SQL.
@@ -48,6 +62,10 @@ Databases are about **organising, storing, and retrieving data efficiently and r
 
 **Confusing NULL with zero or empty string.** NULL represents unknown or missing data. Comparisons with NULL using = or ≠ return NULL (not true or false). Use IS NULL or IS NOT NULL instead. NULLs in aggregate functions like COUNT(column) are excluded.
 
+**Forgetting that joins are expensive.** Each join multiplies the number of rows being processed. A query with three JOINs on tables with 1000 rows each can produce up to 10⁹ rows. Always filter before joining when possible.
+
+**Assuming that normalisation is always beneficial.** While normalisation eliminates redundancy, it can hurt read performance due to joins. Analytical (OLAP) workloads often benefit from denormalisation.
+
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="uni-cs-databases" title="University Computing -- Databases" description="Flashcards covering relational model, SQL, normalization, transactions, indexing, and NoSQL concepts." cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />
@@ -55,5 +73,6 @@ Databases are about **organising, storing, and retrieving data efficiently and r
 ## Cross-References
 
 - **[Databases Practice](../14_practice-databases.mdx):** Auto-graded problems testing database concepts.
-- **[Systems](../../2-systems/index.md):** Computer architecture that database systems build upon.
-- **[Theory of Computation](../../6-theory-of-computation/index.md):** Formal languages underlying query languages.
+- **[Systems](../../2-systems/index.md):** Computer architecture that database systems build upon; I/O and memory management matter.
+- **[Theory of Computation](../../3-theory/flashcards-theory.mdx):** Formal languages underlying query languages; relational algebra is formal.
+- **[Operating Systems](../../5-operating-systems/12_flashcards-operating-systems.mdx):** OS provides file systems and concurrency primitives used by databases.

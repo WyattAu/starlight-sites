@@ -17,15 +17,29 @@ and the GIL. Press Space to flip, rate 1-4.
 
 ---
 
+### Additional Flashcard Topics
+
+- **List Comprehensions**: `[x**2 for x in range(10) if x % 2 == 0]` — concise syntax for creating filtered lists. Nested comprehensions flatten to single expressions.
+
+- **Generators**: `yield` produces values lazily. Generators consume O(1) memory vs O(n) for lists. `generator_expression` syntax: `(x**2 for x in range(10))`.
+
+- **Decorators**: functions that modify other functions. `@decorator` syntax. `functools.wraps` preserves the original function's metadata.
+
+- **Context Managers**: `with open('file') as f:` ensures cleanup. Implement via `__enter__`/`__exit__` or `contextlib.contextmanager`.
+
+- **Magic Methods**: `__init__`, `__str__`, `__repr__`, `__getitem__`, `__len__`. They define how objects behave with built-in operations.
+
 ## Intuition
 
-Python is a dynamically typed, interpreted language where everything is an object — including functions, classes, and modules. List comprehensions provide concise syntax for creating lists from iterables, and generators yield values lazily (one at a time) instead of building entire lists in memory. The GIL (Global Interpreter Lock) ensures only one thread executes Python bytecode at a time, simplifying memory management but limiting CPU-bound parallelism.
+Python is a dynamically typed, interpreted language where everything is an object — including functions, classes, and modules. List comprehensions provide concise syntax for creating lists from iterables, and generators yield values lazily (one at a time) instead of building entire lists in memory. The GIL (Global Interpreter Lock) ensures only one thread executes Python bytecode at a time, simplifying memory management but limiting CPU-bound parallelism. Python's "batteries included" standard library is one of its greatest strengths.
 
 ## Common Pitfalls
 
 - **Mutable default arguments**: Defining `def f(x=[])` — the default list is shared across all calls, so mutations persist. Use `None` as the default and create a new list inside the function.
 - **Shallow vs deep copy**: `list.copy()` or `list()` creates a shallow copy — nested objects are still shared. Use `copy.deepcopy()` for independent copies of nested structures.
 - **Late binding closures**: Closures in loops capture the variable by reference, not by value — the loop variable changes before the closure executes, producing unexpected results. Use a default argument to capture the current value.
+- **GIL limitations**: The GIL prevents true parallelism for CPU-bound threads. Use `multiprocessing` for CPU-bound work, `threading` for I/O-bound work.
+- **Name mangling**: `__name` in a class becomes `_ClassName__name` externally. This is not true privacy — it's name mangling to avoid naming conflicts.
 
 ---
 
@@ -36,3 +50,4 @@ Python is a dynamically typed, interpreted language where everything is an objec
 - **[Python Practice](../practice-python-basics.mdx):** Auto-graded problems testing the same core Python concepts.
 - **[Python Interactive Practice](../practice-interactive.mdx):** Advanced practice with async, functional, and advanced patterns.
 - **[Packaging and Distribution](../07-best-practices/04-packaging-distribution.md):** Package management and distribution best practices.
+- **[Ruby Basics](../../ruby/flashcards-ruby-basics.mdx):** Dynamic typing and object-oriented patterns compared across languages.

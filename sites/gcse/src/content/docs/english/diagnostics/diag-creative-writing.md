@@ -343,6 +343,14 @@ writer has considered opposing views, which builds credibility and makes the fin
 persuasive. A purely persuasive speech risks appearing one-sided or dogmatic; an argumentative text
 shows the complexity of the issue and still arrives at a clear conclusion.
 
+## Intuition
+
+**Creative writing is structured imagination:** Good creative writing combines vivid language with careful planning. Techniques like show-don't-tell, varied sentence structures, and sensory detail transform ordinary writing into compelling narratives.
+
+**Why it matters:** Strong writing skills are essential for academic success, professional communication, and personal expression.
+
+**The key insight:** The most powerful writing engages the reader's senses — describing what characters see, hear, smell, taste, and feel creates immersive experiences.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

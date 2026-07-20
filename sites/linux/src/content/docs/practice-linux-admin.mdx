@@ -217,6 +217,14 @@ sidebar_position: 50
 
 **Explanation:** AIDE (Advanced Intrusion Detection Environment) maintains a database of file checksums, permissions, and other attributes. Running `aide --check` compares the current filesystem state against the baseline database and reports any modifications, additions, or deletions. `diff` compares file contents. `find` searches for files. `ls -la` lists file attributes but does not compare against a baseline.
 
+## Intuition
+
+**Linux administration is systematic problem-solving:** Every administration task — from configuring services to troubleshooting networking — follows a logical process of diagnosis, implementation, and verification.
+
+**Why it matters:** Linux administration skills are essential for managing servers, cloud infrastructure, and development environments.
+
+**The key insight:** Logs are your best friend — /var/log/ and journalctl provide detailed information about what the system is doing and where problems originate.
+
 ## Common Mistakes
 
 **Editing system files without backups:** Before editing /etc/fstab, /etc/ssh/sshd_config, or other critical files, always create a backup. A typo in /etc/fstab can prevent the system from booting.
