@@ -37,6 +37,38 @@ Browse the content using the sidebar navigation on the left.
 
 Start with the basics: variables, methods, blocks, and classes. Then move to metaprogramming (method_missing, eigenclasses, refinements) and Rails integration. Ruby's object model is consistent — everything is an object, including numbers, strings, and nil. Understanding this uniformity is key to writing idiomatic Ruby.
 
+## Quick Reference
+
+```ruby
+# Variables and types
+name = "Ruby"          # String
+version = 3.3          # Float
+count = 42             # Integer
+flag = true            # Boolean
+nothing = nil          # Nil
+
+# Collections
+array = [1, 2, 3, 4, 5]
+hash = { name: "Ruby", type: "language" }
+
+# Blocks and iterators
+array.each { |n| puts n }
+array.map { |n| n * 2 }
+array.select { |n| n > 3 }
+array.reduce(0) { |sum, n| sum + n }
+
+# Classes
+class Greeter
+  attr_accessor :name
+  def initialize(name)
+    @name = name
+  end
+  def greet
+    "Hello, #{name}!"
+  end
+end
+```
+
 ## Common Mistakes
 
 **Confusing nil with empty string/array:** nil is the absence of a value. "" is an empty string. [] is an empty array. Using .nil? vs .empty? vs checking size gives different results. nil.to_s returns "", which can mask nil values.

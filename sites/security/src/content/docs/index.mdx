@@ -22,6 +22,18 @@ Information security from principles to practice: threat modelling, secure codin
 - **Monitoring** — Log analysis, intrusion detection, SIEM
 - **Incident Response** — Containment, eradication, recovery procedures
 
+## Essential Security Checklist
+
+| Area | Action | Priority |
+|------|--------|----------|
+| Authentication | Use bcrypt/scrypt/Argon2 for password hashing | Critical |
+| Secrets | Never commit API keys or passwords to source control | Critical |
+| Updates | Apply security patches within 24-48 hours of release | High |
+| Access | Apply principle of least privilege to all accounts | High |
+| Network | Segment services and enable firewalls by default | High |
+| Logging | Centralise logs and monitor for anomalies | Medium |
+| Backups | Test restore procedures quarterly | Medium |
+
 ## Intuition
 
 **Security is about managing risk, not eliminating it:** Perfect security is impossible — the goal is to make attacks harder, more expensive, and more detectable. Security is a process, not a product.

@@ -21,6 +21,25 @@ These notes are structured to guide you from understanding the admissions landsc
 - **Super-curricular engagement** (reading beyond the syllabus, attending lectures, independent projects) matters more than extracurricular breadth for academic admissions.
 - **Admissions tests** (TMUA, MAT, ENGAA, NSAA) assess thinking skills beyond the taught curriculum — practice with past papers is essential.
 
+## Key Dates and Deadlines
+
+| Milestone | Typical Date | Action Required |
+|-----------|-------------|-----------------|
+| UCAS Opens | May (Year before entry) | Start personal statement draft |
+| Admissions Tests | October-November | Register and sit TMUA/MAT/ENGAA/NSAA |
+| UCAS Deadline | January 15 (Oxbridge: October 15) | Submit application |
+| Interviews | December-February | Prepare and attend |
+| Results | January-March | Accept or decline offers |
+
+## Test Preparation Timeline
+
+| Months Before Test | Focus Area | Daily Time |
+|-------------------|------------|------------|
+| 4-6 months | Foundation: topic review and flashcards | 30 min |
+| 2-4 months | Practice: past papers under timed conditions | 45-60 min |
+| 1-2 months | Refinement: target weak areas, full mock exams | 60 min |
+| Final 2 weeks | Review: light practice, confidence building | 20-30 min |
+
 ## Common Mistakes
 
 **Treating admissions as a formula rather than a holistic process:** No single element (grades, test scores, personal statement) guarantees admission. Competitive universities assess the combination of academic potential, subject engagement, and intellectual curiosity. Focusing exclusively on one element while neglecting others weakens your overall application.

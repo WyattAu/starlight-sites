@@ -25,6 +25,20 @@ Every internet-connected application relies on networking infrastructure that mo
 - **Infrastructure** — Routers, switches, VLANs, firewalls
 - **Security** — TLS/SSL, IPsec, network segmentation
 - **Troubleshooting** — ping, traceroute, tcpdump, Wireshark
+
+## Essential Commands
+
+| Command | Purpose | Example |
+|---------|---------|---------|
+| `ping` | Test ICMP connectivity and latency | `ping -c 4 8.8.8.8` |
+| `traceroute` | Trace packet path through routers | `traceroute example.com` |
+| `nslookup` | Query DNS records | `nslookup example.com` |
+| `curl` | Test HTTP endpoints and headers | `curl -I https://example.com` |
+| `tcpdump` | Capture and analyse packets | `tcpdump -i eth0 port 443` |
+| `ss` | View socket statistics | `ss -tlnp` |
+| `ip` | Network interface configuration | `ip addr show` |
+| `nmap` | Port scanning and service detection | `nmap -sV target.host` |
+
 ## Intuition
 
 **Networking is the infrastructure of the digital world:** The Internet, Wi-Fi, and mobile networks all depend on networking protocols and standards. Understanding networking is essential for security, performance optimisation, and system design.

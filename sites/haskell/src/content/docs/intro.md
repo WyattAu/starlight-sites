@@ -42,6 +42,40 @@ Browse the content using the sidebar navigation on the left.
 
 **The key insight:** Monads are not as mysterious as they sound — they are just a pattern for sequencing operations that have effects (like I/O or state) within a purely functional language.
 
+## Quick Reference
+
+```haskell
+-- Basic functions
+add :: Int -> Int -> Int
+add x y = x + y
+
+-- Pattern matching
+factorial :: Integer -> Integer
+factorial 0 = 1
+factorial n = n * factorial (n - 1)
+
+-- List operations
+doubleAll :: [Int] -> [Int]
+doubleAll = map (* 2)
+
+-- Type classes
+class Describable a where
+  describe :: a -> String
+
+-- Algebraic data types
+data Shape = Circle Double | Rectangle Double Double
+
+area :: Shape -> Double
+area (Circle r) = pi * r * r
+area (Rectangle w h) = w * h
+
+-- Monadic IO
+main :: IO ()
+main = do
+  name <- getLine
+  putStrLn ("Hello, " ++ name ++ "!")
+```
+
 ## Common Mistakes
 
 **Confusing laziness with inefficiency:** Lazy evaluation delays computation until needed, which can save work (short-circuit evaluation, infinite data structures). But it can also cause space leaks when thunks accumulate. Strictness annotations (`BangPatterns`, `StrictData`) control this.

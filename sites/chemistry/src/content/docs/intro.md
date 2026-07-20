@@ -21,6 +21,23 @@ Chemistry is a cumulative subject — each concept builds on previous knowledge.
 2. **Organic Chemistry** — Reaction mechanisms, synthesis, stereochemistry
 3. **Inorganic Chemistry** — Coordination compounds, organometallics, solid-state
 
+## Core Concepts
+
+| Branch | Core Idea | Key Equations | Common Pitfall |
+|--------|-----------|---------------|----------------|
+| Thermodynamics | Energy conservation and spontaneity | $\Delta G = \Delta H - T\Delta S$ | Assuming $\Delta H < 0$ guarantees spontaneity |
+| Kinetics | Reaction rates and mechanisms | $k = A e^{-E_a/RT}$ (Arrhenius) | Confusing rate with equilibrium constant |
+| Quantum Chemistry | Wave-particle duality and orbitals | $\hat{H}\psi = E\psi$ | Treating electrons as particles in orbitals |
+| Organic Mechanisms | Electron flow from nucleophile to electrophile | Arrow pushing: $\text{Nu}^- \rightarrow \text{E}^+$ | Memorising mechanisms without understanding electron sources/sinks |
+| Coordination Chemistry | Metal-ligand bonding and geometry | $\Delta = \frac{10\,Dq}{...}$ (crystal field) | Assuming all octahedral complexes are low-spin |
+
+## Exam Strategy
+
+1. **Read the question fully** before drawing mechanisms — misinterpreting the starting material wastes time.
+2. **Check units and signs** — a negative $\Delta G$ means spontaneous; a negative $K$ is impossible.
+3. **Draw every intermediate** — partial marks come from correct intermediate structures even if the final product is wrong.
+4. **Use dimensional analysis** — if units don't cancel, the equation is wrong or applied incorrectly.
+
 ## Key Resources
 
 - **Flashcards** — Spaced repetition for key facts, reactions, and mechanisms

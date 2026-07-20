@@ -35,6 +35,26 @@ Physics describes the fundamental laws governing the universe — from the motio
 - **[Electromagnetism](/docs/university/physics/electromagnetism)**: Maxwell's equations unify electricity, magnetism, and light.
 - **[Quantum Mechanics](/docs/university/physics/quantum-mechanics)**: Quantum theory governs behaviour at atomic and subatomic scales.
 
+## Core Concepts
+
+| Domain | Core Principle | Key Equations | Connection to Other Branches |
+|--------|---------------|---------------|------------------------------|
+| Classical Mechanics | Force causes acceleration | $\mathbf{F} = m\mathbf{a}$, $L = T - V$ | Foundation for all other domains |
+| Electromagnetism | Changing fields produce each other | $\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$ | Explains light, chemistry, electronics |
+| Quantum Mechanics | Measurements yield discrete values | $\hat{H}\psi = E\psi$ | Governs atoms, molecules, semiconductors |
+| Thermodynamics | Entropy of isolated systems never decreases | $dS \geq \frac{\delta Q}{T}$ | Limits efficiency of all engines |
+| Statistical Mechanics | Microstates determine macrostates | $S = k_B \ln \Omega$ | Derives thermodynamics from particles |
+| Optics | Light behaves as a wave | $I = I_0 \cos^2\theta$ (Malus) | Applications in lasers, fibre optics |
+| Solid State | Periodic potentials create band gaps | $E(k) = E_0 + 2t\cos(ka)$ | Explains conductors, insulators, semiconductors |
+
+## Exam Strategy
+
+1. **Draw free-body diagrams** — even simple problems benefit from identifying all forces before writing equations.
+2. **Check units before and after** — dimensional analysis catches algebra errors instantly.
+3. **Identify conserved quantities** — energy, momentum, and angular momentum conservation often bypass complex algebra.
+4. **Approximate before calculating** — physics is about models; identify which terms dominate and which can be neglected.
+5. **Verify limits** — does your answer reduce to the expected result when a parameter goes to zero or infinity?
+
 ## Common Mistakes
 
 **Skipping the derivation and memorising the formula:** Physics formulas are derived from principles. Memorising without understanding leads to wrong applications when conditions change.

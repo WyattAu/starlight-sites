@@ -21,6 +21,27 @@ Mathematics is the language of science and engineering. Abstract algebra provide
 - **Differential Geometry**: Manifolds, curvature, and geometric structures on smooth spaces. Differential geometry connects calculus to geometry, enabling the study of curved spaces.
 - **Functional Analysis**: Infinite-dimensional vector spaces, bounded operators, and spectral theory. Functional analysis extends linear algebra to function spaces, underpinning quantum mechanics and PDE theory.
 
+## Core Concepts
+
+| Area | Central Object | Key Result | Application |
+|------|---------------|------------|-------------|
+| Abstract Algebra | Group $(G, \cdot)$ | Lagrange's Theorem | Symmetry, cryptography |
+| Real Analysis | $\varepsilon$-$\delta$ limit | Bolzano-Weierstrass | Rigorous calculus |
+| Linear Algebra | Vector space $V$ | Spectral Theorem | Data science, quantum |
+| Complex Analysis | Analytic function $f: \mathbb{C} \to \mathbb{C}$ | Cauchy's Integral Theorem | Contour integration |
+| Differential Geometry | Smooth manifold $M$ | Gauss-Bonnet Theorem | General relativity |
+| Functional Analysis | Banach/Hilbert space | Hahn-Banach Theorem | PDE theory, quantum |
+
+## Proof Techniques
+
+| Technique | When to Use | Example |
+|-----------|-------------|---------|
+| Direct proof | Implication $P \Rightarrow Q$ | "If $n$ is even, then $n^2$ is even" |
+| Contrapositive | Easier to prove $\neg Q \Rightarrow \neg P$ | "If $n^2$ is odd, then $n$ is odd" |
+| Contradiction | Assume $\neg P$, derive contradiction | Irrationality of $\sqrt{2}$ |
+| Induction | Statement about natural numbers | $\sum_{i=1}^n i = \frac{n(n+1)}{2}$ |
+| Construction | Existence proof | "There exist infinitely many primes" |
+
 ## How to Use These Notes
 
 Start with the introductory pages for each topic. Each section includes:
