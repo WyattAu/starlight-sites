@@ -8,6 +8,217 @@ description: "10 auto-graded practice problems covering TypeScript fundamentals.
 import PracticeProblem from "@components/PracticeProblem";
 
 
+## Worked Examples
+
+### Example 1: Type Narrowing and Guards
+
+```typescript
+// Union type
+type StringOrNumber = string | number;
+
+function processValue(value: StringOrNumber): string {
+  // Type guard: narrowing with typeof
+  if (typeof value === "string") {
+    // value is string here
+    return value.toUpperCase();
+  } else {
+    // value is number here
+    return value.toFixed(2);
+  }
+}
+
+// Discriminated union
+type Shape =
+  | { kind: "circle"; radius: number }
+  | { kind: "square"; size: number }
+  | { kind: "triangle"; base: number; height: number };
+
+function area(shape: Shape): number {
+  switch (shape.kind) {
+    case "circle":
+      return Math.PI * shape.radius ** 2;
+    case "square":
+      return shape.size ** 2;
+    case "triangle":
+      return (shape.base * shape.height) / 2;
+  }
+}
+
+// Exhaustive check
+function describe(shape: Shape): string {
+  switch (shape.kind) {
+    case "circle":
+      return `Circle with radius ${shape.radius}`;
+    case "square":
+      return `Square with size ${shape.size}`;
+    case "triangle":
+      return `Triangle with base ${shape.base}`;
+    default:
+      const _exhaustive: never = shape;  // Compile error if missing case
+      return _exhaustive;
+  }
+}
+
+console.log(processValue("hello"));     // HELLO
+console.log(processValue(42));          // 42.00
+console.log(area({ kind: "circle", radius: 5 }));  // 78.54
+```
+
+**Key insight:** TypeScript narrows types using control flow analysis. Discriminated unions with a common `kind` property enable exhaustive pattern matching. The `never` type in the default case ensures all variants are handled.
+
+---
+
+### Example 2: Utility Types and Mapped Types
+
+```typescript
+interface User {
+  id: number;
+  name: string;
+  email: string;
+  age: number;
+  active: boolean;
+}
+
+// Partial: all properties optional
+type PartialUser = Partial<User>;
+const update: PartialUser = { name: "Alice" };  // OK
+
+// Required: all properties required
+type RequiredUser = Required<PartialUser>;
+
+// Pick: select specific properties
+type UserBasic = Pick<User, "id" | "name">;
+const basic: UserBasic = { id: 1, name: "Alice" };
+
+// Omit: exclude specific properties
+type UserWithoutEmail = Omit<User, "email">;
+
+// Record: construct object type
+type UserRoles = Record<string, "admin" | "user" | "guest">;
+const roles: UserRoles = { alice: "admin", bob: "user" };
+
+// Readonly
+type FrozenUser = Readonly<User>;
+// frozenUser.name = "Bob";  // ERROR: cannot assign to readonly property
+
+// Custom utility type: MakePropertiesOptional<T, K>
+type MakePropertiesOptional<T, K extends keyof T> = Omit<T, K> &
+  Partial<Pick<T, K>>;
+
+type UserWithOptionalAge = MakePropertiesOptional<User, "age" | "active">;
+// age and active are optional, rest are required
+
+console.log(basic);  // { id: 1, name: "Alice" }
+```
+
+**Key insight:** Utility types (`Partial`, `Required`, `Pick`, `Omit`, `Readonly`) transform existing types. You can create custom utility types using mapped types and conditional types.
+
+---
+
+### Example 3: Generics and Constraints
+
+```typescript
+// Generic function with constraints
+function first<T extends { length: number }>(arr: T): T[0] {
+  return arr[0];
+}
+
+// Usage
+const num = first([1, 2, 3]);           // number
+const str = first("hello");             // string (string has length)
+// const bad = first(42);              // ERROR: number doesn't have .length
+
+// Generic interface
+interface ApiResponse<T> {
+  data: T;
+  status: number;
+  timestamp: Date;
+}
+
+// Generic class
+class Stack<T> {
+  private items: T[] = [];
+
+  push(item: T): void {
+    this.items.push(item);
+  }
+
+  pop(): T | undefined {
+    return this.items.pop();
+  }
+
+  peek(): T | undefined {
+    return this.items[this.items.length - 1];
+  }
+
+  get size(): number {
+    return this.items.length;
+  }
+}
+
+// Usage
+const numberStack = new Stack<number>();
+numberStack.push(1);
+numberStack.push(2);
+console.log(numberStack.pop());  // 2
+
+const response: ApiResponse<User[]> = {
+  data: [{ id: 1, name: "Alice", email: "a@b.com", age: 30, active: true }],
+  status: 200,
+  timestamp: new Date(),
+};
+
+console.log(first([1, 2, 3]));  // 1
+console.log(first("hello"));    // h
+```
+
+**Key insight:** Generics enable reusable, type-safe code. Use constraints (`extends`) to require specific properties. Generic classes and interfaces work with any type while preserving type information.
+
+---
+
+### Example 4: Template Literal Types
+
+```typescript
+// Template literal types
+type EventName = "click" | "focus" | "blur";
+type Handler = `on${Capitalize<EventName>}`;
+// Result: "onClick" | "onFocus" | "onBlur"
+
+// HTTP methods and paths
+type HttpMethod = "GET" | "POST" | "PUT" | "DELETE";
+type ApiPath = "/users" | "/posts" | "/comments";
+type Endpoint = `${HttpMethod} ${ApiPath}`;
+// Result: "GET /users" | "GET /posts" | ... (16 combinations)
+
+// CSS units
+type CSSUnit = "px" | "em" | "rem" | "%" | "vh" | "vw";
+type CSSValue = `${number}${CSSUnit}`;
+const width: CSSValue = "100px";   // OK
+const height: CSSValue = "50vh";   // OK
+// const bad: CSSValue = "100";   // ERROR: missing unit
+
+// Type-safe route params
+type ExtractParams<T extends string> =
+  T extends `${string}:${infer Param}/${infer Rest}`
+    ? { [K in Param | keyof ExtractParams<Rest>]: string }
+    : T extends `${string}:${infer Param}`
+    ? { [K in Param]: string }
+    : {};
+
+type UserParams = ExtractParams<"/users/:id">;
+// Result: { id: string }
+
+type PostParams = ExtractParams<"/users/:userId/posts/:postId">;
+// Result: { userId: string; postId: string }
+
+const params: PostParams = { userId: "123", postId: "456" };
+console.log(params);  // { userId: "123", postId: "456" }
+```
+
+**Key insight:** Template literal types enable type-safe string manipulation. They distribute over unions, generating all combinations. Useful for API routes, CSS values, and event handlers.
+
+---
+
 ## TypeScript -- Fundamentals Practice
 
 10 auto-graded practice problems covering TypeScript fundamentals. Select an answer, submit, and

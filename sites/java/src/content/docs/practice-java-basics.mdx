@@ -15,6 +15,219 @@ the explanation.
 
 ---
 
+## Worked Examples
+
+### Example 1: Type Promotion and Casting
+
+```java
+public class TypePromotion {
+    public static void main(String[] args) {
+        // Byte arithmetic promotes to int
+        byte b = 10;
+        // b = b + 1;  // ERROR: int cannot be assigned to byte
+        b += 1;        // OK: compound assignment includes implicit cast
+        System.out.println("b = " + b);  // b = 11
+
+        // Widening conversion (implicit)
+        int i = 42;
+        long l = i;      // int -> long (widening)
+        double d = i;    // int -> double (widening)
+        System.out.println("l = " + l + ", d = " + d);
+
+        // Narrowing conversion (explicit cast required)
+        double pi = 3.14159;
+        int truncated = (int) pi;  // double -> int (narrowing, truncates)
+        System.out.println("truncated = " + truncated);  // 3
+
+        // Overflow behavior
+        int max = Integer.MAX_VALUE;
+        int overflow = max + 1;  // Wraps to Integer.MIN_VALUE
+        System.out.println("overflow = " + overflow);  // -2147483648
+    }
+}
+```
+
+**Output:**
+```
+b = 11
+l = 42, d = 42.0
+truncated = 3
+overflow = -2147483648
+```
+
+**Key insight:** Java promotes `byte` and `short` to `int` for arithmetic operations. Use compound assignments (`+=`) for implicit casting. Narrowing conversions require explicit casts and may lose data.
+
+---
+
+### Example 2: Streams and Functional Operations
+
+```java
+import java.util.*;
+import java.util.stream.*;
+
+public class StreamExample {
+    public static void main(String[] args) {
+        List<String> names = List.of("Alice", "Bob", "Charlie", "David", "Eve");
+
+        // Filter and collect
+        List<String> shortNames = names.stream()
+            .filter(name -> name.length() <= 3)
+            .collect(Collectors.toList());
+        System.out.println("Short names: " + shortNames);  // [Bob, Eve]
+
+        // Map and reduce
+        int totalLength = names.stream()
+            .map(String::length)
+            .reduce(0, Integer::sum);
+        System.out.println("Total length: " + totalLength);  // 19
+
+        // Chaining operations
+        String result = names.stream()
+            .filter(name -> name.startsWith("C") || name.startsWith("D"))
+            .map(String::toUpperCase)
+            .sorted()
+            .collect(Collectors.joining(", "));
+        System.out.println("Result: " + result);  // CHARLIE, DAVID
+
+        // Grouping
+        Map<Integer, List<String>> byLength = names.stream()
+            .collect(Collectors.groupingBy(String::length));
+        System.out.println("By length: " + byLength);
+
+        // Parallel stream
+        long count = names.parallelStream()
+            .filter(name -> name.length() > 3)
+            .count();
+        System.out.println("Long names: " + count);  // 3
+    }
+}
+```
+
+**Output:**
+```
+Short names: [Bob, Eve]
+Total length: 19
+Result: CHARLIE, DAVID
+By length: {3=[Bob, Eve], 5=[Alice], 7=[Charlie, David]}
+Long names: 3
+```
+
+**Key insight:** Streams provide a declarative way to process collections. Intermediate operations (`filter`, `map`) are lazy. Terminal operations (`collect`, `reduce`, `count`) trigger processing.
+
+---
+
+### Example 3: Generics and Wildcards
+
+```java
+import java.util.*;
+
+public class GenericsExample {
+    // Bounded type parameter
+    public static <T extends Comparable<T>> T findMax(List<T> list) {
+        T max = list.get(0);
+        for (T item : list) {
+            if (item.compareTo(max) > 0) {
+                max = item;
+            }
+        }
+        return max;
+    }
+
+    // Upper bounded wildcard (read-only)
+    public static double sum(List<? extends Number> list) {
+        double total = 0;
+        for (Number num : list) {
+            total += num.doubleValue();
+        }
+        return total;
+    }
+
+    // Lower bounded wildcard (write-only)
+    public static void addNumbers(List<? super Integer> list) {
+        for (int i = 1; i <= 5; i++) {
+            list.add(i);
+        }
+    }
+
+    public static void main(String[] args) {
+        List<Integer> ints = List.of(3, 1, 4, 1, 5, 9);
+        System.out.println("Max: " + findMax(ints));  // 9
+
+        List<Double> doubles = List.of(1.1, 2.2, 3.3);
+        System.out.println("Sum: " + sum(doubles));  // 6.6
+
+        List<Number> numbers = new ArrayList<>();
+        addNumbers(numbers);
+        System.out.println("Numbers: " + numbers);  // [1, 2, 3, 4, 5]
+    }
+}
+```
+
+**Output:**
+```
+Max: 9
+Sum: 6.6
+Numbers: [1, 2, 3, 4, 5]
+```
+
+**Key insight:** Use `? extends T` for read-only access (covariance), `? super T` for write-only access (contravariance), and `<T extends Bound>` for type parameters with constraints.
+
+---
+
+### Example 4: Concurrency with ExecutorService
+
+```java
+import java.util.concurrent.*;
+import java.util.*;
+
+public class ConcurrencyExample {
+    public static void main(String[] args) throws Exception {
+        // Create a thread pool
+        ExecutorService executor = Executors.newFixedThreadPool(3);
+
+        // Submit tasks
+        List<Future<String>> futures = new ArrayList<>();
+        for (int i = 1; i <= 5; i++) {
+            final int taskId = i;
+            futures.add(executor.submit(() -> {
+                Thread.sleep(100 * taskId);
+                return "Task " + taskId + " completed";
+            }));
+        }
+
+        // Collect results
+        for (Future<String> future : futures) {
+            System.out.println(future.get());  // Blocks until result is ready
+        }
+
+        // Shutdown executor
+        executor.shutdown();
+        executor.awaitTermination(5, TimeUnit.SECONDS);
+
+        // CompletableFuture for composition
+        CompletableFuture<String> future1 = CompletableFuture.supplyAsync(() -> "Hello");
+        CompletableFuture<String> future2 = CompletableFuture.supplyAsync(() -> "World");
+
+        CompletableFuture<String> combined = future1.thenCombine(future2, (a, b) -> a + " " + b);
+        System.out.println(combined.get());  // Hello World
+    }
+}
+```
+
+**Output:**
+```
+Task 1 completed
+Task 2 completed
+Task 3 completed
+Task 4 completed
+Task 5 completed
+Hello World
+```
+
+**Key insight:** `ExecutorService` manages thread pools for concurrent task execution. `Future` represents a pending result. `CompletableFuture` enables chaining and composition of async operations.
+
+---
+
 ### Types and Variables
 
 <PracticeProblem client:only="solid-js" question={`What is the result of the expression: \`byte b = 10; b = b + 1;\`?`} options={[ 'Compilation error -- cannot assign int to byte without a cast', 'b becomes 11', 'Runtime error -- overflow', 'b becomes 1 due to wrapping', ]} correctAnswer={0} explanation="The expression `b + 1` is promoted to `int` because arithmetic operations on operands smaller than `int` are widened to `int`. The result type is `int`, and assigning an `int` back to `byte` without an explicit cast is a compilation error. Using the compound assignment `b += 1` would compile because it includes an implicit cast." difficulty="easy"  />

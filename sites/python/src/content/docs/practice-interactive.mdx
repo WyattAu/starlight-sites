@@ -10,6 +10,190 @@ categories:
 import PracticeProblem from "@components/PracticeProblem";
 
 
+## Worked Examples
+
+### Example 1: List Comprehensions and Filtering
+
+```python
+# Basic list comprehension
+squares = [x**2 for x in range(10)]
+print(f"Squares: {squares}")
+# [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+# Filtering with condition
+evens = [x for x in range(20) if x % 2 == 0]
+print(f"Evens: {evens}")
+# [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+
+# Nested comprehension
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+flat = [num for row in matrix for num in row]
+print(f"Flattened: {flat}")
+# [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Dict comprehension
+word = "mississippi"
+char_count = {c: word.count(c) for c in set(word)}
+print(f"Char count: {char_count}")
+# {'m': 1, 'i': 4, 's': 4, 'p': 2}
+
+# Set comprehension (unique values only)
+unique_lengths = {len(word) for word in ["hello", "world", "hi", "hey"]}
+print(f"Unique lengths: {unique_lengths}")
+# {2, 3, 5}
+```
+
+**Key insight:** List comprehensions are concise and often faster than equivalent `for` loops. Dict and set comprehensions create dictionaries and sets with similar syntax.
+
+---
+
+### Example 2: Dictionary Methods and Operations
+
+```python
+# Creating and accessing dictionaries
+person = {"name": "Alice", "age": 30, "city": "NYC"}
+
+# Safe access with get()
+name = person.get("name", "Unknown")
+email = person.get("email", "no-email@example.com")
+print(f"Name: {name}, Email: {email}")
+# Name: Alice, Email: no-email@example.com
+
+# Dictionary merging (Python 3.9+)
+defaults = {"color": "blue", "size": "medium"}
+custom = {"color": "red", "weight": 10}
+merged = defaults | custom  # custom overrides defaults
+print(f"Merged: {merged}")
+# {'color': 'red', 'size': 'medium', 'weight': 10}
+
+# Dictionary comprehension with filtering
+prices = {"apple": 1.5, "banana": 0.5, "cherry": 2.0, "date": 3.0}
+expensive = {k: v for k, v in prices.items() if v > 1.0}
+print(f"Expensive: {expensive}")
+# {'apple': 1.5, 'cherry': 2.0, 'date': 3.0}
+
+# Nested dictionary access
+nested = {"user": {"profile": {"name": "Bob"}}}
+# Safe nested access
+try:
+    name = nested["user"]["profile"]["name"]
+    print(f"Name: {name}")
+except (KeyError, TypeError) as e:
+    print(f"Access failed: {e}")
+```
+
+**Output:**
+```
+Name: Alice, Email: no-email@example.com
+Merged: {'color': 'red', 'size': 'medium', 'weight': 10}
+Expensive: {'apple': 1.5, 'cherry': 2.0, 'date': 3.0}
+Name: Bob
+```
+
+**Key insight:** Use `dict.get()` for safe access with defaults. The `|` operator (Python 3.9+) merges dictionaries. Dictionary comprehensions filter and transform efficiently.
+
+---
+
+### Example 3: Lambda Functions and Higher-Order Functions
+
+```python
+from functools import reduce
+
+# Lambda with map
+numbers = [1, 2, 3, 4, 5]
+doubled = list(map(lambda x: x * 2, numbers))
+print(f"Doubled: {doubled}")
+# [2, 4, 6, 8, 10]
+
+# Lambda with filter
+evens = list(filter(lambda x: x % 2 == 0, numbers))
+print(f"Evens: {evens}")
+# [2, 4]
+
+# Lambda with reduce
+product = reduce(lambda a, b: a * b, numbers)
+print(f"Product: {product}")
+# 120
+
+# Sorted with key function
+students = [("Alice", 90), ("Bob", 80), ("Charlie", 95)]
+by_grade = sorted(students, key=lambda s: s[1], reverse=True)
+print(f"By grade: {by_grade}")
+# [('Charlie', 95), ('Alice', 90), ('Bob', 80)]
+
+# Operator module alternative (often clearer)
+from operator import itemgetter, mul
+by_grade_alt = sorted(students, key=itemgetter(1), reverse=True)
+product_alt = reduce(mul, numbers)
+print(f"By grade (alt): {by_grade_alt}")
+print(f"Product (alt): {product_alt}")
+```
+
+**Output:**
+```
+Doubled: [2, 4, 6, 8, 10]
+Evens: [2, 4]
+Product: 120
+By grade: [('Charlie', 95), ('Alice', 90), ('Bob', 80)]
+By grade (alt): [('Charlie', 95), ('Alice', 90), ('Bob', 80)]
+Product (alt): 120
+```
+
+**Key insight:** `map`, `filter`, and `reduce` are functional programming tools. For simple operations, list comprehensions are often more readable. Use `operator` module for named operations.
+
+---
+
+### Example 4: String Methods and Formatting
+
+```python
+# String methods
+text = "  Hello, World!  "
+print(f"Original: '{text}'")
+print(f"Stripped: '{text.strip()}'")
+print(f"Upper: '{text.strip().upper()}'")
+print(f"Lower: '{text.strip().lower()}'")
+print(f"Replace: '{text.strip().replace('World', 'Python')}'")
+
+# f-string formatting
+name = "Alice"
+age = 30
+pi = 3.14159265
+
+print(f"Name: {name}, Age: {age}")
+print(f"Pi to 2 decimals: {pi:.2f}")
+print(f"Pi to 4 decimals: {pi:.4f}")
+print(f"Left padded: '{name:>20}'")
+print(f"Zero padded: '{42:05d}'")
+print(f"Binary: {42:b}")
+print(f"Hex: {42:x}")
+
+# Template strings (alternative)
+from string import Template
+t = Template("Hello, $name! You are $age years old.")
+print(t.substitute(name="Bob", age=25))
+```
+
+**Output:**
+```
+Original: '  Hello, World!  '
+Stripped: 'Hello, World!'
+Upper: 'HELLO, WORLD!'
+Lower: 'hello, world!'
+Replace: 'Hello, Python!'
+Name: Alice, Age: 30
+Pi to 2 decimals: 3.14
+Pi to 4 decimals: 3.1416
+Left padded: '           Hello, World!'
+Zero padded: '00042'
+Binary: 101010
+Hex: 2a
+Hello, Bob! You are 25 years old.
+```
+
+**Key insight:** f-strings (Python 3.6+) are the preferred way to format strings. They support expressions, format specs, and are faster than `.format()` or `%` formatting.
+
+---
+
 ## Python — Interactive Practice
 
 8 auto-graded practice problems covering core Python concepts. Select an answer, submit, and review the explanation.
