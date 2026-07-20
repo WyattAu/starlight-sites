@@ -16,6 +16,99 @@ import PracticeProblem from "@components/PracticeProblem";
 
 **The key insight:** The d-block elements are special because their partially filled d-orbitals enable variable oxidation states, coloured compounds, and catalytic activity that main-group elements cannot match.
 
+## Worked Examples
+
+### Example 1: Crystal Field Theory — Colour Prediction
+
+**Problem:** $[\text{Ti}(\text{H}_2\text{O})_6]^{3+}$ absorbs light at 493 nm. Calculate the crystal field splitting energy $\Delta_o$ and predict the colour of the complex.
+
+**Solution:**
+
+**Step 1:** Calculate the energy of absorbed light
+
+$$E = \frac{hc}{\lambda} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{493 \times 10^{-9}} = 4.03 \times 10^{-19} \text{ J}$$
+
+**Step 2:** Convert to kJ/mol
+
+$$\Delta_o = (4.03 \times 10^{-19} \text{ J}) \times (6.022 \times 10^{23} \text{ mol}^{-1}) = 242.7 \text{ kJ/mol}$$
+
+**Step 3:** Determine the colour
+
+The complex absorbs yellow-green light (493 nm). The complementary colour (what we see) is **purple/violet**.
+
+**Key insight:** The colour of transition metal complexes arises from d-d transitions. The wavelength of absorbed light equals the crystal field splitting energy. Strong-field ligands (like CN⁻) produce large $\Delta_o$ → absorb high-energy (blue) light → appear yellow/orange. Weak-field ligands (like H₂O) produce small $\Delta_o$ → absorb low-energy (red) light → appear blue/green.
+
+---
+
+### Example 2: Unit Cell Calculations
+
+**Problem:** Iron crystallizes in a BCC structure with a lattice parameter $a = 286.6$ pm. Calculate the atomic radius and packing fraction.
+
+**Solution:**
+
+**Step 1:** Relate lattice parameter to atomic radius
+
+In BCC, atoms touch along the body diagonal: $4r = a\sqrt{3}$
+
+$$r = \frac{a\sqrt{3}}{4} = \frac{286.6 \times \sqrt{3}}{4} = \frac{286.6 \times 1.732}{4} = 124.1 \text{ pm}$$
+
+**Step 2:** Calculate packing fraction
+
+BCC has 2 atoms per unit cell. Volume of atoms:
+
+$$V_{\text{atoms}} = 2 \times \frac{4}{3}\pi r^3 = 2 \times \frac{4}{3}\pi (124.1)^3 = 1.602 \times 10^7 \text{ pm}^3$$
+
+Volume of unit cell:
+
+$$V_{\text{cell}} = a^3 = (286.6)^3 = 2.355 \times 10^7 \text{ pm}^3$$
+
+Packing fraction:
+
+$$\text{PF} = \frac{V_{\text{atoms}}}{V_{\text{cell}}} = \frac{1.602 \times 10^7}{2.355 \times 10^7} = 0.680$$
+
+**Comparison:** BCC packing fraction (0.68) is less than FCC/HCP (0.74). This explains why BCC metals (Fe, Cr, W) are generally less dense than FCC metals (Cu, Ag, Au) of similar atomic mass.
+
+---
+
+### Example 3: Coordination Number and Geometry
+
+**Problem:** Determine the coordination number, geometry, and magnetic properties of $[\text{Fe}(\text{CN})_6]^{4-}$.
+
+**Solution:**
+
+**Step 1:** Determine the oxidation state of Fe
+
+$\text{CN}^-$ has charge $-1$. Total charge: $-4$
+
+$$\text{Fe} + 6(-1) = -4 \implies \text{Fe} = +2$$
+
+**Step 2:** Electron configuration
+
+$\text{Fe}^{2+}$: $[\text{Ar}] 3d^6$
+
+**Step 3:** Determine high-spin vs low-spin
+
+$\text{CN}^-$ is a strong-field ligand (high in spectrochemical series). Large $\Delta_o$ → **low-spin**
+
+$$t_{2g}^6 \, e_g^0$$
+
+All 6 electrons paired in $t_{2g}$ orbitals.
+
+**Step 4:** Properties
+
+| Property | Value |
+|----------|-------|
+| Coordination number | 6 |
+| Geometry | Octahedral |
+| Hybridization | $d^2sp^3$ (inner orbital) |
+| Unpaired electrons | 0 |
+| Magnetic behaviour | Diamagnetic |
+| Spin-only magnetic moment | $\mu = 0$ BM |
+
+**Key insight:** The strong-field CN⁻ ligand forces all electrons into the lower $t_{2g}$ set, creating a diamagnetic complex. With a weak-field ligand like H₂O, the same Fe²⁺ would be high-spin ($t_{2g}^4 e_g^2$, 4 unpaired electrons, paramagnetic).
+
+---
+
 ## Chemical Bonding and Periodicity
 
 <PracticeProblem client:only="solid-js" question={"According to molecular orbital theory, what is the bond order of the $\\text{O}_2$ molecule?&quot; options={['2', '1', '1.5', '3']} correctAnswer={0} explanation=&quot;For $\\text{O}_2$ (12 valence electrons), the MO filling order is $\\sigma_{2s}^2\\, \\sigma_{2s}^{*2}\\, \\sigma_{2p_z}^2\\, \\pi_{2p_x}^2\\, \\pi_{2p_y}^2\\, \\pi_{2p_x}^{*1}\\, \\pi_{2p_y}^{*1}$. Bond order $= (\\text{bonding} - \\text{antibonding})/2 = (8-4)/2 = 2$. The two unpaired electrons in the degenerate $\\pi^*$ orbitals explain $\\text{O}_2$'s paramagnetism, which cannot be explained by simple Lewis theory. This was one of the early triumphs of MO theory."} difficulty="easy"  />

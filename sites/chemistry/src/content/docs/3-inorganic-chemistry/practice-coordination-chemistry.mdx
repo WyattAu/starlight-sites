@@ -13,6 +13,72 @@ series, isomerism, and magnetic properties. Select an option to check your answe
 
 ---
 
+## Worked Examples
+
+### Example 1: Crystal Field Splitting — Colour Calculation
+
+**Problem:** $[\text{Ti}(\text{H}_2\text{O})_6]^{3+}$ absorbs at 493 nm. Calculate $\Delta_o$ in cm⁻¹ and kJ/mol.
+
+**Solution:**
+
+$$\tilde{\nu} = \frac{1}{\lambda} = \frac{1}{493 \times 10^{-7} \text{ cm}} = 20,284 \text{ cm}^{-1}$$
+
+Converting to energy:
+
+$$\Delta_o = hc\tilde{\nu} = (6.626 \times 10^{-34})(3.00 \times 10^{10})(20,284) = 4.03 \times 10^{-19} \text{ J}$$
+
+$$\Delta_o = 4.03 \times 10^{-19} \times 6.022 \times 10^{23} = 242.7 \text{ kJ/mol}$$
+
+**Key insight:** The colour we see is complementary to the absorbed colour. Absorbing yellow-green (493 nm) → the complex appears **purple**.
+
+---
+
+### Example 2: Magnetic Moment Calculation
+
+**Problem:** Calculate the spin-only magnetic moment for $[\text{Mn}(\text{H}_2\text{O})_6]^{2+}$ and predict whether it is high-spin or low-spin.
+
+**Solution:**
+
+$\text{Mn}^{2+}$: $[\text{Ar}] 3d^5$
+
+$\text{H}_2\text{O}$ is a weak-field ligand → high-spin
+
+Configuration: $t_{2g}^3 e_g^2$ → 5 unpaired electrons
+
+$$\mu_{s.o.} = \sqrt{n(n+2)} = \sqrt{5(5+2)} = \sqrt{35} = 5.92 \text{ BM}$$
+
+**Comparison with experimental value:** The experimental magnetic moment of $[\text{Mn}(\text{H}_2\text{O})_6]^{2+}$ is approximately 5.9 BM, confirming the high-spin $d^5$ configuration.
+
+**Key insight:** For first-row transition metals, the spin-only formula works well. Deviations indicate orbital angular momentum contribution (significant for $d^1$, $d^2$, $d^6$ (high-spin), $d^7$ (high-spin)).
+
+---
+
+### Example 3: Isomer Counting
+
+**Problem:** How many geometric and optical isomers does $[\text{Co}(\text{en})_2\text{Cl}_2]^+$ have?
+
+**Solution:**
+
+**Step 1:** Identify the geometry
+
+Octahedral complex with two bidentate ethylenediamine (en) ligands and two chloride ligands.
+
+**Step 2:** Geometric isomers
+
+- **cis:** Cl ligands at 90° (adjacent positions)
+- **trans:** Cl ligands at 180° (opposite positions)
+
+**Step 3:** Optical isomers
+
+- **cis:** No internal mirror plane → **optically active** (two enantiomers: Δ and Λ)
+- **trans:** Internal mirror plane → **optically inactive** (meso form)
+
+**Total isomers:** 3 (cis-Δ, cis-Λ, trans)
+
+**Key insight:** The cis isomer of $[\text{Co}(\text{en})_2\text{Cl}_2]^+$ was one of the first coordination compounds resolved into enantiomers by Alfred Werner, proving the octahedral geometry of coordination compounds.
+
+---
+
 ## Crystal Field Theory and Splitting
 
 <PracticeProblem client:only="solid-js" question={"In an octahedral complex, the five $d$ orbitals split into $t_{2g}$ and $e_g$ sets. What are the relative energies and orbital assignments?&quot; options={[ '$e_g$ ($d_{z^2}, d_{x^2-y^2}$) at $+0.6\\Delta_o$; $t_{2g}$ ($d_{xy}, d_{xz}, d_{yz}$) at $-0.4\\Delta_o$', '$t_{2g}$ at $+0.6\\Delta_o$; $e_g$ at $-0.4\\Delta_o$', 'All five orbitals have the same energy', '$d_{xy}$ at $+0.6\\Delta_o$; others at $-0.4\\Delta_o$', ]} correctAnswer={0} explanation=&quot;In octahedral symmetry, the six ligands approach along the $\\pm x, \\pm y, \\pm z$ axes. The $e_g$ orbitals ($d_{z^2}$ and $d_{x^2-y^2}$) point directly at the ligands (maximum repulsion, higher energy: $+0.6\\Delta_o$). The $t_{2g}$ orbitals ($d_{xy}, d_{xz}, d_{yz}$) point between the axes (less repulsion, lower energy: $-0.4\\Delta_o$). Total: $2(+6\\text{Dq}) + 3(-4\\text{Dq}) = 0$ (barycenter preserved)."} difficulty="easy"  />

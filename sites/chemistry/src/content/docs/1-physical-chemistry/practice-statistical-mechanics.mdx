@@ -13,6 +13,92 @@ thermodynamic properties from partition functions, and ensembles.
 
 ---
 
+## Worked Examples
+
+### Example 1: Boltzmann Distribution — Two-Level System
+
+**Problem:** A system has two energy levels: $\varepsilon_0 = 0$ and $\varepsilon_1 = 100$ cm⁻¹. Calculate the fraction of molecules in the excited state at 300 K and 1000 K.
+
+**Solution:**
+
+The fraction in the excited state:
+
+$$\frac{n_1}{n_0 + n_1} = \frac{e^{-\varepsilon_1/k_BT}}{1 + e^{-\varepsilon_1/k_BT}}$$
+
+**At 300 K:**
+
+$$\frac{\varepsilon_1}{k_BT} = \frac{hc\tilde{\nu}}{k_BT} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^{10})(100)}{(1.381 \times 10^{-23})(300)} = 0.481$$
+
+$$\frac{n_1}{n_0 + n_1} = \frac{e^{-0.481}}{1 + e^{-0.481}} = \frac{0.618}{1.618} = 0.382$$
+
+**At 1000 K:**
+
+$$\frac{\varepsilon_1}{k_BT} = 0.481 \times \frac{300}{1000} = 0.144$$
+
+$$\frac{n_1}{n_0 + n_1} = \frac{e^{-0.144}}{1 + e^{-0.144}} = \frac{0.866}{1.866} = 0.464$$
+
+**Key insight:** At higher temperature, the population becomes more uniform (approaching 50:50 at $T \to \infty$). At $T \to 0$, all molecules collapse into the ground state.
+
+---
+
+### Example 2: Partition Function — Calculating Thermodynamic Properties
+
+**Problem:** A molecule has three energy levels: $\varepsilon_0 = 0$, $\varepsilon_1 = 200$ cm⁻¹, $\varepsilon_2 = 500$ cm⁻¹. Calculate the internal energy per mole at 500 K.
+
+**Solution:**
+
+**Step 1:** Calculate the partition function
+
+$$q = \sum_i e^{-\varepsilon_i/k_BT}$$
+
+Using $k_B/hc = 0.6950$ cm⁻¹/K:
+
+$$\frac{\varepsilon_1}{k_BT} = \frac{200}{0.6950 \times 500} = 0.576$$
+
+$$\frac{\varepsilon_2}{k_BT} = \frac{500}{0.6950 \times 500} = 1.439$$
+
+$$q = e^0 + e^{-0.576} + e^{-1.439} = 1 + 0.562 + 0.237 = 1.799$$
+
+**Step 2:** Calculate internal energy
+
+$$U = N_A k_B T^2 \frac{\partial \ln q}{\partial T} = \frac{N_A \sum_i \varepsilon_i e^{-\varepsilon_i/k_BT}}{q}$$
+
+$$U = \frac{N_A(0 + 200 \times 0.562 + 500 \times 0.237)}{1.799}$$
+
+$$U = \frac{N_A(112.4 + 118.5)}{1.799} = \frac{N_A \times 230.9}{1.799} = 128.4 N_A \text{ cm}^{-1}$$
+
+Converting to kJ/mol:
+
+$$U = 128.4 \times (6.626 \times 10^{-34})(3.00 \times 10^{10}) \times 6.022 \times 10^{23} = 1.54 \text{ kJ/mol}$$
+
+---
+
+### Example 3: Maxwell-Boltzmann Distribution
+
+**Problem:** Calculate the most probable speed, mean speed, and rms speed of N₂ at 300 K.
+
+**Solution:**
+
+Molar mass of N₂: $M = 28.0$ g/mol = 0.028 kg/mol
+
+**Most probable speed:**
+
+$$v_p = \sqrt{\frac{2RT}{M}} = \sqrt{\frac{2 \times 8.314 \times 300}{0.028}} = \sqrt{178,157} = 422 \text{ m/s}$$
+
+**Mean speed:**
+
+$$\langle v \rangle = \sqrt{\frac{8RT}{\pi M}} = \sqrt{\frac{8 \times 8.314 \times 300}{\pi \times 0.028}} = \sqrt{226,655} = 476 \text{ m/s}$$
+
+**RMS speed:**
+
+$$v_{\text{rms}} = \sqrt{\frac{3RT}{M}} = \sqrt{\frac{3 \times 8.314 \times 300}{0.028}} = \sqrt{267,236} = 517 \text{ m/s}$$
+
+**Relationship:** $v_p < \langle v \rangle < v_{\text{rms}}$
+
+**Key insight:** The distribution is asymmetric — it has a long tail toward high speeds. This means there are always some molecules moving much faster than average, which is important for understanding reaction rates (only fast molecules can overcome activation barriers).
+
+---
+
 ## Boltzmann Distribution and Partition Functions
 
 <PracticeProblem client:only="solid-js" question={"In the Boltzmann distribution, the probability of finding a particle in state $i$ with energy $\\varepsilon_i$ at temperature $T$ is $p_i = e^{-\\varepsilon_i/k_BT}/q$. What is the molecular partition function $q$?&quot; options={[ '$q = \\sum_i e^{-\\varepsilon_i/k_BT}$ (sum over all states)', '$q = \\prod_i e^{-\\varepsilon_i/k_BT}$', '$q = e^{-\\varepsilon_0/k_BT}$', '$q = \\varepsilon_i e^{-\\varepsilon_i/k_BT}$', ]} correctAnswer={0} explanation=&quot;The partition function $q = \\sum_i e^{-\\varepsilon_i/k_BT}$ is the normalization constant for the Boltzmann distribution, ensuring $\\sum_i p_i = 1$. It encodes all thermodynamic information: $U = Nk_B T^2 (\\partial \\ln q / \\partial T)_V$, $S = Nk_B(\\ln q + T(\\partial \\ln q / \\partial T)_V)$, $A = -Nk_BT\\ln q$. Higher temperatures give larger $q$ (more states accessible)."} difficulty="easy"  />

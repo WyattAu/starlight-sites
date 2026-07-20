@@ -13,6 +13,90 @@ chemistry. Select an option to check your answer and view the explanation.
 
 ---
 
+## Worked Examples
+
+### Example 1: Predicting SN1 vs SN2 — Decision Tree
+
+**Problem:** For each reaction, predict the mechanism and major product:
+
+(a) 1-bromobutane + NaOEt in EtOH
+(b) 2-bromo-2-methylpropane + H₂O
+(c) (R)-2-bromopentane + NaCN in DMSO
+
+**Solution:**
+
+**(a)** Primary substrate + strong nucleophile + polar protic solvent → **SN2**
+
+Product: 1-ethoxybutane (inversion at primary carbon, but primary carbons are not stereogenic)
+
+**(b)** Tertiary substrate + weak nucleophile + polar protic solvent → **SN1**
+
+Product: 2-methyl-2-propanol (racemic if stereogenic, but this substrate is achiral)
+
+**(c)** Secondary substrate + strong nucleophile + polar aprotic solvent → **SN2**
+
+Product: (S)-2-cyanopentane (inversion of configuration from R to S)
+
+**Decision summary:**
+
+| Factor | SN2 | SN1 |
+|--------|-----|-----|
+| Substrate | $1^\circ > 2^\circ \gg 3^\circ$ | $3^\circ > 2^\circ \gg 1^\circ$ |
+| Nucleophile | Strong (⁻OH, ⁻CN, ⁻OR) | Weak (H₂O, ROH) |
+| Solvent | Polar aprotic (DMSO, DMF) | Polar protic (H₂O, ROH) |
+| Stereochemistry | Inversion | Racemization |
+| Kinetics | Second-order: $k[\text{R-LG}][\text{Nu}^-]$ | First-order: $k[\text{R-LG}]$ |
+
+---
+
+### Example 2: E2 Elimination — Regioselectivity
+
+**Problem:** Predict the major product of E2 elimination for 2-bromo-2-methylbutane with (a) NaOEt and (b) KOtBu.
+
+**Solution:**
+
+The substrate has two types of β-hydrogens:
+- C1 hydrogens (3 H's) → less substituted alkene (Hofmann)
+- C3 hydrogens (2 H's) → more substituted alkene (Zaitsev)
+
+**(a) NaOEt (small base):** Favors Zaitsev product (more substituted, more stable)
+
+Major product: **2-methyl-2-butene** (trisubstituted alkene)
+
+**(b) KOtBu (bulky base):** Favors Hofmann product (less substituted, less steric hindrance)
+
+Major product: **2-methyl-1-butene** (disubstituted alkene)
+
+**Key insight:** The base size controls regioselectivity. Small bases approach the more substituted β-hydrogen (Zaitsev). Bulky bases are sterically hindered and abstract the more accessible β-hydrogen (Hofmann).
+
+---
+
+### Example 3: Carbocation Rearrangement
+
+**Problem:** When 3,3-dimethyl-2-butanol is treated with H₂SO₄, what is the major product?
+
+**Solution:**
+
+**Step 1:** Protonation of the hydroxyl group
+
+$$(\text{CH}_3)_3\text{CCH(OH)CH}_3 + \text{H}^+ \rightarrow (\text{CH}_3)_3\text{CCH(OH}_2^+)\text{CH}_3$$
+
+**Step 2:** Loss of water → secondary carbocation
+
+$$(\text{CH}_3)_3\text{CCH}^+\text{CH}_3$$
+
+**Step 3:** 1,2-methyl shift → tertiary carbocation (more stable)
+
+$$(\text{CH}_3)_2\text{C}^+\text{CH(CH}_3)_2$$
+
+**Step 4:** Elimination → tetrasubstituted alkene (most stable)
+
+$$\text{Product: } (\text{CH}_3)_2\text{C=C(CH}_3)_2 \text{ (2,3-dimethyl-2-butene)}$$
+
+**Key insight:** Carbocation rearrangements occur when a more stable carbocation can be formed. The driving force is the stability order: $3^\circ > 2^\circ > 1^\circ > \text{methyl}$. Always check for possible rearrangements in SN1 and E1 reactions.
+
+---
+
 ## Nucleophilic Substitution and Elimination
 
 <PracticeProblem client:only="solid-js" question={"Which substrate and conditions favour the SN2 mechanism over SN1?&quot; options={[ 'Primary substrate with a strong nucleophile in a polar aprotic solvent', 'Tertiary substrate with a weak nucleophile in a polar protic solvent', 'Tertiary substrate with a strong nucleophile in a polar aprotic solvent', 'Secondary substrate with a weak nucleophile in a polar protic solvent', ]} correctAnswer={0} explanation=&quot;SN2 requires a strong nucleophile and minimal steric hindrance (primary > secondary > tertiary; tertiary is essentially inert to SN2). Polar aprotic solvents (DMSO, DMF, acetone) enhance nucleophilicity by not solvating the anion. SN1 is favoured by tertiary substrates, weak nucleophiles, and polar protic solvents that stabilize carbocations."} difficulty="easy"  />

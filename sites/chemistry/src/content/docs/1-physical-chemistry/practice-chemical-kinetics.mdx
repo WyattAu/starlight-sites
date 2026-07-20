@@ -13,6 +13,98 @@ equation, and catalysis. Select an option to check your answer and view the expl
 
 ---
 
+## Worked Examples
+
+### Example 1: Determining Reaction Order from Data
+
+**Problem:** The decomposition of $\text{N}_2\text{O}_5$ in $\text{CCl}_4$ solution at 45°C gives:
+
+| Time (s) | $[\text{N}_2\text{O}_5]$ (mol/L) |
+|-----------|-----------------------------------|
+| 0 | 1.00 |
+| 120 | 0.88 |
+| 240 | 0.78 |
+| 360 | 0.69 |
+| 480 | 0.61 |
+
+Determine the order and rate constant.
+
+**Solution:**
+
+**Step 1:** Test first-order (plot $\ln[A]$ vs $t$)
+
+| $t$ (s) | $\ln[\text{N}_2\text{O}_5]$ |
+|---------|----------------------------|
+| 0 | 0.000 |
+| 120 | -0.128 |
+| 240 | -0.249 |
+| 360 | -0.371 |
+| 480 | -0.494 |
+
+The differences are approximately constant: $\Delta \ln[A] \approx -0.123$ per 120 s.
+
+**Step 2:** Calculate $k$
+
+$$k = -\frac{\Delta \ln[A]}{\Delta t} = \frac{0.123}{120} = 1.02 \times 10^{-3} \text{ s}^{-1}$$
+
+**Step 3:** Verify with half-life
+
+$$t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{1.02 \times 10^{-3}} = 679 \text{ s} \approx 11.3 \text{ min}$$
+
+From the data, $[\text{N}_2\text{O}_5]$ drops from 1.00 to 0.50 in approximately 680 s. ✓
+
+**Key insight:** Always test which integrated rate law gives a straight line. First-order: $\ln[A]$ vs $t$. Second-order: $1/[A]$ vs $t$. Zero-order: $[A]$ vs $t$.
+
+---
+
+### Example 2: Michaelis-Menten Kinetics
+
+**Problem:** An enzyme-catalyzed reaction has $V_{\max} = 100$ μmol/min and $K_M = 5.0$ mM. Calculate the reaction velocity at $[S] = 2.5$ mM, 5.0 mM, and 25 mM.
+
+**Solution:**
+
+Using the Michaelis-Menten equation:
+
+$$v = \frac{V_{\max}[S]}{K_M + [S]}$$
+
+**At $[S] = 2.5$ mM:**
+
+$$v = \frac{100 \times 2.5}{5.0 + 2.5} = \frac{250}{7.5} = 33.3 \text{ μmol/min}$$
+
+**At $[S] = 5.0$ mM (= $K_M$):**
+
+$$v = \frac{100 \times 5.0}{5.0 + 5.0} = \frac{500}{10} = 50.0 \text{ μmol/min} = \frac{V_{\max}}{2}$$
+
+**At $[S] = 25$ mM (5 × $K_M$):**
+
+$$v = \frac{100 \times 25}{5.0 + 25} = \frac{2500}{30} = 83.3 \text{ μmol/min}$$
+
+**Key insight:** When $[S] = K_M$, the velocity is exactly half of $V_{\max}$. At $[S] \gg K_M$, the enzyme approaches saturation ($v \approx V_{\max}$). At $[S] \ll K_M$, the reaction is first-order in substrate ($v \approx V_{\max}[S]/K_M$).
+
+---
+
+### Example 3: Arrhenius — Temperature Dependence
+
+**Problem:** A reaction has $k_1 = 3.2 \times 10^{-4}$ s⁻¹ at 300 K and $k_2 = 1.5 \times 10^{-3}$ s⁻¹ at 320 K. Calculate the activation energy.
+
+**Solution:**
+
+Using the two-point Arrhenius equation:
+
+$$\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$
+
+$$\ln\frac{1.5 \times 10^{-3}}{3.2 \times 10^{-4}} = \frac{E_a}{8.314}\left(\frac{1}{300} - \frac{1}{320}\right)$$
+
+$$\ln(4.688) = \frac{E_a}{8.314}(0.003333 - 0.003125)$$
+
+$$1.545 = \frac{E_a}{8.314}(0.000208)$$
+
+$$E_a = \frac{1.545 \times 8.314}{0.000208} = 61,800 \text{ J/mol} = 61.8 \text{ kJ/mol}$$
+
+**Key insight:** A 20 K temperature increase caused the rate to increase by a factor of ~4.7. This is consistent with the rule of thumb that rates roughly double for every 10 K increase near room temperature for activation energies around 50-60 kJ/mol.
+
+---
+
 ## Rate Laws and Integrated Rate Laws
 
 <PracticeProblem client:only="solid-js" question={"For a first-order reaction, the integrated rate law is $\\ln[A] = -kt + \\ln[A]_0$. What is the half-life in terms of the rate constant $k$?&quot; options={[ '$t_{1/2} = \\ln 2 / k = 0.693/k$', '$t_{1/2} = [A]_0 / 2k$', '$t_{1/2} = 1/k[A]_0$', '$t_{1/2} = 1/k$', ]} correctAnswer={0} explanation=&quot;At half-life: $[A] = [A]_0/2$, so $\\ln([A]_0/2) = -kt_{1/2} + \\ln[A]_0$, giving $-\\ln 2 = -kt_{1/2}$, thus $t_{1/2} = \\ln 2/k$. For a first-order reaction, the half-life is independent of the initial concentration. For zero-order: $t_{1/2} = [A]_0/2k$ (depends on $[A]_0$). For second-order: $t_{1/2} = 1/k[A]_0$."} difficulty="easy"  />

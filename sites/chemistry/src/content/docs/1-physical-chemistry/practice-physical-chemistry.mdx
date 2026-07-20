@@ -8,6 +8,78 @@ import PracticeProblem from "@components/PracticeProblem";
 
 # Physical Chemistry -- Practice Problems
 
+## Worked Examples
+
+### Example 1: First-Order Kinetics — Drug Degradation
+
+**Problem:** A drug degrades via first-order kinetics with $k = 2.5 \times 10^{-4}$ min$^{-1}$ at 25°C. If the initial concentration is 100 mg/L, how long does it take for the concentration to drop to 90 mg/L?
+
+**Solution:**
+
+For first-order kinetics: $[A] = [A]_0 e^{-kt}$
+
+Rearranging for time:
+
+$$t = -\frac{1}{k} \ln\frac{[A]}{[A]_0} = -\frac{1}{2.5 \times 10^{-4}} \ln\frac{90}{100}$$
+
+$$t = -4000 \times \ln(0.90) = -4000 \times (-0.1054) = 421 \text{ min} \approx 7.0 \text{ hours}$$
+
+**Half-life check:** $t_{1/2} = \ln 2 / k = 0.693 / 2.5 \times 10^{-4} = 2772$ min $\approx 46$ hours. Since we're only losing 10% (not 50%), the time should be much less than the half-life. ✓
+
+**Key insight:** First-order half-lives are independent of concentration. This is why drug shelf-life is expressed as $t_{90}$ (time to 90% remaining), not as an absolute amount.
+
+---
+
+### Example 2: Particle in a Box — Conjugated Systems
+
+**Problem:** For $\beta$-carotene (11 conjugated double bonds), model the $\pi$ electrons as particles in a box. The conjugation length is approximately 1.80 nm. Calculate the wavelength of the lowest-energy electronic transition.
+
+**Solution:**
+
+With 11 double bonds, there are 22 $\pi$ electrons. Each energy level holds 2 electrons (Pauli exclusion), so the HOMO has $n = 11$ and the LUMO has $n = 12$.
+
+Energy levels: $E_n = \frac{n^2 h^2}{8mL^2}$
+
+$$\Delta E = E_{12} - E_{11} = \frac{h^2}{8mL^2}(12^2 - 11^2) = \frac{h^2}{8mL^2}(23)$$
+
+$$\Delta E = \frac{(6.626 \times 10^{-34})^2 \times 23}{8 \times (9.109 \times 10^{-31}) \times (1.80 \times 10^{-9})^2}$$
+
+$$\Delta E = \frac{4.39 \times 10^{-66} \times 23}{8 \times 9.109 \times 10^{-31} \times 3.24 \times 10^{-18}}$$
+
+$$\Delta E = \frac{1.01 \times 10^{-64}}{2.36 \times 10^{-47}} = 4.28 \times 10^{-18} \text{ J}$$
+
+Converting to wavelength:
+
+$$\lambda = \frac{hc}{\Delta E} = \frac{(6.626 \times 10^{-34})(3.00 \times 10^8)}{4.28 \times 10^{-18}} = 4.64 \times 10^{-8} \text{ m} = 464 \text{ nm}$$
+
+**Comparison:** Experimental $\lambda_{\max} = 452$ nm. The particle-in-a-box model gives a reasonable estimate (within 3%) for this highly conjugated system.
+
+---
+
+### Example 3: Boltzmann Distribution at Different Temperatures
+
+**Problem:** Calculate the ratio of molecules in the first excited rotational state ($J = 1$) to the ground state ($J = 0$) for HCl at 300 K and 1000 K. The rotational temperature is $\Theta_{\text{rot}} = 15.2$ K.
+
+**Solution:**
+
+For a linear rotor, the energy of level $J$ is $E_J = BJ(J+1)$ where $B = k_B \Theta_{\text{rot}}$.
+
+The degeneracy of level $J$ is $g_J = 2J + 1$.
+
+$$\frac{n_1}{n_0} = \frac{g_1 e^{-E_1/k_BT}}{g_0 e^{-E_0/k_BT}} = \frac{3 \times e^{-2\Theta_{\text{rot}}/T}}{1 \times e^{0}} = 3e^{-2\Theta_{\text{rot}}/T}$$
+
+**At 300 K:**
+
+$$\frac{n_1}{n_0} = 3e^{-2(15.2)/300} = 3e^{-0.1013} = 3 \times 0.9037 = 2.71$$
+
+**At 1000 K:**
+
+$$\frac{n_1}{n_0} = 3e^{-2(15.2)/1000} = 3e^{-0.0304} = 3 \times 0.9701 = 2.91$$
+
+**Key insight:** At room temperature, the $J = 1$ state is already more populated than $J = 0$ (ratio 2.71) due to the 3-fold degeneracy advantage. At higher temperatures, the ratio approaches the degeneracy ratio (3:1) as the exponential factor approaches 1.
+
+---
+
 ## Thermodynamics
 
 <PracticeProblem client:only="solid-js" question={"For a reversible isothermal expansion of an ideal gas from volume $V_1$ to $V_2$, what is the expression for the work done by the gas?&quot; options={[ '$w = -nRT \\ln(V_2 / V_1)$', '$w = -nRT(V_2 - V_1)$', '$w = -P_{\\text{ext}}(V_2 - V_1)$', '$w = -nRT \\ln(V_1 / V_2)$', ]} correctAnswer={0} explanation=&quot;For a reversible isothermal expansion, the work is $w = -\\int_{V_1}^{V_2} P\\, dV$. Since $P = nRT/V$ for an ideal gas, this gives $w = -nRT \\int_{V_1}^{V_2} dV/V = -nRT \\ln(V_2/V_1)$. The work is negative (done by the gas on surroundings) when $V_2 > V_1$. The irreversible case with constant external pressure uses $w = -P_{\\text{ext}}(V_2 - V_1)$, which gives less work."} difficulty="easy"  />

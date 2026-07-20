@@ -16,6 +16,86 @@ import PracticeProblem from "@components/PracticeProblem";
 
 **The key insight:** Functional groups are the "alphabet" of organic chemistry — once you recognise an -OH, -COOH, or -NH₂, you can predict reactivity without memorising every individual compound.
 
+## Worked Examples
+
+### Example 1: Predicting SN1 vs SN2
+
+**Problem:** For each substrate-nucleophile pair, determine whether SN1 or SN2 is favored and predict the product:
+
+(a) $(R)$-2-bromobutane + $\text{NaOCH}_3$ in $\text{CH}_3\text{OH}$
+(b) $(R)$-3-bromo-3-methylhexane + $\text{CH}_3\text{OH}$
+
+**Solution:**
+
+**(a)** Substrate: secondary alkyl halide. Nucleophile: methoxide (strong). Solvent: methanol (polar protic).
+
+**Analysis:** Strong nucleophile + secondary substrate → **SN2 favored**
+
+**Product:** $(S)$-2-methoxybutane (inversion of configuration via Walden inversion)
+
+**(b)** Substrate: tertiary alkyl halide. Nucleophile: methanol (weak). Solvent: methanol (polar protic).
+
+**Analysis:** Weak nucleophile + tertiary substrate → **SN1 favored**
+
+**Product:** Racemic 3-methoxy-3-methylhexane (carbocation intermediate → planar → attack from both faces)
+
+**Decision rules:**
+| Factor | SN1 | SN2 |
+|--------|-----|-----|
+| Substrate | $3^\circ > 2^\circ$ | $1^\circ > 2^\circ$ |
+| Nucleophile | Weak (H₂O, ROH) | Strong (⁻OH, ⁻OR) |
+| Solvent | Polar protic | Polar aprotic |
+| Stereochemistry | Racemization | Inversion |
+
+---
+
+### Example 2: Retrosynthetic Analysis
+
+**Problem:** Design a synthesis of 2-methyl-2-pentanol from 1-bromopropane and acetone.
+
+**Solution:**
+
+**Target:** 2-methyl-2-pentanol (tertiary alcohol)
+
+**Retrosynthesis:**
+$$\text{2-methyl-2-pentanol} \Rightarrow \text{acetone} + \text{propyl Grignard}$$
+
+**Forward synthesis:**
+
+**Step 1:** Prepare Grignard reagent
+$$\text{CH}_3\text{CH}_2\text{CH}_2\text{Br} + \text{Mg} \xrightarrow{\text{dry ether}} \text{CH}_3\text{CH}_2\text{CH}_2\text{MgBr}$$
+
+**Step 2:** Grignard addition to acetone
+$$\text{CH}_3\text{COCH}_3 + \text{CH}_3\text{CH}_2\text{CH}_2\text{MgBr} \rightarrow \text{alkoxide intermediate}$$
+
+**Step 3:** Aqueous workup
+$$\text{alkoxide} \xrightarrow{\text{H}_3\text{O}^+} \text{(CH}_3)_2\text{C(OH)CH}_2\text{CH}_2\text{CH}_3$$
+
+**Key insight:** Grignard reagents are powerful because they create new C-C bonds. The nucleophilic carbon attacks the electrophilic carbonyl carbon, extending the carbon skeleton.
+
+---
+
+### Example 3: IR Spectrum Interpretation
+
+**Problem:** A compound has the following IR absorptions: 3300 cm⁻¹ (broad), 2950 cm⁻¹, 1710 cm⁻¹ (strong), 1220 cm⁻¹. Identify the functional group.
+
+**Solution:**
+
+| Absorption (cm⁻¹) | Assignment |
+|-------------------|------------|
+| 3300 (broad) | O-H stretch (carboxylic acid) |
+| 2950 | C-H stretch (sp³) |
+| 1710 (strong) | C=O stretch |
+| 1220 | C-O stretch |
+
+**Diagnostic pattern:** Broad O-H (2500-3300) + C=O (~1710) = **carboxylic acid**
+
+**Confirmation:** The broad O-H absorption spanning 2500-3300 cm⁻¹ is unique to carboxylic acids. Alcohols show O-H at 3200-3600 cm⁻¹ but lack the C=O. Ketones show C=O but lack the broad O-H.
+
+**Key insight:** IR spectroscopy identifies functional groups by their characteristic vibrations. Always look for diagnostic pairs: O-H + C=O (acid), N-H + C=O (amide), C=O alone (ketone/aldehyde/ester).
+
+---
+
 ## Reaction Mechanisms
 
 <PracticeProblem client:only="solid-js" question={"In an $S_N1$ reaction, what is the rate-determining step?&quot; options={[ 'Ionization of the substrate to form a carbocation intermediate', 'Nucleophilic attack on the carbocation', 'Deprotonation of the product', 'Simultaneous bond breaking and bond formation', ]} correctAnswer={0} explanation=&quot;The $S_N1$ mechanism proceeds in two steps: (1) slow ionization to form a carbocation, and (2) fast nucleophilic attack. The first step is rate-determining because it involves breaking a C-LG bond without any bond forming, requiring significant energy to reach the transition state. The rate law is $\\text{rate} = k[RX]$, first-order in substrate only, since the nucleophile is not involved in the RDS."} difficulty="easy"  />
