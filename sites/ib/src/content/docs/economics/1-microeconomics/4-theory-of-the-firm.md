@@ -6,6 +6,15 @@ tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
 
+## Intuition
+
+**Theory of the firm is like studying a business's decision-making playbook — how firms choose output, pricing, and strategy:** Firms balance revenue maximization with cost constraints, operating differently in perfect competition versus monopoly
+
+**Why it matters:** Understanding firm behavior is essential for business strategy, regulation, and competition policy
+
+**The key insight:** Firms balance revenue maximization with cost constraints, operating differently in perfect competition versus monopoly
+
+
 ## Market Structures
 
 ### Classification Criteria

@@ -4,6 +4,11 @@ description: "A-Level Maths Exponentials and Logarithms -- Diagnostic notes cove
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Exponentials and Logarithms — Diagnostic Tests
 
 ## Unit Tests

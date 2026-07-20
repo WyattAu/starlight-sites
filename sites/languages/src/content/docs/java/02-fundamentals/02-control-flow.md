@@ -1002,6 +1002,14 @@ String example = """
 To a `String` literal with `\n``\t`And `\"` escape sequences. Text blocks are primarily Syntactic
 convenience -- they do not introduce a new type.
 </aside>
+## Intuition
+
+**Decision points:** Control flow is like a choose-your-own-adventure book — if-else statements, loops, and switches determine which path the program takes.
+
+**Why it matters:** Control flow structures let programs make decisions and repeat tasks, enabling complex logic and automation.
+
+**The key insight:** Loops are the foundation of automation — they let computers do repetitive work without human intervention.
+
 ## Summary of Control Flow Design Principles
 
 1. **Explicit boolean conditions** eliminate an entire class of bugs common in C-style languages.

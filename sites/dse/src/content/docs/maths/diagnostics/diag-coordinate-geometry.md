@@ -406,6 +406,14 @@ Equation: $y - 2 = 1(x - 1) \implies y = x + 1$Or $x - y + 1 = 0$.
 
 ---
 
+## Intuition
+
+**A map and a compass:** Coordinate geometry is like plotting locations on a map — every point has an address (x, y), and lines are roads connecting them. The distance formula is how far you'd walk, and slopes tell you how steep the roads are.
+
+**Why it matters:** Circle equations and tangent lines appear everywhere — from satellite orbits to designing wheels. Understanding how shapes behave on a coordinate plane lets you model real-world motion and design precisely.
+
+**The key insight:** Every geometric property (perpendicular, tangent, intersection) translates into an algebraic equation — geometry becomes algebra you can solve.
+
 ## Common Pitfalls
 
 1. **Incorrect sign when completing the square in circle equations.** When completing the square for

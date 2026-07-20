@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**Advanced bonding is like understanding the quantum rules of molecular construction — hybridization, VSEPR, and molecular orbitals determine shape and reactivity:** Molecular geometry (predicted by VSEPR theory) determines polarity, reactivity, and biological activity
+
+**Why it matters:** Advanced bonding concepts are essential for drug design, materials science, and understanding spectroscopy
+
+**The key insight:** Molecular geometry (predicted by VSEPR theory) determines polarity, reactivity, and biological activity
+
+
 ## 1. VSEPR Theory
 
 ### Principle

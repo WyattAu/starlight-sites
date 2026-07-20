@@ -361,6 +361,14 @@ $$P = \frac{\text{area of inner square}}{\text{area of outer square}} = \frac{2^
 
 ---
 
+## Intuition
+
+**A fair and unfair coin:** Probability measures how likely events are — from 0 (impossible) to 1 (certain). Conditional probability narrows the world: "given that it rained, what's the chance the ground is wet?"
+
+**Why it matters:** From medical diagnoses to weather forecasting, probability quantifies uncertainty. Bayes' theorem lets you update beliefs as new evidence arrives.
+
+**The key insight:** P(A|B) ≠ P(B|A) — the probability of rain given clouds is NOT the same as clouds given rain. Confusing these is the most common error in probability.
+
 ## Common Pitfalls
 
 1. **Confusing $P(A \mid B)$ with $P(B \mid A)$.** These are generally different. Always identify

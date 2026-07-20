@@ -432,6 +432,14 @@ Lower concentration of $\mathrm{H^+}$ ions than a strong acid of the same concen
 
 </details>
 
+## Intuition
+
+**A chemistry roadmap:** DSE Chemistry covers the essential building blocks of matter and how they interact — from atomic structure to organic reactions. Each topic builds on the previous one.
+
+**Why it matters:** Chemistry explains the material world — from why rust forms to how medicines work. Understanding chemistry helps you make sense of everyday phenomena.
+
+**The key insight:** Chemical reactions are about rearranging atoms — the same atoms exist before and after, just in different combinations.
+
 ## Common Pitfalls
 
 1. Misidentifying the limiting reagent. Compare mole ratios rather than comparing masses.

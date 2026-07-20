@@ -4,6 +4,11 @@ description: "A-Level Further Maths Maclaurin and Taylor Series -- notes coverin
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Maclaurin and Taylor Series — Diagnostic Tests
 
 ## Unit Tests

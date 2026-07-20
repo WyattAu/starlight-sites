@@ -140,6 +140,14 @@ If there were a discrepancy, possible reasons would include:
 
 ---
 
+## Intuition
+
+**Electricity from chemistry:** Electrochemistry is like a chemical battery — redox reactions transfer electrons from one substance to another, and we can harness that electron flow as electricity.
+
+**Why it matters:** From car batteries to rechargeable phones, electrochemistry powers modern life. Understanding redox helps you predict which reactions occur and how to control them.
+
+**The key insight:** The electrochemical series ranks substances by their tendency to gain or lose electrons — higher in the series means more likely to be oxidized.
+
 ## Integration Test 1: Electrochemical Series Predictions
 
 **Question**

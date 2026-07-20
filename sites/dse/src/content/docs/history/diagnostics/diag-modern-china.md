@@ -253,6 +253,14 @@ became the model for China's market reforms.
 
 ---
 
+## Intuition
+
+**A nation in transformation:** Modern China's history is like a river with many twists — from empire to republic to communist state, each era shaped the next through revolution, war, and reform.
+
+**Why it matters:** Understanding modern China explains the world's second-largest economy and its global influence. These events shaped Hong Kong's identity and its relationship with mainland China.
+
+**The key insight:** China's modernisation wasn't linear — it involved dramatic reversals, civil wars, and ideological shifts that created the complex nation we see today.
+
 ## Integration Test 1: China and Japan -- Comparative Modernisation
 
 **Question**

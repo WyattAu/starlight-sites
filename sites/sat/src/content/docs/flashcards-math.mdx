@@ -13,12 +13,22 @@ categories:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3 } from '@/data/flashcards/sat/flashcards-math-data.js';
 
-
 ## SAT Math — Flashcard Deck
 
 15 flashcards with spaced repetition. Press Space to flip, then rate your recall (1–4).
 
 ---
 
+## Intuition
+
+SAT Math tests your ability to apply mathematical concepts to real-world problems. The core topics — algebra, geometry, and statistics — form the foundation. Algebra handles equations and functions, geometry covers shapes and spatial reasoning, and statistics involves data analysis and probability. The test rewards understanding relationships between concepts, not just memorising formulas.
+
+## Common Pitfalls
+
+- **Substitution errors**: Plugging values into formulas incorrectly — always double-check which variable you're substituting for and watch for negative signs.
+- **Geometry formula mix-ups**: Confusing area (πr²) with circumference (2πr), or volume formulas for different shapes — create a formula sheet and review it regularly.
+- **Statistics misreading**: Misidentifying mean, median, and mode — mean is the average, median is the middle value, and mode is the most frequent value. Practice distinguishing them from data sets.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="sat-math" title="SAT Math" description="Algebra, geometry, statistics, advanced topics, and strategies" cards={[...flashcard1, ...flashcard2, ...flashcard3]}  />

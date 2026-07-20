@@ -4,6 +4,11 @@ description: "A-Level Biology Exchange and Transport -- Diagnostic Tests notes c
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
+
 # Exchange and Transport — Diagnostic Tests
 
 ## Unit Tests

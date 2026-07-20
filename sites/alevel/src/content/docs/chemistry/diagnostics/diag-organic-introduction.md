@@ -4,6 +4,11 @@ description: "A-Level Organic Chemistry Introduction -- Diagnostic Tests notes c
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Organic chemistry is like a vast city of carbon-based molecules — each with unique structures and personalities.**
+
 # Organic Chemistry Introduction — Diagnostic Tests
 
 ## Unit Tests

@@ -440,6 +440,14 @@ Mundell-Fleming result.
 multiplier of 5: $\Delta M = 5 \times (-50) = -HK\$250$ billion. The money supply contracts by
 HK\$250 billion, reinforcing the contractionary effect of the interest rate increase.
 
+## Intuition
+
+**A steering wheel for the economy:** Fiscal policy is the government's tax-and-spend lever; monetary policy is the central bank's interest rate lever. Both aim to steer the economy between overheating and recession.
+
+**Why it matters:** These tools determine inflation rates, unemployment levels, and economic growth. Understanding them helps predict how governments respond to crises.
+
+**The key insight:** The multiplier effect means a small government spending increase can ripple through the economy — but leakages (savings, imports) reduce the impact.
+
 ## Common Pitfalls
 
 1. **Confusing the spending multiplier with the tax multiplier:** The spending multiplier is

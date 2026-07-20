@@ -833,6 +833,14 @@ Stores. This is not type punning per se, but it is a consequence of the same rul
 - **`std::bit_cast`** — [N4950 S20.15.5], C++20.
 - **Strict Aliasing** — [N4950 S6.9.2.1]/11.
 
+## Intuition
+
+**Reinterpreting data:** Type punning is like looking at the same data through different lenses — you interpret the same bytes as different types.
+
+**Why it matters:** Type punning enables low-level data manipulation but must be done carefully to avoid undefined behavior.
+
+**The key insight:** std::bit_cast is the safe way to do type punning in C++20 — it's constexpr and well-defined.
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to type punning and the strict

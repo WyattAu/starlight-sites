@@ -517,6 +517,11 @@ Use the revision links under each question to jump directly to the relevant topi
 
 4. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

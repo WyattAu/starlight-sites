@@ -196,6 +196,14 @@ obtaining urban residency permits.)
 
 ---
 
+## Intuition
+
+**A living snapshot:** Population pyramids are like X-rays of a society — they reveal the age structure, showing whether a country is young and growing, or old and declining. The shape tells the story of birth rates, death rates, and migration.
+
+**Why it matters:** Population structure determines everything from school enrollment to pension sustainability. Understanding demographic transitions helps governments plan for the future.
+
+**The key insight:** The Demographic Transition Model shows how countries evolve from high birth/death rates to low ones — the gap between these rates drives population growth.
+
 ## Integration Test 1: Population and Urbanisation
 
 **Question**

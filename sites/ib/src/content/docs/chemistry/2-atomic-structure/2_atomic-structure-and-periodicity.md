@@ -8,6 +8,15 @@ categories:
   - ib
 ---
 
+## Intuition
+
+**Atomic structure and periodicity are like a lock and key — electron configuration determines where elements fit in the periodic table:** Electron shell filling follows the Aufbau principle, explaining why the periodic table has its characteristic shape
+
+**Why it matters:** Connecting atomic structure to periodicity enables prediction of chemical behavior across the entire table
+
+**The key insight:** Electron shell filling follows the Aufbau principle, explaining why the periodic table has its characteristic shape
+
+
 ## 1. Atomic Structure
 
 ### Subatomic Particles

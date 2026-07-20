@@ -659,6 +659,11 @@ For revision on algorithms, see
 4. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

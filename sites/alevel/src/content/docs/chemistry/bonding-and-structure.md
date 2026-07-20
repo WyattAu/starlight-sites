@@ -925,6 +925,11 @@ Structure with other chemistry topics to test synthesis under exam conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 
+
+## Intuition
+
+**Chemical bonds are like握手 — atoms sharing or transferring electrons to become more stable.**
+
 ## Summary
 
 This topic covers the essential chemistry of bonding and structure, including key reactions,

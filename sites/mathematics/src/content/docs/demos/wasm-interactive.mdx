@@ -7,6 +7,10 @@ import WasmWidget from '@components/WasmWidget.astro'
 
 Interactive mathematical visualizations compiled from Rust to WebAssembly. These run entirely in your browser — no server round-trips.
 
+## Why This Matters
+
+WebAssembly (WASM) enables near-native performance in the browser, making real-time mathematical visualisation feasible. These demos combine Rust's performance and safety guarantees with WebAssembly's portability — you can explore mathematical concepts interactively without installing anything.
+
 ## Fourier Series Square Wave
 
 The Fourier series approximates a square wave by summing sine waves of increasing frequency. More terms = better approximation.
@@ -20,6 +24,10 @@ Adjust the **Terms** slider to see how the approximation improves with higher-fr
 A reference implementation showing a simple sine wave rendered via WASM.
 
 <WasmWidget widget="sine" width={600} height={400} title="Sine Wave" />
+
+## How It Works
+
+Each widget is compiled from Rust to WebAssembly using `wasm-pack`. The Rust code performs the mathematical computation (e.g., evaluating the Fourier series at each pixel), and the results are rendered to an HTML canvas element via JavaScript interop.
 
 ## Cross-References
 

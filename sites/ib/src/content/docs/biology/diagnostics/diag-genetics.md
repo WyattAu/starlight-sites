@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Genetics — Diagnostic Tests
 
+## Intuition
+
+**Genetics is like reading a biological instruction manual — DNA contains the blueprints for building and operating an organism:** Genes control traits through protein synthesis, and variations in genes create the diversity of life
+
+**Why it matters:** Genetics explains inheritance, evolution, and genetic diseases, making it fundamental to medicine and agriculture
+
+**The key insight:** Genes control traits through protein synthesis, and variations in genes create the diversity of life
+
+
 ## Unit Tests
 
 ### UT-1: Dihybrid Cross and Independent Assortment

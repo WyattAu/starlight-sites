@@ -475,6 +475,14 @@ constexpr uint32_t crc32(const char* data, size_t len) {
 static_assert(crc32("hello", 5) == 0x3610A686u);
 ```
 
+## Intuition
+
+**Compile-time computation:** constexpr is like a calculator that runs at compile time — it lets you compute values during compilation, making runtime code faster.
+
+**Why it matters:** Compile-time computation improves performance and enables new design patterns like type-safe configuration.
+
+**The key insight:** constexpr functions must have a single return path — this restriction enables compile-time evaluation.
+
 ## Common Pitfalls
 
 ### 1. `constexpr` Function Called with Runtime Arguments

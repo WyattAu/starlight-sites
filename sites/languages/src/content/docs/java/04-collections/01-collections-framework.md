@@ -1157,6 +1157,14 @@ nullSafeTree.add("Alice");
 System.out.println(nullSafeTree);  // [null, Alice]
 ```
 
+## Intuition
+
+**Data structures toolkit:** Collections are like a toolbox — Lists, Sets, Maps, and Queues each solve different problems. Choosing the right one affects performance and correctness.
+
+**Why it matters:** Efficient data storage and retrieval is fundamental to programming. Understanding collections helps you design efficient algorithms.
+
+**The key insight:** Choose your collection based on what you need — fast lookup (Map), ordered sequence (List), or unique elements (Set).
+
 ## Summary of Design Principles
 
 1. **The interface-implementation separation enables polymorphism.** Code written against `List<E>`

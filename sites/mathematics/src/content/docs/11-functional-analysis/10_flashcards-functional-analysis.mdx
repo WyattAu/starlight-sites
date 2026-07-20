@@ -1,6 +1,6 @@
 ---
 title: "University Maths Flashcards: Functional Analysis"
-description: "20 interactive flashcards for university-level Functional Analysis. Press Space  Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for university-level Functional Analysis. Press Space to flip, rate 1-4."
 tags: [University, Mathematics, Flashcards]
 ---
 
@@ -9,6 +9,18 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Mathematics -- Functional Analysis Flashcards
 20 interactive flashcards for university-level Functional Analysis. Press Space to flip, rate 1-4.
+---
+
+## Intuition
+
+Functional analysis is linear algebra in infinite dimensions — vector spaces of functions with norms measuring their "size." Banach spaces are complete normed spaces (Cauchy sequences converge), and Hilbert spaces add an inner product (enabling angles and orthogonality). Bounded linear operators are the morphisms of this world. The Hahn-Banach theorem extends bounded functionals, the Open Mapping theorem guarantees surjective bounded operators are open, and the Uniform Boundedness principle prevents pointwise bounded families from being wildly unbounded.
+
+## Common Pitfalls
+
+- **Bounded ≠ continuous**: In finite dimensions all linear maps are bounded (and continuous), but in infinite dimensions unbounded linear functionals exist — they simply cannot be constructed without the axiom of choice.
+- **Weak vs strong convergence**: Weak convergence (convergence of inner products) is weaker than norm convergence — a sequence can converge weakly but not strongly (e.g., orthonormal sequences in Hilbert spaces).
+- **Compact operator surprises**: Compact operators on infinite-dimensional spaces have no bounded inverse — the identity is not compact in infinite dimensions, which is why compact operators are "nearly finite-dimensional."
+
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="uni-maths-functional-analysis" title="University Maths -- Functional Analysis" description="Banach spaces, Hilbert spaces, bounded operators, fundamental theorems, compact operators, spectral theory, weak convergence" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />;

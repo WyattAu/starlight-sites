@@ -493,6 +493,11 @@ $= -1/(RC) = -0.125$. $\tau = RC = 1/0.125 = 8.0$ s.
 4. Misidentifying the system boundary when applying conservation laws. Define what is included
    before writing equations.
 
+
+## Intuition
+
+**Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

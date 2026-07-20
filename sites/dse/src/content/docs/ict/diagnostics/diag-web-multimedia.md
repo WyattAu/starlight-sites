@@ -165,6 +165,14 @@ impaired users can read content.
 
 ---
 
+## Intuition
+
+**A digital canvas:** Web development is like building with digital LEGO — HTML provides the structure, CSS adds the style, and JavaScript brings it to life. The box model is the invisible frame around every element.
+
+**Why it matters:** The web is the world's most accessible platform. Understanding HTML/CSS lets you create content anyone can view, and multimedia makes it engaging.
+
+**The key insight:** Block elements stack vertically and inline elements flow horizontally — knowing which is which prevents layout headaches.
+
 ## Integration Tests
 
 ### IT-1: Full-Stack Web Application (with Computer Systems)

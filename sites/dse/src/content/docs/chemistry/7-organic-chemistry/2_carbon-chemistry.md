@@ -458,6 +458,14 @@ Undigested and acts as dietary fibre.
 
 ---
 
+## Intuition
+
+**Carbon's versatility:** Carbon atoms can chain together in countless ways — like LEGO bricks that snap together to form infinite structures. Alkanes are saturated (full of hydrogen); alkenes have double bonds that can react.
+
+**Why it matters:** From plastics to proteins, carbon chemistry is the basis of organic life and modern materials. Understanding reactions lets you predict how molecules behave.
+
+**The key insight:** Functional groups determine reactivity — an alcohol reacts differently from an alkene because the functional group changes the electron distribution.
+
 ## Common Pitfalls
 
 - Confusing alkanes (saturated, $\mathrm{C_nH_{2n+2}}$) with alkenes (unsaturated,

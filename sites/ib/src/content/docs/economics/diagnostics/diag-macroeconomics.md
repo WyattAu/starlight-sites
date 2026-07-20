@@ -85,6 +85,15 @@ sidebar_position: 40
 
 ---
 
+## Intuition
+
+**Macroeconomics is like reading the economy's vital signs — GDP, inflation, and unemployment reveal the health of the system:** Macroeconomic variables are interconnected — policies affecting one often have ripple effects across the economy
+
+**Why it matters:** Understanding macroeconomics is essential for evaluating government policy and economic forecasts
+
+**The key insight:** Macroeconomic variables are interconnected — policies affecting one often have ripple effects across the economy
+
+
 ## Answer Key
 
 | Question | Answer | Topic                    |

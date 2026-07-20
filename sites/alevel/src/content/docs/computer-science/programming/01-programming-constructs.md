@@ -922,6 +922,11 @@ Now each call that omits `target` gets a fresh empty list.
 
 </details>
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 ## Summary
 
 This topic covers the core concepts of programming constructs, including underlying theory,

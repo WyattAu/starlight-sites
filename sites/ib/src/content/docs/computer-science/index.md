@@ -11,6 +11,15 @@ tags:
 Complete revision notes for IB Computer Science, covering the full syllabus with worked examples,
 common pitfalls, and exam-style problems.
 
+## Intuition
+
+**Computer science is the science of problem-solving — it teaches us how to break complex problems into manageable steps:** Computational thinking — abstraction, decomposition, and algorithmic thinking — applies to problems far beyond programming
+
+**Why it matters:** Computer science literacy is essential in the digital age, regardless of your career path
+
+**The key insight:** Computational thinking — abstraction, decomposition, and algorithmic thinking — applies to problems far beyond programming
+
+
 ## Core Topics
 
 ### System Fundamentals

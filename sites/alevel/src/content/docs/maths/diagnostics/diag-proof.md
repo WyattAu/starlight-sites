@@ -4,6 +4,11 @@ description: "A-Level Maths Proof -- Diagnostic Tests notes covering key definit
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Proof — Diagnostic Tests
 
 ## Unit Tests

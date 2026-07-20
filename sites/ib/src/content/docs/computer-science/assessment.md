@@ -5,6 +5,15 @@ description: "| Index | Objective | Paper 1 | Paper 2 | IA | Sum | | ----- | ---
 
 # Assessment objective
 
+## Intuition
+
+**CS assessment is like a code review — it evaluates not just whether your code works, but how well it's designed and documented:** Effective CS assessment tests understanding of concepts, not just memorization of syntax
+
+**Why it matters:** Good assessment prepares students for real-world software development, where quality matters as much as functionality
+
+**The key insight:** Effective CS assessment tests understanding of concepts, not just memorization of syntax
+
+
 ## SL
 
 | Index | Objective                                           | Paper 1 | Paper 2 | IA    | Sum |

@@ -2353,6 +2353,11 @@ Predicted rate at $30\ \mathrm{cm}$: $42 \times \frac{1}{9} \approx 4.7\ \mathrm
 
 $\blacksquare$
 
+
+## Intuition
+
+**Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
+
 ## Summary
 
 - Photosynthesis converts light energy to chemical energy: light-dependent reactions (thylakoid)

@@ -595,6 +595,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**Inline functions:** Lambdas are like anonymous functions — they let you define small functions inline, capturing variables from their surroundings.
+
+**Why it matters:** Lambdas make code more concise and expressive, especially for callbacks, algorithms, and functional-style programming.
+
+**The key insight:** Captures are how lambdas access variables from their enclosing scope — [=] captures by value, [&] captures by reference.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Capturing by Reference in Async Code

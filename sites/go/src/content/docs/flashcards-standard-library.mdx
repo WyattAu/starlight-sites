@@ -1,6 +1,6 @@
 ---
 title: Go Standard Library Flashcards
-description: "15 flashcards covering key packages in the Go standard library — fmt, strings, i Comprehensive educational content coverage with definitions and practice proble"
+description: "15 flashcards covering key packages in the Go standard library — fmt, strings, io, net/http, encoding/json, and os."
 date: 2026-05-31
 tags:
   - Go
@@ -11,7 +11,6 @@ categories:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcardData } from '@/data/flashcards/go/flashcards-standard-library-data.js';
 
-
 ## Go Standard Library Flashcards
 
 15 flashcards covering key packages in the Go standard library — fmt, strings, io, net/http,
@@ -19,5 +18,16 @@ encoding/json, and os.
 
 ---
 
+## Intuition
 
-<FlashcardDeck client:only="solid-js" deckId="go-standard-library" title="Go: Standard Library" description="Key functions and interfaces from Go\'s most commonly used packages." cards={flashcardData}  />
+Go's standard library is deliberately comprehensive — the language philosophy batteries included. `fmt` is formatted I/O (like C's printf), `strings` handles text manipulation, `io` defines the fundamental interfaces (`Reader`, `Writer`) that compose like pipelines, and `net/http` provides a production-ready HTTP server and client. The key insight is that Go interfaces are satisfied implicitly: any type with the right methods automatically implements the interface, no `implements` keyword needed.
+
+## Common Pitfalls
+
+- **Ignoring errors**: Go returns `(value, error)` tuples — discarding the error with `_` hides failures that will bite you later. Always check `err != nil`.
+- **String indexing**: `s[i]` returns a `byte`, not a rune — iterating over a string by index breaks for multi-byte UTF-8 characters. Use `for _, r := range s` instead.
+- **Deferred function arguments**: Arguments to `defer` are evaluated immediately when the statement executes, not when the function returns — this catches many developers off guard.
+
+---
+
+<FlashcardDeck client:only="solid-js" deckId="go-standard-library" title="Go: Standard Library" description="Key functions and interfaces from Go's most commonly used packages." cards={flashcardData}  />

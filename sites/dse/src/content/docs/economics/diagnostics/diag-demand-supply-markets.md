@@ -567,6 +567,14 @@ _Conclusion:_ Land supply is a necessary but insufficient tool for reducing prop
 should be combined with demand-side measures (stamp duties, mortgage restrictions, empty tax) and
 institutional reforms (faster approval processes, anti-land-banking measures) to be effective.
 
+## Intuition
+
+**A tug-of-war between buyers and sellers:** Supply and demand is like a dance — when buyers want more (demand rises), prices go up; when sellers offer more (supply rises), prices go down. Equilibrium is where they meet.
+
+**Why it matters:** From gas prices to housing markets, supply and demand determine what gets produced, in what quantity, and at what price.
+
+**The key insight:** Elasticity measures sensitivity — a small price change causes a big quantity change when demand is elastic, and barely any change when it's inelastic.
+
 ## Common Pitfalls
 
 1. **Using the initial price and quantity instead of the midpoint for PED:** The midpoint (arc

@@ -1,6 +1,6 @@
 ---
 title: "University Maths Flashcards: Abstract Algebra"
-description: "20 interactive flashcards for university-level Abstract Algebra. Press Space to  Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for university-level Abstract Algebra. Press Space to flip, rate 1-4."
 tags: [University, Mathematics, Flashcards]
 ---
 
@@ -9,6 +9,18 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Mathematics -- Abstract Algebra Flashcards
 20 interactive flashcards for university-level Abstract Algebra. Press Space to flip, rate 1-4.
+---
+
+## Intuition
+
+Abstract algebra studies algebraic structures — sets equipped with operations satisfying specific axioms. Groups capture symmetry: a set with a binary operation, identity, inverses, and associativity. Rings add a second operation (multiplication) with distributivity. Homomorphisms are structure-preserving maps between these objects, and the isomorphism theorems describe how quotient structures arise from normal subgroups and ideals. Polynomial rings connect algebra to number theory and geometry.
+
+## Common Pitfalls
+
+- **Normal subgroup requirement**: Quotient groups G/H only make sense when H is a normal subgroup of G (closed under conjugation) — forming G/H with a non-normal subgroup gives a set of cosets but not a group structure.
+- **Ideal vs subring**: A subring doesn't need to absorb multiplication from the full ring, but an ideal does — this is why ring quotients R/I require I to be an ideal, not just a subring.
+- **Isomorphism ≠ equality**: Two isomorphic groups have the same structure but may be different sets — the cyclic group of order 4 is isomorphic to ℤ/4ℤ, but they may be presented differently.
+
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="uni-maths-abstract-algebra" title="University Maths -- Abstract Algebra" description="Groups, rings, homomorphisms, isomorphism theorems, polynomial rings, group actions" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />;

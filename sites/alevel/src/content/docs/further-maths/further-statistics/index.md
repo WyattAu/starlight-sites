@@ -3,6 +3,11 @@ title: Further Statistics
 description: 'A-Level Further Maths Further Statistics notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.'
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Further Statistics
 
 Further Statistics extends the statistical methods from A-Level Mathematics, introducing continuous

@@ -1,6 +1,6 @@
 ---
 title: "University Maths Flashcards: Measure Theory"
-description: "20 interactive flashcards for university-level Measure Theory. Press Space to fl Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for university-level Measure Theory. Press Space to flip, rate 1-4."
 tags: [University, Mathematics, Flashcards]
 ---
 
@@ -9,6 +9,18 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Mathematics -- Measure Theory Flashcards
 20 interactive flashcards for university-level Measure Theory. Press Space to flip, rate 1-4.
+---
+
+## Intuition
+
+Measure theory generalises the concept of "size" — length, area, volume — to abstract sets. A σ-algebra is a collection of sets that is closed under complements and countable unions, providing a safe domain for defining measures. The Lebesgue measure extends length to "wild" sets (like the Cantor set) that have no classical length. Lebesgue integration sums function values over level sets rather than domain partitions, enabling powerful convergence theorems (Monotone, Dominated, Fatou) that fail for Riemann integrals.
+
+## Common Pitfalls
+
+- **Measurable ≠ Borel**: Not every subset of ℝ is Lebesgue measurable — Vitali sets require the Axiom of Choice to construct and are non-measurable. Don't assume all sets have a well-defined measure.
+- **Almost everywhere**: Two functions can differ on a set of measure zero and still be "equal" in Lᵖ — integration ignores such differences, which can be counterintuitive.
+- **Fubini-Tonelli conditions**: You can only swap the order of integration if the double integral of the absolute value is finite — without this condition, iterated integrals can differ.
+
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="uni-maths-measure-theory" title="University Maths -- Measure Theory" description="Sigma-algebras, measures, Lebesgue integration, convergence theorems, L^p spaces, Fubini-Tonelli, Radon-Nikodym" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />;

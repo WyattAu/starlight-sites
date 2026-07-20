@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Statistics — Diagnostic Tests
 
+## Intuition
+
+**Statistics is like a lens for seeing patterns in data — it separates signal from noise, revealing what data actually tells us:** Statistical inference lets us draw conclusions about entire populations from carefully chosen samples, bridging observation and generalization
+
+**Why it matters:** From election polling to clinical trials to quality control, statistics is the science of learning from data
+
+**The key insight:** Statistical inference lets us draw conclusions about entire populations from carefully chosen samples, bridging observation and generalization
+
+
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for statistics.

@@ -3,6 +3,11 @@ title: Fundamentals
 description: "A-Level Computer Science Fundamentals notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Fundamentals
 
 The fundamentals section covers the foundational concepts that underpin all of computer science: how

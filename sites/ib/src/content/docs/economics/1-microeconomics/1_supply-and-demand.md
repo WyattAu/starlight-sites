@@ -6,6 +6,15 @@ tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
 
+## Intuition
+
+**Supply and demand is like a negotiation between buyers and sellers — the market price is where they reach agreement:** The equilibrium price emerges from the interaction of consumer willingness to pay and producer costs
+
+**Why it matters:** Supply and demand is the foundational model for understanding how markets allocate resources
+
+**The key insight:** The equilibrium price emerges from the interaction of consumer willingness to pay and producer costs
+
+
 ## Scarcity, Choice, and Opportunity Cost
 
 ### The Fundamental Economic Problem

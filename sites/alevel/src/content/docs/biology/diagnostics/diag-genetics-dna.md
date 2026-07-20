@@ -4,6 +4,11 @@ description: "A-Level Biology Genetics and DNA -- Diagnostic Tests notes coverin
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Genetics is like a recipe book — DNA holds the instructions, and proteins are the dishes that get cooked.**
+
 # Genetics and DNA — Diagnostic Tests
 
 ## Unit Tests

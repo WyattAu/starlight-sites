@@ -8,7 +8,6 @@ tags: [Kotlin, Flashcards]
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/kotlin/flashcards-kotlin-basics-data.js';
 
-
 ## Kotlin -- Fundamentals Flashcards
 
 30 interactive flashcards covering core Kotlin concepts from null safety to inline functions. Press
@@ -16,5 +15,16 @@ Space to flip, rate 1-4.
 
 ---
 
+## Intuition
+
+Kotlin is a modern JVM language that combines object-oriented and functional programming. Null safety is enforced at the type level — the compiler prevents null pointer exceptions by making nullable types explicit. Coroutines provide lightweight concurrency without callback hell, and inline functions eliminate the overhead of passing lambdas by inlining the lambda body at the call site. Data classes auto-generate equals, hashCode, toString, and copy methods.
+
+## Common Pitfalls
+
+- **`var` vs `val` misuse**: Using `var` when `val` suffices makes code harder to reason about — prefer immutability and only use `var` when reassignment is truly needed.
+- **Scope function confusion**: `let`, `run`, `with`, `apply`, and `also` differ in context object (`this` vs `it`) and return value — mixing them up leads to unreadable code.
+- **Coroutine dispatcher selection**: Running CPU-bound work on `Dispatchers.Main` freezes the UI; running IO-bound work on `Dispatchers.Default` wastes CPU threads — match the dispatcher to the work type.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="kotlin-basics" title="Kotlin -- Fundamentals" description="30 interactive flashcards covering null safety, coroutines, scope functions, data classes, sealed classes, extension functions, delegation, companion objects, type system, collections, and more." cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />

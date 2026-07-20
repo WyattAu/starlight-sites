@@ -723,6 +723,14 @@ auto arr2 = std::shared_ptr<int>(new int[10], [](int* p) { delete[] p; });
 C++17, managing arrays with `shared_ptr` required manually passing `default_delete&lt;T[]&gt;` or a
 Lambda.
 
+## Intuition
+
+**Custom cleanup:** Custom deleters are like specialized garbage collectors — they know exactly how to clean up resources that aren't memory (files, sockets, etc.).
+
+**Why it matters:** Custom deleters enable unique_ptr and shared_ptr to manage any resource, not just memory, ensuring proper cleanup.
+
+**The key insight:** Lambdas are perfect for custom deleters — they capture cleanup logic inline and have zero overhead.
+
 ## Summary
 
 | Ownership Model    | Smart Pointer        | Size (x86_64) | Semantics                   | Thread-Safe Refcount |

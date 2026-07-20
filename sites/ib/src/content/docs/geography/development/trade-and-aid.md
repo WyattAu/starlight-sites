@@ -5,6 +5,15 @@ description: "Global trade patterns and development aid."
 
 # Trade and Aid
 
+## Intuition
+
+**International trade is like a global potluck — each country brings what it does best and shares with others, ideally making everyone better off:** Trade and aid are powerful tools for development, but their effectiveness depends on fair terms, good governance, and local capacity building
+
+**Why it matters:** Understanding trade relationships and aid effectiveness is crucial for reducing global poverty and inequality
+
+**The key insight:** Trade and aid are powerful tools for development, but their effectiveness depends on fair terms, good governance, and local capacity building
+
+
 ## Trade Patterns and Globalisation
 
 ### The Structure of Global Trade

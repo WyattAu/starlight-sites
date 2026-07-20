@@ -8,6 +8,15 @@ categories:
   - ib
 ---
 
+## Intuition
+
+**A database is like a highly organized library — data is stored in structured tables that can be queried efficiently:** Relational databases use keys and relationships to minimize redundancy and maintain data integrity
+
+**Why it matters:** Databases are the backbone of virtually every application, from social media to banking to healthcare
+
+**The key insight:** Relational databases use keys and relationships to minimize redundancy and maintain data integrity
+
+
 ## Database Fundamentals
 
 ### Flat File vs Relational Database

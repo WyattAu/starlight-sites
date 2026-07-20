@@ -4,6 +4,11 @@ description: "A-Level Maths Hypothesis Testing -- Diagnostic Tests notes coverin
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Hypothesis Testing — Diagnostic Tests
 
 ## Unit Tests

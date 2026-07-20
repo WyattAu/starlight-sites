@@ -900,6 +900,14 @@ would result.
 
 ---
 
+## Intuition
+
+**Life's balancing act:** Homeostasis is like a thermostat — the body constantly monitors conditions and adjusts to keep them stable. Reproduction ensures the species continues.
+
+**Why it matters:** From diabetes to climate adaptation, understanding homeostasis explains how the body maintains health and how disruptions cause disease.
+
+**The key insight:** Negative feedback loops are the body's main control mechanism — when something goes too high, the body pushes it back down, and vice versa.
+
 ## Common Pitfalls
 
 1. **Confusing excretion and egestion:** This is one of the most common DSE errors. Egestion

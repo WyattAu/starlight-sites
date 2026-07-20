@@ -895,6 +895,14 @@ Future<void> main() async {
 Sentry's Flutter SDK automatically sets up `runZonedGuarded` internally when you use `appRunner`.
 Firebase Crashlytics follows a similar pattern with `FlutterError.onError` and `runZonedGuarded`.
 
+## Intuition
+
+**Graceful failure:** Error handling is like a safety net — it catches problems before they crash your program. Try-catch blocks let you handle unexpected situations gracefully.
+
+**Why it matters:** Robust programs handle errors gracefully. Good error handling improves user experience and makes debugging easier.
+
+**The key insight:** Catch specific exceptions, not generic ones — this lets you handle different errors appropriately.
+
 ## Common Pitfalls
 
 ### 1. Catching Error Instead of Exception

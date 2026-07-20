@@ -13,4 +13,16 @@ import { flashcardData } from '@/data/flashcards/swift/flashcards-swift-basics-d
 
 ---
 
+## Intuition
+
+Swift is designed for safety and performance — optionals force you to handle nil at compile time, value types (structs, enums) prevent shared state bugs, and ARC manages memory without a garbage collector. Protocols define capabilities that types adopt, and protocol-oriented programming favours composition over inheritance. Enums in Swift are algebraic data types that can carry associated values, making them far more powerful than C-style enums.
+
+## Common Pitfalls
+
+- **Force unwrap (`!`)**: Using `!` on an optional that is nil crashes the program — prefer `guard let`, `if let`, or the nil-coalescing operator (`??`).
+- **Reference cycle with closures**: Capturing `self` strongly in a closure creates a retain cycle — use `[weak self]` or `[unowned self]` capture lists.
+- **Value vs reference semantics**: Structs are value types (copied on assignment), classes are reference types (shared) — confusion here leads to unexpected mutations.
+
+---
+
 <FlashcardDeck client:only="solid-js" deckId="swift-basics" title="Swift -- Basics" description="15 interactive flashcards covering let, var, optionals, protocols, extensions, generics, enums, structs, classes, ARC, closures, computed properties, property observers, result builders, async/await." cards={flashcardData} />

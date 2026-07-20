@@ -192,6 +192,14 @@ wavelengths provide finer detail. However, higher frequency ultrasound is more r
 tissue, limiting penetration depth. Medical imaging balances resolution and penetration by selecting
 appropriate frequencies ( 1--15 MHz depending on the application).
 
+## Intuition
+
+**Disturbances that travel:** Waves are like ripples in a pond — they transfer energy without transferring matter. Light, sound, and radio waves are all examples of the same phenomenon.
+
+**Why it matters:** From Wi-Fi to medical imaging, waves are everywhere. Understanding wave behavior helps you design communication systems and explain natural phenomena.
+
+**The key insight:** The speed of light is constant in a vacuum — this fact underpins Einstein's theory of relativity.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

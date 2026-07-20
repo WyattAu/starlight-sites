@@ -168,6 +168,14 @@ cis-trans isomerism to occur, but-1-ene fails this requirement.
 
 ---
 
+## Intuition
+
+**Carbon's versatility:** Organic chemistry is the study of carbon compounds — like LEGO bricks that can snap together in infinite ways to form chains, rings, and complex structures.
+
+**Why it matters:** From medicines to plastics, organic chemistry underpins modern life. Understanding functional groups and reactions lets you design and predict molecule behavior.
+
+**The key insight:** Functional groups determine reactivity — an alcohol reacts differently from an alkene because the functional group changes the electron distribution.
+
 ## Integration Test 1: Reaction Scheme Completion
 
 **Question**

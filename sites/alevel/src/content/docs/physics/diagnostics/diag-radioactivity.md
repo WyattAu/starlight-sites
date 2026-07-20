@@ -4,6 +4,14 @@ description: "A-Level Physics Radioactivity -- Diagnostic Tests notes covering k
 tableOfContents: false
 ---
 
+## Intuition
+
+**Radioactivity is like a population of unstable atoms — each has a fixed probability of decaying at any moment, like rolling a loaded die. The more atoms you have, the more predictable the overall decay rate becomes, even though each individual decay is random.**
+
+**Why it matters:** Understanding radioactive decay is crucial for carbon dating, medical imaging, and nuclear safety — it lets us predict how long radioactive materials remain dangerous or useful.
+
+**The key insight:** The decay constant describes the probability of decay per unit time, and the exponential law emerges from the collective behavior of many random events.
+
 # Radioactivity — Diagnostic Tests
 
 ## Unit Tests

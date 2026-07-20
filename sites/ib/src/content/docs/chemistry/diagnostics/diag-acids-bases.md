@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Acids and Bases — Diagnostic Tests
 
+## Intuition
+
+**Acids and bases are like chemical opposites — they neutralize each other in a proton-transfer handshake:** The pH scale measures the intensity of acidity or basicity, governing everything from enzyme function to ocean chemistry
+
+**Why it matters:** Acid-base chemistry is fundamental to biology, medicine, environmental science, and industrial processes
+
+**The key insight:** The pH scale measures the intensity of acidity or basicity, governing everything from enzyme function to ocean chemistry
+
+
 ## Unit Tests
 
 ### UT-1: Weak Acid pH and Percentage Ionisation

@@ -978,6 +978,14 @@ try (FileChannel ch = FileChannel.open(Path.of("data.db"),
 
 ---
 
+## Intuition
+
+**Data highways:** I/O is like a postal system — streams are the roads that data travels on, and NIO uses channels and buffers for faster, more efficient delivery.
+
+**Why it matters:** Efficient I/O is crucial for performance in networked applications. Understanding streams and NIO helps you design scalable systems.
+
+**The key insight:** NIO's non-blocking nature means one thread can handle many connections — this is the foundation of modern web servers.
+
 ## Common Pitfalls Summary
 
 | Pitfall                                 | Consequence                             | Fix                                              |

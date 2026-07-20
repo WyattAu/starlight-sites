@@ -196,6 +196,14 @@ applied to maintain the constant speed. The work done by this force is converted
 energy in the coil (which is then dissipated as heat in the resistance). This demonstrates the
 conservation of energy: mechanical work $\to$ electrical energy $\to$ thermal energy.
 
+## Intuition
+
+**Invisible fields:** Magnetism is like an invisible web — magnetic fields surround magnets and electric currents, exerting forces on other magnets and moving charges.
+
+**Why it matters:** From compasses to MRI machines, magnetism has countless applications. Understanding electromagnetic induction explains how generators and transformers work.
+
+**The key insight:** Moving charges create magnetic fields, and moving magnetic fields create electric currents — electricity and magnetism are two sides of the same coin.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

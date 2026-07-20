@@ -4,6 +4,11 @@ description: "A-Level Chemistry Carbonyl Compounds, Arenes, Amines -- notes cove
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
+
 # Carbonyl Compounds, Arenes, Amines — Diagnostic Tests
 
 ## Unit Tests

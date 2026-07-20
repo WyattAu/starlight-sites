@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Thermodynamics — Diagnostic Tests
 
+## Intuition
+
+**Heat is like a river of energy flowing from hot to cold — thermodynamics is the study of how this energy flows and transforms:** The second law of thermodynamics introduces entropy — the universe tends toward disorder, setting the arrow of time and limiting what engines can achieve
+
+**Why it matters:** Thermodynamics governs everything from car engines to refrigerators to the ultimate fate of the universe
+
+**The key insight:** The second law of thermodynamics introduces entropy — the universe tends toward disorder, setting the arrow of time and limiting what engines can achieve
+
+
 ## Unit Tests
 
 ### UT-1: Ideal Gas Law vs Real Gas Behaviour

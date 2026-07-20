@@ -849,6 +849,14 @@ With one firm but perfectly contestable conditions.
 
 ---
 
+## Intuition
+
+**A spectrum of competition:** Market structures range from perfect competition (many small firms, identical products) to monopoly (one firm controls everything). Each structure determines how firms set prices and earn profits.
+
+**Why it matters:** From Uber to local restaurants, market structure determines pricing power, innovation, and consumer welfare. Antitrust laws exist to prevent harmful monopolies.
+
+**The key insight:** In the long run, perfectly competitive firms earn zero economic profit — entry of new firms drives prices down to average cost.
+
 ## Common Pitfalls
 
 1. **Stating that a monopolist charges the highest possible price:** A monopolist maximises profit

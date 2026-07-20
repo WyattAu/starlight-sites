@@ -687,6 +687,11 @@ Both inputs are negative and the result is negative, so no overflow.
 
 4. Neglecting to normalise database designs, leading to data redundancy and update anomalies.
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

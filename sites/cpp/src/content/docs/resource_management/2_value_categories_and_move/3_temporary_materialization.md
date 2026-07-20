@@ -744,6 +744,14 @@ void new_demo() {
 }
 ```
 
+## Intuition
+
+**Temporary objects:** Temporary materialization is like turning an idea into a physical object — it converts prvalues into xvalues, creating temporary objects that can be moved.
+
+**Why it matters:** Understanding temporary materialization helps you write efficient code and avoid unnecessary copies.
+
+**The key insight:** Temporaries are materialized when bound to references or when their members are accessed — this is when the actual object is created.
+
 ## Common Pitfalls
 
 - **Dangling references from lifetime non-extension.** Returning a reference to a materialized

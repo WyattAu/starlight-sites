@@ -10,6 +10,14 @@ Complete revision notes for HKDSE Chemistry, covering the full syllabus with wor
 reaction mechanisms, and exam-style problems. Content is structured to build from fundamentals
 through to advanced topics.
 
+## Intuition
+
+**The central science:** Chemistry connects physics to biology — it explains how atoms combine to form molecules, and how molecules interact to create the world around us.
+
+**Why it matters:** From clean water to new medicines, chemistry solves real problems. Understanding chemical principles helps you evaluate claims about products and processes.
+
+**The key insight:** Chemical reactions are about rearranging atoms — the same atoms exist before and after, just in different combinations.
+
 ## Atomic Structure and Bonding
 
 - **[Atomic Structure and Bonding](./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding)**

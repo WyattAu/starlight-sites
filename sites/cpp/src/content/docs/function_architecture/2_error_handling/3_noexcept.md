@@ -414,6 +414,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**Promising not to throw:** noexcept is like a promise — it tells the compiler "this function won't throw exceptions," enabling optimizations and clearer contracts.
+
+**Why it matters:** noexcept helps the compiler generate better code and makes it clear which functions can be trusted not to throw.
+
+**The key insight:** Move constructors should be noexcept whenever possible — it enables better performance in containers like std::vector.
+
 ## Common Pitfalls
 
 ### 1. `noexcept` is Not Verified by the Compiler

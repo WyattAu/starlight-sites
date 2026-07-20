@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**Genetics is like a biological recipe book — DNA contains instructions, genes are individual recipes, and proteins are the finished dishes:** Genes control traits through protein synthesis, and genetic variation creates the diversity of life
+
+**Why it matters:** Genetics explains inheritance, evolution, and genetic diseases, making it fundamental to biology and medicine
+
+**The key insight:** Genes control traits through protein synthesis, and genetic variation creates the diversity of life
+
+
 ## 1. Meiosis and Genetic Variation
 
 ### Recombination

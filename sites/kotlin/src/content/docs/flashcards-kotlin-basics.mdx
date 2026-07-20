@@ -13,4 +13,16 @@ import { flashcardData } from '@/data/flashcards/kotlin/flashcards-kotlin-basics
 
 ---
 
+## Intuition
+
+Kotlin is a modern JVM language that eliminates Java's verbosity while maintaining full interoperability. Null safety is built into the type system — `String` is non-null, `String?` is nullable, and the compiler enforces checks. Extension functions let you add methods to existing classes without modifying them, and scope functions (`let`, `run`, `with`, `apply`, `also`) provide concise ways to work with objects in context.
+
+## Common Pitfalls
+
+- **`!!` operator overuse**: The not-null assertion (`!!`) throws a NullPointerException if the value is null — prefer safe calls (`?.`) or `let` blocks.
+- **Sealed class exhaustiveness**: Forgetting to handle all cases in a `when` expression on a sealed class — the compiler catches this if you omit the `else` branch, but only for sealed hierarchies.
+- **Coroutine scope leaks**: Launching coroutines in the wrong scope (e.g., `GlobalScope.launch`) — always use structured concurrency with `viewModelScope` or `lifecycleScope`.
+
+---
+
 <FlashcardDeck client:only="solid-js" deckId="kotlin-basics" title="Kotlin -- Basics" description="15 interactive flashcards covering val, var, data class, sealed class, extension function, null safety, scope functions, companion object, inline function, reified type, coroutines, flow, channel, suspend, delegate." cards={flashcardData} />

@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**States of matter are like different social formations — solids (ordered), liquids (close but mobile), gases (free-roaming):** Phase changes occur when thermal energy overcomes intermolecular forces, transforming how particles interact
+
+**Why it matters:** Understanding states of matter explains everything from weather patterns to cooking to industrial processes
+
+**The key insight:** Phase changes occur when thermal energy overcomes intermolecular forces, transforming how particles interact
+
+
 ## 1. Kinetic Molecular Theory
 
 ### Postulates

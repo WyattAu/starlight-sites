@@ -283,6 +283,11 @@ freedom but also danger and exposure. A feminist reading might see the moors as 
 Catherine can express her full identity, while the houses represent the patriarchal structures that
 confine her.
 
+
+## Intuition
+
+**Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
+
 ## Summary
 
 - Prose analysis requires attention to narrative voice, characterisation, setting, theme, and

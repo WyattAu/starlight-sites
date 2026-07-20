@@ -1182,6 +1182,11 @@ largest component of household wealth.
 
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
+
+## Intuition
+
+**Economics is the study of choices — how individuals, businesses, and governments allocate scarce resources.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

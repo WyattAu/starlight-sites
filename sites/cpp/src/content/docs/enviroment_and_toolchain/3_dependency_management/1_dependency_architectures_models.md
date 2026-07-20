@@ -448,6 +448,14 @@ Dependency graph, compiles from source, and links against the resulting librarie
 `CMAKE_VERIFY_INTERFACE_HEADER_SETS` check ensures that the installed package headers form a valid
 Interface, catching common packaging errors and potential tampering.
 
+## Intuition
+
+**Dependency architectures:** Different dependency models are like different delivery services — some download source and build locally, others download pre-built binaries.
+
+**Why it matters:** Choosing the right dependency architecture affects build times, portability, and maintenance burden.
+
+**The key insight:** Source dependencies are more portable but slower to build; binary dependencies are faster but platform-specific.
+
 ## Common Pitfalls
 
 - **Mixing package managers:** Using both vcpkg and Conan for the same project can cause ODR

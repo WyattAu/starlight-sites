@@ -10,6 +10,11 @@ description: "A-Level English notes covering key definitions, core concepts, wor
 
 ---
 
+
+## Intuition
+
+**English literature explores the human experience through language — words painting pictures of life.**
+
 # A-Level English
 
 A-Level English Literature and Language are core subjects that develop critical thinking, analytical

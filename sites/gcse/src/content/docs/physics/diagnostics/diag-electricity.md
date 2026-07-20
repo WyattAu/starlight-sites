@@ -164,6 +164,14 @@ $100^\circ\text{C$. This changing voltage can be measured by a microcontroller o
 calibration curve can convert the voltage reading to a temperature. The larger the change in
 voltage, the more sensitive and accurate the temperature sensor.
 
+## Intuition
+
+**The flow of charge:** Electricity is like water flowing through pipes — voltage is the pressure, current is the flow rate, and resistance is how narrow the pipes are. Ohm's law connects them all.
+
+**Why it matters:** From lighting homes to powering computers, electricity is the backbone of modern life. Understanding circuits helps you design and troubleshoot electrical systems.
+
+**The key insight:** Power = voltage × current — this tells you how much energy is being used per second.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

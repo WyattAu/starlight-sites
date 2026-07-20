@@ -9,6 +9,14 @@ categories:
 
 ---
 
+## Intuition
+
+**Parallel processing in Haskell:** Haskell's concurrency model is like having multiple workers — lightweight threads (forkIO) communicate through shared variables (MVar) to coordinate tasks.
+
+**Why it matters:** Haskell's pure functional approach to concurrency avoids many common pitfalls like race conditions and deadlocks.
+
+**The key insight:** MVar acts like a mailbox — threads can send and receive messages, ensuring safe communication between concurrent tasks.
+
 ## Concurrency vs Parallelism
 
 **Concurrency** means dealing with many things at once -- structuring a program as multiple

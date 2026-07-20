@@ -6,6 +6,15 @@ tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
 
+## Intuition
+
+**Monetary policy is like adjusting the fuel supply to an engine — central banks control interest rates and money supply to regulate economic activity:** Central banks balance inflation control with growth promotion, using tools like interest rates and quantitative easing
+
+**Why it matters:** Monetary policy decisions affect everything from mortgage rates to employment to exchange rates
+
+**The key insight:** Central banks balance inflation control with growth promotion, using tools like interest rates and quantitative easing
+
+
 ## Inflation
 
 ### Measuring Inflation

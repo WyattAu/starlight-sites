@@ -75,6 +75,15 @@ Action and collective responsibility.
 
 ---
 
+## Intuition
+
+**Chronicle is like a detective story told backwards — we know the murder will happen, but the mystery is why no one stopped it:** García Márquez uses circular narrative to show how community complicity and cultural codes lead to inevitable tragedy
+
+**Why it matters:** This novella explores themes of honor, fate, and collective responsibility that transcend its Colombian setting
+
+**The key insight:** García Márquez uses circular narrative to show how community complicity and cultural codes lead to inevitable tragedy
+
+
 ## 2. Narrative Structure and Technique
 
 ### The Circular Narrative

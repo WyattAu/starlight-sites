@@ -174,6 +174,14 @@ Denitrifying bacteria reduce the amount of nitrogen available to plants.
 
 ---
 
+## Intuition
+
+**Life's grand narrative:** Evolution is like a branching tree — species diverge from common ancestors, adapting to their environments through natural selection. Ecology studies how these species interact.
+
+**Why it matters:** From antibiotic resistance to climate change adaptation, evolution and ecology explain how life responds to environmental pressures.
+
+**The key insight:** Natural selection doesn't create perfect organisms — it favors those good enough to survive and reproduce in their current environment.
+
 ## Integration Test 1: Eutrophication
 
 **Question**

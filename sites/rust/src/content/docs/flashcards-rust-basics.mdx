@@ -10,7 +10,6 @@ tags:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcardData } from '@/data/flashcards/rust/flashcards-rust-basics-data.js';
 
-
 ## Rust -- Fundamentals Flashcards
 
 20 interactive flashcards covering core Rust concepts from ownership and borrowing to macros and
@@ -18,5 +17,16 @@ unsafe. Press Space to flip, rate 1-4.
 
 ---
 
+## Intuition
 
-<FlashcardDeck client:only="solid-js" deckId="rust-basics" title="Rust -- Fundamentals" description="20 interactive flashcards covering ownership, borrowing, lifetimes, traits, generics, error handling, concurrency, macros, and unsafe." cards={flashcardData}  /> 
+Rust achieves memory safety without a garbage collector through its ownership system. Every value has exactly one owner, and when that owner goes out of scope, the value is dropped. Borrowing lets you use values without taking ownership — `&T` for shared read access, `&mut T` for exclusive write access. The compiler enforces these rules at compile time, catching data races and memory bugs before the code runs.
+
+## Common Pitfalls
+
+- **Borrow checker fights**: Trying to mutate data while an immutable borrow is still in scope — the compiler rejects this to prevent data races. Restructure your code to limit borrow lifetimes.
+- **Clone overuse**: Calling `.clone()` to satisfy the borrow checker avoids the real issue — understand when to use owned vs borrowed data, and consider `Rc<T>` or `Arc<T>` for shared ownership.
+- **Unwrap panics**: Using `.unwrap()` on a `Result::Err` or `Option::None` panics at runtime — handle errors with `?`, `match`, or `if let` instead.
+
+---
+
+<FlashcardDeck client:only="solid-js" deckId="rust-basics" title="Rust -- Fundamentals" description="20 interactive flashcards covering ownership, borrowing, lifetimes, traits, generics, error handling, concurrency, macros, and unsafe." cards={flashcardData}  />

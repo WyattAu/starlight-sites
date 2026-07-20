@@ -466,6 +466,14 @@ Key factors that affect reproducibility:
 4. **File system ordering:** Some build systems iterate over files in directory order, which varies
    across platforms.
 
+## Intuition
+
+**Avoiding redundant work:** Build caching is like memoization — it remembers previous build results and reuses them when nothing has changed.
+
+**Why it matters:** Build caching dramatically speeds up incremental builds, saving development time.
+
+**The key insight:** Cache invalidation is the hard part — understanding what triggers rebuilds helps you design better build systems.
+
 ## Common Pitfalls
 
 ### 1. Timestamp Mismatches

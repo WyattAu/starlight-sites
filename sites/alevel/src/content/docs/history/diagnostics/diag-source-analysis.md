@@ -4,6 +4,11 @@ description: "Self-assessment quiz on A-Level History source analysis"
 sidebar_position: 30
 ---
 
+
+## Intuition
+
+**History is like a vast library of human experience — learning from the past to understand the present.**
+
 # Diagnostic Test: Source Analysis
 
 Answer each question. Check your answers against the key at the end.

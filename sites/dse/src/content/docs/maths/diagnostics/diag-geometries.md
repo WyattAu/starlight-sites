@@ -388,6 +388,14 @@ $$x = 25°$$
 
 ---
 
+## Intuition
+
+**A playground of shapes:** Geometry is like a detective story — you use clues (angles, lengths, parallel lines) to prove facts about shapes. Circle theorems are the "secret rules" that govern how angles and lines behave around circles.
+
+**Why it matters:** From architecture to navigation, geometry helps you calculate distances, prove designs work, and understand spatial relationships that are invisible to the naked eye.
+
+**The key insight:** In circle geometry, the angle at the center is always double the angle at the circumference when subtended by the same arc — this single fact unlocks dozens of problems.
+
 ## Common Pitfalls
 
 1. **Confusing the angle at the centre with the angle at the circumference.** The angle at the

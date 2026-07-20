@@ -4,6 +4,11 @@ description: "A-Level Further Maths Further Algebra -- Diagnostic Tests notes co
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Further Algebra — Diagnostic Tests
 
 ## Unit Tests

@@ -719,6 +719,14 @@ Towards light but roots bend away from it when auxin redistributes.
 
 ---
 
+## Intuition
+
+**Solar-powered factories:** Plants are like solar panels that make food — photosynthesis captures sunlight and converts it into chemical energy. Transpiration is the plant's cooling system.
+
+**Why it matters:** From agriculture to climate change, plant biology underpins food security and environmental health. Understanding photosynthesis helps improve crop yields.
+
+**The key insight:** Photosynthesis and respiration are complementary processes — plants make glucose using sunlight, then break it down for energy, just like animals.
+
 ## Common Pitfalls
 
 1. **Confusing xylem and phloem transport:** Xylem carries water and minerals UPWARDS (one-way).

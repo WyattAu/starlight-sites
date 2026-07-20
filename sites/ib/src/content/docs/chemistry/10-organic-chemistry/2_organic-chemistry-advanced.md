@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**Advanced organic chemistry is like molecular engineering — understanding reaction mechanisms allows precise synthesis of complex molecules:** Reaction mechanisms show electron flow through curved arrows, revealing why reactions occur and how to control them
+
+**Why it matters:** Advanced organic chemistry enables drug synthesis, materials design, and understanding biochemical pathways
+
+**The key insight:** Reaction mechanisms show electron flow through curved arrows, revealing why reactions occur and how to control them
+
+
 ## 1. Reaction Mechanisms
 
 ### SN1 Mechanism (Unimolecular Nucleophilic Substitution)

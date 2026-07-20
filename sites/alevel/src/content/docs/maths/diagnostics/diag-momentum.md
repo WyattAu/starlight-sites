@@ -4,6 +4,11 @@ description: "A-Level Maths Momentum -- Diagnostic Tests notes covering key defi
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Momentum — Diagnostic Tests
 
 ## Unit Tests

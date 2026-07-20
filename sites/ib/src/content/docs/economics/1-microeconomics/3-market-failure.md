@@ -6,6 +6,15 @@ tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
 
+## Intuition
+
+**Market failure is like a broken compass — the market's invisible hand sometimes points in the wrong direction:** Externalities, public goods, and information asymmetries cause markets to produce inefficient outcomes
+
+**Why it matters:** Understanding market failure justifies government intervention and helps design better policies
+
+**The key insight:** Externalities, public goods, and information asymmetries cause markets to produce inefficient outcomes
+
+
 ## Market Failure
 
 Market failure occurs when the free market fails to allocate resources efficiently, resulting in a

@@ -200,6 +200,14 @@ exponentially: $100\% \to 10\% \to 1\% \to 0.1\% \to 0.01\%$. After 4--5 levels,
 available is too small to support a viable population of predators. There is insufficient energy to
 sustain another trophic level.
 
+## Intuition
+
+**Energy's journey:** Bioenergetics is like tracking money through an economy — energy flows from the sun through food chains, with each level keeping some and losing the rest as heat.
+
+**Why it matters:** Understanding energy transfer explains why food chains are short, why decomposers matter, and how ecosystems sustain themselves.
+
+**The key insight:** Only about 10% of energy transfers between trophic levels — the rest is lost as heat through respiration.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

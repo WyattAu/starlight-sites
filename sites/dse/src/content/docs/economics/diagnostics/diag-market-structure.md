@@ -248,6 +248,14 @@ Consumers' marginal benefit exceeds the marginal cost of production. These mutua
 Trades do not occur, creating a deadweight loss. The monopoly maximises its own profit rather than
 Total social surplus, leading to an underallocation of resources to this good.
 
+## Intuition
+
+**A spectrum of competition:** Market structures range from perfect competition (many small firms, identical products) to monopoly (one firm controls everything). Each structure determines how firms set prices and earn profits.
+
+**Why it matters:** From Uber to local restaurants, market structure determines pricing power, innovation, and consumer welfare. Antitrust laws exist to prevent harmful monopolies.
+
+**The key insight:** In the long run, perfectly competitive firms earn zero economic profit — entry of new firms drives prices down to average cost.
+
 ## Additional DSE Exam-Style Questions
 
 ### EQ-1: Natural Monopoly and Regulation in Hong Kong

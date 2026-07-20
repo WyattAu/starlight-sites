@@ -916,6 +916,14 @@ Trade-offs:
 - Test runtimes are longer
 - Complex dependency graphs between sub-apps
 
+## Intuition
+
+**Quality assurance:** Testing is like proof-reading your code — it catches errors before they reach users. Deployment is shipping your finished product to customers.
+
+**Why it matters:** Good testing practices prevent bugs and improve code quality. Automated deployment ensures consistency and reliability.
+
+**The key insight:** Test early, test often — catching bugs early is much cheaper than fixing them in production.
+
 ## Summary
 
 Elixir provides a comprehensive testing and deployment story:

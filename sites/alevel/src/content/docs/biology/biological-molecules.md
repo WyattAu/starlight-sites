@@ -281,6 +281,11 @@ but do **not** change the $\Delta H$ or equilibrium position.
 
 ---
 
+
+## Intuition
+
+**Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
+
 ## Summary
 
 Biological molecules are the building blocks of life. The key themes:

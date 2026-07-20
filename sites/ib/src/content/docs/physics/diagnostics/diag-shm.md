@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Simple Harmonic Motion — Diagnostic Tests
 
+## Intuition
+
+**Simple harmonic motion is like a pendulum's heartbeat — a restoring force always pulls the system back toward equilibrium, creating rhythmic oscillation:** Any system with a linear restoring force will oscillate sinusoidally, making SHM the universal language of vibrations and waves
+
+**Why it matters:** From musical instruments to earthquake-resistant buildings, SHM principles help us understand and control oscillatory systems
+
+**The key insight:** Any system with a linear restoring force will oscillate sinusoidally, making SHM the universal language of vibrations and waves
+
+
 ## Unit Tests
 
 ### UT-1: Verifying the SHM Condition

@@ -4,6 +4,11 @@ description: "A-Level Chemistry Alkanes and Alkenes -- Diagnostic Tests notes co
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
+
 # Alkanes and Alkenes — Diagnostic Tests
 
 ## Unit Tests

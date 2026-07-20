@@ -622,6 +622,14 @@ version-file = "src/mylib/_version.py"
 
 This generates a `_version.py` from git tags, so you never have to update version numbers manually.
 
+## Intuition
+
+**Sharing your code:** Packaging is like wrapping a gift — it makes your code easy to install and use by others. Distribution is getting that gift to people who need it.
+
+**Why it matters:** Proper packaging makes your code reusable and maintainable. It's the difference between a script and a professional project.
+
+**The key insight:** Virtual environments isolate dependencies — different projects can use different versions of the same library without conflicts.
+
 ## Common Pitfalls
 
 ### 1. Forgetting \_\_init\_\_.py

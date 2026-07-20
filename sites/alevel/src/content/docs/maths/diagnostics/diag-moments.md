@@ -4,6 +4,11 @@ description: "A-Level Maths Moments -- Diagnostic Tests notes covering key defin
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Moments — Diagnostic Tests
 
 ## Unit Tests

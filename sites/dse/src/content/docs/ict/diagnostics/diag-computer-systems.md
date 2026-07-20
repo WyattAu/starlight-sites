@@ -113,6 +113,14 @@ functionality enables intuitive user interfaces on smartphones and tablets.
 
 ---
 
+## Intuition
+
+**A brain with parts:** The CPU is like a brain — the ALU does calculations, the Control Unit directs traffic, and registers are the working memory. The fetch-decode-execute cycle is the heartbeat of computation.
+
+**Why it matters:** Understanding computer architecture explains why some programs are fast and others slow, and how hardware choices affect software performance.
+
+**The key insight:** Everything in a computer is just bits — the same hardware can represent numbers, text, images, or instructions depending on how you interpret the patterns.
+
 ## Integration Tests
 
 ### IT-1: CPU and Performance (with Data Representation)

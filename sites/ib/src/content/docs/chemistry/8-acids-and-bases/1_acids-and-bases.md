@@ -8,6 +8,15 @@ categories:
   - ib
 ---
 
+## Intuition
+
+**Acids and bases are like chemical opposites that neutralize each other — protons (H⁺) are transferred from acid to base:** The pH scale provides a logarithmic measure of hydrogen ion concentration, governing chemical and biological processes
+
+**Why it matters:** Acid-base chemistry is fundamental to buffer systems, titrations, and biological homeostasis
+
+**The key insight:** The pH scale provides a logarithmic measure of hydrogen ion concentration, governing chemical and biological processes
+
+
 ## Bronsted-Lowry Theory
 
 ### Definitions

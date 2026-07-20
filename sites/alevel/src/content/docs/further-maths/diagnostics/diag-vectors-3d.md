@@ -4,6 +4,11 @@ description: "A-Level Further Maths Vectors in 3D -- Diagnostic Tests notes cove
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Vectors in 3D — Diagnostic Tests
 
 ## Unit Tests

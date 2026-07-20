@@ -228,6 +228,14 @@ applied, the layers can slide easily over one another, making graphite a good lu
 property arises directly from the combination of strong in-layer covalent bonding (which gives the
 layers structural integrity) and weak inter-layer forces (which allow the layers to slide).
 
+## Intuition
+
+**Atoms holding hands:** Chemical bonds are how atoms share or transfer electrons to become more stable. Ionic bonds are like opposites attracting (metal gives electrons to nonmetal); covalent bonds are sharing (nonmetals share electrons).
+
+**Why it matters:** Bonding determines whether a substance is a conductor, a gas, or a crystal. From DNA's double helix to diamond's hardness, bonding explains material properties.
+
+**The key insight:** Molecular shape (VSEPR) determines polarity, and polarity determines intermolecular forces — chain reaction from atomic scale to macroscopic properties.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

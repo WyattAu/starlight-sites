@@ -14,6 +14,15 @@ categories:
 The IB does not expect a specific standard of Java to be taught but a subset of Java called JETS for
 Students to present OOP concepts
 
+## Intuition
+
+**OOP is like building with LEGO — objects are modular, reusable blocks that can be combined to create complex systems:** Encapsulation, inheritance, and polymorphism allow programmers to model real-world entities and relationships in code
+
+**Why it matters:** OOP is the dominant paradigm for building large, maintainable software systems
+
+**The key insight:** Encapsulation, inheritance, and polymorphism allow programmers to model real-world entities and relationships in code
+
+
 ## Conventions
 
 ### Styles

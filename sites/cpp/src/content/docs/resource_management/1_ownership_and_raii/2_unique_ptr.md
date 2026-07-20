@@ -582,6 +582,14 @@ int main() {
 `unique_ptr` to null. The caller assumes responsibility for cleanup. Use `release()` only when you
 Are transferring ownership to another mechanism (e.g., a C API that takes ownership).
 </aside>
+## Intuition
+
+**Exclusive ownership:** std::unique_ptr is like a deed to a house — only one person can own it at a time, and when they leave, the house is demolished.
+
+**Why it matters:** unique_ptr provides automatic memory management without garbage collection overhead, preventing memory leaks and dangling pointers.
+
+**The key insight:** unique_ptr has zero overhead compared to raw pointers — it's the default choice for heap-allocated objects.
+
 ## Common Pitfalls
 
 ### Using `unique_ptr` with Arrays Incorrectly

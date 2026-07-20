@@ -770,6 +770,14 @@ public synchronized void doWorkSync() {
 }
 ```
 
+## Intuition
+
+**Deep dive into parallelism:** Advanced concurrency is like managing a team of workers — locks, semaphores, and executors are tools for coordinating parallel tasks efficiently.
+
+**Why it matters:** Deep understanding of concurrency helps you build high-performance, thread-safe applications that scale to millions of users.
+
+**The key insight:** Lock-free algorithms can be faster than traditional synchronization — they avoid the overhead of acquiring and releasing locks.
+
 ## Common Pitfalls
 
 ### Forgetting `finally { lock.unlock(); }`

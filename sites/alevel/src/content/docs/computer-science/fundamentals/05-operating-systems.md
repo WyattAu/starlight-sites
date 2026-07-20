@@ -727,6 +727,11 @@ The same file, and the owner can modify the ACL to add or revoke permissions at 
 
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

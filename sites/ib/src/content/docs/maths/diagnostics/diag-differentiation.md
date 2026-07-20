@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Differentiation — Diagnostic Tests
 
+## Intuition
+
+**Differentiation is like finding the instantaneous speed of a car — it tells you the rate of change at any exact moment, not just the average over time:** The derivative captures the slope of a curve at any point, revealing how fast one quantity changes relative to another
+
+**Why it matters:** From optimizing business profits to modeling population growth, differentiation is the calculus of change
+
+**The key insight:** The derivative captures the slope of a curve at any point, revealing how fast one quantity changes relative to another
+
+
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for differentiation.

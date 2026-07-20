@@ -10,6 +10,11 @@ categories:
 description: "A-Level English exam techniques: essay planning, PEE/PEEL structure, comparison strategies, context integration, AO breakdown, and time management."
 ---
 
+
+## Intuition
+
+**English literature explores the human experience through language — words painting pictures of life.**
+
 # Exam Techniques
 
 ## Introduction

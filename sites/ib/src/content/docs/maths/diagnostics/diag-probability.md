@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Probability — Diagnostic Tests
 
+## Intuition
+
+**Probability is like a weather forecast for uncertainty — it quantifies how likely events are, from coin flips to complex systems:** Probability theory provides a rigorous framework for reasoning about uncertainty, turning vague intuition into precise calculation
+
+**Why it matters:** From gambling odds to medical diagnoses to climate models, probability governs how we make decisions under uncertainty
+
+**The key insight:** Probability theory provides a rigorous framework for reasoning about uncertainty, turning vague intuition into precise calculation
+
+
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and misconceptions for probability.

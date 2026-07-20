@@ -910,6 +910,11 @@ Compounds with other chemistry topics to test synthesis under exam conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 
+
+## Intuition
+
+**Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
+
 ## Summary
 
 This topic covers the essential chemistry of carbonyl compounds, including key reactions, underlying

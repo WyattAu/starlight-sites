@@ -1122,6 +1122,14 @@ class PigeonSearchDataSource implements SearchDataSource {
 
 ---
 
+## Intuition
+
+**Connecting to the world:** Networking is like building bridges — it lets your app communicate with servers, databases, and other devices across the network.
+
+**Why it matters:** Most modern apps need network connectivity. Understanding HTTP, APIs, and data serialization is essential for building connected applications.
+
+**The key insight:** JSON is the lingua franca of web APIs — almost all web services communicate using JSON-formatted data.
+
 ## Common Pitfalls
 
 ### Not Running on the Main Thread

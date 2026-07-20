@@ -430,6 +430,14 @@ Behavior** and manifests as corrupted floating-point values or subtle numerical 
 3. Use C++20 Modules, which enforce a single definition point per module interface.
 4. Use `-fvisibility=hidden` to minimize the symbol surface and reduce collision risk.
 ---
+## Intuition
+
+**Controlling what's visible:** Symbol visibility is like deciding what to show on a store window — some symbols are public (visible to other translation units), others are private.
+
+**Why it matters:** Proper visibility control reduces binary size, improves link times, and prevents symbol conflicts.
+
+**The key insight:** Hidden visibility is the default in many modern build systems — explicitly marking symbols as visible improves build performance.
+
 ## Common Pitfalls
 - **Using `static` for constants in headers instead of `inline`.** In C++17 and later, prefer
   `static inline` or `inline` for header-only constants. `static` creates a separate copy in every

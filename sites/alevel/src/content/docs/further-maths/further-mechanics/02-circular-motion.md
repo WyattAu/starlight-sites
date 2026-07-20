@@ -10,6 +10,11 @@ categories:
 
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 ## Circular Motion
 
 Circular motion in further mathematics extends the basic treatment to include banked tracks, conical

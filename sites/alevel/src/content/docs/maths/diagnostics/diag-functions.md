@@ -4,6 +4,11 @@ description: "A-Level Maths Functions -- Diagnostic Tests notes covering key def
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Functions — Diagnostic Tests
 
 ## Unit Tests

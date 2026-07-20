@@ -8,6 +8,15 @@ categories:
   - ib
 ---
 
+## Intuition
+
+**Boolean logic is like a set of light switches — TRUE and FALSE, AND, OR, and NOT control the flow of information:** All digital computation reduces to Boolean operations — from simple calculators to complex AI systems
+
+**Why it matters:** Understanding Boolean logic is essential for programming, circuit design, and algorithm development
+
+**The key insight:** All digital computation reduces to Boolean operations — from simple calculators to complex AI systems
+
+
 ## Boolean Algebra Fundamentals
 
 Boolean algebra is a branch of mathematics that operates on binary values: 1 (true) and 0 (false).

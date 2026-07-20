@@ -6,6 +6,15 @@ tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
 
+## Intuition
+
+**The balance of payments is like a country's financial diary — it records all transactions with the rest of the world:** Persistent imbalances in the balance of payments can signal economic vulnerabilities or strengths
+
+**Why it matters:** Understanding balance of payments helps explain exchange rate movements, trade policies, and economic stability
+
+**The key insight:** Persistent imbalances in the balance of payments can signal economic vulnerabilities or strengths
+
+
 ## Balance of Payments
 
 The balance of payments is a record of all economic transactions between residents of a country and

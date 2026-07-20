@@ -4,6 +4,11 @@ description: "A-Level Physics Circular Motion -- Diagnostic Tests notes covering
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
+
 # Circular Motion — Diagnostic Tests
 
 ## Unit Tests

@@ -393,6 +393,14 @@ $$= 1 - \frac{1}{n+1} = \frac{n}{n+1}$$
 
 ---
 
+## Intuition
+
+**Patterns with rules:** Sequences are like domino chains — arithmetic sequences add a fixed amount each step, geometric sequences multiply by a fixed ratio. The sum formulas count all the dominoes at once.
+
+**Why it matters:** From compound interest to population growth, sequences model anything that changes by regular steps. Knowing whether something grows additively or multiplicatively determines the long-term behavior.
+
+**The key insight:** A geometric series converges (has a finite sum) only when |r| < 1 — otherwise the terms keep growing and the sum is infinite.
+
 ## Common Pitfalls
 
 1. **Confusing arithmetic and geometric sequences.** An arithmetic sequence has a constant

@@ -483,6 +483,14 @@ The code model is `small` (default) but the binary exceeds 2GB.
 clang++ -mcmodel=large ...
 ```
 ---
+## Intuition
+
+**Connecting code:** The linker is like a puzzle assembler — it connects object files into an executable, resolving references between them.
+
+**Why it matters:** Understanding linking helps you organize code into libraries and debug "undefined reference" errors.
+
+**The key insight:** Linker scripts control how sections are arranged — they're essential for embedded systems and custom memory layouts.
+
 ## Common Pitfalls
 - **Forgetting `-Wl,-z,relro,-z,now` on production builds.** This leaves the GOT writable, exposing
   your binary to GOT overwrite attacks.

@@ -505,6 +505,14 @@ void zero_init(T& obj) {
 }
 ```
 
+## Intuition
+
+**Direct member initialization:** Aggregate initialization is like filling in a form — you provide values for each member in order, without calling a constructor.
+
+**Why it matters:** Aggregates are simple data carriers, and aggregate initialization provides a clean, efficient way to initialize them.
+
+**The key insight:** Aggregates can have default member initializers — you can omit values during initialization, and members will use their defaults.
+
 ## Common Pitfalls
 
 ### 1. Adding a Member Breaks Positional Initialization

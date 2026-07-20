@@ -10,6 +10,11 @@ categories:
 
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 ## Poisson and Geometric Distributions
 
 The Poisson and geometric distributions model discrete random variables arising from counting

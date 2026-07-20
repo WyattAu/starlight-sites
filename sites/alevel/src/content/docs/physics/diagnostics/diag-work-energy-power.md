@@ -4,6 +4,11 @@ description: "A-Level Physics Work, Energy and Power -- Diagnostic Tests notes c
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
+
 # Work, Energy and Power — Diagnostic Tests
 
 ## Unit Tests

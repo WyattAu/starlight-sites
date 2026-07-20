@@ -10,6 +10,11 @@ categories:
 description: "A-Level English revision notes on twentieth-century literature: modernism, post-war fiction, contemporary voices, and key literary techniques."
 ---
 
+
+## Intuition
+
+**English literature explores the human experience through language — words painting pictures of life.**
+
 # Twentieth-Century Literature
 
 ## Introduction

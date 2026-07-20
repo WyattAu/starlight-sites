@@ -5,6 +5,15 @@ tags:
 description: "Gabriel Garcia Marquez is a leftist and critic of authoritarianism, with frequent advocates for Social justice and progressive change. Most of his work"
 ---
 
+## Intuition
+
+**Chronicle is like a puzzle with missing pieces — the narrator reconstructs events, but gaps remain, mirroring the community's selective memory:** The novel's structure mimics the way communities construct narratives about traumatic events
+
+**Why it matters:** Understanding the narrative technique is key to grasping the novella's commentary on truth, memory, and social pressure
+
+**The key insight:** The novel's structure mimics the way communities construct narratives about traumatic events
+
+
 ## Author Context
 
 Gabriel Garcia Marquez is a leftist and critic of authoritarianism, with frequent advocates for

@@ -117,6 +117,14 @@ categories:
 - ndk version mismatch
 - Set `ndkVersion` in build.gradle.kts to the specific ndk version installed
 
+## Intuition
+
+**Writing clean code:** Best practices are like good manners — they make your code easier for others (and future you) to read, understand, and maintain.
+
+**Why it matters:** Clean code is easier to debug, test, and extend. It reduces bugs and improves team productivity.
+
+**The key insight:** Code is read much more often than it's written — optimize for readability, not cleverness.
+
 ## Common Pitfalls
 
 1. Neglecting to normalise database designs, leading to data redundancy and update anomalies.

@@ -4,6 +4,11 @@ description: "A-Level Further Maths Complex Numbers -- Diagnostic Tests notes co
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Complex Numbers — Diagnostic Tests
 
 ## Unit Tests

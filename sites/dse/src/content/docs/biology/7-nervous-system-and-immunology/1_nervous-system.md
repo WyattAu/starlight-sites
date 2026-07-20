@@ -740,6 +740,14 @@ accordingly.
 
 ---
 
+## Intuition
+
+**The body's wiring:** The nervous system is like an electrical grid — neurons carry signals at lightning speed, synapses are the switches, and the brain is the control center.
+
+**Why it matters:** From reflexes to thinking, the nervous system controls every action. Understanding it helps explain neurological disorders and treatments.
+
+**The key insight:** Nerve impulses travel in one direction — from dendrite to axon — because of how ion channels are arranged along the neuron.
+
 ## Common Pitfalls
 
 1. **Writing that the action potential "travels" along the neuron:** The action potential does not

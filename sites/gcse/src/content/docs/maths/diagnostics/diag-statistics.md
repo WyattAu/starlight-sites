@@ -225,6 +225,14 @@ $P(\text{one of each) = \frac{15 \times 21}{36 \times 35} \times 2 = \frac{630}{
 (d)
 $P(\text{exactly 2 red in 3) = \frac{\binom{15}{2} \times \binom{21}{1}}{\binom{36}{3}} = \frac{105 \times 21}{7140} = \frac{2205}{7140} = \frac{441}{1428} = \frac{147}{476} \approx 0.309$.
 
+## Intuition
+
+**Data tells stories:** Statistics is like being a detective — you collect clues (data), analyze patterns, and draw conclusions. Mean, median, and mode are different ways to summarize the center of a dataset.
+
+**Why it matters:** From polling data to medical research, statistics helps you make sense of information. Understanding statistics helps you evaluate claims and make informed decisions.
+
+**The key insight:** Correlation doesn't imply causation — just because two things happen together doesn't mean one causes the other.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

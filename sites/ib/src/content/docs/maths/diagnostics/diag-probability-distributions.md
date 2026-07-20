@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Probability Distributions — Diagnostic Tests
 
+## Intuition
+
+**Probability distributions are like maps of uncertainty — they show where outcomes are likely to cluster and how spread out possibilities are:** The normal distribution's bell curve appears everywhere in nature because many small random effects combine to produce predictable patterns
+
+**Why it matters:** Understanding distributions enables risk assessment, quality control, medical research, and data-driven decision making
+
+**The key insight:** The normal distribution's bell curve appears everywhere in nature because many small random effects combine to produce predictable patterns
+
+
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for probability distributions.

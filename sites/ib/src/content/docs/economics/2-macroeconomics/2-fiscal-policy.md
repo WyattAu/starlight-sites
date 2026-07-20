@@ -6,6 +6,15 @@ tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
 
+## Intuition
+
+**Fiscal policy is like a thermostat for the economy — government spending and taxation turn the heat up or down:** Fiscal policy can stabilize economies in recession or cool overheating, but requires careful timing and political will
+
+**Why it matters:** Understanding fiscal policy is essential for evaluating government economic decisions and their impacts
+
+**The key insight:** Fiscal policy can stabilize economies in recession or cool overheating, but requires careful timing and political will
+
+
 ## Fiscal Policy
 
 Fiscal policy involves government decisions about taxation and spending to influence the economy.

@@ -4,6 +4,11 @@ description: "A-Level Physics Gravitational Fields -- Diagnostic Tests notes cov
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Gravity is like an invisible rubber sheet that bends under the weight of massive objects, guiding their motion.**
+
 # Gravitational Fields — Diagnostic Tests
 
 ## Unit Tests

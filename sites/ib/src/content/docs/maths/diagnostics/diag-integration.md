@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Integration — Diagnostic Tests
 
+## Intuition
+
+**Integration is like adding up infinitely many infinitely thin slices — it's the mathematical tool for finding total quantities from rates of change:** Integration and differentiation are inverse operations — the fundamental theorem of calculus connects accumulation with instantaneous change
+
+**Why it matters:** Integration calculates areas, volumes, probabilities, and totals that would be impossible to measure directly
+
+**The key insight:** Integration and differentiation are inverse operations — the fundamental theorem of calculus connects accumulation with instantaneous change
+
+
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for integration.

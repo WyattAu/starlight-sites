@@ -170,6 +170,14 @@ Immediately after opening: the parachute suddenly increases the drag force drama
 As speed decreases, drag decreases until it equals weight again at the new, lower terminal velocity
 of 5 m/s.
 
+## Intuition
+
+**Pushes and pulls:** Forces are like invisible hands that change how things move — from gravity pulling you down to friction slowing you down. Newton's laws describe how forces affect motion.
+
+**Why it matters:** From vehicle safety to sports performance, understanding forces helps you design better systems and explain everyday phenomena.
+
+**The key insight:** Net force equals mass times acceleration — if forces are balanced, there's no acceleration.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

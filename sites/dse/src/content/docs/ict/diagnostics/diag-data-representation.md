@@ -110,6 +110,14 @@ $= 254,016,000 / 8 = 31,752,000 \text{ bytes} \approx 30.27$ MB.
 
 ---
 
+## Intuition
+
+**A universal translator:** Data representation is like translating between languages — the same number 42 can be written as 101010 in binary, 52 in octal, or 2A in hexadecimal. Two's complement lets computers do subtraction by adding.
+
+**Why it matters:** Every piece of data — text, images, sound — must be encoded as bits. Understanding encoding explains file sizes, compression limits, and why some characters need special handling.
+
+**The key insight:** Binary is just another way to count — the same arithmetic you use daily works in base 2, base 16, or any base.
+
 ## Integration Tests
 
 ### IT-1: Binary Arithmetic and Logic (with Computer Systems)

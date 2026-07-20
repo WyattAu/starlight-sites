@@ -431,6 +431,14 @@ Since $f(a) = f(b) \implies a = b$The function is **injective**.
 
 ---
 
+## Intuition
+
+**A machine with input and output:** A function is like a vending machine — put in a specific item (input), get out a specific snack (output). Composition is chaining machines: the output of one becomes the input of the next. The inverse is the undo button.
+
+**Why it matters:** Functions model everything from bacterial growth to financial returns. Understanding domain, range, and composition lets you predict system behavior and reverse-engineer processes.
+
+**The key insight:** The inverse function "undoes" the original — f⁻¹(f(x)) = x — but only works when the function is one-to-one.
+
 ## Common Pitfalls
 
 1. **Confusing $f^{-1}$ with the reciprocal $\dfrac{1}{f}$.** The notation $f^{-1}$ denotes the

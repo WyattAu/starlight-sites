@@ -147,6 +147,14 @@ pressure, volume, or addition of inert gas do not affect the value of the equili
 
 ---
 
+## Intuition
+
+**A tug-of-war that never ends:** Chemical equilibrium is like two teams pulling on a rope — both forward and reverse reactions happen at the same rate, so concentrations don't change, but reactions haven't stopped.
+
+**Why it matters:** From industrial ammonia production to blood oxygen transport, equilibrium determines how much product you get. Le Chatelier's principle predicts how systems respond to disturbances.
+
+**The key insight:** Changing concentration or pressure shifts equilibrium, but changing temperature changes the equilibrium constant itself — this distinction is crucial.
+
 ## Integration Test 1: Kc + Kp Conversion
 
 **Question**

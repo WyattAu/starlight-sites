@@ -1086,6 +1086,14 @@ $$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
 - Negative control: a disc with no antibiotic (confirms that the bacteria can grow on the agar and
   that the clear zone is caused by the antibiotic, not by the disc itself) :::
 
+## Intuition
+
+**An army within:** The immune system is like a defense force — white blood cells are soldiers, antibodies are targeted weapons, and memory cells are intelligence officers who remember past invaders.
+
+**Why it matters:** From vaccines to autoimmune diseases, immunology explains how the body fights disease and sometimes mistakenly attacks itself.
+
+**The key insight:** Immunity has two branches — innate (fast, general) and adaptive (slow, specific) — working together provides comprehensive protection.
+
 ## Common Pitfalls
 
 1. Using anecdotal evidence or small sample sizes as though they constitute robust scientific data.

@@ -595,6 +595,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**Alternative return values:** std::optional is like a box that might be empty — it represents a value that might not exist. std::variant is like a tagged union — it holds exactly one of several types.
+
+**Why it matters:** These types make error handling explicit and type-safe, avoiding null pointer errors and union-related undefined behavior.
+
+**The key insight:** std::optional eliminates the need for sentinel values — instead of returning -1 for "not found," return an empty optional.
+
 ## Common Pitfalls
 
 - **Using `*opt` without checking.** Dereferencing an empty `std::optional` is undefined behavior.

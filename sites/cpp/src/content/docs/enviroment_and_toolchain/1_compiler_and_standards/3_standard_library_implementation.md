@@ -716,6 +716,14 @@ extern "C" {
 }
 ```
 
+## Intuition
+
+**Standard library internals:** The standard library is like a toolbox — different implementations (libstdc++, libc++, MSVC STL) provide the same tools with different performance characteristics.
+
+**Why it matters:** Understanding standard library implementations helps you choose the right one for your project and optimize performance.
+
+**The key insight:** Each implementation has trade-offs — libc++ is optimized for Clang, libstdc++ for GCC.
+
 ## Common Pitfalls
 
 1. **Ignoring the dual ABI on older GCC:** If you link against a library compiled with GCC 5

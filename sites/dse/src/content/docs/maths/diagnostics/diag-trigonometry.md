@@ -401,6 +401,14 @@ $$d = \frac{80}{\tan 30°} = \frac{80}{1/\sqrt{3}} = 80\sqrt{3} \approx 138.6 \t
 
 ---
 
+## Intuition
+
+**A clock and a circle:** Trigonometry is like measuring angles on a clock — sine, cosine, and tangent tell you the ratio of sides in a right triangle, which is really just the coordinates of a point on a unit circle.
+
+**Why it matters:** From GPS navigation to music synthesis, trigonometry models periodic phenomena. The sine rule and cosine rule let you solve any triangle, not just right-angled ones.
+
+**The key insight:** All trig functions are really just ratios of sides in a right triangle — once you see this, identities and equations become geometry problems in disguise.
+
 ## Common Pitfalls
 
 1. **Missing solutions in trigonometric equations.** When solving $\cos x \cdot f(x) = 0$You must

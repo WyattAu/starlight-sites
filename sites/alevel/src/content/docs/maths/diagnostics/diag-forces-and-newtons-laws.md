@@ -4,6 +4,11 @@ description: "> Tests edge cases, boundary conditions, and common misconceptions
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Forces and Newton"s Laws — Diagnostic Tests
 
 ## Unit Tests

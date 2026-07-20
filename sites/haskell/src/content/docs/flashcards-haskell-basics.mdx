@@ -13,4 +13,16 @@ import { flashcardData } from '@/data/flashcards/haskell/flashcards-haskell-basi
 
 ---
 
+## Intuition
+
+Haskell is the language where "if it compiles, it probably works." Pure functions guarantee that the same inputs always produce the same output — no hidden state, no surprises. Lazy evaluation means expressions are not computed until their results are actually needed, which enables elegant infinite lists but can cause space leaks if you're not careful. The type system is your compiler-verified documentation.
+
+## Common Pitfalls
+
+- **Lazy evaluation traps**: Building a large thunk (unevaluated expression) by accumulating list operations without forcing evaluation — this causes stack overflow on large datasets. Use `foldl'` (strict) instead of `foldl` (lazy).
+- **Infinite types**: Writing a function that produces an infinite type (e.g., `f x = f (f x)`) — the compiler rejects this because it cannot determine a finite type.
+- **Monad confusion**: Trying to use `do` notation without understanding that it's just syntactic sugar for `(>>=)` and `(>>)` — the monad laws still apply.
+
+---
+
 <FlashcardDeck client:only="solid-js" deckId="haskell-basics" title="Haskell -- Basics" description="15 interactive flashcards covering pure functional programming, lazy evaluation, type inference, currying, pattern matching, type classes, Maybe, Either, IO, do notation, foldr, monad transformers, STM, GADTs, and State monad." cards={flashcardData} />

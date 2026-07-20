@@ -13,4 +13,16 @@ import { flashcardData } from '@/data/flashcards/haskell/flashcards-haskell-adva
 
 ---
 
+## Intuition
+
+Advanced Haskell is about abstraction at the highest level. Functors, applicatives, and monads form a hierarchy of computational effects — each builds on the previous, adding power. Monad transformers stack effects (e.g., Reader + State + IO) to build complex programs from simple, composable parts. Lenses let you focus deep into nested data structures immutably, like a surgical tool for updating one part of a record without touching the rest.
+
+## Common Pitfalls
+
+- **Monad transformer order matters**: `StateT s (ReaderT r IO) a` behaves differently from `ReaderT r (StateT s IO) a` — the outer transformer runs first, and mixing up the order changes which effects are visible where.
+- **Phantom types misuse**: A phantom type parameter (one not used in the type's definition) can enforce invariants at compile time, but forgetting to include it in data constructors leads to unsatisfiable constraints.
+- **Lens overuse**: Deep lens chains can be hard to read and debug — sometimes a plain pattern match or function composition is clearer.
+
+---
+
 <FlashcardDeck client:only="solid-js" deckId="haskell-advanced" title="Advanced Haskell" description="15 flashcards covering Functor, Applicative, Monad, MonadTrans, Foldable, Traversable, lens, STM, IORef, phantom type, kind polymorphism, type families, GADTs, coYoneda, free monad." cards={flashcardData} />

@@ -491,6 +491,14 @@ Model (`long` is 32 bits, `long long` is 64 bits), while Linux uses the LP64 mod
 Bits). This is defined by the System V AMD64 ABI specification [System V ABI] and the Microsoft x64
 Calling convention [MSVC x64 ABI] respectively.
 
+## Intuition
+
+**C++ evolution:** Language standards are like software versions — each new standard adds features and improvements while maintaining backward compatibility.
+
+**Why it matters:** Understanding standards helps you choose the right features for your project and ensure compatibility.
+
+**The key insight:** ABI compatibility matters for libraries — different compilers may not be compatible even with the same standard.
+
 ## Common Pitfalls
 
 - **Defaulting to an older standard.** GCC defaults to C++14 (or C++17 in newer versions), Clang

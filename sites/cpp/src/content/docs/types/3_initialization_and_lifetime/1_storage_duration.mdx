@@ -487,6 +487,14 @@ Config global_config;
 The Construct On First Use idiom also solves the destruction order problem: function-local statics
 Are destroyed in reverse order of their **first access**, not their declaration.
 
+## Intuition
+
+**How long data lives:** Storage duration is like the lease on an apartment — it determines how long an object exists and where it can be accessed.
+
+**Why it matters:** Understanding storage duration helps you manage resources efficiently and avoid dangling references.
+
+**The key insight:** Static storage duration objects live for the entire program — they're initialized before main() and destroyed after it.
+
 ## Common Pitfalls
 
 ### 1. Returning References to Automatic Variables

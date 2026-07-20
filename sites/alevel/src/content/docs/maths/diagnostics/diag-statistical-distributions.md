@@ -4,6 +4,11 @@ description: "A-Level Maths Statistical Distributions -- Diagnostic Tests notes 
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Statistical Distributions — Diagnostic Tests
 
 ## Unit Tests

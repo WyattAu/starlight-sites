@@ -10,6 +10,11 @@ categories:
 description: "A-Level English revision notes on Pre-1900 poetry: Romantic, Victorian, and Metaphysical poets, sonnet form, contextual factors, and close reading techniques."
 ---
 
+
+## Intuition
+
+**Poetry is like a musical composition — rhythm, imagery, and emotion woven into a few carefully chosen words.**
+
 # Pre-1900 Poetry
 
 ## Introduction

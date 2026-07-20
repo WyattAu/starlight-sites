@@ -449,6 +449,11 @@ statistically significant result.
 | Q5        | Hypothesis Testing         |     10 | P-value calculation, correct conclusion language, Type I/II errors, sample size effects |
 | **Total** |                            | **50** |                                                                                         |
 
+
+## Intuition
+
+**Statistics is like a detective story — gathering data, looking for patterns, and drawing conclusions.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

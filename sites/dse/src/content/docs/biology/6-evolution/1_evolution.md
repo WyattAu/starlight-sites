@@ -655,6 +655,14 @@ specialised for the interaction.
 
 ---
 
+## Intuition
+
+**Life's grand narrative:** Evolution is like a branching tree — species diverge from common ancestors, adapting to their environments through natural selection. The fossil record shows this branching.
+
+**Why it matters:** From antibiotic resistance to climate change adaptation, evolution explains how life responds to environmental pressures.
+
+**The key insight:** Natural selection doesn't create perfect organisms — it favors those good enough to survive and reproduce in their current environment.
+
 ## Common Pitfalls
 
 1. **Writing that evolution is "progressive" or "goal-directed":** Evolution has no direction, goal,

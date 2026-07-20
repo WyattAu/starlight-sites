@@ -577,6 +577,14 @@ void* stack_size_example(void*) {
 }
 ```
 
+## Intuition
+
+**Fast local storage:** The stack is like a stack of plates — fast to add and remove from the top, but limited in size. Local variables live on the stack.
+
+**Why it matters:** Stack allocation is fast and automatic — understanding it helps you write efficient code and avoid stack overflow.
+
+**The key insight:** Stack memory is automatically freed when functions return — this is why local variables don't need manual cleanup.
+
 ## Common Pitfalls
 
 ### 1. Large Stack Allocations

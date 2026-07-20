@@ -449,6 +449,14 @@ Kotlin coroutines are compiler-transformed suspending functions, similar to C# a
 `suspend` keyword and `Dispatchers` for thread context. Virtual threads are a runtime feature with
 No language changes required.
 
+## Intuition
+
+**Lightweight concurrency:** Virtual threads are like hiring temporary workers — they're cheap to create and manage, letting you handle thousands of tasks without the overhead of traditional threads.
+
+**Why it matters:** Virtual threads make concurrent programming accessible — you can handle many more connections without complex thread pool management.
+
+**The key insight:** Structured concurrency ensures that child tasks complete before their parent — this prevents resource leaks and makes code easier to reason about.
+
 ## Common Pitfalls
 
 ### Do Not Pool Virtual Threads

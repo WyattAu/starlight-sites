@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Atomic and Nuclear Physics — Diagnostic Tests
 
+## Intuition
+
+**An atom is like a solar system with rules — electrons orbit the nucleus at specific distances, like planets locked into fixed tracks:** Quantum mechanics shows that at the smallest scales, nature operates in discrete chunks rather than continuously, fundamentally changing how we understand matter and energy
+
+**Why it matters:** Understanding atomic structure explains everything from why elements have unique spectral colors to how nuclear energy and medical imaging work
+
+**The key insight:** Quantum mechanics shows that at the smallest scales, nature operates in discrete chunks rather than continuously, fundamentally changing how we understand matter and energy
+
+
 ## Unit Tests
 
 ### UT-1: Bohr Model — Limitations and Quantisation

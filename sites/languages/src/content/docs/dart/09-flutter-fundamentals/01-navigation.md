@@ -1208,6 +1208,14 @@ GoRoute(
 
 ---
 
+## Intuition
+
+**Moving between screens:** Navigation is like a roadmap — routes define paths between screens, and the navigator manages the stack of screens the user has visited.
+
+**Why it matters:** Good navigation is essential for user experience. Understanding routing helps you build intuitive, easy-to-use apps.
+
+**The key insight:** Navigation stack is like a pile of plates — the last plate added is the first one removed (LIFO).
+
 ## Common Pitfalls
 
 ### Using `go` When You Mean `push`

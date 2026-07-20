@@ -34,6 +34,14 @@ This part covers four tightly coupled topics:
 Allocation (Module 3.5), pointers (Module 3.6), and class basics (Module 9). Exception mechanics are
 Covered in detail in Module 13.
 
+## Intuition
+
+**RAII: Resource Acquisition Is Initialization:** RAII is like a library book system — when you check out a book (acquire resource), it's automatically returned when you leave the library (goes out of scope).
+
+**Why it matters:** RAII eliminates resource leaks by tying resource lifecycle to object lifetime — a fundamental C++ pattern.
+
+**The key insight:** Constructors acquire resources, destructors release them — this ensures resources are always properly cleaned up.
+
 ## Common Pitfalls
 
 1. Ignoring feedback from marked work and failing to address recurring weaknesses.

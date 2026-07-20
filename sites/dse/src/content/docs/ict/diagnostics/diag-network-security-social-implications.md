@@ -128,6 +128,14 @@ opt out and request deletion.
 
 ---
 
+## Intuition
+
+**A castle and its moat:** Network security is like defending a castle — firewalls are the walls, encryption is the secret code, and authentication checks who's trying to enter. Attackers find new paths, defenders build new walls.
+
+**Why it matters:** In a connected world, security breaches can cost millions and destroy trust. Understanding threats helps you design systems that protect data and privacy.
+
+**The key insight:** Security is a cat-and-mouse game — no system is perfectly safe, but layered defenses make attacks harder and more expensive.
+
 ## Integration Tests
 
 ### IT-1: Security in System Design (with Computer Systems)

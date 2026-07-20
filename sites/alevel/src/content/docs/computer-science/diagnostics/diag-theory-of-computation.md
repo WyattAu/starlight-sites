@@ -4,6 +4,11 @@ description: "A-Level Computer Science Theory of Computation -- notes covering k
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Theory of Computation — Diagnostic Tests
 
 ## Unit Tests

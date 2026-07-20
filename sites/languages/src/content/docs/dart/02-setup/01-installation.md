@@ -256,6 +256,14 @@ my_cli/
     └── my_cli_test.dart   # tests
 ```
 
+## Intuition
+
+**Getting started:** Setting up Dart is like preparing a workshop — installing the SDK, configuring your editor, and creating your first project.
+
+**Why it matters:** A proper setup ensures a smooth development experience. Good tooling makes coding faster and more enjoyable.
+
+**The key insight:** Dart's hot reload lets you see changes instantly — this dramatically speeds up the development cycle.
+
 ## Common Pitfalls
 
 - **PATH issues on Windows**: The Flutter SDK modifies PATH during installation but many terminals

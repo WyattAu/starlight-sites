@@ -432,6 +432,14 @@ Maximum is $1$ when $v = 2$I.e. $x^2 = 2$So $x = \pm\sqrt{2}$.
 
 ---
 
+## Intuition
+
+**A factory assembly line:** Polynomials are like expressions built from repeated operations — the factor theorem tells you which "ingredients" (factors) go into making the polynomial, and division strips away known factors to find what's left.
+
+**Why it matters:** Factoring polynomials is the backbone of solving equations, simplifying expressions, and understanding function behavior. Vieta's formulas connect roots to coefficients without solving.
+
+**The key insight:** (x - a) is a factor if and only if P(a) = 0 — this simple test replaces long division and reveals hidden structure.
+
 ## Common Pitfalls
 
 1. **Testing the wrong value in the factor theorem.** For the factor $(x - a)$You must evaluate

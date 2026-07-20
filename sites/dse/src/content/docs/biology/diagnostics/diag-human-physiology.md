@@ -176,6 +176,14 @@ energy.
 
 ---
 
+## Intuition
+
+**A complex machine:** The human body is like a city — the heart is the pump, lungs are air filters, kidneys are water treatment plants, and the brain is city hall. Each organ system keeps the body functioning.
+
+**Why it matters:** Understanding physiology helps you make informed health decisions and explains how lifestyle choices affect your body.
+
+**The key insight:** Homeostasis — the body's ability to maintain internal stability — is the foundation of health. When homeostasis fails, disease occurs.
+
 ## Integration Test 1: Ventilation Mechanism and Gas Exchange
 
 **Question**

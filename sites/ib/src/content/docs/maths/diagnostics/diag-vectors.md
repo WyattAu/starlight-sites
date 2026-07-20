@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Vectors — Diagnostic Tests
 
+## Intuition
+
+**Vectors are like arrows — they have both direction and magnitude, unlike scalars which are just numbers:** Vectors provide a coordinate-free way to describe physical quantities that have direction, making physics equations independent of the coordinate system chosen
+
+**Why it matters:** From GPS navigation to computer animation to quantum mechanics, vectors are the language of directional quantities
+
+**The key insight:** Vectors provide a coordinate-free way to describe physical quantities that have direction, making physics equations independent of the coordinate system chosen
+
+
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for vectors.

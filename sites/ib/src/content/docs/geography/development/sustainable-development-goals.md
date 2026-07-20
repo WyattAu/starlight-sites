@@ -5,6 +5,15 @@ description: "UN Sustainable Development Goals for IB Geography."
 
 # Sustainable Development Goals
 
+## Intuition
+
+**The SDGs are like a global to-do list — 17 goals that balance environmental protection, social equity, and economic growth:** Sustainable development requires balancing present needs with future possibilities — meeting today's goals without compromising tomorrow's
+
+**Why it matters:** The SDGs provide a framework for addressing humanity's most pressing challenges, from poverty to climate change
+
+**The key insight:** Sustainable development requires balancing present needs with future possibilities — meeting today's goals without compromising tomorrow's
+
+
 ## The SDG Framework
 
 ### Origins and Structure

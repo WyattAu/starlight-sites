@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**Molecular biology is like studying the cell's information technology — DNA stores data, RNA transmits it, and proteins execute the instructions:** The central dogma describes how genetic information flows from DNA through RNA to protein
+
+**Why it matters:** Molecular biology underpins biotechnology, genetic engineering, and our understanding of life at its most fundamental level
+
+**The key insight:** The central dogma describes how genetic information flows from DNA through RNA to protein
+
+
 ## 1. Water
 
 ### Molecular Structure and Properties

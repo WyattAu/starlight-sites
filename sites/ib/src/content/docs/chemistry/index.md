@@ -11,6 +11,15 @@ tags:
 Complete revision notes for IB Chemistry, covering the full syllabus with worked examples, common
 pitfalls, and exam-style problems.
 
+## Intuition
+
+**Chemistry is the science of matter and its transformations — it explains what everything is made of and how it changes:** Chemistry bridges physics and biology, explaining the molecular basis of phenomena from drug action to material properties
+
+**Why it matters:** Chemistry literacy is essential for understanding medicine, environment, technology, and everyday life
+
+**The key insight:** Chemistry bridges physics and biology, explaining the molecular basis of phenomena from drug action to material properties
+
+
 ## Core Topics
 
 ### Atomic Structure and Periodicity

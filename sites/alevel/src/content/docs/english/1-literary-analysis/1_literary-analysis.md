@@ -283,6 +283,11 @@ admits to being "inclined to reserve all judgements" yet exercises considerable 
 over how women are perceived. The absence of female narratorial perspective is itself a meaningful
 silence.
 
+
+## Intuition
+
+**Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
+
 ## Summary
 
 - Literary analysis is the core skill of A-Level English, requiring close attention to language,

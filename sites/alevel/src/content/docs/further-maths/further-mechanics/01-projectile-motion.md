@@ -10,6 +10,11 @@ categories:
 
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 ## Projectile Motion
 
 Projectile motion is the motion of a body launched into the air and subject only to the acceleration

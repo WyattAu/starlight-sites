@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Proof and Logic — Diagnostic Tests
 
+## Intuition
+
+**Mathematical proof is like a legal argument — each step must be justified by axioms, definitions, or previously proven theorems:** Logic provides the grammar of mathematics — it ensures that conclusions follow necessarily from premises, creating certainty in an uncertain world
+
+**Why it matters:** Proof is what separates mathematics from computation — it establishes universal truth, not just empirical patterns
+
+**The key insight:** Logic provides the grammar of mathematics — it ensures that conclusions follow necessarily from premises, creating certainty in an uncertain world
+
+
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for proof and logic.

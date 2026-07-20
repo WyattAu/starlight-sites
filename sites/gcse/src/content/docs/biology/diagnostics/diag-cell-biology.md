@@ -200,6 +200,14 @@ slowing down the rate of exchange. (3) The cell cannot sustain its metabolic dem
 have a large SA:V ratio, ensuring efficient exchange. This is why large organisms are multicellular
 (many small cells rather than one giant cell) and why cells divide when they reach a certain size.
 
+## Intuition
+
+**Life's building blocks:** Cells are like tiny factories — each organelle has a specific job, and together they keep the cell alive. Microscopes reveal this hidden world.
+
+**Why it matters:** From understanding diseases to growing organs, cell biology is the foundation of modern medicine and biotechnology.
+
+**The key insight:** Cell size is limited by the surface area to volume ratio — as cells grow, they need more membrane relative to their volume to exchange materials efficiently.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

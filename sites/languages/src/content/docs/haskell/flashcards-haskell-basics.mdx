@@ -1,6 +1,6 @@
 ---
 title: Haskell Flashcards (Basics)
-description: "30 flashcards covering core Haskell concepts. Tap a card to reveal the answer. Comprehensive educational content coverage with definitions and practice problems"
+description: "30 flashcards covering core Haskell concepts. Tap a card to reveal the answer. Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-06-04
 tags:
   - Haskell
@@ -11,12 +11,22 @@ categories:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcardData } from '@/data/flashcards/haskell/flashcards-haskell-basics-data.js';
 
-
 ## Haskell Basics -- Flashcards
 
 30 flashcards covering core Haskell concepts. Tap a card to reveal the answer.
 
 ---
 
+## Intuition
 
-<FlashcardDeck client:only="solid-js" deckId="haskell-basics" title="Haskell Basics" description="Core Haskell concepts, type classes, and monads" cards={flashcardData}  /> 
+Haskell is a purely functional language where expressions are evaluated lazily (on demand) and functions have no side effects. The type system is your most powerful tool — if the types align, the program is very likely correct. Type classes provide ad-hoc polymorphism (like interfaces in OOP), and monads sequence effectful computations while keeping the language pure. Currying means every function takes one argument and returns a function waiting for the next.
+
+## Common Pitfalls
+
+- **Infinite recursion**: Writing a base case that never triggers — the function recurses forever, building up the stack until it overflows. Always ensure the base case is reachable.
+- **Off-by-one in infinite lists**: Defining `[1..]` produces an infinite list — this is fine if consumed lazily but can hang if forced into a strict context (e.g., `length [1..]` never terminates).
+- **Type class ambiguity**: When a function uses a type class that has multiple instances for a type, Haskell cannot infer which one to use — add a type annotation to resolve the ambiguity.
+
+---
+
+<FlashcardDeck client:only="solid-js" deckId="haskell-basics" title="Haskell Basics" description="Core Haskell concepts, type classes, and monads" cards={flashcardData}  />

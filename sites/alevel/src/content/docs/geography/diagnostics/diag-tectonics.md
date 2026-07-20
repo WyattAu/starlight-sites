@@ -5,6 +5,11 @@ tableOfContents: false
 sidebar_position: 40
 ---
 
+
+## Intuition
+
+**Plate tectonics is like a giant jigsaw puzzle — Earth’s crust is broken into pieces that move, collide, and reshape the planet.**
+
 # Diagnostic Test: Tectonics
 
 **Instructions:** Attempt each question without referring to notes. Select the best answer from the four options provided. After completing all questions, check your answers against the key below.

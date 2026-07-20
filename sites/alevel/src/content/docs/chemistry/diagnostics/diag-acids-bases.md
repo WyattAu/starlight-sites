@@ -4,6 +4,11 @@ description: "A-Level Chemistry Acids, Bases and Buffers -- Diagnostic notes cov
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Acids and bases are like opposite personalities — one gives protons, the other accepts them, creating balance.**
+
 # Acids, Bases and Buffers — Diagnostic Tests
 
 ## Unit Tests

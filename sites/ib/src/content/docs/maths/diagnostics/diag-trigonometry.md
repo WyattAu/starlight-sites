@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Trigonometry — Diagnostic Tests
 
+## Intuition
+
+**Trigonometry is the mathematics of circles and triangles — it connects angles to side lengths through sine, cosine, and tangent:** The unit circle unifies all trigonometric functions, revealing periodic patterns that model waves, oscillations, and circular motion
+
+**Why it matters:** Trigonometry is essential for navigation, architecture, music theory, and analyzing any periodic phenomenon
+
+**The key insight:** The unit circle unifies all trigonometric functions, revealing periodic patterns that model waves, oscillations, and circular motion
+
+
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for trigonometry.

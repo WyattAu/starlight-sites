@@ -1227,6 +1227,14 @@ Or globally in `dart_test.yaml`:
 timeout: 60s
 ```
 
+## Intuition
+
+**Quality assurance:** Testing is like proof-reading your code — it catches errors before they reach users. Different test types verify different aspects of your code.
+
+**Why it matters:** Good testing practices prevent bugs and improve code quality. Automated tests give you confidence to refactor and add features.
+
+**The key insight:** Test behavior, not implementation — focus on what your code does, not how it does it.
+
 ## Common Pitfalls
 
 ### 1. Testing Implementation Instead of Behavior

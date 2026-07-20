@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**Ecology is like studying a community's social network — organisms interact through feeding relationships, competition, and cooperation:** Energy flows through ecosystems while nutrients cycle, creating interdependencies that sustain life
+
+**Why it matters:** Ecology guides conservation, resource management, and understanding human impacts on the environment
+
+**The key insight:** Energy flows through ecosystems while nutrients cycle, creating interdependencies that sustain life
+
+
 ## 1. Species, Communities, and Ecosystems
 
 ### Species and Populations

@@ -596,6 +596,14 @@ Resources (`std::pmr`)**.
 - **Synchronized Pool:** Thread-safe version of pool resource.
 - See the dedicated `std::pmr` module for implementation details.
 
+## Intuition
+
+**Dynamic storage:** The heap is like a warehouse — you can request any amount of memory, but you must return it when done. new and delete manage heap allocation.
+
+**Why it matters:** Heap allocation enables dynamic data structures and runtime-sized objects, but requires careful management to avoid leaks.
+
+**The key insight:** Heap allocation is slower than stack allocation — prefer stack when possible for better performance.
+
 ## Common Pitfalls
 
 1. **Assuming `malloc` always succeeds.** On Linux with overcommit, `malloc` can return non-null for

@@ -407,6 +407,14 @@ $x \in (-\infty,\; -4) \cup \left(\dfrac{3}{2},\; \infty\right)$.
 
 ---
 
+## Intuition
+
+**A balance beam with weights:** Inequalities are like a balance — whatever you add or subtract from both sides keeps it balanced, but multiplying or dividing by a negative flips the scale. The critical values are where the expression equals zero, marking the boundaries.
+
+**Why it matters:** Inequalities define constraints in optimization, engineering tolerances, and economic models. Understanding solution regions helps you find feasible designs and viable policies.
+
+**The key insight:** Always check the sign of expressions before multiplying or dividing — flipping the inequality direction is the most common and costly error.
+
 ## Common Pitfalls
 
 1. **Forgetting to flip the inequality when multiplying or dividing by a negative number.** If you

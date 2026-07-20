@@ -1033,6 +1033,14 @@ class OrderFactory {
 
 ---
 
+## Intuition
+
+**Decoupling components:** Dependency injection is like a restaurant — instead of cooking your own food (creating dependencies), you receive them from outside (injected), making your code more flexible and testable.
+
+**Why it matters:** DI makes code more modular, testable, and maintainable. It's essential for building large, complex applications.
+
+**The key insight:** DI inverts control — instead of a class creating its dependencies, they're provided from outside, making the class easier to test and replace.
+
 ## Common Pitfalls
 
 ### Over-Injection

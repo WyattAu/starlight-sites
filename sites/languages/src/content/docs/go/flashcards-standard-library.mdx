@@ -1,6 +1,6 @@
 ---
 title: Go Standard Library Flashcards
-description: "25 flashcards covering key packages in the Go standard library — fmt, strings, io, net/http, encoding/json, and os. Comprehensive educational content."
+description: "25 flashcards covering key packages in the Go standard library — fmt, strings, io, net/http, encoding/json, and os."
 date: 2026-05-31
 tags:
   - Go
@@ -11,7 +11,6 @@ categories:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcardData } from '@/data/flashcards/go/flashcards-standard-library-data.js';
 
-
 ## Go Standard Library Flashcards
 
 25 flashcards covering key packages in the Go standard library — fmt, strings, io, net/http,
@@ -19,5 +18,16 @@ encoding/json, and os.
 
 ---
 
+## Intuition
+
+Go's standard library is remarkably complete — `fmt` handles formatted I/O, `strings` provides text manipulation, `io` defines the foundational `Reader`/`Writer` interfaces that compose like Unix pipes, `net/http` offers a production-ready HTTP server and client, `encoding/json` handles JSON marshalling/unmarshalling, and `os` interacts with the operating system. The key philosophy: small, composable interfaces that snap together.
+
+## Common Pitfalls
+
+- **Goroutine leaks**: Starting goroutines without a cancellation mechanism (context or done channel) — they run forever, consuming memory. Always use `context.Context` for cancellation.
+- **Map concurrency**: Maps in Go are not safe for concurrent read/write — using them from multiple goroutines without a mutex causes a runtime panic. Use `sync.Map` or wrap with `sync.RWMutex`.
+- **Defer evaluation timing**: `defer` arguments are evaluated when the `defer` statement executes, not when the deferred function runs — this often surprises developers with pointer semantics.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="go-standard-library" title="Go: Standard Library" description="Key functions and interfaces from Go's most commonly used packages." cards={flashcardData}  />

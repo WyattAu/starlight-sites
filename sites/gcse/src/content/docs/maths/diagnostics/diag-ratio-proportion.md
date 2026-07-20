@@ -156,6 +156,14 @@ taxes) not reflected in the exchange rate, or (3) the market is not perfectly ef
 predicts that over time, either the pound should depreciate or the foreign prices should adjust to
 equalise costs.
 
+## Intuition
+
+**Comparing quantities:** Ratios are like recipes — they tell you how much of each ingredient you need. Proportions scale the recipe up or down while keeping the same relative amounts.
+
+**Why it matters:** From map scales to cooking, ratios and proportions are everywhere. Understanding them helps you scale quantities and compare sizes.
+
+**The key insight:** Cross-multiplication works because it's really multiplying both sides by the product of the denominators — it's a shortcut for maintaining equality.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

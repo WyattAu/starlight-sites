@@ -4,6 +4,11 @@ description: "A-Level Electrochemistry -- Diagnostic Tests notes covering key de
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Electrochemistry is like a conversation between electricity and chemistry — electrons flowing to create or consume reactions.**
+
 # Electrochemistry — Diagnostic Tests
 
 ## Unit Tests

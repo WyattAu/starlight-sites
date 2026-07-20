@@ -242,6 +242,14 @@ differ in mass.
 periodic table. Its electron configuration is $2, 8, 4$. This can be confirmed: silicon-28
 ($^{28}_{14}\text{Si}$) is the most abundant isotope, consistent with the given $A_r$ of 28.1.
 
+## Intuition
+
+**Building blocks with rules:** Atoms are like LEGO sets — protons determine the element, electrons determine the chemistry. The periodic table organizes elements by their electron configurations, revealing patterns in reactivity.
+
+**Why it matters:** From semiconductors to pharmaceuticals, understanding atomic structure explains why elements behave the way they do and how to combine them.
+
+**The key insight:** Ionisation energy increases across a period because nuclear charge increases while shielding stays roughly constant — electrons are held more tightly.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

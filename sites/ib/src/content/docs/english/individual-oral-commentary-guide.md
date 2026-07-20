@@ -62,6 +62,15 @@ the teacher might select.
 
 ---
 
+## Intuition
+
+**The IOC is like a live concert — you must perform your analysis in real time, demonstrating fluency and deep understanding:** Effective commentary requires balancing textual evidence with interpretation, delivered with confidence and clarity
+
+**Why it matters:** The IOC develops skills in public speaking, close reading, and on-the-spot critical thinking
+
+**The key insight:** Effective commentary requires balancing textual evidence with interpretation, delivered with confidence and clarity
+
+
 ## 2. Extract Selection
 
 Although the teacher selects the extract, understanding what makes a good extract is essential for

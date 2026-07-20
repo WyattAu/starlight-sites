@@ -3,6 +3,11 @@ title: Networks
 description: 'A-Level Computer Science Networks notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision.'
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Networks
 
 Computer networks enable communication between devices. A-Level covers the principles of how data is

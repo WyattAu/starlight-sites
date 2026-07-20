@@ -855,6 +855,11 @@ Operation in a busy A&E department.
 4. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -8,6 +8,15 @@ categories:
   - ib
 ---
 
+## Intuition
+
+**Computer organization is like an anatomy lesson — understanding how CPU, memory, and storage work together reveals how computers think:** The von Neumann architecture — stored programs and sequential execution — remains the foundation of modern computing
+
+**Why it matters:** Understanding hardware organization helps programmers write more efficient code and diagnose performance issues
+
+**The key insight:** The von Neumann architecture — stored programs and sequential execution — remains the foundation of modern computing
+
+
 ## Computer Architecture
 
 ### CPU architecture

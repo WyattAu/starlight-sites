@@ -1165,6 +1165,14 @@ Structured concurrency prevents thread leaks (you cannot forget to wait for a sp
 propagates exceptions reliably, and makes the lifetime of concurrent tasks visible in the code
 structure (the scope is lexically scoped via try-with-resources).
 
+## Intuition
+
+**Parallel processing:** Concurrency is like having multiple workers — threads are workers that can do tasks simultaneously, but they need synchronization to avoid stepping on each other's toes.
+
+**Why it matters:** From web servers to data processing, concurrency improves performance by utilizing multiple CPU cores effectively.
+
+**The key insight:** Synchronization is about preventing race conditions — when two threads try to modify the same data at the same time, bad things happen.
+
 ## Summary: Choosing the Right Primitive
 
 | Scenario                             | Recommended Primitive                                           |

@@ -70,6 +70,14 @@ Answer each question. Check your answers against the key at the end.
 (C) The Battle of Guadalcanal
 (D) The Battle of Iwo Jima
 
+## Intuition
+
+**A global domino effect:** WWII started as regional conflicts that cascaded into global war — one invasion triggered alliances, which triggered counter-invasions, until the whole world was involved.
+
+**Why it matters:** WWII reshaped borders, created the UN, launched the nuclear age, and set the stage for the Cold War. Its lessons about appeasement and aggression still guide foreign policy.
+
+**The key insight:** The Pacific War wasn't just about Pearl Harbor — it was the collision of two expanding empires competing for dominance in Asia.
+
 ## Answer Key
 
 | Q | Answer | Explanation |

@@ -360,6 +360,11 @@ experience while also suggesting the presence of something beyond the narrator's
 sea, associated throughout the novel with Rebecca's death, functions as a foreshadowing detail that
 the first-time reader cannot yet fully interpret.
 
+
+## Intuition
+
+**Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
+
 ## Summary
 
 - Unseen analysis tests your ability to apply analytical skills to unfamiliar texts under pressure

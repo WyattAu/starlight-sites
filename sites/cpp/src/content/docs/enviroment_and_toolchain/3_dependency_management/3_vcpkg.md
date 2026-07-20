@@ -678,6 +678,14 @@ export VCPKG_ROOT=/opt/vcpkg
 - You want a Python-based portfile API for maximum flexibility.
 - You already use JFrog Artifactory in your organization.
 
+## Intuition
+
+**Microsoft's package manager:** vcpkg is like a curated app store for C++ libraries — it provides pre-built packages that integrate with your build system.
+
+**Why it matters:** vcpkg simplifies dependency management across platforms, especially for Windows and Visual Studio projects.
+
+**The key insight:** vcpkg uses manifest mode for project-specific dependencies — this ensures reproducible builds.
+
 ## Common Pitfalls
 
 1. **Mixing triplets in the same build tree:** If you change `VCPKG_TARGET_TRIPLET` without clearing

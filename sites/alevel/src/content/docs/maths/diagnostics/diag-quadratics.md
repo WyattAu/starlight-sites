@@ -4,6 +4,11 @@ description: "A-Level Maths Quadratics -- Diagnostic Tests notes covering key de
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Quadratics — Diagnostic Tests
 
 ## Unit Tests

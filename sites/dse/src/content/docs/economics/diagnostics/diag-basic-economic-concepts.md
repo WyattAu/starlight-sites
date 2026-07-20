@@ -440,6 +440,14 @@ costs less there, even accounting for transport and coordination costs.
    internationally qualified accountants (CPA, ACCA), and proximity to mainland Chinese firms
    seeking international expertise.
 
+## Intuition
+
+**A seesaw of choices:** Economics is about trade-offs — the PPC shows that producing more of one thing means less of another. Opportunity cost is what you give up, not what you spend.
+
+**Why it matters:** Every decision — personal, business, or government — involves scarcity. Understanding opportunity cost and the PPC helps you see the true cost of choices.
+
+**The key insight:** There's no such thing as a free lunch — every choice has an opportunity cost, and the PPC visualizes the trade-offs a society faces.
+
 ## Common Pitfalls
 
 1. **Confusing absolute and comparative advantage:** A country with an absolute advantage in all

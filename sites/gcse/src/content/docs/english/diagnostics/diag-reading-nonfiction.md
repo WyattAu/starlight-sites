@@ -308,6 +308,14 @@ whether technology is good or bad, but whether the problems we are trying to sol
 qualities that technology cannot replicate. This leaves the reader with a nuanced, thought-provoking
 conclusion rather than a simplistic verdict.
 
+## Intuition
+
+**Facts and arguments:** Non-fiction reading is like being a detective — you evaluate evidence, identify biases, and understand how writers persuade through language and structure.
+
+**Why it matters:** From news articles to academic papers, non-fiction reading skills help you navigate information critically and form informed opinions.
+
+**The key insight:** Every non-fiction text has a purpose — understanding the writer's intent helps you evaluate their arguments more effectively.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

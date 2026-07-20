@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**The immune system is like a military defense force — it has surveillance (innate immunity), specialized units (adaptive immunity), and memory (immunological memory):** The immune system distinguishes self from non-self through antigen recognition, enabling targeted defense without harming the body
+
+**Why it matters:** Immunology is essential for understanding allergies, autoimmune diseases, vaccines, and transplant medicine
+
+**The key insight:** The immune system distinguishes self from non-self through antigen recognition, enabling targeted defense without harming the body
+
+
 ## 1. Overview of the Immune System
 
 The immune system is a network of cells, tissues, and organs that defends the body against pathogens

@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Complex Numbers — Diagnostic Tests
 
+## Intuition
+
+**Complex numbers are like a 2D number system — they extend the number line into a plane, where the real part is horizontal and the imaginary part is vertical:** The imaginary unit i (where i² = -1) isn't imaginary at all — it's a mathematical tool that makes impossible operations possible and reveals hidden structure in equations
+
+**Why it matters:** Complex numbers are essential in electrical engineering, quantum mechanics, and solving equations that real numbers alone cannot handle
+
+**The key insight:** The imaginary unit i (where i² = -1) isn't imaginary at all — it's a mathematical tool that makes impossible operations possible and reveals hidden structure in equations
+
+
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for complex numbers.

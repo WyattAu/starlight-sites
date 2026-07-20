@@ -8,6 +8,15 @@ categories:
   - ib
 ---
 
+## Intuition
+
+**System design is like urban planning — you must balance efficiency, scalability, and maintainability while meeting user needs:** Good system design anticipates change, manages complexity, and balances competing requirements
+
+**Why it matters:** System design skills are essential for building robust, scalable software that evolves with changing requirements
+
+**The key insight:** Good system design anticipates change, manages complexity, and balances competing requirements
+
+
 ## Design
 
 ### Prototype

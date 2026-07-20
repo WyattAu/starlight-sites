@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**Chemical kinetics is like studying the speed of chemical traffic — reaction rates depend on concentration, temperature, and catalysts:** The Arrhenius equation connects temperature to reaction rate, explaining why heating speeds up chemical processes
+
+**Why it matters:** Kinetics determines how fast products form, affecting everything from food preservation to pharmaceutical stability
+
+**The key insight:** The Arrhenius equation connects temperature to reaction rate, explaining why heating speeds up chemical processes
+
+
 ## Rate of Reaction
 
 ### Definition

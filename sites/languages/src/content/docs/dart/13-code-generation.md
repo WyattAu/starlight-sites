@@ -891,6 +891,14 @@ test: generate
 
 ---
 
+## Intuition
+
+**Automating boilerplate:** Code generation is like a template engine — it automatically creates repetitive code based on annotations, saving you from writing the same patterns over and over.
+
+**Why it matters:** Code generation reduces errors and saves time on repetitive tasks like serialization, JSON parsing, and immutable data classes.
+
+**The key insight:** build_runner watches for changes and regenerates code automatically — this keeps generated code in sync with your annotations.
+
 ## Common Pitfalls
 
 ### Forgetting to Run build_runner

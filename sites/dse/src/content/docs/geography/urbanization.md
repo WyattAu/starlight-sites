@@ -164,6 +164,14 @@ functions. Urban renewal in Hong Kong faces the challenge of balancing:
 The Kowloon Walled City demolition (1993-1994) represents a major earlier urban renewal project,
 converting a densely packed, unregulated settlement into the Kowloon Walled City Park.
 
+## Intuition
+
+**Cities as living organisms:** Urbanisation is like a growing tree — cities expand outward (sprawl), sometimes people move back inward (re-urbanisation), and new branches (new towns) relieve pressure on the trunk.
+
+**Why it matters:** More than half the world's population now lives in cities. Understanding urban processes helps design livable, sustainable communities and manage resources efficiently.
+
+**The key insight:** Land value decreases with distance from the CBD — this single economic force shapes everything from housing prices to land use patterns.
+
 ## Exam Tips
 
 1. **Compare models explicitly:** When asked about urban land use models, note that Burgess assumes

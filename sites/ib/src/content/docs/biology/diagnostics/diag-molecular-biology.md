@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Molecular Biology — Diagnostic Tests
 
+## Intuition
+
+**Molecular biology is like reverse-engineering life — understanding DNA, RNA, and proteins reveals how cells read and execute genetic instructions:** The central dogma (DNA → RNA → protein) describes how genetic information flows from storage to function
+
+**Why it matters:** Molecular biology underpins biotechnology, genetic engineering, and understanding genetic diseases
+
+**The key insight:** The central dogma (DNA → RNA → protein) describes how genetic information flows from storage to function
+
+
 ## Unit Tests
 
 ### UT-1: DNA Replication — Leading and Lagging Strand

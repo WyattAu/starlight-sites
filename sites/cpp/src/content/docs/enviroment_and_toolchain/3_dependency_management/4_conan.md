@@ -612,6 +612,14 @@ Build from source on your exact toolchain) but at the cost of build time.
 
 ---
 
+## Intuition
+
+**Cross-platform packages:** Conan is like a universal package manager — it provides pre-built binaries for many platforms and compilers.
+
+**Why it matters:** Conan simplifies dependency management in complex projects, especially when targeting multiple platforms.
+
+**The key insight:** Conan's binary caching avoids rebuilding dependencies from source — this dramatically speeds up builds.
+
 ## Common Pitfalls
 
 - **Not using `conan lock` for CI.** Without a lock file, CI builds can silently pick up new

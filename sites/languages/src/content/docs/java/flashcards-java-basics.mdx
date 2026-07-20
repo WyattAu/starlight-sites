@@ -7,10 +7,22 @@ tags: [Java, Flashcards]
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcardData } from '@/data/flashcards/java/flashcards-java-basics-data.js';
 
-
 ## Java Fundamentals Flashcards
 
-## 30 interactive flashcards spanning JVM internals to modern Java features. Press Space to flip, rate 1-4.
+30 interactive flashcards spanning JVM internals to modern Java features. Press Space to flip, rate 1-4.
 
+---
 
-<FlashcardDeck client:only="solid-js" deckId="java-basics" title="Java Fundamentals" description="Core Java from JVM internals to modern features" cards={flashcardData}  /> 
+## Intuition
+
+Java is a class-based, object-oriented language that runs on the JVM — code compiles to platform-independent bytecode. The JVM handles memory management via garbage collection, so you don't manually free memory. Java's type system is statically checked at compile time, with single class inheritance but multiple interface implementation. Modern Java (8+) embraces functional programming with lambdas and streams.
+
+## Common Pitfalls
+
+- **equals/hashCode contract**: Overriding `equals()` without overriding `hashCode()` breaks hash-based collections (HashMap, HashSet) — always override both together.
+- **Autoboxing overhead**: Java automatically converts between primitives and wrapper types (`int` ↔ `Integer`) — this creates unnecessary object allocations in loops, hurting performance.
+- **Finalizer pitfalls**: Using `finalize()` for cleanup is deprecated — it's slow, unpredictable, and can cause resurrection of objects. Use `try-with-resources` and `AutoCloseable` instead.
+
+---
+
+<FlashcardDeck client:only="solid-js" deckId="java-basics" title="Java Fundamentals" description="Core Java from JVM internals to modern features" cards={flashcardData}  />

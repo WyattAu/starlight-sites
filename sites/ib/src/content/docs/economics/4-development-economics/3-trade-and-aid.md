@@ -6,6 +6,15 @@ tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
 
+## Intuition
+
+**International trade is like a global barter system — countries specialize in what they do best and exchange with others:** Trade theory shows how specialization benefits all parties, but real-world trade involves power dynamics and protectionism
+
+**Why it matters:** Understanding trade and aid is crucial for addressing global poverty and inequality
+
+**The key insight:** Trade theory shows how specialization benefits all parties, but real-world trade involves power dynamics and protectionism
+
+
 ## Foreign Aid
 
 ### Types of Aid

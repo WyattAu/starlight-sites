@@ -6,6 +6,15 @@ tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
 
+## Intuition
+
+**Measuring development is like taking a country's vital signs — GDP, HDI, and other indicators reveal the health of an economy:** Development is multidimensional — no single indicator captures the full picture of human progress
+
+**Why it matters:** Accurate measurement guides policy decisions and resource allocation for poverty reduction
+
+**The key insight:** Development is multidimensional — no single indicator captures the full picture of human progress
+
+
 ## Measuring Development
 
 ### Single Indicators

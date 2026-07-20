@@ -5,12 +5,11 @@ tags:
   - IB Physics
 categories:
   - IB Physics
-description: "20 flashcards covering IB Physics mechanics — kinematics, dynamics, work and ene Comprehensive educational content coverage with definitions and practice proble"
+description: "20 flashcards covering IB Physics mechanics — kinematics, dynamics, work and energy, momentum, and circular motion."
 ---
 
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/physics/flashcards-mechanics-data.js';
-
 
 ## Mechanics Flashcards
 
@@ -19,5 +18,16 @@ circular motion.
 
 ---
 
+## Intuition
+
+Mechanics is the branch of physics that describes motion and its causes. Kinematics describes *how* things move (displacement, velocity, acceleration) without worrying about *why*. Dynamics explains *why* through Newton's laws — forces cause acceleration, and every action has an equal and opposite reaction. Energy conservation provides a powerful shortcut: instead of tracking forces through complex paths, you can compare initial and final energy states directly.
+
+## Common Pitfalls
+
+- **Sign errors in kinematics**: Forgetting that velocity and acceleration are vectors — if you define "up" as positive, gravity (acting down) must be negative in your equations.
+- **Normal force confusion**: The normal force is not always equal to mg — on an incline, it equals mg cos θ; in accelerating elevators, it changes with the acceleration.
+- **Momentum in explosions**: Forgetting that momentum is conserved in all directions independently — a system can have zero total momentum in one direction while having non-zero momentum in another.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ib-physics-mechanics" title="IB Physics: Mechanics" description="Kinematics, dynamics, work and energy, momentum, and circular motion." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />

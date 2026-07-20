@@ -8,6 +8,15 @@ categories:
 description: "1. The oxidation state of an element in its standard state is (e.g., Na(s), Cl(g), S(s), O(g)). 2. For a , the oxidation state equals the charge (e.g., Na ="
 ---
 
+## Intuition
+
+**Redox reactions are like electron donors and receivers — one substance gives electrons while another accepts them:** Assigning oxidation states tracks electron transfer, revealing the oxidizing and reducing agents in any reaction
+
+**Why it matters:** Redox chemistry is essential for understanding batteries, metabolism, and metal extraction
+
+**The key insight:** Assigning oxidation states tracks electron transfer, revealing the oxidizing and reducing agents in any reaction
+
+
 ## Oxidation States
 
 ### Rules for Assigning Oxidation States

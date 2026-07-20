@@ -611,6 +611,14 @@ String bad = """
     """;
 ```
 
+## Intuition
+
+**Modern Java toolbox:** Records are like immutable data containers, sealed classes are like controlled access gates, and pattern matching is like smart switches that know what type they're handling.
+
+**Why it matters:** Modern Java features make code more concise, safer, and easier to maintain. They represent the evolution of Java toward expressiveness.
+
+**The key insight:** Records automatically generate equals, hashCode, and toString — no more boilerplate for simple data classes.
+
 ## Common Pitfalls
 
 ### Records Are Not Always a Drop-In Replacement

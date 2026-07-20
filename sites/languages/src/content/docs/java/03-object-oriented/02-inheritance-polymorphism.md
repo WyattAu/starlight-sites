@@ -732,6 +732,14 @@ if (r instanceof Rectangle(
 Record components. You can use `var` for type inference or specify the exact type. The number of
 Pattern components must match the number of record components.
 </aside>
+## Intuition
+
+**Family resemblance:** Inheritance is like a family tree — child classes inherit traits from parents but can also have their own unique characteristics. Polymorphism lets different shapes respond to the same command in their own way.
+
+**Why it matters:** Inheritance promotes code reuse, and polymorphism enables flexible, extensible designs. Together they power the open-closed principle.
+
+**The key insight:** Program to an interface, not an implementation — this makes your code flexible and easy to extend.
+
 ## Common Pitfalls
 
 ### Forgetting `super()` in Constructor

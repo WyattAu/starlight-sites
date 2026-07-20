@@ -10,12 +10,22 @@ tags:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/ilc/flashcards-biology-data.js';
 
-
 ## ILC -- Biology Flashcards
 
 20 interactive flashcards for ILC Biology. Press Space to flip, rate 1-4.
 
 ---
 
+## Intuition
+
+Biology at the Leaving Cert level explores life from the cellular level to ecosystems. Cells are the fundamental unit of life — understanding their structure (cell membrane, nucleus, mitochondria) explains how organisms obtain energy, grow, and reproduce. Genetics reveals how traits are inherited through DNA, while ecology examines how organisms interact with each other and their environment in complex food webs and cycles.
+
+## Common Pitfalls
+
+- **Photosynthesis vs respiration**: Confusing the two — photosynthesis stores energy (light → chemical), respiration releases it (chemical → ATP). They are opposite processes, not the same thing in reverse.
+- **Osmosis direction**: Forgetting that water moves from low solute concentration to high solute concentration — students often reverse this, leading to wrong predictions about cell behaviour.
+- **Genotype vs phenotype**: Mixing up the genetic makeup (genotype) with the observable trait (phenotype) — a plant with genotype Rr shows the dominant phenotype (round seeds), not the recessive one.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ilc-biology" title="ILC -- Biology" description="Cell structure, ecology, genetics, plant biology, and human body systems for ILC Biology revision." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />

@@ -4,6 +4,11 @@ description: "A-Level Economics Market Failure -- Diagnostic Tests notes coverin
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Markets are like ecosystems — supply and demand are the predators and prey that keep them in balance.**
+
 # Market Failure — Diagnostic Tests
 
 ## Unit Tests

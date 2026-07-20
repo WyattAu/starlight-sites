@@ -234,6 +234,14 @@ towards "designer babies" -- selecting embryos for non-medical traits. There are
 accessibility (expensive, not available to all) and the message it sends about the value of people
 with genetic conditions.
 
+## Intuition
+
+**Nature's instruction manual:** Genetics is like a recipe book — DNA contains the instructions, genes are individual recipes, and proteins are the dishes that get made. Mutations are typos in the recipe.
+
+**Why it matters:** From genetic diseases to crop improvement, genetics explains inheritance and variation. Understanding genetics helps diagnose and treat genetic disorders.
+
+**The key insight:** Genes don't work alone — most traits are polygenic (controlled by many genes) and influenced by the environment.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

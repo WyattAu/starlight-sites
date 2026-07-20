@@ -6,6 +6,15 @@ description: "IB Geography is a two-year course that examines the relationships 
 
 # IB Geography (SL/HL)
 
+## Intuition
+
+**Geography is the study of connections — it links people to places, environments to economies, and local actions to global consequences:** Geography matters because location shapes everything — from climate and culture to economics and politics
+
+**Why it matters:** Geographic understanding is essential for addressing global challenges from climate change to urbanization to inequality
+
+**The key insight:** Geography matters because location shapes everything — from climate and culture to economics and politics
+
+
 ## Course Overview
 
 IB Geography is a two-year course that examines the relationships between individuals, societies,

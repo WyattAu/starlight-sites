@@ -1019,6 +1019,11 @@ Equilibrium with other chemistry topics to test synthesis under exam conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 
+
+## Intuition
+
+**Chemical equilibrium is like a busy restaurant — dishes are constantly being prepared and eaten, but the overall number of plates stays the same.**
+
 ## Summary
 
 This topic covers the essential chemistry of chemical equilibrium, including key reactions,

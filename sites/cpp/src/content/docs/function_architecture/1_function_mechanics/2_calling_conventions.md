@@ -705,6 +705,14 @@ typedef char* va_list;
 This is simpler but means that variadic functions on Windows are inherently slower than on Linux:
 Register arguments must be written to memory before the callee can access them.
 
+## Intuition
+
+**Function call mechanics:** Calling conventions are like telephone protocols — they define how arguments are passed, who cleans up the stack, and how return values are delivered.
+
+**Why it matters:** Understanding calling conventions helps you interface with C libraries, optimize performance, and debug low-level issues.
+
+**The key insight:** The default calling convention varies by platform — understanding it is essential for cross-platform code and FFI.
+
 ## Common Pitfalls
 
 - **Assuming Windows and Linux share an ABI on x86-64.** They do not. The register allocation,

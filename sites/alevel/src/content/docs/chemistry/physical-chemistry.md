@@ -383,6 +383,11 @@ If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard condit
 
 ---
 
+
+## Intuition
+
+**Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
+
 ## Summary
 
 Physical chemistry underpins all other branches of chemistry. The key themes are:

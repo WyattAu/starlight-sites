@@ -4,6 +4,11 @@ description: "A-Level Physics Magnetic Fields -- Diagnostic Tests notes covering
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Magnetic fields are like invisible dancers that exert forces on moving charges, creating elegant patterns.**
+
 # Magnetic Fields — Diagnostic Tests
 
 ## Unit Tests

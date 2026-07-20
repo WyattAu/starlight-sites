@@ -1082,6 +1082,11 @@ $\blacksquare$
 
 </details>
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 ## Summary
 
 This topic covers the mathematical techniques and concepts related to complex numbers (extended),

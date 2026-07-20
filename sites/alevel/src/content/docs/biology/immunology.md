@@ -2293,6 +2293,11 @@ inactive form.
 
 4. Forgetting to include control variables in experimental design, leading to invalid conclusions.
 
+
+## Intuition
+
+**Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

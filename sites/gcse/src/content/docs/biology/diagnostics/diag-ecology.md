@@ -229,6 +229,14 @@ variable (soil pH) and species distribution (daisy abundance).
 the distribution of daisies, with higher pH favouring daisy growth." The investigation does not
 prove causation -- other factors (light, moisture, competition) may also be correlated with pH.
 
+## Intuition
+
+**Nature's web of interactions:** Ecology is like studying a city's social network — species interact through food chains, competition, and symbiosis, and these interactions determine community structure.
+
+**Why it matters:** From conservation to climate change, ecology explains how ecosystems function and how human activities affect them.
+
+**The key insight:** Energy flows through ecosystems in one direction (sun → producers → consumers), but nutrients cycle endlessly.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

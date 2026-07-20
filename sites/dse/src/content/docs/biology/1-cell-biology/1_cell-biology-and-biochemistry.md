@@ -501,6 +501,14 @@ Takes 6 $\mathrm{CO}_2$ molecules to produce 1 molecule of glucose (6C).
 
 ---
 
+## Intuition
+
+**Life's building blocks:** Cells are like factories — the nucleus is the management office, mitochondria are power plants, and ribosomes are assembly lines. Biochemical tests identify which molecules are present.
+
+**Why it matters:** From diagnosing diseases to understanding genetics, cell biology is the foundation of modern medicine and biotechnology.
+
+**The key insight:** Structure determines function — the shape of a protein determines what it does, and mutations that change shape can cause disease.
+
 ## Summary Table
 
 | Topic                   | Key Concept                                       | Location      |

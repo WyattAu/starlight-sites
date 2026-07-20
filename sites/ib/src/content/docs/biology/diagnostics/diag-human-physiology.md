@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Human Physiology — Diagnostic Tests
 
+## Intuition
+
+**Human physiology is like studying a complex machine — each organ system has a specific function, and they all work together:** Homeostasis — the body's ability to maintain stable internal conditions — is the central concept connecting all organ systems
+
+**Why it matters:** Understanding physiology explains how our bodies work and why diseases disrupt normal function
+
+**The key insight:** Homeostasis — the body's ability to maintain stable internal conditions — is the central concept connecting all organ systems
+
+
 ## Unit Tests
 
 ### UT-1: Action Potential and Nerve Impulse Propagation

@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Sequences and Series — Diagnostic Tests
 
+## Intuition
+
+**Sequences are like mathematical recipes — each term follows a rule, and series are the cumulative sum of following that recipe step by step:** Arithmetic and geometric sequences model different types of growth — constant addition versus constant multiplication — capturing patterns from savings accounts to population dynamics
+
+**Why it matters:** Sequences and series underpin financial mathematics, computer algorithms, and modeling natural phenomena
+
+**The key insight:** Arithmetic and geometric sequences model different types of growth — constant addition versus constant multiplication — capturing patterns from savings accounts to population dynamics
+
+
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for sequences and series.

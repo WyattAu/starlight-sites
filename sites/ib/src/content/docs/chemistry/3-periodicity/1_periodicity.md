@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**Periodicity is like a chemical fingerprint — elements in the same group share similar properties due to electron configuration:** Periodic trends (atomic radius, ionization energy, electronegativity) follow predictable patterns across the table
+
+**Why it matters:** Understanding periodicity allows prediction of chemical behavior without memorizing individual element properties
+
+**The key insight:** Periodic trends (atomic radius, ionization energy, electronegativity) follow predictable patterns across the table
+
+
 ## 1. Periodic Trends Recap
 
 ### Effective Nuclear Charge

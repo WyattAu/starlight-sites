@@ -4,6 +4,11 @@ description: "Self-assessment quiz on A-Level English literary analysis"
 sidebar_position: 30
 ---
 
+
+## Intuition
+
+**Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
+
 # Diagnostic Test: Literary Analysis
 
 Answer each question. Check your answers against the key at the end.

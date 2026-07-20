@@ -4,6 +4,11 @@ description: "A-Level Computer Science Algorithms -- Diagnostic Tests notes cove
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Algorithms — Diagnostic Tests
 
 ## Unit Tests

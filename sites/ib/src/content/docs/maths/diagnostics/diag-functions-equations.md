@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Functions and Equations — Diagnostic Tests
 
+## Intuition
+
+**Functions are like machines — you put in an input, and they reliably produce an output according to a specific rule:** Understanding function behavior — domain, range, transformations, and inverses — is the language of mathematical modeling
+
+**Why it matters:** Functions describe relationships in physics, economics, biology, and virtually every quantitative field
+
+**The key insight:** Understanding function behavior — domain, range, transformations, and inverses — is the language of mathematical modeling
+
+
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for functions and equations.

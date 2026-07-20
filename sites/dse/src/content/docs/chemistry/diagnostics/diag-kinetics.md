@@ -152,6 +152,14 @@ available catalyst surface area, not on $[H_{2}O_{2}]$.
 
 ---
 
+## Intuition
+
+**Speed vs. possibility:** Kinetics asks "how fast?" while thermodynamics asks "is it possible?" — a reaction can be thermodynamically favorable but kinetically frozen (like diamond turning to graphite).
+
+**Why it matters:** From drug metabolism to food preservation, reaction rates determine how quickly processes happen. Catalysts speed up reactions without being consumed.
+
+**The key insight:** The rate-determining step is the bottleneck — the overall reaction can't go faster than its slowest step, like an assembly line limited by the slowest worker.
+
 ## Integration Test 1: Rate Equation + Mechanism Prediction
 
 **Question**

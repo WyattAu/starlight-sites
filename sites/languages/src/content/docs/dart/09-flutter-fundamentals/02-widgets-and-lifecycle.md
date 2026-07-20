@@ -900,6 +900,14 @@ Note that in modern Flutter (2.3+), this restriction is somewhat relaxed — you
 `initState()` for non-dependent lookups, but `Theme.of``MediaQuery.of`Etc. Still fail because They
 internally call `dependOnInheritedWidgetOfExactType`.
 
+## Intuition
+
+**Building blocks of UI:** Widgets are like LEGO bricks — they combine to create complex user interfaces. Each widget has a lifecycle that determines when it's created, updated, and destroyed.
+
+**Why it matters:** Understanding widget lifecycle helps you manage resources efficiently and avoid memory leaks in Flutter apps.
+
+**The key insight:** StatefulWidget has state that can change; StatelessWidget is immutable — choose based on whether the widget needs to update.
+
 ## Summary
 
 This topic covers the core concepts of widgets and lifecycle, including underlying theory, practical

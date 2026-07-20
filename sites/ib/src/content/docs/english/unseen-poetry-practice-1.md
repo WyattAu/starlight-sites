@@ -35,6 +35,15 @@ This page provides a detailed analysis of Seamus Heaney's "Digging" as practice 
 
 ---
 
+## Intuition
+
+**Unseen poetry is like meeting a stranger — you must quickly find common ground and discover what makes their perspective unique:** Success with unseen poems comes from identifying key techniques, tracking emotional shifts, and connecting details to themes
+
+**Why it matters:** Practicing with unseen poems builds the analytical agility needed for exams and lifelong reading
+
+**The key insight:** Success with unseen poems comes from identifying key techniques, tracking emotional shifts, and connecting details to themes
+
+
 ## 2. Close Reading: Stanza-by-Stanza Analysis
 
 ### Stanza 1: The Present Moment

@@ -856,6 +856,14 @@ System.out.println(x == y);      // true — value comparison, no identity
 // p1 == p2  // true — value-based comparison
 ```
 
+## Intuition
+
+**Data containers:** Variables are like labeled boxes — they hold data of a specific type. Primitives are basic boxes; objects are fancy containers with methods.
+
+**Why it matters:** Understanding types prevents bugs and helps you choose the right data structure for the job.
+
+**The key insight:** Java is statically typed — the compiler catches type errors before runtime, which is why Java code is reliable.
+
 ## Summary of Design Principles
 
 The Java type system reflects a series of deliberate tradeoffs:

@@ -3,6 +3,11 @@ title: Microeconomics
 description: "A-Level Microeconomics notes covering key definitions, core concepts, worked examples, and practice questions for thorough exam preparation and mastery."
 ---
 
+
+## Intuition
+
+**Microeconomics is like observing a single market — buyers and sellers interacting to set prices.**
+
 # Microeconomics
 
 Microeconomics studies the behaviour of individual agents — consumers, firms, and markets — and how

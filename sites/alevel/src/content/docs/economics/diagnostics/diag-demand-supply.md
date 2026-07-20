@@ -4,6 +4,11 @@ description: "A-Level Economics Demand, Supply, and Equilibrium -- notes coverin
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Economics is the study of choices — how individuals, businesses, and governments allocate scarce resources.**
+
 # Demand, Supply, and Equilibrium — Diagnostic Tests
 
 ## Unit Tests

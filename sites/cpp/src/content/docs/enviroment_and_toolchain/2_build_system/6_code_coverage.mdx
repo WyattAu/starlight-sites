@@ -509,6 +509,14 @@ endif()
   run: cmake --build build --target coverage-check
 ```
 
+## Intuition
+
+**Measuring test effectiveness:** Code coverage is like a coverage map — it shows which parts of your code are tested and which aren't.
+
+**Why it matters:** Code coverage helps you identify untested code and improve test quality.
+
+**The key insight:** 100% coverage doesn't mean zero bugs — it means all code paths are exercised, but edge cases might be missed.
+
 ## Common Pitfalls
 
 1. **Running coverage builds in production:** Coverage instrumentation adds 20-50% overhead. Never

@@ -1,6 +1,6 @@
 ---
 title: "University Maths Flashcards: Complex Analysis"
-description: "20 interactive flashcards for university-level Complex Analysis. Press Space to  Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for university-level Complex Analysis. Press Space to flip, rate 1-4."
 tags: [University, Mathematics, Flashcards]
 ---
 
@@ -9,6 +9,18 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Mathematics -- Complex Analysis Flashcards
 20 interactive flashcards for university-level Complex Analysis. Press Space to flip, rate 1-4.
+---
+
+## Intuition
+
+Complex analysis studies functions of complex numbers — and the surprise is how much more rigid and beautiful they are than real functions. If a complex function is differentiable once, it's infinitely differentiable (analytic). The Cauchy-Riemann equations encode this rigidity: the real and imaginary parts of an analytic function are harmonic (satisfy Laplace's equation). Contour integration and the residue theorem turn hard real integrals into simple algebraic computations by counting poles inside closed curves.
+
+## Common Pitfalls
+
+- **Cauchy-Riemann as a sufficient condition**: The Cauchy-Riemann equations are necessary but not sufficient for differentiability — the partial derivatives must also be continuous at the point.
+- **Residue theorem misapplication**: The residue theorem requires the contour to be closed and positively oriented, and the function must be analytic inside except at isolated singularities — violating any condition invalidates the result.
+- **Branch cut confusion**: Multi-valued functions (log, z^(1/n)) require branch cuts to define a single-valued branch — choosing the wrong branch cut leads to discontinuities across the cut.
+
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="uni-maths-complex-analysis" title="University Maths -- Complex Analysis" description="Cauchy-Riemann equations, analytic functions, contour integration, residue theorem" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />;

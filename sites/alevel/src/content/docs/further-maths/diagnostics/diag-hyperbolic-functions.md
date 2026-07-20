@@ -4,6 +4,11 @@ description: "A-Level Further Maths Hyperbolic Functions -- Diagnostic notes cov
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Hyperbolic Functions — Diagnostic Tests
 
 ## Unit Tests

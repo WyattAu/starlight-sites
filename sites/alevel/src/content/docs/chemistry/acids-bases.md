@@ -1244,6 +1244,11 @@ Bases and Buffers with other chemistry topics to test synthesis under exam condi
 See for instructions on
 self-marking and building a personal test matrix.
 
+
+## Intuition
+
+**Acids and bases are like opposite personalities — one gives protons, the other accepts them, creating balance.**
+
 ## Summary
 
 This topic covers the essential chemistry of acids, bases and buffers, including key reactions,

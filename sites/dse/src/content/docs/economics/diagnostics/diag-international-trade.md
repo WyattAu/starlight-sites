@@ -210,6 +210,14 @@ Domestic saving. The country is importing capital to finance investment that exc
 Savings. This is sustainable if the borrowed funds are invested productively (generating future
 Export capacity), but unsustainable if used for consumption.
 
+## Intuition
+
+**Trading for mutual gain:** International trade is like a potluck dinner — everyone brings what they're best at making, and everyone eats better than if they tried to cook everything themselves. Comparative advantage, not absolute advantage, drives the gains.
+
+**Why it matters:** Trade policies affect everything from job availability to product prices. Understanding comparative advantage explains why countries specialize and trade.
+
+**The key insight:** A country can benefit from trade even if it's worse at producing everything — what matters is relative efficiency, not absolute efficiency.
+
 ## Additional DSE Exam-Style Questions
 
 ### EQ-1: Terms of Trade and Export Revenue

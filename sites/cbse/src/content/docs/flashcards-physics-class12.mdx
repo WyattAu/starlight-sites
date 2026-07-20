@@ -7,5 +7,22 @@ tags: [CBSE, Physics, Flashcards]
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/cbse/flashcards-physics-class12-data.js';
 
+## CBSE -- Physics Class 12 Flashcards
+
+20 interactive flashcards covering electrostatics, current electricity, magnetism, electromagnetic induction, AC circuits, electromagnetic waves, optics, dual nature of matter, atoms, nuclei, and semiconductor electronics. Press Space to flip, rate 1-4 to schedule next review.
+
+---
+
+## Intuition
+
+Electromagnetism is the unification of electric and magnetic forces — moving charges create magnetic fields, and changing magnetic fields create electric fields. Think of Faraday's law as nature's reluctance to let magnetic flux change: a coil will generate whatever EMF is needed to oppose a change in flux passing through it. Optics at this level explores how light behaves as both a wave (interference, diffraction) and a particle (photoelectric effect), bridging classical and quantum physics.
+
+## Common Pitfalls
+
+- **Electrostatics**: Forgetting that the electric field inside a conductor in electrostatic equilibrium is zero — charges redistribute on the surface to cancel any internal field.
+- **Optics**: Using the thin lens formula sign convention incorrectly — always define the direction of incident light as positive and apply the Cartesian sign convention consistently.
+- **Semiconductors**: Confusing n-type and p-type semiconductors — n-type has excess electrons (donor impurities), while p-type has excess holes (acceptor impurities).
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="cbse-physics-class12" title="CBSE Class 12 Physics" description="Electrostatics, current electricity, magnetism, electromagnetic induction, AC circuits, electromagnetic waves, optics, dual nature of matter, atoms, nuclei, and semiconductor electronics." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]} />

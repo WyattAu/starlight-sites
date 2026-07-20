@@ -3,6 +3,11 @@ title: Further Mechanics
 description: 'A-Level Further Maths Further Mechanics notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Further Mechanics
 
 Further Mechanics extends the classical mechanics from A-Level Mathematics into more complex and

@@ -5,6 +5,15 @@ tags:
 description: "- Streetcar explores class conflict between Blanche (A construct representing decaying Southern aristocracy) and Stanley (working-class immigrant), although"
 ---
 
+## Intuition
+
+**Comparative literature is like holding two mirrors up to each other — each text reflects and refracts themes from the other, creating deeper meaning:** Comparing texts reveals how different authors address universal human experiences across cultures and time periods
+
+**Why it matters:** Comparative analysis deepens literary understanding and develops critical thinking skills
+
+**The key insight:** Comparing texts reveals how different authors address universal human experiences across cultures and time periods
+
+
 ## Ideologies
 
 ### Socialism

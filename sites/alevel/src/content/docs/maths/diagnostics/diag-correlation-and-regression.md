@@ -4,6 +4,11 @@ description: "A-Level Maths Correlation and Regression -- Diagnostic notes cover
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Correlation and Regression — Diagnostic Tests
 
 ## Unit Tests

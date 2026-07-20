@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Cell Biology — Diagnostic Tests
 
+## Intuition
+
+**A cell is like a factory — the nucleus is the office, mitochondria are the power plant, ribosomes are the assembly line:** Cell structure is inseparable from function — each organelle's design enables its specific role
+
+**Why it matters:** Cell biology is the foundation of all biology, explaining how living organisms grow, function, and reproduce
+
+**The key insight:** Cell structure is inseparable from function — each organelle's design enables its specific role
+
+
 ## Unit Tests
 
 ### UT-1: Prokaryotic vs Eukaryotic Cell Comparison

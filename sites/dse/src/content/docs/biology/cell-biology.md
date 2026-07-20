@@ -185,6 +185,14 @@ $$\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{45
 **Problem:** A cell has 46 chromosomes and undergoes division. After division, each daughter cell has 23 chromosomes. Was this mitosis or meiosis? Explain.
 **Solution:** This was meiosis. Mitosis produces daughter cells with the same chromosome number as the parent (diploid to diploid). The halving from 46 to 23 (diploid to haploid) is characteristic of meiosis, which produces gametes.
 
+## Intuition
+
+**Life's building blocks:** Cells are like factories — the nucleus is the management office, mitochondria are power plants, and ribosomes are assembly lines. Biochemical tests identify which molecules are present.
+
+**Why it matters:** From diagnosing diseases to understanding genetics, cell biology is the foundation of modern medicine and biotechnology.
+
+**The key insight:** Structure determines function — the shape of a protein determines what it does, and mutations that change shape can cause disease.
+
 ## Common Pitfalls
 
 - **Confusing resolution and magnification:** Magnification enlarges the image; resolution determines the clarity of detail. Electron microscopes have higher resolution (not just higher magnification) than light microscopes.

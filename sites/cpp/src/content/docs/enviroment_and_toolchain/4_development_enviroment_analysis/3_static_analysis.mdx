@@ -531,6 +531,14 @@ if [ -n "$CHANGED_FILES" ]; then
     fi
 fi
 ```
+## Intuition
+
+**Automated code review:** Static analysis is like a linter on steroids — it analyzes your code without running it, finding bugs, style issues, and potential vulnerabilities.
+
+**Why it matters:** Static analysis catches bugs early, often before you even run the code. It's like having a code reviewer that works 24/7.
+
+**The key insight:** Static analysis tools have different strengths — use multiple tools to catch different types of issues.
+
 ## Common Pitfalls
 - **Enabling `-*` without understanding what it disables.** This turns off ALL checks, then you
   selectively re-enable. Forgetting to re-enable important checks means they are silently skipped.

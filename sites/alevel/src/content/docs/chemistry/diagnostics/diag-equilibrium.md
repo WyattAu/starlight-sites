@@ -4,6 +4,11 @@ description: "A-Level Chemistry Chemical Equilibrium -- Diagnostic Tests notes c
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Chemical equilibrium is like a busy restaurant — dishes are constantly being prepared and eaten, but the overall number of plates stays the same.**
+
 # Chemical Equilibrium — Diagnostic Tests
 
 ## Unit Tests

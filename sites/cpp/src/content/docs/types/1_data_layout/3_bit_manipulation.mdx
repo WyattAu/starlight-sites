@@ -594,6 +594,14 @@ constexpr IPv4 priv = IPv4::from_octets(10, 0, 0, 1);
 static_assert(priv.is_private() == true);
 ```
 
+## Intuition
+
+**Working with bits:** Bit manipulation is like working with switches — you can flip individual bits to represent flags, masks, and compact data structures.
+
+**Why it matters:** Bit manipulation enables efficient storage and fast operations, essential for systems programming and embedded systems.
+
+**The key insight:** Bitwise operations are constant-time — they're the fastest operations a CPU can perform.
+
 ## Common Pitfalls
 
 ### 1. Signed Integer Bit Operations

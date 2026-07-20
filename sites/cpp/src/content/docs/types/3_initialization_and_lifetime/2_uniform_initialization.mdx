@@ -436,6 +436,14 @@ std::unordered_map<std::string, int> um{
 All standard containers accept brace initialization, which internally uses `initializer_list`
 Constructors.
 
+## Intuition
+
+**Universal braces:** Uniform initialization is like a universal adapter — the same brace syntax works for almost all types, making initialization consistent and safer.
+
+**Why it matters:** Uniform initialization prevents narrowing conversions and works consistently across different types, reducing errors.
+
+**The key insight:** braces prevent narrowing — this catches potential bugs at compile time that would otherwise be silent.
+
 ## Common Pitfalls
 
 ### 1. `initializer_list` Steals the Overload

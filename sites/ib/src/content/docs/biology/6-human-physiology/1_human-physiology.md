@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**Human physiology is like a symphony orchestra — each organ system plays its part, and coordination creates health:** Homeostasis — the maintenance of stable internal conditions — connects all physiological processes
+
+**Why it matters:** Understanding physiology explains how our bodies work and how diseases disrupt normal function
+
+**The key insight:** Homeostasis — the maintenance of stable internal conditions — connects all physiological processes
+
+
 ## 1. Digestion
 
 ### Overview

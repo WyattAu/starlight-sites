@@ -11,12 +11,22 @@ categories:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcardData } from '@/data/flashcards/ruby/flashcards-ruby-basics-data.js';
 
-
 ## Ruby Basics -- Flashcards
 
 30 flashcards covering core Ruby concepts. Tap a card to reveal the answer.
 
 ---
 
+## Intuition
 
-<FlashcardDeck client:only="solid-js" deckId="ruby-basics" title="Ruby Basics" description="Core Ruby concepts and syntax" cards={flashcardData}  /> 
+Ruby is a language optimised for developer happiness — everything is an object (including integers and booleans), and blocks/procs/lambdas make functional patterns feel natural. Metaprogramming is Ruby's superpower: you can define methods at runtime, open classes and add methods (monkey patching), and use `method_missing` to handle calls to undefined methods. Mixins via modules provide code reuse without the diamond inheritance problem.
+
+## Common Pitfalls
+
+- **Monkey patching risks**: Reopening a class and changing method behaviour affects every instance globally — this is powerful but can introduce hard-to-debug conflicts between libraries.
+- **Symbol vs string**: `:symbol` and `"string"` are different — symbols are immutable and interned (memory efficient), strings are mutable and duplicated. Use symbols for hash keys and identifiers.
+- **Block vs proc vs lambda**: Blocks are not objects (can't be stored in variables), Procs don't check argument count, and Lambdas do — mixing them up causes subtle argument-passing bugs.
+
+---
+
+<FlashcardDeck client:only="solid-js" deckId="ruby-basics" title="Ruby Basics" description="Core Ruby concepts and syntax" cards={flashcardData}  />

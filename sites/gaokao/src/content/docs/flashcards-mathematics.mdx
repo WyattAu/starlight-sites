@@ -7,5 +7,22 @@ tags: [Gaokao, Mathematics, Flashcards]
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/gaokao/flashcards-mathematics-data.js';
 
+## Gaokao -- Mathematics Flashcards
+
+20 interactive flashcards for Gaokao Mathematics. Press Space to flip, rate 1-4.
+
+---
+
+## Intuition
+
+Gaokao Mathematics tests a broad range of topics from set theory and functions through calculus, analytical geometry, and probability. Functions are the central concept — understanding domain, range, monotonicity, and symmetry is essential. Derivatives measure rates of change and find extrema, while integrals accumulate areas and volumes. Analytical geometry connects algebraic equations to geometric shapes — lines, circles, ellipses, and hyperbolas.
+
+## Common Pitfalls
+
+- **Derivative sign errors**: Forgetting the chain rule when differentiating composite functions — d/dx[sin(2x)] = 2cos(2x), not cos(2x). Always multiply by the derivative of the inner function.
+- **Ellipse formula confusion**: The standard form x²/a² + y²/b² = 1 has a > b for a horizontal major axis — mixing up a and b leads to wrong focal distances and eccentricity calculations.
+- **Probability counting errors**: Forgetting to account for order in permutations vs combinations — P(n,k) = n!/(n-k)! counts ordered arrangements, while C(n,k) = n!/(k!(n-k)!) counts unordered selections.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="gaokao-mathematics" title="Gaokao Mathematics" description="Set theory, functions, trigonometry, sequences, derivatives, integrals, analytical geometry, probability, vectors, solid geometry, complex numbers, and combinatorics for the Chinese national exam." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />

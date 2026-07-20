@@ -279,6 +279,11 @@ have always depended on the kindness of strangers" — is followed by the Doctor
 escort from the stage. The silence of the other characters as she leaves speaks louder than any
 dialogue could.
 
+
+## Intuition
+
+**Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
+
 ## Summary
 
 - Drama analysis must consider both the text and its potential performance

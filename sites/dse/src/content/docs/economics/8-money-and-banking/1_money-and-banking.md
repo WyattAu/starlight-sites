@@ -582,6 +582,14 @@ Per bank.
 
 ---
 
+## Intuition
+
+**Money multiplies like rabbits:** Banks create money by lending out deposits — each loan becomes someone else's deposit, which gets lent again, creating a chain reaction. The money multiplier amplifies the initial deposit.
+
+**Why it matters:** Money creation affects inflation, interest rates, and economic growth. Understanding how banks create money explains why central banks control the money supply.
+
+**The key insight:** Banks don't just store money — they create it through lending, which is why a small reserve requirement can support a much larger money supply.
+
 ## Common Pitfalls
 
 1. **Confusing the money multiplier formula direction:** The money multiplier is the RECIPROCAL of

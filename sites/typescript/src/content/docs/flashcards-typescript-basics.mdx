@@ -8,7 +8,6 @@ tags: [TypeScript, Flashcards]
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcardData } from '@/data/flashcards/typescript/flashcards-typescript-basics-data.js';
 
-
 ## TypeScript -- Fundamentals Flashcards
 
 20 interactive flashcards covering core TypeScript concepts from the type system to React
@@ -16,5 +15,16 @@ integration. Press Space to flip, rate 1-4.
 
 ---
 
+## Intuition
 
-<FlashcardDeck client:only="solid-js" deckId="typescript-basics" title="TypeScript -- Fundamentals" description="20 interactive flashcards covering type system, generics, utility types, advanced patterns, enums, classes, tooling, and React integration." cards={flashcardData}  /> 
+TypeScript adds a compile-time type layer on top of JavaScript — the types exist only during development and are erased when the code runs. Generics let you write functions that work with any type while preserving type safety. Utility types (`Partial`, `Pick`, `Omit`, `Record`) let you transform existing types without defining new ones. The `any` type disables type checking entirely — it's an escape hatch, not a feature.
+
+## Common Pitfalls
+
+- **Type assertion vs type guard**: `as` assertions lie to the compiler ("trust me, this is a string") — type guards (`typeof`, `instanceof`, custom predicates) actually check at runtime.
+- **Enum gotchas**: Numeric enums allow reverse mapping and can be assigned any number without a compile error — prefer string enums or union types for safety.
+- **Generic constraints**: Forgetting to constrain generic types — `T` can be anything, so you can't call methods on it without a constraint like `T extends SomeInterface`.
+
+---
+
+<FlashcardDeck client:only="solid-js" deckId="typescript-basics" title="TypeScript -- Fundamentals" description="20 interactive flashcards covering type system, generics, utility types, advanced patterns, enums, classes, tooling, and React integration." cards={flashcardData}  />

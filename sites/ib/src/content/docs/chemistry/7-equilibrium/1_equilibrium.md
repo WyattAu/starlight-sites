@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**Chemical equilibrium is like a tug-of-war that never ends — forward and reverse reactions proceed at equal rates:** Le Chatelier's principle predicts how systems respond to stress — they shift to relieve the applied change
+
+**Why it matters:** Equilibrium principles guide industrial processes, drug design, and understanding natural systems
+
+**The key insight:** Le Chatelier's principle predicts how systems respond to stress — they shift to relieve the applied change
+
+
 ## Dynamic Equilibrium
 
 ### Reversible Reactions

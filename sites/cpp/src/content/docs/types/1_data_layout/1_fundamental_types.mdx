@@ -461,6 +461,14 @@ int main() {
 }
 ```
 ---
+## Intuition
+
+**Basic building blocks:** Fundamental types are like atoms — they're the simplest data types from which all other types are built. Their size and behavior vary by platform.
+
+**Why it matters:** Understanding fundamental types helps you write portable code and avoid platform-specific bugs.
+
+**The key insight:** int is at least 16 bits, but typically 32 bits — never assume the size of fundamental types without checking.
+
 ## Common Pitfalls
 - **Using `int` or `long` for binary protocol fields.** The size of `int` and `long` varies across
   platforms. Always use `<cstdint>` fixed-width types (`uint32_t``int64_t`Etc.) for network

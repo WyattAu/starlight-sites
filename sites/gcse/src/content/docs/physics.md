@@ -537,6 +537,14 @@ square law), and shielding.
 
 ---
 
+## Intuition
+
+**The rules of the universe:** Physics explains how everything moves — from apples falling to planets orbiting. It's like learning the rules of a game that nature always follows.
+
+**Why it matters:** From engineering to medicine, physics principles underpin modern technology. Understanding physics helps you see the invisible forces that shape our world.
+
+**The key insight:** Newton's laws are deceptively simple — F = ma explains everything from car crashes to rocket launches.
+
 ## Common Pitfalls
 
 1. **Confusing mass and weight.** Mass is measured in kilograms and does not change; weight is a

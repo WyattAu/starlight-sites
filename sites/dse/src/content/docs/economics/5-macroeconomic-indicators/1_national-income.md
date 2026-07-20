@@ -671,6 +671,14 @@ Without legislative delay, unlike discretionary fiscal policy.
 
 ---
 
+## Intuition
+
+**A nation's scoreboard:** GDP is like a company's revenue — it measures the total value of everything produced. But just like revenue isn't profit, GDP isn't welfare — it counts pollution cleanup as positive output.
+
+**Why it matters:** GDP per capita indicates living standards, but it misses inequality, environmental damage, and unpaid work. Understanding its limitations helps interpret economic data correctly.
+
+**The key insight:** GDP measures production, not happiness — a country can have rising GDP while most people's lives don't improve.
+
 ## Common Pitfalls
 
 1. **Confusing GDP and GNP:** GDP is production within the country (regardless of who owns the

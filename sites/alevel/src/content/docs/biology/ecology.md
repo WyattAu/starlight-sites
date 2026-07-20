@@ -1990,6 +1990,11 @@ impossible to address with traditional field methods alone.
 
 4. Failing to link structure to function when describing biological molecules, cells, or organs.
 
+
+## Intuition
+
+**Ecology is like a web of relationships — every organism depends on others in a delicate balance.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

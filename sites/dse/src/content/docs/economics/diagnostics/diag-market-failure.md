@@ -201,6 +201,14 @@ The government should tax driving first because the DWL from overconsumption of 
 Is far larger than from factory overproduction (\$61.25). This demonstrates that the government
 Should prioritise correcting the largest market failures first when resources are limited.
 
+## Intuition
+
+**The invisible hand stumbles:** Market failure is like a game with broken rules — the free market produces too much pollution, too few public goods, or too many monopolies because prices don't reflect the full social cost or benefit.
+
+**Why it matters:** Governments intervene to fix these failures — through taxes, regulations, or public provision. Understanding market failure explains why some things are left to the market and others aren't.
+
+**The key insight:** Externalities mean the price you pay doesn't reflect the true cost — a factory's pollution is paid by society, not the factory owner, unless the government intervenes.
+
 ## Additional DSE Exam-Style Questions
 
 ### EQ-1: Positive Externalities and Education Subsidy

@@ -507,6 +507,14 @@ build CMakeFiles/App.dir/main.cpp.o: dyndep | CMakeFiles/Engine.dir/engine.pcm
   restat = 1
 ```
 
+## Intuition
+
+**Module build systems:** BMI (Binary Module Interface) is like a compiled interface — it pre-processes module interfaces for faster builds.
+
+**Why it matters:** Understanding BMI helps you set up build systems that take advantage of modules for faster compilation.
+
+**The key insight:** BMI files are platform-specific — they can't be shared between different compilers or architectures.
+
 ## Common Pitfalls
 
 - **BMI version mismatch:** Rebuilding a module with different compiler flags but not cleaning the

@@ -32,6 +32,15 @@ Students study a body of literary works connected by a specific theme, genre, or
 
 ---
 
+## Intuition
+
+**Language and literature are like two sides of the same coin — one studies how language works, the other studies what language creates:** Understanding how language shapes meaning is essential for analyzing texts and crafting effective communication
+
+**Why it matters:** Language and literature studies develop critical thinking about media, rhetoric, and cultural communication
+
+**The key insight:** Understanding how language shapes meaning is essential for analyzing texts and crafting effective communication
+
+
 ## 2. Assessment Components
 
 ### 2.1 Paper 1: Textual Analysis

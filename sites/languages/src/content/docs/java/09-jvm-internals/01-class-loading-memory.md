@@ -484,6 +484,14 @@ Total: reserved=5000MB, committed=1200MB
 This is invaluable for diagnosing native memory leaks, especially in containerized environments
 Where the JVM's total memory usage must stay within cgroup limits.
 
+## Intuition
+
+**Java's engine room:** The JVM is like a factory — class loaders bring in blueprints (classes), the garbage collector cleans up waste, and memory management keeps everything running smoothly.
+
+**Why it matters:** Understanding JVM internals helps you write more efficient code and diagnose performance problems in production systems.
+
+**The key insight:** Garbage collection is automatic but not free — understanding when and how it runs helps you write memory-efficient code.
+
 ## Common Pitfalls
 
 ### OOM in Metaspace

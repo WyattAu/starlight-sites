@@ -4,6 +4,11 @@ description: "A-Level Physics Wave Properties -- Diagnostic Tests notes covering
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
+
 # Wave Properties — Diagnostic Tests
 
 ## Unit Tests

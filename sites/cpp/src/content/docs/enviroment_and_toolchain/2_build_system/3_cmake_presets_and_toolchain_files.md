@@ -482,6 +482,14 @@ Top level. Included presets are merged into the including file's namespace.
 3. **Sanitizers as Presets:** Create dedicated presets for Address Sanitizer (ASan) and Thread
    Sanitizer (TSan). This makes running a sanitized build as easy as `cmake --preset asan`.
 
+## Intuition
+
+**Build configurations:** Presets are like saved recipes — they store build configurations for different environments (debug, release, different compilers).
+
+**Why it matters:** Presets make it easy to switch between configurations and share build settings across teams.
+
+**The key insight:** Toolchain files specify compiler and platform settings — they're essential for cross-compilation.
+
 ## Common Pitfalls
 
 ### 1. `binaryDir` Collisions

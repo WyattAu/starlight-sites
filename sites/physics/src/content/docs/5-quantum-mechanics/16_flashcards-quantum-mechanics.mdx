@@ -16,4 +16,16 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
+## Intuition
+
+Quantum mechanics describes physics at atomic and subatomic scales, where particles behave as both waves and objects. The wavefunction ψ encodes everything knowable about a system — its squared modulus |ψ|² gives the probability of finding a particle at a given position. The Schrödinger equation governs how the wavefunction evolves over time. Operators represent physical observables (position, momentum, energy), and measuring an observable collapses the wavefunction to one of its eigenstates.
+
+## Common Pitfalls
+
+- **Normalisation forgetting**: A wavefunction must be normalised (∫|ψ|² = 1) before interpreting |ψ|² as a probability density — forgetting this step gives meaningless probabilities.
+- **Commutator confusion**: Non-commuting observables (like position and momentum) cannot be simultaneously measured precisely — this is the Heisenberg uncertainty principle, not a limitation of measurement instruments.
+- **Tunnelling paradox**: Particles can penetrate classically forbidden potential barriers — this is not "passing through" the barrier but rather the wavefunction having a non-zero amplitude inside the barrier region.
+
+---
+
 <FlashcardDeck client:only="solid-js" deckId="university-physics-quantum-mechanics" title="University Physics -- Quantum Mechanics" description="Wave functions, Schrodinger equation, operators, angular momentum, spin, perturbation theory, tunneling, and entanglement" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />

@@ -4,6 +4,11 @@ description: "A-Level Physics DC Circuits -- Diagnostic Tests notes covering key
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
+
 # DC Circuits — Diagnostic Tests
 
 ## Unit Tests

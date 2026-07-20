@@ -5,6 +5,15 @@ tags:
 description: "Tennessee Williams (1911--1983) is among the most significant American playwrights of the twentieth Century. Born Thomas Lanier Williams III in Columbus,"
 ---
 
+## Intuition
+
+**Streetcar is like a pressure cooker — Williams traps his characters in a small apartment where tensions simmer and explode:** Williams uses Blanche's fragile illusions against Stanley's brutal realism to explore the conflict between old and new South
+
+**Why it matters:** Understanding this play reveals themes of desire, delusion, and the American Dream that remain relevant today
+
+**The key insight:** Williams uses Blanche's fragile illusions against Stanley's brutal realism to explore the conflict between old and new South
+
+
 ## Author Context
 
 Tennessee Williams (1911--1983) is among the most significant American playwrights of the twentieth

@@ -166,6 +166,14 @@ $= \frac{108}{180} = \frac{3}{5}$.
 (d) Proportion preferring both $= 24/240 = 0.1$. Estimated from 600 people: $600 \times 0.1 = 60$
 people.
 
+## Intuition
+
+**The building blocks of math:** Numbers are like letters in an alphabet — they combine in different ways to create the language of mathematics. From primes to fractions, each type of number has unique properties.
+
+**Why it matters:** From financial calculations to scientific measurements, number sense is essential for everyday life. Understanding number properties helps you solve problems efficiently.
+
+**The key insight:** Prime numbers are the atoms of arithmetic — every number can be expressed as a unique product of primes.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

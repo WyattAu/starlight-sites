@@ -4,6 +4,11 @@ description: "A-Level Maths Sequences and Series -- Diagnostic Tests notes cover
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Sequences and Series — Diagnostic Tests
 
 ## Unit Tests

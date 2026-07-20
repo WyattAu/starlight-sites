@@ -752,6 +752,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**Expected values:** std::expected is like a result that might be an error — it holds either a value or an error, making error handling explicit and type-safe.
+
+**Why it matters:** std::expected provides a modern alternative to exceptions for functions that can fail, making error handling more visible and predictable.
+
+**The key insight:** std::expected is like std::optional with an error case — it's perfect for functions that either succeed or fail with a specific error.
+
 ## Common Pitfalls
 
 - **Calling `value()` without checking:** `value()` on an error-holding `expected` is undefined

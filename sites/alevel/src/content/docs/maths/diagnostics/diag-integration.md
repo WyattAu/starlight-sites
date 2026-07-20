@@ -4,6 +4,11 @@ description: "A-Level Maths Integration -- Diagnostic Tests notes covering key d
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Integration — Diagnostic Tests
 
 ## Unit Tests

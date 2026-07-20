@@ -4,6 +4,11 @@ description: "A-Level Physics Superposition and Interference -- notes covering k
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
+
 # Superposition and Interference — Diagnostic Tests
 
 ## Unit Tests

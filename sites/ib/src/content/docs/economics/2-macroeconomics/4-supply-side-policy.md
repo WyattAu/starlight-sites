@@ -6,6 +6,15 @@ tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
 
+## Intuition
+
+**Supply-side policies are like upgrading a factory's machinery — they aim to increase the economy's productive capacity:** Supply-side reforms can boost long-term growth but often take years to show results and may increase inequality
+
+**Why it matters:** Understanding supply-side economics is crucial for evaluating structural reform proposals
+
+**The key insight:** Supply-side reforms can boost long-term growth but often take years to show results and may increase inequality
+
+
 ## Aggregate Demand and Aggregate Supply
 
 ### Aggregate Demand (AD)

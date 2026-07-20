@@ -605,6 +605,14 @@ CPMAddPackage(
 )
 ```
 
+## Intuition
+
+**CMake package manager:** CPM is like a lightweight package manager for CMake — it downloads and integrates dependencies directly into your build.
+
+**Why it matters:** CPM simplifies dependency management for CMake projects, making it easy to add third-party libraries.
+
+**The key insight:** CPM is header-only friendly — it's great for small to medium projects with mostly header-only dependencies.
+
 ## Common Pitfalls
 
 1. **`add_subdirectory` conflicts:** If two dependencies both define a target with the same name

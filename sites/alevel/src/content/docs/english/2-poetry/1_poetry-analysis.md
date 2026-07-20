@@ -276,6 +276,11 @@ the subject's empire crumbles. A Marxist reading might note the poem's insistenc
 power is temporary, while a postcolonial reading might see Ozymandias as a figure of imperial
 hubris.
 
+
+## Intuition
+
+**Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
+
 ## Summary
 
 - Poetry analysis requires simultaneous attention to form, language, imagery, and sound

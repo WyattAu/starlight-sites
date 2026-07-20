@@ -6,6 +6,15 @@ tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
 
+## Intuition
+
+**Elasticity is like a rubber band — it measures how stretched (responsive) quantity is to changes in price or income:** Elasticity determines who bears the burden of taxes, how firms set prices, and how consumers respond to price changes
+
+**Why it matters:** Understanding elasticity is essential for business pricing decisions, tax policy, and predicting market responses
+
+**The key insight:** Elasticity determines who bears the burden of taxes, how firms set prices, and how consumers respond to price changes
+
+
 ## Elasticity
 
 ### Price Elasticity of Demand (PED)

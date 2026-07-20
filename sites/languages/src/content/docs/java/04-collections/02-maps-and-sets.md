@@ -630,6 +630,14 @@ public class TimedCache<K, V> {
 }
 ```
 
+## Intuition
+
+**Key-value stores and unique elements:** Maps are like dictionaries — they map keys to values for fast lookup. Sets are like guest lists — they ensure each element appears only once.
+
+**Why it matters:** Maps and sets are essential for efficient data retrieval. Understanding their implementations helps you choose the right one for your use case.
+
+**The key insight:** Hash-based implementations offer O(1) lookup, but tree-based implementations keep elements sorted — choose based on your priorities.
+
 ## Common Pitfalls
 
 ### Modifying a Map While Iterating

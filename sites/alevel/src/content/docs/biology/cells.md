@@ -10,6 +10,11 @@ categories:
 
 ---
 
+
+## Intuition
+
+**Cells are like tiny factories — each with specialized departments working together to keep the organism alive.**
+
 ## Cells
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 2

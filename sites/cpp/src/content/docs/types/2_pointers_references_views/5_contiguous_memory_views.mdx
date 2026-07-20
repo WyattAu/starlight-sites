@@ -546,6 +546,14 @@ Policies.
 - **`std::span`** — [N4950 §22.7.3], C++20.
 - **`std::mdspan`** — [N4950 §22.7.4], C++23 (multi-dimensional views).
 
+## Intuition
+
+**Continuous data access:** Contiguous memory views are like windows into arrays — they provide safe, efficient access to sequential data without copying.
+
+**Why it matters:** Contiguous memory views enable efficient algorithms and safe interfaces, especially for string and array processing.
+
+**The key insight:** std::string_view is non-owning — it doesn't manage the memory, so the underlying data must outlive the view.
+
 ## Summary
 
 This topic covers the core concepts of contiguous memory views (std::span), including underlying

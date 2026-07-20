@@ -472,6 +472,14 @@ Writing it into the appropriate location in the machine code.
 - **Stripping before creating a debug link.** Always run `objcopy --only-keep-debug` before `strip`
   and use `objcopy --add-gnu-debuglink` to associate the debug file with the stripped binary.
   Otherwise, you lose the ability to debug crashes in production.
+## Intuition
+
+**Code transformation:** The compilation process is like a factory assembly line — preprocessing, parsing, optimization, and code generation transform source code into executable instructions.
+
+**Why it matters:** Understanding the compilation process helps you write better code and debug compilation errors.
+
+**The key insight:** Preprocessor macros are text substitutions — they don't understand C++ syntax, which is why constexpr is preferred.
+
 ## Common Pitfalls
 1. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.

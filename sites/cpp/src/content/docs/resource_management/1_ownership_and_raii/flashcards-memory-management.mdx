@@ -15,6 +15,18 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
+## Intuition
+
+RAII (Resource Acquisition Is Initialization) ties resource lifetime to object lifetime — when an object is constructed it acquires a resource (memory, file handle, mutex lock), and when it goes out of scope its destructor releases it automatically. Smart pointers (`std::unique_ptr`, `std::shared_ptr`) extend this to heap memory: `unique_ptr` is exclusive ownership (like a single key to a safe), while `shared_ptr` is shared ownership with reference counting (like a library book with multiple borrowers).
+
+## Common Pitfalls
+
+- **Raw new/delete**: Using `new` and `delete` manually instead of smart pointers — this is the most common source of memory leaks and double-free bugs in C++.
+- **Circular references with shared_ptr**: Two objects holding `shared_ptr` to each other create a reference count cycle that never reaches zero — use `std::weak_ptr` to break the cycle.
+- **Dangling pointers**: Holding a raw pointer or reference to an object that has been destroyed — prefer smart pointers and avoid raw pointer ownership.
+
+---
+
 <FlashcardDeck client:only="solid-js"   deckId="cpp-memory-management"
   title="C++ Memory Management Flashcards"
   description="Interactive flashcards on RAII, smart pointers, move semantics, Rule of Five, memory leaks, dangling pointers, stack vs heap, and exception safety."

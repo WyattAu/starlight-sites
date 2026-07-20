@@ -753,6 +753,14 @@ Static initialization order problem entirely.
 - [Calling Conventions and Stack Management](2_calling_conventions.md)
 - [Type Erasure](4_type_erasure.md)
 
+## Intuition
+
+**Bridge between worlds:** C interop is like a translator — it lets C++ code use C libraries and vice versa, enabling code reuse and system integration.
+
+**Why it matters:** Many system libraries and APIs are written in C. Understanding C interop lets you leverage existing code and interface with system-level functionality.
+
+**The key insight:** extern "C" disables name mangling, making C++ functions callable from C code.
+
 ## Summary
 
 This topic covers the fundamental principles of c-interop and ffi, including the key equations,

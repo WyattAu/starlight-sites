@@ -11,7 +11,6 @@ categories:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcardData } from '@/data/flashcards/dart/flashcards-dart-basics-data.js';
 
-
 ## Dart -- Fundamentals Flashcards
 
 30 interactive flashcards covering core Dart concepts from null safety to Dart 3 features and
@@ -19,5 +18,16 @@ Flutter basics. Press Space to flip, rate 1-4.
 
 ---
 
+## Intuition
 
-<FlashcardDeck client:only="solid-js" deckId="dart-basics" title="Dart -- Fundamentals" description="30 interactive flashcards covering type system, OOP, async, Dart 3 features, collections, error handling, Flutter, state management, and testing." cards={flashcardData}  /> 
+Dart is a client-optimised language for building apps on any platform — it compiles to native code (AOT) for mobile and JavaScript for web. The single-threaded event loop model handles concurrency via async/await and Futures (similar to JavaScript Promises). Null safety, introduced in Dart 2.12, makes every variable non-nullable by default — the `?` suffix marks nullable types, and `late` defers initialisation to runtime. Records and patterns (Dart 3) bring modern data modelling to the language.
+
+## Common Pitfalls
+
+- **Future timing**: Starting an async operation without awaiting it — the code continues executing before the Future completes, causing race conditions. Use `await` or chain with `.then()`.
+- **Widget rebuilds**: Rebuilding the entire widget tree on state changes in Flutter — use `const` constructors and targeted state management to minimise rebuilds.
+- **Mixin ordering**: When using `with A, B`, the last mixin's methods take precedence — this can override earlier mixin methods unexpectedly if they share the same method name.
+
+---
+
+<FlashcardDeck client:only="solid-js" deckId="dart-basics" title="Dart -- Fundamentals" description="30 interactive flashcards covering type system, OOP, async, Dart 3 features, collections, error handling, Flutter, state management, and testing." cards={flashcardData}  />

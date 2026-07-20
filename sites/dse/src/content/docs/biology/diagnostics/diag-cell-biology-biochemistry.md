@@ -170,6 +170,14 @@ than the active site), whereas a competitive inhibitor binds to the **active sit
 
 ---
 
+## Intuition
+
+**Life's building blocks:** Cells are like factories — the nucleus is the management office, mitochondria are power plants, and ribosomes are assembly lines. Biochemical tests identify which molecules are present.
+
+**Why it matters:** From diagnosing diseases to understanding genetics, cell biology is the foundation of modern medicine and biotechnology.
+
+**The key insight:** Structure determines function — the shape of a protein determines what it does, and mutations that change shape can cause disease.
+
 ## Integration Test 1: Biological Molecules and Biochemical Tests
 
 **Question**

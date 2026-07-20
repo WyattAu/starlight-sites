@@ -92,6 +92,14 @@ Geometry (area, perimeter)
 7. Common pitfalls to watch: percentage change vs percentage of, confusing median and mean,
    forgetting units in compound measures.
 
+## Intuition
+
+**A diagnostic roadmap:** Diagnostic tests are like medical check-ups — they identify weak spots before the exam, so you can focus your study time where it matters most.
+
+**Why it matters:** Targeted revision is more efficient than covering everything. Diagnostic tests help you prioritize and track improvement.
+
+**The key insight:** Making mistakes on diagnostic tests is valuable — each error points to a concept that needs clarification.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

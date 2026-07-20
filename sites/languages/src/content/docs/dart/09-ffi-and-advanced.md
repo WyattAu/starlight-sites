@@ -1504,6 +1504,14 @@ bool isNotString(Object value) => switch (value) {
 };
 ```
 
+## Intuition
+
+**Dart's power tools:** FFI lets Dart talk to C libraries, isolates run tasks in parallel, and mirrors enable dynamic code generation. These are advanced tools for specific needs.
+
+**Why it matters:** FFI enables integration with existing C libraries, isolates improve performance, and mirrors enable dynamic programming.
+
+**The key insight:** FFI is for performance-critical code or existing C libraries — prefer pure Dart for portability.
+
 ## Common Pitfalls
 
 ### FFI Memory Leaks

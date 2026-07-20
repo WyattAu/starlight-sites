@@ -613,6 +613,14 @@ Memory. On 64-bit JVMs, the limit is the available virtual address space. Closin
 Does not immediately unmap the buffer — the mapped memory is released when the `MappedByteBuffer`
 Object is GC'd, which may be delayed.
 </aside>
+## Intuition
+
+**Data highways:** NIO is like a postal system with express lanes — selectors let one thread manage many channels, making it ideal for high-performance servers.
+
+**Why it matters:** NIO's non-blocking nature enables handling thousands of connections with minimal threads, essential for modern network applications.
+
+**The key insight:** Selectors are the magic — they let one thread monitor multiple channels for readiness, avoiding the overhead of one thread per connection.
+
 ## Common Pitfalls
 
 ### Forgetting to `flip()` Before Reading

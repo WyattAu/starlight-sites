@@ -1,6 +1,6 @@
 ---
 title: "Scottish Highers Flashcards: Chemistry"
-description: "20 interactive flashcards for Scottish Highers Chemistry. Press Space to flip, r Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for Scottish Highers Chemistry. Press Space to flip, rate 1-4."
 tags:
   - Scottish Highers
   - Chemistry
@@ -10,12 +10,22 @@ tags:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/highers/flashcards-chemistry-data.js';
 
-
 ## Scottish Highers -- Chemistry Flashcards
 
 20 interactive flashcards for Scottish Highers Chemistry. Press Space to flip, rate 1-4.
 
 ---
 
+## Intuition
+
+Chemistry explains how atoms bond to form everything around you — the water in your glass, the steel in a bridge, the DNA in your cells. Atomic structure determines bonding: metals donate electrons (ionic bonding), non-metals share them (covalent bonding), and the resulting structures dictate properties like melting point, conductivity, and solubility. Enthalpy tells you whether a reaction releases energy (exothermic, like combustion) or absorbs it (endothermic, like photosynthesis).
+
+## Common Pitfalls
+
+- **Balancing equations**: Forgetting to balance the entire equation — you cannot change subscripts to balance; only add coefficients in front of formulas.
+- **Electron configuration**: Writing the configuration for transition metals incorrectly — remember that 4s fills before 3d, but 3d loses electrons first during ionisation.
+- **Organic nomenclature**: Mixing up IUPAC naming rules — the longest chain gets the base name, substituents are listed alphabetically, and numbering starts from the end nearest the first substituent.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="highers-chemistry" title="Scottish Highers -- Chemistry" description="Atomic structure, bonding, enthalpy, acids and bases, organic chemistry, analytical chemistry" cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />

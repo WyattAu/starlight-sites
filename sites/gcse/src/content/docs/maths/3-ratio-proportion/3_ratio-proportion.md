@@ -445,6 +445,14 @@ Mass $= 0.180 \mathrm{ kg$.
 
 Density $= \frac{0.180}{30 \times 10^{-6}} = \frac{0.180}{0.00003} = 6000 \mathrm{ kg/m^3$.
 
+## Intuition
+
+**Comparing quantities:** Ratios are like recipes — they tell you how much of each ingredient you need. Proportions scale the recipe up or down while keeping the same relative amounts.
+
+**Why it matters:** From map scales to cooking, ratios and proportions are everywhere. Understanding them helps you scale quantities and compare sizes.
+
+**The key insight:** Cross-multiplication works because it's really multiplying both sides by the product of the denominators — it's a shortcut for maintaining equality.
+
 ## Common Pitfalls
 
 - **Mixing up the order of a ratio.** The ratio $A : B = 3 : 5$ means $A/B = 3/5$Not $B/A$.

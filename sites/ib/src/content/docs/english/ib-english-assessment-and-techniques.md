@@ -155,6 +155,15 @@ Author's purpose, the text's relationship to its context, or the larger themes i
 
 ---
 
+## Intuition
+
+**IB English assessment is like a performance — you must demonstrate understanding through careful analysis, clear writing, and insightful interpretation:** Success in IB English comes from close reading, structured argumentation, and connecting texts to broader contexts
+
+**Why it matters:** Mastering assessment techniques ensures your understanding is accurately reflected in your grades
+
+**The key insight:** Success in IB English comes from close reading, structured argumentation, and connecting texts to broader contexts
+
+
 ## 2. Paper 2: Comparative Essay
 
 ### 2.1 Structure and Expectations

@@ -4,6 +4,11 @@ description: "A-Level Physics Momentum -- Diagnostic Tests notes covering key de
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
+
 # Momentum — Diagnostic Tests
 
 ## Unit Tests

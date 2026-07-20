@@ -4,6 +4,11 @@ description: "A-Level Maths Probability -- Diagnostic Tests notes covering key d
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Probability is like a weather forecast — it tells you the likelihood of events, but never guarantees outcomes.**
+
 # Probability — Diagnostic Tests
 
 ## Unit Tests

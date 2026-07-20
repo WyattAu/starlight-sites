@@ -431,6 +431,14 @@ osmolarity, which stimulates osmoreceptors in the hypothalamus, triggering thirs
 
 ---
 
+## Intuition
+
+**Life's balancing act:** Homeostasis is like a thermostat — the body constantly monitors conditions and adjusts to keep them stable. When blood sugar rises, insulin brings it down; when it falls, glucagon brings it back up.
+
+**Why it matters:** From diabetes to climate adaptation, understanding homeostasis explains how the body maintains health and how disruptions cause disease.
+
+**The key insight:** Negative feedback reverses changes, positive feedback amplifies them — knowing which is which prevents confusion in exams.
+
 ## Common Pitfalls
 
 1. **Confusing negative and positive feedback:** Negative feedback reverses a change and maintains

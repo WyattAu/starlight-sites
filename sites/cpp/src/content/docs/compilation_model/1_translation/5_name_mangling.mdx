@@ -547,6 +547,14 @@ Components may have practical limits:
 - **MSVC COFF:** Internal limits may cause truncation for names exceeding ~4096 characters.
 - **`nm` output:** Line wrapping may make long names hard to read. Use `nm -C` for demangled output.
 
+## Intuition
+
+**Encoding names:** Name mangling is like encoding addresses — it transforms human-readable function names into unique identifiers that the linker can distinguish.
+
+**Why it matters:** Understanding name mangling helps you debug linking errors and interface with C code.
+
+**The key insight:** extern "C" disables name mangling, making C++ functions callable from C code.
+
 ## Common Pitfalls
 
 - **Forgetting `extern "C"` for C callbacks:** C++ function pointers have different mangling than C

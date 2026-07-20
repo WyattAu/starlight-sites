@@ -4,6 +4,11 @@ description: "A-Level Biology Biological Molecules -- Diagnostic Tests notes cov
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
+
 # Biological Molecules — Diagnostic Tests
 
 ## Unit Tests

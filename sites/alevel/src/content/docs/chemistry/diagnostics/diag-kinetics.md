@@ -4,6 +4,11 @@ description: "A-Level Chemistry Chemical Kinetics -- Diagnostic Tests notes cove
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Reaction kinetics is like watching a race — some reactions sprint to completion, while others stroll leisurely.**
+
 # Chemical Kinetics — Diagnostic Tests
 
 ## Unit Tests

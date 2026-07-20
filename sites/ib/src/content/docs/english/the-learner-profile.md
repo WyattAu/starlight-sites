@@ -76,6 +76,15 @@ Reflective students thoughtfully consider the world and their own ideas and expe
 
 ---
 
+## Intuition
+
+**The IB learner profile is like a compass — it guides students toward becoming well-rounded, ethical, and engaged global citizens:** The ten attributes (inquirers, knowledgeable, thinkers, etc.) describe not just what students know, but who they become
+
+**Why it matters:** The learner profile shapes the IB's approach to education, emphasizing character development alongside academic achievement
+
+**The key insight:** The ten attributes (inquirers, knowledgeable, thinkers, etc.) describe not just what students know, but who they become
+
+
 ## 2. Approaches to Learning (ATL) Skills for English
 
 The ATL framework identifies five categories of skills that IB students are expected to develop across all subjects. In English, these skills have specific applications.

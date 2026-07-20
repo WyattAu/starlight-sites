@@ -6,6 +6,15 @@ categories: [ib-economics]
 date: 2026-05-21
 ---
 
+## Intuition
+
+**Economics is the study of choices under scarcity — how individuals, firms, and governments allocate limited resources:** Economic thinking reveals hidden trade-offs and incentives in every decision, from personal budgets to national policy
+
+**Why it matters:** Economic literacy is essential for informed citizenship and navigating an increasingly complex world
+
+**The key insight:** Economic thinking reveals hidden trade-offs and incentives in every decision, from personal budgets to national policy
+
+
 ## 1. Microeconomics
 
 - [Supply and Demand](1-microeconomics/1_supply-and-demand.md) — scarcity, PPF, supply and demand,

@@ -1411,6 +1411,14 @@ graph TD
     style RuntimeException fill:#fff3cd
 ```
 
+## Intuition
+
+**Blueprints for objects:** Classes are like blueprints — they define what an object looks like and how it behaves. Objects are the actual buildings made from those blueprints.
+
+**Why it matters:** OOP is the foundation of modern software design. Understanding classes, encapsulation, and constructors helps you build maintainable, reusable code.
+
+**The key insight:** Encapsulation hides complexity — users of your class don't need to know how it works, just what it does.
+
 ## Summary of Design Principles
 
 1. **Single inheritance trades flexibility for simplicity.** Multiple inheritance of implementation

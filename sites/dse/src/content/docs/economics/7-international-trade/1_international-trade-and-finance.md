@@ -550,6 +550,14 @@ Exceeding 300%. This reflects:
 
 ---
 
+## Intuition
+
+**Trading for mutual gain:** International trade is like a potluck dinner — everyone brings what they're best at making, and everyone eats better than if they tried to cook everything themselves. Comparative advantage, not absolute advantage, drives the gains.
+
+**Why it matters:** Trade policies affect everything from job availability to product prices. Understanding comparative advantage explains why countries specialize and trade.
+
+**The key insight:** A country can benefit from trade even if it's worse at producing everything — what matters is relative efficiency, not absolute efficiency.
+
 ## Common Pitfalls
 
 1. **Confusing absolute and comparative advantage:** Absolute advantage is about who can produce

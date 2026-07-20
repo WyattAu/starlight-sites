@@ -534,6 +534,14 @@ When $\Delta n = 0$, $K_p = K_c$ with no units.
 
 ---
 
+## Intuition
+
+**A tug-of-war that never ends:** Chemical equilibrium is like two teams pulling on a rope — both forward and reverse reactions happen at the same rate, so concentrations don't change, but reactions haven't stopped.
+
+**Why it matters:** From industrial ammonia production to blood oxygen transport, equilibrium determines how much product you get. Le Chatelier's principle predicts how systems respond to disturbances.
+
+**The key insight:** Changing concentration or pressure shifts equilibrium, but changing temperature changes the equilibrium constant itself — this distinction is crucial.
+
 ## Common Pitfalls
 
 1. **Including solids and liquids in $K_c$:** Only aqueous and gaseous species appear in the

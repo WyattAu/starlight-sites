@@ -6,6 +6,15 @@ tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
 
+## Intuition
+
+**Descriptive statistics is like a photographer's toolkit — it captures and presents data through measures of central tendency and dispersion:** Statistics summarize complex data into digestible forms, but always consider what the numbers leave out
+
+**Why it matters:** Statistical literacy is essential for interpreting economic data, research findings, and media reports
+
+**The key insight:** Statistics summarize complex data into digestible forms, but always consider what the numbers leave out
+
+
 ## Real vs. Nominal Calculations
 
 ### Distinguishing Real and Nominal Values

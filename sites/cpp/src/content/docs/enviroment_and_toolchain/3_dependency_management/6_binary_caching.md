@@ -421,6 +421,14 @@ steps:
 
 This combined approach can reduce a 45-minute CI build to under 2 minutes for incremental changes.
 
+## Intuition
+
+**Avoiding rebuilds:** Binary caching is like caching web pages — instead of rebuilding dependencies from source every time, you download pre-built binaries.
+
+**Why it matters:** Binary caching dramatically speeds up builds, especially in CI/CD environments where time is money.
+
+**The key insight:** Binary caches are platform-specific — binaries built on Linux won't work on Windows.
+
 ## Common Pitfalls
 
 1. **Forgetting to set `CMAKE_CXX_COMPILER_LAUNCHER`:** Without this, CMake invokes the compiler

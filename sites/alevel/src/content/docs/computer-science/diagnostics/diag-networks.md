@@ -4,6 +4,11 @@ description: "A-Level Computer Science Computer Networks -- Diagnostic notes cov
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Computer Networks — Diagnostic Tests
 
 ## Unit Tests

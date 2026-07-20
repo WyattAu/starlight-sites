@@ -4,6 +4,11 @@ description: "A-Level Maths Numerical Methods -- Diagnostic Tests notes covering
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Numerical Methods — Diagnostic Tests
 
 ## Unit Tests

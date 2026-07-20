@@ -4,6 +4,11 @@ description: "A-Level Maths Binomial Expansion -- Diagnostic Tests notes coverin
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Binomial Expansion — Diagnostic Tests
 
 ## Unit Tests

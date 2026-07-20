@@ -466,6 +466,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**Memory organization:** Data layout is like organizing a filing cabinet — how you arrange data affects cache performance and memory usage.
+
+**Why it matters:** Good data layout improves cache performance, which can make the difference between fast and slow code.
+
+**The key insight:** Aligning data to cache line boundaries can prevent false sharing in multithreaded code.
+
 ## Common Pitfalls
 
 ### 1. Assuming Layout Across Compilers

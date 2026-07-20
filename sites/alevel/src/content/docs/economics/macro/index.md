@@ -3,6 +3,11 @@ title: Macroeconomics
 description: 'A-Level Macroeconomics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision and exam readiness.'
 ---
 
+
+## Intuition
+
+**Macroeconomics is like looking at the big picture — inflation, growth, and unemployment affecting entire nations.**
+
 # Macroeconomics
 
 Macroeconomics studies the behaviour of the economy as a whole — national output, inflation,

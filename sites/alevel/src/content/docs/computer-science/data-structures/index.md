@@ -3,6 +3,11 @@ title: Data Structures
 description: 'A-Level Computer Science Data Structures notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.'
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Data Structures
 
 Data structures are organised collections of data that enable efficient access, modification, and

@@ -1,6 +1,6 @@
 ---
 title: "University Maths Flashcards: Multivariable Calculus"
-description: "Content notes."
+description: "20 interactive flashcards for university-level Multivariable Calculus. Press Space to flip, rate 1-4."
 tags: [University, Mathematics, Flashcards]
 ---
 
@@ -9,6 +9,18 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Mathematics -- Multivariable Calculus Flashcards
 20 interactive flashcards for university-level Multivariable Calculus. Press Space to flip, rate 1-4.
+---
+
+## Intuition
+
+Multivariable calculus extends single-variable calculus to functions of several variables. Partial derivatives measure the rate of change in one direction while holding others constant. The gradient vector points in the direction of steepest ascent — its magnitude is the maximum rate of change. Multiple integrals compute volumes and masses over regions, and the theorems of Green, Stokes, and Gauss connect local differential properties to global integral properties over boundaries.
+
+## Common Pitfalls
+
+- **Clairaut's theorem order**: Mixed partial derivatives f_xy and f_yx are equal only if they're continuous — assuming equality without checking continuity can lead to wrong results for non-smooth functions.
+- **Jacobian determinant sign**: The Jacobian determinant in change-of-variables can be negative — the absolute value is used for volume scaling, but the sign indicates orientation reversal.
+- **Green's theorem orientation**: The boundary curve must be positively oriented (counterclockwise) for Green's theorem — reversing orientation flips the sign of the integral.
+
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="uni-maths-multivariable-calculus" title="University Maths -- Multivariable Calculus" description="Partial derivatives, gradient, Lagrange multipliers, multiple integrals, vector calculus" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />;

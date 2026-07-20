@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Ecology — Diagnostic Tests
 
+## Intuition
+
+**Ecology is like studying a web of relationships — every organism is connected to others through food webs, competition, and symbiosis:** Ecosystems are dynamic systems where energy flows and nutrients cycle through interconnected communities
+
+**Why it matters:** Ecology is essential for conservation, resource management, and understanding human impacts on the environment
+
+**The key insight:** Ecosystems are dynamic systems where energy flows and nutrients cycle through interconnected communities
+
+
 ## Unit Tests
 
 ### UT-1: Energy Flow and Ecological Efficiency

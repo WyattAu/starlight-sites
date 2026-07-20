@@ -511,6 +511,14 @@ Competition, raising prices, and reducing innovation.
 
 ---
 
+## Intuition
+
+**The invisible hand stumbles:** Market failure is like a game with broken rules — the free market produces too much pollution, too few public goods, or too many monopolies because prices don't reflect the full social cost or benefit.
+
+**Why it matters:** Governments intervene to fix these failures — through taxes, regulations, or public provision. Understanding market failure explains why some things are left to the market and others aren't.
+
+**The key insight:** Externalities mean the price you pay doesn't reflect the true cost — a factory's pollution is paid by society, not the factory owner, unless the government intervenes.
+
 ## Common Pitfalls
 
 1. **Confusing negative externalities of production with negative externalities of consumption:** A

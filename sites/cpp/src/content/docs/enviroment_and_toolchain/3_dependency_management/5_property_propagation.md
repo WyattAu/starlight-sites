@@ -599,6 +599,14 @@ All `INTERFACE_*` properties from the linked target. The complete list of propag
 This is why a single `PUBLIC` link can cause a cascade of changes: it propagates not just the link
 Dependency, but all of the linked target's own transitive usage requirements.
 
+## Intuition
+
+**Configuration inheritance:** Property propagation is like inheritance in OOP — child targets inherit properties from parent targets, ensuring consistent configuration.
+
+**Why it matters:** Proper property propagation ensures consistent behavior across your project and reduces configuration duplication.
+
+**The key insight:** INTERFACE properties are perfect for header-only libraries — they provide usage requirements without implementation details.
+
 ## Common Pitfalls
 
 1. **Overusing PUBLIC:** The most common mistake is making every dependency `PUBLIC` "just in case."

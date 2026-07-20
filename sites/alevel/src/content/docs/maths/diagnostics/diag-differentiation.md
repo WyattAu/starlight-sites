@@ -4,6 +4,11 @@ description: "A-Level Maths Differentiation -- Diagnostic Tests notes covering k
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Differentiation — Diagnostic Tests
 
 ## Unit Tests

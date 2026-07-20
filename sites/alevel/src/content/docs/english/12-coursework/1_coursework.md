@@ -10,6 +10,11 @@ categories:
 description: "A-Level English coursework guide: NEA requirements, independent reading, critical anthology, essay titles, comparative approaches, referencing, and exemplar responses."
 ---
 
+
+## Intuition
+
+**English literature explores the human experience through language — words painting pictures of life.**
+
 # Coursework Guide
 
 ## Introduction

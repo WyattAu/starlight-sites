@@ -4,6 +4,11 @@ description: "A-Level Maths Equations and Inequalities -- Diagnostic notes cover
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 # Equations and Inequalities — Diagnostic Tests
 
 ## Unit Tests

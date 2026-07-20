@@ -826,6 +826,11 @@ lattice and have greater freedom of movement (1 mark).
 
 </details>
 
+
+## Intuition
+
+**Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
+
 ## Summary
 
 This topic covers the fundamental principles of entropy and gibbs free energy, including the key

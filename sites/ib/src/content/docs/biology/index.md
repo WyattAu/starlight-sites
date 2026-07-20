@@ -11,6 +11,15 @@ tags:
 Complete revision notes for IB Biology, covering the full syllabus with worked examples, common
 pitfalls, and exam-style problems.
 
+## Intuition
+
+**Biology is the science of life — it explores how living organisms function, reproduce, evolve, and interact:** Biology connects molecular mechanisms to organism-level phenomena, from DNA replication to ecosystem dynamics
+
+**Why it matters:** Biological literacy is essential for medicine, environmental stewardship, and understanding our place in nature
+
+**The key insight:** Biology connects molecular mechanisms to organism-level phenomena, from DNA replication to ecosystem dynamics
+
+
 ## Core Topics
 
 ### Cell and Molecular Biology

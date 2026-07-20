@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**Advanced genetics is like reading the fine print of the biological instruction manual — epistasis, linkage, and polygenic inheritance reveal complexity beyond simple Mendelian patterns:** Most traits involve multiple genes interacting with each other and the environment, creating continuous variation
+
+**Why it matters:** Advanced genetics is essential for understanding complex diseases, quantitative traits, and evolutionary mechanisms
+
+**The key insight:** Most traits involve multiple genes interacting with each other and the environment, creating continuous variation
+
+
 ## 1. DNA Replication in Detail
 
 ### The Replication Fork

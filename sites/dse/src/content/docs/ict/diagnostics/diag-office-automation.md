@@ -98,6 +98,14 @@ embedded object is always available, even without the source file.
 
 ---
 
+## Intuition
+
+**A digital Swiss Army knife:** Office automation tools are like specialized tools in a workshop — spreadsheets calculate, word processors format, and presentations visualize. Formulas and macros are your power tools.
+
+**Why it matters:** Automating repetitive tasks saves hours of work. A single well-crafted formula can replace hours of manual calculation.
+
+**The key insight:** Absolute references ($) lock cells in place while relative references shift — mastering this one concept unlocks powerful spreadsheet design.
+
 ## Integration Tests
 
 ### IT-1: Integrated Office Solution (with Programming and Databases)

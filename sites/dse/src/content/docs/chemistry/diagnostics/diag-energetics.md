@@ -168,6 +168,14 @@ rise and a less exothermic (less negative) $\Delta H$ value, increasing the erro
 
 ---
 
+## Intuition
+
+**Energy accounting:** Energetics is like balancing a chemical bank account — energy goes in (endothermic) or out (exothermic), and Hess's Law says the total change is the same regardless of the path taken.
+
+**Why it matters:** From fuel efficiency to drug design, energy changes determine whether reactions occur and how much energy they release or absorb.
+
+**The key insight:** Enthalpy change is a state function — it only depends on the starting and ending points, not the route taken, which is why Hess's Law works.
+
 ## Integration Test 1: Hess's Law + Bond Enthalpy Comparison
 
 **Question**

@@ -4,6 +4,11 @@ description: "A-Level Further Maths Further Calculus -- Diagnostic Tests notes c
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Further Calculus — Diagnostic Tests
 
 ## Unit Tests

@@ -8,6 +8,15 @@ categories:
   - ib
 ---
 
+## Intuition
+
+**Chemical bonding is like molecular architecture — atoms connect through ionic, covalent, or metallic bonds to build all matter:** Bond strength and type determine physical properties — from diamond's hardness to salt's conductivity
+
+**Why it matters:** Understanding bonding explains why materials have their properties and enables design of new materials
+
+**The key insight:** Bond strength and type determine physical properties — from diamond's hardness to salt's conductivity
+
+
 ## Introduction
 
 ### Why Atoms Bond

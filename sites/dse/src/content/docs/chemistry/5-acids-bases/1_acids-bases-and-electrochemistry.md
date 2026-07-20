@@ -536,6 +536,14 @@ The electrochemical series ranks half-reactions by their standard electrode pote
 
 ---
 
+## Intuition
+
+**The proton shuffle:** Acids donate protons (H⁺), bases accept them — it's like a game of hot potato where protons are passed between molecules. pH measures how many free protons are floating around.
+
+**Why it matters:** From stomach acid to blood buffers, acid-base chemistry keeps biological systems alive. Understanding pH helps design medicines, treat water, and control industrial processes.
+
+**The key insight:** Buffers resist pH change by absorbing or releasing protons — they're the body's way of maintaining equilibrium despite constant disturbances.
+
 ## Summary Table
 
 | Topic          | Key Formula                                                                       | Key Concept                 |

@@ -4,6 +4,11 @@ description: "A-Level Economics Macroeconomic Policy -- Diagnostic Tests notes c
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Economic policy is like tuning an engine — adjusting levers to keep the economy running smoothly.**
+
 # Macroeconomic Policy — Diagnostic Tests
 
 ## Unit Tests

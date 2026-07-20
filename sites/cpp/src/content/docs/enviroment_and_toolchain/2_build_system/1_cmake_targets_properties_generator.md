@@ -506,6 +506,14 @@ install(TARGETS Engine
 This replaces the manual `install(DIRECTORY include/ DESTINATION include)` pattern and ensures that
 Only headers declared in the file set are installed.
 
+## Intuition
+
+**CMake building blocks:** Targets are like LEGO bricks — they represent libraries, executables, or interfaces with defined properties and dependencies.
+
+**Why it matters:** Understanding CMake targets helps you organize complex projects and manage dependencies effectively.
+
+**The key insight:** Target-based CMake is modern CMake — it's the recommended way to build projects.
+
 ## Common Pitfalls
 
 ### 1. Mixing Global and Target Commands

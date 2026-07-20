@@ -354,6 +354,14 @@ $$\dbinom{8}{5} = \dbinom{8}{3} = \frac{8 \times 7 \times 6}{3 \times 2 \times 1
 
 ---
 
+## Intuition
+
+**A choosing ceremony:** Combinatorics is like picking teams — permutations are when order matters (who's captain vs. who's second), combinations are when it doesn't (just who's on the team). The binomial theorem is like expanding a recipe with optional ingredients.
+
+**Why it matters:** Probability, cryptography, and computer science all rely on counting correctly. One misplaced factorial or combination can throw off an entire analysis.
+
+**The key insight:** Always ask "does order matter?" before choosing between permutations and combinations — this single question eliminates most errors.
+
 ## Common Pitfalls
 
 1. **Confusing permutations with combinations.** Use permutations ($_nP_r$) when order matters (e.g.

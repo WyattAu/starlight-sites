@@ -518,6 +518,14 @@ The correct dependency DAG. This is handled internally by CMake when module file
 But requires the CMake generator to support the `FILE_SET` mechanism (Ninja and Makefile generators
 Do; Visual Studio generators have partial support).
 
+## Intuition
+
+**Modern modules:** C++20 modules are like sealed packages — they export interfaces without exposing implementation details, reducing compile times and name collisions.
+
+**Why it matters:** Modules solve the header file problem — faster compilation, better encapsulation, and no more include guards.
+
+**The key insight:** Modules are the future of C++ — they enable faster builds and better code organization.
+
 ## Common Pitfalls
 
 ### 1. Forgetting the `export` Keyword on Partition Re-exports

@@ -8,6 +8,15 @@ categories:
   - ib
 ---
 
+## Intuition
+
+**Computer networks are like postal systems — data is broken into packets, addressed, routed, and reassembled at the destination:** The Internet's layered protocol architecture allows different technologies to work together seamlessly
+
+**Why it matters:** Understanding networks is essential for building, securing, and troubleshooting connected systems
+
+**The key insight:** The Internet's layered protocol architecture allows different technologies to work together seamlessly
+
+
 ## Computer Network
 
 A computer network is a set of two or more computer systems that is able to exchange data by a

@@ -453,6 +453,14 @@ This confirms that binding to a sub-object of a temporary does not extend the te
 
 ```
 
+## Intuition
+
+**Safe references:** Reference lifetime rules ensure references don't outlive the objects they point to — like a library card that expires when you leave the library.
+
+**Why it matters:** Understanding reference lifetime prevents dangling references and undefined behavior.
+
+**The key insight:** Temporary objects are destroyed at the end of the full expression — this is when their references become dangling.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Returning References to Locals

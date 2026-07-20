@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Matrices — Diagnostic Tests
 
+## Intuition
+
+**Matrices are like spreadsheets of numbers with their own arithmetic — they can represent transformations, systems of equations, and data structures:** Matrices encode linear transformations — they can rotate, scale, shear, and project space, making them fundamental to computer graphics and data science
+
+**Why it matters:** From 3D graphics to machine learning to quantum computing, matrices are the workhorses of modern computation
+
+**The key insight:** Matrices encode linear transformations — they can rotate, scale, shear, and project space, making them fundamental to computer graphics and data science
+
+
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for matrices.

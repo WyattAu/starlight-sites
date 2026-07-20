@@ -336,6 +336,11 @@ $$\Delta\text{KE} = 77 - \frac{49}{3} = \frac{231 - 49}{3} = \frac{182}{3} \appr
 | Q5        | Momentum                 |     10 | Sign convention consistency, conservation of momentum, coefficient of restitution, energy classification |
 | **Total** |                          | **50** |                                                                                                          |
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

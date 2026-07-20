@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**Atomic theory is like peeling an onion — each model (Dalton, Thomson, Rutherford, Bohr, quantum) revealed deeper layers:** The evolution of atomic theory shows how scientific understanding progresses through experimentation and revised models
+
+**Why it matters:** Atomic theory is the foundation of chemistry, explaining the nature of matter and chemical reactions
+
+**The key insight:** The evolution of atomic theory shows how scientific understanding progresses through experimentation and revised models
+
+
 ## 1. Historical Development of Atomic Theory
 
 ### Dalton"s Atomic Theory (1803)

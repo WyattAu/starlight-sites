@@ -10,6 +10,14 @@ Complete revision notes for HKDSE Biology, covering the full syllabus with worke
 annotated diagrams, and exam-style problems. Content is organised around the HKEAA curriculum
 structure.
 
+## Intuition
+
+**The science of life:** Biology studies living organisms — from microscopic cells to entire ecosystems. It explains how life works, from DNA replication to animal behavior.
+
+**Why it matters:** From medicine to conservation, biology addresses the most pressing challenges facing humanity. Understanding biology helps you make informed decisions about health and the environment.
+
+**The key insight:** Life is built on layers of organization — atoms → molecules → organelles → cells → tissues → organs → organisms → ecosystems — each level has emergent properties.
+
 ## Cell Biology and Biochemistry
 
 - **[Cell Biology and Biochemistry](./1-cell-biology/1_cell-biology-and-biochemistry)** -- Cell

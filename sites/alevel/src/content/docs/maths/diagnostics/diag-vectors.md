@@ -4,6 +4,11 @@ description: "A-Level Maths Vectors -- Diagnostic Tests notes covering key defin
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Vectors are like arrows with both direction and magnitude — they point where you need to go and tell you how far.**
+
 # Vectors — Diagnostic Tests
 
 ## Unit Tests

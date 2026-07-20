@@ -10,6 +10,11 @@ categories:
 description: "A-Level English revision notes on F. Scott Fitzgerald's The Great Gatsby: narrative structure, symbolism, the American Dream, and class in 1920s America."
 ---
 
+
+## Intuition
+
+**English literature explores the human experience through language — words painting pictures of life.**
+
 # The Great Gatsby
 
 ## Introduction

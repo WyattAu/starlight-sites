@@ -329,6 +329,14 @@ $100000 \times 17 \approx 1.7 \times 10^6$ operations. However, bubble sort can 
 small datasets or for educational purposes due to its simplicity. It is also efficient ($O(n)$) when
 the data is nearly sorted if an optimised version with an early termination check is used.
 
+## Intuition
+
+**Step-by-step solutions:** Algorithms are like recipes — precise, step-by-step instructions that solve a problem. The right algorithm can mean the difference between instant results and waiting forever.
+
+**Why it matters:** From search engines to social media feeds, algorithms power the digital world. Understanding them helps you think computationally and solve problems efficiently.
+
+**The key insight:** Big O notation measures how algorithms scale — O(n) is linear, O(log n) is logarithmic, and O(n²) is quadratic. The difference matters at scale.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

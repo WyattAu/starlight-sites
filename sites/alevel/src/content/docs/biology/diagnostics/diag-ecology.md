@@ -4,6 +4,11 @@ description: "A-Level Biology Ecology -- Diagnostic Tests notes covering key def
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Ecology is like a web of relationships — every organism depends on others in a delicate balance.**
+
 # Ecology — Diagnostic Tests
 
 ## Unit Tests

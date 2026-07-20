@@ -10,12 +10,22 @@ tags:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/ilc/flashcards-physics-data.js';
 
-
 ## ILC -- Physics Flashcards
 
 20 interactive flashcards for ILC Physics. Press Space to flip, rate 1-4.
 
 ---
 
+## Intuition
+
+Physics describes the fundamental laws of nature through mathematical equations. Mechanics relates force, mass, and acceleration (F = ma). Waves transfer energy through oscillations — sound waves through air, light waves through space. Electricity flows through circuits governed by Ohm's law (V = IR), where voltage drives current through resistance. Heat is kinetic energy at the molecular level, flowing from hot to cold until thermal equilibrium is reached.
+
+## Common Pitfalls
+
+- **Newton's third law pairs**: Confusing action-reaction pairs — they act on different objects, not the same object. The Earth pulls you down (weight), and you pull the Earth up (equal and opposite), but these forces don't cancel because they're on different bodies.
+- **Energy units**: Mixing joules (SI), calories (cGmS), and kilowatt-hours (electrical) without converting — 1 cal = 4.184 J, 1 kWh = 3.6 MJ.
+- **Wave vs particle confusion**: Light exhibits both wave and particle properties — in the photoelectric effect, it behaves as photons (particles); in interference experiments, it behaves as waves.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ilc-physics" title="ILC -- Physics" description="Mechanics, waves, electricity, heat, and modern physics for ILC Physics revision." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />

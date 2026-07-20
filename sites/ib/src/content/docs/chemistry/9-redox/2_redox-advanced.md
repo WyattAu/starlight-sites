@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**Advanced redox is like reading the economy of electrons — electrode potentials predict whether reactions will occur spontaneously:** The electrochemical series ranks elements by their tendency to lose or gain electrons, predicting reaction direction
+
+**Why it matters:** Electrochemistry powers batteries, fuel cells, and corrosion protection, making it vital for energy technology
+
+**The key insight:** The electrochemical series ranks elements by their tendency to lose or gain electrons, predicting reaction direction
+
+
 ## 1. Electrochemical Cells
 
 ### Galvanic (Voltaic) Cells

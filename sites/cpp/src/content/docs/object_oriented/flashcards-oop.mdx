@@ -1,6 +1,6 @@
 ---
 title: "C++ Flashcards: Object-Oriented Programming"
-description: "PROGRAMMING 6_object_oriented flashcards: C++ Flashcards: Object-Oriented Programming. Comprehensive study material with definitions, examples, and assessmen"
+description: "PROGRAMMING 6_object_oriented flashcards: C++ Flashcards: Object-Oriented Programming. Comprehensive study material with definitions, examples, and assessment tools"
 tags:
   - C++
   - Flashcards
@@ -12,6 +12,18 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## C++ -- Object-Oriented Programming Flashcards
 
 20 interactive flashcards. Press Space to flip, rate 1-4 to schedule next review.
+
+---
+
+## Intuition
+
+OOP models software as interacting objects that bundle data with behaviour. Inheritance lets you reuse and specialise — a `Dog` is-an `Animal` but adds its own barking behaviour. Polymorphism lets you treat different derived types through a common base pointer, so a function accepting `Animal&` works identically for `Dog`, `Cat`, or `Bird`. The virtual dispatch mechanism is the glue that makes this work at runtime.
+
+## Common Pitfalls
+
+- **Slicing**: Passing a derived object by value to a function taking a base parameter — the derived part gets "sliced off" and virtual dispatch is lost. Always pass by pointer or reference.
+- **Missing virtual destructor**: Deleting a derived object through a base pointer without a virtual destructor causes undefined behaviour — the derived destructor never runs.
+- **Diamond problem**: Inheriting from two classes that share a common base without virtual inheritance leads to ambiguous base subobjects.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "University Maths Flashcards: Linear Algebra"
-description: "20 interactive flashcards for university-level Linear Algebra. Press Space to fl Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for university-level Linear Algebra. Press Space to flip, rate 1-4."
 tags: [University, Mathematics, Flashcards]
 ---
 
@@ -9,6 +9,18 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Mathematics -- Linear Algebra Flashcards
 20 interactive flashcards for university-level Linear Algebra. Press Space to flip, rate 1-4.
+---
+
+## Intuition
+
+Linear algebra studies vector spaces and linear maps between them. A vector space is a set closed under addition and scalar multiplication; a linear map preserves these operations. The key insight is that every linear map can be represented as a matrix, and matrix operations correspond to compositions of linear maps. Eigenvalues and eigenvectors reveal the "natural axes" along which a linear transformation simply stretches or compresses — this is the foundation of diagonalisation, SVD, and principal component analysis.
+
+## Common Pitfalls
+
+- **Dimension mismatch**: The rank-nullity theorem (rank + nullity = n) applies to the domain — confusing the dimensions of domain and codomain leads to wrong nullity calculations.
+- **Orthogonality ≠ independence**: Orthogonal vectors are always linearly independent, but linearly independent vectors are not necessarily orthogonal — don't assume orthogonality without proof.
+- **Diagonalisability condition**: A matrix is diagonalisable if and only if it has a complete set of eigenvectors (geometric multiplicity = algebraic multiplicity for each eigenvalue) — defective matrices cannot be diagonalised.
+
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="uni-maths-linear-algebra" title="University Maths -- Linear Algebra" description="Vector spaces, linear independence, eigenvalues, diagonalisation, inner products, SVD" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />;

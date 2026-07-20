@@ -685,6 +685,14 @@ String stripped = stripDiacritics("Café"); // "Cafe"
 String stripped2 = stripDiacritics("Ñoño"); // "Nono"
 ```
 
+## Intuition
+
+**Text as data:** Strings are like sequences of characters — Java treats them as objects with useful methods for searching, splitting, and transforming text.
+
+**Why it matters:** Text processing is fundamental to almost every program. Understanding String operations helps you manipulate data effectively.
+
+**The key insight:** Strings are immutable in Java — every operation creates a new String, which is why StringBuilder is better for concatenation in loops.
+
 ## Common Pitfalls
 
 ### Comparing Strings with `==`

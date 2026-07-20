@@ -13,6 +13,15 @@ and the strategies societies can employ to adapt to and mitigate its effects. St
 to evaluate competing explanations, use case studies from contrasting locations, and apply
 geographic skills to climate data.
 
+## Intuition
+
+**Climate change is like a fever for the planet — a small increase in average temperature disrupts entire systems:** The greenhouse effect is natural and necessary, but human activities have amplified it to dangerous levels
+
+**Why it matters:** Understanding climate change is essential for making informed decisions about energy, policy, and the future of our planet
+
+**The key insight:** The greenhouse effect is natural and necessary, but human activities have amplified it to dangerous levels
+
+
 ## Contents
 
 - [Atmospheric Systems](./climate/atmospheric-systems) -- global atmospheric circulation, energy

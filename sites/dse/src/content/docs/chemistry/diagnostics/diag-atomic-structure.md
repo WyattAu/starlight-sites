@@ -133,6 +133,14 @@ electrons closer and making them harder to remove.
 
 ---
 
+## Intuition
+
+**Building blocks with rules:** Atoms are like LEGO sets — protons determine the element, electrons determine the chemistry. The periodic table organizes elements by their electron configurations, revealing patterns in reactivity.
+
+**Why it matters:** From semiconductors to pharmaceuticals, understanding atomic structure explains why elements behave the way they do and how to combine them.
+
+**The key insight:** Ionisation energy increases across a period because nuclear charge increases while shielding stays roughly constant — electrons are held more tightly.
+
 ## Integration Test 1: Ionisation Energy + Periodic Position
 
 **Question**

@@ -15,6 +15,18 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
+## Intuition
+
+Templates are C++'s mechanism for writing code that works across many types — the compiler generates a specialised version for each type actually used, like a stamp that produces custom-fit parts. Metaprogramming pushes this further by performing computation at compile time using template specialisations and constexpr functions, effectively turning the compiler into an interpreter that runs before any machine code is emitted.
+
+## Common Pitfalls
+
+- **SFINAE errors**: Providing an ambiguous overload when a constraint should exclude it — use `requires` clauses (C++20) or `std::enable_if` to make intent clear.
+- **Template bloat**: Every distinct template instantiation creates a new function in the binary, which can dramatically increase compile times and code size if overused.
+- **ODR violations**: Defining a template in a header without inline linkage can cause linker errors when the header is included from multiple translation units.
+
+---
+
 <FlashcardDeck client:only="solid-js"   deckId="cpp-templates"
   title="C++ Templates and Metaprogramming Flashcards"
   description="Interactive flashcards on C++ templates, SFINAE, concepts, variadic templates, fold expressions, type traits, CRTP, and compile-time computation."

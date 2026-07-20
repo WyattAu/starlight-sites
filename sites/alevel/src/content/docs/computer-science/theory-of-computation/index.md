@@ -3,6 +3,11 @@ title: Theory of Computation
 description: 'A-Level Computer Science Theory of Computation notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.'
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Theory of Computation
 
 The theory of computation studies what can be computed and what cannot. It provides the mathematical

@@ -607,8 +607,16 @@ int main() {
     std::vector<std::unique_ptr<int>> v2;
     v2 = std::move(v);  // OK: moves entire vector (move-assigns each element)
     // v is now in a valid-but-unspecified state (typically empty)
-}
+    }
 ```
+
+## Intuition
+
+**Efficient transfers:** Move constructors are like handing over a house key — you give the key to someone else, you no longer have access to the house. RVO eliminates even this copy.
+
+**Why it matters:** Move semantics enable efficient transfer of resources, and RVO eliminates unnecessary copies entirely.
+
+**The key insight:** Move is an optimization for when you're about to destroy the source anyway — it's a "last chance to reuse" optimization.
 
 ## Common Pitfalls
 

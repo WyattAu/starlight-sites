@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Kinematics — Diagnostic Tests
 
+## Intuition
+
+**Kinematics is the language of motion — it describes how objects move through space and time without worrying about why they move:** The equations of motion connect position, velocity, acceleration, and time in a mathematical framework that works from thrown balls to orbiting planets
+
+**Why it matters:** From trajectory calculations in sports to autonomous vehicle navigation, kinematics provides the mathematical foundation for predicting motion
+
+**The key insight:** The equations of motion connect position, velocity, acceleration, and time in a mathematical framework that works from thrown balls to orbiting planets
+
+
 ## Unit Tests
 
 ### UT-1: Projectile That Never Reaches Its Target

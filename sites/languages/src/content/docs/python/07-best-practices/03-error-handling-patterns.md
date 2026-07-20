@@ -697,6 +697,14 @@ def retry(func, max_retries=3, base_delay=1.0, retryable_exceptions=(RetryableEr
         raise last_exception
 ```
 
+## Intuition
+
+**Graceful failure:** Error handling is like a safety net — it catches problems before they crash your program. Try-except blocks let you handle unexpected situations gracefully.
+
+**Why it matters:** Robust programs handle errors gracefully. Good error handling improves user experience and makes debugging easier.
+
+**The key insight:** Catch specific exceptions, not generic ones — this lets you handle different errors appropriately.
+
 ## Common Pitfalls
 
 ### 1. Catching Too Broadly

@@ -910,6 +910,11 @@ Chemistry with other chemistry topics to test synthesis under exam conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 
+
+## Intuition
+
+**Organic chemistry is like a vast city of carbon-based molecules — each with unique structures and personalities.**
+
 ## Summary
 
 This topic covers the essential chemistry of organic chemistry, including key reactions, underlying

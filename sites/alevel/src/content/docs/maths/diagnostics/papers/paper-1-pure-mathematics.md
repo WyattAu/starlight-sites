@@ -657,6 +657,11 @@ in a 2-cycle between $x = 0$ and $x = 1$.
 | Q14       | Numerical Methods           |       5 | Newton-Raphson divergence, 2-cycle behaviour, geometric interpretation of failure                        |
 | **Total** |                             | **100** |                                                                                                          |
 
+
+## Intuition
+
+**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

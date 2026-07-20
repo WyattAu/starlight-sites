@@ -6,6 +6,15 @@ tableOfContents: false
 
 # States of Matter — Diagnostic Tests
 
+## Intuition
+
+**States of matter are like different dance formations — solid (rigid), liquid (flowing), gas (free), plasma (ionized):** Phase transitions occur when thermal energy overcomes intermolecular forces, changing how particles interact
+
+**Why it matters:** Understanding states of matter explains weather, cooking, refrigeration, and industrial processes
+
+**The key insight:** Phase transitions occur when thermal energy overcomes intermolecular forces, changing how particles interact
+
+
 ## Unit Tests
 
 ### UT-1: Ideal Gas Law and Unit Conversion

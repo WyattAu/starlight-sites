@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**The nervous system is like an electrical grid — neurons transmit signals as electrical impulses across synapses using chemical messengers:** The balance between excitation and inhibition in neural networks determines all thought, movement, and sensation
+
+**Why it matters:** Understanding the nervous system is essential for treating neurological disorders and developing brain-computer interfaces
+
+**The key insight:** The balance between excitation and inhibition in neural networks determines all thought, movement, and sensation
+
+
 ## 1. Neuron Structure and Function
 
 ### Types of Neurons

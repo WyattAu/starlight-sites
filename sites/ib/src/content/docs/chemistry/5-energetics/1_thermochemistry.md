@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**Thermochemistry is like tracking energy bookkeeping — every bond broken costs energy, every bond formed releases energy:** Enthalpy changes determine whether reactions release heat (exothermic) or absorb it (endothermic)
+
+**Why it matters:** Thermochemistry guides fuel selection, industrial process design, and understanding metabolic energy flow
+
+**The key insight:** Enthalpy changes determine whether reactions release heat (exothermic) or absorb it (endothermic)
+
+
 ## Enthalpy Changes
 
 ### Definitions

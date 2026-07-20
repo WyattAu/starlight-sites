@@ -10,6 +10,11 @@ categories:
 
 ---
 
+
+## Intuition
+
+**Atomic structure is like a solar system — electrons orbit the nucleus, but with quantum rules instead of gravity.**
+
 # Atomic Structure & Periodicity
 
 ## Subatomic Particles

@@ -1274,6 +1274,11 @@ imbalances were addressed.
 
 4. Failing to evaluate both strengths and weaknesses of economic models, not just listing them.
 
+
+## Intuition
+
+**Economic policy is like tuning an engine — adjusting levers to keep the economy running smoothly.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

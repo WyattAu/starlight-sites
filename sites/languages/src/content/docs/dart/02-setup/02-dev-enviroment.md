@@ -327,6 +327,14 @@ expect(fn(), completes);                      // Future completes
 expect(fn(), completion(equals(42)));          // Future completes with value
 ```
 
+## Intuition
+
+**Your coding workspace:** The development environment is like a well-organized desk — having the right tools in the right places makes you more productive.
+
+**Why it matters:** A properly configured IDE with the right extensions saves time and catches errors early.
+
+**The key insight:** Version control (Git) is essential — it lets you track changes, collaborate with others, and undo mistakes.
+
 ## Common Pitfalls
 
 - **Not committing `pubspec.lock` for applications**: For apps (not libraries), always commit

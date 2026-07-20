@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Periodicity — Diagnostic Tests
 
+## Intuition
+
+**The periodic table is like a map of元素 properties — elements in the same column share similar chemical personalities:** Periodic trends in atomic radius, ionization energy, and electronegability arise from electron configuration patterns
+
+**Why it matters:** Understanding periodicity allows prediction of chemical behavior, guiding everything from drug design to materials science
+
+**The key insight:** Periodic trends in atomic radius, ionization energy, and electronegability arise from electron configuration patterns
+
+
 ## Unit Tests
 
 ### UT-1: Ionisation Energy Trend Explanation

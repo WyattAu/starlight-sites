@@ -60,6 +60,11 @@ Each topic file contains **3 unit tests** (single-topic depth) and **3 integrati
   epistasis; genetic engineering techniques
 - **Ecology**: GPP vs NPP; succession; nutrient cycles; human impact; conservation strategies
 
+
+## Intuition
+
+**Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

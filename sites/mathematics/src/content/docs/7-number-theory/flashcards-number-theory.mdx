@@ -1,6 +1,6 @@
 ---
 title: "University Maths Flashcards: Number Theory"
-description: "20 interactive flashcards for university-level Number Theory. Press Space to fli Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for university-level Number Theory. Press Space to flip, rate 1-4."
 tags: [University, Mathematics, Flashcards]
 ---
 
@@ -9,6 +9,18 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Mathematics -- Number Theory Flashcards
 20 interactive flashcards for university-level Number Theory. Press Space to flip, rate 1-4.
+---
+
+## Intuition
+
+Number theory studies the properties of integers — the simplest objects in mathematics, yet endlessly deep. Divisibility and primes are the foundation: every integer factors uniquely into primes (Fundamental Theorem of Arithmetic). Modular arithmetic wraps integers around a modulus, creating finite structures where Fermat's Little Theorem and Euler's theorem govern exponentiation. These "simple" ideas underpin RSA cryptography and elliptic curve methods.
+
+## Common Pitfalls
+
+- **Modular inverse existence**: The inverse a⁻¹ mod n exists only when gcd(a, n) = 1 — if a and n share a common factor, no inverse exists, and division mod n is undefined.
+- **Fermat's Little Theorem converse**: If aⁿ⁻¹ ≡ 1 (mod n), n is not necessarily prime — Carmichael numbers are composite numbers that satisfy this for all a coprime to n.
+- **Euclidean algorithm errors**: Forgetting to continue reducing until the remainder is 0 — stopping early gives a GCD that is a common divisor but not the greatest.
+
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="uni-maths-number-theory" title="University Maths -- Number Theory" description="Divisibility, modular arithmetic, Fermat/Euler theorems, quadratic reciprocity, RSA" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />;

@@ -212,6 +212,14 @@ reducing transmission time. (3) The response is automatic and does not require c
 in the brain, which takes additional time. This speed is critical for survival -- it allows the body
 to respond to danger (e.g., touching a hot object) before the brain has even registered the pain.
 
+## Intuition
+
+**A complex machine:** The human body is like a city — the heart is the pump, lungs are air filters, kidneys are water treatment plants, and the brain is city hall. Each organ system keeps the body functioning.
+
+**Why it matters:** Understanding physiology helps you make informed health decisions and explains how lifestyle choices affect your body.
+
+**The key insight:** Homeostasis — the body's ability to maintain internal stability — is the foundation of health. When homeostasis fails, disease occurs.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

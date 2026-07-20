@@ -4,6 +4,11 @@ description: "A-Level Computer Science Fundamentals -- Diagnostic Tests notes co
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Fundamentals — Diagnostic Tests
 
 ## Unit Tests

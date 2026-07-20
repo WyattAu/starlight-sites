@@ -897,6 +897,11 @@ which may differ from the MST. These are different optimisation problems with di
 4. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -139,6 +139,14 @@ exceptionally strong, resulting in a dramatically higher boiling point.
 
 ---
 
+## Intuition
+
+**Atoms holding hands:** Chemical bonds are how atoms share or transfer electrons to become more stable. Ionic bonds are like opposites attracting (metal gives electrons to nonmetal); covalent bonds are sharing (nonmetals share electrons).
+
+**Why it matters:** Bonding determines whether a substance is a conductor, a gas, or a crystal. From DNA's double helix to diamond's hardness, bonding explains material properties.
+
+**The key insight:** Molecular shape (VSEPR) determines polarity, and polarity determines intermolecular forces — chain reaction from atomic scale to macroscopic properties.
+
 ## Integration Test 1: Bonding Type from Physical Properties
 
 **Question**

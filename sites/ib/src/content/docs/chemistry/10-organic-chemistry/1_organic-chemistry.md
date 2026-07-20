@@ -6,6 +6,15 @@ tags:
   - ib
 ---
 
+## Intuition
+
+**Organic chemistry is like the chemistry of life — carbon's ability to form four bonds creates the backbone of all living things:** Functional groups are the reactive centers of organic molecules — mastering them unlocks the chemistry of millions of compounds
+
+**Why it matters:** Organic chemistry is essential for pharmaceuticals, polymers, food science, and understanding biological processes
+
+**The key insight:** Functional groups are the reactive centers of organic molecules — mastering them unlocks the chemistry of millions of compounds
+
+
 ## Homologous Series and Naming
 
 ### IUPAC Nomenclature

@@ -504,6 +504,14 @@ using (var stream = new FileStream("file.txt", FileMode.Open)) {
 These patterns exist specifically to replicate C++'s deterministic destruction in garbage-collected
 Languages. C++ has this guarantee natively.
 
+## Intuition
+
+**Guaranteed cleanup:** Deterministic destruction is like a finalizer — objects are destroyed in reverse order of construction when they go out of scope, ensuring resources are released.
+
+**Why it matters:** Deterministic destruction is the foundation of RAII — it ensures resources are always properly cleaned up, preventing leaks.
+
+**The key insight:** Stack allocation gives you deterministic destruction for free — objects are destroyed when they go out of scope.
+
 ## Common Pitfalls
 
 ### 1. Throwing from a Destructor

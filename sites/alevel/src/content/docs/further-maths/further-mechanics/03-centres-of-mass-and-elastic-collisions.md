@@ -10,6 +10,11 @@ categories:
 
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 ## Centres of Mass and Elastic Collisions
 
 This topic covers two major areas of further mechanics: finding the centre of mass of laminas,

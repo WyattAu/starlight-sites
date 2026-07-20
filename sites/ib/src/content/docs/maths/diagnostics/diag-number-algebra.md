@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Number and Algebra — Diagnostic Tests
 
+## Intuition
+
+**Algebra is like a detective's toolkit — variables are suspects, equations are clues, and solving for x is finding the culprit:** Algebraic manipulation follows strict logical rules that preserve equality, allowing us to isolate unknowns and prove relationships
+
+**Why it matters:** Algebraic thinking is essential for problem-solving in science, engineering, economics, and everyday reasoning
+
+**The key insight:** Algebraic manipulation follows strict logical rules that preserve equality, allowing us to isolate unknowns and prove relationships
+
+
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for number and algebra.

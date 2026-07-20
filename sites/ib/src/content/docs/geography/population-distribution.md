@@ -12,6 +12,15 @@ change, the models used to explain demographic transition, patterns and causes o
 policies governments use to influence population trends. Population geography is central to the IB
 course and connects closely to themes of development, resource management, and urbanisation.
 
+## Intuition
+
+**Population distribution is like a heat map of human settlement — people cluster where conditions are favorable and avoid hostile environments:** Population patterns reflect the interplay of physical geography, economics, history, and culture
+
+**Why it matters:** Understanding population distribution is crucial for planning infrastructure, services, and sustainable development
+
+**The key insight:** Population patterns reflect the interplay of physical geography, economics, history, and culture
+
+
 ## Contents
 
 - [Demographic Transition Model](./population/demographic-transition-model) -- the DTM, its stages,

@@ -2016,6 +2016,11 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 
 4. Forgetting to include control variables in experimental design, leading to invalid conclusions.
 
+
+## Intuition
+
+**Evolution is like a family tree that stretches back millions of years — branching, adapting, and sometimes going extinct.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

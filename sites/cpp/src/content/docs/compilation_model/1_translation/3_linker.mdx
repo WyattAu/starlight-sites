@@ -560,6 +560,14 @@ nm -D libfoo.so | grep "missing_symbol"
 | `A`            | Absolute            | Linker script symbol                            |
 | `V` / `v`      | Weak object (ELF)   | Weak symbol definition                          |
 
+## Intuition
+
+**Connecting pieces:** The linker is like a puzzle assembler — it connects separate compilation units into a single executable, resolving references between them.
+
+**Why it matters:** Understanding linking helps you debug "undefined reference" errors and organize code into libraries.
+
+**The key insight:** Static linking embeds code in the executable; dynamic linking loads it at runtime — each has trade-offs.
+
 ## Common Pitfalls
 
 - **Link order matters:** Object files before libraries, dependents before dependencies. This is the

@@ -166,6 +166,14 @@ $8 \lt 0.5d$. $d \gt 16$.
 
 The first company is cheaper for journeys longer than 16 km.
 
+## Intuition
+
+**A balance scale:** Algebra is like a balance — whatever you do to one side, you must do to the other to keep it balanced. Variables represent unknown quantities that you solve for.
+
+**Why it matters:** From calculating costs to predicting trends, algebra is the language of patterns and relationships. It lets you solve problems with unknown quantities.
+
+**The key insight:** Equations are statements of equality — solving them means finding the value that makes both sides equal.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

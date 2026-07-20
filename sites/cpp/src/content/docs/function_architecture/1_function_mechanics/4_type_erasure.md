@@ -640,6 +640,14 @@ int main() {
 Through a function pointer. The tradeoff: the caller must ensure the referenced callable outlives
 The `FunctionRef`.
 
+## Intuition
+
+**Hiding types:** Type erasure is like a universal container — it lets you store different types behind a common interface, hiding the specific type information.
+
+**Why it matters:** Type erasure enables polymorphism without inheritance, making code more flexible and reducing compilation dependencies.
+
+**The key insight:** std::function is a classic type erasure example — it can wrap any callable, hiding its specific type.
+
 ## Common Pitfalls
 
 ### 1. `std::function` Copies the Callable

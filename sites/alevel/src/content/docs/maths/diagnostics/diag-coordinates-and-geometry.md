@@ -4,6 +4,11 @@ description: "A-Level Maths Coordinates and Geometry -- Diagnostic Tests notes c
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**Geometry is the art of measuring and describing shapes — from simple triangles to complex solids.**
+
 # Coordinates and Geometry — Diagnostic Tests
 
 ## Unit Tests

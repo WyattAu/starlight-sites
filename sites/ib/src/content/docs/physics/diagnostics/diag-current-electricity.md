@@ -6,6 +6,15 @@ tableOfContents: false
 
 # Current Electricity — Diagnostic Tests
 
+## Intuition
+
+**Electric current is like water flowing through pipes — voltage is the water pressure, resistance is pipe narrowness, and current is the flow rate:** Ohm's law (V = IR) captures the fundamental relationship between electrical pressure, flow, and opposition in a circuit
+
+**Why it matters:** Every electronic device, from your phone to power grids, relies on controlling the flow of electrons through circuits
+
+**The key insight:** Ohm's law (V = IR) captures the fundamental relationship between electrical pressure, flow, and opposition in a circuit
+
+
 ## Unit Tests
 
 ### UT-1: I-V Characteristics and Non-Ohmic Components

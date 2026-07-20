@@ -4,6 +4,11 @@ description: "A-Level Further Maths Differential Equations -- Diagnostic notes c
 tableOfContents: false
 ---
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 # Differential Equations — Diagnostic Tests
 
 ## Unit Tests

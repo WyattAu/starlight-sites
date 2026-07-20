@@ -10,7 +10,6 @@ tags:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcardData } from '@/data/flashcards/python/flashcards-python-basics-data.js';
 
-
 ## Python -- Fundamentals Flashcards
 
 20 interactive flashcards covering core Python concepts from types and control flow to metaclasses
@@ -18,5 +17,16 @@ and the GIL. Press Space to flip, rate 1-4.
 
 ---
 
+## Intuition
 
-<FlashcardDeck client:only="solid-js" deckId="python-basics" title="Python -- Fundamentals" description="20 interactive flashcards covering types, functions, OOP, standard library, async, and internals." cards={flashcardData}  /> 
+Python is a dynamically typed, interpreted language where everything is an object — including functions, classes, and modules. List comprehensions provide concise syntax for creating lists from iterables, and generators yield values lazily (one at a time) instead of building entire lists in memory. The GIL (Global Interpreter Lock) ensures only one thread executes Python bytecode at a time, simplifying memory management but limiting CPU-bound parallelism.
+
+## Common Pitfalls
+
+- **Mutable default arguments**: Defining `def f(x=[])` — the default list is shared across all calls, so mutations persist between calls. Use `None` as the default and create a new list inside the function.
+- **Shallow vs deep copy**: `list.copy()` creates a shallow copy — nested objects are still shared references. Use `copy.deepcopy()` for independent copies of nested structures.
+- **Late binding closures**: Closures in loops capture the variable by reference, not by value — the loop variable changes before the closure executes. Use a default argument to capture the current value.
+
+---
+
+<FlashcardDeck client:only="solid-js" deckId="python-basics" title="Python -- Fundamentals" description="20 interactive flashcards covering types, functions, OOP, standard library, async, and internals." cards={flashcardData}  />

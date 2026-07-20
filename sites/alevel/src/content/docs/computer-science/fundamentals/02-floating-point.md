@@ -758,6 +758,11 @@ Precision.
 
 </details>
 
+
+## Intuition
+
+**This topic explores fundamental concepts that shape our understanding of the world.**
+
 ## Summary
 
 This topic covers the core concepts of floating point representation, including underlying theory,

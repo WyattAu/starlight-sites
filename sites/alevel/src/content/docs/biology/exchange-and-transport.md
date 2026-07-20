@@ -1985,6 +1985,11 @@ For oxygen diffusing across the alveolar membrane:
 4. Stating that 'enzymes are denatured by heat' without specifying that high temperatures cause the
    change in tertiary structure.
 
+
+## Intuition
+
+**Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
