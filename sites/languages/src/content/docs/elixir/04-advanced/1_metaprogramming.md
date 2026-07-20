@@ -717,6 +717,14 @@ Protocol.consolidate(Size, [List, Map, Tuple])
 Consolidation is the default in production builds. It eliminates the dispatch overhead of looking up
 implementations at runtime.
 
+## Intuition
+
+**Macros are code-generating assembly lines:** In Elixir, `quote` is the blueprint that captures the shape of code without building it. `unquote` is the instruction that says "put this specific part here." A macro is an assembly line that takes blueprints as input and produces new blueprints as output — all at compile time. Hygiene is the safety railing that prevents the assembly line from accidentally mixing up parts from different batches.
+
+**Why it matters:** Metaprogramming eliminates boilerplate by generating repetitive code at compile time. The `use` macro is how Elixir libraries inject behavior into your modules — when you write `use GenServer`, a macro expands into all the callback definitions you need.
+
+**The key insight:** Macros operate on AST (abstract syntax trees), not text. This means they understand code structure, not just string patterns, making them safer and more composable than text-based code generation.
+
 ## Summary
 
 Elixir's metaprogramming system is powerful but should be used judiciously:

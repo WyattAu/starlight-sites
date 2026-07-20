@@ -586,6 +586,14 @@ Are transferring ownership to another mechanism (e.g., a C API that takes owners
 
 std::unique_ptr is a single-owner smart pointer -- like a house key that only one person holds. When that person leaves (the unique_ptr is destroyed), the house is demolished (the object is deleted). You cannot copy the key (copy semantics are deleted), but you can hand it to someone else (move semantics). make_unique is the safe factory that builds the house and hands you the key in one step, avoiding the dangerous gap where a raw pointer exists without ownership. The zero-cost abstraction means unique_ptr is as efficient as a raw pointer -- it adds safety without adding overhead.
 
+## Intuition
+
+**`std::unique_ptr` is like a solo ownership contract:** Only one person can own the resource at a time. When you transfer ownership (move the pointer), the original owner no longer has access — like handing someone your car keys. You can't copy a unique pointer (no two people can have the same car keys), but you can move it (hand over the keys). The resource is freed automatically when the last owner goes out of scope — no manual `delete` needed.
+
+**Why it matters:** `unique_ptr` is the default choice for heap-allocated objects. It has zero overhead compared to raw pointers (same size, same performance), but provides automatic cleanup and move semantics. Use it whenever you need heap allocation but don't need shared ownership. It's also the building block for `shared_ptr` — the control block is managed by `unique_ptr` internally.
+
+**The key insight:** `unique_ptr` is zero-overhead — it's the same size and performance as a raw pointer, but with automatic cleanup and move semantics.
+
 ## Common Pitfalls
 
 ### Using `unique_ptr` with Arrays Incorrectly

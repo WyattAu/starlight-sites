@@ -583,6 +583,14 @@ The relationship between `char``char8_t`And the execution encoding is subtle and
 4. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
 
+## Intuition
+
+**Unicode is like a universal alphabet:** Instead of each country having its own character set (ASCII for English, JIS for Japanese, GB for Chinese), Unicode assigns a unique number (code point) to every character in every writing system. UTF-8, UTF-16, and UTF-32 are different ways to encode those numbers into bytes — like writing the same phone number in different formats (with area code, without, with country code). UTF-8 is the most common because it's backward-compatible with ASCII and uses the fewest bytes for English text.
+
+**Why it matters:** Unicode support is essential for any software that handles international text. Without it, you get garbled text, security vulnerabilities (buffer overflows from incorrect encoding), and broken search functionality. The C++ standard library provides `std::codecvt` and `std::wstring_convert` (deprecated in C++17) for encoding conversions, but the best practice is to use UTF-8 everywhere and convert at the boundaries.
+
+**The key insight:** UTF-8 is the best default encoding — it's backward-compatible with ASCII, uses the fewest bytes for English, and is the de facto standard for the web and modern systems.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

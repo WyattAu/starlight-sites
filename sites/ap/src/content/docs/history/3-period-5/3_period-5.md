@@ -175,7 +175,17 @@ Emancipation Proclamation, Gettysburg, Anaconda Plan, 13th Amendment, 14th Amend
 Amendment, Sharecropping, Freedmen's Bureau, Compromise of 1877, Ku Klux Klan, Radical
 Reconstruction
 
-## Exam Tips
+## Intuition
+
+Period 5 (1844-1877) is the **most transformative period in American history** — it encompasses the sectional crisis, the Civil War, and Reconstruction. The central question is: what kind of nation would America become?
+
+**Slavery as the central issue:** Every political debate in this period — westward expansion, states' rights, tariffs, popular sovereignty — ultimately came back to slavery. The Kansas-Nebraska Act, the Dred Scott decision, and John Brown's raid were all manifestations of the fundamental conflict between a slave South and a free North.
+
+**The Civil War as a revolution:** The war didn't just preserve the Union — it ended slavery, established federal supremacy over states, and transformed the Constitution through the 13th, 14th, and 15th Amendments. These amendments created a new definition of citizenship and equal protection that would be invoked for generations.
+
+**Reconstruction's unfinished business:** Reconstruction attempted to integrate four million formerly enslaved people into American society as full citizens. Its failure — marked by the withdrawal of federal troops, the rise of Jim Crow laws, and the disenfranchisement of Black voters — left a legacy of racial inequality that persists today.
+
+## Common Pitfalls
 
 - Explain how westward expansion intensified the slavery debate
 - Analyse the causes and consequences of the Civil War from multiple perspectives

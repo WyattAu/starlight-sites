@@ -1,6 +1,6 @@
 ---
 title: "A-Level Further Maths Flashcards: Further Mechanics"
-description: "ALEVEL Further Maths flashcards: A-Level Further Maths Flashcards: Further Mechanics. Comprehensive study material with definitions, examples, and assessment"
+description: "A-Level Further Maths flashcards covering SHM, damped oscillations, resonance, gravitation, orbits, variable forces, and dimensional analysis with spaced repetition."
 tags:
   - Further Maths
   - A-Level
@@ -14,6 +14,36 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## A-Level Further Maths -- Further Mechanics Flashcards
 
 20 flashcards with spaced repetition. Press Space to flip, then rate your recall (1--4).
+
+### What These Flashcards Cover
+
+These flashcards extend the mechanics from A-Level Maths into more advanced territory. You will encounter oscillations with damping and forcing, gravitational fields and orbits, and techniques for handling variable forces.
+
+**Key areas:**
+
+- **Simple Harmonic Motion (Extended):** The defining equation $a = -\omega^{2}x$. Solutions $x = A\cos(\omega t + \phi)$. Energy in SHM: total energy $E = \frac{1}{2}m\omega^{2}A^{2}$ is constant, shuttling between KE and PE. $v = \pm\omega\sqrt{A^{2} - x^{2}}$.
+- **Damped Oscillations:** The equation $m\ddot{x} + c\dot{x} + kx = 0$. Three cases: underdamped (oscillates with decreasing amplitude), critically damped (returns to equilibrium fastest without oscillating), overdamped (returns slowly without oscillating). Damping coefficient $\gamma = \frac{c}{2m}$.
+- **Forced Oscillations and Resonance:** The equation $m\ddot{x} + c\dot{x} + kx = F_{0}\cos(\Omega t)$. Steady-state amplitude peaks at resonance when $\Omega \approx \omega_{0} = \sqrt{\frac{k}{m}}$. The sharpness of resonance depends on damping.
+- **Gravitation:** Newton's law of gravitation: $F = \frac{GMm}{r^{2}}$. Gravitational field strength $g = \frac{GM}{r^{2}}$. Gravitational potential $V = -\frac{GM}{r}$. Gravitational potential energy $U = -\frac{GMm}{r}$. Escape velocity $v_{e} = \sqrt{\frac{2GM}{r}}$.
+- **Orbits:** For circular orbits, $\frac{GMm}{r^{2}} = \frac{mv^{2}}{r}$, giving $v = \sqrt{\frac{GM}{r}}$. Kepler's third law: $T^{2} \propto r^{3}$. Energy in orbit: $E = -\frac{GMm}{2r}$.
+- **Variable Forces:** When force depends on position, use $F = m v \frac{dv}{dx}$ or energy methods. Work done $W = \int F\,dx$. Elastic spring force $F = -kx$.
+
+---
+
+### Intuition
+
+Further mechanics is about what happens when the idealised conditions of basic mechanics break down. Damping is like adding friction to an oscillation -- it saps energy and makes the amplitude decay. Resonance is when you push something at exactly its natural frequency, like pushing a swing at just the right moment to make it go higher and higher.
+
+For orbits, think of a ball thrown horizontally. If you throw it fast enough, the ground curves away at the same rate the ball falls -- that is an orbit. Gravity provides exactly the right centripetal force to keep the object moving in a circle.
+
+---
+
+### Common Pitfalls
+
+1. **Confusing $\omega$ and $f$.** Angular frequency $\omega = 2\pi f$. The SHM equation uses $\omega$, not $f$. A common error is using frequency directly in $a = -\omega^{2}x$.
+2. **Sign errors with gravitational potential.** Gravitational potential is defined as negative ($V = -\frac{GM}{r}$) because work must be done against the attractive force to move a mass to infinity. Forgetting the sign leads to incorrect energy calculations.
+3. **Misidentifying the resonance condition.** Resonance occurs when the driving frequency equals the natural frequency, not when it equals the damped natural frequency. With damping, the amplitude peak shifts slightly.
+4. **Using circular orbit equations for elliptical orbits.** Kepler's laws apply to ellipses, but the simple $v = \sqrt{\frac{GM}{r}}$ formula is only for circular orbits. For ellipses, the speed varies with distance.
 
 ---
 

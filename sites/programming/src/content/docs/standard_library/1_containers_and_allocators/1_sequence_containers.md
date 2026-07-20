@@ -750,6 +750,14 @@ extra indirection adds 2-5 cycles per access compared to vector's single Indirec
 - [Iterator Categories, Traversal, Invalidation](./3_iterators.md)
 - [Polymorphic Memory Resources (PMR)](./4_pmr.md)
 
+## Intuition
+
+**Sequence containers are like different types of shelves:** `std::vector` is like a single long shelf — everything is in a row, great for browsing (iteration), but inserting in the middle requires shifting everything. `std::deque` is like a series of connected shelves — you can add new shelves at the ends without shifting, but middle insertions still require shifting. `std::list` is like a chain of individual shelves connected by arrows — you can insert anywhere by just rewiring the arrows, but you can't jump to the middle without following the arrows.
+
+**Why it matters:** Choosing the right container is about understanding the trade-off between contiguous memory (cache-friendly, fast iteration) and node-based storage (fast insertion/deletion, no reallocation). `std::vector` is the default choice — it's cache-friendly, has O(1) amortized append, and only reallocates when capacity is exceeded. Use `std::deque` when you need efficient front insertion, and `std::list` only when you need stable iterators during insertion/deletion.
+
+**The key insight:** `std::vector` is almost always the right default — its contiguous memory layout makes it cache-friendly, and modern hardware loves sequential access patterns.
+
 ## Common Pitfalls
 
 1. Confusing position vectors with direction vectors. Position vectors point from the origin.

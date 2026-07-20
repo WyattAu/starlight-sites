@@ -200,7 +200,17 @@ Homestead Act, Dawes Act, Populist Party, Wounded Knee, Yellow journalism, Platt
 Anti-Imperialist League, Sherman Antitrust Act, AFL, Tammany Hall, Ellis Island, Chinese Exclusion
 Act, Pendleton Act, Cross of Gold speech, Free Silver
 
-## Exam Tips
+## Intuition
+
+Period 6 (1865-1898) covers the **Gilded Age** — a period of massive economic growth, industrialisation, and immigration, accompanied by enormous inequality, labour conflict, and political corruption. The central tension is between the promise of opportunity and the reality of exploitation.
+
+**Industrialisation as a double-edged sword:** The rise of big business (Rockefeller, Carnegie, Morgan) created unprecedented wealth and technological innovation, but also dangerous working conditions, child labour, and monopolistic practices. The debate over how to regulate capitalism — laissez-faire vs progressive reform — began in this period.
+
+**Immigration and nativism:** The wave of "new immigrants" from Southern and Eastern Europe (1880-1920) transformed American cities and culture, but also provoked nativist backlash. The tension between welcoming immigrants and restricting immigration is a recurring theme in American history.
+
+**The West as contested space:** Westward expansion after the Civil War involved the displacement of Native Americans, the enclosure of open range, and the establishment of new states. The "closing" of the frontier (1890) marked the end of one era and the beginning of another — America now had to look outward for expansion.
+
+## Common Pitfalls
 
 - Connect industrialisation to urbanisation, immigration, and labour movements
 - Analyse how government policy favoured business during the Gilded Age

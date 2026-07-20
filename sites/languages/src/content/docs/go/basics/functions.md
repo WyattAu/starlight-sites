@@ -292,6 +292,14 @@ Key rules:
 4. `defer` in a loop accumulates calls. For N iterations, N calls are deferred until the function
    returns.
 
+## Intuition
+
+**Functions are first-class workers in a factory:** In Go, functions aren't just recipes — they're workers you can hire, fire, and pass around. You can hand a worker (closure) a clipboard with notes from the factory floor (captured variables), and they'll carry that context wherever they go. Methods are just workers assigned to a specific machine (receiver type).
+
+**Why it matters:** First-class functions and closures enable patterns like middleware, callbacks, and functional transformations that would otherwise require elaborate class hierarchies. Multiple return values eliminate the need for wrapper structs just to return "result + error."
+
+**The key insight:** Go functions return (value, error) tuples as a convention, making error handling explicit and composable without exceptions.
+
 ## Common Pitfalls
 
 1. **Named returns with shadowing.** If a named return variable is shadowed by a local variable with

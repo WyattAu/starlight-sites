@@ -358,6 +358,14 @@ fmt.Println(double(5)) // 10
 This works because `return` first assigns the value to the named return variable, then deferred
 Functions execute.
 
+## Intuition
+
+**Control flow is a choose-your-own-adventure book:** Every `if`, `switch`, and `for` is a decision point where the program picks a path. Go's design — mandatory braces, auto-breaking switch cases, `defer` running on the way out — is like giving the reader guardrails so they never accidentally skip a page or re-read one twice.
+
+**Why it matters:** The `defer` statement is like a sticky note you leave on your desk: "when you leave the office, do this before you go." It guarantees cleanup happens exactly once, in reverse order, no matter how the function exits — even on panic.
+
+**The key insight:** Go's control flow is deliberately simple (one loop keyword, no fallthrough by default) so the program's path is always obvious to the reader.
+
 ## Common Pitfalls
 
 1. **Forgetting that `switch` cases break automatically.** Unlike C, Go does not fall through by

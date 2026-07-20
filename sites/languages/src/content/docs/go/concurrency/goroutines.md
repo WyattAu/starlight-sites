@@ -282,6 +282,14 @@ func receiver(ch <-chan int) {
 
 Use directional channels in function signatures to make the intended usage explicit.
 
+## Intuition
+
+**Goroutines are lightweight workers in a factory:** Imagine a factory where you can hire workers for almost free (2-8 KB of stack each). Workers communicate through message pipes (channels) — you put a part in one end, someone picks it up the other end. The `sync` primitives are like locks on toolboxes: only one worker can grab a wrench at a time. The M:N scheduler is the factory floor manager, juggling thousands of workers across a fixed number of actual workstations.
+
+**Why it matters:** Goroutines make concurrent programming practical in everyday code. You don't need thread pools or callback pyramids — just `go func()` and a channel. The scheduler handles the hard part of mapping many logical threads onto few OS threads.
+
+**The key insight:** Go concurrency is about communication (channels) rather than coordination (locks) — "Don't communicate by sharing memory; share memory by communicating."
+
 ## Common Pitfalls
 
 1. **Forgetting to close channels.** If the sender does not close the channel, receivers waiting

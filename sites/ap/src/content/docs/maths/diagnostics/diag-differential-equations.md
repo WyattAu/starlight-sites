@@ -327,7 +327,22 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Differential equation diagnostics test whether you can **identify the type of DE** and apply the correct solution method. The most common trap is attempting separation of variables on an equation that isn't separable, or mishandling the constant of integration.
+
+**Separation of variables intuition:** If you can rearrange $\frac{dy}{dx} = f(x)g(y)$ into $\frac{dy}{g(y)} = f(x)\,dx$, the equation is separable. The key step is verifying that all $y$ terms are on one side and all $x$ terms on the other before integrating.
+
+**Euler's method intuition:** This is a numerical approximation — you follow the slope field one step at a time. Smaller step sizes give more accurate results but require more computation. The error accumulates with each step, so Euler's method is best for short intervals.
+
+**Logistic growth intuition:** The logistic model $\frac{dP}{dt} = kP(1 - P/L)$ starts like exponential growth (when $P \ll L$) but slows as the population approaches the carrying capacity $L$. The inflection point occurs at $P = L/2$, where growth is fastest.
+
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Cross-References
+
+- **[Differential Equations](../../4-differential-equations/4_differential-equations):** The full topic page covering separation of variables, exponential models, and Euler's method.
+- **[Integrals](../../3-integrals/3_integrals):** Integration is the essential tool for solving differential equations.

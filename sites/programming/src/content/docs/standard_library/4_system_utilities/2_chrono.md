@@ -598,6 +598,14 @@ Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
 4. Focusing only on content knowledge without developing exam technique and question-answering
    skills.
 
+## Intuition
+
+**The chrono library is like a universal clock:** Instead of using raw integers for time (is it seconds? milliseconds? nanoseconds?), chrono uses types that encode the unit in the type system. It's like the difference between saying "wait 5" (5 what?) and "wait 5 seconds" (unambiguous). A `std::chrono::seconds` is always seconds, a `std::chrono::milliseconds` is always milliseconds, and the compiler prevents you from mixing them without explicit conversion.
+
+**Why it matters:** The chrono library eliminates time unit bugs — one of the most common sources of subtle errors. Instead of `sleep(1000)` (is that 1 second or 1 millisecond?), you write `std::this_thread::sleep_for(std::chrono::seconds(1))`. The type system catches unit mismatches at compile time, and the library provides high-resolution clocks, time points, and durations for precise timing.
+
+**The key insight:** chrono encodes time units in the type system — the compiler catches unit mismatches at compile time, eliminating a common source of subtle bugs.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

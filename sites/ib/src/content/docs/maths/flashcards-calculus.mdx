@@ -9,5 +9,34 @@ description: "Calculus Flashcards: comprehensive educational content notes with 
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/maths/flashcards-calculus-data.js';
 
+## IB Maths -- Calculus Flashcard Deck
+
+Flashcards with spaced repetition. Press Space to flip, then rate your recall (1--4).
+
+---
+
+### Key Concepts
+
+**Differentiation** finds the rate of change of a function. The derivative f'(x) gives the gradient of the tangent at any point. Key rules include the power rule (d/dx[xⁿ] = nxⁿ⁻¹), the chain rule (d/dx[f(g(x))] = f'(g(x))·g'(x)), and the product rule (d/dx[uv] = u'v + uv').
+
+**Integration** is the reverse of differentiation and gives the area under a curve. The fundamental theorem of calculus links the two: ∫ₐᵇ f(x)dx = F(b) − F(a). Key techniques include u-substitution and integration by parts ( ∫u dv = uv − ∫v du).
+
+**Differential Equations** relate a function to its derivatives. In IB, you typically solve separable equations by rearranging to get all y terms on one side and all x terms on the other, then integrating both sides. The general solution contains an arbitrary constant C; an initial condition gives the particular solution.
+
+**Applications of Calculus**: The derivative gives the slope of a curve (used for finding maxima/minima by setting f'(x) = 0). The integral gives areas and volumes. Related rates problems use the chain rule to connect rates of change of different quantities.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ib-maths-calculus" title="IB Maths Calculus" description="Key calculus concepts for IB Maths SL and HL, including differentiation, integration, and differential equations." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+
+---
+
+## Intuition
+
+Think of differentiation as a "magnifying glass" that zooms in on a curve until it looks straight -- the slope of that straight line is the derivative. Integration is like stacking infinitely many thin rectangles under a curve to find the total area. The fundamental theorem of calculus tells you these two operations undo each other, just like addition and subtraction.
+
+## Common Pitfalls
+
+- Forgetting the constant of integration (+C) in indefinite integrals. This is an easy mark to lose and appears in almost every exam.
+- Applying the chain rule incorrectly: you must multiply by the derivative of the inner function. A common mistake is to forget this multiplier, especially with trigonometric and exponential functions.
+- Confusing the conditions for a maximum vs minimum. After finding critical points (f'(x) = 0), you must test the second derivative or use a sign chart to determine which is which.

@@ -418,6 +418,14 @@ int main() {
 
 noexcept is a contract that says "this function will not throw." It is part of the function type since C++17, meaning noexcept and non-noexcept functions are different types, like two different phone numbers. std::move_if_noexcept is a safety valve: it moves if the move is noexcept (fast and safe), but copies if it might throw (preserving the strong guarantee). The conditional noexcept specifier lets you write functions that are noexcept only when their template arguments are nothrow-movable, adapting the contract to the actual types used.
 
+## Intuition
+
+**`noexcept` is like a safety certification:** When you mark a function `noexcept`, you're telling the compiler and the runtime "I guarantee this function won't throw." The compiler can use this to generate faster code (no exception handling overhead), and the runtime can call `std::terminate` immediately if an exception does escape (instead of unwinding the stack). It's like signing a contract — if you break it (throw from a `noexcept` function), the consequences are severe (program termination).
+
+**Why it matters:** `noexcept` is not just a performance optimization — it's a design tool. Move constructors should be `noexcept` because the standard library uses it to decide whether to move or copy during reallocation. `noexcept` on move operations can mean the difference between O(n) copies and O(1) moves.
+
+**The key insight:** A `noexcept` function that throws calls `std::terminate` — no stack unwinding, no catch handlers, just immediate termination. Use it when you're certain the function cannot throw.
+
 ## Common Pitfalls
 
 ### 1. `noexcept` is Not Verified by the Compiler

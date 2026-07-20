@@ -1,6 +1,6 @@
 ---
 title: "University Computing Flashcards: Computer Networks"
-description: "20 interactive flashcards for university-level Computer Networks. Press Space to Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for university-level Computer Networks. Press Space to flip, rate 1-4."
 tags:
   - University
   - Computing
@@ -13,6 +13,40 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## Computing -- Computer Networks Flashcards
 
 20 interactive flashcards for university-level Computer Networks. Press Space to flip, rate 1-4.
+
+---
+
+## Intuition
+
+Computer networks are about **how data travels between machines**. The internet is a "network of networks" — billions of devices connected through a layered architecture where each layer provides services to the layer above.
+
+**Layered architecture intuition:** The OSI and TCP/IP models divide networking into layers, each with a specific responsibility. Physical layer handles bits on wires. Data link layer handles frames on a single link. Network layer handles routing across multiple networks. Transport layer handles reliable end-to-end delivery. Application layer handles the actual data format. This separation of concerns allows each layer to evolve independently.
+
+**TCP vs UDP intuition:** TCP is reliable but slower — it guarantees delivery, ordering, and congestion control. UDP is fast but unreliable — it sends packets without confirmation. Use TCP for web browsing, email, and file transfer (where correctness matters). Use UDP for video streaming, gaming, and DNS (where speed matters more than perfect reliability).
+
+**Routing intuition:** Routers forward packets toward their destination by consulting routing tables. Each router only needs to know the *next hop*, not the entire path. Distance vector protocols (like RIP) share routing tables with neighbours. Link state protocols (like OSPF) build a complete map of the network and compute shortest paths.
+
+---
+
+## Key Concepts
+
+| Concept | Why It Matters |
+|---------|---------------|
+| **OSI model** | Standardises network layers; enables interoperability between vendors |
+| **TCP three-way handshake** | Establishes reliable connection: SYN → SYN-ACK → ACK |
+| **NAT** | Translates private to public IPs; conserves IPv4 addresses |
+| **DNS** | Translates domain names to IP addresses; the phonebook of the internet |
+| **CIDR/ subnetting** | Divides networks into subnets; enables efficient IP address allocation |
+
+---
+
+## Common Pitfalls
+
+**Confusing TCP and UDP use cases.** TCP guarantees order and reliability but adds latency. UDP sacrifices reliability for speed. Choosing the wrong protocol for an application leads to either unnecessary overhead or unacceptable data loss.
+
+**Ignoring the cost of abstraction layers.** Each protocol layer adds header overhead. A 1500-byte Ethernet frame carries less application data due to TCP, IP, and Ethernet headers. Understanding this is essential for performance-critical applications.
+
+**Assuming bandwidth equals throughput.** Bandwidth is the maximum theoretical rate; throughput is the actual achieved rate. Congestion, retransmissions, protocol overhead, and network conditions all reduce throughput below bandwidth.
 
 ---
 

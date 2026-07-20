@@ -74,6 +74,14 @@ Osmotic pressure:
 $$\pi = CRT = 2 \times 10^{-5} \times 0.0821 \times 300$$
 $$= 4.926 \times 10^{-4} \, \text{atm} \approx 0.000493 \, \text{atm}$$
 
+## Common Mistakes
+
+**Forgetting the van't Hoff factor for electrolytes.** NaCl dissociates into 2 ions (i = 2), CaCl₂ into 3 ions (i = 3). Using i = 1 for electrolytes halves or thirds the correct colligative property value. Always check whether the solute dissociates before applying formulas.
+
+**Confusing molality with molarity in colligative property formulas.** Colligative properties use molality (moles per kg solvent), not molarity (moles per liter solution). Molarity changes with temperature while molality doesn't, which is why colligative properties prefer molality. Students often grab the wrong concentration unit.
+
+**Using R = 0.0821 with SI pressure units.** If pressure is in Pa or kPa, use R = 8.314 J/(mol·K). If pressure is in atm, use R = 0.0821 L·atm/(mol·K). Mixing these gives nonsensical answers. Always match R to your pressure units.
+
 ## Practice Problems
 
 1. $9 \, \text{g}$ of urea ($M = 60 \, \text{g/mol}$) is dissolved in $500 \, \text{g}$ of water. Find the boiling point elevation. ($K_b = 0.52 \, \text{K}\cdot\text{kg/mol}$)
@@ -91,6 +99,7 @@ Colligative properties depend only on how many solute particles you add, not wha
 
 ## Cross-References
 
-- [Solutions](/docs/cbse/chemistry/solutions) -- concentration units and Raoult's law
-- [Chemical Kinetics](/docs/cbse/chemistry/chemical-kinetics) -- how solute concentration affects rates
-- [CBSE Physics](/docs/cbse/physics) -- kinetic theory and thermodynamics
+- **[Solutions](../index.md):** Colligative properties are direct applications of solution concentration concepts like molality and mole fraction.
+- **[Chemical Kinetics](../chemical-kinetics/index.md):** Solute concentration affects reaction rates — understanding colligative properties deepens your grasp of concentration effects.
+- **[Biomolecules](../biomolecules/index.md):** Osmotic pressure determines how water moves across cell membranes, directly connecting colligative properties to biology.
+- **[Surface Chemistry](../surface-chemistry/index.md):** Adsorption and colligative properties both arise from solute-solvent interactions at the molecular level.

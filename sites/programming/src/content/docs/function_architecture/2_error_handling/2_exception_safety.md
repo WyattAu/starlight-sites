@@ -503,6 +503,14 @@ To a new bucket array that was only partially constructed.
 
 Exception safety guarantees are like service level agreements for your code. The no-throw guarantee says "this operation will never fail" -- like a bank vault that cannot be opened from inside. The strong guarantee says "if it fails, nothing changes" -- like an atomic transaction that either completes fully or rolls back entirely. The basic guarantee says "if it fails, at least the object is still valid" -- like a restaurant that cannot fulfil your order but still seats you. The no-guarantee says "all bets are off" -- like a construction zone where anything might happen. RAII is the tool that makes these guarantees achievable.
 
+## Intuition
+
+**Exception safety is like a surgeon's promise:** A surgeon promises to either complete the operation successfully or leave you in your original state — they won't halfway operate and leave you worse off. The three levels of exception safety are like surgical commitments: `nothrow` means "I promise this won't fail" (like taking your temperature), `strong` means "if I fail, you'll be back to how you were" (like a reversible procedure), and `basic` means "if I fail, at least the system won't crash" (like emergency stabilization).
+
+**Why it matters:** Exception safety is not optional in production C++ code. A function that throws and leaves data in an inconsistent state causes undefined behavior in the caller. The RAII pattern is the primary mechanism for achieving exception safety — it ensures cleanup happens automatically, even when exceptions are thrown.
+
+**The key insight:** RAII is the foundation of exception safety — if every resource is managed by an RAII wrapper, exceptions cannot leak resources or leave data in inconsistent states.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Destructors That Throw

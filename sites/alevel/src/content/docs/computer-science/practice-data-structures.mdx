@@ -1,6 +1,6 @@
 ---
 title: "A-Level Computer Science Practice: Data Structures"
-description: "18 MCQ practice problems on data structures. Select an answer, submit, and review the explanation. Questions follow A-Level examination style and cover"
+description: "18 MCQ practice problems on arrays, linked lists, stacks, queues, trees, graphs, and hash tables. Detailed explanations and common error analysis."
 tags:
   - Computer Science
   - A-Level
@@ -16,9 +16,46 @@ import { practiceQuestions } from '@/data/flashcards/computer-science/practice-d
 Questions follow A-Level examination style and cover arrays, linked lists, stacks, queues, trees,
 graphs, and hash tables.
 
+### What These Questions Test
+
+These problems test your ability to choose the appropriate data structure for a task, trace operations on data structures, and understand their performance characteristics.
+
+**Typical question types:**
+
+- **Arrays and linked lists:** Compare access time, insertion time, and memory usage. Trace operations like inserting or deleting elements. Understand when to use each.
+- **Stacks:** Trace push and pop operations. Use stacks for expression evaluation (infix to postfix), bracket matching, or undo mechanisms. Identify the state of the stack after a sequence of operations.
+- **Queues:** Trace enqueue and dequeue operations. Understand circular queues and how they reuse space. Apply queues to scheduling or buffering scenarios.
+- **Trees:** Trace tree traversals (in-order, pre-order, post-order). Insert elements into a binary search tree. Determine the height or balance of a tree.
+- **Graphs:** Represent a graph using an adjacency matrix or adjacency list. Determine the number of edges. Apply BFS or DFS and trace the order of vertex visits.
+- **Hash tables:** Calculate hash values. Trace the insertion of elements using chaining or open addressing. Determine the load factor and its impact on performance.
+
 ---
 
-### Practice Questions
+### Approach Strategy
+
+1. **State the time complexity.** Before calculating, write down the Big-O for the relevant operation. This helps you choose the right data structure.
+2. **Trace step by step.** For stack and queue operations, draw a diagram showing the state after each operation. For tree traversals, write the vertices in the order they are visited.
+3. **Check the structure's invariants.** A BST has the invariant that left < root < right. After any insertion or deletion, verify this holds. If not, the tree is not a valid BST.
+4. **Consider the trade-offs.** No data structure is best for everything. Arrays are fast for access but slow for insertion. Linked lists are fast for insertion but slow for access. Choose based on the dominant operation.
+
+---
+
+### Intuition
+
+Data structures are tools with different strengths. An array is like a filing cabinet with labelled drawers -- you can go straight to drawer 5, but adding a new drawer in the middle means shifting everything. A linked list is like a chain of notes, each pointing to the next -- easy to insert a new note, but you have to follow the chain to find the 100th one.
+
+A stack is like a stack of trays in a canteen -- you can only add to or remove from the top. A queue is like a checkout line -- first person in, first person served.
+
+---
+
+### Common Mistakes
+
+1. **Assuming arrays are always faster.** Arrays have $O(1)$ access, but $O(n)$ insertion. If you insert frequently, a linked list ($O(1)$ insertion) may be faster overall despite $O(n)$ access.
+2. **Confusing BFS and DFS.** BFS (breadth-first search) explores all neighbours at the current depth before moving deeper. DFS (depth-first search) goes as deep as possible before backtracking. BFS uses a queue; DFS uses a stack (or recursion).
+3. **Forgetting that hash tables can degrade.** With a poor hash function or high load factor, many collisions occur, and performance drops from $O(1)$ to $O(n)$.
+4. **Misunderstanding tree balance.** A balanced BST has height $O(\log n)$. An unbalanced BST (e.g. from inserting sorted data) has height $O(n)$, making it no better than a linked list.
+
+---
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />

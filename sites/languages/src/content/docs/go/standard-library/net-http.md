@@ -550,6 +550,14 @@ func slowDatabaseCall(ctx context.Context) (string, error) {
 When the client disconnects, `r.Context()` is cancelled, propagating cancellation through all
 Downstream operations.
 
+## Intuition
+
+**HTTP handlers are stateless factory workers:** Each request spawns a goroutine and hands it to a handler — a worker who reads the order (request), assembles the product (response), and throws away the instructions. Middleware is the assembly line: logging wraps the station to record timing, auth wraps it to check credentials, recovery wraps it with a safety net. `http.Handler` is the contract every worker signs — one method, `ServeHTTP`, takes an order and writes a result.
+
+**Why it matters:** Go's `net/http` is the standard library's killer feature — a production-grade HTTP server with connection pooling, TLS, graceful shutdown, and HTTP/2, all without external dependencies. Understanding the middleware chain and timeout hierarchy prevents the most common production issues.
+
+**The key insight:** HTTP in Go is just functions wrapping functions — `http.HandlerFunc` adapts any function to the `http.Handler` interface, making composition trivial.
+
 ## Common Pitfalls
 
 1. **Not closing response bodies.** Always `defer resp.Body.Close()` after an HTTP client request.

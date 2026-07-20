@@ -10,12 +10,34 @@ description: "IB Chemistry flashcards: IB Chemistry Flashcards: Quantitative Che
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/chemistry/flashcards-quantitative-chemistry-data.js';
 
-
 ## IB Chemistry — Quantitative Chemistry Flashcards
 
 20 interactive flashcards. Press Space to flip, rate 1-4.
 
 ---
 
+### Key Concepts
+
+**Mole Concept**: One mole contains 6.022 × 10²³ particles (Avogadro's constant). The mole bridges the gap between the microscopic (atoms/molecules) and macroscopic (grams) worlds. Molar mass (g/mol) numerically equals the relative molecular mass.
+
+**Empirical and Molecular Formula**: The empirical formula is the simplest whole-number ratio of atoms. The molecular formula is the actual number of atoms in a molecule. Determine the empirical formula from percentage composition or mass data, then use the molar mass to find the molecular formula.
+
+**Concentration and Solutions**: Concentration (mol/dm³) = moles of solute / volume of solution (dm³). To prepare a solution, dissolve the required moles in solvent and make up to the total volume in a volumetric flask. Dilution: C₁V₁ = C₂V₂.
+
+**Titration Calculations**: In acid-base titrations, the equivalence point occurs when moles of acid = moles of base (for monoprotic acid and base). Use the concentration and volume of the known solution to find the unknown. Always record concordant results (within 0.1 cm³) and calculate the mean.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ib-chem-quantitative-chemistry" title="IB Chemistry: Quantitative Chemistry" description="Mole concept, formulas, yield calculations, gas laws, solutions, and titration techniques." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+
+---
+
+## Intuition
+
+Think of the mole as a "chemist's dozen." Just as a dozen always means 12 items regardless of what they are, a mole always means 6.022 × 10²³ particles. This lets you count atoms by weighing them. Titration is like a chemical balancing act -- you add just enough of one solution to completely react with the other, and the indicator tells you when you've reached the balance point.
+
+## Common Pitfalls
+
+- Forgetting to convert cm³ to dm³ in concentration calculations. 1 dm³ = 1000 cm³. A very common error is using volume in cm³ when the formula requires dm³.
+- Confusing empirical and molecular formulas. The empirical formula is the simplest ratio; the molecular formula is the actual number of atoms. For example, the empirical formula of glucose is CH₂O, but the molecular formula is C₆H₁₂O₆.
+- Using the wrong stoichiometric ratio in titration calculations. Always write the balanced equation first and use the mole ratio, not a 1:1 assumption. Some acids are diprotic (H₂SO₄) and some bases have different stoichiometries (Ca(OH)₂).

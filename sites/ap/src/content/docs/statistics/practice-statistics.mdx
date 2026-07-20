@@ -17,6 +17,10 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ### Exploring Data and Probability
 
+**Intuition:** Statistics is the science of drawing conclusions from data under uncertainty. Probability quantifies how likely outcomes are, while statistical inference uses sample data to make educated guesses about populations.
+
+**Common Mistakes:** Confusing correlation with causation; misunderstanding confidence intervals; mixing up Type I and Type II errors; confusing population parameters with sample statistics.
+
 <PracticeProblem client:only="solid-js" question={"A dataset has a mean of 50 and a standard deviation of 5. According to the empirical rule (68-95-99.7), approximately what percentage of the data falls between 45 and 55?&quot; options={['68%', '95%', '99.7%', '50%']} correctAnswer={0} explanation=&quot;The empirical rule states that for approximately normal distributions, approximately 68% of the data falls within one standard deviation of the mean. Since 45 and 55 are each one standard deviation (5) from the mean (50), approximately 68% of the data falls in this range. The range 40-60 covers two standard deviations (approximately 95%), and 35-65 covers three (approximately 99.7%)."} difficulty="easy" />
 
 <PracticeProblem client:only="solid-js" question={"A fair six-sided die is rolled three times. What is the probability of getting at least one 6?&quot; options={['1/6', '1/2', '91/216', '125/216']} correctAnswer={2} explanation=&quot;This is best solved using the complement rule. The probability of NOT getting a 6 on one roll is 5/6. The probability of not getting a 6 in three independent rolls is (5/6)^3 = 125/216. Therefore, the probability of getting at least one 6 is 1 - 125/216 = 91/216. The complement approach is much simpler than calculating P(exactly one 6) + P(exactly two 6s) + P(exactly three 6s)."} difficulty="easy" />
@@ -44,3 +48,9 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"A least-squares regression line has the equation y-hat = 3.2 + 1.5x. If x increases by 2 units, by how much does the predicted value of y change?&quot; options={[ 'Increase by 3.0 units', 'Increase by 1.5 units', 'Increase by 6.2 units', 'Cannot be determined without the data', ]} correctAnswer={0} explanation=&quot;The slope of the regression line (1.5) represents the change in the predicted value of y for each one-unit increase in x. If x increases by 2 units, the predicted y increases by 2 x 1.5 = 3.0 units. The y-intercept (3.2) is the predicted y when x = 0 and does not affect how y changes with x."} difficulty="hard" />
 
 <PracticeProblem client:only="solid-js" question={"In a regression analysis, the coefficient of determination r-squared = 0.81. Which of the following is the correct interpretation?&quot; options={[ 'The correlation between x and y is 0.81', '81% of the data points fall on the regression line', '81% of the variation in y is accounted for by the linear relationship with x', 'The slope of the regression line is 0.81', ]} correctAnswer={2} explanation=&quot;The coefficient of determination (r-squared) represents the proportion of the total variation in the response variable y that is explained by the linear relationship with the explanatory variable x. An r-squared of 0.81 means that 81% of the variation in y is accounted for by its linear relationship with x, and the remaining 19% is due to other factors or random variation. The correlation r would be sqrt(0.81) = 0.9 (or -0.9), not 0.81."} difficulty="hard" />
+
+## Cross-References
+
+- **[Exploring Data](1-exploring-data/1_exploring-data):** Descriptive statistics and graphical displays.
+- **[Probability](3-probability/3_probability):** Distributions and the Central Limit Theorem.
+- **[Statistical Inference](4-statistical-inference/4_statistical-inference):** Confidence intervals and hypothesis tests.

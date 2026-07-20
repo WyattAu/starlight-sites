@@ -609,6 +609,14 @@ An `inline` friend function defined inside a class body is subject to the same a
 Other friend: it can access all members of the granting class. The `inline` specifier affects
 Linkage (multiple definitions are allowed across translation units) but has no effect on access.
 
+## Intuition
+
+**Access control is like a building's security system:** `public` is the lobby — anyone can walk in. `protected` is the employee area — only employees (derived classes) can enter. `private` is the CEO's office — only the class itself can access it. `friend` is like a visitor pass — it grants selective access to non-employees. The key insight is that access control is a compile-time property, not a runtime one — there's zero overhead, and it's enforced entirely by the compiler.
+
+**Why it matters:** Access control is the primary mechanism for enforcing encapsulation in C++. Without it, any code could modify any member, making it impossible to maintain invariants. The `friend` mechanism is often overused — prefer public/protected interfaces and only grant friendship when absolutely necessary.
+
+**The key insight:** Access control is compile-time only — it has zero runtime cost, but it's not a security boundary. A `reinterpret_cast` can bypass it, so don't rely on it for security.
+
 ## Common Pitfalls
 
 - **Assuming friendship is transitive or inherited.** If `A` declares `B` as a friend, and `C`

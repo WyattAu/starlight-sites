@@ -105,6 +105,16 @@ the definitions, applying the analytical frameworks, and evaluating historical s
 Worked examples demonstrating historical analysis, document interpretation, and essay construction
 are covered in the detailed sub-pages linked above.
 
+## Intuition
+
+AP US History is not about memorising dates — it's about **understanding how and why American society changed over time**. The course is organised around seven themes that cut across all nine periods: identity, work, geography, migration, politics, global engagement, and culture.
+
+**The thematic lens:** Every historical event connects to multiple themes. The Civil War wasn't just about slavery (identity and politics) — it was also about economic systems (work), westward expansion (geography and migration), and America's place in the world. Train yourself to see events through multiple thematic lenses.
+
+**Continuity and change:** History is a conversation between what stays the same and what changes. The question "what changed and what remained constant?" is the core analytical skill. For example, the shift from indentured servitude to racial slavery in the 1600s was a change in labour systems, but the continuity was the exploitation of labour for economic gain.
+
+**Contextualisation:** The AP exam rewards students who can place events within broader historical frameworks. Don't just describe what happened — explain *why* it happened when it did and what came before it. Contextualisation is the difference between a summary and an analysis.
+
 ## Common Pitfalls
 
 - Confusing chronological sequence or attributing events to the wrong period.

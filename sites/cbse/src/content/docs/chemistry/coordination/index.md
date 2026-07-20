@@ -88,6 +88,14 @@ This occurs because NO$_2^-$ is an ambidentate ligand (can donate through two di
 
 Coordination compounds are used in analytical chemistry (complexometric titrations), medicine (cisplatin as anticancer drug), catalysis (Wilkinson's catalyst), and biology (hemoglobin, vitamin B$_{12}$).
 
+## Intuition
+
+**A central metal ion surrounded by electron-donating ligands:** Think of a coordination compound as a central metal ion sitting in a cage made of ligands. Each ligand donates a pair of electrons to the metal, like hands gripping a ball from different directions. The more hands (ligands) and the stronger they grip, the more stable the complex. Crystal field theory adds that the d-orbitals of the metal split into different energy levels depending on the ligand arrangement — like how a ball squeezed from different sides deforms differently.
+
+**Why it matters:** Coordination compounds are everywhere — hemoglobin carries oxygen using iron coordination, cisplatin fights cancer through platinum coordination, and industrial catalysts like Wilkinson's catalyst rely on rhodium coordination. Without understanding these, modern medicine and industry wouldn't exist.
+
+**The key insight:** The spectrochemical series tells you whether electrons pair up in lower-energy d-orbitals (strong field) or spread out (weak field), which determines color, magnetism, and reactivity.
+
 ## Common Exam Patterns
 
 - IUPAC naming: alphabetical order, oxidation state in Roman numerals
@@ -103,3 +111,10 @@ Coordination compounds are used in analytical chemistry (complexometric titratio
 **Using high-spin filling for strong-field ligands.** Strong-field ligands like CN- and CO cause large d-orbital splitting, forcing electrons to pair in lower orbitals before occupying higher ones (low-spin configuration). Students often apply the Aufbau principle without considering the ligand field strength, leading to incorrect electron configurations and magnetic moments.
 
 **Confusing linkage isomerism with geometrical isomerism.** Linkage isomerism occurs when an ambidentate ligand (like NO2- or SCN-) bonds through different atoms. Geometrical isomerism involves different spatial arrangements (cis/trans) of ligands around the metal. These are fundamentally different types of isomerism with different causes.
+
+## Cross-References
+
+- **[D-Block Elements](../d-block/index.md):** Coordination chemistry is primarily d-block chemistry — understanding transition metal properties explains why certain metals form stable complexes.
+- **[P-Block Elements](../p-block/index.md):** Ligands like NH₃, CN⁻, and Cl⁻ are p-block compounds that coordinate to metal centers.
+- **[Electrochemistry](../electrochemistry/index.md):** Complex formation affects electrode potentials — the stability of coordination compounds influences redox behavior.
+- **[Biomolecules](../biomolecules/index.md):** Biological coordination compounds like hemoglobin (Fe²⁺ with porphyrin) and vitamin B₁₂ (Co³⁺ with corrin) are essential for life.

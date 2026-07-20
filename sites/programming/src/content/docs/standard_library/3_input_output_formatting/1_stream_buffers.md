@@ -612,6 +612,14 @@ void stream_state_demo() {
 4. Not making connections between different topics within the subject to build a coherent
    understanding.
 
+## Intuition
+
+**Stream buffers are like water pipes:** The stream (`std::cout`, `std::ifstream`) is like the faucet — you turn it on and water flows. The stream buffer is like the pipe behind the wall — it actually carries the water from the source to the faucet. You rarely interact with stream buffers directly, but they're doing all the work. A custom stream buffer is like installing a water filter — the water still flows through the same faucet, but the pipe behind the wall processes it differently.
+
+**Why it matters:** Stream buffers separate the interface (stream operations like `<<` and `>>`) from the implementation (where the data actually comes from or goes to). This lets you redirect `std::cout` to a file, a network socket, or a custom buffer without changing any code that writes to `std::cout`. It's the Strategy pattern applied to I/O.
+
+**The key insight:** Stream buffers separate I/O interface from implementation — you can redirect `std::cout` to anywhere by replacing its stream buffer.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -1,6 +1,6 @@
 ---
 title: "University Computing Flashcards: Algorithms and Data Structures"
-description: "20 interactive flashcards for university-level Algorithms and Data Structures. P Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for university-level Algorithms and Data Structures. Press Space to flip, rate 1-4."
 tags:
   - University
   - Computing
@@ -12,8 +12,41 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Computing -- Algorithms and Data Structures Flashcards
 
-20 interactive flashcards for university-level Algorithms and Data Structures. Press Space to flip,
-rate 1-4.
+20 interactive flashcards for university-level Algorithms and Data Structures. Press Space to flip, rate 1-4.
+
+---
+
+## Intuition
+
+Data structures are **organised ways to store and access data**. The choice of data structure determines the efficiency of operations — a linked list is great for insertion but poor for random access; an array is the opposite.
+
+**Array vs linked list intuition:** Arrays give O(1) random access but O(n) insertion (shifting elements). Linked lists give O(1) insertion at a known position but O(n) access (traversal). Use arrays when you need fast lookups; use linked lists when you need frequent insertions/deletions.
+
+**Tree intuition:** Binary search trees maintain sorted order while allowing O(log n) search, insert, and delete — if the tree is balanced. An unbalanced BST degenerates into a linked list with O(n) operations. Self-balancing trees (AVL, Red-Black) guarantee O(log n) by restructuring after each modification.
+
+**Hash table intuition:** Hash tables map keys to array indices using a hash function. Average-case O(1) operations depend on a good hash function that distributes keys uniformly. Collisions (two keys mapping to the same index) degrade performance — chaining and open addressing are two resolution strategies.
+
+---
+
+## Key Concepts
+
+| Concept | Why It Matters |
+|---------|---------------|
+| **Asymptotic analysis** | Describes how runtime scales with input size; the basis for algorithm comparison |
+| **Amortised analysis** | Averages cost over a sequence; explains why dynamic array append is O(1) on average |
+| **Balanced trees** | Guarantee O(log n) by maintaining height invariants through rotations |
+| **Hash tables** | Average O(1) lookup; trade space for time; collision strategy matters |
+| **Priority queues** | Enables efficient access to min/max element; heaps implement this in O(log n) |
+
+---
+
+## Common Pitfalls
+
+**Assuming average-case complexity.** Big-O without qualification means worst case. An algorithm with O(n) worst case may have O(n²) average case if the input distribution is adversarial.
+
+**Ignoring cache performance.** A theoretically optimal algorithm may perform worse than a simpler one on real hardware if it has poor cache locality. Accessing elements scattered across memory causes cache misses that dominate runtime.
+
+**Confusing stability with correctness.** A stable sort preserves the relative order of equal elements. Stability matters when sorting by multiple criteria but does not affect correctness of a single sort.
 
 ---
 

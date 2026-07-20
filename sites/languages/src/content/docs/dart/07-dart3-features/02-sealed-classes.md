@@ -867,6 +867,14 @@ T match&lt;T&gt;(Either&lt;L, R&gt; either, T Function(L) onLeft, T Function(R) 
   };
 ```
 
+## Intuition
+
+**Sealed classes are a closed menu at a restaurant:** Imagine a restaurant where the menu is printed once and never changes — the chef knows every possible dish and can prepare for each one. If you add a new dish, every waiter's mental checklist breaks until they learn about it. That's what sealed classes do: the compiler knows *every* possible subtype at compile time, so it can verify that your switch handles them all. Without sealed, it's like an open menu where new dishes appear daily — you can never be sure you've covered everything.
+
+**Why it matters:** Sealed classes enable exhaustive pattern matching, which means the compiler catches missing cases at compile time. This eliminates an entire category of runtime errors where an unhandled state or result type crashes the app.
+
+**The key insight:** Sealed classes are Dart's answer to algebraic data types — they give you the exhaustiveness of enums with the expressiveness of class hierarchies, where each variant can have completely different data.
+
 ## Common Pitfalls
 
 ### 1. Trying to Extend a Sealed Class from Another Library

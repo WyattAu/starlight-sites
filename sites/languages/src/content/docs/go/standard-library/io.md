@@ -356,6 +356,14 @@ func (t *Time) UnmarshalJSON(data []byte) error {
 }
 ```
 
+## Intuition
+
+**I/O is a postal service with standardized envelopes:** `io.Reader` and `io.Writer` are the universal interfaces — every data source (files, network, memory buffers) and every data sink speaks the same language. It's like having one standard envelope size that fits letters, photos, and packages alike. `bufio` is the mailroom that batches small letters into bundles to reduce trips to the post office (system calls). `json.Encoder` writing to an `http.ResponseWriter` is just another reader/writer pair — no special case needed.
+
+**Why it matters:** The `io.Reader`/`io.Writer` interface pair is the most reused abstraction in Go's standard library. Once you understand that everything is just "read bytes from here" and "write bytes to there," you can compose any I/O operation by connecting readers to writers like building blocks.
+
+**The key insight:** `io.EOF` is not an error — it's the normal way a stream says "I'm done." Treat it as completion, not failure.
+
 ## Common Pitfalls
 
 1. **Not closing files.** Always use `defer f.Close()` after opening a file. Even when `Close`

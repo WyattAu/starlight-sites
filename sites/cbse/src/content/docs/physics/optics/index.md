@@ -108,6 +108,23 @@ The mirror equation is $1/f = 1/v + 1/u$ while the lens equation is $1/f = 1/v -
 
 A real image is formed where light rays actually converge and can be projected on a screen. A virtual image is formed where light rays appear to diverge from and cannot be projected. Concave mirrors and convex lenses form real images when the object is beyond the focal point. Students sometimes assume all images formed by lenses are real, which is incorrect when the object is within the focal length.
 
+## Intuition
+
+**Light follows the rules of geometry — until it doesn't:** Geometric optics treats light as rays that bounce off mirrors and bend through lenses, following simple rules like "angle in equals angle out" for reflection. Think of a mirror as a perfect rebounder — every ray bounces at the same angle it arrived. Lenses are like traffic controllers for light — they bend rays so they converge (convex lens) or diverge (concave lens), focusing images onto screens or into your eyes. Wave optics reveals that light also behaves as a wave, producing interference patterns like ripples overlapping in a pond.
+
+**Why it matters:** Optics is the science behind eyeglasses, cameras, microscopes, telescopes, fiber optics, and laser surgery. Understanding how light bends and reflects lets us design instruments that extend human vision from the microscopic to the cosmic scale.
+
+**The key insight:** The sign convention in optics isn't arbitrary — it encodes the physics of real vs. virtual images and ensures the mirror and lens equations work universally, but you must apply it consistently or you'll get nonsensical results.
+
+## Common Exam Patterns
+
+## Cross-References
+
+- **[Electrostatics](../electrostatics/index.md):** Electric fields influence the propagation of light through materials (electro-optic effects), connecting optics to electrostatics.
+- **[Magnetic Effects](../magnetic-effects/index.md):** Electromagnetic theory unifies optics with electricity and magnetism — light is an electromagnetic wave.
+- **[Dual Nature](../dual-nature/index.md):** Wave optics (interference, diffraction) reveals light's wave nature, while the photoelectric effect shows its particle nature.
+- **[Derivatives (Mathematics)](../../mathematics/derivatives/index.md):** Calculus is used to derive lens equations and analyze ray paths mathematically.
+
 ### Mistake 3: Forgetting that total internal reflection requires light to travel from denser to rarer medium
 
 Total internal reflection (TIR) only occurs when light travels from a medium with higher refractive index to one with lower refractive index, and the angle of incidence exceeds the critical angle. Students sometimes apply TIR to light going from air to water, which is impossible. The critical angle formula $\sin\theta_c = n_2/n_1$ assumes $n_1 > n_2$.

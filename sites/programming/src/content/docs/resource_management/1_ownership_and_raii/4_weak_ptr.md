@@ -869,6 +869,14 @@ Calling `shared_from_this()` when you only need to observe the object:
 
 A weak_ptr is a non-owning observer, like a security camera that watches a shared_ptr-managed object without keeping it alive. The lock() method is the safe way to peek: it atomically checks whether the object still exists and gives you a shared_ptr if it does, or null if it has been destroyed. This is crucial for breaking reference cycles -- when two objects hold shared_ptr references to each other, they keep each other alive forever like two people holding each other's arms up. A weak_ptr breaks the cycle by not adding to the reference count, letting one side observe without participating in ownership.
 
+## Intuition
+
+**A `weak_ptr` is like a non-owning reference with a safety check:** It observes a `shared_ptr` without increasing the reference count — like looking at someone else's library book without checking it out. When you want to use the resource, you call `lock()` to get a `shared_ptr` — but if the resource has been freed (all owners released it), `lock()` returns `nullptr`. This prevents dangling references — the `weak_ptr` knows when the resource is gone.
+
+**Why it matters:** `weak_ptr` is the solution to cyclic references — when two objects hold `shared_ptr`s to each other, the reference count never reaches zero and the objects leak. Breaking the cycle with `weak_ptr` on one side lets the objects be freed. It's also essential for caches and observer patterns where you want to observe an object without preventing its destruction.
+
+**The key insight:** `weak_ptr::lock()` returns a `shared_ptr` only if the resource is still alive — this is the safe way to observe a `shared_ptr`-managed object without preventing its destruction.
+
 ## Common Pitfalls
 
 1. **Using `expired()` instead of `lock()` in multithreaded code.** Between checking `expired()` and

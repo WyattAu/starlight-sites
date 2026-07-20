@@ -707,6 +707,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**CRTP is like a class wearing a disguise:** The Curiously Recurring Template Pattern is when a class derives from a template instantiation of itself — `class Derived : public Base<Derived>`. It's like a class pretending to be its own base class. The template parameter lets the base class call derived class methods at compile time, achieving static polymorphism (no vtable overhead). C++23's "deducing this" is the modern replacement — it lets you write `void f(this Derived& self)` instead of the template trick, achieving the same result with cleaner syntax.
+
+**Why it matters:** CRTP is the classic C++ technique for static polymorphism — it gives you virtual function-like behavior without the runtime overhead. It's used extensively in the standard library (`std::enable_shared_from_this`), smart pointers, and policy-based design. The new "deducing this" syntax is simpler and more expressive, but understanding CRTP is still essential for reading existing code.
+
+**The key insight:** CRTP achieves static polymorphism by passing the derived class as a template parameter to the base — the base can call derived methods at compile time, with zero runtime overhead.
+
 ## See Also
 
 - [Virtual Functions and vtables](./1_vtables.md)

@@ -75,6 +75,14 @@ Variance: $\sigma^2 = npq = 5 \times 0.5 \times 0.5 = 1.25$
 
 Probability is fundamental to statistics, data science, risk assessment, and decision-making. Bayes' theorem underpins modern machine learning, medical diagnosis, and legal reasoning. Understanding probability distributions is essential for any quantitative field.
 
+## Intuition
+
+**Quantifying uncertainty with numbers:** Probability assigns a number between 0 (impossible) and 1 (certain) to how likely an event is. Conditional probability is like narrowing your focus — "given that it's raining, what's the chance my picnic is ruined?" uses different information than "what's the chance it rains?" Bayes' theorem is the reverse-engineering tool: it takes an observed effect (like a positive test result) and works backward to find the most likely cause (like whether you actually have the disease). The binomial distribution counts successes in a fixed number of independent trials — like flipping a coin 10 times and counting heads.
+
+**Why it matters:** Probability is the language of uncertainty — it underpins statistics, risk assessment, medical diagnosis, weather forecasting, insurance, gambling odds, and machine learning. Bayes' theorem is the foundation of modern AI and medical testing. Without probability, we couldn't make rational decisions under uncertainty.
+
+**The key insight:** Conditional probability P(A|B) ≠ P(B|A) — "probability of rain given clouds" is very different from "probability of clouds given rain." This asymmetry is why Bayes' theorem is so powerful and so commonly misunderstood.
+
 ## Common Exam Patterns
 
 - Bayes' theorem problems typically involve multiple stages or sources

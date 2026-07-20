@@ -875,6 +875,14 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
+## Intuition
+
+**The infinite jigsaw puzzle:** A series is like trying to complete an infinite jigsaw puzzle. Each piece (term) adds to the picture, and convergence means the puzzle eventually looks complete from a distance.
+
+**Why it matters:** Series allow us to represent complex functions as simple infinite sums, making calculations easier and enabling approximations in physics, engineering, and computer science.
+
+**The key insight:** An infinite series converges when the terms shrink fast enough that their sum approaches a finite value.
+
 ## Cross-References
 
 - [Limits and Continuity](../1-limits-and-continuity/1_limits-and-continuity) -- Convergence of sequences and series is defined using the same limit concepts as continuity.

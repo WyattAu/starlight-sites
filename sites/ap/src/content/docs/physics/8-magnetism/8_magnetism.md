@@ -491,6 +491,18 @@ $$
 This is the same as the field inside a wire of radius $R$ carrying current $I$.
 
 
+## Intuition
+
+Magnetism is **electricity in motion** — moving charges create magnetic fields, and magnetic fields exert forces on moving charges. The magnetic force is always perpendicular to the velocity, so it changes direction but not speed — this is why charged particles spiral in magnetic fields.
+
+**Why magnetic force does no work:** Since $\vec{F} = q\vec{v} \times \vec{B}$ is perpendicular to $\vec{v}$, the power $P = \vec{F} \cdot \vec{v} = 0$. The magnetic field redirects charges but never speeds them up or slows them down. This is fundamentally different from electric fields, which do work.
+
+**Faraday's law intuition:** A changing magnetic flux induces an EMF — nature abhors a change in flux. Lenz's law tells you the direction: the induced current creates a field that *opposes* the change. If flux increases, the induced field points opposite to the original field. This is why dropping a magnet through a copper tube is slow — the induced currents create opposing fields.
+
+**Inductance intuition:** An inductor opposes changes in current, just as mass opposes changes in velocity. When you try to increase current through an inductor, it generates a back-EMF that fights the increase. When you try to decrease it, the inductor maintains the current. The time constant $\tau_L = L/R$ tells you how quickly the current responds.
+
+**LC circuit intuition:** An LC circuit is the electromagnetic analog of a mass-spring system. Energy oscillates between the capacitor (electric field, like potential energy) and the inductor (magnetic field, like kinetic energy). The charge and current are 90° out of phase — when one is maximum, the other is zero.
+
 ## Common Pitfalls
 
 1. **Wrong direction for the magnetic force.** Use $\vec{F} = q\vec{v} \times \vec{B}$Not
@@ -710,3 +722,9 @@ linked above.
 
 
 </aside>
+
+## Cross-References
+
+- **[Electrostatics](../6-electrostatics/6_electrostatics):** Electric charges produce electric fields; moving charges produce magnetic fields.
+- **[Circuits](../7-circuits/7_circuits):** Inductors store energy in magnetic fields; changing magnetic flux induces EMF in circuits.
+- **[Work, Energy, and Power](../3-work-energy-power/3_work-energy-power):** Magnetic forces do no work on individual charges but can transfer energy between circuit elements.

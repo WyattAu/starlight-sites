@@ -1,6 +1,6 @@
 ---
 title: "A-Level Further Maths: Further Statistics Practice"
-description: "ALEVEL Further Maths practice problems: A-Level Further Maths: Further Statistics Practice. Comprehensive study material with definitions, examples,"
+description: "16 MCQ practice problems covering PMF, PDF, expectation, variance, continuous distributions, t-distribution, and chi-squared tests. Detailed worked solutions."
 tags:
   - Further Maths
   - A-Level
@@ -15,9 +15,48 @@ import { practiceQuestions } from '@/data/flashcards/further-maths/practice-furt
 
 16 MCQ practice problems. Select an answer, submit, and review the explanation.
 
+### What These Questions Test
+
+These problems test your ability to work with probability distributions, calculate expectations and variances, and apply formal hypothesis testing methods.
+
+**Typical question types:**
+
+- **PMF calculations:** Given a table of probabilities, find $E(X)$, $\text{Var}(X)$, or $P(a \leq X \leq b)$. Use the definition $E(X) = \sum x \cdot P(X = x)$.
+- **PDF calculations:** Given a probability density function, find probabilities by integrating, calculate $E(X)$ and $\text{Var}(X)$ using integrals, or find the cumulative distribution function.
+- **Coding and transformations:** Apply $E(aX + b) = aE(X) + b$ and $\text{Var}(aX + b) = a^{2}\text{Var}(X)$ to transform distributions. Standardise normal variables.
+- **Continuous distributions:** Identify and work with uniform, exponential, or other named distributions. Find means, variances, and probabilities.
+- **$t$-distribution:** Determine when to use $t$ instead of $z$. Calculate $t$-statistics from sample data. Find critical values or $p$-values.
+- **$\chi^{2}$ tests:** Set up hypotheses for goodness of fit or independence. Calculate expected frequencies. Compute $\chi^{2}$ statistic and compare with critical values. Determine degrees of freedom correctly.
+
 ---
 
-### Practice Questions
+### Approach Strategy
+
+1. **Check that probabilities sum to 1.** Before doing any calculation, verify that $\sum P(X = x) = 1$ (discrete) or $\int f(x)\,dx = 1$ (continuous). If they don't, re-read the question.
+2. **Draw a table for discrete distributions.** Listing $x$ and $P(X = x)$ side by side makes it easier to calculate $E(X)$ and $E(X^{2})$.
+3. **State the hypotheses clearly.** For hypothesis testing, write $H_{0}$ and $H_{1}$ explicitly before calculating. This prevents confusion later.
+4. **Check degrees of freedom carefully.** For $\chi^{2}$ goodness of fit: $df = k - 1 - m$ where $k$ is the number of categories and $m$ is the number of estimated parameters. For contingency tables: $df = (r-1)(c-1)$.
+
+---
+
+### Intuition
+
+The PDF is like a histogram with infinitely many bins. The height of the curve at any point tells you how dense the probability is in that region. Areas under the curve give probabilities.
+
+The $t$-distribution reflects real-world uncertainty. When you estimate $\sigma$ from a small sample, you are less confident, so the $t$-distribution gives wider confidence intervals. This is like adding a "margin of error for your margin of error."
+
+The $\chi^{2}$ test measures the "distance" between what you observed and what you expected. A large $\chi^{2}$ value means the observed data is far from the expected pattern, which is evidence against the null hypothesis.
+
+---
+
+### Common Mistakes
+
+1. **Forgetting to check that expected frequencies are large enough.** For $\chi^{2}$ tests, all expected frequencies should be at least 5. If some are smaller, categories must be combined.
+2. **Confusing one-tailed and two-tailed tests.** A one-tailed test looks for a difference in one direction; a two-tailed test looks for a difference in either direction. This affects the critical value.
+3. **Using $n$ instead of $n-1$ for degrees of freedom in the $t$-distribution.** The degrees of freedom are $n - 1$, not $n$. Using $n$ gives slightly incorrect critical values.
+4. **Misinterpreting "not significant."** Failing to reject $H_{0}$ does not mean $H_{0}$ is true. It means there is insufficient evidence to reject it. The distinction is important.
+
+---
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />

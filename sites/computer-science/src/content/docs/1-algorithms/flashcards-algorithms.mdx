@@ -1,6 +1,6 @@
 ---
 title: "University CS Flashcards: Algorithms"
-description: "20 interactive flashcards for university-level Algorithms. Press Space to flip,  Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for university-level Algorithms. Press Space to flip, rate 1-4."
 tags: [University, Computer Science, Flashcards]
 ---
 
@@ -9,6 +9,41 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Computer Science -- Algorithms Flashcards
 20 interactive flashcards for university-level Algorithms. Press Space to flip, rate 1-4.
+
 ---
 
-<FlashcardDeck client:only="solid-js" deckId="uni-cs-algorithms" title="University CS -- Algorithms" description="Complexity, dynamic programming, NP-completeness, graph algorithms, string matching" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />;
+## Intuition
+
+Algorithms are **step-by-step procedures for solving problems**. The key insight is that the *same problem* can often be solved by many different algorithms, and choosing the right one depends on the input size, structure, and constraints.
+
+**Why complexity matters:** Two algorithms that both sort a list correctly can have wildly different performance. Bubble sort is O(n²); merge sort is O(n log n). For n = 1 million elements, that's the difference between a trillion operations and twenty million. Asymptotic analysis lets you predict this without running the code.
+
+**Dynamic programming intuition:** If a problem has overlapping subproblems (the same subproblem appears multiple times) and optimal substructure (the optimal solution contains optimal solutions to subproblems), you can solve it efficiently by storing and reusing results. Without memoization, you'd solve the same subproblem exponentially many times.
+
+**Graph algorithm intuition:** BFS explores level by level (like ripples in a pond) — shortest paths in unweighted graphs. DFS goes as deep as possible before backtracking — useful for topological sort and cycle detection. Dijkstra's algorithm extends BFS to weighted graphs by always processing the closest unvisited node.
+
+---
+
+## Key Concepts
+
+| Concept | Why It Matters |
+|---------|---------------|
+| **Asymptotic analysis** | Compares algorithms independent of hardware by describing growth rates |
+| **Divide and conquer** | Breaks problems into subproblems; solves each independently; combines results |
+| **Greedy algorithms** | Make locally optimal choices hoping for global optimum; fast but not always correct |
+| **Dynamic programming** | Stores solutions to overlapping subproblems; guarantees optimality when applicable |
+| **Backtracking** | Explores all possibilities but prunes branches that cannot lead to a solution |
+
+---
+
+## Common Pitfalls
+
+**Confusing best, average, and worst case.** Always specify which case you're analysing. An algorithm with O(n) worst case but O(n²) average case may be worse in practice than one with O(n log n) worst case.
+
+**Assuming O(n log n) is always better than O(n²).** Big-O hides constants. For small inputs, a simple O(n²) algorithm like insertion sort can be faster than a complex O(n log n) algorithm like merge sort due to lower constant factors and better cache performance.
+
+**Forgetting that space complexity matters too.** An algorithm using O(n) extra space may be unacceptable for embedded systems with limited memory, even if its time complexity is optimal.
+
+---
+
+<FlashcardDeck client:only="solid-js" deckId="uni-cs-algorithms" title="University CS -- Algorithms" description="Complexity, dynamic programming, NP-completeness, graph algorithms, string matching" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />

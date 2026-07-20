@@ -650,6 +650,14 @@ The head swings, so it can never be recycled and re-inserted. The tail pointer m
 
 ---
 
+## Intuition
+
+**A CAS loop is like trying to update a shared document without locking it:** You read the current version, make your changes, then check if someone else modified it while you were editing. If they did, you re-read and try again. It's optimistic — you assume no one else is editing, and if you're wrong, you retry. This is faster than locking when contention is low (most of the time you succeed on the first try), but slower when contention is high (you keep retrying).
+
+**Why it matters:** CAS loops are the foundation of all lock-free data structures. They let you build concurrent stacks, queues, and counters without mutexes. But they come with subtle pitfalls: the ABA problem (a value changes A→B→A between your read and CAS), spurious failures (weak CAS), and the need for correct memory ordering on both success and failure paths.
+
+**The key insight:** The CAS loop is optimistic — it assumes no contention and retries on failure. Under high contention, this can waste CPU cycles; under low contention, it's faster than any lock.
+
 ## Common Pitfalls
 
 - **Using `compare_exchange_strong` inside tight CAS loops.** Strong CAS may retry internally on

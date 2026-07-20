@@ -600,6 +600,14 @@ public:
 
 The Itanium Exception ABI is the hidden machinery that makes try/catch work. When an exception is thrown, the runtime allocates the exception object and walks up the call stack using compile-time tables, like reading a treasure map to find where the matching catch block lives. The zero-cost model means that normal execution pays nothing for exception handling -- the tables are only consulted when an exception actually occurs, like insurance that costs nothing until you file a claim. The personality function is the judge that decides whether a catch clause matches the thrown exception type.
 
+## Intuition
+
+**The exception ABI is like a postal service for errors:** When you `throw` an exception, the runtime copies the exception object into a hidden memory location (like putting a letter in a mailbox). When you `catch` it, the runtime retrieves it from the mailbox and delivers it to you. The stack unwinding process is like the postal service tracing back through the delivery route — it undoes each function call until it finds a handler. If no handler exists, the program terminates (the letter is returned to sender).
+
+**Why it matters:** Understanding the exception ABI is crucial for writing correct exception-safe code and for debugging crashes. The hidden exception object, the personality function, and the unwind tables are all part of a complex machinery that makes exceptions work across shared libraries and different compiler versions. Getting this wrong causes mysterious crashes or ABI incompatibilities.
+
+**The key insight:** Exceptions are not free — they involve heap allocation, stack unwinding, and personality function dispatch. This is why `noexcept` and `std::expected` are increasingly preferred for performance-critical code.
+
 ## Common Pitfalls
 
 ### 1. Throwing from Destructors During Stack Unwinding

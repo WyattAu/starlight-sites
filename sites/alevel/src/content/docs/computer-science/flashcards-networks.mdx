@@ -1,6 +1,6 @@
 ---
 title: "A-Level CS Flashcards: Networks"
-description: "ALEVEL Computer Science flashcards: A-Level CS Flashcards: Networks. Comprehensive study material with definitions, examples, and assessment tools."
+description: "A-Level Computer Science flashcards covering TCP/IP, network topologies, protocols, security, and web technologies with spaced repetition."
 tags:
   - Computer Science
   - ALevel
@@ -14,6 +14,38 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## Computer Science -- Networks Flashcards
 
 20 interactive flashcards for A-Level Computer Science. Press Space to flip, rate 1-4.
+
+### What These Flashcards Cover
+
+These flashcards test your understanding of how computers communicate over networks, the protocols that govern this communication, and the security measures that protect data.
+
+**Key areas:**
+
+- **Network Types:** LAN (Local Area Network): small geographical area, high speed, privately owned. WAN (Wide Area Network): large geographical area, uses leased telecommunication lines. The internet is the world's largest WAN.
+- **Network Topologies:** Star: all devices connect to a central hub/switch. Reliable (one failure doesn't affect others) but hub is a single point of failure. Bus: all devices share a single cable. Simple but a cable failure brings down the whole network. Mesh: every device connects to every other device. Very reliable but expensive.
+- **Client-Server Model:** The server provides resources (files, websites, email). The client requests services. The server is typically more powerful and always on. Peer-to-peer: all devices are equal, each can act as client and server.
+- **TCP/IP Protocol Stack:** Application layer (HTTP, FTP, SMTP, DNS), Transport layer (TCP for reliable delivery, UDP for fast delivery), Internet layer (IP for addressing and routing), Network access layer (physical transmission).
+- **IP Addressing:** IPv4: 32-bit address (e.g. 192.168.1.1). Subnet mask divides the address into network and host portions. NAT translates private addresses to public addresses. IPv6: 128-bit address to address the shortage of IPv4 addresses.
+- **Web Technologies:** HTML (structure), CSS (presentation), JavaScript (behaviour). HTTP (transfer of web pages), HTTPS (encrypted transfer), FTP (file transfer), DNS (domain name to IP resolution).
+- **Network Security:** Threats: malware, phishing, DDoS, man-in-the-middle attacks. Defences: firewalls, encryption (symmetric and asymmetric), authentication (passwords, biometrics, two-factor), access control lists.
+- **Packet Switching:** Data is split into packets, each routed independently. Each packet contains a header (source/destination address, sequence number) and payload. Routers forward packets based on destination IP.
+
+---
+
+### Intuition
+
+Think of a network like a postal system. Your letter (data) is put in an envelope (packet) with a destination address (IP address). The post office (router) reads the address and forwards it to the next post office until it arrives. TCP is like registered post -- it confirms delivery and re-sends if lost. UDP is like regular post -- fast but no guarantee of delivery.
+
+DNS is like a phone book for the internet. You type "google.com" (the name), and DNS looks up the IP address (the number) so your computer can connect.
+
+---
+
+### Common Pitfalls
+
+1. **Confusing TCP and UDP.** TCP is reliable (acknowledges receipt, re-sends lost packets) but slower. UDP is fast but unreliable (no acknowledgements). Use TCP for file transfers and web pages; use UDP for live streaming and gaming.
+2. **Confusing hubs and switches.** A hub broadcasts to all ports. A switch sends only to the intended recipient's port. Hubs are obsolete; switches are the standard.
+3. **Forgetting that encryption does not prevent interception.** Encryption ensures that intercepted data cannot be read. It does not prevent the interception itself. You still need firewalls and access controls to prevent unauthorised access.
+4. **Mixing up symmetric and asymmetric encryption.** Symmetric uses one shared key (fast, but key distribution is a problem). Asymmetric uses a public/private key pair (slower, but solves key distribution). In practice, both are combined (asymmetric to exchange a symmetric key, then symmetric for the data).
 
 ---
 

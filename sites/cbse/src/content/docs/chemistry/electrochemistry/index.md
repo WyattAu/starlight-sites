@@ -157,16 +157,17 @@ Since $\Delta G < 0$, the reaction is spontaneous.
 
 **Assuming sulfate is oxidised at the anode during electrolysis.** In aqueous CuSO4 electrolysis, water is oxidised at the anode (producing O2), not sulfate. SO4^2- is extremely difficult to oxidise because of its very negative standard reduction potential. Always check which species is preferentially discharged.
 
+## Intuition
+
+**Electrochemistry bridges chemistry and electricity:** A galvanic cell is like an electron pump: a spontaneous chemical reaction pushes electrons through an external wire, creating current. The anode is where oxidation happens (electrons leave), and the cathode is where reduction happens (electrons arrive). The Nernst equation tells us that concentration affects voltage — a battery runs down because its reactants get used up. Electrolysis reverses the process: you force electrons in the opposite direction to drive a non-spontaneous reaction, like splitting water into hydrogen and oxygen using electricity.
+
+**Why it matters:** Electrochemistry powers your phone battery, protects bridges from rust through cathodic protection, produces the aluminum cans you drink from, and underlies how your neurons fire. It's the bridge between chemical energy and electrical energy — two of the most useful forms of energy in the modern world.
+
+**The key insight:** A positive cell potential means a spontaneous reaction (ΔG < 0), connecting thermodynamics to electricity in a single elegant equation: ΔG = −nFE.
+
 ## Cross-References
 
-- [Chemical Kinetics](/docs/cbse/chemistry/chemical-kinetics) -- reaction rates and activation energy
-- [Solutions](/docs/cbse/chemistry/solutions) -- concentration and colligative properties
-- [CBSE Physics](/docs/cbse/physics) -- current electricity and circuits
-
-Electrochemistry bridges chemistry and electricity. A galvanic cell is like a electron pump: a spontaneous chemical reaction pushes electrons through an external wire, creating current. The anode is where oxidation happens (electrons leave), and the cathode is where reduction happens (electrons arrive). The Nernst equation tells us that concentration affects voltage -- a battery runs down because its reactants get used up. Electrolysis reverses the process: you force electrons in the opposite direction to drive a non-spontaneous reaction, like splitting water into hydrogen and oxygen using electricity.
-
-## Cross-References
-
-- [Chemical Kinetics](/docs/cbse/chemistry/chemical-kinetics) -- reaction rates and activation energy
-- [Solutions](/docs/cbse/chemistry/solutions) -- concentration and colligative properties
-- [CBSE Physics](/docs/cbse/physics) -- current electricity and circuits
+- **[Chemical Kinetics](../chemical-kinetics/index.md):** Reaction rates and activation energy — electrochemistry tells you whether a reaction happens, kinetics tells you how fast.
+- **[Solutions](../solutions/index.md):** Concentration affects cell potential through the Nernst equation, linking solution chemistry to electrochemistry.
+- **[Current Electricity (Physics)](../../physics/current-electricity/index.md):** The flow of electrons in circuits connects electrochemical concepts to electrical measurements.
+- **[D-Block Elements](../d-block/index.md):** Transition metals are used as electrodes and catalysts in electrochemical cells, connecting coordination chemistry to redox processes.

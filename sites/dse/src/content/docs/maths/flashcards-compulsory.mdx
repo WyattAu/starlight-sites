@@ -14,5 +14,24 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## 20 interactive flashcards. Press Space to flip, rate 1-4.
 
+### Additional Flashcard Topics
+
+- **Quadratic Formula**: for ax² + bx + c = 0, x = (-b ± √(b² - 4ac)) / (2a). The discriminant Δ = b² - 4ac determines the nature of roots: Δ > 0 two real roots, Δ = 0 one repeated root, Δ < 0 no real roots.
+
+- **Sum and Product of Roots**: for ax² + bx + c = 0, sum of roots = -b/a, product of roots = c/a. These are derived directly from the quadratic formula without solving.
+
+- **Logarithm Laws**: logₐ(xy) = logₐx + logₐy, logₐ(x/y) = logₐx - logₐy, logₐ(xⁿ) = n·logₐx. Change of base: logₐx = logₓx / logₓa.
+
+- **Sine and Cosine Rules**: Sine rule: a/sinA = b/sinB = c/sinC. Cosine rule: a² = b² + c² - 2bc·cosA. Used for non-right-angled triangles.
+
+## Intuition
+
+Mathematics compulsory part is about building a toolkit of techniques. Each formula (quadratic, logarithmic, trigonometric) is a tool for a specific type of problem. The key is recognising which tool fits the problem, not memorising the tool in isolation.
+
+## Common Pitfalls
+
+- **Sign errors in quadratics**: when using the quadratic formula, the minus sign before b applies to the entire -b term, not just b.
+- **Logarithm domain errors**: logₐx is only defined for x > 0. Students often forget to check the domain before simplifying.
+- **Confusing sin⁻¹ with 1/sin**: sin⁻¹x is the inverse function (angle), not the reciprocal (cosecant).
 
 <FlashcardDeck client:only="solid-js" deckId="dse-maths-compulsory" title="DSE Mathematics: Compulsory Part" description="Master indices, surds, quadratics, functions, coordinate geometry, trigonometry, and sequences for the HKDSE Mathematics exam." cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />

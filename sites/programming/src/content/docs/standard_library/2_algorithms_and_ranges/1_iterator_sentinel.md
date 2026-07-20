@@ -547,6 +547,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**Iterator-sentinel pairs are like reading a book:** The iterator is your finger pointing at the current page, and the sentinel is the condition that tells you to stop (like "end of chapter" or "when you find the word 'finish'"). Unlike iterator pairs (which require two iterators), iterator-sentinel pairs let you use different types for the start and end — like starting to read at page 1 but stopping when you find a specific word, not at a fixed page number. This is more flexible and enables algorithms that work with C-style arrays and ranges.
+
+**Why it matters:** Iterator-sentinel pairs are the foundation of C++20 ranges. They decouple the "where to start" from "when to stop," enabling more expressive algorithms. The sentinel doesn't need to be an iterator — it can be any type that can be compared with the iterator. This enables algorithms like `std::find` to work with `nullptr` as a sentinel for null-terminated strings.
+
+**The key insight:** Iterators and sentinels are decoupled — the sentinel just needs to be comparable with the iterator, enabling algorithms that work with different end conditions.
+
 ## Common Pitfalls
 
 ### 1. Sentinel Comparison Must Be Heterogeneous

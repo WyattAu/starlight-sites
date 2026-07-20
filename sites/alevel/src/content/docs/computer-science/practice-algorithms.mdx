@@ -1,6 +1,6 @@
 ---
 title: "A-Level Computer Science Practice: Algorithms"
-description: "18 MCQ practice problems on algorithms. Select an answer, submit, and review the explanation. Questions follow A-Level examination style and cover"
+description: "18 MCQ practice problems on searching, sorting, graph algorithms, and complexity analysis. Detailed explanations and common error analysis."
 tags:
   - Computer Science
   - A-Level
@@ -16,9 +16,45 @@ import { practiceQuestions } from '@/data/flashcards/computer-science/practice-a
 Questions follow A-Level examination style and cover searching, sorting, graph algorithms,
 complexity analysis, algorithm design paradigms, and recursion.
 
+### What These Questions Test
+
+These problems test your ability to trace algorithms, determine time complexity, compare algorithm efficiency, and apply graph algorithms to practical scenarios.
+
+**Typical question types:**
+
+- **Searching:** Trace binary search through a sorted array. Determine how many comparisons are needed. Identify the conditions under which linear search is preferred over binary search.
+- **Sorting:** Trace bubble sort, quick sort, or merge sort through a small array. Count the number of swaps or comparisons. Determine the time complexity in different cases.
+- **Graph algorithms:** Apply Dijkstra's or Prim's algorithm to a weighted graph. Find shortest paths or minimum spanning trees. Represent graphs using adjacency matrices or lists.
+- **Complexity analysis:** Determine the Big-O of a given code snippet. Identify the dominant term. Compare two algorithms and explain which is more efficient and why.
+- **Recursion:** Trace a recursive function. Identify the base case and recursive case. Determine the stack depth. Convert between recursive and iterative implementations.
+
 ---
 
-### Practice Questions
+### Approach Strategy
+
+1. **Trace with a table.** For sorting and searching algorithms, create a table tracking the state of the data after each step. This prevents errors and makes your working clear.
+2. **Count operations.** For complexity analysis, count the number of times the innermost operation executes. This gives you the growth rate.
+3. **Identify the base case.** For recursive algorithms, always find the base case first. If there is no base case (or it is never reached), the function will cause a stack overflow.
+4. **Draw the graph.** For graph algorithms, sketch the graph and mark visited vertices and current distances. This prevents you from revisiting vertices.
+
+---
+
+### Intuition
+
+When comparing algorithms, think about how the work grows as the input size doubles. If doubling $n$ doubles the work, it is $O(n)$. If doubling $n$ adds one more step, it is $O(\log n)$. If doubling $n$ quadruples the work, it is $O(n^{2})$.
+
+For graph algorithms, Dijkstra's is like exploring a city: you always visit the nearest unvisited intersection first. Prim's is like laying cables: you always extend the network to the nearest unconnected point.
+
+---
+
+### Common Mistakes
+
+1. **Confusing time and space complexity.** $O(n)$ time means the time grows linearly. $O(n)$ space means the memory grows linearly. An algorithm can be $O(n)$ time and $O(n^{2})$ space, or any other combination.
+2. **Counting the wrong operation.** For binary search, the key operation is the comparison in the middle of the range. Counting every assignment or every line executed gives misleading results.
+3. **Misapplying Big-O.** Big-O is an upper bound on growth rate, not an exact count. $3n^{2} + 5n + 100$ is $O(n^{2})$ because the $n^{2}$ term dominates for large $n$.
+4. **Forgetting that quick sort's worst case is $O(n^{2})$.** This happens when the pivot is always the smallest or largest element (e.g. already sorted data with a poor pivot strategy). In practice, randomised pivot selection makes this unlikely.
+
+---
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />

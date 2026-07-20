@@ -445,6 +445,15 @@ Is still needed when the constraint depends on the **function's return type** in
 Be expressed as a simple boolean predicate, or when working with C++17 or earlier codebases.
 However, for new C++20 code, concepts should be the default choice for template constraints.
 </aside>
+
+## Intuition
+
+**SFINAE vs concepts is like old maps vs GPS:** SFINAE (Substitution Failure Is Not An Error) is the old way — you write complex template metaprogramming tricks to constrain templates, and if substitution fails, the overload is silently removed. It works, but it's like navigating with an old paper map — you can get lost easily. Concepts are the GPS — you specify the destination (constraint) clearly, and the compiler tells you exactly where you went wrong. The error messages are better, the code is readable, and the constraints are composable.
+
+**Why it matters:** SFINAE is the pre-C++20 way to constrain templates. It works, but the error messages are cryptic, the code is hard to read, and the constraints are fragile. Concepts replace SFINAE with readable, composable constraints that give clear error messages. For new C++20 code, concepts should be the default choice — SFINAE is only needed for backward compatibility or complex constraints that concepts can't express.
+
+**The key insight:** Concepts are the modern replacement for SFINAE — they're readable, composable, and give clear error messages. Use concepts for new code; SFINAE for backward compatibility.
+
 ## Common Pitfalls
 
 ### 1. SFINAE on Dependent Names Requires `typename`

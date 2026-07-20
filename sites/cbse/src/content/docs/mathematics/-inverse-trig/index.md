@@ -77,6 +77,14 @@ This is a contradiction! The equation has no solution.
 
 Inverse trigonometric functions are essential for integration (they appear as antiderivatives), solving equations in physics and engineering, and in any context where angles need to be computed from ratios.
 
+## Intuition
+
+**Asking "which angle gives this ratio?":** Inverse trigonometric functions reverse the usual trig functions — instead of asking "what's the sine of 30°?", you ask "what angle has a sine of 0.5?" Think of it as a lookup table: you give the function a ratio (like 0.5), and it tells you the angle. But there's a catch — trig functions repeat (sine of 30° = sine of 150°), so we restrict the output to a specific range to make the inverse a proper function. The complementary identities (sin⁻¹x + cos⁻¹x = π/2) are like two sides of the same coin — they always add up to a right angle.
+
+**Why it matters:** Inverse trig functions appear everywhere — in integration (they're antiderivatives), in physics (calculating angles from components), in engineering (signal processing), and in any situation where you need to recover an angle from a ratio. They're essential tools for solving equations that involve angles.
+
+**The key insight:** The range restrictions on inverse trig functions aren't arbitrary — they ensure each input has exactly one output, making the function well-defined. The domain of sin⁻¹ is [-1,1] because sine never exceeds 1, and its range is [-π/2, π/2] because that's where sine is one-to-one.
+
 ## Common Exam Patterns
 
 - Always check the range of the inverse function

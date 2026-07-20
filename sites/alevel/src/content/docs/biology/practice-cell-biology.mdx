@@ -1,6 +1,6 @@
 ---
 title: "A-Level Biology: Cell Biology Practice"
-description: "18 MCQ practice problems. Select answer, submit, review explanation. Comprehensive educational content coverage with definitions and practice problems."
+description: "18 MCQ practice problems covering cell structure, organelles, membrane transport, cell division, and cell signalling. A-Level examination style."
 tags:
   - Biology
   - A-Level
@@ -13,9 +13,44 @@ import { practiceQuestions } from '@/data/flashcards/biology/practice-cell-biolo
 
 18 MCQ practice problems. Select answer, submit, review explanation.
 
+### What These Questions Test
+
+These problems test your understanding of cell structure and function at the microscopic and molecular level. You will interpret electron micrograph images, apply knowledge of organelle function, and explain transport and division processes.
+
+**Typical question types:**
+
+- **Cell structure identification:** Recognise organelles from diagrams or electron micrographs. Mitochondria (double membrane, cristae), chloroplasts (double membrane, thylakoids), rough ER (ribosomes on surface), Golgi apparatus (stack of flattened cisternae), ribosomes (small, no membrane).
+- **Membrane transport:** Explain how diffusion, osmosis, and active transport differ. Predict the direction of water movement in osmosis problems. Describe how the structure of the cell membrane relates to its function.
+- **Cell division:** Identify the phase of mitosis or meiosis from a diagram. Explain the significance of crossing over and independent assortment. Distinguish between the products of mitosis and meiosis.
+- **Microscopy:** Know the differences between light and electron microscopes. Calculate magnification and resolution. Understand that resolution is the minimum distance between two points that can be distinguished.
+
 ---
 
-### Practice Questions
+### Approach Strategy
+
+1. **Know your organelles cold.** The exam often asks you to identify an organelle from a description or image. Learn the key features of each: number of membranes, presence of DNA, associated functions.
+2. **Use the "structure-function" link.** Every structural feature exists for a reason. The cristae of mitochondria increase surface area for ATP synthesis. The thylakoid membranes of chloroplasts contain chlorophyll for photosynthesis.
+3. **Practice osmosis calculations.** Water potential $\Psi = \Psi_{s} + \Psi_{p}$. In plant cells, $\Psi_{p}$ can be positive (turgid) or zero (plasmolysed). In animal cells, $\Psi_{p}$ is always zero.
+4. **Understand the resolution limit.** Light microscopes can resolve down to ~200 nm. Electron microscopes can resolve down to ~0.2 nm. This is why organelles like ribosomes are only visible with electron microscopes.
+
+---
+
+### Intuition
+
+Cells are the basic unit of life, and their organelles are specialised compartments. Think of a eukaryotic cell as a city: the nucleus is city hall (holds the master plan/DNA), mitochondria are power stations (generate ATP), the ER is the industrial district, the Golgi is the postal sorting office, and lysosomes are the waste processing plants.
+
+Osmosis is simply diffusion of water across a partially permeable membrane. Water moves from a region of high water potential (dilute solution) to low water potential (concentrated solution). Plants exploit this to maintain turgor pressure.
+
+---
+
+### Common Mistakes
+
+1. **Confusing magnification and resolution.** Magnification is how much bigger the image is compared to the object. Resolution is the ability to distinguish two close points. A high magnification with low resolution gives a large but blurry image.
+2. **Misidentifying phases of mitosis.** Prophase: chromosomes condense, nuclear envelope breaks down. Metaphase: chromosomes line up at the equator. Anaphase: sister chromatids separate. Telophase: nuclear envelopes reform, chromosomes decondense. Getting the order wrong loses marks.
+3. **Forgetting that plant cells have a cell wall.** The cell wall is fully permeable and provides structural support. In osmosis, the cell wall prevents the cell from bursting (lysis), unlike animal cells.
+4. **Confusing semiconservative replication with conservative replication.** DNA replication is semiconservative: each new molecule has one old strand and one new strand. Conservative replication (which does NOT occur) would produce one entirely old molecule and one entirely new molecule.
+
+---
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />

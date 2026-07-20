@@ -974,6 +974,14 @@ for (final {"name': String name, 'role': String role} in users) {
 }
 ```
 
+## Intuition
+
+**Pattern matching is a mail sorter for data:** Imagine a postal sorting office where each letter (value) is matched against a set of address templates (patterns). The first template that fits determines where the letter goes. Destructuring is like opening the envelope and routing each part to a different department. `if-case` is a single mailbox slot — either the letter fits or it doesn't. Exhaustive matching on sealed types is a checklist that says "every possible letter type must have a slot."
+
+**Why it matters:** Pattern matching replaces chains of `if/else` type checks with declarative, compiler-verified branches. The compiler guarantees you haven't missed a case, catching bugs at compile time instead of runtime.
+
+**The key insight:** Patterns are composable — you can nest list patterns inside map patterns inside object patterns, and the compiler tracks which variables are bound at each level.
+
 ## Common Pitfalls
 
 ### 1. Refutable Patterns in Irrefutable Contexts

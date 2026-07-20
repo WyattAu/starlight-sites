@@ -10,12 +10,34 @@ tags:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/computer-science/flashcards-programming-oop-data.js';
 
-
 ## Computer Science -- Programming and OOP Flashcards
 
 20 interactive flashcards for IB Computer Science. Press Space to flip, rate 1-4.
 
 ---
 
+### Key Concepts
+
+**Object-Oriented Programming**: OOP organises code into objects that combine data (attributes) and behaviour (methods). Four pillars: encapsulation (bundling data with methods, hiding internal details), inheritance (new classes inherit from existing ones), polymorphism (same method name, different behaviour), and abstraction (hiding complexity).
+
+**Inheritance**: A child class inherits attributes and methods from a parent class. This promotes code reuse and establishes "is-a" relationships. For example, a Dog class inherits from Animal. Method overriding allows child classes to provide specific implementations of parent methods.
+
+**Encapsulation**: Data and methods that operate on that data are bundled together in a class. Access modifiers (public, private, protected) control what can be accessed from outside. This protects data integrity and reduces complexity for users of the class.
+
+**Programming Paradigms**: Imperative/procedural programming specifies step-by-step instructions. Object-oriented programming organises code around objects. Functional programming treats computation as evaluation of mathematical functions, avoiding mutable state. Most modern languages support multiple paradigms.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ib-cs-programming-oop" title="IB CS -- Programming and OOP" description="Programming constructs, OOP principles, abstraction, and paradigms" cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+
+---
+
+## Intuition
+
+Think of OOP as modelling the real world in code. A class is a blueprint (like an architectural plan), and an object is a building made from that blueprint. Encapsulation is like putting the building's electrical wiring inside the walls -- it works but you can't see or touch it directly. Inheritance is like having a general "Building" blueprint and creating specific versions (House, Office, Factory) that share common features but have their own unique elements.
+
+## Common Pitfalls
+
+- Confusing encapsulation with abstraction. Encapsulation hides data and provides controlled access through methods. Abstraction hides complexity by showing only essential features. They're related but distinct concepts.
+- Overusing inheritance. Not every relationship is "is-a." If a class doesn't truly belong in the parent's category, composition (having objects of other classes as attributes) is often better than inheritance.
+- Forgetting that polymorphism means the same method name behaves differently depending on the object type. This is powerful but can make code harder to follow if overused.

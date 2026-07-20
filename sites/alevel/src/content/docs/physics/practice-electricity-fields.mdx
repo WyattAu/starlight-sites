@@ -1,6 +1,6 @@
 ---
 title: "A-Level Physics: Electricity and Fields Practice"
-description: "18 MCQ practice problems covering core A-Level Electricity and Fields content. Comprehensive educational content coverage with definitions and practice problems"
+description: "18 MCQ practice problems covering current, resistance, circuits, electric fields, capacitors, magnetic fields, and EM induction. Comprehensive worked examples and explanations."
 tags:
   - Physics
   - A-Level
@@ -13,9 +13,51 @@ import { practiceQuestions } from '@/data/flashcards/physics/practice-electricit
 
 18 MCQ practice problems covering core A-Level Electricity and Fields content.
 
+### What These Questions Test
+
+These problems span the full range of electricity and fields topics. You will need to apply Ohm's law, analyse series and parallel circuits, calculate field strengths and forces, work with capacitors, and apply Faraday's law to electromagnetic induction scenarios.
+
+**Typical question types:**
+
+- **Circuit analysis:** Calculate current, PD, or resistance in series/parallel combinations. Use Kirchhoff's laws to find unknown values. Interpret I-V characteristics of different components.
+- **Electric fields:** Compute the force on a charge in a uniform field ($F = QE$) or the field due to a point charge ($E = \frac{kQ}{r^{2}}$). Sketch field patterns between charged plates.
+- **Capacitor circuits:** Find the charge, energy, or time constant in RC circuits. Understand how charge and voltage change during charging and discharging.
+- **Magnetic fields and induction:** Calculate the force on a current-carrying conductor ($F = BIL\sin\theta$) or a moving charge ($F = Bqv\sin\theta$). Apply Faraday's law to find induced EMF in coils or falling magnets.
+
 ---
 
-### Practice Questions
+### Approach Strategy
+
+1. **Read carefully.** Many mistakes come from misidentifying what the question asks -- PD vs EMF, charge vs current, field strength vs force.
+2. **Draw a diagram.** For circuits, redraw with labels. For fields, sketch the field lines and mark the charge or conductor.
+3. **Check units.** Work in SI base units (amps, volts, ohms, tesla, metres). A common trap is giving capacitance in microfarads or resistance in kilohohms.
+4. **Verify with limiting cases.** If your answer says the current increases when resistance increases, something is wrong.
+
+---
+
+### Intuition
+
+When approaching electricity problems, always ask: "Where is the energy going?" In a resistor, electrical energy becomes thermal. In a capacitor, it is stored in the electric field between the plates. In a motor or generator, it converts to/from mechanical energy. This energy perspective often helps you choose the right formula.
+
+For field problems, think of the field as the "influence" that a source (charge or magnet) exerts on its surroundings. The force is the field's effect on a test object placed in it.
+
+---
+
+### Common Mistakes
+
+1. **Forgetting internal resistance.** When a question mentions a cell with internal resistance $r$, the terminal PD is $V = \mathcal{E} - Ir$, not simply $\mathcal{E}$. This is the single most common source of errors.
+2. **Using the wrong capacitor formula.** $Q = CV$ is for steady state. For transient behaviour (charging/discharging), you need $Q = Q_0(1 - e^{-t/RC})$ or $V = V_0 e^{-t/RC}$. Mixing these up gives incorrect answers.
+3. **Neglecting Lenz's law direction.** When calculating the direction of induced current, always apply Lenz's law first to determine the direction, then use the right-hand rule to confirm. Skipping this leads to sign errors.
+
+---
+
+### Practice Tips
+
+- Work through each question without a calculator first to build intuition for the magnitudes involved.
+- After completing all 18 questions, review any you found difficult and re-derive the relevant formulas from first principles.
+- Time yourself: A-Level exam questions on this topic typically allow 1-2 minutes per MCQ.
+
+---
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />

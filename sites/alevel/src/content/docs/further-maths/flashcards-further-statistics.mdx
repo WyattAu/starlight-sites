@@ -1,6 +1,6 @@
 ---
 title: "A-Level Further Maths Flashcards: Further Statistics"
-description: "ALEVEL Further Maths flashcards: A-Level Further Maths Flashcards: Further Statistics. Comprehensive study material with definitions, examples, and assessmen"
+description: "A-Level Further Maths flashcards covering PMF, PDF, expectation, variance, continuous distributions, t-distribution, chi-squared tests, and hypothesis testing with spaced repetition."
 tags:
   - Further Maths
   - A-Level
@@ -14,6 +14,36 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## A-Level Further Maths -- Further Statistics Flashcards
 
 20 flashcards with spaced repetition. Press Space to flip, then rate your recall (1--4).
+
+### What These Flashcards Cover
+
+These flashcards extend A-Level statistics into more formal and advanced territory. You will work with probability distributions more rigorously, learn about continuous random variables, and apply hypothesis testing with the $t$-distribution and $\chi^{2}$ tests.
+
+**Key areas:**
+
+- **Probability Mass Functions (PMF):** For a discrete random variable $X$, the PMF gives $P(X = x)$. Properties: $\sum P(X = x) = 1$ and all probabilities are non-negative. Expected value $E(X) = \sum x \cdot P(X = x)$. Variance $\text{Var}(X) = E(X^{2}) - [E(X)]^{2}$.
+- **Probability Density Functions (PDF):** For a continuous random variable, $f(x)$ is the density, not a probability. $P(a \leq X \leq b) = \int_{a}^{b} f(x)\,dx$. Properties: $f(x) \geq 0$ and $\int_{-\infty}^{\infty} f(x)\,dx = 1$. $E(X) = \int x f(x)\,dx$.
+- **Coding and Linear Transformations:** If $Y = aX + b$, then $E(Y) = aE(X) + b$ and $\text{Var}(Y) = a^{2}\text{Var}(X)$. Standardising: $Z = \frac{X - \mu}{\sigma}$ gives $Z \sim N(0,1)$.
+- **Continuous Distributions:** The uniform distribution $U(a,b)$: $f(x) = \frac{1}{b-a}$ for $a \leq x \leq b$. The exponential distribution: $f(x) = \lambda e^{-\lambda x}$ for $x \geq 0$, with mean $\frac{1}{\lambda}$.
+- **Student's $t$-distribution:** Used when the population standard deviation is unknown and the sample size is small. $t = \frac{\bar{x} - \mu}{s / \sqrt{n}}$. As $n \to \infty$, the $t$-distribution approaches the normal distribution. Depends on degrees of freedom $\nu = n - 1$.
+- **Chi-squared ($\chi^{2}$) tests:** Goodness of fit: tests whether observed frequencies match an expected distribution. $\chi^{2} = \sum \frac{(O - E)^{2}}{E}$. Contingency tables: tests for independence between two categorical variables. Degrees of freedom: $(\text{rows} - 1)(\text{columns} - 1)$.
+
+---
+
+### Intuition
+
+The PMF is like a bar chart of probabilities -- each bar shows how likely a particular outcome is. The PDF is the continuous version: a curve where the area under the curve between two points gives the probability of falling in that range.
+
+The $t$-distribution is like the normal distribution but with heavier tails. This reflects the extra uncertainty from estimating $\sigma$ with $s$. With more data (larger $n$), the $t$-distribution converges to the normal because $s$ becomes a better estimate of $\sigma$.
+
+---
+
+### Common Pitfalls
+
+1. **Confusing PMF and PDF.** A PMF gives probabilities directly: $P(X = x)$. A PDF gives density: you must integrate to get probability. $f(x) = 0.3$ does NOT mean $P(X = x) = 0.3$ for a continuous variable.
+2. **Forgetting that $\text{Var}(aX + b) = a^{2}\text{Var}(X)$.** The constant $b$ (shift) does not affect variance because variance measures spread, not location. A common error is writing $\text{Var}(aX + b) = a\,\text{Var}(X) + b$.
+3. **Using $z$-test instead of $t$-test.** When $\sigma$ is unknown and $n$ is small, use the $t$-distribution, not the normal. Using $z$ gives confidence intervals that are too narrow.
+4. **Miscounting degrees of freedom in $\chi^{2}$ tests.** For goodness of fit, $df = (\text{number of categories}) - 1 - (\text{number of estimated parameters})$. For contingency tables, $df = (r-1)(c-1)$.
 
 ---
 

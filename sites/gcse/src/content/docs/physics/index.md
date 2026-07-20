@@ -79,6 +79,16 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+GCSE Physics is about **understanding how the physical world works** — from energy transfers to electric circuits to the behaviour of waves. The key insight is that complex phenomena can be explained by a few fundamental laws and equations.
+
+**Energy intuition:** Energy is never created or destroyed — it only changes form. A falling ball converts gravitational potential energy to kinetic energy. A circuit converts electrical energy to heat and light. The total energy in a closed system is constant.
+
+**Forces intuition:** Forces cause changes in motion. A net force accelerates an object (F = ma). Friction opposes motion. Gravity pulls objects toward each other. Drawing a free-body diagram — identifying every force acting on an object — is the key to solving force problems.
+
+**Waves intuition:** Waves transfer energy without transferring matter. A wave on a rope moves energy along, but each point on the rope only moves up and down. The key properties are wavelength, frequency, and amplitude. Speed = wavelength × frequency.
+
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.

@@ -519,6 +519,14 @@ Run only integration tests:
 go test -tags=integration ./...
 ```
 
+## Intuition
+
+**Project layout is a city plan, not a prison:** Go's project conventions (`cmd/`, `internal/`, `pkg/`) are like zoning laws — they help developers navigate by convention, not enforcement (except `internal/`, which is legally locked). The `internal/` directory is like a private building with keycard access: only code inside your module can use it. `pkg/` is the public park: anyone can visit.
+
+**Why it matters:** A good project layout lets new team members find code by intuition. The `internal/` package boundary enforces encapsulation at the toolchain level — you literally cannot import it from outside your module, preventing accidental coupling.
+
+**The key insight:** Go projects grow from flat to structured — start simple, add directories as the codebase demands, and let `internal/` enforce real boundaries while conventions handle the rest.
+
 ## Common Pitfalls
 
 1. **Over-engineering the directory structure.** A small project does not need `internal/`, `pkg/`,

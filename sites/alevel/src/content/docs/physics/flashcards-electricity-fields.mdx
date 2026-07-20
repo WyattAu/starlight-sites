@@ -1,6 +1,6 @@
 ---
 title: "A-Level Physics Flashcards: Electricity and Fields"
-description: "ALEVEL Physics flashcards: A-Level Physics Flashcards: Electricity and Fields. Comprehensive study material with definitions, examples, and assessment tools."
+description: "A-Level Physics flashcards covering current, resistance, circuits, electric fields, capacitors, magnetic fields, and electromagnetic induction with spaced repetition."
 tags:
   - Physics
   - A-Level
@@ -14,6 +14,36 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## A-Level Physics -- Electricity and Fields Flashcards
 
 20 flashcards with spaced repetition. Press Space to flip, then rate your recall (1--4).
+
+### What These Flashcards Cover
+
+These flashcards test your knowledge of the core electricity and fields topics in A-Level Physics. You should be able to define key quantities, state formulas, explain circuit behaviour, and describe how fields exert forces on charges and currents.
+
+**Key areas:**
+
+- **Current and Resistance:** Define current as the rate of flow of charge ($I = \frac{\Delta Q}{\Delta t}$). Know Ohm's law ($V = IR$) and when it is valid (ohmic conductors at constant temperature). Distinguish between ohmic and non-ohmic components from an I-V characteristic.
+- **CKirchhoff's Laws:** The junction rule ($\sum I_{\text{in}} = \sum I_{\text{out}}$) and the loop rule ($\sum V = 0$ around a closed loop). These are consequences of conservation of charge and energy.
+- **Electric Fields:** The field strength $E = \frac{F}{Q}$ for a uniform field, or $E = \frac{kQ}{r^{2}}$ for a point charge. Field lines point from positive to negative. The force on a charge in a field is $F = QE$.
+- **Capacitance:** $Q = CV$. Energy stored: $E = \frac{1}{2}CV^{2} = \frac{1}{2}QV = \frac{Q^{2}}{2C}$. In a charging RC circuit, charge builds as $Q = Q_{0}(1 - e^{-t/RC})$.
+- **Magnetic Fields and Force on a Current:** $F = BIL\sin\theta$ for a straight conductor. $F = Bqv\sin\theta$ for a moving charge. Fleming's left-hand rule gives the direction of the force.
+- **Electromagnetic Induction:** Faraday's law: $\mathcal{E} = -N\frac{\Delta\Phi}{\Delta t}$. Lenz's law: the induced EMF opposes the change in flux that caused it. The flux linkage is $\Phi = BA\cos\theta$.
+
+---
+
+### Intuition
+
+Think of electric field lines like the contour lines on a map of terrain. Where lines are close together the "slope" (field strength) is steep, and a charge placed there feels a strong push. Voltage is like height on the terrain: current flows "downhill" from high to low potential, just as water flows downhill under gravity.
+
+For capacitors, imagine filling a water tank: the more water (charge) you put in, the higher the water level (voltage). The size of the tank is the capacitance -- a bigger tank needs more water to reach the same level.
+
+---
+
+### Common Pitfalls
+
+1. **Confusing EMF and PD.** EMF is the energy per unit charge supplied by a source; PD is the energy per unit charge dropped across a component. They have the same units (volts) but opposite roles.
+2. **Forgetting the negative sign in Faraday's law.** The minus sign encodes Lenz's law. If you omit it you lose the direction information and may get the induced current wrong.
+3. **Assuming Ohm's law applies to everything.** Ohm's law ($V = IR$ with constant $R$) only holds for ohmic conductors at constant temperature. A filament lamp, diode, or thermistor does not obey it.
+4. **Mixing up series and parallel capacitor rules.** Capacitors in series add as $\frac{1}{C} = \frac{1}{C_1} + \frac{1}{C_2}$ (opposite to resistors), while capacitors in parallel add directly: $C = C_1 + C_2$.
 
 ---
 

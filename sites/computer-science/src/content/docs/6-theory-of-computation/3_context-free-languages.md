@@ -6,6 +6,14 @@ tags:
 description: "Context-Free Languages: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
+## Intuition
+
+Context-free languages extend regular languages by adding **memory through a stack**. This enables matching nested structures: balanced parentheses, matching begin/end blocks in programming languages, and arithmetic expressions. A pushdown automaton is essentially a finite automaton with a stack — it can count, but only one thing at a time.
+
+**CFG intuition:** A context-free grammar describes a language through recursive rules. The rule `S → aSb | ε` says "an S is an 'a', then another S, then a 'b', or nothing." This generates the language `{aⁿbⁿ : n ≥ 0}` — equal numbers of a's and b's. The key property is that each rule has a single non-terminal on the left side, making the language "context-free" — the rule applies regardless of surrounding symbols.
+
+**CFL vs regular intuition:** Regular languages can't count or match (e.g., can't recognise `{aⁿbⁿ}`). CFLs can count to arbitrary depth using the stack. But CFLs can't count in two directions simultaneously (e.g., can't recognise `{aⁿbⁿcⁿ}`). Each level of the Chomsky hierarchy adds a specific kind of memory.
+
 ### 3.1 Context-Free Grammars
 
 A **context-free grammar (CFG)** is a 4-tuple $G = (V, \Sigma, R, S)$ where:

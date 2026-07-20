@@ -11,7 +11,7 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## C++ -- Type System Flashcards
 
-20 interactive flashcards. Press Space to flip, rate 1-4 to schedule next review.
+20 interactive flashcards covering fundamental types, value categories, references, const correctness, type casting, type traits, and the strict aliasing rule. Press Space to flip, rate 1-4 to schedule next review.
 
 ---
 
@@ -20,3 +20,21 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
   description="Interactive flashcards on C++ types, casts, value categories, references, const, constexpr, enum class, type traits, and strict aliasing rules."
   cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}
  />
+
+## Intuition
+
+**The C++ type system is like a toolbox with specialized tools:** Each type is a specific tool designed for a specific job. An `int` is a hammer — good for general purpose, but not great for precision work. A `float` is a screwdriver — works well for some tasks, but has limitations. `std::string` is a power tool — more complex but handles more cases. The type system ensures you use the right tool for the job, and the compiler catches mismatches at compile time. Value categories (lvalue, prvalue, xvalue) are like different ways you can use a tool: you can borrow it (lvalue reference), copy it (copy construction), or steal it (move construction).
+
+**Why it matters:** Understanding the C++ type system is fundamental to writing correct and efficient code. Types determine memory layout, performance characteristics, and what operations are valid. Misunderstanding types leads to subtle bugs: dangling references from incorrect lifetime management, performance issues from unnecessary copies, and undefined behavior from type punning.
+
+**The key insight:** Types are not just labels — they determine memory layout, performance, and what operations are valid. The compiler enforces these constraints at compile time, catching errors before they become runtime bugs.
+
+## Common Pitfalls
+
+1. **Confusing `const T&` with `T&`:** A `const T&` can bind to an rvalue (temporary), but a `T&` cannot. This is why `void f(int& x)` can't be called with `f(5)`, but `void f(const int& x)` can. The `const` reference extends the temporary's lifetime.
+
+2. **Using `reinterpret_cast` to bypass type safety:** `reinterpret_cast` reinterprets the bit pattern of one type as another type. This is almost always wrong and often undefined behavior. Use `static_cast` for related types, `dynamic_cast` for polymorphic downcasting, and `const_cast` to add/remove const (also usually wrong).
+
+3. **Assuming `sizeof(int) == 4` everywhere:** The size of `int` is platform-dependent. On most modern platforms it's 4 bytes, but on some embedded systems it can be 2 bytes. Use `<cstdint>` types (`int32_t`, `uint64_t`) when you need specific sizes.
+
+4. **Ignoring strict aliasing:** The strict aliasing rule says you cannot access an object through a pointer of an incompatible type. Violating this is undefined behavior and can cause subtle bugs that only appear with optimization enabled. Use `std::memcpy` for type punning, or `std::bit_cast` (C++20) for value conversions.

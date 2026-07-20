@@ -167,6 +167,16 @@ An observed effect is **statistically significant** if it is unlikely to have oc
 alone. On the AP exam, "statistically significant" means that the observed difference
 between groups is larger than what would be expected from random variation.
 
+## Intuition
+
+Sampling and experimentation are about **collecting data that leads to valid conclusions**. The quality of your inference depends entirely on the quality of your data — garbage in, garbage out.
+
+**Why randomisation matters:** Random sampling reduces bias by giving every member of the population an equal chance of selection. Random assignment in experiments ensures that treatment groups are comparable at the start, so any difference at the end can be attributed to the treatment.
+
+**Observational study vs experiment — the critical distinction:** You can only establish *causation* from a well-designed experiment with random assignment. Observational studies can show *association* but not causation, because confounding variables may be present.
+
+**Bias comes in many forms:** Undercoverage (some groups are left out), nonresponse (people who don't respond differ from those who do), and voluntary response bias (people with strong opinions are more likely to participate) all distort results. Recognising these patterns is more important than memorising definitions.
+
 ## Common Pitfalls
 
 - Confusing random **sampling** (generalising to the population) with random **assignment**
@@ -176,3 +186,9 @@ between groups is larger than what would be expected from random variation.
 - Confounding the placebo effect with the actual treatment effect
 - Undercoverage and voluntary response bias are not fixed by large sample sizes
 - Failing to identify and control for confounding variables
+
+## Cross-References
+
+- **[Exploring Data](../1-exploring-data/1_exploring_data):** Understanding data types and distributions is essential before designing studies.
+- **[Probability](../3-probability/3_probability):** Random sampling and experimental design rely on probability concepts.
+- **[Statistical Inference](../4-statistical-inference/4_statistical_inference):** The quality of inference depends entirely on how well the study was designed.

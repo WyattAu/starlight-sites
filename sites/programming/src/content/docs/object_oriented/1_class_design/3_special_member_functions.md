@@ -530,6 +530,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**Special member functions are like a class's default behaviors:** The destructor is what happens when the object goes out of scope (like cleaning up a room when you leave). The copy constructor is what happens when you clone the object (like making a photocopy). The move constructor is what happens when you steal the object (like taking someone's lunch — you get the food, they get an empty wrapper). The Rule of Five says: if you define any one of these, you probably need to define all five, because the defaults might do the wrong thing.
+
+**Why it matters:** The compiler generates special member functions automatically, but the defaults are often wrong for classes that manage resources. A class with a raw pointer needs a custom destructor (to free memory), a custom copy constructor (to deep copy), and a custom move constructor (to transfer ownership). Forgetting any of these causes memory leaks, double-frees, or dangling pointers.
+
+**The key insight:** The Rule of Five: if you define a destructor, copy constructor, copy assignment, move constructor, or move assignment, you probably need all five.
+
 ## Common Pitfalls
 
 ### 1. Copy Assignment Without Self-Assignment Check

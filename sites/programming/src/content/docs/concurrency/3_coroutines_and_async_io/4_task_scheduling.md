@@ -792,6 +792,14 @@ Scheduler decides, at which point the loop checks the stop token again. This pat
 The coroutine must reach a cancellation point to observe the request. Long-running non-suspending
 Computation cannot be cancelled until it reaches the next `co_await`.
 
+## Intuition
+
+**A task is like a promise to do work later:** When you create a task, you're not starting it immediately — you're creating a description of work that can be scheduled on a thread pool. It's like ordering food at a restaurant: you place the order (create the task), the kitchen schedules it (thread pool), and you get a number (the task object) to track when it's ready. The executor is the restaurant manager who decides which cook handles which order.
+
+**Why it matters:** Task scheduling is how you bridge coroutines with real concurrency. Without an executor, coroutines run on whatever thread resumes them — which might not be the thread you want. Executors let you control which thread pool handles which tasks, enabling work-stealing, priority scheduling, and thread affinity.
+
+**The key insight:** A coroutine without an executor runs on the thread that resumes it — with an executor, you control which thread pool handles the work.
+
 ## Common Pitfalls
 
 - **Forgetting to `resume()` after `suspend_always`.** If a coroutine suspends with `suspend_always`

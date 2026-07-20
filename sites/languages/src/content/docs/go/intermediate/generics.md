@@ -288,6 +288,14 @@ Specialization of the generic function or type. There is no boxing or type erasu
 5. **Methods cannot add type parameters.** Only the type's own type parameters are available in
    methods.
 
+## Intuition
+
+**Generics are molds, not copies:** Before generics, writing a `Max` function for `int` and another for `float64` meant maintaining two near-identical copies. Generics let you write one mold — the compiler stamps out type-specific versions at compile time, like a factory using the same blueprint to produce widgets in steel or plastic. No runtime cost, no boxing, just a single source of truth.
+
+**Why it matters:** Generics eliminate the tension between code reuse and type safety. You no longer need to choose between `any` (unsafe) or copy-pasting (fragile) when writing collection utilities, algorithms, or data structures.
+
+**The key insight:** Constraints are the "material specification" for your mold — they tell the compiler which operations are safe to perform on the generic type.
+
 ## Common Pitfalls
 
 1. **Using `any` as a constraint when a narrower constraint exists.** `any` allows any type,

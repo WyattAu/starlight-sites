@@ -78,6 +78,16 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+AP Physics C is fundamentally about one question: **what happens when you push, pull, spin, or electrify something, and why?** The entire course splits into two halves — Mechanics (how objects move) and Electricity & Magnetism (how charges and fields interact) — connected by the same mathematical language: calculus.
+
+**The mechanics chain:** Forces cause acceleration (Newton's 2nd law). Work done by forces changes energy (work-energy theorem). The same ideas extend to rotation: torque causes angular acceleration, and rotational energy complements translational energy. Momentum conservation gives you a shortcut when forces are internal or unknown.
+
+**The E&M chain:** Charges create electric fields. Fields exert forces on other charges. Changing magnetic fields create electric fields (Faraday's law), and moving charges create magnetic fields (Biot-Savart). Maxwell's equations unify everything into four statements.
+
+**The unifying thread:** Every topic in AP Physics C is an application of $\vec{F} = m\vec{a}$ (or its rotational and electromagnetic analogues). If you can draw a free-body diagram and set up the differential equation, you can solve any mechanics problem. If you can exploit symmetry and apply Gauss's or Ampere's law, you can solve any E&M problem.
+
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
@@ -122,3 +132,9 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+
+## Cross-References
+
+- **[AP Calculus](/ap/calculus):** Physics C requires calculus — derivatives for instantaneous rates, integrals for work and accumulation.
+- **[AP Chemistry](/ap/chemistry):** Thermodynamics and atomic structure appear in both physics and chemistry.
+- **[AP Biology](/ap/biology):** Biophysics applications include fluid dynamics, optics, and biomechanics.

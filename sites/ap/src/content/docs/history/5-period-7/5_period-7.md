@@ -246,7 +246,17 @@ Harlem Renaissance, Great Depression, New Deal, Social Security Act, Pearl Harbo
 Project, Truman Doctrine, Marshall Plan, NATO, McCarthyism, Brown v. Board, Civil Rights Act,
 Vietnam War, Watergate, Reagan Revolution, September 11
 
-## Exam Tips
+## Intuition
+
+Period 7 (1890-1945) encompasses **Progressivism, two world wars, the Great Depression, and the New Deal** — a half-century of crisis and reform that transformed the role of the federal government in American life.
+
+**Progressivism as a response to industrialisation:** Progressives sought to address the social problems created by industrialisation and urbanisation — poverty, corruption, unsafe working conditions, and political machines. They believed in using government as an instrument of social reform, a radical departure from the laissez-faire approach of the Gilded Age.
+
+**The New Deal as a turning point:** FDR's New Deal fundamentally expanded the federal government's role in the economy and society. Social Security, banking regulation, labour rights, and public works programmes established the principle that the government has a responsibility for the welfare of its citizens. This was a革命 in American governance.
+
+**America's emergence as a world power:** World War I ended American isolationism (temporarily), and World War II made America the dominant military and economic power in the world. The home front during WWII — including women in the workforce, African American migration, and the Japanese American internment — transformed American society.
+
+## Common Pitfalls
 
 - Analyse the Progressive Era as a response to the problems of the Gilded Age
 - Connect the Great Depression to the expansion of federal power under the New Deal

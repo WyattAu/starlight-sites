@@ -6,6 +6,14 @@ tags:
 description: "Memory divided into fixed-size partitions at boot. Internal fragmentation. Comprehensive educational content coverage with definitions and practice problems."
 ---
 
+## Intuition
+
+Memory management answers: **how do you give every process its own address space while sharing limited physical RAM?** The solution is virtual memory — each process sees a private, contiguous address space that maps to scattered physical pages. This provides isolation (one process can't corrupt another) and enables overcommitment (using more total memory than physically available).
+
+**Paging intuition:** Physical memory is divided into fixed-size frames; virtual memory into pages of the same size. A page table maps each virtual page to a physical frame. When a process accesses a page not currently in RAM, a page fault occurs and the OS loads it from disk. This is slow (milliseconds vs nanoseconds for RAM), so the OS tries to keep frequently-used pages in memory.
+
+**Replacement algorithm intuition:** When physical memory is full, the OS must evict a page. LRU (Least Recently Used) approximates the principle that recently-used pages will be used again. The working set model tracks which pages a process actively uses — if its working set doesn't fit in RAM, the process thrashes (spends more time paging than computing).
+
 ### 5.1 Contiguous Memory Allocation
 
 **Fixed partitioning.** Memory divided into fixed-size partitions at boot. Internal fragmentation.

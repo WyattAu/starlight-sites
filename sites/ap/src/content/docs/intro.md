@@ -155,6 +155,14 @@ This page includes:
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 </aside>
+## Intuition
+
+**The college accelerator:** AP courses are like a fast-forward button for your education. They compress a year of college material into a high school course, letting you earn credit and skip introductory classes.
+
+**Why it matters:** Success on AP exams can save you thousands of dollars in college tuition and give you a head start on your degree.
+
+**The key insight:** AP isn't just about memorizing facts — it's about learning to think like a college student: analysing, synthesising, and applying knowledge in new contexts.
+
 ## Cross-References
 
 - [AP Biology](/ap/biology): Covers the study of living organisms, including细胞结构, genetics, and evolution.

@@ -612,6 +612,14 @@ Would silently discard the existing value.
 Locking. Prefer `std::shared_lock` for read-only access and `std::unique_lock` for write access. On
 POSIX systems, this maps to `pthread_rwlock_t`.
 </aside>
+## Intuition
+
+**A mutex is like a bathroom key:** Only one person can hold the key at a time, and only the person holding the key can use the bathroom. If someone else wants to use it, they must wait until the key is returned. A deadlock is when two people each hold one key and refuse to release it until they get the other — neither can proceed. The `std::scoped_lock` is like a rule that says "always pick up both keys at once, or neither" — it prevents the circular wait that causes deadlocks.
+
+**Why it matters:** Mutexes are the most common synchronization primitive, but they come with real costs — a contended mutex can cost 1000x more than an uncontended one. Understanding when to use a mutex, when to use a reader-writer lock, and how to avoid deadlocks is essential for writing correct and performant concurrent code.
+
+**The key insight:** Deadlock requires four conditions to be true simultaneously — break any one (like always acquiring locks in the same order) and you prevent it.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Locking and Unlocking on Different Threads

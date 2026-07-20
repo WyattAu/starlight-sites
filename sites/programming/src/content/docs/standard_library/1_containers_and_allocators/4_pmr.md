@@ -498,6 +498,14 @@ Allocation attempt. Use it in unit tests to verify stack-only or no-heap-allocat
 - [Iterator Categories, Traversal, Invalidation](./3_iterators.md)
 
 
+## Intuition
+
+**PMR is like renting warehouse space:** Instead of each container owning its own memory (like buying storage units), PMR containers share a memory resource (like renting from a warehouse). The warehouse manager (memory resource) handles allocation and deallocation, and all containers using that resource can share the space. This is efficient for many small allocations — instead of calling `malloc` for each one, you carve them from a large pool.
+
+**Why it matters:** PMR eliminates allocation overhead for containers with many small elements. Instead of each `push_back` triggering a heap allocation, all elements come from a pre-allocated pool. This is critical for performance-critical code like game engines, financial systems, and real-time audio processing where allocation latency is unacceptable.
+
+**The key insight:** PMR containers share a memory resource — this eliminates per-element allocation overhead and enables pool-based allocation strategies.
+
 ## Common Pitfalls
 
 1. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already

@@ -9,5 +9,34 @@ description: "Geometry and Vectors Flashcards: comprehensive educational content
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/maths/flashcards-geometry-vectors-data.js';
 
+## IB Maths -- Geometry and Vectors Flashcard Deck
+
+Flashcards with spaced repetition. Press Space to flip, then rate your recall (1--4).
+
+---
+
+### Key Concepts
+
+**Vector Operations**: Vectors have magnitude and direction. Addition is done tip-to-tail or component-wise. The dot product (a⃗·b⃗ = |a||b|cosθ) gives a scalar and is used to find the angle between vectors or check perpendicularity (dot product = 0). The cross product gives a vector perpendicular to both.
+
+**Equations of Lines and Planes**: A line can be written as r⃗ = a⃗ + tb⃗, where a⃗ is a position vector of a point on the line and b⃗ is the direction vector. A plane is r⃗·n⃗ = d, where n⃗ is the normal vector. The angle between a line and a plane uses sinθ = |b⃗·n⃗|/(|b||n|).
+
+**Trigonometric Identities**: The key identities for IB include sin²θ + cos²θ = 1, tanθ = sinθ/cosθ, and the double angle formulas sin2θ = 2sinθcosθ and cos2θ = cos²θ − sin²θ. These are used to simplify expressions and solve trigonometric equations.
+
+**Transformations in 3D**: Rotations, reflections, and enlargements can be represented by matrices. A 3×3 matrix can describe a transformation in 3D space. The determinant of the matrix gives the scale factor for area/volume changes.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ib-maths-geometry-vectors" title="IB Maths Geometry and Vectors" description="Key geometry and vectors concepts for IB Maths SL and HL, including trigonometric identities, 3D geometry, and transformations." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+
+---
+
+## Intuition
+
+Vectors are like arrows: they have a length (magnitude) and a direction. Adding vectors is like following a path -- walk along one arrow, then along the next, and the resultant is the direct route from start to finish. The dot product measures how much two vectors "point in the same direction" -- if they're perpendicular, there's no overlap and the dot product is zero. Think of the cross product as creating a new vector that is perpendicular to the plane containing the original two.
+
+## Common Pitfalls
+
+- Mixing up the dot product (scalar result) and cross product (vector result). The dot product uses cosθ and gives a number; the cross product uses sinθ and gives a vector.
+- Forgetting that the angle between two vectors is always between 0° and 180°. If you get a negative angle, take the absolute value of the cosine.
+- Confusing the equation of a line (r⃗ = a⃗ + tb⃗) with the equation of a plane (r⃗·n⃗ = d). A line needs a point and a direction; a plane needs a point and a normal.

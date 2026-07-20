@@ -93,11 +93,34 @@ $$V_0 = \frac{K_{\max}}{e} = 1.31 \, \text{V}$$
 
 **Common mistake:** The stopping potential equals $K_{\max}$ in eV, but is measured in volts. Do not confuse the two.
 
+## Common Mistakes
+
+**Confusing photon energy with intensity.** Intensity is the number of photons per second, while energy is the energy per photon (E = hν). Increasing intensity increases the number of photoelectrons, not their maximum kinetic energy. Only increasing frequency (not intensity) increases the kinetic energy of emitted electrons.
+
+**Forgetting to convert between eV and joules.** The photoelectric equation works in either unit system, but you must be consistent. hc = 1240 eV·nm is a useful shortcut, but if your work function is in joules, convert the photon energy to joules too, or vice versa.
+
+**Assuming the de Broglie wavelength applies to macroscopic objects.** While every object has a de Broglie wavelength (λ = h/p), for everyday objects the wavelength is impossibly small (on the order of 10⁻³⁴ m), so wave behavior is undetectable. Only subatomic particles have measurable de Broglie wavelengths.
+
+## Cross-References
+
+- **[Atoms and Nuclei](../atoms-nuclei/index.md):** The Bohr model uses quantized energy levels that connect directly to photon energies — dual nature extends this to matter waves.
+- **[Electrostatics](../electrostatics/index.md):** The photoelectric effect involves electric fields stopping photoelectrons, connecting wave-particle duality to electrostatics.
+- **[Chemical Kinetics (Chemistry)](../../chemistry/chemical-kinetics/index.md):** Photochemical reactions are driven by photon absorption — the same photoelectric principle applied to chemistry.
+- **[Derivatives (Mathematics)](../../mathematics/derivatives/index.md):** The photoelectric equation and de Broglie wavelength involve functions that connect to calculus concepts.
+
 ## Practice Problems
 
 1. Calculate the energy in eV of a photon with wavelength 500 nm.
 2. Find the de Broglie wavelength of a proton moving at $10^6 \, \text{m/s}$.
 3. The work function of a metal is 4.2 eV. What is the maximum wavelength of light that can eject electrons?
+
+## Intuition
+
+**Light and matter are both waves and particles — depending on how you look:** The dual nature of radiation is like a performer who acts differently depending on the audience. In the photoelectric effect, light behaves as particles (photons) — each photon kicks out one electron, like individual bullets hitting a target. But in diffraction experiments, light behaves as a wave, spreading out and creating interference patterns. Matter does the same thing — electrons create diffraction patterns like waves, but hit detectors like particles. The de Broglie wavelength tells you the "wavelength" of any moving object, though for everyday objects it's so tiny you'd never notice.
+
+**Why it matters:** The photoelectric effect is how solar cells generate electricity and how digital cameras capture images. Electron diffraction is how we study crystal structures at the atomic scale. Wave-particle duality is the foundation of quantum mechanics, which powers all modern electronics, from smartphones to quantum computers.
+
+**The key insight:** The photon model explains why there's a threshold frequency — below that, individual photons don't have enough energy to liberate electrons, no matter how intense the light. This is something wave theory completely failed to predict.
 
 ## Common Exam Patterns
 

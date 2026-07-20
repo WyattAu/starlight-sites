@@ -514,6 +514,14 @@ void constructor_variants() {
 }
 ```
 
+## Intuition
+
+**A thread is like a worker in a factory:** Each thread is an independent worker that can execute tasks concurrently. Just as a factory with 4 workers can produce 4 times as many widgets (assuming the work can be divided), a program with 4 threads can potentially do 4 times as much work. But workers need to coordinate — if two workers try to use the same machine at the same time, things break. The `std::jthread` is like a smart worker contract: it automatically cleans up when done (joining) and can be politely asked to stop (via `stop_token`).
+
+**Why it matters:** Modern CPUs have multiple cores, and threads are how we harness them. Without threads, your program sits idle on one core while the others do nothing. Understanding thread lifecycle — creation, joining, and cancellation — is the foundation of writing programs that actually use the hardware you paid for.
+
+**The key insight:** A thread that is not joined or detached before destruction terminates the program — always ensure threads have a clear exit path.
+
 ## Common Pitfalls
 
 1. **Destroying a joinable `std::thread`:** This calls `std::terminate()`. Always join or detach

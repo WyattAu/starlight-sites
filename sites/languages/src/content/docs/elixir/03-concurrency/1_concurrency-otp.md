@@ -825,6 +825,14 @@ defmodule TaskManager.Supervisor do
 end
 ```
 
+## Intuition
+
+**OTP is a city's emergency management system:** GenServer is a government office with a reception desk (call for synchronous requests) and a suggestion box (cast for async messages). Supervisors are the emergency management agency — they watch over offices and rebuild them from scratch if they crash. The restart strategy is the emergency plan: `:one_for_one` fixes only the broken office, `:one_for_all` rebuilds the entire department, `:rest_for_one` rebuilds the broken office and everything that was set up after it.
+
+**Why it matters:** OTP transforms concurrency from "manage shared state carefully" to "let things crash and restart from known-good state." This is why Erlang/Elixir systems can run for years without downtime — failures are expected, isolated, and automatically recovered.
+
+**The key insight:** Supervision trees turn failure from a catastrophe into a routine event — each process is disposable, and the system's reliability comes from the restart strategy, not from preventing crashes.
+
 ## Summary
 
 Elixir's concurrency model is built on lightweight processes, message passing, and the OTP

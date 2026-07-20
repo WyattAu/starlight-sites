@@ -712,6 +712,14 @@ Missing modifiers. The analyzer uses heuristics:
 
 These are suggestions, not mandates. Use your judgment.
 
+## Intuition
+
+**Class modifiers are traffic signs on your API:** Before Dart 3, every class was like a public road — anyone could extend, implement, or mix in from any direction. Modifiers add signs: `base` says "one-way street, must follow the same path" (only `extends`). `interface` says "blueprint only, build your own" (only `implements`). `final` says "dead end, no through traffic" (no subtyping at all). `sealed` says "private road, same neighborhood only" (same library only).
+
+**Why they matter:** Without modifiers, library authors can't prevent users from breaking invariants. A class designed for inheritance can be implemented (losing all behavior), or a leaf class can be subclassed (breaking assumptions). Modifiers let you declare intent at the type level, enforced by the compiler.
+
+**The key insight:** Modifiers are part of your public API contract — they communicate which patterns you support and which you don't, preventing misuse before it happens.
+
 ## Common Pitfalls
 
 ### 1. Mixing Up `base` and `interface`

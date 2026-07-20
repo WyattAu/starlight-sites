@@ -6,6 +6,14 @@ tags:
 description: "The of a deterministic TM on input is the number of steps takes before Halting.  Comprehensive educational content coverage with definitions and practice proble"
 ---
 
+## Intuition
+
+Complexity theory classifies problems by **how much time or space they require** to solve. The key insight is that even among decidable problems, some are tractable (solvable efficiently, class P) and some are intractable (no known efficient solution, class NP). The boundary between these classes is the deepest open question in computer science.
+
+**P vs NP intuition:** P contains problems solvable in polynomial time (e.g., sorting, shortest paths). NP contains problems whose solutions can be *verified* in polynomial time (e.g., SAT, travelling salesman). The question is whether being able to verify quickly implies being able to solve quickly. Almost everyone believes P ≠ NP, but no one has proven it.
+
+**NP-completeness intuition:** NP-complete problems are the hardest problems in NP. If any NP-complete problem has a polynomial-time algorithm, then P = NP (and every problem in NP becomes efficiently solvable). The Cook-Levin theorem proved SAT is NP-complete by directly encoding a TM's computation as a Boolean formula. Other NP-complete problems are proved by reducing from known NP-complete problems.
+
 ### 6.1 Time Complexity
 
 The **running time** of a deterministic TM $M$ on input $w$ is the number of steps $M$ takes before

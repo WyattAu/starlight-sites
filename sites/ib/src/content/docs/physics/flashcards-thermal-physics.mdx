@@ -7,5 +7,34 @@ tags: [Physics, IB Physics, Flashcards]
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/physics/flashcards-thermal-physics-data.js';
 
+## IB Physics -- Thermal Physics Flashcard Deck
+
+Flashcards with spaced repetition. Press Space to flip, then rate your recall (1--4).
+
+---
+
+### Key Concepts
+
+**Ideal Gas Law** combines Boyle's, Charles's, and the pressure law into one equation: pV = nRT or pV = NkT. An ideal gas assumes no intermolecular forces and negligible molecular volume. Real gases deviate at high pressure or low temperature.
+
+**Internal Energy** of a system is the sum of the random kinetic energies of all its molecules. Temperature is a measure of the average translational kinetic energy per molecule: KEavg = (3/2)kT. Heating a substance can increase internal energy (raising temperature) or do work against external pressure (changing phase).
+
+**Latent Heat** is the energy absorbed or released during a phase change at constant temperature. The specific latent heat of fusion (solid to liquid) or vaporisation (liquid to gas) is defined as Q = mL. During a phase change, all added energy goes into breaking intermolecular bonds, not raising temperature.
+
+**Kinetic Theory** derives the gas law from molecular assumptions. For a gas in a cubic container, the pressure is p = (1/3)ρv²rms, where vrms is the root-mean-square speed of molecules. This gives KEavg = (3/2)kT, linking macroscopic temperature to microscopic motion.
+
+---
+
 <FlashcardDeck client:only="solid-js" deckId="ib-phys-thermal" title="IB Physics: Thermal Physics" description="Temperature, internal energy, specific and latent heat, ideal gas laws, kinetic theory, phase changes, and calorimetry." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
-;
+
+---
+
+## Intuition
+
+Imagine a gas as a swarm of tiny billiard balls bouncing around a box. Each collision with the wall creates a tiny push -- pressure is the cumulative effect of billions of these pushes per second. Temperature tells you how fast those balls are moving on average. Phase changes are like unlocking doors between rooms: the balls need a burst of energy (latent heat) to escape the "solid room" and roam freely as a liquid, but once they're through the door, their speed (temperature) doesn't increase until all molecules have transitioned.
+
+## Common Pitfalls
+
+- Forgetting that temperature must be in Kelvin for gas law calculations. Using Celsius gives wrong answers because K = °C + 273.
+- Confusing specific heat capacity (Q = mcΔT) with specific latent heat (Q = mL). The first involves a temperature change; the second does not.
+- Assuming internal energy always increases when you heat a substance. During a phase change, temperature (and thus average KE) stays constant -- the energy goes into breaking bonds instead.

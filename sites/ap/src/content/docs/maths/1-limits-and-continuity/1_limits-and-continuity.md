@@ -963,6 +963,14 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+## Intuition
+
+**The GPS navigator analogy:** Limits describe where a function is heading, not where it actually arrives. Imagine driving toward a destination — limits tell you the direction and destination of your journey, even if there's a pothole (discontinuity) at that exact spot.
+
+**Why it matters:** Limits are the foundation of all calculus. Without understanding limits, derivatives (instantaneous rates of change) and integrals (accumulation of quantities) cannot be properly understood or applied.
+
+**The key insight:** A function can approach a value without ever reaching it, and that approaching behaviour is what matters for calculus.
+
 ## Cross-References
 
 - [Derivatives](../2-derivatives/2_derivatives) -- The derivative is defined as a limit of a difference quotient, making limits the foundation of differential calculus.

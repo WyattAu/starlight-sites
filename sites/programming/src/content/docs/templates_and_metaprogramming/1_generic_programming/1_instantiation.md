@@ -781,6 +781,14 @@ int main() {
 Only when profiling confirms the overhead, for tiny leaf functions in hot loops. Overusing It
 increases code size and can degrade instruction cache performance.
 
+## Intuition
+
+**Template instantiation is like a cookie cutter:** The template is the cookie cutter shape, and the types are the dough. When you write `vector<int>`, you're pressing the "int" dough through the "vector" cookie cutter, and out comes a concrete `vector<int>` class. The compiler generates a new class for each unique combination of template arguments — like making different cookies with the same cutter but different dough. This is why templates are "zero-cost abstractions" — the generated code is exactly what you'd write by hand.
+
+**Why it matters:** Template instantiation is the mechanism that makes generic programming work. Understanding it explains why templates must be in headers (the compiler needs to see the full definition to instantiate), why error messages are cryptic (they reference the template, not the instantiation), and why explicit instantiation can reduce compile times (the compiler only generates code once, not in every translation unit).
+
+**The key insight:** Templates are blueprints, not code — the compiler generates concrete code for each type combination, which is why templates must be visible at the point of use (typically in headers).
+
 ## Common Pitfalls
 
 ### ODR Violations from Implicit Instantiation

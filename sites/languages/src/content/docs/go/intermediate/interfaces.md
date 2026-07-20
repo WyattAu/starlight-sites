@@ -254,6 +254,14 @@ func (ip IPAddr) String() string {
 fmt.Println(IPAddr{127, 0, 0, 1}) // 127.0.0.1
 ```
 
+## Intuition
+
+**Interfaces are job descriptions, not family trees:** In Go, any type that has the right methods automatically qualifies for an interface — no "extends" or "implements" keyword needed. It's like posting a job listing: anyone whose resume matches gets the job, regardless of their background. This is fundamentally different from class-based inheritance where you must explicitly declare your lineage.
+
+**Why it matters:** This structural typing means you can define interfaces after the fact, decoupling consumers from producers. The `io.Reader` interface didn't exist when `os.File` was written, yet files satisfy it effortlessly.
+
+**The key insight:** Go interfaces are implicit and tiny — a one-method interface is often enough to decouple entire subsystems.
+
 ## Common Pitfalls
 
 1. **Nil interface with non-nil concrete type.** An interface holding a `*T` where `T` is nil is not

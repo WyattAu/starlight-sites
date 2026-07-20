@@ -526,6 +526,14 @@ A release fence $F_r$ **synchronizes-with** an acquire fence $F_a$ if [N4950 §3
 This means fences create ordering without modifying the atomic operations themselves — they add
 Ordering constraints to the _surrounding_ code.
 
+## Intuition
+
+**Instruction reordering is like a chef rearranging recipe steps:** The chef knows that if you're making a cake, you can crack eggs while the oven preheats — the order doesn't matter for the final result. But if you frost the cake before it cools, you get a mess. The compiler and CPU do the same thing: they reorder independent operations to work faster, assuming no one is watching from another thread. The problem is, other threads ARE watching, and they might see your operations in a different order than you wrote them.
+
+**Why it matters:** The "as-if rule" means the compiler can reorder any operations that don't affect single-threaded behavior. In a multi-threaded program, this is the root cause of most subtle bugs — your code looks correct on paper, but the compiler and CPU rearrange it behind your back. Understanding happens-before is how you tell the compiler "this ordering matters, don't touch it."
+
+**The key insight:** Within a single thread, operations are ordered (sequenced-before). Between threads, you need explicit synchronization (synchronizes-with) to establish ordering — without it, the compiler and CPU are free to reorder everything.
+
 ## Common Pitfalls
 
 - **Relying on x86 TSO for correctness:** Code that works on x86 due to its strong memory model may

@@ -595,6 +595,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**A lambda is like a portable mini-function with a backpack:** The lambda body is the function itself, and the captured variables are the backpack. When you capture by value (`[x]`), you're copying x into the backpack. When you capture by reference (`[&x]`), you're putting a pointer to x in the backpack. The closure type is the class that defines the backpack — it's unnamed, but it's a real type with `operator()` defined.
+
+**Why it matters:** Lambdas are everywhere in modern C++ — algorithms, callbacks, thread functions, range adaptors. Understanding capture semantics is critical: capturing by reference to a local variable that goes out of scope is a dangling reference. Understanding the closure type helps you store lambdas in containers and pass them to templates.
+
+**The key insight:** A lambda is syntactic sugar for a closure class — the capture list defines the class members, and `operator()` is the function body.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Capturing by Reference in Async Code

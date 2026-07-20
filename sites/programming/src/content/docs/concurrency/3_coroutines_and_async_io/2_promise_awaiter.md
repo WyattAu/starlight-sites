@@ -719,6 +719,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**The promise type is like a contract between the coroutine and its caller:** The promise defines what happens when the coroutine is created (initial_suspend), when it produces a value (yield_value), when it finishes (return_value/return_void), and what happens if it throws (unhandled_exception). The awaiter is like a traffic light — it decides whether the coroutine should stop (suspend) or keep going (resume) when it hits a `co_await`.
+
+**Why it matters:** Understanding the distinction between promise and awaiter is crucial for writing custom coroutine types. The promise controls the coroutine's lifecycle, while the awaiter controls individual suspension points. Mix them up and you get unpredictable behavior — like a traffic light that controls the entire intersection instead of just one direction.
+
+**The key insight:** `await_transform` in the promise type lets you customize what `co_await` does for each expression — this is how you implement `task` types that don't suspend at every `co_await`.
+
 ## Common Pitfalls
 
 **1. Dangling coroutine handles:** The most common bug is forgetting to `destroy()` a coroutine

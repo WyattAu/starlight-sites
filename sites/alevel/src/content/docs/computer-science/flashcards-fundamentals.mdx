@@ -1,6 +1,6 @@
 ---
 title: "A-Level CS Flashcards: Fundamentals"
-description: "ALEVEL Computer Science flashcards: A-Level CS Flashcards: Fundamentals. Comprehensive study material with definitions, examples, and assessment tools."
+description: "A-Level Computer Science flashcards covering number systems, floating point, Boolean algebra, computer architecture, and operating systems with spaced repetition."
 tags:
   - Computer Science
   - ALevel
@@ -14,6 +14,38 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## Computer Science -- Fundamentals Flashcards
 
 20 interactive flashcards for A-Level Computer Science. Press Space to flip, rate 1-4.
+
+### What These Flashcards Cover
+
+These flashcards test the foundational concepts that underpin all of computer science: how numbers are represented, how logic gates work, how processors execute instructions, and how operating systems manage resources.
+
+**Key areas:**
+
+- **Number Systems:** Binary (base 2), denary (base 10), hexadecimal (base 16). Conversion between bases. Binary arithmetic: addition, subtraction (two's complement). Overflow occurs when a result exceeds the representable range.
+- **Binary Representation:** Unsigned binary: magnitude only. Signed binary (two's complement): the MSB indicates sign. To negate: invert all bits and add 1. Range for $n$ bits: $-2^{n-1}$ to $2^{n-1} - 1$.
+- **Floating Point Representation:** Mantissa and exponent. Normalised form: $0.1xxxxx \times 2^{e}$. IEEE 754 single precision: 1 sign bit, 8 exponent bits (biased by 127), 23 mantissa bits. Precision limitations lead to rounding errors.
+- **Boolean Algebra:** AND ($\land$), OR ($\lor$), NOT ($\lnot$), XOR ($\oplus$). Laws: commutative, associative, distributive, De Morgan's ($\lnot(A \land B) = \lnot A \lor \lnot B$). Karnaugh maps for simplification.
+- **Logic Gates:** AND, OR, NOT, NAND, NOR, XOR. NAND and NOR are universal gates (can construct any circuit). Half adder: adds two bits. Full adder: adds two bits plus a carry.
+- **Processor Architecture:** Von Neumann architecture: CPU, memory, I/O connected by a bus. Fetch-decode-execute cycle: fetch instruction from memory, decode it, execute it, store result. Registers: accumulator, program counter, memory address register, memory data register.
+- **Operating Systems:** Manages hardware and software resources. Functions: memory management (paging, virtual memory), process management (scheduling, multitasking), file management, security, and user interface.
+- **Assembly Language:** Low-level language with a 1-to-1 mapping to machine code. Instructions: LOAD, STORE, ADD, SUB, JMP, JZ (jump if zero), JNZ. Assembler translates assembly to machine code.
+
+---
+
+### Intuition
+
+Think of binary as a simpler version of denary -- the same principles apply, just with fewer digits. Denary has digits 0-9 and each position is a power of 10. Binary has digits 0-1 and each position is a power of 2. Converting between them is like translating between languages.
+
+The CPU is like a chef following a recipe. The program counter tells the chef which recipe step to do next. The fetch-decode-execute cycle is: read the step (fetch), understand what it means (decode), and do it (execute). The registers are like the chef's countertop -- small, fast workspace.
+
+---
+
+### Common Pitfalls
+
+1. **Confusing mantissa and exponent in floating point.** The mantissa is the significand (the "significant digits"). The exponent scales the number. Swapping them or miscounting bits gives wildly wrong values.
+2. **Forgetting the bias in floating point exponents.** The stored exponent is biased by 127 (single precision). A stored exponent of 130 means actual exponent of 3, not 130.
+3. **Two's complement confusion.** To negate a binary number, invert all bits and add 1. A common error is inverting and forgetting to add 1, or adding 1 and forgetting to invert.
+4. **Misapplying De Morgan's laws.** $\lnot(A \land B) = \lnot A \lor \lnot B$ and $\lnot(A \lor B) = \lnot A \land \lnot B$. The operator flips (AND becomes OR and vice versa). A common error is not flipping the operator.
 
 ---
 

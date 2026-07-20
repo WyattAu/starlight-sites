@@ -378,6 +378,14 @@ void main() {
 Event from the event queue is processed. This is why `Future.then` callbacks (which schedule
 Microtasks) run before `Future.delayed` callbacks (which schedule events).
 
+## Intuition
+
+**The event loop is a single receptionist handling one call at a time:** Imagine a receptionist who takes a call (event), hands it off to the right department (async operation), and immediately picks up the next call while waiting. That's Dart's event loop — it never blocks, never puts anyone on hold. A `Future` is like a promise slip: "we'll call you back when the result is ready." `async`/`await` is the receptionist reading from a to-do list — "when X finishes, do Y." Isolates are separate offices — each with their own receptionist and files, communicating only through inter-office mail (message passing).
+
+**Why it matters:** This model makes Flutter UIs responsive by design — the event loop always returns to processing UI events between async operations. But CPU-heavy work on the main isolate blocks the receptionist, freezing the entire app.
+
+**The key insight:** Dart's concurrency model trades shared-memory threads for isolated message-passing — eliminating data races by architecture, not by discipline.
+
 ## Common Pitfalls
 
 ### 1. Unawaited Futures

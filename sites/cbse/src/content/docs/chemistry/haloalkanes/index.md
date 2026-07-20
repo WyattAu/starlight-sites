@@ -78,6 +78,14 @@ Product: 1-propanol (primary alcohol)
 
 Haloalkanes are key intermediates in organic synthesis. Grignard reagents, formed from haloalkanes, are among the most versatile carbon-carbon bond-forming tools in chemistry.
 
+## Intuition
+
+**The Swiss Army knife of organic synthesis:** Haloalkanes are alkanes with a halogen (Cl, Br, I) replacing a hydrogen, and that halogen is like a handle on a door — it makes the molecule reactive in specific ways. The C-X bond is polar (halogen pulls electrons), making the carbon electrophilic and susceptible to nucleophilic attack. Think of it as a tug-of-war: the nucleophile pulls the halogen away, and depending on how crowded the carbon is, the reaction proceeds through one of two pathways (SN1 or SN2).
+
+**Why it matters:** Haloalkanes are the gateway to thousands of other organic compounds. Grignard reagents (made from haloalkanes) can build carbon-carbon bonds, which is how pharmaceutical companies synthesize complex drug molecules. Without haloalkane chemistry, we couldn't make most of the medicines, plastics, and materials we rely on.
+
+**The key insight:** SN1 vs SN2 isn't just about the substrate — it's a three-way competition between substrate structure, nucleophile strength, and solvent. Master this three-way balance and you can predict organic reaction outcomes.
+
 ## Common Exam Patterns
 
 - SN1: racemization, carbocation rearrangements, polar protic solvents
@@ -93,3 +101,10 @@ Haloalkanes are key intermediates in organic synthesis. Grignard reagents, forme
 **Producing the less substituted alkene as the major elimination product.** Saytzeff's rule states that the more substituted alkene is the major product because it is more stable due to hyperconjugation. Students frequently write the terminal alkene as the major product, which contradicts the rule.
 
 **Using wet conditions for Grignard reagent formation.** Grignard reagents (RMgX) react violently with water and must be prepared in dry ether under anhydrous conditions. Even trace moisture destroys the reagent. Students often forget this requirement and obtain poor yields or no reaction.
+
+## Cross-References
+
+- **[Biomolecules](../biomolecules/index.md):** Haloalkanes are alkylating agents used in organic synthesis of biomolecules — connecting haloalkane reactivity to biological chemistry.
+- **[Polymers](../polymers/index.md):** Vinyl chloride (a haloalkane) polymerizes to PVC — linking haloalkane chemistry to polymer production.
+- **[Electrochemistry](../electrochemistry/index.md):** The C-X bond in haloalkanes can undergo electrochemical reduction, connecting organic reactivity to electrochemistry.
+- **[Coordination Compounds](../coordination/index.md):** Halide ions (Cl⁻, Br⁻, I⁻) are common ligands in coordination complexes.

@@ -188,6 +188,18 @@ $$t = \frac{b_1 - 0}{SE_{b_1}}$$
 
 $df = n - 2$
 
+## Intuition
+
+Statistical inference is about **drawing conclusions about a population from a sample** while quantifying how confident you should be. The two main tools are confidence intervals (estimation) and hypothesis testing (decision-making).
+
+**Confidence interval intuition:** A 95% confidence interval means that if we repeated the sampling process many times, about 95% of the intervals would contain the true parameter. It does NOT mean there's a 95% probability the parameter is in this specific interval — the parameter is fixed, and the interval is random.
+
+**Hypothesis testing intuition:** We start by assuming the null hypothesis is true (innocent until proven guilty). We then ask: "If the null were true, how likely is it that we'd see data this extreme?" If the answer is very unlikely (small p-value), we reject the null. The p-value is NOT the probability the null is true — it's the probability of the data given the null.
+
+**Type I vs Type II errors:** Type I (false positive) means rejecting a true null hypothesis. Type II (false negative) means failing to reject a false null hypothesis. You can't reduce both simultaneously — lowering the significance level reduces Type I errors but increases Type II errors.
+
+**The power of a test:** Power = $1 - P(\text{Type II error})$. It depends on the effect size, sample size, significance level, and variability. Larger samples and larger effects are easier to detect.
+
 ## Common Pitfalls
 
 - Confusing the p-value with the probability that $H_0$ is true
@@ -197,3 +209,9 @@ $df = n - 2$
   interval"
 - Using a z-test for a mean when $\sigma$ is unknown (should use t-test)
 - Confusing Type I and Type II errors
+
+## Cross-References
+
+- **[Probability](../3-probability/3_probability):** The Central Limit Theorem and normal distributions provide the mathematical foundation for all inference procedures.
+- **[Exploring Data](../1-exploring-data/1_exploring_data):** Understanding your data's shape and spread is essential before choosing the right inference procedure.
+- **[Regression](../5-regression/5_regression):** Confidence intervals and hypothesis tests for slope use the same inference framework.

@@ -264,6 +264,14 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 ```
 
+## Intuition
+
+**Errors are return values, not escape routes:** Think of Go error handling like a delivery driver who always hands you a receipt — success or failure, you get a slip of paper. There's no "exception" trap door that skips the rest of the function. You must look at the receipt before moving on. Error wrapping is like adding a sticky note to that receipt: "this failed because of *that* upstream failure," building a chain of custody for debugging.
+
+**Why it matters:** The (value, error) return pattern makes failure handling explicit and composable. You can't accidentally forget an error path the way you can with try/catch, because the compiler warns you about unused variables and the code reads linearly.
+
+**The key insight:** Go treats errors as ordinary values — returned, checked, and wrapped — making the happy path and the error path equally visible in the code.
+
 ## Common Pitfalls
 
 1. **Ignoring errors.** `result, _ := someFunc()` silently discards errors. At minimum, log the

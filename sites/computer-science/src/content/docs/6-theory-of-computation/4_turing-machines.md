@@ -6,6 +6,14 @@ tags:
 description: "Turing Machines: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
+## Intuition
+
+A Turing machine is the **simplest model of general-purpose computation** — it has a finite control (states and rules), an infinite tape (unbounded memory), and a read/write head. Despite its simplicity, it can compute anything that any reasonable computational device can compute (Church-Turing thesis). The power comes from the infinite tape — it can read and write anywhere, going back and forth as needed.
+
+**Why TMs are universal:** A universal TM can simulate any other TM given its description as input. This is the theoretical basis for stored-program computers: the hardware (universal TM) is fixed; the software (encoded TM description) varies. Any programming language that can simulate a universal TM is Turing-complete.
+
+**Decidable vs recognisable intuition:** A decider halts on every input — it always says yes or no. A recogniser may loop forever on inputs it should reject. The halting problem is recognisable but not decidable: we can simulate a TM and accept if it accepts, but we can't detect if it will loop forever.
+
 ### 4.1 Definition
 
 A **Turing machine (TM)** is a 7-tuple

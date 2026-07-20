@@ -6,6 +6,14 @@ tags:
 description: "A is a situation where a set of processes are all blocked, each waiting for a resource Held by another process in the set."
 ---
 
+## Intuition
+
+Deadlock is a **circular wait** — two or more processes are each holding a resource the other needs, and neither will release what they have. Think of a traffic jam at a four-way intersection where each car refuses to back up. The critical insight is that deadlock is not about a single resource being busy; it's about a *cycle* of dependencies.
+
+**Why the four conditions matter:** All four Coffman conditions (mutual exclusion, hold-and-wait, no preemption, circular wait) must hold simultaneously for deadlock to occur. Breaking *any one* condition prevents deadlock. Resource ordering (preventing circular wait) and allowing preemption are the most practical strategies.
+
+**Recovery intuition:** When deadlock occurs, you must either kill processes (lose work) or preempt resources (roll back to a checkpoint). Both are expensive. Prevention (breaking conditions before deadlock can form) is almost always better than recovery.
+
 ### 4.1 Definition and Necessary Conditions
 
 A **deadlock** is a situation where a set of processes are all blocked, each waiting for a resource

@@ -1,6 +1,6 @@
 ---
 title: "University Computing Flashcards: Databases"
-description: "20 interactive flashcards for university-level Databases. Press Space to flip, r Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for university-level Databases. Press Space to flip, rate 1-4."
 tags:
   - University
   - Computing
@@ -13,6 +13,40 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## Computing -- Databases Flashcards
 
 20 interactive flashcards for university-level Databases. Press Space to flip, rate 1-4.
+
+---
+
+## Intuition
+
+Databases are about **organising, storing, and retrieving data efficiently and reliably**. The relational model provides a mathematical foundation (set theory and first-order logic) for data manipulation through SQL.
+
+**Normalisation intuition:** Normalisation eliminates redundancy and prevents update anomalies by decomposing tables. Each normal form (1NF, 2NF, 3NF, BCNF) addresses a specific type of dependency. The goal is to ensure that every non-key attribute depends on "the key, the whole key, and nothing but the key."
+
+**Transaction intuition:** A transaction is a logical unit of work that must be atomic (all or nothing), consistent (valid state to valid state), isolated (concurrent transactions don't interfere), and durable (committed changes survive crashes) — the ACID properties. Without transactions, concurrent access could corrupt data.
+
+**Indexing intuition:** An index is like a book's index — it allows you to find data without scanning every row. B-tree indexes are the most common: they maintain sorted order and support efficient range queries. The trade-off is that indexes speed up reads but slow down writes (because the index must be updated).
+
+---
+
+## Key Concepts
+
+| Concept | Why It Matters |
+|---------|---------------|
+| **ACID properties** | Guarantee reliable transactions even with concurrent access and failures |
+| **Normalisation** | Eliminates redundancy and prevents update anomalies through decomposition |
+| **B-tree index** | Maintains sorted order for O(log n) lookups; supports efficient range queries |
+| **CAP theorem** | Distributed databases can guarantee at most 2 of: Consistency, Availability, Partition tolerance |
+| **Query optimisation** | The query planner chooses the best execution plan; understanding this helps write efficient queries |
+
+---
+
+## Common Pitfalls
+
+**Over-normalising.** Excessive normalisation creates many small tables requiring expensive joins. In read-heavy analytics workloads, denormalisation can improve performance by reducing join complexity.
+
+**Ignoring index maintenance cost.** Indexes speed up reads but slow down writes. Every INSERT, UPDATE, or DELETE must update all affected indexes. A table with many indexes may be slower for write-heavy workloads than one with no indexes.
+
+**Confusing NULL with zero or empty string.** NULL represents unknown or missing data. Comparisons with NULL using = or ≠ return NULL (not true or false). Use IS NULL or IS NOT NULL instead. NULLs in aggregate functions like COUNT(column) are excluded.
 
 ---
 

@@ -379,6 +379,14 @@ if err := g.Wait(); err != nil {
 }
 ```
 
+## Intuition
+
+**Data races are like two people writing to the same whiteboard simultaneously:** Neither person sees what the other wrote — the final result depends on who wrote last, and bits of both messages might overlap into gibberish. The race detector is a security camera that watches for exactly this scenario. Atomic operations are like having a single pen that only one person can hold at a time — no overlap possible. `sync.Pool` is a shared tool bench where workers grab and return tools, but the bench can be rearranged at any time by the janitor (GC).
+
+**Why it matters:** Data races cause undefined behavior — the program might work 999 times and corrupt data on the 1000th. Go's race detector catches these at test time, but only for the interleavings it actually exercises.
+
+**The key insight:** If two goroutines access the same memory without synchronization and at least one writes, the program is broken — no matter how "unlikely" the timing.
+
 ## Common Pitfalls
 
 1. **Not running the race detector.** Data races are nondeterministic. A program may appear to work

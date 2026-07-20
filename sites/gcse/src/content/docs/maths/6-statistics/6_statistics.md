@@ -10,6 +10,14 @@ categories:
 
 ---
 
+## Intuition
+
+Statistics is the science of **analysing data to draw conclusions**. The key insight is that raw data is meaningless without context — you need to summarise it (measures of central tendency and spread), visualise it (charts and graphs), and interpret it (what does this tell us about the population?).
+
+**Why we sample populations:** Testing every member of a population is usually impractical. Instead, we take a sample and use statistical methods to infer properties of the whole population. The quality of your inference depends entirely on the quality of your sample — a biased sample leads to biased conclusions.
+
+**Probability intuition:** Probability measures the likelihood of an event, from 0 (impossible) to 1 (certain). The key rule is that the sum of all possible outcomes must equal 1. Probability is used in real life for risk assessment, insurance, medical testing, and weather forecasting. Understanding probability helps you make better decisions under uncertainty.
+
 ## Statistics
 
 <aside class="starlight-aside starlight-aside--note">

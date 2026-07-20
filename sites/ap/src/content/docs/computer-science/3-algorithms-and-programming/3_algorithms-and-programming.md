@@ -686,6 +686,14 @@ for (int i = 0; i < n; i++) {
 20. Write a Java method that checks whether a sorted array contains two elements that sum to a given
     target. Your solution should be $O(n)$.
 
+## Intuition
+
+Algorithms and programming are about **solving problems systematically**. An algorithm is a step-by-step procedure; a program is its implementation in a specific language. The key insight is that the *same algorithm* can be written in many languages, and the *same language* can express many algorithms.
+
+**Algorithm design intuition:** Before writing code, think about the *strategy*. Brute force tries everything (simple but slow). Divide and conquer breaks the problem into smaller pieces (like merge sort). Greedy algorithms make locally optimal choices (like Dijkstra's). Dynamic programming stores solutions to subproblems (like the knapsack problem). The right strategy depends on the problem structure.
+
+**Programming paradigm intuition:** Imperative programming (loops, variables, state) tells the computer *how* to do something. Functional programming (pure functions, no side effects) tells the computer *what* to compute. Object-oriented programming (classes, inheritance, encapsulation) organises code around data and behaviour. Each paradigm excels in different domains.
+
 ## Common Pitfalls
 
 1. **Forgetting the base case in recursion.** Causes infinite recursion and stack overflow.

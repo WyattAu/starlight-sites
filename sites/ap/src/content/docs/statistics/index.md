@@ -88,6 +88,16 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+AP Statistics is about **making conclusions from data** while quantifying uncertainty. The four major themes form a logical chain: explore the data → design studies → model probability → draw inferences.
+
+**The big picture:** Statistics isn't about computing numbers — it's about *interpreting* them. A p-value of 0.03 doesn't mean "there's a 3% chance the null hypothesis is true." It means "if the null hypothesis were true, we'd see data this extreme only 3% of the time." This distinction is the single most important concept in the course.
+
+**Why conditions matter:** Every inference procedure (confidence intervals, hypothesis tests, chi-square tests) has conditions that must be checked before applying the formula. Ignoring conditions doesn't make the math wrong — it makes the *conclusion* unreliable. The AP exam rewards students who state and verify conditions.
+
+**The calculator is your friend:** The TI-84 handles the computation, freeing you to focus on setup and interpretation. Master `Stat > Tests` for hypothesis tests and confidence intervals, and `LinReg` for regression analysis.
+
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
@@ -131,3 +141,9 @@ The AP Statistics exam consists of two sections:
 - Chi-square: $\chi^2 = \sum \frac{(O - E)^2}{E}$
 - Residual: $e_i = y_i - \hat{y}_i$
 - Slope: $b_1 = r \cdot \frac{s_y}{s_x}$
+
+## Cross-References
+
+- **[AP Calculus](/ap/calculus):** Calculus provides the mathematical foundation for understanding continuous probability distributions and density functions.
+- **[AP Biology](/ap/biology):** Statistics is essential for designing experiments and analysing data in biological research.
+- **[AP Computer Science](/ap/computer-science):** Data analysis and algorithms for processing data draw on statistical concepts.

@@ -7,5 +7,34 @@ tags: [Physics, IB Physics, Flashcards]
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/physics/flashcards-nuclear-quantum-data.js';
 
+## IB Physics -- Nuclear and Quantum Physics Flashcard Deck
+
+Flashcards with spaced repetition. Press Space to flip, then rate your recall (1--4).
+
+---
+
+### Key Concepts
+
+**Mass Defect and Binding Energy**: The mass of a nucleus is always less than the sum of the masses of its individual nucleons. This "missing mass" is the mass defect (Δm), and it corresponds to the binding energy via E = Δmc². A higher binding energy per nucleon means a more stable nucleus -- iron-56 has the highest binding energy per nucleon.
+
+**Radioactive Decay Law** states that N = N₀e^(−λt), where N₀ is the initial number of undecayed nuclei, λ is the decay constant, and t₁/₂ = ln2/λ is the half-life. Activity A also follows A = A₀e^(−λt).
+
+**Photoelectric Effect** demonstrated that light behaves as particles (photons). A photon of energy hf ejects an electron only if hf exceeds the work function φ of the metal. The maximum kinetic energy of the emitted electron is KEmax = hf − φ. Increasing light intensity increases the number of electrons, not their energy.
+
+**de Broglie Wavelength** links wave and particle nature: λ = h/p, where h is Planck's constant and p is momentum. This applies to all matter, not just light. Electrons can produce diffraction patterns because their de Broglie wavelength is comparable to atomic spacings.
+
+---
+
 <FlashcardDeck client:only="solid-js" deckId="ib-phys-nuclear-quantum" title="IB Physics: Nuclear and Quantum Physics" description="Atomic structure, mass defect, binding energy, nuclear reactions, radioactive decay, photoelectric effect, wave-particle duality, and energy levels." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
-;
+
+---
+
+## Intuition
+
+Think of binding energy as the "glue cost" needed to pull a nucleus apart. Just as you must do work to separate two magnets, you must supply energy to overcome the strong nuclear force holding nucleons together. The mass defect is the mass equivalent of that energy -- mass itself is a form of stored energy, as Einstein showed. For the photoelectric effect, imagine photons as discrete energy packets: one photon either has enough energy to kick out an electron, or it doesn't -- no amount of weak photons will do the job.
+
+## Common Pitfalls
+
+- Confusing the decay constant λ with half-life: they are inversely related. A larger λ means faster decay (shorter half-life), not slower.
+- Thinking that increasing light intensity in the photoelectric effect increases electron KE. Intensity increases the number of photons (and thus electrons), but each electron's KE depends only on the photon frequency.
+- Forgetting that alpha, beta, and gamma radiation have different ionising powers and penetrating abilities. Alpha is most ionising but least penetrating; gamma is the opposite.

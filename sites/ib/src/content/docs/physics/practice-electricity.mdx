@@ -9,7 +9,7 @@ import { practiceQuestions } from '@/data/flashcards/physics/practice-electricit
 
 ## IB Physics -- Electricity Practice
 
-## 16 MCQ practice problems covering core IB Physics electricity content, from basic charge and current to Kirchhoff\'s laws, potential dividers, and internal resistance.
+16 MCQ practice problems covering core IB Physics electricity content, from basic charge and current to Kirchhoff\'s laws, potential dividers, and internal resistance.
 
 ---
 
@@ -17,3 +17,15 @@ import { practiceQuestions } from '@/data/flashcards/physics/practice-electricit
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions}  />
+
+---
+
+## Intuition
+
+When approaching electricity problems, always start by identifying what type of circuit you have (series, parallel, or a combination) and what the question is asking for. Redraw the circuit if needed -- simplifying complex diagrams into recognizable series/parallel blocks makes calculations much easier. For internal resistance problems, treat the battery as an ideal EMF source in series with a small resistor.
+
+## Common Mistakes
+
+- Forgetting that in parallel circuits, voltage is the same across each branch but current splits. In series circuits, current is the same but voltage splits. Mixing these up is the most common error.
+- Calculating total resistance incorrectly for parallel circuits: 1/R_total = 1/R₁ + 1/R₂ + ... is NOT the same as R_total = R₁ + R₂. The reciprocal formula must be used.
+- Using the wrong form of the power equation. If you know current, use P = I²R; if you know voltage, use P = V²/R. Using the wrong one requires an extra calculation step and introduces rounding errors.

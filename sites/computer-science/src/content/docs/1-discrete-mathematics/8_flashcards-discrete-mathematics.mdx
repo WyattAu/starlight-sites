@@ -1,6 +1,6 @@
 ---
 title: "University Computing Flashcards: Discrete Mathematics"
-description: "20 interactive flashcards for university-level Discrete Mathematics. Press Space Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for university-level Discrete Mathematics. Press Space to flip, rate 1-4."
 tags:
   - University
   - Computing
@@ -13,6 +13,40 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## Computing -- Discrete Mathematics Flashcards
 
 20 interactive flashcards for university-level Discrete Mathematics. Press Space to flip, rate 1-4.
+
+---
+
+## Intuition
+
+Discrete mathematics is the **language of computer science** — it provides the tools for reasoning about algorithms, data structures, and computation. Unlike calculus (which deals with continuous quantities), discrete math deals with countable, distinct objects.
+
+**Logic intuition:** Propositional logic is the foundation of circuit design and Boolean operations. Predicate logic extends this to quantify over objects (∀ "for all", ∃ "there exists"). Understanding logical equivalences (De Morgan's laws, contrapositive) is essential for writing correct proofs and programs.
+
+**Set theory intuition:** Sets are collections of distinct objects. Operations on sets (union, intersection, complement, power set) mirror operations in programming (hash sets, bitwise operations). The cardinality of sets tells you how many elements they contain — and some infinities are larger than others.
+
+**Graph theory intuition:** Graphs model relationships — social networks, dependencies, road maps. Trees are connected acyclic graphs — the basis for file systems, organisational charts, and search trees. Euler paths visit every edge once; Hamiltonian paths visit every vertex once. Finding Hamiltonian paths is NP-complete; finding Euler paths is polynomial.
+
+---
+
+## Key Concepts
+
+| Concept | Why It Matters |
+|---------|---------------|
+| **Propositional logic** | Foundation of Boolean algebra, circuit design, and program correctness |
+| **Set theory** | Models collections and operations; underpins databases and type systems |
+| **Relations** | Formalise connections between objects; equivalence relations partition sets |
+| **Functions** | Map inputs to outputs; injective, surjective, bijective properties classify them |
+| **Graph theory** | Models networks, dependencies, and connectivity; basis for algorithms |
+
+---
+
+## Common Pitfalls
+
+**Confusing ∈ and ⊆.** `a ∈ A` means `a` is an element of set `A`. `A ⊆ B` means every element of `A` is also in `B`. Confusing these leads to errors in proofs and set operations.
+
+**Forgetting the empty set is a subset of every set.** The statement `∅ ⊆ A` is always true for any set `A`, because there is no element in `∅` that could violate the subset condition (vacuous truth).
+
+**Confusing a relation with a function.** A function assigns exactly one output to each input. A relation can assign multiple outputs. Every function is a relation, but not every relation is a function.
 
 ---
 

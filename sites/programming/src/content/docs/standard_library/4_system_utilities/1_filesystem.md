@@ -597,6 +597,14 @@ void atomic_write(const fs::path& target, std::string_view content) {
 
 4. Not practising with past papers or exercises under timed conditions.
 
+## Intuition
+
+**The filesystem library is like a universal remote for files:** Instead of using platform-specific APIs (`open` on Linux, `CreateFile` on Windows), `std::filesystem` provides a single interface that works everywhere. It's like having a remote control that works with any TV — you don't need to know the brand, just point and press. The library handles path normalization, directory traversal, file attributes, and error handling across platforms.
+
+**Why it matters:** The filesystem library eliminates platform-specific code for file operations. Instead of writing `#ifdef _WIN32` blocks, you write `std::filesystem::exists(path)` and it works everywhere. It also provides safe error handling with `std::error_code` instead of exceptions, and supports operations like recursive directory traversal, path manipulation, and file metadata queries.
+
+**The key insight:** `std::filesystem` provides platform-independent file operations — write once, run on any OS.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -698,6 +698,14 @@ These reports show which virtual call sites were devirtualized and which were no
 Reason. This is invaluable for verifying that `final` specifiers and type propagation are having the
 Intended effect.
 
+## Intuition
+
+**Devirtualization is like a GPS finding a shortcut:** Normally, a virtual function call goes through the vtable (like following the planned route). Devirtualization is when the compiler realizes "I know exactly which class this is" and replaces the vtable lookup with a direct call (like the GPS finding a faster route). Profile-guided optimization (PGO) is like learning from traffic patterns — the compiler uses runtime data to know which virtual functions are actually called, and devirtualizes the hot paths.
+
+**Why it matters:** Virtual function calls have overhead (vptr load + indirect call). Devirtualization eliminates this overhead by replacing the indirect call with a direct call or inlining the function entirely. The `final` keyword is the primary tool for enabling devirtualization — it tells the compiler "this class cannot be derived from, so there's only one possible implementation."
+
+**The key insight:** `final` on a class or virtual function enables devirtualization — the compiler knows there's only one possible implementation and can inline the call.
+
 ## Common Pitfalls
 
 - **Adding `final` too early.** Marking a class `final` prevents extension, which can be problematic

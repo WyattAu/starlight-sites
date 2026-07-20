@@ -11,7 +11,6 @@ description: "Content notes."
 import FlashcardDeck from '@components/FlashcardDeck';
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/chemistry/flashcards-energetics-data.js';
 
-
 ## Energetics Flashcards
 
 20 flashcards covering IB Chemistry energetics — enthalpy definitions, Hess\'s Law, Born-Haber
@@ -19,5 +18,28 @@ cycles, calorimetry, bond enthalpies, entropy, and Gibbs free energy.
 
 ---
 
+### Key Concepts
+
+**Enthalpy Changes**: Exothermic reactions release heat (ΔH < 0, temperature rises). Endothermic reactions absorb heat (ΔH > 0, temperature falls). Standard enthalpy changes are measured under standard conditions (298 K, 100 kPa, 1 mol dm⁻³).
+
+**Hess's Law**: The total enthalpy change is independent of the route taken, as long as initial and final conditions are the same. This allows us to construct energy cycles and calculate unknown enthalpy changes from known ones.
+
+**Born-Haber Cycles**: A Hess's Law cycle for ionic compounds that links lattice enthalpy to other measurable quantities (atomisation, ionisation energy, electron affinity). The lattice enthalpy of MgO is much more negative than NaCl due to higher charges and smaller ionic radii.
+
+**Gibbs Free Energy**: ΔG = ΔH − TΔS. A reaction is spontaneous when ΔG < 0. A reaction with ΔH > 0 can still be spontaneous if TΔS is large enough (entropy-driven). At equilibrium, ΔG = 0.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ib-chemistry-energetics" title="IB Chemistry: Energetics" description="Enthalpy, Hess\'s Law, Born-Haber cycles, calorimetry, bond enthalpies, entropy, and Gibbs free energy." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+
+---
+
+## Intuition
+
+Think of enthalpy as the "heat content" of a system. Exothermic reactions are like releasing stored energy (opening a battery), while endothermic reactions absorb energy from surroundings (like a cold pack). Hess's Law is like a GPS -- you can take different routes to reach the same destination, and the total energy cost is the same. Gibbs free energy is the "real cost" of a reaction -- it accounts for both the heat (ΔH) and the disorder (TΔS) involved.
+
+## Common Pitfalls
+
+- Confusing exothermic (ΔH < 0, releases heat) with endothermic (ΔH > 0, absorbs heat). A common mistake is thinking negative ΔH means "less energy" -- it means energy is released.
+- Forgetting that entropy (ΔS) must be in J/K, not kJ/K, when using ΔG = ΔH − TΔS. The temperature T is in Kelvin. Unit conversion errors are extremely common.
+- Assuming a reaction with ΔH > 0 never happens spontaneously. If the entropy increase (TΔS) is large enough, it can overcome the positive ΔH and make ΔG negative.

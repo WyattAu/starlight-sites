@@ -79,6 +79,16 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+GCSE Maths is the **foundation of mathematical thinking** — it covers number, algebra, ratio and proportion, geometry, and statistics. Each topic builds on the previous ones: algebra extends number, geometry uses algebra, and statistics uses all of them.
+
+**Number intuition:** Understanding place value, fractions, decimals, and percentages is essential. They're all different ways of expressing the same quantity. Converting between them fluently is the single most useful skill in GCSE Maths.
+
+**Algebra intuition:** Algebra is about generalising patterns. When you write $2n + 1$ for an odd number, you're capturing a property of *all* odd numbers in a single expression. The key is translating between words, expressions, equations, and graphs — they're all representations of the same mathematical idea.
+
+**Geometry intuition:** Geometry is about shapes, angles, and spatial reasoning. The key formulas (area of a triangle, circumference of a circle, Pythagoras' theorem) connect measurements to each other. Understanding *why* the formulas work (not just memorising them) helps you apply them in unfamiliar situations.
+
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.

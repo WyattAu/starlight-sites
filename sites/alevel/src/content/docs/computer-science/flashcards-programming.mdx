@@ -1,6 +1,6 @@
 ---
 title: "A-Level CS Flashcards: Programming"
-description: "ALEVEL Computer Science flashcards: A-Level CS Flashcards: Programming. Comprehensive study material with definitions, examples, and assessment tools."
+description: "A-Level Computer Science flashcards covering programming constructs, OOP, data types, and software development with spaced repetition."
 tags:
   - Computer Science
   - ALevel
@@ -14,6 +14,38 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## Computer Science -- Programming Flashcards
 
 20 interactive flashcards for A-Level Computer Science. Press Space to flip, rate 1-4.
+
+### What These Flashcards Cover
+
+These flashcards test your understanding of programming concepts, paradigms, and techniques. You should be able to write, trace, and debug code, and explain the principles of object-oriented programming.
+
+**Key areas:**
+
+- **Data Types:** Integer (whole numbers), real/float (decimal numbers), Boolean (true/false), character (single symbol), string (sequence of characters). Strongly typed languages enforce type rules; weakly typed languages allow implicit conversion.
+- **Variables and Constants:** A variable is a named memory location whose value can change. A constant is a named memory location whose value cannot change after initialisation. Scope: local (within a function/block) vs global (accessible everywhere).
+- **Control Structures:** Sequence (statements execute in order), selection (if-else, switch -- choose based on a condition), iteration (for, while, do-while -- repeat). Recursion: a function that calls itself, with a base case to stop.
+- **Operators:** Arithmetic (+, -, *, /, MOD, DIV), relational (==, !=, <, >, <=, >=), logical (AND, OR, NOT), assignment (=, +=, -=). Operator precedence determines the order of evaluation.
+- **Arrays and Lists:** An array is a fixed-size collection of elements of the same type, accessed by index. A list (or arraylist) is dynamically sized. 2D arrays represent tables or grids.
+- **Object-Oriented Programming (OOP):** Class: a blueprint for objects. Object: an instance of a class. Attributes (data) and methods (functions). Encapsulation: bundling data and methods, hiding internal details. Inheritance: a class derives from a parent class. Polymorphism: the same method behaves differently on different classes.
+- **File I/O:** Reading from and writing to files. Sequential access: read/write in order. Random access: read/write at any position. Must open, process, and close files properly.
+- **Exception Handling:** Try-catch blocks handle runtime errors gracefully. Prevents program crashes. Common exceptions: division by zero, file not found, out of range.
+
+---
+
+### Intuition
+
+Programming is giving precise instructions to a computer. Think of it as writing a recipe: the computer follows each step exactly as written, with no room for ambiguity. If the recipe says "add the eggs," it will add eggs -- even if you meant to add flour.
+
+OOP is like designing a blueprint for a house (the class). You can build many houses (objects) from the same blueprint. Each house has its own address and furniture (attributes) but follows the same layout (methods). Inheritance is like creating a specialised blueprint (e.g. a bungalow) from a general one (a house blueprint), adding new features while keeping the base design.
+
+---
+
+### Common Pitfalls
+
+1. **Off-by-one errors.** Array indices start at 0, not 1. An array of size $n$ has indices $0$ to $n-1$. Accessing index $n$ causes an out-of-bounds error.
+2. **Confusing = and ==.** `=` is assignment: `x = 5` sets x to 5. `==` is comparison: `if (x == 5)` checks if x equals 5. Using `=` in a condition is a common bug.
+3. **Infinite loops.** A while loop that never becomes false runs forever. Always ensure the loop variable is updated inside the loop body.
+4. **Confusing passing by value and passing by reference.** Passing by value copies the data; changes inside the function don't affect the original. Passing by reference shares the data; changes inside the function do affect the original. Not understanding this leads to unexpected side effects.
 
 ---
 

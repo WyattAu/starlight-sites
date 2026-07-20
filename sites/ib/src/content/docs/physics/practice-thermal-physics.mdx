@@ -9,7 +9,7 @@ import { practiceQuestions } from '@/data/flashcards/physics/practice-thermal-ph
 
 ## IB Physics -- Thermal Physics Practice
 
-## 16 MCQ practice problems covering core IB Physics thermal physics content, from temperature scales to molecular kinetic theory and ideal gas behaviour.
+16 MCQ practice problems covering core IB Physics thermal physics content, from temperature scales to molecular kinetic theory and ideal gas behaviour.
 
 ---
 
@@ -17,3 +17,15 @@ import { practiceQuestions } from '@/data/flashcards/physics/practice-thermal-ph
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions}  />
+
+---
+
+## Intuition
+
+For gas law problems, always check which variables change and which stay constant. If temperature is constant, use Boyle's law (p₁V₁ = p₂V₂). If pressure is constant, use Charles's law (V₁/T₁ = V₂/T₂). For calorimetry problems, remember that energy lost by the hot substance equals energy gained by the cold substance (assuming no losses): m₁c₁ΔT₁ = m₂c₂ΔT₂.
+
+## Common Mistakes
+
+- Using Celsius instead of Kelvin in gas law calculations. The ideal gas law requires absolute temperature. A common trap is a question that gives temperature in °C -- always convert first (K = °C + 273).
+- Forgetting that during a phase change, the temperature stays constant even though heat is still being added. Students often apply Q = mcΔT during a phase change and get confused when ΔT = 0.
+- Confusing specific heat capacity with specific latent heat. The first (c) is used when temperature changes: Q = mcΔT. The second (L) is used during phase changes: Q = mL. They describe fundamentally different processes.

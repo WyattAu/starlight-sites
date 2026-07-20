@@ -843,6 +843,14 @@ rescue
 end
 ```
 
+## Intuition
+
+**Modules are labeled drawers, protocols are universal adapters:** A module is like a labeled drawer in a workshop — it groups related tools (functions) together so you can find them. `defp` is a drawer with a lock: only tools inside that workshop can use it. Structs are molds for casting consistent shapes — every User struct has the same slots. Protocols are universal power adapters: they let you plug any type into a standard interface, so the `Size` protocol works on lists, maps, tuples, and your custom types without them sharing a common ancestor.
+
+**Why it matters:** The module + struct + protocol pattern gives Elixir ad-hoc polymorphism without class hierarchies. You define behavior once (the protocol) and implement it for each type independently — no need for the types to know about each other.
+
+**The key insight:** In Elixir, you don't need inheritance to share behavior — protocols let any type opt into any interface, and behaviours let any module conform to any contract.
+
 ## Summary
 
 Functions and modules are the organizational backbone of Elixir:

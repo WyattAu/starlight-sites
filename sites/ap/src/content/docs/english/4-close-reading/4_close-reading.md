@@ -216,6 +216,14 @@ Strong passages operate on multiple levels simultaneously. A passage may:
 3. Explain how each strategy serves the author's purpose and affects the audience
 4. Organise by analytical point (not by chronological order)
 
+## Intuition
+
+Close reading is about **what the text actually says and how it says it** — not what you think it means or what the author intended. Every word, every punctuation mark, every structural choice is evidence. The goal is to build an interpretation from specific textual details.
+
+**Annotation strategy:** Read once for overall meaning, then re-read to identify patterns: repeated words, shifts in tone, unusual syntax, structural contrasts. These patterns are your evidence. A single detail can support multiple interpretations — the best essays explore this complexity.
+
+**Tone and diction:** Pay attention to word choice (diction). "Slim" and "thin" describe the same quality but carry different connotations. Formal vs informal tone signals the author's attitude toward the subject. Shifts in tone often mark turning points in the argument.
+
 ## Common Pitfalls
 
 - Confusing what the text says with how the text works (summary vs analysis)

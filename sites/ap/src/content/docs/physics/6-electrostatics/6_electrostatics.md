@@ -421,6 +421,18 @@ $$
 C = \frac{\kappa \epsilon_0 A}{\kappa d - (\kappa - 1)t}
 $$
 
+## Intuition
+
+Electrostatics is about **how stationary charges create fields and exert forces**. The key idea is that charges don't act at a distance — they create an electric field that fills space, and other charges respond to that field.
+
+**Coulomb's law intuition:** The force between two charges follows an inverse-square law, just like gravity. But unlike gravity, electric charges come in two signs (positive and negative), so the force can be attractive or repulsive. The $1/r^2$ dependence means doubling the distance quarters the force.
+
+**Gauss's law intuition:** Gauss's law says the total electric flux through any closed surface equals the enclosed charge divided by $\epsilon_0$. It's always true, but only *useful* when symmetry lets you pull $E$ out of the integral. For a sphere, use a sphere. For a line, use a cylinder. For a plane, use a flat-ended cylinder. The right Gaussian surface turns a hard integral into simple algebra.
+
+**Electric potential intuition:** Potential is the "height" of the electric landscape. Positive charges roll downhill (toward lower potential), negative charges roll uphill. The relationship $\vec{E} = -\nabla V$ means the electric field points in the direction of steepest decrease in potential — like water flowing downhill.
+
+**Capacitor intuition:** A capacitor stores energy in the electric field between its plates. The energy density is $u = \frac{1}{2}\epsilon_0 E^2$ — the field itself carries energy. A dielectric increases capacitance because it polarizes, reducing the internal field and allowing more charge at the same voltage.
+
 ## Common Pitfalls
 
 1. **Confusing electric field and electric force.** $\vec{E} = \vec{F}/q_0$. The field exists
@@ -557,3 +569,9 @@ linked above.
 
 
 </aside>
+
+## Cross-References
+
+- **[Circuits](../7-circuits/7_circuits):** Electrostatics provides the foundation for understanding how charges flow through circuits.
+- **[Magnetism](../8-magnetism/8_magnetism):** Electric and magnetic fields are unified in Maxwell's equations — electrostatics is the static limit.
+- **[Work, Energy, and Power](../3-work-energy-power/3_work-energy-power):** Electric potential energy and work done by electric fields follow the same energy principles.

@@ -10,6 +10,14 @@ categories:
 
 ---
 
+## Intuition
+
+Cell biology is the study of **the fundamental unit of life**. The key insight is that all living organisms are made of cells, and cells are the smallest units that can carry out all functions of life (growth, reproduction, response to stimuli, metabolism). Understanding cells explains how organisms work at the most basic level.
+
+**Why cells are the building blocks:** A cell is like a tiny factory. The nucleus contains the instructions (DNA). The cell membrane controls what enters and leaves. Mitochondria generate energy. Ribosomes build proteins. Each organelle has a specific function, and together they maintain the cell's life processes. This compartmentalisation allows complex chemistry to happen efficiently.
+
+**Diffusion and osmosis intuition:** Substances move from areas of high concentration to low concentration (diffusion). In cells, the selectively permeable membrane allows some substances through but not others. When water moves across a semipermeable membrane, it's called osmosis. These processes explain how cells obtain nutrients and remove waste without needing energy for every exchange.
+
 ## Cell Biology
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway B1 | WJEC B1

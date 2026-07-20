@@ -79,6 +79,14 @@ $$R_4 = \frac{R_2 \times R_3}{R_1} = \frac{200 \times 150}{100} = 300 \, \Omega$
 2. Find the equivalent resistance of three resistors (2 $\Omega$, 3 $\Omega$, 6 $\Omega$) connected in parallel.
 3. A potentiometer wire of length 1 m has resistance 10 $\Omega$. Find the balancing length when a cell of EMF 1.5 V is balanced against a standard cell of 2 V.
 
+## Intuition
+
+**Electric current is charge in motion — like water flowing through pipes:** Think of voltage as water pressure, current as flow rate, and resistance as pipe narrowness. Ohm's law (V = IR) is the electrical equivalent of "more pressure pushes more water through a narrow pipe." Series circuits are like pipes connected end-to-end — the same water flows through each section. Parallel circuits are like branching pipes — the flow splits among branches, each getting the same pressure but different amounts of water depending on their resistance.
+
+**Why it matters:** Current electricity is literally the lifeblood of modern civilization — it powers everything from lighting to computing to communication. Understanding circuits means understanding how to design, build, and troubleshoot the electrical systems that run our world.
+
+**The key insight:** Kirchhoff's laws are just conservation laws in disguise — the junction rule conserves charge (what goes in must come out), and the loop rule conserves energy (what you gain going around must equal what you lose).
+
 ## Common Exam Patterns
 
 - Draw the circuit diagram before solving

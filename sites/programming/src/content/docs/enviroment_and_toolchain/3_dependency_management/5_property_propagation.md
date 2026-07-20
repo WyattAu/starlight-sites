@@ -702,6 +702,14 @@ The following table lists commonly used generator expressions for property propa
 - [CPM.cmake](2_cpm.md) -- How `add_subdirectory` merges dependency properties
 - [Binary Caching](6_binary_caching.md) -- Binary artifacts and their dependency metadata
 
+## Intuition
+
+**Property propagation is like passing notes in a classroom:** When the teacher (parent target) writes instructions on the board (sets properties), the students (child targets) need to copy those instructions into their notebooks. But if a student already has their own notes (overridden properties), they keep their own. The `PUBLIC` keyword is like the teacher writing on the board AND in each student's notebook — both the teacher and students see it. `PRIVATE` is like the teacher keeping notes only for themselves. `INTERFACE` is like writing only in the students' notebooks — the teacher doesn't keep a copy.
+
+**Why it matters:** Understanding property propagation is essential for writing correct CMake build systems. Without it, you'll either duplicate properties (wasting maintenance effort) or miss them (causing mysterious build failures). The three keywords — `PUBLIC`, `PRIVATE`, and `INTERFACE` — are the primary mechanism for controlling how properties flow through dependency chains.
+
+**The key insight:** `PUBLIC` propagates to both the target and its consumers, `PRIVATE` only to the target, and `INTERFACE` only to consumers — get this wrong and your dependencies won't compile.
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to property propagation, including

@@ -10,12 +10,34 @@ tags:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/computer-science/flashcards-system-fundamentals-data.js';
 
-
 ## Computer Science -- System Fundamentals Flashcards
 
 20 interactive flashcards for IB Computer Science. Press Space to flip, rate 1-4.
 
 ---
 
+### Key Concepts
+
+**Number Systems**: Binary (base 2), denary (base 10), hexadecimal (base 16). Conversion between systems is essential. Hexadecimal is used as a compact representation of binary (1 hex digit = 4 binary digits). Two's complement represents negative binary numbers.
+
+**Boolean Logic in Circuits**: Logic gates (AND, OR, NOT, NAND, NOR, XOR) are combined to create circuits that perform binary operations. Truth tables show all possible inputs and outputs. Karnaugh maps simplify Boolean expressions for circuit design.
+
+**Hardware Architecture**: The CPU contains the ALU (arithmetic and logic unit), control unit, registers, and cache. The fetch-decode-execute cycle is the fundamental operation: fetch instruction from memory, decode it, execute it, store result. Bus width determines how much data can be transferred at once.
+
+**Systems Development Life Cycle (SDLC)**: A structured approach to developing information systems. Models include waterfall (sequential phases), agile (iterative, incremental), and spiral (risk-focused). Each model has strengths and is suited to different project types and scales.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ib-cs-system-fundamentals" title="IB CS -- System Fundamentals" description="System design, organization, and the system life cycle" cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+
+---
+
+## Intuition
+
+Think of a computer as a layered onion. The outermost layer is the software you interact with. Beneath that is the operating system. Beneath that is the hardware architecture (CPU, memory, storage). At the very core are the logic gates doing binary arithmetic. The SDLC is like planning a building project -- you wouldn't start laying bricks without a blueprint, and you wouldn't use the same planning approach for a garden shed and a skyscraper.
+
+## Common Pitfalls
+
+- Forgetting two's complement rules. To negate a binary number: invert all bits and add 1. A common error is inverting without adding 1, or adding 1 without inverting first.
+- Confusing the fetch-decode-execute cycle stages. Fetch = get instruction from memory. Decode = figure out what it means. Execute = do it. Store = save the result. Each stage has a specific purpose.
+- Assuming waterfall is always bad and agile is always good. Waterfall works well for small, well-defined projects with fixed requirements. Agile is better for large, evolving projects but requires active user involvement.

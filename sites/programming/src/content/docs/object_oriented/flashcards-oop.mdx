@@ -11,7 +11,7 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## C++ -- Object-Oriented Programming Flashcards
 
-20 interactive flashcards. Press Space to flip, rate 1-4 to schedule next review.
+20 interactive flashcards covering C++ classes, inheritance, virtual functions, polymorphism, constructors, operator overloading, SOLID principles, and the pimpl idiom. Press Space to flip, rate 1-4 to schedule next review.
 
 ---
 
@@ -20,3 +20,21 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
   description="Interactive flashcards on C++ OOP: classes, inheritance, virtual functions, polymorphism, constructors, operator overloading, SOLID, and pimpl idiom."
   cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}
  />
+
+## Intuition
+
+**Object-oriented programming is like building with LEGO blocks:** Each class is a LEGO brick with a specific shape and function. Inheritance is like stacking bricks — a derived class inherits the shape of the base class and adds its own features. Polymorphism is like using a LEGO adapter — you can plug different bricks into the same socket, and they all work because they share the same interface (virtual functions). The vtable is like the adapter's wiring — it connects the interface to the correct implementation at runtime.
+
+**Why it matters:** OOP provides a way to model real-world relationships in code. Inheritance lets you reuse code and establish type hierarchies. Polymorphism lets you write generic code that works with any type in a hierarchy. Encapsulation lets you hide implementation details behind a clean interface. These features make code more maintainable, extensible, and reusable.
+
+**The key insight:** Virtual functions enable runtime polymorphism — the correct function is called based on the object's actual type, not the pointer's type. This is the foundation of OOP's flexibility.
+
+## Common Pitfalls
+
+1. **Object slicing:** Copying a derived class object into a base class variable slices off the derived portion, including the vptr. The resulting object uses the base class's vtable, not the derived class's. Always pass polymorphic objects by pointer or reference to avoid slicing.
+
+2. **Calling virtual functions in constructors:** When you call a virtual function in a constructor, the vptr points to the current class's vtable, not the derived class's. This means the virtual function call resolves to the current class's implementation, not the derived class's. This is a common source of bugs.
+
+3. **Forgetting virtual destructors:** If you delete a derived class object through a base class pointer without a virtual destructor, the derived class's destructor is never called. This causes resource leaks. Always make destructors virtual in base classes that are meant to be inherited from.
+
+4. **Overusing inheritance:** Inheritance creates tight coupling between base and derived classes. Prefer composition over inheritance — it's more flexible, easier to test, and avoids the fragile base class problem. Use inheritance only for true "is-a" relationships.

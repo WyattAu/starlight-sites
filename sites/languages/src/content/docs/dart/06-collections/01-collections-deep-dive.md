@@ -872,6 +872,14 @@ for (final word in words) {
 For very large datasets where memory is a concern, `List` is the most compact option. Use `Set` and
 `Map` when their O(1) lookup characteristics justify the memory overhead.
 
+## Intuition
+
+**Collections are different shaped containers for different jobs:** `List` is an ordered bookshelf — you know exactly where each book is by its position. `Set` is a bag of marbles — no duplicates, and you can quickly check "do I already have this one?" `Map` is a filing cabinet — you look up folders by name, not by position. `Iterable` is a recipe — it describes *how* to produce ingredients but doesn't cook anything until you actually ask for the food (`toList()`, `forEach()`).
+
+**Why it matters:** Dart's lazy iterables (`map`, `where`, `expand`) are like reading a recipe without cooking — you compose the steps for free, and only pay the cost when you actually execute. This makes chained transformations on large datasets efficient by avoiding intermediate collections.
+
+**The key insight:** Choose your collection by what operation you need most: index access → `List`, uniqueness → `Set`, key lookup → `Map`. Mixing them up leads to O(n²) where O(1) was available.
+
 ## Common Pitfalls
 
 ### 1. Mutating a List While Iterating

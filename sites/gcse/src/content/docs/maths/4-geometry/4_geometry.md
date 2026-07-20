@@ -10,6 +10,14 @@ categories:
 
 ---
 
+## Intuition
+
+Geometry is the mathematics of **shape, size, and space**. The key insight is that geometric properties (angles, lengths, areas) follow logical rules that can be proved from a small number of axioms. Understanding these rules lets you calculate unknown measurements from known ones.
+
+**Why angles matter:** Angles describe rotation and direction. Angles on a straight line sum to 180°, angles around a point sum to 360°, and angles in a triangle sum to 180°. These rules are not arbitrary — they follow from the geometry of flat space. In curved space (like on a sphere), triangle angles sum to more than 180°.
+
+**Congruence vs similarity intuition:** Congruent shapes are identical in size and shape — they can be mapped onto each other by translation, rotation, or reflection. Similar shapes have the same shape but different sizes — one is a scaled version of the other. Congruence preserves lengths and angles; similarity preserves angles and ratios of lengths.
+
 ## Geometry
 
 > **Info:** Board Coverage AQA Paper 1 & 2 | Edexcel Paper 1 & 2 | OCR Paper 2 & 3 | WJEC Unit 2

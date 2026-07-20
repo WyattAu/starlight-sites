@@ -174,6 +174,14 @@ int main() {
 Comparison. For performance-critical code, implement a locale-aware character-by-character
 Comparison that avoids allocation.
 </aside>
+## Intuition
+
+**The spaceship operator is like a universal comparison tool:** Instead of writing six separate comparison functions (`==`, `!=`, `<`, `<=`, `>`, `>=`), you write one function that returns "less," "equal," or "greater." The compiler then generates all six comparisons from that single function. It's like having a single "comparison function" that answers "which comes first?" — and the compiler derives all the other questions from that answer.
+
+**Why it matters:** The spaceship operator eliminates massive boilerplate for comparable types. A point class with x and y coordinates would need 6 comparison operators (or at least 2 with the rest derived). With `<=>`, you write one three-way comparison and `= default` the rest. It also handles the tricky cases (like comparing different types) correctly by default.
+
+**The key insight:** `<=>` returns a comparison category type (`std::strong_ordering`, `std::weak_ordering`, or `std::partial_ordering`) that encodes the comparison result — the compiler uses this to generate all six relational operators.
+
 ## See Also
 
 - [Operator Overloading](./4_operator_overloading.md)

@@ -641,6 +641,14 @@ data Person = Person
 -- deriveJSON defaultOptions ''Person
 ```
 
+## Intuition
+
+**Types are equations, not just labels:** In Haskell, algebraic data types are literally algebra — `Maybe Bool` has 3 values (like the equation 1 + 2 = 3), and `Either Bool ()` has 3 values (2 + 1 = 3). This mathematical foundation means you can reason about your type system *arithmetically*. GADTs are like functions that return different types depending on the input — a type-level if-else. Phantom types are invisible stamps that the compiler tracks but the runtime ignores — you can tag a value with `Safe` or `Unsafe` at compile time without any runtime cost.
+
+**Why it matters:** Advanced types let you encode business rules directly in the type system. A function that takes `SafeUrl` instead of `String` can never be called with user input — the compiler enforces security invariants.
+
+**The key insight:** Haskell's type system is a full programming language — you can compute with types, make decisions at the type level, and push invariant checking from runtime to compile time.
+
 ## Type System Best Practices
 
 1. **Prefer newtype over data** when wrapping a single type: zero runtime overhead and clearer

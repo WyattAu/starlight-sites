@@ -658,6 +658,14 @@ associativity = do
 | `[]`       | Non-determinism | Multiple possible results                  |
 | `Identity` | No effect       | The simplest monad, wraps a plain value    |
 
+## Intuition
+
+**A monad is a conveyor belt in a factory:** Imagine a factory where each station can transform the item on the belt, but the belt itself has special properties. The `Maybe` belt drops items into the void if anything goes wrong — no downstream station ever sees a broken part. The `IO` belt logs every operation — the belt *is* the audit trail. The `State` belt carries a clipboard that accumulates instructions as items move along. `>>=` (bind) is the instruction: "take the item off the belt, run it through this station, and put the result back on."
+
+**Why it matters:** Monads let you compose computations with effects (failure, state, I/O) in a purely functional way. Instead of side effects happening invisibly, the monad type *tells you* what kind of effects a function has — `Maybe a` might fail, `IO a` does I/O, `State s a` mutates state.
+
+**The key insight:** The monad laws (left identity, right identity, associativity) guarantee that chaining operations behaves predictably — you can refactor `m >>= f >>= g` into `m >>= (\x -> f x >>= g)` without changing the result.
+
 ## Combining Effects
 
 In practice, applications combine multiple monad transformers:

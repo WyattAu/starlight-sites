@@ -333,6 +333,14 @@ cancel() // cancels parent, child1, and child2
 This is how HTTP request cancellation works: the server creates a context per request, and when the
 Client disconnects, the context is cancelled, propagating to all goroutines handling that request.
 
+## Intuition
+
+**Channels are typed pipes with rendezvous semantics:** Picture a pipe connecting two workers. An unbuffered channel is a pipe with zero storage — the sender must wait until the receiver grabs the part, like a relay race where the baton must be handed off face-to-face. A buffered channel is a pipe with a small shelf — the sender can drop off parts and walk away, as long as the shelf isn't full. `select` is like a worker checking multiple bins simultaneously, picking up whichever has work available.
+
+**Why it matters:** Channels and select enable composing concurrent behaviors without shared state. Pipelines, fan-out/fan-in, and worker pools are natural consequences of thinking in terms of data flowing through pipes.
+
+**The key insight:** Channel semantics (blocking, buffering, select) enforce synchronization at the type level — deadlocks and race conditions become structural problems you can reason about visually.
+
 ## Common Pitfalls
 
 1. **Forgetting to call the cancel function.** `WithCancel``WithTimeout`And `WithDeadline` return a

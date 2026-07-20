@@ -11,7 +11,7 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## C++ -- Error Handling Flashcards
 
-20 interactive flashcards. Press Space to flip, rate 1-4 to schedule next review.
+20 interactive flashcards covering C++ exceptions, the std::exception hierarchy, error codes vs exceptions, std::optional, std::expected, stack unwinding, exception safety guarantees, and noexcept. Press Space to flip, rate 1-4 to schedule next review.
 
 ---
 
@@ -20,3 +20,21 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
   description="Interactive flashcards on C++ exceptions, std::exception hierarchy, error codes vs exceptions, std::optional, std::expected, stack unwinding, and safety."
   cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}
  />
+
+## Intuition
+
+**Error handling in C++ is like a safety net for tightrope walking:** Exceptions are the net — they catch you when something goes wrong, so you don't fall (crash). Error codes are like checking the rope before each step — you can still fall if you forget to check. `std::optional` is like a box that might be empty — you know it might not have what you want, so you check before using it. `std::expected` is like a result that might be an error — you get either the answer or the reason it failed. The key insight is that C++ gives you multiple tools for different situations: exceptions for exceptional cases, error codes for expected failures, and `expected`/`optional` for type-safe error handling.
+
+**Why it matters:** Error handling is critical for writing robust software. Without it, programs crash on unexpected input, lose data on I/O errors, and produce incorrect results on invalid operations. C++ provides multiple error handling mechanisms, each with different trade-offs: exceptions have overhead but are automatic, error codes are fast but manual, and `std::expected` is type-safe and composable.
+
+**The key insight:** Use exceptions for exceptional cases (out of memory, file not found), error codes for expected failures (network timeout, invalid input), and `std::expected` for type-safe error handling without exceptions.
+
+## Common Pitfalls
+
+1. **Throwing exceptions in destructors:** If an exception escapes a destructor during stack unwinding (while another exception is being handled), `std::terminate` is called. Always wrap destructor bodies in `try/catch` and swallow exceptions, or mark the destructor `noexcept`.
+
+2. **Catching exceptions by value instead of reference:** Catching by value causes slicing — the derived class portion of the exception is lost. Always catch by `const&` to preserve the full exception type and avoid unnecessary copies.
+
+3. **Using exceptions for control flow:** Exceptions are for exceptional cases, not for normal program flow. Using exceptions for expected conditions (like "file not found" when checking if a file exists) is slow and makes the code hard to follow. Use `std::optional` or error codes for expected failures.
+
+4. **Forgetting that `std::expected` is not a monad (yet):** While `std::expected` supports `and_then` and `transform`, it doesn't compose as cleanly as Rust's `Result`. Be careful with chaining — each step must return `expected` for the pipeline to work.

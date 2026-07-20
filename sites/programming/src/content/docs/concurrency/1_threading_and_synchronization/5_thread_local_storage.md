@@ -569,6 +569,14 @@ POSIX systems limit the number of TLS slots per process via `PTHREAD_KEYS_MAX` (
 keyword does not use `pthread_key_create` (it uses the compiler's TLS mechanism Instead), but
 libraries that use the POSIX API directly can exhaust the limit.
 
+## Intuition
+
+**Thread-local storage is like each worker having their own toolbox:** Instead of sharing one toolbox (which would require waiting for others to finish), each thread gets its own copy. No contention, no waiting — but also no sharing. It's like having separate toolboxes in a workshop: each worker can grab their own hammer without asking permission, but if Worker A borrows a tool from Worker B's toolbox, they need to coordinate.
+
+**Why it matters:** Thread-local storage eliminates contention for per-thread data like random number generators, caches, and accumulators. When every thread needs its own copy of something, TLS is the fastest option — no locks, no atomics, no cache-line bouncing. But it comes with subtle pitfalls around initialization order and thread pool reuse.
+
+**The key insight:** `thread_local` variables are initialized per-thread on first use, not at program start — this lazy initialization is efficient but can surprise you with ordering.
+
 ## Common Pitfalls
 
 ### TLS with `std::call_once`

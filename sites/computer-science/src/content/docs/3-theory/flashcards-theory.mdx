@@ -1,6 +1,6 @@
 ---
 title: "University CS Flashcards: Theory of Computation"
-description: "20 interactive flashcards for university-level Theory of Computation. Press Spac Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for university-level Theory of Computation. Press Space to flip, rate 1-4."
 tags: [University, Computer Science, Flashcards]
 ---
 
@@ -9,6 +9,41 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Computer Science -- Theory of Computation Flashcards
 20 interactive flashcards for university-level Theory of Computation. Press Space to flip, rate 1-4.
+
 ---
 
-<FlashcardDeck client:only="solid-js" deckId="uni-cs-theory" title="University CS -- Theory of Computation" description="Automata, formal languages, Turing machines, decidability, complexity classes" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />;
+## Intuition
+
+The theory of computation asks: **what can and cannot be computed, and how efficiently?** It provides the mathematical foundation for understanding the limits of algorithms and the hierarchy of computational complexity.
+
+**Automata intuition:** Finite automata are the simplest computational models — they can recognise patterns in strings but have no memory beyond their current state. Pushdown automata add a stack, enabling them to match nested structures (like parentheses). Turing machines add an infinite tape, enabling general-purpose computation.
+
+**Complexity classes intuition:** P contains problems solvable in polynomial time (tractable). NP contains problems whose solutions can be *verified* in polynomial time (even if finding the solution is hard). NP-complete problems are the hardest problems in NP — if you could solve any one of them efficiently, you could solve all of them.
+
+**Decidability intuition:** Some problems are undecidable — no algorithm can solve them for all inputs. The halting problem is the canonical example: you cannot write a program that determines whether an arbitrary program will halt or run forever. This isn't a limitation of current technology — it's a fundamental mathematical fact.
+
+---
+
+## Key Concepts
+
+| Concept | Why It Matters |
+|---------|---------------|
+| **Chomsky hierarchy** | Regular ⊂ Context-free ⊂ Decidable ⊂ TM-recognisable |
+| **Reduction** | If A reduces to B and B is easy, then A is easy; if A is hard, then B is hard |
+| **Diagonalisation** | Proves existence of problems no algorithm can solve (halting problem) |
+| **P vs NP** | Whether efficient verification implies efficient solution; most believe P ≠ NP |
+| **Kolmogorov complexity** | Measures the shortest program that produces a given string; connects to randomness |
+
+---
+
+## Common Pitfalls
+
+**Confusing recognisability with decidability.** A TM can *recognise* a language (accept strings in it, reject or loop on others) without *deciding* it (halting on all inputs). The halting problem is recognisable but not decidable.
+
+**Using the pumping lemma incorrectly.** The pumping lemma says: if L is regular, then long strings can be pumped. To prove non-regularity, you must show *every* valid decomposition leads to a contradiction — one working decomposition is not enough.
+
+**Confusing NP with "not polynomial."** NP stands for Nondeterministic Polynomial time. It does not mean "problems without polynomial-time solutions."
+
+---
+
+<FlashcardDeck client:only="solid-js" deckId="uni-cs-theory" title="University CS -- Theory of Computation" description="Automata, formal languages, Turing machines, decidability, complexity classes" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />

@@ -184,6 +184,18 @@ $$\mu_{\hat{p}} = p, \quad \sigma_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}}$$
 
 Approximately normal when $np \geq 10$ and $n(1-p) \geq 10$.
 
+## Intuition
+
+Probability is the **mathematics of uncertainty** — it quantifies how likely events are and provides the foundation for statistical inference. The key insight is that probability statements are about *long-run frequencies*, not single events.
+
+**The addition rule intuition:** $P(A \cup B) = P(A) + P(B) - P(A \cap B)$. The subtraction of the intersection prevents double-counting — if you count all of A and all of B, you've counted the overlap twice.
+
+**Conditional probability intuition:** $P(A|B) = P(A \cap B) / P(B)$ restricts the sample space to event B. Think of it as "given that B has occurred, what fraction of those outcomes also have A?" Independence means $P(A|B) = P(A)$ — knowing B occurred doesn't change the probability of A.
+
+**Bayes' theorem intuition:** Bayes' theorem flips conditional probabilities: if you know $P(B|A)$ and want $P(A|B)$, you need to account for the base rates of both events. This is why medical test results must be interpreted in context — a positive test for a rare disease may still have a low probability of being a true positive.
+
+**The Central Limit Theorem:** This is the bridge between probability and inference. No matter what the population distribution looks like, the sampling distribution of the mean becomes approximately normal for large $n$. This is why z-scores and t-scores work — they rely on the CLT.
+
 ## Common Pitfalls
 
 - Confusing $P(A | B)$ with $P(B | A)$
@@ -193,3 +205,9 @@ Approximately normal when $np \geq 10$ and $n(1-p) \geq 10$.
 - Misapplying the central limit theorem with small sample sizes
 $
 - Confusing the mean of a random variable with its most probable value
+
+## Cross-References
+
+- **[Exploring Data](../1-exploring-data/1_exploring_data):** Probability distributions describe the theoretical models behind the data you explore.
+- **[Statistical Inference](../4-statistical-inference/4_statistical_inference):** The Central Limit Theorem is the foundation of all inference procedures.
+- **[Sampling](../2-sampling-experimentation/2_sampling_and_experimentation):** Random sampling relies on probability to ensure representative samples.

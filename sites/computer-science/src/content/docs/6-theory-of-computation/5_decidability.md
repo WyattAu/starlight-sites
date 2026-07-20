@@ -6,6 +6,14 @@ tags:
 description: "Decidability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
+## Intuition
+
+Decidability asks: **can an algorithm give a definitive yes/no answer for every input?** Some problems are fundamentally undecidable — no amount of cleverness or computing power can solve them for all cases. The halting problem is the canonical example: you cannot write a program that determines whether an arbitrary program will halt or loop forever.
+
+**Why the halting problem is undecidable:** The proof is by diagonalisation — if such a program H existed, we could construct a program D that does the opposite of what H predicts, creating a paradox. This is similar to the liar's paradox ("this statement is false") but made rigorous through computation.
+
+**Reductions intuition:** To prove a problem is undecidable, reduce a known undecidable problem to it. If A reduces to B and A is undecidable, then B is undecidable (because a decider for B would give a decider for A). This is the primary tool for proving undecidability results.
+
 ### 5.1 Decidable Languages
 
 **Theorem 5.1.** The following languages are decidable:

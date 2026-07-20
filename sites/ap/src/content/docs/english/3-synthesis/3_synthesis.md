@@ -200,6 +200,14 @@ of each body paragraph because it demonstrates your thinking.
   trends are consistent with broader national data from Source B, strengthening the overall
   argument."
 
+## Intuition
+
+Synthesis is about **weaving multiple sources into a coherent argument** — not just summarising them side by side. The key skill is evaluating which sources support, complicate, or contradict your thesis, then selecting the strongest combination.
+
+**Source evaluation:** Not all sources are equal. A peer-reviewed study carries more weight than an anonymous blog post. Consider the author's credentials, the date of publication, the methodology, and potential bias. On the AP exam, sources are provided, but you still need to evaluate their relevance and strength.
+
+**Integration techniques:** You can quote directly (for precise language), paraphrase (for clarity), or summarise (for breadth). The best synthesis essays use all three, and always explain *why* each source matters — never drop a quote without context.
+
 ## Common Pitfalls
 
 - Summarising sources without developing an argument

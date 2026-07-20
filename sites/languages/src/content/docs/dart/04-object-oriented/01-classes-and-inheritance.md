@@ -368,6 +368,14 @@ Syntactic sugar for static function calls. This means they cannot be used polymo
 `dynamic` variable won't have access to extension methods).
 
 
+## Intuition
+
+**Classes are blueprints, mixins are plug-and-play upgrades:** In Dart, `extends` gives you a single family tree — one parent, inherited traits. `implements` is a contract: "I promise to have these methods, but I'll write them myself." Mixins are the third option: grab-bag capabilities you snap onto any class without inheritance, like adding a USB device to a computer. Every class implicitly defines an interface, so any class can serve as a contract for another — no separate `interface` keyword needed.
+
+**Why it matters:** Single inheritance keeps the hierarchy simple, mixins prevent the "diamond problem," and implicit interfaces mean you can write test doubles for any class without designing for testability upfront.
+
+**The key insight:** Dart's three mechanisms (`extends`, `implements`, `with`) map to three distinct relationships: is-a, has-contract, and has-capability — choose the right one for each design problem.
+
 ## Common Pitfalls
 
 1. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already

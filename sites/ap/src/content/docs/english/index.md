@@ -88,6 +88,16 @@ choices in context.
 Worked examples demonstrating rhetorical analysis, argument construction, and synthesis are covered
 in the detailed sub-pages linked above.
 
+## Intuition
+
+AP English Language is about **the art of persuasion** — both analysing how others persuade and crafting your own persuasive arguments. The course centres on three skills: rhetorical analysis, argumentation, and synthesis.
+
+**Rhetorical analysis intuition:** Every text is designed to accomplish something. The rhetorical analysis essay asks you to identify the author's purpose, audience, and context, then explain *how* the author uses rhetorical strategies (ethos, pathos, logos, Kairos) to achieve that purpose. It's not about whether the argument is good — it's about how the author constructs it.
+
+**Argumentation intuition:** The argument essay tests your ability to develop a thesis and support it with evidence. The key is that evidence must be *interpreted*, not just listed. A strong argument acknowledges counterarguments, uses specific examples, and explains the reasoning connecting evidence to claims.
+
+**Synthesis intuition:** The synthesis essay gives you multiple sources and asks you to construct an argument using at least three of them. This mirrors real-world research — you must evaluate source credibility, identify areas of agreement and disagreement, and weave multiple perspectives into a coherent argument.
+
 ## Common Pitfalls
 
 - Merely listing rhetorical devices without explaining their effect on the audience or purpose.

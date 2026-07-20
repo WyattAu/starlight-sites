@@ -404,6 +404,14 @@ client := &http.Client{
 }
 ```
 
+## Intuition
+
+**Networking is a postal service with delivery guarantees:** TCP is like registered mail — you establish a connection (the postal route), send messages (data packets), and get confirmation of delivery. HTTP sits on top as a standardized form: everyone fills out the same template (method, headers, body). WebSockets are like keeping the phone line open instead of hanging up after each question. gRPC is a specialized courier service with a strict manifest (protobuf schema).
+
+**Why it matters:** Go's `net/http` is production-grade without external frameworks. Understanding the timeout layers (connection, TLS, header, body) prevents the most common production incident: a single slow client exhausting server resources.
+
+**The key insight:** Every network operation needs a timeout — without deadlines, a single misbehaving peer can permanently consume a goroutine and its memory.
+
 ## Common Pitfalls
 
 1. **No timeouts on connections.** TCP connections without deadlines block indefinitely. Always set

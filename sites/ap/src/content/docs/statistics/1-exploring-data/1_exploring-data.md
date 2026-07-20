@@ -200,6 +200,16 @@ Applying a **nonlinear transformation** (e.g., log, square root):
 - Can change the shape of the distribution
 - Often used to make skewed data more symmetric
 
+## Intuition
+
+Exploring data is about **seeing the story before computing the statistics**. A good graph reveals shape, centre, spread, and outliers — before you calculate a single number. The key is choosing the right display for the type of data you have.
+
+**Categorical vs quantitative — why it matters:** The type of variable determines everything: which graphs to draw, which statistics to compute, and which inference procedures to use. Categorical data gets bar charts and proportions; quantitative data gets histograms, boxplots, and means/standard deviations.
+
+**Mean vs median — the outlier story:** The mean is pulled toward outliers and skewness; the median is resistant. In a right-skewed distribution (like income data), the mean is always greater than the median. Always choose the measure of centre that matches the shape of the distribution.
+
+**The empirical rule is a shortcut, not a substitute:** The 68-95-99.7 rule only applies to *approximately normal* distributions. For skewed or irregular distributions, use the actual data or z-scores with the standard normal table.
+
 ## Common Pitfalls
 
 - Confusing categorical and quantitative variables
@@ -208,3 +218,9 @@ Applying a **nonlinear transformation** (e.g., log, square root):
 - Forgetting to identify outliers when describing a distribution
 - Confusing the standard deviation formula for samples ($n-1$) with populations ($N$)
 - Incorrectly interpreting the empirical rule for non-normal distributions
+
+## Cross-References
+
+- **[Probability](../3-probability/3_probability):** Probability distributions provide the theoretical foundation for understanding data patterns.
+- **[Statistical Inference](../4-statistical-inference/4_statistical_inference):** Descriptive statistics from exploring data feed into inferential procedures.
+- **[Regression](../5-regression/5_regression):** Scatterplots and correlation from exploring data are the starting point for regression analysis.

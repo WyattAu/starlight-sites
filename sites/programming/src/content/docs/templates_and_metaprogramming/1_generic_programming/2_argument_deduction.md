@@ -813,6 +813,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**Template argument deduction is like a detective figuring out the suspect:** The compiler looks at the function arguments and deduces the template parameters — like a detective looking at evidence and deducing the culprit. If you call `max(3, 5)`, the compiler deduces `T = int`. If you call `max(3.0, 5.0)`, it deduces `T = double`. The deduction rules are like the detective's reasoning process — they follow a strict hierarchy of rules to figure out the most specific type.
+
+**Why it matters:** Deduction lets you call templates without explicitly specifying template arguments — `max(3, 5)` instead of `max<int>(3, 5)`. But deduction can fail or produce unexpected results if the arguments are ambiguous. Understanding the deduction rules (including the new C++17 rules for class template argument deduction) is essential for writing usable templates.
+
+**The key insight:** The compiler deduces template arguments from function arguments using a strict hierarchy of rules — if the deduction is ambiguous, you must specify template arguments explicitly.
+
 ## Common Pitfalls
 
 1. **Array-to-pointer decay during deduction.** Passing an array to a template function by value

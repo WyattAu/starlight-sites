@@ -701,6 +701,14 @@ myReverse = go []
     go acc (x:xs) = go (x : acc) xs
 ```
 
+## Intuition
+
+**Pattern matching is structural sorting:** Imagine a mailroom where each letter is checked against a template. The `_` wildcard is the "miscellaneous" bin — anything that doesn't fit a specific template goes there. Nested patterns are like checking the envelope, then the letter inside, then the signature — each layer deconstructs further. Case expressions are the decision tree: the compiler generates a fast lookup table from your patterns, checking the most specific ones first.
+
+**Why it matters:** Pattern matching replaces defensive type-checking with structural verification. Instead of `if (x is Just && x.value > 0)` you write `Just x | x > 0` — the structure *is* the logic, making impossible states unrepresentable.
+
+**The key insight:** Haskell's pattern matching is total — when you cover all constructors, the compiler guarantees no runtime crashes from unmatched cases. Use `-Wall` to enforce this discipline.
+
 ## Pattern Matching Best Practices
 
 1. **List the most specific patterns first**: Patterns are matched top to bottom; a general pattern

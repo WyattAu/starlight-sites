@@ -579,6 +579,14 @@ int main() {
 Make the destructor `noexcept` and ensure cleanup operations are themselves `noexcept`. Use RAII
 Wrappers that handle errors internally rather than propagating them from destructors.
 </aside>
+## Intuition
+
+**`std::expected` is like a result that might be an error:** When you call a function that returns `expected<T, E>`, you get either a value of type `T` (success) or an error of type `E` (failure). It's like a box that's either labeled "success" with the result inside, or "failure" with the error inside. The monadic operations (`and_then`, `transform`, `or_else`) let you chain operations without manually checking for errors — like a pipeline that automatically short-circuits if any step fails.
+
+**Why it matters:** `std::expected` is the modern C++ approach to error handling that avoids exceptions. It combines the type safety of `optional` with the error information of exceptions. Unlike exceptions, it's visible in the function signature — you can see from the return type that a function might fail. The monadic operations make error handling composable, not repetitive.
+
+**The key insight:** `std::expected` makes error handling explicit in the type system and composable via monadic operations — no more exception specification guessing or manual error checking at every call site.
+
 ### Summary
 
 | Mechanism       | C++ Version | Error Richness    | Overhead (no error) | Composability            |

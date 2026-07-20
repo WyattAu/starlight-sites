@@ -585,6 +585,14 @@ PRNG.
 
 4. Ignoring feedback from marked work and failing to address recurring weaknesses.
 
+## Intuition
+
+**Random number generation is like a deck of cards:** The engine (`std::mt19937`) is the deck — it can produce any card in a defined order. The distribution (`std::uniform_int_distribution`) is the dealer — it takes cards from the deck and deals them in a specific range. The seed (`std::random_device`) is how you shuffle the deck — without it, you get the same order every time. The engine is deterministic (same seed → same sequence), but the distribution transforms that deterministic sequence into the statistical distribution you need.
+
+**Why it matters:** The C++ random library replaces the old `rand()`/`srand()` with a modern, type-safe, and statistically sound approach. `rand()` has known flaws (poor distribution, global state, limited range), while the chrono library provides engines with long periods, well-documented distributions, and per-instance state (no global variables).
+
+**The key insight:** The engine produces a deterministic sequence; the distribution transforms it into the statistical distribution you need — don't use `rand()`.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

@@ -72,6 +72,13 @@ The third charge should be placed at $x = 1.2$ m from the origin.
 
 **Common mistake:** Taking the negative square root. Since we are looking for a position between the charges where both forces oppose, the solution must be between $x = 0$ and $x = 3$.
 
+## Cross-References
+
+- **[Electric Field (02-electric-field.md)](02-electric-field.md):** Charges create electric fields, which exert forces on other charges — connecting charge to the field concept.
+- **[Current Electricity](../current-electricity/index.md):** Electric current is the flow of charge — understanding charge is the first step to understanding circuits.
+- **[Electrostatics](../index.md):** The broader topic that uses Coulomb's law to calculate fields, potentials, and forces from charge distributions.
+- **[Atoms and Nuclei (Physics)](../../atoms-nuclei/index.md):** Atomic structure depends on the electrostatic attraction between the positively charged nucleus and negatively charged electrons.
+
 ## Practice Problems
 
 1. Two charges of $+6 \, \mu\text{C}$ and $-2 \, \mu\text{C}$ are 0.3 m apart. Find the force between them.
@@ -82,6 +89,14 @@ The third charge should be placed at $x = 1.2$ m from the origin.
 
 4. Three equal charges of $+2 \, \mu\text{C}$ are placed at the vertices of an equilateral triangle of side 0.1 m. Find the net force on any one charge.
 5. A charge $q_1 = +1 \, \mu\text{C}$ is at the origin and $q_2 = +4 \, \mu\text{C}$ is at $x = 6$ m. A third charge is placed at $x = 2$ m. Find the net force on the third charge.
+
+## Intuition
+
+**The invisible force that holds matter together:** Electric charge is like an invisible property of matter — you can't see it, but you can see its effects when objects attract or repel. Think of it as a "social tendency": like charges (same type) avoid each other, while opposite charges are drawn together, just like magnets. The force between charges follows an inverse-square law — double the distance and the force drops to one quarter, just like gravity weakens with distance.
+
+**Why it matters:** Electric charge is the foundation of all electromagnetic phenomena — from the lightning in a thunderstorm to the signals in your brain. Understanding charge means understanding how batteries work, how computers process information, and how atoms bind together to form everything around you.
+
+**The key insight:** Charge comes in discrete packets (multiples of the elementary charge e = 1.6 × 10⁻¹⁹ C) and is always conserved — it can be transferred between objects but never created or destroyed, like a cosmic accounting system that always balances.
 
 ## Common Exam Patterns
 
@@ -98,3 +113,11 @@ The third charge should be placed at $x = 1.2$ m from the origin.
 3. Remember that Coulomb's law gives the magnitude; determine the direction from the signs of the charges.
 4. For three or more charges, use the superposition principle: compute the force from each pair separately.
 5. Check that your answer makes physical sense: like charges repel, unlike charges attract.
+
+## Common Mistakes
+
+**Forgetting to convert microcoulombs to coulombs.** The formula F = kq₁q₂/r² requires charges in coulombs, not microcoulombs. Always write 3 μC = 3 × 10⁻⁶ C before substituting. This single mistake can make your answer off by a factor of 10¹².
+
+**Adding force magnitudes directly without vector components.** Forces are vectors — when multiple charges act on a charge, you must resolve forces into components and add them vectorially, not just add the magnitudes. F_net ≠ F₁ + F₂ unless the forces are in the same direction.
+
+**Confusing the equilibrium position between two charges.** For two like charges, the equilibrium point is between them, closer to the smaller charge. For two unlike charges, the equilibrium point is outside the charges, on the side of the smaller charge (magnitude). Students often place the equilibrium point at the midpoint regardless of charge magnitudes.

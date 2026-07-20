@@ -81,11 +81,26 @@ $$f = \frac{8 \times 10^{-20}}{1.049 \times 10^{-26}} \approx 7.62 \times 10^6 \
 
 **Common mistake:** The cyclotron frequency is independent of the speed and radius of the particle. It depends only on the charge, mass, and magnetic field.
 
+## Cross-References
+
+- **[Current Electricity](../current-electricity/index.md):** Electric currents produce magnetic fields — understanding circuits is prerequisite to understanding magnetic effects.
+- **[Electrostatics](../electrostatics/index.md):** Charges at rest produce electric fields; charges in motion produce magnetic fields — they're the electromagnetic duality.
+- **[Atoms and Nuclei](../atoms-nuclei/index.md):** The Bohr model uses magnetic fields to explain atomic spectra and the Zeeman effect.
+- **[Optics](../optics/index.md):** Electromagnetic waves include visible light — Maxwell's equations unify magnetic effects with optics.
+
 ## Practice Problems
 
 1. Find the magnetic field at the centre of a circular coil of radius 0.2 m with 100 turns carrying 1.5 A.
 2. An electron moves at $10^7 \, \text{m/s}$ perpendicular to a field of $0.01 \, \text{T}$. Find the radius of its circular path.
 3. A solenoid of length 0.5 m has 2000 turns. Find the current required to produce a field of $2 \times 10^{-3} \, \text{T}$.
+
+## Intuition
+
+**Electricity and magnetism are two faces of the same coin:** Moving charges create magnetic fields, and changing magnetic fields create electric currents — they're inseparable partners. Think of a wire carrying current as creating an invisible magnetic "halo" around it, like a force field. A solenoid (coil of wire) concentrates this field inside, making it uniform — like organizing scattered magnets into a neat row so their fields reinforce. The force on a moving charge in a magnetic field is always perpendicular to its motion, which is why charged particles spiral in circles rather than straight lines.
+
+**Why it matters:** Magnetic effects underpin electric motors (which power everything from fans to electric cars), generators (which produce the electricity you use), MRI machines (which use magnetic fields to image your body), and particle accelerators (which explore the fundamental structure of matter).
+
+**The key insight:** The magnetic force on a moving charge is always perpendicular to both velocity and field, meaning it changes direction but never speed — it's the ultimate "turning force" that makes circular motion possible without doing work.
 
 ## Common Exam Patterns
 

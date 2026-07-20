@@ -347,6 +347,14 @@ if [ "$coverage" -lt 80 ]; then
 fi
 ```
 
+## Intuition
+
+**Tests are contracts you write for yourself:** Think of a test as a tiny specification: "given this input, I expect this output." Table-driven tests are like a checklist — you lay out every scenario in one place and run through them systematically. Fuzzing is like shaking a vending machine at random angles to find the combination that makes it jam. Benchmarks are a stopwatch for your code — you don't need them until someone complains about speed, but then they're indispensable.
+
+**Why it matters:** Go's built-in testing framework removes all friction from writing tests. No external dependencies, no configuration files — just `*_test.go` files and `go test`. This means there's no excuse not to test.
+
+**The key insight:** Good tests are behavioral contracts — they test what the code does, not how it does it, so you can refactor freely without breaking the test suite.
+
 ## Common Pitfalls
 
 1. **Testing implementation details.** Test behaviour, not internals. If you use `reflect` to

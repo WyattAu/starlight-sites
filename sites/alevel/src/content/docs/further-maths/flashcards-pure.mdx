@@ -1,6 +1,6 @@
 ---
 title: "A-Level Further Maths Flashcards: Pure Mathematics"
-description: "ALEVEL Further Maths flashcards: A-Level Further Maths Flashcards: Pure Mathematics. Comprehensive study material with definitions, examples, and assessment"
+description: "A-Level Further Maths flashcards covering complex numbers, matrices, proof by induction, hyperbolic functions, differential equations, polar coordinates, and series with spaced repetition."
 tags:
   - Further Maths
   - A-Level
@@ -14,6 +14,40 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## A-Level Further Maths -- Pure Mathematics Flashcards
 
 20 flashcards with spaced repetition. Press Space to flip, then rate your recall (1--4).
+
+### What These Flashcards Cover
+
+These flashcards cover the advanced pure mathematics content unique to Further Maths. You will work with complex numbers, matrices, hyperbolic functions, and more sophisticated techniques for solving differential equations.
+
+**Key areas:**
+
+- **Complex Numbers:** $i^{2} = -1$. A complex number $z = x + iy$ has modulus $|z| = \sqrt{x^{2} + y^{2}}$ and argument $\arg(z) = \tan^{-1}\left(\frac{y}{x}\right)$. Polar form: $z = r(\cos\theta + i\sin\theta) = re^{i\theta}$. De Moivre's theorem: $z^{n} = r^{n}(\cos n\theta + i\sin n\theta)$.
+- **Argand Diagrams:** Represent complex numbers as points on a plane with real axis (horizontal) and imaginary axis (vertical). The modulus is the distance from the origin; the argument is the angle from the positive real axis.
+- **Roots of Unity:** The $n$th roots of unity are $e^{2\pi ik/n}$ for $k = 0, 1, \ldots, n-1$. They lie on a circle of radius 1 in the Argand diagram, equally spaced at angles of $\frac{2\pi}{n}$.
+- **Matrices:** A matrix is a rectangular array of numbers. Matrix addition and multiplication follow specific rules. Determinant of a $2 \times 2$: $\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$. Inverse: $\frac{1}{ad-bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$. A matrix is singular if its determinant is zero.
+- **Proof by Induction:** To prove $P(n)$ for all $n \geq 1$: (1) Show $P(1)$ is true (base case). (2) Assume $P(k)$ is true (inductive hypothesis). (3) Show $P(k+1)$ is true using the hypothesis. Used for series summation, divisibility, and matrix results.
+- **Hyperbolic Functions:** $\cosh x = \frac{e^{x} + e^{-x}}{2}$, $\sinh x = \frac{e^{x} - e^{-x}}{2}$, $\tanh x = \frac{\sinh x}{\cosh x}$. Identity: $\cosh^{2}x - \sinh^{2}x = 1$. Derivatives: $\frac{d}{dx}\sinh x = \cosh x$, $\frac{d}{dx}\cosh x = \sinh x$.
+- **Differential Equations (Advanced):** First-order linear: $\frac{dy}{dx} + P(x)y = Q(x)$, solved using integrating factor $\mu = e^{\int P\,dx}$. Second-order with constant coefficients: $ay'' + by' + cy = 0$ solved using auxiliary equation $am^{2} + bm + c = 0$.
+- **Polar Coordinates:** $(r, \theta)$ where $x = r\cos\theta$, $y = r\sin\theta$. Area in polar coordinates: $A = \frac{1}{2}\int r^{2}\,d\theta$. Converting between Cartesian and polar forms.
+
+---
+
+### Intuition
+
+Complex numbers extend the number line into a plane. Where real numbers describe position along a line, complex numbers describe position on a 2D surface (the Argand diagram). Multiplication by $i$ is a rotation of 90 degrees.
+
+Matrices are a shorthand for systems of linear equations. When you multiply a matrix by a vector, you are transforming that vector -- rotating, scaling, shearing, or reflecting it. The determinant measures how much the matrix scales areas.
+
+Hyperbolic functions are the "cousins" of trigonometric functions but based on exponentials rather than circles. Where $\cos$ and $\sin$ describe circular motion, $\cosh$ and $\sinh$ describe growth and decay.
+
+---
+
+### Common Pitfalls
+
+1. **Argument range.** The argument $\arg(z)$ should be in $(-\pi, \pi]$. The calculator gives $\tan^{-1}(y/x)$, which may need adjusting by adding or subtracting $\pi$ depending on the quadrant.
+2. **Matrix multiplication is not commutative.** $AB \neq BA$ in general. Multiplying in the wrong order gives a different (often wrong) answer.
+3. **Forgetting the base case in induction.** Without showing $P(1)$ is true, the inductive argument has no foundation. You must always verify the base case.
+4. **Sign errors in the auxiliary equation.** For $ay'' + by' + cy = 0$, the auxiliary equation is $am^{2} + bm + c = 0$. A common error is using $am^{2} - bm + c = 0$ or forgetting to divide through by $a$.
 
 ---
 

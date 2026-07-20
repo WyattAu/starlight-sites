@@ -1,6 +1,6 @@
 ---
 title: "A-Level Maths: Statistics Practice"
-description: "18 MCQ practice problems covering core A-Level Statistics content. Comprehensive educational content coverage with definitions and practice problems."
+description: "18 MCQ practice problems covering probability, distributions, hypothesis testing, and data analysis. Detailed explanations included."
 tags:
   - Maths
   - A-Level
@@ -13,9 +13,45 @@ import { practiceQuestions } from '@/data/flashcards/maths/practice-statistics-d
 
 18 MCQ practice problems covering core A-Level Statistics content.
 
+### What These Questions Test
+
+These problems test your understanding of probability, statistical distributions, data representation, and hypothesis testing. You will need to calculate probabilities, interpret diagrams, and apply statistical methods.
+
+**Typical question types:**
+
+- **Data Representation:** Interpreting histograms, box plots, cumulative frequency diagrams, and scatter graphs. Calculating mean, median, mode, range, interquartile range, and standard deviation.
+- **Probability:** Sample spaces, tree diagrams, Venn diagrams. Conditional probability $P(A|B) = \frac{P(A \cap B)}{P(B)}$. Independent events: $P(A \cap B) = P(A) \times P(B)$. Mutually exclusive events: $P(A \cup B) = P(A) + P(B)$.
+- **Probability Distributions:** Binomial distribution $X \sim B(n, p)$: $P(X = r) = \binom{n}{r}p^{r}(1-p)^{n-r}$. Conditions: fixed number of trials, two outcomes, constant probability, independent trials. Normal distribution $X \sim N(\mu, \sigma^{2})$: symmetric, bell-shaped, defined by mean and standard deviation.
+- **Hypothesis Testing:** Null and alternative hypotheses. Significance level ($\alpha$). Critical regions. $p$-values. Type I and Type II errors. Comparing observed frequencies with expected frequencies using $\chi^{2}$ tests.
+- **Regression and Correlation:** Interpreting scatter diagrams and lines of best fit. Understanding correlation does not imply causation. Using regression lines for prediction (within the range of data).
+
 ---
 
-### Practice Questions
+### Approach Strategy
+
+1. **Identify the distribution.** Before calculating, determine which distribution applies. Is it binomial (discrete, fixed $n$) or normal (continuous, symmetric)?
+2. **Write down the parameters.** For binomial: state $n$ and $p$. For normal: state $\mu$ and $\sigma$. This avoids confusion in later steps.
+3. **Use tables or calculator correctly.** Binomial probabilities come from tables or formula. Normal probabilities require standardisation: $Z = \frac{X - \mu}{\sigma}$, then use standard normal tables.
+4. **Interpret in context.** A $p$-value of 0.03 means "if the null hypothesis were true, there is a 3% chance of obtaining these results." This is not the probability that the null hypothesis is true.
+
+---
+
+### Intuition
+
+Statistics is about making decisions under uncertainty. You never have perfect information -- you have a sample, and you use it to make inferences about a population. The tools of statistics (probability distributions, hypothesis tests) are designed to quantify how confident you can be in those inferences.
+
+Think of a hypothesis test as a courtroom trial. The null hypothesis is "innocent until proven guilty." You gather evidence (data), and if it is strong enough (below the significance level), you reject the null hypothesis.
+
+---
+
+### Common Mistakes
+
+1. **Confusing permutations and permutations.** Order matters in permutations ($^{n}P_{r} = \frac{n!}{(n-r)!}$) but not in combinations ($\binom{n}{r} = \frac{n!}{r!(n-r)!}$). Using the wrong one gives incorrect probabilities.
+2. **Misinterpreting the $p$-value.** A $p$-value is NOT the probability that the null hypothesis is true. It is the probability of obtaining results at least as extreme as the observed data, assuming the null hypothesis is true.
+3. **Using the normal approximation for small samples.** The normal distribution is an approximation for the binomial when $n$ is large and $p$ is not too close to 0 or 1 (rule of thumb: $np > 5$ and $n(1-p) > 5$).
+4. **Forgetting that correlation is not causation.** Two variables can be strongly correlated without one causing the other. A third variable (confounding variable) may explain both.
+
+---
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />

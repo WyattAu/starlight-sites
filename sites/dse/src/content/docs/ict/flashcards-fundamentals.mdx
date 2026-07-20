@@ -17,5 +17,24 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ---
 
+### Additional Flashcard Topics
+
+- **Binary to Decimal Conversion**: multiply each binary digit by 2 raised to the power of its position (starting from 0 on the right). For example, 1011₂ = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 11₁₀.
+
+- **Hexadecimal System**: base-16 number system using digits 0-9 and letters A-F. One hexadecimal digit represents exactly 4 binary digits (nibbles), making it a compact way to represent binary data.
+
+- **CPU Components**: the ALU (Arithmetic Logic Unit) performs calculations, the Control Unit directs operations, and registers provide fast temporary storage. The fetch-decode-execute cycle is the fundamental operation of a CPU.
+
+- **Memory Hierarchy**: registers (fastest, smallest) → cache (L1, L2, L3) → RAM → SSD/HDD → optical/magnetic (slowest, largest). Each level trades speed for capacity and cost.
+
+## Intuition
+
+ICT fundamentals are like the anatomy of a computer. Just as a doctor needs to know organs and their functions, an ICT student needs to understand components (CPU, memory, storage) and how data flows between them. Binary is the "language" of computers, just as DNA is the language of biology.
+
+## Common Pitfalls
+
+- **Confusing RAM and ROM**: RAM is volatile (loses data when power off), ROM is non-volatile (retains data). Students often mix up their characteristics.
+- **Forgetting byte conversions**: 1 byte = 8 bits, 1 KB = 1024 bytes. The "kilo" in computing is 1024, not 1000.
+- **Mixing up network topologies**: star topology has a central hub (single point of failure), bus topology uses a shared cable (cheaper but less reliable). Don't confuse their advantages.
 
 <FlashcardDeck client:only="solid-js" deckId="dse-ict-fundamentals" title="DSE ICT: Fundamentals" description="Number systems, data representation, CPU architecture, memory hierarchy, storage devices, and network topologies for the HKDSE ICT exam" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />

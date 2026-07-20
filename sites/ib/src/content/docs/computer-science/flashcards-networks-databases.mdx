@@ -10,12 +10,34 @@ tags:
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/computer-science/flashcards-networks-databases-data.js';
 
-
 ## Computer Science -- Networks and Databases Flashcards
 
 20 interactive flashcards for IB Computer Science. Press Space to flip, rate 1-4.
 
 ---
 
+### Key Concepts
+
+**Network Topologies**: Star (central hub, easy to manage, single point of failure), bus (single cable, cheap but hard to troubleshoot), mesh (multiple paths, high reliability, expensive), ring (data travels in one direction, predictable but one failure breaks the network). Most modern networks use star topology.
+
+**OSI Model**: Seven layers from bottom to top: Physical (cables, signals), Data Link (frames, MAC addresses), Network (packets, IP addresses), Transport (TCP/UDP, reliability), Session (connections), Presentation (encryption, compression), Application (user interface). Data moves down when sending, up when receiving.
+
+**Relational Databases**: Data is stored in tables (relations) with rows (records) and columns (fields). Primary keys uniquely identify records; foreign keys link tables. SQL is used to query (SELECT), modify (INSERT, UPDATE, DELETE), and manage (CREATE, ALTER) data.
+
+**Normalisation**: The process of organising tables to reduce redundancy and improve data integrity. First normal form (1NF) eliminates repeating groups. Second normal form (2NF) removes partial dependencies. Third normal form (3NF) removes transitive dependencies.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ib-cs-networks-databases" title="IB CS -- Networks and Databases" description="Network models, protocols, encryption, relational databases, and SQL" cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+
+---
+
+## Intuition
+
+Think of a network as a postal system. The OSI model is the journey of a letter: it's written (application), put in an envelope (presentation), given a destination address (network), assigned a delivery method (transport), and transmitted through physical infrastructure (physical). A database is like a well-organised library -- normalisation ensures each book is in exactly one place, so you don't have duplicates cluttering the shelves.
+
+## Common Pitfalls
+
+- Confusing the OSI layers. The most commonly confused are Network (IP addresses, routing) and Transport (TCP/UDP, reliability). Remember: Network = "where to go"; Transport = "how to get there reliably."
+- Forgetting that SQL is case-insensitive for keywords but case-sensitive for data. SELECT and select are the same, but 'John' and 'john' are different values.
+- Assuming normalisation is always better. Over-normalisation can slow down queries because data is spread across many tables that must be joined. Sometimes a denormalised design is more efficient for read-heavy applications.

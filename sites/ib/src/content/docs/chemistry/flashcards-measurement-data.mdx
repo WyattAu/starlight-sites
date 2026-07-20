@@ -10,12 +10,34 @@ description: "IB Chemistry flashcards: IB Chemistry Flashcards: Measurement and 
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/chemistry/flashcards-measurement-data-data.js';
 
-
 ## IB Chemistry — Measurement and Data Processing Flashcards
 
 20 interactive flashcards. Press Space to flip, rate 1-4.
 
 ---
 
+### Key Concepts
+
+**Significant Figures**: All non-zero digits are significant. Leading zeros are not significant. Trailing zeros after a decimal point are significant. In calculations, the result should be reported to the same number of significant figures as the least precise measurement.
+
+**Uncertainty**: Every measurement has uncertainty. Absolute uncertainty is ± the smallest division of the instrument. Relative uncertainty = (absolute uncertainty / measured value) × 100%. For readings from analogue scales, uncertainty is typically ± half the smallest division.
+
+**Propagation of Uncertainties**: When adding/subtracting, add absolute uncertainties. When multiplying/dividing, add percentage uncertainties. For powers, multiply the percentage uncertainty by the power. These rules ensure the final uncertainty reflects all sources of error.
+
+**Graphical Analysis**: A best-fit line should pass through or near most points, with roughly equal numbers above and below. The gradient gives the rate of change; the area under a curve gives the integrated quantity. Outliers should be identified but not automatically excluded without justification.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ib-chem-measurement-data" title="IB Chemistry: Measurement and Data Processing" description="Uncertainty, significant figures, errors in measurement, propagation of uncertainty, titration errors, and graphical analysis." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+
+---
+
+## Intuition
+
+Think of uncertainty as the "fuzziness" of a measurement. A ruler marked in millimetres is fuzzy to ±0.5 mm; a burette marked in 0.1 mL increments is fuzzy to ±0.05 mL. When you combine measurements (like dividing mass by volume), the fuzziness accumulates -- that's propagation of uncertainty. Significant figures are the code for communicating how fuzzy your result is.
+
+## Common Pitfalls
+
+- Reporting too many significant figures. If your balance reads to ±0.01 g and you measure 2.34 g, claiming the result is 2.3412 g implies false precision. Match your sig figs to your measurement precision.
+- Forgetting to include units in uncertainty calculations. Uncertainties must have the same units as the measured value -- you can't add a uncertainty in grams to one in millilitres.
+- Using the wrong propagation rule. Addition/subtraction uses absolute uncertainties; multiplication/division uses percentage uncertainties. Mixing these up gives incorrect final uncertainties.

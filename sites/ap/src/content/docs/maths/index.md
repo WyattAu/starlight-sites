@@ -80,6 +80,14 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Calculus is the mathematics of **change and accumulation**. The derivative measures instantaneous rate of change; the integral measures accumulated quantity. The Fundamental Theorem of Calculus connects them: differentiation and integration are inverse operations.
+
+**The limits foundation:** Everything in calculus rests on limits. A derivative is a limit of a difference quotient. An integral is a limit of Riemann sums. Continuity (no jumps, no holes) is defined by limits. Master limits first — the rest builds on them.
+
+**The big picture:** Limits give you derivatives. Derivatives give you optimisation, related rates, and curve sketching. Integrals give you area, volume, and accumulation. Differential equations model real-world growth, decay, and oscillation. Series (BC) approximate functions that can't be integrated analytically.
+
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
@@ -124,3 +132,9 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+
+## Cross-References
+
+- **[AP Physics](/ap/physics):** Calculus is essential for Physics C — kinematics, work, and circuits all require derivatives and integrals.
+- **[AP Statistics](/ap/statistics):** Probability and distributions in statistics use concepts from calculus.
+- **[AP Computer Science](/ap/computer-science):** Algorithm analysis uses limits and series to describe time complexity.

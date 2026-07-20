@@ -69,6 +69,21 @@ Bond angles: approximately $90°$ and $180°$ (slightly less due to lone pair re
 
 **Common mistake:** Assuming the shape is trigonal bipyramidal. The lone pairs reduce the molecular geometry to T-shaped.
 
+## Common Mistakes
+
+**Using NO₂ as the product for dilute HNO₃ reactions.** Dilute HNO₃ produces NO gas, while concentrated HNO₃ produces NO₂. This distinction is critical in exam questions about copper or other metals reacting with nitric acid. The difference arises because concentrated HNO₃ is a stronger oxidizing agent.
+
+**Confusing the stability of sulfur allotropes.** Rhombic sulfur is more stable below 95.5°C, not monoclinic. Students often assume monoclinic is always more stable because it exists at higher temperatures. Temperature determines which allotrope is the thermodynamic product.
+
+**Assuming all Group 18 elements are completely inert.** Xenon forms compounds like XeF₂, XeF₄, and XeF₆ with fluorine under appropriate conditions. Only helium and neon are truly inert under normal conditions.
+
+## Cross-References
+
+- **[Coordination Compounds](../coordination/index.md):** P-block elements form ligands (NH₃, CN⁻, Cl⁻) in coordination complexes, connecting group chemistry to coordination chemistry.
+- **[D-Block Elements](../d-block/index.md):** Comparing p-block and d-block trends reveals why transition metals have variable oxidation states while p-block elements follow stricter rules.
+- **[Solutions](../solutions/index.md):** Many p-block compounds dissolve to form electrolytic solutions, linking their chemistry to colligative properties and conductivity.
+- **[Surface Chemistry](../surface-chemistry/index.md):** Adsorption of p-block gases on surfaces is central to industrial catalysis (e.g., SO₃ in sulfuric acid manufacture).
+
 ## Practice Problems
 
 1. Write the reaction of $\text{NH}_3$ with excess $\text{Cl}_2$.
@@ -78,6 +93,14 @@ Bond angles: approximately $90°$ and $180°$ (slightly less due to lone pair re
 ## Why This Matters
 
 P-block elements are essential for life (N, O, S), industry (Cl, P, S), and technology (Si, Se, Te). Understanding their chemistry is crucial for environmental science, medicine, and materials development.
+
+## Intuition
+
+**The periodic table's right side is a chemical playground:** P-block elements span from life-essential nitrogen and oxygen to inert noble gases, all because they're filling p-orbitals. Think of p-orbitals as three dumbbell-shaped regions pointing along x, y, z axes — as you move across the block, electrons fill these orbitals one by one, systematically changing each element's reactivity. The first element in each group behaves differently from the rest because it's small, has no d-orbitals available for bonding, and forms unusually strong bonds (like N≡N's triple bond).
+
+**Why it matters:** P-block elements are literally everywhere — nitrogen makes up 78% of the air you breathe, oxygen sustains life, chlorine purifies water, and silicon powers your computer chips. Understanding their chemistry means understanding the world around you.
+
+**The key insight:** The anomalous behavior of first elements (N, O, F) arises from their tiny size and lack of d-orbitals, making them behave nothing like their heavier congeners.
 
 ## Common Exam Patterns
 

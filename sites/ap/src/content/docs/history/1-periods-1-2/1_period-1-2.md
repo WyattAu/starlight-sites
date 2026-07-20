@@ -160,7 +160,17 @@ Encomienda system, Columbian Exchange, headright system, House of Burgesses, May
 Puritan, Quaker, mercantilism, Navigation Acts, Middle Passage, Great Awakening, Stono Rebellion,
 Bacon's Rebellion, King Philip's War, triangular trade, chattel slavery
 
-## Exam Tips
+## Intuition
+
+Periods 1-2 (1491-1754) establish the **foundations of American diversity**. Before European contact, the Americas contained hundreds of distinct societies with different economies, governance systems, and cultures. European colonisation didn't create a single "American" society — it created a collision of multiple worlds.
+
+**The Columbian Exchange as turning point:** The transfer of plants, animals, diseases, and people between hemispheres was arguably the most significant event in human history. Diseases killed up to 90% of Native Americans — this demographic collapse, not military superiority, was the primary factor enabling European conquest.
+
+**Regional differences matter:** The Chesapeake (tobacco, labour-intensive, high mortality), New England (subsistence farming, religious communities), Middle Colonies (diverse, commercially oriented), and Southern Colonies (plantation agriculture) developed very different societies from the start. These regional differences would ultimately contribute to the Civil War a century later.
+
+**The evolution of slavery:** Slavery wasn't always racial or permanent. The shift from indentured servitude to chattel slavery in the late 1600s (accelerated by Bacon's Rebellion) was a deliberate choice by elites to create a more controllable labour force. Understanding this evolution is key to understanding American race relations.
+
+## Common Pitfalls
 
 - Compare colonial regions (Chesapeake vs New England) for similarities and differences
 - Connect the Columbian Exchange to broader themes of demographic and economic change

@@ -313,7 +313,20 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Integral diagnostics test whether you can **set up integrals correctly** and distinguish between the two parts of the Fundamental Theorem of Calculus. The most common error is confusing FTC Part 1 (derivative of an integral) with Part 2 (evaluation of a definite integral).
+
+**FTC Part 1 vs Part 2:** Part 1 says $\frac{d}{dx}\int_a^x f(t)\,dt = f(x)$ — the derivative of an accumulation function gives back the integrand. Part 2 says $\int_a^b f(x)\,dx = F(b) - F(a)$ — you evaluate the antiderivative at the bounds. These are different operations serving different purposes.
+
+**Riemann sum intuition:** A Riemann sum approximates area by dividing it into rectangles. Left endpoints, right endpoints, and midpoints give different approximations. The key insight is that the *error* in a Riemann sum is proportional to the width of the subintervals — halving the width roughly halves the error.
+
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Cross-References
+
+- **[Integrals](../../3-integrals/3_integrals):** The full topic page covering FTC, Riemann sums, and all integration techniques.
+- **[Differential Equations](../../4-differential-equations/4_differential-equations):** Separable differential equations are solved by integrating both sides.

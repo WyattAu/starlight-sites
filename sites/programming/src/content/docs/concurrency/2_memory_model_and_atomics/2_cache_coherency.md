@@ -799,6 +799,14 @@ int main() {
 By sharding the counter across multiple cache lines, each thread accesses a different line,
 Eliminating false sharing entirely. The total is computed by summing all shards.
 
+## Intuition
+
+**False sharing is like two neighbors fighting over the same parking spot:** Imagine two neighbors who each have their own car, but both park in the same driveway. Every time Neighbor A pulls out, Neighbor B's car is blocked, and vice versa. They're not sharing a car (the data is independent), but they're fighting over the same physical space (the cache line). The fix is simple: give each neighbor their own driveway (pad to separate cache lines).
+
+**Why it matters:** False sharing is one of the most insidious performance killers in concurrent code. Your variables are logically independent, your locks are correct, but performance degrades by 10-100x because the hardware treats adjacent memory as a single unit. Understanding cache lines (64 bytes on x86) and using `alignas(64)` is the difference between code that scales and code that doesn't.
+
+**The key insight:** The MESI protocol ensures cache coherence, but it doesn't prevent store-to-load reordering — that's why you need explicit memory orderings, not just cache coherency.
+
 ## Common Pitfalls
 
 - **False sharing with `std::atomic`:** Atomic variables on the same cache line cause coherence

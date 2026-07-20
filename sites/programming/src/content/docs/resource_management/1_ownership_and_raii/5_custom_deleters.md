@@ -723,6 +723,14 @@ auto arr2 = std::shared_ptr<int>(new int[10], [](int* p) { delete[] p; });
 C++17, managing arrays with `shared_ptr` required manually passing `default_delete&lt;T[]&gt;` or a
 Lambda.
 
+## Intuition
+
+**Custom deleters are like specialized cleanup instructions:** When you check out of a hotel, you don't just leave — you follow a checkout procedure (return the key, check the minibar, etc.). A custom deleter is the checkout procedure for your resource. For a FILE*, it's `fclose()`. For a socket, it's `close()`. For a GLFW window, it's `glfwDestroyWindow()`. Without a custom deleter, `unique_ptr` calls `delete` — which is wrong for non-heap resources.
+
+**Why it matters:** Not all resources are heap-allocated. Files, sockets, GPU buffers, and OS handles all need specific cleanup functions. Custom deleters let `unique_ptr` and `shared_ptr` manage these resources correctly. The deleter is part of the type — `unique_ptr<FILE, decltype(&fclose)>` is a different type from `unique_ptr<int>`, so you can't mix them.
+
+**The key insight:** Custom deleters are part of the smart pointer's type — they enable managing non-heap resources (files, sockets, handles) with the same RAII pattern as heap memory.
+
 ## Summary
 
 | Ownership Model    | Smart Pointer        | Size (x86_64) | Semantics                   | Thread-Safe Refcount |

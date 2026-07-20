@@ -438,6 +438,14 @@ Since C++11, the initialization of function-local static variables is guaranteed
 Exactly one thread performs the initialization, and all other threads wait until it completes. This
 Is the preferred idiom in modern C++.
 
+## Intuition
+
+**A data race is like two people writing to the same whiteboard simultaneously:** If two threads try to write to the same variable at the same time, neither knows what the other wrote. One write gets lost — like two people erasing and rewriting the same whiteboard at the same time. The result is unpredictable: sometimes you see one value, sometimes the other, sometimes garbage. This isn't just a "might get wrong answers" problem — the compiler assumes it never happens and optimizes aggressively, which can cause completely unrelated code to break.
+
+**Why it matters:** Data races are the most common source of bugs in concurrent programs, and they are undefined behavior in C++. This means the compiler can generate any code it wants — including code that appears to work in debug builds but fails catastrophically in release. Tools like ThreadSanitizer exist specifically because these bugs are nearly impossible to find by inspection.
+
+**The key insight:** A data race is not just "two threads accessing the same data" — it requires concurrent access, at least one write, and no happens-before ordering between them.
+
 ## Common Pitfalls
 
 **Assuming `volatile` prevents data races.** `volatile` in C++ tells the compiler not to optimize

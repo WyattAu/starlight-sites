@@ -468,6 +468,14 @@ And do not have a projection parameter:
 
 For these algorithms, use `std::views::transform` as a preprocessing step instead.
 
+## Intuition
+
+**Projections are like custom sort keys:** Instead of sorting the actual objects, you sort based on a transformed version of each object. It's like sorting students by their GPA instead of their names — the projection function extracts the GPA from each student object, and the algorithm sorts based on that. The projection is applied before the comparison, so you can sort by any attribute without modifying the original objects.
+
+**Why it matters:** Projections eliminate the need for custom comparators in most cases. Instead of writing a lambda that compares `a.name < b.name`, you can project with `&Person::name` and let the default comparator handle it. This is cleaner, more composable, and less error-prone. C++20 ranges algorithms all support projections.
+
+**The key insight:** Projections transform elements before comparison — instead of custom comparators, project the attribute you want to sort by.
+
 ## Common Pitfalls
 
 ### 1. Projection Return Type Must Match Comparator

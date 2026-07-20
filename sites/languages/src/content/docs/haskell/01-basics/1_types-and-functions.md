@@ -802,6 +802,14 @@ pairs = zip <*> tail
 -- Prefer the named version
 ```
 
+## Intuition
+
+**Types are contracts, functions are machines:** In Haskell, a type signature like `Int -> Int -> Int` is a contract that says "this machine takes two integers and produces an integer." The compiler verifies that every machine honors its contract. Currying is the assembly line trick: instead of one machine that takes two parts, you have a machine that takes one part and returns a *new machine* that takes the second part. Partial application is snapping the first machine onto the line and getting a custom machine for free.
+
+**Why it matters:** Haskell's type system is so powerful that the types alone tell you what a function does. A function with type `[a] -> [a]` *must* rearrange elements without adding or removing any — the type forces this behavior. This makes code self-documenting and enables refactoring with confidence.
+
+**The key insight:** In Haskell, "partial application" isn't a special feature — it's the default. Every function takes exactly one argument and returns either a result or another function, which means you can compose and transform functions like building blocks.
+
 ## Putting It All Together
 
 ```haskell

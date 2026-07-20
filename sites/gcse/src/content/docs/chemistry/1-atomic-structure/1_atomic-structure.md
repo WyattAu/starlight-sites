@@ -10,6 +10,14 @@ categories:
 
 ---
 
+## Intuition
+
+Chemistry starts with atoms — **the smallest units of an element that retain its properties**. Everything around you (air, water, your body) is made of atoms bonded together. The key insight is that an atom's behaviour is determined almost entirely by its electrons, especially the outermost (valence) electrons. Elements in the same group of the periodic table share the same number of valence electrons, which is why they react in similar ways.
+
+**Why electron configuration matters:** The arrangement of electrons in energy levels (shells) determines how an atom bonds, what reactions it undergoes, and what properties the element has. A full outer shell (noble gases) means the atom is stable and unreactive. An almost-full or almost-empty outer shell means the atom is highly reactive — it wants to gain or lose electrons to reach stability.
+
+**Isotopes intuition:** Isotopes are atoms of the same element with different numbers of neutrons. Since neutrons don't affect chemical behaviour, isotopes of an element have identical chemical properties. The difference shows up in nuclear stability (some isotopes are radioactive) and in mass (heavier isotopes are used in nuclear power and medical imaging).
+
 ## Atomic Structure
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR A Gateway C1 | WJEC C1

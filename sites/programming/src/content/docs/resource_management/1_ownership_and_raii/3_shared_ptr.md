@@ -721,6 +721,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**`std::shared_ptr` is like a group ownership contract:** Multiple people can own the same resource simultaneously. Each owner has a reference count — when the count reaches zero, the resource is freed. It's like a library book with multiple borrowers — as long as at least one person has the book checked out, it stays in circulation. The control block (reference count + weak count + deleter) is the library's tracking system.
+
+**Why it matters:** `shared_ptr` is essential when ownership is genuinely shared — like a cache that multiple threads access, or a graph where multiple nodes point to the same object. But it comes with overhead: atomic reference counting, heap-allocated control block, and potential cyclic references (use `weak_ptr` to break cycles). Use `unique_ptr` by default, and `shared_ptr` only when you truly need shared ownership.
+
+**The key insight:** `shared_ptr` uses atomic reference counting — each copy and destruction is an atomic increment/decrement, which has real performance cost under contention.
+
 ## Common Pitfalls
 
 1. **Reference cycles.** Two `shared_ptr` objects pointing to each other will never be destroyed.

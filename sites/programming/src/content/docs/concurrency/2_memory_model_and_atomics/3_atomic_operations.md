@@ -616,6 +616,14 @@ public:
 approach is Platform-specific. For a portable solution, use a separate `std::atomic&lt;uint64_t&gt;`
 tag Alongside the pointer, or use hazard pointers.
 </aside>
+## Intuition
+
+**An atomic operation is like a bank transaction that either fully completes or doesn't happen at all:** When you transfer money, the bank doesn't debit your account and then forget to credit the other account — the transaction is atomic. `std::atomic` gives you the same guarantee for memory operations: the read-modify-write happens as a single, indivisible step. No other thread can see a half-completed operation.
+
+**Why it matters:** Atoms are the building blocks of lock-free programming. Instead of using a mutex (which blocks threads), you can use atomic operations to coordinate between threads without ever putting anyone to sleep. But lock-free doesn't mean wait-free — a thread can still starve if other threads keep winning the CAS race.
+
+**The key insight:** `compare_exchange_weak` may fail spuriously — this is not a bug, it's an optimization for architectures that use LL/SC instructions. Always use it in a loop.
+
 ## Common Pitfalls
 
 1. **Using `memory_order_relaxed` where ordering is needed:** A relaxed store-release pair provides

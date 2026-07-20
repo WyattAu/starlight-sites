@@ -772,6 +772,14 @@ void good() {
 }
 ```
 
+## Intuition
+
+**Dependent names are like foreign words in a sentence:** When you read "the cat sat on the mat," you know "cat" and "mat" are nouns. But when you read "the `T::value` sat on the `T::type`," you can't tell what `T::value` and `T::type` are until you know what `T` is. The `typename` keyword is like a dictionary — it tells the compiler "treat this as a type, not a value." Without it, the compiler assumes `T::value` is a value, which can cause parsing errors.
+
+**Why it matters:** Dependent names are one of the most confusing aspects of C++ templates. Without `typename`, the compiler misparses the code. With `template` (for dependent template names), you tell the compiler that `<` is a less-than operator, not the start of template arguments. Getting this wrong causes cryptic error messages that are hard to debug.
+
+**The key insight:** Use `typename` before dependent types and `template` before dependent template names — without them, the compiler misparses the code.
+
 ## Common Pitfalls
 
 1. **Forgetting `this->` in dependent base classes.** This is the most frequent two-phase lookup

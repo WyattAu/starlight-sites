@@ -915,6 +915,14 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 
+## Intuition
+
+**The recipe analogy:** A differential equation is like a recipe that tells you how a quantity changes based on its current state. You follow the recipe (solve the equation) to predict the future behaviour of the system.
+
+**Why it matters:** Differential equations are the language of change. They model everything from population growth and radioactive decay to electrical circuits and climate change.
+
+**The key insight:** A differential equation describes a relationship between a quantity and its rate of change, allowing us to predict future states from current conditions.
+
 ## Cross-References
 
 - [Derivatives](../2-derivatives/2_derivatives) -- Solving differential equations requires mastery of differentiation techniques including chain rule and implicit differentiation.

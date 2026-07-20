@@ -785,6 +785,14 @@ Benchee.run(%{
 | Error handling  | Pattern matching on :ok/:error | Multiple return values, panic      |
 | Fault tolerance | Supervision trees              | Manual recovery                    |
 
+## Intuition
+
+**Elixir is a city of lightweight workers:** Imagine a city where every resident (process) has their own house (heap), their own mailbox, and communicates only by sending letters (messages). There are no shared tools or shared walls — if one house burns down, the neighbors are unaffected. The supervisor tree is the city's emergency management system: when a worker crashes, the supervisor restarts them from scratch, like resetting a chess piece to its starting square.
+
+**Why it matters:** This architecture makes Elixir systems inherently fault-tolerant. You don't write defensive code for every possible failure — you let things crash and let supervisors handle recovery. WhatsApp handles billions of messages with this model.
+
+**The key insight:** "Let it crash" isn't reckless — it's a deliberate strategy where recovery from a known good state is cheaper than trying to prevent every possible failure mode.
+
 ## Summary
 
 Elixir is a functional language built on the proven BEAM virtual machine. Its combination of

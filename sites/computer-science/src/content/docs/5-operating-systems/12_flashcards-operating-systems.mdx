@@ -1,6 +1,6 @@
 ---
 title: "University Computing Flashcards: Operating Systems"
-description: "20 interactive flashcards for university-level Operating Systems. Press Space to Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for university-level Operating Systems. Press Space to flip, rate 1-4."
 tags:
   - University
   - Computing
@@ -13,6 +13,40 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## Computing -- Operating Systems Flashcards
 
 20 interactive flashcards for university-level Operating Systems. Press Space to flip, rate 1-4.
+
+---
+
+## Intuition
+
+An operating system is **the layer between hardware and applications** — it manages resources (CPU, memory, I/O) and provides abstractions (processes, files, sockets) that make programming manageable.
+
+**Process management intuition:** A process is a running program with its own address space. The OS rapidly switches between processes (context switching) to give the illusion of simultaneous execution. Scheduling algorithms decide which process gets the CPU next — the goal is to maximise throughput, minimise response time, and ensure fairness.
+
+**Memory management intuition:** Virtual memory gives each process the illusion of a private, contiguous address space. The OS translates virtual addresses to physical addresses using page tables. When physical memory is full, the OS swaps out pages to disk — this is why programs can use more memory than physically available, but with a performance penalty.
+
+**Synchronisation intuition:** When multiple processes access shared data concurrently, race conditions can corrupt data. Semaphores, mutexes, and monitors provide mutual exclusion — ensuring that only one process accesses critical sections at a time. Deadlock occurs when two processes wait forever for each other's resources.
+
+---
+
+## Key Concepts
+
+| Concept | Why It Matters |
+|---------|---------------|
+| **Process scheduling** | Determines which process runs when; affects throughput and responsiveness |
+| **Virtual memory** | Provides process isolation and enables programs larger than physical memory |
+| **Page replacement** | LRU, FIFO, Optimal algorithms decide which pages to evict when memory is full |
+| **Deadlock prevention** | Break any of the four necessary conditions to prevent deadlock entirely |
+| **File system** | Organises storage hierarchically; journals ensure consistency after crashes |
+
+---
+
+## Common Pitfalls
+
+**Confusing processes and threads.** Processes have separate address spaces; threads share memory. A process crash doesn't affect other processes, but a thread crash can corrupt shared data and bring down the entire process.
+
+**Assuming virtual memory is free.** Virtual memory allows using more memory than physically available, but paging to disk is 100,000x slower than accessing RAM. Excessive paging (thrashing) can make a system unusable.
+
+**Ignoring deadlock conditions.** Deadlock requires all four conditions simultaneously. Breaking even one (e.g., allowing preemption, or imposing a resource ordering) is sufficient to prevent it. Many systems use timeout-based deadlock avoidance rather than prevention.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "A-Level Chemistry: Physical Chemistry Practice"
-description: "ALEVEL Chemistry practice problems: A-Level Chemistry: Physical Chemistry Practice. Comprehensive study material with definitions, examples, and assessment"
+description: "18 MCQ practice problems covering energetics, kinetics, equilibrium, pH, and redox reactions. Detailed explanations and common error analysis."
 tags:
   - Chemistry
   - A-Level
@@ -13,9 +13,45 @@ import { practiceQuestions } from '@/data/flashcards/chemistry/practice-physical
 
 18 MCQ practice problems. Select answer, submit, review explanation.
 
+### What These Questions Test
+
+These problems test your ability to apply physical chemistry concepts to quantitative and qualitative scenarios. You will calculate enthalpy changes, determine reaction orders, analyse equilibrium systems, and work with pH.
+
+**Typical question types:**
+
+- **Energetics:** Calculate $\Delta H$ from bond enthalpies, Hess's law cycles, or calorimetry data. Use $\Delta H = -mc\Delta T$ for solution calorimetry. Interpret Born-Haber cycles.
+- **Kinetics:** Determine the order of reaction from rate-concentration data or graphs. Calculate the rate constant with correct units. Use the half-life method: for first-order reactions, $t_{1/2} = \frac{\ln 2}{k}$ (constant half-life).
+- **Equilibrium:** Calculate $K_{c}$ or $K_{p}$ from equilibrium concentrations or partial pressures. Predict the effect of changes on equilibrium position. Relate $K$ to $\Delta G$ via $\Delta G = -RT\ln K$.
+- **pH calculations:** Calculate pH of strong acids, weak acids (using $K_{a}$), and buffer solutions. For buffers: $\text{pH} = \text{p}K_{a} + \log\frac{[\text{base}]}{[\text{acid}]}$. Interpret titration curves.
+- **Redox:** Assign oxidation states. Write and balance half-equations. Identify the oxidising and reducing agents. Relate redox reactions to electrode potentials.
+
 ---
 
-### Practice Questions
+### Approach Strategy
+
+1. **Draw the energy diagram.** For energetics problems, sketch the enthalpy profile. Label $\Delta H$, $E_{a}$, and the activated complex. This prevents sign errors.
+2. **Check the order of reaction first.** Before calculating $k$, determine whether the reaction is zero, first, or second order. Use the method of initial rates or the half-life test.
+3. **Write the $K_{c}$ expression before calculating.** Identify all species in the equilibrium. Exclude solids and liquids. Check that the units of $K_{c}$ are consistent with the expression.
+4. **Use the buffer equation carefully.** The Henderson-Hasselbalch equation $\text{pH} = \text{p}K_{a} + \log\frac{[A^{-}]}{[HA]}$ requires the ratio of conjugate base to acid, not the other way round.
+
+---
+
+### Intuition
+
+Physical chemistry is about understanding energy and speed at the molecular level. Enthalpy tells you whether a reaction is energetically favourable. Kinetics tells you how fast it will happen. Equilibrium tells you how far it will go. A reaction can be thermodynamically favourable ($\Delta G < 0$) but kinetically slow (high $E_{a}$) -- like a ball sitting on top of a hill that could roll down but does not because of friction.
+
+For pH, think of the logarithmic scale as a way to compress a huge range of hydrogen ion concentrations into manageable numbers. A change of 1 pH unit means a tenfold change in $[H^{+}]$.
+
+---
+
+### Common Mistakes
+
+1. **Wrong units for the rate constant.** The units of $k$ depend on the overall order. Zero order: $\text{mol dm}^{-3}\text{s}^{-1}$. First order: $\text{s}^{-1}$. Second order: $\text{mol}^{-1}\text{dm}^{3}\text{s}^{-1}$. Getting the units wrong usually means you have the wrong order.
+2. **Forgetting that $K_{c}$ is temperature-dependent.** Changing concentration or pressure does NOT change $K_{c}$. Only temperature changes $K_{c}$.
+3. **Confusing strong and weak acids.** A strong acid fully dissociates; a weak acid partially dissociates. The pH of a strong acid is lower than a weak acid of the same concentration.
+4. **Misidentifying the limiting reagent.** In titration calculations, the limiting reagent is the one that runs out first. Always calculate moles of both reactants and compare with the stoichiometric ratio.
+
+---
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />

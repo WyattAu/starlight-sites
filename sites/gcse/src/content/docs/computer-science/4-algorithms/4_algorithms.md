@@ -10,6 +10,14 @@ categories:
 
 ---
 
+## Intuition
+
+An algorithm is a **step-by-step procedure for solving a problem**. The key insight is that the same problem can be solved by many different algorithms, and choosing the right one depends on efficiency. For example, finding a name in a phone book can be done by checking every page (linear search, O(n)) or by always opening to the middle and eliminating half (binary search, O(log n)).
+
+**Why efficiency matters:** For small inputs, the difference between algorithms is negligible. But for large inputs (millions of items), an efficient algorithm can mean the difference between seconds and hours. Understanding Big-O notation lets you predict how algorithms scale without running them.
+
+**Decomposition intuition:** Complex problems are solved by breaking them into smaller, manageable sub-problems. This is the foundation of structured programming — each sub-problem is solved by a function or module, and the overall solution combines these modules. Decomposition makes code easier to understand, test, and debug.
+
 ## Algorithms
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR J277 Paper 1 | WJEC Unit 2

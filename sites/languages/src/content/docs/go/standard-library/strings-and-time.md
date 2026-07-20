@@ -279,6 +279,14 @@ t2 := time.Date(2026, 5, 30, 10, 0, 0, 0, loc) // same instant, different zone
 t1.Equal(t2)  // true
 ```
 
+## Intuition
+
+**Strings are immutable bricks, Builder is the mortar:** In Go, strings are like sealed glass bottles — you can't change the liquid inside, but you can glue bottles together (which creates a new bottle each time). `strings.Builder` is like a bucket where you pour liquids together, creating one final bottle at the end. The `time` package's layout system is a fill-in-the-blank form: the reference date `01/02 03:04:05 PM '06` tells the parser which blank is month, which is day, which is hour.
+
+**Why it matters:** String concatenation in loops with `+=` creates O(n²) allocations. `strings.Builder` makes it O(n). Time parsing with the wrong layout silently produces wrong dates — the reference date convention prevents this once you internalize it.
+
+**The key insight:** Go's time layout uses a memorable reference moment (January 2, 3:04:05 PM 2006) so that every position in the format string corresponds to the value that belongs there.
+
 ## Common Pitfalls
 
 1. **Using += for string concatenation in loops.** Each `+=` allocates a new string. Use

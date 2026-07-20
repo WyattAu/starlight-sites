@@ -7,5 +7,34 @@ tags: [Physics, IB Physics, Flashcards]
 import FlashcardDeck from '@components/FlashcardDeck';
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/physics/flashcards-electricity-data.js';
 
+## IB Physics -- Electricity Flashcard Deck
+
+Flashcards with spaced repetition. Press Space to flip, then rate your recall (1--4).
+
+---
+
+### Key Concepts
+
+**Ohm's Law** states that the current through a conductor is directly proportional to the potential difference across it, provided temperature remains constant. Written as V = IR, this relationship forms the foundation of circuit analysis. The gradient of a V-I graph for an ohmic conductor gives resistance.
+
+**Kirchhoff's Junction Rule** (KCL) states that the total current entering a junction equals the total current leaving it. This is a consequence of conservation of charge -- charge cannot accumulate at a point in a circuit.
+
+**Power Dissipation** in a circuit element is given by P = IV = I²R = V²/R. Choosing the right form depends on what quantities are known. For example, using P = I²R is useful when current is constant (series circuits), while P = V²/R is better when voltage is constant (parallel circuits).
+
+**Internal Resistance** means every real battery has some resistance inside it. The terminal PD is less than the EMF by an amount equal to Ir, where I is the current and r is the internal resistance. At maximum power transfer, the external resistance equals the internal resistance.
+
+---
+
 <FlashcardDeck client:only="solid-js" deckId="ib-phys-electricity" title="IB Physics: Electricity" description="Electric current, potential difference, resistance, Ohm\'s law, I-V characteristics, circuits, Kirchhoff\'s laws, power, and internal resistance." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
-;
+
+---
+
+## Intuition
+
+Think of voltage as the "pressure" pushing charge through a pipe (the wire), and resistance as the pipe's narrowness. A wider pipe (lower resistance) lets more water (current) flow for the same pressure. Internal resistance is like a kink inside the battery itself -- some of the battery's own pressure is used up pushing charge through that internal kink before it even reaches the external circuit.
+
+## Common Pitfalls
+
+- Confusing EMF with terminal PD: EMF is the total energy per unit charge the source provides, while terminal PD is what's actually available to the external circuit. They differ by Ir.
+- Forgetting that ammeters are placed in series and voltmeters in parallel -- reversing them gives incorrect readings and can damage the meter.
+- Assuming V = IR applies to all components. It only works for ohmic conductors; diodes and filament lamps have non-linear I-V characteristics.

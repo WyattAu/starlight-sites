@@ -842,6 +842,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**Fold expressions are like a calculator that processes a list:** Instead of writing a recursive template to sum a list of numbers, you write `(... + args)` and the compiler expands it to `(((arg1 + arg2) + arg3) + arg4)`. It's like the difference between writing a loop to sum numbers and just pressing "sum" on a calculator. Fold expressions work with any binary operator: `(... + args)` for sum, `(... * args)` for product, `(... && args)` for logical AND, and even `(... , args)` for comma (sequencing).
+
+**Why it matters:** Fold expressions eliminate the need for recursive template metaprogramming for common operations. Before C++17, summing a parameter pack required a recursive template class with base case specialization. With fold expressions, it's a single line: `(... + args)`. This makes variadic templates much easier to write and read.
+
+**The key insight:** Fold expressions expand parameter packs with a binary operator — they eliminate recursive template metaprogramming for common operations.
+
 ## Common Pitfalls
 
 1. **Empty packs with non-identity operators.** A unary fold over `+` with an empty pack is

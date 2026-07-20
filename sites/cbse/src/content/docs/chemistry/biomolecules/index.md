@@ -84,6 +84,14 @@ Key difference: DNA has thymine (T) while RNA has uracil (U). The double-strande
 
 Biomolecules are the basis of biochemistry, molecular biology, and medicine. Understanding their structure and function is essential for drug design, genetic engineering, and understanding diseases.
 
+## Intuition
+
+**The molecules of life are just chemistry in action:** Think of carbohydrates as your body's quick-energy fuel (like gasoline for a car), proteins as the workers and structural materials (like bricks and workers in a building), and DNA as the instruction manual (like a blueprint). The beauty is that all three use just a handful of simple building blocks — simple sugars, 20 amino acids, and 4 nucleotide bases — arranged in different sequences to create the staggering complexity of life.
+
+**Why it matters:** Understanding biomolecules is the foundation of medicine (how drugs interact with proteins), nutrition (what your body actually does with food), and biotechnology (how we engineer organisms to produce insulin, biofuels, and more). Every disease has a molecular basis, and every treatment targets a biomolecule.
+
+**The key insight:** The glycosidic bond in carbohydrates, the peptide bond in proteins, and the phosphodiester bond in nucleic acids are all formed by the same principle — condensation reactions that join monomers while releasing water. Life is built by a single chemical strategy repeated in different contexts.
+
 ## Common Exam Patterns
 
 - Monosaccharides give positive Tollens' and Fehling's tests (reducing sugars)
@@ -99,3 +107,10 @@ Biomolecules are the basis of biochemistry, molecular biology, and medicine. Und
 **Assuming all carbohydrates follow the general formula Cn(H2O)n.** While many carbohydrates fit this formula, exceptions exist. Deoxyribose (C5H10O4) and rhamnose (C6H12O5) do not follow the general formula. The definition is based on polyhydroxy aldehyde or ketone structure, not the empirical formula.
 
 **Confusing the anomeric carbon in disaccharides.** In sucrose, the glycosidic bond links C1 of glucose to C2 of fructose, involving both anomeric carbons. This is why sucrose is a non-reducing sugar. Students often assume all disaccharides are reducing sugars, but this depends on whether a free anomeric carbon remains.
+
+## Cross-References
+
+- **[Polymers](../polymers/index.md):** Biomolecules are natural polymers — proteins are amino acid polymers, polysaccharides are sugar polymers, and nucleic acids are nucleotide polymers.
+- **[Coordination Compounds](../coordination/index.md):** Metal ions coordinate to biomolecules — hemoglobin (Fe²⁺ with heme), chlorophyll (Mg²⁺ with chlorin), and enzyme active sites often contain coordinated metals.
+- **[Solutions](../solutions/index.md):** Biomolecules dissolve in aqueous solutions, and their osmotic pressure is critical for biological function.
+- **[Surface Chemistry](../surface-chemistry/index.md):** Enzyme-substrate interactions involve surface adsorption, and cell membranes are organized by amphiphilic biomolecules.

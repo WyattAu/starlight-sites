@@ -812,6 +812,14 @@ int main() {
 - [Range Materialization](./4_range_materialization.md)
 - [Parallel Algorithms](./5_parallel_algorithms.md)
 
+## Intuition
+
+**Range adaptors are like LEGO blocks for data processing:** Instead of writing a loop to filter, transform, and take elements, you compose range adaptors like LEGO blocks: `views::filter(pred) | views::transform(fn) | views::take(n)`. Each adaptor is a small, reusable piece that does one thing well. The pipeline (`|`) chains them together, and the result is a lazy view that computes values on-demand. It's like building a data processing pipeline from composable parts, instead of writing a monolithic loop.
+
+**Why it matters:** Range adaptors enable composable, lazy data processing. Instead of writing nested loops with temporary vectors, you compose a pipeline that processes elements on-demand. This is more readable, more efficient (no temporary allocations), and more maintainable (each step is independent). The C++20 ranges library provides dozens of adaptors: `filter`, `transform`, `take`, `drop`, `join`, `split`, and more.
+
+**The key insight:** Range adaptors compose with `|` to create lazy data processing pipelines — each adaptor does one thing well, and they chain together naturally.
+
 ## Common Pitfalls
 
 1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not

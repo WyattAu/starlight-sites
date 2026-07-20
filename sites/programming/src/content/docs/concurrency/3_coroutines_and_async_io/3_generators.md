@@ -157,6 +157,14 @@ Sum: 4613732
 the iteration step — each `++it` call on the adapted view will advance the underlying generator By
 one element.
 </aside>
+## Intuition
+
+**A generator is like a vending machine that dispenses values one at a time:** Instead of computing all values upfront (like a function that returns a vector), a generator computes values lazily — one per `co_yield`. It's like a vending machine that makes one snack when you press the button, then goes back to sleep until you press again. This is perfect for sequences that are expensive to compute or infinite (like Fibonacci numbers).
+
+**Why it matters:** `std::generator` (C++23) brings Python-style generators to C++. Instead of building entire vectors in memory, you can produce values on-demand. This enables composable pipelines (filter, transform, take) that process data lazily, saving both memory and compute time.
+
+**The key insight:** A generator suspends at each `co_yield` — the frame stores the current position, so the next `co_await` or `co_yield` resumes exactly where it left off.
+
 ## See Also
 
 - [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames.md)

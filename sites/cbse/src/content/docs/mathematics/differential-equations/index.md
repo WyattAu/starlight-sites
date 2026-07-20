@@ -88,6 +88,13 @@ $$y = \frac{x^3}{4} + \frac{C}{x}$$
 
 **Common mistake:** Forgetting to multiply the entire equation by the integrating factor, not just the $dy/dx$ term.
 
+## Cross-References
+
+- **[Integrals](../integrals/index.md):** Solving differential equations requires integration — the antiderivative is the tool that reverses differentiation.
+- **[Derivatives](../derivatives/index.md):** Differentiation rules underpin how you verify solutions by substituting back into the original equation.
+- **[Probability](../probability/index.md):** Probability distributions and expected values involve differential equations in their continuous forms.
+- **[Chemical Kinetics (Chemistry)](../../chemistry/chemical-kinetics/index.md):** Rate laws in chemistry are differential equations — the connection between math and real chemical systems.
+
 ## Practice Problems
 
 1. Solve $\frac{dy}{dx} = e^{x+y}$ by separation of variables.
@@ -97,6 +104,14 @@ $$y = \frac{x^3}{4} + \frac{C}{x}$$
 ## Why This Matters
 
 Differential equations model nearly every physical phenomenon: population growth, radioactive decay, heat transfer, fluid flow, electrical circuits, and chemical reactions. They are the mathematical language of science and engineering.
+
+## Intuition
+
+**Equations that describe change itself:** Differential equations are like recipes that describe how things evolve — they tell you the rate of change at every point, and you figure out the actual behavior by "integrating" those rates. Think of it as being told the speed of a car at every moment (that's the differential equation) and having to reconstruct the entire journey (that's the solution). Separation of variables is the simplest case: if the x-parts and y-parts can be separated onto opposite sides of the equation, you can integrate each side independently.
+
+**Why it matters:** Differential equations model virtually every dynamic system in the universe — population growth, radioactive decay, heat flow, vibrations of bridges, flight paths of rockets, and the spread of diseases. They are the mathematical language of physics, engineering, biology, and economics. Without them, we couldn't design buildings, predict weather, or understand how medications circulate in your body.
+
+**The key insight:** The order of a differential equation tells you how many constants of integration you need — each derivative you "undo" introduces one arbitrary constant, which physical conditions (initial values) pin down.
 
 ## Common Exam Patterns
 

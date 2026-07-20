@@ -721,6 +721,14 @@ clang-tidy --checks="cppcoreguidelines-slicing' file.cpp
 
 This is a static analysis tool and does not add runtime overhead.
 
+## Intuition
+
+**Object slicing is like cutting off part of a photograph:** When you copy a derived class object into a base class variable, the derived portion is "sliced off" — you're left with only the base class part. It's like cutting a group photo to keep only one person — the rest of the image is lost. The virtual function table (vtable) pointer is also sliced, so the resulting object uses the base class's vtable, not the derived class's. This is why polymorphic objects should always be passed by pointer or reference.
+
+**Why it matters:** Object slicing silently destroys polymorphic behavior. A derived class with overridden virtual functions becomes a base class object when sliced — the overrides are lost, and the base class versions are called instead. This is a subtle bug that's hard to detect because the code compiles without errors.
+
+**The key insight:** Always pass polymorphic objects by pointer or reference — copying by value causes slicing, which silently destroys the derived class's behavior.
+
 ## Common Pitfalls
 
 **1. Slicing through container value semantics:** `std::vector&lt;Base>` stores `Base` objects.

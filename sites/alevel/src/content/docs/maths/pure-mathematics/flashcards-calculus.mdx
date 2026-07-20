@@ -1,7 +1,7 @@
 ---
 title: Calculus Flashcards
 date: 2026-05-31
-description: "ALEVEL Maths flashcards: Calculus Flashcards. Comprehensive study material with definitions, examples, and assessment tools."
+description: "A-Level Maths flashcards covering differentiation, integration, applications, differential equations, and series with spaced repetition."
 tags:
   - Maths
   - ALevel
@@ -14,9 +14,39 @@ import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcards1, flashcards2, flashcards3 } from '@/data/flashcards/maths/pure-mathematics/flashcards-calculus-data.js';
 
 
-## A-Level Calculus — Flashcard Deck
+## A-Level Calculus -- Flashcard Deck
 
-15 flashcards with spaced repetition. Press Space to flip, then rate your recall (1–4).
+15 flashcards with spaced repetition. Press Space to flip, then rate your recall (1--4).
+
+### What These Flashcards Cover
+
+These flashcards test your fluency with the core techniques and applications of calculus at A-Level. You should be able to differentiate and integrate standard functions, apply calculus to real-world problems, and solve first-order differential equations.
+
+**Key areas:**
+
+- **Differentiation from first principles:** $\frac{dy}{dx} = \lim_{\delta x \to 0} \frac{f(x+\delta x) - f(x)}{\delta x}$. Know how to apply this to simple polynomials and understand the gradient interpretation.
+- **Standard derivatives and rules:** $\frac{d}{dx}(x^{n}) = nx^{n-1}$. Chain rule: $\frac{dy}{dx} = \frac{dy}{du} \times \frac{du}{dx}$. Product rule: $\frac{d}{dx}(uv) = u\frac{dv}{dx} + v\frac{du}{dx}$. Quotient rule: $\frac{d}{dx}\left(\frac{u}{v}\right) = \frac{v\frac{du}{dx} - u\frac{dv}{dx}}{v^{2}}$.
+- **Standard integrals:** $\int x^{n}\,dx = \frac{x^{n+1}}{n+1} + C$ (for $n \neq -1$). $\int \frac{1}{x}\,dx = \ln|x| + C$. $\int e^{kx}\,dx = \frac{1}{k}e^{kx} + C$. $\int \cos(kx)\,dx = \frac{1}{k}\sin(kx) + C$.
+- **Applications of differentiation:** Finding stationary points ($\frac{dy}{dx} = 0$) and classifying them using the second derivative test ($\frac{d^{2}y}{dx^{2}} > 0$ minimum, $< 0$ maximum). Tangents and normals. Connected rates of change.
+- **Applications of integration:** Area under a curve $A = \int_{a}^{b} y\,dx$. Area between curves $A = \int_{a}^{b}(y_{2} - y_{1})\,dx$. Volumes of revolution: $V = \pi\int_{a}^{b} y^{2}\,dx$ (about x-axis).
+- **Differential equations:** Separable equations: separate variables and integrate both sides. $\frac{dy}{dx} = ky$ has solution $y = Ae^{kx}$. Use boundary conditions to find the constant $A$.
+
+---
+
+### Intuition
+
+Differentiation answers the question "how fast is this changing right now?" Think of it as zooming in on a curve until it looks straight -- the gradient of that straight line is the derivative. Integration answers the opposite question: "given the rate of change, how much has accumulated?" It sums up infinitely many tiny contributions.
+
+The fundamental theorem of calculus links the two: differentiation and integration are inverse operations. This is why finding the area under a curve uses the antiderivative.
+
+---
+
+### Common Pitfalls
+
+1. **Forgetting the constant of integration.** Every indefinite integral needs $+C$. Forgetting it loses a mark even if the rest of your working is correct.
+2. **Applying the chain rule incorrectly.** When differentiating $\sin(3x)$, the answer is $3\cos(3x)$, not $\cos(3x)$. Always multiply by the derivative of the inner function.
+3. **Mixing up the product and chain rules.** The product rule is for products of two functions: $(uv)' = u'v + uv'$. The chain rule is for composite functions: $f(g(x))' = f'(g(x))g'(x)$. These are different operations.
+4. **Incorrect limits on definite integrals.** The area under a curve from $x = a$ to $x = b$ requires $\int_{a}^{b}$. If you swap the limits, you get the negative of the area.
 
 ---
 

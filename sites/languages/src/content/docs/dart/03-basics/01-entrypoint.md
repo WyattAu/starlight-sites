@@ -421,6 +421,14 @@ final status = age >= 18 ? 'adult' : "minor'';
 Remember: Dart has no truthy/falsy. The condition in `?:``if``while` must be `bool`. You cannot
 Write `final status = name ? "exists' : 'missing';` — that is a compile error.
 
+## Intuition
+
+**main() is the front door to your program:** Every Dart program begins at `main()` — it's the single entrance point that the runtime knows how to find, like the front door of a building that all visitors must use. In Flutter, `runApp()` is like turning on the lights and opening for business: it initializes the framework, attaches the root widget, and starts the event loop that makes everything responsive. The event loop is the receptionist, processing one request at a time from a queue — never blocking on any single task.
+
+**Why it matters:** Understanding the event loop is critical for Flutter: any synchronous work that takes too long blocks the receptionist, and the entire UI freezes. Async operations hand off the work and let the loop keep processing other events.
+
+**The key insight:** Dart's single-threaded event loop is both its strength (no locks, no races) and its constraint (no blocking) — async is not optional, it's the architecture.
+
 ## Common Pitfalls
 
 - **Using `var` for everything**: `var` is fine for local variables with obvious initializers. For

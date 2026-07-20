@@ -19,5 +19,66 @@ import { practiceQuestions } from '@/data/flashcards/ap/practice-calculus-ab-dat
 
 ### Limits and Continuity
 
+Limits are the foundation of calculus. Before you can differentiate or integrate, you need to understand what happens to a function as the input approaches a value — even if the function is undefined there. The key intuition is that limits describe **behaviour near a point**, not behaviour at the point.
+
+**Common limit patterns to recognise:**
+- $\lim_{x \to a} \frac{f(x) - f(a)}{x - a}$ is the definition of $f'(a)$
+- $\lim_{x \to 0} \frac{\sin x}{x} = 1$ (the most important trigonometric limit)
+- $\lim_{x \to \infty} \left(1 + \frac{1}{x}\right)^x = e$ (the definition of $e$)
+
+**When L'Hopital's rule applies:** Only when the limit produces $\frac{0}{0}$ or $\frac{\infty}{\infty}$. Always verify the indeterminate form first.
+
+**Common Mistakes:**
+- Applying L'Hopital's rule without verifying the indeterminate form first
+- Forgetting that limits describe behaviour *near* a point, not *at* the point
+- Confusing $\lim_{x \to a} f(x) = L$ with $f(a) = L$
+
+---
+
+### Derivatives
+
+The derivative measures the **instantaneous rate of change** of a function. Geometrically, it is the slope of the tangent line. The power rule, product rule, quotient rule, and chain rule are your computational tools — but understanding *why* the chain rule works (composition of functions) matters more than memorising the formula.
+
+**The chain rule in plain English:** If $y$ depends on $u$, and $u$ depends on $x$, then the rate of change of $y$ with respect to $x$ is the product of the individual rates: $\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$.
+
+**Common Mistakes:**
+- Forgetting the chain rule when differentiating composite functions
+- Confusing the product rule $(fg)' = f'g + fg'$ with the quotient rule
+- Applying the power rule to functions like $e^x$ or $\sin x$
+
+---
+
+### Integrals
+
+Integration is the reverse of differentiation, but its deeper meaning is **accumulation**. The definite integral $\int_a^b f(x)\,dx$ sums up infinitesimal contributions of $f(x)$ over the interval $[a, b]$. The Fundamental Theorem of Calculus connects the two branches: differentiation and integration are inverse operations.
+
+**Common integration strategies:**
+- **u-substitution:** Use when you see a function and its derivative together
+- **Integration by parts:** Use for products of different types of functions (polynomial × exponential, polynomial × trig)
+- **Recognise special forms:** $\int \frac{1}{x}\,dx = \ln|x| + C$, $\int e^x\,dx = e^x + C$
+
+**Common Mistakes:**
+- Forgetting the constant of integration $+C$ on indefinite integrals
+- Incorrectly applying u-substitution (wrong $du$ or wrong limits)
+- Confusing definite and indefinite integrals
+
+---
+
+### Differential Equations
+
+Differential equations describe how quantities change in relation to each other. The most common type on the AP exam is **separation of variables**: rearrange the equation so all $y$ terms are on one side and all $x$ terms on the other, then integrate both sides. Exponential growth and decay ($\frac{dy}{dt} = ky$) and logistic growth ($\frac{dy}{dt} = ky(1 - y/L)$) are the models you must know.
+
+**Common Mistakes:**
+- Forgetting to separate variables before integrating
+- Mixing up exponential growth ($k > 0$) and decay ($k < 0$)
+- Incorrectly applying initial conditions to find the constant $C$
+
+---
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />
+
+## Cross-References
+
+- **[Limits and Continuity](maths/1-limits-and-continuity/1_limits-and-continuity):** The foundation of all calculus — limits, continuity, and L'Hopital's rule.
+- **[Derivatives](maths/2-derivatives/2_derivatives):** Differentiation rules, chain rule, and applications.
+- **[Integrals](maths/3-integrals/3_integrals):** FTC, u-substitution, and area under curves.

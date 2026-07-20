@@ -573,6 +573,14 @@ int main() {
 4. **Speculative devirtualization:** At `-O2`/`-O3`Compilers may emit speculative direct calls
    guarded by a type check (comparing the vptr against the expected vtable).
 
+## Intuition
+
+**Object layout is like a house blueprint:** The compiler arranges class members in memory like rooms in a house — non-virtual data members go first, then the vptr (if virtual functions exist), then base class subobjects. The `this` pointer is like the house's address — it's the starting point for finding any member. The Empty Base Optimization is like discovering that an empty base class doesn't need its own room — it's merged into the derived class's space, saving memory.
+
+**Why it matters:** Understanding object layout is essential for writing correct C++ code, especially when dealing with inheritance, casting, and binary compatibility. The vptr is the hidden mechanism that makes virtual dispatch work — knowing it exists explains why `sizeof` a polymorphic class is larger than expected and why `reinterpret_cast` between unrelated classes is dangerous.
+
+**The key insight:** Every polymorphic object has a hidden vptr that points to its vtable — this is the mechanism that enables runtime dispatch, and it explains the memory overhead of virtual functions.
+
 ## Common Pitfalls
 
 ### 1. Object Slicing

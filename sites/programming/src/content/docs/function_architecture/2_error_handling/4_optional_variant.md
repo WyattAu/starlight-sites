@@ -191,6 +191,14 @@ int main() {
 | Composability         | Implicit (unwinding) | Explicit (check `has_value`) | Explicit (`std::visit`/`std::get`) |
 | Catches missed errors | No (terminate)       | Yes (forgot to check)        | Yes (forgot to check)              |
 
+## Intuition
+
+**`std::optional` is like a box that might be empty:** When you open the box, either there's something inside (the value) or there isn't (empty). This is the type-safe alternative to returning `nullptr` for "no value" or using sentinel values like -1. `std::variant` is like a tagged union — it's one of several types, and you need to check which one it is before using it. Together, they're the modern C++ approach to representing "maybe a value" and "one of these types" without the undefined behavior of unions.
+
+**Why it matters:** `optional` and `variant` eliminate entire classes of bugs. `optional` replaces nullable pointers and sentinel values — no more dereferencing nullptr or checking against magic numbers. `variant` replaces `union` with type-safe alternatives — no more accessing the wrong union member. They're the building blocks of modern error handling without exceptions.
+
+**The key insight:** `std::optional` makes the "no value" case explicit in the type system — you can't forget to check for emptiness because the compiler forces you to.
+
 ## See Also
 
 - [The noexcept Specifier](3_noexcept.md)

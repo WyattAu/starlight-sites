@@ -473,6 +473,14 @@ int main() {
 The C++26 proposal P0371R3 formalizes the deprecation by recommending that compilers treat
 `memory_order_consume` as `memory_order_acquire`.
 
+## Intuition
+
+**Memory orderings are like traffic rules for data:** Relaxed ordering is like a country road with no rules — cars can go任意方向, and you might see them in any order. Acquire/release is like a highway with lanes — you can't pass (reorder) a stop sign. Sequential consistency is like a one-lane bridge — everything goes in a single line, no exceptions. The stronger the ordering, the more rules (and the more expensive the instructions).
+
+**Why it matters:** Using the wrong memory ordering is like using a stop sign where you need a traffic light — too weak and you get crashes, too strong and you waste performance. On x86, most orderings are free (the hardware already guarantees them), but on ARM/POWER, each ordering costs real instructions. Understanding the hierarchy lets you write code that's both correct and fast.
+
+**The key insight:** Acquire/release creates a synchronizes-with relationship between threads — without it, there's no guarantee that one thread's writes are visible to another thread's reads.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Mixing Memory Orders on the Same Variable

@@ -746,6 +746,14 @@ Execution policies: `std::stable_sort` (until C++20), `std::nth_element` (until 
 `std::inplace_merge`. Check the standard or your compiler's documentation for the full list of
 Parallel-capable algorithms.
 
+## Intuition
+
+**Parallel algorithms are like hiring a cleaning crew:** Instead of one person cleaning the entire house (sequential), you hire four people who each clean one room (parallel). The result is the same clean house, but it takes roughly one-quarter of the time. The execution policy (`std::execution::par`) is like telling the cleaner "hire as many people as you need." The downside is coordination overhead — the crew needs to communicate, and some tasks can't be split (like cleaning a chandelier).
+
+**Why it matters:** Parallel algorithms let you parallelize existing code with minimal changes — just add an execution policy parameter. But not all algorithms benefit from parallelism: `std::for_each` parallelizes well, but `std::exclusive_scan` has inherent sequential dependencies. Understanding which algorithms benefit from parallelism and when the overhead outweighs the benefit is essential.
+
+**The key insight:** Adding `std::execution::par` to an algorithm parallelizes it automatically — but measure the performance, as parallelism overhead can outweigh benefits for small inputs.
+
 ## See Also
 
 - [Iterator-Sentinel Model](./1_iterator_sentinel.md)

@@ -188,6 +188,14 @@ int main() {
 `std::variant<Ts...>`And other standard library types, reducing the need for custom Specializations
 .
 </aside>
+## Intuition
+
+**`std::formatter` is like a custom paint job for your types:** The `<format>` library knows how to print built-in types (int, string, etc.), but for your custom types, you need to teach it how. A `std::formatter<T>` specialization is like giving the library a recipe: "when you see a `Point`, format it as `(x, y)`." The format specifiers (like `:d` for decimal or `:x` for hex) are like custom flags that control the output.
+
+**Why it matters:** Custom formatters let your types integrate seamlessly with `std::format` and `std::print`. Without them, you'd need to convert your types to strings manually, losing type safety and performance. The formatter specialization mechanism is also how the standard library implements formatting for its own types.
+
+**The key insight:** Specialize `std::formatter<T>` in namespace `std` to enable `std::format("{}", your_type)` — the `parse` method handles format specifiers, and `format` produces the output.
+
 ## See Also
 
 - [Operator Overloading](./4_operator_overloading.md)

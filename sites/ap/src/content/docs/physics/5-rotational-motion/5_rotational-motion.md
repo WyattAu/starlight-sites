@@ -377,6 +377,16 @@ $$
 $$
 
 </aside>
+## Intuition
+
+Rotational motion is the **mirror image of linear motion** — every linear concept has a rotational analogue. Replace $x$ with $\theta$, $v$ with $\omega$, $a$ with $\alpha$, $m$ with $I$, and $F$ with $\tau$. The equations are identical in form. This isn't a coincidence — it reflects the fact that rotation is one-dimensional motion in the angular coordinate.
+
+**Moment of inertia intuition:** Just as mass resists linear acceleration, moment of inertia ($I$) resists angular acceleration. But unlike mass, $I$ depends on *how the mass is distributed relative to the axis*. A hollow cylinder has more $I$ than a solid one of the same mass because its mass is farther from the axis. This is why a figure skater spins faster when pulling in her arms — she reduces $I$, and angular momentum conservation forces $\omega$ to increase.
+
+**Rolling intuition:** When a ball rolls without slipping, its kinetic energy splits between translation ($\frac{1}{2}mv^2$) and rotation ($\frac{1}{2}I\omega^2$). Objects with more mass near the rim (hollow cylinder) put more energy into rotation and less into translation, so they roll slower down an incline than solid objects.
+
+**Angular momentum conservation:** When no external torque acts, $L = I\omega$ is constant. This is why gyroscopes precess, why planets move faster when closer to the Sun (Kepler's second law), and why neutron stars spin incredibly fast.
+
 ## Common Pitfalls
 
 1. **Using the wrong moment of inertia.** Always check which axis the object rotates about. Use the

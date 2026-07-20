@@ -827,6 +827,14 @@ Random access and sortability. This means any type satisfying `SortableRange` au
 Satisfies `InputRange` --- the subsumption relationship enables the compiler to select the most
 Constrained overload during overload resolution.
 
+## Intuition
+
+**Concepts are like type-safe interfaces:** Instead of writing "this function accepts anything with a `+` operator" (SFINAE), you write "this function accepts anything that is `Addable`" (concept). It's like the difference between saying "anyone who can fit through this door" (vague) and "anyone who is under 6 feet tall" (specific). Concepts make constraints readable and give better error messages — instead of "no match for overload," you get "concept `Addable` not satisfied."
+
+**Why it matters:** Concepts are the modern C++ approach to constraining templates. They replace SFINAE and `enable_if` with readable, composable constraints. The compiler uses concepts to select the most constrained overload during overload resolution, which means your code is more likely to do what you intended. Concepts also make error messages much better — instead of pages of template instantiation errors, you get "concept `Sortable` not satisfied."
+
+**The key insight:** Concepts make template constraints readable and composable — they're the modern replacement for SFINAE and `enable_if`.
+
 ## Common Pitfalls
 
 **1. Concepts do not short-circuit in the usual sense:** While `&&` and `||` in constraint

@@ -5,12 +5,11 @@ tags:
   - IB Chemistry
 categories:
   - IB Chemistry
-description: "20 flashcards covering IB Chemistry atomic structure — atomic models, subatomic particles, isotopes, mass spectrometry, electron configurations, and"
+description: "20 flashcards covering IB Chemistry atomic structure — atomic models, subatomic particles, isotopes, mass spectrometry, electron configurations, and periodic trends."
 ---
 
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/chemistry/flashcards-atomic-structure-data.js';
-
 
 ## Atomic Structure Flashcards
 
@@ -19,5 +18,28 @@ mass spectrometry, electron configurations, and periodic trends.
 
 ---
 
+### Key Concepts
+
+**Subatomic Particles**: Protons (positive charge, relative mass ~1), neutrons (no charge, relative mass ~1), and electrons (negative charge, relative mass ~1/1836). The number of protons defines the element (atomic number Z). Isotopes have the same Z but different numbers of neutrons.
+
+**Mass Spectrometry** separates ions by their mass-to-charge ratio (m/z). The molecular ion peak (M⁺) gives the molecular mass. The base peak is the tallest (most abundant) peak. Isotopic peaks (M+1, M+2) reveal the presence of isotopes like ¹³C and ³⁷Cl.
+
+**Electron Configuration**: Electrons fill orbitals in order of increasing energy: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p... Each orbital holds a maximum of 2 electrons with opposite spins. The aufbau principle, Pauli exclusion principle, and Hund's rule govern filling.
+
+**Ionisation Energy**: The energy required to remove one mole of electrons from one mole of gaseous atoms. First ionisation energy generally increases across a period (more protons, smaller radius) and decreases down a group (more shielding, larger radius). Exceptions occur at Groups 2/13 and 15/16 due to subshell and pairing effects.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ib-chemistry-atomic-structure" title="IB Chemistry: Atomic Structure" description="Atomic models, subatomic particles, isotopes, mass spectrometry, electron configurations, and periodic trends." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+
+---
+
+## Intuition
+
+Think of an atom as a solar system where electrons occupy specific "orbitals" (rooms in a building) rather than random orbits. The aufbau principle is like filling the building from the ground up -- you can't put someone on the 3rd floor if the 1st floor isn't full yet. Ionisation energy is the rent you must pay to evict an electron -- closer electrons (lower energy levels) are harder to evict because they're more tightly held by the nucleus.
+
+## Common Pitfalls
+
+- Forgetting that the 4s orbital fills before the 3d orbital. The energy ordering is 1s < 2s < 2p < 3s < 3p < 4s < 3d, not simply by principal quantum number.
+- Confusing ionisation energy trends. It generally increases across a period, but there are dips at Groups 2→13 (s vs p subshell) and 15→16 (paired p electrons repel). These exceptions are frequently tested.
+- Misreading mass spectra. The molecular ion peak (M⁺) is not always the base peak. Always identify M⁺ first, then use the relative heights of M+1 and M+2 peaks to determine molecular formula.

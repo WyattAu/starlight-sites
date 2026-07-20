@@ -731,6 +731,14 @@ For performance-critical code where ordered iteration is not needed, consider al
 - [Iterator Categories, Traversal, Invalidation](./3_iterators.md)
 - [Polymorphic Memory Resources (PMR)](./4_pmr.md)
 
+## Intuition
+
+**Associative containers are like phone books:** `std::set` is like a phone book sorted alphabetically — you can look up any name in O(log n) time, but you can't have two people with the same name. `std::map` is like a phone book where each name has a phone number — it stores key-value pairs sorted by key. `std::unordered_set` is like a phone book organized by first letter — lookup is O(1) on average, but the entries aren't sorted. `std::unordered_map` is the most commonly used — it's a hash table with O(1) average lookup.
+
+**Why it matters:** Associative containers provide O(log n) or O(1) lookup, compared to O(n) for `std::vector`. When you need to find elements by key (not by position), associative containers are the right choice. The choice between ordered (`std::map`) and unordered (`std::unordered_map`) depends on whether you need sorted iteration or maximum speed.
+
+**The key insight:** `std::unordered_map` is the fastest lookup container (O(1) average), but `std::map` is better when you need sorted iteration or guaranteed O(log n) worst case.
+
 ## Common Pitfalls
 
 1. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.

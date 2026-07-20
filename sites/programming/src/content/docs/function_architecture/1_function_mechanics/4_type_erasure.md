@@ -640,6 +640,14 @@ int main() {
 Through a function pointer. The tradeoff: the caller must ensure the referenced callable outlives
 The `FunctionRef`.
 
+## Intuition
+
+**Type erasure is like a universal remote control:** Your TV, DVD player, and sound system all have different interfaces, but a universal remote can control all of them through a single set of buttons. Type erasure does the same thing for callables — function pointers, lambdas, and functors all have different types, but `std::function` provides a single interface. The type information is "erased" at compile time, and a virtual dispatch (the remote's signal) handles the runtime selection.
+
+**Why it matters:** Type erasure lets you store heterogeneous callables in a single container and invoke them through a uniform interface. Without it, you'd need separate containers for each callable type or use raw function pointers (losing state). `std::function` is the most common type-erased callable, but `std::move_only_function` (C++23) is the modern replacement for move-only types.
+
+**The key insight:** Type erasure trades compile-time type safety for runtime flexibility — you lose the ability to inline, but gain the ability to store any callable in a single container.
+
 ## Common Pitfalls
 
 ### 1. `std::function` Copies the Callable

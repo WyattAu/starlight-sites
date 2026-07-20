@@ -186,6 +186,18 @@ $$H_0: \beta_1 = 0 \quad H_a: \beta_1 \neq 0$$
 
 $$t = \frac{b_1 - 0}{SE_{b_1}} \quad \text{with } df = n - 2$$
 
+## Intuition
+
+Regression analysis is about **quantifying the relationship between two quantitative variables** and using it for prediction. The key insight is that the least-squares regression line minimises the sum of squared residuals — the vertical distances between the data points and the line.
+
+**Correlation vs causation:** A strong correlation ($r$ close to 1 or -1) does NOT imply causation. A lurking variable may be causing both variables to change. Only a randomised experiment can establish causation.
+
+**Interpreting slope and intercept:** The slope $b_1$ tells you how much $y$ changes for each unit increase in $x$. The intercept $b_0$ is the predicted $y$ when $x = 0$ — but it may not be meaningful if $x = 0$ is outside the range of observed data.
+
+**$r^2$ intuition:** The coefficient of determination $r^2$ tells you what fraction of the variation in $y$ is explained by the linear relationship with $x$. An $r^2$ of 0.64 means 64% of the variability in $y$ is accounted for by $x$.
+
+**Residuals tell the story:** If the residual plot shows a pattern (curve, fanning), the linear model is inappropriate. A random scatter of residuals confirms that a linear model is reasonable.
+
 ## Common Pitfalls
 
 - Confusing correlation with causation
@@ -194,3 +206,9 @@ $$t = \frac{b_1 - 0}{SE_{b_1}} \quad \text{with } df = n - 2$$
 - Forgetting to check residual plots for nonlinearity
 - Confusing outliers (large residuals) with influential points (high leverage)
 - Using correlation when the relationship is nonlinear (check the scatterplot first)
+
+## Cross-References
+
+- **[Exploring Data](../1-exploring-data/1_exploring_data):** Scatterplots and correlation are the starting point for regression analysis.
+- **[Statistical Inference](../4-statistical-inference/4_statistical_inference):** Confidence intervals and hypothesis tests for regression parameters use the same inferential framework.
+- **[Probability](../3-probability/3_probability):** The normal distribution underlies hypothesis tests for regression slope.

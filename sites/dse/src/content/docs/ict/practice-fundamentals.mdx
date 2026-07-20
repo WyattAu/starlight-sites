@@ -20,5 +20,26 @@ programming, and networking.
 
 ### Data Representation
 
+### Practice Problem Tips
+
+- **Use the place value method**: for binary conversions, write out powers of 2 (128, 64, 32, 16, 8, 4, 2, 1) and match each to a binary digit. This avoids errors in mental arithmetic.
+- **Check byte boundaries**: when converting between units, remember that storage is measured in bytes (8 bits), not bits. A 16-bit colour value uses 2 bytes.
+- **Verify network calculations**: bandwidth × time = data transferred. Double-check units: Mbps = megabits per second, MB/s = megabytes per second. They differ by a factor of 8.
+
+### Approach Strategy
+
+- For number system conversions, work step by step and write out the full calculation.
+- For CPU questions, trace through the fetch-decode-execute cycle to identify which component is involved.
+- For networking questions, draw a simple diagram showing devices and connections before answering.
+
+## Intuition
+
+ICT practice questions test your understanding of how data moves through a system. Think of a computer as a factory: data enters (input), is processed (CPU), stored temporarily (RAM), stored permanently (disk), and exits (output). Each question asks about one part of this pipeline.
+
+## Common Mistakes
+
+- **Confusing binary and hexadecimal**: each hex digit is 4 bits, not 8. 0xFF = 11111111₂ = 255₁₀, not 256.
+- **Forgetting signed number representation**: in two's complement, the leftmost bit is the sign bit. 1000₂ in 4-bit two's complement is -8, not 8.
+- **Mixing up topologies**: mesh topology has every device connected to every other (high redundancy), while star has a central hub. Don't confuse redundancy with cost.
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions}  /> 

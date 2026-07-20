@@ -10,6 +10,14 @@ categories:
 
 ---
 
+## Intuition
+
+Computers store everything as **binary (base 2)** — sequences of 0s and 1s. The key insight is that a single binary digit (bit) can represent two states (on/off, true/false), and by combining bits, you can represent any number, letter, image, or sound. Eight bits (a byte) can represent 256 different values — enough for a character or a small number.
+
+**Why binary?** Electronic circuits have two stable states: voltage high or voltage low. This maps directly to 1 and 0. More complex representations (e.g., base 10) would require circuits with many stable states, which are harder to build reliably. Binary is also simple for logic gates: AND, OR, NOT operations are straightforward to implement in hardware.
+
+**Two's complement intuition:** To represent negative numbers, computers use two's complement. The most significant bit indicates the sign (0 = positive, 1 = negative). To negate a number, flip all bits and add 1. This system is elegant because addition and subtraction work identically for positive and negative numbers — no special case logic is needed.
+
 ## Data Representation
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel Paper 1 | OCR J277 Paper 1 | WJEC Unit 1

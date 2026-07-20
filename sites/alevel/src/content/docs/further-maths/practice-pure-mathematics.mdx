@@ -1,6 +1,6 @@
 ---
 title: "A-Level Further Maths: Pure Mathematics Practice"
-description: "ALEVEL Further Maths practice problems: A-Level Further Maths: Pure Mathematics Practice. Comprehensive study material with definitions, examples, and assess"
+description: "16 MCQ practice problems covering complex numbers, matrices, proof by induction, hyperbolic functions, differential equations, and polar coordinates. Detailed explanations."
 tags:
   - Further Maths
   - A-Level
@@ -15,9 +15,48 @@ import { practiceQuestions } from '@/data/flashcards/further-maths/practice-pure
 
 16 MCQ practice problems. Select an answer, submit, and review the explanation.
 
+### What These Questions Test
+
+These problems test your fluency with the advanced pure mathematics techniques in the Further Maths specification. You will manipulate complex numbers, perform matrix operations, apply proof by induction, and solve differential equations.
+
+**Typical question types:**
+
+- **Complex numbers:** Convert between Cartesian and polar forms. Find modulus and argument. Use De Moivre's theorem to find powers or roots. Solve equations involving complex conjugates.
+- **Matrices:** Multiply matrices, find determinants, and calculate inverses. Use matrices to solve simultaneous equations. Identify singular matrices. Apply geometric transformations.
+- **Proof by induction:** Prove statements about series (e.g. $\sum r^{2} = \frac{n(n+1)(2n+1)}{6}$), divisibility results, and matrix powers.
+- **Hyperbolic functions:** Differentiate and integrate $\sinh x$, $\cosh x$, $\tanh x$. Use identities like $\cosh^{2}x - \sinh^{2}x = 1$. Solve equations involving hyperbolic functions.
+- **Differential equations:** Solve first-order linear DEs using integrating factors. Solve second-order homogeneous DEs with constant coefficients. Find particular integrals for non-homogeneous DEs.
+- **Polar coordinates:** Convert between polar and Cartesian forms. Sketch polar curves. Calculate areas using $A = \frac{1}{2}\int r^{2}\,d\theta$.
+
 ---
 
-### Practice Questions
+### Approach Strategy
+
+1. **Show all working.** In Further Maths, method marks are crucial. Even if your final answer is wrong, correct working earns marks.
+2. **Check your answer makes sense.** For complex numbers, verify the modulus and argument are consistent. For matrices, check the determinant is non-zero before finding the inverse.
+3. **Use the structure of the proof.** For induction, always state the base case, the inductive hypothesis, and the inductive step clearly. This makes your logic easy to follow.
+4. **Verify with a simple case.** After proving a result by induction, check it for $n = 1$ and $n = 2$ to gain confidence.
+
+---
+
+### Intuition
+
+Complex numbers are not "imaginary" in the sense of being unreal -- they are simply numbers that live in two dimensions. The real part is the x-coordinate; the imaginary part is the y-coordinate. Multiplication rotates and scales in this plane.
+
+Matrices encode linear transformations. A $2 \times 2$ matrix transforms the unit square into a parallelogram. The determinant tells you the area of that parallelogram -- if it is zero, the transformation collapses the plane to a line or point.
+
+Differential equations describe how things change. The solution tells you the entire future of the system given its current state. An integrating factor is a mathematical trick that turns a complicated DE into an exact differential.
+
+---
+
+### Common Mistakes
+
+1. **Order of matrix multiplication.** $AB \neq BA$ in general. When applying successive transformations, the order matters. $AB$ means "apply $B$ first, then $A$."
+2. **Forgetting the constant of integration.** Every indefinite integral needs $+C$. In differential equations, you need a boundary condition to find $C$.
+3. **Incorrect argument calculation.** When $\arg(z)$ is required, always check which quadrant the complex number lies in. The calculator gives $\tan^{-1}(y/x)$, which is only correct in the first and fourth quadrants.
+4. **Errors in the auxiliary equation.** For $ay'' + by' + cy = 0$, the auxiliary equation is $am^{2} + bm + c = 0$. If the roots are complex, the solution involves $e^{\alpha x}\cos(\beta x)$ and $e^{\alpha x}\sin(\beta x)$, not $e^{(\alpha + i\beta)x}$.
+
+---
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />

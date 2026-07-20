@@ -714,6 +714,14 @@ int main() {
 <aside class="starlight-aside starlight-aside--caution">
 regular types Creates confusing semantics that mislead readers into expecting pointer-like behavior.
 
+## Intuition
+
+**Operator overloading is like giving your types natural language:** Instead of calling `a.add(b)`, you write `a + b`. Instead of `a.equals(b)`, you write `a == b`. It's syntactic sugar that makes custom types feel like built-in types. But like any sugar, too much is bad — overloading operators that don't make semantic sense (like `+` for subtraction) confuses users. The key is to overload operators where the meaning is obvious and unambiguous.
+
+**Why it matters:** Operator overloading is how you make custom types integrate seamlessly with C++'s syntax. A well-designed matrix class with `+`, `-`, `*`, and `==` operators feels natural to use. A poorly designed one with `+` meaning "concatenate" and `*` meaning "cross product" confuses everyone. The rule of thumb: only overload operators where the meaning is unambiguous.
+
+**The key insight:** The spaceship operator `<=>` (C++20) lets you define all six comparison operators in a single function — it's the modern replacement for hand-written `operator==`, `operator!=`, `operator<`, etc.
+
 ## Common Pitfalls
 
 **1. Overloading `operator&&` and `operator||`:** These operators lose short-circuit evaluation when

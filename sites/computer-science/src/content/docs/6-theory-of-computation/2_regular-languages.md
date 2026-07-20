@@ -6,6 +6,14 @@ tags:
 description: "Regular Languages: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
+## Intuition
+
+Regular languages are the **simplest class in the Chomsky hierarchy** — they describe patterns that can be matched with a finite amount of memory (the states of a finite automaton). Think of a vending machine: it has a fixed number of states, transitions on inputs (coins), and accepts or rejects based on the sequence. It can't count arbitrary amounts or remember unbounded history.
+
+**DFA vs NFA intuition:** A DFA is deterministic — given a state and input, there's exactly one next state. An NFA can "guess" which transition to take, exploring multiple possibilities simultaneously. NFAs are easier to design (you don't need to track every detail) but DFAs are easier to execute (no guessing needed). The subset construction shows they're equivalent in power.
+
+**Regular expressions intuition:** Regex describe the same languages as finite automata. Each regex operator maps directly to an NFA construction: union becomes a choice (fork), concatenation becomes a sequence, and Kleene star becomes a loop. This is why regex are so useful in practice — they're compact descriptions of regular languages.
+
 ### 2.1 Finite Automata
 
 A **deterministic finite automaton (DFA)** is a 5-tuple $M = (Q, \Sigma, \delta, q_0, F)$ where:

@@ -274,7 +274,25 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Series diagnostics test whether you can **select the right convergence test** and apply it correctly. The key insight is that no single test works for all series — you must match the test to the form of the series.
+
+**Test selection strategy:**
+- **Geometric series:** Recognise the form $\sum ar^n$ — converges iff $|r| < 1$
+- **p-series:** $\sum 1/n^p$ — converges iff $p > 1$
+- **Ratio test:** Best for factorials and exponentials
+- **Comparison test:** Best when you can bound the series by a known convergent or divergent series
+- **Integral test:** Best when the series term is easily integrable
+
+**Taylor series intuition:** A Taylor series approximates a function as a polynomial around a point. The more terms you include, the better the approximation near that point. The Lagrange error bound tells you how far off the approximation is — it depends on the $(n+1)$th derivative, which is why functions with bounded derivatives are easier to approximate.
+
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Cross-References
+
+- **[Sequences and Series](../../5-sequences-and-series/5_sequences-and-series):** The full topic page covering convergence tests, Taylor series, and power series.
+- **[Limits and Continuity](../../1-limits-and-continuity/1_limits-and-continuity):** Convergence of sequences and series is defined using limits.

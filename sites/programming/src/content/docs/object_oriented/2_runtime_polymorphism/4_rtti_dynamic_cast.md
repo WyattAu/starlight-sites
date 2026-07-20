@@ -731,6 +731,14 @@ Typical results show `dynamic_cast` is 2--5x slower than a manual tag check for 
 But the absolute cost is still only a few nanoseconds per call. The overhead becomes significant
 Only in tight inner loops processing millions of objects.
 
+## Intuition
+
+**RTTI is like a name tag for objects:** When you have a pointer to a base class, RTTI lets you ask "what type is this really?" It's like looking at someone's name tag to find out if they're actually the CEO in disguise. `dynamic_cast` is the type-safe version — it checks at runtime whether the cast is valid and returns `nullptr` (for pointers) or throws `bad_cast` (for references) if it's not. `typeid` is the simpler version — it just tells you the type's name.
+
+**Why it matters:** RTTI is essential for safe downcasting in polymorphic hierarchies. Without it, you'd use `static_cast` (which doesn't check at runtime) and risk undefined behavior if the cast is wrong. The performance cost is minimal — RTTI is only invoked when you explicitly use `dynamic_cast` or `typeid`.
+
+**The key insight:** `dynamic_cast` is the only safe way to downcast in C++ — it checks at runtime and returns `nullptr` if the cast is invalid, preventing undefined behavior.
+
 ## Common Pitfalls
 
 **1. `dynamic_cast` on non-polymorphic types:** `dynamic_cast` requires the source type to be

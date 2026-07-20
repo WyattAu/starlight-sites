@@ -366,6 +366,14 @@ Returning a function parameter, or by certain compiler flags. Always write code 
 If NRVO fails — which means ensuring your move constructor is correct (or your copy constructor, as
 A fallback).
 </aside>
+## Intuition
+
+**Temporary materialization is like a recipe becoming a cake:** A prvalue is the recipe — it describes what to build but doesn't exist as a physical object. Materialization is the baking process — it creates a temporary object (the cake) from the prvalue. This happens when you bind a reference to a prvalue (like `const int& x = 5`), access a member of a prvalue (like `std::string("hello").size()`), or use a prvalue where an lvalue is needed.
+
+**Why it matters:** Materialization is the bridge between prvalues (which are just "initialization instructions") and actual objects (which exist in memory). Without it, you couldn't take the address of a temporary or bind it to a reference. Understanding materialization explains why `const T&` extends temporary lifetimes and why `T&&` captures them for moving.
+
+**The key insight:** Prvalues are not objects — they're initialization instructions. Materialization creates a temporary object from a prvalue, enabling reference binding and member access.
+
 ## See Also
 
 - [Value Taxonomy](1_value_taxonomy.md)

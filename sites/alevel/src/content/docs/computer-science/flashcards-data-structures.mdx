@@ -1,6 +1,6 @@
 ---
 title: "A-Level CS Flashcards: Data Structures"
-description: "ALEVEL Computer Science flashcards: A-Level CS Flashcards: Data Structures. Comprehensive study material with definitions, examples, and assessment tools."
+description: "A-Level Computer Science flashcards covering arrays, linked lists, stacks, queues, trees, graphs, and hash tables with spaced repetition."
 tags:
   - Computer Science
   - ALevel
@@ -14,6 +14,37 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## Computer Science -- Data Structures Flashcards
 
 20 interactive flashcards for A-Level Computer Science. Press Space to flip, rate 1-4.
+
+### What These Flashcards Cover
+
+These flashcards test your understanding of fundamental data structures, their operations, and their uses. You should know the strengths and weaknesses of each structure and be able to choose the right one for a given problem.
+
+**Key areas:**
+
+- **Arrays:** Contiguous block of memory. Direct access by index: $O(1)$ read/write. Insertion and deletion in the middle: $O(n)$ because elements must be shifted. Fixed size in many languages; dynamic arrays resize by copying.
+- **Linked Lists:** Nodes containing data and a pointer to the next node. Insertion and deletion at any position: $O(1)$ (if you have the pointer). Access by index: $O(n)$ (must traverse from the head). No wasted memory for unused slots.
+- **Stacks:** LIFO (Last In, First Out). Push to add, pop to remove, peek to read the top. Uses: undo operations, expression evaluation, function call management (call stack).
+- **Queues:** FIFO (First In, First Out). Enqueue to add, dequeue to remove. Variants: circular queue (wraps around), priority queue (highest priority removed first), double-ended queue (deque -- operations at both ends).
+- **Trees:** Hierarchical structure with a root node and child nodes. Binary tree: each node has at most two children. Binary search tree (BST): left child < parent < right child. Enables $O(\log n)$ search if balanced.
+- **Graphs:** Vertices connected by edges. Directed vs undirected. Weighted vs unweighted. Representations: adjacency matrix (good for dense graphs) and adjacency list (good for sparse graphs). Applications: social networks, road maps, dependency graphs.
+- **Hash Tables:** Map keys to values using a hash function. Average-case access: $O(1)$. Collisions handled by chaining (linked lists at each slot) or open addressing. Poor worst case: $O(n)$ if all keys hash to the same slot.
+
+---
+
+### Intuition
+
+Data structures are different shapes of containers, each optimised for different tasks. Arrays are like numbered parking spaces -- you can go straight to space 5, but inserting a new car in the middle means shifting everyone else. Linked lists are like a treasure hunt: each clue points to the next location, so you can insert a new clue easily but finding the 100th clue means following 99 pointers.
+
+Stacks are like a stack of plates -- you can only take from or add to the top. Queues are like a queue at a shop -- first person in line gets served first.
+
+---
+
+### Common Pitfalls
+
+1. **Confusing arrays and linked lists.** Arrays have $O(1)$ access but $O(n)$ insertion. Linked lists have $O(1)$ insertion but $O(n)$ access. Choose based on whether you read more or modify more.
+2. **Forgetting that BSTs can degenerate.** If you insert sorted data into a BST, it becomes a linked list with $O(n)$ operations. Self-balancing trees (AVL, red-black) prevent this.
+3. **Confusing adjacency matrix and adjacency list.** Adjacency matrix: $O(1)$ edge lookup but $O(n^{2})$ space. Adjacency list: $O(\text{degree})$ edge lookup but $O(n + e)$ space. Use matrix for dense graphs, list for sparse.
+4. **Misunderstanding hash table collisions.** A collision is not an error -- it is expected. Chaining and open addressing are two strategies for handling them. The key is to minimise collisions with a good hash function.
 
 ---
 

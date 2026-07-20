@@ -274,6 +274,14 @@ Library. Without forwarding references and `std::forward`These functions would b
 Their arguments or require separate overloads for every combination of lvalue/rvalue parameters — a
 Combinatorial explosion.
 </aside>
+## Intuition
+
+**Reference collapsing is like a Russian nesting doll:** When you have a reference to a reference (`T& &`), the compiler collapses it into a single reference (`T&`). It's like a nesting doll — no matter how many layers you add, the outer shell is still just a doll. The rules are simple: `T& &` → `T&`, `T& &&` → `T&`, `T&& &` → `T&`, `T&& &&` → `T&&`. Only `T&& &&` preserves the rvalue reference — everything else collapses to an lvalue reference.
+
+**Why it matters:** Reference collapsing is the mechanism behind `std::forward` and perfect forwarding. When you write `template<typename T> void f(T&& x)`, the `T&&` is a "forwarding reference" — it preserves the value category of the argument. If you pass an lvalue, `T` is `T&` and `T&&` collapses to `T&`. If you pass an rvalue, `T` is `T` and `T&&` stays `T&&`. This is how a single template function can forward arguments correctly.
+
+**The key insight:** `T&&` in a template is a forwarding reference, not an rvalue reference — reference collapsing rules make it preserve the value category of the argument.
+
 ## See Also
 
 - [Value Taxonomy](1_value_taxonomy.md)

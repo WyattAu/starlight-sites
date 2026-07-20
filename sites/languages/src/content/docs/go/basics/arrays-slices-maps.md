@@ -312,6 +312,14 @@ fmt.Println(a == b) // true
 
 Structs containing slices or maps are not comparable.
 
+## Intuition
+
+**A slice is a window into a larger array:** Imagine a long bookshelf (the underlying array). A slice is a bookmark and a page-count telling you which window of books you're currently reading. Multiple slices can peer into the same shelf, so flipping a page in one view changes what another view sees. When you try to read past the window, Go gets a bigger shelf and copies everything over.
+
+**Why it matters:** Understanding the slice-as-window mental model prevents the most common Go bugs: forgetting that `append` may reallocate, holding onto a tiny slice that keeps a huge array alive, or writing through one slice and surprising another.
+
+**The key insight:** Slices are cheap because they're just pointers with bounds — but that shared backing array means operations that look local can have global effects.
+
 ## Common Pitfalls
 
 1. **Forgetting to capture `append` return value.** `append` may allocate a new underlying array.

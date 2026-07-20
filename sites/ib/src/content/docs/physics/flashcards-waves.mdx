@@ -7,5 +7,34 @@ tags: [Physics, IB Physics, Flashcards]
 import FlashcardDeck from '@components/FlashcardDeck';
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/physics/flashcards-waves-data.js';
 
+## IB Physics -- Waves Flashcard Deck
+
+Flashcards with spaced repetition. Press Space to flip, then rate your recall (1--4).
+
+---
+
+### Key Concepts
+
+**Wave Equation**: v = fλ, where v is wave speed, f is frequency, and λ is wavelength. Frequency is determined by the source and does not change when a wave enters a different medium. Wavelength and speed change together to maintain this relationship.
+
+**Snell's Law** governs refraction: n₁sinθ₁ = n₂sinθ₂. When light enters a denser medium (higher n), it bends toward the normal. Total internal reflection occurs when light travels from a denser to a less dense medium and the angle of incidence exceeds the critical angle, where sinθc = n₂/n₁.
+
+**Superposition Principle** states that when two or more waves overlap, the resultant displacement is the sum of the individual displacements. Constructive interference occurs when waves are in phase; destructive interference occurs when they are out of phase by half a wavelength.
+
+**Standing Waves** form when two identical waves travel in opposite directions. Nodes (zero displacement) and antinodes (maximum displacement) are fixed in position. For a string fixed at both ends, the fundamental frequency has wavelength λ = 2L, where L is the string length.
+
+---
+
 <FlashcardDeck client:only="solid-js" deckId="ib-phys-waves" title="IB Physics: Waves" description="Wave properties, wave equation, electromagnetic spectrum, Snell\'s law, diffraction, interference, standing waves, Doppler effect, and polarization." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
-;
+
+---
+
+## Intuition
+
+Think of waves as ripples on a pond. When two sets of ripples meet, they simply add together -- where two crests coincide you get a bigger crest (constructive), and where a crest meets a trough they cancel (destructive). Frequency is like the rhythm of your hand tapping the water: it stays the same no matter how the ripples spread. For Snell's law, imagine a line of soldiers marching from pavement into mud at an angle: the ones hitting the mud first slow down, causing the line to pivot toward the normal.
+
+## Common Pitfalls
+
+- Thinking frequency changes during refraction. Only wavelength and speed change; the source sets the frequency and it stays constant.
+- Confusing diffraction with refraction: diffraction is the spreading of waves around an obstacle or through a gap; refraction is the bending of waves due to a change in speed between media.
+- Forgetting that the Doppler effect formula Δf/f = v/c uses the relative speed between source and observer, and the sign depends on whether they are approaching or receding.

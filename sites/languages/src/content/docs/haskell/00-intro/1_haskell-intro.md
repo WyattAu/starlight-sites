@@ -679,9 +679,13 @@ Commonly used extensions:
 Each extension addresses a specific limitation of Haskell 2010. Together, they form the "Modern
 Haskell" programming style used in production code.
 
-## Haskell in Industry
+## Intuition
 
-Haskell is used in production at companies that value correctness and abstraction:
+**Haskell is a mathematical proof assistant that happens to run programs:** In most languages, you write instructions and hope they're correct. In Haskell, you write *specifications* — mathematical descriptions of what things are — and the compiler verifies they fit together. Purity means every function is a mathematical function: same input, same output, no surprises. Laziness means you describe *what* to compute, not *when* to compute it — like defining an infinite list and trusting the runtime to only build what's needed.
+
+**Why it matters:** Haskell's type system catches entire categories of bugs at compile time that other languages discover in production. The combination of purity and strong typing means that if it compiles, it's much more likely to be correct.
+
+**The key insight:** Haskell separates "what to compute" (pure functions) from "how to interact with the world" (IO monad), making side effects explicit in the type system — you can always tell from a function's type whether it touches the outside world.
 
 - **Finance**: Standard Chartered, Barclays use Haskell for quantitative analysis
 - **Blockchain**: Cardano (IOHK) is implemented in Haskell for its strong type safety

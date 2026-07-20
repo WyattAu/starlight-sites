@@ -6,6 +6,14 @@ tags:
 description: "A is an instance of a program in execution. The OS maintains a for each process: Comprehensive educational content coverage with definitions and practice proble"
 ---
 
+## Intuition
+
+A process is a **program in action** — it's the abstract entity that the OS manages, containing not just code but all the state needed to execute: memory, open files, registers, and more. The OS creates the illusion that each process has the entire computer to itself through virtual memory and time-sliced CPU access.
+
+**Scheduling intuition:** The scheduler decides which process runs next. Round-robin gives each process a time slice. Priority scheduling favours important processes. The goal is to maximise throughput (jobs completed per unit time) while minimising response time (how long users wait). Context switching is expensive — saving and restoring all registers and TLB entries — so the scheduler must balance responsiveness against overhead.
+
+**Process states intuition:** A process transitions between states: new (being created), ready (waiting for CPU), running (executing), waiting (blocked on I/O), and terminated. The key insight is that processes spend most of their time waiting for I/O, not running. This is why multiprogramming works — while one process waits, another runs.
+
 ### 2.1 Process Concept
 
 A **process** is an instance of a program in execution. The OS maintains a **process control block

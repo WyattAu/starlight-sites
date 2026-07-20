@@ -1,6 +1,6 @@
 ---
 title: "A-Level Physics: Mechanics and Waves Practice"
-description: "18 MCQ practice problems covering core A-Level Mechanics and Waves content. Comprehensive educational content coverage with definitions and practice problems."
+description: "18 MCQ practice problems covering kinematics, Newton's laws, SHM, waves, quantum physics, and thermal physics. Worked examples and common error analysis."
 tags:
   - Physics
   - A-Level
@@ -13,9 +13,46 @@ import { practiceQuestions } from '@/data/flashcards/physics/practice-mechanics-
 
 18 MCQ practice problems covering core A-Level Mechanics and Waves content.
 
+### What These Questions Test
+
+These problems require you to apply the core mechanics and wave equations, interpret graphs, and reason about physical situations. Topics range from basic kinematics to quantum phenomena.
+
+**Typical question types:**
+
+- **Kinematics (SUVAT):** Find displacement, velocity, or time under constant acceleration. Interpret velocity-time and displacement-time graphs. Distinguish between distance and displacement, speed and velocity.
+- **Dynamics and Newton's Laws:** Identify forces acting on objects. Apply $F = ma$ to find acceleration or net force. Use free-body diagrams to resolve forces at angles.
+- **Momentum:** Calculate momentum changes in collisions. Apply conservation of momentum. Distinguish elastic and inelastic collisions. Use impulse-momentum theorem.
+- **SHM:** Relate displacement, velocity, and acceleration in SHM. Interpret graphs of these quantities. Use $a = -\omega^{2}x$ and energy transformations.
+- **Waves:** Use $v = f\lambda$. Interpret wavefront diagrams and diffraction patterns. Understand the conditions for constructive and destructive interference.
+- **Quantum and Thermal:** Apply $E = hf$ and the photoelectric equation. Use $Q = mc\Delta\theta$ and $Q = mL$ for thermal calculations.
+
 ---
 
-### Practice Questions
+### Approach Strategy
+
+1. **List knowns and unknowns.** For mechanics problems, write down $u$, $v$, $a$, $s$, $t$ and identify which three you know. This tells you which SUVAT equation to use.
+2. **Choose a sign convention.** Decide which direction is positive and stick to it. Upward as positive is conventional; gravity then gives $a = -9.81 \, \text{m/s}^{2}$.
+3. **Draw diagrams.** For forces, a free-body diagram is almost always necessary. For waves, sketch the wavefront or ray diagram.
+4. **Watch for hidden assumptions.** "Smooth" means no friction. "Light" means massless. "Inextensible" means the string/rope does not stretch.
+
+---
+
+### Intuition
+
+Mechanics is fundamentally about predicting motion. If you know the forces, you know the acceleration ($F = ma$), and from acceleration you can work out velocity and position using kinematics. Think of it as a chain: force $\rightarrow$ acceleration $\rightarrow$ velocity $\rightarrow$ position.
+
+For waves, the key insight is that the medium does not travel -- only the disturbance does. Each particle of the medium oscillates locally while the wave pattern propagates. This is why you can send a signal across the ocean without the water moving from one side to the other.
+
+---
+
+### Common Mistakes
+
+1. **Confusing mass and weight.** Mass ($m$) is in kilograms and is constant. Weight ($W = mg$) is a force in newtons and varies with gravitational field strength. A common error is using $W$ in $F = ma$ when $m$ is already the mass.
+2. **Using the wrong wave equation.** $v = f\lambda$ applies to all waves, but the speed $v$ depends on the medium. Changing frequency changes wavelength, not speed (in the same medium). This is a frequent conceptual trap.
+3. **Forgetting that SHM acceleration is not constant.** Unlike uniformly accelerated motion, in SHM the acceleration depends on position ($a = -\omega^{2}x$). You cannot use SUVAT for SHM.
+4. **Misinterpreting "threshold frequency."** It is the minimum frequency of incident light, not intensity, that determines whether electrons are emitted in the photoelectric effect.
+
+---
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />

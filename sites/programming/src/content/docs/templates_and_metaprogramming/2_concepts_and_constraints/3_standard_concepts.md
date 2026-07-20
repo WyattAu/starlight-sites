@@ -453,6 +453,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**Standard concepts are like a vocabulary of requirements:** Instead of inventing your own constraints, you use a standard vocabulary that other C++ programmers understand. `std::integral` means "any integer type," `std::floating_point` means "any floating-point type," `std::copyable` means "can be copied safely." It's like a shared language — when you write `template<std::integral T>`, every C++ programmer knows exactly what that means.
+
+**Why it matters:** Standard concepts provide a common vocabulary for constraining templates. Instead of writing custom SFINAE or `enable_if` for common patterns, you use the standard concepts. This makes your code more readable, more maintainable, and more likely to interoperate with other libraries. The standard concepts are also optimized for compiler error messages — they give clear, concise error messages when constraints are not satisfied.
+
+**The key insight:** Standard concepts provide a shared vocabulary for constraining templates — use them instead of custom SFINAE to make your code more readable and maintainable.
+
 ## Common Pitfalls
 
 ### Pitfall 1: `std::integral` Excludes `bool`

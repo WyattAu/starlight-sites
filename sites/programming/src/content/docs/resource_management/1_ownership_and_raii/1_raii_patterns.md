@@ -444,6 +444,14 @@ The standard library provides RAII wrappers for most common resources:
 
 RAII is the idea that resource lifetime should be tied to object lifetime, like a library card that is automatically returned when you leave the building. The constructor acquires the resource (opens a file, locks a mutex) and the destructor releases it (closes the file, unlocks the mutex). Stack unwinding guarantees that destructors run even when exceptions fly, making cleanup deterministic. Without RAII, you must remember to release resources manually, which is error-prone -- like remembering to turn off every light when you leave a building. RAII lets the compiler handle cleanup automatically.
 
+## Intuition
+
+**RAII is like a hotel checkout system:** When you check in (acquire a resource), you get a key card. When you check out (go out of scope), you return the key card (release the resource). If you forget to return the key card, the hotel has a problem (resource leak). RAII ensures the key card is returned automatically — the destructor runs when the object goes out of scope, even if an exception is thrown. This is the C++ way: tie resource lifetime to object lifetime, and let the compiler manage cleanup.
+
+**Why it matters:** RAII is the most important C++ idiom. It eliminates resource leaks, exception safety issues, and manual cleanup code. Every resource — memory, files, locks, network connections — should be managed by an RAII wrapper. The standard library provides `unique_ptr`, `shared_ptr`, `lock_guard`, `fstream`, and others — all RAII wrappers.
+
+**The key insight:** RAII ties resource lifetime to object lifetime — acquire in the constructor, release in the destructor, and the compiler handles the rest.
+
 ## Common Pitfalls
 
 **Forgetting to delete copy constructor and assignment operator.** RAII types that own a resource

@@ -244,6 +244,14 @@ reflect.ValueOf(&p).Elem().FieldByName("Name").SetString("Alice")
 If performance is critical, avoid reflection. Consider code generation (text/template) or generics
 As alternatives.
 
+## Intuition
+
+**Reflection is the runtime looking in a mirror:** Normally, Go's type system knows everything at compile time — what's an int, what's a string, what fields a struct has. Reflection is the ability to ask "what am I?" at runtime. It's like opening a box and reading its label instead of knowing what's inside from the packing slip. Struct tags are sticky notes on those boxes that serialization libraries read to know how to pack/unpack them.
+
+**Why it matters:** Reflection enables libraries that work with arbitrary types — JSON encoders, ORM mappers, validation frameworks — without requiring code generation. It's the price of admission for writing truly generic code in a statically typed language.
+
+**The key insight:** Reflection is powerful but expensive — it trades compile-time safety and performance for runtime flexibility. Use generics or type assertions first; reach for reflection only when you genuinely don't know the type.
+
 ## Common Pitfalls
 
 1. **Reflecting on unexported fields.** Reflection cannot read or set unexported (lowercase) struct

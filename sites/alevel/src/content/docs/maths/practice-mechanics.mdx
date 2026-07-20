@@ -1,6 +1,6 @@
 ---
 title: "A-Level Maths: Mechanics Practice"
-description: "18 MCQ practice problems covering core A-Level Mechanics content. Comprehensive educational content coverage with definitions and practice problems."
+description: "18 MCQ practice problems covering kinematics, forces, moments, energy, and momentum. Worked examples and common error analysis."
 tags:
   - Maths
   - A-Level
@@ -13,9 +13,45 @@ import { practiceQuestions } from '@/data/flashcards/maths/practice-mechanics-da
 
 18 MCQ practice problems covering core A-Level Mechanics content.
 
+### What These Questions Test
+
+These problems test your ability to model real-world situations using mathematical mechanics. You will apply Newton's laws, use SUVAT equations, analyse forces, and work with energy and momentum.
+
+**Typical question types:**
+
+- **Kinematics:** Using SUVAT equations for constant acceleration. Interpreting displacement-time, velocity-time, and acceleration-time graphs. Vertical motion under gravity.
+- **Forces and Newton's Laws:** Resolving forces into components. Applying $F = ma$ along a chosen axis. Friction ($F \leq \mu R$). Connected particles (pulleys, tow bars).
+- **Moments:** Taking moments about a pivot ($M = Fd$). Conditions for equilibrium: $\sum F = 0$ and $\sum M = 0$. Centre of mass problems.
+- **Work, Energy, and Power:** Work done $W = Fs\cos\theta$. Kinetic energy $E_{k} = \frac{1}{2}mv^{2}$. Potential energy $E_{p} = mgh$. Conservation of energy. Power $P = \frac{W}{t} = Fv$.
+- **Momentum:** $p = mv$. Impulse $J = F\Delta t = \Delta p$. Conservation of momentum in collisions. Coefficient of restitution $e = \frac{\text{speed of separation}}{\text{speed of approach}}$.
+
 ---
 
-### Practice Questions
+### Approach Strategy
+
+1. **Choose axes carefully.** Align one axis with the acceleration (or the incline for slope problems). This simplifies the equations.
+2. **Draw a force diagram.** For every object, identify all forces acting on it. Label magnitudes and directions.
+3. **Set up equations.** Apply Newton's second law along each axis: $\sum F_x = ma_x$ and $\sum F_y = ma_y$.
+4. **Solve simultaneously.** For connected particles, write one equation for each particle, then eliminate the tension.
+
+---
+
+### Intuition
+
+Mechanics in maths is about translating physical situations into equations. The key skill is identifying the right mathematical model: SUVAT for kinematics, $F = ma$ for dynamics, $M = Fd$ for moments, and energy conservation for work problems.
+
+Think of forces as "inputs" to a system. The net force determines the acceleration, which determines how the velocity changes, which determines how the position changes. It is a chain of cause and effect.
+
+---
+
+### Common Mistakes
+
+1. **Using the wrong value of $g$.** In A-Level mechanics, use $g = 9.8 \, \text{m/s}^{2}$ unless told otherwise. Some students use 10, which gives wrong answers.
+2. **Forgetting to resolve forces.** When a force acts at an angle, you must split it into components before applying $F = ma$. A common error is using the full force magnitude in the equation of motion.
+3. **Confusing weight and mass.** Weight is $W = mg$ (a force in newtons). Mass is $m$ (in kilograms). The equation $F = ma$ uses mass, not weight. If you use $F = mg + ma$ for an object on a slope, you have double-counted gravity.
+4. **Sign errors in vertical motion.** If upward is positive, acceleration due to gravity is $a = -g$. Many students forget the negative sign, leading to incorrect results for projectile problems.
+
+---
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />

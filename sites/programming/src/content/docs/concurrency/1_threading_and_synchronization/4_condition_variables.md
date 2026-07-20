@@ -541,6 +541,14 @@ int main() {
 | Wait for a single event (flag)      | `std::atomic<bool>` + `wait()` (C++20) | No mutex overhead               |
 | One-time initialization             | `std::call_once`                       | Guaranteed single execution     |
 
+## Intuition
+
+**A condition variable is like a doorbell for a waiting room:** When you're waiting for something to happen (like a package delivery), you don't want to keep checking the door every second. Instead, you ring the doorbell when the package arrives, and the waiting person wakes up. The predicate is like a security check — even if someone rings the bell, you still verify the package is actually there before getting excited (because of spurious wakeups, the doorbell might ring randomly).
+
+**Why it matters:** Condition variables are the bridge between "I need to wait for something" and "I need to be notified when it's ready." Without them, you'd either waste CPU spinning in a loop or miss notifications entirely. They're the backbone of producer-consumer patterns, thread pools, and any scenario where threads need to coordinate based on changing state.
+
+**The key insight:** Always use the predicate version of `wait()` — without it, spurious wakeups will cause your code to process data that isn't actually ready.
+
 ## Common Pitfalls
 
 ### Pitfall 1: Forgetting the Predicate Loop

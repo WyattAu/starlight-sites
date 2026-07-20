@@ -11,7 +11,7 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## C++ -- Memory Management Flashcards
 
-20 interactive flashcards. Press Space to flip, rate 1-4 to schedule next review.
+20 interactive flashcards covering RAII, smart pointers (unique_ptr, shared_ptr, weak_ptr), move semantics, the Rule of Five, memory leaks, dangling pointers, stack vs heap allocation, and exception safety. Press Space to flip, rate 1-4 to schedule next review.
 
 ---
 
@@ -20,3 +20,21 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
   description="Interactive flashcards on RAII, smart pointers, move semantics, Rule of Five, memory leaks, dangling pointers, stack vs heap, and exception safety."
   cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}
  />
+
+## Intuition
+
+**Memory management in C++ is like a hotel reservation system:** When you check in (allocate memory), you get a room (pointer). When you check out (free memory), you return the room. RAII is like automatic checkout — the room is returned when you leave the hotel (go out of scope). `unique_ptr` is like a single-occupancy room — only one guest can have the key. `shared_ptr` is like a shared room — multiple guests can have keys, and the room is freed when the last guest leaves. `weak_ptr` is like a non-occupying visitor — they can check if the room is occupied, but they don't keep it open.
+
+**Why it matters:** Memory management is the most critical aspect of C++ programming. Incorrect memory management leads to leaks (memory never freed), dangling pointers (accessing freed memory), double-frees (freeing memory twice), and use-after-free bugs. These are among the most dangerous bugs in software — they can cause crashes, data corruption, and security vulnerabilities. RAII and smart pointers eliminate most of these bugs by automating memory management.
+
+**The key insight:** RAII ties resource lifetime to object lifetime — acquire in the constructor, release in the destructor, and the compiler handles the rest. Use `unique_ptr` by default, `shared_ptr` only when you need shared ownership.
+
+## Common Pitfalls
+
+1. **Using `new`/`delete` instead of smart pointers:** Raw `new`/`delete` is error-prone because you must manually manage the lifetime. If an exception is thrown between `new` and `delete`, the memory leaks. Use `std::make_unique` or `std::make_shared` instead — they handle the allocation and wrap it in a smart pointer.
+
+2. **Circular references with `shared_ptr`:** If two objects hold `shared_ptr`s to each other, the reference count never reaches zero and both objects leak. Break the cycle with `weak_ptr` on one side — it observes without owning, so the reference count isn't incremented.
+
+3. **Using `std::shared_ptr` when `std::unique_ptr` suffices:** `shared_ptr` has overhead (atomic reference counting, heap-allocated control block). If you don't need shared ownership, use `unique_ptr` — it has zero overhead compared to raw pointers.
+
+4. **Returning `std::unique_ptr` from functions:** `unique_ptr` is move-only — you can't copy it, but you can move it. Return `unique_ptr` from factory functions to transfer ownership to the caller. The compiler will apply NRVO or move the pointer automatically.

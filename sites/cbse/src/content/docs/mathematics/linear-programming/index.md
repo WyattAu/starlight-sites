@@ -96,6 +96,21 @@ Maximum profit is Rs. 2200 by producing 3 units of A and 2 units of B.
 
 **Common mistake:** Not converting word problems into mathematical constraints correctly. Always define variables first and then translate each condition.
 
+## Common Mistakes
+
+**Checking interior points instead of corner points.** The corner point theorem guarantees the optimum is at a vertex. Students waste time checking interior points or midpoints, which can never be optimal for linear objectives. Always evaluate Z only at corner points.
+
+**Forgetting to verify unbounded regions.** When the feasible region is unbounded (extends to infinity), you must verify that no point gives a better value. For minimization, check whether Z < minimum corner value has any solution in the feasible region. For maximization, the maximum may not exist if the region is unbounded in the direction of increase.
+
+**Incorrectly translating word problems into constraints.** "At least" means ≥, "at most" means ≤, "no more than" means ≤. Students often reverse these. Always define variables first, then systematically translate each word condition.
+
+## Cross-References
+
+- **[Matrices](../matrices/index.md):** The simplex method uses matrix operations to solve linear programming problems systematically.
+- **[Derivatives](../derivatives/index.md):** Optimization without constraints uses derivatives; linear programming handles constrained optimization.
+- **[Probability](../probability/index.md):** Decision theory and expected value problems sometimes lead to linear programming formulations.
+- **[Biomolecules (Chemistry)](../../chemistry/biomolecules/index.md):** Diet optimization problems in linear programming often involve nutritional constraints from biochemistry.
+
 ## Practice Problems
 
 1. Maximize $Z = 5x + 3y$ subject to $x + y \leq 6$, $2x + y \leq 8$, $x, y \geq 0$.
@@ -105,6 +120,14 @@ Maximum profit is Rs. 2200 by producing 3 units of A and 2 units of B.
 ## Why This Matters
 
 Linear programming is used in logistics, supply chain management, telecommunications, and finance. It provides optimal solutions to resource allocation problems and forms the basis for more advanced optimization techniques.
+
+## Intuition
+
+**Finding the best answer by drawing a map:** Linear programming is like finding the highest point on a mountain by walking along the boundary of a fenced area. The fence represents your constraints (what you can't do), and the terrain represents your objective (what you want to maximize). The corner point theorem says the best answer always lies at a corner of the feasible region — you never need to check the middle of an edge or the interior. This is because linear functions can't have their maximum in the middle of a flat region.
+
+**Why it matters:** Linear programming is used by airlines to optimize flight routes, factories to plan production schedules, logistics companies to minimize delivery costs, and farmers to decide crop allocation. Every time you see an "optimal" solution in business, there's likely a linear programming algorithm behind it.
+
+**The key insight:** The feasible region is convex (no dents), which guarantees that any local optimum is also a global optimum — no need to worry about getting stuck in a local maximum.
 
 ## Common Exam Patterns
 

@@ -208,7 +208,23 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Diagnostics are **stress tests** for your understanding. Unlike practice exams that sample broadly, diagnostics probe the specific edge cases, boundary conditions, and misconceptions that separate students who memorise procedures from those who understand the mathematics.
+
+**Why diagnostics matter:** AP exams consistently test the same tricky cases year after year. If you can handle the diagnostic problems — where the "obvious" approach fails or requires careful reasoning — you can handle anything the exam throws at you.
+
+**The prerequisite chain:** Limits → Derivatives → Integrals → Differential Equations and Series. Each level depends on the previous one. A weakness in limits will cascade into difficulties with derivatives, and so on. Use diagnostics to find and fix gaps before they compound.
+
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Cross-References
+
+- **[Limits and Continuity](../1-limits-and-continuity/1_limits-and-continuity):** The foundation — start here if diagnostics reveal gaps in limit understanding.
+- **[Derivatives](../2-derivatives/2_derivatives):** Chain rule, implicit differentiation, and related rates diagnostics.
+- **[Integrals](../3-integrals/3_integrals):** FTC, Riemann sums, and integration technique diagnostics.
+- **[Differential Equations](../4-differential-equations/4_differential-equations):** Separation of variables, logistic growth, and Euler's method diagnostics.
+- **[Sequences and Series](../5-sequences-and-series/5_sequences-and-series):** Convergence tests and Taylor series diagnostics (BC only).

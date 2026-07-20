@@ -503,6 +503,14 @@ Arbitrary text. They are used internally by the Dart VM for optimization and ref
 Exposed via the `dart:mirrors` library. Most application developers will never create symbols
 Directly.
 
+## Intuition
+
+**Variable specifiers are safety rails on a cliff:** `var` is the default path — type-inferred, mutable, flexible. `final` is a one-way valve — you can set it once, but the object inside can still change. `const` is a frozen block — nothing changes, ever, at compile time. `late` is a sign that says "trust me, this will be initialized" — convenient, but if you're wrong, you fall off the cliff at runtime. Null safety (`?`) is the guardrail that prevents you from walking off the edge into null territory without a harness.
+
+**Why it matters:** Dart's type system catches null errors at compile time, not runtime. The distinction between `final` (immutable reference, mutable object) and `const` (fully immutable) prevents subtle bugs where you think something is frozen but the contents can still change.
+
+**The key insight:** Dart's null safety is sound — the compiler guarantees no null reaches a non-nullable variable, eliminating an entire class of runtime crashes.
+
 ## Common Pitfalls
 
 1. Writing pseudocode that is too language-specific rather than using standard algorithmic

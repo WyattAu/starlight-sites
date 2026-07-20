@@ -84,6 +84,14 @@ The catalyst cycles between oxidation states, providing an alternative pathway w
 
 Transition metals are essential for industrial catalysis (Haber process, catalytic converters), biological systems (hemoglobin, chlorophyll), and technology (batteries, electronics, magnets).
 
+## Intuition
+
+**Colorful metals with multiple personalities:** Transition metals are like actors who can play many roles — iron can be Fe²⁺ or Fe³⁺, copper can be Cu⁺ or Cu²⁺, and manganese can exist in seven different oxidation states. This versatility comes from their partially filled d-orbitals, which are close in energy to the s-orbitals. When light hits a transition metal compound, d-electrons absorb specific wavelengths and jump to higher energy levels — the remaining light gives the compound its characteristic color, like how stained glass filters sunlight into colors.
+
+**Why it matters:** Transition metals are the workhorses of industry and biology. Iron carries oxygen in hemoglobin, copper conducts electricity in wires, titanium makes aircraft strong and light, and platinum catalyzes chemical reactions. Understanding d-block chemistry means understanding the elements that build and power our world.
+
+**The key insight:** The anomalous electron configurations of Cr ([Ar]3d⁵4s¹) and Cu ([Ar]3d¹⁰4s¹) occur because half-filled and fully-filled d-orbitals are extra stable — nature always finds the lowest energy arrangement.
+
 ## Common Exam Patterns
 
 - Electron configurations: remember anomalies (Cr, Cu)
@@ -99,3 +107,10 @@ Transition metals are essential for industrial catalysis (Haber process, catalyt
 **Assuming the catalyst is consumed in a reaction.** Catalysts provide an alternative reaction pathway with lower activation energy but are regenerated at the end. MnO2 in the decomposition of H2O2 cycles between Mn4+ and Mn6+ oxidation states but is recovered unchanged. A catalyst is not a reactant.
 
 **Confusing the colour origin in transition metal compounds.** The characteristic colours of transition metal ions arise from d-d electronic transitions, not from s or p electrons. When white light passes through a solution, certain wavelengths are absorbed to promote d electrons to higher energy levels, and the transmitted complementary colour is observed.
+
+## Cross-References
+
+- **[Coordination Compounds](../coordination/index.md):** Crystal field theory explains d-orbital splitting in coordination complexes — connecting d-block properties to coordination chemistry.
+- **[F-Block Elements](../f-block/index.md):** Lanthanoid contraction affects Period 6 d-block elements (Zr ≈ Hf), linking f-block trends to d-block chemistry.
+- **[Electrochemistry](../electrochemistry/index.md):** Variable oxidation states enable redox cycling in electrochemical cells — connecting d-block properties to batteries and electrolysis.
+- **[Surface Chemistry](../surface-chemistry/index.md):** Transition metals are heterogeneous catalysts — their surface properties and d-electrons enable catalytic activity.

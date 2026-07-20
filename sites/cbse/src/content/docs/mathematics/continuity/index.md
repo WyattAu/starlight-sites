@@ -75,6 +75,14 @@ $$\frac{dy}{dx} = y(\ln x + 1) = x^x(\ln x + 1)$$
 
 Continuity and differentiability are the foundations of calculus. They guarantee that functions behave well enough for differentiation and integration, which are used throughout physics, engineering, economics, and biology.
 
+## Intuition
+
+**A function is continuous if you can draw it without lifting your pen:** Continuity means there are no holes, jumps, or vertical asymptotes — the function flows smoothly. Think of it as a road with no potholes or cliffs. Differentiability is stricter: it means the road not only exists but has a well-defined slope at every point (no sharp corners). The absolute value function |x| is continuous at x = 0 (no hole) but not differentiable there (sharp V-shape). Chain rule, implicit differentiation, and logarithmic differentiation are just tools for finding slopes of curves that are hard to differentiate directly.
+
+**Why it matters:** Continuity and differentiability are the foundations of calculus — they guarantee that limits, derivatives, and integrals work properly. Every physical law expressed as a differential equation assumes continuity. Without these concepts, we couldn't model motion, growth, decay, or virtually any changing quantity.
+
+**The key insight:** Differentiability implies continuity (if a function has a derivative, it must be continuous), but continuity does NOT imply differentiability (a continuous function can have sharp corners). This one-way relationship is a fundamental theorem of calculus.
+
 ## Common Exam Patterns
 
 - Check continuity by verifying left limit = right limit = function value

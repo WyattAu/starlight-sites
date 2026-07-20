@@ -78,6 +78,14 @@ The negative sign indicates the system is bound (energy would be required to sep
 
 6. A point charge $+Q$ is placed at the centre of a neutral conducting sphere. Find the charge distribution on the sphere.
 
+## Intuition
+
+**Electric charges create invisible fields of influence:** Imagine placing a pebble in a pond — ripples spread out in all directions. Charges do something similar: they create electric fields that spread through space, and any other charge placed in that field feels a force. Gauss's law is like counting how many field lines pass through a net — if you know how many lines go through a closed surface, you know how much charge is inside. Capacitors are like rechargeable reservoirs — they store energy in the electric field between two plates, ready to release it when needed.
+
+**Why it matters:** Electrostatics explains why you get shocked touching a doorknob (charge buildup), how lightning forms (enormous electric fields in clouds), how photocopying works (electrostatic attraction of toner), and how touchscreens detect your finger (capacitance changes). It's the foundation of all electrical and electronic technology.
+
+**The key insight:** Electric potential is a scalar (just a number at each point), while electric field is a vector (direction matters) — this is why adding potentials is simple arithmetic but adding fields requires vector addition.
+
 ## Common Exam Patterns
 
 - Always identify the charge distribution before choosing a method

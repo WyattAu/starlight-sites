@@ -9,7 +9,7 @@ import { practiceQuestions } from '@/data/flashcards/physics/practice-waves-data
 
 ## IB Physics -- Waves Practice
 
-## 16 MCQ practice problems covering core IB Physics wave behaviour content, from basic wave properties to interference, standing waves, and the Doppler effect.
+16 MCQ practice problems covering core IB Physics wave behaviour content, from basic wave properties to interference, standing waves, and the Doppler effect.
 
 ---
 
@@ -17,3 +17,15 @@ import { practiceQuestions } from '@/data/flashcards/physics/practice-waves-data
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions}  />
+
+---
+
+## Intuition
+
+For wave problems, always identify whether you're dealing with a travelling wave (moving through space) or a standing wave (stationary pattern). For interference, draw a path difference diagram: if the path difference from two sources to a point is a whole number of wavelengths, you get constructive interference; if it's a half-wavelength (or odd multiple), you get destructive. For the Doppler effect, remember that the source moving toward you increases frequency (blue shift), while moving away decreases it (red shift).
+
+## Common Mistakes
+
+- Forgetting that frequency does not change when a wave enters a new medium. Only wavelength and speed change. This is a very common MCQ trap.
+- Confusing the conditions for constructive and destructive interference in diffraction gratings. For a grating with slit separation d, constructive interference occurs when d sinθ = nλ, where n is an integer.
+- Misidentifying the fundamental frequency of a standing wave. For a string fixed at both ends, the fundamental has nodes at both ends and one antinode in the middle, giving λ = 2L.

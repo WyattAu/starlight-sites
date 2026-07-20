@@ -305,7 +305,20 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Limit diagnostics test whether you understand the **rigorous foundations** of calculus — epsilon-delta proofs, the precise conditions for L'Hopital's rule, and the classification of discontinuities. These are the concepts that separate procedural fluency from genuine understanding.
+
+**Epsilon-delta intuition:** The definition says: for any tolerance $\varepsilon$ around the limit value, you can find a neighbourhood $\delta$ around the point where all function values stay within $\varepsilon$. The key is that you must *bound* the non-linear parts of the expression before relating $\delta$ to $\varepsilon$ — you can't just pick $\delta = \varepsilon / (\text{something})$ without justification.
+
+**L'Hopital's trap:** L'Hopital's rule only applies to indeterminate forms $\frac{0}{0}$ or $\frac{\infty}{\infty}$. If the limit of the ratio of derivatives doesn't exist, that does *not* mean the original limit doesn't exist — it means L'Hopital's rule failed, and you need another method (algebra, squeeze theorem, etc.).
+
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Cross-References
+
+- **[Limits and Continuity](../../1-limits-and-continuity/1_limits-and-continuity):** The full topic page covering epsilon-delta proofs, L'Hopital's rule, and continuity classification in detail.
+- **[Derivatives](../../2-derivatives/2_derivatives):** Derivatives are defined as limits of difference quotients — mastering limits is the prerequisite for all differentiation.

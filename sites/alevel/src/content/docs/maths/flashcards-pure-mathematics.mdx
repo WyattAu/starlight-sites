@@ -1,7 +1,7 @@
 ---
 title: Pure Mathematics Flashcards
 date: 2026-05-31
-description: "15 flashcards with spaced repetition. Press Space to flip, then rate your recall Comprehensive educational content coverage with definitions and practice proble"
+description: "A-Level Maths flashcards covering trigonometry, algebra, vectors, sequences, and core pure mathematics with spaced repetition."
 tags:
   - Maths
   - ALevel
@@ -14,9 +14,39 @@ import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcards1, flashcards2, flashcards3 } from '@/data/flashcards/maths/flashcards-pure-mathematics-data.js';
 
 
-## A-Level Pure Mathematics — Flashcard Deck
+## A-Level Pure Mathematics -- Flashcard Deck
 
-15 flashcards with spaced repetition. Press Space to flip, then rate your recall (1–4).
+15 flashcards with spaced repetition. Press Space to flip, then rate your recall (1--4).
+
+### What These Flashcards Cover
+
+These flashcards test your knowledge of the core pure mathematics topics that underpin the A-Level specification. You should be confident with algebraic manipulation, trigonometric identities, sequences and series, and vector operations.
+
+**Key areas:**
+
+- **Algebra and Proof:** Factorising quadratics and cubics. The discriminant $b^{2} - 4ac$ determines the nature of roots. Proof by contradiction (e.g. proving $\sqrt{2}$ is irrational) and proof by induction (used for summing series and divisibility results).
+- **Trigonometry:** The three trigonometric ratios and their reciprocals. Key identities: $\sin^{2}\theta + \cos^{2}\theta = 1$, $\tan\theta = \frac{\sin\theta}{\cos\theta}$. Addition formulae: $\sin(A \pm B) = \sin A\cos B \pm \cos A\sin B$. Double angle formulae. Solving trigonometric equations in given intervals.
+- **Sequences and Series:** Arithmetic sequences: $u_{n} = a + (n-1)d$. Sum: $S_{n} = \frac{n}{2}(2a + (n-1)d)$. Geometric sequences: $u_{n} = ar^{n-1}$. Sum: $S_{n} = \frac{a(1-r^{n})}{1-r}$. Convergent geometric series: $S_{\infty} = \frac{a}{1-r}$ for $|r| < 1$.
+- **Logarithms and Exponentials:** $y = \ln x \iff x = e^{y}$. Laws: $\ln(ab) = \ln a + \ln b$, $\ln\left(\frac{a}{b}\right) = \ln a - \ln b$, $\ln(a^{n}) = n\ln a$. Solving equations like $2^{x} = 5$ by taking logarithms of both sides.
+- **Differentiation and Integration (Pure):** Differentiate $\sin x$, $\cos x$, $e^{x}$, $\ln x$, $\tan x$. Integrate $\cos x$, $\sin x$, $e^{x}$, $\sec^{2}x$, $\tan x$. Use substitution and integration by inspection.
+- **Vectors:** 2D and 3D vectors. Magnitude $|\mathbf{a}| = \sqrt{x^{2}+y^{2}+z^{2}}$. Dot product $\mathbf{a} \cdot \mathbf{b} = |\mathbf{a}||\mathbf{b}|\cos\theta$. Vector equations of lines: $\mathbf{r} = \mathbf{a} + \lambda\mathbf{b}$. Intersection of lines.
+
+---
+
+### Intuition
+
+Pure mathematics is about structure and pattern. Algebra gives you the tools to manipulate abstract expressions. Trigonometry connects geometry (triangles, circles) to algebra (equations, identities). Sequences and series describe patterns that repeat or accumulate.
+
+Think of proof as the difference between "it looks true" and "it must be true." Empirical evidence (checking a few cases) is not the same as a logical proof that covers all cases.
+
+---
+
+### Common Pitfalls
+
+1. **Losing solutions when squaring both sides.** Squaring can introduce extraneous solutions. Always check your answers in the original equation.
+2. **Forgetting that $\ln x$ is undefined for $x \leq 0$.** When solving logarithmic equations, any solution that gives a negative or zero argument must be rejected.
+3. **Confusing arithmetic and geometric series.** Arithmetic series have a common difference ($d$); geometric series have a common ratio ($r$). Using the wrong formula gives incorrect sums.
+4. **Misapplying vector direction.** The vector from $A$ to $B$ is $\overrightarrow{AB} = \mathbf{b} - \mathbf{a}$, not $\mathbf{a} - \mathbf{b}$. Getting the direction wrong flips the sign of your answer.
 
 ---
 

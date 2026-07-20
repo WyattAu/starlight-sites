@@ -705,6 +705,14 @@ typedef char* va_list;
 This is simpler but means that variadic functions on Windows are inherently slower than on Linux:
 Register arguments must be written to memory before the callee can access them.
 
+## Intuition
+
+**A calling convention is like a restaurant's seating policy:** The restaurant (CPU) needs rules for where to put guests (arguments). The System V ABI says "first 6 integer args go in registers, the rest go on the stack" — like a restaurant that seats the first 6 guests at tables and puts the rest in the waiting area. The Microsoft x64 ABI is more restrictive: only 4 register slots, more guests in the waiting area. If you mix up the rules (call a Windows function with Linux conventions), the restaurant gives guests the wrong food (garbage values).
+
+**Why it matters:** Calling conventions are the invisible contract between caller and callee. If they don't match, your program crashes with stack corruption or garbage values. This is why `extern "C"` exists — it forces C linkage, which uses a consistent calling convention across platforms. Understanding the System V AMD64 ABI is essential for writing correct FFI code and debugging stack corruption.
+
+**The key insight:** The C++ Standard doesn't prescribe a calling convention — it's determined by the platform ABI, and getting it wrong causes silent stack corruption.
+
 ## Common Pitfalls
 
 - **Assuming Windows and Linux share an ABI on x86-64.** They do not. The register allocation,

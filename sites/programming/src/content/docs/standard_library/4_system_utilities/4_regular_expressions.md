@@ -540,6 +540,14 @@ int main() {
 You need to capture zero-length matches (e.g., for splitting), use `std::regex_token_iterator` with
 Index `-1`.
 
+## Intuition
+
+**Regular expressions are like search patterns with superpowers:** Instead of searching for exact text, you search for patterns — like "any email address" or "any phone number." The regex syntax is like a mini-language for describing text patterns: `\d+` means "one or more digits," `[a-z]` means "any lowercase letter," and `(...)` captures groups. The regex engine is like a pattern-matching robot that walks through your text looking for matches.
+
+**Why it matters:** Regular expressions are essential for text processing tasks like validation, extraction, and replacement. They're used everywhere: input validation (is this a valid email?), log parsing (extract timestamps), and search-and-replace (refactor code patterns). The C++ `<regex>` library provides a standard, type-safe way to use regular expressions without external dependencies.
+
+**The key insight:** Regular expressions are a pattern-matching language embedded in C++ — they're powerful but can be hard to read, so prefer clarity over cleverness.
+
 ## See Also
 
 - [Filesystem Library](./1_filesystem.md)

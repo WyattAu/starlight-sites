@@ -1,6 +1,6 @@
 ---
 title: "University CS Flashcards: Systems"
-description: "20 interactive flashcards for university-level Computer Systems. Press Space to  Comprehensive educational content coverage with definitions and practice proble"
+description: "20 interactive flashcards for university-level Computer Systems. Press Space to flip, rate 1-4."
 tags: [University, Computer Science, Flashcards]
 ---
 
@@ -9,6 +9,41 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Computer Science -- Systems Flashcards
 20 interactive flashcards for university-level Computer Systems. Press Space to flip, rate 1-4.
+
 ---
 
-<FlashcardDeck client:only="solid-js" deckId="uni-cs-systems" title="University CS -- Systems" description="Architecture, memory hierarchy, deadlock, scheduling, file systems, CAP theorem" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />;
+## Intuition
+
+Computer systems are about **how hardware and software cooperate** to execute programs efficiently. The key abstractions — processes, virtual memory, file systems — hide complexity while creating performance trade-offs.
+
+**The memory hierarchy intuition:** Fast memory is expensive and small; slow memory is cheap and large. Caches exploit *temporal locality* (recently accessed data will be accessed again) and *spatial locality* (nearby data will be accessed next). Understanding this hierarchy explains why a well-optimised program can be 100x faster than a naive one on the same hardware.
+
+**Process vs thread intuition:** A process has its own address space (isolation); threads within a process share memory. Processes are safer (one crash doesn't affect others) but more expensive to create and communicate between. Threads are lighter but require careful synchronisation to avoid race conditions.
+
+**Virtual memory intuition:** Every process thinks it has the entire address space to itself. The OS translates virtual addresses to physical addresses using page tables. This gives each process isolation, allows memory overcommitment, and enables demand paging — loading pages only when accessed.
+
+---
+
+## Key Concepts
+
+| Concept | Why It Matters |
+|---------|---------------|
+| **Cache hierarchy** | L1/L2/L3 caches bridge the CPU-memory speed gap using locality principles |
+| **Virtual memory** | Isolates processes, enables memory overcommitment, simplifies programming |
+| **Context switching** | OS saves/restores process state to multiplex the CPU across processes |
+| **Deadlock** | Four conditions (mutual exclusion, hold-and-wait, no preemption, circular wait) can freeze a system |
+| **CAP theorem** | Distributed systems can guarantee at most 2 of: Consistency, Availability, Partition tolerance |
+
+---
+
+## Common Pitfalls
+
+**Confusing virtual and physical addresses.** Programs see virtual addresses; the MMU translates them. A virtual address may not have a physical page mapped yet (page fault) or may be shared between processes.
+
+**Assuming caches are transparent.** While caches are transparent to correctness, they have enormous performance implications. Ignoring cache locality can make an algorithm 10-100x slower on real hardware.
+
+**Ignoring the cost of synchronisation.** Locks, semaphores, and monitors ensure correctness but add overhead. Over-synchronisation can serialise what should be parallel work, negating the benefit of multi-threading.
+
+---
+
+<FlashcardDeck client:only="solid-js" deckId="uni-cs-systems" title="University CS -- Systems" description="Architecture, memory hierarchy, deadlock, scheduling, file systems, CAP theorem" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]}  />

@@ -677,6 +677,14 @@ types that are `Functor` or `Applicative` but not `Monad`:
 -- They are more general (less powerful but more widely applicable)
 ```
 
+## Intuition
+
+**Type classes are skills badges, not family trees:** In OOP, interfaces live inside the class hierarchy — you must declare "I implement this interface" at definition time. In Haskell, type classes are external skill badges: any type can earn the `Eq` badge, the `Show` badge, or the `Ord` badge, regardless of where it was defined or what its ancestors are. The compiler acts as the HR department, checking that every type used in a context has the right badges.
+
+**Why it matters:** Type classes enable ad-hoc polymorphism — writing functions that work with any type that has a specific capability. You can write a `sort` function that works on any `Ord` type, and the compiler ensures only sortable types are passed in.
+
+**The key insight:** Type classes separate *what a type can do* from *what a type is*. This is more flexible than inheritance because a type can gain capabilities after it's defined, and the same type can implement multiple unrelated interfaces.
+
 ## Practical Type Class Design
 
 When designing your own type classes, consider:

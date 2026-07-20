@@ -803,6 +803,14 @@ This is not directly related to RVO, but it is a related pitfall involving prval
 Temporary lifetimes. The `std::initializer_list` object itself can be RVO'd, but the backing array
 It references is a temporary whose lifetime does not extend past the function return.
 
+## Intuition
+
+**RVO is like ordering furniture that arrives pre-assembled:** Instead of building the furniture at the store (constructor), packing it in a box (copy/move), and assembling it at your home (another constructor), the furniture is built directly in your living room. No box, no moving truck, no assembly — it just appears where it belongs. C++17 made this mandatory for prvalues: the temporary is constructed directly in the destination, eliminating the copy and move entirely.
+
+**Why it matters:** RVO is the single most important optimization in C++ for avoiding unnecessary copies. Without it, returning a large object from a function would copy all elements. With mandatory RVO (C++17), the compiler constructs the result directly in the caller's variable — zero overhead. Understanding when RVO applies (and when NRVO doesn't) is essential for writing efficient C++ code.
+
+**The key insight:** C++17 made RVO mandatory for prvalues — the temporary is constructed directly in the destination, eliminating the copy and move entirely.
+
 ## Common Pitfalls
 
 ### 1. NRVO and Debug Builds

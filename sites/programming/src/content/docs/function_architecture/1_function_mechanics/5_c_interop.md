@@ -748,6 +748,14 @@ By [N4950 §6.7.7], a local `static` variable with block scope is initialized on
 Passage through its declaration, which is guaranteed to be thread-safe since C++11. This avoids the
 Static initialization order problem entirely.
 
+## Intuition
+
+**C++ name mangling is like a restaurant's reservation system:** When you reserve a table for "John Smith," the restaurant adds details: "John Smith, party of 4, 7pm, window seat." The mangled name encodes all the details (namespace, class, parameter types) so the linker can distinguish between `foo(int)` and `foo(double)`. C doesn't do this — it just uses the raw name "foo," so you can't have two functions with the same name. `extern "C"` tells the linker "use the C naming convention — no decorations."
+
+**Why it matters:** C++ and C use different naming conventions, and mixing them without `extern "C"` causes linker errors or (worse) silent ABI mismatches. This is the most common FFI pitfall — a C library header included without `extern "C"` will fail to link because the C++ compiler mangles the function names.
+
+**The key insight:** `extern "C"` disables name mangling, making C++ functions callable from C — but it also disables overloading, since C doesn't support it.
+
 ## See Also
 
 - [Calling Conventions and Stack Management](2_calling_conventions.md)

@@ -1,6 +1,6 @@
 ---
 title: "A-Level Maths: Pure Mathematics Practice"
-description: "18 MCQ practice problems covering core A-Level Pure Mathematics content. Comprehensive educational content coverage with definitions and practice problems."
+description: "18 MCQ practice problems covering algebra, trigonometry, sequences, logarithms, and proof. Detailed worked solutions and common error analysis."
 tags:
   - Maths
   - A-Level
@@ -13,9 +13,46 @@ import { practiceQuestions } from '@/data/flashcards/maths/practice-pure-mathema
 
 18 MCQ practice problems covering core A-Level Pure Mathematics content.
 
+### What These Questions Test
+
+These problems test your algebraic fluency, trigonometric reasoning, ability to work with sequences and series, and skill in constructing mathematical arguments.
+
+**Typical question types:**
+
+- **Algebra:** Factorising polynomials, solving quadratic and simultaneous equations, using the discriminant to determine the nature of roots, completing the square.
+- **Trigonometry:** Solving equations in given intervals, using identities to simplify expressions, applying addition and double angle formulae, sketching trigonometric graphs.
+- **Sequences and Series:** Finding terms and sums of arithmetic and geometric sequences. Summing geometric series to infinity. Using sigma notation.
+- **Logarithms and Exponentials:** Converting between logarithmic and exponential form. Using log laws to simplify and solve equations. Differentiating and integrating exponential functions.
+- **Proof:** Proof by deduction, exhaustion, and contradiction. Proof by induction for series, divisibility, and matrix results.
+- **Differentiation and Integration:** Differentiating polynomials, trig functions, exponentials, and logarithms. Integrating standard forms. Using the chain rule, product rule, and quotient rule.
+
 ---
 
-### Practice Questions
+### Approach Strategy
+
+1. **Simplify before calculating.** Many problems become much easier if you simplify the expression first. Factorise, cancel common terms, or use identities.
+2. **Check your domain.** For logarithms, arguments must be positive. For trigonometric equations, solutions must lie in the specified interval. For square roots, the radicand must be non-negative.
+3. **Verify with substitution.** After finding a solution, substitute it back into the original equation to check it works.
+4. **Use diagrams where possible.** A sketch of a trigonometric graph or a coordinate geometry diagram can reveal the structure of a problem.
+
+---
+
+### Intuition
+
+Pure mathematics is about finding patterns and proving they always hold. When you solve an equation, you are finding the values that make a statement true. When you prove something, you are showing it is true for all cases, not just the ones you have checked.
+
+Think of algebra as a language. The symbols represent quantities and relationships. Manipulating expressions is like rearranging a sentence -- the meaning stays the same, but the form changes to reveal something new.
+
+---
+
+### Common Mistakes
+
+1. **Losing solutions when dividing by a variable.** If you divide both sides by $x$ to solve $x^{2} = 3x$, you lose the solution $x = 0$. Always factorise instead of dividing.
+2. **Incorrect use of trig identities.** $\sin(A + B) \neq \sin A + \sin B$. The addition formula is $\sin(A+B) = \sin A\cos B + \cos A\sin B$. This is one of the most common errors.
+3. **Forgetting that $\log_{a} x$ and $a^{x}$ are inverses.** $\log_{a}(a^{x}) = x$ and $a^{\log_{a} x} = x$, but only when $x > 0$ for the logarithm.
+4. **Sign errors in proof by induction.** When proving divisibility, ensure you correctly substitute $n = k+1$ and use the inductive hypothesis. A sign error here invalidates the proof.
+
+---
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />

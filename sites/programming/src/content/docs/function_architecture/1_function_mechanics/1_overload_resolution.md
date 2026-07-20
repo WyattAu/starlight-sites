@@ -804,6 +804,14 @@ Dispatch (like Java). In C++, accessibility is a post-resolution check, not a pr
 
 ---
 
+## Intuition
+
+**Overload resolution is like a dating app for functions:** The compiler takes your function call (your profile) and matches it against all available overloads (potential partners). It ranks them by how well they match — exact matches get top priority, then promotions, then conversions, then ellipsis. If two overloads are equally good, it's an ambiguous error (the compiler can't choose between two equally attractive options). The process is deterministic but complex — understanding the ranking hierarchy is key to predicting which overload gets called.
+
+**Why it matters:** Overload resolution is one of C++'s most complex features. A subtle mismatch in conversion ranks can cause your carefully crafted overload to be silently ignored in favor of another. Understanding the four-step process — name lookup, template argument deduction, overload ranking, and ellipsis fallback — lets you predict which function gets called and why.
+
+**The key insight:** The compiler picks the "best viable function" using a strict ranking hierarchy — exact match beats promotion beats conversion beats ellipsis, and ambiguous matches are errors.
+
 ## Common Pitfalls
 
 - **Ambiguous overloads with mixed types.** `f(short, long)` vs `f(long, short)` called as `f(1, 1)`

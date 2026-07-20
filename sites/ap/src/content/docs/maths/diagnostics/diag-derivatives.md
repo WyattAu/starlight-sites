@@ -258,7 +258,20 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Derivative diagnostics test whether you can handle **compositions, implicit functions, and the subtle conditions** that make differentiation rules valid. The chain rule is the most commonly tested concept — especially when nested three or more levels deep.
+
+**Key insight:** The chain rule isn't just a formula — it's a way of decomposing complex rates of change into simpler ones. If $y$ depends on $u$, which depends on $v$, which depends on $x$, then $\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dv} \cdot \frac{dv}{dx}$. Each factor is a simple derivative.
+
+**Common trap:** Students often forget to apply the chain rule when the bounds of an integral are functions of $x$ (FTC with moving bounds). The formula $\frac{d}{dx}\int_{a(x)}^{b(x)} f(t)\,dt = f(b(x)) \cdot b'(x) - f(a(x)) \cdot a'(x)$ requires the chain rule at both bounds.
+
 ## Common Pitfalls
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Cross-References
+
+- **[Derivatives](../../2-derivatives/2_derivatives):** The full topic page covering chain rule, implicit differentiation, and all differentiation techniques.
+- **[Integrals](../../3-integrals/3_integrals):** The FTC connects derivatives and integrals — the derivative of an integral returns the original function.

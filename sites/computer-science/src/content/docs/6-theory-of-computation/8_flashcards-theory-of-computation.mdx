@@ -1,6 +1,6 @@
 ---
 title: "University Computing Flashcards: Theory of Computation"
-description: "UNIVERSITY Computing flashcards: University Computing Flashcards: Theory of Computation. Comprehensive study material with definitions, examples, and assessm"
+description: "20 interactive flashcards for university-level Theory of Computation. Press Space to flip, rate 1-4."
 tags:
   - University
   - Computing
@@ -13,6 +13,40 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## Computing -- Theory of Computation Flashcards
 
 20 interactive flashcards for university-level Theory of Computation. Press Space to flip, rate 1-4.
+
+---
+
+## Intuition
+
+The theory of computation explores **the fundamental limits of what can be computed** and the classification of computational problems by their difficulty. It connects mathematics, logic, and computer science at the deepest level.
+
+**Automata hierarchy intuition:** Regular languages (recognised by finite automata) are the simplest — they can match patterns but can't count. Context-free languages (recognised by pushdown automata) can match nested structures. Decidable languages (recognised by Turing machines) can compute anything algorithmically computable. This hierarchy shows that adding memory (stack, tape) increases computational power.
+
+**Reducibility intuition:** Problem A reduces to problem B if solving B would give you a solution to A. If A reduces to B and B is easy, then A is easy. If A reduces to B and A is hard, then B is hard. This is the key technique for proving problems are NP-complete — reduce a known NP-complete problem to your problem.
+
+**Complexity class intuition:** P = problems solvable in polynomial time. NP = problems verifiable in polynomial time. P ⊆ NP is obvious (if you can solve it, you can verify it). Whether P = NP is the most important open problem in computer science. NP-complete problems are the hardest problems in NP — they're all equally hard.
+
+---
+
+## Key Concepts
+
+| Concept | Why It Matters |
+|---------|---------------|
+| **Chomsky hierarchy** | Regular ⊂ CFL ⊂ Decidable ⊂ Recognisable; each level adds computational power |
+| **Pumping lemma** | Proves languages are not regular by showing long strings can be "pumped" |
+| **Myhill-Nerode theorem** | Characterises regular languages exactly; gives minimisation algorithm |
+| **Rice's theorem** | Every non-trivial property of a TM's language is undecidable |
+| **Polynomial hierarchy** | Extends NP with alternating quantifiers; collapses if any level collapses |
+
+---
+
+## Common Pitfalls
+
+**Confusing decidability with recognisability.** A language is decidable if some TM halts on all inputs (accept or reject). It is recognisable if some TM accepts all strings in the language but may loop on others. The halting problem is recognisable but not decidable.
+
+**Reversing reduction direction.** To prove B is undecidable, reduce A ≤m B where A is known undecidable. This means: if B were decidable, A would be decidable. Students often reverse the direction and prove nothing.
+
+**Confusing NP-hard with NP-complete.** A problem is NP-complete if it is in NP AND NP-hard (all NP problems reduce to it). A problem can be NP-hard without being in NP (e.g., the halting problem).
 
 ---
 

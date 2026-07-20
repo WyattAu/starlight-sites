@@ -725,6 +725,14 @@ int main() {
 }
 ```
 
+## Intuition
+
+**A coroutine frame is like a bookmark in a book:** When you read a book and need to stop, you put a bookmark on the page and close the book. When you come back, you open to the bookmark and continue from where you left off. A coroutine frame is that bookmark — it stores the function's state (local variables, the instruction pointer) so it can be suspended and resumed later. Unlike a regular function that has a stack frame (automatically managed), a coroutine frame is heap-allocated and must be explicitly managed.
+
+**Why it matters:** Coroutine frames are the secret sauce that makes coroutines work. They transform a function from "runs to completion" to "can pause and resume." This is what enables generators, async/await, and lazy evaluation — all without blocking the thread. The heap allocation cost is why C++20 coroutines are "stackless" — only the coroutine frame is heap-allocated, not the entire call stack.
+
+**The key insight:** A coroutine frame is heap-allocated and must be explicitly destroyed via `coroutine_handle::destroy()` — forget this and you leak memory.
+
 ## Common Pitfalls
 
 - **Frame leaks:** The most common bug is forgetting to `destroy()` a coroutine handle. If

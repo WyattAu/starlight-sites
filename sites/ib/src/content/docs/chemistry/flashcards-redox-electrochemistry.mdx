@@ -10,12 +10,34 @@ description: "Interactive flashcards for IB Chemistry redox and electrochemistry
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/chemistry/flashcards-redox-electrochemistry-data.js';
 
-
 ## IB Chemistry — Redox and Electrochemistry Flashcards
 
 20 interactive flashcards. Press Space to flip, rate 1-4.
 
 ---
 
+### Key Concepts
+
+**Oxidation States**: Oxidation is loss of electrons (increase in oxidation state); reduction is gain of electrons (decrease in oxidation state). OIL RIG: Oxidation Is Loss, Reduction Is Gain. Assign oxidation states using rules: free elements = 0, monatomic ions = charge, oxygen usually = −2, hydrogen = +1 in compounds.
+
+**Half-Equations**: Redox reactions can be split into two half-equations -- one for oxidation, one for reduction. Balancing involves ensuring atoms balance first, then charges balance by adding electrons. Combine half-equations by making electrons equal and adding.
+
+**Standard Electrode Potentials (E°)**: Measured relative to the standard hydrogen electrode (0.00 V). A more positive E° means greater tendency to be reduced (stronger oxidising agent). A more negative E° means greater tendency to be oxidised (stronger reducing agent). E°cell = E°(reduction) − E°(oxidation).
+
+**Electrolysis**: Using electrical energy to drive a non-spontaneous reaction. At the cathode (negative), reduction occurs (cations gain electrons). At the anode (positive), oxidation occurs (anions lose electrons). Faraday's laws relate the amount of substance deposited to the charge passed: m = (Q × M) / (n × F).
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ib-chem-redox-electrochemistry" title="IB Chemistry: Redox and Electrochemistry" description="Oxidation states, redox equations, electrode potentials, electrochemical cells, electrolysis, and Faraday\'s laws." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+
+---
+
+## Intuition
+
+Think of redox as a "tug-of-war" for electrons. One species loses electrons (oxidised, the "loser") and another gains them (reduced, the "winner"). The standard electrode potential tells you how strong each species is at pulling electrons -- the more positive the E°, the stronger the pull. Electrolysis is like forcing the tug-of-war to go the "wrong" way by using external electrical energy.
+
+## Common Pitfalls
+
+- Confusing the anode and cathode in electrolysis vs galvanic cells. In electrolysis: cathode = negative (reduction), anode = positive (oxidation). In galvanic cells: cathode = positive, anode = negative. The definitions (oxidation at anode, reduction at cathode) are consistent, but the signs flip.
+- Forgetting to reverse the sign of E° when combining half-equations. If you write the reduction half-equation as oxidation (to find the anode), you must flip the sign of E°.
+- Mixing up Faraday's constant (96,500 C/mol) with Avogadro's constant (6.022 × 10²³). Faraday's is charge per mole of electrons; Avogadro's is particles per mole.

@@ -1,6 +1,6 @@
 ---
 title: "A-Level Physics: Nuclear and Astrophysics Practice"
-description: "18 MCQ practice problems covering core A-Level Nuclear Physics and Astrophysics  Comprehensive educational content coverage with definitions and practice proble"
+description: "18 MCQ practice problems covering nuclear structure, radioactivity, particle physics, stellar evolution, and cosmology. Detailed explanations included."
 tags:
   - Physics
   - A-Level
@@ -14,9 +14,57 @@ import { practiceQuestions } from '@/data/flashcards/physics/practice-nuclear-as
 
 18 MCQ practice problems covering core A-Level Nuclear Physics and Astrophysics content.
 
+### What These Questions Test
+
+These problems test your ability to apply nuclear equations, calculate decay quantities, interpret binding energy curves, understand particle interactions, and reason about stellar and cosmological phenomena.
+
+**Typical question types:**
+
+- **Radioactive decay:** Write and balance nuclear equations for $\alpha$, $\beta^{-}$, and $\gamma$ decay. Calculate activity, number of undecayed nuclei, or half-life from given data using $N = N_0 e^{-\lambda t}$ and $A = \lambda N$.
+- **Mass-energy:** Calculate the mass defect and binding energy for a given nucleus. Use $E = mc^{2}$ to find energy released in nuclear reactions. Interpret the binding energy per nucleon curve.
+- **Particle physics:** Identify particles from their quark composition. Apply conservation laws (charge, baryon number, lepton number) to particle reactions. Interpret Feynman diagrams.
+- **Stellar evolution:** Describe the life cycle of stars of different masses. Explain the sources of energy at different stages. Identify the products of stellar nucleosynthesis.
+- **Cosmology:** Apply Hubble's law ($v = H_0 d$) to find recession velocities or distances. Interpret redshift data. Describe evidence for the Big Bang.
+
 ---
 
-### Practice Questions
+### Approach Strategy
+
+1. **Write the nuclear equation first.** Before doing any calculation, balance the mass number and atomic number on both sides. This catches errors early.
+2. **Use the decay law carefully.** $N = N_0 e^{-\lambda t}$ gives the number of undecayed nuclei. Activity is $A = \lambda N$, not $A = \lambda N_0$. The activity also decays exponentially.
+3. **Check conservation laws.** In particle physics, total charge, baryon number, and lepton number must be conserved on both sides of any interaction.
+4. **Think about energy scales.** Nuclear energies are in MeV; atomic energies are in eV. A common mistake is mixing up these scales.
+
+---
+
+### Intuition
+
+Radioactive decay is a purely statistical process. You cannot predict when a specific nucleus will decay, but you can predict how many will decay in a large sample over a given time. Think of it like shuffling a deck of cards: each card has a fixed probability of appearing, but the order is unpredictable.
+
+For stellar evolution, think of stars as balancing acts. Gravity pulls inward; thermal pressure pushes outward. The star's entire life is a story of this balance shifting as fuel is consumed and new energy sources are tapped.
+
+---
+
+### Common Mistakes
+
+1. **Confusing activity and decay constant.** Activity ($A$) is measured in becquerels (decays per second). The decay constant ($\lambda$) is measured in s$^{-1}$. They are related by $A = \lambda N$, so activity depends on both the decay constant and the number of nuclei present.
+2. **Forgetting that gamma radiation does not change the nucleus composition.** A gamma decay changes the energy state of the nucleus but not its proton or neutron count. The mass number and atomic number remain the same.
+3. **Mixing up electron capture and beta-minus decay.** In beta-minus decay, a neutron becomes a proton (atomic number increases by 1). In electron capture, a proton becomes a neutron (atomic number decreases by 1). These are opposite processes.
+4. **Misreading the binding energy curve.** The peak is at iron-56, not at the heaviest nuclei. Fusion of light nuclei and fission of heavy nuclei both release energy because they move towards iron.
+
+---
+
+### Quick Reference
+
+| Quantity | Formula | Units |
+|---|---|---|
+| Decay law | $N = N_0 e^{-\lambda t}$ | nuclei |
+| Activity | $A = \lambda N$ | Bq |
+| Half-life | $t_{1/2} = \frac{\ln 2}{\lambda}$ | s |
+| Mass-energy | $E = mc^{2}$ | J |
+| Hubble's law | $v = H_0 d$ | m/s |
+
+---
 
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions} />

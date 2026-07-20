@@ -11,7 +11,6 @@ description: "20 flashcards covering IB Chemistry chemical bonding — ionic, co
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/chemistry/flashcards-chemical-bonding-data.js';
 
-
 ## Chemical Bonding Flashcards
 
 20 flashcards covering IB Chemistry chemical bonding — ionic, covalent, metallic bonding,
@@ -19,5 +18,28 @@ intermolecular forces, VSEPR theory, hybridization, and polarity.
 
 ---
 
+### Key Concepts
+
+**Ionic Bonding**: Transfer of electrons from metal to non-metal, forming cations (+) and anions (−) held by electrostatic attraction. Forms giant ionic lattices with high melting points, conductivity when molten/dissolved, and brittle crystalline structure. Examples: NaCl, MgO.
+
+**Covalent Bonding**: Sharing of electron pairs between non-metals. Single, double, and triple bonds differ in strength and length. Coordinate (dative) bonds form when both electrons come from the same atom. Giant covalent structures (diamond, graphite, SiO₂) have very high melting points.
+
+**VSEPR Theory**: Valence Shell Electron Pair Repulsion theory predicts molecular shape by minimising electron pair repulsion around the central atom. 2 pairs = linear (180°), 3 pairs = trigonal planar (120°), 4 pairs = tetrahedral (109.5°), 5 pairs = trigonal bipyramidal, 6 pairs = octahedral.
+
+**Intermolecular Forces**: London dispersion forces (present in all molecules, increase with size), permanent dipole-dipole forces (polar molecules), and hydrogen bonds (H bonded to F, O, or N). These determine physical properties like boiling point and solubility.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ib-chemistry-chemical-bonding" title="IB Chemistry: Chemical Bonding" description="Ionic, covalent, and metallic bonding, intermolecular forces, VSEPR theory, hybridization, and molecular polarity." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+
+---
+
+## Intuition
+
+Think of bonding as atoms trying to achieve the stable electron configuration of a noble gas. Ionic bonding is like one atom giving away a gift (electron) to another -- they become attracted because of their new charges. Covalent bonding is like sharing a house -- both atoms benefit from the shared electrons. VSEPR is like balloons tied together -- they push apart to take up as much space as possible, which determines the molecule's shape.
+
+## Common Pitfalls
+
+- Confusing intermolecular forces with intramolecular (covalent) bonds. Boiling water breaks hydrogen bonds (intermolecular), not O-H covalent bonds. This is why water boils at 100°C, not at thousands of degrees.
+- Assuming all molecules with polar bonds are polar. CO₂ has polar C=O bonds but is linear and symmetrical, so the dipoles cancel. Shape determines polarity, not just bond polarity.
+- Forgetting that London dispersion forces increase with molecular size. This is why I₂ is a solid at room temperature while F₂ is a gas, even though both are non-polar diatomic molecules.

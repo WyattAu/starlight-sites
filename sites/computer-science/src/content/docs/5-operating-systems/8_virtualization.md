@@ -6,6 +6,14 @@ tags:
 description: 'Runs directly on hardware. Examples: VMware ESXi, Xen, Hyper-V. Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
+## Intuition
+
+Virtualization lets **one physical machine act as many** by sharing hardware resources across multiple isolated environments. The key insight is that most hardware is idle most of the time — virtualization exploits this by letting multiple operating systems share the same CPU, memory, and I/O devices.
+
+**Type 1 vs Type 2 intuition:** A Type 1 hypervisor runs directly on hardware (like a mini-OS managing VMs). A Type 2 hypervisor runs as an application on top of a host OS. Type 1 is faster (no OS layer in between) but less flexible. Type 2 is easier to install and manage but adds a full OS of overhead.
+
+**Container vs VM intuition:** VMs emulate entire hardware stacks — each VM runs its own OS kernel. Containers share the host OS kernel but isolate processes, files, and networking. Containers are lighter (start in milliseconds, use less memory) but offer weaker isolation (shared kernel = larger attack surface). Use VMs for strong isolation; use containers for lightweight deployment.
+
 ### 8.1 Hypervisor Types
 
 **Type 1 (bare-metal).** Runs directly on hardware. Examples: VMware ESXi, Xen, Hyper-V.

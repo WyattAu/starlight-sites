@@ -100,11 +100,34 @@ $$Y = \overline{A \cdot B}$$
 
 **Common mistake:** Confusing NAND with AND. NAND is the inverse of AND: it gives 0 only when all inputs are 1.
 
+## Common Mistakes
+
+**Confusing n-type and p-type semiconductors.** N-type has excess electrons (donor impurity), p-type has excess holes (acceptor impurity). Students often assume n-type is negative and p-type is positive — both are electrically neutral overall. The "n" and "p" refer to the charge carrier type, not the net charge.
+
+**Assuming a diode conducts in both directions equally.** A p-n junction diode conducts easily in forward bias (low resistance) but blocks current in reverse bias (very high resistance, only tiny leakage current). Students sometimes treat diodes as resistors that work both ways.
+
+**Forgetting that transistors need biasing to work.** A transistor in cutoff (no base current) acts like an open switch; in saturation (high base current) it acts like a closed switch. Students often assume a transistor works without proper biasing voltages.
+
+## Cross-References
+
+- **[Current Electricity](../current-electricity/index.md):** Semiconductor circuits follow Ohm's law and Kirchhoff's rules — understanding circuits is prerequisite to understanding semiconductor devices.
+- **[Dual Nature](../dual-nature/index.md):** Band theory of semiconductors involves energy levels and photon absorption, connecting to quantum concepts.
+- **[Electrostatics](../electrostatics/index.md):** The built-in potential in a p-n junction arises from charge separation, connecting to electrostatic principles.
+- **[Derivatives (Mathematics)](../../mathematics/derivatives/index.md):** The diode equation involves exponential functions whose analysis uses calculus concepts.
+
 ## Practice Problems
 
 1. A Zener diode with $V_Z = 4.7 \, \text{V}$ is connected to a 9 V source through a $500 \, \Omega$ resistor. Find the Zener current when no load is connected.
 2. A transistor has $I_B = 50 \, \mu\text{A}$ and $\beta = 80$. Find $I_C$ and $I_E$.
 3. Write the truth table for a 3-input NOR gate.
+
+## Intuition
+
+**Semiconductors are materials that can be taught to conduct:** Think of a semiconductor as a material that's neither a good conductor nor a good insulator — it's like a gate that can be opened or closed. Pure silicon has all its electrons locked in bonds, but doping it with impurities (adding a few "guest" atoms) creates free electrons or holes that can carry current. A p-n junction is like a one-way valve for electricity — current flows easily in one direction but is blocked in the other, which is the basis of diodes and transistors.
+
+**Why it matters:** Semiconductors are the foundation of all modern electronics — every computer chip, smartphone, LED, solar cell, and digital device depends on semiconductor physics. Without semiconductors, there would be no internet, no digital cameras, no GPS, and no modern medicine imaging. Understanding semiconductors means understanding the technology that defines our era.
+
+**The key insight:** The transistor is the most important invention of the 20th century — it acts as a tiny electronic switch that can be turned on and off millions of times per second, enabling all digital computation.
 
 ## Common Exam Patterns
 

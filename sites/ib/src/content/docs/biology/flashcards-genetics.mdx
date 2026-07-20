@@ -11,7 +11,6 @@ description: "15 flashcards covering IB Biology genetics — DNA structure, prot
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3 } from '@/data/flashcards/biology/flashcards-genetics-data.js';
 
-
 ## Genetics Flashcards
 
 15 flashcards covering IB Biology genetics — DNA structure, protein synthesis, Mendelian genetics,
@@ -19,5 +18,28 @@ biotechnology, and evolution.
 
 ---
 
+### Key Concepts
+
+**DNA Structure**: DNA is a double helix with two antiparallel polynucleotide strands. The sugar-phosphate backbone is on the outside; nitrogenous bases (A, T, G, C) pair inside via hydrogen bonds (A-T, G-C). This complementary pairing is the basis for replication and protein synthesis.
+
+**Mendelian Genetics**: Dominant alleles mask recessive alleles in heterozygotes. Segregation ensures each gamete carries one allele per gene. Independent assortment means genes on different chromosomes sort independently. The Punnett square predicts offspring genotypes and phenotypes.
+
+**Protein Synthesis**: Transcription copies DNA to mRNA in the nucleus. Translation reads mRNA at the ribosome, assembling amino acids into polypeptides using tRNA. The genetic code is universal, degenerate (multiple codons for one amino acid), and non-overlapping.
+
+**Biotechnology**: Restriction enzymes cut DNA at specific sequences. DNA ligase joins fragments. Gel electrophoresis separates by size. PCR amplifies specific DNA sequences. These tools enable genetic engineering, forensic analysis, and medical diagnostics.
+
+---
 
 <FlashcardDeck client:only="solid-js" deckId="ib-biology-genetics" title="IB Biology: Genetics" description="DNA structure, protein synthesis, inheritance, biotechnology, and evolution." cards={[...flashcard1, ...flashcard2, ...flashcard3]}  />
+
+---
+
+## Intuition
+
+Think of DNA as a recipe book. Each gene is a recipe for a specific protein. Transcription is photocopying a recipe (DNA → mRNA). Translation is the chef reading the copy and cooking the dish (mRNA → protein). Mendelian genetics is like following family recipes -- some are "dominant" (you always make them) and some are "recessive" (only made if both parents have the recipe).
+
+## Common Pitfalls
+
+- Confusing transcription and translation. Transcription = DNA → mRNA (nucleus). Translation = mRNA → protein (ribosome). The names describe what happens: transcription "writes again" in a different language; translation "translates" into a different molecule.
+- Assuming dominant means "better" or more common. Dominance describes how alleles interact, not their value or frequency. Huntington's disease is caused by a dominant allele but is rare.
+- Forgetting that the genetic code is degenerate. Most amino acids are coded by multiple codons, which provides some protection against point mutations. A change in the third base of a codon often doesn't change the amino acid.

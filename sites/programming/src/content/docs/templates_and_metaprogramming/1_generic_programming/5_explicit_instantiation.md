@@ -642,6 +642,14 @@ This occurs when:
 | Non-template wrappers                     | Fastest            | Smallest                              | Fastest          | Limited to wrapped types                              | Medium             |
 | PIMPL / type erasure                      | Fastest            | Smallest                              | Fastest          | Opaque types only                                     | High               |
 
+## Intuition
+
+**Explicit instantiation is like pre-baking cookies:** Instead of each customer (translation unit) baking their own cookies (instantiating templates), you bake a batch in the kitchen (one translation unit) and hand them out. This saves compile time — the template is instantiated once, not in every file that uses it. It's also how you hide template implementations: put the definition in a `.cpp` file, explicit instantiate it, and only expose the header with declarations.
+
+**Why it matters:** Explicit instantiation reduces compile times for large projects — instead of instantiating `std::vector<int>` in 100 translation units, you instantiate it once. It's also the mechanism for hiding template implementations: the definition goes in a `.cpp` file (not visible to other translation units), and explicit instantiation generates the code. This is the "export template" pattern that was never standardized but works with explicit instantiation.
+
+**The key insight:** Explicit instantiation generates template code once in a specific translation unit — this reduces compile times and enables hiding template implementations.
+
 ## Common Pitfalls
 
 **Forgetting `extern template` in the header.** If you provide the explicit instantiation definition

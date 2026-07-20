@@ -1,6 +1,6 @@
 ---
 title: "A-Level CS Flashcards: Theory of Computation"
-description: "ALEVEL Computer Science flashcards: A-Level CS Flashcards: Theory of Computation. Comprehensive study material with definitions, examples, and assessment tools."
+description: "A-Level Computer Science flashcards covering regular languages, finite state machines, Turing machines, computability, and decidability with spaced repetition."
 tags:
   - Computer Science
   - ALevel
@@ -14,6 +14,40 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 ## Computer Science -- Theory of Computation Flashcards
 
 20 interactive flashcards for A-Level Computer Science. Press Space to flip, rate 1-4.
+
+### What These Flashcards Cover
+
+These flashcards test your understanding of the theoretical foundations of computation: what can be computed, how machines process languages, and the limits of algorithmic problem-solving.
+
+**Key areas:**
+
+- **Formal Languages:** An alphabet is a finite set of symbols. A string is a sequence of symbols from the alphabet. A language is a set of strings. Regular expressions describe regular languages (e.g. $a^{*}b$ means zero or more $a$'s followed by a $b$).
+- **Finite State Machines (FSMs):** A model of computation with a finite set of states, transitions between states, and an input alphabet. Deterministic FSM (DFA): exactly one transition per input from each state. Non-deterministic FSM (NFA): multiple transitions possible. Both accept the same class of languages (regular languages).
+- **Regular Languages:** Languages accepted by an FSM. Closed under union, concatenation, and Kleene star. Cannot count -- e.g. $\{a^{n}b^{n} : n \geq 0\}$ is not regular. Pumping lemma provides a test for non-regularity.
+- **Pushdown Automata:** An FSM with a stack (LIFO memory). Can recognise context-free languages, which include $\{a^{n}b^{n}\}$. The stack allows counting, which FSMs cannot do.
+- **Turing Machines:** An FSM with an infinite tape and a read/write head. Can simulate any algorithm. The Church-Turing thesis: anything computable by an algorithm is computable by a Turing machine.
+- **Computability and Decidability:** A problem is decidable if a Turing machine always halts and gives the correct answer. The halting problem is undecidable: no algorithm can determine whether an arbitrary program will halt. Some problems are semi-decidable (the machine halts if the answer is yes, but may loop forever if no).
+- **Complexity Classes:** P: problems solvable in polynomial time. NP: problems whose solutions can be verified in polynomial time. P vs NP: one of the biggest open questions in computer science. NP-complete: the hardest problems in NP.
+- **Regular Expressions:** A notation for describing regular languages. $a|b$ means $a$ or $b$. $ab$ means $a$ followed by $b$. $a^{*}$ means zero or more $a$'s. Used in search engines, text processing, and pattern matching.
+
+---
+
+### Intuition
+
+Think of computation as a hierarchy of power. Finite state machines are the weakest -- they can recognise patterns but cannot count. Pushdown automata add a stack, so they can count (e.g. matching parentheses). Turing machines add an infinite tape, so they can do anything computable -- but even they cannot solve the halting problem.
+
+Regular expressions are like a very concise language for describing patterns. $a^{*}b$ is a pattern: "any number of $a$'s, then a $b$." This is useful for searching text, validating input (e.g. email addresses), and pattern matching.
+
+The halting problem is a fundamental limit: some questions about programs cannot be answered by any algorithm. This is not a limitation of current technology -- it is a mathematical fact about the nature of computation itself.
+
+---
+
+### Common Pitfalls
+
+1. **Confusing DFA and NFA.** A DFA has exactly one transition per input from each state. An NFA can have zero, one, or multiple transitions. Both accept the same languages, but NFAs are often easier to construct.
+2. **Assuming FSMs can count.** FSMs have finite memory (states). They cannot count arbitrarily high. For $\{a^{n}b^{n}\}$, you need a pushdown automaton (which has a stack) or a Turing machine.
+3. **Misunderstanding the halting problem.** It is not that we haven't found a solution yet. It has been proven that no algorithm can solve the halting problem for all possible inputs. This is a proven impossibility, not a practical limitation.
+4. **Confusing decidable and semi-decidable.** Decidable: the machine always halts and gives the correct answer. Semi-decidable: the machine halts if the answer is yes, but may loop forever if the answer is no. The halting problem is semi-decidable, not decidable.
 
 ---
 

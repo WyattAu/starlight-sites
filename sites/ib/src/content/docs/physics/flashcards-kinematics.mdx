@@ -7,5 +7,34 @@ tags: [Physics, IB Physics, Flashcards]
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/physics/flashcards-kinematics-data.js';
 
+## IB Physics -- Kinematics Flashcard Deck
+
+Flashcards with spaced repetition. Press Space to flip, then rate your recall (1--4).
+
+---
+
+### Key Concepts
+
+**SUVAT Equations** describe motion under constant acceleration. The five variables are displacement (s), initial velocity (u), final velocity (v), acceleration (a), and time (t). Each equation links four of these five variables and is used when acceleration is uniform. For example, v² = u² + 2as is useful when time is not given.
+
+**Projectile Motion** can be split into independent horizontal and vertical components. The horizontal component has constant velocity (no air resistance), while the vertical component has constant acceleration due to gravity (g ≈ 9.81 m/s² downward). The trajectory is always a parabola.
+
+**Terminal Velocity** occurs when the drag force on a falling object equals its weight. The net force becomes zero, so acceleration drops to zero and the object falls at a constant speed. This is why skydivers reach a steady speed before opening their parachute.
+
+**Displacement-Time vs Velocity-Time Graphs**: The gradient of a displacement-time graph gives velocity; the gradient of a velocity-time graph gives acceleration. The area under a velocity-time graph gives displacement.
+
+---
+
 <FlashcardDeck client:only="solid-js" deckId="ib-phys-kinematics" title="IB Physics: Kinematics" description="Scalars, vectors, SUVAT equations, projectile motion, free fall, terminal velocity, and graph interpretation." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
-;
+
+---
+
+## Intuition
+
+Imagine throwing a ball horizontally off a cliff. The ball moves forward at a steady rate (horizontal velocity is constant) while simultaneously falling faster and faster (vertical velocity increases due to gravity). The combination of these two independent motions creates the curved parabolic path you see. You can analyse each direction separately and then combine the results.
+
+## Common Pitfalls
+
+- Confusing distance with displacement: distance is a scalar (total path length), while displacement is a vector (straight-line change in position). They differ when the object changes direction.
+- Forgetting to resolve vectors into components before applying SUVAT equations. You cannot mix horizontal and vertical quantities in the same equation.
+- Using g = 10 m/s² when the question specifies 9.81 m/s² (or vice versa). Always check which value the question expects.

@@ -84,6 +84,14 @@ The neutralization raises stomach pH, reducing acidity and providing relief.
 
 Understanding the chemistry of everyday products helps make informed decisions about health, hygiene, and consumer products. It also provides context for organic and inorganic chemistry concepts.
 
+## Intuition
+
+**Chemistry is already in your bathroom cabinet:** Think of everyday chemistry as the invisible science governing what you eat, clean with, and take for headaches. Aspirin works by blocking enzymes that cause pain and inflammation — it's like putting a wrench in a machine's gears. Soap molecules have a split personality: one end loves water (hydrophilic) and the other loves grease (hydrophobic), so they grab oil and drag it into the water where it can be washed away.
+
+**Why it matters:** Understanding everyday chemistry helps you make better choices — knowing why antibiotics need prescriptions (resistance), why certain foods stay fresh longer (preservatives), and why some cleaners work in hard water while others don't. It turns you from a passive consumer into an informed decision-maker.
+
+**The key insight:** Most everyday chemistry comes down to acid-base reactions, solubility, and molecular shape — the same principles that govern industrial processes, just applied in your kitchen and bathroom.
+
 ## Common Exam Patterns
 
 - Analgesics: distinguish between narcotic (morphine) and non-narcotic (aspirin)
@@ -105,3 +113,10 @@ Soap (sodium/potassium salts of fatty acids) reacts with calcium and magnesium i
 ### Mistake 3: Misclassifying drug types by their mechanism
 
 Analgesics relieve pain, antipyretics reduce fever, and anti-inflammatory drugs reduce inflammation -- but many drugs have overlapping effects. Aspirin is analgesic, antipyretic, AND anti-inflammatory. Students sometimes assume a drug can only belong to one category. Always check the specific pharmacological profile rather than assuming a single classification.
+
+## Cross-References
+
+- **[Biomolecules](../biomolecules/index.md):** Drug design targets biomolecules (enzymes, receptors) — understanding protein structure explains how drugs work.
+- **[Haloalkanes](../haloalkanes/index.md):** Many drugs are synthesized using haloalkane intermediates — connecting organic synthesis to pharmaceutical chemistry.
+- **[Solutions](../solutions/index.md):** Drug solubility and dosage depend on solution chemistry — understanding concentration is essential for pharmacology.
+- **[Surface Chemistry](../surface-chemistry/index.md):** Drug delivery systems use colloids and micelles — connecting surface chemistry to pharmaceutical formulations.
