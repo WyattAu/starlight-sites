@@ -16,6 +16,100 @@ import { practiceQuestions } from '@/data/flashcards/networking/practice-network
 
 ---
 
+## Worked Examples
+
+### Example 1: Subnetting — CIDR Calculation
+
+**Problem:** Given the IP block 192.168.1.0/24, divide it into 4 equal subnets. List each subnet's address range, broadcast address, and number of usable hosts.
+
+**Solution:**
+
+**Step 1:** Determine the new prefix length
+
+Original: /24 (256 addresses)
+Need 4 subnets: $2^2 = 4$, so we need 2 additional bits
+
+New prefix: /26 (64 addresses per subnet)
+
+**Step 2:** Calculate subnet addresses
+
+| Subnet | Network Address | Usable Range | Broadcast | Hosts |
+|--------|-----------------|--------------|-----------|-------|
+| 1 | 192.168.1.0/26 | 192.168.1.1 - 192.168.1.62 | 192.168.1.63 | 62 |
+| 2 | 192.168.1.64/26 | 192.168.1.65 - 192.168.1.126 | 192.168.1.127 | 62 |
+| 3 | 192.168.1.128/26 | 192.168.1.129 - 192.168.1.190 | 192.168.1.191 | 62 |
+| 4 | 192.168.1.192/26 | 192.168.1.193 - 192.168.1.254 | 192.168.1.255 | 62 |
+
+**Key insight:** Each subnet has $2^{32-26} - 2 = 62$ usable addresses (subtract network and broadcast addresses). The block size is $256/4 = 64$.
+
+---
+
+### Example 2: TCP Three-Way Handshake
+
+**Problem:** Trace the TCP connection establishment between a client (10.0.0.1:5000) and server (10.0.0.2:80). What flags are set in each step?
+
+**Solution:**
+
+**Step 1: SYN (Client → Server)**
+```
+Source: 10.0.0.1:5000
+Destination: 10.0.0.2:80
+Flags: SYN=1
+Sequence: 1000
+```
+
+**Step 2: SYN-ACK (Server → Client)**
+```
+Source: 10.0.0.2:80
+Destination: 10.0.0.1:5000
+Flags: SYN=1, ACK=1
+Sequence: 5000
+Acknowledgment: 1001
+```
+
+**Step 3: ACK (Client → Server)**
+```
+Source: 10.0.0.1:5000
+Destination: 10.0.0.2:80
+Flags: ACK=1
+Sequence: 1001
+Acknowledgment: 5001
+```
+
+**Key insight:** The three-way handshake ensures both sides agree on initial sequence numbers and establishes a full-duplex connection. The SYN flag synchronizes sequence numbers, and the ACK flag acknowledges the previous segment.
+
+---
+
+### Example 3: DNS Resolution Chain
+
+**Problem:** Trace the DNS resolution process when a user types "www.example.com" in a browser, starting from a cold cache.
+
+**Solution:**
+
+**Step 1:** Browser checks local cache → miss
+
+**Step 2:** OS checks /etc/hosts → miss
+
+**Step 3:** OS queries configured DNS resolver (e.g., 8.8.8.8)
+
+**Step 4:** Recursive resolver checks its cache → miss
+
+**Step 5:** Resolver queries root DNS servers (.) → referral to .com TLD servers
+
+**Step 6:** Resolver queries .com TLD servers → referral to example.com authoritative servers
+
+**Step 7:** Resolver queries example.com authoritative server → returns A record (93.184.216.34)
+
+**Step 8:** Recursive resolver caches the result (TTL-based)
+
+**Step 9:** Resolver returns 93.184.216.34 to client
+
+**Step 10:** Browser initiates TCP connection to 93.184.216.34:443
+
+**Key insight:** DNS is hierarchical and distributed. The recursive resolver does the heavy lifting, caching results to reduce load on authoritative servers. TTL (Time To Live) controls how long records are cached.
+
+---
+
 ### OSI Model and Protocols
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions.slice(0, 4)}  />
