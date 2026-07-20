@@ -23,6 +23,80 @@ answer and view the explanation.
 
 ---
 
+## Worked Examples
+
+### Example 1: Master Theorem — Solving Recurrences
+
+**Problem:** Solve $T(n) = 4T(n/2) + n^2$ using the Master Theorem.
+
+**Solution:**
+
+Identify parameters: $a = 4$, $b = 2$, $f(n) = n^2$
+
+Compute $\log_b a = \log_2 4 = 2$
+
+Compare $f(n) = n^2$ with $n^{\log_b a} = n^2$:
+
+Since $f(n) = \Theta(n^2) = \Theta(n^{\log_b a})$, we are in **Case 2** of the Master Theorem.
+
+$$T(n) = \Theta(n^2 \log n)$$
+
+**Verification:** The recursion tree has $\log_2 n$ levels. At each level $i$, there are $4^i$ subproblems of size $n/2^i$, each costing $(n/2^i)^2 = n^2/4^i$. Total work per level: $4^i \times n^2/4^i = n^2$. Summing over $\log_2 n$ levels: $T(n) = n^2 \log_2 n = \Theta(n^2 \log n)$. ✓
+
+---
+
+### Example 2: Dynamic Programming — 0/1 Knapsack
+
+**Problem:** Given items with weights $[2, 3, 4, 5]$ and values $[3, 4, 5, 6]$, capacity $W = 8$, find the maximum value.
+
+**Solution:**
+
+**DP Table Construction:**
+
+| | $w=0$ | $w=1$ | $w=2$ | $w=3$ | $w=4$ | $w=5$ | $w=6$ | $w=7$ | $w=8$ |
+|---|---|---|---|---|---|---|---|---|---|
+| 0 items | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Item 1 (w=2, v=3) | 0 | 0 | 3 | 3 | 3 | 3 | 3 | 3 | 3 |
+| Item 2 (w=3, v=4) | 0 | 0 | 3 | 4 | 4 | 7 | 7 | 7 | 7 |
+| Item 3 (w=4, v=5) | 0 | 0 | 3 | 4 | 5 | 7 | 8 | 9 | 9 |
+| Item 4 (w=5, v=6) | 0 | 0 | 3 | 4 | 5 | 7 | 8 | 9 | 10 |
+
+**Recurrence:** $dp[i][w] = \max(dp[i-1][w], dp[i-1][w-w_i] + v_i)$ if $w_i \leq w$
+
+**Answer:** $dp[4][8] = 10$ (items 2 and 4: weight $3+5=8$, value $4+6=10$)
+
+**Space-optimized version:** Use 1D array of size $W+1$, iterate items in outer loop, weights in reverse inner loop. Space: $O(W)$ instead of $O(nW)$.
+
+---
+
+### Example 3: Greedy — Activity Selection
+
+**Problem:** Given activities with start and finish times: $[(1,4), (3,5), (0,6), (5,7), (3,9), (5,9), (6,10), (8,11), (8,12), (2,14), (12,16)]$, find the maximum number of non-overlapping activities.
+
+**Solution:**
+
+**Greedy strategy:** Sort by finish time, then select activities that don't overlap with the last selected.
+
+| Activity | Start | Finish | Selected? |
+|----------|-------|--------|-----------|
+| (1,4) | 1 | 4 | ✓ |
+| (3,5) | 3 | 5 | ✗ (overlaps with (1,4)) |
+| (0,6) | 0 | 6 | ✗ (overlaps with (1,4)) |
+| (5,7) | 5 | 7 | ✓ (starts at 5 ≥ 4) |
+| (3,9) | 3 | 9 | ✗ (overlaps with (5,7)) |
+| (5,9) | 5 | 9 | ✗ (overlaps with (5,7)) |
+| (6,10) | 6 | 10 | ✗ (overlaps with (5,7)) |
+| (8,11) | 8 | 11 | ✓ (starts at 8 ≥ 7) |
+| (8,12) | 8 | 12 | ✗ (overlaps with (8,11)) |
+| (2,14) | 2 | 14 | ✗ (overlaps with (8,11)) |
+| (12,16) | 12 | 16 | ✓ (starts at 12 ≥ 11) |
+
+**Maximum activities:** 4 → $\{(1,4), (5,7), (8,11), (12,16)\}$
+
+**Key insight:** The greedy choice (earliest finish time) leaves maximum room for remaining activities. This is provably optimal by exchange argument.
+
+---
+
 ## Algorithm Design Paradigms and Complexity
 
 <PracticeProblem client:only="solid-js" question={"Which algorithm design paradigm does Merge Sort belong to?&quot; options={['Divide and Conquer', 'Dynamic Programming', 'Greedy', 'Backtracking']} correctAnswer={0} explanation=&quot;Merge Sort divides the array into two halves, recursively sorts each half, and then merges the two sorted halves. The divide step is trivial (splitting at the midpoint), the conquer step is the recursive calls, and the combine step is the merge operation. This is the classic divide-and-conquer pattern."} difficulty="easy"  />

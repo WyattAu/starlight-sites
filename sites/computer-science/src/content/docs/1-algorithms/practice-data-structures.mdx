@@ -21,6 +21,135 @@ analysis. Select an option to check your answer and view the explanation.
 
 ---
 
+## Worked Examples
+
+### Example 1: Hash Table — Collision Resolution
+
+**Problem:** Insert keys $\{10, 22, 31, 4, 15, 28, 17, 88\}$ into a hash table of size 11 using (a) chaining and (b) open addressing with linear probing. Use $h(k) = k \mod 11$.
+
+**Solution:**
+
+**(a) Chaining:**
+
+| Slot | Keys |
+|------|------|
+| 0 | 88 |
+| 1 | → 22 → 1 → 88 (wait, 88 mod 11 = 0) |
+
+Let me recalculate:
+- $h(10) = 10$
+- $h(22) = 0$
+- $h(31) = 9$
+- $h(4) = 4$
+- $h(15) = 4$
+- $h(28) = 6$
+- $h(17) = 6$
+- $h(88) = 0$
+
+| Slot | Chain |
+|------|-------|
+| 0 | 22 → 88 |
+| 4 | 4 → 15 |
+| 6 | 28 → 17 |
+| 9 | 31 |
+| 10 | 10 |
+
+**(b) Linear Probing:**
+
+| Slot | Key | Probes |
+|------|-----|--------|
+| 0 | 22 | 1 |
+| 1 | 88 | 2 (slot 0 taken) |
+| 4 | 4 | 1 |
+| 5 | 15 | 2 (slot 4 taken) |
+| 6 | 28 | 1 |
+| 7 | 17 | 2 (slot 6 taken) |
+| 9 | 31 | 1 |
+| 10 | 10 | 1 |
+
+**Key insight:** Linear probing causes primary clustering — consecutive occupied slots form runs. Double hashing eliminates this by using a second hash function for the probe step size.
+
+---
+
+### Example 2: Binary Heap — Insert and Extract-Min
+
+**Problem:** Build a min-heap from array $[15, 13, 12, 11, 9, 8, 7, 6, 5, 4]$ and extract the minimum three times.
+
+**Solution:**
+
+**Step 1:** Verify it's already a min-heap (parent ≤ children for all nodes). ✓
+
+**Step 2:** Extract minimum (15 → 4 moves to root, then heapify down)
+
+After extracting 4:
+```
+        5
+      /   \
+    9       8
+   / \     / \
+  11  13  12  7
+ / \
+15  6
+```
+
+After extracting 5:
+```
+        6
+      /   \
+    9       8
+   / \     / \
+  11  13  12  7
+ / \
+15  (empty)
+```
+
+After extracting 6:
+```
+        7
+      /   \
+    9       8
+   / \     / \
+  11  13  12  15
+```
+
+**Extracted sequence:** 4, 5, 6 (sorted order — heap sort property)
+
+**Time complexity:** Each extract-min is $O(\log n)$. Building heap: $O(n)$. Total for $k$ extracts: $O(n + k \log n)$.
+
+---
+
+### Example 3: Trie — Prefix Search
+
+**Problem:** Build a trie for words $\{$"cat", "car", "card", "dog", "dot"$\}$ and find all words with prefix "ca".
+
+**Solution:**
+
+**Trie structure:**
+```
+root
+├── c
+│   └── a
+│       ├── t [END]
+│       └── r [END]
+│           └── d [END]
+└── d
+    ├── o
+    │   ├── g [END]
+    │   └── t [END]
+```
+
+**Prefix search for "ca":**
+1. Start at root
+2. Follow 'c' → node at depth 1
+3. Follow 'a' → node at depth 2
+4. Collect all words in subtree: {"cat", "car", "card"}
+
+**Time complexity:** $O(m + k)$ where $m$ is prefix length and $k$ is number of matching characters in output.
+
+**Key insight:** Tries enable prefix search in time proportional to the prefix length, regardless of how many words are stored. This is why they're used in autocomplete systems.
+
+---
+
 ## Hash Tables and Tries
 
 <PracticeProblem client:only="solid-js" question={"In a hash table with chaining and load factor $\\alpha = n/m$, what is the expected time complexity of an unsuccessful search?&quot; options={['$O(1 + \\alpha)$', '$O(1)$', '$O(\\alpha^2)$', '$O(\\log \\alpha)$']} correctAnswer={0} explanation=&quot;With chaining, each slot holds a linked list. Under simple uniform hashing, the expected chain length at any slot is $\\alpha = n/m$. An unsuccessful search must traverse the entire chain at the target slot, giving $O(\\alpha)$ average. Including the hash computation: $O(1 + \\alpha)$. For open addressing, it is $O(1/(1-\\alpha))$."} difficulty="easy"  />
