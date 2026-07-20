@@ -10,6 +10,14 @@ tags:
 
 Algorithms and data structures form the core of practical computer science. An algorithm is a step-by-step procedure for solving a problem, while a data structure is an organised format for storing and manipulating data. The choice of data structure directly affects the efficiency of the algorithms that operate on it, making the study of both topics inseparable.
 
+## Intuition
+
+**The engine and fuel of computer science:** Algorithms are the engines that drive computation, and data structures are the fuel tanks that store the data they work on. The right algorithm with the wrong data structure is like a sports car with a bicycle chain — it won't get far.
+
+**Why it matters:** Every software application — from search engines to social networks — relies on algorithms and data structures. Understanding them lets you write code that handles millions of users instead of crashing at ten.
+
+**The key insight:** The choice of data structure determines what operations are efficient — arrays give O(1) access but O(n) insertion, linked lists give O(1) insertion but O(n) access, and hash tables give O(1) average for both but no ordering guarantees.
+
 ## Key Concepts
 
 Algorithm analysis uses big-$O$ notation to describe how running time or memory requirements grow with input size. Fundamental data structures include arrays, linked lists, stacks, queues, trees, and hash tables, each with different trade-offs in access time, insertion cost, and memory overhead. Sorting algorithms range from simple quadratic methods to efficient $O(n \log n)$ algorithms such as merge sort and quicksort.

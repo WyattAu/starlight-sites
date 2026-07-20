@@ -9,6 +9,14 @@ description: "UNIVERSITY Mathematics practice problems: Multivariable Calculus P
 import PracticeProblem from "@components/PracticeProblem";
 
 
+## Intuition
+
+**Calculus in higher dimensions:** Multivariable calculus extends single-variable calculus to functions of several variables — surfaces instead of curves, volumes instead of areas. It is the mathematics of fields (temperature, gravity, electromagnetic) that vary across space.
+
+**Why it matters:** Machine learning optimises functions of millions of variables (gradients), physics describes fields in 3D space (divergence, curl), and economics models multi-factor systems. Multivariable calculus is the mathematical language of all these.
+
+**The key insight:** The gradient points in the direction of steepest ascent — this is why gradient descent (following the negative gradient) finds minima, which is the foundation of neural network training.
+
 ## University Mathematics — Multivariable Calculus Practice
 
 10 auto-graded practice problems at medium to hard difficulty. Select an answer, submit, and review
@@ -53,3 +61,9 @@ the explanation.
 **Confusing the gradient with the directional derivative:** The gradient $\nabla f$ is a vector, while the directional derivative $D_{\mathbf{u}} f = \nabla f \cdot \mathbf{u}$ is a scalar. The gradient points in the direction of steepest ascent and its magnitude is the maximum directional derivative. Do not confuse $\nabla f$ with $D_{\mathbf{u}} f$ — they are different objects.
 
 **Misapplying Lagrange multipliers by forgetting the constraint:** The method finds extrema of $f$ subject to $g = c$ by solving $\nabla f = \lambda \nabla g$ together with $g = c$. A common error is solving $\nabla f = 0$ (unconstrained critical points) instead of including the constraint equation. Always verify your solutions satisfy $g(x,y) = c$.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for Mathematics notes.
+- **[Linear Algebra](../../2-linear-algebra/):** Vector spaces, matrices, and linear transformations.
+- **[Real Analysis](../../3-real-analysis/):** Rigorous treatment of real numbers and calculus.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

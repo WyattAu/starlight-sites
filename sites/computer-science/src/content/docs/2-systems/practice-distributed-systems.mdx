@@ -11,6 +11,14 @@ import PracticeProblem from "@components/PracticeProblem";
 10 MCQ questions covering the CAP theorem, consistency models, Paxos/Raft consensus, replication
 strategies, fault tolerance, and logical clocks. Select an option to check your answer.
 
+## Intuition
+
+**A team of chefs in different kitchens:** Distributed systems are like a team of chefs working in different kitchens trying to prepare the same meal — they need to communicate, agree on the recipe (consensus), handle it when someone's oven breaks (fault tolerance), and serve the dish at the same time (consistency).
+
+**Why it matters:** Every large-scale system — Google, Amazon, blockchain — is distributed. Understanding CAP theorem, consensus, and replication explains why these systems behave the way they do and what trade-offs they make.
+
+**The key insight:** In distributed systems, you can't have everything — the CAP theorem forces you to choose between consistency, availability, and partition tolerance, and real systems must pick which compromise fits their use case.
+
 ---
 
 ## CAP Theorem and Consistency Models

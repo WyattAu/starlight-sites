@@ -315,3 +315,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Interfaces](interfaces.md):** Interface patterns that complement error handling design.
+- **[Generics](generics.md):** Generic functions that can work with error types.
+- **[Practice Error Handling](../practice-interfaces.mdx):** Practice problems that include error handling scenarios.

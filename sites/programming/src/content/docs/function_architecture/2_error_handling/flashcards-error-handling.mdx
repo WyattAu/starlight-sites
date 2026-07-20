@@ -38,3 +38,9 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 3. **Using exceptions for control flow:** Exceptions are for exceptional cases, not for normal program flow. Using exceptions for expected conditions (like "file not found" when checking if a file exists) is slow and makes the code hard to follow. Use `std::optional` or error codes for expected failures.
 
 4. **Forgetting that `std::expected` is not a monad (yet):** While `std::expected` supports `and_then` and `transform`, it doesn't compose as cleanly as Rust's `Result`. Be careful with chaining — each step must return `expected` for the pipeline to work.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for Programming notes.
+- **[Types](../../types/):** Type system fundamentals.
+- **[Resource Management](../../resource_management/):** RAII and smart pointers.
+- **[Templates](../../templates_and_metaprogramming/):** Generic programming and metaprogramming.

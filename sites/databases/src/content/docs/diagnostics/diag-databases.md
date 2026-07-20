@@ -125,3 +125,7 @@ tableOfContents: false
 **Assuming normalisation is always desirable:** While 3NF/BCNF reduce redundancy,过度 normalisation can hurt read performance due to excessive joins. In data warehousing and analytics, denormalisation is often preferred for query speed.
 
 **Ignoring transaction isolation levels:** The default isolation level may not suit your use case. READ COMMITTED can cause non-repeatable reads; SERIALIZABLE can cause deadlocks. Understand what anomalies each level prevents before choosing.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for databases notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

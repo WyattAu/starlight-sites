@@ -72,3 +72,9 @@ An exothermic reaction ($\Delta H < 0$) releases heat, but spontaneity is determ
 
 **Mistake 3: Assuming all strong acids have the same strength in water**
 All strong acids appear to have the same acidity in water because water levels their strengths through the leveling effect. In a less basic solvent like acetic acid, the differences between strong acids become apparent. The leveling effect means that the strongest acid that can exist in water is $\text{H}_3\text{O}^+$, so any stronger acid is leveled to this strength.
+
+## Cross-References
+
+- **[Physical Chemistry](1-physical-chemistry/):** Covers thermodynamics, kinetics, quantum chemistry, and statistical mechanics.
+- **[Organic Chemistry](2-organic-chemistry/):** Covers reaction mechanisms, spectroscopy, and synthesis of carbon compounds.
+- **[Inorganic Chemistry](3-inorganic-chemistry/):** Explores coordination chemistry, main group chemistry, and solid-state chemistry.

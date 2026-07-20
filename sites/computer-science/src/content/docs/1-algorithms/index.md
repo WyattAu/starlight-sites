@@ -7,6 +7,14 @@ description: "The study of algorithms is central to computer science. An algorit
 
 The study of algorithms is central to computer science. An algorithm is a finite, well-defined sequence of instructions that solves a computational problem. The analysis of algorithms concerns their correctness and efficiency, measured in terms of time complexity (how the number of operations grows with input size) and space complexity (how memory usage grows).
 
+## Intuition
+
+**A recipe for solving problems:** An algorithm is like a recipe — it tells you exactly what steps to take, in what order, and when to stop. The better the recipe (algorithm), the faster you get dinner (solution), especially when cooking for a large group (big inputs).
+
+**Why it matters:** Algorithms determine whether a problem is solvable in seconds or centuries. Choosing the right algorithm can turn an intractable problem into a routine task — this is the difference between a search engine returning results instantly and one that takes days.
+
+**The key insight:** Efficiency is about growth rates, not absolute speed — understanding how running time scales with input size lets you predict performance on problems you've never seen before.
+
 ## Key Concepts
 
 Efficiency is expressed using asymptotic notation. Big-$O$ notation provides an upper bound on growth rate: for example, binary search runs in $O(\log n)$ time because it halves the search space at each step. Big-$\Omega$ provides a lower bound, and big-$\Theta$ provides a tight bound when both upper and lower bounds coincide.

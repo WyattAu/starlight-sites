@@ -17,7 +17,15 @@ import { flashcardData } from '@/data/flashcards/java/flashcards-java-basics-dat
 
 Java is "write once, run anywhere" — code compiles to bytecode that runs on the Java Virtual Machine (JVM), abstracting away the underlying OS. The JVM handles memory management through garbage collection, so you don't manually allocate/free memory like in C. Java's type system is statically typed (types checked at compile time) with single inheritance of classes but multiple inheritance of interfaces, balancing safety with flexibility.
 
-## Common Pitfalls
+## How to Use These Flashcards
+
+**First pass:** Go through all 20 cards without rating — just flip and read. This familiarises you with the content and identifies weak areas.
+
+**Rating system:** 1 = could not recall, 2 = recalled with difficulty, 3 = recalled correctly, 4 = instant recall. The spaced repetition algorithm shows cards rated 1-2 more frequently.
+
+**Code verification:** After reviewing JVM internals cards, try writing small Java programs to verify your understanding. Use `javap -c` to see bytecode and confirm your mental model.
+
+**Common Pitfalls**
 
 - **NullPointerException**: Java's most infamous runtime error — calling a method on a null reference crashes the program. Always use Optional or null checks.
 - **String immutability**: Strings in Java are immutable — concatenating strings in a loop creates many temporary objects. Use StringBuilder for performance-critical string operations.
@@ -26,3 +34,9 @@ Java is "write once, run anywhere" — code compiles to bytecode that runs on th
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="java-basics" title="Java Fundamentals" description="Core Java from JVM internals to modern features" cards={flashcardData}  />
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for Java notes.
+- **[Java Basics](../../01-java-basics/):** Fundamental Java concepts including types and control flow.
+- **[Concurrency](../../08-concurrency/):** Multithreading and concurrent programming.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

@@ -146,4 +146,7 @@ linked above.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
 
-</aside>
+</aside>## Cross-References
+
+- **[Site Home](../../):** Main landing page for linux notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

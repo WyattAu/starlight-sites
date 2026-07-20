@@ -966,3 +966,9 @@ NIO is built on three abstractions: buffers hold data, channels move data, and s
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for Java notes.
+- **[Java Basics](../../01-java-basics/):** Fundamental Java concepts including types and control flow.
+- **[Concurrency](../../08-concurrency/):** Multithreading and concurrent programming.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

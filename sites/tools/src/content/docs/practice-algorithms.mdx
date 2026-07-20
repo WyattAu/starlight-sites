@@ -214,3 +214,26 @@ sidebar_position: 50
 **Correct Answer:** (B)
 
 **Explanation:** Under the simple uniform hashing assumption, each operation has O(1 + alpha) expected time where alpha is the load factor. With alpha < 0.75, this is O(1) average-case. The worst case remains O(n) when all keys collide into the same bucket, but this is extremely unlikely with a good hash function. Resizing when the load factor exceeds a threshold maintains performance guarantees.
+
+## Intuition
+
+**Practice makes permanent:** Algorithm practice problems are like gym workouts for your brain — each problem exercises different muscles (sorting, searching, graph traversal, dynamic programming), and regular practice builds the mental patterns that make new problems easier to solve.
+
+**Why it matters:** Knowing an algorithm is not the same as being able to implement it under pressure. Practice problems build the muscle memory that lets you recognise problem types quickly and implement solutions correctly.
+
+**The key insight:** The goal is not to memorise solutions but to recognise patterns — when you see a new problem, you should be able to identify which paradigm (greedy, divide-and-conquer, DP, graph) applies and why.
+
+## Common Mistakes
+
+**Using O(n) to claim an algorithm is always slow:** Big-O describes the worst-case growth rate, not actual runtime. An O(n²) algorithm on 10 elements is faster than an O(n log n) algorithm with high constants. Always consider input size and constant factors before dismissing an algorithm.
+
+**Confusing stable and unstable sorts:** A stable sort preserves the relative order of equal elements (MergeSort is stable). An unstable sort does not guarantee this (QuickSort, HeapSort). If you need to sort by multiple keys (e.g., sort by name then by date), using an unstable sort on the second pass may scramble the first sort's ordering.
+
+**Assuming hash tables always give O(1):** Hash tables provide O(1) average-case lookup, but worst-case is O(n) when many keys hash to the same bucket. A poor hash function or adversarial input can trigger this. Use cryptographic hash functions for security-sensitive contexts and ensure load factor stays below 0.75.
+
+## Cross-References
+
+- **[Sorting Algorithms](algorithms/05-sorting/sorting.md):** Detailed notes on comparison-based and non-comparison sorting algorithms.
+- **[Dynamic Programming](algorithms/06-dynamic-programming/dynamic-programming.md):** Core DP concepts including memoisation and tabulation.
+- **[Hashing and Hash Tables](algorithms/02-arrays-strings/hashing-and-hash-tables.md):** Hash-based data structures for O(1) average-case operations.
+- **[Linked Lists, Stacks, and Queues](algorithms/03-linked-lists-stacks-queues/linked-lists-stacks-queues.md):** Linear data structures that serve as building blocks for algorithm implementations.

@@ -4,6 +4,14 @@ description: "GitHub Actions is an event-driven continuous integration and conti
 
 ---
 
+## Intuition
+
+**A robot that tests and deploys for you:** GitHub Actions is like hiring a diligent assistant who automatically runs your tests, builds your code, and deploys your app every time you push — catching mistakes before they reach users.
+
+**Why it matters:** CI/CD automates the tedious parts of software development — testing, building, deploying — so you can focus on writing code. It also prevents the "works on my machine" problem by testing in a clean environment every time.
+
+**The key insight:** The real power of CI/CD is fast feedback — if a test fails, you know within minutes, not days. This tight feedback loop dramatically reduces the cost of fixing bugs.
+
 ## What is GitHub Actions
 
 GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform

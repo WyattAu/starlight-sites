@@ -101,6 +101,14 @@ tableOfContents: false
 
 ---
 
+## Intuition
+
+**Testing your linear algebra foundations:** Diagnostic tests quickly reveal which concepts you have mastered and which need more work. They are like a health check for your mathematical understanding.
+
+**Why it matters:** Linear algebra is the foundation of machine learning, computer graphics, and scientific computing. Gaps in your understanding will show up as bugs in your code or errors in your models.
+
+**The key insight:** If you cannot compute a determinant or eigenvalue by hand, you do not truly understand the concept — use diagnostic tests as a starting point for deeper study, not as an endpoint.
+
 ## Answer Key
 
 | Question | Correct Answer |

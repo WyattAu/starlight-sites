@@ -406,3 +406,9 @@ linked above.
 - Using integer division when a real result is needed (e.g., `5 / 2` giving 2 instead of 2.5).
 - Off-by-one errors in loop bounds: confusing whether a `FOR` loop should run from 0 to `n-1` or 1
   to `n`.
+
+## Cross-References
+
+- **[Programming](../5-programming/5_programming.md):** Detailed notes on programming concepts and pseudocode.
+- **[Algorithms](../4-algorithms/4_algorithms.md):** Covers algorithm design and efficiency that programming implements.
+- **[Practice Computer Science](../practice-computer-science.mdx):** Interactive practice problems covering programming and algorithms.

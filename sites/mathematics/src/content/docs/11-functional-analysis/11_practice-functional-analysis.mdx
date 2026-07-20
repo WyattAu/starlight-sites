@@ -9,6 +9,14 @@ description: "UNIVERSITY Mathematics practice problems: Functional Analysis Prac
 import PracticeProblem from "@components/PracticeProblem";
 
 
+## Intuition
+
+**Infinite-dimensional linear algebra:** Functional analysis extends linear algebra to infinite-dimensional spaces (function spaces). It studies operators on these spaces, providing the mathematical framework for quantum mechanics, signal processing, and partial differential equations.
+
+**Why it matters:** Quantum mechanics is formulated in Hilbert spaces (complete inner product spaces), signal processing uses L2 spaces, and PDE theory uses Sobolev spaces. Functional analysis provides the language for all of these.
+
+**The key insight:** Compactness in infinite dimensions replaces finiteness — a compact operator behaves like a finite-rank operator, which is why spectral theory works for compact operators on Hilbert spaces.
+
 ## University Mathematics -- Functional Analysis Practice
 
 10 auto-graded practice problems at medium to hard difficulty. Select an answer, submit, and review
@@ -59,3 +67,9 @@ the explanation.
 **Assuming all bounded operators are compact:** On infinite-dimensional spaces, bounded operators need not be compact. The identity operator $I: \ell^2 \to \ell^2$ is bounded ($\|I\| = 1$) but not compact — it maps the unit ball to itself, which is not compact in infinite dimensions. Compact operators are a strict subset of bounded operators.
 
 **Forgetting the completeness requirement in the Bounded Inverse Theorem:** A bijective bounded linear operator between Banach spaces has a bounded inverse, but if either space is not complete, this can fail. The differentiation operator on $C^1[0,1] \to C[0,1]$ is bijective and bounded but its inverse (antidifferentiation) is unbounded because $C^1[0,1]$ is not complete under the supremum norm.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for Mathematics notes.
+- **[Linear Algebra](../../2-linear-algebra/):** Vector spaces, matrices, and linear transformations.
+- **[Real Analysis](../../3-real-analysis/):** Rigorous treatment of real numbers and calculus.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

@@ -250,3 +250,7 @@ async fn combined_operation() -> Result<(String, i32), AppError> {
 **Blocking inside async functions:** Calling .await on a blocking operation blocks the async runtime thread. Use spawn_blocking for CPU-bound work and tokio::fs for async file I/O. Blocking the runtime starves other tasks.
 
 **Forgetting that futures are lazy:** Async functions return futures that do nothing until polled. Creating a future without .awaiting it or spawning it does nothing. The future must be driven to completion by the runtime.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for rust notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

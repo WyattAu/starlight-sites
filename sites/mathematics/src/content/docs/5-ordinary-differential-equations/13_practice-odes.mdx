@@ -9,6 +9,14 @@ description: "UNIVERSITY Mathematics practice problems: Ordinary Differential Eq
 import PracticeProblem from "@components/PracticeProblem";
 
 
+## Intuition
+
+**Equations that describe change:** ODEs describe how things change — the speed of a falling object, the growth of a population, the oscillation of a spring. They are the language of physics, engineering, and biology.
+
+**Why it matters:** Almost every physical law is expressed as a differential equation — Newton second law, Maxwell equations, Schrodinger equation. Solving ODEs lets you predict the future behaviour of physical systems.
+
+**The key insight:** Most ODEs cannot be solved analytically — numerical methods (Euler, Runge-Kutta) approximate solutions, and the art is balancing accuracy against computational cost.
+
 ## University Mathematics — Ordinary Differential Equations Practice
 
 10 auto-graded practice problems at medium to hard difficulty. Select an answer, submit, and review
@@ -53,3 +61,9 @@ the explanation.
 **Confusing the integrating factor formula for first-order linear ODEs:** For $y' + P(x)y = Q(x)$, the integrating factor is $\mu(x) = e^{\int P(x)\,dx}$, not $e^{\int Q(x)\,dx}$. The factor multiplies the entire equation to make the left side an exact derivative. Applying it to the wrong term gives an incorrect equation that cannot be integrated directly.
 
 **Forgetting the domain of validity for Laplace transforms:** The Laplace transform $\mathcal{L}\{e^{at}\} = 1/(s-a)$ is only valid for $s > a$. When solving initial value problems, you must track the region of convergence to ensure the inverse transform is well-defined. Ignoring this can lead to incorrect solutions or missing terms.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for Mathematics notes.
+- **[Linear Algebra](../../2-linear-algebra/):** Vector spaces, matrices, and linear transformations.
+- **[Real Analysis](../../3-real-analysis/):** Rigorous treatment of real numbers and calculus.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

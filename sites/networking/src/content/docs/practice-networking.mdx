@@ -42,3 +42,11 @@ import { practiceQuestions } from '@/data/flashcards/networking/practice-network
 | Linux Networking | Infrastructure | [Linux](https://infrastructure.wyattau.com/linux/) |
 | Databases | Infrastructure | [Databases](https://infrastructure.wyattau.com/databases/) |
 | Computer Networks | University | [Computer Networks](https://university.wyattau.com/computing/3-computer-networks/) |
+
+## Common Mistakes
+
+**Confusing OSI layers and their responsibilities:** The 7 OSI layers (Physical, Data Link, Network, Transport, Session, Presentation, Application) each have distinct roles. A common error is placing encryption at the Transport layer (it belongs at Presentation or Application), or assuming IP handles reliability (that is TCP's job at Transport).
+
+**Using classful subnetting when CIDR is standard:** Classful addressing (Class A/B/C with fixed masks) is obsolete. Modern networks use CIDR (Classless Inter-Domain Routing) with variable-length subnet masks. Confusing /24 with a Class C network leads to incorrect subnet calculations. Always work with CIDR notation.
+
+**Forgetting that DNS resolves names to IPs, not the reverse:** DNS maps domain names to IP addresses. The reverse (IP to name) uses reverse DNS (rDNS/PTR records). Students sometimes claim "DNS finds the website for you" — more precisely, DNS translates the name so routing can find the IP.

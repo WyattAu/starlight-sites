@@ -10,6 +10,14 @@ tags:
 
 The theory of computation addresses the fundamental question of what can be computed and how efficiently computation can be carried out. It provides the mathematical framework for classifying computational problems by their inherent difficulty and for understanding the capabilities and limitations of different models of computation.
 
+## Intuition
+
+**Drawing lines in the sand:** Theory of computation draws boundaries — it separates what any computer can solve from what no computer can solve, and what's easy from what's hard. It's like discovering that some puzzles are solvable, some are impossible, and most are somewhere in between.
+
+**Why it matters:** Complexity theory tells you whether to keep searching for a fast algorithm or accept that exponential time is the best you'll get. This guides real engineering decisions — from cryptography (we rely on factoring being hard) to AI planning (we accept approximations for NP-hard problems).
+
+**The key insight:** Not all problems are created equal — there are provable hierarchies of difficulty, and knowing where a problem sits tells you what approaches are worth pursuing.
+
 ## Key Concepts
 
 The Chomsky hierarchy classifies formal languages by the type of automaton that recognises them: regular languages (finite automata), context-free languages (pushdown automata), context-sensitive languages (linear-bounded automata), and recursively enumerable languages (Turing machines). Decidability theory identifies problems for which no algorithm can always produce a correct answer, while complexity theory partitions decidable problems into classes such as $\text{P}$, $\text{NP}$, and $\text{PSPACE}$ based on resource bounds.

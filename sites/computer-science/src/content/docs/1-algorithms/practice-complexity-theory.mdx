@@ -11,6 +11,14 @@ import PracticeProblem from '@components/PracticeProblem';
 10 MCQ questions covering Big-O notation, complexity classes (P, NP, NP-complete), polynomial-time
 reductions, Cook\'s theorem, and approximation algorithms. Select an option to check your answer.
 
+## Intuition
+
+**Sorting problems into difficulty bins:** Complexity classes are like sorting problems into difficulty bins — P problems are easy (solvable quickly), NP problems are easy to check (even if hard to solve), and NP-complete problems are the hardest in NP. NP-hard problems are at least as hard as NP-complete.
+
+**Why it matters:** Complexity theory tells you when to keep looking for a fast algorithm and when to accept that one probably doesn't exist. It guides real engineering decisions — from cryptography (we rely on factoring being hard) to AI planning (we use approximations for NP-hard problems).
+
+**The key insight:** NP doesn't mean "hard to solve" — it means "easy to verify." The million-dollar question is whether P = NP, which would mean every easily verifiable problem is also easily solvable.
+
 ---
 
 ## Asymptotic Notation and Complexity Classes

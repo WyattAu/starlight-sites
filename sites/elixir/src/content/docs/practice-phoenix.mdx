@@ -388,3 +388,7 @@ end
 **Blocking in GenServer handle_info:** `handle_info` callbacks run in the GenServer process. If you perform blocking I/O (HTTP calls, file reads), the entire GenServer blocks. Use Task.async or spawn separate processes for blocking work.
 
 **Ignoring OTP supervision tree design:** Supervisors restart failed processes. If your supervision strategy is `:one_for_one` but processes depend on each other, restarting one may leave others in an inconsistent state. Design supervision trees to match your applications dependency structure.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for elixir notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

@@ -10,6 +10,14 @@ tags:
 
 Computer networks enable the exchange of data between devices across local and wide areas. The study of networking is organised around layered models, such as the OSI seven-layer model and the TCP/IP model, which decompose communication into modular, independent components. Each layer provides services to the layer above while abstracting the implementation details of the layer below.
 
+## Intuition
+
+**A postal system for data:** Networking is like a postal system — your letter (data) gets wrapped in envelopes at each level (headers), routed through sorting offices (routers), and delivered to the right address. Each layer handles a different part of the journey, from physical delivery to addressing.
+
+**Why it matters:** Every app you use — email, streaming, banking — depends on networks. Understanding protocols, routing, and congestion control explains why downloads are slow, video calls drop, and how data travels securely across the globe.
+
+**The key insight:** Network design is fundamentally about trade-offs — reliability vs. speed, security vs. performance — and layered architecture lets you optimize one layer without breaking the others.
+
 ## Key Concepts
 
 The TCP/IP model defines four layers: link, internet, transport, and application. The internet layer handles routing and addressing via IP, while the transport layer provides reliable (TCP) or unreliable (UDP) end-to-end delivery. Understanding encapsulation, where each layer adds its own header to the data, is fundamental to diagnosing network issues and designing protocols.

@@ -711,6 +711,13 @@ Different densities.
 
 25. Explain how fibre optic cables use total internal reflection to transmit data. Include a
     calculation showing why a fibre with core refractive index $1.50$ and cladding index $1.45$ is
-    suitable for this purpose.
+     suitable for this purpose.
 
 </aside>
+
+## Cross-References
+
+- **[Mechanics](../1-mechanics/1_mechanics.mdx):** Covers forces, motion, and energy concepts that provide the foundation for understanding wave phenomena.
+- **[Electricity](../3-electricity/3_electricity.mdx):** Explores electromagnetic induction and AC circuits, connecting to the electromagnetic spectrum covered here.
+- **[Modern Physics](../5-modern-physics/5_modern-physics.md):** Covers the photoelectric effect and wave-particle duality, extending the wave concepts from this topic.
+- **[Practice Physics](../practice-physics.mdx):** Interactive practice problems covering waves, optics, and other physics topics.

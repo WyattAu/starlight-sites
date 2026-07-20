@@ -252,3 +252,9 @@ Version control and never edited manually.
 6. **Circular imports.** Go does not allow circular imports between packages. If A imports B and B
    imports A, the compiler rejects it. Restructure by extracting the shared code into a third
    package.
+
+## Cross-References
+
+- **[Basics](basics/):** Fundamental Go concepts including types, functions, and control flow.
+- **[Intermediate](intermediate/):** Error handling, interfaces, and generics.
+- **[Concurrency](concurrency/):** Goroutines, channels, and race conditions.

@@ -67,3 +67,10 @@ Go is a programming language with a rich type system and ecosystem. These notes 
 **Not using `go vet` and `staticcheck`:** Go provides built-in static analysis tools. Running `go vet ./...` before committing catches common mistakes (printf format errors, unreachable code, incorrect struct tags). These tools are fast and should be part of your workflow.
 
 **Goroutine leaks:** Goroutines that block on channels or I/O without a way to exit will leak. Always provide a mechanism for goroutines to terminate (context cancellation, done channels, or timeout). Monitor goroutine counts in production.
+
+## Cross-References
+
+- **[Basics](basics/):** Fundamental Go concepts including types, functions, and control flow.
+- **[Intermediate](intermediate/):** Error handling, interfaces, and generics.
+- **[Concurrency](concurrency/):** Goroutines, channels, and race conditions.
+- **[Standard Library](standard-library/):** Commonly used standard library packages.

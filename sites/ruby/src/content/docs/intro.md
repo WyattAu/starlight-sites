@@ -28,3 +28,7 @@ Browse the content using the sidebar navigation on the left.
 **Using == for string comparison:** In Ruby, == compares string content (unlike Java). But equal? compares object identity. eql? compares content and type. Use == for most string comparisons, but be aware of the distinction.
 
 **Forgetting Ruby is object-oriented:** Everything in Ruby is an object, including integers, strings, and nil. 5.times { ... } works because integers are objects. This means methods can be called on any value, which is different from languages with primitive types.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for ruby notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

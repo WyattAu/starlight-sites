@@ -11,6 +11,17 @@ hero:
       variant: primary
 ---
 
+## What This Site Covers
+
+Database administration across relational (PostgreSQL, MySQL, SQLite) and NoSQL systems. Topics include SQL query writing, schema design, indexing strategies, performance tuning, backup/recovery, replication, and security. Practical examples use real-world schemas and query patterns.
+
+## Key Topics
+
+- **SQL Fundamentals** — SELECT, JOIN, subqueries, window functions
+- **Schema Design** — Normalization, entity-relationship modelling, migrations
+- **Performance** — Query optimization, indexing, EXPLAIN analysis
+- **Administration** — Backup strategies, replication, monitoring
+
 ## Common Mistakes
 
 **Assuming SQL syntax is identical across all database systems:** While standard SQL exists, each RDBMS (PostgreSQL, MySQL, SQLite) has proprietary extensions and syntax differences. Always test queries against your target database, not just "SQL in general."
@@ -18,3 +29,7 @@ hero:
 **Ignoring database indexing:** A query that runs in milliseconds with proper indexes can take minutes without them. Always consider which columns appear in WHERE, JOIN, and ORDER BY clauses, and create indexes accordingly.
 
 **Confusing ACID properties:** Atomicity (all or nothing), Consistency (valid state transitions), Isolation (concurrent transactions dont interfere), and Durability (committed data survives crashes) are four distinct properties. Weakening one (e.g., eventual consistency in NoSQL) has specific trade-offs.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for databases notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

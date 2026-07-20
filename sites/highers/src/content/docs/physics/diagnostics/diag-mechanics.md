@@ -330,3 +330,9 @@ linked above.
 - Applying Newton's third law incorrectly: the action-reaction pair acts on different objects, not
   on the same object.
 - Forgetting to include all forces in free body diagrams, particularly the normal reaction force.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for Higher notes.
+- **[Biology](../../biology/):** Biology notes covering cell biology and ecology.
+- **[Chemistry](../../chemistry/):** Chemistry notes covering atomic structure and bonding.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

@@ -4,6 +4,14 @@ description: "General Systems Engineering Career notes covering key definitions,
 
 ---
 
+## Intuition
+
+**Building a career in systems engineering:** A systems engineering career is like building a skyscraper — you start with a solid foundation (fundamentals), add floors gradually (specialisation), and occasionally renovate (learn new technologies) to stay relevant.
+
+**Why it matters:** Systems engineering roles (SRE, platform engineering, DevOps) are among the most in-demand and well-compensated in tech. Understanding the career paths helps you make strategic decisions about what to learn next.
+
+**The key insight:** The best systems engineers combine technical depth with communication skills — you need to understand distributed systems deeply, but you also need to explain trade-offs to non-technical stakeholders and write clear incident reports.
+
 ## Systems Engineering Career Paths
 
 ### SRE (Site Reliability Engineering)

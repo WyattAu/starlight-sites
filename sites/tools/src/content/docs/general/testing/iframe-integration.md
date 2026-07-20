@@ -8,6 +8,14 @@ categories:
   - CS
 ---
 
+## Intuition
+
+**Embedding interactive tools in docs:** Iframes are like picture-in-picture on your TV — they let you embed external tools (like Compiler Explorer) directly in your documentation, so readers can experiment without leaving the page.
+
+**Why it matters:** Interactive examples dramatically improve learning — readers can modify code, see results instantly, and build intuition through experimentation, rather than just reading about concepts.
+
+**The key insight:** Iframes sandbox external content, so a broken embed cannot crash your page — but they can be slow to load and may not work on all devices, so always provide a fallback link.
+
 ## Godbolt
 
 <div className="godbolt-container">

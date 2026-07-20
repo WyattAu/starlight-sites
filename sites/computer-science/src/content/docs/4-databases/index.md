@@ -10,6 +10,14 @@ tags:
 
 Database systems provide mechanisms for the structured storage, retrieval, and management of data. The relational model, introduced by E.F. Codd, organises data into tables (relations) with well-defined schemas, enabling data integrity and efficient querying through structured query language (SQL). Understanding database design principles is essential for building systems that manage large volumes of data reliably.
 
+## Intuition
+
+**A library with a card catalogue:** A database is like a library — the relational model organises books (data) into shelves (tables), the card catalogue (indexes) helps you find books quickly, and the librarian (transactions) ensures no two people check out the same book simultaneously.
+
+**Why it matters:** Every app with persistent data — social media, e-commerce, banking — relies on databases. Understanding normalisation prevents data corruption, indexing makes queries fast, and transactions keep data consistent even under concurrent access.
+
+**The key insight:** Database design is about balancing redundancy against performance — normalise to eliminate anomalies, but denormalise strategically for speed when needed.
+
 ## Key Concepts
 
 Normalisation is the process of decomposing relations to eliminate redundancy and update anomalies, progressing through normal forms from 1NF to BCNF and beyond. Indexing accelerates query processing by providing efficient access paths to data, analogous to an index in a textbook. Transaction management ensures that concurrent operations preserve data consistency through the ACID properties: atomicity, consistency, isolation, and durability.

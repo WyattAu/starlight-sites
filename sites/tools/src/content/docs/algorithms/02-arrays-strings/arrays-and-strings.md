@@ -4,6 +4,14 @@ description: "An array is a contiguous block of memory where each element occupi
 
 ---
 
+## Intuition
+
+**The simplest and fastest data structure:** Arrays are like a row of mailboxes — each slot is numbered, and you can access any slot instantly by its number. This contiguous memory layout gives O(1) access and excellent cache performance, making arrays the foundation of almost everything.
+
+**Why it matters:** Arrays are the most cache-friendly data structure — sequential access patterns exploit CPU cache lines, making array operations 10-100x faster than pointer-based alternatives for the same asymptotic complexity.
+
+**The key insight:** The real-world performance gap between arrays and linked lists is much larger than Big-O suggests — cache misses cost 100+ cycles, so array traversal is dramatically faster even though both are O(n).
+
 ## Array Fundamentals
 
 An array is a contiguous block of memory where each element occupies a fixed number of bytes and is

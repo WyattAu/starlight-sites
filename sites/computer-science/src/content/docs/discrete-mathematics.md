@@ -10,6 +10,14 @@ categories:
 
 ---
 
+## Intuition
+
+**The mathematics of certainty:** Discrete mathematics is the mathematics of things that are distinct and separate — like the on/off states of a computer, the yes/no answers of logic, and the finite steps of an algorithm. It's the foundation for reasoning about computation with mathematical rigour.
+
+**Why it matters:** Every algorithm proof, every database query, and every cryptographic system relies on discrete math. It gives you the tools to prove things are correct, count possibilities, and reason about structure — skills that separate good engineers from great ones.
+
+**The key insight:** The pigeonhole principle is deceptively powerful — if you have more pigeons than holes, at least one hole has two pigeons. This simple idea proves everything from handshake problems to the limits of data compression.
+
 ## 1. Propositional and Predicate Logic
 
 ### 1.1 Propositional Logic

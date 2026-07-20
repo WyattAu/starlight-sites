@@ -257,3 +257,9 @@ linked above.
   electrons.
 - Forgetting that the high melting point of giant covalent structures is due to covalent bonds,
   whereas the low melting point of simple covalent substances is due to weak intermolecular forces.
+
+## Cross-References
+
+- **[Chemical Bonding](../2-bonding/2_bonding.md):** Detailed notes on ionic, covalent, and metallic bonding.
+- **[Atomic Structure](../1-atomic-structure/1_atomic-structure.md):** Covers electron configuration that determines bonding behaviour.
+- **[Practice Chemistry](../practice-chemistry.mdx):** Interactive practice problems covering bonding and atomic structure.

@@ -17,7 +17,15 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 Chemistry explains the composition and behaviour of matter — atoms bond to form molecules, and chemical reactions rearrange those bonds to create new substances. The periodic table organises elements by electron configuration, predicting their chemical behaviour. Stoichiometry provides the quantitative framework: balancing equations and using mole ratios to predict how much product a reaction will yield. Acids donate H⁺ ions, bases accept them — neutralisation produces water and a salt.
 
-## Common Pitfalls
+## How to Use These Flashcards
+
+**First pass:** Go through all 20 cards without rating — just flip and read. This familiarises you with the content and identifies weak areas.
+
+**Rating system:** 1 = could not recall, 2 = recalled with difficulty, 3 = recalled correctly, 4 = instant recall. The spaced repetition algorithm shows cards rated 1-2 more frequently.
+
+**Equation practice:** For calculation cards, work through the full calculation on paper before flipping. The answer is less important than the method.
+
+**Common Pitfalls**
 
 - **Molar mass errors**: Forgetting to account for all atoms in a formula — H₂SO₄ has 2 H + 1 S + 4 O = 98 g/mol, not 97 g/mol. Double-check each element's count.
 - **Balancing in acidic vs basic solutions**: Forgetting that in basic solutions, you must add OH⁻ to both sides after balancing with H⁺ — this is a common step in redox balancing.
@@ -26,3 +34,9 @@ Chemistry explains the composition and behaviour of matter — atoms bond to for
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="ilc-chemistry" title="ILC Chemistry" description="Atomic structure, periodic trends, chemical bonding, stoichiometry, thermochemistry, kinetics, equilibrium, acids and bases, electrochemistry, organic chemistry, polymers, and laboratory techniques." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+
+## Cross-References
+
+- **[Atomic Structure](chemistry/1-atomic-structure/1_atomic-structure.md):** Detailed notes on atomic structure and periodic trends covered by the flashcards.
+- **[Chemical Bonding](chemistry/2-bonding/2_bonding.md):** Covers ionic, covalent, and metallic bonding concepts included in the flashcard deck.
+- **[Practice Chemistry](chemistry/practice-chemistry.mdx):** Interactive practice problems to reinforce flashcard learning with auto-graded questions.

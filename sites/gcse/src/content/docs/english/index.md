@@ -165,3 +165,9 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+## Cross-References
+
+- **[Shakespeare](1-shakespeare/1_shakespeare.md):** Detailed notes on Shakespearean drama analysis and techniques.
+- **[Modern Texts and Poetry](3-modern-texts-and-poetry/3_modern-texts-and-poetry.md):** Covers modern literature and poetry analysis methods.
+- **[Practice English](practice-english.mdx):** Interactive practice problems covering literary analysis and essay writing.

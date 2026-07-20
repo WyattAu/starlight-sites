@@ -4,6 +4,14 @@ description: "A binary search tree (BST) is a binary tree where every node satis
 
 ---
 
+## Intuition
+
+**A filing cabinet that stays sorted:** A BST is like a filing cabinet where every folder is labelled, and you know that smaller labels go left and larger labels go right — finding any file takes O(log n) time if the tree is balanced, just like binary search on a sorted array.
+
+**Why it matters:** BSTs are the foundation of many data structures — balanced BSTs (AVL, red-black) power database indexes, language libraries (C++ std::map, Java TreeMap), and filesystem directories.
+
+**The key insight:** An unbalanced BST degenerates into a linked list with O(n) operations — this is why self-balancing variants (AVL, red-black) are essential in practice. The balance property guarantees O(log n) height.
+
 ## Binary Search Tree Fundamentals
 
 A binary search tree (BST) is a binary tree where every node satisfies the **BST property**: for any

@@ -303,3 +303,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Generics](generics.md):** Generic programming as an alternative to interface-based abstraction.
+- **[Error Handling](error-handling.md):** Error handling patterns using the error interface.
+- **[Practice Interfaces](../practice-interfaces.mdx):** Practice problems covering interface design and implementation.

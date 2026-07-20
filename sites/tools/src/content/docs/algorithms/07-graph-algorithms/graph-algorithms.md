@@ -3,6 +3,14 @@ title: Graph Algorithms
 description: "Graph algorithms including shortest paths and minimum spanning trees."
 ---
 
+## Intuition
+
+**Finding the best path through a maze:** Graph algorithms are like navigating a city — Dijkstra finds the fastest route, BFS finds the nearest hospital, and minimum spanning trees connect all buildings with the least road construction. Each algorithm answers a different "best path" question.
+
+**Why it matters:** Graph algorithms power GPS navigation, social network analysis, network routing, and countless other applications. Understanding them lets you solve problems involving relationships and connectivity efficiently.
+
+**The key insight:** Dijkstra greedy strategy works because shortest paths have optimal substructure — the shortest path from A to C through B is the shortest path from A to B plus the shortest path from B to C.
+
 ## Shortest Paths
 
 ### Dijkstra's Algorithm

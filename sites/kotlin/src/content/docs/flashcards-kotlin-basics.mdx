@@ -17,7 +17,15 @@ import { flashcardData } from '@/data/flashcards/kotlin/flashcards-kotlin-basics
 
 Kotlin is a modern JVM language that eliminates Java's verbosity while maintaining full interoperability. Null safety is built into the type system — `String` is non-null, `String?` is nullable, and the compiler enforces checks. Extension functions let you add methods to existing classes without modifying them, and scope functions (`let`, `run`, `with`, `apply`, `also`) provide concise ways to work with objects in context.
 
-## Common Pitfalls
+## How to Use These Flashcards
+
+**First pass:** Go through all 15 cards without rating — just flip and read. This familiarises you with the content and identifies weak areas.
+
+**Interoperability practice:** After reviewing a card, consider how the Kotlin concept maps to Java equivalent. Kotlin-Java interop is a common interview topic.
+
+**Android connection:** If you're learning Kotlin for Android, relate each concept to its Android use case — coroutines for async, sealed classes for UI state, extension functions for utility methods.
+
+**Common Pitfalls**
 
 - **`!!` operator overuse**: The not-null assertion (`!!`) throws a NullPointerException if the value is null — prefer safe calls (`?.`) or `let` blocks.
 - **Sealed class exhaustiveness**: Forgetting to handle all cases in a `when` expression on a sealed class — the compiler catches this if you omit the `else` branch, but only for sealed hierarchies.

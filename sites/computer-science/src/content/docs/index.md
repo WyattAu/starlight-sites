@@ -7,6 +7,14 @@ description: 'University-level computing notes covering discrete mathematics, al
 
 Computing is the systematic study of algorithmic processes, encompassing both the theoretical foundations and practical applications of computation. A rigorous education in computing requires understanding the mathematical structures that underpin algorithms, the engineering principles that govern system design, and the theoretical limits that constrain what can be computed.
 
+## Intuition
+
+**The science of automation:** Computing is the science of telling machines what to do and understanding what they can and cannot do. It spans from pure mathematics (what is computable) to practical engineering (how to build reliable systems), and it touches every aspect of modern life.
+
+**Why it matters:** Computing is the defining technology of our era — from the algorithms that power search engines to the systems that run banks and hospitals. Understanding computing gives you the tools to build, debug, and improve the systems that run the world.
+
+**The key insight:** Computing is built on layers of abstraction — each layer hides complexity from the one above, enabling you to reason about high-level problems without drowning in hardware details. Mastering these abstractions is the key to becoming an effective computer scientist.
+
 ## Core Areas of Study
 
 The discipline spans several interconnected domains: discrete mathematics provides the formal language for reasoning about algorithms and data structures; computer networks describe how distributed systems communicate; database systems manage the storage and retrieval of structured data; operating systems coordinate hardware resources; and theory of computation establishes the boundaries of algorithmic solvability and complexity.

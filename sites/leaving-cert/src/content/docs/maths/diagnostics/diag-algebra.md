@@ -312,3 +312,10 @@ linked above.
   $|r| < 1$.
 - In proof questions, failing to define the variable (e.g., "let $n$ be an integer") at the start of
   the proof.
+
+## Cross-References
+
+- **[Algebra](../1-algebra/1_algebra.md):** Full notes on equations, inequalities, sequences, and algebraic proofs.
+- **[Calculus](../2-calculus/2_calculus.mdx):** Covers differentiation and integration, which build on algebraic manipulation skills.
+- **[Practice Maths](../practice-maths.mdx):** Interactive practice problems covering algebra, calculus, geometry, and probability.
+- **[Probability and Statistics](../4-probability-statistics/4_probability-statistics.md):** Covers probability and statistics topics that use algebraic techniques.

@@ -53,3 +53,9 @@ explanation.
 **Confusing value receivers with pointer receivers:** Methods on value receivers operate on copies of the struct. Methods on pointer receivers modify the original. If your method needs to modify state, use a pointer receiver. Mixing receiver types inconsistently causes subtle bugs.
 
 **Overusing `init()` functions:** Package-level `init()` runs automatically and implicitly. This makes control flow hard to follow and testing difficult. Prefer explicit initialization through constructors or dependency injection.
+
+## Cross-References
+
+- **[Types and Variables](basics/types-and-variables.md):** Detailed notes on Go types and variable declarations.
+- **[Functions](basics/functions.md):** Function definitions and method receivers.
+- **[Control Flow](basics/control-flow.md):** Loops, conditionals, and switch statements.

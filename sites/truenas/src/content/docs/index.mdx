@@ -11,6 +11,17 @@ hero:
       variant: primary
 ---
 
+## What This Site Covers
+
+TrueNAS configuration and administration: ZFS pool management, dataset and zvol creation, SMB/NFS sharing, snapshots and replication, cloud sync, user management, and performance tuning. Covers both TrueNAS CORE (FreeBSD-based) and TrueNAS SCALE (Linux-based).
+
+## Key Topics
+
+- **ZFS Pools** — Creating, expanding, and monitoring storage pools
+- **Shares** — SMB, NFS, and iSCSI configuration
+- **Snapshots** — Automatic and manual snapshot management
+- **Cloud Sync** — Backing up to AWS, Google Cloud, Backblaze B2
+
 ## Common Mistakes
 
 **Not implementing the 3-2-1 backup rule:** Keep 3 copies of data, on 2 different media types, with 1 offsite. TrueNAS replication, snapshots, and cloud sync help achieve this. Relying on a single TrueNAS server without offsite backups risks total data loss.
@@ -18,3 +29,7 @@ hero:
 **Ignoring snapshot management:** ZFS snapshots are lightweight but accumulate over time. Without a retention policy, old snapshots consume space indefinitely. Configure automatic snapshot pruning.
 
 **Confusing ZFS datasets with volumes:** Datasets are filesystem-like containers within a pool (share via SMB/NFS). Volumes (zvols) are raw block devices (used for VMs, iSCSI). Using the wrong type for your workload leads to performance issues.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for truenas notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

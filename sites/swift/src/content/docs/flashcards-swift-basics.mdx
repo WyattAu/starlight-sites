@@ -17,6 +17,14 @@ import { flashcardData } from '@/data/flashcards/swift/flashcards-swift-basics-d
 
 Swift is designed for safety and performance — optionals force you to handle nil at compile time, value types (structs, enums) prevent shared state bugs, and ARC manages memory without a garbage collector. Protocols define capabilities that types adopt, and protocol-oriented programming favours composition over inheritance. Enums in Swift are algebraic data types that can carry associated values, making them far more powerful than C-style enums.
 
+## How to Use These Flashcards
+
+**First pass:** Go through all 15 cards without rating — just flip and read. This familiarises you with the content and identifies weak areas.
+
+**Playground practice:** After reviewing a card, open a Swift Playground and experiment with the concept. Swift'sREPL and playgrounds make rapid experimentation easy.
+
+**iOS/macOS connection:** If you're learning Swift for Apple platforms, relate each concept to its framework use case — optionals for UIKit/SwiftUI properties, protocols for delegate patterns, ARC for memory management.
+
 ## Common Pitfalls
 
 - **Force unwrap (`!`)**: Using `!` on an optional that is nil crashes the program — prefer `guard let`, `if let`, or the nil-coalescing operator (`??`).
@@ -26,3 +34,7 @@ Swift is designed for safety and performance — optionals force you to handle n
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="swift-basics" title="Swift -- Basics" description="15 interactive flashcards covering let, var, optionals, protocols, extensions, generics, enums, structs, classes, ARC, closures, computed properties, property observers, result builders, async/await." cards={flashcardData} />
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for swift notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

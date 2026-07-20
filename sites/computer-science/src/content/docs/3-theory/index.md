@@ -7,6 +7,14 @@ description: "Theoretical computer science establishes the formal foundations of
 
 Theoretical computer science establishes the formal foundations of the discipline. It addresses fundamental questions about what can be computed, how efficiently computation can be performed, and what mathematical structures underpin computational processes. The three principal areas are automata theory, computability theory, and complexity theory.
 
+## Intuition
+
+**A factory with different machines:** Automata theory is like designing machines that recognise patterns — each machine type (finite, pushdown, Turing) has different tools: a finite machine has a simple checklist, a pushdown machine has a stack of sticky notes, and a Turing machine has an infinite scroll. The more powerful the tool, the more complex the patterns it can handle.
+
+**Why it matters:** Automata theory underpins compiler design, protocol verification, and understanding what computers fundamentally can and cannot do. It sets the boundary between tractable and intractable computation.
+
+**The key insight:** There is a strict hierarchy of computational power — adding memory transforms what's computable, and some problems are provably beyond any algorithm's reach.
+
 ## Key Concepts
 
 Automata theory studies abstract machines and the languages they recognise, progressing from finite automata (recognising regular languages) to pushdown automata (context-free languages) to Turing machines (recursively enumerable languages). Computability theory identifies problems that no algorithm can solve, such as the Halting Problem. Complexity theory classifies problems by the resources required to solve them, with the class $\text{P}$ containing problems solvable in polynomial time and $\text{NP}$ containing those whose solutions can be verified in polynomial time.

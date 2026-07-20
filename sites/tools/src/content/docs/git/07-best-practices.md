@@ -11,6 +11,14 @@ categories:
 
 ---
 
+## Intuition
+
+**The habits of effective developers:** Git best practices are like the habits of a good housekeeper — they keep your repository clean, your history readable, and your team productive. Small commits, clear messages, and consistent workflows prevent the chaos that accumulates in messy repositories.
+
+**Why it matters:** Following best practices prevents common disasters — losing work, introducing bugs through messy merges, and spending hours deciphering cryptic commit messages from six months ago.
+
+**The key insight:** Write commit messages for your future self — when you are debugging at 2 AM, a clear commit message like "fix: handle null user in login flow" saves more time than any optimisation.
+
 ## Recommended Global Configuration
 
 ```bash

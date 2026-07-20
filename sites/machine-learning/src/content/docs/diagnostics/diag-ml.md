@@ -125,3 +125,7 @@ tableOfContents: false
 **Using accuracy for imbalanced datasets:** If 95% of samples are class A, a model that always predicts A achieves 95% accuracy but is useless. Use precision, recall, F1-score, or AUC-ROC for imbalanced problems.
 
 **Forgetting to split data before feature engineering:** If you compute statistics on the entire dataset before splitting, information from the test set leaks into training. Always split first, then compute statistics only on the training set.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for machine-learning notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

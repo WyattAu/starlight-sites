@@ -259,3 +259,9 @@ class AsyncPatterns {
 **Forgetting that `synchronized` is reentrant:** A thread can acquire the same monitor multiple times (reentrant locking). This is by design — it allows a synchronized method to call another synchronized method on the same object. But it means nested synchronized blocks dont cause deadlocks on the same monitor.
 
 **Assuming `volatile` is sufficient for compound operations:** `volatile` ensures visibility (reads/writes go to main memory) but not atomicity. `i++` is not atomic even with volatile (read-modify-write). Use `AtomicInteger` or `synchronized` for compound operations.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for Java notes.
+- **[Java Basics](../../01-java-basics/):** Fundamental Java concepts including types and control flow.
+- **[Concurrency](../../08-concurrency/):** Multithreading and concurrent programming.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

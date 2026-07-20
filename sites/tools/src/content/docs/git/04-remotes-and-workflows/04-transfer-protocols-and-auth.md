@@ -4,6 +4,14 @@ description: "Git communicates with remote repositories over two primary transpo
 
 ---
 
+## Intuition
+
+**Two doors to the same仓库:** HTTPS and SSH are like two doors into the same building — HTTPS uses a username/password keycard (easy to set up, works through firewalls), while SSH uses a cryptographic key (more secure, no password typing). Both get you to the same place.
+
+**Why it matters:** Choosing the wrong protocol can mean the difference between secure deployments and leaked credentials. SSH is preferred for automation; HTTPS is simpler for occasional use.
+
+**The key insight:** SSH keys are more secure than passwords because they are cryptographically generated and cannot be brute-forced — but they must be protected like passwords, because anyone with your private key has full access.
+
 ## Protocol Overview
 
 Git communicates with remote repositories over two primary transport protocols: **HTTPS** and
@@ -931,3 +939,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Remote Operations](01-remote-operations.md):** Core remote commands like push, pull, and fetch that use these protocols.
+- **[Workflows](02-workflows.md):** Team collaboration workflows that rely on remote access and authentication.
+- **[Pull Requests](03-pull-requests.md):** Code review process that uses remote repositories and access controls.

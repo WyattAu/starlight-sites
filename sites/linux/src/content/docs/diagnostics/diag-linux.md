@@ -125,3 +125,7 @@ tableOfContents: false
 **Using `kill` without understanding signals:** `kill` sends signals, not just "stopping" processes. `kill -9` (SIGKILL) force-kills without cleanup. `kill -15` (SIGTERM) allows graceful shutdown. Always try SIGTERM first; use SIGKILL only as a last resort.
 
 **Confusing `>` with `>>`:** `>` overwrites the file. `>>` appends to the file. Using `>` when you mean `>>` destroys existing content. This is irreversible without backups.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for linux notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

@@ -10,6 +10,14 @@ categories:
 
 ---
 
+## Intuition
+
+**The invisible manager:** An operating system is like an invisible hotel manager — it allocates rooms (memory), manages guests (processes), handles complaints (interrupts), and ensures no guest walks into another's room (protection). You never see it, but without it, everything descends into chaos.
+
+**Why it matters:** Understanding operating systems explains why your computer slows down with too many tabs, how virtual memory extends your RAM, and why processes can't just access any memory address. It's the foundation for systems programming, security, and DevOps.
+
+**The key insight:** The OS creates the illusion of infinite, safe, organised resources through layers of abstraction — virtual memory, process scheduling, and file systems all hide hardware complexity behind clean interfaces.
+
 ## 1. Introduction to Operating Systems
 
 ### 1.1 Role of the Operating System

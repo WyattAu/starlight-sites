@@ -11,6 +11,17 @@ hero:
       variant: primary
 ---
 
+## What This Site Covers
+
+Performance tuning across Linux systems: CPU scheduling, memory management, I/O optimization, network tuning, and application profiling. Practical techniques using perf, strace, vmstat, iostat, and other profiling tools. Focus on measuring before optimising.
+
+## Key Topics
+
+- **CPU** — Scheduler tuning, CPU affinity, interrupt handling
+- **Memory** — Swap configuration, huge pages, NUMA awareness
+- **I/O** — Disk scheduling, read-ahead, write-back caching
+- **Network** — Buffer tuning, congestion control, TCP parameters
+
 ## Common Mistakes
 
 **Optimising without profiling:** Guessing where bottlenecks are wastes time. Profile first to identify the actual bottleneck. A function that takes 1% of runtime is not worth optimising even if you make it 10x faster.
@@ -18,3 +29,7 @@ hero:
 **Confusing premature optimisation with good design:** Writing clean, well-structured code is not premature optimisation. Optimising obscure code paths before understanding the problem is. Know the difference.
 
 **Ignoring I/O bottlenecks:** CPU-bound optimisations are useless if the program spends most of its time waiting for disk or network I/O. Profile wall-clock time, not just CPU time. Async I/O, caching, and connection pooling often give bigger wins.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for tuning notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

@@ -442,3 +442,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Goroutines](goroutines.md):** Lightweight threads that can introduce race conditions when accessing shared state.
+- **[Channels](channels.md):** Communication mechanism that helps prevent race conditions through message passing.
+- **[Interfaces](../intermediate/interfaces.md):** Interface design patterns that affect concurrency safety.

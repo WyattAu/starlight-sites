@@ -445,3 +445,9 @@ GCSE Maths is like learning a musical instrument -- you need both theory (formul
 ## Summary
 
 GCSE Mathematics covers number (fractions, decimals, percentages, ratio, standard form, bounds), algebra (simplifying, expanding, factorising, solving equations, inequalities, sequences, functions, graphs), geometry (angles, circles, Pythagoras, trigonometry, transformations, vectors), and statistics (averages, grouped data, scatter graphs, cumulative frequency, box plots, probability, tree diagrams, conditional probability). Key exam skills include showing all working, reading questions twice to identify exact requirements, estimating answers to check reasonableness, and managing time at roughly one mark per minute.
+
+## Cross-References
+
+- **[Practice Maths](maths/practice-maths.mdx):** Interactive practice problems covering number, algebra, geometry, and statistics.
+- **[Maths Question Bank](maths-question-bank.md):** Additional practice questions organized by topic.
+- **[Chemistry](chemistry/):** Chemistry notes that use mathematical skills for quantitative calculations.

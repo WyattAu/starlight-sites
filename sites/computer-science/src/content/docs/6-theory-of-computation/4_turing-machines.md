@@ -198,3 +198,7 @@ verifies one pair. If any pair mismatches, the string is not of the form $w\#w^R
 
 </details>
 
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for computer-science notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

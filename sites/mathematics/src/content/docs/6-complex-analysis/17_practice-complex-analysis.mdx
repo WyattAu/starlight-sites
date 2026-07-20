@@ -9,6 +9,14 @@ description: "UNIVERSITY Mathematics practice problems: Complex Analysis Practic
 import PracticeProblem from "@components/PracticeProblem";
 
 
+## Intuition
+
+**Functions of imaginary numbers:** Complex analysis extends calculus to the complex plane, where numbers have both real and imaginary parts. It reveals beautiful connections — a holomorphic function is infinitely differentiable, and its real and imaginary parts satisfy Laplace equation.
+
+**Why it matters:** Complex analysis solves real engineering problems — signal processing uses Fourier transforms (complex exponentials), control theory uses the Laplace transform, and fluid dynamics uses conformal mapping.
+
+**The key insight:** Cauchy integral formula says you can reconstruct a function from its values on a boundary — this seemingly abstract result has practical consequences for computing integrals and understanding analytic continuation.
+
 ## University Mathematics — Complex Analysis Practice
 
 10 auto-graded practice problems at medium to hard difficulty. Select an answer, submit, and review
@@ -53,3 +61,9 @@ the explanation.
 **Forgetting to check which singularities lie inside the contour:** When using the residue theorem, only poles inside the contour contribute to the integral. The function $1/[(z+1)(z-3)]$ has poles at $z = -1$ and $z = 3$, but a contour $|z| = 2$ encloses only $z = -1$. Always verify $|z_k| < R$ before including a residue in your sum.
 
 **Confusing the principal branch of the logarithm with the multi-valued function:** $\log(z)$ is multi-valued, and the principal branch $\operatorname{Log}(z)$ has a branch cut along the negative real axis. When computing $\log(z^n)$, you cannot simply write $n\log(z)$ — the two sides may differ by multiples of $2\pi i$. Track the argument carefully around branch cuts.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for Mathematics notes.
+- **[Linear Algebra](../../2-linear-algebra/):** Vector spaces, matrices, and linear transformations.
+- **[Real Analysis](../../3-real-analysis/):** Rigorous treatment of real numbers and calculus.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

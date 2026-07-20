@@ -3,6 +3,14 @@ title: Development Environment Setup
 description: "Modern terminal emulators use the GPU for rendering, enabling smooth scrolling and proper Unicode support."
 ---
 
+## Intuition
+
+**Your digital workshop:** A development environment is like a well-organised workshop — the right tools (terminal, editor, shell) make you productive, while poor setup creates friction that slows you down. Investing in your environment pays dividends every day.
+
+**Why it matters:** The tools you use daily have an outsized impact on your productivity. A fast terminal, a well-configured editor, and efficient shell aliases can save hours per week compared to slow, unconfigured defaults.
+
+**The key insight:** GPU-accelerated terminals render text faster and support true colour and Unicode — this is not just cosmetic; it enables tools like `bat`, `fzf`, and `neovim` to display syntax highlighting and special characters correctly.
+
 ## Terminal Emulators
 
 ### GPU-Accelerated Terminals

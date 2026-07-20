@@ -17,7 +17,15 @@ import { flashcardData } from '@/data/flashcards/haskell/flashcards-haskell-basi
 
 Haskell is the language where "if it compiles, it probably works." Pure functions guarantee that the same inputs always produce the same output — no hidden state, no surprises. Lazy evaluation means expressions are not computed until their results are actually needed, which enables elegant infinite lists but can cause space leaks if you're not careful. The type system is your compiler-verified documentation.
 
-## Common Pitfalls
+## How to Use These Flashcards
+
+**First pass:** Go through all 15 cards without rating — just flip and read. This familiarises you with the content and identifies weak areas.
+
+**Active recall:** Before flipping, try to write the type signature or implementation from memory. Haskell's type system makes this especially effective — you can verify your mental model against the actual type.
+
+**Code practice:** After reviewing a card, open GHCi and experiment with the concept. Type inference is your friend — let the compiler check your understanding.
+
+**Common Pitfalls**
 
 - **Lazy evaluation traps**: Building a large thunk (unevaluated expression) by accumulating list operations without forcing evaluation — this causes stack overflow on large datasets. Use `foldl'` (strict) instead of `foldl` (lazy).
 - **Infinite types**: Writing a function that produces an infinite type (e.g., `f x = f (f x)`) — the compiler rejects this because it cannot determine a finite type.
@@ -26,3 +34,7 @@ Haskell is the language where "if it compiles, it probably works." Pure function
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="haskell-basics" title="Haskell -- Basics" description="15 interactive flashcards covering pure functional programming, lazy evaluation, type inference, currying, pattern matching, type classes, Maybe, Either, IO, do notation, foldr, monad transformers, STM, GADTs, and State monad." cards={flashcardData} />
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for haskell notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

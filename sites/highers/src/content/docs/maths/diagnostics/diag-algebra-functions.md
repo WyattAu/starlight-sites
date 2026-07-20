@@ -307,3 +307,9 @@ $$
 
 $$
 - Confusing composite function notation: $fg(x)$ means $f(g(x))$, applying $g$ first, then $f$.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for Higher notes.
+- **[Biology](../../biology/):** Biology notes covering cell biology and ecology.
+- **[Chemistry](../../chemistry/):** Chemistry notes covering atomic structure and bonding.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

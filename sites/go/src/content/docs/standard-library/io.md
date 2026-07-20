@@ -412,3 +412,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Net/HTTP](net-http.md):** HTTP client and server that use I/O operations.
+- **[Strings and Time](strings-and-time.md):** String and time utilities used with I/O operations.
+- **[Flashcards: Standard Library](../flashcards-standard-library.mdx):** Interactive flashcards for standard library concepts.

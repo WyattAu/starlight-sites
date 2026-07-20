@@ -615,3 +615,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Submodules](04-submodules.md):** Alternative approach to managing external dependencies within a Git repository.
+- **[Cherry-Pick](06-cherry-pick.md):** Selective commit application technique that complements subtree operations.
+- **[Worktrees](05-worktrees.md):** Multiple working directories for parallel development alongside subtree management.

@@ -17,7 +17,15 @@ import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcard
 
 Gaokao Mathematics tests a broad range of topics from set theory and functions through calculus, analytical geometry, and probability. Functions are the central concept — understanding domain, range, monotonicity, and symmetry is essential. Derivatives measure rates of change and find extrema, while integrals accumulate areas and volumes. Analytical geometry connects algebraic equations to geometric shapes — lines, circles, ellipses, and hyperbolas.
 
-## Common Pitfalls
+## How to Use These Flashcards
+
+**First pass:** Go through all 20 cards without rating — just flip and read. This familiarises you with the content and identifies weak areas.
+
+**Rating system:** 1 = could not recall, 2 = recalled with difficulty, 3 = recalled correctly, 4 = instant recall. The spaced repetition algorithm shows cards rated 1-2 more frequently.
+
+**Speed practice:** Gaokao is time-pressured. After mastering the content, time yourself flipping through cards to build speed.
+
+**Common Pitfalls**
 
 - **Derivative sign errors**: Forgetting the chain rule when differentiating composite functions — d/dx[sin(2x)] = 2cos(2x), not cos(2x). Always multiply by the derivative of the inner function.
 - **Ellipse formula confusion**: The standard form x²/a² + y²/b² = 1 has a > b for a horizontal major axis — mixing up a and b leads to wrong focal distances and eccentricity calculations.
@@ -26,3 +34,7 @@ Gaokao Mathematics tests a broad range of topics from set theory and functions t
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="gaokao-mathematics" title="Gaokao Mathematics" description="Set theory, functions, trigonometry, sequences, derivatives, integrals, analytical geometry, probability, vectors, solid geometry, complex numbers, and combinatorics for the Chinese national exam." cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for gaokao notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

@@ -28,3 +28,7 @@ Browse the content using the sidebar navigation on the left.
 **Ignoring strict mode:** tsconfig.json with strict: true enables null checks, strict function types, and other safety features. Without strict mode, TypeScript catches fewer bugs. Always enable strict mode for new projects.
 
 **Confusing type assertions with type guards:** `value as Type` tells the compiler to trust you — it does not runtime-check. `if (value instanceof Type)` is a runtime type guard that actually validates the type. Use type assertions sparingly.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for typescript notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

@@ -8,6 +8,14 @@ import PracticeProblem from "@components/PracticeProblem";
 
 # Algorithms and Data Structures -- Practice Problems
 
+## Intuition
+
+**The art of efficient computation:** Algorithm design is like chess strategy — you need to think ahead (plan your approach), recognise patterns (identify the right paradigm), and know when to trade optimality for speed (heuristics vs. exact solutions).
+
+**Why it matters:** The difference between a good and bad algorithm can be the difference between a solution that takes milliseconds and one that takes years. Understanding these concepts lets you make informed choices about code efficiency.
+
+**The key insight:** Comparison-based sorting has a fundamental limit of O(n log n) — no clever algorithm can beat this because of the information-theoretic lower bound. To go faster, you need to use non-comparison methods like radix sort.
+
 ## Sorting and Searching
 
 <PracticeProblem client:only="solid-js" question={"What is the worst-case time complexity of quicksort when the pivot is always chosen as the first element and the input is already sorted?&quot; options={['$O(n^2)$', '$O(n \\log n)$', '$O(n)$', '$O(\\log n)$']} correctAnswer={0} explanation=&quot;When the input is sorted and the pivot is always the first element, quicksort degrades to its worst case. Each partition step only removes one element (the pivot), producing subproblems of size $n-1$, $n-2$, ..., 1. The recurrence $T(n) = T(n-1) + O(n)$ solves to $O(n^2)$. Randomized pivot selection avoids this pathological case in practice."} difficulty="easy"  />

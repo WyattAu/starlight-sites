@@ -38,3 +38,9 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 3. **Forgetting virtual destructors:** If you delete a derived class object through a base class pointer without a virtual destructor, the derived class's destructor is never called. This causes resource leaks. Always make destructors virtual in base classes that are meant to be inherited from.
 
 4. **Overusing inheritance:** Inheritance creates tight coupling between base and derived classes. Prefer composition over inheritance — it's more flexible, easier to test, and avoids the fragile base class problem. Use inheritance only for true "is-a" relationships.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for Programming notes.
+- **[Types](../../types/):** Type system fundamentals.
+- **[Resource Management](../../resource_management/):** RAII and smart pointers.
+- **[Templates](../../templates_and_metaprogramming/):** Generic programming and metaprogramming.

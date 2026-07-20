@@ -28,3 +28,7 @@ Browse the content using the sidebar navigation on the left.
 **Ignoring optionals:** Swift uses optionals (Type?) to represent values that may be absent. Forcing an optional with ! crashes the program if nil. Use optional binding (if let, guard let) or nil coalescing (??) to handle optionals safely.
 
 **Not using guard statements for early exits:** guard is like if but for conditions that must be true for the rest of the function to work. Using guard with else { return } makes preconditions explicit and reduces nesting.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for swift notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

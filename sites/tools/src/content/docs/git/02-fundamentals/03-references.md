@@ -10,6 +10,14 @@ categories:
 
 ---
 
+## Intuition
+
+**Name tags for commits:** References are like name tags stuck on specific commits — without them, commits are just anonymous blobs of data identified only by hash. References give you human-friendly names like `main`, `HEAD`, and `v1.0` to navigate the commit graph.
+
+**Why it matters:** Without references, you would need to remember 40-character SHA-1 hashes to do anything in Git. References make the history navigable and enable workflows like feature branches and releases.
+
+**The key insight:** `HEAD` is a special reference that points to the currently checked-out commit — when you make a new commit, `HEAD` moves forward. Understanding this explains why detached HEAD states feel weird and why `git reset` moves `HEAD`.
+
 ## What Are References
 
 A reference (or "ref") is a named pointer to a Git object — almost always a commit. References are
@@ -358,3 +366,9 @@ linked above.
 
 
 </aside>
+
+## Cross-References
+
+- **[Git Objects](02-git-objects.md):** Covers the underlying object model (commits, trees, blobs) that references point to.
+- **[The Three Trees](01-the-three-trees.md):** Explains the working directory, staging area, and repository lifecycle.
+- **[Branching](../03-branching-and-merging/01-branching.md):** Branch creation and management that uses references to track commit history.

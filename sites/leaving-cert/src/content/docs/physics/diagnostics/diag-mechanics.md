@@ -339,4 +339,11 @@ linked above.
 - Confusing kinetic friction with static friction: static friction adjusts to match the applied
   force up to a maximum; kinetic friction is constant.
 - Using the wrong SUVAT equation for the given data: always identify which three variables are known
-  and which one is needed.
+   and which one is needed.
+
+## Cross-References
+
+- **[Mechanics](../1-mechanics/1_mechanics.mdx):** Full notes on kinematics, forces, energy, and circular motion covered by these diagnostics.
+- **[Light and Waves](../2-waves/2_waves.md):** Covers wave properties and optics, complementing the mechanics content.
+- **[Practice Physics](../practice-physics.mdx):** Interactive practice problems covering mechanics and other physics topics.
+- **[Flashcards: Physics](../../flashcards-physics.mdx):** Interactive flashcards for quick revision of key physics concepts.

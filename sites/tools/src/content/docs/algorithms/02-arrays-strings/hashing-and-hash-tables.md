@@ -958,3 +958,9 @@ linked above.
 
 
 </aside>
+
+## Cross-References
+
+- **[Linked Lists, Stacks, and Queues](../03-linked-lists-stacks-queues/linked-lists-stacks-queues.md):** Alternative linear data structures that complement hash tables for different use cases.
+- **[Sorting Algorithms](../05-sorting/sorting.md):** Covers comparison-based and non-comparison sorting, which can be combined with hash-based techniques.
+- **[Dynamic Programming](../06-dynamic-programming/dynamic-programming.md):** Explores overlapping subproblems and optimal substructure, concepts related to hash-based memoisation.

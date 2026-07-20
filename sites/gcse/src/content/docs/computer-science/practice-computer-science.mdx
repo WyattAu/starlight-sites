@@ -52,3 +52,11 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is the value of x after the following pseudocode executes? x = 1; FOR i = 1 TO 3 DO x = x * i END FOR&quot; options={['6', '3', '9', '12']} correctAnswer={0} explanation=&quot;The loop runs with i = 1, 2, and 3. When i = 1: x = 1 * 1 = 1. When i = 2: x = 1 * 2 = 2. When i = 3: x = 2 * 3 = 6. After the loop finishes, x = 6. This computes the factorial of 3 (written 3!), which is the product of all positive integers from 1 to 3."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"A programmer needs to count how many times a score exceeds 50 in a list. Which programming construct is most appropriate for this task?&quot; options={[ 'A counter variable inside a loop', 'A single IF statement without a loop', 'A constant variable', 'A function with no return value', ]} correctAnswer={0} explanation=&quot;A counter variable initialised to zero and incremented inside a loop is the correct approach. The loop iterates through each score in the list, and each time a score exceeds 50, the counter is increased by 1. A single IF statement only checks one value. A constant cannot be changed once set. The counter needs to be returned or displayed after the loop completes."} difficulty="hard"  />
+
+## Common Mistakes
+
+**Confusing RAM and ROM:** RAM is volatile (loses data when powered off) and stores running programs. ROM is non-volatile (retains data) and stores firmware/BIOS. Students often swap their roles — remember: RAM = temporary workspace, ROM = permanent instructions.
+
+**Assuming binary search works on unsorted data:** Binary search requires sorted data. Applying it to an unsorted list gives incorrect results because the algorithm assumes elements smaller than the midpoint are to the left. Always sort first, or use linear search on unsorted data.
+
+**Mixing up protocols (HTTP, FTP, SMTP):** HTTP transfers web pages, FTP transfers files, SMTP sends email. TCP/IP is the underlying transport suite, not an application protocol. A common mistake is saying "HTTP sends email" — it does not. Know which protocol matches which function.

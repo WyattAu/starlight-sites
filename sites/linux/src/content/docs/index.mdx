@@ -11,6 +11,17 @@ hero:
       variant: primary
 ---
 
+## What This Site Covers
+
+Linux system administration from fundamentals to advanced topics: file system management, user and group administration, networking configuration, service management (systemd), shell scripting, security hardening, and performance tuning. Examples use Debian/Ubuntu and CentOS/RHEL conventions.
+
+## Key Topics
+
+- **File Systems** — Permissions, mounts, LVM, RAID
+- **Networking** — Interface configuration, firewalls, DNS
+- **Services** — systemd, cron, logging (journald)
+- **Security** — SSH hardening, SELinux, AppArmor
+
 ## Common Mistakes
 
 **Using `sudo` for everything:** `sudo` grants root privileges. Running unnecessary commands as root risks damaging the system. Use `sudo` only when required (package installation, system configuration). Regular operations should use your normal user account.
@@ -18,3 +29,7 @@ hero:
 **Not reading man pages:** The `man` command provides comprehensive documentation for every command. Guessing options wastes time. `man ls` gives you all options with explanations. Man pages are the authoritative source.
 
 **Ignoring file permissions:** Linux file permissions (rwx for user/group/other) control access. Setting `chmod 777` on sensitive files exposes them to all users. Understand permission bits and use the principle of least privilege.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for linux notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

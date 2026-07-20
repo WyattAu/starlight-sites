@@ -1466,4 +1466,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-</aside>
+</aside>## Cross-References
+
+- **[Site Home](../../):** Main landing page for Java notes.
+- **[Java Basics](../../01-java-basics/):** Fundamental Java concepts including types and control flow.
+- **[Concurrency](../../08-concurrency/):** Multithreading and concurrent programming.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

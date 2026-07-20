@@ -7,6 +7,14 @@ description: "Introduction to physics notes."
 
 Welcome to the physics notes. These notes cover undergraduate physics, from classical mechanics through quantum theory and statistical mechanics.
 
+## Intuition
+
+**Understanding the rules of the universe:** Physics is the most fundamental science — it describes the rules that govern everything from subatomic particles to galaxies. It is the science of "how things work" at the deepest level.
+
+**Why it matters:** Physics underpins all technology — from the semiconductors in your phone to the GPS satellites that guide your navigation. Understanding physics gives you the tools to model, predict, and engineer the physical world.
+
+**The key insight:** Physics progresses by finding unifications — electricity and magnetism became electromagnetism, thermodynamics and mechanics became statistical mechanics, and general relativity and quantum mechanics are still waiting to be unified.
+
 ## Why This Matters
 
 Physics describes the fundamental laws governing the universe — from the motion of galaxies to the behaviour of subatomic particles. Classical mechanics provides the framework for understanding macroscopic motion, electromagnetism unifies electricity and magnetism into a single force, quantum mechanics reveals the probabilistic nature of reality at small scales, and statistical mechanics bridges microscopic behaviour to thermodynamic observables.

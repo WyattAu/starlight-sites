@@ -76,3 +76,9 @@ The Arrhenius equation $k = Ae^{-E_a/RT}$ assumes a single-step reaction with a 
 
 **Mistake 3: Treating entropy as disorder without quantitative reasoning**
 Entropy is a quantitative thermodynamic quantity measured in $\text{J K}^{-1}$, not a qualitative measure of disorder. The entropy change $\Delta S = q_{\text{rev}}/T$ must be calculated from reversible heat transfer, not estimated from visual inspection. Students often predict sign errors by confusing the system entropy with the total (system + surroundings) entropy.
+
+## Cross-References
+
+- **[Organic Chemistry](../2-organic-chemistry/):** Covers reaction mechanisms and synthesis that build on physical chemistry principles.
+- **[Inorganic Chemistry](../3-inorganic-chemistry/):** Explores coordination chemistry and solid-state chemistry that use thermodynamic and kinetic concepts.
+- **[Chemical Kinetics](chemical-kinetics.md):** Detailed notes on reaction rates, rate laws, and activation energy.

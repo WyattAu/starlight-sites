@@ -334,3 +334,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[Interfaces](interfaces.md):** Interface patterns that generics can complement or replace.
+- **[Error Handling](error-handling.md):** Error handling patterns that work with generic functions.
+- **[Practice Generics](../practice-interfaces.mdx):** Practice problems covering generic programming.

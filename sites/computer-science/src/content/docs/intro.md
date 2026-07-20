@@ -5,6 +5,14 @@ description: "Introduction to computer-science notes."
 
 Welcome to the computer-science notes.
 
+## Intuition
+
+**The science of what's computable:** Computer science isn't just about coding — it's the study of what can be computed, how efficiently, and how to apply computation to solve real problems. It spans from pure mathematics (what's possible) to practical engineering (how to build it).
+
+**Why it matters:** Computer science underpins modern life — from the algorithms that power search engines to the protocols that secure your banking. Understanding it gives you the tools to build, debug, and improve the systems that run the world.
+
+**The key insight:** Abstraction is the most powerful tool in computer science — by hiding complexity behind clean interfaces, we can build systems of extraordinary complexity that still work reliably.
+
 ## What Is Computer Science?
 
 Computer science is the study of computation, information, and automation.

@@ -11,6 +11,14 @@ categories:
 
 ---
 
+## Intuition
+
+**When two people edit the same sentence:** Merge conflicts are like two people editing the same paragraph in a document simultaneously — Git can not automatically decide which version is correct, so it asks you to choose or combine them manually.
+
+**Why it matters:** Conflicts are inevitable in team projects. Understanding how to resolve them quickly and correctly prevents lost work, corrupted merges, and frustrated developers.
+
+**The key insight:** The best way to handle conflicts is to prevent them — small, frequent merges reduce the likelihood of conflicts, and good communication about who is working on what avoids overlapping changes.
+
 ## Understanding Conflicts
 
 A merge conflict occurs when Git's three-way merge algorithm cannot automatically reconcile changes
@@ -346,3 +354,9 @@ linked above.
 
 
 </aside>
+
+## Cross-References
+
+- **[Merging](02-merging.md):** Integration strategy that can produce conflicts requiring resolution.
+- **[Rebasing](03-rebasing.md):** Alternative integration strategy that avoids merge commits but replays commits.
+- **[Branching](01-branching.md):** Branch creation and management fundamentals that lead to parallel development.

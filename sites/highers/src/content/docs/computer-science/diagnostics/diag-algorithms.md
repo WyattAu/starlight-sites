@@ -315,3 +315,9 @@ linked above.
   factors such as constant factors, cache locality, and implementation overhead.
 - Forgetting that best-case and worst-case complexity can differ dramatically: for example, linear
   search is $O(1)$ in the best case and $O(n)$ in the worst case.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for Higher notes.
+- **[Biology](../../biology/):** Biology notes covering cell biology and ecology.
+- **[Chemistry](../../chemistry/):** Chemistry notes covering atomic structure and bonding.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

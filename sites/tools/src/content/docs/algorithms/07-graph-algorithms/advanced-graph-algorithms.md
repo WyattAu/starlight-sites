@@ -4,6 +4,14 @@ description: "Algorithms Advanced Graph Algorithms notes covering key definition
 
 ---
 
+## Intuition
+
+**Finding pockets of mutual reachability:** Strongly connected components are like friend groups where everyone knows everyone — within an SCC, you can reach any node from any other node. Condensing SCCs into single nodes reveals the DAG structure of the graph.
+
+**Why it matters:** SCCs are fundamental to understanding graph structure — they identify cyclic dependencies in build systems, strongly connected regions in social networks, and mutually reachable states in automata.
+
+**The key insight:** Kosaraju algorithm uses two DFS passes — the first determines the order to process nodes, the second finds SCCs on the transposed graph. This elegant two-pass approach runs in O(V+E) time.
+
 ## Strongly Connected Components
 
 A strongly connected component (SCC) of a directed graph is a maximal set of vertices such that

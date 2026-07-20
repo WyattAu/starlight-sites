@@ -603,3 +603,9 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Cross-References
+
+- **[I/O](io.md):** File and stream operations used in HTTP handlers.
+- **[Strings and Time](strings-and-time.md):** String and time utilities used in HTTP processing.
+- **[Concurrency](../concurrency/):** Goroutines and channels for handling concurrent HTTP requests.

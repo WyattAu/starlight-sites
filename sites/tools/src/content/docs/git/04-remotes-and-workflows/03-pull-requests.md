@@ -12,6 +12,14 @@ categories:
 
 ---
 
+## Intuition
+
+**A formal code review process:** Pull requests are like submitting a proposal to a committee — you present your changes, colleagues review them, discuss improvements, and only then does the change get approved and merged. It turns solo coding into a team activity.
+
+**Why it matters:** PRs are the gatekeeper of code quality. They catch bugs before they reach production, spread knowledge across the team, and create a permanent record of why changes were made.
+
+**The key insight:** Good PR descriptions save hours of review time — explaining *what* changed, *why* it changed, and *how* to test it transforms a review from guesswork into a focused discussion.
+
 ## What is a Pull Request
 
 A pull request (PR) — called a **merge request** in GitLab — is a proposal to merge a branch into

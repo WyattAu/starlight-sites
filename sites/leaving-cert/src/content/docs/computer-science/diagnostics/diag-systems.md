@@ -314,3 +314,9 @@ linked above.
   goes through the operating system.
 - Confusing compilers and interpreters: compilers translate all code before execution; interpreters
   translate and execute one line at a time.
+
+## Cross-References
+
+- **[Computer Systems](../1-hardware/1_hardware.md):** Detailed notes on hardware components and the Von Neumann architecture covered in these diagnostics.
+- **[Data Representation](../3-databases/3_databases.md):** Covers data organisation and binary representation that underpins the data representation questions.
+- **[Flashcards: Computer Science](../../flashcards-computer-science.mdx):** Interactive flashcards for quick revision of key computer science terminology.

@@ -11,6 +11,14 @@ categories:
 
 ---
 
+## Intuition
+
+**A library of immutable snapshots:** Git objects are like a library of sealed time capsules — each commit, file, and directory is stored as an immutable object identified by its content hash. Nothing is ever truly deleted; old versions remain accessible through the object graph.
+
+**Why it matters:** Understanding Git objects explains why `git checkout` is instant (it just moves a pointer), why `git rebase` rewrites history (it creates new objects), and why `.git` can grow large (old objects accumulate).
+
+**The key insight:** Git stores snapshots, not diffs — each commit points to a complete tree of files. Diffs are computed on demand, not stored. This makes operations like checkout and branch switching O(1) regardless of history size.
+
 ## The Content-Addressable Filesystem
 
 At its core, Git is a **content-addressable filesystem**. It stores data as objects, each identified
@@ -407,3 +415,9 @@ linked above.
 
 
 </aside>
+
+## Cross-References
+
+- **[References](03-references.md):** Covers Git refs including branches and tags that point to commit objects.
+- **[The Three Trees](01-the-three-trees.md):** Explains the working directory, staging area, and repository where objects are stored.
+- **[Branching](../03-branching-and-merging/01-branching.md):** Branch creation and management that relies on the commit object model.

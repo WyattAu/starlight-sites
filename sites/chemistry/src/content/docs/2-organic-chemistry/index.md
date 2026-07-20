@@ -75,3 +75,9 @@ E2 elimination competes with $S_N2$ substitution, especially with strong, bulky 
 
 **Mistake 3: Misidentifying the leaving group in acyl substitution**
 In nucleophilic acyl substitution, the leaving group is the group that departs from the tetrahedral intermediate. For acid chlorides, $\text{Cl}^-$ is the leaving group. For esters, the alkoxide $\text{RO}^-$ is the leaving group. Confusing which group leaves leads to incorrect product predictions in multi-step syntheses.
+
+## Cross-References
+
+- **[Physical Chemistry](../1-physical-chemistry/):** Covers thermodynamics, kinetics, and quantum chemistry that underpin organic reaction mechanisms.
+- **[Inorganic Chemistry](../3-inorganic-chemistry/):** Explores coordination chemistry and main group chemistry that complements organic synthesis.
+- **[Reaction Mechanisms](reaction-mechanisms.md):** Detailed notes on $S_N1$, $S_N2$, E1, and E2 mechanisms.

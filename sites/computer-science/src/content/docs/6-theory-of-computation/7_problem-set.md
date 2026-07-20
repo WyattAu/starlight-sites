@@ -6,6 +6,14 @@ tags:
 description: "Construct a DFA over that accepts exactly those strings whose Length is a multip Comprehensive educational content coverage with definitions and practice proble"
 ---
 
+## Intuition
+
+**Testing the limits of what's computable:** Problem sets in theory of computation are like puzzles that probe the boundaries of computation — some are solvable with simple machines, some require infinite memory, and some are provably impossible. Working through them builds intuition for what's computationally feasible.
+
+**Why it matters:** These problems train you to think about computation abstractly — to see past the code and understand the fundamental limits. This is the knowledge that tells you when to keep searching for an algorithm and when to accept that none exists.
+
+**The key insight:** Reductions are the Swiss Army knife of complexity theory — if you can transform problem A into problem B, then B is at least as hard as A. This lets you prove hardness by reduction from known hard problems.
+
 ### 7.1 Regular Languages
 
 **Problem 1.** Construct a DFA over $\Sigma = \{0, 1\}$ that accepts exactly those strings whose

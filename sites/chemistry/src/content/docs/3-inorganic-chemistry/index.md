@@ -71,3 +71,9 @@ Crystal field theory treats ligands as point charges, while ligand field theory 
 
 **Mistake 3: Ignoring the trans effect in square planar substitution**
 The trans effect governs the rate of ligand substitution in square planar complexes. A ligand trans to a strong trans-directing group (like $\text{CN}^-$ or $\text{CO}$) is substituted faster. Students often predict substitution products based only on steric arguments, missing the electronic trans effect that dominates kinetic selectivity.
+
+## Cross-References
+
+- **[Physical Chemistry](../1-physical-chemistry/):** Covers thermodynamics, kinetics, and quantum chemistry that underpin inorganic chemistry concepts.
+- **[Organic Chemistry](../2-organic-chemistry/):** Covers reaction mechanisms and synthesis that complement inorganic coordination chemistry.
+- **[Coordination Chemistry](coordination-chemistry.md):** Detailed notes on transition metal complexes and ligand field theory.

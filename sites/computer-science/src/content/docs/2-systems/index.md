@@ -7,6 +7,14 @@ description: 'Topics in computer systems including operating systems, computer a
 
 Computer systems encompasses the hardware and software infrastructure that enables computation. This includes the design of processors and memory hierarchies, the management of processes and resources by operating systems, and the communication protocols that connect distributed systems. Understanding systems is essential for building efficient and reliable software.
 
+## Intuition
+
+**A city infrastructure:** Systems are like a city's infrastructure — the OS is the city council allocating resources, the architecture is the road network, concurrency is managing traffic at intersections, and networking connects cities together. Without coordination, chaos ensues.
+
+**Why it matters:** Every application runs on a system. Understanding how memory is managed, how processes share resources, and how networks transmit data is essential for building reliable, efficient software.
+
+**The key insight:** Systems are built on layers of abstraction — each layer hides complexity from the one above, enabling you to reason about high-level problems without drowning in hardware details.
+
 ## Key Concepts
 
 A central theme in systems is the abstraction of hardware complexity through layered software. The operating system provides process management, memory management, and file system abstractions. Concurrency introduces challenges such as race conditions and deadlocks, which require synchronisation primitives like mutexes and semaphores to resolve.

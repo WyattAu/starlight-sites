@@ -341,3 +341,9 @@ linked above.
 - Describing plant cells as "bursting" in hypotonic solutions -- plant cells become turgid due to
   the cell wall; only animal cells burst.
 - Confusing the biuret test (for protein) with Benedict's test (for reducing sugars).
+
+## Cross-References
+
+- **[Cell Biology](../1-cell/1_cell.md):** Covers the foundational cell structure and organelle content that these diagnostic tests assess.
+- **[Practice Biology](../practice-biology.mdx):** Interactive practice problems that complement the diagnostic format with auto-graded questions.
+- **[Chemistry Diagnostic: Atomic Structure](../../chemistry/diagnostics/diag-atomic-structure.md):** Explores atomic-level concepts underpinning biological molecules like proteins and lipids.

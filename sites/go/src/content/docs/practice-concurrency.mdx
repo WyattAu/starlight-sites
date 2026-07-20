@@ -236,3 +236,9 @@ func (c *ConcurrentCache) Delete(key string) {
 **Using channels when mutexes suffice:** Channels are for communication between goroutines. If youre protecting shared state, a `sync.Mutex` or `sync.RWMutex` is simpler and faster. Overusing channels for synchronization creates unnecessary complexity.
 
 **Deadlocking on unbuffered channels:** An unbuffered channel requires both sender and receiver to be ready simultaneously. If both sides block waiting for the other, you deadlock. Use buffered channels or ensure sender/receiver goroutines are properly coordinated.
+
+## Cross-References
+
+- **[Goroutines](concurrency/goroutines.md):** Lightweight threads for concurrent execution.
+- **[Channels](concurrency/channels.md):** Communication mechanism between goroutines.
+- **[Race Conditions](concurrency/race-conditions.md):** Common concurrency bugs and how to avoid them.

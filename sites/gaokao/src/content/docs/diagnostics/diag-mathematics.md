@@ -125,3 +125,7 @@ tableOfContents: false
 **Calculation errors in differentiation and integration:** Sign errors, wrong chain rule application, and incorrect substitution are the most common mistakes. Double-check each step, especially when dealing with negative signs and composite functions.
 
 **Misreading the question:** Gaokao questions sometimes include subtle constraints (e.g., "positive real numbers", "integer solutions"). Missing these constraints leads to solving the wrong problem entirely. Read every word carefully.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for gaokao notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

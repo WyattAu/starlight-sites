@@ -956,3 +956,9 @@ linked above.
 
 
 </aside>
+
+## Cross-References
+
+- **[DP Patterns](dp-patterns.md):** Decision framework for identifying which DP pattern applies to a given problem.
+- **[Sorting Algorithms](../05-sorting/sorting.md):** Sorting techniques that can be combined with DP for optimisation problems.
+- **[Hashing and Hash Tables](../02-arrays-strings/hashing-and-hash-tables.md):** Hash-based data structures used for memoisation in top-down DP implementations.

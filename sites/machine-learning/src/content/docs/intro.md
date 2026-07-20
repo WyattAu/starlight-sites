@@ -290,3 +290,7 @@ print(f"F1 Score:  {f1:.2f}")
 - F1 = 2 * 0.75 * 0.60 / (0.75 + 0.60) = 0.67
 
 **Explanation:** Accuracy measures overall correctness but is misleading for imbalanced datasets. Precision measures how many predicted positives are actually positive. Recall measures how many actual positives are detected. F1 is the harmonic mean of precision and recall, balancing both concerns. For imbalanced datasets, F1 is more informative than accuracy.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for machine-learning notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

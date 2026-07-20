@@ -591,3 +591,7 @@ AP Physics 1 is the **algebra-based introduction to mechanics** — it describes
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for ap notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

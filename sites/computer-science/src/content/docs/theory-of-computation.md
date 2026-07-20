@@ -10,6 +10,14 @@ categories:
 
 ---
 
+## Intuition
+
+**Mapping the boundaries of computation:** Theory of computation draws a map of what's possible — it separates problems that any computer can solve from those that no computer can solve, and identifies which problems are easy vs. hard. It's like discovering that some puzzles are solvable, some are impossible, and most are somewhere in between.
+
+**Why it matters:** This theory guides real engineering — cryptographers rely on factoring being hard, compiler designers use automata to parse code, and complexity theory tells us which problems to approximate vs. solve exactly.
+
+**The key insight:** The Church-Turing thesis says that any "reasonable" model of computation computes exactly the same things as a Turing machine — this universality means that understanding TMs gives you the limits of all computation.
+
 ## 1. Introduction
 
 ### 1.1 Why Theory Matters

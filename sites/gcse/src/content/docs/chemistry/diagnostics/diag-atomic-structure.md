@@ -272,4 +272,10 @@ linked above.
 - Incorrectly filling electron shells by placing too many electrons in inner shells before moving to
   outer shells.
 - Assuming all atoms of an element are identical without considering isotopes and their relative
-  abundances.
+abundances.
+
+## Cross-References
+
+- **[Atomic Structure](../1-atomic-structure/1_atomic-structure.md):** Detailed notes on atomic structure and the periodic table.
+- **[Chemical Bonding](../2-bonding/2_bonding.md):** Covers ionic, covalent, and metallic bonding that builds on atomic structure.
+- **[Practice Chemistry](../practice-chemistry.mdx):** Interactive practice problems covering atomic structure and bonding.

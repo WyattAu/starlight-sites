@@ -244,4 +244,9 @@ the set, but $\sup(0, 1) = 1$ which does not belong to $(0, 1)$.
   $\{x \in \mathbb{Q} : x^2 < 2\}$ is bounded above but has no supremum in $\mathbb{Q}$ (since
   $\sqrt{2} \notin \mathbb{Q}$).
 
-</aside>
+</aside>## Cross-References
+
+- **[Site Home](../../):** Main landing page for Mathematics notes.
+- **[Linear Algebra](../../2-linear-algebra/):** Vector spaces, matrices, and linear transformations.
+- **[Real Analysis](../../3-real-analysis/):** Rigorous treatment of real numbers and calculus.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

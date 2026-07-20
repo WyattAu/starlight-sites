@@ -9,6 +9,14 @@ description: "UNIVERSITY Mathematics practice problems: Differential Geometry Pr
 import PracticeProblem from "@components/PracticeProblem";
 
 
+## Intuition
+
+**Geometry of curved spaces:** Differential geometry studies the geometry of surfaces and curves using calculus — it describes how space curves, bends, and twists. It is the mathematics of general relativity (spacetime curvature) and computer graphics (surface rendering).
+
+**Why it matters:** General relativity describes gravity as spacetime curvature, which is fundamentally a differential geometry problem. Computer graphics needs differential geometry to render smooth surfaces realistically.
+
+**The key insight:** The Gaussian curvature of a surface is intrinsic — it depends only on distances measured on the surface, not on how the surface sits in space. This insight led to Einstein theory of general relativity.
+
 ## University Mathematics -- Differential Geometry Practice
 
 10 auto-graded practice problems at medium to hard difficulty. Select an answer, submit, and review
@@ -53,3 +61,9 @@ the explanation.
 **Misidentifying symmetries of the Riemann curvature tensor:** The Riemann tensor $R_{ijkl}$ satisfies $R_{ijkl} = -R_{jikl}$, $R_{ijkl} = -R_{ijlk}$, and $R_{ijkl} = R_{klij}$, but it does NOT satisfy $R_{ijkl} = R_{ikjl}$. Swapping the second and third indices (interior swap) is not a symmetry. Misidentifying symmetries leads to incorrect simplifications in curvature computations.
 
 <PracticeProblem client:only="solid-js" question={"By the Gauss-Bonnet theorem, what is the total Gaussian curvature $\\int_M K\\, dA$ of a torus $T^2$?&quot; options={['$4\\pi$', '$0$', '$-4\\pi$', '$2\\pi$']} correctAnswer={0} explanation=&quot;The Gauss-Bonnet theorem states $\int_M K\, dA = 2\pi \chi(M)$. The torus has Euler characteristic $\chi(T^2) = 0$ (genus 1: $\chi = 2 - 2g = 0$). Therefore the total Gaussian curvature is $2\pi \cdot 0 = 0$. A flat torus (the quotient of $\mathbb{R}^2$ by a lattice) has $K = 0$ everywhere, consistent with this result."} difficulty="hard"  />
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for Mathematics notes.
+- **[Linear Algebra](../../2-linear-algebra/):** Vector spaces, matrices, and linear transformations.
+- **[Real Analysis](../../3-real-analysis/):** Rigorous treatment of real numbers and calculus.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

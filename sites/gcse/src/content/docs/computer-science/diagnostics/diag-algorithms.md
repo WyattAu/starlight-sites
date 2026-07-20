@@ -356,3 +356,9 @@ linked above.
 - Applying binary search to unsorted data, which will give incorrect results.
 - Confusing the number of passes in bubble sort with the number of individual comparisons.
 - Writing pseudocode with language-specific syntax rather than clear, structured English-like logic.
+
+## Cross-References
+
+- **[Algorithms](../4-algorithms/4_algorithms.md):** Detailed notes on searching, sorting, and algorithm efficiency.
+- **[Programming](../5-programming/5_programming.md):** Covers programming concepts and pseudocode used in algorithm design.
+- **[Practice Computer Science](../practice-computer-science.mdx):** Interactive practice problems covering algorithms and programming.

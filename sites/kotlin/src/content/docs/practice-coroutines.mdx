@@ -195,3 +195,7 @@ suspend fun main() {
 **Confusing `launch` with `async`:** `launch` returns a Job (no result). `async` returns a Deferred (awaitable result). Use `launch` for fire-and-forget work. Use `async` when you need the result. Mixing them up leads to either missing results or unnecessary waiting.
 
 **Forgetting to handle coroutine exceptions:** Uncaught exceptions in coroutines propagate to the CoroutineScope and cancel all sibling coroutines. Always use `CoroutineExceptionHandler` or try-catch inside the coroutine to handle errors gracefully.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for kotlin notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

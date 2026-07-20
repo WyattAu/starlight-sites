@@ -225,3 +225,11 @@ submit, and review the explanation.
   explanation="Stack unwinding destroys only automatic (stack-local) objects whose constructors completed. Heap memory allocated with new is not tracked by the unwinding mechanism. If the only pointer to a heap object is a local variable, the pointer itself is destroyed but the heap object leaks (the memory is not freed). This is precisely why smart pointers (unique_ptr, shared_ptr) exist: their destructors call delete, providing RAII cleanup for heap objects during unwinding."
   difficulty="medium"
  />
+
+## Common Mistakes
+
+**Throwing exceptions from destructors during stack unwinding:** Destructors are implicitly noexcept in C++11+. If an exception is already propagating (stack unwinding in progress) and a destructor throws, std::terminate() is called immediately. This means destructors must either swallow exceptions or use error codes — never let exceptions escape.
+
+**Catching by value instead of by reference:** Writing `catch (std::runtime_error e)` copies the exception object, potentially slicing derived classes and losing information. Always catch by const reference: `catch (const std::runtime_error& e)`. This preserves the full exception hierarchy and avoids unnecessary copies.
+
+**Using catch(...) as the first handler:** The ellipsis catch `catch(...)` matches any exception type. Placing it before typed handlers makes those handlers unreachable dead code. Always put `catch(...)` last as a catch-all fallback, and consider rethrowing or logging within it.

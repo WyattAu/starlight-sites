@@ -61,3 +61,11 @@ import PracticeProblem from '@components/PracticeProblem';
 - **[Pure Mathematics](../maths/flashcards-pure-mathematics):** Complex numbers extend algebra
 - **[Calculus](../maths/pure-mathematics/flashcards-calculus):** Complex analysis uses calculus
 - **[Mechanics](../maths/practice-mechanics):** Complex numbers appear in advanced mechanics
+
+## Common Mistakes
+
+**Confusing modulus with argument when converting to polar form:** The modulus r is always non-negative (r = |z| = √(a² + b²)), but the argument θ depends on the quadrant. Students often compute arctan(b/a) and forget to adjust for the correct quadrant — if the complex number is in the second quadrant, add π to the arctan result. Using the two-argument arctan (atan2) avoids this.
+
+**Applying De Moivre's theorem to the wrong form:** De Moivre's theorem (r cis θ)ⁿ = rⁿ cis(nθ) only works in modulus-argument form. Attempting to apply it to rectangular form a + bi directly gives incorrect answers. Always convert to polar form first, apply the theorem, then convert back if needed.
+
+**Forgetting that complex roots come in conjugate pairs for real polynomials:** If a polynomial has real coefficients and z is a complex root, then z̄ (its conjugate) must also be a root. This is sometimes called the Complex Conjugate Root Theorem. Forgetting this leads to incomplete solutions when finding roots of quadratic or higher-degree equations with complex roots.

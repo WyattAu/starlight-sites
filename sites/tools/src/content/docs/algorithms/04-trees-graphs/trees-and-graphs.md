@@ -4,6 +4,14 @@ description: "A tree is a connected, acyclic, undirected graph. In computer scie
 
 ---
 
+## Intuition
+
+**Connections and hierarchies:** Trees are hierarchies (file systems, organisational charts), graphs are networks (roads, social connections). Trees are special graphs — connected, acyclic, with a clear parent-child relationship. Understanding both is essential for modelling real-world relationships.
+
+**Why it matters:** Trees and graphs appear everywhere — DOM trees in web browsers, dependency graphs in package managers, social networks, and GPS navigation. Knowing the right traversal and algorithm for each structure is fundamental.
+
+**The key insight:** DFS uses a stack (or recursion) and explores depth-first — good for detecting cycles and topological sorting. BFS uses a queue and explores breadth-first — good for shortest paths in unweighted graphs.
+
 ## Tree Terminology
 
 A tree is a connected, acyclic, undirected graph. In computer science, trees are rooted and Directed

@@ -463,3 +463,9 @@ linked above.
 
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Cross-References
+
+- **[Maths](maths.md):** Detailed notes on number, algebra, geometry, and statistics topics.
+- **[Practice Maths](maths/practice-maths.mdx):** Interactive practice problems covering all maths topics.
+- **[Practice Physics](physics/practice-physics.mdx):** Interactive practice problems covering physics topics that use mathematical skills.

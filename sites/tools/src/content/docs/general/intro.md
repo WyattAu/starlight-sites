@@ -8,6 +8,14 @@ categories:
   - general
 ---
 
+## Intuition
+
+**A catch-all for practical knowledge:** The General section is like a personal notebook — it captures everything that does not fit neatly into structured categories but is still worth knowing. It is the practical knowledge that makes you effective, not just knowledgeable.
+
+**Why it matters:** Real-world engineering requires more than textbook knowledge — you need to know how to set up your development environment, contribute to open source, write documentation, and manage your career. This section covers those practical skills.
+
+**The key insight:** The most valuable engineering knowledge is often the undocumented stuff — the keyboard shortcuts, the tool configurations, the career advice that experienced engineers share informally. This section tries to capture some of that.
+
 ## Abstract
 
 This resource is created not based on any curriculum, but a amalgamation of whatever I drop Notes

@@ -47,3 +47,11 @@ import { practiceQuestions } from '@/data/flashcards/cpp/practice-types-resource
 | Templates | Programming | [Templates & Metaprogramming](https://programming.wyattau.com/templates_and_metaprogramming/) |
 | Rust Ownership | Languages | [Rust Ownership](https://languages.wyattau.com/rust/) |
 | C++ Concurrency | Programming | [Concurrency](https://programming.wyattau.com/concurrency/) |
+
+## Common Mistakes
+
+**Confusing value semantics with reference semantics:** In C++, structs and classes passed by value are copied, not shared. Modifying the copy does not affect the original. Passing by reference or pointer shares the original. Forgetting this leads to bugs where changes "disappear" because they were applied to a copy.
+
+**Using const incorrectly with pointers:** `const int* p` means the pointed-to int is const (pointer can change). `int* const p` means the pointer itself is const (pointed-to int can change). `const int* const p` means both are const. The position of `const` relative to `*` determines what is constant — a common source of confusion.
+
+**Assuming smart pointers eliminate all memory concerns:** Smart pointers prevent leaks from forgotten deletes, but they do not prevent circular references (shared_ptr cycles), premature destruction, or incorrect deleter usage. Understanding ownership semantics is still essential even with smart pointers.

@@ -10,6 +10,14 @@ categories:
 
 ---
 
+## Intuition
+
+**Rewriting history to keep it clean:** Rebasing is like rewriting a history book to remove digressions — instead of a messy merge commit that says "combined two timelines," you get a clean linear narrative. The end result is the same, but the history is easier to follow.
+
+**Why it matters:** Clean history makes debugging easier (you can `git bisect` effectively), code review simpler (changes are in logical order), and onboarding faster (new team members can follow the story).
+
+**The key insight:** Never rebase commits that have been pushed to a shared repository — rewriting published history forces everyone else to reconcile conflicting versions. Rebase only your local, unpushed commits.
+
 ## What is Rebasing
 
 Rebasing is the process of **replaying** a series of commits onto a new base commit. Unlike merging,
@@ -418,3 +426,9 @@ linked above.
 
 
 </aside>
+
+## Cross-References
+
+- **[Merging](02-merging.md):** Alternative integration strategy to rebasing, preserving full branch history.
+- **[Conflict Resolution](04-conflict-resolution.md):** Handles merge conflicts that arise during both merging and rebasing.
+- **[Branching](01-branching.md):** Branch creation and management fundamentals that underpin rebasing workflows.

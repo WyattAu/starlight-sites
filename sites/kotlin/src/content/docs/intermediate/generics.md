@@ -311,3 +311,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for kotlin notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

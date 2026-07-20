@@ -11,6 +11,14 @@ import PracticeProblem from "@components/PracticeProblem";
 10 MCQ questions covering finite automata, regular expressions, pumping lemma, context-free
 grammars, pushdown automata, and Turing machines. Select an option to check your answer.
 
+## Intuition
+
+**Different machines for different puzzles:** Think of automata as a toolkit — a DFA is a simple checklist (can I match this pattern?), a PDA adds a stack of sticky notes (can I count and match?), and a Turing machine gets an infinite scroll (can I compute anything?). Each upgrade unlocks new capabilities but costs more resources.
+
+**Why it matters:** Automata theory is the foundation of compilers, search engines, and protocol design. Knowing which machine can handle a problem tells you whether a solution is even possible — and how efficient it can be.
+
+**The key insight:** The pumping lemma is your lie detector — if a language can't be "pumped" (repeated without breaking the pattern), it's not regular, and no amount of clever DFA design will save it.
+
 ---
 
 ## Finite Automata and Regular Languages

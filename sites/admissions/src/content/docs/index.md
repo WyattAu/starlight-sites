@@ -63,3 +63,7 @@ Each admissions test has its own personality. The MAT is a careful conversation,
 3. **Review marking criteria**: Understand how answers are assessed
 4. **Focus on fundamentals**: Admissions tests reward deep understanding, not memorisation
 5. **Seek feedback**: Discuss solutions with peers or tutors
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for admissions notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

@@ -136,3 +136,10 @@ linked above.
 - Confusing terminology or concepts that appear similar but have distinct meanings.
 - Overlooking key assumptions or boundary conditions that limit applicability.
 
+## Cross-References
+
+- **[Leaving Cert Home](index.mdx):** Landing page with links to all five subjects and common exam mistakes.
+- **[Maths](maths/):** Algebra, calculus, geometry, trigonometry, probability, and statistics notes.
+- **[Physics](physics/):** Mechanics, waves, electricity, heat, and modern physics notes.
+- **[Chemistry](chemistry/):** Atomic structure, bonding, stoichiometry, and organic chemistry notes.
+

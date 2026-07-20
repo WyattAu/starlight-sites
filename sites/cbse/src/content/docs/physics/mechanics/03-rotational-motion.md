@@ -148,3 +148,9 @@ Rotational kinetic energy is $K_{rot} = \frac{1}{2}I\omega^2$, not $\frac{1}{2}m
 ### Mistake 3: Applying conservation of angular momentum when external torques exist
 
 Angular momentum is conserved only when the net external torque is zero. Students often apply $I_1\omega_1 = I_2\omega_2$ to situations where an external torque acts (such as a spinning top precessing under gravity). Always check whether external torques are present before applying conservation.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for CBSE notes.
+- **[Chemistry](../../chemistry/):** Chemistry notes covering organic and physical chemistry.
+- **[Physics](../../physics/):** Physics notes covering mechanics and thermodynamics.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

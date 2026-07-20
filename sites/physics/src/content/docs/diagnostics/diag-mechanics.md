@@ -101,6 +101,14 @@ tableOfContents: false
 
 ---
 
+## Intuition
+
+**Checking your mechanics foundations:** Diagnostic tests quickly reveal which concepts you have mastered and which need more work. They are like a health check for your physics understanding.
+
+**Why it matters:** Classical mechanics is the foundation of all physics — gaps in your understanding will propagate to electromagnetism, quantum mechanics, and beyond.
+
+**The key insight:** If you cannot draw a free body diagram and apply F=ma, you do not truly understand mechanics — use diagnostic tests as a starting point for deeper study, not as an endpoint.
+
 ## Answer Key
 
 | Question | Correct Answer |
@@ -125,3 +133,7 @@ tableOfContents: false
 **Forgetting that acceleration is the second derivative of position:** Many students use v = at for non-constant acceleration. Only valid for constant acceleration; otherwise use calculus.
 
 **Neglecting that momentum is conserved only when net external force is zero:** Internal forces cancel by Newton's third law, but external forces change total momentum. Always check the system boundary.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for physics notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

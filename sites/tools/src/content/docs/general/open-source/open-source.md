@@ -4,6 +4,14 @@ description: "General Open Source Contribution notes covering key definitions, c
 
 ---
 
+## Intuition
+
+**Contributing to the commons:** Open source is like contributing to a public park — everyone benefits from the improvements you make, and you build a reputation as someone who gives back to the community that built the tools you use every day.
+
+**Why it matters:** Contributing to open source builds real-world skills, creates a public portfolio, connects you with experienced developers, and can lead to job opportunities. It also makes the tools you depend on better for everyone.
+
+**The key insight:** Start small — fixing a typo in documentation, improving an error message, or adding a test are all valuable contributions that maintainers appreciate and that get your foot in the door.
+
 ## Why Contribute to Open Source
 
 Open source contribution benefits you as a systems engineer in several ways:

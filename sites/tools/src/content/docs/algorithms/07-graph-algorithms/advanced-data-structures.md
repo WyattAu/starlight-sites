@@ -4,6 +4,14 @@ description: "Algorithms Advanced Data Structures notes covering key definitions
 
 ---
 
+## Intuition
+
+**Trees that remember ranges:** Segment trees are like a librarian who knows the sum of every shelf range instantly — instead of counting books one by one, they pre-compute summaries at every level, so any range query is answered by combining a few pre-computed values.
+
+**Why it matters:** Segment trees enable O(log n) range queries and updates, which is crucial for competitive programming, database indexing, and computational geometry where you need to query and modify intervals efficiently.
+
+**The key insight:** The power of segment trees comes from pre-computation — by storing summaries at every level of the tree, you trade O(n) space for O(log n) query time, which is a massive improvement for repeated range queries.
+
 ## Segment Tree
 
 A segment tree is a binary tree data structure for storing information about intervals or segments.

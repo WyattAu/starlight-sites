@@ -9,6 +9,14 @@ categories:
 
 ---
 
+## Intuition
+
+**The language of documentation:** Markdown is like a simplified HTML — it uses plain text formatting that humans can read and write easily, while computers can convert it to beautiful rendered pages. It is the lingua franca of technical documentation.
+
+**Why it matters:** Markdown is everywhere — GitHub READMEs, documentation sites, blog posts, even Jupyter notebooks. Mastering it lets you create professional-looking documentation without fighting with WYSIWYG editors.
+
+**The key insight:** Use headings consistently (never skip levels), code blocks for all code, and tables for structured data — these conventions make your docs scannable and prevent rendering issues across platforms.
+
 ## Standard Markdown
 
 ### Headings
@@ -475,3 +483,9 @@ For a complete syntax reference, consult the
 [Docusaurus Markdown documentation](https://docusaurus.io/docs/markdown-features)
 and the [MDX specification](https://mdxjs.com/).
 </aside>
+
+## Cross-References
+
+- **[Testing: Markdown Constructs](testing/markdown-constructs.mdx):** Interactive testing of Markdown constructs and formatting.
+- **[Alleviate Back Pain](examples/alleviate-back-pain.md):** Example page demonstrating Markdown formatting in practice.
+- **[Crafting Ghee](examples/crafting-ghee.mdx):** Another example page with MDX components and formatting.

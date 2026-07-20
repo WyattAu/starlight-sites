@@ -11,6 +11,14 @@ import PracticeProblem from "@components/PracticeProblem";
 10 MCQ questions covering lexical analysis, parsing (LL and LR), abstract syntax trees, intermediate
 representations, optimization, and code generation. Select an option to check your answer.
 
+## Intuition
+
+**A translator for translators:** A compiler is like a multi-stage translation pipeline — it first breaks your code into words (lexing), then checks the grammar (parsing), then rewrites it for clarity (optimisation), and finally converts it to machine language. Each stage catches different errors.
+
+**Why it matters:** Compilers turn human-readable code into efficient machine instructions. Understanding them explains why some code is faster than others, how language features work under the hood, and why certain errors only show up at runtime.
+
+**The key insight:** Compiler optimisations must preserve what your program does, not how it does it — they can rearrange, combine, and eliminate code, but the observable behaviour must stay the same.
+
 ---
 
 ## Lexical Analysis and Parsing

@@ -598,3 +598,9 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+
+## Cross-References
+
+- **[Stream Buffers](../1_stream_buffers.md):** Low-level stream buffer concepts used in Unicode I/O.
+- **[Type-Safe Formatting](../2_type_safe_formatting.md):** Modern formatting utilities that handle Unicode strings.
+- **[Types](../../types/):** Type system concepts including character types and string representations.

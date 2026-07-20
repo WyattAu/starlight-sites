@@ -11,6 +11,17 @@ hero:
       variant: primary
 ---
 
+## What This Site Covers
+
+Information security from principles to practice: threat modelling, secure coding, system hardening, network security, monitoring, and incident response. Covers both offensive (penetration testing) and defensive (blue team) perspectives.
+
+## Key Topics
+
+- **Secure Development** — OWASP Top 10, input validation, authentication
+- **System Hardening** — SSH, firewall rules, minimal services
+- **Monitoring** — Log analysis, intrusion detection, SIEM
+- **Incident Response** — Containment, eradication, recovery procedures
+
 ## Common Mistakes
 
 **Assuming security is a feature you add later:** Security must be built in from the start (security by design). Bolting security onto an existing system is expensive and error-prone. Threat modelling and secure coding should be part of development from day one.
@@ -18,3 +29,7 @@ hero:
 **Using MD5 or SHA-1 for password hashing:** MD5 and SHA-1 are cryptographically broken. Never use them for password storage. Use bcrypt, scrypt, or Argon2 — these are slow by design to resist brute-force attacks.
 
 **Hardcoding secrets in source code:** API keys, passwords, and certificates in source code are exposed in version control. Use environment variables, secret managers (Vault, AWS Secrets Manager), or encrypted configuration files. Never commit secrets.
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for security notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

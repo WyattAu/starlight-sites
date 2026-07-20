@@ -17,7 +17,15 @@ import { flashcardData } from '@/data/flashcards/ruby/flashcards-ruby-basics-dat
 
 Ruby is a language designed for developer happiness — everything is an object, and blocks/procs/lambdas make functional patterns feel natural alongside OOP. Metaprogramming is Ruby's superpower: you can define methods at runtime, open existing classes to add methods, and use `method_missing` to handle calls to undefined methods. Modules provide mixins for code reuse without multiple inheritance problems.
 
-## Common Pitfalls
+## How to Use These Flashcards
+
+**First pass:** Go through all 15 cards without rating — just flip and read. This familiarises you with the content and identifies weak areas.
+
+**IRB practice:** After reviewing a card, open IRB (Interactive Ruby) and experiment with the concept. Ruby's interactive nature makes it perfect for rapid experimentation.
+
+**Rails connection:** If you're learning Ruby for Rails, relate each concept to its Rails use case — blocks for route definitions, mixins for concerns, metaprogramming for ActiveRecord.
+
+**Common Pitfalls**
 
 - **Monkey patching risks**: Reopening a class and changing method behaviour affects every instance globally — this can introduce hard-to-debug conflicts between libraries.
 - **Symbol vs string**: `:symbol` and `"string"` differ — symbols are immutable and interned (memory efficient), strings are mutable. Use symbols for hash keys and identifiers.
@@ -26,3 +34,7 @@ Ruby is a language designed for developer happiness — everything is an object,
 ---
 
 <FlashcardDeck client:only="solid-js" deckId="ruby-basics" title="Ruby -- Basics" description="15 interactive flashcards covering blocks, procs, lambdas, mixins, eigenclasses, method_missing, symbols, splat operator, safe navigation, pattern matching, refinements, frozen string, monkey patching, metaprogramming, YARD." cards={flashcardData} />
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for ruby notes.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.

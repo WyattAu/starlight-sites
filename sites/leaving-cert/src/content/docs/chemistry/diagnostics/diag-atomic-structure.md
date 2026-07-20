@@ -327,3 +327,9 @@ linked above.
 - Misapplying VSEPR by not counting lone pairs as electron domains that affect molecular shape.
 - Stating that noble gases have the highest electronegativity -- noble gases are excluded
   from electronegativity scales.
+
+## Cross-References
+
+- **[Atomic Structure](../1-atomic-structure/1_atomic-structure.md):** Full notes on atomic structure concepts including quantum numbers and electronic configuration.
+- **[Chemical Bonding](../2-bonding/2_bonding.md):** Covers the bonding principles that build on periodic trends and electronegativity differences.
+- **[Physics: Modern Physics](../../physics/5-modern-physics/5_modern-physics.md):** Explores atomic models and the Bohr model, connecting to electronic structure concepts.

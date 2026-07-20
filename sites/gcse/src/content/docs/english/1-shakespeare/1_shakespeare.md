@@ -609,3 +609,9 @@ Developing a precise analytical vocabulary and practising close reading are esse
 performance in this area.
 
 </aside>
+
+## Cross-References
+
+- **[19th Century Novel](../2-19th-century-novel/2_19th-century-novel.md):** Covers prose analysis techniques that complement Shakespeare analysis.
+- **[Modern Texts and Poetry](../3-modern-texts-and-poetry/3_modern-texts-and-poetry.md):** Explores modern literature and poetry analysis methods.
+- **[Practice English](../practice-english.mdx):** Interactive practice problems covering literary analysis and essay writing.

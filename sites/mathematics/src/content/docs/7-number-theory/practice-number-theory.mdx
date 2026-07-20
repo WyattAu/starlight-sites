@@ -9,6 +9,14 @@ description: "UNIVERSITY Mathematics practice problems: Number Theory Practice (
 import PracticeProblem from "@components/PracticeProblem";
 
 
+## Intuition
+
+**The mathematics of whole numbers:** Number theory studies the properties of integers — prime numbers, divisibility, modular arithmetic. It is the oldest branch of mathematics, and surprisingly, it is the foundation of modern cryptography (RSA, Diffie-Hellman).
+
+**Why it matters:** Number theory underpins internet security — your online banking, HTTPS connections, and digital signatures all rely on the difficulty of factoring large numbers or solving discrete logarithm problems.
+
+**The key insight:** Primes are the "atoms" of arithmetic — every integer factors uniquely into primes (Fundamental Theorem of Arithmetic). This uniqueness is what makes factoring hard and cryptography secure.
+
 ## University Mathematics — Number Theory Practice
 
 10 auto-graded practice problems at medium to hard difficulty. Select an answer, submit, and review
@@ -53,3 +61,9 @@ the explanation.
 **Misapplying the Chinese Remainder Theorem to non-coprime moduli:** CRT requires the moduli to be pairwise coprime. For $x \equiv 2 \pmod{4}$ and $x \equiv 1 \pmod{6}$, you cannot directly combine them because $\gcd(4, 6) = 2 \neq 1$. Check consistency first: $2 \equiv 1 \pmod{2}$ must hold, which it does not, so no solution exists.
 
 <PracticeProblem client:only="solid-js" question={"Find the number of distinct solutions $(x, y)$ with $0 \\leq x, y < 11$ satisfying $x^2 \\equiv y^2 \\pmod{11}$.&quot; options={['$21$', '$11$', '$121$', '$33$']} correctAnswer={0} explanation=&quot;$x^2 \\equiv y^2 \\pmod{11}$ means $11 \\mid (x-y)(x+y)$. By Wilson\'s theorem, since 11 is prime, this means $x \\equiv y \\pmod{11}$ or $x \\equiv -y \\pmod{11}$. The solutions $x \\equiv y$ give 11 pairs $(x,x)$ for $x = 0, 1, \\ldots, 10$. The solutions $x \\equiv -y$ give pairs $(x, 11-x)$ for $x \\neq 0$ (since $x=0, y=0$ is already counted), giving 10 more. Total: $11 + 10 = 21$."} difficulty="hard"  />
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for Mathematics notes.
+- **[Linear Algebra](../../2-linear-algebra/):** Vector spaces, matrices, and linear transformations.
+- **[Real Analysis](../../3-real-analysis/):** Rigorous treatment of real numbers and calculus.
+- **[Practice](../../practice-*.mdx):** Practice problems for revision.
