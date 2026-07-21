@@ -45,6 +45,64 @@ For waves, the key insight is that the medium does not travel -- only the distur
 
 ---
 
+### Worked Examples
+
+#### Example 1: SUVAT with a Twist
+
+**Problem:** A ball is thrown vertically upward at 20 m/s from the edge of a 45 m cliff. Find the time when it hits the ground. ($g = 9.81 \, \text{m/s}^2$)
+
+**Solution:**
+Step 1: Choose sign convention: upward = positive, so $a = -g = -9.81$
+
+Step 2: When the ball hits the ground, displacement $s = -45$ m (below starting point)
+
+Step 3: Use $s = ut + \frac{1}{2}at^2$:
+$-45 = 20t - 4.905t^2$
+
+Step 4: Rearrange: $4.905t^2 - 20t - 45 = 0$
+
+Step 5: Quadratic formula: $t = \frac{20 \pm \sqrt{400 + 4(4.905)(45)}}{9.81} = \frac{20 \pm \sqrt{400 + 882.9}}{9.81} = \frac{20 \pm 35.83}{9.81}$
+
+Step 6: $t = \frac{55.83}{9.81} = 5.69$ s (reject negative root)
+
+**Key insight:** The displacement is negative because the ground is below the starting point. Always define your sign convention before writing equations.
+
+---
+
+#### Example 2: Photoelectric Effect
+
+**Problem:** Light of wavelength 200 nm falls on a metal with work function 3.0 eV. Find the maximum kinetic energy of emitted electrons.
+
+**Solution:**
+Step 1: Calculate photon energy: $E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{200 \times 10^{-9}} = 9.94 \times 10^{-19}$ J
+
+Step 2: Convert to eV: $E = \frac{9.94 \times 10^{-19}}{1.60 \times 10^{-19}} = 6.21$ eV
+
+Step 3: Photoelectric equation: $KE_{max} = hf - \phi = E - \phi$
+
+Step 4: $KE_{max} = 6.21 - 3.0 = 3.21$ eV
+
+**Key insight:** The photoelectric effect depends on frequency (energy), not intensity (brightness). Increasing intensity increases the number of electrons, not their maximum energy.
+
+---
+
+#### Example 3: SHM Energy
+
+**Problem:** A mass on a spring has amplitude 0.10 m and maximum speed 0.50 m/s. Find the spring constant if the mass is 0.20 kg.
+
+**Solution:**
+Step 1: Maximum kinetic energy equals total energy: $E = \frac{1}{2}mv_{max}^2 = \frac{1}{2}(0.20)(0.50)^2 = 0.025$ J
+
+Step 2: Total energy in SHM: $E = \frac{1}{2}kA^2$
+
+Step 3: Solve for $k$: $k = \frac{2E}{A^2} = \frac{2(0.025)}{(0.10)^2} = \frac{0.05}{0.01} = 5.0$ N/m
+
+Step 4: Verify: $\omega = \sqrt{k/m} = \sqrt{5/0.2} = 5$ rad/s, $v_{max} = \omega A = 5 \times 0.10 = 0.50$ m/s ✓
+
+**Key insight:** In SHM, energy oscillates between kinetic and potential. At maximum displacement, all energy is potential; at equilibrium, all energy is kinetic.
+
+---
+
 ### Common Mistakes
 
 1. **Confusing mass and weight.** Mass ($m$) is in kilograms and is constant. Weight ($W = mg$) is a force in newtons and varies with gravitational field strength. A common error is using $W$ in $F = ma$ when $m$ is already the mass.
