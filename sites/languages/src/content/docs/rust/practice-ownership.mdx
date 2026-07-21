@@ -103,3 +103,14 @@ import PracticeProblem from "@components/PracticeProblem";
 **Confusing `Box`, `Rc`, and `Arc`:** `Box` is single-owner heap allocation; `Rc` is single-threaded shared ownership; `Arc` is multi-threaded shared ownership. Using the wrong one causes compile errors or data races.
 
 **Forgetting that `push` may reallocate:** Calling `push` on a `Vec` while holding an immutable reference to its contents invalidates the reference. Rust prevents this at compile time to avoid dangling pointers.
+
+---
+
+## Cross-References
+
+- **[Rust Basics](../rust/):** Core Rust language features including syntax, control flow, and functions.
+- **[Rust Traits](../rust/traits/):** Trait definitions, implementations, and generic constraints.
+- **[Rust Concurrency](../rust/concurrency/):** Threads, channels, and async/await patterns.
+- **[C++ Pointers](../../cpp/types/pointers/):** Manual memory management for comparison with Rust's ownership model.
+- **[Go Basics](../../go/):** Simpler memory model with garbage collection for comparison.
+- **[Rust Book](https://doc.rust-lang.org/book/):** Official Rust documentation and tutorials.
