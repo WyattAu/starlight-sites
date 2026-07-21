@@ -7,10 +7,18 @@ tags:
 categories:
   - cpp
 ---
+
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
-# Pointer Arithmetic, Array Decay, and Nullability
+## Intuition
 
+**Pointers are addresses — they tell you where data lives in memory:** Think of your computer's memory as a vast street of numbered houses. A pointer is like a house number — it doesn't contain the data itself, it tells you where to find it. This indirection is powerful: you can share, modify, and manage data without copying it.
+
+**Why it matters:** Pointers are the foundation of C++ — they enable dynamic memory allocation, data structures (linked lists, trees), and efficient function calls. Understanding pointers is the difference between writing C++ and truly understanding it.
+
+**The key insight:** Pointer arithmetic is typed — adding 1 to an `int*` advances by 4 bytes (sizeof(int)), not 1 byte. This is why `void*` arithmetic is illegal — the compiler doesn't know the stride size. This type-aware arithmetic is what makes C++ pointers both powerful and dangerous.
+
+# Pointer Arithmetic, Array Decay, and Nullability
 In high-level languages (Java, Python), references are opaque handles. In C++, pointers are direct
 Abstractions over virtual memory addresses with distinct arithmetic capabilities dependent on the
 **Type System**.
