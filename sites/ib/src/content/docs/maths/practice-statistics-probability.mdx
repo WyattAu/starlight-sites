@@ -25,6 +25,57 @@ aligned to the SL/HL syllabus. Select an answer, submit, and review the explanat
 
 ---
 
+## Worked Examples
+
+### Example 1: Conditional Probability
+
+**Problem:** In a class, 60% of students study French (F) and 40% study German (G). 20% study both. Find P(F|G).
+
+**Solution:**
+Step 1: P(F|G) = $\frac{P(F \cap G)}{P(G)}$
+
+Step 2: P(F ∩ G) = 0.20 (given)
+
+Step 3: P(F|G) = $\frac{0.20}{0.40} = 0.50$
+
+**Key insight:** Conditional probability is the probability of one event given that another has occurred. The formula P(A|B) = P(A ∩ B) / P(B) always works.
+
+---
+
+### Example 2: Normal Distribution
+
+**Problem:** $X \sim N(50, 16)$. Find P(X > 55).
+
+**Solution:**
+Step 1: Standardise: $Z = \frac{X - \mu}{\sigma} = \frac{55 - 50}{4} = 1.25$
+
+Step 2: P(X > 55) = P(Z > 1.25) = 1 - P(Z ≤ 1.25)
+
+Step 3: From Z-tables: P(Z ≤ 1.25) = 0.8944
+
+Step 4: P(X > 55) = 1 - 0.8944 = 0.1056
+
+**Key insight:** Always standardise before using Z-tables. The formula Z = (X - μ) / σ converts any normal distribution to the standard normal.
+
+---
+
+### Example 3: Binomial Probability
+
+**Problem:** $X \sim B(8, 0.4)$. Find P(X = 3).
+
+**Solution:**
+Step 1: Formula: $P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}$
+
+Step 2: $P(X = 3) = \binom{8}{3} (0.4)^3 (0.6)^5$
+
+Step 3: $\binom{8}{3} = \frac{8!}{3!5!} = 56$
+
+Step 4: $P(X = 3) = 56 \times 0.064 \times 0.07776 = 56 \times 0.00498 = 0.2787$
+
+**Key insight:** The binomial coefficient $\binom{n}{k}$ counts the number of ways to choose k successes from n trials.
+
+---
+
 ### Descriptive Statistics
 
 <PracticeProblem client:only="solid-js" question={"The data set {3, 5, 5, 7, 8, 12} has mean 6.67 and median 6. If the value 12 is changed to 20, which measure is more affected?&quot; options={['The mean increases more than the median', 'The median increases more than the mean', 'Both change equally', 'Neither changes']} correctAnswer={0} explanation=&quot;Changing 12 to 20: new mean = (3+5+5+7+8+20)/6 = 48/6 = 8 (was 6.67, increase of 1.33). The ordered set becomes {3,5,5,7,8,20}, median = (5+7)/2 = 6 (unchanged). The mean is more affected by outliers."} difficulty="easy"  />
