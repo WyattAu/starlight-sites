@@ -83,3 +83,12 @@ Each section includes:
 - **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum optics and photonics; photons are quantum particles of light.
 - **[Classical Mechanics](../../1-classical-mechanics/index.md):** Wave mechanics foundations; oscillations and vibrations are mechanical waves.
 - **[Mathematics](../../mathematics/index.md):** Fourier analysis and complex numbers are essential mathematical tools for optics.
+
+## Intuition
+
+Waves are one of the most pervasive phenomena in physics — sound, light, water ripples, seismic vibrations, and even quantum probability amplitudes all behave as waves. The unifying principle is superposition: when two waves meet, they add together. This single idea explains an enormous range of phenomena. Constructive interference (waves in phase) produces bright fringes and loud sounds; destructive interference (waves out of phase) produces dark fringes and silence. The wave equation ∂²u/∂t² = v²∇²u is the mathematical statement that the acceleration of any point is proportional to the curvature of the wave at that point — a physical requirement that leads to propagation at a fixed speed.
+
+Diffraction — the bending of waves around obstacles — is not a curiosity but a fundamental limitation. Any wave passing through an aperture of size comparable to its wavelength will spread out, which is why optical microscopes cannot resolve features smaller than about half the wavelength of light. This isn't a technological limitation; it's a physical law. The Fourier transform provides the mathematical bridge between the spatial pattern of an aperture and the far-field diffraction pattern: the diffraction pattern is the Fourier transform of the aperture function. This connection between spatial structure and frequency content is why Fourier optics is so powerful — it lets you analyse complex optical systems using the same tools used in signal processing.
+
+Polarisation reveals that light is not just a scalar wave but a vector wave — the electric field oscillates in a specific direction. Malus's law, birefringence, and wave plates all follow from the vector nature of electromagnetic radiation. Understanding polarisation connects optics to electromagnetism: light is an electromagnetic wave, and its polarisation is determined by the direction of the electric field. This understanding is essential for technologies from LCD screens to 3D cinema to fibre-optic communications, where controlling polarisation is as important as controlling intensity and frequency.
+

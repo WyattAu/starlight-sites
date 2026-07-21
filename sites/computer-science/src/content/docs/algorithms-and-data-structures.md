@@ -2293,4 +2293,13 @@ $\blacksquare$
 | Theory of Computation    | WyattsNotes | [View](/docs/university/computing/theory-of-computation)                        |
 | Algorithms — MIT 6.006   | MIT OCW     | [View](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/) |
 
+## Intuition
+
+Algorithms and data structures are the engine and chassis of computer science — algorithms are the step-by-step procedures for solving problems, and data structures are the organisations of data that make those algorithms efficient. The central question is always: given a problem, what is the best way to organise the data and process it? Big-O notation captures the essential trade-off: O(1) hash table lookups trade space for speed; O(log n) binary search works because sorted data eliminates half the possibilities at each step; O(n log n) merge sort achieves the theoretical minimum for comparison-based sorting because each comparison eliminates only one possibility.
+
+The fundamental insight behind data structure design is that the right representation makes the right operation cheap. Arrays give O(1) access by index because elements are contiguous in memory. Linked lists give O(1) insert/delete at a known position because you only need to update pointers. Hash tables give O(1) average lookup by mapping keys to array indices through a hash function, turning a search problem into an array access. Balanced BSTs give O(log n) for everything by maintaining an invariant that keeps the tree height logarithmic. Every data structure is a bet about what operations you'll perform most often, and the "best" choice depends entirely on your workload.
+
+Algorithm design paradigms — divide-and-conquer, greedy, dynamic programming — are strategies for breaking hard problems into manageable pieces. Divide-and-conquer works when a problem can be split into independent subproblems (merge sort, binary search). Greedy works when making the locally optimal choice leads to the globally optimal solution (Huffman coding, activity selection). Dynamic programming works when a problem has optimal substructure and overlapping subproblems — when the optimal solution to a large problem contains optimal solutions to smaller subproblems, and those smaller subproblems are reused (shortest paths, sequence alignment, knapsack). Recognising which paradigm applies to a new problem is the core skill of algorithm design.
+
+
 </aside>

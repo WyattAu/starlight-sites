@@ -61,3 +61,12 @@ These notes are structured to guide you from understanding the admissions landsc
 **Past papers:** For admissions tests (TMUA, MAT, ENGAA, NSAA), past papers are the most valuable resource. Work through them under timed conditions, then review every question — including ones you got right — to understand the reasoning.
 
 **Peer review:** Share your personal statement drafts with teachers, mentors, and peers. Fresh eyes catch weaknesses you cannot see in your own writing. Ask specifically: "Does this sound like me?" and "Does this demonstrate intellectual curiosity?"
+
+## Intuition
+
+University admissions is not a formula to be gamed — it's a holistic assessment of your potential to thrive in an intellectually demanding environment. Grades and test scores are necessary but not sufficient. Admissions tutors are looking for evidence that you genuinely care about your subject, can think independently, and will contribute to the academic community. This is why super-curricular engagement matters more than most students realise: reading beyond the syllabus, attending lectures, working through problems independently, and writing about what you've learned shows that your interest is authentic and self-driven, not merely performative.
+
+The personal statement is your one direct line of communication with the people making the decision. It should tell a coherent story about your intellectual journey — what sparked your interest, what you've explored, what you've discovered, and where you want to go next. The most effective personal statements are specific and reflective: they describe concrete experiences (a book you read, a project you worked on, a problem that fascinated you) and explain what you learned from them. Generic statements about "being passionate" or "wanting to help people" are forgettable; specific examples with genuine reflection are memorable.
+
+Interviews at places like Oxford and Cambridge are not about what you've memorised — they're about how you think when confronted with unfamiliar problems. The interviewer will give you a problem you haven't seen before and watch how you approach it: do you ask clarifying questions, break it into parts, consider special cases, and communicate your reasoning clearly? The ability to think out loud, admit uncertainty, and follow a logical chain of reasoning under pressure is exactly what's needed for tutorials and supervisions. Preparing for interviews means practising this kind of thinking, not rehearsing answers.
+

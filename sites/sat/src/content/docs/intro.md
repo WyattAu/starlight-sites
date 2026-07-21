@@ -149,4 +149,10 @@ linked above.
 - [Science Question Bank](science-question-bank) -- Practice questions for interpreting scientific passages in the Reading & Writing section.
 
 
-</aside>
+## Intuition
+
+The SAT is designed to test not just what you know, but how you think under time pressure. The adaptive format means the test is constantly calibrating to your ability — if Module 1 goes well, you'll face harder questions in Module 2, which paradoxically gives you a higher score ceiling. This is why a strong start matters so much: your first 32 minutes of Reading & Writing and 35 minutes of Math determine which "track" you're on for the rest of each section. Every question on the SAT is designed to look familiar but contain a subtle twist — the test rewards careful reading and penalises rushing.
+
+Think of SAT preparation as building two separate muscles: content mastery and test-taking strategy. Content mastery means you actually understand algebra, grammar rules, and reading comprehension — not just pattern-matching answers. Test-taking strategy means recognising the SAT's recurring tricks: questions that ask for the "best" answer rather than the "correct" one, passages that require you to infer rather than locate, and math problems that test whether you can translate words into equations. The students who score highest aren't necessarily the smartest — they're the ones who've practised enough to recognise the test's patterns.
+
+The 12-week study plan works because it respects how learning actually happens. Early weeks build foundational knowledge through spaced repetition. Middle weeks focus on targeted practice where you identify and close gaps. Final weeks simulate test conditions so that timing and stress become familiar rather than novel. The single most effective thing you can do is take full-length practice tests under realistic conditions — not because the questions will repeat, but because managing your energy, pacing, and anxiety across a 2-hour exam is a skill in itself.

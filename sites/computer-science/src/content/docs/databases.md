@@ -1916,4 +1916,13 @@ $\blacksquare$
 | Algorithms and Data Structures | WyattsNotes | [View](/docs/university/computing/algorithms-and-data-structures)       |
 | Database Systems — CMU 15-445  | CMU         | [View](https://15445.courses.cs.cmu.edu/)                               |
 
+## Intuition
+
+Databases solve a deceptively simple problem: how do you store and retrieve structured data reliably, concurrently, and efficiently? The relational model — tables with rows and columns, linked by primary and foreign keys — provides a clean mathematical foundation based on set theory and first-order logic. SQL is the query language that lets you express complex questions (find all students who have taken every CS course) without specifying *how* to retrieve the answer. The database management system (DBMS) figures out the most efficient execution plan, using indexes (B+ trees) to avoid scanning entire tables and query optimisation to reorder operations.
+
+Normalisation is the process of designing tables so that each fact is stored in exactly one place. Without normalisation, updating a student's name might require modifying rows in multiple tables — and if you miss one, the database becomes inconsistent. The normal forms (1NF through BCNF) are progressively stricter conditions that eliminate redundancy and update anomalies. BCNF requires that every non-trivial functional dependency has a superkey as its determinant. The trade-off is that highly normalised schemas may require expensive joins for common queries, so practical database design often denormalises strategically.
+
+Transactions are the mechanism that makes concurrent access safe. ACID properties guarantee that even with thousands of simultaneous users, the database always appears consistent. Isolation levels (Read Committed through Serializable) let you trade strictness for performance — lower isolation levels allow more concurrency but risk anomalies like dirty reads and phantom reads. Concurrency control (2PL, MVCC) ensures that concurrent transactions produce the same result as some serial execution. The beauty of this system is that application developers don't need to think about concurrency at all — they just write correct SQL, and the DBMS handles the rest.
+
+
 </aside>

@@ -1846,4 +1846,13 @@ $\blacksquare$
 | Databases                      | WyattsNotes    | [View](/docs/university/computing/databases)                  |
 | Computer Networking — Stanford | Stanford CS144 | [View](https://cs144.github.io/)                              |
 
+## Intuition
+
+Computer networking is the engineering discipline of getting data from point A to point B reliably, efficiently, and securely — across a medium that is inherently unreliable. The layered model (OSI or TCP/IP) exists because no single protocol can handle all the challenges simultaneously. Each layer solves one well-defined problem: the physical layer converts bits to signals, the data link layer handles local delivery with error detection, the network layer routes packets across multiple hops, the transport layer provides reliable end-to-end delivery, and the application layer implements user-facing protocols. This modularity is what allows Wi-Fi to coexist with fibre optics, and HTTP to run over both.
+
+The genius of packet switching over circuit switching is that it makes efficient use of shared resources. Instead of dedicating a path for each conversation (wasteful for bursty traffic), packets are independently routed and reassembled at the destination. TCP's genius is making this unreliable infrastructure appear reliable: sequence numbers, acknowledgements, and retransmission timers turn an unreliable best-effort network into a reliable byte stream. The sliding window mechanism balances throughput against congestion — sending too much data overwhelms buffers and causes packet loss, while sending too little wastes bandwidth. TCP's congestion control algorithm (slow start, congestion avoidance, fast retransmit) is one of the most elegant feedback control systems ever designed.
+
+The internet works because of a carefully negotiated balance between decentralisation and coordination. BGP lets autonomous systems (ISPs, universities, companies) independently choose their routing policies while collectively maintaining global reachability. DNS provides a distributed, hierarchical naming system that scales to billions of devices. NAT extends the IPv4 address space by allowing many private devices to share a single public address. Every protocol is a negotiation between competing interests — performance vs reliability, security vs convenience, local control vs global interoperability — and understanding these trade-offs is the essence of networking.
+
+
 </aside>

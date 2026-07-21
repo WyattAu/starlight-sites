@@ -78,3 +78,12 @@ Each section includes:
 
 - **[Algorithms](../../1-algorithms/index.md):** Algorithm design techniques that build on discrete math foundations.
 - **[Mathematics](../../mathematics/src/content/docs/index.mdx):** University-level mathematics including abstract algebra and number theory.
+
+## Intuition
+
+Discrete mathematics is the mathematics of things that come in distinct, countable chunks — integers, graphs, logical propositions, finite sets — as opposed to the continuous quantities studied in calculus. Computer science is inherently discrete: computers store integers, process finite strings, traverse graphs, and evaluate logical conditions. You cannot run a program on the real number line; you run it on a finite set of bits. This is why discrete math is the foundational language of computer science — it provides the precise vocabulary for reasoning about algorithms, data structures, and computational complexity.
+
+Logic and proofs are the bedrock. Propositional logic lets you reason about Boolean conditions (if statements, circuit design). Predicate logic lets you quantify over elements (for all x, there exists y). Proof by induction is the tool for establishing statements about all natural numbers — and it's the reasoning behind loop invariants, recursive algorithm correctness, and the analysis of recursive data structures. Without the ability to prove things, you can only hope your code works; with proofs, you can *know* it works.
+
+Graphs model relationships between objects — social networks, computer networks, dependency graphs, state machines. Combinatorics counts the possible configurations — how many ways to arrange items, how many paths exist, how to optimise allocation. These aren't abstract exercises; they're the tools for analysing algorithm complexity (how many comparisons does sorting require?), designing efficient data structures (hash tables, trees), and solving practical optimisation problems (shortest paths, network flow, scheduling). When you understand why a hash table has O(1) average lookup or why Dijkstra's algorithm finds shortest paths, you're applying discrete mathematics.
+

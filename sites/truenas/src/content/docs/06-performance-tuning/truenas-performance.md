@@ -965,3 +965,12 @@ linked above.
 - [ZFS Deep Dive](../01-zfs/zfs-deep-dive) -- Storage performance tuning requires understanding ZFS caching, SLOG, and L2ARC devices.
 - [Apps and Services](../04-apps-and-services/apps-and-services) -- Application workloads determine which performance tuning parameters are most relevant.
 - [Home Server Setup](../setup/home-server-setup) -- Performance tuning optimises the home server for its intended workloads.
+
+## Intuition
+
+TrueNAS performance tuning is the art of matching ZFS's configuration to your actual workload, because the defaults are designed for average use cases that may not match yours. The central concept is the ARC (Adaptive Replacement Cache) — ZFS's intelligent read cache that lives in RAM. The ARC automatically adapts to your access patterns, caching frequently and recently used data. When your working set fits in RAM, reads are served at memory speed. When it doesn't, every cache miss means a round trip to disk, which is 100-1000x slower. Monitoring the ARC hit ratio tells you whether you need more RAM or an L2ARC SSD — a hit ratio below 70% means your working set exceeds your cache.
+
+Recordsize is the other critical tuning knob, and it's where most people get it wrong. ZFS stores data in variable-size blocks up to the recordsize, and the block size for a file is fixed at write time. If you set recordsize=128K for a database that reads in 8K pages, every 8K read pulls 128K from disk — 16x amplification. If you set recordsize=8K for a video file that streams sequentially, ZFS issues many tiny reads instead of fewer large ones, crushing throughput. The rule of thumb: match recordsize to your workload's dominant I/O size. Databases need 8K-16K, VMs need 16K-64K, media needs 128K-1M. This single setting can make a 10x difference in performance.
+
+The deeper insight is that ZFS's copy-on-write architecture means data integrity is baked in — every block is checksummed, and ZFS can detect and self-heal corruption. This is why ECC RAM matters: a bit flip in RAM can cause ZFS to write corrupted data with a matching checksum, making the corruption invisible. The performance trade-offs — mirror vs RAIDZ2, compression vs raw speed, dedup vs memory — all flow from the same principle: ZFS optimises for data safety first and performance second. Understanding this priority is the key to making informed tuning decisions: you're not choosing between safe and fast, you're choosing how much speed you're willing to sacrifice for how much safety.
+
