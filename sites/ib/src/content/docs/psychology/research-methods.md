@@ -440,3 +440,11 @@ linked above.
 - [Thinking and Decision Making](/docs/ib/psychology/cognitive/thinking-and-decision-making) applies the research methods discussed here to study cognitive biases and judgement under uncertainty.
 - [Nervous System](/docs/ib/biology/8-nervous-system-and-immunology/1_nervous-system) provides the biological basis for understanding behaviour, which is the primary subject of psychological research.
 - [Cell Biology](/docs/ib/biology/1-cell-biology/1_cell-biology) covers the cellular mechanisms that underpin the biological processes studied through psychological research methods.
+
+---
+
+## Intuition
+
+Research methods are the quality control system for psychological knowledge. Without rigorous methodology, you can't trust the findings. The scientific method in psychology follows the same logic as any science: observe, hypothesise, test, conclude. But psychology faces unique challenges — you can't always control all variables (people are messy), and the act of studying someone changes their behaviour (demand characteristics).
+
+Think of experimental design as a recipe. The independent variable is the ingredient you change. The dependent variable is what you measure. Extraneous variables are everything else that might affect the result — you need to keep them constant or randomise them away. Reliability means your recipe produces the same result every time. Validity means your recipe actually produces the dish you intended. A study can be reliable but not valid (consistently measuring the wrong thing), so you need both.

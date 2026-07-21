@@ -845,3 +845,11 @@ structural transformation.
 - **[National Income](../economics/2-macroeconomics/1-national-income):** Barriers limit income growth
 - **[Market Failure](../economics/1-microeconomics/3-market-failure):** Failures contribute to underdevelopment
 - **[Exchange Rates](../economics/3-international-economics/2-exchange-rates):** Exchange instability affects growth
+
+---
+
+## Intuition
+
+The poverty trap is a vicious cycle: low income → low savings → low investment → low productivity → low income. It's like trying to climb a hill while the ground slopes downward under you. Breaking free requires a "big push" — a large enough investment in education, health, and infrastructure to shift the economy onto a higher growth path. This is why foreign aid, debt relief, and institutional reform matter.
+
+The Harrod-Domar model captures this simply: growth equals savings divided by the capital-output ratio. If a country saves more, it can invest more and grow faster. If capital is used efficiently (low capital-output ratio), growth is faster. The Lewis model adds that development involves moving workers from low-productivity agriculture to high-productivity industry. The resource curse shows that even abundant natural resources can be a curse — they can fund corruption, appreciate the exchange rate (hurting other exports), and create conflict over resource rents.
