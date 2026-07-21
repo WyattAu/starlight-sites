@@ -1364,3 +1364,11 @@ each approach.
 - [Market Failure and Government Intervention](../microeconomics/market-failure) -- Externalities and public goods explain why GDP alone may not reflect true economic welfare.
 
 </aside>
+
+---
+
+## Intuition
+
+GDP is the economy's scoreboard — it measures the total value of everything produced in a country. The expenditure method ($C + I + G + NX$) is the most intuitive: it sums what households spend, what firms invest, what the government buys, and what foreigners buy from us (minus what we buy from them). All three methods (output, income, expenditure) give the same result because every pound spent becomes someone's income, which corresponds to output produced.
+
+The key distinction is between nominal and real GDP. Nominal GDP can rise just because prices went up, even if nothing more was produced. Real GDP strips out price changes to show actual output growth. The GDP deflator is the "inflation calculator" that converts nominal to real. CPI measures the cost of a fixed basket of goods — it overstates inflation because people substitute away from goods that become relatively more expensive. Unemployment rate tells you what fraction of the labour force wants to work but can't find a job. These three indicators — GDP growth, inflation, and unemployment — are the vital signs of the economy.

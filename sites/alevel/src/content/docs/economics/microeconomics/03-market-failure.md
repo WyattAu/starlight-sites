@@ -1254,3 +1254,11 @@ success in this subject.
 - [Fiscal Policy](/docs/alevel/economics/macro/fiscal-policy) explains how government revenue and spending are used to correct market failures through Pigouvian taxes and subsidies.
 - [The Financial Sector](/docs/alevel/economics/macro/the-financial-sector) examines how information asymmetry and moral hazard create market failures in banking and financial markets.
 - [Development Economics](/docs/alevel/economics/macro/development-economics) applies market failure concepts to poverty traps, the tragedy of the commons, and institutional failures in developing countries.
+
+---
+
+## Intuition
+
+Market failure is when the invisible hand gets it wrong. In a perfectly competitive market, the price mechanism allocates resources efficiently — the right goods are produced in the right quantities. But sometimes the market produces too much of something harmful (negative externalities like pollution) or too little of something beneficial (positive externalities like education).
+
+The key concept is the divergence between private and social costs/benefits. A factory's private cost is the cost of production. The social cost includes the pollution it creates. If the factory only considers its private cost, it overproduces. A Pigouvian tax equal to the external cost forces the factory to "internalise" the externality — to consider the full social cost. Similarly, merit goods (education, healthcare) are underconsumed because individuals don't capture all the benefits. Information asymmetry is another source of market failure — when buyers and sellers have different information, markets can unravel (lemons problem).

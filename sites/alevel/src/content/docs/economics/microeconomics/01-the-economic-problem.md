@@ -970,3 +970,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 
+---
+
+## Intuition
+
+The economic problem is simple: we want more than we can have. Scarcity forces every choice to be a trade-off. When you spend £10 on a book, you can't spend that same £10 on a film ticket. The opportunity cost is the film ticket — the best thing you gave up. This is the foundation of all economic reasoning.
+
+The production possibility frontier (PPF) is the visual representation of scarcity. Points inside the curve are inefficient (waste). Points on the curve are efficient (maximum output). Points outside are unattainable with current resources. Economic growth shifts the curve outward. The slope of the PPF shows the opportunity cost — how much of one good you sacrifice to get more of the other. A steep slope means high opportunity cost; a gentle slope means low opportunity cost.

@@ -1139,3 +1139,13 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 - [The Theory of the Firm](./04-theory-of-the-firm) -- Profit maximisation and cost analysis determine the firm-level supply curve underlying market supply.
 - [The Economic Problem](./01-the-economic-problem) -- Scarcity and opportunity cost provide the foundational context for why demand and supply interact to allocate resources.
 - [Labour Markets](./05-labour-markets) -- Wage determination applies the same supply and demand framework to the market for labour.
+
+---
+
+## Intuition
+
+Demand and supply is the engine of market economics. The demand curve slopes downward (higher price → less quantity demanded) because of the income and substitution effects. The supply curve slopes upward (higher price → more quantity supplied) because higher prices make production more profitable.
+
+Equilibrium is where the two curves cross — the price at which quantity demanded equals quantity supplied. If the price is too high, there's a surplus (unsold goods pile up), so sellers lower prices. If too low, there's a shortage (empty shelves), so sellers raise prices. This natural adjustment is the "invisible hand" that Adam Smith described.
+
+The key distinction for exams is between movements along a curve (caused by price changes) and shifts of the curve (caused by income, tastes, substitutes, complements, etc.). Getting this wrong is the most common error in economics exams. Price controls (ceilings and floors) disrupt this natural adjustment, creating shortages, surpluses, and deadweight loss.
