@@ -832,3 +832,11 @@ linked above.
 - **[Number Systems](../computer-science/fundamentals/01-number-systems):** Boolean algebra operates on binary values
 - **[Operating Systems](../computer-science/fundamentals/05-operating-systems):** OS uses Boolean logic for decisions
 - **[Graph Algorithms](../computer-science/algorithms/03-graph-algorithms):** Logic underpins algorithm design
+
+## Intuition
+
+Boolean algebra is the mathematics of yes-or-no decisions. Every statement is either true (1) or false (0), and the three operators — AND, OR, NOT — are simply rules for combining these binary values. Think of a light switch: AND means both switches must be on for the light to work, OR means either one is enough, and NOT flips the state. This simplicity is deceptive because from these three primitives you can build circuits that perform arithmetic, make comparisons, and control complex systems.
+
+The power of Boolean algebra lies in its ability to simplify. Two expressions that look completely different on paper may produce identical outputs for every possible input — they are logically equivalent. Laws like De Morgan's theorem, distribution, and absorption let you rewrite expressions into simpler forms. This is not just an academic exercise: in hardware, fewer logic gates means cheaper, faster, and more energy-efficient circuits. In software, simplifying Boolean conditions makes code easier to read and less error-prone.
+
+Karnaugh maps turn simplification into a visual puzzle. By arranging truth table values in a grid where adjacent cells differ by exactly one bit, you can spot groups of 1s that correspond to simplified terms. The human eye is excellent at finding patterns in 2D layouts, and K-maps exploit this to make simplification almost mechanical. For expressions with more variables, the same principles underlie algorithms like Quine-McCluskey, which computers can apply systematically. The core idea remains the same: find the smallest set of terms that covers all the cases where the output is 1.

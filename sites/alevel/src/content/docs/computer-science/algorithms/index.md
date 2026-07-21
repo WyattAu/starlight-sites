@@ -148,3 +148,11 @@ This page includes:
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
+
+## Intuition
+
+Algorithms are, at their heart, recipes for solving problems. Just as a recipe tells you the exact steps to bake a cake — which ingredients to mix, in what order, and for how long — an algorithm specifies a precise sequence of steps that transform an input into a desired output. The study of algorithms is about finding the most efficient recipes: ones that use the fewest steps, the least memory, or the least time. Not all algorithms for the same problem are equal — sorting a list can be done in O(n^2) time with simple approaches or O(n log n) with more clever ones, and the difference matters enormously when n is large.
+
+The framework for comparing algorithms is called complexity analysis. Big O notation captures how an algorithm's running time or memory usage grows as the input size increases. The intuition is straightforward: if you double the input size and the running time quadruples, you are looking at O(n^2) behaviour. If doubling the input only adds a constant amount of extra time, you have O(log n) — incredibly efficient. This abstraction lets you compare algorithms without worrying about hardware details or implementation specifics; you are measuring the growth rate, which is an intrinsic property of the algorithm itself.
+
+Different problem types call for different algorithmic strategies. Divide and conquer splits a problem into smaller subproblems, solves them recursively, and combines the results — merge sort and binary search are classic examples. Greedy algorithms make the locally optimal choice at each step, hoping to reach a global optimum — they work well for problems like finding minimum spanning trees. Dynamic programming breaks problems into overlapping subproblems and stores their solutions to avoid redundant work. Understanding which strategy fits a given problem is the essence of algorithm design, and it is a skill that applies far beyond examinations — it is the foundation of efficient software.

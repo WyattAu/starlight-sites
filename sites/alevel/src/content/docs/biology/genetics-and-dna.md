@@ -2014,3 +2014,9 @@ linked above.
 - [Biology](/alevel/biology)
 - [Cells](/alevel/biology/cells)
 - [Genetics and DNA](/alevel/biology/genetics-and-dna)
+
+## Intuition
+
+DNA is the instruction manual for building and running a living organism, and every cell in your body holds a complete copy. The beauty of the double helix is its simplicity: two complementary strands mean that copying DNA is just a matter of separating the strands and building a matching partner for each. This base-pairing rule (A with T, C with G) also underlies how genetic information is read --- during transcription, the DNA sequence is copied into mRNA, which then carries the code to ribosomes where it is translated into a protein. The central dogma --- DNA makes RNA makes protein --- is the fundamental flow of genetic information.
+
+Inheritance becomes intuitive once you think of alleles as variants of the same gene, like different editions of the same book. Dominant alleles are like louder voices in a conversation --- they are expressed even when only one copy is present --- while recessive alleles are only heard when both copies agree. Mendel's laws emerge naturally from this: segregation ensures each gamete gets one allele, and independent assortment shuffles different genes into new combinations. Genetic engineering extends this logic by allowing us to cut, copy, and paste genes between organisms, giving us the power to produce useful proteins like insulin in bacteria.

@@ -353,3 +353,9 @@ structure before proceeding.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Chemistry connects the invisible world of atoms and electrons to the tangible world we experience every day. When a metal rusts, a battery powers a phone, or food is digested, chemical reactions are at work. The key to understanding chemistry is thinking at the level of particles: atoms gain or lose electrons to form ions, share electrons to form covalent bonds, and rearrange those bonds during reactions. Every chemical change is, at its core, about making and breaking bonds --- and the energy stored in those bonds determines whether a reaction releases heat (exothermic) or absorbs it (endothermic).
+
+The mole is chemistry's way of bridging the gap between the atomic scale and the laboratory scale. Just as a baker counts eggs by the dozen, chemists count atoms by the mole ($6.02 \times 10^{23}$). This allows you to translate a recipe --- a balanced equation --- into real masses and volumes you can measure on a bench. When you master the mole, stoichiometry becomes straightforward: everything is just ratios. Reaction rates remind us that chemistry is not just about what can happen, but about how fast it happens, and that depends on temperature, concentration, and whether a catalyst lowers the energy barrier.

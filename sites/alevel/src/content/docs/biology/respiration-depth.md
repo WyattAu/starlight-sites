@@ -2232,3 +2232,9 @@ $\blacksquare$
 - [Biology](/alevel/biology)
 - [Cells](/alevel/biology/cells)
 - [Genetics and DNA](/alevel/biology/genetics-and-dna)
+
+## Intuition
+
+Respiration is how cells extract energy from food --- it is not breathing, but a series of controlled chemical reactions that break down glucose step by step. Think of glucose as a tightly coiled spring of chemical energy. Rather than releasing all that energy in one explosive reaction (which would destroy the cell), respiration uncoils the spring gradually, capturing small packets of energy (ATP) at each step. Glycolysis cracks glucose in half in the cytoplasm, and if oxygen is available, the fragments are fed into the Krebs cycle and electron transport chain in the mitochondria, squeezing out up to 30-32 ATP per glucose molecule.
+
+The elegance of oxidative phosphorylation lies in a simple analogy: a hydroelectric dam. The electron transport chain pumps protons across the inner mitochondrial membrane, building up a concentration gradient --- just as a dam builds up a reservoir of water. When protons flow back through ATP synthase, the enzyme spins like a turbine, using the flow to forge ATP from ADP. Oxygen plays the crucial role of accepting the spent electrons at the end of the chain, like a drain at the bottom of the dam. Without oxygen, the chain backs up, NADH cannot be recycled, and the cell must fall back on anaerobic respiration, which yields far less ATP.

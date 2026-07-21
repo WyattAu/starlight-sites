@@ -1074,3 +1074,9 @@ linked above.
 - [Chemistry](/alevel/chemistry)
 - [Atomic Structure](/alevel/chemistry/atomic-structure)
 - [Organic Chemistry](/alevel/chemistry/organic-chemistry)
+
+## Intuition
+
+Kinetics answers the question "how fast?" --- it is the study of reaction rates. Even if a reaction is thermodynamically favourable (it releases energy), it may still be painfully slow if molecules cannot get over the energy barrier. Think of it like pushing a boulder over a hill: it does not matter that the other side is downhill if you cannot get the boulder over the top. The activation energy is the height of that hill, and a catalyst is like building a tunnel through the hill --- it provides an alternative route with a lower barrier, so more molecules can make it across.
+
+The Maxwell-Boltzmann distribution shows that at any given temperature, molecules have a range of energies. Only those with energy at or above the activation energy can react. Increasing temperature shifts the entire distribution, so a much larger fraction of molecules now have enough energy --- this is why even a small temperature increase can dramatically speed up a reaction. Concentration works differently: it does not change the energy distribution, but it packs more molecules into the same space, making collisions more frequent. The rate equation captures all of this mathematically, telling you exactly how sensitive the rate is to changes in concentration for each reactant.

@@ -140,3 +140,11 @@ This page includes:
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
+
+## Intuition
+
+Databases exist to solve a fundamental problem: how do you store, retrieve, and manage large amounts of structured data reliably? Before databases, applications stored data in flat files — essentially text files with a fixed format. This worked for small datasets but became unmanageable as data grew: multiple programs might need the same data, files could become corrupted, and updating information meant manually editing files. A database management system (DBMS) acts as a controlled intermediary, ensuring that data is stored safely and accessed consistently by multiple users and applications simultaneously.
+
+The relational model, introduced by Edgar Codd, revolutionised how we think about data by treating it as collections of tuples (rows) in relations (tables), rather than as hierarchical file structures. The key insight is that relationships between data are expressed through matching values, not through physical pointers or nested structures. This abstraction makes it far easier to write queries, modify the schema, and reason about data integrity. When you write a SQL JOIN, you are telling the database to find matching rows across tables — the engine handles the mechanical work of locating those matches efficiently.
+
+Transactions and ACID properties ensure that even when things go wrong — power failures, software crashes, concurrent edits — the database remains in a consistent state. Think of a bank transfer: money must leave one account and arrive in another. If the system crashes halfway through, a transaction ensures either both operations complete or neither does, preventing money from vanishing into thin air. This reliability, combined with the flexibility of SQL and the efficiency of indexing, is why relational databases have been the backbone of information systems for decades.

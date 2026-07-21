@@ -598,3 +598,11 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+At its core, computability theory asks a deceptively simple question: what can a machine actually do? Imagine you have an infinitely powerful assistant who can follow instructions perfectly and never gets tired. The theory of computation draws a boundary around what that assistant could — and could not — accomplish, no matter how clever the instructions. Automata are the simplest models in this landscape: finite automata can only remember a limited amount of information (like a toggle switch), push-down automata add a stack for slightly more memory, and Turing machines get an unlimited tape. Each step up in power unlocks new categories of problems that become solvable.
+
+The Church-Turing thesis ties this all together by claiming that the Turing machine — despite being a simple, mechanical device — captures everything we informally mean by "computable." Think of it like this: if you can describe a step-by-step procedure that a human could follow with pencil and paper, then a Turing machine can simulate it. This is remarkable because it means all programming languages, no matter how fancy their features, are ultimately equivalent in computational power. The differences between languages are about convenience and efficiency, not about what they can fundamentally compute.
+
+Some problems, however, remain beyond reach. The halting problem — determining whether an arbitrary program will eventually stop or run forever — is famously undecidable. No algorithm can solve it for all possible inputs, and this sets a hard ceiling on what automated tools can guarantee. This insight has real consequences: it explains why perfect bug detectors, perfect optimisers, and perfect type-checkers are impossible. Recognising these limits is just as important as understanding what machines can do.
+

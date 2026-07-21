@@ -1261,3 +1261,11 @@ success in this subject.
 - [Development Economics](/docs/alevel/economics/macro/development-economics) examines how inequality interacts with growth, poverty traps, and institutional quality in developing countries.
 - [Fiscal Policy](/docs/alevel/economics/macro/fiscal-policy) details how progressive taxation and transfer payments are used to redistribute income.
 
+## Intuition
+
+Inequality is fundamentally about how the economic pie is sliced. Imagine a group of people at a dinner: if one person takes 50% of the food while half the group shares just 10%, we'd call that unfair. The Lorenz curve is simply a picture of that dinner — it shows you exactly how the pie is divided, from the hungriest person to the fullest. The Gini coefficient is just a single number summarising how bent that curve is: a straight line means everyone gets an equal slice; a deeply bowed curve means a few people are eating very well while others go hungry.
+
+The tricky part is that inequality has many causes and no single solution. Some inequality is natural and even useful — people with rare skills or who take big risks earn more, which encourages others to develop skills and start businesses. But inequality becomes a problem when it's driven by factors people can't control, like inheriting wealth, facing discrimination, or being born in the wrong postcode. The "leaky bucket" analogy captures the core dilemma perfectly: when you try to move money from the rich to the poor, some of it spills — through administrative costs, reduced work incentives, or tax avoidance. The question isn't whether the bucket leaks, but whether the redistribution still leaves the poor better off enough to justify the loss.
+
+What makes this topic really interesting is the tension between growth and fairness. A country can have high growth but leave most people behind, or it can have very equal incomes but be equally poor. The best outcomes — like the Nordic countries — manage to be both relatively equal and highly productive, by investing heavily in education, healthcare, and institutions that give everyone a genuine chance. The policy toolkit is wide (taxes, benefits, minimum wages, education), and the right mix depends on a country's specific problems. There's no one-size-fits-all answer, but understanding the trade-offs is the key to making good policy choices.
+

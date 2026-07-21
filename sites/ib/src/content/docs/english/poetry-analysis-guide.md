@@ -742,3 +742,11 @@ linked above.
 - **[Poetry Analysis](../english/poetry-analysis-guide):** Literary analysis develops through study
 - **[Comparative Analysis](../english/comparitives/chronicle-streetcar):** Comparing texts builds analytical skills
 - **[Flashcards](../english/flashcards-poetry):** Literary terms support analysis
+
+## Intuition
+
+Poetry is, at its heart, language under pressure. When a poet compresses thought, feeling, and image into the tightest possible space, every word becomes load-bearing. A single line break can shift emphasis, create suspense, or enact the very emotion the poem describes. This compression is what makes poetry feel different from prose: it demands that we slow down, re-read, and pay attention to how something is said as much as what is said. Learning to analyse poetry is not about memorising lists of literary devices; it is about developing the habit of noticing—of asking why a poet chose this word, this rhythm, this pause—and then connecting those choices to the poem's larger meaning.
+
+The analytical framework in this guide is a set of lenses, not a formula. You do not need to discuss every device in every poem. Instead, you read the poem, identify what strikes you as significant or surprising, and then work outward from that observation using the relevant tools—form, sound, imagery, figurative language—to explain how the poem achieves its effect. The goal is always to bridge the gap between what you notice and why it matters, grounding your interpretation in specific evidence from the text rather than vague impressions.
+
+Over time, this practice changes how you read everything, not just poetry. The discipline of attending closely to language, of asking how form shapes meaning, and of constructing arguments supported by textual evidence transfers directly to prose, drama, and non-literary texts. Poetry analysis is, in this sense, a training ground for all close reading—sharpening the skills of attention, precision, and inference that underpin strong literary analysis across every text you encounter.

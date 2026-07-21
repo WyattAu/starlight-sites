@@ -837,3 +837,11 @@ implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 
+## Intuition
+
+Testing is fundamentally about building confidence in code by systematically checking that it behaves as expected. Think of it like proofreading an essay, but with much higher stakes and stricter rules. You are not just checking for typos; you are verifying that every branch of logic produces the correct output for every possible input. The different levels of testing — unit, integration, system, and acceptance — mirror how you might check a building: first each brick, then each wall, then the whole structure, and finally whether it meets the client's needs.
+
+The real insight behind testing strategies like white-box and black-box is about perspective. White-box testing lets you peer inside the code and design tests that exercise every path, catching hidden bugs in logic you might otherwise miss. Black-box testing pretends you cannot see the implementation at all and asks: does the system do what the specification says? Both perspectives are essential because they catch different classes of errors. A function might pass every specification test yet still contain an unused code path with a latent bug, or conversely, every line of code might be tested but the specification itself might be wrong.
+
+Test coverage metrics give you a numerical sense of how thoroughly your tests exercise the code, but they are a guide, not a guarantee. Achieving 100% line coverage means every line was executed at least once — but it does not mean every combination of inputs was tried. The practical takeaway is to write tests early, test incrementally, and prioritise the most critical and complex parts of the system. Automated testing turns what would be an impossibly tedious manual task into something that runs in seconds, letting you refactor and extend code with confidence.
+

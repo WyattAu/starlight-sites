@@ -728,3 +728,11 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Searching is one of the most fundamental operations in computer science, and the two classic approaches — linear and binary search — illustrate a core trade-off: simplicity versus speed. Linear search is the obvious strategy: start at the beginning and check every item until you find what you are looking for. It works on any collection, sorted or not, but it is slow for large datasets because you might have to look at every single element. Binary search, by contrast, exploits order. By repeatedly halving the search space, it narrows down the target in logarithmic time — for a million items, it needs at most 20 comparisons instead of a million.
+
+The key insight behind binary search is the power of eliminating half the possibilities at each step. Imagine looking up a word in a dictionary: you open it roughly in the middle, see whether your word comes before or after, and immediately discard half the pages. You repeat this until you find the word. This "divide and conquer" principle appears throughout computer science, from sorting algorithms to tree traversals. The catch is that binary search only works on sorted data, so if your data is not already ordered, you must pay the cost of sorting first — a decision that depends on how many searches you plan to perform.
+
+In practice, the choice between algorithms depends on context. For small datasets, the overhead of binary search's index management may not be worth it — linear search is simpler and fast enough. For large, frequently searched datasets, binary search (or its variants like interpolation search) is dramatically faster. Real-world systems often use hash tables for O(1) average-case lookups when exact matching is needed, or balanced binary search trees when both searching and ordered traversal are required. Understanding these trade-offs — data size, whether data is sorted, the cost of preprocessing, and the pattern of access — is what lets you choose the right tool for the job.
+

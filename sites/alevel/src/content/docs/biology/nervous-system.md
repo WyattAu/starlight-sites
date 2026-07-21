@@ -2331,3 +2331,9 @@ $$
 - [Biology](/alevel/biology)
 - [Cells](/alevel/biology/cells)
 - [Genetics and DNA](/alevel/biology/genetics-and-dna)
+
+## Intuition
+
+The nervous system is the body's communication network, and its speed comes from a beautifully simple trick: electricity. A neurone is essentially a long wire that can switch between two states --- resting (negative inside) and active (positive inside). When a stimulus is strong enough to reach the threshold, sodium channels snap open and positive charge rushes in, creating an electrical impulse that races down the axon. This is an all-or-nothing event: it either happens fully or not at all, just like a bullet leaving a gun --- the trigger either fires or it does not, and once fired, the bullet travels at full speed regardless of how hard you pulled.
+
+At a synapse, the electrical signal is briefly converted into a chemical one --- neurotransmitter molecules cross the gap and bind to receptors on the next neurone, either exciting it or inhibiting it. This chemical step is what makes the nervous system flexible rather than just a hard-wired circuit: the same signal can be amplified, dampened, or redirected depending on which synapses are involved. Reflexes bypass the brain entirely --- the sensory neurone talks directly to a motor neurone via a relay neurone in the spinal cord, producing an immediate response before you have even consciously registered the danger.

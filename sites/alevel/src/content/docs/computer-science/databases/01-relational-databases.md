@@ -1164,3 +1164,11 @@ linked above.
 - [Programming Constructs](../programming/01-programming-constructs) -- SQL programming constructs like variables and loops parallel general programming concepts.
 - [Number Systems](../fundamentals/01-number-systems) -- Data types and storage formats depend on binary representation and number system conversions.
 
+## Intuition
+
+A relational database is essentially a collection of spreadsheets that know how to talk to each other. Each table holds data about one thing — customers, orders, products — and rows represent individual records. The "relational" part means you can link tables together using matching values, so a customer ID in the Orders table points back to a specific row in the Customers table. This avoids duplicating customer details across every order they place, which keeps data consistent and saves space.
+
+Normalisation is the process of organising tables to minimise redundancy. The intuition is simple: if a piece of information appears in multiple rows and you need to update it, you might change it in one place but forget another, creating inconsistencies. Normal forms (1NF through BCNF) are a series of increasingly strict rules that ensure each fact is stored in exactly one place. Think of it like having a single master copy of a document rather than photocopies scattered across different offices — when the master is updated, everyone sees the correct version.
+
+SQL is the language that lets you ask questions of this organised data. JOIN operations combine rows from different tables based on related columns, essentially reconstructing the connections that normalisation deliberately separated. GROUP BY and aggregate functions let you summarise — counting orders per customer, averaging scores per exam, or totalling sales per region. The beauty of the relational model is that you describe what data you want, and the database engine figures out the most efficient way to retrieve it, using indexes and query optimisation to handle tables with millions of rows in milliseconds.
+

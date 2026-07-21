@@ -1060,3 +1060,9 @@ $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 - **[Alkanes](../chemistry/organic-chemistry/alkanes):** Alkanes are the foundation of organic chemistry
 - **[Alkenes](../chemistry/organic-chemistry/alkenes):** Alkenes introduce C=C double bonds
 - **[Alcohols](../chemistry/organic-chemistry/alcohols):** Alcohols contain hydroxyl groups
+
+## Intuition
+
+Organic chemistry is, at its heart, the chemistry of carbon and hydrogen --- the elements that make up living things. Carbon has a unique ability to form four strong covalent bonds with other atoms, including other carbon atoms. This means carbon atoms can link together in long chains, branched structures, and rings, creating an enormous variety of possible molecules. The functional groups attached to these carbon skeletons --- such as -OH (hydroxyl), -COOH (carboxyl), and -NH₂ (amine) --- are what give each family its characteristic reactions. Think of the carbon skeleton as the body of a car, and the functional group as the engine: the skeleton provides structure, but the functional group determines what the molecule can actually do.
+
+When you see a new organic reaction, ask yourself: which functional group is changing, and what is the pattern of electron movement? Nearly all organic reactions fall into a small number of types --- nucleophilic substitution, electrophilic addition, elimination, oxidation, and reduction. Recognising these patterns means you do not need to memorise every reaction individually; you just need to identify the functional group and the reaction type, and you can predict the product. The mole concept ties everything together: just as a recipe tells you how much of each ingredient you need, balanced equations and moles tell you exactly how much of each reagent is required and how much product you will get.

@@ -129,3 +129,11 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 - [Nuclear Energy](./02-nuclear-energy.mdx): Explores fission and fusion reactions, connecting mass-energy equivalence to practical energy generation.
 - [Quantum Physics](./03-quantum-physics.mdx): Extends nuclear phenomena to the quantum realm, explaining electron behaviour and wave-particle duality.
 - [Particle Physics](./04-particle-physics.md): Investigates the fundamental particles and forces that govern nuclear interactions.
+
+---
+
+## Intuition
+
+Nuclear and quantum physics is about the very small — atoms, nuclei, and subatomic particles. At this scale, the rules of everyday life break down. Particles can behave like waves. Electrons can be in multiple places at once. Radioactive decay is fundamentally random — you can predict how many atoms will decay, but not which ones.
+
+The binding energy curve is the key to understanding nuclear energy. Iron-56 sits at the peak — it's the most stable nucleus. Splitting heavier nuclei (fission) releases energy because the products are more tightly bound. Combining lighter nuclei (fusion) also releases energy for the same reason. This is why the Sun shines (fusion) and why nuclear power plants work (fission). Einstein's $E = mc^2$ tells you how much energy is released: even a tiny mass defect corresponds to enormous energy because $c^2$ is so large.

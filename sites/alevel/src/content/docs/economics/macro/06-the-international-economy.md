@@ -866,6 +866,14 @@ discrepancy). The country is a net borrower from the rest of the world. If capit
   $\frac{90}{200 \times 1.5 - 280 \times 0.75} \times 100 \approx 20\%$ (very
   approximate).
 
+## Intuition
+
+Comparative advantage is one of the most powerful — and most counterintuitive — ideas in all of economics. It says that even if one country is better at producing everything, both countries still benefit from trading with each other. The trick is opportunity cost: what you give up to produce something. A lawyer who's also the fastest typist in the office shouldn't spend time typing — even though she's better at it than her secretary — because her time is more valuable doing lawyer things. She should hire the secretary and both come out ahead. Countries work the same way. When Britain trades with France, it's not about who's "better" — it's about who gives up less to make each thing. Specialisation based on this logic makes the total global pie bigger, and both sides can eat more than they could alone.
+
+The J-curve is where intuition meets reality. When a currency falls in value, you'd expect the trade balance to improve immediately — exports become cheaper abroad, imports become pricier at home. But in the short run, the opposite happens. Why? Because trade is locked in by contracts and habits. A British factory that signed a six-month deal to buy German machinery can't suddenly switch suppliers just because the pound fell. It takes time — often a year or more — for people to find alternatives, for new export deals to be signed, and for the volume effects to outweigh the price effects. It's like turning a large ship: the rudder moves first, but the vessel takes a while to change course. This is why governments can't just devalue their way out of a trade deficit overnight.
+
+Globalisation is the story of the world getting more connected — and more complicated. Container shipping made it cheap to move goods anywhere, the internet made it easy to coordinate across borders, and trade deals opened the doors. The result has been enormous gains: cheaper products, wider choice, faster growth in developing countries. But there are real losers too. A factory worker in Sunderland whose job moved to Shenzhen didn't experience globalisation as progress — they experienced it as a personal catastrophe. The challenge for policymakers is that the gains from trade are spread thinly across millions of consumers, while the losses are concentrated in specific communities. This is why trade policy is so politically explosive — the aggregate numbers say "everyone benefits," but the human reality is messier. The solution isn't to stop trading but to compensate the losers through retraining, regional investment, and social safety nets.
+
 ### 10.3 Trading Blocs: Numerical Welfare Analysis
 
 **Example.** Three countries form a customs union:
