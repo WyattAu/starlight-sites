@@ -785,6 +785,18 @@ Both countries gain from specialisation and trade based on comparative advantage
 
 </details>
 
+## Common Mistakes
+
+1. **Confusing absolute and comparative advantage.** A country with absolute advantage in BOTH goods still benefits from trade based on comparative advantage (lower opportunity cost). Students often incorrectly conclude that a country with absolute disadvantage in everything should not trade.
+
+2. **Assuming a depreciation always improves the current account.** The Marshall-Lerner condition must hold (|PED exports| + |PED imports| > 1) for depreciation to improve the current account. In the short run, the J-curve effect means the current account may WORSEN before it improves.
+
+3. **Confusing terms of trade improvement with economic welfare.** A terms of trade improvement (export prices rising relative to import prices) is not always beneficial. If caused by falling export volumes due to declining competitiveness, it may reflect economic weakness.
+
+4. **Miscalculating opportunity costs in comparative advantage questions.** Always calculate the opportunity cost in terms of the OTHER good. If Country A can produce 10 cars or 5 trucks, the opportunity cost of 1 car is 0.5 trucks, NOT 2 trucks. Many students invert the ratio.
+
+5. **Confusing trade creation with trade diversion.** Trade creation replaces high-cost domestic production with lower-cost imports from a partner (good). Trade diversion replaces low-cost imports from non-members with higher-cost imports from a partner due to tariff preferences (bad). Net welfare depends on which effect dominates.
+
 ## 10. Extended Worked Examples
 
 ### 10.1 Exchange Rate Determination: Purchasing Power Parity

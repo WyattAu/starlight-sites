@@ -587,6 +587,18 @@ For revision on algorithms and complexity, see
 4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
 
+## Common Mistakes
+
+1. **Assuming NFAs are more powerful than DFAs.** NFAs and DFAs accept exactly the same class of languages (the regular languages). NFAs are more convenient to write but not more powerful. The subset construction converts any NFA to an equivalent DFA.
+
+2. **Misapplying the Pumping Lemma.** The Pumping Lemma shows a language is NOT regular by contradiction — you must show that for any pumping length p, there exists a string that cannot be pumped. Students often try to prove a language IS regular using the Pumping Lemma, which is impossible.
+
+3. **Confusing semi-decidable with decidable.** The halting problem is semi-decidable — you can build a machine that accepts when it halts, but you cannot always reject when it doesn't halt (it would loop forever). Decidable problems always halt with the correct answer.
+
+4. **Confusing P with NP.** P is the class of problems solvable in polynomial time. NP is the class whose YES-instances can be verified in polynomial time. P ⊆ NP, but whether P = NP is unknown. NP-complete problems are in NP but not known to be in P.
+
+5. **Drawing NFA transitions incorrectly.** An NFA can have multiple transitions for the same input symbol from a single state, and can have ε-transitions (changing state without consuming input). DFAs have exactly one transition per symbol per state.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

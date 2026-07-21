@@ -123,6 +123,18 @@ Each page in this section includes:
 ## Exam Preparation
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
+## Common Mistakes
+
+1. **Confusing mass number with atomic number.** Mass number (A) = protons + neutrons. Atomic number (Z) = protons only. Students often write the wrong number at the top or bottom of nuclide notation ${}_Z^A X$.
+
+2. **Forgetting that binding energy per nucleon curve has a peak at iron-56.** Both fission (splitting heavy nuclei) and fusion (combining light nuclei) release energy because the products are more tightly bound than the reactants. Students sometimes think fission and fusion are "opposite" processes that can't both release energy.
+
+3. **Confusing stopping potential with threshold frequency.** Stopping potential measures the maximum kinetic energy of photoelectrons ($eV_s = E_{k,\max}$). Threshold frequency is the minimum frequency for photoemission ($f_0 = \phi/h$). They are related but distinct concepts.
+
+4. **Using the wrong value for Planck's constant.** $h = 6.63 \times 10^{-34}$ J s, not $6.63 \times 10^{-34}$ J. Students often forget the units or confuse h with ℏ = h/(2π).
+
+5. **Misidentifying the final electron acceptor.** In the photoelectric effect, the metal surface is the electron source, not the acceptor. The photon is absorbed, the electron is ejected. Students sometimes confuse this with absorption spectra where the atom absorbs the photon.
+
 ## Cross-References
 
 - [Radioactivity](./01-radioactivity.mdx): Introduces radioactive decay, half-life, and the nuclear model that underpins all nuclear physics.

@@ -448,3 +448,15 @@ linked above.
 Research methods are the quality control system for psychological knowledge. Without rigorous methodology, you can't trust the findings. The scientific method in psychology follows the same logic as any science: observe, hypothesise, test, conclude. But psychology faces unique challenges — you can't always control all variables (people are messy), and the act of studying someone changes their behaviour (demand characteristics).
 
 Think of experimental design as a recipe. The independent variable is the ingredient you change. The dependent variable is what you measure. Extraneous variables are everything else that might affect the result — you need to keep them constant or randomise them away. Reliability means your recipe produces the same result every time. Validity means your recipe actually produces the dish you intended. A study can be reliable but not valid (consistently measuring the wrong thing), so you need both.
+
+## Common Mistakes
+
+1. **Confusing reliability with validity.** Reliability means consistency — a study produces the same results if repeated. Validity means accuracy — a study measures what it claims to measure. A study can be highly reliable but not valid (consistently measuring the wrong construct). Always assess both independently.
+
+2. **Misidentifying variables in experimental designs.** The independent variable (IV) is what the researcher manipulates; the dependent variable (DV) is what is measured. Extraneous variables must be controlled or randomised. Confusing which variable is which leads to incorrect causal claims. Remember: the IV is the presumed cause, the DV is the presumed effect.
+
+3. **Ignoring demand characteristics.** When participants guess the study's purpose, they may change their behaviour to meet expectations (demand characteristics) or to please the researcher (social desirability bias). Use single-blind or double-blind designs to minimise these effects, and include deception where ethically appropriate.
+
+4. **Assuming correlation implies causation.** A correlation between two variables does not establish that one causes the other. Confounding variables, reverse causation, and coincidence can all produce spurious correlations. Only controlled experiments with random assignment can support causal claims.
+
+5. **Failing to discuss ethical considerations.** Evaluations of psychological studies must address informed consent, deception, debriefing, and the right to withdraw. Even well-designed studies can be ethically problematic if participants are not adequately protected. Ethical evaluation is a core component of IB psychology assessments.

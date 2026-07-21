@@ -162,3 +162,10 @@ Gauge symmetry is the idea that potentials are not unique but the fields they pr
 - [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The wave equation derived from Maxwell's equations is the starting point for the retarded potential solutions.
 - [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The Lorenz gauge condition $\partial_\mu A^\mu = 0$ is the covariant form of the gauge choice developed here.
 - [Radiation from Accelerating Charges](/physics/3-electromagnetism/10_radiation-from-accelerating-charges) -- The Liénard-Wiechert potentials yield the radiation fields treated in the Larmor and dipole formulas.
+
+## Common Mistakes
+
+- **Assuming the Coulomb gauge is always the simplest choice:** The Coulomb gauge ($\nabla \cdot \mathbf{A} = 0$) simplifies static magnetic problems but makes the scalar potential instantaneous, which is inconvenient for radiation. The Lorenz gauge is better for wave propagation.
+- **Confusing retarded time with actual time:** The Liénard-Wiechert potentials depend on the charge's position at the retarded time $t_r = t - R/c$, not at the present time. Using the current position gives incorrect fields for moving charges.
+- **Assuming gauge transformations change physical fields:** Gauge transformations change the potentials $(\Phi, \mathbf{A})$ but leave the electric and magnetic fields $(\mathbf{E}, \mathbf{B})$ unchanged. If your calculation gives different fields after a gauge transformation, you have made an error.
+- **Neglecting the radiation field when computing force on a charge:** The $1/R$ radiation field falls off more slowly than the $1/R^2$ velocity field. At large distances, only the radiation field matters, but at short distances the velocity field dominates.

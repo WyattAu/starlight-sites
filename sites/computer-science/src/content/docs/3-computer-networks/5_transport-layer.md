@@ -280,3 +280,10 @@ The smoothed RTT converges toward the true average (~240 ms) and the RTO stabili
 - **[Network Layer](./4_network-layer.md):** IP addressing and routing protocols.
 - **[Application Layer](./6_application-layer.md):** HTTP and application protocols.
 - **[Network Security](./7_network-security.md):** TLS and transport security.
+
+## Common Mistakes
+
+- **Confusing flow control with congestion control:** Flow control prevents the sender from overwhelming the receiver (per-connection); congestion control prevents the sender from overwhelming the network (global). They solve different problems with different mechanisms.
+- **Assuming TCP retransmission is always reliable:** TCP retransmits lost segments, but if the network is severely congested, retransmissions can make the problem worse (congestion collapse). Slow start and congestion avoidance are designed to prevent this.
+- **Forgetting that the three-way handshake adds latency:** A TCP connection requires one full RTT before data can be sent. For short-lived connections (e.g., HTTP requests), this overhead is significant. HTTP/2 and QUIC reduce this by multiplexing or using 0-RTT handshakes.
+- **Mixing up port numbers and IP addresses:** An IP address identifies a host; a port number identifies a process on that host. Two connections can have the same IP addresses but different port numbers (multiplexing), or the same port numbers but different IP addresses.

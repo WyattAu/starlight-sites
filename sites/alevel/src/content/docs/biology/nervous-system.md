@@ -878,6 +878,18 @@ organs:
 
 For more on hormonal control of blood glucose, see [Homeostasis](/docs/alevel/biology/homeostasis).
 
+## Common Mistakes
+
+1. **Confusing the resting potential with the action potential.** The resting potential is a stable state maintained by the Na⁺/K⁺ pump and K⁺ leak channels (approximately −70 mV). The action potential is a transient event — a rapid depolarisation to +40 mV followed by repolarisation. The resting potential is maintained continuously; the action potential is an all-or-nothing event.
+
+2. **Stating that neurotransmitters "cross the synaptic cleft by diffusion" without mentioning receptors.** The neurotransmitter diffuses across the cleft and binds to specific receptor proteins on the postsynaptic membrane. This binding opens ion channels, which causes the change in membrane potential. The specificity of neurotransmitter-receptor binding determines whether the synapse is excitatory or inhibitory.
+
+3. **Claiming reflexes "do not involve the brain."** Reflexes do not require brain processing to occur, but the brain receives sensory information about the reflex via ascending tracts. This allows the brain to modify the response if necessary (e.g., suppressing the withdrawal reflex if you are carrying something hot).
+
+4. **Confusing spatial and temporal summation.** Spatial summation: multiple presynaptic neurones fire simultaneously onto the same postsynaptic neurone. Temporal summation: a single presynaptic neurone fires rapidly in succession. Both combine EPSPs to reach threshold, but the mechanisms are different.
+
+5. **Thinking myelin speeds up the action potential by "insulating" it.** More precisely, myelin forces the action potential to jump between nodes of Ranvier (saltatory conduction), which is much faster than continuous propagation. The speed increase is because less membrane needs to be depolarised, and the local current flows further ahead to depolarise the next node.
+
 ## 16. Invertebrate Nervous Systems
 
 ### 16.1 Comparison with Vertebrate Nervous Systems

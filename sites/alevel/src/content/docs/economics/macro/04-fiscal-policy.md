@@ -803,6 +803,18 @@ severity of the recession, the state of public finances, and the position of int
 to the zero lower bound.
 </details>
 
+## Common Mistakes
+
+1. **Including transfer payments as part of G in the AD equation.** Transfer payments (benefits, pensions) are NOT part of government spending G in AD = C + I + G + (X-M). They affect AD indirectly through their effect on disposable income and therefore consumption C. Including them as G leads to double counting.
+
+2. **Confusing deficit and debt.** A budget deficit is how much the government overspends in a single year (a flow). National debt is the accumulated total of all past deficits (a stock). A country can reduce its deficit while its debt continues to grow. Only a surplus actually reduces the debt.
+
+3. **Assuming crowding out is always full.** Crowding out depends on the state of the economy. In a deep recession with idle resources and interest rates at the zero lower bound, crowding out is minimal. At full employment, crowding out is much more severe. Always state the economic context.
+
+4. **Misapplying the balanced budget multiplier.** The balanced budget multiplier of 1 holds only for lump-sum taxes. If taxes are proportional (MPT > 0), the balanced budget multiplier is less than 1 because some of the tax increase reduces autonomous consumption. Always check the type of tax in the question.
+
+5. **Confusing current and capital expenditure.** Current expenditure (wages, benefits) is recurrent and does not increase productive capacity. Capital expenditure (infrastructure, R&D) does. The composition of spending matters for long-run growth, not just the total amount.
+
 ## 11. Extended Worked Examples
 
 ### 11.1 Automatic Stabilisers: Quantitative Analysis

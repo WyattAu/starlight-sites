@@ -283,3 +283,10 @@ $\limsup = 0$.
 - **[Sequences and Series of Functions](3-real-analysis/7_sequences-and-series-of-functions.md)**: Pointwise and uniform convergence of function sequences extend the real-number convergence concepts to function spaces.
 - **[Metric Spaces](9-topology/7_metric-spaces.md)**: The epsilon-N definition of convergence generalises to metric spaces, where completeness and compactness play analogous roles.
 - **[Probability Spaces](8-probability-and-statistics/1_probability-spaces.md)**: Convergence of random variables (almost surely, in probability, in distribution) builds on the sequence convergence framework.
+
+## Common Mistakes
+
+- **Confusing $\limsup$ and $\liminf$ with $\sup$ and $\inf$ of the range:** The supremum of the range $\{a_n\}$ is the largest value ever attained; $\limsup$ depends on the tail behaviour. For $a_n = 1/n$, $\sup = 1$ but $\limsup = 0$.
+- **Assuming every bounded sequence converges:** Boundedness is necessary but not sufficient. $a_n = (-1)^n$ is bounded but diverges because the even and odd subsequences converge to different limits.
+- **Forgetting that a Cauchy sequence in $\mathbb{Q}$ may not converge in $\mathbb{Q}$:** Completeness of $\mathbb{R}$ guarantees Cauchy sequences converge. In $\mathbb{Q}$, the sequence of rational approximations to $\sqrt{2}$ is Cauchy but has no limit in $\mathbb{Q}$.
+- **Using $|a_n - L| < \varepsilon$ for all $n$ instead of for $n > N$:** The definition of convergence requires that the inequality holds only eventually (for all $n > N$), not for every term from the start.

@@ -827,6 +827,18 @@ linked above.
 
 
 
+## Common Mistakes
+
+1. **Applying De Morgan's laws incorrectly.** When distributing a NOT over an OR, the result is AND (and vice versa). Students often forget to flip the operator: $\overline{A + B} = \bar{A} \cdot \bar{B}$, not $\bar{A} + \bar{B}$. Draw a truth table to verify.
+
+2. **Forgetting that XOR and XNOR are not basic gates.** XOR ($A \oplus B$) and XNOR ($A \odot B$) can be constructed from AND, OR, and NOT. On exam circuits, you must show the implementation using basic gates unless XOR/XNOR are explicitly allowed.
+
+3. **Miscounting groups in Karnaugh maps.** Groups must be rectangular, contain $2^n$ cells, and wrap around edges. Students often create groups that are not rectangular (L-shapes) or groups of 3 cells, which are invalid. The largest valid group must always be chosen first.
+
+4. **Confusing the carry-out equation for a full adder.** The carry-out is $C_{out} = AB + AC_{in} + BC_{in}$ (at least two of three inputs are 1). Students often forget one of the three terms or confuse it with the sum equation ($A \oplus B \oplus C_{in}$).
+
+5. **Assuming the D-type flip-flop stores a value indefinitely.** The D-FF only updates Q on the rising edge of the clock. Between clock edges, Q remains constant regardless of changes to D. Students sometimes think D is continuously sampled.
+
 ## Cross-References
 
 - **[Number Systems](../computer-science/fundamentals/01-number-systems):** Boolean algebra operates on binary values

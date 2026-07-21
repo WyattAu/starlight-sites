@@ -858,3 +858,10 @@ The most important mental model in security is defence in depth: layering multip
 
 The human element is often the weakest link and the hardest to control. Technical controls are necessary but insufficient without a security-aware culture. The most common attack vectors — phishing, social engineering, misconfigurations — exploit human behaviour, not software vulnerabilities. This is why security awareness training, phishing simulations, and usable security design matter as much as firewalls and encryption. The goal is to make the secure choice the easy choice, so that users don't route around controls using personal devices, unapproved tools, or shared credentials. Security that is too difficult to use correctly will be used incorrectly.
 
+## Common Mistakes
+
+- **Relying on security through obscurity:** Hiding implementation details (secret algorithms, hidden URLs) is not a security measure. If the attacker discovers the detail, all protection vanishes. Use well-tested, publicly scrutinised algorithms and focus on key management instead.
+- **Confusing authentication with authorization:** Authentication verifies identity ("who are you"); authorization determines permissions ("what can you do"). A system can authenticate a user perfectly but still grant excessive permissions if authorization is not configured separately.
+- **Ignoring the human element in security design:** The most sophisticated technical controls fail when users find workarounds. If a password policy is too complex, users write passwords on sticky notes. Design security that is easy to use correctly and hard to misuse.
+- **Treating compliance as equivalent to security:** Meeting regulatory requirements (GDPR, ISO 27001) does not mean your system is secure. Compliance is a floor, not a ceiling. Attackers do not care whether you passed an audit — they care whether they can break in.
+

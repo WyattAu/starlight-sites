@@ -750,3 +750,15 @@ Poetry is, at its heart, language under pressure. When a poet compresses thought
 The analytical framework in this guide is a set of lenses, not a formula. You do not need to discuss every device in every poem. Instead, you read the poem, identify what strikes you as significant or surprising, and then work outward from that observation using the relevant tools—form, sound, imagery, figurative language—to explain how the poem achieves its effect. The goal is always to bridge the gap between what you notice and why it matters, grounding your interpretation in specific evidence from the text rather than vague impressions.
 
 Over time, this practice changes how you read everything, not just poetry. The discipline of attending closely to language, of asking how form shapes meaning, and of constructing arguments supported by textual evidence transfers directly to prose, drama, and non-literary texts. Poetry analysis is, in this sense, a training ground for all close reading—sharpening the skills of attention, precision, and inference that underpin strong literary analysis across every text you encounter.
+
+## Common Mistakes
+
+1. **Listing literary devices without explaining their effect.** Identifying that a poem uses "metaphor" or "iambic pentameter" is insufficient. You must explain *how* that device contributes to meaning, tone, or emotional impact. A device name without analysis earns few marks — always connect the technique to its effect on the reader.
+
+2. **Confusing form with content.** Form is *how* the poem is structured (sonnet, free verse, stanza length, rhyme scheme). Content is *what* it says (themes, images, narrative). Strong analysis shows how form shapes content — for example, how a sonnet's volta (turn) enacts a shift in the poem's argument. Treating form and content separately weakens your analysis.
+
+3. **Assuming the speaker is the poet.** The speaker (or persona) in a poem is a constructed voice, not necessarily the poet themselves. A poem written in the first person does not automatically reflect the poet's own experiences or beliefs. Analyse the speaker as a character within the poem, not as the author's autobiography.
+
+4. **Over-relying on biographical context.** While knowing a poet's life can enrich understanding, IB poetry analysis prioritises close reading of the text itself. Examiners want to see your ability to analyse language, form, and structure — not your knowledge of the poet's biography. Context should support, not replace, textual evidence.
+
+5. **Using vague or imprecise language.** Phrases like "the poet uses effective imagery" or "the language is powerful" are too general to earn marks. Specify *which* image, *what* makes it effective, and *how* it contributes to the poem's meaning. Precision in your analytical vocabulary distinguishes strong responses from weak ones.

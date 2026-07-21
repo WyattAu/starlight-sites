@@ -657,3 +657,15 @@ success in this subject.
 Index numbers are the economy's ruler. They measure how much prices, quantities, or values have changed relative to a base period. The base period is always 100, so an index of 120 means a 20% increase from the base year. The Consumer Price Index (CPI) is the most familiar example — it tracks the cost of a basket of goods over time.
 
 The key challenge is weighting: which goods matter most? The Laspeyres index uses base-period quantities as weights (assuming you still buy the same basket), which tends to overstate inflation because people substitute away from goods that become relatively more expensive. The Paasche index uses current-period quantities, which tends to understate inflation. Real values are nominal values divided by the price index — this strips out the effect of rising prices to show actual changes in purchasing power or output.
+
+## Common Mistakes
+
+1. **Confusing the base year value with a percentage change.** An index of 120 means a 20% increase from the base year (which is always 100), not a 120% increase. Students sometimes treat the index value as a percentage directly rather than calculating the percentage change as $\frac{\text{Index} - 100}{100} \times 100$.
+
+2. **Misidentifying Laspeyres vs Paasche indices.** Laspeyres uses base-period quantities as weights (tends to overstate inflation due to substitution bias). Paasche uses current-period quantities (tends to understate inflation). The CPI is a Laspeyres index; the GDP deflator is a Paasche index. Confusing which is which leads to incorrect inflation comparisons.
+
+3. **Forgetting to adjust nominal values using the price index.** To convert nominal values to real values, divide by the price index (as a decimal): $\text{Real value} = \frac{\text{Nominal value}}{\text{Price index} / 100}$. Students often multiply instead of divide, or forget to convert the index to a decimal, producing incorrect real values.
+
+4. **Changing the base year without rebasing the index.** When the base year changes, all index values must be recalculated relative to the new base. Simply renaming the base year without adjusting the values produces an inconsistent series that cannot be compared across time.
+
+5. **Ignoring substitution bias when comparing inflation measures.** Consumers adjust their spending patterns when relative prices change — buying less of goods that become relatively more expensive. Fixed-basket indices (Laspeyres) do not capture this substitution and therefore overstate the true cost of living increase. Chain-weighted indices address this but are more complex to compute.

@@ -921,7 +921,19 @@ Lactic acid is **$(S)$-lactic acid** (L-(+)-lactic acid).
    suffix. All other functional groups are named as prefixes. Students often use the wrong suffix or
    forget to include all substituents.
 
-5. **E/Z vs cis/trans:** Use E/Z for all cases. Use cis/trans only for simple cases with two
+5. **E/Z vs cis/trans:** Use E/Z for all cases. Use cis/trans only for simple cases with two groups on each carbon of a double bond. When in doubt, always use E/Z with CIP priority rules.
+
+## Common Mistakes
+
+1. **Numbering the parent chain from the wrong end.** The principal functional group must receive the lowest locant. If there is a tie between the functional group and a substituent, the functional group wins. Students often number from the end that gives lower locants to substituents instead.
+
+2. **Confusing structural isomers with stereoisomers.** Structural isomers differ in connectivity (which atoms are bonded to which). Stereoisomers have the same connectivity but different spatial arrangement. Students sometimes classify E/Z isomers as structural isomers.
+
+3. **Drawing curly arrows from atoms instead of electrons.** Arrows must originate from electron sources: lone pairs, π bonds, σ bonds, or negative charges. Never draw an arrow starting from an atom that has no lone pair.
+
+4. **Confusing SN1 and SN2 mechanisms.** SN2 is concerted (one step, bimolecular, inversion of configuration). SN1 is stepwise (two steps, unimolecular, racemisation via carbocation intermediate). The mechanism depends on the substrate (primary → SN2, tertiary → SN1) and conditions (strong nucleophile favours SN2).
+
+5. **Forgetting to include state symbols in equations.** Organic reactions should include state symbols (l), (g), (aq) where relevant. Examiners penalise missing state symbols, especially in equation-based questions.
    identical substituents (e.g. Cis-but-2-ene, trans-but-2-ene). When substituents are different,
    only E/Z is unambiguous.
 

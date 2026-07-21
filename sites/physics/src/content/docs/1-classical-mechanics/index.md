@@ -74,6 +74,13 @@ Each section includes:
 - **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Classical limit of quantum theory; the correspondence principle connects classical and quantum mechanics.
 - **[Mathematics](../../mathematics/index.md):** Multivariable calculus, linear algebra, and differential equations are the mathematical tools of classical mechanics.
 
+## Common Mistakes
+
+- **Confusing the Lagrangian with the Hamiltonian:** The Lagrangian is $L = T - V$ (kinetic minus potential); the Hamiltonian is $H = T + V$ (kinetic plus potential, for conservative systems). Using the wrong sign gives incorrect equations of motion.
+- **Forgetting that Noether's theorem requires continuous symmetries:** Discrete symmetries (like parity) do not produce conserved quantities via Noether's theorem. Only continuous symmetries (translations, rotations, time shifts) yield conserved momenta and energy.
+- **Applying $F = ma$ in non-inertial frames without fictitious forces:** Newton's second law holds in inertial frames. In rotating or accelerating frames, you must add Coriolis and centrifugal forces, or use the Lagrangian formulation which handles generalised coordinates automatically.
+- **Assuming energy conservation applies to non-conservative systems:** Energy is conserved only when all forces are conservative or when you account for work done by non-conservative forces (friction, drag). Friction converts mechanical energy to heat, so mechanical energy decreases.
+
 ## Intuition
 
 Classical mechanics is the physics of how things move — from cannonballs to planets to spacecraft — and its power lies in its ability to predict the future given the present. Newton's formulation (F = ma) tells you that forces cause acceleration, and that's the whole story for most practical purposes. But Lagrangian and Hamiltonian mechanics reveal something deeper: the laws of physics can be derived from a single principle — that nature follows the path of least action. The Lagrangian (kinetic minus potential energy) encodes everything about a system's dynamics, and the Euler-Lagrange equations extract the equations of motion from it. This reformulation isn't just mathematically elegant; it's practically indispensable for systems with constraints (pendulums on moving supports, molecules with fixed bond lengths, robotic arms with joints).

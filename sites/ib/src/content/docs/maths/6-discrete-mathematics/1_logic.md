@@ -855,3 +855,15 @@ linked above.
 Logic is the grammar of mathematics. Just as grammar tells you whether a sentence is well-formed, logic tells you whether an argument is valid. Every mathematical proof is essentially a chain of logical statements, each following inevitably from the previous ones.
 
 Think of logical connectives as building blocks. "And" requires both parts to be true. "Or" requires at least one part to be true. "If...then" is the most subtle — it only fails when the hypothesis is true but the conclusion is false. The contrapositive ("if not B then not A") is always logically equivalent to the original ("if A then B"), which is why proof by contradiction works so often. Truth tables are the "calculator" of logic — they let you mechanically verify any complex statement.
+
+## Common Mistakes
+
+1. **Confusing implication with its converse.** "$A \implies B$" does not mean "$B \implies A$". The converse is a separate statement that may be true or false independently. Always check: is the original implication true, and is the converse true? They are not the same question.
+
+2. **Misidentifying negations of compound statements.** The negation of "$A \land B$" is "$\neg A \lor \neg B$" (De Morgan's law), not "$\neg A \land \neg B$". Similarly, the negation of "$A \lor B$" is "$\neg A \land \neg B$". Applying De Morgan's laws incorrectly leads to wrong truth tables and flawed proofs.
+
+3. **Treating "$A \implies B$" as requiring a causal link.** In logic, "$A \implies B$" is false only when $A$ is true and $B$ is false. If $A$ is false, the implication is vacuously true regardless of $B$. Students often incorrectly judge implications as meaningless when the hypothesis is false, but this is a valid logical form used in proof by contradiction.
+
+4. **Confusing necessary and sufficient conditions.** "$A$ is sufficient for $B$" means $A \implies B$. "$A$ is necessary for $B$" means $B \implies A$. Reversing these leads to incorrect conclusions about what conditions are required or enough for a result to hold.
+
+5. **Errors in constructing truth tables for nested connectives.** When evaluating complex expressions like $A \implies (B \land \neg C)$, work from the innermost parentheses outward. Skipping intermediate columns leads to incorrect final truth values.

@@ -80,3 +80,10 @@ Each section includes:
 - **[Systems](../../2-systems/index.md):** Computer architecture and operating systems that networking relies on.
 - **[Network Security](./7_network-security.md):** TLS, encryption, and authentication protocols.
 - **[Databases](../../4-databases/index.md):** Distributed databases that depend on network communication.
+
+## Common Mistakes
+
+- **Confusing TCP and UDP use cases:** TCP provides reliable, ordered delivery; UDP provides fast, connectionless delivery. Using TCP for real-time video introduces unnecessary latency; using UDP for file transfer loses data. Match the protocol to the application's requirements.
+- **Forgetting that DNS is a single point of failure:** Many applications assume DNS will always respond. If DNS fails, the application is unreachable regardless of how well the rest of the infrastructure is designed. Always consider DNS redundancy and caching.
+- **Assuming the OSI model maps directly to the TCP/IP stack:** The OSI model has 7 layers; TCP/IP has 4. Students often confuse which protocols belong to which layer, especially for application-layer protocols that span multiple OSI layers (e.g., HTTP).
+- **Neglecting network security from the start:** Security is not an afterthought. Protocols like HTTP transmit data in plaintext; TLS must be added explicitly. Designing a network without considering encryption, authentication, and access control from the beginning leads to costly retrofits.

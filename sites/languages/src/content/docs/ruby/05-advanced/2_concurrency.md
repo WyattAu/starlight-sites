@@ -890,3 +890,10 @@ promise.execute
 - [Object-Oriented Programming](/docs/languages/ruby/04-oop/1_oop) defines the objects and state that concurrent threads access and modify.
 - [Metaprogramming](/docs/languages/ruby/05-advanced/1_metaprogramming) can introduce race conditions when dynamically modifying class definitions across threads.
 - [Methods and Blocks](/docs/languages/ruby/03-methods-blocks/1_methods-and-blocks) shows how method calls and blocks interact with Ruby's thread scheduler.
+
+## Common Mistakes
+
+- **Assuming the GIL eliminates all concurrency concerns:** The GIL prevents parallel execution of Ruby code but not I/O waits. Threads are useful for I/O-bound tasks but not CPU-bound ones. Use processes or the `concurrent-ruby` gem for true parallelism.
+- **Modifying shared state without synchronization:** Even with the GIL, race conditions occur when multiple threads read and write shared data without locks. Always use `Mutex`, `Concurrent::AtomicFixnum`, or other synchronization primitives for shared mutable state.
+- **Using `Thread.new` without managing the lifecycle:** Threads that raise exceptions silently die. Always handle errors inside threads and consider using a thread pool (`Concurrent::ThreadPoolExecutor`) instead of spawning unbounded threads.
+- **Confusing Fibers with threads:** Fibers are cooperative (you must explicitly yield with `Fiber.yield`), while threads are preemptive. Do not use Fibers for concurrent I/O unless you are using Ruby 3+ with `Fiber.schedule` and an async runtime.

@@ -887,6 +887,13 @@ and past paper questions, is essential for success in examinations.
 - **[Atomic Structure](../../chemistry/1-atomic-structure/1_atomic-structure.md):** Chemistry notes on electronic configuration and periodic trends that complement the atomic models covered here.
 - **[Practice Physics](../practice-physics.mdx):** Interactive practice problems covering modern physics, mechanics, and other topics.
 
+## Common Mistakes
+
+- **Confusing nuclear fission and fusion:** Fission splits heavy nuclei into lighter ones; fusion combines light nuclei into heavier ones. Both release energy, but for different reasons — fission releases energy because the binding energy per nucleon increases when splitting uranium; fusion releases energy because light nuclei have lower binding energy per nucleon than medium-mass nuclei.
+- **Using $E = mc^2$ without converting units:** The mass must be in kilograms and the speed of light in m/s to get energy in joules. A common error is using grams or forgetting the $c^2$ factor entirely.
+- **Assuming all radioactive decay is instantaneous:** Decay is probabilistic. The half-life tells you the time for half the nuclei to decay, but you cannot predict which specific nuclei will decay. The exponential decay law $N = N_0 e^{-\lambda t}$ describes the statistical behaviour, not individual atoms.
+- **Confusing mass defect with mass loss:** The mass defect is the difference between the mass of individual nucleons and the mass of the nucleus. It is not "lost" mass — it is converted to binding energy. The nucleus is lighter than its constituent parts, which is why it is stable.
+
 ## Intuition
 
 Classical physics treats the world as continuous and predictable: waves spread smoothly, particles travel definite paths, and measuring something does not change it. Modern physics shattered that picture. At atomic scales, energy comes in discrete packets (quanta), particles behave as waves, and there is a fundamental limit to how precisely you can know certain pairs of properties. These are not strange side effects or measurement errors — they are built into the fabric of reality.

@@ -250,3 +250,10 @@ the set, but $\sup(0, 1) = 1$ which does not belong to $(0, 1)$.
 - **[Linear Algebra](../../2-linear-algebra/):** Vector spaces, matrices, and linear transformations.
 - **[Real Analysis](../../3-real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **[Practice](../../practice-*.mdx):** Practice problems for revision.
+
+## Common Mistakes
+
+- **Confusing supremum with maximum:** The maximum must be an element of the set; the supremum need not be. $\sup(0,1) = 1$ but $\max(0,1)$ does not exist. Always check whether $\sup(S) \in S$ before claiming it is a maximum.
+- **Assuming every bounded set has a supremum in $\mathbb{Q}$:** The completeness axiom holds only in $\mathbb{R}$. In $\mathbb{Q}$, sets like $\{x \in \mathbb{Q} : x^2 < 2\}$ are bounded above but have no supremum in $\mathbb{Q}$ because $\sqrt{2} \notin \mathbb{Q}$.
+- **Omitting "non-empty" when stating completeness:** The completeness axiom requires the set to be non-empty and bounded above. An empty set is bounded above but has no supremum (or, by convention, $\sup \varnothing = -\infty$, which is not a real number).
+- **Treating density and completeness as the same property:** The rationals are dense in $\mathbb{R}$ (between any two reals there is a rational), but they are not complete. Density means no gaps between elements; completeness means no missing limit points.

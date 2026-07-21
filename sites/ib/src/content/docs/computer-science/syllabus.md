@@ -342,3 +342,15 @@ linked above.
 The IB Computer Science syllabus is a roadmap of what you need to know. It's organised into five themes, each building on the previous one. System Design is about planning and building systems that work. Computational Thinking is about solving problems with algorithms. Data and Information is about storing and managing data efficiently. Networking and Cybersecurity is about connecting systems and keeping them safe. Programming is about implementing everything else in code.
 
 The HL extension goes deeper into resource management (how CPUs and memory work), control (how programs flow), and modelling (how we represent real-world systems in code). Think of the syllabus as a hierarchy: you start with the basics (what is a computer, what is an algorithm), then build up to complex systems (networks, databases, OOP). Each topic connects to the others — you can't understand databases without understanding data structures, and you can't understand networking without understanding protocols.
+
+## Common Mistakes
+
+1. **Focusing only on HL content and neglecting SL foundations.** The HL extension builds directly on SL topics. If your understanding of SL algorithms, data structures, or networking is weak, the HL material on resource management, control, and modelling will be incomprehensible. Master the SL content before tackling HL extensions.
+
+2. **Memorising without understanding.** The IB rewards application and evaluation, not rote recall. Memorising definitions of "abstraction" or "decomposition" without being able to apply them to novel problems will not earn full marks. Practice applying concepts to unfamiliar scenarios.
+
+3. **Ignoring the command terms in exam questions.** "Define," "describe," "explain," and "evaluate" require different depths of response. "Define" means state the meaning precisely. "Explain" means give reasons or causes. "Evaluate" means weigh strengths and weaknesses. Misinterpreting the command term leads to responses that are too shallow or too detailed.
+
+4. **Confusing related concepts across topics.** Abstraction in computational thinking is different from abstraction in object-oriented programming. Data structures in Topic 3 are different from data representation in Topic 1. Keep concepts separated by topic and understand the specific context in which each is used.
+
+5. **Neglecting practical programming skills.** The internal assessment requires a working program. Many students focus on written exams and leave programming practice until too late. Write code regularly throughout the course, not just before the IA deadline.

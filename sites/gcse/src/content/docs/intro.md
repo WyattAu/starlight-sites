@@ -164,3 +164,9 @@ This page includes:
 ## Exam Preparation
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
+## Common Mistakes
+
+- **Re-reading notes passively instead of testing yourself:** Passive re-reading gives the illusion of understanding without actual retention. Use active recall (flashcards, practice questions, self-quizzing) to force your brain to retrieve information, which strengthens long-term memory.
+- **Leaving revision until the last few weeks:** GCSE content accumulates over two years. Cramming in the final weeks produces surface-level recognition, not deep understanding. Start spaced revision early and increase frequency closer to exams.
+- **Ignoring examiner reports and mark schemes:** Examiner reports reveal exactly where students lose marks. Reading them tells you what examiners consider a "good" answer, which is often different from what students assume. Always check how marks are allocated.
+- **Practising only easy questions:** Students tend to revisit topics they already understand and avoid difficult ones. Focus on your weak areas — that is where the marks are gained. Use diagnostic tests to identify gaps rather than guessing.

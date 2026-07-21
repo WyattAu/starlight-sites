@@ -2274,3 +2274,15 @@ sufficient consumer surplus gains to offset it.
 Comparative advantage is the most counterintuitive idea in economics. It says that even if one country is better at producing everything (absolute advantage), both countries can still benefit from trade. The key is opportunity cost — what you give up to produce something. Country A might be better at producing both wine and cloth, but if it's *much* better at wine, it should specialise in wine and buy cloth from Country B, even if B is less efficient at cloth. This is because A's opportunity cost of producing cloth (in terms of wine forgone) is higher than B's.
 
 Think of trade as a positive-sum game, not zero-sum. When countries specialise according to comparative advantage and trade, the total output increases — both countries can consume more than they could in isolation. Tariffs and quotas disrupt this by raising prices and reducing trade volume, creating deadweight loss (welfare that simply disappears). The WTO exists to keep trade barriers low and resolve disputes.
+
+## Common Mistakes
+
+1. **Confusing absolute advantage with comparative advantage.** Absolute advantage means producing more with the same inputs; comparative advantage means producing at lower opportunity cost. A country can have an absolute advantage in every good but still benefit from trade if opportunity costs differ. Trade is based on comparative, not absolute, advantage.
+
+2. **Misapplying the Marshall-Lerner condition without considering the J-curve.** The Marshall-Lerner condition states that a currency depreciation improves the current account if the sum of export and import elasticities exceeds 1. However, in the short run, the J-curve effect means the current account may worsen before improving because existing contracts lock in pre-depreciation prices. Students often forget this time lag.
+
+3. **Confusing trade creation with trade diversion in customs unions.** Trade creation occurs when a member switches from high-cost domestic production to lower-cost imports from a partner. Trade diversion occurs when a member switches from a low-cost non-member to a higher-cost partner. A customs union is welfare-improving only if trade creation exceeds trade diversion.
+
+4. **Assuming tariffs always reduce welfare.** While tariffs generally create deadweight loss, the optimal tariff argument shows that a large country can improve its welfare by imposing a small tariff that improves its terms of trade. This does not apply to small countries (which are price takers) and ignores the risk of retaliation.
+
+5. **Miscalculating terms of trade.** The terms of trade index is $\frac{P_X}{P_M} \times 100$, where $P_X$ is the export price index and $P_M$ is the import price index. Students sometimes invert the ratio, which reverses the interpretation: an increase means improvement, not deterioration. Always check whether the index moved up (favourable) or down (unfavourable).

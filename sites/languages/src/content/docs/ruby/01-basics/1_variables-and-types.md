@@ -865,3 +865,10 @@ Integer("abc")     # => ArgumentError
 - [Control Flow](/docs/languages/ruby/02-control-flow/1_control-flow) uses variable values and type checks in conditional branching and loop constructs.
 - [Methods and Blocks](/docs/languages/ruby/03-methods-blocks/1_methods-and-blocks) demonstrates how variables are passed to methods and blocks as parameters.
 - [Ruby Introduction](/docs/languages/ruby/00-intro/1_ruby-intro) provides the overview of Ruby's dynamic typing system that governs how these types behave.
+
+## Common Mistakes
+
+- **Confusing mutable and immutable objects:** Strings in Ruby are mutable by default. `"hello".gsub!("l", "L")` modifies the original string. Use `freeze` or `"hello".gsub("l", "L")` (non-bang version) when you want to preserve the original value.
+- **Misunderstanding truthiness:** In Ruby, everything except `nil` and `false` is truthy, including `0`, `""`, and `[]`. This catches beginners who expect `0` or empty strings to be falsy as in other languages.
+- **Using `==` vs `equal?` vs `eql?` incorrectly:** `==` checks value equality, `equal?` checks object identity (same object in memory), and `eql?` checks value and type. Use `==` for most comparisons; `equal?` is rarely needed in application code.
+- **Mutating an argument inside a method:** Passing a mutable object to a method and modifying it changes the original. Use `.dup` or `.freeze` to prevent unintended side effects on the caller's data.

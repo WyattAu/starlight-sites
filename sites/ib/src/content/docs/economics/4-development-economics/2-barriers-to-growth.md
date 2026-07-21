@@ -853,3 +853,15 @@ structural transformation.
 The poverty trap is a vicious cycle: low income → low savings → low investment → low productivity → low income. It's like trying to climb a hill while the ground slopes downward under you. Breaking free requires a "big push" — a large enough investment in education, health, and infrastructure to shift the economy onto a higher growth path. This is why foreign aid, debt relief, and institutional reform matter.
 
 The Harrod-Domar model captures this simply: growth equals savings divided by the capital-output ratio. If a country saves more, it can invest more and grow faster. If capital is used efficiently (low capital-output ratio), growth is faster. The Lewis model adds that development involves moving workers from low-productivity agriculture to high-productivity industry. The resource curse shows that even abundant natural resources can be a curse — they can fund corruption, appreciate the exchange rate (hurting other exports), and create conflict over resource rents.
+
+## Common Mistakes
+
+1. **Confusing the poverty trap with simply being poor.** The poverty trap is a self-reinforcing mechanism: low income → low savings → low investment → low productivity → low income. Being poor is a state; the poverty trap is a dynamic process. A country can be poor without being trapped (if it is growing), and a country can be trapped even at moderate income levels if institutional failures prevent investment.
+
+2. **Assuming the Harrod-Domar model's $g = s/v$ relationship is unconditional.** The model assumes a fixed capital-output ratio and that all savings are productively invested. In practice, savings may be hoarded (capital flight), invested in unproductive sectors, or absorbed by corruption. A high savings rate does not guarantee high growth if the institutional environment is poor.
+
+3. **Treating the Lewis turning point as a fixed date rather than a structural threshold.** The turning point occurs when surplus labour in the traditional sector is exhausted, after which wages must rise. It is not a calendar event but a structural change that depends on the rate of modern-sector expansion and population growth. Misidentifying the turning point leads to incorrect policy prescriptions.
+
+4. **Assuming the resource curse is inevitable.** Natural resource wealth can be managed well (e.g., Norway's sovereign wealth fund) or poorly (e.g., Nigeria's oil wealth). The curse depends on institutions, governance, and policy — it is not a deterministic outcome. Avoiding it requires deliberate institutional design, not resource depletion.
+
+5. **Ignoring the role of human capital in growth models.** Both Harrod-Domar and Lewis models focus on physical capital and labour but neglect human capital (education, skills, health). In modern economies, human capital is a primary driver of productivity growth. Omitting it leads to incomplete policy recommendations that focus only on savings and investment.

@@ -1157,6 +1157,18 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Common Mistakes
+
+1. **Confusing WHERE and HAVING in SQL.** WHERE filters individual rows *before* GROUP BY is applied; HAVING filters groups *after* aggregation. You cannot use aggregate functions (COUNT, SUM, AVG) in a WHERE clause — use HAVING instead.
+
+2. **Normalising to 2NF when the table is already in 2NF.** 2NF requires no partial dependencies on *composite* keys. If the primary key is a single attribute, there are no partial dependencies, and the table is automatically in 2NF. Check for transitive dependencies (3NF violation) instead.
+
+3. **Forgetting that INNER JOIN excludes unmatched rows.** If you need all rows from one table regardless of matches, use LEFT JOIN. Students often write INNER JOIN when they need LEFT JOIN, losing data for entities without related records.
+
+4. **Misidentifying candidate keys.** A candidate key must determine ALL other attributes in the relation. Compute the closure of each potential key — if the closure includes all attributes, it is a candidate key. Students often select a non-minimal set or miss a candidate key.
+
+5. **Confusing entity-relationship cardinalities.** In a 1:Many relationship, the foreign key goes in the table on the "Many" side. In a Many:Many relationship, you need a junction table with foreign keys referencing both entities.
+
 ## Cross-References
 
 - [Algorithms and Complexity](../algorithms/04-complexity-analysis) -- Query performance depends on algorithmic complexity, connecting database operations to computational efficiency.

@@ -1069,6 +1069,18 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+## Common Mistakes
+
+1. **Conflating order with stoichiometry.** The orders in the rate equation must be determined experimentally. They cannot be read from the balanced equation. A reaction with stoichiometry A + 2B → C may have rate = k[A]²[B] — the orders are independent of the coefficients.
+
+2. **Incorrect units for k.** Always derive units from the rate equation. A rate constant with incorrect units in an answer will lose marks. Use dimensional analysis: Units of k = (mol dm⁻³)^(1-order) × s⁻¹.
+
+3. **Assuming catalysts increase yield.** Catalysts increase rate, not yield. They lower the activation energy for both forward and reverse reactions equally, so the equilibrium position is unchanged. The catalyst helps reach equilibrium faster.
+
+4. **Using the wrong half of an Arrhenius plot.** The x-axis must be 1/T (in K⁻¹), not T in °C. The gradient is −Eₐ/R, so Eₐ = −gradient × R. Students often forget the negative sign or use temperature in Celsius.
+
+5. **Confusing initial rate with instantaneous rate.** The iodine clock and other clock reactions measure the initial rate (rate at t = 0). The thiosulphate amount must be small relative to the reactants for this approximation to hold.
+
 ## Cross-References
 
 - [Chemistry](/alevel/chemistry)

@@ -793,6 +793,18 @@ The Bank of England feared that if inflation remained high for an extended perio
   inflation-unemployment trade-off -- attempting to do so only produces accelerating inflation in
   the long run.
 
+## Common Mistakes
+
+1. **Confusing real and nominal GDP.** Students often forget to adjust for inflation when comparing GDP across years. Always check whether a question asks for real or nominal figures. A rise in nominal GDP may reflect price increases, not actual growth in output.
+
+2. **Misidentifying types of unemployment.** The most common error is classifying all unemployment as cyclical. Structural unemployment (skills mismatch) and frictional unemployment (job search time) always exist even at full employment. The natural rate of unemployment is never zero.
+
+3. **Confusing deficit with debt.** A budget deficit is a flow (annual shortfall), while national debt is a stock (accumulated total). Reducing the deficit does not reduce the debt — it merely slows its rate of growth. Only a budget surplus reduces the debt.
+
+4. **Misinterpreting the Phillips curve as a stable trade-off.** The short-run Phillips curve shifts when inflation expectations change. A government cannot permanently exploit the inflation-unemployment trade-off — attempting to do so only produces accelerating inflation in the long run.
+
+5. **Confusing GDP per capita with living standards.** GDP per capita is an average that ignores income distribution, environmental quality, leisure, and unpaid work. A country can have high GDP per capita but poor health outcomes, high inequality, and low quality of life.
+
 ## 8. Advanced Macroeconomic Analysis
 
 ### 8.1 GDP Calculations: Comprehensive Worked Examples

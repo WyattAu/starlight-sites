@@ -106,3 +106,10 @@ Mechanics forms the foundation of all physics. Understanding Newton's laws, ener
 - **[Chemistry](../../chemistry/):** Chemistry notes covering organic and physical chemistry.
 - **[Physics](../../physics/):** Physics notes covering mechanics and thermodynamics.
 - **[Practice](../../practice-*.mdx):** Practice problems for revision.
+
+## Common Mistakes
+
+- **Forgetting to include all forces in free-body diagrams:** Beginners often omit normal force, friction, or weight. Every object interacting with the system must be represented. Draw the object in isolation and list every contact and non-contact force.
+- **Mixing up mass and weight:** Mass ($m$) is in kg and is constant; weight ($W = mg$) is a force in Newtons and varies with gravity. Using mass where weight is required (or vice versa) gives wrong answers by a factor of $g$.
+- **Sign errors in projectile motion:** The acceleration due to gravity is $-g$ (downward) in the vertical direction. Forgetting the negative sign leads to objects accelerating upward instead of falling.
+- **Using rotational kinetic energy without the correct moment of inertia:** The moment of inertia depends on geometry (solid disk $\frac{1}{2}mr^2$, thin ring $mr^2$, etc.). Using the wrong formula gives incorrect rotational energy values.

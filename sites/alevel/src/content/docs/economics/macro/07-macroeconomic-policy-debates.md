@@ -727,6 +727,18 @@ Complete regime change.
   policy regime, because behaviour changes when policy changes. Micro-founded models that use deep
   structural parameters are more robust.
 
+## Common Mistakes
+
+1. **Treating Keynesianism and monetarism as mutually exclusive.** Modern macroeconomic policy is a synthesis of both views. Keynesian demand management is appropriate during recessions (especially at the zero lower bound), while monetarist concerns about inflation dominate near full employment. The "correct" view depends on the economic context.
+
+2. **Misunderstanding the time-inconsistency problem.** The problem is not that policymakers are dishonest, but that rational agents anticipate the incentive to renege on announced policies and adjust their behaviour accordingly. This is why independent central banks with clear inflation targets outperform discretionary policy.
+
+3. **Confusing the Taylor Rule with a law.** The Taylor Rule is a PRESCRIPTIVE guideline, not a description of what central banks actually do. Its coefficients (0.5 for both inflation gap and output gap) are suggested values, not fixed parameters. Central banks exercise discretion in practice.
+
+4. **Oversimplifying the Lucas critique.** The Lucas critique does not say all models are useless. It says that models estimated under one policy regime cannot reliably predict the effects of a NEW policy regime, because behaviour changes when policy changes. Micro-founded models that use deep structural parameters are more robust.
+
+5. **Assuming QE always works.** Quantitative easing's effectiveness depends on the state of the banking system, the slope of the yield curve, and whether the economy is at the zero lower bound. In a liquidity trap, QE may have limited effect if banks hoard reserves rather than lending.
+
 ## 8. Advanced Policy Debates: Worked Examples
 
 ### 8.1 Taylor Rule: Full Numerical Application

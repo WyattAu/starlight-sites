@@ -591,6 +591,18 @@ Transferring after market incomes are determined). Over-reliance on either alone
    but not absolute. Moderate redistribution (funding education, healthcare, infrastructure) can
    enhance long-run growth by improving human capital and social stability.
 
+## Common Mistakes
+
+1. **Confusing income and wealth inequality.** Wealth is far more unequally distributed than income. A country with moderate income inequality may have extreme wealth inequality. Policies that address income (progressive tax) may not address wealth (inheritance tax, wealth tax).
+
+2. **Assuming a lower Gini always means a better outcome.** A lower Gini achieved by making everyone equally poor is not desirable. The goal is to reduce inequality while maintaining (or increasing) average incomes.
+
+3. **Ignoring the difference between absolute and relative poverty.** A country can have very low absolute poverty but high relative poverty. Policies to address each are different: absolute poverty requires economic growth and direct transfers; relative poverty requires reducing the income gap.
+
+4. **Overstating the poverty trap.** While high EMTRs exist, empirical evidence suggests that most people still respond to financial incentives. The poverty trap is a real but often exaggerated problem — few people face EMTRs above 80%.
+
+5. **Treating the Gini coefficient as a complete measure.** The Gini is insensitive to changes at different parts of the distribution. Two countries with the same Gini can have very different income distributions (e.g., one with a large underclass, another with a small elite). Always use supplementary measures like the Palma ratio.
+
 ## 15. Extension Problem Set
 
 **Problem 1.** A country has income quintile shares: 4%, 9%, 15%, 24%, 48%. Calculate the Gini

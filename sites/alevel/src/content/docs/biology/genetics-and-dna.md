@@ -984,6 +984,18 @@ In eukaryotes, the primary transcript (pre-mRNA) undergoes three modifications:
 
 ## 13. Epigenetics in Depth
 
+## Common Mistakes
+
+1. **Confusing leading and lagging strand synthesis.** The leading strand is synthesised continuously in the 5' → 3' direction towards the replication fork. The lagging strand is synthesised discontinuously in the 5' → 3' direction away from the fork, in Okazaki fragments. Both strands are synthesised in the 5' → 3' direction — the difference is the direction relative to the fork.
+
+2. **Confusing transcription and translation.** Transcription produces mRNA from a DNA template in the nucleus. Translation produces a polypeptide from mRNA on ribosomes in the cytoplasm. Students often mix up which process occurs where and what the product is.
+
+3. **Miscounting nucleotides, codons, and amino acids.** The relationship is: 3 nucleotides = 1 codon = 1 amino acid (except the stop codon). For a protein of n amino acids, you need 3n + 3 nucleotides in mRNA (including the stop codon). Students often forget to add the stop codon.
+
+4. **Confusing introns and exons.** Introns are non-coding regions removed during splicing. Exons are coding regions joined together to form the mature mRNA. Students often swap these definitions.
+
+5. **Thinking mutations are always harmful.** Most mutations are neutral (silent mutations, mutations in non-coding DNA). Some are harmful (cause genetic disorders), and a few are beneficial (provide variation for natural selection). The harmful mutations are eliminated by selection; beneficial ones may increase in frequency.
+
 ### 13.1 DNA Methylation
 
 DNA methylation involves the addition of a methyl group ($\mathrm{-CH_3}$) to the 5-carbon of

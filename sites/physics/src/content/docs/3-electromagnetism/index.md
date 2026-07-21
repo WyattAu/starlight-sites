@@ -74,6 +74,13 @@ Each section includes:
 - **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum electrodynamics; the quantum theory of electromagnetic interactions.
 - **[Particle Physics](../../7-particle-physics-and-cosmology/index.md):** The photon is the gauge boson of electromagnetism in the Standard Model.
 
+## Common Mistakes
+
+- **Confusing electric field lines with magnetic field lines:** Electric field lines start on positive charges and end on negative charges. Magnetic field lines always form closed loops because there are no magnetic monopoles. You cannot terminate a magnetic field line on a point.
+- **Forgetting that changing magnetic fields create electric fields (Faraday's law):** A stationary magnet near a wire produces no EMF. Only a changing magnetic flux through a loop induces an EMF. Motion or time variation is required.
+- **Applying Gauss's law without symmetry:** Gauss's law is always true, but it is only useful for computing $\mathbf{E}$ when the charge distribution has high symmetry (spherical, cylindrical, planar). Without symmetry, the surface integral is too difficult to evaluate directly.
+- **Mixing up the displacement current with conduction current:** The displacement current $\varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}$ is not a real current — it is a term in Ampère's law that accounts for time-varying electric fields. It has the same units as current but does not involve moving charges.
+
 ## Intuition
 
 Electromagnetism is the force that holds atoms together, makes chemistry possible, and generates the light, radio waves, and X-rays that connect and illuminate our world. Its complete description is captured in just four equations — Maxwell's equations — which are among the most elegant and far-reaching results in all of physics. Gauss's law tells you that electric charges are the sources of electric fields. Gauss's law for magnetism tells you there are no magnetic monopoles — magnetic field lines always form closed loops. Faraday's law says that changing magnetic fields create electric fields (the basis of generators and transformers). Ampère's law with Maxwell's correction says that both currents and changing electric fields create magnetic fields.

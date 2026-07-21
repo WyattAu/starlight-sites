@@ -70,3 +70,10 @@ Each section includes:
 - **[Algorithms](../../1-algorithms/index.md):** Algorithm design and complexity theory.
 - **[Databases](../../4-databases/index.md):** Query optimisation using automata theory.
 - **[Computer Networks](../../3-computer-networks/index.md):** Protocol design based on formal languages.
+
+## Common Mistakes
+
+- **Confusing decidability with recognisability:** A language can be recognised by a Turing machine (the TM halts and accepts for strings in the language) without being decidable (the TM may loop forever on strings not in the language). The Halting Problem is the canonical example.
+- **Assuming P ≠ NP without understanding the implications:** The P vs NP question is one of the biggest unsolved problems in mathematics. Claiming a proof without understanding the consequences for cryptography, optimisation, and complexity theory is a red flag.
+- **Forgetting that reductions prove hardness, not easiness:** If problem A reduces to problem B, it means B is at least as hard as A. Students often confuse the direction: reducing A to B shows B is hard, not that A is easy.
+- **Mixing up deterministic and non-deterministic automata:** Deterministic finite automata (DFA) have exactly one transition per state-symbol pair. Non-deterministic automata (NFA) can have multiple, and epsilon transitions. NFAs are exponentially more compact but accept the same regular languages as DFAs.

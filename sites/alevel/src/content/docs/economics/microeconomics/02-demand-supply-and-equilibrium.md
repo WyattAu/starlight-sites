@@ -794,6 +794,18 @@ TOTAL consumer welfare is ambiguous.
 loss. The statement that it "benefits consumers" is misleading without qualification.
 </details>
 
+## Common Mistakes
+
+1. **Confusing "demand" with "quantity demanded."** "Demand" refers to the entire curve; "quantity demanded" refers to a specific point on the curve. A price change causes a movement along the curve (change in quantity demanded), not a shift of the curve (change in demand). This is the single most common exam error.
+
+2. **Applying the midpoint formula when point elasticity is asked for.** The midpoint (arc elasticity) formula gives elasticity at the midpoint of a change, not at either endpoint. For precise analysis, use point elasticity. Always check which formula your exam board expects.
+
+3. **Assuming elastic demand always means less revenue.** The relationship between PED and revenue depends on the *direction* of the price change. A price *decrease* with elastic demand *increases* revenue; a price *increase* with elastic demand *decreases* revenue.
+
+4. **Misapplying tax incidence.** The legal incidence (who writes the cheque to the government) does not determine the economic incidence (who bears the burden). The burden depends on relative elasticities: the more inelastic side bears a greater share.
+
+5. **Forgetting that supply can be elastic or inelastic too.** PES determines how quickly producers can respond to price changes. In the short run, supply is less elastic than in the long run. Always consider both demand and supply elasticities when analysing price changes.
+
 ## 10. Extended Worked Examples
 
 ### 10.1 Consumer Choice: Indifference Curve Analysis

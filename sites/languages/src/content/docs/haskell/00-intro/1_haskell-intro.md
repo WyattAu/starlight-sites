@@ -696,3 +696,10 @@ Haskell" programming style used in production code.
 
 The combination of strong typing, purity, and concurrency makes Haskell particularly well-suited for
 systems where correctness is critical and where concurrent operations are the norm.
+
+## Common Mistakes
+
+- **Assuming Haskell is purely academic:** Haskell is used in production at major companies (Standard Chartered, Facebook, GitHub). Dismissing it as "not practical" ignores its real-world adoption in finance, infrastructure, and developer tooling.
+- **Confusing laziness with inefficiency:** Laziness does not mean slow. GHC optimises lazy evaluation aggressively, and strict evaluation can actually be slower if it forces unnecessary computation. Profile before assuming laziness is the problem.
+- **Treating the type system as an obstacle:** Haskell's type system catches bugs at compile time that other languages discover at runtime. Fight the compiler less — read type errors carefully, as they often point directly to the problem.
+- **Trying to use `IO` for everything:** The IO monad is for real-world side effects, not general computation. Keep pure functions separate from IO, and push IO to the edges of your program. This makes testing and reasoning much easier.

@@ -77,6 +77,13 @@ Each section includes:
 - **[Electromagnetism](../../3-electromagnetism/index.md):** Electromagnetic properties of materials; dielectrics and conductors are electromagnetic phenomena.
 - **[Mathematics](../../mathematics/index.md):** Fourier transforms, group theory, and linear algebra are essential mathematical tools.
 
+## Common Mistakes
+
+- **Confusing conductors, insulators, and semiconductors by their resistivity alone:** The distinction is about band structure, not just resistivity. A semiconductor has a small band gap; an insulator has a large one. Temperature dependence is the key difference: semiconductor resistivity decreases with temperature, while conductor resistivity increases.
+- **Assuming Bloch's theorem applies to amorphous materials:** Bloch's theorem requires a periodic potential (crystal lattice). It does not apply to glasses, polymers, or disordered solids, where different theoretical frameworks (Anderson localisation) are needed.
+- **Forgetting that phonons carry heat and scatter electrons:** Phonons are not just lattice vibrations — they are quantised excitations that determine thermal conductivity and electrical resistivity. Ignoring electron-phonon scattering gives incorrect predictions for resistivity at finite temperature.
+- **Confusing the Drude model with quantum band theory:** The Drude model treats electrons as classical particles and fails to explain why some materials are insulators. Band theory, which uses quantum mechanics, correctly explains the metal-insulator-semiconductor distinction.
+
 ## Intuition
 
 Solid state physics answers a deceptively simple question: why do some materials conduct electricity while others don't? The answer lies in the quantum mechanics of electrons in periodic potentials. When atoms arrange themselves in a crystal lattice, their individual energy levels split into bands of closely spaced energies. The key insight is that electrons can only occupy certain energy bands, and whether the highest occupied band is full or partially filled determines whether a material is a metal, insulator, or semiconductor. A partially filled band means electrons can move freely (conductor); a completely filled band below a gap means electrons are stuck (insulator); a nearly full band with a small gap means a few electrons can be promoted thermally (semiconductor).

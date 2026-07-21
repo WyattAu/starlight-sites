@@ -821,6 +821,18 @@ Pull request, and run the full suite nightly.
 </details>
 
 
+## Common Mistakes
+
+1. **Assuming 100% branch coverage means bug-free code.** Branch coverage tests control flow, not data ranges, data types, or arithmetic properties. A function can have correct control flow but incorrect logic for specific data values (e.g., negative inputs, overflow, empty lists).
+
+2. **Confusing stubs with mocks.** A stub provides canned responses to test data; a mock verifies interactions (which methods were called, with what arguments). Use stubs when you need test data, and mocks when you need to verify that code correctly calls dependencies.
+
+3. **Using floating-point division for binary search midpoints.** Using `mid = (low + high) / 2` in languages like C/Java can cause integer overflow when `low + high > INT_MAX`. The safe form is `mid = low + (high - low) / 2`.
+
+4. **Forgetting edge cases in test design.** Always test: empty input, single element, already sorted data, maximum size, negative numbers, and boundary values. Off-by-one errors are among the most common bugs and are caught by boundary value analysis.
+
+5. **Writing tests that depend on execution order.** Each test should set up its own state and clean up after itself. Tests that depend on previous tests produce false passes (a bug masked by a prior test) or false failures (a test fails because a previous test didn't clean up).
+
 ## Summary
 
 This topic covers the core concepts of testing, including underlying theory, practical

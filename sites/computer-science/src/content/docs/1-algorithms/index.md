@@ -69,3 +69,10 @@ Each section includes:
 
 - **[Algorithm Analysis](../../2-algorithms-and-data-structures/1_algorithm-analysis.md):** Formal complexity analysis for the algorithms studied here.
 - **[Discrete Mathematics](../../mathematics/src/content/docs/1-abstract-algebra/index.md):** Graph theory and combinatorics foundations for algorithm design.
+
+## Common Mistakes
+
+- **Confusing time complexity with space complexity:** An algorithm can be fast but use a lot of memory (e.g., storing all permutations) or slow but memory-efficient. Always analyse both dimensions and state which one you are optimising.
+- **Misapplying Big-O notation:** $O(n)$ describes an upper bound, not an exact growth rate. Saying "this algorithm is $O(n^2)$" does not mean it always takes quadratic time — it could be faster. Use $\Theta(n)$ when you mean tight bound.
+- **Assuming a greedy algorithm is optimal:** Greedy algorithms work for matroids and certain optimisation problems but fail for many others (e.g., knapsack, Huffman coding requires a proof of correctness). Always prove or cite why a greedy strategy works.
+- **Forgetting that recursion depth matters:** Recursive algorithms can cause stack overflow for deep recursions. Convert to iteration or use tail-call optimisation (where the language supports it) for problems with recursion depth exceeding a few thousand.

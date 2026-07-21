@@ -1656,3 +1656,15 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Abstraction is hiding complexity behind simplicity. When you drive a car, you use the steering wheel and pedals without thinking about the engine's combustion cycle. In computing, abstraction means presenting a simplified view of a system while hiding the implementation details. A conceptual model describes *what* the system does (the problem); a physical model describes *how* it's implemented (the solution).
 
 Data management is about organising information efficiently. A database stores data in tables with rows (records) and columns (fields). Relationships between tables are managed through primary keys (unique identifiers) and foreign keys (links to other tables). The ER model helps you design the database logically before worrying about the specific database software. Normalisation eliminates redundancy — you don't want to store the same student's name in 50 different places.
+
+## Common Mistakes
+
+1. **Confusing abstraction levels.** A conceptual model describes what the system does (problem domain); a physical model describes how it is implemented (solution). Students often mix these levels, describing implementation details in a conceptual model or omitting necessary details in a physical model. Keep the two levels separate.
+
+2. **Skipping normalisation in database design.** Unnormalised tables contain redundant data, leading to insertion, update, and deletion anomalies. Always normalise to at least 3NF: remove repeating groups (1NF), remove partial dependencies (2NF), and remove transitive dependencies (3NF). Skipping normalisation seems faster but creates maintenance problems.
+
+3. **Misidentifying primary and foreign keys.** A primary key uniquely identifies each record in a table and cannot be null. A foreign key references a primary key in another table and can be null. Confusing the two leads to broken relationships between tables. Always verify that foreign keys match the data type and constraints of the referenced primary key.
+
+4. **Assuming abstract data types are the same as their implementations.** An ADT specifies behaviour (operations and their semantics), not implementation. A stack can be implemented with an array or a linked list — the ADT is the same. Testing only one implementation does not guarantee the ADT's contract is satisfied across all implementations.
+
+5. **Ignoring the cost of abstraction.** Every layer of abstraction adds overhead. A high-level language is easier to write but slower than assembly. A database view simplifies queries but may hide performance issues. Always consider whether the abstraction's benefits outweigh its costs for the specific use case.

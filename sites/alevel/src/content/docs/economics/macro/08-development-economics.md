@@ -572,6 +572,18 @@ Countries." Evaluate this statement.
 Arguments that growth and sustainability are incompatible: (1) Growth increases resource use and pollution (more energy, more waste, more deforestation). (2) The environmental Kuznets curve may not apply to CO$_2$ emissions — global warming is a cumulative problem, not a local one. (3) Developing countries may be tempted to "grow now, clean up later" — but by then, environmental damage may be irreversible (deforestation, species extinction, climate tipping points). (4) Exponential growth on a finite planet is physically impossible (the "limits to growth" argument, Club of Rome, 1972). Arguments that they are compatible: (1) **Decoupling** — it is possible to grow while reducing environmental impact through technology (renewable energy, electric vehicles, circular economy). (2) The EKC hypothesis suggests environmental quality improves beyond a certain income level. (3) **Green growth** — investing in renewable energy and sustainable agriculture can be both environmentally beneficial and economically productive (e.g., solar panel manufacturing in China). (4) **Leapfrogging** — developing countries can skip polluting stages of development (e.g., going straight to mobile phones without landline networks, or to solar without coal). (5) The SDGs explicitly recognise that economic growth, social inclusion, and environmental protection must go hand in hand. Evaluation: growth and sustainability are compatible **if** the right policies are in place: carbon pricing, investment in renewable energy, protection of natural capital, international cooperation on climate change. Without these policies, growth will continue to degrade the environment. The key challenge is political will and international coordination.
 </details>
 
+## Common Mistakes
+
+1. **Confusing economic growth with economic development.** Growth is an increase in real GDP or GDP per capita (a narrow, quantitative measure). Development is a broader concept encompassing improvements in health, education, living standards, and freedom. A country can grow without developing if gains accrue to a small elite.
+
+2. **Assuming the resource curse is inevitable.** Some resource-rich countries (Norway, Botswana) have developed successfully. The key factor is institutional quality — strong governance and transparent institutions prevent resource revenues from fueling corruption and conflict. Resources are a curse only with bad institutions.
+
+3. **Treating the Harrod-Domar model as universally applicable.** The model assumes a fixed capital-output ratio and ignores technology and human capital. In practice, the Solow model (which includes technological progress) better explains long-run growth. Harrod-Domar is useful for understanding the savings-growth nexus but is too simplistic as a standalone model.
+
+4. **Assuming aid always promotes growth.** The evidence is mixed. Aid works best when it finances institutions, infrastructure, and human capital in countries with good governance. In countries with poor institutions, aid may create dependency, fuel corruption, or cause Dutch disease.
+
+5. **Ignoring the poverty trap.** While poverty traps exist in theory, they are heterogeneous. The appropriate policy depends on the specific trap: a savings trap requires investment incentives; a human capital trap requires education and health interventions; an institutional trap requires governance reform.
+
 ## 11. The Solow Growth Model: Formal Treatment
 
 ### 11.1 The Production Function and Steady State

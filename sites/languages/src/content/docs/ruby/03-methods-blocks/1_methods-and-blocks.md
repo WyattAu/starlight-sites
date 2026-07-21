@@ -886,3 +886,10 @@ cache.fetch("expensive") { compute_expensive_result }  # returns cached value
 - [Variables and Types](/docs/languages/ruby/01-basics/1_variables-and-types) defines the data types that methods accept as parameters and return as values.
 - [Control Flow](/docs/languages/ruby/02-control-flow/1_control-flow) provides the conditional logic used within method bodies and block iterations.
 - [Object-Oriented Programming](/docs/languages/ruby/04-oop/1_oop) shows how methods define object behaviour in Ruby's class-based system.
+
+## Common Mistakes
+
+- **Confusing Procs and Lambdas:** A `Proc` treats the entire method body as its block, so `return` exits the enclosing method. A lambda behaves like a method — `return` exits only the lambda. Use lambdas (`->`) when you need strict arity checking and proper return behaviour.
+- **Forgetting that blocks are not objects:** You cannot assign a block to a variable directly. Use `Proc.new` or `&block` in the method parameter to capture a block, then call it with `.call` or `.yield`.
+- **Using `yield` and `&block` together incorrectly:** If you declare `&block` in the method signature, Ruby converts the block to a Proc. Using `yield` after that raises an error. Use `block.call` instead when you have captured the block.
+- **Ignoring the last-evaluated expression rule:** Ruby methods implicitly return the value of the last expression. Accidentally including an extra statement can change the return value and introduce subtle bugs.

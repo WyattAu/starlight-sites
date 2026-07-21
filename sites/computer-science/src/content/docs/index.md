@@ -66,3 +66,10 @@ Each section includes:
 3. **Connect theory and practice**: Relate theoretical concepts to real-world applications
 4. **Learn the patterns**: Recognise common design patterns and algorithms
 5. **Seek feedback**: Discuss solutions with peers or tutors
+
+## Common Mistakes
+
+- **Skipping discrete mathematics to jump into programming:** Discrete mathematics (logic, sets, graphs, combinatorics) is the foundation of algorithms, databases, and theory. Skipping it leads to a shallow understanding that breaks down on harder problems.
+- **Treating computer science as just coding:** Computer science is about algorithms, abstraction, and problem-solving — coding is the tool, not the discipline. Understanding complexity, formal languages, and systems design distinguishes a computer scientist from a programmer.
+- **Ignoring the mathematical foundations of algorithms:** Algorithm analysis requires understanding recurrences, summations, and probabilistic methods. Without these tools, you cannot reason about why an algorithm is correct or efficient.
+- **Not practising with pen and paper:** Many CS concepts (automata, proofs, graph algorithms) are easier to understand when drawn. Working on paper first helps you see the structure before implementing in code.

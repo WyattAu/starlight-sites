@@ -859,3 +859,15 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 Acids and bases are about proton transfer. An acid is a proton donor; a base is a proton acceptor. The strength of an acid depends on how readily it gives up its proton — strong acids dissociate completely, weak acids only partially. pH is the logarithmic measure of hydrogen ion concentration, so each unit change in pH represents a tenfold change in acidity.
 
 Buffer solutions resist pH changes by having both an acid and its conjugate base present. When you add acid, the conjugate base neutralizes it. When you add base, the acid neutralizes it. This is why blood maintains pH 7.4 despite metabolic acids being constantly produced. Titration curves show the pH change as base is added to acid — the steep part near the equivalence point is where the indicator changes color. The Henderson-Hasselbalch equation ($\text{pH} = \text{p}K_a + \log\frac{[\text{A}^-]}{[\text{HA}]}$) connects pH to the ratio of conjugate base to acid.
+
+## Common Mistakes
+
+1. **Confusing strong/weak with concentrated/diluted.** A strong acid dissociates completely in water regardless of concentration; a weak acid only partially dissociates. A dilute strong acid has a higher pH than a concentrated strong acid, but a dilute weak acid may have a similar pH to a concentrated weak acid. These are independent dimensions — strength is about extent of dissociation, concentration is about amount per unit volume.
+
+2. **Misidentifying the equivalence point pH.** For a strong acid–strong base titration, the equivalence point is at pH 7. For a weak acid–strong base titration, the equivalence point is above pH 7 (basic) because the conjugate base of the weak acid hydrolyses. For a weak base–strong acid titration, it is below pH 7. Students often assume pH 7 always.
+
+3. **Using the Henderson-Hasselbalch equation outside its valid range.** The equation assumes that $[\text{HA}]$ and $[\text{A}^-]$ are approximately equal to their initial concentrations. This breaks down near the equivalence point or when the acid/base is very dilute. At those points, use an ICE table instead.
+
+4. **Choosing the wrong indicator for a titration.** The indicator's pKa should be close to the pH at the equivalence point. Phenolphthalein (pKa ~9) is suitable for weak acid–strong base titrations but not for strong acid–weak base titrations, where methyl red (pKa ~5) is appropriate.
+
+5. **Confusing $K_a$ with $\text{p}K_a$.** A larger $K_a$ means a stronger acid, but a smaller $\text{p}K_a$ means a stronger acid (since $\text{p}K_a = -\log K_a$). Confusing the two leads to incorrect comparisons of acid strength.

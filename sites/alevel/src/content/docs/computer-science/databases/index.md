@@ -141,6 +141,18 @@ This page includes:
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
+## Common Mistakes
+
+1. **Confusing entity-relationship cardinalities.** In a 1:Many relationship, the foreign key goes in the table on the "Many" side. In a Many:Many relationship, you need a junction table. Students often put the foreign key on the wrong side or forget the junction table entirely.
+
+2. **Normalising too aggressively or not enough.** Over-normalisation creates too many tables with complex joins, reducing query performance. Under-normalisation leaves data redundant and prone to anomalies. Aim for 3NF as the standard — go to BCNF only when there are clear dependency preservation issues.
+
+3. **Confusing DDL and DML.** DDL (Data Definition Language) creates and modifies schema: CREATE TABLE, ALTER TABLE, DROP TABLE. DML (Data Manipulation Language) manipulates data: SELECT, INSERT, UPDATE, DELETE. Students often use CREATE when they mean INSERT, or vice versa.
+
+4. **Writing SQL without specifying which table columns come from.** In JOIN queries, always qualify column names with the table name (e.g., `Students.name` not just `name`) to avoid ambiguity when both tables have columns with the same name.
+
+5. **Forgetting that NULL is not the same as zero or empty string.** NULL represents an unknown or missing value. You cannot compare NULL with = or != — use IS NULL or IS NOT NULL instead. `WHERE column = NULL` never returns any rows.
+
 ## Intuition
 
 Databases exist to solve a fundamental problem: how do you store, retrieve, and manage large amounts of structured data reliably? Before databases, applications stored data in flat files — essentially text files with a fixed format. This worked for small datasets but became unmanageable as data grew: multiple programs might need the same data, files could become corrupted, and updating information meant manually editing files. A database management system (DBMS) acts as a controlled intermediary, ensuring that data is stored safely and accessed consistently by multiple users and applications simultaneously.

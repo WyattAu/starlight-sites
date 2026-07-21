@@ -82,3 +82,10 @@ Each section includes:
 
 - **[Systems](../../2-systems/index.md):** Computer architecture and systems that databases build upon.
 - **[Theory of Computation](../../6-theory-of-computation/index.md):** Formal languages underlying query languages.
+
+## Common Mistakes
+
+- **Confusing primary keys with foreign keys:** A primary key uniquely identifies each row in a table; a foreign key references a primary key in another table. Mixing them up leads to incorrect joins and referential integrity violations.
+- **Normalising too aggressively:** Normalisation reduces redundancy but can require expensive joins for common queries. Over-normalised schemas hurt read performance. Sometimes denormalisation is the right trade-off for read-heavy workloads.
+- **Ignoring NULL semantics:** NULL is not a value — it represents unknown or missing data. Comparisons with NULL using `=` or `!=` return NULL (not TRUE or FALSE). Use `IS NULL` and `IS NOT NULL` instead.
+- **Forgetting that transactions are not free:** Every transaction incurs overhead (logging, locking, commit). Batching small transactions into larger ones can improve throughput significantly, but at the cost of longer lock holding times.

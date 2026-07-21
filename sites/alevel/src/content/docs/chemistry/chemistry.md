@@ -349,6 +349,18 @@ structure before proceeding.
 4. Writing half-equations without balancing charges or atoms. Always check electrons, hydrogen
    ions, and water molecules.
 
+## Common Mistakes
+
+1. **Using the wrong formula for the mole.** Students often confuse $n = m/M$ (moles = mass/molar mass) with $n = cV$ (moles = concentration × volume). The first converts between mass and moles; the second converts between solution concentration and moles. Always check whether you are given mass or concentration.
+
+2. **Forgetting to convert between units in gas calculations.** The ideal gas equation $pV = nRT$ requires pressure in Pa (not kPa), volume in m³ (not dm³ or cm³), and temperature in Kelvin. A common error is using 298 instead of 298 K for room temperature.
+
+3. **Confusing exothermic and endothermic sign conventions.** Exothermic reactions have negative ΔH (energy released); endothermic reactions have positive ΔH (energy absorbed). Students often get the sign wrong when applying Hess's Law, especially when reversing equations.
+
+4. **Balancing equations incorrectly.** Always check atom counts on both sides after balancing. Pay special attention to diatomic molecules (H₂, O₂, N₂, Cl₂) which are often forgotten. Never change subscripts to balance — only add coefficients.
+
+5. **Using the wrong stoichiometric ratios in calculations.** The mole ratio comes from the balanced equation, not from the question statement. Students sometimes use 1:1 when the actual ratio is different. Always write the balanced equation first.
+
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages

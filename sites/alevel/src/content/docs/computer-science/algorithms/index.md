@@ -149,6 +149,18 @@ This page includes:
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
+## Common Mistakes
+
+1. **Confusing Big O with Big Θ.** Big O is an upper bound (the worst case is AT MOST this). Big Θ is a tight bound (the worst case is EXACTLY this). Saying "bubble sort is O(n)" is technically true but misleading — it should be Θ(n²). Always use the tightest bound you can prove.
+
+2. **Assuming all sorting algorithms are O(n log n).** Merge sort and quicksort (average case) are O(n log n), but bubble sort and insertion sort are O(n²). Quick sort's worst case is O(n²) on already sorted input. Always specify best, average, and worst case.
+
+3. **Forgetting that graph algorithms depend on representation.** BFS and DFS on an adjacency matrix are O(V²); on an adjacency list they are O(V + E). The choice of data structure affects complexity — always state your representation.
+
+4. **Confusing time complexity with space complexity.** An algorithm can be fast but use a lot of memory (e.g., merge sort uses O(n) extra space). Or it can be slow but use little memory (e.g., in-place quicksort uses O(log n) stack space). Both matter.
+
+5. **Not understanding that lower bounds exist.** Comparison-based sorting has a lower bound of Ω(n log n) — no comparison sort can do better in the worst case. This is proven by the decision tree argument. Non-comparison sorts (counting sort, radix sort) can beat this but only for specific input types.
+
 ## Intuition
 
 Algorithms are, at their heart, recipes for solving problems. Just as a recipe tells you the exact steps to bake a cake — which ingredients to mix, in what order, and for how long — an algorithm specifies a precise sequence of steps that transform an input into a desired output. The study of algorithms is about finding the most efficient recipes: ones that use the fewest steps, the least memory, or the least time. Not all algorithms for the same problem are equal — sorting a list can be done in O(n^2) time with simple approaches or O(n log n) with more clever ones, and the difference matters enormously when n is large.

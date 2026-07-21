@@ -76,3 +76,10 @@ Particle physics seeks to identify the fundamental building blocks of matter and
 - **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum field theory foundations.
 - **[Classical Mechanics](../../1-classical-mechanics/index.md):** Gravitational theory in cosmology.
 - **[Thermal Physics](../../2-thermal-physics/index.md):** Thermodynamics of the early universe.
+
+## Common Mistakes
+
+- **Confusing quarks with leptons:** Quarks interact via all four fundamental forces and are confined inside hadrons; leptons (electrons, neutrinos) do not participate in the strong force. An electron is not made of quarks.
+- **Assuming antimatter has negative mass:** Antimatter has positive mass and positive energy. It differs from matter in quantum numbers (charge, lepton number), not in gravitational behaviour. Antimatter falls down, not up.
+- **Ignoring conservation laws in Feynman diagrams:** Every vertex must conserve charge, lepton number, baryon number, and colour charge. Drawing diagrams that violate these rules produces physically impossible processes.
+- **Treating the Higgs field as the source of all mass:** The Higgs mechanism gives mass to W and Z bosons and to fundamental fermions. Most of the proton's mass comes from QCD binding energy, not from the Higgs field.

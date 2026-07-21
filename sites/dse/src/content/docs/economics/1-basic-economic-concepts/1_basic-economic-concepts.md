@@ -1481,3 +1481,10 @@ linked above.
 Economics starts with a single, unavoidable fact: we can't have everything. Scarcity means every decision is a trade-off. When you spend an hour studying, you can't spend that hour sleeping. When a government builds a hospital, it can't build a school with the same resources. Opportunity cost captures this trade-off precisely — it's the value of what you gave up, not the sum of all alternatives.
 
 Think of the production possibility frontier (PPF) as a visual representation of scarcity. Points inside the curve represent waste (unemployment, inefficiency). Points on the curve represent maximum efficiency. Points outside are currently unattainable. The slope of the PPF is the opportunity cost — how much of one good you must sacrifice to get more of the other. A steep slope means high opportunity cost (you give up a lot). A gentle slope means low opportunity cost.
+
+## Common Mistakes
+
+- **Confusing opportunity cost with total cost:** Opportunity cost is the value of the next best alternative forgone, not the sum of all alternatives. If you choose between studying economics and studying maths, the opportunity cost is only the value of the best alternative (maths), not both.
+- **Assuming the PPF is a straight line:** A straight-line PPF implies constant opportunity cost, which is rare. Most PPFs are bowed outward (concave), reflecting increasing opportunity cost as resources are not perfectly adaptable between goods.
+- **Treating sunk costs as relevant to future decisions:** Sunk costs are irrecoverable and should not influence decisions. "I've already spent £500 on this project" is not a reason to continue if the marginal benefit no longer exceeds the marginal cost.
+- **Confusing positive and normative economics:** Positive statements are testable ("unemployment fell to 4%"); normative statements are value judgements ("the government should reduce unemployment"). Exams often ask you to distinguish between the two.

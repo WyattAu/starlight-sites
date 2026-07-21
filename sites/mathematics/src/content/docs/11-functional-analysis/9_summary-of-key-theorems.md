@@ -191,3 +191,10 @@ operators (Spectral).
 - [Differential Geometry Summary](/mathematics/12-differential-geometry/10_summary) -- The Hodge star operator and de Rham cohomology use the inner-product structure of Hilbert spaces.
 - [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The spectral theorem underpins the mode decomposition of electromagnetic fields in cavities and waveguides.
 - [Ising Model and Mean-Field Theory](/physics/2-thermal-physics/12_ising-model-and-mean-field-theory) -- Transfer matrix methods use operator theory to compute partition functions in statistical mechanics.
+
+## Common Mistakes
+
+- **Assuming weak convergence implies strong convergence:** Weak convergence (convergence of inner products) is strictly weaker than strong convergence (norm convergence). A sequence can converge weakly but not strongly (e.g., orthonormal basis in a Hilbert space).
+- **Confusing the dual of $\ell^1$ with $\ell^1$:** The dual of $\ell^1$ is $\ell^\infty$, not $\ell^1$. This asymmetry is a common source of errors when computing dual norms or applying the Hahn-Banach theorem.
+- **Forgetting that compact operators have at most countable spectrum:** Non-compact operators can have continuous spectrum. The spectral theorem for compact self-adjoint operators guarantees a discrete eigenvalue expansion, which does not generalise to all bounded operators.
+- **Assuming all bounded linear operators are compact:** The identity operator on an infinite-dimensional space is bounded but not compact. Compactness is a strong condition that fails for most operators on infinite-dimensional spaces.

@@ -894,6 +894,18 @@ trisomy.
 | Triple X syndrome    | X          | 47,XXX                 | Female, normal, may have learning difficulties                                                                  |
 | XYY syndrome         | Y          | 47,XYY                 | Male, normal, tall                                                                                              |
 
+## Common Mistakes
+
+1. **Confusing epistasis with dominance.** Dominance operates within a single gene locus (alleles of the same gene), while epistasis operates between different gene loci. When a dihybrid cross ratio deviates from 9:3:3:1, epistasis is the likely explanation, not dominance.
+
+2. **Misidentifying parental and recombinant phenotypes in linkage crosses.** Parental phenotypes are the most common classes (excess over expected independent assortment). Recombinant phenotypes are the least common classes. Students often swap these, leading to incorrect recombination frequencies.
+
+3. **Calculating recombination frequency above 50%.** The maximum observable recombination frequency is 50%, which is indistinguishable from independent assortment. If your calculation gives >50%, you have made an error in identifying parental vs recombinant classes.
+
+4. **Confusing gene flow with genetic drift.** Gene flow is the movement of alleles between populations (systematic change in one direction). Genetic drift is random fluctuation in allele frequencies (changes in both directions). Gene flow reduces differences between populations; drift increases them.
+
+5. **Misapplying the chi-squared test for linkage.** When testing for linkage, use the 1:1:1:1 ratio (test cross) or 9:3:3:1 ratio (dihybrid cross) as expected values. Degrees of freedom = number of phenotypic classes minus 1. Students often use the wrong expected ratio.
+
 ### 13.3 Translocation
 
 A **translocation** occurs when a segment of one chromosome breaks off and attaches to a

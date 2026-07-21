@@ -1612,3 +1612,15 @@ linked above.
 Electrochemistry connects chemistry and electricity. A battery (galvanic cell) converts chemical energy into electrical energy by spontaneous redox reactions. An electrolytic cell does the reverse — it uses electricity to force non-spontaneous reactions. In both cases, oxidation happens at the anode and reduction at the cathode ("an ox, red cat").
 
 Think of standard electrode potentials as a "tendency to gain electrons." A more positive $E^\circ$ means a greater tendency to be reduced (gain electrons). In a galvanic cell, the half-cell with the more positive $E^\circ$ undergoes reduction (cathode), and the one with the less positive (or more negative) $E^\circ$ undergoes oxidation (anode). The cell potential is $E^\circ_{\text{cathode}} - E^\circ_{\text{anode}}$, and it must be positive for the reaction to be spontaneous. Faraday's laws of electrolysis link the amount of substance deposited to the charge passed — more charge means more electrons transferred, which means more product formed.
+
+## Common Mistakes
+
+1. **Confusing the sign of $E^\circ$ when reversing half-equations.** $E^\circ$ values are intensive properties and do not change sign when you reverse a half-equation. The cell potential is always $E^\circ_{\text{cathode}} - E^\circ_{\text{anode}}$. If you reverse both half-equations, the cell potential magnitude stays the same but the sign of the overall reaction changes — not the individual $E^\circ$ values.
+
+2. **Mixing up anode and cathode in galvanic vs electrolytic cells.** In both cell types, oxidation occurs at the anode and reduction at the cathode ("an ox, red cat"). The difference is direction: galvanic cells produce electricity from spontaneous reactions, while electrolytic cells use electricity to drive non-spontaneous reactions. Students often assume the anode is always negative — it is negative in galvanic cells but positive in electrolytic cells.
+
+3. **Applying Faraday's laws without converting to moles.** Faraday's first law states $m = \frac{MIt}{nF}$, where $M$ is molar mass and $n$ is the number of electrons transferred. A common error is using mass directly instead of molar mass, or forgetting to divide by $n$ (the electrons per ion). For example, depositing aluminium requires 3 electrons per atom ($n = 3$), not 1.
+
+4. **Assuming a positive $E^\circ_{\text{cell}}$ means the reaction is fast.** Standard electrode potentials predict thermodynamic spontaneity, not kinetic rate. A reaction can have a large positive $E^\circ_{\text{cell}}$ but be extremely slow due to high activation energy (e.g., the rusting of iron is spontaneous but slow without a catalyst).
+
+5. **Forgetting to balance charge when combining half-equations.** When adding two half-equations to get the overall cell reaction, the number of electrons lost must equal the number gained. Multiply half-equations by integers to equalise electrons before adding, and cancel electrons from both sides.

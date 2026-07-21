@@ -223,3 +223,10 @@ Approximation methods tackle quantum problems that cannot be solved exactly. Per
 - **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: The Schrodinger equation provides the foundation for approximation methods.
 - **[One-Dimensional Problems](5_one-dimensional-problems.md)**: Exactly solvable 1D problems provide test cases for approximation methods.
 - **[Variational Methods](11_variational-methods.md)**: The variational principle provides a systematic approach to estimating ground state energies.
+
+## Common Mistakes
+
+- **Using perturbation theory when the perturbation is not small:** Perturbation theory assumes $V' \ll E_n - E_m$. If the perturbation is comparable to energy spacings, the series diverges and the results are meaningless. Check the validity condition before applying.
+- **Forgetting that the variational method gives an upper bound, not the exact energy:** The variational principle states $E_0 \leq \langle \psi | H | \psi \rangle$ for any trial state. A lower trial energy is always better, but you never know how close you are to the true ground state energy.
+- **Neglecting degenerate perturbation theory when eigenvalues are degenerate:** Non-degenerate perturbation theory gives infinite corrections when two unperturbed states have the same energy. You must diagonalise the perturbation matrix in the degenerate subspace first.
+- **Applying WKB near classical turning points:** The WKB approximation breaks down where $p(x) = 0$ (turning points) because the semiclassical wavefunction diverges. Use connection formulas to match WKB solutions across turning points.

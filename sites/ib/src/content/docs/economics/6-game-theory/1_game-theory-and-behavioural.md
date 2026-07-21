@@ -2709,3 +2709,15 @@ success in this subject.
 Game theory is the mathematics of strategy. It studies situations where your best choice depends on what others choose. The prisoner's dilemma is the classic example: two suspects are interrogated separately. If both stay silent, both get light sentences. If one betrays the other, the betrayer goes free while the other gets a heavy sentence. If both betray, both get moderate sentences. The Nash equilibrium is for both to betray — even though both would be better off if both stayed silent. This explains why cooperation is hard even when it's mutually beneficial.
 
 Nash equilibrium is the "no regrets" outcome: given what everyone else is doing, no one wishes they had chosen differently. It doesn't mean the outcome is optimal — it just means no one can improve their payoff by unilaterally changing strategy. Behavioural economics then adds that real humans aren't perfectly rational: we have biases, use heuristics, and are influenced by framing, social norms, and loss aversion.
+
+## Common Mistakes
+
+1. **Confusing Nash equilibrium with optimal outcomes.** A Nash equilibrium is a stable outcome where no player can benefit by changing strategy alone, but it is often not the best collective outcome. The prisoner's dilemma illustrates this: both players defecting is the Nash equilibrium, but both cooperating would yield a better result for both. Equilibrium ≠ optimality.
+
+2. **Assuming rationality in all game-theoretic analyses.** Classical game theory assumes perfectly rational players, but behavioural economics shows that real people use heuristics, exhibit loss aversion, and are affected by framing. When analysing games, consider whether the assumption of rationality is realistic for the context — many real-world strategic interactions involve bounded rationality.
+
+3. **Ignoring dominated strategies too early.** Before searching for Nash equilibria, eliminate strictly dominated strategies (strategies that are always worse regardless of what others do). Students sometimes jump to equilibrium analysis without first simplifying the game, leading to unnecessarily complex or incorrect solutions.
+
+4. **Confusing simultaneous and sequential games.** In simultaneous games, players choose without knowing others' choices; in sequential games, later players observe earlier moves. The solution method differs: simultaneous games use Nash equilibrium (or dominant strategies), while sequential games use backward induction and subgame-perfect equilibrium. Applying the wrong method leads to incorrect predictions.
+
+5. **Misidentifying the payoff structure.** In payoff matrices, the first number in each cell typically represents the row player's payoff and the second represents the column player's. Swapping these leads to incorrect equilibrium identification. Always verify which player gets which payoff before analysing the game.

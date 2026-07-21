@@ -906,6 +906,18 @@ Evidence supporting endosymbiosis:
 | Antibiotic sensitivity         | Mitochondrial protein synthesis is inhibited by antibiotics that target bacteria (e.g., chloramphenicol, tetracycline) |
 | Phylogenetic analysis          | Mitochondrial DNA sequences are most similar to those of alpha-proteobacteria (e.g., _Rickettsia_)                     |
 
+## Common Mistakes
+
+1. **Stating that glycolysis produces "2 ATP" without specifying net yield.** Glycolysis produces 4 ATP but uses 2 ATP, giving a net yield of 2 ATP. In examination answers, always specify the net yield. Also, glycolysis produces 2 molecules of pyruvate, 2 NADH, and 2 H₂O — not just ATP.
+
+2. **Confusing the roles of NADH and FADH₂.** Both carry electrons to the ETC, but NADH donates at Complex I (pumping 10 H⁺ total) while FADH₂ donates at Complex II (pumping 6 H⁺ total). This means NADH generates approximately 2.5 ATP while FADH₂ generates approximately 1.5 ATP.
+
+3. **Stating that oxygen "makes ATP."** Oxygen is needed specifically as the final electron acceptor in the electron transport chain. The ATP itself is synthesised by ATP synthase, driven by the proton gradient. Oxygen's role is to keep the electron transport chain flowing so that the proton gradient is maintained.
+
+4. **Confusing the Krebs cycle with the link reaction.** The link reaction converts pyruvate to acetyl CoA (producing 1 NADH and 1 CO₂ per pyruvate). The Krebs cycle oxidises acetyl CoA completely (producing 3 NADH, 1 FADH₂, 1 GTP, and 2 CO₂ per turn). Both occur in the mitochondrial matrix.
+
+5. **Forgetting that anaerobic respiration is necessary to regenerate NAD⁺.** The purpose of converting pyruvate to lactate (or ethanol) is not to produce energy but to regenerate NAD⁺ so that glycolysis can continue. Without NAD⁺, glycolysis stops at step 6 and no ATP is produced.
+
 ## 15. Respiratory Inhibitors and Poisons
 
 ### 15.1 Electron Transport Chain Inhibitors

@@ -717,6 +717,18 @@ Sorted.
 6. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
 
+## Common Mistakes
+
+1. **Using binary search on an unsorted array.** Binary search requires the array to be sorted. Applying it to unsorted data gives incorrect results because the comparison logic (discarding half the array) relies on the sorted order.
+
+2. **Confusing the mid calculation and causing integer overflow.** Computing `mid = (low + high) // 2` can overflow in languages with fixed-width integers when `low + high > INT_MAX`. The safe alternative is `mid = low + (high - low) // 2`.
+
+3. **Forgetting that binary search on a linked list is not O(log n).** Binary search requires O(1) random access to the middle element. Linked lists require O(n) traversal to reach the middle, making binary search O(n) — no better than linear search.
+
+4. **Not understanding why the worst case for linear search is Ω(n).** An adversary can place the target at the last position checked or declare it absent. Any algorithm that doesn't check all n positions can be fooled. This is a lower bound, not just an observation.
+
+5. **Miscounting comparisons in binary search traces.** Each iteration of binary search involves exactly one comparison (A[mid] vs target). Students sometimes count multiple comparisons per iteration or forget that the loop termination condition itself is a comparison.
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

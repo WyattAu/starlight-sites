@@ -76,6 +76,13 @@ Each section includes:
 - **[Particle Physics](../../7-particle-physics-and-cosmology/index.md):** Quantum field theory and particle physics; quantum mechanics is the foundation.
 - **[Thermal Physics](../../2-thermal-physics/index.md):** Statistical mechanics uses quantum theory to explain thermodynamic properties.
 
+## Common Mistakes
+
+- **Confusing the uncertainty principle with measurement disturbance:** The uncertainty principle is a fundamental property of quantum states, not a limitation of measuring instruments. Even with perfect instruments, $\Delta x \Delta p \geq \hbar/2$ holds for any quantum state.
+- **Assuming superposition means the particle is in multiple places:** Superposition means the particle's state is a linear combination of basis states. It does not mean the particle physically exists in multiple locations simultaneously — measurement yields one outcome with a definite probability.
+- **Treating the wavefunction as physically observable:** The wavefunction $\psi$ itself is not observable; only $|\psi|^2$ (probability density) is. The overall phase of $\psi$ has no physical consequences.
+- **Forgetting that measurement is irreversible and collapses the state:** After measurement, the system is in the eigenstate corresponding to the measured eigenvalue. You cannot "undo" a measurement to recover the original superposition.
+
 ## Intuition
 
 Quantum mechanics is the theory of what happens when you look very closely at very small things — and the answer is that things behave very differently from what our everyday experience suggests. The core idea is that physical quantities like position, momentum, and energy don't have definite values until they're measured. Instead, a quantum system exists in a superposition — a combination of all possible states simultaneously. The wavefunction describes this superposition, and its square gives the probability of finding a particular measurement outcome. This isn't a statement about our ignorance; it's a fundamental feature of reality. The universe genuinely doesn't "decide" what a particle is doing until we measure it.

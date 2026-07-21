@@ -704,3 +704,10 @@ Pure functions in Haskell are like mathematical equations. The expression 2 + 3 
 - [Types and Functions](/haskell/01-basics/1_types-and-functions) - Foundational type system and pure function concepts that underpin Haskell's design
 - [Type Classes](/haskell/03-type-classes/1_type-classes) - How Haskell achieves polymorphism through type class constraints
 - [Monads and Functors](/haskell/04-monads/1_monads-and-functors) - The abstraction hierarchy that structures side effects in pure functional code
+
+## Common Mistakes
+
+- **Assuming Haskell is too difficult to learn productively:** Haskell has a learning curve, but basics like functions, pattern matching, and algebraic data types are straightforward. Start with simple programs and add concepts incrementally rather than trying to learn everything at once.
+- **Writing imperative-style code in Haskell:** Translating loops and mutable variables from other languages produces verbose, non-idiomatic Haskell. Think in terms of recursion, higher-order functions (`map`, `filter`, `fold`), and list comprehensions instead.
+- **Ignoring compiler warnings:** GHC warnings often indicate real bugs or non-idiomatic code. Treat warnings as errors during development — they catch problems that type checking alone cannot.
+- **Using `head` and `tail` on empty lists:** These functions throw runtime exceptions on empty lists. Use pattern matching (`case xs of [] -> ...; y:ys -> ...`) or safe alternatives like `Data.List.headMay` to handle empty lists gracefully.

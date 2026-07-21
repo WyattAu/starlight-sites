@@ -606,6 +606,18 @@ Government failure occurs when intervention worsens outcomes. Common examples:
    difficult. The optimal tax rate is uncertain, and setting it too high creates its own deadweight
    loss.
 
+## Common Mistakes
+
+1. **Confusing demerit goods with negative externalities.** A demerit good harms the consumer themselves (e.g., smoking damages the smoker's health). A negative externality harms third parties (e.g., second-hand smoke harms bystanders). Alcohol is both, but the concepts are distinct — always specify which mechanism you are describing.
+
+2. **Assuming all market failure requires government intervention.** Private solutions exist in some cases — the Coase theorem shows that if property rights are well-defined and transaction costs are low, private bargaining can resolve externalities without government involvement.
+
+3. **Drawing DWL triangles incorrectly.** The deadweight welfare loss triangle is bounded by the MSC curve, the MSB curve (or MPB), and the vertical lines at $Q^*$ and $Q_{mkt}$. Many students draw the triangle in the wrong position or with incorrect boundaries.
+
+4. **Confusing public goods with common resources.** Public goods are non-rivalrous and non-excludable (national defence). Common resources are rivalrous and non-excludable (fish stocks). The free-rider problem applies to public goods; the tragedy of the commons applies to common resources.
+
+5. **Treating the optimal tax as easy to implement.** In practice, measuring MEC is extremely difficult. The optimal tax rate is uncertain, and setting it too high creates its own deadweight loss. Always evaluate the practical difficulties alongside the theoretical optimum.
+
 ## 13. Extension Problem Set
 
 **Problem 1.** A chemical plant has $MPC = 20 + 2Q$ and produces pollution with $MEC = 10 + Q$.

@@ -163,3 +163,10 @@ the Radon-Nikodym theorem connects measures via densities.
 - **[Lebesgue Outer Measure and Caratheodory Extension](./3_lebesgue-outer-measure-and-caratheodory-extension.md)**: The foundational construction of Lebesgue measure upon which all these results depend.
 - **[Measurable Functions](./5_measurable-functions.md)**: Defines the function classes to which the convergence theorems and inequalities apply.
 - **[$L^p$ Spaces](./7_l-p-spaces.md)**: Provides the Banach space framework where Hölder and Minkowski inequalities govern the geometry.
+
+## Common Mistakes
+
+- **Confusing pointwise convergence with $L^p$ convergence:** Pointwise convergence does not imply $L^p$ convergence (consider $f_n = n \cdot \mathbf{1}_{[0,1/n]}$). Conversely, $L^p$ convergence does not imply pointwise convergence everywhere — only almost everywhere along a subsequence.
+- **Assuming measurable functions are continuous:** Measurable functions need not be continuous (e.g., indicator functions of measurable sets). Continuity implies measurability, but not the reverse.
+- **Applying the Dominated Convergence Theorem without a dominating function:** The theorem requires an integrable majorant $|f_n| \leq g$ with $\int g < \infty$. Without this condition, the conclusion can fail (e.g., $f_n = n \cdot \mathbf{1}_{[0,1/n]}$).
+- **Forgetting that sets of measure zero do not affect integrals:** Two functions that are equal almost everywhere have the same integral. Do not confuse "equal a.e." with "equal everywhere" — the distinction matters for pointwise properties but not for $L^p$ membership.

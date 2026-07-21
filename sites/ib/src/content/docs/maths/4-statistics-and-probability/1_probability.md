@@ -891,3 +891,15 @@ linked above.
 Probability is the mathematics of uncertainty. It quantifies how likely events are, ranging from 0 (impossible) to 1 (certain). The axioms — non-negativity, total probability equals 1, and additivity for mutually exclusive events — are the minimal rules that make probability consistent.
 
 Think of probability as measuring the "size" of the favorable outcomes relative to all possible outcomes. Venn diagrams make this visual: the probability of an event is the area of its region divided by the total area. The addition rule corrects for double-counting when events overlap. Conditional probability is like zooming in — you restrict your sample space to event B, then ask what fraction of B is also in A. Bayes' theorem flips the conditioning, which is why it's so powerful (and counterintuitive).
+
+## Common Mistakes
+
+1. **Confusing mutually exclusive with independent.** Mutually exclusive events cannot occur together ($P(A \cap B) = 0$), which actually makes them *dependent* — if you know $A$ occurred, you know $B$ did not. Independent events satisfy $P(A \cap B) = P(A)P(B)$, which is nonzero when both probabilities are nonzero.
+
+2. **Applying the multiplication rule to dependent events without conditioning.** $P(A \cap B) = P(A)P(B)$ only holds for independent events. For dependent events, you must use $P(A \cap B) = P(A) \cdot P(B|A)$. Forgetting this leads to over- or under-estimating joint probabilities.
+
+3. **Reversing conditional probabilities (ignoring Bayes' theorem).** $P(A|B) \neq P(B|A)$ in general. A common error is assuming that because $B$ is likely given $A$, $A$ must also be likely given $B$. Bayes' theorem corrects this by incorporating the prior probabilities of both events.
+
+4. **Double-counting outcomes in sample spaces.** When listing outcomes, ensure each is equally likely before dividing by the total. If outcomes are not equally likely, use weighted probabilities instead of simple fractions.
+
+5. **Assuming the addition rule applies to all events.** $P(A \cup B) = P(A) + P(B)$ is only valid for mutually exclusive events. For overlapping events, you must subtract the intersection: $P(A \cup B) = P(A) + P(B) - P(A \cap B)$.

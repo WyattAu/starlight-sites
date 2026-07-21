@@ -503,3 +503,10 @@ Swift is Apple's answer to the question: can we have C++ performance with Python
 - [[swift/03-oop/1_classes-and-structs]] - Value versus reference type semantics
 - [[swift/04-advanced/1_error-handling]] - Error handling with do-catch
 - [[swift/04-advanced/2_concurrency]] - Structured concurrency with async/await
+
+## Common Mistakes
+
+- **Confusing value types and reference types:** Structs are value types (copied on assignment) and classes are reference types (shared reference). Beginners often use classes when structs suffice, leading to unexpected shared state. Prefer structs unless you need inheritance or reference semantics.
+- **Force-unwrapping optionals carelessly:** Using `!` on an optional crashes at runtime if the value is `nil`. Always use `if let`, `guard let`, or the nil-coalescing operator `??` to safely unwrap optionals.
+- **Ignoring ARC and creating retain cycles:** Strong reference cycles between classes (e.g., parent-child relationships) cause memory leaks. Use `weak` or `unowned` references to break cycles, especially in closures and delegate patterns.
+- **Using `var` where `let` should be used:** Swift encourages immutability. Declaring variables with `var` when they are never mutated makes code harder to reason about and prevents compiler optimisations. Default to `let` and switch to `var` only when reassignment is needed.

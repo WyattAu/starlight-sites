@@ -966,6 +966,13 @@ linked above.
 - [Apps and Services](../04-apps-and-services/apps-and-services) -- Application workloads determine which performance tuning parameters are most relevant.
 - [Home Server Setup](../setup/home-server-setup) -- Performance tuning optimises the home server for its intended workloads.
 
+## Common Mistakes
+
+- **Setting recordsize too large for databases:** A recordsize of 128K for a database that reads in 8K pages causes 16x read amplification. Match recordsize to your workload's I/O size: databases need 8K-16K, VMs need 16K-64K, media needs 128K-1M.
+- **Ignoring ARC hit ratio when diagnosing slow reads:** An ARC hit ratio below 70% means your working set exceeds RAM. Before tuning other parameters, check `arcstat` to determine whether you need more RAM or an L2ARC SSD.
+- **Enabling deduplication without enough RAM:** ZFS dedup requires approximately 5 GB of RAM per 1 TB of data. Without sufficient RAM, dedup causes severe performance degradation and can exhaust memory. Monitor the DDT (dedup table) size before enabling.
+- **Assuming RAIDZ2 is always the best choice:** RAIDZ2 provides good capacity and fault tolerance but has higher write amplification than mirrors. For write-heavy workloads (databases, VMs), mirrors often outperform RAIDZ2 despite lower capacity efficiency.
+
 ## Intuition
 
 TrueNAS performance tuning is the art of matching ZFS's configuration to your actual workload, because the defaults are designed for average use cases that may not match yours. The central concept is the ARC (Adaptive Replacement Cache) — ZFS's intelligent read cache that lives in RAM. The ARC automatically adapts to your access patterns, caching frequently and recently used data. When your working set fits in RAM, reads are served at memory speed. When it doesn't, every cache miss means a round trip to disk, which is 100-1000x slower. Monitoring the ARC hit ratio tells you whether you need more RAM or an L2ARC SSD — a hit ratio below 70% means your working set exceeds your cache.

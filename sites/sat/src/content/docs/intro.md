@@ -148,6 +148,12 @@ linked above.
 - [Advanced Strategies](advanced-strategies) -- Time management and test-taking strategies that apply across both SAT sections.
 - [Science Question Bank](science-question-bank) -- Practice questions for interpreting scientific passages in the Reading & Writing section.
 
+## Common Mistakes
+
+- **Rushing through questions without reading all answer choices:** The SAT includes "close but wrong" distractors. Reading every option before selecting prevents you from falling for trap answers that match part of the question but not all of it.
+- **Spending too much time on hard questions:** The SAT is timed and every question is worth the same marks. If a question takes more than 2 minutes, mark your best guess and move on. Returning to it later with fresh eyes is more efficient than burning time.
+- **Not using the process of elimination:** Even if you do not know the correct answer, eliminating two wrong choices turns a 1-in-4 guess into a 1-in-2 guess. This is statistically significant over 154 questions.
+- **Ignoring the adaptive format's implications:** Module 1 performance determines Module 2 difficulty. A strong Module 1 gives you access to harder (higher-scoring) questions. Do not coast through Module 1 thinking you can "make it up" in Module 2.
 
 ## Intuition
 

@@ -1799,3 +1799,15 @@ linked above.
 Programming is telling a computer what to do, step by step. Variables are labeled boxes that hold values. Constants are labeled boxes whose contents can't change. Data types tell the computer what kind of data is in the box — a number, text, or true/false.
 
 The three basic control structures — sequence, selection, and iteration — are the building blocks of all programs. Sequence means instructions run one after another. Selection (if/else) means different instructions run depending on a condition. Iteration (loops) means instructions repeat. Every program, no matter how complex, is made from these three patterns. Arrays are like egg cartons — they hold multiple values in a single named container, indexed by position. Functions are reusable recipe cards — you write the instructions once and call them whenever needed.
+
+## Common Mistakes
+
+1. **Off-by-one errors in loop bounds.** When iterating over an array of $n$ elements (indexed 0 to $n-1$), using `i <= n` instead of `i < n` causes an out-of-bounds access. Similarly, starting a loop at index 1 instead of 0 skips the first element. Always verify loop boundaries against the array's index range.
+
+2. **Confusing assignment (=) with equality comparison (==).** In most languages, `=` assigns a value while `==` tests equality. Writing `if (x = 5)` assigns 5 to `x` instead of checking whether `x` equals 5. This is a common source of logic errors that can be difficult to detect.
+
+3. **Using global variables when local variables are appropriate.** Global variables are accessible from anywhere in the program, which makes debugging harder and increases the risk of unintended side effects. Use local variables within functions/procedures to limit scope and improve maintainability.
+
+4. **Not handling edge cases in functions.** Functions should handle empty inputs, single-element inputs, and boundary values. A function that sorts an array but fails on an empty array or a single-element array is incomplete. Always consider: what happens when the input is at its minimum or maximum size?
+
+5. **Confusing pass-by-value with pass-by-reference.** When passing variables to functions, some languages pass by value (a copy is made) and others by reference (the original is modified). Modifying a parameter inside a function may or may not affect the original variable depending on the language's passing convention. Know which your language uses.

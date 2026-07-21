@@ -437,3 +437,15 @@ $$
 GDP is the economy's scoreboard. It measures the total value of everything produced in a country, which tells you how much the economy is producing and growing. The expenditure method ($C + I + G + NX$) is the most intuitive: it sums what households spend, what firms invest, what the government buys, and what foreigners buy from us (minus what we buy from them).
 
 The key distinction is between nominal and real GDP. Nominal GDP can rise just because prices went up, even if nothing more was produced. Real GDP strips out price changes to show actual output growth. The GDP deflator is the "inflation calculator" that converts nominal to real. GDP per capita divides by population to give average income, but it hides inequality — a country can have high GDP per capita while most people are poor.
+
+## Common Mistakes
+
+1. **Confusing nominal and real GDP when calculating growth rates.** A rise in nominal GDP may reflect price increases (inflation) rather than actual output growth. Always use real GDP (adjusted for inflation) when comparing output across years. The GDP deflator converts nominal to real: $\text{Real GDP} = \frac{\text{Nominal GDP}}{\text{GDP deflator}} \times 100$.
+
+2. **Using GDP as a measure of welfare or quality of life.** GDP measures total market output, not well-being. It excludes non-market activity (household labour, volunteer work), environmental costs, income distribution, and leisure. A country with rising GDP may simultaneously experience rising inequality and environmental degradation.
+
+3. **Miscalculating the GDP deflator.** The formula is $\text{GDP deflator} = \frac{\text{Nominal GDP}}{\text{Real GDP}} \times 100$, not the other way around. Students often invert the formula or forget to multiply by 100, leading to incorrect deflator values.
+
+4. **Confusing GDP with GNP/GNI.** GDP measures production within a country's borders regardless of who owns the productive assets. GNP/GNI adjusts for net factor income from abroad — it includes income earned by citizens abroad and excludes income earned by foreigners domestically. For countries with large multinational presence, the difference is significant.
+
+5. **Assuming GDP per capita is evenly distributed.** GDP per capita is an average that hides distributional effects. A country can have a high GDP per capita while most of its population lives in poverty if income is highly concentrated. Always consider income inequality measures (Gini coefficient) alongside GDP per capita.

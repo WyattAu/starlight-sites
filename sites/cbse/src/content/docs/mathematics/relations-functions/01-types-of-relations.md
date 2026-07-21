@@ -142,3 +142,10 @@ Relations are rules that connect elements from one set to another. A relation on
 - [Matrices](/docs/cbse/mathematics/matrices) -- matrices as representations of relations
 - [CBSE Mathematics](/docs/cbse/maths) -- sets, functions, and algebra
 - [CBSE Physics](/docs/cbse/physics) -- symmetry and conservation laws
+
+## Common Mistakes
+
+- **Assuming reflexivity means $(a, a) \in R$ for some elements:** Reflexivity requires $(a, a) \in R$ for **every** element $a \in A$. A single missing pair $(a, a)$ breaks reflexivity.
+- **Confusing symmetric with reflexive:** A relation can be symmetric without being reflexive (e.g., $aRb \Leftrightarrow a = b$ on a proper subset), and reflexive without being symmetric (e.g., $\leq$ on $\mathbb{R}$).
+- **Forgetting that transitivity requires checking all triples:** Transitivity is not just about adjacent pairs. You must verify that for every $(a, b) \in R$ and $(b, c) \in R$, the pair $(a, c)$ is also in $R$.
+- **Confusing equivalence relations with partial orders:** Equivalence relations are reflexive, symmetric, and transitive. Partial orders are reflexive, antisymmetric, and transitive. Symmetry and antisymmetry are mutually exclusive (except for equality).

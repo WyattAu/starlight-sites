@@ -68,6 +68,13 @@ Each section includes:
 4. **Learn the experiments**: Understand the experimental evidence for physical theories
 5. **Connect to applications**: Relate theoretical physics to real-world phenomena and technology
 
+## Common Mistakes
+
+- **Skipping foundational topics to jump to "exciting" ones:** Quantum mechanics builds on classical mechanics and electromagnetism. Skipping foundations leads to surface-level understanding that collapses when problems require deeper reasoning.
+- **Memorising formulas without understanding derivations:** Physics exams increasingly test understanding, not recall. Knowing that $E = \hbar\omega$ without understanding why it follows from the harmonic oscillator Hamiltonian leaves you unable to adapt to unfamiliar problems.
+- **Neglecting units and dimensional analysis:** Many errors in physics come from unit mismatches. Always check that your answer has the correct dimensions — it catches a large fraction of mistakes before you even compute numerically.
+- **Treating physics as a collection of isolated topics:** Classical mechanics, electromagnetism, and quantum mechanics are deeply connected. Understanding these connections (e.g., the classical limit $\hbar \to 0$, or how Maxwell's equations lead to special relativity) is what separates deep understanding from rote learning.
+
 ## Intuition
 
 Physics is the study of how the universe works, from the motion of planets to the behaviour of subatomic particles. The unifying theme is that nature is governed by mathematical laws that can be discovered through experiment and confirmed by prediction. Classical mechanics describes the macroscopic world, electromagnetism unifies electricity and light, thermodynamics governs energy and entropy, and quantum mechanics rules at the smallest scales. Each theory has a domain of validity, and the deepest understanding comes from knowing where one theory ends and another begins.

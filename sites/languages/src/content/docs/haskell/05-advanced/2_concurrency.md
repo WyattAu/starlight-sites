@@ -680,3 +680,10 @@ ghc -O2 -threaded -rtsopts -with-rtsopts=-N MyProgram.hs
 - **[Monads and Functors](../04-monads/1_monads-and-functors.md):** IO monad and monad transformers used for concurrent effect management.
 - **[Types and Functions](../01-basics/1_types-and-functions.md):** Function composition and higher-order functions in parallel strategies.
 - **[Advanced Types](./1_advanced-types.md):** Phantom types and GADTs for type-safe concurrent data structures.
+
+## Common Mistakes
+
+- **Using `unsafePerformIO` or `unsafeIOToSTM` to bypass purity:** These break Haskell's safety guarantees and can cause subtle, non-reproducible bugs. Use IORef with STM or the `IO` monad properly instead.
+- **Creating long-running STM transactions:** Long transactions hold locks longer and increase the chance of contention and retry loops. Keep `atomically` blocks short — do I/O and expensive computation outside the transaction.
+- **Forgetting the `-threaded` flag:** Without `-threaded` and `-N`, GHC runs everything on a single OS thread regardless of how many `forkIO` calls you make. Always compile with `ghc -threaded -rtsopts` for concurrent programs.
+- **Using `forkIO` without `bracket` for cleanup:** If an exception kills a forked thread, resources (file handles, sockets, connections) may leak. Always use `bracket` or `withAsync` to guarantee cleanup.

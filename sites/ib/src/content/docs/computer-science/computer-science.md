@@ -965,3 +965,15 @@ linked above.
 Computer Science is the study of problem-solving with machines. It's not just about programming — it's about thinking systematically. Computational thinking is the core skill: breaking a big problem into smaller pieces (decomposition), recognising patterns (pattern recognition), abstracting away irrelevant details (abstraction), and designing step-by-step solutions (algorithms).
 
 The IB course is structured around this thinking process. You start with the fundamentals (how computers work, how to think logically), then move to algorithms (how to solve problems efficiently), then to data (how to store and retrieve information), and finally to networks and ethics (how computing connects to the real world). The HL extension dives deeper into the technical details — memory management, advanced data structures, and how programs control hardware. Throughout, the emphasis is on understanding *why* things work, not just *how* to use them.
+
+## Common Mistakes
+
+1. **Confusing data representation with data structures.** Data representation (Topic 1) covers how data is stored in binary — integers, floating point, images, sound. Data structures (Topic 3) covers how data is organised for efficient access — arrays, stacks, queues, trees. These are distinct topics; confusing them leads to incorrect answers in both.
+
+2. **Assuming all computers process information the same way.** Different architectures (von Neumann, Harvard) and different processors (CPUs, GPUs) have different capabilities and limitations. The IB syllabus covers specific architectures and their trade-offs — do not assume that knowledge of one system applies universally.
+
+3. **Treating ethics as a separate topic rather than integrated throughout.** Ethical issues arise in every area of computing — data privacy in databases, digital divide in networking, intellectual property in programming. The IB expects you to identify and discuss ethical implications across all topics, not just in a dedicated ethics section.
+
+4. **Confusing local and wide area networks.** A LAN connects devices in a small area (school, office) with high speed and low cost. A WAN connects LANs over large distances with higher cost and lower speed. The Internet is a WAN, not a LAN. Misidentifying the network type leads to incorrect analysis of costs, speeds, and use cases.
+
+5. **Neglecting the role of protocols in networking.** Protocols are standardised rules that enable communication between different systems. Without understanding TCP/IP, HTTP, and other protocols, you cannot explain how data moves across networks. Focus on *why* protocols exist (interoperability, reliability, error correction) not just *what* they are.

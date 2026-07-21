@@ -1282,3 +1282,10 @@ Supply and demand is the most powerful idea in economics. It explains how prices
 The equilibrium price is where the two curves cross — the price at which quantity demanded equals quantity supplied. If the price is too high, there's a surplus (unsold goods), so sellers lower prices. If too low, there's a shortage (empty shelves), so sellers raise prices. This natural adjustment is why economists call supply and demand a "market mechanism" — it self-corrects without central planning.
 
 The key distinction is between movements along a curve (caused by price changes) and shifts of the curve (caused by income changes, preferences, substitutes, etc.). Getting this distinction wrong is the single most common error in economics exams.
+
+## Common Mistakes
+
+- **Confusing a movement along the demand curve with a shift of the curve:** A change in the good's own price causes a movement along the curve (change in quantity demanded). A change in income, preferences, or prices of related goods shifts the entire curve (change in demand). This is the most common exam error.
+- **Assuming supply and demand always reach equilibrium:** In practice, prices may be sticky (wages, rent controls), markets may be thin (rare goods), or there may be externalities. The equilibrium model is a useful simplification, not a universal law.
+- **Forgetting that elasticity changes along a linear demand curve:** A straight-line demand curve has constant slope but varying elasticity. Elasticity is high at high prices (elastic) and low at low prices (inelastic). Do not assume constant elasticity just because the curve is linear.
+- **Confusing normal and inferior goods:** A normal good has demand that rises with income; an inferior good has demand that falls with income. Students often assume all goods are normal, which leads to incorrect predictions about income effects.
