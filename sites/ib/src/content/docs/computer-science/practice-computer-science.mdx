@@ -24,6 +24,68 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
+## Worked Examples
+
+### Example 1: Boolean Logic
+
+**Problem:** Simplify the Boolean expression: $A \cdot \overline{A} + A \cdot B$
+
+**Solution:**
+Step 1: $A \cdot \overline{A} = 0$ (complement law: a variable ANDed with its complement is always false)
+
+Step 2: $0 + A \cdot B = A \cdot B$ (identity law: 0 OR anything is that thing)
+
+Step 3: Answer: $A \cdot B$
+
+**Key insight:** Boolean algebra simplification follows the same rules as regular algebra, but with AND as multiplication and OR as addition. The key laws are: $A \cdot \overline{A} = 0$, $A + \overline{A} = 1$, $A \cdot 1 = A$, $A + 0 = A$.
+
+---
+
+### Example 2: Big-O Analysis
+
+**Problem:** Analyse the time complexity of this pseudocode:
+```
+for i = 1 to n:
+    for j = 1 to n:
+        print(i * j)
+```
+
+**Solution:**
+Step 1: Outer loop runs n times
+
+Step 2: Inner loop runs n times for each iteration of outer loop
+
+Step 3: Total operations = $n \times n = n^2$
+
+Step 4: Time complexity: $O(n^2)$
+
+**Key insight:** For nested loops, multiply the number of iterations. If the inner loop depends on the outer loop variable (e.g., `for j = 1 to i`), the complexity is $O(n^2/2) = O(n^2)$.
+
+---
+
+### Example 3: Binary Search Trace
+
+**Problem:** Trace binary search for target 13 in array [2, 5, 8, 12, 16, 23, 38].
+
+**Solution:**
+Step 1: low = 0, high = 6, mid = 3, array[3] = 12
+
+Step 2: 12 < 13, so search right half: low = 4, high = 6
+
+Step 3: mid = 5, array[5] = 23
+
+Step 4: 23 > 13, so search left half: low = 4, high = 4
+
+Step 5: mid = 4, array[4] = 16
+
+Step 6: 16 > 13, so search left half: low = 4, high = 3
+
+Step 7: low > high → target not found
+
+**Key insight:** Binary search eliminates half the remaining elements at each step, which is why it's $O(\log n)$. But the array must be sorted first.
+
+---
+
 ### System Fundamentals
 
 <PracticeProblem client:only="solid-js" question={"A school is implementing a new online grading system. Which of the following groups would be considered a stakeholder in this system?&quot; options={[ 'Teachers, students, parents, and the school administration', 'Only the software developers who created the system', 'Only the students who will view their grades', 'The computers and servers that run the software', ]} correctAnswer={0} explanation=&quot;Stakeholders are all individuals or groups who have an interest in or are affected by a system. In this case, teachers (who input grades), students (who view grades), parents (who monitor progress), and school administration (who manage the system and generate reports) are all stakeholders because the system directly impacts their workflows and needs. Software developers are involved in creating the system but are not the primary stakeholders of its operation. Hardware components are resources, not stakeholders."} difficulty="easy"  />
