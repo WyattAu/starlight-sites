@@ -93,3 +93,11 @@ All contributions are welcome.
 - **[Mathematics](../../mathematics/src/content/docs/index.mdx):** University-level mathematics including abstract algebra and real analysis.
 - **[Physics](../../physics/src/content/docs/index.md):** Classical mechanics, electromagnetism, and quantum physics.
 - **[Tools](../../tools/src/content/docs/index.mdx):** Programming tools and algorithms implementation.
+
+## Intuition
+
+Computer science is the study of **what can be computed and how efficiently**. The three pillars — algorithms and data structures, systems, and theory — each answer a different facet of this question. Algorithms tell you *how* to solve a problem step by step and how many steps it takes. Systems tell you how to make those solutions work at scale across networks and hardware. Theory tells you what problems are fundamentally hard and what it means to compute at all.
+
+The key mental model is **abstraction layers**. At the lowest level, hardware executes instructions. Operating systems abstract hardware into processes, files, and network sockets. Programming languages abstract those into types, functions, and modules. Distributed systems abstract networks into consensus and replication. Each layer builds on the one below, and understanding where bugs and inefficiencies arise means knowing which layer to examine. A slow algorithm is an algorithm-layer problem; a dropped network packet is a systems-layer problem; undecidability is a theory-layer problem.
+
+Approach these notes by building intuition before formalism. Understand *why* a data structure exists (what problem does it solve?), then learn its operations and complexity. For distributed systems, start with the CAP theorem and work outward to consensus protocols. For theory, begin with finite automata and build up to Turing machines. The practice problems are designed to test whether you can apply concepts to new situations — not just recall definitions, but reason about trade-offs and choose the right tool for the problem.

@@ -636,6 +636,10 @@ implementation, and key applications.
 - applications in the real world
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
-## Worked Examples
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
+## Intuition
+
+Binary formats — ELF on Linux, PE on Windows, Mach-O on macOS — are the final output of the compilation process and the input to the operating system's loader. At its core, a binary format is a **map for the OS**: it tells the loader which parts of the file are code, which are read-only data, which are writable, and how to relocate addresses when the binary is loaded at a non-preferred address (ASLR). Understanding this map means you can diagnose linking errors, understand why certain memory accesses cause segfaults, and optimise binary size by knowing what each section contains.
+
+The three formats share the same fundamental structure — headers describing sections, sections containing code and data, and symbol tables for linking — but differ in implementation details. ELF uses program headers and section headers with a rich set of metadata sections (`.eh_frame` for unwinding, `.dynamic` for dynamic linking). PE uses a different directory-based system with import/export tables and TLS directories. Mach-O uses load commands and requires code signing on Apple platforms. The differences matter when cross-compiling, debugging, or analysing binaries.
+
+The intuition to build is that **every byte in a binary has a purpose and a permission**. The `.text` section is executable but not writable; `.rodata` is readable but not writable or executable; `.data` is readable and writable. These permissions are enforced by the hardware (via page table entries) and the OS. Security features like DEP/NX, ASLR, and stack canaries all operate at this level. When you strip debug symbols, you are removing `.debug_*` sections that are not loaded at runtime. When you see a segfault, the first step is to check which segment the faulting address belongs to — this tells you whether it is a code, data, or stack issue.

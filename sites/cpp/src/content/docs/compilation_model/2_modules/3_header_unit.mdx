@@ -732,7 +732,10 @@ principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
-## Worked Examples
+## Intuition
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
+Header units bridge two worlds: the old `#include` world where the preprocessor copies text, and the new module world where the compiler imports pre-compiled binary interfaces. A header unit is essentially a header file that has been pre-compiled into a binary module interface (BMI), so instead of re-parsing the header every time it is included, the compiler loads a cached representation. The key insight is that this is a **migration tool** — it lets you incrementally adopt modules without rewriting every header in your project at once.
+
+The difficulty with header units is that they inherit the problems of `#include` — particularly macros. Named modules do not export macros (by design, since macros are a preprocessor concept with no type or namespace), but header units do export them as a compatibility concession. This means header units provide partial modular benefits (faster compilation, ODR enforcement) but not full macro hygiene. If a header defines macros that affect other code, those macros will leak to importers.
+
+Think of header units as a stepping stone: start with the Global Module Fragment to wrap existing headers, then gradually convert your own headers to named modules, and use `import std;` for the standard library. Header units are best reserved for third-party headers you cannot modify but want to import rather than include. The architectural migration strategy in the notes reflects this — it is a practical path from legacy to modern C++ without requiring a big-bang rewrite.

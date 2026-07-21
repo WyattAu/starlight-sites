@@ -729,7 +729,10 @@ optimization, including key principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
-## Worked Examples
+## Intuition
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
+A `std::string_view` is a lightweight "lens" over a sequence of characters — it tells you where the characters are and how many there are, but it does not own them. Think of it like pointing at a page in a book: you can read the text, but you cannot tear the page out or modify it. This is why string views are so fast — they never allocate memory, never copy data, and are just two pointers (or a pointer and a length) under the hood. The trade-off is that you must ensure the original string outlives the view, or you will be reading garbage.
+
+Small String Optimization (SSO) is the opposite strategy for `std::string` itself: instead of heap-allocating short strings, the string object stores them directly inside its own memory. For strings shorter than about 15–22 characters (depending on the implementation), this means no heap allocation at all — the string is entirely self-contained. This is why passing short strings by value to `std::string` is often surprisingly fast: the "copy" just copies a few bytes inline.
+
+The intuition to carry forward is the **ownership spectrum**: `std::string` owns and manages its data, `std::string_view` borrows without owning, and SSO is a hidden optimisation that blurs the line by making short owned strings zero-allocation. When writing code, prefer `string_view` for read-only parameters (it accepts `std::string`, `const char*`, and string literals uniformly), and use `std::string` when you need to store or mutate the text. This pairing gives you both performance and safety.

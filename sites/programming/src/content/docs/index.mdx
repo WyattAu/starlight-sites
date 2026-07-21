@@ -158,3 +158,11 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 - **[Types](../../types/):** Type system fundamentals.
 - **[Resource Management](../../resource_management/):** RAII and smart pointers.
 - **[Templates](../../templates_and_metaprogramming/):** Generic programming and metaprogramming.
+
+## Intuition
+
+C++ systems programming is fundamentally about **owning and managing resources**. Unlike garbage-collected languages where the runtime cleans up after you, C++ puts you in control of memory, file handles, network connections, and other resources. The key insight is that resource lifetimes can be tied to object lifetimes through RAII — when an object is constructed, it acquires a resource; when it is destroyed, it releases it. This simple idea eliminates entire classes of bugs like memory leaks and dangling pointers.
+
+The type system, ownership model, and compilation model all serve this central goal. Understanding how code goes from source text to machine code (the compilation model), how data is laid out in memory (types and references), and how to transfer ownership safely (resource management) gives you the mental model needed to write C++ that is both efficient and correct. The standard library builds on these foundations with containers, algorithms, and utilities that follow the same principles.
+
+When approaching these notes, think of each section as a layer of the same onion: the compilation model tells you what happens to your code, the type system tells you how data is represented, resource management tells you who is responsible for that data, and the standard library gives you battle-tested tools built on top of it all.

@@ -749,9 +749,10 @@ key principles and practical applications.
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
 
-## Worked Examples
+## Intuition
 
-Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
-linked above.
+The C Runtime (CRT) is the invisible scaffolding that makes a C++ program run. Before your `main` function is called, the CRT has already done significant work: it set up the stack, initialised the heap, processed global constructors (`.init_array`), and set up thread-local storage. When `main` returns, the CRT runs `atexit` handlers, calls static destructors, flushes I/O buffers, and then invokes the OS exit syscall. Understanding this lifecycle is critical because bugs in global constructors, static destructors, or heap initialisation happen *before your code even runs* — and they are notoriously hard to debug.
 
-</aside>
+The CRT also manages the boundary between your program and the operating system. On Linux, glibc provides dynamic linking, thread-local storage setup, and the dynamic linker (`ld.so`). On Windows, MSVC offers a choice between dynamic and static CRT linking, with the static option creating heap isolation traps between DLLs. These platform differences are not just implementation details — they affect binary size, startup time, memory safety, and deployment.
+
+The key mental model is that the CRT is **not optional** — even freestanding environments must provide a minimal startup sequence. The difference between hosted and freestanding environments is simply how much of the CRT you get: hosted gives you everything (heap, exceptions, standard library), while freestanding gives you almost nothing and requires you to provide your own `_start` and manage the stack manually. Knowing where the CRT ends and your code begins is essential for systems programming, embedded development, and understanding what happens at program startup.

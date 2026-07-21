@@ -156,3 +156,11 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 - **[Types](types/):** Fundamental type system including value categories, references, and type traits.
 - **[Resource Management](resource_management/):** RAII, smart pointers, and ownership semantics.
 - **[Templates and Metaprogramming](templates_and_metaprogramming/):** Generic programming, concepts, and compile-time computation.
+
+## Intuition
+
+C++ is a language built on the principle that **you should not pay for what you do not use**. Unlike managed languages that provide runtime services (garbage collection, bounds checking, virtual dispatch) whether you need them or not, C++ gives you precise control over every aspect of your program: memory layout, calling conventions, compile-time vs runtime computation, and resource lifetimes. This control is the source of both C++'s power and its complexity — every feature exists because someone needed it, and understanding *why* a feature exists is the key to knowing when to use it.
+
+The notes are structured around the central concern of systems programming: **managing resources correctly and efficiently**. The compilation model explains how source code becomes machine code. The type system explains how data is represented and constrained. Resource management explains how to avoid leaks, dangling references, and undefined behaviour. The standard library provides tools built on these foundations. Object-oriented programming and concurrency add layers of abstraction for specific problem domains. Each section builds on the previous ones, forming a coherent mental model of the language.
+
+When studying, start with the compilation model and types — these are the foundations everything else depends on. Then move to resource management (RAII and ownership), which is the single most important concept in C++. Templates and the standard library build on top of these foundations. The common mistakes and cross-references throughout the notes are designed to help you see connections between sections and avoid the pitfalls that trap even experienced C++ programmers.
