@@ -14,11 +14,97 @@ fundamentals. Select an option to check your answer and view the explanation.
 
 ## Intuition
 
-**The foundations beneath the code:** Theory of computation is like the foundations of a building — you don't see them, but they determine what structures are possible. Automata theory tells you what languages are recognisable, computability tells you what's solvable, and complexity tells you what's practical.
+**The foundations beneath the code:** Theory of computation is like the foundations of a building — you don't see them, but they determine what structures are possible. Automata theory tells you what languages are recognisable, computability tells you what's solvable, and complexity tells us which problems we can hope to solve efficiently.
 
 **Why it matters:** Theory guides practical decisions — compiler designers use automata to parse code, cryptographers rely on computational hardness for security, and complexity theory tells us which problems we can hope to solve efficiently.
 
 **The key insight:** There's a beautiful hierarchy from finite automata to Turing machines — each level of memory unlocks new capabilities, and understanding this hierarchy is the key to knowing what's computationally possible.
+
+---
+
+## Worked Examples
+
+### Example 1: DFA Construction
+
+**Problem:** Design a DFA that accepts all strings over $\{0, 1\}$ containing an even number of 1s.
+
+**Solution:**
+Step 1: Define states based on parity of 1s seen so far
+- $q_0$: even number of 1s (start and accept state)
+- $q_1$: odd number of 1s
+
+Step 2: Define transitions
+- From $q_0$: on 0 stay in $q_0$, on 1 go to $q_1$
+- From $q_1$: on 0 stay in $q_1$, on 1 go to $q_0$
+
+Step 3: Accept state: $q_0$ (even number of 1s)
+
+Step 4: Verify with examples:
+- "0101": $q_0 \xrightarrow{0} q_0 \xrightarrow{1} q_1 \xrightarrow{0} q_1 \xrightarrow{1} q_0$ ✓ (accepted)
+- "011": $q_0 \xrightarrow{0} q_0 \xrightarrow{1} q_1 \xrightarrow{1} q_0$ ✓ (accepted)
+
+**Key insight:** DFAs need only 2 states for this problem because we only need to track parity (even/odd), which requires finite memory.
+
+---
+
+### Example 2: RSA Key Generation
+
+**Problem:** Generate RSA keys with $p = 5$, $q = 11$, $e = 3$. Find $d$ and decrypt the ciphertext $c = 2$.
+
+**Solution:**
+Step 1: Compute $n = pq = 55$
+
+Step 2: Compute $\phi(n) = (p-1)(q-1) = 4 \times 10 = 40$
+
+Step 3: Find $d$ such that $ed \equiv 1 \pmod{40}$:
+$3d \equiv 1 \pmod{40}$
+Try $d = 27$: $3 \times 27 = 81 = 2 \times 40 + 1 \equiv 1 \pmod{40}$ ✓
+
+Step 4: Public key: $(e, n) = (3, 55)$, Private key: $(d, n) = (27, 55)$
+
+Step 5: Decrypt $c = 2$: $m = c^d \bmod n = 2^{27} \bmod 55$
+$2^{27} = 134217728$
+$134217728 \div 55 = 2440322$ remainder $18$
+So $m = 18$
+
+**Key insight:** RSA decryption works because $m^{ed} \equiv m \pmod{n}$ by Euler's theorem, since $ed \equiv 1 \pmod{\phi(n)}$.
+
+---
+
+### Example 3: Compiler Pipeline
+
+**Problem:** Trace the compilation of `x = a + b * 2` through each compiler phase.
+
+**Solution:**
+Step 1 (Lexical Analysis): Tokenise into:
+`[ID:x] [ASSIGN:=] [ID:a] [PLUS:+] [ID:b] [STAR:*] [NUM:2]`
+
+Step 2 (Syntax Analysis): Build AST:
+```
+      =
+     / \
+    x   +
+       / \
+      a   *
+         / \
+        b   2
+```
+
+Step 3 (Semantic Analysis): Type-check and annotate:
+- `b * 2`: integer multiplication ✓
+- `a + (b * 2)`: integer addition ✓
+- `x = ...`: assignment ✓
+
+Step 4 (Code Generation): Three-address code:
+```
+t1 = b * 2
+t2 = a + t1
+x = t2
+```
+
+Step 5 (Optimisation): Constant fold if `b` or `2` are known, or strength reduction.
+
+**Key insight:** Each phase transforms the representation while preserving semantics. The AST makes operator precedence explicit (multiplication before addition).
 
 ---
 

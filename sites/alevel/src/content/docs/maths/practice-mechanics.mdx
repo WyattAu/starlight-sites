@@ -44,6 +44,70 @@ Think of forces as "inputs" to a system. The net force determines the accelerati
 
 ---
 
+### Worked Examples
+
+#### Example 1: Connected Particles (Tow Bar)
+
+**Problem:** Two particles A (2 kg) and B (3 kg) are connected by a light rigid tow bar. A horizontal force of 20 N is applied to A. Find the acceleration and the tension in the tow bar. (Assume no friction.)
+
+**Solution:**
+Step 1: Draw force diagrams for each particle
+- A: 20 N forward, tension $T$ backward
+- B: tension $T$ forward
+
+Step 2: Apply $F = ma$ to each particle
+- A: $20 - T = 2a$ ... (1)
+- B: $T = 3a$ ... (2)
+
+Step 3: Substitute (2) into (1):
+$20 - 3a = 2a \Rightarrow 20 = 5a \Rightarrow a = 4 \, \text{m/s}^2$
+
+Step 4: Find tension: $T = 3 \times 4 = 12 \, \text{N}$
+
+**Key insight:** For connected particles, treat each particle separately, then link them through the tension.
+
+---
+
+#### Example 2: Projectile Motion
+
+**Problem:** A ball is thrown horizontally from a cliff 45 m high with speed 12 m/s. Find the time of flight and the horizontal distance. ($g = 9.8 \, \text{m/s}^2$)
+
+**Solution:**
+Step 1: Vertical motion (u = 0, a = g, s = 45):
+$s = ut + \frac{1}{2}at^2 \Rightarrow 45 = 0 + \frac{1}{2}(9.8)t^2$
+
+Step 2: Solve for $t$:
+$t^2 = \frac{90}{9.8} = 9.184 \Rightarrow t = 3.03 \, \text{s}$ (to 3 s.f.)
+
+Step 3: Horizontal motion (constant velocity):
+$d = vt = 12 \times 3.03 = 36.4 \, \text{m}$
+
+**Key insight:** Horizontal and vertical motions are independent. The time of flight is determined entirely by the vertical motion.
+
+---
+
+#### Example 3: Work and Energy
+
+**Problem:** A 5 kg block slides down a rough incline of length 8 m and angle 30° to the horizontal. The coefficient of friction is 0.2. Find the speed at the bottom. ($g = 9.8 \, \text{m/s}^2$)
+
+**Solution:**
+Step 1: Calculate weight components:
+- Along incline: $mg\sin 30° = 5 \times 9.8 \times 0.5 = 24.5 \, \text{N}$
+- Perpendicular: $mg\cos 30° = 5 \times 9.8 \times \frac{\sqrt{3}}{2} = 42.44 \, \text{N}$
+
+Step 2: Friction force: $F_f = \mu R = 0.2 \times 42.44 = 8.488 \, \text{N}$
+
+Step 3: Work-energy theorem:
+Work done by gravity $-$ Work done by friction $= \Delta KE$
+$24.5 \times 8 - 8.488 \times 8 = \frac{1}{2}(5)v^2$
+
+Step 4: Solve:
+$196 - 67.9 = 2.5v^2 \Rightarrow 128.1 = 2.5v^2 \Rightarrow v = 7.16 \, \text{m/s}$
+
+**Key insight:** Work-energy problems are often easier than using $F = ma$ because you don't need to find acceleration first.
+
+---
+
 ### Common Mistakes
 
 1. **Using the wrong value of $g$.** In A-Level mechanics, use $g = 9.8 \, \text{m/s}^{2}$ unless told otherwise. Some students use 10, which gives wrong answers.

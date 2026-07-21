@@ -15,6 +15,62 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
+## Worked Examples
+
+### Example 1: Hardy-Weinberg Equilibrium
+
+**Problem:** In a population of 1000 individuals, 160 show the recessive phenotype. Calculate the frequency of the dominant allele.
+
+**Solution:**
+Step 1: Let $q^2$ = frequency of homozygous recessive = $160/1000 = 0.16$
+
+Step 2: $q = \sqrt{0.16} = 0.4$ (frequency of recessive allele)
+
+Step 3: $p = 1 - q = 1 - 0.4 = 0.6$ (frequency of dominant allele)
+
+Step 4: Verify: $p^2 + 2pq + q^2 = 0.36 + 0.48 + 0.16 = 1.0$ ✓
+
+**Key insight:** The Hardy-Weinberg equation $p^2 + 2pq + q^2 = 1$ relates allele frequencies to genotype frequencies. It assumes no selection, mutation, migration, or genetic drift.
+
+---
+
+### Example 2: ATP Calculation
+
+**Problem:** How many ATP molecules are produced from one glucose molecule through complete aerobic respiration?
+
+**Solution:**
+Step 1: Glycolysis → 2 ATP (net) + 2 NADH
+Step 2: Pyruvate oxidation → 2 NADH (per glucose, 2 pyruvates)
+Step 3: Krebs cycle → 2 ATP + 6 NADH + 2 FADH₂
+Step 4: Total NADH = 2 + 2 + 6 = 10 NADH → ~25 ATP (2.5 ATP per NADH)
+Step 5: Total FADH₂ = 2 → ~3 ATP (1.5 ATP per FADH₂)
+Step 6: Grand total: 2 + 25 + 3 = ~30 ATP (modern estimate)
+
+**Key insight:** Older textbooks say 36-38 ATP, but modern estimates are ~30 ATP due to the cost of transporting NADH into mitochondria.
+
+---
+
+### Example 3: Chi-Square Test
+
+**Problem:** A genetic cross produces 312 round seeds and 88 wrinkled seeds. Is this consistent with a 3:1 ratio?
+
+**Solution:**
+Step 1: Null hypothesis: data fit 3:1 ratio
+Step 2: Expected: round = $\frac{3}{4} \times 400 = 300$, wrinkled = $\frac{1}{4} \times 400 = 100$
+
+Step 3: Calculate $\chi^2$:
+$$\chi^2 = \frac{(312-300)^2}{300} + \frac{(88-100)^2}{100} = \frac{144}{300} + \frac{144}{100} = 0.48 + 1.44 = 1.92$$
+
+Step 4: Degrees of freedom = $2 - 1 = 1$
+
+Step 5: Critical value at $p = 0.05$ is $3.84$
+
+Step 6: $1.92 < 3.84$, so we **fail to reject** the null hypothesis. The data are consistent with 3:1.
+
+**Key insight:** A small $\chi^2$ means observed values are close to expected. A large $\chi^2$ means they differ significantly.
+
+---
+
 ### Chemistry of Life
 
 **Intuition:** Biology starts with chemistry — the molecules of life (water, proteins, nucleic acids, lipids, carbohydrates) follow chemical rules, but their organisation creates something greater than the sum of parts.

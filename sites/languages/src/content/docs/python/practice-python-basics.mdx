@@ -18,6 +18,89 @@ import PracticeProblem from "@components/PracticeProblem";
 
 **The key insight:** Making mistakes during practice is valuable — each error points to a concept that needs clarification.
 
+---
+
+## Worked Examples
+
+### Example 1: List Comprehension vs Generator
+
+**Problem:** What's the difference between these two?
+```python
+squares_list = [x**2 for x in range(1000000)]
+squares_gen = (x**2 for x in range(1000000))
+```
+
+**Solution:**
+Step 1: `squares_list` is a list — all 1,000,000 values are computed and stored in memory immediately
+Step 2: `squares_gen` is a generator expression — values are computed lazily, one at a time, when iterated
+Step 3: Memory: list uses ~8 MB, generator uses ~200 bytes (just the expression and iterator state)
+Step 4: Speed: first iteration is similar, but generator wins for large datasets due to lower memory overhead
+
+**Key insight:** Use list comprehensions when you need the data multiple times or need list methods. Use generators for large datasets or single-pass processing.
+
+---
+
+### Example 2: Decorator Pattern
+
+**Problem:** Write a decorator that logs function calls with their arguments.
+
+**Solution:**
+```python
+def log_calls(func):
+    def wrapper(*args, **kwargs):
+        print(f"Calling {func.__name__} with {args}, {kwargs}")
+        result = func(*args, **kwargs)
+        print(f"{func.__name__} returned {result}")
+        return result
+    return wrapper
+
+@log_calls
+def add(a, b):
+    return a + b
+
+add(3, 5)
+# Output:
+# Calling add with (3, 5), {}
+# add returned 8
+```
+
+Step 1: Define wrapper that captures `*args` and `**kwargs`
+Step 2: Call original function and capture result
+Step 3: Log before and after, return result
+Step 4: Use `@decorator` syntax to apply
+
+**Key insight:** `functools.wraps(func)` should be used in the wrapper to preserve the original function's metadata (name, docstring, etc.).
+
+---
+
+### Example 3: Context Manager
+
+**Problem:** Why use `with open('file.txt') as f:` instead of `f = open('file.txt')`?
+
+**Solution:**
+Step 1: `with` statement calls `__enter__` when entering the block and `__exit__` when leaving
+Step 2: If an exception occurs, `__exit__` is still called (guaranteed cleanup)
+Step 3: File is automatically closed even if an exception occurs
+Step 4: Without `with`, you need try/finally to ensure the file is closed
+
+```python
+# Without context manager (error-prone):
+f = open('file.txt')
+try:
+    data = f.read()
+finally:
+    f.close()
+
+# With context manager (safe):
+with open('file.txt') as f:
+    data = f.read()
+# File is automatically closed here
+```
+
+**Key insight:** Context managers guarantee cleanup. Use them for files, database connections, locks, and any resource that needs deterministic release.
+
+---
+
 ## Types and Variables
 
 <PracticeProblem client:only="solid-js" question={"What is the output of `type([1, 2, 3]) == type((1, 2, 3))`?&quot; options={['False', 'True', 'TypeError', 'SyntaxError']} correctAnswer={0} explanation=&quot;`type([1, 2, 3])` is `<class 'list'>` and `type((1, 2, 3))` is `<class 'tuple'>`. These are different types, so `==` returns `False`. Lists use square brackets and tuples use parentheses."} difficulty="easy"  />

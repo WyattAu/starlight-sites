@@ -45,6 +45,60 @@ Think of algebra as a language. The symbols represent quantities and relationshi
 
 ---
 
+### Worked Examples
+
+#### Example 1: Logarithmic Equation
+
+**Problem:** Solve $\log_2(x-1) + \log_2(x+1) = 3$.
+
+**Solution:**
+Step 1: Combine using log law: $\log_2[(x-1)(x+1)] = 3$
+Step 2: Convert to exponential form: $(x-1)(x+1) = 2^3 = 8$
+Step 3: Expand: $x^2 - 1 = 8$, so $x^2 = 9$
+Step 4: Solve: $x = 3$ or $x = -3$
+Step 5: Check domain: $\log_2(x-1)$ requires $x > 1$, so $x = -3$ is rejected
+Step 6: Answer: $x = 3$
+
+**Key insight:** Always check the domain of logarithmic solutions. $x = -3$ is extraneous because $\log_2(-4)$ is undefined.
+
+---
+
+#### Example 2: Proof by Induction
+
+**Problem:** Prove that $\sum_{r=1}^{n} r^2 = \frac{n(n+1)(2n+1)}{6}$ for all $n \in \mathbb{Z}^+$.
+
+**Solution:**
+Step 1 (Base case): $n = 1$: LHS $= 1^2 = 1$, RHS $= \frac{1 \cdot 2 \cdot 3}{6} = 1$. ✓
+
+Step 2 (Inductive hypothesis): Assume true for $n = k$: $\sum_{r=1}^{k} r^2 = \frac{k(k+1)(2k+1)}{6}$
+
+Step 3 (Inductive step): Show true for $n = k+1$:
+$$\sum_{r=1}^{k+1} r^2 = \sum_{r=1}^{k} r^2 + (k+1)^2 = \frac{k(k+1)(2k+1)}{6} + (k+1)^2$$
+$$= \frac{k(k+1)(2k+1) + 6(k+1)^2}{6} = \frac{(k+1)[k(2k+1) + 6(k+1)]}{6}$$
+$$= \frac{(k+1)(2k^2 + 7k + 6)}{6} = \frac{(k+1)(k+2)(2k+3)}{6}$$
+
+This equals the formula with $n = k+1$. ✓
+
+**Key insight:** The algebraic manipulation in Step 3 is where most errors occur. Factor out $(k+1)$ first, then expand carefully.
+
+---
+
+#### Example 3: Trigonometric Equation
+
+**Problem:** Solve $2\cos^2 x - 3\cos x + 1 = 0$ for $0 \leq x \leq 360°$.
+
+**Solution:**
+Step 1: Let $u = \cos x$: $2u^2 - 3u + 1 = 0$
+Step 2: Factorise: $(2u - 1)(u - 1) = 0$
+Step 3: Solve: $u = \frac{1}{2}$ or $u = 1$
+Step 4: $\cos x = \frac{1}{2}$: $x = 60°$ or $x = 300°$
+Step 5: $\cos x = 1$: $x = 0°$
+Step 6: Answer: $x = 0°, 60°, 300°$
+
+**Key insight:** Substitution ($u = \cos x$) turns a trig equation into a quadratic, which is easier to solve. Always substitute back at the end.
+
+---
+
 ### Common Mistakes
 
 1. **Losing solutions when dividing by a variable.** If you divide both sides by $x$ to solve $x^{2} = 3x$, you lose the solution $x = 0$. Always factorise instead of dividing.
