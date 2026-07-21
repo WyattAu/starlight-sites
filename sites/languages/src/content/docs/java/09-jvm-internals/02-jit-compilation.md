@@ -641,3 +641,11 @@ and evaluate experimental evidence critically.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+The JIT compiler is the JVM's secret weapon for making Java fast despite being an interpreted language. Instead of compiling all code ahead of time, the JVM waits to see which methods are actually called frequently — the "hot paths" — and compiles only those to optimized native machine code. It profiles your running application, discovers that a virtual call always targets the same class in practice, and then devirtualizes it into a direct call. This means Java can achieve performance rivaling C++ for hot code while retaining the portability and safety of bytecode.
+
+The tiered compilation system (C1 for quick, light compilation; C2 for deep optimization) is the JVM's way of balancing startup speed with peak performance. C1 gets code running reasonably fast early on, and once the profiler has gathered enough data, C2 produces highly optimized native code. Escape analysis is particularly clever: if the JIT can prove an object never leaves the current method, it can eliminate the allocation entirely, storing fields as local variables on the stack. This turns heap allocations into register operations — an enormous win.
+
+Deoptimization is what makes this whole scheme safe. The JIT makes optimistic assumptions based on what it has observed, but if reality changes (a new subclass is loaded, a field type changes), the JVM discards the compiled code and falls back to the interpreter. This "bail out" mechanism means the JIT can be aggressive with optimizations because it always has a safe fallback. The result is a system that starts interpreted, identifies hotspots, optimizes aggressively, and gracefully handles change — all transparently to the developer.

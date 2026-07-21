@@ -972,3 +972,11 @@ linked above.
 - [Pre-commit Framework](../../git/05-advanced-topics/09-pre-commit-framework) -- Automated code quality checks reduce manual review time and improve productivity.
 - [GitHub Actions CI/CD](../../git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns) -- CI/CD automation eliminates repetitive manual testing and deployment tasks.
 - [Code Review](collaboration/code-review) -- Effective code review practices complement individual productivity for team outcomes.
+
+## Intuition
+
+Developer productivity is not about working more hours — it is about protecting your attention and directing it toward work that matters. The single biggest threat to productive work is context switching. Every interruption (a Slack message, an email ping, a quick question) forces your brain to dump its current state and reload context, costing 10-25 minutes of reorientation time. Three interruptions per hour can consume half your productive capacity. The solution is deliberate: batch shallow work into specific windows, defend deep work blocks aggressively, and treat your focus as a finite resource that must be managed, not spent.
+
+The most effective productivity systems share a common structure: they externalize decisions so your brain can focus on execution rather than planning. Time blocking on your calendar pre-decides what you work on and when. The Eisenhower Matrix pre-categorizes tasks by urgency and importance. The two-minute rule eliminates small tasks immediately instead of letting them accumulate as mental clutter. The Zettelkasten method captures knowledge in atomic, linkable notes so you never lose an insight. None of these systems are complicated — their power comes from consistent application, not complexity.
+
+Sustainable productivity requires recognizing that rest is productive. Cognitive capacity fluctuates throughout the day: most engineers have a 3-4 hour peak window for creative problem-solving, with lower-energy periods better suited for meetings and administrative work. Pushing through exhaustion produces diminishing returns — error correction on buggy code written while tired costs more time than taking a break would have saved. The goal is consistency over intensity: four focused hours every day produces more value than twelve unfocused hours followed by burnout.

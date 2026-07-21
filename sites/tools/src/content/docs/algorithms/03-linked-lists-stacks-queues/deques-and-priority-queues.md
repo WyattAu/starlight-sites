@@ -1030,4 +1030,10 @@ linked above.
 - [Binary Search Trees](../../04-trees-graphs/binary-search-trees) -- Priority queues are used in tree balancing algorithms and heap operations.
 - [Graph Algorithms](../../07-graph-algorithms/graph-algorithms) -- Priority queues are essential for Dijkstra's and Prim's algorithms.
 
-</aside>
+## Intuition
+
+A deque (double-ended queue) generalizes both stacks and queues by allowing insertion and removal at both ends in O(1) time. The classic implementation uses a circular buffer — an array with head and tail pointers that wrap around using modular arithmetic. This gives excellent cache performance compared to linked lists because elements are contiguous in memory. Deques are the underlying data structure for sliding window algorithms (like finding the maximum in every window of size k) and for work-stealing thread pools where tasks are dequeued from one end and pushed to the other.
+
+Heaps are the simplest priority queue: a complete binary tree stored as an array, where the parent is always smaller (min-heap) or larger (max-heap) than its children. The key insight is that this array representation is extremely cache-friendly, and the tree structure guarantees O(log n) insert and extract-min. Building a heap from scratch is O(n), not O(n log n), because most nodes are near the bottom and need little sifting. Binary heaps are the default in practice (Python's heapq, Java's PriorityQueue) because their low constant factors beat more sophisticated heaps.
+
+Fibonacci heaps achieve theoretically optimal O(1) amortized insert and decrease-key by deferring consolidation until extract-min. This laziness is brilliant for algorithms like Dijkstra's, where decrease-key is called much more often than extract-min. However, the complex pointer manipulation and poor cache behavior mean binary heaps are almost always faster in practice for sparse graphs. Pairing heaps offer a simpler alternative with similar amortized bounds. The lesson: theoretical asymptotic complexity is only part of the story — constant factors, cache behavior, and implementation complexity matter enormously in real code.

@@ -692,3 +692,26 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Reference collapsing is one of those C++ mechanisms that feels like a compiler implementation
+detail you shouldn't have to think about — until you encounter a forwarding reference and wonder
+why it behaves the way it does. The core idea is simple: C++ doesn't allow references to
+references in source code (`int& &` is illegal), but internally the compiler needs to compose
+references through template instantiation. The collapsing rules (`& + & = &`, `& + && = &`,
+`&& + & = &`, `&& + && = &&`) tell the compiler how to resolve these composed references into
+something valid.
+
+This matters because of `std::forward` and perfect forwarding. When you write a generic function
+that takes `T&&`, the type `T` can be either an lvalue reference or a non-reference depending on
+what the caller passes. If they pass an lvalue, `T` is deduced as `int&`, and `int& &&` collapses
+back to `int&` — preserving the lvalue-ness. If they pass an rvalue, `T` is `int`, and `int&&`
+stays an rvalue reference. `std::forward<T>()` then casts the argument back to exactly what it
+was originally, enabling efficient parameter forwarding through layers of function calls.
+
+Think of reference collapsing as the compiler's way of maintaining type fidelity through template
+deduction. Without it, perfect forwarding couldn't work, and you'd be forced to write separate
+overloads for lvalue and rvalue arguments everywhere. The rules are mechanical and deterministic —
+once you internalize them, forwarding references and `std::forward` become straightforward rather
+than magical.
+

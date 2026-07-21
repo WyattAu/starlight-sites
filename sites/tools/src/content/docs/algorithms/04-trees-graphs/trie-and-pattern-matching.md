@@ -998,4 +998,10 @@ linked above.
 - [Graph Algorithms](../../07-graph-algorithms/graph-algorithms) -- Pattern matching in strings can be modelled as graph traversal problems.
 - [Dynamic Programming](../../06-dynamic-programming/01-introduction) -- String DP problems like edit distance and longest common subsequence relate to trie-based solutions.
 
-</aside>
+## Intuition
+
+A trie is a tree where each edge represents a character, so looking up a word of length L takes O(L) time regardless of how many words are in the dictionary. This prefix-based structure makes tries ideal for autocomplete, spell checking, and IP routing — anywhere you need to match by prefix rather than exact value. The trade-off is memory: a naive trie with one pointer per character per node wastes space. Radix trees (compressed tries) solve this by collapsing chains of single-child nodes into single edges labeled with multi-character strings, reducing both memory and traversal steps.
+
+Suffix structures (suffix tries, suffix trees, suffix arrays) take a different approach: instead of storing a dictionary of known words, they index every suffix of a single text. A suffix tree for a string of length n has O(n) nodes and enables O(m) substring search, longest common substring, and many other queries. Ukkonen's algorithm builds it in O(n) time online (processing characters left to right). Suffix arrays are a space-efficient alternative: just an array of sorted suffix indices, plus an LCP array, achieving the same queries with much less memory and better cache performance.
+
+The string matching algorithms form a hierarchy of generality and efficiency. Naive O(nm) search is simple but slow. KMP achieves O(n) by preprocessing the pattern to avoid redundant comparisons — when a mismatch occurs, it uses knowledge of the pattern's structure to skip ahead. Boyer-Moore is often faster in practice because it skips from right to left, examining fewer characters on average. Aho-Corasick generalizes KMP to multiple patterns simultaneously, building an automaton from a trie with failure links. Rabin-Karp uses rolling hashes to compare substrings in O(1), trading worst-case guarantees for simplicity and multi-pattern support.

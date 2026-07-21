@@ -742,3 +742,24 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+## Intuition
+
+Ninja is what you get when you ask "what if a build system only cared about speed?" Unlike Make or
+CMake's own build backend, Ninja doesn't try to be a general-purpose build tool — it's a low-level
+executor that takes a pre-computed build graph and runs it as fast as possible. Think of Make as a
+project manager who figures out what needs to be built, and Ninja as the construction crew that
+just executes the plan with maximum efficiency. You typically don't write `build.ninja` files by
+hand; instead, CMake or another meta-build system generates them for you.
+
+The key to Ninja's speed is its minimalism and dependency awareness. It knows exactly which files
+depend on which, so it only rebuilds what's necessary and runs as many independent compilations in
+parallel as your CPU allows. While Make can do parallel builds with `-j`, Ninja does it by default
+and handles job scheduling more efficiently. It also has near-instant startup — there's no parsing
+of complex makefiles or rule evaluation overhead.
+
+In practice, Ninja is the recommended backend for CMake projects on Linux and macOS. When you run
+`cmake -G Ninja ..`, CMake generates a `build.ninja` file that describes every compilation, link,
+and copy step. Then `ninja` runs those steps in parallel, giving you the fastest possible build
+times for your hardware. If you're not using Ninja already, switching to it is one of the easiest
+build performance wins available.

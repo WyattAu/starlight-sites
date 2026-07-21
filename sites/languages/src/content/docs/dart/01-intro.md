@@ -391,5 +391,10 @@ linked above.
 - **[Async and Futures](../05-async/01-async-and-futures.md):** Explores Dart's single-threaded event loop and isolate concurrency model in depth.
 - **[Classes and Inheritance](../04-object-oriented/01-classes-and-inheritance.md):** Deep dives into Dart's object-oriented features mentioned in the type system overview.
 
+## Intuition
 
-</aside>
+Dart is designed to make building user interfaces fast and safe. Its sound null safety system means the type system guarantees that a variable is either non-null or explicitly nullable — eliminating the "billion-dollar mistake" of null pointer exceptions at compile time rather than runtime. The `late` keyword and `required` named parameters give you flexibility without sacrificing safety. This means fewer runtime crashes and more confidence when refactoring, because the compiler catches most null-related bugs before your code ever runs.
+
+Dart's concurrency model is fundamentally different from most languages. Instead of threads sharing memory (which leads to race conditions, deadlocks, and locks), Dart uses isolates — independent execution contexts that communicate only by passing messages. Each isolate has its own memory heap and event loop, so there are no data races by design. The trade-off is that message serialization has overhead, making isolates better suited for coarse-grained parallelism (parsing a large JSON file) than fine-grained parallelism (processing individual pixels). For most Flutter apps, the single main isolate is sufficient, and `Isolate.run` provides a simple way to offload CPU-heavy work.
+
+Dart's async model with `Future` and `Stream` follows the same single-threaded event loop pattern as JavaScript. `await` doesn't block a thread — it yields control back to the event loop, allowing other tasks to run while waiting for I/O. Streams represent sequences of asynchronous events, like data arriving from a network socket. Together with Flutter's widget tree, this model lets you build responsive UIs that never freeze, because long-running work happens asynchronously or on background isolates while the main thread stays free for rendering and user interaction.

@@ -920,3 +920,23 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+A `std::weak_ptr` is like a library card for a book that someone else owns. You can look up the
+book on the shelf (call `lock()`), but you can't take it home unless the owner decides to lend it.
+If the owner returns the book to the publisher (the object is destroyed), your card becomes useless
+— `lock()` returns an empty `shared_ptr`. This is the fundamental difference from `shared_ptr`:
+a weak pointer observes an object without participating in its lifetime management.
+
+The reason `weak_ptr` exists is to solve a specific problem: circular references. Imagine two
+objects that each hold a `shared_ptr` to the other. Neither will ever be destroyed because each
+keeps the other alive — a memory leak. The solution is to make one of the links a `weak_ptr`. Now
+the reference count accurately reflects the actual ownership, and the objects can be properly
+destroyed when no strong references remain.
+
+In practice, `weak_ptr` is most useful for caches, observer patterns, and any situation where you
+need to reference an object without owning it. The pattern is always the same: call `lock()`, check
+if the resulting `shared_ptr` is valid, and then use the object within that scope. If the object
+was destroyed between your check and your use, the `shared_ptr` will be null — fail gracefully
+rather than dereferencing a dangling pointer.
+

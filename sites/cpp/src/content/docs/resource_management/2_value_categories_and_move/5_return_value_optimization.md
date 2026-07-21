@@ -955,3 +955,24 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Return Value Optimization is the compiler's way of avoiding unnecessary copies when you return
+objects from functions. Imagine you're at a bakery and you order a cake. Without RVO, the baker
+would bake a cake in the back, bring it to the counter, then carry it all the way to your table.
+With RVO, the baker just bakes the cake directly at your table — skipping the intermediate copy
+entirely. The compiler does essentially this: instead of constructing a temporary, moving it, and
+then destroying the original, it constructs the object directly in the caller's memory.
+
+URVO (Unnamed RVO) is guaranteed in C++17 and later — when you return a temporary like
+`return Foo();`, the compiler must elide the copy. NRVO (Named RVO) applies to named local
+variables like `Foo f; ... return f;` and is optional but almost universally implemented. The key
+distinction is that NRVO requires the compiler to prove that exactly one object will be returned,
+so it won't apply in paths with multiple return statements returning different variables.
+
+The practical implication is that returning by value is almost always the right choice in modern
+C++. Don't avoid returning objects because you're worried about copies — the compiler will
+typically elide them entirely. But do ensure your move constructors are correct, because NRVO is
+not guaranteed and the compiler may fall back to moving. Write simple, single-return-point
+functions to maximize the compiler's ability to apply NRVO.
+

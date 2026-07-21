@@ -115,6 +115,14 @@ This page includes:
 
 Practise applying these concepts under timed conditions. Focus on understanding what each question is asking and how marks are allocated. Review examiner reports to learn from common mistakes made by other students.
 
+## Intuition
+
+These notes are built on a single belief: if you truly understand something, you can explain it yourself, solve problems you have never seen before, and spot mistakes in your own reasoning. Memorising facts and formulae will get you part of the way there, but real understanding means you can derive, connect, and apply ideas flexibly.
+
+Think of each subject as a language. Mathematics is the language of quantity and structure; Physics describes how the universe behaves; Chemistry explains what matter is made of and how it reacts; Biology explores living systems; English Literature teaches you to read, interpret, and argue about texts; Computer Science is about algorithms and systematic problem-solving. Learning a language means building vocabulary and grammar, but also developing the intuition to use it fluently. These notes give you the grammar — precise definitions, derivations, and frameworks — so that you can develop that fluency through practice.
+
+The exam is the place where you demonstrate understanding, not where you first encounter the ideas. Use these notes to build that understanding step by step. Work through the derivations rather than skipping them. Ask yourself why each result is true, not just what it says. When you get a problem wrong, trace back to the exact point where your reasoning diverged from the correct path. This is how you turn knowledge into skill.
+
 ## Overview
 
 This introduction provides comprehensive coverage of Gcse content for the Qualifications qualification, with detailed explanations, worked examples, and practice questions aligned to the specification.

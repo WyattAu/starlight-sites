@@ -968,4 +968,10 @@ linked above.
 - [Binary Search Trees](../../04-trees-graphs/binary-search-trees) -- Huffman coding and optimal BSTs use greedy strategies for efficient data encoding and retrieval.
 - [Advanced Graph Algorithms](../../07-graph-algorithms/advanced-graph-algorithms) -- Kruskal's and Prim's MST algorithms are greedy algorithms applied to graph structures.
 
-</aside>
+## Intuition
+
+Greedy algorithms follow a simple philosophy: make the locally optimal choice at each step and hope it leads to the globally optimal solution. This works when the problem has a specific mathematical structure — usually a matroid or an exchange property that guarantees local choices don't lock you out of the global optimum. For example, in activity selection, picking the activity that finishes earliest always leaves the most room for future activities. In Huffman coding, merging the two smallest frequencies always produces an optimal prefix code. The beauty of greedy is its simplicity: sort, iterate, pick the best available option.
+
+The critical question is: when does greedy fail? It fails when a locally optimal choice can lead you into a dead end that a globally optimal solution would have avoided. The 0/1 knapsack is the classic example — greedily picking the highest value-per-weight item can leave you unable to fit another item that would have been better overall. Fractional knapsack works greedily because you can always take a piece of the next item. The distinction comes down to whether the problem has the matroid exchange property: can you always extend a smaller feasible solution using elements from a larger one without breaking feasibility?
+
+The decision framework is practical: first check if the problem has matroid structure (greedy is optimal). If not, try an exchange argument — assume greedy is wrong and try to construct a counterexample. If you can't find one, try to prove greedy works by showing that swapping greedy's choice with the optimal choice never improves the result. If that proof fails, fall back to dynamic programming. For approximation problems like set cover, greedy gives a provably good approximation (within ln n of optimal) even when the exact problem is NP-hard.

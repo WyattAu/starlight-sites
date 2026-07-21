@@ -846,3 +846,11 @@ linked above.
 - **[Dynamic Programming](dynamic-programming.md):** Core DP concepts including memoisation and tabulation that underpin these patterns.
 - **[Sorting Algorithms](../05-sorting/sorting.md):** Sorting techniques often used as preprocessing steps in DP problems.
 - **[Hashing and Hash Tables](../02-arrays-strings/hashing-and-hash-tables.md):** Hash-based data structures used for memoisation in top-down DP approaches.
+
+## Intuition
+
+The fundamental idea behind all DP patterns is the same: break a problem into overlapping subproblems, solve each subproblem once, and reuse the results. What changes between patterns is the *shape* of the subproblems. Linear DP arranges subproblems in a line (like climbing stairs). Interval DP works on ranges (like matrix chain multiplication). Tree DP traverses a tree structure. Bitmask DP represents subsets as bit patterns. The core skill is recognizing which "shape" your problem has, because that determines how you define states and transitions.
+
+The hardest part of DP is usually defining the right state — what information do you need to capture at each subproblem? A good rule of thumb is: the state should contain everything that affects future decisions but nothing redundant. For interval DP, the state is `(left, right)` because the optimal solution for a range depends only on that range. For tree DP, you process children before parents (post-order) because a node's optimal value depends on its subtree. For bitmask DP, the bitmask itself is the state — it tells you exactly which elements have been used.
+
+Once you have the right state, the transition is usually straightforward: try all possible "last moves" and take the best one. The key to efficiency is recognizing when you can reduce the state space: rolling arrays when you only need the previous row, coordinate compression when values are large but few, and sparse representations when most states are unreachable. And always, always check your base cases by hand before coding — a missing or wrong base case is the most common DP bug.

@@ -833,3 +833,11 @@ linked above.
 - **[Types and Variables](../02-fundamentals/01-types-and-variables.md):** Object lifecycle and reference types that GC manages.
 - **[Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive.md):** Thread-safe memory access and GC pause impact on concurrent applications.
 - **[I/O and NIO](../10-io-nio/01-io-nio.md):** Memory-mapped files and direct buffers that bypass the GC-managed heap.
+
+## Intuition
+
+Garbage collection frees you from manually managing memory, but understanding how it works helps you write code that works *with* the collector instead of against it. The core insight of generational GC is that most objects die young. By separating short-lived objects (young generation) from long-lived ones (old generation), the collector can run frequent, fast scans on the small young generation while doing expensive full collections rarely on the old generation. This matches real-world allocation patterns where temporary buffers, iterators, and intermediate results are created and discarded constantly.
+
+The evolution from Serial to G1 to ZGC shows a clear trajectory: minimize pause times by doing more work concurrently with your application. Serial and Parallel collectors stop the world for the entire collection. G1 divides the heap into regions and only collects the dirtiest ones, keeping pauses bounded. ZGC goes further by doing almost all work concurrently — marking, relocating, and compacting while your application keeps running. Load barriers in ZGC transparently fix stale references as your code reads them, making concurrent relocation invisible to the application.
+
+The practical takeaway is to match your GC choice to your latency requirements. Throughput-bound batch jobs can tolerate longer pauses, so Parallel GC is fine. Latency-sensitive web services need G1 or ZGC. And in containers, always set `-Xms == -Xmx` and use `MaxRAMPercentage` so the JVM knows its memory limits from the start. GC logging should be enabled from day one — you cannot tune what you cannot measure.

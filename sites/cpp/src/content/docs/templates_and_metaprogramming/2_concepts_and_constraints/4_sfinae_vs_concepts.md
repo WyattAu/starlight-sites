@@ -574,3 +574,24 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
+## Intuition
+
+Before C++20 concepts, template metaprogramming relied on SFINAE — a compiler quirk where
+ill-formed template specializations are silently removed from the overload set instead of causing
+errors. Think of it like a bouncer at a club: if you don't meet the dress code (the template
+constraints), you're quietly turned away rather than causing a scene. The problem is that SFINAE
+errors are notoriously cryptic. When a SFINAE-based overload fails, the compiler gives you pages
+of template instantiation errors with no clear indication of *why* your type was rejected.
+
+Concepts flip this model on its head. Instead of silently discarding bad matches, you explicitly
+state what a template requires. It's the difference between a sign that says "no shirts, no shoes,
+no service" (concepts) versus a mysterious door that sometimes lets you in and sometimes doesn't
+(SFINAE). With concepts, the compiler can give you a clear error: "type X does not satisfy
+concept Y because it lacks member function Z." This makes templates far more readable and
+debuggable.
+
+The practical takeaway: if you're writing new code, prefer concepts. They communicate intent
+clearly, produce better error messages, and enable more precise overload resolution. SFINAE still
+exists in legacy codebases and occasionally in library internals, but it should no longer be your
+first choice for constraining templates.
+

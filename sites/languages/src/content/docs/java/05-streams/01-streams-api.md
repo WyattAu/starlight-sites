@@ -1155,3 +1155,11 @@ linked above.
 - [Collections Framework](../04-collections/01-collections-framework) -- Streams are created from collections using stream(), connecting the collections API to functional processing.
 - [Generics](../../11-generics-reflection/01-generics) -- Stream operations use generic type parameters for type-safe transformations and predicates.
 - [Concurrency](../06-concurrency/01-concurrency) -- Parallel streams use the ForkJoinPool for concurrent processing of large data sets.
+
+## Intuition
+
+Java Streams are a declarative way to process collections — you describe *what* transformations to perform (filter, map, sort) rather than *how* to loop through elements. The key insight is laziness: intermediate operations like `filter` and `map` don't actually do any work. They build up a recipe of operations that only executes when you call a terminal operation like `collect` or `reduce`. This means the JVM can fuse multiple operations into a single pass over the data, short-circuit early, and avoid creating intermediate collections between each step.
+
+Think of a stream pipeline as an assembly line. Data flows through each transformation stage one element at a time. `filter` drops elements that don't match, `map` transforms each element, and `collect` gathers the results into a final container. Because elements flow through one at a time (or in small batches for parallel streams), you can process datasets far larger than memory — `Files.lines()` streams a file without loading it entirely, and `Stream.iterate()` generates infinite sequences.
+
+Parallel streams split the data across multiple threads using the shared ForkJoinPool, but this only helps when the dataset is large, the operations are CPU-bound, and the source can be efficiently split (like arrays or ArrayLists). For small datasets or I/O-bound work, the overhead of thread coordination makes parallel streams slower. `Optional` complements streams by making the absence of a value explicit at the type level — a method returning `Optional<T>` signals that the result might not exist, forcing the caller to handle both cases rather than getting a surprise `NullPointerException`.
