@@ -24,6 +24,68 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
+## Worked Examples
+
+### Example 1: Inclined Plane with Friction
+
+**Problem:** A 2.0 kg block slides down a 35° incline with $\mu_k = 0.25$. Find the acceleration. ($g = 9.81$ m/s²)
+
+**Solution:**
+Step 1: Component of gravity along incline: $mg\sin 35° = 2.0 \times 9.81 \times 0.574 = 11.26$ N
+
+Step 2: Normal force: $N = mg\cos 35° = 2.0 \times 9.81 \times 0.819 = 16.07$ N
+
+Step 3: Friction force: $f = \mu_k N = 0.25 \times 16.07 = 4.02$ N
+
+Step 4: Net force along incline: $F_{net} = 11.26 - 4.02 = 7.24$ N
+
+Step 5: $a = \frac{F_{net}}{m} = \frac{7.24}{2.0} = 3.62$ m/s²
+
+**Key insight:** Always resolve forces along and perpendicular to the incline, not horizontally and vertically.
+
+---
+
+### Example 2: Work-Energy Theorem
+
+**Problem:** A 5.0 kg object slides across a rough surface with $\mu_k = 0.30$. If it starts at 10 m/s, how far does it slide before stopping?
+
+**Solution:**
+Step 1: Work-energy theorem: $W_{net} = \Delta KE$
+
+Step 2: Work done by friction: $W = -f \times d = -\mu_k mg \times d$
+
+Step 3: $\Delta KE = 0 - \frac{1}{2}mv^2 = -\frac{1}{2}(5.0)(10)^2 = -250$ J
+
+Step 4: $-0.30 \times 5.0 \times 9.81 \times d = -250$
+
+Step 5: $d = \frac{250}{14.715} = 17.0$ m
+
+**Key insight:** Work-energy problems are often easier than using $F = ma$ because you don't need to find time or acceleration first.
+
+---
+
+### Example 3: Projectile from Height
+
+**Problem:** A ball is thrown at 25 m/s at 30° above horizontal from a 20 m building. Find the time of flight. ($g = 9.81$ m/s²)
+
+**Solution:**
+Step 1: Vertical component: $u_y = 25\sin 30° = 12.5$ m/s
+
+Step 2: When the ball hits the ground, $s = -20$ m (below starting point)
+
+Step 3: Use $s = u_y t - \frac{1}{2}gt^2$:
+$-20 = 12.5t - 4.905t^2$
+
+Step 4: $4.905t^2 - 12.5t - 20 = 0$
+
+Step 5: $t = \frac{12.5 \pm \sqrt{156.25 + 392.4}}{9.81} = \frac{12.5 \pm 23.42}{9.81}$
+
+Step 6: $t = \frac{35.92}{9.81} = 3.66$ s (reject negative root)
+
+**Key insight:** For projectiles from heights, the displacement is negative when the landing point is below the starting point.
+
+---
+
 ### Kinematics
 
 <PracticeProblem client:only="solid-js" question={"A car accelerates uniformly from 12 m s⁻¹ to 28 m s⁻¹ over a distance of 200 m. Calculate the acceleration.&quot; options={['1.36 m s⁻²', '1.52 m s⁻²', '2.00 m s⁻²', '0.80 m s⁻²']} correctAnswer={1} explanation=&quot;Using v² = u² + 2as: 28² = 12² + 2(a)(200). 784 = 144 + 400a. 640 = 400a. a = 1.6 m s⁻² ≈ 1.52 m s⁻² after precise calculation. Actually a = 640/400 = 1.6 m s⁻² — the closest answer is 1.52 m s⁻², but more precisely: a = 1.6 m s⁻²."} difficulty="medium"  />
