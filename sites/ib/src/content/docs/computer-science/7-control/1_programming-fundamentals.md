@@ -1791,3 +1791,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Intuition
+
+Programming is telling a computer what to do, step by step. Variables are labeled boxes that hold values. Constants are labeled boxes whose contents can't change. Data types tell the computer what kind of data is in the box — a number, text, or true/false.
+
+The three basic control structures — sequence, selection, and iteration — are the building blocks of all programs. Sequence means instructions run one after another. Selection (if/else) means different instructions run depending on a condition. Iteration (loops) means instructions repeat. Every program, no matter how complex, is made from these three patterns. Arrays are like egg cartons — they hold multiple values in a single named container, indexed by position. Functions are reusable recipe cards — you write the instructions once and call them whenever needed.

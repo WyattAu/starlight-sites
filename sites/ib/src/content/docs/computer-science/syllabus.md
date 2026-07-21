@@ -334,3 +334,11 @@ linked above.
 - **[System Fundamentals](../computer-science/flashcards-system-fundamentals):** The syllabus covers fundamentals
 - **[Algorithms](../computer-science/flashcards-algorithms-data-structures):** Algorithms are a major component
 - **[Networking](../computer-science/flashcards-networks-databases):** Networks are included
+
+---
+
+## Intuition
+
+The IB Computer Science syllabus is a roadmap of what you need to know. It's organised into five themes, each building on the previous one. System Design is about planning and building systems that work. Computational Thinking is about solving problems with algorithms. Data and Information is about storing and managing data efficiently. Networking and Cybersecurity is about connecting systems and keeping them safe. Programming is about implementing everything else in code.
+
+The HL extension goes deeper into resource management (how CPUs and memory work), control (how programs flow), and modelling (how we represent real-world systems in code). Think of the syllabus as a hierarchy: you start with the basics (what is a computer, what is an algorithm), then build up to complex systems (networks, databases, OOP). Each topic connects to the others — you can't understand databases without understanding data structures, and you can't understand networking without understanding protocols.
