@@ -465,3 +465,15 @@ undecidable).
 - [Turing Machines](./4_turing-machines) -- Complexity classes are defined in terms of Turing machine resources, connecting computational models to complexity.
 - [Algorithm Analysis](../../2-algorithms-and-data-structures/1_algorithm-analysis) -- Complexity theory classifies the computational difficulty of problems that algorithms attempt to solve.
 - [Regular Languages](./2_regular-languages) -- The Chomsky hierarchy places regular languages at the simplest level of the complexity hierarchy.
+
+## Common Mistakes
+
+1. **Confusing NP-hard with NP-complete.** NP-hard means "at least as hard as every problem in NP" (under polynomial-time reductions). NP-complete means NP-hard *and* in NP. The halting problem is NP-hard but not NP-complete because it is not in NP (it is not even decidable). A problem can be NP-hard without being verifiable in polynomial time.
+
+2. **Assuming "NP" means "Not Polynomial."** NP stands for Nondeterministic Polynomial time. A problem is in NP if a proposed solution can be *verified* in polynomial time by a deterministic TM, regardless of how long it takes to *find* the solution. This is about verifiability, not solvability.
+
+3. **Believing that polynomial reductions prove a problem is "hard" in an absolute sense.** Polynomial-time reductions show relative difficulty within the polynomial hierarchy. A problem reduced from SAT is "hard" only in the sense that solving it would solve SAT. It says nothing about the problem's difficulty for small input sizes or with respect to other resource bounds.
+
+4. **Confusing the classes P and NP.** P ⊆ NP is known (a deterministic TM is a special case of a non-deterministic one). The open question is whether P = NP — whether every problem verifiable in polynomial time is also solvable in polynomial time. Most experts believe P ≠ NP, but this is unproven.
+
+5. **Assuming NP ⊆ coNP is false.** It is unknown whether NP = coNP. If it were true, then every problem whose "no" instances are efficiently verifiable would also have "yes" instances efficiently verifiable. This is considered unlikely but remains open, and is considered a harder question than P vs. NP by some researchers.

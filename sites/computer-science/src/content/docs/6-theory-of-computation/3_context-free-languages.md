@@ -368,3 +368,15 @@ and $C \to a$.
 
 </details>
 
+## Common Mistakes
+
+1. **Confusing leftmost derivations with parse trees.** A leftmost derivation is a sequence of rule applications where the leftmost non-terminal is always expanded first. A parse tree is a tree representation of the derivation. Multiple derivations can yield the same parse tree, so the derivation is not unique to the tree.
+
+2. **Applying the CFL pumping lemma incorrectly.** The pumping lemma for CFLs states that any sufficiently long string can be decomposed as $uvxyz$ where $v$ and $y$ are not both empty, $|vxy| \leq p$, and $uv^ixy^iz \in L$ for all $i \geq 0$. Students often forget the constraint $|vxy| \leq p$, which limits which substrings can be pumped.
+
+3. **Assuming CFLs are closed under intersection.** Context-free languages are not closed under intersection. The classic counterexample is $\{a^n b^n c^m\} \cap \{a^m b^n c^n\} = \{a^n b^n c^n\}$, which is not context-free. This is a key difference from regular languages, which are closed under intersection.
+
+4. **Treating ambiguity as a mere inconvenience.** An ambiguous grammar can generate the same string via two different parse trees, leading to different interpretations. This is not just a cosmetic problem — it means the grammar does not uniquely determine the structure of inputs, which causes real issues in parsers and compilers.
+
+5. **Forgetting that CFLs cannot express "matching" across three or more positions.** A CFL can match pairs (e.g., $\{a^n b^n\}$) but not triples (e.g., $\{a^n b^n c^n\}$). This limitation arises because pushdown automata have only one stack, which can track one counter but not two independent counters simultaneously.
+

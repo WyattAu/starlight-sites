@@ -67,3 +67,15 @@ Each admissions test has its own personality. The MAT is a careful conversation,
 
 - **[Site Home](../../):** Main landing page for admissions notes.
 - **[Practice](../../practice-*.mdx):** Practice problems for revision.
+
+## Common Mistakes
+
+1. **Starting preparation too late.** Admissions tests like the MAT, STEP, and TMUA require months of practice to build problem-solving intuition. Cramming content in the final weeks is ineffective because these tests reward deep understanding and creative reasoning, not memorisation of formulas.
+
+2. **Practising without timed conditions.** Working through past papers at leisure builds understanding but not exam technique. Under timed pressure, students often know the material but cannot organise their thoughts or execute solutions quickly enough. Regular timed practice is essential.
+
+3. **Ignoring the marking scheme.** Admissions tests award marks for method, reasoning, and clarity — not just the final answer. A correct approach with a small arithmetic error may score more marks than a correct answer with no working shown. Understanding how marks are allocated changes your presentation strategy.
+
+4. **Skipping "easy" questions to focus on hard ones.** Many students lose marks on straightforward questions they could have answered correctly, while spending disproportionate time on problems they cannot solve. Securing easy marks first builds confidence and ensures a baseline score before tackling challenging problems.
+
+5. **Not reviewing mistakes from past papers.** Simply checking an answer against the mark scheme is insufficient. You must understand *why* your approach was wrong and what the correct reasoning is. Keeping an error log and revisiting patterns of mistakes is the most effective way to improve.

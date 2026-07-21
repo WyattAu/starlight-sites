@@ -78,3 +78,15 @@ Each section includes:
 
 - **[Algorithms](../../1-algorithms/index.md):** Algorithm design and complexity analysis.
 - **[Discrete Mathematics](../../1-discrete-mathematics/index.md):** Mathematical foundations for formal languages.
+
+## Common Mistakes
+
+1. **Confusing recognisability with decidability.** A language is decidable if a Turing machine halts on every input (accepting or rejecting). A language is merely recognisable if the TM halts on accepted inputs but may loop forever on rejected inputs. The halting problem is recognisable but not decidable — this distinction is fundamental.
+
+2. **Applying pumping lemmas in the wrong direction.** The pumping lemma says "if a language is regular, then it has property X." To prove a language is not regular, you show it lacks property X (proof by contradiction). Using the pumping lemma to prove a language *is* regular is invalid — closure properties are the correct tool for that.
+
+3. **Assuming P ≠ NP is proven.** Despite widespread belief, P vs. NP remains one of the most important open problems in computer science. You cannot use "it's NP-complete" as a justification for why something cannot be solved efficiently unless you assume P ≠ NP, which is unproven.
+
+4. **Treating all undecidable problems as equally hard.** Undecidable problems have degrees of unsolvability under Turing reductions. The halting problem is strictly easier than the Halting Problem relative to an oracle for the halting problem (the Turing jump). Not all undecidable problems are reducible to each other via many-one reductions.
+
+5. **Confusing time complexity with space complexity.** A problem may be solvable in polynomial time but require exponential space, or vice versa. Savitch's theorem shows that NSPACE(s) ⊆ DSPACE(s²), collapsing the space hierarchy, but no such collapse is known for time. These are fundamentally different resources.

@@ -82,3 +82,15 @@ Each section includes:
 - **[Systems](../../2-systems/index.md):** Computer architecture and hardware systems.
 - **[Databases](../../4-databases/index.md):** Transaction management and concurrency control.
 - **[Computer Networks](../../3-computer-networks/index.md):** Network I/O and protocol handling.
+
+## Common Mistakes
+
+1. **Confusing processes with threads.** A process is an isolated execution environment with its own address space; a thread is a lightweight execution unit within a process that shares memory with other threads. Spawning a new process is far more expensive than spawning a thread because it requires duplicating the address space.
+
+2. **Believing context switching is free.** Context switching involves saving and restoring CPU state, flushing TLBs, and potentially invalidating cache lines. On modern hardware it costs microseconds, but at high thread counts or scheduling frequencies it becomes a significant performance bottleneck.
+
+3. **Assuming the OS scheduler is "fair" in an intuitive sense.** Most schedulers use weighted fair queueing or priority-based preemption, not round-robin equality. A real-time process can starve a background process indefinitely if priorities are not managed correctly.
+
+4. **Ignoring virtual memory when reasoning about performance.** Physical RAM is not directly addressed by processes. Programs operate on virtual addresses, and the OS maps them to physical frames. Failing to account for page faults and TLB misses leads to incorrect performance predictions.
+
+5. **Treating system calls as negligible.** Every system call involves a mode switch from user space to kernel space, validation of arguments, and potentially copying data. Excessive system calls (e.g., reading one byte at a time) dramatically reduce throughput compared to buffered I/O.

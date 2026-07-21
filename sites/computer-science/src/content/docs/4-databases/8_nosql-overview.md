@@ -125,3 +125,15 @@ choice for strongly Structured data with complex queries and transactional requi
 ## Intuition
 
 NoSQL databases are like different types of filing cabinets. Document stores are folders with loose papers — each document can have a different structure. Key-value stores are like coat check tickets — you give a key and get back whatever you stored. Column-family stores are like spreadsheets where each row can have different columns. Graph databases are like mind maps, where relationships are first-class citizens. The CAP theorem is the law of physics for distributed systems — you can only pick two out of three: Consistency (everyone sees the same data), Availability (everyone can always read and write), and Partition tolerance (the system survives network failures). Since network partitions are unavoidable, you must choose between consistency and availability during a partition.
+
+## Common Mistakes
+
+1. **Confusing "NoSQL" with "no SQL."** NoSQL means "Not Only SQL," not a rejection of SQL. Many NoSQL databases support SQL-like query languages (e.g., Cassandra CQL, MongoDB's aggregation pipeline). The distinction is about data model flexibility, not about abandoning structured query syntax.
+
+2. **Assuming CAP means you pick exactly two.** In practice, you cannot actually choose all three, but the trade-off is specifically during a partition. In normal operation (no partition), a system can provide both consistency and availability. The theorem constrains behaviour only when nodes cannot communicate.
+
+3. **Treating all NoSQL databases as interchangeable.** Document stores, key-value stores, column-family stores, and graph databases have fundamentally different data models and query capabilities. Choosing a key-value store for a workload that requires complex relational queries will lead to poor performance and application complexity.
+
+4. **Ignoring schema design in document stores.** Embedding vs. referencing is a critical design decision. Embedding all related data in a single document leads to unbounded document growth and update anomalies. Referencing requires additional queries but keeps documents bounded and updates localised.
+
+5. **Overlooking tunable consistency.** Many NoSQL systems (e.g., Cassandra, DynamoDB) offer tunable consistency levels per operation. Using strong consistency everywhere negates the availability benefits, while using eventual consistency everywhere risks stale reads. Choose the consistency level appropriate for each operation.

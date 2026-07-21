@@ -389,3 +389,15 @@ Regular. Closure properties do not apply when one operand is non-regular.
 - [Context-Free Languages](./3_context-free-languages) -- Regular languages are a subset of context-free languages, forming the simplest level of the Chomsky hierarchy.
 - [Turing Machines](./4_turing-machines) -- Finite automata that recognise regular languages are the simplest computational model in the hierarchy.
 - [Propositional Logic](../../1-discrete-mathematics/1_propositional-and-predicate-logic) -- Boolean algebra underpins both propositional logic and the transition functions of finite automata.
+
+## Common Mistakes
+
+1. **Confusing NFAs with DFAs in terms of expressive power.** NFAs and DFAs recognise exactly the same class of languages (regular languages). An NFA is not "more powerful" — it is simply more convenient to construct. The subset construction converts any NFA to an equivalent DFA, though potentially with exponentially many states.
+
+2. **Misapplying the pumping lemma by pumping to zero.** The pumping lemma states $|xy| \leq p$ and $|y| \geq 1$, so $y$ cannot be empty. Students often pump $y$ to zero characters, which is invalid. The lemma guarantees a non-empty substring can be pumped, not that any substring can be removed.
+
+3. **Assuming closure under intersection implies closure under complement.** Regular languages are closed under both intersection and complement independently. However, context-free languages are closed under neither complement nor intersection in general. Knowing one closure property does not automatically give you the others.
+
+4. **Forgetting that regular expressions and finite automata are equivalent.** Regular expressions, DFAs, NFAs, and regular grammars all describe exactly the regular languages. A common mistake is assuming regular expressions are "weaker" because they lack features like backreferences, which actually push beyond regular languages into context-free territory.
+
+5. **Confusing the language of a DFA with its state graph.** A DFA accepts a language — a set of strings. The state graph is a representation, not the language itself. Two different DFA state graphs can accept the same language. When proving properties, reason about the language, not the specific graph structure.

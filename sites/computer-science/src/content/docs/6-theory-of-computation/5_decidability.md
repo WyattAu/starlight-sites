@@ -256,3 +256,15 @@ about $B$.
 - **[Turing Machines](./4_turing-machines.md):** Turing machine formalism and computability.
 - **[Theory of Computation Flashcards](./8_flashcards-theory-of-computation.mdx):** Interactive flashcards covering complexity classes.
 - **[Algorithms](../../1-algorithms/index.md):** Algorithm design and complexity theory.
+
+## Common Mistakes
+
+1. **Reversing the direction of a many-one reduction.** To prove $B$ is undecidable, you need $A \leq_m B$ where $A$ is known to be undecidable. This means "if $B$ is decidable, then $A$ is decidable" (contrapositive: $A$ undecidable implies $B$ undecidable). Reversing it to $B \leq_m A$ gives "if $A$ is decidable, then $B$ is decidable," which tells you nothing about $B$ when $A$ is undecidable.
+
+2. **Assuming all undecidable problems are "the same."** Undecidable problems have different degrees of unsolvability. The halting problem is Turing-complete, but there are problems that are not even Turing-recognisable (e.g., the complement of the halting problem). Reductions establish relative difficulty but not absolute equivalence.
+
+3. **Confusing recognisability with decidability for co-RE languages.** A language $L$ is decidable iff both $L$ and its complement $\overline{L}$ are recognisable. The halting problem is recognisable but its complement is not, so it is not decidable. Knowing only that $L$ is recognisable tells you nothing about $\overline{L}$.
+
+4. **Using Rice's theorem incorrectly.** Rice's theorem applies to non-trivial properties of the *language* recognised by a TM, not properties of the TM itself. "Does this TM have 5 states?" is not a property of the language and is therefore decidable. "Does this TM accept a regular language?" is a property of the language and is undecidable by Rice's theorem.
+
+5. **Assuming oracles resolve undecidability.** An oracle for the halting problem lets a TM decide the halting problem, but it cannot decide the halting problem *relative to itself* (the Turing jump). Oracles create a strict hierarchy — each level of oracle makes some problems decidable but introduces new undecidable problems at a higher level.

@@ -326,3 +326,15 @@ Named pipes (`mkfifo`) allow unrelated processes to communicate.
 **Signals.** Asynchronous notifications (integer payload only). Common: `SIGTERM``SIGKILL`
 `SIGSEGV``SIGCHLD`.
 
+## Common Mistakes
+
+1. **Assuming `fork()` copies the entire address space.** Modern systems use copy-on-write (COW) for `fork()`. Pages are shared between parent and child until one writes, at which point a copy is made. This makes `fork()` nearly O(1), but the cost is paid at write time, not at fork time.
+
+2. **Confusing zombie processes with orphan processes.** A zombie process has finished executing but its entry remains in the process table because the parent has not called `wait()`. An orphan process is still running but its parent has exited. Zombies are cleaned up by `wait()`; orphans are adopted by `init`.
+
+3. **Using `SIGKILL` as a first resort.** `SIGKILL` cannot be caught or handled — the process has no chance to clean up resources, flush buffers, or release locks. Always try `SIGTERM` first, which allows the process to shut down gracefully, and only escalate to `SIGKILL` if it does not respond.
+
+4. **Ignoring race conditions in shared memory IPC.** Shared memory provides no built-in synchronisation. Without explicit locks (mutexes, semaphores), concurrent reads and writes to the same region cause data races and undefined behaviour. Message passing is safer when synchronisation is difficult to implement correctly.
+
+5. **Assuming process priorities are static.** Most schedulers dynamically adjust priorities based on behaviour. A process that uses too much CPU time is penalised (lowered priority), while I/O-bound processes are boosted. This means short-lived, interactive processes get better response times, but CPU-bound batch jobs may be starved without explicit nice values or cgroup limits.
+
