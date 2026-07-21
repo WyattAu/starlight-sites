@@ -39,6 +39,72 @@ Questions follow the DSE examination style and cover the full kinematics syllabu
 
 Think of each practice question as a mini-story about an object moving. First, understand the story: what is moving, what forces act on it, and what is being asked. Then translate the story into equations. The key skill in DSE kinematics is not memorising formulas but recognising which formula to apply. A good strategy is to write down all known quantities, identify the unknown, and then select the equation that links them. For graph-based questions, practise reading values from axes and calculating gradients and areas quickly.
 
+---
+
+## Worked Examples
+
+### Example 1: SUVAT with Sign Convention
+
+**Problem:** A ball is thrown vertically upward at 15 m/s from the top of a 20 m building. Find the time when it hits the ground. ($g = 9.81$ m/s²)
+
+**Solution:**
+Step 1: Define sign convention: upward = positive, so $a = -g = -9.81$ m/s²
+
+Step 2: When the ball hits the ground, displacement $s = -20$ m (below starting point)
+
+Step 3: Use $s = ut + \frac{1}{2}at^2$:
+$-20 = 15t - 4.905t^2$
+
+Step 4: Rearrange: $4.905t^2 - 15t - 20 = 0$
+
+Step 5: Quadratic formula: $t = \frac{15 \pm \sqrt{225 + 4(4.905)(20)}}{9.81} = \frac{15 \pm \sqrt{616.4}}{9.81} = \frac{15 \pm 24.83}{9.81}$
+
+Step 6: $t = \frac{39.83}{9.81} = 4.06$ s (reject negative root)
+
+**Key insight:** Always define your sign convention before writing equations. The displacement is negative because the ground is below the starting point.
+
+---
+
+### Example 2: Projectile Motion
+
+**Problem:** A ball is thrown horizontally at 20 m/s from a cliff 45 m high. Find the horizontal distance when it hits the ground. ($g = 9.81$ m/s²)
+
+**Solution:**
+Step 1: Vertical motion (u = 0, a = g, s = 45):
+$s = ut + \frac{1}{2}at^2 \Rightarrow 45 = 0 + 4.905t^2$
+
+Step 2: Solve for $t$: $t^2 = \frac{45}{4.905} = 9.175 \Rightarrow t = 3.03$ s
+
+Step 3: Horizontal motion (constant velocity):
+$d = vt = 20 \times 3.03 = 60.6$ m
+
+**Key insight:** Horizontal and vertical motions are independent. The time of flight is determined entirely by the vertical motion.
+
+---
+
+### Example 3: v-t Graph Interpretation
+
+**Problem:** A car accelerates from rest at 2 m/s² for 5 s, then maintains constant velocity for 10 s, then decelerates to rest in 4 s. Find the total distance travelled.
+
+**Solution:**
+Step 1: Draw the v-t graph (trapezium shape)
+
+Step 2: Calculate velocities:
+- After acceleration: $v = 0 + 2 \times 5 = 10$ m/s
+- After constant velocity: $v = 10$ m/s
+- After deceleration: $v = 0$ m/s
+
+Step 3: Area under v-t graph = displacement:
+- Triangle: $\frac{1}{2} \times 5 \times 10 = 25$ m
+- Rectangle: $10 \times 10 = 100$ m
+- Triangle: $\frac{1}{2} \times 4 \times 10 = 20$ m
+
+Step 4: Total distance = $25 + 100 + 20 = 145$ m
+
+**Key insight:** The area under a v-t graph gives displacement. For complex motion, break the graph into simple shapes (triangles, rectangles, trapeziums).
+
+---
+
 ## Common Mistakes
 
 - **Forgetting to square velocity**: in v² = u² + 2as, students often write v = u + 2as or forget the square entirely. Always double-check that you are using the squared form.
