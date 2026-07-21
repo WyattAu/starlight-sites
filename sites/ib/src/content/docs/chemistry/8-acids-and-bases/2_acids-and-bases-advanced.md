@@ -851,3 +851,11 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 - **[Equilibrium](../chemistry/7-equilibrium/equilibrium):** Acid-base equilibria involve dynamic balance
 - **[Redox](../chemistry/9-redox/redox):** Acid-base reactions can involve redox
 - **[Energetics](../chemistry/5-energetics/energetics):** Neutralisation releases enthalpy
+
+---
+
+## Intuition
+
+Acids and bases are about proton transfer. An acid is a proton donor; a base is a proton acceptor. The strength of an acid depends on how readily it gives up its proton — strong acids dissociate completely, weak acids only partially. pH is the logarithmic measure of hydrogen ion concentration, so each unit change in pH represents a tenfold change in acidity.
+
+Buffer solutions resist pH changes by having both an acid and its conjugate base present. When you add acid, the conjugate base neutralizes it. When you add base, the acid neutralizes it. This is why blood maintains pH 7.4 despite metabolic acids being constantly produced. Titration curves show the pH change as base is added to acid — the steep part near the equivalence point is where the indicator changes color. The Henderson-Hasselbalch equation ($\text{pH} = \text{p}K_a + \log\frac{[\text{A}^-]}{[\text{HA}]}$) connects pH to the ratio of conjugate base to acid.

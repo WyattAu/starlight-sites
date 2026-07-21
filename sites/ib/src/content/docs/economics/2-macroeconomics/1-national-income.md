@@ -429,3 +429,11 @@ $$
 - **[Fiscal Policy](../economics/2-macroeconomics/2-fiscal-policy):** Fiscal policy affects national income
 - **[Market Failure](../economics/1-microeconomics/3-market-failure):** Aggregate supply relates to markets
 - **[Exchange Rates](../economics/3-international-economics/2-exchange-rates):** Income affects exchange rates
+
+---
+
+## Intuition
+
+GDP is the economy's scoreboard. It measures the total value of everything produced in a country, which tells you how much the economy is producing and growing. The expenditure method ($C + I + G + NX$) is the most intuitive: it sums what households spend, what firms invest, what the government buys, and what foreigners buy from us (minus what we buy from them).
+
+The key distinction is between nominal and real GDP. Nominal GDP can rise just because prices went up, even if nothing more was produced. Real GDP strips out price changes to show actual output growth. The GDP deflator is the "inflation calculator" that converts nominal to real. GDP per capita divides by population to give average income, but it hides inequality — a country can have high GDP per capita while most people are poor.

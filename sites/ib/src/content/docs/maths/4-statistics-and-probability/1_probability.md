@@ -883,3 +883,11 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 </aside>
+
+---
+
+## Intuition
+
+Probability is the mathematics of uncertainty. It quantifies how likely events are, ranging from 0 (impossible) to 1 (certain). The axioms — non-negativity, total probability equals 1, and additivity for mutually exclusive events — are the minimal rules that make probability consistent.
+
+Think of probability as measuring the "size" of the favorable outcomes relative to all possible outcomes. Venn diagrams make this visual: the probability of an event is the area of its region divided by the total area. The addition rule corrects for double-counting when events overlap. Conditional probability is like zooming in — you restrict your sample space to event B, then ask what fraction of B is also in A. Bayes' theorem flips the conditioning, which is why it's so powerful (and counterintuitive).

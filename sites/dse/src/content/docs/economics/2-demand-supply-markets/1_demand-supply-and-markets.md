@@ -1273,3 +1273,12 @@ $$
 $$
 linked above.
 
+---
+
+## Intuition
+
+Supply and demand is the most powerful idea in economics. It explains how prices emerge from the interaction of millions of buyers and sellers, each acting on their own interests. The demand curve slopes downward because as price falls, more people can afford the good and existing buyers want more. The supply curve slopes upward because as price rises, producing more becomes profitable.
+
+The equilibrium price is where the two curves cross — the price at which quantity demanded equals quantity supplied. If the price is too high, there's a surplus (unsold goods), so sellers lower prices. If too low, there's a shortage (empty shelves), so sellers raise prices. This natural adjustment is why economists call supply and demand a "market mechanism" — it self-corrects without central planning.
+
+The key distinction is between movements along a curve (caused by price changes) and shifts of the curve (caused by income changes, preferences, substitutes, etc.). Getting this distinction wrong is the single most common error in economics exams.

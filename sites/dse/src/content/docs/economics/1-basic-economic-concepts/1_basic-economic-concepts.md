@@ -1473,3 +1473,11 @@ success in this subject.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+
+---
+
+## Intuition
+
+Economics starts with a single, unavoidable fact: we can't have everything. Scarcity means every decision is a trade-off. When you spend an hour studying, you can't spend that hour sleeping. When a government builds a hospital, it can't build a school with the same resources. Opportunity cost captures this trade-off precisely — it's the value of what you gave up, not the sum of all alternatives.
+
+Think of the production possibility frontier (PPF) as a visual representation of scarcity. Points inside the curve represent waste (unemployment, inefficiency). Points on the curve represent maximum efficiency. Points outside are currently unattainable. The slope of the PPF is the opportunity cost — how much of one good you must sacrifice to get more of the other. A steep slope means high opportunity cost (you give up a lot). A gentle slope means low opportunity cost.

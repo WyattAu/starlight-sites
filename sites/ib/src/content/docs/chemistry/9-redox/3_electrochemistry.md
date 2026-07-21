@@ -1603,5 +1603,12 @@ $$2\mathrm{MnO}_4^- + 3\mathrm{SO}_3^{2-} + \mathrm{H}_2\mathrm{O} \to 2\mathrm{
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 
-
 </aside>
+
+---
+
+## Intuition
+
+Electrochemistry connects chemistry and electricity. A battery (galvanic cell) converts chemical energy into electrical energy by spontaneous redox reactions. An electrolytic cell does the reverse — it uses electricity to force non-spontaneous reactions. In both cases, oxidation happens at the anode and reduction at the cathode ("an ox, red cat").
+
+Think of standard electrode potentials as a "tendency to gain electrons." A more positive $E^\circ$ means a greater tendency to be reduced (gain electrons). In a galvanic cell, the half-cell with the more positive $E^\circ$ undergoes reduction (cathode), and the one with the less positive (or more negative) $E^\circ$ undergoes oxidation (anode). The cell potential is $E^\circ_{\text{cathode}} - E^\circ_{\text{anode}}$, and it must be positive for the reaction to be spontaneous. Faraday's laws of electrolysis link the amount of substance deposited to the charge passed — more charge means more electrons transferred, which means more product formed.

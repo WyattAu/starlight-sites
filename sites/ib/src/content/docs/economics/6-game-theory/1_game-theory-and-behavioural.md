@@ -2701,3 +2701,11 @@ success in this subject.
 - [International Trade](../3-international-economics/1-trade) -- Strategic trade policy and trade negotiations between countries are applications of game theory.
 - [Supply-Side Policy](../2-macroeconomics/4-supply-side-policy) -- Behavioural economics challenges the rational actor assumption underlying traditional supply-side analysis.
 - [Descriptive Statistics](../5-quantitative-economics/1-descriptive-statistics) -- Empirical evidence in behavioural economics relies on statistical methods for analysing decision-making data.
+
+---
+
+## Intuition
+
+Game theory is the mathematics of strategy. It studies situations where your best choice depends on what others choose. The prisoner's dilemma is the classic example: two suspects are interrogated separately. If both stay silent, both get light sentences. If one betrays the other, the betrayer goes free while the other gets a heavy sentence. If both betray, both get moderate sentences. The Nash equilibrium is for both to betray — even though both would be better off if both stayed silent. This explains why cooperation is hard even when it's mutually beneficial.
+
+Nash equilibrium is the "no regrets" outcome: given what everyone else is doing, no one wishes they had chosen differently. It doesn't mean the outcome is optimal — it just means no one can improve their payoff by unilaterally changing strategy. Behavioural economics then adds that real humans aren't perfectly rational: we have biases, use heuristics, and are influenced by framing, social norms, and loss aversion.
