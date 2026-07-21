@@ -12,14 +12,14 @@ categories:
 
 import DesmosGraph from "@components/DesmosGraph";
 
-## Maclaurin and Taylor Series
+## Intuition
 
-Power series provide a way to represent functions as infinite sums, enabling computation,
-Approximation, and analysis that would otherwise be impossible. The Maclaurin series expands a
-Function about $x = 0$; the Taylor series generalises this to expansion about any point. Together
-They are among the most powerful tools in analysis and applied mathematics.
+**Any smooth function can be rebuilt from its derivatives at a single point:** Taylor series say that if you know all the derivatives of a function at one point, you can reconstruct the entire function as an infinite polynomial. It's like having a complete description of a curve encoded in a single number and its rates of change. The Maclaurin series is the special case where we expand about $x = 0$.
 
-{/* prettier-ignore */}
+**Why it matters:** Taylor series let you approximate complicated functions ($e^x$, $\sin x$, $\cos x$) as simple polynomials. This is how calculators compute $\sin(0.5)$ — they don't use geometry, they use the Maclaurin series. They're also essential for solving differential equations and understanding convergence.
+
+**The key insight:** More terms in the series give better approximations near the expansion point, but worse approximations far away. The radius of convergence tells you how far the approximation is valid. For $e^x$, the series converges everywhere; for $\ln(1+x)$, it only converges for $-1 < x \leq 1$.
+
 <DesmosGraph client:only="solid-js" title="Taylor Series Approximation of e^x" expressions={["e^x", "sum_{n=0}^{N} x^n/n!"]} width={800} height={500} />
 
 Adjust the parameters in the graph above to explore the relationships between variables.
