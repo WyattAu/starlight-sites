@@ -523,3 +523,17 @@ $y = c_1 e^{2x} + c_2 e^{-2x} - \frac{(x+2)e^x}{9}$. $\blacksquare$
 - **[Systems of ODEs](5-ordinary-differential-equations/4_systems-of-odes.mdx)**: Second-order equations can be converted to first-order systems, connecting the characteristic equation to eigenvalue analysis.
 - **[Laplace Transforms](5-ordinary-differential-equations/5_laplace-transforms.md)**: The Laplace transform provides an alternative to undetermined coefficients for solving nonhomogeneous equations.
 - **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: The resonance phenomena studied here reappear when Fourier series are used to solve forced oscillation problems.
+
+---
+
+## Common Mistakes
+
+**Forgetting to check for repeated roots:** When the characteristic equation has a repeated root $r$, the homogeneous solution is $y = (c_1 + c_2 x)e^{rx}$, not $c_1 e^{rx} + c_2 e^{rx}$. The second solution must include the factor $x$ to be linearly independent. Students often forget this and get an incomplete solution.
+
+**Confusing underdamped, critically damped, and overdamped:** The discriminant $b^2 - 4mk$ determines the damping type. If $b^2 - 4mk > 0$, the system is overdamped (two real roots, no oscillation). If $b^2 - 4mk = 0$, it's critically damped (one repeated real root). If $b^2 - 4mk < 0$, it's underdamped (complex roots, oscillation with decay). Students often mix up the conditions.
+
+**Using undetermined coefficients for inappropriate equations:** The method of undetermined coefficients only works when the forcing term is a polynomial, exponential, sine, cosine, or products of these. For other forcing terms (like $\tan x$ or $\ln x$), you must use variation of parameters. Students often try undetermined coefficients and get stuck.
+
+**Forgetting to multiply by $t$ in the resonant case:** When the forcing term matches a homogeneous solution (resonance), the particular solution must include a factor of $t$. For example, if $\cos(\omega t)$ is already a solution, guess $y_p = At\sin(\omega t) + Bt\cos(\omega t)$. Forgetting the $t$ gives an incorrect solution.
+
+**Confusing the Wronskian with the determinant:** The Wronskian $W(y_1, y_2) = y_1 y_2' - y_1' y_2$ is a specific determinant, but not all determinants are Wronskians. Students often compute the wrong determinant or forget that $W = 0$ indicates linear dependence.
