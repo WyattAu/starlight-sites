@@ -1,7 +1,55 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Electrochemistry",
+  "description": "CBSE Class 12 chemistry: Electrochemistry with worked examples, practice problems, and common exam patterns.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://cbse.wyattau.com"
+  },
+  "url": "https://cbse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: "Electrochemistry"
 description: "CBSE Class 12 chemistry: Electrochemistry with worked examples, practice problems, and common exam patterns."
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Electrochemistry",
+  "description": "CBSE Class 12 chemistry: Electrochemistry with worked examples, practice problems, and common exam patterns.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://cbse.wyattau.com"
+  },
+  "url": "https://cbse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # Electrochemistry
 

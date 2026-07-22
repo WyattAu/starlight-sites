@@ -1,8 +1,56 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "DSE Mathematics",
+  "description": "'DSE Maths Mathematics notes covering key definitions, core concepts, worked examples, and practice questions for clear study and thorough revision.'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://dse.wyattau.com"
+  },
+  "url": "https://dse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: DSE Mathematics
 description: 'DSE Maths Mathematics notes covering key definitions, core concepts, worked examples, and practice questions for clear study and thorough revision.'
 tableOfContents: false
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "DSE Mathematics",
+  "description": "'DSE Maths Mathematics notes covering key definitions, core concepts, worked examples, and practice questions for clear study and thorough revision.'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://dse.wyattau.com"
+  },
+  "url": "https://dse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 ## Intuition
 

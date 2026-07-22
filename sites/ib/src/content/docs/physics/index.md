@@ -1,10 +1,58 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "IB Physics",
+  "description": "Complete IB Physics revision notes covering mechanics, fields, waves, thermodynamics, quantum physics, and nuclear physics. Worked examples, exam-style",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://ib.wyattau.com"
+  },
+  "url": "https://ib.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: IB Physics
 description: "Complete IB Physics revision notes covering mechanics, fields, waves, thermodynamics, quantum physics, and nuclear physics. Worked examples, exam-style"
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "IB Physics",
+  "description": "Complete IB Physics revision notes covering mechanics, fields, waves, thermodynamics, quantum physics, and nuclear physics. Worked examples, exam-style",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://ib.wyattau.com"
+  },
+  "url": "https://ib.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # IB Physics
 
@@ -127,6 +175,30 @@ Physics is the study of how the universe behaves when you ask it direct question
 
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "IB Physics",
+  "description": "Complete IB Physics revision notes covering mechanics, fields, waves, thermodynamics, quantum physics, and nuclear physics. Worked examples, exam-style",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://ib.wyattau.com"
+  },
+  "url": "https://ib.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 ## Cross-References
 

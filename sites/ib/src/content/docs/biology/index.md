@@ -1,10 +1,58 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "IB Biology",
+  "description": "Complete IB Biology revision notes covering cell biology, molecular biology, genetics, ecology, human physiology, and plant biology. Worked examples,",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://ib.wyattau.com"
+  },
+  "url": "https://ib.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: IB Biology
 description: "Complete IB Biology revision notes covering cell biology, molecular biology, genetics, ecology, human physiology, and plant biology. Worked examples,"
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "IB Biology",
+  "description": "Complete IB Biology revision notes covering cell biology, molecular biology, genetics, ecology, human physiology, and plant biology. Worked examples,",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://ib.wyattau.com"
+  },
+  "url": "https://ib.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # IB Biology
 

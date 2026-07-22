@@ -1,10 +1,58 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Database Systems",
+  "description": "'Topics in database systems including the relational model, SQL, normalisation, indexing, transactions, and distributed databases.'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://computer-science.wyattau.com"
+  },
+  "url": "https://computer-science.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: Database Systems
 description: 'Topics in database systems including the relational model, SQL, normalisation, indexing, transactions, and distributed databases.'
 tags:
   - Computing
   - University
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Database Systems",
+  "description": "'Topics in database systems including the relational model, SQL, normalisation, indexing, transactions, and distributed databases.'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://computer-science.wyattau.com"
+  },
+  "url": "https://computer-science.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # Database Systems
 

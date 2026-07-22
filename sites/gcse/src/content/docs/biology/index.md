@@ -1,4 +1,28 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "GCSE Biology",
+  "description": "'Comprehensive revision notes for GCSE Biology, covering all major exam boards (A Comprehensive educational content coverage with definitions and practice proble'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://gcse.wyattau.com"
+  },
+  "url": "https://gcse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: GCSE Biology
 description: 'Comprehensive revision notes for GCSE Biology, covering all major exam boards (A Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
@@ -9,6 +33,30 @@ categories:
   - gcse-biology
 
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "GCSE Biology",
+  "description": "'Comprehensive revision notes for GCSE Biology, covering all major exam boards (A Comprehensive educational content coverage with definitions and practice proble'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://gcse.wyattau.com"
+  },
+  "url": "https://gcse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # GCSE Biology
 

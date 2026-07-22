@@ -1,7 +1,55 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Theory",
+  "description": "Theoretical computer science establishes the formal foundations of the discipline. It addresses fundamental questions about what can be computed, how",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://computer-science.wyattau.com"
+  },
+  "url": "https://computer-science.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: Theory
 description: "Theoretical computer science establishes the formal foundations of the discipline. It addresses fundamental questions about what can be computed, how"
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Theory",
+  "description": "Theoretical computer science establishes the formal foundations of the discipline. It addresses fundamental questions about what can be computed, how",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://computer-science.wyattau.com"
+  },
+  "url": "https://computer-science.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # Theory
 

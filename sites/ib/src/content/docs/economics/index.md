@@ -1,10 +1,58 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "IB Economics",
+  "description": "IB Economics notes covering key definitions, core concepts, worked examples, and practice questions for targeted revision and exam readiness.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://ib.wyattau.com"
+  },
+  "url": "https://ib.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: IB Economics
 description: "IB Economics notes covering key definitions, core concepts, worked examples, and practice questions for targeted revision and exam readiness."
 tags: [ib, ib-economics]
 categories: [ib-economics]
 date: 2026-05-21
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "IB Economics",
+  "description": "IB Economics notes covering key definitions, core concepts, worked examples, and practice questions for targeted revision and exam readiness.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://ib.wyattau.com"
+  },
+  "url": "https://ib.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 ## Intuition
 

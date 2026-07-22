@@ -1,7 +1,55 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Electrostatics",
+  "description": "CBSE Class 12 physics: Electrostatics with Coulomb's law, electric fields, Gauss's law, and worked examples.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://cbse.wyattau.com"
+  },
+  "url": "https://cbse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: "Electrostatics"
 description: "CBSE Class 12 physics: Electrostatics with Coulomb's law, electric fields, Gauss's law, and worked examples."
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Electrostatics",
+  "description": "CBSE Class 12 physics: Electrostatics with Coulomb's law, electric fields, Gauss's law, and worked examples.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://cbse.wyattau.com"
+  },
+  "url": "https://cbse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # Electrostatics
 

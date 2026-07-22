@@ -1,7 +1,55 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Organic Chemistry",
+  "description": "'Topics in organic chemistry including reaction mechanisms, functional group chemistry, and synthesis with worked examples.'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://chemistry.wyattau.com"
+  },
+  "url": "https://chemistry.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: Organic Chemistry
 description: 'Topics in organic chemistry including reaction mechanisms, functional group chemistry, and synthesis with worked examples.'
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Organic Chemistry",
+  "description": "'Topics in organic chemistry including reaction mechanisms, functional group chemistry, and synthesis with worked examples.'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://chemistry.wyattau.com"
+  },
+  "url": "https://chemistry.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # Organic Chemistry
 

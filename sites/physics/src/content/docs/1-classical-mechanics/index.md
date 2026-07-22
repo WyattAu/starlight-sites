@@ -1,10 +1,58 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Classical Mechanics",
+  "description": "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. Comprehensive educational content coverage with definitions, worked examples, and practice problems.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://physics.wyattau.com"
+  },
+  "url": "https://physics.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: Classical Mechanics
 tags:
   - Physics
   - University
 description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Classical Mechanics",
+  "description": "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. Comprehensive educational content coverage with definitions, worked examples, and practice problems.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://physics.wyattau.com"
+  },
+  "url": "https://physics.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # Classical Mechanics
 

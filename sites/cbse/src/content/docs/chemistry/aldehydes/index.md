@@ -1,7 +1,55 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Aldehydes, Ketones, and Carboxylic Acids",
+  "description": "CBSE Class 12 chemistry: Nomenclature, reactions, nucleophilic addition, and worked examples.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://cbse.wyattau.com"
+  },
+  "url": "https://cbse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: "Aldehydes, Ketones, and Carboxylic Acids"
 description: "CBSE Class 12 chemistry: Nomenclature, reactions, nucleophilic addition, and worked examples."
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Aldehydes, Ketones, and Carboxylic Acids",
+  "description": "CBSE Class 12 chemistry: Nomenclature, reactions, nucleophilic addition, and worked examples.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://cbse.wyattau.com"
+  },
+  "url": "https://cbse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # Aldehydes, Ketones, and Carboxylic Acids
 

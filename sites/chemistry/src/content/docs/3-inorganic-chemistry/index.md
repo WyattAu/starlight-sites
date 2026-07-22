@@ -1,7 +1,55 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Inorganic Chemistry",
+  "description": "Inorganic chemistry covers the chemistry of all elements except carbon in its primary organic forms, although it includes organometallic compounds that",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://chemistry.wyattau.com"
+  },
+  "url": "https://chemistry.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: Inorganic Chemistry
 description: "Inorganic chemistry covers the chemistry of all elements except carbon in its primary organic forms, although it includes organometallic compounds that"
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Inorganic Chemistry",
+  "description": "Inorganic chemistry covers the chemistry of all elements except carbon in its primary organic forms, although it includes organometallic compounds that",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://chemistry.wyattau.com"
+  },
+  "url": "https://chemistry.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # Inorganic Chemistry
 

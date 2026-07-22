@@ -1,10 +1,58 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Electromagnetism",
+  "description": "UNIVERSITY Physics notes: Electromagnetism. Comprehensive study material with definitions, examples, and assessment tools.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://physics.wyattau.com"
+  },
+  "url": "https://physics.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: Electromagnetism
 tags:
   - Physics
   - University
 description: "UNIVERSITY Physics notes: Electromagnetism. Comprehensive study material with definitions, examples, and assessment tools."
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Electromagnetism",
+  "description": "UNIVERSITY Physics notes: Electromagnetism. Comprehensive study material with definitions, examples, and assessment tools.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://physics.wyattau.com"
+  },
+  "url": "https://physics.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # Electromagnetism
 

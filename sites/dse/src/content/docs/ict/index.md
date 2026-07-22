@@ -1,8 +1,56 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "DSE ICT",
+  "description": "'DSE ICT notes covering key definitions, core concepts, worked examples, and practice questions for solid revision and exam readiness.'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://dse.wyattau.com"
+  },
+  "url": "https://dse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: DSE ICT
 description: 'DSE ICT notes covering key definitions, core concepts, worked examples, and practice questions for solid revision and exam readiness.'
 tableOfContents: false
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "DSE ICT",
+  "description": "'DSE ICT notes covering key definitions, core concepts, worked examples, and practice questions for solid revision and exam readiness.'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://dse.wyattau.com"
+  },
+  "url": "https://dse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # DSE ICT
 

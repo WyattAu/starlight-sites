@@ -1,8 +1,56 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "DSE Chemistry",
+  "description": "DSE Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for thorough exam preparation and revision.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://dse.wyattau.com"
+  },
+  "url": "https://dse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: DSE Chemistry
 description: "DSE Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for thorough exam preparation and revision."
 tableOfContents: false
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "DSE Chemistry",
+  "description": "DSE Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for thorough exam preparation and revision.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://dse.wyattau.com"
+  },
+  "url": "https://dse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # DSE Chemistry
 

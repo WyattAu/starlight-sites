@@ -1,4 +1,28 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "A-Level Psychology",
+  "description": "A-Level Psychology notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://alevel.wyattau.com"
+  },
+  "url": "https://alevel.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: A-Level Psychology
 description: "A-Level Psychology notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery."
 date: 2026-05-12T00:00:00.000Z
@@ -6,6 +30,30 @@ tags:
   - Psychology
   - ALevel
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "A-Level Psychology",
+  "description": "A-Level Psychology notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://alevel.wyattau.com"
+  },
+  "url": "https://alevel.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # A-Level Psychology
 

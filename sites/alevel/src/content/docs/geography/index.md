@@ -1,10 +1,58 @@
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "A-Level Geography",
+  "description": "'A-Level Geography notes covering key definitions, core concepts, worked examples, and practice questions for solid study and examination practice.'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://alevel.wyattau.com"
+  },
+  "url": "https://alevel.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: A-Level Geography
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography]
 description: 'A-Level Geography notes covering key definitions, core concepts, worked examples, and practice questions for solid study and examination practice.'
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "A-Level Geography",
+  "description": "'A-Level Geography notes covering key definitions, core concepts, worked examples, and practice questions for solid study and examination practice.'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://alevel.wyattau.com"
+  },
+  "url": "https://alevel.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 # A-Level Geography
 
@@ -63,6 +111,30 @@ A-Level Geography is assessed through three written papers and a non-examined fi
 
 ---
 
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "A-Level Geography",
+  "description": "'A-Level Geography notes covering key definitions, core concepts, worked examples, and practice questions for solid study and examination practice.'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://alevel.wyattau.com"
+  },
+  "url": "https://alevel.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
+
 > **Source**: Content aligned with AQA Geography (7037) specification. Case studies drawn from
 > widely-used textbooks and publicly available data.
 
@@ -111,6 +183,30 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 Geography is the study of how people and places interact. Physical geography examines the natural systems that shape our planet, while human geography explores how societies organize and modify those systems. The subject connects local observations to global patterns: a single flood event in Cumbria reveals the same hydrological principles that govern river systems worldwide. Understanding geography means seeing connections between topics that appear unrelated, such as how climate change affects both coastal erosion and food security.
 
 ---
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "A-Level Geography",
+  "description": "'A-Level Geography notes covering key definitions, core concepts, worked examples, and practice questions for solid study and examination practice.'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://alevel.wyattau.com"
+  },
+  "url": "https://alevel.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 
 ## Overview
 
