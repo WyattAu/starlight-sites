@@ -1,0 +1,84 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Optics Cheat Sheet | Free Geometric, Wave, Quantum Optics"
+  description="Complete optics cheat sheet with geometric, wave, and quantum optics. Free download for physics students."
+>
+  <section class="hero">
+    <h1>Optics<br><span>Cheat Sheet</span></h1>
+    <p>Geometric, wave, and quantum optics. From ray tracing to photonics.</p>
+  </section>
+
+  <section>
+    <h2>Geometric Optics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Reflection & Refraction</h3>
+        <pre><code>θ_i = θ_r (reflection)
+n₁ sin θ₁ = n₂ sin θ₂ (Snell's law)
+n = c/v (refractive index)
+θ_c = sin⁻¹(n₂/n₁) (critical angle)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Lenses</h3>
+        <pre><code>1/f = 1/v + 1/u (lens formula)
+M = -v/u (magnification)
+Power = 1/f (dioptres)
+Thin lens: 1/f = (n-1)(1/R₁ - 1/R₂)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Wave Optics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Interference</h3>
+        <pre><code>Constructive: Δ = mλ
+Destructive: Δ = (m+½)λ
+Young's slits: x = λL/d
+Thin films: 2nt = mλ (with phase change)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Diffraction</h3>
+        <pre><code>Single slit: a sin θ = mλ (minima)
+Grating: d sin θ = mλ (maxima)
+Resolving power: R = λ/Δλ = mN
+Rayleigh criterion: θ = 1.22λ/D</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Polarisation</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Malus's Law</h3>
+        <pre><code>I = I₀ cos²θ
+θ: angle between polariser and analyser
+Unpolarised → polarised: I = I₀/2</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Quantum Optics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Photons</h3>
+        <pre><code>E = hf = hc/λ
+p = h/λ = E/c
+Photoelectric: hf = φ + KE_max
+Compton: Δλ = (h/m_e c)(1 - cos θ)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
