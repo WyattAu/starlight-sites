@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — DSE</title>
+    <link>https://dse.wyattau.com</link>
+    <description>Hong Kong DSE revision notes for Mathematics, Physics, Chemistry, and Biology.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dse.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://dse.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — DSE</title>
+      <link>https://dse.wyattau.com</link>
+    </image>
+    <item>
+      <title>Forces and Motion</title>
+      <link>https://dse.wyattau.com/physics/1-mechanics/1_forces-and-motion</link>
+      <description>Newton's laws of motion, F=ma calculations, free body diagrams, and applications of Newton's laws. An object remains at rest or continues to move with uniform velocity unless acted upon by a resultant force.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com/physics/1-mechanics/1_forces-and-motion</guid>
+    </item>
+    <item>
+      <title>Mechanics — In-Depth Coverage</title>
+      <link>https://dse.wyattau.com/physics/1-mechanics/2_mechanics-depth</link>
+      <description>Advanced mechanics topics including projectile motion, circular motion, momentum, and impulse with detailed derivations and exam-style problems.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com/physics/1-mechanics/2_mechanics-depth</guid>
+    </item>
+    <item>
+      <title>Energy and Work</title>
+      <link>https://dse.wyattau.com/physics/1-mechanics/3_energy-and-work</link>
+      <description>Work-energy theorem, conservation of energy, potential and kinetic energy calculations, and power. Worked examples for DSE physics examination.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com/physics/1-mechanics/3_energy-and-work</guid>
+    </item>
+    <item>
+      <title>Waves and Sound</title>
+      <link>https://dse.wyattau.com/physics/2-waves/1_waves-and-sound</link>
+      <description>Properties of waves, reflection, refraction, diffraction, and sound waves. Transverse and longitudinal wave characteristics with DSE examination focus.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com/physics/2-waves/1_waves-and-sound</guid>
+    </item>
+    <item>
+      <title>Waves and Optics</title>
+      <link>https://dse.wyattau.com/physics/2-waves/2_waves-and-optics</link>
+      <description>Electromagnetic spectrum, light waves, mirrors, lenses, and optical instruments. Comprehensive coverage for DSE physics Paper 1 and Paper 2.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com/physics/2-waves/2_waves-and-optics</guid>
+    </item>
+    <item>
+      <title>Optics</title>
+      <link>https://dse.wyattau.com/physics/2-waves/3_optics</link>
+      <description>Reflection at plane mirrors, refraction through glass blocks, total internal reflection, and lens formula applications.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com/physics/2-waves/3_optics</guid>
+    </item>
+    <item>
+      <title>Electrical Circuits</title>
+      <link>https://dse.wyattau.com/physics/3-electricity-and-magnetism/1_electrical-circuits</link>
+      <description>Ohm's law, series and parallel circuits, Kirchhoff's laws, and circuit analysis techniques for DSE physics.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com/physics/3-electricity-and-magnetism/1_electrical-circuits</guid>
+    </item>
+    <item>
+      <title>Electricity and Magnetism</title>
+      <link>https://dse.wyattau.com/physics/3-electricity-and-magnetism/2_electricity-and-magnetism</link>
+      <description>Electric fields, magnetic fields, and the relationship between electricity and magnetism. Electromagnetic induction and applications.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com/physics/3-electricity-and-magnetism/2_electricity-and-magnetism</guid>
+    </item>
+    <item>
+      <title>Magnetism and Electromagnetism</title>
+      <link>https://dse.wyattau.com/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism</link>
+      <description>Properties of magnets, magnetic fields around conductors, solenoids, and electromagnetic devices. DSE examination preparation.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism</guid>
+    </item>
+    <item>
+      <title>Heat and Gases</title>
+      <link>https://dse.wyattau.com/physics/4-thermal-physics/1_heat-and-gases</link>
+      <description>Thermal energy transfer, ideal gas law, kinetic theory of gases, and specific heat capacity calculations for DSE physics.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com/physics/4-thermal-physics/1_heat-and-gases</guid>
+    </item>
+    <item>
+      <title>Nuclear Physics</title>
+      <link>https://dse.wyattau.com/physics/5-nuclear-physics/1_nuclear-physics</link>
+      <description>Atomic structure, radioactive decay, half-life calculations, nuclear fission and fusion, and radiation safety. Complete DSE nuclear physics coverage.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com/physics/5-nuclear-physics/1_nuclear-physics</guid>
+    </item>
+    <item>
+      <title>DSE Physics — Complete Course</title>
+      <link>https://dse.wyattau.com/physics</link>
+      <description>161 pages of DSE Physics notes covering mechanics, waves, electricity, magnetism, thermal physics, and nuclear physics with diagnostic tests.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com/physics</guid>
+    </item>
+    <item>
+      <title>Diagnostic Guide — Physics Topics</title>
+      <link>https://dse.wyattau.com/physics/diagnostics/diagnostic-guide</link>
+      <description>Interactive diagnostic tests to identify strengths and weaknesses across all DSE Physics topics. Personalised study recommendations.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com/physics/diagnostics/diagnostic-guide</guid>
+    </item>
+    <item>
+      <title>Hong Kong DSE Notes — All Subjects</title>
+      <link>https://dse.wyattau.com</link>
+      <description>161 pages of Hong Kong DSE revision notes for Mathematics, Physics, Chemistry, and Biology with diagnostic tests and practice questions.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — A-Level</title>
+    <link>https://alevel.wyattau.com</link>
+    <description>A-Level revision notes for Mathematics, Physics, Chemistry, Biology, and Computer Science.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://alevel.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://alevel.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — A-Level</title>
+      <link>https://alevel.wyattau.com</link>
+    </image>
+    <item>
+      <title>Wave Properties</title>
+      <link>https://alevel.wyattau.com/physics/waves/01-wave-properties</link>
+      <description>Key definitions of wave properties including amplitude, wavelength, frequency, period, and wave speed. Understanding transverse and longitudinal waves with worked examples.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com/physics/waves/01-wave-properties</guid>
+    </item>
+    <item>
+      <title>Superposition and Interference</title>
+      <link>https://alevel.wyattau.com/physics/waves/02-superposition-and-interference</link>
+      <description>The principle of superposition, constructive and destructive interference, Young's double slit experiment, and diffraction gratings with calculations.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com/physics/waves/02-superposition-and-interference</guid>
+    </item>
+    <item>
+      <title>Refraction and Total Internal Reflection</title>
+      <link>https://alevel.wyattau.com/physics/waves/03-refraction-and-total-internal-reflection</link>
+      <description>Snell's law, critical angle calculations, total internal reflection applications, and fibre optics. Worked examples and common exam questions.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com/physics/waves/03-refraction-and-total-internal-reflection</guid>
+    </item>
+    <item>
+      <title>A-Level Physics — Waves Complete Guide</title>
+      <link>https://alevel.wyattau.com/physics/waves</link>
+      <description>Complete A-Level Physics waves topic covering wave properties, superposition, interference, diffraction, refraction, and total internal reflection.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com/physics/waves</guid>
+    </item>
+    <item>
+      <title>Research Methods in Psychology</title>
+      <link>https://alevel.wyattau.com/psychology/1-research-methods/1_research-methods</link>
+      <description>A-Level Psychology research methods including experiments, observations, correlations, self-report techniques, and reliability and validity concepts.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com/psychology/1-research-methods/1_research-methods</guid>
+    </item>
+    <item>
+      <title>Social Influence</title>
+      <link>https://alevel.wyattau.com/psychology/2-social-influence/1_social-influence</link>
+      <description>Conformity, obedience, and compliance. Asch's line study, Milgram's obedience experiment, and Zimbardo's Stanford prison experiment.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com/psychology/2-social-influence/1_social-influence</guid>
+    </item>
+    <item>
+      <title>Memory</title>
+      <link>https://alevel.wyattau.com/psychology/3-memory/1_memory</link>
+      <description>Multi-store model, working memory model, types of long-term memory, and factors affecting forgetting including interference and retrieval failure.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com/psychology/3-memory/1_memory</guid>
+    </item>
+    <item>
+      <title>Attachment</title>
+      <link>https://alevel.wyattau.com/psychology/4-attachment/1_attachment</link>
+      <description>Learning theory of attachment, Harlow's monkeys, Bowlby's monotropic theory, and Ainsworth's Strange Situation. Cultural variations in attachment.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com/psychology/4-attachment/1_attachment</guid>
+    </item>
+    <item>
+      <title>Psychopathology</title>
+      <link>https://alevel.wyattau.com/psychology/5-psychopathology/1_psychopathology</link>
+      <description>Definitions of abnormality, characteristics of phobias, depression, and OCD. Behavioural, cognitive, and psychodynamic explanations.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com/psychology/5-psychopathology/1_psychopathology</guid>
+    </item>
+    <item>
+      <title>Approaches in Psychology</title>
+      <link>https://alevel.wyattau.com/psychology/6-approaches/1_approaches-in-psychology</link>
+      <description>Origins of psychology including behaviourist, psychodynamic, humanistic, cognitive, biological, and social learning theory approaches.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com/psychology/6-approaches/1_approaches-in-psychology</guid>
+    </item>
+    <item>
+      <title>Biopsychology</title>
+      <link>https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology</link>
+      <description>The nervous system, the endocrine system, fight or flight response, localisation of brain function, and split brain research.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology</guid>
+    </item>
+    <item>
+      <title>Issues and Debates in Psychology</title>
+      <link>https://alevel.wyattau.com/psychology/8-issues-and-debates/1_issues-and-debates</link>
+      <description>Gender and culture in psychology, free will and determinism, the nature-nurture debate, holism and reductionism, and ethical implications of research.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com/psychology/8-issues-and-debates/1_issues-and-debates</guid>
+    </item>
+    <item>
+      <title>A-Level Mathematics — Pure Mathematics</title>
+      <link>https://alevel.wyattau.com/maths/pure-mathematics</link>
+      <description>Complete A-Level Pure Mathematics notes covering algebra, calculus, trigonometry, sequences, and proof with worked examples and exam-style questions.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com/maths/pure-mathematics</guid>
+    </item>
+    <item>
+      <title>A-Level Revision Notes — Complete Guide</title>
+      <link>https://alevel.wyattau.com</link>
+      <description>366 pages of A-Level revision notes for Mathematics, Physics, Chemistry, Biology, Computer Science, Psychology, Economics, English, Geography, and History.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

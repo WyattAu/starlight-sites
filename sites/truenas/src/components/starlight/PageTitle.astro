@@ -5,11 +5,18 @@ const { entry, id } = starlightRoute;
 // PAGE_TITLE_ID is '_top' — hardcoded to avoid import resolution issues in overrides
 const PAGE_TITLE_ID = '_top';
 
+const siteTitle = starlightRoute?.siteTitle || "Notes";
+
 // Build breadcrumb trail from the page id (the slug).
-// e.g. "physics/1-mechanics/1_forces-and-motion" → [{label: "Physics", href: "/physics/"}, {label: "Forces and Motion"}]
-function buildBreadcrumbs(id: string) {
+// e.g. "physics/1-mechanics/1_forces-and-motion" → [{label: "Home", href: "/"}, {label: "Physics", href: "/physics/"}, {label: "Forces and Motion"}]
+function buildBreadcrumbs(id: string, siteTitle: string) {
   const parts = id.split('/').filter(Boolean);
   const crumbs = [{ label: 'Home', href: '/' }];
+
+  // Add site name as second breadcrumb
+  const hostname = Astro.url.hostname;
+  const siteUrl = `https://${hostname}`;
+  crumbs.push({ label: siteTitle, href: siteUrl });
 
   let path = '';
   for (let i = 0; i < parts.length; i++) {
@@ -31,7 +38,7 @@ function buildBreadcrumbs(id: string) {
   return crumbs;
 }
 
-const breadcrumbs = buildBreadcrumbs(id);
+const breadcrumbs = buildBreadcrumbs(id, siteTitle);
 ---
 
 <nav aria-label="Breadcrumb" class="breadcrumbs">

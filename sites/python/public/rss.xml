@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Python</title>
+    <link>https://python.wyattau.com</link>
+    <description>Python programming from basics to advanced patterns.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://python.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://python.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Python</title>
+      <link>https://python.wyattau.com</link>
+    </image>
+    <item>
+      <title>Types and Variables</title>
+      <link>https://python.wyattau.com/02-fundamentals/01-types-and-variables</link>
+      <description>Python's type system, dynamic vs static typing, mutable vs immutable types, variable assignment, and type checking. Comprehensive coverage with definitions and practice problems.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com/02-fundamentals/01-types-and-variables</guid>
+    </item>
+    <item>
+      <title>Control Flow</title>
+      <link>https://python.wyattau.com/02-fundamentals/02-control-flow</link>
+      <description>Conditional statements, loops, comprehensions, and control flow structures in Python. if/elif/else, for/while loops, and pattern matching.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com/02-fundamentals/02-control-flow</guid>
+    </item>
+    <item>
+      <title>Functions</title>
+      <link>https://python.wyattau.com/02-fundamentals/03-functions</link>
+      <description>Function definitions, arguments, return values, decorators, closures, and functional programming concepts in Python.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com/02-fundamentals/03-functions</guid>
+    </item>
+    <item>
+      <title>Generators and Iterators</title>
+      <link>https://python.wyattau.com/02-fundamentals/04-generators-and-iterators</link>
+      <description>Generator functions, iterator protocol, yield expressions, and lazy evaluation patterns for memory-efficient Python programming.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com/02-fundamentals/04-generators-and-iterators</guid>
+    </item>
+    <item>
+      <title>Python Internals</title>
+      <link>https://python.wyattau.com/02-fundamentals/05-python-internals</link>
+      <description>CPython interpreter internals, bytecode compilation, the GIL, reference counting, and memory management in Python.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com/02-fundamentals/05-python-internals</guid>
+    </item>
+    <item>
+      <title>Modules and Packages</title>
+      <link>https://python.wyattau.com/02-fundamentals/06-modules-and-packages</link>
+      <description>Import system, module search path, package structure, namespace packages, and creating reusable Python packages.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com/02-fundamentals/06-modules-and-packages</guid>
+    </item>
+    <item>
+      <title>Collections Module</title>
+      <link>https://python.wyattau.com/03-data-structures/01-collections</link>
+      <description>Python collections module: namedtuple, deque, defaultdict, OrderedDict, and Counter for specialised data structure operations.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com/03-data-structures/01-collections</guid>
+    </item>
+    <item>
+      <title>Dictionaries, Sets, and Counter</title>
+      <link>https://python.wyattau.com/03-data-structures/02-dicts-sets-counter</link>
+      <description>Dictionary implementations, set operations, Counter for counting hashable objects, and performance characteristics of Python data structures.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com/03-data-structures/02-dicts-sets-counter</guid>
+    </item>
+    <item>
+      <title>Classes and OOP</title>
+      <link>https://python.wyattau.com/04-object-oriented/01-classes</link>
+      <description>Class definitions, instance methods, class methods, static methods, inheritance, and composition in Python object-oriented programming.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com/04-object-oriented/01-classes</guid>
+    </item>
+    <item>
+      <title>Metaclasses</title>
+      <link>https://python.wyattau.com/04-object-oriented/02-metaclasses</link>
+      <description>Type as a metaclass, __new__ vs __init__, metaclass syntax, and practical applications of metaclasses in Python framework design.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com/04-object-oriented/02-metaclasses</guid>
+    </item>
+    <item>
+      <title>Descriptors</title>
+      <link>https://python.wyattau.com/04-object-oriented/03-descriptors</link>
+      <description>Descriptor protocol, __get__, __set__, __delete__, and how Python uses descriptors for properties, methods, and class attributes.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com/04-object-oriented/03-descriptors</guid>
+    </item>
+    <item>
+      <title>Essential Standard Library Modules</title>
+      <link>https://python.wyattau.com/05-standard-library/01-essential-modules</link>
+      <description>Must-know Python standard library modules: os, sys, pathlib, collections, itertools, functools, and typing for production code.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com/05-standard-library/01-essential-modules</guid>
+    </item>
+    <item>
+      <title>Async Await</title>
+      <link>https://python.wyattau.com/06-async/01-async-await</link>
+      <description>Python async/await syntax, coroutines, event loops, asyncio library, and asynchronous programming patterns for I/O-bound tasks.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com/06-async/01-async-await</guid>
+    </item>
+    <item>
+      <title>Style and Idioms</title>
+      <link>https://python.wyattau.com/07-best-practices/01-style-and-idioms</link>
+      <description>PEP 8 style guide, Pythonic idioms, list comprehensions vs generator expressions, and writing clean, readable Python code.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com/07-best-practices/01-style-and-idioms</guid>
+    </item>
+    <item>
+      <title>Python Programming — Complete Guide</title>
+      <link>https://python.wyattau.com</link>
+      <description>30 pages of Python programming notes covering fundamentals, data structures, OOP, standard library, async programming, and best practices.</description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

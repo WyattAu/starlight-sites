@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — C++</title>
+    <link>https://cpp.wyattau.com</link>
+    <description>C++ programming from fundamentals to advanced template metaprogramming.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://cpp.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://cpp.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — C++</title>
+      <link>https://cpp.wyattau.com</link>
+    </image>
+    <item>
+      <title>Thread Execution (std::jthread) and Hardware Mapping</title>
+      <link>https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/1_threads_jthread</link>
+      <description>Thread creation with std::jthread, hardware concurrency detection, join/detach semantics, RAII-based thread guards, and cooperative cancellation patterns.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/1_threads_jthread</guid>
+    </item>
+    <item>
+      <title>Data Races and Race Conditions</title>
+      <link>https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/2_data_races</link>
+      <description>Understanding data races in concurrent C++ programs, race condition examples, and techniques for detecting and preventing concurrent access bugs.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/2_data_races</guid>
+    </item>
+    <item>
+      <title>Mutexes and Deadlocks</title>
+      <link>https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks</link>
+      <description>std::mutex, std::lock_guard, std::unique_lock, deadlock prevention strategies, and lock ordering techniques for thread-safe C++ code.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks</guid>
+    </item>
+    <item>
+      <title>Condition Variables</title>
+      <link>https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/4_condition_variables</link>
+      <description>std::condition_variable for thread synchronization, producer-consumer patterns, spurious wakeups, and proper usage with predicates.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/4_condition_variables</guid>
+    </item>
+    <item>
+      <title>Thread-Local Storage</title>
+      <link>https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/5_thread_local_storage</link>
+      <description>Thread-local storage with thread_local keyword, initialization patterns, and use cases for thread-specific data in concurrent C++ programs.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/5_thread_local_storage</guid>
+    </item>
+    <item>
+      <title>Instruction Reordering</title>
+      <link>https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics/1_instruction_reordering</link>
+      <description>How compilers and CPUs reorder instructions, memory barriers, and the C++ memory model's guarantees for concurrent access.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics/1_instruction_reordering</guid>
+    </item>
+    <item>
+      <title>Cache Coherency</title>
+      <link>https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics/2_cache_coherency</link>
+      <description>CPU cache coherency protocols, false sharing, and performance implications for concurrent C++ applications running on multi-core systems.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics/2_cache_coherency</guid>
+    </item>
+    <item>
+      <title>Atomic Operations</title>
+      <link>https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics/3_atomic_operations</link>
+      <description>std::atomic types, atomic operations, compare-and-swap (CAS), and lock-free programming techniques in modern C++.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics/3_atomic_operations</guid>
+    </item>
+    <item>
+      <title>Memory Orderings</title>
+      <link>https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics/4_memory_orderings</link>
+      <description>C++ memory orderings: relaxed, acquire, release, sequential consistency. Choosing the right memory ordering for performance and correctness.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics/4_memory_orderings</guid>
+    </item>
+    <item>
+      <title>CAS Loops</title>
+      <link>https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics/5_cas_loops</link>
+      <description>Compare-and-swap loop patterns for lock-free data structures, ABA problem, and practical implementations in C++.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com/concurrency/2_memory_model_and_atomics/5_cas_loops</guid>
+    </item>
+    <item>
+      <title>Coroutine Frames and Promise Types</title>
+      <link>https://cpp.wyattau.com/concurrency/3_coroutines_and_async_io/1_coroutine_frames</link>
+      <description>C++20 coroutine implementation details: coroutine frames, promise types, initial and final suspend points, and coroutine_handle operations.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com/concurrency/3_coroutines_and_async_io/1_coroutine_frames</guid>
+    </item>
+    <item>
+      <title>Filesystem Library</title>
+      <link>https://cpp.wyattau.com/standard_library/4_system_utilities/1_filesystem</link>
+      <description>std::filesystem for directory traversal, file operations, path manipulation, and filesystem error handling in modern C++.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com/standard_library/4_system_utilities/1_filesystem</guid>
+    </item>
+    <item>
+      <title>Chrono Library</title>
+      <link>https://cpp.wyattau.com/standard_library/4_system_utilities/2_chrono</link>
+      <description>std::chrono for time duration measurement, clock types, time points, and duration arithmetic in modern C++.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com/standard_library/4_system_utilities/2_chrono</guid>
+    </item>
+    <item>
+      <title>C++ Programming — Complete Guide</title>
+      <link>https://cpp.wyattau.com</link>
+      <description>130 pages of C++ programming notes covering concurrency, standard library, template metaprogramming, and advanced language features.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

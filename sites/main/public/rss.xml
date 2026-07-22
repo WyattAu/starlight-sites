@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Study Notes Hub</title>
+    <link>https://wyattau.com</link>
+    <description>Undergraduate and advanced study notes in mathematics, physics, computer science, and engineering. IB, A-Level, GCSE, AP, DSE, university STEM, programming languages, and infrastructure reference.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes</title>
+      <link>https://wyattau.com</link>
+    </image>
+    <item>
+      <title>Starlight Sites Hub — 41 Subject Sites, 2,000+ Pages</title>
+      <link>https://wyattau.com</link>
+      <description>Central hub connecting 41 subject sites covering mathematics, physics, computer science, and engineering. Free study notes for IB, A-Level, GCSE, AP, DSE, and university-level courses.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://wyattau.com</guid>
+    </item>
+    <item>
+      <title>IB Diploma Programme Notes</title>
+      <link>https://ib.wyattau.com</link>
+      <description>304 pages of IB Diploma Programme notes covering Mathematics, Physics, Chemistry, Biology, Psychology, Computer Science, Economics, English, Geography, and History.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com</guid>
+    </item>
+    <item>
+      <title>A-Level Revision Notes</title>
+      <link>https://alevel.wyattau.com</link>
+      <description>366 pages of A-Level revision notes for Mathematics, Physics, Chemistry, Biology, Computer Science, Psychology, Economics, English, Geography, and History.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://alevel.wyattau.com</guid>
+    </item>
+    <item>
+      <title>Hong Kong DSE Notes</title>
+      <link>https://dse.wyattau.com</link>
+      <description>161 pages of Hong Kong DSE revision notes for Mathematics, Physics, Chemistry, and Biology.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://dse.wyattau.com</guid>
+    </item>
+    <item>
+      <title>C++ Programming Notes</title>
+      <link>https://cpp.wyattau.com</link>
+      <description>130 pages of C++ programming notes from fundamentals to advanced template metaprogramming, concurrency, and standard library coverage.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://cpp.wyattau.com</guid>
+    </item>
+    <item>
+      <title>Python Programming Notes</title>
+      <link>https://python.wyattau.com</link>
+      <description>30 pages of Python programming notes covering fundamentals, data structures, object-oriented programming, standard library, and async patterns.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://python.wyattau.com</guid>
+    </item>
+    <item>
+      <title>University Mathematics Notes</title>
+      <link>https://mathematics.wyattau.com</link>
+      <description>160 pages of university-level mathematics notes covering calculus, linear algebra, probability, statistics, and abstract algebra.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com</guid>
+    </item>
+    <item>
+      <title>University Physics Notes</title>
+      <link>https://physics.wyattau.com</link>
+      <description>137 pages of university-level physics notes covering mechanics, thermodynamics, electromagnetism, quantum mechanics, and relativity.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com</guid>
+    </item>
+    <item>
+      <title>Computer Science Theory</title>
+      <link>https://computer-science.wyattau.com</link>
+      <description>115 pages of computer science theory notes covering algorithms, data structures, operating systems, databases, networks, and theory of computation.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com</guid>
+    </item>
+    <item>
+      <title>GCSE Revision Notes</title>
+      <link>https://gcse.wyattau.com</link>
+      <description>80 pages of GCSE revision notes for Mathematics, Physics, Chemistry, Biology, and Computer Science.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://gcse.wyattau.com</guid>
+    </item>
+    <item>
+      <title>AP Exam Preparation</title>
+      <link>https://ap.wyattau.com</link>
+      <description>77 pages of AP exam preparation notes covering Biology, Calculus AB, Chemistry, Computer Science, English, History, Mathematics, Physics, and Statistics.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ap.wyattau.com</guid>
+    </item>
+    <item>
+      <title>Networking Notes</title>
+      <link>https://networking.wyattau.com</link>
+      <description>22 pages of networking notes covering TCP/IP, DNS, HTTP, network security, and infrastructure fundamentals.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com</guid>
+    </item>
+    <item>
+      <title>Linux Administration Notes</title>
+      <link>https://linux.wyattau.com</link>
+      <description>20 pages of Linux administration notes covering system administration, shell scripting, networking, and security.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://linux.wyattau.com</guid>
+    </item>
+    <item>
+      <title>Study Guides and Cheat Sheets</title>
+      <link>https://wyattau.com/study-guides</link>
+      <description>Download free comprehensive cheat sheets and study guides for IB Mathematics, Python, JavaScript, SQL, Data Structures, Design Patterns, and more.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://wyattau.com/study-guides</guid>
+    </item>
+    <item>
+      <title>Cross-Site Search — Find Notes Across All Subjects</title>
+      <link>https://search.wyattau.com</link>
+      <description>Search across all 41 subject sites simultaneously. Find study notes, definitions, and worked examples in mathematics, physics, computer science, and more.</description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://search.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

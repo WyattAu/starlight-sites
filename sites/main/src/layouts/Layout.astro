@@ -57,6 +57,14 @@ const ogImage = `${siteUrl}/img/social-card.svg`
   <link rel="preload" href="/fonts/Inter-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/JetBrainsMono-latin.woff2" as="font" type="font/woff2" crossorigin>
   <meta name="theme-color" content="#121f52">
+
+  <!-- Resource hints for Core Web Vitals -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+  <link rel="dns-prefetch" href="https://static.cloudflareinsights.com">
+  <link rel="dns-prefetch" href="https://search.wyattau.com">
+
   <script src="/page-search.js" defer></script>
   <script src="/cross-site-search.js" defer></script>
   <script src="/reader.js" defer></script>
@@ -120,7 +128,7 @@ const ogImage = `${siteUrl}/img/social-card.svg`
   <nav aria-label="Primary navigation">
     <div class="nav-inner">
       <a href="/" class="nav-brand" aria-label="Home">
-        <img src="/logo-nav.svg" alt="Notes" class="nav-logo-img">
+        <img src="/logo-nav.svg" alt="Notes" class="nav-logo-img" loading="eager">
       </a>
 
       <div class="nav-center">

@@ -1,5 +1,14 @@
 ---
 import ClientRouter from "astro/components/ClientRouter.astro"
+import {
+  generateArticleSchema,
+  generateBreadcrumbSchema,
+  generateCourseSchema,
+  generateFAQSchema,
+  generateHowToSchema,
+  generateOrganizationSchema,
+  generateWebSiteSchema,
+} from '../../utils/jsonld'
 
 const { starlightRoute } = Astro.locals;
 const { entry, head } = starlightRoute;
@@ -23,68 +32,46 @@ const urlParts = new URL(pageUrl).hostname.split('.');
 const subdomain = urlParts.length > 2 ? urlParts[0] : 'www';
 const siteName = subdomain === 'www' || subdomain === 'wyattsnotes' ? "Wyatt's Notes" : `${subdomain.charAt(0).toUpperCase() + subdomain.slice(1)} | Wyatt's Notes`;
 
-// Generate WebSite schema
-const websiteSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'WebSite',
+// Generate schemas using shared utilities
+const organizationSchema = generateOrganizationSchema()
+const websiteSchema = generateWebSiteSchema()
+const articleSchema = generateArticleSchema({
+  headline: pageTitle,
+  description,
+  url: pageUrl,
+  datePublished,
+  dateModified,
+})
+const breadcrumbSchema = generateBreadcrumbSchema({
+  items: [
+    { name: 'Home', url: 'https://wyattau.com' },
+    { name: siteName, url: `https://${new URL(pageUrl).hostname}` },
+    { name: pageTitle, url: pageUrl },
+  ],
+})
+const faqSchema = generateFAQSchema([
+  {
+    question: 'What are Wyatt\'s Notes?',
+    answer: 'Wyatt\'s Notes are free, rigorous study notes covering IB, A-Level, GCSE, AP, DSE, university STEM, and programming topics.',
+  },
+  {
+    question: 'Are the study notes free?',
+    answer: 'Yes, all study notes on Wyatt\'s Notes are completely free and open to everyone.',
+  },
+])
+const howToSchema = generateHowToSchema({
+  name: pageTitle,
+  description,
+  steps: [
+    { name: 'Read the introduction', text: 'Read the introductory section to understand the context and prerequisites.' },
+    { name: 'Study the main content', text: 'Go through the main content sections, reviewing examples and explanations.' },
+    { name: 'Practice with examples', text: 'Apply what you learned by working through the practice problems and examples.' },
+  ],
+})
+const courseSchema = generateCourseSchema({
   name: siteTitle,
   description: 'Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.',
-  url: site,
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: 'https://search.wyattau.com/api/search?q={search_term_string}',
-    'query-input': 'required name=search_term_string',
-  },
-}
-
-// Generate Article schema for content pages
-const articleSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Article',
-  headline: pageTitle,
-  description: description,
-  author: {
-    '@type': 'Person',
-    name: 'Wyatt',
-    url: 'https://wyattau.com',
-  },
-  publisher: {
-    '@type': 'Organization',
-    name: "Wyatt's Notes",
-    url: 'https://wyattau.com',
-    logo: {
-      '@type': 'ImageObject',
-      url: 'https://wyattau.com/img/logo.png',
-    },
-  },
-  url: pageUrl,
-  datePublished: datePublished,
-  dateModified: dateModified,
-  mainEntityOfPage: {
-    '@type': 'WebPage',
-    '@id': pageUrl,
-  },
-}
-
-// Generate Breadcrumb schema
-const breadcrumbSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    {
-      '@type': 'ListItem',
-      position: 1,
-      name: 'Home',
-      item: 'https://wyattau.com',
-    },
-    {
-      '@type': 'ListItem',
-      position: 2,
-      name: siteName,
-      item: `https://${new URL(pageUrl).hostname}`,
-    },
-  ],
-}
+})
 ---
 
 <!-- Page speed: preconnect to external origins -->
@@ -92,6 +79,10 @@ const breadcrumbSchema = {
 <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="preconnect" href="https://search.wyattau.com" crossorigin />
+
+<!-- Page speed: DNS prefetch for external services -->
+<link rel="dns-prefetch" href="https://www.google-analytics.com" />
+<link rel="dns-prefetch" href="https://static.cloudflareinsights.com" />
 
 <!-- Page speed: DNS prefetch for subdomains -->
 <link rel="dns-prefetch" href="https://dse.wyattau.com" />
@@ -242,7 +233,31 @@ const breadcrumbSchema = {
 <script src="/mermaid-render.js" defer></script>
 
 <!-- JSON-LD Structured Data -->
+<script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(courseSchema)} />
+
+<!-- PracticeProblem Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOccupationalCredential",
+  "name": "Practice Problems",
+  "description": "Practice problems and worked examples for exam preparation",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://wyattau.com"
+  },
+  "educationalLevel": "Secondary"
+}
+</script>
+
+<!-- RSS Feed -->
+<link rel="alternate" type="application/rss+xml" title="Wyatt's Notes RSS" href="/rss.xml" />
+
 <ClientRouter />

@@ -148,3 +148,72 @@ export function generateFAQSchema(faqs: Array<{ question: string; answer: string
     })),
   }
 }
+
+export interface HowToSchemaProps {
+  name: string
+  description: string
+  totalTime?: string
+  steps: Array<{ name: string; text: string }>
+}
+
+/**
+ * Generate HowTo schema.org structured data.
+ * Use for tutorial/how-to sections.
+ */
+export function generateHowToSchema(props: HowToSchemaProps) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: props.name,
+    description: props.description,
+    totalTime: props.totalTime ?? 'PT30M',
+    estimatedCost: {
+      '@type': 'MonetaryAmount',
+      currency: 'USD',
+      value: '0',
+    },
+    step: props.steps.map(step => ({
+      '@type': 'HowToStep',
+      name: step.name,
+      text: step.text,
+    })),
+  }
+}
+
+export interface OrganizationSchemaProps {
+  name?: string
+  url?: string
+  logo?: string
+  sameAs?: string[]
+  description?: string
+}
+
+/**
+ * Generate Organization schema.org structured data.
+ * Use for site-wide organization info.
+ */
+export function generateOrganizationSchema(props: OrganizationSchemaProps = {}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: props.name ?? "Wyatt's Notes",
+    url: props.url ?? 'https://wyattau.com',
+    logo: {
+      '@type': 'ImageObject',
+      url: props.logo ?? 'https://wyattau.com/img/logo.png',
+      width: 512,
+      height: 512,
+    },
+    sameAs: props.sameAs ?? ['https://github.com/WyattAu', 'https://twitter.com/wyattau'],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer support',
+      email: 'wyatt@wyattau.com',
+    },
+    description:
+      props.description ??
+      'Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.',
+    foundingDate: '2024',
+    knowsLanguage: ['en', 'zh-Hant'],
+  }
+}

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — IB</title>
+    <link>https://ib.wyattau.com</link>
+    <description>IB Diploma Programme notes for Mathematics, Sciences, and Humanities.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ib.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://ib.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — IB</title>
+      <link>https://ib.wyattau.com</link>
+    </image>
+    <item>
+      <title>Neuroplasticity and Neurotransmission</title>
+      <link>https://ib.wyattau.com/psychology/biological/neuroplasticity-and-neurotransmission</link>
+      <description>Synaptic transmission is the process by which neurons communicate with one another. It is the fundamental mechanism underlying all neural activity, from sensory processing to motor control.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com/psychology/biological/neuroplasticity-and-neurotransmission</guid>
+    </item>
+    <item>
+      <title>Brain Imaging Techniques</title>
+      <link>https://ib.wyattau.com/psychology/biological/brain-imaging-techniques</link>
+      <description>Overview of brain imaging techniques used in IB Psychology including fMRI, EEG, PET scans, and lesion studies. Understanding how each method reveals different aspects of brain function.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com/psychology/biological/brain-imaging-techniques</guid>
+    </item>
+    <item>
+      <title>Genetics and Behaviour</title>
+      <link>https://ib.wyattau.com/psychology/biological/genetics-and-behaviour</link>
+      <description>Exploring the relationship between genetics and behaviour, including twin studies, adoption studies, and the role of specific genes in psychological conditions.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com/psychology/biological/genetics-and-behaviour</guid>
+    </item>
+    <item>
+      <title>Cognitive Development</title>
+      <link>https://ib.wyattau.com/psychology/developmental/cognitive-development</link>
+      <description>Piaget's stages of cognitive development, Vygotsky's sociocultural theory, and information processing approaches to understanding how children think and learn.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com/psychology/developmental/cognitive-development</guid>
+    </item>
+    <item>
+      <title>Attachment Theory</title>
+      <link>https://ib.wyattau.com/psychology/developmental/attachment-theory</link>
+      <description>Bowlby's attachment theory, Ainsworth's Strange Situation classification, and cultural variations in attachment patterns. Understanding the importance of early bonds.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com/psychology/developmental/attachment-theory</guid>
+    </item>
+    <item>
+      <title>Memory Models</title>
+      <link>https://ib.wyattau.com/psychology/cognitive/memory-models</link>
+      <description>Multi-store model, working memory model, and levels of processing. Understanding how information is encoded, stored, and retrieved in human memory.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com/psychology/cognitive/memory-models</guid>
+    </item>
+    <item>
+      <title>Thinking and Decision Making</title>
+      <link>https://ib.wyattau.com/psychology/cognitive/thinking-and-decision-making</link>
+      <description>Heuristics and biases in decision making, Kahneman and Tversky's prospect theory, and dual-process theory of thinking.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com/psychology/cognitive/thinking-and-decision-making</guid>
+    </item>
+    <item>
+      <title>Social Identity Theory</title>
+      <link>https://ib.wyattau.com/psychology/sociocultural/social-identity-theory</link>
+      <description>Tajfel and Turner's social identity theory, in-group favouritism, out-group discrimination, and the minimal group paradigm experiments.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com/psychology/sociocultural/social-identity-theory</guid>
+    </item>
+    <item>
+      <title>Cultural Norms and Attitudes</title>
+      <link>https://ib.wyattau.com/psychology/sociocultural/cultural-norms-and-attritudes</link>
+      <description>How cultural norms shape attitudes and behaviour, individualism vs collectivism, and cross-cultural psychology research methods.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com/psychology/sociocultural/cultural-norms-and-attritudes</guid>
+    </item>
+    <item>
+      <title>Prejudice and Discrimination</title>
+      <link>https://ib.wyattau.com/psychology/sociocultural/prejudice-and-discrimination</link>
+      <description>Definitions and types of prejudice and discrimination, scapegoat theory, authoritarian personality, and strategies for reducing prejudice.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com/psychology/sociocultural/prejudice-and-discrimination</guid>
+    </item>
+    <item>
+      <title>Anxiety Disorders</title>
+      <link>https://ib.wyattau.com/psychology/abnormal/anxiety-disorders</link>
+      <description>Characteristics of anxiety disorders, biological and psychological explanations, and treatment approaches including CBT and drug therapy.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com/psychology/abnormal/anxiety-disorders</guid>
+    </item>
+    <item>
+      <title>Depression</title>
+      <link>https://ib.wyattau.com/psychology/abnormal/depression</link>
+      <description>Types and symptoms of depression, genetic and neurochemical explanations, life events and cognitive theories, and treatment effectiveness studies.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com/psychology/abnormal/depression</guid>
+    </item>
+    <item>
+      <title>Treatment Evaluation</title>
+      <link>https://ib.wyattau.com/psychology/abnormal/treatment-evaluation</link>
+      <description>Evaluating drug therapy, CBT, and token economies for treating mental health disorders. Ethical considerations and effectiveness research.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com/psychology/abnormal/treatment-evaluation</guid>
+    </item>
+    <item>
+      <title>IB Psychology — Complete Course Overview</title>
+      <link>https://ib.wyattau.com/psychology</link>
+      <description>Comprehensive IB Psychology notes covering biological, cognitive, developmental, social, and abnormal psychology with research studies and exam preparation.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com/psychology</guid>
+    </item>
+    <item>
+      <title>IB Diploma Programme — All Subjects</title>
+      <link>https://ib.wyattau.com</link>
+      <description>Complete IB Diploma Programme notes for Mathematics, Physics, Chemistry, Biology, Psychology, Computer Science, Economics, English, Geography, and History.</description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://ib.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>
