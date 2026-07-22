@@ -1,0 +1,71 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Probability & Statistics Reference | Free Distributions & Tests"
+  description="Complete probability and statistics reference with distributions, tests, and formulas. Free download for math and data science students."
+>
+  <section class="hero">
+    <h1>Probability & Statistics<br><span>Reference</span></h1>
+    <p>Distributions, tests, and formulas. From basics to advanced statistical methods.</p>
+  </section>
+
+  <section>
+    <h2>Probability</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Basic Rules</h3>
+        <pre><code>P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
+P(A|B) = P(A ∩ B) / P(B)
+P(A') = 1 - P(A)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Conditional Probability</h3>
+        <pre><code>P(A|B) = P(B|A) · P(A) / P(B)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Distributions</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Normal Distribution</h3>
+        <pre><code>f(x) = (1/σ√(2π)) × 
+       e^(-(x-μ)²/(2σ²))</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Binomial Distribution</h3>
+        <pre><code>P(X = k) = C(n,k) × 
+          p^k × (1-p)^(n-k)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Poisson Distribution</h3>
+        <pre><code>P(X = k) = (λ^k × e^(-λ)) / k!</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Statistical Tests</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>t-test</h3>
+        <pre><code>t = (x̄ - μ) / (s / √n)
+df = n - 1</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Chi-square Test</h3>
+        <pre><code>χ² = Σ((O - E)² / E)
+df = (r-1)(c-1)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
