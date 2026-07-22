@@ -1,0 +1,103 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Java Cheat Sheet | Free Syntax, Collections, Streams"
+  description="Complete Java cheat sheet with syntax, collections, and streams. Free download for Java developers."
+>
+  <section class="hero">
+    <h1>Java<br><span>Cheat Sheet</span></h1>
+    <p>Syntax, collections, and streams. From basics to advanced Java features.</p>
+  </section>
+
+  <section>
+    <h2>Basic Syntax</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Data Types</h3>
+        <pre><code>int x = 42;
+double y = 3.14;
+String s = "hello";
+boolean b = true;
+char c = 'A';</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Control Flow</h3>
+        <pre><code>if (x > 0) {
+    // positive
+} else if (x == 0) {
+    // zero
+} else {
+    // negative
+}
+
+for (int i = 0; i < 10; i++) {
+    // loop
+}
+
+while (x > 0) {
+    x--;
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Collections</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>List</h3>
+        <pre><code>List&lt;String&gt; list = new ArrayList&lt;&gt;();
+list.add("item");
+list.get(0);
+list.remove("item");
+list.size();</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Map</h3>
+        <pre><code>Map&lt;String, Integer&gt; map = new HashMap&lt;&gt;();
+map.put("key", 1);
+map.get("key");
+map.containsKey("key");
+map.values();</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Set</h3>
+        <pre><code>Set&lt;String&gt; set = new HashSet&lt;&gt;();
+set.add("item");
+set.contains("item");
+set.remove("item");
+set.size();</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Streams</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Stream Operations</h3>
+        <pre><code>list.stream()
+    .filter(x -> x > 0)
+    .map(x -> x * 2)
+    .sorted()
+    .collect(Collectors.toList());</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Collectors</h3>
+        <pre><code>Collectors.toList()
+Collectors.toSet()
+Collectors.toMap()
+Collectors.groupingBy()
+Collectors.joining(", ")</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
