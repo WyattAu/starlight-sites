@@ -1,0 +1,74 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Electromagnetic Spectrum Cheat Sheet | Free Radio to Gamma Rays"
+  description="Complete electromagnetic spectrum cheat sheet from radio to gamma rays. Free download for physics students."
+>
+  <section class="hero">
+    <h1>Electromagnetic Spectrum<br><span>Cheat Sheet</span></h1>
+    <p>From radio to gamma rays. Complete reference for all EM radiation types.</p>
+  </section>
+
+  <section>
+    <h2>EM Spectrum</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Spectrum Regions</h3>
+        <table>
+          <tr><th>Type</th><th>Wavelength</th><th>Frequency</th><th>Source</th></tr>
+          <tr><td>Radio</td><td>> 1 mm</td><td>< 300 GHz</td><td>Antennas</td></tr>
+          <tr><td>Microwave</td><td>1 mm - 1 m</td><td>300 MHz - 300 GHz</td><td>Magnetron</td></tr>
+          <tr><td>Infrared</td><td>700 nm - 1 mm</td><td>300 GHz - 430 THz</td><td>Hot objects</td></tr>
+          <tr><td>Visible</td><td>400 - 700 nm</td><td>430 - 750 THz</td><td>Sun, lamps</td></tr>
+          <tr><td>Ultraviolet</td><td>10 - 400 nm</td><td>750 THz - 30 PHz</td><td>UV lamps, Sun</td></tr>
+          <tr><td>X-ray</td><td>0.01 - 10 nm</td><td>30 PHz - 30 EHz</td><td>X-ray tubes</td></tr>
+          <tr><td>Gamma ray</td><td>< 0.01 nm</td><td>> 30 EHz</td><td>Nuclear decay</td></tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Key Relationships</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Wave Equation</h3>
+        <pre><code>c = fλ = 3 × 10⁸ m/s
+E = hf = hc/λ
+p = h/λ = E/c
+λ_max T = 2.898 × 10⁻³ m·K (Wien's law)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Photon Energy</h3>
+        <pre><code>E = hf (Joules)
+E = hc/λ = 1240 eV·nm / λ(nm)
+1 eV = 1.602 × 10⁻¹⁹ J
+h = 6.626 × 10⁻³⁴ J·s</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Interactions with Matter</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>By Region</h3>
+        <pre><code>Radio: penetrates most materials
+Microwave: absorbed by water
+Infrared: absorbed by molecules
+Visible: reflected, absorbed, transmitted
+UV: causes fluorescence, sunburn
+X-ray: penetrates soft tissue
+Gamma: penetrates most materials</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
