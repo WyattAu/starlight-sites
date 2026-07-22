@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Networking</title>
+    <link>https://networking.wyattau.com</link>
+    <description>Networking reference notes covering protocols, configuration, and administration.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://networking.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://networking.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Networking</title>
+      <link>https://networking.wyattau.com</link>
+    </image>
+    <item>
+      <title>The Seven Layers of the OSI Model</title>
+      <link>https://networking.wyattau.com/01-osi-model/the-seven-layers-of-the-osi-model</link>
+      <description>Physical, data link, network, transport, session, presentation, and application layers with protocols and device mappings.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com/01-osi-model/the-seven-layers-of-the-osi-model</guid>
+    </item>
+    <item>
+      <title>IPv4 Addressing and Subnetting</title>
+      <link>https://networking.wyattau.com/02-ip-addressing/ipv4-addressing-and-subnetting</link>
+      <description>IPv4 address classes, CIDR notation, subnet masks, VLSM, and worked subnetting calculations with practical examples.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com/02-ip-addressing/ipv4-addressing-and-subnetting</guid>
+    </item>
+    <item>
+      <title>IPv6 Addressing</title>
+      <link>https://networking.wyattau.com/02-ip-addressing/ipv6-addressing</link>
+      <description>IPv6 address format, address types (unicast, multicast, anycast), header differences from IPv4, and transition mechanisms.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com/02-ip-addressing/ipv6-addressing</guid>
+    </item>
+    <item>
+      <title>TCP Three-Way Handshake and Flow Control</title>
+      <link>https://networking.wyattau.com/03-tcp-udp/tcp-three-way-handshake-and-flow-control</link>
+      <description>Connection establishment, sequence and acknowledgement numbers, sliding window, congestion control (slow start, AIMD), and TCP states.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com/03-tcp-udp/tcp-three-way-handshake-and-flow-control</guid>
+    </item>
+    <item>
+      <title>UDP and Comparison with TCP</title>
+      <link>https://networking.wyattau.com/03-tcp-udp/udp-and-comparison-with-tcp</link>
+      <description>User Datagram Protocol, header format, unreliability, and when to use UDP vs TCP for applications like DNS, VoIP, and streaming.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com/03-tcp-udp/udp-and-comparison-with-tcp</guid>
+    </item>
+    <item>
+      <title>DNS Resolution and Record Types</title>
+      <link>https://networking.wyattau.com/04-dns/dns-resolution-and-record-types</link>
+      <description>Hierarchical DNS, recursive vs iterative queries, A, AAAA, CNAME, MX, TXT, and NS records, plus TTL and caching behaviour.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com/04-dns/dns-resolution-and-record-types</guid>
+    </item>
+    <item>
+      <title>HTTP Methods and Status Codes</title>
+      <link>https://networking.wyattau.com/05-http-https/http-methods-and-status-codes</link>
+      <description>GET, POST, PUT, DELETE, PATCH, status code classes (1xx-5xx), RESTful conventions, and content negotiation with examples.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com/05-http-https/http-methods-and-status-codes</guid>
+    </item>
+    <item>
+      <title>TLS Handshake and Certificate Chains</title>
+      <link>https://networking.wyattau.com/06-tls/tls-handshake-and-certificate-chains</link>
+      <description>TLS 1.3 handshake, key exchange, symmetric encryption, certificate authorities, trust chains, and OCSP stapling.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com/06-tls/tls-handshake-and-certificate-chains</guid>
+    </item>
+    <item>
+      <title>Wireshark and Packet Analysis</title>
+      <link>https://networking.wyattau.com/07-network-tools/wireshark-and-packet-analysis</link>
+      <description>Capturing traffic, display filters, protocol dissection, following TCP streams, and diagnosing network issues with Wireshark.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com/07-network-tools/wireshark-and-packet-analysis</guid>
+    </item>
+    <item>
+      <title>Ethernet and MAC Addresses</title>
+      <link>https://networking.wyattau.com/08-layer2/ethernet-and-mac-addresses</link>
+      <description>Ethernet frames, MAC address structure, ARP protocol, switching, VLANs, and STP with practical configuration examples.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com/08-layer2/ethernet-and-mac-addresses</guid>
+    </item>
+    <item>
+      <title>Wi-Fi Standards and Security</title>
+      <link>https://networking.wyattau.com/09-wireless/wi-fi-standards-and-security</link>
+      <description>802.11 standards (a/b/g/n/ac/ax), channel allocation, SSID, WPA3, and enterprise wireless network design considerations.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com/09-wireless/wi-fi-standards-and-security</guid>
+    </item>
+    <item>
+      <title>SMTP, IMAP, and POP3</title>
+      <link>https://networking.wyattau.com/10-email-and-app-protocols/smtp-imap-and-pop3</link>
+      <description>Email protocols, message flow, SMTP relay, IMAP folders vs POP3 download, MIME types, and email security (SPF, DKIM, DMARC).</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com/10-email-and-app-protocols/smtp-imap-and-pop3</guid>
+    </item>
+    <item>
+      <title>Network Address Translation and Port Forwarding</title>
+      <link>https://networking.wyattau.com/07-network-tools/network-address-translation-and-port-forwarding</link>
+      <description>NAT types (static, dynamic, PAT), port forwarding configuration, hairpin NAT, and troubleshooting common NAT issues.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com/07-network-tools/network-address-translation-and-port-forwarding</guid>
+    </item>
+    <item>
+      <title>Networking — Complete Guide</title>
+      <link>https://networking.wyattau.com</link>
+      <description>Networking reference notes covering OSI model, IP addressing, TCP/UDP, DNS, HTTP/HTTPS, TLS, network tools, Layer 2, wireless, and email protocols.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://networking.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

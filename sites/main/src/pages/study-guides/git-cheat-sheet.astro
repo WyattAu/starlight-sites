@@ -1,0 +1,147 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Git Cheat Sheet | Free Branching, Rebasing & Workflow Reference"
+  description="Complete Git cheat sheet with branching, rebasing, stashing, undoing changes, and common workflows. Free reference for developers."
+>
+  <section class="hero">
+    <h1>Git<br><span>Cheat Sheet</span></h1>
+    <p>Branching, rebasing, stashing, undoing changes, and common workflows. From basics to advanced Git.</p>
+  </section>
+
+  <section>
+    <h2>Setup &amp; Basics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Configuration</h3>
+        <pre><code>git config --global user.name "Your Name"
+git config --global user.email "you@email.com"
+git config --global init.defaultBranch main
+git config --list</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Creating Repos</h3>
+        <pre><code>git init                 # new repo
+git clone url            # clone remote
+git clone --depth 1 url  # shallow clone
+
+# .gitignore essentials
+node_modules/
+.env
+*.log
+dist/</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Staging &amp; Commits</h3>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Staging Changes</h3>
+        <pre><code>git status
+git add file.txt        # stage one file
+git add -p              # stage interactively
+git add .               # stage all changes
+git reset HEAD file.txt # unstage</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Commit Messages</h3>
+        <pre><code>git commit -m "feat: add user auth"
+git commit --amend -m "better message"
+git commit --amend --no-edit  # keep message
+
+# Conventional commits:
+# feat:  new feature
+# fix:   bug fix
+# docs:  documentation
+# refactor: code restructuring</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Branching</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Create &amp; Switch</h3>
+        <pre><code>git branch feature/login
+git switch feature/login
+git switch -c new-branch   # create + switch
+git branch -d old-branch   # delete merged
+git branch -D old-branch   # force delete
+git branch -a              # list all</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Merging</h3>
+        <pre><code>git switch main
+git merge feature/login
+git merge --squash feature/login
+git merge --no-ff feature/login
+
+# Abort a merge
+git merge --abort</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Rebasing &amp; History</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Interactive Rebase</h3>
+        <pre><code># Rebase last 3 commits
+git rebase -i HEAD~3
+
+# Commands:
+# pick   = keep commit
+# squash = merge into prev
+# drop   = remove commit
+# edit   = modify commit</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Stashing</h3>
+        <pre><code>git stash                    # stash changes
+git stash push -m "WIP"     # named stash
+git stash list               # view stash
+git stash pop                # apply + remove
+git stash apply stash@{2}   # apply specific</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Undoing Changes</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Discard &amp; Restore</h3>
+        <pre><code>git restore file.txt           # discard
+git restore --staged file.txt  # unstage
+git restore --source=HEAD~3 file.txt
+
+# Undo last commit (keep changes)
+git reset HEAD~1
+
+# Undo last commit (discard changes)
+git reset --hard HEAD~1</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Reverting</h3>
+        <pre><code>git revert HEAD          # undo last commit
+git revert abc1234       # undo specific
+
+# Safely undo pushed commits
+# Creates a new commit that reverses
+git revert HEAD~3..HEAD</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>

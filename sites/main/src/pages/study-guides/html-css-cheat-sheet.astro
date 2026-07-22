@@ -1,0 +1,172 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="HTML & CSS Cheat Sheet | Free Flexbox, Grid & Responsive Reference"
+  description="Complete HTML and CSS cheat sheet with flexbox, grid, selectors, responsive design, and common patterns. Free reference for web developers."
+>
+  <section class="hero">
+    <h1>HTML &amp; CSS<br><span>Cheat Sheet</span></h1>
+    <p>Flexbox, grid, selectors, responsive design, and common patterns. From basics to advanced front-end.</p>
+  </section>
+
+  <section>
+    <h2>HTML Essentials</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Semantic Elements</h3>
+        <pre><code>&lt;header&gt;   &lt;nav&gt;      &lt;main&gt;
+&lt;article&gt;  &lt;section&gt;  &lt;aside&gt;
+&lt;footer&gt;   &lt;figure&gt;   &lt;figcaption&gt;
+&lt;details&gt;  &lt;summary&gt;  &lt;dialog&gt;</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Forms &amp; Accessibility</h3>
+        <pre><code>&lt;form action="/submit" method="POST"&gt;
+  &lt;label for="email"&gt;Email&lt;/label&gt;
+  &lt;input type="email" id="email"
+         required aria-describedby="hint"&gt;
+  &lt;button type="submit"&gt;Send&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Flexbox</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Container Properties</h3>
+        <pre><code>.container {
+  display: flex;
+  flex-direction: row;    /* row | column */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Item Properties</h3>
+        <pre><code>.item {
+  flex: 1;           /* grow equally */
+  flex: 0 0 200px;   /* fixed width */
+  align-self: flex-end;
+  order: -1;         /* first */
+}
+
+/* Center anything */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>CSS Grid</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Grid Layout</h3>
+        <pre><code>.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto 1fr auto;
+  gap: 1.5rem;
+}
+
+/* Responsive grid */
+auto-grid {
+  grid-template-columns:
+    repeat(auto-fit, minmax(250px, 1fr));
+}</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Spanning &amp; Placement</h3>
+        <pre><code>.span-2 {
+  grid-column: span 2;
+}
+
+.sidebar {
+  grid-column: 1 / 3;
+  grid-row: 1 / -1;
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Selectors &amp; Specificity</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Selector Types</h3>
+        <pre><code>.class { }          /* class */
+#id { }             /* id */
+div &gt; p { }        /* child */
+p ~ p { }           /* sibling */
+a:hover { }         /* pseudo-class */
+::before { }        /* pseudo-element */
+[data-type="x"] { } /* attribute */</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Specificity Hierarchy</h3>
+        <pre><code>/* Inline (1000) */
+style="..."
+
+/* ID (100) */
+#header
+
+/* Class/attr/pseudo (10) */
+.nav-item:hover
+
+/* Element/pseudo (1) */
+div p</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Responsive Design</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Media Queries</h3>
+        <pre><code>/* Mobile first */
+@media (min-width: 768px) {
+  .sidebar { display: block; }
+}
+@media (min-width: 1024px) {
+  .content { max-width: 900px; }
+}
+
+/* Container queries */
+@container (min-width: 500px) {
+  .card { flex-direction: row; }
+}</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>CSS Variables &amp; Theming</h3>
+        <pre><code>:root {
+  --color-primary: #3b82f6;
+  --spacing: 1rem;
+  --radius: 8px;
+}
+
+.card {
+  background: var(--color-primary);
+  padding: var(--spacing);
+  border-radius: var(--radius);
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Mathematics</title>
+    <link>https://mathematics.wyattau.com</link>
+    <description>Free mathematics study notes and revision guide with worked examples covering algebra, analysis, geometry, and more.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mathematics.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://mathematics.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Mathematics</title>
+      <link>https://mathematics.wyattau.com</link>
+    </image>
+    <item>
+      <title>Groups and Subgroups</title>
+      <link>https://mathematics.wyattau.com/1-abstract-algebra/groups-and-subgroups</link>
+      <description>Definition of groups, examples of common groups, subgroups, subgroup tests, and closure properties with worked exercises.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/1-abstract-algebra/groups-and-subgroups</guid>
+    </item>
+    <item>
+      <title>Normal Subgroups and Quotient Groups</title>
+      <link>https://mathematics.wyattau.com/1-abstract-algebra/normal-subgroups-and-quotient-groups</link>
+      <description>Normal subgroups, coset decomposition, quotient groups, and the first isomorphism theorem with detailed proofs.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/1-abstract-algebra/normal-subgroups-and-quotient-groups</guid>
+    </item>
+    <item>
+      <title>Vector Spaces and Linear Independence</title>
+      <link>https://mathematics.wyattau.com/2-linear-algebra/vector-spaces-and-linear-independence</link>
+      <description>Axioms of vector spaces, spanning sets, linear independence, bases, dimension, and the replacement theorem.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/2-linear-algebra/vector-spaces-and-linear-independence</guid>
+    </item>
+    <item>
+      <title>Eigenvalues and Diagonalisation</title>
+      <link>https://mathematics.wyattau.com/2-linear-algebra/eigenvalues-and-diagonalisation</link>
+      <description>Characteristic polynomial, algebraic and geometric multiplicity, diagonalisation conditions, and applications to matrix powers.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/2-linear-algebra/eigenvalues-and-diagonalisation</guid>
+    </item>
+    <item>
+      <title>Sequences and Limits</title>
+      <link>https://mathematics.wyattau.com/3-real-analysis/sequences-and-limits</link>
+      <description>Convergence of sequences, monotone convergence theorem, Bolzano-Weierstrass theorem, and Cauchy sequences with epsilon-delta proofs.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/3-real-analysis/sequences-and-limits</guid>
+    </item>
+    <item>
+      <title>Continuity and Differentiation</title>
+      <link>https://mathematics.wyattau.com/3-real-analysis/continuity-and-differentiation</link>
+      <description>Continuous functions on metric spaces, differentiability, the mean value theorem, and L'Hopital's rule with rigorous proofs.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/3-real-analysis/continuity-and-differentiation</guid>
+    </item>
+    <item>
+      <title>Partial Derivatives and the Chain Rule</title>
+      <link>https://mathematics.wyattau.com/4-multivariable-calculus/partial-derivatives-and-the-chain-rule</link>
+      <description>Partial derivatives, directional derivatives, gradient vectors, and the multivariable chain rule with worked examples.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/4-multivariable-calculus/partial-derivatives-and-the-chain-rule</guid>
+    </item>
+    <item>
+      <title>First Order Differential Equations</title>
+      <link>https://mathematics.wyattau.com/5-ordinary-differential-equations/first-order-differential-equations</link>
+      <description>Separable equations, exact equations, integrating factors, and existence and uniqueness theorems for first order ODEs.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/5-ordinary-differential-equations/first-order-differential-equations</guid>
+    </item>
+    <item>
+      <title>Complex Numbers and Functions</title>
+      <link>https://mathematics.wyattau.com/6-complex-analysis/complex-numbers-and-functions</link>
+      <description>Complex plane, modulus and argument, Euler's formula, elementary complex functions, and the Cauchy-Riemann equations.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/6-complex-analysis/complex-numbers-and-functions</guid>
+    </item>
+    <item>
+      <title>Modular Arithmetic and Congruences</title>
+      <link>https://mathematics.wyattau.com/7-number-theory/modular-arithmetic-and-congruences</link>
+      <description>Definition of congruence, Chinese remainder theorem, Fermat's little theorem, Euler's theorem, and applications to cryptography.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/7-number-theory/modular-arithmetic-and-congruences</guid>
+    </item>
+    <item>
+      <title>Probability Spaces and Random Variables</title>
+      <link>https://mathematics.wyattau.com/8-probability-and-statistics/probability-spaces-and-random-variables</link>
+      <description>Axioms of probability, sigma-algebras, measurable spaces, discrete and continuous random variables, and probability mass and density functions.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/8-probability-and-statistics/probability-spaces-and-random-variables</guid>
+    </item>
+    <item>
+      <title>Topological Spaces and Continuity</title>
+      <link>https://mathematics.wyattau.com/9-topology/topological-spaces-and-continuity</link>
+      <description>Open sets, topologies generated by bases, continuous functions between topological spaces, homeomorphisms, and Hausdorff spaces.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/9-topology/topological-spaces-and-continuity</guid>
+    </item>
+    <item>
+      <title>Lebesgue Measure and Integration</title>
+      <link>https://mathematics.wyattau.com/10-measure-theory/lebesgue-measure-and-integration</link>
+      <description>Lebesgue outer measure, measurable sets, the Lebesgue integral, convergence theorems, and comparison with Riemann integration.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/10-measure-theory/lebesgue-measure-and-integration</guid>
+    </item>
+    <item>
+      <title>Normed Vector Spaces and Banach Spaces</title>
+      <link>https://mathematics.wyattau.com/11-functional-analysis/normed-vector-spaces-and-banach-spaces</link>
+      <description>Norms, equivalence of norms, Banach spaces, bounded linear operators, the open mapping theorem, and the Hahn-Banach theorem.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/11-functional-analysis/normed-vector-spaces-and-banach-spaces</guid>
+    </item>
+    <item>
+      <title>Manifolds and Tangent Spaces</title>
+      <link>https://mathematics.wyattau.com/12-differential-geometry/manifolds-and-tangent-spaces</link>
+      <description>Smooth manifolds, charts and atlases, tangent vectors, the tangent bundle, and smooth maps between manifolds with worked examples.</description>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com/12-differential-geometry/manifolds-and-tangent-spaces</guid>
+    </item>
+    <item>
+      <title>Mathematics — Complete Guide</title>
+      <link>https://mathematics.wyattau.com</link>
+      <description>Free mathematics study notes covering abstract algebra, linear algebra, real analysis, multivariable calculus, ODEs, complex analysis, number theory, probability, topology, measure theory, functional analysis, and differential geometry.</description>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://mathematics.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

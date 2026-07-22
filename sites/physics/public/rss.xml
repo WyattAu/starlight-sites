@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Physics</title>
+    <link>https://physics.wyattau.com</link>
+    <description>Free physics study notes and revision guide with worked examples covering classical mechanics, electromagnetism, quantum mechanics, and more.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://physics.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://physics.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Physics</title>
+      <link>https://physics.wyattau.com</link>
+    </image>
+    <item>
+      <title>Newton's Laws of Motion</title>
+      <link>https://physics.wyattau.com/1-classical-mechanics/newtons-laws-of-motion</link>
+      <description>Three laws of motion, inertial frames, free body diagrams, friction, and applications to everyday mechanics problems.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com/1-classical-mechanics/newtons-laws-of-motion</guid>
+    </item>
+    <item>
+      <title>Energy, Momentum, and Conservation Laws</title>
+      <link>https://physics.wyattau.com/1-classical-mechanics/energy-momentum-and-conservation-laws</link>
+      <description>Kinetic and potential energy, work-energy theorem, linear and angular momentum, and conservation principles with worked examples.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com/1-classical-mechanics/energy-momentum-and-conservation-laws</guid>
+    </item>
+    <item>
+      <title>Rotational Dynamics</title>
+      <link>https://physics.wyattau.com/1-classical-mechanics/rotational-dynamics</link>
+      <description>Moment of inertia, torque, angular momentum, rolling motion, and the parallel axis theorem with detailed derivations.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com/1-classical-mechanics/rotational-dynamics</guid>
+    </item>
+    <item>
+      <title>Thermodynamic Laws</title>
+      <link>https://physics.wyattau.com/2-thermal-physics/thermodynamic-laws</link>
+      <description>Zeroth through third laws of thermodynamics, heat engines, entropy, and the Carnot cycle with quantitative problem solving.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com/2-thermal-physics/thermodynamic-laws</guid>
+    </item>
+    <item>
+      <title>Maxwell's Equations</title>
+      <link>https://physics.wyattau.com/3-electromagnetism/maxwells-equations</link>
+      <description>Gauss's law, Faraday's law, Ampere-Maxwell law, and the displacement current. Integral and differential forms with applications.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com/3-electromagnetism/maxwells-equations</guid>
+    </item>
+    <item>
+      <title>Electric Fields and Potentials</title>
+      <link>https://physics.wyattau.com/3-electromagnetism/electric-fields-and-potentials</link>
+      <description>Coulomb's law, electric field lines, electric potential energy, and voltage in continuous charge distributions with worked exercises.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com/3-electromagnetism/electric-fields-and-potentials</guid>
+    </item>
+    <item>
+      <title>Wave Optics and Interference</title>
+      <link>https://physics.wyattau.com/4-optics-and-waves/wave-optics-and-interference</link>
+      <description>Young's double slit experiment, diffraction gratings, thin film interference, and the Michelson interferometer with derivations.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com/4-optics-and-waves/wave-optics-and-interference</guid>
+    </item>
+    <item>
+      <title>The Schrodinger Equation</title>
+      <link>https://physics.wyattau.com/5-quantum-mechanics/the-schrodinger-equation</link>
+      <description>Time-dependent and time-independent Schrodinger equation, wave functions, probability interpretation, and the particle in a box.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com/5-quantum-mechanics/the-schrodinger-equation</guid>
+    </item>
+    <item>
+      <title>Quantum Harmonic Oscillator</title>
+      <link>https://physics.wyattau.com/5-quantum-mechanics/quantum-harmonic-oscillator</link>
+      <description>Algebraic solution using ladder operators, energy eigenvalues, wave functions, and the correspondence principle with worked solutions.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com/5-quantum-mechanics/quantum-harmonic-oscillator</guid>
+    </item>
+    <item>
+      <title>Crystal Structure and Bragg Diffraction</title>
+      <link>https://physics.wyattau.com/6-solid-state-physics/crystal-structure-and-bragg-diffraction</link>
+      <description>Crystal lattices, Miller indices, Bragg's law, X-ray diffraction, and reciprocal lattice vectors with practical examples.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com/6-solid-state-physics/crystal-structure-and-bragg-diffraction</guid>
+    </item>
+    <item>
+      <title>Band Theory of Solids</title>
+      <link>https://physics.wyattau.com/6-solid-state-physics/band-theory-of-solids</link>
+      <description>Energy bands, Fermi level, metals semiconductors and insulators, effective mass, and Bloch's theorem for electrons in crystals.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com/6-solid-state-physics/band-theory-of-solids</guid>
+    </item>
+    <item>
+      <title>The Standard Model of Particle Physics</title>
+      <link>https://physics.wyattau.com/7-particle-physics-and-cosmology/the-standard-model-of-particle-physics</link>
+      <description>Quarks, leptons, gauge bosons, the Higgs mechanism, Feynman diagrams, and the four fundamental forces of nature.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com/7-particle-physics-and-cosmology/the-standard-model-of-particle-physics</guid>
+    </item>
+    <item>
+      <title>Cosmology and the Expanding Universe</title>
+      <link>https://physics.wyattau.com/7-particle-physics-and-cosmology/cosmology-and-the-expanding-universe</link>
+      <description>Friedmann equations, dark matter, dark energy, the cosmic microwave background, and the Big Bang model with observational evidence.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com/7-particle-physics-and-cosmology/cosmology-and-the-expanding-universe</guid>
+    </item>
+    <item>
+      <title>Physics — Complete Guide</title>
+      <link>https://physics.wyattau.com</link>
+      <description>Free physics study notes covering classical mechanics, thermal physics, electromagnetism, optics and waves, quantum mechanics, solid state physics, and particle physics and cosmology.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://physics.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

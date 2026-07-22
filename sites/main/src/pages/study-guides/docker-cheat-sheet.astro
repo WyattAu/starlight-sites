@@ -1,0 +1,166 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Docker Cheat Sheet | Free Containers, Compose & Networking Reference"
+  description="Complete Docker cheat sheet with containers, compose, networking, volumes, and multi-stage builds. Free reference for DevOps engineers."
+>
+  <section class="hero">
+    <h1>Docker<br><span>Cheat Sheet</span></h1>
+    <p>Containers, compose, networking, volumes, and multi-stage builds. From basics to production Docker.</p>
+  </section>
+
+  <section>
+    <h2>Container Basics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Run &amp; Manage</h3>
+        <pre><code>docker run -d -p 8080:80 nginx
+docker ps                         # running
+docker ps -a                      # all
+docker stop container_id
+docker rm container_id
+docker exec -it container /bin/sh</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Images</h3>
+        <pre><code>docker build -t myapp:1.0 .
+docker images                     # list
+docker rmi myapp:1.0
+docker tag myapp:1.0 repo/myapp:latest
+docker push repo/myapp:latest
+docker pull repo/myapp:latest</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Dockerfile Best Practices</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Multi-Stage Build</h3>
+        <pre><code>FROM node:20 AS builder
+WORKDIR /app
+COPY package*.json .
+RUN npm ci
+COPY . .
+RUN npm run build
+
+FROM node:20-slim
+WORKDIR /app
+COPY --from=builder /app/dist ./dist
+CMD ["node", "dist/server.js"]</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>.dockerignore</h3>
+        <pre><code>node_modules
+.git
+*.md
+.env
+docker-compose*.yml
+Dockerfile
+.dockerignore
+dist
+coverage</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Volumes &amp; Persistence</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Volume Commands</h3>
+        <pre><code># Named volume
+docker volume create mydata
+docker run -v mydata:/app/data nginx
+
+# Bind mount
+docker run -v $(pwd)/src:/app/src nginx
+
+# Read-only
+docker run -v mydata:/data:ro nginx
+
+docker volume ls
+docker volume rm mydata</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Docker Compose Volumes</h3>
+        <pre><code>services:
+  db:
+    image: postgres:16
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  pgdata:</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Networking</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Port Mapping</h3>
+        <pre><code>docker run -p 8080:80 nginx
+docker run -p 127.0.0.1:3000:3000 app
+docker run --expose 8080 app
+
+docker port container_id
+docker inspect container_id | grep -A5 IPAddress</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Container Networking</h3>
+        <pre><code>docker network create mynet
+docker network ls
+docker run --network mynet --name api app
+docker run --network mynet db
+
+# Containers communicate by name
+# ping api from db container</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Docker Compose</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Compose File</h3>
+        <pre><code>services:
+  web:
+    build: .
+    ports: ["3000:3000"]
+    environment:
+      - DATABASE_URL=postgres://db:5432/app
+    depends_on:
+      - db
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: app
+    volumes:
+      - pgdata:/var/lib/postgresql/data</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Compose Commands</h3>
+        <pre><code>docker compose up -d
+docker compose down
+docker compose ps
+docker compose logs -f web
+docker compose exec web sh
+docker compose build --no-cache
+docker compose pull</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>

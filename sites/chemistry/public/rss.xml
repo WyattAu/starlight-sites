@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Chemistry</title>
+    <link>https://chemistry.wyattau.com</link>
+    <description>Free chemistry study notes and revision guide with worked examples covering physical, organic, and inorganic chemistry.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://chemistry.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://chemistry.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Chemistry</title>
+      <link>https://chemistry.wyattau.com</link>
+    </image>
+    <item>
+      <title>Atomic Structure and Electron Configuration</title>
+      <link>https://chemistry.wyattau.com/1-physical-chemistry/atomic-structure-and-electron-configuration</link>
+      <description>Quantum numbers, orbital shapes, Aufbau principle, Hund's rule, Pauli exclusion, and periodic trends in atomic properties.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://chemistry.wyattau.com/1-physical-chemistry/atomic-structure-and-electron-configuration</guid>
+    </item>
+    <item>
+      <title>Chemical Bonding and Molecular Geometry</title>
+      <link>https://chemistry.wyattau.com/1-physical-chemistry/chemical-bonding-and-molecular-geometry</link>
+      <description>Valence bond theory, hybridisation, VSEPR model, molecular orbital theory, and predicting molecular shapes with worked examples.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://chemistry.wyattau.com/1-physical-chemistry/chemical-bonding-and-molecular-geometry</guid>
+    </item>
+    <item>
+      <title>Thermochemistry and Hess's Law</title>
+      <link>https://chemistry.wyattau.com/1-physical-chemistry/thermochemistry-and-hesss-law</link>
+      <description>Enthalpy of reaction, bond energies, calorimetry, Hess's cycle, and standard enthalpies of formation and combustion.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://chemistry.wyattau.com/1-physical-chemistry/thermochemistry-and-hesss-law</guid>
+    </item>
+    <item>
+      <title>Kinetics and Reaction Rates</title>
+      <link>https://chemistry.wyattau.com/1-physical-chemistry/kinetics-and-reaction-rates</link>
+      <description>Rate laws, order of reaction, Arrhenius equation, activation energy, and catalysis with worked calculations and graphs.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://chemistry.wyattau.com/1-physical-chemistry/kinetics-and-reaction-rates</guid>
+    </item>
+    <item>
+      <title>Equilibrium and Le Chatelier's Principle</title>
+      <link>https://chemistry.wyattau.com/1-physical-chemistry/equilibrium-and-le-chateliers-principle</link>
+      <description>Equilibrium constants, reaction quotients, Le Chatelier's principle, and applying equilibrium to industrial processes like the Haber process.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://chemistry.wyattau.com/1-physical-chemistry/equilibrium-and-le-chateliers-principle</guid>
+    </item>
+    <item>
+      <title>Alkanes and Cycloalkanes</title>
+      <link>https://chemistry.wyattau.com/2-organic-chemistry/alkanes-and-cycloalkanes</link>
+      <description>Nomenclature, conformations, stereochemistry, and free radical substitution reactions of saturated hydrocarbons with mechanisms.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://chemistry.wyattau.com/2-organic-chemistry/alkanes-and-cycloalkanes</guid>
+    </item>
+    <item>
+      <title>Alkenes and Addition Reactions</title>
+      <link>https://chemistry.wyattau.com/2-organic-chemistry/alkenes-and-addition-reactions</link>
+      <description>Electrophilic addition, Markovnikov's rule, hydrohalogenation, hydration, and polymerisation of alkenes with detailed mechanisms.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://chemistry.wyattau.com/2-organic-chemistry/alkenes-and-addition-reactions</guid>
+    </item>
+    <item>
+      <title>Alcohols, Ethers, and Epoxides</title>
+      <link>https://chemistry.wyattau.com/2-organic-chemistry/alcohols-ethers-and-epoxides</link>
+      <description>Nomenclature, physical properties, synthesis of alcohols, Williamson ether synthesis, and acid-catalysed reactions of epoxides.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://chemistry.wyattau.com/2-organic-chemistry/alcohols-ethers-and-epoxides</guid>
+    </item>
+    <item>
+      <title>Carbonyl Compounds</title>
+      <link>https://chemistry.wyattau.com/2-organic-chemistry/carbonyl-compounds</link>
+      <description>Aldehydes and ketones, nucleophilic addition, reduction, oxidation, and condensation reactions with Grignard reagents and aldol chemistry.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://chemistry.wyattau.com/2-organic-chemistry/carbonyl-compounds</guid>
+    </item>
+    <item>
+      <title>Carboxylic Acids and Derivatives</title>
+      <link>https://chemistry.wyattau.com/2-organic-chemistry/carboxylic-acids-and-derivatives</link>
+      <description>Nucleophilic acyl substitution, esterification, amide formation, and the reactivity series of carboxylic acid derivatives.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://chemistry.wyattau.com/2-organic-chemistry/carboxylic-acids-and-derivatives</guid>
+    </item>
+    <item>
+      <title>Transition Metal Complexes</title>
+      <link>https://chemistry.wyattau.com/3-inorganic-chemistry/transition-metal-complexes</link>
+      <description>Ligand types, coordination numbers, crystal field theory, colour, magnetism, and isomerism in transition metal complexes.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://chemistry.wyattau.com/3-inorganic-chemistry/transition-metal-complexes</guid>
+    </item>
+    <item>
+      <title>Acids, Bases, and Buffer Solutions</title>
+      <link>https://chemistry.wyattau.com/1-physical-chemistry/acids-bases-and-buffer-solutions</link>
+      <description>pH scale, weak acid and base equilibria, buffer calculations, titration curves, and the Henderson-Hasselbalch equation.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://chemistry.wyattau.com/1-physical-chemistry/acids-bases-and-buffer-solutions</guid>
+    </item>
+    <item>
+      <title>Electrochemistry and Redox Reactions</title>
+      <link>https://chemistry.wyattau.com/1-physical-chemistry/electrochemistry-and-redox-reactions</link>
+      <description>Oxidation states, standard electrode potentials, Nernst equation, galvanic and electrolytic cells, and applications to corrosion prevention.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://chemistry.wyattau.com/1-physical-chemistry/electrochemistry-and-redox-reactions</guid>
+    </item>
+    <item>
+      <title>Chemistry — Complete Guide</title>
+      <link>https://chemistry.wyattau.com</link>
+      <description>Free chemistry study notes covering physical chemistry, organic chemistry, and inorganic chemistry with worked examples and revision questions.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://chemistry.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

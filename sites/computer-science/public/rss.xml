@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wyatt's Notes — Computer Science</title>
+    <link>https://computer-science.wyattau.com</link>
+    <description>Undergraduate computer science theory and algorithms notes.</description>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://computer-science.wyattau.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <image>
+      <url>https://computer-science.wyattau.com/favicon.svg</url>
+      <title>Wyatt's Notes — Computer Science</title>
+      <link>https://computer-science.wyattau.com</link>
+    </image>
+    <item>
+      <title>Big-O Notation and Complexity Analysis</title>
+      <link>https://computer-science.wyattau.com/1-algorithms/big-o-notation-and-complexity-analysis</link>
+      <description>Time and space complexity, Big-O, Big-Omega, Big-Theta, amortised analysis, and solving recurrences with the Master theorem.</description>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com/1-algorithms/big-o-notation-and-complexity-analysis</guid>
+    </item>
+    <item>
+      <title>Graph Algorithms</title>
+      <link>https://computer-science.wyattau.com/1-algorithms/graph-algorithms</link>
+      <description>BFS, DFS, shortest path algorithms (Dijkstra, Bellman-Ford), minimum spanning trees (Prim, Kruskal), and topological sorting.</description>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com/1-algorithms/graph-algorithms</guid>
+    </item>
+    <item>
+      <title>Propositional and Predicate Logic</title>
+      <link>https://computer-science.wyattau.com/1-discrete-mathematics/propositional-and-predicate-logic</link>
+      <description>Logical connectives, truth tables, normal forms, quantifiers, logical equivalence, and applications to computer science verification.</description>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com/1-discrete-mathematics/propositional-and-predicate-logic</guid>
+    </item>
+    <item>
+      <title>Hash Tables and Hashing</title>
+      <link>https://computer-science.wyattau.com/2-algorithms-and-data-structures/hash-tables-and-hashing</link>
+      <description>Hash functions, collision resolution (chaining, open addressing), load factors, and amortised O(1) operations with worked examples.</description>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com/2-algorithms-and-data-structures/hash-tables-and-hashing</guid>
+    </item>
+    <item>
+      <title>Binary Search Trees and Red-Black Trees</title>
+      <link>https://computer-science.wyattau.com/2-algorithms-and-data-structures/binary-search-trees-and-red-black-trees</link>
+      <description>BST operations, balanced trees, red-black tree properties, rotations, and comparison with AVL trees and skip lists.</description>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com/2-algorithms-and-data-structures/binary-search-trees-and-red-black-trees</guid>
+    </item>
+    <item>
+      <title>The OSI Model and Network Layers</title>
+      <link>https://computer-science.wyattau.com/3-computer-networks/the-osi-model-and-network-layers</link>
+      <description>Seven layers of the OSI model, encapsulation, protocol data units, and the TCP/IP stack with real-world protocol mappings.</description>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com/3-computer-networks/the-osi-model-and-network-layers</guid>
+    </item>
+    <item>
+      <title>Formal Languages and Automata</title>
+      <link>https://computer-science.wyattau.com/3-theory/formal-languages-and-automata</link>
+      <description>Regular expressions, finite automata, context-free grammars, pushdown automata, and the Chomsky hierarchy with examples.</description>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com/3-theory/formal-languages-and-automata</guid>
+    </item>
+    <item>
+      <title>Relational Databases and SQL</title>
+      <link>https://computer-science.wyattau.com/4-databases/relational-databases-and-sql</link>
+      <description>Relational model, normalisation (1NF-3NF), SQL queries, joins, indexing, and transaction isolation levels with practical examples.</description>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com/4-databases/relational-databases-and-sql</guid>
+    </item>
+    <item>
+      <title>Process and Thread Management</title>
+      <link>https://computer-science.wyattau.com/5-operating-systems/process-and-thread-management</link>
+      <description>Process states, context switching, threads vs processes, scheduling algorithms, and synchronisation primitives like mutexes and semaphores.</description>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com/5-operating-systems/process-and-thread-management</guid>
+    </item>
+    <item>
+      <title>Computability and the Halting Problem</title>
+      <link>https://computer-science.wyattau.com/6-theory-of-computation/computability-and-the-halting-problem</link>
+      <description>Turing machines, decidable and recognisable languages, reductions, and the undecidability of the Halting Problem with proof outline.</description>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com/6-theory-of-computation/computability-and-the-halting-problem</guid>
+    </item>
+    <item>
+      <title>Memory Management and Virtual Memory</title>
+      <link>https://computer-science.wyattau.com/5-operating-systems/memory-management-and-virtual-memory</link>
+      <description>Physical and virtual memory, paging, segmentation, page replacement algorithms, and TLB with worked calculations.</description>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com/5-operating-systems/memory-management-and-virtual-memory</guid>
+    </item>
+    <item>
+      <title>Dynamic Programming</title>
+      <link>https://computer-science.wyattau.com/1-algorithms/dynamic-programming</link>
+      <description>Optimal substructure, memoisation, tabulation, and classic problems including knapsack, longest common subsequence, and matrix chain multiplication.</description>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com/1-algorithms/dynamic-programming</guid>
+    </item>
+    <item>
+      <title>NP-Completeness and Reductions</title>
+      <link>https://computer-science.wyattau.com/6-theory-of-computation/np-completeness-and-reductions</link>
+      <description>Complexity classes P, NP, and NP-complete, polynomial-time reductions, and classic NP-complete problems like SAT and 3-COLOR.</description>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com/6-theory-of-computation/np-completeness-and-reductions</guid>
+    </item>
+    <item>
+      <title>Computer Science — Complete Guide</title>
+      <link>https://computer-science.wyattau.com</link>
+      <description>Undergraduate computer science notes covering algorithms, discrete mathematics, data structures, networks, theory, databases, operating systems, and computability.</description>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://computer-science.wyattau.com</guid>
+    </item>
+  </channel>
+</rss>

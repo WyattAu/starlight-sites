@@ -3,31 +3,33 @@ import Layout from '../../layouts/Layout.astro'
 ---
 
 <Layout 
-  title="SQL Cheat Sheet | Free Queries, Joins, Indexes"
-  description="Complete SQL cheat sheet with queries, joins, indexes, and common patterns. Free download for database developers and analysts."
+  title="SQL Cheat Sheet | Free Joins, Aggregations & Window Functions Reference"
+  description="Complete SQL cheat sheet with joins, aggregations, window functions, indexing, and common query patterns. Free reference for database developers."
 >
   <section class="hero">
     <h1>SQL<br><span>Cheat Sheet</span></h1>
-    <p>Queries, joins, indexes, and common patterns. From basics to advanced SQL.</p>
+    <p>Joins, aggregations, window functions, indexing, and common query patterns. From basics to advanced SQL.</p>
   </section>
 
   <section>
     <h2>Basic Queries</h2>
     <div class="formula-grid">
       <div class="formula-card">
-        <h3>SELECT</h3>
-        <pre><code>SELECT column1, column2
-FROM table
-WHERE condition
-ORDER BY column
-LIMIT 10;</code></pre>
+        <h3>SELECT &amp; WHERE</h3>
+        <pre><code>SELECT name, age, email
+FROM users
+WHERE age &gt;= 18
+  AND status = 'active'
+ORDER BY name ASC
+LIMIT 10 OFFSET 20;</code></pre>
       </div>
       <div class="formula-card">
-        <h3>Aggregation</h3>
-        <pre><code>SELECT COUNT(*), AVG(price), SUM(quantity)
-FROM orders
-GROUP BY customer_id
-HAVING COUNT(*) > 5;</code></pre>
+        <h3>Filtering &amp; Sorting</h3>
+        <pre><code>SELECT * FROM orders
+WHERE created_at &gt; '2024-01-01'
+  AND total BETWEEN 10 AND 100
+  AND status IN ('pending', 'shipped')
+ORDER BY created_at DESC;</code></pre>
       </div>
     </div>
   </section>
@@ -36,63 +38,108 @@ HAVING COUNT(*) > 5;</code></pre>
     <h2>Joins</h2>
     <div class="formula-grid">
       <div class="formula-card">
-        <h3>INNER JOIN</h3>
-        <pre><code>SELECT a.name, b.order_date
-FROM customers a
-INNER JOIN orders b
-ON a.id = b.customer_id;</code></pre>
+        <h3>Inner &amp; Left Join</h3>
+        <pre><code>-- INNER JOIN: only matching rows
+SELECT u.name, o.total
+FROM users u
+INNER JOIN orders o ON u.id = o.user_id;
+
+-- LEFT JOIN: all from left table
+SELECT u.name, COALESCE(SUM(o.total), 0)
+FROM users u
+LEFT JOIN orders o ON u.id = o.user_id
+GROUP BY u.id;</code></pre>
       </div>
       <div class="formula-card">
-        <h3>LEFT/RIGHT JOIN</h3>
-        <pre><code>SELECT a.name, b.order_date
-FROM customers a
-LEFT JOIN orders b
-ON a.id = b.customer_id;</code></pre>
+        <h3>Self &amp; Cross Join</h3>
+        <pre><code>-- Self join
+SELECT a.name, b.name AS manager
+FROM employees a
+JOIN employees b ON a.manager_id = b.id;
+
+-- Cross join (all combinations)
+SELECT s.name, p.name
+FROM students s
+CROSS JOIN projects p;</code></pre>
       </div>
     </div>
   </section>
 
   <section>
-    <h2>Subqueries</h2>
+    <h2>Aggregations &amp; Grouping</h2>
     <div class="formula-grid">
       <div class="formula-card">
-        <h3>IN Subquery</h3>
-        <pre><code>SELECT name
-FROM customers
-WHERE id IN (
-  SELECT customer_id
-  FROM orders
-  WHERE total > 100
-);</code></pre>
+        <h3>GROUP BY &amp; HAVING</h3>
+        <pre><code>SELECT
+    department,
+    COUNT(*) AS emp_count,
+    AVG(salary) AS avg_salary
+FROM employees
+GROUP BY department
+HAVING AVG(salary) &gt; 50000
+ORDER BY avg_salary DESC;</code></pre>
       </div>
       <div class="formula-card">
-        <h3>EXISTS</h3>
-        <pre><code>SELECT name
-FROM customers c
-WHERE EXISTS (
-  SELECT 1
-  FROM orders o
-  WHERE o.customer_id = c.id
-);</code></pre>
+        <h3>Aggregate Functions</h3>
+        <pre><code>COUNT(*), COUNT(DISTINCT col)
+SUM(col), AVG(col)
+MIN(col), MAX(col)
+GROUP_CONCAT(col SEPARATOR ', ')</code></pre>
       </div>
     </div>
   </section>
 
   <section>
-    <h2>Indexes</h2>
+    <h2>Window Functions</h2>
     <div class="formula-grid">
       <div class="formula-card">
-        <h3>Create Index</h3>
-        <pre><code>CREATE INDEX idx_name
-ON customers (name);
-
-CREATE UNIQUE INDEX idx_email
-ON customers (email);</code></pre>
+        <h3>Ranking &amp; Running Totals</h3>
+        <pre><code>SELECT
+    name, salary, department,
+    RANK() OVER (
+        PARTITION BY department
+        ORDER BY salary DESC
+    ) AS dept_rank,
+    SUM(salary) OVER (
+        ORDER BY hire_date
+    ) AS running_total
+FROM employees;</code></pre>
       </div>
       <div class="formula-card">
-        <h3>Composite Index</h3>
-        <pre><code>CREATE INDEX idx_name_email
-ON customers (name, email);</code></pre>
+        <h3>Lag &amp; Lead</h3>
+        <pre><code>SELECT
+    month, revenue,
+    LAG(revenue, 1) OVER (ORDER BY month) AS prev,
+    revenue - LAG(revenue, 1) OVER (ORDER BY month)
+        AS growth
+FROM monthly_sales;</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Indexing &amp; Performance</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Index Types</h3>
+        <pre><code>CREATE INDEX idx_users_email
+    ON users (email);
+
+CREATE INDEX idx_orders_user_date
+    ON orders (user_id, created_at);
+
+-- Partial index
+CREATE INDEX idx_active
+    ON users (email) WHERE status = 'active';</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>EXPLAIN &amp; Optimization</h3>
+        <pre><code>EXPLAIN ANALYZE
+SELECT * FROM users WHERE email = 'a@b.com';
+
+-- Avoid SELECT *
+-- Use covering indexes
+-- Filter indexed columns early</code></pre>
       </div>
     </div>
   </section>

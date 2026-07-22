@@ -3,94 +3,143 @@ import Layout from '../../layouts/Layout.astro'
 ---
 
 <Layout 
-  title="Java Cheat Sheet | Free Syntax, Collections, Streams"
-  description="Complete Java cheat sheet with syntax, collections, and streams. Free download for Java developers."
+  title="Java Cheat Sheet | Free Classes, Streams & Concurrency Reference"
+  description="Complete Java cheat sheet with classes, interfaces, streams, collections, and concurrency patterns. Free reference for Java developers."
 >
   <section class="hero">
     <h1>Java<br><span>Cheat Sheet</span></h1>
-    <p>Syntax, collections, and streams. From basics to advanced Java features.</p>
+    <p>Classes, interfaces, streams, collections, and concurrency patterns. From basics to advanced Java.</p>
   </section>
 
   <section>
-    <h2>Basic Syntax</h2>
+    <h2>Variables & Types</h2>
     <div class="formula-grid">
       <div class="formula-card">
-        <h3>Data Types</h3>
+        <h3>Primitive Types</h3>
         <pre><code>int x = 42;
 double y = 3.14;
 String s = "hello";
 boolean b = true;
-char c = 'A';</code></pre>
+long l = 100L;
+float f = 2.5f;</code></pre>
       </div>
       <div class="formula-card">
-        <h3>Control Flow</h3>
-        <pre><code>if (x > 0) {
-    // positive
-} else if (x == 0) {
-    // zero
-} else {
-    // negative
-}
+        <h3>Arrays &amp; Collections</h3>
+        <pre><code>int[] nums = {1, 2, 3};
+List&lt;String&gt; list = new ArrayList&lt;&gt;();
+Map&lt;String, Integer&gt; map = new HashMap&lt;&gt;();
+Set&lt;Integer&gt; set = new HashSet&lt;&gt;();</code></pre>
+      </div>
+    </div>
+  </section>
 
-for (int i = 0; i < 10; i++) {
-    // loop
-}
+  <section>
+    <h2>Classes &amp; Interfaces</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Class Definition</h3>
+        <pre><code>public class User {
+    private String name;
+    private int age;
 
-while (x > 0) {
-    x--;
+    public User(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
 }</code></pre>
       </div>
-    </div>
-  </section>
+      <div class="formula-card">
+        <h3>Interfaces &amp; Records</h3>
+        <pre><code>interface Drawable {
+    void draw();
+    default void hide() { }
+}
 
-  <section>
-    <h2>Collections</h2>
-    <div class="formula-grid">
-      <div class="formula-card">
-        <h3>List</h3>
-        <pre><code>List&lt;String&gt; list = new ArrayList&lt;&gt;();
-list.add("item");
-list.get(0);
-list.remove("item");
-list.size();</code></pre>
-      </div>
-      <div class="formula-card">
-        <h3>Map</h3>
-        <pre><code>Map&lt;String, Integer&gt; map = new HashMap&lt;&gt;();
-map.put("key", 1);
-map.get("key");
-map.containsKey("key");
-map.values();</code></pre>
-      </div>
-      <div class="formula-card">
-        <h3>Set</h3>
-        <pre><code>Set&lt;String&gt; set = new HashSet&lt;&gt;();
-set.add("item");
-set.contains("item");
-set.remove("item");
-set.size();</code></pre>
+record Point(int x, int y) {}
+
+// Sealed interfaces
+sealed interface Shape
+    permits Circle, Square {}</code></pre>
       </div>
     </div>
   </section>
 
   <section>
-    <h2>Streams</h2>
+    <h2>Lambdas &amp; Streams</h2>
     <div class="formula-grid">
       <div class="formula-card">
-        <h3>Stream Operations</h3>
-        <pre><code>list.stream()
-    .filter(x -> x > 0)
-    .map(x -> x * 2)
+        <h3>Lambda Expressions</h3>
+        <pre><code>// Lambda syntax
+Runnable r = () -> System.out.println("hi");
+Comparator&lt;Integer&gt; c = (a, b) -> a - b;
+
+// Method references
+list.forEach(System.out::println);
+list.stream().map(String::toUpperCase);</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Stream API</h3>
+        <pre><code>List&lt;String&gt; result = names.stream()
+    .filter(n -> n.length() > 3)
+    .map(String::toUpperCase)
     .sorted()
-    .collect(Collectors.toList());</code></pre>
+    .collect(Collectors.toList());
+
+int sum = nums.stream()
+    .mapToInt(Integer::intValue)
+    .sum();</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Collections &amp; Common Patterns</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Map Operations</h3>
+        <pre><code>Map&lt;String, Integer&gt; map = new HashMap&lt;&gt;();
+map.put("key", 42);
+int val = map.getOrDefault("missing", 0);
+
+map.computeIfAbsent("k", k -> new ArrayList&lt;&gt;());
+map.merge("key", 1, Integer::sum);</code></pre>
       </div>
       <div class="formula-card">
-        <h3>Collectors</h3>
-        <pre><code>Collectors.toList()
-Collectors.toSet()
-Collectors.toMap()
-Collectors.groupingBy()
-Collectors.joining(", ")</code></pre>
+        <h3>Optional &amp; Null Safety</h3>
+        <pre><code>Optional&lt;String&gt; opt = Optional.ofNullable(name);
+String val = opt.orElse("default");
+String mapped = opt
+    .map(String::toUpperCase)
+    .orElse("N/A");</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Concurrency</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Threads &amp; Executors</h3>
+        <pre><code>ExecutorService exec =
+    Executors.newFixedThreadPool(4);
+exec.submit(() -> doWork());
+exec.shutdown();
+exec.awaitTermination(10, SECONDS);</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Virtual Threads (Java 21+)</h3>
+        <pre><code>Thread.startVirtualThread(() -> {
+    // runs on virtual thread
+});
+
+try (var exec =
+    Executors.newVirtualThreadPerTaskExecutor()) {
+    exec.submit(() -> doWork());
+}</code></pre>
       </div>
     </div>
   </section>
