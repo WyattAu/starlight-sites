@@ -1,0 +1,82 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Electromagnetism Cheat Sheet | Free Maxwell's Equations & Applications"
+  description="Complete electromagnetism cheat sheet with Maxwell's equations and applications. Free download for physics and engineering students."
+>
+  <section class="hero">
+    <h1>Electromagnetism<br><span>Cheat Sheet</span></h1>
+    <p>Maxwell's equations and applications. From electrostatics to electromagnetic waves.</p>
+  </section>
+
+  <section>
+    <h2>Maxwell's Equations</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Gauss's Law (Electric)</h3>
+        <pre><code>∮ E · dA = Q/ε₀
+
+Electric flux through closed surface equals charge enclosed divided by permittivity.</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Gauss's Law (Magnetic)</h3>
+        <pre><code>∮ B · dA = 0
+
+No magnetic monopoles exist.</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Faraday's Law</h3>
+        <pre><code>∮ E · dl = -dΦ_B/dt
+
+Changing magnetic field induces electric field.</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Ampere-Maxwell Law</h3>
+        <pre><code>∮ B · dl = μ₀I + μ₀ε₀ dΦ_E/dt
+
+Magnetic field from current and changing electric field.</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Electric Fields</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Coulomb's Law</h3>
+        <pre><code>F = kQq/r²
+k = 1/(4πε₀) = 8.99 × 10⁹</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Electric Field</h3>
+        <pre><code>E = F/q = kQ/r²
+V = Ed (uniform field)
+C = Q/V = ε₀A/d</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Magnetic Fields</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Force on Current</h3>
+        <pre><code>F = BIL sin θ
+F = Bqv sin θ</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Electromagnetic Induction</h3>
+        <pre><code>EMF = -N dΦ/dt (Faraday)
+Φ = BA cos θ (flux)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
