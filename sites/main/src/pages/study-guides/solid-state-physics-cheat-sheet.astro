@@ -1,0 +1,90 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Solid State Physics Cheat Sheet | Free Crystal Structures, Band Theory"
+  description="Complete solid state physics cheat sheet with crystal structures and band theory. Free download for physics students."
+>
+  <section class="hero">
+    <h1>Solid State Physics<br><span>Cheat Sheet</span></h1>
+    <p>Crystal structures and band theory. From lattice vibrations to semiconductors.</p>
+  </section>
+
+  <section>
+    <h2>Crystal Structures</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Lattice Types</h3>
+        <pre><code>Simple cubic (SC)
+Body-centered cubic (BCC)
+Face-centered cubic (FCC)
+Hexagonal close-packed (HCP)
+Diamond cubic</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Lattice Parameters</h3>
+        <pre><code>a, b, c: lattice constants
+α, β, γ: angles
+Volume = abc sin(α) for triclinic
+Packing fraction = V_atoms/V_cell</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Band Theory</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Energy Bands</h3>
+        <pre><code>Valence band: filled states
+Conduction band: empty states
+Band gap: E_g (insulator: large, semiconductor: small, metal: zero)
+E_F: Fermi energy (0K: highest filled state)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Conductivity</h3>
+        <pre><code>σ = neμ (conductivity)
+n: carrier concentration
+μ: mobility
+Metal: n large, σ large
+Semiconductor: n small, σ intermediate
+Insulator: n ≈ 0, σ ≈ 0</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Lattice Vibrations</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Phonons</h3>
+        <pre><code>Quantized lattice vibrations
+Acoustic phonons: low frequency
+Optical phonons: high frequency
+E = ℏω (phonon energy)
+D(ω): density of states</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Superconductivity</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Properties</h3>
+        <pre><code>Zero resistance below T_c
+Meissner effect (expulsion of magnetic field)
+BCS theory: Cooper pairs
+Energy gap: 2Δ
+Critical fields: H_c, H_c1, H_c2</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
