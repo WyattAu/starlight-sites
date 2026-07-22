@@ -1,0 +1,88 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Electricity Cheat Sheet | Free Circuits, Ohm's Law, Power"
+  description="Complete electricity cheat sheet with circuits, Ohm's law, and power formulas. Free download for physics and engineering students."
+>
+  <section class="hero">
+    <h1>Electricity<br><span>Cheat Sheet</span></h1>
+    <p>Circuits, Ohm's law, and power. From basic circuits to AC analysis.</p>
+  </section>
+
+  <section>
+    <h2>Basic Circuits</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Ohm's Law</h3>
+        <pre><code>V = IR
+I = V/R
+R = V/I
+
+V = voltage (volts)
+I = current (amps)
+R = resistance (ohms)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Power</h3>
+        <pre><code>P = IV
+P = I²R
+P = V²/R
+
+P = power (watts)
+Energy = Pt (joules)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Series & Parallel</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Series Circuits</h3>
+        <pre><code>R_total = R₁ + R₂ + R₃ + ...
+I_total = I₁ = I₂ = I₃
+V_total = V₁ + V₂ + V₃</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Parallel Circuits</h3>
+        <pre><code>1/R_total = 1/R₁ + 1/R₂ + 1/R₃
+V_total = V₁ = V₂ = V₃
+I_total = I₁ + I₂ + I₃</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Capacitance</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Capacitor Formulas</h3>
+        <pre><code>C = Q/V (capacitance)
+Q = CV (charge)
+E = ½CV² (energy stored)
+τ = RC (time constant)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Magnetic Fields</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Magnetic Force</h3>
+        <pre><code>F = BIL sin θ
+F = Bqv sin θ
+B = μ₀I/(2πr) (wire)
+Φ = BA cos θ (flux)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
