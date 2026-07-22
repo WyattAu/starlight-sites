@@ -11,6 +11,18 @@ const description = entry?.data?.description || 'Free, rigorous study notes';
 const site = 'https://wyattsnotes.wyattau.com';
 const pageUrl = Astro.url.href;
 
+// Get the current date for schema fallback
+const currentDate = new Date().toISOString();
+
+// Use frontmatter dates if available, otherwise fallback to current date
+const datePublished = entry?.data?.datePublished || entry?.data?.date || currentDate;
+const dateModified = entry?.data?.dateModified || entry?.data?.date || currentDate;
+
+// Determine the site name from the URL
+const urlParts = new URL(pageUrl).hostname.split('.');
+const subdomain = urlParts.length > 2 ? urlParts[0] : 'www';
+const siteName = subdomain === 'www' || subdomain === 'wyattsnotes' ? "Wyatt's Notes" : `${subdomain.charAt(0).toUpperCase() + subdomain.slice(1)} | Wyatt's Notes`;
+
 // Generate WebSite schema
 const websiteSchema = {
   '@context': 'https://schema.org',
@@ -34,19 +46,44 @@ const articleSchema = {
   author: {
     '@type': 'Person',
     name: 'Wyatt',
+    url: 'https://wyattau.com',
   },
   publisher: {
     '@type': 'Organization',
-    name: siteTitle,
-    url: site,
+    name: "Wyatt's Notes",
+    url: 'https://wyattau.com',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://wyattau.com/img/logo.png',
+    },
   },
   url: pageUrl,
-  datePublished: new Date().toISOString(),
-  dateModified: new Date().toISOString(),
+  datePublished: datePublished,
+  dateModified: dateModified,
   mainEntityOfPage: {
     '@type': 'WebPage',
     '@id': pageUrl,
   },
+}
+
+// Generate Breadcrumb schema
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    {
+      '@type': 'ListItem',
+      position: 1,
+      name: 'Home',
+      item: 'https://wyattau.com',
+    },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: siteName,
+      item: `https://${new URL(pageUrl).hostname}`,
+    },
+  ],
 }
 ---
 
@@ -73,6 +110,33 @@ const articleSchema = {
     } catch(e) {}
   })();
 </script>
+
+<!-- SEO Meta Tags -->
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow" />
+<link rel="canonical" href={pageUrl} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="article" />
+<meta property="og:url" content={pageUrl} />
+<meta property="og:title" content={pageTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:site_name" content={siteName} />
+<meta property="og:image" content={`${new URL(pageUrl).origin}/img/social-card.svg`} />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@wyattau" />
+<meta name="twitter:creator" content="@wyattau" />
+<meta name="twitter:title" content={pageTitle} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={`${new URL(pageUrl).origin}/img/social-card.svg`} />
+
+<!-- Additional SEO Meta -->
+<meta name="author" content="Wyatt" />
+<meta name="generator" content={Astro.generator} />
+
 <!-- Starlight head items (title, KaTeX CSS, analytics, font preloads, etc.) -->
 {head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
 
@@ -152,4 +216,5 @@ const articleSchema = {
 <!-- JSON-LD Structured Data -->
 <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 <ClientRouter />

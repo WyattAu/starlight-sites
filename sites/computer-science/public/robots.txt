@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://computer-science.wyattau.com/sitemap-index.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 1
+
+# Disallow admin/utility paths
+Disallow: /api/
+Disallow: /sw.js
+Disallow: /reader.js
+Disallow: /cross-site-search.js
+Disallow: /page-search.js
+Disallow: /mermaid-render.js
+Disallow: /manifest.json
+
+# Allow all other resources
+Allow: /img/
+Allow: /docs/
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
