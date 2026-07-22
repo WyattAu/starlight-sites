@@ -1,0 +1,90 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Classical Mechanics Cheat Sheet | Free Newton, Lagrangian, Hamiltonian"
+  description="Complete classical mechanics cheat sheet with Newton, Lagrangian, and Hamiltonian mechanics. Free download for physics students."
+>
+  <section class="hero">
+    <h1>Classical Mechanics<br><span>Cheat Sheet</span></h1>
+    <p>Newton, Lagrangian, and Hamiltonian mechanics. From particle dynamics to variational principles.</p>
+  </section>
+
+  <section>
+    <h2>Newtonian Mechanics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Newton's Laws</h3>
+        <pre><code>F = ma (2nd law)
+F₁₂ = -F₂₁ (3rd law)
+Inertial frames: F = 0 → constant velocity
+Non-inertial frames: fictitious forces</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Conservation Laws</h3>
+        <pre><code>Momentum: ΣF = 0 → p = const
+Energy: conservative forces → E = const
+Angular momentum: Στ = 0 → L = const</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Lagrangian Mechanics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Lagrangian</h3>
+        <pre><code>L = T - V (kinetic - potential)
+Euler-Lagrange: d/dt(∂L/∂q̇) - ∂L/∂q = 0
+Generalized coordinates: q_i
+Generalized velocities: q̇_i</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Applications</h3>
+        <pre><code>Simple pendulum: L = ½ml²q̇² + mgl cos q
+Double pendulum: complex coupled equations
+Central force: L = ½m(ṙ² + r²θ̇²) - V(r)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Hamiltonian Mechanics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Hamiltonian</h3>
+        <pre><code>H = Σp_i q̇_i - L
+Hamilton's equations:
+q̇_i = ∂H/∂p_i
+ṗ_i = -∂H/∂q_i</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Poisson Brackets</h3>
+        <pre><code>{A, B} = Σ(∂A/∂q_i ∂B/∂p_i - ∂A/∂p_i ∂B/∂q_i)
+{q_i, p_j} = δ_ij
+dq/dt = {q, H}
+dp/dt = {p, H}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Central Forces</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Kepler Problem</h3>
+        <pre><code>V(r) = -k/r (gravity, Coulomb)
+Orbits: ellipses, parabolas, hyperbolas
+Effective potential: V_eff = L²/(2mr²) - k/r
+Orbit equation: r = p/(1 + e cos θ)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
