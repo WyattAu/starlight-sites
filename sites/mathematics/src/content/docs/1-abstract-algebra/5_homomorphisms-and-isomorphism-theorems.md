@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "5_homomorphisms And Isomorphism Theorems", "url": "https://mathematics.wyattau.com/1-abstract-algebra/5_homomorphisms-and-isomorphism-theorems"}]
+}
+</script>
 title: Homomorphisms and Isomorphism Theorems
 tags:
   - Mathematics
   - University
 description: "Comprehensive educational content notes on homomorphisms and isomorphism theorems with precise definitions, worked examples, and common pitfalls."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "5_homomorphisms And Isomorphism Theorems", "url": "https://mathematics.wyattau.com/1-abstract-algebra/5_homomorphisms-and-isomorphism-theorems"}]
+}
+</script>
 
 ### 5.1 Group Homomorphisms
 

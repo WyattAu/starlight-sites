@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "2_reciprocal Lattice", "url": "https://physics.wyattau.com/6-solid-state-physics/2_reciprocal-lattice"}]
+}
+</script>
 title: Reciprocal Lattice
 tags:
   - Physics
   - University
 description: "Reciprocal Lattice: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "2_reciprocal Lattice", "url": "https://physics.wyattau.com/6-solid-state-physics/2_reciprocal-lattice"}]
+}
+</script>
 
 ### 2.1 Definition
 

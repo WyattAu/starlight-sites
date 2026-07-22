@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
 title: Chemistry - Carbon Chemistry
 description: 'DSE Chemistry - Carbon Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.'
 date: 2026-04-23T00:00:00.000Z
@@ -10,11 +19,29 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
+
 ## Hydrocarbons
 
 Hydrocarbons are organic compounds containing only carbon and hydrogen.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
 
 ## Alkanes
 
@@ -76,6 +103,15 @@ $$\mathrm{CHCl_3} + \mathrm{Cl_2} \to \mathrm{CCl_4} + \mathrm{HCl}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
+
 ## Alkenes
 
 ### General Formula
@@ -128,6 +164,15 @@ $$2\mathrm{C_3H_6} + 9\mathrm{O_2} \to 6\mathrm{CO_2} + 6\mathrm{H_2O}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
+
 ## Alkynes
 
 ### General Formula
@@ -147,6 +192,15 @@ The triple bond.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
+
 ## Homologous Series
 
 A homologous series is a family of organic compounds with:
@@ -159,6 +213,15 @@ A homologous series is a family of organic compounds with:
 - Each successive member differs by $\mathrm{CH_2}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
 
 ## Functional Groups
 
@@ -175,6 +238,15 @@ A homologous series is a family of organic compounds with:
 | $-\mathrm{Cl}$, $-\mathrm{Br}$ | Halide          | chloro-, bromo- | $\mathrm{CH_3Cl}$       |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
 
 ## IUPAC Nomenclature
 
@@ -216,6 +288,15 @@ Name: **2-chlorobutane**
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
 
 ## Isomerism
 
@@ -267,6 +348,15 @@ Draw and name all the structural isomers of $\mathrm{C_4H_8}$ that are alkenes.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
+
 ## Alcohols
 
 ### General Formula
@@ -300,6 +390,15 @@ $$\mathrm{C_2H_5OH} \xrightarrow{\mathrm{Al_2O_3, \; heat}} \mathrm{C_2H_4} + \m
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
+
 ## Carboxylic Acids
 
 ### General Formula
@@ -328,6 +427,15 @@ $$2\mathrm{CH_3COOH} + \mathrm{Na_2CO_3} \to 2\mathrm{CH_3COONa} + \mathrm{H_2O}
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
+
 ## Esters
 
 ### Formation
@@ -352,6 +460,15 @@ $\mathrm{CH_3COOC_2H_5}$: ethyl ethanoate
 - Used as flavourings, perfumes, and solvents
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
 
 ## Polymers and Plastics
 
@@ -397,6 +514,15 @@ Formed from a diol and a dicarboxylic acid.
 | Biodegradable alternatives | Biopolymers (e.g., from starch, cellulose) offer solutions     |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
 
 ## Macromolecules
 
@@ -458,6 +584,15 @@ Undigested and acts as dietary fibre.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
+
 ## Intuition
 
 **Carbon's versatility:** Carbon atoms can chain together in countless ways — like LEGO bricks that snap together to form infinite structures. Alkanes are saturated (full of hydrogen); alkenes have double bonds that can react.
@@ -483,6 +618,15 @@ Undigested and acts as dietary fibre.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
+
 ## Summary Table
 
 | Concept              | Key Point                                                          |
@@ -499,6 +643,15 @@ Undigested and acts as dietary fibre.
 | DNA base pairing     | A-T, G-C                                                           |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "2_carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry"}]
+}
+</script>
 
 ## Problem Set
 

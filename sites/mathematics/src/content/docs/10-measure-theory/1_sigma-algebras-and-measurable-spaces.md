@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "1_sigma Algebras And Measurable Spaces", "url": "https://mathematics.wyattau.com/10-measure-theory/1_sigma-algebras-and-measurable-spaces"}]
+}
+</script>
 title: Sigma-Algebras and Measurable Spaces
 tags:
   - Mathematics
   - University
 description: 'Sigma-Algebras and Measurable Spaces: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "1_sigma Algebras And Measurable Spaces", "url": "https://mathematics.wyattau.com/10-measure-theory/1_sigma-algebras-and-measurable-spaces"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--note">
 <strong>Historical Context</strong>

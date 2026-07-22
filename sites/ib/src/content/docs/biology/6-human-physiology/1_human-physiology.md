@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 title: Human Physiology
 description: "IB Biology — digestion, cardiovascular system, immune system, gas exchange, neurones, synapses, hormones, homeostasis, and reproduction."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## Intuition
 
@@ -83,6 +101,15 @@ The **small intestine** is the primary site of absorption. Adaptations for absor
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## 2. The Cardiovascular System
 
 ### Blood Vessels
@@ -141,6 +168,15 @@ $\mathrm{Hb}$ against partial pressure of $\mathrm{O}_2$ ($\mathrm{pO}_2$).
   (Bohr effect), increased temperature, and increased $23$-BPG (produced in active tissues).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## 3. The Immune System
 
@@ -212,6 +248,15 @@ Subsequent exposure, memory cells mount a faster and stronger secondary immune r
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## 4. Gas Exchange
 
 ### Alveolar Structure and Adaptations
@@ -243,6 +288,15 @@ Alveolar air ($\mathrm{pCO}_2 \approx 5.3\;\mathrm{kPa}$).
 | **Expiration**  | External intercostal muscles relax; diaphragm relaxes and domes upward                    | Thoracic volume decreases | Intrapulmonary pressure increases above atmospheric | Air flows out |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## 5. Neurones and Synapses
 
@@ -306,6 +360,15 @@ Effector cell) where signals are transmitted chemically.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## 6. Hormones and Homeostasis
 
 ### Endocrine System
@@ -344,6 +407,15 @@ And core.
 | Body temperature **below** set point                        | Vasoconstriction of skin blood vessels                                                       | Shivering (involuntary muscle contraction); increased metabolic rate (hormonal: thyroxine, adrenaline); piloerection (goosebumps --- vestigial in humans) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## 7. Reproduction
 
@@ -398,6 +470,15 @@ And core.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - Confusing **insulin** and **glucagon**: insulin lowers blood glucose; glucagon raises it.
@@ -412,6 +493,15 @@ And core.
   (asymmetric division); spermatogenesis produces four functional sperm cells (symmetric division).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -526,6 +616,15 @@ Since these vitamins require dietary fat for absorption.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -646,6 +745,15 @@ Increase in peak titre and the time to peak, and explain the cellular basis for 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Confusing insulin and glucagon**: insulin lowers blood glucose (stimulates uptake,
@@ -671,6 +779,15 @@ Increase in peak titre and the time to peak, and explain the cellular basis for 
   alveolar-capillary membrane.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -786,6 +903,15 @@ In a person who has been drinking large volumes of water versus a person who is 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## If You Get These Wrong, Revise:
 
 - **Cell membrane and transport mechanisms** --> Review
@@ -799,6 +925,15 @@ In a person who has been drinking large volumes of water versus a person who is 
   [.../7-plant-biology/1_plant-biology](../7-plant-biology/1_plant-biology)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## 8. The Excretory System
 
@@ -883,6 +1018,15 @@ Posterior pituitary.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## 9. Liver Function
 
 ### Roles of the Liver
@@ -913,6 +1057,15 @@ Jaundice (yellowing of the skin and sclera) results from elevated bilirubin in t
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## 10. Skin as an Organ
 
 ### Structure
@@ -938,6 +1091,15 @@ Jaundice (yellowing of the skin and sclera) results from elevated bilirubin in t
 - **Excretion**: sweat contains water, $\mathrm{Na}^+$$\mathrm{Cl}^-$Urea, and lactic acid.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## 11. Extended: Lung Volumes and Ventilation Mechanics
 
@@ -974,6 +1136,15 @@ Where $R$ is the respiratory exchange ratio ($\approx 0.85$ at rest).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## 12. ECG and the Cardiac Cycle (Extended)
 
 ### The Electrocardiogram (ECG)
@@ -999,6 +1170,15 @@ The ECG records the electrical activity of the heart using surface electrodes.
   cardiac enzymes (troponin, CK-MB).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## Exam-Style Problems (Extended)
 
@@ -1051,6 +1231,15 @@ disease (e.g., pulmonary fibrosis).
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -1277,6 +1466,15 @@ The Bohr effect increases oxygen delivery by approximately $47\%$ during exercis
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## Additional Common Pitfalls
 
 - **Confusing tidal volume and vital capacity**: tidal volume is the volume of air in a normal
@@ -1299,6 +1497,15 @@ The Bohr effect increases oxygen delivery by approximately $47\%$ during exercis
   against specific antigens; antibiotics are drugs that kill or inhibit bacteria.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## Additional Exam-Style Problems with Full Solutions
 
@@ -1484,6 +1691,15 @@ the presence and absence Of ADH.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## Cross-References to Related Topics
 
 - **Cell membrane and transport**: Review
@@ -1502,6 +1718,15 @@ the presence and absence Of ADH.
   for cellular respiration and energy production in tissues.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "6 Human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology"}, {"name": "1_human Physiology", "url": "https://ib.wyattau.com/biology/6-human-physiology/1_human-physiology"}]
+}
+</script>
 
 | Topic              | Site    | Link                                                                                   |
 | ------------------ | ------- | -------------------------------------------------------------------------------------- |

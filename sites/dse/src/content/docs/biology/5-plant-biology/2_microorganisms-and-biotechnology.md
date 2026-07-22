@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
 title: Microorganisms and Biotechnology
 description: "Microorganisms are organisms that are too small to be seen with the naked eye. They are Found in all three domains of life and include bacteria, fungi, and"
 date: 2026-04-08T00:00:00.000Z
@@ -6,6 +15,15 @@ tags: [DSE, Biology]
 categories: [DSE, Biology]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
 
 ## Classification of Microorganisms
 
@@ -143,6 +161,15 @@ Electron microscopy is required to visualise viruses.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
+
 ## Useful Microorganisms
 
 ### Food Production
@@ -264,6 +291,15 @@ bacterial-specific structures and processes that viruses do not possess.
   contributes to **antibiotic resistance**
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
 
 ## Harmful Microorganisms
 
@@ -411,6 +447,15 @@ _Staphylococcus aureus_)
 - Reduce antibiotic use in agriculture
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
 
 ## Biotechnology
 
@@ -688,6 +733,15 @@ Currently not permitted in most countries due to ethical concerns.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
+
 ## Intuition
 
 **Invisible allies:** Microorganisms are like tiny factories — bacteria make yogurt and antibiotics, yeasts bake bread and brew beer. Biotechnology harnesses these organisms for human benefit.
@@ -736,6 +790,15 @@ Currently not permitted in most countries due to ethical concerns.
     at 94-96 degrees C, unlike human DNA polymerase.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
 
 ## Problem Set
 
@@ -971,6 +1034,15 @@ Yoghurt is produced using _Lactobacillus bulgaricus_ and _Streptococcus thermoph
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
+
 ## Industrial Microbiology
 
 ### Industrial Production Using Microorganisms
@@ -1066,6 +1138,15 @@ Bioremediation is the use of microorganisms to clean up contaminated environment
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
+
 ## Antibiotic Resistance: Detailed Mechanisms
 
 ### How Bacteria Become Resistant
@@ -1097,6 +1178,15 @@ transfer, much faster than vertical transmission (parent to offspring via binary
   selection pressure (though there is a metabolic cost)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
 
 ## Additional Problem Set
 
@@ -1163,7 +1253,25 @@ These mechanisms allow resistance to spread much more rapidly than vertical tran
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
+
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
 
 ## Genetic Engineering: Detailed Techniques
 
@@ -1298,6 +1406,15 @@ each step is necessary.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
+
 ## The Carbon Cycle and Microorganisms
 
 ### Role of Microorganisms in Carbon Cycling
@@ -1329,6 +1446,15 @@ nutrient-rich compost that can be used as fertiliser. Regular turning of the hea
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
+
 ## Antibiotics: Mechanisms and Resistance in Detail
 
 ### Mechanisms of Action
@@ -1359,6 +1485,15 @@ nutrient-rich compost that can be used as fertiliser. Regular turning of the hea
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
+
 ## Biotechnology in Agriculture
 
 ### Genetically Modified (GM) Crops
@@ -1380,6 +1515,15 @@ nutrient-rich compost that can be used as fertiliser. Regular turning of the hea
 | Protoplast transformation             | The plant cell wall is removed (using cellulase enzyme) to create protoplasts; DNA is introduced using electroporation or PEG (polyethylene glycol); the cell wall is then regenerated                                                                                                       |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -1410,6 +1554,15 @@ See for instructions on
 self-marking and building a personal test matrix.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
 
 ## Industrial Biotechnology Applications
 </aside>
@@ -1473,6 +1626,15 @@ environmental pollutants.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
+
 ## Microbiology Techniques
 
 ### Aseptic Technique
@@ -1520,6 +1682,15 @@ contamination of cultures and protect the operator from potentially pathogenic o
 | **Death (decline) phase**   | Death rate exceeds growth rate; nutrients exhausted; toxic waste products at high levels; population declines                                    | Near zero        | High          |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "2_microorganisms And Biotechnology", "url": "https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology"}]
+}
+</script>
 
 ## Common Pitfalls
 

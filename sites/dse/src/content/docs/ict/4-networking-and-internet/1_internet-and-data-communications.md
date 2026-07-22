@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
 title: Internet and Data Communications
 description: "| Type | Full Name | Range | Example | | ------- | --------------------- | ------------------------- | ------------------------------------------------- | |"
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, ICT]
 categories: [DSE, ICT]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
 
 ## Network Fundamentals
 
@@ -92,6 +110,15 @@ Topology. Star is the most common in modern LANs due to ease of management and f
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
+
 ## Networking Hardware
 
 | Device                | Function                                                                                                                         | OSI Layer |
@@ -115,6 +142,15 @@ Topology. Star is the most common in modern LANs due to ease of management and f
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
+
 ## Internet Services
 
 | Service                          | Description                                                        | Protocol(s)      |
@@ -135,6 +171,15 @@ Topology. Star is the most common in modern LANs due to ease of management and f
 | **IMAP** | 143      | Receive email | Accesses messages on server without downloading; syncs across devices |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
 
 ## Web Development Basics
 
@@ -258,6 +303,15 @@ Fundamental principle of web development.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
+
 ## IP Addressing
 
 ### IPv4
@@ -317,6 +371,15 @@ CIDR notation: `/24` means 24 bits for the network, 8 bits for the host.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
+
 ## DNS (Domain Name System)
 
 DNS translates human-readable domain names (e.g., `www.example.com`) into IP addresses (e.g.,
@@ -357,6 +420,15 @@ To register a domain:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
+
 ## Transmission Media
 
 ### Wired Media
@@ -382,6 +454,15 @@ Pair is the cheapest but has the lowest bandwidth and is susceptible to EMI.
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
 
 ## Transmission Modes
 
@@ -409,6 +490,15 @@ Pair is the cheapest but has the lowest bandwidth and is susceptible to EMI.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
+
 ## Bandwidth and Broadband
 
 **Bandwidth:** The maximum data transfer rate of a network connection, measured in bps (bits per
@@ -433,6 +523,15 @@ Include:
 | Example      | Ethernet LAN                | Cable TV, ADSL                                     |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
 
 ## Protocols
 
@@ -460,6 +559,15 @@ A protocol is a set of rules governing data communication between devices.
 | Use cases   | Web browsing, email, file transfer          | Video streaming, online gaming, VoIP |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
 
 ## OSI Model
 
@@ -491,6 +599,15 @@ Transport, Network, Data Link, Physical).
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
 
 ## Network Security
 
@@ -526,6 +643,15 @@ A VPN creates an encrypted tunnel over a public network (the internet), providin
 - Anonymity: masks the user's real IP address.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
 
 ## Social Implications
 
@@ -611,6 +737,15 @@ Practices to reduce the environmental impact of computing:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Hub vs Switch:** A hub broadcasts to all ports; a switch forwards only to the intended
@@ -648,6 +783,15 @@ Practices to reduce the environmental impact of computing:
     ability to use technology effectively, not just physical availability of devices.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -1045,6 +1189,15 @@ linked above.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
 
 ## Cross-References
 

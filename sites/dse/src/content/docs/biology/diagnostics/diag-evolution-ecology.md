@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Evolution Ecology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-evolution-ecology"}]
+}
+</script>
 title: "Evolution and Ecology -- Diagnostic Tests"
 description: "DSE Biology Evolution and Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for clear revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Evolution Ecology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-evolution-ecology"}]
+}
+</script>
 
 # DSE Biology Diagnostic: Evolution and Ecology
 
@@ -21,6 +39,15 @@ this claim by distinguishing between the everyday use of "theory" and the scient
 "theory." [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Evolution Ecology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-evolution-ecology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -73,6 +100,15 @@ not a guess or speculation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Evolution Ecology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-evolution-ecology"}]
+}
+</script>
+
 ## Unit Test 2: Ecological Pyramids and Energy Flow
 
 **Question**
@@ -87,6 +123,15 @@ this difference. [4 marks]
 (c) Explain why a pyramid of **energy** is never inverted. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Evolution Ecology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-evolution-ecology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -122,6 +167,15 @@ below it.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Evolution Ecology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-evolution-ecology"}]
+}
+</script>
+
 ## Unit Test 3: The Carbon Cycle and Nitrogen Cycle
 
 **Question**
@@ -134,6 +188,15 @@ below it.
 bacteria**, and (iii) **denitrifying bacteria**. [6 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Evolution Ecology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-evolution-ecology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -174,6 +237,15 @@ Denitrifying bacteria reduce the amount of nitrogen available to plants.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Evolution Ecology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-evolution-ecology"}]
+}
+</script>
+
 ## Intuition
 
 **Life's grand narrative:** Evolution is like a branching tree — species diverge from common ancestors, adapting to their environments through natural selection. Ecology studies how these species interact.
@@ -203,6 +275,15 @@ submerged aquatic plants, using the term **eutrophication**. [5 marks]
 each practice helps. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Evolution Ecology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-evolution-ecology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -257,6 +338,15 @@ rotation with legumes to fix nitrogen, reducing the need for artificial fertilis
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Evolution Ecology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-evolution-ecology"}]
+}
+</script>
+
 ## Integration Test 2: Speciation and Population Dynamics
 
 **Question**
@@ -273,6 +363,15 @@ capacity and describe what would happen to the population growth rate as the pop
 the carrying capacity. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Evolution Ecology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-evolution-ecology"}]
+}
+</script>
 
 **Worked Solution**
 

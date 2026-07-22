@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Limits Continuity", "url": "https://ap.wyattau.com/maths/diagnostics/diag-limits-continuity"}]
+}
+</script>
 title: "Limits and Continuity -- Diagnostic Tests"
 description: "> Tests edge cases, boundary conditions, and common misconceptions for limits an Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ap-maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Limits Continuity", "url": "https://ap.wyattau.com/maths/diagnostics/diag-limits-continuity"}]
+}
+</script>
 
 # Limits and Continuity — Diagnostic Tests
 
@@ -54,6 +72,15 @@ first bounding the non-linear factor. The two-step process (restrict $\delta$ to
 non-linear part, then relate $\delta$ to $\varepsilon$) is essential.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Limits Continuity", "url": "https://ap.wyattau.com/maths/diagnostics/diag-limits-continuity"}]
+}
+</script>
 
 ### UT-2: L'Hopital's Rule Applied to a Non-Indeterminate Form
 
@@ -113,6 +140,15 @@ original limit DNE.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Limits Continuity", "url": "https://ap.wyattau.com/maths/diagnostics/diag-limits-continuity"}]
+}
+</script>
+
 ### UT-3: Classifying Discontinuities and Continuity Conditions
 
 **Question:**
@@ -155,6 +191,15 @@ discontinuity** (the limit DNE). This differs from $x = 1$ because the limit its
 at $x = -1$Whereas at $x = 1$ the limit exists but does not match the function value.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Limits Continuity", "url": "https://ap.wyattau.com/maths/diagnostics/diag-limits-continuity"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -209,6 +254,15 @@ existence, but uniqueness requires additional structure.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Limits Continuity", "url": "https://ap.wyattau.com/maths/diagnostics/diag-limits-continuity"}]
+}
+</script>
+
 ### IT-2: Limits Defining Derivatives at Non-Smooth Points (with Derivatives)
 
 **Question:**
@@ -250,6 +304,15 @@ confirming that continuity does not imply differentiability. The discontinuity o
 $x = \pm 2$ is a **jump discontinuity** (finite jump from $-4$ to $4$).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Limits Continuity", "url": "https://ap.wyattau.com/maths/diagnostics/diag-limits-continuity"}]
+}
+</script>
 
 ### IT-3: Limit at Infinity with Parametric Complexity (with Integrals)
 

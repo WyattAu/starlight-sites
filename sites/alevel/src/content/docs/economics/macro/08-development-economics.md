@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Macro", "url": "https://alevel.wyattau.com/economics/macro"}, {"name": "08 Development Economics", "url": "https://alevel.wyattau.com/economics/macro/08-development-economics"}]
+}
+</script>
 title: Development Economics
 description: "Development economics studies how nations transform from low-income, less-productive economies into High-income, modern economies. It is distinct from"
 date: 2026-04-02T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Economics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Macro", "url": "https://alevel.wyattau.com/economics/macro"}, {"name": "08 Development Economics", "url": "https://alevel.wyattau.com/economics/macro/08-development-economics"}]
+}
+</script>
 
 ## Development Economics
 

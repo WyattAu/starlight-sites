@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Reading Fiction", "url": "https://gcse.wyattau.com/english/diagnostics/diag-reading-fiction"}]
+}
+</script>
 title: "Reading Fiction -- Diagnostic Tests"
 description: "Reading Fiction -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Reading Fiction", "url": "https://gcse.wyattau.com/english/diagnostics/diag-reading-fiction"}]
+}
+</script>
 
 # Reading Fiction -- Diagnostic Tests
 
@@ -65,6 +83,15 @@ her separation from the living world and her inability to reconnect with what th
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Reading Fiction", "url": "https://gcse.wyattau.com/english/diagnostics/diag-reading-fiction"}]
+}
+</script>
+
 ### UT-2: Structural Analysis in Fiction
 
 **Question:**
@@ -125,6 +152,15 @@ passage.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Reading Fiction", "url": "https://gcse.wyattau.com/english/diagnostics/diag-reading-fiction"}]
+}
+</script>
+
 ### UT-3: Evaluating Writer's Methods in Fiction
 
 **Question:**
@@ -184,6 +220,15 @@ which could be seen as overblown for an exam scenario. Nevertheless, the cumulat
 sensory details and the relentless invigilator builds a convincing picture of anxiety.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Reading Fiction", "url": "https://gcse.wyattau.com/english/diagnostics/diag-reading-fiction"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -257,6 +302,15 @@ emotionally charged than any single image in Extract B, because it encapsulates 
 the irrevocability of time in a single line.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Reading Fiction", "url": "https://gcse.wyattau.com/english/diagnostics/diag-reading-fiction"}]
+}
+</script>
 
 ### IT-2: Language and Structure in Fiction
 

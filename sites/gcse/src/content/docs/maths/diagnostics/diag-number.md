@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/maths/diagnostics"}, {"name": "Diag Number", "url": "https://gcse.wyattau.com/maths/diagnostics/diag-number"}]
+}
+</script>
 title: "Number -- Diagnostic Tests"
 description: "(a) Calculate . (b) Convert (recurring) to a fraction in its simplest form. (c) A shirt originally costs . It is discounted by 20%, then the discounted"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/maths/diagnostics"}, {"name": "Diag Number", "url": "https://gcse.wyattau.com/maths/diagnostics/diag-number"}]
+}
+</script>
 
 # Number — Diagnostic Tests
 
@@ -82,6 +100,15 @@ $\frac{4.2 \times 10^5}{2.8 \times 10^{-3}} = \frac{4.2}{2.8} \times 10^{5-(-3)}
 bound $= 3,455,000 = 3.455 \times 10^6$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/maths/diagnostics"}, {"name": "Diag Number", "url": "https://gcse.wyattau.com/maths/diagnostics/diag-number"}]
+}
+</script>
 
 ## Integration Tests
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
 title: "Logarithms -- Diagnostic Tests"
 description: "DSE Maths Logarithms -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for clear revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
 
 # Logarithms — Diagnostic Tests
 
@@ -33,6 +51,15 @@ $0.301 \neq 0$.
 The logarithm function does NOT distribute over addition. $\log(a + b) \neq \log a + \log b$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
 
 ### UT-2: Domain Restrictions
 
@@ -66,6 +93,15 @@ A common mistake is forgetting to check the domain and accepting both roots.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
+
 ### UT-3: Change of Base Formula
 
 **Question:**
@@ -77,6 +113,15 @@ Given that $\log_2 3 = a$ and $\log_2 5 = b$Express $\log_{15} 4$ in terms of $a
 $$\log_{15} 4 = \frac{\log_2 4}{\log_2 15} = \frac{2}{\log_2(3 \times 5)} = \frac{2}{\log_2 3 + \log_2 5} = \frac{2}{a + b}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
 
 ### UT-4: Logarithmic Equation with Hidden Quadratic
 
@@ -103,6 +148,15 @@ Both satisfy $x > 0$.
 Solution: $x = 16$ or $x = \dfrac{1}{2}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
 
 ### UT-5: Logarithm with Different Bases
 
@@ -134,6 +188,15 @@ Solution: $x = \dfrac{1}{16}$ or $x = 4$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of logarithms with other topics.
@@ -162,6 +225,15 @@ Solution: $x = 0$ or $x = 1$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
+
 ### IT-2: Logarithms and Inequalities (with Inequalities)
 
 **Question:**
@@ -184,6 +256,15 @@ Solution: $x \in (2,\; 8)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
+
 ### IT-3: Logarithms and Functions (with Functions)
 
 **Question:**
@@ -205,6 +286,15 @@ Domain of $f^{-1}$ = Range of $f$ = $\mathbb{R}$.
 Range of $f^{-1}$ = Domain of $f$ = $\left(\dfrac{1}{2},\; \infty\right)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -238,6 +328,15 @@ Solution: $x = -1 + \sqrt{17}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
+
 ### WE-2: Exponential Growth and Decay
 
 **Question:**
@@ -260,6 +359,15 @@ $\dfrac{t}{3} = 6 \implies t = 18$ hours.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
+
 ### WE-3: Logarithmic Scale Comparison
 
 **Question:**
@@ -278,6 +386,15 @@ The earthquake is $10^2 = 100$ times more powerful.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
+
 ### WE-4: Comparing Logarithmic Expressions
 
 **Question:**
@@ -295,6 +412,15 @@ $$\log_3 16 - \log_3 4 = 4a - 2a = 2a$$
 Alternatively: $\log_3 16 - \log_3 4 = \log_3 \dfrac{16}{4} = \log_3 4 = 2a$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
 
 ### WE-5: Logarithmic Inequality with Base Less Than 1
 
@@ -323,6 +449,15 @@ direction. This is a frequent trap in DSE Paper 2.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
+
 ### WE-6: Change of Base with Non-Standard Bases
 
 **Question:**
@@ -340,6 +475,15 @@ $\log_4 8 = \log_4(4 \times 2) = 1 + \dfrac{1}{2} = \dfrac{3}{2}$.
 $$\log_8 10 = \frac{\frac{1}{2} + a}{\frac{3}{2}} = \frac{1 + 2a}{3}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
 
 ### WE-7: Solving System of Logarithmic Equations
 
@@ -369,6 +513,15 @@ Check domain: $x > 0$, $y > 0$, $x - y > 0$. All satisfied.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
+
 ### WE-8: Exponential Equation with Different Bases
 
 **Question:**
@@ -392,6 +545,15 @@ $$x = \frac{-(\ln 2 + \ln 5)}{\ln 5 - 2\ln 2} = \frac{-(\ln 10)}{\ln 5 - \ln 4} 
 $$x = \frac{\ln 10}{\ln(4/5)} \approx \frac{2.303}{-0.223} \approx -10.33$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
 
 ## Intuition
 
@@ -423,6 +585,15 @@ $$x = \frac{\ln 10}{\ln(4/5)} \approx \frac{2.303}{-0.223} \approx -10.33$$
    denominator is a frequent error.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
 
 ## DSE Exam-Style Questions
 
@@ -464,6 +635,15 @@ Combining: $\dfrac{3-\sqrt{13}}{2} \leq x < 1$ or $2 < x \leq \dfrac{3+\sqrt{13}
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
+
 ### DSE-2
 
 Let $f(x) = 2\log_3(x - 1) - \log_3(x^2 - 1)$.
@@ -484,6 +664,15 @@ $\log_3 \dfrac{x - 1}{x + 1} = 1 \implies \dfrac{x - 1}{x + 1} = 3 \implies x - 
 But $x > 1$So $x = -2$ is rejected. No solution.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
 
 ### DSE-3
 
@@ -511,6 +700,15 @@ hours.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
+
 ### DSE-4
 
 If $\log_a 2 = p$ and $\log_a 5 = q$Express the following in terms of $p$ and $q$:
@@ -530,6 +728,15 @@ $\log_a 0.04 = \log_a\left(\dfrac{4}{100}\right) = \log_a 4 - \log_a 100 = 2\log
 (d) $\log_2 a = \dfrac{1}{\log_a 2} = \dfrac{1}{p}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Logarithms", "url": "https://dse.wyattau.com/maths/diagnostics/diag-logarithms"}]
+}
+</script>
 
 ### DSE-5
 

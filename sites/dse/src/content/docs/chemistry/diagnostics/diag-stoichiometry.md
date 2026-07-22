@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
+}
+</script>
 title: "Stoichiometry and Mole Concept -- Diagnostic Tests"
 description: "DSE Chemistry Stoichiometry and Mole Concept -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
+}
+</script>
 
 # DSE Chemistry Diagnostic: Stoichiometry and Mole Concept
 
@@ -21,6 +39,15 @@ sodium hydroxide solution. 25.0 cm$^{3}$ of NaOH was required for neutralisation
 (c) Explain why the HCl must be in excess for this method to work. [1 mark]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -62,6 +89,15 @@ to be calculated by difference.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
+}
+</script>
+
 ## Unit Test 2: Empirical Formula from Combustion Data
 
 **Question**
@@ -77,6 +113,15 @@ completely combusted, 0.880 g of $CO_{2}$ and 0.540 g of $H_{2}O$ were produced.
 hydrogen. How would this affect the calculated empirical formula? [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -129,6 +174,15 @@ to $H$ alone does not reveal the oxygen content.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
+}
+</script>
+
 ## Unit Test 3: Gas Volume and Concentration
 
 **Question**
@@ -145,6 +199,15 @@ the concentration of the solution in both mol/dm$^{3}$ and g/dm$^{3}$. [3 marks]
 concentration of the diluted solution. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -180,6 +243,15 @@ $$C_{2} = 0.0100 \text{ mol/dm}^{3}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
+}
+</script>
+
 ## Intuition
 
 **Chemical accounting:** Stoichiometry is like a recipe — the balanced equation tells you exactly how much of each ingredient you need and how much product you'll get. The mole is the chemist's dozen.
@@ -205,6 +277,15 @@ medium. [2 marks]
 (c) Why must the titration be carried out in acidic medium? [1 mark]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -264,6 +345,15 @@ The acid also prevents the formation of insoluble $MnO_{2}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
+}
+</script>
+
 ## Integration Test 2: Gas Volume + Solution Stoichiometry
 
 **Question**
@@ -283,6 +373,15 @@ collected over water at RTP and measured to have a volume of 520 cm$^{3}$.
 (c) Calculate the concentration of $HCl$ remaining after the reaction. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -323,6 +422,15 @@ $$C(HCl)_{\text{remaining}} = \frac{0.158}{0.100} = 1.58 \text{ mol/dm}^{3}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
+}
+</script>
+
 ## Integration Test 3: Limiting Reagent + Percentage Yield
 
 **Question**
@@ -340,6 +448,15 @@ presence of a concentrated sulphuric acid catalyst to produce ethyl ethanoate
 (d) Explain why the percentage yield is less than 100\%. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Stoichiometry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry"}]
+}
+</script>
 
 **Worked Solution**
 

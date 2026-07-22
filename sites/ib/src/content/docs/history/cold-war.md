@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Cold War", "url": "https://ib.wyattau.com/history/cold-war"}]
+}
+</script>
 title: The Cold War
 date: 2026-05-31
 tags:
@@ -8,6 +17,15 @@ categories:
 description: "This document covers the IB History Cold War topic for Paper 2. It traces the development, escalation, and resolution of superpower rivalry between the"
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Cold War", "url": "https://ib.wyattau.com/history/cold-war"}]
+}
+</script>
+
 # The Cold War (1945--1991)
 
 This document covers the IB History Cold War topic for Paper 2. It traces the development,
@@ -16,6 +34,15 @@ examining the major crises, periods of detente, and the eventual collapse of the
 Historiographical perspectives are integrated throughout to support high-scoring essay responses.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Cold War", "url": "https://ib.wyattau.com/history/cold-war"}]
+}
+</script>
 
 ## 1. Origins of the Cold War
 
@@ -117,6 +144,15 @@ Officially the European Recovery Programme (ERP), announced by Secretary of Stat
 - Dissolved 31 March 1991
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Cold War", "url": "https://ib.wyattau.com/history/cold-war"}]
+}
+</script>
 
 ## 2. Key Crises
 
@@ -248,6 +284,15 @@ The closest the world came to nuclear war.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Cold War", "url": "https://ib.wyattau.com/history/cold-war"}]
+}
+</script>
+
 ## 3. Detente
 
 ### 3.1 SALT Treaties
@@ -314,6 +359,15 @@ The closest the world came to nuclear war.
 - Critics argued it legitimised the division of Germany and the Soviet domination of Eastern Europe
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Cold War", "url": "https://ib.wyattau.com/history/cold-war"}]
+}
+</script>
 
 ## 4. End of the Cold War
 
@@ -392,6 +446,15 @@ Mikhail Gorbachev became General Secretary of the Communist Party in March 1985.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Cold War", "url": "https://ib.wyattau.com/history/cold-war"}]
+}
+</script>
+
 ## 5. Historiographical Debates
 
 ### 5.1 Orthodox, Revisionist, and Post-Revisionist Interpretations
@@ -446,6 +509,15 @@ Mikhail Gorbachev became General Secretary of the Communist Party in March 1985.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Cold War", "url": "https://ib.wyattau.com/history/cold-war"}]
+}
+</script>
+
 ## 6. Essay Writing Tips
 
 1. **Establish clear timelines**: Cold War questions often span decades. Chronological structure
@@ -466,6 +538,15 @@ Mikhail Gorbachev became General Secretary of the Communist Party in March 1985.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Cold War", "url": "https://ib.wyattau.com/history/cold-war"}]
+}
+</script>
+
 ## 7. Common Pitfalls
 
 1. **Presenting the Cold War as a simple binary**: The reality was far more complex, involving
@@ -484,6 +565,15 @@ Mikhail Gorbachev became General Secretary of the Communist Party in March 1985.
    evidence, not directly tell the story of the Cold War chronologically.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Cold War", "url": "https://ib.wyattau.com/history/cold-war"}]
+}
+</script>
 
 ## Intuition
 

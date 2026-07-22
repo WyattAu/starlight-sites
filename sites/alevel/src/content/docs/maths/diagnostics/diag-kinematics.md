@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Kinematics", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-kinematics"}]
+}
+</script>
 title: "Kinematics -- Diagnostic Tests"
 description: "A-Level Maths Kinematics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Kinematics", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-kinematics"}]
+}
+</script>
 
 
 ## Intuition
@@ -82,6 +100,15 @@ accounting for the two direction reversals.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Kinematics", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-kinematics"}]
+}
+</script>
+
 ### UT-2: Projectile Launched from a Height — Sign Convention and Range
 
 **Question:**
@@ -140,6 +167,15 @@ m/s.
 Angle below horizontal $= \arctan\!\left(\frac{41.51}{27.19}\right) \approx 56.8°$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Kinematics", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-kinematics"}]
+}
+</script>
 
 ### UT-3: Non-Constant Acceleration and the Chain Rule Trap
 
@@ -217,6 +253,15 @@ between them -- which requires substituting back and using $\sin^2 + \cos^2 = 1$
 method bypasses this entirely and is the intended technique for the A-Level specification.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Kinematics", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-kinematics"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -315,6 +360,15 @@ Further precision would converge to zero, confirming perpendicularity.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Kinematics", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-kinematics"}]
+}
+</script>
+
 ### IT-2: Energy Conservation to Find Maximum Height (with Energy and Work)
 
 **Question:**
@@ -379,6 +433,15 @@ time to reach maximum height, velocity at a specific time, or displacement at a 
 since the energy method eliminates time from the equations entirely.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Kinematics", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-kinematics"}]
+}
+</script>
 
 ### IT-3: Velocity Function Analysis with Roots and Turning Points (with Functions and Calculus)
 

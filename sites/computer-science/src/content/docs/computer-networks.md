@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "Computer Networks", "url": "https://computer-science.wyattau.com/computer-networks"}]
+}
+</script>
 title: Computer Networks
 description: "UNIVERSITY Computing notes: Computer Networks. Comprehensive study material with definitions, examples, and assessment tools."
 date: 2026-04-24T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Computing
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "Computer Networks", "url": "https://computer-science.wyattau.com/computer-networks"}]
+}
+</script>
 
 ## 1. Network Models
 

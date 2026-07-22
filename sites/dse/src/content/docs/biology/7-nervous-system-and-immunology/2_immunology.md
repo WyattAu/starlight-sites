@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 title: Immunology
 description: "A pathogen is any organism or agent that can cause disease. The DSE specification requires knowledge of four main types of pathogen."
 date: 2026-04-08T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Pathogens
 
@@ -63,6 +81,15 @@ Pathogens cause disease through several mechanisms:
 | Blood-borne         | Transfer through blood or blood products                                    | HIV, Hepatitis B and C                                           |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Innate (Non-Specific) Immunity
 
@@ -148,6 +175,15 @@ destroy pathogens, remove damaged tissue, and initiate tissue repair.
 - Interferons are NOT virus-specific -- they provide broad-spectrum antiviral defence
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Adaptive (Specific) Immunity
 
@@ -271,6 +307,15 @@ secondary response.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## Vaccination
 
 ### Principles of Vaccination
@@ -322,6 +367,15 @@ infected individual in a fully susceptible population).
 | Reduces antibiotic resistance                   | Antigenic variation (mutations) in pathogens may require updated vaccines (e.g., annual flu vaccine) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Immune System Disorders
 
@@ -457,6 +511,15 @@ cells). They are all specific to the same antigen.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## ELISA and Diagnostic Immunology
 
 ### Enzyme-Linked Immunosorbent Assay (ELISA)
@@ -501,6 +564,15 @@ quantify specific antigens (or antibodies) in a sample.
 | Environmental monitoring | Toxins, pollutants                                                 | Measures levels of environmental contaminants in water or soil samples                             |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Types of Immunity
 
@@ -575,6 +647,15 @@ occurred (infection or maternal transfer); "artificial" means the exposure was d
     the placenta, antivenom injections).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Problem Set
 
@@ -660,7 +741,25 @@ provides long-lasting protection (booster doses every 10 years).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## HIV/AIDS in Detail
 
@@ -738,6 +837,15 @@ pregnancy and delivery.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## Autoimmune Diseases
 
 ### Mechanism of Autoimmunity
@@ -784,6 +892,15 @@ See for instructions on
 self-marking and building a personal test matrix.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Hypersensitivity (Allergic Reactions)
 
@@ -834,6 +951,15 @@ Type I hypersensitivity (immediate hypersensitivity) is the mechanism underlying
   blood-brain barrier, minimal sedation
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Blood Groups and Transfusion
 
@@ -900,6 +1026,15 @@ susceptibility to infections.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## Lymphatic System
 
 ### Structure and Function
@@ -940,6 +1075,15 @@ The lymphatic system is a network of vessels, tissues, and organs that:
 | Peyer's patches | Small intestine              | Aggregates of lymphoid tissue in the intestinal wall; monitor intestinal bacteria and pathogens; part of GALT (gut-associated lymphoid tissue)      |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Vaccination in Detail
 
@@ -988,6 +1132,15 @@ $$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## Comparison of Immune Responses
 
 ### Innate vs Adaptive Immunity
@@ -1014,6 +1167,15 @@ $$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
 | Clinical significance  | The person may experience symptoms of the disease while the immune system is mounting its response    | The person is protected from the disease; may have mild or no symptoms (immunity)                                                  |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Infectious Diseases
 
@@ -1062,6 +1224,15 @@ $$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
 | "London Patient"        | Adam Castillejo, the second person cured of HIV (2019). Similar approach: bone marrow transplant from a CCR5-delta32 donor for Hodgkin's lymphoma treatment                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Practical Techniques
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
 title: Plant Biology
 description: "Rigorous IB biology notes covering Plant Biology. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Intuition
 
@@ -63,6 +81,15 @@ Stomata:
   concentrations.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## 2. Transport in Plants
 
@@ -145,6 +172,15 @@ To sink in the phloem.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## 3. Plant Reproduction
 
 ### Flower Structure
@@ -212,6 +248,15 @@ Fruit protects the seeds and aids in their dispersal.
 - **Water**: seeds with air-filled cavities that float (e.g., coconut).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## 4. Plant Growth
 
@@ -323,6 +368,15 @@ Phytochromes exist in two interconvertible forms:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - Confusing **xylem** and **phloem**: xylem transports water and minerals upward (dead cells,
@@ -338,6 +392,15 @@ Phytochromes exist in two interconvertible forms:
   **inhibits** cell elongation in roots.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -470,6 +533,15 @@ Germination response --- a property known as phytochrome reversibility.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Worked Examples
 
 **Worked Example: Transpiration Rate Calculation Using a Potometer**
@@ -592,6 +664,15 @@ Gibberellin-dependent.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Confusing xylem and phloem**: xylem transports water and minerals upward (dead cells,
@@ -616,6 +697,15 @@ Gibberellin-dependent.
   in horticulture.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -727,6 +817,15 @@ the Resulting zygote and endosperm after fertilisation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## If You Get These Wrong, Revise:
 
 - **Cell structure and membrane transport** --> Review
@@ -739,6 +838,15 @@ the Resulting zygote and endosperm after fertilisation.
 - **Ecosystems and energy flow** --> Review [.../4-ecology/1_ecology](../4-ecology/1_ecology)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## 5. Translocation in Detail (Extended)
 
@@ -776,6 +884,15 @@ Sucrose is unloaded from the sieve tube by:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## 6. Mineral Ion Uptake
 
 ### Mechanisms of Ion Uptake
@@ -797,6 +914,15 @@ accessing nutrients (especially phosphorus) that roots alone cannot reach. The f
 organic carbon (sugars) from the plant in return.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## 7. Plant Hormones (Extended)
 
@@ -875,6 +1001,15 @@ is broken when ABA levels decline (e.g., through cold stratification or leaching
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## 8. Adaptations of Plants to Extreme Environments
 
 ### Xerophytes (Dry Environments)
@@ -902,6 +1037,15 @@ is broken when ABA levels decline (e.g., through cold stratification or leaching
 | **Reduced vascular tissue**              | Less support needed; water is abundant.                                    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## 9. Photoperiodism in Detail
 
@@ -948,6 +1092,15 @@ This demonstrated that the **last light exposure** determines the phytochrome st
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## 10. Crop Yield and Plant Biotechnology
 
 ### Increasing Crop Yield
@@ -979,6 +1132,15 @@ This demonstrated that the **last light exposure** determines the phytochrome st
   cultivation across latitudes).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Exam-Style Problems (Extended)
 
@@ -1052,6 +1214,15 @@ $35^\circ\mathrm{C}$ and $70\%$ humidity.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -1266,6 +1437,15 @@ rate.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Additional Common Pitfalls
 
 - **Confusing xylem and phloem transport direction**: xylem transports water and minerals upward
@@ -1289,6 +1469,15 @@ rate.
   transpiration even at high temperatures.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Additional Exam-Style Problems with Full Solutions
 
@@ -1487,6 +1676,15 @@ adaptations, Including the role of specific hormones and osmoprotectants.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Cross-References to Related Topics
 
 - **Cell membrane and transport**: Review
@@ -1505,6 +1703,15 @@ adaptations, Including the role of specific hormones and osmoprotectants.
   adaptations to different biomes and ecosystems.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
+}
+</script>
 
 | Topic           | Site | Link                                                                             |
 | --------------- | ---- | -------------------------------------------------------------------------------- |

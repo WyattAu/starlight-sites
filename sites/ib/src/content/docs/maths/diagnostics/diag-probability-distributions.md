@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability Distributions", "url": "https://ib.wyattau.com/maths/diagnostics/diag-probability-distributions"}]
+}
+</script>
 title: "Probability Distributions -- Diagnostic Tests"
 description: "IB Maths Probability Distributions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability Distributions", "url": "https://ib.wyattau.com/maths/diagnostics/diag-probability-distributions"}]
+}
+</script>
 
 # Probability Distributions — Diagnostic Tests
 
@@ -74,6 +92,15 @@ The claim is correct. $X \sim \mathrm{Bin}(20, \frac{1}{4})$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability Distributions", "url": "https://ib.wyattau.com/maths/diagnostics/diag-probability-distributions"}]
+}
+</script>
+
 ### UT-2: Normal Distribution — Sign Error in Standardisation
 
 **Question:**
@@ -106,6 +133,15 @@ gives the probability of being **shorter** than $185\,\mathrm{cm}$Not taller. Th
 $P(X \gt 185)$So the answer is $1 - 0.8944 = 0.1056$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability Distributions", "url": "https://ib.wyattau.com/maths/diagnostics/diag-probability-distributions"}]
+}
+</script>
 
 ### UT-3: Poisson Approximation to Binomial
 
@@ -151,6 +187,15 @@ Poisson: $\frac{4e^{-2}}{15} \approx \frac{4 \times 0.1353}{15} \approx 0.0361$.
 The approximation is very close, with relative error less than $0.3\%$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability Distributions", "url": "https://ib.wyattau.com/maths/diagnostics/diag-probability-distributions"}]
+}
+</script>
 
 ## Integration Tests
 

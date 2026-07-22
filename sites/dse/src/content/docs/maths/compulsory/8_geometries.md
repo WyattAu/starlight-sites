@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "8_geometries", "url": "https://dse.wyattau.com/maths/compulsory/8_geometries"}]
+}
+</script>
 title: Geometries
 description: "Coordinate geometry provides a bridge between algebraic equations and geometric figures, enabling The use of algebraic methods to solve geometric problems"
 date: 2025-06-03T16:20:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "8_geometries", "url": "https://dse.wyattau.com/maths/compulsory/8_geometries"}]
+}
+</script>
 
 Coordinate geometry provides a bridge between algebraic equations and geometric figures, enabling
 The use of algebraic methods to solve geometric problems and vice versa.
@@ -521,6 +539,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "8_geometries", "url": "https://dse.wyattau.com/maths/compulsory/8_geometries"}]
+}
+</script>
+
 </details>
 <summary>Wrap-up Questions</summary>
 1. **Question:** Find the equation of the perpendicular bisector of the line segment joining
@@ -699,6 +726,15 @@ of a rectangle. Find the equation of the circle passing through all four vertice
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "8_geometries", "url": "https://dse.wyattau.com/maths/compulsory/8_geometries"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 the DSE specification for this topic, each with a full worked solution.
 
@@ -709,6 +745,15 @@ See for instructions on
 self-marking and building a personal test matrix.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "8_geometries", "url": "https://dse.wyattau.com/maths/compulsory/8_geometries"}]
+}
+</script>
 
 ## DSE Exam Technique
 
@@ -737,6 +782,15 @@ appropriate.
 5. **Parallel/perpendicular line** problems.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "8_geometries", "url": "https://dse.wyattau.com/maths/compulsory/8_geometries"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -853,6 +907,15 @@ $$3x + 4y - 19 = 0$$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "8_geometries", "url": "https://dse.wyattau.com/maths/compulsory/8_geometries"}]
+}
+</script>
 
 ## DSE Exam-Style Questions
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Nervous System", "url": "https://alevel.wyattau.com/biology/nervous-system"}]
+}
+</script>
 title: Nervous System
 description: "The nervous system contains three functional types of neurone: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-18T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Nervous System", "url": "https://alevel.wyattau.com/biology/nervous-system"}]
+}
+</script>
 
 ## Nervous System
 
@@ -1165,6 +1183,15 @@ In the withdrawal reflex:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Nervous System", "url": "https://alevel.wyattau.com/biology/nervous-system"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 ## 24. Muscle Contraction: The Sliding Filament Theory
 
@@ -1253,6 +1280,15 @@ be modified to some extent by training (endurance training increases the oxidati
 II fibres).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Nervous System", "url": "https://alevel.wyattau.com/biology/nervous-system"}]
+}
+</script>
 
 </aside>
 <aside class="starlight-aside starlight-aside--tip">
@@ -2314,6 +2350,15 @@ so no light is detected.
 | 9. Reuptake/recycling          | Choline is taken back up into the presynaptic neurone by active transport; combined with acetyl-CoA to resynthesise ACh; stored in new vesicles                                                   |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Nervous System", "url": "https://alevel.wyattau.com/biology/nervous-system"}]
+}
+</script>
 
 </aside>
 <aside class="starlight-aside starlight-aside--tip">

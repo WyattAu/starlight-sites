@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
 title: "Plant Biology -- Diagnostic Tests"
 description: "DSE Plant Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
 
 # DSE Biology Diagnostic: Plant Biology
 
@@ -25,6 +43,15 @@ is supplied to the electron transport chain after the blockage point, NADP$^{+}$
 resume. Explain why. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -61,6 +88,15 @@ downstream of the blockage.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
+
 ## Unit Test 2: Transpiration Mechanism and Factors
 
 **Question**
@@ -85,6 +121,15 @@ marks]
 potential. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -116,6 +161,15 @@ uptake.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
+
 ## Unit Test 3: Xylem vs Phloem Structure and Translocation
 
 **Question**
@@ -131,6 +185,15 @@ severed, phloem sap continues to exude from the cut end. Explain this observatio
 trunk (ring-barking). Explain why the tree eventually dies above the ring-barked region. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -163,6 +226,15 @@ functioning root system, the tree above the ring cannot obtain water and mineral
 death.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
 
 ## Intuition
 
@@ -203,6 +275,15 @@ expected change in photosynthesis rate. [4 marks]
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
+
 **Worked Solution**
 
 (a) At high light intensity, light is no longer the **limiting factor**. Even though more light
@@ -239,6 +320,15 @@ rate may be very low.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
+
 ## Integration Test 2: Plant Hormones and Phototropism
 
 **Question**
@@ -256,6 +346,15 @@ the light. Explain this difference in response despite both organs receiving the
 of auxin. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -287,6 +386,15 @@ higher auxin, while root cells are inhibited.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
+
 ## Integration Test 3: Transport in Plants -- Multi-Concept Synthesis
 
 **Question**
@@ -305,6 +413,15 @@ amino acids. Explain how the radioactive carbon could have been transferred from
 xylem. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
 
 **Worked Solution**
 

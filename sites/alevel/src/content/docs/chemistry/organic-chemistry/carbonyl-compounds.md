@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}, {"name": "Carbonyl Compounds", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry/carbonyl-compounds"}]
+}
+</script>
 title: Carbonyl Compounds
 description: "Carbonyl compounds contain the C=O functional group. The carbonyl carbon is hybridised with Trigonal planar geometry. The oxygen is more electronegative"
 date: 2026-04-22T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}, {"name": "Carbonyl Compounds", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry/carbonyl-compounds"}]
+}
+</script>
 
 # Carbonyl Compounds
 
@@ -900,6 +918,15 @@ Retrosynthetic analysis:
 $$\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}],\,\text{distillation}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CHO} \xrightarrow{\mathrm{HCN}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{CN} \xrightarrow{\mathrm{H}_3\mathrm{O}^+,\,\text{reflux}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}(\mathrm{OH})\mathrm{COOH}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}, {"name": "Carbonyl Compounds", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry/carbonyl-compounds"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 hardest questions within the A-Level specification for this topic, each with a full worked solution.

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Networks", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-networks"}]
+}
+</script>
 title: "Computer Networks -- Diagnostic Tests"
 description: "A-Level Computer Science Computer Networks -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Networks", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-networks"}]
+}
+</script>
 
 
 ## Intuition
@@ -55,6 +73,15 @@ but in practice it sits between the application and transport layers.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Networks", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-networks"}]
+}
+</script>
+
 ### UT-2: IP Addressing and Subnetting
 
 **Question:** A company has been assigned the IP address `192.168.10.0/24`. (a) How many usable host
@@ -90,6 +117,15 @@ Each subnet supports 62 usable hosts.
 (c) Broadcast address of the second subnet: `192.168.10.127`.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Networks", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-networks"}]
+}
+</script>
 
 ### UT-3: Network Security
 
@@ -185,6 +221,15 @@ would forward the request to the origin but still benefit from TLS termination a
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Networks", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-networks"}]
+}
+</script>
+
 ### IT-2: Network Protocols and Error Detection (with Data Representation)
 
 **Question:** Data is transmitted using a Hamming(7,4) code. The 4-bit data word `1011` is to be
@@ -235,6 +280,15 @@ This demonstrates the power of Hamming codes: single-bit errors are both detecte
 using only 3 extra parity bits for 4 data bits.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Networks", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-networks"}]
+}
+</script>
 
 ### IT-3: TCP vs UDP and Application Design (with Software Engineering)
 

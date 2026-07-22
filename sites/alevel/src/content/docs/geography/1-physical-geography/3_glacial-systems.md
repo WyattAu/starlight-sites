@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
+}
+</script>
 title: Glacial Systems and Landscapes
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, physical-geography]
 description: "A-Level Geography Glacial Systems and Landscapes notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
+}
+</script>
 
 # Glacial Systems and Landscapes
 
@@ -18,6 +36,15 @@ land surface is currently covered by glaciers and ice sheets, but during the las
 (approximately 22,000 years ago), ice covered roughly 30% of the planet.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
+}
+</script>
 
 ## Key Concepts and Definitions
 
@@ -41,6 +68,15 @@ land surface is currently covered by glaciers and ice sheets, but during the las
 | **Active layer**         | The surface layer of ground above permafrost that thaws in summer and refreezes in winter                                       |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
+}
+</script>
 
 ## Glacial Processes
 
@@ -123,6 +159,15 @@ or encounters a flattening of gradient. Glacial deposits (till) are characterist
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
+}
+</script>
+
 ## Glacial Landforms
 
 ### Erosional Landforms
@@ -153,6 +198,15 @@ or encounters a flattening of gradient. Glacial deposits (till) are characterist
 | **Kame**                   | A mound of stratified sediment deposited by meltwater in a depression on the surface or at the margin of a retreating glacier.                                                                                                                                                                                          |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
+}
+</script>
 
 ## Periglacial Processes and Landforms
 
@@ -188,6 +242,15 @@ Alaska, and high mountain areas.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
+}
+</script>
+
 ## Climate Reconstruction
 
 ### Using Glacial Evidence to Reconstruct Past Climates
@@ -219,6 +282,15 @@ Glacial landforms and deposits provide crucial evidence for understanding past c
 - **Dendrochronology**: Tree ring width and density provide year-by-year climate records.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
+}
+</script>
 
 ## Case Studies
 
@@ -283,11 +355,29 @@ Monitoring Network (GLAMOS) reported that Swiss glaciers lost over 6% of their r
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
+}
+</script>
+
 ## Intuition
 
 A glacier behaves like an incredibly slow-moving river of ice. It flows downhill under its own weight, lubricated by meltwater at its base, carving the landscape much like a sheet of sandpaper dragged across wood. The U-shaped valley it leaves behind is like a scoop mark made by a giant spoon. A drumlin is like a streamlined pebble in a stream, shaped by the ice flowing over it. Think of permafrost as a frozen sponge: when it thaws, the water it releases destabilizes the ground above, creating the hummocky terrain of thermokarst. Erratics are geological fingerprints, boulders dropped by melting ice that tell us exactly where ancient glaciers traveled, much like finding a seashell far from the ocean.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -306,6 +396,15 @@ A glacier behaves like an incredibly slow-moving river of ice. It flows downhill
    contexts.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -366,6 +465,15 @@ Mayo, Ireland.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
+}
+</script>
+
 ## Summary
 
 - Glaciers form where accumulation exceeds ablation; they move via basal sliding, internal
@@ -382,6 +490,15 @@ Mayo, Ireland.
   change and has significant environmental and economic consequences.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "3_glacial Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/3_glacial-systems"}]
+}
+</script>
 
 > **Sources**: AQA Geography (7037) specification; Benn and Evans, _Glaciers and Glaciation_ (2010);
 > GLAMOS Swiss Glacier Monitoring; Evans, _Glacial Geomorphology_ (2013); Lake District National

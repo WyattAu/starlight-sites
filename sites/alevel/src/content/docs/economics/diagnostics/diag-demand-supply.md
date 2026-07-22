@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Demand Supply", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-demand-supply"}]
+}
+</script>
 title: "Demand, Supply, and Equilibrium -- Diagnostic Tests"
 description: "A-Level Economics Demand, Supply, and Equilibrium -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Demand Supply", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-demand-supply"}]
+}
+</script>
 
 
 ## Intuition
@@ -41,6 +59,15 @@ the percentage increase in price, so revenue falls.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Demand Supply", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-demand-supply"}]
+}
+</script>
+
 ### UT-2: Price Elasticity of Supply
 
 **Question:** The supply of hand-sanitiser is given by $Q_s = -100 + 50P$. Calculate the PES when
@@ -70,6 +97,15 @@ expand production capacity, new firms can enter the market, and supply chains ca
 supply more elastic.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Demand Supply", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-demand-supply"}]
+}
+</script>
 
 ### UT-3: Consumer and Producer Surplus
 
@@ -171,6 +207,15 @@ the government as revenue, but destroyed.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Demand Supply", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-demand-supply"}]
+}
+</script>
+
 ### IT-2: Subsidy Analysis (with Theory of the Firm)
 
 **Question:** The government provides a production subsidy of $\pounds 6$ per unit to wheat farmers.
@@ -212,6 +257,15 @@ to consumers (given by the demand curve). The resources used to produce these ex
 been allocated more efficiently elsewhere in the economy.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Demand Supply", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-demand-supply"}]
+}
+</script>
 
 ### IT-3: Multiple Market Equilibrium (with The Economic Problem)
 
@@ -264,6 +318,15 @@ subsidy, not both.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Demand Supply", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-demand-supply"}]
+}
+</script>
+
 ## Section 3: Extended Quantitative Practice
 
 **UT-4 (Extension).** A government imposes a per-unit subsidy of $\pounds 8$ on good $X$. Demand:
@@ -300,6 +363,15 @@ The DWL arises because the subsidy encourages overproduction (72 units vs the so
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Demand Supply", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-demand-supply"}]
+}
+</script>
+
 **UT-5 (Extension).** The price elasticity of demand for bus travel in a city is $-0.4$ and the
 cross-price elasticity of demand between bus travel and taxi travel is $+0.6$. The city council
 reduces bus fares by 25%. Calculate: (a) the percentage change in bus passenger numbers, (b) the
@@ -320,6 +392,15 @@ falls by 15% (bus and taxi are substitutes). The bus fare reduction reduces cong
 by shifting commuters from taxis to buses.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Demand Supply", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-demand-supply"}]
+}
+</script>
 
 **UT-6 (Extension).** A market has demand $Q_D = 200 - 4P$ and supply $Q_S = 6P - 80$. The
 government imposes a price ceiling at $\pounds 20$. Calculate: (a) the equilibrium before the
@@ -349,6 +430,15 @@ DWL of 192 because 48 units that were valued above cost (between $Q = 40$ and $Q
 longer produced.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Demand Supply", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-demand-supply"}]
+}
+</script>
 
 **IT-4 (Extension): Subsidy and Market Failure.** Agricultural production creates negative
 externalities (pollution) with a marginal external cost of $MEC = 0.1Q$. The demand is $P = 100 - Q$

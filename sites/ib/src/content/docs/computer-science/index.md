@@ -1,5 +1,14 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Index", "url": "https://ib.wyattau.com/computer-science/index"}]
+}
+</script>
+
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -29,6 +38,15 @@ date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Index", "url": "https://ib.wyattau.com/computer-science/index"}]
+}
+</script>
 
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">

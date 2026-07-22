@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
 title: Chemistry - Acids, Bases, and Electrochemistry
 description: "Comprehensive educational content notes on chemistry - acids, bases, and electrochemistry with precise definitions, worked examples, and common pitfalls."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
 
 ## Acids and Bases
 
@@ -57,6 +75,15 @@ $\mathrm{H}_2\mathrm{SO}_4$$\mathrm{HClO}_4$
 **Strong bases:** Group 1 hydroxides ($\mathrm{NaOH}$$\mathrm{KOH}$), $\mathrm{Ba(OH)}_2$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
 
 ## The pH Scale
 
@@ -164,6 +191,15 @@ Each unit change in pH represents a **tenfold** change in $[\mathrm{H}^+]$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
+
 ## Acid-Base Titrations
 
 A titration is a technique for determining the concentration of a solution by reacting it with a
@@ -204,6 +240,15 @@ Moles of $\mathrm{NaOH} = 0.00200 \mathrm{ mol}$
 $$[\mathrm{NaOH}] = \frac{0.00200}{25.0/1000} = \frac{0.00200}{0.0250} = 0.0800 \mathrm{ mol/dm}^3$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
 
 ## Salt Preparation
 
@@ -259,6 +304,15 @@ Describe how to prepare a sample of copper(II) sulphate crystals.
 7. Filter, wash with cold water, and dry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
 
 ## Redox Reactions
 
@@ -338,6 +392,15 @@ $$\mathrm{MnO}_4^- + 8\mathrm{H}^+ + 5\mathrm{Fe}^{2+} \to \mathrm{Mn}^{2+} + 4\
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
+
 ## Electrolysis
 
 ### Definitions
@@ -416,6 +479,15 @@ $2\mathrm{H}_2\mathrm{O} + 2\mathrm{NaCl} \to \mathrm{H}_2 + \mathrm{Cl}_2 + 2\m
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
+
 ## Faraday"s Laws of Electrolysis
 
 ### First Law
@@ -464,6 +536,15 @@ Volume at r.t.p. ($1 \mathrm{ mol} = 24.0 \mathrm{ dm}^3$):
 $$V = 0.00933 \times 24.0 = 0.224 \mathrm{ dm}^3 = 224 \mathrm{ cm}^3$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
 
 ## Electrochemical Cells
 
@@ -536,6 +617,15 @@ The electrochemical series ranks half-reactions by their standard electrode pote
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
+
 ## Intuition
 
 **The proton shuffle:** Acids donate protons (H⁺), bases accept them — it's like a game of hot potato where protons are passed between molecules. pH measures how many free protons are floating around.
@@ -556,6 +646,15 @@ The electrochemical series ranks half-reactions by their standard electrode pote
 | Cell potential | $E^\circ_{\mathrm{cell}} = E^\circ_{\mathrm{cathode}} - E^\circ_{\mathrm{anode}}$ | Voltaic cell voltage        |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
 
 ## Exam Tips
 
@@ -635,6 +734,15 @@ Overall: $\mathrm{Zn} + 2\mathrm{Ag}^+ \to \mathrm{Zn}^{2+} + 2\mathrm{Ag}$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
+
 ## Buffers
 
 ### Definition
@@ -700,6 +808,15 @@ $\mathrm{p}K_a \pm 1$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
+
 ## Indicators and pH Curves
 
 ### Strong Acid - Strong Base Titration
@@ -755,6 +872,15 @@ $$\mathrm{pH} = 14 - 5.28 = 8.72$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
+
 ## Corrosion and Its Prevention
 
 ### Rusting of Iron
@@ -785,6 +911,15 @@ $$4\mathrm{Fe}^{2+} + 4\mathrm{OH}^- + \mathrm{O}_2 + 2\mathrm{H}_2\mathrm{O} \t
 | Cathodic protection    | Applying negative voltage to make the metal the cathode |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -840,6 +975,15 @@ metal** method can be used:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
+
 ## Additional Practice Questions
 
 <summary>More Exam-Style Problems</summary>
@@ -888,6 +1032,15 @@ $$Q = \frac{2.38 \times 2 \times 96500}{63.5} = \frac{459340}{63.5} = 7234 \math
 $$t = \frac{Q}{I} = \frac{7234}{4.0} = 1808.5 \mathrm{ s} \approx 30.1 \mathrm{ minutes}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
 
 ## Problem Set
 

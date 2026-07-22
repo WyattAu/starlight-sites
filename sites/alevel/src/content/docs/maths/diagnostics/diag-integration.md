@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Integration", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-integration"}]
+}
+</script>
 title: "Integration -- Diagnostic Tests"
 description: "A-Level Maths Integration -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Integration", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-integration"}]
+}
+</script>
 
 
 ## Intuition
@@ -80,6 +98,15 @@ $$= \frac{3e^4}{16} - \left(-\frac{1}{16}\right) = \frac{3e^4 + 1}{16}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Integration", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-integration"}]
+}
+</script>
+
 ### UT-2: Forgetting to Change Limits in Definite Integration by Substitution
 
 **Question:**
@@ -134,6 +161,15 @@ The third student's answer is $175.2\%$ too large — a catastrophic error from 
 term.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Integration", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-integration"}]
+}
+</script>
 
 ### UT-3: Absolute Value in $\int \frac{1}{x}\, dx = \ln\lvert x \rvert$
 
@@ -194,6 +230,15 @@ A student who writes $[\ln\lvert x \rvert]_{-1}^1 = 0 - 0 = 0$ is making a serio
 the Fundamental Theorem of Calculus across a singularity.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Integration", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-integration"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -266,6 +311,15 @@ $$= \frac{8\sqrt{5}}{3} - \frac{16\sqrt{2}}{3} + 4\ln\!\left(\frac{1+\sqrt{5}}{2
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Integration", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-integration"}]
+}
+</script>
+
 ### IT-2: Integrating $\sin^2 x$ Using the Double Angle Identity (with Trigonometry)
 
 **Question:**
@@ -312,6 +366,15 @@ $$\int_0^{\frac{\pi}{2}} \sin^6 x\, dx = \frac{5}{6}\int_0^{\frac{\pi}{2}} \sin^
 $$= \frac{5}{6} \cdot \frac{3}{4} \cdot \frac{1}{2} \cdot \frac{\pi}{2} = \frac{15\pi}{96} = \frac{5\pi}{32}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Integration", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-integration"}]
+}
+</script>
 
 ### IT-3: Verifying an Integration Result by Differentiation (with Differentiation)
 

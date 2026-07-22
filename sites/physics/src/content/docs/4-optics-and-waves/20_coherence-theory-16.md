@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "20_coherence Theory 16", "url": "https://physics.wyattau.com/4-optics-and-waves/20_coherence-theory-16"}]
+}
+</script>
 title: Coherence Theory
 tags:
   - Physics
   - University
 description: 'describes the correlation of a wave with itself at different times. The is the time over which the phase relationship is maintained.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "20_coherence Theory 16", "url": "https://physics.wyattau.com/4-optics-and-waves/20_coherence-theory-16"}]
+}
+</script>
 
 ### 16.1 Temporal Coherence
 

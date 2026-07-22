@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading", "url": "https://sat.wyattau.com/reading"}, {"name": "Grammar", "url": "https://sat.wyattau.com/reading/grammar"}]
+}
+</script>
 title: "Grammar"
 description: "SAT reading: Grammar"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading", "url": "https://sat.wyattau.com/reading"}, {"name": "Grammar", "url": "https://sat.wyattau.com/reading/grammar"}]
+}
+</script>
 
 # Grammar
 
@@ -41,6 +59,15 @@ Step 3: Correct: "Running quickly, the runner reached the finish line"
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading", "url": "https://sat.wyattau.com/reading"}, {"name": "Grammar", "url": "https://sat.wyattau.com/reading/grammar"}]
+}
+</script>
+
 ### Example 2: Comma Splice
 
 **Problem:** "The experiment failed, the team decided to start over." Fix the error.
@@ -54,6 +81,15 @@ Step 4: Fix: "The experiment failed**;** the team decided to start over" (semico
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading", "url": "https://sat.wyattau.com/reading"}, {"name": "Grammar", "url": "https://sat.wyattau.com/reading/grammar"}]
+}
+</script>
+
 ### Example 3: Subject-Verb Agreement
 
 **Problem:** "Neither the students nor the teacher **were** aware of the change." Is this correct?
@@ -66,6 +102,15 @@ Step 3: Correct: "Neither the students nor the teacher **was** aware of the chan
 **Key insight:** "Neither...nor" and "either...or" follow proximity agreement — the verb matches the subject closest to it.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading", "url": "https://sat.wyattau.com/reading"}, {"name": "Grammar", "url": "https://sat.wyattau.com/reading/grammar"}]
+}
+</script>
 
 ## Intuition
 

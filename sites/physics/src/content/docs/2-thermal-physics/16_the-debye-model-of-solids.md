@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "16_the Debye Model Of Solids", "url": "https://physics.wyattau.com/2-thermal-physics/16_the-debye-model-of-solids"}]
+}
+</script>
 title: The Debye Model of Solids
 tags:
   - Physics
   - University
 description: 'The treats all atoms as independent quantum oscillators with the same frequency . Comprehensive educational content coverage with definitions and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "16_the Debye Model Of Solids", "url": "https://physics.wyattau.com/2-thermal-physics/16_the-debye-model-of-solids"}]
+}
+</script>
 
 ### 16.1 From Einstein to Debye
 

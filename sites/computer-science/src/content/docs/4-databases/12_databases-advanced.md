@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "4 Databases", "url": "https://computer-science.wyattau.com/4-databases"}, {"name": "12_databases Advanced", "url": "https://computer-science.wyattau.com/4-databases/12_databases-advanced"}]
+}
+</script>
 title: Database Systems (Advanced)
 description: "Beyond the basic operations (selection, projection, join, etc.), extended relati Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-05-06T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Computing
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "4 Databases", "url": "https://computer-science.wyattau.com/4-databases"}, {"name": "12_databases Advanced", "url": "https://computer-science.wyattau.com/4-databases/12_databases-advanced"}]
+}
+</script>
 
 ## 1. Advanced Relational Algebra
 

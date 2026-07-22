@@ -1,5 +1,14 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Discrete Mathematics", "url": "https://computer-science.wyattau.com/1-discrete-mathematics"}, {"name": "Index", "url": "https://computer-science.wyattau.com/1-discrete-mathematics/index"}]
+}
+</script>
+
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -29,6 +38,15 @@ tags:
   - Computing
   - University
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Discrete Mathematics", "url": "https://computer-science.wyattau.com/1-discrete-mathematics"}, {"name": "Index", "url": "https://computer-science.wyattau.com/1-discrete-mathematics/index"}]
+}
+</script>
 
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">

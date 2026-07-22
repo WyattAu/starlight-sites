@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Developmental Psychology", "url": "https://ib.wyattau.com/psychology/developmental-psychology"}]
+}
+</script>
 title: Developmental Psychology
 description: "Developmental psychology examines how behaviour and mental processes change across the lifespan. In the IB Psychology course, this is an applied option"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Developmental Psychology", "url": "https://ib.wyattau.com/psychology/developmental-psychology"}]
+}
+</script>
 
 # Developmental Psychology
 

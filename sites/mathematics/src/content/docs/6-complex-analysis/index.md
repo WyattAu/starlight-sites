@@ -1,5 +1,14 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "Index", "url": "https://mathematics.wyattau.com/6-complex-analysis/index"}]
+}
+</script>
+
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -29,6 +38,15 @@ tags:
   - University
 description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "Index", "url": "https://mathematics.wyattau.com/6-complex-analysis/index"}]
+}
+</script>
 
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">

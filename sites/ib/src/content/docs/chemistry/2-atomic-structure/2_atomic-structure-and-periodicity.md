@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
 title: Atomic Structure and Periodicity
 description: "Rigorous IB chemistry notes covering Atomic Structure and Periodicity. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
 
 ## Intuition
 
@@ -96,6 +114,15 @@ Stability depends on the neutron-to-proton ratio:
   counteract electrostatic repulsion between protons)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
 
 ## 2. Quantum Model of the Atom
 
@@ -230,6 +257,15 @@ All three $2p$ electrons are unpaired with parallel spins, following Hund's rule
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
+
 ## 3. The Periodic Table
 
 ### Structure
@@ -268,6 +304,15 @@ The IB uses IUPAC group numbers $1$--$18$:
 | $18$        | Noble gases           | $ns^2\, np^6$ (except He: $1s^2$) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
 
 ## 4. Periodic Trends
 
@@ -421,6 +466,15 @@ Small atomic radius.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
+
 ## 5. Group 1: Alkali Metals
 
 ### Physical Properties
@@ -498,6 +552,15 @@ Alkali metal ions produce characteristic flame colours due to electron transitio
 | K     | Fertilisers ($\mathrm{KNO}_3$), potash                |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
 
 ## 6. Group 17: Halogens
 
@@ -595,6 +658,15 @@ Interhalogens are generally more reactive than the parent halogens because the b
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
+
 ## 7. Group 18: Noble Gases
 
 ### Properties
@@ -639,6 +711,15 @@ Fluorine and oxygen can remove or share electrons.
 | Xe        | Xenon lamps (used in IMAX projectors, car headlights), ion propulsion |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
 
 ## 8. Transition Metals (HL)
 
@@ -790,6 +871,15 @@ Where $n$ is the number of unpaired electrons.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
+
 ## 9. Spectral Evidence for Atomic Structure
 
 ### Emission Spectra
@@ -860,6 +950,15 @@ The existence of discrete spectral lines is direct evidence that electron energy
 Classical model predicted a continuous spectrum, which is never observed for individual atoms.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
 
 ## 10. Mass Spectrometry
 
@@ -959,6 +1058,15 @@ Molecules with the same nominal mass but different molecular formulas:
 | $\mathrm{N}_2\mathrm{O}$             | $44.0011$      |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
 
 ## 11. HL Extensions
 
@@ -1110,6 +1218,15 @@ For $n = 4$: $N = 6$ spectral lines.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
+
 ## 12. Exam Practice
 
 ### Question 1 (SL — 4 marks)
@@ -1147,6 +1264,15 @@ Percentage abundance of $\mathrm{B}$-10 = $19\%$. (1 mark for setup, 1 mark for 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
+
 ### Question 2 (SL — 3 marks)
 
 Explain why the first ionization energy of sodium is lower than that of magnesium, but the first
@@ -1164,6 +1290,15 @@ Higher energy level than the $3s$ electrons of Mg and is partially shielded by t
 Also: Mg has a stable filled $3s$ subshell configuration. (1 mark)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
 
 ### Question 3 (SL — 4 marks)
 
@@ -1186,6 +1321,15 @@ Nucleus and decreasing the atomic radius. (1 mark)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
+
 ### Question 4 (SL — 3 marks)
 
 A sample of chlorine gas is analysed by mass spectrometry. Describe and explain the appearance of
@@ -1203,6 +1347,15 @@ The sample is diatomic ($\mathrm{Cl}_2$), so additional peaks appear at $m/z = 7
 $m/z = 74$ ($^{37}\mathrm{Cl}$--$^{37}\mathrm{Cl}$) in the ratio $9:6:1$. (1 mark)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
 
 ### Question 5 (HL — 5 marks)
 
@@ -1228,6 +1381,15 @@ The $1s$ electron is much closer to the nucleus and experiences far less shieldi
 Much more energy to remove. This is an inner shell electron. (1 mark)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
 
 ### Question 6 (HL — 6 marks)
 
@@ -1259,6 +1421,15 @@ Facilitating the formation of $\mathrm{NH}_3$. (1 mark)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
+
 ### Question 7 (HL — 4 marks)
 
 The successive ionization energies of an element X are shown below (in kJ/mol):
@@ -1286,6 +1457,15 @@ Higher. (1 mark)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
+
 ### Question 8 (HL — 4 marks)
 
 Calculate the wavelength of radiation emitted when an electron in a hydrogen atom transitions from
@@ -1311,6 +1491,15 @@ This is part of the Balmer series (transitions to $n = 2$) and falls in the visi
 Electromagnetic spectrum (blue-violet). (2 marks)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
+}
+</script>
 
 </aside>
 <aside class="starlight-aside starlight-aside--note">

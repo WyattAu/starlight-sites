@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "kotlin", "url": "https://kotlin.wyattau.com"}, {"name": "Intermediate", "url": "https://kotlin.wyattau.com/intermediate"}, {"name": "Collections", "url": "https://kotlin.wyattau.com/intermediate/collections"}]
+}
+</script>
 title: Collections
 description: "Kotlin' s collection types are split into two hierarchies: and . Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-18
@@ -7,6 +16,15 @@ tags:
 categories:
   - Kotlin
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "kotlin", "url": "https://kotlin.wyattau.com"}, {"name": "Intermediate", "url": "https://kotlin.wyattau.com/intermediate"}, {"name": "Collections", "url": "https://kotlin.wyattau.com/intermediate/collections"}]
+}
+</script>
 
 ## Collection Hierarchy
 

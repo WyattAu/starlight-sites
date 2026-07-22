@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
 title: "Combinatorics -- Diagnostic Tests"
 description: "DSE Maths Combinatorics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
 
 # Combinatorics — Diagnostic Tests
 
@@ -35,6 +53,15 @@ $210 - \dbinom{8}{2} = 210 - 28 = 182$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
+
 ### UT-2: People Sitting Together Restriction
 
 **Question:**
@@ -61,6 +88,15 @@ Total: $120 \times 20 \times 6 = 14400$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
+
 ### UT-3: Binomial Theorem Coefficient Extraction
 
 **Question:**
@@ -85,6 +121,15 @@ Coefficient: $-48384$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
+
 ### UT-4: Circular Permutations
 
 **Question:**
@@ -101,6 +146,15 @@ A common mistake is using $6! = 720$Which counts the same arrangement multiple t
 rotation).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
 
 ### UT-5: Binomial Theorem with Rational Exponent
 
@@ -120,6 +174,15 @@ $$= 1 - 6x + \frac{12}{2} \times 4x^2 + \cdots$$
 $$= 1 - 6x + 24x^2 + \cdots$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -141,6 +204,15 @@ Ways with exactly 2 red: $\dbinom{4}{2} \times \dbinom{6}{1} = 6 \times 6 = 36$.
 $$P = \frac{36}{120} = \frac{3}{10}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
 
 ### IT-2: Combinatorics and Sequences (with Sequences and Series)
 
@@ -186,6 +258,15 @@ Therefore $n = 7$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
+
 ### IT-3: Combinatorics and Algebra (with Polynomials)
 
 **Question:**
@@ -207,6 +288,15 @@ $n = 11$ (since $n \geq 0$).
 $$\dbinom{11}{4} = \frac{11 \times 10 \times 9 \times 8}{4 \times 3 \times 2 \times 1} = 330$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -230,6 +320,15 @@ Arrangements with R's together: $\dfrac{6!}{2!} = 360$.
 Arrangements with R's not adjacent: $1260 - 360 = 900$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
 
 ### WE-2: Selecting with Conditions
 
@@ -259,6 +358,15 @@ Total: $120 + 60 + 6 = 186$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
+
 ### WE-3: Binomial Expansion Finding Constant Term
 
 **Question:**
@@ -276,6 +384,15 @@ $$T_5 = \dbinom{6}{4} \cdot 2^4 \cdot x^0 = 15 \times 16 = 240$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
+
 ### WE-4: Permutation with Identical Objects
 
 **Question:**
@@ -290,6 +407,15 @@ $$\frac{11!}{4! \times 4! \times 2!} = \frac{39916800}{24 \times 24 \times 2} = 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
+
 ### WE-5: Binomial Theorem Middle Term
 
 **Question:**
@@ -303,6 +429,15 @@ $n = 10$So there are 11 terms. The middle term is the 6th term ($r = 5$).
 $$T_6 = \dbinom{10}{5}(2x)^5\left(-\frac{1}{x}\right)^5 = 252 \times 32x^5 \times \left(-\frac{1}{x^5}\right) = 252 \times 32 \times (-1) = -8064$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
 
 ### WE-6: Number of Ways to Distribute Objects
 
@@ -321,6 +456,15 @@ $$3^8 - \dbinom{3}{1} \cdot 2^8 + \dbinom{3}{2} \cdot 1^8 = 6561 - 3 \times 256 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
+
 ### WE-7: Seating Arrangement with Gender Alternation
 
 **Question:**
@@ -336,6 +480,15 @@ For each pattern: $4! \times 4! = 24 \times 24 = 576$ ways.
 Total: $2 \times 576 = 1152$ ways.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
 
 ### WE-8: Paths on a Grid
 
@@ -353,6 +506,15 @@ The number of distinct arrangements of 5 R's and 3 U's:
 $$\dbinom{8}{5} = \dbinom{8}{3} = \frac{8 \times 7 \times 6}{3 \times 2 \times 1} = 56$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
 
 ## Intuition
 
@@ -386,6 +548,15 @@ $$\dbinom{8}{5} = \dbinom{8}{3} = \frac{8 \times 7 \times 6}{3 \times 2 \times 1
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
+
 ## DSE Exam-Style Questions
 
 ### DSE-1
@@ -414,6 +585,15 @@ Coefficient of $x^3$: $280 + 84 = 364$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
+
 ### DSE-2
 
 A debating team of 4 is to be selected from 7 boys and 5 girls.
@@ -438,6 +618,15 @@ $495 - 45 = 450$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
+
 ### DSE-3
 
 Find the first four terms in the expansion of $(1 - 3x)^{1/2}$ in ascending powers of $x$. State the
@@ -456,6 +645,15 @@ $$= 1 - \frac{3x}{2} - \frac{9x^2}{8} - \frac{27x^3}{16} + \cdots$$
 The expansion is valid when $|-3x| < 1$I.e. $|x| < \dfrac{1}{3}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
 
 ### DSE-4
 
@@ -480,6 +678,15 @@ Total: $24 \times 2^5 = 24 \times 32 = 768$.
 (c) Total minus couples together: $9! - 768 = 362880 - 768 = 362112$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Combinatorics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-combinatorics"}]
+}
+</script>
 
 ### DSE-5
 

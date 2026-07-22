@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebraic Expressions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-algebraic-expressions"}]
+}
+</script>
 title: "Algebraic Expressions -- Diagnostic Tests"
 description: "A-Level Maths Algebraic Expressions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebraic Expressions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-algebraic-expressions"}]
+}
+</script>
 
 
 ## Intuition
@@ -72,6 +90,15 @@ $\frac{\frac{1}{3}+\frac{1}{1}}{\frac{1}{9}-\frac{1}{1}} = \frac{4/3}{-8/9} = -\
 our result gives $-\frac{4-1}{2} = -\frac{3}{2}$. Consistent.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebraic Expressions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-algebraic-expressions"}]
+}
+</script>
 
 ### UT-2: Surds with Nested Sums in the Denominator
 
@@ -164,6 +191,15 @@ $$= -\frac{63}{44} - \frac{13}{22}\sqrt{15} + \frac{15}{11}\sqrt{3} + \frac{57}{
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebraic Expressions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-algebraic-expressions"}]
+}
+</script>
+
 ### UT-3: Negative and Fractional Indices with Nested Expressions
 
 **Question:**
@@ -202,6 +238,15 @@ $$a + a^{-1} = 23$$
 $$a + 1 + a^{-1} = (a + a^{-1}) + 1 = 23 + 1 = 24$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebraic Expressions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-algebraic-expressions"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -263,6 +308,15 @@ The binomial expansion confirms the coefficients $1, -3, 6, -12$ for the polynom
 remainder $\frac{24}{y+2}$ accounts for the terms beyond $x^3$ in the expansion.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebraic Expressions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-algebraic-expressions"}]
+}
+</script>
 
 ### IT-2: Function Composition with Algebraic Fractions (with Functions)
 
@@ -361,6 +415,15 @@ Checking restrictions: $x \neq -1$ (domain of $g$) and $x \neq 2$ (domain of $f$
 $-3+2\sqrt{2}$ nor $-3-2\sqrt{2}$ equals $-1$ or $2$So both solutions are valid.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebraic Expressions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-algebraic-expressions"}]
+}
+</script>
 
 ### IT-3: Substituting into Equations (with Equations and Inequalities)
 

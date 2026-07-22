@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "02 Setup", "url": "https://dart.wyattau.com/02-setup"}, {"name": "01 Installation", "url": "https://dart.wyattau.com/02-setup/01-installation"}]
+}
+</script>
 title: Installation
 description: "My recommended IDE for Dart is modifying the text editor VSCode with Dart and Fl Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-07-12T15:51:40.399Z
@@ -8,6 +17,15 @@ categories:
   - Dart
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "02 Setup", "url": "https://dart.wyattau.com/02-setup"}, {"name": "01 Installation", "url": "https://dart.wyattau.com/02-setup/01-installation"}]
+}
+</script>
 
 ## IDE choice
 

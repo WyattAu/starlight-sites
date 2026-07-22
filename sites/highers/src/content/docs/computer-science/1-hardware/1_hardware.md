@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "1 Hardware", "url": "https://highers.wyattau.com/computer-science/1-hardware"}, {"name": "1_hardware", "url": "https://highers.wyattau.com/computer-science/1-hardware/1_hardware"}]
+}
+</script>
 title: Computer Systems
 description: "Scottish Highers Computer Science Computer Systems notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-computer-science
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "1 Hardware", "url": "https://highers.wyattau.com/computer-science/1-hardware"}, {"name": "1_hardware", "url": "https://highers.wyattau.com/computer-science/1-hardware/1_hardware"}]
+}
+</script>
 
 # Computer Systems
 
@@ -307,6 +325,15 @@ Program crash or change the meaning of a legal document. Photographs can tolerat
 Because the human eye cannot perceive small differences in colour or detail.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "1 Hardware", "url": "https://highers.wyattau.com/computer-science/1-hardware"}, {"name": "1_hardware", "url": "https://highers.wyattau.com/computer-science/1-hardware/1_hardware"}]
+}
+</script>
 
 ## Computer Architecture
 
@@ -640,6 +667,15 @@ Restores the saved state, and resumes the calculation. The user does not notice 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "1 Hardware", "url": "https://highers.wyattau.com/computer-science/1-hardware"}, {"name": "1_hardware", "url": "https://highers.wyattau.com/computer-science/1-hardware/1_hardware"}]
+}
+</script>
+
 
 ## Intuition
 
@@ -683,6 +719,15 @@ See the examples integrated throughout the sections above.
     lossless preserves the original exactly (PNG, FLAC).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "1 Hardware", "url": "https://highers.wyattau.com/computer-science/1-hardware"}, {"name": "1_hardware", "url": "https://highers.wyattau.com/computer-science/1-hardware/1_hardware"}]
+}
+</script>
 
 ## Practice Questions
 
@@ -760,6 +805,15 @@ Understanding these concepts thoroughly is essential for both examinations and p
 programming, and requires both theoretical knowledge and hands-on practice.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "1 Hardware", "url": "https://highers.wyattau.com/computer-science/1-hardware"}, {"name": "1_hardware", "url": "https://highers.wyattau.com/computer-science/1-hardware/1_hardware"}]
+}
+</script>
 
 ## Cross-References
 

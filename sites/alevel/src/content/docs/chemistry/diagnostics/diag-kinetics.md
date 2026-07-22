@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
 title: "Chemical Kinetics -- Diagnostic Tests"
 description: "A-Level Chemistry Chemical Kinetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
 
 
 ## Intuition
@@ -72,6 +90,15 @@ changing concentrations.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
+
 ### UT-2: Arrhenius Equation and Activation Energy
 
 **Question:**
@@ -132,6 +159,15 @@ The negative gradient confirms that as temperature increases ($1/T$ decreases), 
 (rate constant increases).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
 
 ### UT-3: Maxwell-Boltzmann Distribution and Catalyst Mechanism
 
@@ -233,6 +269,15 @@ favours elimination over substitution.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
+
 ### IT-2: Rate Equations and Equilibrium (with Chemical Equilibrium)
 
 **Question:**
@@ -295,6 +340,15 @@ reaction is more favoured. Since $K_c = k_f/k_r$And $K_c$ has increased:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
+
 ### IT-3: Catalyst and Rate Profile Analysis (with Thermodynamics)
 
 **Question:**
@@ -344,6 +398,15 @@ same. This can be seen on an enthalpy profile diagram: the catalysed pathway has
 the same starting and ending levels.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
 
 ### Additional Practice Problems
 

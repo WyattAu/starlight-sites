@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "5_bose Einstein Condensation", "url": "https://physics.wyattau.com/2-thermal-physics/5_bose-einstein-condensation"}]
+}
+</script>
 title: Bose-Einstein Condensation
 tags:
   - Physics
   - University
 description: 'For bosons, the average occupation of a single-particle state of energy is Comprehensive educational content coverage with definitions and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "5_bose Einstein Condensation", "url": "https://physics.wyattau.com/2-thermal-physics/5_bose-einstein-condensation"}]
+}
+</script>
 
 ### 5.1 Ideal Bose Gas
 
@@ -90,6 +108,15 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "5_bose Einstein Condensation", "url": "https://physics.wyattau.com/2-thermal-physics/5_bose-einstein-condensation"}]
+}
+</script>
 
 ### Key Relationships
 

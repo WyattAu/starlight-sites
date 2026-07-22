@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "1 Physical Chemistry", "url": "https://chemistry.wyattau.com/1-physical-chemistry"}, {"name": "Chemical Kinetics", "url": "https://chemistry.wyattau.com/1-physical-chemistry/chemical-kinetics"}]
+}
+</script>
 title: Chemical Kinetics
 description: "For the reaction , the rate of reaction is: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-05-31T00:00:00.000Z
@@ -8,6 +17,15 @@ tags:
 categories:
   - Chemistry
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "1 Physical Chemistry", "url": "https://chemistry.wyattau.com/1-physical-chemistry"}, {"name": "Chemical Kinetics", "url": "https://chemistry.wyattau.com/1-physical-chemistry/chemical-kinetics"}]
+}
+</script>
 
 ## 1. Rate Laws and Reaction Order
 

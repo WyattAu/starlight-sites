@@ -1,9 +1,27 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "9 Topology", "url": "https://mathematics.wyattau.com/9-topology"}, {"name": "10_common Pitfalls", "url": "https://mathematics.wyattau.com/9-topology/10_common-pitfalls"}]
+}
+</script>
 title: Common Pitfalls
 tags:
   - University Maths
 description: "1. False. Only finite intersections are guaranteed. Counterexample: in , , which Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "9 Topology", "url": "https://mathematics.wyattau.com/9-topology"}, {"name": "10_common Pitfalls", "url": "https://mathematics.wyattau.com/9-topology/10_common-pitfalls"}]
+}
+</script>
 
 1. **"Arbitrary intersections of open sets are open."** False. Only finite intersections are
    guaranteed. Counterexample: in $\mathbb{R}$, $\bigcap_{n=1}^\infty (-1/n, 1/n) = \{0\}$, which is

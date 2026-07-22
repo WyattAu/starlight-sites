@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Microeconomics", "url": "https://alevel.wyattau.com/economics/microeconomics"}, {"name": "05 Labour Markets", "url": "https://alevel.wyattau.com/economics/microeconomics/05-labour-markets"}]
+}
+</script>
 title: Labour Markets
 description: "A profit-maximising firm hires labour up to the point where the equals the wage  Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - Economics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Microeconomics", "url": "https://alevel.wyattau.com/economics/microeconomics"}, {"name": "05 Labour Markets", "url": "https://alevel.wyattau.com/economics/microeconomics/05-labour-markets"}]
+}
+</script>
 
 ## 1. Demand for Labour
 

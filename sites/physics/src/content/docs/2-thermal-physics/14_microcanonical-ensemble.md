@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "14_microcanonical Ensemble", "url": "https://physics.wyattau.com/2-thermal-physics/14_microcanonical-ensemble"}]
+}
+</script>
 title: Microcanonical Ensemble
 tags:
   - Physics
   - University
 description: "The describes an isolated system with fixed total energy Particle number And vol Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "14_microcanonical Ensemble", "url": "https://physics.wyattau.com/2-thermal-physics/14_microcanonical-ensemble"}]
+}
+</script>
 
 The **microcanonical ensemble** describes an isolated system with fixed total energy $E$Particle
 number $N$And volume $V$.

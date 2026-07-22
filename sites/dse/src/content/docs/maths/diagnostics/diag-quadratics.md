@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 title: "Quadratics -- Diagnostic Tests"
 description: "DSE Maths Quadratics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 
 # Quadratics — Diagnostic Tests
 
@@ -36,6 +54,15 @@ problem to a linear equation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
+
 ### UT-2: Hidden Quadratic in Exponent
 
 **Question:**
@@ -62,6 +89,15 @@ Therefore $x = -2$ or $x = 0$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
+
 ### UT-3: Vieta"s Formulas Application
 
 **Question:**
@@ -76,6 +112,15 @@ By Vieta's formulas: $\alpha + \beta = \dfrac{6}{2} = 3$ and $\alpha\beta = \dfr
 $$\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta = 9 - 2\left(\frac{1}{2}\right) = 9 - 1 = 8$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 
 ### UT-4: Completing the Square to Find Range
 
@@ -93,6 +138,15 @@ $$\mathrm{ran}(f) = (-\infty,\; 5]$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
+
 ### UT-5: Factorisation with Non-Integer Coefficients
 
 **Question:**
@@ -108,6 +162,15 @@ Two numbers multiplying to $-120$ and adding to $-7$: $-15$ and $8$.
 $$6x^2 - 15x + 8x - 20 = 3x(2x - 5) + 4(2x - 5) = (3x + 4)(2x - 5)$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -143,6 +206,15 @@ Combined: $x \in (-1,\; 1) \cup (1,\; 3)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
+
 ### IT-2: Quadratics and Functions (with Functions)
 
 **Question:**
@@ -163,6 +235,15 @@ Both conditions give $k > 4$.
 Therefore $k \in (4,\; \infty)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 
 ### IT-3: Quadratics and Coordinate Geometry (with Coordinate Geometry)
 
@@ -189,6 +270,15 @@ $$AB = \sqrt{(3-2)^2 + (7-5)^2} = \sqrt{1 + 4} = \sqrt{5}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
+
 ## Worked Examples
 
 ### WE-1: Sum and Product of Roots Application
@@ -214,6 +304,15 @@ $$9x^2 - 13x + 4 = 0$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
+
 ### WE-2: Quadratic Inequality with Parameter
 
 **Question:**
@@ -232,6 +331,15 @@ When $m = 2$: $x^2 + 4x + 3 \leq 0$I.e. $(x + 1)(x + 3) \leq 0$.
 Solution: $-3 \leq x \leq -1$I.e. $x \in [-3,\; -1]$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 
 ### WE-3: Hidden Quadratic with Substitution
 
@@ -260,6 +368,15 @@ Solution: $x = -2,\; -1,\; 1,\; 2$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
+
 ### WE-4: Maximum Value Application
 
 **Question:**
@@ -281,6 +398,15 @@ Maximum area is $1250$ m$^2$ when $x = 50$ m, $y = 25$ m.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
+
 ### WE-5: Discriminant Analysis for Tangency
 
 **Question:**
@@ -300,6 +426,15 @@ $$\Delta = 1 - 4(1)(-(1+c)) = 1 + 4(1+c) = 5 + 4c = 0$$
 $$c = -\frac{5}{4}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 
 ### WE-6: Quadratic with Integer Roots
 
@@ -333,6 +468,15 @@ Distinct values of $k$: $-3$, $-2$, $6$, $7$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
+
 ### WE-7: Using Roots to Form New Equations
 
 **Question:**
@@ -351,6 +495,15 @@ $$\frac{1}{\alpha} \cdot \frac{1}{\beta} = \frac{1}{\alpha\beta} = \frac{1}{10}$
 Required equation: $x^2 - \dfrac{7}{10}x + \dfrac{1}{10} = 0$I.e. $10x^2 - 7x + 1 = 0$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 
 ### WE-8: Range of Quadratic Expression
 
@@ -385,6 +538,15 @@ The minimum value approaches $1$ but is never attained.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
+
 ## Intuition
 
 **A ball thrown in the air:** A quadratic traces a parabola — the discriminant tells you how many times it crosses the x-axis (0, 1, or 2 roots), and completing the square reveals the vertex (highest or lowest point).
@@ -416,6 +578,15 @@ The minimum value approaches $1$ but is never attained.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
+
 ## DSE Exam-Style Questions
 
 ### DSE-1
@@ -442,6 +613,15 @@ Therefore $k \in (-\infty,\; 0) \cup (0,\; 3) \cup (3,\; \infty)$.
 $3x^2 - 6x + 3 = 0 \implies x^2 - 2x + 1 = 0 \implies (x - 1)^2 = 0 \implies x = 1$ (repeated root).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 
 ### DSE-2
 
@@ -481,6 +661,15 @@ So $p = -4$, $q = \dfrac{16 - 10}{2} = 3$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
+
 ### DSE-3
 
 Let $f(x) = x^2 - 2kx + k^2 + k - 3$.
@@ -501,6 +690,15 @@ $\Delta < 0 \implies -4k + 12 < 0 \implies k > 3$.
 Minimum value $= k - 3 = -1 \implies k = 2$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 
 ### DSE-4
 
@@ -527,6 +725,15 @@ The expression is non-negative for $x < -2$ or $x \geq 3$Excluding $x = 2$.
 Solution: $x \in (-\infty,\; -2) \cup [3,\; \infty)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://dse.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 
 ### DSE-5
 

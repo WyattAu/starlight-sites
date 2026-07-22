@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/maths/mechanics"}, {"name": "01 Kinematics", "url": "https://alevel.wyattau.com/maths/mechanics/01-kinematics"}]
+}
+</script>
 title: Kinematics
 description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------ | | AQA | Paper 1 | 1D kinematics, projectiles | | Edexcel | P1 | Similar"
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/maths/mechanics"}, {"name": "01 Kinematics", "url": "https://alevel.wyattau.com/maths/mechanics/01-kinematics"}]
+}
+</script>
 
 ## Board Coverage
 
@@ -792,6 +810,15 @@ $w\,\Delta t = u^2\sin^2\theta / (2g)$ for some $\Delta t \gt 0$.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/maths/mechanics"}, {"name": "01 Kinematics", "url": "https://alevel.wyattau.com/maths/mechanics/01-kinematics"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 within the A-Level specification for this topic, each with a full worked solution.

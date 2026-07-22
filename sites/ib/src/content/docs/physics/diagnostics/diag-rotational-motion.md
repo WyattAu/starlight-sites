@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Rotational Motion", "url": "https://ib.wyattau.com/physics/diagnostics/diag-rotational-motion"}]
+}
+</script>
 title: "Rotational Motion -- Diagnostic Tests"
 description: "IB Physics Rotational Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Rotational Motion", "url": "https://ib.wyattau.com/physics/diagnostics/diag-rotational-motion"}]
+}
+</script>
 
 # Rotational Motion — Diagnostic Tests
 
@@ -71,6 +89,15 @@ magnitudes.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Rotational Motion", "url": "https://ib.wyattau.com/physics/diagnostics/diag-rotational-motion"}]
+}
+</script>
+
 ### UT-2: Parallel Axis Theorem Application
 
 **Question:**
@@ -121,6 +148,15 @@ This is the radius of gyration of the disc, and at this distance the period equa
 pendulum of length equal to the radius of gyration.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Rotational Motion", "url": "https://ib.wyattau.com/physics/diagnostics/diag-rotational-motion"}]
+}
+</script>
 
 ### UT-3: Angular Momentum Conservation with Changing Moment of Inertia
 
@@ -234,6 +270,15 @@ $\frac{2}{7} \approx 29\%$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Rotational Motion", "url": "https://ib.wyattau.com/physics/diagnostics/diag-rotational-motion"}]
+}
+</script>
+
 ### IT-2: Angular Momentum in a Collision (with Dynamics and Kinematics)
 
 **Question:**
@@ -317,6 +362,15 @@ end, because the angular momentum input is halved (shorter moment arm) while the
 is nearly unchanged.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Rotational Motion", "url": "https://ib.wyattau.com/physics/diagnostics/diag-rotational-motion"}]
+}
+</script>
 
 ### IT-3: Yo-Yo Dynamics (with Energy and Kinematics)
 

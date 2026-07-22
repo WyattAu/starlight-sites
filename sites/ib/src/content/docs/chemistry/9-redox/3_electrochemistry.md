@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
 title: Electrochemistry
 description: "Rigorous IB chemistry notes covering Electrochemistry. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
 
 ## 1. Redox Review (SL Topic 9)
 
@@ -138,6 +156,15 @@ Separately before combining them. Showing working is essential for full marks.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
+
 ## 2. Standard Electrode Potentials
 
 ### The Standard Hydrogen Electrode (SHE)
@@ -219,6 +246,15 @@ Electrons transferred.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
 
 ## 3. Electrochemical Cells (Galvanic/Voltaic Cells)
 
@@ -340,6 +376,15 @@ When asked to predict whether a reaction is spontaneous, always:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
+
 ## 4. Electrolytic Cells
 
 ### Overview
@@ -434,6 +479,15 @@ For IB exams, use the simplified rules:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
+
 ## 5. Electroplating and Industrial Applications
 
 ### Electroplating
@@ -527,6 +581,15 @@ Each electrode and the purpose of the membrane.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
 
 ## 6. Nernst Equation (HL)
 
@@ -653,6 +716,15 @@ The oxidized form is in the denominator. Reversing this will give the wrong answ
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
+
 ## 7. Standard Free Energy and Electrochemistry (HL)
 
 ### $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}}$
@@ -742,6 +814,15 @@ $2\mathrm{Ag}^+ + \mathrm{Cu} \to 2\mathrm{Ag} + \mathrm{Cu}^{2+}$Then $n = 2$No
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
 
 ## 8. Electrolysis Quantitative Problems (HL)
 
@@ -869,6 +950,15 @@ Side reactions (e.g., water electrolysis) and impurities reduce current efficien
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
+
 ## 9. Fuel Cells (HL)
 
 ### Overview
@@ -948,6 +1038,15 @@ As combustion of hydrogen, but the energy conversion pathway is different.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
 
 ## 10. Corrosion
 
@@ -1059,6 +1158,15 @@ Principle as sacrificial anodes.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
+
 ## 11. HL-Only Extensions
 
 ### Concentration Cells
@@ -1158,6 +1266,15 @@ Reversibility is what makes the battery rechargeable.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
+
 ## 12. Exam Practice
 
 ### Question 1 (SL, 4 marks)
@@ -1191,6 +1308,15 @@ $E^\circ_{\mathrm{cell}} = E^\circ_{\mathrm{cathode}} - E^\circ_{\mathrm{anode}}
 Agent is $\mathrm{Mg}$ (it is oxidized, losing electrons).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
 
 ### Question 2 (SL, 5 marks)
 
@@ -1228,6 +1354,15 @@ $n(\mathrm{O}_2) = 0.00933 / 4 = 0.00233\mathrm{ mol}$
 $V(\mathrm{O}_2) = 0.00233 \times 24.0 = 0.0560\mathrm{ dm}^3$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
 
 ### Question 3 (HL, 6 marks)
 
@@ -1267,6 +1402,15 @@ $\Delta G^\circ = -nFE^\circ_{\mathrm{cell}} = -2 \times 96500 \times 1.05 = -20
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
+
 ### Question 4 (HL, 4 marks)
 
 **Balance the following redox equation in acidic solution:**
@@ -1302,6 +1446,15 @@ $$
 $$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
 
 ### Question 5 (HL, 5 marks)
 
@@ -1341,6 +1494,15 @@ $\mathrm{Efficiency} = \frac{\Delta G^\circ}{\Delta H^\circ} \times 100\% = \fra
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
+
 ### Question 6 (SL/HL, 4 marks)
 
 A piece of iron piping is connected to a block of magnesium using a conducting wire. Both are buried
@@ -1366,6 +1528,15 @@ Block must be replaced periodically as it is consumed.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
+
 ### Question 7 (HL, 4 marks)
 
 The standard cell potential for the reaction
@@ -1389,6 +1560,15 @@ Standard conditions. The reverse reaction is not feasible
 Toward the products.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
 
 ## Summary of Key Equations
 
@@ -1606,6 +1786,15 @@ linked above.
 </aside>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
 
 ## Intuition
 

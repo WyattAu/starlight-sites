@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "7_l P Spaces", "url": "https://mathematics.wyattau.com/10-measure-theory/7_l-p-spaces"}]
+}
+</script>
 title: $L^p$ Spaces
 tags:
   - Mathematics
   - University
 description: "$L^p$ Spaces: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "7_l P Spaces", "url": "https://mathematics.wyattau.com/10-measure-theory/7_l-p-spaces"}]
+}
+</script>
 
 ### 7.1 Definition
 

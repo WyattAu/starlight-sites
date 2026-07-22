@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "18_problem Set", "url": "https://mathematics.wyattau.com/1-abstract-algebra/18_problem-set"}]
+}
+</script>
 title: Problem Set
 tags:
   - Mathematics
   - University
 description: "The following problems test understanding across all major topics. Full solutions are provided; Each problem includes a cross-reference to the relevant"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "18_problem Set", "url": "https://mathematics.wyattau.com/1-abstract-algebra/18_problem-set"}]
+}
+</script>
 
 The following problems test understanding across all major topics. Full solutions are provided; Each
 problem includes a cross-reference to the relevant section for review.

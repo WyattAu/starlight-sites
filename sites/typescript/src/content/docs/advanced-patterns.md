@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Advanced Patterns", "url": "https://typescript.wyattau.com/advanced-patterns"}]
+}
+</script>
 title: Advanced Patterns
 description: "Typescript Advanced Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision."
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Advanced Patterns", "url": "https://typescript.wyattau.com/advanced-patterns"}]
+}
+</script>
 
 ## Conditional Types: Deep Dive
 

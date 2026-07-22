@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "4_electrodynamics", "url": "https://physics.wyattau.com/3-electromagnetism/4_electrodynamics"}]
+}
+</script>
 title: Electrodynamics
 tags:
   - Physics
   - University
 description: "A changing magnetic field induces an electric field: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "4_electrodynamics", "url": "https://physics.wyattau.com/3-electromagnetism/4_electrodynamics"}]
+}
+</script>
 
 ### 4.1 Faraday"s Law of Induction
 

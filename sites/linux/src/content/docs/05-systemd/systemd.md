@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "05 Systemd", "url": "https://linux.wyattau.com/05-systemd"}, {"name": "Systemd", "url": "https://linux.wyattau.com/05-systemd/systemd"}]
+}
+</script>
 title: Systemd
 description: "Systemd is a system and service manager for Linux, serving as the init system (PID 1) and providing A suite of tools for managing services, devices, mounts,"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "05 Systemd", "url": "https://linux.wyattau.com/05-systemd"}, {"name": "Systemd", "url": "https://linux.wyattau.com/05-systemd/systemd"}]
+}
+</script>
 
 ## Systemd Architecture
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Basics", "url": "https://languages.wyattau.com/kotlin/basics"}, {"name": "Types And Variables", "url": "https://languages.wyattau.com/kotlin/basics/types-and-variables"}]
+}
+</script>
 title: Types and Variables
 description: "declares a read-only variable (assigned once). declares a mutable variable. Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-18
@@ -7,6 +16,15 @@ tags:
 categories:
   - Kotlin
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Basics", "url": "https://languages.wyattau.com/kotlin/basics"}, {"name": "Types And Variables", "url": "https://languages.wyattau.com/kotlin/basics/types-and-variables"}]
+}
+</script>
 
 ## val and var
 

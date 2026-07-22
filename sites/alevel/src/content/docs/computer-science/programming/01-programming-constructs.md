@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Programming", "url": "https://alevel.wyattau.com/computer-science/programming"}, {"name": "01 Programming Constructs", "url": "https://alevel.wyattau.com/computer-science/programming/01-programming-constructs"}]
+}
+</script>
 title: Programming Constructs
 description: "A is a named storage location in memory that holds a value which can change duri Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - ComputerScience
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Programming", "url": "https://alevel.wyattau.com/computer-science/programming"}, {"name": "01 Programming Constructs", "url": "https://alevel.wyattau.com/computer-science/programming/01-programming-constructs"}]
+}
+</script>
 
 ## 1. Variables and Data Types
 

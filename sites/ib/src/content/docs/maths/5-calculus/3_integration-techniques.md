@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
 title: Integration Techniques
 description: "Rigorous IB mathematics notes covering Integration Techniques. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
 
 ## Antidifferentiation Review
 
@@ -41,6 +59,15 @@ Where $C$ is the constant of integration.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
+
 ## The Fundamental Theorem of Calculus
 
 ### First Fundamental Theorem
@@ -60,6 +87,15 @@ $$
 $$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
 
 ## Definite Integrals
 
@@ -106,6 +142,15 @@ $$
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
 
 ## Integration by Substitution
 
@@ -177,6 +222,15 @@ $$
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
 
 ## Integration by Parts
 
@@ -292,6 +346,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
+
 ## Partial Fractions
 
 When the integrand is a rational function with a denominator that can be factorised, decompose into
@@ -328,6 +391,15 @@ $$
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
 
 ## Area Under Curves
 
@@ -377,6 +449,15 @@ $$
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
 
 ## Volume of Revolution
 
@@ -450,6 +531,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
+
 ## Kinematics Applications
 
 ### Displacement, Velocity, and Acceleration
@@ -501,6 +591,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
+
 ## Improper Integrals
 
 ### Type 1: Infinite Limits
@@ -542,6 +641,15 @@ The integral diverges.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
 
 ## IB Exam-Style Questions
 
@@ -669,6 +777,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
+
 ## Summary Table of Techniques
 
 | Technique         | When to Use                                  | Key Idea                           |
@@ -688,6 +805,15 @@ Types, use integration by parts. If it is a rational function, consider partial 
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
 
 ## Additional Integration Techniques
 
@@ -830,6 +956,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
+
 ## Arc Length
 
 The arc length of a curve $y = f(x)$ from $x = a$ to $x = b$:
@@ -872,6 +1007,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
+
 ## Mean Value of a Function
 
 The mean value of a function $f(x)$ over $[a, b]$:
@@ -891,6 +1035,15 @@ $$
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
 
 ## Additional Exam-Style Questions
 
@@ -967,6 +1120,15 @@ For the A-Level treatment of this topic, see
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 the IB specification for this topic, each with a full worked solution.
 
@@ -1013,6 +1175,15 @@ linked above.
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "3_integration Techniques", "url": "https://ib.wyattau.com/maths/5-calculus/3_integration-techniques"}]
+}
+</script>
 
 ## Cross-References
 

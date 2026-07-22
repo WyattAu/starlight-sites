@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "15_problem Set", "url": "https://mathematics.wyattau.com/6-complex-analysis/15_problem-set"}]
+}
+</script>
 title: Problem Set
 tags:
   - Mathematics
   - University
 description: "Express in polar form and find all values of . Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "15_problem Set", "url": "https://mathematics.wyattau.com/6-complex-analysis/15_problem-set"}]
+}
+</script>
 
 ### Problem 1
 

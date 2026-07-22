@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
 title: Functions (Advanced)
 description: "This note assumes the reader is already familiar with: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-18T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
 
 ## Prerequisites
 
@@ -57,6 +75,15 @@ Non-negative: $\mathrm{range}(f) = [0, 2]$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
+
 ## Composite Functions
 
 ### Definition
@@ -92,6 +119,15 @@ $\mathrm{dom} = \mathbb{R} \setminus \{0\}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
+
 ## Inverse Functions
 
 ### Existence Condition
@@ -124,6 +160,15 @@ $$x = \frac{-(y + 3)}{y - 2} = \frac{y + 3}{2 - y}$$
 Therefore $f^{-1}(x) = \dfrac{x + 3}{2 - x}$With domain $\mathbb{R} \setminus \{2\}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
 
 ## Function Transformations
 
@@ -169,6 +214,15 @@ Domain: $3 - x \geqslant 0 \implies x \leqslant 3$. Range: $[2, \infty)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
+
 ## Piecewise Functions
 
 A piecewise function is defined by different expressions on different intervals of its domain.
@@ -183,6 +237,15 @@ $f(-2) = (-2)^2 = 4$$f(0) = 2(0) + 1 = 1$$f(3) = 2(3) + 1 = 7$$f(5) = 10 - 5 = 5
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - When finding the domain of $f \circ g$Applying the domain restrictions of $f$ to $x$ instead of to
@@ -193,6 +256,15 @@ $f(-2) = (-2)^2 = 4$$f(0) = 2(0) + 1 = 1$$f(3) = 2(3) + 1 = 7$$f(5) = 10 - 5 = 5
 - For piecewise functions, using the wrong expression for a given $x$-value.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
 
 ## Summary Table
 
@@ -206,6 +278,15 @@ $f(-2) = (-2)^2 = 4$$f(0) = 2(0) + 1 = 1$$f(3) = 2(3) + 1 = 7$$f(5) = 10 - 5 = 5
 | $y = f(x - h)$        | Shift right by $h$                                     |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
 
 <details>
 <summary>Wrap-up Questions</summary>
@@ -289,6 +370,15 @@ Minimum value: $4$Attained for all $x \in [-1, 3]$.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -426,6 +516,15 @@ Since $f^{-1} = f$The function is self-inverse.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
+
 ## Additional Common Pitfalls
 
 1. **Applying domain restrictions to $x$ instead of $g(x)$.** When finding
@@ -459,6 +558,15 @@ Since $f^{-1} = f$The function is self-inverse.
    boundary point belongs to the $\leq$ piece.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -618,6 +726,15 @@ Verification: $(f \circ h)(x) = 2\!\left(x + \dfrac{3}{2}\right) - 1 = 2x + 2$. 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
+
 ## Cross-References
 
 - **Basic Functions:** Foundational definitions and notation are in [Functions](1_functions.mdx).
@@ -630,6 +747,15 @@ Verification: $(f \circ h)(x) = 2\!\left(x + \dfrac{3}{2}\right) - 1 = 2x + 2$. 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 the DSE specification for this topic, each with a full worked solution.
 
@@ -640,6 +766,15 @@ See for instructions on
 self-marking and building a personal test matrix.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
 
 ## DSE Exam Technique
 
@@ -667,6 +802,15 @@ Coordinate answers should be exact where possible. Decimal answers to 3 signific
 5. **Range finding** (using the discriminant method for rational functions).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -754,6 +898,15 @@ Range: $\left[\dfrac{1}{3},\; 3\right]$.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
 
 ## DSE Exam-Style Questions
 

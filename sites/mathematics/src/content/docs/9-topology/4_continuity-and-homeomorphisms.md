@@ -1,9 +1,27 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "9 Topology", "url": "https://mathematics.wyattau.com/9-topology"}, {"name": "4_continuity And Homeomorphisms", "url": "https://mathematics.wyattau.com/9-topology/4_continuity-and-homeomorphisms"}]
+}
+</script>
 title: Continuity and Homeomorphisms
 tags:
   - University Maths
 description: 'Let and be topological spaces. A function is if the preimage of every open set i Comprehensive educational content coverage with definitions and practice proble'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "9 Topology", "url": "https://mathematics.wyattau.com/9-topology"}, {"name": "4_continuity And Homeomorphisms", "url": "https://mathematics.wyattau.com/9-topology/4_continuity-and-homeomorphisms"}]
+}
+</script>
 
 ### 4.1 Continuous Functions
 

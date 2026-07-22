@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://gcse.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
 title: "Algorithms -- Diagnostic Tests"
 description: "Algorithms -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://gcse.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
 
 # Algorithms -- Diagnostic Tests
 
@@ -85,6 +103,15 @@ as variable declarations, library imports, and syntax punctuation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://gcse.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
+
 ### UT-2: Searching Algorithms
 
 **Question:**
@@ -135,6 +162,15 @@ Mid is calculated as $\lfloor(\text{low} + \text{high}) / 2\rfloor$.
 Binary search is dramatically more efficient for large sorted datasets.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://gcse.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
 
 ### UT-3: Sorting Algorithms
 
@@ -193,6 +229,15 @@ and two records have the same name, a stable sort keeps them in their original o
 the right, meaning equal elements are never swapped past each other.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://gcse.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -275,6 +320,15 @@ choice here because the list is not ordered, and sorting first would take at lea
 time, which for a single search would be less efficient than $O(n)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://gcse.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
 
 ### IT-2: Choosing and Combining Algorithms
 

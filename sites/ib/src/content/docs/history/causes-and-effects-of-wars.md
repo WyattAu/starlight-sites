@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Causes And Effects Of Wars", "url": "https://ib.wyattau.com/history/causes-and-effects-of-wars"}]
+}
+</script>
 title: Causes and Effects of Wars
 date: 2026-05-31
 tags:
@@ -8,6 +17,15 @@ categories:
 description: "This document covers the IB History topic on the Causes and Effects of (20th Century) Wars for Paper 2. It examines the two World Wars in depth, comparing"
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Causes And Effects Of Wars", "url": "https://ib.wyattau.com/history/causes-and-effects-of-wars"}]
+}
+</script>
+
 # Causes and Effects of Wars
 
 This document covers the IB History topic on the Causes and Effects of (20th Century) Wars for
@@ -16,6 +34,15 @@ consequences, and explores the major historiographical debates. The focus is on 
 analytical skills needed for high-scoring essay responses.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Causes And Effects Of Wars", "url": "https://ib.wyattau.com/history/causes-and-effects-of-wars"}]
+}
+</script>
 
 ## 1. World War I (1914--1918)
 
@@ -134,6 +161,15 @@ analytical skills needed for high-scoring essay responses.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Causes And Effects Of Wars", "url": "https://ib.wyattau.com/history/causes-and-effects-of-wars"}]
+}
+</script>
+
 ## 2. World War II (1939--1945)
 
 ### 2.1 Causes
@@ -239,6 +275,15 @@ analytical skills needed for high-scoring essay responses.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Causes And Effects Of Wars", "url": "https://ib.wyattau.com/history/causes-and-effects-of-wars"}]
+}
+</script>
+
 ## 3. Comparison: WWI vs WWII
 
 ### 3.1 Causes Compared
@@ -270,6 +315,15 @@ analytical skills needed for high-scoring essay responses.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Causes And Effects Of Wars", "url": "https://ib.wyattau.com/history/causes-and-effects-of-wars"}]
+}
+</script>
+
 ## 4. Historiographical Debates
 
 ### 4.1 The Fischer Thesis
@@ -300,6 +354,15 @@ analytical skills needed for high-scoring essay responses.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Causes And Effects Of Wars", "url": "https://ib.wyattau.com/history/causes-and-effects-of-wars"}]
+}
+</script>
+
 ## 5. Essay Writing for Cause/Effect Questions
 
 1. **Distinguish between causes, triggers, and preconditions**: Long-term causes create conditions;
@@ -319,6 +382,15 @@ analytical skills needed for high-scoring essay responses.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Causes And Effects Of Wars", "url": "https://ib.wyattau.com/history/causes-and-effects-of-wars"}]
+}
+</script>
+
 ## 6. Common Pitfalls
 
 1. **Narrative over analysis**: Telling the story of a war is not the same as analysing its causes
@@ -337,6 +409,15 @@ analytical skills needed for high-scoring essay responses.
    and Vienna. Acknowledging different national perspectives strengthens analysis.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Causes And Effects Of Wars", "url": "https://ib.wyattau.com/history/causes-and-effects-of-wars"}]
+}
+</script>
 
 ## Intuition
 

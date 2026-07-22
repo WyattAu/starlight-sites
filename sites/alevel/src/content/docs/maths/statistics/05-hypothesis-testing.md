@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "05 Hypothesis Testing", "url": "https://alevel.wyattau.com/maths/statistics/05-hypothesis-testing"}]
+}
+</script>
 title: Hypothesis Testing
 description: "| Board | Paper | Notes | | ---------- | ---------- | ---------------------------------------- | | AQA | Paper 1, 2 | Binomial tests in P1; normal tests in"
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "05 Hypothesis Testing", "url": "https://alevel.wyattau.com/maths/statistics/05-hypothesis-testing"}]
+}
+</script>
 
 ## Board Coverage
 
@@ -752,6 +770,15 @@ Section 3.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "05 Hypothesis Testing", "url": "https://alevel.wyattau.com/maths/statistics/05-hypothesis-testing"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 questions within the A-Level specification for this topic, each with a full worked solution.

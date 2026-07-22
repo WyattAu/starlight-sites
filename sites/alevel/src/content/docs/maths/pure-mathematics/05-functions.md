@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "05 Functions", "url": "https://alevel.wyattau.com/maths/pure-mathematics/05-functions"}]
+}
+</script>
 title: Functions
 description: "| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------ | | AQA | Paper 1, 2 | Functions, composition,"
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "05 Functions", "url": "https://alevel.wyattau.com/maths/pure-mathematics/05-functions"}]
+}
+</script>
 
 ## Board Coverage
 
@@ -737,6 +755,15 @@ $\left(\frac{-2+1}{3}, 2 \times 5 + 4\right) = \left(-\frac{1}{3}, 14\right)$.
 <b>If you get this wrong, revise:</b> [Transformation order](#10-transformation-order--why-it-matters)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "05 Functions", "url": "https://alevel.wyattau.com/maths/pure-mathematics/05-functions"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 within the A-Level specification for this topic, each with a full worked solution.

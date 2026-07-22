@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/biology/diagnostics/diagnostic-guide"}]
+}
+</script>
 title: "A-Level Biology -- Diagnostic Test Guide"
 description: "These diagnostic tests target the most challenging content within the A-Level Biology specification. Each topic file contains (single-topic depth) and"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/biology/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 # A-Level Biology — Diagnostic Test Guide
 

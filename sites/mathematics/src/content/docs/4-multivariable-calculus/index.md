@@ -1,5 +1,14 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "4 Multivariable Calculus", "url": "https://mathematics.wyattau.com/4-multivariable-calculus"}, {"name": "Index", "url": "https://mathematics.wyattau.com/4-multivariable-calculus/index"}]
+}
+</script>
+
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -29,6 +38,15 @@ tags:
   - University
 description: "Multivariable calculus extends the differential and integral calculus to functions of several real variables. The partial derivative generalises the"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "4 Multivariable Calculus", "url": "https://mathematics.wyattau.com/4-multivariable-calculus"}, {"name": "Index", "url": "https://mathematics.wyattau.com/4-multivariable-calculus/index"}]
+}
+</script>
 
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">

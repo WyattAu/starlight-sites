@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "7_superconductivity", "url": "https://physics.wyattau.com/6-solid-state-physics/7_superconductivity"}]
+}
+</script>
 title: Superconductivity
 tags:
   - Physics
   - University
 description: "is the complete loss of electrical resistance below a critical temperature Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "7_superconductivity", "url": "https://physics.wyattau.com/6-solid-state-physics/7_superconductivity"}]
+}
+</script>
 
 ### 7.1 Basic Phenomenology
 

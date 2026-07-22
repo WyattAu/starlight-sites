@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
 title: "Geometries -- Diagnostic Tests"
 description: "DSE Maths Geometries -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
 
 # Geometries — Diagnostic Tests
 
@@ -38,6 +56,15 @@ containing $B$), so the angle at the centre is $70°$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
+
 ### UT-2: Tangent-Radius Perpendicularity
 
 **Question:**
@@ -55,6 +82,15 @@ $$\angle AOB = 360° - 90° - 90° - 50° = 130°$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
+
 ### UT-3: Cyclic Quadrilateral Properties
 
 **Question:**
@@ -71,6 +107,15 @@ $\angle A + \angle C = 180° \implies 110° + 2\angle B = 180° \implies 2\angle
 $\angle B + \angle D = 180° \implies \angle D = 145°$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
 
 ### UT-4: Vector Geometry — Collinearity
 
@@ -95,6 +140,15 @@ $$\vec{OQ} = \vec{OA} + \frac{3}{5}\vec{AB} = \mathbf{a} + \frac{3}{5}(\mathbf{b
 $$\vec{PQ} = \vec{OQ} - \vec{OP} = \left(\frac{2}{5} - \frac{1}{3}\right)\mathbf{a} + \left(\frac{3}{5} - \frac{2}{3}\right)\mathbf{b} = \frac{1}{15}\mathbf{a} - \frac{1}{15}\mathbf{b} = \frac{1}{15}(\mathbf{a} - \mathbf{b})$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
 
 ### UT-5: Coordinate Proof Using Algebra
 
@@ -123,6 +177,15 @@ Since $MA = MB = MC$The midpoint of the hypotenuse is equidistant from all three
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of geometries with other topics.
@@ -143,6 +206,15 @@ In a right triangle, the hypotenuse is the diameter of the circumscribed circle.
 Radius $= \dfrac{AB}{2} = \dfrac{10}{2} = 5$ cm.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
 
 ### IT-2: Geometries and Vectors (with Coordinate Geometry)
 
@@ -176,6 +248,15 @@ Right-angled. The triangle is **scalene**.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
+
 ### IT-3: Geometries and Algebra (with Polynomials)
 
 **Question:**
@@ -195,6 +276,15 @@ $$2 = \frac{4}{k - 3}$$
 $$k - 3 = 2 \implies k = 5$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -219,6 +309,15 @@ requires you to cite the specific theorem being used, e.g. "By the alternate seg
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
+
 ### WE-2: Chord Length from Central Angle
 
 **Question:**
@@ -239,6 +338,15 @@ $$AM = OA \sin 60° = 10 \times \frac{\sqrt{3}}{2} = 5\sqrt{3}$$
 $$AB = 2 \times AM = 10\sqrt{3} \text{ cm}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
 
 ### WE-3: Proving Cyclic Quadrilateral
 
@@ -280,6 +388,15 @@ Therefore $ABCD$ is a cyclic quadrilateral (opposite angles are supplementary).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
+
 ### WE-4: Intersecting Chords
 
 **Question:**
@@ -296,6 +413,15 @@ $$4 \times 6 = 3 \times PD$$
 $$PD = \frac{24}{3} = 8 \text{ cm}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
 
 ### WE-5: Area of Sector and Segment
 
@@ -319,6 +445,15 @@ $$\text{Area of segment} = 24\pi - 16\sqrt{2} \text{ cm}^2$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
+
 ### WE-6: Vector Proof of Midpoint
 
 **Question:**
@@ -339,6 +474,15 @@ Therefore:
 $$\vec{AD} = \vec{AB} + \frac{1}{2}(-\vec{AB} + \vec{AC}) = \vec{AB} - \frac{1}{2}\vec{AB} + \frac{1}{2}\vec{AC} = \frac{1}{2}\vec{AB} + \frac{1}{2}\vec{AC} = \frac{1}{2}(\vec{AB} + \vec{AC})$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
 
 ### WE-7: Finding the Centre of a Circle Through Three Points
 
@@ -364,6 +508,15 @@ Centre: $(2, 3)$Radius: $\sqrt{13}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
+
 ### WE-8: Parallel Lines and Transversal Angles
 
 **Question:**
@@ -387,6 +540,15 @@ $$8x = 200°$$
 $$x = 25°$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
 
 ## Intuition
 
@@ -421,6 +583,15 @@ $$x = 25°$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
+
 ## DSE Exam-Style Questions
 
 ### DSE-1
@@ -446,6 +617,15 @@ In triangle $ABC$: $\angle BCA = 180° - 50° - 65° = 65°$.
 Since $ABCD$ is cyclic: $\angle ADC = 180° - \angle ABC = 180° - 65° = 115°$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
 
 ### DSE-2
 
@@ -485,6 +665,15 @@ Circumcentre: $O = (2, 5)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
+
 ### DSE-3
 
 In triangle $PQR$, $PQ = 7$ cm, $PR = 5$ cm, and $\angle QPR = 60°$.
@@ -511,6 +700,15 @@ $$\frac{35\sqrt{3}}{4} = \frac{1}{2} \times \sqrt{39} \times h$$
 $$h = \frac{35\sqrt{3}}{2\sqrt{39}} = \frac{35\sqrt{3}}{2\sqrt{39}} \cdot \frac{\sqrt{39}}{\sqrt{39}} = \frac{35\sqrt{117}}{78} = \frac{35 \times 3\sqrt{13}}{78} = \frac{35\sqrt{13}}{26} \text{ cm}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
 
 ### DSE-4
 
@@ -551,6 +749,15 @@ This shows collinearity only if additional conditions are given. The question li
 lies on the median from $A$Which it does since $D$ is on $AC$ and $E$ is on $BC$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometries", "url": "https://dse.wyattau.com/maths/diagnostics/diag-geometries"}]
+}
+</script>
 
 ### DSE-5
 

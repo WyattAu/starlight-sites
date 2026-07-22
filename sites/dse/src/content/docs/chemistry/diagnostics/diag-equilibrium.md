@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
 title: "Chemical Equilibrium -- Diagnostic Tests"
 description: "DSE Chemistry Chemical Equilibrium -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
 
 # DSE Chemistry Diagnostic: Chemical Equilibrium
 
@@ -26,6 +44,15 @@ present.
 temperature, what happens to the value of $K_{c}$? Explain. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -63,6 +90,15 @@ $[NH_{3}]^{2}/([N_{2}][H_{2}]^{3})$ at the new equilibrium remains the same.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
+
 ## Unit Test 2: Le Chatelier + Equilibrium Constant
 
 **Question**
@@ -81,6 +117,15 @@ the equilibrium to the right." Evaluate this statement. [2 marks]
 exothermic or endothermic? Explain. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -107,6 +152,15 @@ reverse, endothermic reaction when temperature is increased).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
+
 ## Unit Test 3: Inert Gas Effects
 
 **Question**
@@ -124,6 +178,15 @@ pressure**. [3 marks]
 (c) In which case (a) or (b) does the value of $K_{p}$ change? Explain. [1 mark]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -146,6 +209,15 @@ equilibrium shifts to the **right**, producing more $PCl_{3}$ and $Cl_{2}$.
 pressure, volume, or addition of inert gas do not affect the value of the equilibrium constant.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
 
 ## Intuition
 
@@ -176,6 +248,15 @@ is 0.50 (50%).
 of dissociation. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -227,6 +308,15 @@ Chatelier"s principle (increasing pressure favours the side with fewer gas moles
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
+
 ## Integration Test 2: Industrial Process Optimisation
 
 **Question**
@@ -247,6 +337,15 @@ engineer suggests using 500 atm to increase the yield. Calculate the approximate
 at 500 atm, assuming ideal gas behaviour and that only pressure changes. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -276,6 +375,15 @@ A more accurate estimate would give approximately **25%**.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
+
 ## Integration Test 3: Equilibrium Position + Quantitative Prediction
 
 **Question**
@@ -295,6 +403,15 @@ equilibrium concentrations after the system re-equilibrates. [4 marks]
 (c) After re-equilibration, is the value of $K_{c}$ the same as before? Explain. [1 mark]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
 
 **Worked Solution**
 

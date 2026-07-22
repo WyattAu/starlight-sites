@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Vectors", "url": "https://ib.wyattau.com/maths/diagnostics/diag-vectors"}]
+}
+</script>
 title: "Vectors -- Diagnostic Tests"
 description: "IB Maths Vectors -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Vectors", "url": "https://ib.wyattau.com/maths/diagnostics/diag-vectors"}]
+}
+</script>
 
 # Vectors — Diagnostic Tests
 
@@ -81,6 +99,15 @@ pass at different "heights" and never meet. The student has incorrectly generali
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Vectors", "url": "https://ib.wyattau.com/maths/diagnostics/diag-vectors"}]
+}
+</script>
+
 ### UT-2: Point-to-Plane Distance from Three Points
 
 **Question:**
@@ -129,6 +156,15 @@ Specifically:
 - The $z$-component: $2 \times 2 - 1 \times 1 = 4 - 1 = 3$Which coincidentally matches.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Vectors", "url": "https://ib.wyattau.com/maths/diagnostics/diag-vectors"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -179,6 +215,15 @@ containing $\mathbf{b}$ and $\mathbf{c}$It follows that $\mathbf{a}$ lies in the
 $\mathbf{b}$ and $\mathbf{c}$. Hence the four points are coplanar.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Vectors", "url": "https://ib.wyattau.com/maths/diagnostics/diag-vectors"}]
+}
+</script>
 
 ### IT-2: Reflection of a Point in a Plane
 

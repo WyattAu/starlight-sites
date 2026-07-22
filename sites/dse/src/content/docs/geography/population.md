@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Population", "url": "https://dse.wyattau.com/geography/population"}]
+}
+</script>
 title: Population and Migration
 description: "Demographic transition model, population pyramids, migration patterns, ageing population, fertility trends, and government policy responses for DSE Geography."
 sidebar_position: 5
@@ -6,6 +15,15 @@ tags: [DSE, Geography, Population, Migration]
 categories: [DSE, Geography]
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Population", "url": "https://dse.wyattau.com/geography/population"}]
+}
+</script>
 
 # Population and Migration
 

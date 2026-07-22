@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
 title: Evolution
 description: "The is the total collection of all the alleles of all the genes in a population at a given time. Population genetics studies the composition of the gene"
 date: 2026-04-08T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
 
 ## Population Genetics
 
@@ -116,6 +134,15 @@ If instead the observed numbers were 100 RR, 500 Rr, 400 rr:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
+
 ## Mechanisms of Evolution
 
 ### Natural Selection (Recap)
@@ -213,6 +240,15 @@ Non-random mating changes genotype frequencies (but not allele frequencies) in a
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
+
 ## Speciation
 
 ### What is Speciation?
@@ -305,6 +341,15 @@ area with many unoccupied niches.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
+
 ## Evidence for Evolution (Detailed)
 
 ### The Fossil Record
@@ -371,6 +416,15 @@ similar environmental pressures.
   common ancestor
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
 
 ## Classification Systems
 
@@ -460,6 +514,15 @@ organisms.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
+
 ## Adaptation and Natural Selection in Detail
 
 ### Types of Adaptation
@@ -513,6 +576,15 @@ to methicillin and many other antibiotics. It produces an altered penicillin-bin
 that does not bind methicillin. MRSA is a major cause of hospital-acquired infections.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
 
 ## Hardy-Weinberg Applied: Testing for Selection
 
@@ -577,6 +649,15 @@ Hardy-Weinberg equilibrium, and there is no evidence of evolutionary change for 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
+
 ## Coevolution
 
 ### What is Coevolution?
@@ -625,6 +706,15 @@ specialised for the interaction.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
+
 ## Human Evolution
 
 ### Evidence for Human Evolution
@@ -654,6 +744,15 @@ specialised for the interaction.
    savannah environments
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
 
 ## Intuition
 
@@ -709,6 +808,15 @@ specialised for the interaction.
     the mechanisms differ.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
 
 ## Problem Set
 
@@ -805,7 +913,25 @@ vertical transmission alone would achieve.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
+
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
 
 ## Hardy-Weinberg Applied: Testing for Selection
 
@@ -870,6 +996,15 @@ Hardy-Weinberg equilibrium, and there is no evidence of evolutionary change for 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
+
 ## Coevolution
 
 ### What is Coevolution?
@@ -914,6 +1049,15 @@ defences.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
+
 ## Human Evolution
 
 ### Evidence for Human Evolution
@@ -943,6 +1087,15 @@ defences.
    savannah environments
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
 
 ## Population Genetics
 
@@ -1021,6 +1174,15 @@ has a greater effect in small populations.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
+
 ## Human Evolution
 
 ### Hominin Timeline
@@ -1054,6 +1216,15 @@ See for instructions on
 self-marking and building a personal test matrix.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
 
 ## Evidence for Evolution
 
@@ -1155,6 +1326,15 @@ convergent evolution.
   now-separated continents that were once joined)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
+}
+</script>
 
 ## Speciation
 

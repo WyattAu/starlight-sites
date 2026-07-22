@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Dse Chemistry", "url": "https://dse.wyattau.com/chemistry/dse-chemistry"}]
+}
+</script>
 title: DSE Chemistry
 description: "DSE Chemistry revision notes covering key concepts and practice problems."
 date: 2026-04-23T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Dse Chemistry", "url": "https://dse.wyattau.com/chemistry/dse-chemistry"}]
+}
+</script>
 
 ## Course Overview
 
@@ -21,6 +39,15 @@ The course is divided into **compulsory topics** (Papers 1A and 1B) and **electi
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Dse Chemistry", "url": "https://dse.wyattau.com/chemistry/dse-chemistry"}]
+}
+</script>
+
 ## Examination Structure
 
 | Paper | Component                                  | Duration | Weighting |
@@ -32,6 +59,15 @@ The course is divided into **compulsory topics** (Papers 1A and 1B) and **electi
 **Total: 100%**
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Dse Chemistry", "url": "https://dse.wyattau.com/chemistry/dse-chemistry"}]
+}
+</script>
 
 ## Compulsory Topics
 
@@ -128,6 +164,15 @@ detailed notes.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Dse Chemistry", "url": "https://dse.wyattau.com/chemistry/dse-chemistry"}]
+}
+</script>
+
 ## Elective Topics (Choose One)
 
 | Elective | Topic                               |
@@ -142,6 +187,15 @@ Weighting (20% of the total mark).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Dse Chemistry", "url": "https://dse.wyattau.com/chemistry/dse-chemistry"}]
+}
+</script>
+
 ## Assessment Objectives
 
 Candidates are expected to demonstrate the ability to:
@@ -152,6 +206,15 @@ Candidates are expected to demonstrate the ability to:
 4. **Plan and carry out** chemical investigations, interpret experimental data, and evaluate methods
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Dse Chemistry", "url": "https://dse.wyattau.com/chemistry/dse-chemistry"}]
+}
+</script>
 
 ## Key Quantities and Constants
 
@@ -166,6 +229,15 @@ Candidates are expected to demonstrate the ability to:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Dse Chemistry", "url": "https://dse.wyattau.com/chemistry/dse-chemistry"}]
+}
+</script>
+
 ## Examination Tips
 
 - Show all working in stoichiometry calculations. Marks are awarded for method even if the final
@@ -179,6 +251,15 @@ Candidates are expected to demonstrate the ability to:
 - In titration calculations, always read the burette to two decimal places.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Dse Chemistry", "url": "https://dse.wyattau.com/chemistry/dse-chemistry"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -234,6 +315,15 @@ Zinc is higher in the reactivity series than copper, so zinc is more readily oxi
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Dse Chemistry", "url": "https://dse.wyattau.com/chemistry/dse-chemistry"}]
+}
+</script>
 
 ## Problem Set
 

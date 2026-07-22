@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "02 Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions"}, {"name": "Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions/sharing-and-permissions"}]
+}
+</script>
 title: Sharing and Permissions
 description: "Server Message Block (SMB) is the primary file sharing protocol for Windows environments. TrueNAS Uses Samba to provide SMB sharing. Modern versions support"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "02 Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions"}, {"name": "Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions/sharing-and-permissions"}]
+}
+</script>
 
 ## SMB/CIFS
 
@@ -173,6 +191,15 @@ smbstatus
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "02 Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions"}, {"name": "Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions/sharing-and-permissions"}]
+}
+</script>
+
 ## NFS
 
 ### NFSv3 vs NFSv4
@@ -328,6 +355,15 @@ nas:/mnt/pool/data  /mnt/data  nfs4  rw,hard,intr,_netdev,rsize=1048576,wsize=10
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "02 Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions"}, {"name": "Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions/sharing-and-permissions"}]
+}
+</script>
+
 ## iSCSI
 
 ### iSCSI Architecture
@@ -460,6 +496,15 @@ blacklist {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "02 Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions"}, {"name": "Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions/sharing-and-permissions"}]
+}
+</script>
+
 ## Permission Models
 
 ### Unix Permissions
@@ -589,6 +634,15 @@ When accessing NFS or SMB shares.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "02 Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions"}, {"name": "Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions/sharing-and-permissions"}]
+}
+</script>
+
 ## Shadow Copies and Previous Versions
 
 ### Configuring Shadow Copies
@@ -650,6 +704,15 @@ Authentication and authorization checks. Use it only for public read-only shares
 Software repository).
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "02 Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions"}, {"name": "Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions/sharing-and-permissions"}]
+}
+</script>
 
 ## Common Pitfalls
 

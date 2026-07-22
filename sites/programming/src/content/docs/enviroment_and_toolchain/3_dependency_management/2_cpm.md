@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "2_cpm", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/2_cpm"}]
+}
+</script>
 title: CPM.cmake
 description: "(CMake Package Manager) provides a lightweight abstraction over the standard CMake module. It bridges the gap between manual vendoring (git submodules) and"
 date: 2025-12-11T04:34:32.158Z
@@ -8,6 +17,15 @@ categories:
   - cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "2_cpm", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/2_cpm"}]
+}
+</script>
 
 **CPM.cmake** (CMake Package Manager) provides a lightweight abstraction over the standard CMake
 `FetchContent` module. It bridges the gap between manual vendoring (git submodules) and full-scale

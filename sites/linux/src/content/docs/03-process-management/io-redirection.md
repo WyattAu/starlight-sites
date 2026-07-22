@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "03 Process Management", "url": "https://linux.wyattau.com/03-process-management"}, {"name": "Io Redirection", "url": "https://linux.wyattau.com/03-process-management/io-redirection"}]
+}
+</script>
 title: I/O Redirection and Pipes
 description: "Every Linux process starts with three standard file descriptors, and can open additional ones as Needed. File descriptors are non-negative integers"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "03 Process Management", "url": "https://linux.wyattau.com/03-process-management"}, {"name": "Io Redirection", "url": "https://linux.wyattau.com/03-process-management/io-redirection"}]
+}
+</script>
 
 ## File Descriptors
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
 title: Atomic Structure
 description: "Atomic structure is the foundation of chemistry, covering the composition of atoms, electron Configuration, atomic spectra, and periodic trends."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ilc-chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
 
 # Atomic Structure
 
@@ -308,6 +326,15 @@ This element is chromium.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Confusing mass number with atomic number** -- mass number includes neutrons.
@@ -324,6 +351,15 @@ This element is chromium.
    have bright background with dark lines.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
 
 ## Practice Questions
 
@@ -360,6 +396,15 @@ This element is chromium.
     referencing the Bohr model.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
 
 ## Successive Ionisation Energies
 
@@ -403,6 +448,15 @@ Electron configuration $2, 8, 2$).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
+
 ## Wave-Particle Duality of Electrons (HL)
 
 ### De Broglie Wavelength
@@ -429,6 +483,15 @@ Electron positions.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
+
 ## Quantum Mechanical Model (HL)
 
 ### Orbitals as Probability Distributions
@@ -450,6 +513,15 @@ From the nucleus. For the $1s$ orbital, the most probable distance equals the Bo
 Distance.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
 
 ## Electron Configuration of Ions (HL)
 
@@ -488,6 +560,15 @@ Electrons ($[\mathrm{Ne]$ configuration).
 $$\mathrm{O^{2-} > \mathrm{F^-> \mathrm{Ne > \mathrm{Na^+ > \mathrm{Mg^{2+}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
 
 ## The Periodic Table in Detail
 
@@ -534,6 +615,15 @@ The first ionisation energy increases across a period with two notable dips:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
+
 ## Advanced: Effective Nuclear Charge (HL)
 
 The effective nuclear charge ($Z_{\mathrm{eff}$) experienced by an electron is:
@@ -568,6 +658,15 @@ Radius.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
+
 ## X-ray Spectra and Moseley's Law (HL)
 
 Henry Moseley discovered that the frequency of characteristic X-rays emitted by an element is
@@ -579,6 +678,15 @@ Where $a$ and $b$ are constants. This established that atomic number (not atomic
 Fundamental property that determines an element's identity, leading to the modern periodic table.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
 
 ## Applications of Atomic Structure
 
@@ -608,6 +716,15 @@ And scanning electron microscopy (SEM) are two common types.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
+
 ## Summary: Atomic Structure Key Relationships
 
 | Concept                  | Formula/Relationship                  | Key Idea                      |
@@ -621,6 +738,15 @@ And scanning electron microscopy (SEM) are two common types.
 | Moseley's law            | $\sqrt{f} = a(Z - b)$                 | Atomic number defines element |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
 
 ## Practice Questions (Extended)
 
@@ -650,6 +776,15 @@ And scanning electron microscopy (SEM) are two common types.
     $n = 5$ to $n = 2$. In which spectral series does this line appear?
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
 
 ## History of Atomic Theory
 

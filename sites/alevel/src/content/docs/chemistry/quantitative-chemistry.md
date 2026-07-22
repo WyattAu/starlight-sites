@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Quantitative Chemistry", "url": "https://alevel.wyattau.com/chemistry/quantitative-chemistry"}]
+}
+</script>
 title: Quantitative Chemistry (Stoichiometry)
 description: "One mole of any substance contains exactly entities (atoms, molecules, ions, or  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-21T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Quantitative Chemistry", "url": "https://alevel.wyattau.com/chemistry/quantitative-chemistry"}]
+}
+</script>
 
 # Quantitative Chemistry (Stoichiometry)
 
@@ -1097,6 +1115,15 @@ $$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Quantitative Chemistry", "url": "https://alevel.wyattau.com/chemistry/quantitative-chemistry"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 hardest questions within the A-Level specification for this topic, each with a full worked solution.

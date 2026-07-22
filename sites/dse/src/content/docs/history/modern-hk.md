@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Modern Hk", "url": "https://dse.wyattau.com/history/modern-hk"}]
+}
+</script>
 title: "Hong Kong Since 1945"
 description: "Post-war reconstruction, refugee influxes, industrialisation, 1967 riots, economic transformation, political development, Basic Law, 1997 Handover, and post-handover developments."
 sidebar_position: 6
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Modern Hk", "url": "https://dse.wyattau.com/history/modern-hk"}]
+}
+</script>
 
 ## Post-War Reconstruction (1945-1950)
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "13_analytic Continuation", "url": "https://mathematics.wyattau.com/6-complex-analysis/13_analytic-continuation"}]
+}
+</script>
 title: Analytic Continuation
 tags:
   - Mathematics
   - University
 description: 'If is analytic on and is analytic on with Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "13_analytic Continuation", "url": "https://mathematics.wyattau.com/6-complex-analysis/13_analytic-continuation"}]
+}
+</script>
 
 ### 13.1 Definition
 

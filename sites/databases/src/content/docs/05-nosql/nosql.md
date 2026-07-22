@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "05 Nosql", "url": "https://databases.wyattau.com/05-nosql"}, {"name": "Nosql", "url": "https://databases.wyattau.com/05-nosql/nosql"}]
+}
+</script>
 title: NoSQL Databases
 description: "NoSQL databases and the CAP theorem."
 tags:
@@ -6,6 +15,15 @@ tags:
 categories:
   - Databases
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "05 Nosql", "url": "https://databases.wyattau.com/05-nosql"}, {"name": "Nosql", "url": "https://databases.wyattau.com/05-nosql/nosql"}]
+}
+</script>
 
 ## The CAP Theorem
 

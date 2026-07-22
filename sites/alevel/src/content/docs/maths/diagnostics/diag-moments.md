@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Moments", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-moments"}]
+}
+</script>
 title: "Moments -- Diagnostic Tests"
 description: "A-Level Maths Moments -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Moments", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-moments"}]
+}
+</script>
 
 
 ## Intuition
@@ -67,6 +85,15 @@ application point.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Moments", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-moments"}]
+}
+</script>
+
 ### UT-2: Tilting — Finding the Critical Position
 
 **Question:**
@@ -111,6 +138,15 @@ value of $\mu$ being "large." A tall, narrow block with a force applied high up 
 susceptible to toppling than sliding.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Moments", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-moments"}]
+}
+</script>
 
 ### UT-3: Non-Uniform Beam — Centre of Mass Unknown
 
@@ -174,6 +210,15 @@ The student's error arose from assuming the beam is uniform when the support rea
 $110$ N, which are unequal) indicate it is not.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Moments", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-moments"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -327,6 +372,15 @@ The minimum coefficient of friction at the ground is approximately $0.511$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Moments", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-moments"}]
+}
+</script>
+
 ### IT-2: Work Done by a Force at a Distance from a Pivot (with Energy)
 
 **Question:**
@@ -382,6 +436,15 @@ $$78.4 = \frac{32}{3}\alpha$$
 $$\alpha = \frac{78.4 \times 3}{32} = \frac{235.2}{32} = 7.35 \text{ rad/s}^2$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Moments", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-moments"}]
+}
+</script>
 
 ### IT-3: Simultaneous Equations from Force and Moment Balance (with Algebra)
 

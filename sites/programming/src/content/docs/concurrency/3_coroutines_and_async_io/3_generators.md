@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Concurrency", "url": "https://programming.wyattau.com/concurrency"}, {"name": "3_coroutines_and_async_io", "url": "https://programming.wyattau.com/concurrency/3_coroutines_and_async_io"}, {"name": "3_generators", "url": "https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/3_generators"}]
+}
+</script>
 title: Generators (std::generator)
 description: "C++23 generators and lazy evaluation semantics."
 date: 2026-04-03T00:00:00.000Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - Cpp
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Concurrency", "url": "https://programming.wyattau.com/concurrency"}, {"name": "3_coroutines_and_async_io", "url": "https://programming.wyattau.com/concurrency/3_coroutines_and_async_io"}, {"name": "3_generators", "url": "https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/3_generators"}]
+}
+</script>
 
 # Generators (`std::generator<T>`) and Synchronous Yielding
 

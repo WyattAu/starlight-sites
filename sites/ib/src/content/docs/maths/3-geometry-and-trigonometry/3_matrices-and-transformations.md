@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "3_matrices And Transformations", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations"}]
+}
+</script>
 title: Matrices and Transformations
 description: "Rigorous IB mathematics notes covering Matrices and Transformations. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate."
 date: 2024-01-01T00:00:00Z
@@ -8,6 +17,15 @@ categories:
   - ib
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "3_matrices And Transformations", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations"}]
+}
+</script>
+
 ## Matrices and Transformations
 
 A matrix is a rectangular array of numbers arranged in rows and columns. Matrices provide a powerful
@@ -16,6 +34,15 @@ Markov processes, and much more. This topic is central to the IB Mathematics AA 
 And HL, with eigenvalues and diagonalisation appearing exclusively at HL.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "3_matrices And Transformations", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations"}]
+}
+</script>
 
 ## 1. Matrix Fundamentals
 
@@ -152,6 +179,15 @@ Check: $S + K = \begin{pmatrix} 3 & 5 \\ 1 & 2 \end{pmatrix} = A$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "3_matrices And Transformations", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations"}]
+}
+</script>
+
 ## 2. Determinants
 
 ### 2x2 Determinant
@@ -245,6 +281,15 @@ So $\det(A) = -3$.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "3_matrices And Transformations", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations"}]
+}
+</script>
 
 ## 3. Matrix Inverses
 
@@ -377,6 +422,15 @@ So $x = \frac{11}{5}$ and $y = \frac{6}{5}$.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "3_matrices And Transformations", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations"}]
+}
+</script>
 
 ## 4. 2D Geometric Transformations
 
@@ -573,6 +627,15 @@ Factor is $|\det(M)|$. This means:
 This extends to $3 \times 3$ matrices where $|\det(M)|$ is the volume scale factor.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "3_matrices And Transformations", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations"}]
+}
+</script>
 
 ## 5. Eigenvalues and Eigenvectors (AHL)
 
@@ -819,6 +882,15 @@ $= \begin{pmatrix} \frac{6282}{3} & \frac{3093}{3} \\ \frac{6186}{3} & \frac{318
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "3_matrices And Transformations", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations"}]
+}
+</script>
 
 ## 6. Applications
 
@@ -1098,6 +1170,15 @@ That can be chosen orthonormal.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "3_matrices And Transformations", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations"}]
+}
+</script>
+
 ## Summary of Key Results
 
 | Concept                         | Formula / Result                                                                            |
@@ -1144,6 +1225,15 @@ The eigenvectors are perpendicular (as expected for a symmetric matrix).
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "3_matrices And Transformations", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations"}]
+}
+</script>
 
 ## Problem Set
 

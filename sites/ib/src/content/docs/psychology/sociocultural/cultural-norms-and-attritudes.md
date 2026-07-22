@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Sociocultural", "url": "https://ib.wyattau.com/psychology/sociocultural"}, {"name": "Cultural Norms And Attritudes", "url": "https://ib.wyattau.com/psychology/sociocultural/cultural-norms-and-attritudes"}]
+}
+</script>
 title: Cultural Norms and Attitudes
 description: "Culture refers to the shared values, beliefs, norms, customs, and practices that characterise a Social group. Cultural norms are the unwritten rules that"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Sociocultural", "url": "https://ib.wyattau.com/psychology/sociocultural"}, {"name": "Cultural Norms And Attritudes", "url": "https://ib.wyattau.com/psychology/sociocultural/cultural-norms-and-attritudes"}]
+}
+</script>
 
 ## Introduction
 

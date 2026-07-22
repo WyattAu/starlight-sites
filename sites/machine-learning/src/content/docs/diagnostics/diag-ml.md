@@ -1,15 +1,42 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
 title: "Diagnostic Test: Machine Learning"
 description: "Self-assessment quiz on ML fundamentals"
 sidebar_position: 60
 tableOfContents: false
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
 # Diagnostic Test: Machine Learning
 
 10 multiple-choice questions covering machine learning fundamentals. Select the best answer for each question, then check your score using the answer key below.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
 
 **Question 1.** Which of the following is a supervised learning algorithm?
 
@@ -20,6 +47,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
 **Question 2.** The bias-variance tradeoff describes:
 
 (A) The tradeoff between training speed and prediction accuracy
@@ -28,6 +64,15 @@ tableOfContents: false
 (D) The tradeoff between precision and recall
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
 
 **Question 3.** Overfitting is characterized by:
 
@@ -38,6 +83,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
 **Question 4.** What is the purpose of a validation set?
 
 (A) To train the model parameters
@@ -46,6 +100,15 @@ tableOfContents: false
 (D) To store raw data before preprocessing
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
 
 **Question 5.** In gradient descent, what happens when the learning rate is too large?
 
@@ -56,6 +119,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
 **Question 6.** L1 regularization (Lasso) has the property of:
 
 (A) Producing dense weight vectors with small non-zero values
@@ -64,6 +136,15 @@ tableOfContents: false
 (D) Only working with linear models
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
 
 **Question 7.** In k-fold cross-validation with k equals 10, the model is:
 
@@ -74,6 +155,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
 **Question 8.** Feature standardization transforms features to have:
 
 (A) A minimum value of 0 and a maximum value of 1
@@ -82,6 +172,15 @@ tableOfContents: false
 (D) The same distribution as the target variable
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
 
 **Question 9.** The F1 score is the harmonic mean of:
 
@@ -92,6 +191,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
 **Question 10.** Which technique helps prevent overfitting in neural networks?
 
 (A) Increasing the number of hidden layers
@@ -100,6 +208,15 @@ tableOfContents: false
 (D) Training for more epochs without monitoring validation loss
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
 
 ## Answer Key
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "06 Concurrency", "url": "https://languages.wyattau.com/java/06-concurrency"}, {"name": "02 Concurrency Deep Dive", "url": "https://languages.wyattau.com/java/06-concurrency/02-concurrency-deep-dive"}]
+}
+</script>
 title: Concurrency Deep Dive
 description: "provides mutual exclusion with features beyond : fair/unfair ordering, timed lock acquisition, interruptible lock acquisition, and Multiple condition"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "06 Concurrency", "url": "https://languages.wyattau.com/java/06-concurrency"}, {"name": "02 Concurrency Deep Dive", "url": "https://languages.wyattau.com/java/06-concurrency/02-concurrency-deep-dive"}]
+}
+</script>
 
 ## Lock Interfaces
 

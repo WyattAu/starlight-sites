@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding Structure", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-bonding-structure"}]
+}
+</script>
 title: "Bonding and Structure -- Diagnostic Tests"
 description: "A-Level Chemistry Bonding and Structure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding Structure", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-bonding-structure"}]
+}
+</script>
 
 
 ## Intuition
@@ -63,6 +81,15 @@ H--N--H angle to $107^\circ$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding Structure", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-bonding-structure"}]
+}
+</script>
+
 ### UT-2: Intermolecular Forces and Physical Properties
 
 **Question:**
@@ -106,6 +133,15 @@ larger electron clouds) applies. The hydrogen bonding anomaly only applies to
 $\text{HF}$, $\text{H}_2\text{O}$And $\text{NH}_3$ in Period 2.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding Structure", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-bonding-structure"}]
+}
+</script>
 
 ### UT-3: Ionic vs Covalent Character Continuum
 
@@ -195,6 +231,15 @@ makes glucose highly hydrophilic despite its size.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding Structure", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-bonding-structure"}]
+}
+</script>
+
 ### IT-2: Bond Polarity, Molecular Polarity, and Intermolecular Forces (with Organic Chemistry)
 
 **Question:**
@@ -244,6 +289,15 @@ on water's oxygen). This is analogous to very weak hydrogen bonding. $\text{CCl}
 hydrophobic, while $\text{CH}_3\text{Cl}$ has some polarity but fewer interaction sites.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding Structure", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-bonding-structure"}]
+}
+</script>
 
 ### IT-3: Giant Covalent Structures and Bond Energy Calculations (with Thermodynamics)
 
@@ -300,6 +354,15 @@ the fact that diamond's rigid tetrahedral network creates slightly stronger bond
 constrained geometry and lack of bond rotation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding Structure", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-bonding-structure"}]
+}
+</script>
 
 ### Additional Practice Problems
 

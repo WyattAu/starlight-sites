@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "10_identical Particles And Exchange Symmetry", "url": "https://physics.wyattau.com/5-quantum-mechanics/10_identical-particles-and-exchange-symmetry"}]
+}
+</script>
 title: Identical Particles and Exchange Symmetry
 tags:
   - Physics
   - University
 description: "For a system of identical particles, the wavefunction must satisfy: Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "10_identical Particles And Exchange Symmetry", "url": "https://physics.wyattau.com/5-quantum-mechanics/10_identical-particles-and-exchange-symmetry"}]
+}
+</script>
 
 ### 9.1 Symmetrisation Postulate
 

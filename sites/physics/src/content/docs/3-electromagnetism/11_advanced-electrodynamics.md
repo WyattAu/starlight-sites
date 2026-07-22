@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "11_advanced Electrodynamics", "url": "https://physics.wyattau.com/3-electromagnetism/11_advanced-electrodynamics"}]
+}
+</script>
 title: Advanced Electrodynamics
 tags:
   - Physics
   - University
 description: "The scalar potential of a localised charge distribution at large distances (Wher Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "11_advanced Electrodynamics", "url": "https://physics.wyattau.com/3-electromagnetism/11_advanced-electrodynamics"}]
+}
+</script>
 
 ### 11.1 Multipole Expansion
 

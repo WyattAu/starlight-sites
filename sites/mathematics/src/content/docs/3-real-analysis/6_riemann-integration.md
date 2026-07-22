@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "3 Real Analysis", "url": "https://mathematics.wyattau.com/3-real-analysis"}, {"name": "6_riemann Integration", "url": "https://mathematics.wyattau.com/3-real-analysis/6_riemann-integration"}]
+}
+</script>
 title: Riemann Integration
 tags:
   - Mathematics
   - University
 description: "Riemann Integration: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "3 Real Analysis", "url": "https://mathematics.wyattau.com/3-real-analysis"}, {"name": "6_riemann Integration", "url": "https://mathematics.wyattau.com/3-real-analysis/6_riemann-integration"}]
+}
+</script>
 
 ### 6.1 Definition
 
@@ -302,6 +320,15 @@ The Riemann integral answers the question: how do we add up infinitely many infi
 The Fundamental Theorem of Calculus reveals the deep connection between accumulation (integration) and rate of change (differentiation). If F(x) represents the accumulated area from a to x, then F'(x) = f(x): the rate at which area accumulates is exactly the height of the curve. Conversely, integrating a rate function recovers the total change. This duality is why the FTC is the most important theorem in calculus: it converts the hard problem of computing areas into the easy problem of finding antiderivatives. The improper integral extends this to infinite intervals or unbounded functions by taking limits, but the core intuition -- accumulation of slices -- remains the same.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "3 Real Analysis", "url": "https://mathematics.wyattau.com/3-real-analysis"}, {"name": "6_riemann Integration", "url": "https://mathematics.wyattau.com/3-real-analysis/6_riemann-integration"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--caution">
 intervals. For unbounded Functions or infinite intervals, one must use the improper Riemann

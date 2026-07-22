@@ -1,15 +1,42 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
 title: "Diagnostic Test: Physics"
 description: "Self-assessment quiz on HSC Physics"
 sidebar_position: 61
 tableOfContents: false
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
 # Diagnostic Test: Physics
 
 10 multiple-choice questions covering mechanics, electricity, waves, nuclear physics, and thermal physics. Select the best answer for each question, then check your score using the answer key below.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
 
 **Question 1.** A car travelling at 20 m/s brakes uniformly and comes to rest in 4 seconds. What is its deceleration?
 
@@ -20,6 +47,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
 **Question 2.** What is the weight of a 5 kg object on Earth? (Take $g = 10 \\, \\text{m/s}^2$)
 
 (A) 0.5 N
@@ -28,6 +64,15 @@ tableOfContents: false
 (D) 25 N
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
 
 **Question 3.** A circuit contains a 9 V battery and three $3 \\, \\Omega$ resistors in series. What is the current in the circuit?
 
@@ -38,6 +83,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
 **Question 4.** Sound waves cannot travel through:
 
 (A) Air
@@ -46,6 +100,15 @@ tableOfContents: false
 (D) A vacuum
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
 
 **Question 5.** The phenomenon where a wave bends around an obstacle is called:
 
@@ -56,6 +119,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
 **Question 6.** In nuclear notation $^{14}_{\\ 6}\\text{C}$, the number of neutrons is:
 
 (A) 14
@@ -64,6 +136,15 @@ tableOfContents: false
 (D) 20
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
 
 **Question 7.** A metal rod is heated. Its length increases. This is an example of:
 
@@ -74,6 +155,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
 **Question 8.** Which of the following has the highest electrical resistance?
 
 (A) A short, thick copper wire
@@ -82,6 +172,15 @@ tableOfContents: false
 (D) A long, thick copper wire
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
 
 **Question 9.** The SI unit of energy is:
 
@@ -92,6 +191,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
 **Question 10.** In a perfectly elastic collision, which quantity is conserved?
 
 (A) Only momentum
@@ -100,6 +208,15 @@ tableOfContents: false
 (D) Neither momentum nor kinetic energy
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
 
 ## Answer Key
 

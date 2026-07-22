@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Computer Networks", "url": "https://computer-science.wyattau.com/3-computer-networks"}, {"name": "5_transport Layer", "url": "https://computer-science.wyattau.com/3-computer-networks/5_transport-layer"}]
+}
+</script>
 title: Transport Layer
 tags:
   - Computing
   - University
 description: "Transport Layer: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Computer Networks", "url": "https://computer-science.wyattau.com/3-computer-networks"}, {"name": "5_transport Layer", "url": "https://computer-science.wyattau.com/3-computer-networks/5_transport-layer"}]
+}
+</script>
 
 ## Intuition
 

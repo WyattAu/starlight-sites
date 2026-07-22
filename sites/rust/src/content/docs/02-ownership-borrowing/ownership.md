@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "02 Ownership Borrowing", "url": "https://rust.wyattau.com/02-ownership-borrowing"}, {"name": "Ownership", "url": "https://rust.wyattau.com/02-ownership-borrowing/ownership"}]
+}
+</script>
 title: Ownership and Borrowing
 description: "Rust' s memory management rests on three rules enforced at compile time: Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "02 Ownership Borrowing", "url": "https://rust.wyattau.com/02-ownership-borrowing"}, {"name": "Ownership", "url": "https://rust.wyattau.com/02-ownership-borrowing/ownership"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--note">
 <strong>Historical Context</strong>

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "5_polarization", "url": "https://physics.wyattau.com/4-optics-and-waves/5_polarization"}]
+}
+</script>
 title: Polarization
 tags:
   - Physics
   - University
 description: "For a plane wave propagating in the -direction: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "5_polarization", "url": "https://physics.wyattau.com/4-optics-and-waves/5_polarization"}]
+}
+</script>
 
 ### 5.1 States of Polarization
 

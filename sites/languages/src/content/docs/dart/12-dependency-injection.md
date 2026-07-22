@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "12 Dependency Injection", "url": "https://languages.wyattau.com/dart/12-dependency-injection"}]
+}
+</script>
 title: Dependency Injection
 description: "Dependency Injection (DI) is a design pattern that implements : Instead of a class creating its own dependencies, they are provided from the outside. This"
 date: 2026-04-05T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Dart
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "12 Dependency Injection", "url": "https://languages.wyattau.com/dart/12-dependency-injection"}]
+}
+</script>
 
 # Dependency Injection
 
@@ -67,6 +85,15 @@ The choice between them has significant implications for compile-time safety, te
 Clarity.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "12 Dependency Injection", "url": "https://languages.wyattau.com/dart/12-dependency-injection"}]
+}
+</script>
 
 ## Constructor Injection Pattern
 
@@ -202,6 +229,15 @@ class NotificationService {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "12 Dependency Injection", "url": "https://languages.wyattau.com/dart/12-dependency-injection"}]
+}
+</script>
+
 ## Service Locator Pattern
 
 A service locator is a central registry where objects register their dependencies and look them up
@@ -264,6 +300,15 @@ The service locator pattern is commonly accepted in Flutter applications for:
 - Situations where the convenience tradeoff is explicitly acknowledged
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "12 Dependency Injection", "url": "https://languages.wyattau.com/dart/12-dependency-injection"}]
+}
+</script>
 
 ## get_it
 
@@ -391,6 +436,15 @@ void main() {
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "12 Dependency Injection", "url": "https://languages.wyattau.com/dart/12-dependency-injection"}]
+}
+</script>
 
 ## injectable
 
@@ -606,6 +660,15 @@ abstract class RegisterModule {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "12 Dependency Injection", "url": "https://languages.wyattau.com/dart/12-dependency-injection"}]
+}
+</script>
+
 ## Riverpod as DI
 
 Riverpod is both a state management solution and a dependency injection framework. Providers serve
@@ -818,6 +881,15 @@ void testWidgets('user screen shows data', (tester) async {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "12 Dependency Injection", "url": "https://languages.wyattau.com/dart/12-dependency-injection"}]
+}
+</script>
+
 ## Common Patterns
 
 ### Repository Pattern with DI
@@ -1015,6 +1087,15 @@ class OrderFactory {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "12 Dependency Injection", "url": "https://languages.wyattau.com/dart/12-dependency-injection"}]
+}
+</script>
+
 ## Comparison Table
 
 | Aspect                | Constructor Injection                       | Service Locator (get_it)               | Riverpod                                          |
@@ -1032,6 +1113,15 @@ class OrderFactory {
 | Hot reload            | Works                                       | Works                                  | Works                                             |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "12 Dependency Injection", "url": "https://languages.wyattau.com/dart/12-dependency-injection"}]
+}
+</script>
 
 ## Intuition
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Chemistry", "url": "https://cbse.wyattau.com/chemistry"}]
+}
+</script>
 title: CBSE Chemistry Study Guide
 date: 2026-05-31
 description: "Qualifications Chemistry.Md CBSE Chemistry Study notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
@@ -9,6 +18,15 @@ categories:
   - cbse
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Chemistry", "url": "https://cbse.wyattau.com/chemistry"}]
+}
+</script>
 
 ## Overview
 
@@ -21,6 +39,15 @@ theory paper is divided roughly into Physical Chemistry (23 marks), Inorganic Ch
 and Organic Chemistry (28 marks).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Chemistry", "url": "https://cbse.wyattau.com/chemistry"}]
+}
+</script>
 
 ## 1. Physical Chemistry
 
@@ -164,6 +191,15 @@ chemical bond).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Chemistry", "url": "https://cbse.wyattau.com/chemistry"}]
+}
+</script>
+
 ## 2. Inorganic Chemistry
 
 ### 2.1 Periodic Table
@@ -249,6 +285,15 @@ Prefixes for number of ligands: di-, tri-, tetra-, penta-, hexa-.
 Crystal field splitting energy $\Delta_o$. Weak field (high spin) vs. strong field (low spin).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Chemistry", "url": "https://cbse.wyattau.com/chemistry"}]
+}
+</script>
 
 ## 3. Organic Chemistry
 
@@ -340,6 +385,15 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Chemistry", "url": "https://cbse.wyattau.com/chemistry"}]
+}
+</script>
+
 ## 4. Key Definitions
 
 | Term | Definition |
@@ -362,6 +416,15 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Chemistry", "url": "https://cbse.wyattau.com/chemistry"}]
+}
+</script>
+
 ## 5. Exam Tips
 
 1. **Balance every chemical equation.** Unbalanced equations lose marks. Check atoms and charge on both
@@ -381,6 +444,15 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
    inert pair effect, and anomalous behaviour of Li, Be, and O.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Chemistry", "url": "https://cbse.wyattau.com/chemistry"}]
+}
+</script>
 
 ## Common Pitfalls
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "1_redox Reactions", "url": "https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions"}]
+}
+</script>
 title: Redox Reactions
 date: 2024-01-01T00:00:00Z
 tags:
@@ -7,6 +16,15 @@ categories:
   - ib
 description: "1. The oxidation state of an element in its standard state is (e.g., Na(s), Cl(g), S(s), O(g)). 2. For a , the oxidation state equals the charge (e.g., Na ="
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "1_redox Reactions", "url": "https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions"}]
+}
+</script>
 
 ## Intuition
 
@@ -66,6 +84,15 @@ This is a mixed oxidation state compound (Fe$_2$O$_3$ $\cdot$ FeO, with Fe(III) 
 **Reducing agent:** The species that causes reduction (itself gets oxidised). Electron donor.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "1_redox Reactions", "url": "https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions"}]
+}
+</script>
 
 ## Balancing Half-Equations
 
@@ -195,6 +222,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "1_redox Reactions", "url": "https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions"}]
+}
+</script>
+
 ## Reactivity Series of Metals
 
 ### Activity Series
@@ -240,6 +276,15 @@ $\mathrm{Fe}(s) + 2\mathrm{H}^+(aq) \to \mathrm{Fe}^{2+}(aq) + \mathrm{H}_2(g)$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "1_redox Reactions", "url": "https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions"}]
+}
+</script>
 
 ## Electrochemical Cells
 
@@ -292,6 +337,15 @@ $$
 $$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "1_redox Reactions", "url": "https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions"}]
+}
+</script>
 
 ## Standard Electrode Potentials ($E^\circ$)
 
@@ -411,6 +465,15 @@ Since $E^\circ_{\mathrm{cell}} \gt 0$The reaction is spontaneous.
 The two series are consistent: a more reactive metal has a more negative $E^\circ$ value.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "1_redox Reactions", "url": "https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions"}]
+}
+</script>
 
 ## Electrolysis
 
@@ -583,6 +646,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "1_redox Reactions", "url": "https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions"}]
+}
+</script>
+
 ## Rusting and Corrosion Prevention
 
 ### The Rusting Process
@@ -620,6 +692,15 @@ Sacrificial protection. **Tin plating** provides only barrier protection and act
 Rusting if the coating is damaged, because Sn is less reactive than Fe and Fe becomes the anode.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "1_redox Reactions", "url": "https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions"}]
+}
+</script>
 </aside>
 ## Fuel Cells
 
@@ -653,6 +734,15 @@ $\mathrm{O}_2(g) + 2\mathrm{H}_2\mathrm{O}(l) + 4e^- \to 4\mathrm{OH}^-(aq)$
 | Continuous operation (refuel instead of recharge) | H$_2$ production often relies on fossil fuels |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "1_redox Reactions", "url": "https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -690,6 +780,15 @@ $\mathrm{O}_2(g) + 2\mathrm{H}_2\mathrm{O}(l) + 4e^- \to 4\mathrm{OH}^-(aq)$
     does not require Nernst equation calculations.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "1_redox Reactions", "url": "https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -1002,6 +1101,15 @@ The OH$^-$ at the cathode is consumed by this acid.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "1_redox Reactions", "url": "https://ib.wyattau.com/chemistry/9-redox/1_redox-reactions"}]
+}
+</script>
 
 ## Related Content at Other Levels
 

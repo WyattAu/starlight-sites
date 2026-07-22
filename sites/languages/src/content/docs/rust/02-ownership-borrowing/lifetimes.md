@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "02 Ownership Borrowing", "url": "https://languages.wyattau.com/rust/02-ownership-borrowing"}, {"name": "Lifetimes", "url": "https://languages.wyattau.com/rust/02-ownership-borrowing/lifetimes"}]
+}
+</script>
 title: Lifetimes
 description: "Rust' s borrow checker must ensure that every reference is valid for its entire use. Without lifetime Annotations, the compiler cannot prove that a reference"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "02 Ownership Borrowing", "url": "https://languages.wyattau.com/rust/02-ownership-borrowing"}, {"name": "Lifetimes", "url": "https://languages.wyattau.com/rust/02-ownership-borrowing/lifetimes"}]
+}
+</script>
 
 ## Why Lifetimes Exist
 

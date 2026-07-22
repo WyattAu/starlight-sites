@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "2_organic Chemistry Advanced", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced"}]
+}
+</script>
 title: Organic Chemistry (Advanced)
 description: "IB Chemistry — reaction mechanisms, stereochemistry, addition and condensation polymers, and spectroscopic identification."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "2_organic Chemistry Advanced", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced"}]
+}
+</script>
 
 ## Intuition
 
@@ -124,6 +142,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "2_organic Chemistry Advanced", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced"}]
+}
+</script>
+
 ## 2. Stereochemistry
 
 ### Chirality
@@ -190,6 +217,15 @@ $Z$ (zusammen). Opposite sides: $E$ (entgegen).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "2_organic Chemistry Advanced", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced"}]
+}
+</script>
+
 ## 3. Addition Polymers
 
 ### Mechanism
@@ -234,6 +270,15 @@ Biological breakdown. Disposal by landfill or incineration creates environmental
   them.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "2_organic Chemistry Advanced", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced"}]
+}
+</script>
 
 ## 4. Condensation Polymers
 
@@ -304,6 +349,15 @@ Strength. Used in body armour, tyres, and aerospace.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "2_organic Chemistry Advanced", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced"}]
+}
+</script>
+
 ## 5. Spectroscopic Identification of Organic Compounds
 
 ### Combined Strategy
@@ -366,6 +420,15 @@ $$
 - $\mathrm{D}_2\mathrm{O}$ exchange removes OH and NH signals, confirming their presence.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "2_organic Chemistry Advanced", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -454,6 +517,15 @@ Total protons: $3 + 2 + 3 + 2 = 10 = \mathrm{C}_5\mathrm{H}_{10}\mathrm{O}$. Con
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "2_organic Chemistry Advanced", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -689,6 +761,15 @@ Product: propan-2-ol ($\mathrm{CH_3CH(OH)CH_3}$). Minor elimination product: pro
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "2_organic Chemistry Advanced", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **Assuming primary substrates can undergo SN1**: Primary carbocations are too unstable to form. A
@@ -729,6 +810,15 @@ Product: propan-2-ol ($\mathrm{CH_3CH(OH)CH_3}$). Minor elimination product: pro
   NMR data.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "2_organic Chemistry Advanced", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -773,6 +863,15 @@ Product: propan-2-ol ($\mathrm{CH_3CH(OH)CH_3}$). Minor elimination product: pro
    disappears upon $\mathrm{D}_2\mathrm{O}$ addition. **[Hard]**
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "2_organic Chemistry Advanced", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced"}]
+}
+</script>
 
 ## If You Get These Wrong, Revise:
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 title: Economics - Demand, Supply, and Markets
 description: "Demand is the willingness and ability of consumers to purchase goods and services at various prices During a given period of time, (all other things being"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 
 ## Demand
 
@@ -65,6 +83,15 @@ $$Q_D = q_1 + q_2 + q_3 + \ldots + q_n$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
+
 ## Supply
 
 ### Definition
@@ -108,6 +135,15 @@ Market supply is the horizontal sum of all individual firm supplies:
 $$Q_S = q_1 + q_2 + q_3 + \ldots + q_n$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 
 ## Market Equilibrium
 
@@ -164,6 +200,15 @@ $$Q = 130 - 2(22) = 86$$
 Price rose from 16 to 22; quantity rose from 68 to 86.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 
 ## Price Elasticity of Demand (PED)
 
@@ -228,6 +273,15 @@ TR.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
+
 ## Price Elasticity of Supply (PES)
 
 ### Definition
@@ -272,6 +326,15 @@ Supply is elastic (PES = 2 &gt; 1).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
+
 ## Income Elasticity of Demand (YED)
 
 ### Definition
@@ -289,6 +352,15 @@ $$\mathrm{YED} = \frac{\%\ \mathrm{change in quantity demanded}}{\%\ \mathrm{cha
 | YED &gt; 1        | Normal good (luxury)    | Designer clothing, fine dining   |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 
 ## Cross Elasticity of Demand (XED)
 
@@ -310,6 +382,15 @@ $$\mathrm{XED} = \frac{\%\ \mathrm{change in quantity demanded of good A}}{\%\ \
 The larger the absolute value of XED, the stronger the relationship between the goods.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 
 ## Government Intervention
 
@@ -396,6 +477,15 @@ $$\mathrm{Producer benefit} = (P_{\mathrm{after}} + \mathrm{subsidy}) - P_{\math
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
+
 ## Market Failure
 
 ### Definition
@@ -464,6 +554,15 @@ Loss.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
+
 ## Summary Table
 
 | Topic         | Key Concept                        | Formula                                |
@@ -478,6 +577,15 @@ Loss.
 | Tax incidence | Depends on elasticity              | More inelastic side pays more          |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 
 ## Exam Tips
 
@@ -518,6 +626,15 @@ Lead to black market activities. Landlords may convert properties to other uses,
 Supply.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 
 ## Production, Costs, and Revenue
 
@@ -615,6 +732,15 @@ Where MR is closest to MC.
 Maximum profit: TR - TC = 250 - 185 = USD 65.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 
 ## Market Structures
 
@@ -730,6 +856,15 @@ Where:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
+
 ## Inflation and Unemployment
 
 ### Inflation
@@ -763,6 +898,15 @@ In the long run, the Phillips curve is vertical at the natural rate of unemploym
 There is no trade-off between inflation and unemployment.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 
 ## Government Policies
 
@@ -799,6 +943,15 @@ Monetary policy involves the central bank's control of the money supply and inte
 - Discourages borrowing and spending
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 
 ## Additional Practice Questions
 
@@ -854,6 +1007,15 @@ Monopoly restricts output to maximise profit, creating a deadweight loss. In per
 = MC, which is allocatively efficient.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 
 ## Problem Set
 
@@ -1032,6 +1194,15 @@ A factory producing chemicals has `MPC = 10 + Q`. The marginal external cost is 
 If you get this wrong, revise: [Market Failure](#market-failure)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 
 ## Extended Problem Set: Advanced Demand and Supply Analysis
 
@@ -1274,6 +1445,15 @@ $$
 linked above.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "2 Demand Supply Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets"}, {"name": "1_demand Supply And Markets", "url": "https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets"}]
+}
+</script>
 
 ## Intuition
 

@@ -1,9 +1,27 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold"}]
+}
+</script>
 title: Chronicle of a Death Foretold
 tags:
   - english
 description: "Gabriel Garcia Marquez is a leftist and critic of authoritarianism, with frequent advocates for Social justice and progressive change. Most of his work"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold"}]
+}
+</script>
 
 ## Intuition
 
@@ -323,6 +341,15 @@ Consider how Marquez uses the reader's knowledge of the ending to create dramati
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold"}]
+}
+</script>
+
 ## Comparative Analysis: Chronicle of a Death Foretold and A Streetcar Named Desire
 
 Both texts belong to Part 3 of the IB syllabus (Literature -- Texts and Contexts) and reward
@@ -428,6 +455,15 @@ Text.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold"}]
+}
+</script>
+
 ## Literary Criticism Perspectives
 
 Engaging with critical perspectives enriches analysis and is expected at HL. Each lens reveals
@@ -517,6 +553,15 @@ Publicly known, publicly tolerated, and never meaningfully punished.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold"}]
+}
+</script>
+
 ## Symbolism and Motifs
 
 ### Trees
@@ -571,6 +616,15 @@ That never really happens; the white shirt becomes a burial shroud. The colour t
 Thematics of purity, honour, and death into a single visual motif.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold"}]
+}
+</script>
 
 ## Essay Writing Framework for IB Paper 2
 
@@ -645,6 +699,15 @@ For further guidance on Paper 2 structure and assessment criteria, see
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold"}]
+}
+</script>
+
 ## Additional Key Quotes with Analysis
 
 | Quote                                                                                          | Analysis                                                                                                                                                                          |
@@ -659,6 +722,15 @@ For further guidance on Paper 2 structure and assessment criteria, see
 | "The knife went through the palm of his right hand and then into his side"                     | The wound in the palm evokes the stigmata of Christ, constructing Santiago as a sacrificial victim whose death exposes the town's moral bankruptcy.                               |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold"}]
+}
+</script>
 
 ## Practice Questions: IB Paper 2 Style
 

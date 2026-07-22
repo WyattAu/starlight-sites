@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "7_inner Product Spaces", "url": "https://mathematics.wyattau.com/2-linear-algebra/7_inner-product-spaces"}]
+}
+</script>
 title: Inner Product Spaces
 tags:
   - Mathematics
   - University
 description: 'An on a vector space over (where or ) is a Function satisfying: Comprehensive educational content coverage with definitions and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "7_inner Product Spaces", "url": "https://mathematics.wyattau.com/2-linear-algebra/7_inner-product-spaces"}]
+}
+</script>
 
 ### 7.1 Definition of an Inner Product
 
@@ -256,6 +274,15 @@ The Cauchy-Schwarz inequality is the foundation: it says the "correlation" betwe
   decomposition**.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "7_inner Product Spaces", "url": "https://mathematics.wyattau.com/2-linear-algebra/7_inner-product-spaces"}]
+}
+</script>
 
 ## Cross-References
 

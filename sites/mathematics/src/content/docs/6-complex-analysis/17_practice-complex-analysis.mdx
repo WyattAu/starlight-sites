@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "17_practice Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis/17_practice-complex-analysis"}]
+}
+</script>
 title: Complex Analysis Practice (Interactive)
 tags:
   - mathematics
   - university
 description: "UNIVERSITY Mathematics practice problems: Complex Analysis Practice (Interactive). Comprehensive study material with definitions, examples, and assessment"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "17_practice Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis/17_practice-complex-analysis"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -24,6 +42,15 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "17_practice Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis/17_practice-complex-analysis"}]
+}
+</script>
+
 ### Holomorphic Functions and Cauchy-Riemann Equations
 
 <PracticeProblem client:only="solid-js" question={"Let $f(z) = u(x,y) + i\\,v(x,y)$ where $u(x,y) = x^2 - y^2$ and $v(x,y) = 2xy$. Is $f$ holomorphic on $\\mathbb{C}$, and if so, what is $f(z)$ expressed in terms of $z$?&quot; options={[ '$f(z) = z^2$, holomorphic on $\\mathbb{C}$', '$f(z) = z^3$, holomorphic on $\\mathbb{C}$', '$f(z) = \\bar{z}^2$, not holomorphic', '$f(z) = z^2 + \\bar{z}$, not holomorphic', ]} correctAnswer={0} explanation=&quot;Check the Cauchy-Riemann equations: $u_x = 2x$, $u_y = -2y$, $v_x = 2y$, $v_y = 2x$. Since $u_x = v_y = 2x$ and $u_y = -v_x = -2y$, the Cauchy-Riemann equations hold everywhere. Therefore $f$ is entire (holomorphic on all of $\\mathbb{C}$). Noting that $(x+iy)^2 = x^2 - y^2 + 2xy\\,i = u + iv$, we get $f(z) = z^2$."} difficulty="easy"  />
@@ -36,6 +63,15 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "17_practice Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis/17_practice-complex-analysis"}]
+}
+</script>
+
 ### Complex Integration and Residue Theory
 
 <PracticeProblem client:only="solid-js" question={"Evaluate $\\displaystyle\\oint_C \\frac{dz}{z - 2i}$ where $C$ is the circle $|z| = 3$ traversed counterclockwise.&quot; options={['$2\\pi i$', '$0$', '$4\\pi i$', '$-2\\pi i$']} correctAnswer={0} explanation=&quot;The integrand $1/(z - 2i)$ has a simple pole at $z = 2i$. Since $|2i| = 2 < 3$, the pole lies inside $C$. By the Cauchy integral formula (or direct parameterization), $\\oint_C \\frac{dz}{z - a} = 2\\pi i$ when $a$ is inside $C$. Here $a = 2i$, so the integral equals $2\\pi i$."} difficulty="easy"  />
@@ -47,6 +83,15 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"What is the Laurent series expansion of $f(z) = \\dfrac{1}{z(z-1)}$ in the annulus $0 < |z| < 1$?&quot; options={[ '$-\\displaystyle\\sum_{n=0}^{\\infty} z^n + \\dfrac{1}{z}$', '$\\displaystyle\\sum_{n=0}^{\\infty} z^{n-1}$', '$\\displaystyle\\sum_{n=0}^{\\infty} (-1)^n z^n$', '$-\\displaystyle\\sum_{n=1}^{\\infty} z^{-n}$', ]} correctAnswer={0} explanation=&quot;Using partial fractions: $\\frac{1}{z(z-1)} = \\frac{1}{z-1} - \\frac{1}{z}$. For $|z| < 1$: $\\frac{1}{z-1} = -\\frac{1}{1-z} = -\\sum_{n=0}^{\\infty} z^n$. Therefore $f(z) = -\\sum_{n=0}^{\\infty} z^n - \\frac{1}{z} = -\\sum_{n=0}^{\\infty} z^n + \\frac{1}{z}$. Wait, $-\\frac{1}{z} + (-\\sum z^n)$; actually $f = -\\sum_{n=0}^{\\infty} z^n + \\frac{1}{z}$. The principal part is $1/z$ (simple pole at origin), confirming the answer."} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "17_practice Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis/17_practice-complex-analysis"}]
+}
+</script>
 
 ### Series and Conformal Mappings
 

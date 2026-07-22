@@ -1,15 +1,42 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Diagnostics", "url": "https://gaokao.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://gaokao.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 title: "数学诊断测试"
 description: "高考数学自测"
 sidebar_position: 60
 tableOfContents: false
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Diagnostics", "url": "https://gaokao.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://gaokao.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
 # 高考数学 -- 诊断测试
 
 10道选择题，涵盖代数、函数、几何、概率和微积分基础。选择最佳答案，然后对照下方答案表核对。
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Diagnostics", "url": "https://gaokao.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://gaokao.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 
 **题目 1.** 已知 $a > 0$，$b > 0$，且 $a + b = 4$，则 $ab$ 的最大值为:
 
@@ -20,6 +47,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Diagnostics", "url": "https://gaokao.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://gaokao.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
 **题目 2.** 不等式 $|x - 1| < 2$ 的解集为:
 
 (A) $(-1, 3)$
@@ -28,6 +64,15 @@ tableOfContents: false
 (D) $(-\\infty, 1)$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Diagnostics", "url": "https://gaokao.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://gaokao.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 
 **题目 3.** 等差数列 $\\{a_n\\}$ 中，$a_3 = 7$，$a_7 = 15$，则公差 $d$ 等于:
 
@@ -38,6 +83,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Diagnostics", "url": "https://gaokao.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://gaokao.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
 **题目 4.** 函数 $f(x) = e^x - x$ 的最小值为:
 
 (A) 0
@@ -46,6 +100,15 @@ tableOfContents: false
 (D) $-1$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Diagnostics", "url": "https://gaokao.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://gaokao.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 
 **题目 5.** 在 $\\triangle ABC$ 中，$\\sin A : \\sin B : \\sin C = 3 : 5 : 7$，则角 $C$ 等于:
 
@@ -56,6 +119,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Diagnostics", "url": "https://gaokao.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://gaokao.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
 **题目 6.** 双曲线 $\\dfrac{x^2}{4} - \\dfrac{y^2}{9} = 1$ 的渐近线方程为:
 
 (A) $y = \\pm \\dfrac{3}{2}x$
@@ -64,6 +136,15 @@ tableOfContents: false
 (D) $y = \\pm \\dfrac{4}{9}x$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Diagnostics", "url": "https://gaokao.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://gaokao.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 
 **题目 7.** 已知 $\\vec{a} = (1, 2)$，$\\vec{b} = (x, -1)$，若 $\\vec{a} \\perp \\vec{b}$，则 $x$ 的值为:
 
@@ -74,6 +155,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Diagnostics", "url": "https://gaokao.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://gaokao.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
 **题目 8.** 某次考试中，5 名学生的成绩分别为 70, 80, 90, 85, 75，则这组数据的中位数为:
 
 (A) 75
@@ -82,6 +172,15 @@ tableOfContents: false
 (D) 82
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Diagnostics", "url": "https://gaokao.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://gaokao.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 
 **题目 9.** $\\displaystyle\\int_0^{\\pi} \\sin x \\, dx$ 的值为:
 
@@ -92,6 +191,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Diagnostics", "url": "https://gaokao.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://gaokao.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
 **题目 10.** 从 5 本不同的书中选取 3 本送给甲、乙、丙三人，每人至少一本，则不同的送法共有:
 
 (A) 60 种
@@ -100,6 +208,15 @@ tableOfContents: false
 (D) 150 种
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Diagnostics", "url": "https://gaokao.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://gaokao.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 
 ## 答案表
 

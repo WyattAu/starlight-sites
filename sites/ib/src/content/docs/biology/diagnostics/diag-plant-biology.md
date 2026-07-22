@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
 title: "Plant Biology -- Diagnostic Tests"
 description: "IB Plant Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
 
 # Plant Biology — Diagnostic Tests
 
@@ -57,6 +75,15 @@ energy.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
+
 ### UT-2: Transpiration and Water Potential
 
 **Question:** A leaf has a stomatal pore of dimensions $10\ \mu\text{m} \times 40\ \mu\text{m}$. The
@@ -91,6 +118,15 @@ through the stomatal pore is longer than the boundary layer (the stomatal pore h
 $10\ \mu\text{m}$).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
 
 ### UT-3: Mineral Ion Transport
 
@@ -180,6 +216,15 @@ and greenhouse gas emissions.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
+
 ### IT-2: Plant Hormones and Growth (with Molecular Biology)
 
 **Question:** Explain how auxin (IAA) causes cell elongation in shoots using the acid growth
@@ -226,6 +271,15 @@ $\to$ activation of ARF transcription factors $\to$ gene expression (proton pump
 cell wall acidification $\to$ wall loosening $\to$ cell elongation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Plant Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-plant-biology"}]
+}
+</script>
 
 ### IT-3: Reproduction and Genetics (with Genetics)
 

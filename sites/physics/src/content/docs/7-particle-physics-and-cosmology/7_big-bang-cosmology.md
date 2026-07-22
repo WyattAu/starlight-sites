@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "7 Particle Physics And Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology"}, {"name": "7_big Bang Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology/7_big-bang-cosmology"}]
+}
+</script>
 title: Big Bang Cosmology
 tags:
   - Physics
   - University
 description: "The dynamics of a homogeneous, isotropic universe are described by the : Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "7 Particle Physics And Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology"}, {"name": "7_big Bang Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology/7_big-bang-cosmology"}]
+}
+</script>
 
 ### 7.1 The Friedmann Equations
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Binomial Expansion", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-binomial-expansion"}]
+}
+</script>
 title: "Binomial Expansion -- Diagnostic Tests"
 description: "A-Level Maths Binomial Expansion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Binomial Expansion", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-binomial-expansion"}]
+}
+</script>
 
 
 ## Intuition
@@ -92,6 +110,15 @@ $\binom{1/2}{r} = \frac{(-1)^{r-1}(2r-3)!!}{2^r \cdot r!}$ for $r \geq 2$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Binomial Expansion", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-binomial-expansion"}]
+}
+</script>
+
 ### UT-2: Finding a Specific Coefficient Without Full Expansion
 
 **Question:**
@@ -136,6 +163,15 @@ We need all pairs $(r, s)$ with $r + s = 4$ where $0 \leq r \leq 5$ and $s \geq 
 Coefficient of $x^4$: $15 + 100 + 240 + 240 + 80 = 675$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Binomial Expansion", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-binomial-expansion"}]
+}
+</script>
 
 ### UT-3: Negative and Fractional $n$ in the Binomial Coefficient
 
@@ -240,6 +276,15 @@ this question, the sum is $\boxed{4}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Binomial Expansion", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-binomial-expansion"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of binomial expansion with other topics. Requires combining concepts from multiple
@@ -300,6 +345,15 @@ affecting 8 decimal places.
 To 8 decimal places: $\boxed{0.09685185}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Binomial Expansion", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-binomial-expansion"}]
+}
+</script>
 
 ### IT-2: Using the Binomial Theorem to Prove a Divisibility Result (with Proof)
 
@@ -374,6 +428,15 @@ This is divisible by 7. By induction, $3^{2n+1} + 2^{n+2}$ is divisible by 7 for
 $3^{2n+1} + 2^{n+2}$ is provable by induction.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Binomial Expansion", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-binomial-expansion"}]
+}
+</script>
 
 ### IT-3: Binomial Identity for Summing a Series (with Sequences)
 

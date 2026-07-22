@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 title: "Mechanics -- Diagnostic Tests"
 description: "DSE Physics Mechanics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 
 # Mechanics — Diagnostic Tests
 
@@ -52,6 +70,15 @@ stage 2 is needed.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
+
 ### UT-2: Projectile with Elevated Launch and Target Below
 
 **Question:**
@@ -93,6 +120,15 @@ $$R = u_x \times t = 9\sqrt{3} \times 3.92 = 15.59 \times 3.92 = 61.1 \text{ m}$
 remains constant throughout since air resistance is negligible.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 
 ### UT-3: Elevator with Variable Acceleration
 
@@ -140,6 +176,15 @@ Scale reading: $\frac{442.7}{9.81} = 45.1$ kg
 force equals the weight only when $a = 0$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -189,6 +234,15 @@ as it was projected (energy conservation). The acceleration is constant througho
 is smooth (no friction).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 
 ### IT-2: Stacked Blocks with Friction (with Forces and Motion)
 
@@ -241,6 +295,15 @@ $$a_B = \frac{F - f_k}{m_B} = \frac{30 - 9.81}{6} = \frac{20.19}{6} = 3.37 \text
 $3.37 \text{ m s}^{-2}$. Block B slides out from under block A.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 
 ### IT-3: Collision with Energy Loss Analysis (with Energy and Work)
 

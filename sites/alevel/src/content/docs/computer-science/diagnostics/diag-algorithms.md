@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
 title: "Algorithms -- Diagnostic Tests"
 description: "A-Level Computer Science Algorithms -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
 
 
 ## Intuition
@@ -52,6 +70,15 @@ notation ignores constant factors.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
+
 ### UT-2: Sorting Algorithm Comparison
 
 **Question:** An array contains the values: [38, 27, 43, 3, 9, 82, 10]. (a) Perform the first two
@@ -91,6 +118,15 @@ After pass 2: [27, 3, 9, 38, 10, 43, 82].
 | Quicksort   | $O(n \log n)$                              | $O(n \log n)$ | $O(n^2)$ (bad pivot) | $O(\log n)$ |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
 
 ### UT-3: Binary Search Trace
 
@@ -160,6 +196,15 @@ BST are updated whenever a score changes.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
+
 ### IT-2: Graph Algorithms and Network Design (with Network Fundamentals)
 
 **Question:** A computer network has 6 routers (A--F) with the following link costs (undirected):
@@ -203,6 +248,15 @@ The cost increased from 9 to 12 when link C-D failed, demonstrating the importan
 paths in network design.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
 
 ### IT-3: Recursive Algorithms and Complexity (with Programming Constructs)
 

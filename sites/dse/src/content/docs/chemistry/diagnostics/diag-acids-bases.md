@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 title: "Acids, Bases and Salts -- Diagnostic Tests"
 description: "DSE Chemistry Acids, Bases and Salts -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 
 # DSE Chemistry Diagnostic: Acids, Bases and Salts
 
@@ -21,6 +39,15 @@ Ethanoic acid ($CH_{3}COOH$) is a weak acid with $K_{a} = 1.8 \times 10^{-5}$ mo
 Evaluate this claim by comparing your answers to (a) and (b). [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -64,6 +91,15 @@ increasing pH by exactly 1.)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
+
 ## Unit Test 2: Buffer Solution
 
 **Question**
@@ -81,6 +117,15 @@ buffer. [4 marks]
 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -130,6 +175,15 @@ $CH_{3}COOH$Consuming most of the added $H^{+}$ and preventing a significant dro
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
+
 ## Unit Test 3: Salt Hydrolysis
 
 **Question**
@@ -144,6 +198,15 @@ neutral. Explain. [3 marks]
 Explain. [1 mark]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -178,6 +241,15 @@ acid $HCl$) do not undergo hydrolysis. Neither ion affects the $pH$ of the solut
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
+
 ## Intuition
 
 **The proton shuffle:** Acids donate protons (H⁺), bases accept them — it's like a game of hot potato where protons are passed between molecules. pH measures how many free protons are floating around.
@@ -200,6 +272,15 @@ titrated with 0.100 mol/dm$^{3}$ hydrochloric acid.
 (c) State and explain the most suitable indicator for this titration. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -243,6 +324,15 @@ occurs well above the equivalence point pH.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
+
 ## Integration Test 2: pH Mixing and Neutralisation
 
 **Question**
@@ -257,6 +347,15 @@ occurs well above the equivalence point pH.
 between adding 10.0 cm$^{3}$ and 20.0 cm$^{3}$ of NaOH. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -296,6 +395,15 @@ strong acid-strong base titration curve.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
+
 ## Integration Test 3: Buffer Preparation and Capacity
 
 **Question**
@@ -309,6 +417,15 @@ pH = 5.00, using 0.50 mol/dm$^{3}$ ethanoic acid and solid sodium ethanoate ($M 
 (c) Explain what is meant by **buffer capacity** and state how it can be increased. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 
 **Worked Solution**
 

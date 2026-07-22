@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/history/diagnostics"}, {"name": "Diag Modern China", "url": "https://dse.wyattau.com/history/diagnostics/diag-modern-china"}]
+}
+</script>
 title: "Modern China -- Diagnostic Tests"
 description: "Modern China -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/history/diagnostics"}, {"name": "Diag Modern China", "url": "https://dse.wyattau.com/history/diagnostics/diag-modern-china"}]
+}
+</script>
 
 # DSE History Diagnostic: Modern China
 
@@ -21,6 +39,15 @@ social transformation in China. [4 marks]
 the Kuomintang rather than the strengths of the CCP? [8 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/history/diagnostics"}, {"name": "Diag Modern China", "url": "https://dse.wyattau.com/history/diagnostics/diag-modern-china"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -88,6 +115,15 @@ of support.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/history/diagnostics"}, {"name": "Diag Modern China", "url": "https://dse.wyattau.com/history/diagnostics/diag-modern-china"}]
+}
+</script>
+
 ## Unit Test 2: The People's Republic of China under Mao (1949-1976)
 
 **Question**
@@ -102,6 +138,15 @@ political and economic factors. [6 marks]
 rather than a genuine ideological movement.' How far do you agree with this statement? [8 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/history/diagnostics"}, {"name": "Diag Modern China", "url": "https://dse.wyattau.com/history/diagnostics/diag-modern-china"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -175,6 +220,15 @@ struggle, rather than being the primary goal.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/history/diagnostics"}, {"name": "Diag Modern China", "url": "https://dse.wyattau.com/history/diagnostics/diag-modern-china"}]
+}
+</script>
+
 ## Unit Test 3: Reform and Opening Up (1978-Present)
 
 **Question**
@@ -188,6 +242,15 @@ specific example in your answer. [4 marks]
 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/history/diagnostics"}, {"name": "Diag Modern China", "url": "https://dse.wyattau.com/history/diagnostics/diag-modern-china"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -253,6 +316,15 @@ became the model for China's market reforms.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/history/diagnostics"}, {"name": "Diag Modern China", "url": "https://dse.wyattau.com/history/diagnostics/diag-modern-china"}]
+}
+</script>
+
 ## Intuition
 
 **A nation in transformation:** Modern China's history is like a river with many twists — from empire to republic to communist state, each era shaped the next through revolution, war, and reform.
@@ -278,6 +350,15 @@ reasons. [5 marks]
 (c) Evaluate the long-term consequences of Japan's imperial expansion for East Asia. [6 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/history/diagnostics"}, {"name": "Diag Modern China", "url": "https://dse.wyattau.com/history/diagnostics/diag-modern-china"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -334,6 +415,15 @@ escaped the worst effects of colonialism while China was heavily exploited by fo
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/history/diagnostics"}, {"name": "Diag Modern China", "url": "https://dse.wyattau.com/history/diagnostics/diag-modern-china"}]
+}
+</script>
+
 ## Integration Test 2: Cold War in Asia -- Causes, Events, and Consequences
 
 **Question**
@@ -350,6 +440,15 @@ countries. [6 marks]
 in Asia? [6 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/history/diagnostics"}, {"name": "Diag Modern China", "url": "https://dse.wyattau.com/history/diagnostics/diag-modern-china"}]
+}
+</script>
 
 **Worked Solution**
 

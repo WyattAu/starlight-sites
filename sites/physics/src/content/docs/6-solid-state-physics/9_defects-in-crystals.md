@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "9_defects In Crystals", "url": "https://physics.wyattau.com/6-solid-state-physics/9_defects-in-crystals"}]
+}
+</script>
 title: Defects in Crystals
 tags:
   - Physics
   - University
 description: '- Missing atom at a lattice site. - Extra atom between lattice sites. - Foreign atom replacing a host atom. - Vacancy-interstitial pair (atom moves to interstitial site).'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "9_defects In Crystals", "url": "https://physics.wyattau.com/6-solid-state-physics/9_defects-in-crystals"}]
+}
+</script>
 
 ### 9.1 Point Defects
 

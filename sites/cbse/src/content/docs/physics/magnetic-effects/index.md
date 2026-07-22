@@ -1,5 +1,14 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}, {"name": "Magnetic Effects", "url": "https://cbse.wyattau.com/physics/magnetic-effects"}, {"name": "Index", "url": "https://cbse.wyattau.com/physics/magnetic-effects/index"}]
+}
+</script>
+
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -26,6 +35,15 @@
 title: "Magnetic Effects of Current and Magnetism"
 description: "CBSE Class 12 physics: Magnetic effects of current with Biot-Savart law, Ampere's law, and worked examples."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}, {"name": "Magnetic Effects", "url": "https://cbse.wyattau.com/physics/magnetic-effects"}, {"name": "Index", "url": "https://cbse.wyattau.com/physics/magnetic-effects/index"}]
+}
+</script>
 
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">

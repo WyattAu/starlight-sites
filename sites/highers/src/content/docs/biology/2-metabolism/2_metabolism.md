@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "2 Metabolism", "url": "https://highers.wyattau.com/biology/2-metabolism"}, {"name": "2_metabolism", "url": "https://highers.wyattau.com/biology/2-metabolism/2_metabolism"}]
+}
+</script>
 title: Metabolism and Survival
 description: "Scottish Highers Biology Metabolism and Survival notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "2 Metabolism", "url": "https://highers.wyattau.com/biology/2-metabolism"}, {"name": "2_metabolism", "url": "https://highers.wyattau.com/biology/2-metabolism/2_metabolism"}]
+}
+</script>
 
 # Metabolism and Survival
 
@@ -178,6 +196,15 @@ $$\mathrm{Pyruvate + \mathrm{NAD^+ + \mathrm{CoA \to \mathrm{Acetyl-CoA + \mathr
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "2 Metabolism", "url": "https://highers.wyattau.com/biology/2-metabolism"}, {"name": "2_metabolism", "url": "https://highers.wyattau.com/biology/2-metabolism/2_metabolism"}]
+}
+</script>
+
 ## Survival
 
 ### Homeostasis
@@ -288,6 +315,15 @@ A person drinks 2 litres of water. What happens to their blood osmolarity and AD
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "2 Metabolism", "url": "https://highers.wyattau.com/biology/2-metabolism"}, {"name": "2_metabolism", "url": "https://highers.wyattau.com/biology/2-metabolism/2_metabolism"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **ATP yield:** The theoretical maximum of 38 ATP per glucose is rarely achieved. Actual yield is
@@ -305,6 +341,15 @@ A person drinks 2 litres of water. What happens to their blood osmolarity and AD
    takes time to develop but provides memory.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "2 Metabolism", "url": "https://highers.wyattau.com/biology/2-metabolism"}, {"name": "2_metabolism", "url": "https://highers.wyattau.com/biology/2-metabolism/2_metabolism"}]
+}
+</script>
 
 ## Practice Questions
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "7 Particle Physics And Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology"}, {"name": "12_advanced Topics In Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology"}]
+}
+</script>
 title: Advanced Topics in Cosmology
 tags:
   - Physics
   - University
 description: "The describes the temperature anisotropy of the CMB caused by gravitational potential fluctuations at the surface of last scattering:"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "7 Particle Physics And Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology"}, {"name": "12_advanced Topics In Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology"}]
+}
+</script>
 
 ### 12.1 The Sachs--Wolfe Effect
 

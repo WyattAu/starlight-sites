@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "4 Databases", "url": "https://computer-science.wyattau.com/4-databases"}, {"name": "8_nosql Overview", "url": "https://computer-science.wyattau.com/4-databases/8_nosql-overview"}]
+}
+</script>
 title: NoSQL Overview
 tags:
   - Computing
   - University
 description: "NoSQL databases address limitations of relational databases for certain workload Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "4 Databases", "url": "https://computer-science.wyattau.com/4-databases"}, {"name": "8_nosql Overview", "url": "https://computer-science.wyattau.com/4-databases/8_nosql-overview"}]
+}
+</script>
 
 ### 8.1 Motivation
 

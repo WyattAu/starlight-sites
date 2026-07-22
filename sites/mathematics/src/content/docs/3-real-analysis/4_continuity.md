@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "3 Real Analysis", "url": "https://mathematics.wyattau.com/3-real-analysis"}, {"name": "4_continuity", "url": "https://mathematics.wyattau.com/3-real-analysis/4_continuity"}]
+}
+</script>
 title: Continuity
 tags:
   - Mathematics
   - University
 description: "Let where . We say if for Every There exists such that Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "3 Real Analysis", "url": "https://mathematics.wyattau.com/3-real-analysis"}, {"name": "4_continuity", "url": "https://mathematics.wyattau.com/3-real-analysis/4_continuity"}]
+}
+</script>
 
 ### 4.1 Limits of Functions
 
@@ -290,6 +308,15 @@ The following table summarizes the key counterexamples in the theory of continui
   maximum slope is $2M$, which grows without bound as $M \to \infty$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "3 Real Analysis", "url": "https://mathematics.wyattau.com/3-real-analysis"}, {"name": "4_continuity", "url": "https://mathematics.wyattau.com/3-real-analysis/4_continuity"}]
+}
+</script>
 
 ## Cross-References
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "1_vectors And Vector Spaces", "url": "https://mathematics.wyattau.com/2-linear-algebra/1_vectors-and-vector-spaces"}]
+}
+</script>
 title: Vectors and Vector Spaces
 tags:
   - Mathematics
@@ -7,6 +16,15 @@ description: 'A over a field ( or ) is a set equipped With two operations: Compr
 ------:::note[Historical Context]
 The vector space was introduced by Giuseppe Peano (1888), building on Grassmann's Ausdehnungslehre (1844). The modern axiomatic approach was established by Banach (1920). Every vector space has a basis (proved via Zorn's Lemma, 1935). Vector spaces connect to representation theory, where groups act on vector spaces.
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "1_vectors And Vector Spaces", "url": "https://mathematics.wyattau.com/2-linear-algebra/1_vectors-and-vector-spaces"}]
+}
+</script>
 
 ### 1.1 Definition of a Vector Space
 
@@ -278,6 +296,15 @@ $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "1_vectors And Vector Spaces", "url": "https://mathematics.wyattau.com/2-linear-algebra/1_vectors-and-vector-spaces"}]
+}
+</script>
+
 
 ### Intuition
 
@@ -286,6 +313,15 @@ A vector space is any collection of objects that can be added together and scale
 The connection to function spaces is where the abstraction pays off most. In quantum mechanics, the state of a particle is a vector in an infinite-dimensional function space (a Hilbert space). The Schrodinger equation is a linear operator acting on these vectors, and solving it is structurally identical to solving a system of linear equations -- except the "matrix" is replaced by a differential operator and the "vector" is a wavefunction. This is why linear algebra is the language of quantum theory: the superposition principle is literally the closure of a vector space under linear combinations.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "1_vectors And Vector Spaces", "url": "https://mathematics.wyattau.com/2-linear-algebra/1_vectors-and-vector-spaces"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 <strong>Research Connections</strong>

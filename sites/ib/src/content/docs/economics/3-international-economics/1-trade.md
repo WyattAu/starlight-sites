@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "3 International Economics", "url": "https://ib.wyattau.com/economics/3-international-economics"}, {"name": "1 Trade", "url": "https://ib.wyattau.com/economics/3-international-economics/1-trade"}]
+}
+</script>
 title: International Trade
 description: "A country has an in producing a good if it can produce more output per unit Of r Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "3 International Economics", "url": "https://ib.wyattau.com/economics/3-international-economics"}, {"name": "1 Trade", "url": "https://ib.wyattau.com/economics/3-international-economics/1-trade"}]
+}
+</script>
 
 ## Free Trade and Comparative Advantage
 
@@ -2268,6 +2286,15 @@ sufficient consumer surplus gains to offset it.
 - [Game Theory and Behavioural Economics](../6-game-theory/1_game-theory-and-behavioural) -- Strategic trade theory applies game-theoretic models to international trade policy.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "3 International Economics", "url": "https://ib.wyattau.com/economics/3-international-economics"}, {"name": "1 Trade", "url": "https://ib.wyattau.com/economics/3-international-economics/1-trade"}]
+}
+</script>
 
 ## Intuition
 

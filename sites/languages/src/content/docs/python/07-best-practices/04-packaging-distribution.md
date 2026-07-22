@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "07 Best Practices", "url": "https://languages.wyattau.com/python/07-best-practices"}, {"name": "04 Packaging Distribution", "url": "https://languages.wyattau.com/python/07-best-practices/04-packaging-distribution"}]
+}
+</script>
 title: Packaging and Distribution
 description: "is the modern standard for Python project configuration, defined by PEP 518 (build System) and PEP 621 (project metadata)."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "07 Best Practices", "url": "https://languages.wyattau.com/python/07-best-practices"}, {"name": "04 Packaging Distribution", "url": "https://languages.wyattau.com/python/07-best-practices/04-packaging-distribution"}]
+}
+</script>
 
 ## pyproject.toml
 

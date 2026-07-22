@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
 title: "Paper 1 -- Pure Mathematics -- Full Diagnostic Exam"
 description: "120 minutes 100 All 14 pure mathematics topics Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
 
 # Paper 1 — Pure Mathematics
 
@@ -11,12 +29,30 @@ topics
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
+
 ## Instructions
 
 Answer all questions. Calculators are permitted unless otherwise stated. Show all working — marks
 are awarded for method as well as final answer.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
 
 ## Questions
 
@@ -150,6 +186,15 @@ $x_3$. Describe the behaviour of the iteration.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
+
 ## Solutions
 
 ### Q1 — Solution
@@ -180,6 +225,15 @@ $$a + 1 + a^{-1} = (a + a^{-1}) + 1 = 23 + 1 = 24$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
+
 ### Q2 — Solution
 
 **Step 1: State Vieta"s formulas.**
@@ -203,6 +257,15 @@ $$\alpha^2\beta^2 = (\alpha\beta)^2 = \frac{1}{4}$$
 $$\frac{\frac{21}{4} + 2}{\frac{1}{4} + \frac{21}{4} + 1} = \frac{\frac{21}{4} + \frac{8}{4}}{\frac{1}{4} + \frac{21}{4} + \frac{4}{4}} = \frac{\frac{29}{4}}{\frac{26}{4}} = \frac{29}{26}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
 
 ### Q3 — Solution
 
@@ -241,6 +304,15 @@ $$x \in (-\infty, -3) \cup [1, 2) \cup (2, \infty)$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
+
 ### Q4 — Solution
 
 **Step 1: Substitute the line into the circle equation.**
@@ -264,6 +336,15 @@ The point of tangency is $(2, 5)$.
 $y = 5$ is at distance $|5-3| = 2$ from the centre, equal to the radius. Confirmed.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
 
 ### Q5 — Solution
 
@@ -309,6 +390,15 @@ The key difference is that $f \circ g$ requires the output of $g$ to fall within
 excluded value of $g$ (which is $3$). The former is much more restrictive.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
 
 ### Q6 — Solution
 
@@ -360,6 +450,15 @@ $$\lim_{n \to \infty} S_n = \frac{1}{4} + 0 = \frac{1}{4}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
+
 ### Q7 — Solution
 
 **Step 1: Expand the numerator.**
@@ -394,6 +493,15 @@ Coefficient of $x^4$: $15 + 100 + 240 + 240 + 80 = 675$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
+
 ### Q8 — Solution
 
 **(a)** $\cos(3x) = \frac{1}{2}$.
@@ -424,6 +532,15 @@ The sum of all $x$-coordinates:
 $$S = \frac{\pi}{9} + \frac{5\pi}{9} + \frac{7\pi}{9} + \frac{11\pi}{9} + \frac{13\pi}{9} + \frac{17\pi}{9} = \frac{60\pi}{9} = \frac{20\pi}{3}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
 
 ### Q9 — Solution
 
@@ -457,6 +574,15 @@ $u = e^x$ implicitly constrains $u \gt 0$And students who forget this constraint
 solutions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
 
 ### Q10 — Solution
 
@@ -499,6 +625,15 @@ $(1, 0)$ is a global (and local) minimum.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
+
 ### Q11 — Solution
 
 **(a)** By LIATE (Logarithmic, Inverse trig, Algebraic, Trigonometric, Exponential), $\ln x$ is
@@ -534,6 +669,15 @@ At $x = 1$: $\frac{1}{16}(0 - 1) = -\frac{1}{16}$
 $$= \frac{3e^4}{16} - \left(-\frac{1}{16}\right) = \frac{3e^4 + 1}{16}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
 
 ### Q12 — Solution
 
@@ -582,6 +726,15 @@ $$d = \frac{\lvert -3 \rvert}{\sqrt{19}} = \frac{3}{\sqrt{19}} = \frac{3\sqrt{19
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
+
 ### Q13 — Solution
 
 **(a)** "$x \gt 2$" implies "$x^2 \gt 4$": if $x \gt 2$ then $x^2 \gt 4$. However, "$x \gt 2$" is
@@ -600,6 +753,15 @@ $a^2 + b^2 = 0 \iff a = 0 \text{ and } b = 0$.
 Answer: **both necessary and sufficient**.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
 
 ### Q14 — Solution
 
@@ -636,6 +798,15 @@ $f \approx 0.91 \gt 0$Creating a barrier that the iteration cannot cross. The it
 in a 2-cycle between $x = 0$ and $x = 1$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 1 Pure Mathematics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-1-pure-mathematics"}]
+}
+</script>
 
 ## Marking Guide
 

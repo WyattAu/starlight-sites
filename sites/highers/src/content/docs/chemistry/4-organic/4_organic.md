@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "4 Organic", "url": "https://highers.wyattau.com/chemistry/4-organic"}, {"name": "4_organic", "url": "https://highers.wyattau.com/chemistry/4-organic/4_organic"}]
+}
+</script>
 title: Organic Chemistry
 description: "Scottish Highers Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "4 Organic", "url": "https://highers.wyattau.com/chemistry/4-organic"}, {"name": "4_organic", "url": "https://highers.wyattau.com/chemistry/4-organic/4_organic"}]
+}
+</script>
 
 # Organic Chemistry
 
@@ -269,6 +287,15 @@ $\mathrm{CH_3\mathrm{COOCH_2\mathrm{CH_3 + \mathrm{NaOH \to \mathrm{CH_3\mathrm{
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "4 Organic", "url": "https://highers.wyattau.com/chemistry/4-organic"}, {"name": "4_organic", "url": "https://highers.wyattau.com/chemistry/4-organic/4_organic"}]
+}
+</script>
+
 ## Advanced Higher Organic Chemistry
 
 ### Reaction Mechanisms
@@ -383,6 +410,15 @@ Images that rotate plane-polarised light in opposite directions.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "4 Organic", "url": "https://highers.wyattau.com/chemistry/4-organic"}, {"name": "4_organic", "url": "https://highers.wyattau.com/chemistry/4-organic/4_organic"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Markovnikov's Rule:** The hydrogen adds to the carbon with MORE hydrogens, not fewer.
@@ -403,6 +439,15 @@ Images that rotate plane-polarised light in opposite directions.
    monomer. Be careful to show the bonds correctly.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "4 Organic", "url": "https://highers.wyattau.com/chemistry/4-organic"}, {"name": "4_organic", "url": "https://highers.wyattau.com/chemistry/4-organic/4_organic"}]
+}
+</script>
 
 ## Practice Questions
 
@@ -453,6 +498,15 @@ Images that rotate plane-polarised light in opposite directions.
     a chiral centre. Suggest a structure and explain.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "4 Organic", "url": "https://highers.wyattau.com/chemistry/4-organic"}, {"name": "4_organic", "url": "https://highers.wyattau.com/chemistry/4-organic/4_organic"}]
+}
+</script>
 
 ## Organic Synthesis Strategies
 
@@ -513,6 +567,15 @@ This example illustrates the limitations of certain synthetic routes at Higher l
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "4 Organic", "url": "https://highers.wyattau.com/chemistry/4-organic"}, {"name": "4_organic", "url": "https://highers.wyattau.com/chemistry/4-organic/4_organic"}]
+}
+</script>
+
 ## Alcohols in Detail
 
 ### Classification
@@ -532,6 +595,15 @@ This example illustrates the limitations of certain synthetic routes at Higher l
 | Reaction with HX | Slow                       | Moderate          | Fast            |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "4 Organic", "url": "https://highers.wyattau.com/chemistry/4-organic"}, {"name": "4_organic", "url": "https://highers.wyattau.com/chemistry/4-organic/4_organic"}]
+}
+</script>
 
 ## Environmental and Industrial Chemistry
 
@@ -555,6 +627,15 @@ $$\mathrm{C_6\mathrm{H_{12}\mathrm{O_6 \xrightarrow{\mathrm{yeast} 2\mathrm{C_2\
 Advantages: renewable, carbon-neutral. Disadvantages: land use competition, lower energy density.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "4 Organic", "url": "https://highers.wyattau.com/chemistry/4-organic"}, {"name": "4_organic", "url": "https://highers.wyattau.com/chemistry/4-organic/4_organic"}]
+}
+</script>
 
 ## Spectroscopy in Organic Chemistry (Introduction)
 
@@ -591,6 +672,15 @@ For $\mathrm{C_3\mathrm{H_6\mathrm{O$ ($M_r = 58$):
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "4 Organic", "url": "https://highers.wyattau.com/chemistry/4-organic"}, {"name": "4_organic", "url": "https://highers.wyattau.com/chemistry/4-organic/4_organic"}]
+}
+</script>
+
 ## NMR in Organic Chemistry (Introduction)
 
 ### $^1\mathrm{H$ NMR
@@ -616,6 +706,15 @@ Three proton environments:
 3. $\mathrm{OH$ (1H): singlet at $\delta \approx 2.5$ (exchanges with $\mathrm{D_2\mathrm{O$)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "4 Organic", "url": "https://highers.wyattau.com/chemistry/4-organic"}, {"name": "4_organic", "url": "https://highers.wyattau.com/chemistry/4-organic/4_organic"}]
+}
+</script>
 
 ## Alkene Stereochemistry in Detail
 
@@ -652,6 +751,15 @@ The Z isomer has a dipole moment (both C-Cl bonds on the same side), while the E
 Cancelling dipoles.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "4 Organic", "url": "https://highers.wyattau.com/chemistry/4-organic"}, {"name": "4_organic", "url": "https://highers.wyattau.com/chemistry/4-organic/4_organic"}]
+}
+</script>
 
 ## Halogenoalkanes in Detail
 
@@ -693,6 +801,15 @@ Has been extended by one carbon atom (from 3 to 4). The nitrile can subsequently
 Carboxylic acid, providing a route to chain-elongated compounds.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "4 Organic", "url": "https://highers.wyattau.com/chemistry/4-organic"}, {"name": "4_organic", "url": "https://highers.wyattau.com/chemistry/4-organic/4_organic"}]
+}
+</script>
 
 ## Summary Table: Key Organic Reactions
 

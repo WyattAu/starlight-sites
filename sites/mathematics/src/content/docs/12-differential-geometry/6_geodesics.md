@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "12 Differential Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry"}, {"name": "6_geodesics", "url": "https://mathematics.wyattau.com/12-differential-geometry/6_geodesics"}]
+}
+</script>
 title: Geodesics
 tags:
   - Mathematics
   - University
 description: 'A is a curve whose acceleration is zero: . Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "12 Differential Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry"}, {"name": "6_geodesics", "url": "https://mathematics.wyattau.com/12-differential-geometry/6_geodesics"}]
+}
+</script>
 
 ### 6.1 Definition
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Mat Preparation", "url": "https://admissions.wyattau.com/mat-preparation"}]
+}
+</script>
 title: MAT Preparation
 description: "University Admissions MAT Preparation notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 date: 2026-05-05T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Mathematics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Mat Preparation", "url": "https://admissions.wyattau.com/mat-preparation"}]
+}
+</script>
 
 ## 1. Overview of MAT
 
@@ -56,6 +74,15 @@ strongest candidates.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Mat Preparation", "url": "https://admissions.wyattau.com/mat-preparation"}]
+}
+</script>
+
 ## 2. Multiple Choice Strategy (Question 1)
 
 Question 1 consists of 10 multiple choice parts, each worth 4 marks. Each part presents a
@@ -90,6 +117,15 @@ Example, an answer derived by assuming $n = 1$ when the statement should hold fo
 Choice parts test logical reasoning precisely through this confusion.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Mat Preparation", "url": "https://admissions.wyattau.com/mat-preparation"}]
+}
+</script>
 
 ## 3. Algebra and Functions
 
@@ -140,6 +176,15 @@ sign Of the expression inside the absolute value.
 Powerful tools that frequently appear on MAT.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Mat Preparation", "url": "https://admissions.wyattau.com/mat-preparation"}]
+}
+</script>
 
 ## 4. Calculus
 
@@ -220,6 +265,15 @@ The denominator: divide to find $f(x) = mx + c + \frac{r(x)}{s(x)}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Mat Preparation", "url": "https://admissions.wyattau.com/mat-preparation"}]
+}
+</script>
+
 ## 5. Sequences and Series
 
 ### 5.1 Arithmetic Sequences
@@ -264,6 +318,15 @@ $$(1 + x)^\alpha = \sum_{k=0}^{\infty} \binom{\alpha}{k} x^k$$
 Where $\binom{\alpha}{k} = \frac{\alpha(\alpha-1)\cdots(\alpha-k+1)}{k!}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Mat Preparation", "url": "https://admissions.wyattau.com/mat-preparation"}]
+}
+</script>
 
 ## 6. Logic and Proof
 
@@ -317,6 +380,15 @@ Which $P(x)$ is false.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Mat Preparation", "url": "https://admissions.wyattau.com/mat-preparation"}]
+}
+</script>
+
 ## 7. Worked Questions
 
 ### Question 1 (Multiple Choice Style)
@@ -344,6 +416,15 @@ $x = 0, x = \sqrt{3}, x = -\sqrt{3}$. These are all new stationary points.
 Total: $2 + 1 + 3 = 6$ stationary points.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Mat Preparation", "url": "https://admissions.wyattau.com/mat-preparation"}]
+}
+</script>
 
 ### Question 2 (Algebra and Proof)
 
@@ -380,6 +461,15 @@ Since 2, 3, and 5 are pairwise coprime and $n^5 - n$ is divisible by all three, 
 $2 \times 3 \times 5 = 30$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Mat Preparation", "url": "https://admissions.wyattau.com/mat-preparation"}]
+}
+</script>
 
 ### Question 3 (Calculus)
 
@@ -424,6 +514,15 @@ As $x \to \pm\infty$, $\frac{1}{x-1} \to 0$So $y \approx x + 1$. The oblique asy
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Mat Preparation", "url": "https://admissions.wyattau.com/mat-preparation"}]
+}
+</script>
+
 ### Question 4 (Sequences and Series)
 
 > Let $S_n = \sum_{k=1}^{n} \frac{k}{2^k}$.
@@ -465,6 +564,15 @@ $$S_n = 2 - \frac{n + 2}{2^n}$$
 $\sum_{k=1}^{\infty} \frac{k}{2^k} = \lim_{n \to \infty} S_n = \lim_{n \to \infty} \left(2 - \frac{n+2}{2^n}\right) = 2 - 0 = 2$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Mat Preparation", "url": "https://admissions.wyattau.com/mat-preparation"}]
+}
+</script>
 
 ### Question 5 (Logic)
 
@@ -525,6 +633,15 @@ Combining: $f(x) = x$ for all $x \in \mathbb{R}$.
 Therefore the only solutions are $f(x) = x$ and $f(x) = 0$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Mat Preparation", "url": "https://admissions.wyattau.com/mat-preparation"}]
+}
+</script>
 
 ## Intuition
 

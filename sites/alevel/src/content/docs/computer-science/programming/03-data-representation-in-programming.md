@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Programming", "url": "https://alevel.wyattau.com/computer-science/programming"}, {"name": "03 Data Representation In Programming", "url": "https://alevel.wyattau.com/computer-science/programming/03-data-representation-in-programming"}]
+}
+</script>
 title: Data Representation in Programming
 description: "Programming languages provide integer types of various sizes: Comprehensive educational content coverage with definitions and practice problems."
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - ComputerScience
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Programming", "url": "https://alevel.wyattau.com/computer-science/programming"}, {"name": "03 Data Representation In Programming", "url": "https://alevel.wyattau.com/computer-science/programming/03-data-representation-in-programming"}]
+}
+</script>
 
 ## 1. Primitive Types and Their Representation
 

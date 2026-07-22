@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "3 International Economics", "url": "https://ib.wyattau.com/economics/3-international-economics"}, {"name": "3 Balance Of Payments", "url": "https://ib.wyattau.com/economics/3-international-economics/3-balance-of-payments"}]
+}
+</script>
 title: Balance of Payments
 description: "IB Economics Balance of Payments notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "3 International Economics", "url": "https://ib.wyattau.com/economics/3-international-economics"}, {"name": "3 Balance Of Payments", "url": "https://ib.wyattau.com/economics/3-international-economics/3-balance-of-payments"}]
+}
+</script>
 
 ## Intuition
 

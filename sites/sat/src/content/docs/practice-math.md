@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 title: mathematics practice
 date: 2026-05-30
 tags:
@@ -8,6 +17,15 @@ categories:
 description: "This page contains 25 practice problems organised by the four content domains of the SAT Mathematics section. Each problem includes a step-by-step solution,"
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ## Overview
 
 This page contains 25 practice problems organised by the four content domains of the SAT Mathematics
@@ -16,6 +34,15 @@ to avoid. These problems span the difficulty range you will encounter on the dig
 straightforward applications to multi-step problems requiring careful reasoning.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 
 ## Algebra
 
@@ -47,6 +74,15 @@ variable.
 - Arithmetic errors in $12 - 7 = 5$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 
 ### Problem 2: Systems of Equations
 
@@ -86,6 +122,15 @@ The customer bought 6 notebooks.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 3: Linear Functions
 
 A line passes through the points $(-2, 5)$ and $(4, -7)$. What is the equation of this line in
@@ -116,6 +161,15 @@ The equation is $y = -2x + 1$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 4: Inequalities
 
 Solve the inequality $-3(2x + 1) > 4x - 11$. Express the solution as an inequality.
@@ -144,6 +198,15 @@ dividing by a negative number.
 - Writing $\frac{-8}{-10}$ incorrectly (it simplifies to $\frac{4}{5}$, not $-\frac{4}{5}$)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 
 ### Problem 5: Absolute Value
 
@@ -175,6 +238,15 @@ Sum: $-2 + (-1) + 0 + 1 + 2 + 3 + 4 + 5 = 12$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 6: Linear Word Problem
 
 A tank initially contains 200 litres of water. Water is added at a constant rate of 15 litres per
@@ -202,6 +274,15 @@ It takes 15 minutes.
 - Arithmetic errors in $180 \div 12$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 
 ## Advanced Math
 
@@ -237,6 +318,15 @@ The solutions are $x = -\frac{1}{2}$ and $x = 3$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 8: Polynomial Operations
 
 If $f(x) = x^3 + 2x^2 - 5x + 1$ and $g(x) = x - 3$, what is the remainder when $f(x)$ is divided by
@@ -265,6 +355,15 @@ The remainder is 31.
 - Attempting full polynomial long division (correct but slower and more error-prone)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 
 ### Problem 9: Exponential Functions
 
@@ -299,6 +398,15 @@ $$P(t) = 500 \cdot 2^{t/3}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 10: Function Composition
 
 If $f(x) = 2x + 1$ and $g(x) = x^2 - 3$, what is $f(g(4))$?
@@ -325,6 +433,15 @@ as the input to the outer function.
 - Forgetting to apply $f$ to the result of $g(4)$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 
 ### Problem 11: Nonlinear Equations
 
@@ -354,6 +471,15 @@ without finding $x$ and $y$ individually.
 - Dividing 24 by 2 incorrectly
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 
 ### Problem 12: Rational Equations
 
@@ -385,6 +511,15 @@ $$x = \frac{31}{8}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 13: Quadratic in Vertex Form
 
 The function $f(x) = x^2 - 8x + 3$ is rewritten in the form $f(x) = (x - h)^2 + k$. What is the
@@ -411,6 +546,15 @@ $$h + k = 4 + (-13) = -9$$
   of $8$)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 
 ## Problem Solving and Data Analysis
 
@@ -442,6 +586,15 @@ The final price is \$54.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 15: Unit Conversions
 
 A car"s fuel efficiency is 12 kilometres per litre. If petrol costs \$1.45 per litre, what is the
@@ -465,6 +618,15 @@ Rounded to the nearest cent: approximately \$0.12 per kilometre.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 16: Scatter Plots and Line of Best Fit
 
 A set of data has a least-squares regression line $\hat{y} = 3.2x + 1.5$, where $x$ represents years
@@ -487,6 +649,15 @@ increases by approximately \$3,200 per additional year of experience.
 - Confusing the slope and y-intercept
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 
 ### Problem 17: Probability
 
@@ -517,6 +688,15 @@ probabilities.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 18: Statistics
 
 The five numbers $3, 7, a, 11, 15$ have a mean of 10. What is the value of $a$?
@@ -543,6 +723,15 @@ missing value.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 19: Statistics — IQR
 
 A dataset has the following five-number summary: minimum = 12, $Q_1 = 18$, median = 24, $Q_3 = 32$,
@@ -561,6 +750,15 @@ $$\text{IQR} = Q_3 - Q_1 = 32 - 18 = 14$$
 - Confusing $Q_1$ and $Q_3$ and computing $18 - 32 = -14$ (IQR is always non-negative)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 
 ### Problem 20: Two-Way Tables
 
@@ -592,6 +790,15 @@ specific row.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ## Geometry and Trigonometry
 
 ### Problem 21: Area of Composite Shapes
@@ -619,6 +826,15 @@ Total area: $96 + 56.52 = 152.52$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 22: Circle Theorems
 
 A circle has centre $O$. Points $A$, $B$, and $C$ lie on the circle such that angle $AOC = 140°$.
@@ -645,6 +861,15 @@ subtends the same arc.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 23: Angle Relationships
 
 Two parallel lines are cut by a transversal. One of the eight angles formed measures $125°$. What is
@@ -668,6 +893,15 @@ The adjacent angle measures $55°$.
   always supplementary)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 
 ### Problem 24: Right Triangle Trigonometry
 
@@ -700,6 +934,15 @@ $$\sin(A) = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{5}{13}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 25: Similar Triangles
 
 Triangle $ABC$ is similar to triangle $DEF$ with a scale factor of $2:3$ (every length in $ABC$ is
@@ -729,6 +972,15 @@ The area of $DEF$ is 54 square units.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 26: Volume and Surface Area
 
 A right circular cylinder has radius 5 cm and height 12 cm. What is the total surface area of the
@@ -754,6 +1006,15 @@ Total: $376.8 + 2(78.5) = 376.8 + 157 = 533.8$ cm².
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 27: Similar Triangles and Midsegments
 
 In triangle $PQR$, point $M$ is the midpoint of $PQ$ and point $N$ is the midpoint of $PR$. If
@@ -776,6 +1037,15 @@ $$MN = \frac{1}{2} \times QR = \frac{1}{2} \times 16 = 8$$
   other two sides)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 
 ### Problem 28: Angle Relationships in Polygons
 
@@ -802,6 +1072,15 @@ Each interior angle of a regular octagon: $1080° \div 8 = 135°$.
 - Confusing interior and exterior angles (exterior angle sum is always $360°$)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 
 ### Problem 29: Right Triangle Trigonometry — Application
 
@@ -836,6 +1115,15 @@ know the adjacent side and want the hypotenuse, we use cosine.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
+
 ### Problem 30: Circle Equation
 
 A circle has the equation $x^2 + y^2 - 6x + 8y - 11 = 0$. What is the radius of this circle?
@@ -867,6 +1155,15 @@ the square.
 - Taking the square root of 36 incorrectly, or confusing radius with diameter
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Math", "url": "https://sat.wyattau.com/practice-math"}]
+}
+</script>
 
 ## Intuition
 

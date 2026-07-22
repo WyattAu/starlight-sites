@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Advanced", "url": "https://go.wyattau.com/advanced"}, {"name": "Modules And Packages", "url": "https://go.wyattau.com/advanced/modules-and-packages"}]
+}
+</script>
 title: Modules and Packages
 description: 'Every Go file belongs to a package, declared at the top of the file. A directory contains one Package. Executables use ; libraries use any other name.'
 date: 2026-04-18
@@ -7,6 +16,15 @@ tags:
 categories:
   - Go
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Advanced", "url": "https://go.wyattau.com/advanced"}, {"name": "Modules And Packages", "url": "https://go.wyattau.com/advanced/modules-and-packages"}]
+}
+</script>
 
 ## Packages
 

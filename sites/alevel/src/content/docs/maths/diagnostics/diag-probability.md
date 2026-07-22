@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 title: "Probability -- Diagnostic Tests"
 description: "A-Level Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 
 
 ## Intuition
@@ -74,6 +92,15 @@ probability zero. This proves the claim: independent non-trivial events (with po
 cannot be mutually exclusive.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 
 ### UT-2: Conditional Probability and the Prosecutor"s Fallacy
 
@@ -167,6 +194,15 @@ hold.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
+
 ### UT-3: Probability Distributions and "At Least One" Problems
 
 **Question:**
@@ -259,6 +295,15 @@ $$\mathrm{P}(Y \leq 5) = \sum_{k=1}^{5} (0.6)^{k-1}(0.4) = 0.4 + 0.24 + 0.144 + 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of probability with other topics. Requires combining concepts from multiple units.
@@ -335,6 +380,15 @@ error: students sometimes write $\mathrm{Var}(Y) = \mathrm{Var}(3X) + \mathrm{Va
 incorrect. The variance of a constant is zero.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 
 ### IT-2: Solving a Probability Equation with Algebra (with Algebra)
 
@@ -473,6 +527,15 @@ shows a prime slightly decreases the probability of a large sum. This is because
 (4,6) or 12 = (6,6) often involve only non-prime numbers, creating a slight negative association.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 
 ### IT-3: Proof of the Addition Rule Using a Venn Diagram (with Proof)
 

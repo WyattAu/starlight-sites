@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Standard Library", "url": "https://go.wyattau.com/standard-library"}, {"name": "Net Http", "url": "https://go.wyattau.com/standard-library/net-http"}]
+}
+</script>
 title: net/http
 date: 2026-05-30
 tags:
@@ -7,6 +16,15 @@ categories:
   - Go
 description: "Go' s package provides everything needed to build HTTP servers and clients. It ships With the standard library -- no frameworks, no external dependencies."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Standard Library", "url": "https://go.wyattau.com/standard-library"}, {"name": "Net Http", "url": "https://go.wyattau.com/standard-library/net-http"}]
+}
+</script>
 
 ## Introduction
 

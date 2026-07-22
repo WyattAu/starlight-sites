@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
 title: Coordinate Geometry
 description: "Coordinate Geometry: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2026-04-18T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
 
 ## Distance and Midpoint
 
@@ -42,6 +60,15 @@ The point $P$ that divides $AB$ in the ratio $m : n$ (measured from $A$ towards 
 $$P = \left(\frac{nx_1 + mx_2}{m + n},\; \frac{ny_1 + my_2}{m + n}\right)$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
 
 ## Equations of Lines
 
@@ -87,6 +114,15 @@ $$d = \frac{|Ax_0 + By_0 + C|}{\sqrt{A^2 + B^2}} = \frac{|4(3) + 3(4) - 10|}{\sq
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
+
 ## Intersection of Lines
 
 Two lines $A_1x + B_1y + C_1 = 0$ and $A_2x + B_2y + C_2 = 0$ intersect at a unique point if they
@@ -104,6 +140,15 @@ $$x = 3/7, \quad y = 3(3/7) + 2 = 9/7 + 14/7 = 23/7$$
 Intersection: $\left(\dfrac{3}{7}, \dfrac{23}{7}\right)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
 
 ## Equations of Circles
 
@@ -137,6 +182,15 @@ $$(x - 3)^2 + (y + 2)^2 = 25$$
 Centre: $(3, -2)$Radius: $r = 5$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
 
 ## Circle-Line Intersection
 
@@ -173,6 +227,15 @@ $$y - 4 = -\frac{3}{4}(x - 3) \implies 4(y - 4) = -3(x - 3) \implies 4y - 16 = -
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
+
 ## Areas
 
 ### Area of a Triangle (Coordinate Formula)
@@ -198,6 +261,15 @@ $$\mathrm{Area} = \frac{1}{2}|1(6 - (-1)) + 5((-1) - 2) + 3(2 - 6)| = \frac{1}{2
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - Forgetting the absolute value in the distance-from-point-to-line formula.
@@ -209,6 +281,15 @@ $$\mathrm{Area} = \frac{1}{2}|1(6 - (-1)) + 5((-1) - 2) + 3(2 - 6)| = \frac{1}{2
 - Arithmetic errors when completing the square for circle equations. Always double-check.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
 
 ## Summary Table
 
@@ -222,6 +303,15 @@ $$\mathrm{Area} = \frac{1}{2}|1(6 - (-1)) + 5((-1) - 2) + 3(2 - 6)| = \frac{1}{2
 | Triangle area           | $\dfrac{1}{2}                                                 | x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) | $                    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
 
 <details>
 <summary>Wrap-up Questions</summary>
@@ -313,6 +403,15 @@ $\theta = 45^\circ$.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -458,6 +557,15 @@ Verification: $(4-2)^2 + (1-1)^2 = 4 = r^2$. Correct.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
+
 ## Additional Common Pitfalls
 
 1. **Sign error in the section formula.** The point dividing $AB$ in ratio $m:n$ (from $A$ towards
@@ -491,6 +599,15 @@ Verification: $(4-2)^2 + (1-1)^2 = 4 = r^2$. Correct.
    (clockwise or anticlockwise). Mixing the order gives the wrong area or its negative.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -651,6 +768,15 @@ The equation of the common chord is $6x - 8y + 23 = 0$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
+
 ## Cross-References
 
 - **Quadratics:** The discriminant is used to determine the nature of circle-line intersections. See
@@ -665,6 +791,15 @@ For the A-Level treatment of this topic, see
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 questions within the DSE specification for this topic, each with a full worked solution.
 
@@ -675,6 +810,15 @@ See for instructions on
 self-marking and building a personal test matrix.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
 
 | Topic                 | Site    | Link                                                                                                            |
 | --------------------- | ------- | --------------------------------------------------------------------------------------------------------------- |
@@ -709,6 +853,15 @@ values involving square roots should be left in exact form.
 5. **Perpendicular bisector** and reflection problems.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -792,6 +945,15 @@ This is the perpendicular bisector of $AB$As expected.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "9_coordinate Geometry", "url": "https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry"}]
+}
+</script>
 
 ## DSE Exam-Style Questions
 

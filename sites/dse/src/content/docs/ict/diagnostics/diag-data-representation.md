@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/ict/diagnostics"}, {"name": "Diag Data Representation", "url": "https://dse.wyattau.com/ict/diagnostics/diag-data-representation"}]
+}
+</script>
 title: "Data Representation -- Diagnostic Tests"
 description: "DSE Ict Data Representation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/ict/diagnostics"}, {"name": "Diag Data Representation", "url": "https://dse.wyattau.com/ict/diagnostics/diag-data-representation"}]
+}
+</script>
 
 # Data Representation — Diagnostic Tests
 
@@ -109,6 +127,15 @@ $= 44,100 \times 16 \times 2 \times (3 \times 60) = 44,100 \times 16 \times 2 \t
 $= 254,016,000 / 8 = 31,752,000 \text{ bytes} \approx 30.27$ MB.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/ict/diagnostics"}, {"name": "Diag Data Representation", "url": "https://dse.wyattau.com/ict/diagnostics/diag-data-representation"}]
+}
+</script>
 
 ## Intuition
 

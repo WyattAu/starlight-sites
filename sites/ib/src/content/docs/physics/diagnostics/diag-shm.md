@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Shm", "url": "https://ib.wyattau.com/physics/diagnostics/diag-shm"}]
+}
+</script>
 title: "Simple Harmonic Motion -- Diagnostic Tests"
 description: "IB Physics Simple Harmonic Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Shm", "url": "https://ib.wyattau.com/physics/diagnostics/diag-shm"}]
+}
+</script>
 
 # Simple Harmonic Motion — Diagnostic Tests
 
@@ -75,6 +93,15 @@ column. This is exact -- no approximation is needed.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Shm", "url": "https://ib.wyattau.com/physics/diagnostics/diag-shm"}]
+}
+</script>
+
 ### UT-2: Energy Exchange in SHM
 
 **Question:**
@@ -127,6 +154,15 @@ Constant total energy implies all forces are conservative. If friction were pres
 energy would decrease over time as energy is dissipated as thermal energy.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Shm", "url": "https://ib.wyattau.com/physics/diagnostics/diag-shm"}]
+}
+</script>
 
 ### UT-3: Phase Difference and Superposition
 
@@ -219,6 +255,15 @@ Maximum acceleration: $a_{\max} = A\omega^2 = 0.05 \times 250 = 12.5\,\text{m}\,
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Shm", "url": "https://ib.wyattau.com/physics/diagnostics/diag-shm"}]
+}
+</script>
+
 ### IT-2: Damped Oscillations and Resonance (with Energy)
 
 **Question:**
@@ -271,6 +316,15 @@ initial value. More precisely, the amplitude drops to $1/e$ after approximately
 $Q/(2\pi) \times 2\pi = Q$ radians of oscillation, or about $Q$ cycles for light damping.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Shm", "url": "https://ib.wyattau.com/physics/diagnostics/diag-shm"}]
+}
+</script>
 
 ### IT-3: SHM in a Vertical Spring-Mass System (with Energy and Dynamics)
 

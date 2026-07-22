@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "5 Office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation"}, {"name": "1_office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation/1_office-automation"}]
+}
+</script>
 title: Office Automation and Productivity
 description: "This document covers spreadsheet concepts, database usage from an end-user perspective, word Processing, presentation software, application integration, and"
 date: 2026-04-08T00:00:00.000Z
@@ -11,6 +20,15 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "5 Office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation"}, {"name": "1_office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation/1_office-automation"}]
+}
+</script>
+
 ## Intuition
 
 Office automation tools transform raw data into information through structured manipulation. Spreadsheets organise data in grids where formulas create relationships between cells, and relative versus absolute references control how formulas behave when copied. Databases store structured data with defined relationships, enabling efficient querying and reporting. Word processing combines text formatting with layout control, while presentation software visualises information for communication. Understanding these tools and their integration enables efficient information management across organisations.
@@ -21,6 +39,15 @@ SQL are covered in depth in
 [../3-programming-and-databases/2_programming-and-databases](../3-programming-and-databases/2_programming-and-databases).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "5 Office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation"}, {"name": "1_office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation/1_office-automation"}]
+}
+</script>
 
 ## Spreadsheet Concepts
 
@@ -283,6 +310,15 @@ Manual sorting.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "5 Office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation"}, {"name": "1_office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation/1_office-automation"}]
+}
+</script>
+
 ## Database Concepts -- End-User Perspective
 
 Relational database design, ER diagrams, normalisation, and SQL are covered in
@@ -376,6 +412,15 @@ Reports present data in a formatted, printable layout suitable for analysis and 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "5 Office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation"}, {"name": "1_office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation/1_office-automation"}]
+}
+</script>
+
 ## Word Processing and Desktop Publishing
 
 ### Word Processing Features
@@ -415,6 +460,15 @@ Professional publications such as brochures, newsletters, magazines, and books.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "5 Office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation"}, {"name": "1_office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation/1_office-automation"}]
+}
+</script>
+
 ## Presentation Software
 
 Presentation software (e.g., Microsoft PowerPoint, Google Slides, Keynote) creates slide-based
@@ -449,6 +503,15 @@ Visual presentations.
 | **White space**      | Leave adequate empty space; do not fill every pixel                 |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "5 Office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation"}, {"name": "1_office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation/1_office-automation"}]
+}
+</script>
 
 ## Integration Between Applications
 
@@ -539,6 +602,15 @@ Chart in Word updates automatically.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "5 Office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation"}, {"name": "1_office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation/1_office-automation"}]
+}
+</script>
+
 ## Macro Basics
 
 ### What Is a Macro?
@@ -620,6 +692,15 @@ Enabling macros in downloaded documents.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "5 Office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation"}, {"name": "1_office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation/1_office-automation"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Relative vs absolute references:** Forgetting to use `$` for absolute references when copying
@@ -662,6 +743,15 @@ Enabling macros in downloaded documents.
     modified data.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "5 Office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation"}, {"name": "1_office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation/1_office-automation"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -871,6 +961,15 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "5 Office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation"}, {"name": "1_office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation/1_office-automation"}]
+}
+</script>
 
 ## Cross-References
 

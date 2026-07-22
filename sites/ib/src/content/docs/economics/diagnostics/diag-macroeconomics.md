@@ -1,15 +1,42 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomics", "url": "https://ib.wyattau.com/economics/diagnostics/diag-macroeconomics"}]
+}
+</script>
 title: "Diagnostic Test: Macroeconomics"
 description: "Self-assessment quiz on IB macroeconomics"
 tableOfContents: false
 sidebar_position: 40
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomics", "url": "https://ib.wyattau.com/economics/diagnostics/diag-macroeconomics"}]
+}
+</script>
+
 # Diagnostic Test: Macroeconomics
 
 **Instructions:** Attempt each question without referring to notes. Select the best answer from the four options provided. After completing all questions, check your answers against the key below.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomics", "url": "https://ib.wyattau.com/economics/diagnostics/diag-macroeconomics"}]
+}
+</script>
 
 ## Questions
 
@@ -85,6 +112,15 @@ sidebar_position: 40
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomics", "url": "https://ib.wyattau.com/economics/diagnostics/diag-macroeconomics"}]
+}
+</script>
+
 ## Intuition
 
 **Macroeconomics is like reading the economy's vital signs — GDP, inflation, and unemployment reveal the health of the system:** Macroeconomic variables are interconnected — policies affecting one often have ripple effects across the economy
@@ -110,6 +146,15 @@ sidebar_position: 40
 |    10    |  (B)   | GDP Measurement          |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomics", "url": "https://ib.wyattau.com/economics/diagnostics/diag-macroeconomics"}]
+}
+</script>
 
 ## Explanations
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}]
+}
+</script>
 title: GCSE Physics Study Guide
 date: 2026-05-31
 description: "A complete single-page revision guide covering the full GCSE Physics specification. Each section contains key concepts, definitions, and essential facts."
@@ -10,6 +19,15 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}]
+}
+</script>
+
 # GCSE Physics Study Guide
 
 A complete single-page revision guide covering the full GCSE Physics specification. Each section
@@ -17,6 +35,15 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 [full topic pages](physics/) for detailed derivations and further practice.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}]
+}
+</script>
 
 ## 1. Energy
 
@@ -109,6 +136,15 @@ vaporisation $\approx 2\,260\,000 \text{ J/kg}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}]
+}
+</script>
+
 ## 2. Forces and Motion
 
 ### 2.1 Speed, Velocity and Acceleration
@@ -189,6 +225,15 @@ changes, reducing the force on the occupant.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}]
+}
+</script>
+
 ## 3. Waves
 
 ### 3.1 Transverse and Longitudinal Waves
@@ -252,6 +297,15 @@ $330 \text{ m/s}$.
 scanning) and industrial cleaning.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}]
+}
+</script>
 
 ## 4. Electricity
 
@@ -329,6 +383,15 @@ is resistance ($\Omega$), $t$ is time (s), $Q$ is charge (C).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}]
+}
+</script>
+
 ## 5. Magnetism
 
 ### 5.1 Magnets and Magnetic Fields
@@ -378,6 +441,15 @@ transformers reduce the voltage for safe domestic use (230 V).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}]
+}
+</script>
+
 ## 6. Particle Model of Matter
 
 ### 6.1 States of Matter
@@ -416,6 +488,15 @@ $$pV = \text{constant} \quad \text{(at constant temperature — Boyle's law)}$$
 $$\frac{p_1}{T_1} = \frac{p_2}{T_2} \quad \text{(at constant volume — pressure law, temperature in kelvin)}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}]
+}
+</script>
 
 ## 7. Radioactivity
 
@@ -483,6 +564,15 @@ square law), and shielding.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}]
+}
+</script>
+
 ## 8. Key Equations
 
 | Quantity                       | Equation                            | Units  |
@@ -507,6 +597,15 @@ square law), and shielding.
 | Gas law (Boyle)                | $p_1V_1 = p_2V_2$                   | —      |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}]
+}
+</script>
 
 ## 9. Exam Tips
 
@@ -536,6 +635,15 @@ square law), and shielding.
    evidence, link back to the question. Use scientific terminology throughout.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}]
+}
+</script>
 
 ## Intuition
 

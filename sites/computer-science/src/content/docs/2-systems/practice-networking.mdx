@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Systems", "url": "https://computer-science.wyattau.com/2-systems"}, {"name": "Practice Networking", "url": "https://computer-science.wyattau.com/2-systems/practice-networking"}]
+}
+</script>
 title: "Networking -- Practice Problems"
 description: "10 MCQ questions covering network models, IP addressing, routing protocols, TCP congestion control, DNS, HTTP, and error detection. Select an option to"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Systems", "url": "https://computer-science.wyattau.com/2-systems"}, {"name": "Practice Networking", "url": "https://computer-science.wyattau.com/2-systems/practice-networking"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -20,6 +38,15 @@ DNS, HTTP, and error detection. Select an option to check your answer and view t
 **The key insight:** TCP's reliability comes at a cost — the three-way handshake and acknowledgements add latency, which is why UDP exists for real-time applications where speed matters more than perfect delivery.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Systems", "url": "https://computer-science.wyattau.com/2-systems"}, {"name": "Practice Networking", "url": "https://computer-science.wyattau.com/2-systems/practice-networking"}]
+}
+</script>
 
 ## Network Models and Physical/Data Link Layers
 
@@ -46,6 +73,15 @@ DNS, HTTP, and error detection. Select an option to check your answer and view t
 <PracticeProblem client:only="solid-js" question={"TCP uses a sliding window for flow control. What is Silly Window Syndrome and how is it avoided on the sender side?&quot; options={[ &quot;Small segments are sent due to tiny advertised windows; Nagle's algorithm buffers small writes and sends them together&quot;, 'Large segments overflow the receiver buffer; the window size must be doubled', 'The window closes permanently; the connection must be reset', 'Segments arrive out of order; selective acknowledgments fix this', ]} correctAnswer={0} explanation=&quot;Silly Window Syndrome occurs when the receiver advertises tiny windows (e.g., 1 byte) causing the sender to transmit tiny segments inefficiently. Nagle's algorithm (sender side) buffers small writes until an ACK for the previous data arrives or enough data accumulates for a full segment. Clark's solution (receiver side) avoids advertising small windows."} difficulty="hard"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Systems", "url": "https://computer-science.wyattau.com/2-systems"}, {"name": "Practice Networking", "url": "https://computer-science.wyattau.com/2-systems/practice-networking"}]
+}
+</script>
 
 ## Additional Networking Questions
 

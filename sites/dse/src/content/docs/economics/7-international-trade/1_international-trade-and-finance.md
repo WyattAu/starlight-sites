@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
 title: International Trade and Finance
 description: "A country has an in producing a good if it can produce more of that good with The same amount of resources, or use fewer resources to produce the same"
 date: 2026-04-08T00:00:00.000Z
@@ -6,6 +15,15 @@ tags: [DSE, Economics]
 categories: [DSE, Economics]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
 
 ## Absolute Advantage
 
@@ -31,6 +49,15 @@ Absolute advantage alone does not explain why trade occurs between countries whe
 An absolute advantage in ALL goods. For that, we need comparative advantage.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
 
 ## Comparative Advantage
 
@@ -142,6 +169,15 @@ Comparative advantage arises from differences between countries in:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
+
 ## Terms of Trade
 
 ### Definition
@@ -182,6 +218,15 @@ Year.
 - Does not account for changes in the quality of goods traded
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
 
 ## Trade Barriers
 
@@ -262,6 +307,15 @@ Production and allowing them to sell at a lower price.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
+
 ## Arguments For and Against Free Trade
 
 ### Arguments For Free Trade
@@ -313,6 +367,15 @@ Production and allowing them to sell at a lower price.
   industries that use those inputs
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
 
 ## Balance of Payments
 
@@ -379,6 +442,15 @@ Hong Kong runs a **current account surplus** because:
   abroad)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
 
 ## Exchange Rates
 
@@ -489,6 +561,15 @@ Trade balance improves.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
+
 ## Effects of Exchange Rate Changes on the Hong Kong Economy
 
 Since Hong Kong operates a linked exchange rate system (pegged to the USD at ~7.8), the HKD
@@ -511,6 +592,15 @@ The reverse effects: exports become cheaper (boosting export demand and tourism)
 More expensive (increasing costs and imported inflation), and the current account may improve.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
 
 ## Trade Dependency
 
@@ -549,6 +639,15 @@ Exceeding 300%. This reflects:
 - Potential for structural unemployment if export industries decline
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
 
 ## Intuition
 
@@ -600,6 +699,15 @@ Exceeding 300%. This reflects:
     imports, but they work differently.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -1032,6 +1140,15 @@ Can create trade diversion that partially offsets the benefits of trade creation
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
+
 ## Problem Set
 
 ### Problem 1: Comparative Advantage with Numbers
@@ -1267,6 +1384,15 @@ If you get this wrong, revise: [Trade Barriers](#trade-barriers)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
+
 ## Extended Problem Set: Advanced International Trade and Finance
 
 ### Problem 9: Comparative Advantage with Three Countries
@@ -1456,6 +1582,15 @@ now creates a growing primary income deficit in the BOP.
 If you get this wrong, revise: [Foreign Direct Investment](#foreign-direct-investment)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "7 International Trade", "url": "https://dse.wyattau.com/economics/7-international-trade"}, {"name": "1_international Trade And Finance", "url": "https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance"}]
+}
+</script>
 
 ## Additional Problems: DSE Exam-Style Integration
 

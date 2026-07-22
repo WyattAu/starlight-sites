@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "1_atomic Theory", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory"}]
+}
+</script>
 title: Atomic Theory
 description: "IB Chemistry — atomic models from Dalton to quantum mechanics, electron configuration, orbital theory, and periodic properties."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "1_atomic Theory", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory"}]
+}
+</script>
 
 ## Intuition
 
@@ -129,6 +147,15 @@ This is the basis of the **quantum mechanical model** of the atom.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "1_atomic Theory", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory"}]
+}
+</script>
+
 ## 2. Electron Configuration
 
 ### Quantum Numbers
@@ -207,6 +234,15 @@ $$
 - Forgetting that the Aufbau order and the writing order are different for transition metals.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "1_atomic Theory", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory"}]
+}
+</script>
 
 ## 3. Orbital Theory
 
@@ -293,6 +329,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "1_atomic Theory", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory"}]
+}
+</script>
+
 ## 4. Ionization Energy
 
 ### Definition
@@ -338,6 +383,15 @@ The large jump from $IE_4$ to $IE_5$ indicates 4 valence electrons, consistent w
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "1_atomic Theory", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory"}]
+}
+</script>
+
 ## 5. Electronegativity
 
 ### Definition
@@ -380,6 +434,15 @@ High polarising power combined with high polarizability leads to covalent charac
   normal conditions).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "1_atomic Theory", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -481,6 +544,15 @@ Hund's rule), so it is strongly paramagnetic.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "1_atomic Theory", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -649,6 +721,15 @@ $\mathrm{Co}^{2+}$ is **paramagnetic** with three unpaired electrons.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "1_atomic Theory", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **Writing electron configurations in the wrong order**: The filling order (Aufbau) differs from
@@ -686,6 +767,15 @@ $\mathrm{Co}^{2+}$ is **paramagnetic** with three unpaired electrons.
   $d$-subshells.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "1_atomic Theory", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -726,6 +816,15 @@ $\mathrm{Co}^{2+}$ is **paramagnetic** with three unpaired electrons.
    (c) $n=4$$l=3$$m_l=-3$$m_s=-\tfrac{1}{2}$ (d) $n=1$$l=0$$m_l=1$ $m_s=+\tfrac{1}{2}$ **[Easy]**
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "1_atomic Theory", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory"}]
+}
+</script>
 
 ## If You Get These Wrong, Revise:
 

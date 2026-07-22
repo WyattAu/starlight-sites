@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
 title: Chemistry - Redox and Electrochemistry
 description: "DSE Chemistry - Redox and Electrochemistry notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 date: 2026-04-23T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
 
 ## Oxidation and Reduction
 
@@ -41,6 +59,15 @@ $$\mathrm{Zn} + \mathrm{Cu^{2+}} \to \mathrm{Zn^{2+}} + \mathrm{Cu}$$
 - $\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}$ (reduction; $\mathrm{Cu^{2+}}$ is the oxidising agent)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
 
 ## Oxidation Numbers
 
@@ -84,6 +111,15 @@ The oxidation number of chromium in $\mathrm{Cr_2O_7^{2-}}$ is $+6$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
+
 ## Balancing Redox Equations
 
 ### Half-Equation Method
@@ -118,6 +154,15 @@ $$\mathrm{MnO_4^-} + 8\mathrm{H^+} + 5\mathrm{Fe^{2+}} \to \mathrm{Mn^{2+}} + 4\
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
+
 ## Displacement Reactions
 
 A displacement reaction occurs when a more reactive metal displaces a less reactive metal from its
@@ -150,6 +195,15 @@ Magnesium is oxidised ($\mathrm{Mg} \to \mathrm{Mg^{2+}} + 2e^-$) and copper(II)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
+
 ## Extraction of Metals
 
 ### Metals Above Carbon in the Reactivity Series
@@ -178,6 +232,15 @@ $$\mathrm{Fe_2O_3} + 3\mathrm{CO} \to 2\mathrm{Fe} + 3\mathrm{CO_2}$$
 Carbon monoxide (from the partial combustion of coke) is the reducing agent.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
 
 ## Rusting and Corrosion Prevention
 
@@ -211,6 +274,15 @@ beneath.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
+
 ## Electrochemical Cells
 
 An electrochemical cell converts chemical energy into electrical energy. It consists of two
@@ -241,6 +313,15 @@ $$E^\circ_{\mathrm{cell}} = E^\circ_{\mathrm{cathode}} - E^\circ_{\mathrm{anode}
 A positive $E^\circ_{\mathrm{cell}}$ indicates that the reaction is spontaneous.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
 
 ## Electrolysis
 
@@ -334,6 +415,15 @@ $$m = n \times M = 0.02332 \times 63.5 = 1.48 \mathrm{ g}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
+
 ## Electroplating
 
 Electroplating is the process of depositing a thin layer of one metal onto another using
@@ -356,6 +446,15 @@ At the anode: $\mathrm{Ag} \to \mathrm{Ag^+} + e^-$ (silver dissolves)
 At the cathode: $\mathrm{Ag^+} + e^- \to \mathrm{Ag}$ (silver deposits on the object)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
 
 ## Intuition
 
@@ -382,6 +481,15 @@ At the cathode: $\mathrm{Ag^+} + e^- \to \mathrm{Ag}$ (silver deposits on the ob
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
+
 ## Summary Table
 
 | Concept            | Key Point                                         |
@@ -398,6 +506,15 @@ At the cathode: $\mathrm{Ag^+} + e^- \to \mathrm{Ag}$ (silver deposits on the ob
 | Anode product      | Halogen (if halide present) or $\mathrm{O_2}$     |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -467,6 +584,15 @@ copper.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
+
 <details>
 <summary>Exam-Style Practice Questions</summary>
 
@@ -532,6 +658,15 @@ from losing electrons. As long as magnesium Remains, the iron is protected from 
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
+}
+</script>
 
 ## Problem Set
 

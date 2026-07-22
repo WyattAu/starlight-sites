@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "7_special Relativity And Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism/7_special-relativity-and-electromagnetism"}]
+}
+</script>
 title: Special Relativity and Electromagnetism
 tags:
   - Physics
   - University
 description: "The laws of electromagnetism are inherently relativistic. In fact, it was the inconsistency of Maxwell' s equations with Galilean relativity that motivated"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "7_special Relativity And Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism/7_special-relativity-and-electromagnetism"}]
+}
+</script>
 
 ### 7.1 Covariant Formulation
 

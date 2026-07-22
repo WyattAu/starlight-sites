@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Tmua Preparation", "url": "https://admissions.wyattau.com/tmua-preparation"}]
+}
+</script>
 title: TMUA Preparation
 description: "University Admissions TMUA Preparation notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
 date: 2026-05-05T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Mathematics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Tmua Preparation", "url": "https://admissions.wyattau.com/tmua-preparation"}]
+}
+</script>
 
 ## 1. Overview of TMUA
 
@@ -54,6 +72,15 @@ Mathematics in novel situations.
   reasoning demands make it challenging in a different way.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Tmua Preparation", "url": "https://admissions.wyattau.com/tmua-preparation"}]
+}
+</script>
 
 ## 2. Paper 1: Mathematical Reasoning
 
@@ -137,6 +164,15 @@ results.
 4. Work through the specific case asked about, following the structure of the given argument.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Tmua Preparation", "url": "https://admissions.wyattau.com/tmua-preparation"}]
+}
+</script>
 
 ## 3. Paper 2: Mathematical Applications
 
@@ -238,6 +274,15 @@ float.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Tmua Preparation", "url": "https://admissions.wyattau.com/tmua-preparation"}]
+}
+</script>
+
 ## 4. Worked Questions
 
 ### Question 1 (Paper 1: Logic)
@@ -274,6 +319,15 @@ Is the best answer.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Tmua Preparation", "url": "https://admissions.wyattau.com/tmua-preparation"}]
+}
+</script>
+
 ### Question 2 (Paper 1: Proof)
 
 > A student claims to prove by induction that $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ for all
@@ -300,6 +354,15 @@ The proof is therefore Incomplete.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Tmua Preparation", "url": "https://admissions.wyattau.com/tmua-preparation"}]
+}
+</script>
+
 ### Question 3 (Paper 2: Statistics)
 
 > A random variable $X$ has probability density function:
@@ -324,6 +387,15 @@ $$\mathbb{E}(X) = \int_0^2 x \cdot \frac{x}{2}\,dx = \frac{1}{2}\int_0^2 x^2\,dx
 **Answer: B.**
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Tmua Preparation", "url": "https://admissions.wyattau.com/tmua-preparation"}]
+}
+</script>
 
 ### Question 4 (Paper 2: Modelling)
 
@@ -390,6 +462,15 @@ form).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Tmua Preparation", "url": "https://admissions.wyattau.com/tmua-preparation"}]
+}
+</script>
+
 ### Question 5 (Paper 1: Comprehension)
 
 > **Definition.** A positive integer $n$ is called _practical_ if every positive integer up to $n$
@@ -425,6 +506,15 @@ Question, only one option would be correct. Assuming the question intended to as
 **Answer: D** (8 is practical, and it is the largest practical number among the options).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Tmua Preparation", "url": "https://admissions.wyattau.com/tmua-preparation"}]
+}
+</script>
 
 ## Intuition
 

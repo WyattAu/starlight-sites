@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
 title: "Dispersion -- Diagnostic Tests"
 description: "DSE Maths Dispersion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
 
 # Dispersion — Diagnostic Tests
 
@@ -44,6 +62,15 @@ Note: variance has units cm$^2$While standard deviation has units cm.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
+
 ### UT-2: Coding Effect on Mean and Standard Deviation
 
 **Question:**
@@ -64,6 +91,15 @@ The additive constant $-5$ affects the mean but NOT the standard deviation.
 A common mistake is thinking the $-5$ affects the standard deviation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
 
 ### UT-3: Grouped Data Midpoints
 
@@ -99,6 +135,15 @@ Estimated SD $= \sqrt{\dfrac{821}{9}} = \dfrac{\sqrt{821}}{3} \approx 9.56$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
+
 ### UT-4: Box Plot Interpretation
 
 **Question:**
@@ -117,6 +162,15 @@ Upper fence: $Q_3 + 1.5 \times \text{IQR} = 50 + 37.5 = 87.5$.
 Since all values ($10$ to $80$) fall within $[-12.5,\; 87.5]$There are no outliers.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
 
 ### UT-5: Combined Data Sets
 
@@ -142,6 +196,15 @@ $$s^2 = \frac{8(4 + 9) + 12(9 + 4)}{20} = \frac{8 \times 13 + 12 \times 13}{20} 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of dispersion with other topics.
@@ -166,6 +229,15 @@ $$\text{Var}(X) = E(X^2) - [E(X)]^2 = 15 - \frac{121}{9} = \frac{135 - 121}{9} =
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
+
 ### IT-2: Dispersion and Inequalities (with Inequalities)
 
 **Question:**
@@ -185,6 +257,15 @@ If the data is approximately normally distributed, the empirical rule gives appr
 Chebyshev gives the guaranteed minimum of $75\%$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
 
 ### IT-3: Dispersion and Combinatorics (with Combinatorics)
 
@@ -213,6 +294,15 @@ This confirms: $E(\bar{X}) = \mu$ and $\text{Var}(\bar{X}) = \dfrac{\sigma^2}{n}
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
+
 ## Worked Examples
 
 ### WE-1: Effect of Adding a Constant to All Data
@@ -235,6 +325,15 @@ New variance $= 1^2 \times 9 = 9$.
 The additive constant $7$ shifts the data but does not affect the spread.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
 
 ### WE-2: Standard Deviation from a Frequency Distribution
 
@@ -269,6 +368,15 @@ asked for a decimal.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
+
 ### WE-3: Coding with Grouped Data
 
 **Question:**
@@ -286,6 +394,15 @@ Original standard deviation:
 $\sigma_x = \dfrac{\sigma_y}{|a|} = \dfrac{\sqrt{4.8}}{1/5} = 5\sqrt{4.8} = 5 \times 2\sqrt{1.2} = 10\sqrt{1.2} = 2\sqrt{30} \approx 10.95$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
 
 ### WE-4: Interquartile Range from Raw Data
 
@@ -313,6 +430,15 @@ $$\text{IQR} = Q_3 - Q_1 = 35 - 18 = 17$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
+
 ### WE-5: Comparing Distributions Using Standard Deviation
 
 **Question:**
@@ -335,6 +461,15 @@ $\sigma = 15$. The smaller standard deviation of Class A indicates less variabil
 consistency.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
 
 ### WE-6: Removing an Outlier
 
@@ -367,6 +502,15 @@ outliers have an exaggerated effect on measures of dispersion.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
+
 ### WE-7: Using a Given Mean to Find Missing Frequency
 
 **Question:**
@@ -397,6 +541,15 @@ $k = \dfrac{34}{3}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
+
 ### WE-8: Sheppard's Correction (Awareness)
 
 **Question:**
@@ -422,6 +575,15 @@ class, which slightly overestimates the variance.
 In DSE examinations, Sheppard's correction is generally not required unless explicitly asked.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
 
 ## Intuition
 
@@ -453,6 +615,15 @@ In DSE examinations, Sheppard's correction is generally not required unless expl
    $Q_3$ is the median of the upper half.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
 
 ## DSE Exam-Style Questions
 
@@ -492,6 +663,15 @@ The student scored $0.72$ standard deviations above the mean.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
+
 ### DSE-2
 
 The weights (in kg) of 8 parcels are: $2.3, 3.1, 4.5, 5.2, 3.8, 4.1, 2.9, 3.6$.
@@ -524,6 +704,15 @@ New variance $= 1000^2 \times 0.7536 = 753600$ g$^2$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
+
 ### DSE-3
 
 Two classes took the same examination. Class $A$ (30 students) had mean $72$ and variance $36$.
@@ -544,6 +733,15 @@ $$\sigma^2 = \frac{30(36 + 2.8^2) + 20(64 + 4.2^2)}{50} = \frac{30(36 + 7.84) + 
 $$= \frac{30 \times 43.84 + 20 \times 81.64}{50} = \frac{1315.2 + 1632.8}{50} = \frac{2948}{50} = 58.96$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
 
 ### DSE-4
 
@@ -568,6 +766,15 @@ Since all values ($12$ to $35$) lie within $[3, 43]$There are no outliers.
 (c) By definition, $50\%$ of the data lies between $Q_1$ and $Q_3$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Dispersion", "url": "https://dse.wyattau.com/maths/diagnostics/diag-dispersion"}]
+}
+</script>
 
 ### DSE-5
 

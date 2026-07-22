@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Urbanization", "url": "https://dse.wyattau.com/geography/diagnostics/diag-urbanization"}]
+}
+</script>
 title: "Diagnostic Test: Urbanization"
 description: "Self-assessment quiz on urban processes and Hong Kong urbanization"
 sidebar_position: 10
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Urbanization", "url": "https://dse.wyattau.com/geography/diagnostics/diag-urbanization"}]
+}
+</script>
 
 # Diagnostic Test: Urbanization
 

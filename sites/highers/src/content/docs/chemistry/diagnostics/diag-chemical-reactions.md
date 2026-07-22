@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Chemical Reactions", "url": "https://highers.wyattau.com/chemistry/diagnostics/diag-chemical-reactions"}]
+}
+</script>
 title: "Chemical Reactions -- Diagnostic Tests"
 description: "Comprehensive educational content notes on chemical reactions -- diagnostic tests with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Chemical Reactions", "url": "https://highers.wyattau.com/chemistry/diagnostics/diag-chemical-reactions"}]
+}
+</script>
 
 # Chemical Reactions -- Diagnostic Tests
 
@@ -56,6 +74,15 @@ end of one polar molecule is attracted to the negative end of a neighbouring pol
 are stronger than London dispersion forces but weaker than hydrogen bonds.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Chemical Reactions", "url": "https://highers.wyattau.com/chemistry/diagnostics/diag-chemical-reactions"}]
+}
+</script>
 
 ### UT-2: Enthalpy Changes and Hess"s Law
 
@@ -124,6 +151,15 @@ Two sources of error:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Chemical Reactions", "url": "https://highers.wyattau.com/chemistry/diagnostics/diag-chemical-reactions"}]
+}
+</script>
+
 ### UT-3: Chemical Equilibrium
 
 **Question:**
@@ -175,6 +211,15 @@ unchanged. Therefore the equilibrium position is unchanged, but equilibrium is r
 because both forward and reverse reactions proceed more quickly.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Chemical Reactions", "url": "https://highers.wyattau.com/chemistry/diagnostics/diag-chemical-reactions"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -233,6 +278,15 @@ molecules. Understanding both the energetics ($\Delta H$) and equilibrium princi
 to choose optimal conditions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Chemical Reactions", "url": "https://highers.wyattau.com/chemistry/diagnostics/diag-chemical-reactions"}]
+}
+</script>
 
 ### IT-2: Applied Equilibrium and Energetics
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "8_rigid Body Dynamics", "url": "https://physics.wyattau.com/1-classical-mechanics/8_rigid-body-dynamics"}]
+}
+</script>
 title: Rigid Body Dynamics
 tags:
   - Physics
   - University
 description: "A is a system of particles in which the distance between every pair of particles Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "8_rigid Body Dynamics", "url": "https://physics.wyattau.com/1-classical-mechanics/8_rigid-body-dynamics"}]
+}
+</script>
 
 ### 8.1 Rigid Body Kinematics
 

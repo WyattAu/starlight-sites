@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "11 Measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing"}, {"name": "1_measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing"}]
+}
+</script>
 title: Measurement and Data Processing
 description: "Rigorous IB chemistry notes covering Measurement and Data Processing. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "11 Measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing"}, {"name": "1_measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing"}]
+}
+</script>
 
 ## Intuition
 
@@ -109,6 +127,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "11 Measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing"}, {"name": "1_measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing"}]
+}
+</script>
+
 ## 2. Significant Figures
 
 ### Rules for Determining Significant Figures
@@ -155,6 +182,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "11 Measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing"}, {"name": "1_measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing"}]
+}
+</script>
+
 ## 3. Graphical Analysis
 
 ### Drawing Best-Fit Lines
@@ -195,6 +231,15 @@ For $y = kx^n$ with $n = 1$The graph of $y$ versus $x$ is linear through the ori
 - Using inconsistent or too-large scale divisions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "11 Measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing"}, {"name": "1_measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing"}]
+}
+</script>
 
 ## 4. Spectroscopy: Infrared (IR)
 
@@ -258,6 +303,15 @@ Carboxylic acid.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "11 Measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing"}, {"name": "1_measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing"}]
+}
+</script>
+
 ## 5. Spectroscopy: Mass Spectrometry (MS)
 
 ### Principle (Organic Chemistry Context)
@@ -299,6 +353,15 @@ Atoms.
 - Overlooking the M + 2 peak as evidence for halogens.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "11 Measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing"}, {"name": "1_measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing"}]
+}
+</script>
 
 ## 6. Spectroscopy: Nuclear Magnetic Resonance (NMR)
 
@@ -390,6 +453,15 @@ Peaks appear at known positions:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "11 Measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing"}, {"name": "1_measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing"}]
+}
+</script>
+
 ## 7. Combined Spectroscopic Identification
 
 ### Strategy
@@ -427,6 +499,15 @@ $\mathrm{CH}_3\mathrm{CH}_2\mathrm{COOCH}_2\mathrm{CH}_3$ (ethyl propanoate, $M 
 illustrates the iterative nature of spectral analysis.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "11 Measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing"}, {"name": "1_measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -541,6 +622,15 @@ $$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "11 Measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing"}, {"name": "1_measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -746,6 +836,15 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "11 Measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing"}, {"name": "1_measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **Using the smallest division (not half) for analogue instrument uncertainty**: A ruler with 1 mm
@@ -789,6 +888,15 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
   $\mathrm{CH}_3$ groups are equivalent), not three.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "11 Measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing"}, {"name": "1_measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -835,6 +943,15 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
    rather than distinct signals. **[Hard]**
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "11 Measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing"}, {"name": "1_measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing"}]
+}
+</script>
 
 ## If You Get These Wrong, Revise:
 

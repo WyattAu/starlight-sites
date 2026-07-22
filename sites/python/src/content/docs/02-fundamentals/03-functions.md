@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "02 Fundamentals", "url": "https://python.wyattau.com/02-fundamentals"}, {"name": "03 Functions", "url": "https://python.wyattau.com/02-fundamentals/03-functions"}]
+}
+</script>
 title: Functions, Closures, and Decorators
 description: "In Python, means that functions are values on equal footing with every other kind Of value -- integers, strings, lists, class instances. There is no"
 date: 2026-04-05T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Python
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "02 Fundamentals", "url": "https://python.wyattau.com/02-fundamentals"}, {"name": "03 Functions", "url": "https://python.wyattau.com/02-fundamentals/03-functions"}]
+}
+</script>
 
 ## Functions as First-Class Objects
 

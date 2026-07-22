@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "Operating Systems", "url": "https://computer-science.wyattau.com/operating-systems"}]
+}
+</script>
 title: Operating Systems
 description: "UNIVERSITY Computing notes: Operating Systems. Comprehensive study material with definitions, examples, and assessment tools."
 date: 2026-04-24T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Computing
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "Operating Systems", "url": "https://computer-science.wyattau.com/operating-systems"}]
+}
+</script>
 
 ## Intuition
 

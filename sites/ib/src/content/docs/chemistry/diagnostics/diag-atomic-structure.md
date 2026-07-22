@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 title: "Atomic Structure and Atomic Theory -- Diagnostic Tests"
 description: "IB Chemistry Atomic Structure and Atomic Theory -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 # Atomic Structure and Atomic Theory — Diagnostic Tests
 
@@ -36,6 +54,15 @@ minimises electron-electron repulsion. In Cr, promoting one $4s$ electron to $3d
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
+
 ### UT-2: Quantum Numbers and Orbital Maximums
 
 **Question:** State the four quantum numbers ($n$, $\ell$$m_\ell$$m_s$) for each electron in a $2p^4$
@@ -56,6 +83,15 @@ The $n = 3$ shell has subshells $3s$ ($\ell = 0$2 electrons), $3p$ ($\ell = 1$6 
 ($\ell = 2$10 electrons). Maximum capacity: $2 + 6 + 10 = 18$ electrons.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 ### UT-3: Isotopic Abundance and Relative Atomic Mass
 
@@ -101,6 +137,15 @@ to remove.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
+
 ### IT-2: Emission Spectra and Energy Levels (with Measurement and Data Processing)
 
 **Question:** A hydrogen emission line has a wavelength of $434.0\ \text{nm}$. Calculate the energy
@@ -129,6 +174,15 @@ $\Delta E = \frac{hc\,\Delta\lambda}{\lambda^2}$).
 $\Delta E = \frac{hc \times 0.5 \times 10^{-9}}{(434.0 \times 10^{-9})^2} = \frac{9.936 \times 10^{-34}}{1.884 \times 10^{-13}} = 5.27 \times 10^{-21}\ \text{J} \approx 0.033\ \text{eV}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 ### IT-3: Electron Configuration and Chemical Properties (with Chemical Bonding)
 

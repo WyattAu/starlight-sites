@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "09 Jvm Internals", "url": "https://languages.wyattau.com/java/09-jvm-internals"}, {"name": "02 Jit Compilation", "url": "https://languages.wyattau.com/java/09-jvm-internals/02-jit-compilation"}]
+}
+</script>
 title: JIT Compilation and Deoptimization
 description: "Java JIT compilation and deoptimization."
 categories: ["java"]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "09 Jvm Internals", "url": "https://languages.wyattau.com/java/09-jvm-internals"}, {"name": "02 Jit Compilation", "url": "https://languages.wyattau.com/java/09-jvm-internals/02-jit-compilation"}]
+}
+</script>
 
 ## Interpreter vs JIT Compilation
 

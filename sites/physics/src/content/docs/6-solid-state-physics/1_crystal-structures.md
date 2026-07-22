@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "1_crystal Structures", "url": "https://physics.wyattau.com/6-solid-state-physics/1_crystal-structures"}]
+}
+</script>
 title: Crystal Structures
 tags:
   - Physics
   - University
 description: "A crystal is defined by a (infinite array of points with translational symmetry) and a (the arrangement of atoms associated with each lattice point)."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "1_crystal Structures", "url": "https://physics.wyattau.com/6-solid-state-physics/1_crystal-structures"}]
+}
+</script>
 
 ### 1.1 Lattices and Basis
 

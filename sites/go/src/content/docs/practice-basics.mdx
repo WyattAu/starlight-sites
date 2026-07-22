@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Practice Basics", "url": "https://go.wyattau.com/practice-basics"}]
+}
+</script>
 title: Go Basics Practice (Interactive)
 tags:
   - go
   - golang
 description: "8 auto-graded practice problems covering core Go concepts. Select an answer, sub Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Practice Basics", "url": "https://go.wyattau.com/practice-basics"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -53,6 +71,15 @@ a=int, b=float64, c=string
 **Key insight:** Go uses type inference to determine types from literals. `42` is an `int`, `3.14` is a `float64`, and `"hello"` is a `string`. You rarely need explicit type annotations.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Practice Basics", "url": "https://go.wyattau.com/practice-basics"}]
+}
+</script>
 
 ### Example 2: Variadic Functions and Error Handling
 
@@ -111,6 +138,15 @@ Error: division by zero
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Practice Basics", "url": "https://go.wyattau.com/practice-basics"}]
+}
+</script>
+
 ### Example 3: Interfaces and Structural Typing
 
 ```go
@@ -157,6 +193,15 @@ Interface value: MyInt(42)
 **Key insight:** Go uses structural typing — any type that implements all methods of an interface automatically satisfies it. No explicit declaration needed.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Practice Basics", "url": "https://go.wyattau.com/practice-basics"}]
+}
+</script>
 
 ### Example 4: Goroutines and Channels
 
@@ -205,6 +250,15 @@ All workers finished
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Practice Basics", "url": "https://go.wyattau.com/practice-basics"}]
+}
+</script>
+
 ### Types
 
 <PracticeProblem client:only="solid-js" question={"What is the type of `x` in `var x = 42`?&quot; options={['int', 'int64', 'rune', 'float64']} correctAnswer={0} explanation=&quot;When using `var x = 42` without an explicit type, Go infers the type as `int`, which is the default integer type. On 64-bit systems, `int` is 64-bit, but the type name is still `int`, not `int64`."} difficulty="easy"  />
@@ -212,6 +266,15 @@ All workers finished
 <PracticeProblem client:only="solid-js" question={"Which of the following types satisfies the interface `type Stringer interface { String() string }`?&quot; options={[ 'type MyInt int with a String() string method', 'type MyInt int without methods', 'The built-in int type', 'type MyFloat float64 with a String() int method', ]} correctAnswer={0} explanation=&quot;In Go, any type that has all the methods of an interface implicitly satisfies it. A `MyInt` type with a `String() string` method satisfies the `Stringer` interface. Go uses structural typing, not explicit `implements` declarations."} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Practice Basics", "url": "https://go.wyattau.com/practice-basics"}]
+}
+</script>
 
 ### Functions
 
@@ -221,6 +284,15 @@ All workers finished
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Practice Basics", "url": "https://go.wyattau.com/practice-basics"}]
+}
+</script>
+
 ### Control Flow
 
 <PracticeProblem client:only="solid-js" question='What are the index and value variables when `for i, v := range []string{"a", "b", "c"}` reaches the second element?' options={['i = 1, v = \"b\"', 'i = 2, v = \"c\"', 'i = 1, v = \"a\"', 'i = 0, v = \"b\"']} correctAnswer={0} explanation='`range` over a slice returns (index, value) pairs. For `[]string{"a", "b", "c"}`, the second element (index 1) has index i = 1 and value v = "b".' difficulty="easy"  />
@@ -228,6 +300,15 @@ All workers finished
 <PracticeProblem client:only="solid-js" question={"In a `select` statement with multiple ready cases, how does Go choose which case to execute?&quot; options={[ 'Pseudo-randomly among ready cases', 'The first ready case in source order', 'The case with the highest priority', 'All ready cases execute', ]} correctAnswer={0} explanation=&quot;If multiple cases in a `select` statement are ready, Go selects one pseudo-randomly. This prevents bias and is important for writing fair concurrent programs. If no cases are ready, the select blocks (unless there is a `default` case)."} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Practice Basics", "url": "https://go.wyattau.com/practice-basics"}]
+}
+</script>
 
 ### Error Handling
 

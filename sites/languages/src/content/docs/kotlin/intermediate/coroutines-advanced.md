@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Intermediate", "url": "https://languages.wyattau.com/kotlin/intermediate"}, {"name": "Coroutines Advanced", "url": "https://languages.wyattau.com/kotlin/intermediate/coroutines-advanced"}]
+}
+</script>
 title: coroutines advanced
 date: 2026-05-30
 tags:
@@ -7,6 +16,15 @@ categories:
   - Kotlin
 description: "This document builds on the coroutine fundamentals covered in . It assumes familiarity with suspend functions, coroutine builders, dispatchers, structured"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Intermediate", "url": "https://languages.wyattau.com/kotlin/intermediate"}, {"name": "Coroutines Advanced", "url": "https://languages.wyattau.com/kotlin/intermediate/coroutines-advanced"}]
+}
+</script>
 
 This document builds on the coroutine fundamentals covered in
 [coroutines](/docs/languages/kotlin/intermediate/coroutines). It assumes familiarity with suspend

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "9_lasers", "url": "https://physics.wyattau.com/4-optics-and-waves/9_lasers"}]
+}
+</script>
 title: Lasers
 tags:
   - Physics
   - University
 description: "Einstein's coefficients: (spontaneous emission), (stimulated emission), (absorption). Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "9_lasers", "url": "https://physics.wyattau.com/4-optics-and-waves/9_lasers"}]
+}
+</script>
 
 ### 9.1 Stimulated Emission
 

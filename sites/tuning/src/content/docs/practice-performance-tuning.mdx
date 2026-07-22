@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Practice Performance Tuning", "url": "https://tuning.wyattau.com/practice-performance-tuning"}]
+}
+</script>
 title: "Performance Tuning Practice"
 description: "Practice exercises for system performance tuning"
 tags: [Tuning, Performance, Practice]
 sidebar_position: 50
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Practice Performance Tuning", "url": "https://tuning.wyattau.com/practice-performance-tuning"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -13,6 +31,15 @@ import PracticeProblem from "@components/PracticeProblem";
 15 MCQ questions covering CPU tuning, memory management, I/O optimization, network tuning, and profiling tools. Select an option to check your answer and view the explanation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Practice Performance Tuning", "url": "https://tuning.wyattau.com/practice-performance-tuning"}]
+}
+</script>
 
 ## CPU Tuning
 
@@ -24,6 +51,15 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Practice Performance Tuning", "url": "https://tuning.wyattau.com/practice-performance-tuning"}]
+}
+</script>
+
 ## Memory Management
 
 <PracticeProblem client:only="solid-js" question={"What is false sharing in the context of CPU caches?"} options={'Different variables on the same cache line modified by different cores, triggering coherence traffic', 'Two threads sharing the same variable', 'A cache line being invalidated by the OS', 'Two cores accessing the same memory address'} correctAnswer={0} explanation="False sharing occurs when unrelated variables share a cache line and are modified by different cores. Each write triggers a coherence round-trip, effectively serializing access and devastating multi-threaded performance." difficulty="medium"  />
@@ -33,6 +69,15 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is the typical latency difference between local DRAM and remote DRAM (1 hop) on a NUMA system?"} options={'Remote DRAM is ~50% slower than local', 'Remote DRAM is ~10% slower', 'There is no difference', 'Remote DRAM is ~10x slower'} correctAnswer={0} explanation="On NUMA systems, local DRAM latency is ~80 ns while remote DRAM (1 hop) is ~120-140 ns. This ~50% increase is why NUMA-aware memory placement is critical." difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Practice Performance Tuning", "url": "https://tuning.wyattau.com/practice-performance-tuning"}]
+}
+</script>
 
 ## I/O Optimization
 
@@ -44,6 +89,15 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Practice Performance Tuning", "url": "https://tuning.wyattau.com/practice-performance-tuning"}]
+}
+</script>
+
 ## Network Tuning
 
 <PracticeProblem client:only="solid-js" question={"What is the purpose of TCP_NODELAY (disabling Nagle's algorithm)?"} options={'Sends small packets immediately without waiting to fill a full segment', 'Increases the TCP window size', 'Enables TCP segmentation offload', 'Reduces the number of retransmissions'} correctAnswer={0} explanation="Nagle's algorithm buffers small packets to reduce overhead. Disabling it (TCP_NODELAY) sends small packets immediately, reducing latency for interactive applications at the cost of slightly more overhead." difficulty="medium"  />
@@ -53,6 +107,15 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is the typical effect of increasing the TCP receive buffer size?"} options={'Higher throughput for high-bandwidth, high-latency connections', 'Lower latency for all connections', 'Reduced CPU usage', 'Smaller packet sizes'} correctAnswer={0} explanation="Larger TCP buffers allow more data in flight, which is essential for filling the bandwidth-delay product on high-bandwidth, high-latency links (e.g., 10 Gbps over 100 ms RTT)." difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Practice Performance Tuning", "url": "https://tuning.wyattau.com/practice-performance-tuning"}]
+}
+</script>
 
 ## Profiling Tools
 

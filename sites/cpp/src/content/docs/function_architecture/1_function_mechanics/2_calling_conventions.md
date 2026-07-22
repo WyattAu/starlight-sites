@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Function_architecture", "url": "https://cpp.wyattau.com/function_architecture"}, {"name": "1_function_mechanics", "url": "https://cpp.wyattau.com/function_architecture/1_function_mechanics"}, {"name": "2_calling_conventions", "url": "https://cpp.wyattau.com/function_architecture/1_function_mechanics/2_calling_conventions"}]
+}
+</script>
 title: Calling Conventions and Stack Management
 description: "The C++ Standard does not prescribe a calling convention [N4950 §8.4.4]. On x86-64 Linux and macOS, The governs how functions pass arguments, return values,"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Function_architecture", "url": "https://cpp.wyattau.com/function_architecture"}, {"name": "1_function_mechanics", "url": "https://cpp.wyattau.com/function_architecture/1_function_mechanics"}, {"name": "2_calling_conventions", "url": "https://cpp.wyattau.com/function_architecture/1_function_mechanics/2_calling_conventions"}]
+}
+</script>
 
 # Calling Conventions and Stack Management
 

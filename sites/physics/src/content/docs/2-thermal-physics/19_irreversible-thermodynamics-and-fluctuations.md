@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "19_irreversible Thermodynamics And Fluctuations", "url": "https://physics.wyattau.com/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations"}]
+}
+</script>
 title: Irreversible Thermodynamics and Fluctuations
 tags:
   - Physics
   - University
 description: "The classical fluctuation-dissipation theorem relates the autocorrelation function of a fluctuating variable to the linear response function."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "19_irreversible Thermodynamics And Fluctuations", "url": "https://physics.wyattau.com/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations"}]
+}
+</script>
 
 ### 19.1 Fluctuation-Dissipation in the Time Domain
 

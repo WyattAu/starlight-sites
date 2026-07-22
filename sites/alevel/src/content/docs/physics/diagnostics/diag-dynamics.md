@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Dynamics", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-dynamics"}]
+}
+</script>
 title: "Dynamics -- Diagnostic Tests"
 description: "A-Level Physics Dynamics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Dynamics", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-dynamics"}]
+}
+</script>
 
 
 ## Intuition
@@ -53,6 +71,15 @@ are not a third law pair because they are not the same type of force and do not 
 two bodies.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Dynamics", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-dynamics"}]
+}
+</script>
 
 ### UT-2: Friction on an Inclined Plane with Applied Force
 
@@ -120,6 +147,15 @@ maximum**, confirming $F \le \mu R$.
 The magnitude of friction is $1.5\,\text{N}$ (2 s.f.), directed down the plane.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Dynamics", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-dynamics"}]
+}
+</script>
 
 ### UT-3: Connected Particles with a Pulley on an Inclined Plane
 
@@ -231,6 +267,15 @@ Consistent.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Dynamics", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-dynamics"}]
+}
+</script>
+
 ### IT-2: Block on a Turntable (with Circular Motion)
 
 **Question:**
@@ -312,6 +357,15 @@ effective normal reaction and the friction must also counteract the tendency to 
 slope.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Dynamics", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-dynamics"}]
+}
+</script>
 
 ### IT-3: Multi-Stage Connected Particle Problem (with Momentum)
 

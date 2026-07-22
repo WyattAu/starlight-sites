@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "6 Theory Of Computation", "url": "https://computer-science.wyattau.com/6-theory-of-computation"}, {"name": "3_context Free Languages", "url": "https://computer-science.wyattau.com/6-theory-of-computation/3_context-free-languages"}]
+}
+</script>
 title: Context-Free Languages
 tags:
   - Computing
   - University
 description: "Context-Free Languages: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "6 Theory Of Computation", "url": "https://computer-science.wyattau.com/6-theory-of-computation"}, {"name": "3_context Free Languages", "url": "https://computer-science.wyattau.com/6-theory-of-computation/3_context-free-languages"}]
+}
+</script>
 
 ## Intuition
 

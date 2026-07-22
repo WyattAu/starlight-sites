@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Swift", "url": "https://languages.wyattau.com/swift"}, {"name": "04 Advanced", "url": "https://languages.wyattau.com/swift/04-advanced"}, {"name": "2_concurrency", "url": "https://languages.wyattau.com/swift/04-advanced/2_concurrency"}]
+}
+</script>
 title: Concurrency
 description: "Swift' s concurrency model provides -- asynchronous tasks are organised in a hierarchy where the lifetime of child tasks is bounded by their parent. This"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Swift
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Swift", "url": "https://languages.wyattau.com/swift"}, {"name": "04 Advanced", "url": "https://languages.wyattau.com/swift/04-advanced"}, {"name": "2_concurrency", "url": "https://languages.wyattau.com/swift/04-advanced/2_concurrency"}]
+}
+</script>
 
 ## Overview of Swift Concurrency
 

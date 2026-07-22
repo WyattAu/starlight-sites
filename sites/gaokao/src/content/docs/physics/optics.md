@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Physics", "url": "https://gaokao.wyattau.com/physics"}, {"name": "Optics", "url": "https://gaokao.wyattau.com/physics/optics"}]
+}
+</script>
 title: "Optics"
 description: "高考 physics: Optics"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Physics", "url": "https://gaokao.wyattau.com/physics"}, {"name": "Optics", "url": "https://gaokao.wyattau.com/physics/optics"}]
+}
+</script>
 
 # Optics
 

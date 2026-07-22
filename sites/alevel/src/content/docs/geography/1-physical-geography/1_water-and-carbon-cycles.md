@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
+}
+</script>
 title: Water and Carbon Cycles
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, physical-geography]
 description: "A-Level Geography Water and Carbon Cycles notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
+}
+</script>
 
 # Water and Carbon Cycles
 
@@ -17,6 +35,15 @@ stores, flows, and feedback mechanisms within both cycles, with particular empha
 interact and respond to change.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
+}
+</script>
 
 ## Key Concepts and Definitions
 
@@ -44,6 +71,15 @@ interact and respond to change.
 | **Atmosphere**                         | The layer of gases surrounding the Earth                                                             |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
+}
+</script>
 
 ## The Water Cycle
 
@@ -121,6 +157,15 @@ is at field capacity.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
+}
+</script>
+
 ## The Carbon Cycle
 
 ### Global Stores and Flows
@@ -176,6 +221,15 @@ lithosphere:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
+}
+</script>
+
 ## Feedback Mechanisms
 
 ### Positive Feedback Examples
@@ -197,6 +251,15 @@ lithosphere:
    atmosphere → cooling effect (operates over geological timescales).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
+}
+</script>
 
 ## Human Impacts on the Water and Carbon Cycles
 
@@ -226,6 +289,15 @@ lithosphere:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
+}
+</script>
+
 ## Climate Change Impacts on Cycles
 
 Rising global temperatures affect both cycles:
@@ -243,6 +315,15 @@ Rising global temperatures affect both cycles:
   carbon storage patterns.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
+}
+</script>
 
 ## Case Studies
 
@@ -284,11 +365,29 @@ restoration to slow runoff and increase infiltration.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
+}
+</script>
+
 ## Intuition
 
 Think of the water cycle as a giant conveyor belt driven by solar energy. The sun heats water at the surface, lifting it into the atmosphere like steam rising from a kettle. Gravity pulls it back down as rain, and the water finds its way back to the ocean through rivers and groundwater, completing the loop. The carbon cycle works like a bank account with multiple vaults. Carbon moves between the atmosphere (cash in hand), living organisms (savings), the ocean (a massive reserve), and fossil fuels (a locked vault). Human activity is essentially withdrawing carbon from the locked vault and dumping it into the atmosphere faster than the system can rebalance. Positive feedback loops act like a snowball rolling downhill, amplifying initial changes, while negative feedback loops work like a thermostat, pushing the system back toward equilibrium.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -306,6 +405,15 @@ Think of the water cycle as a giant conveyor belt driven by solar energy. The su
    slowly to offset current anthropogenic emissions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -359,6 +467,15 @@ the ocean's buffering capacity, potentially weakening its future role as a carbo
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
+}
+</script>
+
 ## Summary
 
 - The water cycle is driven by solar energy and gravity, moving water between atmosphere,
@@ -376,6 +493,15 @@ the ocean's buffering capacity, potentially weakening its future role as a carbo
   and evaluating management strategies.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "1_water And Carbon Cycles", "url": "https://alevel.wyattau.com/geography/1-physical-geography/1_water-and-carbon-cycles"}]
+}
+</script>
 
 > **Sources**: AQA Geography (7037) specification; Witherick et al., _AQA A-level Geography_
 > (Hodder, 2016); IPCC AR6 WG1 (2021); INPE deforestation data; Gatti et al. (2021), _Nature_;

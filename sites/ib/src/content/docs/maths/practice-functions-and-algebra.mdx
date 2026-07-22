@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Practice Functions And Algebra", "url": "https://ib.wyattau.com/maths/practice-functions-and-algebra"}]
+}
+</script>
 title: Functions and Algebra Practice (Interactive)
 tags:
   - maths
   - ib
 description: "8 auto-graded practice problems at medium to hard difficulty, aligned to the IB Mathematics syllabus (SL/HL). Select an answer, submit, and review the"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Practice Functions And Algebra", "url": "https://ib.wyattau.com/maths/practice-functions-and-algebra"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -25,6 +43,15 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Practice Functions And Algebra", "url": "https://ib.wyattau.com/maths/practice-functions-and-algebra"}]
+}
+</script>
+
 ## Worked Examples
 
 ### Example 1: Function Composition
@@ -41,6 +68,15 @@ Step 3: Notice $f(g(x)) \neq g(f(x))$ in general — composition is not commutat
 **Key insight:** Always substitute the inner function into the outer function, not the other way around. The order matters.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Practice Functions And Algebra", "url": "https://ib.wyattau.com/maths/practice-functions-and-algebra"}]
+}
+</script>
 
 ### Example 2: Quadratic Inequality
 
@@ -62,6 +98,15 @@ Step 4: Answer: $x < -4$ or $x > 2$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Practice Functions And Algebra", "url": "https://ib.wyattau.com/maths/practice-functions-and-algebra"}]
+}
+</script>
+
 ### Example 3: Geometric Series
 
 **Problem:** Find the sum of the first 8 terms of a geometric series with first term 5 and common ratio 2.
@@ -77,6 +122,15 @@ Step 3: Verify: terms are 5, 10, 20, 40, 80, 160, 320, 640. Sum = 1275 ✓
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Practice Functions And Algebra", "url": "https://ib.wyattau.com/maths/practice-functions-and-algebra"}]
+}
+</script>
+
 ### Functions
 
 <PracticeProblem client:only="solid-js" question={"Find the domain of f(x) = √(x² − 4) / (x² − 9).&quot; options={[ 'x ≤ −2 or x ≥ 2, x ≠ ±3', 'x > 2 or x < −2', 'All real numbers except x = ±3', '−2 ≤ x ≤ 2, x ≠ ±3', ]} correctAnswer={0} explanation=&quot;The numerator √(x² − 4) requires x² − 4 ≥ 0, so x ≤ −2 or x ≥ 2. The denominator x² − 9 ≠ 0, so x ≠ ±3. Combining: x ≤ −2 or x ≥ 2, x ≠ ±3."} difficulty="medium"  />
@@ -84,6 +138,15 @@ Step 3: Verify: terms are 5, 10, 20, 40, 80, 160, 320, 640. Sum = 1275 ✓
 <PracticeProblem client:only="solid-js" question={"Given f(x) = 2x + 3 and g(x) = x² − 1, find (f ∘ g)(2).&quot; options={['10', '12', '24', '7']} correctAnswer={0} explanation=&quot;First find g(2) = 2² − 1 = 3. Then f(g(2)) = f(3) = 2(3) + 3 = 9 ≠ 10. Let me recalculate: g(2) = 4 − 1 = 3. f(3) = 2(3) + 3 = 9. Actually f(g)(2) = 9, which isn\'t among the options exactly. Rechecking: if f(x) = 2x + 3, then f(3) = 9. Wait — perhaps the problem expects (g ∘ f)(2)? g(f(2)) = g(7) = 49 − 1 = 48. Neither matches perfectly. With f(x) = 2x + 3 and g(x) = x² − 1: f(g(2)) = f(3) = 9. Hmm, 10 is the best available if we consider a slight variant."} difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Practice Functions And Algebra", "url": "https://ib.wyattau.com/maths/practice-functions-and-algebra"}]
+}
+</script>
 
 ### Algebra
 
@@ -93,6 +156,15 @@ Step 3: Verify: terms are 5, 10, 20, 40, 80, 160, 320, 640. Sum = 1275 ✓
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Practice Functions And Algebra", "url": "https://ib.wyattau.com/maths/practice-functions-and-algebra"}]
+}
+</script>
+
 ### Sequences
 
 <PracticeProblem client:only="solid-js" question={"An arithmetic sequence has first term 5 and common difference 3. Find the sum of the first 20 terms.&quot; options={['630', '650', '670', '600']} correctAnswer={0} explanation=&quot;S_n = n/2(2a + (n−1)d) = 20/2(10 + 57) = 10 × 67 = 670. Wait, let me recheck: S₂₀ = 10(2(5) + 19(3)) = 10(10 + 57) = 10(67) = 670."} difficulty="medium"  />
@@ -100,6 +172,15 @@ Step 3: Verify: terms are 5, 10, 20, 40, 80, 160, 320, 640. Sum = 1275 ✓
 <PracticeProblem client:only="solid-js" question={"The first three terms of a geometric sequence are 3, 6, 12. Find the sum to infinity.&quot; options={['The series diverges (no finite sum)', '12', '24', '∞']} correctAnswer={0} explanation=&quot;The common ratio r = 6/3 = 2. Since |r| ≥ 1, the geometric series does not converge. There is no finite sum to infinity."} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Practice Functions And Algebra", "url": "https://ib.wyattau.com/maths/practice-functions-and-algebra"}]
+}
+</script>
 
 ### Binomial Theorem
 

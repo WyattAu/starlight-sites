@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Data Structures", "url": "https://alevel.wyattau.com/computer-science/data-structures"}, {"name": "01 Arrays And Records", "url": "https://alevel.wyattau.com/computer-science/data-structures/01-arrays-and-records"}]
+}
+</script>
 title: Arrays and Records
 description: 'A (or vector) is a finite, ordered sequence of elements of the same data Type, stored in . Each element is accessed by an integer index.'
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - ComputerScience
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Data Structures", "url": "https://alevel.wyattau.com/computer-science/data-structures"}, {"name": "01 Arrays And Records", "url": "https://alevel.wyattau.com/computer-science/data-structures/01-arrays-and-records"}]
+}
+</script>
 
 ## 1. One-Dimensional Arrays
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure/complex-numbers"}]
+}
+</script>
 title: Complex Numbers (Extended)
 description: "Extended treatment of complex numbers for A-Level Further Maths."
 date: 2026-04-23T00:00:00.000Z
 tags: [Mathematics, ALevel]
 categories: [Mathematics]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure/complex-numbers"}]
+}
+</script>
 
 ## Complex Numbers (Extended Treatment)
 
@@ -387,6 +405,15 @@ $= \dfrac{3 + 4\cos 2\theta + \cos 4\theta}{8}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure/complex-numbers"}]
+}
+</script>
+
 ## 6. Further Proofs and Key Results
 
 ### 6.1 Proof: product of roots of unity
@@ -422,6 +449,15 @@ $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure/complex-numbers"}]
+}
+</script>
+
 ## 7. Common Pitfalls
 
 <aside class="starlight-aside starlight-aside--caution">
@@ -436,6 +472,15 @@ $\blacksquare$
    include $k = 0, 1, \ldots, n-1$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure/complex-numbers"}]
+}
+</script>
 
 ## 8. Additional Exam-Style Questions
 
@@ -671,6 +716,15 @@ $\text{Area} = \dfrac{1}{2}|-14| = 7$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure/complex-numbers"}]
+}
+</script>
+
 ## 10. Connections to Other Topics
 
 ### 10.1 Complex numbers and matrices
@@ -698,6 +752,15 @@ $z^n - 1 = \prod_{k=0}^{n-1}(z - \omega^k)$ connects to polynomial theory. See
 [Further Algebra](/docs/alevel/further-maths/pure-mathematics/further-algebra).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure/complex-numbers"}]
+}
+</script>
 
 ## 11. Additional Exam-Style Questions
 
@@ -830,6 +893,15 @@ $$z = (2 + 3i) + \frac{-1 - 4\sqrt{3}}{2} + i\frac{-4 + \sqrt{3}}{2} = \frac{3 -
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure/complex-numbers"}]
+}
+</script>
+
 ## 12. Advanced Worked Examples
 
 ### Example 12.1: De Moivre for $\sin 4\theta$
@@ -902,6 +974,15 @@ The image is a circle with centre $\left(\dfrac{1}{4}, 0\right)$ and radius $\df
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure/complex-numbers"}]
+}
+</script>
+
 ## 13. Additional Exam-Style Questions
 
 ### Question 11
@@ -961,6 +1042,15 @@ A circle with centre $\left(-\dfrac{5}{3}, 0\right)$ and radius $\dfrac{4}{3}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure/complex-numbers"}]
+}
+</script>
+
 ## 14. Advanced Topics
 
 ### 14.1 Complex logarithms
@@ -995,6 +1085,15 @@ $\sin^n\theta = \left(\dfrac{e^{i\theta}-e^{-i\theta}}{2i}\right)^n$.
 These can be expanded to express $\cos^n\theta$ and $\sin^n\theta$ in terms of multiple angles.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure/complex-numbers"}]
+}
+</script>
 
 ## 15. Further Exam-Style Questions
 
@@ -1037,6 +1136,15 @@ This is a circle (after simplification).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure/complex-numbers"}]
+}
+</script>
+
 ## 15. Further Advanced Topics
 
 ### 15.1 De Moivre and roots of unity — applications
@@ -1065,6 +1173,15 @@ $\cos\theta = \dfrac{e^{i\theta}+e^{-i\theta}}{2}$
 $\sin\theta = \dfrac{e^{i\theta}-e^{-i\theta}}{2i}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure/complex-numbers"}]
+}
+</script>
 
 ## 16. Further Exam-Style Questions
 

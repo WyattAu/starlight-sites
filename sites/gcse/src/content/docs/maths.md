@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}]
+}
+</script>
 title: GCSE Maths Study Guide
 date: 2026-05-31
 description: "GCSE Maths.Md Maths Study notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."
@@ -10,6 +19,15 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}]
+}
+</script>
+
 # GCSE Maths Study Guide
 
 A complete single-page revision guide covering the full GCSE Mathematics specification. Each
@@ -17,6 +35,15 @@ section contains key concepts, worked methods, and essential facts. Use this alo
 [full topic pages](maths/) for detailed proofs and further practice.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}]
+}
+</script>
 
 ## 1. Number
 
@@ -107,6 +134,15 @@ For calculated values, combine bounds appropriately:
 - Minimum area: use lower bounds for all lengths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}]
+}
+</script>
 
 ## 2. Algebra
 
@@ -207,6 +243,15 @@ A function maps each input to exactly one output. $f(x) = 2x + 3$ means $f(4) = 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}]
+}
+</script>
+
 ## 3. Geometry
 
 ### 3.1 Angles
@@ -288,6 +333,15 @@ $\mathbf{AB} = \mathbf{OB} - \mathbf{OA}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}]
+}
+</script>
+
 ## 4. Statistics
 
 ### 4.1 Averages
@@ -357,6 +411,15 @@ $$P(B \mid A) = \frac{P(A \text{ and } B)}{P(A)}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}]
+}
+</script>
+
 ## 5. Key Formulas
 
 ### Geometry
@@ -396,6 +459,15 @@ $$P(B \mid A) = \frac{P(A \text{ and } B)}{P(A)}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}]
+}
+</script>
+
 ## 6. Exam Tips
 
 1. **Show all working.** Method marks are awarded even if the final answer is wrong. An answer with no working shown scores zero if incorrect.
@@ -413,6 +485,15 @@ $$P(B \mid A) = \frac{P(A \text{ and } B)}{P(A)}$$
 7. **Know what is given and what is not.** The formula sheet provides some formulas but not all. Memorise the quadratic formula, area and volume formulas, trigonometric ratios, and compound interest. These are not always provided.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}]
+}
+</script>
 
 ## Common Pitfalls
 

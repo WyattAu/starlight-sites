@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Standard_library", "url": "https://cpp.wyattau.com/standard_library"}, {"name": "4_system_utilities", "url": "https://cpp.wyattau.com/standard_library/4_system_utilities"}, {"name": "2_chrono", "url": "https://cpp.wyattau.com/standard_library/4_system_utilities/2_chrono"}]
+}
+</script>
 title: Chrono Library
 description: "(C++11) provides types and functions for representing and manipulating time values. The library uses the type system to prevent accidental mixing of time"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Standard_library", "url": "https://cpp.wyattau.com/standard_library"}, {"name": "4_system_utilities", "url": "https://cpp.wyattau.com/standard_library/4_system_utilities"}, {"name": "2_chrono", "url": "https://cpp.wyattau.com/standard_library/4_system_utilities/2_chrono"}]
+}
+</script>
 
 ## Intuition
 

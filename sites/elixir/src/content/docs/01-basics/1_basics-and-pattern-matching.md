@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "01 Basics", "url": "https://elixir.wyattau.com/01-basics"}, {"name": "1_basics And Pattern Matching", "url": "https://elixir.wyattau.com/01-basics/1_basics-and-pattern-matching"}]
+}
+</script>
 title: Basics and Pattern Matching
 description: "Elixir has a rich set of built-in data types. Understanding these types and their properties is fundamental to writing idiomatic Elixir code."
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Elixir
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "01 Basics", "url": "https://elixir.wyattau.com/01-basics"}, {"name": "1_basics And Pattern Matching", "url": "https://elixir.wyattau.com/01-basics/1_basics-and-pattern-matching"}]
+}
+</script>
 
 ## Data Types
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
 title: Complex Numbers
 description: "Complex numbers extend the real number system by introducing a solution to the e Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-02T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
 
 ## Complex Numbers
 
@@ -785,6 +803,15 @@ Therefore: $\displaystyle\sum_{k=1}^{n-1}\frac{1}{1 - \omega^k} = \frac{n - 1}{2
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
+
 ## 8. Advanced Worked Examples
 
 ### Example 8.1: De Moivre's theorem for $\cos 5\theta$
@@ -888,6 +915,15 @@ $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
+
 ## 9. Common Pitfalls
 
 | Pitfall                                                           | Correct Approach                                                                                             |
@@ -898,6 +934,15 @@ $\blacksquare$
 | Incorrectly applying de Moivre to non-integer powers              | De Moivre's theorem $(\cos\theta + i\sin\theta)^n = \cos n\theta + i\sin n\theta$ holds for integer $n$ only |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
 
 ## 10. Additional Exam-Style Questions
 
@@ -952,6 +997,15 @@ $y = 6$ or $y = 0$. So $z = 6i$ or $z = 0$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
+
 ## 11. Connections to Other Topics
 
 ### 11.1 Complex numbers and matrices
@@ -971,6 +1025,15 @@ Argand diagrams and polar form $(r, \theta)$ connect to polar coordinates. See
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
+
 ## 12. Key Results Summary
 
 | Result                        | Formula                                                   |
@@ -985,6 +1048,15 @@ Argand diagrams and polar form $(r, \theta)$ connect to polar coordinates. See
 | Locus: half-line              | $\arg(z-a) = \theta$                                      |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
 
 ## 13. Further Exam-Style Questions
 
@@ -1024,6 +1096,15 @@ $|z_1 z_2| = r_1 r_2 = |z_1||z_2|$. $\blacksquare$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
 
 ## 14. Advanced Topics
 
@@ -1067,6 +1148,15 @@ $$\cos\theta = \frac{e^{i\theta}+e^{-i\theta}}{2}, \qquad \sin\theta = \frac{e^{
 These are essential for deriving trigonometric identities and solving certain integrals.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
 
 ## 15. Further Exam-Style Questions
 
@@ -1115,6 +1205,15 @@ The equation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
+
 ## 16. Further Advanced Topics
 
 ### 16.1 The fundamental theorem of algebra
@@ -1154,6 +1253,15 @@ Key properties:
 - $e^z = 1 \iff z = 2k\pi i$ for some integer $k$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
 
 ## 17. Further Exam-Style Questions
 
@@ -1211,6 +1319,15 @@ $\boxed{|z-w| = 5}$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
+
 ## 18. Further Advanced Topics
 
 ### 18.1 Riemann surfaces and multi-valued functions
@@ -1243,6 +1360,15 @@ De Moivre's theorem connects complex numbers to number theory:
 - Wilson's theorem: $(p-1)! \equiv -1 \pmod p$ for prime $p$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
 
 ## 19. Further Exam-Style Questions
 

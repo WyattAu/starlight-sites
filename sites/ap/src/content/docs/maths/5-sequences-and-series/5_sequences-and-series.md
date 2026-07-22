@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "5 Sequences And Series", "url": "https://ap.wyattau.com/maths/5-sequences-and-series"}, {"name": "5_sequences And Series", "url": "https://ap.wyattau.com/maths/5-sequences-and-series/5_sequences-and-series"}]
+}
+</script>
 title: Sequences and Series
 description: "A sequence is an ordered list of numbers."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ap-maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "5 Sequences And Series", "url": "https://ap.wyattau.com/maths/5-sequences-and-series"}, {"name": "5_sequences And Series", "url": "https://ap.wyattau.com/maths/5-sequences-and-series/5_sequences-and-series"}]
+}
+</script>
 
 ## Sequences (CED BC Unit 10)
 
@@ -843,6 +861,15 @@ $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n(n+1)} = \lim_{N \to \infty} \left(1
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "5 Sequences And Series", "url": "https://ap.wyattau.com/maths/5-sequences-and-series"}, {"name": "5_sequences And Series", "url": "https://ap.wyattau.com/maths/5-sequences-and-series/5_sequences-and-series"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 hardest questions within the AP specification for this topic, each with a full worked solution.

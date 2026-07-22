@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "2_statistical Mechanics", "url": "https://physics.wyattau.com/2-thermal-physics/2_statistical-mechanics"}]
+}
+</script>
 title: Statistical Mechanics
 tags:
   - Physics
   - University
 description: "A is a complete specification of the state of a system (positions and momenta of all particles). A is specified by macroscopic variables (energy, volume,"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "2_statistical Mechanics", "url": "https://physics.wyattau.com/2-thermal-physics/2_statistical-mechanics"}]
+}
+</script>
 
 ### 2.1 Microstates and Macrostates
 
@@ -220,6 +238,15 @@ Statistical mechanics bridges the microscopic world of individual atoms to the m
   paradox arises).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "2_statistical Mechanics", "url": "https://physics.wyattau.com/2-thermal-physics/2_statistical-mechanics"}]
+}
+</script>
 
 ## Cross-References
 

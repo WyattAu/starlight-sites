@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "4 Databases", "url": "https://computer-science.wyattau.com/4-databases"}, {"name": "11_further Reading", "url": "https://computer-science.wyattau.com/4-databases/11_further-reading"}]
+}
+</script>
 title: Further Reading
 tags:
   - Computing
   - University
 description: "- Silberschatz, Korth, Sudarshan: _Database System Concepts_ (7th ed.). - Ramakrishnan, Gehrke: _Database Management Systems_ (3rd ed.). - Elmasri, Navathe:"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "4 Databases", "url": "https://computer-science.wyattau.com/4-databases"}, {"name": "11_further Reading", "url": "https://computer-science.wyattau.com/4-databases/11_further-reading"}]
+}
+</script>
 
 - Silberschatz, Korth, Sudarshan: _Database System Concepts_ (7th ed.).
 - Ramakrishnan, Gehrke: _Database Management Systems_ (3rd ed.).

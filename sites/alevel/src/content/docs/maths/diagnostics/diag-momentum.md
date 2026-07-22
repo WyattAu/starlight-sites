@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Momentum", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-momentum"}]
+}
+</script>
 title: "Momentum -- Diagnostic Tests"
 description: "A-Level Maths Momentum -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Momentum", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-momentum"}]
+}
+</script>
 
 
 ## Intuition
@@ -89,6 +107,15 @@ $$\Delta\mathrm{KE} = 77 - \frac{49}{3} = \frac{231 - 49}{3} = \frac{182}{3} \ap
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Momentum", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-momentum"}]
+}
+</script>
+
 ### UT-2: Coefficient of Restitution — The Wall Bounce Sequence
 
 **Question:**
@@ -154,6 +181,15 @@ rest. The model assumes $e$ is constant, which is only an approximation for macr
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Momentum", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-momentum"}]
+}
+</script>
+
 ### UT-3: When Is Momentum NOT Conserved?
 
 **Question:**
@@ -218,6 +254,15 @@ particle + Earth system is conserved.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Momentum", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-momentum"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of momentum with other topics. Requires combining concepts from multiple units.
@@ -280,6 +325,15 @@ $$= (128 - 128 + 64 - 16 + 2) - 0 = 50 \text{ J}$$
 Since $W = 50$ J $= \Delta\mathrm{KE}$The work-energy theorem is verified.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Momentum", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-momentum"}]
+}
+</script>
 
 ### IT-2: Oblique Collision with Energy Analysis (with Energy and Trigonometry)
 
@@ -384,6 +438,15 @@ not simplify neatly because the data is inconsistent. The angle is approximately
 original line of motion.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Momentum", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-momentum"}]
+}
+</script>
 
 ### IT-3: Multi-Stage Collision with Wall and Second Particle (with Kinematics)
 

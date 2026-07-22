@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 title: Organic Chemistry
 description: "Organic chemistry is the study of carbon compounds. The definition traditionally excludes simple Carbon compounds such as carbon monoxide (), carbon dioxide"
 date: 2026-04-07T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## 1. Introduction to Organic Chemistry
 
@@ -57,6 +75,15 @@ Reactions of a molecule. Organic compounds are classified primarily by their fun
 | Amide            | -CONH$_2$              | -amide          | $\mathrm{CH}_3\mathrm{CONH}_2$ (ethanamide)        |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## 2. Hydrocarbons
 
@@ -524,6 +551,15 @@ favourable, but it does not decolourise bromine water because substitution (not 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
+
 ## 3. Functional Groups
 
 ### 3.1 Alcohols
@@ -792,6 +828,15 @@ Comparable hydrocarbons. Tertiary amines cannot form N-H hydrogen bonds but can 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
+
 ## 4. Polymerisation
 
 ### 4.1 Addition Polymerisation
@@ -909,6 +954,15 @@ Management.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
+
 ## 5. Reactions and Mechanisms
 
 ### 5.1 Oxidation of Alcohols
@@ -991,6 +1045,15 @@ Key interconversions between functional groups:
 | Aldehyde / Ketone | Cyanohydrin                | HCN (trace NaOH catalyst)                                                     |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## 6. Worked Examples
 
@@ -1171,6 +1234,15 @@ Mass of soap $= 0.0339 \times 306 = 10.37 \mathrm{ g}$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
+
 ## Additional Worked Examples
 
 ### Worked Example: Combustion Stoichiometry
@@ -1259,6 +1331,15 @@ alcohol or acid. Without hydrogen bonding to water, the ester is immiscible.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## 7. Practice Questions
 
@@ -1433,6 +1514,15 @@ Alternatives include:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
+
 ## Intuition
 
 **Carbon's versatility:** Organic chemistry is the study of carbon compounds — like LEGO bricks that can snap together in infinite ways to form chains, rings, and complex structures.
@@ -1457,6 +1547,15 @@ Alternatives include:
 | Condensation polymerisation | Two functional groups, small molecule eliminated             | Nylon-6,6, PET (Terylene)                      |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## Exam Tips
 
@@ -1526,6 +1625,15 @@ addition reactions.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## Problem Set
 

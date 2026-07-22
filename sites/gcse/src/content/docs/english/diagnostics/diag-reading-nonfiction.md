@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Reading Nonfiction", "url": "https://gcse.wyattau.com/english/diagnostics/diag-reading-nonfiction"}]
+}
+</script>
 title: "Reading Non-Fiction -- Diagnostic Tests"
 description: "Comprehensive educational content notes on reading non-fiction -- diagnostic tests with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Reading Nonfiction", "url": "https://gcse.wyattau.com/english/diagnostics/diag-reading-nonfiction"}]
+}
+</script>
 
 # Reading Non-Fiction -- Diagnostic Tests
 
@@ -57,6 +75,15 @@ applicable -- more persuasive, because the writer has shown they are not ignorin
 objections.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Reading Nonfiction", "url": "https://gcse.wyattau.com/english/diagnostics/diag-reading-nonfiction"}]
+}
+</script>
 
 ### UT-2: Analysing Rhetoric and Persuasive Techniques
 
@@ -120,6 +147,15 @@ consequences.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Reading Nonfiction", "url": "https://gcse.wyattau.com/english/diagnostics/diag-reading-nonfiction"}]
+}
+</script>
+
 ### UT-3: Summarising and Synthesising Information
 
 **Question:**
@@ -174,6 +210,15 @@ quality or quantity of deep sleep. A more effective approach would combine later
 education about consistent bedtime routines.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Reading Nonfiction", "url": "https://gcse.wyattau.com/english/diagnostics/diag-reading-nonfiction"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -244,6 +289,15 @@ emotional appeal needed to motivate donations. The effectiveness of each text is
 its awareness of its audience and purpose.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Reading Nonfiction", "url": "https://gcse.wyattau.com/english/diagnostics/diag-reading-nonfiction"}]
+}
+</script>
 
 ### IT-2: Critical Evaluation of Non-Fiction
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "1 Data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation"}, {"name": "1_data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation/1_data-representation"}]
+}
+</script>
 title: Data Representation
 description: "This document extends the foundational data representation topics in with deeper technical treatment of number systems, Character encoding mechanisms,"
 date: 2026-04-08T00:00:00.000Z
@@ -11,12 +20,30 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "1 Data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation"}, {"name": "1_data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation/1_data-representation"}]
+}
+</script>
+
 This document extends the foundational data representation topics in
 [../2-computer-systems/1_computer-systems](../2-computer-systems/1_computer-systems) with deeper
 technical treatment of number systems, Character encoding mechanisms, compression algorithms, file
 format specifications, and error Detection/correction techniques.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "1 Data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation"}, {"name": "1_data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation/1_data-representation"}]
+}
+</script>
 
 ## Number Systems -- Extended Coverage
 
@@ -242,6 +269,15 @@ In hex: $1\ 1000\ 0001\ 1010\ 1000\ 0000\ 0000\ 0000\ 0000 = \mathrm{C0D40000}_{
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "1 Data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation"}, {"name": "1_data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation/1_data-representation"}]
+}
+</script>
+
 ## Character Encoding -- Deep Dive
 
 Basic ASCII and Unicode properties are covered in
@@ -353,6 +389,15 @@ UTF-8: `E4 B8 AD`
 | Most common use    | Legacy      | Web, Linux   | Windows, Java | Internal processing |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "1 Data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation"}, {"name": "1_data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation/1_data-representation"}]
+}
+</script>
 
 ## Image Representation -- Extended Coverage
 
@@ -507,6 +552,15 @@ Supported.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "1 Data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation"}, {"name": "1_data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation/1_data-representation"}]
+}
+</script>
+
 ## Sound Representation -- Extended Coverage
 
 Basic sound digitisation concepts are in
@@ -576,6 +630,15 @@ Milliseconds." The actual sound depends entirely on the synthesiser or sound mod
 The MIDI data.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "1 Data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation"}, {"name": "1_data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation/1_data-representation"}]
+}
+</script>
 
 ## Data Compression
 
@@ -799,6 +862,15 @@ Space savings: $(1 - 300/3072) \times 100\% \approx 90.2\%$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "1 Data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation"}, {"name": "1_data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation/1_data-representation"}]
+}
+</script>
+
 ## File Formats -- Comprehensive Reference
 
 | Format | Type     | Compression | Description                                  | Typical Use Case              |
@@ -826,6 +898,15 @@ Space savings: $(1 - 300/3072) \times 100\% \approx 90.2\%$
 | JS     | Code     | None        | JavaScript source code                       | Web interactivity             |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "1 Data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation"}, {"name": "1_data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation/1_data-representation"}]
+}
+</script>
 
 ## Error Detection and Correction
 
@@ -1045,6 +1126,15 @@ Possible error patterns.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "1 Data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation"}, {"name": "1_data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation/1_data-representation"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Two's complement range:** For n bits, the range is $-2^{n-1}$ to $2^{n-1} - 1$NOT $-2^{n-1}$ to
@@ -1079,6 +1169,15 @@ Possible error patterns.
     possible colours (not 256 bits). 8-bit true colour would be 256 colours total, not per channel.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "1 Data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation"}, {"name": "1_data Representation", "url": "https://dse.wyattau.com/ict/1-data-representation/1_data-representation"}]
+}
+</script>
 
 ## Practice Problems
 

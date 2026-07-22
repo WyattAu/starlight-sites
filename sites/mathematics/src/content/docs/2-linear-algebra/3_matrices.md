@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "3_matrices", "url": "https://mathematics.wyattau.com/2-linear-algebra/3_matrices"}]
+}
+</script>
 title: Matrices
 tags:
   - Mathematics
   - University
 description: 'An matrix over is a rectangular array of elements from Arranged in rows and columns. The set of all such matrices is denoted .'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "3_matrices", "url": "https://mathematics.wyattau.com/2-linear-algebra/3_matrices"}]
+}
+</script>
 
 ### 3.1 Matrix Operations
 
@@ -309,6 +327,15 @@ factor of 57. $\blacksquare$
   for an $m \times n$ matrix with $m \neq n$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "3_matrices", "url": "https://mathematics.wyattau.com/2-linear-algebra/3_matrices"}]
+}
+</script>
 
 ## Cross-References
 

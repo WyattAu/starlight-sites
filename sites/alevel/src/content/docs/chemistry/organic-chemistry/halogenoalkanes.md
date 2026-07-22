@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}, {"name": "Halogenoalkanes", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry/halogenoalkanes"}]
+}
+</script>
 title: Halogenoalkanes
 description: "Halogenoalkanes (also called alkyl halides) are compounds in which one or more hydrogen atoms of an Alkane have been replaced by a halogen atom. The general"
 date: 2026-04-22T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}, {"name": "Halogenoalkanes", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry/halogenoalkanes"}]
+}
+</script>
 
 # Halogenoalkanes
 
@@ -877,6 +895,15 @@ Note: Radical bromination gives a mixture. A more controlled route would use the
 $$\mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{COOH} \xrightarrow{\mathrm{LiAlH}_4} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \xrightarrow{\mathrm{PBr}_3} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br} \xrightarrow{\mathrm{KCN}} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CN} \xrightarrow{\mathrm{LiAlH}_4} \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_2\mathrm{NH}_2$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}, {"name": "Halogenoalkanes", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry/halogenoalkanes"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 hardest questions within the A-Level specification for this topic, each with a full worked solution.

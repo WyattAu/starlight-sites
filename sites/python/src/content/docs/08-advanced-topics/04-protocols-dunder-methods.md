@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "08 Advanced Topics", "url": "https://python.wyattau.com/08-advanced-topics"}, {"name": "04 Protocols Dunder Methods", "url": "https://python.wyattau.com/08-advanced-topics/04-protocols-dunder-methods"}]
+}
+</script>
 title: Protocols and Dunder Methods
 description: "Python' s data model defines a set of protocols that objects can implement to integrate with built-in Operations. These are invoked by the interpreter, not"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "08 Advanced Topics", "url": "https://python.wyattau.com/08-advanced-topics"}, {"name": "04 Protocols Dunder Methods", "url": "https://python.wyattau.com/08-advanced-topics/04-protocols-dunder-methods"}]
+}
+</script>
 
 ## Data Model Protocols
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Others", "url": "https://tools.wyattau.com/git/Others"}, {"name": "Remove Commit History", "url": "https://tools.wyattau.com/git/Others/remove-commit-history"}]
+}
+</script>
 title: Remove Commit History
 date: 2025-06-02T21:52:46.700Z
 description: "- Clone Git repository - Create orphan branch - - Stage all changes - - - Delete old branch - - Rename current temp branch to main - - Force-push current"
@@ -8,6 +17,15 @@ categories:
   - CS
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Others", "url": "https://tools.wyattau.com/git/Others"}, {"name": "Remove Commit History", "url": "https://tools.wyattau.com/git/Others/remove-commit-history"}]
+}
+</script>
 
 ## Intuition
 
@@ -155,6 +173,15 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Others", "url": "https://tools.wyattau.com/git/Others"}, {"name": "Remove Commit History", "url": "https://tools.wyattau.com/git/Others/remove-commit-history"}]
+}
+</script>
 
 ## Cross-References
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "13 Code Generation", "url": "https://dart.wyattau.com/13-code-generation"}]
+}
+</script>
 title: Code Generation
 description: "Code generation in Dart is the process of automatically producing Dart source code from annotations, Builders, and configuration at build time."
 date: 2026-04-05T00:00:00.000Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - Dart
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "13 Code Generation", "url": "https://dart.wyattau.com/13-code-generation"}]
+}
+</script>
 
 # Code Generation
 
@@ -48,6 +66,15 @@ Annotations (your code)
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "13 Code Generation", "url": "https://dart.wyattau.com/13-code-generation"}]
+}
+</script>
 
 ## build_runner
 
@@ -166,6 +193,15 @@ global_options:
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "13 Code Generation", "url": "https://dart.wyattau.com/13-code-generation"}]
+}
+</script>
 
 ## freezed
 
@@ -362,6 +398,15 @@ class Product with _$Product {
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "13 Code Generation", "url": "https://dart.wyattau.com/13-code-generation"}]
+}
+</script>
 
 ## json_serializable
 
@@ -635,6 +680,15 @@ class Task {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "13 Code Generation", "url": "https://dart.wyattau.com/13-code-generation"}]
+}
+</script>
+
 ## Generated File Suffixes
 
 Different code generation packages produce files with specific suffixes. Understanding these
@@ -687,6 +741,15 @@ class User with _$User {
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "13 Code Generation", "url": "https://dart.wyattau.com/13-code-generation"}]
+}
+</script>
 
 ## build.yaml Configuration Deep Dive
 
@@ -775,6 +838,15 @@ targets:
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "13 Code Generation", "url": "https://dart.wyattau.com/13-code-generation"}]
+}
+</script>
 
 ## Common Workflows
 
@@ -890,6 +962,15 @@ test: generate
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "13 Code Generation", "url": "https://dart.wyattau.com/13-code-generation"}]
+}
+</script>
 
 ## Common Pitfalls
 

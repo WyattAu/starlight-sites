@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Proof Logic", "url": "https://ib.wyattau.com/maths/diagnostics/diag-proof-logic"}]
+}
+</script>
 title: "Proof and Logic -- Diagnostic Tests"
 description: "IB Maths Proof and Logic -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Proof Logic", "url": "https://ib.wyattau.com/maths/diagnostics/diag-proof-logic"}]
+}
+</script>
 
 # Proof and Logic — Diagnostic Tests
 
@@ -61,6 +79,15 @@ inference is _modus ponens_: from $P \implies Q$ and $P$We deduce $Q$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Proof Logic", "url": "https://ib.wyattau.com/maths/diagnostics/diag-proof-logic"}]
+}
+</script>
+
 ### UT-2: Quantifier Negation with Nested Quantifiers
 
 **Question:**
@@ -96,6 +123,15 @@ $$\exists \varepsilon \gt 0, \; \forall \delta \gt 0, \; \exists x \in \mathbb{R
    implication structure $\implies$Which is wrong.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Proof Logic", "url": "https://ib.wyattau.com/maths/diagnostics/diag-proof-logic"}]
+}
+</script>
 
 ### UT-3: Contrapositive vs Converse vs Contradiction
 
@@ -133,6 +169,15 @@ the statement "if $n^3 + 5n$ is even, then $n$ is even" is **false**. A countere
 $1 + 5 = 6$ is even, but $n = 1$ is odd.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Proof Logic", "url": "https://ib.wyattau.com/maths/diagnostics/diag-proof-logic"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -179,6 +224,15 @@ Since $3^{2k+1} + 2m$ is an integer, $3^{2k+3} + 2^{k+3}$ is divisible by $7$.
 **Conclusion:** By induction, $3^{2n+1} + 2^{n+2}$ is divisible by $7$ for all $n \geq 0$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Proof Logic", "url": "https://ib.wyattau.com/maths/diagnostics/diag-proof-logic"}]
+}
+</script>
 
 ### IT-2: Proof by Contradiction for Irrationality (with Number and Algebra)
 

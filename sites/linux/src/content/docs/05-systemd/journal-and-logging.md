@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "05 Systemd", "url": "https://linux.wyattau.com/05-systemd"}, {"name": "Journal And Logging", "url": "https://linux.wyattau.com/05-systemd/journal-and-logging"}]
+}
+</script>
 title: Journal and Logging
 description: "is the central logging daemon in systemd-based systems. It collects log messages From multiple sources and stores them in a structured, indexed binary format."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "05 Systemd", "url": "https://linux.wyattau.com/05-systemd"}, {"name": "Journal And Logging", "url": "https://linux.wyattau.com/05-systemd/journal-and-logging"}]
+}
+</script>
 
 ## systemd-journald Architecture
 

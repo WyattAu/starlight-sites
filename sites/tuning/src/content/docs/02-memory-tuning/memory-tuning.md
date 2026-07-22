@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "02 Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning"}, {"name": "Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning/memory-tuning"}]
+}
+</script>
 title: Memory Tuning
 description: "DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed — the power delivery model, signal integrity, and error"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "02 Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning"}, {"name": "Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning/memory-tuning"}]
+}
+</script>
 
 ## DDR Memory Generations
 
@@ -58,6 +76,15 @@ DDR5-6000 CL30 matches DDR4-3200 CL14 in actual latency while delivering nearly 
 Bandwidth. This is why DDR5-6000 is considered the sweet spot for AMD Zen 4 and Intel 13th/14th Gen.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "02 Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning"}, {"name": "Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning/memory-tuning"}]
+}
+</script>
 
 ## Memory Timings
 
@@ -134,6 +161,15 @@ Or more detailed:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "02 Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning"}, {"name": "Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning/memory-tuning"}]
+}
+</script>
+
 ## XMP and EXPO Profiles
 
 ### XMP (Intel Extreme Memory Profile)
@@ -183,6 +219,15 @@ Real-world stability depends on:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "02 Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning"}, {"name": "Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning/memory-tuning"}]
+}
+</script>
+
 ## Channel Architecture
 
 ### Single, Dual, and Quad Channel
@@ -229,6 +274,15 @@ gaming workloads, favoring 2R.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "02 Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning"}, {"name": "Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning/memory-tuning"}]
+}
+</script>
+
 ## Memory Frequency vs. Latency Trade-off
 
 The fundamental trade-off in memory tuning is between bandwidth (frequency) and latency (timings).
@@ -259,6 +313,15 @@ Intel's memory controller handles DDR5 up to ~7200 MT/s comfortably. The sweet s
 DDR5-6400–6800 CL32-CL34. Beyond 7200 MT/s, stability with two DIMMs becomes increasingly difficult.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "02 Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning"}, {"name": "Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning/memory-tuning"}]
+}
+</script>
 
 ## Memory Controller Tuning
 
@@ -294,6 +357,15 @@ Speed to ~3600 MT/s. On Zen 4, the memory controller architecture changed, makin
 Operation less penalizing.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "02 Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning"}, {"name": "Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning/memory-tuning"}]
+}
+</script>
 
 ## Memory Overclocking Methodology
 
@@ -347,6 +419,15 @@ DIMMs.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "02 Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning"}, {"name": "Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning/memory-tuning"}]
+}
+</script>
+
 ## ECC Memory
 
 ### How ECC Works
@@ -386,6 +467,15 @@ Capacity is significantly higher.
   anyway (Intel Z-series chipsets do not; AMD AM5 does).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "02 Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning"}, {"name": "Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning/memory-tuning"}]
+}
+</script>
 
 ## Virtual Memory and Swap Tuning
 
@@ -469,6 +559,15 @@ numactl --cpunodebind=0 --membind=0 ./my_app
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "02 Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning"}, {"name": "Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning/memory-tuning"}]
+}
+</script>
 
 ## Intuition
 

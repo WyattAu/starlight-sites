@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
 title: "Chemical Kinetics -- Diagnostic Tests"
 description: "DSE Chemistry Chemical Kinetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
 
 # DSE Chemistry Diagnostic: Chemical Kinetics
 
@@ -28,6 +46,15 @@ data were obtained:
 mol/dm$^{3}$. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -63,6 +90,15 @@ $0.12 \times 0.15 \times (0.25)^{2} = 0.12 \times 0.15 \times 0.0625 = 1.125 \ti
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
+
 ## Unit Test 2: Maxwell-Boltzmann Distribution
 
 **Question**
@@ -78,6 +114,15 @@ than increasing the concentration of reactants. [3 marks]
 so more molecules have energy above $E_{a}$." Evaluate this claim. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -108,6 +153,15 @@ molecules have sufficient energy to react.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
+
 ## Unit Test 3: Catalyst and Activation Energy
 
 **Question**
@@ -127,6 +181,15 @@ $$2H_{2}O_{2}(aq) \rightarrow 2H_{2}O(l) + O_{2}(g)$$
 excess. Explain what "zero order" means and why this occurs. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -151,6 +214,15 @@ number of molecules adsorbed on the surface at any given time, so the rate depen
 available catalyst surface area, not on $[H_{2}O_{2}]$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
 
 ## Intuition
 
@@ -185,6 +257,15 @@ tripled while $[F_{2}]$ is kept constant, by what factor does the rate change? [
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
+
 **Worked Solution**
 
 (a) Overall order = $1 + 1 = 2$ (first order in $NO_{2}$First order in $F_{2}$).
@@ -217,6 +298,15 @@ This matches the experimental rate equation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
+
 ## Integration Test 2: Initial Rates + Concentration-Time Graph
 
 **Question**
@@ -241,6 +331,15 @@ half-life between $t = 200$ and $t = 400$ s is approximately 250 s. What does th
 the order of the reaction? [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -294,6 +393,15 @@ with the half-life variation due to experimental data limitations.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
+
 ## Integration Test 3: Temperature Effect and Arrhenius Concept
 
 **Question**
@@ -313,6 +421,15 @@ $$\ln\left(\frac{k_{2}}{k_{1}}\right) = \frac{E_{a}}{R}\left(\frac{1}{T_{1}} - \
 all molecules will have energy above $E_{a}$." Evaluate this statement. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Kinetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics"}]
+}
+</script>
 
 **Worked Solution**
 

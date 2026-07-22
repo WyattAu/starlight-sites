@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Ib English Assessment And Techniques", "url": "https://ib.wyattau.com/english/ib-english-assessment-and-techniques"}]
+}
+</script>
 title: IB English Assessment and Analytical Techniques
 tags:
   - IB
   - English
 description: "This document provides a rigorous, technically precise guide to every assessed component of IB English A: Language and Literature, and to the analytical"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Ib English Assessment And Techniques", "url": "https://ib.wyattau.com/english/ib-english-assessment-and-techniques"}]
+}
+</script>
 
 # IB English Assessment and Analytical Techniques
 
@@ -14,6 +32,15 @@ It is written for students who want to understand not just _what_ the IB require
 Requirement exists and how to execute it with maximum precision.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Ib English Assessment And Techniques", "url": "https://ib.wyattau.com/english/ib-english-assessment-and-techniques"}]
+}
+</script>
 
 ## 1. Paper 1: Guided Literary Analysis
 
@@ -155,6 +182,15 @@ Author's purpose, the text's relationship to its context, or the larger themes i
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Ib English Assessment And Techniques", "url": "https://ib.wyattau.com/english/ib-english-assessment-and-techniques"}]
+}
+</script>
+
 ## Intuition
 
 **IB English assessment is like a performance — you must demonstrate understanding through careful analysis, clear writing, and insightful interpretation:** Success in IB English comes from close reading, structured argumentation, and connecting texts to broader contexts
@@ -258,6 +294,15 @@ Conventions" is analysis grounded in context.
    narrate.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Ib English Assessment And Techniques", "url": "https://ib.wyattau.com/english/ib-english-assessment-and-techniques"}]
+}
+</script>
 
 ## 3. The HL Essay
 
@@ -391,6 +436,15 @@ Demonstrates:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Ib English Assessment And Techniques", "url": "https://ib.wyattau.com/english/ib-english-assessment-and-techniques"}]
+}
+</script>
+
 ## 4. Works in Translation (Part 1)
 
 ### 4.1 The Nature of Translated Literature
@@ -461,6 +515,15 @@ Addressing them:
    not the author's.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Ib English Assessment And Techniques", "url": "https://ib.wyattau.com/english/ib-english-assessment-and-techniques"}]
+}
+</script>
 
 ## 5. Close Reading Techniques
 
@@ -635,6 +698,15 @@ Constructed; it is the community, not fate, that kills Santiago Nasar").
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Ib English Assessment And Techniques", "url": "https://ib.wyattau.com/english/ib-english-assessment-and-techniques"}]
+}
+</script>
+
 ## 6. Common Pitfalls in IB English Analysis
 
 The following errors recur across all assessed components of IB English. Understanding why each is
@@ -710,6 +782,15 @@ interpretive framework.
 Collapse it? What happens at the boundary between the two terms? What is excluded by the binary?
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Ib English Assessment And Techniques", "url": "https://ib.wyattau.com/english/ib-english-assessment-and-techniques"}]
+}
+</script>
 
 ## 7. Practical Strategies for IB English Success
 
@@ -789,6 +870,15 @@ Before submitting any essay, perform a structural audit:
    statement, or does it merely restate the thesis?
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Ib English Assessment And Techniques", "url": "https://ib.wyattau.com/english/ib-english-assessment-and-techniques"}]
+}
+</script>
 
 ## 8. Quick Reference: Assessment Component Summary
 

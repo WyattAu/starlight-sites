@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "13_plasma Physics Brief Overview", "url": "https://physics.wyattau.com/3-electromagnetism/13_plasma-physics-brief-overview"}]
+}
+</script>
 title: "Plasma Physics: Brief Overview"
 tags:
   - Physics
   - University
 description: "A plasma screens electric fields over the : Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "13_plasma Physics Brief Overview", "url": "https://physics.wyattau.com/3-electromagnetism/13_plasma-physics-brief-overview"}]
+}
+</script>
 
 ### 13.1 Debye Shielding in Plasmas
 

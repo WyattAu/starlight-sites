@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Respiration Depth", "url": "https://alevel.wyattau.com/biology/respiration-depth"}]
+}
+</script>
 title: Respiration (In Depth)
 description: "Cellular respiration is the controlled release of energy from organic molecules ( glucose) to produce ATP. It is an exergonic, enzyme-catalysed process that"
 date: 2026-04-18T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Respiration Depth", "url": "https://alevel.wyattau.com/biology/respiration-depth"}]
+}
+</script>
 
 ## Respiration (In Depth)
 
@@ -1125,6 +1143,15 @@ difference**.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Respiration Depth", "url": "https://alevel.wyattau.com/biology/respiration-depth"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 ## 21. Comparing Respiration and Photosynthesis
 
@@ -1170,6 +1197,15 @@ However, over geological time scales, imbalances have occurred:
   and increasing atmospheric $\mathrm{CO_2}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Respiration Depth", "url": "https://alevel.wyattau.com/biology/respiration-depth"}]
+}
+</script>
 
 </aside>
 <aside class="starlight-aside starlight-aside--tip">
@@ -2178,6 +2214,15 @@ is transported to the liver, converted back to glucose, and returned to the musc
 | Phylogenetic evidence  | Molecular sequencing suggests mitochondria are most closely related to alpha-proteobacteria                                    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Respiration Depth", "url": "https://alevel.wyattau.com/biology/respiration-depth"}]
+}
+</script>
 
 </aside>
 <aside class="starlight-aside starlight-aside--tip">

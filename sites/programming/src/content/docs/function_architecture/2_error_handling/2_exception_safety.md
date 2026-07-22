@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Function_architecture", "url": "https://programming.wyattau.com/function_architecture"}, {"name": "2_error_handling", "url": "https://programming.wyattau.com/function_architecture/2_error_handling"}, {"name": "2_exception_safety", "url": "https://programming.wyattau.com/function_architecture/2_error_handling/2_exception_safety"}]
+}
+</script>
 title: Exception Safety Guarantees
 description: "The exception safety taxonomy, formalized by Abrahams (2001) and referenced in the C++ Standard Library requirements, classifies every operation into four"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Function_architecture", "url": "https://programming.wyattau.com/function_architecture"}, {"name": "2_error_handling", "url": "https://programming.wyattau.com/function_architecture/2_error_handling"}, {"name": "2_exception_safety", "url": "https://programming.wyattau.com/function_architecture/2_error_handling/2_exception_safety"}]
+}
+</script>
 
 # Exception Safety Guarantees
 

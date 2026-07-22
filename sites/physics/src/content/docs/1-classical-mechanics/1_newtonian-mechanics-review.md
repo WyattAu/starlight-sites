@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "1_newtonian Mechanics Review", "url": "https://physics.wyattau.com/1-classical-mechanics/1_newtonian-mechanics-review"}]
+}
+</script>
 title: Newtonian Mechanics Review
 tags:
   - Physics
   - University
 description: "1. A body remains at rest or in uniform motion unless acted upon by a net force. 2. where . 3. For every action, there is an equal and opposite reaction."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "1_newtonian Mechanics Review", "url": "https://physics.wyattau.com/1-classical-mechanics/1_newtonian-mechanics-review"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--note">
 <strong>Historical Context</strong>

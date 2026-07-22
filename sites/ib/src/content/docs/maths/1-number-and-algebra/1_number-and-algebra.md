@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "1 Number And Algebra", "url": "https://ib.wyattau.com/maths/1-number-and-algebra"}, {"name": "1_number And Algebra", "url": "https://ib.wyattau.com/maths/1-number-and-algebra/1_number-and-algebra"}]
+}
+</script>
 title: Number and Algebra
 description: "Rigorous IB mathematics notes covering Number and Algebra. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "1 Number And Algebra", "url": "https://ib.wyattau.com/maths/1-number-and-algebra"}, {"name": "1_number And Algebra", "url": "https://ib.wyattau.com/maths/1-number-and-algebra/1_number-and-algebra"}]
+}
+</script>
 
 ## Sets
 

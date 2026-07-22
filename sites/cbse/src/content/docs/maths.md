@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Maths", "url": "https://cbse.wyattau.com/maths"}]
+}
+</script>
 title: CBSE Mathematics Study Guide
 date: 2026-05-31
 description: "Qualifications Maths.Md CBSE Mathematics Study notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."
@@ -10,6 +19,15 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Maths", "url": "https://cbse.wyattau.com/maths"}]
+}
+</script>
+
 ## Overview
 
 This guide covers the **CBSE Class 11 and 12 Mathematics** syllabus (NCERT). It is structured by
@@ -20,6 +38,15 @@ paper consists of objective questions (MCQs), short-answer questions (2-3 marks)
 questions (5-6 marks).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Maths", "url": "https://cbse.wyattau.com/maths"}]
+}
+</script>
 
 ## 1. Sets and Functions
 
@@ -96,6 +123,15 @@ A function $f: A \to B$ maps each element of $A$ to exactly one element of $B$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Maths", "url": "https://cbse.wyattau.com/maths"}]
+}
+</script>
+
 ## 2. Algebra
 
 ### 2.1 Matrices
@@ -171,6 +207,15 @@ $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 - $\alpha\beta = c/a$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Maths", "url": "https://cbse.wyattau.com/maths"}]
+}
+</script>
 
 ## 3. Calculus
 
@@ -255,6 +300,15 @@ $$\text{Area between } f(x) \text{ and } x\text{-axis from } a \text{ to } b = \
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Maths", "url": "https://cbse.wyattau.com/maths"}]
+}
+</script>
+
 ## 4. Coordinate Geometry
 
 ### 4.1 Straight Lines
@@ -301,6 +355,15 @@ General form: $x^2 + y^2 + 2gx + 2fy + c = 0$; centre $(-g, -f)$, radius $\sqrt{
 - Latus rectum length: $2b^2/a$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Maths", "url": "https://cbse.wyattau.com/maths"}]
+}
+</script>
 
 ## 5. Trigonometry
 
@@ -349,6 +412,15 @@ $$\sin^{-1}x + \cos^{-1}x = \frac{\pi}{2} \qquad \tan^{-1}x + \tan^{-1}\frac{1}{
 **Area:** $\Delta = \frac{1}{2}ab\sin C = \sqrt{s(s-a)(s-b)(s-c)}$ where $s = \frac{a+b+c}{2}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Maths", "url": "https://cbse.wyattau.com/maths"}]
+}
+</script>
 
 ## 6. Probability and Statistics
 
@@ -399,6 +471,15 @@ $$P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Maths", "url": "https://cbse.wyattau.com/maths"}]
+}
+</script>
+
 ## 7. Key Formulas
 
 | Topic | Formula |
@@ -416,6 +497,15 @@ $$P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Maths", "url": "https://cbse.wyattau.com/maths"}]
+}
+</script>
+
 ## 8. Exam Tips
 
 1. **Show all working.** CBSE awards method marks even if the final answer is wrong. Never skip steps.
@@ -427,6 +517,15 @@ $$P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}$$
 7. **Practise previous-year papers.** CBSE tends to repeat question patterns. At minimum, solve the last 5 years' papers.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Maths", "url": "https://cbse.wyattau.com/maths"}]
+}
+</script>
 
 ## Common Pitfalls
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "kotlin", "url": "https://kotlin.wyattau.com"}, {"name": "Intermediate", "url": "https://kotlin.wyattau.com/intermediate"}, {"name": "Generics", "url": "https://kotlin.wyattau.com/intermediate/generics"}]
+}
+</script>
 title: Generics
 description: "Generics allow types to be parameterized. The compiler enforces type safety at compile time, and the JVM erases generic type parameters at runtime (type"
 date: 2026-04-18
@@ -7,6 +16,15 @@ tags:
 categories:
   - Kotlin
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "kotlin", "url": "https://kotlin.wyattau.com"}, {"name": "Intermediate", "url": "https://kotlin.wyattau.com/intermediate"}, {"name": "Generics", "url": "https://kotlin.wyattau.com/intermediate/generics"}]
+}
+</script>
 
 ## Generic Classes and Functions
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Streetcar Named Desire Analysis", "url": "https://ib.wyattau.com/english/streetcar-named-desire-analysis"}]
+}
+</script>
 title: A Streetcar Named Desire — Close Reading and Analysis
 tags:
   - IB
   - English
 description: "Analysis of A Streetcar Named Desire by Tennessee Williams."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Streetcar Named Desire Analysis", "url": "https://ib.wyattau.com/english/streetcar-named-desire-analysis"}]
+}
+</script>
 
 # A Streetcar Named Desire: Close Reading and Analysis
 
@@ -118,6 +136,15 @@ Play's density of meaning and its refusal to reduce its characters to simple mor
 It ideal for the kind of nuanced, multi-perspectival analysis that the IB assesses.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Streetcar Named Desire Analysis", "url": "https://ib.wyattau.com/english/streetcar-named-desire-analysis"}]
+}
+</script>
 
 ## 2. Narrative Structure and Staging
 
@@ -254,6 +281,15 @@ This structural parallel between the music and the dialogue reinforces the conne
 And psychology that is central to Williams's plastic theater.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Streetcar Named Desire Analysis", "url": "https://ib.wyattau.com/english/streetcar-named-desire-analysis"}]
+}
+</script>
 
 ## 3. Character Analysis
 
@@ -475,6 +511,15 @@ Exist beyond the play's central conflict.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Streetcar Named Desire Analysis", "url": "https://ib.wyattau.com/english/streetcar-named-desire-analysis"}]
+}
+</script>
+
 ## 4. Themes
 
 ### Reality vs. Illusion
@@ -664,6 +709,15 @@ Material.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Streetcar Named Desire Analysis", "url": "https://ib.wyattau.com/english/streetcar-named-desire-analysis"}]
+}
+</script>
+
 ## 5. Key Scenes Analysis
 
 ### Scene 1: Blanche's Arrival
@@ -777,6 +831,15 @@ Play's central paradox: that kindness, in Williams's world, is most often found 
 While those closest to us are the source of the greatest cruelty.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Streetcar Named Desire Analysis", "url": "https://ib.wyattau.com/english/streetcar-named-desire-analysis"}]
+}
+</script>
 
 ## 6. Symbolism and Imagery
 
@@ -894,6 +957,15 @@ In Scene 10, when he enters the bathroom and confronts Blanche as she emerges fr
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Streetcar Named Desire Analysis", "url": "https://ib.wyattau.com/english/streetcar-named-desire-analysis"}]
+}
+</script>
+
 ## 7. Literary Devices
 
 ### Stage Directions as Character Exposition
@@ -972,6 +1044,15 @@ With "shadows of vine" appearing on the walls, creating a nightmarish atmosphere
 Blanche's terror.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Streetcar Named Desire Analysis", "url": "https://ib.wyattau.com/english/streetcar-named-desire-analysis"}]
+}
+</script>
 
 ## 8. Critical Approaches
 
@@ -1108,6 +1189,15 @@ Destabilisation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Streetcar Named Desire Analysis", "url": "https://ib.wyattau.com/english/streetcar-named-desire-analysis"}]
+}
+</script>
+
 ## 9. IB Exam Preparation: Key Quotations and How to Use Them
 
 The following quotations are among the most frequently cited in IB examinations on _Streetcar_. Each
@@ -1160,6 +1250,15 @@ Supports feminist reading.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Streetcar Named Desire Analysis", "url": "https://ib.wyattau.com/english/streetcar-named-desire-analysis"}]
+}
+</script>
+
 ## 10. Comparative Frameworks for IB Part 2 or Part 4
 
 If studying _Streetcar_ in conjunction with another work, consider the following comparative axes:
@@ -1186,6 +1285,15 @@ Themes. But _Hamlet_ is ultimately a revenge tragedy that resolves through decis
 _Streetcar_ is a domestic tragedy that resolves through the failure of action.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Streetcar Named Desire Analysis", "url": "https://ib.wyattau.com/english/streetcar-named-desire-analysis"}]
+}
+</script>
 
 ## 11. Essay Questions for Practice
 

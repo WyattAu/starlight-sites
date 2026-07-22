@@ -1,9 +1,27 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Comparitives", "url": "https://ib.wyattau.com/english/comparitives"}, {"name": "Chronicle Streetcar", "url": "https://ib.wyattau.com/english/comparitives/chronicle-streetcar"}]
+}
+</script>
 title: Chronicle and Streetcar Comparison
 tags:
   - english
 description: "- Streetcar explores class conflict between Blanche (A construct representing decaying Southern aristocracy) and Stanley (working-class immigrant), although"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Comparitives", "url": "https://ib.wyattau.com/english/comparitives"}, {"name": "Chronicle Streetcar", "url": "https://ib.wyattau.com/english/comparitives/chronicle-streetcar"}]
+}
+</script>
 
 ## Intuition
 

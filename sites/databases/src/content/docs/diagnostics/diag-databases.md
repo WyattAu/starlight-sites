@@ -1,15 +1,42 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Diagnostics", "url": "https://databases.wyattau.com/diagnostics"}, {"name": "Diag Databases", "url": "https://databases.wyattau.com/diagnostics/diag-databases"}]
+}
+</script>
 title: "Diagnostic Test: Databases"
 description: "Self-assessment quiz on database fundamentals"
 sidebar_position: 60
 tableOfContents: false
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Diagnostics", "url": "https://databases.wyattau.com/diagnostics"}, {"name": "Diag Databases", "url": "https://databases.wyattau.com/diagnostics/diag-databases"}]
+}
+</script>
+
 # Diagnostic Test: Databases
 
 10 multiple-choice questions covering database fundamentals. Select the best answer for each question, then check your score using the answer key below.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Diagnostics", "url": "https://databases.wyattau.com/diagnostics"}, {"name": "Diag Databases", "url": "https://databases.wyattau.com/diagnostics/diag-databases"}]
+}
+</script>
 
 **Question 1.** What is the primary purpose of normalization in relational database design?
 
@@ -20,6 +47,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Diagnostics", "url": "https://databases.wyattau.com/diagnostics"}, {"name": "Diag Databases", "url": "https://databases.wyattau.com/diagnostics/diag-databases"}]
+}
+</script>
+
 **Question 2.** Which normal form eliminates partial dependencies of non-prime attributes on candidate keys?
 
 (A) First Normal Form (1NF)
@@ -28,6 +64,15 @@ tableOfContents: false
 (D) Boyce-Codd Normal Form (BCNF)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Diagnostics", "url": "https://databases.wyattau.com/diagnostics"}, {"name": "Diag Databases", "url": "https://databases.wyattau.com/diagnostics/diag-databases"}]
+}
+</script>
 
 **Question 3.** Given a relation R(A, B, C) with functional dependencies {A -> B, B -> C}, which of the following is true?
 
@@ -38,6 +83,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Diagnostics", "url": "https://databases.wyattau.com/diagnostics"}, {"name": "Diag Databases", "url": "https://databases.wyattau.com/diagnostics/diag-databases"}]
+}
+</script>
+
 **Question 4.** In SQL, which clause is used to filter groups created by GROUP BY?
 
 (A) WHERE
@@ -46,6 +100,15 @@ tableOfContents: false
 (D) GROUP WHERE
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Diagnostics", "url": "https://databases.wyattau.com/diagnostics"}, {"name": "Diag Databases", "url": "https://databases.wyattau.com/diagnostics/diag-databases"}]
+}
+</script>
 
 **Question 5.** What does a LEFT JOIN return when there is no matching row in the right table?
 
@@ -56,6 +119,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Diagnostics", "url": "https://databases.wyattau.com/diagnostics"}, {"name": "Diag Databases", "url": "https://databases.wyattau.com/diagnostics/diag-databases"}]
+}
+</script>
+
 **Question 6.** Which index structure is most efficient for range queries such as BETWEEN?
 
 (A) Hash index
@@ -64,6 +136,15 @@ tableOfContents: false
 (D) Linear index
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Diagnostics", "url": "https://databases.wyattau.com/diagnostics"}, {"name": "Diag Databases", "url": "https://databases.wyattau.com/diagnostics/diag-databases"}]
+}
+</script>
 
 **Question 7.** Under which transaction isolation level are dirty reads possible?
 
@@ -74,6 +155,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Diagnostics", "url": "https://databases.wyattau.com/diagnostics"}, {"name": "Diag Databases", "url": "https://databases.wyattau.com/diagnostics/diag-databases"}]
+}
+</script>
+
 **Question 8.** The ACID property ensuring that a committed transaction's effects persist even after a system failure is:
 
 (A) Atomicity
@@ -82,6 +172,15 @@ tableOfContents: false
 (D) Durability
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Diagnostics", "url": "https://databases.wyattau.com/diagnostics"}, {"name": "Diag Databases", "url": "https://databases.wyattau.com/diagnostics/diag-databases"}]
+}
+</script>
 
 **Question 9.** In an ER diagram, a many-to-many relationship between two entities is resolved by:
 
@@ -92,6 +191,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Diagnostics", "url": "https://databases.wyattau.com/diagnostics"}, {"name": "Diag Databases", "url": "https://databases.wyattau.com/diagnostics/diag-databases"}]
+}
+</script>
+
 **Question 10.** Which of the following is a valid heuristic used by relational query optimizers?
 
 (A) Execute joins in the order they appear in the SQL query
@@ -100,6 +208,15 @@ tableOfContents: false
 (D) Always perform Cartesian products before joins
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "Diagnostics", "url": "https://databases.wyattau.com/diagnostics"}, {"name": "Diag Databases", "url": "https://databases.wyattau.com/diagnostics/diag-databases"}]
+}
+</script>
 
 ## Answer Key
 

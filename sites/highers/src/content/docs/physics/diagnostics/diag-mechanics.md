@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://highers.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 title: "Mechanics -- Diagnostic Tests"
 description: "Mechanics -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://highers.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 
 # Mechanics -- Diagnostic Tests
 
@@ -70,6 +88,15 @@ affect each other.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://highers.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
+
 ### UT-2: Forces and Newton"s Laws
 
 **Question:**
@@ -132,6 +159,15 @@ $$T - W = F_{\text{resultant}}$$ $$T = 8526 + 1305 = 9831\,\text{N}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://highers.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
+
 ### UT-3: Work, Energy, and Power
 
 **Question:**
@@ -178,6 +214,15 @@ $$P = 200 \times 9.8 \times 0.5 = 980\,\text{W}$$
 The power output of the motor is $980\,\text{W}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://highers.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -251,6 +296,15 @@ unrealistically high kinetic energies for long falls. In real-world scenarios li
 high-speed projectiles, air resistance is significant and cannot be ignored.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://highers.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 
 ### IT-2: Energy and Momentum Applications
 

@@ -1,15 +1,42 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Diagnostics", "url": "https://linux.wyattau.com/diagnostics"}, {"name": "Diag Linux", "url": "https://linux.wyattau.com/diagnostics/diag-linux"}]
+}
+</script>
 title: "Diagnostic Test: Linux"
 description: "Self-assessment quiz on Linux fundamentals"
 sidebar_position: 60
 tableOfContents: false
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Diagnostics", "url": "https://linux.wyattau.com/diagnostics"}, {"name": "Diag Linux", "url": "https://linux.wyattau.com/diagnostics/diag-linux"}]
+}
+</script>
+
 # Diagnostic Test: Linux
 
 10 multiple-choice questions covering Linux fundamentals. Select the best answer for each question, then check your score using the answer key below.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Diagnostics", "url": "https://linux.wyattau.com/diagnostics"}, {"name": "Diag Linux", "url": "https://linux.wyattau.com/diagnostics/diag-linux"}]
+}
+</script>
 
 **Question 1.** What does the command `chmod 640 file.txt` set?
 
@@ -20,6 +47,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Diagnostics", "url": "https://linux.wyattau.com/diagnostics"}, {"name": "Diag Linux", "url": "https://linux.wyattau.com/diagnostics/diag-linux"}]
+}
+</script>
+
 **Question 2.** Which signal is sent by `kill -15 <PID>`?
 
 (A) SIGHUP
@@ -28,6 +64,15 @@ tableOfContents: false
 (D) SIGSTOP
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Diagnostics", "url": "https://linux.wyattau.com/diagnostics"}, {"name": "Diag Linux", "url": "https://linux.wyattau.com/diagnostics/diag-linux"}]
+}
+</script>
 
 **Question 3.** What is the purpose of the `/etc/fstab` file?
 
@@ -38,6 +83,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Diagnostics", "url": "https://linux.wyattau.com/diagnostics"}, {"name": "Diag Linux", "url": "https://linux.wyattau.com/diagnostics/diag-linux"}]
+}
+</script>
+
 **Question 4.** Which command displays the kernel ring buffer messages?
 
 (A) `dmesg`
@@ -46,6 +100,15 @@ tableOfContents: false
 (D) `uname -r`
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Diagnostics", "url": "https://linux.wyattau.com/diagnostics"}, {"name": "Diag Linux", "url": "https://linux.wyattau.com/diagnostics/diag-linux"}]
+}
+</script>
 
 **Question 5.** What does `systemctl restart nginx` do?
 
@@ -56,6 +119,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Diagnostics", "url": "https://linux.wyattau.com/diagnostics"}, {"name": "Diag Linux", "url": "https://linux.wyattau.com/diagnostics/diag-linux"}]
+}
+</script>
+
 **Question 6.** In a shell script, which variable holds the exit status of the last executed command?
 
 (A) `$!`
@@ -64,6 +136,15 @@ tableOfContents: false
 (D) `$#`
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Diagnostics", "url": "https://linux.wyattau.com/diagnostics"}, {"name": "Diag Linux", "url": "https://linux.wyattau.com/diagnostics/diag-linux"}]
+}
+</script>
 
 **Question 7.** Which command is used to search for text patterns within files?
 
@@ -74,6 +155,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Diagnostics", "url": "https://linux.wyattau.com/diagnostics"}, {"name": "Diag Linux", "url": "https://linux.wyattau.com/diagnostics/diag-linux"}]
+}
+</script>
+
 **Question 8.** What is the difference between `rm -r` and `rm -rf`?
 
 (A) `-r` removes files only; `-rf` removes files and directories
@@ -82,6 +172,15 @@ tableOfContents: false
 (D) There is no difference
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Diagnostics", "url": "https://linux.wyattau.com/diagnostics"}, {"name": "Diag Linux", "url": "https://linux.wyattau.com/diagnostics/diag-linux"}]
+}
+</script>
 
 **Question 9.** Which utility is the modern replacement for `ifconfig`?
 
@@ -92,6 +191,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Diagnostics", "url": "https://linux.wyattau.com/diagnostics"}, {"name": "Diag Linux", "url": "https://linux.wyattau.com/diagnostics/diag-linux"}]
+}
+</script>
+
 **Question 10.** What does the `nice` command do when starting a process?
 
 (A) Runs the process with higher priority than normal
@@ -100,6 +208,15 @@ tableOfContents: false
 (D) Runs the process as a background daemon
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Diagnostics", "url": "https://linux.wyattau.com/diagnostics"}, {"name": "Diag Linux", "url": "https://linux.wyattau.com/diagnostics/diag-linux"}]
+}
+</script>
 
 ## Answer Key
 

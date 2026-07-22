@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Probability", "url": "https://mathematics.wyattau.com/probability"}]
+}
+</script>
 title: Probability Theory
 description: "University Mathematics Probability Theory notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision."
 date: 2026-04-26T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Mathematics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Probability", "url": "https://mathematics.wyattau.com/probability"}]
+}
+</script>
 
 ## 1. Probability Spaces
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Go", "url": "https://languages.wyattau.com/go"}, {"name": "Advanced", "url": "https://languages.wyattau.com/go/advanced"}, {"name": "Pointers And Memory", "url": "https://languages.wyattau.com/go/advanced/pointers-and-memory"}]
+}
+</script>
 title: Pointers and Memory
 description: "Go has pointers, but no pointer arithmetic (except via ). Pointers hold the memo Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18
@@ -7,6 +16,15 @@ tags:
 categories:
   - Go
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Go", "url": "https://languages.wyattau.com/go"}, {"name": "Advanced", "url": "https://languages.wyattau.com/go/advanced"}, {"name": "Pointers And Memory", "url": "https://languages.wyattau.com/go/advanced/pointers-and-memory"}]
+}
+</script>
 
 ## Pointer Basics
 

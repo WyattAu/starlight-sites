@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Poetry Analysis Guide", "url": "https://ib.wyattau.com/english/poetry-analysis-guide"}]
+}
+</script>
 title: Poetry Analysis Guide for IB English
 tags:
   - IB
   - English
 description: "Poetry is the most compressed and technically demanding literary form. Every word, every line break, Every sound pattern carries weight in a way that is not"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Poetry Analysis Guide", "url": "https://ib.wyattau.com/english/poetry-analysis-guide"}]
+}
+</script>
 
 # Poetry Analysis Guide for IB English
 
@@ -14,6 +32,15 @@ Poetry both rewarding and challenging to analyse: there is always more to discov
 Discoveries must be earned through careful, systematic attention to the text"s formal features.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Poetry Analysis Guide", "url": "https://ib.wyattau.com/english/poetry-analysis-guide"}]
+}
+</script>
 
 ## 1. Why Poetry Matters in IB English
 
@@ -35,6 +62,15 @@ Sound and rhythm, awareness of structural patterns -- is the same precision that
 Analysis of prose, drama, and non-literary texts.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Poetry Analysis Guide", "url": "https://ib.wyattau.com/english/poetry-analysis-guide"}]
+}
+</script>
 
 ## 2. Forms of Poetry
 
@@ -171,6 +207,15 @@ must attend to the specific sensory details and the gap between what is said and
 | Haiku                | 3        | None              | 5-7-5 syllables            | Extreme compression, nature image       |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Poetry Analysis Guide", "url": "https://ib.wyattau.com/english/poetry-analysis-guide"}]
+}
+</script>
 
 ## 3. Analytical Framework for Poetry
 
@@ -412,6 +457,15 @@ Analysis by revealing the poem's debts, challenges, and conversations with other
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Poetry Analysis Guide", "url": "https://ib.wyattau.com/english/poetry-analysis-guide"}]
+}
+</script>
+
 ## 4. How to Write a Poetry Analysis Essay
 
 ### 4.1 Thesis Statement for Poetry
@@ -529,6 +583,15 @@ Comparative argument, not merely discuss each poem separately.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Poetry Analysis Guide", "url": "https://ib.wyattau.com/english/poetry-analysis-guide"}]
+}
+</script>
+
 ## 5. Worked Example: Shakespeare's Sonnet 73
 
 The following is a detailed analysis of Shakespeare's Sonnet 73, demonstrating the analytical
@@ -641,6 +704,15 @@ This worked example illustrates several principles that apply to all poetry anal
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Poetry Analysis Guide", "url": "https://ib.wyattau.com/english/poetry-analysis-guide"}]
+}
+</script>
+
 ## 6. Common Pitfalls in Poetry Analysis
 
 ### 6.1 Treating the Poem as a Code to Be Decoded
@@ -684,6 +756,15 @@ Its context, or the larger themes it engages with? A strong conclusion demonstra
 Analysis has produced insight that goes beyond the individual poem.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Poetry Analysis Guide", "url": "https://ib.wyattau.com/english/poetry-analysis-guide"}]
+}
+</script>
 
 ## 7. Quick Reference: Poetry Analysis Checklist
 

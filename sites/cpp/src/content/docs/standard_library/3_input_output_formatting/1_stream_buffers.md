@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Standard_library", "url": "https://cpp.wyattau.com/standard_library"}, {"name": "3_input_output_formatting", "url": "https://cpp.wyattau.com/standard_library/3_input_output_formatting"}, {"name": "1_stream_buffers", "url": "https://cpp.wyattau.com/standard_library/3_input_output_formatting/1_stream_buffers"}]
+}
+</script>
 title: Stream Buffers and Locale Facets
 description: "The C++ I/O system is built on a layered architecture. High-level stream classes ( ) perform formatting and parsing, then delegate actual character transfer"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Standard_library", "url": "https://cpp.wyattau.com/standard_library"}, {"name": "3_input_output_formatting", "url": "https://cpp.wyattau.com/standard_library/3_input_output_formatting"}, {"name": "1_stream_buffers", "url": "https://cpp.wyattau.com/standard_library/3_input_output_formatting/1_stream_buffers"}]
+}
+</script>
 
 ## Intuition
 

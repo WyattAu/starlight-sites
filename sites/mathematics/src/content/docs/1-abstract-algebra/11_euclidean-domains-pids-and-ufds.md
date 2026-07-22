@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "11_euclidean Domains Pids And Ufds", "url": "https://mathematics.wyattau.com/1-abstract-algebra/11_euclidean-domains-pids-and-ufds"}]
+}
+</script>
 title: Euclidean Domains, PIDs, and UFDs
 tags:
   - Mathematics
   - University
 description: 'An integral domain is a if there exists a function Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "11_euclidean Domains Pids And Ufds", "url": "https://mathematics.wyattau.com/1-abstract-algebra/11_euclidean-domains-pids-and-ufds"}]
+}
+</script>
 
 ### 11.1 Euclidean Domains
 

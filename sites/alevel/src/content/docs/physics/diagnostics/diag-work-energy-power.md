@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Work Energy Power", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-work-energy-power"}]
+}
+</script>
 title: "Work, Energy and Power -- Diagnostic Tests"
 description: "A-Level Physics Work, Energy and Power -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Work Energy Power", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-work-energy-power"}]
+}
+</script>
 
 
 ## Intuition
@@ -46,6 +64,15 @@ Net work $= 33 - 6.75 = 26.25\,\text{J}$
 $$v = \sqrt{\frac{2 \times 26.25}{2.0}} = \sqrt{26.25} = 5.12\,\text{m}\,\text{s}^{-1}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Work Energy Power", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-work-energy-power"}]
+}
+</script>
 
 ### UT-2: Energy Conservation with Non-Conservative Forces
 
@@ -93,6 +120,15 @@ $$967 = 25v^2$$ $$v = \sqrt{\frac{967}{25}} = \sqrt{38.68} = 6.22\,\text{m}\,\te
 Note: Power is $Fv$ (force times instantaneous velocity), not $F/t$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Work Energy Power", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-work-energy-power"}]
+}
+</script>
 
 ### UT-3: Efficiency and Power in a Multi-Stage System
 
@@ -204,6 +240,15 @@ be even further from the water. The assumption in part (b) is conservative.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Work Energy Power", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-work-energy-power"}]
+}
+</script>
+
 ### IT-2: Car on a Roller Coaster Loop (with Circular Motion)
 
 **Question:**
@@ -262,6 +307,15 @@ $$4905h = 24525 + 98100 + 8000 = 130625$$ $$h = 26.6\,\text{m}$$
 The minimum height of $A$ above the bottom of the loop is $26.6\,\text{m}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Work Energy Power", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-work-energy-power"}]
+}
+</script>
 
 ### IT-3: Satellite Orbital Energy and Escape (with Gravitational Fields)
 

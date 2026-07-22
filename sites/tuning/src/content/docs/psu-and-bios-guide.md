@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
 title: PSU Selection and BIOS Configuration
 description: "A power supply unit (PSU) converts alternating current (AC) from the wall outlet into the direct Current (DC) voltages required by PC components. Wall mains"
 date: 2026-04-07T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Hardware
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
 
 ## 1. PSU Fundamentals
 
@@ -122,6 +140,15 @@ These transients, causing system shutdowns under load.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
+
 ## 2. PSU Specifications
 
 ### Wattage Ratings
@@ -194,6 +221,15 @@ Documented fire hazard. Use native SATA connectors or replace the PSU.
 | ATX 12VO    | ATX dimensions    | Servers, some OEM desktops (12V only) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
 
 ## 3. PSU Selection Guide
 
@@ -307,6 +343,15 @@ Key metrics to evaluate in independent PSU reviews:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
+
 ## 4. PSU Topologies
 
 ### Half-Bridge
@@ -379,6 +424,15 @@ Voltage cycle, which is inefficient and stresses the electrical grid.
   specification since ATX 2.0. All quality modern PSUs use active PFC.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
 
 ## 5. Protection Mechanisms
 
@@ -457,6 +511,15 @@ Failing PSU. Continued operation risks fire and total system destruction.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
+
 ## 6. BIOS Overview
 
 ### What BIOS/UEFI Is
@@ -516,6 +579,15 @@ Be lost. Some boards display a "CMOS checksum error" or "CMOS battery low" messa
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
+
 ## 7. BIOS Navigation
 
 ### Common BIOS Layouts
@@ -562,6 +634,15 @@ Values, adjusting PLL settings), keyboard input is faster and more reliable. Som
 Particularly sub-menus for advanced tuning, may not fully support mouse interaction.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
 
 ## 8. CPU-Related Settings
 
@@ -706,6 +787,15 @@ The boost algorithm considers:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
+
 ## 9. Memory Settings
 
 ### XMP/EXPO Profiles
@@ -822,6 +912,15 @@ Always benchmark both configurations.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
+
 ## 10. GPU-Related Settings
 
 ### Above 4G Decoding
@@ -886,6 +985,15 @@ Configuration for GPU compute servers and passthrough setups.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
+
 ## 11. Storage Settings
 
 ### NVMe RAID
@@ -948,6 +1056,15 @@ Disable CSM unless you specifically need to boot a legacy OS. CSM can interfere 
 Like Secure Boot, fast boot, and Resizable BAR.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
 
 ## 12. Advanced Settings
 
@@ -1042,6 +1159,15 @@ Require disabling Fast Boot to access BIOS reliably.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
+
 ## 13. Overclocking Basics
 
 ### Methodology
@@ -1123,6 +1249,15 @@ Memory kit from a vendor that has pre-tested for overclocking potential (Silicon
 Sellers) is the only way to guarantee better-than-average silicon, at a significant price premium.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
 
 ## 14. Troubleshooting
 
@@ -1217,6 +1352,15 @@ Q-Code (AMI) diagnostic codes commonly seen on debug displays:
 | d6   | No console output             | Display/GPU not detected            |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
+}
+</script>
 
 ## 15. Common Pitfalls
 

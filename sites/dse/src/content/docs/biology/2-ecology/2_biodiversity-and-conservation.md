@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
 title: Biodiversity and Conservation
 description: "Classification (taxonomy) is the science of grouping organisms based on shared characteristics."
 date: 2026-04-08T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
 
 ## Classification Systems
 
@@ -91,6 +109,15 @@ As you move down the hierarchy, the groups become smaller and the organisms with
 More closely related.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
 
 ## Biodiversity Measurement
 
@@ -201,6 +228,15 @@ which lowers its diversity index despite having the same richness.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
+
 ## Evolution Evidence
 
 ### Types of Evidence for Evolution
@@ -300,6 +336,15 @@ Function.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
+
 ## Natural Selection and Speciation
 
 ### Darwin's Theory of Natural Selection
@@ -362,6 +407,15 @@ interrupted, Describe the different selection pressures on each population, and 
 reproductive Isolation arises.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
 
 ## Human Impact on Biodiversity
 
@@ -470,6 +524,15 @@ Increasing global temperatures.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
+
 ## Conservation Strategies
 
 ### In Situ Conservation
@@ -532,6 +595,15 @@ Destroyed).
 | Kyoto Protocol (1997) / Paris Agreement (2015) | International agreements to reduce greenhouse gas emissions and combat climate change                                                                                      |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
 
 ## Ecological Succession
 
@@ -606,6 +678,15 @@ But soil remains intact.
 | Example            | Colonisation of volcanic island (Surtsey, Iceland) | Regrowth after forest fire or abandoned farmland |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
 
 ## Biogeochemical Cycles
 
@@ -719,6 +800,15 @@ and nucleic acids in dead organisms and urea in waste, releasing ammonia into th
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
+
 ## Intuition
 
 **Nature's web of life:** Biodiversity is like a tapestry — each species is a thread, and removing threads weakens the whole fabric. Conservation is about protecting the threads that keep ecosystems functional.
@@ -776,6 +866,15 @@ and nucleic acids in dead organisms and urea in waste, releasing ammonia into th
     would remain locked in dead organisms and the cycles would stop.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
 
 ## Problem Set
 
@@ -1000,7 +1099,25 @@ If you get this wrong, revise: Human Impact -- Climate Change; Conservation Stra
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
+
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
 
 ## Invasive Species
 
@@ -1045,6 +1162,15 @@ beetles but became a major invasive species:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
+
 ## Conservation Genetics
 
 ### Genetic Bottlenecks
@@ -1082,6 +1208,15 @@ diversity in a small, inbred population.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
+
 ## Climate Change and Conservation
 
 ### Effects of Climate Change on Biodiversity
@@ -1115,6 +1250,15 @@ See for instructions on
 self-marking and building a personal test matrix.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
 
 ## Ecological Succession
 
@@ -1169,6 +1313,15 @@ A plagioclimax is a stable community that is prevented from reaching its natural
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
+
 ## Biogeography
 
 ### Continental Drift and Species Distribution
@@ -1206,6 +1359,15 @@ At equilibrium, the rate of colonisation equals the rate of extinction, and the 
 remains relatively stable.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
 
 ## Sampling Techniques in Detail
 
@@ -1291,6 +1453,15 @@ Where:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
+
 ## Classification Systems
 
 ### The Three-Domain System (Carl Woese, 1990)
@@ -1360,6 +1531,15 @@ Extremophiles are organisms, predominantly archaea, that thrive in extreme envir
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
+
 ## Biodiversity and Ecosystem Stability
 
 ### Relationship Between Biodiversity and Stability
@@ -1388,6 +1568,15 @@ Higher biodiversity generally leads to greater ecosystem stability:
   the strongest competitors, allowing a wider variety of species to coexist
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
+}
+</script>
 
 ## Common Pitfalls
 

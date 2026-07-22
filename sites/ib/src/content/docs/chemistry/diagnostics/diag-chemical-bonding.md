@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-chemical-bonding"}]
+}
+</script>
 title: "Chemical Bonding -- Diagnostic Tests"
 description: "IB Chemistry Chemical Bonding -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-chemical-bonding"}]
+}
+</script>
 
 # Chemical Bonding — Diagnostic Tests
 
@@ -41,6 +59,15 @@ angles: $\approx 87.5^\circ$ (slightly less than $90^\circ$ due to lone pair rep
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-chemical-bonding"}]
+}
+</script>
+
 ### UT-2: Hybridisation Determination
 
 **Question:** Determine the hybridisation of the central atom in
@@ -61,6 +88,15 @@ Hybridisation rule: number of electron domains = number of hybrid orbitals: 2 ($
 ($sp^3$), 5 ($sp^3d$), 6 ($sp^3d^2$).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-chemical-bonding"}]
+}
+</script>
 
 ### UT-3: Intermolecular Force Hierarchy
 
@@ -117,6 +153,15 @@ overall interaction highly favourable.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-chemical-bonding"}]
+}
+</script>
+
 ### IT-2: Hybridisation and Bond Strength (with Energetics)
 
 **Question:** The bond enthalpy of a C--C single bond is $347\ \text{kJ mol}^{-1}$A C=C double bond
@@ -143,6 +188,15 @@ means the second $\pi$ bond contributes less additional strength than the first.
 returns explain why the second $\pi$ bond adds only $225\ \text{kJ mol}^{-1}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-chemical-bonding"}]
+}
+</script>
 
 ### IT-3: Polarity and Solubility (with Organic Chemistry)
 

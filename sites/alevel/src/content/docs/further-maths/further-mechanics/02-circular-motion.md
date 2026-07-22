@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "02 Circular Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/02-circular-motion"}]
+}
+</script>
 title: Circular Motion
 description: "Circular motion in further mathematics extends the basic treatment to include banked tracks, conical Pendulums, vertical circles with energy methods, and"
 date: 2026-04-02T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "02 Circular Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/02-circular-motion"}]
+}
+</script>
 
 
 ## Intuition
@@ -834,6 +852,15 @@ Banking the curve dramatically reduces the required friction coefficient from 0.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "02 Circular Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/02-circular-motion"}]
+}
+</script>
+
 ## 8. Advanced Worked Examples
 
 ### Example 8.1: Conical pendulum
@@ -919,6 +946,15 @@ $$\boxed{\omega = 10e^{-0.2t}}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "02 Circular Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/02-circular-motion"}]
+}
+</script>
+
 ## 9. Common Pitfalls
 
 | Pitfall                                                     | Correct Approach                                                                 |
@@ -929,6 +965,15 @@ $$\boxed{\omega = 10e^{-0.2t}}$$
 | Assuming tension is constant in vertical motion             | $T$ varies; use energy conservation for $v$Then Newton's second law for $T$      |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "02 Circular Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/02-circular-motion"}]
+}
+</script>
 
 ## 10. Additional Exam-Style Questions
 
@@ -986,6 +1031,15 @@ Particle leaves the circular path. $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "02 Circular Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/02-circular-motion"}]
+}
+</script>
+
 ## 11. Connections to Other Topics
 
 ### 11.1 Circular motion and projectiles
@@ -1004,6 +1058,15 @@ Vertical circular motion problems often require energy methods combined with for
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "02 Circular Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/02-circular-motion"}]
+}
+</script>
+
 ## 12. Key Results Summary
 
 | Quantity                                  | Formula                                               |
@@ -1019,6 +1082,15 @@ Vertical circular motion problems often require energy methods combined with for
 | Vertical circle: max speed at bottom      | $v_{\max} = \sqrt{u^2 + 4gr}$ (energy)                |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "02 Circular Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/02-circular-motion"}]
+}
+</script>
 
 ## 13. Further Exam-Style Questions
 
@@ -1056,6 +1128,15 @@ Constant. $\blacksquare$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "02 Circular Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/02-circular-motion"}]
+}
+</script>
 
 ## 14. Advanced Topics
 
@@ -1110,6 +1191,15 @@ For the string not to go slack: $T_{\text{top}} \geq 0 \implies u^2 \geq 5gr$Giv
 $u_{\min} = \sqrt{5gr}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "02 Circular Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/02-circular-motion"}]
+}
+</script>
 
 ## 15. Further Exam-Style Questions
 
@@ -1167,6 +1257,15 @@ The particle leaves the sphere at $\theta = \arccos(2/3) \approx 48.2°$ from th
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "02 Circular Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/02-circular-motion"}]
+}
+</script>
+
 ## 16. Further Advanced Topics
 
 ### 16.1 Motion on the inside of a vertical circle
@@ -1214,6 +1313,15 @@ $-mr\dot{\theta}^2 = F_r$ (centripetal) and $mr\ddot{\theta} = F_\theta$ (tangen
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "02 Circular Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/02-circular-motion"}]
+}
+</script>
+
 ## 17. Further Exam-Style Questions
 
 ### Question 15
@@ -1252,6 +1360,15 @@ $T = \dfrac{2\pi}{\omega} = \boxed{2\pi\sqrt{l/g}}$. $\blacksquare$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "02 Circular Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/02-circular-motion"}]
+}
+</script>
 
 ## Cross-References
 

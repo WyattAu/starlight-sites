@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Data Representation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-data-representation"}]
+}
+</script>
 title: "Data Representation -- Diagnostic Tests"
 description: "A-Level Maths Data Representation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Data Representation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-data-representation"}]
+}
+</script>
 
 
 ## Intuition
@@ -93,6 +111,15 @@ outliers (good for error detection), but it discards information about the tails
 distribution.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Data Representation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-data-representation"}]
+}
+</script>
 
 ### UT-2: Misleading Histograms with Unequal Class Widths
 
@@ -188,6 +215,15 @@ So approximately 27.5% of employees commute for more than 50 minutes.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Data Representation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-data-representation"}]
+}
+</script>
+
 ### UT-3: Data Coding and Its Effect on Summary Statistics
 
 **Question:**
@@ -280,6 +316,15 @@ constant (3 or $-3$) and the sign of the multiplier only affect the mean, not th
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Data Representation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-data-representation"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of data representation with other topics. Requires combining concepts from
@@ -358,6 +403,15 @@ Since $-1.96 \lt -1.305 \lt 1.96$The test statistic does not fall in the critica
 factory's claim that the mean bolt length is 25.5 mm.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Data Representation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-data-representation"}]
+}
+</script>
 
 ### IT-2: Regression Residuals and Box Plot Analysis (with Correlation and Regression)
 
@@ -452,6 +506,15 @@ pulling the line downward near $d = 5$. Without this point, there is less need f
 in the middle, so the slope becomes slightly less negative (i.e., less steep in magnitude).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Data Representation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-data-representation"}]
+}
+</script>
 
 ### IT-3: Continuous Probability Density Function and the Median (with Integration)
 

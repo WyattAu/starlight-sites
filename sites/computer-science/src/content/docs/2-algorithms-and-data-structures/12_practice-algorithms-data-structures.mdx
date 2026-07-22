@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Algorithms And Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures"}, {"name": "12_practice Algorithms Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures/12_practice-algorithms-data-structures"}]
+}
+</script>
 title: "Algorithms and Data Structures -- Practice Problems"
 description: "Comprehensive educational content notes on algorithms and data structures -- practice problems with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Algorithms And Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures"}, {"name": "12_practice Algorithms Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures/12_practice-algorithms-data-structures"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -43,6 +61,15 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What is the amortized time complexity of inserting $n$ elements into a dynamic array that doubles in size when full?&quot; options={[ '$O(1)$ per insertion', '$O(n)$ per insertion', '$O(\\log n)$ per insertion', '$O(n^2)$ total', ]} correctAnswer={0} explanation=&quot;Although individual insertions may trigger an $O(n)$ resize, the amortized cost is $O(1)$. When the array doubles from size $m$ to $2m$, the copy costs $O(m)$, but this cost is spread across the $m$ insertions since the last resize. Each of those $m$ insertions is charged $O(1)$ for the copy plus $O(1)$ for the insertion itself, giving $O(1)$ amortized. The total cost for $n$ insertions is $O(n)$."} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Algorithms And Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures"}, {"name": "12_practice Algorithms Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures/12_practice-algorithms-data-structures"}]
+}
+</script>
 
 ## Additional Algorithms and Data Structures Questions
 

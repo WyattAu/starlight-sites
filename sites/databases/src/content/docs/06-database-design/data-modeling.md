@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "06 Database Design", "url": "https://databases.wyattau.com/06-database-design"}, {"name": "Data Modeling", "url": "https://databases.wyattau.com/06-database-design/data-modeling"}]
+}
+</script>
 title: Data Modeling Patterns
 description: "Normalization eliminates redundancy and update anomalies, but there is a point of diminishing Returns. The decision of when to stop depends on your"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "06 Database Design", "url": "https://databases.wyattau.com/06-database-design"}, {"name": "Data Modeling", "url": "https://databases.wyattau.com/06-database-design/data-modeling"}]
+}
+</script>
 
 ## Normalization Review
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Atomic Nuclear", "url": "https://ib.wyattau.com/physics/diagnostics/diag-atomic-nuclear"}]
+}
+</script>
 title: "Atomic and Nuclear Physics -- Diagnostic Tests"
 description: "IB Atomic and Nuclear Physics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Atomic Nuclear", "url": "https://ib.wyattau.com/physics/diagnostics/diag-atomic-nuclear"}]
+}
+</script>
 
 # Atomic and Nuclear Physics — Diagnostic Tests
 
@@ -84,6 +102,15 @@ it cannot explain fine structure or the Zeeman effect.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Atomic Nuclear", "url": "https://ib.wyattau.com/physics/diagnostics/diag-atomic-nuclear"}]
+}
+</script>
+
 ### UT-2: Binding Energy Per Nucleon and Mass Defect
 
 **Question:**
@@ -151,6 +178,15 @@ The energy appears as kinetic energy of the fission fragments, neutrons, and gam
 as "pure energy."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Atomic Nuclear", "url": "https://ib.wyattau.com/physics/diagnostics/diag-atomic-nuclear"}]
+}
+</script>
 
 ### UT-3: Radioactive Decay — Statistical Nature of Half-Life
 
@@ -247,6 +283,15 @@ to useful electricity, but the fuel consumption rate depends on the total therma
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Atomic Nuclear", "url": "https://ib.wyattau.com/physics/diagnostics/diag-atomic-nuclear"}]
+}
+</script>
+
 ### IT-2: Alpha, Beta, and Gamma — Identification and Properties (with Electric and Magnetic Fields)
 
 **Question:**
@@ -316,6 +361,15 @@ This property is exploited in radiation detection:
   stopped by much less material (paper for alpha, aluminium for beta).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Atomic Nuclear", "url": "https://ib.wyattau.com/physics/diagnostics/diag-atomic-nuclear"}]
+}
+</script>
 
 ### IT-3: Carbon Dating and Exponential Decay (with Kinematics)
 

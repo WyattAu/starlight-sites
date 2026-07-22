@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 3 Mechanics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-3-mechanics"}]
+}
+</script>
 title: "Paper 3 -- Mechanics -- Full Diagnostic Exam"
 description: "Comprehensive educational content notes on paper 3 -- mechanics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 3 Mechanics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-3-mechanics"}]
+}
+</script>
 
 # Paper 3 — Mechanics
 
@@ -10,12 +28,30 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 3 Mechanics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-3-mechanics"}]
+}
+</script>
+
 ## Instructions
 
 Answer all questions. Calculators are permitted. Take $g = 9.8$ m/s$^2$ unless otherwise stated.
 Show all working — marks are awarded for method as well as final answer.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 3 Mechanics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-3-mechanics"}]
+}
+</script>
 
 ## Questions
 
@@ -102,6 +138,15 @@ convention. [2 marks]
 the kinetic energy lost. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 3 Mechanics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-3-mechanics"}]
+}
+</script>
 
 ## Solutions
 
@@ -324,6 +369,15 @@ $$\text{KE}_{\text{after}} = \frac{1}{2}(4)(4) + \frac{1}{2}(6)\!\left(\frac{25}
 $$\Delta\text{KE} = 77 - \frac{49}{3} = \frac{231 - 49}{3} = \frac{182}{3} \approx 60.67 \text{ J lost}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 3 Mechanics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-3-mechanics"}]
+}
+</script>
 
 ## Marking Guide
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "03 Process Management", "url": "https://linux.wyattau.com/03-process-management"}, {"name": "Cron And Scheduling", "url": "https://linux.wyattau.com/03-process-management/cron-and-scheduling"}]
+}
+</script>
 title: Cron and Task Scheduling
 description: "The cron daemon () is a time-based job scheduler that runs commands at specified times and Intervals. It wakes up every minute, checks all crontab files for"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "03 Process Management", "url": "https://linux.wyattau.com/03-process-management"}, {"name": "Cron And Scheduling", "url": "https://linux.wyattau.com/03-process-management/cron-and-scheduling"}]
+}
+</script>
 
 ## cron Daemon
 

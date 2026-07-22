@@ -1,5 +1,14 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "1 Physical Chemistry", "url": "https://chemistry.wyattau.com/1-physical-chemistry"}, {"name": "Index", "url": "https://chemistry.wyattau.com/1-physical-chemistry/index"}]
+}
+</script>
+
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -26,6 +35,15 @@
 title: Physical Chemistry
 description: 'Topics in physical chemistry including thermodynamics, kinetics, quantum chemistry, and spectroscopy with worked examples.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "1 Physical Chemistry", "url": "https://chemistry.wyattau.com/1-physical-chemistry"}, {"name": "Index", "url": "https://chemistry.wyattau.com/1-physical-chemistry/index"}]
+}
+</script>
 
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "11 Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis"}, {"name": "11_practice Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis/11_practice-functional-analysis"}]
+}
+</script>
 title: Functional Analysis Practice (Interactive)
 tags:
   - mathematics
   - university
 description: "UNIVERSITY Mathematics practice problems: Functional Analysis Practice (Interactive). Comprehensive study material with definitions, examples, and assessment"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "11 Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis"}, {"name": "11_practice Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis/11_practice-functional-analysis"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -24,6 +42,15 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "11 Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis"}, {"name": "11_practice Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis/11_practice-functional-analysis"}]
+}
+</script>
+
 ### Banach and Hilbert Spaces
 
 <PracticeProblem client:only="solid-js" question={"Which of the following norms on $C[0,1]$ makes it a Banach space?&quot; options={[ '$\\|f\\|_\\infty = \\sup_{x \\in [0,1]} |f(x)|$', '$\\|f\\|_1 = \\int_0^1 |f(x)|\\, dx$', '$\\|f\\|_p = \\left(\\int_0^1 |f(x)|^p\\, dx\\right)^{1/p}$ for $1 \\leq p < \\infty$', '$\\|f\\| = |f(0)|$', ]} correctAnswer={0} explanation=&quot;$(C[0,1], \|\cdot\|_\infty)$ is complete: uniform limits of continuous functions are continuous. The $L^p$ norms ($1 \leq p < \infty$) do not yield completeness because $L^p$-limits of continuous functions may not be continuous (the completion of $C[0,1]$ in $L^p$-norm is $L^p[0,1]$). The norm $\|f\| = |f(0)|$ fails positive definiteness: any $f$ with $f(0) = 0$ has zero norm."} difficulty="easy"  />
@@ -35,6 +62,15 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"Let $T : \\ell^2 \\to \\ell^2$ be the right shift operator $T(x_1, x_2, \\ldots) = (0, x_1, x_2, \\ldots)$. What is $\\|T\\|$?&quot; options={['$0$', '$1$', '$\\sqrt{2}$', '$2$']} correctAnswer={0} explanation=&quot;$\|T\| = \sup_{\|x\|_2 = 1} \|Tx\|_2 = \sup_{\|x\|_2 = 1} \sqrt{\sum |x_n|^2} = \sup_{\|x\|_2 = 1} \|x\|_2 = 1$. The right shift is an isometry: it preserves the $\ell^2$ norm. Its adjoint is the left shift $T^*(x_1, x_2, \ldots) = (x_2, x_3, \ldots)$, which has norm $1$ but is not an isometry (it kills $x_1$)."} difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "11 Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis"}, {"name": "11_practice Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis/11_practice-functional-analysis"}]
+}
+</script>
 
 ### Fundamental Theorems
 
@@ -53,6 +89,15 @@ the explanation.
 **Forgetting the completeness requirement in the Bounded Inverse Theorem:** A bijective bounded linear operator between Banach spaces has a bounded inverse, but if either space is not complete, this can fail. The differentiation operator on $C^1[0,1] \to C[0,1]$ is bijective and bounded but its inverse (antidifferentiation) is unbounded because $C^1[0,1]$ is not complete under the supremum norm.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "11 Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis"}, {"name": "11_practice Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis/11_practice-functional-analysis"}]
+}
+</script>
 
 ### Compact Operators and Spectral Theory
 

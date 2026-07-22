@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "4_lebesgue Measurable Sets And Non Measurable Sets", "url": "https://mathematics.wyattau.com/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets"}]
+}
+</script>
 title: Lebesgue Measurable Sets and Non-Measurable Sets
 tags:
   - Mathematics
   - University
 description: 'Comprehensive educational content notes on lebesgue measurable sets and non-measurable sets with precise definitions, worked examples, and common pitfalls.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "4_lebesgue Measurable Sets And Non Measurable Sets", "url": "https://mathematics.wyattau.com/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets"}]
+}
+</script>
 
 ### 4.1 Properties of Lebesgue Measurable Sets
 

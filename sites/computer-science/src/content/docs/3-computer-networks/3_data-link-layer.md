@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Computer Networks", "url": "https://computer-science.wyattau.com/3-computer-networks"}, {"name": "3_data Link Layer", "url": "https://computer-science.wyattau.com/3-computer-networks/3_data-link-layer"}]
+}
+</script>
 title: Data Link Layer
 tags:
   - Computing
   - University
 description: 'The data link layer receives a bit stream and divides it into manageable . Comprehensive educational content coverage with definitions and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Computer Networks", "url": "https://computer-science.wyattau.com/3-computer-networks"}, {"name": "3_data Link Layer", "url": "https://computer-science.wyattau.com/3-computer-networks/3_data-link-layer"}]
+}
+</script>
 
 ## Intuition
 

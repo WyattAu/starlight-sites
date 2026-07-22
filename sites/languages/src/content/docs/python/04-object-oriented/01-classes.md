@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "04 Object Oriented", "url": "https://languages.wyattau.com/python/04-object-oriented"}, {"name": "01 Classes", "url": "https://languages.wyattau.com/python/04-object-oriented/01-classes"}]
+}
+</script>
 title: Classes and Inheritance
 description: "In Python, a class is created with the keyword. A class is itself an object -- an instance Of . The body of a statement executes at definition time (when"
 date: 2025-06-04T13:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Python
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "04 Object Oriented", "url": "https://languages.wyattau.com/python/04-object-oriented"}, {"name": "01 Classes", "url": "https://languages.wyattau.com/python/04-object-oriented/01-classes"}]
+}
+</script>
 
 ## Class Definition
 

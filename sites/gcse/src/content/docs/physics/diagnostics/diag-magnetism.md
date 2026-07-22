@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/physics/diagnostics"}, {"name": "Diag Magnetism", "url": "https://gcse.wyattau.com/physics/diagnostics/diag-magnetism"}]
+}
+</script>
 title: "Magnetism and Electromagnetism -- Diagnostic Tests"
 description: "(a) Describe the magnetic field pattern around a bar magnet. (b) Explain how to magnetise a steel nail using a solenoid. (c) An electromagnet consists of a"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/physics/diagnostics"}, {"name": "Diag Magnetism", "url": "https://gcse.wyattau.com/physics/diagnostics/diag-magnetism"}]
+}
+</script>
 
 # Magnetism and Electromagnetism — Diagnostic Tests
 
@@ -94,6 +112,15 @@ change for the same rotation. (3) **Number of turns on the coil** -- more turns 
 flux linkage. (4) **Area of the coil** -- larger area captures more flux.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/physics/diagnostics"}, {"name": "Diag Magnetism", "url": "https://gcse.wyattau.com/physics/diagnostics/diag-magnetism"}]
+}
+</script>
 
 ## Integration Tests
 

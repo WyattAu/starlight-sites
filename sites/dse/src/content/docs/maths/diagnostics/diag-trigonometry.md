@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 title: "Trigonometry -- Diagnostic Tests"
 description: "DSE Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 # Trigonometry — Diagnostic Tests
 
@@ -39,6 +57,15 @@ This is the ambiguous case of the sine rule. A common mistake is giving only the
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
+
 ### UT-2: Choosing Sine vs Cosine Rule
 
 **Question:**
@@ -57,6 +84,15 @@ Using the sine rule here would require first finding another angle, which is les
 risks the ambiguous case.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ### UT-3: Trigonometric Equation with Multiple Solutions
 
@@ -84,6 +120,15 @@ solutions.
 Solution: $x = 30°,\; 90°,\; 150°,\; 270°$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ### UT-4: 3D Angle Between Line and Plane
 
@@ -113,6 +158,15 @@ $$\theta = 45°$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
+
 ### UT-5: Proving a Trigonometric Identity
 
 **Question:**
@@ -124,6 +178,15 @@ Prove that $\dfrac{1 - \cos 2x}{\sin 2x} = \tan x$.
 $$\frac{1 - \cos 2x}{\sin 2x} = \frac{1 - (1 - 2\sin^2 x)}{2\sin x \cos x} = \frac{2\sin^2 x}{2\sin x \cos x} = \frac{\sin x}{\cos x} = \tan x \qed$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -184,6 +247,15 @@ Since slope $AB$ = slope $AC$The points are collinear.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
+
 ### IT-2: Trigonometry and Algebra (with Quadratics)
 
 **Question:**
@@ -212,6 +284,15 @@ $x = \arctan\left(\dfrac{3 - \sqrt{5}}{2}\right)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
+
 ### IT-3: Trigonometry and 3D Geometry (with Geometries)
 
 **Question:**
@@ -238,6 +319,15 @@ $$\angle VMO = \arctan\left(\frac{4}{3}\right) \approx 53.1°$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
+
 ## Worked Examples
 
 ### WE-1: Sine Rule Application
@@ -258,6 +348,15 @@ $$c = \frac{a \sin C}{\sin A} = \frac{8 \sin 75°}{\sin 45°} = \frac{8 \times 0
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
+
 ### WE-2: Cosine Rule to Find an Angle
 
 **Question:**
@@ -274,6 +373,15 @@ $$\angle Q = \arccos\left(-\frac{13}{35}\right) \approx 111.8°$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
+
 ### WE-3: Trigonometric Identity Proof
 
 **Question:**
@@ -287,6 +395,15 @@ $$\text{LHS} = \frac{\sin^2 x + (1 + \cos x)^2}{\sin x(1 + \cos x)} = \frac{\sin
 $$= \frac{(\sin^2 x + \cos^2 x) + 1 + 2\cos x}{\sin x(1 + \cos x)} = \frac{2 + 2\cos x}{\sin x(1 + \cos x)} = \frac{2(1 + \cos x)}{\sin x(1 + \cos x)} = \frac{2}{\sin x} = 2\csc x = \text{RHS} \qed$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ### WE-4: Solving Trigonometric Equations in a Given Range
 
@@ -314,6 +431,15 @@ Solution: $x = 0°,\; 120°,\; 240°$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
+
 ### WE-5: Area of Triangle Using Trigonometry
 
 **Question:**
@@ -325,6 +451,15 @@ In triangle $ABC$, $AB = 12$ cm, $AC = 10$ cm, and $\angle BAC = 65°$. Find the
 $$\text{Area} = \frac{1}{2} \times AB \times AC \times \sin \angle BAC = \frac{1}{2} \times 12 \times 10 \times \sin 65° = 60\sin 65° \approx 60 \times 0.9063 \approx 54.4 \text{ cm}^2$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ### WE-6: 3D Distance Problem
 
@@ -355,6 +490,15 @@ The absolute shortest is the space diagonal $\sqrt{61}$ m.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
+
 ### WE-7: Bearing Problem
 
 **Question:**
@@ -383,6 +527,15 @@ The distance is $25$ km and the bearing is approximately $113°$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
+
 ### WE-8: Angle of Elevation and Depression
 
 **Question:**
@@ -400,6 +553,15 @@ $$\tan 30° = \frac{80}{d}$$
 $$d = \frac{80}{\tan 30°} = \frac{80}{1/\sqrt{3}} = 80\sqrt{3} \approx 138.6 \text{ m}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ## Intuition
 
@@ -431,6 +593,15 @@ $$d = \frac{80}{\tan 30°} = \frac{80}{1/\sqrt{3}} = 80\sqrt{3} \approx 138.6 \t
    (i.e. N60°E). Always draw a clear North arrow and measure bearings correctly.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ## DSE Exam-Style Questions
 
@@ -469,6 +640,15 @@ $h = \dfrac{2 \times 21.8}{10.3} \approx 4.23$ cm.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
+
 ### DSE-2
 
 (a) Prove the identity $\dfrac{1 - \cos 2x}{1 + \cos 2x} = \tan^2 x$. (3 marks) (b) Hence solve
@@ -488,6 +668,15 @@ $\tan x = -\sqrt{3} \implies x = 120°$ or $x = 300°$.
 Solution: $x = 60°,\; 120°,\; 240°,\; 300°$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ### DSE-3
 
@@ -515,6 +704,15 @@ $0.6457h = 50 \implies h = \dfrac{50}{0.6457} \approx 77.4$ m.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
+
 ### DSE-4
 
 Solve $\sin^2 x + 2\cos x = 2$ for $0° \leq x \leq 180°$. (4 marks)
@@ -536,6 +734,15 @@ $\cos x = 1$.
 In $[0°,\; 180°]$: $x = 0°$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ### DSE-5
 

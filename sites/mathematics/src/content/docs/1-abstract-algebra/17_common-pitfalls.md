@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "17_common Pitfalls", "url": "https://mathematics.wyattau.com/1-abstract-algebra/17_common-pitfalls"}]
+}
+</script>
 title: Common Pitfalls
 tags:
   - Mathematics
   - University
 description: "only ideal containing ). This is a common source of confusion when checking whet Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "17_common Pitfalls", "url": "https://mathematics.wyattau.com/1-abstract-algebra/17_common-pitfalls"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--caution">
 $\langle (1\ 2) \rangle \leq S_3$ is not normal since

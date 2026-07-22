@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Wrap Up", "url": "https://ib.wyattau.com/physics/wrap-up"}]
+}
+</script>
 title: Wrap Up
 description: "This page provides a summary of key concepts across all five thematic areas of IB Physics and strategies for final revision."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Wrap Up", "url": "https://ib.wyattau.com/physics/wrap-up"}]
+}
+</script>
 
 # IB Physics -- Course Wrap-Up
 
@@ -216,6 +234,15 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Wrap Up", "url": "https://ib.wyattau.com/physics/wrap-up"}]
+}
+</script>
 
 ## Cross-References
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Capacitance", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-capacitance"}]
+}
+</script>
 title: "Capacitance -- Diagnostic Tests"
 description: "A-Level Physics Capacitance -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Capacitance", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-capacitance"}]
+}
+</script>
 
 
 ## Intuition
@@ -71,6 +89,15 @@ removing it requires work).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Capacitance", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-capacitance"}]
+}
+</script>
+
 ### UT-2: Energy Stored in a Capacitor — Three Formulae
 
 **Question:**
@@ -114,6 +141,15 @@ as heat in the resistor. This is a general result for RC charging: regardless of
 $R$Exactly half the energy is always lost.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Capacitance", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-capacitance"}]
+}
+</script>
 
 ### UT-3: RC Discharge Through a Changing Resistance
 
@@ -199,6 +235,15 @@ nearly linear.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Capacitance", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-capacitance"}]
+}
+</script>
+
 ### IT-2: Capacitor Microphone (with Wave Properties)
 
 **Question:**
@@ -247,6 +292,15 @@ constant, and the voltage changes are caused by the changing capacitance, produc
 across the resistor that faithfully reproduces the sound wave.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Capacitance", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-capacitance"}]
+}
+</script>
 
 ### IT-3: Energy Transfer in a Two-Capacitor System (with DC Circuits)
 

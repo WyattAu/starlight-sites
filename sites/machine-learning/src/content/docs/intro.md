@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Intro", "url": "https://machine-learning.wyattau.com/intro"}]
+}
+</script>
 title: Machine Learning
 description: "Introduction to machine learning fundamentals, supervised and unsupervised learning, and neural networks."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Intro", "url": "https://machine-learning.wyattau.com/intro"}]
+}
+</script>
 
 # Introduction to Machine Learning
 
@@ -226,6 +244,15 @@ print(f"New MSE: {new_mse:.4f}")
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Intro", "url": "https://machine-learning.wyattau.com/intro"}]
+}
+</script>
+
 ### Example 2: K-Means Clustering by Hand
 
 **Problem:** Cluster the following 2D points into k=2 clusters using one iteration of K-means.
@@ -261,6 +288,15 @@ print(f"New centroids: {new_centroids}")
 **Explanation:** K-means alternates between two steps: (1) assign each point to the nearest centroid using Euclidean distance, and (2) recompute centroids as the mean of all points assigned to that cluster. After convergence, the algorithm minimises within-cluster sum of squares.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Intro", "url": "https://machine-learning.wyattau.com/intro"}]
+}
+</script>
 
 ### Example 3: Precision, Recall, and F1 Score
 

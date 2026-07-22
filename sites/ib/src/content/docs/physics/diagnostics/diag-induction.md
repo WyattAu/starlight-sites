@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Induction", "url": "https://ib.wyattau.com/physics/diagnostics/diag-induction"}]
+}
+</script>
 title: "Induction -- Diagnostic Tests"
 description: "IB Physics Induction -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Induction", "url": "https://ib.wyattau.com/physics/diagnostics/diag-induction"}]
+}
+</script>
 
 # Induction — Diagnostic Tests
 
@@ -70,6 +88,15 @@ The EMF is halved because the effective area perpendicular to the field is $A\co
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Induction", "url": "https://ib.wyattau.com/physics/diagnostics/diag-induction"}]
+}
+</script>
+
 ### UT-2: Flux Linkage $NBA\cos\theta$ with Rotating Coil
 
 **Question:**
@@ -117,6 +144,15 @@ The flux linkage is $NBA\cos\theta$ where $\theta$ is the angle of the normal to
 angle of the plane.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Induction", "url": "https://ib.wyattau.com/physics/diagnostics/diag-induction"}]
+}
+</script>
 
 ### UT-3: Back EMF in a DC Motor
 
@@ -216,6 +252,15 @@ gravity.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Induction", "url": "https://ib.wyattau.com/physics/diagnostics/diag-induction"}]
+}
+</script>
+
 ### IT-2: Transformer with Non-Ideal Loading (with Current Electricity)
 
 **Question:**
@@ -263,6 +308,15 @@ Power loss: $P_{\text{loss}} = P_{\text{in}} - P_{\text{out}} = 250.4 - 230.4 = 
 Primary current: $I_p = P_{\text{in}}/V_p = 250.4/240 = 1.04\,\text{A}$ RMS
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Induction", "url": "https://ib.wyattau.com/physics/diagnostics/diag-induction"}]
+}
+</script>
 
 ### IT-3: AC Generator Connected to RL Circuit (with Current Electricity and SHM)
 

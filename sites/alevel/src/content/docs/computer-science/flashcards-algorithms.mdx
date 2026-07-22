@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Flashcards Algorithms", "url": "https://alevel.wyattau.com/computer-science/flashcards-algorithms"}]
+}
+</script>
 title: "A-Level CS Flashcards: Algorithms"
 description: "A-Level Computer Science flashcards covering searching, sorting, graph algorithms, and complexity analysis with spaced repetition."
 tags:
@@ -6,6 +15,15 @@ tags:
   - ALevel
   - Flashcards
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Flashcards Algorithms", "url": "https://alevel.wyattau.com/computer-science/flashcards-algorithms"}]
+}
+</script>
 
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computer-science/flashcards-algorithms-data.js';
@@ -32,6 +50,15 @@ These flashcards test your knowledge of fundamental algorithms and their analysi
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Flashcards Algorithms", "url": "https://alevel.wyattau.com/computer-science/flashcards-algorithms"}]
+}
+</script>
+
 ### Intuition
 
 Think of searching like finding a word in a dictionary. Linear search is reading every page from the start. Binary search is opening the middle, deciding which half to look in, and repeating -- you eliminate half the remaining options each time, which is why it is so fast.
@@ -39,6 +66,15 @@ Think of searching like finding a word in a dictionary. Linear search is reading
 Sorting is like organising a bookshelf. Bubble sort is comparing adjacent books and swapping them one at a time. Merge sort is splitting the shelf in half, sorting each half separately, then merging them back together. Quick sort is picking one book as a reference and putting all smaller books to its left and larger ones to its right.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Flashcards Algorithms", "url": "https://alevel.wyattau.com/computer-science/flashcards-algorithms"}]
+}
+</script>
 
 ### Common Pitfalls
 
@@ -48,6 +84,15 @@ Sorting is like organising a bookshelf. Bubble sort is comparing adjacent books 
 4. **Confusing stable and unstable sorts.** A stable sort preserves the relative order of equal elements. Bubble sort and merge sort are stable; quick sort and heap sort are not.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Flashcards Algorithms", "url": "https://alevel.wyattau.com/computer-science/flashcards-algorithms"}]
+}
+</script>
 
 
 <FlashcardDeck client:only="solid-js" deckId="alevel-cs-algorithms" title="A-Level CS -- Algorithms" description="Searching, sorting, graph algorithms and complexity analysis" cards={[...flashcards1, ...flashcards2, ...flashcards3, ...flashcards4]} />

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Physics", "url": "https://leaving-cert.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://leaving-cert.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 title: "Mechanics -- Diagnostic Tests"
 description: "QUALIFICATIONS Ilc notes: Mechanics -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Physics", "url": "https://leaving-cert.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://leaving-cert.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 
 # Mechanics -- Diagnostic Tests
 
@@ -65,6 +83,15 @@ direction is changing. Example: a car travelling at constant speed around a circ
 constant speed but changing velocity because its direction is continuously changing.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Physics", "url": "https://leaving-cert.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://leaving-cert.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 
 ### UT-2: Forces and Newton"s Laws
 
@@ -133,6 +160,15 @@ why it takes more force to start an object moving than to keep it moving.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Physics", "url": "https://leaving-cert.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://leaving-cert.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
+
 ### UT-3: Work, Energy, and Power
 
 **Question:**
@@ -186,6 +222,15 @@ On the opposite side, by conservation of energy, the bob reaches the same height
 resistance): **$0.8\,\text{m}$** above the lowest point.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Physics", "url": "https://leaving-cert.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://leaving-cert.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -259,6 +304,15 @@ orbit. This is the same principle as an object in free fall at constant speed (i
 resistance).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Physics", "url": "https://leaving-cert.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://leaving-cert.wyattau.com/physics/diagnostics/diag-mechanics"}]
+}
+</script>
 
 ### IT-2: Forces, Energy, and Momentum
 

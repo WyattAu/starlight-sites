@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "8_rings", "url": "https://mathematics.wyattau.com/1-abstract-algebra/8_rings"}]
+}
+</script>
 title: Rings
 tags:
   - Mathematics
   - University
 description: 'A is a set with two binary operations satisfying: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "8_rings", "url": "https://mathematics.wyattau.com/1-abstract-algebra/8_rings"}]
+}
+</script>
 
 ### 8.1 Definition of a Ring
 

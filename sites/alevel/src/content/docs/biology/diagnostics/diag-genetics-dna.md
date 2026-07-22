@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics Dna", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-genetics-dna"}]
+}
+</script>
 title: "Genetics and DNA -- Diagnostic Tests"
 description: "A-Level Biology Genetics and DNA -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics Dna", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-genetics-dna"}]
+}
+</script>
 
 
 ## Intuition
@@ -93,6 +111,15 @@ and replaced with DNA, and the gaps are sealed by DNA ligase.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics Dna", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-genetics-dna"}]
+}
+</script>
+
 ### UT-2: Epistasis and Complex Inheritance Patterns
 
 **Question:**
@@ -181,6 +208,15 @@ also complicates genetic counselling and pedigree analysis, as the expected Mend
 modified.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics Dna", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-genetics-dna"}]
+}
+</script>
 
 ### UT-3: PCR, Gel Electrophoresis, and Genetic Engineering
 
@@ -278,6 +314,15 @@ size vs distance migrated) can be plotted, and the sizes of unknown fragments re
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics Dna", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-genetics-dna"}]
+}
+</script>
+
 ## Integration Tests
 
 ### IT-1: Protein Synthesis and Mutation Effects (with Biological Molecules and Cells)
@@ -357,6 +402,15 @@ effects of mutations — not all substitutions alter the primary structure of th
 therefore not all substitutions affect protein function.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics Dna", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-genetics-dna"}]
+}
+</script>
 
 ### IT-2: Sex Linkage and Chi-Squared Test (with Biodiversity and Classification)
 
@@ -452,6 +506,15 @@ chromosomes, so recessive alleles on one X can be masked by dominant alleles on 
    the allele is rare), X-linked recessive conditions are far more common in males.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics Dna", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-genetics-dna"}]
+}
+</script>
 
 ### IT-3: Gene Technology and Ethical Considerations (with Cells and Exchange and Transport)
 

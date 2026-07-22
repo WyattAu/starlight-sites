@@ -1,5 +1,14 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "Index", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/index"}]
+}
+</script>
+
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -26,6 +35,15 @@
 title: Further Mechanics
 description: 'A-Level Further Maths Further Mechanics notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "Index", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/index"}]
+}
+</script>
 
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">

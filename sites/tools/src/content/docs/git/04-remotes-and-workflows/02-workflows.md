@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "02 Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/02-workflows"}]
+}
+</script>
 title: Branching Strategies
 description: "Choosing the right branching strategy for your team."
 date: 2025-06-03T07:00:00.000Z
@@ -9,6 +18,15 @@ tags:
 categories:
   - CS
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "02 Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/02-workflows"}]
+}
+</script>
 
 ## Choosing a Branching Strategy
 
@@ -363,6 +381,15 @@ linked above.
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "02 Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/02-workflows"}]
+}
+</script>
 
 ## Cross-References
 

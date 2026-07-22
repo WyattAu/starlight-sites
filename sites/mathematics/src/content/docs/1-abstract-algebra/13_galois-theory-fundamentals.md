@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "13_galois Theory Fundamentals", "url": "https://mathematics.wyattau.com/1-abstract-algebra/13_galois-theory-fundamentals"}]
+}
+</script>
 title: Galois Theory Fundamentals
 tags:
   - Mathematics
   - University
 description: 'Let be a field extension. An - of is an automorphism That fixes pointwise (i.e., Comprehensive educational content coverage with definitions and practice proble'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "13_galois Theory Fundamentals", "url": "https://mathematics.wyattau.com/1-abstract-algebra/13_galois-theory-fundamentals"}]
+}
+</script>
 
 ### 13.1 Automorphisms and the Galois Group
 

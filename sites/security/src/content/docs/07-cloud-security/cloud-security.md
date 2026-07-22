@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "07 Cloud Security", "url": "https://security.wyattau.com/07-cloud-security"}, {"name": "Cloud Security", "url": "https://security.wyattau.com/07-cloud-security/cloud-security"}]
+}
+</script>
 title: Cloud Security
 description: "Cloud security is governed by a shared responsibility model. The division of responsibility between The cloud provider and the customer depends on the"
 date: 2026-04-08T00:00:00.000Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - Security
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "07 Cloud Security", "url": "https://security.wyattau.com/07-cloud-security"}, {"name": "Cloud Security", "url": "https://security.wyattau.com/07-cloud-security/cloud-security"}]
+}
+</script>
 
 ## Shared Responsibility Model
 

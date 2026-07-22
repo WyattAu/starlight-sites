@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://highers.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://highers.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 title: Cell Biology
 description: "Scottish Highers Cell Biology notes covering key definitions, core concepts, worked examples, and practice questions for detailed exam preparation and revision."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://highers.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://highers.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 
 # Cell Biology
 
@@ -167,6 +185,15 @@ $\psi_s = -(1)(0.2)(0.0083)(293) = -0.486$ kPa.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://highers.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://highers.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
+
 ## Cell Division
 
 ### Mitosis
@@ -245,6 +272,15 @@ Are genetically different (due to crossing over and independent assortment).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://highers.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://highers.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
+
 ## Microscopy
 
 ### Light Microscopy
@@ -289,6 +325,15 @@ Magnification = $5000 / 10 = \times 500$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://highers.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://highers.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Confusing mitosis and meiosis:** Mitosis produces 2 identical diploid cells; meiosis produces 4
@@ -322,6 +367,15 @@ Magnification = $5000 / 10 = \times 500$.
     cycle and includes DNA replication. Mitosis is only the division phase.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://highers.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://highers.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 
 ## Practice Questions
 

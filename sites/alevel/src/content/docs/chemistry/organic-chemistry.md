@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}]
+}
+</script>
 title: Organic Chemistry
 description: "Organic chemistry is the study of carbon-containing compounds and their reactions."
 date: 2026-04-21T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}]
+}
+</script>
 
 # Organic Chemistry
 
@@ -900,6 +918,15 @@ corresponding alcohol.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 questions within the A-Level specification for this topic, each with a full worked solution.

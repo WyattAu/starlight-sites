@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "09 Jvm Internals", "url": "https://languages.wyattau.com/java/09-jvm-internals"}, {"name": "03 Garbage Collection", "url": "https://languages.wyattau.com/java/09-jvm-internals/03-garbage-collection"}]
+}
+</script>
 title: Garbage Collection
 description: "An object is garbage when it is no longer reachable from any live thread through any chain of References. The JVM determines this through , starting from a"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "09 Jvm Internals", "url": "https://languages.wyattau.com/java/09-jvm-internals"}, {"name": "03 Garbage Collection", "url": "https://languages.wyattau.com/java/09-jvm-internals/03-garbage-collection"}]
+}
+</script>
 
 ## GC Fundamentals
 

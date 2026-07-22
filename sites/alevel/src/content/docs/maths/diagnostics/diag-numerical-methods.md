@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Numerical Methods", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-numerical-methods"}]
+}
+</script>
 title: "Numerical Methods -- Diagnostic Tests"
 description: "A-Level Maths Numerical Methods -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Numerical Methods", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-numerical-methods"}]
+}
+</script>
 
 
 ## Intuition
@@ -87,6 +105,15 @@ This converges rapidly to the root.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Numerical Methods", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-numerical-methods"}]
+}
+</script>
+
 ### UT-2: Fixed-Point Iteration Convergence Criterion
 
 **Question:**
@@ -150,6 +177,15 @@ $$x_3 = 81 - 3 + 9 = 87$$
 diverging.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Numerical Methods", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-numerical-methods"}]
+}
+</script>
 
 ### UT-3: Trapezium Rule — Overestimate vs Underestimate
 
@@ -223,6 +259,15 @@ For practical purposes, approximately $n = 100$ strips would be needed to achiev
 $0.001$ for this integral.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Numerical Methods", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-numerical-methods"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -308,6 +353,15 @@ root.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Numerical Methods", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-numerical-methods"}]
+}
+</script>
+
 ### IT-2: Solving $\cos x = x$ Numerically (with Trigonometry)
 
 **Question:**
@@ -392,6 +446,15 @@ iterations for fixed-point iteration. Newton-Raphson has quadratic convergence w
 linear convergence in this case.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Numerical Methods", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-numerical-methods"}]
+}
+</script>
 
 ### IT-3: Estimating $\int_0^1 e^{-x^2}\, dx$ Using the Trapezium Rule (with Integration)
 

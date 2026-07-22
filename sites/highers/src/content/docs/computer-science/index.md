@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "Index", "url": "https://highers.wyattau.com/computer-science/index"}]
+}
+</script>
 title: Scottish Highers Computer Science
 description: "Higher Computer Science covers hardware, software development, databases, algorithms, and web technologies. The course combines theoretical understanding"
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-computer-science
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "Index", "url": "https://highers.wyattau.com/computer-science/index"}]
+}
+</script>
 
 # Scottish Highers Computer Science
 

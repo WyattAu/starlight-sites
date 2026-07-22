@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "2_build_system", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system"}, {"name": "1_cmake_targets_properties_generator", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator"}]
+}
+</script>
 title: CMake Targets Properties and Generator Expressions
 description: "Legacy CMake (versions pre-3.0) relied on global state variables and directory-scope commands (e.g., ). This approach prevents modularity and leaks"
 date: 2025-12-10T05:41:36.284Z
@@ -8,6 +17,15 @@ categories:
   - cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "2_build_system", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system"}, {"name": "1_cmake_targets_properties_generator", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator"}]
+}
+</script>
 
 Legacy CMake (versions pre-3.0) relied on global state variables and directory-scope commands (e.g.,
 `include_directories``add_definitions`). This approach prevents modularity and leaks compilation
@@ -73,6 +91,15 @@ target_include_directories(Engine
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "2_build_system", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system"}, {"name": "1_cmake_targets_properties_generator", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator"}]
+}
+</script>
+
 ## Target Properties
 
 Properties define how a target is built. Instead of modifying global flags (`CMAKE_CXX_FLAGS`),
@@ -112,6 +139,15 @@ set_target_properties(Engine PROPERTIES
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "2_build_system", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system"}, {"name": "1_cmake_targets_properties_generator", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator"}]
+}
+</script>
 
 ## Generator Expressions
 
@@ -162,6 +198,15 @@ target_include_directories(Engine PUBLIC
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "2_build_system", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system"}, {"name": "1_cmake_targets_properties_generator", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator"}]
+}
+</script>
 
 ## Architectural Example: A Complete Module
 

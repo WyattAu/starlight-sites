@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Matrices", "url": "https://ib.wyattau.com/maths/diagnostics/diag-matrices"}]
+}
+</script>
 title: "Matrices -- Diagnostic Tests"
 description: "IB Maths Matrices -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Matrices", "url": "https://ib.wyattau.com/maths/diagnostics/diag-matrices"}]
+}
+</script>
 
 # Matrices — Diagnostic Tests
 
@@ -70,6 +88,15 @@ one-parameter family of matrices commuting with $A$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Matrices", "url": "https://ib.wyattau.com/maths/diagnostics/diag-matrices"}]
+}
+</script>
+
 ### UT-2: 3x3 Eigenvalues with Complex Roots
 
 **Question:**
@@ -113,6 +140,15 @@ the number of eigenvalues (counting multiplicity). Here $\lambda = 2$ has algebr
 but geometric multiplicity $1$. The matrix is **defective** — it cannot be diagonalised.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Matrices", "url": "https://ib.wyattau.com/maths/diagnostics/diag-matrices"}]
+}
+</script>
 
 ## Integration Tests
 

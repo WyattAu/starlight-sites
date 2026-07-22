@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Current Resistance", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-current-resistance"}]
+}
+</script>
 title: "Current and Resistance -- Diagnostic Tests"
 description: "A-Level Physics Current and Resistance -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Current Resistance", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-current-resistance"}]
+}
+</script>
 
 
 ## Intuition
@@ -56,6 +74,15 @@ around $2800\,\text{K}$Much higher than room temperature.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Current Resistance", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-current-resistance"}]
+}
+</script>
+
 ### UT-2: Resistivity and Temperature Dependence
 
 **Question:**
@@ -90,6 +117,15 @@ $$6.50 = 5.00[1 + 0.00200(T_3 - 20)]$$ $$1 + 0.00200(T_3 - 20) = 1.300$$
 $$0.00200(T_3 - 20) = 0.300$$ $$T_3 = 170^\circ\text{C}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Current Resistance", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-current-resistance"}]
+}
+</script>
 
 ### UT-3: Semiconductor Diode I-V Characteristic
 
@@ -197,6 +233,15 @@ without additional circuitry to control the operating point.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Current Resistance", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-current-resistance"}]
+}
+</script>
+
 ### IT-2: Resistivity Experiment Error Analysis (with Quantities and Units)
 
 **Question:**
@@ -248,6 +293,15 @@ uncertainty in diameter from $1.0\%$ to $0.60\%$And since diameter enters as $d^
 $2 \times 0.40\% = 0.80\%$ improvement.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Current Resistance", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-current-resistance"}]
+}
+</script>
 
 ### IT-3: Power Dissipation in a Transmission Line (with Work-Energy)
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "5_forces And Momentum", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/5_forces-and-momentum"}]
+}
+</script>
 title: Forces and Momentums
 description: "Rigorous IB physics notes covering Forces and Momentums. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "5_forces And Momentum", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/5_forces-and-momentum"}]
+}
+</script>
 
 ## motion
 
@@ -468,6 +486,15 @@ The muon "explain" its ability to reach the ground?
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "5_forces And Momentum", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/5_forces-and-momentum"}]
+}
+</script>
+
 ## Worked Example: Connected Bodies on a Frictionless Surface
 
 **Problem:** Two blocks, $m_1 = 3.0$ kg and $m_2 = 5.0$ kg, are connected by a light inextensible
@@ -486,6 +513,15 @@ $a = \frac{m_2 g}{m_1 + m_2} = \frac{(5.0)(9.8)}{3.0 + 5.0} = \frac{49}{8.0} = 6
 Tension: $T = m_1 a = (3.0)(6.13) = 18.4$ N.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "5_forces And Momentum", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/5_forces-and-momentum"}]
+}
+</script>
 
 ## Worked Example: Inclined Plane with Friction
 
@@ -517,6 +553,15 @@ Down the incline.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "5_forces And Momentum", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/5_forces-and-momentum"}]
+}
+</script>
+
 ## Worked Example: Torque and Rotational Equilibrium
 
 **Problem:** A uniform beam of mass 10 kg and length 4.0 m is pivoted at its left end. A load of 15
@@ -544,6 +589,15 @@ $R_{\mathrm{pivot}} + 212.3 = 98 + 147 = 245$ $R_{\mathrm{pivot}} = 32.7$ N (upw
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "5_forces And Momentum", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/5_forces-and-momentum"}]
+}
+</script>
+
 ## Angular Momentum Conservation: Extended Analysis
 
 The law of conservation of angular momentum states that when no net external torque acts on a
@@ -567,6 +621,15 @@ However, internal forces **can** change the rotational kinetic energy (as seen i
 Where $E_k$ increased).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "5_forces And Momentum", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/5_forces-and-momentum"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -592,6 +655,15 @@ Where $E_k$ increased).
    planet for orbital motion. Do not use it for objects on the surface (unless explicitly stated).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "5_forces And Momentum", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/5_forces-and-momentum"}]
+}
+</script>
 
 ## Problem Set
 
@@ -731,6 +803,15 @@ $a = \frac{5}{7}g\sin\theta$.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "5_forces And Momentum", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/5_forces-and-momentum"}]
+}
+</script>
 
 ## Related Content at Other Levels
 

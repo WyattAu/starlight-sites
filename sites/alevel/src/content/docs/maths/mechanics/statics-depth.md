@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/maths/mechanics"}, {"name": "Statics Depth", "url": "https://alevel.wyattau.com/maths/mechanics/statics-depth"}]
+}
+</script>
 title: Statics (Extended)
 description: "This document covers moments, equilibrium conditions, centres of mass, ladder problems, and Frameworks with a rigorous, proof-based approach."
 date: 2026-04-23T00:00:00.000Z
@@ -6,6 +15,15 @@ tags: [Mathematics, ALevel]
 categories: [Mathematics]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/maths/mechanics"}, {"name": "Statics Depth", "url": "https://alevel.wyattau.com/maths/mechanics/statics-depth"}]
+}
+</script>
 
 ## Statics (Extended Treatment)
 

@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Algebra", "url": "https://sat.wyattau.com/mathematics/algebra"}]
+}
+</script>
 title: "Algebra"
 description: "SAT mathematics: Algebra"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Algebra", "url": "https://sat.wyattau.com/mathematics/algebra"}]
+}
+</script>
 
 # Algebra
 
@@ -42,6 +60,15 @@ Step 3: The answer is 44 — recognising the relationship avoids recalculating f
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Algebra", "url": "https://sat.wyattau.com/mathematics/algebra"}]
+}
+</script>
+
 ### Example 2: Quadratic with Discriminant
 
 **Problem:** How many real solutions does $2x^2 - 3x + 5 = 0$ have?
@@ -54,6 +81,15 @@ Step 3: Since $\Delta < 0$, there are no real solutions.
 **Key insight:** You don't need to find the solutions — just the discriminant tells you the count.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Algebra", "url": "https://sat.wyattau.com/mathematics/algebra"}]
+}
+</script>
 
 ### Example 3: System by Elimination
 
@@ -68,6 +104,15 @@ Step 4: Check: $3(4) + 2(0) = 12$ ✓ and $4 - 2(0) = 4$ ✓
 **Key insight:** Elimination works best when one variable has opposite coefficients — add the equations to cancel it.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Algebra", "url": "https://sat.wyattau.com/mathematics/algebra"}]
+}
+</script>
 
 ## Practice Problems
 

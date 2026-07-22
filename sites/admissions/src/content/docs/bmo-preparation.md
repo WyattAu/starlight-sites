@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
 title: BMO Preparation
 description: "University Admissions BMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
 date: 2026-05-05T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Mathematics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
 
 ## 1. Overview of the BMO
 
@@ -44,6 +62,15 @@ out of 40 is excellent.
 - Rigour matters: a correct idea with a logical gap may score significantly less than full marks.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
 
 ## 2. Number Theory
 
@@ -96,6 +123,15 @@ Within the bound.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
+
 ## 3. Combinatorics
 
 ### 3.1 Counting Principles
@@ -136,6 +172,15 @@ Counts ordered pairs of an $A$-object and a $B$-object with total weight $n$.
 $(1+x)^{\alpha} = \sum_{k=0}^{\infty} \binom{\alpha}{k} x^k$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
 
 ## 4. Algebra
 
@@ -186,6 +231,15 @@ Continuity is $f(x) = cx$. Without regularity conditions, pathological solutions
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
+
 ## 5. Geometry
 
 ### 5.1 Circle Theorems
@@ -223,6 +277,15 @@ lies on all three medians by symmetry.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
+
 ## 6. Worked Questions
 
 ### Question 1 (Number Theory: Divisibility)
@@ -244,6 +307,15 @@ Since $\gcd(6, 5) = 1$ and both divide $n^5 - n$We conclude $30 \mid (n^5 - n)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
+
 ### Question 2 (Number Theory: Primes)
 
 > Prove that there are infinitely many primes of the form $4k + 3$.
@@ -263,6 +335,15 @@ This contradicts the assumption that $p_1, \ldots, p_n$ are all primes of the fo
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
+
 ### Question 3 (Combinatorics: Pigeonhole Principle)
 
 > Show that among any $n + 1$ integers, there exist two whose difference is divisible by $n$.
@@ -274,6 +355,15 @@ By the pigeonhole principle, since we have $n + 1$ integers and $n$ residue clas
 Integers share the same residue. If these are $a$ and $b$Then $n \mid (a - b)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
 
 ### Question 4 (Algebra: Functional Equations)
 
@@ -313,6 +403,15 @@ Verification: $f(x^2 + y) = x^2 + y = x^2 + y = f(x)^2 + f(y)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
+
 ### Question 5 (Combinatorics: Counting)
 
 > In a regular $2n$-gon, some diagonals are drawn such that no two diagonals intersect in the
@@ -331,6 +430,15 @@ This gives $3d + 3 \leq 2n + 2d$So $d \leq 2n - 3$.
 This bound is achieved by any triangulation of the $2n$-gon, which uses exactly $2n - 3$ diagonals.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
 
 ### Question 6 (Geometry: Angle Chase)
 
@@ -392,6 +500,15 @@ $\angle BNC = \angle BAC$ from cyclicity, The desired angle equality follows.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
+
 ## 7. Proof Techniques
 
 ### 7.1 Proof by Contradiction
@@ -431,6 +548,15 @@ Identities.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
+
 ## Intuition
 
 Think of BMO preparation like training for a marathon. You would not expect to run a race without building stamina through daily practice, and the same applies to mathematical problem-solving. Each past paper you attempt is a training run: some days feel easy, other days you hit a wall. The key is consistent effort over months, not cramming in the final week.
@@ -463,6 +589,15 @@ Original equation and prove uniqueness.
 Inclusion-exclusion or complementary counting.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
+}
+</script>
 
 ## 9. Exam Strategy
 

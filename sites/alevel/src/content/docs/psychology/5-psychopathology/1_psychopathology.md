@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Psychology", "url": "https://alevel.wyattau.com/psychology"}, {"name": "5 Psychopathology", "url": "https://alevel.wyattau.com/psychology/5-psychopathology"}, {"name": "1_psychopathology", "url": "https://alevel.wyattau.com/psychology/5-psychopathology/1_psychopathology"}]
+}
+</script>
 title: Psychopathology
 date: 2026-05-12T00:00:00.000Z
 tags:
@@ -9,6 +18,15 @@ categories:
 description: "A-Level Psychology Psychopathology notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Psychology", "url": "https://alevel.wyattau.com/psychology"}, {"name": "5 Psychopathology", "url": "https://alevel.wyattau.com/psychology/5-psychopathology"}, {"name": "1_psychopathology", "url": "https://alevel.wyattau.com/psychology/5-psychopathology/1_psychopathology"}]
+}
+</script>
 
 # Psychopathology
 

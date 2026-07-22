@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "5 Statistics", "url": "https://highers.wyattau.com/maths/5-statistics"}, {"name": "5_statistics", "url": "https://highers.wyattau.com/maths/5-statistics/5_statistics"}]
+}
+</script>
 title: Statistics and Probability
 description: "Scottish Highers Maths Statistics and Probability notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "5 Statistics", "url": "https://highers.wyattau.com/maths/5-statistics"}, {"name": "5_statistics", "url": "https://highers.wyattau.com/maths/5-statistics/5_statistics"}]
+}
+</script>
 
 # Statistics and Probability
 
@@ -399,6 +417,15 @@ There is a very strong positive linear correlation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "5 Statistics", "url": "https://highers.wyattau.com/maths/5-statistics"}, {"name": "5_statistics", "url": "https://highers.wyattau.com/maths/5-statistics/5_statistics"}]
+}
+</script>
+
 ## Advanced Higher Statistics
 
 ### Probability Distributions
@@ -643,6 +670,15 @@ Regression on $x$. The remaining 15% is due to other factors or random variation
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "5 Statistics", "url": "https://highers.wyattau.com/maths/5-statistics"}, {"name": "5_statistics", "url": "https://highers.wyattau.com/maths/5-statistics/5_statistics"}]
+}
+</script>
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.
@@ -692,6 +728,15 @@ See the examples integrated throughout the sections above.
    of the test.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "5 Statistics", "url": "https://highers.wyattau.com/maths/5-statistics"}, {"name": "5_statistics", "url": "https://highers.wyattau.com/maths/5-statistics/5_statistics"}]
+}
+</script>
 
 ## Practice Questions
 

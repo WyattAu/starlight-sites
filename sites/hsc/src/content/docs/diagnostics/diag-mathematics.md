@@ -1,15 +1,42 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 title: "Diagnostic Test: Mathematics"
 description: "Self-assessment quiz on HSC Mathematics"
 sidebar_position: 60
 tableOfContents: false
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
 # Diagnostic Test: Mathematics
 
 10 multiple-choice questions covering algebra, calculus, trigonometry, probability, and statistics. Select the best answer for each question, then check your score using the answer key below.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 
 **Question 1.** Solve for $x$: $3x - 7 = 2x + 5$.
 
@@ -20,6 +47,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
 **Question 2.** What is the value of $\\displaystyle\\lim_{x \\to 3} \\dfrac{x^2 - 9}{x - 3}$?
 
 (A) 0
@@ -28,6 +64,15 @@ tableOfContents: false
 (D) Undefined
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 
 **Question 3.** If $\\tan \\theta = \\dfrac{5}{12}$ and $\\theta$ is acute, what is $\\sin \\theta$?
 
@@ -38,6 +83,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
 **Question 4.** A coin is flipped 3 times. What is the probability of getting exactly 2 heads?
 
 (A) $\\dfrac{1}{2}$
@@ -46,6 +100,15 @@ tableOfContents: false
 (D) $\\dfrac{1}{8}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 
 **Question 5.** The gradient of the curve $y = x^3 - 2x$ at $x = 1$ is:
 
@@ -56,6 +119,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
 **Question 6.** Which of the following is the derivative of $y = \\ln(2x)$?
 
 (A) $\\dfrac{1}{2x}$
@@ -64,6 +136,15 @@ tableOfContents: false
 (D) $\\dfrac{x}{2}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 
 **Question 7.** The median of the data set $\\{2, 5, 8, 3, 7\\}$ is:
 
@@ -74,6 +155,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
 **Question 8.** Simplify: $\\dfrac{x^2 - 4}{x + 2}$.
 
 (A) $x - 2$, $x \\neq -2$
@@ -82,6 +172,15 @@ tableOfContents: false
 (D) $x - 4$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 
 **Question 9.** What is the exact value of $\\sin\\left(\\dfrac{\\pi}{6}\\right)$?
 
@@ -92,6 +191,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
 **Question 10.** If events $A$ and $B$ are mutually exclusive with $P(A) = 0.3$ and $P(B) = 0.5$, then $P(A \\cup B)$ is:
 
 (A) 0.15
@@ -100,6 +208,15 @@ tableOfContents: false
 (D) 0.85
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 
 ## Answer Key
 

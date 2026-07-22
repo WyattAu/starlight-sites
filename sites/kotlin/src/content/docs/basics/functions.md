@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "kotlin", "url": "https://kotlin.wyattau.com"}, {"name": "Basics", "url": "https://kotlin.wyattau.com/basics"}, {"name": "Functions", "url": "https://kotlin.wyattau.com/basics/functions"}]
+}
+</script>
 title: Functions
 description: "Kotlin uses the keyword. The return type follows the parameter list, separated b Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18
@@ -7,6 +16,15 @@ tags:
 categories:
   - Kotlin
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "kotlin", "url": "https://kotlin.wyattau.com"}, {"name": "Basics", "url": "https://kotlin.wyattau.com/basics"}, {"name": "Functions", "url": "https://kotlin.wyattau.com/basics/functions"}]
+}
+</script>
 
 ## Function Declarations
 

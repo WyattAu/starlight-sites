@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
+}
+</script>
 title: Contemporary Urban Environments
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]
 description: "A-Level Geography Contemporary Urban Environments notes covering key definitions, core concepts, worked examples, and practice questions for clear revision."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
+}
+</script>
 
 # Contemporary Urban Environments
 
@@ -19,6 +37,15 @@ quality of life for the majority of humanity now depends on how cities are desig
 governed.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
+}
+</script>
 
 ## Key Concepts and Definitions
 
@@ -41,6 +68,15 @@ governed.
 | **Deprivation**                   | A lack of resources (income, housing, services, opportunities) relative to the wider society                                       |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
+}
+</script>
 
 ## Urbanisation
 
@@ -86,6 +122,15 @@ Dhaka, Lagos, and Kinshasa are among the fastest-growing.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
+}
+</script>
+
 ## Urban Forms and Settlement Patterns
 
 ### Models of Urban Structure
@@ -112,6 +157,15 @@ Dhaka, Lagos, and Kinshasa are among the fastest-growing.
   growth
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
+}
+</script>
 
 ## Social Segregation
 
@@ -150,6 +204,15 @@ considered high segregation. For example, in some UK cities, the Index of Dissim
 white British and South Asian populations exceeds 60 at the ward level.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
+}
+</script>
 
 ## Urban Climate
 
@@ -207,6 +270,15 @@ Clean Air Act 1956, introducing smokeless zones and taller chimneys.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
+}
+</script>
+
 ## Waste Management
 
 ### Urban Waste Challenges
@@ -250,6 +322,15 @@ Bank).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
+}
+</script>
+
 ## Sustainable Urban Development
 
 ### Principles of Sustainable Cities
@@ -287,6 +368,15 @@ future generations to meet their own needs. Key dimensions:
 - Sustainable urban drainage systems (SuDS) to manage surface water
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
+}
+</script>
 
 ## Case Studies
 
@@ -348,6 +438,15 @@ on sustained political leadership over decades.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
+}
+</script>
+
 ## Intuition
 
 A city is a living organism with its own metabolism. It breathes in food, water, and energy, and breathes out waste, pollution, and heat. The urban heat island effect is the city running a fever — concrete and asphalt absorb heat like a storage radiator, while tall buildings trap it like walls around a bonfire. Social segregation is the city's circulatory system, carrying wealth to some neighbourhoods and starving others. Curitiba shows what happens when a city is designed thoughtfully — its bus system works like arteries, efficiently moving people where they need to go. But most cities grew organically, like tumors, and their challenges are the growing pains of unplanned growth.
@@ -370,6 +469,15 @@ A city is a living organism with its own metabolism. It breathes in food, water,
    trade-offs (e.g., green policies that increase costs for lower-income residents)?
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -434,6 +542,15 @@ nights.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
+}
+</script>
+
 ## Summary
 
 - Urbanisation is a global trend, with the majority of humanity now living in cities; growth is
@@ -452,6 +569,15 @@ nights.
   and benefits.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
+}
+</script>
 
 > **Sources**: AQA Geography (7037) specification; UN-Habitat, _World Cities Report_ (2022); Hall,
 > _The World Cities_ (1984); Greater London Authority data; ITDP (Institute for Transportation and

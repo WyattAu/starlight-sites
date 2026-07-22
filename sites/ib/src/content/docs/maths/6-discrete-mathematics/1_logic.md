@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "6 Discrete Mathematics", "url": "https://ib.wyattau.com/maths/6-discrete-mathematics"}, {"name": "1_logic", "url": "https://ib.wyattau.com/maths/6-discrete-mathematics/1_logic"}]
+}
+</script>
 title: Logic
 description: "Rigorous IB mathematics notes covering Logic. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "6 Discrete Mathematics", "url": "https://ib.wyattau.com/maths/6-discrete-mathematics"}, {"name": "1_logic", "url": "https://ib.wyattau.com/maths/6-discrete-mathematics/1_logic"}]
+}
+</script>
 
 # The Logic Of Arguments
 
@@ -842,6 +860,15 @@ linked above.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "6 Discrete Mathematics", "url": "https://ib.wyattau.com/maths/6-discrete-mathematics"}, {"name": "1_logic", "url": "https://ib.wyattau.com/maths/6-discrete-mathematics/1_logic"}]
+}
+</script>
+
 ## Cross-References
 
 - [Boolean Logic](/docs/ib/computer-science/4-computational-thinking/1_boolean-logic) applies logical reasoning to digital circuits and computer science contexts.
@@ -849,6 +876,15 @@ linked above.
 - [Algorithms and Data Structures](/docs/ib/computer-science/4-computational-thinking/2_algorithms-and-data-structures) uses logical reasoning to design and analyse algorithmic solutions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "6 Discrete Mathematics", "url": "https://ib.wyattau.com/maths/6-discrete-mathematics"}, {"name": "1_logic", "url": "https://ib.wyattau.com/maths/6-discrete-mathematics/1_logic"}]
+}
+</script>
 
 ## Intuition
 

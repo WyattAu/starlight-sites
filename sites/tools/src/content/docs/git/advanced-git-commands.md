@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
 title: Advanced Git Commands
 description: "Git Advanced Git Commands notes covering key definitions, core concepts, worked examples, and practice questions for effective study and examination practice."
 date: 2026-04-07T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Git
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
 
 This document covers Git commands and features that are powerful but less frequently used in
 Day-to-day workflows. These tools solve specific problems around metadata, history manipulation,
@@ -197,6 +215,15 @@ Your team before pushing replacement refs.
 | `git filter-branch`   | Rewrites object store     | Permanent         | Yes               |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
 
 ## git notes
 
@@ -427,6 +454,15 @@ Metadata.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
+
 ## git describe
 
 ### Overview
@@ -592,6 +628,15 @@ Release identification.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
 
 ## .gitattributes
 
@@ -890,6 +935,15 @@ $ git commit -m "Normalize line endings per .gitattributes"
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
+
 ## .gitmodules
 
 ### Overview
@@ -998,6 +1052,15 @@ Repository. Always follow the full removal procedure.
 | Submodule at wrong commit                        | `cd libs/repo && git checkout <commit>` then `cd ../.. && git add libs/repo`          |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
 
 ## git bundle
 
@@ -1139,6 +1202,15 @@ Use `git bundle create repo.bundle --all --reflog`.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
 
 ## git worktree
 
@@ -1316,6 +1388,15 @@ Up. The branch that was checked out in the deleted worktree may remain locked un
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
+
 ## git reflog
 
 ### Overview
@@ -1462,6 +1543,15 @@ $ git gc --prune=now --dry-run
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
+
 ## git fsck
 
 ### Overview
@@ -1588,6 +1678,15 @@ From disk failure), restore from backup before attempting Git-level repairs.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
+
 ## git rerere
 
 ### Overview
@@ -1707,6 +1806,15 @@ Manually. The resolution is then recorded for future use.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
+
 ## git format-patch and git am
 
 ### Overview
@@ -1759,6 +1867,15 @@ populates the request context with user information.
 
 Signed-off-by: Jane Developer <jane@example.com>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
  src/middleware/auth.go | 87 +++++++++++++++++++++++++++++++
  tests/auth_test.go     | 45 +++++++++++++++
  2 files changed, 132 insertions(+)
@@ -1877,6 +1994,15 @@ Information (not author) will be different. If you need to preserve exact commit
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
 
 ## git send-email
 
@@ -2015,6 +2141,15 @@ Patch content before sending.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Advanced Git Commands", "url": "https://tools.wyattau.com/git/advanced-git-commands"}]
+}
+</script>
 
 ## Common Pitfalls
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "01 Basics", "url": "https://swift.wyattau.com/01-basics"}, {"name": "1_variables And Types", "url": "https://swift.wyattau.com/01-basics/1_variables-and-types"}]
+}
+</script>
 title: Variables and Types
 description: "Swift distinguishes between (mutable) and (immutable). Prefer over whenever the  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Swift
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "01 Basics", "url": "https://swift.wyattau.com/01-basics"}, {"name": "1_variables And Types", "url": "https://swift.wyattau.com/01-basics/1_variables-and-types"}]
+}
+</script>
 
 ## Variables and Constants
 
@@ -726,6 +744,15 @@ case .failure(let error): print("Error: \(error)")
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "01 Basics", "url": "https://swift.wyattau.com/01-basics"}, {"name": "1_variables And Types", "url": "https://swift.wyattau.com/01-basics/1_variables-and-types"}]
+}
+</script>
+
 ### Example 2: Custom Set Operations
 
 **Problem:** Implement a function that finds the intersection and difference of two arrays, returning unique elements.
@@ -751,6 +778,15 @@ print(onlyInFirst(listA, listB))     // [1, 2] (order may vary)
 **Explanation:** Converting to `Set` enables O(1) lookups. `intersection` finds shared elements, `subtracting` finds elements in the first set but not the second. Converting back to `Array` preserves the original return type convention.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "01 Basics", "url": "https://swift.wyattau.com/01-basics"}, {"name": "1_variables And Types", "url": "https://swift.wyattau.com/01-basics/1_variables-and-types"}]
+}
+</script>
 
 ### Example 3: Enum-Driven UI State
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Genetics Advanced", "url": "https://alevel.wyattau.com/biology/genetics-advanced"}]
+}
+</script>
 title: Advanced Genetics
 description: "occurs when the expression of one gene (the epistatic gene) is affected or masked by one or more independently inherited genes at different loci. This"
 date: 2026-04-18T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Genetics Advanced", "url": "https://alevel.wyattau.com/biology/genetics-advanced"}]
+}
+</script>
 
 ## Advanced Genetics
 
@@ -1166,6 +1184,15 @@ heterozygotes (which are not selected against).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Genetics Advanced", "url": "https://alevel.wyattau.com/biology/genetics-advanced"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 ## 15. DNA Technology: Restriction Fragment Length Polymorphism (RFLP)
 
@@ -2193,6 +2220,15 @@ Where:
 | 6. Conclusion                   | If $\chi^2$ calculated > critical value: reject the null hypothesis (the difference is significant; the observed results do not fit the expected ratio); if $\chi^2$ calculated < critical value: accept the null hypothesis (any difference is due to chance) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Genetics Advanced", "url": "https://alevel.wyattau.com/biology/genetics-advanced"}]
+}
+</script>
 
 
 ## Common Pitfalls

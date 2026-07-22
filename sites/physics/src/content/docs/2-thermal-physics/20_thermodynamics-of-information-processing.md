@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "20_thermodynamics Of Information Processing", "url": "https://physics.wyattau.com/2-thermal-physics/20_thermodynamics-of-information-processing"}]
+}
+</script>
 title: Thermodynamics of Information Processing
 tags:
   - Physics
   - University
 description: "The minimum energy dissipation per irreversible bit operation depends on the phy Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "20_thermodynamics Of Information Processing", "url": "https://physics.wyattau.com/2-thermal-physics/20_thermodynamics-of-information-processing"}]
+}
+</script>
 
 ### 20.1 Landauer Bound in Practice
 

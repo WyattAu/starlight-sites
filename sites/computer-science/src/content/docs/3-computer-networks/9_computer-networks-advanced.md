@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Computer Networks", "url": "https://computer-science.wyattau.com/3-computer-networks"}, {"name": "9_computer Networks Advanced", "url": "https://computer-science.wyattau.com/3-computer-networks/9_computer-networks-advanced"}]
+}
+</script>
 title: Computer Networks (Advanced)
 description: "Advanced computer networks topics including routing protocols."
 date: 2026-05-06T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Computing
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Computer Networks", "url": "https://computer-science.wyattau.com/3-computer-networks"}, {"name": "9_computer Networks Advanced", "url": "https://computer-science.wyattau.com/3-computer-networks/9_computer-networks-advanced"}]
+}
+</script>
 
 ## 1. Advanced Routing Protocols
 

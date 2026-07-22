@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Cold War", "url": "https://ib.wyattau.com/history/the-cold-war"}]
+}
+</script>
 title: The Cold War
 tags:
   - IB
   - History
 description: "The Cold War was a sustained period of geopolitical tension between the United States and the Soviet Union (USSR) and their respective allies, spanning"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Cold War", "url": "https://ib.wyattau.com/history/the-cold-war"}]
+}
+</script>
 
 ## The Cold War: A Systems-Level Analysis (1945--1991)
 
@@ -22,6 +40,15 @@ Interpretations. This document provides a rigorous, thematic treatment of the ma
 War history, integrating political, economic, military, and diplomatic analysis.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Cold War", "url": "https://ib.wyattau.com/history/the-cold-war"}]
+}
+</script>
 
 ## 1. Origins of the Cold War (1945--1953)
 
@@ -316,6 +343,15 @@ This day.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Cold War", "url": "https://ib.wyattau.com/history/the-cold-war"}]
+}
+</script>
+
 ## 2. Arms Race and Deterrence (1953--1969)
 
 ### 2.1 Nuclear Weapons Development
@@ -525,6 +561,15 @@ Testing underground and refining their arsenals.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Cold War", "url": "https://ib.wyattau.com/history/the-cold-war"}]
+}
+</script>
+
 ## 3. Detente (1969--1979)
 
 ### 3.1 Causes and Rationale of Detente
@@ -672,6 +717,15 @@ Which marked the definitive end of the period of reduced superpower tensions.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Cold War", "url": "https://ib.wyattau.com/history/the-cold-war"}]
+}
+</script>
+
 ## 4. The Second Cold War (1979--1985)
 
 ### 4.1 The Soviet Invasion of Afghanistan
@@ -802,6 +856,15 @@ Communist Party of the Soviet Union in March 1985 would prove to be the pivotal 
 Transformed the dynamics of superpower relations.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Cold War", "url": "https://ib.wyattau.com/history/the-cold-war"}]
+}
+</script>
 
 ## 5. The End of the Cold War (1985--1991)
 
@@ -972,6 +1035,15 @@ Political space for the crisis to manifest as systemic collapse rather than as a
 No single factor alone is sufficient to explain the end of the Cold War.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Cold War", "url": "https://ib.wyattau.com/history/the-cold-war"}]
+}
+</script>
 
 ## 6. Historiography
 

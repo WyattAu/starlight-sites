@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 title: Molecular Biology
 description: "IB Biology — water, carbohydrates, lipids, proteins, enzymes, DNA structure, replication, transcription, and translation."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 
 ## Intuition
 
@@ -41,6 +59,15 @@ Four hydrogen bonds.
 | **Transparency**                                                            | Light penetrates water, allowing photosynthesis in aquatic ecosystems.                                        |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 
 ## 2. Carbohydrates
 
@@ -87,6 +114,15 @@ $\beta$-glucose polymers are straight and form tough structural fibres.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
+
 ## 3. Lipids
 
 ### Triglycerides
@@ -121,6 +157,15 @@ Cholesterol is also a precursor for steroid hormones (testosterone, oestrogen, c
 Salts.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 
 ## 4. Proteins
 
@@ -162,6 +207,15 @@ Causing loss of function. The primary structure (amino acid sequence) is not alt
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
+
 ## 5. Enzymes
 
 ### Nature of Enzymes
@@ -202,6 +256,15 @@ Complementary shape of its **active site** to its **substrate**.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
+
 ## 6. DNA Structure
 
 ### Nucleotide Structure
@@ -241,6 +304,15 @@ Always pairs with a pyrimidine, maintaining a uniform helix width of $\approx 2\
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
+
 ## 7. DNA Replication
 
 ### Semi-Conservative Replication
@@ -277,6 +349,15 @@ of approximately $10^{-9}$ per base Pair per replication.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
+
 ## 8. Transcription
 
 ### Overview
@@ -305,6 +386,15 @@ The primary transcript (**pre-mRNA**) undergoes processing:
   together. Alternative splicing allows one gene to produce multiple protein variants.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 
 ## 9. Translation
 
@@ -345,6 +435,15 @@ A single mRNA can be translated simultaneously by multiple ribosomes, forming a 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - Confusing the **sense** and **template** strands: the template strand is the one used for
@@ -359,6 +458,15 @@ A single mRNA can be translated simultaneously by multiple ribosomes, forming a 
   alternative splicing.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -473,6 +581,15 @@ System (not directly into blood).
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -589,6 +706,15 @@ $1400\;\mathrm{bp}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Confusing the sense and template strands**: the template strand is the one used for
@@ -613,6 +739,15 @@ $1400\;\mathrm{bp}$.
   codes for tryptophan in mitochondria instead of being a stop codon).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -732,6 +867,15 @@ $3.5\;\mathrm{J/(g \cdot ^\circ C)}$), calculate: (a) the mass of water evaporat
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
+
 ## If You Get These Wrong, Revise:
 
 - **Cell division and chromosome structure** --> Review
@@ -745,6 +889,15 @@ $3.5\;\mathrm{J/(g \cdot ^\circ C)}$), calculate: (a) the mass of water evaporat
 - **Evolution and molecular evidence** --> Review [.../4-ecology/1_ecology](../4-ecology/1_ecology)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 
 ## 10. Water Properties in Biological Systems (Extended)
 
@@ -800,6 +953,15 @@ $\Pi = 2 \times C \times 0.0831 \times T$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
+
 ## 11. Lipids in Detail (Extended)
 
 ### Phospholipid Diversity
@@ -847,6 +1009,15 @@ Derived from **arachidonic acid** (a 20-carbon polyunsaturated fatty acid) by th
 - **Leukotrienes**: involved in allergic and inflammatory responses (asthma, anaphylaxis).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 
 ## 12. Protein Chemistry (Extended)
 
@@ -913,6 +1084,15 @@ Connective tissues.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
+
 ## 13. Nucleic Acid Chemistry (Extended)
 
 ### DNA Supercoiling
@@ -952,6 +1132,15 @@ repetitive sequences reanneal fastest; unique sequences slowest.
 | **siRNA** | $\approx 21\;\mathrm{nt}$   | RNA interference (RNAi); triggers degradation of complementary mRNA.                                                                  |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 
 ## Exam-Style Problems (Extended)
 
@@ -1009,6 +1198,15 @@ cholesterol and why omega-3 fatty Acids may be beneficial.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -1252,6 +1450,15 @@ and protein folding (hydrophobic core).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
+
 ## Additional Common Pitfalls
 
 - **Confusing alpha helices and beta sheets**: alpha helices are spiral structures stabilised by
@@ -1270,6 +1477,15 @@ and protein folding (hydrophobic core).
   chains, liquid at room temperature).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 
 ## Additional Exam-Style Problems with Full Solutions
 
@@ -1411,6 +1627,15 @@ microorganisms (bacteria, protozoa) in their digestive tracts that produce cellu
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
+
 ## Cross-References to Related Topics
 
 - **Enzyme kinetics in detail**: Review
@@ -1433,6 +1658,15 @@ microorganisms (bacteria, protozoa) in their digestive tracts that produce cellu
   and transport sugars.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "2 Molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology"}, {"name": "1_molecular Biology", "url": "https://ib.wyattau.com/biology/2-molecular-biology/1_molecular-biology"}]
+}
+</script>
 
 | Topic               | Site    | Link                                                                                   |
 | ------------------- | ------- | -------------------------------------------------------------------------------------- |

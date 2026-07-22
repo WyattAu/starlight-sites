@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Developmental", "url": "https://ib.wyattau.com/psychology/developmental"}, {"name": "_index", "url": "https://ib.wyattau.com/psychology/developmental/_index"}]
+}
+</script>
 title: Developmental Psychology
 description: "This section covers developmental psychology, examining how behaviour changes across the lifespan with a focus on attachment, cognitive development, and"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Developmental", "url": "https://ib.wyattau.com/psychology/developmental"}, {"name": "_index", "url": "https://ib.wyattau.com/psychology/developmental/_index"}]
+}
+</script>
 
 # Developmental Psychology
 

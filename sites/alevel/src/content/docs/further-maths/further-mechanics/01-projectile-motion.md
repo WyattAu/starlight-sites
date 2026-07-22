@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "01 Projectile Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion"}]
+}
+</script>
 title: Projectile Motion
 description: "Projectile motion is the motion of a body launched into the air and subject only to the acceleration Due to gravity. By resolving the initial velocity into"
 date: 2026-04-02T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "01 Projectile Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion"}]
+}
+</script>
 
 
 ## Intuition
@@ -718,6 +736,15 @@ $= \dfrac{x}{\cos 10°} = \dfrac{220.8}{0.9848} \approx 224.2\,\mathrm{m}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "01 Projectile Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion"}]
+}
+</script>
+
 ## 8. Advanced Worked Examples
 
 ### Example 8.1: Projectiles on an inclined plane
@@ -844,6 +871,15 @@ $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "01 Projectile Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion"}]
+}
+</script>
+
 ## 9. Common Pitfalls
 
 | Pitfall                                                                                      | Correct Approach                                                                                      |
@@ -854,6 +890,15 @@ $\blacksquare$
 | Confusing the angle to the horizontal with the angle to the inclined plane                   | On a plane inclined at $\alpha$: angle to the plane $= \theta - \alpha$Angle to horizontal $= \theta$ |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "01 Projectile Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion"}]
+}
+</script>
 
 ## 10. Additional Exam-Style Questions
 
@@ -932,6 +977,15 @@ $\boxed{u \approx 25.9\,\mathrm{m\,s^{-1}}}$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "01 Projectile Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion"}]
+}
+</script>
+
 ## 11. Connections to Other Topics
 
 ### 11.1 Projectiles and circular motion
@@ -952,6 +1006,15 @@ Work-energy principle.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "01 Projectile Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion"}]
+}
+</script>
+
 ## 12. Key Results Summary
 
 | Quantity                                 | Formula                                                                    |
@@ -965,6 +1028,15 @@ Work-energy principle.
 | Speed at any point                       | $v = \sqrt{u^2 - 2gy}$ (energy conservation)                               |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "01 Projectile Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion"}]
+}
+</script>
 
 ## 13. Further Exam-Style Questions
 
@@ -1010,6 +1082,15 @@ $v = \sqrt{u^2 - 2gh}$. $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "01 Projectile Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion"}]
+}
+</script>
+
 ## 14. Advanced Topics
 
 ### 14.1 Projectile with linear air resistance
@@ -1047,6 +1128,15 @@ At constant speed $u$The range is $R = \dfrac{u^2\sin 2\theta}{g}$.
 Two angles give the same range: $\theta$ and $90° - \theta$ (complementary angles).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "01 Projectile Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion"}]
+}
+</script>
 
 ## 15. Further Exam-Style Questions
 
@@ -1118,6 +1208,15 @@ Derived in Example 8.6.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "01 Projectile Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion"}]
+}
+</script>
+
 ## 16. Advanced Topics in Projectile Motion
 
 ### 16.1 Coriolis deflection
@@ -1150,6 +1249,15 @@ Before computers, artillery range tables were computed using numerical integrati
 Of motion. These accounted for air resistance, wind, and the Coriolis effect.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "01 Projectile Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion"}]
+}
+</script>
 
 ## 17. Further Exam-Style Questions
 
@@ -1193,6 +1301,15 @@ $u\sin\theta - gt = 0 \implies t = \dfrac{u\sin\theta}{g}$. $\blacksquare$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "01 Projectile Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion"}]
+}
+</script>
 
 ## Cross-References
 

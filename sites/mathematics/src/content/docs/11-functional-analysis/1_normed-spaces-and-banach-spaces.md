@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "11 Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis"}, {"name": "1_normed Spaces And Banach Spaces", "url": "https://mathematics.wyattau.com/11-functional-analysis/1_normed-spaces-and-banach-spaces"}]
+}
+</script>
 title: Normed Spaces and Banach Spaces
 tags:
   - Mathematics
   - University
 description: 'A is a vector space over or together with a . Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "11 Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis"}, {"name": "1_normed Spaces And Banach Spaces", "url": "https://mathematics.wyattau.com/11-functional-analysis/1_normed-spaces-and-banach-spaces"}]
+}
+</script>
 
 ### 1.1 Normed Spaces
 

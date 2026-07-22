@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "5_noether S Theorem And Conservation Laws", "url": "https://physics.wyattau.com/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws"}]
+}
+</script>
 title: Noether's Theorem and Conservation Laws
 tags:
   - Physics
   - University
 description: "For every continuous symmetry of the action, there is a Corresponding conserved  Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "5_noether S Theorem And Conservation Laws", "url": "https://physics.wyattau.com/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws"}]
+}
+</script>
 
 ### 5.1 Statement of Noether"s Theorem
 

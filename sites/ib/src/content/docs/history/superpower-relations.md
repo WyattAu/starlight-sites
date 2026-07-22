@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Superpower Relations", "url": "https://ib.wyattau.com/history/superpower-relations"}]
+}
+</script>
 title: Cold War Superpower Relations
 description: "IB History coverage of Cold War superpower relations: origins, Berlin crises, arms race, detente, Gorbachev's reforms, end of the Cold War, and impact on international relations post-1991."
 sidebar_position: 23
@@ -8,6 +17,15 @@ tags:
 categories:
   - IB History
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Superpower Relations", "url": "https://ib.wyattau.com/history/superpower-relations"}]
+}
+</script>
 
 ## Origins of the Cold War (1945–1949)
 
@@ -43,6 +61,15 @@ On 12 March 1947, President Truman outlined the policy of containment:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Superpower Relations", "url": "https://ib.wyattau.com/history/superpower-relations"}]
+}
+</script>
+
 ## The Berlin Crises
 
 ### The First Berlin Crisis (1948–1949)
@@ -67,6 +94,15 @@ On 12 March 1947, President Truman outlined the policy of containment:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Superpower Relations", "url": "https://ib.wyattau.com/history/superpower-relations"}]
+}
+</script>
+
 ## The Arms Race
 
 ### Nuclear Proliferation
@@ -89,6 +125,15 @@ The most dangerous moment of the Cold War:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Superpower Relations", "url": "https://ib.wyattau.com/history/superpower-relations"}]
+}
+</script>
+
 ## Detente (1969–1979)
 
 ### Origins
@@ -110,6 +155,15 @@ The most dangerous moment of the Cold War:
 - Reagan's military buildup and "evil empire" rhetoric (1983) marked a return to confrontation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Superpower Relations", "url": "https://ib.wyattau.com/history/superpower-relations"}]
+}
+</script>
 
 ## Gorbachev's Reforms (1985–1991)
 
@@ -136,6 +190,15 @@ The most dangerous moment of the Cold War:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Superpower Relations", "url": "https://ib.wyattau.com/history/superpower-relations"}]
+}
+</script>
+
 ## The End of the Cold War: Interpretations
 
 ### Orthodox Interpretation
@@ -158,6 +221,15 @@ The most dangerous moment of the Cold War:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Superpower Relations", "url": "https://ib.wyattau.com/history/superpower-relations"}]
+}
+</script>
+
 ## Impact on International Relations Post-1991
 
 ### The "Unipolar Moment"
@@ -177,6 +249,15 @@ The most dangerous moment of the Cold War:
 - The "War on Terror" after 11 September 2001 borrowed Cold War concepts of ideological confrontation and alliance-building.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Superpower Relations", "url": "https://ib.wyattau.com/history/superpower-relations"}]
+}
+</script>
 
 ## IB Assessment Connections
 

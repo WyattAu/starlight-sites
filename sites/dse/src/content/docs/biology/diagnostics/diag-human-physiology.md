@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
 title: "Human Physiology -- Diagnostic Tests"
 description: "DSE Biology Human Physiology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
 
 # DSE Biology Diagnostic: Human Physiology
 
@@ -22,6 +40,15 @@ feature aids absorption. [6 marks]
 acids and glycerol, and (ii) amino acids. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -65,6 +92,15 @@ capacity for amino acid uptake. This can lead to protein deficiency and malnutri
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
+
 ## Unit Test 2: Haemoglobin and Oxygen Transport
 
 **Question**
@@ -83,6 +119,15 @@ the adaptive advantage of this difference. [3 marks]
 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -118,6 +163,15 @@ meeting their increased metabolic requirements.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
+
 ## Unit Test 3: Neurone Structure and Synaptic Transmission
 
 **Question**
@@ -132,6 +186,15 @@ sequence of events from the arrival of the nerve impulse at the presynaptic memb
 generation of an action potential in the postsynaptic membrane. [5 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -176,6 +239,15 @@ energy.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
+
 ## Intuition
 
 **A complex machine:** The human body is like a city — the heart is the pump, lungs are air filters, kidneys are water treatment plants, and the brain is city hall. Each organ system keeps the body functioning.
@@ -200,6 +272,15 @@ Explain the effect of this condition on the rate of gas exchange, using the conc
 to volume ratio. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -237,6 +318,15 @@ breathe faster and deeper to compensate.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
+
 ## Integration Test 2: Circulatory System Structure and Function
 
 **Question**
@@ -254,6 +344,15 @@ and the cardiac output increases to 15 dm$^{3}$/min while the stroke volume incr
 cm$^{3}$Calculate the new heart rate. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -292,6 +391,15 @@ $= \frac{\text{cardiac output}}{\text{stroke volume}} = \frac{15000}{120} = 125$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
+
 ## Integration Test 3: Nervous System and Reflex Arc
 
 **Question**
@@ -309,6 +417,15 @@ marks]
 the effector muscle. [5 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
 
 **Worked Solution**
 

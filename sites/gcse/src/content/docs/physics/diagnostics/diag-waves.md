@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves", "url": "https://gcse.wyattau.com/physics/diagnostics/diag-waves"}]
+}
+</script>
 title: "Waves -- Diagnostic Tests"
 description: "(a) Define the terms: amplitude, wavelength, frequency, and period. State the relationship between frequency, wavelength, and wave speed. (b) A wave has a"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves", "url": "https://gcse.wyattau.com/physics/diagnostics/diag-waves"}]
+}
+</script>
 
 # Waves — Diagnostic Tests
 
@@ -94,6 +112,15 @@ internal reflection occurs -- the ray is entirely reflected back into the glass,
 ray exists. Measure the critical angle and compare with $\sin c = 1/n$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves", "url": "https://gcse.wyattau.com/physics/diagnostics/diag-waves"}]
+}
+</script>
 
 ## Integration Tests
 

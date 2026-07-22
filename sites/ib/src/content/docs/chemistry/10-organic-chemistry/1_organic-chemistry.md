@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 title: Organic Chemistry
 description: "Rigorous IB chemistry notes covering Organic Chemistry. Includes definitions, derivations, worked examples, and exam-style problems. and polymer chemistry."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## Intuition
 
@@ -91,6 +109,15 @@ Methyl propanoate, ethyl ethanoate, etc.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
+
 ## Alkanes
 
 ### Structure
@@ -158,6 +185,15 @@ Breaking large hydrocarbons into smaller, more useful molecules.
 Cycloalkanes.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## Alkenes
 
@@ -227,6 +263,15 @@ Poly(chloroethene) — PVC.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
+
 ## Alkynes
 
 ### Structure
@@ -241,6 +286,15 @@ Poly(chloroethene) — PVC.
 Similar to alkenes but can undergo two successive addition reactions due to two $\pi$ bonds.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## Benzene and Aromatic Chemistry
 
@@ -286,6 +340,15 @@ $$
 **Electrophile**: $\mathrm{R}^+$ (carbocation).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## Functional Groups
 
@@ -364,6 +427,15 @@ Catalysed by concentrated H$_2$SO$_4$.
 - Primary amines can be formed by nucleophilic substitution of halogenoalkanes with ammonia.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## Reaction Mechanisms
 
@@ -449,6 +521,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
+
 ## Polymer Chemistry
 
 ### Addition Polymers
@@ -508,6 +589,15 @@ For condensation polymers, identify the repeating unit and add back the eliminat
 (H$_2$O).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## IB Exam-Style Questions
 
@@ -583,6 +673,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
+
 ## Summary
 
 | Reaction Type  | Description                                              |
@@ -611,6 +710,15 @@ Table for clarity. For polymer questions, be able to identify the monomer from t
 Versa.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## Organic Chemistry: Extended Topics
 
@@ -653,6 +761,15 @@ Cycloalkanes can have cis-trans isomerism when substituents are on different sid
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
+
 ## Spectroscopy in Organic Chemistry
 
 ### Infrared (IR) Spectroscopy
@@ -682,6 +799,15 @@ Identifies functional groups by absorption of IR radiation.
 - **Splitting**: indicates the number of neighbouring protons ($n+1$ rule).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## Additional Reactions
 
@@ -737,6 +863,15 @@ $$
 $$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## Additional IB Exam-Style Questions
 
@@ -966,6 +1101,15 @@ $-\mathrm{OH}$ group. No reaction occurs (the orange solution remains orange).
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 
 ## Related Content at Other Levels
 

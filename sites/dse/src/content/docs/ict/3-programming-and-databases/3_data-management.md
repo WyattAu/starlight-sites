@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "3_data Management", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management"}]
+}
+</script>
 title: Data Management
 description: "This document covers data management topics for the DSE ICT examination, including data structures, Database models, data integrity, security, privacy"
 date: 2026-04-08T00:00:00.000Z
@@ -11,12 +20,30 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "3_data Management", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management"}]
+}
+</script>
+
 This document covers data management topics for the DSE ICT examination, including data structures,
 Database models, data integrity, security, privacy legislation, backup strategies, big data, and
 data Ethics. Database design and SQL are covered in
 [../3-programming-and-databases/2_programming-and-databases](../3-programming-and-databases/2_programming-and-databases).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "3_data Management", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management"}]
+}
+</script>
 
 ## Data Types and Structures
 
@@ -64,6 +91,15 @@ index.
 Access: `matrix[1][2]` returns `6`.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "3_data Management", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management"}]
+}
+</script>
 
 ## Database Models
 
@@ -159,6 +195,15 @@ An extension of the hierarchical model that allows many-to-many relationships th
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "3_data Management", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management"}]
+}
+</script>
+
 ## Data Validation and Verification
 
 ### Validation -- Ensuring Data is Reasonable
@@ -243,6 +288,15 @@ To verify: sum all 13 digits with weights. The total should be divisible by 10.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "3_data Management", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management"}]
+}
+</script>
+
 ## Data Security
 
 ### Threats to Data Security
@@ -282,6 +336,15 @@ To verify: sum all 13 digits with weights. The total should be divisible by 10.
 | **Role-based (RBAC)** | Access based on job role (e.g., manager, clerk, viewer)  | Medium-High    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "3_data Management", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management"}]
+}
+</script>
 
 ## Privacy Legislation
 
@@ -338,6 +401,15 @@ Privacy Commissioner for Personal Data (PCPD).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "3_data Management", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management"}]
+}
+</script>
+
 ## Data Backup and Recovery
 
 ### Backup Strategies
@@ -389,6 +461,15 @@ RPO Is 1 hour, backups must be taken at least every hour.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "3_data Management", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management"}]
+}
+</script>
+
 ## Big Data Concepts
 
 ### What is Big Data?
@@ -438,6 +519,15 @@ Traditional data processing methods.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "3_data Management", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management"}]
+}
+</script>
+
 ## Data Ethics
 
 ### Key Ethical Principles
@@ -476,6 +566,15 @@ Extend beyond legal compliance:
 - Regular audits should ensure data practices remain ethical and compliant.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "3_data Management", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -519,6 +618,15 @@ Extend beyond legal compliance:
     limitation).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "3_data Management", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management"}]
+}
+</script>
 
 ## Practice Problems
 

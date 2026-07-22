@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "09 Flutter Fundamentals", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals"}, {"name": "01 Navigation", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals/01-navigation"}]
+}
+</script>
 title: Navigation
 description: "Navigation is the mechanism by which users move between different screens, pages, or views within a Flutter application. Every non-trivial app needs a way"
 date: 2026-04-05T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Dart
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "09 Flutter Fundamentals", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals"}, {"name": "01 Navigation", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals/01-navigation"}]
+}
+</script>
 
 # Navigation
 
@@ -93,6 +111,15 @@ Flutter has evolved through several navigation APIs to arrive at the current bes
 `go_router`A declarative routing package maintained by the Flutter team.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "09 Flutter Fundamentals", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals"}, {"name": "01 Navigation", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals/01-navigation"}]
+}
+</script>
 
 ## Navigator 1.0
 
@@ -266,6 +293,15 @@ Navigator 1.0 works well for simple apps but has serious limitations at scale:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "09 Flutter Fundamentals", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals"}, {"name": "01 Navigation", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals/01-navigation"}]
+}
+</script>
+
 ## Navigator 2.0
 
 Navigator 2.0 was introduced as a declarative alternative to Navigator 1.0. It is a lower-level API
@@ -404,6 +440,15 @@ Building custom routing solutions that GoRouter cannot express.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "09 Flutter Fundamentals", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals"}, {"name": "01 Navigation", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals/01-navigation"}]
+}
+</script>
+
 ## GoRouter
 
 `go_router` is the officially recommended routing package for Flutter. It provides a declarative,
@@ -523,6 +568,15 @@ Call in your codebase.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "09 Flutter Fundamentals", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals"}, {"name": "01 Navigation", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals/01-navigation"}]
+}
+</script>
+
 ## Path Parameters
 
 Path parameters are dynamic segments in a URL path, denoted with a colon prefix. They allow a single
@@ -616,6 +670,15 @@ With `filepath` equal to `docs/report.pdf`.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "09 Flutter Fundamentals", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals"}, {"name": "01 Navigation", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals/01-navigation"}]
+}
+</script>
+
 ## Query Parameters
 
 Query parameters are key-value pairs appended to a URL after a `?`Separated by `&`. They are
@@ -691,6 +754,15 @@ Over. If you need to persist filter state, store it in app-level state (e.g., a 
 BLoC) rather than relying on query parameters.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "09 Flutter Fundamentals", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals"}, {"name": "01 Navigation", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals/01-navigation"}]
+}
+</script>
 
 ## Guards and Redirects
 
@@ -810,6 +882,15 @@ authService.addListener(() {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "09 Flutter Fundamentals", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals"}, {"name": "01 Navigation", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals/01-navigation"}]
+}
+</script>
+
 ## Deep Linking
 
 Deep linking allows an external source (a URL, another app, a push notification) to navigate
@@ -909,6 +990,15 @@ Originally intended content. This requires a third-party service like Firebase D
 (deprecated), Branch.io, or Adjust to store the pending deep link and deliver it after installation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "09 Flutter Fundamentals", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals"}, {"name": "01 Navigation", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals/01-navigation"}]
+}
+</script>
 
 ## Nested Navigation
 
@@ -1073,6 +1163,15 @@ class TabPage extends StatelessWidget {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "09 Flutter Fundamentals", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals"}, {"name": "01 Navigation", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals/01-navigation"}]
+}
+</script>
+
 ## Navigation Patterns
 
 ### Bottom Sheets
@@ -1207,6 +1306,15 @@ GoRoute(
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "09 Flutter Fundamentals", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals"}, {"name": "01 Navigation", "url": "https://languages.wyattau.com/dart/09-flutter-fundamentals/01-navigation"}]
+}
+</script>
 
 ## Intuition
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Fundamentals", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-fundamentals"}]
+}
+</script>
 title: "Fundamentals -- Diagnostic Tests"
 description: "A-Level Computer Science Fundamentals -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Fundamentals", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-fundamentals"}]
+}
+</script>
 
 
 ## Intuition
@@ -49,6 +67,15 @@ sign.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Fundamentals", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-fundamentals"}]
+}
+</script>
+
 ### UT-2: Floating Point Representation
 
 **Question:** A floating-point system uses 8 bits: 1 sign bit, 3 exponent bits (excess-4), and 4
@@ -86,6 +113,15 @@ With 4 mantissa bits, $5.75$ is represented exactly because $5.75 = 101.11_2$ wh
 available bits.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Fundamentals", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-fundamentals"}]
+}
+</script>
 
 ### UT-3: Boolean Algebra Simplification
 
@@ -182,6 +218,15 @@ values that can be negative.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Fundamentals", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-fundamentals"}]
+}
+</script>
+
 ### IT-2: Floating Point and Error Propagation (with Measurement/Scientific)
 
 **Question:** A 12-bit floating-point system (1 sign, 5 exponent excess-15, 6 mantissa) stores the
@@ -226,6 +271,15 @@ the same truncated value repeatedly. In practice, floating-point addition at eac
 additional rounding errors, so the actual accumulated error would be slightly different.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Fundamentals", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-fundamentals"}]
+}
+</script>
 
 ### IT-3: Boolean Algebra and Logic Gates (with Computer Architecture)
 

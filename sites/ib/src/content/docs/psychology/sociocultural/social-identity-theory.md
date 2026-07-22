@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Sociocultural", "url": "https://ib.wyattau.com/psychology/sociocultural"}, {"name": "Social Identity Theory", "url": "https://ib.wyattau.com/psychology/sociocultural/social-identity-theory"}]
+}
+</script>
 title: Social Identity Theory
 description: "Social identity theory (SIT), developed by Henri Tajfel and John Turner in the 1970s, is one of the Most influential theories in social psychology. It"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Sociocultural", "url": "https://ib.wyattau.com/psychology/sociocultural"}, {"name": "Social Identity Theory", "url": "https://ib.wyattau.com/psychology/sociocultural/social-identity-theory"}]
+}
+</script>
 
 ## Introduction
 

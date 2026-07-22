@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "4 Multivariable Calculus", "url": "https://mathematics.wyattau.com/4-multivariable-calculus"}, {"name": "1_partial Derivatives", "url": "https://mathematics.wyattau.com/4-multivariable-calculus/1_partial-derivatives"}]
+}
+</script>
 title: Partial Derivatives
 tags:
   - Mathematics
   - University
 description: "Partial Derivatives: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "4 Multivariable Calculus", "url": "https://mathematics.wyattau.com/4-multivariable-calculus"}, {"name": "1_partial Derivatives", "url": "https://mathematics.wyattau.com/4-multivariable-calculus/1_partial-derivatives"}]
+}
+</script>
 
 ### 1.1 Definition
 

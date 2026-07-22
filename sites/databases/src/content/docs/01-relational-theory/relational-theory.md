@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "01 Relational Theory", "url": "https://databases.wyattau.com/01-relational-theory"}, {"name": "Relational Theory", "url": "https://databases.wyattau.com/01-relational-theory/relational-theory"}]
+}
+</script>
 title: Relational Theory
 description: "The relational model provides a mathematically rigorous foundation for data management."
 tags:
@@ -6,6 +15,15 @@ tags:
 categories:
   - Databases
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "01 Relational Theory", "url": "https://databases.wyattau.com/01-relational-theory"}, {"name": "Relational Theory", "url": "https://databases.wyattau.com/01-relational-theory/relational-theory"}]
+}
+</script>
 
 ## The Relational Model
 

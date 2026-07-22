@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "4 Fields", "url": "https://ib.wyattau.com/physics/4-fields"}, {"name": "3_motion In Electromagnetic Fields", "url": "https://ib.wyattau.com/physics/4-fields/3_motion-in-electromagnetic-fields"}]
+}
+</script>
 title: Motion in Electromagnetic Fields
 description: "Rigorous IB physics notes covering Motion in Electromagnetic Fields. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "4 Fields", "url": "https://ib.wyattau.com/physics/4-fields"}, {"name": "3_motion In Electromagnetic Fields", "url": "https://ib.wyattau.com/physics/4-fields/3_motion-in-electromagnetic-fields"}]
+}
+</script>
 
 ## Uniform Fields
 
@@ -128,6 +146,15 @@ Where the direction of motion on current can be determined by right hand rule (m
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "4 Fields", "url": "https://ib.wyattau.com/physics/4-fields"}, {"name": "3_motion In Electromagnetic Fields", "url": "https://ib.wyattau.com/physics/4-fields/3_motion-in-electromagnetic-fields"}]
+}
+</script>
+
 ## Force on a Stationary Charge in an Electric Field
 
 When a charge $q$ is placed in an electric field $\bm{E}$It experiences a force:
@@ -168,6 +195,15 @@ And your thumb points in the direction of $\bm{F}$. For a negative charge (e.g. 
 Force is in the **opposite** direction.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "4 Fields", "url": "https://ib.wyattau.com/physics/4-fields"}, {"name": "3_motion In Electromagnetic Fields", "url": "https://ib.wyattau.com/physics/4-fields/3_motion-in-electromagnetic-fields"}]
+}
+</script>
 
 ## Circular Motion of a Charged Particle in a Magnetic Field
 
@@ -238,6 +274,15 @@ Direction of the force.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "4 Fields", "url": "https://ib.wyattau.com/physics/4-fields"}, {"name": "3_motion In Electromagnetic Fields", "url": "https://ib.wyattau.com/physics/4-fields/3_motion-in-electromagnetic-fields"}]
+}
+</script>
+
 ## Helical Motion
 
 When a charged particle enters a magnetic field at an angle $\theta$ (not $90^\circ$) to the field,
@@ -250,6 +295,15 @@ The result is a **helical** (spiral) path.
   $p = v_\parallel \cdot T = \frac{2\pi m v \cos\theta}{qB}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "4 Fields", "url": "https://ib.wyattau.com/physics/4-fields"}, {"name": "3_motion In Electromagnetic Fields", "url": "https://ib.wyattau.com/physics/4-fields/3_motion-in-electromagnetic-fields"}]
+}
+</script>
 
 ## The Velocity Selector
 
@@ -298,6 +352,15 @@ $$
 $E$ and $B$. This means it selects a velocity, not a specific particle type.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "4 Fields", "url": "https://ib.wyattau.com/physics/4-fields"}, {"name": "3_motion In Electromagnetic Fields", "url": "https://ib.wyattau.com/physics/4-fields/3_motion-in-electromagnetic-fields"}]
+}
+</script>
 
 ## The Mass Spectrometer
 
@@ -383,6 +446,15 @@ This is consistent with scandium-45.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "4 Fields", "url": "https://ib.wyattau.com/physics/4-fields"}, {"name": "3_motion In Electromagnetic Fields", "url": "https://ib.wyattau.com/physics/4-fields/3_motion-in-electromagnetic-fields"}]
+}
+</script>
+
 ## Force on a Current-Carrying Conductor
 
 When a current-carrying wire is placed in a magnetic field, the moving charges within the wire
@@ -412,6 +484,15 @@ The direction is given by Fleming's Left-Hand Rule (motor effect):
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "4 Fields", "url": "https://ib.wyattau.com/physics/4-fields"}, {"name": "3_motion In Electromagnetic Fields", "url": "https://ib.wyattau.com/physics/4-fields/3_motion-in-electromagnetic-fields"}]
+}
+</script>
+
 ## Exam Tips for D.3
 
 1. **Always identify what is perpendicular.** The magnetic force depends on the angle between
@@ -436,6 +517,15 @@ The direction is given by Fleming's Left-Hand Rule (motor effect):
    between parallel magnetic field lines.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "4 Fields", "url": "https://ib.wyattau.com/physics/4-fields"}, {"name": "3_motion In Electromagnetic Fields", "url": "https://ib.wyattau.com/physics/4-fields/3_motion-in-electromagnetic-fields"}]
+}
+</script>
 
 ## Uniform Electric and Magnetic Fields: Summary
 
@@ -471,6 +561,15 @@ A uniform magnetic field is produced inside a long solenoid or between the poles
 | Kinetic energy      | Changes                                 | Constant                                    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "4 Fields", "url": "https://ib.wyattau.com/physics/4-fields"}, {"name": "3_motion In Electromagnetic Fields", "url": "https://ib.wyattau.com/physics/4-fields/3_motion-in-electromagnetic-fields"}]
+}
+</script>
 
 ## Worked Example: The Cyclotron
 
@@ -510,6 +609,15 @@ Alternating electric field must oscillate at exactly this frequency so that the 
 Accelerated as it crosses the gap between the dees.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "4 Fields", "url": "https://ib.wyattau.com/physics/4-fields"}, {"name": "3_motion In Electromagnetic Fields", "url": "https://ib.wyattau.com/physics/4-fields/3_motion-in-electromagnetic-fields"}]
+}
+</script>
 
 ## Worked Example: Velocity Selector with Mass Separation
 
@@ -553,6 +661,15 @@ Simplified values.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "4 Fields", "url": "https://ib.wyattau.com/physics/4-fields"}, {"name": "3_motion In Electromagnetic Fields", "url": "https://ib.wyattau.com/physics/4-fields/3_motion-in-electromagnetic-fields"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Forgetting the angle in $F = qvB\sin\theta$.** If the question does not specify the angle, it
@@ -579,6 +696,15 @@ Simplified values.
    same direction, you get the wrong answer.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "4 Fields", "url": "https://ib.wyattau.com/physics/4-fields"}, {"name": "3_motion In Electromagnetic Fields", "url": "https://ib.wyattau.com/physics/4-fields/3_motion-in-electromagnetic-fields"}]
+}
+</script>
 
 ## Problem Set
 

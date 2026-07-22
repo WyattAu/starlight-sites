@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://highers.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 title: "Cell Biology -- Diagnostic Tests"
 description: "Cell Biology -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://highers.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 
 # Cell Biology -- Diagnostic Tests
 
@@ -73,6 +91,15 @@ to the correct destination.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://highers.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
+
 ### UT-2: Membrane Transport
 
 **Question:**
@@ -122,6 +149,15 @@ electrochemical gradient (the resting potential of approximately $-70\,\text{mV}
 essential for generating action potentials when the neuron is stimulated.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://highers.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 
 ### UT-3: Enzymes
 
@@ -180,6 +216,15 @@ substrate concentration does not overcome non-competitive inhibition. Example: h
 as lead ($\text{Pb}^{2+}$) can bind to enzymes and inhibit them non-competitively.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://highers.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -247,6 +292,15 @@ and assemble as needed. Without understanding the fluid mosaic model, it would b
 explain how the same membrane can simultaneously be a barrier, a gateway, and a signalling platform.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://highers.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 
 ### IT-2: Experimental Design in Cell Biology
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Dynamics", "url": "https://ib.wyattau.com/physics/diagnostics/diag-dynamics"}]
+}
+</script>
 title: "Dynamics -- Diagnostic Tests"
 description: "IB Physics Dynamics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Dynamics", "url": "https://ib.wyattau.com/physics/diagnostics/diag-dynamics"}]
+}
+</script>
 
 # Dynamics — Diagnostic Tests
 
@@ -72,6 +90,15 @@ both a normal component (perpendicular to the surface) and a frictional componen
 surface, preventing relative motion).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Dynamics", "url": "https://ib.wyattau.com/physics/diagnostics/diag-dynamics"}]
+}
+</script>
 
 ### UT-2: Limiting Friction on an Inclined Plane with Applied Force
 
@@ -144,6 +171,15 @@ The negative sign means friction acts down the slope (preventing the block from 
 The magnitude $8.72\,\text{N}$ is less than $F_{\max}$Confirming the block does not move.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Dynamics", "url": "https://ib.wyattau.com/physics/diagnostics/diag-dynamics"}]
+}
+</script>
 
 ### UT-3: Connected Objects with Different Frictional Surfaces
 
@@ -318,6 +354,15 @@ $= f \times 2.33 = 0.25 \times 2.0 \times 9.81 \times 0.7660 \times 2.33 = 3.76 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Dynamics", "url": "https://ib.wyattau.com/physics/diagnostics/diag-dynamics"}]
+}
+</script>
+
 ### IT-2: Two-Body System with Pulley on an Incline (with Kinematics)
 
 **Question:**
@@ -399,6 +444,15 @@ trap: the static friction is sufficient to hold the entire system at rest.
 (c) Not applicable -- the system does not move.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Dynamics", "url": "https://ib.wyattau.com/physics/diagnostics/diag-dynamics"}]
+}
+</script>
 
 ### IT-3: Multiple Forces on a Suspended Object (with Kinematics)
 

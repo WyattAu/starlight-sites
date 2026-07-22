@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Zfs Encryption", "url": "https://truenas.wyattau.com/zfs-encryption"}]
+}
+</script>
 title: ZFS Encryption
 description: "ZFS native encryption is a dataset-level encryption mechanism integrated into the ZFS storage stack, introduced in OpenZFS 0.8 (ZoL 0.8.0, FreeBSD 12.0). It"
 date: 2026-04-07T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - ZFS
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Zfs Encryption", "url": "https://truenas.wyattau.com/zfs-encryption"}]
+}
+</script>
 
 ## ZFS Encryption Overview
 
@@ -64,6 +82,15 @@ Removed from the pool, the data is unreadable without the key. It does not prote
 For network protection, use SMB3 encryption, NFS with Kerberos (krb5p), or a VPN.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Zfs Encryption", "url": "https://truenas.wyattau.com/zfs-encryption"}]
+}
+</script>
 
 ## Encryption Properties
 
@@ -198,6 +225,15 @@ property only applies to `keyformat=passphrase`. It has no effect on `hex` or `r
 which use the raw key material directly.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Zfs Encryption", "url": "https://truenas.wyattau.com/zfs-encryption"}]
+}
+</script>
 
 ## Key Management
 
@@ -391,6 +427,15 @@ Location -- a USB drive, a separate small pool, or a remote key server.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Zfs Encryption", "url": "https://truenas.wyattau.com/zfs-encryption"}]
+}
+</script>
+
 ## Creating Encrypted Datasets
 
 ### Step-by-Step: Creating an Encrypted Pool Root
@@ -493,6 +538,15 @@ generally not recommended because:
 Encrypt user data pools instead. The TrueNAS boot pool should remain unencrypted.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Zfs Encryption", "url": "https://truenas.wyattau.com/zfs-encryption"}]
+}
+</script>
 
 ## Managing Encrypted Pools
 
@@ -625,6 +679,15 @@ zfs change-key -o encryption=aes-256-xts tank/secret
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Zfs Encryption", "url": "https://truenas.wyattau.com/zfs-encryption"}]
+}
+</script>
+
 ## Performance Impact
 
 ### Encryption Overhead
@@ -719,6 +782,15 @@ zfs get dedup tank/encrypted
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Zfs Encryption", "url": "https://truenas.wyattau.com/zfs-encryption"}]
+}
+</script>
+
 ## Encryption and ZFS Features
 
 ### Snapshots and Encryption
@@ -807,6 +879,15 @@ Some ZFS properties interact with encryption in specific ways:
 | `xattr`       | Extended attributes are encrypted with the data.   |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Zfs Encryption", "url": "https://truenas.wyattau.com/zfs-encryption"}]
+}
+</script>
 
 ## Send and Receive
 
@@ -915,6 +996,15 @@ ssh backup-server "zfs send -Rw backup/offsite@monthly-2026-04" | \
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Zfs Encryption", "url": "https://truenas.wyattau.com/zfs-encryption"}]
+}
+</script>
+
 ## Backup Implications
 
 ### Cloud Backup of Encrypted Datasets
@@ -992,6 +1082,15 @@ find /mnt/test/encrypted -type f -exec md5sum {} \; > /tmp/backup_checksums.txt
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Zfs Encryption", "url": "https://truenas.wyattau.com/zfs-encryption"}]
+}
+</script>
 
 ## Security Considerations
 
@@ -1100,6 +1199,15 @@ Destroying the old dataset.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Zfs Encryption", "url": "https://truenas.wyattau.com/zfs-encryption"}]
+}
+</script>
+
 ## TrueNAS SCALE Specific
 
 ### Web UI Encryption Setup
@@ -1185,6 +1293,15 @@ zfs load-key tank/encrypted
    encrypted dataset.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Zfs Encryption", "url": "https://truenas.wyattau.com/zfs-encryption"}]
+}
+</script>
 
 ## Common Pitfalls
 

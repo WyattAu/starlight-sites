@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "11_probability", "url": "https://dse.wyattau.com/maths/compulsory/11_probability"}]
+}
+</script>
 title: Probability
 description: "Probability theory provides a rigorous mathematical framework for quantifying uncertainty. In the DSE compulsory syllabus, we focus on discrete probability"
 date: 2025-06-03T12:07:31.077Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "11_probability", "url": "https://dse.wyattau.com/maths/compulsory/11_probability"}]
+}
+</script>
 
 Probability theory provides a rigorous mathematical framework for quantifying uncertainty. In the
 DSE compulsory syllabus, we focus on discrete probability spaces, combinatorial counting,
@@ -698,6 +716,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "11_probability", "url": "https://dse.wyattau.com/maths/compulsory/11_probability"}]
+}
+</script>
+
 <details>
 <summary>Wrap-up Questions</summary>
 1. **Question:** A fair coin is tossed three times. Find the probability of getting at least two
@@ -957,6 +984,15 @@ For the A-Level treatment of this topic, see
 [Probability](https://alevel.wyattau.com/docs/maths/./4-statistics-and-probability/2_statistics/probability).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "11_probability", "url": "https://dse.wyattau.com/maths/compulsory/11_probability"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 within the DSE specification for this topic, each with a full worked solution.

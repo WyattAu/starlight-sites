@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "14_common Pitfalls", "url": "https://mathematics.wyattau.com/6-complex-analysis/14_common-pitfalls"}]
+}
+</script>
 title: Common Pitfalls
 tags:
   - Mathematics
   - University
 description: "Differentiability. The partial derivatives must also be continuous. For example, Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "14_common Pitfalls", "url": "https://mathematics.wyattau.com/6-complex-analysis/14_common-pitfalls"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--caution">
 Differentiability. The partial derivatives must also be continuous. For example,

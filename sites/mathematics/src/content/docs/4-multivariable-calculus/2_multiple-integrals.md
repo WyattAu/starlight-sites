@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "4 Multivariable Calculus", "url": "https://mathematics.wyattau.com/4-multivariable-calculus"}, {"name": "2_multiple Integrals", "url": "https://mathematics.wyattau.com/4-multivariable-calculus/2_multiple-integrals"}]
+}
+</script>
 title: Multiple Integrals
 tags:
   - Mathematics
   - University
 description: "The of over a rectangle is defined as the limit of Riemann sums: Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "4 Multivariable Calculus", "url": "https://mathematics.wyattau.com/4-multivariable-calculus"}, {"name": "2_multiple Integrals", "url": "https://mathematics.wyattau.com/4-multivariable-calculus/2_multiple-integrals"}]
+}
+</script>
 
 ### 2.1 Double Integrals
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://programming.wyattau.com/templates_and_metaprogramming"}, {"name": "1_generic_programming", "url": "https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming"}, {"name": "3_specialization", "url": "https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/3_specialization"}]
+}
+</script>
 title: Explicit and Partial Specialization
 description: "Specialization allows you to provide alternative implementations for specific sets of template Arguments. replaces the primary template entirely for a"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://programming.wyattau.com/templates_and_metaprogramming"}, {"name": "1_generic_programming", "url": "https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming"}, {"name": "3_specialization", "url": "https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/3_specialization"}]
+}
+</script>
 
 # Explicit and Partial Specialization
 

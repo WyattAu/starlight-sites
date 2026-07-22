@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "11_problem Set", "url": "https://physics.wyattau.com/6-solid-state-physics/11_problem-set"}]
+}
+</script>
 title: Problem Set
 tags:
   - Physics
   - University
 description: 'Calculate the packing fraction of the simple cubic lattice. Compare it with BCC and FCC, And explain why SC is rarely observed in elemental metals.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "11_problem Set", "url": "https://physics.wyattau.com/6-solid-state-physics/11_problem-set"}]
+}
+</script>
 
 **Problem 1.** Calculate the packing fraction of the simple cubic lattice. Compare it with BCC and
 FCC, And explain why SC is rarely observed in elemental metals.

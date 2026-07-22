@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "9_waveguides And Cavities", "url": "https://physics.wyattau.com/3-electromagnetism/9_waveguides-and-cavities"}]
+}
+</script>
 title: Waveguides and Cavities
 tags:
   - Physics
   - University
 description: "A rectangular waveguide with dimensions (width) and (height) supports electromagnetic waves propagating in the -direction. Two families of modes exist:"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "9_waveguides And Cavities", "url": "https://physics.wyattau.com/3-electromagnetism/9_waveguides-and-cavities"}]
+}
+</script>
 
 ### 9.1 Rectangular Waveguides
 

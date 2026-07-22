@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
 title: Chemistry - Atomic Structure and Bonding
 description: "| Particle | Symbol | Relative Mass | Relative Charge | Location | | -------- | ------ | ----------------------------- | --------------- | --------------- |"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
 
 ## Atomic Structure
 
@@ -54,6 +72,15 @@ A mass spectrometer separates ions based on their mass-to-charge ratio ($m/z$). 
 Relative abundance. For singly charged ions, $m/z$ equals the relative isotopic mass.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
 
 ## Electron Configuration
 
@@ -107,6 +134,15 @@ For transition metals, use the noble gas core notation:
 extra Stability.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
 
 ## The Periodic Table
 
@@ -173,6 +209,15 @@ Bond.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
+
 ## Ionic Bonding
 
 ### Formation of Ions
@@ -212,6 +257,15 @@ To balance charges: 1 $\mathrm{Mg}^{2+}$ ion balances 1 $\mathrm{O}^{2-}$ ion.
 Formula: $\mathrm{MgO}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
 
 ## Covalent Bonding
 
@@ -331,6 +385,15 @@ delocalised electron (from the $p_z$ orbital) that is free to move within the la
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
+
 ## Intermolecular Forces
 
 Intermolecular forces are weaker than intramolecular (covalent) bonds.
@@ -394,6 +457,15 @@ $\mathrm{H}_2\mathrm{S}$Resulting in a higher boiling point for water.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
+
 ## Metallic Bonding
 
 ### The Sea of Electrons Model
@@ -428,6 +500,15 @@ Examples: steel (Fe + C), brass (Cu + Zn), bronze (Cu + Sn), solder (Sn + Pb)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
+
 ## Intuition
 
 **Building blocks with rules:** Atoms are like LEGO sets — protons determine the element, electrons determine the chemistry. The periodic table organizes elements by their electron configurations, revealing patterns in reactivity.
@@ -450,6 +531,15 @@ Examples: steel (Fe + C), brass (Cu + Zn), bronze (Cu + Sn), solder (Sn + Pb)
 | Metallic bonding       | Delocalised electrons                   | Malleability of metals             |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
 
 ## Exam Tips
 
@@ -504,6 +594,15 @@ Of energy, hence the very high melting point.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
 
 ## Chemical Bonding Energetics
 
@@ -573,6 +672,15 @@ reactions involving liquids Or solids because they only account for gaseous stat
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
+
 ## Giant Ionic Structures in Detail
 
 ### Properties Explained
@@ -619,6 +727,15 @@ Factors affecting lattice energy:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
+
 ## Electron Configuration and Chemical Behaviour
 
 ### Valence Electrons
@@ -660,6 +777,15 @@ Relative stability compared to $\mathrm{Fe}^{2+}$ ($3d^6$).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
+
 ## Trends Across Period 3
 
 Period 3 elements ($\mathrm{Na}$ to $\mathrm{Ar}$) show clear trends that are frequently examined:
@@ -691,6 +817,15 @@ Atomic radius decreases across the period because increasing nuclear charge pull
 - $\mathrm{P}$$\mathrm{S}$$\mathrm{Cl}$$\mathrm{Ar}$: Non-conductors (no mobile charge carriers)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -756,6 +891,15 @@ is much stronger than dipole-dipole interactions, so propan-1-ol has a higher bo
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
 
 ## Additional Practice Questions
 
@@ -828,6 +972,15 @@ $3d^{10}$ configuration.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
 
 ## Advanced Bonding Concepts
 
@@ -946,6 +1099,15 @@ carbon atoms are covalently bonded in a rigid 3D tetrahedral network with no wea
 extremely hard.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding"}, {"name": "1_atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding"}]
+}
+</script>
 
 ## Problem Set
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "1 Microeconomics", "url": "https://ib.wyattau.com/economics/1-microeconomics"}, {"name": "3 Market Failure", "url": "https://ib.wyattau.com/economics/1-microeconomics/3-market-failure"}]
+}
+</script>
 title: Market Failure
 description: "Market failure occurs when the free market fails to allocate resources efficiently, resulting in a Loss of social welfare. The condition for allocative"
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "1 Microeconomics", "url": "https://ib.wyattau.com/economics/1-microeconomics"}, {"name": "3 Market Failure", "url": "https://ib.wyattau.com/economics/1-microeconomics/3-market-failure"}]
+}
+</script>
 
 ## Intuition
 

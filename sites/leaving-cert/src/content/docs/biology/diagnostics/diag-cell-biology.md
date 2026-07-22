@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://leaving-cert.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 title: "Cell Biology -- Diagnostic Tests"
 description: "QUALIFICATIONS Ilc notes: Cell Biology -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://leaving-cert.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 
 # Cell Biology -- Diagnostic Tests
 
@@ -77,6 +95,15 @@ $$\text{Actual size} = \frac{\text{Image size}}{\text{Magnification}} = \frac{42
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://leaving-cert.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
+
 ### UT-2: Biological Molecules
 
 **Question:**
@@ -130,6 +157,15 @@ weak individually but collectively contribute significantly to the stability of 
 Other bonds involved include ionic bonds, disulphide bridges, and hydrophobic interactions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://leaving-cert.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 
 ### UT-3: Cell Membrane and Transport
 
@@ -195,6 +231,15 @@ selective permeability is essential for maintaining the internal environment of 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://leaving-cert.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
+
 ## Integration Tests
 
 ### IT-1: Biological Molecules and Cell Function
@@ -254,6 +299,15 @@ protein) for facilitated diffusion or active transport to cross the membrane.
    cells are irregular or rounded.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://leaving-cert.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 
 ### IT-2: Experimental Techniques in Cell Biology
 

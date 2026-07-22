@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Maclaurin Taylor Series", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-maclaurin-taylor-series"}]
+}
+</script>
 title: "Maclaurin and Taylor Series -- Diagnostic Tests"
 description: "A-Level Further Maths Maclaurin and Taylor Series -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Maclaurin Taylor Series", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-maclaurin-taylor-series"}]
+}
+</script>
 
 
 ## Intuition
@@ -82,6 +100,15 @@ $\cos^2 x = \frac{1}{2}\left(2 - 2x^2 + \frac{2x^4}{3}\right) = 1 - x^2 + \frac{
 $\frac{e^x - 1 - x}{x^2} = \frac{1}{2} + \frac{x}{6} + \cdots$. $\lim_{x \to 0} = \frac{1}{2}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Maclaurin Taylor Series", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-maclaurin-taylor-series"}]
+}
+</script>
 
 ## Integration Tests
 

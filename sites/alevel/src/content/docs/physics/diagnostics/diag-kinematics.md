@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Kinematics", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-kinematics"}]
+}
+</script>
 title: "Kinematics -- Diagnostic Tests"
 description: "A-Level Physics Kinematics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Kinematics", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-kinematics"}]
+}
+</script>
 
 
 ## Intuition
@@ -68,6 +86,15 @@ The question asks for the speed at height $B$Which is unattainable. This is the 
 recognising the physical constraint from the mathematics.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Kinematics", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-kinematics"}]
+}
+</script>
 
 ### UT-2: Interpreting a Non-Standard Velocity-Time Graph
 
@@ -157,6 +184,15 @@ So the car returns to its starting position at **$t = 2.0\,\text{s}$** (the only
 interval).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Kinematics", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-kinematics"}]
+}
+</script>
 
 ### UT-3: Two-Stage Vertical Motion
 
@@ -265,6 +301,15 @@ $= \sqrt{v_x^2 + v_y^2} = \sqrt{21.65^2 + 3.255^2} = \sqrt{468.7 + 10.60} = \sqr
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Kinematics", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-kinematics"}]
+}
+</script>
+
 ### IT-2: Kinematics of Connected Particles (with Dynamics)
 
 **Question:**
@@ -310,6 +355,15 @@ Distance to stop: $s = v^2/(2a') = 7.456/(2 \times 3.92) = 0.951\,\text{m}$
 Total distance travelled by $A$ $= 0.80 + 0.951 = 1.75\,\text{m}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Kinematics", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-kinematics"}]
+}
+</script>
 
 ### IT-3: Graphical Analysis of Stopping Distance (with Work-Energy)
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Ecology", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-ecology"}]
+}
+</script>
 title: "Ecology -- Diagnostic Tests"
 description: "A-Level Biology Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Ecology", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-ecology"}]
+}
+</script>
 
 
 ## Intuition
@@ -103,6 +121,15 @@ dissolves in seawater, lowering pH and threatening marine organisms with calcium
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Ecology", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-ecology"}]
+}
+</script>
+
 ### UT-2: Primary Production, Ecological Niches, and Predator-Prey Dynamics
 
 **Question:**
@@ -195,6 +222,15 @@ Factors preventing complete extinction:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Ecology", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-ecology"}]
+}
+</script>
+
 ### UT-3: Succession — Primary and Secondary
 
 **Question:**
@@ -286,6 +322,15 @@ These management techniques maintain habitats in a **sub-climax** state, preserv
 biodiversity associated with earlier successional stages.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Ecology", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-ecology"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -387,6 +432,15 @@ chain (more plant-based diets) can also reduce the ecological footprint of agric
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Ecology", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-ecology"}]
+}
+</script>
+
 ### IT-2: Population Dynamics and Conservation (with Biodiversity, Classification and Evolution)
 
 **Question:**
@@ -483,6 +537,15 @@ for conservation.
   the major drivers of species decline.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Ecology", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-ecology"}]
+}
+</script>
 
 ### IT-3: Nutrient Cycles and Agricultural Practice (with Exchange and Transport)
 

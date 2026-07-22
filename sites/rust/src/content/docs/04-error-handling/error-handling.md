@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "04 Error Handling", "url": "https://rust.wyattau.com/04-error-handling"}, {"name": "Error Handling", "url": "https://rust.wyattau.com/04-error-handling/error-handling"}]
+}
+</script>
 title: Error Handling
 description: "Rust divides errors into two categories: (bugs) and (expected Failures). Comprehensive educational content coverage with definitions and practice problems."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "04 Error Handling", "url": "https://rust.wyattau.com/04-error-handling"}, {"name": "Error Handling", "url": "https://rust.wyattau.com/04-error-handling/error-handling"}]
+}
+</script>
 
 ## Panic vs Result
 

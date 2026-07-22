@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "Correlation And Regression Depth", "url": "https://alevel.wyattau.com/maths/statistics/correlation-and-regression-depth"}]
+}
+</script>
 title: Correlation and Regression (Extended)
 description: "This document covers scatter diagrams, the product moment correlation coefficient, Spearman' s rank Correlation, least squares regression, and residual analy"
 date: 2026-04-23T00:00:00.000Z
@@ -6,6 +15,15 @@ tags: [Mathematics, ALevel]
 categories: [Mathematics]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "Correlation And Regression Depth", "url": "https://alevel.wyattau.com/maths/statistics/correlation-and-regression-depth"}]
+}
+</script>
 
 ## Correlation and Regression (Extended Treatment)
 

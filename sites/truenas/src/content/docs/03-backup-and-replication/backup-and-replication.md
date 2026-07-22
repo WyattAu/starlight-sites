@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "03 Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication"}, {"name": "Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication/backup-and-replication"}]
+}
+</script>
 title: Backup and Replication
 description: "The 3-2-1 rule is the minimum standard for data protection: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "03 Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication"}, {"name": "Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication/backup-and-replication"}]
+}
+</script>
 
 ## The 3-2-1 Backup Rule
 
@@ -24,6 +42,15 @@ ZFS makes this rule easy to implement:
 3-2-1-1-0: 3 copies, 2 media, 1 offsite, 1 air-gapped (disconnected), 0 errors (verified restores).
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "03 Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication"}, {"name": "Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication/backup-and-replication"}]
+}
+</script>
 
 ## ZFS Snapshots
 
@@ -92,6 +119,15 @@ zfs list -t snapshot -o name -s creation | \
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "03 Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication"}, {"name": "Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication/backup-and-replication"}]
+}
+</script>
+
 ## ZFS Send/Receive
 
 ### Full and Incremental Replication
@@ -137,6 +173,15 @@ zfs send -Rv tank/data@snapshot2 | \
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "03 Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication"}, {"name": "Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication/backup-and-replication"}]
+}
+</script>
+
 ## Cloud Sync
 
 ### Supported Cloud Providers
@@ -178,6 +223,15 @@ TrueNAS Cloud Sync supports:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "03 Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication"}, {"name": "Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication/backup-and-replication"}]
+}
+</script>
+
 ## Backup Verification
 
 ### The Restore Test
@@ -213,6 +267,15 @@ Set up monitoring and alerting to detect backup failures:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "03 Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication"}, {"name": "Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication/backup-and-replication"}]
+}
+</script>
+
 ## RPO and RTO
 
 ### Recovery Point Objective (RPO)
@@ -241,6 +304,15 @@ Able to restore service within 4 hours.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "03 Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication"}, {"name": "Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication/backup-and-replication"}]
+}
+</script>
+
 ## Ransomware Protection
 
 ### Immutable Snapshots
@@ -264,6 +336,15 @@ Window. This protects against ransomware that attempts to encrypt files and dele
 5. **Network segmentation:** Limit access to the NAS from untrusted networks.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "03 Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication"}, {"name": "Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication/backup-and-replication"}]
+}
+</script>
 
 ## Backup Encryption
 
@@ -297,6 +378,15 @@ zfs mount -l tank/encrypted-data
   destination cannot read the data without the key.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "03 Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication"}, {"name": "Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication/backup-and-replication"}]
+}
+</script>
 
 ## Common Pitfalls
 

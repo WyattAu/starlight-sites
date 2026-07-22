@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "Practice Elixir Basics", "url": "https://elixir.wyattau.com/practice-elixir-basics"}]
+}
+</script>
 title: Elixir Practice (Basics)
 description: "10 auto-graded practice problems covering core Elixir concepts. Select an answer Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-06-04
@@ -7,6 +16,15 @@ tags:
 categories:
   - Elixir
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "Practice Elixir Basics", "url": "https://elixir.wyattau.com/practice-elixir-basics"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -18,6 +36,15 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "Practice Elixir Basics", "url": "https://elixir.wyattau.com/practice-elixir-basics"}]
+}
+</script>
+
 ### Data Types and Pattern Matching
 
 <PracticeProblem client:only="solid-js" question={"What does `{a, b} = {1, 2}` do in Elixir?&quot; options={[ 'Binds a to 1 and b to 2', 'Checks if a equals 1 and b equals 2', 'Creates a tuple {1, 2} and assigns it to a', 'Raises a syntax error', ]} correctAnswer={0} explanation=&quot;The = operator is a match operator, not assignment. It matches the right side against the pattern on the left. Unbound variables (a, b) get bound to the corresponding values from the tuple."} difficulty="easy"  />
@@ -28,6 +55,15 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "Practice Elixir Basics", "url": "https://elixir.wyattau.com/practice-elixir-basics"}]
+}
+</script>
+
 ### Functions and Modules
 
 <PracticeProblem client:only="solid-js" question={"What is the difference between `def` and `defp` in a module?&quot; options={[ 'def is public, defp is private to the defining module', 'def is for functions, defp is for protocols', 'def compiles at runtime, defp compiles at compile time', 'def takes any number of args, defp takes exactly one', ]} correctAnswer={0} explanation=&quot;def defines a public function callable from any module. defp defines a private function only callable from within the defining module. Attempting to call a private function from outside raises UndefinedFunctionError."} difficulty="easy"  />
@@ -37,6 +73,15 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={`Which of the following correctly accesses the value associated with the key :name in the map \`%{name: "Alice", age: 30}\`?`} options={['map.name', 'map[:name] or map.name both work', 'map.get(:name)', 'map.fetch("name")']} correctAnswer={0} explanation="For maps with atom keys, the dot syntax (map.name) works and returns the value. map[:name]  also works and returns nil for missing keys. The dot syntax raises KeyError if the key is missing. map.get/2 is a Map module function, not a dot-access method." difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "Practice Elixir Basics", "url": "https://elixir.wyattau.com/practice-elixir-basics"}]
+}
+</script>
 
 ### Concurrency and OTP
 

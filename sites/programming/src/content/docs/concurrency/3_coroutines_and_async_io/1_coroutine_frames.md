@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Concurrency", "url": "https://programming.wyattau.com/concurrency"}, {"name": "3_coroutines_and_async_io", "url": "https://programming.wyattau.com/concurrency/3_coroutines_and_async_io"}, {"name": "1_coroutine_frames", "url": "https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/1_coroutine_frames"}]
+}
+</script>
 title: Stackless Coroutine Frames and Heap Allocation
 description: "This section covers coroutines as suspendable functions, the stackless vs stackful design trade-off, Coroutine frame layout, heap allocation and elision,"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Concurrency", "url": "https://programming.wyattau.com/concurrency"}, {"name": "3_coroutines_and_async_io", "url": "https://programming.wyattau.com/concurrency/3_coroutines_and_async_io"}, {"name": "1_coroutine_frames", "url": "https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/1_coroutine_frames"}]
+}
+</script>
 
 # Stackless Coroutine Frames and Heap Allocation
 

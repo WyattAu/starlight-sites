@@ -1,15 +1,42 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Diagnostics", "url": "https://tools.wyattau.com/diagnostics"}, {"name": "Diag Algorithms", "url": "https://tools.wyattau.com/diagnostics/diag-algorithms"}]
+}
+</script>
 title: "Diagnostic Test: Algorithms"
 description: "Self-assessment quiz on algorithms"
 sidebar_position: 60
 tableOfContents: false
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Diagnostics", "url": "https://tools.wyattau.com/diagnostics"}, {"name": "Diag Algorithms", "url": "https://tools.wyattau.com/diagnostics/diag-algorithms"}]
+}
+</script>
+
 # Diagnostic Test: Algorithms
 
 10 multiple-choice questions covering algorithms and data structures. Select the best answer for each question, then check your score using the answer key below.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Diagnostics", "url": "https://tools.wyattau.com/diagnostics"}, {"name": "Diag Algorithms", "url": "https://tools.wyattau.com/diagnostics/diag-algorithms"}]
+}
+</script>
 
 **Question 1.** What is the worst-case time complexity of QuickSort?
 
@@ -20,6 +47,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Diagnostics", "url": "https://tools.wyattau.com/diagnostics"}, {"name": "Diag Algorithms", "url": "https://tools.wyattau.com/diagnostics/diag-algorithms"}]
+}
+</script>
+
 **Question 2.** Which data structure is most appropriate for implementing a priority queue?
 
 (A) Hash table
@@ -28,6 +64,15 @@ tableOfContents: false
 (D) Stack
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Diagnostics", "url": "https://tools.wyattau.com/diagnostics"}, {"name": "Diag Algorithms", "url": "https://tools.wyattau.com/diagnostics/diag-algorithms"}]
+}
+</script>
 
 **Question 3.** What is the time complexity of finding an element in a balanced binary search tree?
 
@@ -38,6 +83,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Diagnostics", "url": "https://tools.wyattau.com/diagnostics"}, {"name": "Diag Algorithms", "url": "https://tools.wyattau.com/diagnostics/diag-algorithms"}]
+}
+</script>
+
 **Question 4.** Dijkstra's algorithm cannot handle graphs with:
 
 (A) More than 100 vertices
@@ -46,6 +100,15 @@ tableOfContents: false
 (D) Cycles of length 3
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Diagnostics", "url": "https://tools.wyattau.com/diagnostics"}, {"name": "Diag Algorithms", "url": "https://tools.wyattau.com/diagnostics/diag-algorithms"}]
+}
+</script>
 
 **Question 5.** Which of the following is NOT a property required for dynamic programming?
 
@@ -56,6 +119,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Diagnostics", "url": "https://tools.wyattau.com/diagnostics"}, {"name": "Diag Algorithms", "url": "https://tools.wyattau.com/diagnostics/diag-algorithms"}]
+}
+</script>
+
 **Question 6.** The time complexity of building a heap from an unsorted array of n elements is:
 
 (A) O(n)
@@ -64,6 +136,15 @@ tableOfContents: false
 (D) O(log n)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Diagnostics", "url": "https://tools.wyattau.com/diagnostics"}, {"name": "Diag Algorithms", "url": "https://tools.wyattau.com/diagnostics/diag-algorithms"}]
+}
+</script>
 
 **Question 7.** Breadth-first search uses which data structure to manage the exploration frontier?
 
@@ -74,6 +155,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Diagnostics", "url": "https://tools.wyattau.com/diagnostics"}, {"name": "Diag Algorithms", "url": "https://tools.wyattau.com/diagnostics/diag-algorithms"}]
+}
+</script>
+
 **Question 8.** What does a topological sort produce for a directed acyclic graph?
 
 (A) The shortest path between all pairs of vertices
@@ -82,6 +172,15 @@ tableOfContents: false
 (D) A strongly connected component decomposition
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Diagnostics", "url": "https://tools.wyattau.com/diagnostics"}, {"name": "Diag Algorithms", "url": "https://tools.wyattau.com/diagnostics/diag-algorithms"}]
+}
+</script>
 
 **Question 9.** Which algorithm is used to find the longest common subsequence of two sequences?
 
@@ -92,6 +191,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Diagnostics", "url": "https://tools.wyattau.com/diagnostics"}, {"name": "Diag Algorithms", "url": "https://tools.wyattau.com/diagnostics/diag-algorithms"}]
+}
+</script>
+
 **Question 10.** In a hash table with chaining, what is the worst-case time complexity for a search?
 
 (A) O(1)
@@ -100,6 +208,15 @@ tableOfContents: false
 (D) O(n log n)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Diagnostics", "url": "https://tools.wyattau.com/diagnostics"}, {"name": "Diag Algorithms", "url": "https://tools.wyattau.com/diagnostics/diag-algorithms"}]
+}
+</script>
 
 ## Intuition
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Data Structures", "url": "https://computer-science.wyattau.com/1-algorithms/practice-data-structures"}]
+}
+</script>
 title: "Data Structures -- Practice Problems"
 description: "10 MCQ questions covering hash tables, binary search trees, heaps, tries, B-trees, and amortized analysis. Select an option to check your answer and view"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Data Structures", "url": "https://computer-science.wyattau.com/1-algorithms/practice-data-structures"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -20,6 +38,15 @@ analysis. Select an option to check your answer and view the explanation.
 **The key insight:** Every data structure is a trade-off — hash tables give O(1) lookup but poor ordering, trees give O(log n) lookup and ordering, and tries give O(m) prefix search but use more memory. Choose based on what operations you need most.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Data Structures", "url": "https://computer-science.wyattau.com/1-algorithms/practice-data-structures"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -71,6 +98,15 @@ Let me recalculate:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Data Structures", "url": "https://computer-science.wyattau.com/1-algorithms/practice-data-structures"}]
+}
+</script>
+
 ### Example 2: Binary Heap — Insert and Extract-Min
 
 **Problem:** Build a min-heap from array $[15, 13, 12, 11, 9, 8, 7, 6, 5, 4]$ and extract the minimum three times.
@@ -118,6 +154,15 @@ After extracting 6:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Data Structures", "url": "https://computer-science.wyattau.com/1-algorithms/practice-data-structures"}]
+}
+</script>
+
 ### Example 3: Trie — Prefix Search
 
 **Problem:** Build a trie for words $\{$"cat", "car", "card", "dog", "dot"$\}$ and find all words with prefix "ca".
@@ -150,6 +195,15 @@ root
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Data Structures", "url": "https://computer-science.wyattau.com/1-algorithms/practice-data-structures"}]
+}
+</script>
+
 ## Hash Tables and Tries
 
 <PracticeProblem client:only="solid-js" question={"In a hash table with chaining and load factor $\\alpha = n/m$, what is the expected time complexity of an unsuccessful search?&quot; options={['$O(1 + \\alpha)$', '$O(1)$', '$O(\\alpha^2)$', '$O(\\log \\alpha)$']} correctAnswer={0} explanation=&quot;With chaining, each slot holds a linked list. Under simple uniform hashing, the expected chain length at any slot is $\\alpha = n/m$. An unsuccessful search must traverse the entire chain at the target slot, giving $O(\\alpha)$ average. Including the hash computation: $O(1 + \\alpha)$. For open addressing, it is $O(1/(1-\\alpha))$."} difficulty="easy"  />
@@ -175,6 +229,15 @@ root
 <PracticeProblem client:only="solid-js" question={"What distinguishes a red-black tree from an AVL tree in terms of balance strictness and practical performance?&quot; options={[ 'Red-black trees allow height up to $2\\log_2(n+1)$; AVL trees are stricter ($\\leq 1.44\\log_2 n$). Red-black trees do fewer rotations on insert/delete', 'AVL trees allow height up to $2\\log_2(n+1)$; red-black trees are stricter', 'Both have identical height bounds and rotation costs', 'Red-black trees guarantee $O(1)$ height; AVL trees allow $O(n)$', ]} correctAnswer={0} explanation=&quot;Red-black trees guarantee $h \\leq 2\\log_2(n+1)$ via 5 properties (red root, no red-red children, equal black-height on all paths). AVL trees are stricter with $|bf| \\leq 1$, giving $h \\leq 1.44\\log_2(n+2)$. AVL trees are slightly more balanced (faster lookups), but red-black trees require at most 3 rotations on insert and at most $O(\\log n)$ on delete, making them faster for write-heavy workloads."} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Data Structures", "url": "https://computer-science.wyattau.com/1-algorithms/practice-data-structures"}]
+}
+</script>
 
 ## Additional Data Structures Questions
 

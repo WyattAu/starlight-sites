@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Haskell", "url": "https://languages.wyattau.com/haskell"}, {"name": "05 Advanced", "url": "https://languages.wyattau.com/haskell/05-advanced"}, {"name": "1_advanced Types", "url": "https://languages.wyattau.com/haskell/05-advanced/1_advanced-types"}]
+}
+</script>
 title: Advanced Types
 description: "Algebraic data types (ADTs) in Haskell are the foundation of its type system. They combine (multiple constructors, one is chosen) and (a constructor holds"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Haskell
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Haskell", "url": "https://languages.wyattau.com/haskell"}, {"name": "05 Advanced", "url": "https://languages.wyattau.com/haskell/05-advanced"}, {"name": "1_advanced Types", "url": "https://languages.wyattau.com/haskell/05-advanced/1_advanced-types"}]
+}
+</script>
 
 ## Algebraic Data Types Revisited
 

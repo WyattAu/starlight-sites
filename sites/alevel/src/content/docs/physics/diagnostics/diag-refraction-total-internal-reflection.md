@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Refraction Total Internal Reflection", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-refraction-total-internal-reflection"}]
+}
+</script>
 title: "Refraction and Total Internal Reflection -- Diagnostic Tests"
 description: "A-Level Physics Refraction and Total Internal Reflection -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Refraction Total Internal Reflection", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-refraction-total-internal-reflection"}]
+}
+</script>
 
 
 ## Intuition
@@ -64,6 +82,15 @@ Angular dispersion $= e' - e = 64.2^\circ - 60.6^\circ = 3.6^\circ$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Refraction Total Internal Reflection", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-refraction-total-internal-reflection"}]
+}
+</script>
+
 ### UT-2: Optical Fibre — Step Index
 
 **Question:**
@@ -111,6 +138,15 @@ Number of reflections per metre:
 $N = 1/(2.12 \times 10^{-4}) = 4720\,\text{reflections}\,\text{m}^{-1}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Refraction Total Internal Reflection", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-refraction-total-internal-reflection"}]
+}
+</script>
 
 ### UT-3: Refractive Index from Real and Apparent Depth
 
@@ -212,6 +248,15 @@ $h \ge 9.86\,\text{cm}$. Only rays very close to the edge undergo TIR.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Refraction Total Internal Reflection", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-refraction-total-internal-reflection"}]
+}
+</script>
+
 ### IT-2: Optical Fibre Signal Attenuation (with DC Circuits)
 
 **Question:**
@@ -259,6 +304,15 @@ rays that previously satisfied the TIR condition no longer do, and they leak int
 is macrobending loss.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Refraction Total Internal Reflection", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-refraction-total-internal-reflection"}]
+}
+</script>
 
 ### IT-3: Prism as a Reflecting Element (with Superposition)
 

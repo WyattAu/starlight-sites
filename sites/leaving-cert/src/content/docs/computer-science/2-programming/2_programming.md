@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "2 Programming", "url": "https://leaving-cert.wyattau.com/computer-science/2-programming"}, {"name": "2_programming", "url": "https://leaving-cert.wyattau.com/computer-science/2-programming/2_programming"}]
+}
+</script>
 title: Algorithms and Programming
 description: "ILC Computer Science Algorithms and Programming notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ilc-computer-science
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "2 Programming", "url": "https://leaving-cert.wyattau.com/computer-science/2-programming"}, {"name": "2_programming", "url": "https://leaving-cert.wyattau.com/computer-science/2-programming/2_programming"}]
+}
+</script>
 
 # Algorithms and Programming
 
@@ -770,6 +788,15 @@ Understanding these concepts thoroughly is essential for both examinations and p
 programming, and requires both theoretical knowledge and hands-on practice.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "2 Programming", "url": "https://leaving-cert.wyattau.com/computer-science/2-programming"}, {"name": "2_programming", "url": "https://leaving-cert.wyattau.com/computer-science/2-programming/2_programming"}]
+}
+</script>
 
 ## Cross-References
 

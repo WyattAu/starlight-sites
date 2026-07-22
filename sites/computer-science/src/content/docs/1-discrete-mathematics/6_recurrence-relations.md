@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Discrete Mathematics", "url": "https://computer-science.wyattau.com/1-discrete-mathematics"}, {"name": "6_recurrence Relations", "url": "https://computer-science.wyattau.com/1-discrete-mathematics/6_recurrence-relations"}]
+}
+</script>
 title: Recurrence Relations
 tags:
   - Computing
   - University
 description: "A defines a sequence by expressing in terms of previous terms. Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Discrete Mathematics", "url": "https://computer-science.wyattau.com/1-discrete-mathematics"}, {"name": "6_recurrence Relations", "url": "https://computer-science.wyattau.com/1-discrete-mathematics/6_recurrence-relations"}]
+}
+</script>
 
 ### 6.1 Definition
 

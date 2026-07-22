@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Thermodynamics", "url": "https://physics.wyattau.com/thermodynamics"}]
+}
+</script>
 title: thermodynamics
 date: 2026-05-30
 tags:
@@ -7,6 +16,15 @@ categories:
   - University Physics
 description: "is the branch of physics that deals with heat, work, temperature, and their relation to energy, entropy, and the physical properties of matter. It provides"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Thermodynamics", "url": "https://physics.wyattau.com/thermodynamics"}]
+}
+</script>
 
 ## 1. Introduction
 
@@ -497,6 +515,15 @@ friction, heat losses, incomplete combustion, and finite combustion speed.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Thermodynamics", "url": "https://physics.wyattau.com/thermodynamics"}]
+}
+</script>
+
 ## 9. Common Pitfalls
 
 1. **"Heat and internal energy are the same thing."** Heat $Q$ is energy in transit due to a
@@ -539,6 +566,15 @@ friction, heat losses, incomplete combustion, and finite combustion speed.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Thermodynamics", "url": "https://physics.wyattau.com/thermodynamics"}]
+}
+</script>
+
 ## 10. Summary
 
 - **Zeroth law** establishes temperature as a transitive, well-defined equilibrium property.
@@ -561,6 +597,15 @@ friction, heat losses, incomplete combustion, and finite combustion speed.
   compression ratio and temperature differential.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Thermodynamics", "url": "https://physics.wyattau.com/thermodynamics"}]
+}
+</script>
 
 ## Intuition
 

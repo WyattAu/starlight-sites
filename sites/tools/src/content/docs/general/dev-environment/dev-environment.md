@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment/dev-environment"}]
+}
+</script>
 title: Development Environment Setup
 description: "Modern terminal emulators use the GPU for rendering, enabling smooth scrolling and proper Unicode support."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment/dev-environment"}]
+}
+</script>
 
 ## Intuition
 
@@ -70,6 +88,15 @@ Install a Nerd Font variant for proper icon rendering in terminal prompts and fi
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment/dev-environment"}]
+}
+</script>
+
 ## Shells
 
 ### Shell Comparison
@@ -96,6 +123,15 @@ Install a Nerd Font variant for proper icon rendering in terminal prompts and fi
   `/bin/bash` for scripts regardless of your interactive shell choice.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment/dev-environment"}]
+}
+</script>
 
 ## Zsh Configuration
 
@@ -165,6 +201,15 @@ disabled = false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment/dev-environment"}]
+}
+</script>
+
 ## Dotfiles Management
 
 ### GNU Stow
@@ -230,6 +275,15 @@ export PATH="/usr/local/bin:$PATH"
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment/dev-environment"}]
+}
+</script>
+
 ## Editors
 
 ### Neovim
@@ -275,6 +329,15 @@ Regardless of editor, these keybindings improve productivity:
 | Search in files  | `:Ag` / `:Rg`  | `Ctrl+Shift+F` | Code search            |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment/dev-environment"}]
+}
+</script>
 
 ## Terminal Multiplexers
 
@@ -333,6 +396,15 @@ bind l select-pane -R
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment/dev-environment"}]
+}
+</script>
+
 ## Version Control Setup
 
 ### Git Configuration
@@ -383,6 +455,15 @@ ssh-copy-id user@remote-host
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment/dev-environment"}]
+}
+</script>
+
 ## Productivity CLI Tools
 
 ### Modern Coreutils Replacements
@@ -423,6 +504,15 @@ rg --color=always --line-number "" | fzf --ansi --delimiter : --preview 'bat --c
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment/dev-environment"}]
+}
+</script>
+
 ## Containerized Dev Environments
 
 ### Devcontainers
@@ -461,6 +551,15 @@ nix develop  # Enter the development shell
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment/dev-environment"}]
+}
+</script>
+
 ## Cross-Platform Considerations
 
 ### macOS Specifics
@@ -492,6 +591,15 @@ nix develop  # Enter the development shell
   ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment/dev-environment"}]
+}
+</script>
 
 ## Common Pitfalls
 

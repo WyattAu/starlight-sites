@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "8_singular Value Decomposition", "url": "https://mathematics.wyattau.com/2-linear-algebra/8_singular-value-decomposition"}]
+}
+</script>
 title: Singular Value Decomposition
 tags:
   - Mathematics
   - University
 description: 'Singular Value Decomposition: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "8_singular Value Decomposition", "url": "https://mathematics.wyattau.com/2-linear-algebra/8_singular-value-decomposition"}]
+}
+</script>
 
 ### 8.1 Existence of the SVD
 

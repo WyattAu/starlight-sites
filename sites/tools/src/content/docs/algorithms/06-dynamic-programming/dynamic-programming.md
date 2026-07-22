@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "06 Dynamic Programming", "url": "https://tools.wyattau.com/algorithms/06-dynamic-programming"}, {"name": "Dynamic Programming", "url": "https://tools.wyattau.com/algorithms/06-dynamic-programming/dynamic-programming"}]
+}
+</script>
 title: Dynamic Programming
 description: "Dynamic programming (DP) solves problems by breaking them into overlapping subproblems, solving each Subproblem once, and storing the results. Two"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "06 Dynamic Programming", "url": "https://tools.wyattau.com/algorithms/06-dynamic-programming"}, {"name": "Dynamic Programming", "url": "https://tools.wyattau.com/algorithms/06-dynamic-programming/dynamic-programming"}]
+}
+</script>
 
 ## DP Fundamentals
 

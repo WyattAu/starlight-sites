@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Psychology", "url": "https://alevel.wyattau.com/psychology"}, {"name": "4 Attachment", "url": "https://alevel.wyattau.com/psychology/4-attachment"}, {"name": "1_attachment", "url": "https://alevel.wyattau.com/psychology/4-attachment/1_attachment"}]
+}
+</script>
 title: Attachment
 date: 2026-05-12T00:00:00.000Z
 tags:
@@ -9,6 +18,15 @@ categories:
 description: "A-Level Psychology Attachment notes covering key definitions, core concepts, worked examples, and practice questions for structured review and exam preparation."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Psychology", "url": "https://alevel.wyattau.com/psychology"}, {"name": "4 Attachment", "url": "https://alevel.wyattau.com/psychology/4-attachment"}, {"name": "1_attachment", "url": "https://alevel.wyattau.com/psychology/4-attachment/1_attachment"}]
+}
+</script>
 
 # Attachment
 

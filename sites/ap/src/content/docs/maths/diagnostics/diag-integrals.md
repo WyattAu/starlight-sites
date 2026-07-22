@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Integrals", "url": "https://ap.wyattau.com/maths/diagnostics/diag-integrals"}]
+}
+</script>
 title: "Integrals -- Diagnostic Tests"
 description: "> Tests edge cases, boundary conditions, and common misconceptions for integrals Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ap-maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Integrals", "url": "https://ap.wyattau.com/maths/diagnostics/diag-integrals"}]
+}
+</script>
 
 # Integrals — Diagnostic Tests
 
@@ -56,6 +74,15 @@ $$= 2\left(\frac{\pi}{6} - \frac{\sin(2\pi/3)}{4}\right) = 2\left(\frac{\pi}{6} 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Integrals", "url": "https://ap.wyattau.com/maths/diagnostics/diag-integrals"}]
+}
+</script>
+
 ### UT-2: Integration by Parts with LIATE Trap
 
 **Question:**
@@ -102,6 +129,15 @@ different assignment for the second integration by parts (switching $u$ and $dv$
 circular argument instead of solving for $I$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Integrals", "url": "https://ap.wyattau.com/maths/diagnostics/diag-integrals"}]
+}
+</script>
 
 ### UT-3: Area Between Curves When Functions Cross the x-Axis
 
@@ -159,6 +195,15 @@ at intersection points, which would give wrong answers .
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Integrals", "url": "https://ap.wyattau.com/maths/diagnostics/diag-integrals"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of integrals with other topics.
@@ -214,6 +259,15 @@ which changes the distance from every point to the axis.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Integrals", "url": "https://ap.wyattau.com/maths/diagnostics/diag-integrals"}]
+}
+</script>
+
 ### IT-2: Improper Integral Convergence with Parameter (with Limits)
 
 **Question:**
@@ -253,6 +307,15 @@ Note: this integral equals $B(p, 1-p) = \pi \csc(\pi p)$ (the beta function), wh
 domain of convergence.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Integrals", "url": "https://ap.wyattau.com/maths/diagnostics/diag-integrals"}]
+}
+</script>
 
 ### IT-3: FTC Part 1 vs Part 2 Confusion with Piecewise Functions (with Continuity)
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Equilibrium", "url": "https://alevel.wyattau.com/chemistry/equilibrium"}]
+}
+</script>
 title: Chemical Equilibrium
 description: "A reversible reaction reaches equilibrium when the rate of the forward reaction equals the rate of the reverse reaction."
 date: 2026-04-21T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Equilibrium", "url": "https://alevel.wyattau.com/chemistry/equilibrium"}]
+}
+</script>
 
 # Chemical Equilibrium
 
@@ -1009,6 +1027,15 @@ $$s = \sqrt[3]{\frac{K_{sp}}{4}} = \sqrt[3]{\frac{9.8 \times 10^{-9}}{4}} = \sqr
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Equilibrium", "url": "https://alevel.wyattau.com/chemistry/equilibrium"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 questions within the A-Level specification for this topic, each with a full worked solution.

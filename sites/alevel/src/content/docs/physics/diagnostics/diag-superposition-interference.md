@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Superposition Interference", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-superposition-interference"}]
+}
+</script>
 title: "Superposition and Interference -- Diagnostic Tests"
 description: "A-Level Physics Superposition and Interference -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Superposition Interference", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-superposition-interference"}]
+}
+</script>
 
 
 ## Intuition
@@ -60,6 +78,15 @@ provides finer resolution but makes the pattern harder to observe.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Superposition Interference", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-superposition-interference"}]
+}
+</script>
+
 ### UT-2: Diffraction Grating with White Light
 
 **Question:**
@@ -105,6 +132,15 @@ To find the overlap region: we need $\theta_{2,\text{blue}} \gt \theta_{1,\text{
 $26.7^\circ \gt 20.5^\circ$. Confirmed.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Superposition Interference", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-superposition-interference"}]
+}
+</script>
 
 ### UT-3: Stationary Wave in a Closed Pipe
 
@@ -188,6 +224,15 @@ In terms of fringe spacings: $120/1.44 = 83.3$ fringes. The entire pattern shift
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Superposition Interference", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-superposition-interference"}]
+}
+</script>
+
 ### IT-2: Diffraction Grating Resolution (with Wave Properties)
 
 **Question:**
@@ -222,6 +267,15 @@ This demonstrates that even a very small grating can resolve the sodium doublet,
 a standard test of optical instruments.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Superposition Interference", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-superposition-interference"}]
+}
+</script>
 
 ### IT-3: Interference from Thin Films (with Refraction)
 

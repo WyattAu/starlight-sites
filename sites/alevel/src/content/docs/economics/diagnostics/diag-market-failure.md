@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Market Failure", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-market-failure"}]
+}
+</script>
 title: "Market Failure -- Diagnostic Tests"
 description: "A-Level Economics Market Failure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Market Failure", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-market-failure"}]
+}
+</script>
 
 
 ## Intuition
@@ -50,6 +68,15 @@ optimum.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Market Failure", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-market-failure"}]
+}
+</script>
+
 ### UT-2: Public Goods and Free-Rider Problem
 
 **Question:** A town of 1000 residents is considering building a public park. Each resident"s
@@ -81,6 +108,15 @@ non-excludable (cannot prevent non-payers from using it) and non-rivalrous (one 
 not reduce availability to others).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Market Failure", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-market-failure"}]
+}
+</script>
 
 ### UT-3: Government Intervention Effectiveness
 
@@ -154,6 +190,15 @@ for disadvantaged students).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Market Failure", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-market-failure"}]
+}
+</script>
+
 ### IT-2: Information Failure and Insurance Markets (with The Financial Sector)
 
 **Question:** In the market for health insurance, asymmetric information exists because individuals
@@ -197,6 +242,15 @@ This is the adverse selection death spiral: the inability to distinguish risk ty
 failure where the insurance market may collapse entirely.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Market Failure", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-market-failure"}]
+}
+</script>
 
 ### IT-3: Environmental Policy and International Trade (with The International Economy)
 
@@ -245,6 +299,15 @@ environmental policy and international competitiveness.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Market Failure", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-market-failure"}]
+}
+</script>
+
 ## Section 3: Extended Market Failure Practice
 
 **UT-4 (Extension).** A factory produces steel and emits pollution. Demand: $P = 500 - Q$. Private
@@ -288,6 +351,15 @@ society better off by exactly the DWL amount.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Market Failure", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-market-failure"}]
+}
+</script>
+
 **UT-5 (Extension): Public Goods.** A village of 100 people is considering building a street
 lighting system. Each streetlight costs $\pounds 500$ to install and $\pounds 50$ per year to
 maintain. Each resident's marginal benefit from streetlights is given by $MB_i = 10 - 0.5Q$ where
@@ -317,6 +389,15 @@ the social optimum benefits everyone. This illustrates the difficulty of funding
 through voluntary means.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Market Failure", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-market-failure"}]
+}
+</script>
 
 **IT-4 (Extension): Merit Goods and Information Failure.** Vaccination against a disease provides
 both private benefits and positive externalities (herd immunity). Private demand: $Q_D = 1000 - 5P$.
@@ -357,6 +438,15 @@ subsidy shifts the demand curve from MPB to MSB, achieving the socially optimal 
 government cost: Government cost $= 20 \times 257.14 = 5142.8$ (vs 540,000 for free vaccination).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Market Failure", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-market-failure"}]
+}
+</script>
 
 **IT-5 (Extension): Government Failure.** The government imposes rent control on housing. The market
 for rental housing has demand $Q_D = 1000 - 5P$ and supply $Q_S = 4P - 200$ (where $P$ is monthly

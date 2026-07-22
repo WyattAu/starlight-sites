@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Individual Oral Commentary Guide", "url": "https://ib.wyattau.com/english/individual-oral-commentary-guide"}]
+}
+</script>
 title: Individual Oral Commentary Guide
 description: "Guide for the IB English Individual Oral Commentary assessment."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Individual Oral Commentary Guide", "url": "https://ib.wyattau.com/english/individual-oral-commentary-guide"}]
+}
+</script>
 
 # Individual Oral Commentary Guide
 
@@ -12,6 +30,15 @@ precision, fluency, and the ability to connect specific textual features to larg
 claims in real time.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Individual Oral Commentary Guide", "url": "https://ib.wyattau.com/english/individual-oral-commentary-guide"}]
+}
+</script>
 
 ## 1. What is the IOC?
 
@@ -61,6 +88,15 @@ student must know all Part 2 works well enough to produce an intelligent comment
 the teacher might select.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Individual Oral Commentary Guide", "url": "https://ib.wyattau.com/english/individual-oral-commentary-guide"}]
+}
+</script>
 
 ## Intuition
 
@@ -126,6 +162,15 @@ Extracts that contain both dialogue and stage directions are particularly produc
 allow the commentator to analyse the relationship between what is said and what is shown.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Individual Oral Commentary Guide", "url": "https://ib.wyattau.com/english/individual-oral-commentary-guide"}]
+}
+</script>
 
 ## 3. Preparation Strategies
 
@@ -199,6 +244,15 @@ After each practice session, evaluate:
 5. Did I move beyond identification to explain effects and significance?
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Individual Oral Commentary Guide", "url": "https://ib.wyattau.com/english/individual-oral-commentary-guide"}]
+}
+</script>
 
 ## 4. Commentary Structure
 
@@ -284,6 +338,15 @@ the reader to recognise that the most ordinary-seeming details can carry the wei
 guilt."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Individual Oral Commentary Guide", "url": "https://ib.wyattau.com/english/individual-oral-commentary-guide"}]
+}
+</script>
 
 ## 5. How to Analyse
 
@@ -412,6 +475,15 @@ contributes to the extract's meaning.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Individual Oral Commentary Guide", "url": "https://ib.wyattau.com/english/individual-oral-commentary-guide"}]
+}
+</script>
+
 ## 6. Marking Criteria
 
 ### 6.1 Criterion A: Knowledge and Understanding
@@ -473,6 +545,15 @@ following distinctions apply:
   reading would miss.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Individual Oral Commentary Guide", "url": "https://ib.wyattau.com/english/individual-oral-commentary-guide"}]
+}
+</script>
 
 ## 7. Practice Framework
 
@@ -562,6 +643,15 @@ After each practice IOC, evaluate your performance against the following criteri
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Individual Oral Commentary Guide", "url": "https://ib.wyattau.com/english/individual-oral-commentary-guide"}]
+}
+</script>
+
 ## 8. Common Pitfalls
 
 ### 8.1 Feature Spotting vs Analysis
@@ -624,6 +714,15 @@ instructions for how the text should be experienced.
 first 3 minutes of annotation, identify formal features alongside content features.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Individual Oral Commentary Guide", "url": "https://ib.wyattau.com/english/individual-oral-commentary-guide"}]
+}
+</script>
 
 ## 9. Sample Annotations
 
@@ -708,6 +807,15 @@ From these annotations, a commentary can be structured around three interpretive
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Individual Oral Commentary Guide", "url": "https://ib.wyattau.com/english/individual-oral-commentary-guide"}]
+}
+</script>
+
 ## 10. Summary
 
 The IOC tests the student's ability to perform sustained, structured close reading under pressure.
@@ -736,6 +844,15 @@ presentation, and the discipline to connect every observation to a specific inte
 - Practice framework for systematic preparation
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Individual Oral Commentary Guide", "url": "https://ib.wyattau.com/english/individual-oral-commentary-guide"}]
+}
+</script>
 
 ## Practice Questions
 

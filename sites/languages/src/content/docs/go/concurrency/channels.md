@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Go", "url": "https://languages.wyattau.com/go"}, {"name": "Concurrency", "url": "https://languages.wyattau.com/go/concurrency"}, {"name": "Channels", "url": "https://languages.wyattau.com/go/concurrency/channels"}]
+}
+</script>
 title: Channels and Concurrency Patterns
 description: "Unbuffered channels synchronize sender and receiver: both must be ready at the same time. Buffered Channels allow the sender to proceed up to the buffer"
 date: 2026-04-18
@@ -7,6 +16,15 @@ tags:
 categories:
   - Go
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Go", "url": "https://languages.wyattau.com/go"}, {"name": "Concurrency", "url": "https://languages.wyattau.com/go/concurrency"}, {"name": "Channels", "url": "https://languages.wyattau.com/go/concurrency/channels"}]
+}
+</script>
 
 ## Channel Review
 

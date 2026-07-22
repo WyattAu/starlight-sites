@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 title: "Trigonometry -- Diagnostic Tests"
 description: "A-Level Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 
 ## Intuition
@@ -69,6 +87,15 @@ rule can only ever yield one value for $B$. The ambiguity is an inherent propert
 because $\sin$ is symmetric about $90°$ on $(0°, 180°)$: $\sin\theta = \sin(180° - \theta)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ### UT-2: Cancelling $\sin\theta$ When $\sin\theta = 0$
 
@@ -149,6 +176,15 @@ Solution: $x = 0$ only.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
+
 ### UT-3: Solving $\cos(3x) = \frac{1}{2}$ with Full Periodicity
 
 **Question:**
@@ -204,6 +240,15 @@ The sum of all $x$-coordinates:
 $$S = \frac{\pi}{9} + \frac{5\pi}{9} + \frac{7\pi}{9} + \frac{11\pi}{9} + \frac{13\pi}{9} + \frac{17\pi}{9} = \frac{60\pi}{9} = \frac{20\pi}{3}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -274,6 +319,15 @@ $\sin\frac{\pi}{4} = \frac{1}{\sqrt{2}}$.
 $$\frac{d\theta}{dt} = -\frac{1}{10 \cdot \frac{1}{\sqrt{2}}} = -\frac{\sqrt{2}}{10} \text{ rad/s}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ### IT-2: Area Enclosed by a Parametric Trigonometric Curve (with Coordinate Geometry)
 
@@ -362,6 +416,15 @@ $$\left(\frac{a(\sqrt{33}-1)}{16},\quad \pm\frac{a}{16}\sqrt{30+2\sqrt{33}}\righ
 $$\left(\frac{-a(\sqrt{33}+1)}{16},\quad \pm\frac{a}{16}\sqrt{30-2\sqrt{33}}\right)$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ### IT-3: Inverse Trigonometric Composition and Domain Restrictions (with Functions)
 

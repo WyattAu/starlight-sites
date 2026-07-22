@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Conservation", "url": "https://dse.wyattau.com/biology/diagnostics/diag-biodiversity-conservation"}]
+}
+</script>
 title: "Biodiversity and Conservation -- Diagnostic Tests"
 description: "DSE Biology Biodiversity and Conservation -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Conservation", "url": "https://dse.wyattau.com/biology/diagnostics/diag-biodiversity-conservation"}]
+}
+</script>
 
 # DSE Biology Diagnostic: Biodiversity and Conservation
 
@@ -33,6 +51,15 @@ Where $n$ = number of individuals of a species, and $N$ = total number of indivi
 [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Conservation", "url": "https://dse.wyattau.com/biology/diagnostics/diag-biodiversity-conservation"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -71,6 +98,15 @@ lost, the ecosystem would be severely affected because Species 1 dominates the c
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Conservation", "url": "https://dse.wyattau.com/biology/diagnostics/diag-biodiversity-conservation"}]
+}
+</script>
+
 ## Unit Test 2: In Situ vs Ex Situ Conservation
 
 **Question**
@@ -84,6 +120,15 @@ each. [4 marks]
 conservation. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Conservation", "url": "https://dse.wyattau.com/biology/diagnostics/diag-biodiversity-conservation"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -123,6 +168,15 @@ into different **appendices**:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Conservation", "url": "https://dse.wyattau.com/biology/diagnostics/diag-biodiversity-conservation"}]
+}
+</script>
+
 ## Unit Test 3: Edge Effects and Habitat Fragmentation
 
 **Question**
@@ -138,6 +192,15 @@ interior of a habitat fragment. [3 marks]
 continuous 200-hectare forest that has never been part of a larger habitat. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Conservation", "url": "https://dse.wyattau.com/biology/diagnostics/diag-biodiversity-conservation"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -191,6 +254,15 @@ than a occurring 200-hectare forest because of:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Conservation", "url": "https://dse.wyattau.com/biology/diagnostics/diag-biodiversity-conservation"}]
+}
+</script>
+
 ## Intuition
 
 **Nature's web of life:** Biodiversity is like a tapestry — each species is a thread, and removing threads weakens the whole fabric. Conservation is about protecting the threads that keep ecosystems functional.
@@ -217,6 +289,15 @@ its long-term survival. [3 marks]
 maintain genetic diversity. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Conservation", "url": "https://dse.wyattau.com/biology/diagnostics/diag-biodiversity-conservation"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -265,6 +346,15 @@ monitoring. It is a long-term solution but difficult to enforce globally.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Conservation", "url": "https://dse.wyattau.com/biology/diagnostics/diag-biodiversity-conservation"}]
+}
+</script>
+
 ## Integration Test 2: Human Impact and Sustainability
 
 **Question**
@@ -282,6 +372,15 @@ practice in resource management. [3 marks]
 Evaluate the environmental benefits and limitations of this decision. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Conservation", "url": "https://dse.wyattau.com/biology/diagnostics/diag-biodiversity-conservation"}]
+}
+</script>
 
 **Worked Solution**
 

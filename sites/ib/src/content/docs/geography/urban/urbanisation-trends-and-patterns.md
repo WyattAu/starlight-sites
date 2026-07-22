@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Urban", "url": "https://ib.wyattau.com/geography/urban"}, {"name": "Urbanisation Trends And Patterns", "url": "https://ib.wyattau.com/geography/urban/urbanisation-trends-and-patterns"}]
+}
+</script>
 title: Urbanisation Trends and Patterns
 description: "Urbanisation is the increasing proportion of a national population living in urban areas. The global Urban population exceeded the rural population for the"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Urban", "url": "https://ib.wyattau.com/geography/urban"}, {"name": "Urbanisation Trends And Patterns", "url": "https://ib.wyattau.com/geography/urban/urbanisation-trends-and-patterns"}]
+}
+</script>
 
 # Urbanisation Trends and Patterns
 

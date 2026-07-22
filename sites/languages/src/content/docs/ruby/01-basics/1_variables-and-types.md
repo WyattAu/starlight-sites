@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Ruby", "url": "https://languages.wyattau.com/ruby"}, {"name": "01 Basics", "url": "https://languages.wyattau.com/ruby/01-basics"}, {"name": "1_variables And Types", "url": "https://languages.wyattau.com/ruby/01-basics/1_variables-and-types"}]
+}
+</script>
 title: Variables and Types
 description: "Ruby has several types of variables, each with distinct scope and purpose. Variables do not need explicit type declarations -- Ruby is dynamically typed,"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Ruby
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Ruby", "url": "https://languages.wyattau.com/ruby"}, {"name": "01 Basics", "url": "https://languages.wyattau.com/ruby/01-basics"}, {"name": "1_variables And Types", "url": "https://languages.wyattau.com/ruby/01-basics/1_variables-and-types"}]
+}
+</script>
 
 ## Intuition
 
@@ -859,6 +877,15 @@ Integer("abc")     # => ArgumentError
 | false    | `false`        | No      | Singleton FalseClass                   |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Ruby", "url": "https://languages.wyattau.com/ruby"}, {"name": "01 Basics", "url": "https://languages.wyattau.com/ruby/01-basics"}, {"name": "1_variables And Types", "url": "https://languages.wyattau.com/ruby/01-basics/1_variables-and-types"}]
+}
+</script>
 
 ## Cross-References
 

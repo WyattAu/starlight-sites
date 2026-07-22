@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "9_problem Set", "url": "https://physics.wyattau.com/1-classical-mechanics/9_problem-set"}]
+}
+</script>
 title: Problem Set
 tags:
   - Physics
   - University
 description: "A particle of mass is placed on top of a smooth sphere of radius . It is given a tiny nudge so it begins to slide. At what angle does it leave the surface"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "9_problem Set", "url": "https://physics.wyattau.com/1-classical-mechanics/9_problem-set"}]
+}
+</script>
 
 ### Problem 1
 

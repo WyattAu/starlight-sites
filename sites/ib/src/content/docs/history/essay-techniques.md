@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Essay Techniques", "url": "https://ib.wyattau.com/history/essay-techniques"}]
+}
+</script>
 title: IB History Essay Techniques
 description: "Comprehensive guide to IB History essay writing: command terms, PEEL structure, source analysis frameworks, Paper 1 and Paper 2 strategies, and marking criteria."
 sidebar_position: 20
@@ -8,6 +17,15 @@ tags:
 categories:
   - IB History
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Essay Techniques", "url": "https://ib.wyattau.com/history/essay-techniques"}]
+}
+</script>
 
 ## Command Terms in IB History
 
@@ -51,6 +69,15 @@ This is the most common command term in Paper 2. It requires you to assess how f
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Essay Techniques", "url": "https://ib.wyattau.com/history/essay-techniques"}]
+}
+</script>
+
 ## The PEEL Paragraph Structure
 
 PEEL is a framework for constructing clear, analytical paragraphs:
@@ -74,6 +101,15 @@ PEEL is a framework for constructing clear, analytical paragraphs:
 **Link:** Economic mismanagement was thus a decisive factor, though it must be considered alongside military and ideological factors.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Essay Techniques", "url": "https://ib.wyattau.com/history/essay-techniques"}]
+}
+</script>
 
 ## Source Analysis Framework
 
@@ -129,6 +165,15 @@ What constrains the source's usefulness? Consider:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Essay Techniques", "url": "https://ib.wyattau.com/history/essay-techniques"}]
+}
+</script>
+
 ## Paper 1 Strategies
 
 Paper 1 consists of four questions worth a total of 24 marks (20% at SL and HL). Each question tests a distinct skill:
@@ -161,6 +206,15 @@ Paper 1 consists of four questions worth a total of 24 marks (20% at SL and HL).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Essay Techniques", "url": "https://ib.wyattau.com/history/essay-techniques"}]
+}
+</script>
+
 ## Paper 2 Strategies
 
 Paper 2 requires two essays from a choice of questions covering two of the five world history topics. Each essay is worth 15 marks.
@@ -186,6 +240,15 @@ Paper 2 requires two essays from a choice of questions covering two of the five 
 - Do not introduce new evidence.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Essay Techniques", "url": "https://ib.wyattau.com/history/essay-techniques"}]
+}
+</script>
 
 ## Marking Criteria Breakdown
 
@@ -216,6 +279,15 @@ IB History is assessed against the following criteria:
 | **C: Reflection (4 marks)** | Reflection on the research process, challenges encountered, and lessons learned about historical methodology. |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Essay Techniques", "url": "https://ib.wyattau.com/history/essay-techniques"}]
+}
+</script>
 
 ## Common Mistakes
 

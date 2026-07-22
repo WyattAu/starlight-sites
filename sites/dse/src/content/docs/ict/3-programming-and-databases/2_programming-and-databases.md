@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
 title: ICT - Programming and Databases
 description: "A variable is a named storage location in memory that holds a value which can ch Comprehensive educational content coverage with definitions and practice proble"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
 
 ## Programming Fundamentals
 
@@ -82,6 +100,15 @@ x += 5     # shorthand, x is now 20
 | `not`    | Reverses the condition              | `not(x > 5)`       |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
 
 ## Control Structures
 
@@ -205,6 +232,15 @@ else:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
+
 ## Functions and Procedures
 
 ### Functions
@@ -288,6 +324,15 @@ def factorial_recursive(n):
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
 
 ## Arrays and Data Structures
 
@@ -383,6 +428,15 @@ print(student["name"])  # Chan Tai Man
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
+
 ## Algorithms
 
 ### Flowcharts
@@ -463,6 +517,15 @@ END
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
+
 ## File Handling
 
 ### Reading from a File
@@ -508,6 +571,15 @@ with open("data.txt", "r") as file:
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
+
 ## Database Concepts
 
 ### What is a Database?
@@ -536,6 +608,15 @@ Management System (DBMS) is software for creating, managing, and manipulating da
 5. **Data independence:** Changes to the database structure do not affect applications
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
 
 ## Relational Database Design
 
@@ -621,6 +702,15 @@ Final tables:
 **Enrolment** (StudentID FK, CourseCode FK) -- composite PK
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
 
 ## Structured Query Language (SQL)
 
@@ -815,6 +905,15 @@ GROUP BY Course.CourseName;
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
+
 ## Data Validation and Verification
 
 ### Validation
@@ -842,6 +941,15 @@ Verification ensures that data entered matches the original source.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
+
 ## Summary Table
 
 | Topic         | Key Concept             | Example                     |
@@ -858,6 +966,15 @@ Verification ensures that data entered matches the original source.
 | Normalisation | Reducing redundancy     | 1NF, 2NF, 3NF               |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
 
 ## Exam Tips
 
@@ -913,6 +1030,15 @@ Password twice to confirm it was typed correctly).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Confusing SQL WHERE and HAVING clauses:** WHERE filters individual ROWS before grouping. HAVING
@@ -958,6 +1084,15 @@ Password twice to confirm it was typed correctly).
     a RETURN statement.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
+}
+</script>
 
 ## Practice Problems
 

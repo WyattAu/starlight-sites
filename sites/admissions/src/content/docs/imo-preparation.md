@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
 title: IMO Preparation
 description: "University Admissions IMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 date: 2026-05-05T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Mathematics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
 
 ## 1. Overview of the IMO
 
@@ -56,6 +74,15 @@ BMO level. Key features include:
 - Full generality is often required: a solution must handle all cases, including degenerate ones.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
 
 ## 2. Advanced Number Theory
 
@@ -127,6 +154,15 @@ of A prime dividing an expression. Combined with size bounds, this often forces 
 solutions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
 
 ## 3. Advanced Combinatorics
 
@@ -202,6 +238,15 @@ The generating function $C(x) = \sum C_n x^n$ satisfies $C(x) = 1 + xC(x)^2$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
+
 ## 4. Advanced Algebra
 
 ### 4.1 Classical Inequalities
@@ -276,6 +321,15 @@ $x' = (y^2 + 1)/x < (x^2 + 1)/x = x + 1/x < x + 1$So $x' \leq x$. If $x > y$Then
 descent.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
 
 ## 5. Advanced Geometry
 
@@ -366,6 +420,15 @@ $a^2yz + b^2zx + c^2xy = 0$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
+
 ## 6. Worked Questions
 
 ### Question 1 (Number Theory: IMO 1988 Problem 6)
@@ -403,6 +466,15 @@ Means $k$ must be a perfect square.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
+
 ### Question 2 (Combinatorics: Mantel's Theorem)
 
 > A graph $G$ on $n$ vertices has no cycles of length 3 (i.e., $G$ is triangle-free). Prove that $G$
@@ -433,6 +505,15 @@ Equality holds when all $d_v = n/2$ (from Cauchy-Schwarz equality) and $d_u + d_
 edge. This is achieved by the complete bipartite graph $K_{\lfloor n/2 \rfloor, \lceil n/2 \rceil}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
 
 ### Question 3 (Algebra: Inequalities)
 
@@ -482,6 +563,15 @@ I.e., $\sum a^4 + \sum a^2 bc \geq \sum_{\text{sym} a^3 b$.
 Equality holds when $a = b = c$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
 
 ### Question 4 (Geometry: Inversion)
 
@@ -540,6 +630,15 @@ Through $P$) always passes through the Miquel point $R$Which is fixed.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
+
 ### Question 5 (Combinatorics: Graph Theory over $\mathbb{F}_2$)
 
 > A social network has $n$ users (where $n$ is odd). Some pairs of users are friends (symmetric).
@@ -573,6 +672,15 @@ Non-empty set $S$ with the desired property.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
+
 ### Question 6 (Geometry: Complex Numbers)
 
 > Let $ABC$ be a triangle with circumcircle $\Gamma$. A point $P$ lies in the interior of
@@ -600,6 +708,15 @@ The last equality holds because $P$ lies in the interior of $\triangle ABC$So th
 $PBC$, $PCA$, $PAB$ partition $\triangle ABC$ without overlap.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
 
 ## Intuition
 
@@ -642,6 +759,15 @@ because it satisfies one angle condition does not suffice; you must verify the f
 conditions for concyclicity.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Imo Preparation", "url": "https://admissions.wyattau.com/imo-preparation"}]
+}
+</script>
 
 ## 8. Strategy and Exam Technique
 

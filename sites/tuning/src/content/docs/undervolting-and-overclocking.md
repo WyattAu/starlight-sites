@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Undervolting And Overclocking", "url": "https://tuning.wyattau.com/undervolting-and-overclocking"}]
+}
+</script>
 title: Undervolting and Overclocking
 description: "Undervolting is the process of reducing the operating voltage (Vcore for CPUs and Vddc for GPUs) Supplied below the voltage level defined by the"
 date: 2025-06-12T16:37:43.317Z
@@ -6,6 +15,15 @@ categories:
   - general
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Undervolting And Overclocking", "url": "https://tuning.wyattau.com/undervolting-and-overclocking"}]
+}
+</script>
 
 ## Undervolting
 
@@ -54,6 +72,15 @@ Voltage supplied, and hence reducing cooling required.
 8. Verify stability with a 30-minute FurMark session and monitor temperatures
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Undervolting And Overclocking", "url": "https://tuning.wyattau.com/undervolting-and-overclocking"}]
+}
+</script>
 
 ## Voltage Basics
 
@@ -119,6 +146,15 @@ These thresholds under load.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Undervolting And Overclocking", "url": "https://tuning.wyattau.com/undervolting-and-overclocking"}]
+}
+</script>
+
 ## Intel Undervolting (ThrottleStop Method)
 
 ThrottleStop is the preferred tool for undervolting Intel laptops. It works by directly
@@ -173,6 +209,15 @@ Motherboards, this can be disabled to restore undervolting capability. On laptop
 Still work depending on the OEM's implementation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Undervolting And Overclocking", "url": "https://tuning.wyattau.com/undervolting-and-overclocking"}]
+}
+</script>
 
 ## AMD Undervolting (Curve Optimizer and PPT Limits)
 
@@ -246,6 +291,15 @@ Optimizer offset, this can yield higher sustained frequencies at lower temperatu
 The recommended approach is to undervolt first, then enable PBO.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Undervolting And Overclocking", "url": "https://tuning.wyattau.com/undervolting-and-overclocking"}]
+}
+</script>
 
 ## CPU Overclocking
 
@@ -337,6 +391,15 @@ Stop and revert to your last stable settings if any of the following occur:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Undervolting And Overclocking", "url": "https://tuning.wyattau.com/undervolting-and-overclocking"}]
+}
+</script>
+
 ## Memory Overclocking
 
 Memory overclocking increases the data rate and/or tightens the timings of your RAM. This can
@@ -414,6 +477,15 @@ After any memory frequency or timing change, run these tests:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Undervolting And Overclocking", "url": "https://tuning.wyattau.com/undervolting-and-overclocking"}]
+}
+</script>
+
 ## Stress Testing Methodology
 
 Stress testing is not optional — it is the only way to verify that your tuning changes are stable. A
@@ -470,6 +542,15 @@ OCCT is particularly good at catching instability that Prime95 misses:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Undervolting And Overclocking", "url": "https://tuning.wyattau.com/undervolting-and-overclocking"}]
+}
+</script>
+
 ## Monitoring Temperatures and Stability
 
 ### What to Monitor
@@ -510,6 +591,15 @@ If temperatures are too high, address these in order:
    pad) may be necessary if the above steps are insufficient.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Undervolting And Overclocking", "url": "https://tuning.wyattau.com/undervolting-and-overclocking"}]
+}
+</script>
 
 ## Intuition
 
@@ -572,6 +662,15 @@ Kit with the total capacity you need.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Undervolting And Overclocking", "url": "https://tuning.wyattau.com/undervolting-and-overclocking"}]
+}
+</script>
+
 ## GPU Tuning (Expanded)
 
 ### NVIDIA GPU Undervolting
@@ -611,6 +710,15 @@ AMD GPUs can be tuned with MSI Afterburner or AMD's own Adrenalin software:
   undervolting, this can yield higher sustained clocks at lower temperatures.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Undervolting And Overclocking", "url": "https://tuning.wyattau.com/undervolting-and-overclocking"}]
+}
+</script>
 
 ## When to Stop
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Fascism Italy", "url": "https://ib.wyattau.com/history/fascism-italy"}]
+}
+</script>
 title: Fascist Italy
 description: "IB History coverage of Fascist Italy: Mussolini's rise to power, Doctrine of Fascism, corporatism, foreign policy, social policies, and comparisons with Nazi Germany and Stalinist USSR."
 sidebar_position: 22
@@ -8,6 +17,15 @@ tags:
 categories:
   - IB History
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Fascism Italy", "url": "https://ib.wyattau.com/history/fascism-italy"}]
+}
+</script>
 
 ## Mussolini's Rise to Power (1919–1925)
 
@@ -39,6 +57,15 @@ Italy fought on the Allied side in the First World War but emerged from the conf
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Fascism Italy", "url": "https://ib.wyattau.com/history/fascism-italy"}]
+}
+</script>
+
 ## The Consolidation of Power (1922–1929)
 
 ### The Aventine Secession and the Matteotti Crisis
@@ -57,6 +84,15 @@ Italy fought on the Allied side in the First World War but emerged from the conf
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Fascism Italy", "url": "https://ib.wyattau.com/history/fascism-italy"}]
+}
+</script>
+
 ## The Doctrine of Fascism
 
 Mussolini co-authored *The Doctrine of Fascism* (1932) with the philosopher Giovanni Gentile. Key tenets include:
@@ -69,6 +105,15 @@ Mussolini co-authored *The Doctrine of Fascism* (1932) with the philosopher Giov
 - **The leader principle:** The Duce embodied the will of the nation. Mussolini's personal authority was the ultimate source of political legitimacy.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Fascism Italy", "url": "https://ib.wyattau.com/history/fascism-italy"}]
+}
+</script>
 
 ## Foreign Policy
 
@@ -94,6 +139,15 @@ Mussolini co-authored *The Doctrine of Fascism* (1932) with the philosopher Giov
 - The German-backed Italian Social Republic (Salò Republic, 1943–1945) was a puppet state in northern Italy. Mussolini was captured and executed by Italian partisans on 28 April 1945.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Fascism Italy", "url": "https://ib.wyattau.com/history/fascism-italy"}]
+}
+</script>
 
 ## Social and Cultural Policies
 
@@ -125,6 +179,15 @@ Mussolini co-authored *The Doctrine of Fascism* (1932) with the philosopher Giov
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Fascism Italy", "url": "https://ib.wyattau.com/history/fascism-italy"}]
+}
+</script>
+
 ## Comparison with Nazi Germany and Stalinist USSR
 
 ### Methods of Consolidating Power
@@ -155,6 +218,15 @@ Mussolini co-authored *The Doctrine of Fascism* (1932) with the philosopher Giov
 - **The "modernising" thesis:** Some historians, notably Dennis Mack Smith, argued that Fascism was a reactionary movement that preserved the power of the traditional elites (monarchy, Church, military) rather than a modernising force. Others, such as Emilio Gentile, contend that Fascism did pursue a form of political modernisation through mass mobilisation and state intervention.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Fascism Italy", "url": "https://ib.wyattau.com/history/fascism-italy"}]
+}
+</script>
 
 ## Assessment Connections
 

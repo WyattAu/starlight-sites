@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Cognitive", "url": "https://ib.wyattau.com/psychology/cognitive"}, {"name": "_index", "url": "https://ib.wyattau.com/psychology/cognitive/_index"}]
+}
+</script>
 title: Cognitive Level of Analysis
 description: "This section covers the cognitive level of analysis, focusing on mental processes such as memory, thinking, language, and decision making."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Cognitive", "url": "https://ib.wyattau.com/psychology/cognitive"}, {"name": "_index", "url": "https://ib.wyattau.com/psychology/cognitive/_index"}]
+}
+</script>
 
 # Cognitive Level of Analysis
 

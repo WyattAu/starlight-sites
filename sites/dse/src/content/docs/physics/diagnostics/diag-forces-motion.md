@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Forces Motion", "url": "https://dse.wyattau.com/physics/diagnostics/diag-forces-motion"}]
+}
+</script>
 title: "Forces and Motion -- Diagnostic Tests"
 description: "DSE Physics Forces and Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Forces Motion", "url": "https://dse.wyattau.com/physics/diagnostics/diag-forces-motion"}]
+}
+</script>
 
 # Forces and Motion — Diagnostic Tests
 
@@ -52,6 +70,15 @@ $$N_{f \to t} - W_t - N_{b \to t} = m_t a$$
 $$N_{f \to t} = W_t + N_{b \to t} + m_t a = 78.48 + 25.62 + 8(3) = 78.48 + 25.62 + 24 = 128.1 \text{ N}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Forces Motion", "url": "https://dse.wyattau.com/physics/diagnostics/diag-forces-motion"}]
+}
+</script>
 
 ### UT-2: Connected Objects with Friction on a Rough Incline
 
@@ -105,6 +132,15 @@ The force on the pulley is directed at $45°$ below the horizontal, toward block
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Forces Motion", "url": "https://dse.wyattau.com/physics/diagnostics/diag-forces-motion"}]
+}
+</script>
+
 ### UT-3: Banked Curve without Friction
 
 **Question:**
@@ -145,6 +181,15 @@ the required centripetal force. No friction is needed. If the car goes faster, i
 if slower, it tends to slide down.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Forces Motion", "url": "https://dse.wyattau.com/physics/diagnostics/diag-forces-motion"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -203,6 +248,15 @@ $$T = 19.62 + 4(0.951) = 23.42 \text{ N}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Forces Motion", "url": "https://dse.wyattau.com/physics/diagnostics/diag-forces-motion"}]
+}
+</script>
+
 ### IT-2: Tension Variation in a Whirling String (with Mechanics)
 
 **Question:**
@@ -257,6 +311,15 @@ $$T = \frac{mg}{\sqrt{3}}$$
 centripetal force (horizontal component). Both conditions must be satisfied simultaneously.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Forces Motion", "url": "https://dse.wyattau.com/physics/diagnostics/diag-forces-motion"}]
+}
+</script>
 
 ### IT-3: Friction on Accelerating Platform (with Energy and Work)
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Standard_library", "url": "https://cpp.wyattau.com/standard_library"}, {"name": "2_algorithms_and_ranges", "url": "https://cpp.wyattau.com/standard_library/2_algorithms_and_ranges"}, {"name": "1_iterator_sentinel", "url": "https://cpp.wyattau.com/standard_library/2_algorithms_and_ranges/1_iterator_sentinel"}]
+}
+</script>
 title: Iterator-Sentinel Model
 description: "C++20 fundamentally restructured the standard library around , introducing the Iterator-sentinel model as the primary abstraction for sequence traversal. A"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Standard_library", "url": "https://cpp.wyattau.com/standard_library"}, {"name": "2_algorithms_and_ranges", "url": "https://cpp.wyattau.com/standard_library/2_algorithms_and_ranges"}, {"name": "1_iterator_sentinel", "url": "https://cpp.wyattau.com/standard_library/2_algorithms_and_ranges/1_iterator_sentinel"}]
+}
+</script>
 
 ## The Iterator-Sentinel Model
 

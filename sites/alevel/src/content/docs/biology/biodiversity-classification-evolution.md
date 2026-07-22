@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/biodiversity-classification-evolution"}]
+}
+</script>
 title: Biodiversity, Classification and Evolution
 description: "is the variety of life at every level of biological organisation: Genetic diversity within species, species diversity within communities, and ecosystem"
 date: 2026-04-18T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/biodiversity-classification-evolution"}]
+}
+</script>
 
 ## Biodiversity, Classification and Evolution
 
@@ -718,6 +736,15 @@ proportional to the amount Of genetic change.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/biodiversity-classification-evolution"}]
+}
+</script>
+
 ## 9. Speciation: Detailed Mechanisms
 
 ### 9.1 Pre-zygotic Reproductive Barriers
@@ -1087,6 +1114,15 @@ Some biologists prefer a six-kingdom system that separates bacteria and archaea:
 | Extinct organisms        | Only fossil evidence available; incomplete information                                   | Dinosaurs, trilobites                                              |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/biodiversity-classification-evolution"}]
+}
+</script>
 
 ## 17. Natural Selection in Action: Detailed Examples
 
@@ -1566,6 +1602,15 @@ target: protect 30% of land and ocean by 2030.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/biodiversity-classification-evolution"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 Evolution**? The
 contains the hardest questions within the A-Level specification for this topic, each with a full
@@ -2003,6 +2048,15 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 | Hybrid sterility      | Hybrid offspring are healthy but sterile (e.g., mule = horse $\times$ donkey; mules are sterile)                                        |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/biodiversity-classification-evolution"}]
+}
+</script>
 
 ## Common Pitfalls
 

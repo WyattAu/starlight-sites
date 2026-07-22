@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Polar Coordinates", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-polar-coordinates"}]
+}
+</script>
 title: "Polar Coordinates -- Diagnostic Tests"
 description: "A-Level Further Maths Polar Coordinates -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Polar Coordinates", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-polar-coordinates"}]
+}
+</script>
 
 
 ## Intuition
@@ -97,6 +115,15 @@ $\psi = \pi/4$ at all points. The tangent makes $45^\circ$ with the radius vecto
 (d) $r = \sec\theta \Rightarrow r\cos\theta = 1 \Rightarrow x = 1$. A vertical line.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Polar Coordinates", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-polar-coordinates"}]
+}
+</script>
 
 ## Integration Tests
 

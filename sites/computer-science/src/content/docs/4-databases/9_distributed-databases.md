@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "4 Databases", "url": "https://computer-science.wyattau.com/4-databases"}, {"name": "9_distributed Databases", "url": "https://computer-science.wyattau.com/4-databases/9_distributed-databases"}]
+}
+</script>
 title: Distributed Databases
 tags:
   - Computing
   - University
 description: "A stores data across multiple nodes connected by a network. Motivations Include: Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "4 Databases", "url": "https://computer-science.wyattau.com/4-databases"}, {"name": "9_distributed Databases", "url": "https://computer-science.wyattau.com/4-databases/9_distributed-databases"}]
+}
+</script>
 
 ### 9.1 Architecture and Motivation
 

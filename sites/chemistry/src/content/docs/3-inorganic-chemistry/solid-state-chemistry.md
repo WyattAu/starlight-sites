@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "3 Inorganic Chemistry", "url": "https://chemistry.wyattau.com/3-inorganic-chemistry"}, {"name": "Solid State Chemistry", "url": "https://chemistry.wyattau.com/3-inorganic-chemistry/solid-state-chemistry"}]
+}
+</script>
 title: Solid-State Chemistry
 description: "University Solid-State Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
 date: 2026-05-31T00:00:00.000Z
@@ -8,6 +17,15 @@ tags:
 categories:
   - Chemistry
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "3 Inorganic Chemistry", "url": "https://chemistry.wyattau.com/3-inorganic-chemistry"}, {"name": "Solid State Chemistry", "url": "https://chemistry.wyattau.com/3-inorganic-chemistry/solid-state-chemistry"}]
+}
+</script>
 
 ## 1. Crystal Structures
 

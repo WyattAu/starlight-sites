@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Concurrency", "url": "https://programming.wyattau.com/concurrency"}, {"name": "2_memory_model_and_atomics", "url": "https://programming.wyattau.com/concurrency/2_memory_model_and_atomics"}, {"name": "5_cas_loops", "url": "https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/5_cas_loops"}]
+}
+</script>
 title: Compare-and-Swap (CAS) Loops
 description: "This section covers the CAS loop pattern, the difference between and When weak CAS is preferable, linearizability of CAS-based data Structures, a lock-free"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Concurrency", "url": "https://programming.wyattau.com/concurrency"}, {"name": "2_memory_model_and_atomics", "url": "https://programming.wyattau.com/concurrency/2_memory_model_and_atomics"}, {"name": "5_cas_loops", "url": "https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/5_cas_loops"}]
+}
+</script>
 
 # Compare-and-Swap (CAS) Loops
 
@@ -374,6 +392,15 @@ void push_with_tag(void* new_node) {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Concurrency", "url": "https://programming.wyattau.com/concurrency"}, {"name": "2_memory_model_and_atomics", "url": "https://programming.wyattau.com/concurrency/2_memory_model_and_atomics"}, {"name": "5_cas_loops", "url": "https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/5_cas_loops"}]
+}
+</script>
+
 ## Memory Ordering in CAS Operations
 
 The `compare_exchange` functions accept two memory order arguments: one for the **success** case and
@@ -506,6 +533,15 @@ Use `std::atomic_flag` when you need a guaranteed lock-free boolean flag and can
 `std::atomic<bool>` being lock-free (which it isn't on some exotic architectures).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Concurrency", "url": "https://programming.wyattau.com/concurrency"}, {"name": "2_memory_model_and_atomics", "url": "https://programming.wyattau.com/concurrency/2_memory_model_and_atomics"}, {"name": "5_cas_loops", "url": "https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/5_cas_loops"}]
+}
+</script>
 
 ## ABA-Safe Lock-Free Queue (Michael-Scott Queue)
 
@@ -649,6 +685,15 @@ The head swings, so it can never be recycled and re-inserted. The tail pointer m
 (requiring the "help advance" code), but this does not affect correctness.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Concurrency", "url": "https://programming.wyattau.com/concurrency"}, {"name": "2_memory_model_and_atomics", "url": "https://programming.wyattau.com/concurrency/2_memory_model_and_atomics"}, {"name": "5_cas_loops", "url": "https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/5_cas_loops"}]
+}
+</script>
 
 ## Intuition
 

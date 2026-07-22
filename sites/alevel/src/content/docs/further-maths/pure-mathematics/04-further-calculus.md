@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
+}
+</script>
 title: Further Calculus
 description: "This topic extends the calculus of A Level Mathematics to more powerful integration techniques, Inverse trigonometric functions, volumes of revolution, arc"
 date: 2026-04-02T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
+}
+</script>
 
 ## Further Calculus
 
@@ -620,6 +638,15 @@ $\boxed{I = \frac{e^x(\sin 2x - 2\cos 2x)}{5} + C}$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
+}
+</script>
+
 ## 8. Advanced Worked Examples
 
 ### Example 8.1: Leibniz"s rule for higher derivatives of a product
@@ -727,11 +754,29 @@ $$\boxed{\int \arcsin x\,dx = x\arcsin x + \sqrt{1-x^2} + C}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
+}
+</script>
+
 ## Intuition
 
 Integration by parts is the reverse of the product rule, allowing you to transfer derivatives between functions. Think of it as a negotiation: you give away one function's derivative in exchange for integrating the other. Reduction formulae create a staircase where each integral is expressed in terms of a simpler one, allowing you to climb down to a base case you can evaluate directly. Inverse trigonometric functions arise because their derivatives produce rational functions, creating a bridge between algebraic and trigonometric integration. Volumes of revolution are computed by summing infinitesimally thin discs stacked along an axis, like building a solid from a stack of coins. Arc length measures the actual distance along a curve rather than straight-line approximation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
+}
+</script>
 
 ## 9. Common Pitfalls
 
@@ -744,6 +789,15 @@ Integration by parts is the reverse of the product rule, allowing you to transfe
 | Confusing $\dfrac{d^n y}{dx^n}$ notation with $\left(\dfrac{dy}{dx}\right)^n$   | $\dfrac{d^n y}{dx^n}$ is the $n$-th derivative, not the $n$-th power                         |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
+}
+</script>
 
 ## 10. Additional Exam-Style Questions
 
@@ -835,6 +889,15 @@ This equals $-\dfrac{\pi^2}{12}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
+}
+</script>
+
 ## 11. Connections to Other Topics
 
 ### 11.1 Further calculus and differential equations
@@ -861,6 +924,15 @@ $\displaystyle\int \frac{dx}{\sqrt{x^2+a^2}} = \operatorname{arsinh}(x/a) + C$. 
 [Hyperbolic Functions](/docs/alevel/further-maths/pure-mathematics/hyperbolic-functions).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
+}
+</script>
 
 ## 12. Advanced Integration Techniques
 
@@ -893,6 +965,15 @@ $\sin x = \dfrac{2t}{1+t^2}$$\cos x = \dfrac{1-t^2}{1+t^2}$$dx = \dfrac{2\,dt}{1
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
+}
+</script>
+
 ## 13. Summary of Key Results
 
 | Result                       | Formula                                                                     |
@@ -908,6 +989,15 @@ $\sin x = \dfrac{2t}{1+t^2}$$\cos x = \dfrac{1-t^2}{1+t^2}$$dx = \dfrac{2\,dt}{1
 | Improper integral test       | $\displaystyle\int_a^\infty f(x)\,dx = \lim_{b\to\infty}\int_a^b f(x)\,dx$  |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
+}
+</script>
 
 ## 14. Further Exam-Style Questions
 
@@ -977,6 +1067,15 @@ $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
+}
+</script>
+
 ## 15. Advanced Topics
 
 ### 15.1 The gamma function and factorial
@@ -1006,6 +1105,15 @@ If $0 \leq f(x) \leq g(x)$ for $x \geq a$ and $\displaystyle\int_a^{\infty} g(x)
 Then $\displaystyle\int_a^{\infty} f(x)\,dx$ also converges.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
+}
+</script>
 
 ## 16. Further Exam-Style Questions
 
@@ -1058,6 +1166,15 @@ $\boxed{I = \dfrac{e^x(\sin x+\cos x)}{2} + C}$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
+}
+</script>
 
 ## 17. Further Exam-Style Questions
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbonyl Arenes Amines", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-carbonyl-arenes-amines"}]
+}
+</script>
 title: "Carbonyl Compounds, Arenes, Amines -- Diagnostic Tests"
 description: "A-Level Chemistry Carbonyl Compounds, Arenes, Amines -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbonyl Arenes Amines", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-carbonyl-arenes-amines"}]
+}
+</script>
 
 
 ## Intuition
@@ -68,6 +86,15 @@ These combined effects make aldehydes generally more reactive than ketones towar
 addition.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbonyl Arenes Amines", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-carbonyl-arenes-amines"}]
+}
+</script>
 
 ### UT-2: Electrophilic Substitution in Arenes
 
@@ -135,6 +162,15 @@ because it destabilises the sigma complex when substitution occurs at ortho or p
 (positive charge is delocalised onto the carbon bearing the electron-withdrawing nitro group).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbonyl Arenes Amines", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-carbonyl-arenes-amines"}]
+}
+</script>
 
 ### UT-3: Amine Basicity and Nucleophilicity
 
@@ -281,6 +317,15 @@ maintained between the nitro and carboxylic acid groups.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbonyl Arenes Amines", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-carbonyl-arenes-amines"}]
+}
+</script>
+
 ### IT-2: Carbonyl Test Reactions and Distinguishing Compounds (with Acids and Bases)
 
 **Question:**
@@ -334,6 +379,15 @@ The key difference is that 2-methylbutanal produces a more sterically hindered p
 reaction rate may be slightly slower due to increased steric hindrance around the carbonyl carbon.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbonyl Arenes Amines", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-carbonyl-arenes-amines"}]
+}
+</script>
 
 ### IT-3: Azo Dye Formation (with Equilibrium)
 

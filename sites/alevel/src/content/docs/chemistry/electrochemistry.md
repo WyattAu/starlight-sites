@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Electrochemistry", "url": "https://alevel.wyattau.com/chemistry/electrochemistry"}]
+}
+</script>
 title: Electrochemistry
 description: "The oxidation state is a formalism that assigns a charge to an atom in a compound based on electronegativity."
 date: 2026-04-21T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Electrochemistry", "url": "https://alevel.wyattau.com/chemistry/electrochemistry"}]
+}
+</script>
 
 # Electrochemistry
 
@@ -977,6 +995,15 @@ State and explain two differences between a primary cell and a secondary cell.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Electrochemistry", "url": "https://alevel.wyattau.com/chemistry/electrochemistry"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 questions within the A-Level specification for this topic, each with a full worked solution.

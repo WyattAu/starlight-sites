@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "6 Game Theory", "url": "https://ib.wyattau.com/economics/6-game-theory"}, {"name": "1_game Theory And Behavioural", "url": "https://ib.wyattau.com/economics/6-game-theory/1_game-theory-and-behavioural"}]
+}
+</script>
 title: Game Theory and Behavioural Economics
 description: "Game theory and behavioural economics for IB Economics."
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "6 Game Theory", "url": "https://ib.wyattau.com/economics/6-game-theory"}, {"name": "1_game Theory And Behavioural", "url": "https://ib.wyattau.com/economics/6-game-theory/1_game-theory-and-behavioural"}]
+}
+</script>
 
 ## Game Theory Fundamentals
 
@@ -2703,6 +2721,15 @@ success in this subject.
 - [Descriptive Statistics](../5-quantitative-economics/1-descriptive-statistics) -- Empirical evidence in behavioural economics relies on statistical methods for analysing decision-making data.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "6 Game Theory", "url": "https://ib.wyattau.com/economics/6-game-theory"}, {"name": "1_game Theory And Behavioural", "url": "https://ib.wyattau.com/economics/6-game-theory/1_game-theory-and-behavioural"}]
+}
+</script>
 
 ## Intuition
 

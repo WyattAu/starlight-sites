@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "03 Branching And Merging", "url": "https://tools.wyattau.com/git/03-branching-and-merging"}, {"name": "01 Branching", "url": "https://tools.wyattau.com/git/03-branching-and-merging/01-branching"}]
+}
+</script>
 title: Branching
 description: "Branching is the mechanism that enables — multiple developers (or a single developer working on multiple features) can modify the codebase independently,"
 date: 2025-06-03T02:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - CS
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "03 Branching And Merging", "url": "https://tools.wyattau.com/git/03-branching-and-merging"}, {"name": "01 Branching", "url": "https://tools.wyattau.com/git/03-branching-and-merging/01-branching"}]
+}
+</script>
 
 ## Why Branching Matters
 

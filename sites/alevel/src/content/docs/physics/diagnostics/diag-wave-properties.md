@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Wave Properties", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-wave-properties"}]
+}
+</script>
 title: "Wave Properties -- Diagnostic Tests"
 description: "A-Level Physics Wave Properties -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Wave Properties", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-wave-properties"}]
+}
+</script>
 
 
 ## Intuition
@@ -59,6 +77,15 @@ $E_{\text{photon}} = hf = 6.63 \times 10^{-34} \times 5.0 \times 10^{14} = 3.32 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Wave Properties", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-wave-properties"}]
+}
+</script>
+
 ### UT-2: Intensity and Amplitude Relationship
 
 **Question:**
@@ -104,6 +131,15 @@ At a maximum, the intensity is four times the intensity from a single source.
 At a minimum ($\Delta x = (n + 0.5)\lambda$): $A = 0$ and $I = 0$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Wave Properties", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-wave-properties"}]
+}
+</script>
 
 ### UT-3: Polarisation and Malus"s Law
 
@@ -188,6 +224,15 @@ The shift is $\Delta f = 5.6 \times 10^5\,\text{Hz} = 560\,\text{kHz}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Wave Properties", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-wave-properties"}]
+}
+</script>
+
 ### IT-2: Standing Waves on a String (with Oscillations)
 
 **Question:**
@@ -226,6 +271,15 @@ Fundamental wavelength: $\lambda_1 = 2l = 1.60\,\text{m}$
 The fundamental mode has one antinode at the centre and nodes at both ends.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Wave Properties", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-wave-properties"}]
+}
+</script>
 
 ### IT-3: Seismic Waves Through Earth Layers (with Properties of Materials)
 

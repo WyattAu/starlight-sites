@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Step Preparation", "url": "https://admissions.wyattau.com/step-preparation"}]
+}
+</script>
 title: STEP Preparation
 description: "University Admissions STEP Preparation notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 date: 2026-05-05T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Mathematics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Step Preparation", "url": "https://admissions.wyattau.com/step-preparation"}]
+}
+</script>
 
 ## 1. Overview of STEP
 
@@ -47,6 +65,15 @@ Rather than partial credit.
 - The difficulty lies in the depth of each question rather than the breadth of the syllabus.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Step Preparation", "url": "https://admissions.wyattau.com/step-preparation"}]
+}
+</script>
 
 ## 2. Algebra and Functions
 
@@ -108,6 +135,15 @@ Without finding the roots explicitly. For example, to find $\alpha^2 + \beta^2 +
 $$\alpha^2 + \beta^2 + \gamma^2 = (\alpha + \beta + \gamma)^2 - 2(\alpha\beta + \beta\gamma + \gamma\alpha) = p^2 - 2q$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Step Preparation", "url": "https://admissions.wyattau.com/step-preparation"}]
+}
+</script>
 
 ## 3. Calculus
 
@@ -177,6 +213,15 @@ Where $A_k = a_1 + \cdots + a_k$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Step Preparation", "url": "https://admissions.wyattau.com/step-preparation"}]
+}
+</script>
+
 ## 4. Vectors and Matrices
 
 ### 4.1 Vectors in Two and Three Dimensions
@@ -215,6 +260,15 @@ solve $(A - \lambda I)\mathbf{v} = \mathbf{0}$ for eigenvectors $\mathbf{v}$.
 other geometric transformations can be represented as $2 \times 2$ or $3 \times 3$ matrices.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Step Preparation", "url": "https://admissions.wyattau.com/step-preparation"}]
+}
+</script>
 
 ## 5. Probability and Combinatorics
 
@@ -262,6 +316,15 @@ $(1 + x + x^2 + \cdots)^k$ is $\binom{n + k - 1}{k - 1}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Step Preparation", "url": "https://admissions.wyattau.com/step-preparation"}]
+}
+</script>
+
 ## 6. Geometry
 
 ### 6.1 Coordinate Geometry
@@ -302,6 +365,15 @@ $F(x, y, t) = 0$ and $\frac{\partial F}{\partial t} = 0$ simultaneously.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Step Preparation", "url": "https://admissions.wyattau.com/step-preparation"}]
+}
+</script>
+
 ## 7. Worked Questions
 
 ### Question 1 (Pure: Inequalities and Algebra)
@@ -335,6 +407,15 @@ $$\frac{z}{2x} + \frac{x}{2z} \geq 1, \quad \frac{z}{2y} + \frac{y}{2z} \geq 1$$
 Summing these three inequalities gives the result. Equality holds when $x = y = z$I.e., $a = b = c$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Step Preparation", "url": "https://admissions.wyattau.com/step-preparation"}]
+}
+</script>
 
 ### Question 2 (Pure: Integration)
 
@@ -374,6 +455,15 @@ the Product of even terms as $2^n \cdot n!$So:
 $$\frac{(2n)!}{2^n n! \cdot 2^n n!} = \frac{(2n)!}{4^n (n!)^2}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Step Preparation", "url": "https://admissions.wyattau.com/step-preparation"}]
+}
+</script>
 
 ### Question 3 (Pure: Differential Equations)
 
@@ -421,6 +511,15 @@ Solution through $(1, 1)$We have $y > 0$ at $x = 1$And the solution is defined o
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Step Preparation", "url": "https://admissions.wyattau.com/step-preparation"}]
+}
+</script>
+
 ### Question 4 (Pure: Sequences and Series)
 
 > Let $a_1 = 1$ and $a_{n+1} = \frac{1}{2}\left(a_n + \frac{2}{a_n}\right)$ for $n \geq 1$.
@@ -460,6 +559,15 @@ $$L^2 = 2$$
 Since $L \geq \sqrt{2} > 0$We have $L = \sqrt{2}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Step Preparation", "url": "https://admissions.wyattau.com/step-preparation"}]
+}
+</script>
 
 ### Question 5 (Probability and Statistics)
 
@@ -514,6 +622,15 @@ $$\text{Var(X) = \text{Var(B_1) = \frac{r(n-r)}{(r+1)^2}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Step Preparation", "url": "https://admissions.wyattau.com/step-preparation"}]
+}
+</script>
+
 ## Intuition
 
 STEP preparation is like learning to cook without a recipe book. You develop an instinct for which techniques to combine and when to improvise. A question about integration might require you to see it as a geometry problem in disguise, just as a skilled chef recognises that a savoury dish could benefit from an unexpected spice. The ability to look at a problem from multiple angles separates those who score highly from those who merely pass.
@@ -546,6 +663,15 @@ Interchange the order of summation. In a proof-based exam, such interchanges mus
 Against known special cases. A quick check can catch errors that are otherwise invisible.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Step Preparation", "url": "https://admissions.wyattau.com/step-preparation"}]
+}
+</script>
 
 ## 9. Exam Technique
 

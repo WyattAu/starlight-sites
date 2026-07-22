@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
 title: "Electrochemistry -- Diagnostic Tests"
 description: "A-Level Electrochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
 
 
 ## Intuition
@@ -76,6 +94,15 @@ $$[\text{Fe}^{2+}] = 0.678\,\text{mol dm}^{-3}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
+
 ### UT-2: Electrolysis and Faraday"s Laws
 
 **Question:**
@@ -123,6 +150,15 @@ dissolves at the anode. This is the principle behind **electrorefining** of copp
 produced at the anode because copper is more oxidised than water or hydroxide ions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
 
 ### UT-3: Predicting Feasibility of Redox Reactions
 
@@ -227,6 +263,15 @@ reaction).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
+
 ### IT-2: Electrolysis Product Prediction and Quantitative Analysis (with Transition Metals)
 
 **Question:**
@@ -287,6 +332,15 @@ The solution becomes increasingly acidic as electrolysis proceeds.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
+
 ### IT-3: Fuel Cell Calculations (with Kinetics and Thermodynamics)
 
 **Question:**
@@ -344,6 +398,15 @@ $$m(\text{H}_2) = 0.1865 \times 2.02 = 0.377\,\text{g}$$
    overall carbon footprint.)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
 
 ### Additional Practice Problems
 

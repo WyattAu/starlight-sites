@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Cell Biology", "url": "https://dse.wyattau.com/biology/cell-biology"}]
+}
+</script>
 title: Biology - Cell Biology
 description: 'DSE Biology - Cell Biology notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.'
 tags: [DSE, Biology]
 categories: [DSE, Biology]
 date: 2026-05-31T00:00:00.000Z
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Cell Biology", "url": "https://dse.wyattau.com/biology/cell-biology"}]
+}
+</script>
 
 ## 1. Cell Structure
 
@@ -32,6 +50,15 @@ date: 2026-05-31T00:00:00.000Z
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Cell Biology", "url": "https://dse.wyattau.com/biology/cell-biology"}]
+}
+</script>
+
 ## 2. Organelles
 
 | Organelle              | Structure                           | Function                                              |
@@ -50,6 +77,15 @@ date: 2026-05-31T00:00:00.000Z
 | Cell membrane         | Phospholipid bilayer               | Controls entry/exit of substances; cell recognition    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Cell Biology", "url": "https://dse.wyattau.com/biology/cell-biology"}]
+}
+</script>
 
 ## 3. Microscopy
 
@@ -74,6 +110,15 @@ $$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Cell Biology", "url": "https://dse.wyattau.com/biology/cell-biology"}]
+}
+</script>
+
 ## 4. Cell Membrane — The Fluid Mosaic Model
 
 ### Structure
@@ -94,6 +139,15 @@ $$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
 - Enzyme surfaces (e.g. ATP synthase on inner mitochondrial membrane)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Cell Biology", "url": "https://dse.wyattau.com/biology/cell-biology"}]
+}
+</script>
 
 ## 5. Transport Across Membranes
 
@@ -126,6 +180,15 @@ $$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
 - **Exocytosis:** vesicles fuse with membrane to release contents (e.g. secretion of hormones, enzymes)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Cell Biology", "url": "https://dse.wyattau.com/biology/cell-biology"}]
+}
+</script>
 
 ## 6. Cell Division
 

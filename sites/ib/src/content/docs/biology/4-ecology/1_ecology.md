@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
 title: Ecology
 description: "IB Biology — species, communities, ecosystems, energy flow, nutrient cycles, climate change, evolution, natural selection, and classification."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
 
 ## Intuition
 
@@ -68,6 +86,15 @@ Actual range occupied, limited by competition and other biotic factors.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
+
 ## 2. Energy Flow
 
 ### Laws of Thermodynamics Applied to Ecosystems
@@ -113,6 +140,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
+
 ## 3. Nutrient Cycles
 
 ### The Carbon Cycle
@@ -151,6 +187,15 @@ To most organisms. The nitrogen cycle converts $\mathrm{N}_2$ into biologically 
 | **Denitrification**   | Conversion of $\mathrm{NO}_3^-$ back to $\mathrm{N}_2$ by denitrifying bacteria (e.g., _Pseudomonas denitrificans_), returning nitrogen to the atmosphere. Occurs in anaerobic conditions (waterlogged soils). |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
 
 ## 4. Climate Change
 
@@ -192,6 +237,15 @@ Radiation, warming the planet.
 - Spread of tropical diseases to higher latitudes.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
 
 ## 5. Evolution
 
@@ -270,6 +324,15 @@ On the population.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
+
 ## 6. Classification
 
 ### Taxonomy
@@ -299,6 +362,15 @@ One of two alternatives based on observable characteristics.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - Confusing **niche** and **habitat**: habitat is the physical place; niche is the organism's role
@@ -314,6 +386,15 @@ One of two alternatives based on observable characteristics.
   it serves as a null model to detect evolutionary forces.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -446,6 +527,15 @@ Convention, unicellular photosynthetic eukaryotes are classified as protists.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
+
 ## Worked Examples
 
 **Worked Example: Hardy-Weinberg Equilibrium with Selection**
@@ -576,6 +666,15 @@ cycles independently of predation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Confusing niche and habitat**: habitat is the physical place where an organism lives; niche is
@@ -599,6 +698,15 @@ cycles independently of predation.
   $\mathrm{NO}_3^-$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -701,6 +809,15 @@ and explain your reasoning.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
+
 ## If You Get These Wrong, Revise:
 
 - **Cell biology and microscopy** --> Review
@@ -714,6 +831,15 @@ and explain your reasoning.
   [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
 
 ## 7. Ecosystem Dynamics (Extended)
 
@@ -807,6 +933,15 @@ feeding Times, different food sizes, different vertical stratification) to reduc
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
+
 ## 8. Biogeochemical Cycles (Extended)
 
 ### The Phosphorus Cycle
@@ -841,6 +976,15 @@ Ecosystems.
 7. **Biodiversity loss**: fish kills and loss of aquatic species diversity.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
 
 ## 9. Conservation Biology
 
@@ -879,6 +1023,15 @@ Ecosystems.
   fisheries quotas, ecotourism).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
 
 ## Exam-Style Problems (Extended)
 
@@ -928,6 +1081,15 @@ two Strategies for reducing phosphate pollution from agricultural runoff.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -1136,6 +1298,15 @@ balance of complete vs incomplete Denitrification environmentally significant.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
+
 ## Additional Common Pitfalls
 
 - **Confusing gross primary productivity (GPP) and net primary productivity (NPP)**: GPP is the
@@ -1155,6 +1326,15 @@ balance of complete vs incomplete Denitrification environmentally significant.
   effects; the term "invasive" refers to spread, not necessarily impact.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
 
 ## Additional Exam-Style Problems with Full Solutions
 
@@ -1300,6 +1480,15 @@ consequences, and evaluate One conservation strategy.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
+
 ## Cross-References to Related Topics
 
 - **Evolution and natural selection**: Review
@@ -1318,6 +1507,15 @@ consequences, and evaluate One conservation strategy.
   for allele frequency calculations and genetic drift.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
 
 | Topic     | Site    | Link                                                                    |
 | --------- | ------- | ----------------------------------------------------------------------- |

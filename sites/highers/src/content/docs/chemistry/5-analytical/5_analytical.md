@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
 title: Analytical Chemistry
 description: "Scottish Highers Analytical Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
 
 # Analytical Chemistry
 
@@ -255,6 +273,15 @@ $$c = \frac{A}{\varepsilon l} = \frac{0.450}{15000 \times 2} = 1.5 \times 10^{-5
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
+
 ## Chromatography
 
 ### Principles
@@ -311,6 +338,15 @@ Far. Therefore, substance A is more polar than substance B.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
+
 ## Combined Spectroscopic Analysis
 
 ### Systematic Approach to Structure Determination
@@ -361,6 +397,15 @@ $\mathrm{CH_2$ is adjacent to a carbonyl group.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **IR spectroscopy:** The O-H stretch in carboxylic acids is very broad (2500-3300 cm$^{-1}$), not
@@ -386,6 +431,15 @@ $\mathrm{CH_2$ is adjacent to a carbonyl group.
    should be tried.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
 
 ## Practice Questions
 
@@ -433,6 +487,15 @@ $\mathrm{CH_2$ is adjacent to a carbonyl group.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
+
 ## Advanced NMR Concepts
 
 ### Spin-Spin Coupling Constants
@@ -471,6 +534,15 @@ Carbons. The pattern is consistent with butanoic acid
 ($\mathrm{CH_3\mathrm{CH_2\mathrm{CH_2\mathrm{COOH$).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
 
 ## Elemental Analysis
 
@@ -516,6 +588,15 @@ Checking with molecular mass information).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
+
 ## Electroanalytical Methods
 
 ### Flame Emission Spectroscopy
@@ -553,6 +634,15 @@ $$c = \frac{0.40}{0.60} \times 8 = 5.3 \mathrm{ ppm$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
+
 ## Summary Table: Analytical Techniques
 
 | Technique            | Information obtained        | Sensitivity  | Sample requirement |
@@ -568,6 +658,15 @@ $$c = \frac{0.40}{0.60} \times 8 = 5.3 \mathrm{ ppm$$
 | AAS                  | Metal ion concentration     | Very high    | mL of solution     |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
 
 ## Quality of Analytical Data
 
@@ -588,6 +687,15 @@ Results should be quoted to an appropriate number of significant figures, consis
 Precision of the measurements used.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
 
 ## Practice Questions (Extended)
 
@@ -616,6 +724,15 @@ Identify the compound and assign all spectral features.
     including the principle behind each technique.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
 
 ## Advanced Mass Spectrometry
 
@@ -652,6 +769,15 @@ Heteroatom.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
+
 ## Advanced Chromatography Concepts
 
 ### Theoretical Plates
@@ -682,6 +808,15 @@ Where $R_s > 1.5$ indicates baseline separation.
 | Mobile phase composition (HPLC) | Optimised gradient improves separation                    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
 
 ## Interpretation Guide for Combined Spectroscopic Data
 

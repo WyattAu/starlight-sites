@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
 title: Science Practice Questions
 date: 2026-05-30
 tags:
@@ -10,6 +19,15 @@ categories:
 description: "This page contains 15 practice problems covering general science topics commonly tested on standardised science sections such as the test and other"
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
+
 ## Overview
 
 This page contains 15 practice problems covering general science topics commonly tested on
@@ -18,6 +36,15 @@ Questions are organised by discipline and include data interpretation and experi
 problems.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
 
 ## Biology
 
@@ -47,6 +74,15 @@ $$n = 2$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
+
 ### Problem 2: Genetics
 
 In a certain plant species, flower colour is controlled by a single gene with two alleles: red ($R$)
@@ -70,6 +106,15 @@ $rr$ displays the recessive white phenotype.
 **Answer:** 1 red : 1 white
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
 
 ### Problem 3: Enzyme Kinetics
 
@@ -109,6 +154,15 @@ $$K_m \approx 2.50 \text{ mmol/L}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
+
 ## Chemistry
 
 ### Problem 4: Stoichiometry
@@ -140,6 +194,15 @@ $$m = 0.625 \times 58.5 = 36.6 \text{ g}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
+
 ### Problem 5: Gas Laws
 
 A gas occupies a volume of 2.00 L at a pressure of 1.50 atm and a temperature of 300 K. If the
@@ -160,6 +223,15 @@ $$V_2 = \frac{1350}{900} = 1.50 \text{ L}$$
 **Answer:** 1.50 L
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
 
 ### Problem 6: pH Calculation
 
@@ -187,6 +259,15 @@ $$\text{pH} = 14.00 - \text{pOH} = 14.00 - 2.00 = 12.00$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
+
 ## Physics
 
 ### Problem 7: Kinematics
@@ -203,6 +284,15 @@ $$s = ut + \frac{1}{2}at^2 = 0 + \frac{1}{2}(3.0)(8.0)^2 = \frac{1}{2}(3.0)(64) 
 **Answer:** 96 m
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
 
 ### Problem 8: Forces and Motion
 
@@ -230,6 +320,15 @@ $$a = \frac{F_{\text{net}}}{m} = \frac{5.3}{5.0} = 1.06 \text{ m/s}^2$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
+
 ### Problem 9: Electric Circuits
 
 Two resistors, $R_1 = 12\,\Omega$ and $R_2 = 6\,\Omega$, are connected in parallel across a 12 V
@@ -255,6 +354,15 @@ $$P = VI = 12 \times 3 = 36 \text{ W}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
+
 ### Problem 10: Waves
 
 A sound wave has a frequency of 440 Hz and travels at 343 m/s in air. What is its wavelength?
@@ -268,6 +376,15 @@ $$\lambda = \frac{v}{f} = \frac{343}{440} = 0.780 \text{ m}$$
 **Answer:** 0.780 m
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
 
 ## Earth Science
 
@@ -292,6 +409,15 @@ $$d = 5.0 \times 10^6 \text{ cm} = 50 \text{ km}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
+
 ### Problem 12: Weather and Climate
 
 A weather balloon is launched at sea level where the atmospheric pressure is 101.3 kPa and the
@@ -308,6 +434,15 @@ $$V_2 = \frac{P_1 V_1}{P_2} = \frac{101.3 \times 2.00}{50.7} = 4.00 \text{ m}^3$
 **Answer:** 4.00 m³
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
 
 ## Data Interpretation
 
@@ -339,6 +474,15 @@ $$\text{Percentage decrease} = \frac{8.0 - 7.0}{8.0} \times 100\% = \frac{1.0}{8
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
+
 ### Problem 14: Graphical Analysis
 
 A ball is dropped from a height and its velocity is recorded over time:
@@ -369,6 +513,15 @@ $$s = \frac{1}{2}(9.8)(3)^2 = \frac{1}{2}(9.8)(9) = 44.1 \text{ m}$$
 **Answer:** Acceleration = 9.8 m/s²; distance = 44.1 m in the first 3 seconds.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
 
 ## Experimental Analysis
 

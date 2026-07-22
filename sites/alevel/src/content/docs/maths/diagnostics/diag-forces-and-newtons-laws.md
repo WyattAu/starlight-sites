@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Forces And Newtons Laws", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-forces-and-newtons-laws"}]
+}
+</script>
 title: "Forces and Newton's Laws -- Diagnostic Tests"
 description: "> Tests edge cases, boundary conditions, and common misconceptions for forces an Comprehensive educational content coverage with definitions and practice proble"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Forces And Newtons Laws", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-forces-and-newtons-laws"}]
+}
+</script>
 
 
 ## Intuition
@@ -87,6 +105,15 @@ in $R$ means the maximum available horizontal force is reduced overall.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Forces And Newtons Laws", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-forces-and-newtons-laws"}]
+}
+</script>
+
 ### UT-2: Connected Particles on Rough Inclined Planes
 
 **Question:**
@@ -159,6 +186,15 @@ opposite direction), and the student must reconsider the friction direction or c
 equilibrium.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Forces And Newtons Laws", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-forces-and-newtons-laws"}]
+}
+</script>
 
 ### UT-3: Newton's Third Law — Identifying Correct Action-Reaction Pairs
 
@@ -237,6 +273,15 @@ equivalently, the trailer pushes forward on the car through the bar).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Forces And Newtons Laws", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-forces-and-newtons-laws"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of forces and Newton's laws with other topics. Requires combining concepts from
@@ -306,6 +351,15 @@ $$\Delta\mathrm{KE} = \frac{1}{2}(2)(2^2) - 0 = 4 \text{ J}$$
 Therefore $W = 4$ J, consistent with the work-energy theorem.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Forces And Newtons Laws", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-forces-and-newtons-laws"}]
+}
+</script>
 
 ### IT-2: Proving Equilibrium via Force Resolution and Moments (with Proof)
 
@@ -386,6 +440,15 @@ and will yield the same equilibrium conditions (though it may not eliminate the 
 conveniently as taking moments about $A$ does).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Forces And Newtons Laws", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-forces-and-newtons-laws"}]
+}
+</script>
 
 ### IT-3: Forces as Vectors — Resultant and Equilibrium (with Vectors)
 

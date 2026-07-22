@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "8 Object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming"}, {"name": "1_object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming/1_object-oriented-programming"}]
+}
+</script>
 title: JETS
 description: "Rigorous IB computer science notes covering JETS. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
@@ -8,6 +17,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "8 Object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming"}, {"name": "1_object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming/1_object-oriented-programming"}]
+}
+</script>
 
 # Java Examination Tool Sebset (JETS)
 
@@ -122,6 +140,15 @@ try{ /*commands*/ }
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "8 Object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming"}, {"name": "1_object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming/1_object-oriented-programming"}]
+}
+</script>
 
 ## Object-Oriented Programming Principles
 
@@ -311,6 +338,15 @@ class Car extends Vehicle {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "8 Object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming"}, {"name": "1_object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming/1_object-oriented-programming"}]
+}
+</script>
+
 ## UML Class Diagrams
 
 UML (Unified Modelling Language) class diagrams are a standard way to represent the structure of OOP
@@ -355,6 +391,15 @@ Programs. IB exams frequently include UML diagrams and ask you to interpret or c
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "8 Object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming"}, {"name": "1_object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming/1_object-oriented-programming"}]
+}
+</script>
+
 ## Design Patterns (IB Context)
 
 Design patterns are reusable solutions to common programming problems. While the IB does not require
@@ -393,6 +438,15 @@ Are notified and updated automatically. This is relevant to event-driven program
 Syllabus.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "8 Object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming"}, {"name": "1_object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming/1_object-oriented-programming"}]
+}
+</script>
 
 ## Collections and Data Structures in JETS
 
@@ -435,6 +489,15 @@ for (int i = 0; i < matrix.length; i++) {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "8 Object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming"}, {"name": "1_object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming/1_object-oriented-programming"}]
+}
+</script>
+
 ## Control Structures
 
 ### Conditional Statements
@@ -476,6 +539,15 @@ for (int num : numbers) {
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "8 Object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming"}, {"name": "1_object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming/1_object-oriented-programming"}]
+}
+</script>
 
 ## Searching and Sorting Algorithms
 
@@ -570,6 +642,15 @@ void selectionSort(int[] arr) {
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "8 Object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming"}, {"name": "1_object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming/1_object-oriented-programming"}]
+}
+</script>
 
 ## IB Exam Tips for JETS
 

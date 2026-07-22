@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "01 Complexity Analysis", "url": "https://tools.wyattau.com/algorithms/01-complexity-analysis"}, {"name": "Complexity Analysis", "url": "https://tools.wyattau.com/algorithms/01-complexity-analysis/complexity-analysis"}]
+}
+</script>
 title: Complexity Analysis
 description: "A system that handles 1,000 requests per second at USD 10,000 per month in compute costs is Fundamentally different from one that handles 10 requests per"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "01 Complexity Analysis", "url": "https://tools.wyattau.com/algorithms/01-complexity-analysis"}, {"name": "Complexity Analysis", "url": "https://tools.wyattau.com/algorithms/01-complexity-analysis/complexity-analysis"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--note">
 <strong>Historical Context</strong>

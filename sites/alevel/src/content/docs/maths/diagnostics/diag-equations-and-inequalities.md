@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Equations And Inequalities", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-equations-and-inequalities"}]
+}
+</script>
 title: "Equations and Inequalities -- Diagnostic Tests"
 description: "A-Level Maths Equations and Inequalities -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Equations And Inequalities", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-equations-and-inequalities"}]
+}
+</script>
 
 
 ## Intuition
@@ -78,6 +96,15 @@ $$x \in (-\infty, -3) \cup [1, 2) \cup (2, \infty)$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Equations And Inequalities", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-equations-and-inequalities"}]
+}
+</script>
+
 ### UT-2: Modulus Function Equations with Multiple Cases
 
 **Question:**
@@ -113,6 +140,15 @@ $$x = 1 \quad \text{or} \quad x = 2$$
 The solutions are $x = 1, 2, 5$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Equations And Inequalities", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-equations-and-inequalities"}]
+}
+</script>
 
 ### UT-3: System with No Real Solutions — Proof of Impossibility
 
@@ -171,6 +207,15 @@ $$\frac{|0 + 0 - k|}{\sqrt{1^2 + 1^2}} = 1 \implies \frac{k}{\sqrt{2}} = 1 \impl
 This confirms our algebraic result.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Equations And Inequalities", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-equations-and-inequalities"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -235,6 +280,15 @@ Verification: $f(x) = x$ gives $\frac{2x+3}{x-1} = x$I.e. $2x+3 = x^2-x$I.e. $x^
 the same equation we obtained in part (b).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Equations And Inequalities", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-equations-and-inequalities"}]
+}
+</script>
 
 ### IT-2: Sum of Terms Satisfying an Inequality (with Sequences and Series)
 
@@ -312,6 +366,15 @@ This is the exact value in terms of the harmonic number $H_{102}$. Note that $H_
 simplify to a closed form using elementary functions; this is the most precise exact answer.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Equations And Inequalities", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-equations-and-inequalities"}]
+}
+</script>
 
 ### IT-3: Region Defined by Inequalities (with Coordinate Geometry)
 

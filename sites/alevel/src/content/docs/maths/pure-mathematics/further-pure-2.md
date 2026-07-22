@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 2", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-2"}]
+}
+</script>
 title: Further Pure Mathematics 2
 description: "| Board | Paper | Notes | | ---------- | ----------- | ------------------------------------------------------ | | AQA | Paper 2 | Groups, further complex,"
 date: 2026-05-31
@@ -10,6 +19,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 2", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-2"}]
+}
+</script>
 
 ## Board Coverage
 
@@ -80,6 +98,15 @@ $$w = a + e^{2i\theta}(\bar{z} - \bar{a})$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 2", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-2"}]
+}
+</script>
+
 ## 2. Groups
 
 ### 2.1 Axioms
@@ -138,6 +165,15 @@ $$\phi(a * b) = \phi(a) \circ \phi(b)$$
 **Image:** $\text{im}(\phi) = \{\phi(g) : g \in G\}$. The image is always a subgroup of $H$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 2", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-2"}]
+}
+</script>
 
 ## 3. Further Calculus
 
@@ -198,6 +234,15 @@ with $I_0 = \pi/2$ and $I_1 = 1$.
 $$I_n = \frac{1}{a}x^n e^{ax} - \frac{n}{a}I_{n-1}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 2", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-2"}]
+}
+</script>
 
 ## 4. Vectors and 3D Geometry
 
@@ -287,6 +332,15 @@ $\mathbf{d}_1, \mathbf{d}_2$ are direction vectors.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 2", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-2"}]
+}
+</script>
+
 ## 5. Conics
 
 ### 5.1 Focus-Directrix Properties
@@ -340,6 +394,15 @@ $$y = -tx + 2at + at^3$$
 $$\frac{x\cos\theta}{a} + \frac{y\sin\theta}{b} = 1$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 2", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-2"}]
+}
+</script>
 
 ## 6. Common Mistakes
 

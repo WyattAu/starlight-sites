@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "3_wave Functions And The Schrodinger Equation", "url": "https://physics.wyattau.com/5-quantum-mechanics/3_wave-functions-and-the-schrodinger-equation"}]
+}
+</script>
 title: Wave Functions and the Schrodinger Equation
 tags:
   - Physics
   - University
 description: "In the position representation, the state is described by a Where is the probabi Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "3_wave Functions And The Schrodinger Equation", "url": "https://physics.wyattau.com/5-quantum-mechanics/3_wave-functions-and-the-schrodinger-equation"}]
+}
+</script>
 
 ### 3.1 Wave Functions
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Authoritarian States", "url": "https://ib.wyattau.com/history/authoritarian-states"}]
+}
+</script>
 title: Authoritarian States
 date: 2026-05-31
 tags:
@@ -7,6 +16,15 @@ categories:
   - IB History
 description: "This document covers the IB History prescribed subject on Authoritarian States for Paper 2. It examines three case studies — Nazi Germany, Fascist Italy,"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Authoritarian States", "url": "https://ib.wyattau.com/history/authoritarian-states"}]
+}
+</script>
 
 # Authoritarian States (20th Century)
 
@@ -17,6 +35,15 @@ the policies pursued by each regime. Comparative analysis and historiographical 
 integrated throughout.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Authoritarian States", "url": "https://ib.wyattau.com/history/authoritarian-states"}]
+}
+</script>
 
 ## 1. Hitler and Nazi Germany (1919--1945)
 
@@ -118,6 +145,15 @@ integrated throughout.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Authoritarian States", "url": "https://ib.wyattau.com/history/authoritarian-states"}]
+}
+</script>
+
 ## 2. Mussolini and Fascist Italy (1919--1945)
 
 ### 2.1 Rise of Fascism
@@ -180,6 +216,15 @@ integrated throughout.
 - Mussolini was captured and executed by partisans on 28 April 1945
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Authoritarian States", "url": "https://ib.wyattau.com/history/authoritarian-states"}]
+}
+</script>
 
 ## 3. Stalin and the Soviet Union (1924--1953)
 
@@ -267,6 +312,15 @@ enormous human cost: millions died in famines, purges, and forced labour.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Authoritarian States", "url": "https://ib.wyattau.com/history/authoritarian-states"}]
+}
+</script>
+
 ## 4. Comparative Analysis
 
 ### 4.1 Ideological Similarities and Differences
@@ -309,6 +363,15 @@ All three regimes used remarkably similar methods:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Authoritarian States", "url": "https://ib.wyattau.com/history/authoritarian-states"}]
+}
+</script>
+
 ## 5. Historiographical Debates
 
 ### 5.1 Intentionalist vs Structuralist
@@ -338,6 +401,15 @@ All three regimes used remarkably similar methods:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Authoritarian States", "url": "https://ib.wyattau.com/history/authoritarian-states"}]
+}
+</script>
+
 ## 6. Common Pitfalls
 
 1. **Presenting authoritarianism as inevitable**: The conditions that enabled these regimes were
@@ -356,6 +428,15 @@ All three regimes used remarkably similar methods:
    everyday life is essential for a complete analysis.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Authoritarian States", "url": "https://ib.wyattau.com/history/authoritarian-states"}]
+}
+</script>
 
 ## Intuition
 

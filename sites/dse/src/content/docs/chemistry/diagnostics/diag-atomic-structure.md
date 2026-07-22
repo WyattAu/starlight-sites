@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 title: "Atomic Structure -- Diagnostic Tests"
 description: "DSE Chemistry Atomic Structure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 # DSE Chemistry Diagnostic: Atomic Structure
 
@@ -21,6 +39,15 @@ than $[Ar]\,3d^{4}4s^{2}$.
 ($Sc$, $Z = 21$). Determine whether this claim is correct, and explain your reasoning. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -44,6 +71,15 @@ species, $Cr^{3+}$ has three $3d$ electrons whereas $Sc$ has one $3d$ electron a
 electrons.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 ## Unit Test 2: Successive Ionisation Energies
 
@@ -70,6 +106,15 @@ silicon (16091 kJ/mol). Explain this observation in terms of nuclear charge and 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
+
 **Worked Solution**
 
 (a) Element $X$ is **aluminium** ($Al$, $Z = 13$).
@@ -93,6 +138,15 @@ requiring more energy to remove.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
+
 ## Unit Test 3: Periodic Trend Explanation
 
 **Question**
@@ -108,6 +162,15 @@ difference in atomic radius between these two elements despite their similar nuc
 ($Z = 13$ and $Z = 14$). [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -132,6 +195,15 @@ electrons closer and making them harder to remove.
   resulting in a notably smaller atomic radius.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 ## Intuition
 
@@ -158,6 +230,15 @@ this particular boundary. [3 marks]
 $SCl_{2}$ (where $S$ is sulphur), even though both contain chlorine. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -187,6 +268,15 @@ melting point.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
+
 ## Integration Test 2: Electron Configuration + Properties
 
 **Question**
@@ -201,6 +291,15 @@ Consider the following species: $K^{+}$$Ca^{2+}$$Cl^{-}$$Ar$$S^{2-}$.
 despite having the same number of electrons. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -231,6 +330,15 @@ is higher.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
+
 ## Integration Test 3: Multi-Concept Analysis
 
 **Question**
@@ -253,6 +361,15 @@ greater nuclear charge. [3 marks]
 as the 1st ionisation energy of phosphorus. Evaluate this proposal quantitatively. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 **Worked Solution**
 

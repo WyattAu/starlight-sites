@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "2_concepts_and_constraints", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints"}, {"name": "1_defining_concepts", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts"}]
+}
+</script>
 title: Defining Concepts and Requires Clauses
 description: "C++20 introduced --- named requirements for template parameters that allow the compiler To check, at the point of instantiation, whether a type satisfies a"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "2_concepts_and_constraints", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints"}, {"name": "1_defining_concepts", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts"}]
+}
+</script>
 
 # Defining Concepts and Requires Clauses
 

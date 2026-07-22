@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
 title: Organic Chemistry
 description: "ILC Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for effective revision and exam readiness."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ilc-chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
 
 # Organic Chemistry
 
@@ -356,6 +374,15 @@ Images.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
+
 ## Nomenclature in Detail (OL/HL)
 
 ### Naming Complex Molecules
@@ -382,6 +409,15 @@ Priority order (highest first): carboxylic acid, aldehyde, ketone, alcohol, alke
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
+
 ## Reactions of Alkenes: Detailed Mechanism (HL)
 
 ### Electrophilic Addition of HBr to Propene
@@ -407,6 +443,15 @@ Distributing it. In Markovnikov addition, the hydrogen adds to the carbon with m
 Placing the positive charge on the more substituted (more stable) carbon.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
 
 ## Reactions of Alcohols: Detailed (OL/HL)
 
@@ -458,6 +503,15 @@ Minor product: but-1-ene.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
+
 ## Aldehydes and Ketones: Detailed (OL/HL)
 
 ### Nucleophilic Addition Mechanism
@@ -483,6 +537,15 @@ Specific carbonyl compound.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
+
 ## Carboxylic Acids: Detailed (OL/HL)
 
 ### Acidity
@@ -501,6 +564,15 @@ Is stabilised by resonance delocalisation of the negative charge over two oxygen
 | $\mathrm{LiAlH_4$                   | Primary alcohol                                          | Reduction      |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
 
 ## Esters in Detail (OL/HL)
 
@@ -524,6 +596,15 @@ Acid).
 **Base hydrolysis (saponification):** Ester + NaOH $\to$ carboxylate salt + alcohol (irreversible).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
 
 ## Isomerism in Detail (HL)
 
@@ -570,6 +651,15 @@ Groups ($\mathrm{H$ and $\mathrm{H$).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
+
 ## Free Radical Substitution: Further Detail (HL)
 
 ### Yield in Free Radical Substitution
@@ -585,6 +675,15 @@ Controlling the product requires controlling the ratio of methane to chlorine (e
 Favours $\mathrm{CH_3\mathrm{Cl$).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
 
 ## Summary Table: Key Organic Reactions
 
@@ -604,6 +703,15 @@ Favours $\mathrm{CH_3\mathrm{Cl$).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
+
 ## Common Pitfalls (Extended)
 
 1. **Nomenclature** -- always find the longest chain containing the principal functional group.
@@ -621,6 +729,15 @@ Favours $\mathrm{CH_3\mathrm{Cl$).
 10. **Free radical substitution** -- produces a mixture of products, not a single product.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
 
 ## Practice Questions (Extended)
 
@@ -641,6 +758,15 @@ Favours $\mathrm{CH_3\mathrm{Cl$).
     bromine water. Suggest a structure and explain.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
 
 ## Polymers (OL/HL)
 
@@ -687,6 +813,15 @@ Polymers derived from renewable resources that can be broken down by microorgani
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
+
 ## Functional Group Interconversion Flowchart
 
 The following transformations are commonly examined:
@@ -706,6 +841,15 @@ Alcohol
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
+}
+</script>
 
 ## NMR in Organic Chemistry (HL Introduction)
 

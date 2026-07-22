@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}, {"name": "Arenes", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry/arenes"}]
+}
+</script>
 title: Arenes
 description: "Arenes are hydrocarbons containing one or more benzene rings. Benzene () Is the archetypal aromatic compound. Its structure and reactivity differ"
 date: 2026-04-22T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}, {"name": "Arenes", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry/arenes"}]
+}
+</script>
 
 # Arenes (Aromatic Compounds)
 
@@ -898,6 +916,15 @@ But we need 3-amino-4-methylbenzoic acid, which has three substituents. This req
 approach entirely, demonstrating the complexity of multi-substituted aromatic synthesis.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}, {"name": "Arenes", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry/arenes"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 hardest questions within the A-Level specification for this topic, each with a full worked solution.

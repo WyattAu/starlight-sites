@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "02 Functions Modules", "url": "https://elixir.wyattau.com/02-functions-modules"}, {"name": "1_functions And Modules", "url": "https://elixir.wyattau.com/02-functions-modules/1_functions-and-modules"}]
+}
+</script>
 title: Functions and Modules
 description: "Named functions are defined inside modules using and . They are compiled and can be called from other modules (for ) or only within the defining module (for )."
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Elixir
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "02 Functions Modules", "url": "https://elixir.wyattau.com/02-functions-modules"}, {"name": "1_functions And Modules", "url": "https://elixir.wyattau.com/02-functions-modules/1_functions-and-modules"}]
+}
+</script>
 
 ## Named Functions
 

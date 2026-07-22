@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Physics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-nuclear-physics"}]
+}
+</script>
 title: "Nuclear Physics -- Diagnostic Tests"
 description: "DSE Nuclear Physics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Physics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-nuclear-physics"}]
+}
+</script>
 
 # Nuclear Physics — Diagnostic Tests
 
@@ -67,6 +85,15 @@ number). Many students use $N_0$ instead of $N$ after time has passed. Also, hal
 statistical property -- it applies to large numbers of atoms, not to individual atoms.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Physics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-nuclear-physics"}]
+}
+</script>
 
 ### UT-2: Binding Energy and Nuclear Stability
 
@@ -145,6 +172,15 @@ and by fusion of light nuclei (moving toward Fe-56). The BE/A curve peaks at Fe-
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Physics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-nuclear-physics"}]
+}
+</script>
+
 ### UT-3: Carbon Dating and Age Determination
 
 **Question:**
@@ -197,6 +233,15 @@ years ($\sim 9$ half-lives), less than $0.2\%$ of the original $^{14}\text{C}$ r
 reliable dating nearly impossible.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Physics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-nuclear-physics"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -255,6 +300,15 @@ consideration for power station siting.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Physics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-nuclear-physics"}]
+}
+</script>
+
 ### IT-2: Alpha and Beta Decay with Energy and Momentum Conservation (with Mechanics)
 
 **Question:**
@@ -301,6 +355,15 @@ particle gets most of the kinetic energy. This is analogous to a gun recoiling w
 bullet gets much more KE than the gun, even though they have equal and opposite momenta.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Physics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-nuclear-physics"}]
+}
+</script>
 
 ### IT-3: E = mc^2 Applied to Particle Annihilation (with Electricity and Magnetism)
 

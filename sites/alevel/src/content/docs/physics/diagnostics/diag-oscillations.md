@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Oscillations", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-oscillations"}]
+}
+</script>
 title: "Oscillations -- Diagnostic Tests"
 description: "A-Level Physics Oscillations -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Oscillations", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-oscillations"}]
+}
+</script>
 
 # Oscillations — Diagnostic Tests
 
@@ -74,6 +92,15 @@ The first time is $t = 0.104\,\text{s}$ (when $x = -A/\sqrt{2}$).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Oscillations", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-oscillations"}]
+}
+</script>
+
 ### UT-2: Damped Oscillations — Logarithmic Decrement
 
 **Question:**
@@ -118,6 +145,15 @@ A $Q$ factor of 8 means the oscillator completes approximately 8 radians (about 
 its energy drops to $1/e$ of its initial value.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Oscillations", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-oscillations"}]
+}
+</script>
 
 ### UT-3: Resonance and Forced Oscillations
 
@@ -215,6 +251,15 @@ $v_{\max} = A\omega = 0.05 \times \sqrt{k/m} = 0.05 \times \sqrt{40} = 0.05 \tim
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Oscillations", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-oscillations"}]
+}
+</script>
+
 ### IT-2: Driven Oscillator Connected to a Circuit (with Capacitance)
 
 **Question:**
@@ -276,6 +321,15 @@ Alternatively: $P = \frac{F_0^2}{2b} = 25/(2 \times 2.0) = 6.25\,\text{W}$
 Electrical: $P = \frac{V_0^2}{2R} = 100/80 = 1.25\,\text{W}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Oscillations", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-oscillations"}]
+}
+</script>
 
 ### IT-3: Oscillation of a Liquid in a U-Tube (with Properties of Materials)
 

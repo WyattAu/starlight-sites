@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "05 Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting"}, {"name": "Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alerting"}]
+}
+</script>
 title: Monitoring and Alerting
 description: "The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "05 Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting"}, {"name": "Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alerting"}]
+}
+</script>
 
 ## TrueNAS Built-in Monitoring
 
@@ -30,6 +48,15 @@ Navigate to **System** → **Advanced** for detailed system information:
 - **Storage:** Pool status, disk information, SLOG/L2ARC status
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "05 Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting"}, {"name": "Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alerting"}]
+}
+</script>
 
 ## SMART Tests
 
@@ -78,6 +105,15 @@ Critical attributes to monitor:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "05 Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting"}, {"name": "Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alerting"}]
+}
+</script>
+
 ## ZFS Scrub Scheduling
 
 ### Scrub Configuration
@@ -110,6 +146,15 @@ zpool status tank
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "05 Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting"}, {"name": "Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alerting"}]
+}
+</script>
 
 ## Email Alerting
 
@@ -148,6 +193,15 @@ Configure alert rules for:
 - **UPS events:** Power failure, battery low, on battery
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "05 Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting"}, {"name": "Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alerting"}]
+}
+</script>
 
 ## UPS Monitoring
 
@@ -194,6 +248,15 @@ For environments with multiple systems on the same UPS:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "05 Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting"}, {"name": "Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alerting"}]
+}
+</script>
+
 ## SNMP Monitoring
 
 ### SNMP Configuration
@@ -226,6 +289,15 @@ Use the SNMP data with:
 - **Check_MK:** Enterprise monitoring with native TrueNAS checks.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "05 Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting"}, {"name": "Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alerting"}]
+}
+</script>
 
 ## Integration with Grafana and Prometheus
 
@@ -266,6 +338,15 @@ Common dashboard panels for TrueNAS:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "05 Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting"}, {"name": "Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alerting"}]
+}
+</script>
+
 ## Log Analysis
 
 ### Accessing Logs
@@ -300,6 +381,15 @@ journalctl -b
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "05 Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting"}, {"name": "Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alerting"}]
+}
+</script>
+
 ## Capacity Planning
 
 ### Monitoring Growth Rate
@@ -327,6 +417,15 @@ TB/month will fill a 20 TB pool in approximately 20 months (accounting for RAIDZ
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "05 Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting"}, {"name": "Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alerting"}]
+}
+</script>
+
 ## Alert Fatigue Management
 
 ### Reducing Noise
@@ -346,6 +445,15 @@ Alert fatigue occurs when too many low-priority alerts desensitize administrator
 5. **Acknowledge and track:** Use a ticketing system to track alert acknowledgment and resolution.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "05 Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting"}, {"name": "Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alerting"}]
+}
+</script>
 
 ## Common Pitfalls
 

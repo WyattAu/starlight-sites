@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "03 Oop", "url": "https://swift.wyattau.com/03-oop"}, {"name": "1_classes And Structs", "url": "https://swift.wyattau.com/03-oop/1_classes-and-structs"}]
+}
+</script>
 title: Classes and Structs
 description: "Swift provides both (reference types) and (value types). The choice between them Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Swift
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "03 Oop", "url": "https://swift.wyattau.com/03-oop"}, {"name": "1_classes And Structs", "url": "https://swift.wyattau.com/03-oop/1_classes-and-structs"}]
+}
+</script>
 
 ## Classes vs Structs
 
@@ -819,6 +837,15 @@ struct APIClient {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "03 Oop", "url": "https://swift.wyattau.com/03-oop"}, {"name": "1_classes And Structs", "url": "https://swift.wyattau.com/03-oop/1_classes-and-structs"}]
+}
+</script>
+
 ### Example 2: Value Type with Copy-on-Write
 
 **Problem:** Implement a custom collection type that demonstrates copy-on-write semantics.
@@ -861,6 +888,15 @@ print(b.count)  // 3 (unchanged)
 **Explanation:** `isKnownUniquelyReferenced` checks if the underlying array has only one reference. If so, mutation is done in-place. If shared, a copy is made first. This gives value type semantics with efficient sharing, similar to Swift's standard library collections.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "03 Oop", "url": "https://swift.wyattau.com/03-oop"}, {"name": "1_classes And Structs", "url": "https://swift.wyattau.com/03-oop/1_classes-and-structs"}]
+}
+</script>
 
 ### Example 3: Generic Stack with Protocol Constraint
 

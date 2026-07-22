@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Optics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-optics"}]
+}
+</script>
 title: "Waves and Optics -- Diagnostic Tests"
 description: "DSE Physics Waves and Optics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Optics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-optics"}]
+}
+</script>
 
 # Waves and Optics — Diagnostic Tests
 
@@ -44,6 +62,15 @@ fringe spacing remains unchanged.
 spacing. The fringe spacing depends only on $\lambda$, $D$And $d$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Optics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-optics"}]
+}
+</script>
 
 ### UT-2: Diffraction Grating with Multiple Orders Overlapping
 
@@ -106,6 +133,15 @@ Since $36.87° \lt 44.43°$The 3rd-order violet spectrum overlaps with the 2nd-o
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Optics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-optics"}]
+}
+</script>
+
 ### UT-3: Polarization by Reflection (Brewster's Angle)
 
 **Question:**
@@ -152,6 +188,15 @@ polarized at Brewster's angle. Only the reflected ray is fully polarized; the re
 partially polarized.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Optics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-optics"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -208,6 +253,15 @@ orders are suppressed.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Optics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-optics"}]
+}
+</script>
+
 ### IT-2: Thin Film Interference with Phase Changes (with Optics)
 
 **Question:**
@@ -262,6 +316,15 @@ change occurs depends on whether light reflects from a denser or less dense medi
 whether constructive or destructive interference conditions have the $+1/2$ term.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Optics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-optics"}]
+}
+</script>
 
 ### IT-3: Electromagnetic Spectrum Application (with Nuclear Physics)
 

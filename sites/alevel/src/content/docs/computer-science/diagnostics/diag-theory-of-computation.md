@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Theory Of Computation", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-theory-of-computation"}]
+}
+</script>
 title: "Theory of Computation -- Diagnostic Tests"
 description: "A-Level Computer Science Theory of Computation -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Theory Of Computation", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-theory-of-computation"}]
+}
+</script>
 
 
 ## Intuition
@@ -74,6 +92,15 @@ number).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Theory Of Computation", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-theory-of-computation"}]
+}
+</script>
+
 ### UT-2: Regular Expressions
 
 **Question:** Write regular expressions for: (a) all binary strings that start with `01`(b) all
@@ -123,6 +150,15 @@ easier to write the complement `(a|b)*aba(a|b)*` and use negation in implementat
 (e.g., regex engines with negative lookahead: `^((?!aba).)*$`).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Theory Of Computation", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-theory-of-computation"}]
+}
+</script>
 
 ### UT-3: Turing Machine Trace
 
@@ -256,6 +292,15 @@ performance-critical applications.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Theory Of Computation", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-theory-of-computation"}]
+}
+</script>
+
 ### IT-2: Halting Problem and Decidability (with Software Engineering)
 
 **Question:** (a) State the halting problem and explain the proof by contradiction that it is
@@ -311,6 +356,15 @@ are impossible. There exist infinite loops that no static analyser can detect (e
 termination depends on deep mathematical properties like the Collatz conjecture).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Theory Of Computation", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-theory-of-computation"}]
+}
+</script>
 
 ### IT-3: Automata and Complexity Classes (with Complexity Analysis)
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "04 Object Oriented", "url": "https://languages.wyattau.com/dart/04-object-oriented"}, {"name": "01 Classes And Inheritance", "url": "https://languages.wyattau.com/dart/04-object-oriented/01-classes-and-inheritance"}]
+}
+</script>
 title: Classes and Inheritance
 description: "Dart is an . Every class implicitly extends . Unlike Java, Dart has no interfaces as a separate construct — classes themselves serve as Interfaces."
 date: 2025-07-20T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - dart
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "04 Object Oriented", "url": "https://languages.wyattau.com/dart/04-object-oriented"}, {"name": "01 Classes And Inheritance", "url": "https://languages.wyattau.com/dart/04-object-oriented/01-classes-and-inheritance"}]
+}
+</script>
 
 ## Class Fundamentals
 

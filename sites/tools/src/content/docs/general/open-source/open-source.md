@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source/open-source"}]
+}
+</script>
 title: Open Source Contribution Guide
 description: "General Open Source Contribution notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source/open-source"}]
+}
+</script>
 
 ## Intuition
 
@@ -29,6 +47,15 @@ Open source contribution benefits you as a systems engineer in several ways:
    your terminal). Contributing back is professional reciprocity.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source/open-source"}]
+}
+</script>
 
 ## Finding the Right Project
 
@@ -73,6 +100,15 @@ Criteria for selecting a project to contribute to:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source/open-source"}]
+}
+</script>
+
 ## Understanding a New Codebase
 
 ### Where to Start
@@ -114,6 +150,15 @@ project-root/
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source/open-source"}]
+}
+</script>
 
 ## Git Workflow for Contributions
 
@@ -199,6 +244,15 @@ git rebase -i HEAD~5
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source/open-source"}]
+}
+</script>
+
 ## Writing Good Pull Requests
 
 ### PR Description Template
@@ -244,6 +298,15 @@ Any caveats, follow-up work, or questions for reviewers
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source/open-source"}]
+}
+</script>
+
 ## Code Review Etiquette
 
 ### As a Reviewer
@@ -263,6 +326,15 @@ Any caveats, follow-up work, or questions for reviewers
 - **Thank the reviewer.** They are volunteering their time to improve your code.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source/open-source"}]
+}
+</script>
 
 ## Licensing Considerations
 
@@ -293,6 +365,15 @@ git commit -s -m "Fix memory leak in parser"
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source/open-source"}]
+}
+</script>
+
 ## Maintaining a Project
 
 ### Issue Triage
@@ -320,6 +401,15 @@ git commit -s -m "Fix memory leak in parser"
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source/open-source"}]
+}
+</script>
+
 ## Building a Portfolio Through Open Source
 
 ### Strategies
@@ -345,6 +435,15 @@ git commit -s -m "Fix memory leak in parser"
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source/open-source"}]
+}
+</script>
+
 ## Popular Communities
 
 | Platform                   | Focus                      | Notable Projects                       |
@@ -357,6 +456,15 @@ git commit -s -m "Fix memory leak in parser"
 | Linux Foundation           | Infrastructure             | Linux kernel, Node.js, PyTorch         |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source"}, {"name": "Open Source", "url": "https://tools.wyattau.com/general/open-source/open-source"}]
+}
+</script>
 
 ## Common Pitfalls
 

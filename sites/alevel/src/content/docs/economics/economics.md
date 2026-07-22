@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics/economics"}]
+}
+</script>
 title: Economics
 description: "A Level Economics is the study of how societies allocate scarce resources. It develops a rigorous Analytical framework for understanding markets, firms,"
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - Economics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics/economics"}]
+}
+</script>
 
 ## A Level Economics — Course Overview
 
@@ -84,6 +102,15 @@ When finished, attempt the.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics/economics"}]
+}
+</script>
+
 ## Key Formulae Reference
 
 ### Microeconomics
@@ -138,6 +165,15 @@ $$\text{Real exchange rate} = \frac{e \times P_{domestic}}{P_{foreign}}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics/economics"}]
+}
+</script>
+
 ## Exam Technique: Command Words
 
 | Command Word | What You Must Do                                                                  |
@@ -156,6 +192,15 @@ $$\text{Real exchange rate} = \frac{e \times P_{domestic}}{P_{foreign}}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics/economics"}]
+}
+</script>
+
 ## Data Interpretation Skills
 
 When presented with economic data in an exam:
@@ -172,6 +217,15 @@ When presented with economic data in an exam:
    income distribution.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics/economics"}]
+}
+</script>
 
 ## Common Exam Mistakes to Avoid
 
@@ -197,6 +251,15 @@ When presented with economic data in an exam:
    long-run effects unless explicitly asked.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics/economics"}]
+}
+</script>
 
 ## Study Plan: 8-Week Revision Schedule
 

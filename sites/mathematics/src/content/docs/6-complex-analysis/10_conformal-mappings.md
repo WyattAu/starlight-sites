@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "10_conformal Mappings", "url": "https://mathematics.wyattau.com/6-complex-analysis/10_conformal-mappings"}]
+}
+</script>
 title: Conformal Mappings
 tags:
   - Mathematics
   - University
 description: "An analytic function is at if . A conformal Mapping preserves angles (both magni Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "10_conformal Mappings", "url": "https://mathematics.wyattau.com/6-complex-analysis/10_conformal-mappings"}]
+}
+</script>
 
 ### 10.1 Definition
 

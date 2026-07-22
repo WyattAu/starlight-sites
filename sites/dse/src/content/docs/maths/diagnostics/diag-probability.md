@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 title: "Probability -- Diagnostic Tests"
 description: "DSE Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 
 # Probability — Diagnostic Tests
 
@@ -35,6 +53,15 @@ $P(A \mid B) \neq P(B \mid A)$ . This is a fundamental misconception.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
+
 ### UT-2: Independence vs Mutually Exclusive
 
 **Question:**
@@ -58,6 +85,15 @@ concepts.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
+
 ### UT-3: At Least One Using Complement
 
 **Question:**
@@ -72,6 +108,15 @@ A common mistake is trying to enumerate all cases with "at least one 6" directly
 terms), instead of using the complement.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 
 ### UT-4: Tree Diagram with Replacement
 
@@ -92,6 +137,15 @@ After replacement, the bag always has 3 red and 5 blue (8 total).
 $P(\text{different}) = P(\text{RB}) + P(\text{BR}) = \dfrac{3}{8} \times \dfrac{5}{8} + \dfrac{5}{8} \times \dfrac{3}{8} = \dfrac{15}{64} + \dfrac{15}{64} = \dfrac{30}{64} = \dfrac{15}{32}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 
 ### UT-5: Probability with Combined Events
 
@@ -114,6 +168,15 @@ Since $P(A \cap B) = 0.25 \neq 0.28$The events are **not** independent.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of probability with other topics.
@@ -135,6 +198,15 @@ $$P = \frac{420}{1287} = \frac{140}{429}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
+
 ### IT-2: Probability and Algebra (with Functions)
 
 **Question:**
@@ -153,6 +225,15 @@ $$2p^2 = \frac{1}{8} \implies p^2 = \frac{1}{16} \implies p = \frac{1}{4}$$
 ($p > 0$ since it is a probability, and $2p \leq 1$ gives $p \leq \dfrac{1}{2}$Which is satisfied.)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 
 ### IT-3: Probability and Sequences (with Sequences and Series)
 
@@ -176,6 +257,15 @@ This is a geometric series with first term $p$ and ratio $(1-p)$Converging since
 $0 < p < 1$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -208,6 +298,15 @@ minor arithmetic error.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
+
 ### WE-2: Drawing Without Replacement
 
 **Question:**
@@ -235,6 +334,15 @@ $$P(\text{at least 1 blue}) = 1 - \frac{5}{28} = \frac{23}{28}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
+
 ### WE-3: Probability with Arrangement
 
 **Question:**
@@ -258,6 +366,15 @@ $$P = \frac{1814400}{9979200} = \frac{1}{5.5} = \frac{2}{11}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
+
 ### WE-4: Repeated Trials with Different Outcomes
 
 **Question:**
@@ -276,6 +393,15 @@ HTHH, THHH), each with probability $\left(\dfrac{1}{2}\right)^4 = \dfrac{1}{16}$
 $$P = 4 \times \frac{1}{16} = \frac{1}{4}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 
 ### WE-5: Conditional Probability with Venn Diagrams
 
@@ -305,6 +431,15 @@ $$P(P \mid M) = \frac{P(M \cap P)}{P(M)} = \frac{13/40}{25/40} = \frac{13}{25}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
+
 ### WE-6: Expected Value and Fair Game
 
 **Question:**
@@ -328,6 +463,15 @@ $\dfrac{10}{3}$ dollars.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
+
 ### WE-7: Sequential Drawing with Changing Probabilities
 
 **Question:**
@@ -346,6 +490,15 @@ draw before combining them.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
+
 ### WE-8: Probability Involving Geometric Regions
 
 **Question:**
@@ -360,6 +513,15 @@ The region more than 1 cm from all sides forms an inner square of side $4 - 1 - 
 $$P = \frac{\text{area of inner square}}{\text{area of outer square}} = \frac{2^2}{4^2} = \frac{4}{16} = \frac{1}{4}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 
 ## Intuition
 
@@ -392,6 +554,15 @@ $$P = \frac{\text{area of inner square}}{\text{area of outer square}} = \frac{2^
    example, the arrangements of "AABB" is $\dfrac{4!}{2! \times 2!} = 6$Not $4! = 24$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 
 ## DSE Exam-Style Questions
 
@@ -433,6 +604,15 @@ $$P(\text{volleyball} \mid \text{basketball}) = \frac{15}{70} = \frac{3}{14}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
+
 ### DSE-2
 
 Two unbiased dice are thrown. Find the probability that:
@@ -464,6 +644,15 @@ $$P = \frac{2}{6} = \frac{1}{3}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
+
 ### DSE-3
 
 The probability that it rains on any given day in June is $0.3$. Assuming independence between days:
@@ -491,6 +680,15 @@ $P(X = 2) = 0.3177$ (from part b).
 $$P(X \geq 3) = 1 - (0.08235 + 0.24707 + 0.3177) = 1 - 0.64712 = 0.35288$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 
 ### DSE-4
 
@@ -521,6 +719,15 @@ $$P(\text{not all same}) = 1 - \frac{n - 2}{4(2n - 1)} = \frac{4(2n-1) - (n-2)}{
 $$P = \frac{5 - 2}{4(10 - 1)} = \frac{3}{36} = \frac{1}{12}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Probability", "url": "https://dse.wyattau.com/maths/diagnostics/diag-probability"}]
+}
+</script>
 
 ### DSE-5
 

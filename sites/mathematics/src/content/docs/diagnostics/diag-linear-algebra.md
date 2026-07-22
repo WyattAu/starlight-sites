@@ -1,15 +1,42 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
+}
+</script>
 title: "Diagnostic Test: Linear Algebra"
 description: "Self-assessment quiz on linear algebra"
 sidebar_position: 60
 tableOfContents: false
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
+}
+</script>
+
 # Diagnostic Test: Linear Algebra
 
 10 multiple-choice questions covering linear algebra fundamentals. Select the best answer for each question, then check your score using the answer key below.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
+}
+</script>
 
 **Question 1.** What is the determinant of a 2x2 matrix [[a, b], [c, d]]?
 
@@ -20,6 +47,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
+}
+</script>
+
 **Question 2.** A square matrix A is invertible if and only if:
 
 (A) Its trace is zero
@@ -28,6 +64,15 @@ tableOfContents: false
 (D) It has equal numbers of rows and columns
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
+}
+</script>
 
 **Question 3.** The eigenvalues of a diagonal matrix are:
 
@@ -38,6 +83,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
+}
+</script>
+
 **Question 4.** If A and B are invertible n x n matrices, then (AB)^(-1) equals:
 
 (A) A^(-1) * B^(-1)
@@ -46,6 +100,15 @@ tableOfContents: false
 (D) (A + B)^(-1)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
+}
+</script>
 
 **Question 5.** The dimension of the null space of a matrix is also called its:
 
@@ -56,6 +119,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
+}
+</script>
+
 **Question 6.** Which of the following is a basis for R^3?
 
 (A) {(1, 0, 0), (0, 1, 0)}
@@ -64,6 +136,15 @@ tableOfContents: false
 (D) {(1, 1, 1), (2, 2, 2), (3, 3, 3)}
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
+}
+</script>
 
 **Question 7.** The rank-nullity theorem states that for a linear transformation T: R^n to R^m:
 
@@ -74,6 +155,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
+}
+</script>
+
 **Question 8.** A set of vectors is linearly dependent if:
 
 (A) All vectors are the zero vector
@@ -82,6 +172,15 @@ tableOfContents: false
 (D) Both B and C are correct indicators
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
+}
+</script>
 
 **Question 9.** The dot product of two orthogonal non-zero vectors is:
 
@@ -92,6 +191,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
+}
+</script>
+
 **Question 10.** What are the eigenvalues of a 2x2 identity matrix?
 
 (A) 0 and 0
@@ -100,6 +208,15 @@ tableOfContents: false
 (D) Cannot be determined without more information
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Diagnostics", "url": "https://mathematics.wyattau.com/diagnostics"}, {"name": "Diag Linear Algebra", "url": "https://mathematics.wyattau.com/diagnostics/diag-linear-algebra"}]
+}
+</script>
 
 ## Intuition
 

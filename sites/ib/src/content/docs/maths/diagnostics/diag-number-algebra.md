@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Number Algebra", "url": "https://ib.wyattau.com/maths/diagnostics/diag-number-algebra"}]
+}
+</script>
 title: "Number and Algebra -- Diagnostic Tests"
 description: "IB Maths Number and Algebra -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Number Algebra", "url": "https://ib.wyattau.com/maths/diagnostics/diag-number-algebra"}]
+}
+</script>
 
 # Number and Algebra — Diagnostic Tests
 
@@ -65,6 +83,15 @@ Therefore the difference is $440 - 385 = 55$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Number Algebra", "url": "https://ib.wyattau.com/maths/diagnostics/diag-number-algebra"}]
+}
+</script>
+
 ### UT-2: Binomial Theorem with Non-Standard Exponent
 
 **Question:**
@@ -111,6 +138,15 @@ factors $\frac{n(n-1)}{2!}$Not three. The correct coefficient is $\dfrac{3}{2}$N
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Number Algebra", "url": "https://ib.wyattau.com/maths/diagnostics/diag-number-algebra"}]
+}
+</script>
+
 ### UT-3: Proof by Induction with Divisibility
 
 **Question:**
@@ -154,6 +190,15 @@ Since $7m + 1$ is an integer, $7^{k+1} - 1$ is divisible by $6$.
 $n \in \mathbb{Z}^+$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Number Algebra", "url": "https://ib.wyattau.com/maths/diagnostics/diag-number-algebra"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -209,6 +254,15 @@ $$S_{\infty} = \frac{1}{1 - \frac{x^2}{3}} = \frac{3}{3 - x^2}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Number Algebra", "url": "https://ib.wyattau.com/maths/diagnostics/diag-number-algebra"}]
+}
+</script>
+
 ### IT-2: Logarithm Equation with Composite Function Domain (with Functions)
 
 **Question:**
@@ -251,6 +305,15 @@ always be positive, and extraneous solutions arise when the algebraic solution v
 constraint.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Number Algebra", "url": "https://ib.wyattau.com/maths/diagnostics/diag-number-algebra"}]
+}
+</script>
 
 ### IT-3: Permutations with Restrictions (with Probability)
 

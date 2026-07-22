@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 title: "Cell Biology -- Diagnostic Tests"
 description: "IB Cell Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 
 # Cell Biology — Diagnostic Tests
 
@@ -43,6 +61,15 @@ high surface-area-to-volume ratio for rapid nutrient uptake; (5) generation time
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
+
 ### UT-2: Organelle Structure-Function Relationships
 
 **Question:** Explain how the structure of each organelle relates to its function: (a) mitochondrion
@@ -72,6 +99,15 @@ transport to their final destinations (lysosomes, plasma membrane, or secretion)
 structure allows sequential processing steps in an assembly-line fashion.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 
 ### UT-3: Fluid Mosaic Model and Membrane Transport
 
@@ -141,6 +177,15 @@ insufficient because the remaining checkpoints can still halt division or trigge
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
+
 ### IT-2: Endosymbiosis and Evolution (with Evolution and Genetics)
 
 **Question:** Outline three pieces of evidence supporting the endosymbiotic theory for the origin of
@@ -172,6 +217,15 @@ there is an active mechanism to selectively degrade sperm-derived mitochondria i
 ubiquitin-mediated autophagy.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 
 ### IT-3: Membrane Transport and Neurone Function (with Human Physiology)
 

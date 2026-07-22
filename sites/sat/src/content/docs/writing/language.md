@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Writing", "url": "https://sat.wyattau.com/writing"}, {"name": "Language", "url": "https://sat.wyattau.com/writing/language"}]
+}
+</script>
 title: "Language"
 description: "SAT writing: Language"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Writing", "url": "https://sat.wyattau.com/writing"}, {"name": "Language", "url": "https://sat.wyattau.com/writing/language"}]
+}
+</script>
 
 # Language
 
@@ -40,6 +58,15 @@ Step 3: Correct: "She likes swimming, running, and cycling" (all gerunds)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Writing", "url": "https://sat.wyattau.com/writing"}, {"name": "Language", "url": "https://sat.wyattau.com/writing/language"}]
+}
+</script>
+
 ### Example 2: Subject-Verb Agreement
 
 **Problem:** "The collection of rare stamps **were** recently sold." Fix the error.
@@ -53,6 +80,15 @@ Step 3: Correct: "The collection of rare stamps **was** recently sold"
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Writing", "url": "https://sat.wyattau.com/writing"}, {"name": "Language", "url": "https://sat.wyattau.com/writing/language"}]
+}
+</script>
+
 ### Example 3: Dangling Modifier
 
 **Problem:** "After reviewing the data, the conclusion was obvious." Is this correct?
@@ -65,6 +101,15 @@ Step 3: Correct: "After reviewing the data, **the researchers found** the conclu
 **Key insight:** A dangling modifier has no logical subject in the main clause. Add the missing subject.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Writing", "url": "https://sat.wyattau.com/writing"}, {"name": "Language", "url": "https://sat.wyattau.com/writing/language"}]
+}
+</script>
 
 ## Intuition
 

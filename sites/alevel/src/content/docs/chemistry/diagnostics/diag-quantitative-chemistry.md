@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Quantitative Chemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-quantitative-chemistry"}]
+}
+</script>
 title: "Quantitative Chemistry -- Diagnostic Tests"
 description: "A-Level Quantitative Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Quantitative Chemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-quantitative-chemistry"}]
+}
+</script>
 
 
 ## Intuition
@@ -71,6 +89,15 @@ $$V(\text{CO}_2) = 0.0190 \times 24.0 = 0.456\,\text{dm}^3 = 456\,\text{cm}^3$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Quantitative Chemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-quantitative-chemistry"}]
+}
+</script>
+
 ### UT-2: Ideal Gas Equation with Unit Consistency
 
 **Question:**
@@ -112,6 +139,15 @@ $\text{N}_2\text{O}_4$ at this temperature. The gas is **$\text{NO}_2$** (existi
 mixture with its dimer).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Quantitative Chemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-quantitative-chemistry"}]
+}
+</script>
 
 ### UT-3: Percentage Yield, Atom Economy, and Multi-Step Synthesis
 
@@ -228,6 +264,15 @@ Both are stable alkanes; pentane is the least sterically hindered.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Quantitative Chemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-quantitative-chemistry"}]
+}
+</script>
+
 ### IT-2: Hydrated Salt Formula Determination (with Thermodynamics)
 
 **Question:**
@@ -276,6 +321,15 @@ $$\Delta H = \Delta H_1 + (-\Delta H_2) = -13.2 - 8.8 = -22.0\,\text{kJ mol}^{-1
 The hydration of $\text{BaCl}_2$ to form the dihydrate releases $22.0\,\text{kJ mol}^{-1}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Quantitative Chemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-quantitative-chemistry"}]
+}
+</script>
 
 ### IT-3: Titrations with Multiple Equivalence Points (with Acids and Bases)
 
@@ -329,6 +383,15 @@ point contains $\text{CH}_3\text{COOH}$ and $\text{NaCl}$So the pH is determined
 alone ($\text{pH}$ approximately equal to $\frac{1}{2}\text{p}K_a - \frac{1}{2}\log[\text{HA}]$).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Quantitative Chemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-quantitative-chemistry"}]
+}
+</script>
 
 ### Additional Practice Problems
 

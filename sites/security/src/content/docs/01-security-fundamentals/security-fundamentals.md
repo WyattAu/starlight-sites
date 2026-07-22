@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "01 Security Fundamentals", "url": "https://security.wyattau.com/01-security-fundamentals"}, {"name": "Security Fundamentals", "url": "https://security.wyattau.com/01-security-fundamentals/security-fundamentals"}]
+}
+</script>
 title: Security Fundamentals
 description: "The CIA triad is the foundational model for information security. Every security control, Vulnerability, and threat maps to one or more of these three"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "01 Security Fundamentals", "url": "https://security.wyattau.com/01-security-fundamentals"}, {"name": "Security Fundamentals", "url": "https://security.wyattau.com/01-security-fundamentals/security-fundamentals"}]
+}
+</script>
 
 ## The CIA Triad
 
@@ -843,6 +861,15 @@ linked above.
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "01 Security Fundamentals", "url": "https://security.wyattau.com/01-security-fundamentals"}, {"name": "Security Fundamentals", "url": "https://security.wyattau.com/01-security-fundamentals/security-fundamentals"}]
+}
+</script>
 
 ## Cross-References
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Probabilisticml", "url": "https://tools.wyattau.com/probabilisticml"}, {"name": "1_fundamentals", "url": "https://tools.wyattau.com/probabilisticml/1_fundamentals"}, {"name": "2_definitions", "url": "https://tools.wyattau.com/probabilisticml/1_fundamentals/2_definitions"}]
+}
+</script>
 title: Definitions
 description: "To understand the basis for probability theory, it is important to fully understand every term used. Here are the definitions for the terms we will be"
 date: 2026-01-15T09:31:35.184Z
@@ -8,6 +17,15 @@ categories:
   - ML
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Probabilisticml", "url": "https://tools.wyattau.com/probabilisticml"}, {"name": "1_fundamentals", "url": "https://tools.wyattau.com/probabilisticml/1_fundamentals"}, {"name": "2_definitions", "url": "https://tools.wyattau.com/probabilisticml/1_fundamentals/2_definitions"}]
+}
+</script>
 
 To understand the basis for probability theory, it is important to fully understand every term used.
 Here are the definitions for the terms we will be using, refer back to this page if there are any

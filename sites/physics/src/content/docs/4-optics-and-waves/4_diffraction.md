@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "4_diffraction", "url": "https://physics.wyattau.com/4-optics-and-waves/4_diffraction"}]
+}
+</script>
 title: Diffraction
 tags:
   - Physics
   - University
 description: "Every point on a wavefront acts as a source of secondary spherical wavelets. The new wavefront is the Envelope of these wavelets, accounting for both"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "4_diffraction", "url": "https://physics.wyattau.com/4-optics-and-waves/4_diffraction"}]
+}
+</script>
 
 ### 4.1 Huygens-Fresnel Principle
 

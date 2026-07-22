@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "3 Wave Behaviour", "url": "https://ib.wyattau.com/physics/3-wave-behaviour"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/3-wave-behaviour/9_wrap-up"}]
+}
+</script>
 title: Wrap Up
 description: "Detailed IB physics study notes for Wrap Up. Provides rigorous definitions, /1-number-and-algebra/3_proof-and-logics, and exam-focused practice questions."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "3 Wave Behaviour", "url": "https://ib.wyattau.com/physics/3-wave-behaviour"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/3-wave-behaviour/9_wrap-up"}]
+}
+</script>
 
 ## C.1 Simple Harmonic Motion, C.2 Wave Model & C.3 Wave Phenomena
 
@@ -253,6 +271,15 @@ $$v = f\lambda = (440)(0.78) = 343 \mathrm{ m s}^{-1}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "3 Wave Behaviour", "url": "https://ib.wyattau.com/physics/3-wave-behaviour"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/3-wave-behaviour/9_wrap-up"}]
+}
+</script>
+
 ## Reflection and Refraction
 
 ### Reflection
@@ -300,6 +327,15 @@ Through a prism.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "3 Wave Behaviour", "url": "https://ib.wyattau.com/physics/3-wave-behaviour"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/3-wave-behaviour/9_wrap-up"}]
+}
+</script>
+
 ## Diffraction
 
 **Diffraction** is the spreading of a wave when it passes through an aperture or around an obstacle.
@@ -346,6 +382,15 @@ $$\theta = \frac{1.22 \times 550 \times 10^{-9}}{0.10} = 6.71 \times 10^{-6} \ma
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "3 Wave Behaviour", "url": "https://ib.wyattau.com/physics/3-wave-behaviour"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/3-wave-behaviour/9_wrap-up"}]
+}
+</script>
+
 ## Interference
 
 ### Conditions for Interference
@@ -391,6 +436,15 @@ The two reflected rays can interfere. Key points:
 > before applying thin film formulas. This is the most commonly tested subtlety.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "3 Wave Behaviour", "url": "https://ib.wyattau.com/physics/3-wave-behaviour"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/3-wave-behaviour/9_wrap-up"}]
+}
+</script>
 
 ## Standing Waves
 
@@ -447,6 +501,15 @@ $$T = \mu v^2 = (3.5 \times 10^{-3})(429)^2 = 644 \mathrm{ N}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "3 Wave Behaviour", "url": "https://ib.wyattau.com/physics/3-wave-behaviour"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/3-wave-behaviour/9_wrap-up"}]
+}
+</script>
+
 ## The Doppler Effect
 
 The **Doppler effect** is the change in observed frequency (and wavelength) of a wave when there is
@@ -496,6 +559,15 @@ $$f' = f\left(\frac{v}{v + v_s}\right) = 800\left(\frac{343}{343 + 30}\right) = 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "3 Wave Behaviour", "url": "https://ib.wyattau.com/physics/3-wave-behaviour"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/3-wave-behaviour/9_wrap-up"}]
+}
+</script>
+
 ## Quick Reference: Key Wave Formulas
 
 | Formula                                             | Application                      |
@@ -541,6 +613,15 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "3 Wave Behaviour", "url": "https://ib.wyattau.com/physics/3-wave-behaviour"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/3-wave-behaviour/9_wrap-up"}]
+}
+</script>
 
 ## Cross-References
 

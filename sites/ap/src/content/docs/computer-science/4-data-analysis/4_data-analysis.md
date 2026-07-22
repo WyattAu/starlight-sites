@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Computer Science", "url": "https://ap.wyattau.com/computer-science"}, {"name": "4 Data Analysis", "url": "https://ap.wyattau.com/computer-science/4-data-analysis"}, {"name": "4_data Analysis", "url": "https://ap.wyattau.com/computer-science/4-data-analysis/4_data-analysis"}]
+}
+</script>
 title: Data Analysis
 description: "A fixed-size, ordered collection of elements of the same type. Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ap-computer-science
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Computer Science", "url": "https://ap.wyattau.com/computer-science"}, {"name": "4 Data Analysis", "url": "https://ap.wyattau.com/computer-science/4-data-analysis"}, {"name": "4_data Analysis", "url": "https://ap.wyattau.com/computer-science/4-data-analysis/4_data-analysis"}]
+}
+</script>
 
 ## Data Structures (CED Unit 3, AP CS A)
 

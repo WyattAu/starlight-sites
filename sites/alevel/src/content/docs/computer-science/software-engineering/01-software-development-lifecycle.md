@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Software Engineering", "url": "https://alevel.wyattau.com/computer-science/software-engineering"}, {"name": "01 Software Development Lifecycle", "url": "https://alevel.wyattau.com/computer-science/software-engineering/01-software-development-lifecycle"}]
+}
+</script>
 title: Software Development Lifecycle
 description: "The is a structured framework describing the phases Involved in developing software, from initial conception through to deployment and maintenance."
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - ComputerScience
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Software Engineering", "url": "https://alevel.wyattau.com/computer-science/software-engineering"}, {"name": "01 Software Development Lifecycle", "url": "https://alevel.wyattau.com/computer-science/software-engineering/01-software-development-lifecycle"}]
+}
+</script>
 
 ## 1. The Software Development Lifecycle (SDLC)
 

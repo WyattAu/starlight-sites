@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}, {"name": "Introduction", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry/introduction"}]
+}
+</script>
 title: Organic Chemistry Introduction
 description: "Organic chemistry is the study of the structure, properties, composition, reactions, and preparation Of carbon-containing compounds. Carbon occupies a"
 date: 2026-04-22T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}, {"name": "Introduction", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry/introduction"}]
+}
+</script>
 
 # Organic Chemistry Introduction
 
@@ -1028,6 +1046,15 @@ trans isomer has them on opposite sides (1 mark).
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}, {"name": "Introduction", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry/introduction"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 questions within the A-Level specification for this topic, each with a full worked solution.

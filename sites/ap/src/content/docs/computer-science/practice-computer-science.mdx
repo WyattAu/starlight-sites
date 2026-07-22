@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Computer Science", "url": "https://ap.wyattau.com/computer-science"}, {"name": "Practice Computer Science", "url": "https://ap.wyattau.com/computer-science/practice-computer-science"}]
+}
+</script>
 title: AP Computer Science Practice (Interactive)
 tags:
   - ap
   - computer-science
 description: "QUALIFICATIONS Ap practice problems: AP Computer Science Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Computer Science", "url": "https://ap.wyattau.com/computer-science"}, {"name": "Practice Computer Science", "url": "https://ap.wyattau.com/computer-science/practice-computer-science"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -15,6 +33,15 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Computer Science", "url": "https://ap.wyattau.com/computer-science"}, {"name": "Practice Computer Science", "url": "https://ap.wyattau.com/computer-science/practice-computer-science"}]
+}
+</script>
+
 ## Intuition
 
 **Computer science is the art of solving problems systematically:** It's not just about coding — it's about breaking complex problems into manageable pieces (decomposition), identifying patterns, abstracting away irrelevant details, and designing step-by-step solutions (algorithms). This systematic thinking applies far beyond programming.
@@ -24,6 +51,15 @@ import PracticeProblem from "@components/PracticeProblem";
 **The key insight:** The difference between a good and bad algorithm can be enormous. Searching a sorted list with binary search ($O(\log n)$) is dramatically faster than linear search ($O(n)$) for large datasets. Understanding efficiency is what separates casual programmers from skilled computer scientists.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Computer Science", "url": "https://ap.wyattau.com/computer-science"}, {"name": "Practice Computer Science", "url": "https://ap.wyattau.com/computer-science/practice-computer-science"}]
+}
+</script>
 
 ### Computational Thinking
 
@@ -37,6 +73,15 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Computer Science", "url": "https://ap.wyattau.com/computer-science"}, {"name": "Practice Computer Science", "url": "https://ap.wyattau.com/computer-science/practice-computer-science"}]
+}
+</script>
+
 ### Computing Systems
 
 <PracticeProblem client:only="solid-js" question={"A computer stores a number in binary as 10110110. What is the decimal equivalent of this binary number?&quot; options={['182', '181', '91', '172']} correctAnswer={0} explanation=&quot;To convert binary 10110110 to decimal, multiply each bit by its corresponding power of 2: 1x128 + 0x64 + 1x32 + 1x16 + 0x8 + 1x4 + 1x2 + 0x1 = 128 + 0 + 32 + 16 + 0 + 4 + 2 + 0 = 182. Reading from right to left, the position values are 1, 2, 4, 8, 16, 32, 64, 128 (powers of 2 from 2^0 to 2^7). Adding the values where bits are 1 gives the decimal result."} difficulty="easy" />
@@ -47,6 +92,15 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Computer Science", "url": "https://ap.wyattau.com/computer-science"}, {"name": "Practice Computer Science", "url": "https://ap.wyattau.com/computer-science/practice-computer-science"}]
+}
+</script>
+
 ### Algorithms and Programming
 
 <PracticeProblem client:only="solid-js" question={"Consider the following code segment: FOR i FROM 1 TO 4, DISPLAY(i). What is the output?&quot; options={['1 2 3 4', '0 1 2 3', '1 2 3 4 5', '4 3 2 1']} correctAnswer={0} explanation=&quot;The FOR loop initializes i to 1 and increments i by 1 each iteration until i exceeds 4. On each iteration, it displays the current value of i. The iterations produce: i=1 displays 1, i=2 displays 2, i=3 displays 3, i=4 displays 4. The output is 1 2 3 4. This is a basic counting loop, one of the fundamental control structures in programming."} difficulty="easy" />
@@ -56,6 +110,15 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"A student writes a procedure called findMax that takes a list of numbers as a parameter and returns the largest value. Which of the following is the most appropriate use of this procedure?&quot; options={[ 'To abstract away the details of finding a maximum value so the main program can be simpler and more readable', 'To replace all comparison operations in the program', 'To sort the list in ascending order', 'To calculate the average of the numbers in the list', ]} correctAnswer={0} explanation=&quot;Procedures (also called functions or methods) are used to abstract complex operations into reusable blocks of code. By creating a findMax procedure, the details of how the maximum is found are hidden inside the procedure, making the main program simpler and easier to read. The procedure can be called whenever a maximum value is needed without rewriting the search logic. It does not sort the list, calculate averages, or replace all comparisons -- it has a single, focused purpose."} difficulty="medium" />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Computer Science", "url": "https://ap.wyattau.com/computer-science"}, {"name": "Practice Computer Science", "url": "https://ap.wyattau.com/computer-science/practice-computer-science"}]
+}
+</script>
 
 ### Data Analysis and Networks
 

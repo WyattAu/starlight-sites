@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Elixir", "url": "https://languages.wyattau.com/elixir"}, {"name": "04 Advanced", "url": "https://languages.wyattau.com/elixir/04-advanced"}, {"name": "1_metaprogramming", "url": "https://languages.wyattau.com/elixir/04-advanced/1_metaprogramming"}]
+}
+</script>
 title: Metaprogramming
 description: "Metaprogramming in Elixir is the ability to write code that generates or transforms code at compile time. The primary mechanism for this is the system,"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Elixir
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Elixir", "url": "https://languages.wyattau.com/elixir"}, {"name": "04 Advanced", "url": "https://languages.wyattau.com/elixir/04-advanced"}, {"name": "1_metaprogramming", "url": "https://languages.wyattau.com/elixir/04-advanced/1_metaprogramming"}]
+}
+</script>
 
 ## What Is Metaprogramming?
 

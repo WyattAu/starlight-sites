@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "03 Further Algebra", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/03-further-algebra"}]
+}
+</script>
 title: Further Algebra
 description: "Further algebra builds on the polynomial and algebraic techniques from A Level mathematics, Extending to partial fractions with irreducible quadratics, the"
 date: 2026-04-02T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "03 Further Algebra", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/03-further-algebra"}]
+}
+</script>
 
 ## Further Algebra
 
@@ -663,6 +681,15 @@ Verification: $(x-1)(x-2)(x-3) = x^3 - 6x^2 + 11x - 6$. ✓
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "03 Further Algebra", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/03-further-algebra"}]
+}
+</script>
+
 ## 8. Advanced Worked Examples
 
 ### Example 8.1: Using the binomial theorem with negative and fractional indices
@@ -766,11 +793,29 @@ Similarly: $y = \dfrac{5}{3}$ and $z = \dfrac{1}{6}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "03 Further Algebra", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/03-further-algebra"}]
+}
+</script>
+
 ## Intuition
 
 Partial fractions are the algebraic equivalent of decomposing a complex signal into pure tones. Just as a musical chord can be broken into individual notes, a rational expression can be decomposed into simpler fractions that are each easier to integrate. The relationships between roots and coefficients reveal that a polynomial's coefficients encode information about its solutions without requiring you to solve it. The method of differences is like a domino chain: each term cancels with the next, leaving only the first and last terms. Symmetric functions of roots exploit the fact that certain combinations of roots remain unchanged regardless of how the roots are ordered.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "03 Further Algebra", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/03-further-algebra"}]
+}
+</script>
 
 ## 9. Common Pitfalls
 
@@ -783,6 +828,15 @@ Partial fractions are the algebraic equivalent of decomposing a complex signal i
 | Skipping the base case in induction proofs                                                      | The base case is essential — without it the induction chain is unanchored                                            |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "03 Further Algebra", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/03-further-algebra"}]
+}
+</script>
 
 ## 10. Additional Exam-Style Questions
 
@@ -881,6 +935,15 @@ $\boxed{\sqrt{1.02} \approx 1.009950}$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "03 Further Algebra", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/03-further-algebra"}]
+}
+</script>
+
 ## 11. Connections to Other Topics
 
 ### 11.1 Further algebra and complex numbers
@@ -902,6 +965,15 @@ Used extensively in integration and differentiation. See
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "03 Further Algebra", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/03-further-algebra"}]
+}
+</script>
+
 ## 12. Key Formulae Summary
 
 | Topic                 | Key Formula                                                                                  |
@@ -915,6 +987,15 @@ Used extensively in integration and differentiation. See
 | Harmonic sum          | $H_n = \displaystyle\sum_{r=1}^{n} \dfrac{1}{r} \approx \ln n + \gamma$                      |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "03 Further Algebra", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/03-further-algebra"}]
+}
+</script>
 
 ## 13. Further Exam-Style Questions
 
@@ -979,6 +1060,15 @@ $\alpha^3 + \beta^3 + \gamma^3 = \boxed{-3q}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "03 Further Algebra", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/03-further-algebra"}]
+}
+</script>
+
 ## 14. Advanced Topics
 
 ### 14.1 The general binomial theorem for any index
@@ -1015,6 +1105,15 @@ This is the basis of Pascal's triangle and is proved combinatorially: choosing $
 Either includes or excludes a specific object.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "03 Further Algebra", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/03-further-algebra"}]
+}
+</script>
 
 ## 15. Further Exam-Style Questions
 

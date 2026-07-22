@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "06 Incident Response", "url": "https://security.wyattau.com/06-incident-response"}, {"name": "Incident Response", "url": "https://security.wyattau.com/06-incident-response/incident-response"}]
+}
+</script>
 title: Incident Response
 description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "06 Incident Response", "url": "https://security.wyattau.com/06-incident-response"}, {"name": "Incident Response", "url": "https://security.wyattau.com/06-incident-response/incident-response"}]
+}
+</script>
 
 ## The Incident Response Lifecycle
 

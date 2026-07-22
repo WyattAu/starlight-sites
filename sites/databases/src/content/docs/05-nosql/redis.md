@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "05 Nosql", "url": "https://databases.wyattau.com/05-nosql"}, {"name": "Redis", "url": "https://databases.wyattau.com/05-nosql/redis"}]
+}
+</script>
 title: Redis Deep Dive
 description: "Redis is a single-threaded, event-driven, in-memory data structure store. It uses I/O multiplexing (//) to handle thousands of concurrent connections on a"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "05 Nosql", "url": "https://databases.wyattau.com/05-nosql"}, {"name": "Redis", "url": "https://databases.wyattau.com/05-nosql/redis"}]
+}
+</script>
 
 ## Architecture Overview
 

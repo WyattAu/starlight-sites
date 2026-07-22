@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Integration", "url": "https://ib.wyattau.com/maths/diagnostics/diag-integration"}]
+}
+</script>
 title: "Integration -- Diagnostic Tests"
 description: "IB Maths Integration -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Integration", "url": "https://ib.wyattau.com/maths/diagnostics/diag-integration"}]
+}
+</script>
 
 # Integration — Diagnostic Tests
 
@@ -58,6 +76,15 @@ divide by $2$ (or in this case $3$). The cyclic nature of the integral means $I$
 sides, but this does not mean $I = 0$ — it means $I$ can be solved for algebraically.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Integration", "url": "https://ib.wyattau.com/maths/diagnostics/diag-integration"}]
+}
+</script>
 
 ### UT-2: Partial Fractions with Irreducible Quadratic
 
@@ -117,6 +144,15 @@ $\dfrac{B}{x^2 + 1}$ is incorrect — the numerator must be linear: $\dfrac{Bx +
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Integration", "url": "https://ib.wyattau.com/maths/diagnostics/diag-integration"}]
+}
+</script>
+
 ### UT-3: Improper Integral — Convergence with Parameter
 
 **Question:**
@@ -166,6 +202,15 @@ converges when $p \lt 1$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Integration", "url": "https://ib.wyattau.com/maths/diagnostics/diag-integration"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of integration with other topics.
@@ -207,6 +252,15 @@ $(-\cos\pi - \sin\pi) - (-\cos\frac{\pi}{4} - \sin\frac{\pi}{4}) = (1 - 0) - \!\
 $$\text{Area} = (\sqrt{2} - 1) + (1 + \sqrt{2}) = 2\sqrt{2}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Integration", "url": "https://ib.wyattau.com/maths/diagnostics/diag-integration"}]
+}
+</script>
 
 ### IT-2: Volume of Revolution with Substitution (with Algebra)
 

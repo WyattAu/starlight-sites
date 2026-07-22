@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "2 Computer Organization", "url": "https://ib.wyattau.com/computer-science/2-computer-organization"}, {"name": "1_computer Organization", "url": "https://ib.wyattau.com/computer-science/2-computer-organization/1_computer-organization"}]
+}
+</script>
 title: Computer Organizations
 description: "Rigorous IB computer science notes covering Computer Organizations. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "2 Computer Organization", "url": "https://ib.wyattau.com/computer-science/2-computer-organization"}, {"name": "1_computer Organization", "url": "https://ib.wyattau.com/computer-science/2-computer-organization/1_computer-organization"}]
+}
+</script>
 
 ## Intuition
 
@@ -477,6 +495,15 @@ Consider the following simple program stored in memory:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "2 Computer Organization", "url": "https://ib.wyattau.com/computer-science/2-computer-organization"}, {"name": "1_computer Organization", "url": "https://ib.wyattau.com/computer-science/2-computer-organization/1_computer-organization"}]
+}
+</script>
+
 ## Cache Memory: Worked Example
 
 Cache memory is a small, fast memory located between the CPU and main memory (RAM). It stores
@@ -531,6 +558,15 @@ $$
 The cache reduces total access time by approximately 82%.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "2 Computer Organization", "url": "https://ib.wyattau.com/computer-science/2-computer-organization"}, {"name": "1_computer Organization", "url": "https://ib.wyattau.com/computer-science/2-computer-organization/1_computer-organization"}]
+}
+</script>
 
 ## Pipelining
 
@@ -593,6 +629,15 @@ Discarded), which incurs a performance penalty.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "2 Computer Organization", "url": "https://ib.wyattau.com/computer-science/2-computer-organization"}, {"name": "1_computer Organization", "url": "https://ib.wyattau.com/computer-science/2-computer-organization/1_computer-organization"}]
+}
+</script>
+
 ## RISC vs CISC: Extended Comparison
 
 ### Instruction Execution
@@ -614,6 +659,15 @@ Discarded), which incurs a performance penalty.
   personal computers run CISC processors.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "2 Computer Organization", "url": "https://ib.wyattau.com/computer-science/2-computer-organization"}, {"name": "1_computer Organization", "url": "https://ib.wyattau.com/computer-science/2-computer-organization/1_computer-organization"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -640,6 +694,15 @@ Discarded), which incurs a performance penalty.
    achieved in practice.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "2 Computer Organization", "url": "https://ib.wyattau.com/computer-science/2-computer-organization"}, {"name": "1_computer Organization", "url": "https://ib.wyattau.com/computer-science/2-computer-organization/1_computer-organization"}]
+}
+</script>
 
 ## Problem Set
 

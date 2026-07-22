@@ -1,9 +1,27 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Comparitives", "url": "https://ib.wyattau.com/history/comparitives"}, {"name": "Mao Hitler", "url": "https://ib.wyattau.com/history/comparitives/mao-hitler"}]
+}
+</script>
 title: Mao and Hitler Authoritarian Regimes
 tags:
   - history
 description: "| | Hitler | Mao | | :--------------------- | :--------------------------------------------------------------------------------------------------------------"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Comparitives", "url": "https://ib.wyattau.com/history/comparitives"}, {"name": "Mao Hitler", "url": "https://ib.wyattau.com/history/comparitives/mao-hitler"}]
+}
+</script>
 
 ## Ideology
 

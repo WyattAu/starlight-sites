@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/biology/diagnostics"}, {"name": "Diag Bioenergetics", "url": "https://gcse.wyattau.com/biology/diagnostics/diag-bioenergetics"}]
+}
+</script>
 title: "Bioenergetics -- Diagnostic Tests"
 description: "(a) Write the balanced symbol equation for photosynthesis. (b) Explain how the structure of a leaf is adapted for photosynthesis. (c) A leaf with surface"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/biology/diagnostics"}, {"name": "Diag Bioenergetics", "url": "https://gcse.wyattau.com/biology/diagnostics/diag-bioenergetics"}]
+}
+</script>
 
 # Bioenergetics — Diagnostic Tests
 
@@ -106,6 +124,15 @@ cells close the stomata to conserve water, but this reduces CO$_2$ entry, furthe
 photosynthesis.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/biology/diagnostics"}, {"name": "Diag Bioenergetics", "url": "https://gcse.wyattau.com/biology/diagnostics/diag-bioenergetics"}]
+}
+</script>
 
 ## Integration Tests
 

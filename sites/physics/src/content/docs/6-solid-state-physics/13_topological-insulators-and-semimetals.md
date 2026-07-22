@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "13_topological Insulators And Semimetals", "url": "https://physics.wyattau.com/6-solid-state-physics/13_topological-insulators-and-semimetals"}]
+}
+</script>
 title: Topological Insulators and Semimetals
 tags:
   - Physics
   - University
 description: 'When an electron adiabatically traverses a closed loop in -space, its Bloch stat Comprehensive educational content coverage with definitions and practice proble'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "13_topological Insulators And Semimetals", "url": "https://physics.wyattau.com/6-solid-state-physics/13_topological-insulators-and-semimetals"}]
+}
+</script>
 
 ### 13.1 Berry Phase
 

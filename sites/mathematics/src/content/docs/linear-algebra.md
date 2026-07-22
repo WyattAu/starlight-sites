@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Linear Algebra", "url": "https://mathematics.wyattau.com/linear-algebra"}]
+}
+</script>
 title: Linear Algebra
 description: "Before studying linear algebra, the reader should be familiar with: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-23T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Mathematics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Linear Algebra", "url": "https://mathematics.wyattau.com/linear-algebra"}]
+}
+</script>
 
 ## Prerequisites
 
@@ -187,6 +205,15 @@ $\blacksquare$
   $-1$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Linear Algebra", "url": "https://mathematics.wyattau.com/linear-algebra"}]
+}
+</script>
 
 ## 2. Linear Independence, Span, Basis, and Dimension
 
@@ -415,6 +442,15 @@ _If you get this wrong, revise: Section 2.7 (Worked Examples)._
   the empty set is a basis for $\{\mathbf{0}\}$. The dimension of the zero space is 0.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Linear Algebra", "url": "https://mathematics.wyattau.com/linear-algebra"}]
+}
+</script>
 
 ## 3. Matrices
 
@@ -663,6 +699,15 @@ Only the product of diagonal entries. $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Linear Algebra", "url": "https://mathematics.wyattau.com/linear-algebra"}]
+}
+</script>
+
 ## 4. Systems of Linear Equations
 
 ### 4.1 Gaussian Elimination
@@ -888,6 +933,15 @@ The solution space is a 2-dimensional affine subspace (a plane) in $\mathbb{R}^4
   before attempting to solve.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Linear Algebra", "url": "https://mathematics.wyattau.com/linear-algebra"}]
+}
+</script>
 
 ## 5. Eigenvalues and Eigenvectors
 
@@ -1165,6 +1219,15 @@ $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Linear Algebra", "url": "https://mathematics.wyattau.com/linear-algebra"}]
+}
+</script>
+
 ## 6. Linear Transformations
 
 ### 6.1 Definition
@@ -1350,6 +1413,15 @@ $f(\mathbf{w}_i) = 0$ For $i = 1, \ldots, k$. Writing $f = \sum c_j \varphi_j$We
 $i = 1, \ldots, k$. So $f = \sum_{j=k+1}^n c_j \varphi_j$Giving $\dim(W^0) = n - k$. $\blacksquare$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Linear Algebra", "url": "https://mathematics.wyattau.com/linear-algebra"}]
+}
+</script>
 
 ## 7. Inner Product Spaces
 
@@ -1597,6 +1669,15 @@ $\blacksquare$
   decomposition**.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Linear Algebra", "url": "https://mathematics.wyattau.com/linear-algebra"}]
+}
+</script>
 
 ## 8. Singular Value Decomposition
 
@@ -1885,6 +1966,15 @@ $\log_{10}(20000) \approx 4.3$ digits of precision. $\blacksquare$
   the singular values are $|\lambda_i|$Not $\lambda_i$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Linear Algebra", "url": "https://mathematics.wyattau.com/linear-algebra"}]
+}
+</script>
 
 ## 9. Problem Set
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Advanced Types", "url": "https://typescript.wyattau.com/advanced-types"}]
+}
+</script>
 title: advanced types
 date: 2026-05-30
 tags:
@@ -7,6 +16,15 @@ categories:
   - TypeScript
 description: "and are built-in conditional types defined in . Their implementations reveal the Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Advanced Types", "url": "https://typescript.wyattau.com/advanced-types"}]
+}
+</script>
 
 ## Conditional Types: Internals and Advanced `infer`
 

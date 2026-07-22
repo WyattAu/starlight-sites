@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://ap.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 title: "Sequences and Series -- Diagnostic Tests [BC Only]"
 description: "Tests edge cases, boundary conditions, and common misconceptions for sequences."
 date: 2026-04-14
@@ -8,6 +17,15 @@ tags:
 categories:
   - ap-maths
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://ap.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 # Sequences and Series — Diagnostic Tests [BC Only]
 
@@ -57,6 +75,15 @@ Since a convergent series minus a divergent series diverges, the original series
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://ap.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
+
 ### UT-2: Taylor Series Remainder and Lagrange Error Bound
 
 **Question:**
@@ -101,6 +128,15 @@ distinction between an infinite process and its finite approximation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://ap.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
+
 ### UT-3: Radius and Interval of Convergence with Endpoint Analysis
 
 **Question:**
@@ -131,6 +167,15 @@ test: $\dfrac{1}{n} \to 0$ and decreases).
 **Interval of convergence:** $[-1, 5)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://ap.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -166,6 +211,15 @@ Set $x = \dfrac{1}{2}$:
 $$\sum_{n=1}^{\infty}\frac{n^2}{2^n} = \frac{\frac{1}{2} \cdot \frac{3}{2}}{\left(\frac{1}{2}\right)^3} = \frac{\frac{3}{4}}{\frac{1}{8}} = 6$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://ap.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 ### IT-2: Taylor Polynomial Integration (with Integrals)
 
@@ -211,6 +265,15 @@ by polynomials in $c$ times sines and cosines). The alternating series bound giv
 and is sufficient for the AP exam.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://ap.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 ### IT-3: Series Convergence via Integral Test (with Integrals and Limits)
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "04 Web Security", "url": "https://security.wyattau.com/04-web-security"}, {"name": "Web Security", "url": "https://security.wyattau.com/04-web-security/web-security"}]
+}
+</script>
 title: Web Security
 description: "The OWASP Top 10 is the de facto standard for web application security awareness. The 2021 edition Reflects the shift toward cloud-native architectures and"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "04 Web Security", "url": "https://security.wyattau.com/04-web-security"}, {"name": "Web Security", "url": "https://security.wyattau.com/04-web-security/web-security"}]
+}
+</script>
 
 ## OWASP Top 10 (2021)
 
@@ -822,6 +840,15 @@ linked above.
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "04 Web Security", "url": "https://security.wyattau.com/04-web-security"}, {"name": "Web Security", "url": "https://security.wyattau.com/04-web-security/web-security"}]
+}
+</script>
 
 ## Cross-References
 

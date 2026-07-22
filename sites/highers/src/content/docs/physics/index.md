@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "Index", "url": "https://highers.wyattau.com/physics/index"}]
+}
+</script>
 title: Scottish Highers Physics
 description: "Higher Physics covers mechanics, dynamics, electricity, waves, and radiation. The course emphasises both theoretical understanding and practical"
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-physics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "Index", "url": "https://highers.wyattau.com/physics/index"}]
+}
+</script>
 
 # Scottish Highers Physics
 

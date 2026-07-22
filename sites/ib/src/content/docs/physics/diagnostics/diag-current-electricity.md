@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Current Electricity", "url": "https://ib.wyattau.com/physics/diagnostics/diag-current-electricity"}]
+}
+</script>
 title: "Current Electricity -- Diagnostic Tests"
 description: "IB Physics Current Electricity -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Current Electricity", "url": "https://ib.wyattau.com/physics/diagnostics/diag-current-electricity"}]
+}
+</script>
 
 # Current Electricity — Diagnostic Tests
 
@@ -83,6 +101,15 @@ $0.7\,\text{V}$ in series with a tiny resistance.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Current Electricity", "url": "https://ib.wyattau.com/physics/diagnostics/diag-current-electricity"}]
+}
+</script>
+
 ### UT-2: Internal Resistance Effect on Terminal PD
 
 **Question:**
@@ -140,6 +167,15 @@ The maximum power transfer theorem states that maximum power is delivered when t
 equals the internal resistance.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Current Electricity", "url": "https://ib.wyattau.com/physics/diagnostics/diag-current-electricity"}]
+}
+</script>
 
 ### UT-3: Potential Divider Sensitivity
 
@@ -321,6 +357,15 @@ dissipation in any well-solved circuit.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Current Electricity", "url": "https://ib.wyattau.com/physics/diagnostics/diag-current-electricity"}]
+}
+</script>
+
 ### IT-2: RC Circuit Transient Analysis (with Energy)
 
 **Question:**
@@ -372,6 +417,15 @@ energy from the battery is dissipated in the resistor and half is stored in the 
 fundamental result for RC charging circuits.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Current Electricity", "url": "https://ib.wyattau.com/physics/diagnostics/diag-current-electricity"}]
+}
+</script>
 
 ### IT-3: Wheatstone Bridge with Sensitivity Analysis (with Current Electricity)
 

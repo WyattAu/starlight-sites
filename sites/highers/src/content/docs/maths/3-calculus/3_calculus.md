@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "3 Calculus", "url": "https://highers.wyattau.com/maths/3-calculus"}, {"name": "3_calculus", "url": "https://highers.wyattau.com/maths/3-calculus/3_calculus"}]
+}
+</script>
 title: Further Calculus
 description: "This chapter covers Mathematics content. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "3 Calculus", "url": "https://highers.wyattau.com/maths/3-calculus"}, {"name": "3_calculus", "url": "https://highers.wyattau.com/maths/3-calculus/3_calculus"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--note">
 ## Further Differentiation
@@ -202,6 +220,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "3 Calculus", "url": "https://highers.wyattau.com/maths/3-calculus"}, {"name": "3_calculus", "url": "https://highers.wyattau.com/maths/3-calculus/3_calculus"}]
+}
+</script>
+
 ## Further Integration
 
 ### Integration by Parts
@@ -382,6 +409,15 @@ V = \pi \int_0^4 x \, dx = \pi\left[\frac{x^2}{2}\right]_0^4 = 8\pi
 $$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "3 Calculus", "url": "https://highers.wyattau.com/maths/3-calculus"}, {"name": "3_calculus", "url": "https://highers.wyattau.com/maths/3-calculus/3_calculus"}]
+}
+</script>
 
 ## Differential Equations
 
@@ -568,6 +604,15 @@ General solution: $y = Ae^x + Be^{2x} + 2e^{3x}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "3 Calculus", "url": "https://highers.wyattau.com/maths/3-calculus"}, {"name": "3_calculus", "url": "https://highers.wyattau.com/maths/3-calculus/3_calculus"}]
+}
+</script>
+
 ## Maclaurin Series
 
 The Maclaurin series expands a function as a power series about $x = 0$:
@@ -648,6 +693,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "3 Calculus", "url": "https://highers.wyattau.com/maths/3-calculus"}, {"name": "3_calculus", "url": "https://highers.wyattau.com/maths/3-calculus/3_calculus"}]
+}
+</script>
+
 
 ## Intuition
 
@@ -679,6 +733,15 @@ See the examples integrated throughout the sections above.
    term already in $y_h$Multiply by $x$ and try again.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "3 Calculus", "url": "https://highers.wyattau.com/maths/3-calculus"}, {"name": "3_calculus", "url": "https://highers.wyattau.com/maths/3-calculus/3_calculus"}]
+}
+</script>
 
 ## Practice Questions
 

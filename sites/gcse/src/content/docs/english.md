@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}]
+}
+</script>
 title: GCSE English Study Guide
 date: 2026-05-31
 description: "A complete single-page revision guide covering the full GCSE English Language specification. Each section contains key skills, methods, and essential"
@@ -10,6 +19,15 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}]
+}
+</script>
+
 # GCSE English Study Guide
 
 A complete single-page revision guide covering the full GCSE English Language specification. Each
@@ -17,6 +35,15 @@ section contains key skills, methods, and essential advice. Use this alongside t
 [full topic pages](english/) for detailed practice and further reading.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}]
+}
+</script>
 
 ## 1. Paper 1: Fiction and Creative Writing
 
@@ -125,6 +152,15 @@ You will be given a choice: write a descriptive piece based on an image, or writ
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}]
+}
+</script>
+
 ## 2. Paper 2: Non-Fiction and Transactional Writing
 
 ### 2.1 Reading Non-Fiction
@@ -195,6 +231,15 @@ speech, a review).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}]
+}
+</script>
+
 ## 3. Spoken Language
 
 ### 3.1 Spoken Language Study
@@ -238,6 +283,15 @@ For the spoken language endorsement (assessed separately, not graded):
   you are within the time limit
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}]
+}
+</script>
 
 ## 4. Key Skills
 
@@ -310,6 +364,15 @@ Use the PETAL method for analytical paragraphs:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}]
+}
+</script>
+
 ## 5. Exam Tips
 
 1. **Manage your time**: divide your time equally between reading/writing sections. Do not spend too
@@ -332,6 +395,15 @@ Use the PETAL method for analytical paragraphs:
    a variety of sentence lengths and types demonstrates control and sophistication.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}]
+}
+</script>
 
 ## Common Pitfalls
 

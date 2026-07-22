@@ -1,15 +1,42 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Diagnostics", "url": "https://physics.wyattau.com/diagnostics"}, {"name": "Diag Mechanics", "url": "https://physics.wyattau.com/diagnostics/diag-mechanics"}]
+}
+</script>
 title: "Diagnostic Test: Mechanics"
 description: "Self-assessment quiz on classical mechanics"
 sidebar_position: 60
 tableOfContents: false
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Diagnostics", "url": "https://physics.wyattau.com/diagnostics"}, {"name": "Diag Mechanics", "url": "https://physics.wyattau.com/diagnostics/diag-mechanics"}]
+}
+</script>
+
 # Diagnostic Test: Mechanics
 
 10 multiple-choice questions covering classical mechanics. Select the best answer for each question, then check your score using the answer key below.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Diagnostics", "url": "https://physics.wyattau.com/diagnostics"}, {"name": "Diag Mechanics", "url": "https://physics.wyattau.com/diagnostics/diag-mechanics"}]
+}
+</script>
 
 **Question 1.** A car accelerates uniformly from rest to 30 m/s in 10 seconds. What is its acceleration?
 
@@ -20,6 +47,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Diagnostics", "url": "https://physics.wyattau.com/diagnostics"}, {"name": "Diag Mechanics", "url": "https://physics.wyattau.com/diagnostics/diag-mechanics"}]
+}
+</script>
+
 **Question 2.** According to Newton's second law, if you double the force applied to an object while keeping its mass constant, the acceleration:
 
 (A) Doubles
@@ -28,6 +64,15 @@ tableOfContents: false
 (D) Quadruples
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Diagnostics", "url": "https://physics.wyattau.com/diagnostics"}, {"name": "Diag Mechanics", "url": "https://physics.wyattau.com/diagnostics/diag-mechanics"}]
+}
+</script>
 
 **Question 3.** A 5 kg object is lifted 4 meters at constant velocity. What is the work done against gravity? (Take g = 10 m/s^2)
 
@@ -38,6 +83,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Diagnostics", "url": "https://physics.wyattau.com/diagnostics"}, {"name": "Diag Mechanics", "url": "https://physics.wyattau.com/diagnostics/diag-mechanics"}]
+}
+</script>
+
 **Question 4.** What is the SI unit of impulse?
 
 (A) Newton (N)
@@ -46,6 +100,15 @@ tableOfContents: false
 (D) Kilogram-meter per second (kg*m/s)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Diagnostics", "url": "https://physics.wyattau.com/diagnostics"}, {"name": "Diag Mechanics", "url": "https://physics.wyattau.com/diagnostics/diag-mechanics"}]
+}
+</script>
 
 **Question 5.** In a perfectly inelastic collision between two objects:
 
@@ -56,6 +119,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Diagnostics", "url": "https://physics.wyattau.com/diagnostics"}, {"name": "Diag Mechanics", "url": "https://physics.wyattau.com/diagnostics/diag-mechanics"}]
+}
+</script>
+
 **Question 6.** The moment of inertia of an object depends on:
 
 (A) Only its mass
@@ -64,6 +136,15 @@ tableOfContents: false
 (D) The angular velocity of the object
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Diagnostics", "url": "https://physics.wyattau.com/diagnostics"}, {"name": "Diag Mechanics", "url": "https://physics.wyattau.com/diagnostics/diag-mechanics"}]
+}
+</script>
 
 **Question 7.** A simple pendulum has a period T. If the length of the pendulum is quadrupled, the new period is:
 
@@ -74,6 +155,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Diagnostics", "url": "https://physics.wyattau.com/diagnostics"}, {"name": "Diag Mechanics", "url": "https://physics.wyattau.com/diagnostics/diag-mechanics"}]
+}
+</script>
+
 **Question 8.** At the top of its trajectory (maximum height), a projectile launched at an angle has:
 
 (A) Zero velocity and zero acceleration
@@ -82,6 +172,15 @@ tableOfContents: false
 (D) Vertical velocity only and zero acceleration
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Diagnostics", "url": "https://physics.wyattau.com/diagnostics"}, {"name": "Diag Mechanics", "url": "https://physics.wyattau.com/diagnostics/diag-mechanics"}]
+}
+</script>
 
 **Question 9.** The work-energy theorem states that:
 
@@ -92,6 +191,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Diagnostics", "url": "https://physics.wyattau.com/diagnostics"}, {"name": "Diag Mechanics", "url": "https://physics.wyattau.com/diagnostics/diag-mechanics"}]
+}
+</script>
+
 **Question 10.** A disk and a solid sphere of equal mass and radius roll down an incline from the same height. Which reaches the bottom first?
 
 (A) They reach the bottom at the same time
@@ -100,6 +208,15 @@ tableOfContents: false
 (D) It depends on the mass
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "Diagnostics", "url": "https://physics.wyattau.com/diagnostics"}, {"name": "Diag Mechanics", "url": "https://physics.wyattau.com/diagnostics/diag-mechanics"}]
+}
+</script>
 
 ## Intuition
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "2_vectors", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors"}]
+}
+</script>
 title: Vectors
 description: 'Rigorous IB mathematics notes covering Vectors. Includes definitions, derivations, worked examples, and exam-style problems.'
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "2_vectors", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors"}]
+}
+</script>
 
 ## Vector Line
 
@@ -438,6 +456,15 @@ In the cross product and forgetting to take the absolute value in distance formu
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "2_vectors", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors"}]
+}
+</script>
+
 ## Worked Example 5: Finding the Equation of a Plane
 
 **Problem:** Find the Cartesian equation of the plane passing through the points $A(1, 2, -1)$
@@ -472,6 +499,15 @@ $3(0) + 5(1) + 2(3) = 0 + 5 + 6 = 11$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "2_vectors", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors"}]
+}
+</script>
+
 ## Worked Example 6: Angle Between Two Planes
 
 **Problem:** Find the acute angle between the planes $\Pi_1: 2x - y + 3z = 7$ and
@@ -503,6 +539,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "2_vectors", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors"}]
+}
+</script>
+
 ## Worked Example 7: Shortest Distance from Point to Plane
 
 **Problem:** Find the shortest distance from the point $P(3, -1, 2)$ to the plane $x - 2y + 2z = 5$.
@@ -521,6 +566,15 @@ D = \frac{|\bm{p} \cdot \hat{n} - d|}{|\hat{n}|} = \frac{|9 - 5|}{3} = \frac{4}{
 $$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "2_vectors", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors"}]
+}
+</script>
 
 ## Worked Example 8: Line of Intersection of Two Planes
 
@@ -552,6 +606,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "2_vectors", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors"}]
+}
+</script>
+
 ## Intuition
 
 Vectors are arrows in space — they have both direction and magnitude. The dot product measures how much two arrows point in the same direction: it is maximised when they are parallel and zero when they are perpendicular. The cross product creates a new arrow perpendicular to both originals, and its magnitude equals the area of the parallelogram they span. A plane is defined by a point and a normal direction, and the dot product encodes this: every point on the plane is equidistant from the normal in a specific sense. Intersections happen when you solve simultaneous vector equations, and the distance from a point to a plane is simply how far the point deviates from the plane's defining equation.
@@ -581,6 +644,15 @@ Vectors are arrows in space — they have both direction and magnitude. The dot 
    intersecting). Always verify that a common solution exists for the parameters.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "2_vectors", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors"}]
+}
+</script>
 
 ## Problem Set
 

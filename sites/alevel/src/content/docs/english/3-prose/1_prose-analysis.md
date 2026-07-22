@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "3 Prose", "url": "https://alevel.wyattau.com/english/3-prose"}, {"name": "1_prose Analysis", "url": "https://alevel.wyattau.com/english/3-prose/1_prose-analysis"}]
+}
+</script>
 title: Prose Analysis
 date: 2026-01-15T00:00:00.000Z
 tags:
@@ -9,6 +18,15 @@ categories:
 description: "A-Level English Prose Analysis notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "3 Prose", "url": "https://alevel.wyattau.com/english/3-prose"}, {"name": "1_prose Analysis", "url": "https://alevel.wyattau.com/english/3-prose/1_prose-analysis"}]
+}
+</script>
 
 # Prose Analysis
 

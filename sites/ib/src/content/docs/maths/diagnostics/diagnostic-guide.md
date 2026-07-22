@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
 title: Diagnostic Test Guide
 description: "This document defines the diagnostic testing framework for IB Mathematics. The Diagnostic tests are the hardest questions within the specification, designed"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 # IB Mathematics: Diagnostic Test Guide
 
@@ -28,6 +46,15 @@ rubric defined in Section 3.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
+
 ## 2. How to Use This Guide
 
 Follow these steps in order. Do not skip steps.
@@ -44,6 +71,15 @@ Follow these steps in order. Do not skip steps.
    9 explains how to prioritise.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 ## 3. Grading Rubric
 
@@ -65,6 +101,15 @@ are mutually exclusive and collectively exhaustive.
   rule step in a differentiation) is PARTIAL.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 ## 4. Building Your Test Matrix
 
@@ -116,6 +161,15 @@ Each row represents one topic. Each row contains:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
+
 ## 5. Unit Tests
 
 ### Definition
@@ -137,6 +191,15 @@ specification boundary.
 - Whether the student has internalised common pitfalls and avoids them.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 ## 6. Integration Tests
 
@@ -160,6 +223,15 @@ told which techniques to use. Identifying the correct approach Is part of the te
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
+
 ## 7. Coverage Map
 
 | #   | Topic                     | Diagnostic File                     | Key Syllabus Points                                                                           |
@@ -180,6 +252,15 @@ told which techniques to use. Identifying the correct approach Is part of the te
 | 14  | Differential Equations    | `diag-differential-equations.md`    | Separable, integrating factor, second order, Euler's method, applications                     |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 ## 8. Timing Recommendations
 
@@ -202,6 +283,15 @@ information.
 - Record the date and time of each session in the test matrix for longitudinal tracking.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 ## 9. Self-Assessment Framework
 
@@ -252,6 +342,15 @@ with PASS scores). A PASS that degrades To PARTIAL indicates that the material h
 consolidated into long-term Memory and requires spaced repetition.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 ## 10. File Organisation
 
@@ -311,6 +410,15 @@ simulating actual examination conditions. These are optional And should only be 
 achieving PASS on the majority of individual Unit tests.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 ## Appendix: Test Matrix Template
 

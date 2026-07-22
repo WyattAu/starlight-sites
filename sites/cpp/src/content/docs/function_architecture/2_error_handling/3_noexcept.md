@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Function_architecture", "url": "https://cpp.wyattau.com/function_architecture"}, {"name": "2_error_handling", "url": "https://cpp.wyattau.com/function_architecture/2_error_handling"}, {"name": "3_noexcept", "url": "https://cpp.wyattau.com/function_architecture/2_error_handling/3_noexcept"}]
+}
+</script>
 title: The noexcept Specifier
 description: "Since C++17, is part of the [N4950 §14.5.1]. This has Significant implications for overload resolution, optimization, and exception safety guarantees."
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Function_architecture", "url": "https://cpp.wyattau.com/function_architecture"}, {"name": "2_error_handling", "url": "https://cpp.wyattau.com/function_architecture/2_error_handling"}, {"name": "3_noexcept", "url": "https://cpp.wyattau.com/function_architecture/2_error_handling/3_noexcept"}]
+}
+</script>
 
 # The `noexcept` Specifier
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "04 Transactions", "url": "https://databases.wyattau.com/04-transactions"}, {"name": "Locking And Deadlocks", "url": "https://databases.wyattau.com/04-transactions/locking-and-deadlocks"}]
+}
+</script>
 title: Locking and Deadlocks
 description: "PostgreSQL uses a multi-level locking system that operates at different granularities. Understanding Each lock type is essential for diagnosing performance"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "04 Transactions", "url": "https://databases.wyattau.com/04-transactions"}, {"name": "Locking And Deadlocks", "url": "https://databases.wyattau.com/04-transactions/locking-and-deadlocks"}]
+}
+</script>
 
 ## Lock Types Overview
 

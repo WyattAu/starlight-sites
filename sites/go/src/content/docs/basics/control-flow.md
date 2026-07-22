@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Basics", "url": "https://go.wyattau.com/basics"}, {"name": "Control Flow", "url": "https://go.wyattau.com/basics/control-flow"}]
+}
+</script>
 title: Control Flow
 description: "Go control flow statements and syntax."
 date: 2026-04-18
@@ -7,6 +16,15 @@ tags:
 categories:
   - Go
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Basics", "url": "https://go.wyattau.com/basics"}, {"name": "Control Flow", "url": "https://go.wyattau.com/basics/control-flow"}]
+}
+</script>
 
 ## If / Else
 

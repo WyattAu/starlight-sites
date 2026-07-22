@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Geometry", "url": "https://sat.wyattau.com/mathematics/geometry"}]
+}
+</script>
 title: "Geometry"
 description: "SAT mathematics: Geometry"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Geometry", "url": "https://sat.wyattau.com/mathematics/geometry"}]
+}
+</script>
 
 # Geometry
 
@@ -47,6 +65,15 @@ Step 3: c = √100 = 10
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Geometry", "url": "https://sat.wyattau.com/mathematics/geometry"}]
+}
+</script>
+
 ### Example 2: Circle in a Rectangle
 
 **Problem:** A circle is inscribed in a 10 × 10 square. What is the area of the shaded region (square minus circle)?
@@ -61,6 +88,15 @@ Step 4: Shaded area = $100 - 25\pi \approx 21.46$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Geometry", "url": "https://sat.wyattau.com/mathematics/geometry"}]
+}
+</script>
+
 ### Example 3: Similar Triangles
 
 **Problem:** Triangle ABC has sides 3, 4, 5. Triangle DEF is similar with DE = 6. What is the area of DEF?
@@ -73,6 +109,15 @@ Step 3: Area scales by $k^2 = 4$, so DEF area = $6 \times 4 = 24$
 **Key insight:** When a shape is scaled by factor $k$, area scales by $k^2$ and volume by $k^3$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Geometry", "url": "https://sat.wyattau.com/mathematics/geometry"}]
+}
+</script>
 
 ## Intuition
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Setup", "url": "https://truenas.wyattau.com/setup"}, {"name": "Traefik", "url": "https://truenas.wyattau.com/setup/traefik"}]
+}
+</script>
 title: Setup Traefik
 description: "Traefik reverse proxy and load balancer setup."
 date: 2025-07-21T18:30:46.381Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - truenas
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Setup", "url": "https://truenas.wyattau.com/setup"}, {"name": "Traefik", "url": "https://truenas.wyattau.com/setup/traefik"}]
+}
+</script>
 
 ## Why Traefik
 

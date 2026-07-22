@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://ap.wyattau.com/maths/diagnostics/diag-differential-equations"}]
+}
+</script>
 title: "Differential Equations -- Diagnostic Tests"
 description: "> Tests edge cases, boundary conditions, and common misconceptions for different Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ap-maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://ap.wyattau.com/maths/diagnostics/diag-differential-equations"}]
+}
+</script>
 
 # Differential Equations — Diagnostic Tests
 
@@ -56,6 +74,15 @@ $f(y)$ has a zero, the constant solution $y = 0$ (or the constant at the zero of
 solution, and non-uniqueness can arise.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://ap.wyattau.com/maths/diagnostics/diag-differential-equations"}]
+}
+</script>
 
 ### UT-2: Euler's Method Step Size Error Analysis
 
@@ -113,6 +140,15 @@ incorrectly assume that halving the step size always quarters the error.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://ap.wyattau.com/maths/diagnostics/diag-differential-equations"}]
+}
+</script>
+
 ### UT-3: Logistic Growth with Non-Standard Carrying Capacity
 
 **Question:**
@@ -162,6 +198,15 @@ $$t = \frac{\ln 36}{0.04} = 25\ln 36 \approx 25(3.584) \approx 89.6$$
 The population reaches $90\%$ of carrying capacity at approximately $t \approx 89.6$ time units.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://ap.wyattau.com/maths/diagnostics/diag-differential-equations"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -213,6 +258,15 @@ $\dfrac{dy}{dx}$ from the implicit solution and set up the arc length integral.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://ap.wyattau.com/maths/diagnostics/diag-differential-equations"}]
+}
+</script>
+
 ### IT-2: Separable DE Leading to Improper Integral (with Limits)
 
 **Question:**
@@ -260,6 +314,15 @@ undefined, and the initial condition at $x = 1$ places us on $(0, \infty)$). The
 containing $x = 1$ is $(e^{-1/2}, \infty)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://ap.wyattau.com/maths/diagnostics/diag-differential-equations"}]
+}
+</script>
 
 ### IT-3: Qualitative Analysis with Phase Line (with Derivatives)
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "1_compiler_and_standards", "url": "https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards"}, {"name": "3_standard_library_implementation", "url": "https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/3_standard_library_implementation"}]
+}
+</script>
 title: Standard Library Implementation
 description: "In C++, the language specification (syntax, keywords, type system) and the Standard Library (headers Like ) are distinct entities. While the ISO C++"
 date: 2025-12-10T04:57:07.543Z
@@ -8,6 +17,15 @@ categories:
   - cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "1_compiler_and_standards", "url": "https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards"}, {"name": "3_standard_library_implementation", "url": "https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/3_standard_library_implementation"}]
+}
+</script>
 
 In C++, the language specification (syntax, keywords, type system) and the Standard Library (headers
 Like `<vector>``<iostream>`) are distinct entities. While the ISO C++ standard defines the
@@ -49,6 +67,15 @@ There are three primary implementations of the C++ Standard Library currently in
 - **License:** MIT.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "1_compiler_and_standards", "url": "https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards"}, {"name": "3_standard_library_implementation", "url": "https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/3_standard_library_implementation"}]
+}
+</script>
 
 ## Implementation Comparison Matrix
 

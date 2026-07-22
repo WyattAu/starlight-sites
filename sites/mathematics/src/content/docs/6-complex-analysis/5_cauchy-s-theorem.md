@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "5_cauchy S Theorem", "url": "https://mathematics.wyattau.com/6-complex-analysis/5_cauchy-s-theorem"}]
+}
+</script>
 title: Cauchy's Theorem
 tags:
   - Mathematics
   - University
 description: "If is analytic on a connected domain and Is a simple closed contour in Then Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "5_cauchy S Theorem", "url": "https://mathematics.wyattau.com/6-complex-analysis/5_cauchy-s-theorem"}]
+}
+</script>
 
 ### 5.1 Statement
 

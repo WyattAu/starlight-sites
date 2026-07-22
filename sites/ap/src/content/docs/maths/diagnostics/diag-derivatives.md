@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Derivatives", "url": "https://ap.wyattau.com/maths/diagnostics/diag-derivatives"}]
+}
+</script>
 title: "Derivatives -- Diagnostic Tests"
 description: "> Tests edge cases, boundary conditions, and common misconceptions for derivativ Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ap-maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Derivatives", "url": "https://ap.wyattau.com/maths/diagnostics/diag-derivatives"}]
+}
+</script>
 
 # Derivatives — Diagnostic Tests
 
@@ -54,6 +72,15 @@ the product rule when computing the second derivative.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Derivatives", "url": "https://ap.wyattau.com/maths/diagnostics/diag-derivatives"}]
+}
+</script>
+
 ### UT-2: Implicit Differentiation with Product Rule on Mixed Terms
 
 **Question:**
@@ -87,6 +114,15 @@ $\frac{d}{dx}[\sin(xy)] = \cos(xy)$ instead of
 $\cos(xy) \cdot \frac{d}{dx}[xy] = \cos(xy)(y + xy')$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Derivatives", "url": "https://ap.wyattau.com/maths/diagnostics/diag-derivatives"}]
+}
+</script>
 
 ### UT-3: Mean Value Theorem and Differentiability Implies Continuity
 
@@ -128,6 +164,15 @@ necessary one. Students often incorrectly believe that finding such a $c$ proves
 satisfies the MVT hypotheses.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Derivatives", "url": "https://ap.wyattau.com/maths/diagnostics/diag-derivatives"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -180,6 +225,15 @@ $$= \frac{1}{13}\int_0^5 \sqrt{\frac{4225 - 25x^2 + 64x^2}{169-x^2}} \, dx = \fr
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Derivatives", "url": "https://ap.wyattau.com/maths/diagnostics/diag-derivatives"}]
+}
+</script>
+
 ### IT-2: Optimization with Constraint Verification (with Integrals)
 
 **Question:**
@@ -215,6 +269,15 @@ $$= 2\left(\left(8 - \frac{8}{3}\right) - \left(\frac{8\sqrt{3}}{3} - \frac{8 \c
 $$= 2\left(\frac{16}{3} - \frac{72\sqrt{3} - 8\sqrt{3}}{27}\right) = 2\left(\frac{16}{3} - \frac{64\sqrt{3}}{27}\right) = \frac{32}{3} - \frac{128\sqrt{3}}{27}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ap.wyattau.com/maths/diagnostics"}, {"name": "Diag Derivatives", "url": "https://ap.wyattau.com/maths/diagnostics/diag-derivatives"}]
+}
+</script>
 
 ### IT-3: Derivative of an Integral with Moving Bounds (with Integrals)
 

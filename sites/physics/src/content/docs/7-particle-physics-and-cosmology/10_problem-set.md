@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "7 Particle Physics And Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology"}, {"name": "10_problem Set", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology/10_problem-set"}]
+}
+</script>
 title: Problem Set
 tags:
   - Physics
   - University
 description: 'Using the Gell-Mann--Nishijima formula, determine the electric charge of the Comprehensive educational content coverage with definitions and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "7 Particle Physics And Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology"}, {"name": "10_problem Set", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology/10_problem-set"}]
+}
+</script>
 
 **Problem 1.** Using the Gell-Mann--Nishijima formula, determine the electric charge of the
 $\Sigma^*$ baryon with quark content $sss$.

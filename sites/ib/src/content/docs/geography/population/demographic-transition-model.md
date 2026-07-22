@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Population", "url": "https://ib.wyattau.com/geography/population"}, {"name": "Demographic Transition Model", "url": "https://ib.wyattau.com/geography/population/demographic-transition-model"}]
+}
+</script>
 title: Demographic Transition Model
 description: "The demographic transition model (DTM) describes the shift from high birth rates and high death Rates to low birth rates and low death rates as a country"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Population", "url": "https://ib.wyattau.com/geography/population"}, {"name": "Demographic Transition Model", "url": "https://ib.wyattau.com/geography/population/demographic-transition-model"}]
+}
+</script>
 
 # Demographic Transition Model
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
 title: Chemistry - Chemical Kinetics
 description: 'The rate of reaction measures how fast reactants are consumed or products are fo Comprehensive educational content coverage with definitions and practice proble'
 tags: [DSE, Chemistry]
 categories: [DSE, Chemistry]
 date: 2026-04-08T00:00:00.000Z
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Rate of Reaction
 
@@ -32,6 +50,15 @@ The negative sign indicates that reactant concentrations decrease over time.
 Rate is expressed in mol dm$^{-3}$ s$^{-1}$ (change in concentration per unit time).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Measuring Rates of Reaction
 
@@ -72,6 +99,15 @@ a concentration-time graph. It is the fastest rate in the reaction.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
+
 ## Factors Affecting the Rate of Reaction
 
 ### Concentration (or Pressure for Gases)
@@ -109,6 +145,15 @@ Yield.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
+
 ## Collision Theory
 
 ### Successful Collisions
@@ -140,6 +185,15 @@ $$\mathrm{Reactants} \xrightarrow{E_a \mathrm{ (catalysed)}} \mathrm{Products}$$
 The catalysed pathway has a lower energy barrier, so more particles have sufficient energy to react.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Maxwell-Boltzmann Distribution
 
@@ -180,6 +234,15 @@ Shape remains the same at the same temperature.
   compared to the dramatic increase in the fraction exceeding $E_a$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Energy Profile Diagrams
 
@@ -224,6 +287,15 @@ Energy levels remain unchanged. $\Delta H$ is the same for both pathways.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
+
 ## Catalytic Converters
 
 ### Purpose
@@ -260,6 +332,15 @@ $$2\mathrm{NO}_2 \xrightarrow{\mathrm{Rh}} \mathrm{N}_2 + 2\mathrm{O}_2$$
 - **Sulfur poisoning:** Sulfur compounds in fuel can also poison the catalyst.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Enzyme Catalysis
 
@@ -300,6 +381,15 @@ For further catalysis.
 - Extreme pH values cause permanent denaturation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Rate Equations
 
@@ -409,6 +499,15 @@ The units of $k$ depend on the overall order of reaction.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
+
 ## The Arrhenius Equation
 
 ### Equation
@@ -483,6 +582,15 @@ $$k_2 = 6.534 \times 2.50 \times 10^{-3} = 1.63 \times 10^{-2} \mathrm{ s}^{-1}$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
+
 ## Iodine Clock Reaction
 
 ### Overview
@@ -533,6 +641,15 @@ Overall order = 2.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
+
 ## Intuition
 
 **Speed vs. possibility:** Kinetics asks "how fast?" while thermodynamics asks "is it possible?" — a reaction can be thermodynamically favorable but kinetically frozen (like diamond turning to graphite).
@@ -565,6 +682,15 @@ Overall order = 2.
    in joules. Convert kJ to J before substituting.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -736,6 +862,15 @@ Collision frequency.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
+
 ## Practical Techniques for Measuring Rates
 
 ### Continuous Monitoring Methods
@@ -779,6 +914,15 @@ A chemical that reacts with a catalyst or reactant.
 | Fast reaction               | Continuous monitoring (colorimetry) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Half-Life of Reactions
 
@@ -831,6 +975,15 @@ $k = \dfrac{0.693}{t_{1/2}} = \dfrac{0.693}{60} = 0.01155 \mathrm{ s}^{-1}$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Determining Order from Concentration-Time Graphs
 
@@ -894,6 +1047,15 @@ $k = 0.0116 \mathrm{ s}^{-1}$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
+
 ## Factors Affecting Rate in Real-World Contexts
 
 ### Refrigeration and Food Preservation
@@ -922,6 +1084,15 @@ Stirring increases the rate of dissolution by:
 Powdering the solid increases surface area, further increasing the rate.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Summary of Key Equations
 

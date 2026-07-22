@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "2_measures", "url": "https://mathematics.wyattau.com/10-measure-theory/2_measures"}]
+}
+</script>
 title: Measures
 tags:
   - Mathematics
   - University
 description: 'Measures: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "2_measures", "url": "https://mathematics.wyattau.com/10-measure-theory/2_measures"}]
+}
+</script>
 
 ### 2.1 Definition and Properties
 

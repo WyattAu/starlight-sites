@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
 title: Acids and Bases
 description: "An acid produces ions in solution; a base produces ions. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
 
 # Acids and Bases
 
@@ -181,6 +199,15 @@ $$\mathrm{pH = 14 - 2.79 = 11.21$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
+
 ## Buffers
 
 ### What is a Buffer?
@@ -268,6 +295,15 @@ $$\mathrm{pH = 9.25 + \log\frac{0.09}{0.16} = 9.25 + \log(0.5625) = 9.25 - 0.250
 The pH changes by only 0.07 units, demonstrating the buffer"s effectiveness.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
 
 ## Titrations
 
@@ -371,6 +407,15 @@ Acid-weak base titrations (equivalence pH below 7), methyl orange is the correct
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
+
 ## Polyprotic Acids
 
 ### Diprotic Acids
@@ -388,6 +433,15 @@ Note that $K_{a1} \gg K_{a2}$: the first dissociation is much stronger than the 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
+
 ## Summary Table: Acid-Base Concepts
 
 | Concept               | Formula/Definition                                           | Key Point                    |
@@ -400,6 +454,15 @@ Note that $K_{a1} \gg K_{a2}$: the first dissociation is much stronger than the 
 | $K_a \times K_b$      | $= K_w$                                                      | For conjugate pairs          |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -425,6 +488,15 @@ Note that $K_{a1} \gg K_{a2}$: the first dissociation is much stronger than the 
    ($K_{a2} = 1.2 \times 10^{-2}$).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
 
 ## Practice Questions
 
@@ -466,6 +538,15 @@ Note that $K_{a1} \gg K_{a2}$: the first dissociation is much stronger than the 
     $\mathrm{NH_4\mathrm{Cl$ is less than 7.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
 
 ## Salt Hydrolysis
 
@@ -528,6 +609,15 @@ Both ions hydrolyse. The pH depends on the relative strengths of the acid and ba
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
+
 ## pH of Mixtures
 
 ### Mixing Two Strong Acids
@@ -563,6 +653,15 @@ $\mathrm{H^+$ than the weak acid.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
+
 ## Titration Curves
 
 ### Shape of Titration Curves
@@ -591,6 +690,15 @@ Key features:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
+
 ## Solubility Product and pH
 
 The solubility of some salts is affected by pH.
@@ -618,6 +726,15 @@ Dissolution).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
+
 ## Practice Questions (Extended)
 
 13. Calculate the pH of a $0.050 \mathrm{ M$ solution of $\mathrm{AlCl_3$Given that
@@ -644,6 +761,15 @@ Dissolution).
     used in biological systems.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
 
 ## Advanced pH Calculations
 
@@ -687,6 +813,15 @@ Since $K_{a1} \gg K_{a2} \gg K_{a3}$The first dissociation dominates. For a $0.1
 Solution, the pH is calculated using only $K_{a1}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
 
 ## Indicators in Detail: Colour Change Theory
 

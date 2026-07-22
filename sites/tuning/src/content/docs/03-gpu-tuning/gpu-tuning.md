@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "03 Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning"}, {"name": "Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning"}]
+}
+</script>
 title: GPU Tuning
 description: "NVIDIA GPUs are organized into Streaming Multiprocessors (SMs), each containing a set of CUDA cores, Shared memory, register files, and scheduling units."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "03 Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning"}, {"name": "Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning"}]
+}
+</script>
 
 ## GPU Architecture Overview
 
@@ -58,6 +76,15 @@ Base and boost clocks.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "03 Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning"}, {"name": "Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning"}]
+}
+</script>
+
 ## NVIDIA GPU Boost
 
 ### How GPU Boost Works
@@ -105,6 +132,15 @@ Allows the GPU to sustain higher average frequencies under thermal constraints.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "03 Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning"}, {"name": "Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning"}]
+}
+</script>
+
 ## AMD PowerPlay
 
 AMD's equivalent to GPU Boost is PowerPlay, which manages GPU frequency and voltage based on thermal
@@ -126,6 +162,15 @@ And power constraints. The principles are similar but the implementation differs
 | RX 7900 XTX | 355 W       | 420 W           | +18%        |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "03 Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning"}, {"name": "Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning"}]
+}
+</script>
 
 ## GPU Undervolting Methodology
 
@@ -193,6 +238,15 @@ well to undervolting, with 50–80 mV reductions being achievable on most cards.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "03 Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning"}, {"name": "Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning"}]
+}
+</script>
+
 ## Memory Clock Overclocking
 
 ### How Memory Overclocking Works
@@ -231,6 +285,15 @@ On an overclocked GPU for production compute.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "03 Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning"}, {"name": "Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning"}]
+}
+</script>
+
 ## Power Limit Adjustment
 
 ### Why Adjust Power Limits
@@ -266,6 +329,15 @@ Combining an increased power limit with undervolting is the optimal strategy:
 This combination often yields better results than either technique alone.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "03 Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning"}, {"name": "Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning"}]
+}
+</script>
 
 ## Thermal Management
 
@@ -316,6 +388,15 @@ Recommended pastes for GPUs:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "03 Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning"}, {"name": "Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning"}]
+}
+</script>
+
 ## Tools
 
 ### Windows
@@ -355,6 +436,15 @@ lact                         # Launch GUI
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "03 Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning"}, {"name": "Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning"}]
+}
+</script>
+
 ## Multi-GPU Considerations
 
 ### SLI and CrossFire (Deprecated)
@@ -376,6 +466,15 @@ Processes a portion of the workload. No special inter-GPU communication is requi
    Leave at least one slot gap between GPUs, or use water cooling.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "03 Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning"}, {"name": "Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning"}]
+}
+</script>
 
 ## GPU Benchmark Methodology
 
@@ -406,6 +505,15 @@ Different benchmarks stress different aspects of the GPU:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "03 Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning"}, {"name": "Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning"}]
+}
+</script>
+
 ## Common Failure Modes
 
 | Symptom                               | Likely Cause                             | Solution                                         |
@@ -419,6 +527,15 @@ Different benchmarks stress different aspects of the GPU:
 | HDMI/DP signal loss                   | Cable or port issue                      | Try a different cable or port                    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "03 Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning"}, {"name": "Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning"}]
+}
+</script>
 
 ## Intuition
 

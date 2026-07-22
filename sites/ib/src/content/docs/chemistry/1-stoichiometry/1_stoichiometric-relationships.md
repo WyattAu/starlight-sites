@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
 title: Stoichiometry
 description: "Rigorous IB chemistry notes covering Stoichiometry. Includes definitions, derivations, worked examples, and exam-style problems. chemistry."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
 
 ## Intuition
 
@@ -71,6 +89,15 @@ $$
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
 
 ## Empirical and Molecular Formulas
 
@@ -156,6 +183,15 @@ Formula: CuSO$_4$, $\cdot$5H$\_2$O.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
+
 ## Chemical Equations and Balancing
 
 ### Balancing Equations
@@ -204,6 +240,15 @@ Net ionic: Ag$^+$(aq) + Cl$^-$ $\to$ AgCl(s)
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
 
 ## Reactant Calculations
 
@@ -259,6 +304,15 @@ $$
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
 
 ## Gas Laws
 
@@ -362,6 +416,15 @@ Where $a$ accounts for intermolecular attractions and $b$ accounts for molecular
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
+
 ## Solution Chemistry
 
 ### Concentration
@@ -463,6 +526,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
+
 ## IB Exam-Style Questions
 
 ### Question 1 (Paper 1 style)
@@ -545,6 +617,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
+
 ## Summary
 
 | Formula          | Expression                                                   |
@@ -567,6 +648,15 @@ volume at STP is 22.7 L/mol and at RTP is 24.8 L/mol.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
 
 ## Gas Laws: Extended
 
@@ -635,6 +725,15 @@ The gas is likely O$_2$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
+
 ## Solutions: Extended
 
 ### Concentration Conversions
@@ -663,6 +762,15 @@ Constants, and $m$ is molality.
 | CaCl$_2$                        | 3   |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
 
 ## Water of Crystallisation: Extended
 
@@ -700,6 +808,15 @@ Formula: MgSO$_4$, $\cdot$7H$\_2$O (Epsom salt).
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
 
 ## Additional IB Exam-Style Questions
 
@@ -768,6 +885,15 @@ $$
 $$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
 
 ## Stoichiometry: Extended Topics
 
@@ -866,6 +992,15 @@ Real gases deviate from ideal behaviour at high pressure and low temperature bec
 - Intermolecular forces become significant.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "1_stoichiometric Relationships", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/1_stoichiometric-relationships"}]
+}
+</script>
 
 ## Additional IB Exam-Style Questions
 

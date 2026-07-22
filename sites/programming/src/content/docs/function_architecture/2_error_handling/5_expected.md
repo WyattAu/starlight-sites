@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Function_architecture", "url": "https://programming.wyattau.com/function_architecture"}, {"name": "2_error_handling", "url": "https://programming.wyattau.com/function_architecture/2_error_handling"}, {"name": "5_expected", "url": "https://programming.wyattau.com/function_architecture/2_error_handling/5_expected"}]
+}
+</script>
 title: Monadic Error Handling — std::expected
 description: "C++23 std::expected for monadic error handling."
 date: 2026-04-03T00:00:00.000Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - Cpp
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Function_architecture", "url": "https://programming.wyattau.com/function_architecture"}, {"name": "2_error_handling", "url": "https://programming.wyattau.com/function_architecture/2_error_handling"}, {"name": "5_expected", "url": "https://programming.wyattau.com/function_architecture/2_error_handling/5_expected"}]
+}
+</script>
 
 # Monadic Error Handling (`std::expected`)
 

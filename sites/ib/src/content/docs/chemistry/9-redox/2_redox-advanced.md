@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "2_redox Advanced", "url": "https://ib.wyattau.com/chemistry/9-redox/2_redox-advanced"}]
+}
+</script>
 title: Redox Reactions (Advanced)
 description: "Rigorous IB chemistry notes covering Redox Reactions (Advanced). Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "2_redox Advanced", "url": "https://ib.wyattau.com/chemistry/9-redox/2_redox-advanced"}]
+}
+</script>
 
 ## Intuition
 
@@ -110,6 +128,15 @@ Value, the stronger the reducing agent.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "2_redox Advanced", "url": "https://ib.wyattau.com/chemistry/9-redox/2_redox-advanced"}]
+}
+</script>
+
 ## 2. The Nernst Equation
 
 For non-standard conditions, the cell potential is given by the Nernst equation:
@@ -163,6 +190,15 @@ The extremely large $K$ confirms that the reaction proceeds essentially to compl
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "2_redox Advanced", "url": "https://ib.wyattau.com/chemistry/9-redox/2_redox-advanced"}]
+}
+</script>
 
 ## 3. Electrolysis
 
@@ -272,6 +308,15 @@ This is the Downs process for industrial sodium production.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "2_redox Advanced", "url": "https://ib.wyattau.com/chemistry/9-redox/2_redox-advanced"}]
+}
+</script>
+
 ## 4. Applications of Electrochemistry
 
 ### Fuel Cells
@@ -315,6 +360,15 @@ Overall: $4\mathrm{Fe} + 3\mathrm{O}_2 + 6\mathrm{H}_2\mathrm{O} \to 4\mathrm{Fe
 | Alloying (stainless steel) | Cr forms protective oxide layer              |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "2_redox Advanced", "url": "https://ib.wyattau.com/chemistry/9-redox/2_redox-advanced"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -412,6 +466,15 @@ Replaced.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "2_redox Advanced", "url": "https://ib.wyattau.com/chemistry/9-redox/2_redox-advanced"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -594,6 +657,15 @@ toward equilibrium.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "2_redox Advanced", "url": "https://ib.wyattau.com/chemistry/9-redox/2_redox-advanced"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **Reversing $E^\circ$ values incorrectly:** When identifying the anode, the half-reaction is
@@ -625,6 +697,15 @@ toward equilibrium.
   a wrong answer.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "2_redox Advanced", "url": "https://ib.wyattau.com/chemistry/9-redox/2_redox-advanced"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -668,6 +749,15 @@ toward equilibrium.
    ($E^\circ(\mathrm{Zn}^{2+}/\mathrm{Zn}) = -0.76\mathrm{ V}$, $E^\circ(\mathrm{Fe}^{2+}/\mathrm{Fe}) = -0.44\mathrm{ V}$)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "2_redox Advanced", "url": "https://ib.wyattau.com/chemistry/9-redox/2_redox-advanced"}]
+}
+</script>
 
 ## Worked Examples (Expanded)
 
@@ -780,6 +870,15 @@ because the high product-to-reactant ratio pushes the reaction back toward equil
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "2_redox Advanced", "url": "https://ib.wyattau.com/chemistry/9-redox/2_redox-advanced"}]
+}
+</script>
+
 ## Exam-Style Problems (Expanded)
 
 <details>
@@ -867,6 +966,15 @@ $E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$And calculate the voltage efficiency
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "2_redox Advanced", "url": "https://ib.wyattau.com/chemistry/9-redox/2_redox-advanced"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Forgetting to convert between volts and joules in $\Delta G$ calculations**: $\Delta G = -nFE$
@@ -897,6 +1005,15 @@ $E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$And calculate the voltage efficiency
   voltage is $V = E_{\mathrm{cell}} - Ir_{\mathrm{internal}}$Where $I$ is the current drawn.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "2_redox Advanced", "url": "https://ib.wyattau.com/chemistry/9-redox/2_redox-advanced"}]
+}
+</script>
 
 ## If You Get These Wrong, Revise:
 

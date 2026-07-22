@@ -1,5 +1,14 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Index", "url": "https://alevel.wyattau.com/maths/pure-mathematics/index"}]
+}
+</script>
+
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -26,6 +35,15 @@
 title: Pure Mathematics
 description: "A-Level Maths Pure Mathematics notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Index", "url": "https://alevel.wyattau.com/maths/pure-mathematics/index"}]
+}
+</script>
 
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">

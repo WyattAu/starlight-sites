@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Exchange Transport", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-exchange-transport"}]
+}
+</script>
 title: "Exchange and Transport -- Diagnostic Tests"
 description: "A-Level Biology Exchange and Transport -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Exchange Transport", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-exchange-transport"}]
+}
+</script>
 
 
 ## Intuition
@@ -76,6 +94,15 @@ concentration compensates by carrying more oxygen per unit volume of blood. Addi
 right, promoting oxygen unloading in the tissues.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Exchange Transport", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-exchange-transport"}]
+}
+</script>
 
 ### UT-2: Xylem Transport and Transpiration
 
@@ -164,6 +191,15 @@ of mineral ions and solutes.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Exchange Transport", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-exchange-transport"}]
+}
+</script>
+
 ### UT-3: Mass Flow Hypothesis and Phloem Transport
 
 **Question:**
@@ -246,6 +282,15 @@ ions, but the main driver — transpiration pull — is passive.)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Exchange Transport", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-exchange-transport"}]
+}
+</script>
+
 ## Integration Tests
 
 ### IT-1: Gas Exchange Adaptations and Surface Area to Volume Ratio (with Cells)
@@ -324,6 +369,15 @@ along the concentration gradient.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Exchange Transport", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-exchange-transport"}]
+}
+</script>
+
 ### IT-2: Digestion and Mass Transport in Animals (with Biological Molecules)
 
 **Question:**
@@ -389,6 +443,15 @@ of toxins. The liver also produces plasma proteins (e.g., fibrinogen, albumin) t
 hepatic vein.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Exchange Transport", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-exchange-transport"}]
+}
+</script>
 
 ### IT-3: Plant Transport and Adaptations to Environment (with Ecology)
 

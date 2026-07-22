@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
 title: Hyperbolic Functions (Extended)
 description: "This document provides a rigorous treatment of hyperbolic functions, their ident Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-23T00:00:00.000Z
@@ -6,6 +15,15 @@ tags: [Mathematics, ALevel]
 categories: [Mathematics]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
 
 
 ## Intuition
@@ -366,6 +384,15 @@ $f'(x) = \operatorname{arcosh}\,x + x \cdot \dfrac{1}{\sqrt{x^2 - 1}} = \operato
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
+
 ## 6. Further Proofs and Key Results
 
 ### 6.1 Proof: $\int \frac{1}{\sqrt{x^2 - a^2}}\,dx = \operatorname{arcosh}\!\left(\frac{x}{a}\right) + C$
@@ -413,6 +440,15 @@ Integrating again: $y = a\cosh\!\left(\dfrac{x}{a}\right) + C$. $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
+
 ## 7. Common Pitfalls
 
 <aside class="starlight-aside starlight-aside--caution">
@@ -427,6 +463,15 @@ Integrating again: $y = a\cosh\!\left(\dfrac{x}{a}\right) + C$. $\blacksquare$
    $\operatorname{artanh}$. Check the domain of the integrand carefully.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
 
 ## 8. Additional Exam-Style Questions
 
@@ -649,6 +694,15 @@ $$s = \int_0^b \sqrt{1 + \sinh^2(x/a)}\,dx = \int_0^b \cosh(x/a)\,dx = \bigl[a\s
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
+
 ## 10. Connections to Other Topics
 
 ### 10.1 Hyperbolic functions and differential equations
@@ -673,6 +727,15 @@ The shape $y = a\cosh(x/a)$ describes a hanging chain. The arc length is $s = a\
 [Further Mechanics](/docs/alevel/further-maths/further-mechanics/projectile-motion).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
 
 ## 11. Additional Exam-Style Questions
 
@@ -794,6 +857,15 @@ So $\ln 3 - \ln 2 = \operatorname{artanh}(1/5)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
+
 ## 12. Summary of Extended Results
 
 | Identity               | Formula                                                                                |
@@ -808,6 +880,15 @@ So $\ln 3 - \ln 2 = \operatorname{artanh}(1/5)$.
 | Arc length of catenary | $s = a\sinh(b/a)$ for $y = a\cosh(x/a)$                                                |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
 
 ## 13. Further Common Pitfalls
 
@@ -826,6 +907,15 @@ So $\ln 3 - \ln 2 = \operatorname{artanh}(1/5)$.
    $y = A\cosh x + B\sinh x$ is often more convenient since $\cosh 0 = 1$ and $\sinh 0 = 0$.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
 
 ## 14. Advanced Worked Examples
 
@@ -892,6 +982,15 @@ $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
+
 ## 15. Additional Exam-Style Questions
 
 ### Question 16
@@ -940,6 +1039,15 @@ $x > 1$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
+
 ## 16. Advanced Topics
 
 ### 16.1 The Gudermannian function
@@ -979,6 +1087,15 @@ The catenary $y = a\cosh(x/a)$ appears in:
 - Power lines between poles
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
 
 ## 17. Further Exam-Style Questions
 
@@ -1027,6 +1144,15 @@ $y = \ln(x+\sqrt{x^2-1})$. $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
+
 ## 17. Further Advanced Topics
 
 ### 17.1 Hyperbolic substitutions in integration
@@ -1062,6 +1188,15 @@ The catenary curve $y = a\cosh\!\left(\dfrac{x}{a}\right)$ describes a hanging c
 Arc length from the vertex: $s = a\sinh\!\left(\dfrac{x}{a}\right)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
+}
+</script>
 
 ## 18. Further Exam-Style Questions
 

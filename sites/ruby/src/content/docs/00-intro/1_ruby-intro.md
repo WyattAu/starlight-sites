@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "00 Intro", "url": "https://ruby.wyattau.com/00-intro"}, {"name": "1_ruby Intro", "url": "https://ruby.wyattau.com/00-intro/1_ruby-intro"}]
+}
+</script>
 title: Introduction to Ruby
 description: "Ruby is a with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. Ruby was created by Yukihiro"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Ruby
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "00 Intro", "url": "https://ruby.wyattau.com/00-intro"}, {"name": "1_ruby Intro", "url": "https://ruby.wyattau.com/00-intro/1_ruby-intro"}]
+}
+</script>
 
 ## What Is Ruby?
 
@@ -759,6 +777,15 @@ puts result
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "00 Intro", "url": "https://ruby.wyattau.com/00-intro"}, {"name": "1_ruby Intro", "url": "https://ruby.wyattau.com/00-intro/1_ruby-intro"}]
+}
+</script>
+
 ### Example 2: Block-Based DSL for Configuration
 
 **Problem:** Create a simple configuration DSL that uses blocks to build a settings hash.
@@ -800,6 +827,15 @@ puts config.to_h
 **Explanation:** `instance_eval` runs the block in the context of the Config instance, so `host` and `port` calls inside the block invoke the Config methods directly. This pattern is the foundation of Rails configuration DSLs. The block provides a clean, declarative syntax while the class handles the implementation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "00 Intro", "url": "https://ruby.wyattau.com/00-intro"}, {"name": "1_ruby Intro", "url": "https://ruby.wyattau.com/00-intro/1_ruby-intro"}]
+}
+</script>
 
 ### Example 3: Error Handling with Custom Exceptions
 

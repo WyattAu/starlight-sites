@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
+}
+</script>
 title: Chemistry - Energetics / Thermochemistry
 description: "The heat content of a system at constant pressure. It is a state function. Comprehensive educational content coverage with definitions and practice problems."
 tags: [DSE, Chemistry]
 categories: [DSE, Chemistry]
 date: 2026-04-08T00:00:00.000Z
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
+}
+</script>
 
 ## Enthalpy Changes
 
@@ -41,6 +59,15 @@ Standard enthalpy changes are measured under standard conditions:
 The standard state is the pure substance at 1 atm and the specified temperature.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
+}
+</script>
 
 ## Standard Enthalpy Changes
 
@@ -100,6 +127,15 @@ This is always endothermic (bonds must be broken).
 | $\mathrm{NaOH}_{(aq)}$                        | $-470.1$                    | --                          |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
+}
+</script>
 
 ## Hess"s Law
 
@@ -197,6 +233,15 @@ $-103.8 \mathrm{ kJ/mol}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
+}
+</script>
+
 ## Bond Enthalpies
 
 ### Definition
@@ -286,6 +331,15 @@ $\Delta H = 2 \times (-46.0) = -92.0 \mathrm{ kJ/mol}$. The estimate is close.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
+}
+</script>
 
 ## Calorimetry
 
@@ -377,6 +431,15 @@ To heat losses to the surroundings and incomplete combustion.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
+}
+</script>
+
 ## Born-Haber Cycles
 
 ### Overview
@@ -440,6 +503,15 @@ The large magnitude reflects the high charges on $\mathrm{Mg}^{2+}$ and $\mathrm
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
+}
+</script>
+
 ## Entropy ($S$)
 
 ### Definition
@@ -480,6 +552,15 @@ Typical values (J mol$^{-1}$ K$^{-1}$):
 | $\mathrm{NH}_{3(g)}$           | 192.3                             |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
+}
+</script>
 
 ## Gibbs Free Energy ($\Delta G$)
 
@@ -566,6 +647,15 @@ A catalyst and continuous removal of $\mathrm{NH}_3$ to shift equilibrium.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
+}
+</script>
+
 ## Intuition
 
 **Energy accounting:** Energetics is like balancing a chemical bank account — energy goes in (endothermic) or out (exothermic), and Hess's Law says the total change is the same regardless of the path taken.
@@ -601,6 +691,15 @@ A catalyst and continuous removal of $\mathrm{NH}_3$ to shift equilibrium.
    extremely slow. Thermodynamic feasibility does not imply kinetic practicality.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -767,6 +866,15 @@ Improvements:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
+}
+</script>
+
 ## Indirect Determination of Enthalpy Changes
 
 ### Using Hess's Law with Multiple Steps
@@ -829,6 +937,15 @@ This is slightly endothermic, consistent with the accepted value of $+3.9 \mathr
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
+}
+</script>
+
 ## Temperature Changes and Enthalpy
 
 ### Heat Capacity
@@ -868,6 +985,15 @@ $\Delta H = -5.936 / 0.100 = -59.4 \mathrm{ kJ/mol}$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
+}
+</script>
 
 ## Summary of Key Equations
 

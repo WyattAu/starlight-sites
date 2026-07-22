@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "English", "url": "https://ap.wyattau.com/english"}, {"name": "4 Close Reading", "url": "https://ap.wyattau.com/english/4-close-reading"}, {"name": "4_close Reading", "url": "https://ap.wyattau.com/english/4-close-reading/4_close-reading"}]
+}
+</script>
 title: Close Reading
 description: "Close reading is the careful, detailed analysis of a text to understand how the author uses language, structure, and rhetorical choices to create meaning"
 date: 2026-06-04T10:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - ap-english
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "English", "url": "https://ap.wyattau.com/english"}, {"name": "4 Close Reading", "url": "https://ap.wyattau.com/english/4-close-reading"}, {"name": "4_close Reading", "url": "https://ap.wyattau.com/english/4-close-reading/4_close-reading"}]
+}
+</script>
 
 ## What Is Close Reading?
 

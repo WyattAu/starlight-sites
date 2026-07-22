@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Ruby", "url": "https://languages.wyattau.com/ruby"}, {"name": "05 Advanced", "url": "https://languages.wyattau.com/ruby/05-advanced"}, {"name": "2_concurrency", "url": "https://languages.wyattau.com/ruby/05-advanced/2_concurrency"}]
+}
+</script>
 title: Concurrency
 description: "Ruby supports both concurrency (dealing with multiple tasks at once) and parallelism (executing multiple tasks simultaneously). The concurrency model has"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Ruby
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Ruby", "url": "https://languages.wyattau.com/ruby"}, {"name": "05 Advanced", "url": "https://languages.wyattau.com/ruby/05-advanced"}, {"name": "2_concurrency", "url": "https://languages.wyattau.com/ruby/05-advanced/2_concurrency"}]
+}
+</script>
 
 ## Intuition
 
@@ -884,6 +902,15 @@ promise.execute
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Ruby", "url": "https://languages.wyattau.com/ruby"}, {"name": "05 Advanced", "url": "https://languages.wyattau.com/ruby/05-advanced"}, {"name": "2_concurrency", "url": "https://languages.wyattau.com/ruby/05-advanced/2_concurrency"}]
+}
+</script>
 
 ## Cross-References
 

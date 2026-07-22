@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "02 Sql Fundamentals", "url": "https://databases.wyattau.com/02-sql-fundamentals"}, {"name": "Advanced Sql", "url": "https://databases.wyattau.com/02-sql-fundamentals/advanced-sql"}]
+}
+</script>
 title: Advanced SQL
 description: "Advanced SQL notes covering key definitions, core concepts, worked examples, and practice questions for targeted learning and effective revision."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "02 Sql Fundamentals", "url": "https://databases.wyattau.com/02-sql-fundamentals"}, {"name": "Advanced Sql", "url": "https://databases.wyattau.com/02-sql-fundamentals/advanced-sql"}]
+}
+</script>
 
 ## Window Functions Deep Dive
 

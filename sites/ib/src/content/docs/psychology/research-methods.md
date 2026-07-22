@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Research Methods", "url": "https://ib.wyattau.com/psychology/research-methods"}]
+}
+</script>
 title: Research Methods in Psychology
 description: "Psychology is a science because it uses empirical methods to investigate questions about behaviour And mental processes. The scientific method in psychology"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Research Methods", "url": "https://ib.wyattau.com/psychology/research-methods"}]
+}
+</script>
 
 ## The Scientific Method in Psychology
 
@@ -435,6 +453,15 @@ linked above.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Research Methods", "url": "https://ib.wyattau.com/psychology/research-methods"}]
+}
+</script>
+
 ## Cross-References
 
 - [Thinking and Decision Making](/docs/ib/psychology/cognitive/thinking-and-decision-making) applies the research methods discussed here to study cognitive biases and judgement under uncertainty.
@@ -442,6 +469,15 @@ linked above.
 - [Cell Biology](/docs/ib/biology/1-cell-biology/1_cell-biology) covers the cellular mechanisms that underpin the biological processes studied through psychological research methods.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Research Methods", "url": "https://ib.wyattau.com/psychology/research-methods"}]
+}
+</script>
 
 ## Intuition
 

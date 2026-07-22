@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Sociocultural", "url": "https://ib.wyattau.com/psychology/sociocultural"}, {"name": "Prejudice And Discrimination", "url": "https://ib.wyattau.com/psychology/sociocultural/prejudice-and-discrimination"}]
+}
+</script>
 title: Prejudice and Discrimination
 description: "Prejudice and discrimination are among the most consequential social phenomena studied by Psychologists. Prejudice refers to a negative attitude toward a"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Sociocultural", "url": "https://ib.wyattau.com/psychology/sociocultural"}, {"name": "Prejudice And Discrimination", "url": "https://ib.wyattau.com/psychology/sociocultural/prejudice-and-discrimination"}]
+}
+</script>
 
 ## Introduction
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "4 Databases", "url": "https://computer-science.wyattau.com/4-databases"}, {"name": "1_introduction To Database Systems", "url": "https://computer-science.wyattau.com/4-databases/1_introduction-to-database-systems"}]
+}
+</script>
 title: Introduction to Database Systems
 tags:
   - Computing
   - University
 description: 'A is an organised collection of structured data, managed by a . A DBMS provides: Comprehensive educational content coverage with definitions and practice proble'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "4 Databases", "url": "https://computer-science.wyattau.com/4-databases"}, {"name": "1_introduction To Database Systems", "url": "https://computer-science.wyattau.com/4-databases/1_introduction-to-database-systems"}]
+}
+</script>
 
 ### 1.1 What is a Database
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "01 Basics", "url": "https://haskell.wyattau.com/01-basics"}, {"name": "1_types And Functions", "url": "https://haskell.wyattau.com/01-basics/1_types-and-functions"}]
+}
+</script>
 title: Types and Functions
 description: "Haskell has a relatively small set of built-in types, but they combine to express complex data structures. The module is automatically imported in every"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Haskell
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "01 Basics", "url": "https://haskell.wyattau.com/01-basics"}, {"name": "1_types And Functions", "url": "https://haskell.wyattau.com/01-basics/1_types-and-functions"}]
+}
+</script>
 
 ## Basic Types
 

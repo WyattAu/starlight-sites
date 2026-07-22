@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "2_coastal Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/2_coastal-systems"}]
+}
+</script>
 title: Coastal Systems and Landscapes
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, physical-geography]
 description: "A-Level Geography Coastal Systems and Landscapes notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "2_coastal Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/2_coastal-systems"}]
+}
+</script>
 
 # Coastal Systems and Landscapes
 
@@ -17,6 +35,15 @@ strategies used to manage coastal systems. Understanding coastal morphology is c
 approximately 40% of the global population lives within 100 km of a coast.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "2_coastal Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/2_coastal-systems"}]
+}
+</script>
 
 ## Key Concepts and Definitions
 
@@ -39,6 +66,15 @@ approximately 40% of the global population lives within 100 km of a coast.
 | **Mass movement**        | The downslope movement of material under gravity (e.g., landslides, slumping)                               |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "2_coastal Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/2_coastal-systems"}]
+}
+</script>
 
 ## Coastal Processes
 
@@ -115,6 +151,15 @@ Deposition occurs when wave energy is insufficient to transport sediment. This h
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "2_coastal Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/2_coastal-systems"}]
+}
+</script>
+
 ## Coastal Landforms
 
 ### Erosional Landforms
@@ -141,6 +186,15 @@ Deposition occurs when wave energy is insufficient to transport sediment. This h
 | **Salt marsh**   | Flat, vegetated area in the upper intertidal zone, formed by the accumulation of fine sediment and colonisation by halophytic (salt-tolerant) plants.                                                                                                                            |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "2_coastal Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/2_coastal-systems"}]
+}
+</script>
 
 ## Sea-Level Change
 
@@ -171,6 +225,15 @@ subsidence compounds eustatic rise.
 - Dalmatian coast (drowned river valleys running parallel to the coast)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "2_coastal Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/2_coastal-systems"}]
+}
+</script>
 
 ## Coastal Management
 
@@ -206,6 +269,15 @@ in England and Wales. Four policy options:
 4. **No active intervention**: Do not invest in new defences; allow natural processes to continue
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "2_coastal Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/2_coastal-systems"}]
+}
+</script>
 
 ## Case Studies
 
@@ -269,11 +341,29 @@ intrusion into freshwater aquifers.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "2_coastal Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/2_coastal-systems"}]
+}
+</script>
+
 ## Intuition
 
 Imagine the coast as a tug-of-war between the ocean and the land. Waves are the ocean's tools, constantly chiseling at the shoreline through erosion, while longshore drift acts like a conveyor belt moving sediment along the beach. Deposition happens when the ocean runs out of energy, like a truck dropping its load when it slows down. A spit is essentially a sand accumulation at a point where the coastline turns a corner, much like snow drifting behind a fence when wind changes direction. Hard engineering tries to build walls against the sea, but this simply redirects the energy elsewhere, like pressing on one end of a balloon. Soft engineering works with nature instead, allowing the coast to reshape itself gradually.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "2_coastal Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/2_coastal-systems"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -291,6 +381,15 @@ Imagine the coast as a tug-of-war between the ocean and the land. Waves are the 
    accelerating erosion elsewhere. Always consider the sediment cell as a system.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "2_coastal Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/2_coastal-systems"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -346,6 +445,15 @@ Holderness Coast is a well-known example, extending approximately 5.5 km across 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "2_coastal Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/2_coastal-systems"}]
+}
+</script>
+
 ## Summary
 
 - Coastal systems are shaped by erosion (hydraulic action, abrasion, attrition, solution),
@@ -361,6 +469,15 @@ Holderness Coast is a well-known example, extending approximately 5.5 km across 
   cost-benefit analysis and environmental considerations.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "2_coastal Systems", "url": "https://alevel.wyattau.com/geography/1-physical-geography/2_coastal-systems"}]
+}
+</script>
 
 > **Sources**: AQA Geography (7037) specification; Masselink and Hughes, _Introduction to Coastal
 > Processes and Geomorphology_ (2003); East Riding of Yorkshire Council coastal erosion data; IPCC

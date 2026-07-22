@@ -1,14 +1,41 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "Practice Swiftui", "url": "https://swift.wyattau.com/practice-swiftui"}]
+}
+</script>
 title: "SwiftUI Practice"
 description: "SwiftUI practice exercises"
 sidebar_position: 50
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "Practice Swiftui", "url": "https://swift.wyattau.com/practice-swiftui"}]
+}
+</script>
 
 ## SwiftUI Practice
 
 5 exercises covering view composition, state management, gesture handling, custom modifiers, and navigation patterns.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "Practice Swiftui", "url": "https://swift.wyattau.com/practice-swiftui"}]
+}
+</script>
 
 ### Exercise 1: View Composition
 
@@ -60,6 +87,15 @@ struct ProfileCardPreview: View {
 **Solution:** The `ProfileCard` is a pure, stateless view that receives data via initializer parameters. `VStack` arranges content vertically with spacing. `clipShape(Circle())` and the overlay create a circular avatar with a border. The shadow and background provide visual depth.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "Practice Swiftui", "url": "https://swift.wyattau.com/practice-swiftui"}]
+}
+</script>
 
 ### Exercise 2: State Management with @State and @Binding
 
@@ -122,6 +158,15 @@ struct ConverterContainer: View {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "Practice Swiftui", "url": "https://swift.wyattau.com/practice-swiftui"}]
+}
+</script>
+
 ### Exercise 3: Gesture Handling
 
 **Problem:** Implement a view that responds to a long-press gesture to toggle a mode, and a drag gesture that moves a circle around the screen. Display the current position.
@@ -175,6 +220,15 @@ struct DraggableView: View {
 **Solution:** Two gestures are composed on the same view. `DragGesture` tracks translation and updates `offset` on change, resetting with animation on release. `LongPressGesture` toggles `isEditing` after 0.5 seconds. The circle's fill color and position reflect the current state.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "Practice Swiftui", "url": "https://swift.wyattau.com/practice-swiftui"}]
+}
+</script>
 
 ### Exercise 4: Custom Modifiers
 
@@ -234,6 +288,15 @@ struct ModifierDemo: View {
 **Solution:** `CardModifier` encapsulates the card styling logic in a reusable `ViewModifier`. The `extension View` method provides a fluent API. Different configurations are achieved by passing parameters to the convenience method, keeping the modifier flexible and composable.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "Practice Swiftui", "url": "https://swift.wyattau.com/practice-swiftui"}]
+}
+</script>
 
 ### Exercise 5: Navigation with NavigationStack
 

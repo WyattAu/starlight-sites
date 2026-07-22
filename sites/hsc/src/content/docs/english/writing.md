@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "English", "url": "https://hsc.wyattau.com/english"}, {"name": "Writing", "url": "https://hsc.wyattau.com/english/writing"}]
+}
+</script>
 title: "Writing"
 description: "HSC english: Writing"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "English", "url": "https://hsc.wyattau.com/english"}, {"name": "Writing", "url": "https://hsc.wyattau.com/english/writing"}]
+}
+</script>
 
 # Writing
 

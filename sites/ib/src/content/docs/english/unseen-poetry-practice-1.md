@@ -1,14 +1,41 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 1", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-1"}]
+}
+</script>
 title: "IB Paper 1 Unseen Poetry Practice: Seamus Heaney's Digging"
 description: "Close reading analysis of Seamus Heaney's 'Digging' for IB English Paper 1. Model answer with examiner commentary, annotated rubric alignment, and structural and thematic analysis."
 sidebar_position: 10
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 1", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-1"}]
+}
+</script>
 
 # IB Paper 1 Unseen Poetry Practice: Seamus Heaney's "Digging"
 
 This page provides a detailed analysis of Seamus Heaney's "Digging" as practice for IB English Paper 1. The poem, from Heaney's debut collection *Death of a Naturalist* (1966), is an exemplary unseen text because it operates on multiple registers simultaneously: memoir, elegy, meditation on craft, and declaration of poetic intent. The analysis below models the kind of response expected in a top-band Paper 1 answer, with examiner commentary on each section.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 1", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-1"}]
+}
+</script>
 
 ## 1. Poem Overview
 
@@ -34,6 +61,15 @@ This page provides a detailed analysis of Seamus Heaney's "Digging" as practice 
 - **Extended metaphor**: the conceit of digging as creative act must be unpacked with precision.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 1", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-1"}]
+}
+</script>
 
 ## Intuition
 
@@ -98,6 +134,15 @@ The return to the opening image creates a circular structure that mirrors the ac
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 1", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-1"}]
+}
+</script>
+
 ## 3. Thematic Analysis
 
 ### 3.1 Generational Continuity and Rupture
@@ -114,6 +159,15 @@ The poem is suffused with nostalgia, yet it is not merely sentimental. The past 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 1", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-1"}]
+}
+</script>
+
 ## 4. Model Answer: Guiding Question
 
 **Guiding Question**: "How does the poet use structure and imagery to explore the relationship between physical labour and creative work?"
@@ -129,6 +183,15 @@ The poem then moves through a series of sensory images that evoke the physical w
 The circular structure is crucial to the poem's meaning. When the speaker returns to the image of the pen in the final stanza, the image has been transformed: no longer merely "snug," it is now a tool the speaker will "dig with." The semicolon before the final clause creates a pause that signals deliberation and resolve. The speaker does not reject the family tradition but reinterprets it: digging becomes a metaphor for the sustained, patient work of writing. The poem's structure thus enacts its argument: the past is not abandoned but absorbed into a new form of practice.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 1", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-1"}]
+}
+</script>
 
 ## 5. IB Assessment Alignment
 
@@ -151,6 +214,15 @@ The model response above aligns with the following criteria for a top-band Paper
 - **Language**: The response uses precise literary terminology (simile, enjambment, circular structure, extended metaphor) and maintains a formal, analytical register throughout.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 1", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-1"}]
+}
+</script>
 
 ## 6. Self-Assessment Checklist
 

@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "English", "url": "https://gaokao.wyattau.com/english"}, {"name": "Writing", "url": "https://gaokao.wyattau.com/english/writing"}]
+}
+</script>
 title: "Writing"
 description: "高考 english: Writing"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "English", "url": "https://gaokao.wyattau.com/english"}, {"name": "Writing", "url": "https://gaokao.wyattau.com/english/writing"}]
+}
+</script>
 
 # Writing
 

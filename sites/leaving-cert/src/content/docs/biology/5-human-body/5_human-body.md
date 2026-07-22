@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "5 Human Body", "url": "https://leaving-cert.wyattau.com/biology/5-human-body"}, {"name": "5_human Body", "url": "https://leaving-cert.wyattau.com/biology/5-human-body/5_human-body"}]
+}
+</script>
 title: Human Body Systems
 description: "ILC Biology Human Body Systems notes covering key definitions, core concepts, worked examples, and practice questions for thorough review and exam preparation."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ilc-biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "5 Human Body", "url": "https://leaving-cert.wyattau.com/biology/5-human-body"}, {"name": "5_human Body", "url": "https://leaving-cert.wyattau.com/biology/5-human-body/5_human-body"}]
+}
+</script>
 
 # Human Body Systems
 

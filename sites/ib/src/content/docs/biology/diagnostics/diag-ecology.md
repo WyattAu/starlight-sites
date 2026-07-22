@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Ecology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-ecology"}]
+}
+</script>
 title: "Ecology -- Diagnostic Tests"
 description: "IB Biology Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Ecology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-ecology"}]
+}
+</script>
 
 # Ecology — Diagnostic Tests
 
@@ -47,6 +65,15 @@ but within the range for highly productive aquatic systems.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Ecology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-ecology"}]
+}
+</script>
+
 ### UT-2: Carbon Cycle Calculations
 
 **Question:** The atmosphere contains approximately $870\ \text{Gt}$ (gigatonnes) of carbon as
@@ -73,6 +100,15 @@ diminishing rate due to ocean acidification), so the net accumulation rate actua
 time.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Ecology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-ecology"}]
+}
+</script>
 
 ### UT-3: Population Growth and Carrying Capacity
 
@@ -144,6 +180,15 @@ nitrogen runoff contributes to eutrophication of waterways.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Ecology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-ecology"}]
+}
+</script>
+
 ### IT-2: Ecosystem Productivity and Climate Change (with Evolution)
 
 **Question:** Global warming is causing permafrost thawing in Arctic tundra, releasing large amounts
@@ -188,6 +233,15 @@ warming than those that do not. The transition of permafrost from carbon store t
 one of the most concerning tipping points in the climate system.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Ecology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-ecology"}]
+}
+</script>
 
 ### IT-3: Biodiversity and Conservation (with Genetics)
 

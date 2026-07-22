@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Theory", "url": "https://computer-science.wyattau.com/3-theory"}, {"name": "Practice Compilers", "url": "https://computer-science.wyattau.com/3-theory/practice-compilers"}]
+}
+</script>
 title: "Compilers -- Practice Problems"
 description: "10 MCQ questions covering lexical analysis, parsing (LL and LR), abstract syntax trees, intermediate representations, optimization, and code generation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Theory", "url": "https://computer-science.wyattau.com/3-theory"}, {"name": "Practice Compilers", "url": "https://computer-science.wyattau.com/3-theory/practice-compilers"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -20,6 +38,15 @@ representations, optimization, and code generation. Select an option to check yo
 **The key insight:** Compiler optimisations must preserve what your program does, not how it does it — they can rearrange, combine, and eliminate code, but the observable behaviour must stay the same.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Theory", "url": "https://computer-science.wyattau.com/3-theory"}, {"name": "Practice Compilers", "url": "https://computer-science.wyattau.com/3-theory/practice-compilers"}]
+}
+</script>
 
 ## Lexical Analysis and Parsing
 
@@ -46,6 +73,15 @@ representations, optimization, and code generation. Select an option to check yo
 <PracticeProblem client:only="solid-js" question={"Which of the following is NOT a valid three-address code instruction?&quot; options={[ '$x = y + z + w$ (more than two operands on the right side)', '$x = y \\text{ op } z$ (binary operation)', '$\\text{goto } L$ (unconditional jump)', '$x = y[i]$ (array access)', ]} correctAnswer={0} explanation=&quot;Three-address code allows at most one operator and at most two operands on the right side of each instruction, plus one result on the left. The instruction $x = y + z + w$ has two operators and three operands, violating the three-address constraint. It would be split into $t_1 = y + z$ and $x = t_1 + w$."} difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Theory", "url": "https://computer-science.wyattau.com/3-theory"}, {"name": "Practice Compilers", "url": "https://computer-science.wyattau.com/3-theory/practice-compilers"}]
+}
+</script>
 
 ## Additional Compiler Questions
 

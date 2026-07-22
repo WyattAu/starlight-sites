@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Lvm And Disk Partitioning", "url": "https://linux.wyattau.com/lvm-and-disk-partitioning"}]
+}
+</script>
 title: LVM and Disk Partitioning
 description: "Linux exposes storage devices as block device files under . Block devices support random Access by fixed-size blocks ( 512 bytes or 4096 bytes), unlike"
 date: 2026-04-07T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Linux
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Lvm And Disk Partitioning", "url": "https://linux.wyattau.com/lvm-and-disk-partitioning"}]
+}
+</script>
 
 ## Disk Fundamentals
 

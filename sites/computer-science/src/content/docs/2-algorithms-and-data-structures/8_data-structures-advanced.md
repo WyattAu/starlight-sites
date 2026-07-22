@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Algorithms And Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures"}, {"name": "8_data Structures Advanced", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures/8_data-structures-advanced"}]
+}
+</script>
 title: Data Structures (Advanced)
 description: "A is a self-balancing BST satisfying five invariants: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-05-06T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Computing
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Algorithms And Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures"}, {"name": "8_data Structures Advanced", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures/8_data-structures-advanced"}]
+}
+</script>
 
 ## Intuition
 

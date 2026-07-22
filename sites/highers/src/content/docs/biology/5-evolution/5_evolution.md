@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "5 Evolution", "url": "https://highers.wyattau.com/biology/5-evolution"}, {"name": "5_evolution", "url": "https://highers.wyattau.com/biology/5-evolution/5_evolution"}]
+}
+</script>
 title: Life on Earth
 description: "Scottish Highers Biology Life on Earth notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "5 Evolution", "url": "https://highers.wyattau.com/biology/5-evolution"}, {"name": "5_evolution", "url": "https://highers.wyattau.com/biology/5-evolution/5_evolution"}]
+}
+</script>
 
 # Life on Earth
 
@@ -161,6 +179,15 @@ Against sand.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "5 Evolution", "url": "https://highers.wyattau.com/biology/5-evolution"}, {"name": "5_evolution", "url": "https://highers.wyattau.com/biology/5-evolution/5_evolution"}]
+}
+</script>
+
 ## Ecosystems
 
 ### Energy Flow
@@ -249,6 +276,15 @@ One tree supporting many insects).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "5 Evolution", "url": "https://highers.wyattau.com/biology/5-evolution"}, {"name": "5_evolution", "url": "https://highers.wyattau.com/biology/5-evolution/5_evolution"}]
+}
+</script>
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.
@@ -285,6 +321,15 @@ See the examples integrated throughout the sections above.
     transferred; the rest is lost. This limits food chains to 4-5 trophic levels.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "5 Evolution", "url": "https://highers.wyattau.com/biology/5-evolution"}, {"name": "5_evolution", "url": "https://highers.wyattau.com/biology/5-evolution/5_evolution"}]
+}
+</script>
 
 ## Practice Questions
 

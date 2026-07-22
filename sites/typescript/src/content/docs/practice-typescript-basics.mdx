@@ -1,9 +1,27 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Practice Typescript Basics", "url": "https://typescript.wyattau.com/practice-typescript-basics"}]
+}
+</script>
 title: TypeScript Fundamentals Practice (Interactive)
 tags:
   - typescript
 description: "10 auto-graded practice problems covering TypeScript fundamentals. Select an answer, submit, and review the explanation."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Practice Typescript Basics", "url": "https://typescript.wyattau.com/practice-typescript-basics"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -68,6 +86,15 @@ console.log(area({ kind: "circle", radius: 5 }));  // 78.54
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Practice Typescript Basics", "url": "https://typescript.wyattau.com/practice-typescript-basics"}]
+}
+</script>
+
 ### Example 2: Utility Types and Mapped Types
 
 ```typescript
@@ -114,6 +141,15 @@ console.log(basic);  // { id: 1, name: "Alice" }
 **Key insight:** Utility types (`Partial`, `Required`, `Pick`, `Omit`, `Readonly`) transform existing types. You can create custom utility types using mapped types and conditional types.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Practice Typescript Basics", "url": "https://typescript.wyattau.com/practice-typescript-basics"}]
+}
+</script>
 
 ### Example 3: Generics and Constraints
 
@@ -176,6 +212,15 @@ console.log(first("hello"));    // h
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Practice Typescript Basics", "url": "https://typescript.wyattau.com/practice-typescript-basics"}]
+}
+</script>
+
 ### Example 4: Template Literal Types
 
 ```typescript
@@ -219,12 +264,30 @@ console.log(params);  // { userId: "123", postId: "456" }
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Practice Typescript Basics", "url": "https://typescript.wyattau.com/practice-typescript-basics"}]
+}
+</script>
+
 ## TypeScript -- Fundamentals Practice
 
 10 auto-graded practice problems covering TypeScript fundamentals. Select an answer, submit, and
 review the explanation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Practice Typescript Basics", "url": "https://typescript.wyattau.com/practice-typescript-basics"}]
+}
+</script>
 
 ### Type System
 
@@ -234,6 +297,15 @@ review the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Practice Typescript Basics", "url": "https://typescript.wyattau.com/practice-typescript-basics"}]
+}
+</script>
+
 ### Generics
 
 <PracticeProblem client:only="solid-js" question={`What does \`type UnwrapPromise<T> = T extends Promise<infer U> ? U : T\` do?`} options={[ 'It extracts the inner type from a Promise if T is a Promise, otherwise returns T unchanged', 'It wraps any type T in a Promise', 'It checks if T is async', 'It returns `never` for all types', ]} correctAnswer={0} explanation="This conditional type checks if `T` extends `Promise<U>` for some `U` (inferred via `infer`). If so, it returns the inferred inner type `U`. If not, it returns `T` unchanged. For example, `UnwrapPromise<Promise<string>>` is `string`, `UnwrapPromise<number>` is `number`. This is the same pattern used by the built-in `Awaited<T>` utility type." difficulty="medium"  />
@@ -241,6 +313,15 @@ review the explanation.
 <PracticeProblem client:only="solid-js" question={`What is the result of \`type ReadonlyUser = Readonly<{ name: string; age: number }>\`?`} options={[ '{ readonly name: string; readonly age: number }', '{ name: string; age: number }', '{ name?: string; age?: number }', 'Compilation error', ]} correctAnswer={0} explanation={"The `Readonly<T>` utility type makes all properties of `T` read-only by adding the `readonly` modifier to each property. This prevents reassignment of individual properties: `const u: ReadonlyUser = { name: &quot;a'', age: 1 }; u.name = &quot;b'` would be a compile error. The object itself can still be mutated through mutable methods, and the original non-readonly type remains unchanged."} difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Practice Typescript Basics", "url": "https://typescript.wyattau.com/practice-typescript-basics"}]
+}
+</script>
 
 ### Advanced Patterns
 
@@ -250,11 +331,29 @@ review the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Practice Typescript Basics", "url": "https://typescript.wyattau.com/practice-typescript-basics"}]
+}
+</script>
+
 ### Enums and Union Types
 
 <PracticeProblem client:only="solid-js" question={`What is a key advantage of using \`type Status = 'active' | 'inactive' | 'pending'\` over \`enum Status { Active, Inactive, Pending }\`?`} options={[ 'Union types provide exhaustiveness checking in switch statements without emitting runtime JavaScript code', 'Union types are faster at runtime', 'Union types can be iterated with `for...of`', 'Union types support reverse mapping from value to name', ]} correctAnswer={0} explanation="Union literal types exist only at the type level and are erased at runtime, producing zero JavaScript overhead. They still enable exhaustive checking in switch statements, especially with a `never` default case. Enums generate runtime JavaScript code (an IIFE and lookup object), which adds to bundle size. The TypeScript team recommends union types for most cases, reserving enums for when you need runtime enumeration values or reverse mapping." difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Practice Typescript Basics", "url": "https://typescript.wyattau.com/practice-typescript-basics"}]
+}
+</script>
 
 ### Classes
 
@@ -262,11 +361,29 @@ review the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Practice Typescript Basics", "url": "https://typescript.wyattau.com/practice-typescript-basics"}]
+}
+</script>
+
 ### Tooling
 
 <PracticeProblem client:only="solid-js" question={`What does \`"noImplicitAny": true\` in tsconfig.json prevent?`} options={[ 'Variables and parameters that have an implicit `any` type when the type cannot be inferred', 'Explicit use of `any` as a type annotation', 'Importing JavaScript files without type declarations', 'Using `// @ts-ignore` comments', ]} correctAnswer={0} explanation="The `noImplicitAny` flag causes TypeScript to error when a variable, parameter, or return type would be implicitly typed as `any` because no annotation exists and the type cannot be inferred. For example, `function greet(name)` without a type annotation errors under this flag. It does not prevent explicit `any` usage -- you can still write `name: any` intentionally when needed." difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Practice Typescript Basics", "url": "https://typescript.wyattau.com/practice-typescript-basics"}]
+}
+</script>
 
 ### React Integration
 

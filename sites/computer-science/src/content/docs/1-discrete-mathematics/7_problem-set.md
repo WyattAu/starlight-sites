@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Discrete Mathematics", "url": "https://computer-science.wyattau.com/1-discrete-mathematics"}, {"name": "7_problem Set", "url": "https://computer-science.wyattau.com/1-discrete-mathematics/7_problem-set"}]
+}
+</script>
 title: Problem Set
 tags:
   - Computing
   - University
 description: "Prove that is a tautology using a truth table. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Discrete Mathematics", "url": "https://computer-science.wyattau.com/1-discrete-mathematics"}, {"name": "7_problem Set", "url": "https://computer-science.wyattau.com/1-discrete-mathematics/7_problem-set"}]
+}
+</script>
 
 **Problem 1.** Prove that $(p \implies q) \lor (q \implies p)$ is a tautology using a truth table.
 

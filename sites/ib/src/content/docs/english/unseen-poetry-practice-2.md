@@ -1,14 +1,41 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 2", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-2"}]
+}
+</script>
 title: "IB Paper 1 Unseen Poetry Practice: Sylvia Plath's Mirror"
 description: "Close reading analysis of Sylvia Plath's 'Mirror' for IB English Paper 1. Imagery, tone shifts, personification, comparison with Heaney's 'Digging', and self-assessment checklist."
 sidebar_position: 11
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 2", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-2"}]
+}
+</script>
 
 # IB Paper 1 Unseen Poetry Practice: Sylvia Plath's "Mirror"
 
 This page provides a detailed analysis of Sylvia Plath's "Mirror" as practice for IB English Paper 1. Published in *Crossing the Water* (1961), the poem is a compact, formally disciplined exploration of identity, ageing, and self-knowledge. Its first-person speaker -- the mirror itself -- makes it an ideal text for examining how persona, imagery, and tone interact to produce complex meaning. The analysis below is accompanied by comparison with Heaney's "Digging" and a self-assessment checklist for candidates.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 2", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-2"}]
+}
+</script>
 
 ## 1. Poem Overview
 
@@ -34,6 +61,15 @@ This page provides a detailed analysis of Sylvia Plath's "Mirror" as practice fo
 - **Address the ending**: the final image of the "little face" resists easy interpretation and rewards considered analysis.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 2", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-2"}]
+}
+</script>
 
 ## Intuition
 
@@ -90,6 +126,15 @@ The extended metaphor of drowning and rising establishes a temporal sequence: th
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 2", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-2"}]
+}
+</script>
+
 ## 3. Imagery and Personification
 
 ### 3.1 The Mirror as Speaker
@@ -113,6 +158,15 @@ The shift from mirror to lake is significant. A lake is a natural body of water 
 The moon is described as "a god" or "an intermediate," and the lake is said to be "like a terrible fish." These images accumulate around the central metaphor of the reflective surface without forming a single, stable allegory. This multiplicity of association is deliberate: Plath resists the reduction of her imagery to a single referent, and the IB candidate must do the same.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 2", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-2"}]
+}
+</script>
 
 ## 4. Comparison with Heaney's "Digging"
 
@@ -142,6 +196,15 @@ When comparing unseen poems in Paper 1 (HL), candidates should:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 2", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-2"}]
+}
+</script>
+
 ## 5. IB Assessment Alignment
 
 ### 5.1 Assessment Objectives
@@ -161,6 +224,15 @@ When comparing unseen poems in Paper 1 (HL), candidates should:
 - **Language**: The response must use literary terminology accurately and maintain a formal register. The term "personification" should be used precisely, and the distinction between "simile" and "metaphor" must be observed.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 2", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-2"}]
+}
+</script>
 
 ## 6. Self-Assessment Checklist
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "1_generic_programming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/1_generic_programming"}, {"name": "5_explicit_instantiation", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation"}]
+}
+</script>
 title: Explicit Instantiation and Extern Templates
 description: "When templates are instantiated implicitly in every translation unit that uses them, compilation Time and binary size can grow significantly. C++ provides"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "1_generic_programming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/1_generic_programming"}, {"name": "5_explicit_instantiation", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation"}]
+}
+</script>
 
 # Explicit Instantiation and Extern Templates
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Resource_management", "url": "https://cpp.wyattau.com/resource_management"}, {"name": "1_ownership_and_raii", "url": "https://cpp.wyattau.com/resource_management/1_ownership_and_raii"}, {"name": "3_shared_ptr", "url": "https://cpp.wyattau.com/resource_management/1_ownership_and_raii/3_shared_ptr"}]
+}
+</script>
 title: Shared Ownership (std::shared_ptr) and Control Block
 description: "enables multiple owners to share a single heap-allocated object via a Reference-counted control block. While powerful, it carries significant overhead —"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Resource_management", "url": "https://cpp.wyattau.com/resource_management"}, {"name": "1_ownership_and_raii", "url": "https://cpp.wyattau.com/resource_management/1_ownership_and_raii"}, {"name": "3_shared_ptr", "url": "https://cpp.wyattau.com/resource_management/1_ownership_and_raii/3_shared_ptr"}]
+}
+</script>
 
 # Shared Ownership (std::shared_ptr) and Control Block
 

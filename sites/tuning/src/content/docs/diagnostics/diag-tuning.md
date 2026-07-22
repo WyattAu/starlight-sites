@@ -1,15 +1,42 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Diagnostics", "url": "https://tuning.wyattau.com/diagnostics"}, {"name": "Diag Tuning", "url": "https://tuning.wyattau.com/diagnostics/diag-tuning"}]
+}
+</script>
 title: "Diagnostic Test: Performance Tuning"
 description: "Self-assessment quiz on performance tuning"
 sidebar_position: 60
 tableOfContents: false
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Diagnostics", "url": "https://tuning.wyattau.com/diagnostics"}, {"name": "Diag Tuning", "url": "https://tuning.wyattau.com/diagnostics/diag-tuning"}]
+}
+</script>
+
 # Diagnostic Test: Performance Tuning
 
 10 multiple-choice questions covering CPU tuning, memory management, I/O optimization, network tuning, and profiling tools. Select the best answer for each question, then check your score using the answer key below.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Diagnostics", "url": "https://tuning.wyattau.com/diagnostics"}, {"name": "Diag Tuning", "url": "https://tuning.wyattau.com/diagnostics/diag-tuning"}]
+}
+</script>
 
 **Question 1.** What does IPC stand for in CPU performance analysis?
 
@@ -20,6 +47,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Diagnostics", "url": "https://tuning.wyattau.com/diagnostics"}, {"name": "Diag Tuning", "url": "https://tuning.wyattau.com/diagnostics/diag-tuning"}]
+}
+</script>
+
 **Question 2.** Which Linux command reports per-core frequency and power consumption?
 
 (A) top
@@ -28,6 +64,15 @@ tableOfContents: false
 (D) iostat
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Diagnostics", "url": "https://tuning.wyattau.com/diagnostics"}, {"name": "Diag Tuning", "url": "https://tuning.wyattau.com/diagnostics/diag-tuning"}]
+}
+</script>
 
 **Question 3.** What is the typical L1 data cache latency?
 
@@ -38,6 +83,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Diagnostics", "url": "https://tuning.wyattau.com/diagnostics"}, {"name": "Diag Tuning", "url": "https://tuning.wyattau.com/diagnostics/diag-tuning"}]
+}
+</script>
+
 **Question 4.** In NUMA terminology, what does "local DRAM" mean?
 
 (A) RAM physically attached to the same socket as the accessing CPU
@@ -46,6 +100,15 @@ tableOfContents: false
 (D) Virtual memory on disk
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Diagnostics", "url": "https://tuning.wyattau.com/diagnostics"}, {"name": "Diag Tuning", "url": "https://tuning.wyattau.com/diagnostics/diag-tuning"}]
+}
+</script>
 
 **Question 5.** What does the performance governor do on Linux?
 
@@ -56,6 +119,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Diagnostics", "url": "https://tuning.wyattau.com/diagnostics"}, {"name": "Diag Tuning", "url": "https://tuning.wyattau.com/diagnostics/diag-tuning"}]
+}
+</script>
+
 **Question 6.** What is the primary purpose of CPU affinity (pinning)?
 
 (A) To lock the CPU frequency
@@ -64,6 +136,15 @@ tableOfContents: false
 (D) To disable hyper-threading
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Diagnostics", "url": "https://tuning.wyattau.com/diagnostics"}, {"name": "Diag Tuning", "url": "https://tuning.wyattau.com/diagnostics/diag-tuning"}]
+}
+</script>
 
 **Question 7.** Which profiling tool uses hardware performance counters to measure cache misses?
 
@@ -74,6 +155,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Diagnostics", "url": "https://tuning.wyattau.com/diagnostics"}, {"name": "Diag Tuning", "url": "https://tuning.wyattau.com/diagnostics/diag-tuning"}]
+}
+</script>
+
 **Question 8.** What is the main advantage of io_uring over traditional AIO?
 
 (A) Hardware acceleration
@@ -82,6 +172,15 @@ tableOfContents: false
 (D) Automatic load balancing
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Diagnostics", "url": "https://tuning.wyattau.com/diagnostics"}, {"name": "Diag Tuning", "url": "https://tuning.wyattau.com/diagnostics/diag-tuning"}]
+}
+</script>
 
 **Question 9.** False sharing in multi-threaded programs occurs when:
 
@@ -92,6 +191,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Diagnostics", "url": "https://tuning.wyattau.com/diagnostics"}, {"name": "Diag Tuning", "url": "https://tuning.wyattau.com/diagnostics/diag-tuning"}]
+}
+</script>
+
 **Question 10.** What does increasing the TCP receive buffer size primarily improve?
 
 (A) Latency for short connections
@@ -100,6 +208,15 @@ tableOfContents: false
 (D) Packet loss rate
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Diagnostics", "url": "https://tuning.wyattau.com/diagnostics"}, {"name": "Diag Tuning", "url": "https://tuning.wyattau.com/diagnostics/diag-tuning"}]
+}
+</script>
 
 ## Answer Key
 

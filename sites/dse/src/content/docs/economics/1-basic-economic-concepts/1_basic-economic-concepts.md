@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
 title: Basic Economic Concepts
 description: "Scarcity is the fundamental economic problem: human wants are unlimited, but the resources available To satisfy those wants are limited. Because resources"
 date: 2026-04-08T00:00:00.000Z
@@ -6,6 +15,15 @@ tags: [DSE, Economics]
 categories: [DSE, Economics]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
 
 ## Scarcity
 
@@ -27,6 +45,15 @@ A price greater than zero.
 | Entrepreneurship | The ability to organise the other factors of production and take risks         | Profit   |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
 
 ## Choice and Opportunity Cost
 
@@ -58,6 +85,15 @@ If it chooses the hospital, the opportunity cost is the school that could have b
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
+
 ## The Economic Problem
 
 The economic problem arises from the combination of scarcity and unlimited wants. It forces every
@@ -72,6 +108,15 @@ Different economic systems answer these questions in different ways.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
+
 ## Free Goods vs Economic Goods
 
 | Feature          | Free Goods                                 | Economic Goods                      |
@@ -85,6 +130,15 @@ A good can be free in one context and economic in another. For example, clean ai
 A rural area but may become an economic good in a polluted city (people pay for air purifiers).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
 
 ## Production Possibility Curve (PPC)
 
@@ -188,6 +242,15 @@ The maximum), indicating underutilisation of resources.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
+
 ## Economic Efficiency
 
 ### Productive Efficiency
@@ -220,6 +283,15 @@ Better off without making anyone worse off.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
+
 ## Specialisation and Division of Labour
 
 ### Specialisation
@@ -248,6 +320,15 @@ Worker (or machine) specialising in one or a few tasks.
 4. **Alienation:** Workers may feel disconnected from the final product (Marxist critique)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
 
 ## The Three Fundamental Economic Questions
 
@@ -289,6 +370,15 @@ This question asks how the output of the economy is distributed among its popula
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
+
 ## Positive vs Normative Economics
 
 ### Positive Economics
@@ -324,6 +414,15 @@ Examples:
 | Example    | "Inflation is 5%."            | "Inflation should be reduced." |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
 
 ## Economic Systems
 
@@ -417,6 +516,15 @@ Hong Kong is often described as one of the freest market economies in the world.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
+
 ## Additional Concepts
 
 ### Rationality
@@ -473,6 +581,15 @@ In income, tastes, prices of other goods, etc.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Defining opportunity cost as "everything you give up":** Opportunity cost is the value of the
@@ -507,6 +624,15 @@ In income, tastes, prices of other goods, etc.
    goods (where P = MC). An economy can be productively efficient but not allocatively efficient.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -960,6 +1086,15 @@ Loss of economic welfare.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
+
 ## Problem Set
 
 </details>
@@ -1213,6 +1348,15 @@ If you get this wrong, revise: [Division of Labour](#division-of-labour)
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
 
 ## Extended Problem Set: Advanced Basic Economic Concepts
 
@@ -1475,6 +1619,15 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
+}
+</script>
 
 ## Intuition
 

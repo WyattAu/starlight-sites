@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "12 Differential Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry"}, {"name": "4_differential Forms", "url": "https://mathematics.wyattau.com/12-differential-geometry/4_differential-forms"}]
+}
+</script>
 title: Differential Forms
 tags:
   - Mathematics
   - University
 description: "The space of -covectors at is , the space of alternating -linear maps Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "12 Differential Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry"}, {"name": "4_differential Forms", "url": "https://mathematics.wyattau.com/12-differential-geometry/4_differential-forms"}]
+}
+</script>
 
 ### 4.1 Alternating Tensors
 

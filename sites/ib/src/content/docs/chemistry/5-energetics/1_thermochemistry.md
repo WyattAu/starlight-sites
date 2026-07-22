@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
 title: Thermochemistry
 description: "Rigorous IB chemistry notes covering Thermochemistry. Includes definitions, derivations, worked examples, and exam-style problems. energy cycles."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
 
 ## Intuition
 
@@ -56,6 +74,15 @@ $\Delta H_f^\circ$ of O$_2$(g) = 0, $\Delta H_f^\circ$ of C(graphite) = 0.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
 
 ## Calorimetry
 
@@ -138,6 +165,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
+
 ## Hess"s Law
 
 ### Statement
@@ -189,6 +225,15 @@ $$
 Note the reversed order compared to formation enthalpies.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
 
 ## Bond Enthalpies
 
@@ -247,6 +292,15 @@ Gases.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
 
 ## Born-Haber Cycles
 
@@ -308,6 +362,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
+
 ## Entropy
 
 ### Definition
@@ -345,6 +408,15 @@ The positive $\Delta S$ is expected because a gas is produced from a solid.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
 
 ## Gibbs Free Energy
 
@@ -409,6 +481,15 @@ The reaction is spontaneous above $1109\mathrm{ K}$.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
 
 ## IB Exam-Style Questions
 
@@ -475,6 +556,15 @@ H$_2$O(l) $\to$ Ca(OH)$_2$(s) D. N$_2$(g) + 3H$_2$(g) $\to$ 2NH$_3$(g)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
+
 ## Summary
 
 | Formula                 | Expression                                                                              |
@@ -495,6 +585,15 @@ $\Delta S$ is in J/(mol$\cdot$K), so convert one before combining.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
 
 ## Thermochemistry Extended
 
@@ -548,6 +647,15 @@ Coulomb's law). Additionally, Mg$^{2+}$ is smaller than Na$^+$Further increasing
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
+
 ## Entropy: Extended Analysis
 
 ### Predicting Entropy Changes
@@ -579,6 +687,15 @@ The large negative $\Delta S$ is expected: 3 moles of gas produce 2 moles of liq
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
 
 ## Gibbs Free Energy: Extended
 
@@ -623,6 +740,15 @@ Since $K \gt 1$Products are favoured at equilibrium.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
 
 ## Additional IB Exam-Style Questions
 
@@ -701,6 +827,15 @@ $$
 $$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
 
 ## Thermochemistry: Extended Topics
 
@@ -781,6 +916,15 @@ $$
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
+}
+</script>
 
 ## Additional IB Exam-Style Questions
 

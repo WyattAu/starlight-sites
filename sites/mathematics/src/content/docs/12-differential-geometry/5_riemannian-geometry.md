@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "12 Differential Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry"}, {"name": "5_riemannian Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry/5_riemannian-geometry"}]
+}
+</script>
 title: Riemannian Geometry
 tags:
   - Mathematics
   - University
 description: 'A on a smooth manifold is a smooth family of inner products Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "12 Differential Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry"}, {"name": "5_riemannian Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry/5_riemannian-geometry"}]
+}
+</script>
 
 ### 5.1 Riemannian Metrics
 

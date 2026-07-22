@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}]
+}
+</script>
 title: CBSE Physics Study Guide
 date: 2026-05-31
 description: "This guide covers the syllabus (NCERT). It is organised by topic with key concep Comprehensive educational content coverage with definitions and practice proble"
@@ -10,6 +19,15 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}]
+}
+</script>
+
 ## Overview
 
 This guide covers the **CBSE Class 11 and 12 Physics** syllabus (NCERT). It is organised by topic
@@ -20,6 +38,15 @@ theory paper includes MCQs, very-short-answer (1-mark), short-answer (2-3 marks)
 (5-mark) questions. Numerical problems carry approximately 15--20 marks.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}]
+}
+</script>
 
 ## 1. Mechanics
 
@@ -96,6 +123,15 @@ $\vec{\tau}_{\text{net}} = 0 \Rightarrow \vec{L} = \text{const}$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}]
+}
+</script>
+
 ## 2. Thermodynamics
 
 ### 2.1 Thermal Properties
@@ -152,6 +188,15 @@ equilibrium.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}]
+}
+</script>
+
 ## 3. Electrostatics
 
 ### 3.1 Coulomb's Law
@@ -187,6 +232,15 @@ constant.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}]
+}
+</script>
+
 ## 4. Current Electricity
 
 ### 4.1 Ohm's Law and Resistance
@@ -218,6 +272,15 @@ At balance: $\frac{P}{Q} = \frac{R}{S}$ (galvanometer reads zero current).
 - Voltmeter from galvanometer: $R = \frac{V}{I_g} - R_g$ (series resistance)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}]
+}
+</script>
 
 ## 5. Magnetism and Electromagnetic Induction
 
@@ -262,6 +325,15 @@ where $X_L = \omega L$ and $X_C = \frac{1}{\omega C}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}]
+}
+</script>
+
 ## 6. Optics
 
 ### 6.1 Reflection and Refraction
@@ -302,6 +374,15 @@ $$y = \frac{n\lambda D}{d} \quad \text{(bright fringes)} \qquad y = \left(n + \f
 **Polarisation:** Malus's law: $I = I_0\cos^2\theta$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}]
+}
+</script>
 
 ## 7. Modern Physics
 
@@ -346,6 +427,15 @@ where $\phi = h\nu_0$ is the work function and $\nu_0$ is the threshold frequenc
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}]
+}
+</script>
+
 ## 8. Key Equations
 
 | Topic                       | Equation                                             |
@@ -366,6 +456,15 @@ where $\phi = h\nu_0$ is the work function and $\nu_0$ is the threshold frequenc
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}]
+}
+</script>
+
 ## 9. Exam Tips
 
 1. **Draw diagrams for every problem.** Free-body diagrams, circuit diagrams, and ray diagrams earn
@@ -384,6 +483,15 @@ where $\phi = h\nu_0$ is the work function and $\nu_0$ is the threshold frequenc
    points.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}]
+}
+</script>
 
 ## Common Pitfalls
 

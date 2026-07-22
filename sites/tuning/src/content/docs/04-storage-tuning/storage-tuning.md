@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "04 Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning"}, {"name": "Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning/storage-tuning"}]
+}
+</script>
 title: Storage Tuning
 description: "| Technology | Sequential Read | Sequential Write | 4K Random Read (IOPS) | 4K Random Write (IOPS) | Latency | | ------------------- | ------------------ |"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "04 Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning"}, {"name": "Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning/storage-tuning"}]
+}
+</script>
 
 ## Storage Hierarchy
 
@@ -33,6 +51,15 @@ The optimal storage strategy depends on your workload profile:
 - **ZFS SLOG (ZIL):** Enterprise NVMe SSD or Optane with power-loss protection (PLP).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "04 Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning"}, {"name": "Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning/storage-tuning"}]
+}
+</script>
 
 ## NVMe Protocol
 
@@ -92,6 +119,15 @@ echo 0 | sudo tee /sys/module/nvme_core/parameters/default_ps_max_latency_us
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "04 Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning"}, {"name": "Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning/storage-tuning"}]
+}
+</script>
 
 ## SSD Internals
 
@@ -160,6 +196,15 @@ amount of over-provisioning.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "04 Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning"}, {"name": "Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning/storage-tuning"}]
+}
+</script>
+
 ## TRIM and Over-Provisioning
 
 ### TRIM
@@ -209,6 +254,15 @@ Samsung 840 EVO) allowed you to manually increase OP by shrinking the user-acces
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "04 Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning"}, {"name": "Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning/storage-tuning"}]
+}
+</script>
+
 ## RAID Levels
 
 ### RAID Comparison
@@ -245,6 +299,15 @@ The storage pool. Hardware RAID hides the disks behind a virtual block device, w
 From performing its error detection and correction.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "04 Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning"}, {"name": "Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning/storage-tuning"}]
+}
+</script>
 
 ## Linux I/O Schedulers
 
@@ -316,6 +379,15 @@ echo 0 | sudo tee /sys/block/nvme0n1/queue/read_ahead_kb
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "04 Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning"}, {"name": "Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning/storage-tuning"}]
+}
+</script>
+
 ## Filesystem Performance Impact
 
 ### Filesystem Comparison
@@ -354,6 +426,15 @@ For ZFS on SSD, key tunables include:
 - `recordsize=128K` for media files, `recordsize=16K` or `8K` for databases
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "04 Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning"}, {"name": "Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning/storage-tuning"}]
+}
+</script>
 
 ## SMART Monitoring
 
@@ -407,6 +488,15 @@ DEVICESCAN -m admin@example.com -M exec /usr/share/smartmontools/smartd-runner
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "04 Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning"}, {"name": "Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning/storage-tuning"}]
+}
+</script>
 
 ## Intuition
 

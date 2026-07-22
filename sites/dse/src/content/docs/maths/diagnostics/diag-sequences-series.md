@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 title: "Sequences and Series -- Diagnostic Tests"
 description: "DSE Maths Sequences and Series -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 # Sequences and Series — Diagnostic Tests
 
@@ -36,6 +54,15 @@ term with the ratio.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
+
 ### UT-2: Sigma Notation Index Shifting
 
 **Question:**
@@ -49,6 +76,15 @@ Let $j = k - 2$. When $k = 3$$j = 1$. When $k = n + 2$$j = n$.
 $$\sum_{k=3}^{n+2} (k - 2)^2 = \sum_{j=1}^{n} j^2 = \frac{n(n+1)(2n+1)}{6}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 ### UT-3: Recurrence Relation to Closed Form
 
@@ -74,6 +110,15 @@ $v_n = 2 \cdot 2^{n-1} = 2^n$.
 $u_n = v_n + 1 = 2^n + 1$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 ### UT-4: Arithmetic-Geometric Series Trap
 
@@ -107,6 +152,15 @@ $= \dfrac{n(2n^2 - 2 + 12)}{6} = \dfrac{n(2n^2 + 10)}{6} = \dfrac{n(n^2 + 5)}{3}
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
+
 ### UT-5: Sum of Geometric Series with Fractional Powers
 
 **Question:**
@@ -129,6 +183,15 @@ Rationalise:
 $$= \frac{2\sqrt{2}(2 + \sqrt{2})}{(2 - \sqrt{2})(2 + \sqrt{2})} = \frac{4\sqrt{2} + 4}{4 - 2} = \frac{4\sqrt{2} + 4}{2} = 2\sqrt{2} + 2$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -154,6 +217,15 @@ $2\log_2 3$$3\log_2 3$Which form an **arithmetic sequence** with common differen
 $S_{10} = \dfrac{10}{2}[2\log_2 3 + 9\log_2 3] = 5 \times 11\log_2 3 = 55\log_2 3$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 ### IT-2: Sequences and Inequalities (with Inequalities)
 
@@ -181,6 +253,15 @@ $n > \dfrac{6}{\log_{10} 2} \approx \dfrac{6}{0.3010} \approx 19.93$
 The smallest integer $n$ is $20$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 ### IT-3: Sequences and Combinatorics (with Combinatorics)
 
@@ -211,6 +292,15 @@ Sum of coefficients = $(1 + 1)^7 = 2^7 = 128$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
+
 ## Worked Examples
 
 ### WE-1: Arithmetic Series Summation
@@ -231,6 +321,15 @@ $$S_{66} = \frac{66}{2}(3 + 198) = 33 \times 201 = 6633$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
+
 ### WE-2: Geometric Mean
 
 **Question:**
@@ -249,6 +348,15 @@ Sequence: $2, 6, 18, 54, 162$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
+
 ### WE-3: Sum of an Infinite Series
 
 **Question:**
@@ -265,6 +373,15 @@ $$S_\infty = \frac{a}{1 - r} = \frac{1/2}{1 - 1/2} = \frac{1/2}{1/2} = 1$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
+
 ### WE-4: Sigma Notation Evaluation
 
 **Question:**
@@ -276,6 +393,15 @@ Evaluate $\displaystyle\sum_{k=1}^{20} (3k + 1)$.
 $$\sum_{k=1}^{20} (3k + 1) = 3\sum_{k=1}^{20} k + \sum_{k=1}^{20} 1 = 3 \cdot \frac{20 \times 21}{2} + 20 = 3 \times 210 + 20 = 630 + 20 = 650$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 ### WE-5: Finding $n$ Given Sum Conditions
 
@@ -302,6 +428,15 @@ Correct.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
+
 ### WE-6: Compound Interest as a Geometric Sequence
 
 **Question:**
@@ -323,6 +458,15 @@ In exact form:
 $A_8 = 10000 \times (1.06)^8 = 10000 \times \left(\dfrac{106}{100}\right)^8 = 10000 \times \dfrac{106^8}{100^8}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 ### WE-7: Arithmetic and Geometric Mean Relationship
 
@@ -375,6 +519,15 @@ correct but the numbers may need adjustment.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
+
 ### WE-8: Telescoping Series
 
 **Question:**
@@ -392,6 +545,15 @@ All intermediate terms cancel (telescoping):
 $$= 1 - \frac{1}{n+1} = \frac{n}{n+1}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 ## Intuition
 
@@ -426,6 +588,15 @@ $$= 1 - \frac{1}{n+1} = \frac{n}{n+1}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
+
 ## DSE Exam-Style Questions
 
 ### DSE-1
@@ -454,6 +625,15 @@ Smallest integer: $n = 58$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
+
 ### DSE-2
 
 A geometric sequence has first term 3 and common ratio $\dfrac{1}{2}$.
@@ -476,6 +656,15 @@ $= S_\infty - S_4 = 6 - \dfrac{3(1 - 1/16)}{1/2} = 6 - 6 \times \dfrac{15}{16} =
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
+
 ### DSE-3
 
 Evaluate:
@@ -495,6 +684,15 @@ $\displaystyle\sum_{k=1}^{100} (2k-1)^2 = \sum_{k=1}^{100} (4k^2 - 4k + 1) = 4 \
 $\displaystyle\sum_{k=1}^{n} (k^2 + k) = \frac{n(n+1)(2n+1)}{6} + \frac{n(n+1)}{2} = \frac{n(n+1)}{6}[2n + 1 + 3] = \frac{n(n+1)(2n+4)}{6} = \frac{n(n+1)(n+2)}{3}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 ### DSE-4
 
@@ -517,6 +715,15 @@ $= 10 + 2 \times 10(0.8 + 0.8^2 + 0.8^3 + \cdots)$
 $= 10 + 20 \times \dfrac{0.8}{1 - 0.8} = 10 + 20 \times 4 = 10 + 80 = 90$ m.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences Series", "url": "https://dse.wyattau.com/maths/diagnostics/diag-sequences-series"}]
+}
+</script>
 
 ### DSE-5
 

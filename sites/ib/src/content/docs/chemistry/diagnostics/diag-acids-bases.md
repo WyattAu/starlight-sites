@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 title: "Acids and Bases -- Diagnostic Tests"
 description: "IB Chemistry Acids and Bases -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 
 # Acids and Bases — Diagnostic Tests
 
@@ -46,6 +64,15 @@ Percentage ionisation: $\frac{1.616 \times 10^{-3}}{0.150} \times 100 = 1.08\%$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
+
 ### UT-2: Buffer Solution pH Calculation
 
 **Question:** A buffer is prepared by adding $0.100\ \text{mol}$ of sodium ethanoate to
@@ -80,6 +107,15 @@ $\text{pH} = 4.76 + \log\frac{0.0400}{0.0600} = 4.76 + \log(0.667) = 4.76 - 0.17
 PH change: $4.76 - 4.58 = 0.18$. The buffer resists the pH change effectively.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 
 ### UT-3: Salt Hydrolysis pH
 
@@ -138,6 +174,15 @@ within this range.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
+
 ### IT-2: Polyprotic Acid and Equilibrium (with Equilibrium)
 
 **Question:** Carbonic acid ($\text{H}_2\text{CO}_3$) is a diprotic acid with
@@ -165,6 +210,15 @@ total $[\text{H}^+]$.
 Verification of approximation: $x/0.0200 = 0.46\% \lt 5\%$. Valid.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 
 ### IT-3: Buffer Capacity and Stoichiometry (with Stoichiometry)
 

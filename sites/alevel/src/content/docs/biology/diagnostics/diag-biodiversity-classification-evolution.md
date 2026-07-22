@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biodiversity-classification-evolution"}]
+}
+</script>
 title: "Biodiversity, Classification and Evolution -- Diagnostic Tests"
 description: "A-Level Biology Biodiversity, Classification and Evolution notes covering key definitions, core concepts, worked practice questions for diagnostic revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biodiversity-classification-evolution"}]
+}
+</script>
 
 
 ## Intuition
@@ -68,6 +86,15 @@ Other possible mechanisms include **genetic drift** (if the population is small)
 preferentially mate with other dark moths).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biodiversity-classification-evolution"}]
+}
+</script>
 
 ### UT-2: Speciation — Allopatric vs Sympatric
 
@@ -150,6 +177,15 @@ Polyploidy is less common in animals because:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biodiversity-classification-evolution"}]
+}
+</script>
+
 ### UT-3: Taxonomy, Classification, and Molecular Evidence
 
 **Question:**
@@ -222,6 +258,15 @@ because it reflects the actual genetic changes that have accumulated over time, 
 selective pressures that shape morphology.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biodiversity-classification-evolution"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -303,6 +348,15 @@ why prudent antibiotic use (minimising unnecessary exposure) helps preserve the 
 existing antibiotics.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biodiversity-classification-evolution"}]
+}
+</script>
 
 ### IT-2: Classification Using Molecular Evidence and Immunology (with Cells and Biological Molecules)
 
@@ -405,6 +459,15 @@ specific mutational changes, detect insertions and deletions, and be used to con
 phylogenetic trees with molecular clock dating. DNA hybridisation is a coarser, less precise method.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biodiversity-classification-evolution"}]
+}
+</script>
 
 ### IT-3: Biodiversity Measurement and Conservation (with Ecology)
 

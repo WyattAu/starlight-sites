@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "4 Particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves"}, {"name": "4_particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves/4_particles-waves"}]
+}
+</script>
 title: Particles and Waves
 description: "This chapter covers Physics content, extending beyond Higher level. Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-physics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "4 Particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves"}, {"name": "4_particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves/4_particles-waves"}]
+}
+</script>
 
 # Particles and Waves
 
@@ -128,6 +146,15 @@ $$\Delta p \geq \frac{\hbar}{2\Delta x} = \frac{1.055 \times 10^{-34}}{2 \times 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "4 Particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves"}, {"name": "4_particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves/4_particles-waves"}]
+}
+</script>
+
 ## Particle Physics
 
 ### Standard Model
@@ -205,6 +232,15 @@ The total energy of the photons equals $2m_e c^2$ plus any kinetic energy.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "4 Particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves"}, {"name": "4_particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves/4_particles-waves"}]
+}
+</script>
+
 ## Wave Phenomena (Advanced Higher)
 
 ### Superposition and Interference
@@ -270,6 +306,15 @@ $$f' = 800 \times \frac{343}{343 - 25} = 800 \times \frac{343}{318} = 800 \times
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "4 Particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves"}, {"name": "4_particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves/4_particles-waves"}]
+}
+</script>
+
 ## Intuition
 
 **Light is both a wave and a particle:** Imagine light as a chameleon — it behaves like a wave (diffracting, interfering) in some experiments and like a particle (ejecting electrons) in others. This wave-particle duality is one of the most counterintuitive concepts in physics, but it's essential for understanding the quantum world.
@@ -300,6 +345,15 @@ $$f' = 800 \times \frac{343}{343 - 25} = 800 \times \frac{343}{318} = 800 \times
    neutron has $B = 1$A meson has $B = 0$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "4 Particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves"}, {"name": "4_particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves/4_particles-waves"}]
+}
+</script>
 
 ## Practice Questions
 

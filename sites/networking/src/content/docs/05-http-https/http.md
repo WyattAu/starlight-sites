@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "05 Http Https", "url": "https://networking.wyattau.com/05-http-https"}, {"name": "Http", "url": "https://networking.wyattau.com/05-http-https/http"}]
+}
+</script>
 title: HTTP
 description: "HTTP (Hypertext Transfer Protocol) is the application-layer protocol that powers the World Wide Web. Originally designed for retrieving hypertext documents"
 tags:
@@ -6,6 +15,15 @@ tags:
 categories:
   - Networking
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "05 Http Https", "url": "https://networking.wyattau.com/05-http-https"}, {"name": "Http", "url": "https://networking.wyattau.com/05-http-https/http"}]
+}
+</script>
 
 ## Overview
 

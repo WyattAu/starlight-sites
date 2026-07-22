@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "03 Chi Squared Tests", "url": "https://alevel.wyattau.com/further-maths/further-statistics/03-chi-squared-tests"}]
+}
+</script>
 title: Chi-Squared Tests
 description: "The chi-squared test is a non-parametric statistical test used to determine whether observed data Deviates significantly from expected values. It has two"
 date: 2026-04-02T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "03 Chi Squared Tests", "url": "https://alevel.wyattau.com/further-maths/further-statistics/03-chi-squared-tests"}]
+}
+</script>
 
 ## Chi-Squared Tests
 
@@ -860,6 +878,15 @@ It uses up one piece of information from the data.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "03 Chi Squared Tests", "url": "https://alevel.wyattau.com/further-maths/further-statistics/03-chi-squared-tests"}]
+}
+</script>
+
 ## 8. Advanced Worked Examples
 
 ### Example 8.1: Goodness-of-fit test with merging of classes
@@ -1020,6 +1047,15 @@ $10.87 > 3.84$: **reject** $H_0$. Significant association between region and tea
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "03 Chi Squared Tests", "url": "https://alevel.wyattau.com/further-maths/further-statistics/03-chi-squared-tests"}]
+}
+</script>
+
 ## 9. Common Pitfalls
 
 | Pitfall                                                           | Correct Approach                                                                                         |
@@ -1030,6 +1066,15 @@ $10.87 > 3.84$: **reject** $H_0$. Significant association between region and tea
 | Applying Yates' correction to tables larger than 2×2              | Yates' correction is only for 2×2 contingency tables                                                     |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "03 Chi Squared Tests", "url": "https://alevel.wyattau.com/further-maths/further-statistics/03-chi-squared-tests"}]
+}
+</script>
 
 ## 10. Additional Exam-Style Questions
 
@@ -1087,6 +1132,15 @@ And column variables.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "03 Chi Squared Tests", "url": "https://alevel.wyattau.com/further-maths/further-statistics/03-chi-squared-tests"}]
+}
+</script>
+
 ## 11. Connections to Other Topics
 
 ### 11.1 Chi-squared tests and Poisson/geometric distributions
@@ -1105,6 +1159,15 @@ The chi-squared distribution itself is used in confidence intervals for variance
 Hypothesis testing relies on understanding significance levels, $p$-values, and Type I/II errors.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "03 Chi Squared Tests", "url": "https://alevel.wyattau.com/further-maths/further-statistics/03-chi-squared-tests"}]
+}
+</script>
 
 ## 12. Key Results Summary
 
@@ -1125,6 +1188,15 @@ Hypothesis testing relies on understanding significance levels, $p$-values, and 
 | 7    | Conclude in context                           |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "03 Chi Squared Tests", "url": "https://alevel.wyattau.com/further-maths/further-statistics/03-chi-squared-tests"}]
+}
+</script>
 
 ## 13. Further Exam-Style Questions
 
@@ -1168,6 +1240,15 @@ the test.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "03 Chi Squared Tests", "url": "https://alevel.wyattau.com/further-maths/further-statistics/03-chi-squared-tests"}]
+}
+</script>
+
 ## 14. Advanced Topics
 
 ### 14.1 The chi-squared distribution
@@ -1200,6 +1281,15 @@ The chi-squared test is related to:
 - The $z$-test for proportions (for 2×2 tables, $\chi^2 \approx z^2$)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "03 Chi Squared Tests", "url": "https://alevel.wyattau.com/further-maths/further-statistics/03-chi-squared-tests"}]
+}
+</script>
 
 ## 15. Further Exam-Style Questions
 
@@ -1254,6 +1344,15 @@ A normal distribution.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "03 Chi Squared Tests", "url": "https://alevel.wyattau.com/further-maths/further-statistics/03-chi-squared-tests"}]
+}
+</script>
+
 ## 16. Further Advanced Topics
 
 ### 16.1 The chi-squared distribution properties
@@ -1289,6 +1388,15 @@ $$r_i = \frac{O_i - E_i}{\sqrt{E_i}}$$
 Values with $|r_i| > 2$ indicate significant deviations.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "03 Chi Squared Tests", "url": "https://alevel.wyattau.com/further-maths/further-statistics/03-chi-squared-tests"}]
+}
+</script>
 
 ## 17. Further Exam-Style Questions
 
@@ -1327,6 +1435,15 @@ Fisher's exact test should be used when:
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "03 Chi Squared Tests", "url": "https://alevel.wyattau.com/further-maths/further-statistics/03-chi-squared-tests"}]
+}
+</script>
 
 ## 18. Further Exam-Style Questions
 

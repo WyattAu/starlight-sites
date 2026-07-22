@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Reading", "url": "https://sat.wyattau.com/practice-reading"}]
+}
+</script>
 title: reading and writing practice
 date: 2026-05-30
 tags:
@@ -8,6 +17,15 @@ categories:
 description: "This page contains five full practice passages modelled after the digital SAT Reading "
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Reading", "url": "https://sat.wyattau.com/practice-reading"}]
+}
+</script>
+
 ## Overview
 
 This page contains five full practice passages modelled after the digital SAT Reading & Writing
@@ -16,6 +34,15 @@ and why each distractor is wrong. Together these passages cover all four content
 Information and Ideas, Craft and Structure, Standard English Conventions, and Expression of Ideas.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Reading", "url": "https://sat.wyattau.com/practice-reading"}]
+}
+</script>
 
 ## Passage 1: Literature
 
@@ -137,6 +164,15 @@ unrealistic D) foreshadow a future conflict between the sisters over ownership
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Reading", "url": "https://sat.wyattau.com/practice-reading"}]
+}
+</script>
+
 ## Passage 2: History / Social Studies
 
 > The debate over whether social media platforms should be legally classified as publishers or as
@@ -249,6 +285,15 @@ A) disinterested B) unbiased C) colourless D) inactive
 | D      | "Inactive" means not active; viewpoint neutrality is about how moderation is applied, not whether it occurs at all.                                 |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Reading", "url": "https://sat.wyattau.com/practice-reading"}]
+}
+</script>
 
 ## Passage 3: Science
 
@@ -368,6 +413,15 @@ the researchers did not actually test this hypothesis
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Reading", "url": "https://sat.wyattau.com/practice-reading"}]
+}
+</script>
+
 ## Passage 4: Paired Passages — History / Social Studies
 
 ### Passage A
@@ -463,6 +517,15 @@ eliminate athletic programmes
 | D      | Passage B does not advocate eliminating athletic programmes.                                                                                                                                                                                                                            |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Reading", "url": "https://sat.wyattau.com/practice-reading"}]
+}
+</script>
 
 ## Passage 5: Grammar and Editing
 
@@ -576,6 +639,15 @@ is moving, according to critics
 | D      | This is longer, more informal, and less precise than the original.                                                                                                                                                                                                               |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Practice Reading", "url": "https://sat.wyattau.com/practice-reading"}]
+}
+</script>
 
 ## Intuition
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Electric Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-electric-fields"}]
+}
+</script>
 title: "Electric Fields -- Diagnostic Tests"
 description: "A-Level Physics Electric Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Electric Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-electric-fields"}]
+}
+</script>
 
 
 ## Intuition
@@ -63,6 +81,15 @@ The field is maximum at $x = a/\sqrt{2} = 70.7\,\text{mm}$ from the centre.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Electric Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-electric-fields"}]
+}
+</script>
+
 ### UT-2: Electric Potential and Work Done
 
 **Question:**
@@ -114,6 +141,15 @@ answer is $W = q \times V = +1.2 \times 10^{-7}\,\text{J}$ (the external agent d
 overcome the attractive force of $q_2$).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Electric Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-electric-fields"}]
+}
+</script>
 
 ### UT-3: Deflection of an Electron Beam
 
@@ -212,6 +248,15 @@ uncertainty.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Electric Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-electric-fields"}]
+}
+</script>
+
 ### IT-2: Capacitance from Parallel Plates (with Capacitance)
 
 **Question:**
@@ -254,6 +299,15 @@ $$C = 1.327 \times 10^{-10}\,\text{F} = 133\,\text{pF}$$
 The capacitance increased from $88.5\,\text{pF}$ to $133\,\text{pF}$A factor of 1.50.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Electric Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-electric-fields"}]
+}
+</script>
 
 ### IT-3: Field Lines and Equipotentials — Proof of Perpendicularity (with Wave Properties)
 

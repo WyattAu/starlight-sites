@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Tooling And Configuration", "url": "https://languages.wyattau.com/typescript/tooling-and-configuration"}]
+}
+</script>
 title: Tooling and Configuration
 description: "Every TypeScript project is governed by a file at the project root. This file Specifies compiler options, file inclusion/exclusion, and project references."
 date: 2026-04-22T00:00:00.000Z
 tags: [TypeScript]
 categories: [TypeScript]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Tooling And Configuration", "url": "https://languages.wyattau.com/typescript/tooling-and-configuration"}]
+}
+</script>
 
 ## tsconfig.json: Core Configuration
 

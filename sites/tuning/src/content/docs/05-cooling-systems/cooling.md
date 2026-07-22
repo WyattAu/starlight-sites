@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "05 Cooling Systems", "url": "https://tuning.wyattau.com/05-cooling-systems"}, {"name": "Cooling", "url": "https://tuning.wyattau.com/05-cooling-systems/cooling"}]
+}
+</script>
 title: Cooling Systems
 description: "Every cooling solution relies on three mechanisms of heat transfer: Comprehensive educational content coverage with definitions and practice problems."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "05 Cooling Systems", "url": "https://tuning.wyattau.com/05-cooling-systems"}, {"name": "Cooling", "url": "https://tuning.wyattau.com/05-cooling-systems/cooling"}]
+}
+</script>
 
 ## Heat Transfer Fundamentals
 
@@ -57,6 +75,15 @@ A typical breakdown for a well-cooled desktop CPU:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "05 Cooling Systems", "url": "https://tuning.wyattau.com/05-cooling-systems"}, {"name": "Cooling", "url": "https://tuning.wyattau.com/05-cooling-systems/cooling"}]
+}
+</script>
+
 ## Thermal Paste
 
 ### Thermal Interface Materials Compared
@@ -99,6 +126,15 @@ Around the IHS to contain spills.
 - **After removing the heatsink** for any reason. Always clean and reapply.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "05 Cooling Systems", "url": "https://tuning.wyattau.com/05-cooling-systems"}, {"name": "Cooling", "url": "https://tuning.wyattau.com/05-cooling-systems/cooling"}]
+}
+</script>
 
 ## Air Cooling
 
@@ -170,6 +206,15 @@ Fan bearing types ranked by longevity:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "05 Cooling Systems", "url": "https://tuning.wyattau.com/05-cooling-systems"}, {"name": "Cooling", "url": "https://tuning.wyattau.com/05-cooling-systems/cooling"}]
+}
+</script>
+
 ## AIO Liquid Cooling
 
 ### AIO Components
@@ -222,6 +267,15 @@ A threshold ( 1000 RPM). A dead pump with active fans will cook a CPU in minutes
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "05 Cooling Systems", "url": "https://tuning.wyattau.com/05-cooling-systems"}, {"name": "Cooling", "url": "https://tuning.wyattau.com/05-cooling-systems/cooling"}]
+}
+</script>
+
 ## Custom Water Cooling
 
 ### Components
@@ -263,6 +317,15 @@ Custom loops require periodic maintenance:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "05 Cooling Systems", "url": "https://tuning.wyattau.com/05-cooling-systems"}, {"name": "Cooling", "url": "https://tuning.wyattau.com/05-cooling-systems/cooling"}]
+}
+</script>
+
 ## Case Airflow
 
 ### Positive vs. Negative Pressure
@@ -300,6 +363,15 @@ Compared to mesh panels. For high-TDP GPUs (300+ W), a mesh front panel is stron
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "05 Cooling Systems", "url": "https://tuning.wyattau.com/05-cooling-systems"}, {"name": "Cooling", "url": "https://tuning.wyattau.com/05-cooling-systems/cooling"}]
+}
+</script>
+
 ## Fan Curves and PWM Control
 
 ### PWM vs. DC Control
@@ -331,6 +403,15 @@ A well-tuned fan curve keeps temperatures acceptable while minimizing noise:
 - **liquidctl (Linux):** Controls AIO pump and fans for supported devices.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "05 Cooling Systems", "url": "https://tuning.wyattau.com/05-cooling-systems"}, {"name": "Cooling", "url": "https://tuning.wyattau.com/05-cooling-systems/cooling"}]
+}
+</script>
 
 ## Thermal Monitoring
 
@@ -375,6 +456,15 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "05 Cooling Systems", "url": "https://tuning.wyattau.com/05-cooling-systems"}, {"name": "Cooling", "url": "https://tuning.wyattau.com/05-cooling-systems/cooling"}]
+}
+</script>
+
 ## Noise Optimization
 
 ### Noise Sources Ranked
@@ -410,6 +500,15 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
    to the case, which reduces low-frequency hum.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "05 Cooling Systems", "url": "https://tuning.wyattau.com/05-cooling-systems"}, {"name": "Cooling", "url": "https://tuning.wyattau.com/05-cooling-systems/cooling"}]
+}
+</script>
 
 ## Intuition
 

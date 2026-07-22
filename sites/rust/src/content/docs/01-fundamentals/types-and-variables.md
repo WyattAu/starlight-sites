@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "01 Fundamentals", "url": "https://rust.wyattau.com/01-fundamentals"}, {"name": "Types And Variables", "url": "https://rust.wyattau.com/01-fundamentals/types-and-variables"}]
+}
+</script>
 title: Types and Variables
 description: "Rust types and variables fundamentals."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "01 Fundamentals", "url": "https://rust.wyattau.com/01-fundamentals"}, {"name": "Types And Variables", "url": "https://rust.wyattau.com/01-fundamentals/types-and-variables"}]
+}
+</script>
 
 ## Integer Types
 

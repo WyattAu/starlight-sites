@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 title: "Quadratics -- Diagnostic Tests"
 description: "A-Level Maths Quadratics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 
 
 ## Intuition
@@ -83,6 +101,15 @@ So for positive roots, we need $1 - 2\sqrt{3}/3 \leq p < 0$ (approximately $-0.1
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
+
 ### UT-2: Hidden Quadratics and Non-Standard Forms
 
 **Question:**
@@ -134,6 +161,15 @@ The maximum value of $y$ on $C$ is $\boxed{1}$Occurring at the point $(0, 1)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
+
 ### UT-3: Vieta's Formulas with Non-Standard Quadratic Forms
 
 **Question:**
@@ -170,6 +206,15 @@ $$\alpha^2\beta^2 = (\alpha\beta)^2 = \frac{1}{4}$$
 $$\frac{\frac{21}{4} + 2}{\frac{1}{4} + \frac{21}{4} + 1} = \frac{\frac{21}{4} + \frac{8}{4}}{\frac{1}{4} + \frac{21}{4} + \frac{4}{4}} = \frac{\frac{29}{4}}{\frac{26}{4}} = \frac{29}{26}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -229,6 +274,15 @@ At the endpoints: $g(0) = 3$ and $g(4) = 16 - 16 + 3 = 3$.
 The range of $g$ on $[0, 4]$ is $[-1, 3]$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 
 ### IT-2: Parabola-Circle Intersection (with Coordinate Geometry)
 
@@ -382,6 +436,15 @@ $$\int_0^4 (-x^2 + 4x - 2) \, dx = \left[-\frac{x^3}{3} + 2x^2 - 2x\right]_0^4 =
 $$A = 4\pi + \frac{8}{3} = \frac{12\pi + 8}{3} \approx 15.6 \text{ (3 s.f.)}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Quadratics", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-quadratics"}]
+}
+</script>
 
 ### IT-3: Optimisation with Calculus (with Differentiation)
 

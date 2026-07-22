@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Freshwater", "url": "https://ib.wyattau.com/geography/freshwater"}, {"name": "Water Scarcity And Management", "url": "https://ib.wyattau.com/geography/freshwater/water-scarcity-and-management"}]
+}
+</script>
 title: Water Scarcity and Management
 description: "Water scarcity and freshwater management strategies."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Freshwater", "url": "https://ib.wyattau.com/geography/freshwater"}, {"name": "Water Scarcity And Management", "url": "https://ib.wyattau.com/geography/freshwater/water-scarcity-and-management"}]
+}
+</script>
 
 # Water Scarcity and Management
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "04 Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services"}, {"name": "Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services/apps-and-services"}]
+}
+</script>
 title: Apps and Services
 description: "TrueNAS SCALE uses a Kubernetes-based application framework. Apps run as Helm charts deployed into a Lightweight Kubernetes cluster managed by TrueNAS. This"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "04 Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services"}, {"name": "Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services/apps-and-services"}]
+}
+</script>
 
 ## TrueNAS SCALE Apps
 
@@ -61,6 +79,15 @@ services:
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "04 Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services"}, {"name": "Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services/apps-and-services"}]
+}
+</script>
 
 ## Common Self-Hosted Apps
 
@@ -138,6 +165,15 @@ For monitoring your TrueNAS and other systems:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "04 Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services"}, {"name": "Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services/apps-and-services"}]
+}
+</script>
+
 ## Virtual Machines
 
 ### VM Configuration on TrueNAS
@@ -205,6 +241,15 @@ CD-ROM drive during installation. Install the VirtIO drivers before installing W
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "04 Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services"}, {"name": "Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services/apps-and-services"}]
+}
+</script>
+
 ## Networking for Apps
 
 ### Network Modes
@@ -241,6 +286,15 @@ Refer to the dedicated [Traefik guide](../setup/traefik.md) for TrueNAS Traefik 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "04 Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services"}, {"name": "Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services/apps-and-services"}]
+}
+</script>
+
 ## Storage for Apps
 
 ### iX Volumes
@@ -266,6 +320,15 @@ Host path volumes mount an existing ZFS dataset directly into the container. Thi
 4. **Set quotas:** Prevent a single app from consuming all available storage.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "04 Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services"}, {"name": "Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services/apps-and-services"}]
+}
+</script>
 
 ## App Data Persistence
 
@@ -294,6 +357,15 @@ zfs rollback tank/apps/nextcloud/data@pre-update-20240101
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "04 Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services"}, {"name": "Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services/apps-and-services"}]
+}
+</script>
 
 ## App Troubleshooting
 
@@ -329,6 +401,15 @@ midclt call chart.release.query
 5. If the update breaks the app, rollback using the snapshot.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "04 Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services"}, {"name": "Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services/apps-and-services"}]
+}
+</script>
 
 ## Common Pitfalls
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electrical Circuits", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electrical-circuits"}]
+}
+</script>
 title: "Electrical Circuits -- Diagnostic Tests"
 description: "DSE Physics Electrical Circuits -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electrical Circuits", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electrical-circuits"}]
+}
+</script>
 
 # Electrical Circuits — Diagnostic Tests
 
@@ -70,6 +88,15 @@ assumed current direction was wrong. The magnitude is correct but the direction 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electrical Circuits", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electrical-circuits"}]
+}
+</script>
+
 ### UT-2: Internal Resistance and Maximum Power Transfer
 
 **Question:**
@@ -118,6 +145,15 @@ half the energy is wasted as heat in the internal resistance. In practice, batte
 that $R \gg r$ for better efficiency, sacrificing some power.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electrical Circuits", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electrical-circuits"}]
+}
+</script>
 
 ### UT-3: Potentiometer Circuit Analysis
 
@@ -174,6 +210,15 @@ $$I = \frac{6}{20.04} = 0.2994 \text{ A}$$
 accurate EMF measurements than a voltmeter, which always draws some current.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electrical Circuits", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electrical-circuits"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -234,6 +279,15 @@ its EMF is much lower).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electrical Circuits", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electrical-circuits"}]
+}
+</script>
+
 ### IT-2: Wheatstone Bridge with Galvanometer (with Electricity and Magnetism)
 
 **Question:**
@@ -278,6 +332,15 @@ $$I_{\text{total}} = I_1 + I_2 = 0.02 + 0.01333 = 0.03333 \text{ A}$$
 it regardless of its resistance. This is the fundamental principle of the Wheatstone bridge.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electrical Circuits", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electrical-circuits"}]
+}
+</script>
 
 ### IT-3: Charging and Discharging a Capacitor Through a Resistor (with Heat and Gases)
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
 title: Money and Banking
 description: "Money is anything that is generally accepted as a medium of exchange. It serves  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-08T00:00:00.000Z
@@ -6,6 +15,15 @@ tags: [DSE, Economics]
 categories: [DSE, Economics]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
 
 ## Functions of Money
 
@@ -46,6 +64,15 @@ The value of the debt because it is denominated in money.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
+
 ## Characteristics of Money
 
 For a substance to function effectively as money, it should possess the following characteristics:
@@ -76,6 +103,15 @@ Systems (e.g., bank transfers, credit cards, mobile payments like Octopus, Alipa
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
+
 ## Evolution of Money
 
 The evolution of money reflects the increasing complexity of economies:
@@ -90,6 +126,15 @@ The evolution of money reflects the increasing complexity of economies:
    money in most economies
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
 
 ## Types of Banks
 
@@ -146,6 +191,15 @@ In Hong Kong, the de facto central bank is the **Hong Kong Monetary Authority (H
 | Sets monetary policy?  | Yes                                       | No                                                     |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
 
 ## Money Creation by Commercial Banks
 
@@ -240,6 +294,15 @@ The money multiplier falls from 10 to 3.33 due to cash leakages.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
+
 ## Money Supply
 
 ### Definition
@@ -285,6 +348,15 @@ Of value.
 M1 contains the most liquid assets; M2 includes less liquid assets as well.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
 
 ## Monetary Policy
 
@@ -405,6 +477,15 @@ The open market.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
+
 ## The Hong Kong Monetary Authority (HKMA)
 
 ### Linked Exchange Rate System (LERS)
@@ -446,6 +527,15 @@ The HKMA maintains the peg through:
 6. Issuing coins (banknotes are issued by three commercial banks under HKMA supervision)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
 
 ## Interest Rates
 
@@ -496,6 +586,15 @@ Real interest rate $\approx 5\% - 2\% = 3\%$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
+
 ## Inflation Targeting
 
 ### What Is Inflation Targeting?
@@ -540,6 +639,15 @@ The process by which monetary policy affects the economy:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
+
 ## The Banking System and Financial Intermediation
 
 ### Financial Intermediation
@@ -581,6 +689,15 @@ In Hong Kong, the Deposit Protection Scheme (DPS) covers deposits up to HKD 500,
 Per bank.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
 
 ## Intuition
 
@@ -629,6 +746,15 @@ If rrr = 0.2, then $m = 5$Not 0.2.
    are different concepts.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -973,6 +1099,15 @@ Control.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
+
 ## Problem Set
 
 ### Problem 1: Money Multiplier with Cash Leakages
@@ -1172,6 +1307,15 @@ If you get this wrong, revise:
 [Transmission Mechanism of Monetary Policy](#transmission-mechanism-of-monetary-policy)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
 
 ## Extended Problem Set: Advanced Money and Banking
 
@@ -1414,6 +1558,15 @@ carefully managing the risks to financial stability.
 If you get this wrong, revise: [Future of Money](#future-of-money)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
+}
+</script>
 
 ## Additional Problems: DSE Exam-Style Money and Banking
 

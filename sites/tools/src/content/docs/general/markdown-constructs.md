@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Markdown Constructs", "url": "https://tools.wyattau.com/general/markdown-constructs"}]
+}
+</script>
 title: Markdown & MDX Constructs
 description: "Use through . Do not skip levels (e.g., jumping from to ). The first heading In a page body should be because Docusaurus uses the frontmatter as the ."
 date: 2025-05-15T22:45:51.828Z
@@ -8,6 +17,15 @@ categories:
   - general
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Markdown Constructs", "url": "https://tools.wyattau.com/general/markdown-constructs"}]
+}
+</script>
 
 ## Intuition
 
@@ -91,6 +109,15 @@ Ordered:
 
 ```md
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Markdown Constructs", "url": "https://tools.wyattau.com/general/markdown-constructs"}]
+}
+</script>
 ```
 
 Three or more hyphens, asterisks, or underscores on a line by themselves.
@@ -373,6 +400,15 @@ Every page should have frontmatter. Here is the full set of commonly used fields
 
 ```yaml
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Markdown Constructs", "url": "https://tools.wyattau.com/general/markdown-constructs"}]
+}
+</script>
 id: my-page # URL path segment (overrides filename)
 title: My Page Title # Display title and h1
 description: 'Use through . Do not skip levels (e.g., jumping from to ). The first heading In a page body should be because Docusaurus uses the frontmatter as the .'
@@ -389,6 +425,15 @@ hide_table_of_contents: false
 toc_max_heading_level: 4 # Max heading level for ToC
 draft: true # Hide from production build
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Markdown Constructs", "url": "https://tools.wyattau.com/general/markdown-constructs"}]
+}
+</script>
 ```
 
 ### Slug Behavior

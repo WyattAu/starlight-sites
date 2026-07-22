@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
 title: Plant Biology
 description: "Photosynthesis is the process by which photoautotrophs (plants, algae, cyanobacteria) convert light Energy into chemical energy stored in organic molecules."
 date: 2026-04-08T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Plant Nutrition
 
@@ -159,6 +177,15 @@ Concentrations. C4 and CAM plants have evolved mechanisms to minimise photorespi
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Gas Exchange in Plants
 
 ### Stomata
@@ -218,6 +245,15 @@ At night, when photosynthesis stops but respiration continues, the direction of 
 Reverses: the plant takes in $\mathrm{O}_2$ and releases $\mathrm{CO}_2$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Transport in Plants
 
@@ -440,6 +476,15 @@ This is the most widely accepted model for phloem transport.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Plant Reproduction
 
 ### Sexual Reproduction in Flowering Plants
@@ -538,6 +583,15 @@ After fertilisation:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Asexual Reproduction in Plants
 
 ### Vegetative Propagation
@@ -604,6 +658,15 @@ Advantages: large numbers of identical plants in a small space; disease-free pla
 Rare species; year-round production.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Growth and Development in Plants
 
@@ -719,6 +782,15 @@ Towards light but roots bend away from it when auxin redistributes.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Intuition
 
 **Solar-powered factories:** Plants are like solar panels that make food — photosynthesis captures sunlight and converts it into chemical energy. Transpiration is the plant's cooling system.
@@ -822,6 +894,15 @@ gradient, confirming auxin is responsible.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Problem Set
 
@@ -1058,6 +1139,15 @@ If light were switched off:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Mineral Nutrition
 
 ### Essential Mineral Ions
@@ -1109,6 +1199,15 @@ cells:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Seed Germination
 
 ### Conditions for Germination
@@ -1159,6 +1258,15 @@ In some seeds (e.g., barley), gibberellins play a critical role in initiating ge
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Photoperiodism
 
 ### What is Photoperiodism?
@@ -1205,6 +1313,15 @@ reverts to $\mathrm{Pr}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Plant Responses to Environmental Stress
 
 ### Responses to Water Stress
@@ -1232,6 +1349,15 @@ reverts to $\mathrm{Pr}$.
 - Some halophytes can exclude salt at the root level
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Additional Problem Set
 
@@ -1324,7 +1450,25 @@ uninterrupted DARK period that matters.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Translocation in Detail
 
@@ -1374,6 +1518,15 @@ removed (leaving the stylet embedded), phloem sap can be collected and analysed.
 - The composition of the sap changes with the time of day and season
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Crop Science and Agriculture
 
@@ -1482,6 +1635,15 @@ self-marking and building a personal test matrix.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Plant Hormones (Phytohormones)
 
 ### Auxins (IAA -- Indole-3-Acetic Acid)
@@ -1552,6 +1714,15 @@ self-marking and building a personal test matrix.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Plant Transport in Detail
 
 ### Xylem Structure and Water Transport
@@ -1593,6 +1764,15 @@ gravity:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **Auxin promotes shoot cell elongation but INHIBITS root cell elongation.** This is
@@ -1610,6 +1790,15 @@ gravity:
   fruits and cause them to ripen simultaneously when stored together\*\*
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Photosynthesis in Detail
 
@@ -1691,6 +1880,15 @@ in shortest supply (the **limiting factor**).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
+
 ## Respiration in Plants
 
 ### Comparison of Photosynthesis and Respiration
@@ -1715,6 +1913,15 @@ in shortest supply (the **limiting factor**).
   exchange
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
+}
+</script>
 
 ## Plant Reproduction
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "03 Probability", "url": "https://alevel.wyattau.com/maths/statistics/03-probability"}]
+}
+</script>
 title: Probability
 description: "| Board | Paper | Notes | | ---------- | ---------- | ------------------------------------------------- | | AQA | Paper 1, 2 | Basic probability in P1;"
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "03 Probability", "url": "https://alevel.wyattau.com/maths/statistics/03-probability"}]
+}
+</script>
 
 ## Board Coverage
 
@@ -827,6 +845,15 @@ $$P(M_3|D) = \frac{P(D|M_3)P(M_3)}{P(D)} = \frac{0.05 \times 0.2}{0.029} = \frac
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "03 Probability", "url": "https://alevel.wyattau.com/maths/statistics/03-probability"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 within the A-Level specification for this topic, each with a full worked solution.

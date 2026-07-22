@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "09 Vectors In 3d", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d"}]
+}
+</script>
 title: Vectors in 3D
 description: "This chapter extends the study of vectors from A Level Mathematics into three dimensions, Introducing the vector (cross) product, equations of planes, and"
 date: 2026-04-02T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "09 Vectors In 3d", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d"}]
+}
+</script>
 
 ## Vectors in 3D
 
@@ -643,6 +661,15 @@ $D = \dfrac{3}{\sqrt{6}} = \dfrac{3\sqrt{6}}{6} = \boxed{\dfrac{\sqrt{6}}{2}}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "09 Vectors In 3d", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d"}]
+}
+</script>
+
 ## 11. Advanced Worked Examples
 
 ### Example 11.1: Reflection in a plane
@@ -763,6 +790,15 @@ Taking square roots gives the result.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "09 Vectors In 3d", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d"}]
+}
+</script>
+
 ## 12. Connections to Other Topics
 
 ### 12.1 Vectors and matrices
@@ -782,6 +818,15 @@ The equation of a plane and the distance formula connect vectors to 3D coordinat
 [Polar Coordinates](/docs/alevel/further-maths/pure-mathematics/polar-coordinates).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "09 Vectors In 3d", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d"}]
+}
+</script>
 
 ## 13. Additional Exam-Style Questions
 
@@ -898,6 +943,15 @@ Two swaps return to the original sign. $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "09 Vectors In 3d", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d"}]
+}
+</script>
+
 ## 14. Connections to Other Topics
 
 ### 14.1 Vectors and matrices
@@ -919,6 +973,15 @@ Representations of curves.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "09 Vectors In 3d", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d"}]
+}
+</script>
+
 ## 15. Key Results Summary
 
 | Result                   | Formula                                                                                                                       |
@@ -934,6 +997,15 @@ Representations of curves.
 | Reflection in plane      | $P' = P - 2D\hat{\mathbf{n}}$ where $D = \dfrac{P\cdot\mathbf{n}-d}{                                                 | \mathbf{n}                                                           | }$    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "09 Vectors In 3d", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d"}]
+}
+</script>
 
 ## 16. Further Exam-Style Questions
 
@@ -1014,6 +1086,15 @@ $D = \dfrac{2}{\sqrt{3}} = \boxed{\dfrac{2\sqrt{3}}{3}}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "09 Vectors In 3d", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d"}]
+}
+</script>
+
 ## 17. Advanced Topics
 
 ### 17.1 Vector equations of planes
@@ -1044,6 +1125,15 @@ This identity is extensively used in mechanics (e.g., angular momentum, moments)
 - **Volume of tetrahedron:** $V = \dfrac{1}{6}|[\mathbf{a},\mathbf{b},\mathbf{c}]|$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "09 Vectors In 3d", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d"}]
+}
+</script>
 
 ## 18. Further Exam-Style Questions
 
@@ -1081,6 +1171,15 @@ Since the cross product gives $(2,1,-3)$The line is parallel to this vector. $\b
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "09 Vectors In 3d", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d"}]
+}
+</script>
+
 ## 19. Advanced Topics in 3D Vectors
 
 ### 19.1 Direction cosines
@@ -1117,6 +1216,15 @@ $$\mathbf{r} = \mathbf{a} + s\mathbf{b} + t\mathbf{c}$$
 The normal is $\mathbf{n} = \mathbf{b}\times\mathbf{c}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "09 Vectors In 3d", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d"}]
+}
+</script>
 
 ## 20. Further Exam-Style Questions
 
@@ -1173,6 +1281,15 @@ The lines intersect at $\boxed{(1,0,0)}$.
 </aside>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "09 Vectors In 3d", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d"}]
+}
+</script>
 
 ## Cross-References
 

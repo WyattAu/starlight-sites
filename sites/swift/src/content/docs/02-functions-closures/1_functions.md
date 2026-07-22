@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "02 Functions Closures", "url": "https://swift.wyattau.com/02-functions-closures"}, {"name": "1_functions", "url": "https://swift.wyattau.com/02-functions-closures/1_functions"}]
+}
+</script>
 title: Functions
 description: "Functions are self-contained blocks of code that perform a specific task. Swift functions are first-class citizens: they can be assigned to variables,"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Swift
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "02 Functions Closures", "url": "https://swift.wyattau.com/02-functions-closures"}, {"name": "1_functions", "url": "https://swift.wyattau.com/02-functions-closures/1_functions"}]
+}
+</script>
 
 ## Functions
 
@@ -718,6 +736,15 @@ print(usersRequest.url?.absoluteString ?? "")
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "02 Functions Closures", "url": "https://swift.wyattau.com/02-functions-closures"}, {"name": "1_functions", "url": "https://swift.wyattau.com/02-functions-closures/1_functions"}]
+}
+</script>
+
 ### Example 2: Closure-Based Retry with Exponential Backoff
 
 **Problem:** Write a higher-order function that retries an async operation with exponential backoff, accepting a custom retry handler via a closure parameter.
@@ -758,6 +785,15 @@ let result = try await withRetry(maxAttempts: 3, initialDelay: 1.0, operation: {
 **Explanation:** The function accepts `operation` as an `@escaping` closure because it is called asynchronously across `Task.sleep` boundaries. The optional `onRetry` closure provides a hook for logging or metrics without affecting retry logic. Exponential backoff doubles the delay after each failure.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "02 Functions Closures", "url": "https://swift.wyattau.com/02-functions-closures"}, {"name": "1_functions", "url": "https://swift.wyattau.com/02-functions-closures/1_functions"}]
+}
+</script>
 
 ### Example 3: Type-Safe Event Emitter with Closures
 

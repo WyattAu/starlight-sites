@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Further Algebra", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-further-algebra"}]
+}
+</script>
 title: "Further Algebra -- Diagnostic Tests"
 description: "A-Level Further Maths Further Algebra -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Further Algebra", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-further-algebra"}]
+}
+</script>
 
 
 ## Intuition
@@ -77,6 +95,15 @@ $= (k+1)^2\left[\frac{k^2}{4} + (k+1)\right] = \frac{(k+1)^2}{4}[k^2 + 4k + 4] =
 This is the formula with $n = k+1$. By induction, the result holds for all $n \ge 1$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Further Algebra", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-further-algebra"}]
+}
+</script>
 
 ## Integration Tests
 

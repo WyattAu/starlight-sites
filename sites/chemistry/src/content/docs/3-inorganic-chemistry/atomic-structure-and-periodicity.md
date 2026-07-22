@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "3 Inorganic Chemistry", "url": "https://chemistry.wyattau.com/3-inorganic-chemistry"}, {"name": "Atomic Structure And Periodicity", "url": "https://chemistry.wyattau.com/3-inorganic-chemistry/atomic-structure-and-periodicity"}]
+}
+</script>
 title: Atomic Structure and Periodicity
 description: "Each atomic orbital is characterized by four quantum numbers: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-05-31T00:00:00.000Z
@@ -8,6 +17,15 @@ tags:
 categories:
   - Chemistry
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "3 Inorganic Chemistry", "url": "https://chemistry.wyattau.com/3-inorganic-chemistry"}, {"name": "Atomic Structure And Periodicity", "url": "https://chemistry.wyattau.com/3-inorganic-chemistry/atomic-structure-and-periodicity"}]
+}
+</script>
 
 ## 1. Atomic Orbitals
 

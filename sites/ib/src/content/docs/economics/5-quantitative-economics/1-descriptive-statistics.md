@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "5 Quantitative Economics", "url": "https://ib.wyattau.com/economics/5-quantitative-economics"}, {"name": "1 Descriptive Statistics", "url": "https://ib.wyattau.com/economics/5-quantitative-economics/1-descriptive-statistics"}]
+}
+</script>
 title: Descriptive Statistics
 description: "are measured in current prices and reflect both quantity changes and price changes. are adjusted for price level changes and reflect only quantity changes."
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "5 Quantitative Economics", "url": "https://ib.wyattau.com/economics/5-quantitative-economics"}, {"name": "1 Descriptive Statistics", "url": "https://ib.wyattau.com/economics/5-quantitative-economics/1-descriptive-statistics"}]
+}
+</script>
 
 ## Intuition
 

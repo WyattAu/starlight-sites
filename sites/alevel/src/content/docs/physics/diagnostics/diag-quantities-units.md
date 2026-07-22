@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Quantities Units", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-quantities-units"}]
+}
+</script>
 title: "Quantities and Units -- Diagnostic Tests"
 description: "A-Level Physics Quantities and Units -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Quantities Units", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-quantities-units"}]
+}
+</script>
 
 
 ## Intuition
@@ -73,6 +91,15 @@ For high Reynolds number drag ($q = 0$): $n = 2$$m = 2$$p = 1$Giving $F_D = k r^
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Quantities Units", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-quantities-units"}]
+}
+</script>
+
 ### UT-2: Propagation of Uncertainties with Correlated Measurements
 
 **Question:**
@@ -124,6 +151,15 @@ of length is far more precise. The timing method introduces unnecessary uncertai
 $l$Though it would be the appropriate method if the goal were to determine $g$ from a known $l$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Quantities Units", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-quantities-units"}]
+}
+</script>
 
 ### UT-3: Distinguishing Systematic and Random Uncertainties
 
@@ -215,6 +251,15 @@ The formula is dimensionally correct.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Quantities Units", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-quantities-units"}]
+}
+</script>
+
 ### IT-2: Uncertainty in a Derived Quantity from a Practical Experiment (with Dynamics)
 
 **Question:**
@@ -270,6 +315,15 @@ $9.81\,\text{m}\,\text{s}^{-2}$But the systematic correction reveals that the or
 an overestimate due to the finite ball size.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Quantities Units", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-quantities-units"}]
+}
+</script>
 
 ### IT-3: Determining Planck's Constant from Photoelectric Data (with Electric Fields and Waves)
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "05 Github Actions Ci Cd Patterns", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns"}]
+}
+</script>
 title: GitHub Actions CI/CD Patterns
 description: "GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform Embedded directly into GitHub repositories. Workflows"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "05 Github Actions Ci Cd Patterns", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns"}]
+}
+</script>
 
 ## Intuition
 
@@ -57,6 +75,15 @@ And official actions. First-party actions live under the `actions/` organization
 audited for supply-chain security before adoption.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "05 Github Actions Ci Cd Patterns", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns"}]
+}
+</script>
 
 ## Basic Workflow Structure
 
@@ -174,6 +201,15 @@ jobs:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "05 Github Actions Ci Cd Patterns", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns"}]
+}
+</script>
+
 ## Trigger Patterns
 
 The `on` key defines what events activate the workflow. Triggers can be filtered by branch, tag,
@@ -290,6 +326,15 @@ When combining `push` and `pull_request` triggers, use `${{ github.event_name }}
 Behavior at runtime.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "05 Github Actions Ci Cd Patterns", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns"}]
+}
+</script>
 
 ## Job Dependencies
 
@@ -411,6 +456,15 @@ This ensures each PR gets its own concurrency slot, while pushes to the same bra
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "05 Github Actions Ci Cd Patterns", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns"}]
+}
+</script>
+
 ## Caching
 
 Caching intermediate build artifacts (dependencies, compiled objects) across workflow runs
@@ -518,6 +572,15 @@ Exceeds 10 GB. Branches can only access caches from the default branch or the sa
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "05 Github Actions Ci Cd Patterns", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns"}]
+}
+</script>
+
 ## Artifacts
 
 Artifacts are persistent files produced during a workflow run. Unlike caches, artifacts are intended
@@ -601,6 +664,15 @@ jobs:
 | Max number of artifacts per run | 500                                   |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "05 Github Actions Ci Cd Patterns", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns"}]
+}
+</script>
 
 ## Common CI Patterns
 
@@ -746,6 +818,15 @@ jobs:
 | `max-parallel` | Limit the number of concurrent matrix job runs                    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "05 Github Actions Ci Cd Patterns", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns"}]
+}
+</script>
 
 ## CD/Deployment Patterns
 
@@ -928,6 +1009,15 @@ jobs:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "05 Github Actions Ci Cd Patterns", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns"}]
+}
+</script>
+
 ## Reusable Workflows
 
 Reusable workflows allow teams to centralize workflow logic in a single file and reference it from
@@ -1038,6 +1128,15 @@ steps:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "05 Github Actions Ci Cd Patterns", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns"}]
+}
+</script>
+
 ## Secrets Management
 
 ### GitHub Secrets
@@ -1130,6 +1229,15 @@ Write-only.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "05 Github Actions Ci Cd Patterns", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns"}]
+}
+</script>
+
 ## Environment Protection Rules
 
 Environment protection rules add governance gates that must be satisfied before a job targeting that
@@ -1203,6 +1311,15 @@ The OIDC exchange eliminates the need for `AWS_ACCESS_KEY_ID` and `AWS_SECRET_AC
 Entirely, replacing them with a short-lived token scoped to the specific workflow run.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "05 Github Actions Ci Cd Patterns", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns"}]
+}
+</script>
 
 ## Common Pitfalls
 

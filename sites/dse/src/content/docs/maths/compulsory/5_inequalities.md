@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "5_inequalities", "url": "https://dse.wyattau.com/maths/compulsory/5_inequalities"}]
+}
+</script>
 title: Inequalities
 description: "An inequality states that one expression is greater than or less than another. Inequalities arise when finding the and of functions, and are closely related"
 date: 2025-06-03T16:21:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "5_inequalities", "url": "https://dse.wyattau.com/maths/compulsory/5_inequalities"}]
+}
+</script>
 
 An inequality states that one expression is greater than or less than another. Inequalities arise
 when finding the [domain](1_functions.mdx#definition-of-a-function) and
@@ -374,6 +392,15 @@ Intersection: $(-\infty, 3)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "5_inequalities", "url": "https://dse.wyattau.com/maths/compulsory/5_inequalities"}]
+}
+</script>
+
 </details>
 <summary>Wrap-up Questions</summary>
 1. **Question:** Solve the inequality $\dfrac{2x - 1}{3} \leq \dfrac{x + 2}{4} + 1$.
@@ -567,6 +594,15 @@ self-marking and building a personal test matrix.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "5_inequalities", "url": "https://dse.wyattau.com/maths/compulsory/5_inequalities"}]
+}
+</script>
+
 ## Rational Inequalities
 
 ### Method
@@ -602,6 +638,15 @@ Solution: $(-\infty, -2] \cup (-1, 1]$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "5_inequalities", "url": "https://dse.wyattau.com/maths/compulsory/5_inequalities"}]
+}
+</script>
+
 ## DSE Exam Technique
 
 ### Showing Working
@@ -628,6 +673,15 @@ figures.
 5. **Inequalities involving the discriminant** (condition for real roots).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "5_inequalities", "url": "https://dse.wyattau.com/maths/compulsory/5_inequalities"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -705,6 +759,15 @@ Intersection: $(0, 5]$.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "5_inequalities", "url": "https://dse.wyattau.com/maths/compulsory/5_inequalities"}]
+}
+</script>
 
 ## DSE Exam-Style Questions
 

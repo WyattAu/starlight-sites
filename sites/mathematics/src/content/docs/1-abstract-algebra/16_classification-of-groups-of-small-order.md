@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "16_classification Of Groups Of Small Order", "url": "https://mathematics.wyattau.com/1-abstract-algebra/16_classification-of-groups-of-small-order"}]
+}
+</script>
 title: Classification of Groups of Small Order
 tags:
   - Mathematics
   - University
 description: 'The following table summarizes the classification of groups of small order: Comprehensive educational content coverage with definitions and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "16_classification Of Groups Of Small Order", "url": "https://mathematics.wyattau.com/1-abstract-algebra/16_classification-of-groups-of-small-order"}]
+}
+</script>
 
 The following table summarizes the classification of groups of small order:
 

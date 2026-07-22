@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "02 Control Flow", "url": "https://ruby.wyattau.com/02-control-flow"}, {"name": "1_control Flow", "url": "https://ruby.wyattau.com/02-control-flow/1_control-flow"}]
+}
+</script>
 title: Control Flow
 description: "Ruby control flow statements and syntax."
 date: 2026-06-04T10:00:00.000Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - Ruby
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "02 Control Flow", "url": "https://ruby.wyattau.com/02-control-flow"}, {"name": "1_control Flow", "url": "https://ruby.wyattau.com/02-control-flow/1_control-flow"}]
+}
+</script>
 
 ## Conditionals
 

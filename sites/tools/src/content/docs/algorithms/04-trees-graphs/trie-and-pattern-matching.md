@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "04 Trees Graphs", "url": "https://tools.wyattau.com/algorithms/04-trees-graphs"}, {"name": "Trie And Pattern Matching", "url": "https://tools.wyattau.com/algorithms/04-trees-graphs/trie-and-pattern-matching"}]
+}
+</script>
 title: Tries and String Algorithms
 description: "A trie is a tree data structure where each node represents a character of a string. The path from The root to any node spells out a prefix, and nodes marked"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "04 Trees Graphs", "url": "https://tools.wyattau.com/algorithms/04-trees-graphs"}, {"name": "Trie And Pattern Matching", "url": "https://tools.wyattau.com/algorithms/04-trees-graphs/trie-and-pattern-matching"}]
+}
+</script>
 
 ## Trie (Prefix Tree)
 

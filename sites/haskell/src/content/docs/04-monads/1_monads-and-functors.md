@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "04 Monads", "url": "https://haskell.wyattau.com/04-monads"}, {"name": "1_monads And Functors", "url": "https://haskell.wyattau.com/04-monads/1_monads-and-functors"}]
+}
+</script>
 title: Monads and Functors
 description: "A monad is a design pattern for structuring computations. In Haskell, a monad wraps a value in a computational context that defines how operations chain"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Haskell
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "04 Monads", "url": "https://haskell.wyattau.com/04-monads"}, {"name": "1_monads And Functors", "url": "https://haskell.wyattau.com/04-monads/1_monads-and-functors"}]
+}
+</script>
 
 ## The Monad Concept
 
@@ -722,6 +740,15 @@ computeSuccess = do
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "04 Monads", "url": "https://haskell.wyattau.com/04-monads"}, {"name": "1_monads And Functors", "url": "https://haskell.wyattau.com/04-monads/1_monads-and-functors"}]
+}
+</script>
+
 ### Example 2: State Monad for a Counter
 
 **Problem:** Use the State monad to build a counter that increments and decrements, threading state through pure computations.
@@ -763,6 +790,15 @@ counterProgram = do
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "04 Monads", "url": "https://haskell.wyattau.com/04-monads"}, {"name": "1_monads And Functors", "url": "https://haskell.wyattau.com/04-monads/1_monads-and-functors"}]
+}
+</script>
+
 ### Example 3: List Monad for Non-Deterministic Computing
 
 **Problem:** Use the list monad to generate all possible combinations of dice rolls.
@@ -795,6 +831,15 @@ pythagoreanTriples = do
 **Explanation:** The list monad represents non-determinism. Each `do` line produces multiple values, and the monad combines them. `guard` filters combinations that don't satisfy the condition (returning empty list for failures). This is equivalent to nested loops with filtering, but expressed declaratively.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "04 Monads", "url": "https://haskell.wyattau.com/04-monads"}, {"name": "1_monads And Functors", "url": "https://haskell.wyattau.com/04-monads/1_monads-and-functors"}]
+}
+</script>
 
 ### Example 4: Writer Monad for Logging
 

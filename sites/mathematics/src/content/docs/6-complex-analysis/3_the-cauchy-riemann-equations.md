@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "3_the Cauchy Riemann Equations", "url": "https://mathematics.wyattau.com/6-complex-analysis/3_the-cauchy-riemann-equations"}]
+}
+</script>
 title: The Cauchy-Riemann Equations
 tags:
   - Mathematics
   - University
 description: "The Cauchy-Riemann Equations: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "3_the Cauchy Riemann Equations", "url": "https://mathematics.wyattau.com/6-complex-analysis/3_the-cauchy-riemann-equations"}]
+}
+</script>
 
 ### 3.1 Statement
 

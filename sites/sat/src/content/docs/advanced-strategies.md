@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Advanced Strategies", "url": "https://sat.wyattau.com/advanced-strategies"}]
+}
+</script>
 title: Advanced Strategies
 date: 2026-05-30
 tags:
@@ -8,6 +17,15 @@ categories:
 description: "These strategies go beyond content knowledge. They address the meta-skills of test-taking: pacing, decision-making under time pressure, and maximising your"
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Advanced Strategies", "url": "https://sat.wyattau.com/advanced-strategies"}]
+}
+</script>
+
 ## Advanced SAT Strategies
 
 These strategies go beyond content knowledge. They address the meta-skills of test-taking: pacing,
@@ -15,6 +33,15 @@ decision-making under time pressure, and maximising your score through intellige
 efficient problem-solving.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Advanced Strategies", "url": "https://sat.wyattau.com/advanced-strategies"}]
+}
+</script>
 
 ## Time Management
 
@@ -52,6 +79,15 @@ If you are behind at any checkpoint, switch to the two-pass system immediately.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Advanced Strategies", "url": "https://sat.wyattau.com/advanced-strategies"}]
+}
+</script>
+
 ## Process of Elimination
 
 ### The Elimination Ladder
@@ -75,6 +111,15 @@ For every multiple-choice question, apply elimination in this order:
   seconds.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Advanced Strategies", "url": "https://sat.wyattau.com/advanced-strategies"}]
+}
+</script>
 
 ## Guessing vs Skipping
 
@@ -105,6 +150,15 @@ Student-produced response questions have no options to eliminate. Strategy:
 - Never leave blank — there is no penalty.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Advanced Strategies", "url": "https://sat.wyattau.com/advanced-strategies"}]
+}
+</script>
 
 ## Calculator Strategies
 
@@ -141,6 +195,15 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Advanced Strategies", "url": "https://sat.wyattau.com/advanced-strategies"}]
+}
+</script>
+
 ## Reading Comprehension Annotation Method
 
 ### The Three-Read Approach
@@ -174,6 +237,15 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Advanced Strategies", "url": "https://sat.wyattau.com/advanced-strategies"}]
+}
+</script>
+
 ## Grammar Section Quick Rules
 
 ### The Big Six Grammar Rules (cover ~70% of Writing questions)
@@ -200,6 +272,15 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 | Sequence     | first, subsequently, finally, meanwhile              |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Advanced Strategies", "url": "https://sat.wyattau.com/advanced-strategies"}]
+}
+</script>
 
 ## Math Section Common Patterns and Shortcuts
 
@@ -235,6 +316,15 @@ Always estimate the answer before calculating. If the question asks for 17% of 3
 - If no option is in the range 50–66, you've misread the question.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Advanced Strategies", "url": "https://sat.wyattau.com/advanced-strategies"}]
+}
+</script>
 
 ## Full-Length Practice Test Schedule
 

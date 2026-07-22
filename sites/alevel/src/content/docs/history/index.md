@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "History", "url": "https://alevel.wyattau.com/history"}, {"name": "Index", "url": "https://alevel.wyattau.com/history/index"}]
+}
+</script>
 title: A-Level History
 description: "A-Level History notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision and exam readiness."
 date: 2026-05-12T00:00:00.000Z
@@ -6,6 +15,15 @@ tags:
   - History
   - ALevel
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "History", "url": "https://alevel.wyattau.com/history"}, {"name": "Index", "url": "https://alevel.wyattau.com/history/index"}]
+}
+</script>
 
 # A-Level History
 

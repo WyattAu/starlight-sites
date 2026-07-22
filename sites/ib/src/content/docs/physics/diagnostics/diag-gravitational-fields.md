@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Gravitational Fields", "url": "https://ib.wyattau.com/physics/diagnostics/diag-gravitational-fields"}]
+}
+</script>
 title: "Gravitational Fields -- Diagnostic Tests"
 description: "IB Physics Gravitational Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Gravitational Fields", "url": "https://ib.wyattau.com/physics/diagnostics/diag-gravitational-fields"}]
+}
+</script>
 
 # Gravitational Fields — Diagnostic Tests
 
@@ -75,6 +93,15 @@ chord chosen). It equals the period of a low-altitude circular orbit.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Gravitational Fields", "url": "https://ib.wyattau.com/physics/diagnostics/diag-gravitational-fields"}]
+}
+</script>
+
 ### UT-2: Gravitational Potential is Always Negative
 
 **Question:**
@@ -128,6 +155,15 @@ Energy required:
 $\Delta E = E_2 - E_1 = -3.13 \times 10^9 - (-7.82 \times 10^9) = 4.69 \times 10^9\,\text{J}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Gravitational Fields", "url": "https://ib.wyattau.com/physics/diagnostics/diag-gravitational-fields"}]
+}
+</script>
 
 ### UT-3: Escape Velocity Derivation and Application
 
@@ -244,6 +280,15 @@ drag, the need to change from the Earth's rotational velocity, and orbit-raising
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Gravitational Fields", "url": "https://ib.wyattau.com/physics/diagnostics/diag-gravitational-fields"}]
+}
+</script>
+
 ### IT-2: Binary Star System (with Circular Motion and Energy)
 
 **Question:**
@@ -295,6 +340,15 @@ $E = -\frac{6.67 \times 10^{-11} \times 3.0 \times 10^{30} \times 1.0 \times 10^
 $$= -\frac{2.001 \times 10^{50}}{4.0 \times 10^{11}} = -5.00 \times 10^{38}\,\text{J}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Gravitational Fields", "url": "https://ib.wyattau.com/physics/diagnostics/diag-gravitational-fields"}]
+}
+</script>
 
 ### IT-3: Gravitational Potential and Field Between Two Planets (with Energy)
 

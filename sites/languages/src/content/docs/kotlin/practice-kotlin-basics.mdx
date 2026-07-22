@@ -1,9 +1,27 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Practice Kotlin Basics", "url": "https://languages.wyattau.com/kotlin/practice-kotlin-basics"}]
+}
+</script>
 title: Kotlin Fundamentals Practice (Interactive)
 tags:
   - kotlin
 description: "10 auto-graded practice problems covering Kotlin fundamentals. Select an answer, Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Practice Kotlin Basics", "url": "https://languages.wyattau.com/kotlin/practice-kotlin-basics"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -23,11 +41,29 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Practice Kotlin Basics", "url": "https://languages.wyattau.com/kotlin/practice-kotlin-basics"}]
+}
+</script>
+
 ### Null Safety
 
 <PracticeProblem client:only="solid-js" question={`What is the type of the expression \`val x: String? = null; val y = x?.length ?: "default"\`?`} options={['String', 'Int?', 'Any', 'Int']} correctAnswer={0} explanation={`The safe call \`x?.length\` returns \`Int?\` (null if x is null). The elvis operator \`?:\` provides \`"default"\` (a String) as the fallback. Since one branch produces \`Int\` and the other produces \`String\`, the compiler resolves the common supertype as \`Any\`. If both sides had the same type, the result would be that type.`} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Practice Kotlin Basics", "url": "https://languages.wyattau.com/kotlin/practice-kotlin-basics"}]
+}
+</script>
 
 ### Coroutines
 
@@ -37,11 +73,29 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Practice Kotlin Basics", "url": "https://languages.wyattau.com/kotlin/practice-kotlin-basics"}]
+}
+</script>
+
 ### Scope Functions
 
 <PracticeProblem client:only="solid-js" question={`What does \`val result = "hello".also { print(it) }.let { it.uppercase() }\` evaluate to?`} options={['"HELLO"', '"hello"', 'Unit', 'Compilation error']} correctAnswer={0} explanation={`The chain executes left to right. \`also\` prints \`hello\` (side effect) and returns the receiver \`"hello"\`. Then \`let\` receives \`"hello"\` as \`it\`, calls \`uppercase()\` on it, and returns \`"HELLO"\`. The final value of \`result\` is the return value of the last function in the chain, which is \`"HELLO"\`.`} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Practice Kotlin Basics", "url": "https://languages.wyattau.com/kotlin/practice-kotlin-basics"}]
+}
+</script>
 
 ### Sealed Classes
 
@@ -49,11 +103,29 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Practice Kotlin Basics", "url": "https://languages.wyattau.com/kotlin/practice-kotlin-basics"}]
+}
+</script>
+
 ### Extension Functions
 
 <PracticeProblem client:only="solid-js" question={`Can an extension function override a member function of a class?`} options={[ 'No -- if a class has a member function, the member is always called instead of the extension', 'Yes -- the extension takes priority', 'Yes -- but only if declared in the same package', 'It depends on the visibility modifier', ]} correctAnswer={0} explanation="Extension functions never override member functions. If a class already has a member function with the same signature, the member function is always called. Extensions are resolved statically at compile time based on the declared type of the variable, not the runtime type. This is a fundamental limitation to be aware of when writing extensions." difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Practice Kotlin Basics", "url": "https://languages.wyattau.com/kotlin/practice-kotlin-basics"}]
+}
+</script>
 
 ### Delegation
 
@@ -61,17 +133,44 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Practice Kotlin Basics", "url": "https://languages.wyattau.com/kotlin/practice-kotlin-basics"}]
+}
+</script>
+
 ### Type System
 
 <PracticeProblem client:only="solid-js" question={`What is the result type of \`val x = if (true) 42 else "hello"\`?`} options={['Any', 'Int', 'String', 'Compilation error']} correctAnswer={0} explanation="The `if` expression returns `Int` in the true branch and `String` in the false branch. The compiler finds the nearest common supertype, which is `Any`. This is valid Kotlin -- `x` has type `Any`. If you need a more specific type, both branches must produce compatible types. This is a key difference from Java where such an expression would require explicit casting." difficulty="easy"  />
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Practice Kotlin Basics", "url": "https://languages.wyattau.com/kotlin/practice-kotlin-basics"}]
+}
+</script>
+
 ### Collections
 
 <PracticeProblem client:only="solid-js" question={`What is the result of \`listOf(1, 2, 3, 2, 1).distinct().map { it * 2 }\`?`} options={['[2, 4, 6]', '[2, 4, 6, 4, 2]', '[1, 2, 3]', '[4, 2, 6]']} correctAnswer={0} explanation="The `distinct()` function removes duplicate elements while preserving order, producing `[1, 2, 3]`. Then `map { it * 2 }` transforms each element to its double, producing `[2, 4, 6]`. Both operations return new `List` instances without modifying the original list, since Kotlin collections are immutable by default." difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Practice Kotlin Basics", "url": "https://languages.wyattau.com/kotlin/practice-kotlin-basics"}]
+}
+</script>
 
 ### Inline and Reified
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
+}
+</script>
 title: Computer Science
 description: "- Understand the concepts of computational thinking - Identifying a problem - Accessing the feasibility of solving the problem - Understanding the"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
+}
+</script>
 
 # Prelude
 
@@ -652,6 +670,15 @@ If you get this wrong, revise: [Decomposition](#decomposition)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
+}
+</script>
+
 **Problem 2:** Trace binary search for the value **4** in the sorted array
 `[1, 3, 4, 6, 8, 10, 12]`.
 
@@ -671,6 +698,15 @@ Result: **Found at index 2**, after 3 comparisons.
 If you get this wrong, revise: [Binary Search](#algorithms)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
+}
+</script>
 
 **Problem 3:** An algorithm processes an array of $n$ elements. For each element, it scans the
 entire Array to find duplicates. What is the time complexity? How many operations are performed when
@@ -696,6 +732,15 @@ If you get this wrong, revise: [Efficiency](#efficiency)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
+}
+</script>
+
 **Problem 4:** Trace selection sort on `[64, 25, 12, 22, 11]`. Show the array after each pass.
 
 <details>
@@ -720,6 +765,15 @@ Sorted! Total comparisons: $4 + 3 + 2 + 1 = 10$. Total swaps: 3.
 If you get this wrong, revise: [Selection Sort](#sorting-algorithms)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
+}
+</script>
 
 **Problem 5:** A stack has the following operations performed on it in order: `push(3)``push(7)`
 `push(1)``pop()``push(9)``push(4)``pop()``pop()``peek()`. What values are returned by Each `pop()`
@@ -748,6 +802,15 @@ If you get this wrong, revise: [Stacks](#stacks)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
+}
+</script>
+
 **Problem 6:** A queue has the following operations: `enqueue("red")``enqueue("blue")`
 `enqueue("green")``dequeue()``enqueue("yellow")``dequeue()``enqueue("purple")`. What does The queue
 contain after all operations?
@@ -773,6 +836,15 @@ If you get this wrong, revise: [Queues](#queues)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
+}
+</script>
+
 **Problem 7:** Explain the difference between a **stack** and a **queue**. Give one real-world
 example Of each.
 
@@ -793,6 +865,15 @@ The key difference is the removal policy: stacks remove from the same end where 
 If you get this wrong, revise: [Stacks](#stacks) and [Queues](#queues)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
+}
+</script>
 
 **Problem 8:** Insert the values 8, 3, 10, 1, 6 into an initially empty Binary Search Tree (BST).
 Draw The resulting tree and state the in-order traversal.
@@ -827,6 +908,15 @@ If you get this wrong, revise: [Trees](#trees-hl)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
+}
+</script>
+
 **Problem 9:** A linked list contains the values `10 → 20 → 30 → 40`. Describe what happens when a
 New node with value 25 is inserted between 20 and 30.
 
@@ -849,6 +939,15 @@ While array insertion is O(n).
 If you get this wrong, revise: [Linked Lists](#linked-lists-hl)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
+}
+</script>
 
 **Problem 10:** A school is implementing an AI system that automatically grades student essays.
 Analyze Two ethical concerns and suggest mitigations for each.
@@ -877,6 +976,15 @@ If you get this wrong, revise: [Ethics and Social Impact](#ethics-and-social-imp
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
+}
+</script>
+
 **Problem 11:** Explain why binary search cannot be used on an unsorted array. What would happen if
 you Tried?
 
@@ -903,6 +1011,15 @@ Incorrectly eliminated the right half because the array is not sorted.
 If you get this wrong, revise: [Binary Search](#algorithms)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
+}
+</script>
 
 **Problem 12:** For the following code, determine the output and the time complexity:
 
@@ -959,6 +1076,15 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
+}
+</script>
 
 ## Intuition
 

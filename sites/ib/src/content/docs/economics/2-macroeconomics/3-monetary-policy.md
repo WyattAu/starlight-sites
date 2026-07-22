@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "2 Macroeconomics", "url": "https://ib.wyattau.com/economics/2-macroeconomics"}, {"name": "3 Monetary Policy", "url": "https://ib.wyattau.com/economics/2-macroeconomics/3-monetary-policy"}]
+}
+</script>
 title: Monetary Policy
 description: "Inflation is the sustained increase in the general price level over time. The primary measure is the , which tracks the price of a weighted basket of goods"
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "2 Macroeconomics", "url": "https://ib.wyattau.com/economics/2-macroeconomics"}, {"name": "3 Monetary Policy", "url": "https://ib.wyattau.com/economics/2-macroeconomics/3-monetary-policy"}]
+}
+</script>
 
 ## Intuition
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://ib.wyattau.com/maths/diagnostics/diag-differential-equations"}]
+}
+</script>
 title: "Differential Equations -- Diagnostic Tests"
 description: "IB Maths Differential Equations -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://ib.wyattau.com/maths/diagnostics/diag-differential-equations"}]
+}
+</script>
 
 # Differential Equations — Diagnostic Tests
 
@@ -56,6 +74,15 @@ undefined. This shows the equilibrium solution $y = 1$ cannot be obtained from t
 formula.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://ib.wyattau.com/maths/diagnostics/diag-differential-equations"}]
+}
+</script>
 
 ### UT-2: Integrating Factor — Sign Error
 
@@ -116,6 +143,15 @@ always verify solutions by substitution, rather than relying on intuition about 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://ib.wyattau.com/maths/diagnostics/diag-differential-equations"}]
+}
+</script>
+
 ### UT-3: Second Order — Repeated Root Error
 
 **Question:**
@@ -165,6 +201,15 @@ The student's answer $y = e^{-2x}$ does not satisfy $y'(0) = 0$ since $y' = -2e^
 $y'(0) = -2 \neq 0$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://ib.wyattau.com/maths/diagnostics/diag-differential-equations"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -229,6 +274,15 @@ This confirms that the body temperature asymptotically approaches the ambient te
 expected from Newton's law of cooling.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://ib.wyattau.com/maths/diagnostics/diag-differential-equations"}]
+}
+</script>
 
 ### IT-2: Euler's Method — Comparing with Exact Solution (with Number and Algebra)
 

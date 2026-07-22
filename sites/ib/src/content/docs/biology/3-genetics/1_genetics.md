@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 title: Genetics
 description: "IB Biology — meiosis, Mendelian genetics, inheritance patterns, gene expression, mutations, biotechnology, PCR, and genetic modification."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Intuition
 
@@ -34,6 +52,15 @@ An organism with haploid number $n$Independent assortment alone can produce $2^n
 Genotypes.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## 2. Mendelian Genetics
 
@@ -90,6 +117,15 @@ Green).
 This ratio arises from independent assortment: the two genes segregate independently.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## 3. Non-Mendelian Inheritance
 
@@ -153,6 +189,15 @@ Colour ($B$). A mouse with genotype $ee$ will be albino regardless of its $B/b$ 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## 4. Gene Expression and Regulation
 
 ### The Operon Model (Prokaryotes)
@@ -188,6 +233,15 @@ Eukaryotic gene expression is regulated at multiple levels:
    degradation), protein folding, and localisation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## 5. Mutations
 
@@ -225,6 +279,15 @@ Contributes to evolution. Mutations in somatic cells are not inherited; mutation
 Passed to offspring.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## 6. Biotechnology
 
@@ -274,6 +337,15 @@ Gel electrophoresis separates DNA fragments by size.
 - **Evolutionary biology**: comparing DNA sequences between species to construct phylogenetic trees.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## 7. Genetic Modification
 
@@ -329,6 +401,15 @@ The introduction of a functional gene into a patient's cells to correct a geneti
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - Confusing **dominance** with "more common": a dominant allele is expressed when present, but may
@@ -344,6 +425,15 @@ The introduction of a functional gene into a patient's cells to correct a geneti
   create novel sequences.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -479,6 +569,15 @@ Function.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -627,6 +726,15 @@ Operon genes when a more efficient carbon source (glucose) is available.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Confusing dominance with "more common"**: a dominant allele is expressed when present, but may
@@ -648,6 +756,15 @@ Operon genes when a more efficient carbon source (glucose) is available.
   than expected from single crossover frequencies.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -747,6 +864,15 @@ Student could modify the experiment to increase confidence in their conclusion.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## If You Get These Wrong, Revise:
 
 - **DNA structure and replication** --> Review
@@ -760,6 +886,15 @@ Student could modify the experiment to increase confidence in their conclusion.
   [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## 8. Population Genetics (Extended)
 
@@ -810,6 +945,15 @@ frequency in residents. Gene flow tends to homogenise populations and counteract
 selection and drift.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## 9. Advanced Genetic Crosses
 
@@ -868,6 +1012,15 @@ F2 ($RrSs \times RrSs$): $9$ phenotypic classes instead of $4$:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## 10. Chromosomal Abnormalities
 
 ### Numerical Abnormalities (Aneuploidy)
@@ -898,6 +1051,15 @@ II) To separate properly, resulting in gametes with abnormal chromosome numbers.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## 11. Genetic Counselling and Risk Assessment
 
 ### Pedigree Analysis for Autosomal Recessive Disorders
@@ -922,6 +1084,15 @@ European Populations):
   implantation; allows selection of unaffected embryos.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Exam-Style Problems (Extended)
 
@@ -973,6 +1144,15 @@ interaction reflects the underlying biochemical pathway.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -1146,6 +1326,15 @@ Crossing over, this number increases enormously.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## Additional Common Pitfalls
 
 - **Confusing dominance and recessiveness with "stronger" and "weaker" alleles**: dominance is about
@@ -1166,6 +1355,15 @@ Crossing over, this number increases enormously.
   carriers may have reduced oxygen transport at high altitude.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Additional Exam-Style Problems with Full Solutions
 
@@ -1334,6 +1532,15 @@ Consumer rights and practical implications.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## Cross-References to Related Topics
 
 - **DNA structure and mutations**: Review
@@ -1353,6 +1560,15 @@ Consumer rights and practical implications.
   for antibody genetics and blood type inheritance.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 | Topic      | Site    | Link                                                                             |
 | ---------- | ------- | -------------------------------------------------------------------------------- |

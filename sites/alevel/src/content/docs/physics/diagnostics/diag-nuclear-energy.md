@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Energy", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-nuclear-energy"}]
+}
+</script>
 title: "Nuclear Energy -- Diagnostic Tests"
 description: "A-Level Physics Nuclear Energy -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Energy", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-nuclear-energy"}]
+}
+</script>
 
 
 ## Intuition
@@ -53,6 +71,15 @@ binding energy per nucleon makes $^{4}_{2}\text{He}$ (alpha particles) very tigh
 why alpha decay is a common mode of radioactive decay.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Energy", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-nuclear-energy"}]
+}
+</script>
 
 ### UT-2: Nuclear Fission Energy Calculation
 
@@ -105,6 +132,15 @@ This enormous energy density is why nuclear power is so attractive, despite the 
 management and safety.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Energy", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-nuclear-energy"}]
+}
+</script>
 
 ### UT-3: Fusion Energy and the Proton-Proton Chain
 
@@ -217,6 +253,15 @@ broadening reduce $k$Providing automatic negative feedback.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Energy", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-nuclear-energy"}]
+}
+</script>
+
 ### IT-2: Binding Energy Curve and Stability (with Radioactivity)
 
 **Question:**
@@ -278,6 +323,15 @@ This is why energy release only occurs when moving toward the peak of the BE/A c
 light nuclei, fission for heavy nuclei.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Energy", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-nuclear-energy"}]
+}
+</script>
 
 ### IT-3: Energy from Deuterium-Tritium Fusion (with Gravitational Fields)
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Standard_library", "url": "https://programming.wyattau.com/standard_library"}, {"name": "3_input_output_formatting", "url": "https://programming.wyattau.com/standard_library/3_input_output_formatting"}, {"name": "3_unicode_support", "url": "https://programming.wyattau.com/standard_library/3_input_output_formatting/3_unicode_support"}]
+}
+</script>
 title: Unicode Support
 description: "C++ provides several character types for Unicode support and string literals for UTF-8 text. However, the standard library provides minimal high-level"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Standard_library", "url": "https://programming.wyattau.com/standard_library"}, {"name": "3_input_output_formatting", "url": "https://programming.wyattau.com/standard_library/3_input_output_formatting"}, {"name": "3_unicode_support", "url": "https://programming.wyattau.com/standard_library/3_input_output_formatting/3_unicode_support"}]
+}
+</script>
 
 ## Unicode Support
 

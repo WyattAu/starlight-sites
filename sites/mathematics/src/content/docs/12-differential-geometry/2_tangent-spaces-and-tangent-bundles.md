@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "12 Differential Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry"}, {"name": "2_tangent Spaces And Tangent Bundles", "url": "https://mathematics.wyattau.com/12-differential-geometry/2_tangent-spaces-and-tangent-bundles"}]
+}
+</script>
 title: Tangent Spaces and Tangent Bundles
 tags:
   - Mathematics
   - University
 description: "There are several equivalent definitions of the tangent space at : Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "12 Differential Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry"}, {"name": "2_tangent Spaces And Tangent Bundles", "url": "https://mathematics.wyattau.com/12-differential-geometry/2_tangent-spaces-and-tangent-bundles"}]
+}
+</script>
 
 ### 2.1 Tangent Vectors
 

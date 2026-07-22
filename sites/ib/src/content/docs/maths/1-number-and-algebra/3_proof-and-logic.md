@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "1 Number And Algebra", "url": "https://ib.wyattau.com/maths/1-number-and-algebra"}, {"name": "3_proof And Logic", "url": "https://ib.wyattau.com/maths/1-number-and-algebra/3_proof-and-logic"}]
+}
+</script>
 title: Proof and Logic
 description: "Rigorous IB mathematics notes covering Proof and Logic. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "1 Number And Algebra", "url": "https://ib.wyattau.com/maths/1-number-and-algebra"}, {"name": "3_proof And Logic", "url": "https://ib.wyattau.com/maths/1-number-and-algebra/3_proof-and-logic"}]
+}
+</script>
 
 # Proof and Logic
 
@@ -227,6 +245,15 @@ Is false (there are infinitely many primes), so the original statement is true.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "1 Number And Algebra", "url": "https://ib.wyattau.com/maths/1-number-and-algebra"}, {"name": "3_proof And Logic", "url": "https://ib.wyattau.com/maths/1-number-and-algebra/3_proof-and-logic"}]
+}
+</script>
 
 ## 2. Methods of Proof
 
@@ -572,6 +599,15 @@ statement is false.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "1 Number And Algebra", "url": "https://ib.wyattau.com/maths/1-number-and-algebra"}, {"name": "3_proof And Logic", "url": "https://ib.wyattau.com/maths/1-number-and-algebra/3_proof-and-logic"}]
+}
+</script>
+
 ## 3. Classical Proof Examples
 
 ### 3.1 $\sqrt{2}$ is Irrational (Detailed)
@@ -783,6 +819,15 @@ Substituting back gives the result.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "1 Number And Algebra", "url": "https://ib.wyattau.com/maths/1-number-and-algebra"}, {"name": "3_proof And Logic", "url": "https://ib.wyattau.com/maths/1-number-and-algebra/3_proof-and-logic"}]
+}
+</script>
 
 ## 4. Number Theory Proofs (HL Extension)
 
@@ -1020,6 +1065,15 @@ So $\gcd(252, 105) = 21 = 5 \cdot 105 + (-2) \cdot 252$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "1 Number And Algebra", "url": "https://ib.wyattau.com/maths/1-number-and-algebra"}, {"name": "3_proof And Logic", "url": "https://ib.wyattau.com/maths/1-number-and-algebra/3_proof-and-logic"}]
+}
+</script>
+
 ## 5. Common Pitfalls
 
 ### 5.1 Circular Reasoning
@@ -1181,6 +1235,15 @@ Preserved.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "1 Number And Algebra", "url": "https://ib.wyattau.com/maths/1-number-and-algebra"}, {"name": "3_proof And Logic", "url": "https://ib.wyattau.com/maths/1-number-and-algebra/3_proof-and-logic"}]
+}
+</script>
+
 ## 6. Proof Techniques Summary
 
 | Method             | When to Use                                        | Key Idea                           |
@@ -1245,6 +1308,15 @@ Transitivity of divisibility, $n \mid (a-b)$. Therefore $a \equiv b \pmod{n}$.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "1 Number And Algebra", "url": "https://ib.wyattau.com/maths/1-number-and-algebra"}, {"name": "3_proof And Logic", "url": "https://ib.wyattau.com/maths/1-number-and-algebra/3_proof-and-logic"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 <strong>Diagnostic Test</strong>

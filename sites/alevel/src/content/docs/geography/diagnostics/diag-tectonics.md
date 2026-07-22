@@ -1,9 +1,27 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/geography/diagnostics"}, {"name": "Diag Tectonics", "url": "https://alevel.wyattau.com/geography/diagnostics/diag-tectonics"}]
+}
+</script>
 title: "Diagnostic Test: Tectonics"
 description: "Self-assessment quiz on A-Level physical geography tectonics"
 tableOfContents: false
 sidebar_position: 40
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/geography/diagnostics"}, {"name": "Diag Tectonics", "url": "https://alevel.wyattau.com/geography/diagnostics/diag-tectonics"}]
+}
+</script>
 
 
 ## Intuition
@@ -15,6 +33,15 @@ sidebar_position: 40
 **Instructions:** Attempt each question without referring to notes. Select the best answer from the four options provided. After completing all questions, check your answers against the key below.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/geography/diagnostics"}, {"name": "Diag Tectonics", "url": "https://alevel.wyattau.com/geography/diagnostics/diag-tectonics"}]
+}
+</script>
 
 ## Questions
 
@@ -90,6 +117,15 @@ sidebar_position: 40
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/geography/diagnostics"}, {"name": "Diag Tectonics", "url": "https://alevel.wyattau.com/geography/diagnostics/diag-tectonics"}]
+}
+</script>
+
 ## Answer Key
 
 | Question | Answer | Topic                    |
@@ -106,6 +142,15 @@ sidebar_position: 40
 |    10    |  (B)   | Vulnerability & Development |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/geography/diagnostics"}, {"name": "Diag Tectonics", "url": "https://alevel.wyattau.com/geography/diagnostics/diag-tectonics"}]
+}
+</script>
 
 ## Explanations
 

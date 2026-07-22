@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Data Structures", "url": "https://alevel.wyattau.com/computer-science/data-structures"}, {"name": "06 Hash Tables", "url": "https://alevel.wyattau.com/computer-science/data-structures/06-hash-tables"}]
+}
+</script>
 title: Hash Tables
 description: "A (hash map) is a data structure that maps keys to values using a To compute an index into an array of buckets. It provides average-case time for insert,"
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - ComputerScience
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Data Structures", "url": "https://alevel.wyattau.com/computer-science/data-structures"}, {"name": "06 Hash Tables", "url": "https://alevel.wyattau.com/computer-science/data-structures/06-hash-tables"}]
+}
+</script>
 
 ## 1. Introduction
 

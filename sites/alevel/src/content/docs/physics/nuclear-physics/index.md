@@ -1,5 +1,14 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Nuclear Physics", "url": "https://alevel.wyattau.com/physics/nuclear-physics"}, {"name": "Index", "url": "https://alevel.wyattau.com/physics/nuclear-physics/index"}]
+}
+</script>
+
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -26,6 +35,15 @@
 title: Nuclear & Quantum Physics
 description: "A-Level Nuclear "
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Nuclear Physics", "url": "https://alevel.wyattau.com/physics/nuclear-physics"}, {"name": "Index", "url": "https://alevel.wyattau.com/physics/nuclear-physics/index"}]
+}
+</script>
 
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">
@@ -191,6 +209,15 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 - [Particle Physics](./04-particle-physics.md): Investigates the fundamental particles and forces that govern nuclear interactions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Nuclear Physics", "url": "https://alevel.wyattau.com/physics/nuclear-physics"}, {"name": "Index", "url": "https://alevel.wyattau.com/physics/nuclear-physics/index"}]
+}
+</script>
 
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">

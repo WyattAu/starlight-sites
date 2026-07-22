@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "06 Incident Response", "url": "https://security.wyattau.com/06-incident-response"}, {"name": "Forensics", "url": "https://security.wyattau.com/06-incident-response/forensics"}]
+}
+</script>
 title: Digital Forensics Basics
 description: "The chain of custody is a documented record of every person who handled evidence, when, where, and Why. A broken chain of custody renders evidence"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "06 Incident Response", "url": "https://security.wyattau.com/06-incident-response"}, {"name": "Forensics", "url": "https://security.wyattau.com/06-incident-response/forensics"}]
+}
+</script>
 
 ## Forensic Fundamentals
 

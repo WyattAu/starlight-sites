@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "12 Vectors", "url": "https://alevel.wyattau.com/maths/pure-mathematics/12-vectors"}]
+}
+</script>
 title: Vectors
 description: "| Board | Paper | Notes | | ---------- | ---------- | -------------------------------------------------- | | AQA | Paper 1, 2 | 2D vectors in P1; 3D"
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "12 Vectors", "url": "https://alevel.wyattau.com/maths/pure-mathematics/12-vectors"}]
+}
+</script>
 
 ## Board Coverage
 
@@ -811,6 +829,15 @@ The adjacent sides are not perpendicular, so $ABCD$ is **not** a rectangle.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "12 Vectors", "url": "https://alevel.wyattau.com/maths/pure-mathematics/12-vectors"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 the A-Level specification for this topic, each with a full worked solution.

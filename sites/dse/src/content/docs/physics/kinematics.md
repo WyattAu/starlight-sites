@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Kinematics", "url": "https://dse.wyattau.com/physics/kinematics"}]
+}
+</script>
 title: Physics - Kinematics
 description: "DSE Physics - Kinematics notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and thorough revision."
 tags: [DSE, Physics]
 categories: [DSE, Physics]
 date: 2026-05-31T00:00:00.000Z
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Kinematics", "url": "https://dse.wyattau.com/physics/kinematics"}]
+}
+</script>
 
 ## 1. Scalars and Vectors
 
@@ -24,6 +42,15 @@ $$F = \sqrt{F_x^2 + F_y^2}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Kinematics", "url": "https://dse.wyattau.com/physics/kinematics"}]
+}
+</script>
+
 ## 2. Distance and Displacement
 
 | Quantity     | Type   | Definition                                    |
@@ -35,6 +62,15 @@ $$F = \sqrt{F_x^2 + F_y^2}$$
 - Displacement can be zero if the object returns to its starting point
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Kinematics", "url": "https://dse.wyattau.com/physics/kinematics"}]
+}
+</script>
 
 ## 3. Speed and Velocity
 
@@ -70,6 +106,15 @@ $$v = \frac{\Delta s}{\Delta t}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Kinematics", "url": "https://dse.wyattau.com/physics/kinematics"}]
+}
+</script>
+
 ## 4. Acceleration
 
 **Acceleration** is the rate of change of velocity:
@@ -81,6 +126,15 @@ $$a = \frac{\Delta v}{\Delta t} = \frac{v - u}{t}$$
 - A negative acceleration (deceleration) means the object is slowing down
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Kinematics", "url": "https://dse.wyattau.com/physics/kinematics"}]
+}
+</script>
 
 ## 5. Equations of Motion (Uniform Acceleration)
 
@@ -108,6 +162,15 @@ Where:
 4. **Check:** does the answer make sense? (e.g. negative displacement, zero final velocity)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Kinematics", "url": "https://dse.wyattau.com/physics/kinematics"}]
+}
+</script>
 
 ## 6. Acceleration Due to Gravity
 
@@ -138,6 +201,15 @@ Plot $h$ vs $t^2$; gradient = $\frac{g}{2}$
 - Gives velocity at each gate; use $v^2 = u^2 + 2as$ to find $g$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Kinematics", "url": "https://dse.wyattau.com/physics/kinematics"}]
+}
+</script>
 
 ## 7. Projectile Motion
 
@@ -176,6 +248,15 @@ The path of a projectile is a **parabola**. The vertical velocity is zero at the
 horizontal velocity is never zero (in ideal conditions).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Kinematics", "url": "https://dse.wyattau.com/physics/kinematics"}]
+}
+</script>
 
 ## 8. Stopping Distance
 
@@ -217,6 +298,15 @@ At $70\ \mathrm{mph}$: total $\approx 96\ \mathrm{m}$ (21 m thinking + 75 m brak
 Note how braking distance increases much more than thinking distance as speed increases.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Kinematics", "url": "https://dse.wyattau.com/physics/kinematics"}]
+}
+</script>
 
 ## 9. Key Equations Reference
 

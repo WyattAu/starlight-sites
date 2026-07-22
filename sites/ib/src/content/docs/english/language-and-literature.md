@@ -1,14 +1,41 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Language And Literature", "url": "https://ib.wyattau.com/english/language-and-literature"}]
+}
+</script>
 title: "IB Language and Literature Course Overview"
 description: "Comprehensive overview of IB Language and Literature: Paper 1, Paper 2, HL Essay, Individual Oral, assessment weightings, key differences from English A Literature, and study strategies."
 sidebar_position: 14
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Language And Literature", "url": "https://ib.wyattau.com/english/language-and-literature"}]
+}
+</script>
 
 # IB Language and Literature Course Overview
 
 IB English A: Language and Literature is a two-year course that examines the relationship between language and literature across a range of text types. It differs from English A: Literature in its inclusion of non-literary texts and its emphasis on how language constructs meaning in all forms of communication. This page provides a comprehensive overview of the course structure, assessment components, and strategies for success.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Language And Literature", "url": "https://ib.wyattau.com/english/language-and-literature"}]
+}
+</script>
 
 ## 1. Course Structure
 
@@ -31,6 +58,15 @@ Students study literary texts -- novels, poetry, drama, short fiction -- with at
 Students study a body of literary works connected by a specific theme, genre, or period. This part develops the comparative and contextual analysis skills required for the HL Essay.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Language And Literature", "url": "https://ib.wyattau.com/english/language-and-literature"}]
+}
+</script>
 
 ## Intuition
 
@@ -144,6 +180,15 @@ The IOC is a prepared oral commentary on a passage from a literary text studied 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Language And Literature", "url": "https://ib.wyattau.com/english/language-and-literature"}]
+}
+</script>
+
 ## 3. Key Differences from English A: Literature
 
 Students choosing between Language and Literature and Literature should understand the fundamental differences between the two courses:
@@ -161,6 +206,15 @@ Students choosing between Language and Literature and Literature should understa
 The most significant difference is the scope of text types. Language and Literature students must be able to analyse advertisements, speeches, editorials, and visual texts with the same rigour they apply to poetry and prose. This requires a broader analytical toolkit, including knowledge of media conventions, rhetorical strategies, and visual grammar.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Language And Literature", "url": "https://ib.wyattau.com/english/language-and-literature"}]
+}
+</script>
 
 ## 4. Study Strategies
 
@@ -203,6 +257,15 @@ The most significant difference is the scope of text types. Language and Literat
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Language And Literature", "url": "https://ib.wyattau.com/english/language-and-literature"}]
+}
+</script>
+
 ## 5. Common Pitfalls and How to Avoid Them
 
 ### 5.1 Identification Without Analysis
@@ -237,6 +300,15 @@ The most significant difference is the scope of text types. Language and Literat
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Language And Literature", "url": "https://ib.wyattau.com/english/language-and-literature"}]
+}
+</script>
+
 ## 6. Glossary of Key Terms
 
 | Term | Definition |
@@ -256,6 +328,15 @@ The most significant difference is the scope of text types. Language and Literat
 | **Tone** | The attitude of a text toward its subject or audience, conveyed through linguistic choices |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Language And Literature", "url": "https://ib.wyattau.com/english/language-and-literature"}]
+}
+</script>
 
 ## 7. Self-Assessment Checklist
 

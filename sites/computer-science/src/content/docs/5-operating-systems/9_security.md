@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "5 Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems"}, {"name": "9_security", "url": "https://computer-science.wyattau.com/5-operating-systems/9_security"}]
+}
+</script>
 title: Security
 tags:
   - Computing
   - University
 description: 'Each object (file, directory, device) has an associated list of Entries specifying which subjects (users, groups) have which permissions (read, write, execute).'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "5 Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems"}, {"name": "9_security", "url": "https://computer-science.wyattau.com/5-operating-systems/9_security"}]
+}
+</script>
 
 ### 9.1 Access Control
 

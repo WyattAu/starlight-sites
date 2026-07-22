@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Data Structures", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-data-structures"}]
+}
+</script>
 title: "Data Structures -- Diagnostic Tests"
 description: "A-Level Computer Science Data Structures -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Data Structures", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-data-structures"}]
+}
+</script>
 
 
 ## Intuition
@@ -53,6 +71,15 @@ node's `prev` pointer gives direct access to the second-to-last node, making tai
 Both head and tail operations become $O(1)$ with a doubly linked list.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Data Structures", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-data-structures"}]
+}
+</script>
 
 ### UT-2: Hash Table Collision Handling
 
@@ -114,6 +141,15 @@ This demonstrates a limitation of quadratic probing: with certain patterns, it m
 empty slots even when the table is not full.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Data Structures", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-data-structures"}]
+}
+</script>
 
 ### UT-3: Binary Search Tree Operations
 
@@ -207,6 +243,15 @@ associativity).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Data Structures", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-data-structures"}]
+}
+</script>
+
 ### IT-2: Graph Representation and Traversal (with Algorithms)
 
 **Question:** A weighted graph has vertices A, B, C, D, E with edges: A-B(4), A-C(2), B-C(1),
@@ -256,6 +301,15 @@ Alternative path A $\to$ C $\to$ D $\to$ E: weight $2 + 8 + 2 = 12$ (longer).
 The shortest path is A $\to$ C $\to$ B $\to$ D $\to$ E with total weight 10.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Data Structures", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-data-structures"}]
+}
+</script>
 
 ### IT-3: Tree Balancing and Complexity (with Complexity Analysis)
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
 title: Chemical Kinetics
 description: "Rigorous IB chemistry notes covering Chemical Kinetics. Includes definitions, derivations, worked examples, and exam-style problems. collision theory."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Intuition
 
@@ -58,6 +76,15 @@ Methods for measuring reaction rate:
 | Clock reaction | Time for observable change | Iodine clock reaction          |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Collision Theory
 
@@ -119,6 +146,15 @@ A catalyst:
 - Does NOT change the equilibrium position or $\Delta H$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Rate Equations
 
@@ -210,6 +246,15 @@ A plot of $\dfrac{1}{[\mathrm{A}]}$ vs $t$ gives a straight line with gradient $
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
+
 ## Determining the Order of Reaction
 
 ### Initial Rates Method
@@ -257,6 +302,15 @@ Monitor the concentration of a reactant or product throughout the reaction and p
 Time. The shape of the curve indicates the order.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## The Arrhenius Equation
 
@@ -323,6 +377,15 @@ Increase in temperature (for reactions with typical activation energies near roo
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
+
 ## Reaction Mechanisms
 
 ### Elementary Steps
@@ -370,6 +433,15 @@ The overall order is 2 (first order in NO$_2$First order in F$_2$).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
+
 ## Catalysts
 
 ### Types of Catalysts
@@ -405,6 +477,15 @@ Catalysts provide an alternative pathway with lower activation energy:
 | Reactants and products | Same energy   | Same energy  |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## IB Exam-Style Questions
 
@@ -502,6 +583,15 @@ Alternative reaction pathway with lower activation energy. D. They change the eq
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
+
 ## Summary
 
 | Concept                | Key Formula                                                                   |
@@ -523,6 +613,15 @@ Equilibrium approximations.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Chemical Kinetics: Extended
 
@@ -620,6 +719,15 @@ Cutting a cube into 8 smaller cubes doubles the surface area, doubling the rate.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
+
 ## Enzyme Kinetics
 
 ### Michaelis-Menten Kinetics
@@ -654,6 +762,15 @@ Where:
 | Inhibitors              | Competitive: increases apparent $K_M$; Non-competitive: decreases $V_{\max}$ |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Additional IB Exam-Style Questions
 
@@ -748,6 +865,15 @@ $= k[\mathrm{A}]^2$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
+
 ## Chemical Kinetics: Extended Topics
 
 ### Determining Order from Concentration-Time Data
@@ -830,6 +956,15 @@ A catalyst provides an alternative pathway with a lower $E_a$:
 | ZrO$_2$    | Ziegler-Natta process | Polymerisation of alkenes                    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Additional IB Exam-Style Questions
 
@@ -1072,6 +1207,15 @@ $$k_{320} = 3.494 \times 2.0 \times 10^{-3} = 6.99 \times 10^{-3}\mathrm{ s}^{-1
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
+}
+</script>
 
 ## Related Content at Other Levels
 

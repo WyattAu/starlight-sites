@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "02 Cryptography", "url": "https://security.wyattau.com/02-cryptography"}, {"name": "Tls In Practice", "url": "https://security.wyattau.com/02-cryptography/tls-in-practice"}]
+}
+</script>
 title: TLS in Practice
 description: "| Source | Cost | Validation | Trust | Best For | | -------------- | ---- | ------------------- | --------- | -------------------------------- | | Let' s"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "02 Cryptography", "url": "https://security.wyattau.com/02-cryptography"}, {"name": "Tls In Practice", "url": "https://security.wyattau.com/02-cryptography/tls-in-practice"}]
+}
+</script>
 
 ## Getting a Certificate
 

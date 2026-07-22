@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Go", "url": "https://languages.wyattau.com/go"}, {"name": "Basics", "url": "https://languages.wyattau.com/go/basics"}, {"name": "Types And Variables", "url": "https://languages.wyattau.com/go/basics/types-and-variables"}]
+}
+</script>
 title: Types and Variables
 description: "Go provides signed and unsigned integers at standard widths: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-18
@@ -7,6 +16,15 @@ tags:
 categories:
   - Go
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Go", "url": "https://languages.wyattau.com/go"}, {"name": "Basics", "url": "https://languages.wyattau.com/go/basics"}, {"name": "Types And Variables", "url": "https://languages.wyattau.com/go/basics/types-and-variables"}]
+}
+</script>
 
 ## Integer Types
 

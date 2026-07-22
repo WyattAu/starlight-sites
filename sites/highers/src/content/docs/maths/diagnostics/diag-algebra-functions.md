@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra Functions", "url": "https://highers.wyattau.com/maths/diagnostics/diag-algebra-functions"}]
+}
+</script>
 title: "Algebra and Functions -- Diagnostic Tests"
 description: "Comprehensive educational content notes on algebra and functions -- diagnostic tests with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra Functions", "url": "https://highers.wyattau.com/maths/diagnostics/diag-algebra-functions"}]
+}
+</script>
 
 # Algebra and Functions -- Diagnostic Tests
 
@@ -57,6 +75,15 @@ $$= (2x - 1 - x - 3)(2x - 1 + x + 3)$$
 $$= (x - 4)(3x + 2)$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra Functions", "url": "https://highers.wyattau.com/maths/diagnostics/diag-algebra-functions"}]
+}
+</script>
 
 ### UT-2: Functions and Composite Functions
 
@@ -115,6 +142,15 @@ Assuming the intended functions are $p(x) = 3x - 1$ and $q(x) = \frac{x + 1}{3}$
 confirms that $p$ and $q$ are **inverse functions** of each other, meaning $q = p^{-1}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra Functions", "url": "https://highers.wyattau.com/maths/diagnostics/diag-algebra-functions"}]
+}
+</script>
 
 ### UT-3: Graphs of Functions
 
@@ -177,6 +213,15 @@ so $(-1, 3)$ is a **local maximum**.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra Functions", "url": "https://highers.wyattau.com/maths/diagnostics/diag-algebra-functions"}]
+}
+</script>
+
 ## Integration Tests
 
 ### IT-1: Functions and Quadratic Applications
@@ -231,6 +276,15 @@ Substituting $x = 2, y = -3$: $-3 = 4 - 8 + q$, so $q = 1$.
 The equation is $y = x^2 - 4x + 1$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra Functions", "url": "https://highers.wyattau.com/maths/diagnostics/diag-algebra-functions"}]
+}
+</script>
 
 ### IT-2: Advanced Function Analysis
 

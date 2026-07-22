@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "05 Advanced", "url": "https://ruby.wyattau.com/05-advanced"}, {"name": "1_metaprogramming", "url": "https://ruby.wyattau.com/05-advanced/1_metaprogramming"}]
+}
+</script>
 title: Metaprogramming
 description: "Ruby metaprogramming techniques."
 date: 2026-06-04T10:00:00.000Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - Ruby
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "05 Advanced", "url": "https://ruby.wyattau.com/05-advanced"}, {"name": "1_metaprogramming", "url": "https://ruby.wyattau.com/05-advanced/1_metaprogramming"}]
+}
+</script>
 
 ## What Is Metaprogramming?
 
@@ -987,6 +1005,15 @@ puts empty_user.errors    # => ["name is required", "email is required"]
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "05 Advanced", "url": "https://ruby.wyattau.com/05-advanced"}, {"name": "1_metaprogramming", "url": "https://ruby.wyattau.com/05-advanced/1_metaprogramming"}]
+}
+</script>
+
 ### Example 2: Method Wrapping with `alias_method` and `define_method`
 
 **Problem:** Create a timing decorator that can be applied to any method, measuring execution time without modifying the original method.
@@ -1041,6 +1068,15 @@ puts processor.process_batch_timings
 **Explanation:** `instance_method` captures the original method as an `UnboundMethod`. `define_method` creates a new method that times execution using monotonic clocks. `original.bind(self).call` invokes the original method. The `:timed` class method acts as a declarative decorator.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "05 Advanced", "url": "https://ruby.wyattau.com/05-advanced"}, {"name": "1_metaprogramming", "url": "https://ruby.wyattau.com/05-advanced/1_metaprogramming"}]
+}
+</script>
 
 ### Example 3: Dynamic Module Inclusion with `eval`
 

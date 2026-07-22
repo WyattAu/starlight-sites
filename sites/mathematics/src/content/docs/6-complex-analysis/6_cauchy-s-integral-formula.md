@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "6_cauchy S Integral Formula", "url": "https://mathematics.wyattau.com/6-complex-analysis/6_cauchy-s-integral-formula"}]
+}
+</script>
 title: Cauchy's Integral Formula
 tags:
   - Mathematics
   - University
 description: "If is analytic on a connected domain Containing a simple closed positively orien Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "6_cauchy S Integral Formula", "url": "https://mathematics.wyattau.com/6-complex-analysis/6_cauchy-s-integral-formula"}]
+}
+</script>
 
 ### 6.1 Statement
 

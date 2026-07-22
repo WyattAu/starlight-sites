@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "04 Networking", "url": "https://linux.wyattau.com/04-networking"}, {"name": "Dns And Dhcp", "url": "https://linux.wyattau.com/04-networking/dns-and-dhcp"}]
+}
+</script>
 title: DNS and DHCP on Linux
 description: "The traditional DNS resolver configuration file: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "04 Networking", "url": "https://linux.wyattau.com/04-networking"}, {"name": "Dns And Dhcp", "url": "https://linux.wyattau.com/04-networking/dns-and-dhcp"}]
+}
+</script>
 
 ## DNS Resolution on Linux
 

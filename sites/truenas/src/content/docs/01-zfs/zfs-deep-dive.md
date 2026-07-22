@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "01 Zfs", "url": "https://truenas.wyattau.com/01-zfs"}, {"name": "Zfs Deep Dive", "url": "https://truenas.wyattau.com/01-zfs/zfs-deep-dive"}]
+}
+</script>
 title: ZFS Deep Dive
 description: "ZFS is not a traditional filesystem. It is a combined volume manager and filesys Comprehensive educational content coverage with definitions and practice proble"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "01 Zfs", "url": "https://truenas.wyattau.com/01-zfs"}, {"name": "Zfs Deep Dive", "url": "https://truenas.wyattau.com/01-zfs/zfs-deep-dive"}]
+}
+</script>
 
 ## ZFS Architecture
 
@@ -73,6 +91,15 @@ Changed after pool creation. `edonr` is the fastest on hardware with SSE4.2+ sup
 Excellent collision resistance.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "01 Zfs", "url": "https://truenas.wyattau.com/01-zfs"}, {"name": "Zfs Deep Dive", "url": "https://truenas.wyattau.com/01-zfs/zfs-deep-dive"}]
+}
+</script>
 
 ## Storage Pools
 
@@ -150,6 +177,15 @@ zpool create -o ashift=12 tank \
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "01 Zfs", "url": "https://truenas.wyattau.com/01-zfs"}, {"name": "Zfs Deep Dive", "url": "https://truenas.wyattau.com/01-zfs/zfs-deep-dive"}]
+}
+</script>
+
 ## Dataset Hierarchy
 
 ### Datasets and Properties
@@ -202,6 +238,15 @@ Retain their original block sizes. To benefit from a recordsize change, you must
 (e.g., copy files to a new dataset with the desired recordsize).
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "01 Zfs", "url": "https://truenas.wyattau.com/01-zfs"}, {"name": "Zfs Deep Dive", "url": "https://truenas.wyattau.com/01-zfs/zfs-deep-dive"}]
+}
+</script>
 
 ## Snapshots
 
@@ -257,6 +302,15 @@ zfs promote tank/data-restore
 | Use case       | Backup points, rollback        | Testing, temporary environments |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "01 Zfs", "url": "https://truenas.wyattau.com/01-zfs"}, {"name": "Zfs Deep Dive", "url": "https://truenas.wyattau.com/01-zfs/zfs-deep-dive"}]
+}
+</script>
 
 ## ARC, L2ARC, and SLOG
 
@@ -319,6 +373,15 @@ Acceptable. Consumer NVMe SSDs without PLP should not be used as SLOG devices.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "01 Zfs", "url": "https://truenas.wyattau.com/01-zfs"}, {"name": "Zfs Deep Dive", "url": "https://truenas.wyattau.com/01-zfs/zfs-deep-dive"}]
+}
+</script>
+
 ## Scrub and Resilver
 
 ### Scrub
@@ -367,6 +430,15 @@ Resilver progress and ensure the pool is healthy before and after.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "01 Zfs", "url": "https://truenas.wyattau.com/01-zfs"}, {"name": "Zfs Deep Dive", "url": "https://truenas.wyattau.com/01-zfs/zfs-deep-dive"}]
+}
+</script>
+
 ## Send and Receive
 
 ### Incremental Replication
@@ -399,6 +471,15 @@ zfs send -w tank/data@snapshot1 | zfs recv backup/data
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "01 Zfs", "url": "https://truenas.wyattau.com/01-zfs"}, {"name": "Zfs Deep Dive", "url": "https://truenas.wyattau.com/01-zfs/zfs-deep-dive"}]
+}
+</script>
+
 ## zpool Status Interpretation
 
 ### Reading zpool status
@@ -430,6 +511,15 @@ Key fields to understand:
 | REMOVED  | Drive has been physically removed                   | Reinsert or replace        |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "01 Zfs", "url": "https://truenas.wyattau.com/01-zfs"}, {"name": "Zfs Deep Dive", "url": "https://truenas.wyattau.com/01-zfs/zfs-deep-dive"}]
+}
+</script>
 
 ## Common Pitfalls
 

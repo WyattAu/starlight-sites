@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
 title: Permutations and Combinations
 description: "DSE Maths Permutations and Combinations notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision."
 date: 2026-04-18T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
 
 ## Factorial Notation
 
@@ -34,6 +52,15 @@ Simplify $\dfrac{10!}{7! \cdot 3!}$.
 $$\frac{10!}{7! \cdot 3!} = \frac{10 \times 9 \times 8 \times 7!}{7! \times 6} = \frac{720}{6} = 120$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
 
 ## Permutations
 
@@ -93,6 +120,15 @@ $$(6 - 1)! = 5! = 120$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
+
 ## Combinations
 
 ### Definition
@@ -121,6 +157,15 @@ $$P_r^n = r! \times C_r^n$$
 This reflects the fact that each combination of $r$ objects can be arranged in $r!$ ways.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
 
 ## Pascal"s Triangle
 
@@ -177,6 +222,15 @@ Coefficient: $\binom{7}{3} \cdot 2^3 = 35 \times 8 = 280$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
+
 ## Applications
 
 ### Selection Problems
@@ -214,6 +268,15 @@ Hands with at least one ace: $2598960 - 1712304 = 886656$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - Confusing permutations with combinations. Ask: does the order matter? If yes, use $P_r^n$; if no,
@@ -228,6 +291,15 @@ Hands with at least one ace: $2598960 - 1712304 = 886656$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
+
 ## Summary Table
 
 | Topic             | Formula                                            |
@@ -241,6 +313,15 @@ Hands with at least one ace: $2598960 - 1712304 = 886656$.
 | Pascal's identity | $\binom{n}{k} = \binom{n-1}{k-1} + \binom{n-1}{k}$ |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
 
 <details>
 <summary>Wrap-up Questions</summary>
@@ -332,6 +413,15 @@ Total: $350 + 350 = 700$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
+
 ## Additional Worked Examples
 
 **Worked Example 10: Arrangements with repeated letters**
@@ -420,6 +510,15 @@ $$\binom{6}{4} \cdot 2^4 = 15 \times 16 = 240$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
+
 ## Additional Common Pitfalls
 
 1. **Order matters vs. Does not matter.** "Arranging" implies permutations (order matters).
@@ -454,6 +553,15 @@ $$\binom{6}{4} \cdot 2^4 = 15 \times 16 = 240$$
    ways to arrange" use $P$; if it asks "how many ways to choose" use $C$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -583,6 +691,15 @@ $$420 - 120 = 300$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
+
 ## Cross-References
 
 - **Probability:** Counting techniques form the foundation of probability calculations. See the
@@ -593,6 +710,15 @@ $$420 - 120 = 300$$
   See [Quadratics](3_quadratics.mdx).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
 
 ## DSE Exam Technique
 
@@ -621,6 +747,15 @@ and must not be rounded.
 5. **Division into groups** (equal groups, indistinguishable groups).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -741,6 +876,15 @@ $$!5 = 5!\left(1 - 1 + \frac{1}{2} - \frac{1}{6} + \frac{1}{24} - \frac{1}{120}\
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
 
 ## DSE Exam-Style Questions
 

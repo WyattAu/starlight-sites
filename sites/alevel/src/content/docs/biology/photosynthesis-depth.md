@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Photosynthesis Depth", "url": "https://alevel.wyattau.com/biology/photosynthesis-depth"}]
+}
+</script>
 title: Photosynthesis (In Depth)
 description: "Photosynthesis is the process by which photoautotrophs convert light energy into chemical energy stored in organic molecules. The overall equation for"
 date: 2026-04-18T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Photosynthesis Depth", "url": "https://alevel.wyattau.com/biology/photosynthesis-depth"}]
+}
+</script>
 
 ## Photosynthesis (In Depth)
 
@@ -1109,6 +1127,15 @@ relationship between rate and distance is non-linear.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Photosynthesis Depth", "url": "https://alevel.wyattau.com/biology/photosynthesis-depth"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 ## 22. Photosynthesis and Agriculture: Maximising Crop Yield
 
@@ -1171,6 +1198,15 @@ $= 2304 \times 6.022 \times 10^{23} \times 3.61 \times 10^{-19} = 2304 \times 2.
 Daily electricity cost $= 139 \times \pounds 0.15 = \pounds 20.85$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Photosynthesis Depth", "url": "https://alevel.wyattau.com/biology/photosynthesis-depth"}]
+}
+</script>
 
 </aside>
 <aside class="starlight-aside starlight-aside--tip">
@@ -2303,6 +2339,15 @@ in shortest supply. At any given moment, only one factor limits the rate of phot
 | Rate decreases at high temperature                                                                                | Temperature is above the optimum; enzymes (especially Rubisco) are denaturing                            |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Photosynthesis Depth", "url": "https://alevel.wyattau.com/biology/photosynthesis-depth"}]
+}
+</script>
 
 </aside>
 <aside class="starlight-aside starlight-aside--tip">

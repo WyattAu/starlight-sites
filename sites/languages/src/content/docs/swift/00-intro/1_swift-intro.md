@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Swift", "url": "https://languages.wyattau.com/swift"}, {"name": "00 Intro", "url": "https://languages.wyattau.com/swift/00-intro"}, {"name": "1_swift Intro", "url": "https://languages.wyattau.com/swift/00-intro/1_swift-intro"}]
+}
+</script>
 title: Introduction to Swift
 description: "Swift is a developed by Apple for building applications across all Apple platforms -- iOS, iPadOS, macOS, watchOS, tvOS, and visionOS. It was designed to be"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Swift
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Swift", "url": "https://languages.wyattau.com/swift"}, {"name": "00 Intro", "url": "https://languages.wyattau.com/swift/00-intro"}, {"name": "1_swift Intro", "url": "https://languages.wyattau.com/swift/00-intro/1_swift-intro"}]
+}
+</script>
 
 ## What Is Swift?
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "4 Vectors", "url": "https://highers.wyattau.com/maths/4-vectors"}, {"name": "4_vectors", "url": "https://highers.wyattau.com/maths/4-vectors/4_vectors"}]
+}
+</script>
 title: Vectors and Matrices
 description: 'Scottish Highers Maths Vectors and Matrices notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.'
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "4 Vectors", "url": "https://highers.wyattau.com/maths/4-vectors"}, {"name": "4_vectors", "url": "https://highers.wyattau.com/maths/4-vectors/4_vectors"}]
+}
+</script>
 
 # Vectors and Matrices
 
@@ -194,6 +212,15 @@ $AC$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "4 Vectors", "url": "https://highers.wyattau.com/maths/4-vectors"}, {"name": "4_vectors", "url": "https://highers.wyattau.com/maths/4-vectors/4_vectors"}]
+}
+</script>
+
 ## Higher Matrices
 
 ### Matrix Notation and Operations
@@ -321,6 +348,15 @@ The relationship with the identity matrix $\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{p
 This matrix represents an enlargement by scale factor 1 (i.e., the identity/no transformation).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "4 Vectors", "url": "https://highers.wyattau.com/maths/4-vectors"}, {"name": "4_vectors", "url": "https://highers.wyattau.com/maths/4-vectors/4_vectors"}]
+}
+</script>
 
 ## Advanced Higher Vectors
 
@@ -486,6 +522,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "4 Vectors", "url": "https://highers.wyattau.com/maths/4-vectors"}, {"name": "4_vectors", "url": "https://highers.wyattau.com/maths/4-vectors/4_vectors"}]
+}
+</script>
+
 ## Advanced Higher Matrices
 
 ### $3 \times 3$ Determinants
@@ -624,6 +669,15 @@ as columns.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "4 Vectors", "url": "https://highers.wyattau.com/maths/4-vectors"}, {"name": "4_vectors", "url": "https://highers.wyattau.com/maths/4-vectors/4_vectors"}]
+}
+</script>
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.
@@ -669,6 +723,15 @@ See the examples integrated throughout the sections above.
    off-diagonal entries.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "4 Vectors", "url": "https://highers.wyattau.com/maths/4-vectors"}, {"name": "4_vectors", "url": "https://highers.wyattau.com/maths/4-vectors/4_vectors"}]
+}
+</script>
 
 ## Practice Questions
 

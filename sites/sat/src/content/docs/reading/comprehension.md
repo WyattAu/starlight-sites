@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading", "url": "https://sat.wyattau.com/reading"}, {"name": "Comprehension", "url": "https://sat.wyattau.com/reading/comprehension"}]
+}
+</script>
 title: "Comprehension"
 description: "SAT reading: Comprehension"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading", "url": "https://sat.wyattau.com/reading"}, {"name": "Comprehension", "url": "https://sat.wyattau.com/reading/comprehension"}]
+}
+</script>
 
 # Comprehension
 
@@ -40,6 +58,15 @@ Step 3: The correct inference is that the project may resume in the future but t
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading", "url": "https://sat.wyattau.com/reading"}, {"name": "Comprehension", "url": "https://sat.wyattau.com/reading/comprehension"}]
+}
+</script>
+
 ### Example 2: Purpose Question
 
 **Problem:** The author mentions "a 2019 study" in paragraph 3. What is the primary purpose of this reference?
@@ -54,6 +81,15 @@ Step 4: Choose the answer that says "to provide evidence for" or "to support the
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading", "url": "https://sat.wyattau.com/reading"}, {"name": "Comprehension", "url": "https://sat.wyattau.com/reading/comprehension"}]
+}
+</script>
+
 ### Example 3: Vocabulary in Context
 
 **Problem:** "The scientist's findings were **provocative**." What does "provocative" most nearly mean?
@@ -66,6 +102,15 @@ Step 3: It does NOT mean "annoying" or "offensive" — test each option by subst
 **Key insight:** The SAT tests words with multiple meanings. Always use context, not just the most common definition.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading", "url": "https://sat.wyattau.com/reading"}, {"name": "Comprehension", "url": "https://sat.wyattau.com/reading/comprehension"}]
+}
+</script>
 
 ## Intuition
 

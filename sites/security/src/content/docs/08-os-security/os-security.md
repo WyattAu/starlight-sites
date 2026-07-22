@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "08 Os Security", "url": "https://security.wyattau.com/08-os-security"}, {"name": "Os Security", "url": "https://security.wyattau.com/08-os-security/os-security"}]
+}
+</script>
 title: OS Security
 description: "SSH is the primary remote administration protocol on Linux. Default configuratio Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-08T00:00:00.000Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - Security
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "08 Os Security", "url": "https://security.wyattau.com/08-os-security"}, {"name": "Os Security", "url": "https://security.wyattau.com/08-os-security/os-security"}]
+}
+</script>
 
 ## Linux Security Hardening
 

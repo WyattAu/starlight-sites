@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "00 Intro", "url": "https://swift.wyattau.com/00-intro"}, {"name": "1_swift Intro", "url": "https://swift.wyattau.com/00-intro/1_swift-intro"}]
+}
+</script>
 title: Introduction to Swift
 description: "Swift is a developed by Apple for building applications across all Apple platforms -- iOS, iPadOS, macOS, watchOS, tvOS, and visionOS. It was designed to be"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Swift
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "00 Intro", "url": "https://swift.wyattau.com/00-intro"}, {"name": "1_swift Intro", "url": "https://swift.wyattau.com/00-intro/1_swift-intro"}]
+}
+</script>
 
 ## What Is Swift?
 
@@ -532,6 +550,15 @@ print("After: \(outside.celsius)°C")   // 25.0 (unchanged)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "00 Intro", "url": "https://swift.wyattau.com/00-intro"}, {"name": "1_swift Intro", "url": "https://swift.wyattau.com/00-intro/1_swift-intro"}]
+}
+</script>
+
 ### Example 2: Optionals for Null Safety
 
 **Problem:** Safely parse a user-supplied string into an integer, handling all failure cases without runtime crashes.
@@ -574,6 +601,15 @@ for input in testCases {
 **Explanation:** Optionals replace null pointers. The compiler enforces that you handle the `nil` case before using the value. `guard let` is preferred over `if let` for early exits, keeping the happy path at the lowest indentation level. This pattern is fundamental to Swift's safety guarantees.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "00 Intro", "url": "https://swift.wyattau.com/00-intro"}, {"name": "1_swift Intro", "url": "https://swift.wyattau.com/00-intro/1_swift-intro"}]
+}
+</script>
 
 ### Example 3: Protocol-Oriented Design
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Testing", "url": "https://tools.wyattau.com/general/testing"}, {"name": "Iframe Integration", "url": "https://tools.wyattau.com/general/testing/iframe-integration"}]
+}
+</script>
 title: Iframe Integration
 description: "Guide for integrating iframes in documentation."
 date: 2025-07-11T23:22:50.056Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - CS
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Testing", "url": "https://tools.wyattau.com/general/testing"}, {"name": "Iframe Integration", "url": "https://tools.wyattau.com/general/testing/iframe-integration"}]
+}
+</script>
 
 ## Intuition
 

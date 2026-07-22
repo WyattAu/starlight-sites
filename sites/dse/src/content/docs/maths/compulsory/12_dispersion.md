@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "12_dispersion", "url": "https://dse.wyattau.com/maths/compulsory/12_dispersion"}]
+}
+</script>
 title: Dispersion
 description: "Statistics is the branch of mathematics concerned with the collection, organisation, analysis, and Interpretation of data. In the DSE compulsory syllabus,"
 date: 2025-06-03T16:18:22.480Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "12_dispersion", "url": "https://dse.wyattau.com/maths/compulsory/12_dispersion"}]
+}
+</script>
 
 Statistics is the branch of mathematics concerned with the collection, organisation, analysis, and
 Interpretation of data. In the DSE compulsory syllabus, we focus on **descriptive
@@ -391,6 +409,15 @@ While not computed algebraically in the compulsory syllabus, students should rec
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "12_dispersion", "url": "https://dse.wyattau.com/maths/compulsory/12_dispersion"}]
+}
+</script>
+
 <details>
 <summary>Wrap-up Questions</summary>
 1. **Question:** The marks of $7$ students are $56, 62, 45, 78, 83, 71, 65$. Find the mean, median, and mode.
@@ -580,6 +607,15 @@ For the A-Level treatment of this topic, see
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "12_dispersion", "url": "https://dse.wyattau.com/maths/compulsory/12_dispersion"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 the DSE specification for this topic, each with a full worked solution.
 
@@ -590,6 +626,15 @@ See for instructions on
 self-marking and building a personal test matrix.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "12_dispersion", "url": "https://dse.wyattau.com/maths/compulsory/12_dispersion"}]
+}
+</script>
 
 ## DSE Exam Technique
 
@@ -618,6 +663,15 @@ otherwise. Exact fractions are preferred when they arise .
 5. **Coefficient of variation** for comparing relative dispersion.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "12_dispersion", "url": "https://dse.wyattau.com/maths/compulsory/12_dispersion"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -737,6 +791,15 @@ $\sigma = \sqrt{\dfrac{269}{9}} = \dfrac{\sqrt{269}}{3} \approx 5.47$.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "12_dispersion", "url": "https://dse.wyattau.com/maths/compulsory/12_dispersion"}]
+}
+</script>
 
 ## DSE Exam-Style Questions
 

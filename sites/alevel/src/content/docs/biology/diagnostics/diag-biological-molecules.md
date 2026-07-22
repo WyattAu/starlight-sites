@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biological Molecules", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biological-molecules"}]
+}
+</script>
 title: "Biological Molecules -- Diagnostic Tests"
 description: "A-Level Biology Biological Molecules -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biological Molecules", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biological-molecules"}]
+}
+</script>
 
 
 ## Intuition
@@ -59,6 +77,15 @@ induced fit also applies more broadly — the key point is that the active site 
 alpha linkage).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biological Molecules", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biological-molecules"}]
+}
+</script>
 
 ### UT-2: Levels of Protein Structure and Enzyme Active Site Models
 
@@ -122,6 +149,15 @@ the induced fit model better explains why enzymes catalyse only one reaction (sp
 exclude molecules of very similar structure.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biological Molecules", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biological-molecules"}]
+}
+</script>
 
 ### UT-3: DNA vs RNA Structure and Enzyme Inhibition
 
@@ -192,6 +228,15 @@ affinity to any uninhibited enzyme molecules).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biological Molecules", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biological-molecules"}]
+}
+</script>
+
 ## Integration Tests
 
 ### IT-1: Protein Synthesis and Enzyme Specificity (with Genetics and DNA)
@@ -255,6 +300,15 @@ this fluid bilayer.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biological Molecules", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biological-molecules"}]
+}
+</script>
+
 ### IT-2: Water Properties and Gas Exchange Surface (with Exchange and Transport)
 
 **Question:**
@@ -312,6 +366,15 @@ dissolved in the aqueous cytoplasm of red blood cells) — the small amount that
 plasma does so in the aqueous portion of blood.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biological Molecules", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biological-molecules"}]
+}
+</script>
 
 ### IT-3: Enzyme Kinetics in Digestion and Absorption (with Exchange and Transport)
 

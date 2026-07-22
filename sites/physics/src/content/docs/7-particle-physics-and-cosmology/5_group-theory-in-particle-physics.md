@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "7 Particle Physics And Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology"}, {"name": "5_group Theory In Particle Physics", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology/5_group-theory-in-particle-physics"}]
+}
+</script>
 title: Group Theory in Particle Physics
 tags:
   - Physics
   - University
 description: "The strong interaction is governed by the gauge group . The eight gluons correspond to the Eight generators of SU(3), the Gell-Mann matrices ()."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "7 Particle Physics And Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology"}, {"name": "5_group Theory In Particle Physics", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology/5_group-theory-in-particle-physics"}]
+}
+</script>
 
 ### 5.1 SU(3) Colour
 

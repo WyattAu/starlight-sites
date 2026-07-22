@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electricity Magnetism", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electricity-magnetism"}]
+}
+</script>
 title: "Electricity and Magnetism -- Diagnostic Tests"
 description: "DSE Physics Electricity and Magnetism -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electricity Magnetism", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electricity-magnetism"}]
+}
+</script>
 
 # Electricity and Magnetism — Diagnostic Tests
 
@@ -44,6 +62,15 @@ NOT on the speed at which the coil is removed. A faster removal gives a larger E
 for a shorter time, so the total charge is the same.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electricity Magnetism", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electricity-magnetism"}]
+}
+</script>
 
 ### UT-2: Transformer with Load and Efficiency
 
@@ -95,6 +122,15 @@ is that the primary must draw MORE current to compensate for the losses.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electricity Magnetism", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electricity-magnetism"}]
+}
+</script>
+
 ### UT-3: DC Motor with Back EMF
 
 **Question:**
@@ -136,6 +172,15 @@ there is no back EMF, so the current is limited only by the armature resistance.
 up, the back EMF increases, reducing the current automatically.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electricity Magnetism", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electricity-magnetism"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -201,6 +246,15 @@ reaches a very low terminal velocity.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electricity Magnetism", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electricity-magnetism"}]
+}
+</script>
+
 ### IT-2: AC Generator Output Analysis (with Electrical Circuits)
 
 **Question:**
@@ -243,6 +297,15 @@ through coil is zero but rate of change of flux is maximum). Conversely, the EMF
 coil plane is perpendicular to the field (flux is maximum but rate of change is zero).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electricity Magnetism", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electricity-magnetism"}]
+}
+</script>
 
 ### IT-3: Electromagnetic Braking System (with Mechanics and Energy)
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomic Policy", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-macroeconomic-policy"}]
+}
+</script>
 title: "Macroeconomic Policy -- Diagnostic Tests"
 description: "A-Level Economics Macroeconomic Policy -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomic Policy", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-macroeconomic-policy"}]
+}
+</script>
 
 
 ## Intuition
@@ -42,6 +60,15 @@ of $\pounds 800$~m.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomic Policy", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-macroeconomic-policy"}]
+}
+</script>
+
 ### UT-2: Phillips Curve Analysis
 
 **Question:** The short-run Phillips curve is given by $\pi = \pi^e - 3(u - 5) + 0.5x$Where $\pi$ is
@@ -74,6 +101,15 @@ $\pi = \pi^e - 3(u^* - 5) + 0$. For $\pi = \pi^e$: $-3(u^* - 5) = 0$So $u^* = 5\
 The natural rate is 5%.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomic Policy", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-macroeconomic-policy"}]
+}
+</script>
 
 ### UT-3: Fiscal Policy Analysis
 
@@ -165,6 +201,15 @@ significantly as people spend money faster in anticipation of further rate rises
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomic Policy", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-macroeconomic-policy"}]
+}
+</script>
+
 ### IT-2: AD/AS and Supply-Side Policy (with Supply-Side Policy)
 
 **Question:** An economy is experiencing stagflation: inflation at 8% and unemployment at 8%, with
@@ -206,6 +251,15 @@ This is the key advantage of supply-side policies over demand-side policies in a
 stagflation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomic Policy", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-macroeconomic-policy"}]
+}
+</script>
 
 ### IT-3: Exchange Rates and Balance of Payments (with The International Economy)
 
@@ -262,6 +316,15 @@ improving it -- the full benefits may take 1--2 years to materialise.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomic Policy", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-macroeconomic-policy"}]
+}
+</script>
+
 ## Section 3: Extended Macroeconomic Policy Practice
 
 **UT-4 (Extension).** An economy has the following data:
@@ -294,6 +357,15 @@ $= 340.68 - 270 = +70.68$. The budget surplus has increased by 25.22, from 45.46
 balanced budget multiplier is NOT 1 here because of proportional taxation and imports (leakages).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomic Policy", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-macroeconomic-policy"}]
+}
+</script>
 
 **UT-5 (Extension): AD/AS with Simultaneous Shocks.** An economy has AD: $Y = 600 - 2P$SRAS:
 $Y = 4P - 200$And LRAS: $Y^* = 500$. (a) Find the current equilibrium and identify any output gap.
@@ -342,6 +414,15 @@ increase but not the output decline.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomic Policy", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-macroeconomic-policy"}]
+}
+</script>
+
 **IT-4 (Extension): Fiscal Policy and Debt Dynamics.** A country has GDP = $\pounds 2000$Bn,
 government debt = $\pounds 1800$Bn (90% of GDP), budget deficit = $\pounds 100$Bn (5% of GDP), and
 the interest rate on government debt = 4%. GDP grows at 2% per year and inflation is 3%. (a)
@@ -383,6 +464,15 @@ A primary surplus of 2.24% of GDP ($\pounds 44.8\text{bn}$) sustained for 10 yea
 debt ratio from 90% to 60%.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomic Policy", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-macroeconomic-policy"}]
+}
+</script>
 
 **IT-5 (Extension): Monetary Policy Transmission.** The Bank of England raises the Bank Rate from 3%
 to 4%. (a) If the interest elasticity of investment is $-0.5$ and investment was $\pounds 300$Bn,

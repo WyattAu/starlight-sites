@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Qualitative Research", "url": "https://ib.wyattau.com/psychology/qualitative-research"}]
+}
+</script>
 title: Qualitative Research (HL)
 description: "Quantitative and qualitative research represent fundamentally different approaches to the study of human behaviour. They are rooted in different"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Qualitative Research", "url": "https://ib.wyattau.com/psychology/qualitative-research"}]
+}
+</script>
 
 ## Qualitative vs. Quantitative Approaches
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Proof", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-proof"}]
+}
+</script>
 title: "Proof -- Diagnostic Tests"
 description: "A-Level Maths Proof -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Proof", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-proof"}]
+}
+</script>
 
 
 ## Intuition
@@ -81,6 +99,15 @@ Both $p$ and $q$ divisible by 3 contradicts $\gcd(p,q) = 1$. Therefore $\sqrt{3}
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Proof", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-proof"}]
+}
+</script>
+
 ### UT-2: Proof by Induction — Base Case Errors
 
 **Question:**
@@ -155,6 +182,15 @@ So the smallest $N$ is $5$: $2^n \gt n^2$ for all $n \geq 5$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Proof", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-proof"}]
+}
+</script>
+
 ### UT-3: Necessary vs Sufficient Conditions
 
 **Question:**
@@ -213,6 +249,15 @@ $x^2 = 4$.)
 $-2 \neq 2$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Proof", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-proof"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -275,6 +320,15 @@ $$= 3n - \frac{1 - (1/2)^n}{1 - 1/2} = 3n - 2\left(1 - \frac{1}{2^n}\right) = 3n
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Proof", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-proof"}]
+}
+</script>
+
 ### IT-2: Proving a Function is Injective (with Functions)
 
 **Question:**
@@ -334,6 +388,15 @@ injective (since $g(k) = g(-k)$ for $k \neq 0$). Adding $0$ to either half prese
 Therefore the largest subsets are $[0, \infty)$ and $(-\infty, 0]$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Proof", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-proof"}]
+}
+</script>
 
 ### IT-3: Divisibility Proof Using Induction (with Number Theory)
 

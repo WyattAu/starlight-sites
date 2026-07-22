@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "4_fermi Gas At Finite Temperature", "url": "https://physics.wyattau.com/2-thermal-physics/4_fermi-gas-at-finite-temperature"}]
+}
+</script>
 title: Fermi Gas at Finite Temperature
 tags:
   - Physics
   - University
 description: "Fermi gas at finite temperature and the Sommerfeld expansion."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "4_fermi Gas At Finite Temperature", "url": "https://physics.wyattau.com/2-thermal-physics/4_fermi-gas-at-finite-temperature"}]
+}
+</script>
 
 ### 4.1 Sommerfeld Expansion
 
@@ -150,4 +168,13 @@ A Fermi gas at finite temperature is like a theatre filling up with picky patron
 | Heat capacity         | 0                        | $C_V = Nk_B \cdot \frac{\pi^2}{2}(T/T_F)$     |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "4_fermi Gas At Finite Temperature", "url": "https://physics.wyattau.com/2-thermal-physics/4_fermi-gas-at-finite-temperature"}]
+}
+</script>
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 title: Genetics
 description: "Before proceeding, the following terms must be understood precisely. Ambiguity in terminology is the Single most common source of lost marks in DSE genetics"
 date: 2026-04-08T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Mendelian Genetics
 
@@ -145,6 +163,15 @@ Recessive offspring suggests (but does not prove with certainty, especially in s
 That the parent is homozygous.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Non-Mendelian Inheritance
 
@@ -298,6 +325,15 @@ genotype is epistatic because it masks the effect of the B locus.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## Sex-Linked Inheritance
 
 ### Sex Determination in Humans
@@ -380,6 +416,15 @@ Probability that their daughter is a carrier: 1/2.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## Genetic Diagrams and Punnett Squares
 
 ### Conventions
@@ -409,6 +454,15 @@ need to show All individual genotypes. For X-linked crosses, always use a Punnet
 gamete Combinations differ between males and females.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Gene Interaction (Epistasis)
 
@@ -496,6 +550,15 @@ Cross: AaBb x AaBb yields 15 triangular : 1 oval.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## Chromosome Mutations
 
 Chromosome mutations involve changes to the structure or number of whole chromosomes. These are
@@ -558,6 +621,15 @@ lethal in humans.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## Gene Mutations
 
 ### Types of Gene Mutations
@@ -607,6 +679,15 @@ Gene per generation. Mutations can be caused by:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## The Human Genome Project
 
 ### Overview
@@ -642,6 +723,15 @@ Personalised medicine -- tailoring drug choice and dosage to an individual's gen
 Efficacy and minimise adverse effects.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Genetic Engineering Techniques
 
@@ -754,6 +844,15 @@ Identification.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## Genetically Modified Organisms (GMOs)
 
 ### Definition
@@ -810,6 +909,15 @@ Different countries have different approaches to GMO regulation:
   described)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Gene Therapy
 
@@ -868,6 +976,15 @@ Material within a patient's cells.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## Intuition
 
 **Nature's instruction manual:** Genetics is like a recipe book — DNA contains the instructions, genes are individual recipes, and proteins are the dishes that get made. Mutations are typos in the recipe.
@@ -918,6 +1035,15 @@ Material within a patient's cells.
     not produce a functional protein in bacteria.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Problem Set
 
@@ -1140,6 +1266,15 @@ a 1-bp insertion in the CFTR gene causes cystic fibrosis).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## Gene Regulation
 
 ### Why Gene Regulation Matters
@@ -1239,6 +1374,15 @@ itself is unchanged.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## Chromosome Mutations
 
 ### Changes in Chromosome Number
@@ -1270,6 +1414,15 @@ zygote has 2n-1 chromosomes (monosomy).
 | Translocation | A segment breaks off and attaches to a non-homologous chromosome | Can create fusion genes; e.g., Philadelphia chromosome in CML |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Additional Problem Set
 
@@ -1354,6 +1507,15 @@ these, protein synthesis cannot occur.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 the DSE specification for this topic, each with a full worked solution.
 
@@ -1364,6 +1526,15 @@ See for instructions on
 self-marking and building a personal test matrix.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Genetic Diseases
 
@@ -1405,6 +1576,15 @@ self-marking and building a personal test matrix.
 | Affected female with unaffected male: all children affected? | Yes (she passes the dominant allele to all children) | No (children are carriers at most)            | No (sons receive Y from father; daughters receive one normal X) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Karyotyping and Chromosomal Analysis
 
@@ -1457,6 +1637,15 @@ self-marking and building a personal test matrix.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **Dominant does NOT mean more common.** A dominant allele is expressed when only one copy is
@@ -1474,6 +1663,15 @@ self-marking and building a personal test matrix.
   phenotypically normal)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## DNA Technology in Detail
 
@@ -1542,6 +1740,15 @@ PCR is a technique used to amplify a specific region of DNA in vitro (outside a 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
+
 ## Genetic Fingerprinting (DNA Profiling)
 
 ### Process
@@ -1574,6 +1781,15 @@ PCR is a technique used to amplify a specific region of DNA in vitro (outside a 
 | Conservation biology         | Monitoring genetic diversity in endangered populations; identifying illegal trade in wildlife products (e.g., elephant ivory, rhino horn)         |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://dse.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://dse.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 
 ## Common Pitfalls
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Discrete Mathematics", "url": "https://computer-science.wyattau.com/1-discrete-mathematics"}, {"name": "2_sets Relations And Functions", "url": "https://computer-science.wyattau.com/1-discrete-mathematics/2_sets-relations-and-functions"}]
+}
+</script>
 title: Sets, Relations, and Functions
 tags:
   - Computing
   - University
 description: "Sets, Relations, and Functions: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Discrete Mathematics", "url": "https://computer-science.wyattau.com/1-discrete-mathematics"}, {"name": "2_sets Relations And Functions", "url": "https://computer-science.wyattau.com/1-discrete-mathematics/2_sets-relations-and-functions"}]
+}
+</script>
 
 ### 2.1 Sets
 

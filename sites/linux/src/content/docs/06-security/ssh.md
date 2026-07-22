@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "06 Security", "url": "https://linux.wyattau.com/06-security"}, {"name": "Ssh", "url": "https://linux.wyattau.com/06-security/ssh"}]
+}
+</script>
 title: SSH
 description: "SSH protocol for encrypted remote access."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "06 Security", "url": "https://linux.wyattau.com/06-security"}, {"name": "Ssh", "url": "https://linux.wyattau.com/06-security/ssh"}]
+}
+</script>
 
 ## SSH Protocol Overview
 

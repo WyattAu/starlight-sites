@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Syllabus", "url": "https://ib.wyattau.com/maths/Syllabus"}]
+}
+</script>
 title: Syllabus
 description: "This is based on the IB Mathematics: Analysis and Approaches syllabus (first ass Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Syllabus", "url": "https://ib.wyattau.com/maths/Syllabus"}]
+}
+</script>
 
 ### IB Mathematics AA HL/SL Syllabus Overview
 
@@ -180,6 +198,15 @@ The IB Mathematics AA syllabus is structured like a journey from concrete to abs
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Syllabus", "url": "https://ib.wyattau.com/maths/Syllabus"}]
+}
+</script>
+
 ### Worked Examples
 
 ### Worked Example: Arithmetic and Geometric Series (Topic 1)
@@ -348,6 +375,15 @@ Rotated $360$ degrees about the $x$-axis.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Syllabus", "url": "https://ib.wyattau.com/maths/Syllabus"}]
+}
+</script>
+
 ### Notes by Level
 
 #### Standard Level (SL)
@@ -368,6 +404,15 @@ Manipulation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Syllabus", "url": "https://ib.wyattau.com/maths/Syllabus"}]
+}
+</script>
+
 ### Links to Existing Content
 
 - [Number and Algebra](1-number-and-algebra/1_number-and-algebra.md) -- arithmetic and geometric
@@ -385,6 +430,15 @@ Manipulation.
 - [Maths Index](maths.md) -- overview of all mathematics notes
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Syllabus", "url": "https://ib.wyattau.com/maths/Syllabus"}]
+}
+</script>
 
 ## Problem Set
 

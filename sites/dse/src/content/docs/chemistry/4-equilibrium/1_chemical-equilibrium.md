@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
 title: Chemistry - Chemical Equilibrium
 description: "A reversible reaction is one that can proceed in both the forward and reverse di Comprehensive educational content coverage with definitions and practice proble"
 tags: [DSE, Chemistry]
 categories: [DSE, Chemistry]
 date: 2026-04-08T00:00:00.000Z
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
 
 ## Dynamic Equilibrium
 
@@ -32,6 +50,15 @@ Dynamic equilibrium is established when:
 
 > **Caution:** Warning (e.g., a gas leaving an open container), equilibrium will never be reached.
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
 
 ## Le Chatelier"s Principle
 
@@ -122,6 +149,15 @@ Position of equilibrium or the equilibrium yield. It only helps the system reach
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
+
 ## Equilibrium Constant $K_c$
 
 ### Definition
@@ -175,6 +211,15 @@ $$\mathrm{CaCO}_{3(s)} \rightleftharpoons \mathrm{CaO}_{(s)} + \mathrm{CO}_{2(g)
 $$K_c = [\mathrm{CO}_2]$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
 
 ## Equilibrium Calculations
 
@@ -298,6 +343,15 @@ $Q_c = 0.250 \lt K_c = 0.500$So the forward reaction is favoured. More $\mathrm{
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
+
 ## The Haber Process
 
 ### Reaction
@@ -329,6 +383,15 @@ Removing $\mathrm{NH}_3$ (by condensation) and recycling unreacted gases, the ov
 Reaches about 98%.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
 
 ## The Contact Process
 
@@ -379,6 +442,15 @@ Condense.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
+
 ## Industrial Applications of Equilibrium
 
 ### Nitric Acid Production (Ostwald Process)
@@ -398,6 +470,15 @@ $$\mathrm{C}_2\mathrm{H}_{4(g)} + \mathrm{H}_2\mathrm{O}_{(g)} \rightleftharpoon
 - Excess steam shifts equilibrium to the right.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
 
 ## Advanced Equilibrium Calculations
 
@@ -498,6 +579,15 @@ Close enough. Percentage conversion of $\mathrm{N}_2$ = $0.02054 / 0.500 \times 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
+
 ## Relationship Between $K_c$ and $K_p$
 
 For gaseous equilibria, $K_p$ uses partial pressures instead of concentrations.
@@ -534,6 +624,15 @@ When $\Delta n = 0$, $K_p = K_c$ with no units.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
+
 ## Intuition
 
 **A tug-of-war that never ends:** Chemical equilibrium is like two teams pulling on a rope — both forward and reverse reactions happen at the same rate, so concentrations don't change, but reactions haven't stopped.
@@ -569,6 +668,15 @@ When $\Delta n = 0$, $K_p = K_c$ with no units.
    multiplied by 2, $K_c' = (K_c)^2$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -810,6 +918,15 @@ Practice, all real equilibria have non-zero concentrations of all species.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
+
 ## Quantitative Le Chatelier: Estimating New Equilibrium Positions
 
 ### Approximate Calculation
@@ -864,6 +981,15 @@ Reversing it.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
+
 ## Equilibrium and Gibbs Free Energy
 
 The equilibrium constant is related to the standard Gibbs free energy change:
@@ -902,6 +1028,15 @@ $$K = e^{2.179} = 8.84$$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
+}
+</script>
 
 ## Summary of Key Equations
 

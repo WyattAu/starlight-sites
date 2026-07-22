@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Assessment", "url": "https://ib.wyattau.com/physics/Assessment"}]
+}
+</script>
 title: Assessment
 description: "IB Physics (first assessment 2025) is examined through a combination of external written papers and An Internal Assessment (IA). The external component"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Assessment", "url": "https://ib.wyattau.com/physics/Assessment"}]
+}
+</script>
 
 ## Assessment Overview
 
@@ -17,6 +35,15 @@ And HL, while the IA accounts for the remaining 20%.
 | IA        | 20%          | 20%          | 10 hours      | 10 hours      | --         | --         |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Assessment", "url": "https://ib.wyattau.com/physics/Assessment"}]
+}
+</script>
 
 ## Paper 1 -- Multiple Choice
 
@@ -50,6 +77,15 @@ Options, only one of which is correct.
 - Manage your time: roughly 1.5 minutes per question at SL and 1.5 minutes per question at HL.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Assessment", "url": "https://ib.wyattau.com/physics/Assessment"}]
+}
+</script>
 
 ## Paper 2 -- Extended Response
 
@@ -86,6 +122,15 @@ And explanations.
 - For explanation questions, use precise physics terminology and structure your response logically.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Assessment", "url": "https://ib.wyattau.com/physics/Assessment"}]
+}
+</script>
 
 ## Paper 3 -- HL Extension (HL Only)
 
@@ -128,6 +173,15 @@ Paper 3 draws exclusively from AHL content across all five themes:
   behaviour at C.5 versus C.1--C.4).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Assessment", "url": "https://ib.wyattau.com/physics/Assessment"}]
+}
+</script>
 
 ## Internal Assessment (IA)
 
@@ -180,6 +234,15 @@ Criterion, 24 marks total):
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Assessment", "url": "https://ib.wyattau.com/physics/Assessment"}]
+}
+</script>
+
 ## Grade Boundaries
 
 IB Physics uses the standard IB 1--7 grading scale. Grade boundaries are determined after each
@@ -205,6 +268,15 @@ Examination session and vary from session to session depending on the difficulty
 - Always check the most recent grade boundaries published by the IB for the specific session.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Assessment", "url": "https://ib.wyattau.com/physics/Assessment"}]
+}
+</script>
 
 ## Intuition
 

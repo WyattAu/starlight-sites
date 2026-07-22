@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://ib.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
 title: "Genetics -- Diagnostic Tests"
 description: "IB Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://ib.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
 
 # Genetics — Diagnostic Tests
 
@@ -53,6 +71,15 @@ confirms independent assortment of the two genes.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://ib.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
+
 ### UT-2: Chi-Squared Test
 
 **Question:** A cross between two heterozygous pea plants (Tt x Tt) produces 732 tall and 268 dwarf
@@ -89,6 +116,15 @@ The p-value for $\chi^2 = 1.728$ with $df = 1$ is approximately $0.19$Meaning th
 probability of observing this much deviation (or more) by chance alone.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://ib.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
 
 ### UT-3: Sex-Linked Inheritance
 
@@ -166,6 +202,15 @@ deleterious recessive alleles persist in populations at low frequencies.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://ib.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
+
 ### IT-2: Genetic Crosses and Molecular Biology (with Molecular Biology)
 
 **Question:** A mutation in the beta-globin gene (HbS) causes sickle cell anaemia. The normal allele
@@ -202,6 +247,15 @@ This explains the geographic correlation between the HbS allele frequency and hi
 endemicity in West Africa, the Mediterranean, and parts of India.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://ib.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
 
 ### IT-3: Pedigree Analysis and Chi-Squared (with Cell Biology)
 

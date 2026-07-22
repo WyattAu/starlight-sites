@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
 title: "Human Physiology -- Diagnostic Tests"
 description: "IB Biology Human Physiology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
 
 # Human Physiology — Diagnostic Tests
 
@@ -62,6 +80,15 @@ This matches the given equilibrium potential of $-90\ \text{mV}$Confirming the c
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
+
 ### UT-2: Synaptic Transmission
 
 **Question:** Describe the sequence of events at a cholinergic synapse from the arrival of an action
@@ -97,6 +124,15 @@ and miosis. Organophosphate nerve agents (e.g., sarin) and certain pesticides (e
 lethal precisely because they irreversibly inhibit AChE.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
 
 ### UT-3: Hormone Action vs Nerve Impulse
 
@@ -187,6 +223,15 @@ pH below 7.35).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
+
 ### IT-2: Immune System and Molecular Recognition (with Molecular Biology)
 
 **Question:** Explain the process by which a B cell produces antibodies specific to a particular
@@ -233,6 +278,15 @@ re-exposure to the same antigen, memory B cells mount a faster, stronger seconda
    (monoclonal) antibodies.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Physiology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-human-physiology"}]
+}
+</script>
 
 ### IT-3: Cardiovascular Function and Gas Exchange (with Ecology)
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "12_advanced Topics In Superconductivity", "url": "https://physics.wyattau.com/6-solid-state-physics/12_advanced-topics-in-superconductivity"}]
+}
+</script>
 title: Advanced Topics in Superconductivity
 tags:
   - Physics
   - University
 description: 'The Ginzburg--Landau (GL) theory provides a phenomenological description of supe Comprehensive educational content coverage with definitions and practice proble'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "12_advanced Topics In Superconductivity", "url": "https://physics.wyattau.com/6-solid-state-physics/12_advanced-topics-in-superconductivity"}]
+}
+</script>
 
 ### 12.1 Ginzburg--Landau Theory
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
 title: Homeostasis
 description: "Homeostasis is the maintenance of a constant internal environment despite changes in the external environment. It is essential for the proper functioning of"
 date: 2026-04-08T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
 
 ## Principles of Homeostasis
 
@@ -85,6 +103,15 @@ does NOT maintain a constant internal environment.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
+
 ## Blood Glucose Regulation
 
 ### Normal Blood Glucose Homeostasis
@@ -159,6 +186,15 @@ threshold**).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
+
 ## Temperature Regulation (Thermoregulation)
 
 ### The Hypothalamus as the Thermoregulatory Centre
@@ -216,6 +252,15 @@ explains why adequate hydration is critical during exercise in hot environments 
 replaced leads to dehydration and reduced blood volume, impairing thermoregulation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
 
 ## Osmoregulation
 
@@ -303,6 +348,15 @@ present. Without this gradient, the kidneys could not produce concentrated urine
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
+
 ## Blood pH Regulation
 
 ### Why Blood pH Must Be Regulated
@@ -354,6 +408,15 @@ The kidneys provide a slower but more powerful mechanism for pH regulation (take
   fewer $\mathrm{H}^+$ ions, allowing pH to decrease.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
 
 ## Diabetes Mellitus
 
@@ -431,6 +494,15 @@ osmolarity, which stimulates osmoreceptors in the hypothalamus, triggering thirs
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
+
 ## Intuition
 
 **Life's balancing act:** Homeostasis is like a thermostat — the body constantly monitors conditions and adjusts to keep them stable. When blood sugar rises, insulin brings it down; when it falls, glucagon brings it back up.
@@ -484,6 +556,15 @@ osmolarity, which stimulates osmoreceptors in the hypothalamus, triggering thirs
     even elevated. Type 1 diabetes involves NO insulin production.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
 
 ## Problem Set
 
@@ -567,6 +648,15 @@ resolves after childbirth.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
+
 ## Endocrine Disorders
 
 ### Thyroid Disorders
@@ -642,7 +732,25 @@ bradycardia.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
+
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
 
 ## Thermoregulation in Non-Mammals
 
@@ -706,6 +814,15 @@ drought. Common in desert animals (e.g., desert tortoise, African lungfish).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
+
 ## Thermoregulation in Non-Mammals
 
 ### Temperature Regulation in Ectotherms
@@ -760,6 +877,15 @@ drought. Common in desert animals (e.g., desert tortoise, African lungfish).
 | Behavioural adaptations  | Huddling; building snow dens; reducing activity; sheltering from wind                                                                                                     |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
 
 ## The Nephron in Detail
 
@@ -830,6 +956,15 @@ medulla:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
+
 ## Skin and Temperature Regulation in Detail
 
 ### Skin Structure
@@ -880,6 +1015,15 @@ medulla:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **Ultrafiltration occurs in the glomerulus; selective reabsorption occurs primarily in the
@@ -901,6 +1045,15 @@ See for instructions on
 self-marking and building a personal test matrix.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
 
 ## Kidney Dialysis
 
@@ -964,6 +1117,15 @@ and death.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
+
 ## ADH and Water Balance in Detail
 
 ### Osmoregulation Pathway
@@ -1023,6 +1185,15 @@ and death.
   nephrogenic DI
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
 
 ## Blood Glucose Regulation in Detail
 

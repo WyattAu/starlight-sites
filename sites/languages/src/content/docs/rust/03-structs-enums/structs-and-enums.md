@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "03 Structs Enums", "url": "https://languages.wyattau.com/rust/03-structs-enums"}, {"name": "Structs And Enums", "url": "https://languages.wyattau.com/rust/03-structs-enums/structs-and-enums"}]
+}
+</script>
 title: Structs and Enums
 description: "Structs are the primary mechanism for defining custom types in Rust. Unlike classes in C++ or Java, Structs in Rust do not support inheritance. Composition"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "03 Structs Enums", "url": "https://languages.wyattau.com/rust/03-structs-enums"}, {"name": "Structs And Enums", "url": "https://languages.wyattau.com/rust/03-structs-enums/structs-and-enums"}]
+}
+</script>
 
 ## Structs
 

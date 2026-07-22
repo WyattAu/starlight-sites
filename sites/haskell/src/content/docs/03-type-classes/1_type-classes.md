@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "03 Type Classes", "url": "https://haskell.wyattau.com/03-type-classes"}, {"name": "1_type Classes", "url": "https://haskell.wyattau.com/03-type-classes/1_type-classes"}]
+}
+</script>
 title: Type Classes
 description: "Type classes are Haskell' s mechanism for -- defining interfaces that types can implement. Unlike OOP interfaces, type classes are separate from data types"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Haskell
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "03 Type Classes", "url": "https://haskell.wyattau.com/03-type-classes"}, {"name": "1_type Classes", "url": "https://haskell.wyattau.com/03-type-classes/1_type-classes"}]
+}
+</script>
 
 ## What Are Type Classes?
 
@@ -761,6 +779,15 @@ parseHello = string "hello"
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "03 Type Classes", "url": "https://haskell.wyattau.com/03-type-classes"}, {"name": "1_type Classes", "url": "https://haskell.wyattau.com/03-type-classes/1_type-classes"}]
+}
+</script>
+
 ### Example 2: Monad Transformers for Stacking Effects
 
 **Problem:** Use `MaybeT` to combine `Maybe` and `IO` effects in a clean way.
@@ -802,6 +829,15 @@ main = do
 **Explanation:** `MaybeT IO` stacks `Maybe` on top of `IO`. The `do` notation sequences operations that may fail at each step. If any `MaybeT` action returns `Nothing`, the entire computation short-circuits. `lift` would be used to embed plain `IO` actions inside `MaybeT IO`.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "03 Type Classes", "url": "https://haskell.wyattau.com/03-type-classes"}, {"name": "1_type Classes", "url": "https://haskell.wyattau.com/03-type-classes/1_type-classes"}]
+}
+</script>
 
 ### Example 3: Type Class for Deserialisation
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Optics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-optics"}]
+}
+</script>
 title: "Optics -- Diagnostic Tests"
 description: "DSE Physics Optics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Optics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-optics"}]
+}
+</script>
 
 # Optics — Diagnostic Tests
 
@@ -55,6 +73,15 @@ To $0.6$ times the object size.
 for the second lens, and must correctly calculate $u_2$ accounting for the lens separation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Optics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-optics"}]
+}
+</script>
 
 ### UT-2: Total Internal Reflection in a Prism
 
@@ -115,6 +142,15 @@ incidence at each surface.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Optics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-optics"}]
+}
+</script>
+
 ### UT-3: Microscope Resolution and Magnification
 
 **Question:**
@@ -171,6 +207,15 @@ real rather than virtual at infinity.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Optics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-optics"}]
+}
+</script>
+
 ## Integration Tests
 
 ### IT-1: Lens-Mirror Combination (with Waves and Optics)
@@ -218,6 +263,15 @@ to the left of the mirror.
 be treated separately, and the image from one optical element becomes the object for the next.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Optics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-optics"}]
+}
+</script>
 
 ### IT-2: Fibre Optic Critical Angle and Acceptance Angle (with Waves and Optics)
 
@@ -271,6 +325,15 @@ $$R_{\min} = \frac{50 \times 10^{-6}}{0.2591} = 1.93 \times 10^{-4} \text{ m} = 
 larger NA means more light can be accepted but at the cost of increased modal dispersion.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Optics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-optics"}]
+}
+</script>
 
 ### IT-3: Refractive Index from Apparent Depth and Dispersion (with Waves and Optics)
 

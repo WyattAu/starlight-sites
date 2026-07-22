@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Population", "url": "https://dse.wyattau.com/geography/diagnostics/diag-population"}]
+}
+</script>
 title: "Population -- Diagnostic Tests"
 description: "Population -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Population", "url": "https://dse.wyattau.com/geography/diagnostics/diag-population"}]
+}
+</script>
 
 # DSE Geography Diagnostic: Population
 
@@ -23,6 +41,15 @@ dependents at both ends. Suggest **two** possible causes for this unusual popula
 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Population", "url": "https://dse.wyattau.com/geography/diagnostics/diag-population"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -66,6 +93,15 @@ resource allocation.)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Population", "url": "https://dse.wyattau.com/geography/diagnostics/diag-population"}]
+}
+</script>
+
 ## Unit Test 2: Demographic Transition and Population Policies
 
 **Question**
@@ -80,6 +116,15 @@ policy. [4 marks]
 reasons why a government might wish to increase its birth rate. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Population", "url": "https://dse.wyattau.com/geography/diagnostics/diag-population"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -124,6 +169,15 @@ continuity and national identity.)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Population", "url": "https://dse.wyattau.com/geography/diagnostics/diag-population"}]
+}
+</script>
+
 ## Unit Test 3: Migration Patterns and Impacts
 
 **Question**
@@ -139,6 +193,15 @@ workers in urban areas. [4 marks]
 refer to both positive and negative effects. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Population", "url": "https://dse.wyattau.com/geography/diagnostics/diag-population"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -196,6 +259,15 @@ obtaining urban residency permits.)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Population", "url": "https://dse.wyattau.com/geography/diagnostics/diag-population"}]
+}
+</script>
+
 ## Intuition
 
 **A living snapshot:** Population pyramids are like X-rays of a society — they reveal the age structure, showing whether a country is young and growing, or old and declining. The shape tells the story of birth rates, death rates, and migration.
@@ -222,6 +294,15 @@ rapid growth of the capital city. [4 marks]
 overcrowding. Evaluate the likely effectiveness of this strategy. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Population", "url": "https://dse.wyattau.com/geography/diagnostics/diag-population"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -283,6 +364,15 @@ broader urban management strategy including improved urban planning in the exist
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Population", "url": "https://dse.wyattau.com/geography/diagnostics/diag-population"}]
+}
+</script>
+
 ## Integration Test 2: Population Resources and Sustainable Development
 
 **Question**
@@ -301,6 +391,15 @@ without expanding the area of cultivated land. [6 marks]
 growth and resource scarcity in Country C? [6 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Population", "url": "https://dse.wyattau.com/geography/diagnostics/diag-population"}]
+}
+</script>
 
 **Worked Solution**
 

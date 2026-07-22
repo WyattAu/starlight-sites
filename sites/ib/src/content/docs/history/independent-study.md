@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Independent Study", "url": "https://ib.wyattau.com/history/independent-study"}]
+}
+</script>
 title: IB History Independent Study
 description: "Guide to the IB History Extended Essay and Internal Assessment: choosing a research question, methodology, source evaluation, historiographical analysis, essay structure, supervisor meetings, and common pitfalls."
 sidebar_position: 24
@@ -10,11 +19,29 @@ categories:
   - IB History
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Independent Study", "url": "https://ib.wyattau.com/history/independent-study"}]
+}
+</script>
+
 ## Overview
 
 Independent historical research is assessed in two components of the IB History course: the Internal Assessment (IA), a historical investigation of up to 2,200 words (20% at SL and HL), and the Extended Essay (EE), a 4,000-word research essay on a topic of the student's choosing (counted toward the diploma score). Both require the application of rigorous historical methodology, critical engagement with sources, and the construction of a sustained, evidence-based argument.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Independent Study", "url": "https://ib.wyattau.com/history/independent-study"}]
+}
+</script>
 
 ## Choosing a Research Question
 
@@ -38,6 +65,15 @@ The quality of the research question determines the quality of the entire invest
 - Selecting a question that is too narrow, resulting in insufficient material for a sustained argument.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Independent Study", "url": "https://ib.wyattau.com/history/independent-study"}]
+}
+</script>
 
 ## Research Methodology
 
@@ -81,6 +117,15 @@ The distinction is contextual. A history textbook is a secondary source for the 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Independent Study", "url": "https://ib.wyattau.com/history/independent-study"}]
+}
+</script>
+
 ## Source Evaluation Framework
 
 The IA requires critical evaluation of two sources. The following framework should be applied:
@@ -117,6 +162,15 @@ The IA requires critical evaluation of two sources. The following framework shou
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Independent Study", "url": "https://ib.wyattau.com/history/independent-study"}]
+}
+</script>
+
 ## Historiographical Analysis
 
 Engaging with historiography demonstrates sophistication and depth. For both the IA and the EE, students should:
@@ -139,6 +193,15 @@ Engaging with historiography demonstrates sophistication and depth. For both the
 - Consider whether new evidence (e.g., newly opened archives) has altered the historiographical landscape.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Independent Study", "url": "https://ib.wyattau.com/history/independent-study"}]
+}
+</script>
 
 ## Essay Structure
 
@@ -166,6 +229,15 @@ The EE follows a conventional academic essay structure:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Independent Study", "url": "https://ib.wyattau.com/history/independent-study"}]
+}
+</script>
+
 ## Supervisor Meetings
 
 The supervisor guides the student through the research process. Key meetings include:
@@ -177,6 +249,15 @@ The supervisor guides the student through the research process. Key meetings inc
 The student should maintain a research diary, come to meetings prepared, and meet agreed deadlines.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Independent Study", "url": "https://ib.wyattau.com/history/independent-study"}]
+}
+</script>
 
 ## Intuition
 
@@ -197,6 +278,15 @@ Independent historical research is like detective work: you begin with a questio
 6. **Weak conclusion.** The conclusion must synthesise the evidence discussed, not merely restate the introduction. Deliver a clear, substantiated answer to the research question.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Independent Study", "url": "https://ib.wyattau.com/history/independent-study"}]
+}
+</script>
 
 ## Exemplar Topics
 

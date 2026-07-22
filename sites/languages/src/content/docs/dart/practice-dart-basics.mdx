@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "Practice Dart Basics", "url": "https://languages.wyattau.com/dart/practice-dart-basics"}]
+}
+</script>
 title: Dart Practice (Fundamentals)
 description: "10 auto-graded practice problems covering core Dart concepts. Select an answer,  Comprehensive educational content coverage with definitions and practice proble"
 tags:
@@ -6,6 +15,15 @@ tags:
 categories:
   - Dart
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "Practice Dart Basics", "url": "https://languages.wyattau.com/dart/practice-dart-basics"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -25,6 +43,15 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "Practice Dart Basics", "url": "https://languages.wyattau.com/dart/practice-dart-basics"}]
+}
+</script>
+
 ### Null Safety and Types
 
 <PracticeProblem client:only="solid-js" question={"What happens when you declare `String name;` in a Dart file with null safety enabled?&quot; options={[ 'Compilation error: non-nullable variable must be initialized', 'name is set to null', 'name is set to an empty string', 'It compiles successfully', ]} correctAnswer={0} explanation=&quot;With null safety enabled, all non-nullable variables must be initialized at declaration. `String name;` without an initializer or `late` keyword produces a compilation error. To fix: initialize it (`String name = 'Alice';`), make it nullable (`String? name;`), or defer with `late` (`late String name;`)."} difficulty="easy"  />
@@ -35,6 +62,15 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "Practice Dart Basics", "url": "https://languages.wyattau.com/dart/practice-dart-basics"}]
+}
+</script>
+
 ### Async and Streams
 
 <PracticeProblem client:only="solid-js" question={"What does `Stream.fromIterable([1, 2, 3]).listen((value) => print(value * 2))` output?&quot; options={['2, 4, 6 (in order, one per event)', '246', '6', 'Compilation error']} correctAnswer={0} explanation=&quot;`Stream.fromIterable` creates a single-subscription stream that emits each element of the iterable as a separate event. The listener multiplies each value by 2: 1*2=2, 2*2=4, 3*2=6. Events are delivered asynchronously but in order for synchronous iterables. After emitting all three, the stream completes."} difficulty="medium"  />
@@ -42,6 +78,15 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"Given `Future<String> fetchName() async { await Future.delayed(Duration(seconds: 1)); return 'Alice'; }`, what is the type of `var result = fetchName();`?&quot; options={['`Future<String>`', '`String`', '`dynamic`', '`void`']} correctAnswer={0} explanation=&quot;Calling an async function without `await` returns the Future immediately without waiting for it to complete. `var result = fetchName();` gives `result` the type `Future<String>`, not `String`. To get the String value, you must `await` it: `var result = await fetchName();` which yields type `String`."} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "Practice Dart Basics", "url": "https://languages.wyattau.com/dart/practice-dart-basics"}]
+}
+</script>
 
 ### Dart 3 Features
 
@@ -51,6 +96,15 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "Practice Dart Basics", "url": "https://languages.wyattau.com/dart/practice-dart-basics"}]
+}
+</script>
+
 ### OOP and Extensions
 
 <PracticeProblem client:only="solid-js" question={"Given `mixin Walker { void walk() => print('walking'); }` and `class Person extends Animal with Walker {}`, what is the result of calling `walk()` on a `Person` instance?&quot; options={[ &quot;Prints 'walking' -- Walker\'s method is mixed into Person&quot;, 'Throws NoSuchMethodError', &quot;Calls Animal\'s walk method instead&quot;, 'Compilation error: Walker cannot be used with Person', ]} correctAnswer={0} explanation=&quot;Mixins inject their method implementations into the class that uses them. `Person` gains the `walk()` method from `Walker`. If `Person` also defines `walk()`, its own method takes precedence (override). If `Animal` defines `walk()` and `Walker` also defines it, the mixin\'s linearization order determines which wins -- mixins applied later have higher priority."} difficulty="medium"  />
@@ -58,6 +112,15 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={`Given \`extension on String { String get reversed => split('').reversed.join(); }\`, what does \`"hello".reversed\` return?`} options={['"olleh"', '"hello"', 'Compilation error: String already has reversed', 'null']} correctAnswer={0} explanation="Extension methods add members to existing types. This extension adds a `reversed` getter to `String`. `split('')` creates `['h','e','l','l','o']`, `.reversed` produces `['o','l','l','e','h']`, and `.join()` yields `'olleh'`. Extensions are resolved at compile time -- if `String` later adds a `reversed` member, the real member takes priority." difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "Practice Dart Basics", "url": "https://languages.wyattau.com/dart/practice-dart-basics"}]
+}
+</script>
 
 ### Flutter and Advanced
 

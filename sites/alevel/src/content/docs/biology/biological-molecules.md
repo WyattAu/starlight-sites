@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biological Molecules", "url": "https://alevel.wyattau.com/biology/biological-molecules"}]
+}
+</script>
 title: Biological Molecules
 description: "Study guide covering the core biochemistry topics for A-Level Biology examinatio Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18T00:00:00.000Z
@@ -10,12 +19,30 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biological Molecules", "url": "https://alevel.wyattau.com/biology/biological-molecules"}]
+}
+</script>
+
 # Biological Molecules
 
 Study guide covering the core biochemistry topics for A-Level Biology examinations.
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel A Paper 1 | OCR (A) Paper 1 | CIE Paper 2
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biological Molecules", "url": "https://alevel.wyattau.com/biology/biological-molecules"}]
+}
+</script>
 
 ## 1. Water
 
@@ -40,6 +67,15 @@ acceptor (via lone pairs on O). This extensive H-bonding network accounts for wa
 physical properties.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biological Molecules", "url": "https://alevel.wyattau.com/biology/biological-molecules"}]
+}
+</script>
 
 ## 2. Carbohydrates
 
@@ -93,6 +129,15 @@ Formed by a **condensation reaction** (removal of $\mathrm{H_2O}$) creating a **
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biological Molecules", "url": "https://alevel.wyattau.com/biology/biological-molecules"}]
+}
+</script>
+
 ## 3. Lipids
 
 ### Triglycerides
@@ -124,6 +169,15 @@ Modified triglycerides where one fatty acid is replaced by a **phosphate group**
 3. **Positive result:** cloudy white emulsion
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biological Molecules", "url": "https://alevel.wyattau.com/biology/biological-molecules"}]
+}
+</script>
 
 ## 4. Proteins
 
@@ -168,6 +222,15 @@ tertiary structure stability.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biological Molecules", "url": "https://alevel.wyattau.com/biology/biological-molecules"}]
+}
+</script>
+
 ## 5. Nucleic Acids
 
 ### DNA Structure
@@ -203,6 +266,15 @@ Hydrolysis of one phosphate bond releases $\approx 30.6\ \mathrm{kJ\,mol^{-1}}$.
 **regenerated** through respiration and photosynthesis. It is **not a long-term energy store**.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biological Molecules", "url": "https://alevel.wyattau.com/biology/biological-molecules"}]
+}
+</script>
 
 ## 6. Enzymes
 
@@ -242,6 +314,15 @@ but do **not** change the $\Delta H$ or equilibrium position.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biological Molecules", "url": "https://alevel.wyattau.com/biology/biological-molecules"}]
+}
+</script>
+
 ## 7. Inorganic Ions
 
 | Ion                              | Role                                                               | Example                                                    |
@@ -254,6 +335,15 @@ but do **not** change the $\Delta H$ or equilibrium position.
 | Nitrate ($\mathrm{NO_3^-}$)      | Nitrogen source for amino acid synthesis                           | Protein production in plants                               |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biological Molecules", "url": "https://alevel.wyattau.com/biology/biological-molecules"}]
+}
+</script>
 
 ## 8. Common Mistakes
 
@@ -280,6 +370,15 @@ but do **not** change the $\Delta H$ or equilibrium position.
    outward toward water; the hydrophobic tails face inward, away from water.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biological Molecules", "url": "https://alevel.wyattau.com/biology/biological-molecules"}]
+}
+</script>
 
 
 ## Intuition

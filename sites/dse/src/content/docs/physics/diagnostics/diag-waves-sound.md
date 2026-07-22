@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Sound", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-sound"}]
+}
+</script>
 title: "Waves and Sound -- Diagnostic Tests"
 description: "DSE Physics Waves and Sound -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Sound", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-sound"}]
+}
+</script>
 
 # Waves and Sound — Diagnostic Tests
 
@@ -55,6 +73,15 @@ $x = 0.3$ m, $\sin(\pi) = 0$ (node). All consistent.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Sound", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-sound"}]
+}
+</script>
+
 ### UT-2: Sound Intensity and the Inverse Square Law with Decibels
 
 **Question:**
@@ -99,6 +126,15 @@ intensity by a factor of $4$ (decrease of $6$ dB), not $2$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Sound", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-sound"}]
+}
+</script>
+
 ### UT-3: Beats and Doppler Effect Combined
 
 **Question:**
@@ -124,6 +160,15 @@ motion of fork B toward the observer increases its apparent frequency, raising t
 Students often forget to apply the Doppler effect before calculating beats when sources are moving.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Sound", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-sound"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -172,6 +217,15 @@ open-closed pipe only supports odd harmonics ($\lambda/4$ fits in $L$).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Sound", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-sound"}]
+}
+</script>
+
 ### IT-2: Water Wave Refraction and Diffraction (with Waves and Optics)
 
 **Question:**
@@ -216,6 +270,15 @@ stays constant, and the wavefronts bend toward the normal (just like light enter
 medium).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Waves Sound", "url": "https://dse.wyattau.com/physics/diagnostics/diag-waves-sound"}]
+}
+</script>
 
 ### IT-3: Ultrasound Medical Imaging (with Electricity and Magnetism)
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "11 Networking And Data", "url": "https://languages.wyattau.com/dart/11-networking-and-data"}, {"name": "01 Platform Integration", "url": "https://languages.wyattau.com/dart/11-networking-and-data/01-platform-integration"}]
+}
+</script>
 title: Platform Integration
 description: "Flutter platform integration and native code access."
 date: 2026-04-05T00:00:00.000Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - Dart
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "11 Networking And Data", "url": "https://languages.wyattau.com/dart/11-networking-and-data"}, {"name": "01 Platform Integration", "url": "https://languages.wyattau.com/dart/11-networking-and-data/01-platform-integration"}]
+}
+</script>
 
 # Platform Integration
 
@@ -36,6 +54,15 @@ Most common use cases are covered by existing Flutter packages (`camera``geoloca
 - You are building a plugin yourself.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "11 Networking And Data", "url": "https://languages.wyattau.com/dart/11-networking-and-data"}, {"name": "01 Platform Integration", "url": "https://languages.wyattau.com/dart/11-networking-and-data/01-platform-integration"}]
+}
+</script>
 
 ## Platform Checks
 
@@ -137,6 +164,15 @@ export 'platform_info_mobile.dart' if (dart.library.html) 'platform_info_web.dar
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "11 Networking And Data", "url": "https://languages.wyattau.com/dart/11-networking-and-data"}, {"name": "01 Platform Integration", "url": "https://languages.wyattau.com/dart/11-networking-and-data/01-platform-integration"}]
+}
+</script>
 
 ## MethodChannel
 
@@ -314,6 +350,15 @@ desktop) or when the plugin registration is missing.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "11 Networking And Data", "url": "https://languages.wyattau.com/dart/11-networking-and-data"}, {"name": "01 Platform Integration", "url": "https://languages.wyattau.com/dart/11-networking-and-data/01-platform-integration"}]
+}
+</script>
+
 ## EventChannel
 
 `EventChannel` is designed for streaming data from native to Dart. While `MethodChannel` follows a
@@ -478,6 +523,15 @@ Error event through the stream. On the Dart side, this triggers the stream's `on
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "11 Networking And Data", "url": "https://languages.wyattau.com/dart/11-networking-and-data"}, {"name": "01 Platform Integration", "url": "https://languages.wyattau.com/dart/11-networking-and-data/01-platform-integration"}]
+}
+</script>
+
 ## BasicMessageChannel
 
 `BasicMessageChannel` is the simplest form of platform channel. It supports asynchronous,
@@ -542,6 +596,15 @@ In practice, `MethodChannel` is far more common. `BasicMessageChannel` is used i
 Plugins that need a simple bidirectional pipe.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "11 Networking And Data", "url": "https://languages.wyattau.com/dart/11-networking-and-data"}, {"name": "01 Platform Integration", "url": "https://languages.wyattau.com/dart/11-networking-and-data/01-platform-integration"}]
+}
+</script>
 
 ## Pigeon
 
@@ -701,6 +764,15 @@ class SearchApiImpl: SearchApi {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "11 Networking And Data", "url": "https://languages.wyattau.com/dart/11-networking-and-data"}, {"name": "01 Platform Integration", "url": "https://languages.wyattau.com/dart/11-networking-and-data/01-platform-integration"}]
+}
+</script>
+
 ## Async Communication
 
 Platform channels are inherently asynchronous. Understanding the async model is critical for correct
@@ -811,6 +883,15 @@ Side cannot keep up, messages queue up in memory. For high-frequency data (senso
 Frames), use `EventChannel` instead, which is designed for streaming.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "11 Networking And Data", "url": "https://languages.wyattau.com/dart/11-networking-and-data"}, {"name": "01 Platform Integration", "url": "https://languages.wyattau.com/dart/11-networking-and-data/01-platform-integration"}]
+}
+</script>
 
 ## Common Patterns
 
@@ -949,6 +1030,15 @@ class ShareService {
 In practice, use the `share_plus` package for sharing, which handles all platform differences.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "11 Networking And Data", "url": "https://languages.wyattau.com/dart/11-networking-and-data"}, {"name": "01 Platform Integration", "url": "https://languages.wyattau.com/dart/11-networking-and-data/01-platform-integration"}]
+}
+</script>
 
 ## Testing Platform Channels
 
@@ -1121,6 +1211,15 @@ class PigeonSearchDataSource implements SearchDataSource {
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "11 Networking And Data", "url": "https://languages.wyattau.com/dart/11-networking-and-data"}, {"name": "01 Platform Integration", "url": "https://languages.wyattau.com/dart/11-networking-and-data/01-platform-integration"}]
+}
+</script>
 
 ## Intuition
 

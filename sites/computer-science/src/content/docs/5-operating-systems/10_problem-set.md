@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "5 Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems"}, {"name": "10_problem Set", "url": "https://computer-science.wyattau.com/5-operating-systems/10_problem-set"}]
+}
+</script>
 title: Problem Set
 tags:
   - Computing
   - University
 description: "List all possible state transitions for a process and identify which transition requires the Scheduler, which requires an I/O event, and which is initiated"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "5 Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems"}, {"name": "10_problem Set", "url": "https://computer-science.wyattau.com/5-operating-systems/10_problem-set"}]
+}
+</script>
 
 <details>
 <summary>Problem 1 — Process States</summary>

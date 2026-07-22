@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "4 Genetics Adaptation", "url": "https://highers.wyattau.com/biology/4-genetics-adaptation"}, {"name": "4_genetics Adaptation", "url": "https://highers.wyattau.com/biology/4-genetics-adaptation/4_genetics-adaptation"}]
+}
+</script>
 title: Genetics and Adaptation
 description: "Scottish Highers Biology Genetics and Adaptation notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "4 Genetics Adaptation", "url": "https://highers.wyattau.com/biology/4-genetics-adaptation"}, {"name": "4_genetics Adaptation", "url": "https://highers.wyattau.com/biology/4-genetics-adaptation/4_genetics-adaptation"}]
+}
+</script>
 
 # Genetics and Adaptation
 
@@ -118,6 +136,15 @@ The **lac operon** in E. Coli controls the metabolism of lactose:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "4 Genetics Adaptation", "url": "https://highers.wyattau.com/biology/4-genetics-adaptation"}, {"name": "4_genetics Adaptation", "url": "https://highers.wyattau.com/biology/4-genetics-adaptation/4_genetics-adaptation"}]
+}
+</script>
+
 ## Inheritance
 
 ### Mendelian Genetics
@@ -225,6 +252,15 @@ Since $13.38 \gt 7.815$The observed results differ significantly from the expect
 The null hypothesis is rejected.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "4 Genetics Adaptation", "url": "https://highers.wyattau.com/biology/4-genetics-adaptation"}, {"name": "4_genetics Adaptation", "url": "https://highers.wyattau.com/biology/4-genetics-adaptation/4_genetics-adaptation"}]
+}
+</script>
 
 ## Advanced Higher Genetics
 
@@ -349,6 +385,15 @@ Genotype frequencies: $p^2 = 0.36$ (homozygous dominant), $2pq = 0.48$ (heterozy
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "4 Genetics Adaptation", "url": "https://highers.wyattau.com/biology/4-genetics-adaptation"}, {"name": "4_genetics Adaptation", "url": "https://highers.wyattau.com/biology/4-genetics-adaptation/4_genetics-adaptation"}]
+}
+</script>
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.
@@ -386,6 +431,15 @@ See the examples integrated throughout the sections above.
     mutations provide the raw material for natural selection.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "4 Genetics Adaptation", "url": "https://highers.wyattau.com/biology/4-genetics-adaptation"}, {"name": "4_genetics Adaptation", "url": "https://highers.wyattau.com/biology/4-genetics-adaptation/4_genetics-adaptation"}]
+}
+</script>
 
 ## Practice Questions
 

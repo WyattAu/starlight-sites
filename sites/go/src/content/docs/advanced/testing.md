@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Advanced", "url": "https://go.wyattau.com/advanced"}, {"name": "Testing", "url": "https://go.wyattau.com/advanced/testing"}]
+}
+</script>
 title: Testing
 description: "Go has a built-in testing framework. Test files are named and the build system excludes them from production binaries. Test functions have the signature ."
 date: 2026-05-31
@@ -7,6 +16,15 @@ tags:
 categories:
   - Go
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Advanced", "url": "https://go.wyattau.com/advanced"}, {"name": "Testing", "url": "https://go.wyattau.com/advanced/testing"}]
+}
+</script>
 
 ## Testing Fundamentals
 

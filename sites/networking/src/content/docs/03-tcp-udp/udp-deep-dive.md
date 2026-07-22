@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "03 Tcp Udp", "url": "https://networking.wyattau.com/03-tcp-udp"}, {"name": "Udp Deep Dive", "url": "https://networking.wyattau.com/03-tcp-udp/udp-deep-dive"}]
+}
+</script>
 title: UDP Deep Dive
 description: "UDP (User Datagram Protocol, RFC 768) is the simplest transport-layer protocol in the TCP/IP suite: An 8-byte header, no handshake, no state, no guarantees."
 tags:
@@ -6,6 +15,15 @@ tags:
 categories:
   - Networking
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "03 Tcp Udp", "url": "https://networking.wyattau.com/03-tcp-udp"}, {"name": "Udp Deep Dive", "url": "https://networking.wyattau.com/03-tcp-udp/udp-deep-dive"}]
+}
+</script>
 
 ## Overview
 

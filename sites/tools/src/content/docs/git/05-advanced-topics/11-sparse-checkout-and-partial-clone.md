@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "05 Advanced Topics", "url": "https://tools.wyattau.com/git/05-advanced-topics"}, {"name": "11 Sparse Checkout And Partial Clone", "url": "https://tools.wyattau.com/git/05-advanced-topics/11-sparse-checkout-and-partial-clone"}]
+}
+</script>
 title: Sparse Checkout and Partial Clone
 description: "As repositories grow into monorepos containing hundreds of thousands of files, the cost of a full Clone becomes prohibitive. The problem manifests in three"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "05 Advanced Topics", "url": "https://tools.wyattau.com/git/05-advanced-topics"}, {"name": "11 Sparse Checkout And Partial Clone", "url": "https://tools.wyattau.com/git/05-advanced-topics/11-sparse-checkout-and-partial-clone"}]
+}
+</script>
 
 ## Intuition
 
@@ -830,6 +848,15 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "05 Advanced Topics", "url": "https://tools.wyattau.com/git/05-advanced-topics"}, {"name": "11 Sparse Checkout And Partial Clone", "url": "https://tools.wyattau.com/git/05-advanced-topics/11-sparse-checkout-and-partial-clone"}]
+}
+</script>
 
 ## Cross-References
 

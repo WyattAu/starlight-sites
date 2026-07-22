@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Cells", "url": "https://alevel.wyattau.com/biology/cells"}]
+}
+</script>
 title: Cells
 description: "The cell theory, developed by Schleiden and Schwann (1838--1839) and later refin Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Cells", "url": "https://alevel.wyattau.com/biology/cells"}]
+}
+</script>
 
 
 ## Intuition
@@ -857,6 +875,15 @@ or Full plasmolysis, depending on the cell wall). The cell is plasmolysed.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Cells", "url": "https://alevel.wyattau.com/biology/cells"}]
+}
+</script>
+
 ## 13. The Cytoskeleton
 
 ### 13.1 Components
@@ -1104,6 +1131,15 @@ into DNA):
 | Aciclovir                                         | Viral DNA polymerase (herpes viruses) | Nucleoside analogue; activated by viral thymidine kinase (selectively toxic to virus-infected cells); incorporated into viral DNA, causing chain termination |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Cells", "url": "https://alevel.wyattau.com/biology/cells"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 ## 17. Cell Membrane Transport: Advanced Topics
@@ -1446,6 +1482,15 @@ immotile cilia. Symptoms: chronic respiratory infections (mucus not cleared), ma
 direct left-right asymmetry during development).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Cells", "url": "https://alevel.wyattau.com/biology/cells"}]
+}
+</script>
 
 </aside>
 <aside class="starlight-aside starlight-aside--tip">
@@ -1960,6 +2005,15 @@ differential centrifugation.
 | Genetic continuity   | Produces daughter cells that are genetically identical to the parent cell (same chromosome number and same alleles)                                               |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Cells", "url": "https://alevel.wyattau.com/biology/cells"}]
+}
+</script>
 
 
 ## Common Pitfalls

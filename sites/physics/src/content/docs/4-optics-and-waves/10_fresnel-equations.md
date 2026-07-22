@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "10_fresnel Equations", "url": "https://physics.wyattau.com/4-optics-and-waves/10_fresnel-equations"}]
+}
+</script>
 title: Fresnel Equations
 tags:
   - Physics
   - University
 description: "When light strikes a planar interface between media with refractive indices and The Amplitudes of the reflected and transmitted waves depend on the"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "10_fresnel Equations", "url": "https://physics.wyattau.com/4-optics-and-waves/10_fresnel-equations"}]
+}
+</script>
 
 ### 10.1 Derivation at a Dielectric Interface
 

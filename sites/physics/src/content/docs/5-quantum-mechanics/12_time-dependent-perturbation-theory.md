@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "12_time Dependent Perturbation Theory", "url": "https://physics.wyattau.com/5-quantum-mechanics/12_time-dependent-perturbation-theory"}]
+}
+</script>
 title: Time-Dependent Perturbation Theory
 tags:
   - Physics
   - University
 description: "For a time-dependent perturbation applied to an initial state Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "12_time Dependent Perturbation Theory", "url": "https://physics.wyattau.com/5-quantum-mechanics/12_time-dependent-perturbation-theory"}]
+}
+</script>
 
 ### 11.1 Fermi"s Golden Rule
 

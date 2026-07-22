@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Systems", "url": "https://leaving-cert.wyattau.com/computer-science/diagnostics/diag-systems"}]
+}
+</script>
 title: "Computer Systems -- Diagnostic Tests"
 description: "Computer Systems -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Systems", "url": "https://leaving-cert.wyattau.com/computer-science/diagnostics/diag-systems"}]
+}
+</script>
 
 # Computer Systems -- Diagnostic Tests
 
@@ -61,6 +79,15 @@ set architecture also play significant roles.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Systems", "url": "https://leaving-cert.wyattau.com/computer-science/diagnostics/diag-systems"}]
+}
+</script>
+
 ### UT-2: Software and Operating Systems
 
 **Question:**
@@ -118,6 +145,15 @@ the program runs more slowly because translation happens during execution.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Systems", "url": "https://leaving-cert.wyattau.com/computer-science/diagnostics/diag-systems"}]
+}
+</script>
+
 ### UT-3: Data Representation
 
 **Question:**
@@ -168,6 +204,15 @@ perfectly reconstructed from the compressed version. Example: PNG (images), FLAC
 (general files).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Systems", "url": "https://leaving-cert.wyattau.com/computer-science/diagnostics/diag-systems"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -229,6 +274,15 @@ storage. Cloud services can suffer outages and security breaches. In practice, a
 practical solution.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Systems", "url": "https://leaving-cert.wyattau.com/computer-science/diagnostics/diag-systems"}]
+}
+</script>
 
 ### IT-2: System Architecture and Performance
 

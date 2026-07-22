@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Hypothesis Testing", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-hypothesis-testing"}]
+}
+</script>
 title: "Hypothesis Testing -- Diagnostic Tests"
 description: "A-Level Maths Hypothesis Testing -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Hypothesis Testing", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-hypothesis-testing"}]
+}
+</script>
 
 
 ## Intuition
@@ -137,6 +155,15 @@ and $z = -1.645$ that the two-tailed test would not catch).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Hypothesis Testing", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-hypothesis-testing"}]
+}
+</script>
+
 ### UT-2: Type I and Type II Errors — Calculation and Interpretation
 
 **Question:**
@@ -254,6 +281,15 @@ rates of 6.68% each.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Hypothesis Testing", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-hypothesis-testing"}]
+}
+</script>
+
 ### UT-3: P-value Interpretation and "Accepting" the Null Hypothesis
 
 **Question:**
@@ -348,6 +384,15 @@ and the sample size**. With a large enough sample, even a very small effect can 
 statistically significant result.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Hypothesis Testing", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-hypothesis-testing"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -456,6 +501,15 @@ $\bar{X} = \frac{T}{n}$ and dividing by a constant $n$ does not change the signi
 result.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Hypothesis Testing", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-hypothesis-testing"}]
+}
+</script>
 
 ### IT-2: Calculating the Probability of Type II Error (with Probability)
 
@@ -572,6 +626,15 @@ Power $= 89.8\% \lt 90\%$.
 So $n = 35$ is the minimum sample size.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Hypothesis Testing", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-hypothesis-testing"}]
+}
+</script>
 
 ### IT-3: Testing Whether a Correlation Coefficient is Significant (with Correlation)
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "7_classical Limit And The Maxwell Boltzmann Distribution", "url": "https://physics.wyattau.com/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution"}]
+}
+</script>
 title: Classical Limit and the Maxwell-Boltzmann Distribution
 tags:
   - Physics
   - University
 description: "In the classical (dilute) limit, both Fermi-Dirac and Bose-Einstein distributions reduce to the Maxwell-Boltzmann distribution. The condition for the"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "7_classical Limit And The Maxwell Boltzmann Distribution", "url": "https://physics.wyattau.com/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution"}]
+}
+</script>
 
 ### 7.1 Derivation from Quantum Statistics
 
@@ -160,6 +178,15 @@ The Maxwell-Boltzmann distribution fails when quantum effects become significant
 - **Equipartition failure** at low temperatures: rotational and vibrational degrees of freedom freeze out when $k_B T \ll \hbar\omega$, violating the classical prediction.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "7_classical Limit And The Maxwell Boltzmann Distribution", "url": "https://physics.wyattau.com/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution"}]
+}
+</script>
 
 ### 7.10 Common Mistakes
 

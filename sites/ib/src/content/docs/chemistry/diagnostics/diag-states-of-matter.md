@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag States Of Matter", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-states-of-matter"}]
+}
+</script>
 title: "States of Matter -- Diagnostic Tests"
 description: "IB Chemistry States of Matter -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for clear revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag States Of Matter", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-states-of-matter"}]
+}
+</script>
 
 # States of Matter — Diagnostic Tests
 
@@ -40,6 +58,15 @@ would be nonsensically wrong.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag States Of Matter", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-states-of-matter"}]
+}
+</script>
+
 ### UT-2: Deviation from Ideal Gas Behaviour
 
 **Question:** For which gas under which conditions would deviation from ideal behaviour be greatest:
@@ -68,6 +95,15 @@ temperature, $\text{NH}_3$ is near its critical point where intermolecular force
 significant relative to kinetic energy. He at 50 K is still far above its critical temperature.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag States Of Matter", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-states-of-matter"}]
+}
+</script>
 
 ### UT-3: Maxwell-Boltzmann Distribution Application
 
@@ -122,6 +158,15 @@ $\text{m}^3$; convert to $\text{dm}^3$).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag States Of Matter", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-states-of-matter"}]
+}
+</script>
+
 ### IT-2: Phase Changes and Energetics (with Energetics)
 
 **Question:** The enthalpy of vaporisation of water is $40.7\ \text{kJ mol}^{-1}$ at
@@ -150,6 +195,15 @@ Note that vaporisation ($q_4$) accounts for about 74% of the total energy -- pha
 much more energy than temperature changes.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag States Of Matter", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-states-of-matter"}]
+}
+</script>
 
 ### IT-3: Gas Behaviour and Bonding (with Chemical Bonding)
 

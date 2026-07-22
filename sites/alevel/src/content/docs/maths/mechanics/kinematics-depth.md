@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/maths/mechanics"}, {"name": "Kinematics Depth", "url": "https://alevel.wyattau.com/maths/mechanics/kinematics-depth"}]
+}
+</script>
 title: Kinematics (Extended)
 description: "This document extends the core kinematics material with deeper derivations, multi-stage problems, Projectile motion in two dimensions, and the calculus"
 date: 2026-04-23T00:00:00.000Z
@@ -6,6 +15,15 @@ tags: [Mathematics, ALevel]
 categories: [Mathematics]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/maths/mechanics"}, {"name": "Kinematics Depth", "url": "https://alevel.wyattau.com/maths/mechanics/kinematics-depth"}]
+}
+</script>
 
 ## Kinematics (Extended Treatment)
 

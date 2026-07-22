@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Discrete Mathematics", "url": "https://computer-science.wyattau.com/1-discrete-mathematics"}, {"name": "3_proof Techniques", "url": "https://computer-science.wyattau.com/1-discrete-mathematics/3_proof-techniques"}]
+}
+</script>
 title: Proof Techniques
 tags:
   - Computing
   - University
 description: "To prove : assume Derive by a chain of logical deductions. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Discrete Mathematics", "url": "https://computer-science.wyattau.com/1-discrete-mathematics"}, {"name": "3_proof Techniques", "url": "https://computer-science.wyattau.com/1-discrete-mathematics/3_proof-techniques"}]
+}
+</script>
 
 ### 3.1 Direct Proof
 

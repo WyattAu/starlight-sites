@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Algorithm Design", "url": "https://computer-science.wyattau.com/1-algorithms/practice-algorithm-design"}]
+}
+</script>
 title: "Algorithm Design -- Practice Problems"
 description: "10 MCQ questions covering divide and conquer, dynamic programming, greedy algorithms, backtracking, and the Master theorem. Select an option to check your"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Algorithm Design", "url": "https://computer-science.wyattau.com/1-algorithms/practice-algorithm-design"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -20,6 +38,15 @@ and the Master theorem. Select an option to check your answer and view the expla
 **The key insight:** Dynamic programming works when subproblems overlap — if you're solving the same subproblem twice, remember the answer instead of recomputing it. This transforms exponential algorithms into polynomial ones.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Algorithm Design", "url": "https://computer-science.wyattau.com/1-algorithms/practice-algorithm-design"}]
+}
+</script>
 
 ## Divide and Conquer and the Master Theorem
 
@@ -46,6 +73,15 @@ and the Master theorem. Select an option to check your answer and view the expla
 <PracticeProblem client:only="solid-js" question={"In the N-Queens problem solved by backtracking, what is the worst-case time complexity and what does backtracking prune compared to brute force?&quot; options={[ '$O(n!)$ worst case; backtracking prunes partial placements that lead to mutual attacks', '$O(2^n)$ worst case; backtracking only prunes diagonal conflicts', '$O(n^n)$ worst case; no pruning occurs', '$O(n^2)$ worst case; backtracking finds the solution in polynomial time', ]} correctAnswer={0} explanation=&quot;Brute force generates all $n^n$ possible board configurations. Backtracking incrementally places queens row by row and prunes whenever a queen conflicts with already-placed queens (column, diagonal checks). In the worst case, this is still $O(n!)$ (placing one queen per row), but in practice the pruning eliminates most invalid branches early."} difficulty="hard"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Algorithm Design", "url": "https://computer-science.wyattau.com/1-algorithms/practice-algorithm-design"}]
+}
+</script>
 
 ## Additional Algorithm Design Questions
 

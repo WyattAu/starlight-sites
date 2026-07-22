@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "8_transport Properties", "url": "https://physics.wyattau.com/6-solid-state-physics/8_transport-properties"}]
+}
+</script>
 title: Transport Properties
 tags:
   - Physics
   - University
 description: "The treats conduction electrons as a classical gas scattering off ions with a me Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "8_transport Properties", "url": "https://physics.wyattau.com/6-solid-state-physics/8_transport-properties"}]
+}
+</script>
 
 ### 8.1 Electrical Conductivity: Drude Model
 

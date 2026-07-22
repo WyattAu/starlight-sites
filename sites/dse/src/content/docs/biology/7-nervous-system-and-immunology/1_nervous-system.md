@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 title: Nervous System
 description: "Neurons (nerve cells) are the fundamental functional units of the nervous system. They are specialised for transmitting electrical impulses (action"
 date: 2026-04-08T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Neuron Structure and Types
 
@@ -57,6 +75,15 @@ segment).
   approximately 0.5-2 m/s
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Resting Potential
 
@@ -107,6 +134,15 @@ potential difference (electrical gradient).
 | $\mathrm{Cl}^-$ | 10                               | 110                              | Inward                              |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Action Potential
 
@@ -193,6 +229,15 @@ enormous speed advantage of myelination.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Synaptic Transmission
 
@@ -288,6 +333,15 @@ processing.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ## Reflex Arcs
 
 ### Components of a Reflex Arc
@@ -352,6 +406,15 @@ This is a **cranial reflex** and a **consensual reflex** -- shining light in one
 pupils to constrict because the relay neurons send impulses to both Edinger-Westphal nuclei.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Sense Organs
 
@@ -430,6 +493,15 @@ low-frequency sounds cause vibration near the apex. This is the **place theory**
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ## The Central Nervous System
 
 ### The Brain
@@ -472,6 +544,15 @@ functions:
 | Dorsal root ganglion | Swelling containing cell bodies of sensory neurons                                              |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## The Autonomic Nervous System
 
@@ -559,7 +640,25 @@ oblongata**.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Sense Organs
 
@@ -740,6 +839,15 @@ accordingly.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ## Intuition
 
 **The body's wiring:** The nervous system is like an electrical grid — neurons carry signals at lightning speed, synapses are the switches, and the brain is the control center.
@@ -799,6 +907,15 @@ accordingly.
     stimulus when it drops dangerously low.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Problem Set
 
@@ -888,6 +1005,15 @@ the left eye.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 nervous system topics within the DSE specification.
 
@@ -896,6 +1022,15 @@ self-marking and building a personal test matrix.
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Drugs and the Nervous System
 
@@ -922,6 +1057,15 @@ self-marking and building a personal test matrix.
   when intake stops
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Neurological Disorders
 
@@ -971,6 +1115,15 @@ disturbances, severe headache, difficulty walking.
 - Treatment: immunosuppressants, corticosteroids (during relapses), disease-modifying therapies
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Memory and Learning
 
@@ -1048,6 +1201,15 @@ LTP is the cellular basis of learning and memory:
 | EEG       | Electroencephalography       | Electrodes placed on the scalp detect electrical activity (brain waves) produced by neurons                                              | Diagnosing epilepsy; studying sleep stages; monitoring anaesthesia depth                    | Low temporal resolution (high temporal) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Synaptic Plasticity
 

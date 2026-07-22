@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "licensing", "url": "https://licensing.wyattau.com"}, {"name": "Osi Licenses", "url": "https://licensing.wyattau.com/osi-licenses"}]
+}
+</script>
 title: "Open Source Licenses"
 date: 2026-05-30
 tags:
@@ -7,6 +16,15 @@ categories:
   - Licensing
 description: "Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place minimal restrictions on how the code can be used — they"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "licensing", "url": "https://licensing.wyattau.com"}, {"name": "Osi Licenses", "url": "https://licensing.wyattau.com/osi-licenses"}]
+}
+</script>
 
 ## License Classification
 

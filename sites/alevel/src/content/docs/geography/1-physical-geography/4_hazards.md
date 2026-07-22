@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
 title: Hazards
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, physical-geography]
 description: "A-Level Geography Hazards notes covering key definitions, core concepts, worked examples, and practice questions for structured learning and effective revision."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
 
 # Hazards
 
@@ -18,6 +36,15 @@ distinction between hazard (the physical event) and disaster (the human impact) 
 understanding why some events are catastrophic while others are manageable.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
 
 ## Key Concepts and Definitions
 
@@ -39,6 +66,15 @@ understanding why some events are catastrophic while others are manageable.
 | **Response**        | The immediate and long-term actions taken following a hazard event to address its impacts                                                     |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
 
 ## Tectonic Hazards
 
@@ -118,6 +154,15 @@ composition:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
+
 ## Atmospheric Hazards
 
 ### Tropical Storms (Hurricanes/Cyclones/Typhoons)
@@ -156,6 +201,15 @@ wall (strongest winds and heaviest rainfall). Spiral rain bands extend outward.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
+
 ## Magnitude and Frequency
 
 The **magnitude-frequency relationship** is a fundamental concept in hazard geography:
@@ -173,6 +227,15 @@ but underprepared for rare, high-magnitude events. The 2011 Tōhoku earthquake (
 design basis of the Fukushima nuclear plant, which had been prepared for a maximum M8.2 event.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
 
 ## Vulnerability and Resilience
 
@@ -204,6 +267,15 @@ depending on their vulnerability and capacity.
    implementing lessons learned
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
 
 ## Risk Management Strategies
 
@@ -237,6 +309,15 @@ depending on their vulnerability and capacity.
   (absorbs floodwater)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
 
 ## Case Studies
 
@@ -319,11 +400,29 @@ most likely catastrophic disasters facing the US.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
+
 ## Intuition
 
 Think of plate tectonics as a giant jigsaw puzzle floating on hot tar. The pieces grind, crash, and pull apart, and the friction builds up like tension in a rubber band until it snaps, releasing an earthquake. A volcano is like a pressure cooker with a blocked vent: the magma contains dissolved gases, and when the pressure drops near the surface, those gases expand violently, producing explosive eruptions. Vulnerability is not about the hazard itself but about a society's ability to withstand it. Two buildings can face the same earthquake, but one survives because it was designed with flexibility, while the other crumbles because it was rigid and poorly built. This is why the same magnitude event kills hundreds of thousands in one country but causes minimal deaths in another.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -343,6 +442,15 @@ Think of plate tectonics as a giant jigsaw puzzle floating on hot tar. The piece
    adequate and effective.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -415,6 +523,15 @@ South Atlantic (too cool, strong wind shear) or the southeastern Pacific (cool H
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
+
 ## Summary
 
 - Hazards are physical events; disasters result from the intersection of hazards, vulnerable
@@ -433,6 +550,15 @@ South Atlantic (too cool, strong wind shear) or the southeastern Pacific (cool H
   depending on vulnerability and capacity.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
 
 > **Sources**: AQA Geography (7037) specification; Smith, _Environmental Hazards_ (2013); USGS
 > earthquake data; NOAA National Hurricane Center; Haitian government reports; Japanese

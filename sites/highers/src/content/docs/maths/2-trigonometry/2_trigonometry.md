@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "2 Trigonometry", "url": "https://highers.wyattau.com/maths/2-trigonometry"}, {"name": "2_trigonometry", "url": "https://highers.wyattau.com/maths/2-trigonometry/2_trigonometry"}]
+}
+</script>
 title: Geometry and Trigonometry
 description: 'The three primary trigonometric functions for an angle in a right-angled triangl Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "2 Trigonometry", "url": "https://highers.wyattau.com/maths/2-trigonometry"}, {"name": "2_trigonometry", "url": "https://highers.wyattau.com/maths/2-trigonometry/2_trigonometry"}]
+}
+</script>
 
 # Geometry and Trigonometry
 
@@ -441,6 +459,15 @@ $a\sin x + b\cos x$ is $R$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "2 Trigonometry", "url": "https://highers.wyattau.com/maths/2-trigonometry"}, {"name": "2_trigonometry", "url": "https://highers.wyattau.com/maths/2-trigonometry/2_trigonometry"}]
+}
+</script>
+
 ## Coordinate Geometry
 
 ### The Straight Line
@@ -581,6 +608,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "2 Trigonometry", "url": "https://highers.wyattau.com/maths/2-trigonometry"}, {"name": "2_trigonometry", "url": "https://highers.wyattau.com/maths/2-trigonometry/2_trigonometry"}]
+}
+</script>
+
 ## 3D Coordinate Geometry (Advanced Higher)
 
 ### Equations of Lines in 3D
@@ -693,6 +729,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "2 Trigonometry", "url": "https://highers.wyattau.com/maths/2-trigonometry"}, {"name": "2_trigonometry", "url": "https://highers.wyattau.com/maths/2-trigonometry/2_trigonometry"}]
+}
+</script>
+
 
 ## Intuition
 
@@ -733,6 +778,15 @@ See the examples integrated throughout the sections above.
    $-R$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "2 Trigonometry", "url": "https://highers.wyattau.com/maths/2-trigonometry"}, {"name": "2_trigonometry", "url": "https://highers.wyattau.com/maths/2-trigonometry/2_trigonometry"}]
+}
+</script>
 
 ## Practice Questions
 

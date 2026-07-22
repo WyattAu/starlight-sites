@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "4 Algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms"}, {"name": "4_algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms/4_algorithms"}]
+}
+</script>
 title: Algorithms and Data Structures
 description: "Scottish Highers Computer Science Algorithms and Data notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-computer-science
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "4 Algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms"}, {"name": "4_algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms/4_algorithms"}]
+}
+</script>
 
 # Algorithms and Data Structures
 
@@ -47,6 +65,15 @@ Size grows.
   not at all)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "4 Algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms"}, {"name": "4_algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms/4_algorithms"}]
+}
+</script>
 
 ## Sorting Algorithms
 
@@ -204,6 +231,15 @@ def quick_sort(arr):
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "4 Algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms"}, {"name": "4_algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms/4_algorithms"}]
+}
+</script>
+
 ## Searching Algorithms
 
 ### Linear Search
@@ -263,6 +299,15 @@ def binary_search(arr, target):
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "4 Algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms"}, {"name": "4_algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms/4_algorithms"}]
+}
+</script>
 
 ## Data Structures
 
@@ -482,6 +527,15 @@ class HashTable:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "4 Algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms"}, {"name": "4_algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms/4_algorithms"}]
+}
+</script>
+
 ## Graph Algorithms
 
 ### Graph Representation
@@ -564,6 +618,15 @@ def dijkstra(graph, start):
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "4 Algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms"}, {"name": "4_algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms/4_algorithms"}]
+}
+</script>
 
 ## Functional Programming (Advanced Higher)
 
@@ -656,6 +719,15 @@ area (Triangle a b c) = let s = (a + b + c) / 2
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "4 Algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms"}, {"name": "4_algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms/4_algorithms"}]
+}
+</script>
+
 
 ## Intuition
 
@@ -682,6 +754,15 @@ See the examples integrated throughout the sections above.
    addressing to handle collisions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "4 Algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms"}, {"name": "4_algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms/4_algorithms"}]
+}
+</script>
 
 ## Practice Questions
 

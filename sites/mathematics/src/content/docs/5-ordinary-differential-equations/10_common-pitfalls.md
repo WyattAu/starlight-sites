@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "5 Ordinary Differential Equations", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations"}, {"name": "10_common Pitfalls", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations/10_common-pitfalls"}]
+}
+</script>
 title: Common Pitfalls
 tags:
   - Mathematics
   - University
 description: "Overlaps with the homogeneous solution. For Guessing fails Because satisfies the homogeneous equation. You must use instead."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "5 Ordinary Differential Equations", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations"}, {"name": "10_common Pitfalls", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations/10_common-pitfalls"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--caution">
 Overlaps with the homogeneous solution. For $y"' - 4y = e^{2x}$Guessing $y_p = Ae^{2x}$ fails

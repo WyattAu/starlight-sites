@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "06 Concurrency", "url": "https://languages.wyattau.com/rust/06-concurrency"}, {"name": "Channels And Message Passing", "url": "https://languages.wyattau.com/rust/06-concurrency/channels-and-message-passing"}]
+}
+</script>
 title: Channels and Message Passing
 description: "Channels implement the actor model — concurrent tasks communicate by sending messages rather than Sharing memory. Rust provides several channel types, each"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "06 Concurrency", "url": "https://languages.wyattau.com/rust/06-concurrency"}, {"name": "Channels And Message Passing", "url": "https://languages.wyattau.com/rust/06-concurrency/channels-and-message-passing"}]
+}
+</script>
 
 ## Channel Fundamentals
 

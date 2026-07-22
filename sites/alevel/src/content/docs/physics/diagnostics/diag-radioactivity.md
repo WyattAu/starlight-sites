@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Radioactivity", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-radioactivity"}]
+}
+</script>
 title: "Radioactivity -- Diagnostic Tests"
 description: "A-Level Physics Radioactivity -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for clear revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Radioactivity", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-radioactivity"}]
+}
+</script>
 
 ## Intuition
 
@@ -75,6 +93,15 @@ cross.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Radioactivity", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-radioactivity"}]
+}
+</script>
+
 ### UT-2: Decay Chain Analysis
 
 **Question:**
@@ -119,6 +146,15 @@ At $t = 20\,\text{s}$: $N_Y/N_X = 465/135 = 3.44$Which has not yet reached the e
 $2.0$. More time is needed.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Radioactivity", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-radioactivity"}]
+}
+</script>
 
 ### UT-3: Beta Decay and the Neutrino
 
@@ -213,6 +249,15 @@ background level and statistical uncertainties dominate.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Radioactivity", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-radioactivity"}]
+}
+</script>
+
 ### IT-2: Nuclear Medicine — Activity and Dosage (with Nuclear Energy)
 
 **Question:**
@@ -262,6 +307,15 @@ This is a very small number of atoms (about $10^{-11}\,\text{mol}$), demonstrati
 samples contain far fewer atoms than ordinary chemical quantities.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Radioactivity", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-radioactivity"}]
+}
+</script>
 
 ### IT-3: Background Radiation and Shielding (with Properties of Materials)
 

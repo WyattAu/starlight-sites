@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "1 System Fundamentals", "url": "https://ib.wyattau.com/computer-science/1-system-fundamentals"}, {"name": "1_system Design", "url": "https://ib.wyattau.com/computer-science/1-system-fundamentals/1_system-design"}]
+}
+</script>
 title: System Design
 description: "Rigorous IB computer science notes covering System Design. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "1 System Fundamentals", "url": "https://ib.wyattau.com/computer-science/1-system-fundamentals"}, {"name": "1_system Design", "url": "https://ib.wyattau.com/computer-science/1-system-fundamentals/1_system-design"}]
+}
+</script>
 
 ## Intuition
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Homeostasis", "url": "https://alevel.wyattau.com/biology/homeostasis"}]
+}
+</script>
 title: Homeostasis
 description: "is the maintenance of a constant internal environment within narrow limits, despite changes in the external environment. It is essential for the optimal"
 date: 2026-04-18T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Homeostasis", "url": "https://alevel.wyattau.com/biology/homeostasis"}]
+}
+</script>
 
 ## Homeostasis
 
@@ -1122,6 +1140,15 @@ Only controlled experiments (randomised controlled trials) can establish causati
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Homeostasis", "url": "https://alevel.wyattau.com/biology/homeostasis"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 ## 23. Plant Responses to the Environment
 
@@ -1161,6 +1188,15 @@ Before abscission, chlorophyll is broken down (unmasking carotenoids, causing th
 change), and nutrients (amino acids, minerals) are reabsorbed into the stem and stored for winter.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Homeostasis", "url": "https://alevel.wyattau.com/biology/homeostasis"}]
+}
+</script>
 
 </aside>
 <aside class="starlight-aside starlight-aside--tip">
@@ -1253,6 +1289,15 @@ $50\ \mu\mathrm{mol\ L^{-1}}$). Causes:
   of conjugated bilirubin into the intestine.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Homeostasis", "url": "https://alevel.wyattau.com/biology/homeostasis"}]
+}
+</script>
 
 
 </aside>
@@ -2257,6 +2302,15 @@ responses (drought, cold, salinity) and seed dormancy.
 | Wilting response                    | In rapidly wilting plants, ABA triggers stomatal closure within minutes; this is one of the fastest hormonal responses in plants                                                                                                   |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Homeostasis", "url": "https://alevel.wyattau.com/biology/homeostasis"}]
+}
+</script>
 
 > **Tip:** Diagnostic Test
 

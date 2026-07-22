@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Object_oriented", "url": "https://programming.wyattau.com/object_oriented"}, {"name": "2_runtime_polymorphism", "url": "https://programming.wyattau.com/object_oriented/2_runtime_polymorphism"}, {"name": "2_inheritance_slicing", "url": "https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/2_inheritance_slicing"}]
+}
+</script>
 title: Inheritance, Object Slicing, and Virtual Destructors
 description: "Inheritance allows derived classes to extend base classes, but copying polymorphic objects by value Causes -- the derived portion is discarded. This section"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Object_oriented", "url": "https://programming.wyattau.com/object_oriented"}, {"name": "2_runtime_polymorphism", "url": "https://programming.wyattau.com/object_oriented/2_runtime_polymorphism"}, {"name": "2_inheritance_slicing", "url": "https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/2_inheritance_slicing"}]
+}
+</script>
 
 # Inheritance, Object Slicing, and Virtual Destructors
 

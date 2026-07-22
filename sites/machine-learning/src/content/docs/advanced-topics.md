@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Advanced Topics", "url": "https://machine-learning.wyattau.com/advanced-topics"}]
+}
+</script>
 title: advanced topics
 date: 2026-05-30
 tags:
@@ -7,6 +16,15 @@ categories:
   - Machine Learning
 description: "Attention mechanisms allow a model to focus on different parts of an input sequence when producing each element of an output. This capability — selectively"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Advanced Topics", "url": "https://machine-learning.wyattau.com/advanced-topics"}]
+}
+</script>
 
 ## Attention Mechanisms and Transformers
 

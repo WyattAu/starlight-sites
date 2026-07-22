@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "2_concepts_and_constraints", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints"}, {"name": "3_standard_concepts", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/3_standard_concepts"}]
+}
+</script>
 title: Standard Library Concepts
 description: "The header [N4950 §18.4] provides a comprehensive set of predefined concepts that serve As building blocks for user-defined constraints. These concepts"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "2_concepts_and_constraints", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints"}, {"name": "3_standard_concepts", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/3_standard_concepts"}]
+}
+</script>
 
 # Standard Library Concepts
 

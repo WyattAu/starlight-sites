@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Haskell", "url": "https://languages.wyattau.com/haskell"}, {"name": "04 Monads", "url": "https://languages.wyattau.com/haskell/04-monads"}, {"name": "1_monads And Functors", "url": "https://languages.wyattau.com/haskell/04-monads/1_monads-and-functors"}]
+}
+</script>
 title: Monads and Functors
 description: "A monad is a design pattern for structuring computations. In Haskell, a monad wraps a value in a computational context that defines how operations chain"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Haskell
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Haskell", "url": "https://languages.wyattau.com/haskell"}, {"name": "04 Monads", "url": "https://languages.wyattau.com/haskell/04-monads"}, {"name": "1_monads And Functors", "url": "https://languages.wyattau.com/haskell/04-monads/1_monads-and-functors"}]
+}
+</script>
 
 ## The Monad Concept
 

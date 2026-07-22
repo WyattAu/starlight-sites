@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
 title: Chemical Bonding (Advanced)
 description: "Rigorous IB chemistry notes covering Chemical Bonding (Advanced). Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
 
 ## Intuition
 
@@ -81,6 +99,15 @@ Pairs away from the central atom, reducing repulsion and **decreasing** bond ang
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
+
 ## 2. Hybridization
 
 ### Definition
@@ -149,6 +176,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
+
 ## 3. Molecular Orbital Theory
 
 ### Principle
@@ -213,6 +249,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
+
 ## 4. Metallic Bonding
 
 ### The Sea of Electrons Model
@@ -246,6 +291,15 @@ Electrostatic attraction.
 | Mg vs Ca   | Mg               | $\mathrm{Mg}^{2+}$ is smaller than $\mathrm{Ca}^{2+}$ |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
 
 ## 5. Band Theory
 
@@ -295,6 +349,15 @@ $$
   atoms themselves.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -376,6 +439,15 @@ This is in the infrared region.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -564,6 +636,15 @@ Point, hardness, and tensile strength compared to sodium.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **Counting lone pairs incorrectly for VSEPR**: The steric number includes both bonding pairs and
@@ -600,6 +681,15 @@ Point, hardness, and tensile strength compared to sodium.
   dopant). The dopant itself does not conduct; it provides carriers.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -639,6 +729,15 @@ Point, hardness, and tensile strength compared to sodium.
    number of delocalized electrons, ionic charge, and ionic radius in your answer. **[Medium]**
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
 
 ## Worked Examples (Expanded)
 
@@ -782,6 +881,15 @@ when Born-Haber data are unavailable.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
+
 ## Exam-Style Problems (Expanded)
 
 <details>
@@ -858,6 +966,15 @@ from the value in methane.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Counting lone pairs incorrectly for expanded octet species**: Elements in Period 3 and beyond
@@ -891,6 +1008,15 @@ from the value in methane.
   semiconductor devices.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
 
 ## If You Get These Wrong, Revise:
 

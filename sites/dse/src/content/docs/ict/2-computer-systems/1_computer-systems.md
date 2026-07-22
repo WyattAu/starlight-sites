@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "2 Computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems"}, {"name": "1_computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems"}]
+}
+</script>
 title: Fundamentals of Computer Systems
 description: "The CPU is the primary component that executes instructions. It consists of thre Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, ICT]
 categories: [DSE, ICT]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "2 Computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems"}, {"name": "1_computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems"}]
+}
+</script>
 
 ## Hardware Components
 
@@ -68,6 +86,15 @@ SSDs are faster with no moving parts but more expensive per GB.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "2 Computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems"}, {"name": "1_computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems"}]
+}
+</script>
+
 ## Input Devices
 
 | Device              | Input Type               | Common Use Case                                        |
@@ -93,6 +120,15 @@ SSDs are faster with no moving parts but more expensive per GB.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "2 Computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems"}, {"name": "1_computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems"}]
+}
+</script>
+
 ## Output Devices
 
 | Device        | Output Type          | Common Use Case                                   |
@@ -114,6 +150,15 @@ SSDs are faster with no moving parts but more expensive per GB.
 | Mechanism              | Sprays liquid ink | Uses toner powder, heat |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "2 Computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems"}, {"name": "1_computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems"}]
+}
+</script>
 
 ## Von Neumann Architecture
 
@@ -193,6 +238,15 @@ Von Neumann model externally.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "2 Computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems"}, {"name": "1_computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems"}]
+}
+</script>
+
 ## The Fetch-Decode-Execute Cycle
 
 This is the fundamental cycle by which the CPU processes every instruction.
@@ -244,6 +298,15 @@ Given memory starting at address 100:
 | Execute | ACC -> Mem[6]                                        | 103 | 102 | STORE 6 | STORE 6 | M[5]+M[3] |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "2 Computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems"}, {"name": "1_computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems"}]
+}
+</script>
 
 ## Software Types
 
@@ -318,6 +381,15 @@ Executing actual instructions. This happens when the system is overloaded with t
 Competing for insufficient RAM.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "2 Computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems"}, {"name": "1_computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems"}]
+}
+</script>
 
 ## Number Systems
 
@@ -402,6 +474,15 @@ $185_{10} = 000110000101_{BCD}$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "2 Computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems"}, {"name": "1_computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems"}]
+}
+</script>
 
 ## Data Representation
 
@@ -562,6 +643,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "2 Computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems"}, {"name": "1_computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Confusing RAM and ROM:** RAM is volatile (loses data on power off) and read-write. ROM is
@@ -595,6 +685,15 @@ $$
     mix them up.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "2 Computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems"}, {"name": "1_computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems"}]
+}
+</script>
 
 ## Practice Problems
 

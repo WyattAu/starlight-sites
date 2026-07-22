@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "01 Cpu Tuning", "url": "https://tuning.wyattau.com/01-cpu-tuning"}, {"name": "Cpu Fundamentals", "url": "https://tuning.wyattau.com/01-cpu-tuning/cpu-fundamentals"}]
+}
+</script>
 title: CPU Architecture and Tuning
 description: "A modern CPU is a superscalar, out-of-order, speculative execution engine. Understanding these Concepts is prerequisite to any meaningful tuning, because"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "01 Cpu Tuning", "url": "https://tuning.wyattau.com/01-cpu-tuning"}, {"name": "Cpu Fundamentals", "url": "https://tuning.wyattau.com/01-cpu-tuning/cpu-fundamentals"}]
+}
+</script>
 
 ## Microarchitecture Overview
 
@@ -109,6 +127,15 @@ Every instruction depends on the previous one (a long dependency chain), most po
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "01 Cpu Tuning", "url": "https://tuning.wyattau.com/01-cpu-tuning"}, {"name": "Cpu Fundamentals", "url": "https://tuning.wyattau.com/01-cpu-tuning/cpu-fundamentals"}]
+}
+</script>
+
 ## Cache Hierarchy
 
 The cache hierarchy exists because main memory is orders of magnitude slower than the CPU core. The
@@ -180,6 +207,15 @@ Characteristics. This has tuning implications:
   automatically. On Windows, Thread Director requires Windows 11.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "01 Cpu Tuning", "url": "https://tuning.wyattau.com/01-cpu-tuning"}, {"name": "Cpu Fundamentals", "url": "https://tuning.wyattau.com/01-cpu-tuning/cpu-fundamentals"}]
+}
+</script>
 
 ## Clock Speeds and Power States
 
@@ -269,6 +305,15 @@ Performance at lower temperatures than stock.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "01 Cpu Tuning", "url": "https://tuning.wyattau.com/01-cpu-tuning"}, {"name": "Cpu Fundamentals", "url": "https://tuning.wyattau.com/01-cpu-tuning/cpu-fundamentals"}]
+}
+</script>
+
 ## CPU Affinity and NUMA
 
 ### CPU Affinity (cpu pinning)
@@ -311,6 +356,15 @@ CPU. However, this can be suboptimal for workloads with specific memory access p
 `numactl --hardware` to inspect the NUMA topology and `numastat` to monitor memory locality.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "01 Cpu Tuning", "url": "https://tuning.wyattau.com/01-cpu-tuning"}, {"name": "Cpu Fundamentals", "url": "https://tuning.wyattau.com/01-cpu-tuning/cpu-fundamentals"}]
+}
+</script>
 
 ## CPU Frequency Drivers (Linux)
 
@@ -383,6 +437,15 @@ Frequencies; `power` biases toward lower frequencies. For desktop tuning, `balan
 the best default.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "01 Cpu Tuning", "url": "https://tuning.wyattau.com/01-cpu-tuning"}, {"name": "Cpu Fundamentals", "url": "https://tuning.wyattau.com/01-cpu-tuning/cpu-fundamentals"}]
+}
+</script>
 
 ## Thermal Throttling
 
@@ -470,6 +533,15 @@ sensors
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "01 Cpu Tuning", "url": "https://tuning.wyattau.com/01-cpu-tuning"}, {"name": "Cpu Fundamentals", "url": "https://tuning.wyattau.com/01-cpu-tuning/cpu-fundamentals"}]
+}
+</script>
+
 ## SMT and Hyper-Threading
 
 Simultaneous Multithreading (SMT, branded as Hyper-Threading by Intel) allows a single physical core
@@ -518,6 +590,15 @@ Performance cost is workload-dependent but can be 15–30% for parallel workload
 On Linux, kernel parameter `nosmt` disables SMT at boot time.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "01 Cpu Tuning", "url": "https://tuning.wyattau.com/01-cpu-tuning"}, {"name": "Cpu Fundamentals", "url": "https://tuning.wyattau.com/01-cpu-tuning/cpu-fundamentals"}]
+}
+</script>
 
 ## Practical Tuning Workflow
 
@@ -569,6 +650,15 @@ sudo cpupower frequency-set -g performance
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "01 Cpu Tuning", "url": "https://tuning.wyattau.com/01-cpu-tuning"}, {"name": "Cpu Fundamentals", "url": "https://tuning.wyattau.com/01-cpu-tuning/cpu-fundamentals"}]
+}
+</script>
 
 ## Intuition
 

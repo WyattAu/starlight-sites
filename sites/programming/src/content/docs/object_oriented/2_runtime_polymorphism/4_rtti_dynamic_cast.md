@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Object_oriented", "url": "https://programming.wyattau.com/object_oriented"}, {"name": "2_runtime_polymorphism", "url": "https://programming.wyattau.com/object_oriented/2_runtime_polymorphism"}, {"name": "4_rtti_dynamic_cast", "url": "https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/4_rtti_dynamic_cast"}]
+}
+</script>
 title: RTTI, dynamic_cast, and typeid
 description: "Run-Time Type Information (RTTI) allows programs to query the dynamic type of polymorphic objects at Runtime. This section covers for safe downcasting, the"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Object_oriented", "url": "https://programming.wyattau.com/object_oriented"}, {"name": "2_runtime_polymorphism", "url": "https://programming.wyattau.com/object_oriented/2_runtime_polymorphism"}, {"name": "4_rtti_dynamic_cast", "url": "https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/4_rtti_dynamic_cast"}]
+}
+</script>
 
 # RTTI, dynamic_cast, and Typeid
 

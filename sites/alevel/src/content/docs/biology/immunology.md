@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Immunology", "url": "https://alevel.wyattau.com/biology/immunology"}]
+}
+</script>
 title: Immunology
 description: "The immune system can be divided into two broad categories based on specificity  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Immunology", "url": "https://alevel.wyattau.com/biology/immunology"}]
+}
+</script>
 
 ## Immunology
 
@@ -1297,6 +1315,15 @@ inflammation can cause tissue damage and is implicated in many diseases:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Immunology", "url": "https://alevel.wyattau.com/biology/immunology"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 ## 23. The Complement System
 
@@ -2279,6 +2306,15 @@ inactive form.
 | Membrane attack complex (MAC) | C5b initiates the formation of a pore (channel) in the pathogen's cell membrane (C5b, C6, C7, C8, multiple C9); the MAC allows water and ions to enter the pathogen; the pathogen swells and lyses (bursts) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Immunology", "url": "https://alevel.wyattau.com/biology/immunology"}]
+}
+</script>
 
 > **Tip:** Diagnostic Test
 ## Common Pitfalls

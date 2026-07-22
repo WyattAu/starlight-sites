@@ -1,9 +1,27 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths/maths"}]
+}
+</script>
 title: Maths
 tags:
   - maths
 description: "This section contains notes and study materials for IB Mathematics: Analysis and Approaches, Available at both Standard Level (SL) and Higher Level (HL)."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths/maths"}]
+}
+</script>
 
 ## IB Mathematics -- Analysis and Approaches (AA) -- Course Overview
 
@@ -12,6 +30,15 @@ Available at both Standard Level (SL) and Higher Level (HL). The course emphasis
 Rigour, formal proof, and the development of strong analytical and problem-solving skills.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths/maths"}]
+}
+</script>
 
 ## Course Structure
 
@@ -358,6 +385,15 @@ Algorithms.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths/maths"}]
+}
+</script>
+
 ## Assessment Overview
 
 | Component   | Description                                                                                                                                           | Weighting          |
@@ -368,6 +404,15 @@ Algorithms.
 | **IA**      | Internal Assessment -- a mathematical exploration on a topic of the student's choosing, up to 12--20 pages.                                           | 20% (SL), 20% (HL) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths/maths"}]
+}
+</script>
 
 ## Key Formulae and Identities
 
@@ -391,6 +436,15 @@ $\displaystyle\int_a^b f(x)\,dx = F(b) - F(a)$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths/maths"}]
+}
+</script>
+
 ## Approaches to Problem-Solving
 
 IB Mathematics AA rewards clear, logical reasoning. The following strategies are applicable across
@@ -413,6 +467,15 @@ All topics:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths/maths"}]
+}
+</script>
+
 ## How to Use These Notes
 
 - Begin with the **Syllabus** page for a detailed breakdown of the topics and sub-topics.
@@ -425,6 +488,15 @@ All topics:
   permitted results.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths/maths"}]
+}
+</script>
 
 ## Detailed Topic Breakdown
 
@@ -481,6 +553,15 @@ $S_n = \frac{n}{2}(2u_1 + (n-1)d) = \frac{n}{2}(u_1 + u_n)$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths/maths"}]
+}
+</script>
+
 ## Calculator Tips (GDC)
 
 ### What Your GDC Can Do
@@ -505,6 +586,15 @@ $S_n = \frac{n}{2}(2u_1 + (n-1)d) = \frac{n}{2}(u_1 + u_n)$
    only the final answer.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths/maths"}]
+}
+</script>
 
 ## Exam Strategy
 
@@ -543,6 +633,15 @@ This paper tests problem-solving and mathematical reasoning on HL extension mate
 - **Explain your reasoning.** Paper 3 rewards clear mathematical argument, not just correct answers.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths/maths"}]
+}
+</script>
 
 ## Common Mistakes to Avoid
 
@@ -584,6 +683,15 @@ This paper tests problem-solving and mathematical reasoning on HL extension mate
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths/maths"}]
+}
+</script>
+
 ## Internal Assessment (IA) Tips
 
 The mathematical exploration is worth 20% of your final grade. It is an opportunity to explore a
@@ -615,6 +723,15 @@ Topic of personal interest in depth.
 - **Use of Mathematics:** Sophistication, rigour, and breadth of mathematical techniques.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths/maths"}]
+}
+</script>
 
 ## Problem Set
 

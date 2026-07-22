@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Theory", "url": "https://computer-science.wyattau.com/3-theory"}, {"name": "Practice Cryptography", "url": "https://computer-science.wyattau.com/3-theory/practice-cryptography"}]
+}
+</script>
 title: "Cryptography -- Practice Problems"
 description: "10 MCQ questions covering symmetric/asymmetric encryption, AES, RSA, hash functions, digital signatures, key exchange, and post-quantum cryptography. Select"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Theory", "url": "https://computer-science.wyattau.com/3-theory"}, {"name": "Practice Cryptography", "url": "https://computer-science.wyattau.com/3-theory/practice-cryptography"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -20,6 +38,15 @@ signatures, key exchange, and post-quantum cryptography. Select an option to che
 **The key insight:** Security depends on mathematical hardness assumptions — RSA relies on factoring being hard, Diffie-Hellman on discrete logarithms — and when those assumptions break, so does the security.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Theory", "url": "https://computer-science.wyattau.com/3-theory"}, {"name": "Practice Cryptography", "url": "https://computer-science.wyattau.com/3-theory/practice-cryptography"}]
+}
+</script>
 
 ## Symmetric Encryption and Block Cipher Modes
 
@@ -46,6 +73,15 @@ signatures, key exchange, and post-quantum cryptography. Select an option to che
 <PracticeProblem client:only="solid-js" question={"What does forward secrecy in a key exchange protocol guarantee?&quot; options={[ 'If long-term keys are compromised, past session keys remain secure', 'Future sessions are protected against quantum attacks', 'The protocol never needs to exchange new keys', 'All messages are encrypted with the same key indefinitely', ]} correctAnswer={0} explanation=&quot;Forward secrecy (perfect forward secrecy) means that compromising a long-term private key does not allow decryption of past session communications. This is achieved by using ephemeral key exchange (DHE or ECDHE) where each session generates fresh key pairs that are discarded afterward. Static DH does not provide forward secrecy."} difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Theory", "url": "https://computer-science.wyattau.com/3-theory"}, {"name": "Practice Cryptography", "url": "https://computer-science.wyattau.com/3-theory/practice-cryptography"}]
+}
+</script>
 
 ## Additional Cryptography Questions
 

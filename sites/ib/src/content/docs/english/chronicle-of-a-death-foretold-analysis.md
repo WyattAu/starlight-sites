@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold Analysis", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold-analysis"}]
+}
+</script>
 title: Chronicle of a Death Foretold — Close Reading and Analysis
 tags:
   - IB
@@ -6,11 +15,29 @@ tags:
 description: "Gabriel Garcia Marquez, _Chronicle of a Death Foretold_ (1981), translated by Gr Comprehensive educational content coverage with definitions and practice proble"
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold Analysis", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold-analysis"}]
+}
+</script>
+
 # Chronicle of a Death Foretold: Close Reading and Analysis
 
 Gabriel Garcia Marquez, _Chronicle of a Death Foretold_ (1981), translated by Gregory Rabassa
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold Analysis", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold-analysis"}]
+}
+</script>
 
 ## 1. Context: Magical Realism and the Latin American Boom
 
@@ -74,6 +101,15 @@ Narrative technique, to the ethics of storytelling, and to the relationship betw
 Action and collective responsibility.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold Analysis", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold-analysis"}]
+}
+</script>
 
 ## Intuition
 
@@ -175,6 +211,15 @@ Buried. The novel thus reflects on its own status as a narrative: it is aware th
 Never neutral, that the act of narration involves power, selection, and interpretation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold Analysis", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold-analysis"}]
+}
+</script>
 
 ## 3. Character Analysis
 
@@ -351,6 +396,15 @@ That paralyse moral judgement.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold Analysis", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold-analysis"}]
+}
+</script>
+
 ## 4. Themes
 
 ### Honour and Machismo in Latin American Culture
@@ -498,6 +552,15 @@ Is a genuine premonition, a psychological projection, or a narrative device for 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold Analysis", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold-analysis"}]
+}
+</script>
+
 ## 5. Key Scenes Analysis
 
 ### The Murder Scene
@@ -621,6 +684,15 @@ Distortions of memory and perspective.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold Analysis", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold-analysis"}]
+}
+</script>
+
 ## 6. Literary Devices
 
 ### Imagery and Symbolism
@@ -725,6 +797,15 @@ Subdued, almost naturalistic. The supernatural is felt as a presence rather than
 Quality of the atmosphere rather than a disruption of the plot.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold Analysis", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold-analysis"}]
+}
+</script>
 
 ## 7. Critical Approaches
 
@@ -840,6 +921,15 @@ Single, objective truth.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold Analysis", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold-analysis"}]
+}
+</script>
+
 ## Exam Preparation: Key Quotations and Discussion Points
 
 <aside class="starlight-aside starlight-aside--note">
@@ -945,6 +1035,15 @@ The implications of this statement for the novel's treatment of knowledge and un
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold Analysis", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold-analysis"}]
+}
+</script>
+
 ## Comparative Connections
 
 For IB students studying _Chronicle of a Death Foretold_ as part of a comparative assessment, the
@@ -971,6 +1070,15 @@ Following pairings are especially productive:
   and social dimensions of honour violence.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold Analysis", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold-analysis"}]
+}
+</script>
 
 ## Further Reading
 

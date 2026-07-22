@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
 title: Periodicity
 description: "Rigorous IB chemistry notes covering Periodicity. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
 
 ## Intuition
 
@@ -44,6 +62,15 @@ Element) and changes only slightly down a group (new shells increase shielding p
 - The $d$-block contraction causes period 5 and 6 elements to have similar radii.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
 
 ## 2. Group 1: Alkali Metals
 
@@ -98,6 +125,15 @@ $\mathrm{O}_2^-$).
 | $\mathrm{K}^+$  | Lilac (view through cobalt glass) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
 
 ## 3. Group 2: Alkaline Earth Metals
 
@@ -172,6 +208,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
+
 ## 4. Group 17: Halogens
 
 ### Physical Properties
@@ -214,6 +259,15 @@ Add dilute $\mathrm{HNO}_3$ first (to remove carbonate/hydroxide), then $\mathrm
 | $\mathrm{I}^-$  | Yellow ($\mathrm{AgI}$) | Insoluble                                  |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
 
 ## 5. Period 3 Properties
 
@@ -282,6 +336,15 @@ Valence electrons available for bonding.
 | Cl      | —                                          | —                | N/A                                                                                           |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
 
 ## 6. Transition Metals ($d$-Block)
 
@@ -353,6 +416,15 @@ Form intermediate complexes.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
+
 ## Practice Problems
 
 <details>
@@ -421,6 +493,15 @@ Particularly large lattice energy.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -550,6 +631,15 @@ no visible light is absorbed by $d$-$d$ transitions. The compound appears white.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **Confusing van der Waals radius with covalent radius:** Noble gas radii are van der Waals radii
@@ -579,6 +669,15 @@ no visible light is absorbed by $d$-$d$ transitions. The compound appears white.
   colourless because there are no partially filled $d$-orbitals to allow such transitions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -616,6 +715,15 @@ no visible light is absorbed by $d$-$d$ transitions. The compound appears white.
    $\mathrm{Ca} = 40.1$)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
 
 ## Worked Examples (Expanded)
 
@@ -745,6 +853,15 @@ $$V(\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7) = \frac{n}{c} = \frac{4.17 \times 10^
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
+
 ## Exam-Style Problems (Expanded)
 
 <details>
@@ -814,6 +931,15 @@ of aluminium from bauxite ore via the Bayer process.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Assuming all $d$-block elements are transition metals**: The IB definition requires a partially
@@ -846,6 +972,15 @@ of aluminium from bauxite ore via the Bayer process.
   anode). A negative result means the reaction is non-spontaneous under standard conditions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "3 Periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity"}, {"name": "1_periodicity", "url": "https://ib.wyattau.com/chemistry/3-periodicity/1_periodicity"}]
+}
+</script>
 
 ## If You Get These Wrong, Revise:
 

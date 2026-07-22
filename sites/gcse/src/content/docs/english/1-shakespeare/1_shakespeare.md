@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "1 Shakespeare", "url": "https://gcse.wyattau.com/english/1-shakespeare"}, {"name": "1_shakespeare", "url": "https://gcse.wyattau.com/english/1-shakespeare/1_shakespeare"}]
+}
+</script>
 title: Shakespeare
 description: "(with Pre-1900 Poetry) | WJEC/Eduqas Paper 1 Section A Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-22
@@ -9,6 +18,15 @@ categories:
   - gcse-english
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "1 Shakespeare", "url": "https://gcse.wyattau.com/english/1-shakespeare"}, {"name": "1_shakespeare", "url": "https://gcse.wyattau.com/english/1-shakespeare/1_shakespeare"}]
+}
+</script>
 
 ## Shakespeare
 

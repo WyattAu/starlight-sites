@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
 title: "Organic Chemistry -- Diagnostic Tests"
 description: "IB Organic Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
 
 # Organic Chemistry — Diagnostic Tests
 
@@ -43,6 +61,15 @@ halide, the stability of the carbocation makes $S_N1$ competitive with $S_N2$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
+
 ### UT-2: E1 vs E2 Elimination and Zaitsev"s Rule
 
 **Question:** When 2-bromo-3-methylbutane is treated with a strong base (NaOEt in ethanol), two
@@ -70,6 +97,15 @@ for secondary substrates. E1 would require carbocation formation and is disfavou
 base present.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
 
 ### UT-3: Functional Group Identification and Classification
 
@@ -139,6 +175,15 @@ ultimately converting it to $-\text{COOH}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
+
 ### IT-2: Reaction Mechanism and Kinetics (with Kinetics)
 
 **Question:** The hydrolysis of 2-bromo-2-methylpropane follows first-order kinetics with respect to
@@ -171,6 +216,15 @@ products, so greater polar solvation of the ionic products means greater solvati
 state.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
 
 ### IT-3: Stereochemistry and Nucleophilic Attack (with Chemical Bonding)
 

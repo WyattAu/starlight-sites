@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 1", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-1"}]
+}
+</script>
 title: Further Pure Mathematics 1
 description: "| Board | Paper | Notes | | ---------- | ----------- | ----------------------------------------------------------- | | AQA | Paper 2 | Complex numbers,"
 date: 2026-05-31
@@ -10,6 +19,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 1", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-1"}]
+}
+</script>
 
 ## Board Coverage
 
@@ -90,6 +108,15 @@ region bounded by a half-line.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 1", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-1"}]
+}
+</script>
+
 ## 2. Matrices
 
 ### 2.1 Matrix Operations
@@ -164,6 +191,15 @@ necessarily itself).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 1", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-1"}]
+}
+</script>
+
 ## 3. Further Calculus
 
 ### 3.1 Integration by Parts
@@ -217,6 +253,15 @@ $$y = e^{\alpha x}(A\cos\beta x + B\sin\beta x)$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 1", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-1"}]
+}
+</script>
+
 ## 4. Polar Coordinates
 
 ### 4.1 Converting Between Cartesian and Polar
@@ -257,6 +302,15 @@ $$A = \frac{1}{2}\int_{\theta_1}^{\theta_2} r^2\,d\theta$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 1", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-1"}]
+}
+</script>
+
 ## 5. Hyperbolic Functions
 
 ### 5.1 Definitions
@@ -293,6 +347,15 @@ $$\tanh^{-1} x = \frac{1}{2}\ln\frac{1+x}{1-x}\text{ for } |x| < 1$$
 $$\frac{d}{dx}\sinh^{-1} x = \frac{1}{\sqrt{1+x^2}} \qquad \frac{d}{dx}\cosh^{-1} x = \frac{1}{\sqrt{x^2-1}}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 1", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-1"}]
+}
+</script>
 
 ## 6. Proof
 
@@ -336,6 +399,15 @@ A single counterexample is sufficient to disprove a universal claim.
 counterexample.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "Further Pure 1", "url": "https://alevel.wyattau.com/maths/pure-mathematics/further-pure-1"}]
+}
+</script>
 
 ## 7. Common Mistakes
 

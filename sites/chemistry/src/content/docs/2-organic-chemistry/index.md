@@ -1,5 +1,14 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "2 Organic Chemistry", "url": "https://chemistry.wyattau.com/2-organic-chemistry"}, {"name": "Index", "url": "https://chemistry.wyattau.com/2-organic-chemistry/index"}]
+}
+</script>
+
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -26,6 +35,15 @@
 title: Organic Chemistry
 description: 'Topics in organic chemistry including reaction mechanisms, functional group chemistry, and synthesis with worked examples.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "2 Organic Chemistry", "url": "https://chemistry.wyattau.com/2-organic-chemistry"}, {"name": "Index", "url": "https://chemistry.wyattau.com/2-organic-chemistry/index"}]
+}
+</script>
 
 <!-- Course Schema for SEO -->
 <script type="application/ld+json">

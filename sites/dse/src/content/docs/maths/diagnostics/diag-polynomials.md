@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
 title: "Polynomials -- Diagnostic Tests"
 description: "DSE Maths Polynomials -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
 
 # Polynomials — Diagnostic Tests
 
@@ -28,6 +46,15 @@ A common mistake is testing $P(2)$ instead of $P(-2)$. The factor theorem states
 factor if $P(a) = 0$. Here the factor is $x + 2 = x - (-2)$So we test $a = -2$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
 
 ### UT-2: Remainder Theorem Application
 
@@ -62,6 +89,15 @@ Subtracting: $3a = 9 \implies a = 3$, $b = -10$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
+
 ### UT-3: Polynomial Division with Errors
 
 **Question:**
@@ -94,6 +130,15 @@ $= 2x^3 - 5x^2 + x - 6$. Correct.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
+
 ### UT-4: Vieta"s Formulas for Cubic
 
 **Question:**
@@ -110,6 +155,15 @@ $$\alpha + \beta + \gamma = -p = 5$$ $$\alpha\beta + \beta\gamma + \gamma\alpha 
 $$\alpha\beta\gamma = -r = -8$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
 
 ### UT-5: Finding Unknown Coefficients Given Factors
 
@@ -141,6 +195,15 @@ The remaining factor is $(x + 3)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of polynomials with other topics.
@@ -168,6 +231,15 @@ $P(x) \leq 0$ when $x \leq 3$ (including $x = 1$ and $x = 3$).
 Therefore $x \in (-\infty,\; 3]$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
 
 ### IT-2: Polynomials and Functions (with Functions)
 
@@ -211,6 +283,15 @@ points) or $(-\infty,\; -2]$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
+
 ### IT-3: Polynomials and Coordinate Geometry (with Coordinate Geometry)
 
 **Question:**
@@ -235,6 +316,15 @@ $0$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
+
 ## Worked Examples
 
 ### WE-1: Factor Theorem with Multiple Factors
@@ -254,6 +344,15 @@ Expanding: $(x - 1)(x^2 - x - 6) = x^3 - x^2 - 6x - x^2 + x + 6 = x^3 - 2x^2 - 5
 Therefore $a = -2$$b = -5$$c = 6$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
 
 ### WE-2: Remainder When Dividing by Quadratic
 
@@ -286,6 +385,15 @@ $P(x) - 7 - x(x^2 - x - 2) = 3x^2 - 3x - 6 = 3(x^2 - x - 2)$.
 So $Q(x) = x + 3$Remainder $= 7$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
 
 ### WE-3: Using Factor Theorem to Fully Factorise
 
@@ -323,6 +431,15 @@ $P(x) = (x - 3)(2x^2 + 5x + 2) = (x - 3)(2x + 1)(x + 2)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
+
 ### WE-4: Symmetric Sums of Roots
 
 **Question:**
@@ -339,6 +456,15 @@ $\alpha + \beta + \gamma = \dfrac{3}{2}$$\alpha\beta + \beta\gamma + \gamma\alph
 $$\frac{1}{\alpha} + \frac{1}{\beta} + \frac{1}{\gamma} = \frac{\alpha\beta + \beta\gamma + \gamma\alpha}{\alpha\beta\gamma} = \frac{2}{5/2} = \frac{4}{5}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
 
 ### WE-5: Finding the Remainder Without Division
 
@@ -362,6 +488,15 @@ Remainder $= 3$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
+
 ### WE-6: Polynomial Identity Method
 
 **Question:**
@@ -382,6 +517,15 @@ $\dfrac{4}{x+1} - \dfrac{1}{x+2} = \dfrac{4(x+2) - (x+1)}{(x+1)(x+2)} = \dfrac{4
 Correct.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
 
 ### WE-7: Reciprocal Equation Roots
 
@@ -405,6 +549,15 @@ $$\frac{1}{\alpha^2} \cdot \frac{1}{\beta^2} = \frac{1}{4}$$
 Required equation: $x^2 - \dfrac{25}{16}x + \dfrac{1}{4} = 0$I.e. $16x^2 - 25x + 4 = 0$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
 
 ### WE-8: Polynomial Graph Behaviour
 
@@ -431,6 +584,15 @@ $x$-intercepts: $(-\sqrt{3}, 0), (-1, 0), (1, 0), (\sqrt{3}, 0)$.
 Maximum is $1$ when $v = 2$I.e. $x^2 = 2$So $x = \pm\sqrt{2}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
 
 ## Intuition
 
@@ -463,6 +625,15 @@ Maximum is $1$ when $v = 2$I.e. $x^2 = 2$So $x = \pm\sqrt{2}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
+
 ## DSE Exam-Style Questions
 
 ### DSE-1
@@ -485,6 +656,15 @@ $x$-intercepts and the $y$-intercept. (3 marks)
 leading coefficient, so it goes from bottom-left to top-right, crossing the $x$-axis at each root.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
 
 ### DSE-2
 
@@ -516,6 +696,15 @@ Remainder $= 7x + 7$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
+
 ### DSE-3
 
 The equation $x^3 + ax^2 + bx + c = 0$ has roots $\alpha$$\beta$$\gamma$ where
@@ -546,6 +735,15 @@ Equation: $x^3 - 9x^2 + 26x - 24 = 0$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
+
 ### DSE-4
 
 (a) Express $\dfrac{5x - 1}{(x + 2)(2x - 1)}$ in partial fractions. (4 marks) (b) Hence find
@@ -567,6 +765,15 @@ $$\frac{5x - 1}{(x + 2)(2x - 1)} = \frac{11/5}{x + 2} + \frac{1}{2x - 1}$$
 $\displaystyle\int \left(\frac{11/5}{x+2} + \frac{1}{2x-1}\right) dx = \frac{11}{5}\ln|x + 2| + \frac{1}{2}\ln|2x - 1| + C$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Polynomials", "url": "https://dse.wyattau.com/maths/diagnostics/diag-polynomials"}]
+}
+</script>
 
 ### DSE-5
 

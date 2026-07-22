@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
 title: Energy and Matter
 description: "Scottish Highers Chemistry Energy and Matter notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
 
 # Energy and Matter
 
@@ -126,6 +144,15 @@ $$\Delta H_{\mathrm{neut} = -\frac{1.42}{0.0250} = -56.8 \mathrm{ kJ/mol$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
+
 ## Chemical Equilibrium
 
 ### Dynamic Equilibrium
@@ -217,6 +244,15 @@ $$K_c = \frac{[\mathrm{PCl_3][\mathrm{Cl_2]}{[\mathrm{PCl_5]} = \frac{(0.06)(0.0
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
+
 ## Advanced Higher Equilibrium
 
 ### Equilibrium Constant and Gibbs Free Energy
@@ -269,6 +305,15 @@ Integrating from $T_1$ to $T_2$:
 $$\ln\left(\frac{K_2}{K_1}\right) = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
 
 ## Kinetics
 
@@ -400,6 +445,15 @@ $$k_2 = 73.2 \times 3.0 \times 10^{-4} = 2.20 \times 10^{-2} \mathrm{ s^{-1}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
+
 ## Catalysts in Detail
 
 ### Types of Catalysts
@@ -441,6 +495,15 @@ The catalysed pathway has a lower peak ($E_a$ reduced) but the same overall $\De
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
+
 ## Summary Table: Energetics and Kinetics
 
 | Concept              | Symbol/Formula                                                            | Notes                                 |
@@ -454,6 +517,15 @@ The catalysed pathway has a lower peak ($E_a$ reduced) but the same overall $\De
 | van't Hoff equation  | $\ln(K_2/K_1) = -\frac{\Delta H^\circ}{R}(\frac{1}{T_2} - \frac{1}{T_1})$ | Relates $K$ at two temperatures       |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -477,6 +549,15 @@ The catalysed pathway has a lower peak ($E_a$ reduced) but the same overall $\De
    consistently to avoid errors.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
 
 ## Practice Questions
 
@@ -536,6 +617,15 @@ The catalysed pathway has a lower peak ($E_a$ reduced) but the same overall $\De
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
+
 ## Advanced Calorimetry: Solution Calorimetry vs. Bomb Calorimetry
 
 ### Solution Calorimetry
@@ -568,6 +658,15 @@ Where $\Delta n_g$ is the change in moles of gas.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
+
 ## Temperature Dependence of Equilibrium in Detail
 
 **Worked Example 16:** For the reaction
@@ -589,6 +688,15 @@ The equilibrium constant increases significantly with temperature, confirming th
 Reaction is endothermic (Le Chatelier's principle).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
 
 ## Rate-Determining Step and Reaction Mechanisms
 
@@ -621,6 +729,15 @@ Rate order cannot be predicted from the stoichiometry.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
+
 ## Comparison Table: Thermodynamics vs. Kinetics
 
 | Aspect             | Thermodynamics (Equilibrium)           | Kinetics (Rate)                       |
@@ -633,6 +750,15 @@ Rate order cannot be predicted from the stoichiometry.
 | Spontaneity        | $\Delta G^\circ < 0$ means spontaneous | No concept of spontaneity             |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
 
 ## Practice Questions (Extended)
 
@@ -668,6 +794,15 @@ Determine the rate equation, the value of $k$ with units, and the overall order.
     a large effect on the reaction rate.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
 
 ## Entropy and Spontaneity
 

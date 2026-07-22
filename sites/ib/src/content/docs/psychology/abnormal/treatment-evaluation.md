@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Abnormal", "url": "https://ib.wyattau.com/psychology/abnormal"}, {"name": "Treatment Evaluation", "url": "https://ib.wyattau.com/psychology/abnormal/treatment-evaluation"}]
+}
+</script>
 title: Treatment Evaluation
 description: "Evaluating psychological treatments requires careful consideration of multiple dimensions, including Effectiveness, ethical implications, cultural"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Abnormal", "url": "https://ib.wyattau.com/psychology/abnormal"}, {"name": "Treatment Evaluation", "url": "https://ib.wyattau.com/psychology/abnormal/treatment-evaluation"}]
+}
+</script>
 
 ## Introduction
 

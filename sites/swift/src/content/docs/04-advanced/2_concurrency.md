@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "04 Advanced", "url": "https://swift.wyattau.com/04-advanced"}, {"name": "2_concurrency", "url": "https://swift.wyattau.com/04-advanced/2_concurrency"}]
+}
+</script>
 title: Concurrency
 description: "Swift' s concurrency model provides -- asynchronous tasks are organised in a hierarchy where the lifetime of child tasks is bounded by their parent. This"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Swift
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "04 Advanced", "url": "https://swift.wyattau.com/04-advanced"}, {"name": "2_concurrency", "url": "https://swift.wyattau.com/04-advanced/2_concurrency"}]
+}
+</script>
 
 ## Overview of Swift Concurrency
 
@@ -761,6 +779,15 @@ Task {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "04 Advanced", "url": "https://swift.wyattau.com/04-advanced"}, {"name": "2_concurrency", "url": "https://swift.wyattau.com/04-advanced/2_concurrency"}]
+}
+</script>
+
 ### Example 2: AsyncStream for Real-Time Data
 
 **Problem:** Create an `AsyncStream` that emits temperature readings at regular intervals, simulating a sensor.
@@ -800,6 +827,15 @@ Task {
 **Explanation:** `AsyncStream` wraps the imperative generation loop. `continuation.yield` emits values to consumers. `onTermination` ensures the producer task is cancelled when the consumer stops. `Task.isCancelled` provides cooperative cancellation in the loop. The consumer uses `for await` to iterate over the stream.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "swift", "url": "https://swift.wyattau.com"}, {"name": "04 Advanced", "url": "https://swift.wyattau.com/04-advanced"}, {"name": "2_concurrency", "url": "https://swift.wyattau.com/04-advanced/2_concurrency"}]
+}
+</script>
 
 ### Example 3: @MainActor ViewModel with Error Handling
 

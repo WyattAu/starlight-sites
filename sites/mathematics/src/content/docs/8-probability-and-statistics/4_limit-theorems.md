@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "8 Probability And Statistics", "url": "https://mathematics.wyattau.com/8-probability-and-statistics"}, {"name": "4_limit Theorems", "url": "https://mathematics.wyattau.com/8-probability-and-statistics/4_limit-theorems"}]
+}
+</script>
 title: Limit Theorems
 description: "UNIVERSITY Mathematics notes: Limit Theorems. Comprehensive study material with definitions, examples, and assessment tools."
 tags:
   - Mathematics
   - University
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "8 Probability And Statistics", "url": "https://mathematics.wyattau.com/8-probability-and-statistics"}, {"name": "4_limit Theorems", "url": "https://mathematics.wyattau.com/8-probability-and-statistics/4_limit-theorems"}]
+}
+</script>
 
 ### 4.1 The Law of Large Numbers
 

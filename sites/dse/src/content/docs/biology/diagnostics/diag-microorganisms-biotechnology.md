@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Microorganisms Biotechnology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-microorganisms-biotechnology"}]
+}
+</script>
 title: "Microorganisms and Biotechnology -- Diagnostic Tests"
 description: "DSE Biology Microorganisms and Biotechnology -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Microorganisms Biotechnology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-microorganisms-biotechnology"}]
+}
+</script>
 
 # DSE Biology Diagnostic: Microorganisms and Biotechnology
 
@@ -19,6 +37,15 @@ considered living organisms. [3 marks]
 (c) A student claims that viruses can be killed by antibiotics. Evaluate this claim. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Microorganisms Biotechnology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-microorganisms-biotechnology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -68,6 +95,15 @@ processes such as reverse transcriptase or viral protease) or managed through th
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Microorganisms Biotechnology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-microorganisms-biotechnology"}]
+}
+</script>
+
 ## Unit Test 2: Fermentation and Bioreactor Design
 
 **Question**
@@ -83,6 +119,15 @@ ethanol production by yeast, and explain the importance of each condition. [5 ma
 and describe two methods used to achieve this. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Microorganisms Biotechnology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-microorganisms-biotechnology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -133,6 +178,15 @@ inoculation.)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Microorganisms Biotechnology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-microorganisms-biotechnology"}]
+}
+</script>
+
 ## Unit Test 3: Genetic Engineering in Biotechnology
 
 **Question**
@@ -148,6 +202,15 @@ which produces a toxin from Bacillus thuringiensis that kills insect larvae). [5
 preferable to extracting HGH from human pituitary glands. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Microorganisms Biotechnology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-microorganisms-biotechnology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -208,6 +271,15 @@ reduction in crop diversity if only GM varieties are grown.)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Microorganisms Biotechnology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-microorganisms-biotechnology"}]
+}
+</script>
+
 ## Intuition
 
 **Invisible allies:** Microorganisms are like tiny factories — bacteria make yogurt and antibiotics, yeasts bake bread and brew beer. Biotechnology harnesses these organisms for human benefit.
@@ -233,6 +305,15 @@ it is necessary. [3 marks]
 explain how each could have been prevented. [6 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Microorganisms Biotechnology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-microorganisms-biotechnology"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -282,6 +363,15 @@ multiplication; use-by date expired.)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Microorganisms Biotechnology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-microorganisms-biotechnology"}]
+}
+</script>
+
 ## Integration Test 2: Genetic Engineering -- Insulin Production
 
 **Question**
@@ -300,6 +390,15 @@ culture. [4 marks]
 medicines. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Microorganisms Biotechnology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-microorganisms-biotechnology"}]
+}
+</script>
 
 **Worked Solution**
 

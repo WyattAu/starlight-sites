@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/biology/diagnostics"}, {"name": "Diag Organisation", "url": "https://gcse.wyattau.com/biology/diagnostics/diag-organisation"}]
+}
+</script>
 title: "Organisation -- Diagnostic Tests"
 description: "(a) Label the main organs of the digestive system in order from mouth to anus. (b) Explain where and how starch, proteins, and lipids are digested, naming"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/biology/diagnostics"}, {"name": "Diag Organisation", "url": "https://gcse.wyattau.com/biology/diagnostics/diag-organisation"}]
+}
+</script>
 
 # Organisation — Diagnostic Tests
 
@@ -108,6 +126,15 @@ network:** Maintains a steep concentration gradient. (4) **Moist surface:** Gase
 moisture before diffusing.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/biology/diagnostics"}, {"name": "Diag Organisation", "url": "https://gcse.wyattau.com/biology/diagnostics/diag-organisation"}]
+}
+</script>
 
 ## Integration Tests
 

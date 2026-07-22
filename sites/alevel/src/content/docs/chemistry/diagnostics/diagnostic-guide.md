@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diagnostic-guide"}]
+}
+</script>
 title: A-Level Chemistry Diagnostic Guide
 description: "This diagnostic suite contains 13 topic-level tests for A-Level Chemistry. Each test comprises 3 unit tests (single-topic, maximum difficulty) and 3"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 # A-Level Chemistry Diagnostic Guide
 

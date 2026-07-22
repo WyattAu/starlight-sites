@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
 title: "Electrochemistry -- Diagnostic Tests"
 description: "DSE Electrochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
 
 # DSE Chemistry Diagnostic: Electrochemistry
 
@@ -21,6 +39,15 @@ marks]
 (c) Combine the half-equations to give the balanced overall ionic equation. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -45,6 +72,15 @@ $$MnO_{4}^{-} + 8H^{+} + 5Fe^{2+} \rightarrow Mn^{2+} + 5Fe^{3+} + 4H_{2}O$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
+
 ## Unit Test 2: Electrolysis Product Prediction
 
 **Question**
@@ -59,6 +95,15 @@ Consider the electrolysis of **concentrated aqueous sodium chloride** using iner
 Explain. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -98,6 +143,15 @@ Product at anode changes from **chlorine** to **oxygen**.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
+
 ## Unit Test 3: Faraday"s Calculations
 
 **Question**
@@ -113,6 +167,15 @@ was passed for 30.0 minutes. The mass of the anode decreased by 0.296 g.
 a reason for any discrepancy. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -139,6 +202,15 @@ If there were a discrepancy, possible reasons would include:
 - Oxidation of the anode not involving just copper dissolution
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
 
 ## Intuition
 
@@ -172,6 +244,15 @@ calculate the cell EMF. [3 marks]
 cell EMF and state the direction of electron flow in the external circuit. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -210,6 +291,15 @@ electrode (cathode)**.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
+
 ## Integration Test 2: Electrolysis + Mass Calculation
 
 **Question**
@@ -224,6 +314,15 @@ current of 5.00 A for 2.00 hours.
 (c) The actual mass obtained was 2.80 g. Calculate the current efficiency. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -258,6 +357,15 @@ The efficiency is less than 100\% due to:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
+
 ## Integration Test 3: Cell EMF + Spontaneity
 
 **Question**
@@ -276,6 +384,15 @@ Standard electrode potentials: $Sn^{2+}/Sn = -0.14$ V; $Cu^{2+}/Cu = +0.34$ V.
 1.0 mol/dm$^{3}$Use the Nernst equation to predict the effect on the cell EMF. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
+}
+</script>
 
 **Worked Solution**
 

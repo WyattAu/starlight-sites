@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Physics", "url": "https://leaving-cert.wyattau.com/physics"}, {"name": "4 Heat", "url": "https://leaving-cert.wyattau.com/physics/4-heat"}, {"name": "4_heat", "url": "https://leaving-cert.wyattau.com/physics/4-heat/4_heat"}]
+}
+</script>
 title: Heat and Thermodynamics
 description: "ILC Physics Heat and Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ilc-physics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Physics", "url": "https://leaving-cert.wyattau.com/physics"}, {"name": "4 Heat", "url": "https://leaving-cert.wyattau.com/physics/4-heat"}, {"name": "4_heat", "url": "https://leaving-cert.wyattau.com/physics/4-heat/4_heat"}]
+}
+</script>
 
 # Heat and Thermodynamics
 

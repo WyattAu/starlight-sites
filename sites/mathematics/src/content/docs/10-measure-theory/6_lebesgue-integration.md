@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "6_lebesgue Integration", "url": "https://mathematics.wyattau.com/10-measure-theory/6_lebesgue-integration"}]
+}
+</script>
 title: Lebesgue Integration
 tags:
   - Mathematics
   - University
 description: "For a non-negative measurable simple function with and disjoint, define: Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "6_lebesgue Integration", "url": "https://mathematics.wyattau.com/10-measure-theory/6_lebesgue-integration"}]
+}
+</script>
 
 ### 6.1 Integral of Non-Negative Functions
 

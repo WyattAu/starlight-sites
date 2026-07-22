@@ -1,14 +1,41 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "Practice Rails", "url": "https://ruby.wyattau.com/practice-rails"}]
+}
+</script>
 title: "Rails Practice"
 description: "Ruby on Rails practice exercises"
 sidebar_position: 50
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "Practice Rails", "url": "https://ruby.wyattau.com/practice-rails"}]
+}
+</script>
 
 ## Rails Practice
 
 5 exercises covering RESTful controllers, model associations, migrations, service objects, and background jobs.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "Practice Rails", "url": "https://ruby.wyattau.com/practice-rails"}]
+}
+</script>
 
 ### Exercise 1: RESTful Controller
 
@@ -68,6 +95,15 @@ end
 **Solution:** The controller uses `before_action` for authentication and setting the resource. Strong parameters (`article_params`) whitelist permitted attributes. Each action returns appropriate HTTP status codes: `:unprocessable_entity` for validation failures, `:see_other` (303) for redirect after DELETE. The `published_at` attribute enables a draft/published workflow.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "Practice Rails", "url": "https://ruby.wyattau.com/practice-rails"}]
+}
+</script>
 
 ### Exercise 2: Model Associations
 
@@ -129,6 +165,15 @@ end
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "Practice Rails", "url": "https://ruby.wyattau.com/practice-rails"}]
+}
+</script>
+
 ### Exercise 3: Database Migration
 
 **Problem:** Write a migration that creates a `subscriptions` table with a polymorphic association to `subscribable` (articles or newsletters), adds an index for fast lookups, and includes a rollback-safe reversible migration.
@@ -160,6 +205,15 @@ end
 **Solution:** `t.references` with `polymorphic: true` creates both `subscribable_type` (string) and `subscribable_id` (integer) columns with an index. The unique composite index prevents duplicate subscriptions. `null: false` with `default` enforces data constraints at the database level. The `down` method safely drops the table.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "Practice Rails", "url": "https://ruby.wyattau.com/practice-rails"}]
+}
+</script>
 
 ### Exercise 4: Service Object
 
@@ -247,6 +301,15 @@ end
 **Solution:** The service object encapsulates business logic outside the controller and model. `ActiveRecord::Base.transaction` ensures atomicity -- all steps succeed or all are rolled back. Errors are collected in `result.errors` for the controller to display. `deliver_later` queues email notifications asynchronously. `find_each` processes subscribers in batches.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "Practice Rails", "url": "https://ruby.wyattau.com/practice-rails"}]
+}
+</script>
 
 ### Exercise 5: Background Job
 

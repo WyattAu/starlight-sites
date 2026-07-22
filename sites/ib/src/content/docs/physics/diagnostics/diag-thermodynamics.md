@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Thermodynamics", "url": "https://ib.wyattau.com/physics/diagnostics/diag-thermodynamics"}]
+}
+</script>
 title: "Thermodynamics -- Diagnostic Tests"
 description: "IB Physics Thermodynamics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Thermodynamics", "url": "https://ib.wyattau.com/physics/diagnostics/diag-thermodynamics"}]
+}
+</script>
 
 # Thermodynamics — Diagnostic Tests
 
@@ -74,6 +92,15 @@ The ideal gas law is an approximation valid when intermolecular forces and molec
 negligible.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Thermodynamics", "url": "https://ib.wyattau.com/physics/diagnostics/diag-thermodynamics"}]
+}
+</script>
 
 ### UT-2: First Law Sign Convention Trap
 
@@ -164,6 +191,15 @@ So $Q_C = W_{\text{net}} - 400 + 916 = -316 + 516 = 200\,\text{J}$
 Check: $Q_{\text{net}} = 400 - 916 + 200 = -316\,\text{J} = W_{\text{net}}$. Confirmed.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Thermodynamics", "url": "https://ib.wyattau.com/physics/diagnostics/diag-thermodynamics"}]
+}
+</script>
 
 ### UT-3: Carnot Efficiency and Entropy
 
@@ -259,6 +295,15 @@ pressure higher and allowing more work.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Thermodynamics", "url": "https://ib.wyattau.com/physics/diagnostics/diag-thermodynamics"}]
+}
+</script>
+
 ### IT-2: Thermodynamic Cycle Analysis (with Energy)
 
 **Question:**
@@ -349,6 +394,15 @@ The actual cycle efficiency ($18\%$) is much lower than the Carnot limit ($67\%$
 real cycle with irreversible processes.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Thermodynamics", "url": "https://ib.wyattau.com/physics/diagnostics/diag-thermodynamics"}]
+}
+</script>
 
 ### IT-3: Gas Laws Combined with Kinetic Theory (with Dynamics)
 

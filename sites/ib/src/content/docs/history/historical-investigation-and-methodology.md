@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Historical Investigation And Methodology", "url": "https://ib.wyattau.com/history/historical-investigation-and-methodology"}]
+}
+</script>
 title: Historical Investigation and Methodology
 tags:
   - IB
   - History
 description: "This document provides a comprehensive guide to the IB History Internal Assessment (IA) and the Methodological foundations underlying all historical"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Historical Investigation And Methodology", "url": "https://ib.wyattau.com/history/historical-investigation-and-methodology"}]
+}
+</script>
 
 # Historical Investigation and Methodology
 
@@ -16,6 +34,15 @@ Approaches, essay writing, and citation practices.
 For an overview of the IA structure within the broader IB History course, see [History](history.md).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Historical Investigation And Methodology", "url": "https://ib.wyattau.com/history/historical-investigation-and-methodology"}]
+}
+</script>
 
 ## 1. Nature of the Historical Investigation
 
@@ -63,6 +90,15 @@ A score of 15--16 out of 24 is a strong performance; 20+ is exceptional.
   those cited. Use a consistent citation style throughout.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Historical Investigation And Methodology", "url": "https://ib.wyattau.com/history/historical-investigation-and-methodology"}]
+}
+</script>
 
 ## 2. Formulating a Good Research Question
 
@@ -137,6 +173,15 @@ Other media, international vs. Domestic opinion, immediate vs. Long-term impact)
   recitation of facts, it is descriptive. Reformulate it to invite analysis and debate.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Historical Investigation And Methodology", "url": "https://ib.wyattau.com/history/historical-investigation-and-methodology"}]
+}
+</script>
 
 ## 3. Identifying and Evaluating Sources
 
@@ -343,6 +388,15 @@ German decision-making."
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Historical Investigation And Methodology", "url": "https://ib.wyattau.com/history/historical-investigation-and-methodology"}]
+}
+</script>
+
 ## 4. Research Methods and Approaches
 
 ### 4.1 Quantitative vs. Qualitative Research
@@ -421,6 +475,15 @@ That drove each phase.
   Triangulate using multiple source types.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Historical Investigation And Methodology", "url": "https://ib.wyattau.com/history/historical-investigation-and-methodology"}]
+}
+</script>
 
 ## 5. Historiography: How Interpretations Change Over Time
 
@@ -510,6 +573,15 @@ Revisionist and post-revisionist critiques.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Historical Investigation And Methodology", "url": "https://ib.wyattau.com/history/historical-investigation-and-methodology"}]
+}
+</script>
+
 ## 6. Essay Structure and Writing for History
 
 ### 6.1 The Thesis Statement
@@ -580,6 +652,15 @@ The conclusion should:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Historical Investigation And Methodology", "url": "https://ib.wyattau.com/history/historical-investigation-and-methodology"}]
+}
+</script>
+
 ## 7. Common Pitfalls in Historical Analysis
 
 ### 7.1 Logical Fallacies
@@ -624,6 +705,15 @@ Several logical fallacies are common in historical writing:
   disagreement.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Historical Investigation And Methodology", "url": "https://ib.wyattau.com/history/historical-investigation-and-methodology"}]
+}
+</script>
 
 ## 8. Citation and Bibliography
 

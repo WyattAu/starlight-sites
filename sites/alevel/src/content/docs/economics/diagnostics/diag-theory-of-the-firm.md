@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Theory Of The Firm", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-theory-of-the-firm"}]
+}
+</script>
 title: "Theory of the Firm -- Diagnostic Tests"
 description: "A-Level Economics Theory of the Firm -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Theory Of The Firm", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-theory-of-the-firm"}]
+}
+</script>
 
 
 ## Intuition
@@ -87,6 +105,15 @@ Correction: $\text{AC}_{\min} = \pounds 60$ at $Q = 10$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Theory Of The Firm", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-theory-of-the-firm"}]
+}
+</script>
+
 ### UT-2: Monopoly Pricing and Deadweight Loss
 
 **Question:** A monopolist faces demand $P = 120 - 2Q$ and has total cost
@@ -124,6 +151,15 @@ The Lerner Index of 0.44 indicates significant market power. A perfectly competi
 a Lerner Index of 0.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Theory Of The Firm", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-theory-of-the-firm"}]
+}
+</script>
 
 ### UT-3: Game Theory -- Prisoner"s Dilemma
 
@@ -205,6 +241,15 @@ The labour demand curve is the downward-sloping portion of $\text{MRP}_L$ becaus
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Theory Of The Firm", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-theory-of-the-firm"}]
+}
+</script>
+
 ### IT-2: Economies of Scale and Natural Monopoly (with Market Failure)
 
 **Question:** A natural monopoly has total cost $\text{TC} = 1000 + 50Q$ and faces demand
@@ -252,6 +297,15 @@ government must provide a subsidy of $\pounds 1000$ to keep the firm in operatio
   preferable; if large, average cost pricing may be more efficient overall.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Theory Of The Firm", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-theory-of-the-firm"}]
+}
+</script>
 
 ### IT-3: Oligopoly, Collusion, and International Trade (with The International Economy)
 
@@ -310,6 +364,15 @@ drive domestic competitors out of business.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Theory Of The Firm", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-theory-of-the-firm"}]
+}
+</script>
+
 ## Section 3: Extended Theory of the Firm Practice
 
 **UT-4 (Extension).** A perfectly competitive firm has total cost $TC = 100 + 20Q + 2Q^2$. The
@@ -335,6 +398,15 @@ $= \pounds 48.28$.
 $P = 20 + 4Q \Rightarrow Q = (P - 20)/4$ for $P \geq 20$. For $P < 20$: $Q = 0$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Theory Of The Firm", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-theory-of-the-firm"}]
+}
+</script>
 
 **UT-5 (Extension): Natural Monopoly Regulation.** A natural monopoly has $TC = 200 + 10Q$ and faces
 demand $P = 50 - Q$. (a) Calculate the unregulated monopoly outcome (price, quantity, profit). (b)
@@ -368,6 +440,15 @@ AC pricing eliminates most (91.4%) of the DWL while allowing the firm to break e
 regulators often use AC pricing (or a variant like price cap regulation) rather than MC pricing.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Theory Of The Firm", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-theory-of-the-firm"}]
+}
+</script>
 
 **UT-6 (Extension): Price Discrimination.** A cinema has two segments: adults and students. Adult
 demand: $P_A = 20 - 0.1Q_A$. Student demand: $P_S = 12 - 0.1Q_S$. The cinema's marginal cost is
@@ -406,6 +487,15 @@ Consumer surplus comparison:
   consumer surplus falls, but some consumers (students) benefit.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Theory Of The Firm", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-theory-of-the-firm"}]
+}
+</script>
 
 **IT-4 (Extension): Contestable Market Theory.** An airline route is served by a single firm with
 demand $P = 200 - Q$ and total cost $TC = 1000 + 40Q$. (a) Calculate the monopoly outcome. (b) If

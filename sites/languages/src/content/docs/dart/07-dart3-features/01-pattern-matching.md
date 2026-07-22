@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "07 Dart3 Features", "url": "https://languages.wyattau.com/dart/07-dart3-features"}, {"name": "01 Pattern Matching", "url": "https://languages.wyattau.com/dart/07-dart3-features/01-pattern-matching"}]
+}
+</script>
 title: Pattern Matching
 description: "Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspecting values. A Pattern is a syntactic construct that describes the of a"
 date: 2026-04-05T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Dart
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "07 Dart3 Features", "url": "https://languages.wyattau.com/dart/07-dart3-features"}, {"name": "01 Pattern Matching", "url": "https://languages.wyattau.com/dart/07-dart3-features/01-pattern-matching"}]
+}
+</script>
 
 ## Pattern Matching Overview
 

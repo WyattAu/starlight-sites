@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "5 Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems"}, {"name": "11_operating Systems Advanced", "url": "https://computer-science.wyattau.com/5-operating-systems/11_operating-systems-advanced"}]
+}
+</script>
 title: Operating Systems (Advanced)
 description: "The system call creates a new process by duplicating the calling process. The new process (child) is an exact copy of the parent, except for its PID, PPID,"
 date: 2026-05-06T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Computing
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "5 Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems"}, {"name": "11_operating Systems Advanced", "url": "https://computer-science.wyattau.com/5-operating-systems/11_operating-systems-advanced"}]
+}
+</script>
 
 ## 1. Advanced Process Management
 

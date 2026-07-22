@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Cells", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-cells"}]
+}
+</script>
 title: "Cells -- Diagnostic Tests"
 description: "A-Level Biology Cells -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Cells", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-cells"}]
+}
+</script>
 
 
 ## Intuition
@@ -69,6 +87,15 @@ independently, can carry foreign DNA, and often contain antibiotic resistance ge
 selectable markers.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Cells", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-cells"}]
+}
+</script>
 
 ### UT-2: Organelle Functions and the Fluid Mosaic Model
 
@@ -144,6 +171,15 @@ environment. These substances require the assistance of transport proteins (chan
 carrier proteins) to cross the membrane via facilitated diffusion or active transport.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Cells", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-cells"}]
+}
+</script>
 
 ### UT-3: Microscopy — Resolution, Magnification, and Cell Fractionation
 
@@ -221,6 +257,15 @@ The steps are:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Cells", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-cells"}]
+}
+</script>
+
 ## Integration Tests
 
 ### IT-1: Prokaryotic Cell Structure and Antibiotic Resistance (with Genetics and DNA)
@@ -285,6 +330,15 @@ though it carries the gene.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Cells", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-cells"}]
+}
+</script>
+
 ### IT-2: Cell Fractionation and Mitochondrial Respiration (with Biological Molecules)
 
 **Question:**
@@ -344,6 +398,15 @@ glucose** are: 2 pyruvate, 2 ATP (net), and 2 reduced NAD (NADH). (Note: 2 ATP a
 are produced, giving a net gain of 2 ATP.)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Cells", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-cells"}]
+}
+</script>
 
 ### IT-3: Microscopy and Cell Membrane Transport (with Exchange and Transport)
 

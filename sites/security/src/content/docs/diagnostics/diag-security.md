@@ -1,15 +1,42 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Diagnostics", "url": "https://security.wyattau.com/diagnostics"}, {"name": "Diag Security", "url": "https://security.wyattau.com/diagnostics/diag-security"}]
+}
+</script>
 title: "Diagnostic Test: Security"
 description: "Self-assessment quiz on security fundamentals"
 sidebar_position: 60
 tableOfContents: false
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Diagnostics", "url": "https://security.wyattau.com/diagnostics"}, {"name": "Diag Security", "url": "https://security.wyattau.com/diagnostics/diag-security"}]
+}
+</script>
+
 # Diagnostic Test: Security
 
 10 multiple-choice questions covering security fundamentals. Select the best answer for each question, then check your score using the answer key below.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Diagnostics", "url": "https://security.wyattau.com/diagnostics"}, {"name": "Diag Security", "url": "https://security.wyattau.com/diagnostics/diag-security"}]
+}
+</script>
 
 **Question 1.** The CIA triad stands for:
 
@@ -20,6 +47,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Diagnostics", "url": "https://security.wyattau.com/diagnostics"}, {"name": "Diag Security", "url": "https://security.wyattau.com/diagnostics/diag-security"}]
+}
+</script>
+
 **Question 2.** Which of the following is a characteristic of a secure hash function?
 
 (A) It is fast to compute
@@ -28,6 +64,15 @@ tableOfContents: false
 (D) The output is always the same length as the input
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Diagnostics", "url": "https://security.wyattau.com/diagnostics"}, {"name": "Diag Security", "url": "https://security.wyattau.com/diagnostics/diag-security"}]
+}
+</script>
 
 **Question 3.** Multi-factor authentication combines credentials from:
 
@@ -38,6 +83,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Diagnostics", "url": "https://security.wyattau.com/diagnostics"}, {"name": "Diag Security", "url": "https://security.wyattau.com/diagnostics/diag-security"}]
+}
+</script>
+
 **Question 4.** What does the principle of defense in depth refer to?
 
 (A) Using a single, highly complex security control
@@ -46,6 +100,15 @@ tableOfContents: false
 (D) Relying exclusively on encryption for security
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Diagnostics", "url": "https://security.wyattau.com/diagnostics"}, {"name": "Diag Security", "url": "https://security.wyattau.com/diagnostics/diag-security"}]
+}
+</script>
 
 **Question 5.** SQL injection is an example of which vulnerability category?
 
@@ -56,6 +119,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Diagnostics", "url": "https://security.wyattau.com/diagnostics"}, {"name": "Diag Security", "url": "https://security.wyattau.com/diagnostics/diag-security"}]
+}
+</script>
+
 **Question 6.** In the incident response lifecycle, what should happen immediately after detection?
 
 (A) Eradication of the threat actor
@@ -64,6 +136,15 @@ tableOfContents: false
 (D) Recovery of all affected systems
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Diagnostics", "url": "https://security.wyattau.com/diagnostics"}, {"name": "Diag Security", "url": "https://security.wyattau.com/diagnostics/diag-security"}]
+}
+</script>
 
 **Question 7.** What is the primary purpose of a firewall?
 
@@ -74,6 +155,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Diagnostics", "url": "https://security.wyattau.com/diagnostics"}, {"name": "Diag Security", "url": "https://security.wyattau.com/diagnostics/diag-security"}]
+}
+</script>
+
 **Question 8.** Which type of attack involves tricking a user into revealing sensitive information by impersonating a trusted entity?
 
 (A) Brute force
@@ -82,6 +172,15 @@ tableOfContents: false
 (D) Buffer overflow
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Diagnostics", "url": "https://security.wyattau.com/diagnostics"}, {"name": "Diag Security", "url": "https://security.wyattau.com/diagnostics/diag-security"}]
+}
+</script>
 
 **Question 9.** What does HTTPS provide that HTTP does not?
 
@@ -92,6 +191,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Diagnostics", "url": "https://security.wyattau.com/diagnostics"}, {"name": "Diag Security", "url": "https://security.wyattau.com/diagnostics/diag-security"}]
+}
+</script>
+
 **Question 10.** Which of the following is the most effective control against phishing attacks?
 
 (A) Using a longer password
@@ -100,6 +208,15 @@ tableOfContents: false
 (D) Blocking all external email
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Diagnostics", "url": "https://security.wyattau.com/diagnostics"}, {"name": "Diag Security", "url": "https://security.wyattau.com/diagnostics/diag-security"}]
+}
+</script>
 
 ## Answer Key
 

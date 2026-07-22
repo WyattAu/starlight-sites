@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
 title: "Genetics -- Diagnostic Tests"
 description: "DSE Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
 
 # DSE Biology Diagnostic: Genetics
 
@@ -23,6 +41,15 @@ role of **DNA helicase** and **DNA polymerase** in the replication process. [5 m
 bases (thymine, guanine, and cytosine) in this sample. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -75,6 +102,15 @@ Since G pairs with C: G = $22\%$ and C = $22\%$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
+
 ## Unit Test 2: Protein Synthesis -- Transcription and Translation
 
 **Question**
@@ -99,6 +135,15 @@ determine the effect of this mutation on the amino acid sequence.
 [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -148,6 +193,15 @@ mutation that Causes sickle cell anaemia.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
+
 ## Unit Test 3: Sex Linkage and Dihybrid Cross
 
 **Question**
@@ -167,6 +221,15 @@ females. [2 marks]
 probability of obtaining a cat with brown fur and short hair among the offspring. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -220,6 +283,15 @@ Probability of $bbS\_$ = $\frac{1}{4} \times \frac{3}{4} = \frac{3}{16}$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
+
 ## Intuition
 
 **Nature's instruction manual:** Genetics is like a recipe book — DNA contains the instructions, genes are individual recipes, and proteins are the dishes that get made. Mutations are typos in the recipe.
@@ -246,6 +318,15 @@ plasmid. Describe how bacteria that have successfully taken up the recombinant p
 identified. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -307,6 +388,15 @@ antibiotic, only bacteria with the plasmid (which carries the resistance gene) w
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
+
 ## Integration Test 2: Mutations and Their Effects
 
 **Question**
@@ -338,6 +428,15 @@ MRNA codons and amino acids: AUG = Met, CCU = Pro, CAG = Gln, ACU = Thr, GA\_ = 
 [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -385,6 +484,15 @@ the point of the mutation. This produces a non-functional protein.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
+
 ## Integration Test 3: Inheritance Patterns and Pedigree Analysis
 
 **Question**
@@ -406,6 +514,15 @@ disorder) has a son with a normal man. Calculate the probability that the son wi
 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Genetics", "url": "https://dse.wyattau.com/biology/diagnostics/diag-genetics"}]
+}
+</script>
 
 **Worked Solution**
 

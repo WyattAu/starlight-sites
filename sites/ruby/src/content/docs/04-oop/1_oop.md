@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "04 Oop", "url": "https://ruby.wyattau.com/04-oop"}, {"name": "1_oop", "url": "https://ruby.wyattau.com/04-oop/1_oop"}]
+}
+</script>
 title: Object-Oriented Programming
 description: "class Person def initialize(name, age) @name = name @age = age end Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Ruby
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "04 Oop", "url": "https://ruby.wyattau.com/04-oop"}, {"name": "1_oop", "url": "https://ruby.wyattau.com/04-oop/1_oop"}]
+}
+</script>
 
 ## Classes
 
@@ -951,6 +969,15 @@ end
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "04 Oop", "url": "https://ruby.wyattau.com/04-oop"}, {"name": "1_oop", "url": "https://ruby.wyattau.com/04-oop/1_oop"}]
+}
+</script>
+
 ### Example 2: Strategy Pattern with Modules
 
 **Problem:** Implement a payment processing system where different payment strategies (credit card, PayPal, bank transfer) are encapsulated in separate modules.
@@ -1014,6 +1041,15 @@ result = processor.process_payment(99.99)
 **Explanation:** Each payment strategy is a module with `process_payment` and `refund` methods. The `PaymentProcessor` class includes the appropriate strategy module. This makes it easy to add new payment methods by creating new modules, following the Open/Closed Principle.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "04 Oop", "url": "https://ruby.wyattau.com/04-oop"}, {"name": "1_oop", "url": "https://ruby.wyattau.com/04-oop/1_oop"}]
+}
+</script>
 
 ### Example 3: Observer Pattern with Callbacks
 

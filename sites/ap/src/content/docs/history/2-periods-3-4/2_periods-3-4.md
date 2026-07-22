@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "History", "url": "https://ap.wyattau.com/history"}, {"name": "2 Periods 3 4", "url": "https://ap.wyattau.com/history/2-periods-3-4"}, {"name": "2_periods 3 4", "url": "https://ap.wyattau.com/history/2-periods-3-4/2_periods-3-4"}]
+}
+</script>
 title: Periods 3-4 (1754-1800)
 description: "The French and Indian War (1754-1763) was a global conflict between Britain and France that was fought in North America primarily for control of the Ohio"
 date: 2026-06-04T10:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - ap-history
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "History", "url": "https://ap.wyattau.com/history"}, {"name": "2 Periods 3 4", "url": "https://ap.wyattau.com/history/2-periods-3-4"}, {"name": "2_periods 3 4", "url": "https://ap.wyattau.com/history/2-periods-3-4/2_periods-3-4"}]
+}
+</script>
 
 ## Period 3: 1754-1800
 

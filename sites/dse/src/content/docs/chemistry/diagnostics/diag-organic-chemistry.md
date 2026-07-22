@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
 title: "Organic Chemistry -- Diagnostic Tests"
 description: "DSE Organic Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
 
 # DSE Chemistry Diagnostic: Organic Chemistry
 
@@ -27,6 +45,15 @@ results were obtained:
 (c) Write an equation for the reaction of $X$ with sodium carbonate. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -58,6 +85,15 @@ Name: **propanoic acid**
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
+
 ## Unit Test 2: Nucleophilic Substitution Mechanism
 
 **Question**
@@ -75,6 +111,15 @@ tertiary halogenoalkanes. [3 marks]
 respect to NaOH. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -116,6 +161,15 @@ to NaOH (or $OH^{-}$).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
+
 ## Unit Test 3: Structural Isomerism vs Stereoisomerism
 
 **Question**
@@ -130,6 +184,15 @@ cis-trans isomerism. [3 marks]
 (c) Does but-1-ene exhibit cis-trans isomerism? Explain. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -168,6 +231,15 @@ cis-trans isomerism to occur, but-1-ene fails this requirement.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
+
 ## Intuition
 
 **Carbon's versatility:** Organic chemistry is the study of carbon compounds — like LEGO bricks that can snap together in infinite ways to form chains, rings, and complex structures.
@@ -195,6 +267,15 @@ $$A \xrightarrow{CH_{3}CH_{2}OH / H^{+}} E$$
 (c) What observation confirms the formation of compound $B$ in the iodoform reaction? [1 mark]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -236,6 +317,15 @@ reaction.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
+
 ## Integration Test 2: Mechanism + Product Stereochemistry
 
 **Question**
@@ -251,6 +341,15 @@ arrows and intermediates. [4 marks]
 of the product and explain. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -294,6 +393,15 @@ In both cases, the addition is **stereospecific anti-addition**.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
+
 ## Integration Test 3: Multi-Step Organic Synthesis
 
 **Question**
@@ -309,6 +417,15 @@ Starting from propene ($CH_{2}=CHCH_{3}$), propose a synthesis of 1,2-dibromopro
 give the desired product. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry"}]
+}
+</script>
 
 **Worked Solution**
 

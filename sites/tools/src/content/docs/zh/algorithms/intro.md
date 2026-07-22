@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Zh", "url": "https://tools.wyattau.com/zh"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/zh/algorithms"}, {"name": "Intro", "url": "https://tools.wyattau.com/zh/algorithms/intro"}]
+}
+</script>
 title: 算法导论
 description: '算法是有限条明确定义的指令序列，接受输入并产生输出。这个定义看似简单。实际上，"产生正确答案的算法"和"产生正确答案且足够快以产生实际价值的算法"之间的差距，正 Comprehensive educational content coverage with definitions and practice proble'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Zh", "url": "https://tools.wyattau.com/zh"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/zh/algorithms"}, {"name": "Intro", "url": "https://tools.wyattau.com/zh/algorithms/intro"}]
+}
+</script>
 
 ## Intuition
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "13_fluctuation Dissipation Theorem", "url": "https://physics.wyattau.com/2-thermal-physics/13_fluctuation-dissipation-theorem"}]
+}
+</script>
 title: Fluctuation-Dissipation Theorem
 tags:
   - Physics
   - University
 description: "The (FDT) connects the response of a system to a small perturbation with the spontaneous fluctuations of the system at equilibrium."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "13_fluctuation Dissipation Theorem", "url": "https://physics.wyattau.com/2-thermal-physics/13_fluctuation-dissipation-theorem"}]
+}
+</script>
 
 ### 13.1 Linear Response Theory
 

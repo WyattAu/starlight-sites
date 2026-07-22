@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "4 Databases", "url": "https://computer-science.wyattau.com/4-databases"}, {"name": "7_query Optimisation", "url": "https://computer-science.wyattau.com/4-databases/7_query-optimisation"}]
+}
+</script>
 title: Query Optimisation
 tags:
   - Computing
   - University
 description: 'The optimiser estimates the cost of alternative execution plans and chooses the  Comprehensive educational content coverage with definitions and practice proble'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "4 Databases", "url": "https://computer-science.wyattau.com/4-databases"}, {"name": "7_query Optimisation", "url": "https://computer-science.wyattau.com/4-databases/7_query-optimisation"}]
+}
+</script>
 
 ### 7.1 Query Processing Pipeline
 

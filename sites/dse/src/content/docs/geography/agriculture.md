@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Agriculture", "url": "https://dse.wyattau.com/geography/agriculture"}]
+}
+</script>
 title: Agricultural Systems and Food Security
 description: "Subsistence and commercial farming, rice cultivation, agricultural change in the Pearl River Delta, food security in Hong Kong, urban agriculture, and fisheries for DSE Geography."
 sidebar_position: 6
@@ -6,6 +15,15 @@ tags: [DSE, Geography, Agriculture, Food Security]
 categories: [DSE, Geography]
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Agriculture", "url": "https://dse.wyattau.com/geography/agriculture"}]
+}
+</script>
 
 # Agricultural Systems and Food Security
 

@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Development", "url": "https://ib.wyattau.com/geography/development"}, {"name": "Sustainable Development Goals", "url": "https://ib.wyattau.com/geography/development/sustainable-development-goals"}]
+}
+</script>
 title: Sustainable Development Goals
 description: "UN Sustainable Development Goals for IB Geography."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Development", "url": "https://ib.wyattau.com/geography/development"}, {"name": "Sustainable Development Goals", "url": "https://ib.wyattau.com/geography/development/sustainable-development-goals"}]
+}
+</script>
 
 # Sustainable Development Goals
 

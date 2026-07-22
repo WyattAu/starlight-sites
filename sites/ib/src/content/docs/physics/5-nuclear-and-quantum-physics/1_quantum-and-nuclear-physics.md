@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
 title: "Quantum and Nuclear Physics"
 description: "IB Physics — photoelectric effect, photon model, de Broglie wavelength, energy levels, spectra, radioactive decay, nuclear reactions, and binding energy."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
 
 ## The Photoelectric Effect
 
@@ -67,6 +85,15 @@ Since $E_k \lt 0$No photoelectrons are emitted. The photon energy is below the w
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
+
 ## The Photon Model
 
 ### Photon Energy and Momentum
@@ -116,6 +143,15 @@ $$\lambda' = 0.0500 + 0.00243 = 0.05243\,\mathrm{nm}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
+
 ## Wave-Particle Duality
 
 ### De Broglie Hypothesis (1924)
@@ -153,6 +189,15 @@ But the effect is only significant at atomic and subatomic scales. For macroscop
 Broglie wavelength is far too small to detect.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
 
 ## Atomic Energy Levels
 
@@ -234,6 +279,15 @@ To a lower one ($n = 2$), so this is de-excitation and a photon is emitted.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
+
 ## Radioactive Decay
 
 ### Nuclear Stability
@@ -304,6 +358,15 @@ $$t = \frac{-3.689}{1.00 \times 10^{-6}} = 3.69 \times 10^6\,\mathrm{s} \approx 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
+
 ## Nuclear Reactions
 
 ### Nuclear Fission
@@ -337,6 +400,15 @@ Net: $4\,^1_1\mathrm{H} \to ^4_2\mathrm{He} + 2e^+ + 2\nu_e + 2\gamma + 26.7\,\m
 Fusion requires extremely high temperatures ($\sim 10^7\,\mathrm{K}$) to overcome Coulomb repulsion.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
 
 ## Mass-Energy Equivalence
 
@@ -428,6 +500,15 @@ Structure).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
+
 ## Heisenberg Uncertainty Principle
 
 ### Statement
@@ -472,6 +553,15 @@ Nature of electron behaviour in atoms.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
+
 ## Pair Production and Annihilation
 
 ### Pair Production
@@ -495,6 +585,15 @@ This energy is carried by two photons (to conserve momentum), each with energy $
 Emitted in opposite directions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
 
 ## Nuclear Physics Applications
 
@@ -527,6 +626,15 @@ $$t = \frac{5730}{0.693}\ln(4) = 5730 \times 2 = 11460\,\mathrm{years}$$
 | Shielding (concrete, lead)       | Absorbs radiation for safety             |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
 
 ## Wave Functions and Probability
 
@@ -574,6 +682,15 @@ Quantum tunneling is responsible for alpha decay, tunnel diodes, and scanning tu
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
+
 ## Standard Model Overview
 
 ### Classification of Particles
@@ -600,6 +717,15 @@ Quantum tunneling is responsible for alpha decay, tunnel diodes, and scanning tu
 | Gravitational   | Graviton (hypothetical) | $\sim 10^{-38}$   | Infinite                    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
 
 ## Feynman Diagrams
 
@@ -629,6 +755,15 @@ $7.5$--$8.8\,\mathrm{MeV/nucleon}$. Do not assume that fission of elements light
 Absorbs energy; the actual threshold depends on the specific reaction.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "1_quantum And Nuclear Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics"}]
+}
+</script>
 
 ## Problem Set
 

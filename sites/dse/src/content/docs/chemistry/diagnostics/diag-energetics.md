@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Energetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-energetics"}]
+}
+</script>
 title: "Energetics / Thermochemistry -- Diagnostic Tests"
 description: "DSE Energetics / Thermochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Energetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-energetics"}]
+}
+</script>
 
 # DSE Chemistry Diagnostic: Energetics / Thermochemistry
 
@@ -28,6 +46,15 @@ marks]
 Identify the error in the student's working. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Energetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-energetics"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -71,6 +98,15 @@ requires the factor of 2.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Energetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-energetics"}]
+}
+</script>
+
 ## Unit Test 2: Average Bond Enthalpy vs Exact
 
 **Question**
@@ -88,6 +124,15 @@ marks]
 enthalpy of formation data? Explain. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Energetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-energetics"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -119,6 +164,15 @@ molecular environment.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Energetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-energetics"}]
+}
+</script>
+
 ## Unit Test 3: Calorimetry with Heat Loss
 
 **Question**
@@ -135,6 +189,15 @@ any discrepancy. [2 marks]
 accurate result. Evaluate this claim. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Energetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-energetics"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -168,6 +231,15 @@ rise and a less exothermic (less negative) $\Delta H$ value, increasing the erro
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Energetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-energetics"}]
+}
+</script>
+
 ## Intuition
 
 **Energy accounting:** Energetics is like balancing a chemical bank account — energy goes in (endothermic) or out (exothermic), and Hess's Law says the total change is the same regardless of the path taken.
@@ -198,6 +270,15 @@ $$C_{2}H_{4}(g) + H_{2}(g) \rightarrow C_{2}H_{6}(g)$$
 (c) Account for any difference between the two values obtained in (a) and (b). [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Energetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-energetics"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -233,6 +314,15 @@ Reasons:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Energetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-energetics"}]
+}
+</script>
+
 ## Integration Test 2: Born-Haber-Type Cycle
 
 **Question**
@@ -255,6 +345,15 @@ Given:
 (c) Explain why the second electron affinity of oxygen is endothermic. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Energetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-energetics"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -297,6 +396,15 @@ second electron onto the negatively charged ion.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Energetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-energetics"}]
+}
+</script>
+
 ## Integration Test 3: Multi-Step Energetics
 
 **Question**
@@ -317,6 +425,15 @@ kJ/mol.
 percentage efficiency of the experiment. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Energetics", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-energetics"}]
+}
+</script>
 
 **Worked Solution**
 

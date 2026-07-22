@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Cold War", "url": "https://dse.wyattau.com/history/cold-war"}]
+}
+</script>
 title: "The Cold War"
 description: "Origins of the Cold War, containment doctrine, Korean War, Vietnam War, Cuban Missile Crisis, Sino-Soviet split, impact on Hong Kong, and the end of the Cold War."
 sidebar_position: 2
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Cold War", "url": "https://dse.wyattau.com/history/cold-war"}]
+}
+</script>
 
 ## Origins of the Cold War
 

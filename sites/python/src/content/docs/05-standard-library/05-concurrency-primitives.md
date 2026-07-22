@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "05 Standard Library", "url": "https://python.wyattau.com/05-standard-library"}, {"name": "05 Concurrency Primitives", "url": "https://python.wyattau.com/05-standard-library/05-concurrency-primitives"}]
+}
+</script>
 title: Concurrency Primitives
 description: "The module provides low-level thread primitives. Python threads are OS-level threads Managed by the platform' s native threading implementation (pthreads on"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "05 Standard Library", "url": "https://python.wyattau.com/05-standard-library"}, {"name": "05 Concurrency Primitives", "url": "https://python.wyattau.com/05-standard-library/05-concurrency-primitives"}]
+}
+</script>
 
 ## threading Module
 

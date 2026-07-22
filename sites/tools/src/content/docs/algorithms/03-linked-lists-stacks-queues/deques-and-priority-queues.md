@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "03 Linked Lists Stacks Queues", "url": "https://tools.wyattau.com/algorithms/03-linked-lists-stacks-queues"}, {"name": "Deques And Priority Queues", "url": "https://tools.wyattau.com/algorithms/03-linked-lists-stacks-queues/deques-and-priority-queues"}]
+}
+</script>
 title: Deques and Priority Queues
 description: "A deque (double-ended queue) is a linear collection that supports insertion and removal at both Ends. It generalises both stacks (LIFO) and queues (FIFO)."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "03 Linked Lists Stacks Queues", "url": "https://tools.wyattau.com/algorithms/03-linked-lists-stacks-queues"}, {"name": "Deques And Priority Queues", "url": "https://tools.wyattau.com/algorithms/03-linked-lists-stacks-queues/deques-and-priority-queues"}]
+}
+</script>
 
 ## Deque ADT
 

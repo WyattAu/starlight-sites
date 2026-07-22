@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Resource_management", "url": "https://cpp.wyattau.com/resource_management"}, {"name": "0_intro", "url": "https://cpp.wyattau.com/resource_management/0_intro"}]
+}
+</script>
 title: Resource Management and Move Semantics
 description: "Part 4 addresses the central problem in systems programming: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-03-31T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Resource_management", "url": "https://cpp.wyattau.com/resource_management"}, {"name": "0_intro", "url": "https://cpp.wyattau.com/resource_management/0_intro"}]
+}
+</script>
 
 Part 4 addresses the central problem in systems programming: **who is responsible for releasing a
 Resource, and when does that release occur?**

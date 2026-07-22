@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
 title: "Inequalities -- Diagnostic Tests"
 description: "DSE Maths Inequalities -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
 
 # Inequalities — Diagnostic Tests
 
@@ -41,6 +59,15 @@ the wrong inequality direction for $x > 2$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
+
 ### UT-2: Absolute Value Inequality
 
 **Question:**
@@ -75,6 +102,15 @@ Solution: $x \in \left(\dfrac{4}{5},\; \infty\right)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
+
 ### UT-3: Quadratic Inequality with Non-Standard Leading Coefficient
 
 **Question:**
@@ -96,6 +132,15 @@ Solution: $-1 < x < \dfrac{5}{2}$I.e. $x \in (-1,\; \tfrac{5}{2})$.
 A common mistake is forgetting to reverse the inequality when factoring out the negative sign.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
 
 ### UT-4: System of Linear Inequalities — Feasible Region
 
@@ -134,6 +179,15 @@ Maximum value: $\dfrac{43}{3}$ at $\left(\dfrac{7}{3},\; \dfrac{11}{3}\right)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
+
 ### UT-5: Inequality Involving Reciprocals
 
 **Question:**
@@ -171,6 +225,15 @@ Solution: $(-1,\; 1) \cup [3,\; \infty)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of inequalities with other topics.
@@ -195,6 +258,15 @@ Solution: $k \in (-\infty,\; \tfrac{5}{2})$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
+
 ### IT-2: Inequalities and Functions (with Functions)
 
 **Question:**
@@ -218,6 +290,15 @@ Critical values: $x = 0$, $x = 2$.
 Solution: $x \leq 0$ or $x \geq 2$I.e. $x \in (-\infty,\; 0] \cup [2,\; \infty)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
 
 ### IT-3: Inequalities and Logarithms (with Logarithms)
 
@@ -244,6 +325,15 @@ inequality would reverse.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
+
 ## Worked Examples
 
 ### WE-1: Solving a System of Inequalities
@@ -263,6 +353,15 @@ Second inequality: $3x - 1 \leq 2x + 5 \implies x \leq 6$.
 Both must hold: $4 < x \leq 6$I.e. $x \in (4,\; 6]$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
 
 ### WE-2: Quadratic Inequality with Equal Roots
 
@@ -284,6 +383,15 @@ Therefore $k > 9$ (strictly).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
+
 ### WE-3: Absolute Value Inequality
 
 **Question:**
@@ -302,6 +410,15 @@ Solution: $x \in \left[-\dfrac{4}{3},\; 4\right]$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
+
 ### WE-4: Inequality with Rational Expression
 
 **Question:**
@@ -319,6 +436,15 @@ $x^2 - 1 > 0 \implies (x-1)(x+1) > 0 \implies x < -1$ or $x > 1$.
 Solution: $x \in (-\infty,\; -1) \cup (1,\; \infty)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
 
 ### WE-5: Non-Linear Inequality
 
@@ -346,6 +472,15 @@ Solution: $x \in (-\infty,\; -1] \cup \{1\}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
+
 ### WE-6: Quadratic Inequality with No Real Roots
 
 **Question:**
@@ -364,6 +499,15 @@ Alternatively, completing the square:
 $$x^2 + 4x + 5 = (x + 2)^2 + 1 \geq 1 > 0$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
 
 ### WE-7: Inequality Involving Square Roots
 
@@ -388,6 +532,15 @@ sign of both sides. Squaring is only valid when both sides are non-negative.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
+
 ### WE-8: Product of Two Linear Inequalities
 
 **Question:**
@@ -406,6 +559,15 @@ Solution: $x < -4$ or $x > \dfrac{3}{2}$I.e.
 $x \in (-\infty,\; -4) \cup \left(\dfrac{3}{2},\; \infty\right)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
 
 ## Intuition
 
@@ -439,6 +601,15 @@ $x \in (-\infty,\; -4) \cup \left(\dfrac{3}{2},\; \infty\right)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
+
 ## DSE Exam-Style Questions
 
 ### DSE-1
@@ -467,6 +638,15 @@ Solution: $x \in (2,\; 3)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
+
 ### DSE-2
 
 Find the range of values of $k$ for which the equation $x^2 + 2kx + k^2 + 3 = 0$ has:
@@ -486,6 +666,15 @@ There are NEVER two distinct real roots. The answer is: no such value of $k$ exi
 positive.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
 
 ### DSE-3
 
@@ -518,6 +707,15 @@ Correct solution: $x \in (-3,\; 1]$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
+
 ### DSE-4
 
 Solve $|x - 3| > |2x + 1|$. (4 marks)
@@ -541,6 +739,15 @@ $$-4 < x < \frac{2}{3}$$
 Solution: $x \in \left(-4,\; \dfrac{2}{3}\right)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Inequalities", "url": "https://dse.wyattau.com/maths/diagnostics/diag-inequalities"}]
+}
+</script>
 
 ### DSE-5
 

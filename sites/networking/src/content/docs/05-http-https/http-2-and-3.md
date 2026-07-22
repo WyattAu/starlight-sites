@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "05 Http Https", "url": "https://networking.wyattau.com/05-http-https"}, {"name": "Http 2 And 3", "url": "https://networking.wyattau.com/05-http-https/http-2-and-3"}]
+}
+</script>
 title: HTTP/2 and HTTP/3
 description: "HTTP/2 (RFC 9113) and HTTP/3 (RFC 9114) are the modern versions of the Hypertext Transfer Protocol. HTTP/2 brought binary framing, multiplexing, and header"
 tags:
@@ -6,6 +15,15 @@ tags:
 categories:
   - Networking
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "05 Http Https", "url": "https://networking.wyattau.com/05-http-https"}, {"name": "Http 2 And 3", "url": "https://networking.wyattau.com/05-http-https/http-2-and-3"}]
+}
+</script>
 
 ## Overview
 

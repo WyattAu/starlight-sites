@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
 title: Acids, Bases and Salt Preparation
 description: "This topic covers the properties of acids and bases, pH, strong and weak acids, buffers, and methods Of salt preparation. It is essential for both Ordinary"
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ilc-chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
 
 # Acids, Bases and Salt Preparation
 
@@ -298,6 +316,15 @@ The indicator must change colour within the pH range of the equivalence point.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
+
 ## pH Calculations in Detail (HL)
 
 ### Strong Monoprotic Acid
@@ -375,6 +402,15 @@ $[\mathrm{H^+] \approx \sqrt{K_a \times c}$ gives essentially the same result.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
+
 ## Buffers in Detail (HL)
 
 ### How Buffers Work: Quantitative Treatment
@@ -402,6 +438,15 @@ A buffer is most effective when:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
+
 ## Salt Hydrolysis (HL)
 
 ### pH of Salt Solutions
@@ -422,6 +467,15 @@ $$\mathrm{CO_3^{2-} + \mathrm{H_2\mathrm{O \rightleftharpoons \mathrm{HCO_3^- + 
 The production of $\mathrm{OH^-$ makes the solution alkaline.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
 
 ## Titration Curves (HL)
 
@@ -460,6 +514,15 @@ $$\mathrm{pOH = 5.28, \quad \mathrm{pH = 8.72$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
+
 ## Common Pitfalls (Extended)
 
 1. **Strong vs weak** -- strong acids/bases dissociate completely; weak ones partially.
@@ -471,6 +534,15 @@ $$\mathrm{pOH = 5.28, \quad \mathrm{pH = 8.72$$
 7. **$K_a$ vs. $K_b$** -- remember the relationship $K_a \times K_b = K_w$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
 
 ## Practice Questions (Extended)
 
@@ -494,6 +566,15 @@ $$\mathrm{pOH = 5.28, \quad \mathrm{pH = 8.72$$
 14. Describe the method of salt preparation by precipitation, giving an example.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
 
 ## Lewis Acid-Base Theory (HL)
 
@@ -528,6 +609,15 @@ $\mathrm{BF_3$ accepts the lone pair from nitrogen (Lewis acid), $\mathrm{NH_3$ 
 pair (Lewis base). A dative covalent bond is formed.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
 
 ## Salt Preparation Methods in Detail (OL/HL)
 
@@ -600,6 +690,15 @@ Mix solutions, filter the precipitate, wash with distilled water, dry.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
+
 ## Strength vs. Concentration (OL/HL)
 
 ### Common Misconception
@@ -623,6 +722,15 @@ Partially dissociated.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
+
 ## Summary Table: Acid-Base Concepts
 
 | Concept               | Formula                                                      | Key Point                   |
@@ -635,6 +743,15 @@ Partially dissociated.
 | $K_a \times K_b$      | $= K_w$                                                      | Conjugate pair relationship |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
 
 ## Practice Questions (Further Extended)
 
@@ -655,6 +772,15 @@ Partially dissociated.
     and (b) a small amount of $\mathrm{NaOH$ is added.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
 
 ## Polyprotic Acids (HL)
 
@@ -699,6 +825,15 @@ The phosphate buffer system ($\mathrm{H_2\mathrm{PO_4^-/\mathrm{HPO_4^{2-}$, $pK
 Important intracellularly.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
+}
+</script>
 
 ## Environmental Chemistry of Acids and Bases
 

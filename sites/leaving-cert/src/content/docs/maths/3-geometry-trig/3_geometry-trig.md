@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Maths", "url": "https://leaving-cert.wyattau.com/maths"}, {"name": "3 Geometry Trig", "url": "https://leaving-cert.wyattau.com/maths/3-geometry-trig"}, {"name": "3_geometry Trig", "url": "https://leaving-cert.wyattau.com/maths/3-geometry-trig/3_geometry-trig"}]
+}
+</script>
 title: Geometry and Trigonometry
 description: "Geometry and trigonometry form a significant part of the Leaving Certificate syllabus, particularly Paper 2. This topic covers coordinate geometry,"
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ilc-maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Maths", "url": "https://leaving-cert.wyattau.com/maths"}, {"name": "3 Geometry Trig", "url": "https://leaving-cert.wyattau.com/maths/3-geometry-trig"}, {"name": "3_geometry Trig", "url": "https://leaving-cert.wyattau.com/maths/3-geometry-trig/3_geometry-trig"}]
+}
+</script>
 
 # Geometry and Trigonometry
 

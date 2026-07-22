@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Chemistry", "url": "https://ap.wyattau.com/chemistry"}, {"name": "Index", "url": "https://ap.wyattau.com/chemistry/index"}]
+}
+</script>
 title: AP Chemistry
 description: "Comprehensive revision notes for AP Chemistry, aligned with the College Board Co Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ap-chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Chemistry", "url": "https://ap.wyattau.com/chemistry"}, {"name": "Index", "url": "https://ap.wyattau.com/chemistry/index"}]
+}
+</script>
 
 # AP Chemistry
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "6_semiconductors", "url": "https://physics.wyattau.com/6-solid-state-physics/6_semiconductors"}]
+}
+</script>
 title: Semiconductors
 tags:
   - Physics
   - University
 description: 'At The valence band is completely filled and the conduction band is completely e Comprehensive educational content coverage with definitions and practice proble'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "6_semiconductors", "url": "https://physics.wyattau.com/6-solid-state-physics/6_semiconductors"}]
+}
+</script>
 
 ### 6.1 Intrinsic Semiconductors
 

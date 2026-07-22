@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}]
+}
+</script>
 title: GCSE Biology Study Guide
 date: 2026-06-01
 description: "A complete single-page revision guide covering the full GCSE Biology specification. Each section contains key concepts, definitions, and essential facts."
@@ -10,6 +19,15 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}]
+}
+</script>
+
 # GCSE Biology Study Guide
 
 A complete single-page revision guide covering the full GCSE Biology specification. Each section
@@ -17,6 +35,15 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 [full topic pages](biology/) for detailed derivations and further practice.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}]
+}
+</script>
 
 ## 1. Cell Biology
 
@@ -107,6 +134,15 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 - Plant stem cells are used in agriculture: cloning plants from cuttings, tissue culture
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}]
+}
+</script>
 
 ## 2. Organisation
 
@@ -213,6 +249,15 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}]
+}
+</script>
+
 ## 3. Infection and Response
 
 ### 3.1 Pathogens
@@ -279,6 +324,15 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}]
+}
+</script>
+
 ## 4. Bioenergetics
 
 ### 4.1 Photosynthesis
@@ -335,6 +389,15 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}]
+}
+</script>
+
 ## 5. Homeostasis
 
 ### 5.1 Control of Body Temperature
@@ -390,6 +453,15 @@ contains key concepts, definitions, and essential facts. Use this alongside the
   prevent rejection
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}]
+}
+</script>
 
 ## 6. Inheritance
 
@@ -489,6 +561,15 @@ Ratio: 3 brown : 1 blue (phenotype) or 1 BB : 2 Bb : 1 bb (genotype)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}]
+}
+</script>
+
 ## 7. Ecology
 
 ### 7.1 Ecosystems
@@ -585,6 +666,15 @@ Ratio: 3 brown : 1 blue (phenotype) or 1 BB : 2 Bb : 1 bb (genotype)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}]
+}
+</script>
+
 ## 8. Key Terms
 
 | Term             | Definition                                                                                                         |
@@ -603,6 +693,15 @@ Ratio: 3 brown : 1 blue (phenotype) or 1 BB : 2 Bb : 1 bb (genotype)
 | Trophic level    | The position of an organism in a food chain                                                                        |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}]
+}
+</script>
 
 ## 9. Exam Tips
 
@@ -623,6 +722,15 @@ Ratio: 3 brown : 1 blue (phenotype) or 1 BB : 2 Bb : 1 bb (genotype)
    change together does not mean one causes the other. Examiners test this concept regularly.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}]
+}
+</script>
 
 ## Common Pitfalls
 

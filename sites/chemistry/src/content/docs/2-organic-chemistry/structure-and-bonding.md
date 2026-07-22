@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "2 Organic Chemistry", "url": "https://chemistry.wyattau.com/2-organic-chemistry"}, {"name": "Structure And Bonding", "url": "https://chemistry.wyattau.com/2-organic-chemistry/structure-and-bonding"}]
+}
+</script>
 title: Structure and Bonding
 description: "One and three orbitals combine to form four equivalent sp hybrid orbitals, arranged tetrahedrally with bond angles of 109.5°."
 date: 2026-05-31T00:00:00.000Z
@@ -8,6 +17,15 @@ tags:
 categories:
   - Chemistry
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "2 Organic Chemistry", "url": "https://chemistry.wyattau.com/2-organic-chemistry"}, {"name": "Structure And Bonding", "url": "https://chemistry.wyattau.com/2-organic-chemistry/structure-and-bonding"}]
+}
+</script>
 
 ## 1. Hybridization
 

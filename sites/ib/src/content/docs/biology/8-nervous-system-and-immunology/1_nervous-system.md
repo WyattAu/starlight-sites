@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 title: Nervous System
 description: "IB Biology — neuron structure and function, resting potential, action potential propagation, myelination, synapses, neurotransmitters, reflex arcs, sensory"
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Intuition
 
@@ -69,6 +87,15 @@ Non-neuronal cells that support, nourish, and protect neurons:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ## 2. Resting Membrane Potential
 
 ### Ionic Basis
@@ -123,6 +150,15 @@ Constant.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ## 3. Action Potential
 
 ### Phases of the Action Potential
@@ -160,6 +196,15 @@ Does not depend on stimulus strength. Stimulus intensity is encoded by the **fre
 Potentials, not their amplitude.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## 4. Action Potential Propagation
 
@@ -202,6 +247,15 @@ In myelinated axons, the action potential "jumps" between nodes of Ranvier:
 | **Temperature**   | Higher temperature = faster conduction (ion channel kinetics are temperature-dependent). Hypothermia slows conduction. |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## 5. Synapses
 
@@ -255,6 +309,15 @@ is Fired.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ## 6. Neurotransmitters
 
 ### Classification
@@ -296,6 +359,15 @@ Acetylcholine (ACh) is the neurotransmitter at:
 | **Schizophrenia**       | Dopamine                  | Excess dopamine activity in mesolimbic pathway; $\mathrm{D_2}$ receptor antagonists are antipsychotics.         |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## 7. Reflex Arcs
 
@@ -342,6 +414,15 @@ Example: touching a hot object.
    becomes consciously aware of the pain (after the reflex has already occurred).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## 8. Sensory Systems
 
@@ -426,6 +507,15 @@ signals (graded potentials, then action potentials) --- a process called **trans
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ## 9. Muscle Contraction: The Sliding Filament Theory
 
 ### Structure of Skeletal Muscle
@@ -493,6 +583,15 @@ The synapse between a motor neuron and a skeletal muscle fibre:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ## 10. Brain Regions and Functions
 
 ### Major Brain Regions
@@ -515,6 +614,15 @@ The synapse between a motor neuron and a skeletal muscle fibre:
 | **Occipital** | Posterior                      | Visual processing (primary visual cortex); colour, motion, and form perception.                                                                                        |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## 11. Autonomic Nervous System
 
@@ -541,6 +649,15 @@ sympathetic** Innervation. The adrenal medulla releases adrenaline (epinephrine)
 (norepinephrine) directly into the bloodstream (neurohormonal action).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## 12. Endocrine Integration
 
@@ -577,6 +694,15 @@ The adrenal medulla is essentially a sympathetic ganglion:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - Confusing **resting potential** with **equilibrium potential**: the resting potential
@@ -599,6 +725,15 @@ The adrenal medulla is essentially a sympathetic ganglion:
   parasympathetic = pupil constricts, heart rate down, digestion increases.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -760,6 +895,15 @@ secretion. Atropine blocks muscarinic receptors on salivary glands, causing dry 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ## Worked Examples
 
 **Worked Example: Nernst and Goldman Equations Applied to Neuronal Physiology**
@@ -821,6 +965,15 @@ Episodic neurological deficits.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Confusing resting potential with equilibrium potential**: the resting potential is a steady
@@ -842,6 +995,15 @@ Episodic neurological deficits.
   pupils, decrease heart rate, promote digestion).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -914,6 +1076,15 @@ lead to involuntary movements (dyskinesias).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ## If You Get These Wrong, Revise:
 
 - **Cell membrane structure and transport** --> Review
@@ -928,6 +1099,15 @@ lead to involuntary movements (dyskinesias).
   [.../8-nervous-system-and-immunology/2_immunology](../8-nervous-system-and-immunology/2_immunology)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -1142,6 +1322,15 @@ hand.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ## Additional Common Pitfalls
 
 - **Confusing graded potentials with action potentials**: graded potentials are local, decremental,
@@ -1165,6 +1354,15 @@ hand.
   receptor type.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Additional Exam-Style Problems with Full Solutions
 
@@ -1399,6 +1597,15 @@ and early Detection using biomarkers (PET imaging, cerebrospinal fluid analysis)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
+
 ## Cross-References to Related Topics
 
 - **Cell membrane structure and ion channels**: Review
@@ -1418,6 +1625,15 @@ and early Detection using biomarkers (PET imaging, cerebrospinal fluid analysis)
   adrenaline, cortisol, and hormone-receptor interactions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 | Topic            | Site    | Link                                                                                              |
 | ---------------- | ------- | ------------------------------------------------------------------------------------------------- |
@@ -1566,6 +1782,15 @@ $= 150\,000 \times 2 \times 10^{-20} = 3 \times 10^{-15}\;\mathrm{J}$.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 
 ## Supplementary: Brain Regions and Higher Functions (HL Extension)
 

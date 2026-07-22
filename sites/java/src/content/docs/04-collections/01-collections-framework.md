@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "04 Collections", "url": "https://java.wyattau.com/04-collections"}, {"name": "01 Collections Framework", "url": "https://java.wyattau.com/04-collections/01-collections-framework"}]
+}
+</script>
 title: Collections Framework
 description: "Java Collections Framework fundamentals."
 categories: ["java"]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "04 Collections", "url": "https://java.wyattau.com/04-collections"}, {"name": "01 Collections Framework", "url": "https://java.wyattau.com/04-collections/01-collections-framework"}]
+}
+</script>
 
 ## Architecture Overview
 

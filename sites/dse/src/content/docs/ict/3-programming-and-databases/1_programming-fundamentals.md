@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "1_programming Fundamentals", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals"}]
+}
+</script>
 title: Programming Fundamentals
 description: "This document provides comprehensive coverage of programming fundamentals for the DSE ICT examination. Basic programming concepts and SQL are covered in ."
 date: 2026-04-08T00:00:00.000Z
@@ -11,6 +20,15 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "1_programming Fundamentals", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals"}]
+}
+</script>
+
 This document provides comprehensive coverage of programming fundamentals for the DSE ICT
 examination. Basic programming concepts and SQL are covered in
 [../3-programming-and-databases/2_programming-and-databases](../3-programming-and-databases/2_programming-and-databases).
@@ -18,6 +36,15 @@ This document extends those topics with Deeper treatment of algorithms, string m
 handling, debugging, and DSE-specific exam Techniques.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "1_programming Fundamentals", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals"}]
+}
+</script>
 
 ## Variables and Constants
 
@@ -75,6 +102,15 @@ type Before performing arithmetic is one of the most common errors in student pr
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "1_programming Fundamentals", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals"}]
+}
+</script>
 
 ## Control Structures in Depth
 
@@ -252,6 +288,15 @@ END
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "1_programming Fundamentals", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals"}]
+}
+</script>
+
 ## Functions and Procedures in Depth
 
 ### Parameter Passing
@@ -319,6 +364,15 @@ Working back up: fib(2) = 1 + 0 = 1, fib(3) = 1 + 1 = 2, fib(4) = 2 + 1 = 3, fib
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "1_programming Fundamentals", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals"}]
+}
+</script>
 
 ## String Manipulation
 
@@ -410,6 +464,15 @@ Any pair does not match, the function returns FALSE immediately.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "1_programming Fundamentals", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals"}]
+}
+</script>
+
 ## File Input/Output in Depth
 
 ### File Operations
@@ -476,6 +539,15 @@ END
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "1_programming Fundamentals", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals"}]
+}
+</script>
 
 ## Algorithms -- Search and Sort
 
@@ -581,6 +653,15 @@ END FUNCTION
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "1_programming Fundamentals", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals"}]
+}
+</script>
+
 ## Top-Down Design
 
 Top-down design (stepwise refinement) is a problem-solving approach where a complex problem is
@@ -636,6 +717,15 @@ simple function or procedure.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "1_programming Fundamentals", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals"}]
+}
+</script>
+
 ## Flowcharts and Pseudocode -- DSE Exam Requirements
 
 ### Flowchart Symbols
@@ -684,6 +774,15 @@ Every flowchart symbol maps directly to pseudocode:
 | Arrow (loop)           | `FOR ... NEXT` or `WHILE ... ENDWHILE` |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "1_programming Fundamentals", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals"}]
+}
+</script>
 
 ## Debugging and Testing
 
@@ -740,6 +839,15 @@ Program: Assign grades based on score (A: &gt;= 80, B: &gt;= 60, C: &gt;= 40, F:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "1_programming Fundamentals", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Off-by-one errors in loops:** When iterating through an array of size N, the loop should run
@@ -778,6 +886,15 @@ Program: Assign grades based on score (A: &gt;= 80, B: &gt;= 60, C: &gt;= 40, F:
     behaviour.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "1_programming Fundamentals", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals"}]
+}
+</script>
 
 ## Practice Problems
 

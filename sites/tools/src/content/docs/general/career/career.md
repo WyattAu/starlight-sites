@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career/career"}]
+}
+</script>
 title: Systems Engineering Career
 description: "General Systems Engineering Career notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career/career"}]
+}
+</script>
 
 ## Intuition
 
@@ -86,6 +104,15 @@ Security engineers protect systems from threats:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career/career"}]
+}
+</script>
+
 ## Interview Preparation
 
 ### System Design Interviews
@@ -153,6 +180,15 @@ The STAR method structures your answers:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career/career"}]
+}
+</script>
+
 ## Resume and CV Best Practices
 
 ### Structure
@@ -204,6 +240,15 @@ B.S. Computer Science — University (2019)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career/career"}]
+}
+</script>
+
 ## Networking
 
 ### Conferences and Meetups
@@ -234,6 +279,15 @@ B.S. Computer Science — University (2019)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career/career"}]
+}
+</script>
+
 ## Salary Negotiation
 
 ### Principles
@@ -263,6 +317,15 @@ B.S. Computer Science — University (2019)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career/career"}]
+}
+</script>
+
 ## Startups vs. Big Tech
 
 | Factor            | Startup                            | Big Tech                           |
@@ -281,6 +344,15 @@ And life stage.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career/career"}]
+}
+</script>
+
 ## Remote Work
 
 ### Making Remote Work Effective
@@ -297,6 +369,15 @@ And life stage.
    participate in team social events, and maintain non-work relationships.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career/career"}]
+}
+</script>
 
 ## Continuous Learning
 
@@ -337,6 +418,15 @@ Blogging forces you to clarify your understanding and builds your professional b
   to be more effective?"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career/career"}]
+}
+</script>
 
 ## Career Progression
 
@@ -384,6 +474,15 @@ Many areas (the horizontal bar). Systems engineers should aim for:
   programming (at least one language), and cloud platforms
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career"}, {"name": "Career", "url": "https://tools.wyattau.com/general/career/career"}]
+}
+</script>
 
 ## Common Pitfalls
 

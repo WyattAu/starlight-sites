@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://highers.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
 title: "Algorithms -- Diagnostic Tests"
 description: "QUALIFICATIONS Highers notes: Algorithms -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://highers.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
 
 # Algorithms -- Diagnostic Tests
 
@@ -78,6 +96,15 @@ system without being overwhelmed by irrelevant details.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://highers.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
+
 ### UT-2: Data Structures
 
 **Question:**
@@ -134,6 +161,15 @@ the rear). **Dequeue** maps to a caller being connected to an agent (removed fro
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://highers.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
+
 ### UT-3: Algorithm Complexity and Efficiency
 
 **Question:**
@@ -180,6 +216,15 @@ the input. The running time does not grow with $n$. Three examples: accessing an
 index, pushing an element onto a stack, and checking whether a queue is empty.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://highers.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -239,6 +284,15 @@ performed most frequently: if searching dominates, use an array; if insertion an
 use a linked list.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Algorithms", "url": "https://highers.wyattau.com/computer-science/diagnostics/diag-algorithms"}]
+}
+</script>
 
 ### IT-2: Algorithm Analysis and Optimisation
 

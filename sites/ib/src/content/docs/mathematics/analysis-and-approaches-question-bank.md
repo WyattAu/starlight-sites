@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
 title: Analysis and Approaches Question Bank
 tags:
   - maths
   - ib
 description: "15 exam-style questions with full mark schemes, aligned to the IB Mathematics: Analysis and Approaches syllabus (SL/HL). Each question is presented in table"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
 
 ## IB Mathematics AA — Question Bank
 
@@ -13,6 +31,15 @@ Approaches syllabus (SL/HL). Each question is presented in table format for comp
 worked solutions below.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
 
 ## Algebra and Functions
 
@@ -35,6 +62,15 @@ worked solutions below.
 `medium` — 5 marks total
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
 
 ### Q2 — Quadratic Functions
 
@@ -61,6 +97,15 @@ $\mathbf{x = 3}$. ✓
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
+
 ### Q3 — Exponential and Logarithmic Equations (HL)
 
 > Solve the equation $3^{2x - 1} = 5^{x + 1}$. Give your answer to three significant figures. [4
@@ -82,6 +127,15 @@ $x \approx \frac{2.708}{0.5878} \approx \mathbf{4.61}$ (3 s.f.) ✓
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
+
 ### Q4 — Binomial Theorem (HL)
 
 > Use the binomial theorem to find the coefficient of $x^3$ in the expansion of $(2x - 3)^5$. [3
@@ -102,6 +156,15 @@ Coefficient $= \binom{5}{2}(2)^3(-3)^2 = 10 \times 8 \times 9 = \mathbf{720}$ �
 `medium` — 3 marks total
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
 
 ## Geometry and Trigonometry
 
@@ -127,6 +190,15 @@ Solutions: $\mathbf{x = 30°, 150°}$ ✓
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
+
 ### Q6 — Cosine Rule
 
 > In triangle ABC, AB = 8 cm, BC = 6 cm, and angle ABC = 110°. Find the length of AC. [3 marks]
@@ -149,6 +221,15 @@ $AC = \sqrt{132.83} \approx \mathbf{11.5 \text{ cm}}$ (3 s.f.) ✓
 `medium` — 3 marks total
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
 
 ### Q7 — Vectors (HL)
 
@@ -174,6 +255,15 @@ $|\overrightarrow{AB}| = \sqrt{3^2 + (-4)^2 + 5^2} = \sqrt{9 + 16 + 25} = \sqrt{
 `medium` — 3 marks total
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
 
 ## Statistics and Probability
 
@@ -202,6 +292,15 @@ $P(Z > 1.25) = 1 - 0.8944 = \mathbf{0.1056}$ ✓
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
+
 ### Q9 — Probability — Conditional
 
 > In a school, 60% of students study Physics, 45% study Chemistry, and 25% study both. A student is
@@ -220,6 +319,15 @@ $P(\text{Physics} \mid \text{Chemistry}) = \frac{P(\text{Physics} \cap \text{Che
 `medium` — 3 marks total
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
 
 ### Q10 — Correlation and Regression
 
@@ -254,6 +362,15 @@ $r = \frac{180}{\sqrt{40 \times 1120}} = \frac{180}{\sqrt{44800}} = \frac{180}{2
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
+
 ### Q11 — Combinatorics (HL)
 
 > A committee of 4 people is to be selected from 7 men and 5 women. The committee must contain at
@@ -279,6 +396,15 @@ Total $= 210 + 70 + 5 = \mathbf{285}$ ✓
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
+
 ## Calculus
 
 ### Q12 — Differentiation from First Principles
@@ -303,6 +429,15 @@ $= \lim_{h \to 0}(2x + h) = \mathbf{2x}$ ✓
 `medium` — 4 marks total
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
 
 ### Q13 — Integration — Area Under a Curve
 
@@ -336,6 +471,15 @@ Total area $= \frac{4}{3} + \frac{4}{3} = \mathbf{\frac{8}{3}}$ ✓
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
+
 ### Q14 — Optimisation (HL)
 
 > A rectangular box with a square base has a volume of $500\text{ cm}^3$. The material for the base
@@ -368,6 +512,15 @@ $\frac{d^2C}{dx^2} = 0.20 + \frac{200}{x^3} > 0$ for all $x > 0$, confirming a m
 `hard` — 6 marks total
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
 
 ### Q15 — Kinematics
 
@@ -408,6 +561,15 @@ $= \frac{40}{27} + \frac{40}{27} + 3 = \frac{80}{27} + 3 = \frac{161}{27} \appro
 `hard` — 6 marks total
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
+}
+</script>
 
 ## Summary
 

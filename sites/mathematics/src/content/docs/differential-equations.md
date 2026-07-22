@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Differential Equations", "url": "https://mathematics.wyattau.com/differential-equations"}]
+}
+</script>
 title: Differential Equations
 description: "UNIVERSITY Mathematics notes: Differential Equations. Comprehensive study material with definitions, examples, and assessment tools."
 date: 2026-04-24T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Mathematics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Differential Equations", "url": "https://mathematics.wyattau.com/differential-equations"}]
+}
+</script>
 
 ## 1. Introduction and Classification
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Fields", "url": "https://alevel.wyattau.com/physics/fields"}, {"name": "Magnetic Fields Depth", "url": "https://alevel.wyattau.com/physics/fields/magnetic-fields-depth"}]
+}
+</script>
 title: Magnetic Fields
 description: "The magnetic flux density (also called the magnetic field strength in the context Of force calculations) is defined by the force on a current-carrying"
 date: 2026-04-23T00:00:00.000Z
@@ -6,6 +15,15 @@ tags: [Physics, ALevel]
 categories: [Physics]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Fields", "url": "https://alevel.wyattau.com/physics/fields"}, {"name": "Magnetic Fields Depth", "url": "https://alevel.wyattau.com/physics/fields/magnetic-fields-depth"}]
+}
+</script>
 
 ## Magnetic Fields
 

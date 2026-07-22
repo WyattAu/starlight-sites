@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
 title: National Income and Macroeconomic Indicators
 description: "National income and macroeconomic indicators for DSE Economics."
 date: 2026-04-08T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Economics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
 
 ## National Income Concepts
 
@@ -72,6 +90,15 @@ After paying taxes. It is the most relevant measure for analysing household beha
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
+
 ## Nominal GDP vs Real GDP
 
 ### Nominal GDP
@@ -132,6 +159,15 @@ Real GDP growth rate = `(2000 - 2000) / 2000 \times 100\% = 0\%`
 Output did not grow in real terms; the entire increase in nominal GDP was due to price increases.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
 
 ## Methods of Measuring GDP
 
@@ -222,6 +258,15 @@ Alternatively, value of final output (car) = USD 20,000. Same result.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
+
 ## GDP Per Capita and Standard of Living
 
 $$\mathrm{GDP per capita} = \frac{\mathrm{GDP}}{\mathrm{Population}}$$
@@ -238,6 +283,15 @@ However, GDP per capita is an average and can be misleading:
 - It does not measure environmental quality, leisure time, or political freedom.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
 
 ## Limitations of GDP as a Welfare Measure
 
@@ -292,6 +346,15 @@ Spending on repairing damage (flood defences, pollution cleanup, crime preventio
 Though it represents a cost rather than a genuine improvement in welfare.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
 
 ## Unemployment
 
@@ -387,6 +450,15 @@ Exist.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
+
 ## Inflation
 
 ### Definition
@@ -465,6 +537,15 @@ Venezuela (2018).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
+
 ## Phillips Curve
 
 ### Short-Run Phillips Curve
@@ -511,6 +592,15 @@ unemployment returns to `NRU` at a higher inflation rate.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
+
 ## Economic Growth
 
 ### Actual vs Potential Growth
@@ -555,6 +645,15 @@ Inputs. An economy that relies solely on adding more labour and capital faces di
 Only technological progress and productivity improvements can drive long-run per capita growth.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
 
 ## Business Cycle
 
@@ -609,6 +708,15 @@ The economy fluctuates around the long-term trend line. Peaks are above the tren
 It.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
 
 ## Government Budget
 
@@ -671,6 +779,15 @@ Without legislative delay, unlike discretionary fiscal policy.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
+
 ## Intuition
 
 **A nation's scoreboard:** GDP is like a company's revenue — it measures the total value of everything produced. But just like revenue isn't profit, GDP isn't welfare — it counts pollution cleanup as positive output.
@@ -723,6 +840,15 @@ Without legislative delay, unlike discretionary fiscal policy.
     unemployment below the NRU through demand management results only in accelerating inflation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -956,6 +1082,15 @@ Element.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
 
 ## Problem Set
 
@@ -1191,6 +1326,15 @@ If you get this wrong, revise: [Automatic Stabilisers](#automatic-stabilisers)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
+
 ## Extended Problem Set: Advanced National Income Analysis
 
 ### Problem 9: GDP Deflator vs CPI
@@ -1417,6 +1561,15 @@ and the 17 goals may involve trade-offs (e.g., economic growth vs environmental 
 If you get this wrong, revise: [Development Indicators](#development-indicators)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "5 Macroeconomic Indicators", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators"}, {"name": "1_national Income", "url": "https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income"}]
+}
+</script>
 
 ## Additional Problems: DSE Exam-Style National Income
 

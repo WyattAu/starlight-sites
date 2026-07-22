@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Programming", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-programming"}]
+}
+</script>
 title: "Programming and OOP -- Diagnostic Tests"
 description: "A-Level Computer Science Programming and OOP -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Programming", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-programming"}]
+}
+</script>
 
 
 ## Intuition
@@ -106,6 +124,15 @@ runtime (dynamic polymorphism).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Programming", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-programming"}]
+}
+</script>
+
 ### UT-2: SQL Queries
 
 **Question:** Given the following relational schema:
@@ -168,6 +195,15 @@ WHERE NOT EXISTS (
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Programming", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-programming"}]
+}
+</script>
 
 ### UT-3: Relational Database Normalisation
 
@@ -322,6 +358,15 @@ class StudentRecordManager:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Programming", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-programming"}]
+}
+</script>
+
 ### IT-2: SQL and Programming Integration (with Relational Databases)
 
 **Question:** A school database has tables:
@@ -381,6 +426,15 @@ strictly as data values, never as executable SQL code. Even if the input contain
 treated as a literal string value and cannot alter the query structure.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Programming", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-programming"}]
+}
+</script>
 
 ### IT-3: Recursion and Data Structures (with Algorithms)
 

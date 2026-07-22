@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Electromagnetism Unification", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-electromagnetism-unification"}]
+}
+</script>
 title: "Electromagnetism Unification -- Diagnostic Tests"
 description: "A-Level Physics Electromagnetism Unification -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Electromagnetism Unification", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-electromagnetism-unification"}]
+}
+</script>
 
 # Electromagnetism Unification — Diagnostic Tests
 
@@ -56,6 +74,15 @@ The key distinction: Faraday's law determines **how much** EMF is induced; Lenz'
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Electromagnetism Unification", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-electromagnetism-unification"}]
+}
+</script>
+
 ### UT-2: EM Wave — Speed, Wavelength, and Frequency
 
 **Question:**
@@ -97,6 +124,15 @@ $$\mathbf{B} = B_0\sin(kx - \omega t)\,\hat{k} = 1.00 \times 10^{-7}\sin(125.7x 
 $$= 0.5 \times 8.85 \times 10^{-12} \times 3.00 \times 10^8 \times 900 = 0.5 \times 8.85 \times 10^{-12} \times 2.7 \times 10^{11} = 1.195\,\text{W}\,\text{m}^{-2}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Electromagnetism Unification", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-electromagnetism-unification"}]
+}
+</script>
 
 ### UT-3: Displacement Current and Maxwell's Insight
 
@@ -193,6 +229,15 @@ This is a radio wave with wavelength approximately $1.9\,\text{m}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Electromagnetism Unification", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-electromagnetism-unification"}]
+}
+</script>
+
 ### IT-2: EM Wave Intensity and Radiation Pressure (with Wave Properties)
 
 **Question:**
@@ -240,6 +285,15 @@ This matches the force calculated in part (b) (Newton's second law: force = rate
 momentum).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Electromagnetism Unification", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-electromagnetism-unification"}]
+}
+</script>
 
 ### IT-3: EM Wave in a Medium (with Refraction)
 

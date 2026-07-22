@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "05 Streams", "url": "https://java.wyattau.com/05-streams"}, {"name": "01 Streams Api", "url": "https://java.wyattau.com/05-streams/01-streams-api"}]
+}
+</script>
 title: Streams API
 description: "Java Streams API fundamentals."
 categories: ["java"]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "05 Streams", "url": "https://java.wyattau.com/05-streams"}, {"name": "01 Streams Api", "url": "https://java.wyattau.com/05-streams/01-streams-api"}]
+}
+</script>
 
 ## Stream vs Collection
 

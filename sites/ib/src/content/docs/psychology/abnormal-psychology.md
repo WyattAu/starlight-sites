@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Abnormal Psychology", "url": "https://ib.wyattau.com/psychology/abnormal-psychology"}]
+}
+</script>
 title: Abnormal Psychology
 description: "Abnormal psychology is the HL extension unit in IB Psychology. It examines how psychological disorders are defined, classified, and explained, integrating"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Abnormal Psychology", "url": "https://ib.wyattau.com/psychology/abnormal-psychology"}]
+}
+</script>
 
 # Abnormal Psychology
 

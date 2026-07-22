@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 title: "Functions -- Diagnostic Tests"
 description: "A-Level Maths Functions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 
 ## Intuition
@@ -78,6 +96,15 @@ only achieves values $\geq 1/2$ on a finite interval.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
+
 ### UT-2: Inverse Function Existence and Domain Restriction
 
 **Question:**
@@ -139,6 +166,15 @@ $x + 2 \geq 2 > 0$).
 Range of $f^{-1}$ equals domain of $f$: $[0, \infty)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 ### UT-3: Three-Layer Composite Function
 
@@ -202,6 +238,15 @@ applied in different orders. Since $f$ and $g$ do not commute, the results diffe
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of functions with other topics. Requires combining concepts from multiple units.
@@ -254,6 +299,15 @@ $4x^2 + 2 \leq 10 \implies 4x^2 \leq 8 \implies x^2 \leq 2 \implies -\sqrt{2} \l
 $$x \in [-\sqrt{2}, \sqrt{2}]$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 ### IT-2: Trigonometric Composition in a Geometry Context (with Trigonometry)
 
@@ -364,6 +418,15 @@ The problem as stated has no solution for a non-degenerate triangle. This itself
 diagnostic insight: recognising when a problem has no valid solution is an important skill.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 ### IT-3: Function Iteration Producing a Sequence (with Sequences)
 

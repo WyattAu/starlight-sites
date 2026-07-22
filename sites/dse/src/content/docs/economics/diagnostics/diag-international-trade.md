@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/economics/diagnostics"}, {"name": "Diag International Trade", "url": "https://dse.wyattau.com/economics/diagnostics/diag-international-trade"}]
+}
+</script>
 title: "International Trade and Finance -- Diagnostic Tests"
 description: "DSE Economics International Trade and Finance -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/economics/diagnostics"}, {"name": "Diag International Trade", "url": "https://dse.wyattau.com/economics/diagnostics/diag-international-trade"}]
+}
+</script>
 
 # International Trade and Finance — Diagnostic Tests
 
@@ -110,6 +128,15 @@ $\frac{1}{2}(50 - 20)(60) = \frac{1}{2}(30)(60) = \$900$. Change in PS $= +\$500
 Net welfare change $= -1100 + 500 + 400 = -\$200$ (equals DWL).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/economics/diagnostics"}, {"name": "Diag International Trade", "url": "https://dse.wyattau.com/economics/diagnostics/diag-international-trade"}]
+}
+</script>
 
 ## Integration Tests
 

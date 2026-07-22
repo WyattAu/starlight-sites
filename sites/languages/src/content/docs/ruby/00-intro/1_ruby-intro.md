@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Ruby", "url": "https://languages.wyattau.com/ruby"}, {"name": "00 Intro", "url": "https://languages.wyattau.com/ruby/00-intro"}, {"name": "1_ruby Intro", "url": "https://languages.wyattau.com/ruby/00-intro/1_ruby-intro"}]
+}
+</script>
 title: Introduction to Ruby
 description: "Ruby is a with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. Ruby was created by Yukihiro"
 date: 2026-06-04T10:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Ruby
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Ruby", "url": "https://languages.wyattau.com/ruby"}, {"name": "00 Intro", "url": "https://languages.wyattau.com/ruby/00-intro"}, {"name": "1_ruby Intro", "url": "https://languages.wyattau.com/ruby/00-intro/1_ruby-intro"}]
+}
+</script>
 
 ## What Is Ruby?
 
@@ -730,6 +748,15 @@ end
 Ruby was designed to make programmers happy, which is unusual for a programming language. Think of Ruby as a well-organized toolbox where every tool has a comfortable handle: the syntax reads like English prose because Matz wanted code to feel like writing poetry. Everything being an object means you can ask any piece of data to describe itself or transform itself, just as you would ask a person. Ruby on Rails succeeded not because it was the fastest framework but because it made common tasks feel effortless, like a waiter who refills your glass before you notice it is empty.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Ruby", "url": "https://languages.wyattau.com/ruby"}, {"name": "00 Intro", "url": "https://languages.wyattau.com/ruby/00-intro"}, {"name": "1_ruby Intro", "url": "https://languages.wyattau.com/ruby/00-intro/1_ruby-intro"}]
+}
+</script>
 
 ## Cross-References
 

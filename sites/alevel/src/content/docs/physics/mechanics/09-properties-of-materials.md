@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/physics/mechanics"}, {"name": "09 Properties Of Materials", "url": "https://alevel.wyattau.com/physics/mechanics/09-properties-of-materials"}]
+}
+</script>
 title: Properties of Materials
 description: "The mechanical properties of materials — how they deform, stretch, compress, and break — are central To engineering and physics. This topic sits within the"
 date: 2026-04-02T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Physics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/physics/mechanics"}, {"name": "09 Properties Of Materials", "url": "https://alevel.wyattau.com/physics/mechanics/09-properties-of-materials"}]
+}
+</script>
 
 ## Properties of Materials
 
@@ -545,6 +563,15 @@ Or too low.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/physics/mechanics"}, {"name": "09 Properties Of Materials", "url": "https://alevel.wyattau.com/physics/mechanics/09-properties-of-materials"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 hardest questions within the A-Level specification for this topic, each with a full worked solution.

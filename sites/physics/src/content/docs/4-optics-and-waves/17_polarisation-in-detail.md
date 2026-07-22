@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "17_polarisation In Detail", "url": "https://physics.wyattau.com/4-optics-and-waves/17_polarisation-in-detail"}]
+}
+</script>
 title: Polarisation in Detail
 tags:
   - Physics
   - University
 description: 'The represents the polarisation state of a monochromatic plane wave: Comprehensive educational content coverage with definitions and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "17_polarisation In Detail", "url": "https://physics.wyattau.com/4-optics-and-waves/17_polarisation-in-detail"}]
+}
+</script>
 
 ### 13.1 Jones Calculus
 

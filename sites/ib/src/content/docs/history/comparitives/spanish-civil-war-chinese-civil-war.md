@@ -1,9 +1,27 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Comparitives", "url": "https://ib.wyattau.com/history/comparitives"}, {"name": "Spanish Civil War Chinese Civil War", "url": "https://ib.wyattau.com/history/comparitives/spanish-civil-war-chinese-civil-war"}]
+}
+</script>
 title: Spanish Civil War and Chinese Civil War
 tags:
   - history
 description: "After the collapse of Qing Dynasty (1912), there were a period of warlordism, during which Nationalist Kuomintang (KMT) under Chiang Kai-shek took control"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Comparitives", "url": "https://ib.wyattau.com/history/comparitives"}, {"name": "Spanish Civil War Chinese Civil War", "url": "https://ib.wyattau.com/history/comparitives/spanish-civil-war-chinese-civil-war"}]
+}
+</script>
 
 ## Brief
 
@@ -422,6 +440,15 @@ Both civil wars raised questions about international law and the responsibilitie
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Comparitives", "url": "https://ib.wyattau.com/history/comparitives"}, {"name": "Spanish Civil War Chinese Civil War", "url": "https://ib.wyattau.com/history/comparitives/spanish-civil-war-chinese-civil-war"}]
+}
+</script>
+
 ## Timeline Comparison
 
 The following table provides a chronological overview of key events in both wars:
@@ -440,6 +467,15 @@ The following table provides a chronological overview of key events in both wars
 | 1949           | —                                                                                   | PRC founded (Oct 1); KMT retreats to Taiwan                                   |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Comparitives", "url": "https://ib.wyattau.com/history/comparitives"}, {"name": "Spanish Civil War Chinese Civil War", "url": "https://ib.wyattau.com/history/comparitives/spanish-civil-war-chinese-civil-war"}]
+}
+</script>
 
 ## Foreign Intervention: Detailed Comparison
 
@@ -478,6 +514,15 @@ The following table provides a chronological overview of key events in both wars
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Comparitives", "url": "https://ib.wyattau.com/history/comparitives"}, {"name": "Spanish Civil War Chinese Civil War", "url": "https://ib.wyattau.com/history/comparitives/spanish-civil-war-chinese-civil-war"}]
+}
+</script>
+
 ## Outcome Comparison
 
 ### Political Outcomes
@@ -513,6 +558,15 @@ The following table provides a chronological overview of key events in both wars
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Comparitives", "url": "https://ib.wyattau.com/history/comparitives"}, {"name": "Spanish Civil War Chinese Civil War", "url": "https://ib.wyattau.com/history/comparitives/spanish-civil-war-chinese-civil-war"}]
+}
+</script>
+
 ## Ideological Analysis: Deeper Comparison
 
 ### Ideological Coherence
@@ -545,6 +599,15 @@ Compared to its economic and social appeal to peasants. The ideological divide w
 Economic (landlord vs peasant) rather than religious.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Comparitives", "url": "https://ib.wyattau.com/history/comparitives"}, {"name": "Spanish Civil War Chinese Civil War", "url": "https://ib.wyattau.com/history/comparitives/spanish-civil-war-chinese-civil-war"}]
+}
+</script>
 
 ## Problem Set: IB Paper 2 Practice
 

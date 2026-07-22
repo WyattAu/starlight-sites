@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Magnetic Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-magnetic-fields"}]
+}
+</script>
 title: "Magnetic Fields -- Diagnostic Tests"
 description: "A-Level Physics Magnetic Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Magnetic Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-magnetic-fields"}]
+}
+</script>
 
 
 ## Intuition
@@ -66,6 +84,15 @@ approximately equal to $\mu_0 I_1 I_2/(2\pi)$ times a geometric factor.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Magnetic Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-magnetic-fields"}]
+}
+</script>
+
 ### UT-2: Cyclotron Motion of a Charged Particle
 
 **Question:**
@@ -104,6 +131,15 @@ $E_k = \frac{1}{2}mv^2 = 0.5 \times 1.67 \times 10^{-27} \times (4.0 \times 10^6
 In eV: $E_k = 1.336 \times 10^{-14}/(1.60 \times 10^{-19}) = 83500\,\text{eV} = 83.5\,\text{keV}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Magnetic Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-magnetic-fields"}]
+}
+</script>
 
 ### UT-3: Electromagnetic Induction — Faraday's and Lenz's Laws
 
@@ -195,6 +231,15 @@ not cancel.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Magnetic Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-magnetic-fields"}]
+}
+</script>
+
 ### IT-2: Transformer with Load and Efficiency (with DC Circuits)
 
 **Question:**
@@ -244,6 +289,15 @@ The transformer operates correctly at frequencies above $7.2\,\text{Hz}$. Standa
 ($50\,\text{Hz}$ or $60\,\text{Hz}$) is well above this.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Magnetic Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-magnetic-fields"}]
+}
+</script>
 
 ### IT-3: Eddy Currents and Lenz's Law (with Work-Energy)
 

@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "English", "url": "https://hsc.wyattau.com/english"}, {"name": "Reading", "url": "https://hsc.wyattau.com/english/reading"}]
+}
+</script>
 title: "Reading"
 description: "HSC english: Reading"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "English", "url": "https://hsc.wyattau.com/english"}, {"name": "Reading", "url": "https://hsc.wyattau.com/english/reading"}]
+}
+</script>
 
 # Reading
 

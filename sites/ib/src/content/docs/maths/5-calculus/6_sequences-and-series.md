@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
 title: "Sequences and Series"
 description: "IB Mathematics — arithmetic and geometric sequences, sigma notation, Maclaurin and Taylor series, convergence, and the binomial theorem."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
 
 ## Sequences
 
@@ -18,6 +36,15 @@ A sequence **converges** to a limit $L$ if $\displaystyle\lim_{n \to \infty} a_n
 **diverges**.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
 
 ## Arithmetic Sequences
 
@@ -54,6 +81,15 @@ The arithmetic mean of $a$ and $b$ is $\dfrac{a + b}{2}$. In an arithmetic seque
 The arithmetic mean of its neighbours.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
 
 ## Geometric Sequences
 
@@ -108,6 +144,15 @@ Positive terms, each term is the geometric mean of its neighbours.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
+
 ## Sigma Notation
 
 ### Definition
@@ -130,6 +175,15 @@ $$\sum_{k=m}^{n}(a_k + b_k) = \sum_{k=m}^{n} a_k + \sum_{k=m}^{n} b_k$$
 | $\displaystyle\sum_{k=0}^{n} r^k$ | $\dfrac{1 - r^{n+1}}{1 - r}, \quad r \ne 1$ |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
 
 ## Convergence Tests
 
@@ -184,6 +238,15 @@ harmonic Series) since $\dfrac{1}{n}$ decreases to $0$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
+
 ## The Binomial Theorem
 
 ### Finite Binomial Expansion
@@ -221,6 +284,15 @@ The $x^3$ coefficient:
 $$\sqrt{2} \cdot \frac{-3/8}{6} \cdot \left(-\frac{27}{8}\right) = \sqrt{2} \cdot \frac{81}{384} = \frac{27\sqrt{2}}{128}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
 
 ## Maclaurin Series
 
@@ -274,6 +346,15 @@ $$\arctan x = x - \frac{x^3}{3} + \frac{x^5}{5} - \frac{x^7}{7} + \cdots$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
+
 ## Taylor Series
 
 ### Definition
@@ -313,6 +394,15 @@ $$|R_3(0.5)| \le \frac{e^{0.5} \cdot (0.5)^4}{24} \approx \frac{1.649 \cdot 0.06
 Actual error: $|1.64872 - 1.64583| \approx 0.0029$Which is within the bound.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
 
 ## Proof by Induction
 
@@ -380,6 +470,15 @@ The inductive step must genuinely use the inductive hypothesis. Proving $P(k+1)$
 $P(k)$ is not a valid induction argument. Always make it explicit where the hypothesis is used.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -499,6 +598,15 @@ Actual error: $|0.1823 - 0.18| = 0.0023$Which is within the bound.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
+
 ## Intuition
 
 A sequence is a list of numbers marching toward a destination. Some sequences march steadily, like soldiers in step (arithmetic), while others multiply their stride at each step (geometric). The question is whether they converge — whether they settle on a value or wander off forever. The geometric series formula is the key that unlocks repeating decimals and infinite sums: 0.777... is just a geometric series with ratio one-tenth. Maclaurin series are a microscope for functions — they reveal that every smooth function is secretly an infinite polynomial. The more terms you include, the closer you zoom in on the true shape of the function near zero.
@@ -536,6 +644,15 @@ A sequence is a list of numbers marching toward a destination. Some sequences ma
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
+
 ## Exam-Style Problems
 
 1. Find the sum of the infinite geometric series $8 - 4 + 2 - 1 + \cdots$ and express the repeating
@@ -563,6 +680,15 @@ A sequence is a list of numbers marching toward a destination. Some sequences ma
    absolutely, converges conditionally, or diverges.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
 
 ## Cross-References
 

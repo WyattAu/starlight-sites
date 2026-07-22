@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Transition Metals", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-transition-metals"}]
+}
+</script>
 title: "Transition Metals -- Diagnostic Tests"
 description: "A-Level Chemistry Transition Metals -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Transition Metals", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-transition-metals"}]
+}
+</script>
 
 
 ## Intuition
@@ -66,6 +84,15 @@ states).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Transition Metals", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-transition-metals"}]
+}
+</script>
+
 ### UT-2: Ligand Exchange and Stability Constants
 
 **Question:**
@@ -110,6 +137,15 @@ driven to the right by the removal of $\text{NH}_3$ (Le Chatelier"s principle). 
 towards pale blue-green (the aqua complex colour, modified by the presence of chloride ions).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Transition Metals", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-transition-metals"}]
+}
+</script>
 
 ### UT-3: Variable Oxidation States in Redox Titrations
 
@@ -232,6 +268,15 @@ mass, making them economically efficient (less catalyst needed for the same rate
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Transition Metals", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-transition-metals"}]
+}
+</script>
+
 ### IT-2: Cobalt Complex Chemistry and Ligand Exchange (with Acids and Bases)
 
 **Question:**
@@ -306,6 +351,15 @@ The colour changes from pink to blue because:
    very high due to the large LFSE that must be overcome.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Transition Metals", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-transition-metals"}]
+}
+</script>
 
 ### IT-3: Iron Chemistry and Biological Relevance (with Electrochemistry)
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "Practice Interactive", "url": "https://languages.wyattau.com/python/practice-interactive"}]
+}
+</script>
 title: Python Practice (Interactive)
 description: "8 auto-graded practice problems covering core Python concepts. Select an answer, Comprehensive educational content coverage with definitions and practice proble"
 tags:
@@ -6,6 +15,15 @@ tags:
 categories:
   - Python
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "Practice Interactive", "url": "https://languages.wyattau.com/python/practice-interactive"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -24,6 +42,15 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "Practice Interactive", "url": "https://languages.wyattau.com/python/practice-interactive"}]
+}
+</script>
+
 ### Data Structures
 
 <PracticeProblem client:only="solid-js" question={"What does `list(map(lambda x: x**2, range(5)))` return?&quot; options={['[1, 4, 9, 16, 25]', '[0, 1, 4, 9, 16]', '[0, 2, 4, 6, 8]', '[1, 2, 3, 4, 5]']} correctAnswer={1} explanation=&quot;range(5) produces [0, 1, 2, 3, 4]. Mapping x² gives [0, 1, 4, 9, 16]."} difficulty="medium"  />
@@ -34,6 +61,15 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "Practice Interactive", "url": "https://languages.wyattau.com/python/practice-interactive"}]
+}
+</script>
+
 ### Functions and Scope
 
 <PracticeProblem client:only="solid-js" question={"What is printed by `print([x for x in range(10) if x % 3 == 0])`?&quot; options={['[0, 3, 6, 9]', '[3, 6, 9]', '[1, 2, 3, 4, 5, 6]', '[0, 1, 2, 3]']} correctAnswer={0} explanation=&quot;The list comprehension filters for numbers divisible by 3: 0, 3, 6, 9."} difficulty="easy"  />
@@ -41,6 +77,15 @@ import PracticeProblem from "@components/PracticeProblem";
 <PracticeProblem client:only="solid-js" question={"What does `def f(a, b=[]): b.append(a); return b` return when called as `f(1); f(2)`?&quot; options={['[1], [2]', '[1, 2]', '[1, 2], [1, 2]', 'TypeError']} correctAnswer={1} explanation=&quot;Mutable default arguments are shared across calls. After f(1), b = [1]. After f(2), b = [1, 2]. This is a common Python gotcha."} difficulty="hard"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "Practice Interactive", "url": "https://languages.wyattau.com/python/practice-interactive"}]
+}
+</script>
 
 ### Core Language Features
 
@@ -52,11 +97,29 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "Practice Interactive", "url": "https://languages.wyattau.com/python/practice-interactive"}]
+}
+</script>
+
 ### List Comprehensions
 
 <PracticeProblem client:only="solid-js" question={"What is the output of `[i * j for i in range(3) for j in range(3) if i != j]`?&quot; options={['[0, 0, 2, 0, 6]', '[2, 6]', '[0, 2, 0, 6]', 'IndexError']} correctAnswer={0} explanation=&quot;The nested comprehension iterates all pairs (i,j) from 0-2, filters out i==j, and multiplies the remaining pairs: 0*1=0, 0*2=0, 1*0=0, 1*2=2, 2*0=0, 2*1=2. Result: [0, 0, 2, 0, 6]."} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "Practice Interactive", "url": "https://languages.wyattau.com/python/practice-interactive"}]
+}
+</script>
 
 ### Generators
 
@@ -64,11 +127,29 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "Practice Interactive", "url": "https://languages.wyattau.com/python/practice-interactive"}]
+}
+</script>
+
 ### Decorators
 
 <PracticeProblem client:only="solid-js" question={"Given `def timer(func): import time; def wrapper(*args, **kwargs): start=time.time(); result=func(*args, **kwargs); print(time.time()-start); return result; return wrapper`, what does `@timer def compute(): pass` do?&quot; options={['Replaces compute with wrapper, printing elapsed time on each call', 'Computes only once and caches the result', 'Raises a TypeError', 'Makes compute asynchronous']} correctAnswer={0} explanation=&quot;The @timer decorator replaces compute with the wrapper function. Each call to compute() now executes the original function, measures elapsed time, prints it, and returns the result."} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "Practice Interactive", "url": "https://languages.wyattau.com/python/practice-interactive"}]
+}
+</script>
 
 ### Context Managers
 
@@ -76,11 +157,29 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "Practice Interactive", "url": "https://languages.wyattau.com/python/practice-interactive"}]
+}
+</script>
+
 ### Asyncio
 
 <PracticeProblem client:only="solid-js" question={"What does `await asyncio.gather(task1(), task2())` do compared to calling them sequentially?&quot; options={['Runs task1 and task2 concurrently and collects both results', 'Runs task1 first, then task2', 'Returns only the first result', 'Raises a SyntaxError outside async']} correctAnswer={0} explanation=&quot;asyncio.gather schedules both coroutines to run concurrently on the event loop. It waits for both to complete and returns a list of results in the order the tasks were passed, not the order they completed."} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "Practice Interactive", "url": "https://languages.wyattau.com/python/practice-interactive"}]
+}
+</script>
 
 ### Advanced Functions
 

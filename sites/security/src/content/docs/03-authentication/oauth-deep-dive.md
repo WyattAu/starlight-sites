@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "03 Authentication", "url": "https://security.wyattau.com/03-authentication"}, {"name": "Oauth Deep Dive", "url": "https://security.wyattau.com/03-authentication/oauth-deep-dive"}]
+}
+</script>
 title: OAuth 2.0 Deep Dive
 description: "OAuth 2.0 is an framework defined in RFC 6749. It allows a third-party application To obtain limited access to a user' s resources on a resource server"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "03 Authentication", "url": "https://security.wyattau.com/03-authentication"}, {"name": "Oauth Deep Dive", "url": "https://security.wyattau.com/03-authentication/oauth-deep-dive"}]
+}
+</script>
 
 ## OAuth 2.0 Overview
 
@@ -567,6 +585,15 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "03 Authentication", "url": "https://security.wyattau.com/03-authentication"}, {"name": "Oauth Deep Dive", "url": "https://security.wyattau.com/03-authentication/oauth-deep-dive"}]
+}
+</script>
 
 ## Cross-References
 

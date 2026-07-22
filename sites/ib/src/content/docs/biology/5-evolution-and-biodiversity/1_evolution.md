@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
 title: Evolution in Depth
 description: "IB Biology -- evidence for evolution, natural selection types, speciation mechanisms, adaptive radiation, convergent evolution, gradualism vs punctuated"
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
 
 ## 1. Evidence for Evolution
 
@@ -128,6 +146,15 @@ The geographic distribution of species provides evidence for evolution:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
+
 ## 2. Natural Selection in Detail
 
 ### Types of Natural Selection
@@ -208,6 +235,15 @@ The fitness of a phenotype depends on its frequency in the population.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
+
 ## 3. Speciation
 
 ### Allopatric Speciation
@@ -282,6 +318,15 @@ Gene flow. Hybrid individuals have intermediate tolerance and reduced fitness in
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
+
 ## 4. Adaptive Radiation and Convergent Evolution
 
 ### Adaptive Radiation
@@ -340,6 +385,15 @@ Vertebrates and cephalopods); convergent traits arise from different genetic mec
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
+
 ## 5. Gradualism vs Punctuated Equilibrium
 
 ### Phyletic Gradualism (Darwinian Gradualism)
@@ -369,6 +423,15 @@ Punctuated equilibrium explains the apparent gaps in the fossil record. The two 
 Mutually exclusive.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
 
 ## 6. Hardy-Weinberg Equilibrium (Extended)
 
@@ -472,6 +535,15 @@ Heterozygotes and is eliminated very slowly when rare ($\Delta q \propto q^2$).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
+
 ## 7. Phylogenetic Trees
 
 ### Construction
@@ -526,6 +598,15 @@ DNA and protein sequences provide large datasets for phylogenetic analysis:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
+
 ## 8. Antibiotic Resistance as Evolution
 
 Antibiotic resistance provides a clear, observable example of evolution by natural selection:
@@ -560,6 +641,15 @@ Antibiotic resistance provides a clear, observable example of evolution by natur
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - Confusing **homologous** and **analogous** structures: homologous = shared ancestry, different
@@ -579,6 +669,15 @@ Antibiotic resistance provides a clear, observable example of evolution by natur
   are analogous (same function) but have fundamentally different anatomical origins.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -734,6 +833,15 @@ polarising the tree.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
+
 ## Worked Examples
 
 **Worked Example: Genetic Drift and the Bottleneck Effect**
@@ -813,6 +921,15 @@ and reproduce, approaching a new equilibrium that depends on the mutation rate.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Confusing homologous and analogous structures**: homologous = common ancestry (pentadactyl
@@ -832,6 +949,15 @@ and reproduce, approaching a new equilibrium that depends on the mutation rate.
   and over time. Calibration with multiple fossils is essential.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -895,6 +1021,15 @@ same region, construct the most parsimonious phylogenetic tree and identify the 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
+
 ## If You Get These Wrong, Revise:
 
 - **Genetics and inheritance** --> Review [.../3-genetics/1_genetics](../3-genetics/1_genetics)
@@ -906,6 +1041,15 @@ same region, construct the most parsimonious phylogenetic tree and identify the 
   [..../3-genetics/2_genetics-advanced](../3-genetics/2_genetics-advanced)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -1143,6 +1287,15 @@ disease incidence in the Recovered population. This is an example of the **found
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
+
 ## Additional Common Pitfalls
 
 - **Confusing Lamarckian and Darwinian evolution**: Lamarck proposed inheritance of acquired
@@ -1166,6 +1319,15 @@ disease incidence in the Recovered population. This is an example of the **found
   (stronger in small populations); selection is non-random change (favours beneficial alleles).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
 
 ## Additional Exam-Style Problems with Full Solutions
 
@@ -1461,6 +1623,15 @@ And underlying genetic basis:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
+
 ## Cross-References to Related Topics
 
 - **Genetics and inheritance patterns**: Review
@@ -1479,6 +1650,15 @@ And underlying genetic basis:
   for coevolution of hosts and pathogens, antigenic variation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
 
 | Topic                           | Site    | Link                                                                                                  |
 | ------------------------------- | ------- | ----------------------------------------------------------------------------------------------------- |
@@ -1634,6 +1814,15 @@ Provide more accurate estimates.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
+}
+</script>
 
 ## Supplementary: Evolutionary Developmental Biology (Evo-Devo) (HL Extension)
 

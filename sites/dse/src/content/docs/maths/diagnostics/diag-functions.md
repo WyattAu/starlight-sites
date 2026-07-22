@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 title: "Functions -- Diagnostic Tests"
 description: "DSE Maths Functions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 # Functions — Diagnostic Tests
 
@@ -49,6 +67,15 @@ Therefore $\mathrm{dom}(f \circ g) = (-2,\; -1]$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
+
 ### UT-2: Inverse is Not Reciprocal
 
 **Question:**
@@ -80,6 +107,15 @@ the function at that point, nor is it the function itself. $f^{-1}(5) = \dfrac{8
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
+
 ### UT-3: Horizontal Shift Direction
 
 **Question:**
@@ -103,6 +139,15 @@ fact, replacing $x$ with $x - h$ shifts the graph right by $h$Which is the **opp
 the sign.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 ### UT-4: Injectivity and Inverse Existence
 
@@ -135,6 +180,15 @@ Therefore $f^{-1}(x) = 2 + \sqrt{x + 1}$ with $\mathrm{dom}(f^{-1}) = [-1,\; \in
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
+
 ### UT-5: Range of a Composite with Quadratic Inner Function
 
 **Question:**
@@ -158,6 +212,15 @@ Since $4\left(x + \tfrac{1}{2}\right)^2 \geq 0$ for all $x \in \mathbb{R}$:
 $$\mathrm{ran}(g \circ f) = [1,\; \infty)$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -193,6 +256,15 @@ restricted domain where $f$ is injective, to the right of the vertex).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
+
 ### IT-2: Functions and Logarithms (with Logarithms)
 
 **Question:**
@@ -225,6 +297,15 @@ The solutions are $x = 0$ and $x = 1$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
+
 ### IT-3: Functions and Coordinate Geometry (with Coordinate Geometry)
 
 **Question:**
@@ -256,6 +337,15 @@ Therefore $k = 8$$m = -2$$c = 8$And the tangent line is $y = -2x + 8$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
+
 ## Worked Examples
 
 ### WE-1: Domain and Range of a Rational Function
@@ -278,6 +368,15 @@ $$\mathrm{ran}(f) = (0,\; 2]$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
+
 ### WE-2: Composite Function Evaluation
 
 **Question:**
@@ -297,6 +396,15 @@ Note: $f \circ g(2) \neq g \circ f(2)$Confirming that composition is not commuta
 (c) $f \circ f(x) = f(f(x)) = f(2x + 1) = 2(2x + 1) + 1 = 4x + 3$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 ### WE-3: Finding the Inverse of a Quadratic
 
@@ -321,6 +429,15 @@ $\mathrm{dom}(f^{-1}) = \mathrm{ran}(f) = [-3,\; \infty)$.
 $\mathrm{ran}(f^{-1}) = \mathrm{dom}(f) = [-1,\; \infty)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 ### WE-4: Graph Transformation
 
@@ -347,6 +464,15 @@ $(2, 5) \to (3, 7)$ and $(3, 1) \to (4, 3)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
+
 ### WE-5: Piecewise Function
 
 **Question:**
@@ -368,6 +494,15 @@ $f(5) = 7$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
+
 ### WE-6: Even and Odd Functions
 
 **Question:**
@@ -385,6 +520,15 @@ Determine whether each function is even, odd, or neither:
 (c) $h(-x) = (-x)^3 + 1 = -x^3 + 1 \neq h(x)$ and $h(-x) \neq -h(x)$. **Neither.**
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 ### WE-7: Function Composition with Domain Restrictions
 
@@ -404,6 +548,15 @@ Note: $g(x) = x - 4$ is defined for all $x \in \mathbb{R}$But the range of $g$ m
 domain of $f$ (which is $[0, \infty)$), so $g(x) \geq 0 \implies x \geq 4$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 ### WE-8: Injectivity Test
 
@@ -430,6 +583,15 @@ $$a = b$$
 Since $f(a) = f(b) \implies a = b$The function is **injective**.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 ## Intuition
 
@@ -461,6 +623,15 @@ Since $f(a) = f(b) \implies a = b$The function is **injective**.
    compute $f \circ g$ and $g \circ f$ separately unless you have proven they are equal.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 ## DSE Exam-Style Questions
 
@@ -497,6 +668,15 @@ $\Delta = 1 - 4 = -3 < 0$. No real solutions.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
+
 ### DSE-2
 
 Let $f(x) = x^2 - 6x + 5$ and $g(x) = 2x - 3$.
@@ -519,6 +699,15 @@ $g \circ f(x) = g(x^2 - 6x + 5) = 2(x^2 - 6x + 5) - 3 = 2x^2 - 12x + 7$.
 $x = 4$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 ### DSE-3
 
@@ -548,6 +737,15 @@ $$\mathrm{ran}(f) = \left(-\infty,\; -\dfrac{1}{4}\right) \cup (0,\; \infty)$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
+
 ### DSE-4
 
 Let $f(x) = 2^x$ and $g(x) = \log_2 x$.
@@ -565,6 +763,15 @@ Explain the relationship between $f$ and $g$. (1 mark)
 $g \circ f = \mathrm{id}$ on $\mathbb{R}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Functions", "url": "https://dse.wyattau.com/maths/diagnostics/diag-functions"}]
+}
+</script>
 
 ### DSE-5
 

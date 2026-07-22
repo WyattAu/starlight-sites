@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Imperialism", "url": "https://dse.wyattau.com/history/imperialism"}]
+}
+</script>
 title: "European Imperialism in Asia"
 description: "European imperialism in Asia, the Treaty of Nanking, Unequal Treaties, colonisation of Hong Kong, impact on China, and responses to imperialism."
 sidebar_position: 4
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Imperialism", "url": "https://dse.wyattau.com/history/imperialism"}]
+}
+</script>
 
 ## European Imperialism in Asia
 

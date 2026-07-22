@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Molecular Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-molecular-biology"}]
+}
+</script>
 title: "Molecular Biology -- Diagnostic Tests"
 description: "IB Molecular Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Molecular Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-molecular-biology"}]
+}
+</script>
 
 # Molecular Biology — Diagnostic Tests
 
@@ -49,6 +67,15 @@ overall rate of nucleotide incorporation on the lagging strand matches the fork 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Molecular Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-molecular-biology"}]
+}
+</script>
+
 ### UT-2: Transcription and Translation — Central Dogma
 
 **Question:** The template strand of a gene has the sequence: 3'-TAC-AAA-TGC-CTA-GCA-5'. Write: (a)
@@ -85,6 +112,15 @@ template, mRNA would change from ACG to AAG, which codes for Lys instead of Thr 
 mutation**.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Molecular Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-molecular-biology"}]
+}
+</script>
 
 ### UT-3: PCR and Gel Electrophoresis
 
@@ -162,6 +198,15 @@ metabolise lactose (lactose present) and cannot use a preferred carbon source (g
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Molecular Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-molecular-biology"}]
+}
+</script>
+
 ### IT-2: DNA Technology and Ethics (with Human Physiology)
 
 **Question:** CRISPR-Cas9 gene editing uses a guide RNA (gRNA) to direct the Cas9 nuclease to a
@@ -204,6 +249,15 @@ The cell repairs the DSB by one of two pathways:
    definition of "normal" human traits.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Molecular Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-molecular-biology"}]
+}
+</script>
 
 ### IT-3: Protein Structure and Function (with Biochemistry)
 

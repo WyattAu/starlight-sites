@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "12_special Relativity And Electromagnetism 12", "url": "https://physics.wyattau.com/3-electromagnetism/12_special-relativity-and-electromagnetism-12"}]
+}
+</script>
 title: Special Relativity and Electromagnetism
 tags:
   - Physics
   - University
 description: "Maxwell'   s equations in covariant form using the field tensor."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "12_special Relativity And Electromagnetism 12", "url": "https://physics.wyattau.com/3-electromagnetism/12_special-relativity-and-electromagnetism-12"}]
+}
+</script>
 
 ### 12.1 Covariant Formulation
 

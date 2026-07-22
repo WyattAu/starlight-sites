@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometry", "url": "https://gcse.wyattau.com/maths/diagnostics/diag-geometry"}]
+}
+</script>
 title: "Geometry -- Diagnostic Tests"
 description: "(a) A right-angled triangle has sides of 5 cm and 12 cm forming the right angle. Calculate the length of the hypotenuse. (b) A ladder leans against a wall."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometry", "url": "https://gcse.wyattau.com/maths/diagnostics/diag-geometry"}]
+}
+</script>
 
 # Geometry — Diagnostic Tests
 
@@ -80,6 +98,15 @@ ABC, angle ACB $= 180^\circ -$ angle CAB $-$ angle ABC. Since angle ABC is in th
 angle TAB $=$ angle ACB.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/maths/diagnostics"}, {"name": "Diag Geometry", "url": "https://gcse.wyattau.com/maths/diagnostics/diag-geometry"}]
+}
+</script>
 
 ## Integration Tests
 

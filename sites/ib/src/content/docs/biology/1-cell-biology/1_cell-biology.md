@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 title: Cell Biology
 description: "Rigorous IB biology notes covering Cell Biology. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 
 ## Intuition
 
@@ -45,6 +63,15 @@ Three principles:
   not address.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 
 ## 2. Cell Types
 
@@ -89,6 +116,15 @@ Eukaryotes (animals, plants, fungi, protists) possess a **membrane-bound nucleus
 | Reproduction              | Binary fission           | Mitosis / meiosis                                |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 
 ## 3. Cell Membrane Structure
 
@@ -167,6 +203,15 @@ Movement against the concentration gradient, requiring ATP directly or indirectl
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
+
 ## 4. Organelles
 
 ### Nucleus
@@ -231,6 +276,15 @@ Made primarily of **cellulose** microfibrils embedded in a matrix of hemicellulo
 Provides structural support and prevents osmotic lysis.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 
 ## 5. Cell Division
 
@@ -309,6 +363,15 @@ Similar to mitosis but with haploid cells:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
+
 ## 6. Specialised Cells
 
 Multicellular organisms have differentiated (specialised) cell types:
@@ -324,6 +387,15 @@ Multicellular organisms have differentiated (specialised) cell types:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - Confusing **chromosomes** and **chromatids**: a replicated chromosome consists of two sister
@@ -338,6 +410,15 @@ Multicellular organisms have differentiated (specialised) cell types:
   able to move laterally.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -444,6 +525,15 @@ Proteins independently of nuclear genes.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
+
 ## Worked Examples
 
 **Worked Example: Surface Area-to-Volume Ratio and Cell Size Limit**
@@ -549,6 +639,15 @@ Suspension was diluted before loading.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Confusing chromosomes and chromatids**: a replicated chromosome consists of two sister
@@ -572,6 +671,15 @@ Suspension was diluted before loading.
   hydrogenosomes.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -685,6 +793,15 @@ Function. Use the concept of surface-area-to-volume ratio in your explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
+
 ## If You Get These Wrong, Revise:
 
 - **Mitosis and meiosis phases** --> Review [.../3-genetics/1_genetics](../3-genetics/1_genetics)
@@ -697,6 +814,15 @@ Function. Use the concept of surface-area-to-volume ratio in your explanation.
 - **Evolution and natural selection** --> Review [.../4-ecology/1_ecology](../4-ecology/1_ecology)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 
 ## 8. Cell Specialisation and Stem Cells
 
@@ -793,6 +919,15 @@ Extravasation, and colonisation of distant tissues.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
+
 ## 9. Prokaryotic Cell Biology (Extended)
 
 ### Bacterial Cell Wall Structure
@@ -830,6 +965,15 @@ When bacteria are inoculated into fresh medium:
 **Doubling time**: $t_d = \frac{\ln 2}{\mu} = \frac{0.693}{\mu}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 
 ## 10. Advanced Membrane Biology
 
@@ -880,6 +1024,15 @@ bilayer And must bind to cell-surface receptors:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
+
 ## 11. Cell Fractionation and Microscopy Techniques
 
 ### Cell Fractionation
@@ -919,6 +1072,15 @@ Where $\lambda$ is the wavelength, $n$ is the refractive index of the medium, an
 Half-angle of the cone of light entering the objective.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 
 ## Exam-Style Problems (Extended)
 
@@ -969,6 +1131,15 @@ during early embryonic development.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -1178,6 +1349,15 @@ Specimens Are coated with a thin layer of metal (gold or platinum) to enhance el
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
+
 ## Additional Common Pitfalls
 
 - **Confusing resolution and magnification**: magnification makes things bigger; resolution
@@ -1199,6 +1379,15 @@ Specimens Are coated with a thin layer of metal (gold or platinum) to enhance el
   is growth, repair, and asexual reproduction; meiosis produces genetically unique gametes.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 
 ## Additional Exam-Style Problems with Full Solutions
 
@@ -1361,6 +1550,15 @@ activation Of new transcription factors and the silencing of genes for alternati
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
+
 ## Cross-References to Related Topics
 
 - **Membrane transport and proteins**: Review
@@ -1379,6 +1577,15 @@ activation Of new transcription factors and the silencing of genes for alternati
   for specialised cell types of the immune system.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
+}
+</script>
 
 | Topic          | Site    | Link                                                                                            |
 | -------------- | ------- | ----------------------------------------------------------------------------------------------- |

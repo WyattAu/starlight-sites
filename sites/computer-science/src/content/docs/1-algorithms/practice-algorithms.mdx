@@ -1,9 +1,27 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms/practice-algorithms"}]
+}
+</script>
 title: "University CS Practice: Algorithms"
 description: "10 MCQ questions covering algorithm design paradigms, complexity analysis, divide-and-conquer, dynamic programming, greedy algorithms, and amortized"
 tags: [University, Computer Science, Practice]
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms/practice-algorithms"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -22,6 +40,15 @@ answer and view the explanation.
 **The key insight:** Greedy algorithms are fast but not always optimal — they work when local choices lead to global optima (like Huffman coding) but fail when they don't (like the coin change problem with non-standard denominations).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms/practice-algorithms"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -44,6 +71,15 @@ $$T(n) = \Theta(n^2 \log n)$$
 **Verification:** The recursion tree has $\log_2 n$ levels. At each level $i$, there are $4^i$ subproblems of size $n/2^i$, each costing $(n/2^i)^2 = n^2/4^i$. Total work per level: $4^i \times n^2/4^i = n^2$. Summing over $\log_2 n$ levels: $T(n) = n^2 \log_2 n = \Theta(n^2 \log n)$. ✓
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms/practice-algorithms"}]
+}
+</script>
 
 ### Example 2: Dynamic Programming — 0/1 Knapsack
 
@@ -68,6 +104,15 @@ $$T(n) = \Theta(n^2 \log n)$$
 **Space-optimized version:** Use 1D array of size $W+1$, iterate items in outer loop, weights in reverse inner loop. Space: $O(W)$ instead of $O(nW)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms/practice-algorithms"}]
+}
+</script>
 
 ### Example 3: Greedy — Activity Selection
 
@@ -96,6 +141,15 @@ $$T(n) = \Theta(n^2 \log n)$$
 **Key insight:** The greedy choice (earliest finish time) leaves maximum room for remaining activities. This is provably optimal by exchange argument.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Practice Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms/practice-algorithms"}]
+}
+</script>
 
 ## Algorithm Design Paradigms and Complexity
 

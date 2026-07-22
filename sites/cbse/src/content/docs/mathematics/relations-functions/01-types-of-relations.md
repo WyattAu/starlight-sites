@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Mathematics", "url": "https://cbse.wyattau.com/mathematics"}, {"name": "Relations Functions", "url": "https://cbse.wyattau.com/mathematics/relations-functions"}, {"name": "01 Types Of Relations", "url": "https://cbse.wyattau.com/mathematics/relations-functions/01-types-of-relations"}]
+}
+</script>
 title: "Types of relations"
 description: "CBSE Class 12 mathematics: Types of relations with reflexive, symmetric, transitive properties and worked examples."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Mathematics", "url": "https://cbse.wyattau.com/mathematics"}, {"name": "Relations Functions", "url": "https://cbse.wyattau.com/mathematics/relations-functions"}, {"name": "01 Types Of Relations", "url": "https://cbse.wyattau.com/mathematics/relations-functions/01-types-of-relations"}]
+}
+</script>
 
 # Types of Relations
 

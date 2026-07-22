@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
 title: Metabolism and Cell Biology
 description: "IB Biology -- enzyme kinetics (Michaelis-Menten, inhibition types), cellular respiration (glycolysis, Krebs cycle, electron transport chain), photosynthesis"
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
 
 ## Intuition
 
@@ -105,6 +123,15 @@ cysteine residues at allosteric sites.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
+
 ## 2. ATP: Structure and Function
 
 ### Structure of ATP
@@ -146,6 +173,15 @@ $\mathrm{FADH}_2$. Current evidence suggests the shuttle system for cytoplasmic 
 reduce the actual Yield to approximately $30$--$32$ ATP per glucose.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
 
 ## 3. Cellular Respiration: Glycolysis
 
@@ -200,6 +236,15 @@ For each G3P (multiply by 2 for the full glucose molecule):
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
+
 ## 4. Cellular Respiration: Pyruvate Oxidation and the Krebs Cycle
 
 ### Pyruvate Oxidation (Link Reaction)
@@ -250,6 +295,15 @@ glucose: 2 turns).
 - 2 GTP (2 ATP)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
 
 ## 5. Oxidative Phosphorylation
 
@@ -325,6 +379,15 @@ $\mathrm{FADH}_2$ cannot be oxidised, the Krebs cycle stops (NAD$^+$ and FAD are
 And the cell must rely on fermentation or anaerobic respiration.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
 
 ## 6. Photosynthesis
 
@@ -443,6 +506,15 @@ $\mathrm{CO}_2$ is released for the Calvin cycle.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
+
 ## 7. Fermentation and Anaerobic Respiration
 
 ### Lactic Acid Fermentation
@@ -485,6 +557,15 @@ Aerobic respiration (alternative acceptors have lower reduction potentials than 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
+
 ## 8. Metabolic Regulation
 
 ### Regulation of Cellular Respiration
@@ -511,6 +592,15 @@ regulation**:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - Confusing **competitive** and **non-competitive inhibition**: competitive inhibitors bind the
@@ -533,6 +623,15 @@ regulation**:
   absorbed.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -701,6 +800,15 @@ $\mathrm{C_4}$ plants outcompete $\mathrm{C_3}$ plants.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
+
 ## Worked Examples
 
 **Worked Example: Calculating ATP Yield with a Specific Inhibitor**
@@ -768,6 +876,15 @@ $\approx 10\times$ atmospheric, the carboxylation:oxygenation ratio improves dra
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Confusing competitive and non-competitive inhibition**: competitive = active site ($K_m$ up,
@@ -785,6 +902,15 @@ $\approx 10\times$ atmospheric, the carboxylation:oxygenation ratio improves dra
   mitochondrial membrane, and the shuttle system for cytoplasmic NADH.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -873,6 +999,15 @@ Absorption spectrum are similar but not identical.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
+
 ## If You Get These Wrong, Revise:
 
 - **Molecular biology -- protein structure** --> Review
@@ -886,6 +1021,15 @@ Absorption spectrum are similar but not identical.
 - **Genetics -- enzyme genes** --> Review [.../3-genetics/1_genetics](../3-genetics/1_genetics)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -1073,6 +1217,15 @@ $= 2(12) + 6(1) + 16 = 46\;\mathrm{g/mol}$. Mass: $15 \times 46 = 690\;\mathrm{g
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
+
 ## Additional Common Pitfalls
 
 - **Confusing substrate-level phosphorylation with oxidative phosphorylation**: substrate-level
@@ -1095,6 +1248,15 @@ $= 2(12) + 6(1) + 16 = 46\;\mathrm{g/mol}$. Mass: $15 \times 46 = 690\;\mathrm{g
   concentration.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
 
 ## Additional Exam-Style Problems with Full Solutions
 
@@ -1337,6 +1499,15 @@ because:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
+
 ## Cross-References to Related Topics
 
 - **Enzyme structure and function**: Review
@@ -1359,6 +1530,15 @@ because:
   metabolic pathways.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
+}
+</script>
 
 ## Supplementary: Detailed Metabolic Pathways (HL Extension)
 

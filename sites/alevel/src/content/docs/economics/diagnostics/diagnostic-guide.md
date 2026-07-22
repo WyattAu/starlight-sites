@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/economics/diagnostics/diagnostic-guide"}]
+}
+</script>
 title: "A-Level Economics -- Diagnostic Guide"
 description: "| Diagnostic File | Topics Covered | Source Files | | ---------------------------- | ------------------------------------------------------------------------"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/economics/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 # A-Level Economics — Diagnostic Guide
 
@@ -110,6 +128,15 @@ Macroeconomic Performance (inflation, unemployment, growth)
 6. Always practice drawing labelled diagrams -- they are essential for full marks on exam questions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/economics/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 ## Section 2: Topic-by-Topic Diagnostic Checklist
 
@@ -259,6 +286,15 @@ Use this checklist to identify gaps before attempting the full diagnostic tests.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/economics/diagnostics/diagnostic-guide"}]
+}
+</script>
+
 ## Section 3: Common Error Patterns
 
 The following errors appear repeatedly in student work. Use this section to check your answers.
@@ -295,6 +331,15 @@ The following errors appear repeatedly in student work. Use this section to chec
 | Confusing fiscal deficit with national debt  | Deficit: annual shortfall. Debt: accumulated stock of past deficits.                              |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/economics/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 ## Section 4: Time Management Strategy
 
@@ -345,6 +390,15 @@ briefly.
 - "Overall, [argument] because [key reason], although [key limitation]."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/economics/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 ## Section 5: Model Answers for Common Exam Questions
 
@@ -424,6 +478,15 @@ demand management for SHORT-RUN stabilisation. The optimal mix depends on the co
 circumstances.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/economics/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 ## Section 6: Revision Priority Matrix
 

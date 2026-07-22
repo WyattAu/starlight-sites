@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "12_optical Fibres", "url": "https://physics.wyattau.com/4-optics-and-waves/12_optical-fibres"}]
+}
+</script>
 title: Optical Fibres
 tags:
   - Physics
   - University
 description: 'An optical fibre consists of a core (refractive index ) surrounded by a cladding (). Light is guided by total internal reflection.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "12_optical Fibres", "url": "https://physics.wyattau.com/4-optics-and-waves/12_optical-fibres"}]
+}
+</script>
 
 ### 12.1 Total Internal Reflection in Fibres
 

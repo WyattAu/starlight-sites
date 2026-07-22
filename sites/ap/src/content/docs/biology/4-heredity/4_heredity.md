@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Biology", "url": "https://ap.wyattau.com/biology"}, {"name": "4 Heredity", "url": "https://ap.wyattau.com/biology/4-heredity"}, {"name": "4_heredity", "url": "https://ap.wyattau.com/biology/4-heredity/4_heredity"}]
+}
+</script>
 title: Heredity
 description: "Qualifications Biology Heredity notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ap-biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Biology", "url": "https://ap.wyattau.com/biology"}, {"name": "4 Heredity", "url": "https://ap.wyattau.com/biology/4-heredity"}, {"name": "4_heredity", "url": "https://ap.wyattau.com/biology/4-heredity/4_heredity"}]
+}
+</script>
 
 ## Meiosis and Sexual Life Cycles (CED Unit 5)
 

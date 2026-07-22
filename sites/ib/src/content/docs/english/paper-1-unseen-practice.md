@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Paper 1 Unseen Practice", "url": "https://ib.wyattau.com/english/paper-1-unseen-practice"}]
+}
+</script>
 title: Paper 1 Unseen Practice
 description: "This document provides original practice passages and guided commentary for IB English Paper 1. Each extract is accompanied by a detailed annotated analysis"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Paper 1 Unseen Practice", "url": "https://ib.wyattau.com/english/paper-1-unseen-practice"}]
+}
+</script>
 
 # Paper 1 Unseen Practice
 
@@ -12,6 +30,15 @@ extracts are original compositions written in the style of classic literary text
 to foreground specific literary techniques for analysis practice.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Paper 1 Unseen Practice", "url": "https://ib.wyattau.com/english/paper-1-unseen-practice"}]
+}
+</script>
 
 ## 1. Paper 1 Overview
 
@@ -58,6 +85,15 @@ accompanied by an explanation of its specific effect in context.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Paper 1 Unseen Practice", "url": "https://ib.wyattau.com/english/paper-1-unseen-practice"}]
+}
+</script>
+
 ## 2. Approach to Unseen Texts
 
 ### 2.1 The Read-Twice Method
@@ -101,6 +137,15 @@ An alternative structure is PEEZ (Point, Evidence, Explanation, Zoom), which add
 that zooms out to consider the broader significance of the paragraph's finding.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Paper 1 Unseen Practice", "url": "https://ib.wyattau.com/english/paper-1-unseen-practice"}]
+}
+</script>
 
 ## 3. Practice Extract 1: Prose Fiction
 
@@ -167,6 +212,15 @@ return" shifts the passage from descriptive to elegiac, and the reader understan
 Margaret has entered is not merely an abandoned building but a monument to loss.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Paper 1 Unseen Practice", "url": "https://ib.wyattau.com/english/paper-1-unseen-practice"}]
+}
+</script>
 
 ## 4. Practice Extract 2: Poetry
 
@@ -242,6 +296,15 @@ not with resolution but with acceptance of an unpalatable truth.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Paper 1 Unseen Practice", "url": "https://ib.wyattau.com/english/paper-1-unseen-practice"}]
+}
+</script>
+
 ## 5. Practice Extract 3: Persuasive Speech
 
 > Members of the assembly, we have gathered today under the pretence of reform, but let us speak
@@ -311,6 +374,15 @@ force of a moral verdict. It is the speech's thesis statement rendered in its mo
 powerful form.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Paper 1 Unseen Practice", "url": "https://ib.wyattau.com/english/paper-1-unseen-practice"}]
+}
+</script>
 
 ## 6. Practice Extract 4: Advertisement / Visual Text
 
@@ -382,6 +454,15 @@ it must arise from the consumer's own recognition of worth. The advertisement po
 not as a shopper but as a connoisseur, and it positions the brand as one that does not need to sell.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Paper 1 Unseen Practice", "url": "https://ib.wyattau.com/english/paper-1-unseen-practice"}]
+}
+</script>
 
 ## 7. Practice Extract 5: Drama
 
@@ -488,6 +569,15 @@ resolution and leaving the characters suspended in their unresolved emotional st
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Paper 1 Unseen Practice", "url": "https://ib.wyattau.com/english/paper-1-unseen-practice"}]
+}
+</script>
+
 ## 8. Generic Essay Framework
 
 The following template can be applied to any unseen text in Paper 1. Adapt the structure to the
@@ -525,6 +615,15 @@ Template closing: "Ultimately, the passage's [central technique] reveals that [b
 claim], inviting the reader to [implication for the reader's understanding]."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Paper 1 Unseen Practice", "url": "https://ib.wyattau.com/english/paper-1-unseen-practice"}]
+}
+</script>
 
 ## 9. Common Pitfalls
 
@@ -574,6 +673,15 @@ analytical sentence.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Paper 1 Unseen Practice", "url": "https://ib.wyattau.com/english/paper-1-unseen-practice"}]
+}
+</script>
+
 ## 10. Practice Questions
 
 The following prompts are designed for self-study. Apply the systematic approach outlined in Section
@@ -598,6 +706,15 @@ For each prompt, aim to produce a complete essay in 55 minutes (SL) or a compara
 minutes (HL). After writing, review against the common pitfalls in Section 9 and revise accordingly.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Paper 1 Unseen Practice", "url": "https://ib.wyattau.com/english/paper-1-unseen-practice"}]
+}
+</script>
 
 ## 11. Summary
 

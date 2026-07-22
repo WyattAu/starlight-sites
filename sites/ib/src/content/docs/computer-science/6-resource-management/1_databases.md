@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
 title: Databases
 description: "Rigorous IB computer science notes covering Databases. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
 
 ## Intuition
 
@@ -1347,6 +1365,15 @@ _If you get this wrong, revise: [Entity-Relationship Diagrams](#entity-relations
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
+
 ### Problem 2: Partial vs Transitive Dependencies
 
 Given a table with columns
@@ -1374,6 +1401,15 @@ _If you get this wrong, revise: [Functional Dependencies](#functional-dependenci
 [Second Normal Form](#second-normal-form-2nf)_
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
 
 ### Problem 3: Full Normalization to 3NF
 
@@ -1445,6 +1481,15 @@ _If you get this wrong, revise: [Normalization](#normalization)_
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
+
 ### Problem 4: CREATE TABLE with Constraints
 
 Write a CREATE TABLE statement for the Enrollment table with appropriate constraints.
@@ -1480,6 +1525,15 @@ _If you get this wrong, revise: [DDL](#data-definition-language-ddl) and
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
+
 ### Problem 5: Top N Students Query
 
 Given the Student table from the worked example above, write a query that returns the names and GPAs
@@ -1508,6 +1562,15 @@ Result:
 _If you get this wrong, revise: [SELECT Queries](#queries-select)_
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
 
 ### Problem 6: WHERE vs HAVING
 
@@ -1547,6 +1610,15 @@ not Yet defined. HAVING is evaluated after grouping, when aggregates are availab
 _If you get this wrong, revise: [GROUP BY and HAVING](#aggregate-functions-and-group-by)_
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
 
 ### Problem 7: Finding Unenrolled Students
 
@@ -1592,6 +1664,15 @@ _If you get this wrong, revise: [Subqueries](#subqueries) and [Joins](#joins)_
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
+
 ### Problem 8: Dangerous UPDATE Statement
 
 What does the following SQL statement do? Is it dangerous?
@@ -1623,6 +1704,15 @@ _If you get this wrong, revise: [DML](#data-manipulation-language-dml) and
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
+
 ### Problem 9: NULL Comparison
 
 Explain why `WHERE column = NULL` does not work and provide the correct syntax.
@@ -1649,6 +1739,15 @@ SELECT * FROM Student WHERE email IS NOT NULL;
 _If you get this wrong, revise: [Common Pitfalls - SQL](#common-pitfalls)_
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
 
 ### Problem 10: ACID Properties
 
@@ -1679,6 +1778,15 @@ _If you get this wrong, revise: [ACID Properties](#acid-properties)_
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
+
 ### Problem 11: Cartesian Product from Missing ON Clause
 
 What is the result of the following join without an ON clause?
@@ -1707,6 +1815,15 @@ _If you get this wrong, revise: [Joins](#joins)_
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
+
 ### Problem 12: Classifying Data Types
 
 Classify each type of data as structured, semi-structured, or unstructured:
@@ -1734,6 +1851,15 @@ Classify each type of data as structured, semi-structured, or unstructured:
 _If you get this wrong, revise: [Big Data](#big-data)_
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
 
 ### Problem 13: Correlated Subquery
 
@@ -1767,6 +1893,15 @@ _If you get this wrong, revise: [Subqueries](#subqueries)_
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
+
 ### Problem 14: View Creation and Use Cases
 
 A school wants to create a view that shows only the names and grades of students in course 101.
@@ -1795,6 +1930,15 @@ Directly.
 _If you get this wrong, revise: [Views](#views)_
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
 
 ### Problem 15: IB Exam-Style Comprehensive Question
 
@@ -1874,6 +2018,15 @@ _If you get this wrong, revise: [Cascading Operations](#cascading-operations), [
 [Aggregate Functions](#aggregate-functions-and-group-by)_
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
 
 ## Related Content at Other Levels
 

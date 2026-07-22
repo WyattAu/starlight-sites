@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biotechnology", "url": "https://alevel.wyattau.com/biology/biotechnology"}]
+}
+</script>
 title: Biotechnology
 description: "Recombinant DNA technology involves combining DNA from different sources to create new, artificial DNA molecules that can be introduced into host organisms."
 date: 2026-04-18T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biotechnology", "url": "https://alevel.wyattau.com/biology/biotechnology"}]
+}
+</script>
 
 ## Biotechnology
 
@@ -1123,6 +1141,15 @@ degradation may produce toxic intermediates; may be slower than physical removal
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biotechnology", "url": "https://alevel.wyattau.com/biology/biotechnology"}]
+}
+</script>
+
 </aside>
 <aside class="starlight-aside starlight-aside--tip">
 ## 25. Ethical Frameworks for Biotechnology Decisions
@@ -1179,6 +1206,15 @@ When evaluating a biotechnology application, consider:
 7. **Public acceptance**: is there public support for the technology?
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biotechnology", "url": "https://alevel.wyattau.com/biology/biotechnology"}]
+}
+</script>
 
 
 </aside>
@@ -2284,6 +2320,15 @@ vitamin A) in the endosperm of the rice grain. It was developed to address vitam
 | Advantages | Addresses micronutrient deficiencies in populations that rely on a limited number of staple crops; does not require changes to diet or supplementation programmes |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biotechnology", "url": "https://alevel.wyattau.com/biology/biotechnology"}]
+}
+</script>
 
 
 ## Common Pitfalls

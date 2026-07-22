@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "1_generic_programming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/1_generic_programming"}, {"name": "1_instantiation", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/1_generic_programming/1_instantiation"}]
+}
+</script>
 title: Template Instantiation, Monomorphization, and Code Bloat
 description: "Templates are blueprints the compiler uses to generate type-specific code on demand. This process — Called — produces optimized, type-specific functions and"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "1_generic_programming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/1_generic_programming"}, {"name": "1_instantiation", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/1_generic_programming/1_instantiation"}]
+}
+</script>
 
 # Template Instantiation, Monomorphization, and Code Bloat
 

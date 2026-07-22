@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "3 Real Analysis", "url": "https://mathematics.wyattau.com/3-real-analysis"}, {"name": "7_sequences And Series Of Functions", "url": "https://mathematics.wyattau.com/3-real-analysis/7_sequences-and-series-of-functions"}]
+}
+</script>
 title: Sequences and Series of Functions
 tags:
   - Mathematics
   - University
 description: "Let be a sequence of functions defined on a set . Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "3 Real Analysis", "url": "https://mathematics.wyattau.com/3-real-analysis"}, {"name": "7_sequences And Series Of Functions", "url": "https://mathematics.wyattau.com/3-real-analysis/7_sequences-and-series-of-functions"}]
+}
+</script>
 
 ### 7.1 Pointwise Convergence
 

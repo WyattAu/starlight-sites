@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "3_magnetostatics", "url": "https://physics.wyattau.com/3-electromagnetism/3_magnetostatics"}]
+}
+</script>
 title: Magnetostatics
 tags:
   - Physics
   - University
 description: "The magnetic field due to a steady current in a wire element : Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "3_magnetostatics", "url": "https://physics.wyattau.com/3-electromagnetism/3_magnetostatics"}]
+}
+</script>
 
 ### 3.1 The Biot-Savart Law
 

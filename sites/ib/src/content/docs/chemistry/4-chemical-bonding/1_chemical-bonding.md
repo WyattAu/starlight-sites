@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
 title: Chemical Bonding and Structure
 description: "Rigorous IB chemistry notes covering Chemical Bonding and Structure. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
 
 ## Intuition
 
@@ -41,6 +59,15 @@ Properties such as melting point, boiling point, and solubility.
 Type of bond is broken in the gaseous phase, measured in kJ/mol.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
 
 ## Ionic Bonding
 
@@ -149,6 +176,15 @@ The terminology matters.
 | Phosphates (PO$_4^{3-}$)     | Insoluble except with Group 1, NH$_4^+$                      |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
 
 ## Covalent Bonding
 
@@ -264,6 +300,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
+
 ## Metallic Bonding
 
 ### The Sea of Electrons Model
@@ -312,6 +357,15 @@ Steel is an interstitial alloy of iron with carbon. Brass is a substitutional al
 Zinc.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
 
 ## Intermolecular Forces
 
@@ -410,6 +464,15 @@ For comparing boiling points of similar molecules:
 | Volatility      | Low        | High     |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
 
 ## Molecular Geometry
 
@@ -539,6 +602,15 @@ Symmetry). CH$_2$Cl$_2$ is polar because the two C-Cl dipoles and two C-H dipole
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
+
 ## Hybridization
 
 ### SL Content: sp, sp$^2$Sp$^3$
@@ -586,6 +658,15 @@ Bonds).
 | HCN                 | 2            | sp            | 2           | 2        |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
 
 ## Resonance
 
@@ -638,6 +719,15 @@ Electron delocalisation.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
 
 ## HL-Only Extensions
 
@@ -814,6 +904,15 @@ Overall crystal remains electrically neutral.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
+
 ## Exam Practice
 
 ### Question 1: Ionic Bonding (SL, 4 marks)
@@ -828,6 +927,15 @@ Explain why magnesium oxide has a much higher melting point than sodium chloride
 - Mg$^{2+}$ has a smaller ionic radius than Na$^+$Which further increases lattice energy (1 mark).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
 
 ### Question 2: Lewis Structures and VSEPR (SL, 5 marks)
 
@@ -854,6 +962,15 @@ Explain why magnesium oxide has a much higher melting point than sodium chloride
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
+
 ### Question 3: Intermolecular Forces (SL, 4 marks)
 
 Explain why propan-1-ol (CH$_3$CH$_2$CH$_2$OH) has a higher boiling point than propane
@@ -868,6 +985,15 @@ Explain why propan-1-ol (CH$_3$CH$_2$CH$_2$OH) has a higher boiling point than p
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
+
 ### Question 4: Polarity (SL, 3 marks)
 
 Determine whether sulfur tetrafluoride (SF$_4$) is a polar or non-polar molecule, explaining your
@@ -881,6 +1007,15 @@ Reasoning.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
+
 ### Question 5: Resonance (SL/HL, 3 marks)
 
 The carbonate ion, CO$_3^{2-}$Has a measured C-O bond length of 136 pm. Explain this value.
@@ -893,6 +1028,15 @@ The carbonate ion, CO$_3^{2-}$Has a measured C-O bond length of 136 pm. Explain 
   pm) (1 mark).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
 
 ### Question 6: Born-Haber Cycle (HL, 6 marks)
 
@@ -930,6 +1074,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
+
 ### Question 7: MO Theory (HL, 5 marks)
 
 (a) Draw the molecular orbital energy level diagram for O$_2$. Indicate the electron configuration
@@ -956,6 +1109,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
+
 ### Question 8: Formal Charge (HL, 4 marks)
 
 Three possible Lewis structures can be drawn for sulfur dioxide, SO$_2$:
@@ -975,6 +1137,15 @@ Identify the most stable resonance structure and explain your reasoning.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
+
 ### Question 9: Hybridization and Bonding (HL, 4 marks)
 
 Describe the bonding in ethyne, C$_2$H$_2$Including hybridization and the types of bonds formed.
@@ -987,6 +1158,15 @@ Describe the bonding in ethyne, C$_2$H$_2$Including hybridization and the types 
 - The molecule is linear with a bond angle of 180$\degree$ (1 mark).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
 
 ### Question 10: Comprehensive -- Boiling Points (SL, 5 marks)
 
@@ -1020,6 +1200,15 @@ Expected trend. (3 marks)
   trend from NH$_3$ to PH$_3$ is dominated by increasing London dispersion forces (1 mark).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "1_chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/1_chemical-bonding"}]
+}
+</script>
 
 ## Summary: Quick Reference Tables
 

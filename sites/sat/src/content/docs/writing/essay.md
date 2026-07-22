@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Writing", "url": "https://sat.wyattau.com/writing"}, {"name": "Essay", "url": "https://sat.wyattau.com/writing/essay"}]
+}
+</script>
 title: "Essay"
 description: "SAT writing: Essay"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Writing", "url": "https://sat.wyattau.com/writing"}, {"name": "Essay", "url": "https://sat.wyattau.com/writing/essay"}]
+}
+</script>
 
 # Essay
 
@@ -43,6 +61,15 @@ Step 3: Thesis: "Schools should require community service because it builds char
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Writing", "url": "https://sat.wyattau.com/writing"}, {"name": "Essay", "url": "https://sat.wyattau.com/writing/essay"}]
+}
+</script>
+
 ### Example 2: Evidence + Analysis
 
 **Problem:** You claim that "reading fiction improves empathy." How do you support this?
@@ -55,6 +82,15 @@ Step 2 (Analysis): "This study demonstrates that fiction does not merely enterta
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Writing", "url": "https://sat.wyattau.com/writing"}, {"name": "Essay", "url": "https://sat.wyattau.com/writing/essay"}]
+}
+</script>
+
 ### Example 3: Counterargument
 
 **Problem:** You argue for mandatory uniforms. How do you address the opposing view?
@@ -66,6 +102,15 @@ Step 2 (Rebuttal): "However, uniforms do not eliminate self-expression — they 
 **Key insight:** Acknowledging the strongest counterargument and refuting it makes your argument more persuasive than ignoring opposing views.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Writing", "url": "https://sat.wyattau.com/writing"}, {"name": "Essay", "url": "https://sat.wyattau.com/writing/essay"}]
+}
+</script>
 
 ## Intuition
 

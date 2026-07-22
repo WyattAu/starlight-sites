@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "8 Network Security", "url": "https://dse.wyattau.com/ict/8-network-security"}, {"name": "1_network Security And Social Implications", "url": "https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications"}]
+}
+</script>
 title: Network Security and Social Implications
 description: "This document extends the network security and social implications topics covered in with deeper analysis of Threats, security measures, legal frameworks,"
 date: 2026-04-08T00:00:00.000Z
@@ -11,6 +20,15 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "8 Network Security", "url": "https://dse.wyattau.com/ict/8-network-security"}, {"name": "1_network Security And Social Implications", "url": "https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications"}]
+}
+</script>
+
 ## Intuition
 
 Network security is the practice of protecting systems and data from unauthorised access, damage, or theft. Malware taxonomy classifies threats by their behaviour: viruses need host files and user action, while worms spread autonomously across networks. Phishing exploits human trust rather than technical vulnerabilities, using social engineering to trick users into revealing credentials. Defence requires layered security measures combining technical controls like firewalls and encryption with human awareness training and organisational policies.
@@ -21,6 +39,15 @@ with deeper analysis of Threats, security measures, legal frameworks, and profes
 considerations.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "8 Network Security", "url": "https://dse.wyattau.com/ict/8-network-security"}, {"name": "1_network Security And Social Implications", "url": "https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications"}]
+}
+</script>
 
 ## Network Security Threats
 
@@ -106,6 +133,15 @@ Legitimate users.
 | **Dictionary attack**          | Tries passwords from a precompiled list of common passwords                    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "8 Network Security", "url": "https://dse.wyattau.com/ict/8-network-security"}, {"name": "1_network Security And Social Implications", "url": "https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications"}]
+}
+</script>
 
 ## Security Measures
 
@@ -204,6 +240,15 @@ Second factor (e.g., a time-based one-time password from a phone app) to gain ac
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "8 Network Security", "url": "https://dse.wyattau.com/ict/8-network-security"}, {"name": "1_network Security And Social Implications", "url": "https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications"}]
+}
+</script>
+
 ## Data Protection and Privacy Laws
 
 ### Hong Kong: Personal Data Privacy Ordinance (PDPO)
@@ -260,6 +305,15 @@ Regardless of jurisdiction, all modern data protection laws share these core pri
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "8 Network Security", "url": "https://dse.wyattau.com/ict/8-network-security"}, {"name": "1_network Security And Social Implications", "url": "https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications"}]
+}
+</script>
+
 ## Intellectual Property
 
 ### Types of Intellectual Property
@@ -310,6 +364,15 @@ Creative Commons (CC) licenses allow creators to specify how their work may be u
 | CC0         | Yes            | Yes          | Public domain (no restrictions)          |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "8 Network Security", "url": "https://dse.wyattau.com/ict/8-network-security"}, {"name": "1_network Security And Social Implications", "url": "https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications"}]
+}
+</script>
 
 ## Health and Safety Issues
 
@@ -376,6 +439,15 @@ Improving productivity.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "8 Network Security", "url": "https://dse.wyattau.com/ict/8-network-security"}, {"name": "1_network Security And Social Implications", "url": "https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications"}]
+}
+</script>
+
 ## Environmental Impact of ICT
 
 ### E-Waste
@@ -426,6 +498,15 @@ ICT infrastructure consumes significant energy:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "8 Network Security", "url": "https://dse.wyattau.com/ict/8-network-security"}, {"name": "1_network Security And Social Implications", "url": "https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications"}]
+}
+</script>
+
 ## Professional Codes of Conduct
 
 Professional bodies establish codes of conduct to ensure their members act ethically and
@@ -471,6 +552,15 @@ A computing professional confronted with an ethical dilemma should:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "8 Network Security", "url": "https://dse.wyattau.com/ict/8-network-security"}, {"name": "1_network Security And Social Implications", "url": "https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications"}]
+}
+</script>
+
 ## Censorship and Freedom of Information
 
 ### Arguments for Internet Censorship
@@ -507,6 +597,15 @@ A computing professional confronted with an ethical dilemma should:
 | **Firewall rules**               | Block specific ports, protocols, or network ranges               |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "8 Network Security", "url": "https://dse.wyattau.com/ict/8-network-security"}, {"name": "1_network Security And Social Implications", "url": "https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -549,6 +648,15 @@ A computing professional confronted with an ethical dilemma should:
     result in professional sanctions (loss of membership) but not necessarily legal penalties.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "8 Network Security", "url": "https://dse.wyattau.com/ict/8-network-security"}, {"name": "1_network Security And Social Implications", "url": "https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -783,6 +891,15 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "8 Network Security", "url": "https://dse.wyattau.com/ict/8-network-security"}, {"name": "1_network Security And Social Implications", "url": "https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications"}]
+}
+</script>
 
 ## Cross-References
 

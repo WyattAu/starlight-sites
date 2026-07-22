@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
 title: States of Matter
 description: "Rigorous IB chemistry notes covering States of Matter. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
 
 ## Intuition
 
@@ -58,6 +76,15 @@ Increasing temperature:
 - Increases the proportion of molecules with energy exceeding the activation energy.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
 
 ## 2. Ideal Gas Law
 
@@ -121,6 +148,15 @@ Leaks.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
+
 ## 3. Real Gases
 
 ### Deviations from Ideal Behaviour
@@ -168,6 +204,15 @@ $$
 - $Z \gt 1$: molecular volume dominates (high $P$)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
 
 ## 4. Intermolecular Forces
 
@@ -237,6 +282,15 @@ Density than liquid water.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
+
 ## 5. Phase Diagrams
 
 ### Features
@@ -276,6 +330,15 @@ $1\mathrm{ atm}$, $\mathrm{CO}_2$ sublimates directly from solid to gas — henc
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
+
 ## 6. States of Matter: Condensed Phases
 
 ### Liquids
@@ -296,6 +359,15 @@ $1\mathrm{ atm}$, $\mathrm{CO}_2$ sublimates directly from solid to gas — henc
 | Solubility    | Often in polar solvents | Varies           | Insoluble              | Insoluble                             |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -398,6 +470,15 @@ The van der Waals pressure ($4.83\mathrm{ atm}$) is lower than the ideal gas pre
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -575,6 +656,15 @@ The trend is entirely consistent with increasing LDF strength down the group.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **Using Celsius instead of Kelvin in gas calculations:** The ideal gas law requires absolute
@@ -605,6 +695,15 @@ The trend is entirely consistent with increasing LDF strength down the group.
   linear shape allows greater surface-area contact and stronger LDFs.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -644,6 +743,15 @@ The trend is entirely consistent with increasing LDF strength down the group.
    this deviation to be most significant?
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
 
 ## Worked Examples (Expanded)
 
@@ -764,6 +872,15 @@ demonstrating the dominance of the enthalpy of vaporisation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
+
 ## Exam-Style Problems (Expanded)
 
 <details>
@@ -837,6 +954,15 @@ what minimum temperature can the substance be liquefied by pressure alone?
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Confusing rms speed, average speed, and most probable speed**: For the Maxwell-Boltzmann
@@ -867,6 +993,15 @@ what minimum temperature can the substance be liquefied by pressure alone?
   Using $M$ in $\mathrm{g/mol}$ gives a result that is off by a factor of 1000.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
+}
+</script>
 
 ## If You Get These Wrong, Revise:
 

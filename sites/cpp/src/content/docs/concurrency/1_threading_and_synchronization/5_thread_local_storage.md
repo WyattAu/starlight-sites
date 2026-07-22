@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Concurrency", "url": "https://cpp.wyattau.com/concurrency"}, {"name": "1_threading_and_synchronization", "url": "https://cpp.wyattau.com/concurrency/1_threading_and_synchronization"}, {"name": "5_thread_local_storage", "url": "https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/5_thread_local_storage"}]
+}
+</script>
 title: Thread-Local Storage (TLS)
 description: "This section covers the keyword, TLS implementation mechanisms, performance Characteristics, initialization guarantees, TLS in thread pools, and practical"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Concurrency", "url": "https://cpp.wyattau.com/concurrency"}, {"name": "1_threading_and_synchronization", "url": "https://cpp.wyattau.com/concurrency/1_threading_and_synchronization"}, {"name": "5_thread_local_storage", "url": "https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/5_thread_local_storage"}]
+}
+</script>
 
 ## Intuition
 

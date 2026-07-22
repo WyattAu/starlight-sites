@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
+}
+</script>
 title: Chemistry - Mole Concept and Stoichiometry
 description: 'The relative atomic mass of an element is the weighted average mass of one atom of the element Relative to the mass of one atom of carbon-12.'
 tags: [DSE, Chemistry]
 categories: [DSE, Chemistry]
 date: 2026-04-08T00:00:00.000Z
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
+}
+</script>
 
 ## Relative Atomic and Molecular Masses
 
@@ -39,6 +57,15 @@ $$M_r(\mathrm{NaCl}) = 23.0 + 35.5 = 58.5$$
 Mg = 24.3, Al = 27.0, S = 32.1, Cl = 35.5, K = 39.1, Ca = 40.1, Fe = 55.8, Cu = 63.5, Zn = 65.4.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
+}
+</script>
 
 ## The Mole
 
@@ -85,6 +112,15 @@ Where $V_m$ = 22.4 dm$^3$/mol (STP) or 24.0 dm$^3$/mol (RTP).
 Volume is one of the most common errors in DSE stoichiometry questions.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
+}
+</script>
 
 ## Formulae of Compounds
 
@@ -183,6 +219,15 @@ Formula = $\mathrm{CuSO}_4 \cdot 5\mathrm{H}_2\mathrm{O}$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
+}
+</script>
+
 ## Concentration
 
 ### Molarity
@@ -264,6 +309,15 @@ Volumetric flask, and add distilled water up to the graduation mark.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
+}
+</script>
+
 ## Chemical Equations and Stoichiometry
 
 ### Balancing Equations
@@ -319,6 +373,15 @@ Mass of $\mathrm{NH}_3 = 2.00 \times 17.0 = 34.0 \mathrm{ g}$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
+}
+</script>
+
 ## Limiting Reagent
 
 The limiting reagent is the reactant that is completely consumed first and thus determines the
@@ -359,6 +422,15 @@ Volume at RTP = $0.411 \times 24.0 = 9.86 \mathrm{ dm}^3$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
+}
+</script>
+
 ## Percentage Yield
 
 $$\%\mathrm{ yield} = \frac{\mathrm{actual yield}}{\mathrm{theoretical yield}} \times 100\%$$
@@ -382,6 +454,15 @@ $\%\mathrm{ yield} = \dfrac{4.20}{5.60} \times 100\% = 75.0\%$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
+}
+</script>
 
 ## Gas Calculations
 
@@ -444,6 +525,15 @@ Volume at RTP = $0.250 \times 24.0 = 6.00 \mathrm{ dm}^3$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
+}
+</script>
 
 ## Volumetric Analysis (Titration)
 
@@ -565,6 +655,15 @@ $\%\mathrm{ CaCO}_3 = \dfrac{1.752}{2.00} \times 100\% = 87.6\%$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
+}
+</script>
+
 ## Solutions Involving Both Mass and Volume
 
 ### Converting Between Concentration Units
@@ -583,6 +682,15 @@ $c = 20.0 / 40.0 = 0.500 \mathrm{ mol/dm}^3$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
+}
+</script>
 
 ## Water of Crystallisation and Stoichiometry Combined
 
@@ -640,6 +748,15 @@ Therefore $x = 7$Confirming the formula $\mathrm{MgSO}_4 \cdot 7\mathrm{H}_2\mat
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
+}
+</script>
+
 ## Intuition
 
 **Chemical accounting:** Stoichiometry is like a recipe — the balanced equation tells you exactly how much of each ingredient you need and how much product you'll get. The mole is the chemist's dozen.
@@ -674,6 +791,15 @@ Therefore $x = 7$Confirming the formula $\mathrm{MgSO}_4 \cdot 7\mathrm{H}_2\mat
    reactions involved.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
+}
+</script>
 
 ## Practice Problems
 

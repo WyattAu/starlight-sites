@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "18_quantum Statistical Mechanics Advanced Topics", "url": "https://physics.wyattau.com/2-thermal-physics/18_quantum-statistical-mechanics-advanced-topics"}]
+}
+</script>
 title: "Quantum Statistical Mechanics: Advanced Topics"
 tags:
   - Physics
   - University
 description: "The (or density operator) provides the most general description of a quantum system, encompassing both pure and mixed states:"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "18_quantum Statistical Mechanics Advanced Topics", "url": "https://physics.wyattau.com/2-thermal-physics/18_quantum-statistical-mechanics-advanced-topics"}]
+}
+</script>
 
 ### 18.1 Density Matrix and Ensemble Averages
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Halogenoalkanes Alcohols", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-halogenoalkanes-alcohols"}]
+}
+</script>
 title: "Halogenoalkanes, Alcohols -- Diagnostic Tests"
 description: "A-Level Chemistry Halogenoalkanes, Alcohols -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Halogenoalkanes Alcohols", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-halogenoalkanes-alcohols"}]
+}
+</script>
 
 
 ## Intuition
@@ -62,6 +80,15 @@ The protic nature (ability to donate hydrogen bonds) is particularly important f
 hydrogen bonding helps stabilise the developing ions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Halogenoalkanes Alcohols", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-halogenoalkanes-alcohols"}]
+}
+</script>
 
 ### UT-2: Elimination Reactions and Competition with Substitution
 
@@ -125,6 +152,15 @@ Conditions favouring **substitution**:
    substituted (more stable) alkene, which provides a thermodynamic driving force.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Halogenoalkanes Alcohols", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-halogenoalkanes-alcohols"}]
+}
+</script>
 
 ### UT-3: Oxidation of Alcohols and Distinguishing Isomers
 
@@ -257,6 +293,15 @@ $$E_a = \frac{1.386 \times 8.31}{1.096 \times 10^{-4}} = \frac{11.52}{1.096 \tim
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Halogenoalkanes Alcohols", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-halogenoalkanes-alcohols"}]
+}
+</script>
+
 ### IT-2: Halogenoalkane Reactivity and Leaving Group Ability (with Electrochemistry)
 
 **Question:**
@@ -315,6 +360,15 @@ departure, which requires polarisability (diffuse charge), not electronegativity
 charge).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Halogenoalkanes Alcohols", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-halogenoalkanes-alcohols"}]
+}
+</script>
 
 ### IT-3: Multi-Step Synthesis Involving Alcohol and Halogenoalkane Interconversions (with Organic Chemistry)
 
@@ -408,6 +462,15 @@ chain, which at A-Level level is best done through a Grignard reaction (not on a
 using ethanoic acid and reducing.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Halogenoalkanes Alcohols", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-halogenoalkanes-alcohols"}]
+}
+</script>
 
 ### Additional Practice Problems
 

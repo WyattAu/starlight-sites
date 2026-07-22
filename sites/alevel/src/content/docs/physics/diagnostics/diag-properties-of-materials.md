@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Properties Of Materials", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-properties-of-materials"}]
+}
+</script>
 title: "Properties of Materials -- Diagnostic Tests"
 description: "A-Level Physics Properties of Materials -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Properties Of Materials", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-properties-of-materials"}]
+}
+</script>
 
 
 ## Intuition
@@ -65,6 +83,15 @@ during plastic deformation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Properties Of Materials", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-properties-of-materials"}]
+}
+</script>
+
 ### UT-2: Composite Wire Under Load
 
 **Question:**
@@ -110,6 +137,15 @@ The effective Young's modulus of the composite wire:
 $$E_{\text{eff}} = \frac{F(l_s + l_c)}{A(\Delta l_s + \Delta l_c)} = \frac{400 \times 2.5}{2.0 \times 10^{-6} \times 3.17 \times 10^{-3}} = \frac{1000}{6.34 \times 10^{-9}} = 1.58 \times 10^{11}\,\text{Pa}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Properties Of Materials", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-properties-of-materials"}]
+}
+</script>
 
 ### UT-3: Elastic Limit and Proportional Limit
 
@@ -216,6 +252,15 @@ $$= \frac{1}{2} \times 50 \times 9.81 \times 3.68 \times 10^{-3} = 0.903\,\text{
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Properties Of Materials", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-properties-of-materials"}]
+}
+</script>
+
 ### IT-2: Stress in a Rotating Ring (with Circular Motion)
 
 **Question:**
@@ -259,6 +304,15 @@ Percentage increase in radius $= \varepsilon \times 100 = 0.10\%$
 The circumference also increases by $0.10\%$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Properties Of Materials", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-properties-of-materials"}]
+}
+</script>
 
 ### IT-3: Energy Stored in a Stretched Wire Hanging Under Its Own Weight (with Work-Energy)
 

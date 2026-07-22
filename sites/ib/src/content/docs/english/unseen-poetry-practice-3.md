@@ -1,14 +1,41 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 3", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-3"}]
+}
+</script>
 title: "IB Paper 1 Unseen Poetry Practice: Derek Walcott's A Far Cry from Africa"
 description: "Close reading analysis of Derek Walcott's 'A Far Cry from Africa' for IB English Paper 1. Postcolonial themes, formal verse, cultural tension, and examiner tips for higher marks."
 sidebar_position: 12
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 3", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-3"}]
+}
+</script>
 
 # IB Paper 1 Unseen Poetry Practice: Derek Walcott's "A Far Cry from Africa"
 
 This page provides a detailed analysis of Derek Walcott's "A Far Cry from Africa" as practice for IB English Paper 1. Published in *In a Green Night* (1962), the poem is one of the most frequently anthologised responses to the Mau Mau Uprising in Kenya (1952--1960). It is an exemplary unseen text for IB candidates because it combines formal metrical control with passionate political content, and it concludes with a question that refuses resolution. The analysis below models the standard of response expected in a top-band Paper 1 answer.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 3", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-3"}]
+}
+</script>
 
 ## 1. Poem Overview
 
@@ -35,6 +62,15 @@ The poem addresses the violence of the Mau Mau Uprising, in which the Kikuyu peo
 - **Engage with the ending**: the poem's final question is its most important moment, and candidates who can analyse its significance demonstrate the highest level of engagement.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 3", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-3"}]
+}
+</script>
 
 ## 2. Close Reading: Stanza-by-Stanza Analysis
 
@@ -84,6 +120,15 @@ The poem's final two questions are its most important moment. They are not rheto
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 3", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-3"}]
+}
+</script>
+
 ## 3. Form and Technique
 
 ### 3.1 Meter and Rhyme
@@ -108,6 +153,15 @@ IB candidates should be able to identify these allusions where they are relevant
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 3", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-3"}]
+}
+</script>
+
 ## 4. Postcolonial Themes
 
 ### 4.1 Divided Identity
@@ -123,6 +177,15 @@ The speaker's love of the English language is presented as both a gift and a cur
 The poem refuses to moralise about violence. It does not condemn the Mau Mau insurgents or exonerate the colonial regime; it presents the violence of both sides and asks the reader to confront it. The phrase "slaughter" is applied to both sides, and the speaker's question -- "How can I face such slaughter and be cool?" -- addresses his own inability to remain detached. The poem's moral position is one of anguished neutrality: the speaker cannot choose a side because both sides are guilty.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 3", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-3"}]
+}
+</script>
 
 ## 5. Examiner Tips for Higher Marks
 
@@ -155,6 +218,15 @@ The poem resists simple interpretation. It does not take a clear political posit
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 3", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-3"}]
+}
+</script>
+
 ## 6. IB Assessment Alignment
 
 ### 6.1 Assessment Objectives
@@ -174,6 +246,15 @@ The poem resists simple interpretation. It does not take a clear political posit
 - **Language**: The response must use literary terminology accurately and maintain a formal register throughout.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 3", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-3"}]
+}
+</script>
 
 ## 7. Self-Assessment Checklist
 

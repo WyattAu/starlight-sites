@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "8_common Pitfalls", "url": "https://physics.wyattau.com/2-thermal-physics/8_common-pitfalls"}]
+}
+</script>
 title: Common Pitfalls
 tags:
   - Physics
   - University
 description: "- The microcanonical ensemble describes an isolated system with fixed . The canonical ensemble describes a system in contact with a heat bath at fixed . The"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "8_common Pitfalls", "url": "https://physics.wyattau.com/2-thermal-physics/8_common-pitfalls"}]
+}
+</script>
 
 - **Confusing the microcanonical, canonical, and grand canonical ensembles.** The microcanonical
   ensemble describes an isolated system with fixed $E, V, N$. The canonical ensemble describes a

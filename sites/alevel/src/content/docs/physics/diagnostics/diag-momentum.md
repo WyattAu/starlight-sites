@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Momentum", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-momentum"}]
+}
+</script>
 title: "Momentum -- Diagnostic Tests"
 description: "A-Level Physics Momentum -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Momentum", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-momentum"}]
+}
+</script>
 
 
 ## Intuition
@@ -68,6 +86,15 @@ Magnitude $= \sqrt{100 + 4} = \sqrt{104} = 10.2\,\text{N}\,\text{s}$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Momentum", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-momentum"}]
+}
+</script>
+
 ### UT-2: Coefficient of Restitution and Multiple Collisions
 
 **Question:**
@@ -114,6 +141,15 @@ $$= h + 2he^2(1 + e^2 + e^4 + \ldots) = h + \frac{2he^2}{1 - e^2}$$
 $$= 2.0 + \frac{2 \times 2.0 \times 0.64}{1 - 0.64} = 2.0 + \frac{2.56}{0.36} = 2.0 + 7.11 = 9.11\,\text{m}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Momentum", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-momentum"}]
+}
+</script>
 
 ### UT-3: Impulse-Momentum with Variable Force
 
@@ -214,6 +250,15 @@ velocity component is directed downward and gravity does not reverse it.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Momentum", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-momentum"}]
+}
+</script>
+
 ### IT-2: Rocket Propulsion and Momentum (with Dynamics)
 
 **Question:**
@@ -264,6 +309,15 @@ since it ignores the rocket's decreasing mass).
 The correct answer from the rocket equation is $1833\,\text{m}\,\text{s}^{-1}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Momentum", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-momentum"}]
+}
+</script>
 
 ### IT-3: Collision Analysis with Energy Dissipation (with Work-Energy)
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "1 Microeconomics", "url": "https://ib.wyattau.com/economics/1-microeconomics"}, {"name": "1_supply And Demand", "url": "https://ib.wyattau.com/economics/1-microeconomics/1_supply-and-demand"}]
+}
+</script>
 title: Supply and Demand
 description: "IB Economics — scarcity, PPF, supply and demand, consumer choice. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examinations. Aligned wi."
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "1 Microeconomics", "url": "https://ib.wyattau.com/economics/1-microeconomics"}, {"name": "1_supply And Demand", "url": "https://ib.wyattau.com/economics/1-microeconomics/1_supply-and-demand"}]
+}
+</script>
 
 ## Intuition
 

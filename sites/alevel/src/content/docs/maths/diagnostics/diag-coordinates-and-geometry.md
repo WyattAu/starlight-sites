@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinates And Geometry", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-coordinates-and-geometry"}]
+}
+</script>
 title: "Coordinates and Geometry -- Diagnostic Tests"
 description: "A-Level Maths Coordinates and Geometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinates And Geometry", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-coordinates-and-geometry"}]
+}
+</script>
 
 
 ## Intuition
@@ -73,6 +91,15 @@ $$x^2 + y^2 - 4x - 10y + 19 = 0$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinates And Geometry", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-coordinates-and-geometry"}]
+}
+</script>
+
 ### UT-2: Circle-Line Tangency via Discriminant
 
 **Question:**
@@ -107,6 +134,15 @@ The point of tangency is $(2, 5)$.
 $y = 5$ is at distance $|5-3| = 2$ from the centre, equal to the radius. Confirmed.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinates And Geometry", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-coordinates-and-geometry"}]
+}
+</script>
 
 ### UT-3: Composite Transformation Matrices
 
@@ -173,6 +209,15 @@ composite is also an isometry, so area is preserved.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinates And Geometry", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-coordinates-and-geometry"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of coordinate geometry with other topics. Requires combining concepts from
@@ -235,6 +280,15 @@ approximation. At $x \approx 2.11$: $y \approx 4.45 - 8.44 + 7 = 3.01$.
 The closest point is approximately $(2.11, 3.01)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinates And Geometry", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-coordinates-and-geometry"}]
+}
+</script>
 
 ### IT-2: Vector Method for a Geometry Problem (with Vectors)
 
@@ -305,6 +359,15 @@ $$= 1 + \frac{256}{25} = \frac{281}{25}$$
 $$|\overrightarrow{AF}| = \frac{\sqrt{281}}{5}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinates And Geometry", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-coordinates-and-geometry"}]
+}
+</script>
 
 ### IT-3: Parametric Curve via Function Composition (with Functions)
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Statistical Distributions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-statistical-distributions"}]
+}
+</script>
 title: "Statistical Distributions -- Diagnostic Tests"
 description: "A-Level Maths Statistical Distributions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Statistical Distributions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-statistical-distributions"}]
+}
+</script>
 
 
 ## Intuition
@@ -92,6 +110,15 @@ and $V_2 \sim B(5, 0.25)$. Then $V = 5 + V_2$ and $V_2 \sim B(5, 0.25)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Statistical Distributions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-statistical-distributions"}]
+}
+</script>
+
 ### UT-2: Normal Distribution — Continuity Correction and Sign Errors
 
 **Question:**
@@ -175,6 +202,15 @@ good because both $np$ and $n(1-p)$ are well above 5 (they are 48 and 32 respect
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Statistical Distributions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-statistical-distributions"}]
+}
+</script>
+
 ### UT-3: Combining Independent Normal Variables and Linear Transformations
 
 **Question:**
@@ -243,6 +279,15 @@ sum of variances, which is always less than or equal to the sum of standard devi
 triangle inequality for $\ell^2$ norms).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Statistical Distributions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-statistical-distributions"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -357,6 +402,15 @@ Increasing the sample size increases the power of the test because:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Statistical Distributions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-statistical-distributions"}]
+}
+</script>
+
 ### IT-2: Poisson Approximation and Continuous Uniform Distribution (with Integration)
 
 **Question:**
@@ -448,6 +502,15 @@ The uniform model is unsuitable because:
 3. The mean is off by approximately 40%.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Statistical Distributions", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-statistical-distributions"}]
+}
+</script>
 
 ### IT-3: Expected Trials Until First Success — Geometric Distribution (with Sequences)
 

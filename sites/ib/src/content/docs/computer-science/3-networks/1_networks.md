@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "3 Networks", "url": "https://ib.wyattau.com/computer-science/3-networks"}, {"name": "1_networks", "url": "https://ib.wyattau.com/computer-science/3-networks/1_networks"}]
+}
+</script>
 title: Networks
 description: "Rigorous IB computer science notes covering Networks. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "3 Networks", "url": "https://ib.wyattau.com/computer-science/3-networks"}, {"name": "1_networks", "url": "https://ib.wyattau.com/computer-science/3-networks/1_networks"}]
+}
+</script>
 
 ## Intuition
 
@@ -139,6 +157,15 @@ Layers which specifies standards for physical communication and virtual communic
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "3 Networks", "url": "https://ib.wyattau.com/computer-science/3-networks"}, {"name": "1_networks", "url": "https://ib.wyattau.com/computer-science/3-networks/1_networks"}]
+}
+</script>
+
 ## Network Topologies
 
 ### Bus Topology
@@ -179,6 +206,15 @@ Layers which specifies standards for physical communication and virtual communic
 - **Disadvantages:** If the root node fails, the entire network below it is affected.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "3 Networks", "url": "https://ib.wyattau.com/computer-science/3-networks"}, {"name": "1_networks", "url": "https://ib.wyattau.com/computer-science/3-networks/1_networks"}]
+}
+</script>
 
 ## Key Protocols
 
@@ -269,6 +305,15 @@ DHCP automatically assigns IP addresses to devices on a network.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "3 Networks", "url": "https://ib.wyattau.com/computer-science/3-networks"}, {"name": "1_networks", "url": "https://ib.wyattau.com/computer-science/3-networks/1_networks"}]
+}
+</script>
+
 ## Client-Server vs Peer-to-Peer
 
 ### Client-Server Model
@@ -300,6 +345,15 @@ DHCP automatically assigns IP addresses to devices on a network.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "3 Networks", "url": "https://ib.wyattau.com/computer-science/3-networks"}, {"name": "1_networks", "url": "https://ib.wyattau.com/computer-science/3-networks/1_networks"}]
+}
+</script>
+
 ## Network Security
 
 ### Threats
@@ -325,6 +379,15 @@ DHCP automatically assigns IP addresses to devices on a network.
 - **Physical security:** Securing server rooms with locks, CCTV, and access badges.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "3 Networks", "url": "https://ib.wyattau.com/computer-science/3-networks"}, {"name": "1_networks", "url": "https://ib.wyattau.com/computer-science/3-networks/1_networks"}]
+}
+</script>
 
 ## Encryption
 
@@ -367,6 +430,15 @@ Authorised parties with the correct key can decrypt the data.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "3 Networks", "url": "https://ib.wyattau.com/computer-science/3-networks"}, {"name": "1_networks", "url": "https://ib.wyattau.com/computer-science/3-networks/1_networks"}]
+}
+</script>
+
 ## Data Transmission
 
 ### Packet Switching
@@ -404,6 +476,15 @@ At the destination using sequence numbers.
   over fixed TDM.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "3 Networks", "url": "https://ib.wyattau.com/computer-science/3-networks"}, {"name": "1_networks", "url": "https://ib.wyattau.com/computer-science/3-networks/1_networks"}]
+}
+</script>
 
 ## TCP/IP Protocol Stack Detail
 
@@ -451,6 +532,15 @@ A UDP datagram is much simpler than TCP:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "3 Networks", "url": "https://ib.wyattau.com/computer-science/3-networks"}, {"name": "1_networks", "url": "https://ib.wyattau.com/computer-science/3-networks/1_networks"}]
+}
+</script>
+
 ## Subnetting
 
 Subnetting divides a large network into smaller sub-networks (subnets) to improve performance,
@@ -486,6 +576,15 @@ Subnets.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "3 Networks", "url": "https://ib.wyattau.com/computer-science/3-networks"}, {"name": "1_networks", "url": "https://ib.wyattau.com/computer-science/3-networks/1_networks"}]
+}
+</script>
+
 ## Network Security Threats (Expanded)
 
 ### Malware Types
@@ -511,6 +610,15 @@ Subnets.
   publicly disclosed.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "3 Networks", "url": "https://ib.wyattau.com/computer-science/3-networks"}, {"name": "1_networks", "url": "https://ib.wyattau.com/computer-science/3-networks/1_networks"}]
+}
+</script>
 
 ## Problem Set
 

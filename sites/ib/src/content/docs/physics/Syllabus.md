@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Syllabus", "url": "https://ib.wyattau.com/physics/Syllabus"}]
+}
+</script>
 title: Syllabus
 description: "Syllabus: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Syllabus", "url": "https://ib.wyattau.com/physics/Syllabus"}]
+}
+</script>
 
 ### IB Physics HL Syllabus Overview
 
@@ -108,6 +126,15 @@ This is based on the 2025 syllabus.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Syllabus", "url": "https://ib.wyattau.com/physics/Syllabus"}]
+}
+</script>
+
 ## Topic Breakdown by Theme
 
 ### Theme A: Space, Time and Motion (Core)
@@ -195,6 +222,15 @@ This theme introduces the quantum nature of matter and energy.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Syllabus", "url": "https://ib.wyattau.com/physics/Syllabus"}]
+}
+</script>
+
 ## Assessment Structure
 
 ### Standard Level (SL)
@@ -225,6 +261,15 @@ Analytical skills.
 Both SL and HL.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Syllabus", "url": "https://ib.wyattau.com/physics/Syllabus"}]
+}
+</script>
 
 ## Recommended Study Approach
 
@@ -310,6 +355,15 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Syllabus", "url": "https://ib.wyattau.com/physics/Syllabus"}]
+}
+</script>
 
 ## Cross-References
 

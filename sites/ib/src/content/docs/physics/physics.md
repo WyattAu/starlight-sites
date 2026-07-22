@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
 title: Physics
 description: "This section contains notes and study materials for IB Physics, based on the 2025 syllabus. The Course is available at both Standard Level (SL) and Higher"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
 
 ## Intuition
 
@@ -12,6 +30,15 @@ Course is available at both Standard Level (SL) and Higher Level (HL), with HL s
 Additional material in greater depth.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
 
 ## Course Structure
 
@@ -29,6 +56,15 @@ Assessment (IA).
 | E     | Nuclear and Quantum Physics      | E.1--E.2      | E.3--E.4       |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
 
 ## Theme A: Space, Time and Motion
 
@@ -186,6 +222,15 @@ The Earth observer measures a longer time interval of $3.8 \times 10^6$ s.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
+
 ## Theme B: The Particulate Nature of Matter
 
 This theme examines matter at the microscopic scale, covering thermal physics, the behaviour of
@@ -319,6 +364,15 @@ energy.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
 
 ## Theme C: Wave Behaviour
 
@@ -470,6 +524,15 @@ Number of bright fringes visible on each side of the central maximum.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
+
 ## Theme D: Fields
 
 This theme covers gravitational, electric, and magnetic fields, and the electromagnetic interactions
@@ -611,6 +674,15 @@ And the escape speed from this altitude. ($M_E = 5.97 \times 10^{24}$ kg.)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
+
 ## Theme E: Nuclear and Quantum Physics
 
 This theme introduces the quantum nature of matter and energy, covering nuclear physics, quantum
@@ -730,6 +802,15 @@ Distance of $0.050$ m.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
+
 ## SL vs HL Distinctions
 
 The key differences between SL and HL are:
@@ -745,6 +826,15 @@ The key differences between SL and HL are:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
+
 ## Assessment Overview
 
 | Component   | Description                                                                                                                                       | Weighting          |
@@ -755,6 +845,15 @@ The key differences between SL and HL are:
 | **IA**      | Internal Assessment -- an individual investigation of a physics topic, with a report of up to 3,000 words.                                        | 20% (SL), 20% (HL) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
 
 ## Detailed Topic Breakdown
 
@@ -783,6 +882,15 @@ Carry significant marks:
 | Paper 3 (HL) | AHL content only          | Data-based question + extended response on D.5, E.3, E.4, B.5, B.7 |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
 
 ## Study Strategies
 
@@ -834,6 +942,15 @@ IB Physics exams use specific command terms that indicate the expected depth of 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
+
 ## Calculator Skills
 
 The IB Physics exam allows a **GDC (Graphical Display Calculator)**. Proficiency with your
@@ -883,6 +1000,15 @@ This avoids transcription errors and preserves precision.
 > calculator answer has a reasonable order of magnitude.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
 
 ## Exam Format and Time Management
 
@@ -951,6 +1077,15 @@ This avoids transcription errors and preserves precision.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
+
 ## Recommended Resources
 
 ### Official IB Resources
@@ -997,6 +1132,15 @@ The physics data booklet is your most important tool in the exam. To use it effe
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
+
 ## How to Use These Notes
 
 - Begin with the [Syllabus](Syllabus.md) page for a detailed breakdown of all topics, sub-topics,
@@ -1009,6 +1153,15 @@ The physics data booklet is your most important tool in the exam. To use it effe
   conditions in the final weeks before the exam.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
 
 ## Problem Set
 
@@ -1263,6 +1416,15 @@ If you get this wrong, revise: First law of thermodynamics and thermodynamic pro
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
+
 ## Common Pitfalls
 
 ### Mechanics (Theme A)
@@ -1349,6 +1511,15 @@ If you get this wrong, revise: First law of thermodynamics and thermodynamic pro
   efficiency and geometry. IB questions specify which is being asked.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics/physics"}]
+}
+</script>
 
 ## How to Use These Notes
 

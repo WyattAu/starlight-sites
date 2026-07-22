@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "5 Ordinary Differential Equations", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations"}, {"name": "6_series Solutions", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations/6_series-solutions"}]
+}
+</script>
 title: Series Solutions
 tags:
   - Mathematics
   - University
 description: "For an ODE where and are analytic near Substitute the Power series and solve for Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "5 Ordinary Differential Equations", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations"}, {"name": "6_series Solutions", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations/6_series-solutions"}]
+}
+</script>
 
 ### 6.1 Power Series Method
 

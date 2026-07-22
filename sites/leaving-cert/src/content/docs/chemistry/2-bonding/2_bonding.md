@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
 title: Bonding
 description: "ILC Chemistry Bonding notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and examination practice."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ilc-chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
 
 # Bonding
 
@@ -286,6 +304,15 @@ Semiconductors, the gap is small enough that thermal energy can promote some ele
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
+
 ## Worked Examples
 
 See the examples integrated throughout the sections above.
@@ -308,6 +335,15 @@ See the examples integrated throughout the sections above.
 8. **Electronegativity** -- fluorine is the most electronegative element, NOT oxygen.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
 
 ## Practice Questions
 
@@ -347,6 +383,15 @@ See the examples integrated throughout the sections above.
     concept of polarising power.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
 
 ## Polarisation and Fajans' Rules (HL)
 
@@ -403,6 +448,15 @@ This delocalisation provides extra stability (resonance energy, approximately 15
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
+
 ## Molecular Orbital Theory (HL)
 
 ### Basic Concept
@@ -453,6 +507,15 @@ The Lewis structure $\mathrm{N\equiv\mathrm{N$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
+
 ## Giant Covalent Structures (OL/HL)
 
 ### Diamond
@@ -482,6 +545,15 @@ Network. Very high melting point, hard, insulator.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
+
 ## Ionic Structures in Detail (HL)
 
 ### Sodium Chloride Structure
@@ -506,6 +578,15 @@ $\mathrm{MgO$ has a much higher melting point than $\mathrm{NaCl$ because the do
 Produce stronger electrostatic attraction.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
 
 ## Bond Enthalpy (OL/HL)
 
@@ -537,6 +618,15 @@ The reaction is exothermic, consistent with combustion.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
+
 ## Practice Questions (Extended)
 
 13. Explain why the bond length of C=C is shorter than C-C, and why C≡C is shorter than C=C.
@@ -554,6 +644,15 @@ The reaction is exothermic, consistent with combustion.
     $\mathrm{N_2 + 3\mathrm{H_2 \to 2\mathrm{NH_3$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
 
 ## Advanced VSEPR: Odd-Electron Molecules and Expanded Octets (HL)
 
@@ -593,6 +692,15 @@ Pairs + lone pairs):
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
+
 ## Metallic Bonding: Properties Explained (OL/HL)
 
 ### Why Metals Conduct Electricity
@@ -612,6 +720,15 @@ Alloying introduces atoms of different sizes into the metal lattice, distorting 
 Arrangement. This prevents layers from sliding , making the alloy harder than the pure metal.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
 
 ## Intermolecular Forces and Physical Properties (OL/HL)
 
@@ -646,6 +763,15 @@ Order of vapour pressure (decreasing): London forces > dipole-dipole > hydrogen 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
+
 ## Comparison Table: All Bonding Types
 
 | Feature                 | Ionic                       | Covalent (simple)                                     | Covalent (giant)  | Metallic                    |
@@ -659,6 +785,15 @@ Order of vapour pressure (decreasing): London forces > dipole-dipole > hydrogen 
 | Examples                | $\mathrm{NaCl$$\mathrm{MgO$ | $\mathrm{H_2\mathrm{O$$\mathrm{CO_2$                  | Diamond, graphite | $\mathrm{Fe$$\mathrm{Cu$    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
 
 ## Lewis Structures (HL)
 
@@ -702,6 +837,15 @@ Total: $0 + 2(0) + 2(-1) = -2$. This matches the charge on the ion.
 In reality, all four S-O bonds are equivalent due to resonance.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
+}
+</script>
 
 ## Practice Questions (Further Extended)
 

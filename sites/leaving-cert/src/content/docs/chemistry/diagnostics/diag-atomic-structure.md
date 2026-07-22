@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 title: "Atomic Structure -- Diagnostic Tests"
 description: "QUALIFICATIONS Ilc notes: Atomic Structure -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 # Atomic Structure -- Diagnostic Tests
 
@@ -67,6 +85,15 @@ electron is more easily removed. This results in a **drop** in first ionisation 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
+
 ### UT-2: Periodic Trends
 
 **Question:**
@@ -129,6 +156,15 @@ lustre).
 shielded, and easier to lose (ionisation energy decreases).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 ### UT-3: Chemical Bonding
 
@@ -200,6 +236,15 @@ These thresholds are approximate guidelines, not strict boundaries.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
+
 ## Integration Tests
 
 ### IT-1: Periodic Trends and Bonding
@@ -255,6 +300,15 @@ requires much more energy. This is why the second ionisation energy ($4562\,\tex
 approximately 9 times higher than the first ($496\,\text{kJ mol}^{-1}$).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 ### IT-2: Applications of Atomic Structure
 

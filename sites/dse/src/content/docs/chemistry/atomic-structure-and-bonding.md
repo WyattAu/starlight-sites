@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/atomic-structure-and-bonding"}]
+}
+</script>
 title: Chemistry - Atomic Structure and Bonding
 description: "| Particle | Symbol | Relative Mass | Relative Charge | Location | | -------- | ------------ | ---------------- | --------------- | --------------- | |"
 tags: [DSE, Chemistry]
 categories: [DSE, Chemistry]
 date: 2026-05-31T00:00:00.000Z
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/atomic-structure-and-bonding"}]
+}
+</script>
 
 ## 1. Atomic Structure
 
@@ -41,6 +59,15 @@ Electrons fill in order of increasing energy: 1s → 2s → 2p → 3s → 3p →
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/atomic-structure-and-bonding"}]
+}
+</script>
+
 ## 2. Periodic Trends
 
 ### Across a Period (left to right)
@@ -69,6 +96,15 @@ Electrons fill in order of increasing energy: 1s → 2s → 2p → 3s → 3p →
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/atomic-structure-and-bonding"}]
+}
+</script>
+
 ## 3. Ionic Bonding
 
 ### Formation
@@ -95,6 +131,15 @@ Show the transfer of electrons evidently:
 | Soluble in water            | Polar water molecules attract and separate ions               |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/atomic-structure-and-bonding"}]
+}
+</script>
 
 ## 4. Covalent Bonding
 
@@ -132,6 +177,15 @@ between layers)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/atomic-structure-and-bonding"}]
+}
+</script>
+
 ## 5. Metallic Bonding
 
 ### Formation
@@ -153,6 +207,15 @@ between ions and the delocalised electrons is the metallic bond.
 disrupt the regular lattice, making alloys **harder** than pure metals.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/atomic-structure-and-bonding"}]
+}
+</script>
 
 ## 6. Intermolecular Forces
 
@@ -184,6 +247,15 @@ disrupt the regular lattice, making alloys **harder** than pure metals.
 - Solubility of polar molecules in water
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Atomic Structure And Bonding", "url": "https://dse.wyattau.com/chemistry/atomic-structure-and-bonding"}]
+}
+</script>
 
 ## 7. Physical Properties Linked to Structure
 

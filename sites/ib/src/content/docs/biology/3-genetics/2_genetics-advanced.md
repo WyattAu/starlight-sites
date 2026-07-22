@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
 title: Genetics Advanced
 description: "IB Biology -- DNA replication in detail, transcription and gene regulation, translation mechanics, operons, epigenetics, genetic engineering techniques, PCR,"
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
 
 ## Intuition
 
@@ -95,6 +113,15 @@ Cells, stem cells, and most cancer cells but is inactive in most somatic cells.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
+
 ## 2. Transcription in Detail
 
 ### Initiation in Prokaryotes
@@ -160,6 +187,15 @@ polyadenylation Signal (AAUAAA), and the polymerase dissociates.
    one gene to produce multiple mRNA isoforms (and therefore multiple protein variants).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
 
 ## 3. Translation in Detail
 
@@ -253,6 +289,15 @@ After translation, polypeptides may undergo:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
+
 ## 4. Gene Regulation
 
 ### The Lac Operon (Extended)
@@ -334,6 +379,15 @@ Sequence.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
+
 ## 5. Genetic Engineering Techniques
 
 ### Restriction Enzymes (Restriction Endonucleases)
@@ -386,6 +440,15 @@ Is then amplified by PCR. Used to measure gene expression (quantitative RT-PCR, 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
+
 ## 6. Genetic Crosses and Chi-Squared Tests
 
 ### Dihybrid Crosses with Linkage
@@ -427,6 +490,15 @@ $$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - Confusing the **leading and lagging strands**: the leading strand is synthesised continuously
@@ -445,6 +517,15 @@ $$\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$$
   changing the DNA sequence; genetic changes alter the DNA sequence itself.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -646,6 +727,15 @@ Chromatography or antibody-based methods.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
+
 ## Worked Examples
 
 **Worked Example: Calculating DNA Replication Time**
@@ -701,6 +791,15 @@ that most human genes consist predominantly of non-coding intronic sequence.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Confusing leading and lagging strands**: leading = continuous, toward fork; lagging =
@@ -714,6 +813,15 @@ that most human genes consist predominantly of non-coding intronic sequence.
 - **Epigenetic vs genetic**: epigenetic = gene expression changes without DNA sequence change.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -775,6 +883,15 @@ $25$. How does this affect the probability for a random mating?
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
+
 ## If You Get These Wrong, Revise:
 
 - **Molecular biology -- DNA and proteins** --> Review
@@ -789,6 +906,15 @@ $25$. How does this affect the probability for a random mating?
   [.../8-nervous-system-and-immunology/2_immunology](../8-nervous-system-and-immunology/2_immunology)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -1055,6 +1181,15 @@ there IS an affected son, this is **autosomal dominant**.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
+
 ## Additional Common Pitfalls
 
 - **Confusing PCR primers with RNA primers**: PCR uses DNA primers (short, synthetic, heat-stable);
@@ -1072,6 +1207,15 @@ there IS an affected son, this is **autosomal dominant**.
   $> 50\;\mathrm{cM}$ require mapping functions (e.g., Kosambi or Haldane).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
 
 ## Additional Exam-Style Problems with Full Solutions
 
@@ -1438,6 +1582,15 @@ which has multiple Isoforms with different adhesive properties.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
+
 ## Cross-References to Related Topics
 
 - **DNA structure and mutations**: Review
@@ -1459,6 +1612,15 @@ which has multiple Isoforms with different adhesive properties.
   for V(D)J recombination as a mechanism of generating diversity through DNA rearrangement.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "2_genetics Advanced", "url": "https://ib.wyattau.com/biology/3-genetics/2_genetics-advanced"}]
+}
+</script>
 
 | Topic               | Site    | Link                                                                              |
 | ------------------- | ------- | --------------------------------------------------------------------------------- |

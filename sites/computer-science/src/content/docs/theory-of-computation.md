@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "Theory Of Computation", "url": "https://computer-science.wyattau.com/theory-of-computation"}]
+}
+</script>
 title: Theory of Computation
 description: "UNIVERSITY Computing notes: Theory of Computation. Comprehensive study material with definitions, examples, and assessment tools."
 date: 2026-04-24T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Computing
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "Theory Of Computation", "url": "https://computer-science.wyattau.com/theory-of-computation"}]
+}
+</script>
 
 ## Intuition
 

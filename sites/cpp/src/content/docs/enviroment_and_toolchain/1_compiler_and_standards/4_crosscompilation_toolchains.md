@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "1_compiler_and_standards", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards"}, {"name": "4_crosscompilation_toolchains", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/4_crosscompilation_toolchains"}]
+}
+</script>
 title: Cross-compilation Toolchains
 description: "Cross-compilation is the process of building executable code on one architecture (the ) that is intended to execute on a different architecture or operating"
 date: 2025-12-10T05:18:46.463Z
@@ -8,6 +17,15 @@ categories:
   - cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "1_compiler_and_standards", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards"}, {"name": "4_crosscompilation_toolchains", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/4_crosscompilation_toolchains"}]
+}
+</script>
 
 Cross-compilation is the process of building executable code on one architecture (the **Build
 Host**) that is intended to execute on a different architecture or operating system (the
@@ -226,6 +244,15 @@ set(CMAKE_SYSROOT /usr/riscv64-linux-gnu)
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "1_compiler_and_standards", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards"}, {"name": "4_crosscompilation_toolchains", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/4_crosscompilation_toolchains"}]
+}
+</script>
 
 ## Handling Dependencies (Vcpkg)
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "Intro", "url": "https://python.wyattau.com/intro"}]
+}
+</script>
 title: Introduction to Python
 description: "Python Introduction to Python notes covering key definitions, core concepts, worked examples, and practice questions for complete study and thorough revision."
 tags:
@@ -6,6 +15,15 @@ tags:
 categories:
   - Python
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "Intro", "url": "https://python.wyattau.com/intro"}]
+}
+</script>
 
 ## Abstract
 

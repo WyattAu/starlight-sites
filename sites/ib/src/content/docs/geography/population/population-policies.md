@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Population", "url": "https://ib.wyattau.com/geography/population"}, {"name": "Population Policies", "url": "https://ib.wyattau.com/geography/population/population-policies"}]
+}
+</script>
 title: Population Policies
 description: "Population policies are deliberate government interventions designed to influence the size, growth, Structure, or distribution of a population. They target"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Population", "url": "https://ib.wyattau.com/geography/population"}, {"name": "Population Policies", "url": "https://ib.wyattau.com/geography/population/population-policies"}]
+}
+</script>
 
 # Population Policies
 

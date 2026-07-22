@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Intro", "url": "https://dse.wyattau.com/geography/intro"}]
+}
+</script>
 title: DSE Geography
 description: "Complete revision notes for HKDSE Geography, covering both human and physical geography with worked examples, data-response practice, and exam-style"
 tableOfContents: false
@@ -6,6 +15,15 @@ tags:
   - geography
   - dse
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Intro", "url": "https://dse.wyattau.com/geography/intro"}]
+}
+</script>
 
 # DSE Geography
 

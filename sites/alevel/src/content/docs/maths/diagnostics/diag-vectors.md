@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Vectors", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-vectors"}]
+}
+</script>
 title: "Vectors -- Diagnostic Tests"
 description: "A-Level Maths Vectors -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Vectors", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-vectors"}]
+}
+</script>
 
 
 ## Intuition
@@ -84,6 +102,15 @@ $$\text{Percentage overestimate} = \frac{\sqrt{11} - \sqrt{5/7}}{\sqrt{5/7}} \ti
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Vectors", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-vectors"}]
+}
+</script>
+
 ### UT-2: Distinguishing Skew, Parallel, and Intersecting Lines in 3D
 
 **Question:**
@@ -154,6 +181,15 @@ $$d = \frac{\lvert -3 \rvert}{\sqrt{19}} = \frac{3}{\sqrt{19}} = \frac{3\sqrt{19
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Vectors", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-vectors"}]
+}
+</script>
+
 ### UT-3: Angle Between Two Planes Using Normal Vectors
 
 **Question:**
@@ -212,6 +248,15 @@ The student must always take the acute angle, which is why the absolute value is
 cosine formula.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Vectors", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-vectors"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -283,6 +328,15 @@ $$-1(x-1) - 3(y-2) = 0 \implies -x + 1 - 3y + 6 = 0 \implies x + 3y - 7 = 0$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Vectors", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-vectors"}]
+}
+</script>
+
 ### IT-2: Relative Velocity and Closest Approach (with Mechanics)
 
 **Question:**
@@ -349,6 +403,15 @@ The ships are never exactly 5 km apart. The minimum distance is
 $\frac{10\sqrt{6}}{3} \approx 8.16$ km, which exceeds 5 km.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Vectors", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-vectors"}]
+}
+</script>
 
 ### IT-3: Proving a Geometric Theorem Using Vectors (with Proof)
 

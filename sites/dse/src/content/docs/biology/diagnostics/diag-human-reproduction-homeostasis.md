@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
+}
+</script>
 title: "Human Reproduction and Homeostasis -- Diagnostic Tests"
 description: "DSE Biology Human Reproduction and Homeostasis -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
+}
+</script>
 
 # DSE Biology Diagnostic: Human Reproduction and Homeostasis
 
@@ -24,6 +42,15 @@ rise around day 21. Explain the **hormonal mechanism** responsible for the first
 and explain why this peak leads to the LH surge. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -48,6 +75,15 @@ in LH -- the **LH surge** -- which triggers ovulation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
+}
+</script>
+
 ## Unit Test 2: Blood Glucose Regulation
 
 **Question**
@@ -65,6 +101,15 @@ response that follows. [3 marks]
 Describe **two** ways in which glucagon raises blood glucose concentration. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -97,6 +142,15 @@ allowing more glucose to enter cells by facilitated diffusion. Inside cells, glu
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
+}
+</script>
+
 ## Unit Test 3: Immune Response -- Primary vs Secondary
 
 **Question**
@@ -114,6 +168,15 @@ referring to the secondary immune response. [4 marks]
 Evaluate this claim, distinguishing between bacterial and viral pathogens. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -159,6 +222,15 @@ infections, not all pathogens.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
+}
+</script>
+
 ## Intuition
 
 **Life's balancing act:** Homeostasis is like a thermostat — the body constantly monitors conditions and adjusts to keep them stable. Reproduction ensures the species continues.
@@ -181,6 +253,15 @@ trigger the cooling mechanisms described in part (a) to bring the temperature ba
 [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -225,6 +306,15 @@ down.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
+}
+</script>
+
 ## Integration Test 2: Reproductive Systems and Gametogenesis
 
 **Question**
@@ -241,6 +331,15 @@ blastocyst. Describe the structure of the blastocyst and explain the role of the
 implantation. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -292,6 +391,15 @@ into a blastocyst, a hollow ball of cells consisting of:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
+}
+</script>
+
 ## Integration Test 3: Homeostasis and Immune System Interaction
 
 **Question**
@@ -310,6 +418,15 @@ be aware of the symptoms of hypoglycaemia (low blood glucose). Describe **three*
 hypoglycaemia and explain the physiological basis for one of them. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
+}
+</script>
 
 **Worked Solution**
 

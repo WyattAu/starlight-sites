@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Developmental", "url": "https://ib.wyattau.com/psychology/developmental"}, {"name": "Attachment Theory", "url": "https://ib.wyattau.com/psychology/developmental/attachment-theory"}]
+}
+</script>
 title: Attachment Theory
 description: "Attachment refers to the strong, enduring emotional bond that forms between an infant and a primary Caregiver ( the mother). Attachment theory, originally"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Developmental", "url": "https://ib.wyattau.com/psychology/developmental"}, {"name": "Attachment Theory", "url": "https://ib.wyattau.com/psychology/developmental/attachment-theory"}]
+}
+</script>
 
 ## Introduction
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Circular Motion", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-circular-motion"}]
+}
+</script>
 title: "Circular Motion -- Diagnostic Tests"
 description: "A-Level Physics Circular Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Circular Motion", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-circular-motion"}]
+}
+</script>
 
 
 ## Intuition
@@ -72,6 +90,15 @@ weight pulls away.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Circular Motion", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-circular-motion"}]
+}
+</script>
+
 ### UT-2: Conical Pendulum
 
 **Question:**
@@ -117,6 +144,15 @@ $mg = 0.50 \times 9.81 = 4.91\,\text{N}$. Consistent.
 $v = \omega r = \omega \times l\sin\theta = 5.236 \times 1.0 \times \sin 69.0^\circ = 5.236 \times 0.9339 = 4.89\,\text{m}\,\text{s}^{-1}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Circular Motion", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-circular-motion"}]
+}
+</script>
 
 ### UT-3: Banked Curve with Friction
 
@@ -238,6 +274,15 @@ The orbital speed at perigee ($7800\,\text{m}\,\text{s}^{-1}$) is less than esca
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Circular Motion", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-circular-motion"}]
+}
+</script>
+
 ### IT-2: Motorcyclist on a Vertical Wall of Death (with Dynamics)
 
 **Question:**
@@ -284,6 +329,15 @@ motorcyclist has a larger safety margin. The friction required to prevent slidin
 $mg = 2453\,\text{N}$But the maximum available friction has increased to $3527\,\text{N}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Circular Motion", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-circular-motion"}]
+}
+</script>
 
 ### IT-3: Object on a Rotating Platform with Springs (with Oscillations)
 

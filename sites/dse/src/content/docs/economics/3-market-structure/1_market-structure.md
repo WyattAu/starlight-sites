@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
 title: Market Structure and Theory of the Firm
 description: "A market structure describes the organisational and competitive characteristics of a market. The Classification framework rests on four axes: the number of"
 date: 2026-04-08T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Economics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
 
 ## Overview of Market Structures
 
@@ -36,6 +54,15 @@ This file assumes familiarity with cost curves (`TC``ATC``AVC``MC`) and revenue 
 [../2-demand-supply-markets/1_demand-supply-and-markets](../2-demand-supply-markets/1_demand-supply-and-markets).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
 
 ## Theory of Costs and Revenue: Prerequisite Review
 
@@ -73,6 +100,15 @@ at that output covers average variable cost (the shutdown condition in the short
 $$\mathrm{Profit} = \mathrm{TR} - \mathrm{TC} = Q(P - \mathrm{ATC})$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
 
 ## Perfect Competition
 
@@ -264,6 +300,15 @@ The long-run industry supply curve may be:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
+
 ## Monopoly
 
 ### Characteristics
@@ -428,6 +473,15 @@ It is a pure loss to society.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
+
 ## Price Discrimination
 
 ### Definition
@@ -497,6 +551,15 @@ Price discrimination is not unambiguously harmful:
   decrease (if the deadweight loss from misallocation across groups outweighs the output gain).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
 
 ## Monopolistic Competition
 
@@ -631,6 +694,15 @@ Advertising is a central feature of monopolistic competition. Its effects are de
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
+
 ## Oligopoly
 
 ### Characteristics
@@ -760,6 +832,15 @@ Changes price first, and other firms follow. The leading firm is not necessarily
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
+
 ## Efficiency Comparison Across Market Structures
 
 ### Productive Efficiency
@@ -811,6 +892,15 @@ Relationship between market structure and dynamic efficiency is complex and cont
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
+
 ## Contestable Markets Theory
 
 ### Definition
@@ -848,6 +938,15 @@ With one firm but perfectly contestable conditions.
 3. The theory does not address dynamic efficiency or innovation adequately.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
 
 ## Intuition
 
@@ -905,6 +1004,15 @@ With one firm but perfectly contestable conditions.
     and how the gains and losses are distributed across consumer groups.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -1281,6 +1389,15 @@ For `P \gt 0`: `Q = P/10`.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
+
 ## Problem Set
 
 ### Problem 1: Identifying Market Structures
@@ -1526,6 +1643,15 @@ If you get this wrong, revise: [Contestable Markets Theory](#contestable-markets
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
+
 ## Extended Problem Set: Advanced Market Structure Analysis
 
 ### Problem 9: Monopoly with Price Discrimination and Welfare
@@ -1766,6 +1892,15 @@ increases costs.
 If you get this wrong, revise: [Monopolistic Competition](#monopolistic-competition)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
 
 ## Additional Problems: Advanced Market Structure
 

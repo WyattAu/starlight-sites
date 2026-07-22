@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
+}
+</script>
 title: DSE Physics
 description: "DSE Physics revision notes covering key concepts and practice problems."
 date: 2026-04-23T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Physics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
+}
+</script>
 
 ## Course Overview
 
@@ -23,6 +41,15 @@ Topic from the four available options.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
+}
+</script>
+
 ## Examination Structure
 
 | Paper | Component                                  | Duration | Weighting |
@@ -34,6 +61,15 @@ Topic from the four available options.
 **Total: 100%**
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
+}
+</script>
 
 ## Compulsory Topics
 
@@ -117,6 +153,15 @@ notes.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
+}
+</script>
+
 ## Elective Topics (Choose One)
 
 | Elective | Topic                       |
@@ -131,6 +176,15 @@ Weighting (20% of the total mark).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
+}
+</script>
+
 ## Assessment Objectives
 
 Candidates are expected to demonstrate the ability to:
@@ -142,6 +196,15 @@ Candidates are expected to demonstrate the ability to:
    methods
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
+}
+</script>
 
 ## Key Quantities and Units
 
@@ -163,6 +226,15 @@ Candidates are expected to demonstrate the ability to:
 | Resistance           | $R$    | $\Omega$ |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -238,6 +310,15 @@ $$Q = mc\Delta T = 2 \times 900 \times (100 - 20) = 2 \times 900 \times 80 = 144
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
+}
+</script>
+
 ## Examination Tips
 
 - Show all working in numerical calculations; method marks are often awarded even if the final
@@ -253,6 +334,15 @@ $$Q = mc\Delta T = 2 \times 900 \times (100 - 20) = 2 \times 900 \times 80 = 144
 - Memorise key definitions precisely, as examiners look for specific terminology in mark schemes.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
+}
+</script>
 
 ## Problem Set
 
@@ -399,6 +489,15 @@ If you get this wrong, revise: Waves / Sound Intensity
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
+}
+</script>
+
 ## Data Analysis Techniques for DSE Physics
 
 ### Significant Figures
@@ -470,6 +569,15 @@ Obtain a straight line:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
+}
+</script>
+
 ## Practical Skills
 
 ### Measuring Instruments
@@ -505,6 +613,15 @@ Readings.
 measurement of $5.47 \mathrm{ mm}$ gives a corrected value of $5.47 - 0.03 = 5.44 \mathrm{ mm}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
+}
+</script>
 
 ## Exam Technique for DSE Physics
 
@@ -544,6 +661,15 @@ DSE Physics Paper 2 consists of multiple choice questions. Key strategies:
 5. **Do not leave blanks:** There is no penalty for wrong answers in DSE.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
+}
+</script>
 
 ## Problem Set (Mixed Topics)
 

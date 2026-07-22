@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Statistics", "url": "https://ib.wyattau.com/maths/diagnostics/diag-statistics"}]
+}
+</script>
 title: "Statistics -- Diagnostic Tests"
 description: "IB Maths Statistics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Statistics", "url": "https://ib.wyattau.com/maths/diagnostics/diag-statistics"}]
+}
+</script>
 
 # Statistics — Diagnostic Tests
 
@@ -58,6 +76,15 @@ Outliers are values below $0$ or above $112$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Statistics", "url": "https://ib.wyattau.com/maths/diagnostics/diag-statistics"}]
+}
+</script>
+
 ### UT-2: PMCC with Coded Data
 
 **Question:**
@@ -94,6 +121,15 @@ the student used $\frac{285}{9} \approx 31.67$ and then subtracted $25$ (where $
 correct for computing $s_y$But then incorrectly applied the result to $s_x$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Statistics", "url": "https://ib.wyattau.com/maths/diagnostics/diag-statistics"}]
+}
+</script>
 
 ## Integration Tests
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "06 Performance Tuning", "url": "https://truenas.wyattau.com/06-performance-tuning"}, {"name": "Truenas Performance", "url": "https://truenas.wyattau.com/06-performance-tuning/truenas-performance"}]
+}
+</script>
 title: TrueNAS Performance Tuning
 description: "The Adaptive Replacement Cache (ARC) is ZFS' s primary read cache, stored in system RAM. It uses an Algorithm that maintains two lists:"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "06 Performance Tuning", "url": "https://truenas.wyattau.com/06-performance-tuning"}, {"name": "Truenas Performance", "url": "https://truenas.wyattau.com/06-performance-tuning/truenas-performance"}]
+}
+</script>
 
 ## ARC Sizing and Tuning
 
@@ -69,6 +87,15 @@ Directory listing performance.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "06 Performance Tuning", "url": "https://truenas.wyattau.com/06-performance-tuning"}, {"name": "Truenas Performance", "url": "https://truenas.wyattau.com/06-performance-tuning/truenas-performance"}]
+}
+</script>
+
 ## recordsize Selection
 
 ### Understanding recordsize
@@ -104,6 +131,15 @@ Incorrect recordsize causes read amplification:
   large reads, increasing per-I/O overhead and reducing throughput.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "06 Performance Tuning", "url": "https://truenas.wyattau.com/06-performance-tuning"}, {"name": "Truenas Performance", "url": "https://truenas.wyattau.com/06-performance-tuning/truenas-performance"}]
+}
+</script>
 
 ## Compression
 
@@ -143,6 +179,15 @@ zfs set compression=off tank/media/encrypted
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "06 Performance Tuning", "url": "https://truenas.wyattau.com/06-performance-tuning"}, {"name": "Truenas Performance", "url": "https://truenas.wyattau.com/06-performance-tuning/truenas-performance"}]
+}
+</script>
+
 ## Deduplication
 
 ### How Dedup Works
@@ -180,6 +225,15 @@ Exceeds the space savings from deduplication. Use compression (lz4/zstd) instead
 Meaningful space savings with no memory cost.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "06 Performance Tuning", "url": "https://truenas.wyattau.com/06-performance-tuning"}, {"name": "Truenas Performance", "url": "https://truenas.wyattau.com/06-performance-tuning/truenas-performance"}]
+}
+</script>
 
 ## SMB Tuning
 
@@ -228,6 +282,15 @@ Throughput and providing failover:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "06 Performance Tuning", "url": "https://truenas.wyattau.com/06-performance-tuning"}, {"name": "Truenas Performance", "url": "https://truenas.wyattau.com/06-performance-tuning/truenas-performance"}]
+}
+</script>
+
 ## NFS Tuning
 
 ### NFSv4 Configuration
@@ -266,6 +329,15 @@ Ensures data integrity regardless of the NFS sync setting, but async mode can re
 The client before the data is actually stable on disk.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "06 Performance Tuning", "url": "https://truenas.wyattau.com/06-performance-tuning"}, {"name": "Truenas Performance", "url": "https://truenas.wyattau.com/06-performance-tuning/truenas-performance"}]
+}
+</script>
 
 ## Network Configuration
 
@@ -320,6 +392,15 @@ sysctl -w net.ipv4.tcp_wmem="4096 1048576 16777216"
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "06 Performance Tuning", "url": "https://truenas.wyattau.com/06-performance-tuning"}, {"name": "Truenas Performance", "url": "https://truenas.wyattau.com/06-performance-tuning/truenas-performance"}]
+}
+</script>
 
 ## Hardware Considerations
 
@@ -394,6 +475,15 @@ zpool create -o ashift=12 -O compression=zstd -O atime=off \
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "06 Performance Tuning", "url": "https://truenas.wyattau.com/06-performance-tuning"}, {"name": "Truenas Performance", "url": "https://truenas.wyattau.com/06-performance-tuning/truenas-performance"}]
+}
+</script>
+
 ## Monitoring Performance
 
 ### zfs_arcstats Monitoring
@@ -421,6 +511,15 @@ kstat -p zfs:0:arcstats:l2_misses
 | Low write throughput  | Insufficient vdevs, slow disks    | Add vdevs (striping across vdevs increases throughput) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "06 Performance Tuning", "url": "https://truenas.wyattau.com/06-performance-tuning"}, {"name": "Truenas Performance", "url": "https://truenas.wyattau.com/06-performance-tuning/truenas-performance"}]
+}
+</script>
 
 ## Common Pitfalls
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Physics", "url": "https://ap.wyattau.com/physics"}, {"name": "8 Magnetism", "url": "https://ap.wyattau.com/physics/8-magnetism"}, {"name": "8_magnetism", "url": "https://ap.wyattau.com/physics/8-magnetism/8_magnetism"}]
+}
+</script>
 title: Magnetism
 description: "A charge moving with velocity in a magnetic field experiences: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-05-05
@@ -9,6 +18,15 @@ categories:
   - ap-physics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Physics", "url": "https://ap.wyattau.com/physics"}, {"name": "8 Magnetism", "url": "https://ap.wyattau.com/physics/8-magnetism"}, {"name": "8_magnetism", "url": "https://ap.wyattau.com/physics/8-magnetism/8_magnetism"}]
+}
+</script>
 
 ## Magnetic Force on a Moving Charge
 

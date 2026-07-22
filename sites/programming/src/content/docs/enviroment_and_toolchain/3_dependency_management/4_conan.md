@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "4_conan", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/4_conan"}]
+}
+</script>
 title: Conan
 description: "Conan C++ package manager for binary compatibility."
 date: 2025-12-11T05:01:52.356Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - cpp
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "4_conan", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/4_conan"}]
+}
+</script>
 
 **Conan** is a decentralized, open-source package manager designed specifically for C++'s complex
 Binary compatibility requirements. Unlike vcpkg, which defaults to a source-based model, Conan
@@ -278,6 +296,15 @@ conan user -p <password> -r internal-artifacts <username>
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "4_conan", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/4_conan"}]
+}
+</script>
+
 ## Creating Packages (`conan create`)
 
 The `conan create` command is the primary mechanism for building and publishing Conan packages. It
@@ -384,6 +411,15 @@ def package_info(self):
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "4_conan", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/4_conan"}]
+}
+</script>
+
 ## CMake Toolchain Integration Details
 
 ### What `CMakeToolchain` Generates
@@ -431,6 +467,15 @@ This is the recommended workflow for Conan 2.x. The `conan install` command gene
 `CMakePresets.json` in the build folder that configures the toolchain and build directories.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "4_conan", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/4_conan"}]
+}
+</script>
 
 ## Version Ranges and Conflict Resolution
 
@@ -482,6 +527,15 @@ reproducible builds across machines and time.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "4_conan", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/4_conan"}]
+}
+</script>
+
 ## `build_requires` vs `requires`
 
 Conan 2.x distinguishes between two types of dependencies:
@@ -522,6 +576,15 @@ class MyLibConan(ConanFile):
 | **Build-time only**          | No                    | Yes                   |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "4_conan", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/4_conan"}]
+}
+</script>
 
 ## Binary Cache and Local Cache
 
@@ -564,6 +627,15 @@ conan cache path fmt/10.1.1:<package_id_hash>
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "4_conan", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/4_conan"}]
+}
+</script>
+
 ## Conan 1 vs Conan 2: Migration Guide
 
 Conan 2.x introduced breaking changes designed to simplify the API and improve performance. The
@@ -594,6 +666,15 @@ Following table highlights the key differences.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "4_conan", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/4_conan"}]
+}
+</script>
+
 ## Conan vs vcpkg: Architectural Trade-offs
 
 | Aspect             | Conan                                              | vcpkg                                           |
@@ -611,6 +692,15 @@ Dependency is built repeatedly. Vcpkg's source-first approach guarantees reprodu
 Build from source on your exact toolchain) but at the cost of build time.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "4_conan", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/4_conan"}]
+}
+</script>
 
 ## Common Pitfalls
 

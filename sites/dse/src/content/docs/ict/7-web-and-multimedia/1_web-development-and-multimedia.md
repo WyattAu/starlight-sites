@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "7 Web And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia"}, {"name": "1_web Development And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia"}]
+}
+</script>
 title: Web Development and Multimedia
 description: "This document provides in-depth coverage of web development (HTML, CSS, JavaScript), web hosting, Client-side vs server-side processing, multimedia"
 date: 2026-04-08T00:00:00.000Z
@@ -11,6 +20,15 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "7 Web And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia"}, {"name": "1_web Development And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia"}]
+}
+</script>
+
 ## Intuition
 
 Web development separates concerns into three layers: HTML provides structure like the skeleton of a building, CSS adds presentation like paint and decoration, and JavaScript enables interactivity like electrical wiring. Semantic HTML improves accessibility and search engine indexing by describing the meaning of content rather than just its appearance. Client-side processing runs in the browser for immediate feedback, while server-side processing handles data and business logic on the remote machine. Understanding this division is fundamental to building effective web applications.
@@ -21,6 +39,15 @@ Introduction to HTML, CSS, and JavaScript is available in
 [../4-networking-and-internet/1_internet-and-data-communications](../4-networking-and-internet/1_internet-and-data-communications).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "7 Web And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia"}, {"name": "1_web Development And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia"}]
+}
+</script>
 
 ## HTML -- Structure and Semantics
 
@@ -200,6 +227,15 @@ Forms collect user input and submit it to a server for processing.
 | `<td>`      | Data cell                              |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "7 Web And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia"}, {"name": "1_web Development And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia"}]
+}
+</script>
 
 ## CSS -- Styling and Layout
 
@@ -422,6 +458,15 @@ External stylesheets are the recommended approach for maintainability, caching, 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "7 Web And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia"}, {"name": "1_web Development And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia"}]
+}
+</script>
+
 ## JavaScript -- Programming for the Web
 
 ### Variables
@@ -613,6 +658,15 @@ scores.sort(function (a, b) {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "7 Web And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia"}, {"name": "1_web Development And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia"}]
+}
+</script>
+
 ## Web Hosting and Domain Names
 
 ### Web Hosting Types
@@ -651,6 +705,15 @@ scores.sort(function (a, b) {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "7 Web And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia"}, {"name": "1_web Development And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia"}]
+}
+</script>
+
 ## Client-Side vs Server-Side Processing
 
 ### Comparison
@@ -688,6 +751,15 @@ When a user submits a login form:
 4. **Server** sends back a response (success: redirect to dashboard; failure: error message).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "7 Web And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia"}, {"name": "1_web Development And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia"}]
+}
+</script>
 
 ## Multimedia Applications
 
@@ -739,6 +811,15 @@ When a user submits a login form:
 | **3D animation**   | Three-dimensional animated models                           | Blender, Maya         |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "7 Web And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia"}, {"name": "1_web Development And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia"}]
+}
+</script>
 
 ## User Interface Design Principles
 
@@ -794,6 +875,15 @@ Interface design.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "7 Web And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia"}, {"name": "1_web Development And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Forgetting the DOCTYPE:** Without `<!DOCTYPE html>`Browsers render in quirks mode, which can
@@ -836,6 +926,15 @@ Interface design.
     `prefers-reduced-motion` media query.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "7 Web And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia"}, {"name": "1_web Development And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -1086,6 +1185,15 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "7 Web And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia"}, {"name": "1_web Development And Multimedia", "url": "https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia"}]
+}
+</script>
 
 ## Cross-References
 

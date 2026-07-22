@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
+}
+</script>
 title: "Bonding -- Diagnostic Tests"
 description: "DSE Chemistry Bonding -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
+}
+</script>
 
 # DSE Chemistry Diagnostic: Bonding
 
@@ -19,6 +37,15 @@ why this prediction is incorrect. [2 marks]
 (c) Predict the bond angles in $ClF_{3}$ and explain any deviation from the ideal angle. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -52,6 +79,15 @@ In $ClF_{3}$:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
+}
+</script>
+
 ## Unit Test 2: Molecular Polarity
 
 **Question**
@@ -67,6 +103,15 @@ molecular geometry. [4 marks]
 point of $-52\degree C$Even though $CF_{4}$ has a higher molar mass. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -94,6 +139,15 @@ $CH_{2}F_{2}$ more than compensate, giving it a significantly higher boiling poi
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
+}
+</script>
+
 ## Unit Test 3: Intermolecular Forces and Hydrogen Bonding
 
 **Question**
@@ -108,6 +162,15 @@ Evaluate this claim. [2 marks]
 hydrogen sulphide ($H_{2}S$$-60\degree C$), even though both are Group 16 hydrides. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -139,6 +202,15 @@ exceptionally strong, resulting in a dramatically higher boiling point.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
+}
+</script>
+
 ## Intuition
 
 **Atoms holding hands:** Chemical bonds are how atoms share or transfer electrons to become more stable. Ionic bonds are like opposites attracting (metal gives electrons to nonmetal); covalent bonds are sharing (nonmetals share electrons).
@@ -168,6 +240,15 @@ Four substances have the following properties:
 the types of intermolecular forces present. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -211,6 +292,15 @@ forces due to larger molecular size) requiring more energy to overcome.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
+}
+</script>
+
 ## Integration Test 2: VSEPR + Polarity + IMF
 
 **Question**
@@ -226,6 +316,15 @@ Consider the molecule $XeF_{4}$.
 has no net dipole moment. Evaluate this argument. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -257,6 +356,15 @@ permanent dipole does not necessarily mean weaker overall IMF.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
+}
+</script>
+
 ## Integration Test 3: Bond Energy and Properties
 
 **Question**
@@ -287,6 +395,15 @@ $$CH_{4}(g) + 4Cl_{2}(g) \rightarrow CCl_{4}(g) + 4HCl(g)$$
 electronegative. Explain this anomaly. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
+}
+</script>
 
 **Worked Solution**
 

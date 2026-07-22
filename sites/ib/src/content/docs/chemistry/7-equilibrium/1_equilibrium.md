@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
 title: Chemical Equilibrium
 description: "Rigorous IB chemistry notes covering Chemical Equilibrium. Includes definitions, derivations, worked examples, and exam-style problems. constants, and acid-b"
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
 
 ## Intuition
 
@@ -50,6 +68,15 @@ At equilibrium:
 | Closed system     | Required                             |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
 
 ## The Equilibrium Constant
 
@@ -110,6 +137,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
+
 ## Le Chatelier"s Principle
 
 ### Statement
@@ -160,6 +196,15 @@ $K$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
+
 ## Equilibrium Calculations
 
 ### ICE Tables
@@ -208,6 +253,15 @@ Equilibrium concentrations: [H$_2$] = [I$_2$] = $0.219\mathrm{ mol/L}$[HI] = $1.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
+
 ## Industrial Applications
 
 ### The Haber Process
@@ -235,6 +289,15 @@ $$
 | Catalyst    | V$_2$O$_5$ catalyst       | V$_2$O$_5$                                    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
 
 ## Acid-Base Equilibrium
 
@@ -346,6 +409,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
+
 ## Buffers
 
 ### Definition
@@ -392,6 +464,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
+
 ## Neutralisation and Indicators
 
 ### Strong Acid + Strong Base
@@ -424,6 +505,15 @@ Forms.
 | Phenolphthalein  | 8.3--10.0 | Colourless $\to$ pink |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
 
 ## Solubility Product ($K_{sp}$)
 
@@ -489,6 +579,15 @@ The solubility is much lower due to the common ion effect.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
 
 ## IB Exam-Style Questions
 
@@ -556,6 +655,15 @@ Four are 1:1 salts, so the highest $K_{sp}$ gives the highest solubility: BaSO$_
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
+
 ## Summary
 
 | Concept               | Formula                                                                    |
@@ -577,6 +685,15 @@ Stoichiometry carefully.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
 
 ## Equilibrium: Extended Topics
 
@@ -719,6 +836,15 @@ The solution is basic, as expected for the salt of a weak acid and strong base.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
 
 ## Additional IB Exam-Style Questions
 
@@ -956,6 +1082,15 @@ $$\mathrm{pH} = -\log(5.83 \times 10^{-3}) = 2.23$$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "7 Equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium"}, {"name": "1_equilibrium", "url": "https://ib.wyattau.com/chemistry/7-equilibrium/1_equilibrium"}]
+}
+</script>
 
 ## Related Content at Other Levels
 

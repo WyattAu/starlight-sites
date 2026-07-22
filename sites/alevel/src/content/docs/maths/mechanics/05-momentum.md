@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/maths/mechanics"}, {"name": "05 Momentum", "url": "https://alevel.wyattau.com/maths/mechanics/05-momentum"}]
+}
+</script>
 title: Momentum
 description: "| Board | Paper | Notes | | ---------- | ------- | ------------------------------ | | AQA | Paper 1 | Momentum, impulse, collisions | | Edexcel | P1 |"
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/maths/mechanics"}, {"name": "05 Momentum", "url": "https://alevel.wyattau.com/maths/mechanics/05-momentum"}]
+}
+</script>
 
 ## Board Coverage
 
@@ -889,6 +907,15 @@ Section 8.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/maths/mechanics"}, {"name": "05 Momentum", "url": "https://alevel.wyattau.com/maths/mechanics/05-momentum"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 within the A-Level specification for this topic, each with a full worked solution.

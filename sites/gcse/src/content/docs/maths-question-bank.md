@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
 title: Maths Question Bank
 date: 2026-05-30
 description: "20 exam-style multiple-choice questions organised by topic. Each question includes four options, the correct answer, a full explanation, a difficulty badge,"
@@ -10,6 +19,15 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
+
 ## GCSE Maths Question Bank
 
 20 exam-style multiple-choice questions organised by topic. Each question includes four options, the
@@ -20,6 +38,15 @@ correct answer, a full explanation, a difficulty badge, and a mark value.
 `easy | medium | hard` and `correctAnswer` is the zero-indexed option.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
 
 ## Number (Fractions, Percentages, Ratios)
 
@@ -42,6 +69,15 @@ $\frac{3}{4} + \frac{2}{5} = \frac{15}{20} + \frac{8}{20} = \frac{23}{20}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
+
 ### Q2 — Percentage Change
 
 > A jacket costs £80. It is reduced by 15% in a sale. What is the new price?
@@ -60,6 +96,15 @@ $15\% \text{ of } 80 = 0.15 \times 80 = 12$. New price = $80 - 12 = £68$.
 `easy` — 2 marks
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
 
 ### Q3 — Reverse Percentage
 
@@ -80,6 +125,15 @@ Original $\times 1.20 = 360$, so original $= 360 \div 1.20 = 300$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
+
 ### Q4 — Ratio Problem
 
 > The ratio of boys to girls in a class is 3:5. There are 32 students in total. How many boys are
@@ -99,6 +153,15 @@ $3 + 5 = 8$ parts. One part $= 32 \div 8 = 4$. Boys $= 3 \times 4 = 12$.
 `easy` — 2 marks
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
 
 ## Algebra (Solving Equations, Inequalities, Sequences)
 
@@ -121,6 +184,15 @@ $4x - 2x = 9 + 7 \Rightarrow 2x = 16 \Rightarrow x = 8$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
+
 ### Q6 — Quadratic Equation
 
 > Solve $x^2 - 5x + 6 = 0$.
@@ -139,6 +211,15 @@ $(x - 2)(x - 3) = 0$, so $x = 2$ or $x = 3$.
 `medium` — 3 marks
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
 
 ### Q7 — Inequality
 
@@ -159,6 +240,15 @@ $3x - 2x > -5 - 4 \Rightarrow x > -9$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
+
 ### Q8 — Nth Term of a Sequence
 
 > The nth term of a sequence is $2n^2 + 3n$. What is the 5th term?
@@ -177,6 +267,15 @@ $n = 5$: $2(25) + 3(5) = 50 + 15 = 65$.
 `medium` — 3 marks
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
 
 ## Geometry (Angles, Circles, Transformations)
 
@@ -199,6 +298,15 @@ Angles in a triangle sum to 180°. $180 - 55 - 75 = 50°$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
+
 ### Q10 — Circle Theorems
 
 > A, B, and C are points on the circumference of a circle where AC is the diameter. Angle BAC = 38°.
@@ -219,6 +327,15 @@ The angle subtended by the diameter is a right angle (Thales" theorem). Angle AB
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
+
 ### Q11 — Area of a Circle
 
 > A circle has a radius of 7 cm. Taking $\pi = \frac{22}{7}$, what is the area of the circle?
@@ -237,6 +354,15 @@ $A = \pi r^2 = \frac{22}{7} \times 49 = 22 \times 7 = 154 \text{ cm}^2$.
 `easy` — 2 marks
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
 
 ### Q12 — Translation
 
@@ -257,6 +383,15 @@ $P' = (3 - 4, 2 + 5) = (-1, 7)$.
 `medium` — 3 marks
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
 
 ## Statistics (Mean, Median, Mode, Probability)
 
@@ -279,6 +414,15 @@ Mean $= (3 + 5 + 5 + 7 + 9) \div 5 = 29 \div 5 = 5.8$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
+
 ### Q14 — Median
 
 > Find the median of: 2, 7, 1, 8, 3, 5, 6.
@@ -297,6 +441,15 @@ Ordered: 1, 2, 3, **5**, 6, 7, 8. The middle value (4th of 7) is 5.
 `easy` — 2 marks
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
 
 ### Q15 — Probability
 
@@ -318,6 +471,15 @@ $P(\text{blue}) = \frac{5}{3 + 5 + 2} = \frac{5}{10} = \frac{1}{2}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
+
 ### Q16 — Combined Probability
 
 > Two fair six-sided dice are rolled. What is the probability that the sum is 7?
@@ -337,6 +499,15 @@ outcomes. $P = \frac{6}{36} = \frac{1}{6}$.
 `medium` — 3 marks
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
 
 ## Ratio and Proportion
 
@@ -359,6 +530,15 @@ Scale factor: $96 \div 60 = 1.6$. Paint needed: $5 \times 1.6 = 8$ litres.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
+
 ### Q18 — Ratio Sharing
 
 > £240 is shared in the ratio 2:3:5. What is the largest share?
@@ -378,6 +558,15 @@ $2 + 3 + 5 = 10$ parts. One part = £24. Largest share = $5 \times 24 = £120$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
+
 ### Q19 — Speed, Distance, Time
 
 > A car travels 180 miles in 2 hours 30 minutes. What is its average speed in mph?
@@ -396,6 +585,15 @@ $2 \text{ h } 30 \text{ min} = 2.5 \text{ h}$. Speed $= 180 \div 2.5 = 72 \text{
 `medium` — 3 marks
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
 
 ### Q20 — Exchange Rates
 
@@ -438,6 +636,15 @@ the answer is £180.
 `hard` — 4 marks
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
+}
+</script>
 
 ## Summary
 

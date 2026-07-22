@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Complex Numbers", "url": "https://ib.wyattau.com/maths/diagnostics/diag-complex-numbers"}]
+}
+</script>
 title: "Complex Numbers -- Diagnostic Tests"
 description: "IB Maths Complex Numbers -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Complex Numbers", "url": "https://ib.wyattau.com/maths/diagnostics/diag-complex-numbers"}]
+}
+</script>
 
 # Complex Numbers — Diagnostic Tests
 
@@ -62,6 +80,15 @@ outside $(-\pi, \pi]$ to the principal range.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Complex Numbers", "url": "https://ib.wyattau.com/maths/diagnostics/diag-complex-numbers"}]
+}
+</script>
+
 ### UT-2: Polar Form Conversion — Wrong Quadrant
 
 **Question:**
@@ -104,6 +131,15 @@ Modulus: $|z| = \sqrt{(-1)^2 + (-\sqrt{3})^2} = \sqrt{1 + 3} = 2$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Complex Numbers", "url": "https://ib.wyattau.com/maths/diagnostics/diag-complex-numbers"}]
+}
+</script>
+
 ### UT-3: Complex Division and Conjugate Properties
 
 **Question:**
@@ -143,6 +179,15 @@ $$\frac{a^2 + b^2 + 1}{\sqrt{a^2 + b^2}} = \sqrt{a^2 + b^2} + \frac{1}{\sqrt{a^2
 By the AM-GM inequality (with equality when $\sqrt{a^2 + b^2} = 1$).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Complex Numbers", "url": "https://ib.wyattau.com/maths/diagnostics/diag-complex-numbers"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -201,6 +246,15 @@ Therefore:
 $$\sum \cos^3\theta = \frac{3}{8} + \frac{3}{4} \times 0 = \frac{3}{8}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Complex Numbers", "url": "https://ib.wyattau.com/maths/diagnostics/diag-complex-numbers"}]
+}
+</script>
 
 ### IT-2: Rotation Matrices from Roots of Unity (with Matrices)
 

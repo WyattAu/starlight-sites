@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Function_architecture", "url": "https://cpp.wyattau.com/function_architecture"}, {"name": "1_function_mechanics", "url": "https://cpp.wyattau.com/function_architecture/1_function_mechanics"}, {"name": "4_type_erasure", "url": "https://cpp.wyattau.com/function_architecture/1_function_mechanics/4_type_erasure"}]
+}
+</script>
 title: Type Erasure — Function Pointers, std::function, std::move_only_function
 description: "Type erasure allows heterogeneous callables to be stored and invoked through a uniform interface. This section covers the progression from raw function"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Function_architecture", "url": "https://cpp.wyattau.com/function_architecture"}, {"name": "1_function_mechanics", "url": "https://cpp.wyattau.com/function_architecture/1_function_mechanics"}, {"name": "4_type_erasure", "url": "https://cpp.wyattau.com/function_architecture/1_function_mechanics/4_type_erasure"}]
+}
+</script>
 
 # Type Erasure: Function Pointers, std::function, std::move_only_function
 

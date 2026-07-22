@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "3_lebesgue Outer Measure And Caratheodory Extension", "url": "https://mathematics.wyattau.com/10-measure-theory/3_lebesgue-outer-measure-and-caratheodory-extension"}]
+}
+</script>
 title: Lebesgue Outer Measure and Caratheodory Extension
 tags:
   - Mathematics
   - University
 description: "Comprehensive educational content notes on lebesgue outer measure and caratheodory extension with precise definitions, worked examples, and common pitfalls."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "3_lebesgue Outer Measure And Caratheodory Extension", "url": "https://mathematics.wyattau.com/10-measure-theory/3_lebesgue-outer-measure-and-caratheodory-extension"}]
+}
+</script>
 
 ### 3.1 Outer Measures
 

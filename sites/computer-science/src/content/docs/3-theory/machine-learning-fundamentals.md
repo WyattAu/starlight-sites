@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Theory", "url": "https://computer-science.wyattau.com/3-theory"}, {"name": "Machine Learning Fundamentals", "url": "https://computer-science.wyattau.com/3-theory/machine-learning-fundamentals"}]
+}
+</script>
 title: Machine Learning Fundamentals
 description: "Given features , predict a continuous target : Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-05-31T00:00:00.000Z
@@ -8,6 +17,15 @@ tags:
 categories:
   - Computer Science
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Theory", "url": "https://computer-science.wyattau.com/3-theory"}, {"name": "Machine Learning Fundamentals", "url": "https://computer-science.wyattau.com/3-theory/machine-learning-fundamentals"}]
+}
+</script>
 
 ## 1. Linear Regression
 

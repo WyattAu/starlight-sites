@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Haskell", "url": "https://languages.wyattau.com/haskell"}, {"name": "Practice Haskell Basics", "url": "https://languages.wyattau.com/haskell/practice-haskell-basics"}]
+}
+</script>
 title: Haskell Practice (Basics)
 description: "10 auto-graded practice problems covering core Haskell concepts. Select an answe Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-06-04
@@ -7,6 +16,15 @@ tags:
 categories:
   - Haskell
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Haskell", "url": "https://languages.wyattau.com/haskell"}, {"name": "Practice Haskell Basics", "url": "https://languages.wyattau.com/haskell/practice-haskell-basics"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -26,6 +44,15 @@ review the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Haskell", "url": "https://languages.wyattau.com/haskell"}, {"name": "Practice Haskell Basics", "url": "https://languages.wyattau.com/haskell/practice-haskell-basics"}]
+}
+</script>
+
 ### Types and Functions
 
 <PracticeProblem client:only="solid-js" question={"What is the type of the expression `map (*2) [1, 2, 3]`?&quot; options={['[Int]', '[Integer]', '[Num a] => [a]', 'Int']} correctAnswer={0} explanation=&quot;map (*2) [1, 2, 3] applies the doubling function to each element. Since the list contains Int literals, the result type is [Int]. The expression map :: (a -> b) -> [a] -> [b]  with (*2) :: Num a => a -> a yields Num a => [a], but the concrete list literals default to Int."} difficulty="easy"  />
@@ -33,6 +60,15 @@ review the explanation.
 <PracticeProblem client:only="solid-js" question='What does `"hello" ++ " " ++ "world"` evaluate to?' options={['"hello world"', '"helloworld"', '["hello", " ", "world"]', 'TypeError']} correctAnswer={0} explanation={`(++) :: [a] -> [a] -> [a] concatenates lists. Since String is [Char], string concatenation uses (++) to join the three strings into one: "hello world".`} difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Haskell", "url": "https://languages.wyattau.com/haskell"}, {"name": "Practice Haskell Basics", "url": "https://languages.wyattau.com/haskell/practice-haskell-basics"}]
+}
+</script>
 
 ### Pattern Matching
 
@@ -42,6 +78,15 @@ review the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Haskell", "url": "https://languages.wyattau.com/haskell"}, {"name": "Practice Haskell Basics", "url": "https://languages.wyattau.com/haskell/practice-haskell-basics"}]
+}
+</script>
+
 ### Type Classes
 
 <PracticeProblem client:only="solid-js" question={"Which type class must be a superclass of Ord in Haskell?&quot; options={['Eq', 'Show', 'Num', 'Functor']} correctAnswer={0} explanation=&quot;Ord requires Eq because you need equality to define ordering comparisons. The Haskell 2010 standard defines class Eq a => Ord a. You cannot compare for ordering without being able to compare for equality."} difficulty="medium"  />
@@ -50,6 +95,15 @@ review the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Haskell", "url": "https://languages.wyattau.com/haskell"}, {"name": "Practice Haskell Basics", "url": "https://languages.wyattau.com/haskell/practice-haskell-basics"}]
+}
+</script>
+
 ### Monads
 
 <PracticeProblem client:only="solid-js" question={"In do notation, what does `x <- action` desugar to?&quot; options={[ 'action >>= (\\x -> ...)', 'action >> (\\x -> ...)', 'action $ (\\x -> ...)', 'action <*> (\\x -> ...)', ]} correctAnswer={0} explanation=&quot;The bind operator (>>=) chains monadic computations. `x <- action` followed by `rest` desugars to action >>= (\\x -> rest). The lambda captures the result of action and binds it to x for use in the continuation."} difficulty="medium"  />
@@ -57,6 +111,15 @@ review the explanation.
 <PracticeProblem client:only="solid-js" question={"What happens when safeDivide 10 0 is called where safeDivide x y = if y == 0 then Nothing else Just (x `div` y)?&quot; options={['Nothing', 'Just 0', 'RuntimeError', 'Just infinity']} correctAnswer={0} explanation=&quot;When y == 0, the function returns Nothing, which propagates through any monadic bind chain. This is the core benefit of Maybe: failure is handled structurally without exceptions or null checks."} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Haskell", "url": "https://languages.wyattau.com/haskell"}, {"name": "Practice Haskell Basics", "url": "https://languages.wyattau.com/haskell/practice-haskell-basics"}]
+}
+</script>
 
 ### Lazy Evaluation
 

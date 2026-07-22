@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "07 Cargo Ecosystem", "url": "https://rust.wyattau.com/07-cargo-ecosystem"}, {"name": "Unsafe Rust", "url": "https://rust.wyattau.com/07-cargo-ecosystem/unsafe-rust"}]
+}
+</script>
 title: Unsafe Rust
 description: "The keyword grants access to five capabilities that the compiler cannot verify: Comprehensive educational content coverage with definitions and practice problem"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "07 Cargo Ecosystem", "url": "https://rust.wyattau.com/07-cargo-ecosystem"}, {"name": "Unsafe Rust", "url": "https://rust.wyattau.com/07-cargo-ecosystem/unsafe-rust"}]
+}
+</script>
 
 ## What `unsafe` Enables
 

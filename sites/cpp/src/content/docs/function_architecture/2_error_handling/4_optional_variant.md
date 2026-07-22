@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Function_architecture", "url": "https://cpp.wyattau.com/function_architecture"}, {"name": "2_error_handling", "url": "https://cpp.wyattau.com/function_architecture/2_error_handling"}, {"name": "4_optional_variant", "url": "https://cpp.wyattau.com/function_architecture/2_error_handling/4_optional_variant"}]
+}
+</script>
 title: Algebraic Error Handling — std::optional and std::variant
 description: "and are stack-allocated, type-safe alternatives to exceptions for Representing values that may be absent or that may hold one of several alternative types."
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Function_architecture", "url": "https://cpp.wyattau.com/function_architecture"}, {"name": "2_error_handling", "url": "https://cpp.wyattau.com/function_architecture/2_error_handling"}, {"name": "4_optional_variant", "url": "https://cpp.wyattau.com/function_architecture/2_error_handling/4_optional_variant"}]
+}
+</script>
 
 # Algebraic Error Handling
 

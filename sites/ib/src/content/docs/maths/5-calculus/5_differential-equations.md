@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "5_differential Equations", "url": "https://ib.wyattau.com/maths/5-calculus/5_differential-equations"}]
+}
+</script>
 title: "Differential Equations"
 description: "IB Mathematics — first order separable equations, integrating factors, second order homogeneous equations, applications, and numerical methods."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "5_differential Equations", "url": "https://ib.wyattau.com/maths/5-calculus/5_differential-equations"}]
+}
+</script>
 
 ## First Order Differential Equations
 
@@ -19,6 +37,15 @@ order DE contains $n$ arbitrary constants. A **particular solution** is obtained
 or boundary conditions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "5_differential Equations", "url": "https://ib.wyattau.com/maths/5-calculus/5_differential-equations"}]
+}
+</script>
 
 ## Separable First Order Equations
 
@@ -63,6 +90,15 @@ $$\frac{dy}{y + 1} = \frac{dx}{x} \implies \ln|y + 1| = \ln x + C \implies |y + 
 $$y + 1 = Ax \implies y = Ax - 1$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "5_differential Equations", "url": "https://ib.wyattau.com/maths/5-calculus/5_differential-equations"}]
+}
+</script>
 
 ## First Order Linear Equations and Integrating Factors
 
@@ -124,6 +160,15 @@ $$e^{-3x} y = -2e^{-3x} + C \implies y = -2 + Ce^{3x}$$
 Using $y(0) = 1$: $1 = -2 + C \implies C = 3$. Hence $y = 3e^{3x} - 2$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "5_differential Equations", "url": "https://ib.wyattau.com/maths/5-calculus/5_differential-equations"}]
+}
+</script>
 
 ## Second Order Homogeneous Equations
 
@@ -196,6 +241,15 @@ $y(0) = A + B = 0 \implies B = -A$. $y'(0) = A - B = 1 \implies 2A = 1 \implies 
 $$y = \frac{1}{2}e^x - \frac{1}{2}e^{-x} = \sinh x$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "5_differential Equations", "url": "https://ib.wyattau.com/maths/5-calculus/5_differential-equations"}]
+}
+</script>
 
 ## Applications
 
@@ -312,6 +366,15 @@ The **terminal velocity** is $v_T = \dfrac{mg}{k}$ (as $t \to \infty$).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "5_differential Equations", "url": "https://ib.wyattau.com/maths/5-calculus/5_differential-equations"}]
+}
+</script>
+
 ## Numerical Methods
 
 ### Euler's Method
@@ -382,6 +445,15 @@ behaviour Of the DE (equilibrium, asymptotes, periodicity).
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "5_differential Equations", "url": "https://ib.wyattau.com/maths/5-calculus/5_differential-equations"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -529,6 +601,15 @@ Error: $|1.522 - 1.505| \approx 0.017$Roughly $1.1\%$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "5_differential Equations", "url": "https://ib.wyattau.com/maths/5-calculus/5_differential-equations"}]
+}
+</script>
+
 ## Intuition
 
 A differential equation is a sentence about change. It does not tell you where you are; it tells you how you are moving. Separable equations are the simplest case — imagine a car whose speed depends only on its position. You can separate the "where" from the "how fast" and integrate each side independently. The integrating factor trick for linear equations is like finding the right lens through which a tangled expression suddenly comes into focus — it transforms a messy left side into the derivative of a product you can integrate directly. Second order equations describe systems with inertia, like springs and circuits, where the future depends on both position and velocity.
@@ -569,6 +650,15 @@ A differential equation is a sentence about change. It does not tell you where y
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "5_differential Equations", "url": "https://ib.wyattau.com/maths/5-calculus/5_differential-equations"}]
+}
+</script>
+
 ## Exam-Style Problems
 
 1. Solve $\dfrac{dy}{dx} = \dfrac{e^{x+y}}{e^x + 1}$ given $y(0) = \ln 3$.
@@ -596,6 +686,15 @@ A differential equation is a sentence about change. It does not tell you where y
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "5_differential Equations", "url": "https://ib.wyattau.com/maths/5-calculus/5_differential-equations"}]
+}
+</script>
+
 ## Cross-References
 
 - **Integration techniques** used in solving DEs: see
@@ -607,6 +706,15 @@ For the A-Level Further Maths treatment of this topic, see
 [Differential Equations](https://alevel.wyattau.com/docs/further-maths/pure-mathematics/differential-equations).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "5_differential Equations", "url": "https://ib.wyattau.com/maths/5-calculus/5_differential-equations"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 questions within the IB specification for this topic, each with a full worked solution.

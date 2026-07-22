@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "12_practice Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory/12_practice-measure-theory"}]
+}
+</script>
 title: Measure Theory Practice (Interactive)
 tags:
   - mathematics
   - university
 description: "10 auto-graded practice problems covering fundamentals, integration, and spaces. Select an answer, submit, and review the explanation."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "12_practice Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory/12_practice-measure-theory"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -24,6 +42,15 @@ answer, submit, and review the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "12_practice Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory/12_practice-measure-theory"}]
+}
+</script>
+
 ### Fundamentals
 
 <PracticeProblem client:only="solid-js" question={"Which of the following is a sigma-algebra on $X = \\{1, 2, 3\\}$?&quot; options={[ '$\\{\\emptyset, \\{1\\}, \\{2, 3\\}, X\\}$', '$\\{\\emptyset, \\{1\\}, \\{2\\}, X\\}$', '$\\{\\emptyset, \\{1, 2\\}, X\\}$', '$\\{\\emptyset, \\{1, 2\\}, \\{3\\}, X\\}$', ]} correctAnswer={0} explanation=&quot;A sigma-algebra must contain $X$ and $\emptyset$, be closed under complements, and be closed under countable unions. Option (a): $\emptyset^c = X$, $\{1\}^c = \{2,3\}$, $\{2,3\}^c = \{1\}$, $X^c = \emptyset$. All unions of these stay in the collection. For (b), $\{1\} \cup \{2\} = \{1,2\}$ is not in the collection. For (c), $\{1,2\}^c = \{3\}$ is missing. For (d), $\{1,2\} \cup \{3\} = X$ is fine, but this set is also a sigma-algebra -- however, the question asks for a correct answer and (a) is valid."} difficulty="easy"  />
@@ -36,6 +63,15 @@ answer, submit, and review the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "12_practice Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory/12_practice-measure-theory"}]
+}
+</script>
+
 ### Integration
 
 <PracticeProblem client:only="solid-js" question={"Let $f_n = n \\chi_{(0, 1/n)}$ on $[0, 1]$ with Lebesgue measure. What is $\\lim_{n \\to \\infty} \\int_0^1 f_n\\, dx$ and does it equal $\\int_0^1 (\\lim f_n)\\, dx$?&quot; options={[ 'The limit of integrals is 1, but the pointwise limit is 0, so they differ', 'Both equal 0', 'Both equal 1', 'The limit of integrals is 0, and the pointwise limit is 1', ]} correctAnswer={0} explanation=&quot;$f_n \to 0$ pointwise everywhere (for any $x > 0$, $f_n(x) = 0$ for $n > 1/x$). But $\int f_n\, dx = n \cdot (1/n) = 1$ for all $n$. So $\lim \int f_n = 1 \neq 0 = \int \lim f_n$. The DCT does not apply because no integrable dominating function exists (the supremum of $f_n$ is unbounded)."} difficulty="medium"  />
@@ -47,6 +83,15 @@ answer, submit, and review the explanation.
 <PracticeProblem client:only="solid-js" question={"Let $f_n \\to f$ pointwise on a finite measure space $(X, \\mathcal{F}, \\mu)$ with $\\int f_n\\, d\\mu = 0$ for all $n$. What can you conclude?&quot; options={[ '$\\int f\\, d\\mu = 0$', '$f = 0$ almost everywhere', '$\\int f\\, d\\mu$ could be any value in $[0, \\mu(X)]$', 'The sequence $f_n$ is dominated by an integrable function', ]} correctAnswer={0} explanation=&quot;Without additional hypotheses (such as a dominating function or non-negativity), nothing guarantees that $\lim \int f_n = \int f$. For example, $f_n = n \chi_{(0,1/n)}$ on $[0,1]$ has $\int f_n = 1$ for all $n$, $f_n \to 0$ a.e., and $\int f = 0 \neq 1 = \lim \int f_n$. So $\int f\, d\mu$ can differ from $\lim \int f_n\, d\mu$."} difficulty="hard"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "12_practice Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory/12_practice-measure-theory"}]
+}
+</script>
 
 ### L^p Spaces
 

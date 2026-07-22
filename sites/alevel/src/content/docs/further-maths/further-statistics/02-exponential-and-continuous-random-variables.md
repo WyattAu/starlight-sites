@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "02 Exponential And Continuous Random Variables", "url": "https://alevel.wyattau.com/further-maths/further-statistics/02-exponential-and-continuous-random-variables"}]
+}
+</script>
 title: Exponential Distribution and Continuous Random Variables
 description: "The exponential distribution models the time between events in a Poisson process, while the theory Of continuous random variables extends probability to"
 date: 2026-04-02T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "02 Exponential And Continuous Random Variables", "url": "https://alevel.wyattau.com/further-maths/further-statistics/02-exponential-and-continuous-random-variables"}]
+}
+</script>
 
 
 ## Intuition
@@ -757,6 +775,15 @@ $P(1 \lt X \lt 2) = F(2) - F(1) = \dfrac{4}{9} - \dfrac{1}{9} = \dfrac{1}{3}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "02 Exponential And Continuous Random Variables", "url": "https://alevel.wyattau.com/further-maths/further-statistics/02-exponential-and-continuous-random-variables"}]
+}
+</script>
+
 ## 8. Advanced Worked Examples
 
 ### Example 8.1: Exponential distribution and memorylessness
@@ -886,6 +913,15 @@ $E(X) = \int_0^1 x^2\,dx + \int_1^2 x(2-x)\,dx = \frac{1}{3}+\frac{2}{3} = 1$. â
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "02 Exponential And Continuous Random Variables", "url": "https://alevel.wyattau.com/further-maths/further-statistics/02-exponential-and-continuous-random-variables"}]
+}
+</script>
+
 ## 9. Common Pitfalls
 
 | Pitfall                                                                                                   | Correct Approach                                                         |
@@ -896,6 +932,15 @@ $E(X) = \int_0^1 x^2\,dx + \int_1^2 x(2-x)\,dx = \frac{1}{3}+\frac{2}{3} = 1$. â
 | Using $P(a < X < b) = f(b) - f(a)$                                                                        | This is for CDFs, not PDFs. Use $\displaystyle\int_a^b f(x)\,dx$         |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "02 Exponential And Continuous Random Variables", "url": "https://alevel.wyattau.com/further-maths/further-statistics/02-exponential-and-continuous-random-variables"}]
+}
+</script>
 
 ## 10. Additional Exam-Style Questions
 
@@ -948,6 +993,15 @@ $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "02 Exponential And Continuous Random Variables", "url": "https://alevel.wyattau.com/further-maths/further-statistics/02-exponential-and-continuous-random-variables"}]
+}
+</script>
+
 ## 11. Connections to Other Topics
 
 ### 11.1 Exponential distribution and Poisson process
@@ -968,6 +1022,15 @@ Distribution. See
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "02 Exponential And Continuous Random Variables", "url": "https://alevel.wyattau.com/further-maths/further-statistics/02-exponential-and-continuous-random-variables"}]
+}
+</script>
+
 ## 12. Key Results Summary
 
 | Distribution            | PDF                                  | $E(X)$                           | $\mathrm{Var}(X)$                  |
@@ -982,6 +1045,15 @@ Distribution. See
 | Median     | $\dfrac{\ln 2}{\lambda}$ | $\dfrac{a+b}{2}$   |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "02 Exponential And Continuous Random Variables", "url": "https://alevel.wyattau.com/further-maths/further-statistics/02-exponential-and-continuous-random-variables"}]
+}
+</script>
 
 ## 13. Further Exam-Style Questions
 
@@ -1023,6 +1095,15 @@ $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "02 Exponential And Continuous Random Variables", "url": "https://alevel.wyattau.com/further-maths/further-statistics/02-exponential-and-continuous-random-variables"}]
+}
+</script>
+
 ## 14. Advanced Topics
 
 ### 14.1 The moment generating function (MGF)
@@ -1055,6 +1136,15 @@ $X_{(1)} \leq X_{(2)} \leq \cdots \leq X_{(n)}$.
 For $X \sim \mathrm{U}(0,1)$: $X_{(k)} \sim \mathrm{Beta}(k, n-k+1)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "02 Exponential And Continuous Random Variables", "url": "https://alevel.wyattau.com/further-maths/further-statistics/02-exponential-and-continuous-random-variables"}]
+}
+</script>
 
 ## 15. Further Exam-Style Questions
 

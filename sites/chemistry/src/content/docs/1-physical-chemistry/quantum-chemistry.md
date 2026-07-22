@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "1 Physical Chemistry", "url": "https://chemistry.wyattau.com/1-physical-chemistry"}, {"name": "Quantum Chemistry", "url": "https://chemistry.wyattau.com/1-physical-chemistry/quantum-chemistry"}]
+}
+</script>
 title: Quantum Chemistry
 description: "University Quantum Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 date: 2026-05-31T00:00:00.000Z
@@ -8,6 +17,15 @@ tags:
 categories:
   - Chemistry
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "1 Physical Chemistry", "url": "https://chemistry.wyattau.com/1-physical-chemistry"}, {"name": "Quantum Chemistry", "url": "https://chemistry.wyattau.com/1-physical-chemistry/quantum-chemistry"}]
+}
+</script>
 
 ## 1. Postulates of Quantum Mechanics
 

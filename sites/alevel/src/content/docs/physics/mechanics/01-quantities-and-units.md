@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/physics/mechanics"}, {"name": "01 Quantities And Units", "url": "https://alevel.wyattau.com/physics/mechanics/01-quantities-and-units"}]
+}
+</script>
 title: Quantities and Units
 description: "We begin with the most fundamental question in physics: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - Physics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/physics/mechanics"}, {"name": "01 Quantities And Units", "url": "https://alevel.wyattau.com/physics/mechanics/01-quantities-and-units"}]
+}
+</script>
 
 ## Quantities and Units
 
@@ -760,6 +778,15 @@ S$^{-2}$), so the result is consistent with the accepted value. $\square$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/physics/mechanics"}, {"name": "01 Quantities And Units", "url": "https://alevel.wyattau.com/physics/mechanics/01-quantities-and-units"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 questions within the A-Level specification for this topic, each with a full worked solution.

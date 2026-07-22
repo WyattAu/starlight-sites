@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Climate", "url": "https://dse.wyattau.com/geography/climate"}]
+}
+</script>
 title: Weather and Climate
 description: "Global atmospheric circulation, monsoon systems, tropical cyclone formation, climate change impacts on South China, and IPCC projections for DSE Geography."
 sidebar_position: 2
@@ -6,6 +15,15 @@ tags: [DSE, Geography, Climate, Weather]
 categories: [DSE, Geography]
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Climate", "url": "https://dse.wyattau.com/geography/climate"}]
+}
+</script>
 
 # Weather and Climate
 

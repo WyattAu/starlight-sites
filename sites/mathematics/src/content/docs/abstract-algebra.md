@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Abstract Algebra", "url": "https://mathematics.wyattau.com/abstract-algebra"}]
+}
+</script>
 title: abstract algebra
 date: 2026-05-30
 tags:
@@ -7,6 +16,15 @@ categories:
   - University Maths
 description: "is the study of algebraic structures — sets equipped with operations satisfying certain axioms. Rather than studying specific objects (numbers, matrices,"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Abstract Algebra", "url": "https://mathematics.wyattau.com/abstract-algebra"}]
+}
+</script>
 
 ## 1. Introduction
 

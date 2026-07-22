@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "04 Web Security", "url": "https://security.wyattau.com/04-web-security"}, {"name": "Owasp Top 10", "url": "https://security.wyattau.com/04-web-security/owasp-top-10"}]
+}
+</script>
 title: OWASP Top 10 (2021) Detailed
 description: "Broken access control is the most critical web application security risk. It occurs when users can Act outside their intended permissions."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "04 Web Security", "url": "https://security.wyattau.com/04-web-security"}, {"name": "Owasp Top 10", "url": "https://security.wyattau.com/04-web-security/owasp-top-10"}]
+}
+</script>
 
 ## A01: Broken Access Control
 
@@ -694,6 +712,15 @@ linked above.
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "04 Web Security", "url": "https://security.wyattau.com/04-web-security"}, {"name": "Owasp Top 10", "url": "https://security.wyattau.com/04-web-security/owasp-top-10"}]
+}
+</script>
 
 ## Cross-References
 

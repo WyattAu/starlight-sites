@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Democratic States", "url": "https://ib.wyattau.com/history/democratic-states"}]
+}
+</script>
 title: Democratic States
 date: 2026-05-31
 tags:
@@ -7,6 +16,15 @@ categories:
   - IB History
 description: "This document covers the IB History topic on Democratic States for Paper 2. It examines three case studies of democratic states facing severe challenges —"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Democratic States", "url": "https://ib.wyattau.com/history/democratic-states"}]
+}
+</script>
 
 # Democratic States: Challenges and Crises (1918--1939)
 
@@ -17,6 +35,15 @@ democratic systems to survive or collapse. Comparative analysis and historiograp
 are integrated throughout.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Democratic States", "url": "https://ib.wyattau.com/history/democratic-states"}]
+}
+</script>
 
 ## 1. Weimar Germany (1919--1933)
 
@@ -110,6 +137,15 @@ are integrated throughout.
   enemies
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Democratic States", "url": "https://ib.wyattau.com/history/democratic-states"}]
+}
+</script>
 
 ## 2. The United States (1920s--1930s)
 
@@ -230,6 +266,15 @@ are integrated throughout.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Democratic States", "url": "https://ib.wyattau.com/history/democratic-states"}]
+}
+</script>
+
 ## 3. Spain (1931--1939)
 
 ### 3.1 The Second Republic (1931--1936)
@@ -310,6 +355,15 @@ are integrated throughout.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Democratic States", "url": "https://ib.wyattau.com/history/democratic-states"}]
+}
+</script>
+
 ## 4. Comparison
 
 ### 4.1 Democratic Challenges Across Nations
@@ -342,6 +396,15 @@ are integrated throughout.
   of leadership were crucial factors in determining whether democracy survived
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Democratic States", "url": "https://ib.wyattau.com/history/democratic-states"}]
+}
+</script>
 
 ## 5. Historiographical Debates
 
@@ -377,6 +440,15 @@ are integrated throughout.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Democratic States", "url": "https://ib.wyattau.com/history/democratic-states"}]
+}
+</script>
+
 ## 6. Common Pitfalls
 
 1. **Conflating economic crisis with political collapse**: Economic crisis does not automatically
@@ -398,6 +470,15 @@ are integrated throughout.
    ideologies of communism.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Democratic States", "url": "https://ib.wyattau.com/history/democratic-states"}]
+}
+</script>
 
 ## 7. Summary
 

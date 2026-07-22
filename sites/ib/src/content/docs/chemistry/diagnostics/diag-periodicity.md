@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Periodicity", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-periodicity"}]
+}
+</script>
 title: "Periodicity -- Diagnostic Tests"
 description: "IB Chemistry Periodicity -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Periodicity", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-periodicity"}]
+}
+</script>
 
 # Periodicity — Diagnostic Tests
 
@@ -38,6 +56,15 @@ remove.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Periodicity", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-periodicity"}]
+}
+</script>
+
 ### UT-2: Atomic and Ionic Radii Comparison
 
 **Question:** Arrange the following species in order of increasing ionic/atomic radius and justify
@@ -56,6 +83,15 @@ pulls electrons closer to the nucleus.
 - $\text{O}^{2-}$: $Z = 8$Lowest effective nuclear charge, largest radius.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Periodicity", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-periodicity"}]
+}
+</script>
 
 ### UT-3: Electronegativity and Bond Character Prediction
 
@@ -106,6 +142,15 @@ difference.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Periodicity", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-periodicity"}]
+}
+</script>
+
 ### IT-2: Ionisation Energy and Reactivity (with Redox)
 
 **Question:** The first ionisation energies of group 1 elements decrease from Li (520) to Cs (376
@@ -129,6 +174,15 @@ marginally stronger reducing agent, and kinetically it reacts much faster due to
 ionisation energy and lower melting point.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Periodicity", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-periodicity"}]
+}
+</script>
 
 ### IT-3: Electronegativity Trends and Acid Strength (with Acids and Bases)
 

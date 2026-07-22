@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
+}
+</script>
 title: "Cell Biology and Biochemistry -- Diagnostic Tests"
 description: "DSE Cell Biology and Biochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
+}
+</script>
 
 # DSE Biology Diagnostic: Cell Biology and Biochemistry
 
@@ -30,6 +48,15 @@ occurs, referring to the water potential of the cell and the external solution. 
 claim. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -59,6 +86,15 @@ specifically animal.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
+}
+</script>
+
 ## Unit Test 2: Phospholipid Bilayer and Fluid Mosaic Model
 
 **Question**
@@ -73,6 +109,15 @@ arrangement makes the membrane **partially permeable**. [4 marks]
 **two** functions of these molecules. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -106,6 +151,15 @@ The membrane is partially permeable because:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
+}
+</script>
+
 ## Unit Test 3: Enzyme Kinetics and Inhibition
 
 **Question**
@@ -134,6 +188,15 @@ inhibition. [3 marks]
 where it binds to the enzyme, and (ii) its effect on Vmax and Km. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -170,6 +233,15 @@ than the active site), whereas a competitive inhibitor binds to the **active sit
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
+}
+</script>
+
 ## Intuition
 
 **Life's building blocks:** Cells are like factories — the nucleus is the management office, mitochondria are power plants, and ribosomes are assembly lines. Biochemical tests identify which molecules are present.
@@ -204,6 +276,15 @@ bond that joins amino acids and the type of bond responsible for the secondary s
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
+}
+</script>
+
 **Worked Solution**
 
 (a) - **W**: Reducing sugar (e.g. Glucose). The Benedict's reagent contains copper(II) sulphate.
@@ -234,6 +315,15 @@ along the chain.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
+}
+</script>
+
 ## Integration Test 2: Cell Membrane Transport and Enzyme Activity
 
 **Question**
@@ -252,6 +342,15 @@ gradient via SGLT1. [3 marks]
 glucose absorption. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -285,6 +384,15 @@ reduced.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
+}
+</script>
+
 ## Integration Test 3: Enzyme Denaturation and Industrial Application
 
 **Question**
@@ -304,6 +412,15 @@ catalase in solution. Explain **two** advantages of using immobilised enzymes in
 processes. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology Biochemistry", "url": "https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry"}]
+}
+</script>
 
 **Worked Solution**
 

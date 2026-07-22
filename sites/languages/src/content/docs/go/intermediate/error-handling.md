@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Go", "url": "https://languages.wyattau.com/go"}, {"name": "Intermediate", "url": "https://languages.wyattau.com/go/intermediate"}, {"name": "Error Handling", "url": "https://languages.wyattau.com/go/intermediate/error-handling"}]
+}
+</script>
 title: Error Handling
 description: "Go error handling patterns and conventions."
 date: 2026-04-18
@@ -7,6 +16,15 @@ tags:
 categories:
   - Go
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Go", "url": "https://languages.wyattau.com/go"}, {"name": "Intermediate", "url": "https://languages.wyattau.com/go/intermediate"}, {"name": "Error Handling", "url": "https://languages.wyattau.com/go/intermediate/error-handling"}]
+}
+</script>
 
 ## The Error Interface
 

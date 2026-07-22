@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Cognitive Level Of Analysis", "url": "https://ib.wyattau.com/psychology/cognitive-level-of-analysis"}]
+}
+</script>
 title: Cognitive Level of Analysis
 description: "The cognitive level of analysis (CLOA) focuses on mental processes such as perception, memory, language, and decision making. It operates on the principle"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Cognitive Level Of Analysis", "url": "https://ib.wyattau.com/psychology/cognitive-level-of-analysis"}]
+}
+</script>
 
 # Cognitive Level of Analysis
 

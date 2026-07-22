@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Measurement", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-measurement"}]
+}
+</script>
 title: "Measurement and Data Processing -- Diagnostic Tests"
 description: "IB Chemistry Measurement and Data Processing -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Measurement", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-measurement"}]
+}
+</script>
 
 # Measurement and Data Processing — Diagnostic Tests
 
@@ -49,6 +67,15 @@ The diameter measurement dominates the uncertainty because of the $d^2$ term.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Measurement", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-measurement"}]
+}
+</script>
+
 ### UT-2: Significant Figures in Calculations
 
 **Question:** A student records the following data and performs calculations. Identify and correct
@@ -75,6 +102,15 @@ has 2 decimal places, so $[\text{H}^+]$ should have 2 s.f.: $3.5 \times 10^{-4}\
 (not $3.548 \times 10^{-4}$).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Measurement", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-measurement"}]
+}
+</script>
 
 ### UT-3: Graphical Analysis and Best-Fit Line
 
@@ -151,6 +187,15 @@ The concentration uncertainty is dominated by the uncertainty in the HCl concent
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Measurement", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-measurement"}]
+}
+</script>
+
 ### IT-2: Propagation of Uncertainty in Kinetics (with Kinetics)
 
 **Question:** The Arrhenius equation $\ln k = \ln A - E_a/RT$ is used to determine $E_a$ from a plot
@@ -186,6 +231,15 @@ uncertainty in the intercept produces a large uncertainty in $A$. This is why $E
 determined more precisely than $A$ from Arrhenius plots.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Measurement", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-measurement"}]
+}
+</script>
 
 ### IT-3: Statistical Analysis and Equilibrium (with Equilibrium)
 

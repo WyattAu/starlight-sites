@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
 title: Human Reproduction and Homeostasis
 description: "| Structure | Function | | ------------------------------------ | -------------------------------------------------------------------------------------------"
 date: 2026-04-08T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
 
 ## Human Reproductive System
 
@@ -55,6 +73,15 @@ categories:
 | Vulva                    | External female genitalia                                                                                                             |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
 
 ## Gametogenesis
 
@@ -161,6 +188,15 @@ many functional gametes are produced in total? Explain the difference in outcome
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
+
 ## The Menstrual Cycle and Hormonal Control
 
 ### Overview
@@ -266,6 +302,15 @@ Key relationships:
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
 
 ## Fertilisation and Implantation
 
@@ -394,6 +439,15 @@ foetal hormonal responses.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
+
 ## Homeostasis Principles
 
 ### Definition
@@ -432,6 +486,15 @@ Point is a target value, and the actual value fluctuates within narrow limits ar
 Answers, write "maintained within narrow limits" rather than "kept exactly constant."
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
 
 ## Thermoregulation
 
@@ -517,6 +580,15 @@ heat stroke (body temperature exceeds 40 degrees C, which is a medical emergency
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
 
 ## Blood Glucose Regulation
 
@@ -630,6 +702,15 @@ the race.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
 
 ## Osmoregulation
 
@@ -803,6 +884,15 @@ dehydrated, and (c) after the race when they drink a large volume of water.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
+
 ## Excretion
 
 ### Definition
@@ -900,6 +990,15 @@ would result.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
+
 ## Intuition
 
 **Life's balancing act:** Homeostasis is like a thermostat — the body constantly monitors conditions and adjusts to keep them stable. Reproduction ensures the species continues.
@@ -954,6 +1053,15 @@ would result.
     were to reabsorb all urea, it would accumulate to toxic levels.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
 
 ## Problem Set
 
@@ -1399,7 +1507,25 @@ The claim is **incorrect**. Excretion and egestion are fundamentally different p
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
+
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
 
 ## Placenta and Foetal Development
 
@@ -1464,6 +1590,15 @@ breathe and the placental circulation ceases.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
+
 ## Methods of Contraception
 
 ### Comparison of Contraceptive Methods
@@ -1484,6 +1619,15 @@ breathe and the placental circulation ceases.
 | Emergency contraception               | Hormonal         | High-dose progesterone (or ulipristal acetate); taken within 72 hours of unprotected intercourse; prevents/delays ovulation | ~85%                        |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
 
 ## Infertility and Assisted Reproductive Technology
 
@@ -1563,6 +1707,15 @@ self-marking and building a personal test matrix.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
+
 ## The Menstrual Cycle in Detail
 
 ### Hormonal Control
@@ -1603,6 +1756,15 @@ and negative feedback:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
+
 ## Methods of Studying Reproduction
 
 ### Infertility Investigation
@@ -1635,6 +1797,15 @@ under 35; decreasing to less than 5% for women over 42).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **Oestrogen has BOTH negative and positive feedback effects on the anterior pituitary.** At LOW to
@@ -1651,6 +1822,15 @@ under 35; decreasing to less than 5% for women over 42).
   due to variation in the follicular phase
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
 
 ## Endocrine System Overview
 
@@ -1724,6 +1904,15 @@ under 35; decreasing to less than 5% for women over 42).
    ACTH production
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
+}
+</script>
 
 ## Common Pitfalls
 

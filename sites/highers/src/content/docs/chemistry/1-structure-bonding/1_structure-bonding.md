@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
 title: Chemical Reactions and Bonding
 description: "Scottish Highers Chemistry Chemical Reactions and Bonding notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
 
 # Chemical Reactions and Bonding
 
@@ -257,6 +275,15 @@ Hydrogenation of ethene is $-137 \mathrm{ kJ/mol$Showing that the bond enthalpy 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
+
 ## Chemical Reactions
 
 ### Balancing Equations
@@ -361,6 +388,15 @@ Left charge: $-2 + 2 = 0$. Right charge: $2(+3) + 3(-2) = 0$. Balanced.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
+
 ## Summary Table: Oxidation States of Common Elements
 
 | Element   | Common oxidation states                | Notes                                         |
@@ -374,6 +410,15 @@ Left charge: $-2 + 2 = 0$. Right charge: $2(+3) + 3(-2) = 0$. Balanced.
 | Chromium  | $+3, +6$                               | $\mathrm{Cr_2\mathrm{O_7^{2-}$ has Cr at $+6$ |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -399,6 +444,15 @@ Left charge: $-2 + 2 = 0$. Right charge: $2(+3) + 3(-2) = 0$. Balanced.
    hydrogen bonding, despite chlorine being electronegative.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
 
 ## Practice Questions
 
@@ -437,6 +491,15 @@ Left charge: $-2 + 2 = 0$. Right charge: $2(+3) + 3(-2) = 0$. Balanced.
     $\mathrm{MnO_4^- + \mathrm{C_2\mathrm{O_4^{2-} \to \mathrm{Mn^{2+} + \mathrm{CO_2$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
 
 ## Advanced Bonding Concepts
 
@@ -520,6 +583,15 @@ Improved properties.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
+
 ## Worked Example: Predicting Bond Type
 
 **Question:** Predict the type of bonding in each of the following and justify your answer: (a)
@@ -546,6 +618,15 @@ molecules $\mathrm{Al_2\mathrm{Cl_6$ in the gas phase.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
+
 ## Derivation: Why $\mathrm{H_2\mathrm{O$ Is Bent but $\mathrm{CO_2$ Is Linear
 
 Both $\mathrm{H_2\mathrm{O$ and $\mathrm{CO_2$ contain three atoms, yet they have different shapes.
@@ -562,6 +643,15 @@ bond Dipoles do not cancel because they are not opposite each other: $\mathrm{H_
 polar.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
 
 ## Practice Questions (Extended)
 
@@ -593,6 +683,15 @@ polar.
 20. Draw the dot-and-cross diagram for $\mathrm{CO_2$ and explain why it is a linear molecule.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
 
 ## Giant Covalent Structures in Detail
 
@@ -637,6 +736,15 @@ Silicon atoms, forming a giant covalent network similar to diamond.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
+
 ## Ionic Structures
 
 ### Sodium Chloride Structure
@@ -669,6 +777,15 @@ attraction.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
+
 ## Advanced Redox: Disproportionation
 
 **Disproportionation** is a redox reaction in which the same element is simultaneously oxidised and
@@ -689,6 +806,15 @@ Copper goes from +1 in $\mathrm{Cu_2\mathrm{O$ to 0 in $\mathrm{Cu$ (reduction) 
 $\mathrm{CuSO_4$ (oxidation).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
 
 ## Worked Example: Multi-Step Redox Balancing
 
@@ -716,6 +842,15 @@ Check: I: $1 + 5 = 6$ left, $3 \times 2 = 6$ right. O: $3$ left, $3$ right. H: $
 Charge: $-1 + 5(-1) + 6(+1) = 0$ left, $0$ right. Balanced.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
+}
+</script>
 
 ## Summary: Bonding and Properties Connection
 

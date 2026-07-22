@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "12 Differential Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry"}, {"name": "8_the Gauss Bonnet Theorem", "url": "https://mathematics.wyattau.com/12-differential-geometry/8_the-gauss-bonnet-theorem"}]
+}
+</script>
 title: The Gauss-Bonnet Theorem
 tags:
   - Mathematics
   - University
 description: 'Let be a compact, oriented Riemannian 2-manifold without boundary. Then: Comprehensive educational content coverage with definitions and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "12 Differential Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry"}, {"name": "8_the Gauss Bonnet Theorem", "url": "https://mathematics.wyattau.com/12-differential-geometry/8_the-gauss-bonnet-theorem"}]
+}
+</script>
 
 ### 8.1 Statement for Surfaces
 

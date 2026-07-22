@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "10_summary Of Key Results", "url": "https://mathematics.wyattau.com/10-measure-theory/10_summary-of-key-results"}]
+}
+</script>
 title: Summary of Key Results
 tags:
   - Mathematics
   - University
 description: "| Theorem | Conditions | Conclusion | | ---------------------- | ----------------------------------------- | ---------------------------------------- |"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "10_summary Of Key Results", "url": "https://mathematics.wyattau.com/10-measure-theory/10_summary-of-key-results"}]
+}
+</script>
 
 | Theorem                | Conditions                                | Conclusion                               |
 | ---------------------- | ----------------------------------------- | ---------------------------------------- | --------------- | ------------------------ |

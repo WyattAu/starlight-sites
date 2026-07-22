@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Programming", "url": "https://gcse.wyattau.com/computer-science/diagnostics/diag-programming"}]
+}
+</script>
 title: "Programming -- Diagnostic Tests"
 description: "Programming -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Programming", "url": "https://gcse.wyattau.com/computer-science/diagnostics/diag-programming"}]
+}
+</script>
 
 # Programming -- Diagnostic Tests
 
@@ -61,6 +79,15 @@ example, an uninitialised counter variable might start at a large random number,
 run an incorrect number of times.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Programming", "url": "https://gcse.wyattau.com/computer-science/diagnostics/diag-programming"}]
+}
+</script>
 
 ### UT-2: Selection and Iteration
 
@@ -129,6 +156,15 @@ ENDIF
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Programming", "url": "https://gcse.wyattau.com/computer-science/diagnostics/diag-programming"}]
+}
+</script>
+
 ### UT-3: Functions and Procedures
 
 **Question:**
@@ -195,6 +231,15 @@ displayWelcome("Alice")
   to know what the subprogram does, not how it works internally.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Programming", "url": "https://gcse.wyattau.com/computer-science/diagnostics/diag-programming"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -291,6 +336,15 @@ places, requiring all instances to be found and updated, increasing the risk of 
 errors.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Programming", "url": "https://gcse.wyattau.com/computer-science/diagnostics/diag-programming"}]
+}
+</script>
 
 ### IT-2: Data Processing with Iteration and Selection
 

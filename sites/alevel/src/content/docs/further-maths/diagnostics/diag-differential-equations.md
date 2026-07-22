@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-differential-equations"}]
+}
+</script>
 title: "Differential Equations -- Diagnostic Tests"
 description: "A-Level Further Maths Differential Equations -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-differential-equations"}]
+}
+</script>
 
 
 ## Intuition
@@ -84,6 +102,15 @@ $9ce^{3x} - 4ce^{3x} = 2e^{3x}$. $5c = 2$$c = 2/5$. GS:
 $y = Ae^{2x} + Be^{-2x} + \frac{2}{5}e^{3x}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Differential Equations", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-differential-equations"}]
+}
+</script>
 
 ## Integration Tests
 

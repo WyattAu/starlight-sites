@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
 title: Fieldwork Methodology
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, fieldwork]
 description: "A-Level Geography Fieldwork Methodology notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
 
 # Fieldwork Methodology
 
@@ -17,6 +35,15 @@ question formulation through data collection, analysis, and evaluation. This top
 methodologies, techniques, and principles that underpin successful geographical fieldwork.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
 
 ## Key Concepts and Definitions
 
@@ -43,6 +70,15 @@ methodologies, techniques, and principles that underpin successful geographical 
 | **Standard deviation**                    | A measure of the spread or dispersion of data around the mean                                                        |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
 
 ## Research Design
 
@@ -90,6 +126,15 @@ A good geographical investigation starts with a focused, manageable question or 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
+
 ## Data Collection Methods
 
 ### Physical Geography Methods
@@ -123,6 +168,15 @@ A good geographical investigation starts with a focused, manageable question or 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
+
 ## Sampling Strategies
 
 | Strategy                                 | Description                                                                                            | Advantages                                             | Disadvantages                                                          |
@@ -139,6 +193,15 @@ questionnaires, approximately 50–100 responses are in most cases adequate for 
 investigations.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
 
 ## Statistical Tests
 
@@ -180,6 +243,15 @@ correlation). Values near 0 indicate no correlation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
+
 ## GIS and Data Presentation
 
 ### GIS Applications in Fieldwork
@@ -219,6 +291,15 @@ GIS software (e.g., ArcGIS, QGIS, Google Earth Pro) enables:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
+
 ## Risk Assessment
 
 ### Identifying and Managing Fieldwork Risks
@@ -238,6 +319,15 @@ A risk assessment must be completed before any fieldwork. It should identify:
 level.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
 
 ## Evaluation
 
@@ -288,6 +378,15 @@ A good evaluation should:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
+
 ## Intuition
 
 Fieldwork is where geography stops being abstract and becomes tangible. It is the difference between reading about a river and standing in one, feeling the current push against your legs. The methodology is not a bureaucratic hurdle — it is the difference between collecting evidence and collecting noise. A poorly designed问卷 gives you data that tells you nothing; a well-designed one reveals patterns invisible from a textbook. Think of sampling like tasting a soup: you need the right amount from the right places to know what the whole pot tastes like. The statistical tests are not just maths — they are the difference between guessing and knowing.
@@ -309,6 +408,15 @@ Fieldwork is where geography stops being abstract and becomes tangible. It is th
    explain patterns and link them to geographical theory.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -382,6 +490,15 @@ Quays area?
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
+
 ## Summary
 
 - Fieldwork follows a structured enquiry process: question → plan → collect → present → analyse →
@@ -398,6 +515,15 @@ Quays area?
 - The strongest investigations link findings explicitly to geographical theory and concepts.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
 
 > **Sources**: AQA Geography (7037) specification; AQA NEA guidance documents; Clark, _Skills in
 > Geography_ (2017); Harris and Jenner, _Geographical Skills and Fieldwork_ (2016); Environment

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Thermodynamics", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-thermodynamics"}]
+}
+</script>
 title: "Thermodynamics and Energetics -- Diagnostic Tests"
 description: "A-Level Chemistry Thermodynamics and Energetics -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Thermodynamics", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-thermodynamics"}]
+}
+</script>
 
 
 ## Intuition
@@ -67,6 +85,15 @@ energy to overcome repulsion.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Thermodynamics", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-thermodynamics"}]
+}
+</script>
+
 ### UT-2: Hess's Law with Indirect Enthalpy Determination
 
 **Question:**
@@ -109,6 +136,15 @@ experimental value ($-277\,\text{kJ mol}^{-1}$). Small differences arise from:
 - **Heat losses** from the calorimeter during combustion measurements.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Thermodynamics", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-thermodynamics"}]
+}
+</script>
 
 ### UT-3: Gibbs Free Energy and Spontaneity
 
@@ -208,6 +244,15 @@ $$K_p = e^{11.17} = 7.08 \times 10^4\,\text{atm}^{-1}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Thermodynamics", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-thermodynamics"}]
+}
+</script>
+
 ### IT-2: Entropy Changes in Dissolution (with Bonding and Acids/Bases)
 
 **Question:**
@@ -266,6 +311,15 @@ The positive entropy change reflects the increased disorder as water molecules i
 lattice gain freedom of movement in liquid water.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Thermodynamics", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-thermodynamics"}]
+}
+</script>
 
 ### IT-3: Enthalpy Changes and Bond Energies (with Kinetics)
 
@@ -326,6 +380,15 @@ molecules have sufficient kinetic energy ($\geq E_a$) to overcome this barrier. 
 $\text{C}_2\text{H}_4$ onto its surface, weakening the H--H bond and lowering the activation energy.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Thermodynamics", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-thermodynamics"}]
+}
+</script>
 
 ### Additional Practice Problems
 

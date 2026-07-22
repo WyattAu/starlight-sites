@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "2 Organic Chemistry", "url": "https://chemistry.wyattau.com/2-organic-chemistry"}, {"name": "Synthesis", "url": "https://chemistry.wyattau.com/2-organic-chemistry/synthesis"}]
+}
+</script>
 title: Synthesis
 description: "University Chemistry Synthesis notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
 date: 2026-05-31T00:00:00.000Z
@@ -8,6 +17,15 @@ tags:
 categories:
   - Chemistry
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "2 Organic Chemistry", "url": "https://chemistry.wyattau.com/2-organic-chemistry"}, {"name": "Synthesis", "url": "https://chemistry.wyattau.com/2-organic-chemistry/synthesis"}]
+}
+</script>
 
 ## 1. Retrosynthetic Analysis
 

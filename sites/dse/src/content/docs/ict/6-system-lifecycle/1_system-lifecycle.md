@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
 title: System Lifecycle
 description: "This document covers the system development lifecycle (SDLC) for the DSE ICT examination. Understanding The SDLC is essential for analysing how information"
 date: 2026-04-08T00:00:00.000Z
@@ -11,6 +20,15 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
+
 ## Intuition
 
 The system development lifecycle provides a structured approach to building information systems, ensuring each phase delivers value before moving to the next. Analysis understands the problem, design plans the solution, implementation builds it, testing verifies it works, and maintenance keeps it running. Skipping phases or rushing through them is the primary cause of project failure. The SDLC is not just a sequence of steps but a framework for managing risk, ensuring that problems are caught early when they are cheapest to fix.
@@ -20,6 +38,15 @@ Understanding The SDLC is essential for analysing how information systems are de
 initial problem Identification through to ongoing maintenance.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
 
 ## Overview of the System Development Lifecycle
 
@@ -39,6 +66,15 @@ systems. It consists of distinct phases, each with specific activities and deliv
 | **Maintenance**    | Keep the system running and up to date after deployment  | Updates, patches, enhancements                |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
 
 ## Phase 1: Analysis
 
@@ -142,6 +178,15 @@ Improve economic feasibility.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
+
 ## Phase 2: Design
 
 ### Phase 2: Design Purpose
@@ -193,6 +238,15 @@ DFDs show how data flows through a system. They use four symbols:
 | Level 2 | Detailed        | Expanded view of individual Level 1 processes                      |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
 
 ## Phase 3: Implementation
 
@@ -253,6 +307,15 @@ Moving data from the old system to the new system requires careful planning.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
+
 ## Phase 4: Testing
 
 ### Phase 4: Testing Purpose
@@ -302,6 +365,15 @@ A system accepts student scores (0--100) and calculates grades.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
+
 ## Phase 5: Documentation
 
 ### Types of Documentation
@@ -327,6 +399,15 @@ A system accepts student scores (0--100) and calculates grades.
 | **Version-controlled** | Tracks changes between versions                    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
 
 ## Phase 6: Evaluation
 
@@ -364,6 +445,15 @@ A formal review conducted after the system has been in use for a defined period 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
+
 ## Phase 7: Maintenance
 
 ### Types of Maintenance
@@ -381,6 +471,15 @@ Maintenance accounts for 60--80% of the total cost of a system over its lifetime
 underestimated during the initial project planning.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
 
 ## Project Management
 
@@ -446,6 +545,15 @@ on The critical path delays the entire project.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
+
 ## Change Management
 
 ### Why Change Management Matters
@@ -477,6 +585,15 @@ managed To ensure successful adoption.
 | **Increased workload**    | The transition period requires extra effort from users              |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -512,6 +629,15 @@ managed To ensure successful adoption.
     schedule leads to delays, cost overruns, and incomplete systems.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -768,6 +894,15 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "6 System Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle"}, {"name": "1_system Lifecycle", "url": "https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle"}]
+}
+</script>
 
 ## Cross-References
 

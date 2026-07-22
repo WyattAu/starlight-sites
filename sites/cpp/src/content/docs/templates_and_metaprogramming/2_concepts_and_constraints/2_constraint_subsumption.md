@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "2_concepts_and_constraints", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints"}, {"name": "2_constraint_subsumption", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption"}]
+}
+</script>
 title: Constraint Subsumption and Overload Resolution
 description: "When multiple constrained function templates are viable for a call, the compiler uses --- a partial ordering on constraints --- to select the most"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "2_concepts_and_constraints", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints"}, {"name": "2_constraint_subsumption", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption"}]
+}
+</script>
 
 # Constraint Subsumption and Overload Resolution
 
@@ -533,6 +551,15 @@ Integral.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "2_concepts_and_constraints", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints"}, {"name": "2_constraint_subsumption", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption"}]
+}
+</script>
+
 ## Requires Clauses with Local Parameters
 
 The `requires` clause can introduce local template parameters using a
@@ -563,6 +590,15 @@ Ambiguity when `T` is `int`.
 Constraints. Prefer concept names over ad-hoc requires-expressions when overloading.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "2_concepts_and_constraints", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints"}, {"name": "2_constraint_subsumption", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption"}]
+}
+</script>
 
 ## Fold Expressions and Conjunctions in Constraints
 
@@ -772,6 +808,15 @@ void f(T) { std::cout << "floating_point\n"; }
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "2_concepts_and_constraints", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints"}, {"name": "2_constraint_subsumption", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption"}]
+}
+</script>
+
 ## Interaction with SFINAE and `enable_if`
 
 C++20 concepts were designed to replace SFINAE-based constraints. When concepts and `enable_if` are
@@ -802,6 +847,15 @@ void f(T) { std::cout << "signed integral\n"; }
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "2_concepts_and_constraints", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints"}, {"name": "2_constraint_subsumption", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption"}]
+}
+</script>
 
 ## Constraint Subsumption and Class Templates
 
@@ -853,6 +907,15 @@ The previous.
 4. Test subsumption with `static_assert` to catch structural mismatches early.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "2_concepts_and_constraints", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints"}, {"name": "2_constraint_subsumption", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption"}]
+}
+</script>
 
 ## Intuition
 

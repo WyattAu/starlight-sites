@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/9_wrap-up"}]
+}
+</script>
 title: Wrap Up
 description: "Comprehensive IB physics notes on Wrap Up key concepts and principles. Covers key definitions, worked examples, and practice problems for revision."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/9_wrap-up"}]
+}
+</script>
 
 <details>
 <summary><strong>E.1 Structure of the Atom, E.2 Quantum Physics & E.3 Radioactive Decay</strong></summary>
@@ -151,6 +169,15 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/9_wrap-up"}]
+}
+</script>
+
 ## Radioactive Decay
 
 Radioactive decay is a random and spontaneous process by which an unstable nucleus emits radiation
@@ -193,6 +220,15 @@ $$
 $$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/9_wrap-up"}]
+}
+</script>
 
 ## Half-Life and Activity
 
@@ -273,6 +309,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/9_wrap-up"}]
+}
+</script>
+
 ## Nuclear Reactions and Binding Energy
 
 ### Mass Defect
@@ -339,6 +384,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/9_wrap-up"}]
+}
+</script>
+
 ## The Photoelectric Effect
 
 The photoelectric effect is the emission of electrons from a metal surface when light of sufficient
@@ -393,6 +447,15 @@ Energy $E = hf$. One photon interacts with one electron. If $hf \lt \Phi$No emis
 Regardless of intensity.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/9_wrap-up"}]
+}
+</script>
 
 ## Atomic Energy Levels
 
@@ -454,6 +517,15 @@ This is in the visible (blue-green) region — it is the $H_\beta$ line of the B
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/9_wrap-up"}]
+}
+</script>
+
 ## Wave-Particle Duality
 
 ### De Broglie Wavelength
@@ -498,6 +570,15 @@ This is comparable to the spacing between atoms in a crystal lattice, which is w
 Diffraction is observable.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/9_wrap-up"}]
+}
+</script>
 
 ## Exam Tips for Nuclear and Quantum Physics
 

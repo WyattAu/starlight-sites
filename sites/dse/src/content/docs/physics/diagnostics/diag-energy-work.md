@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy Work", "url": "https://dse.wyattau.com/physics/diagnostics/diag-energy-work"}]
+}
+</script>
 title: "Energy and Work -- Diagnostic Tests"
 description: "DSE Physics Energy and Work -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy Work", "url": "https://dse.wyattau.com/physics/diagnostics/diag-energy-work"}]
+}
+</script>
 
 # Energy and Work — Diagnostic Tests
 
@@ -51,6 +69,15 @@ angle between the force and the displacement, NOT the incline angle.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy Work", "url": "https://dse.wyattau.com/physics/diagnostics/diag-energy-work"}]
+}
+</script>
+
 ### UT-2: Power with Variable Velocity on a Slope
 
 **Question:**
@@ -90,6 +117,15 @@ driving force must also increase, but $P = Fv$ is constant, meaning $v$ is limit
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy Work", "url": "https://dse.wyattau.com/physics/diagnostics/diag-energy-work"}]
+}
+</script>
+
 ### UT-3: Efficiency of a Compound Machine System
 
 **Question:**
@@ -123,6 +159,15 @@ of individual efficiencies, not the sum or average. Also, efficiency $=$ useful 
 input, not the other way around.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy Work", "url": "https://dse.wyattau.com/physics/diagnostics/diag-energy-work"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -170,6 +215,15 @@ distance), friction also does work. Students often forget this energy loss durin
 expansion phase.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy Work", "url": "https://dse.wyattau.com/physics/diagnostics/diag-energy-work"}]
+}
+</script>
 
 ### IT-2: Bungee Jump Energy Analysis (with Mechanics)
 
@@ -241,6 +295,15 @@ $$a_{\max} = \frac{F_{\text{net}}}{m} = \frac{1477.8}{70} = 21.1 \text{ m s}^{-2
 deceleration of $21.1 \text{ m s}^{-2}$)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy Work", "url": "https://dse.wyattau.com/physics/diagnostics/diag-energy-work"}]
+}
+</script>
 
 ### IT-3: Roller Coaster Loop with Friction (with Mechanics and Forces)
 

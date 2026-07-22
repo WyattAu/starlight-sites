@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "06 Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing"}, {"name": "Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing/stress-testing"}]
+}
+</script>
 title: Stress Testing and Validation
 description: "Stress testing serves three purposes for a systems engineer: Comprehensive educational content coverage with definitions and practice problems."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "06 Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing"}, {"name": "Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing/stress-testing"}]
+}
+</script>
 
 ## Why Stress Test
 
@@ -36,6 +54,15 @@ Untested instability can manifest as:
   electromigration, accelerating silicon degradation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "06 Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing"}, {"name": "Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing/stress-testing"}]
+}
+</script>
 
 ## CPU Stress Tests
 
@@ -127,6 +154,15 @@ Profiling (5–10 minutes), not for extended stability testing.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "06 Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing"}, {"name": "Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing/stress-testing"}]
+}
+</script>
+
 ## GPU Stress Tests
 
 ### FurMark
@@ -166,6 +202,15 @@ For GPU memory overclocking stability, use CUDA memtest (NVIDIA) or ROCm memtest
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "06 Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing"}, {"name": "Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing/stress-testing"}]
+}
+</script>
 
 ## Memory Stress Tests
 
@@ -242,6 +287,15 @@ Test patterns similar to TM5 but with a more polished interface and automated pa
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "06 Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing"}, {"name": "Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing/stress-testing"}]
+}
+</script>
+
 ## Storage Stress Tests
 
 ### fio (Flexible I/O Tester)
@@ -291,6 +345,15 @@ CrystalDiskMark (Windows) provides an easy GUI for sequential and random I/O tes
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "06 Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing"}, {"name": "Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing/stress-testing"}]
+}
+</script>
+
 ## Combined System Tests
 
 ### Running Multiple Stress Tests Simultaneously
@@ -322,6 +385,15 @@ This tests:
 - Cooling system capacity
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "06 Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing"}, {"name": "Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing/stress-testing"}]
+}
+</script>
 
 ## Monitoring During Stress Tests
 
@@ -387,6 +459,15 @@ chmod +x monitor_stress.sh
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "06 Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing"}, {"name": "Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing/stress-testing"}]
+}
+</script>
+
 ## Interpreting Results
 
 ### Symptom Analysis
@@ -419,6 +500,15 @@ Reliability concern.
 Testing means your settings are not stable enough for production use.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "06 Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing"}, {"name": "Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing/stress-testing"}]
+}
+</script>
 
 ## Testing Duration Guidelines
 
@@ -459,6 +549,15 @@ For new builds or critical systems:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "06 Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing"}, {"name": "Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing/stress-testing"}]
+}
+</script>
+
 ## Safe Temperature Limits
 
 ### CPU Temperature Limits
@@ -489,6 +588,15 @@ For new builds or critical systems:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "06 Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing"}, {"name": "Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing/stress-testing"}]
+}
+</script>
+
 ## What Constitutes "Stable"
 
 A system is considered stable only when:
@@ -505,6 +613,15 @@ A system is considered stable only when:
 If any single criterion fails, the system is not stable. There are no partial passes.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "06 Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing"}, {"name": "Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing/stress-testing"}]
+}
+</script>
 
 ## Intuition
 

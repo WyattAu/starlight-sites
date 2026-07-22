@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "08 Advanced Topics", "url": "https://python.wyattau.com/08-advanced-topics"}, {"name": "01 Advanced Typing", "url": "https://python.wyattau.com/08-advanced-topics/01-advanced-typing"}]
+}
+</script>
 title: Advanced Type System
 description: "Python Advanced Type System notes covering key definitions, core concepts, worked examples, and practice questions for solid study and thorough revision."
 date: 2026-04-05T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Python
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "08 Advanced Topics", "url": "https://python.wyattau.com/08-advanced-topics"}, {"name": "01 Advanced Typing", "url": "https://python.wyattau.com/08-advanced-topics/01-advanced-typing"}]
+}
+</script>
 
 ## `@overload` — Multiple Signatures for One Function
 

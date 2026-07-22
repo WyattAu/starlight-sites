@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "12 Exceptions", "url": "https://languages.wyattau.com/java/12-exceptions"}, {"name": "01 Exceptions", "url": "https://languages.wyattau.com/java/12-exceptions/01-exceptions"}]
+}
+</script>
 title: Exception Handling
 description: "Throwable ├── Error │ ├── OutOfMemoryError │ ├── StackOverflowError │ ├── NoClassDefFoundError │ └── InternalError └── Exception ├── RuntimeException"
 date: 2026-04-04T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Java
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "12 Exceptions", "url": "https://languages.wyattau.com/java/12-exceptions"}, {"name": "01 Exceptions", "url": "https://languages.wyattau.com/java/12-exceptions/01-exceptions"}]
+}
+</script>
 
 ## Exception Hierarchy
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Rights And Protest", "url": "https://ib.wyattau.com/history/rights-and-protest"}]
+}
+</script>
 title: rights and protest
 date: 2026-05-30
 tags:
@@ -7,6 +16,15 @@ categories:
   - IB History
 description: "This document covers the IB History prescribed subject on Rights and Protest for Paper 2. It examines Two major case studies -- the civil rights movement in"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Rights And Protest", "url": "https://ib.wyattau.com/history/rights-and-protest"}]
+}
+</script>
 
 # Rights and Protest
 
@@ -17,6 +35,15 @@ Each case study is Analysed through the prescribed content areas: origins, metho
 of key Individuals and groups, and the achievements and limitations of resistance.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Rights And Protest", "url": "https://ib.wyattau.com/history/rights-and-protest"}]
+}
+</script>
 
 ## 1. Introduction to the Topic
 
@@ -67,6 +94,15 @@ interpretations differ and should explain why.
   maintained a clear argument throughout.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Rights And Protest", "url": "https://ib.wyattau.com/history/rights-and-protest"}]
+}
+</script>
 
 ## 2. Case Study 1: Civil Rights Movement in the USA (1954--1965)
 
@@ -242,6 +278,15 @@ Disfranchisement:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Rights And Protest", "url": "https://ib.wyattau.com/history/rights-and-protest"}]
+}
+</script>
+
 ## 3. Case Study 2: Apartheid South Africa
 
 ### 3.1 Background: Origins of Apartheid
@@ -409,6 +454,15 @@ Largely unresolved, and the racial wealth gap persisted.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Rights And Protest", "url": "https://ib.wyattau.com/history/rights-and-protest"}]
+}
+</script>
+
 ## 4. Case Study 3: Indigenous Rights Movements (Comparative Overview)
 
 This section provides a brief comparative overview of Indigenous rights movements in Australia, New
@@ -476,6 +530,15 @@ All three Indigenous rights movements share key characteristics:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Rights And Protest", "url": "https://ib.wyattau.com/history/rights-and-protest"}]
+}
+</script>
+
 ## 5. Historiographical Debates
 
 ### 5.1 Top-Down vs Bottom-Up Approaches
@@ -541,6 +604,15 @@ When writing comparative essays, historians use different frameworks for compari
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Rights And Protest", "url": "https://ib.wyattau.com/history/rights-and-protest"}]
+}
+</script>
+
 ## 6. Essay Writing for Paper 2
 
 ### 6.1 Question Analysis Technique
@@ -593,6 +665,15 @@ Historiographical perspectives when they are relevant to the specific point you 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Rights And Protest", "url": "https://ib.wyattau.com/history/rights-and-protest"}]
+}
+</script>
+
 ## 7. Exam Tips and Common Pitfalls
 
 1. **Narrating events without analysis.** Merely recounting what happened will not earn high marks.
@@ -625,6 +706,15 @@ Historiographical perspectives when they are relevant to the specific point you 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Rights And Protest", "url": "https://ib.wyattau.com/history/rights-and-protest"}]
+}
+</script>
+
 ## 8. Summary Table: Key Events, Causes, and Consequences
 
 | Event                       | Date          | Case Study   | Causes                                                                  | Consequences                                                                                        |
@@ -640,6 +730,15 @@ Historiographical perspectives when they are relevant to the specific point you 
 | First democratic elections  | Apr 1994      | South Africa | CODESA negotiations; ANC campaign; peaceful transition                  | Mandela president; formal end of apartheid; TRC established                                         |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Rights And Protest", "url": "https://ib.wyattau.com/history/rights-and-protest"}]
+}
+</script>
 
 ## 9. Glossary
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "02 Ip Addressing", "url": "https://networking.wyattau.com/02-ip-addressing"}, {"name": "Ip Addressing", "url": "https://networking.wyattau.com/02-ip-addressing/ip-addressing"}]
+}
+</script>
 title: IP Addressing
 description: "IP addressing is the mechanism by which hosts are identified and located on an IP network. Every Networked device must have an IP address to participate in"
 tags:
@@ -6,6 +15,15 @@ tags:
 categories:
   - Networking
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "02 Ip Addressing", "url": "https://networking.wyattau.com/02-ip-addressing"}, {"name": "Ip Addressing", "url": "https://networking.wyattau.com/02-ip-addressing/ip-addressing"}]
+}
+</script>
 
 ## Overview
 

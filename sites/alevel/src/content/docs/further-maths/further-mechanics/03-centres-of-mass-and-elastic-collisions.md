@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
 title: Centres of Mass and Elastic Collisions
 description: "A-Level Further Maths Centres of Mass and Elastic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-02T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
 
 
 ## Intuition
@@ -582,6 +600,15 @@ $$= \frac{r^2/4 + h^2/2}{2r/3 + h} = \frac{r^2 + 2h^2}{4\!\left(\dfrac{2r}{3} + 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
+
 ## 9. Advanced Worked Examples
 
 ### Example 9.1: Oblique collision between two spheres
@@ -709,6 +736,15 @@ $90^\circ - \arctan(3/4) = \arctan(4/3) \approx 53.1^\circ$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
+
 ## 10. Connections to Other Topics
 
 ### 10.1 Centre of mass and further calculus
@@ -729,6 +765,15 @@ Resolving velocities in oblique collisions requires vector decomposition and dot
 [Vectors in 3D](/docs/alevel/further-maths/pure-mathematics/further-vectors).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
 
 ## 11. Additional Exam-Style Questions
 
@@ -817,6 +862,15 @@ $$\frac{\pi r^4}{4} = \frac{\pi r^2 h^2}{12} \implies 3r^2 = h^2 \implies h = r\
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
 
 ## 8. Advanced Worked Examples
 
@@ -930,6 +984,15 @@ Directed along the normal away from the wall.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
+
 ## 9. Common Pitfalls
 
 | Pitfall                                                                            | Correct Approach                                                                                  |
@@ -939,6 +1002,15 @@ Directed along the normal away from the wall.
 | Using the wrong moment of inertia for a body                                       | Rod about end: $\dfrac{ml^2}{3}$; about centre: $\dfrac{ml^2}{12}$; solid disc: $\dfrac{mr^2}{2}$ |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
 
 ## 10. Additional Exam-Style Questions
 
@@ -999,6 +1071,15 @@ Excluding $u = v_1$ (no collision): $v_1 = \dfrac{(m_1-m_2)u}{m_1+m_2}$. $\black
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
+
 ## 11. Connections to Other Topics
 
 ### 11.1 Elastic collisions and energy conservation
@@ -1019,6 +1100,15 @@ $\mathbf{M} = \mathbf{r} \times \mathbf{F}$. See
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
+
 ## 12. Key Results Summary
 
 | Result                          | Formula                                                                                     |
@@ -1033,6 +1123,15 @@ $\mathbf{M} = \mathbf{r} \times \mathbf{F}$. See
 | Moment of inertia (disc)        | $I = \dfrac{mr^2}{2}$                                                                       |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
 
 ## 13. Further Exam-Style Questions
 
@@ -1086,6 +1185,15 @@ With the vertex on the table, the centre of mass is at $\boxed{\dfrac{3h}{4}}$ a
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
+
 ## 14. Advanced Topics
 
 ### 14.1 Centre of mass of a circular arc
@@ -1123,6 +1231,15 @@ $v_{\perp}^{\text{after}} = -e \cdot v_{\perp}^{\text{before}}$
 The parallel component is unchanged.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
 
 ## 15. Further Exam-Style Questions
 
@@ -1164,6 +1281,15 @@ $$\bar{y} = \frac{\int_0^{\pi} \frac{1}{2}a^2 \cdot \frac{2}{3}a\sin\theta\,d\th
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
+
 ## 16. Further Advanced Topics
 
 ### 16.1 Centre of mass of a solid hemisphere
@@ -1195,6 +1321,15 @@ For a 3D body with density $\rho(\mathbf{r})$:
 $$\bar{x} = \frac{\iiint_V x\,\rho\,dV}{\iiint_V \rho\,dV}, \quad \bar{y} = \frac{\iiint_V y\,\rho\,dV}{\iiint_V \rho\,dV}, \quad \bar{z} = \frac{\iiint_V z\,\rho\,dV}{\iiint_V \rho\,dV}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
 
 ## 17. Further Exam-Style Questions
 
@@ -1230,6 +1365,15 @@ The centroid travels a distance $2\pi\bar{x}$So $V = 2\pi\bar{x}\cdot A$. $\blac
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
+}
+</script>
 
 ## Cross-References
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading And Writing", "url": "https://sat.wyattau.com/reading-and-writing"}]
+}
+</script>
 title: Reading and Writing
 date: 2026-05-30
 description: "The Reading "
@@ -10,6 +19,15 @@ categories:
   - sat
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading And Writing", "url": "https://sat.wyattau.com/reading-and-writing"}]
+}
+</script>
 
 ## Section Overview
 
@@ -32,6 +50,15 @@ two).
 | **Expression of Ideas**          | ~20%               | 11-13          |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading And Writing", "url": "https://sat.wyattau.com/reading-and-writing"}]
+}
+</script>
 
 ## Reading
 
@@ -133,6 +160,15 @@ perspectives, identify a shared theme, or determine how one passage relates to t
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading And Writing", "url": "https://sat.wyattau.com/reading-and-writing"}]
+}
+</script>
+
 ## Writing
 
 ### Grammar and Punctuation
@@ -221,6 +257,15 @@ Transition words signal the logical relationship between ideas. Common categorie
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading And Writing", "url": "https://sat.wyattau.com/reading-and-writing"}]
+}
+</script>
+
 ## Key Skills
 
 ### Evidence-Based Reasoning
@@ -279,6 +324,15 @@ The SAT tests your ability to identify rhetorical strategies:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading And Writing", "url": "https://sat.wyattau.com/reading-and-writing"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Choosing answers that are true but irrelevant.** Many wrong answer choices state facts that are
@@ -308,6 +362,15 @@ The SAT tests your ability to identify rhetorical strategies:
    answer eliminator. Use them strategically to manage time and reduce errors.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading And Writing", "url": "https://sat.wyattau.com/reading-and-writing"}]
+}
+</script>
 
 ## Summary
 

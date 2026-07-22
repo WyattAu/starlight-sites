@@ -1,15 +1,42 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Diagnostics", "url": "https://truenas.wyattau.com/diagnostics"}, {"name": "Diag Truenas", "url": "https://truenas.wyattau.com/diagnostics/diag-truenas"}]
+}
+</script>
 title: "Diagnostic Test: TrueNAS"
 description: "Self-assessment quiz on TrueNAS"
 sidebar_position: 60
 tableOfContents: false
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Diagnostics", "url": "https://truenas.wyattau.com/diagnostics"}, {"name": "Diag Truenas", "url": "https://truenas.wyattau.com/diagnostics/diag-truenas"}]
+}
+</script>
+
 # Diagnostic Test: TrueNAS
 
 10 multiple-choice questions covering ZFS concepts, pool management, datasets, shares, snapshots, replication, and networking. Select the best answer for each question, then check your score using the answer key below.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Diagnostics", "url": "https://truenas.wyattau.com/diagnostics"}, {"name": "Diag Truenas", "url": "https://truenas.wyattau.com/diagnostics/diag-truenas"}]
+}
+</script>
 
 **Question 1.** What is the minimum number of drives needed for a RAIDZ2 vdev?
 
@@ -20,6 +47,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Diagnostics", "url": "https://truenas.wyattau.com/diagnostics"}, {"name": "Diag Truenas", "url": "https://truenas.wyattau.com/diagnostics/diag-truenas"}]
+}
+</script>
+
 **Question 2.** Which ZFS feature provides read acceleration using system RAM?
 
 (A) SLOG
@@ -28,6 +64,15 @@ tableOfContents: false
 (D) Special vdev
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Diagnostics", "url": "https://truenas.wyattau.com/diagnostics"}, {"name": "Diag Truenas", "url": "https://truenas.wyattau.com/diagnostics/diag-truenas"}]
+}
+</script>
 
 **Question 3.** What is the default compression algorithm on TrueNAS?
 
@@ -38,6 +83,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Diagnostics", "url": "https://truenas.wyattau.com/diagnostics"}, {"name": "Diag Truenas", "url": "https://truenas.wyattau.com/diagnostics/diag-truenas"}]
+}
+</script>
+
 **Question 4.** When replacing a failed drive in a mirror pool, the resilver process:
 
 (A) Copies the entire disk, not just actual data
@@ -46,6 +100,15 @@ tableOfContents: false
 (D) Cannot proceed while the pool is in use
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Diagnostics", "url": "https://truenas.wyattau.com/diagnostics"}, {"name": "Diag Truenas", "url": "https://truenas.wyattau.com/diagnostics/diag-truenas"}]
+}
+</script>
 
 **Question 5.** What is the recommended ashift value for modern drives?
 
@@ -56,6 +119,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Diagnostics", "url": "https://truenas.wyattau.com/diagnostics"}, {"name": "Diag Truenas", "url": "https://truenas.wyattau.com/diagnostics/diag-truenas"}]
+}
+</script>
+
 **Question 6.** A snapshot in ZFS:
 
 (A) Consumes space proportional to the entire dataset immediately
@@ -64,6 +136,15 @@ tableOfContents: false
 (D) Requires the pool to be taken offline
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Diagnostics", "url": "https://truenas.wyattau.com/diagnostics"}, {"name": "Diag Truenas", "url": "https://truenas.wyattau.com/diagnostics/diag-truenas"}]
+}
+</script>
 
 **Question 7.** What does zpool scrub do?
 
@@ -74,6 +155,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Diagnostics", "url": "https://truenas.wyattau.com/diagnostics"}, {"name": "Diag Truenas", "url": "https://truenas.wyattau.com/diagnostics/diag-truenas"}]
+}
+</script>
+
 **Question 8.** The SLOG device primarily improves:
 
 (A) Read performance for cold data
@@ -82,6 +172,15 @@ tableOfContents: false
 (D) Deduplication speed
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Diagnostics", "url": "https://truenas.wyattau.com/diagnostics"}, {"name": "Diag Truenas", "url": "https://truenas.wyattau.com/diagnostics/diag-truenas"}]
+}
+</script>
 
 **Question 9.** In a 3-way mirror pool, how many drives can fail without data loss?
 
@@ -92,6 +191,15 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Diagnostics", "url": "https://truenas.wyattau.com/diagnostics"}, {"name": "Diag Truenas", "url": "https://truenas.wyattau.com/diagnostics/diag-truenas"}]
+}
+</script>
+
 **Question 10.** What is the recommended recordsize for a dataset storing large media files (video, audio)?
 
 (A) 4K
@@ -100,6 +208,15 @@ tableOfContents: false
 (D) 128K
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Diagnostics", "url": "https://truenas.wyattau.com/diagnostics"}, {"name": "Diag Truenas", "url": "https://truenas.wyattau.com/diagnostics/diag-truenas"}]
+}
+</script>
 
 ## Answer Key
 

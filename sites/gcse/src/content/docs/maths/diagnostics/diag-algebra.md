@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra", "url": "https://gcse.wyattau.com/maths/diagnostics/diag-algebra"}]
+}
+</script>
 title: "Algebra -- Diagnostic Tests"
 description: "(a) Solve . (b) Solve by factorisation. (c) Solve using the quadratic formula. (d) Solve the inequality and represent the solution on a number line."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra", "url": "https://gcse.wyattau.com/maths/diagnostics/diag-algebra"}]
+}
+</script>
 
 # Algebra — Diagnostic Tests
 
@@ -76,6 +94,15 @@ Taking the positive root (time is positive): $t = \frac{-u + \sqrt{u^2 + 2as}}{a
 $r = \sqrt{\frac{200}{4\pi}} = \sqrt{\frac{50}{\pi}} = \sqrt{15.915} = 3.99$ cm (3 s.f.).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra", "url": "https://gcse.wyattau.com/maths/diagnostics/diag-algebra"}]
+}
+</script>
 
 ## Integration Tests
 

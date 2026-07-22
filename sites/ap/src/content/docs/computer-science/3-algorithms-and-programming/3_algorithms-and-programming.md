@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Computer Science", "url": "https://ap.wyattau.com/computer-science"}, {"name": "3 Algorithms And Programming", "url": "https://ap.wyattau.com/computer-science/3-algorithms-and-programming"}, {"name": "3_algorithms And Programming", "url": "https://ap.wyattau.com/computer-science/3-algorithms-and-programming/3_algorithms-and-programming"}]
+}
+</script>
 title: Algorithms and Programming
 description: "Repeatedly find the minimum element from the unsorted portion and place it at th Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ap-computer-science
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Computer Science", "url": "https://ap.wyattau.com/computer-science"}, {"name": "3 Algorithms And Programming", "url": "https://ap.wyattau.com/computer-science/3-algorithms-and-programming"}, {"name": "3_algorithms And Programming", "url": "https://ap.wyattau.com/computer-science/3-algorithms-and-programming/3_algorithms-and-programming"}]
+}
+</script>
 
 ## Sorting Algorithms (CED Unit 3)
 

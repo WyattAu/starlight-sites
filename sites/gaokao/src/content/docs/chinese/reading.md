@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Chinese", "url": "https://gaokao.wyattau.com/chinese"}, {"name": "Reading", "url": "https://gaokao.wyattau.com/chinese/reading"}]
+}
+</script>
 title: "Reading"
 description: "高考 chinese: Reading"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Chinese", "url": "https://gaokao.wyattau.com/chinese"}, {"name": "Reading", "url": "https://gaokao.wyattau.com/chinese/reading"}]
+}
+</script>
 
 # Reading
 

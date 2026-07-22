@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "18_quantum Mechanics Ii", "url": "https://physics.wyattau.com/5-quantum-mechanics/18_quantum-mechanics-ii"}]
+}
+</script>
 title: quantum mechanics ii
 date: 2026-05-30
 tags:
@@ -7,6 +16,15 @@ categories:
   - University Physics
 description: "The is the splitting of atomic energy levels by an external electric field Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "18_quantum Mechanics Ii", "url": "https://physics.wyattau.com/5-quantum-mechanics/18_quantum-mechanics-ii"}]
+}
+</script>
 
 ## 1. Perturbation Theory: Advanced Applications
 
@@ -108,6 +126,15 @@ $2P_{3/2}$ lies slightly higher.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "18_quantum Mechanics Ii", "url": "https://physics.wyattau.com/5-quantum-mechanics/18_quantum-mechanics-ii"}]
+}
+</script>
+
 ## 2. Angular Momentum Coupling
 
 ### 2.1 Addition of Angular Momenta
@@ -200,6 +227,15 @@ The first factor is a CG coefficient (containing all angular dependence) and the
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "18_quantum Mechanics Ii", "url": "https://physics.wyattau.com/5-quantum-mechanics/18_quantum-mechanics-ii"}]
+}
+</script>
+
 ## 3. Identical Particles: Advanced Topics
 
 ### 3.1 Second Quantisation for Many-Body Systems
@@ -268,6 +304,15 @@ theoretical justification for photoelectron spectroscopy interpretation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "18_quantum Mechanics Ii", "url": "https://physics.wyattau.com/5-quantum-mechanics/18_quantum-mechanics-ii"}]
+}
+</script>
+
 ## 4. Scattering Theory: Advanced Topics
 
 ### 4.1 The Lippmann–Schwinger Equation
@@ -326,6 +371,15 @@ A large positive scattering length ($|a_s| \gg r_e$) signals a near-threshold bo
 deuteron, $a_s \approx 5.4$ fm).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "18_quantum Mechanics Ii", "url": "https://physics.wyattau.com/5-quantum-mechanics/18_quantum-mechanics-ii"}]
+}
+</script>
 
 ## 5. Relativistic Quantum Mechanics
 
@@ -408,6 +462,15 @@ due to the **Lamb shift** ($\sim 1$ GHz, arising from vacuum fluctuations).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "18_quantum Mechanics Ii", "url": "https://physics.wyattau.com/5-quantum-mechanics/18_quantum-mechanics-ii"}]
+}
+</script>
+
 ## 6. Introduction to Quantum Field Theory
 
 ### 6.1 Second Quantisation
@@ -467,6 +530,15 @@ For $d = 1\,\mu$m: $F/A \approx 1.3 \times 10^{-3}$ Pa. This force has been meas
 (Lamoreaux, 1997; Mohideen & Roy, 1998) and confirms the reality of vacuum fluctuations.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "18_quantum Mechanics Ii", "url": "https://physics.wyattau.com/5-quantum-mechanics/18_quantum-mechanics-ii"}]
+}
+</script>
 
 ## 7. Quantum Entanglement
 
@@ -535,6 +607,15 @@ The teleported state is $|\chi\rangle$ with fidelity 1. No faster-than-light com
 because the quantum information is unusable without the classical bits.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "18_quantum Mechanics Ii", "url": "https://physics.wyattau.com/5-quantum-mechanics/18_quantum-mechanics-ii"}]
+}
+</script>
 
 ## 8. Quantum Computing Primer
 
@@ -616,6 +697,15 @@ applications in optimisation, cryptanalysis, and amplitude amplification.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "18_quantum Mechanics Ii", "url": "https://physics.wyattau.com/5-quantum-mechanics/18_quantum-mechanics-ii"}]
+}
+</script>
+
 ## 9. Common Pitfalls
 
 1. **Confusing entanglement with superposition.** Superposition is a property of a single quantum
@@ -651,6 +741,15 @@ applications in optimisation, cryptanalysis, and amplitude amplification.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "18_quantum Mechanics Ii", "url": "https://physics.wyattau.com/5-quantum-mechanics/18_quantum-mechanics-ii"}]
+}
+</script>
+
 ## 10. Summary
 
 - **Perturbation theory** extends systematically via degenerate diagonalisation, selection rules
@@ -672,6 +771,15 @@ applications in optimisation, cryptanalysis, and amplitude amplification.
   entanglement for computational advantages over classical algorithms.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "18_quantum Mechanics Ii", "url": "https://physics.wyattau.com/5-quantum-mechanics/18_quantum-mechanics-ii"}]
+}
+</script>
 
 ## Cross-References
 

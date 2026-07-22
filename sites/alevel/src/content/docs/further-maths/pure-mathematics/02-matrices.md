@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "02 Matrices", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices"}]
+}
+</script>
 title: Matrices
 description: "Matrices provide a compact algebraic framework for representing and manipulating systems of linear Equations, geometric transformations, and — at a more"
 date: 2026-04-02T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "02 Matrices", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices"}]
+}
+</script>
 
 ## Matrices
 
@@ -753,6 +771,15 @@ Then B," you must undo B first, then undo A.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "02 Matrices", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices"}]
+}
+</script>
+
 ## 8. Advanced Worked Examples
 
 ### Example 8.1: Diagonalisation of a 3×3 matrix
@@ -859,6 +886,15 @@ $\mathbf{A}^{-1} = \dfrac{1}{-1}\begin{pmatrix}1&2&-2\\-1&-2&1\\-1&-1&1\end{pmat
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "02 Matrices", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices"}]
+}
+</script>
+
 ## 9. Common Pitfalls
 
 | Pitfall                                                                     | Correct Approach                                                               |
@@ -869,6 +905,15 @@ $\mathbf{A}^{-1} = \dfrac{1}{-1}\begin{pmatrix}1&2&-2\\-1&-2&1\\-1&-1&1\end{pmat
 | Mixing up row and column operations                                         | Column operations change the determinant differently from row operations       |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "02 Matrices", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices"}]
+}
+</script>
 
 ## 10. Additional Exam-Style Questions
 
@@ -932,6 +977,15 @@ $\boxed{\lambda = 2 \text{ and } \lambda = 3}$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "02 Matrices", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices"}]
+}
+</script>
+
 ## 11. Connections to Other Topics
 
 ### 11.1 Matrices and complex numbers
@@ -951,6 +1005,15 @@ Cayley--Hamilton connects matrices to polynomial algebra. See
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "02 Matrices", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices"}]
+}
+</script>
+
 ## 12. Key Results Summary
 
 | Result               | Formula/Condition                                                           |
@@ -965,6 +1028,15 @@ Cayley--Hamilton connects matrices to polynomial algebra. See
 | Area scaling         | $                                                                           | \det(\mathbf{T}) | \times$ original area $=$ image area |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "02 Matrices", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices"}]
+}
+</script>
 
 ## 13. Further Exam-Style Questions
 
@@ -1003,6 +1075,15 @@ Formally: this follows from the permutation definition of the determinant. $\bla
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "02 Matrices", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices"}]
+}
+</script>
+
 ## 14. Advanced Topics
 
 ### 14.1 Eigenvalues and the characteristic polynomial
@@ -1040,6 +1121,15 @@ $\|\mathbf{A}\|_F = \sqrt{\sum_{i,j} a_{ij}^2} = \sqrt{\mathrm{tr}(\mathbf{A}^T\
 The spectral norm: $\|\mathbf{A}\|_2 = \sigma_{\max}$ (largest singular value).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "02 Matrices", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices"}]
+}
+</script>
 
 ## 15. Further Exam-Style Questions
 
@@ -1093,6 +1183,15 @@ Since the characteristic polynomials are identical, the eigenvalues are the same
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "02 Matrices", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices"}]
+}
+</script>
+
 ## 16. Further Advanced Topics
 
 ### 16.1 LU decomposition
@@ -1123,6 +1222,15 @@ All $\mathbf{x} \neq \mathbf{0}$.
 Equivalent conditions: all eigenvalues positive, all leading principal minors positive.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "02 Matrices", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices"}]
+}
+</script>
 
 ## 17. Further Exam-Style Questions
 

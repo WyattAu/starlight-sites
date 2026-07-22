@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "2_global Systems", "url": "https://alevel.wyattau.com/geography/2-human-geography/2_global-systems"}]
+}
+</script>
 title: Global Systems and Governance
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]
 description: "A-Level Geography Global Systems and Governance notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "2_global Systems", "url": "https://alevel.wyattau.com/geography/2-human-geography/2_global-systems"}]
+}
+</script>
 
 # Global Systems and Governance
 
@@ -19,6 +37,15 @@ for explaining global inequalities, geopolitical tensions, and the governance of
 challenges such as climate change.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "2_global Systems", "url": "https://alevel.wyattau.com/geography/2-human-geography/2_global-systems"}]
+}
+</script>
 
 ## Key Concepts and Definitions
 
@@ -42,6 +69,15 @@ challenges such as climate change.
 | **Semi-periphery**                  | Countries that are between core and periphery — industrialising but not yet dominant                                                      |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "2_global Systems", "url": "https://alevel.wyattau.com/geography/2-human-geography/2_global-systems"}]
+}
+</script>
 
 ## Globalisation
 
@@ -107,6 +143,15 @@ borders.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "2_global Systems", "url": "https://alevel.wyattau.com/geography/2-human-geography/2_global-systems"}]
+}
+</script>
+
 ## International Trade
 
 ### Patterns of Global Trade
@@ -140,6 +185,15 @@ efficiency, political cooperation, FDI attraction.
 members), loss of national sovereignty over trade policy, unequal benefits within the bloc.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "2_global Systems", "url": "https://alevel.wyattau.com/geography/2-human-geography/2_global-systems"}]
+}
+</script>
 
 ## Transnational Corporations
 
@@ -184,6 +238,15 @@ TNCs influence global systems through:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "2_global Systems", "url": "https://alevel.wyattau.com/geography/2-human-geography/2_global-systems"}]
+}
+</script>
+
 ## Global Governance
 
 ### Institutions of Global Governance
@@ -225,6 +288,15 @@ restraint would benefit all.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "2_global Systems", "url": "https://alevel.wyattau.com/geography/2-human-geography/2_global-systems"}]
+}
+</script>
+
 ## Migration
 
 ### Types of Migration
@@ -258,6 +330,15 @@ restraint would benefit all.
 - Social costs — family separation, dependency on remittance income
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "2_global Systems", "url": "https://alevel.wyattau.com/geography/2-human-geography/2_global-systems"}]
+}
+</script>
 
 ## Case Studies
 
@@ -312,6 +393,15 @@ political parties across Europe and was a factor in the UK's Brexit vote (2016).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "2_global Systems", "url": "https://alevel.wyattau.com/geography/2-human-geography/2_global-systems"}]
+}
+</script>
+
 ## Intuition
 
 Globalisation is like a vast spider web, with TNCs sitting at the centre. Each strand — trade routes, supply chains, migration flows, financial transactions — connects distant places in ways that are invisible until something breaks. When a tsunami hits Japan, car factories in Tennessee stop producing. When a pandemic closes Chinese ports, shelves in British supermarkets empty. The web creates wealth but also vulnerability. The tragedy of global governance is that the web needs a spider — someone to manage it — but the most powerful strands are controlled by nations that do not want to share their autonomy. The result is a system that is interconnected enough to cause global crises but disorganised enough to struggle with global solutions.
@@ -333,6 +423,15 @@ Globalisation is like a vast spider web, with TNCs sitting at the centre. Each s
    trade. They are not the same thing.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "2_global Systems", "url": "https://alevel.wyattau.com/geography/2-human-geography/2_global-systems"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -394,6 +493,15 @@ affecting households and national accounts.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "2_global Systems", "url": "https://alevel.wyattau.com/geography/2-human-geography/2_global-systems"}]
+}
+</script>
+
 ## Summary
 
 - Globalisation has increased interconnectedness through trade, investment, migration, and
@@ -409,6 +517,15 @@ affecting households and national accounts.
   self-interest create persistent challenges.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "2_global Systems", "url": "https://alevel.wyattau.com/geography/2-human-geography/2_global-systems"}]
+}
+</script>
 
 > **Sources**: AQA Geography (7037) specification; Dicken, _Global Shift_ (2015); UNHCR refugee
 > data; World Bank remittance data; Apple Inc. annual reports; WTO statistics; IMF and World Bank

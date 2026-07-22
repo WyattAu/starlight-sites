@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Wave Properties", "url": "https://ib.wyattau.com/physics/diagnostics/diag-wave-properties"}]
+}
+</script>
 title: "Wave Properties -- Diagnostic Tests"
 description: "IB Physics Wave Properties -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Wave Properties", "url": "https://ib.wyattau.com/physics/diagnostics/diag-wave-properties"}]
+}
+</script>
 
 # Wave Properties — Diagnostic Tests
 
@@ -60,6 +78,15 @@ of the amplitude.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Wave Properties", "url": "https://ib.wyattau.com/physics/diagnostics/diag-wave-properties"}]
+}
+</script>
+
 ### UT-2: Wave Speed on a String — Dependence on Tension and Mass Per Unit Length
 
 **Question:**
@@ -98,6 +125,15 @@ The student is wrong. Since $f \propto v \propto \sqrt{T}$A $44\%$ increase in t
 a $\sqrt{1.44} - 1 = 1.20 - 1 = 20\%$ increase in frequency.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Wave Properties", "url": "https://ib.wyattau.com/physics/diagnostics/diag-wave-properties"}]
+}
+</script>
 
 ### UT-3: Electromagnetic Waves — Speed in Vacuum vs Medium
 
@@ -194,6 +230,15 @@ that adding a source does not always increase the intensity at a given point.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Wave Properties", "url": "https://ib.wyattau.com/physics/diagnostics/diag-wave-properties"}]
+}
+</script>
+
 ### IT-2: Standing Waves and Resonance in Air Columns (with SHM)
 
 **Question:**
@@ -253,6 +298,15 @@ The third harmonic at $514.7\,\text{Hz}$ is now very close to the tuning fork fr
 $512\,\text{Hz}$And near-resonance would occur.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Wave Properties", "url": "https://ib.wyattau.com/physics/diagnostics/diag-wave-properties"}]
+}
+</script>
 
 ### IT-3: Polarisation and Malus's Law (with Energy)
 

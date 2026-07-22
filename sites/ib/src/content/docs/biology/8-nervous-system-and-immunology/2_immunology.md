@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 title: Immunology
 description: "IB Biology — innate immunity, adaptive immunity, antibody structure and classes, T-cell and B-cell activation, immunological memory, vaccines, ELISA,"
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Intuition
 
@@ -34,6 +52,15 @@ Adaptive immunity through antigen presentation; adaptive immunity provides speci
 Protection and enhances innate responses through antibody opsonisation and cytokine secretion.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## 2. Innate Immunity
 
@@ -141,6 +168,15 @@ II interferon** (IFN-$\gamma$) is produced by T cells and NK cells and activates
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## 3. Adaptive Immunity: Overview
 
 Adaptive immunity relies on **lymphocytes** (T cells and B cells) that express highly specific
@@ -158,6 +194,15 @@ lymphocyte Development in the bone marrow (B cells) and thymus (T cells).
 proliferates (clonal expansion), and differentiates into effector cells and memory cells.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## 4. Antigen Presentation
 
@@ -195,6 +240,15 @@ Antigen fragments on MHC molecules for T cell recognition.
 5. The MHC II--peptide complex is transported to the cell surface.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## 5. T-Cell Activation and Response
 
@@ -254,6 +308,15 @@ Pathogen.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## 6. B-Cell Activation and Humoral Immunity
 
 ### B-Cell Activation
@@ -295,6 +358,15 @@ chain while Preserving the antigen-specific variable region. The DNA encoding th
 excised by **activation-induced cytidine deaminase (AID)**.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## 7. Antibody Structure and Classes
 
@@ -355,6 +427,15 @@ Bind to antigens at varying distances. The hinge region varies between antibody 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## 8. Immunological Memory
 
 ### Primary and Secondary Responses
@@ -378,6 +459,15 @@ Bind to antigens at varying distances. The hinge region varies between antibody 
 | **Passive artificial** | Pre-formed antibodies administered (e.g., antivenom, monoclonal antibodies).                      | Rabies immunoglobulin after potential rabies exposure. |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## 9. Vaccination
 
@@ -413,6 +503,15 @@ Exposure, the secondary response provides rapid, effective protection.
   immunity over time). Booster doses address secondary failure.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## 10. ELISA (Enzyme-Linked Immunosorbent Assay)
 
@@ -452,6 +551,15 @@ Yellow colour).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## 11. Monoclonal Antibodies
 
 ### Production (Kohler and Milstein, 1975)
@@ -480,6 +588,15 @@ Yellow colour).
 | **COVID-19 treatment**  | Monoclonal antibody cocktails (e.g., REGEN-COV) were used as passive immunotherapy for high-risk patients.                               |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## 12. Organ Transplantation
 
@@ -527,6 +644,15 @@ risk (especially lymphomas and skin cancers), nephrotoxicity (calcineurin inhibi
   antibodies.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## 13. HIV/AIDS
 
@@ -591,6 +717,15 @@ function But not eradicating the virus (latent proviruses persist in reservoirs)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## 14. Autoimmune Diseases
 
 Autoimmune diseases arise when the immune system fails to distinguish self from non-self and attacks
@@ -620,6 +755,15 @@ The body's own tissues.
 | **Graves' disease**                    | TSH receptor on thyroid                           | Autoantibodies stimulate the TSH receptor, causing hyperthyroidism.                                         |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## 15. Allergies (Type I Hypersensitivity)
 
@@ -675,6 +819,15 @@ Tolerance.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## 16. Other Immune Disorders
 
 ### Immunodeficiency
@@ -717,6 +870,15 @@ hours.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - Confusing **antigens** and **antibodies**: antigens are molecules that trigger an immune response
@@ -739,6 +901,15 @@ hours.
   replicating pathogen at all.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -926,6 +1097,15 @@ antibody Production --- the effector response is pre-armed.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## Worked Examples
 
 **Worked Example: Primary vs Secondary Immune Response Kinetics**
@@ -993,6 +1173,15 @@ Recruitment.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## Common Pitfalls (Expanded)
 
 - **Confusing antigens and antibodies**: antigens are molecules that provoke an immune response;
@@ -1018,6 +1207,15 @@ Recruitment.
   surfaces and is part of innate immunity.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -1096,6 +1294,15 @@ Antibiotic treatment of streptococcal pharyngitis reduces the risk of developing
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## If You Get These Wrong, Revise:
 
 - **Cell biology and phagocytosis** --> Review
@@ -1110,6 +1317,15 @@ Antibiotic treatment of streptococcal pharyngitis reduces the risk of developing
   [.../1-cell-biology/2_metabolism](../1-cell-biology/2_metabolism)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Additional Worked Examples
 
@@ -1305,6 +1521,15 @@ undetectable Levels, allowing immune recovery and preventing disease progression
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## Additional Common Pitfalls
 
 - **Confusing antigens and antibodies**: antigens are molecules that trigger an immune response;
@@ -1322,6 +1547,15 @@ undetectable Levels, allowing immune recovery and preventing disease progression
   primary response and booster doses to develop full immunity. Some vaccines require multiple doses.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 ## Additional Exam-Style Problems with Full Solutions
 
@@ -1517,6 +1751,15 @@ Antibodies; it is mediated by sensitised T cells.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
+
 ## Cross-References to Related Topics
 
 - **Cell membrane and receptor proteins**: Review
@@ -1535,6 +1778,15 @@ Antibodies; it is mediated by sensitised T cells.
   production techniques.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 
 | Topic        | Site    | Link                                                                                          |
 | ------------ | ------- | --------------------------------------------------------------------------------------------- |

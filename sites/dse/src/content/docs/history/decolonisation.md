@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Decolonisation", "url": "https://dse.wyattau.com/history/decolonisation"}]
+}
+</script>
 title: "Decolonisation and the Path to 1997"
 description: "Decolonisation movements post-WWII, Indian independence, Indonesian and Vietnamese decolonisation, African decolonisation, impact on Hong Kong, and the Sino-British Joint Declaration."
 sidebar_position: 5
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Decolonisation", "url": "https://dse.wyattau.com/history/decolonisation"}]
+}
+</script>
 
 ## Decolonisation After World War II
 

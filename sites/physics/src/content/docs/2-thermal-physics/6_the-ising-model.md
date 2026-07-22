@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "6_the Ising Model", "url": "https://physics.wyattau.com/2-thermal-physics/6_the-ising-model"}]
+}
+</script>
 title: The Ising Model
 tags:
   - Physics
   - University
 description: 'The is the simplest model of a phase transition. On a lattice of sites, each site has a spin variable . The Hamiltonian is'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "6_the Ising Model", "url": "https://physics.wyattau.com/2-thermal-physics/6_the-ising-model"}]
+}
+</script>
 
 ### 6.1 Definition
 
@@ -154,4 +172,13 @@ The Ising model is the simplest system showing how local interactions create glo
 - **[The Laws of Thermodynamics](1_the-laws-of-thermodynamics.md)**: The Ising model free energy minimisation at equilibrium follows from the second law of thermodynamics.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "6_the Ising Model", "url": "https://physics.wyattau.com/2-thermal-physics/6_the-ising-model"}]
+}
+</script>
 

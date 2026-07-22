@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "2 Particulate Nature Of Matter", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter/9_wrap-up"}]
+}
+</script>
 title: Wrap Up
 description: "Rigorous IB physics notes covering Wrap Up. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "2 Particulate Nature Of Matter", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter/9_wrap-up"}]
+}
+</script>
 
 <details>
 <summary><strong>B.1 Thermal Energy Transfers, B.2 Greenhouse Effect & B.3 Gas Laws</strong></summary>
@@ -241,6 +259,15 @@ Conservation).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "2 Particulate Nature Of Matter", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter/9_wrap-up"}]
+}
+</script>
+
 ## Archimedes' Principle
 
 **Archimedes' principle:** An object wholly or partially immersed in a fluid experiences an upward
@@ -271,6 +298,15 @@ Water ($\rho = 1000 \mathrm{ kg m}^{-3}$).
 > $\rho_{\mathrm{object}} \lt \rho_{\mathrm{fluid}}$It floats.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "2 Particulate Nature Of Matter", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter/9_wrap-up"}]
+}
+</script>
 
 ## Bernoulli's Equation
 
@@ -313,6 +349,15 @@ The pressure **drops** where the fluid speeds up — this is the Venturi effect.
 > well as mathematically.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "2 Particulate Nature Of Matter", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter/9_wrap-up"}]
+}
+</script>
 
 ## Ideal Gas Behaviour
 
@@ -386,6 +431,15 @@ Where $a$ accounts for intermolecular attraction and $b$ accounts for molecular 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "2 Particulate Nature Of Matter", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter/9_wrap-up"}]
+}
+</script>
+
 ## Phase Changes
 
 ### Heating Curve
@@ -450,6 +504,15 @@ Kg$^{-1}$$L_v = 2.26 \times 10^6$ J kg$^{-1}$)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "2 Particulate Nature Of Matter", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter/9_wrap-up"}]
+}
+</script>
+
 ## Quick Reference: Key Formulas
 
 | Formula                                                | Application                     |
@@ -495,6 +558,15 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "2 Particulate Nature Of Matter", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter/9_wrap-up"}]
+}
+</script>
 
 ## Cross-References
 

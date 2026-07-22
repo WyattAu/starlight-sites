@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://ib.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 title: "Trigonometry -- Diagnostic Tests"
 description: "IB Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://ib.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 # Trigonometry — Diagnostic Tests
 
@@ -55,6 +73,15 @@ non-zero.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://ib.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
+
 ### UT-2: Double Angle Identity Trap
 
 **Question:**
@@ -89,6 +116,15 @@ $$\cos^2\!\left(\frac{\pi}{8}\right) = \frac{1 + \cos\frac{\pi}{4}}{2} = \frac{1
 $$\cos^4\!\left(\frac{\pi}{8}\right) = \left(\frac{2 + \sqrt{2}}{4}\right)^2 = \frac{4 + 4\sqrt{2} + 2}{16} = \frac{6 + 4\sqrt{2}}{16} = \frac{3 + 2\sqrt{2}}{8}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://ib.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ### UT-3: Harmonic Form and Maximum/Minimum
 
@@ -132,6 +168,15 @@ The maximum does not exist (unbounded). The minimum is $\dfrac{1}{10}$Occurring 
 $\sin(x - \alpha) = 1$I.e., $x = \alpha + \frac{\pi}{2} + 2n\pi$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Trigonometry", "url": "https://ib.wyattau.com/maths/diagnostics/diag-trigonometry"}]
+}
+</script>
 
 ## Integration Tests
 

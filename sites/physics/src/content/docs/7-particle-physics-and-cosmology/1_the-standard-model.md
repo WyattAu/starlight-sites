@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "7 Particle Physics And Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology"}, {"name": "1_the Standard Model", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology/1_the-standard-model"}]
+}
+</script>
 title: The Standard Model
 tags:
   - Physics
   - University
 description: "The of particle physics describes the fundamental particles and their interactions Via three of the four known forces: the electromagnetic, weak, and strong"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "7 Particle Physics And Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology"}, {"name": "1_the Standard Model", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology/1_the-standard-model"}]
+}
+</script>
 
 ### 1.1 Overview
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 title: "Acids, Bases and Buffers -- Diagnostic Tests"
 description: "A-Level Chemistry Acids, Bases and Buffers -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 
 
 ## Intuition
@@ -88,6 +106,15 @@ $-\log(0.00100/0.100) = 1.00$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
+
 ### UT-2: Ka from pH and Titration Curve Analysis
 
 **Question:**
@@ -128,6 +155,15 @@ Methyl orange would **not** be suitable (colour change at pH 3.1--4.4) because i
 colour well before the equivalence point.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 
 ### UT-3: Kw and pH at Different Temperatures
 
@@ -220,6 +256,15 @@ $$\text{pH} = \frac{6.37 + 10.25}{2} = 8.31$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
+
 ### IT-2: Buffer Capacity and Biological Application (with Equilibrium)
 
 **Question:**
@@ -283,6 +328,15 @@ concentrations are much larger than the amount of added $\text{H}^+$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
+
 ### IT-3: Strong Acid-Weak Base Titration with Back-Calculation (with Quantitative Chemistry)
 
 **Question:**
@@ -334,6 +388,15 @@ consider the gradual colour change. In practice, methyl orange is commonly used 
 base titrations.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Acids Bases", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-acids-bases"}]
+}
+</script>
 
 ### Additional Practice Problems
 

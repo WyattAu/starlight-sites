@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "11_landau Theory Of Phase Transitions", "url": "https://physics.wyattau.com/2-thermal-physics/11_landau-theory-of-phase-transitions"}]
+}
+</script>
 title: Landau Theory of Phase Transitions
 tags:
   - Physics
   - University
 description: "Landau theory provides a phenomenological framework for continuous (second-order) phase transitions by expanding the free energy in powers of an ."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "11_landau Theory Of Phase Transitions", "url": "https://physics.wyattau.com/2-thermal-physics/11_landau-theory-of-phase-transitions"}]
+}
+</script>
 
 Landau theory provides a phenomenological framework for continuous (second-order) phase transitions
 by expanding the free energy in powers of an **order parameter** $\phi$.

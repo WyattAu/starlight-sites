@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
 title: Human Physiology
 description: "A balanced diet provides all essential nutrients in the correct proportions to maintain health."
 date: 2026-04-08T00:00:00.000Z
 tags: [DSE, Biology]
 categories: [DSE, Biology]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## Nutrition
 
@@ -88,6 +106,15 @@ efficient during intense exercise.
 **Overnutrition:** Excessive intake leading to obesity, cardiovascular disease, Type 2 diabetes.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## The Digestive System
 
@@ -256,6 +283,15 @@ Water.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## Gas Exchange
 
 ### Structure of the Human Respiratory System
@@ -365,6 +401,15 @@ Carbon monoxide reduces the oxygen-carrying capacity of blood because it binds t
 Forming carboxyhaemoglobin, which is stable and does not readily release the CO.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## Transport in Humans
 
@@ -547,6 +592,15 @@ A **left shift** = higher affinity for O$_2$ = less O$_2$ released to tissues.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## Excretion
 
 ### Excretion vs Egestion
@@ -685,6 +739,15 @@ rate.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## Nervous Coordination
 
 ### The Nervous System
@@ -797,6 +860,15 @@ A reflex arc is the pathway taken by nerve impulses in an automatic, involuntary
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## Sense Organs
 
 ### The Eye
@@ -891,6 +963,15 @@ The skin contains various sensory receptors:
 | Mechanoreceptors   | Mechanical deformation |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## Hormonal Coordination
 
@@ -1013,6 +1094,15 @@ solution containing 50 g of glucose. Describe the hormonal response over the nex
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## Human Reproduction
 
 ### Male Reproductive System
@@ -1106,6 +1196,15 @@ The menstrual cycle is approximately 28 days and is controlled by four hormones:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## Intuition
 
 **A complex machine:** The human body is like a city — the heart is the pump, lungs are air filters, kidneys are water treatment plants, and the brain is city hall. Each organ system keeps the body functioning.
@@ -1150,6 +1249,15 @@ The menstrual cycle is approximately 28 days and is controlled by four hormones:
     ovulation and maintains the corpus luteum. Do not swap them.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## Problem Set
 
@@ -1406,6 +1514,15 @@ vesicles, only the post-synaptic membrane has the specific receptor proteins, an
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## The Digestive System in Detail
 
 ### Large Intestine (Colon)
@@ -1446,6 +1563,15 @@ chemically digest fats. Lipase chemically digests fats.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## Gas Exchange in Detail
 
 ### Partial Pressures and Gas Exchange
@@ -1477,6 +1603,15 @@ chemically digest fats. Lipase chemically digests fats.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 questions within the DSE specification for this topic, each with a full worked solution.
 
@@ -1487,6 +1622,15 @@ See for instructions on
 self-marking and building a personal test matrix.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## The Heart in Detail
 
@@ -1573,6 +1717,15 @@ arteries, narrowing the lumen and restricting blood flow to the heart muscle.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## Blood Pressure
 
 ### Measurement
@@ -1610,6 +1763,15 @@ $$\text{Blood pressure} = \frac{\text{Systolic pressure}}{\text{Diastolic pressu
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **The left ventricle has a thicker muscular wall than the right ventricle** because it needs to
@@ -1624,6 +1786,15 @@ $$\text{Blood pressure} = \frac{\text{Systolic pressure}}{\text{Diastolic pressu
   return blood to the heart
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## The Digestive System in Detail
 
@@ -1692,6 +1863,15 @@ The mechanism by which glucose is absorbed from the small intestine (and reabsor
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
+
 ## The Liver
 
 ### Functions of the Liver
@@ -1720,6 +1900,15 @@ transported to the kidneys for excretion:
 $$2\mathrm{NH_3} + \mathrm{CO_2} \rightarrow \mathrm{CO(NH_2)_2} + \mathrm{H_2O}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
+}
+</script>
 
 ## Common Pitfalls
 

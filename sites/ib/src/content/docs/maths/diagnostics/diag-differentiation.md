@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Differentiation", "url": "https://ib.wyattau.com/maths/diagnostics/diag-differentiation"}]
+}
+</script>
 title: "Differentiation -- Diagnostic Tests"
 description: "IB Maths Differentiation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Differentiation", "url": "https://ib.wyattau.com/maths/diagnostics/diag-differentiation"}]
+}
+</script>
 
 # Differentiation — Diagnostic Tests
 
@@ -94,6 +112,15 @@ and simplifying. Both forms are correct; they just express the answer differentl
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Differentiation", "url": "https://ib.wyattau.com/maths/diagnostics/diag-differentiation"}]
+}
+</script>
+
 ### UT-2: L'Hopital's Rule — When It Does Not Apply
 
 **Question:**
@@ -144,6 +171,15 @@ because the original limit is indeterminate.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Differentiation", "url": "https://ib.wyattau.com/maths/diagnostics/diag-differentiation"}]
+}
+</script>
+
 ### UT-3: Product Rule — Order of Operations
 
 **Question:**
@@ -179,6 +215,15 @@ the derivatives. The correct rule is $(uvw)' = u'vw + uv'w + uvw'$ — each term
 exactly one factor while keeping the others unchanged.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Differentiation", "url": "https://ib.wyattau.com/maths/diagnostics/diag-differentiation"}]
+}
+</script>
 
 ## Integration Tests
 

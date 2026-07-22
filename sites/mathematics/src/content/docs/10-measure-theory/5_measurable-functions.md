@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "5_measurable Functions", "url": "https://mathematics.wyattau.com/10-measure-theory/5_measurable-functions"}]
+}
+</script>
 title: Measurable Functions
 tags:
   - Mathematics
   - University
 description: 'Let and be measurable spaces. A function is if for every . When , we equip with . Comprehensive educational content coverage with definitions and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "5_measurable Functions", "url": "https://mathematics.wyattau.com/10-measure-theory/5_measurable-functions"}]
+}
+</script>
 
 ### 5.1 Definition
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Introduction", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-organic-introduction"}]
+}
+</script>
 title: "Organic Chemistry Introduction -- Diagnostic Tests"
 description: "A-Level Organic Chemistry Introduction -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Introduction", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-organic-introduction"}]
+}
+</script>
 
 
 ## Intuition
@@ -44,6 +62,15 @@ Working: The longest chain is 5 carbons (pentane). The two $-$OH groups are at C
 suffix "-diol" is used with locants separated by commas.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Introduction", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-organic-introduction"}]
+}
+</script>
 
 ### UT-2: Stereoisomerism: E/Z and Optical Activity
 
@@ -100,6 +127,15 @@ $$(R) = 79.2\%, \quad (S) = 20.8\%$$
 Ratio $(R):(S) = 79.2 : 20.8 \approx 3.81 : 1$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Introduction", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-organic-introduction"}]
+}
+</script>
 
 ### UT-3: Functional Group Identification and Classification
 
@@ -202,6 +238,15 @@ nucleophile are involved in the rate-determining step.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Introduction", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-organic-introduction"}]
+}
+</script>
+
 ### IT-2: Reaction Pathways and Functional Group Interconversions (with Organic Mechanisms)
 
 **Question:**
@@ -264,6 +309,15 @@ oxidation to the carboxylic acid.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Introduction", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-organic-introduction"}]
+}
+</script>
+
 ### IT-3: Chirality and Reaction Mechanisms (with Organic Chemistry)
 
 **Question:**
@@ -307,6 +361,15 @@ changes because the spatial arrangement of substituents around the chiral carbon
 was the front becomes the back, and vice versa.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Organic Introduction", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-organic-introduction"}]
+}
+</script>
 
 ### Additional Practice Problems
 

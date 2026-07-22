@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "4_population And Environment", "url": "https://alevel.wyattau.com/geography/2-human-geography/4_population-and-environment"}]
+}
+</script>
 title: Population and the Environment
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]
 description: "A-Level Geography Population and the Environment notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "4_population And Environment", "url": "https://alevel.wyattau.com/geography/2-human-geography/4_population-and-environment"}]
+}
+</script>
 
 # Population and the Environment
 
@@ -18,6 +36,15 @@ of growing population and finite resources. Understanding these dynamics is esse
 global challenges such as climate change, food insecurity, and environmental degradation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "4_population And Environment", "url": "https://alevel.wyattau.com/geography/2-human-geography/4_population-and-environment"}]
+}
+</script>
 
 ## Key Concepts and Definitions
 
@@ -44,6 +71,15 @@ global challenges such as climate change, food insecurity, and environmental deg
 | **Epidemiological transition**         | The shift from infectious and parasitic diseases (pre-industrial) to degenerative and man-made diseases (industrial and post-industrial)             |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "4_population And Environment", "url": "https://alevel.wyattau.com/geography/2-human-geography/4_population-and-environment"}]
+}
+</script>
 
 ## Population Change and the Demographic Transition Model
 
@@ -97,6 +133,15 @@ global challenges such as climate change, food insecurity, and environmental deg
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "4_population And Environment", "url": "https://alevel.wyattau.com/geography/2-human-geography/4_population-and-environment"}]
+}
+</script>
+
 ## Population-Resource Relationships
 
 ### Malthus vs. Boserup
@@ -125,6 +170,15 @@ This overshoot suggests the global population has exceeded the Earth's carrying 
 consumption levels.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "4_population And Environment", "url": "https://alevel.wyattau.com/geography/2-human-geography/4_population-and-environment"}]
+}
+</script>
 
 ## Health and Disease
 
@@ -174,6 +228,15 @@ though excess mortality estimates suggest the true figure is significantly highe
   risk of zoonotic disease transmission.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "4_population And Environment", "url": "https://alevel.wyattau.com/geography/2-human-geography/4_population-and-environment"}]
+}
+</script>
 
 ## Food Security
 
@@ -232,6 +295,15 @@ Four dimensions:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "4_population And Environment", "url": "https://alevel.wyattau.com/geography/2-human-geography/4_population-and-environment"}]
+}
+</script>
+
 ## Energy Security
 
 ### Global Energy Patterns
@@ -278,6 +350,15 @@ Global primary energy consumption is approximately 580 exajoules per year (2022)
   industrial processes is often the cheapest and most effective strategy.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "4_population And Environment", "url": "https://alevel.wyattau.com/geography/2-human-geography/4_population-and-environment"}]
+}
+</script>
 
 ## Case Studies
 
@@ -342,6 +423,15 @@ agricultural production.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "4_population And Environment", "url": "https://alevel.wyattau.com/geography/2-human-geography/4_population-and-environment"}]
+}
+</script>
+
 ## Intuition
 
 The population debate is a tension between two clocks. Malthus heard a ticking time bomb — population growing exponentially while food grows linearly, guaranteeing eventual disaster. Boserup heard an alarm clock — population pressure waking up human ingenuity to find new solutions. Both were partly right. The Green Revolution proved Boserup correct in the short term: necessity produced miracle wheat and rice that fed billions. But Malthus was right about limits — we are now hitting planetary boundaries that no amount of ingenuity can ignore. Food insecurity is rarely about not growing enough food; it is about who controls the food and who can afford to buy it. The real crisis is one of distribution, not production.
@@ -364,6 +454,15 @@ The population debate is a tension between two clocks. Malthus heard a ticking t
    a political and economic failure, not merely a physical shortage.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "4_population And Environment", "url": "https://alevel.wyattau.com/geography/2-human-geography/4_population-and-environment"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -434,6 +533,15 @@ survive.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "4_population And Environment", "url": "https://alevel.wyattau.com/geography/2-human-geography/4_population-and-environment"}]
+}
+</script>
+
 ## Summary
 
 - Population change follows the Demographic Transition Model, but the model has limitations and
@@ -451,6 +559,15 @@ survive.
   culture, economics, and environmental change.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "4_population And Environment", "url": "https://alevel.wyattau.com/geography/2-human-geography/4_population-and-environment"}]
+}
+</script>
 
 > **Sources**: AQA Geography (7037) specification; FAO, _The State of Food Security and Nutrition in
 > the World_ (2023); IEA, _World Energy Outlook_ (2023); World Bank data; UN Population Division;

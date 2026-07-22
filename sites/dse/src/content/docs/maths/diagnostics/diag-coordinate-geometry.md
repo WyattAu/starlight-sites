@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
 title: "Coordinate Geometry -- Diagnostic Tests"
 description: "DSE Maths Coordinate Geometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
 
 # Coordinate Geometry — Diagnostic Tests
 
@@ -27,6 +45,15 @@ $$(x - 3)^2 + (y + 2)^2 = 25$$
 Centre: $(3,\; -2)$Radius: $5$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
 
 ### UT-2: Perpendicular Slopes Product Equals -1
 
@@ -53,6 +80,15 @@ Or $x + y - 3 = 0$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
+
 ### UT-3: Circle Tangent from External Point
 
 **Question:**
@@ -70,6 +106,15 @@ Distance from $P$ to $C$: $PC = \sqrt{(8-2)^2 + (3-3)^2} = \sqrt{36} = 6$.
 Length of tangent: $PT = \sqrt{PC^2 - r^2} = \sqrt{36 - 4} = \sqrt{32} = 4\sqrt{2}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
 
 ### UT-4: Locus Definition
 
@@ -100,6 +145,15 @@ This is a hyperbola.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
+
 ### UT-5: Intersection of Line and Circle
 
 **Question:**
@@ -127,6 +181,15 @@ $\left(\dfrac{16}{5},\; \dfrac{27}{5}\right)$.
 $x = 2$: $y = 3$. Point: $(2,\; 3)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -166,6 +229,15 @@ $$c = \pm 2\sqrt{1 + m^2}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
+
 ### IT-2: Coordinate Geometry and Trigonometry (with Trigonometry)
 
 **Question:**
@@ -191,6 +263,15 @@ triangle.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
+
 ### IT-3: Coordinate Geometry and Functions (with Functions)
 
 **Question:**
@@ -214,6 +295,15 @@ $y = (-x)^2 - 4(-x) + 7 = x^2 + 4x + 7 = (x + 2)^2 + 3$.
 The reflected parabola has vertex $(-2, 3)$ and axis $x = -2$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -242,6 +332,15 @@ Since $AC$ is horizontal ($y = -1$), the height $= |5 - (-1)| = 6$.
 Area $= \dfrac{1}{2} \times 8 \times 6 = 24$ square units.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
 
 ### WE-2: Equation of Circle Through Two Points
 
@@ -280,6 +379,15 @@ $9x^2 + 9y^2 - 42x - 84y + 128 = 0$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
+
 ### WE-3: Locus of Moving Point
 
 **Question:**
@@ -307,6 +415,15 @@ This is a parabola (since it has one squared term and one linear term in the oth
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
+
 ### WE-4: Angle Between Two Lines
 
 **Question:**
@@ -324,6 +441,15 @@ $$\tan \theta = \left|\frac{m_1 - m_2}{1 + m_1 m_2}\right| = \left|\frac{3 - (-1
 $$\theta = \arctan(7) \approx 81.9°$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
 
 ### WE-5: Finding the Point of Intersection
 
@@ -347,6 +473,15 @@ Point of intersection: $(2, 3)$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
+
 ### WE-6: Shortest Distance from Point to Line
 
 **Question:**
@@ -360,6 +495,15 @@ Using the point-to-line distance formula:
 $$d = \frac{|4(3) + 3(-1) - 10|}{\sqrt{4^2 + 3^2}} = \frac{|12 - 3 - 10|}{5} = \frac{1}{5}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
 
 ### WE-7: Two Circles Touching Externally
 
@@ -388,6 +532,15 @@ In fact, $O_1 O_2 = \sqrt{41} < 7 = r_1 + r_2$So the circles **overlap** (inters
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
+
 ### WE-8: Equation of Perpendicular Bisector
 
 **Question:**
@@ -405,6 +558,15 @@ Slope of perpendicular bisector: $m_{\perp} = 1$.
 Equation: $y - 2 = 1(x - 1) \implies y = x + 1$Or $x - y + 1 = 0$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
 
 ## Intuition
 
@@ -437,6 +599,15 @@ Equation: $y - 2 = 1(x - 1) \implies y = x + 1$Or $x - y + 1 = 0$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
+
 ## DSE Exam-Style Questions
 
 ### DSE-1
@@ -468,6 +639,15 @@ This reveals an important check: when the point $(-1, 5)$ has the same $y$-coord
 the radius is horizontal and the tangent is vertical.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
 
 ### DSE-2
 
@@ -505,6 +685,15 @@ $= \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2} = \sqrt{(\sqrt{17})^2 + (\sqrt{17})^2} =
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
+
 ### DSE-3
 
 A variable point $P(x, y)$ moves such that its distance from $A(1, 2)$ is always equal to its
@@ -533,6 +722,15 @@ $x + y - 7 = 0$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
+
 ### DSE-4
 
 The vertices of a triangle are $A(0, 0)$, $B(8, 0)$And $C(4, 6)$.
@@ -558,6 +756,15 @@ Equation: $y - 0 = \dfrac{2}{3}(x - 0) \implies y = \dfrac{2}{3}x$Or $2x - 3y = 
 Intersection point: $\left(4,\; \dfrac{8}{3}\right)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
+}
+</script>
 
 ### DSE-5
 

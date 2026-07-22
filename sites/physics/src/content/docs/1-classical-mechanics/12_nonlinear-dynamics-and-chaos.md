@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "12_nonlinear Dynamics And Chaos", "url": "https://physics.wyattau.com/1-classical-mechanics/12_nonlinear-dynamics-and-chaos"}]
+}
+</script>
 title: Nonlinear Dynamics and Chaos
 tags:
   - Physics
   - University
 description: "The logistic map is the simplest model of chaotic dynamics: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "12_nonlinear Dynamics And Chaos", "url": "https://physics.wyattau.com/1-classical-mechanics/12_nonlinear-dynamics-and-chaos"}]
+}
+</script>
 
 ### 11.1 The Logistic Map
 

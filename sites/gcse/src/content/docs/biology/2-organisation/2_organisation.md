@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "2 Organisation", "url": "https://gcse.wyattau.com/biology/2-organisation"}, {"name": "2_organisation", "url": "https://gcse.wyattau.com/biology/2-organisation/2_organisation"}]
+}
+</script>
 title: Organisation
 description: "The digestive system breaks down large, insoluble food molecules into small, soluble molecules that Can be absorbed into the blood. This is not a single"
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - gcse-biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "2 Organisation", "url": "https://gcse.wyattau.com/biology/2-organisation"}, {"name": "2_organisation", "url": "https://gcse.wyattau.com/biology/2-organisation/2_organisation"}]
+}
+</script>
 
 ## Organisation
 

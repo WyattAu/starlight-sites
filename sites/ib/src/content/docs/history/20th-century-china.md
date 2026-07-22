@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "20th Century China", "url": "https://ib.wyattau.com/history/20th-century-china"}]
+}
+</script>
 title: 20th Century China
 description: "Comprehensive IB History coverage of 20th-century China: the fall of the Qing Dynasty, warlord period, CCP-KMT rivalry, Nanjing decade, Second Sino-Japanese War, Civil War, PRC establishment, Mao's China, and Reform and Opening Up."
 sidebar_position: 21
@@ -8,6 +17,15 @@ tags:
 categories:
   - IB History
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "20th Century China", "url": "https://ib.wyattau.com/history/20th-century-china"}]
+}
+</script>
 
 ## The Fall of the Qing Dynasty (1840–1911)
 
@@ -39,6 +57,15 @@ The term "Century of Humiliation" refers to the period from the First Opium War 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "20th Century China", "url": "https://ib.wyattau.com/history/20th-century-china"}]
+}
+</script>
+
 ## The Warlord Period (1916–1928)
 
 Yuan Shikai's death in 1916 left a power vacuum. China fragmented into territories controlled by regional military commanders.
@@ -51,6 +78,15 @@ Yuan Shikai's death in 1916 left a power vacuum. China fragmented into territori
 **Key Term:** *Warlordism* — the fragmentation of centralised political authority into regional military fiefdoms, where loyalty was personal rather than institutional, and power was maintained through military force.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "20th Century China", "url": "https://ib.wyattau.com/history/20th-century-china"}]
+}
+</script>
 
 ## The CCP and KMT: Alliance and Rivalry
 
@@ -78,6 +114,15 @@ On 12 April 1927, Chiang launched a violent purge of CCP members in Shanghai, wi
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "20th Century China", "url": "https://ib.wyattau.com/history/20th-century-china"}]
+}
+</script>
+
 ## The Second Sino-Japanese War (1937–1945)
 
 ### Origins
@@ -104,6 +149,15 @@ On 12 April 1927, Chiang launched a violent purge of CCP members in Shanghai, wi
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "20th Century China", "url": "https://ib.wyattau.com/history/20th-century-china"}]
+}
+</script>
+
 ## The Chinese Civil War (1945–1949)
 
 ### The Failed Peace
@@ -128,6 +182,15 @@ On 12 April 1927, Chiang launched a violent purge of CCP members in Shanghai, wi
 5. **Soviet support:** The USSR provided captured Japanese weapons and logistical assistance in Manchuria.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "20th Century China", "url": "https://ib.wyattau.com/history/20th-century-china"}]
+}
+</script>
 
 ## The People's Republic of China (1949–1976)
 
@@ -162,6 +225,15 @@ On 12 April 1927, Chiang launched a violent purge of CCP members in Shanghai, wi
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "20th Century China", "url": "https://ib.wyattau.com/history/20th-century-china"}]
+}
+</script>
+
 ## Reform and Opening Up (1978–present)
 
 ### Deng Xiaoping's Reforms
@@ -179,6 +251,15 @@ On 12 April 1927, Chiang launched a violent purge of CCP members in Shanghai, wi
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "20th Century China", "url": "https://ib.wyattau.com/history/20th-century-china"}]
+}
+</script>
+
 ## Connections to IB Paper 2 Prescribed Topics
 
 The history of 20th-century China connects directly to several IB Paper 2 topics:
@@ -189,6 +270,15 @@ The history of 20th-century China connects directly to several IB Paper 2 topics
 - **Topic 5 — Cold War Superpower Tensions:** The Sino-Soviet alliance and its collapse; China's role in the broader Cold War.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "20th Century China", "url": "https://ib.wyattau.com/history/20th-century-china"}]
+}
+</script>
 
 ## Historiographical Debates
 

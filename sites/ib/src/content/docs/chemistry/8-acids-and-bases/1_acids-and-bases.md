@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "1_acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases"}]
+}
+</script>
 title: Acids and Bases
 description: "Rigorous IB chemistry notes covering Acids and Bases. Includes definitions, derivations, worked examples, and exam-style problems. buffers, titrations,"
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "1_acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases"}]
+}
+</script>
 
 ## Intuition
 
@@ -60,6 +78,15 @@ $K_a \approx 1.0 \times 10^{-2}$.
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "1_acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases"}]
+}
+</script>
 
 ## pH and pOH Scales
 
@@ -170,6 +197,15 @@ This gives $x \approx 0.0045$So $[\mathrm{H}^+] \approx 0.0145$ and $\mathrm{pH}
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "1_acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases"}]
+}
+</script>
 
 ## Ka and Kb Expressions
 
@@ -303,6 +339,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "1_acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases"}]
+}
+</script>
+
 ## Kw (Ionic Product of Water)
 
 Water undergoes autoionisation:
@@ -334,6 +379,15 @@ Is still **neutral** because $[\mathrm{H}^+] = [\mathrm{OH}^-]$. Neutral does no
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "1_acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases"}]
+}
+</script>
 
 ## Polyprotic Acids
 
@@ -367,6 +421,15 @@ $$
 Removing a proton from an increasingly negative ion requires more energy.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "1_acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases"}]
+}
+</script>
 
 ## Indicators
 
@@ -404,6 +467,15 @@ Titration (where pH changes most steeply).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "1_acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases"}]
+}
+</script>
+
 ## pH Curves for Titrations
 
 ### Strong Acid -- Strong Base
@@ -440,6 +512,15 @@ Example: HCl + NH$_3$
   $[\mathrm{HA}] = [\mathrm{A}^-]$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "1_acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases"}]
+}
+</script>
 
 ## Buffer Solutions
 
@@ -589,6 +670,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "1_acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases"}]
+}
+</script>
+
 ## Acid-Base Titrations
 
 ### Titration Calculations
@@ -709,6 +799,15 @@ This is a general result: at the half-equivalence point, $\mathrm{pH} = \mathrm{
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "1_acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Strong vs weak acid pH:** A $0.10\mathrm{ mol/L}$ strong acid has pH = 1.0, but a
@@ -746,6 +845,15 @@ This is a general result: at the half-equivalence point, $\mathrm{pH} = \mathrm{
     $K_a$ and $K_b$ are mol/L. $K_w$ has units of mol$^2$/L$^2$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "1_acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -1010,6 +1118,15 @@ Note: The second and third dissociations contribute negligible H$^+$ since $K_{a
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "1_acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases"}]
+}
+</script>
 
 ## Related Content at Other Levels
 

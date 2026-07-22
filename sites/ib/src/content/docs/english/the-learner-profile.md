@@ -1,14 +1,41 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "The Learner Profile", "url": "https://ib.wyattau.com/english/the-learner-profile"}]
+}
+</script>
 title: "The IB Learner Profile in English"
 description: "Characteristics of an IB English learner, approaches to learning (ATL) skills for English, reflective writing, intellectual honesty, and CAS connections."
 sidebar_position: 13
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "The Learner Profile", "url": "https://ib.wyattau.com/english/the-learner-profile"}]
+}
+</script>
 
 # The IB Learner Profile in English
 
 The IB Learner Profile defines the attributes that the International Baccalaureate programme aims to develop in its students. In English, these attributes are not abstract ideals but practical requirements that shape how students read, write, discuss, and think. This page examines each relevant learner profile attribute in the context of English study, with specific attention to approaches to learning (ATL) skills, reflective practice, intellectual honesty, and connections to CAS (Creativity, Activity, Service).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "The Learner Profile", "url": "https://ib.wyattau.com/english/the-learner-profile"}]
+}
+</script>
 
 ## 1. The Ten Learner Profile Attributes
 
@@ -76,6 +103,15 @@ Reflective students thoughtfully consider the world and their own ideas and expe
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "The Learner Profile", "url": "https://ib.wyattau.com/english/the-learner-profile"}]
+}
+</script>
+
 ## Intuition
 
 **The IB learner profile is like a compass — it guides students toward becoming well-rounded, ethical, and engaged global citizens:** The ten attributes (inquirers, knowledgeable, thinkers, etc.) describe not just what students know, but who they become
@@ -132,6 +168,15 @@ The ATL framework identifies five categories of skills that IB students are expe
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "The Learner Profile", "url": "https://ib.wyattau.com/english/the-learner-profile"}]
+}
+</script>
+
 ## 3. Reflective Writing in English
 
 Reflective writing is a structured form of self-assessment that helps students develop metacognitive awareness of their own learning processes. In English, reflective writing serves several purposes:
@@ -167,6 +212,15 @@ The following framework provides a consistent structure for reflective entries:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "The Learner Profile", "url": "https://ib.wyattau.com/english/the-learner-profile"}]
+}
+</script>
+
 ## 4. Intellectual Honesty in Literary Analysis
 
 Intellectual honesty in English means representing texts, sources, and one's own understanding accurately and ethically. This encompasses several specific practices:
@@ -192,6 +246,15 @@ A common form of intellectual dishonesty in English is the presentation of perso
 Intellectual honesty requires the student to consider evidence that contradicts their interpretation, not merely evidence that supports it. When analysing a text, a student should actively seek out moments that challenge their thesis. The ability to revise an interpretation in light of contradictory evidence is a sign of intellectual maturity, not weakness.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "The Learner Profile", "url": "https://ib.wyattau.com/english/the-learner-profile"}]
+}
+</script>
 
 ## 5. CAS Connections
 
@@ -228,6 +291,15 @@ English connects to the Service strand through:
 Students should document their English-related CAS activities in their CAS portfolio, reflecting on how these activities develop the learner profile attributes described above. A student who tutors younger readers in reading demonstrates the attributes of Caring and Communicator; a student who stages a dramatic performance demonstrates the attributes of Risk-taker and Thinker. The portfolio should include specific, honest reflection on what the student learned and how they grew through the activity.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "The Learner Profile", "url": "https://ib.wyattau.com/english/the-learner-profile"}]
+}
+</script>
 
 ## 6. Self-Assessment: Learner Profile Audit
 

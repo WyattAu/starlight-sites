@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Types", "url": "https://cpp.wyattau.com/types"}, {"name": "1_data_layout", "url": "https://cpp.wyattau.com/types/1_data_layout"}, {"name": "1_fundamental_types", "url": "https://cpp.wyattau.com/types/1_data_layout/1_fundamental_types"}]
+}
+</script>
 title: Fundamental Types
 description: "In managed languages (Java, C#), types are abstract constraints enforced by a virtual machine. In C++, types are direct mappings to hardware capabilities. A"
 date: 2025-12-12T04:26:41.621Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - cpp
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Types", "url": "https://cpp.wyattau.com/types"}, {"name": "1_data_layout", "url": "https://cpp.wyattau.com/types/1_data_layout"}, {"name": "1_fundamental_types", "url": "https://cpp.wyattau.com/types/1_data_layout/1_fundamental_types"}]
+}
+</script>
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 In managed languages (Java, C#), types are abstract constraints enforced by a virtual machine. In
@@ -227,6 +245,15 @@ int safe_add(int a, int b) {
 ```
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Types", "url": "https://cpp.wyattau.com/types"}, {"name": "1_data_layout", "url": "https://cpp.wyattau.com/types/1_data_layout"}, {"name": "1_fundamental_types", "url": "https://cpp.wyattau.com/types/1_data_layout/1_fundamental_types"}]
+}
+</script>
 ## Floating-Point Representation in Depth
 ### IEEE 754 Binary Layout
 An IEEE 754 floating-point number encodes a signed value using three fields:
@@ -299,6 +326,15 @@ clang++ -O3 -ffast-math app.cpp -o app
 **Never use `-ffast-math` for:** scientific computing, financial calculations, any code that relies
 On NaN propagation for error detection, or code that compares floating-point values for equality.
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Types", "url": "https://cpp.wyattau.com/types"}, {"name": "1_data_layout", "url": "https://cpp.wyattau.com/types/1_data_layout"}, {"name": "1_fundamental_types", "url": "https://cpp.wyattau.com/types/1_data_layout/1_fundamental_types"}]
+}
+</script>
 ## Alignment and Padding
 ### Natural Alignment
 Every fundamental type has an **alignment requirement**: the address at which it must be stored must
@@ -399,6 +435,15 @@ uint32_t safe_read(const PackedU32& p) {
 }
 ```
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Types", "url": "https://cpp.wyattau.com/types"}, {"name": "1_data_layout", "url": "https://cpp.wyattau.com/types/1_data_layout"}, {"name": "1_fundamental_types", "url": "https://cpp.wyattau.com/types/1_data_layout/1_fundamental_types"}]
+}
+</script>
 ## C++23 Extended Floating-Point Types
 The `<stdfloat>` header (C++23) introduces fixed-width floating-point types that map to hardware or
 Software implementations:
@@ -418,6 +463,15 @@ Same exponent range as `float32` (8 bits) but only 7 bits of mantissa, providing
 Precision. The reduced mantissa halves memory bandwidth compared to `float32` while maintaining the
 Same dynamic range, preventing overflow/underflow in deep learning workloads.
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Types", "url": "https://cpp.wyattau.com/types"}, {"name": "1_data_layout", "url": "https://cpp.wyattau.com/types/1_data_layout"}, {"name": "1_fundamental_types", "url": "https://cpp.wyattau.com/types/1_data_layout/1_fundamental_types"}]
+}
+</script>
 ## Boolean Type and Integer Promotion
 ### `bool` and Integer Conversion
 In C++, `bool` is a fundamental type that can hold values `true` (1) or `false` (0). When a `bool`
@@ -461,6 +515,15 @@ int main() {
 }
 ```
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Types", "url": "https://cpp.wyattau.com/types"}, {"name": "1_data_layout", "url": "https://cpp.wyattau.com/types/1_data_layout"}, {"name": "1_fundamental_types", "url": "https://cpp.wyattau.com/types/1_data_layout/1_fundamental_types"}]
+}
+</script>
 ## Intuition
 
 **Basic building blocks:** Fundamental types are like atoms — they're the simplest data types from which all other types are built. Their size and behavior vary by platform.

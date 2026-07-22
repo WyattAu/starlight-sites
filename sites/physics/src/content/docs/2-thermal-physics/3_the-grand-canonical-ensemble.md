@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "3_the Grand Canonical Ensemble", "url": "https://physics.wyattau.com/2-thermal-physics/3_the-grand-canonical-ensemble"}]
+}
+</script>
 title: The Grand Canonical Ensemble
 tags:
   - Physics
   - University
 description: "In many physical situations, a system exchanges both energy and particles with a reservoir. The describes such open systems. The macroscopic variables are"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "3_the Grand Canonical Ensemble", "url": "https://physics.wyattau.com/2-thermal-physics/3_the-grand-canonical-ensemble"}]
+}
+</script>
 
 ### 3.1 Definition and Motivation
 

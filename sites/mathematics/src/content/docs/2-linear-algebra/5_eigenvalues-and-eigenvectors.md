@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "5_eigenvalues And Eigenvectors", "url": "https://mathematics.wyattau.com/2-linear-algebra/5_eigenvalues-and-eigenvectors"}]
+}
+</script>
 title: Eigenvalues and Eigenvectors
 tags:
   - Mathematics
   - University
 description: 'Let . A scalar is an of if there Exists a non-zero vector such that Comprehensive educational content coverage with definitions and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "5_eigenvalues And Eigenvectors", "url": "https://mathematics.wyattau.com/2-linear-algebra/5_eigenvalues-and-eigenvectors"}]
+}
+</script>
 
 ### 5.1 Definitions
 
@@ -345,6 +363,15 @@ $\blacksquare$
   transform by $P$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "5_eigenvalues And Eigenvectors", "url": "https://mathematics.wyattau.com/2-linear-algebra/5_eigenvalues-and-eigenvectors"}]
+}
+</script>
 
 ## Cross-References
 

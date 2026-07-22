@@ -1,14 +1,41 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "Practice Phoenix", "url": "https://elixir.wyattau.com/practice-phoenix"}]
+}
+</script>
 title: "Phoenix Practice"
 description: "Elixir Phoenix framework practice exercises"
 sidebar_position: 50
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "Practice Phoenix", "url": "https://elixir.wyattau.com/practice-phoenix"}]
+}
+</script>
 
 ## Phoenix Practice
 
 5 exercises covering LiveView patterns, PubSub broadcasting, context modules, changeset validation, and channel communication.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "Practice Phoenix", "url": "https://elixir.wyattau.com/practice-phoenix"}]
+}
+</script>
 
 ### Exercise 1: LiveView Patterns
 
@@ -56,6 +83,15 @@ end
 **Solution:** `mount/3` initializes the socket with `count: 0`. `render/1` returns HEEx template with `phx-click` bindings. Each `handle_event/3` clause pattern matches the event name and updates `socket.assigns`. The `~H` sigil enables compile-time template validation. `{:noreply, socket}` prevents sending a message back to the client.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "Practice Phoenix", "url": "https://elixir.wyattau.com/practice-phoenix"}]
+}
+</script>
 
 ### Exercise 2: PubSub Broadcasting
 
@@ -129,6 +165,15 @@ end
 **Solution:** `connected?(socket)` checks if the LiveView is connected (not SSR). `PubSub.subscribe` listens to the topic. `PubSub.broadcast` sends to all subscribers. `handle_info/2` receives the broadcast and updates the socket. `Enum.take(messages, -50)` keeps only the last 50 messages to prevent unbounded growth.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "Practice Phoenix", "url": "https://elixir.wyattau.com/practice-phoenix"}]
+}
+</script>
 
 ### Exercise 3: Context Module
 
@@ -226,6 +271,15 @@ end
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "Practice Phoenix", "url": "https://elixir.wyattau.com/practice-phoenix"}]
+}
+</script>
+
 ### Exercise 4: Changeset Validation
 
 **Problem:** Build a registration form changeset with complex validations: password confirmation, terms acceptance, email format, and username constraints. Include custom validators.
@@ -301,6 +355,15 @@ end
 **Solution:** Virtual fields (`:password`, `:password_confirmation`) are not persisted. `validate_confirmation` checks password match. `validate_acceptance` requires terms acceptance. Custom validators (`validate_terms`, `validate_display_name`) add business-specific rules. `hash_password` is called only when the password changes. `redact: true` prevents sensitive fields from appearing in logs.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "Practice Phoenix", "url": "https://elixir.wyattau.com/practice-phoenix"}]
+}
+</script>
 
 ### Exercise 5: Channel Communication
 

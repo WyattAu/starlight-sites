@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
 title: Statistics
 description: "Rigorous IB mathematics notes covering Statistics. Includes definitions, derivations, worked examples, and exam-style problems. hypothesis testing."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
 
 ## Measures of Central Tendency
 
@@ -58,6 +76,15 @@ The mean (12.1) is significantly higher than the median (8) due to the outlier $
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
 
 ## Measures of Spread
 
@@ -136,6 +163,15 @@ by default.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
+
 ## Grouped Data
 
 ### Estimating the Mean from Grouped Data
@@ -188,6 +224,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
+
 ## Box-and-Whisker Plots
 
 ### Components
@@ -217,6 +262,15 @@ $$
   closer to $Q_3$Left-skewed (negatively skewed).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
 
 ## Cumulative Frequency
 
@@ -249,6 +303,15 @@ $$
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
 
 ## Correlation
 
@@ -296,6 +359,15 @@ The other (they may both be influenced by a third variable).
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
 
 ## Linear Regression
 
@@ -387,6 +459,15 @@ Often ask you to comment on the reliability of a prediction.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
 
 ## Hypothesis Testing
 
@@ -523,6 +604,15 @@ $E_i \lt 5$Combine categories or note the limitation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
+
 ## IB Exam-Style Questions
 
 ### Question 1 (Paper 1 style)
@@ -605,6 +695,15 @@ $170\mathrm{ cm}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
+
 ## Summary
 
 | Concept          | Formula                                                                                                         |
@@ -626,6 +725,15 @@ means.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
 
 ## Transformations of Data
 
@@ -663,6 +771,15 @@ The student scored 2 standard deviations above the mean.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
 
 ## Non-Linear Regression
 
@@ -707,6 +824,15 @@ $$
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
 
 ## Additional Exam-Style Questions
 
@@ -779,6 +905,15 @@ Between study hours and exam scores.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
+
 ## Measures of Shape: Skewness and Kurtosis
 
 ### Skewness
@@ -808,6 +943,15 @@ Kurtosis measures the "tailedness" of the distribution compared to a normal dist
 | Platykurtic | Light tails, flat peak (kurtosis $\lt 3$)  |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
 
 ## Standardised Scores and Normal Distribution Tables
 
@@ -848,6 +992,15 @@ A score of 82.26 is at the 90th percentile.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
+
 ## Data Collection Methods
 
 ### Types of Data
@@ -876,6 +1029,15 @@ A score of 82.26 is at the 90th percentile.
 - A measurement can be reliable without being valid, but not valid without being reliable.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "2_statistics", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/2_statistics"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 contains the hardest questions within the IB specification for this topic, each with a full worked

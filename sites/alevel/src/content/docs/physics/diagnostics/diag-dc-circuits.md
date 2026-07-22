@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Dc Circuits", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-dc-circuits"}]
+}
+</script>
 title: "DC Circuits -- Diagnostic Tests"
 description: "A-Level Physics DC Circuits -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Dc Circuits", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-dc-circuits"}]
+}
+</script>
 
 
 ## Intuition
@@ -59,6 +77,15 @@ power transfer.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Dc Circuits", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-dc-circuits"}]
+}
+</script>
+
 ### UT-2: Potential Divider with Load
 
 **Question:**
@@ -103,6 +130,15 @@ When the load resistance equals the parallel combination resistance, the output 
 demonstrates why potential dividers should have $R_L \gg R_2$ to avoid loading effects.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Dc Circuits", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-dc-circuits"}]
+}
+</script>
 
 ### UT-3: Kirchhoff"s Laws with Multiple Sources
 
@@ -229,6 +265,15 @@ Energy stored: $E = \frac{1}{2}CV^2 = 0.5 \times 10^{-3} \times 196 = 0.098\,\te
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Dc Circuits", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-dc-circuits"}]
+}
+</script>
+
 ### IT-2: Thevenin Equivalent Circuit Analysis (with Current and Resistance)
 
 **Question:**
@@ -278,6 +323,15 @@ For any $R_3 \lt 19.7\,\Omega$The current exceeds $0.8\,\text{A}$. Since the ori
 $R_3 = 15\,\Omega$ gives exactly $0.8\,\text{A}$This is the boundary.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Dc Circuits", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-dc-circuits"}]
+}
+</script>
 
 ### IT-3: Non-Ideal Ammeter and Voltmeter Effects (with Quantities and Units)
 

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy", "url": "https://ib.wyattau.com/physics/diagnostics/diag-energy"}]
+}
+</script>
 title: "Energy and Conservation -- Diagnostic Tests"
 description: "IB Physics Energy and Conservation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy", "url": "https://ib.wyattau.com/physics/diagnostics/diag-energy"}]
+}
+</script>
 
 # Energy and Conservation — Diagnostic Tests
 
@@ -64,6 +82,15 @@ energy as thermal energy.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy", "url": "https://ib.wyattau.com/physics/diagnostics/diag-energy"}]
+}
+</script>
+
 ### UT-2: Elastic Collision with Unknown Mass
 
 **Question:**
@@ -118,6 +145,15 @@ $$v_1 \to \frac{-m_2}{m_2} u_1 = -u_1$$
 So $m_1$ rebounds with speed $u_1$ in the opposite direction, confirming the student"s claim.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy", "url": "https://ib.wyattau.com/physics/diagnostics/diag-energy"}]
+}
+</script>
 
 ### UT-3: Power with Variable Velocity on an Incline
 
@@ -249,6 +285,15 @@ $$v_a = v_p \times \frac{r_1}{r_2} = 8732 \times \frac{7.0 \times 10^6}{1.4 \tim
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy", "url": "https://ib.wyattau.com/physics/diagnostics/diag-energy"}]
+}
+</script>
+
 ### IT-2: Inelastic Collision with Energy Loss on a Spring (with Dynamics)
 
 **Question:**
@@ -298,6 +343,15 @@ Energy lost: $\Delta E = 72.0 - 28.8 = 43.2\,\text{J}$
 Fraction of original KE: $\frac{28.8}{72.0} = 0.40 = 40\%$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy", "url": "https://ib.wyattau.com/physics/diagnostics/diag-energy"}]
+}
+</script>
 
 ### IT-3: Power and Efficiency on a Variable Gradient (with Kinematics)
 

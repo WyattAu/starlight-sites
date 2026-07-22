@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Genetics And Dna", "url": "https://alevel.wyattau.com/biology/genetics-and-dna"}]
+}
+</script>
 title: Genetics and DNA
 description: "Deoxyribonucleic acid (DNA) is a double-stranded polymer whose monomers are . Ea Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Genetics And Dna", "url": "https://alevel.wyattau.com/biology/genetics-and-dna"}]
+}
+</script>
 
 ## Genetics and DNA
 
@@ -848,6 +866,15 @@ Probability of an affected child ($ff$) $= \frac{1}{4} = 25\%$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Genetics And Dna", "url": "https://alevel.wyattau.com/biology/genetics-and-dna"}]
+}
+</script>
+
 ## 11. DNA Replication in Detail
 
 ### 11.1 The Replication Fork
@@ -1152,6 +1179,15 @@ which also codes for methionine).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Genetics And Dna", "url": "https://alevel.wyattau.com/biology/genetics-and-dna"}]
+}
+</script>
+
 ## 17. Genetic Technology: CRISPR Applications
 
 ### 17.1 CRISPR-Cas9 in Medicine
@@ -1178,6 +1214,15 @@ diseases:
 | Gene drives      | Could eliminate disease vectors (mosquitoes)             | Unpredictable ecological consequences; irreversible                         |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Genetics And Dna", "url": "https://alevel.wyattau.com/biology/genetics-and-dna"}]
+}
+</script>
 
 ## 18. Advanced DNA Technology: Next-Generation Sequencing
 
@@ -1495,6 +1540,15 @@ This is well below the world population ($\approx 8$ billion), so the match is e
 | Double-strand break repair (NHEJ) | Non-homologous end joining: broken ends are directly rejoined (error-prone)                               | Double-strand breaks; can cause small insertions/deletions |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Genetics And Dna", "url": "https://alevel.wyattau.com/biology/genetics-and-dna"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 within the A-Level specification for this topic, each with a full worked solution.
@@ -1992,6 +2046,15 @@ specific positions.
 | ATP requirement            | Uses ATP (or NAD$^+$ in some bacteria) as an energy source to form each phosphodiester bond                               |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Genetics And Dna", "url": "https://alevel.wyattau.com/biology/genetics-and-dna"}]
+}
+</script>
 
 ## Common Pitfalls
 

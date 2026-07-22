@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 2 Statistics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-2-statistics"}]
+}
+</script>
 title: "Paper 2 -- Statistics -- Full Diagnostic Exam"
 description: "Comprehensive educational content notes on paper 2 -- statistics -- full diagnostic exam with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 2 Statistics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-2-statistics"}]
+}
+</script>
 
 # Paper 2 — Statistics
 
@@ -10,12 +28,30 @@ tableOfContents: false
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 2 Statistics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-2-statistics"}]
+}
+</script>
+
 ## Instructions
 
 Answer all questions. Calculators are permitted. Show all working — marks are awarded for method as
 well as final answer.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 2 Statistics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-2-statistics"}]
+}
+</script>
 
 ## Questions
 
@@ -136,6 +172,15 @@ effect size (mean reduction) is the same. [2 marks]
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 2 Statistics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-2-statistics"}]
+}
+</script>
+
 ## Solutions
 
 ### Q1 — Solution
@@ -185,6 +230,15 @@ commuting time is in this range," since the density is highest in the 10--20 min
 class width of the 35--60 minute class inflates its frequency.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 2 Statistics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-2-statistics"}]
+}
+</script>
 
 ### Q2 — Solution
 
@@ -258,6 +312,15 @@ Spearman's rank would be preferred when:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 2 Statistics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-2-statistics"}]
+}
+</script>
+
 ### Q3 — Solution
 
 **(a)** Let $D$ = "person has the disease" and $+$ = "test is positive".
@@ -320,6 +383,15 @@ hold.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 2 Statistics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-2-statistics"}]
+}
+</script>
+
 ### Q4 — Solution
 
 **(a)** The binomial distribution is **NOT** appropriate. The condition violated is **independence
@@ -369,6 +441,15 @@ The correct approach is to split $V = V_1 + V_2$ where $V_1 \sim B(5, 1)$ (deter
 and $V_2 \sim B(5, 0.25)$. Then $V = 5 + V_2$ and $V_2 \sim B(5, 0.25)$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 2 Statistics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-2-statistics"}]
+}
+</script>
 
 ### Q5 — Solution
 
@@ -437,6 +518,15 @@ and the sample size**. With a large enough sample, even a very small effect can 
 statistically significant result.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Papers", "url": "https://alevel.wyattau.com/maths/diagnostics/papers"}, {"name": "Paper 2 Statistics", "url": "https://alevel.wyattau.com/maths/diagnostics/papers/paper-2-statistics"}]
+}
+</script>
 
 ## Marking Guide
 

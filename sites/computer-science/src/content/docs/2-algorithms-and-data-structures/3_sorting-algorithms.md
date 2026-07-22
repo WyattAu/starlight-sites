@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Algorithms And Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures"}, {"name": "3_sorting Algorithms", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures/3_sorting-algorithms"}]
+}
+</script>
 title: Sorting Algorithms
 tags:
   - Computing
   - University
 description: "Divide the array in half, recursively sort each half, then merge. Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Algorithms And Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures"}, {"name": "3_sorting Algorithms", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures/3_sorting-algorithms"}]
+}
+</script>
 
 ### 3.1 Merge Sort
 

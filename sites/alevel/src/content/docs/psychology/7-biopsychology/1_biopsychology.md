@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Psychology", "url": "https://alevel.wyattau.com/psychology"}, {"name": "7 Biopsychology", "url": "https://alevel.wyattau.com/psychology/7-biopsychology"}, {"name": "1_biopsychology", "url": "https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology"}]
+}
+</script>
 title: Biopsychology
 date: 2026-05-12T00:00:00.000Z
 tags:
@@ -9,6 +18,15 @@ categories:
 description: "A-Level Biopsychology notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision and exam readiness."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Psychology", "url": "https://alevel.wyattau.com/psychology"}, {"name": "7 Biopsychology", "url": "https://alevel.wyattau.com/psychology/7-biopsychology"}, {"name": "1_biopsychology", "url": "https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology"}]
+}
+</script>
 
 # Biopsychology
 

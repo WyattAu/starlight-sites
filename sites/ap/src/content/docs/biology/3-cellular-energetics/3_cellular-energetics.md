@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Biology", "url": "https://ap.wyattau.com/biology"}, {"name": "3 Cellular Energetics", "url": "https://ap.wyattau.com/biology/3-cellular-energetics"}, {"name": "3_cellular Energetics", "url": "https://ap.wyattau.com/biology/3-cellular-energetics/3_cellular-energetics"}]
+}
+</script>
 title: Cellular Energetics
 description: "Qualifications Biology Cellular Energetics notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ap-biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Biology", "url": "https://ap.wyattau.com/biology"}, {"name": "3 Cellular Energetics", "url": "https://ap.wyattau.com/biology/3-cellular-energetics"}, {"name": "3_cellular Energetics", "url": "https://ap.wyattau.com/biology/3-cellular-energetics/3_cellular-energetics"}]
+}
+</script>
 
 ## Cellular Respiration (CED Unit 3)
 

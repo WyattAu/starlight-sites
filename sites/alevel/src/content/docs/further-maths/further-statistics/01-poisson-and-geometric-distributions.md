@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
 title: Poisson and Geometric Distributions
 description: "The Poisson and geometric distributions model discrete random variables arising from counting Processes. The Poisson distribution counts the number of rare"
 date: 2026-04-02T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Maths
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
 
 
 ## Intuition
@@ -494,6 +512,15 @@ $\mathrm{Var}(X) = \dfrac{2-p}{p^2} - \dfrac{1}{p^2} = \dfrac{1-p}{p^2}$. $\blac
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
+
 ## 7. Advanced Worked Examples
 
 ### Example 7.1: Poisson approximation to binomial
@@ -619,6 +646,15 @@ Therefore $P(X = k) \to \dfrac{e^{-\lambda}\lambda^k}{k!}$. $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
+
 ## 8. Connections to Other Topics
 
 ### 8.1 Poisson distribution and exponential distribution
@@ -640,6 +676,15 @@ Frequencies. See
 [Chi-Squared Tests](/docs/alevel/further-maths/further-statistics/chi-squared-tests).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
 
 ## 9. Additional Exam-Style Questions
 
@@ -743,6 +788,15 @@ $P(X = 3) = \dfrac{e^{-2.9}(2.9)^3}{6} = \dfrac{24.389 \cdot e^{-2.9}}{6} \appro
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
+
 ## 8. Advanced Worked Examples
 
 ### Example 8.1: Poisson as a limit of the binomial
@@ -839,6 +893,15 @@ $$\mathrm{Var}(X) = \frac{2-p}{p^2} - \frac{1}{p^2} = \boxed{\frac{1-p}{p^2}}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
+
 ## 9. Common Pitfalls
 
 | Pitfall                                                                             | Correct Approach                                                                                                  |
@@ -849,6 +912,15 @@ $$\mathrm{Var}(X) = \frac{2-p}{p^2} - \frac{1}{p^2} = \boxed{\frac{1-p}{p^2}}$$
 | Applying the Poisson to events that are not independent                             | The Poisson process requires independent events at a constant average rate                                        |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
 
 ## 10. Additional Exam-Style Questions
 
@@ -898,6 +970,15 @@ $P(X > 3) = 0.75^3 = \boxed{0.4219}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
+
 ## 11. Connections to Other Topics
 
 ### 11.1 Poisson process and exponential distribution
@@ -919,6 +1000,15 @@ Distribution. See
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
+
 ## 12. Key Results Summary
 
 | Distribution                 | PMF                                                      | $E(X)$           | $\mathrm{Var}(X)$  |
@@ -934,6 +1024,15 @@ Distribution. See
 | PMF tail behaviour  | Decays faster than geometric                      | Slower decay |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
 
 ## 13. Further Exam-Style Questions
 
@@ -973,6 +1072,15 @@ $\mathrm{Var}(X) = E(X^2)-[E(X)]^2 = \lambda^2+\lambda-\lambda^2 = \boxed{\lambd
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
+
 ## 14. Advanced Topics
 
 ### 14.1 Compound Poisson process
@@ -998,6 +1106,15 @@ Both the Poisson and geometric distributions belong to the exponential family of
 Which have PDF/PMF of the form $f(x;\theta) = h(x)\exp(\eta(\theta)T(x) - A(\theta))$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
 
 ## 15. Further Exam-Style Questions
 
@@ -1039,6 +1156,15 @@ This is $\mathrm{Geo}(1-(1-p)^2)$ with success probability $q = 1-(1-p)^2$. $\bl
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
+
 ## 16. Further Advanced Topics
 
 ### 16.1 The Poisson process — formal definition
@@ -1077,6 +1203,15 @@ To test whether data follows $\mathrm{Po}(\lambda)$:
 3. Apply the chi-squared test
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
+}
+</script>
 
 ## 17. Further Exam-Style Questions
 

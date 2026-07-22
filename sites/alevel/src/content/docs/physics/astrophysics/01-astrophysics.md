@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Astrophysics", "url": "https://alevel.wyattau.com/physics/astrophysics"}, {"name": "01 Astrophysics", "url": "https://alevel.wyattau.com/physics/astrophysics/01-astrophysics"}]
+}
+</script>
 title: Astrophysics
 description: "The (AU) is the mean Earth--Sun distance, defined as exactly 149,597,870,700 m ( Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-03T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Physics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Astrophysics", "url": "https://alevel.wyattau.com/physics/astrophysics"}, {"name": "01 Astrophysics", "url": "https://alevel.wyattau.com/physics/astrophysics/01-astrophysics"}]
+}
+</script>
 
 ## Astrophysics
 

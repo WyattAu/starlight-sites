@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "5 Ordinary Differential Equations", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations"}, {"name": "1_introduction And Classification", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations/1_introduction-and-classification"}]
+}
+</script>
 title: Introduction and Classification
 tags:
   - Mathematics
   - University
 description: "A is an equation involving an unknown function and its derivatives. An involves a function of one variable and its ordinary Derivatives. A involves a"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "5 Ordinary Differential Equations", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations"}, {"name": "1_introduction And Classification", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations/1_introduction-and-classification"}]
+}
+</script>
 
 ### 1.1 Basic Definitions
 

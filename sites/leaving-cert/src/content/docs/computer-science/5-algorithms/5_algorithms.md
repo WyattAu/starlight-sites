@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "5 Algorithms", "url": "https://leaving-cert.wyattau.com/computer-science/5-algorithms"}, {"name": "5_algorithms", "url": "https://leaving-cert.wyattau.com/computer-science/5-algorithms/5_algorithms"}]
+}
+</script>
 title: Computational Thinking
 description: "Computational thinking is a problem-solving approach that involves breaking down complex problems, Identifying patterns, abstracting details, and designing"
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ilc-computer-science
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "5 Algorithms", "url": "https://leaving-cert.wyattau.com/computer-science/5-algorithms"}, {"name": "5_algorithms", "url": "https://leaving-cert.wyattau.com/computer-science/5-algorithms/5_algorithms"}]
+}
+</script>
 
 # Computational Thinking
 
@@ -838,6 +856,15 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "5 Algorithms", "url": "https://leaving-cert.wyattau.com/computer-science/5-algorithms"}, {"name": "5_algorithms", "url": "https://leaving-cert.wyattau.com/computer-science/5-algorithms/5_algorithms"}]
+}
+</script>
 
 ## Cross-References
 

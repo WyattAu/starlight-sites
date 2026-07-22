@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "History", "url": "https://alevel.wyattau.com/history"}, {"name": "5 Cold War", "url": "https://alevel.wyattau.com/history/5-cold-war"}, {"name": "1_cold War", "url": "https://alevel.wyattau.com/history/5-cold-war/1_cold-war"}]
+}
+</script>
 title: The Cold War 1945-1991
 date: 2026-05-21T00:00:00.000Z
 tags:
@@ -9,6 +18,15 @@ categories:
   - history
 description: "A-Level History The Cold War 1945-1991 notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "History", "url": "https://alevel.wyattau.com/history"}, {"name": "5 Cold War", "url": "https://alevel.wyattau.com/history/5-cold-war"}, {"name": "1_cold War", "url": "https://alevel.wyattau.com/history/5-cold-war/1_cold-war"}]
+}
+</script>
 
 # The Cold War 1945-1991
 

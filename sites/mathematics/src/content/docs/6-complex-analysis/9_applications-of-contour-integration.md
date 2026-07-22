@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "9_applications Of Contour Integration", "url": "https://mathematics.wyattau.com/6-complex-analysis/9_applications-of-contour-integration"}]
+}
+</script>
 title: Applications of Contour Integration
 tags:
   - Mathematics
   - University
 description: "Contour integration is a powerful tool for evaluating definite integrals. Comprehensive educational content coverage with definitions and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "9_applications Of Contour Integration", "url": "https://mathematics.wyattau.com/6-complex-analysis/9_applications-of-contour-integration"}]
+}
+</script>
 
 ### 9.1 Evaluation of Real Integrals
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostic Test", "url": "https://alevel.wyattau.com/economics/diagnostic-test"}]
+}
+</script>
 title: Economics Diagnostic Test
 description: "This diagnostic test covers all A Level Economics micro and macro topics. Each question tests a Specific concept, requires 2–5 steps, and includes a"
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - Economics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostic Test", "url": "https://alevel.wyattau.com/economics/diagnostic-test"}]
+}
+</script>
 
 This diagnostic test covers all A Level Economics micro and macro topics. Each question tests a
 Specific concept, requires 2–5 steps, and includes a revision redirect to the relevant topic.
@@ -558,6 +576,15 @@ Using the concepts of comparative advantage, trade creation/diversion, and suppl
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostic Test", "url": "https://alevel.wyattau.com/economics/diagnostic-test"}]
+}
+</script>
+
 ## Section 3: Quantitative Skills Assessment
 
 **Q46.** A country's GDP data (GBP billions) is as follows: consumption = 900, investment = 200,
@@ -840,6 +867,15 @@ policies to shift SRAS right (and LRAS right from 500 to a higher level) would a
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostic Test", "url": "https://alevel.wyattau.com/economics/diagnostic-test"}]
+}
+</script>
 
 ## Section 4: Quick-Reference Data
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "12 Differential Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry"}, {"name": "9_applications", "url": "https://mathematics.wyattau.com/12-differential-geometry/9_applications"}]
+}
+</script>
 title: Applications
 tags:
   - Mathematics
   - University
 description: "In general relativity, the metric on a 4-dimensional manifold encodes gravity. Geodesics of the metric describe the trajectories of freely falling"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "12 Differential Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry"}, {"name": "9_applications", "url": "https://mathematics.wyattau.com/12-differential-geometry/9_applications"}]
+}
+</script>
 
 ### 9.1 General Relativity
 

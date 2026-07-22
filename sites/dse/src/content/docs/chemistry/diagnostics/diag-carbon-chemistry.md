@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry"}]
+}
+</script>
 title: "Carbon Chemistry -- Diagnostic Tests"
 description: "DSE Carbon Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry"}]
+}
+</script>
 
 # DSE Chemistry Diagnostic: Carbon Chemistry
 
@@ -20,6 +38,15 @@ marks]
 and name **all** possible structural isomers of $C$. [4 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -68,6 +95,15 @@ stereoisomers of the same structural isomer, so structural isomers = 3: but-1-en
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry"}]
+}
+</script>
+
 ## Unit Test 2: Polymerisation of Alkenes
 
 **Question**
@@ -82,6 +118,15 @@ repeating unit of PVC. [1 mark]
 and double bonds. Explain why this is incorrect. [2 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -107,6 +152,15 @@ polymers which may retain certain functional groups).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry"}]
+}
+</script>
+
 ## Unit Test 3: Systematic Naming of Branched Compounds
 
 **Question**
@@ -120,6 +174,15 @@ Name the following compounds using IUPAC systematic nomenclature:
 (c) $CH_{3}-CHCl-CH_{2}-CH_{3}$ [1 mark]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -139,6 +202,15 @@ The longest carbon chain has 5 carbons (pentane), with two methyl groups on carb
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry"}]
+}
+</script>
+
 ## Intuition
 
 **Carbon's versatility:** Carbon atoms can chain together in countless ways — like LEGO bricks that snap together to form infinite structures. Alkanes are saturated (full of hydrogen); alkenes have double bonds that can react.
@@ -156,6 +228,15 @@ Starting from ethene ($CH_{2}=CH_{2}$), outline a reaction pathway to produce et
 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -186,6 +267,15 @@ separate batch is fully oxidised to ethanoic acid for the esterification.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry"}]
+}
+</script>
+
 ## Integration Test 2: Polymer Properties + Monomer Identification
 
 **Question**
@@ -201,6 +291,15 @@ plastic bags. Explain the difference in properties in terms of intermolecular fo
 balanced equation for this reaction and state why this is a concern for fire safety. [3 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry"}]
+}
+</script>
 
 **Worked Solution**
 
@@ -234,6 +333,15 @@ appropriate flame retardants.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry"}]
+}
+</script>
+
 ## Integration Test 3: Naming + Reaction Prediction
 
 **Question**
@@ -253,6 +361,15 @@ dichromate(VI). Explain. [3 marks]
 marks]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry"}]
+}
+</script>
 
 **Worked Solution**
 

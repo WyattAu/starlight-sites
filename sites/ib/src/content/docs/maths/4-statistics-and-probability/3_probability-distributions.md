@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
 title: Probability Distributions
 description: "Rigorous IB mathematics notes covering Probability Distributions. Includes definitions, derivations, worked examples, and exam-style problems. Baccalaureate."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
 
 ## Discrete Random Variables
 
@@ -132,6 +150,15 @@ $$\sigma = \sqrt{1.4275} \approx 1.195$$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
 
 ## Binomial Distribution
 
@@ -266,6 +293,15 @@ There is approximately a 4.85% chance that more than 12 bulbs are defective.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
+
 ## Poisson Distribution
 
 ### Conditions
@@ -384,6 +420,15 @@ $$P(Y \gt 30) \approx P\!\left(Z \gt \frac{30.5 - 25.2}{5.020}\right) = P(Z \gt 
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
 
 ## Normal Distribution
 
@@ -510,6 +555,15 @@ So $\mu \approx 169\,\mathrm{cm}$ and $\sigma \approx 10\,\mathrm{cm}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
+
 ## Continuous Uniform Distribution (AHL)
 
 ### Definition
@@ -562,6 +616,15 @@ $P(\mathrm{wait} \ge 8) = 2/10 = 1/5$.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
 
 ## Geometric Distribution (AHL)
 
@@ -645,6 +708,15 @@ On average, 6 rolls are needed to get the first 6.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
+
 ## Negative Binomial Distribution (AHL)
 
 ### Definition
@@ -681,6 +753,15 @@ $E(X) = 3/0.4 = 7.5$, $\mathrm{Var}(X) = 3(0.6)/0.16 = 11.25$ $\sigma = \sqrt{11
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
 
 ## Central Limit Theorem (AHL)
 
@@ -728,6 +809,15 @@ $P\!\left(Z \gt \dfrac{10}{\sqrt{800/3}}\right) = P(Z \gt 0.612) \approx 0.2704$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
+
 ## Confidence Intervals (AHL)
 
 ### Concept
@@ -772,6 +862,15 @@ For margin 1 ml at 95%: $n = (1.960 \times 5/1)^2 = 96.04$Round up to 97.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
 
 ## Combining Random Variables
 
@@ -883,6 +982,15 @@ Are squared.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
+
 ## IB Exam-Style Questions
 
 ### Question 1 (Paper 1)
@@ -950,6 +1058,15 @@ $P(D \gt 0) = P\!\left(Z \gt \dfrac{0 - 14}{\sqrt{61}}\right) = P(Z \gt -1.793) 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
+
 ## Summary of Distributions
 
 ### Discrete Distributions
@@ -982,6 +1099,15 @@ $P(D \gt 0) = P\!\left(Z \gt \dfrac{0 - 14}{\sqrt{61}}\right) = P(Z \gt -1.793) 
 | $\mathrm{Var}(aX + bY) = a^2\mathrm{Var}(X) + b^2\mathrm{Var}(Y)$ | $X$$Y$ independent                                 |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
 
 ## Intuition
 
@@ -1023,6 +1149,15 @@ whether independence is assumed. For confidence intervals, state the level and I
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
 
 ## Problem Set
 
@@ -1318,6 +1453,15 @@ Approximation is quite close despite $p \gt 0.1$ because $\lambda = 10$ is moder
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
+
 ## Related Content at Other Levels
 
 - **A-Level Probability:** [Mathematics](https://alevel.wyattau.com/docs/maths/maths)
@@ -1327,6 +1471,15 @@ Approximation is quite close despite $p \gt 0.1$ because $\lambda = 10$ is moder
   [Probability and Statistics](https://university.wyattau.com/docs/mathematics/probability-and-.../4-statistics-and-probability/2_statistics)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "3_probability Distributions", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/3_probability-distributions"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 questions within the IB specification for this topic, each with a full worked solution.

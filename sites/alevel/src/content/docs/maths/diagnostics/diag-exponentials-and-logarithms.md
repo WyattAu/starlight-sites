@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Exponentials And Logarithms", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-exponentials-and-logarithms"}]
+}
+</script>
 title: "Exponentials and Logarithms -- Diagnostic Tests"
 description: "A-Level Maths Exponentials and Logarithms -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Exponentials And Logarithms", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-exponentials-and-logarithms"}]
+}
+</script>
 
 
 ## Intuition
@@ -75,6 +93,15 @@ further roots beyond $x = 4$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Exponentials And Logarithms", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-exponentials-and-logarithms"}]
+}
+</script>
+
 ### UT-2: Hidden Quadratic in $e^x$
 
 **Question:**
@@ -123,6 +150,15 @@ constrains $u \gt 0$And students who forget this constraint accept spurious solu
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Exponentials And Logarithms", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-exponentials-and-logarithms"}]
+}
+</script>
+
 ### UT-3: Domain Difference Between $\ln(x^2)$ and $2\ln x$
 
 **Question:**
@@ -168,6 +204,15 @@ A student who writes $h(x) = 2\ln(x+1)$ has restricted the domain to $x \gt -1$L
 $x \lt -1$. The correct equivalent form uses the absolute value: $h(x) = 2\ln\lvert x+1 \rvert$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Exponentials And Logarithms", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-exponentials-and-logarithms"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -237,6 +282,15 @@ At $x = 0$: $e^0(3\sin 0 - 2\cos 0) = 1(0 - 2) = -2$
 $$= \frac{1}{13}(2e^{3\pi/2} - (-2)) = \frac{2(e^{3\pi/2} + 1)}{13}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Exponentials And Logarithms", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-exponentials-and-logarithms"}]
+}
+</script>
 
 ### IT-2: Gradient of a Logarithmic Function (with Differentiation)
 
@@ -308,6 +362,15 @@ negative for $x \gt 0$ (since $\ln(x^2+1)$ grows faster than $\frac{2x}{x^2+1}$ 
 is the only stationary point.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Exponentials And Logarithms", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-exponentials-and-logarithms"}]
+}
+</script>
 
 ### IT-3: Inverse of an Exponential Function (with Functions)
 

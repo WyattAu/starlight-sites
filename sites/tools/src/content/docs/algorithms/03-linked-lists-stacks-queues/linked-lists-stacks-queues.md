@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "03 Linked Lists Stacks Queues", "url": "https://tools.wyattau.com/algorithms/03-linked-lists-stacks-queues"}, {"name": "Linked Lists Stacks Queues", "url": "https://tools.wyattau.com/algorithms/03-linked-lists-stacks-queues/linked-lists-stacks-queues"}]
+}
+</script>
 title: Linked Lists, Stacks, and Queues
 description: "A singly linked list is a sequence of nodes where each node contains a value and a reference to the Next node. The list is accessed through a head pointer;"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "03 Linked Lists Stacks Queues", "url": "https://tools.wyattau.com/algorithms/03-linked-lists-stacks-queues"}, {"name": "Linked Lists Stacks Queues", "url": "https://tools.wyattau.com/algorithms/03-linked-lists-stacks-queues/linked-lists-stacks-queues"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--note">
 <strong>Historical Context</strong>

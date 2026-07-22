@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences And Series", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-sequences-and-series"}]
+}
+</script>
 title: "Sequences and Series -- Diagnostic Tests"
 description: "A-Level Maths Sequences and Series -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences And Series", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-sequences-and-series"}]
+}
+</script>
 
 
 ## Intuition
@@ -84,6 +102,15 @@ $$\lim_{n \to \infty} S_n = \frac{1}{4} + 0 = \frac{1}{4}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences And Series", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-sequences-and-series"}]
+}
+</script>
+
 ### UT-2: Sigma Notation Index Shifting Errors
 
 **Question:**
@@ -132,6 +159,15 @@ $\sum_{r=4}^{n+3}(r-3)^2$. The student incorrectly treated the sum as starting f
 upper limit $n + 3$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences And Series", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-sequences-and-series"}]
+}
+</script>
 
 ### UT-3: Recurrence Relation with Non-Standard Initial Terms
 
@@ -197,6 +233,15 @@ The smallest value is $n = 9$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences And Series", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-sequences-and-series"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of sequences and series with other topics. Requires combining concepts from
@@ -246,6 +291,15 @@ $$\lim_{n \to \infty} \frac{(n+1)(2n+1)}{6n^2} = \lim_{n \to \infty} \frac{2n^2 
 Confirmed.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences And Series", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-sequences-and-series"}]
+}
+</script>
 
 ### IT-2: Iteration Converging to a Fixed Point (with Functions)
 
@@ -321,6 +375,15 @@ To 8 decimal places: $L = 0.73908513$.
 This is the Dottie number, the unique fixed point of the cosine function.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Sequences And Series", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-sequences-and-series"}]
+}
+</script>
 
 ### IT-3: Binomial Identity Used to Sum a Series (with Binomial Expansion)
 

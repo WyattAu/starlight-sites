@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "2 Macroeconomics", "url": "https://ib.wyattau.com/economics/2-macroeconomics"}, {"name": "1 National Income", "url": "https://ib.wyattau.com/economics/2-macroeconomics/1-national-income"}]
+}
+</script>
 title: National Income
 description: "IB Economics — GDP, GNP, GNI, national income accounting, GDP deflator, PPP. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examinations."
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "2 Macroeconomics", "url": "https://ib.wyattau.com/economics/2-macroeconomics"}, {"name": "1 National Income", "url": "https://ib.wyattau.com/economics/2-macroeconomics/1-national-income"}]
+}
+</script>
 
 ## National Income Accounting
 
@@ -431,6 +449,15 @@ $$
 - **[Exchange Rates](../economics/3-international-economics/2-exchange-rates):** Income affects exchange rates
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "2 Macroeconomics", "url": "https://ib.wyattau.com/economics/2-macroeconomics"}, {"name": "1 National Income", "url": "https://ib.wyattau.com/economics/2-macroeconomics/1-national-income"}]
+}
+</script>
 
 ## Intuition
 

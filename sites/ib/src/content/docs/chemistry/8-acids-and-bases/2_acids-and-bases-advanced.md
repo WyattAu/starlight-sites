@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "2_acids And Bases Advanced", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/2_acids-and-bases-advanced"}]
+}
+</script>
 title: Acids and Bases (Advanced)
 description: "Rigorous IB chemistry notes covering Acids and Bases (Advanced). Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "2_acids And Bases Advanced", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/2_acids-and-bases-advanced"}]
+}
+</script>
 
 ## 1. Advanced pH Calculations
 
@@ -108,6 +126,15 @@ $K_{a2} = 1.2 \times 10^{-2}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "2_acids And Bases Advanced", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/2_acids-and-bases-advanced"}]
+}
+</script>
+
 ## 2. Buffer Solutions
 
 ### Definition
@@ -207,6 +234,15 @@ Would give $\mathrm{pH} = 2.00$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "2_acids And Bases Advanced", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/2_acids-and-bases-advanced"}]
+}
+</script>
+
 ## 3. Indicator Theory
 
 ### How Indicators Work
@@ -254,6 +290,15 @@ The indicator's transition range should overlap with the equivalence point of th
 | Phenolphthalein  | $8.3$--$10.0$       | Colourless  | Pink        |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "2_acids And Bases Advanced", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/2_acids-and-bases-advanced"}]
+}
+</script>
 
 ## 4. Acid Deposition
 
@@ -305,6 +350,15 @@ $$
 - Switching to low-sulfur fuels or renewable energy.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "2_acids And Bases Advanced", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/2_acids-and-bases-advanced"}]
+}
+</script>
 
 ## 5. Solubility Product ($K_{sp}$)
 
@@ -400,6 +454,15 @@ $$
 - The common ion effect does not change $K_{sp}$ itself — it shifts the equilibrium position.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "2_acids And Bases Advanced", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/2_acids-and-bases-advanced"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -521,6 +584,15 @@ $[\mathrm{OH}^-]$ and therefore increasing $[\mathrm{H}^+]$Which lowers the $\ma
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "2_acids And Bases Advanced", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/2_acids-and-bases-advanced"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -712,6 +784,15 @@ A suitable indicator: phenolphthalein (8.3--10.0).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "2_acids And Bases Advanced", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/2_acids-and-bases-advanced"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **Assuming complete dissociation for all diprotic acids**: $\mathrm{H}_2\mathrm{SO}_4$ has a
@@ -760,6 +841,15 @@ A suitable indicator: phenolphthalein (8.3--10.0).
   only on temperature.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "2_acids And Bases Advanced", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/2_acids-and-bases-advanced"}]
+}
+</script>
 
 ## Exam-Style Problems
 
@@ -814,6 +904,15 @@ A suitable indicator: phenolphthalein (8.3--10.0).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "2_acids And Bases Advanced", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/2_acids-and-bases-advanced"}]
+}
+</script>
+
 ## If You Get These Wrong, Revise:
 
 - **Equilibrium principles (Le Chatelier, $K$ expressions)** → Review
@@ -853,6 +952,15 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 - **[Energetics](../chemistry/5-energetics/energetics):** Neutralisation releases enthalpy
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "2_acids And Bases Advanced", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/2_acids-and-bases-advanced"}]
+}
+</script>
 
 ## Intuition
 

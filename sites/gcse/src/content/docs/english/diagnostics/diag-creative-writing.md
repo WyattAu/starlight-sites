@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Creative Writing", "url": "https://gcse.wyattau.com/english/diagnostics/diag-creative-writing"}]
+}
+</script>
 title: "Creative Writing -- Diagnostic Tests"
 description: "Creative Writing -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Creative Writing", "url": "https://gcse.wyattau.com/english/diagnostics/diag-creative-writing"}]
+}
+</script>
 
 # Creative Writing -- Diagnostic Tests
 
@@ -75,6 +93,15 @@ onomatopoeia ("roar") to create a vivid scene.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Creative Writing", "url": "https://gcse.wyattau.com/english/diagnostics/diag-creative-writing"}]
+}
+</script>
+
 ### UT-2: Narrative Structure and Tension
 
 **Question:**
@@ -145,6 +172,15 @@ character from the outside.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Creative Writing", "url": "https://gcse.wyattau.com/english/diagnostics/diag-creative-writing"}]
+}
+</script>
+
 ### UT-3: Persuasive and Argumentative Writing
 
 **Question:**
@@ -208,6 +244,15 @@ persuasive techniques.
   cheaper, and fairer."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Creative Writing", "url": "https://gcse.wyattau.com/english/diagnostics/diag-creative-writing"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -277,6 +322,15 @@ ever telling the reader how to feel. The reader experiences the atmosphere throu
 rather than being told about it.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Creative Writing", "url": "https://gcse.wyattau.com/english/diagnostics/diag-creative-writing"}]
+}
+</script>
 
 ### IT-2: Crafting a Persuasive Argument
 

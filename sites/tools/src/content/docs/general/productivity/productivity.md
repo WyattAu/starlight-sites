@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity/productivity"}]
+}
+</script>
 title: Developer Productivity
 description: "The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) separated by 5-minute breaks, with a longer 15–30 minute break every 4"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity/productivity"}]
+}
+</script>
 
 ## Time Management
 
@@ -56,6 +74,15 @@ Distraction-free concentration — is the most valuable skill for a knowledge wo
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity/productivity"}]
+}
+</script>
+
 ## Note-Taking Systems
 
 ### Zettelkasten
@@ -101,6 +128,15 @@ Tool matters less than the system. Options include:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity/productivity"}]
+}
+</script>
+
 ## Learning Strategies
 
 ### Spaced Repetition
@@ -143,6 +179,15 @@ Deliberate practice for software engineering means:
    than 4 hours of distracted work.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity/productivity"}]
+}
+</script>
 
 ## Documentation Habits
 
@@ -208,6 +253,15 @@ Runbooks reduce incident response time and prevent knowledge silos.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity/productivity"}]
+}
+</script>
+
 ## Communication
 
 ### Technical Writing Principles
@@ -241,6 +295,15 @@ Runbooks reduce incident response time and prevent knowledge silos.
 - Respond to feedback promptly and iterate.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity/productivity"}]
+}
+</script>
 
 ## Health
 
@@ -288,6 +351,15 @@ Regular exercise improves cognitive function, mood, and energy levels:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity/productivity"}]
+}
+</script>
+
 ## Focus Tools
 
 ### Notification Management
@@ -309,6 +381,15 @@ For periods when you need maximum focus:
 - **LeechBlock** (browser extension): Blocks specific sites during scheduled times.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity/productivity"}]
+}
+</script>
 
 ## Building a Learning Curriculum
 
@@ -342,6 +423,15 @@ Use a paper reading strategy:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity/productivity"}]
+}
+</script>
+
 ## Avoiding Burnout
 
 ### Warning Signs
@@ -362,6 +452,15 @@ Use a paper reading strategy:
    rotation or a side project.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity/productivity"}]
+}
+</script>
 
 ## Common Pitfalls
 
@@ -761,9 +860,27 @@ Each note should contain exactly one idea. This makes notes reusable and linkabl
 
 ```markdown
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity/productivity"}]
+}
+</script>
 id: 20240101-01
 tags: [linux, networking, troubleshooting]
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity/productivity"}]
+}
+</script>
 
 # TCP TIME_WAIT Accumulation
 

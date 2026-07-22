@@ -1,9 +1,27 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Practice Typescript Basics", "url": "https://languages.wyattau.com/typescript/practice-typescript-basics"}]
+}
+</script>
 title: TypeScript Fundamentals Practice (Interactive)
 tags:
   - typescript
 description: "10 auto-graded practice problems covering TypeScript fundamentals. Select an answer, submit, and review the explanation."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Practice Typescript Basics", "url": "https://languages.wyattau.com/typescript/practice-typescript-basics"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -23,6 +41,15 @@ review the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Practice Typescript Basics", "url": "https://languages.wyattau.com/typescript/practice-typescript-basics"}]
+}
+</script>
+
 ### Type System
 
 <PracticeProblem client:only="solid-js" question={`What happens when you assign a value of type \`unknown\` to a variable of type \`string\` without narrowing?`} options={[ 'Compilation error -- cannot assign `unknown` to `string` without a type assertion or narrowing check', 'It compiles successfully with a runtime cast', 'It compiles but the value becomes `undefined` at runtime', 'It compiles and works as expected', ]} correctAnswer={0} explanation="TypeScript requires you to narrow `unknown` to a specific type before using it. You cannot assign `unknown` to `string` directly without a type guard (`typeof x === 'string'`), type assertion (`x as string`), or other narrowing mechanism. This is the key safety advantage of `unknown` over `any` -- it forces you to handle the type uncertainty explicitly." difficulty="easy"  />
@@ -30,6 +57,15 @@ review the explanation.
 <PracticeProblem client:only="solid-js" question={`What is the result type of \`type Result = string | never\`?`} options={['string', 'string | never', 'never', 'object']} correctAnswer={0} explanation="Since `never` is the empty set (a subtype of every type), the union `string | never` simplifies to just `string`. This is because unioning any type with `never` adds nothing -- there are no `never` values to include. This property is useful in conditional types where `never` branches collapse away during distribution, enabling type-level filtering and transformation patterns." difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Practice Typescript Basics", "url": "https://languages.wyattau.com/typescript/practice-typescript-basics"}]
+}
+</script>
 
 ### Generics
 
@@ -39,6 +75,15 @@ review the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Practice Typescript Basics", "url": "https://languages.wyattau.com/typescript/practice-typescript-basics"}]
+}
+</script>
+
 ### Advanced Patterns
 
 <PracticeProblem client:only="solid-js" question={`Given a discriminated union:\n\`\`\`\ntype Shape =\n  | { kind: "circle''; radius: number }\n  | { kind: "square'; size: number }; \`\`\`\nWhat is the type of \`s.radius\` after narrowing with \`if (s.kind === 'circle')\`?`} options={[ 'number', 'number | undefined', 'unknown', 'Compilation error -- `radius` does not exist on `Shape`', ]} correctAnswer={0} explanation={"TypeScript uses the discriminant property `kind` to narrow the union. After the check `s.kind === 'circle'`, the compiler narrows `s` to `{ kind: &quot;circle''; radius: number }`, making `s.radius` accessible and typed as `number`. This is the core power of discriminated unions -- the common discriminant property enables type-safe narrowing without manual type assertions."} difficulty="easy"  />
@@ -47,11 +92,29 @@ review the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Practice Typescript Basics", "url": "https://languages.wyattau.com/typescript/practice-typescript-basics"}]
+}
+</script>
+
 ### Enums and Union Types
 
 <PracticeProblem client:only="solid-js" question={`What is a key advantage of using \`type Status = 'active' | 'inactive' | 'pending'\` over \`enum Status { Active, Inactive, Pending }\`?`} options={[ 'Union types provide exhaustiveness checking in switch statements without emitting runtime JavaScript code', 'Union types are faster at runtime', 'Union types can be iterated with `for...of`', 'Union types support reverse mapping from value to name', ]} correctAnswer={0} explanation="Union literal types exist only at the type level and are erased at runtime, producing zero JavaScript overhead. They still enable exhaustive checking in switch statements, especially with a `never` default case. Enums generate runtime JavaScript code (an IIFE and lookup object), which adds to bundle size. The TypeScript team recommends union types for most cases, reserving enums for when you need runtime enumeration values or reverse mapping." difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Practice Typescript Basics", "url": "https://languages.wyattau.com/typescript/practice-typescript-basics"}]
+}
+</script>
 
 ### Classes
 
@@ -59,11 +122,29 @@ review the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Practice Typescript Basics", "url": "https://languages.wyattau.com/typescript/practice-typescript-basics"}]
+}
+</script>
+
 ### Tooling
 
 <PracticeProblem client:only="solid-js" question={`What does \`"noImplicitAny": true\` in tsconfig.json prevent?`} options={[ 'Variables and parameters that have an implicit `any` type when the type cannot be inferred', 'Explicit use of `any` as a type annotation', 'Importing JavaScript files without type declarations', 'Using `// @ts-ignore` comments', ]} correctAnswer={0} explanation="The `noImplicitAny` flag causes TypeScript to error when a variable, parameter, or return type would be implicitly typed as `any` because no annotation exists and the type cannot be inferred. For example, `function greet(name)` without a type annotation errors under this flag. It does not prevent explicit `any` usage -- you can still write `name: any` intentionally when needed." difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Practice Typescript Basics", "url": "https://languages.wyattau.com/typescript/practice-typescript-basics"}]
+}
+</script>
 
 ### React Integration
 

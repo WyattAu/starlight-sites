@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "1_the Laws Of Thermodynamics", "url": "https://physics.wyattau.com/2-thermal-physics/1_the-laws-of-thermodynamics"}]
+}
+</script>
 title: The Laws of Thermodynamics
 tags:
   - Physics
   - University
 description: "If system is in thermal equilibrium with system And is in thermal equilibrium with system Then is in thermal equilibrium with ."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "1_the Laws Of Thermodynamics", "url": "https://physics.wyattau.com/2-thermal-physics/1_the-laws-of-thermodynamics"}]
+}
+</script>
 
 ### 1.1 Zeroth Law and Temperature
 
@@ -151,6 +169,15 @@ The second law is the deepest and most subtle. It says that heat flows spontaneo
   system minimises $F$ (or $G$), not $U$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "1_the Laws Of Thermodynamics", "url": "https://physics.wyattau.com/2-thermal-physics/1_the-laws-of-thermodynamics"}]
+}
+</script>
 
 ## Cross-References
 

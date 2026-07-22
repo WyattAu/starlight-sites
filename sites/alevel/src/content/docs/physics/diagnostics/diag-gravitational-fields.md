@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Gravitational Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-gravitational-fields"}]
+}
+</script>
 title: "Gravitational Fields -- Diagnostic Tests"
 description: "A-Level Physics Gravitational Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Gravitational Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-gravitational-fields"}]
+}
+</script>
 
 
 ## Intuition
@@ -57,6 +75,15 @@ $$h = (\sqrt{2} - 1)R_E = 0.414 \times 6.37 \times 10^6 = 2.64 \times 10^6\,\tex
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Gravitational Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-gravitational-fields"}]
+}
+</script>
+
 ### UT-2: Kepler"s Third Law Application
 
 **Question:**
@@ -106,6 +133,15 @@ Phobos completes an orbit in 7.66 hours while Mars rotates once in 24.6 hours, s
 the synchronous orbit radius.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Gravitational Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-gravitational-fields"}]
+}
+</script>
 
 ### UT-3: Gravitational Potential and Escape Velocity
 
@@ -210,6 +246,15 @@ negative).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Gravitational Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-gravitational-fields"}]
+}
+</script>
+
 ### IT-2: Binary Star System (with Circular Motion)
 
 **Question:**
@@ -268,6 +313,15 @@ $3 \times 10^{30} \times 9130 = 2.739 \times 10^{34}$ and
 $1 \times 10^{30} \times 27390 = 2.739 \times 10^{34}$. Consistent.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Gravitational Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-gravitational-fields"}]
+}
+</script>
 
 ### IT-3: Gravitational Slingshot (with Kinematics)
 

@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
 title: Fiscal and Monetary Policy
 description: "Fiscal and monetary policy for DSE Economics."
 date: 2026-04-08T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Economics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
 
 ## Overview of Macroeconomic Policy
 
@@ -33,6 +51,15 @@ national income concepts covered in
 [../5-macroeconomic-indicators/1_national-income](../5-macroeconomic-indicators/1_national-income).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
 
 ## Fiscal Policy
 
@@ -78,6 +105,15 @@ Payments for simplicity).
 | Budget deficit  | `T \lt G` | Expansionary (increases AD)                                                  |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
 
 ## Expansionary Fiscal Policy
 
@@ -171,6 +207,15 @@ Increase (200 vs 250) because part of the tax cut is saved.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
+
 ## Contractionary Fiscal Policy
 
 ### Objective
@@ -198,6 +243,15 @@ $$\Delta Y = 2.22 \times (-50) = -111$$
 National income falls by approximately USD 111 billion, reducing inflationary pressure.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
 
 ## Automatic Stabilisers
 
@@ -229,6 +283,15 @@ Surpluses during booms and deficits during recessions), and do not require polit
 They are the first line of defence against economic fluctuations.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
 
 ## Government Debt and the Crowding-Out Effect
 
@@ -272,6 +335,15 @@ Drives productivity improvements).
 | Source of financing             | If financed by issuing bonds, crowding out occurs. If financed by money creation (monetised), crowding out is avoided but inflation risk increases.                                     |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
 
 ## Monetary Policy
 
@@ -347,6 +419,15 @@ Run. If the economy is near full employment, higher AD primarily raises prices (
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
+
 ## Supply-Side Policies
 
 ### Definition
@@ -394,6 +475,15 @@ These policies involve direct government action and spending.
 | Examples           | Thatcher (UK), Reagan (US)                            | East Asian industrial policy (Japan, South Korea, Singapore) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
 
 ## Policy Conflicts and Trade-Offs
 
@@ -465,6 +555,15 @@ Targeted fiscal measures than on discretionary macroeconomic policy.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
+
 ## Intuition
 
 **A steering wheel for the economy:** Fiscal policy is the government's tax-and-spend lever; monetary policy is the central bank's interest rate lever. Both aim to steer the economy between overheating and recession.
@@ -522,6 +621,15 @@ Targeted fiscal measures than on discretionary macroeconomic policy.
     Expectations can be self-fulfilling.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -824,6 +932,15 @@ Consumption during the pandemic-induced recession.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
+
 ## Problem Set
 
 </details>
@@ -1052,6 +1169,15 @@ If you get this wrong, revise: [Fiscal Policy vs Monetary Policy](#fiscal-policy
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
+
 ## Extended Problem Set: Advanced Fiscal and Monetary Policy
 
 ### Problem 9: Balanced Budget Multiplier
@@ -1249,6 +1375,15 @@ shock to dissipate (e.g., oil prices falling back).
 If you get this wrong, revise: [AD-AS Model](#ad-as-model)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
+}
+</script>
 
 ## Additional Problems: Fiscal Policy and Monetary Policy Integration
 

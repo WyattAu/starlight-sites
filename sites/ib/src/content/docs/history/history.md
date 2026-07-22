@@ -1,9 +1,27 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
 title: History
 tags:
   - history
 description: "This section contains notes, comparative analyses, and study materials for the IB History course. The course covers a range of twentieth-century topics"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
 
 ## IB History -- Course Overview
 
@@ -12,6 +30,15 @@ The course covers a range of twentieth-century topics spanning multiple regions 
 Comparative methodology as a central analytical tool.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
 
 ## Course Structure
 
@@ -25,6 +52,15 @@ The IB History assessment consists of the following components:
 | **IA**      | Historical Investigation -- an independent research project of up to 2,200 words on a historical question of the student"s choosing.                 | 25% (SL), 20% (HL) |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
 
 ## Topics Studied
 
@@ -67,6 +103,15 @@ Origins, the nature of the fighting, and their international dimensions. Key are
 > for detailed notes.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
 
 ## Historical Methodology
 
@@ -131,6 +176,15 @@ Consider the pace (gradual vs sudden), the direction (progressive vs regressive)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
+
 ## Historical Thinking Skills
 
 The following skills are assessed across all components of the IB History course:
@@ -146,6 +200,15 @@ Corroboration requires each source to be individually evaluated; and all three s
 The construction of a well-supported historical argument.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
 
 ## Historiography
 
@@ -177,6 +240,15 @@ Will engage with the question of how and why historians disagree about what happ
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
+
 ## Comparative Methodology
 
 A distinctive feature of this course is the emphasis on comparative analysis. Rather than studying
@@ -199,6 +271,15 @@ Effective comparison involves:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
+
 ## Essay Writing in IB History
 
 Success in IB History depends heavily on the ability to construct well-argued, evidence-based
@@ -217,6 +298,15 @@ Essays. The following principles apply across Papers 2 and 3:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
+
 ## How to Use These Notes
 
 - Begin with the **comparative analyses** linked above for topic-specific content.
@@ -230,6 +320,15 @@ Essays. The following principles apply across Papers 2 and 3:
   constructing comparative arguments using the topic-specific notes.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
 
 ## Paper 1: Source-Based Analysis
 
@@ -292,6 +391,15 @@ Own knowledge to fill gaps.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
+
 ## Paper 2: World History Essays
 
 Paper 2 is an essay-based examination worth 25% (SL) or 20% (HL). You must write **two essays** from
@@ -345,6 +453,15 @@ A strong Paper 2 essay follows this structure:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
+
 ## Paper 3: HL Depth Study
 
 Paper 3 is an extended essay paper for HL students only, worth 35% of the HL grade. You must write
@@ -367,6 +484,15 @@ Paper 3 questions require greater depth and specificity than Paper 2. Key differ
 - Essays are expected to be longer and more nuanced than Paper 2 responses.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
 
 ## The Internal Assessment (IA)
 
@@ -411,6 +537,15 @@ When evaluating sources, go beyond surface-level observations. Consider:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
+
 ## Historiographical Schools of Thought
 
 Understanding historiographical traditions helps you engage with different interpretations in
@@ -444,6 +579,15 @@ Essays.
 - Acknowledge the validity of multiple perspectives and seek a more nuanced understanding.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "History", "url": "https://ib.wyattau.com/history/history"}]
+}
+</script>
 
 ## Essay Writing Tips
 

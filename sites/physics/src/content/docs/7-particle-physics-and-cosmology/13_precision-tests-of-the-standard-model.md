@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "7 Particle Physics And Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology"}, {"name": "13_precision Tests Of The Standard Model", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology/13_precision-tests-of-the-standard-model"}]
+}
+</script>
 title: Precision Tests of the Standard Model
 tags:
   - Physics
   - University
 description: "The anomalous magnetic moment of the electron and muon: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "7 Particle Physics And Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology"}, {"name": "13_precision Tests Of The Standard Model", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology/13_precision-tests-of-the-standard-model"}]
+}
+</script>
 
 ### 13.1 The $g$-2 Anomaly
 

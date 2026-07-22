@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Intro", "url": "https://gcse.wyattau.com/intro"}]
+}
+</script>
 title: GCSE Notes
 date: 2026-04-14
 description: "These notes are written with the rigour of an undergraduate textbook, but targeted at the GCSE Syllabus. Every definition is precise, every result is"
@@ -8,6 +17,15 @@ categories:
   - gcse
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Intro", "url": "https://gcse.wyattau.com/intro"}]
+}
+</script>
 
 ## About These Notes
 

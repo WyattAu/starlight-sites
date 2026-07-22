@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Correlation And Regression", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-correlation-and-regression"}]
+}
+</script>
 title: "Correlation and Regression -- Diagnostic Tests"
 description: "A-Level Maths Correlation and Regression -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Correlation And Regression", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-correlation-and-regression"}]
+}
+</script>
 
 
 ## Intuition
@@ -115,6 +133,15 @@ Spearman's rank would be preferred when:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Correlation And Regression", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-correlation-and-regression"}]
+}
+</script>
+
 ### UT-2: Regression Line Properties and Extrapolation Risk
 
 **Question:**
@@ -211,6 +238,15 @@ sum of squared residuals. Both regression lines must pass through this common po
 intersect there.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Correlation And Regression", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-correlation-and-regression"}]
+}
+</script>
 
 ### UT-3: Residual Analysis and Least Squares Justification
 
@@ -314,6 +350,15 @@ Minimising perpendicular distances would be inappropriate when:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Correlation And Regression", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-correlation-and-regression"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of correlation and regression with other topics. Requires combining concepts from
@@ -402,6 +447,15 @@ the distributions are different.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Correlation And Regression", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-correlation-and-regression"}]
+}
+</script>
+
 ### IT-2: Expected Value of Regression Predictions (with Probability)
 
 **Question:**
@@ -481,6 +535,15 @@ $$= 1 - \Phi(1) = 1 - 0.8413 = 0.1587$$
 The probability is approximately 0.159 (15.9%).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Correlation And Regression", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-correlation-and-regression"}]
+}
+</script>
 
 ### IT-3: Outlier Removal and Recalculation (with Data Representation)
 

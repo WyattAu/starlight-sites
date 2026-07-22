@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Chemistry", "url": "https://gcse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://gcse.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://gcse.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
 title: Atomic Structure
 description: "Atoms are the smallest particles of an element that can take part in chemical reactions."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - gcse-chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Chemistry", "url": "https://gcse.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://gcse.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://gcse.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
+}
+</script>
 
 ## Intuition
 

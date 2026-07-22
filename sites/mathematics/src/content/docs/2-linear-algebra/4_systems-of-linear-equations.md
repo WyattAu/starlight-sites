@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "4_systems Of Linear Equations", "url": "https://mathematics.wyattau.com/2-linear-algebra/4_systems-of-linear-equations"}]
+}
+</script>
 title: Systems of Linear Equations
 tags:
   - Mathematics
   - University
 description: 'A system of linear equations in unknowns can be written as Where Comprehensive educational content coverage with definitions and practice problems.'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "4_systems Of Linear Equations", "url": "https://mathematics.wyattau.com/2-linear-algebra/4_systems-of-linear-equations"}]
+}
+</script>
 
 ### 4.1 Gaussian Elimination
 
@@ -292,6 +310,15 @@ $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "4_systems Of Linear Equations", "url": "https://mathematics.wyattau.com/2-linear-algebra/4_systems-of-linear-equations"}]
+}
+</script>
+
 
 
 ### Intuition
@@ -307,4 +334,13 @@ The deeper insight is that row reduction preserves the solution space while simp
 - **[Singular Value Decomposition](8_singular-value-decomposition.md)**: The pseudoinverse derived from the SVD provides the minimum-norm least squares solution to inconsistent systems.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "2 Linear Algebra", "url": "https://mathematics.wyattau.com/2-linear-algebra"}, {"name": "4_systems Of Linear Equations", "url": "https://mathematics.wyattau.com/2-linear-algebra/4_systems-of-linear-equations"}]
+}
+</script>
 

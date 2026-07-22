@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "06 Security", "url": "https://linux.wyattau.com/06-security"}, {"name": "Linux Security", "url": "https://linux.wyattau.com/06-security/linux-security"}]
+}
+</script>
 title: Linux Security
 description: "Linux security is fundamentally built on the user and group model. Every process runs under a Specific UID (user ID) and GID (group ID), and every file and"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "06 Security", "url": "https://linux.wyattau.com/06-security"}, {"name": "Linux Security", "url": "https://linux.wyattau.com/06-security/linux-security"}]
+}
+</script>
 
 ## User and Group Model
 

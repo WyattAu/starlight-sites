@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "4 Multivariable Calculus", "url": "https://mathematics.wyattau.com/4-multivariable-calculus"}, {"name": "6_problem Set", "url": "https://mathematics.wyattau.com/4-multivariable-calculus/6_problem-set"}]
+}
+</script>
 title: Problem Set
 tags:
   - Mathematics
   - University
 description: "UNIVERSITY Mathematics notes: Problem Set. Comprehensive study material with definitions, examples, and assessment tools."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "4 Multivariable Calculus", "url": "https://mathematics.wyattau.com/4-multivariable-calculus"}, {"name": "6_problem Set", "url": "https://mathematics.wyattau.com/4-multivariable-calculus/6_problem-set"}]
+}
+</script>
 
 ### Problem 1
 

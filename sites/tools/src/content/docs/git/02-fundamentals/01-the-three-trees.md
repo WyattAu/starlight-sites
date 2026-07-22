@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "02 Fundamentals", "url": "https://tools.wyattau.com/git/02-fundamentals"}, {"name": "01 The Three Trees", "url": "https://tools.wyattau.com/git/02-fundamentals/01-the-three-trees"}]
+}
+</script>
 title: The Three Trees
 description: "Understanding the three trees in Git terminology."
 date: 2025-06-02T22:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - CS
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "02 Fundamentals", "url": "https://tools.wyattau.com/git/02-fundamentals"}, {"name": "01 The Three Trees", "url": "https://tools.wyattau.com/git/02-fundamentals/01-the-three-trees"}]
+}
+</script>
 
 ## Overview
 

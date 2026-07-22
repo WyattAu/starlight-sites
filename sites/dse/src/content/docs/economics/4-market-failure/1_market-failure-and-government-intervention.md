@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
 title: Market Failure and Government Intervention
 description: "Market failure occurs when the free market, operating without government intervention, fails to Allocate resources in a way that maximises economic welfare."
 date: 2026-04-08T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Economics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
 
 ## What Is Market Failure?
 
@@ -34,6 +52,15 @@ and the basic market failure overview in
 | Inequality            | The market may produce an unacceptable distribution of income and wealth, even if it is allocatively efficient in a Pareto sense.                 |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
 
 ## Negative Externalities
 
@@ -107,6 +134,15 @@ Does not account for the external cost imposed on others.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
+
 ## Positive Externalities
 
 ### Definition
@@ -152,6 +188,15 @@ Rationale for government provision or subsidisation of education.
 | Healthcare       | Individual health         | Reduced disease transmission, healthier workforce    |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
 
 ## Corrective Taxes (Pigouvian Taxes)
 
@@ -215,6 +260,15 @@ DWL = `0.5 \times 12 \times (37.5 - 31.5) = 0.5 \times 12 \times 6 = 36`.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
+
 ## Corrective Subsidies
 
 ### Mechanism
@@ -267,6 +321,15 @@ DWL without intervention = `0.5 \times 8 \times (170 - 130) = 0.5 \times 8 \time
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
+
 ## Tradable Pollution Permits (Cap and Trade)
 
 ### Mechanism
@@ -303,6 +366,15 @@ Quantity of pollution. Firms can buy and sell permits among themselves.
 4. Enough firms in the market to ensure competition (prevent market power in permit trading).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
 
 ## Public Goods
 
@@ -344,6 +416,15 @@ Healthcare. These goods are often provided or subsidised by the government becau
 Under-provide them relative to the social optimum.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
 
 ## Merit Goods and Demerit Goods
 
@@ -395,6 +476,15 @@ But because consumers make poor decisions due to:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
+
 ## Information Asymmetry
 
 ### Definition
@@ -442,6 +532,15 @@ Behaviour during good times, while the insurer (government) bears the cost of fa
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
+
 ## Cost-Benefit Analysis of Government Intervention
 
 Before intervening to correct a market failure, the government should conduct a cost-benefit
@@ -471,6 +570,15 @@ $$\mathrm{NPV} = \sum_{t=0}^{T} \frac{B_t - C_t}{(1 + r)^t}$$
 - Distributional effects (who gains and who loses may matter even if total NPV is positive)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
 
 ## Government Failure
 
@@ -510,6 +618,15 @@ Public, in contrast, is diffuse and has weak incentives to monitor regulatory ag
 Competition, raising prices, and reducing innovation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
 
 ## Intuition
 
@@ -561,6 +678,15 @@ Competition, raising prices, and reducing innovation.
    the government as tax revenue).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
 
 ## Practice Problems
 
@@ -882,6 +1008,15 @@ Lead to an efficient outcome regardless of the initial allocation of property ri
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
+
 ## Problem Set
 
 </details>
@@ -1134,6 +1269,15 @@ If you get this wrong, revise:
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
 
 ## Extended Problem Set: Advanced Market Failure Analysis
 

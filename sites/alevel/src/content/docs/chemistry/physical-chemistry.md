@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry"}]
+}
+</script>
 title: Physical Chemistry
 description: "Comprehensive study guide covering the core physical chemistry topics for A-Level examinations across all major exam boards."
 date: 2026-05-31T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry"}]
+}
+</script>
+
 # Physical Chemistry
 
 Comprehensive study guide covering the core physical chemistry topics for A-Level examinations
@@ -19,6 +37,15 @@ across all major exam boards.
 4
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry"}]
+}
+</script>
 
 ## 1. Atomic Structure
 
@@ -78,6 +105,15 @@ $$A_r = \frac{\sum(m_i \times a_i)}{\sum a_i}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry"}]
+}
+</script>
+
 ## 2. Bonding
 
 ### Ionic Bonding
@@ -129,6 +165,15 @@ bonds).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry"}]
+}
+</script>
+
 ## 3. Energetics
 
 ### Enthalpy Changes
@@ -178,6 +223,15 @@ $$\Delta_f H^\ominus = \text{atomisation} + \text{ionisation} + \text{electron a
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry"}]
+}
+</script>
+
 ## 4. Kinetics
 
 ### Rate Equations
@@ -222,6 +276,15 @@ A plot of $\ln k$ vs $\frac{1}{T}$ gives a straight line:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry"}]
+}
+</script>
+
 ## 5. Equilibrium
 
 ### Le Chatelier's Principle
@@ -258,6 +321,15 @@ $$K_p = \frac{(p_{\mathrm{C}})^c(p_{\mathrm{D}})^d}{(p_{\mathrm{A}})^a(p_{\mathr
 | Contact | $\mathrm{2SO_2 + O_2 \rightleftharpoons 2SO_3}$ | 450 °C, 1–2 atm, $\mathrm{V_2O_5}$ catalyst | High $T$ for rate, moderate $P$ for cost                                      |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry"}]
+}
+</script>
 
 ## 6. Acids, Bases and Buffers
 
@@ -305,6 +377,15 @@ Choose an indicator whose range falls within the vertical section of the titrati
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry"}]
+}
+</script>
+
 ## 7. Redox
 
 ### Oxidation States
@@ -342,6 +423,15 @@ If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard condit
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry"}]
+}
+</script>
+
 ## 8. Key Equations Reference
 
 | Topic             | Equation                                                                          | Notes                 |
@@ -358,6 +448,15 @@ If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard condit
 | Cell potential    | $E^\ominus_{\text{cell}} = E^\ominus_{\text{red}} - E^\ominus_{\text{ox}}$        |                       |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry"}]
+}
+</script>
 
 ## 9. Common Mistakes
 
@@ -382,6 +481,15 @@ If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard condit
    an element in its standard state is zero.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry"}]
+}
+</script>
 
 
 ## Intuition

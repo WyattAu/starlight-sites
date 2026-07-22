@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Swift", "url": "https://languages.wyattau.com/swift"}, {"name": "Practice Swift Basics", "url": "https://languages.wyattau.com/swift/practice-swift-basics"}]
+}
+</script>
 title: Swift Practice (Basics)
 description: "10 auto-graded practice problems covering core Swift concepts. Select an answer, Comprehensive educational content coverage with definitions and practice proble"
 tags:
@@ -6,6 +15,15 @@ tags:
 categories:
   - Swift
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Swift", "url": "https://languages.wyattau.com/swift"}, {"name": "Practice Swift Basics", "url": "https://languages.wyattau.com/swift/practice-swift-basics"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -25,6 +43,15 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Swift", "url": "https://languages.wyattau.com/swift"}, {"name": "Practice Swift Basics", "url": "https://languages.wyattau.com/swift/practice-swift-basics"}]
+}
+</script>
+
 ### Types and Variables
 
 <PracticeProblem client:only="solid-js" question={"What is the type of `let value = 3.14` in Swift?&quot; options={['Float', 'Double', 'Decimal', 'NSNumber']} correctAnswer={1} explanation=&quot;Floating-point literals without a type annotation default to `Double` (64-bit) in Swift. Use `let value: Float = 3.14` for a 32-bit float."} difficulty="easy"  />
@@ -32,6 +59,15 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"What does `typealias StringPair = (String, String)` create?&quot; options={[ 'A new class', 'An alias for any two-element tuple of Strings', 'A new struct with two String properties', 'A dictionary with String keys and values', ]} correctAnswer={1} explanation=&quot;A `typealias` creates an alternative name for an existing type. `StringPair` is simply another name for `(String, String)`, a tuple of two strings."} difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Swift", "url": "https://languages.wyattau.com/swift"}, {"name": "Practice Swift Basics", "url": "https://languages.wyattau.com/swift/practice-swift-basics"}]
+}
+</script>
 
 ### Optionals
 
@@ -41,6 +77,15 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Swift", "url": "https://languages.wyattau.com/swift"}, {"name": "Practice Swift Basics", "url": "https://languages.wyattau.com/swift/practice-swift-basics"}]
+}
+</script>
+
 ### Collections
 
 <PracticeProblem client:only="solid-js" question={"What does `[1, 2, 3, 4, 5].filter { $0 % 2 == 0 }.map { $0 * $0 }` return?&quot; options={['[4, 16]', '[2, 4]', '[1, 9, 25]', '[1, 4, 9, 16, 25]']} correctAnswer={0} explanation=&quot;`filter` keeps even numbers: [2, 4]. Then `map` squares each: [4, 16]. Higher-order functions chain left-to-right."} difficulty="medium"  />
@@ -49,6 +94,15 @@ the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Swift", "url": "https://languages.wyattau.com/swift"}, {"name": "Practice Swift Basics", "url": "https://languages.wyattau.com/swift/practice-swift-basics"}]
+}
+</script>
+
 ### Closures
 
 <PracticeProblem client:only="solid-js" question={"What does `[3, 1, 4, 1, 5].sorted(by: >)` return?&quot; options={['[5, 4, 3, 1, 1]', '[1, 1, 3, 4, 5]', '[3, 1, 4, 1, 5]', 'Compile error']} correctAnswer={0} explanation=&quot;`sorted(by: >)` sorts in descending order. The `>` operator function is a valid closure for comparison."} difficulty="easy"  />
@@ -56,6 +110,15 @@ the explanation.
 <PracticeProblem client:only="solid-js" question={"When is `@escaping` required on a closure parameter?&quot; options={[ 'When the closure is called synchronously', 'When the closure is stored or called after the function returns', 'When the closure captures external variables', 'When the closure returns a value', ]} correctAnswer={1} explanation=&quot;Non-escaping closures (the default) execute before the function returns. If the closure outlives the function -- stored as a property, passed to another async function, or called later -- `@escaping` is required."} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Swift", "url": "https://languages.wyattau.com/swift"}, {"name": "Practice Swift Basics", "url": "https://languages.wyattau.com/swift/practice-swift-basics"}]
+}
+</script>
 
 ### OOP and Error Handling
 
@@ -72,6 +135,15 @@ the explanation.
 **Forgetting `@escaping` on stored closures:** Closures stored in properties or passed to async functions must be marked `@escaping`. Omitting it causes a compile error because non-escaping closures cannot outlive the function.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Swift", "url": "https://languages.wyattau.com/swift"}, {"name": "Practice Swift Basics", "url": "https://languages.wyattau.com/swift/practice-swift-basics"}]
+}
+</script>
 
 ## Cross-References
 

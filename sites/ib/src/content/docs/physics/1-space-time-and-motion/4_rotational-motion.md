@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
 title: Rotational Motion
 description: "Rigorous IB physics notes covering Rotational Motion. Includes definitions, derivations, worked examples, and exam-style problems. momentum."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
 
 ## Circular Motion Fundamentals
 
@@ -54,6 +72,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
+
 ## Centripetal Acceleration
 
 An object in uniform circular motion has a constantly changing velocity (direction changes), so it
@@ -86,6 +113,15 @@ Separate force on a free-body diagram.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
+
 ## Centripetal Force
 
 ### Magnitude
@@ -110,6 +146,15 @@ Always directed toward the centre of the circle.
 | Motorcyclist in vertical circle        | Combination of weight and normal reaction |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
 
 ## Horizontal Circular Motion
 
@@ -181,6 +226,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
+
 ## Vertical Circular Motion
 
 For an object moving in a vertical circle, the speed varies (it is fastest at the bottom, slowest at
@@ -235,6 +289,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
+
 ## Banked Curves
 
 ### Without Friction
@@ -259,6 +322,15 @@ When friction is present, the car can travel at speeds above or below the ideal 
 Up the slope (to prevent sliding down) or down the slope (to prevent sliding up).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
 
 ## Torque
 
@@ -334,6 +406,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
+
 ## Moment of Inertia
 
 ### Definition
@@ -375,6 +456,15 @@ Where $d$ is the distance between the original axis and the parallel axis throug
 Mass.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
 
 ## Angular Momentum
 
@@ -436,6 +526,15 @@ This is analogous to linear impulse: $\Delta p = F \cdot \Delta t$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
+
 ## Rotational Kinetic Energy
 
 ### Formula
@@ -486,6 +585,15 @@ More mass concentrated near the centre (smaller $I$) roll faster.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
+
 ## Analogy: Linear vs Rotational
 
 | Linear Quantity         | Rotational Equivalent          |
@@ -502,6 +610,15 @@ More mass concentrated near the centre (smaller $I$) roll faster.
 | $P = Fv$                | $P = \tau\omega$               |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
 
 ## IB Exam-Style Questions
 
@@ -622,6 +739,15 @@ She can complete 1 full somersault and is partway through a second.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
+
 ## Intuition
 
 Rotational motion is linear motion wearing a disguise. Every linear equation has a rotational twin: force becomes torque, mass becomes moment of inertia, and velocity becomes angular velocity. Moment of inertia is like rotational mass, but it depends on how far the mass is spread from the axis, which is why a figure skater spins faster with arms tucked in. Centripetal acceleration is the constant inward tug that keeps objects on circular paths, like a ball on a string that must always be pulled toward the center or the string breaks. Energy conservation links the top and bottom of a vertical circle, telling you exactly how fast you must go.
@@ -648,6 +774,15 @@ Different points. For torque problems, identify the pivot and calculate the mome
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
 
 ## Angular Kinematics
 
@@ -701,6 +836,15 @@ $$
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
+
 ## Gravitation and Circular Orbits (Extended)
 
 ### Orbital Energy
@@ -744,6 +888,15 @@ A geostationary satellite:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
+
 ## Gyroscopic Effects
 
 A spinning gyroscope resists changes to its axis of rotation due to conservation of angular
@@ -766,6 +919,15 @@ $$
 $$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
 
 ## Additional IB Exam-Style Questions
 
@@ -858,6 +1020,15 @@ For the A-Level treatment of this topic, see
 [Circular Motion](https://alevel.wyattau.com/docs/physi..../1-space-time-and-motion/circular-motion).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "1 Space Time And Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion"}, {"name": "4_rotational Motion", "url": "https://ib.wyattau.com/physics/1-space-time-and-motion/4_rotational-motion"}]
+}
+</script>
 
 <aside class="starlight-aside starlight-aside--tip">
 questions within the IB specification for this topic, each with a full worked solution.

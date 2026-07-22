@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Ecology", "url": "https://alevel.wyattau.com/biology/ecology"}]
+}
+</script>
 title: Ecology
 description: "An is a self-sustaining system formed by the interactions of all Living organisms (the component) with their non-living physical and chemical environment"
 date: 2026-04-18T00:00:00.000Z
@@ -9,6 +18,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Ecology", "url": "https://alevel.wyattau.com/biology/ecology"}]
+}
+</script>
 
 ## Ecology
 
@@ -883,6 +901,15 @@ application.
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Ecology", "url": "https://alevel.wyattau.com/biology/ecology"}]
+}
+</script>
 
 ## 13. Population Dynamics: Advanced Models
 
@@ -1782,6 +1809,15 @@ Coevolution occurs when two species evolve in response to each other:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Ecology", "url": "https://alevel.wyattau.com/biology/ecology"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 within the A-Level specification for this topic, each with a full worked solution.
 
@@ -1977,6 +2013,15 @@ impossible to address with traditional field methods alone.
 | Other examples | Grazing by sheep on hillsides; burning of heather moorland; rice paddy fields                                                                              |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Ecology", "url": "https://alevel.wyattau.com/biology/ecology"}]
+}
+</script>
 
 ## Common Pitfalls
 

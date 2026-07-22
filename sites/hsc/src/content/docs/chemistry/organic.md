@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Chemistry", "url": "https://hsc.wyattau.com/chemistry"}, {"name": "Organic", "url": "https://hsc.wyattau.com/chemistry/organic"}]
+}
+</script>
 title: "Organic"
 description: "HSC chemistry: Organic"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Chemistry", "url": "https://hsc.wyattau.com/chemistry"}, {"name": "Organic", "url": "https://hsc.wyattau.com/chemistry/organic"}]
+}
+</script>
 
 # Organic
 

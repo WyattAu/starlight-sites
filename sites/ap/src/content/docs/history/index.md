@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "History", "url": "https://ap.wyattau.com/history"}, {"name": "Index", "url": "https://ap.wyattau.com/history/index"}]
+}
+</script>
 title: AP US History
 description: "Comprehensive revision notes for AP United States History (APUSH), aligned with the College Board Course and Exam Description."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ap-history
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "History", "url": "https://ap.wyattau.com/history"}, {"name": "Index", "url": "https://ap.wyattau.com/history/index"}]
+}
+</script>
 
 # AP US History
 

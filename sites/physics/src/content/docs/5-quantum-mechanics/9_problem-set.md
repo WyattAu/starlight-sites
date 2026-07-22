@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "9_problem Set", "url": "https://physics.wyattau.com/5-quantum-mechanics/9_problem-set"}]
+}
+</script>
 title: Problem Set
 tags:
   - Physics
   - University
 description: "(Photoelectric effect) A sodium surface has work function eV. When illuminated With light of wavelength nm, find (a) the maximum kinetic energy of emitted"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "9_problem Set", "url": "https://physics.wyattau.com/5-quantum-mechanics/9_problem-set"}]
+}
+</script>
 
 ### Problems
 

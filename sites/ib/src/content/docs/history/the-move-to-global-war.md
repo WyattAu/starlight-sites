@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Move To Global War", "url": "https://ib.wyattau.com/history/the-move-to-global-war"}]
+}
+</script>
 title: The Move to Global War
 tags:
   - IB
   - History
 description: "The Treaty of Versailles was the most consequential of the Paris Peace Conference settlements, and Its perceived injustices became a central grievance"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Move To Global War", "url": "https://ib.wyattau.com/history/the-move-to-global-war"}]
+}
+</script>
 
 # The Move to Global War
 
@@ -228,6 +246,15 @@ Force.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Move To Global War", "url": "https://ib.wyattau.com/history/the-move-to-global-war"}]
+}
+</script>
+
 ## Part II: Rise of Authoritarian Regimes
 
 ### Mussolini and Italian Fascism
@@ -416,6 +443,15 @@ Meant that civilian politicians could not restrain military adventurism even whe
 So.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Move To Global War", "url": "https://ib.wyattau.com/history/the-move-to-global-war"}]
+}
+</script>
 
 ## Part III: Causes of the Second World War
 
@@ -613,6 +649,15 @@ Create a self-sufficient economic bloc in East Asia. Autarky was both a response
 Vulnerability and a justification for territorial expansion.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Move To Global War", "url": "https://ib.wyattau.com/history/the-move-to-global-war"}]
+}
+</script>
 
 ## Part IV: Course of the Second World War (1939--1945)
 
@@ -827,6 +872,15 @@ September 1945.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Move To Global War", "url": "https://ib.wyattau.com/history/the-move-to-global-war"}]
+}
+</script>
+
 ## Part V: Historiography of the Causes of the Second World War
 
 ### Orthodox Interpretation
@@ -927,6 +981,15 @@ concept of `Lebensraum` implied the conquest, colonisation, and racial reorderin
 selective and at times disingenuous.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Move To Global War", "url": "https://ib.wyattau.com/history/the-move-to-global-war"}]
+}
+</script>
 
 ## Part VI: Consequences of the Second World War
 
@@ -1091,6 +1154,15 @@ Court), are the direct institutional descendants of Nuremberg.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Move To Global War", "url": "https://ib.wyattau.com/history/the-move-to-global-war"}]
+}
+</script>
+
 ## Key Historiographical Terms for IB Examinations
 
 | Term                        | Description                                                              |
@@ -1105,6 +1177,15 @@ Court), are the direct institutional descendants of Nuremberg.
 | `Dolchstosslegende`         | The "stab-in-the-back" myth used to undermine the Weimar Republic        |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "The Move To Global War", "url": "https://ib.wyattau.com/history/the-move-to-global-war"}]
+}
+</script>
 
 ## Key Dates
 

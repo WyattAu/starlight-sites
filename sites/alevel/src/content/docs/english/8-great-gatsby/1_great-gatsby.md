@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "8 Great Gatsby", "url": "https://alevel.wyattau.com/english/8-great-gatsby"}, {"name": "1_great Gatsby", "url": "https://alevel.wyattau.com/english/8-great-gatsby/1_great-gatsby"}]
+}
+</script>
 title: "The Great Gatsby"
 date: 2026-01-15T00:00:00.000Z
 sidebar_position: 10
@@ -9,6 +18,15 @@ categories:
   - alevel-english
 description: "A-Level English revision notes on F. Scott Fitzgerald's The Great Gatsby: narrative structure, symbolism, the American Dream, and class in 1920s America."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "8 Great Gatsby", "url": "https://alevel.wyattau.com/english/8-great-gatsby"}, {"name": "1_great Gatsby", "url": "https://alevel.wyattau.com/english/8-great-gatsby/1_great-gatsby"}]
+}
+</script>
 
 
 ## Intuition

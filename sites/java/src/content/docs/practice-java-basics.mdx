@@ -1,9 +1,27 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
 title: Java Fundamentals Practice (Interactive)
 tags:
   - java
 description: "10 auto-graded practice problems covering Java fundamentals. Select an answer, s Comprehensive educational content coverage with definitions and practice proble"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -14,6 +32,15 @@ import PracticeProblem from "@components/PracticeProblem";
 the explanation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -58,6 +85,15 @@ overflow = -2147483648
 **Key insight:** Java promotes `byte` and `short` to `int` for arithmetic operations. Use compound assignments (`+=`) for implicit casting. Narrowing conversions require explicit casts and may lose data.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
 
 ### Example 2: Streams and Functional Operations
 
@@ -115,6 +151,15 @@ Long names: 3
 **Key insight:** Streams provide a declarative way to process collections. Intermediate operations (`filter`, `map`) are lazy. Terminal operations (`collect`, `reduce`, `count`) trigger processing.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
 
 ### Example 3: Generics and Wildcards
 
@@ -174,6 +219,15 @@ Numbers: [1, 2, 3, 4, 5]
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
+
 ### Example 4: Concurrency with ExecutorService
 
 ```java
@@ -228,11 +282,29 @@ Hello World
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
+
 ### Types and Variables
 
 <PracticeProblem client:only="solid-js" question={`What is the result of the expression: \`byte b = 10; b = b + 1;\`?`} options={[ 'Compilation error -- cannot assign int to byte without a cast', 'b becomes 11', 'Runtime error -- overflow', 'b becomes 1 due to wrapping', ]} correctAnswer={0} explanation="The expression `b + 1` is promoted to `int` because arithmetic operations on operands smaller than `int` are widened to `int`. The result type is `int`, and assigning an `int` back to `byte` without an explicit cast is a compilation error. Using the compound assignment `b += 1` would compile because it includes an implicit cast." difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
 
 ### Access Modifiers
 
@@ -240,11 +312,29 @@ Hello World
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
+
 ### Collections
 
 <PracticeProblem client:only="solid-js" question={"Which collection guarantees insertion order and does not allow duplicates?&quot; options={['LinkedHashSet', 'HashSet', 'TreeSet', 'ArrayList']} correctAnswer={0} explanation=&quot;LinkedHashSet extends HashSet and maintains a doubly-linked list running through its entries, preserving insertion order. HashSet does not guarantee order. TreeSet orders by natural ordering or a comparator (not insertion order). ArrayList allows duplicates and does not have set semantics. LinkedHashSet gives you both uniqueness and predictable iteration order."} difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
 
 ### Streams
 
@@ -254,11 +344,29 @@ Hello World
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
+
 ### Concurrency
 
 <PracticeProblem client:only="solid-js" question={`What does \`volatile\` guarantee in the Java Memory Model?`} options={[ 'Writes to the variable are immediately visible to all other threads', 'Only one thread can access the variable at a time', 'The variable cannot be garbage collected', 'The variable is stored on the stack instead of the heap', ]} correctAnswer={0} explanation="The `volatile` keyword establishes a happens-before relationship: a write to a volatile variable is immediately visible to subsequent reads by other threads. It prevents CPU caching and compiler reordering for that variable. However, `volatile` does not provide atomicity for compound actions like `count++`. For mutual exclusion (only one thread at a time), use `synchronized` or `ReentrantLock`." difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
 
 ### Generics
 
@@ -266,17 +374,44 @@ Hello World
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
+
 ### Garbage Collection
 
 <PracticeProblem client:only="solid-js" question={`In the JVM heap, where are newly created objects first allocated?`} options={[ 'Eden space in the young generation', 'Old generation (tenured space)', 'Survivor space S0', 'Stack memory', ]} correctAnswer={0} explanation="All new objects (except very large ones that bypass the young generation) are allocated in Eden, the first region of the young generation. When Eden fills up, a minor GC traces reachable objects and copies survivors to a survivor space. After surviving a configurable number of minor GCs (controlled by `-XX:MaxTenuringThreshold`), objects are promoted to the old (tenured) generation." difficulty="medium"  />
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
+
 ### JIT Optimization (Hard)
 
 <PracticeProblem client:only="solid-js" question={`The JIT compiler performs "escape analysis." What does it mean when an object does not escape?`} options={[ 'The JIT can allocate the object on the stack instead of the heap', 'The object is eligible for garbage collection immediately', 'The object is serialized and sent to another JVM', 'The object is moved to the old generation', ]} correctAnswer={0} explanation="Escape analysis determines whether an object is reachable outside the method that created it. If an object does not escape (is never stored in a static field, returned from the method, or passed to another method), the JIT can perform scalar replacement -- breaking the object into its individual fields and allocating them on the stack or in registers. This eliminates heap allocation and GC pressure entirely for that object." difficulty="hard"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Practice Java Basics", "url": "https://java.wyattau.com/practice-java-basics"}]
+}
+</script>
 
 ### Class Loading Order (Hard)
 

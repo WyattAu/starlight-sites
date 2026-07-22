@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "12 Coursework", "url": "https://alevel.wyattau.com/english/12-coursework"}, {"name": "1_coursework", "url": "https://alevel.wyattau.com/english/12-coursework/1_coursework"}]
+}
+</script>
 title: "Coursework Guide"
 date: 2026-01-15T00:00:00.000Z
 sidebar_position: 14
@@ -9,6 +18,15 @@ categories:
   - alevel-english
 description: "A-Level English coursework guide: NEA requirements, independent reading, critical anthology, essay titles, comparative approaches, referencing, and exemplar responses."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "12 Coursework", "url": "https://alevel.wyattau.com/english/12-coursework"}, {"name": "1_coursework", "url": "https://alevel.wyattau.com/english/12-coursework/1_coursework"}]
+}
+</script>
 
 
 ## Intuition

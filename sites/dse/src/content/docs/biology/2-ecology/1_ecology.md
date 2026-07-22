@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 title: Evolution and Ecology
 description: "Evolution is the cumulative change in the heritable characteristics of a population Over successive generations, driven by mechanisms such as natural"
 date: 2026-04-07T00:00:00.000Z
@@ -10,6 +19,15 @@ categories:
   - Biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Evolution Overview
 
@@ -50,6 +68,15 @@ Sequence itself. This is sometimes mistakenly conflated with Lamarckism, but epi
 Reversible and do not create new alleles.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Natural Selection
 
@@ -118,6 +145,15 @@ Survive. Resistance arises from random pre-existing mutations; the antibiotic se
 individuals. The mutation occurs regardless of the antibiotic's presence.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Genetics of Evolution
 
@@ -252,6 +288,15 @@ mechanism of sympatric speciation in plants.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
+
 ## Evidence for Evolution (Detailed)
 
 ### Homologous vs Analogous Structures
@@ -322,6 +367,15 @@ Early embryos of vertebrates show remarkable similarity:
 These similarities reflect shared developmental pathways inherited from a common ancestor.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Human Evolution
 
@@ -396,6 +450,15 @@ Approximately 200,000-300,000 years ago, and the two individuals were not contem
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
+
 ## Ecology Basics
 
 ### Levels of Organisation
@@ -446,6 +509,15 @@ available resources to reduce direct competition (e.g., different feeding height
 Activity times, different food sizes).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Population Ecology
 
@@ -526,6 +598,15 @@ Intermediate patterns. When interpreting DSE exam questions, look for the genera
 Trying to force a perfect classification.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Community Ecology
 
@@ -616,6 +697,15 @@ Reintroduction of wolves in 1995 reduced elk numbers, allowed vegetation to reco
 Beaver populations and the wetland habitats they create.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Ecosystem Ecology
 
@@ -734,6 +824,15 @@ $$\mathrm{NPP} = \mathrm{energy stored in plant biomass}$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
+
 ## Biomes
 
 ### Major Terrestrial Biomes
@@ -773,6 +872,15 @@ $$\mathrm{NPP} = \mathrm{energy stored in plant biomass}$$
 wet and dry Seasons, total precipitation. Match these to the biome descriptions above.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Human Impact
 
@@ -882,6 +990,15 @@ levels. Both terms can Appear in the same question.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
+
 ## DSE Exam Focus
 
 ### Common Question Types
@@ -964,6 +1081,15 @@ Critical value at the appropriate degrees of freedom ($df = \mathrm{number of ca
 Significance level ( $p = 0.05$).
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -1138,6 +1264,15 @@ slow-release fertilisers).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
+
 ## Intuition
 
 **Life's web of interactions:** Ecology is like studying a city's social network — species interact through food chains, competition, and symbiosis, and these interactions determine community structure.
@@ -1163,6 +1298,15 @@ slow-release fertilisers).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
+
 ## Exam Tips
 
 - In natural selection questions, always identify the **specific** selection pressure and explain
@@ -1182,6 +1326,15 @@ slow-release fertilisers).
   cyclic.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Problem Set
 
@@ -1444,6 +1597,15 @@ species, or that Pond B has low diversity due to its size or location.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 questions within the DSE specification for this topic, each with a full worked solution.
 
@@ -1454,6 +1616,15 @@ See for instructions on
 self-marking and building a personal test matrix.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Population Ecology
 
@@ -1529,6 +1700,15 @@ The human population has grown exponentially over the past 200 years due to:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
+
 ## Ecological Relationships
 
 ### Symbiosis
@@ -1559,6 +1739,15 @@ competition. For example, different species of warblers feed on insects at diffe
 same tree canopy.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Biomes
 
@@ -1592,6 +1781,15 @@ over a 12-month period.
 | Tundra                     | Very low temperatures all year (may be below 0 degrees C for much of the year); low rainfall      |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Ecological Techniques and Data Analysis
 
@@ -1638,6 +1836,15 @@ significant.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **Biomes are determined by CLIMATE (temperature and rainfall), not by latitude alone.** Two
@@ -1678,6 +1885,15 @@ significant.
   Evolution has no direction or goal.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Nutrient Cycles in Detail
 
@@ -1723,6 +1939,15 @@ Phosphorus cycles mainly between the land and oceans.
 | **Geological uplift**           | Over millions of years, marine sediments are uplifted by geological processes, exposing phosphate-containing rocks on land -- completing the cycle            |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Ecological Relationships
 
@@ -1775,6 +2000,15 @@ Predation has significant effects on population dynamics and community structure
 | Group defence                     | Wolves (pack hunting)              | Musk oxen (circle around young); sardines (schooling)                                                 |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
+}
+</script>
 
 ## Human Impact on Ecosystems
 

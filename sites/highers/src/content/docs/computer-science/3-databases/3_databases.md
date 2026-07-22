@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "3 Databases", "url": "https://highers.wyattau.com/computer-science/3-databases"}, {"name": "3_databases", "url": "https://highers.wyattau.com/computer-science/3-databases/3_databases"}]
+}
+</script>
 title: Database Design and Development
 description: "Scottish Highers Computer Science Database Design and notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - highers-computer-science
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "3 Databases", "url": "https://highers.wyattau.com/computer-science/3-databases"}, {"name": "3_databases", "url": "https://highers.wyattau.com/computer-science/3-databases/3_databases"}]
+}
+</script>
 
 # Database Design and Development
 
@@ -168,6 +186,15 @@ Delete the enrolments).
 | TEXT          | Long text              | 'Description...' |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "3 Databases", "url": "https://highers.wyattau.com/computer-science/3-databases"}, {"name": "3_databases", "url": "https://highers.wyattau.com/computer-science/3-databases/3_databases"}]
+}
+</script>
 
 ## SQL (Structured Query Language)
 
@@ -336,6 +363,15 @@ CREATE TABLE Product (
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "3 Databases", "url": "https://highers.wyattau.com/computer-science/3-databases"}, {"name": "3_databases", "url": "https://highers.wyattau.com/computer-science/3-databases/3_databases"}]
+}
+</script>
+
 ## Advanced Higher Database Concepts
 
 ### Transaction Management (ACID)
@@ -398,6 +434,15 @@ HAVING AVG(Enrolment.Grade) >= 70;
 Different format.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "3 Databases", "url": "https://highers.wyattau.com/computer-science/3-databases"}, {"name": "3_databases", "url": "https://highers.wyattau.com/computer-science/3-databases/3_databases"}]
+}
+</script>
 
 ## Advanced SQL Techniques
 
@@ -670,6 +715,15 @@ See the examples integrated throughout the sections above.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "3 Databases", "url": "https://highers.wyattau.com/computer-science/3-databases"}, {"name": "3_databases", "url": "https://highers.wyattau.com/computer-science/3-databases/3_databases"}]
+}
+</script>
+
 ## Practice Questions
 
 1. Normalise the following data to 3NF:
@@ -738,6 +792,15 @@ Mastery of these concepts requires both theoretical understanding and the abilit
 to unfamiliar contexts, particularly in calculation and practical questions.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "3 Databases", "url": "https://highers.wyattau.com/computer-science/3-databases"}, {"name": "3_databases", "url": "https://highers.wyattau.com/computer-science/3-databases/3_databases"}]
+}
+</script>
 
 ## Cross-References
 

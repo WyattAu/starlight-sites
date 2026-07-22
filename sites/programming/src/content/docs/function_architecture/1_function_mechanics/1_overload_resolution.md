@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Function_architecture", "url": "https://programming.wyattau.com/function_architecture"}, {"name": "1_function_mechanics", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics"}, {"name": "1_overload_resolution", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics/1_overload_resolution"}]
+}
+</script>
 title: Overload Resolution
 description: "C++ function resolution is not a simple name match. The compiler performs a multi-phase search Through namespaces, ranks candidate functions against a"
 date: 2026-04-03T00:00:00.000Z
@@ -8,6 +17,15 @@ categories:
   - Cpp
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Function_architecture", "url": "https://programming.wyattau.com/function_architecture"}, {"name": "1_function_mechanics", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics"}, {"name": "1_overload_resolution", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics/1_overload_resolution"}]
+}
+</script>
 
 # Overload Resolution
 
@@ -488,6 +506,15 @@ int main() {
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Function_architecture", "url": "https://programming.wyattau.com/function_architecture"}, {"name": "1_function_mechanics", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics"}, {"name": "1_overload_resolution", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics/1_overload_resolution"}]
+}
+</script>
+
 ## 1.8 Overload Resolution and Templates
 
 When both function templates and non-template functions are candidates, the ranking rules are:
@@ -620,6 +647,15 @@ Relation provides a principled ordering.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Function_architecture", "url": "https://programming.wyattau.com/function_architecture"}, {"name": "1_function_mechanics", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics"}, {"name": "1_overload_resolution", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics/1_overload_resolution"}]
+}
+</script>
+
 ## 1.9 Overload Resolution with Multi-Parameter Functions
 
 When multiple parameters are involved, overload resolution requires that the best candidate be
@@ -692,6 +728,15 @@ Both `const` and non-`const` members are viable, but the non-`const` version is 
 Match vs qualification conversion).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Function_architecture", "url": "https://programming.wyattau.com/function_architecture"}, {"name": "1_function_mechanics", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics"}, {"name": "1_overload_resolution", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics/1_overload_resolution"}]
+}
+</script>
 
 ## 1.10 ADL and Hidden Friends: Preventing Unintended Overload Discovery
 
@@ -775,6 +820,15 @@ Class type is present.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Function_architecture", "url": "https://programming.wyattau.com/function_architecture"}, {"name": "1_function_mechanics", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics"}, {"name": "1_overload_resolution", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics/1_overload_resolution"}]
+}
+</script>
+
 ## 1.11 Access Checking in Overload Resolution [N4950 §12.4.3]
 
 Access control (public, protected, private) is applied **after** overload resolution. A candidate
@@ -803,6 +857,15 @@ This behavior is surprising to developers coming from languages where accessibil
 Dispatch (like Java). In C++, accessibility is a post-resolution check, not a pre-filter.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Function_architecture", "url": "https://programming.wyattau.com/function_architecture"}, {"name": "1_function_mechanics", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics"}, {"name": "1_overload_resolution", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics/1_overload_resolution"}]
+}
+</script>
 
 ## Intuition
 

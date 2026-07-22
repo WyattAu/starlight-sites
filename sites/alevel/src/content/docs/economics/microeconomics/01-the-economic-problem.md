@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Microeconomics", "url": "https://alevel.wyattau.com/economics/microeconomics"}, {"name": "01 The Economic Problem", "url": "https://alevel.wyattau.com/economics/microeconomics/01-the-economic-problem"}]
+}
+</script>
 title: The Economic Problem
 description: "We define as the condition in which human wants exceed the resources available to Satisfy them. Formally, if we denote the set of all desired goods and"
 date: 2025-06-02T16:25:28.480Z
@@ -9,6 +18,15 @@ categories:
   - Economics
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Microeconomics", "url": "https://alevel.wyattau.com/economics/microeconomics"}, {"name": "01 The Economic Problem", "url": "https://alevel.wyattau.com/economics/microeconomics/01-the-economic-problem"}]
+}
+</script>
 
 ## 1. Fundamental Concepts
 
@@ -983,6 +1001,15 @@ the definitions, applying the formulas or frameworks, and evaluating strengths a
 each approach.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Microeconomics", "url": "https://alevel.wyattau.com/economics/microeconomics"}, {"name": "01 The Economic Problem", "url": "https://alevel.wyattau.com/economics/microeconomics/01-the-economic-problem"}]
+}
+</script>
 
 ## Intuition
 

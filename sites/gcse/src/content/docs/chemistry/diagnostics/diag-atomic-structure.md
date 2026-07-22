@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Chemistry", "url": "https://gcse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://gcse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 title: "Atomic Structure -- Diagnostic Tests"
 description: "Atomic Structure -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Chemistry", "url": "https://gcse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://gcse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 # Atomic Structure -- Diagnostic Tests
 
@@ -54,6 +72,15 @@ masses).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Chemistry", "url": "https://gcse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://gcse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
+
 ### UT-2: Electron Configuration and the Periodic Table
 
 **Question:**
@@ -99,6 +126,15 @@ radius.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Chemistry", "url": "https://gcse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://gcse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
+
 ### UT-3: Ions and Relative Atomic Mass
 
 **Question:**
@@ -138,6 +174,15 @@ of isotopes with different masses and different abundances. The $A_r$ is a weigh
 isotope masses, which generally does not produce a whole number.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Chemistry", "url": "https://gcse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://gcse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -190,6 +235,15 @@ $\text{Ca}^{2+}$ is present. (Magnesium hydroxide also gives a white precipitate
 slowly with water.)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Chemistry", "url": "https://gcse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://gcse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 ### IT-2: Combining Atomic Structure Concepts
 

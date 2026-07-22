@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 title: "Atomic Structure and Periodicity -- Diagnostic Tests"
 description: "A-Level Chemistry Atomic Structure and Periodicity -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 
 ## Intuition
@@ -56,6 +74,15 @@ from a lower-energy subshell with significantly higher nuclear attraction.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
+
 ### UT-2: Successive Ionisation Energy Pattern Interpretation
 
 **Question:**
@@ -102,6 +129,15 @@ within a given shell, there are additional factors:
   contribute to non-uniform increases.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 ### UT-3: Periodic Trend Explanation Across a Period
 
@@ -193,6 +229,15 @@ overcome these strong forces and break the lattice, hence the high melting point
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
+
 ### IT-2: Electron Configuration and Spectral Lines (with Energetics)
 
 **Question:**
@@ -238,6 +283,15 @@ larger than between $n = 2$ and $n = 4$Because the energy levels converge (get c
 $n$ increases.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 ### IT-3: Predicting Properties Across Period 3 (with Quantitative Chemistry and Bonding)
 
@@ -290,6 +344,15 @@ required for bonding** and becomes a delocalised electron. This creates an **n-t
 because the extra electrons can move freely through the lattice.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 
 ### Additional Practice Problems
 

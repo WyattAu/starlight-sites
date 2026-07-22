@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
 title: Probability
 description: "Rigorous IB mathematics notes covering Probability. Includes definitions, derivations, worked examples, and exam-style problems. and distributions."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
 
 ## Probability Fundamentals
 
@@ -41,6 +59,15 @@ Venn diagrams visually represent events and their relationships:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
+
 ## Addition Rule
 
 For any two events $A$ and $B$:
@@ -66,6 +93,15 @@ $$
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
 
 ## Multiplication Rule
 
@@ -100,6 +136,15 @@ $P(A \cap B) = 0 \neq P(A) \cdot P(B)$).
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
 
 ## Conditional Probability
 
@@ -151,6 +196,15 @@ $$
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
 
 ## Bayes' Theorem
 
@@ -212,6 +266,15 @@ Carefully rather than relying on intuition for conditional probability questions
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
 
 ## Discrete Random Variables
 
@@ -295,6 +358,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
+
 ## The Binomial Distribution
 
 ### Conditions
@@ -371,6 +443,15 @@ your GDC for calculations involving large $n$ or cumulative probabilities.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
 
 ## The Normal Distribution
 
@@ -472,6 +553,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
+
 ## Continuous Random Variables
 
 ### Probability Density Functions (PDF)
@@ -540,6 +630,15 @@ $$
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
 
 ## IB Exam-Style Questions
 
@@ -648,6 +747,15 @@ Since $f(x) = \dfrac{3x^2}{8}$ is increasing on $[0, 2]$The mode is $x = 2$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
+
 ## Summary
 
 | Distribution | Notation           | $E(X)$ | $\mathrm{Var}(X)$ |
@@ -671,6 +779,15 @@ the four conditions before applying the formula.
 
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
 
 ## Probability Distributions: Additional Topics
 
@@ -725,6 +842,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
+
 ## Combinations and Permutations
 
 ### Factorial
@@ -764,6 +890,15 @@ Ways with at least 2 women $= 495 - 35 - 175 = 285$.
 
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
 
 ## Additional Exam-Style Questions
 
@@ -846,6 +981,15 @@ Desks should accommodate heights from about $152\mathrm{ cm}$ to $178\mathrm{ cm
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
+
 <aside class="starlight-aside starlight-aside--tip">
 the IB specification for this topic, each with a full worked solution.
 
@@ -885,6 +1029,15 @@ linked above.
 </aside>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
+}
+</script>
 
 ## Intuition
 

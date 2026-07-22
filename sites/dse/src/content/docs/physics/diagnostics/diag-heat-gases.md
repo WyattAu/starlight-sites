@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Heat Gases", "url": "https://dse.wyattau.com/physics/diagnostics/diag-heat-gases"}]
+}
+</script>
 title: "Heat and Gases -- Diagnostic Tests"
 description: "DSE Physics Heat and Gases -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Heat Gases", "url": "https://dse.wyattau.com/physics/diagnostics/diag-heat-gases"}]
+}
+</script>
 
 # Heat and Gases — Diagnostic Tests
 
@@ -58,6 +76,15 @@ by $100°$C ($Q_3 = 84$ kJ). This is the most common energy mistake in these pro
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Heat Gases", "url": "https://dse.wyattau.com/physics/diagnostics/diag-heat-gases"}]
+}
+</script>
+
 ### UT-2: Ideal Gas Law with Unit Traps
 
 **Question:**
@@ -104,6 +131,15 @@ $$3.333 \times 10^5 \times 2.493 \times 10^{-3} = 2.5 \times 10^5 \times V_3$$
 $$V_3 = \frac{3.333 \times 2.493}{2.5} \times 10^{-3} = \frac{8.310}{2.5} \times 10^{-3} = 3.324 \times 10^{-3} \text{ m}^3 = 3.32 \text{ L}$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Heat Gases", "url": "https://dse.wyattau.com/physics/diagnostics/diag-heat-gases"}]
+}
+</script>
 
 ### UT-3: Kinetic Theory Pressure Derivation and Calculation
 
@@ -155,6 +191,15 @@ same temperature, lighter molecules move faster. This is why hydrogen escapes fr
 atmospheres more than heavier gases.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Heat Gases", "url": "https://dse.wyattau.com/physics/diagnostics/diag-heat-gases"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -236,6 +281,15 @@ the signs carefully.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Heat Gases", "url": "https://dse.wyattau.com/physics/diagnostics/diag-heat-gases"}]
+}
+</script>
+
 ### IT-2: Adiabatic Process and Work Calculation (with Mechanics)
 
 **Question:**
@@ -289,6 +343,15 @@ Check: $\Delta U = -W = 1263$ J (consistent, since $Q = 0$).
 energy (and thus its temperature). This is why pumping air into a bicycle tyre makes the pump warm.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Heat Gases", "url": "https://dse.wyattau.com/physics/diagnostics/diag-heat-gases"}]
+}
+</script>
 
 ### IT-3: Mixing Liquids at Different Temperatures (with Nuclear Physics cross-topic)
 

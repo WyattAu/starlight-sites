@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Data Analysis", "url": "https://sat.wyattau.com/mathematics/data-analysis"}]
+}
+</script>
 title: "Data analysis"
 description: "SAT mathematics: Data analysis"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Data Analysis", "url": "https://sat.wyattau.com/mathematics/data-analysis"}]
+}
+</script>
 
 # Data analysis
 
@@ -43,6 +61,15 @@ Step 3: The median is 5
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Data Analysis", "url": "https://sat.wyattau.com/mathematics/data-analysis"}]
+}
+</script>
+
 ### Example 2: Conditional Probability
 
 **Problem:** In a bag with 3 red and 5 blue marbles, you draw two marbles without replacement. What is the probability both are red?
@@ -56,6 +83,15 @@ Step 3: P(both red) = $\frac{3}{8} \times \frac{2}{7} = \frac{6}{56} = \frac{3}{
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Data Analysis", "url": "https://sat.wyattau.com/mathematics/data-analysis"}]
+}
+</script>
+
 ### Example 3: Reading a Scatterplot
 
 **Problem:** A scatterplot shows test scores (x-axis) vs study hours (y-axis). The points form an upward-sloping cloud. What can you conclude?
@@ -68,6 +104,15 @@ Step 3: You CANNOT conclude causation — other factors (prior knowledge, sleep)
 **Key insight:** Correlation $\neq$ causation. The SAT tests this distinction frequently.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Data Analysis", "url": "https://sat.wyattau.com/mathematics/data-analysis"}]
+}
+</script>
 
 ## Intuition
 

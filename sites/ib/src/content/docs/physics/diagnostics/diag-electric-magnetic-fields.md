@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Electric Magnetic Fields", "url": "https://ib.wyattau.com/physics/diagnostics/diag-electric-magnetic-fields"}]
+}
+</script>
 title: "Electric and Magnetic Fields -- Diagnostic Tests"
 description: "IB Physics Electric and Magnetic Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Electric Magnetic Fields", "url": "https://ib.wyattau.com/physics/diagnostics/diag-electric-magnetic-fields"}]
+}
+</script>
 
 # Electric and Magnetic Fields — Diagnostic Tests
 
@@ -89,6 +107,15 @@ The solution is approximately $x = -1.2\,\text{m}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Electric Magnetic Fields", "url": "https://ib.wyattau.com/physics/diagnostics/diag-electric-magnetic-fields"}]
+}
+</script>
+
 ### UT-2: Field Lines and Equipotentials
 
 **Question:**
@@ -129,6 +156,15 @@ bisector of a dipole, the potential is zero everywhere, but the field is non-zer
 infinity).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Electric Magnetic Fields", "url": "https://ib.wyattau.com/physics/diagnostics/diag-electric-magnetic-fields"}]
+}
+</script>
 
 ### UT-3: Magnetic Force Perpendicularity and Circular Motion
 
@@ -243,6 +279,15 @@ The proton is deflected in the $-y$ direction (towards the negative $y$-plate).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Electric Magnetic Fields", "url": "https://ib.wyattau.com/physics/diagnostics/diag-electric-magnetic-fields"}]
+}
+</script>
+
 ### IT-2: Electromagnetic Induction with a Moving Loop (with Energy)
 
 **Question:**
@@ -305,6 +350,15 @@ The work done by the external force equals the energy dissipated as Joule heatin
 confirming energy conservation.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Electric Magnetic Fields", "url": "https://ib.wyattau.com/physics/diagnostics/diag-electric-magnetic-fields"}]
+}
+</script>
 
 ### IT-3: Potential Divider with Capacitor and Inductor (with Current Electricity)
 

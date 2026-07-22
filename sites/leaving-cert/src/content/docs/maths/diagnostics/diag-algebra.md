@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Maths", "url": "https://leaving-cert.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra", "url": "https://leaving-cert.wyattau.com/maths/diagnostics/diag-algebra"}]
+}
+</script>
 title: "Algebra -- Diagnostic Tests"
 description: "Algebra -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Maths", "url": "https://leaving-cert.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra", "url": "https://leaving-cert.wyattau.com/maths/diagnostics/diag-algebra"}]
+}
+</script>
 
 # Algebra -- Diagnostic Tests
 
@@ -75,6 +93,15 @@ Solution: $x = 3$, $y = 2$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Maths", "url": "https://leaving-cert.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra", "url": "https://leaving-cert.wyattau.com/maths/diagnostics/diag-algebra"}]
+}
+</script>
+
 ### UT-2: Sequences and Series
 
 **Question:**
@@ -131,6 +158,15 @@ Total distance $= 2 + 2 \times 6 = 14\,\text{m}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Maths", "url": "https://leaving-cert.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra", "url": "https://leaving-cert.wyattau.com/maths/diagnostics/diag-algebra"}]
+}
+</script>
+
 ### UT-3: Algebraic Fractions and Proofs
 
 **Question:**
@@ -182,6 +218,15 @@ Since $k^2$ is an integer, $4k^2$ is a multiple of 4. Therefore, the square of a
 always a multiple of 4.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Maths", "url": "https://leaving-cert.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra", "url": "https://leaving-cert.wyattau.com/maths/diagnostics/diag-algebra"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -236,6 +281,15 @@ Therefore $r = 4$.
 (ii) $\frac{1}{\alpha} + \frac{1}{\beta} = \frac{\alpha + \beta}{\alpha\beta} = \frac{-p}{q}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Maths", "url": "https://leaving-cert.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra", "url": "https://leaving-cert.wyattau.com/maths/diagnostics/diag-algebra"}]
+}
+</script>
 
 ### IT-2: Advanced Algebra and Problem Solving
 

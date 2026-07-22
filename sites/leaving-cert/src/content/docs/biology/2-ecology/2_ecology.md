@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://leaving-cert.wyattau.com/biology/2-ecology"}, {"name": "2_ecology", "url": "https://leaving-cert.wyattau.com/biology/2-ecology/2_ecology"}]
+}
+</script>
 title: Ecology
 description: "ILC Biology Ecology notes covering key definitions, core concepts, worked examples, and practice questions for efficient review and exam preparation."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ilc-biology
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://leaving-cert.wyattau.com/biology/2-ecology"}, {"name": "2_ecology", "url": "https://leaving-cert.wyattau.com/biology/2-ecology/2_ecology"}]
+}
+</script>
 
 # Ecology
 

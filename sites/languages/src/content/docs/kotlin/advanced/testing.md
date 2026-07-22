@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Advanced", "url": "https://languages.wyattau.com/kotlin/advanced"}, {"name": "Testing", "url": "https://languages.wyattau.com/kotlin/advanced/testing"}]
+}
+</script>
 title: Testing
 description: "Unit testing in Kotlin with JUnit5, Mockk, and Kotest frameworks"
 date: 2026-04-18
@@ -7,6 +16,15 @@ tags:
 categories:
   - Kotlin
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Advanced", "url": "https://languages.wyattau.com/kotlin/advanced"}, {"name": "Testing", "url": "https://languages.wyattau.com/kotlin/advanced/testing"}]
+}
+</script>
 
 ## Dependencies
 

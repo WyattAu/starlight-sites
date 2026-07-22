@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "1_changing Places", "url": "https://alevel.wyattau.com/geography/2-human-geography/1_changing-places"}]
+}
+</script>
 title: Changing Places
 date: 2026-05-21
 tags: [alevel, alevel-geography]
 categories: [alevel, geography, human-geography]
 description: "A-Level Geography Changing Places notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "1_changing Places", "url": "https://alevel.wyattau.com/geography/2-human-geography/1_changing-places"}]
+}
+</script>
 
 # Changing Places
 
@@ -18,6 +36,15 @@ particular location. Understanding how and why places change is essential for ev
 regeneration strategies and their impacts on different social groups.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "1_changing Places", "url": "https://alevel.wyattau.com/geography/2-human-geography/1_changing-places"}]
+}
+</script>
 
 ## Key Concepts and Definitions
 
@@ -40,6 +67,15 @@ regeneration strategies and their impacts on different social groups.
 | **Stakeholder**          | Any individual, group, or organisation with an interest in a place or development                                                                  |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "1_changing Places", "url": "https://alevel.wyattau.com/geography/2-human-geography/1_changing-places"}]
+}
+</script>
 
 ## Understanding Place
 
@@ -85,6 +121,15 @@ ideas, and goods.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "1_changing Places", "url": "https://alevel.wyattau.com/geography/2-human-geography/1_changing-places"}]
+}
+</script>
+
 ## Endogenous and Exogenous Factors
 
 ### Endogenous Factors (Internal)
@@ -126,6 +171,15 @@ The relationship is dynamic and reciprocal. For example:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "1_changing Places", "url": "https://alevel.wyattau.com/geography/2-human-geography/1_changing-places"}]
+}
+</script>
+
 ## Demographic and Cultural Change
 
 ### Population Change
@@ -160,6 +214,15 @@ Cultural change in places is driven by:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "1_changing Places", "url": "https://alevel.wyattau.com/geography/2-human-geography/1_changing-places"}]
+}
+</script>
+
 ## Economic Change and Employment
 
 ### The Shift from Primary and Secondary to Tertiary and Quaternary
@@ -188,6 +251,15 @@ Economic change does not affect all residents equally:
 - Property price increases associated with regeneration can create affordability crises
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "1_changing Places", "url": "https://alevel.wyattau.com/geography/2-human-geography/1_changing-places"}]
+}
+</script>
 
 ## Regeneration
 
@@ -222,6 +294,15 @@ Key evaluation criteria:
    investment?
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "1_changing Places", "url": "https://alevel.wyattau.com/geography/2-human-geography/1_changing-places"}]
+}
+</script>
 
 ## Case Studies
 
@@ -294,6 +375,15 @@ the needs of poorer communities in outer districts.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "1_changing Places", "url": "https://alevel.wyattau.com/geography/2-human-geography/1_changing-places"}]
+}
+</script>
+
 ## Intuition
 
 A place is not just coordinates on a map — it is a living memory. Think of your own neighbourhood: the corner shop where you bought sweets as a child, the park where you played, the street that feels safe or threatening. These feelings are what geographers call "sense of place," and they explain why regeneration is never just about buildings. When Barcelona rebuilt its waterfront for the Olympics, it created a beautiful space but also displaced communities who had lived there for generations. Detroit's downtown revival looks like success from a helicopter, but from street level the abandoned houses nearby tell a different story. Places are layered like archaeological sites — each generation adds a new layer without fully removing the old.
@@ -315,6 +405,15 @@ A place is not just coordinates on a map — it is a living memory. Think of you
    peripheral districts face different challenges. Always acknowledge intra-place inequality.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "1_changing Places", "url": "https://alevel.wyattau.com/geography/2-human-geography/1_changing-places"}]
+}
+</script>
 
 ## Worked Examples
 
@@ -381,6 +480,15 @@ community pride.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "1_changing Places", "url": "https://alevel.wyattau.com/geography/2-human-geography/1_changing-places"}]
+}
+</script>
+
 ## Summary
 
 - Places are more than physical spaces — they have subjective meanings, identities, and emotional
@@ -397,6 +505,15 @@ community pride.
   physical transformation and external investment.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "1_changing Places", "url": "https://alevel.wyattau.com/geography/2-human-geography/1_changing-places"}]
+}
+</script>
 
 > **Sources**: AQA Geography (7037) specification; Massey, _Space, Place and Gender_ (1994); Tuan,
 > _Topophilia_ (1974); Detroit Future City framework; Barcelona City Council data; ONS and US Census

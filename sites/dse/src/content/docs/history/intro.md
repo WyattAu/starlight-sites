@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Intro", "url": "https://dse.wyattau.com/history/intro"}]
+}
+</script>
 title: DSE History
 description: "Complete revision notes for HKDSE History, covering major themes in modern world history and regional developments in Asia. The syllabus emphasises"
 tableOfContents: false
@@ -6,6 +15,15 @@ tags:
   - history
   - dse
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Intro", "url": "https://dse.wyattau.com/history/intro"}]
+}
+</script>
 
 # DSE History
 

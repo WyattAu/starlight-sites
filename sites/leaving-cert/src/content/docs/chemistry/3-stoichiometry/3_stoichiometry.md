@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "3 Stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry"}, {"name": "3_stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry"}]
+}
+</script>
 title: Stoichiometry and Formulae
 description: "ILC Chemistry Stoichiometry and Formulae notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 date: 2026-04-14
@@ -9,6 +18,15 @@ categories:
   - ilc-chemistry
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "3 Stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry"}, {"name": "3_stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry"}]
+}
+</script>
 
 # Stoichiometry and Formulae
 
@@ -379,6 +397,15 @@ $$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "3 Stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry"}, {"name": "3_stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry"}]
+}
+</script>
+
 ## Ideal Gas Law in Detail (HL)
 
 ### Derivation of the Ideal Gas Equation
@@ -442,6 +469,15 @@ $$V(\mathrm{CO_2) = 0.100 \times 24.0 = 2.40 \mathrm{ L$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "3 Stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry"}, {"name": "3_stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry"}]
+}
+</script>
+
 ## Empirical and Molecular Formulae: Advanced Problems (HL)
 
 ### Combustion Analysis
@@ -491,6 +527,15 @@ Ratio: $1 : 4 : 1$. Empirical formula: $\mathrm{NH_4\mathrm{Cl$ (ammonium chlori
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "3 Stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry"}, {"name": "3_stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry"}]
+}
+</script>
+
 ## Advanced Limiting Reagent Problems (HL)
 
 **Worked Example 15 (HL):** $4.6 \mathrm{ g$ of ethanol ($\mathrm{C_2\mathrm{H_5\mathrm{OH$) is
@@ -523,6 +568,15 @@ $$n(\mathrm{ZnCl_2) = \frac{1}{2} \times 0.200 = 0.100 \mathrm{ mol$$
 $$m(\mathrm{ZnCl_2) = 0.100 \times 136.3 = 13.6 \mathrm{ g$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "3 Stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry"}, {"name": "3_stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry"}]
+}
+</script>
 
 ## Advanced Titration Calculations (HL)
 
@@ -565,6 +619,15 @@ $$\%\mathrm{ purity = \frac{6.0}{12.0} \times 100 = 50.0\%$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "3 Stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry"}, {"name": "3_stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry"}]
+}
+</script>
+
 ## Gravimetric Analysis (HL)
 
 Gravimetric analysis determines the amount of a substance by measuring the mass of a precipitate.
@@ -583,6 +646,15 @@ $$m(\mathrm{SO_4^{2-}) = 0.00501 \times 96.1 = 0.481 \mathrm{ g$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "3 Stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry"}, {"name": "3_stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry"}]
+}
+</script>
+
 ## Common Pitfalls
 
 1. **Balancing equations** -- always check atoms on both sides.
@@ -599,6 +671,15 @@ $$m(\mathrm{SO_4^{2-}) = 0.00501 \times 96.1 = 0.481 \mathrm{ g$$
    due to incomplete reactions, side reactions, and losses during purification.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "3 Stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry"}, {"name": "3_stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry"}]
+}
+</script>
 
 ## Practice Questions (Extended)
 
@@ -629,6 +710,15 @@ $$m(\mathrm{SO_4^{2-}) = 0.00501 \times 96.1 = 0.481 \mathrm{ g$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "3 Stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry"}, {"name": "3_stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry"}]
+}
+</script>
+
 ## Solution Stoichiometry (HL)
 
 ### Dilution Calculations
@@ -658,6 +748,15 @@ $$V_{\mathrm{total} = 0.300 \mathrm{ L$$
 $$c_{\mathrm{total} = \frac{0.110}{0.300} = 0.367 \mathrm{ M$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "3 Stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry"}, {"name": "3_stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry"}]
+}
+</script>
 
 ## Error Analysis in Quantitative Chemistry
 
@@ -697,6 +796,15 @@ $$\Delta(\mathrm{titre) = \sqrt{0.05^2 + 0.05^2} = 0.071 \mathrm{ cm^3$$
 $$\mathrm{Percentage uncertainty = \frac{0.071}{12.30} \times 100 = 0.58\%$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "3 Stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry"}, {"name": "3_stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry"}]
+}
+</script>
 
 ## Summary Table: Key Stoichiometric Relationships
 

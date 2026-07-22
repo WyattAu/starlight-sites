@@ -1,7 +1,25 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "licensing", "url": "https://licensing.wyattau.com"}, {"name": "Intro", "url": "https://licensing.wyattau.com/intro"}]
+}
+</script>
 title: Licensing
 description: "Introduction to licensing notes."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "licensing", "url": "https://licensing.wyattau.com"}, {"name": "Intro", "url": "https://licensing.wyattau.com/intro"}]
+}
+</script>
 
 Welcome to the licensing notes.
 
@@ -39,6 +57,15 @@ Choosing the wrong license can have lasting consequences for your project. A GPL
 - **For community projects:** GPL or AGPL ensure that improvements remain open. Choose based on whether you want to allow proprietary forks.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "licensing", "url": "https://licensing.wyattau.com"}, {"name": "Intro", "url": "https://licensing.wyattau.com/intro"}]
+}
+</script>
 
 ## Intuition
 

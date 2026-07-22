@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Alkanes Alkenes", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-alkanes-alkenes"}]
+}
+</script>
 title: "Alkanes and Alkenes -- Diagnostic Tests"
 description: "A-Level Chemistry Alkanes and Alkenes -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Alkanes Alkenes", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-alkanes-alkenes"}]
+}
+</script>
 
 
 ## Intuition
@@ -65,6 +83,15 @@ dark because no Cl radicals are generated without the UV energy input, and the p
 cannot begin without these radicals.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Alkanes Alkenes", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-alkanes-alkenes"}]
+}
+</script>
 
 ### UT-2: Electrophilic Addition Mechanism and Carbocation Stability
 
@@ -131,6 +158,15 @@ The major product is **1-bromopropane** (anti-Markovnikov product).
   (overlap of C--H $\sigma$-bonds with the empty $p$-orbital of the developing carbocation).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Alkanes Alkenes", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-alkanes-alkenes"}]
+}
+</script>
 
 ### UT-3: Addition Polymerisation and Polymer Properties
 
@@ -228,6 +264,15 @@ $-$OH group, not adding a second bromine atom.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Alkanes Alkenes", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-alkanes-alkenes"}]
+}
+</script>
+
 ### IT-2: Alkene Stereochemistry and Reaction Stereochemistry (with Organic Introduction)
 
 **Question:**
@@ -280,6 +325,15 @@ give $(2R,3R)$ and $(2S,3S)$ enantiomers in equal amounts. These are optically a
 (no plane of symmetry), unlike the meso compound from the cis isomer.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Alkanes Alkenes", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-alkanes-alkenes"}]
+}
+</script>
 
 ### IT-3: Industrial Alkene Chemistry (with Kinetics and Equilibrium)
 
@@ -342,6 +396,15 @@ added to dilute the ethane (reducing the effective partial pressure) while allow
 moderate total pressures for practical engineering reasons.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Alkanes Alkenes", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-alkanes-alkenes"}]
+}
+</script>
 
 ### Additional Practice Problems
 

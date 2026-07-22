@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
 title: "Chemical Equilibrium -- Diagnostic Tests"
 description: "A-Level Chemistry Chemical Equilibrium -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
 
 
 ## Intuition
@@ -75,6 +93,15 @@ pressure.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
+
 ### UT-2: Effect of Temperature on Equilibrium Constant
 
 **Question:**
@@ -130,6 +157,15 @@ catalyst accelerates both forward and reverse rates by the same factor, so the e
 remains the same.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
 
 ### UT-3: Heterogeneous Equilibrium and Solids
 
@@ -221,6 +257,15 @@ reactor, making the process economically efficient.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
+
 ### IT-2: Equilibrium and Gas Volume Calculations (with Quantitative Chemistry)
 
 **Question:**
@@ -302,6 +347,15 @@ $\to$ 2 mol).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
+
 ### IT-3: Acid Dissociation Equilibrium (with Acids and Bases)
 
 **Question:**
@@ -362,6 +416,15 @@ diluting a weak acid increases the percentage dissociation (from $1.32\%$ to $12
 compensating for the lower concentration. The student's reasoning would only apply to a strong acid.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Equilibrium", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-equilibrium"}]
+}
+</script>
 
 ### Additional Practice Problems
 

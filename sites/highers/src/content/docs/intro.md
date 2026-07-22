@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Intro", "url": "https://highers.wyattau.com/intro"}]
+}
+</script>
 title: Scottish Highers
 date: 2026-04-14
 description: "Scottish Highers and Advanced Highers are the main qualifications taken by students in Scotland, between the ages of 16 and 18. They are administered by the"
@@ -10,6 +19,15 @@ categories:
   - Scottish Qualifications
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Intro", "url": "https://highers.wyattau.com/intro"}]
+}
+</script>
 
 # Scottish Highers and Advanced Highers
 

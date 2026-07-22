@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "15_density Functional Theory Conceptual Overview", "url": "https://physics.wyattau.com/5-quantum-mechanics/15_density-functional-theory-conceptual-overview"}]
+}
+</script>
 title: "Density Functional Theory: Conceptual Overview"
 tags:
   - Physics
   - University
 description: "The ground-state electron density uniquely determines the external potential (up to an additive constant), and hence the full many-body Hamiltonian and all"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "15_density Functional Theory Conceptual Overview", "url": "https://physics.wyattau.com/5-quantum-mechanics/15_density-functional-theory-conceptual-overview"}]
+}
+</script>
 
 ### 14.1 The Hohenberg--Kohn Theorems
 

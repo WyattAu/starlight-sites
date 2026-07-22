@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "16_advanced Semiconductor Physics Continued", "url": "https://physics.wyattau.com/6-solid-state-physics/16_advanced-semiconductor-physics-continued"}]
+}
+</script>
 title: Advanced Semiconductor Physics (Continued)
 tags:
   - Physics
   - University
 description: "When a 2D electron gas (2DEG) is placed in a strong perpendicular magnetic field at low temperature, the Hall resistance shows quantised plateaux:"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "16_advanced Semiconductor Physics Continued", "url": "https://physics.wyattau.com/6-solid-state-physics/16_advanced-semiconductor-physics-continued"}]
+}
+</script>
 
 ### 16.1 Quantum Hall Effect
 

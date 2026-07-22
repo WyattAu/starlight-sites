@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "5 Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems"}, {"name": "3_synchronisation", "url": "https://computer-science.wyattau.com/5-operating-systems/3_synchronisation"}]
+}
+</script>
 title: Synchronisation
 tags:
   - Computing
   - University
 description: 'Consider processes sharing a resource. The is the code segment accessing the Res Comprehensive educational content coverage with definitions and practice proble'
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "5 Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems"}, {"name": "3_synchronisation", "url": "https://computer-science.wyattau.com/5-operating-systems/3_synchronisation"}]
+}
+</script>
 
 ### 3.1 The Critical Section Problem
 

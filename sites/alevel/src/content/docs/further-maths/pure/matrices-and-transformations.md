@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Matrices And Transformations", "url": "https://alevel.wyattau.com/further-maths/pure/matrices-and-transformations"}]
+}
+</script>
 title: Matrices and Transformations (Extended)
 description: "This document covers matrix operations, determinants, inverses, 3x3 matrices, linear Transformations, and an introduction to eigenvalues and eigenvectors."
 date: 2026-04-23T00:00:00.000Z
@@ -6,6 +15,15 @@ tags: [Mathematics, ALevel]
 categories: [Mathematics]
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Matrices And Transformations", "url": "https://alevel.wyattau.com/further-maths/pure/matrices-and-transformations"}]
+}
+</script>
 
 ## Matrices and Transformations (Extended Treatment)
 
@@ -376,6 +394,15 @@ $\phi = \frac{1+\sqrt{5}}{2}$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Matrices And Transformations", "url": "https://alevel.wyattau.com/further-maths/pure/matrices-and-transformations"}]
+}
+</script>
+
 ## 7. Further Proofs and Key Results
 
 ### 7.1 Proof: $\det(AB) = \det(A)\det(B)$ for $2 \times 2$ matrices
@@ -431,6 +458,15 @@ $\blacksquare$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Matrices And Transformations", "url": "https://alevel.wyattau.com/further-maths/pure/matrices-and-transformations"}]
+}
+</script>
+
 ## 8. Common Pitfalls
 
 <aside class="starlight-aside starlight-aside--caution">
@@ -448,6 +484,15 @@ $\blacksquare$
    eigenvectors. Check by attempting to solve $(A - \lambda I)\mathbf{v} = \mathbf{0}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Matrices And Transformations", "url": "https://alevel.wyattau.com/further-maths/pure/matrices-and-transformations"}]
+}
+</script>
 
 ## 9. Additional Exam-Style Questions
 
@@ -744,6 +789,15 @@ Solution: $x = 0$, $y = 1$, $z = 2$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Matrices And Transformations", "url": "https://alevel.wyattau.com/further-maths/pure/matrices-and-transformations"}]
+}
+</script>
+
 ## 11. Connections to Other Topics
 
 ### 11.1 Matrices and complex numbers
@@ -765,6 +819,15 @@ Determine the form of the solution. See
 [Differential Equations](/docs/alevel/further-maths/pure-mathematics/differential-equations).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Matrices And Transformations", "url": "https://alevel.wyattau.com/further-maths/pure/matrices-and-transformations"}]
+}
+</script>
 
 ## 12. Additional Exam-Style Questions
 
@@ -848,6 +911,15 @@ $A = PDP^{-1}$. $\blacksquare$
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Matrices And Transformations", "url": "https://alevel.wyattau.com/further-maths/pure/matrices-and-transformations"}]
+}
+</script>
 
 ## 13. Advanced Worked Examples
 
@@ -939,6 +1011,15 @@ $X = \begin{pmatrix}-5&2\\3&-1\end{pmatrix}\begin{pmatrix}4&7\\7&12\end{pmatrix}
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Matrices And Transformations", "url": "https://alevel.wyattau.com/further-maths/pure/matrices-and-transformations"}]
+}
+</script>
+
 ## 14. Additional Exam-Style Questions
 
 ### Question 11
@@ -998,6 +1079,15 @@ $$R = \begin{pmatrix}-\frac{3}{5}&\frac{4}{5}\\\frac{4}{5}&\frac{3}{5}\end{pmatr
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Matrices And Transformations", "url": "https://alevel.wyattau.com/further-maths/pure/matrices-and-transformations"}]
+}
+</script>
+
 ## 16. Further Advanced Topics
 
 ### 16.1 Orthogonal matrices
@@ -1034,6 +1124,15 @@ If $p(\lambda) = \det(\lambda I - A)$Then $p(A) = O$.
 This can be used to express $A^n$ for large $n$ in terms of lower powers of $A$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Matrices And Transformations", "url": "https://alevel.wyattau.com/further-maths/pure/matrices-and-transformations"}]
+}
+</script>
 
 ## 17. Further Exam-Style Questions
 

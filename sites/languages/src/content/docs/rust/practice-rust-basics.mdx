@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "Practice Rust Basics", "url": "https://languages.wyattau.com/rust/practice-rust-basics"}]
+}
+</script>
 title: Rust Practice (Basics)
 description: "10 auto-graded practice problems covering core Rust concepts from ownership to concurrency. Select an answer, submit, and review the explanation."
 date: 2026-06-04
@@ -7,6 +16,15 @@ tags:
 categories:
   - Rust
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "Practice Rust Basics", "url": "https://languages.wyattau.com/rust/practice-rust-basics"}]
+}
+</script>
 
 import PracticeProblem from "@components/PracticeProblem";
 
@@ -26,6 +44,15 @@ an answer, submit, and review the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "Practice Rust Basics", "url": "https://languages.wyattau.com/rust/practice-rust-basics"}]
+}
+</script>
+
 ### Ownership and Mutability
 
 <PracticeProblem client:only="solid-js" question={`What happens when you assign a String to a new variable and then try to use the original?\n\`let a = String::from("hello"); let b = a; println!("{}", a);\``} options={[ 'Compilation error: value borrowed here after move', 'It prints "hello"', 'It prints "hello" twice', 'Runtime panic', ]} correctAnswer={0} explanation="String is a heap-allocated type that does not implement Copy. Assigning a to b moves ownership of the string data to b, invalidating a. Attempting to use a after the move produces a compile-time error: value borrowed here after move. To use both variables, you could clone the string: let b = a.clone();" difficulty="easy"  />
@@ -35,6 +62,15 @@ an answer, submit, and review the explanation.
 <PracticeProblem client:only="solid-js" question={"What does `Option::None` represent and how do you safely extract a value from Option<T>?&quot; options={[ 'It represents the absence of a value; use pattern matching or combinators like unwrap_or() to safely extract', 'It represents a null pointer; use unwrap() to always get the value', 'It represents an empty string; use as_str() to convert', 'It represents a default value; use .default() to get the inner type', ]} correctAnswer={0} explanation=&quot;Option<T> is an enum with Some(T) (value present) and None (absent). It replaces null references in other languages. Unwrap() will panic on None and should be avoided in production code. Safe extraction methods include pattern matching (if let Some(v) = opt), unwrap_or(default), map/and_then combinators, and the ? operator in functions returning Option."} difficulty="easy"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "Practice Rust Basics", "url": "https://languages.wyattau.com/rust/practice-rust-basics"}]
+}
+</script>
 
 ### Lifetimes and Trait Bounds
 
@@ -46,6 +82,15 @@ an answer, submit, and review the explanation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "Practice Rust Basics", "url": "https://languages.wyattau.com/rust/practice-rust-basics"}]
+}
+</script>
+
 ### Traits and Generics
 
 <PracticeProblem client:only="solid-js" question={"What is the key difference between impl Trait and dyn Trait in function signatures?&quot; options={[ 'impl Trait uses static dispatch (monomorphization, zero overhead); dyn Trait uses dynamic dispatch (vtable, runtime cost)', 'impl Trait only works with structs; dyn Trait only works with enums', 'impl Trait is for trait definitions; dyn Trait is for trait implementations', 'There is no difference -- they are interchangeable syntaxes', ]} correctAnswer={0} explanation=&quot;impl Trait (e.g., fn process(item: impl Display)) causes the compiler to monomorphize the function for each concrete type, producing specialized machine code. This has zero runtime overhead and enables inlining. dyn Trait (e.g., fn process(item: &dyn Display)) uses a fat pointer with a vtable for dynamic dispatch, adding a small indirection cost but allowing heterogeneous collections. Choose impl Trait for performance, dyn Trait for flexibility."} difficulty="medium"  />
@@ -53,6 +98,15 @@ an answer, submit, and review the explanation.
 <PracticeProblem client:only="solid-js" question={"When should you use an associated type versus a generic type parameter in a trait?&quot; options={[ 'Use an associated type when there is exactly one type per implementing type; use a generic when callers choose the type', 'Use an associated type for all traits; generics are only for functions', 'Use a generic when there is one type per implementation; use an associated type for multiple types', 'They are functionally identical -- always prefer generics', ]} correctAnswer={0} explanation=&quot;Associated types (type Item;) allow each implementing type to choose exactly one concrete type. Iterator has type Item because each iterator yields one specific type. You cannot implement Iterator<T> multiple times for the same struct with different Items. Generic parameters (trait Foo<T>) allow callers to specify the type, enabling multiple implementations. Use generics when the caller decides the type, associated types when the implementor decides."} difficulty="medium"  />
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "Practice Rust Basics", "url": "https://languages.wyattau.com/rust/practice-rust-basics"}]
+}
+</script>
 
 ### Concurrency and Unsafe
 

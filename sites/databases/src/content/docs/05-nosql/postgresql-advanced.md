@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "05 Nosql", "url": "https://databases.wyattau.com/05-nosql"}, {"name": "Postgresql Advanced", "url": "https://databases.wyattau.com/05-nosql/postgresql-advanced"}]
+}
+</script>
 title: PostgreSQL Advanced
 description: "PostgreSQL Advanced notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and thorough revision."
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "05 Nosql", "url": "https://databases.wyattau.com/05-nosql"}, {"name": "Postgresql Advanced", "url": "https://databases.wyattau.com/05-nosql/postgresql-advanced"}]
+}
+</script>
 
 ## Extensions Ecosystem
 

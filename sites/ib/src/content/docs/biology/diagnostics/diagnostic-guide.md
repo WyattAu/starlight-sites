@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/biology/diagnostics/diagnostic-guide"}]
+}
+</script>
 title: "IB Biology -- Diagnostic Guide"
 description: "| Diagnostic File | Topics Covered | Source Files | | --------------------------- | -------------------------------------------------------------------------"
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/biology/diagnostics/diagnostic-guide"}]
+}
+</script>
 
 # IB Biology — Diagnostic Guide
 

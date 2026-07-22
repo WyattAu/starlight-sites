@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Energy And Work", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-energy-and-work"}]
+}
+</script>
 title: "Energy and Work -- Diagnostic Tests"
 description: "A-Level Maths Energy and Work -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Energy And Work", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-energy-and-work"}]
+}
+</script>
 
 # Energy and Work — Diagnostic Tests
 
@@ -62,6 +80,15 @@ Correct work against friction $= 529.8$ J.
 $$\text{Percentage error} = \frac{735 - 529.8}{529.8} \times 100\% \approx 38.7\%$$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Energy And Work", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-energy-and-work"}]
+}
+</script>
 
 ### UT-2: Power, Force, and Velocity — The Constant-Power Trap
 
@@ -134,6 +161,15 @@ $$= 800\ln\!\left(\frac{39}{37}\right) + 40 \approx 800(0.05263) + 40 \approx 42
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Energy And Work", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-energy-and-work"}]
+}
+</script>
+
 ### UT-3: Elastic Potential Energy — Maximum Extension of a Spring System
 
 **Question:**
@@ -193,6 +229,15 @@ decelerates. The maximum speed occurs at $x_e$Not at the natural length.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Energy And Work", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-energy-and-work"}]
+}
+</script>
+
 ## Integration Tests
 
 > Tests synthesis of energy and work with other topics. Requires combining concepts from multiple
@@ -250,6 +295,15 @@ Note that the work from $-2$ to $3$ ($15$ J) is less than from $0$ to $3$ ($21$ 
 does negative work in the region $[-5/3, 1]$ through which the particle passes.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Energy And Work", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-energy-and-work"}]
+}
+</script>
 
 ### IT-2: Deriving the Work-Energy Theorem from $F = ma$ (with Proof)
 
@@ -326,6 +380,15 @@ conserved -- some is converted to thermal energy. The work-energy theorem still 
 accounts for the friction work explicitly.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Energy And Work", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-energy-and-work"}]
+}
+</script>
 
 ### IT-3: Energy on an Inclined Plane with Friction (with Kinematics)
 

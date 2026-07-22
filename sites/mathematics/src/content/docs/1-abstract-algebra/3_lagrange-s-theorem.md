@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "3_lagrange S Theorem", "url": "https://mathematics.wyattau.com/1-abstract-algebra/3_lagrange-s-theorem"}]
+}
+</script>
 title: Lagrange's Theorem
 tags:
   - Mathematics
   - University
 description: "description: Lagrange's theorem in abstract algebra."
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "1 Abstract Algebra", "url": "https://mathematics.wyattau.com/1-abstract-algebra"}, {"name": "3_lagrange S Theorem", "url": "https://mathematics.wyattau.com/1-abstract-algebra/3_lagrange-s-theorem"}]
+}
+</script>
 
 ### 3.1 Cosets
 

@@ -1,10 +1,28 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "4 Databases", "url": "https://computer-science.wyattau.com/4-databases"}, {"name": "3_sql", "url": "https://computer-science.wyattau.com/4-databases/3_sql"}]
+}
+</script>
 title: SQL
 tags:
   - Computing
   - University
 description: "CREATE TABLE Student ( ID INT PRIMARY KEY, Name VARCHAR(100) NOT NULL, Email VARCHAR(255) UNIQUE, GPA DECIMAL(3,2) CHECK (GPA >= 0.0 AND GPA <= 4.0), Dept"
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "4 Databases", "url": "https://computer-science.wyattau.com/4-databases"}, {"name": "3_sql", "url": "https://computer-science.wyattau.com/4-databases/3_sql"}]
+}
+</script>
 
 ### 3.1 Data Definition Language (DDL)
 

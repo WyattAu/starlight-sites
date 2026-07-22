@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 title: Biology - Cell Biology and Biochemistry
 description: "1. All living organisms are composed of one or more cells 2. The cell is the basic unit of structure and function in all living organisms 3. All cells arise"
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 
 ## Cell Structure
 
@@ -37,6 +55,15 @@ description: "1. All living organisms are composed of one or more cells 2. The c
 | Stored carbohydrate   | Starch              | Glycogen                  |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 
 ## Cell Organelles
 
@@ -147,6 +174,15 @@ Through , while large or charged molecules require transport proteins.
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## Membrane Transport
 
 ### Passive Transport (No Energy Required)
@@ -221,6 +257,15 @@ Vesicles fuse with the cell membrane to release contents outside the cell (e.g.,
 Hormones, neurotransmitters).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 
 ## Biological Molecules
 
@@ -332,6 +377,15 @@ Lipids are organic molecules that are insoluble in water but soluble in organic 
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## Enzymes
 
 ### Definition
@@ -421,6 +475,15 @@ This is consistent with $Q_{10} \approx 2$ (since $2^2 = 4$).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## Cellular Respiration
 
 ### Glycolysis (Cytoplasm)
@@ -467,6 +530,15 @@ Glycolysis into the mitochondria. Many textbooks now quote approximately 30-32 A
 </aside>
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## Photosynthesis
 
 ### Light-Dependent Reactions (Thylakoid Membrane)
@@ -501,6 +573,15 @@ Takes 6 $\mathrm{CO}_2$ molecules to produce 1 molecule of glucose (6C).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## Intuition
 
 **Life's building blocks:** Cells are like factories — the nucleus is the management office, mitochondria are power plants, and ribosomes are assembly lines. Biochemical tests identify which molecules are present.
@@ -522,6 +603,15 @@ Takes 6 $\mathrm{CO}_2$ molecules to produce 1 molecule of glucose (6C).
 | Photosynthesis          | Light-dependent, Calvin cycle                     | Chloroplasts  |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 
 ## Exam Tips
 
@@ -596,6 +686,15 @@ Glucose. In animals, it produces lactate; in yeast, it produces ethanol and $\ma
 </details>
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 
 ## Cell Division
 
@@ -673,6 +772,15 @@ With half the number of chromosomes of the parent cell. It is essential for sexu
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## The Cell Cycle
 
 The cell cycle describes the sequence of events from one cell division to the next.
@@ -714,6 +822,15 @@ Cancer is a disease caused by uncontrolled cell division, resulting in the forma
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## DNA Replication
 
 ### Semi-Conservative Replication
@@ -739,6 +856,15 @@ nucleotide is added, it is removed and Replaced. This gives an error rate of app
 $10^9$ base pairs.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 
 ## Protein Synthesis
 
@@ -779,6 +905,15 @@ Translation is the process of synthesising a polypeptide chain from the mRNA tem
 - The genetic code is **non-overlapping**: each base is part of only one codon
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 
 ## Additional Practice Questions
 
@@ -842,6 +977,15 @@ Chromosomes).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## Homeostasis and Cell Communication
 
 ### Cell Signalling
@@ -885,6 +1029,15 @@ Second messenger molecules, each of which can activate many enzyme molecules, cr
 Response from a small stimulus.
 </aside>
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 
 ## Immune System
 
@@ -962,6 +1115,15 @@ Destroying the pathogen before symptoms develop. This provides active artificial
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## Additional Topics
 
 ### Stem Cells
@@ -1029,6 +1191,15 @@ $$\Psi_s = -(2)(0.2)(8.314)(293) = -974.4 \mathrm{ kPa}$$
 $\Psi = -974.0 \mathrm{ kPa}$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 
 ## Problem Set
 
@@ -1246,6 +1417,15 @@ features collectively maximise the rate of ATP production through oxidative phos
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## Cellular Respiration in Detail
 
 ### Glycolysis (Detailed)
@@ -1336,6 +1516,15 @@ $$\text{Ethanal} + \mathrm{NADH} \xrightarrow{\text{alcohol dehydrogenase}} \tex
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## Cancer Biology
 
 ### What is Cancer?
@@ -1424,6 +1613,15 @@ into lung epithelial cells.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## Additional Problem Set
 
 **Problem 11:** Compare aerobic and anaerobic respiration in terms of location, substrates,
@@ -1484,7 +1682,25 @@ accumulate further mutations, leading to malignant tumour formation.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 
 ## Membrane Transport in Detail
 
@@ -1578,6 +1794,15 @@ membrane-bound vesicles.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## Protein Synthesis in Detail
 
 ### Transcription
@@ -1638,6 +1863,15 @@ See for instructions on
 self-marking and building a personal test matrix.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 
 ## Cell Division in Detail
 
@@ -1716,6 +1950,15 @@ The cell cycle is controlled by **cyclins** and **cyclin-dependent kinases (CDKs
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## Stem Cells
 
 ### Types of Stem Cells
@@ -1749,6 +1992,15 @@ The cell cycle is controlled by **cyclins** and **cyclin-dependent kinases (CDKs
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## Common Pitfalls
 
 - **Chromosomes and chromatids are different.** Before DNA replication: each chromosome consists of
@@ -1764,6 +2016,15 @@ The cell cycle is controlled by **cyclins** and **cyclin-dependent kinases (CDKs
   different haploid daughter cells.** This is the fundamental distinction
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 
 ## Biological Molecules in Detail
 
@@ -1844,6 +2105,15 @@ glycogenolysis when glucose is needed.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
+
 ## Enzymes in Detail
 
 ### Lock-and-Key vs Induced-Fit Model
@@ -1871,6 +2141,15 @@ glycogenolysis when glucose is needed.
 | Non-competitive | Inhibitor binds to a site other than the active site (allosteric site), causing a conformational change that alters the active site | Vmax decreased (inhibitor cannot be overcome)           | K$_m$ unchanged (substrate affinity is not affected, but maximum rate is reduced) | reversible                                             |
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://dse.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology And Biochemistry", "url": "https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry"}]
+}
+</script>
 
 ## Common Pitfalls
 

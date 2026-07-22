@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Redox", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-redox"}]
+}
+</script>
 title: "Redox Reactions -- Diagnostic Tests"
 description: "IB Chemistry Redox Reactions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Redox", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-redox"}]
+}
+</script>
 
 # Redox Reactions — Diagnostic Tests
 
@@ -46,6 +64,15 @@ exception to the usual $-2$).
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Redox", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-redox"}]
+}
+</script>
+
 ### UT-2: Balancing Redox Equations in Acidic Solution
 
 **Question:** Balance the following redox equation in acidic solution:
@@ -87,6 +114,15 @@ $\text{MnO}_4^- + 8\text{H}^+ + 5\text{Fe}^{2+} \to \text{Mn}^{2+} + 5\text{Fe}^
 Check: left charge $= -1 + 8 + 10 = +17$Right charge $= +2 + 15 = +17$. Balanced.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Redox", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-redox"}]
+}
+</script>
 
 ### UT-3: Electrochemical Cell EMF
 
@@ -150,6 +186,15 @@ large -- the reaction is still overwhelmingly product-favoured.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Redox", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-redox"}]
+}
+</script>
+
 ### IT-2: Redox Titration and Stoichiometry (with Measurement and Data Processing)
 
 **Question:** A $25.0\ \text{cm}^3$ sample of hydrogen peroxide solution was acidified and titrated
@@ -181,6 +226,15 @@ $n(\text{O}_2) = \frac{5}{5} \times 5.690 \times 10^{-3} = 5.690 \times 10^{-3}\
 $V(\text{O}_2) = nRT/P = \frac{5.690 \times 10^{-3} \times 8.314 \times 273.15}{101325} = \frac{12.93}{101325} = 1.28 \times 10^{-4}\ \text{m}^3 = 0.128\ \text{dm}^3 = 128\ \text{cm}^3$
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Redox", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-redox"}]
+}
+</script>
 
 ### IT-3: Corrosion and Electrochemistry (with Periodicity)
 

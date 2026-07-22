@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Differentiation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-differentiation"}]
+}
+</script>
 title: "Differentiation -- Diagnostic Tests"
 description: "A-Level Maths Differentiation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Differentiation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-differentiation"}]
+}
+</script>
 
 
 ## Intuition
@@ -74,6 +92,15 @@ $$\frac{d^2y}{dx^2}\bigg\rvert_{x=0} = 9\sin 2 + 18\cos 2$$
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Differentiation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-differentiation"}]
+}
+</script>
+
 ### UT-2: Implicit Differentiation and the Product Rule Trap
 
 **Question:**
@@ -136,6 +163,15 @@ $(-2, 4)$, $\frac{dy}{dx} = -\frac{-4+4}{-2+8} = 0$. Confirmed.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Differentiation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-differentiation"}]
+}
+</script>
+
 ### UT-3: Second Derivative Notation and Classification
 
 **Question:**
@@ -197,6 +233,15 @@ This is immediately obvious because $(x-1)^4 \geq 0$ for all $x$With equality on
 $(1, 0)$ is a global (and local) minimum.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Differentiation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-differentiation"}]
+}
+</script>
 
 ## Integration Tests
 
@@ -265,6 +310,15 @@ $x = 0.7921 \approx 3.0000$. So $g^{-1}(3) \approx 0.792$.
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Differentiation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-differentiation"}]
+}
+</script>
+
 ### IT-2: Tangent Touching Another Curve (with Coordinate Geometry)
 
 **Question:**
@@ -324,6 +378,15 @@ insight: recognising when a geometric claim is false requires careful algebraic 
 require a common tangent to be perpendicular to it).
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Differentiation", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-differentiation"}]
+}
+</script>
 
 ### IT-3: Maximum and Inflection of $y = xe^{-x}$ (with Exponentials)
 

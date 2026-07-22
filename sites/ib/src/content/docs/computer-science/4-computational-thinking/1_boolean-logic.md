@@ -1,4 +1,13 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "1_boolean Logic", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic"}]
+}
+</script>
 title: Boolean Logic
 description: "Rigorous IB computer science notes covering Boolean Logic. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
@@ -7,6 +16,15 @@ tags:
 categories:
   - ib
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "1_boolean Logic", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic"}]
+}
+</script>
 
 ## Intuition
 
@@ -989,6 +1007,15 @@ If you get this wrong, revise: [Basic Operators](#basic-operators)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "1_boolean Logic", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic"}]
+}
+</script>
+
 **Problem 2:** Apply De Morgan's Laws to simplify $\overline{A \cdot (B + C)}$.
 
 <details>
@@ -1016,6 +1043,15 @@ If you get this wrong, revise: [De Morgan's Laws](#de-morgans-laws)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "1_boolean Logic", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic"}]
+}
+</script>
+
 **Problem 3:** Simplify $F = A + A \cdot B + A \cdot B \cdot C + A \cdot B \cdot C \cdot D$ using
 Boolean algebra identities.
 
@@ -1042,6 +1078,15 @@ Just $A$.
 If you get this wrong, revise: [Boolean Identities](#boolean-identities-and-laws)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "1_boolean Logic", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic"}]
+}
+</script>
 
 **Problem 4:** Minimize $F(A, B, C) = \sum(2, 3, 5, 6, 7)$ using a 3-variable K-map.
 
@@ -1102,6 +1147,15 @@ If you get this wrong, revise: [3-Variable K-Maps](#3-variable-k-map)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "1_boolean Logic", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic"}]
+}
+</script>
+
 **Problem 5:** Convert the following truth table to both SOP and POS form:
 
 | `A` | `B` | `F` |
@@ -1138,6 +1192,15 @@ If you get this wrong, revise:
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "1_boolean Logic", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic"}]
+}
+</script>
+
 **Problem 6:** A 4-variable K-map has 1s at positions $m_0, m_2, m_8, m_{10}$. All other positions
 are 0. What is the minimized expression?
 
@@ -1166,6 +1229,15 @@ This is the classic "four corners" grouping. The expression requires only 2 NOT 
 If you get this wrong, revise: [4-Variable K-Maps](#4-variable-k-map)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "1_boolean Logic", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic"}]
+}
+</script>
 
 **Problem 7:** Using only NAND gates, implement the NOT function, the AND function, and the OR
 Function. Show the gate connections.
@@ -1200,6 +1272,15 @@ If you get this wrong, revise: [NAND as Universal Gate](#nand-as-a-universal-gat
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "1_boolean Logic", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic"}]
+}
+</script>
+
 **Problem 8:** For the majority voting circuit $F = AB + AC + BC$Determine the output when: (a) A=1,
 B=1, C=0 (b) A=0, B=1, C=1 (c) A=0, B=0, C=1
 
@@ -1219,6 +1300,15 @@ The output is 1 whenever at least two inputs are 1.
 If you get this wrong, revise: [Boolean Algebra Fundamentals](#boolean-algebra-fundamentals)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "1_boolean Logic", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic"}]
+}
+</script>
 
 **Problem 9:** A student writes:
 $\overline{A + B \cdot C} = \overline{A} + \overline{B} \cdot \overline{C}$. Is this correct? If
@@ -1247,6 +1337,15 @@ If you get this wrong, revise: [De Morgan's Laws](#de-morgans-laws) and
 [Common Pitfalls](#common-pitfalls)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "1_boolean Logic", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic"}]
+}
+</script>
 
 **Problem 10:** Explain why the consensus theorem allows the term $B \cdot C$ to be removed from
 $A \cdot B + \overline{A} \cdot C + B \cdot C$. Verify by checking all 8 input combinations.
@@ -1281,6 +1380,15 @@ If you get this wrong, revise: [Consensus Theorem](#consensus-theorem)
 
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "1_boolean Logic", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic"}]
+}
+</script>
+
 **Problem 11:** Design a half subtractor. It has inputs A (minuend) and B (subtrahend), and outputs
 Diff (difference) and Borrow. Construct the truth table, derive Boolean expressions, and identify
 the Gates needed.
@@ -1313,6 +1421,15 @@ the Gates needed.
 If you get this wrong, revise: [Half Adder](#half-adder)
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "1_boolean Logic", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic"}]
+}
+</script>
 
 **Problem 12:** Given $F(A, B, C) = \sum(0, 2, 4, 6, 7)$Use a K-map to find the minimal SOP
 Expression.

@@ -1,8 +1,26 @@
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Vectors 3d", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-vectors-3d"}]
+}
+</script>
 title: "Vectors in 3D -- Diagnostic Tests"
 description: "A-Level Further Maths Vectors in 3D -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Vectors 3d", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-vectors-3d"}]
+}
+</script>
 
 
 ## Intuition
@@ -80,6 +98,15 @@ $\mathbf{a} \times \mathbf{b} = \begin{pmatrix} 0(-1) - (-1)(2) \\ (-1)(1) - 3(1
 $|\mathbf{a} \times \mathbf{b}| = \sqrt{4 + 16 + 36} = \sqrt{56} = 2\sqrt{14}$.
 
 ---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Vectors 3d", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-vectors-3d"}]
+}
+</script>
 
 ## Integration Tests
 
