@@ -1,0 +1,82 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Cosmological Parameters Cheat Sheet | Free H₀, Ω_m, Ω_Λ, w"
+  description="Complete cosmological parameters cheat sheet with H₀, Ω_m, Ω_Λ, and w. Free download for physics students."
+>
+  <section class="hero">
+    <h1>Cosmological Parameters<br><span>Cheat Sheet</span></h1>
+    <p>H₀, Ω_m, Ω_Λ, and w. The numbers that define our universe.</p>
+  </section>
+
+  <section>
+    <h2>Hubble Constant</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>H₀</h3>
+        <pre><code>H₀ = 70 km/s/Mpc = 2.27 × 10⁻¹⁸ s⁻¹
+1/H₀ ≈ 14 Gyr (Hubble time)
+Hubble sphere: d = c/H₀ ≈ 4300 Mpc
+Age of universe: t₀ ≈ 0.96/H₀ (for ΛCDM)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Density Parameters</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Ω Parameters</h3>
+        <pre><code>Ω_total = Ω_m + Ω_Λ + Ω_r + Ω_k
+Ω_m: matter (dark + ordinary) ≈ 0.32
+Ω_Λ: dark energy ≈ 0.68
+Ω_r: radiation ≈ 9 × 10⁻⁵
+Ω_k: curvature ≈ 0 (flat universe)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Critical Density</h3>
+        <pre><code>ρ_crit = 3H₀²/(8πG) ≈ 9.47 × 10⁻²⁷ kg/m³
+Ω = ρ/ρ_crit
+Flat: Ω = 1
+Open: Ω < 1
+Closed: Ω > 1</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Dark Energy</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Equation of State</h3>
+        <pre><code>w = P/ρ
+w = -1: cosmological constant
+w < -1: phantom energy
+w > -1: quintessence
+Observation: w = -1.03 ± 0.03</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Primordial Fluctuations</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Power Spectrum</h3>
+        <pre><code>P(k) ∝ k^n_s (nearly scale-invariant)
+n_s: scalar spectral index ≈ 0.965
+A_s: amplitude of fluctuations ≈ 2.1 × 10⁻⁹
+r: tensor-to-scalar ratio < 0.1
+f_ν: neutrino fraction < 0.05</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
