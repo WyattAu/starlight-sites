@@ -1,0 +1,90 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Physical Chemistry Formulas | Free Thermochemistry & Kinetics"
+  description="Complete physical chemistry formulas with thermochemistry and kinetics. Free download for chemistry students."
+>
+  <section class="hero">
+    <h1>Physical Chemistry<br><span>Formulas</span></h1>
+    <p>Thermochemistry and kinetics. From enthalpy to rate laws.</p>
+  </section>
+
+  <section>
+    <h2>Thermochemistry</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Enthalpy</h3>
+        <pre><code>ΔH = H_products - H_reactants
+q = mcΔT
+ΔH = ΣΔH_f(products) - ΣΔH_f(reactants)
+ΔH = Σ bond energy(reactants) - Σ bond energy(products)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Hess's Law</h3>
+        <pre><code>ΔH_total = ΣΔH_steps
+ΔH is independent of path
+Only depends on initial and final states</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Entropy & Gibbs Free Energy</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Entropy</h3>
+        <pre><code>ΔS = S_products - S_reactants
+ΔS > 0: increase in disorder
+ΔS < 0: decrease in disorder</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Gibbs Free Energy</h3>
+        <pre><code>ΔG = ΔH - TΔS
+ΔG < 0: spontaneous
+ΔG = 0: equilibrium
+ΔG > 0: non-spontaneous
+ΔG° = -RT ln(K)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kinetics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Rate Laws</h3>
+        <pre><code>Rate = k[A]^m[B]^n
+Zero order: [A] = [A]₀ - kt
+First order: ln[A] = ln[A]₀ - kt
+Second order: 1/[A] = 1/[A]₀ + kt</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Arrhenius Equation</h3>
+        <pre><code>k = Ae^(-Ea/RT)
+ln(k₂/k₁) = -Ea/R (1/T₂ - 1/T₁)
+t₁/₂ = ln(2)/k (first order)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Equilibrium</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Equilibrium Constants</h3>
+        <pre><code>Kc = [products]/[reactants]
+Kp = Kc(RT)^Δn
+ΔG° = -RT ln(K)
+Kw = [H⁺][OH⁻] = 1.0 × 10⁻¹⁴</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
