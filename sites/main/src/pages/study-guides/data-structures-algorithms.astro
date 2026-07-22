@@ -1,0 +1,97 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Data Structures & Algorithms Cheat Sheet | Free Complexity, Trees, Graphs"
+  description="Complete data structures and algorithms cheat sheet with complexity analysis, trees, graphs, and common patterns. Free download for CS students."
+>
+  <section class="hero">
+    <h1>Data Structures<br><span>& Algorithms</span></h1>
+    <p>Complexity analysis, trees, graphs, and common patterns. From basics to advanced.</p>
+  </section>
+
+  <section>
+    <h2>Time Complexity</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Common Complexities</h3>
+        <table>
+          <tr><th>Complexity</th><th>Name</th><th>Example</th></tr>
+          <tr><td>O(1)</td><td>Constant</td><td>Array access</td></tr>
+          <tr><td>O(log n)</td><td>Logarithmic</td><td>Binary search</td></tr>
+          <tr><td>O(n)</td><td>Linear</td><td>Array traversal</td></tr>
+          <tr><td>O(n log n)</td><td>Linearithmic</td><td>Merge sort</td></tr>
+          <tr><td>O(n²)</td><td>Quadratic</td><td>Bubble sort</td></tr>
+          <tr><td>O(2ⁿ)</td><td>Exponential</td><td>Recursive Fibonacci</td></tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Data Structures</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Array</h3>
+        <pre><code>Access:     O(1)
+Search:     O(n)
+Insert:     O(n)
+Delete:     O(n)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Linked List</h3>
+        <pre><code>Access:     O(n)
+Search:     O(n)
+Insert:     O(1)
+Delete:     O(1)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Hash Table</h3>
+        <pre><code>Access:     O(1) avg
+Search:     O(1) avg
+Insert:     O(1) avg
+Delete:     O(1) avg</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Trees</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Binary Search Tree</h3>
+        <pre><code>Search:     O(log n) avg
+Insert:     O(log n) avg
+Delete:     O(log n) avg</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Heap</h3>
+        <pre><code>Find min:   O(1)
+Insert:     O(log n)
+Delete min: O(log n)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Sorting Algorithms</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Comparison Sorts</h3>
+        <table>
+          <tr><th>Algorithm</th><th>Best</th><th>Average</th><th>Worst</th></tr>
+          <tr><td>Bubble Sort</td><td>O(n)</td><td>O(n²)</td><td>O(n²)</td></tr>
+          <tr><td>Merge Sort</td><td>O(n log n)</td><td>O(n log n)</td><td>O(n log n)</td></tr>
+          <tr><td>Quick Sort</td><td>O(n log n)</td><td>O(n log n)</td><td>O(n²)</td></tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
