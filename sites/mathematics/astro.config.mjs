@@ -20,7 +20,7 @@ export default defineConfig({
       pagefind: false,
       expressiveCode: { themes: ['dracula', 'github-light'] },
       description:
-        'Proof-based undergraduate mathematics covering algebra, analysis, geometry, and more.',
+        'Free mathematics study notes and revision guide with worked examples covering algebra, analysis, geometry, and more.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -119,8 +119,7 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'Mathematics',
-            description:
-              'Proof-based undergraduate mathematics covering algebra, analysis, geometry, and more.',
+            description: 'Free mathematics study notes and revision guide with worked examples',
             url: 'https://mathematics.wyattau.com',
             publisher: {
               '@type': 'Organization',

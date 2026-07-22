@@ -156,3 +156,4 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 - **[AP Calculus](/ap/calculus):** Physics C requires calculus — derivatives for instantaneous rates, integrals for work and accumulation.
 - **[AP Chemistry](/ap/chemistry):** Thermodynamics and atomic structure appear in both physics and chemistry.
 - **[AP Biology](/ap/biology):** Biophysics applications include fluid dynamics, optics, and biomechanics.
+- **[Computer Science — Algorithms and Data Structures](https://computer-science.wyattau.com/algorithms-and-data-structures):** Computational physics uses numerical algorithms (Euler method, Runge-Kutta) to solve differential equations that model physical systems.

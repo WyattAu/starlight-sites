@@ -937,3 +937,4 @@ Conservation: $L_f = L_i$$I_f\omega_f = 2.4$$\omega_f = 2.4/0.33 = 7.27 \mathrm{
 - [Newton's Laws](../2-newtons-laws/2_newtons-laws) -- Rotational dynamics extends Newton's second law to torque and angular acceleration.
 - [Work, Energy, and Power](../3-work-energy-power/3_work-energy-power) -- Rotational kinetic energy and rotational work parallel the translational concepts.
 - [Momentum and Impulse](../4-momentum-and-impulse/4_momentum-and-impulse) -- Angular momentum conservation connects rotational motion to the conservation principles.
+- **[AP Calculus — Integrals](../maths/3-integrals/3_integrals):** Moment of inertia and rotational work are computed via integrals over continuous mass distributions, applying integration to rotational systems.

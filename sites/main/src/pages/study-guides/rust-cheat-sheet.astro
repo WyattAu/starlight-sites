@@ -1,0 +1,142 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Rust Cheat Sheet | Free Ownership, Borrowing & Syntax Reference"
+  description="Complete Rust cheat sheet with ownership, borrowing, lifetimes, traits, and common patterns. Free reference for Rust developers."
+>
+  <section class="hero">
+    <h1>Rust<br><span>Cheat Sheet</span></h1>
+    <p>Ownership, borrowing, lifetimes, traits, and common patterns. From basics to advanced Rust.</p>
+  </section>
+
+  <section>
+    <h2>Variables & Mutability</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Basic Types</h3>
+        <pre><code>let x: i32 = 42;
+let y: f64 = 3.14;
+let s: &str = "hello";
+let b: bool = true;
+let c: char = 'A';</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Mutability</h3>
+        <pre><code>let x = 5;          // immutable
+let mut y = 5;      // mutable
+y = 10;             // OK
+
+let x = "shadowed"; // shadowing
+let x: i32 = 42;</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Ownership & Borrowing</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Ownership Rules</h3>
+        <pre><code>// Each value has one owner
+let s1 = String::from("hello");
+let s2 = s1;           // s1 moved to s2
+// println!("{}", s1); // ERROR: s1 is gone
+
+// Clone for deep copy
+let s3 = s2.clone();</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Borrowing</h3>
+        <pre><code>// Immutable borrow
+fn greet(name: &amp;str) {
+    println!("Hello, {name}");
+}
+
+// Mutable borrow
+fn push(s: &amp;mut String) {
+    s.push_str(" world");
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Structs & Enums</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Structs</h3>
+        <pre><code>struct User {
+    name: String,
+    age: u32,
+}
+
+let user = User {
+    name: String::from("Alice"),
+    age: 30,
+};</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Enums &amp; Pattern Matching</h3>
+        <pre><code>enum Shape {
+    Circle(f64),
+    Square(f64),
+}
+
+match shape {
+    Shape::Circle(r) => pi * r * r,
+    Shape::Square(s) => s * s,
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Error Handling</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Option &amp; Result</h3>
+        <pre><code>// Option: value or nothing
+let maybe: Option&lt;i32&gt; = Some(42);
+let none: Option&lt;i32&gt; = None;
+
+// Result: success or error
+let res: Result&lt;i32, Error&gt;
+    = Ok(42);</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Unwrapping</h3>
+        <pre><code>let val = maybe.unwrap();
+let val = maybe.unwrap_or(0);
+let val = maybe.unwrap_or_else(|| {
+    expensive_default()
+});</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Common Traits</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Trait Definitions</h3>
+        <pre><code>trait Summary {
+    fn summarize(&amp;self) -> String;
+}
+
+impl Summary for Article {
+    fn summarize(&amp;self) -> String {
+        format!("{}...", &amp;self.title)
+    }
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>

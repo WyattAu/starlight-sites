@@ -494,3 +494,4 @@ linked above.
 - **[Electrostatics](../6-electrostatics/6_electrostatics):** Understanding electric fields and potential is essential for circuit analysis.
 - **[Work, Energy, and Power](../3-work-energy-power/3_work-energy-power):** Electrical power and energy dissipation in resistors follow the same power formulas.
 - **[Magnetism](../8-magnetism/8_magnetism):** Changing currents create magnetic fields — the bridge between circuits and magnetism.
+- **[AP Calculus — Differential Equations](../maths/4-differential-equations/4_differential-equations):** RC and LR circuits are governed by first-order differential equations; charging and discharging capacitors follow exponential solutions derived from calculus.

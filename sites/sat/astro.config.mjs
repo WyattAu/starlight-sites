@@ -19,7 +19,8 @@ export default defineConfig({
       title: 'SAT',
       pagefind: false,
       expressiveCode: { themes: ['dracula', 'github-light'] },
-      description: 'SAT revision notes covering Mathematics, Reading and Writing, and Science.',
+      description:
+        'Free SAT study notes, revision guide, and exam preparation with worked examples for Mathematics, Reading and Writing, and Science.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -114,7 +115,7 @@ export default defineConfig({
             '@type': 'WebSite',
             name: 'SAT',
             description:
-              'SAT revision notes covering Mathematics, Reading and Writing, and Science.',
+              'Free SAT study notes, revision guide, and exam preparation with worked examples',
             url: 'https://sat.wyattau.com',
             publisher: {
               '@type': 'Organization',

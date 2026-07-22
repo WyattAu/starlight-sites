@@ -746,3 +746,4 @@ linked above.
 - **[Electrostatics](../6-electrostatics/6_electrostatics):** Electric charges produce electric fields; moving charges produce magnetic fields.
 - **[Circuits](../7-circuits/7_circuits):** Inductors store energy in magnetic fields; changing magnetic flux induces EMF in circuits.
 - **[Work, Energy, and Power](../3-work-energy-power/3_work-energy-power):** Magnetic forces do no work on individual charges but can transfer energy between circuit elements.
+- **[AP Calculus — Integrals](../maths/3-integrals/3_integrals):** Magnetic flux is computed as a surface integral of the magnetic field, and Faraday's law involves differentiating the flux integral — connecting magnetism to both integration and differentiation.

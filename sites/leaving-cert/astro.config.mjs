@@ -20,7 +20,7 @@ export default defineConfig({
       pagefind: false,
       expressiveCode: { themes: ['dracula', 'github-light'] },
       description:
-        'Irish Leaving Certificate revision notes covering Biology, Chemistry, Physics, Maths, and Computer Science.',
+        'Free Irish Leaving Certificate study notes, revision guide, and exam preparation with worked examples for Biology, Chemistry, Physics, Maths, and Computer Science.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -90,7 +90,7 @@ export default defineConfig({
             '@type': 'WebSite',
             name: 'Leaving Cert',
             description:
-              'Irish Leaving Certificate revision notes covering Biology, Chemistry, Physics, Maths, and Computer Science.',
+              'Free Irish Leaving Certificate study notes, revision guide, and exam preparation with worked examples',
             url: 'https://leaving-cert.wyattau.com',
             publisher: {
               '@type': 'Organization',

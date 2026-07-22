@@ -19,7 +19,8 @@ export default defineConfig({
       title: 'Gaokao',
       pagefind: false,
       expressiveCode: { themes: ['dracula', 'github-light'] },
-      description: 'Gaokao (China) revision notes covering Mathematics.',
+      description:
+        'Free Gaokao study notes, revision guide, and exam preparation with worked examples',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -133,7 +134,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'Gaokao',
-            description: 'Gaokao (China) revision notes covering Mathematics.',
+            description:
+              'Free Gaokao study notes, revision guide, and exam preparation with worked examples for China Mathematics, Physics, and Chemistry.',
             url: 'https://gaokao.wyattau.com',
             publisher: {
               '@type': 'Organization',

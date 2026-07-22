@@ -2310,6 +2310,7 @@ $\blacksquare$
 | Discrete Mathematics     | WyattsNotes | [View](/docs/university/computing/discrete-mathematics)                         |
 | Theory of Computation    | WyattsNotes | [View](/docs/university/computing/theory-of-computation)                        |
 | Algorithms — MIT 6.006   | MIT OCW     | [View](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/) |
+| AP Calculus              | AP          | [View](/ap/maths/)                                                             |
 
 ## Intuition
 

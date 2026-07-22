@@ -18,9 +18,9 @@ export default defineConfig({
     starlight({
       title: 'DSE',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description:
-        'Hong Kong DSE revision notes with worked examples and practice problems for Mathematics, Physics, Chemistry, Biology, and ICT.',
+        'Free DSE study notes, revision guide, and exam preparation with worked examples for Hong Kong Diploma of Secondary Education Mathematics, Physics, Chemistry, Biology, and ICT.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -68,7 +68,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'DSE',
-            description: 'Hong Kong DSE revision',
+            description:
+              'Free DSE study notes, revision guide, and exam preparation with worked examples',
             url: 'https://dse.wyattau.com',
             publisher: {
               '@type': 'Organization',

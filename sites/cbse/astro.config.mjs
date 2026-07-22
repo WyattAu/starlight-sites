@@ -19,7 +19,8 @@ export default defineConfig({
       title: 'CBSE',
       pagefind: false,
       expressiveCode: { themes: ['dracula', 'github-light'] },
-      description: 'CBSE (India) revision notes covering Chemistry, Physics, and Mathematics.',
+      description:
+        'Free CBSE study notes, revision guide, and exam preparation with worked examples for Chemistry, Physics, and Mathematics.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -114,7 +115,7 @@ export default defineConfig({
             '@type': 'WebSite',
             name: 'CBSE',
             description:
-              'CBSE (India) revision notes covering Chemistry, Physics, and Mathematics.',
+              'Free CBSE study notes, revision guide, and exam preparation with worked examples',
             url: 'https://cbse.wyattau.com',
             publisher: {
               '@type': 'Organization',

@@ -20,7 +20,7 @@ export default defineConfig({
       pagefind: false,
       expressiveCode: { themes: ['dracula', 'github-light'] },
       description:
-        'Undergraduate chemistry notes covering physical, organic, and inorganic chemistry.',
+        'Free chemistry study notes and revision guide with worked examples covering physical, organic, and inorganic chemistry.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -97,8 +97,7 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'Chemistry',
-            description:
-              'Undergraduate chemistry notes covering physical, organic, and inorganic chemistry.',
+            description: 'Free chemistry study notes and revision guide with worked examples',
             url: 'https://chemistry.wyattau.com',
             publisher: {
               '@type': 'Organization',

@@ -19,7 +19,8 @@ export default defineConfig({
       title: 'HSC',
       pagefind: false,
       expressiveCode: { themes: ['dracula', 'github-light'] },
-      description: 'HSC (Australia) revision notes covering Physics.',
+      description:
+        'Free HSC study notes, revision guide, and exam preparation with worked examples',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -123,7 +124,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'HSC',
-            description: 'HSC (Australia) revision notes covering Physics.',
+            description:
+              'Free HSC study notes, revision guide, and exam preparation with worked examples for Australia Higher School Certificate Mathematics, Physics, and Chemistry.',
             url: 'https://hsc.wyattau.com',
             publisher: {
               '@type': 'Organization',

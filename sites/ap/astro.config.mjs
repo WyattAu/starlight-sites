@@ -20,7 +20,7 @@ export default defineConfig({
       pagefind: false,
       expressiveCode: { themes: ['dracula', 'github-light'] },
       description:
-        'Advanced Placement revision notes covering Calculus, Physics, Chemistry, Biology, and more.',
+        'Free AP study notes, revision guide, and exam preparation with worked examples for Advanced Placement Calculus, Physics, Chemistry, Biology, and more.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -93,7 +93,7 @@ export default defineConfig({
             '@type': 'WebSite',
             name: 'AP',
             description:
-              'Advanced Placement revision notes covering Calculus, Physics, Chemistry, Biology, and more.',
+              'Free AP study notes, revision guide, and exam preparation with worked examples',
             url: 'https://ap.wyattau.com',
             publisher: {
               '@type': 'Organization',

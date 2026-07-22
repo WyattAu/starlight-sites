@@ -20,7 +20,7 @@ export default defineConfig({
       pagefind: false,
       expressiveCode: { themes: ['dracula', 'github-light'] },
       description:
-        'Undergraduate physics covering classical mechanics, electromagnetism, quantum mechanics, and more.',
+        'Free physics study notes and revision guide with worked examples covering classical mechanics, electromagnetism, quantum mechanics, and more.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -110,8 +110,7 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'Physics',
-            description:
-              'Undergraduate physics covering classical mechanics, electromagnetism, quantum mechanics, and more.',
+            description: 'Free physics study notes and revision guide with worked examples',
             url: 'https://physics.wyattau.com',
             publisher: {
               '@type': 'Organization',

@@ -24,9 +24,9 @@ export default defineConfig({
     starlight({
       title: 'IB',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description:
-        'International Baccalaureate Diploma Programme notes aligned to the IB curriculum framework for Mathematics, Sciences, and Humanities.',
+        'Free IB study notes, revision guide, and exam preparation with worked examples for International Baccalaureate Mathematics, Sciences, and Humanities.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -100,7 +100,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'IB',
-            description: 'International Baccalaureate',
+            description:
+              'Free IB study notes, revision guide, and exam preparation with worked examples',
             url: 'https://ib.wyattau.com',
             publisher: {
               '@type': 'Organization',

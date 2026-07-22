@@ -1,0 +1,150 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Go Cheat Sheet | Free Goroutines, Channels & Syntax Reference"
+  description="Complete Go cheat sheet with goroutines, channels, structs, interfaces, and common patterns. Free reference for Go developers."
+>
+  <section class="hero">
+    <h1>Go<br><span>Cheat Sheet</span></h1>
+    <p>Goroutines, channels, structs, interfaces, and common patterns. From basics to advanced Go.</p>
+  </section>
+
+  <section>
+    <h2>Variables & Types</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Basic Types</h3>
+        <pre><code>x := 42              // int
+y := 3.14            // float64
+s := "hello"         // string
+b := true            // bool
+var z int = 10       // explicit</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Collections</h3>
+        <pre><code>nums := []int{1, 2, 3}
+m := map[string]int{
+    "one": 1, "two": 2,
+}
+m["three"] = 3</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Control Flow</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Conditionals</h3>
+        <pre><code>if x > 0 {
+    // positive
+} else if x == 0 {
+    // zero
+} else {
+    // negative
+}</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Loops</h3>
+        <pre><code>for i := 0; i < 10; i++ {
+    // C-style
+}
+
+for _, v := range nums {
+    // range
+}
+
+for x > 0 {
+    // while-style
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Functions</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Basic Function</h3>
+        <pre><code>func add(a, b int) int {
+    return a + b
+}
+
+func greet(name string) string {
+    return "Hello, " + name
+}</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Multiple Returns</h3>
+        <pre><code>func divide(a, b float64) (float64, error) {
+    if b == 0 {
+        return 0, errors.New("div by zero")
+    }
+    return a / b, nil
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Structs & Interfaces</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Structs</h3>
+        <pre><code>type User struct {
+    Name string
+    Age  int
+}
+
+u := User{Name: "Alice", Age: 30}
+fmt.Println(u.Name)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Interfaces</h3>
+        <pre><code>type Writer interface {
+    Write([]byte) (int, error)
+}
+
+// Implicit implementation
+// No "implements" keyword</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Concurrency</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Goroutines</h3>
+        <pre><code>go func() {
+    fmt.Println("async")
+}()
+
+// WaitGroup
+var wg sync.WaitGroup
+wg.Add(1)
+go func() {
+    defer wg.Done()
+    // work
+}()</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Channels</h3>
+        <pre><code>ch := make(chan int)
+ch <- 42          // send
+val := <-ch       // receive
+
+// Buffered
+ch := make(chan int, 10)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>

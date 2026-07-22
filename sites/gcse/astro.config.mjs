@@ -20,7 +20,7 @@ export default defineConfig({
       pagefind: false,
       expressiveCode: { themes: ['dracula', 'github-light'] },
       description:
-        'GCSE revision notes covering Biology, Chemistry, Physics, Maths, English, and Computer Science.',
+        'Free GCSE study notes, revision guide, and exam preparation with worked examples for Biology, Chemistry, Physics, Maths, English, and Computer Science.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -92,7 +92,7 @@ export default defineConfig({
             '@type': 'WebSite',
             name: 'GCSE',
             description:
-              'GCSE revision notes covering Biology, Chemistry, Physics, Maths, English, and Computer Science.',
+              'Free GCSE study notes, revision guide, and exam preparation with worked examples',
             url: 'https://gcse.wyattau.com',
             publisher: {
               '@type': 'Organization',

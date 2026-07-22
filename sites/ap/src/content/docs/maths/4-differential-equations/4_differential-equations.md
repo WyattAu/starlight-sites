@@ -955,3 +955,5 @@ linked above.
 - [Derivatives](../2-derivatives/2_derivatives) -- Solving differential equations requires mastery of differentiation techniques including chain rule and implicit differentiation.
 - [Integrals](../3-integrals/3_integrals) -- Separable differential equations are solved by integrating both sides, making integration essential to the topic.
 - [Sequences and Series](../5-sequences-and-series/5_sequences-and-series) -- Power series solutions to differential equations connect the two topics through Taylor and Maclaurin series.
+- **[AP Physics — Newton's Laws](../physics/2-newtons-laws/2_newtons-laws):** Newton's second law F = ma is a second-order differential equation — solving for position from force requires differential equations.
+- **[AP Physics — Circuits](../physics/7-circuits/7_circuits):** RC and LR circuits are governed by first-order differential equations describing charge and current over time.

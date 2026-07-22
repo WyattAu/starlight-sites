@@ -1,0 +1,132 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="TypeScript Cheat Sheet | Free Types, Generics & Utility Types"
+  description="Complete TypeScript cheat sheet with types, interfaces, generics, utility types, and common patterns. Free reference for TypeScript developers."
+>
+  <section class="hero">
+    <h1>TypeScript<br><span>Cheat Sheet</span></h1>
+    <p>Types, interfaces, generics, utility types, and common patterns. From basics to advanced TypeScript.</p>
+  </section>
+
+  <section>
+    <h2>Basic Types</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Primitives</h3>
+        <pre><code>let x: number = 42;
+let s: string = "hello";
+let b: boolean = true;
+let n: null = null;
+let u: undefined = undefined;
+let sym: symbol = Symbol();
+let big: bigint = 100n;</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Arrays &amp; Tuples</h3>
+        <pre><code>let nums: number[] = [1, 2, 3];
+let strs: Array&lt;string&gt; = ["a"];
+let tuple: [string, number] = ["a", 1];</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Interfaces &amp; Types</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Interfaces</h3>
+        <pre><code>interface User {
+  name: string;
+  age: number;
+  email?: string;  // optional
+  readonly id: number;
+}</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Type Aliases</h3>
+        <pre><code>type ID = string | number;
+type Point = { x: number; y: number };
+type Status = "active" | "inactive";</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Generics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Generic Functions</h3>
+        <pre><code>function identity&lt;T&gt;(arg: T): T {
+  return arg;
+}
+const num = identity&lt;number&gt;(42);
+const str = identity("hello");</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Generic Constraints</h3>
+        <pre><code>interface HasLength {
+  length: number;
+}
+function log&lt;T extends HasLength&gt;(arg: T) {
+  console.log(arg.length);
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Utility Types</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Common Utilities</h3>
+        <pre><code>Partial&lt;User&gt;     // all optional
+Required&lt;User&gt;     // all required
+Pick&lt;User, "name"&gt; // subset
+Omit&lt;User, "age"&gt;  // exclude
+Readonly&lt;User&gt;     // immutable</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Type Guards</h3>
+        <pre><code>function isString(v: unknown): v is string {
+  return typeof v === "string";
+}
+if (isString(val)) {
+  val.toUpperCase(); // narrowed
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Classes</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Class Definition</h3>
+        <pre><code>class Animal {
+  constructor(public name: string) {}
+  speak(): string {
+    return `${this.name} speaks`;
+  }
+}
+const a = new Animal("Dog");</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Access Modifiers</h3>
+        <pre><code>class Example {
+  public x: number;    // everywhere
+  protected y: number; // class + subclass
+  private z: number;   // class only
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>

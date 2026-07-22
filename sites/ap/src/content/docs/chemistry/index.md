@@ -155,3 +155,4 @@ The molecular world governs our everyday experience. Chemical bonds determine ma
 - [Bonding](/docs/ap/chemistry/bonding)
 - [Stoichiometry](/docs/ap/chemistry/stoichiometry)
 - [Thermodynamics](/docs/ap/chemistry/thermodynamics)
+- **[AP Physics — Work, Energy, and Power](/docs/ap/physics/work-energy-power):** Thermodynamics and energy conservation are shared principles — the first law of thermodynamics is a restatement of energy conservation from physics.

@@ -20,7 +20,7 @@ export default defineConfig({
       pagefind: false,
       expressiveCode: { themes: ['dracula', 'github-light'] },
       description:
-        'Scottish Highers revision notes covering Biology, Chemistry, Physics, Maths, and Computer Science.',
+        'Free Scottish Highers study notes, revision guide, and exam preparation with worked examples for Biology, Chemistry, Physics, Maths, and Computer Science.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -90,7 +90,7 @@ export default defineConfig({
             '@type': 'WebSite',
             name: 'Highers',
             description:
-              'Scottish Highers revision notes covering Biology, Chemistry, Physics, Maths, and Computer Science.',
+              'Free Scottish Highers study notes, revision guide, and exam preparation with worked examples',
             url: 'https://highers.wyattau.com',
             publisher: {
               '@type': 'Organization',

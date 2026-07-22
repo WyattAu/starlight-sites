@@ -19,9 +19,9 @@ export default defineConfig({
     starlight({
       title: 'A-Level',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description:
-        'UK A-Level revision notes covering AQA, OCR, and Edexcel exam boards with detailed derivations and worked examples.',
+        'Free A-Level study notes, revision guide, and exam preparation with worked examples covering AQA, OCR, and Edexcel exam boards.',
 
       components: {
         Head: './src/components/starlight/Head.astro',
@@ -75,7 +75,8 @@ export default defineConfig({
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: 'A-Level',
-            description: 'UK A-Level revision',
+            description:
+              'Free A-Level study notes, revision guide, and exam preparation with worked examples',
             url: 'https://alevel.wyattau.com',
             publisher: {
               '@type': 'Organization',
