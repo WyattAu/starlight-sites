@@ -1,0 +1,82 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Special Relativity Cheat Sheet | Free Lorentz, Time Dilation, E=mc²"
+  description="Complete special relativity cheat sheet with Lorentz transforms, time dilation, and E=mc². Free download for physics students."
+>
+  <section class="hero">
+    <h1>Special Relativity<br><span>Cheat Sheet</span></h1>
+    <p>Lorentz transforms, time dilation, and E=mc². From postulates to applications.</p>
+  </section>
+
+  <section>
+    <h2>Postulates</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Einstein's Postulates</h3>
+        <pre><code>1. Laws of physics are the same in all inertial frames
+2. Speed of light in vacuum is constant (c = 3 × 10⁸ m/s) for all observers</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Lorentz Transforms</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Coordinate Transforms</h3>
+        <pre><code>x' = γ(x - vt)
+t' = γ(t - vx/c²)
+γ = 1/√(1 - v²/c²) (Lorentz factor)
+Inverse: swap primed/unprimed, change v to -v</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Velocity Addition</h3>
+        <pre><code>u' = (u - v)/(1 - uv/c²)
+Not simply u - v!
+Always < c for any u, v < c</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Time Dilation & Length Contraction</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Time Dilation</h3>
+        <pre><code>Δt' = γΔt (moving clocks run slow)
+Δt₀: proper time (rest frame)
+Δt: dilated time (moving frame)
+Example: μon lifetime extended</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Length Contraction</h3>
+        <pre><code>L' = L₀/γ (moving objects shorter)
+L₀: proper length (rest frame)
+L: contracted length (moving frame)
+Only along direction of motion</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Mass-Energy</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Energy-Momentum</h3>
+        <pre><code>E = mc² (mass-energy equivalence)
+E² = (pc)² + (m₀c²)²
+p = γm₀v (relativistic momentum)
+E_k = (γ - 1)m₀c² (kinetic energy)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
