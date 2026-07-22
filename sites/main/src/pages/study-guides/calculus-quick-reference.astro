@@ -1,0 +1,64 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Calculus Quick Reference | Free Derivatives & Integrals"
+  description="Complete calculus quick reference with derivatives, integrals, and common rules. Free download for math students."
+>
+  <section class="hero">
+    <h1>Calculus<br><span>Quick Reference</span></h1>
+    <p>Derivatives, integrals, and common rules. From basics to advanced techniques.</p>
+  </section>
+
+  <section>
+    <h2>Derivatives</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Basic Rules</h3>
+        <pre><code>d/dx [c] = 0
+d/dx [x^n] = nx^(n-1)
+d/dx [e^x] = e^x
+d/dx [ln(x)] = 1/x</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Trigonometric</h3>
+        <pre><code>d/dx [sin(x)] = cos(x)
+d/dx [cos(x)] = -sin(x)
+d/dx [tan(x)] = sec²(x)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Chain Rule</h3>
+        <pre><code>d/dx [f(g(x))] = f'(g(x)) · g'(x)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Integrals</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Basic Integrals</h3>
+        <pre><code>∫ x^n dx = x^(n+1)/(n+1) + C
+∫ e^x dx = e^x + C
+∫ 1/x dx = ln|x| + C</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Trigonometric</h3>
+        <pre><code>∫ sin(x) dx = -cos(x) + C
+∫ cos(x) dx = sin(x) + C
+∫ sec²(x) dx = tan(x) + C</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Integration by Parts</h3>
+        <pre><code>∫ u dv = uv - ∫ v du</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
