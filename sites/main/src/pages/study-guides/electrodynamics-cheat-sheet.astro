@@ -1,0 +1,84 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Electrodynamics Cheat Sheet | Free Maxwell's Equations, EM Waves"
+  description="Complete electrodynamics cheat sheet with Maxwell's equations and EM waves. Free download for physics students."
+>
+  <section class="hero">
+    <h1>Electrodynamics<br><span>Cheat Sheet</span></h1>
+    <p>Maxwell's equations and EM waves. From electrostatics to electromagnetic radiation.</p>
+  </section>
+
+  <section>
+    <h2>Maxwell's Equations</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Differential Form</h3>
+        <pre><code>∇·E = ρ/ε₀ (Gauss)
+∇·B = 0 (no monopoles)
+∇×E = -∂B/∂t (Faraday)
+∇×B = μ₀J + μ₀ε₀∂E/∂t (Ampere-Maxwell)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Integral Form</h3>
+        <pre><code>∮E·dA = Q/ε₀
+∮B·dA = 0
+∮E·dl = -dΦ_B/dt
+∮B·dl = μ₀I + μ₀ε₀dΦ_E/dt</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Electromagnetic Waves</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Wave Equation</h3>
+        <pre><code>∇²E = μ₀ε₀ ∂²E/∂t²
+∇²B = μ₀ε₀ ∂²B/∂t²
+c = 1/√(μ₀ε₀) = 3 × 10⁸ m/s
+E/B = c (amplitude ratio)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Properties</h3>
+        <pre><code>Transverse: E ⊥ B ⊥ propagation
+E and B in phase
+Poynting vector: S = E×B/μ₀
+Energy density: u = ½ε₀E² + B²/(2μ₀)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Potentials</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Scalar & Vector Potentials</h3>
+        <pre><code>E = -∇V - ∂A/∂t
+B = ∇×A
+Coulomb gauge: ∇·A = 0
+Lorenz gauge: ∇·A + μ₀ε₀∂V/∂t = 0</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Radiation</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3> dipole Radiation</h3>
+        <pre><code>Power: P = μ₀p̈²/(6πc)
+Radiation resistance: R ∝ (d/λ)²
+Antenna length: d ≈ λ/4 (quarter-wave)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
