@@ -1,0 +1,78 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Nuclear Physics Cheat Sheet | Free Radioactivity, Fission, Fusion"
+  description="Complete nuclear physics cheat sheet with radioactivity, fission, and fusion. Free download for physics students."
+>
+  <section class="hero">
+    <h1>Nuclear Physics<br><span>Cheat Sheet</span></h1>
+    <p>Radioactivity, fission, and fusion. From atomic structure to nuclear energy.</p>
+  </section>
+
+  <section>
+    <h2>Radioactivity</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Decay Laws</h3>
+        <pre><code>N = N₀e^(-λt)
+A = λN (activity)
+t₁/₂ = ln(2)/λ (half-life)
+λ = ln(2)/t₁/₂</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Types of Radiation</h3>
+        <pre><code>α: ⁴₂He (2p + 2n)
+β⁻: e⁻ (neutron → proton)
+β⁺: e⁺ (proton → neutron)
+γ: electromagnetic (no mass/charge)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Mass-Energy</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Einstein's Equation</h3>
+        <pre><code>E = mc²
+ΔE = Δmc²
+1 u = 931.5 MeV/c²
+Mass defect: Δm = Σm_products - Σm_reactants</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Nuclear Fission</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Fission Process</h3>
+        <pre><code>²³⁵U + n → ²³⁶U* → fission products + 2-3n + energy
+Chain reaction: neutrons cause more fissions
+Critical mass: minimum for sustained reaction
+Energy per fission: ~200 MeV</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Nuclear Fusion</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Fusion Process</h3>
+        <pre><code>²H + ³H → ⁴He + n + 17.6 MeV
+Requires: high T (>10⁷ K), high pressure
+Energy per fusion: ~17.6 MeV
+Sun: pp chain, CNO cycle</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
