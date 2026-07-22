@@ -1,0 +1,90 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Quantum Mechanics Cheat Sheet | Free Wave Function, Operators, Measurement"
+  description="Complete quantum mechanics cheat sheet with wave function, operators, and measurement. Free download for physics students."
+>
+  <section class="hero">
+    <h1>Quantum Mechanics<br><span>Cheat Sheet</span></h1>
+    <p>Wave function, operators, and measurement. From Schrodinger to Dirac notation.</p>
+  </section>
+
+  <section>
+    <h2>Wave Function</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Schrodinger Equation</h3>
+        <pre><code>iℏ ∂Ψ/∂t = ĤΨ
+Time-dependent: iℏ ∂Ψ/∂t = [-ℏ²/(2m)∇² + V]Ψ
+Time-independent: Ĥψ = Eψ</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Normalization</h3>
+        <pre><code>∫|Ψ|²d³r = 1
+Probability density: ρ = |Ψ|²
+Probability current: j = (ℏ/2mi)(Ψ*∇Ψ - Ψ∇Ψ*)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Operators</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Common Operators</h3>
+        <pre><code>Position: x̂ → x
+Momentum: p̂ = -iℏ∇
+Energy: Ê = iℏ∂/∂t
+Kinetic: T̂ = p̂²/(2m)
+Hamiltonian: Ĥ = T̂ + V̂</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Commutation Relations</h3>
+        <pre><code>[x̂, p̂] = iℏ (canonical)
+[Ĥ, t̂] = iℏ
+[Ĵ_x, Ĵ_y] = iℏĴ_z (angular momentum)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Measurement</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Measurement Postulate</h3>
+        <pre><code>Measuring observable Â gives eigenvalue a_n
+Probability: P(a_n) = |⟨a_n|ψ⟩|²
+After measurement: |ψ⟩ → |a_n⟩
+Expectation: ⟨Â⟩ = ⟨ψ|Â|ψ⟩</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Uncertainty Principle</h3>
+        <pre><code>ΔA·ΔB ≥ ½|⟨[Â, B̂]⟩|
+Δx·Δp ≥ ℏ/2
+ΔE·Δt ≥ ℏ/2</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Dirac Notation</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Bra-Ket</h3>
+        <pre><code>|ψ⟩: ket (state vector)
+⟨ψ|: bra (dual vector)
+⟨φ|ψ⟩: inner product
+|φ⟩⟨ψ|: outer product
+Completeness: Σ|n⟩⟨n| = 1</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
