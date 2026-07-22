@@ -1,0 +1,87 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="General Relativity Cheat Sheet | Free Einstein, Geodesics, Black Holes"
+  description="Complete general relativity cheat sheet with Einstein field equations, geodesics, and black holes. Free download for physics students."
+>
+  <section class="hero">
+    <h1>General Relativity<br><span>Cheat Sheet</span></h1>
+    <p>Einstein field equations, geodesics, and black holes. From curvature to cosmology.</p>
+  </section>
+
+  <section>
+    <h2>Einstein Field Equations</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Field Equations</h3>
+        <pre><code>G_μν + Λg_μν = (8πG/c⁴)T_μν
+G_μν: Einstein tensor (curvature)
+Λ: cosmological constant
+g_μν: metric tensor
+T_μν: stress-energy tensor</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Physical Meaning</h3>
+        <pre><code>"Spacetime tells matter how to move;
+matter tells spacetime how to curve"
+- John Archibald Wheeler</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Geodesics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Geodesic Equation</h3>
+        <pre><code>d²x^μ/dτ² + Γ^μ_αβ (dx^α/dτ)(dx^β/dτ) = 0
+Γ^μ_αβ: Christoffel symbols
+τ: proper time
+Geodesics = "straight lines" in curved spacetime</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Schwarzschild Solution</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Schwarzschild Metric</h3>
+        <pre><code>ds² = -(1 - r_s/r)c²dt² + (1 - r_s/r)⁻¹dr² + r²dΩ²
+r_s = 2GM/c² (Schwarzschild radius)
+Event horizon: r = r_s
+Singularity: r = 0</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Applications</h3>
+        <pre><code>Black holes: r < r_s
+Gravitational time dilation
+Gravitational redshift
+Perihelion precession of Mercury
+Light bending by gravity</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Gravitational Waves</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Properties</h3>
+        <pre><code>Ripples in spacetime
+Speed: c
+Polarisation: + and × modes
+Strain: h = ΔL/L
+Energy flux: F = c³/(16πG)〈ḣ₊² + ḣ×²〉</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
