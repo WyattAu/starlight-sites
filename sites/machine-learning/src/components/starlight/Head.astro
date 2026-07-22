@@ -87,6 +87,30 @@ const breadcrumbSchema = {
 }
 ---
 
+<!-- Page speed: preconnect to external origins -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://search.wyattau.com" crossorigin />
+
+<!-- Page speed: DNS prefetch for subdomains -->
+<link rel="dns-prefetch" href="https://dse.wyattau.com" />
+<link rel="dns-prefetch" href="https://ib.wyattau.com" />
+<link rel="dns-prefetch" href="https://alevel.wyattau.com" />
+<link rel="dns-prefetch" href="https://gcse.wyattau.com" />
+<link rel="dns-prefetch" href="https://ap.wyattau.com" />
+<link rel="dns-prefetch" href="https://cpp.wyattau.com" />
+<link rel="dns-prefetch" href="https://python.wyattau.com" />
+<link rel="dns-prefetch" href="https://rust.wyattau.com" />
+<link rel="dns-prefetch" href="https://mathematics.wyattau.com" />
+<link rel="dns-prefetch" href="https://physics.wyattau.com" />
+
+<!-- Page speed: preload critical assets -->
+<link rel="modulepreload" href="/reader.js" />
+<link rel="modulepreload" href="/cross-site-search.js" />
+<link rel="modulepreload" href="/page-search.js" />
+<link rel="modulepreload" href="/mermaid-render.js" />
+
 <script>
   (function() {
     try {
