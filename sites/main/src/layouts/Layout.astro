@@ -7,6 +7,12 @@ interface Props {
 }
 
 const { title, description } = Astro.props
+
+// SEO-optimized title and description
+const seoTitle = "Wyatt's Notes | Free Study Notes for IB, A-Level, GCSE, AP, DSE, University STEM"
+const seoDescription = "Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming. 2,860+ pages across 40+ subjects with worked examples, common mistakes, and exam-style problems."
+const siteUrl = "https://wyattsnotes.wyattau.com"
+const ogImage = `${siteUrl}/img/social-card.svg`
 ---
 
 <!DOCTYPE html>
@@ -14,12 +20,35 @@ const { title, description } = Astro.props
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{title}</title>
-  <meta name="description" content={description}>
-  <meta property="og:title" content={title}>
-  <meta property="og:description" content={description}>
-  <meta property="og:image" content="https://wyattsnotes.wyattau.com/img/social-card.svg">
+  <title>{seoTitle}</title>
+  <meta name="description" content={seoDescription}>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow">
+  <link rel="canonical" href={siteUrl}>
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content={siteUrl}>
+  <meta property="og:title" content={seoTitle}>
+  <meta property="og:description" content={seoDescription}>
+  <meta property="og:site_name" content="Wyatt's Notes">
+  <meta property="og:image" content={ogImage}>
+  <meta property="og:locale" content="en_US">
+  
+  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@wyattau">
+  <meta name="twitter:creator" content="@wyattau">
+  <meta name="twitter:title" content={seoTitle}>
+  <meta name="twitter:description" content={seoDescription}>
+  <meta name="twitter:image" content={ogImage}>
+  
+  <!-- Additional SEO Meta -->
+  <meta name="author" content="Wyatt Au">
+  <meta name="generator" content={Astro.generator}>
+  
   <link rel="icon" href="/favicon.svg">
   <link rel="preload" href="/fonts/Merriweather-latin-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/Merriweather-latin-700.woff2" as="font" type="font/woff2" crossorigin>
@@ -31,17 +60,38 @@ const { title, description } = Astro.props
   <script src="/page-search.js" defer></script>
   <script src="/cross-site-search.js" defer></script>
   <script src="/reader.js" defer></script>
+  
+  <!-- JSON-LD Structured Data -->
   <script type="application/ld+json" set:html={JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Starlight Sites',
-    description: 'Educational resource hub for IB, A-Level, GCSE, AP, DSE, university STEM, and programming study notes.',
-    url: 'https://wyattsnotes.wyattau.com',
+    name: "Wyatt's Notes",
+    description: seoDescription,
+    url: siteUrl,
     publisher: {
       '@type': 'Organization',
       name: 'Wyatt Au',
       url: 'https://wyattau.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://wyattau.com/img/logo.png',
+      },
     },
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://search.wyattau.com/api/search?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
+  })} />
+  
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Wyatt Au',
+    url: 'https://wyattau.com',
+    sameAs: [
+      'https://github.com/WyattAu',
+    ],
   })} />
   <script is:inline>
     (function() {
