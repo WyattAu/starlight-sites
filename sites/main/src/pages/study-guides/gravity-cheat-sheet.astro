@@ -1,0 +1,85 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Gravity Cheat Sheet | Free Newton, Einstein, Black Holes"
+  description="Complete gravity cheat sheet with Newton, Einstein, and black holes. Free download for physics students."
+>
+  <section class="hero">
+    <h1>Gravity<br><span>Cheat Sheet</span></h1>
+    <p>Newton, Einstein, and black holes. From classical gravity to general relativity.</p>
+  </section>
+
+  <section>
+    <h2>Newtonian Gravity</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Universal Gravitation</h3>
+        <pre><code>F = GMm/r²
+G = 6.674 × 10⁻¹¹ N m²/kg²
+g = GM/r² (gravitational field)
+PE = -GMm/r (potential energy)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Orbital Mechanics</h3>
+        <pre><code>v = √(GM/r) (circular orbit)
+T² = (4π²/GM)r³ (Kepler's 3rd law)
+Escape velocity: v_e = √(2GM/r)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>General Relativity</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Key Concepts</h3>
+        <pre><code>Gravity = curvature of spacetime
+Mass-energy curves spacetime
+Objects follow geodesics
+Time dilation in gravitational fields
+Gravitational waves: ripples in spacetime</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Schwarzschild Metric</h3>
+        <pre><code>r_s = 2GM/c² (Schwarzschild radius)
+For r < r_s: black hole
+Time dilation: t' = t√(1 - r_s/r)
+Gravitational redshift: z = 1/√(1 - r_s/r) - 1</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Black Holes</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Properties</h3>
+        <pre><code>Event horizon: r_s = 2GM/c²
+Singularity: r = 0 (infinite density)
+Hawking radiation: T = ℏc³/(8πGMk)
+Area theorem: area never decreases</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Gravitational Waves</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Properties</h3>
+        <pre><code>Speed: c (speed of light)
+Polarisation: + and × modes
+Strain: h = ΔL/L
+Energy flux: F = c³/(16πG)〈ḣ₊² + ḣ×²〉</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
