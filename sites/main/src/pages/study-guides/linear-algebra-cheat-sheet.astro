@@ -1,0 +1,80 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Linear Algebra Cheat Sheet | Free Matrices & Vectors"
+  description="Complete linear algebra cheat sheet with matrices, vectors, and operations. Free download for math and engineering students."
+>
+  <section class="hero">
+    <h1>Linear Algebra<br><span>Cheat Sheet</span></h1>
+    <p>Matrices, vectors, and operations. From basics to advanced topics.</p>
+  </section>
+
+  <section>
+    <h2>Vectors</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Operations</h3>
+        <pre><code>u + v = (u₁+v₁, u₂+v₂, u₃+v₃)
+c · v = (cv₁, cv₂, cv₃)
+|v| = √(v₁² + v₂² + v₃²)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Dot Product</h3>
+        <pre><code>u · v = u₁v₁ + u₂v₂ + u₃v₃
+u · v = |u||v|cos(θ)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Cross Product</h3>
+        <pre><code>u × v = (u₂v₃ - u₃v₂, 
+         u₃v₁ - u₁v₃, 
+         u₁v₂ - u₂v₁)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Matrices</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Basic Operations</h3>
+        <pre><code>(A + B)ᵢⱼ = Aᵢⱼ + Bᵢⱼ
+(cA)ᵢⱼ = cAᵢⱼ
+(AB)ᵢⱼ = Σₖ AᵢₖBₖⱼ</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Determinant (2×2)</h3>
+        <pre><code>det(A) = ad - bc
+A = [[a, b], [c, d]]</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Inverse (2×2)</h3>
+        <pre><code>A⁻¹ = (1/det(A)) × 
+      [[d, -b], [-c, a]]</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Eigenvalues & Eigenvectors</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Definition</h3>
+        <pre><code>Av = λv
+where λ is eigenvalue
+and v is eigenvector</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Characteristic Equation</h3>
+        <pre><code>det(A - λI) = 0</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
