@@ -1,0 +1,79 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="IB Chemistry Data Booklet Summary | Free Periodic Table & Constants"
+  description="Complete IB Chemistry data booklet summary with periodic table and constants. Free download for IB Chemistry students."
+>
+  <section class="hero">
+    <h1>IB Chemistry<br><span>Data Booklet Summary</span></h1>
+    <p>Periodic table and constants. Quick reference for IB Chemistry exams.</p>
+  </section>
+
+  <section>
+    <h2>Physical Constants</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Fundamental Constants</h3>
+        <table>
+          <tr><th>Constant</th><th>Value</th><th>Unit</th></tr>
+          <tr><td>Avogadro's number (Nₐ)</td><td>6.022 × 10²³</td><td>mol⁻¹</td></tr>
+          <tr><td>Gas constant (R)</td><td>8.314</td><td>J mol⁻¹ K⁻¹</td></tr>
+          <tr><td>Boltzmann constant (k)</td><td>1.381 × 10⁻²³</td><td>J K⁻¹</td></tr>
+          <tr><td>Planck's constant (h)</td><td>6.626 × 10⁻³⁴</td><td>J s</td></tr>
+          <tr><td>Speed of light (c)</td><td>2.998 × 10⁸</td><td>m s⁻¹</td></tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Thermodynamics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Enthalpy</h3>
+        <pre><code>ΔH = H_products - H_reactants
+q = mcΔT
+ΔH = ΣΔH_f(products) - ΣΔH_f(reactants)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Entropy</h3>
+        <pre><code>ΔG = ΔH - TΔS
+ΔG < 0: spontaneous
+ΔG = 0: equilibrium
+ΔG > 0: non-spontaneous</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kinetics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Rate Laws</h3>
+        <pre><code>Rate = k[A]^m[B]^n
+k = Ae^(-Ea/RT) (Arrhenius)
+ln(k₂/k₁) = -Ea/R (1/T₂ - 1/T₁)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Equilibrium</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Equilibrium Constants</h3>
+        <pre><code>Kc = [products]/[reactants]
+Kp = Kc(RT)^Δn
+ΔG° = -RT ln(K)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
