@@ -1,0 +1,100 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="JavaScript Cheat Sheet | Free ES6+, DOM, Async/Await"
+  description="Complete JavaScript cheat sheet with ES6+, DOM manipulation, async/await, and modern patterns. Free download for web developers."
+>
+  <section class="hero">
+    <h1>JavaScript<br><span>Cheat Sheet</span></h1>
+    <p>ES6+, DOM manipulation, async/await, and modern patterns. From basics to advanced.</p>
+  </section>
+
+  <section>
+    <h2>ES6+ Features</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Arrow Functions</h3>
+        <pre><code>const add = (a, b) => a + b;
+const square = x => x ** 2;</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Destructuring</h3>
+        <pre><code>const { name, age } = person;
+const [first, second] = array;</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Template Literals</h3>
+        <pre><code>const msg = `Hello, ${name}!`;
+const multi = `
+  Line 1
+  Line 2
+`;</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Arrays</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Map, Filter, Reduce</h3>
+        <pre><code>const doubled = arr.map(x => x * 2);
+const evens = arr.filter(x => x % 2 === 0);
+const sum = arr.reduce((a, b) => a + b, 0);</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Spread & Rest</h3>
+        <pre><code>const copy = [...arr];
+const merged = [...arr1, ...arr2];
+const sum = (...nums) => nums.reduce((a, b) => a + b);</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>DOM Manipulation</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Selectors</h3>
+        <pre><code>document.getElementById('id');
+document.querySelector('.class');
+document.querySelectorAll('div');</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Events</h3>
+        <pre><code>element.addEventListener('click', handler);
+element.removeEventListener('click', handler);</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Async/Await</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Fetch API</h3>
+        <pre><code>async function getData() {
+  const response = await fetch(url);
+  const data = await response.json();
+  return data;
+}</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Error Handling</h3>
+        <pre><code>try {
+  const data = await getData();
+} catch (error) {
+  console.error(error);
+}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>

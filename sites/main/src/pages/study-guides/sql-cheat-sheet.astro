@@ -1,0 +1,105 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="SQL Cheat Sheet | Free Queries, Joins, Indexes"
+  description="Complete SQL cheat sheet with queries, joins, indexes, and common patterns. Free download for database developers and analysts."
+>
+  <section class="hero">
+    <h1>SQL<br><span>Cheat Sheet</span></h1>
+    <p>Queries, joins, indexes, and common patterns. From basics to advanced SQL.</p>
+  </section>
+
+  <section>
+    <h2>Basic Queries</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>SELECT</h3>
+        <pre><code>SELECT column1, column2
+FROM table
+WHERE condition
+ORDER BY column
+LIMIT 10;</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Aggregation</h3>
+        <pre><code>SELECT COUNT(*), AVG(price), SUM(quantity)
+FROM orders
+GROUP BY customer_id
+HAVING COUNT(*) > 5;</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Joins</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>INNER JOIN</h3>
+        <pre><code>SELECT a.name, b.order_date
+FROM customers a
+INNER JOIN orders b
+ON a.id = b.customer_id;</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>LEFT/RIGHT JOIN</h3>
+        <pre><code>SELECT a.name, b.order_date
+FROM customers a
+LEFT JOIN orders b
+ON a.id = b.customer_id;</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Subqueries</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>IN Subquery</h3>
+        <pre><code>SELECT name
+FROM customers
+WHERE id IN (
+  SELECT customer_id
+  FROM orders
+  WHERE total > 100
+);</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>EXISTS</h3>
+        <pre><code>SELECT name
+FROM customers c
+WHERE EXISTS (
+  SELECT 1
+  FROM orders o
+  WHERE o.customer_id = c.id
+);</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Indexes</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Create Index</h3>
+        <pre><code>CREATE INDEX idx_name
+ON customers (name);
+
+CREATE UNIQUE INDEX idx_email
+ON customers (email);</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Composite Index</h3>
+        <pre><code>CREATE INDEX idx_name_email
+ON customers (name, email);</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>

@@ -1,0 +1,115 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Python Cheat Sheet | Free Syntax, Data Structures & OOP"
+  description="Complete Python cheat sheet with syntax, data structures, OOP, and common patterns. Free download for beginners and advanced programmers."
+>
+  <section class="hero">
+    <h1>Python<br><span>Cheat Sheet</span></h1>
+    <p>Essential syntax, data structures, OOP, and common patterns. From basics to advanced.</p>
+  </section>
+
+  <section>
+    <h2>Variables & Data Types</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Basic Types</h3>
+        <pre><code>x = 42          # int
+y = 3.14        # float
+s = "hello"     # str
+b = True        # bool
+n = None        # NoneType</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Containers</h3>
+        <pre><code>lst = [1, 2, 3]        # list
+tup = (1, 2, 3)        # tuple
+s = {1, 2, 3}          # set
+d = {"a": 1, "b": 2}   # dict</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Control Flow</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Conditionals</h3>
+        <pre><code>if x > 0:
+    positive
+elif x == 0:
+    zero
+else:
+    negative</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Loops</h3>
+        <pre><code>for i in range(10):
+    print(i)
+
+while x > 0:
+    x -= 1</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Functions</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Basic Function</h3>
+        <pre><code>def greet(name, greeting="Hello"):
+    return f"{greeting}, {name}!"</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Lambda</h3>
+        <pre><code>square = lambda x: x ** 2
+add = lambda a, b: a + b</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>List Comprehensions</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Basic</h3>
+        <pre><code>squares = [x**2 for x in range(10)]
+evens = [x for x in range(10) if x % 2 == 0]</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Dictionary</h3>
+        <pre><code>squares_dict = {x: x**2 for x in range(10)}</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>OOP</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Class Definition</h3>
+        <pre><code>class Dog:
+    def __init__(self, name):
+        self.name = name
+    
+    def bark(self):
+        return f"{self.name} says woof!"</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Inheritance</h3>
+        <pre><code>class Puppy(Dog):
+    def bark(self):
+        return f"{self.name} says yap!"</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
