@@ -1,0 +1,99 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Thermodynamics Cheat Sheet | Free Laws, Engines, Entropy"
+  description="Complete thermodynamics cheat sheet with laws, engines, and entropy. Free download for physics and engineering students."
+>
+  <section class="hero">
+    <h1>Thermodynamics<br><span>Cheat Sheet</span></h1>
+    <p>Laws, engines, and entropy. From heat transfer to Carnot cycle.</p>
+  </section>
+
+  <section>
+    <h2>Laws of Thermodynamics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Zeroth Law</h3>
+        <pre><code>If A = B and B = C, then A = C
+Thermal equilibrium is transitive
+Basis for temperature measurement</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>First Law</h3>
+        <pre><code>ΔU = Q - W
+Internal energy = heat - work
+Energy is conserved</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Second Law</h3>
+        <pre><code>ΔS ≥ 0 (isolated system)
+Entropy always increases
+No perfect heat engine (100% efficiency)</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Third Law</h3>
+        <pre><code>S → 0 as T → 0
+Entropy approaches zero at absolute zero
+Absolute zero is unattainable</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Heat Transfer</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Conduction</h3>
+        <pre><code>Q/t = kAΔT/L
+k = thermal conductivity
+A = cross-sectional area
+L = length</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Specific Heat</h3>
+        <pre><code>Q = mcΔT
+m = mass
+c = specific heat capacity
+ΔT = temperature change</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Engines & Refrigerators</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Heat Engine</h3>
+        <pre><code>η = W/Q_h = 1 - Q_c/Q_h
+η_Carnot = 1 - T_c/T_h
+T must be in Kelvin</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Refrigerator</h3>
+        <pre><code>COP = Q_c/W = Q_c/(Q_h - Q_c)
+COP_Carnot = T_c/(T_h - T_c)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Entropy</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Entropy Change</h3>
+        <pre><code>ΔS = Q_rev/T
+ΔS_total ≥ 0
+ΔS = nC ln(T₂/T₁) (constant V)
+ΔS = nC ln(T₂/T₁) - nR ln(V₂/V₁) (ideal gas)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
