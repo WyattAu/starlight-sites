@@ -1,0 +1,94 @@
+---
+import Layout from '../../layouts/Layout.astro'
+---
+
+<Layout 
+  title="Planetary Science Cheat Sheet | Free Solar System, Exoplanets, Formation"
+  description="Complete planetary science cheat sheet with solar system, exoplanets, and formation. Free download for physics students."
+>
+  <section class="hero">
+    <h1>Planetary Science<br><span>Cheat Sheet</span></h1>
+    <p>Solar system, exoplanets, and formation. From protoplanetary disks to habitable zones.</p>
+  </section>
+
+  <section>
+    <h2>Solar System</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Planets</h3>
+        <table>
+          <tr><th>Planet</th><th>Type</th><th>Key Feature</th></tr>
+          <tr><td>Mercury</td><td>Terrestrial</td><td>Smallest, no atmosphere</td></tr>
+          <tr><td>Venus</td><td>Terrestrial</td><td>Thick CO₂ atmosphere, run温室</td></tr>
+          <tr><td>Earth</td><td>Terrestrial</td><td>Life, liquid water</td></tr>
+          <tr><td>Mars</td><td>Terrestrial</td><td>Thin atmosphere, polar caps</td></tr>
+          <tr><td>Jupiter</td><td>Gas giant</td><td>Great Red Spot, 95 moons</td></tr>
+          <tr><td>Saturn</td><td>Gas giant</td><td>Rings, low density</td></tr>
+          <tr><td>Uranus</td><td>Ice giant</td><td>Tilted axis, faint rings</td></tr>
+          <tr><td>Neptune</td><td>Ice giant</td><td>Strongest winds</td></tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Orbital Mechanics</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Kepler's Laws</h3>
+        <pre><code>1. Elliptical orbits (focus at Sun)
+2. Equal areas in equal times (A = const)
+3. T² ∝ a³ (a = semi-major axis)
+T² = (4π²/GM)a³</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Orbital Velocity</h3>
+        <pre><code>v = √(GM/r) (circular)
+Escape: v_e = √(2GM/r)
+Roche limit: d = 2.46 R_p(ρ_p/ρ_m)^(1/3)</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Exoplanets</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Detection Methods</h3>
+        <pre><code>Transit: brightness dip (Kepler, TESS)
+Radial velocity: star wobble (Doppler)
+Direct imaging: direct observation
+Microlensing: gravitational lensing
+Astrometry: star position change</code></pre>
+      </div>
+      <div class="formula-card">
+        <h3>Habitable Zone</h3>
+        <pre><code>Luminosity-dependent zone
+Water can exist as liquid
+Not too hot, not too cold
+Conservative: 0.95-1.67 AU for Sun
+Optimistic: 0.75-1.77 AU for Sun</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Planetary Formation</h2>
+    <div class="formula-grid">
+      <div class="formula-card">
+        <h3>Core Accretion Model</h3>
+        <pre><code>Protoplanetary disk: gas + dust
+Dust → planetesimals → protoplanets
+Terrestrial planets: inner disk (rock/metal)
+Gas giants: outer disk (gas/ice capture)
+Snow line: where water freezes</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Download</h2>
+    <p>Print this page or save as PDF for quick reference.</p>
+    <p><strong>Tip:</strong> Use Ctrl+P (Cmd+P on Mac) to print or save as PDF.</p>
+  </section>
+</Layout>
