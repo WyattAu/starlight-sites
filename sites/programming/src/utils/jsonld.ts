@@ -217,3 +217,99 @@ export function generateOrganizationSchema(props: OrganizationSchemaProps = {}) 
     knowsLanguage: ['en', 'zh-Hant'],
   }
 }
+
+export interface VideoObjectSchemaProps {
+  name: string
+  description: string
+  thumbnailUrl: string
+  uploadDate: string
+  duration?: string
+  contentUrl?: string
+  embedUrl?: string
+}
+
+/**
+ * Generate VideoObject schema.org structured data.
+ * Use for interactive demos and video content.
+ */
+export function generateVideoObjectSchema(props: VideoObjectSchemaProps) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'VideoObject',
+    name: props.name,
+    description: props.description,
+    thumbnailUrl: props.thumbnailUrl,
+    uploadDate: props.uploadDate,
+    duration: props.duration ?? 'PT5M',
+    contentUrl: props.contentUrl,
+    embedUrl: props.embedUrl,
+    publisher: {
+      '@type': 'Organization',
+      name: "Wyatt's Notes",
+      url: 'https://wyattsnotes.wyattau.com',
+    },
+  }
+}
+
+export interface ImageObjectSchemaProps {
+  name: string
+  description: string
+  url: string
+  width?: number
+  height?: number
+  caption?: string
+}
+
+/**
+ * Generate ImageObject schema.org structured data.
+ * Use for diagrams, illustrations, and visual content.
+ */
+export function generateImageObjectSchema(props: ImageObjectSchemaProps) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ImageObject',
+    name: props.name,
+    description: props.description,
+    url: props.url,
+    width: props.width ?? 800,
+    height: props.height ?? 600,
+    caption: props.caption,
+    creator: {
+      '@type': 'Person',
+      name: 'Wyatt',
+    },
+    copyrightYear: new Date().getFullYear(),
+    license: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+  }
+}
+
+export interface SoftwareSourceCodeSchemaProps {
+  name: string
+  description: string
+  codeRepository?: string
+  programmingLanguage: string
+  codeExample?: string
+  runtimePlatform?: string
+}
+
+/**
+ * Generate SoftwareSourceCode schema.org structured data.
+ * Use for code examples and programming content.
+ */
+export function generateSoftwareSourceCodeSchema(props: SoftwareSourceCodeSchemaProps) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareSourceCode',
+    name: props.name,
+    description: props.description,
+    codeRepository: props.codeRepository ?? 'https://github.com/WyattAu/starlight-sites',
+    programmingLanguage: props.programmingLanguage,
+    codeExample: props.codeExample,
+    runtimePlatform: props.runtimePlatform ?? 'Web Browser',
+    author: {
+      '@type': 'Person',
+      name: 'Wyatt',
+    },
+    license: 'https://opensource.org/licenses/MIT',
+  }
+}

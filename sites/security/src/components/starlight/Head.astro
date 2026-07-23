@@ -6,12 +6,15 @@ import {
   generateCourseSchema,
   generateFAQSchema,
   generateHowToSchema,
+  generateImageObjectSchema,
   generateOrganizationSchema,
+  generateSoftwareSourceCodeSchema,
+  generateVideoObjectSchema,
   generateWebSiteSchema,
 } from '../../utils/jsonld'
 
 const { starlightRoute } = Astro.locals;
-const { entry, head } = starlightRoute;
+const { entry, head, id } = starlightRoute;
 
 const pageTitle = entry?.data?.title || "Untitled";
 const siteTitle = starlightRoute?.siteTitle || "Wyatt's Notes";
@@ -32,6 +35,38 @@ const urlParts = new URL(pageUrl).hostname.split('.');
 const subdomain = urlParts.length > 2 ? urlParts[0] : 'www';
 const siteName = subdomain === 'www' || subdomain === 'wyattsnotes' ? "Wyatt's Notes" : `${subdomain.charAt(0).toUpperCase() + subdomain.slice(1)} | Wyatt's Notes`;
 
+// Build breadcrumb trail from the page id (the slug) - matches PageTitle.astro logic
+function buildBreadcrumbs(id: string, siteTitle: string) {
+  const parts = id.split('/').filter(Boolean);
+  const crumbs = [{ name: 'Home', url: 'https://wyattau.com' }];
+
+  // Add site name as second breadcrumb
+  const hostname = Astro.url.hostname;
+  const siteUrl = `https://${hostname}`;
+  crumbs.push({ name: siteTitle, url: siteUrl });
+
+  let path = '';
+  for (let i = 0; i < parts.length; i++) {
+    path += `/${parts[i]}`;
+    const isLast = i === parts.length - 1;
+    // Convert slug to readable label: "1_forces-and-motion" → "Forces and Motion"
+    const label = parts[i]
+      .replace(/^\d+-/, '')        // Remove leading number prefix
+      .replace(/^\d+_/, '')        // Remove leading number_ prefix
+      .replace(/[-_]/g, ' ')       // Replace hyphens/underscores with spaces
+      .replace(/\b\w/g, c => c.toUpperCase()); // Capitalize words
+
+    if (isLast) {
+      crumbs.push({ name: label, url: pageUrl });
+    } else {
+      crumbs.push({ name: label, url: `${siteUrl}${path}/` });
+    }
+  }
+  return crumbs;
+}
+
+const breadcrumbItems = buildBreadcrumbs(id, siteTitle);
+
 // Generate schemas using shared utilities
 const organizationSchema = generateOrganizationSchema()
 const websiteSchema = generateWebSiteSchema()
@@ -43,35 +78,62 @@ const articleSchema = generateArticleSchema({
   dateModified,
 })
 const breadcrumbSchema = generateBreadcrumbSchema({
-  items: [
-    { name: 'Home', url: 'https://wyattau.com' },
-    { name: siteName, url: `https://${new URL(pageUrl).hostname}` },
-    { name: pageTitle, url: pageUrl },
-  ],
+  items: breadcrumbItems,
 })
-const faqSchema = generateFAQSchema([
-  {
-    question: 'What are Wyatt\'s Notes?',
-    answer: 'Wyatt\'s Notes are free, rigorous study notes covering IB, A-Level, GCSE, AP, DSE, university STEM, and programming topics.',
-  },
-  {
-    question: 'Are the study notes free?',
-    answer: 'Yes, all study notes on Wyatt\'s Notes are completely free and open to everyone.',
-  },
-])
-const howToSchema = generateHowToSchema({
-  name: pageTitle,
-  description,
-  steps: [
-    { name: 'Read the introduction', text: 'Read the introductory section to understand the context and prerequisites.' },
-    { name: 'Study the main content', text: 'Go through the main content sections, reviewing examples and explanations.' },
-    { name: 'Practice with examples', text: 'Apply what you learned by working through the practice problems and examples.' },
-  ],
-})
-const courseSchema = generateCourseSchema({
-  name: siteTitle,
-  description: 'Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.',
-})
+
+// Only generate page-specific schemas when frontmatter data exists
+const hasFAQ = entry?.data?.faq && Array.isArray(entry.data.faq) && entry.data.faq.length > 0;
+const hasHowTo = entry?.data?.howTo && Array.isArray(entry.data.howTo) && entry.data.howTo.steps?.length > 0;
+const hasCourse = entry?.data?.course && entry.data.course.name;
+const hasVideo = entry?.data?.video && entry.data.video.name;
+const hasImage = entry?.data?.image && entry.data.image.url;
+const hasCode = entry?.data?.code && entry.data.code.name;
+
+// Generate FAQ schema from frontmatter or fallback to site-wide FAQ for homepage only
+const faqSchema = hasFAQ
+  ? generateFAQSchema(entry.data.faq)
+  : subdomain === 'www' || subdomain === 'wyattsnotes'
+    ? generateFAQSchema([
+        {
+          question: 'What are Wyatt\'s Notes?',
+          answer: 'Wyatt\'s Notes are free, rigorous study notes covering IB, A-Level, GCSE, AP, DSE, university STEM, and programming topics.',
+        },
+        {
+          question: 'Are the study notes free?',
+          answer: 'Yes, all study notes on Wyatt\'s Notes are completely free and open to everyone.',
+        },
+      ])
+    : null
+
+// Generate HowTo schema from frontmatter or fallback for study guides
+const howToSchema = hasHowTo
+  ? generateHowToSchema(entry.data.howTo)
+  : entry?.data?.layout === 'study-guide'
+    ? generateHowToSchema({
+        name: pageTitle,
+        description,
+        steps: [
+          { name: 'Read the introduction', text: 'Read the introductory section to understand the context and prerequisites.' },
+          { name: 'Study the main content', text: 'Go through the main content sections, reviewing examples and explanations.' },
+          { name: 'Practice with examples', text: 'Apply what you learned by working through the practice problems and examples.' },
+        ],
+      })
+    : null
+
+// Generate Course schema from frontmatter or fallback for subject pages
+const courseSchema = hasCourse
+  ? generateCourseSchema(entry.data.course)
+  : entry?.data?.layout === 'subject'
+    ? generateCourseSchema({
+        name: siteTitle,
+        description: 'Free, rigorous study notes for IB, A-Level, GCSE, AP, DSE, university STEM, and programming.',
+      })
+    : null
+
+// Generate optional schemas from frontmatter
+const videoSchema = hasVideo ? generateVideoObjectSchema(entry.data.video) : null
+const imageSchema = hasImage ? generateImageObjectSchema(entry.data.image) : null
+const codeSchema = hasCode ? generateSoftwareSourceCodeSchema(entry.data.code) : null
 ---
 
 <!-- Page speed: preconnect to external origins -->
@@ -96,11 +158,7 @@ const courseSchema = generateCourseSchema({
 <link rel="dns-prefetch" href="https://mathematics.wyattau.com" />
 <link rel="dns-prefetch" href="https://physics.wyattau.com" />
 
-<!-- Page speed: preload critical assets -->
-<link rel="modulepreload" href="/reader.js" />
-<link rel="modulepreload" href="/cross-site-search.js" />
-<link rel="modulepreload" href="/page-search.js" />
-<link rel="modulepreload" href="/mermaid-render.js" />
+<!-- Page speed: preload critical assets (only for ES modules) -->
 
 <script>
   (function() {
@@ -142,6 +200,8 @@ const courseSchema = generateCourseSchema({
 <meta property="og:description" content={description} />
 <meta property="og:site_name" content={siteName} />
 <meta property="og:image" content={`${new URL(pageUrl).origin}/img/social-card.svg`} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 <meta property="og:locale" content="en_US" />
 
 <!-- Twitter -->
@@ -161,24 +221,30 @@ const courseSchema = generateCourseSchema({
 
 <script is:inline>
 (function() {
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').then(function(reg) {
-      // SW registered
-      reg.addEventListener('updatefound', function() {
-        var newSW = reg.installing
-        newSW.addEventListener('statechange', function() {
-          if (newSW.state === 'installed' && navigator.serviceWorker.controller) {
-            // New SW available
-            newSW.postMessage({ type: 'SKIP_WAITING' })
-          }
+  function registerSW() {
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').then(function(reg) {
+        reg.addEventListener('updatefound', function() {
+          var newSW = reg.installing
+          newSW.addEventListener('statechange', function() {
+            if (newSW.state === 'installed' && navigator.serviceWorker.controller) {
+              newSW.postMessage({ type: 'SKIP_WAITING' })
+            }
+          })
         })
+      }).catch(function(err) {
+        // SW registration failed
       })
-    }).catch(function(err) {
-      // SW registration failed
-    })
-    navigator.serviceWorker.addEventListener('controllerchange', function() {
-      window.location.reload()
-    })
+      navigator.serviceWorker.addEventListener('controllerchange', function() {
+        window.location.reload()
+      })
+    }
+  }
+  // Defer SW registration to not block rendering
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(registerSW, { timeout: 5000 })
+  } else {
+    setTimeout(registerSW, 1000)
   }
 })()
 </script>
@@ -220,7 +286,15 @@ const courseSchema = generateCourseSchema({
     document.addEventListener('keydown',function(e){if(e.key==='Escape'&&el.getAttribute('aria-hidden')==='false'){el.setAttribute('aria-hidden','true');document.body.classList.remove('site-nav-open')}})
     return el
   }
-  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',injectSitesButton)}else{injectSitesButton()}
+  // Defer site nav injection to not block rendering
+  function init() {
+    if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',injectSitesButton)}else{injectSitesButton()}
+  }
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(init, { timeout: 3000 })
+  } else {
+    setTimeout(init, 500)
+  }
 })()
 </script>
 
@@ -237,25 +311,12 @@ const courseSchema = generateCourseSchema({
 <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
 <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
-<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
-<script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />
-<script type="application/ld+json" set:html={JSON.stringify(courseSchema)} />
-
-<!-- PracticeProblem Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "EducationalOccupationalCredential",
-  "name": "Practice Problems",
-  "description": "Practice problems and worked examples for exam preparation",
-  "provider": {
-    "@type": "Organization",
-    "name": "Wyatt's Notes",
-    "url": "https://wyattau.com"
-  },
-  "educationalLevel": "Secondary"
-}
-</script>
+{faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+{howToSchema && <script type="application/ld+json" set:html={JSON.stringify(howToSchema)} />}
+{courseSchema && <script type="application/ld+json" set:html={JSON.stringify(courseSchema)} />}
+{videoSchema && <script type="application/ld+json" set:html={JSON.stringify(videoSchema)} />}
+{imageSchema && <script type="application/ld+json" set:html={JSON.stringify(imageSchema)} />}
+{codeSchema && <script type="application/ld+json" set:html={JSON.stringify(codeSchema)} />}
 
 <!-- RSS Feed -->
 <link rel="alternate" type="application/rss+xml" title="Wyatt's Notes RSS" href="/rss.xml" />
