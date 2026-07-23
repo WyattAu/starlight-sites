@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "2_organic Chemistry Advanced", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/2_organic-chemistry-advanced"}]
-}
-</script>
 title: Organic Chemistry (Advanced)
 description: "IB Chemistry — reaction mechanisms, stereochemistry, addition and condensation polymers, and spectroscopic identification."
 date: 2024-01-01T00:00:00Z

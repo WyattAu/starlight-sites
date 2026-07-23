@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Rust", "url": "https://languages.wyattau.com/rust"}, {"name": "02 Ownership Borrowing", "url": "https://languages.wyattau.com/rust/02-ownership-borrowing"}, {"name": "Interior Mutability", "url": "https://languages.wyattau.com/rust/02-ownership-borrowing/interior-mutability"}]
-}
-</script>
 title: Interior Mutability
 description: "Rust' s borrowing rules state that a shared reference () is immutable — you cannot modify the Data through it. This is a compile-time guarantee that prevents"
 

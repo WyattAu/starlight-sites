@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "Diagnostics", "url": "https://security.wyattau.com/diagnostics"}, {"name": "Diag Security", "url": "https://security.wyattau.com/diagnostics/diag-security"}]
-}
-</script>
 title: "Diagnostic Test: Security"
 description: "Self-assessment quiz on security fundamentals"
 sidebar_position: 60

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
-}
-</script>
 title: Chemistry - Chemical Equilibrium
 description: "A reversible reaction is one that can proceed in both the forward and reverse di Comprehensive educational content coverage with definitions and practice proble"
 tags: [DSE, Chemistry]

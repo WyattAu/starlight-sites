@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "3_compile_time_computation", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/3_compile_time_computation"}, {"name": "4_type_traits", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/4_type_traits"}]
-}
-</script>
 title: Type Traits and Static Reflection Patterns
 description: "Type traits provide compile-time type introspection and transformation, forming the foundation of Generic programming in C++. Combined with techniques like"
 date: 2026-04-03T00:00:00.000Z

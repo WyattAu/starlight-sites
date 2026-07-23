@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Cognitive", "url": "https://ib.wyattau.com/psychology/cognitive"}, {"name": "Language And Thought", "url": "https://ib.wyattau.com/psychology/cognitive/language-and-thought"}]
-}
-</script>
 title: Language and Thought
 description: "The relationship between language and thought is one of the most fundamental questions in cognitive Psychology and linguistics. The central question is"
 

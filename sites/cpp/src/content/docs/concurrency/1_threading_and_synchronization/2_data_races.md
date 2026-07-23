@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Concurrency", "url": "https://cpp.wyattau.com/concurrency"}, {"name": "1_threading_and_synchronization", "url": "https://cpp.wyattau.com/concurrency/1_threading_and_synchronization"}, {"name": "2_data_races", "url": "https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/2_data_races"}]
-}
-</script>
 title: Data Races and Critical Sections
 description: "This section covers the formal definition of data races in the C++ memory model, their undefined Behavior consequences, critical sections, the distinction"
 date: 2026-04-03T00:00:00.000Z

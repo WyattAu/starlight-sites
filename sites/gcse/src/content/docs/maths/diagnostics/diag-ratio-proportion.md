@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/maths/diagnostics"}, {"name": "Diag Ratio Proportion", "url": "https://gcse.wyattau.com/maths/diagnostics/diag-ratio-proportion"}]
-}
-</script>
 title: "Ratio, Proportion, and Rates of Change -- Diagnostic Tests"
 description: "(a) Divide in the ratio 2:3:7. (b) The ratio of boys to girls in a class is 5:3. If there are 15 girls, how many boys are there? (c) A recipe for 6 people"
 tableOfContents: false

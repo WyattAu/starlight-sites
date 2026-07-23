@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/english/diagnostics"}, {"name": "Diag Literary Analysis", "url": "https://alevel.wyattau.com/english/diagnostics/diag-literary-analysis"}]
-}
-</script>
 title: "Diagnostic Test: Literary Analysis"
 description: "Self-assessment quiz on A-Level English literary analysis"
 sidebar_position: 30

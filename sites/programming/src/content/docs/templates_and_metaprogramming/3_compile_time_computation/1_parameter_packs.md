@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://programming.wyattau.com/templates_and_metaprogramming"}, {"name": "3_compile_time_computation", "url": "https://programming.wyattau.com/templates_and_metaprogramming/3_compile_time_computation"}, {"name": "1_parameter_packs", "url": "https://programming.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/1_parameter_packs"}]
-}
-</script>
 title: Parameter Packs and Variadic Templates
 description: "A accepts a variable number of template arguments via a [N4950 §13.7.3]. Parameter packs come in two forms: type parameter packs and non-type parameter"
 date: 2026-04-03T00:00:00.000Z

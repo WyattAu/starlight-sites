@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "3 Databases", "url": "https://highers.wyattau.com/computer-science/3-databases"}, {"name": "3_databases", "url": "https://highers.wyattau.com/computer-science/3-databases/3_databases"}]
-}
-</script>
 title: Database Design and Development
 description: "Scottish Highers Computer Science Database Design and notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-14

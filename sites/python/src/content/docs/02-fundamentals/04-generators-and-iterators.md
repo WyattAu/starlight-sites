@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "02 Fundamentals", "url": "https://python.wyattau.com/02-fundamentals"}, {"name": "04 Generators And Iterators", "url": "https://python.wyattau.com/02-fundamentals/04-generators-and-iterators"}]
-}
-</script>
 title: Generators and Iterators
 description: "Python' s iteration mechanism is built on a two-method protocol defined by the data model. Any object That implements and is an iterator. The CPython"
 date: 2026-04-05T00:00:00.000Z

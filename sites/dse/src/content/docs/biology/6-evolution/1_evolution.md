@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "6 Evolution", "url": "https://dse.wyattau.com/biology/6-evolution"}, {"name": "1_evolution", "url": "https://dse.wyattau.com/biology/6-evolution/1_evolution"}]
-}
-</script>
 title: Evolution
 description: "The is the total collection of all the alleles of all the genes in a population at a given time. Population genetics studies the composition of the gene"
 date: 2026-04-08T00:00:00.000Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "2_build_system", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system"}, {"name": "1_cmake_targets_properties_generator", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator"}]
-}
-</script>
 title: CMake Targets Properties and Generator Expressions
 description: "Legacy CMake (versions pre-3.0) relied on global state variables and directory-scope commands (e.g., ). This approach prevents modularity and leaks"
 date: 2025-12-10T05:41:36.284Z

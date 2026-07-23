@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "05 Traits Generics", "url": "https://rust.wyattau.com/05-traits-generics"}, {"name": "Traits And Generics", "url": "https://rust.wyattau.com/05-traits-generics/traits-and-generics"}]
-}
-</script>
 title: Traits and Generics
 description: "Traits are Rust' s answer to interfaces, type classes, and concepts. They define shared behavior that Types can implement. Unlike inheritance, traits are"
 

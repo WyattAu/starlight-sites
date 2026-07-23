@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "05 Advanced Topics", "url": "https://tools.wyattau.com/git/05-advanced-topics"}, {"name": "06 Cherry Pick", "url": "https://tools.wyattau.com/git/05-advanced-topics/06-cherry-pick"}]
-}
-</script>
 title: Cherry-Pick
 description: "applies the introduced by a specific commit onto the current branch as a . It does not move or copy the original commit object — it computes the patch That"
 

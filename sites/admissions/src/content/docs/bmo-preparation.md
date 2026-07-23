@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Bmo Preparation", "url": "https://admissions.wyattau.com/bmo-preparation"}]
-}
-</script>
 title: BMO Preparation
 description: "University Admissions BMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for effective revision."
 date: 2026-05-05T00:00:00.000Z

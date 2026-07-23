@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Causes And Effects Of Wars", "url": "https://ib.wyattau.com/history/causes-and-effects-of-wars"}]
-}
-</script>
 title: Causes and Effects of Wars
 date: 2026-05-31
 tags:

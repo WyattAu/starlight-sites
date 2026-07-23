@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "admissions", "url": "https://admissions.wyattau.com"}, {"name": "Intro", "url": "https://admissions.wyattau.com/intro"}]
-}
-</script>
 title: Admissions
 description: "Introduction to admissions notes."
 ---

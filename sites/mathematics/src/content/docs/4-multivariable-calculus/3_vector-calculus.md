@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "4 Multivariable Calculus", "url": "https://mathematics.wyattau.com/4-multivariable-calculus"}, {"name": "3_vector Calculus", "url": "https://mathematics.wyattau.com/4-multivariable-calculus/3_vector-calculus"}]
-}
-</script>
 title: Vector Calculus
 tags:
   - Mathematics

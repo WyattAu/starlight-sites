@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "4 Development Economics", "url": "https://ib.wyattau.com/economics/4-development-economics"}, {"name": "3 Trade And Aid", "url": "https://ib.wyattau.com/economics/4-development-economics/3-trade-and-aid"}]
-}
-</script>
 title: Trade and Aid
 description: "IB Economics Trade and Aid notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and examination practice."
 date: 2026-05-21

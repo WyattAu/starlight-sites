@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Physics", "url": "https://leaving-cert.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/physics/diagnostics"}, {"name": "Diag Mechanics", "url": "https://leaving-cert.wyattau.com/physics/diagnostics/diag-mechanics"}]
-}
-</script>
 title: "Mechanics -- Diagnostic Tests"
 description: "QUALIFICATIONS Ilc notes: Mechanics -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."
 tableOfContents: false

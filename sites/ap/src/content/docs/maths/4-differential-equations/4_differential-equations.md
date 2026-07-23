@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Maths", "url": "https://ap.wyattau.com/maths"}, {"name": "4 Differential Equations", "url": "https://ap.wyattau.com/maths/4-differential-equations"}, {"name": "4_differential Equations", "url": "https://ap.wyattau.com/maths/4-differential-equations/4_differential-equations"}]
-}
-</script>
 title: Differential Equations
 description: "A (DE) is an equation that relates a function to one or more of its Derivatives. The of a DE is the highest derivative that appears. A first-order DE"
 date: 2026-04-14

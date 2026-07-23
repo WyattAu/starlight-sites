@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "4 Drama", "url": "https://alevel.wyattau.com/english/4-drama"}, {"name": "1_drama Analysis", "url": "https://alevel.wyattau.com/english/4-drama/1_drama-analysis"}]
-}
-</script>
 title: Drama Analysis
 date: 2026-01-15T00:00:00.000Z
 tags:

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Zfs Encryption", "url": "https://truenas.wyattau.com/zfs-encryption"}]
-}
-</script>
 title: ZFS Encryption
 description: "ZFS native encryption is a dataset-level encryption mechanism integrated into the ZFS storage stack, introduced in OpenZFS 0.8 (ZoL 0.8.0, FreeBSD 12.0). It"
 date: 2026-04-07T00:00:00.000Z

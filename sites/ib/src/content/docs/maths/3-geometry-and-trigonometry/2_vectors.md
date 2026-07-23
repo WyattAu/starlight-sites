@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "2_vectors", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/2_vectors"}]
-}
-</script>
 title: Vectors
 description: 'Rigorous IB mathematics notes covering Vectors. Includes definitions, derivations, worked examples, and exam-style problems.'
 date: 2024-01-01T00:00:00Z

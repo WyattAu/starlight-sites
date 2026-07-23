@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "licensing", "url": "https://licensing.wyattau.com"}, {"name": "Intro", "url": "https://licensing.wyattau.com/intro"}]
-}
-</script>
 title: Licensing
 description: "Introduction to licensing notes."
 ---

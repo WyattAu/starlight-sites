@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Chemistry", "url": "https://gcse.wyattau.com/chemistry"}, {"name": "4 Chemical Changes", "url": "https://gcse.wyattau.com/chemistry/4-chemical-changes"}, {"name": "4_chemical Changes", "url": "https://gcse.wyattau.com/chemistry/4-chemical-changes/4_chemical-changes"}]
-}
-</script>
 title: Chemical Reactions
 description: "GCSE Chemistry Chemical Reactions notes covering key definitions, core concepts, worked examples, and practice questions for clear revision."
 date: 2026-04-14

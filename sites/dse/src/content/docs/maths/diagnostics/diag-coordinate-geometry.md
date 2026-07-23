@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/maths/diagnostics"}, {"name": "Diag Coordinate Geometry", "url": "https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry"}]
-}
-</script>
 title: "Coordinate Geometry -- Diagnostic Tests"
 description: "DSE Maths Coordinate Geometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision."
 tableOfContents: false

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "11_probability", "url": "https://dse.wyattau.com/maths/compulsory/11_probability"}]
-}
-</script>
 title: Probability
 description: "Probability theory provides a rigorous mathematical framework for quantifying uncertainty. In the DSE compulsory syllabus, we focus on discrete probability"
 date: 2025-06-03T12:07:31.077Z

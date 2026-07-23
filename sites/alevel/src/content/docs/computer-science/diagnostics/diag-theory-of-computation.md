@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Theory Of Computation", "url": "https://alevel.wyattau.com/computer-science/diagnostics/diag-theory-of-computation"}]
-}
-</script>
 title: "Theory of Computation -- Diagnostic Tests"
 description: "A-Level Computer Science Theory of Computation -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

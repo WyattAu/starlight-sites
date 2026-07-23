@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "9 Pre 1900 Poetry", "url": "https://alevel.wyattau.com/english/9-pre-1900-poetry"}, {"name": "1_pre1900_poetry", "url": "https://alevel.wyattau.com/english/9-pre-1900-poetry/1_pre1900_poetry"}]
-}
-</script>
 title: "Pre-1900 Poetry"
 date: 2026-01-15T00:00:00.000Z
 sidebar_position: 11

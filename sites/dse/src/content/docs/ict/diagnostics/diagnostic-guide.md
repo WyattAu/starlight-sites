@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/ict/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://dse.wyattau.com/ict/diagnostics/diagnostic-guide"}]
-}
-</script>
 title: "DSE ICT -- Diagnostic Guide"
 description: "| Diagnostic File | Topics Covered | Source File | | ---------------------------------------------- | -------------------------------------------------------"
 tableOfContents: false

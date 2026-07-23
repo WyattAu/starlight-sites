@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/english/diagnostics"}, {"name": "Diag Reading Nonfiction", "url": "https://gcse.wyattau.com/english/diagnostics/diag-reading-nonfiction"}]
-}
-</script>
 title: "Reading Non-Fiction -- Diagnostic Tests"
 description: "Comprehensive educational content notes on reading non-fiction -- diagnostic tests with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false

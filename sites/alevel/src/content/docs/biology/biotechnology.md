@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Biotechnology", "url": "https://alevel.wyattau.com/biology/biotechnology"}]
-}
-</script>
 title: Biotechnology
 description: "Recombinant DNA technology involves combining DNA from different sources to create new, artificial DNA molecules that can be introduced into host organisms."
 date: 2026-04-18T00:00:00.000Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Advanced", "url": "https://go.wyattau.com/advanced"}, {"name": "Pointers And Memory", "url": "https://go.wyattau.com/advanced/pointers-and-memory"}]
-}
-</script>
 title: Pointers and Memory
 description: "Go has pointers, but no pointer arithmetic (except via ). Pointers hold the memo Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18

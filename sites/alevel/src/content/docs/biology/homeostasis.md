@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Homeostasis", "url": "https://alevel.wyattau.com/biology/homeostasis"}]
-}
-</script>
 title: Homeostasis
 description: "is the maintenance of a constant internal environment within narrow limits, despite changes in the external environment. It is essential for the optimal"
 date: 2026-04-18T00:00:00.000Z

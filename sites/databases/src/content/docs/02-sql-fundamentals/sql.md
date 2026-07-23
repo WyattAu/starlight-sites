@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "02 Sql Fundamentals", "url": "https://databases.wyattau.com/02-sql-fundamentals"}, {"name": "Sql", "url": "https://databases.wyattau.com/02-sql-fundamentals/sql"}]
-}
-</script>
 title: SQL Fundamentals
 description: "SQL is defined by ANSI/ISO standards (SQL-86, SQL-89, SQL-92, SQL:1999, SQL:2003, SQL:2006, SQL:2008, SQL:2011, SQL:2016, SQL:2019, SQL:2023). No database"
 tags:

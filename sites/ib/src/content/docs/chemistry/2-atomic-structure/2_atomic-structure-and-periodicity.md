@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "2_atomic Structure And Periodicity", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity"}]
-}
-</script>
 title: Atomic Structure and Periodicity
 description: "Rigorous IB chemistry notes covering Atomic Structure and Periodicity. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Hyperbolic Functions", "url": "https://alevel.wyattau.com/further-maths/pure/hyperbolic-functions"}]
-}
-</script>
 title: Hyperbolic Functions (Extended)
 description: "This document provides a rigorous treatment of hyperbolic functions, their ident Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-23T00:00:00.000Z

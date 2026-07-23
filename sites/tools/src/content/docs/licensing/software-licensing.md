@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Licensing", "url": "https://tools.wyattau.com/licensing"}, {"name": "Software Licensing", "url": "https://tools.wyattau.com/licensing/software-licensing"}]
-}
-</script>
 title: Software Licensing
 description: "AGPLv3 is the GNU Affero General Public License version 3, published by the Free Software Foundation In 2007. It is identical to GPLv3 with one critical"
 date: 2025-07-07T23:37:45.807Z

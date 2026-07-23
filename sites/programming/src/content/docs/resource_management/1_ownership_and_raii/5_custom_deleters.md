@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Resource_management", "url": "https://programming.wyattau.com/resource_management"}, {"name": "1_ownership_and_raii", "url": "https://programming.wyattau.com/resource_management/1_ownership_and_raii"}, {"name": "5_custom_deleters", "url": "https://programming.wyattau.com/resource_management/1_ownership_and_raii/5_custom_deleters"}]
-}
-</script>
 title: Common Pitfalls
 description: "Smart pointers eliminate many classes of resource bugs, but misuse still leads to leaks, undefined Behavior, and performance regressions. This section"
 date: 2026-04-03T00:00:00.000Z

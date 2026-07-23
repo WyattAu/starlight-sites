@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "02 Ownership Borrowing", "url": "https://rust.wyattau.com/02-ownership-borrowing"}, {"name": "Lifetimes", "url": "https://rust.wyattau.com/02-ownership-borrowing/lifetimes"}]
-}
-</script>
 title: Lifetimes
 description: "Rust' s borrow checker must ensure that every reference is valid for its entire use. Without lifetime Annotations, the compiler cannot prove that a reference"
 

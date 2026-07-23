@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Maths", "url": "https://leaving-cert.wyattau.com/maths"}, {"name": "5 Number Sequences", "url": "https://leaving-cert.wyattau.com/maths/5-number-sequences"}, {"name": "5_number Sequences", "url": "https://leaving-cert.wyattau.com/maths/5-number-sequences/5_number-sequences"}]
-}
-</script>
 title: Number Sets and Sequences
 description: "This topic covers number systems, set theory, sequences, series, and financial mathematics. These Concepts underpin much of the algebra and calculus in the"
 date: 2026-04-14

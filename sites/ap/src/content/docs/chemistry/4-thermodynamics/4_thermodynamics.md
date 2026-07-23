@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Chemistry", "url": "https://ap.wyattau.com/chemistry"}, {"name": "4 Thermodynamics", "url": "https://ap.wyattau.com/chemistry/4-thermodynamics"}, {"name": "4_thermodynamics", "url": "https://ap.wyattau.com/chemistry/4-thermodynamics/4_thermodynamics"}]
-}
-</script>
 title: Thermodynamics
 description: "Qualifications Chemistry Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 date: 2026-04-14

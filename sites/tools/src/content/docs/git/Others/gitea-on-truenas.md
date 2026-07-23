@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "Others", "url": "https://tools.wyattau.com/git/Others"}, {"name": "Gitea On Truenas", "url": "https://tools.wyattau.com/git/Others/gitea-on-truenas"}]
-}
-</script>
 title: Hosting With Gitea On TrueNAS
 description: "1. Since there is built in support for Gitea with TrueCharts, install Gitea using . Assign a dedicated dataset (eg, ) for persistent storage. 2. Set the"
 date: 2025-06-13T18:10:33.853Z

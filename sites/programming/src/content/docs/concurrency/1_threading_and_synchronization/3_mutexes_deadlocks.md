@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Concurrency", "url": "https://programming.wyattau.com/concurrency"}, {"name": "1_threading_and_synchronization", "url": "https://programming.wyattau.com/concurrency/1_threading_and_synchronization"}, {"name": "3_mutexes_deadlocks", "url": "https://programming.wyattau.com/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks"}]
-}
-</script>
 title: Mutexes, Shared Locks, and Deadlock Prevention
 description: "This section covers RAII lock wrappers (), reader-writer locks (), the four Coffman Deadlock conditions, and deadlock prevention strategies."
 date: 2026-04-03T00:00:00.000Z

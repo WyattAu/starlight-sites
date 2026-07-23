@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Maths", "url": "https://leaving-cert.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra", "url": "https://leaving-cert.wyattau.com/maths/diagnostics/diag-algebra"}]
-}
-</script>
 title: "Algebra -- Diagnostic Tests"
 description: "Algebra -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "1 Microeconomics", "url": "https://ib.wyattau.com/economics/1-microeconomics"}, {"name": "2_elasticity", "url": "https://ib.wyattau.com/economics/1-microeconomics/2_elasticity"}]
-}
-</script>
 title: Elasticity
 description: "IB Economics — price, income, and cross-price elasticity of demand and supply. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examination."
 date: 2026-05-21

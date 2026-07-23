@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Concurrency", "url": "https://programming.wyattau.com/concurrency"}, {"name": "2_memory_model_and_atomics", "url": "https://programming.wyattau.com/concurrency/2_memory_model_and_atomics"}, {"name": "4_memory_orderings", "url": "https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/4_memory_orderings"}]
-}
-</script>
 title: Memory Orderings
 description: "This section covers the enum values, relaxed ordering, acquire/release Semantics, sequentially consistent ordering, a producer-consumer example with"
 date: 2026-04-03T00:00:00.000Z

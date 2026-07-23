@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Resource_management", "url": "https://programming.wyattau.com/resource_management"}, {"name": "0_intro", "url": "https://programming.wyattau.com/resource_management/0_intro"}]
-}
-</script>
 title: Resource Management and Move Semantics
 description: "Part 4 addresses the central problem in systems programming: Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-03-31T00:00:00.000Z

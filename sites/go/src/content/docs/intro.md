@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Intro", "url": "https://go.wyattau.com/intro"}]
-}
-</script>
 title: Introduction to Go
 description: 'Go Introduction to Go notes covering key definitions, core concepts, worked examples, and practice questions for focused study and examination practice.'
 date: 2026-04-18

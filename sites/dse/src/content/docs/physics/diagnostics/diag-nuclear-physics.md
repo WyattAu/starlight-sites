@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Nuclear Physics", "url": "https://dse.wyattau.com/physics/diagnostics/diag-nuclear-physics"}]
-}
-</script>
 title: "Nuclear Physics -- Diagnostic Tests"
 description: "DSE Nuclear Physics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 tableOfContents: false

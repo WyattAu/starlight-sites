@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Economic Development", "url": "https://dse.wyattau.com/geography/economic-development"}]
-}
-</script>
 title: Industrial Location and Economic Development
 description: "Economic development in East Asia, core-periphery models, globalisation, Belt and Road Initiative, and Hong Kong's economic transition for DSE Geography."
 sidebar_position: 4

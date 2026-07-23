@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "Index", "url": "https://highers.wyattau.com/maths/index"}]
-}
-</script>
 title: Scottish Highers Mathematics
 description: "Higher Mathematics develops algebraic, trigonometric, and calculus skills essential for STEM subjects and university entry. The course covers functions,"
 date: 2026-04-14

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Error Handling", "url": "https://languages.wyattau.com/typescript/error-handling"}]
-}
-</script>
 title: Error Handling
 description: "The type is the of the TypeScript type system. It has no inhabitants: no Value of type can exist at runtime. It is a subtype of every type, and no type is a"
 date: 2026-04-22T00:00:00.000Z

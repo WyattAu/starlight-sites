@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Standard_library", "url": "https://cpp.wyattau.com/standard_library"}, {"name": "1_containers_and_allocators", "url": "https://cpp.wyattau.com/standard_library/1_containers_and_allocators"}, {"name": "4_pmr", "url": "https://cpp.wyattau.com/standard_library/1_containers_and_allocators/4_pmr"}]
-}
-</script>
 title: Polymorphic Memory Resources (PMR)
 description: "C++17 introduced (PMR) in Enabling Containers to use different allocation strategies without changing their type. PMR decouples the Allocation strategy from"
 date: 2026-04-03T00:00:00.000Z

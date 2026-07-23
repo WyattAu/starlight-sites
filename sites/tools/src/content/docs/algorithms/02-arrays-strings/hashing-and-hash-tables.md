@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "02 Arrays Strings", "url": "https://tools.wyattau.com/algorithms/02-arrays-strings"}, {"name": "Hashing And Hash Tables", "url": "https://tools.wyattau.com/algorithms/02-arrays-strings/hashing-and-hash-tables"}]
-}
-</script>
 title: Hashing and Hash Tables
 description: "A hash function maps an input from a large domain to a smaller, fixed-size range Comprehensive educational content coverage with definitions and practice proble"
 

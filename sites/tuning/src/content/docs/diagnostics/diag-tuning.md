@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Diagnostics", "url": "https://tuning.wyattau.com/diagnostics"}, {"name": "Diag Tuning", "url": "https://tuning.wyattau.com/diagnostics/diag-tuning"}]
-}
-</script>
 title: "Diagnostic Test: Performance Tuning"
 description: "Self-assessment quiz on performance tuning"
 sidebar_position: 60

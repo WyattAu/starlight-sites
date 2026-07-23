@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "11 Measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing"}, {"name": "1_measurement And Data Processing", "url": "https://ib.wyattau.com/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing"}]
-}
-</script>
 title: Measurement and Data Processing
 description: "Rigorous IB chemistry notes covering Measurement and Data Processing. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

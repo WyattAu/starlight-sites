@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "03 Branching And Merging", "url": "https://tools.wyattau.com/git/03-branching-and-merging"}, {"name": "02 Merging", "url": "https://tools.wyattau.com/git/03-branching-and-merging/02-merging"}]
-}
-</script>
 title: Merging
 description: "Git merging strategies and techniques."
 date: 2025-06-03T03:00:00.000Z

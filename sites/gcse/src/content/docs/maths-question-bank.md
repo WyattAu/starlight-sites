@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths Question Bank", "url": "https://gcse.wyattau.com/maths-question-bank"}]
-}
-</script>
 title: Maths Question Bank
 date: 2026-05-30
 description: "20 exam-style multiple-choice questions organised by topic. Each question includes four options, the correct answer, a full explanation, a difficulty badge,"

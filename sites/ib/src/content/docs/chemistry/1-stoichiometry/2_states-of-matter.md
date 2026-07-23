@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "1 Stoichiometry", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry"}, {"name": "2_states Of Matter", "url": "https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter"}]
-}
-</script>
 title: States of Matter
 description: "Rigorous IB chemistry notes covering States of Matter. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

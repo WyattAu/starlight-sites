@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Chemistry", "url": "https://ap.wyattau.com/chemistry"}, {"name": "2 Bonding And Intermolecular Forces", "url": "https://ap.wyattau.com/chemistry/2-bonding-and-intermolecular-forces"}, {"name": "2_bonding And Intermolecular Forces", "url": "https://ap.wyattau.com/chemistry/2-bonding-and-intermolecular-forces/2_bonding-and-intermolecular-forces"}]
-}
-</script>
 title: Bonding and Intermolecular Forces
 description: "Qualifications Chemistry Bonding and Intermolecular Forces notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-14

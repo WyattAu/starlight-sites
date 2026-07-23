@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "6 Government Policy", "url": "https://dse.wyattau.com/economics/6-government-policy"}, {"name": "1_fiscal And Monetary Policy", "url": "https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy"}]
-}
-</script>
 title: Fiscal and Monetary Policy
 description: "Fiscal and monetary policy for DSE Economics."
 date: 2026-04-08T00:00:00.000Z

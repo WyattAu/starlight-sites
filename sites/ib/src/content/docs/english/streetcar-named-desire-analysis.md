@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Streetcar Named Desire Analysis", "url": "https://ib.wyattau.com/english/streetcar-named-desire-analysis"}]
-}
-</script>
 title: A Streetcar Named Desire — Close Reading and Analysis
 tags:
   - IB

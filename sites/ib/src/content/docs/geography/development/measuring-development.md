@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Development", "url": "https://ib.wyattau.com/geography/development"}, {"name": "Measuring Development", "url": "https://ib.wyattau.com/geography/development/measuring-development"}]
-}
-</script>
 title: Measuring Development
 description: "Development is a multidimensional concept encompassing economic progress, social well-being, Environmental sustainability, political freedom, and quality of"
 

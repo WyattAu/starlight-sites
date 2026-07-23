@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Macro", "url": "https://alevel.wyattau.com/economics/macro"}, {"name": "02 Aggregate Demand And Supply", "url": "https://alevel.wyattau.com/economics/macro/02-aggregate-demand-and-supply"}]
-}
-</script>
 title: Aggregate Demand and Aggregate Supply
 description: "We define as the total planned expenditure on goods and services in an Economy a Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-06-02T16:25:28.480Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Function_architecture", "url": "https://programming.wyattau.com/function_architecture"}, {"name": "2_error_handling", "url": "https://programming.wyattau.com/function_architecture/2_error_handling"}, {"name": "1_exception_abi", "url": "https://programming.wyattau.com/function_architecture/2_error_handling/1_exception_abi"}]
-}
-</script>
 title: The Itanium Exception ABI
 description: "The dominant exception model on all major platforms (GCC, Clang, MSVC on x64) is the model specified informally by the Itanium C++ ABI and adopted as the"
 date: 2026-04-03T00:00:00.000Z

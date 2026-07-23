@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "2_human Reproduction And Homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis"}]
-}
-</script>
 title: Human Reproduction and Homeostasis
 description: "| Structure | Function | | ------------------------------------ | -------------------------------------------------------------------------------------------"
 date: 2026-04-08T00:00:00.000Z

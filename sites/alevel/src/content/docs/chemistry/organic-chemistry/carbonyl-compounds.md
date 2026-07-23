@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}, {"name": "Carbonyl Compounds", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry/carbonyl-compounds"}]
-}
-</script>
 title: Carbonyl Compounds
 description: "Carbonyl compounds contain the C=O functional group. The carbonyl carbon is hybridised with Trigonal planar geometry. The oxygen is more electronegative"
 date: 2026-04-22T00:00:00.000Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://ib.wyattau.com/biology/diagnostics/diag-cell-biology"}]
-}
-</script>
 title: "Cell Biology -- Diagnostic Tests"
 description: "IB Cell Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."
 tableOfContents: false

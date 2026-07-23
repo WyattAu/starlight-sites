@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "2 Particulate Nature Of Matter", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/2-particulate-nature-of-matter/9_wrap-up"}]
-}
-</script>
 title: Wrap Up
 description: "Rigorous IB physics notes covering Wrap Up. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

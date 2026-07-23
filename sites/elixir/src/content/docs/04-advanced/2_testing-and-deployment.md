@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "elixir", "url": "https://elixir.wyattau.com"}, {"name": "04 Advanced", "url": "https://elixir.wyattau.com/04-advanced"}, {"name": "2_testing And Deployment", "url": "https://elixir.wyattau.com/04-advanced/2_testing-and-deployment"}]
-}
-</script>
 title: Testing and Deployment
 description: "ExUnit is the built-in testing framework for Elixir. It ships with the language and provides everything needed for unit testing, integration testing, and"
 date: 2026-06-04T10:00:00.000Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/english/diagnostics"}, {"name": "Diag Poetry Analysis", "url": "https://ib.wyattau.com/english/diagnostics/diag-poetry-analysis"}]
-}
-</script>
 title: "Diagnostic Test: Poetry Analysis"
 description: "Self-assessment quiz on IB English poetry analysis skills"
 sidebar_position: 30

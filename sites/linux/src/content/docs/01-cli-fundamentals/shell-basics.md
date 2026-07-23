@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "01 Cli Fundamentals", "url": "https://linux.wyattau.com/01-cli-fundamentals"}, {"name": "Shell Basics", "url": "https://linux.wyattau.com/01-cli-fundamentals/shell-basics"}]
-}
-</script>
 title: Shell Basics
 description: "A shell is both an and a . When you open a terminal emulator, it spawns a shell process — Or . When you run a script with The shebang line determines which"
 

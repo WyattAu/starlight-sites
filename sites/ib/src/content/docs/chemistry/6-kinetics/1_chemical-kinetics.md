@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "6 Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics"}, {"name": "1_chemical Kinetics", "url": "https://ib.wyattau.com/chemistry/6-kinetics/1_chemical-kinetics"}]
-}
-</script>
 title: Chemical Kinetics
 description: "Rigorous IB chemistry notes covering Chemical Kinetics. Includes definitions, derivations, worked examples, and exam-style problems. collision theory."
 date: 2024-01-01T00:00:00Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "1 Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure"}, {"name": "1_atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure"}]
-}
-</script>
 title: Atomic Structure
 description: "Atomic structure is the foundation of chemistry, covering the composition of atoms, electron Configuration, atomic spectra, and periodic trends."
 date: 2026-04-14

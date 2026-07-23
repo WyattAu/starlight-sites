@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "06 Database Design", "url": "https://databases.wyattau.com/06-database-design"}, {"name": "Migrations", "url": "https://databases.wyattau.com/06-database-design/migrations"}]
-}
-</script>
 title: Schema Migrations
 description: "Schema changes in a production database are one of the highest-risk operations you perform. A bad Migration can corrupt data, cause extended downtime, or"
 

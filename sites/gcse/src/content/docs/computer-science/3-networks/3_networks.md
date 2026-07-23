@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "3 Networks", "url": "https://gcse.wyattau.com/computer-science/3-networks"}, {"name": "3_networks", "url": "https://gcse.wyattau.com/computer-science/3-networks/3_networks"}]
-}
-</script>
 title: Networks
 description: "| Feature | LAN (Local Area Network) | WAN (Wide Area Network) | | --------- | ----------------------------------- | --------------------------------------"
 date: 2026-04-14

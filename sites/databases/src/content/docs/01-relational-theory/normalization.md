@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "01 Relational Theory", "url": "https://databases.wyattau.com/01-relational-theory"}, {"name": "Normalization", "url": "https://databases.wyattau.com/01-relational-theory/normalization"}]
-}
-</script>
 title: Database Normalization
 description: "Database normalization is the systematic process of structuring a relational schema to minimize data Redundancy and eliminate insertion, deletion, and"
 date: 2026-04-07T00:00:00.000Z

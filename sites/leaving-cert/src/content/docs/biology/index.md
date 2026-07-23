@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "Index", "url": "https://leaving-cert.wyattau.com/biology/index"}]
-}
-</script>
 title: Irish LC Biology
 description: "Leaving Certificate Biology explores cells, ecology, genetics, plants, and human body systems. The course covers a wide range of biological concepts from"
 date: 2026-04-14

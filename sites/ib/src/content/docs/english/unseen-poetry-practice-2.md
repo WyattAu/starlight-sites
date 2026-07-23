@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 2", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-2"}]
-}
-</script>
 title: "IB Paper 1 Unseen Poetry Practice: Sylvia Plath's Mirror"
 description: "Close reading analysis of Sylvia Plath's 'Mirror' for IB English Paper 1. Imagery, tone shifts, personification, comparison with Heaney's 'Digging', and self-assessment checklist."
 sidebar_position: 11

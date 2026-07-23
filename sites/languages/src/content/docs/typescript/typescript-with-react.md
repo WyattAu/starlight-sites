@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Typescript With React", "url": "https://languages.wyattau.com/typescript/typescript-with-react"}]
-}
-</script>
 title: TypeScript with React
 description: "TypeScript with React fundamentals and best practices."
 date: 2026-04-22T00:00:00.000Z

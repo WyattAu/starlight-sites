@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Go", "url": "https://languages.wyattau.com/go"}, {"name": "Advanced", "url": "https://languages.wyattau.com/go/advanced"}, {"name": "Reflection", "url": "https://languages.wyattau.com/go/advanced/reflection"}]
-}
-</script>
 title: Reflection
 description: "The package provides runtime type introspection and manipulation. It allows programs to Examine types, inspect struct fields, call methods by name, and"
 date: 2026-04-18

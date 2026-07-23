@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "04 Best Practices", "url": "https://languages.wyattau.com/dart/04-best-practices"}]
-}
-</script>
 title: Best Practices
 description: "- Always enable null safety (). - Avoid usage of and declaration, always use or explicit typing. - Follow the order of >> >> with no nullability specifier"
 date: 2025-07-17T20:40:50.912Z

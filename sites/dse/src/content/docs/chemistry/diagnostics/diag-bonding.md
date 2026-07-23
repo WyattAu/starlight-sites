@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Bonding", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-bonding"}]
-}
-</script>
 title: "Bonding -- Diagnostic Tests"
 description: "DSE Chemistry Bonding -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision."
 tableOfContents: false

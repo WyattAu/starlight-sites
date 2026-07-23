@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "07 Package Management", "url": "https://linux.wyattau.com/07-package-management"}, {"name": "Package Management", "url": "https://linux.wyattau.com/07-package-management/package-management"}]
-}
-</script>
 title: Package Management
 description: "A Linux package is an archive containing compiled software, configuration files, metadata (version, Description, dependencies), and install/uninstall"
 

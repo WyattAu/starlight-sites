@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/physics/diagnostics/diagnostic-guide"}]
-}
-</script>
 title: IB Physics Diagnostic Guide
 description: "This diagnostic suite contains 12 topic-level tests for IB Physics. Each test comprises 3 unit tests (single-topic, maximum difficulty) and 3 integration"
 tableOfContents: false

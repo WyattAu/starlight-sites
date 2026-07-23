@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Physics", "url": "https://ap.wyattau.com/physics"}, {"name": "Index", "url": "https://ap.wyattau.com/physics/index"}]
-}
-</script>
 title: AP Physics
 description: "Comprehensive revision notes for AP Physics C, aligned with the College Board Co Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14

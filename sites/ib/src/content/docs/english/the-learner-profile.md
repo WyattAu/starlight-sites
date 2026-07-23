@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "The Learner Profile", "url": "https://ib.wyattau.com/english/the-learner-profile"}]
-}
-</script>
 title: "The IB Learner Profile in English"
 description: "Characteristics of an IB English learner, approaches to learning (ATL) skills for English, reflective writing, intellectual honesty, and CAS connections."
 sidebar_position: 13

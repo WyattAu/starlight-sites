@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "03 Further Algebra", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/03-further-algebra"}]
-}
-</script>
 title: Further Algebra
 description: "Further algebra builds on the polynomial and algebraic techniques from A Level mathematics, Extending to partial fractions with irreducible quadratics, the"
 date: 2026-04-02T00:00:00.000Z
