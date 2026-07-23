@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "4 Development Economics", "url": "https://ib.wyattau.com/economics/4-development-economics"}, {"name": "1 Measuring Development", "url": "https://ib.wyattau.com/economics/4-development-economics/1-measuring-development"}]
+}
+</script>
 title: Measuring Development
 description: "IB Economics — GDP, HDI, Gini coefficient, Lorenz curve, composite indicators. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examination."
 date: 2026-05-21

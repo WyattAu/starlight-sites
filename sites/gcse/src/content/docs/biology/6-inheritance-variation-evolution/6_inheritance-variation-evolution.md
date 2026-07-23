@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "6 Inheritance Variation Evolution", "url": "https://gcse.wyattau.com/biology/6-inheritance-variation-evolution"}, {"name": "6_inheritance Variation Evolution", "url": "https://gcse.wyattau.com/biology/6-inheritance-variation-evolution/6_inheritance-variation-evolution"}]
+}
+</script>
 title: Inheritance, Variation, and Evolution
 description: "DNA (deoxyribonucleic acid) is a long molecule that carries the genetic code. It is found in the Nucleus of cells and is organised into structures called ."
 date: 2026-04-14

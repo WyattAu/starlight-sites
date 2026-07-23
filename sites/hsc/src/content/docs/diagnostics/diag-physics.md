@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
 title: "Diagnostic Test: Physics"
 description: "Self-assessment quiz on HSC Physics"
 sidebar_position: 61

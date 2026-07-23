@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "History", "url": "https://alevel.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/history/diagnostics"}, {"name": "Diag Source Analysis", "url": "https://alevel.wyattau.com/history/diagnostics/diag-source-analysis"}]
+}
+</script>
 title: "Diagnostic Test: Source Analysis"
 description: "Self-assessment quiz on A-Level History source analysis"
 sidebar_position: 30

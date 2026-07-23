@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Advanced", "url": "https://languages.wyattau.com/kotlin/advanced"}, {"name": "Null Safety Deep Dive", "url": "https://languages.wyattau.com/kotlin/advanced/null-safety-deep-dive"}]
+}
+</script>
 title: Null Safety Deep Dive
 description: "Kotlin' s type system distinguishes between nullable and non-null types at compil Comprehensive educational content coverage with definitions and practice pr"
 date: 2026-05-31

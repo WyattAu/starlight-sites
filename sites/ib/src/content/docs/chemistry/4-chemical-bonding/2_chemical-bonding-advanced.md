@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "4 Chemical Bonding", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding"}, {"name": "2_chemical Bonding Advanced", "url": "https://ib.wyattau.com/chemistry/4-chemical-bonding/2_chemical-bonding-advanced"}]
+}
+</script>
 title: Chemical Bonding (Advanced)
 description: "Rigorous IB chemistry notes covering Chemical Bonding (Advanced). Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

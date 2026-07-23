@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Graalvm And Modern Jvm", "url": "https://java.wyattau.com/graalvm-and-modern-jvm"}]
+}
+</script>
 title: GraalVM and Modern JVM
 description: "GraalVM is a high-performance JDK distribution that extends the standard HotSpot JVM with an Advanced just-in-time compiler (Graal), a native image"
 date: 2026-04-07T00:00:00.000Z

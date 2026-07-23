@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "14_microcanonical Ensemble", "url": "https://physics.wyattau.com/2-thermal-physics/14_microcanonical-ensemble"}]
+}
+</script>
 title: Microcanonical Ensemble
 tags:
   - Physics

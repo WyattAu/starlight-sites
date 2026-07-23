@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra", "url": "https://gcse.wyattau.com/maths/diagnostics/diag-algebra"}]
+}
+</script>
 title: "Algebra -- Diagnostic Tests"
 description: "(a) Solve . (b) Solve by factorisation. (c) Solve using the quadratic formula. (d) Solve the inequality and represent the solution on a number line."
 tableOfContents: false

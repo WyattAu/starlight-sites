@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/economics/diagnostics"}, {"name": "Diag Macroeconomics", "url": "https://ib.wyattau.com/economics/diagnostics/diag-macroeconomics"}]
+}
+</script>
 title: "Diagnostic Test: Macroeconomics"
 description: "Self-assessment quiz on IB macroeconomics"
 tableOfContents: false

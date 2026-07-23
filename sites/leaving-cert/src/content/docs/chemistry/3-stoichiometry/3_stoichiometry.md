@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "3 Stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry"}, {"name": "3_stoichiometry", "url": "https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry"}]
+}
+</script>
 title: Stoichiometry and Formulae
 description: "ILC Chemistry Stoichiometry and Formulae notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 date: 2026-04-14

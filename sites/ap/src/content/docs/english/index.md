@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "English", "url": "https://ap.wyattau.com/english"}, {"name": "Index", "url": "https://ap.wyattau.com/english/index"}]
+}
+</script>
 title: AP English Language
 description: "Comprehensive revision notes for AP English Language and Composition, aligned with the College Board Course and Exam Description."
 date: 2026-04-14

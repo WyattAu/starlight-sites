@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Chemistry", "url": "https://cbse.wyattau.com/chemistry"}, {"name": "Solid State", "url": "https://cbse.wyattau.com/chemistry/solid-state"}, {"name": "01 Crystal Structure", "url": "https://cbse.wyattau.com/chemistry/solid-state/01-crystal-structure"}]
+}
+</script>
 title: "Crystal structure"
 description: "CBSE Class 12 chemistry: Crystal structure"
 ---

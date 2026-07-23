@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "13_permutations And Combinations", "url": "https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations"}]
+}
+</script>
 title: Permutations and Combinations
 description: "DSE Maths Permutations and Combinations notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision."
 date: 2026-04-18T00:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "02 Ip Addressing", "url": "https://networking.wyattau.com/02-ip-addressing"}, {"name": "Subnetting Workshop", "url": "https://networking.wyattau.com/02-ip-addressing/subnetting-workshop"}]
+}
+</script>
 title: Subnetting Workshop
 description: "Subnetting Workshop notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and revision."
 tags:

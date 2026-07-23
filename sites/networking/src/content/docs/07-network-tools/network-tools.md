@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "07 Network Tools", "url": "https://networking.wyattau.com/07-network-tools"}, {"name": "Network Tools", "url": "https://networking.wyattau.com/07-network-tools/network-tools"}]
+}
+</script>
 title: Network Tools
 description: "Network troubleshooting is a systematic process of isolating and identifying the root cause of Connectivity, performance, or security issues. This section"
 tags:

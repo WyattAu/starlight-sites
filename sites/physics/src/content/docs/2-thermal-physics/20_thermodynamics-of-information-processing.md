@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "20_thermodynamics Of Information Processing", "url": "https://physics.wyattau.com/2-thermal-physics/20_thermodynamics-of-information-processing"}]
+}
+</script>
 title: Thermodynamics of Information Processing
 tags:
   - Physics

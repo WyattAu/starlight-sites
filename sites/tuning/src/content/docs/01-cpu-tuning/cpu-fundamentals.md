@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "01 Cpu Tuning", "url": "https://tuning.wyattau.com/01-cpu-tuning"}, {"name": "Cpu Fundamentals", "url": "https://tuning.wyattau.com/01-cpu-tuning/cpu-fundamentals"}]
+}
+</script>
 title: CPU Architecture and Tuning
 description: "A modern CPU is a superscalar, out-of-order, speculative execution engine. Understanding these Concepts is prerequisite to any meaningful tuning, because"
 

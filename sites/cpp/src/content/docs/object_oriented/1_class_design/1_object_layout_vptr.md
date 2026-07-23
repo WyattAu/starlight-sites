@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Object_oriented", "url": "https://cpp.wyattau.com/object_oriented"}, {"name": "1_class_design", "url": "https://cpp.wyattau.com/object_oriented/1_class_design"}, {"name": "1_object_layout_vptr", "url": "https://cpp.wyattau.com/object_oriented/1_class_design/1_object_layout_vptr"}]
+}
+</script>
 title: Object Layout, vptr, and the this Pointer
 description: "Understanding how the compiler lays out objects in memory is fundamental to writing correct and Efficient C++. This section covers the memory layout of"
 date: 2026-04-03T00:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "4 Development Economics", "url": "https://ib.wyattau.com/economics/4-development-economics"}, {"name": "2 Barriers To Growth", "url": "https://ib.wyattau.com/economics/4-development-economics/2-barriers-to-growth"}]
+}
+</script>
 title: Barriers to Growth
 description: "Barriers to economic growth in development economics."
 date: 2026-05-21

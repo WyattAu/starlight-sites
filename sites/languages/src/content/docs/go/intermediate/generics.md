@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Go", "url": "https://languages.wyattau.com/go"}, {"name": "Intermediate", "url": "https://languages.wyattau.com/go/intermediate"}, {"name": "Generics", "url": "https://languages.wyattau.com/go/intermediate/generics"}]
+}
+</script>
 title: Generics
 description: "Go 1.18 (released March 2022) added generics via type parameters. Generics allow you to write Functions and types that abstract over different concrete"
 date: 2026-04-18

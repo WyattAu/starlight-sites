@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "03 Tcp Udp", "url": "https://networking.wyattau.com/03-tcp-udp"}, {"name": "Tcp State Machine", "url": "https://networking.wyattau.com/03-tcp-udp/tcp-state-machine"}]
+}
+</script>
 title: TCP State Machine
 description: "The TCP connection state machine (defined in RFC 793, with updates in RFC 1122) is one of the most Precisely specified protocol behaviors in all of"
 tags:

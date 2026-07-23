@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Dc Circuits", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-dc-circuits"}]
+}
+</script>
 title: "DC Circuits -- Diagnostic Tests"
 description: "A-Level Physics DC Circuits -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision."
 tableOfContents: false

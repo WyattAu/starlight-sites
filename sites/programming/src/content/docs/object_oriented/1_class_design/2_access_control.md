@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Object_oriented", "url": "https://programming.wyattau.com/object_oriented"}, {"name": "1_class_design", "url": "https://programming.wyattau.com/object_oriented/1_class_design"}, {"name": "2_access_control", "url": "https://programming.wyattau.com/object_oriented/1_class_design/2_access_control"}]
+}
+</script>
 title: Access Control and Friendship
 description: "C++ provides fine-grained access control through And specifiers, Plus the mechanism for granting selective access to non-members. Access control is enforced"
 date: 2026-04-03T00:00:00.000Z

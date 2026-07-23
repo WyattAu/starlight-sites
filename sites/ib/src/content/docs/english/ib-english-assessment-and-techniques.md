@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Ib English Assessment And Techniques", "url": "https://ib.wyattau.com/english/ib-english-assessment-and-techniques"}]
+}
+</script>
 title: IB English Assessment and Analytical Techniques
 tags:
   - IB

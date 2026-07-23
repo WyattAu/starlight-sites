@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "1_nervous System", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system"}]
+}
+</script>
 title: Nervous System
 description: "Neurons (nerve cells) are the fundamental functional units of the nervous system. They are specialised for transmitting electrical impulses (action"
 date: 2026-04-08T00:00:00.000Z

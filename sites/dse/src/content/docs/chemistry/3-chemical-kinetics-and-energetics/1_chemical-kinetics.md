@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
+}
+</script>
 title: Chemistry - Chemical Kinetics
 description: 'The rate of reaction measures how fast reactants are consumed or products are fo Comprehensive educational content coverage with definitions and practice proble'
 tags: [DSE, Chemistry]

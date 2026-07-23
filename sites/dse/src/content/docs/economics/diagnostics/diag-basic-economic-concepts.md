@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/economics/diagnostics"}, {"name": "Diag Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/diagnostics/diag-basic-economic-concepts"}]
+}
+</script>
 title: "Basic Economic Concepts -- Diagnostic Tests"
 description: "DSE Economics Basic Economic Concepts -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

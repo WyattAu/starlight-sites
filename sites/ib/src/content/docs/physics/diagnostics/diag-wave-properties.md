@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Wave Properties", "url": "https://ib.wyattau.com/physics/diagnostics/diag-wave-properties"}]
+}
+</script>
 title: "Wave Properties -- Diagnostic Tests"
 description: "IB Physics Wave Properties -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision."
 tableOfContents: false

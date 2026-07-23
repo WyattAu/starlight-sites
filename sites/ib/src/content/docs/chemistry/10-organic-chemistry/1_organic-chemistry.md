@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "10 Organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://ib.wyattau.com/chemistry/10-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 title: Organic Chemistry
 description: "Rigorous IB chemistry notes covering Organic Chemistry. Includes definitions, derivations, worked examples, and exam-style problems. and polymer chemistry."
 date: 2024-01-01T00:00:00Z

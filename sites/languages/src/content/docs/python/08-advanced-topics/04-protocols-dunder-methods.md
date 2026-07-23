@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "08 Advanced Topics", "url": "https://languages.wyattau.com/python/08-advanced-topics"}, {"name": "04 Protocols Dunder Methods", "url": "https://languages.wyattau.com/python/08-advanced-topics/04-protocols-dunder-methods"}]
+}
+</script>
 title: Protocols and Dunder Methods
 description: "Python' s data model defines a set of protocols that objects can implement to integrate with built-in Operations. These are invoked by the interpreter, not"
 

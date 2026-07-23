@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "02 Fundamentals", "url": "https://languages.wyattau.com/python/02-fundamentals"}, {"name": "01 Types And Variables", "url": "https://languages.wyattau.com/python/02-fundamentals/01-types-and-variables"}]
+}
+</script>
 title: Types and Variables
 description: "Python is and . These two properties are frequently Confused, so it is worth bei Comprehensive educational content coverage with definitions and practice proble"
 date: 2025-06-04T10:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Concurrency", "url": "https://cpp.wyattau.com/concurrency"}, {"name": "1_threading_and_synchronization", "url": "https://cpp.wyattau.com/concurrency/1_threading_and_synchronization"}, {"name": "4_condition_variables", "url": "https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/4_condition_variables"}]
+}
+</script>
 title: Condition Variables, Latches, and Barriers
 description: "This section covers and Spurious wakeups, Producer-consumer patterns, and the C++20 synchronization primitives and For one-shot and reusable phase"
 date: 2026-04-03T00:00:00.000Z

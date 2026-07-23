@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/geography/diagnostics"}, {"name": "Diag Population", "url": "https://dse.wyattau.com/geography/diagnostics/diag-population"}]
+}
+</script>
 title: "Population -- Diagnostic Tests"
 description: "Population -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "Statistical Distributions Depth", "url": "https://alevel.wyattau.com/maths/statistics/statistical-distributions-depth"}]
+}
+</script>
 title: Statistical Distributions (Extended)
 description: 'This document provides rigorous coverage of the binomial, normal, and Poisson distributions, their Approximations, and hypothesis testing applications.'
 date: 2026-04-23T00:00:00.000Z

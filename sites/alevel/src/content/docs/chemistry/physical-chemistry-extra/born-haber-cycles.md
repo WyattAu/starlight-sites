@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry Extra", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry-extra"}, {"name": "Born Haber Cycles", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry-extra/born-haber-cycles"}]
+}
+</script>
 title: Born-Haber Cycles
 description: "Born-Haber cycles are thermochemical cycles that decompose the formation of an ionic solid into a Series of well-defined energetic steps. They allow the"
 date: 2026-04-22T00:00:00.000Z

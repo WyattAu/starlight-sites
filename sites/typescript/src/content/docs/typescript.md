@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Typescript", "url": "https://typescript.wyattau.com/typescript"}]
+}
+</script>
 title: TypeScript -- Course Overview
 description: "TypeScript is a statically typed programming language developed by Microsoft. It is a of JavaScript: every valid JavaScript program is, by definition, a"
 date: 2026-04-22T00:00:00.000Z

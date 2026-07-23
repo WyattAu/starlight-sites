@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/maths/diagnostics"}, {"name": "Diag Number", "url": "https://gcse.wyattau.com/maths/diagnostics/diag-number"}]
+}
+</script>
 title: "Number -- Diagnostic Tests"
 description: "(a) Calculate . (b) Convert (recurring) to a fraction in its simplest form. (c) A shirt originally costs . It is discounted by 20%, then the discounted"
 tableOfContents: false

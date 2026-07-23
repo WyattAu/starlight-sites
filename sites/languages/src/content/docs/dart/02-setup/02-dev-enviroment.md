@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "02 Setup", "url": "https://languages.wyattau.com/dart/02-setup"}, {"name": "02 Dev Enviroment", "url": "https://languages.wyattau.com/dart/02-setup/02-dev-enviroment"}]
+}
+</script>
 title: Development Enviroment
 description: "Virtual devices can be created by opening the command-palette and selecting And selecting . However, the performance is not Accurate and convenience is"
 date: 2025-07-13T19:11:38.762Z

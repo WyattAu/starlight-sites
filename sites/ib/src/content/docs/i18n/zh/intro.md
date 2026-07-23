@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "I18n", "url": "https://ib.wyattau.com/i18n"}, {"name": "Zh", "url": "https://ib.wyattau.com/i18n/zh"}, {"name": "Intro", "url": "https://ib.wyattau.com/i18n/zh/intro"}]
+}
+</script>
 title: IB笔记简介
 description: 'IB I18N 笔记简介 notes covering key definitions, core concepts, worked examples, and practice questions for clear exam preparation and revision.'
 

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "11_hamiltonian Mechanics Advanced Topics", "url": "https://physics.wyattau.com/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics"}]
+}
+</script>
 title: "Hamiltonian Mechanics: Advanced Topics"
 tags:
   - Physics

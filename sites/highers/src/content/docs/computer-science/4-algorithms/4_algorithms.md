@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "4 Algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms"}, {"name": "4_algorithms", "url": "https://highers.wyattau.com/computer-science/4-algorithms/4_algorithms"}]
+}
+</script>
 title: Algorithms and Data Structures
 description: "Scottish Highers Computer Science Algorithms and Data notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-14

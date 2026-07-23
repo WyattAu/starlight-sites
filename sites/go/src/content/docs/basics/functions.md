@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Basics", "url": "https://go.wyattau.com/basics"}, {"name": "Functions", "url": "https://go.wyattau.com/basics/functions"}]
+}
+</script>
 title: Functions
 description: 'Go functions are first-class values. The basic syntax: Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2026-04-18

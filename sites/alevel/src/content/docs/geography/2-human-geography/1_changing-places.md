@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "1_changing Places", "url": "https://alevel.wyattau.com/geography/2-human-geography/1_changing-places"}]
+}
+</script>
 title: Changing Places
 date: 2026-05-21
 tags: [alevel, alevel-geography]

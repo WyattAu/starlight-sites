@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "14 Testing", "url": "https://languages.wyattau.com/dart/14-testing"}, {"name": "01 Testing Fundamentals", "url": "https://languages.wyattau.com/dart/14-testing/01-testing-fundamentals"}]
+}
+</script>
 title: Testing Fundamentals
 description: "Testing is not a phase that comes after development. It is a structural property of the codebase That determines whether you can safely change it. The"
 date: 2026-04-05T00:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "11 Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis"}, {"name": "6_weak And Weak Convergence", "url": "https://mathematics.wyattau.com/11-functional-analysis/6_weak-and-weak-convergence"}]
+}
+</script>
 title: Weak and Weak\* Convergence
 tags:
   - Mathematics

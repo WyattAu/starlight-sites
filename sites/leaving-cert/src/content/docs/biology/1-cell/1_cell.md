@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "1 Cell", "url": "https://leaving-cert.wyattau.com/biology/1-cell"}, {"name": "1_cell", "url": "https://leaving-cert.wyattau.com/biology/1-cell/1_cell"}]
+}
+</script>
 title: Cell Biology
 description: "ILC Cell Biology notes covering key definitions, core concepts, worked examples, and practice questions for detailed review and exam preparation."
 date: 2026-04-14

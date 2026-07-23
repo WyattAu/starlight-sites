@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Object_oriented", "url": "https://programming.wyattau.com/object_oriented"}, {"name": "1_class_design", "url": "https://programming.wyattau.com/object_oriented/1_class_design"}, {"name": "5_spaceship_operator", "url": "https://programming.wyattau.com/object_oriented/1_class_design/5_spaceship_operator"}]
+}
+</script>
 title: The Spaceship Operator
 description: "C++20 spaceship operator for unified relational comparisons."
 date: 2026-04-03T00:00:00.000Z

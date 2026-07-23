@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Algorithms", "url": "https://alevel.wyattau.com/computer-science/algorithms"}, {"name": "01 Searching Algorithms", "url": "https://alevel.wyattau.com/computer-science/algorithms/01-searching-algorithms"}]
+}
+</script>
 title: Searching Algorithms
 description: 'Given an array and a target value Determine whether exists in And return its ind Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-06-02T16:25:28.480Z

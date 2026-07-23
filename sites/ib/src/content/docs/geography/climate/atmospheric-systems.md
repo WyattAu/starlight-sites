@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Climate", "url": "https://ib.wyattau.com/geography/climate"}, {"name": "Atmospheric Systems", "url": "https://ib.wyattau.com/geography/climate/atmospheric-systems"}]
+}
+</script>
 title: Atmospheric Systems
 description: "Global atmospheric circulation and climate systems."
 ---

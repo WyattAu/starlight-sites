@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "3 Acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases"}, {"name": "3_acids Bases", "url": "https://highers.wyattau.com/chemistry/3-acids-bases/3_acids-bases"}]
+}
+</script>
 title: Acids and Bases
 description: "An acid produces ions in solution; a base produces ions. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-14

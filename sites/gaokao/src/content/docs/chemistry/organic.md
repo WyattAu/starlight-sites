@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Chemistry", "url": "https://gaokao.wyattau.com/chemistry"}, {"name": "Organic", "url": "https://gaokao.wyattau.com/chemistry/organic"}]
+}
+</script>
 title: "Organic"
 description: "高考 chemistry: Organic"
 ---

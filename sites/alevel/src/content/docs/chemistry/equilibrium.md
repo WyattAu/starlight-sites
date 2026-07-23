@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Equilibrium", "url": "https://alevel.wyattau.com/chemistry/equilibrium"}]
+}
+</script>
 title: Chemical Equilibrium
 description: "A reversible reaction reaches equilibrium when the rate of the forward reaction equals the rate of the reverse reaction."
 date: 2026-04-21T00:00:00.000Z

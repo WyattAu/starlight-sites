@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Physics", "url": "https://ap.wyattau.com/physics"}, {"name": "6 Electrostatics", "url": "https://ap.wyattau.com/physics/6-electrostatics"}, {"name": "6_electrostatics", "url": "https://ap.wyattau.com/physics/6-electrostatics/6_electrostatics"}]
+}
+</script>
 title: Electrostatics
 description: "Charge is a fundamental property of matter. There are two types: positive and ne Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-05-05

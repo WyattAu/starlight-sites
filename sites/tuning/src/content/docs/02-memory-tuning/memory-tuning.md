@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "02 Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning"}, {"name": "Memory Tuning", "url": "https://tuning.wyattau.com/02-memory-tuning/memory-tuning"}]
+}
+</script>
 title: Memory Tuning
 description: "DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed — the power delivery model, signal integrity, and error"
 

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "3 Market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure"}, {"name": "1_market Structure", "url": "https://dse.wyattau.com/economics/3-market-structure/1_market-structure"}]
+}
+</script>
 title: Market Structure and Theory of the Firm
 description: "A market structure describes the organisational and competitive characteristics of a market. The Classification framework rests on four axes: the number of"
 date: 2026-04-08T00:00:00.000Z

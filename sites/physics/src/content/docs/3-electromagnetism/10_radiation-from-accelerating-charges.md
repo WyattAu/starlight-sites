@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "10_radiation From Accelerating Charges", "url": "https://physics.wyattau.com/3-electromagnetism/10_radiation-from-accelerating-charges"}]
+}
+</script>
 title: Radiation from Accelerating Charges
 tags:
   - Physics

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "11 Exam Techniques", "url": "https://alevel.wyattau.com/english/11-exam-techniques"}, {"name": "1_exam_techniques", "url": "https://alevel.wyattau.com/english/11-exam-techniques/1_exam_techniques"}]
+}
+</script>
 title: "Exam Techniques"
 date: 2026-01-15T00:00:00.000Z
 sidebar_position: 13

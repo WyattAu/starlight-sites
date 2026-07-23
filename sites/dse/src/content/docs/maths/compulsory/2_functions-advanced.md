@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "2_functions Advanced", "url": "https://dse.wyattau.com/maths/compulsory/2_functions-advanced"}]
+}
+</script>
 title: Functions (Advanced)
 description: "This note assumes the reader is already familiar with: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-18T00:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/economics/diagnostics"}, {"name": "Diag National Income", "url": "https://dse.wyattau.com/economics/diagnostics/diag-national-income"}]
+}
+</script>
 title: "National Income and Macroeconomic Indicators -- Diagnostic Tests"
 description: "DSE Economics National Income and Macroeconomic Indicators notes covering key definitions, core concepts, worked practice questions for diagnostic revision."
 tableOfContents: false

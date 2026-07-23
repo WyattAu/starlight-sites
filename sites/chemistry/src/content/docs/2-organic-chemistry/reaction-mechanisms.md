@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "2 Organic Chemistry", "url": "https://chemistry.wyattau.com/2-organic-chemistry"}, {"name": "Reaction Mechanisms", "url": "https://chemistry.wyattau.com/2-organic-chemistry/reaction-mechanisms"}]
+}
+</script>
 title: Reaction Mechanisms
 description: "Bimolecular nucleophilic substitution — a single concerted step with backside at Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-05-31T00:00:00.000Z

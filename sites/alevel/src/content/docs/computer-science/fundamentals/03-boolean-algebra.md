@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Fundamentals", "url": "https://alevel.wyattau.com/computer-science/fundamentals"}, {"name": "03 Boolean Algebra", "url": "https://alevel.wyattau.com/computer-science/fundamentals/03-boolean-algebra"}]
+}
+</script>
 title: Boolean Algebra
 description: "We define the Boolean algebra over with operations: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2025-06-02T16:25:28.480Z

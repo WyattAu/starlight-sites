@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "06 Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing"}, {"name": "Stress Testing", "url": "https://tuning.wyattau.com/06-stress-testing/stress-testing"}]
+}
+</script>
 title: Stress Testing and Validation
 description: "Stress testing serves three purposes for a systems engineer: Comprehensive educational content coverage with definitions and practice problems."
 

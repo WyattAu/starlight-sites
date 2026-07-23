@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Chemistry", "url": "https://gcse.wyattau.com/chemistry"}, {"name": "3 Quantitative Chemistry", "url": "https://gcse.wyattau.com/chemistry/3-quantitative-chemistry"}, {"name": "3_quantitative Chemistry", "url": "https://gcse.wyattau.com/chemistry/3-quantitative-chemistry/3_quantitative-chemistry"}]
+}
+</script>
 title: Quantitative Chemistry
 description: "The () of a compound is the sum of the relative atomic masses of all Atoms in the formula. For a molecule, this is also called the relative molecular mass."
 date: 2026-04-14

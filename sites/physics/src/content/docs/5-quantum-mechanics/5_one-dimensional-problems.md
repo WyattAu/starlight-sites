@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "5_one Dimensional Problems", "url": "https://physics.wyattau.com/5-quantum-mechanics/5_one-dimensional-problems"}]
+}
+</script>
 title: One-Dimensional Problems
 tags:
   - Physics

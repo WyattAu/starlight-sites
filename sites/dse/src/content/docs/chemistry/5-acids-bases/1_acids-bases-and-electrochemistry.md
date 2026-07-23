@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "5 Acids Bases", "url": "https://dse.wyattau.com/chemistry/5-acids-bases"}, {"name": "1_acids Bases And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry"}]
+}
+</script>
 title: Chemistry - Acids, Bases, and Electrochemistry
 description: "Comprehensive educational content notes on chemistry - acids, bases, and electrochemistry with precise definitions, worked examples, and common pitfalls."
 

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "02 Fundamentals", "url": "https://python.wyattau.com/02-fundamentals"}, {"name": "05 Python Internals", "url": "https://python.wyattau.com/02-fundamentals/05-python-internals"}]
+}
+</script>
 title: Python Internals
 description: "CPython is the reference implementation of Python, written in C. It is the most widely used Implementation and the one most people mean when they say"
 date: 2026-04-05T00:00:00.000Z

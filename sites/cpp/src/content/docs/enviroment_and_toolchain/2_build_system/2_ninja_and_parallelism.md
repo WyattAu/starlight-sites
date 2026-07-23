@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "2_build_system", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system"}, {"name": "2_ninja_and_parallelism", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism"}]
+}
+</script>
 title: Ninja Build System and Parrallelism
 description: "The build system is responsible for orchestrating the execution of compilers, linkers, and custom Commands to transform source code into artifacts. While"
 date: 2025-12-10T06:02:22.685Z

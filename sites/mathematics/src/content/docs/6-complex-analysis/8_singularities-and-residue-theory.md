@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "8_singularities And Residue Theory", "url": "https://mathematics.wyattau.com/6-complex-analysis/8_singularities-and-residue-theory"}]
+}
+</script>
 title: Singularities and Residue Theory
 tags:
   - Mathematics

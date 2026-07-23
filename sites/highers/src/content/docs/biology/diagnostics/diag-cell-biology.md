@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://highers.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 title: "Cell Biology -- Diagnostic Tests"
 description: "Cell Biology -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false

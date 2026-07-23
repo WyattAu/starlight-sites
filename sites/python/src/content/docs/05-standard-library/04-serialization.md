@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "05 Standard Library", "url": "https://python.wyattau.com/05-standard-library"}, {"name": "04 Serialization", "url": "https://python.wyattau.com/05-standard-library/04-serialization"}]
+}
+</script>
 title: Serialization and Data Formats
 description: "The module is the standard way to serialize Python objects to JSON and back. It ships with CPython and uses a C extension for performance."
 

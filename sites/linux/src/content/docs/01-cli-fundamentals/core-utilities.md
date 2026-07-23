@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "01 Cli Fundamentals", "url": "https://linux.wyattau.com/01-cli-fundamentals"}, {"name": "Core Utilities", "url": "https://linux.wyattau.com/01-cli-fundamentals/core-utilities"}]
+}
+</script>
 title: Core Utilities
 description: "GNU coreutils is the package that provides the fundamental file, shell, and text manipulation Utilities on virtually every Linux distribution. These"
 

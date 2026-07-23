@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "3 Fieldwork", "url": "https://alevel.wyattau.com/geography/3-fieldwork"}, {"name": "1_fieldwork Methodology", "url": "https://alevel.wyattau.com/geography/3-fieldwork/1_fieldwork-methodology"}]
+}
+</script>
 title: Fieldwork Methodology
 date: 2026-05-21
 tags: [alevel, alevel-geography]

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure/complex-numbers"}]
+}
+</script>
 title: Complex Numbers (Extended)
 description: "Extended treatment of complex numbers for A-Level Further Maths."
 date: 2026-04-23T00:00:00.000Z

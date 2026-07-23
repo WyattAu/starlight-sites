@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Photosynthesis Depth", "url": "https://alevel.wyattau.com/biology/photosynthesis-depth"}]
+}
+</script>
 title: Photosynthesis (In Depth)
 description: "Photosynthesis is the process by which photoautotrophs convert light energy into chemical energy stored in organic molecules. The overall equation for"
 date: 2026-04-18T00:00:00.000Z

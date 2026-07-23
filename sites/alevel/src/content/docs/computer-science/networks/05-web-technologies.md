@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Networks", "url": "https://alevel.wyattau.com/computer-science/networks"}, {"name": "05 Web Technologies", "url": "https://alevel.wyattau.com/computer-science/networks/05-web-technologies"}]
+}
+</script>
 title: Web Technologies
 description: "Of these concepts within their networking modules. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-03T00:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Diagnostics", "url": "https://gaokao.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://gaokao.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
 title: "数学诊断测试"
 description: "高考数学自测"
 sidebar_position: 60

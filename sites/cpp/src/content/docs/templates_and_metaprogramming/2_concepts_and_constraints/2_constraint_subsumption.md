@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "2_concepts_and_constraints", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints"}, {"name": "2_constraint_subsumption", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption"}]
+}
+</script>
 title: Constraint Subsumption and Overload Resolution
 description: "When multiple constrained function templates are viable for a call, the compiler uses --- a partial ordering on constraints --- to select the most"
 date: 2026-04-03T00:00:00.000Z

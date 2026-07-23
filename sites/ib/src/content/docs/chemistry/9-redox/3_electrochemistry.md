@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "9 Redox", "url": "https://ib.wyattau.com/chemistry/9-redox"}, {"name": "3_electrochemistry", "url": "https://ib.wyattau.com/chemistry/9-redox/3_electrochemistry"}]
+}
+</script>
 title: Electrochemistry
 description: "Rigorous IB chemistry notes covering Electrochemistry. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "kotlin", "url": "https://kotlin.wyattau.com"}, {"name": "Basics", "url": "https://kotlin.wyattau.com/basics"}, {"name": "Classes And Objects", "url": "https://kotlin.wyattau.com/basics/classes-and-objects"}]
+}
+</script>
 title: Classes and Objects
 description: "Classes in Kotlin are declared with the keyword. They are final by default -- us Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18

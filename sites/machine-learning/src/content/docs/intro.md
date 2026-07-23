@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Intro", "url": "https://machine-learning.wyattau.com/intro"}]
+}
+</script>
 title: Machine Learning
 description: "Introduction to machine learning fundamentals, supervised and unsupervised learning, and neural networks."
 ---

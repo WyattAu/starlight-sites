@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Psychology", "url": "https://alevel.wyattau.com/psychology"}, {"name": "3 Memory", "url": "https://alevel.wyattau.com/psychology/3-memory"}, {"name": "1_memory", "url": "https://alevel.wyattau.com/psychology/3-memory/1_memory"}]
+}
+</script>
 title: Memory
 date: 2026-05-12T00:00:00.000Z
 tags:

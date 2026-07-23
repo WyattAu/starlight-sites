@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Intermediate", "url": "https://languages.wyattau.com/kotlin/intermediate"}, {"name": "Coroutines", "url": "https://languages.wyattau.com/kotlin/intermediate/coroutines"}]
+}
+</script>
 title: Coroutines
 description: "Coroutines are Kotlin' s mechanism for asynchronous programming. They are lightweight -- a coroutine Suspends instead of blocking a thread, allowing a small"
 date: 2026-04-18

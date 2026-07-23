@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "3 Multicellular", "url": "https://highers.wyattau.com/biology/3-multicellular"}, {"name": "3_multicellular", "url": "https://highers.wyattau.com/biology/3-multicellular/3_multicellular"}]
+}
+</script>
 title: Multicellular Organisms
 description: "Scottish Highers Biology Multicellular Organisms notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
 date: 2026-04-14

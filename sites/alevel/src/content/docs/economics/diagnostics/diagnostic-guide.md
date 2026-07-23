@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/economics/diagnostics/diagnostic-guide"}]
+}
+</script>
 title: "A-Level Economics -- Diagnostic Guide"
 description: "| Diagnostic File | Topics Covered | Source Files | | ---------------------------- | ------------------------------------------------------------------------"
 tableOfContents: false

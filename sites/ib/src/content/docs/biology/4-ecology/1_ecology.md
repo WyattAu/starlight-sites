@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "4 Ecology", "url": "https://ib.wyattau.com/biology/4-ecology"}, {"name": "1_ecology", "url": "https://ib.wyattau.com/biology/4-ecology/1_ecology"}]
+}
+</script>
 title: Ecology
 description: "IB Biology — species, communities, ecosystems, energy flow, nutrient cycles, climate change, evolution, natural selection, and classification."
 date: 2024-01-01T00:00:00Z

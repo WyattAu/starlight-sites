@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "4 Algorithms", "url": "https://gcse.wyattau.com/computer-science/4-algorithms"}, {"name": "4_algorithms", "url": "https://gcse.wyattau.com/computer-science/4-algorithms/4_algorithms"}]
+}
+</script>
 title: Algorithms
 description: 'An is a finite set of precise, step-by-step instructions for solving a problem.  Comprehensive educational content coverage with definitions and practice proble'
 date: 2026-04-14

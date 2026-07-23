@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Cognitive", "url": "https://ib.wyattau.com/psychology/cognitive"}, {"name": "Thinking And Decision Making", "url": "https://ib.wyattau.com/psychology/cognitive/thinking-and-decision-making"}]
+}
+</script>
 title: Thinking and Decision Making
 description: "The study of thinking and decision making examines how people reason, judge, and choose. Research in This area has revealed that human thinking is subject"
 

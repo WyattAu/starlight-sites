@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "4_conan", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/3_dependency_management/4_conan"}]
+}
+</script>
 title: Conan
 description: "The Conan package manager for C++ covering dependency resolution, build profiles, multi-configuration setups, and remote repositories."
 date: 2025-12-11T05:01:52.356Z

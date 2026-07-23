@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/ict/diagnostics"}, {"name": "Diag Computer Systems", "url": "https://dse.wyattau.com/ict/diagnostics/diag-computer-systems"}]
+}
+</script>
 title: "Computer Systems -- Diagnostic Tests"
 description: "DSE Ict Computer Systems -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
 tableOfContents: false

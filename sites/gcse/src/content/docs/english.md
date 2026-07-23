@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}]
+}
+</script>
 title: GCSE English Study Guide
 date: 2026-05-31
 description: "A complete single-page revision guide covering the full GCSE English Language specification. Each section contains key skills, methods, and essential"

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Theory", "url": "https://computer-science.wyattau.com/3-theory"}, {"name": "Compilers", "url": "https://computer-science.wyattau.com/3-theory/compilers"}]
+}
+</script>
 title: Compilers
 description: "Source Code → Lexical Analysis (tokens) → Syntax Analysis (parse tree) → Semantic Analysis (annotated tree) → Intermediate Representation (IR) → Code"
 date: 2026-05-31T00:00:00.000Z

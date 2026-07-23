@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Typescript With React", "url": "https://typescript.wyattau.com/typescript-with-react"}]
+}
+</script>
 title: TypeScript with React
 description: "TypeScript with React fundamentals and best practices."
 date: 2026-04-22T00:00:00.000Z

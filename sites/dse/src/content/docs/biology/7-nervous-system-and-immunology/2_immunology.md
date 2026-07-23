@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "7 Nervous System And Immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology"}]
+}
+</script>
 title: Immunology
 description: "A pathogen is any organism or agent that can cause disease. The DSE specification requires knowledge of four main types of pathogen."
 date: 2026-04-08T00:00:00.000Z

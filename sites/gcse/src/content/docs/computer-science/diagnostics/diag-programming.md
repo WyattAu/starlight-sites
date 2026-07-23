@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/computer-science/diagnostics"}, {"name": "Diag Programming", "url": "https://gcse.wyattau.com/computer-science/diagnostics/diag-programming"}]
+}
+</script>
 title: "Programming -- Diagnostic Tests"
 description: "Programming -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false

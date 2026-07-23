@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Reading", "url": "https://sat.wyattau.com/reading"}, {"name": "Comprehension", "url": "https://sat.wyattau.com/reading/comprehension"}]
+}
+</script>
 title: "Comprehension"
 description: "SAT reading: Comprehension"
 ---

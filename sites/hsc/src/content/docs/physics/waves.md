@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Physics", "url": "https://hsc.wyattau.com/physics"}, {"name": "Waves", "url": "https://hsc.wyattau.com/physics/waves"}]
+}
+</script>
 title: "Waves"
 description: "HSC physics: Waves"
 ---

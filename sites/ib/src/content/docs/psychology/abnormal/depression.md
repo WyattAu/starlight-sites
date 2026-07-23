@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Abnormal", "url": "https://ib.wyattau.com/psychology/abnormal"}, {"name": "Depression", "url": "https://ib.wyattau.com/psychology/abnormal/depression"}]
+}
+</script>
 title: Depression
 description: "Depression (major depressive disorder, MDD) is a mood disorder characterised by persistent low mood, Loss of interest or pleasure in activities (anhedonia),"
 

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "History", "url": "https://ap.wyattau.com/history"}, {"name": "1 Periods 1 2", "url": "https://ap.wyattau.com/history/1-periods-1-2"}, {"name": "1_period 1 2", "url": "https://ap.wyattau.com/history/1-periods-1-2/1_period-1-2"}]
+}
+</script>
 title: Periods 1-2 (1491-1754)
 description: "Before European contact, the Americas were home to diverse and complex societies with populations estimated between 50 and 100 million. Key regional"
 date: 2026-06-04T10:00:00.000Z

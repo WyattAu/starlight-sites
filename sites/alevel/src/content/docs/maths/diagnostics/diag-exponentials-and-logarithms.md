@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/maths/diagnostics"}, {"name": "Diag Exponentials And Logarithms", "url": "https://alevel.wyattau.com/maths/diagnostics/diag-exponentials-and-logarithms"}]
+}
+</script>
 title: "Exponentials and Logarithms -- Diagnostic Tests"
 description: "A-Level Maths Exponentials and Logarithms -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

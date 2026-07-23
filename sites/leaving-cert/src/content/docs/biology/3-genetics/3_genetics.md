@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://leaving-cert.wyattau.com/biology/3-genetics"}, {"name": "3_genetics", "url": "https://leaving-cert.wyattau.com/biology/3-genetics/3_genetics"}]
+}
+</script>
 title: Genetics and Evolution
 description: "ILC Biology Genetics and Evolution notes covering key definitions, core concepts, worked examples, and practice questions for study and revision."
 date: 2026-04-14

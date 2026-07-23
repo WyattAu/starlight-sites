@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "typescript", "url": "https://typescript.wyattau.com"}, {"name": "Types And Annotations", "url": "https://typescript.wyattau.com/types-and-annotations"}]
+}
+</script>
 title: Types and Annotations
 description: "TypeScript provides seven primitive types that correspond directly to JavaScript Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-22T00:00:00.000Z

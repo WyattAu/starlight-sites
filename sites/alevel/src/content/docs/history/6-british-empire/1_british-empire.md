@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "History", "url": "https://alevel.wyattau.com/history"}, {"name": "6 British Empire", "url": "https://alevel.wyattau.com/history/6-british-empire"}, {"name": "1_british Empire", "url": "https://alevel.wyattau.com/history/6-british-empire/1_british-empire"}]
+}
+</script>
 title: The British Empire c1688-1763
 date: 2026-05-21T00:00:00.000Z
 tags:

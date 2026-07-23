@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "History", "url": "https://alevel.wyattau.com/history"}, {"name": "2 Tudor England", "url": "https://alevel.wyattau.com/history/2-tudor-england"}, {"name": "1_tudor England", "url": "https://alevel.wyattau.com/history/2-tudor-england/1_tudor-england"}]
+}
+</script>
 title: Tudor England 1485-1603
 date: 2026-05-21T00:00:00.000Z
 tags:

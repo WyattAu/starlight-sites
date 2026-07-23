@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "02 Circular Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/02-circular-motion"}]
+}
+</script>
 title: Circular Motion
 description: "Circular motion in further mathematics extends the basic treatment to include banked tracks, conical Pendulums, vertical circles with energy methods, and"
 date: 2026-04-02T00:00:00.000Z

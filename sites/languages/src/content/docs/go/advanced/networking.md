@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Go", "url": "https://languages.wyattau.com/go"}, {"name": "Advanced", "url": "https://languages.wyattau.com/go/advanced"}, {"name": "Networking", "url": "https://languages.wyattau.com/go/advanced/networking"}]
+}
+</script>
 title: Networking
 description: 'The package provides TCP support via and : Comprehensive educational content coverage with definitions, worked examples, and practice problems.'
 date: 2026-05-31

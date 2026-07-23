@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "3 Wave Behaviour", "url": "https://ib.wyattau.com/physics/3-wave-behaviour"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/3-wave-behaviour/9_wrap-up"}]
+}
+</script>
 title: Wrap Up
 description: "Detailed IB physics study notes for Wrap Up. Provides rigorous definitions, /1-number-and-algebra/3_proof-and-logics, and exam-focused practice questions."
 date: 2024-01-01T00:00:00Z

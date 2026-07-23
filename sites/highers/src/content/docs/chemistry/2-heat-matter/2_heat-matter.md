@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "2 Heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter"}, {"name": "2_heat Matter", "url": "https://highers.wyattau.com/chemistry/2-heat-matter/2_heat-matter"}]
+}
+</script>
 title: Energy and Matter
 description: "Scottish Highers Chemistry Energy and Matter notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 date: 2026-04-14

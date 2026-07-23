@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "01 Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/01-complex-numbers"}]
+}
+</script>
 title: Complex Numbers
 description: "Complex numbers extend the real number system by introducing a solution to the e Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-02T00:00:00.000Z

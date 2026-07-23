@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "07 Cargo Ecosystem", "url": "https://rust.wyattau.com/07-cargo-ecosystem"}, {"name": "Cargo And Ecosystem", "url": "https://rust.wyattau.com/07-cargo-ecosystem/cargo-and-ecosystem"}]
+}
+</script>
 title: Cargo and Ecosystem
 description: "is the manifest file that defines everything about your Rust project. It uses TO Comprehensive educational content coverage with definitions and practice proble"
 

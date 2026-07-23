@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Intermediate", "url": "https://go.wyattau.com/intermediate"}, {"name": "Error Handling", "url": "https://go.wyattau.com/intermediate/error-handling"}]
+}
+</script>
 title: Error Handling
 description: "Go error handling patterns and conventions."
 date: 2026-04-18

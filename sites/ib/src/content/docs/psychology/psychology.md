@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology/psychology"}]
+}
+</script>
 title: IB Psychology (SL/HL)
 description: "IB Psychology is a Group 3 subject (Individuals and Societies) that examines how biological, cognitive, and sociocultural factors interact to shape human"
 

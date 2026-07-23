@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "05 Network Security", "url": "https://security.wyattau.com/05-network-security"}, {"name": "Network Security", "url": "https://security.wyattau.com/05-network-security/network-security"}]
+}
+</script>
 title: Network Security
 description: "A firewall is a network security device or software that monitors and filters incoming and outgoing Network traffic based on an organization' s security"
 

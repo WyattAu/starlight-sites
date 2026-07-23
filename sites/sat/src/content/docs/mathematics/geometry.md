@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Mathematics", "url": "https://sat.wyattau.com/mathematics"}, {"name": "Geometry", "url": "https://sat.wyattau.com/mathematics/geometry"}]
+}
+</script>
 title: "Geometry"
 description: "SAT mathematics: Geometry"
 ---

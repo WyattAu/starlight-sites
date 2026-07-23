@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "23_computational Imaging And Adaptive Optics", "url": "https://physics.wyattau.com/4-optics-and-waves/23_computational-imaging-and-adaptive-optics"}]
+}
+</script>
 title: Computational Imaging and Adaptive Optics
 tags:
   - Physics

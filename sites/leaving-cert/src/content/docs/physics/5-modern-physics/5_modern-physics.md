@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Physics", "url": "https://leaving-cert.wyattau.com/physics"}, {"name": "5 Modern Physics", "url": "https://leaving-cert.wyattau.com/physics/5-modern-physics"}, {"name": "5_modern Physics", "url": "https://leaving-cert.wyattau.com/physics/5-modern-physics/5_modern-physics"}]
+}
+</script>
 title: Modern Physics
 description: "Modern physics covers the physics of the very small (atomic and subatomic scale) and the very fast. Key topics include the photoelectric effect, atomic"
 date: 2026-04-14

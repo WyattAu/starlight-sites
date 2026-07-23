@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "go", "url": "https://go.wyattau.com"}, {"name": "Standard Library", "url": "https://go.wyattau.com/standard-library"}, {"name": "Math Sort Log", "url": "https://go.wyattau.com/standard-library/math-sort-log"}]
+}
+</script>
 title: math, sort, and log/slog
 date: 2026-05-30
 tags:

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "04 Oop", "url": "https://ruby.wyattau.com/04-oop"}, {"name": "1_oop", "url": "https://ruby.wyattau.com/04-oop/1_oop"}]
+}
+</script>
 title: Object-Oriented Programming
 description: "class Person def initialize(name, age) @name = name @age = age end Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-06-04T10:00:00.000Z

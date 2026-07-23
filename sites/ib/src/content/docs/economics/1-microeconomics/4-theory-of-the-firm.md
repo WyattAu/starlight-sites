@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "1 Microeconomics", "url": "https://ib.wyattau.com/economics/1-microeconomics"}, {"name": "4 Theory Of The Firm", "url": "https://ib.wyattau.com/economics/1-microeconomics/4-theory-of-the-firm"}]
+}
+</script>
 title: Theory of the Firm
 description: "IB Economics Theory of the Firm notes covering key definitions, core concepts, worked examples, and practice questions for complete study and thorough revision."
 date: 2026-05-21

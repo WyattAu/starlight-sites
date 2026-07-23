@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "12_argument Principle And Rouch S Theorem", "url": "https://mathematics.wyattau.com/6-complex-analysis/12_argument-principle-and-rouch-s-theorem"}]
+}
+</script>
 title: Argument Principle and Rouché's Theorem
 tags:
   - Mathematics

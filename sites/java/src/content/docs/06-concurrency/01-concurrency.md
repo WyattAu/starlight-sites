@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "06 Concurrency", "url": "https://java.wyattau.com/06-concurrency"}, {"name": "01 Concurrency", "url": "https://java.wyattau.com/06-concurrency/01-concurrency"}]
+}
+</script>
 title: Concurrency
 description: "Java concurrency fundamentals."
 categories: ["java"]

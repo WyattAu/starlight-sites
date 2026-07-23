@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Function_architecture", "url": "https://cpp.wyattau.com/function_architecture"}, {"name": "1_function_mechanics", "url": "https://cpp.wyattau.com/function_architecture/1_function_mechanics"}, {"name": "1_overload_resolution", "url": "https://cpp.wyattau.com/function_architecture/1_function_mechanics/1_overload_resolution"}]
+}
+</script>
 title: Overload Resolution
 description: "C++ function resolution is not a simple name match. The compiler performs a multi-phase search Through namespaces, ranks candidate functions against a"
 date: 2026-04-03T00:00:00.000Z

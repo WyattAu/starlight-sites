@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "12 Differential Geometry", "url": "https://mathematics.wyattau.com/12-differential-geometry"}, {"name": "3_vector Fields And Flows", "url": "https://mathematics.wyattau.com/12-differential-geometry/3_vector-fields-and-flows"}]
+}
+</script>
 title: Vector Fields and Flows
 tags:
   - Mathematics
