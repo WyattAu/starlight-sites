@@ -88,7 +88,7 @@ Set up workspace environment variables:
 # Default is $HOME/go
 go env GOPATH
 
-# GOROOT is where Go is installed (usually auto-detected)
+# GOROOT is where Go is installed (in most cases auto-detected)
 go env GOROOT
 ```
 

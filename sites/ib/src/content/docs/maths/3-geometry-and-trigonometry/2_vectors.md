@@ -617,7 +617,7 @@ $$
 
 ## Intuition
 
-Vectors are arrows in space — they have both direction and magnitude. The dot product measures how much two arrows point in the same direction: it is maximised when they are parallel and zero when they are perpendicular. The cross product creates a new arrow perpendicular to both originals, and its magnitude equals the area of the parallelogram they span. A plane is defined by a point and a normal direction, and the dot product encodes this: every point on the plane is equidistant from the normal in a specific sense. Intersections happen when you solve simultaneous vector equations, and the distance from a point to a plane is simply how far the point deviates from the plane's defining equation.
+Vectors are arrows in space — they have both direction and magnitude. The dot product measures how much two arrows point in the same direction: it is maximised when they are parallel and zero when they are perpendicular. The cross product creates a new arrow perpendicular to both originals, and its magnitude equals the area of the parallelogram they span. A plane is defined by a point and a normal direction, and the dot product encodes this: every point on the plane is equidistant from the normal in a specific sense. Intersections happen when you solve simultaneous vector equations, and the distance from a point to a plane is directly how far the point deviates from the plane's defining equation.
 
 ## Common Pitfalls
 

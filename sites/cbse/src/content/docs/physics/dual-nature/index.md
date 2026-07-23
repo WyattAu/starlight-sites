@@ -193,5 +193,5 @@ $$V_0 = \frac{K_{\max}}{e} = 1.31 \, \text{V}$$
 - Use $hc = 1240 \, \text{eV·nm}$ as a shortcut for photon energy calculations
 - The photoelectric effect is explained by particle theory, not wave theory
 - de Broglie wavelength decreases with increasing speed (higher momentum)
-- Stopping potential is independent of intensity; it depends only on frequency
+- Stopping potential is independent of intensity; the answer varies based on only on frequency
 - Threshold frequency and threshold wavelength are inversely related

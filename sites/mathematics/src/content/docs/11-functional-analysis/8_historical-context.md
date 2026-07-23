@@ -154,7 +154,7 @@ Functional analysis grew from a simple observation: many different mathematical 
 The Hahn-Banach theorem was proved by both Hahn (1927) and Banach (1929) independently. The open mapping theorem and closed graph theorem were proved by Banach, but the uniform boundedness principle is due to Banach and Steinhaus. Attributing everything solely to Banach overlooks the contributions of Hahn, Steinhaus, and the broader Polish school.
 
 **Mistake 2: Conflating Hilbert space theory with general Banach space theory**
-Many results that hold in Hilbert spaces fail in general Banach spaces. The Riesz representation theorem, the existence of orthonormal bases, and the spectral theorem for compact self-adjoint operators all rely on the inner product structure. Students sometimes attempt to apply Hilbert space techniques to $L^1$ or $L^\infty$ without verifying the necessary conditions.
+Many results that hold in Hilbert spaces fail as a rule Banach spaces. The Riesz representation theorem, the existence of orthonormal bases, and the spectral theorem for compact self-adjoint operators all rely on the inner product structure. Students sometimes attempt to apply Hilbert space techniques to $L^1$ or $L^\infty$ without verifying the necessary conditions.
 
 **Mistake 3: Thinking functional analysis was created purely for abstract reasons**
 Functional analysis developed from concrete problems in integral equations, quantum mechanics, and PDEs. Hilbert's work on integral equations directly motivated the abstract framework. The theory was not created in a vacuum but as a response to specific mathematical and physical questions that existing tools could not address.

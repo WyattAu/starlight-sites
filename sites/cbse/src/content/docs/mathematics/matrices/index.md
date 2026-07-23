@@ -93,7 +93,7 @@ Matrices are rectangular arrays of numbers used to represent linear transformati
 
 $$AB = \begin{pmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 5 + 4 \cdot 7 & 3 \cdot 6 + 4 \cdot 8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}$$
 
-**Common mistake:** Assuming $AB = BA$. Matrix multiplication is not commutative. In general, $AB \neq BA$.
+**Common mistake:** Assuming $AB = BA$. Matrix multiplication is not commutative. as a rule, $AB \neq BA$.
 
 ## Worked Example 2 — Finding the Inverse
 
@@ -180,7 +180,7 @@ Matrices are rectangular arrays that compactly represent systems of linear equat
 
 ## Common Mistakes
 
-**Assuming matrix multiplication is commutative.** In general, AB != BA for matrices. Students often write AB = BA without checking, which leads to incorrect solutions for matrix equations. Always preserve the order of multiplication when manipulating matrix equations.
+**Assuming matrix multiplication is commutative.** as a rule, AB != BA for matrices. Students often write AB = BA without checking, which leads to incorrect solutions for matrix equations. Always preserve the order of multiplication when manipulating matrix equations.
 
 **Forgetting that (AB)^-1 = B^-1 A^-1 (reversed order).** The inverse of a product reverses the order: (AB)^-1 = B^-1 A^-1. Students often write (AB)^-1 = A^-1 B^-1, which is incorrect. The same reversal applies to transposes: (AB)^T = B^T A^T.
 

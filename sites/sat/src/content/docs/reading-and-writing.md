@@ -394,7 +394,7 @@ answer is grounded in the text.
 
 ## Intuition
 
-SAT Reading and Writing tests your ability to understand, analyze, and communicate ideas clearly. Reading is not about speed but about precision: you must identify the author's purpose, tone, and argument structure. Writing questions test whether you can improve clarity and correctness, like an editor who cuts unnecessary words and fixes grammatical errors. The best approach is to read actively, asking yourself "what is the author trying to say?" rather than passively absorbing words.
+SAT Reading and Writing tests your ability to understand, analyze, and communicate ideas evidently. Reading is not about speed but about precision: you must identify the author's purpose, tone, and argument structure. Writing questions test whether you can improve clarity and correctness, like an editor who cuts unnecessary words and fixes grammatical errors. The best approach is to read actively, asking yourself "what is the author trying to say?" rather than passively absorbing words.
 
 ## Worked Examples
 

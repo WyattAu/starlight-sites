@@ -115,7 +115,7 @@ $$\text{(CH}_3)_3\text{COH} \xrightarrow{\text{H}_2\text{SO}_4, \Delta} \text{(C
 
 Product: 2-methylpropene (only one product possible, Saytzeff's rule gives the same result).
 
-Tertiary alcohols dehydrate most easily (most stable carbocation intermediate).
+Tertiary alcohols dehydrate most efficiently (most stable carbocation intermediate).
 
 **Common mistake:** Using SN2 conditions for tertiary alcohols. Tertiary alcohols undergo E1/SN1, not E2/SN2.
 
@@ -147,7 +147,7 @@ Alcohols are solvents (ethanol, methanol), fuels (methanol), and precursors to m
 
 ## Common Exam Patterns
 
-- Acidity: phenol > water > alcohol (in general)
+- Acidity: phenol > water > alcohol (as a rule)
 - Dehydration: follows Saytzeff's rule, tertiary > secondary > primary
 - Oxidation: primary $\rightarrow$ aldehyde $\rightarrow$ acid; secondary $\rightarrow$ ketone
 - Williamson synthesis: primary halide + alkoxide (avoid elimination)
@@ -229,12 +229,12 @@ $$2\text{C}_6\text{H}_5\text{OH} + 2\text{Na} \rightarrow 2\text{C}_6\text{H}_5\
 4. Phenol undergoes electrophilic aromatic substitution at the ortho and para positions due to activation by the $-\text{OH}$ group.
 5. Esterification is reversible; use Le Chatelier's principle to predict the effect of changing conditions.
 6. Dehydration follows Saytzeff's rule: the more substituted alkene is the major product.
-7. Tertiary alcohols dehydrate most easily (most stable carbocation); primary alcohols require harsher conditions.
+7. Tertiary alcohols dehydrate most efficiently (most stable carbocation); primary alcohols require harsher conditions.
 8. Remember the Lucas test: tertiary alcohols react immediately, secondary within 5 minutes, primary do not react at room temperature.
 
 ## Intuition
 
-**The -OH group is a double-edged sword:** Think of the hydroxyl group as a magnetic pull on electrons. In alcohols, it pulls electron density toward itself, making the O-H bond polar and the carbon slightly positive. This polarity drives most of alcohol chemistry — nucleophiles attack the carbon, acids easily donate the proton, and the oxygen can participate in hydrogen bonding.
+**The -OH group is a double-edged sword:** Think of the hydroxyl group as a magnetic pull on electrons. In alcohols, it pulls electron density toward itself, making the O-H bond polar and the carbon slightly positive. This polarity drives most of alcohol chemistry — nucleophiles attack the carbon, acids efficiently donate the proton, and the oxygen can participate in hydrogen bonding.
 
 **Why it matters:** Alcohols are the bridge between simple organic molecules and complex pharmaceuticals. The ability to oxidize, dehydrate, and form ethers makes them essential intermediates in synthesis. Understanding acidity trends helps predict which reactions will work.
 

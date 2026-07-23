@@ -288,8 +288,8 @@ struct Flags {
 };
 
 int main() {
-    std::cout << "sizeof(Flags): " << sizeof(Flags) << "\n";  // typically 4
-    std::cout << "alignof(Flags): " << alignof(Flags) << "\n";  // typically 4
+    std::cout << "sizeof(Flags): " << sizeof(Flags) << "\n";  // in standard practice 4
+    std::cout << "alignof(Flags): " << alignof(Flags) << "\n";  // in standard practice 4
 
     Flags f{};
     f.readable = 1;
@@ -474,7 +474,7 @@ struct ParticlesSoA {
 
 int main() {
     std::cout << "sizeof(ParticleAoS): " << sizeof(ParticleAoS) << "\n";
-    // Typically: 4*3 + 4*3 + 4 + 4*4 + 4 = 40 bytes
+    // In standard practice: 4*3 + 4*3 + 4 + 4*4 + 4 = 40 bytes
     // With alignment padding, likely 40 or 44 bytes
 
     // When iterating over 1000 particles for physics:
@@ -579,7 +579,7 @@ in `constexpr` contexts on all implementations:
 #include <new>
 
 int main() {
-    // This is typically 64, but not guaranteed at compile time
+    // This is in standard practice 64, but not guaranteed at compile time
     std::cout << "destructive_interference_size: "
               << std::hardware_destructive_interference_size << "\n";
     std::cout << "constructive_interference_size: "

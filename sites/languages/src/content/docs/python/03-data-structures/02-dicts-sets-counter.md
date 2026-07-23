@@ -44,7 +44,7 @@ Scheme.
 import sys
 
 d = {"a": 1, "b": 2, "c": 3}
-print(sys.getsizeof(d))  # Typically 232 bytes on 64-bit CPython 3.12
+print(sys.getsizeof(d))  # In standard practice 232 bytes on 64-bit CPython 3.12
 ```
 
 ### Hash Computation

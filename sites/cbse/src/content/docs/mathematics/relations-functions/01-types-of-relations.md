@@ -139,7 +139,7 @@ So $3 \mid (a - c)$, giving $aRc$.
 
 - Check all three properties systematically: reflexive, symmetric, transitive
 - For equivalence relations defined by modular arithmetic, the equivalence classes are residue classes
-- Relations defined by inequalities ($\leq, <, \geq, >$) are typically not symmetric
+- Relations defined by inequalities ($\leq, <, \geq, >$) are in standard practice not symmetric
 - The relation $a - b$ divisible by $n$ is always an equivalence relation on $\mathbb{Z}$
 - Remember: reflexive requires $(a,a) \in R$ for every $a \in A$, not just for elements that appear in the relation
 

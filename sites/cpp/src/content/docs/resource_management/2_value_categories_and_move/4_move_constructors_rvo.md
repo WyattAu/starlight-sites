@@ -138,8 +138,8 @@ int main() {
     // v is valid but unspecified. It is NOT required to be empty.
     // However, all major implementations leave v.empty() == true.
 
-    std::cout << "v.size() = " << v.size() << "\n";  // Typically 0, but not guaranteed
-    std::cout << "v.empty() = " << std::boolalpha << v.empty() << "\n";  // Typically true
+    std::cout << "v.size() = " << v.size() << "\n";  // In standard practice 0, but not guaranteed
+    std::cout << "v.empty() = " << std::boolalpha << v.empty() << "\n";  // In standard practice true
 
     std::string s = "hello";
     std::string t = std::move(s);
@@ -328,12 +328,12 @@ struct WithDefaults {
 int main() {
     WithDefaults a{"hello", 42};
     WithDefaults b = std::move(a);  // Move ctor: steals string internals
-    std::cout << "a.name.size() = " << a.name.size() << "\n";  // Typically 0
+    std::cout << "a.name.size() = " << a.name.size() << "\n";  // In standard practice 0
     std::cout << "b.name = " << b.name << "\n";  // "hello"
 
     WithDefaults c{"world", 99};
     c = std::move(b);  // Move assignment: steals b's string internals
-    std::cout << "b.name.size() = " << b.name.size() << "\n";  // Typically 0
+    std::cout << "b.name.size() = " << b.name.size() << "\n";  // In standard practice 0
     std::cout << "c.name = " << c.name << "\n";  // "hello"
 }
 ```
@@ -624,7 +624,7 @@ int main() {
     // Range operations also work with move-only types:
     std::vector<std::unique_ptr<int>> v2;
     v2 = std::move(v);  // OK: moves entire vector (move-assigns each element)
-    // v is now in a valid-but-unspecified state (typically empty)
+    // v is now in a valid-but-unspecified state (in standard practice empty)
     }
 ```
 

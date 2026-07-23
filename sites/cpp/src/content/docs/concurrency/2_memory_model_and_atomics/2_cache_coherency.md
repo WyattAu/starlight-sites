@@ -870,7 +870,7 @@ linked above.
 
 ## Intuition
 
-Cache coherency is like a shared document editing system. When one person edits a paragraph (Modified state), everyone else must see the update (Invalid state). The MESI protocol ensures that all CPUs see the same memory values, like ensuring all editors see the latest version of a document. False sharing is like two people trying to edit adjacent paragraphs in the same document - they keep forcing each other to reload the entire page, even though they are editing different parts. The key insight is that cache lines (typically 64 bytes) are the unit of coherency - if two threads access different variables on the same cache line, they experience false sharing. Padding is like giving each editor their own separate page.
+Cache coherency is like a shared document editing system. When one person edits a paragraph (Modified state), everyone else must see the update (Invalid state). The MESI protocol ensures that all CPUs see the same memory values, like ensuring all editors see the latest version of a document. False sharing is like two people trying to edit adjacent paragraphs in the same document - they keep forcing each other to reload the entire page, even though they are editing different parts. The key insight is that cache lines (in standard practice 64 bytes) are the unit of coherency - if two threads access different variables on the same cache line, they experience false sharing. Padding is like giving each editor their own separate page.
 
 ## Cross-References
 

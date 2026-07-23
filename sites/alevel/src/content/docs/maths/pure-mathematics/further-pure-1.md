@@ -443,7 +443,7 @@ $$A = \frac{1}{2}\int_0^{\pi/2} a^2\sin^2 2\theta\,d\theta = \frac{a^2}{2}\int_0
 
 ## Intuition
 
-Further Pure 1 extends familiar algebra into the complex plane and beyond. Complex numbers are like二维 coordinates but with multiplication that rotates and scales simultaneously. Matrices encode linear transformations, where multiplication composes actions and determinants measure area scaling. Integration by parts is a controlled exchange of complexity between two factors, and the integrating factor method transforms a difficult differential equation into a recognisable product rule. Polar coordinates replace the Cartesian grid with a compass and ruler, naturally describing rotation and radial symmetry.
+Further Pure 1 extends familiar algebra into the complex plane and beyond. Complex numbers are like二维 coordinates but with multiplication that rotates and scales simultaneously. Matrices encode linear transformations, where multiplication composes actions and determinants measure area scaling. Integration by parts is a controlled exchange of complexity between two factors, and the integrating factor method transforms a difficult differential equation into a recognisable product rule. Polar coordinates replace the Cartesian grid with a compass and ruler, logically describing rotation and radial symmetry.
 
 ## Common Pitfalls
 

@@ -438,7 +438,7 @@ WHERE e.salary > (
 Tables, this is $O(n)$ subquery executions. Rewrite as a join or a window function when possible:
 
 ```sql
--- Equivalent join (usually faster):
+-- Equivalent join (in most cases faster):
 SELECT e.first_name, e.salary, d.avg_salary
 FROM employees e
 JOIN (

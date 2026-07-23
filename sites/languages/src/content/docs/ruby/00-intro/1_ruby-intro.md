@@ -158,7 +158,7 @@ else
   puts "No name"  # => "No name" -- nil is falsy
 end
 
-# Method naming reflects intent clearly
+# Method naming reflects intent evidently
 array.sort          # returns new sorted array
 array.sort!         # sorts in place and returns self
 array.empty?        # predicate methods end with ?

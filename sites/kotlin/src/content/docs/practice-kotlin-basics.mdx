@@ -106,7 +106,7 @@ the explanation.
 
 ### Extension Functions
 
-<PracticeProblem client:only="solid-js" question={`Can an extension function override a member function of a class?`} options={[ 'No -- if a class has a member function, the member is always called instead of the extension', 'Yes -- the extension takes priority', 'Yes -- but only if declared in the same package', 'It depends on the visibility modifier', ]} correctAnswer={0} explanation="Extension functions never override member functions. If a class already has a member function with the same signature, the member function is always called. Extensions are resolved statically at compile time based on the declared type of the variable, not the runtime type. This is a fundamental limitation to be aware of when writing extensions." difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={`Can an extension function override a member function of a class?`} options={[ 'No -- if a class has a member function, the member is always called instead of the extension', 'Yes -- the extension takes priority', 'Yes -- but only if declared in the same package', 'the answer varies based on on the visibility modifier', ]} correctAnswer={0} explanation="Extension functions never override member functions. If a class already has a member function with the same signature, the member function is always called. Extensions are resolved statically at compile time based on the declared type of the variable, not the runtime type. This is a fundamental limitation to be aware of when writing extensions." difficulty="easy"  />
 
 ---
 

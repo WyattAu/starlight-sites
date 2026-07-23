@@ -183,10 +183,10 @@ If two random variables $X$ and $Y$ are independent, then they are uncorrelated 
 Bayes' theorem states that $P(A|B) = P(B|A)P(A)/P(B)$. A common mistake is to ignore the prior $P(A)$ and the evidence $P(B)$, leading to incorrect updates of probabilities. Always use the full form of Bayes' theorem when updating beliefs based on new evidence.
 
 **Mistake 4: Confusing the expectation of a product with the product of expectations.**
-$E[XY] = E[X]E[Y]$ holds only when $X$ and $Y$ are independent (or uncorrelated). In general, $E[XY] \neq E[X]E[Y]$. Do not assume that the expectation of a product factors without checking independence.
+$E[XY] = E[X]E[Y]$ holds only when $X$ and $Y$ are independent (or uncorrelated). as a rule, $E[XY] \neq E[X]E[Y]$. Do not assume that the expectation of a product factors without checking independence.
 
 **Mistake 5: Forgetting that variance is not linear.**
-$\mathrm{Var}(aX + b) = a^2 \mathrm{Var}(X)$, not $a \mathrm{Var}(X) + b$. The variance of a sum is $\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y) + 2\mathrm{Cov}(X, Y)$. If $X$ and $Y$ are independent, then $\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$, but this does not hold in general.
+$\mathrm{Var}(aX + b) = a^2 \mathrm{Var}(X)$, not $a \mathrm{Var}(X) + b$. The variance of a sum is $\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y) + 2\mathrm{Cov}(X, Y)$. If $X$ and $Y$ are independent, then $\mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$, but this does not hold as a rule.
 
 ## Cross-References
 

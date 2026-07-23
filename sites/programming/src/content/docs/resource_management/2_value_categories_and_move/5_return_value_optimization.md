@@ -174,7 +174,7 @@ Widget nrvo_factory(int id) {
 }
 
 int main() {
-    std::cout << "NRVO (typically elided at -O2):\n";
+    std::cout << "NRVO (in standard practice elided at -O2):\n";
     Widget w = nrvo_factory(99);
 }
 ```
@@ -182,7 +182,7 @@ int main() {
 With `-O2`Output:
 
 ```
-NRVO (typically elided at -O2):
+NRVO (in standard practice elided at -O2):
   Widget(99) ctor
   ~Widget(99)
 ```
@@ -190,7 +190,7 @@ NRVO (typically elided at -O2):
 With `-fno-elide-constructors`Output:
 
 ```
-NRVO (typically elided at -O2):
+NRVO (in standard practice elided at -O2):
   Widget(99) ctor
   Widget(99) move ctor
   ~Widget(99)

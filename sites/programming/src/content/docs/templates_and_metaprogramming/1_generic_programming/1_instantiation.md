@@ -805,7 +805,7 @@ increases code size and can degrade instruction cache performance.
 
 **Why it matters:** Template instantiation is the mechanism that makes generic programming work. Understanding it explains why templates must be in headers (the compiler needs to see the full definition to instantiate), why error messages are cryptic (they reference the template, not the instantiation), and why explicit instantiation can reduce compile times (the compiler only generates code once, not in every translation unit).
 
-**The key insight:** Templates are blueprints, not code — the compiler generates concrete code for each type combination, which is why templates must be visible at the point of use (typically in headers).
+**The key insight:** Templates are blueprints, not code — the compiler generates concrete code for each type combination, which is why templates must be visible at the point of use (in standard practice in headers).
 
 ## Common Pitfalls
 

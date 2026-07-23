@@ -167,7 +167,7 @@ differentiating the dispersion relation.
 The group velocity $v_g = d\omega/dk$ is the velocity of the envelope of a wave packet, but it can exceed $c$ or become negative in regions of anomalous dispersion. This does not violate causality because the signal velocity (front velocity) never exceeds $c$. Students often cite $v_g > c$ as a violation of relativity, which is incorrect.
 
 **Mistake 2: Confusing normal and anomalous dispersion regions**
-Normal dispersion ($dn/d\lambda < 0$) occurs away from resonances, while anomalous dispersion ($dn/d\lambda > 0$) occurs near absorption resonances. Students sometimes assume anomalous dispersion is the "usual" behaviour or confuse the sign convention. The Lorentz oscillator model clearly shows that $n$ decreases with wavelength away from resonances.
+Normal dispersion ($dn/d\lambda < 0$) occurs away from resonances, while anomalous dispersion ($dn/d\lambda > 0$) occurs near absorption resonances. Students sometimes assume anomalous dispersion is the "usual" behaviour or confuse the sign convention. The Lorentz oscillator model evidently shows that $n$ decreases with wavelength away from resonances.
 
 **Mistake 3: Forgetting that the Abbe number characterises dispersive power**
 The Abbe number $V_d = (n_d - 1)/(n_F - n_C)$ measures how much a material disperses. A high Abbe number means low dispersion. Students sometimes use the Abbe number formula backwards or confuse crown glass (high $V_d$, low dispersion) with flint glass (low $V_d$, high dispersion) when designing achromatic doublets.

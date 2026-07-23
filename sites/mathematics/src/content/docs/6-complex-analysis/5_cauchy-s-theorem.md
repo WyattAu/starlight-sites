@@ -116,8 +116,8 @@ $\int_\gamma \frac{dz}{z^2 - 1} = \frac{1}{2}(2\pi i - 2\pi i) = 0$.
 
 ## Common Pitfalls
 
-- **Assuming Cauchy's theorem applies to any closed contour:** The theorem requires $f$ to be analytic on a simply connected domain containing the contour. If the contour encloses any singularity, the integral may be non-zero.
-- **Confusing simply connected with connected:** A domain can be connected but not simply connected (e.g., an annulus). Cauchy's theorem fails on such domains without additional conditions on the contour.
+- **Assuming Cauchy's theorem applies to any closed contour:** The theorem requires $f$ to be analytic on a directly connected domain containing the contour. If the contour encloses any singularity, the integral may be non-zero.
+- **Confusing directly connected with connected:** A domain can be connected but not directly connected (e.g., an annulus). Cauchy's theorem fails on such domains without additional conditions on the contour.
 - **Applying the deformation theorem outside the domain of analyticity:** The contour can only be deformed through regions where $f$ remains analytic. Deforming a contour across a singularity changes the value of the integral.
 - **Forgetting orientation when using the multiply connected theorem:** The outer contour and inner contours must be traversed with consistent positive orientation (counterclockwise for the outer, clockwise for the inner) for the equality $\int_\gamma f = \sum \int_{\gamma_k} f$ to hold.
 
@@ -129,7 +129,7 @@ $\int_\gamma \frac{dz}{z^2 - 1} = \frac{1}{2}(2\pi i - 2\pi i) = 0$.
 
 $$I = \oint_{|z|=1} \frac{1}{2 + (z + z^{-1})/2} \cdot \frac{dz}{iz} = \oint_{|z|=1} \frac{2}{4z + z^2 + 1} \cdot \frac{dz}{i} = \frac{2}{i} \oint_{|z|=1} \frac{dz}{z^2 + 4z + 1}$$
 
-The denominator factors as $(z + 2 - \sqrt{3})(z + 2 + \sqrt{3})$. Only the root $z = -2 + \sqrt{3}$ lies inside $|z| = 1$. By Cauchy's theorem applied to the simply connected region after deformation:
+The denominator factors as $(z + 2 - \sqrt{3})(z + 2 + \sqrt{3})$. Only the root $z = -2 + \sqrt{3}$ lies inside $|z| = 1$. By Cauchy's theorem applied to the directly connected region after deformation:
 
 $$I = \frac{2}{i} \cdot 2\pi i \cdot \operatorname{Res}_{z=-2+\sqrt{3}} \frac{1}{z^2 + 4z + 1} = 4\pi \cdot \frac{1}{2\sqrt{3}} = \frac{2\pi}{\sqrt{3}}$$
 
@@ -151,7 +151,7 @@ Hence $\int_0^\infty \frac{\sqrt{x}}{x^2 + 1}\,dx = \frac{\pi}{\sqrt{2}}$.
 
 - **Cauchy's theorem requires analyticity on the entire region enclosed by the contour.** If $f$ has even a single singularity inside $\gamma$, the integral may be nonzero.
 - **The integral over a closed contour equals $2\pi i$ times the sum of residues** (a consequence of Cauchy's theorem for multiply connected domains), connecting Cauchy's theorem to the residue calculus.
-- **Path independence is equivalent to the existence of an antiderivative** on a simply connected domain, which in turn is guaranteed by Cauchy's theorem.
+- **Path independence is equivalent to the existence of an antiderivative** on a directly connected domain, which in turn is guaranteed by Cauchy's theorem.
 - **Deformation of contours allows replacing complicated paths with simple ones** (e.g., small circles around singularities) without changing the integral value.
 - **The Cauchy-Riemann equations are both necessary and sufficient** for the proof: the vanishing of the double integral in the proof relies entirely on $u_x = v_y$ and $u_y = -v_x$.
 

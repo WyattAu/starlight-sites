@@ -60,7 +60,7 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 1. **Confusing `const T&` with `T&`:** A `const T&` can bind to an rvalue (temporary), but a `T&` cannot. This is why `void f(int& x)` can't be called with `f(5)`, but `void f(const int& x)` can. The `const` reference extends the temporary's lifetime.
 
-2. **Using `reinterpret_cast` to bypass type safety:** `reinterpret_cast` reinterprets the bit pattern of one type as another type. This is almost always wrong and often undefined behavior. Use `static_cast` for related types, `dynamic_cast` for polymorphic downcasting, and `const_cast` to add/remove const (also usually wrong).
+2. **Using `reinterpret_cast` to bypass type safety:** `reinterpret_cast` reinterprets the bit pattern of one type as another type. This is almost always wrong and often undefined behavior. Use `static_cast` for related types, `dynamic_cast` for polymorphic downcasting, and `const_cast` to add/remove const (also in most cases wrong).
 
 3. **Assuming `sizeof(int) == 4` everywhere:** The size of `int` is platform-dependent. On most modern platforms it's 4 bytes, but on some embedded systems it can be 2 bytes. Use `<cstdint>` types (`int32_t`, `uint64_t`) when you need specific sizes.
 

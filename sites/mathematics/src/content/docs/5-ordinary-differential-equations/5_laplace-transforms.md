@@ -364,7 +364,7 @@ $x' = \frac{8}{3}e^{2t} + \frac{1}{3}e^{-t}$, $3x - 2y = 4e^{2t} - e^{-t} - \fra
 
 The Laplace transform converts differential equations into algebraic equations. By transforming a function $f(t)$ into $F(s) = \int_0^\infty e^{-st}f(t)\,dt$, differentiation in the time domain becomes multiplication by $s$ in the frequency domain. This means a linear ODE with constant coefficients becomes a polynomial equation in $s$, which can be solved algebraically and then inverted to recover the solution.
 
-The Laplace transform is particularly powerful for several reasons. It handles discontinuous forcing functions (step functions, impulses) naturally through the second shifting theorem and the convolution theorem. It converts initial value problems into algebraic problems without needing to find the homogeneous solution first. The convolution theorem says that convolution in time becomes multiplication in the frequency domain, which is why the Laplace transform is the tool of choice for systems theory, control engineering, and circuit analysis. The transform exists for functions of exponential order, which covers essentially all physically reasonable inputs.
+The Laplace transform is particularly powerful for several reasons. It handles discontinuous forcing functions (step functions, impulses) logically through the second shifting theorem and the convolution theorem. It converts initial value problems into algebraic problems without needing to find the homogeneous solution first. The convolution theorem says that convolution in time becomes multiplication in the frequency domain, which is why the Laplace transform is the tool of choice for systems theory, control engineering, and circuit analysis. The transform exists for functions of exponential order, which covers essentially all physically reasonable inputs.
 
 ### 5.18 Proof Sketch: Picard Iteration
 
@@ -383,7 +383,7 @@ follows From the **Gronwall inequality** applied to the difference of two soluti
 - **[Second-Order Linear ODEs](5-ordinary-differential-equations/3_second-order-linear-odes.mdx)**: The Laplace transform converts the characteristic equation approach into algebraic manipulation in the frequency domain.
 - **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: Both Fourier and Laplace transforms decompose signals into frequency components, but Laplace handles transient and aperiodic signals.
 - **[Complex Numbers Review](6-complex-analysis/1_complex-numbers-review.md)**: The Laplace variable $s$ is complex, and poles and zeros in the complex plane determine system behaviour.
-- **[Systems of ODEs](5-ordinary-differential-equations/4_systems-of-odes.mdx)**: The Laplace transform extends naturally to systems of ODEs, converting coupled differential equations into algebraic systems.
+- **[Systems of ODEs](5-ordinary-differential-equations/4_systems-of-odes.mdx)**: The Laplace transform extends logically to systems of ODEs, converting coupled differential equations into algebraic systems.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

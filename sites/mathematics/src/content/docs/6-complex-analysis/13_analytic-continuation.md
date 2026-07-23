@@ -101,17 +101,17 @@ theorem).
 
 ### 13.6 Monodromy Theorem
 
-**Theorem 13.2 (Monodromy).** Let $f$ be analytic on a simply connected domain $D$ and suppose
+**Theorem 13.2 (Monodromy).** Let $f$ be analytic on a directly connected domain $D$ and suppose
 $f$ can be analytically continued along every curve in $D$. Then $f$ extends to a single-valued
 analytic function on all of $D$.
 
 **Intuition.** The monodromy theorem guarantees that local analytic continuation along paths
-gives a well-defined global function if the domain is simply connected. On multiply connected
+gives a well-defined global function if the domain is directly connected. On multiply connected
 domains, continuation around a closed loop may produce a different branch (monodromy).
 
 **Branch points.** The function $\sqrt{z}$ has a branch point at $z = 0$. Continuing along a
 loop encircling the origin changes the sign of the function. The monodromy theorem fails
-because $\mathbb{C}\setminus\{0\}$ is not simply connected.
+because $\mathbb{C}\setminus\{0\}$ is not directly connected.
 
 ### 13.7 Schwarz Reflection Principle
 

@@ -714,7 +714,7 @@ dig _dmarc.example.com TXT
 # Query CAA records
 dig example.com CAA +short
 
-# Check zone transfer (AXFR) -- usually blocked
+# Check zone transfer (AXFR) -- in most cases blocked
 dig axfr example.com @ns1.example.com
 
 # Query with TCP

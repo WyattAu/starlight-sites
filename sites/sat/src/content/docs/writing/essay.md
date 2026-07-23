@@ -27,7 +27,7 @@ SAT writing study notes - Essay
 
 ## Key Concepts
 
-- **Thesis Statement**: a clear, specific claim that the essay supports. Usually one or two sentences at the end of the introduction.
+- **Thesis Statement**: a clear, specific claim that the essay supports. In most cases one or two sentences at the end of the introduction.
 - **Evidence**: specific examples, data, or quotations that support the thesis. Strong essays use multiple types of evidence.
 - **Analysis**: explaining how evidence supports the thesis. Don't just list evidence — explain its significance.
 - **Organisation**: clear introduction, body paragraphs with topic sentences, and conclusion. Each body paragraph focuses on one supporting point.
@@ -120,7 +120,7 @@ The SAT essay is an argument about an argument — you are analysing how the aut
 
 **Not addressing the prompt directly.** The essay must respond to the specific assignment, whether it asks you to take a position, analyse an argument, or discuss a topic. Students sometimes write a general essay on a related topic without engaging with the prompt's specific requirements. Reread the prompt after planning and again before submitting to ensure alignment.
 
-**Weak or absent thesis statement.** A thesis statement should clearly state your position or purpose in one or two sentences. Vague statements like "there are many perspectives on this issue" do not provide a clear direction. A strong thesis makes a specific claim that the rest of the essay supports with evidence.
+**Weak or absent thesis statement.** A thesis statement should evidently state your position or purpose in one or two sentences. Vague statements like "there are many perspectives on this issue" do not provide a clear direction. A strong thesis makes a specific claim that the rest of the essay supports with evidence.
 
 **Poor time management.** The SAT essay gives you 50 minutes. Students often spend too long planning or writing the introduction, leaving insufficient time for body paragraphs and revision. A practical approach is 5 minutes planning, 35 minutes writing, and 10 minutes revising. Practise this timing under test conditions.
 

@@ -564,7 +564,7 @@ try {
     // Broader exception caught after specific ones
     System.err.println("I/O error: " + e.getMessage());
 } catch (Exception e) {
-    // Catch-all (usually not recommended)
+    // Catch-all (in most cases not recommended)
     System.err.println("Unexpected error: " + e.getMessage());
 } finally {
     // Always executes, even if an exception is thrown, caught, or

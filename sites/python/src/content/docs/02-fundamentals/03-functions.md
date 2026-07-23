@@ -230,7 +230,7 @@ pairs = [(1, "banana"), (3, "apple"), (2, "cherry")]
 pairs.sort(key=lambda pair: pair[1])
 # [(3, 'apple'), (1, 'banana'), (2, 'cherry')]
 
-# map and filter (though list comprehensions are usually preferred)
+# map and filter (though list comprehensions are in most cases preferred)
 squares = list(map(lambda x: x**2, range(10)))
 evens = list(filter(lambda x: x % 2 == 0, range(10)))
 

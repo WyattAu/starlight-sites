@@ -129,7 +129,7 @@ number.
 - **Homotopy equivalence is weaker than homeomorphism:** Two spaces can be homotopy equivalent without being homeomorphic (e.g., $\mathbb{R}^n$ and a point are homotopy equivalent but not homeomorphic).
 - **The fundamental group detects "holes":** A space with trivial $\pi_1$ has no one-dimensional holes; non-trivial $\pi_1$ indicates loops that cannot be contracted.
 - **Euler characteristic is a homotopy invariant:** Any two homotopy equivalent spaces have the same Euler characteristic, even though it can be computed from any triangulation.
-- **Covering spaces relate local and global topology:** The universal cover of a space $X$ is simply connected, and $\pi_1(X)$ acts on it as deck transformations.
+- **Covering spaces relate local and global topology:** The universal cover of a space $X$ is directly connected, and $\pi_1(X)$ acts on it as deck transformations.
 - **The classification of surfaces reduces topology to algebra:** Every compact surface is determined by its orientability and Euler characteristic.
 
 ## Common Pitfalls
@@ -148,7 +148,7 @@ number.
 
 ## Intuition
 
-Algebraic topology translates geometric questions into algebra. A loop that cannot be shrunk to a point reveals a hole in the space, and the fundamental group counts these holes by recording how loops wind around them. Think of a maze: if you can walk any path back to your starting point without getting stuck, the space is simply connected. The Euler characteristic provides a numerical fingerprint: for any surface, vertices minus edges plus faces gives a number that does not depend on how you triangulate it. This converts the continuous problem of classifying surfaces into the discrete problem of counting integers.
+Algebraic topology translates geometric questions into algebra. A loop that cannot be shrunk to a point reveals a hole in the space, and the fundamental group counts these holes by recording how loops wind around them. Think of a maze: if you can walk any path back to your starting point without getting stuck, the space is directly connected. The Euler characteristic provides a numerical fingerprint: for any surface, vertices minus edges plus faces gives a number that does not depend on how you triangulate it. This converts the continuous problem of classifying surfaces into the discrete problem of counting integers.
 ## Cross-References
 
 - **[Metric Spaces](9-topology/7_metric-spaces.md)**: The metric space structure provides the foundation for topological concepts like continuity and convergence used throughout algebraic topology.

@@ -149,8 +149,8 @@ Topology is often called "rubber-sheet geometry" because it studies properties t
 
 ## Common Mistakes
 
-**Mistake 1: Assuming compactness equals sequential compactness in general topological spaces**
-In metric spaces, compactness and sequential compactness are equivalent. In general topological spaces, they are not: the space $[0, \omega_1)$ with the order topology is sequentially compact but not compact. Students often assume these concepts are interchangeable without checking whether the space is metrizable.
+**Mistake 1: Assuming compactness equals sequential compactness as a rule topological spaces**
+In metric spaces, compactness and sequential compactness are equivalent. as a rule topological spaces, they are not: the space $[0, \omega_1)$ with the order topology is sequentially compact but not compact. Students often assume these concepts are interchangeable without checking whether the space is metrizable.
 
 **Mistake 2: Assuming connectedness implies path-connectedness**
 Every path-connected space is connected, but the converse is false. The topologist's sine curve $\{(x, \sin(1/x)) : x > 0\} \cup \{(0, y) : -1 \leq y \leq 1\}$ is connected but not path-connected. Students frequently use these terms interchangeably, which leads to errors when constructing continuous paths between points.

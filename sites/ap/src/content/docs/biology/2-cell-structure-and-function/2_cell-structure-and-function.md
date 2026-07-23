@@ -886,7 +886,7 @@ genetic variation.
 
 ## Intuition
 
-Behind every scientific discovery and technological innovation lies mathematics. Functions model relationships between variables, statistics reveals patterns in data, and logic ensures rigorous reasoning. Mathematics teaches us to think precisely, solve systematically, and communicate clearly - skills that are valuable far beyond the classroom.
+Behind every scientific discovery and technological innovation lies mathematics. Functions model relationships between variables, statistics reveals patterns in data, and logic ensures rigorous reasoning. Mathematics teaches us to think precisely, solve systematically, and communicate evidently - skills that are valuable far beyond the classroom.
 
 
 ## Cross-References

@@ -171,7 +171,7 @@ $\int_\gamma e^{2z}\, dz = \frac{1}{2}(e^{2i} - e^{2})$.
 
 ### 4.7 Intuition: What Makes Complex Integration Special?
 
-Complex integration generalises the real line integral to paths in the complex plane. The integral $\int_\gamma f(z)\,dz$ sums the values of $f$ along a contour, weighted by the direction of the contour. For analytic functions (those that are complex-differentiable), the remarkable property is path-independence: if $f$ is analytic on a simply connected domain, the integral depends only on the endpoints, not on the path taken. This is the complex analogue of the fundamental theorem of calculus.
+Complex integration generalises the real line integral to paths in the complex plane. The integral $\int_\gamma f(z)\,dz$ sums the values of $f$ along a contour, weighted by the direction of the contour. For analytic functions (those that are complex-differentiable), the remarkable property is path-independence: if $f$ is analytic on a directly connected domain, the integral depends only on the endpoints, not on the path taken. This is the complex analogue of the fundamental theorem of calculus.
 
 The Cauchy integral formula is the cornerstone: it says that the value of an analytic function at any interior point of a contour is completely determined by its values on the boundary. This is far stronger than anything in real analysis, where a function's values on an interval tell you nothing about its values elsewhere. The residue theorem, which computes integrals by summing contributions from singularities inside the contour, is a consequence of the Cauchy integral formula. These tools make it possible to evaluate many real integrals that are difficult or impossible by real methods alone.
 

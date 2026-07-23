@@ -175,11 +175,11 @@ The power of compactness is that it turns qualitative statements into quantitati
 
 ### 5.15 Common Mistakes
 
-**Mistake 1: Assuming that closed and bounded implies compact in general topological spaces.**
-The Heine-Borel theorem states that closed and bounded subsets of $\mathbb{R}^n$ are compact, but this does not hold in general topological spaces. For example, the closed unit ball in an infinite-dimensional normed space is closed and bounded but not compact. Compactness must be verified using the definition or appropriate theorems for the specific space.
+**Mistake 1: Assuming that closed and bounded implies compact as a rule topological spaces.**
+The Heine-Borel theorem states that closed and bounded subsets of $\mathbb{R}^n$ are compact, but this does not hold as a rule topological spaces. For example, the closed unit ball in an infinite-dimensional normed space is closed and bounded but not compact. Compactness must be verified using the definition or appropriate theorems for the specific space.
 
 **Mistake 2: Confusing compactness with sequential compactness.**
-In metric spaces, compactness and sequential compactness are equivalent, but in general topological spaces they are not. The first uncountable ordinal $\omega_1$ with the order topology is sequentially compact but not compact, while $\{0, 1\}^{\mathbb{R}}$ with the product topology is compact but not sequentially compact.
+In metric spaces, compactness and sequential compactness are equivalent, but as a rule topological spaces they are not. The first uncountable ordinal $\omega_1$ with the order topology is sequentially compact but not compact, while $\{0, 1\}^{\mathbb{R}}$ with the product topology is compact but not sequentially compact.
 
 **Mistake 3: Forgetting that compactness is preserved by continuous maps.**
 The image of a compact space under a continuous map is compact. This is a key property that is often overlooked. If $f: X \to Y$ is continuous and $X$ is compact, then $f(X)$ is compact in $Y$. This fact is used to prove the extreme value theorem.

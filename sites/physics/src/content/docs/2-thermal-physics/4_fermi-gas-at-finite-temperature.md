@@ -136,7 +136,7 @@ $\blacksquare$
 ## Cross-References
 
 - **[Statistical Mechanics](2_statistical-mechanics.md)**: The Fermi gas is built on the Fermi-Dirac distribution derived from quantum statistical mechanics.
-- **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: Fermi-Dirac statistics emerge naturally from the grand canonical ensemble for non-interacting fermions.
+- **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: Fermi-Dirac statistics emerge logically from the grand canonical ensemble for non-interacting fermions.
 - **[Bose-Einstein Condensation](5_bose-einstein-condensation.md)**: Bose-Einstein condensation contrasts with Fermi gas behaviour, showing how quantum statistics determine low-temperature properties.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

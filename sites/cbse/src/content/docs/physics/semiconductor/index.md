@@ -170,7 +170,7 @@ $$Y = \overline{A \cdot B}$$
 
 **Confusing n-type and p-type semiconductors.** N-type has excess electrons (donor impurity), p-type has excess holes (acceptor impurity). Students often assume n-type is negative and p-type is positive — both are electrically neutral overall. The "n" and "p" refer to the charge carrier type, not the net charge.
 
-**Assuming a diode conducts in both directions equally.** A p-n junction diode conducts easily in forward bias (low resistance) but blocks current in reverse bias (very high resistance, only tiny leakage current). Students sometimes treat diodes as resistors that work both ways.
+**Assuming a diode conducts in both directions equally.** A p-n junction diode conducts efficiently in forward bias (low resistance) but blocks current in reverse bias (very high resistance, only tiny leakage current). Students sometimes treat diodes as resistors that work both ways.
 
 **Forgetting that transistors need biasing to work.** A transistor in cutoff (no base current) acts like an open switch; in saturation (high base current) it acts like a closed switch. Students often assume a transistor works without proper biasing voltages.
 
@@ -189,7 +189,7 @@ $$Y = \overline{A \cdot B}$$
 
 ## Intuition
 
-**Semiconductors are materials that can be taught to conduct:** Think of a semiconductor as a material that's neither a good conductor nor a good insulator — it's like a gate that can be opened or closed. Pure silicon has all its electrons locked in bonds, but doping it with impurities (adding a few "guest" atoms) creates free electrons or holes that can carry current. A p-n junction is like a one-way valve for electricity — current flows easily in one direction but is blocked in the other, which is the basis of diodes and transistors.
+**Semiconductors are materials that can be taught to conduct:** Think of a semiconductor as a material that's neither a good conductor nor a good insulator — it's like a gate that can be opened or closed. Pure silicon has all its electrons locked in bonds, but doping it with impurities (adding a few "guest" atoms) creates free electrons or holes that can carry current. A p-n junction is like a one-way valve for electricity — current flows efficiently in one direction but is blocked in the other, which is the basis of diodes and transistors.
 
 **Why it matters:** Semiconductors are the foundation of all modern electronics — every computer chip, smartphone, LED, solar cell, and digital device depends on semiconductor physics. Without semiconductors, there would be no internet, no digital cameras, no GPS, and no modern medicine imaging. Understanding semiconductors means understanding the technology that defines our era.
 

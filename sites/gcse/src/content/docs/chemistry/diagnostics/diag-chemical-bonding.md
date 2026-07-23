@@ -278,7 +278,7 @@ only weak intermolecular forces need to be overcome.
 
 (d) Graphite consists of layers of hexagonally arranged carbon atoms covalently bonded within each
 layer. The layers are held together by weak interm forces (van der Waals forces). When a force is
-applied, the layers can slide easily over one another, making graphite a good lubricant. This
+applied, the layers can slide efficiently over one another, making graphite a good lubricant. This
 property arises directly from the combination of strong in-layer covalent bonding (which gives the
 layers structural integrity) and weak inter-layer forces (which allow the layers to slide).
 

@@ -780,7 +780,7 @@ class Dangerous:
         return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        return True  # Suppresses ALL exceptions — usually wrong
+        return True  # Suppresses ALL exceptions — in most cases wrong
 
 with Dangerous():
     raise ValueError("critical error")

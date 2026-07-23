@@ -921,7 +921,7 @@ WHERE created_at >= '2024-01-01' AND created_at &lt; '2024-04-01';
 
 -- Pruning does NOT work with:
 -- 1. Non-immutable functions: WHERE created_at >= NOW()  (NOW() is stable, not immutable)
--- 2. Parameters from prepared statements (in some cases)
+-- 2. Parameters from prepared statements (in specific scenarios)
 -- 3. Expressions the planner cannot evaluate at plan time
 ```
 

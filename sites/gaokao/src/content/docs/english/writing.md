@@ -181,7 +181,7 @@ October 1st, 2026
 "'What changed?' Sarah asked, looking up with curiosity. Mrs. Chen smiled gently and sat beside her on the wooden dock. 'When I was your age, I nearly drowned in a river. For years, I couldn't even look at water without trembling. Then one summer, my father took me to a quiet pond. He didn't force me in. He just sat with me, day after day, until the fear lost its power.' Mrs. Chen's eyes drifted across the shimmering lake. 'Fear is not something you fight. It is something you understand.'"
 
 第二段：
-"The next morning, Sarah found Mrs. Chen waiting by the shore with two fishing rods. 'Today, we fish,' she said simply. Sarah hesitated but took the rod. As they sat side by side, the gentle lapping of waves became almost musical. Gradually, Sarah's grip on the dock railing loosened. By the end of the week, she was wading ankle-deep in the shallows, laughing as the water swirled around her feet. She still couldn't swim, but she no longer sat alone on the dock. The lake was no longer her enemy — it was becoming her friend."
+"The next morning, Sarah found Mrs. Chen waiting by the shore with two fishing rods. 'Today, we fish,' she said directly. Sarah hesitated but took the rod. As they sat side by side, the gentle lapping of waves became almost musical. Gradually, Sarah's grip on the dock railing loosened. By the end of the week, she was wading ankle-deep in the shallows, laughing as the water swirled around her feet. She still couldn't swim, but she no longer sat alone on the dock. The lake was no longer her enemy — it was becoming her friend."
 
 **答案：** 见续写示范
 
@@ -420,7 +420,7 @@ Gaokao English letters require formal register, but students often use contracti
 
 ### Mistake 2: Failing to use underlined keywords in读后续写
 
-The读后续写 task requires using at least 5 underlined keywords from the original passage. Students often write cohesive continuations that omit these keywords, losing marks. Before writing, list all underlined words and plan where each will appear naturally in your continuation. The keywords should fit the context, not be forced in awkwardly.
+The读后续写 task requires using at least 5 underlined keywords from the original passage. Students often write cohesive continuations that omit these keywords, losing marks. Before writing, list all underlined words and plan where each will appear logically in your continuation. The keywords should fit the context, not be forced in awkwardly.
 
 ### Mistake 3: Writing a conclusion that introduces new arguments
 

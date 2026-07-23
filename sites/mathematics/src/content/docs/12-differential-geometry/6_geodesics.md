@@ -93,7 +93,7 @@ The **geodesic deviation equation** describes the relative acceleration of nearb
 
 $$\frac{D^2}{dt^2} J^i = -R^i_{\,jkl} \dot{\gamma}^j J^k \dot{\gamma}^l$$
 
-In general relativity, this is the equation of **geodesic deviation** that governs tidal forces.
+as a rule relativity, this is the equation of **geodesic deviation** that governs tidal forces.
 For a congruence of timelike geodesics in the standard model of cosmology, it gives the relative acceleration of nearby test particles.
 
 **Example.** On $S^2$, geodesics are great circles. Jacobi fields along the equator show that all
@@ -209,7 +209,7 @@ Geodesics are the straightest possible paths on a curved surface. On a flat plan
 
 - [Vector Fields and Flows](/mathematics/12-differential-geometry/3_vector-fields-and-flows) -- Geodesics are integral curves of the geodesic spray vector field on the tangent bundle, linking flow theory to metric geometry.
 - [Differential Geometry Summary](/mathematics/12-differential-geometry/10_summary) -- The summary table of Christoffel symbols and curvature tensors provides the computational tools used throughout this chapter.
-- [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The wave equation in curved spacetime uses geodesic deviation to describe tidal forces in general relativity.
+- [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The wave equation in curved spacetime uses geodesic deviation to describe tidal forces as a rule relativity.
 - [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- Minkowski spacetime is a flat Lorentzian manifold whose geodesics are the worldlines of free particles.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)

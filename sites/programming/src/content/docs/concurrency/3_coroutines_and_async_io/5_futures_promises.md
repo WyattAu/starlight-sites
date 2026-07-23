@@ -564,7 +564,7 @@ Manual `stop_token` integration as shown above is the recommended approach.
 
 **A future is like a receipt for a pizza order:** You order a pizza (start an async task), get a receipt (the future), and go do other things. When the pizza is ready, you present your receipt and get the pizza (call `.get()` on the future). The promise is the kitchen's side — it's what they use to actually put the pizza in the box and hand it to you. The problem is, `.get()` blocks — you stand at the counter waiting, which defeats the purpose of ordering ahead.
 
-**Why it matters:** `std::future` is C++'s original async primitive, but it has a critical limitation: no composability. You can't chain futures like JavaScript promises or Rust futures. This is why C++20 coroutines with custom task types are the modern approach — they compose naturally and avoid the blocking `.get()` problem.
+**Why it matters:** `std::future` is C++'s original async primitive, but it has a critical limitation: no composability. You can't chain futures like JavaScript promises or Rust futures. This is why C++20 coroutines with custom task types are the modern approach — they compose logically and avoid the blocking `.get()` problem.
 
 **The key insight:** `std::future` is blocking by design — for composable async workflows, use coroutines with custom task types instead.
 

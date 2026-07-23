@@ -267,7 +267,7 @@ defmodule MyApp.Blog.Article do
 end
 ```
 
-**Solution:** The context module `Blog` provides the public API. All queries go through `Repo`. Schema functions (`published/0`, `order_by_newest/1`) compose in queries. `change_article/2` returns a changeset for form prefilling. The schema separates data concerns from business logic. The context is easily mockable in tests.
+**Solution:** The context module `Blog` provides the public API. All queries go through `Repo`. Schema functions (`published/0`, `order_by_newest/1`) compose in queries. `change_article/2` returns a changeset for form prefilling. The schema separates data concerns from business logic. The context is efficiently mockable in tests.
 
 ---
 

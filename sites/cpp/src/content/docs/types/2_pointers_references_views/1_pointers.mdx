@@ -265,7 +265,7 @@ struct Derived : Base {
 
 int Derived::* pb = &Derived::b;
 
-// pb is typically the offset of 'b' within Derived, which is sizeof(int) = 4
+// pb is in standard practice the offset of 'b' within Derived, which is sizeof(int) = 4
 Derived d{1, 2};
 int val = d.*pb;  // accesses d.b
 ```
@@ -481,7 +481,7 @@ void f(char*);
 f(nullptr);   // f(char*): nullptr_t → char* is exact match (null pointer constant)
                // nullptr_t → int is boolean conversion (rank: Conversion)
 f(0);         // f(int): 0 is an int literal, exact match
-f(NULL);      // f(int): NULL is typically 0, which is an int literal
+f(NULL);      // f(int): NULL is in standard practice 0, which is an int literal
 ```
 
 ### Undefined Behavior (UB) of Dereference

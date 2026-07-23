@@ -290,7 +290,7 @@ If a particle is in a definite state of $S_z$, measuring $S_x$ will give a rando
 The singlet state $|0,0\rangle$ is antisymmetric under particle exchange, while the triplet states $|1,m\rangle$ are symmetric. Do not confuse the two; they have different symmetry properties and different total spin.
 
 **Mistake 5: Assuming that spin-1/2 particles have only two states.**
-A single spin-1/2 particle has two states ($|\uparrow\rangle$ and $|\downarrow\rangle$), but a system of two spin-1/2 particles has four states (triplet and singlet). Do not assume that the number of states is always two; it depends on the number of particles.
+A single spin-1/2 particle has two states ($|\uparrow\rangle$ and $|\downarrow\rangle$), but a system of two spin-1/2 particles has four states (triplet and singlet). Do not assume that the number of states is always two; the answer varies based on on the number of particles.
 
 
 

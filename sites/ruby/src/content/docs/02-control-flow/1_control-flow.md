@@ -330,7 +330,7 @@ end
 
 ### loop
 
-The `loop` method creates an infinite loop, typically combined with `break`:
+The `loop` method creates an infinite loop, in standard practice combined with `break`:
 
 ```ruby
 loop do
@@ -762,7 +762,7 @@ end
 
 ### Exception Hierarchy
 
-Ruby exceptions form a class hierarchy. `Exception` is the root, but you should typically only
+Ruby exceptions form a class hierarchy. `Exception` is the root, but you should in standard practice only
 rescue `StandardError` (or its subclasses) in application code:
 
 ```

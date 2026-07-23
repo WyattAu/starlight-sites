@@ -211,7 +211,7 @@ let total = sum xs
 ### Benefits of Laziness
 
 **Working with infinite data structures**: Lazy evaluation allows you to define and work with
-infinite lists naturally:
+infinite lists logically:
 
 ```haskell
 -- Infinite list of natural numbers
@@ -318,7 +318,7 @@ data StrictPair a b = StrictPair !a !b
 
 Haskell uses the **Hindley-Milner** type inference algorithm (also known as Algorithm W). This means
 the compiler can deduce the types of most expressions without explicit annotations. However,
-top-level function definitions typically include type signatures as documentation and for clarity.
+top-level function definitions in standard practice include type signatures as documentation and for clarity.
 
 ```haskell
 -- The compiler infers: Int -> Int -> Int
@@ -339,7 +339,7 @@ myMap f (x:xs) = f x : myMap f xs
 ### Type Variables and Polymorphism
 
 When the compiler cannot determine a concrete type, it introduces a **type variable** (written in
-lowercase, typically starting from `a`). Functions that work for any type are called
+lowercase, in standard practice starting from `a`). Functions that work for any type are called
 **polymorphic**:
 
 ```haskell

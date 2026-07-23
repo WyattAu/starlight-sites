@@ -2300,7 +2300,7 @@ sufficient consumer surplus gains to offset it.
 
 Comparative advantage is the most counterintuitive idea in economics. It says that even if one country is better at producing everything (absolute advantage), both countries can still benefit from trade. The key is opportunity cost — what you give up to produce something. Country A might be better at producing both wine and cloth, but if it's *much* better at wine, it should specialise in wine and buy cloth from Country B, even if B is less efficient at cloth. This is because A's opportunity cost of producing cloth (in terms of wine forgone) is higher than B's.
 
-Think of trade as a positive-sum game, not zero-sum. When countries specialise according to comparative advantage and trade, the total output increases — both countries can consume more than they could in isolation. Tariffs and quotas disrupt this by raising prices and reducing trade volume, creating deadweight loss (welfare that simply disappears). The WTO exists to keep trade barriers low and resolve disputes.
+Think of trade as a positive-sum game, not zero-sum. When countries specialise according to comparative advantage and trade, the total output increases — both countries can consume more than they could in isolation. Tariffs and quotas disrupt this by raising prices and reducing trade volume, creating deadweight loss (welfare that directly disappears). The WTO exists to keep trade barriers low and resolve disputes.
 
 ## Common Mistakes
 

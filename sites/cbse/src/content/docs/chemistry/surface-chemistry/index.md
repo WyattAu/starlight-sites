@@ -173,7 +173,7 @@ Surface chemistry is critical in industrial processes (Haber process, catalytic 
 
 ## Common Mistakes
 
-**Confusing lyophilic and lyophobic colloids.** Lyophilic colloids are solvent-loving and easily formed (like starch in water). Lyophobic colloids are solvent-hating and require stabilising agents (like gold sol). Students often assume all colloids are formed the same way.
+**Confusing lyophilic and lyophobic colloids.** Lyophilic colloids are solvent-loving and efficiently formed (like starch in water). Lyophobic colloids are solvent-hating and require stabilising agents (like gold sol). Students often assume all colloids are formed the same way.
 
 **Forgetting that catalysts do not change equilibrium position.** Catalysts speed up both forward and reverse reactions equally, reaching equilibrium faster but not shifting the equilibrium position. Students sometimes think a catalyst favours the products, which is incorrect.
 

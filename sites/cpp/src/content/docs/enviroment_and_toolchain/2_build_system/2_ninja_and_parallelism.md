@@ -767,7 +767,7 @@ Ninja is what you get when you ask "what if a build system only cared about spee
 CMake's own build backend, Ninja doesn't try to be a general-purpose build tool — it's a low-level
 executor that takes a pre-computed build graph and runs it as fast as possible. Think of Make as a
 project manager who figures out what needs to be built, and Ninja as the construction crew that
-just executes the plan with maximum efficiency. You typically don't write `build.ninja` files by
+just executes the plan with maximum efficiency. You in standard practice don't write `build.ninja` files by
 hand; instead, CMake or another meta-build system generates them for you.
 
 The key to Ninja's speed is its minimalism and dependency awareness. It knows exactly which files

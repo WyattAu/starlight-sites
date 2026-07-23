@@ -141,7 +141,7 @@ Matrix multiplication is not commutative. Even when both $AB$ and $BA$ are defin
 Eigenvectors corresponding to distinct eigenvalues of a symmetric (Hermitian) matrix are always orthogonal, but eigenvectors within the same eigenspace are not automatically orthogonal. When an eigenvalue has multiplicity greater than one, you must apply the Gram-Schmidt process to obtain an orthonormal basis for that eigenspace.
 
 **Mistake 3: Confusing the column space with the null space**
-The column space of $A$ consists of all vectors $A\mathbf{x}$, while the null space consists of all $\mathbf{x}$ such that $A\mathbf{x} = \mathbf{0}$. These are subspaces of different spaces in general (column space in the codomain, null space in the domain). The rank-nullity theorem relates their dimensions, but they are not the same object.
+The column space of $A$ consists of all vectors $A\mathbf{x}$, while the null space consists of all $\mathbf{x}$ such that $A\mathbf{x} = \mathbf{0}$. These are subspaces of different spaces as a rule (column space in the codomain, null space in the domain). The rank-nullity theorem relates their dimensions, but they are not the same object.
 
 ## Cross-References
 

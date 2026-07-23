@@ -612,7 +612,7 @@ Rounded to the nearest cent: approximately \$0.12 per kilometre.
 
 **Common mistakes:**
 
-- Multiplying instead of dividing (getting \$17.40 per kilometre, which is clearly unreasonable)
+- Multiplying instead of dividing (getting \$17.40 per kilometre, which is evidently unreasonable)
 - Incorrect rounding (0.1208 rounds to 0.12, not 0.13)
 - Forgetting to divide by 12 (using \$1.45 per kilometre)
 

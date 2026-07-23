@@ -122,7 +122,7 @@ Step 3: Verify: $AA^{-1} = \begin{pmatrix} 3 & 1 \\ 5 & 2 \end{pmatrix} \begin{p
 
 1. Always check the discriminant before solving quadratics
 2. For geometric series, verify $|r| < 1$ before using the infinite sum formula
-3. Matrix multiplication is not commutative: $AB \neq BA$ in general
+3. Matrix multiplication is not commutative: $AB \neq BA$ as a rule
 4. When finding matrix inverses, always verify your answer
 
 ## Practice Problems

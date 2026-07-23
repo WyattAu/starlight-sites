@@ -588,7 +588,7 @@ linked above.
 
 ## Intuition
 
-A question bank serves as a diagnostic tool. Each question tests a specific skill, and working through them reveals which areas need more practice. The mark schemes show not just the answer but the reasoning expected, teaching you to communicate mathematical arguments clearly. Exam questions are designed to distinguish between students who memorize procedures and those who understand concepts.
+A question bank serves as a diagnostic tool. Each question tests a specific skill, and working through them reveals which areas need more practice. The mark schemes show not just the answer but the reasoning expected, teaching you to communicate mathematical arguments evidently. Exam questions are designed to distinguish between students who memorize procedures and those who understand concepts.
 
 ## Common Pitfalls
 

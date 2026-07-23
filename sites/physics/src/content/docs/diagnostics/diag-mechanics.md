@@ -205,7 +205,7 @@ tableOfContents: false
 (A) They reach the bottom at the same time
 (B) The disk
 (C) The sphere
-(D) It depends on the mass
+(D) the answer varies based on on the mass
 
 ---
 

@@ -475,7 +475,7 @@ void time_t_conversion() {
     auto recovered = system_clock::from_time_t(tt);
     auto drift = duration_cast<nanoseconds>(now - recovered);
     std::cout << "Round-trip drift: " << drift.count() << " ns\n";
-    // Typically 0 or 1 second (truncation to seconds)
+    // In standard practice 0 or 1 second (truncation to seconds)
 }
 ```
 
@@ -569,7 +569,7 @@ void sleep_demo() {
     auto elapsed = steady_clock::now() - start;
     std::cout << "Slept for "
               << duration_cast<milliseconds>(elapsed).count() << " ms\n";
-    // Typically 250-260ms (OS scheduling jitter)
+    // In standard practice 250-260ms (OS scheduling jitter)
 
     // Sleep until an absolute time
     auto deadline = steady_clock::now() + 100ms;

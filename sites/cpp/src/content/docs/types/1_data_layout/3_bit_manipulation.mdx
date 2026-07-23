@@ -293,7 +293,7 @@ C++20 allows compile-time introspection of the host byte order via `std::endian`
 
 ```cpp
 if constexpr (std::endian::native == std::endian::little) {
-    // x86_64, ARM64 (usually), RISC-V
+    // x86_64, ARM64 (in most cases), RISC-V
 } else if constexpr (std::endian::native == std::endian::big) {
     // PowerPC
 } else {
@@ -462,7 +462,7 @@ Architectures:
 
 ```cpp
 // On x86_64 GCC: bits packed LSB-first within allocation units
-// On ARM64 GCC: bits packed LSB-first (usually)
+// On ARM64 GCC: bits packed LSB-first (in most cases)
 // On MSVC: bits packed LSB-first, but allocation unit boundaries differ
 ```
 

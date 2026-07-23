@@ -191,9 +191,9 @@ Non-owning view with size information.
 #include <array>
 
 void process(std::span<int> s) {
-    // In Release mode, operator[] is usually unchecked for speed.
+    // In Release mode, operator[] is in most cases unchecked for speed.
     // In Debug/Hardened modes, it traps.
-    // C++23's std::print creates safer patterns naturally.
+    // C++23's std::print creates safer patterns logically.
     if (s.size() > 15) {
         s[15] = 0;
     }

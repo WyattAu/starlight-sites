@@ -140,4 +140,4 @@ Effective close reading of poetry requires attention to:
 
 **Assuming the speaker equals the poet:** In a dramatic monologue (e.g., Browning's "My Last Duchess"), the speaker is a character, not the poet. Attributing the speaker's views to the poet confuses the dramatic situation with the poet's own beliefs. Always consider who is speaking and why.
 
-**Ignoring the volta:** The turn in a sonnet (typically at line 9 for Petrarchan, or the final couplet for Shakespearean) is where the argument shifts, deepens, or reverses. Failing to identify and analyse the volta means missing the poem's structural argument. Ask: what changes at the turn, and why?
+**Ignoring the volta:** The turn in a sonnet (in standard practice at line 9 for Petrarchan, or the final couplet for Shakespearean) is where the argument shifts, deepens, or reverses. Failing to identify and analyse the volta means missing the poem's structural argument. Ask: what changes at the turn, and why?

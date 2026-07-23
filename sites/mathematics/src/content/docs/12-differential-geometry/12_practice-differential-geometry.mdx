@@ -33,7 +33,7 @@ import PracticeProblem from "@components/PracticeProblem";
 
 **Why it matters:** General relativity describes gravity as spacetime curvature, which is fundamentally a differential geometry problem. Computer graphics needs differential geometry to render smooth surfaces realistically.
 
-**The key insight:** The Gaussian curvature of a surface is intrinsic — it depends only on distances measured on the surface, not on how the surface sits in space. This insight led to Einstein theory of general relativity.
+**The key insight:** The Gaussian curvature of a surface is intrinsic — the answer varies based on only on distances measured on the surface, not on how the surface sits in space. This insight led to Einstein theory of general relativity.
 
 ## University Mathematics -- Differential Geometry Practice
 
@@ -78,7 +78,7 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={"By Stokes' theorem, $\\int_{\\partial D} \\omega = \\int_D d\\omega$. If $\\omega = x\\, dy$ on $D = [0, 1]^2 \\subseteq \\mathbb{R}^2$, what is $\\int_{\\partial D} x\\, dy$?&quot; options={['$0$', '$1$', '$-1$', '$2$']} correctAnswer={0} explanation=&quot;$d\omega = d(x\, dy) = dx \wedge dy$. So $\int_D d\omega = \int_D dx \wedge dy = \int_0^1 \int_0^1 dx\, dy = 1$. By Stokes' theorem, $\int_{\partial D} x\, dy = 1$. Direct computation: on the right edge ($x = 1, y: 0 \to 1$), $\int x\, dy = \int_0^1 1\, dy = 1$. On the left edge ($x = 0$), the contribution is $0$. Top and bottom edges ($dy = 0$) contribute nothing."} difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={"If $\\alpha$ is a closed 1-form ($d\\alpha = 0$) on a simply connected manifold $M$, what can you conclude?&quot; options={[ '$\\alpha$ is exact: $\\alpha = df$ for some smooth function $f$', '$\\alpha$ is identically zero', '$\\alpha$ is a constant multiple of the volume form', '$\\alpha$ can never be exact', ]} correctAnswer={0} explanation=&quot;By the Poincare lemma (or de Rham cohomology), on a simply connected manifold, every closed 1-form is exact. This is equivalent to the fundamental theorem of line integrals: the line integral of $\alpha$ along a curve depends only on the endpoints."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"If $\\alpha$ is a closed 1-form ($d\\alpha = 0$) on a directly connected manifold $M$, what can you conclude?&quot; options={[ '$\\alpha$ is exact: $\\alpha = df$ for some smooth function $f$', '$\\alpha$ is identically zero', '$\\alpha$ is a constant multiple of the volume form', '$\\alpha$ can never be exact', ]} correctAnswer={0} explanation=&quot;By the Poincare lemma (or de Rham cohomology), on a directly connected manifold, every closed 1-form is exact. This is equivalent to the fundamental theorem of line integrals: the line integral of $\alpha$ along a curve depends only on the endpoints."} difficulty="medium"  />
 
 ---
 
@@ -95,13 +95,13 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={"What is the Gaussian curvature of the standard 2-sphere $S^2$ with radius $R$?&quot; options={['$1/R^2$', '$1$', '$R^2$', '$0$']} correctAnswer={0} explanation=&quot;The Gaussian curvature of an $n$-sphere $S^n(R)$ of radius $R$ is $K = 1/R^2$. For the unit sphere ($R = 1$), $K = 1$. The total curvature is $\int_{S^2} K\, dA = (1/R^2) \cdot 4\pi R^2 = 4\pi = 2\pi \chi(S^2)$, confirming the Gauss-Bonnet theorem with $\chi(S^2) = 2$."} difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={"Which of the following is NOT a symmetry of the Riemann curvature tensor $R_{ijkl}$?&quot; options={[ '$R_{ijkl} = R_{ikjl}$', '$R_{ijkl} = -R_{jikl}$', '$R_{ijkl} = -R_{ijlk}$', '$R_{ijkl} = R_{klij}$', ]} correctAnswer={0} explanation=&quot;The Riemann tensor satisfies: (1) $R_{ijkl} = -R_{jikl}$ (anti-symmetry in first pair), (2) $R_{ijkl} = -R_{ijlk}$ (anti-symmetry in second pair), (3) $R_{ijkl} = R_{klij}$ (pair interchange), and (4) the first Bianchi identity. It does NOT satisfy $R_{ijkl} = R_{ikjl}$ in general (swapping the second and third indices is not a symmetry)."} difficulty="hard"  />
+<PracticeProblem client:only="solid-js" question={"Which of the following is NOT a symmetry of the Riemann curvature tensor $R_{ijkl}$?&quot; options={[ '$R_{ijkl} = R_{ikjl}$', '$R_{ijkl} = -R_{jikl}$', '$R_{ijkl} = -R_{ijlk}$', '$R_{ijkl} = R_{klij}$', ]} correctAnswer={0} explanation=&quot;The Riemann tensor satisfies: (1) $R_{ijkl} = -R_{jikl}$ (anti-symmetry in first pair), (2) $R_{ijkl} = -R_{ijlk}$ (anti-symmetry in second pair), (3) $R_{ijkl} = R_{klij}$ (pair interchange), and (4) the first Bianchi identity. It does NOT satisfy $R_{ijkl} = R_{ikjl}$ as a rule (swapping the second and third indices is not a symmetry)."} difficulty="hard"  />
 
 ## Common Mistakes
 
 **Confusing the tangent bundle with the cotangent bundle:** The tangent bundle $TM$ consists of tangent vectors (velocity vectors), while the cotangent bundle $T^*M$ consists of covectors (1-forms, linear functionals on tangent spaces). Both have dimension $2n$, but they are different manifolds. The differential $df$ lives in $T^*M$, not $TM$.
 
-**Assuming a closed form is exact without checking topology:** By Poincaré's lemma, every closed form is exact on contractible (simply connected) domains. But on spaces with nontrivial topology (like $S^1$ or $T^2$), closed forms need not be exact. The form $d\theta$ on $S^1 \setminus \{0\}$ is closed ($d(d\theta) = 0$) but not exact — its integral around $S^1$ is $2\pi \neq 0$.
+**Assuming a closed form is exact without checking topology:** By Poincaré's lemma, every closed form is exact on contractible (directly connected) domains. But on spaces with nontrivial topology (like $S^1$ or $T^2$), closed forms need not be exact. The form $d\theta$ on $S^1 \setminus \{0\}$ is closed ($d(d\theta) = 0$) but not exact — its integral around $S^1$ is $2\pi \neq 0$.
 
 **Misidentifying symmetries of the Riemann curvature tensor:** The Riemann tensor $R_{ijkl}$ satisfies $R_{ijkl} = -R_{jikl}$, $R_{ijkl} = -R_{ijlk}$, and $R_{ijkl} = R_{klij}$, but it does NOT satisfy $R_{ijkl} = R_{ikjl}$. Swapping the second and third indices (interior swap) is not a symmetry. Misidentifying symmetries leads to incorrect simplifications in curvature computations.
 

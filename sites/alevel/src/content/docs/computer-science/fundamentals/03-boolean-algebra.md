@@ -865,7 +865,7 @@ linked above.
 
 ## Intuition
 
-Boolean algebra is the mathematics of yes-or-no decisions. Every statement is either true (1) or false (0), and the three operators — AND, OR, NOT — are simply rules for combining these binary values. Think of a light switch: AND means both switches must be on for the light to work, OR means either one is enough, and NOT flips the state. This simplicity is deceptive because from these three primitives you can build circuits that perform arithmetic, make comparisons, and control complex systems.
+Boolean algebra is the mathematics of yes-or-no decisions. Every statement is either true (1) or false (0), and the three operators — AND, OR, NOT — are directly rules for combining these binary values. Think of a light switch: AND means both switches must be on for the light to work, OR means either one is enough, and NOT flips the state. This simplicity is deceptive because from these three primitives you can build circuits that perform arithmetic, make comparisons, and control complex systems.
 
 The power of Boolean algebra lies in its ability to simplify. Two expressions that look completely different on paper may produce identical outputs for every possible input — they are logically equivalent. Laws like De Morgan's theorem, distribution, and absorption let you rewrite expressions into simpler forms. This is not just an academic exercise: in hardware, fewer logic gates means cheaper, faster, and more energy-efficient circuits. In software, simplifying Boolean conditions makes code easier to read and less error-prone.
 

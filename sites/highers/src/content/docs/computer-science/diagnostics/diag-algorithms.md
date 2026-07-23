@@ -128,7 +128,7 @@ uses a queue and explain how it maps to the enqueue and dequeue operations.
 - **Array**: a collection of elements stored in contiguous memory locations, accessed by index. Use
   case: storing a fixed list of student exam scores where random access by index is needed.
 - **Linked list**: a collection of nodes where each node contains data and a pointer (reference) to
-  the next node. Use case: implementing a playlist where songs can be easily inserted or removed
+  the next node. Use case: implementing a playlist where songs can be efficiently inserted or removed
   without shifting other elements.
 - **Stack**: a last-in, first-out (LIFO) data structure where elements are added and removed from
   the same end (the top). Use case: implementing the undo feature in a text editor -- each action is
@@ -139,7 +139,7 @@ uses a queue and explain how it maps to the enqueue and dequeue operations.
 (b) A **static array** has a fixed size determined at creation and cannot be resized. Advantage:
 memory is allocated once and access is fast ($O(1)$). Disadvantage: if the array is too small, it
 cannot accommodate more elements; if too large, memory is wasted. A **dynamic array** can resize
-itself automatically when more space is needed (typically by allocating a larger array and copying
+itself automatically when more space is needed (in standard practice by allocating a larger array and copying
 elements). Advantage: flexible size. Disadvantage: resizing has a time cost ($O(n)$ when resizing),
 and the underlying memory may need to be reallocated.
 
@@ -198,7 +198,7 @@ algorithm uses as the input size grows.
 - **Worst-case**: the maximum number of operations required (for the least favourable input).
 - **Average-case**: the expected number of operations averaged over all possible inputs.
 
-Big-O notation typically describes the worst-case time complexity.
+Big-O notation in standard practice describes the worst-case time complexity.
 
 (b)
 

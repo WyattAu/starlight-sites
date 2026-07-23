@@ -137,7 +137,7 @@ Probability Theory is the mathematics of uncertainty. Imagine you have a coin th
 ## Common Mistakes
 
 **Mistake 1: Assuming independence from correlation**
-Two random variables can be uncorrelated yet dependent. For example, if $X$ is uniformly distributed on $[-1, 1]$ and $Y = X^2$, then $\text{Cov}(X, Y) = 0$ but $Y$ is completely determined by $X$. Independence requires zero covariance for jointly Gaussian variables, but not in general.
+Two random variables can be uncorrelated yet dependent. For example, if $X$ is uniformly distributed on $[-1, 1]$ and $Y = X^2$, then $\text{Cov}(X, Y) = 0$ but $Y$ is completely determined by $X$. Independence requires zero covariance for jointly Gaussian variables, but not as a rule.
 
 **Mistake 2: Confusing the law of large numbers with the central limit theorem**
 The law of large numbers says the sample mean converges to the population mean as the sample size grows. The central limit theorem says the standardized sum converges to a normal distribution. These are different results: the LLN gives pointwise convergence while the CLT gives distributional convergence.

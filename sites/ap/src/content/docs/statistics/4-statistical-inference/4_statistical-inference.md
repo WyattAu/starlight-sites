@@ -216,7 +216,7 @@ Statistical inference is about **drawing conclusions about a population from a s
 
 **Type I vs Type II errors:** Type I (false positive) means rejecting a true null hypothesis. Type II (false negative) means failing to reject a false null hypothesis. You can't reduce both simultaneously — lowering the significance level reduces Type I errors but increases Type II errors.
 
-**The power of a test:** Power = $1 - P(\text{Type II error})$. It depends on the effect size, sample size, significance level, and variability. Larger samples and larger effects are easier to detect.
+**The power of a test:** Power = $1 - P(\text{Type II error})$. the answer varies based on on the effect size, sample size, significance level, and variability. Larger samples and larger effects are easier to detect.
 
 ## Common Pitfalls
 

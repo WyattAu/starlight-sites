@@ -36,7 +36,7 @@ developer-friendly syntax inspired by Ruby.
 
 Elixir programs are compiled to BEAM bytecode and run as lightweight processes that can number in
 the millions on a single machine. Each process is isolated, garbage-collected independently, and
-communicates through asynchronous message passing. This architecture makes Elixir naturally suited
+communicates through asynchronous message passing. This architecture makes Elixir logically suited
 for distributed systems, real-time applications, and high-availability services.
 
 Key characteristics of Elixir:
@@ -821,7 +821,7 @@ structured to gracefully recover from them.
 
 ## Intuition
 
-Elixir processes are like actors on a stage. Each actor has their own script, their own costume, and their own spotlight. They never share props or costumes; instead, they communicate by passing notes to each other. If one actor forgets their lines and crashes, the director (supervisor) simply calls in an understudy to take their place with a fresh script. The show goes on.
+Elixir processes are like actors on a stage. Each actor has their own script, their own costume, and their own spotlight. They never share props or costumes; instead, they communicate by passing notes to each other. If one actor forgets their lines and crashes, the director (supervisor) directly calls in an understudy to take their place with a fresh script. The show goes on.
 
 The BEAM virtual machine is like a traffic controller at a busy intersection. Instead of letting every car drive through at once, it gives each car a small turn at the wheel. No car can hog the road because the controller preemptively stops it after a set number of steps. This fair scheduling means no single process can starve the others, even if one tries to do too much work.
 

@@ -49,7 +49,7 @@ Browse the content using the sidebar navigation on the left.
 
 **Why it matters:** TypeScript is the standard for large-scale JavaScript development, improving code quality, maintainability, and developer productivity.
 
-**The key insight:** TypeScript's type inference means you rarely need explicit annotations — the compiler can usually figure out types from context.
+**The key insight:** TypeScript's type inference means you rarely need explicit annotations — the compiler can in most cases figure out types from context.
 
 ## Study Approach
 

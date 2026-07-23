@@ -628,7 +628,7 @@ Government failure occurs when intervention worsens outcomes. Common examples:
 
 1. **Confusing demerit goods with negative externalities.** A demerit good harms the consumer themselves (e.g., smoking damages the smoker's health). A negative externality harms third parties (e.g., second-hand smoke harms bystanders). Alcohol is both, but the concepts are distinct — always specify which mechanism you are describing.
 
-2. **Assuming all market failure requires government intervention.** Private solutions exist in some cases — the Coase theorem shows that if property rights are well-defined and transaction costs are low, private bargaining can resolve externalities without government involvement.
+2. **Assuming all market failure requires government intervention.** Private solutions exist in specific scenarios — the Coase theorem shows that if property rights are well-defined and transaction costs are low, private bargaining can resolve externalities without government involvement.
 
 3. **Drawing DWL triangles incorrectly.** The deadweight welfare loss triangle is bounded by the MSC curve, the MSB curve (or MPB), and the vertical lines at $Q^*$ and $Q_{mkt}$. Many students draw the triangle in the wrong position or with incorrect boundaries.
 

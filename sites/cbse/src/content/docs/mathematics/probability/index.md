@@ -151,7 +151,7 @@ Probability is fundamental to statistics, data science, risk assessment, and dec
 
 ## Common Exam Patterns
 
-- Bayes' theorem problems typically involve multiple stages or sources
+- Bayes' theorem problems in standard practice involve multiple stages or sources
 - Conditional probability problems often involve "given that" statements
 - Binomial distribution applies when there are independent trials with two outcomes
 - Practice with tree diagrams for multi-stage probability problems

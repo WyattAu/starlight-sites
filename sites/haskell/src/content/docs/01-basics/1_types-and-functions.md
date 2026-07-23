@@ -36,7 +36,7 @@ foundational types.
 ### Numeric Types
 
 ```haskell
--- Int: fixed-size integers (machine word, typically 64-bit)
+-- Int: fixed-size integers (machine word, in standard practice 64-bit)
 count :: Int
 count = 42
 
@@ -193,7 +193,7 @@ classify n
 ```
 
 Guards are evaluated top to bottom; the first one that evaluates to `True` is used. `otherwise` is
-simply defined as `True` and serves as a catch-all:
+directly defined as `True` and serves as a catch-all:
 
 ```haskell
 -- otherwise is defined in the Prelude as:

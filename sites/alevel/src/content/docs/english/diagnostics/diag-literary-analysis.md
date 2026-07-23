@@ -110,7 +110,7 @@ Answer each question. Check your answers against the key at the end.
 
 ## Common Mistakes
 
-**Confusing denotation with connotation:** Denotation is the literal meaning of a word; connotation is the associated or implied meaning. When analysing language, the power usually lies in connotation. Saying "the word 'dark' means it is nighttime" is denotation; saying "dark connotes danger, ignorance, and moral corruption" is analysis. Always explore the associative meanings.
+**Confusing denotation with connotation:** Denotation is the literal meaning of a word; connotation is the associated or implied meaning. When analysing language, the power in most cases lies in connotation. Saying "the word 'dark' means it is nighttime" is denotation; saying "dark connotes danger, ignorance, and moral corruption" is analysis. Always explore the associative meanings.
 
 **Using literary terminology without understanding it:** Terms like "unreliable narrator," "pathetic fallacy," and "free indirect discourse" have specific meanings. Using them incorrectly (e.g., calling any first-person narrator "unreliable" without evidence) weakens your analysis. Only use terminology you can define and apply precisely.
 

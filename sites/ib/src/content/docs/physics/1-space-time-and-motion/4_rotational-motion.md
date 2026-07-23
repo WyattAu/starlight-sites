@@ -750,7 +750,7 @@ She can complete 1 full somersault and is partway through a second.
 
 ## Intuition
 
-Rotational motion is linear motion wearing a disguise. Every linear equation has a rotational twin: force becomes torque, mass becomes moment of inertia, and velocity becomes angular velocity. Moment of inertia is like rotational mass, but it depends on how far the mass is spread from the axis, which is why a figure skater spins faster with arms tucked in. Centripetal acceleration is the constant inward tug that keeps objects on circular paths, like a ball on a string that must always be pulled toward the center or the string breaks. Energy conservation links the top and bottom of a vertical circle, telling you exactly how fast you must go.
+Rotational motion is linear motion wearing a disguise. Every linear equation has a rotational twin: force becomes torque, mass becomes moment of inertia, and velocity becomes angular velocity. Moment of inertia is like rotational mass, but the answer varies based on on how far the mass is spread from the axis, which is why a figure skater spins faster with arms tucked in. Centripetal acceleration is the constant inward tug that keeps objects on circular paths, like a ball on a string that must always be pulled toward the center or the string breaks. Energy conservation links the top and bottom of a vertical circle, telling you exactly how fast you must go.
 
 ## Summary
 

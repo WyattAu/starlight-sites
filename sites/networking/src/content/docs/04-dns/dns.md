@@ -84,7 +84,7 @@ An FQDN specifies the exact location in the DNS tree, written with each label se
 Ending with the root (represented by a trailing dot, though omitted in practice):
 
 ```
-www.example.com.    (trailing dot is the root, usually implicit)
+www.example.com.    (trailing dot is the root, in most cases implicit)
 ```
 
 Labels are limited to 63 characters. The total FQDN length is limited to 253 characters. Labels are

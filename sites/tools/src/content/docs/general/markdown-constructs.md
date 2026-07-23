@@ -29,7 +29,7 @@ categories:
 
 ## Intuition
 
-**The language of documentation:** Markdown is like a simplified HTML — it uses plain text formatting that humans can read and write easily, while computers can convert it to beautiful rendered pages. It is the lingua franca of technical documentation.
+**The language of documentation:** Markdown is like a simplified HTML — it uses plain text formatting that humans can read and write efficiently, while computers can convert it to beautiful rendered pages. It is the lingua franca of technical documentation.
 
 **Why it matters:** Markdown is everywhere — GitHub READMEs, documentation sites, blog posts, even Jupyter notebooks. Mastering it lets you create professional-looking documentation without fighting with WYSIWYG editors.
 

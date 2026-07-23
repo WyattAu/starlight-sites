@@ -798,7 +798,7 @@ int main() {
 
 **Range materialization is like cooking a recipe:** Range adaptors create a recipe (lazy pipeline of transformations), but you can't eat a recipe — you need to actually cook it (materialize). Materialization converts the lazy range into a concrete container (`std::vector`, `std::list`, etc.) that you can iterate over multiple times, store, and pass around. It's like the difference between a recipe card and the actual dish — one describes what to do, the other is the result.
 
-**Why it matters:** Materialization is the bridge between lazy ranges and concrete data. Without it, range adaptors would be useless — you'd compute values but never be able to store them. Materialization triggers the actual computation, evaluates all the transformations, and produces a container. The choice of container matters: `std::ranges::to<std::vector>()` is usually the right default.
+**Why it matters:** Materialization is the bridge between lazy ranges and concrete data. Without it, range adaptors would be useless — you'd compute values but never be able to store them. Materialization triggers the actual computation, evaluates all the transformations, and produces a container. The choice of container matters: `std::ranges::to<std::vector>()` is in most cases the right default.
 
 **The key insight:** Range adaptors are lazy — materialization triggers computation and produces a concrete container you can store and iterate over.
 

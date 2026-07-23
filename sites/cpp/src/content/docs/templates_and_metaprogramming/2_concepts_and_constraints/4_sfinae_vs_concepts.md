@@ -609,7 +609,7 @@ concept Y because it lacks member function Z." This makes templates far more rea
 debuggable.
 
 The practical takeaway: if you're writing new code, prefer concepts. They communicate intent
-clearly, produce better error messages, and enable more precise overload resolution. SFINAE still
+evidently, produce better error messages, and enable more precise overload resolution. SFINAE still
 exists in legacy codebases and occasionally in library internals, but it should no longer be your
 first choice for constraining templates.
 

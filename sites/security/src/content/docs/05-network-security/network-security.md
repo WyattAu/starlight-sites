@@ -100,7 +100,7 @@ Impossible.
 # Default deny (correct)
 iptables -P INPUT DROP
 iptables -P FORWARD DROP
-iptables -P OUTPUT ACCEPT  # Typically allow outbound
+iptables -P OUTPUT ACCEPT  # In standard practice allow outbound
 
 # Then add specific allow rules
 iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT

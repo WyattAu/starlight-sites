@@ -159,7 +159,7 @@ $$E_a = \frac{0.693 \times 8.314}{1.075 \times 10^{-4}} = 53.6 \text{ kJ/mol}$$
 
 - Always determine order experimentally from initial rate data
 - For first-order reactions, remember $t_{1/2} = 0.693/k$ is independent of concentration
-- In Arrhenius problems, watch units: $R = 8.314$ J/(mol·K) and $E_a$ is usually in kJ/mol
+- In Arrhenius problems, watch units: $R = 8.314$ J/(mol·K) and $E_a$ is in most cases in kJ/mol
 - Practice graphing: $\ln[A]$ vs $t$ is linear for first-order, $[A]$ vs $t$ is linear for zero-order
 
 ## Intuition
@@ -172,7 +172,7 @@ Chemical kinetics is about how fast reactions happen and why. Think of activatio
 
 **Confusing half-life formulas for different orders.** The half-life formula t1/2 = 0.693/k applies only to first-order reactions. For zero-order reactions, t1/2 = [A]0/(2k), which depends on initial concentration. Using the wrong formula gives incorrect answers for non-first-order reactions.
 
-**Forgetting unit conversions in Arrhenius equation problems.** The gas constant R = 8.314 J/(mol K) requires Ea in J/mol, but answers are typically reported in kJ/mol. Always divide the final answer by 1000 when converting from J to kJ. Mixing units between R and Ea is the most common source of numerical errors.
+**Forgetting unit conversions in Arrhenius equation problems.** The gas constant R = 8.314 J/(mol K) requires Ea in J/mol, but answers are in standard practice reported in kJ/mol. Always divide the final answer by 1000 when converting from J to kJ. Mixing units between R and Ea is the most common source of numerical errors.
 
 ## Cross-References
 

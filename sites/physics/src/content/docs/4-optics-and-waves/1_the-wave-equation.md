@@ -311,7 +311,7 @@ Phase velocity $v_p = \omega/k$ is the speed of individual wave crests, while gr
 A standing wave is a superposition of two counter-propagating waves of equal amplitude. The net energy flux is zero because the energy flowing in one direction is exactly cancelled by energy flowing in the other. Students sometimes assume standing waves carry energy because individual travelling waves do. The energy in a standing wave oscillates between kinetic and potential forms but does not propagate.
 
 **Mistake 3: Misapplying superposition to non-linear media**
-The superposition principle applies only to linear media. In non-linear optics (e.g., high-intensity lasers in certain crystals), waves interact and the total field is not simply the sum of individual fields. The wave equation itself is derived from Maxwell's equations, which are linear in vacuum, but material responses can introduce non-linearity.
+The superposition principle applies only to linear media. In non-linear optics (e.g., high-intensity lasers in certain crystals), waves interact and the total field is not directly the sum of individual fields. The wave equation itself is derived from Maxwell's equations, which are linear in vacuum, but material responses can introduce non-linearity.
 
 ## Cross-References
 

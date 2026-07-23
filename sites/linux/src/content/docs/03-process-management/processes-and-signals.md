@@ -583,7 +583,7 @@ Limits are inherited by child processes.
 ulimit -a
 
 # Common limits
-ulimit -n          # open files (nofile) — default usually 1024
+ulimit -n          # open files (nofile) — default in most cases 1024
 ulimit -u          # max user processes (nproc)
 ulimit -v          # virtual memory size (as)
 ulimit -f          # file size (fsize)

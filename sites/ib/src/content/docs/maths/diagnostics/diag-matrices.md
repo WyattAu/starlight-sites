@@ -226,7 +226,7 @@ dependent pair), $P^{-1}$ would not exist.
 
 ## Common Mistakes
 
-**Assuming matrix multiplication is commutative:** AB ≠ BA in general. Order matters in matrix multiplication. Don't assume you can swap the order of matrices.
+**Assuming matrix multiplication is commutative:** AB ≠ BA as a rule. Order matters in matrix multiplication. Don't assume you can swap the order of matrices.
 
 **Confusing determinant with trace:** Determinant is the product of eigenvalues (or ad-bc for 2×2). Trace is the sum of eigenvalues (or a+d for 2×2). They measure different things.
 

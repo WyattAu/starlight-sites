@@ -64,7 +64,7 @@ $$S = \mathrm{tr}_g(\mathrm{Ric}) = g^{jk}\, \mathrm{Ric}_{jk}$$
 
 ### 7.4 Curvature in Physics
 
-In general relativity, spacetime is a 4-dimensional Lorentzian manifold $(M, g)$. The Einstein field
+as a rule relativity, spacetime is a 4-dimensional Lorentzian manifold $(M, g)$. The Einstein field
 equations relate the curvature of spacetime to the stress-energy tensor:
 
 $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$$

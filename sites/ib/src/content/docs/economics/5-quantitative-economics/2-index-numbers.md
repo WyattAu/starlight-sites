@@ -693,6 +693,6 @@ The key challenge is weighting: which goods matter most? The Laspeyres index use
 
 3. **Forgetting to adjust nominal values using the price index.** To convert nominal values to real values, divide by the price index (as a decimal): $\text{Real value} = \frac{\text{Nominal value}}{\text{Price index} / 100}$. Students often multiply instead of divide, or forget to convert the index to a decimal, producing incorrect real values.
 
-4. **Changing the base year without rebasing the index.** When the base year changes, all index values must be recalculated relative to the new base. Simply renaming the base year without adjusting the values produces an inconsistent series that cannot be compared across time.
+4. **Changing the base year without rebasing the index.** When the base year changes, all index values must be recalculated relative to the new base. Directly renaming the base year without adjusting the values produces an inconsistent series that cannot be compared across time.
 
 5. **Ignoring substitution bias when comparing inflation measures.** Consumers adjust their spending patterns when relative prices change — buying less of goods that become relatively more expensive. Fixed-basket indices (Laspeyres) do not capture this substitution and therefore overstate the true cost of living increase. Chain-weighted indices address this but are more complex to compute.

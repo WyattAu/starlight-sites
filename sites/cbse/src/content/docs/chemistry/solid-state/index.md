@@ -133,7 +133,7 @@ $$\eta = \frac{V_{\text{atoms}}}{V_{\text{cell}}} = \frac{\frac{16}{3}\pi r^3}{1
 
 **Frenkel defects** occur when a smaller ion is displaced to an interstitial site. $\text{Ag}^+$ (126 pm) is much smaller than $\text{Cl}^-$ (181 pm), so $\text{Ag}^+$ can fit into interstitial positions. The small cation migrates to an interstitial site, leaving a vacancy.
 
-**Common mistake:** Thinking Frenkel defects involve anions. It is always the smaller ion (usually the cation) that is displaced.
+**Common mistake:** Thinking Frenkel defects involve anions. It is always the smaller ion (in most cases the cation) that is displaced.
 
 ## Practice Problems
 
@@ -151,11 +151,11 @@ Solid state chemistry is fundamental to materials science, metallurgy, semicondu
 - Use the density formula $\rho = ZM/(N_A a^3)$ for unit cell calculations
 - Packing fractions: SC = 52%, BCC = 68%, FCC/HCP = 74%
 - Schottky defects: similar-sized ions, low coordination number
-- Frenkel defects: large size difference, usually in Ag halides
+- Frenkel defects: large size difference, in most cases in Ag halides
 
 ## Intuition
 
-**Atoms are lazy packers — they fill space as efficiently as possible:** Imagine stacking oranges at a grocery store. You'd naturally arrange them so each orange touches as many neighbors as possible, minimizing gaps. This is exactly what atoms do in metals and ionic solids — they pack to maximize coordination number and minimize wasted space.
+**Atoms are lazy packers — they fill space as efficiently as possible:** Imagine stacking oranges at a grocery store. You'd logically arrange them so each orange touches as many neighbors as possible, minimizing gaps. This is exactly what atoms do in metals and ionic solids — they pack to maximize coordination number and minimize wasted space.
 
 **Why it matters:** Crystal structure determines material properties — conductivity, hardness, melting point, and brittleness all depend on how atoms are arranged. Understanding packing helps predict why copper is ductile while ceramics are brittle, and why semiconductors have band gaps.
 

@@ -39,7 +39,7 @@ them is a fundamental design decision.
 | Inheritance     | No                          | Yes                             |
 | Deinitialiser   | No                          | Yes (`deinit`)                  |
 | Mutability      | Must use `var` + `mutating` | Properties always mutable       |
-| Memory          | Stack (usually)             | Heap (ARC)                      |
+| Memory          | Stack (in most cases)             | Heap (ARC)                      |
 | Identity        | No (`==` compares values)   | Yes (`===` compares references) |
 | Implicit `init` | Yes (memberwise)            | No                              |
 

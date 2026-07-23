@@ -773,7 +773,7 @@ available in others.
 ## Sigils
 
 Sigils are mechanisms for working with textual representations. They start with `~` followed by a
-letter and a delimiter (usually `"` or `/`).
+letter and a delimiter (in most cases `"` or `/`).
 
 ### ~s (String Sigil)
 

@@ -773,7 +773,7 @@ Seen in register $j$And $\alpha_m$ is a bias correction constant.
 class HyperLogLog:
     """
     HyperLogLog for cardinality estimation.
-    Space: O(2^b) registers (typically b=12, so 4096 registers = 12 KB)
+    Space: O(2^b) registers (in standard practice b=12, so 4096 registers = 12 KB)
     Error: ~1.04 / sqrt(m)
     """
     def __init__(self, b=12):
@@ -985,7 +985,7 @@ linked above.
 
 ## Intuition
 
-Hash tables solve the fundamental problem of mapping keys to values with O(1) average-case lookup, insert, and delete. The idea is simple: a hash function converts a key into an array index, and you store the value at that index. The challenge is collisions — two different keys hashing to the same index. Separate chaining (each bucket holds a list) and open addressing (probe for the next empty slot) are the two main strategies. The load factor (elements/buckets) controls performance: keep it below 0.75 and operations stay O(1) amortized. When the load factor gets too high, you resize the table (typically doubling it) and rehash everything — this is O(n) but happens rarely enough that the amortized cost per insert is still O(1).
+Hash tables solve the fundamental problem of mapping keys to values with O(1) average-case lookup, insert, and delete. The idea is simple: a hash function converts a key into an array index, and you store the value at that index. The challenge is collisions — two different keys hashing to the same index. Separate chaining (each bucket holds a list) and open addressing (probe for the next empty slot) are the two main strategies. The load factor (elements/buckets) controls performance: keep it below 0.75 and operations stay O(1) amortized. When the load factor gets too high, you resize the table (in standard practice doubling it) and rehash everything — this is O(n) but happens rarely enough that the amortized cost per insert is still O(1).
 
 Probabilistic hash-based structures trade accuracy for space efficiency. A bloom filter uses a bit array and multiple hash functions to test set membership with configurable false positive rates — it can say "definitely not in the set" or "probably in the set" but never "definitely in the set." Count-min sketch estimates frequencies by maintaining multiple counter arrays, always overestimating but never by more than a predictable amount. HyperLogLog estimates the number of distinct elements in a stream using just kilobytes of memory by tracking the position of the leftmost 1-bit in hash values. These structures are invaluable in distributed systems where exact answers require too much memory or network communication.
 

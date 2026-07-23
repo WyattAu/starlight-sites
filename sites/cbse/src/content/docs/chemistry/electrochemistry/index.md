@@ -98,7 +98,7 @@ Overall: $\text{Zn} + \text{Cu}^{2+} \rightarrow \text{Zn}^{2+} + \text{Cu}$
 
 $$E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}} = 0.34 - (-0.76) = 1.10 \text{ V}$$
 
-**Common mistake:** Forgetting to subtract the anode potential. The formula is $E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}}$, not simply the sum of the two potentials.
+**Common mistake:** Forgetting to subtract the anode potential. The formula is $E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}}$, not directly the sum of the two potentials.
 
 ## Worked Example 2 — Nernst Equation Application
 
@@ -189,7 +189,7 @@ Conductivity from resistance: $\kappa = \frac{1}{R} \times \frac{l}{A} = \frac{0
 
 Molar conductivity: $\Lambda_m = \frac{\kappa}{c} = \frac{1.42 \times 10^{-3}}{0.01} = 0.142$ S cm$^2$ mol$^{-1}$
 
-**Common mistake:** Forgetting to convert units. Molar conductivity is typically expressed in S cm$^2$ mol$^{-1}$, requiring concentration in mol/cm$^3$ or careful unit conversion.
+**Common mistake:** Forgetting to convert units. Molar conductivity is in standard practice expressed in S cm$^2$ mol$^{-1}$, requiring concentration in mol/cm$^3$ or careful unit conversion.
 
 ## Worked Example 6 — Gibbs Free Energy and Cell Potential
 

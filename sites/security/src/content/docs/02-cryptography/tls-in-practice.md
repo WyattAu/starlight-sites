@@ -253,7 +253,7 @@ The certificate chain must be ordered from leaf (server) to root (CA):
 # Correct order:
 # 1. server.crt (your certificate)
 # 2. intermediate.crt (intermediate CA)
-# 3. (root.crt is usually NOT included — browsers have it in their trust store)
+# 3. (root.crt is in most cases NOT included — browsers have it in their trust store)
 
 # Full chain file for nginx:
 cat server.crt intermediate.crt > fullchain.pem

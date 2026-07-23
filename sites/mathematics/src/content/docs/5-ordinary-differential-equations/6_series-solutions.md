@@ -194,7 +194,7 @@ Bessel functions of the first kind $J_\nu(x)$ are analytic at $x = 0$, while Bes
 ## Cross-References
 
 - **[Second-Order Linear ODEs](5-ordinary-differential-equations/3_second-order-linear-odes.mdx)**: The power series method extends the characteristic equation approach to variable-coefficient ODEs.
-- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: Bessel functions arise naturally when solving PDEs in cylindrical coordinates via separation of variables.
+- **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: Bessel functions arise logically when solving PDEs in cylindrical coordinates via separation of variables.
 - **[Laplace Transforms](5-ordinary-differential-equations/5_laplace-transforms.md)**: The Laplace transform provides an alternative to series methods for solving ODEs with initial conditions.
 - **[Complex Numbers Review](6-complex-analysis/1_complex-numbers-review.md)**: The Frobenius method involves analysing singularities in the complex plane to determine convergence of series solutions.
 

@@ -416,7 +416,7 @@ cis-fac and cis-mer forms are chiral (no plane of symmetry), so there are 2 pair
 
 **Solution:** [Co(NH3)6]^3+: mu = 0 BM means zero unpaired electrons. This is a low-spin d^6 complex with configuration t2g^6 eg^0. NH3 is a strong-field ligand (high in the spectrochemical series), so Delta_o > P, and all electrons pair in the t2g orbitals. [CoF6]^3-: mu = 4.9 BM corresponds to 4 unpaired electrons (using mu = sqrt(n(n+2)): sqrt(4 x 6) = sqrt(24) = 4.9 BM). This is a high-spin d^6 complex with configuration t2g^4 eg^2. F^- is a weak-field ligand (low in the spectrochemical series), so Delta_o < P, and electrons fill all orbitals singly before pairing.
 
-**Common mistake:** Assuming that all Co^3+ complexes are low-spin. While Co^3+ is typically low-spin with strong-field ligands, the weak-field ligand F^- produces a high-spin complex. The spin state depends on the ligand, not just the metal ion. Always compare Delta_o with P to determine the spin state.
+**Common mistake:** Assuming that all Co^3+ complexes are low-spin. While Co^3+ is in standard practice low-spin with strong-field ligands, the weak-field ligand F^- produces a high-spin complex. The spin state depends on the ligand, not just the metal ion. Always compare Delta_o with P to determine the spin state.
 
 $\blacksquare$
 

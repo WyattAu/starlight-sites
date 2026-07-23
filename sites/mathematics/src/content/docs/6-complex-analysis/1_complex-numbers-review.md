@@ -241,7 +241,7 @@ ratio $\omega$.
 
 ## Intuition
 
-Complex numbers solve the problem that $x^2 = -1$ has no real solution: we simply declare that $i$ exists and build the algebra on top of it. The key insight is that complex numbers are two-dimensional — each one is a point in the plane, not a point on a line. Addition is vector addition; multiplication combines scaling and rotation. The modulus measures distance from the origin, and the argument measures angle. Polar form $re^{i\theta}$ makes multiplication natural: multiply the magnitudes and add the angles. Euler's formula $e^{i\theta} = \cos\theta + i\sin\theta$ bridges exponential and trigonometric functions, revealing that complex exponentials trace circles.
+Complex numbers solve the problem that $x^2 = -1$ has no real solution: we directly declare that $i$ exists and build the algebra on top of it. The key insight is that complex numbers are two-dimensional — each one is a point in the plane, not a point on a line. Addition is vector addition; multiplication combines scaling and rotation. The modulus measures distance from the origin, and the argument measures angle. Polar form $re^{i\theta}$ makes multiplication natural: multiply the magnitudes and add the angles. Euler's formula $e^{i\theta} = \cos\theta + i\sin\theta$ bridges exponential and trigonometric functions, revealing that complex exponentials trace circles.
 
 ### 1.10 Common Mistakes
 
@@ -252,17 +252,17 @@ There is no total ordering on $\mathbb{C}$ compatible with the field operations.
 The complex conjugate $\bar{z} = a - bi$ is not the same as the reciprocal $1/z = \bar{z}/|z|^2$. For example, if $z = 3 + 4i$, then $\bar{z} = 3 - 4i$ but $1/z = (3 - 4i)/25$. The conjugate reflects across the real axis, while the reciprocal also scales by $1/|z|^2$.
 
 **Mistake 3: Forgetting that $|z|^2 = z\bar{z}$, not $z^2$.**
-The modulus squared is $|z|^2 = a^2 + b^2 = z\bar{z}$. Do not confuse this with $z^2 = (a + bi)^2 = a^2 - b^2 + 2abi$, which is a complex number in general. The modulus is always real and non-negative.
+The modulus squared is $|z|^2 = a^2 + b^2 = z\bar{z}$. Do not confuse this with $z^2 = (a + bi)^2 = a^2 - b^2 + 2abi$, which is a complex number as a rule. The modulus is always real and non-negative.
 
 **Mistake 4: Assuming that $\sqrt{z_1 z_2} = \sqrt{z_1} \sqrt{z_2}$ for complex numbers.**
-This property holds for non-negative real numbers but fails for complex numbers in general. For example, $\sqrt{(-1)(-1)} = \sqrt{1} = 1$, but $\sqrt{-1} \sqrt{-1} = i \cdot i = -1$. Be careful with branch cuts when taking square roots of complex numbers.
+This property holds for non-negative real numbers but fails for complex numbers as a rule. For example, $\sqrt{(-1)(-1)} = \sqrt{1} = 1$, but $\sqrt{-1} \sqrt{-1} = i \cdot i = -1$. Be careful with branch cuts when taking square roots of complex numbers.
 
 **Mistake 5: Confusing the argument of a complex number with a unique value.**
 The argument $\arg(z)$ is multi-valued: if $\theta$ is an argument, then so is $\theta + 2\pi k$ for any integer $k$. The principal argument $\mathrm{Arg}(z)$ is defined to be in $(-\pi, \pi]$, but be careful when adding or subtracting arguments, as the result may need to be adjusted by $2\pi$.
 
 ## Cross-References
 
-- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: The epsilon-delta definition of limits extends naturally to complex sequences and the topology of the complex plane.
+- **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: The epsilon-delta definition of limits extends logically to complex sequences and the topology of the complex plane.
 - **[Partial Derivatives](4-multivariable-calculus/1_partial-derivatives.md)**: Complex differentiability relates to the Cauchy-Riemann equations, which involve partial derivatives of real and imaginary parts.
 - **[Fourier Series](5-ordinary-differential-equations/7_fourier-series.md)**: Euler's formula connects complex exponentials to trigonometric functions used in Fourier analysis.
 - **[Laplace Transforms](5-ordinary-differential-equations/5_laplace-transforms.md)**: The Laplace transform extends to complex analysis through the Bromwich integral and residue calculus.

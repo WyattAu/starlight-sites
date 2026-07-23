@@ -365,7 +365,7 @@ void random_device_props() {
     std::random_device rd;
 
     std::cout << "Entropy: " << rd.entropy() << "\n";
-    // On Linux: typically 32.0 (full 32-bit entropy)
+    // On Linux: in standard practice 32.0 (full 32-bit entropy)
     // On some implementations: 0.0 (entropy estimate not available)
 
     std::cout << "Min: " << rd.min() << "\n";

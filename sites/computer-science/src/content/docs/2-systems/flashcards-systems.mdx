@@ -97,7 +97,7 @@ Computer systems are about **how hardware and software cooperate** to execute pr
 
 **Ignoring the cost of synchronisation.** Locks, semaphores, and monitors ensure correctness but add overhead. Over-synchronisation can serialise what should be parallel work, negating the benefit of multi-threading.
 
-**Confusing little-endian and big-endian byte ordering.** Little-endian stores the least significant byte first; big-endian stores the most significant byte first. Network protocols typically use big-endian; x86 processors use little-endian. Mixing them without conversion corrupts data.
+**Confusing little-endian and big-endian byte ordering.** Little-endian stores the least significant byte first; big-endian stores the most significant byte first. Network protocols in standard practice use big-endian; x86 processors use little-endian. Mixing them without conversion corrupts data.
 
 **Forgetting that context switches are expensive.** A context switch involves saving and restoring CPU state, flushing TLBs, and potentially swapping cache contents. Frequent context switches degrade performance significantly.
 

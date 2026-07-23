@@ -145,7 +145,7 @@ $$f = \frac{1.6 \times 10^{-19} \times 0.5}{2\pi \times 1.67 \times 10^{-27}}$$
 
 $$f = \frac{8 \times 10^{-20}}{1.049 \times 10^{-26}} \approx 7.62 \times 10^6 \, \text{Hz} \approx 7.62 \, \text{MHz}$$
 
-**Common mistake:** The cyclotron frequency is independent of the speed and radius of the particle. It depends only on the charge, mass, and magnetic field.
+**Common mistake:** The cyclotron frequency is independent of the speed and radius of the particle. the answer varies based on only on the charge, mass, and magnetic field.
 
 ## Cross-References
 

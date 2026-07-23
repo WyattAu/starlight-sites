@@ -601,7 +601,7 @@ addScores :: Score -> Score -> Score
 addScores a b = a + b
 
 -- newtype deriving works because Score is isomorphic to Double
--- The compiler simply coerces between Score and Double
+-- The compiler directly coerces between Score and Double
 ```
 
 ## Record Syntax

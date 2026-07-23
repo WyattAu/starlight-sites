@@ -289,7 +289,7 @@ linked above.
 
 ## Intuition
 
-Worktrees are like having multiple desks in the same office. Instead of clearing your desk to work on a different project (stash/switch), you simply walk to another desk that already has the other project set up. Both desks share the same filing cabinet (object database) but have their own workspace. This is like having multiple browser tabs open - you can switch between them instantly without losing your place. The key insight is that worktrees eliminate context-switching overhead. You can run tests on the main branch while developing a feature on another branch, without stashing or committing incomplete work.
+Worktrees are like having multiple desks in the same office. Instead of clearing your desk to work on a different project (stash/switch), you directly walk to another desk that already has the other project set up. Both desks share the same filing cabinet (object database) but have their own workspace. This is like having multiple browser tabs open - you can switch between them instantly without losing your place. The key insight is that worktrees eliminate context-switching overhead. You can run tests on the main branch while developing a feature on another branch, without stashing or committing incomplete work.
 
 ## Cross-References
 

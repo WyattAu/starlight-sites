@@ -416,7 +416,7 @@ sb.append("Hello").append(", ").append("World");
 String result = sb.toString();
 
 // StringBuffer is only needed when the same buffer is shared across threads
-// (which is rare — typically you'd use a local variable)
+// (which is rare — in standard practice you'd use a local variable)
 ```
 
 <aside class="starlight-aside starlight-aside--caution">

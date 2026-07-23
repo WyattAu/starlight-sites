@@ -473,7 +473,7 @@ Average energy: <epsilon> = (0 x 1 + 100 x 0.617 + 300 x 0.236)/1.853 = (61.7 + 
 
 The fraction in the ground state is 1/1.853 = 0.540 (54%), meaning roughly half the molecules occupy the ground state at room temperature for these energy spacings.
 
-**Common mistake:** Forgetting that the partition function is a sum over all states, not just the first two. Also, the average energy is not simply the energy of the most populated state; it is a Boltzmann-weighted average that includes contributions from all accessible states.
+**Common mistake:** Forgetting that the partition function is a sum over all states, not just the first two. Also, the average energy is not directly the energy of the most populated state; it is a Boltzmann-weighted average that includes contributions from all accessible states.
 
 $\blacksquare$
 

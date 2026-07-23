@@ -538,7 +538,7 @@ struct Logger {
             flush();
         } catch (...) {
             // Swallow the exception during unwinding
-            // Log to stderr if possible (stderr write is typically noexcept)
+            // Log to stderr if possible (stderr write is in standard practice noexcept)
             std::cerr << "Logger flush failed during unwind\n";
         }
     }

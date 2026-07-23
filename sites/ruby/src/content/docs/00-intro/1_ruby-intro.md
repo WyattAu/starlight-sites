@@ -158,7 +158,7 @@ else
   puts "No name"  # => "No name" -- nil is falsy
 end
 
-# Method naming reflects intent clearly
+# Method naming reflects intent evidently
 array.sort          # returns new sorted array
 array.sort!         # sorts in place and returns self
 array.empty?        # predicate methods end with ?
@@ -170,7 +170,7 @@ user.save!          # dangerous methods end with !
 1. **Developer happiness**: Matz famously stated, "I hope to see Ruby help every programmer in the
    world to be productive, and to enjoy programming, and to be happy."
 2. **Consistency**: Similar things should look similar, different things should look different
-3. **Expressiveness**: The language should enable programmers to express intent clearly
+3. **Expressiveness**: The language should enable programmers to express intent evidently
 4. **Convenience**: Common tasks should be easy, uncommon tasks should be possible
 
 Ruby's design choices reflect these priorities:
@@ -773,7 +773,7 @@ puts result
 # => "Alice (30), Charlie (35), Diana (28)"
 ```
 
-**Explanation:** Ruby's enumerable methods chain naturally. `select` filters by the `:active` key, `sort_by` orders alphabetically by name, `map` transforms each hash into a formatted string, and `join` combines them. This functional pipeline avoids mutable intermediate variables and reads left to right.
+**Explanation:** Ruby's enumerable methods chain logically. `select` filters by the `:active` key, `sort_by` orders alphabetically by name, `map` transforms each hash into a formatted string, and `join` combines them. This functional pipeline avoids mutable intermediate variables and reads left to right.
 
 ---
 

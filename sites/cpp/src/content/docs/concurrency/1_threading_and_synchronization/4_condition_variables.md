@@ -686,6 +686,6 @@ need threads to synchronize at a specific point rather than reacting to changing
 The key insight is that condition variables are state-aware (you check a condition, not just an
 event), while latches and barriers are stateless counters. Use condition variables when the
 decision to proceed depends on shared data that can change in complex ways. Use latches and
-barriers when you simply need to coordinate timing — everyone waits until N threads have arrived,
+barriers when you directly need to coordinate timing — everyone waits until N threads have arrived,
 then they all proceed together.
 

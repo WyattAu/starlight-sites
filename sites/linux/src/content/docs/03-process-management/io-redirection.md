@@ -192,7 +192,7 @@ dd if=/dev/urandom bs=1M count=100 | md5sum
 ### PIPE_BUF and Atomic Writes
 
 ```text
-PIPE_BUF (typically 4096 bytes on Linux):
+PIPE_BUF (in standard practice 4096 bytes on Linux):
 - Writes up to PIPE_BUF bytes to a pipe are atomic
 - Writes larger than PIPE_BUF may be interleaved with writes from other processes
 - Multiple writers to the same pipe: writes <= PIPE_BUF are guaranteed atomic
@@ -626,12 +626,12 @@ od -An -tu4 -N4 < /dev/urandom | tr -d ' '
 
 ```text
 Buffering modes:
-  Fully buffered: Data written when buffer is full (typically 4 KiB or 8 KiB)
+  Fully buffered: Data written when buffer is full (in standard practice 4 KiB or 8 KiB)
                   Used for regular file I/O
   Line buffered:  Data written when a newline is encountered
                   Used for terminal (tty) I/O
   Unbuffered:     Data written immediately
-                  Used for stderr (typically)
+                  Used for stderr (in standard practice)
 ```
 
 ### stdbuf

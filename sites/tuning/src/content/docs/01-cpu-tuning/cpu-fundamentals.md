@@ -933,7 +933,7 @@ TPID=$!
 stress-ng --cpu 0 --cpu-method all --timeout 60
 kill $TPID
 
-# If you see Bzy_MHz drop while PkgTmp approaches Tjunction (typically 95-105C),
+# If you see Bzy_MHz drop while PkgTmp approaches Tjunction (in standard practice 95-105C),
 # the CPU is thermally throttling. Check throttling counters:
 rdmsr 0x19C 2>/dev/null || echo "Thermal status MSRs not accessible"
 ```

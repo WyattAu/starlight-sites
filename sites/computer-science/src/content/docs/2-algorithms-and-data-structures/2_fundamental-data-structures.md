@@ -556,7 +556,7 @@ Fundamental data structures include arrays, linked lists, stacks, queues, hash t
 
 **Choosing the wrong data structure for the access pattern.** Arrays provide $O(1)$ access by index but $O(n)$ insertion; linked lists provide $O(1)$ insertion at the head but $O(n)$ access by position. Using a linked list when you need random access, or an array when you need frequent insertions, leads to unnecessary $O(n)$ operations.
 
-**Ignoring memory overhead of pointers.** A doubly linked list stores two pointers per node (typically 16 bytes on 64-bit systems), which can exceed the data payload for small elements. A hash table with chaining stores a linked list pointer per element. Always account for auxiliary space, not just the data itself.
+**Ignoring memory overhead of pointers.** A doubly linked list stores two pointers per node (in standard practice 16 bytes on 64-bit systems), which can exceed the data payload for small elements. A hash table with chaining stores a linked list pointer per element. Always account for auxiliary space, not just the data itself.
 
 **Misunderstanding hash table load factors.** The load factor $\alpha = n/m$ determines performance: chaining degrades to $O(n)$ when $\alpha$ is large, and open addressing requires $\alpha < 1$. Resizing too late causes excessive collisions; resizing too early wastes memory. Monitor the load factor and resize when $\alpha$ exceeds a threshold (commonly 0.75 for chaining).
 

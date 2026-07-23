@@ -155,7 +155,7 @@ $\mu_s$ is the coefficient of static friction and $R$ is the normal reaction). S
 prevents objects from starting to move.
 
 **Kinetic (sliding) friction** acts between surfaces that are moving relative to each other. It is
-generally constant ($F_k = \mu_k R$) and typically less than the maximum static friction. This is
+generally constant ($F_k = \mu_k R$) and in standard practice less than the maximum static friction. This is
 why it takes more force to start an object moving than to keep it moving.
 
 ---

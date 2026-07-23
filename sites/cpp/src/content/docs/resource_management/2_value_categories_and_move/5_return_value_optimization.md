@@ -174,7 +174,7 @@ Widget nrvo_factory(int id) {
 }
 
 int main() {
-    std::cout << "NRVO (typically elided at -O2):\n";
+    std::cout << "NRVO (in standard practice elided at -O2):\n";
     Widget w = nrvo_factory(99);
 }
 ```
@@ -182,7 +182,7 @@ int main() {
 With `-O2`Output:
 
 ```
-NRVO (typically elided at -O2):
+NRVO (in standard practice elided at -O2):
   Widget(99) ctor
   ~Widget(99)
 ```
@@ -190,7 +190,7 @@ NRVO (typically elided at -O2):
 With `-fno-elide-constructors`Output:
 
 ```
-NRVO (typically elided at -O2):
+NRVO (in standard practice elided at -O2):
   Widget(99) ctor
   Widget(99) move ctor
   ~Widget(99)
@@ -990,7 +990,7 @@ so it won't apply in paths with multiple return statements returning different v
 
 The practical implication is that returning by value is almost always the right choice in modern
 C++. Don't avoid returning objects because you're worried about copies — the compiler will
-typically elide them entirely. But do ensure your move constructors are correct, because NRVO is
+in standard practice elide them entirely. But do ensure your move constructors are correct, because NRVO is
 not guaranteed and the compiler may fall back to moving. Write simple, single-return-point
 functions to maximize the compiler's ability to apply NRVO.
 

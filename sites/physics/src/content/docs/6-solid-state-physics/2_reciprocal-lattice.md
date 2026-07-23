@@ -225,7 +225,7 @@ Bragg diffraction peaks occur when the scattering vector $\mathbf{G}$ is a recip
 ## Cross-References
 
 - **[Crystal Structures](6-solid-state-physics/1_crystal-structures.md)**: The reciprocal lattice vectors are constructed from the real-space primitive lattice vectors using the cross-product formula.
-- **[Diffraction](6-solid-state-physics/3_diffraction.md)**: Bragg diffraction and the Laue condition are formulated most naturally in terms of reciprocal lattice vectors.
+- **[Diffraction](6-solid-state-physics/3_diffraction.md)**: Bragg diffraction and the Laue condition are formulated most logically in terms of reciprocal lattice vectors.
 - **[Lattice Vibrations and Phonons](6-solid-state-physics/4_lattice-vibrations-and-phonons.md)**: Phonon wavevectors are defined in the Brillouin zone, which is the Wigner-Seitz cell of the reciprocal lattice.
 - **[Semiconductors](6-solid-state-physics/6_semiconductors.md)**: Electronic band structures are computed in the Brillouin zone of the reciprocal lattice.
 

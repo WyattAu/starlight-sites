@@ -125,7 +125,7 @@ Matrix operations are rules for combining grids of numbers. Multiplication is no
 
 ### Mistake 1: Assuming matrix multiplication is commutative
 
-Matrix multiplication is NOT commutative: $AB \neq BA$ in general. Students often rearrange the order of matrices in products without realising this changes the result. For example, if $A$ is $2 \times 3$ and $B$ is $3 \times 2$, then $AB$ is $2 \times 2$ while $BA$ is $3 \times 3$ -- they are not even the same size. Always preserve the order of multiplication.
+Matrix multiplication is NOT commutative: $AB \neq BA$ as a rule. Students often rearrange the order of matrices in products without realising this changes the result. For example, if $A$ is $2 \times 3$ and $B$ is $3 \times 2$, then $AB$ is $2 \times 2$ while $BA$ is $3 \times 3$ -- they are not even the same size. Always preserve the order of multiplication.
 
 ### Mistake 2: Forgetting the sign pattern when computing cofactors
 

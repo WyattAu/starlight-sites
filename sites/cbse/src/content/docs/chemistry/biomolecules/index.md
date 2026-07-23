@@ -130,7 +130,7 @@ Product: glycylalanine (Gly-Ala)
 | Feature | DNA | RNA |
 |---------|-----|-----|
 | Sugar | Deoxyribose | Ribose |
-| Strands | Double helix | Usually single strand |
+| Strands | Double helix | In most cases single strand |
 | Bases | A, T, G, C | A, U, G, C |
 | Function | Stores genetic information | Protein synthesis |
 | Location | Nucleus | Nucleus and cytoplasm |

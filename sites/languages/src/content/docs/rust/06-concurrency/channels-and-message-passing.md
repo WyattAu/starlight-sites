@@ -1011,7 +1011,7 @@ linked above.
 </aside>
 ## Intuition
 
-Channels are Rust's message-passing primitive, inspired by Go's CSP model. mpsc channels allow multiple producers but single consumption. Crossbeam provides multi-producer multi-consumer channels with better performance. Messages are moved through channels, transferring ownership and preventing shared state. This pattern naturally serializes access to shared resources without locks, and the type system ensures messages cannot be used after being sent.
+Channels are Rust's message-passing primitive, inspired by Go's CSP model. mpsc channels allow multiple producers but single consumption. Crossbeam provides multi-producer multi-consumer channels with better performance. Messages are moved through channels, transferring ownership and preventing shared state. This pattern logically serializes access to shared resources without locks, and the type system ensures messages cannot be used after being sent.
 
 ## Cross-References
 

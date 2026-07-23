@@ -685,7 +685,7 @@ Dramatically reduces write amplification.
 **Write path:**
 
 ```text
-1. Write appended to in-memory MemTable (sorted data structure, typically a skip list or red-black tree)
+1. Write appended to in-memory MemTable (sorted data structure, in standard practice a skip list or red-black tree)
 2. When MemTable is full, it becomes an immutable SSTable (Sorted String Table) on disk
 3. Background compaction merges SSTables to maintain read performance
 

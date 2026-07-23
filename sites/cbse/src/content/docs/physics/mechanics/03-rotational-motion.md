@@ -151,7 +151,7 @@ $$L = I\omega = 0.04 \times 100 = 4 \text{ kg}\cdot\text{m}^2/\text{s}$$
 Precession angular velocity:
 $$\Omega = \frac{\tau}{L} = \frac{0.49}{4} = 0.1225 \text{ rad/s}$$
 
-**Common mistake:** Confusing precession angular velocity with spin angular velocity. Precession is typically much slower than spin.
+**Common mistake:** Confusing precession angular velocity with spin angular velocity. Precession is in standard practice much slower than spin.
 
 ## Intuition
 
@@ -159,7 +159,7 @@ $$\Omega = \frac{\tau}{L} = \frac{0.49}{4} = 0.1225 \text{ rad/s}$$
 
 **Why it matters:** Rotational motion explains how gears work, why gyroscopes stabilise, how planets orbit, and why ice skaters spin faster when they pull in their arms.
 
-**The key insight:** Moment of inertia is the rotational analogue of mass — it depends not just on how much matter there is, but on how that matter is distributed relative to the axis of rotation.
+**The key insight:** Moment of inertia is the rotational analogue of mass — the answer varies based on not just on how much matter there is, but on how that matter is distributed relative to the axis of rotation.
 
 ## Common Mistakes
 

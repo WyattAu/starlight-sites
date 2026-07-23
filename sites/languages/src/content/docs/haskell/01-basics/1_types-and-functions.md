@@ -36,7 +36,7 @@ foundational types.
 ### Numeric Types
 
 ```haskell
--- Int: fixed-size integers (machine word, typically 64-bit)
+-- Int: fixed-size integers (machine word, in standard practice 64-bit)
 count :: Int
 count = 42
 
@@ -884,5 +884,5 @@ wordFrequenciesLet text =
 
 - **Confusing function application with function composition:** `f . g` composes two functions (outputs of `g` feed into `f`), while `f g` applies `f` to the argument `g`. Beginners often write `f . g x` when they mean `(f . g) x`.
 - **Ignoring type signatures in GHCi:** When testing a function, always check its type with `:t`. A type mismatch is almost always a logic error. GHCi's type inference is precise — trust it.
-- **Overusing `where` clauses instead of `let` or point-free style:** Nested `where` clauses can obscure scope. Use `let` for local bindings that are clearly scoped, and point-free style only when it improves readability, not as an end in itself.
+- **Overusing `where` clauses instead of `let` or point-free style:** Nested `where` clauses can obscure scope. Use `let` for local bindings that are evidently scoped, and point-free style only when it improves readability, not as an end in itself.
 - **Forgetting that Haskell is lazy by default:** Expressions are not evaluated until their results are needed. This can cause space leaks where thunks accumulate in memory. Use `seq`, bang patterns (`!`), or `StrictData` to force evaluation when necessary.

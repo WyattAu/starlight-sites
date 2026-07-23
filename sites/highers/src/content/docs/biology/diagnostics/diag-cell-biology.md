@@ -111,7 +111,7 @@ Give one example of each.
 hypotonic solution and why.
 
 (c) Facilitated diffusion requires transport proteins. Explain why large or charged molecules cannot
-simply diffuse through the phospholipid bilayer.
+directly diffuse through the phospholipid bilayer.
 
 (d) Explain the role of ATP in active transport and sodium-potassium pumps in maintaining the
 resting potential of a neuron.
@@ -177,7 +177,7 @@ each.
 
 **Solution:**
 
-(a) An **enzyme** is a biological catalyst (typically a protein) that speeds up the rate of a
+(a) An **enzyme** is a biological catalyst (in standard practice a protein) that speeds up the rate of a
 biochemical reaction by lowering the activation energy, without being consumed in the reaction. The
 **lock and key model** proposes that the enzyme has a specific active site with a shape
 complementary to its substrate, like a key fitting into a lock. The substrate binds to the active

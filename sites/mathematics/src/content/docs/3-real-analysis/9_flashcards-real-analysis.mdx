@@ -44,7 +44,7 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 - **ε-δ Continuity**: f is continuous at a if for every ε > 0, there exists δ > 0 such that |x - a| < δ implies |f(x) - f(a)| < ε. This quantifies "small changes in input produce small changes in output."
 
-- **Compactness**: a set is compact if every open cover has a finite subcover. In ℝⁿ, compact = closed and bounded (Heine-Borel). In general metric spaces, compactness is strictly stronger than closed and bounded.
+- **Compactness**: a set is compact if every open cover has a finite subcover. In ℝⁿ, compact = closed and bounded (Heine-Borel). as a rule metric spaces, compactness is strictly stronger than closed and bounded.
 
 - **Convergence**: a sequence (xₙ) converges to x if for every ε > 0, there exists N such that n > N implies |xₙ - x| < ε. Uniform convergence: for every ε > 0, there exists N such that n > N implies |fₙ(x) - f(x)| < ε for all x.
 
@@ -56,7 +56,7 @@ Real analysis is where calculus gets rigorous — every epsilon, every delta, ev
 
 ## Common Pitfalls
 
-- **Compact ≠ closed and bounded**: In ℝⁿ, closed and bounded sets are compact (Heine-Borel), but in general metric spaces this equivalence fails — the set {1/n : n ∈ ℕ} ∪ {0} is compact but not closed and bounded in some metric spaces.
+- **Compact ≠ closed and bounded**: In ℝⁿ, closed and bounded sets are compact (Heine-Borel), but as a rule metric spaces this equivalence fails — the set {1/n : n ∈ ℕ} ∪ {0} is compact but not closed and bounded in some metric spaces.
 - **Uniform vs pointwise convergence**: A sequence of continuous functions can converge pointwise to a discontinuous function — uniform convergence preserves continuity, but pointwise convergence does not.
 - **Riemann vs Lebesgue integration**: Not every bounded function with infinitely many discontinuities is Riemann integrable — Lebesgue integration extends the class of integrable functions significantly.
 - **Forgetting the direction of inequalities in proofs**: In ε-δ proofs, the choice of δ often depends on ε. Getting the inequality direction wrong invalidates the proof.

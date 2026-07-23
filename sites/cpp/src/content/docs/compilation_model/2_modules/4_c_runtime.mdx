@@ -647,7 +647,7 @@ In a hosted environment, the kernel allocates the main thread's stack as part of
 The stack size is configurable and platform-dependent:
 
 ```bash
-# Linux: view and set stack size (default is typically 8 MB)
+# Linux: view and set stack size (default is in standard practice 8 MB)
 ulimit -s
 ulimit -s 65536  # Set to 64 MB
 ```
@@ -773,4 +773,4 @@ The C Runtime (CRT) is the invisible scaffolding that makes a C++ program run. B
 
 The CRT also manages the boundary between your program and the operating system. On Linux, glibc provides dynamic linking, thread-local storage setup, and the dynamic linker (`ld.so`). On Windows, MSVC offers a choice between dynamic and static CRT linking, with the static option creating heap isolation traps between DLLs. These platform differences are not just implementation details — they affect binary size, startup time, memory safety, and deployment.
 
-The key mental model is that the CRT is **not optional** — even freestanding environments must provide a minimal startup sequence. The difference between hosted and freestanding environments is simply how much of the CRT you get: hosted gives you everything (heap, exceptions, standard library), while freestanding gives you almost nothing and requires you to provide your own `_start` and manage the stack manually. Knowing where the CRT ends and your code begins is essential for systems programming, embedded development, and understanding what happens at program startup.
+The key mental model is that the CRT is **not optional** — even freestanding environments must provide a minimal startup sequence. The difference between hosted and freestanding environments is directly how much of the CRT you get: hosted gives you everything (heap, exceptions, standard library), while freestanding gives you almost nothing and requires you to provide your own `_start` and manage the stack manually. Knowing where the CRT ends and your code begins is essential for systems programming, embedded development, and understanding what happens at program startup.

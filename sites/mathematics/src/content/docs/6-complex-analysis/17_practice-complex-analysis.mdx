@@ -59,7 +59,7 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={"Let $f(z) = u + iv$ be holomorphic with $u(x,y) = e^x \\cos y$. What is $v(x,y)$?&quot; options={[ '$v(x,y) = e^x \\sin y + C$', '$v(x,y) = e^x \\sin y - e^y \\cos x$', '$v(x,y) = e^y \\cos x + C$', '$v(x,y) = -e^x \\sin y + C$', ]} correctAnswer={0} explanation=&quot;By the Cauchy-Riemann equations: $v_y = u_x = e^x \\cos y$. Integrating with respect to $y$: $v(x,y) = e^x \\sin y + g(x)$. Also $v_x = -u_y = e^x \\sin y$, so $e^x \\sin y + g'(x) = e^x \\sin y$, giving $g'(x) = 0$ and $g(x) = C$. Therefore $v(x,y) = e^x \\sin y + C$, and $f(z) = e^z$ (up to an additive constant)."} difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={"If $f(z) = \\overline{z}^2$, what is the value of the partial derivative ratio $u_x / v_y$?&quot; options={['$-1$', '$1$', '$0$', '$2$']} correctAnswer={0} explanation=&quot;Write $z = x + iy$, so $\\overline{z} = x - iy$ and $\\overline{z}^2 = (x-iy)^2 = x^2 - y^2 - 2xyi$. Thus $u = x^2 - y^2$ and $v = -2xy$. We get $u_x = 2x$ and $v_y = -2x$, so $u_x / v_y = 2x / (-2x) = -1$ (for $x \\neq 0$). Since $u_x \\neq v_y$ in general, the Cauchy-Riemann equations are not satisfied, confirming $f$ is not holomorphic."} difficulty="hard"  />
+<PracticeProblem client:only="solid-js" question={"If $f(z) = \\overline{z}^2$, what is the value of the partial derivative ratio $u_x / v_y$?&quot; options={['$-1$', '$1$', '$0$', '$2$']} correctAnswer={0} explanation=&quot;Write $z = x + iy$, so $\\overline{z} = x - iy$ and $\\overline{z}^2 = (x-iy)^2 = x^2 - y^2 - 2xyi$. Thus $u = x^2 - y^2$ and $v = -2xy$. We get $u_x = 2x$ and $v_y = -2x$, so $u_x / v_y = 2x / (-2x) = -1$ (for $x \\neq 0$). Since $u_x \\neq v_y$ as a rule, the Cauchy-Riemann equations are not satisfied, confirming $f$ is not holomorphic."} difficulty="hard"  />
 
 ---
 
@@ -105,7 +105,7 @@ the explanation.
 
 **Forgetting to check which singularities lie inside the contour:** When using the residue theorem, only poles inside the contour contribute to the integral. The function $1/[(z+1)(z-3)]$ has poles at $z = -1$ and $z = 3$, but a contour $|z| = 2$ encloses only $z = -1$. Always verify $|z_k| < R$ before including a residue in your sum.
 
-**Confusing the principal branch of the logarithm with the multi-valued function:** $\log(z)$ is multi-valued, and the principal branch $\operatorname{Log}(z)$ has a branch cut along the negative real axis. When computing $\log(z^n)$, you cannot simply write $n\log(z)$ — the two sides may differ by multiples of $2\pi i$. Track the argument carefully around branch cuts.
+**Confusing the principal branch of the logarithm with the multi-valued function:** $\log(z)$ is multi-valued, and the principal branch $\operatorname{Log}(z)$ has a branch cut along the negative real axis. When computing $\log(z^n)$, you cannot directly write $n\log(z)$ — the two sides may differ by multiples of $2\pi i$. Track the argument carefully around branch cuts.
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Mathematics notes.

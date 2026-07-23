@@ -347,7 +347,7 @@ lower temperature than would otherwise be possible, but there is a practical low
 
 ## Intuition
 
-**Chemical reactions are about rearranging atoms:** Atoms are neither created nor destroyed in reactions — they are simply rearranged into new configurations. Understanding reaction types (synthesis, decomposition, displacement) lets you predict what products will form.
+**Chemical reactions are about rearranging atoms:** Atoms are neither created nor destroyed in reactions — they are directly rearranged into new configurations. Understanding reaction types (synthesis, decomposition, displacement) lets you predict what products will form.
 
 **Why it matters:** Chemical reactions govern everything from cooking to combustion, from drug metabolism to battery operation. Predicting reaction outcomes is essential for chemistry, medicine, and engineering.
 

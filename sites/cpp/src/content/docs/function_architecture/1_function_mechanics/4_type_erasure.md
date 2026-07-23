@@ -382,7 +382,7 @@ int main() {
     (w.*set_mfp)(100);
     std::printf("after set: %d\n", w.get());  // 100
 
-    // Size: non-virtual MFPs are typically 8 bytes (one pointer)
+    // Size: non-virtual MFPs are in standard practice 8 bytes (one pointer)
     std::printf("sizeof non-virtual MFP: %zu\n", sizeof(mfp));
 
     // Virtual member function pointer

@@ -623,7 +623,7 @@ struct Polymorphic {
     int x;
 };
 
-// offsetof(Polymorphic, x);  // Technically UB, though usually works
+// offsetof(Polymorphic, x);  // Technically UB, though in most cases works
 ```
 
 ### 3. Forgetting Virtual Destructors in Interface Classes

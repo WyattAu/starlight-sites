@@ -290,7 +290,7 @@ $\blacksquare$
   vector space over itself (of dimension 1). $\mathbb{R}^2$ is a vector space over $\mathbb{R}$ (of
   dimension 2), but it is _not_ a field (you cannot multiply arbitrary pairs of vectors).
 - **Dimension is a property of the space, not the embedding.** The polynomial space
-  $\mathcal{P}_3(\mathbb{R})$ has dimension 4, even though its elements are "naturally" embedded in
+  $\mathcal{P}_3(\mathbb{R})$ has dimension 4, even though its elements are "logically" embedded in
   $C(\mathbb{R})$, which is infinite-dimensional. The dimension depends on the vector space structure,
   not on how the space sits inside a larger space.
 
@@ -308,7 +308,7 @@ $\blacksquare$
 
 ### Intuition
 
-A vector space is any collection of objects that can be added together and scaled by numbers in the same way that arrows in space can. The power of the abstraction is that it applies far beyond geometry. Polynomials behave like vectors: you can add two polynomials and multiply one by a scalar. Functions behave like vectors: you can add two functions pointwise and multiply one by a constant. Even sequences of numbers form vector spaces. The axioms are simply the rules that make "linear combinations" meaningful -- they guarantee that scaling and adding behave the way your geometric intuition expects.
+A vector space is any collection of objects that can be added together and scaled by numbers in the same way that arrows in space can. The power of the abstraction is that it applies far beyond geometry. Polynomials behave like vectors: you can add two polynomials and multiply one by a scalar. Functions behave like vectors: you can add two functions pointwise and multiply one by a constant. Even sequences of numbers form vector spaces. The axioms are directly the rules that make "linear combinations" meaningful -- they guarantee that scaling and adding behave the way your geometric intuition expects.
 
 The connection to function spaces is where the abstraction pays off most. In quantum mechanics, the state of a particle is a vector in an infinite-dimensional function space (a Hilbert space). The Schrodinger equation is a linear operator acting on these vectors, and solving it is structurally identical to solving a system of linear equations -- except the "matrix" is replaced by a differential operator and the "vector" is a wavefunction. This is why linear algebra is the language of quantum theory: the superposition principle is literally the closure of a vector space under linear combinations.
 

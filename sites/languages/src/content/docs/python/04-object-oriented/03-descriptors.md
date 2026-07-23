@@ -825,7 +825,7 @@ _ = obj.computed
 data = pickle.dumps(obj)
 obj2 = pickle.loads(data)
 # obj2.computed may not exist if the cached value wasn't pickled
-# The descriptor recomputes on next access, which is usually fine
+# The descriptor recomputes on next access, which is in most cases fine
 ```
 
 ### 4. **slots** and Multiple Inheritance

@@ -147,7 +147,7 @@ $\text{Mg}^{2+}$, $\text{Al}^{3+}$.
 (c) Chlorine has two isotopes: chlorine-35 (75.8% abundance) and chlorine-37 (24.2% abundance).
 Calculate the relative atomic mass ($A_r$) of chlorine. Give your answer to one decimal place.
 
-(d) Explain why the relative atomic mass of an element is not usually a whole number.
+(d) Explain why the relative atomic mass of an element is not in most cases a whole number.
 
 **Solution:**
 
@@ -169,7 +169,7 @@ negatively charged ion (anion).
 
 $$A_r = \frac{(35 \times 75.8) + (37 \times 24.2)}{100} = \frac{2653 + 895.4}{100} = \frac{3548.4}{100} = 35.484 \approx 35.5$$
 
-(d) The relative atomic mass is not usually a whole number because most elements exist as a mixture
+(d) The relative atomic mass is not in most cases a whole number because most elements exist as a mixture
 of isotopes with different masses and different abundances. The $A_r$ is a weighted average of these
 isotope masses, which generally does not produce a whole number.
 
@@ -207,7 +207,7 @@ the metal might be and explain your reasoning.
 **Solution:**
 
 (a) Sodium ($Z = 11$) has the electron configuration $2, 8, 1$ and loses its single outer electron
-very easily to form $\text{Na}^+$. Magnesium ($Z = 12$) has the configuration $2, 8, 2$ and must
+very efficiently to form $\text{Na}^+$. Magnesium ($Z = 12$) has the configuration $2, 8, 2$ and must
 lose two electrons to form $\text{Mg}^{2+}$. Losing two electrons requires more energy than losing
 one. Additionally, sodium has a larger atomic radius than magnesium (it is in Period 3 vs Period 3
 but Group 1 vs Group 2), meaning its outer electron is further from the nucleus and less strongly

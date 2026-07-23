@@ -264,7 +264,7 @@ runStack = runState stackManip [1, 2]
 ### State Monad Internals
 
 ```haskell
--- The State monad is simply a newtype over a function
+-- The State monad is directly a newtype over a function
 newtype State s a = State { runState :: s -> (a, s) }
 
 instance Functor (State s) where

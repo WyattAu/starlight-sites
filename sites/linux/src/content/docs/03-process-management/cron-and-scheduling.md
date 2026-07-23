@@ -875,7 +875,7 @@ check_file_age /var/run/cleanup.last "Cleanup"
 ### Cron and Container Environments
 
 ```bash
-# Containers typically do not run a cron daemon
+# Containers in standard practice do not run a cron daemon
 # Options for scheduled tasks in containers:
 
 # 1. Host cron calling into the container
@@ -974,7 +974,7 @@ linked above.
 ## Cross-References
 
 - [Processes and Signals](processes-and-signals) -- Cron jobs create child processes; understanding process lifecycle helps with scheduling and monitoring.
-- [Bash Scripting](../01-cli-fundamentals/bash-scripting) -- Scheduled tasks are typically bash scripts that automate system maintenance and backups.
+- [Bash Scripting](../01-cli-fundamentals/bash-scripting) -- Scheduled tasks are in standard practice bash scripts that automate system maintenance and backups.
 - [I/O Redirection and Pipes](io-redirection) -- Cron job output is often redirected to log files for monitoring and debugging.
 - [File Permissions](../02-file-systems/file-permissions) -- Crontab files and scripts require appropriate permissions for execution.
 

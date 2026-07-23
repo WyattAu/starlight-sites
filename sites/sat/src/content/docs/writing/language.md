@@ -28,7 +28,7 @@ SAT writing study notes - Language
 ## Key Concepts
 
 - **Subject-Verb Agreement**: the verb must agree with the true subject. Ignore prepositional phrases between subject and verb.
-- **Pronoun Clarity**: every pronoun must clearly refer to one antecedent. Avoid ambiguous references.
+- **Pronoun Clarity**: every pronoun must evidently refer to one antecedent. Avoid ambiguous references.
 - **Parallel Structure**: items in a list or comparison must have the same grammatical form — all gerunds, all infinitives, or all clauses.
 - **Conciseness**: eliminate redundant words and phrases. "Due to the fact that" → "because."
 - **Transition Words**: use appropriate transitions to show relationships — cause/effect, contrast, addition, sequence.

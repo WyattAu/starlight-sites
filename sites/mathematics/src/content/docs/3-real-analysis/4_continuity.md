@@ -286,7 +286,7 @@ The following table summarizes the key counterexamples in the theory of continui
 | $f(x) = \sin(1/x)$ | $(0, 1]$ | Yes | Yes | Oscillation is bounded; Heine-Cantor applies on $[\delta, 1]$ |
 | $f(x) = x\sin(1/x)$ | $[0, 1]$ | Yes | Yes | Extension to $0$ is continuous; compact domain |
 
-**The pattern:** A continuous function on a bounded interval fails to be uniformly continuous if and only if it can oscillate arbitrarily fast near some point (typically a boundary point where the function is not defined, or a point where the derivative is unbounded). On closed, bounded intervals, this cannot happen because the function is bounded and the interval is compact.
+**The pattern:** A continuous function on a bounded interval fails to be uniformly continuous if and only if it can oscillate arbitrarily fast near some point (in standard practice a boundary point where the function is not defined, or a point where the derivative is unbounded). On closed, bounded intervals, this cannot happen because the function is bounded and the interval is compact.
 
 ### 4.9 Common Pitfalls
 

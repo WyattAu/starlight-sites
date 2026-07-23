@@ -81,7 +81,7 @@ These carbonyl compounds are among the most important functional groups in organ
 - Electrophilic nature: C=O is polar (C is $\delta^+$, O is $\delta^-$)
 - Aldol condensation: aldehyde with $\alpha$-H undergoes self-addition
 - Cannizzaro reaction: aldehydes without $\alpha$-H undergo disproportionation
-- Oxidation: aldehydes oxidize easily (Tollens', Fehling's); ketones resist oxidation
+- Oxidation: aldehydes oxidize efficiently (Tollens', Fehling's); ketones resist oxidation
 - Reduction: to primary alcohols (aldehydes) or secondary alcohols (ketones)
 - Haloform reaction: methyl ketones ($\text{CH}_3\text{CO}-$) give $\text{CHX}_3$ with X$_2$/NaOH
 

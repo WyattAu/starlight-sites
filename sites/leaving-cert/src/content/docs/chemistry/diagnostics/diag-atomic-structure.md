@@ -80,7 +80,7 @@ Stronger attraction means more energy is required to remove an electron.
 $[\text{Ne}]\, 3s^2\, 3p^1$. The $3s$ electrons in magnesium are in a subshell closer to the nucleus
 (lower energy) and experience less shielding than the $3p$ electron in aluminium. The $3p$ orbital
 is slightly higher in energy and further from the nucleus (penetrates less effectively), so the $3p$
-electron is more easily removed. This results in a **drop** in first ionisation energy from Mg
+electron is more efficiently removed. This results in a **drop** in first ionisation energy from Mg
 ($738\,\text{kJ mol}^{-1}$) to Al ($578\,\text{kJ mol}^{-1}$).
 
 ---

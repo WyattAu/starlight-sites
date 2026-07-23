@@ -413,11 +413,11 @@ Regular. Closure properties do not apply when one operand is non-regular.
 
 ## Common Mistakes
 
-1. **Confusing NFAs with DFAs in terms of expressive power.** NFAs and DFAs recognise exactly the same class of languages (regular languages). An NFA is not "more powerful" — it is simply more convenient to construct. The subset construction converts any NFA to an equivalent DFA, though potentially with exponentially many states.
+1. **Confusing NFAs with DFAs in terms of expressive power.** NFAs and DFAs recognise exactly the same class of languages (regular languages). An NFA is not "more powerful" — it is directly more convenient to construct. The subset construction converts any NFA to an equivalent DFA, though potentially with exponentially many states.
 
 2. **Misapplying the pumping lemma by pumping to zero.** The pumping lemma states $|xy| \leq p$ and $|y| \geq 1$, so $y$ cannot be empty. Students often pump $y$ to zero characters, which is invalid. The lemma guarantees a non-empty substring can be pumped, not that any substring can be removed.
 
-3. **Assuming closure under intersection implies closure under complement.** Regular languages are closed under both intersection and complement independently. However, context-free languages are closed under neither complement nor intersection in general. Knowing one closure property does not automatically give you the others.
+3. **Assuming closure under intersection implies closure under complement.** Regular languages are closed under both intersection and complement independently. However, context-free languages are closed under neither complement nor intersection as a rule. Knowing one closure property does not automatically give you the others.
 
 4. **Forgetting that regular expressions and finite automata are equivalent.** Regular expressions, DFAs, NFAs, and regular grammars all describe exactly the regular languages. A common mistake is assuming regular expressions are "weaker" because they lack features like backreferences, which actually push beyond regular languages into context-free territory.
 

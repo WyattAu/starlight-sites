@@ -93,7 +93,7 @@ $\blacksquare$
 
 ## Intuition
 
-A plasma is not simply an ionised gas; it is a gas where charged particles interact collectively through long-range electromagnetic forces. The Debye length sets the scale over which electric fields are screened, and the plasma frequency sets the timescale for collective oscillations. The key insight is that a plasma behaves as a single coupled system rather than as independent particles: an electron displacement triggers a restoring force from the surrounding charge cloud, producing oscillations. Electromagnetic waves below the plasma frequency cannot propagate because the electrons respond fast enough to cancel the wave.
+A plasma is not directly an ionised gas; it is a gas where charged particles interact collectively through long-range electromagnetic forces. The Debye length sets the scale over which electric fields are screened, and the plasma frequency sets the timescale for collective oscillations. The key insight is that a plasma behaves as a single coupled system rather than as independent particles: an electron displacement triggers a restoring force from the surrounding charge cloud, producing oscillations. Electromagnetic waves below the plasma frequency cannot propagate because the electrons respond fast enough to cancel the wave.
 
 ## Cross-References
 

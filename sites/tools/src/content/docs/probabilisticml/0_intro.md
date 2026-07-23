@@ -72,7 +72,7 @@ predictions and parameters. This distinction has several practical consequences:
 | --------------- | ------------------------------------- | ----------------------------------------------------- |
 | Output          | Point estimate $\hat{y}$              | Distribution $p(y \mid x, \mathcal{D})$               |
 | Parameters      | Single optimal $\hat{\theta}$         | Posterior $p(\theta \mid \mathcal{D})$                |
-| Uncertainty     | Not quantified (unless via bootstrap) | Naturally quantified via variance, credible intervals |
+| Uncertainty     | Not quantified (unless via bootstrap) | Logically quantified via variance, credible intervals |
 | Regularization  | Explicit (L1/L2 penalties, dropout)   | Implicit (through priors)                             |
 | Model selection | Cross-validation, AIC/BIC             | Marginal likelihood, Bayes factors                    |
 | Small data      | Prone to overfitting                  | Priors stabilize estimates                            |

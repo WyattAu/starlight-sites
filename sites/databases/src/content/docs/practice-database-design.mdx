@@ -254,7 +254,7 @@ sidebar_position: 50
 
 **Correct Answer:** (D)
 
-**Explanation:** Durability guarantees that once a transaction commits, its effects are permanently recorded in the database and survive system failures (typically enforced via write-ahead logging). Atomicity ensures all-or-nothing execution. Consistency ensures the database moves from one valid state to another. Isolation ensures concurrent transactions do not interfere with each other.
+**Explanation:** Durability guarantees that once a transaction commits, its effects are permanently recorded in the database and survive system failures (in standard practice enforced via write-ahead logging). Atomicity ensures all-or-nothing execution. Consistency ensures the database moves from one valid state to another. Isolation ensures concurrent transactions do not interfere with each other.
 
 ---
 
@@ -370,7 +370,7 @@ sidebar_position: 50
 
 ## Intuition
 
-**Good database design is the foundation of reliable applications:** The schema you choose determines how efficiently data can be queried, how easily it can be updated, and how well it scales. Design decisions made early are expensive to change later.
+**Good database design is the foundation of reliable applications:** The schema you choose determines how efficiently data can be queried, how efficiently it can be updated, and how well it scales. Design decisions made early are expensive to change later.
 
 **Why it matters:** Database design affects application performance, data integrity, and developer productivity. A well-designed database makes applications faster and easier to maintain.
 

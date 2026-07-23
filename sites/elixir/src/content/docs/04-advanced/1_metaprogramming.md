@@ -754,7 +754,7 @@ Elixir's metaprogramming system is powerful but should be used judiciously:
 
 Metaprogramming in Elixir is like being a playwright who writes scripts while the actors are already on stage. When you write a macro, you are not writing code that runs at runtime; you are writing code that generates other code before the show starts. The quote and unquote mechanism is how you pass scripts to the actors: quote freezes the script, and unquote injects the actor's lines into it.
 
-Hygiene is like having name tags at a party. When a macro creates a variable called x, it does not accidentally overwrite someone else's variable also called x. Each variable has a context that keeps it separate. Breaking hygiene with var! is like removing your name tag: you can now accidentally bump into someone else's x, which is usually not what you want.
+Hygiene is like having name tags at a party. When a macro creates a variable called x, it does not accidentally overwrite someone else's variable also called x. Each variable has a context that keeps it separate. Breaking hygiene with var! is like removing your name tag: you can now accidentally bump into someone else's x, which is in most cases not what you want.
 
 ## Common Mistakes
 

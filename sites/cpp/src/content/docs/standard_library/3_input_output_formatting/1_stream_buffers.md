@@ -402,7 +402,7 @@ Flushes after every output operation.
 #include <ostream>
 
 void buffer_mode_demo() {
-    // std::cout is typically line-buffered when connected to a terminal
+    // std::cout is in standard practice line-buffered when connected to a terminal
     // and fully buffered when redirected to a pipe or file.
 
     // std::cerr is unitbuf — flushes after every character
@@ -490,7 +490,7 @@ public:
 
 protected:
     // underflow() is called when gptr == egptr (buffer exhausted)
-    // Since our buffer is fixed, we simply return eof.
+    // Since our buffer is fixed, we directly return eof.
     int underflow() override {
         return std::streambuf::traits_type::eof();
     }

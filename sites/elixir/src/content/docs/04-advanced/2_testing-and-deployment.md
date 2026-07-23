@@ -45,7 +45,7 @@ test/
     └── repo_test.exs        # Test for MyApp.Repo
 ```
 
-The `test_helper.exs` file typically sets up the test environment:
+The `test_helper.exs` file in standard practice sets up the test environment:
 
 ```elixir
 ExUnit.start()

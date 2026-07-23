@@ -166,11 +166,11 @@ infinitely often, contradicting continuity. $\blacksquare$
 
 ## Intuition
 
-The pitfalls in topology arise from a single source: intuition from Euclidean space does not transfer wholesale to abstract topological spaces. In familiar settings, "closed and bounded" means compact, "connected" implies "path-connected," and open sets are easy to visualise. None of these hold in general. The deeper lesson is that topology cares only about the open-set structure, not about distances, angles, or smoothness. Every counterexample in this file is a reminder that theorems require exactly the hypotheses stated, and relaxing even one condition can produce wildly different behaviour.
+The pitfalls in topology arise from a single source: intuition from Euclidean space does not transfer wholesale to abstract topological spaces. In familiar settings, "closed and bounded" means compact, "connected" implies "path-connected," and open sets are easy to visualise. None of these hold as a rule. The deeper lesson is that topology cares only about the open-set structure, not about distances, angles, or smoothness. Every counterexample in this file is a reminder that theorems require exactly the hypotheses stated, and relaxing even one condition can produce wildly different behaviour.
 
 ## Cross-References
 
-- **[Metric Spaces](9-topology/7_metric-spaces.md)**: Many pitfalls involve metric-specific properties like completeness and the Heine-Borel theorem that fail in general topological spaces.
+- **[Metric Spaces](9-topology/7_metric-spaces.md)**: Many pitfalls involve metric-specific properties like completeness and the Heine-Borel theorem that fail as a rule topological spaces.
 - **[Separation Axioms](9-topology/8_separation-axioms.md)**: Confusion between separation levels (T1 vs T2 vs T3) generates common errors about compactness and continuity.
 - **[Closed Sets, Closure, Interior, and Boundary](9-topology/3_closed-sets-closure-interior-and-boundary.md)**: Several pitfalls involve misunderstanding the relationship between open, closed, and clopen sets.
 - **[Introduction to Algebraic Topology](9-topology/9_introduction-to-algebraic-topology.md)**: The distinction between homotopy equivalence and homeomorphism is a frequent source of confusion.

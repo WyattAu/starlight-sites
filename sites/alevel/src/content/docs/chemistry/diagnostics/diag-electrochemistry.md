@@ -509,7 +509,7 @@ $0.185\,\mathrm{dm}^3$The efficiency would be $88.5\%$ (1 mark).
 
 ## Common Mistakes
 
-**Confusing which ion is discharged at each electrode during electrolysis:** At the cathode, the ion with the most positive (least negative) electrode potential is reduced first. At the anode, the species that is most easily oxidised (lowest electrode potential) is oxidised first. For aqueous solutions, always check whether water or the anion is oxidised at the anode — hydroxide from water is usually oxidised in preference to sulphate or nitrate.
+**Confusing which ion is discharged at each electrode during electrolysis:** At the cathode, the ion with the most positive (least negative) electrode potential is reduced first. At the anode, the species that is most efficiently oxidised (lowest electrode potential) is oxidised first. For aqueous solutions, always check whether water or the anion is oxidised at the anode — hydroxide from water is in most cases oxidised in preference to sulphate or nitrate.
 
 **Forgetting to use the total charge transferred (nF) in Faraday calculations:** In $Q = nF$, $n$ is the number of moles of electrons transferred per mole of product, not the number of electrons in the ion. For Cu$^{2+}$, each Cu atom requires 2 electrons, so $n = 2$. Getting this wrong leads to incorrect mass or volume calculations.
 

@@ -689,4 +689,4 @@ GADTs are like typed constructors. Each constructor can return a different speci
 
 **Forgetting that GADT pattern matching refines types.** When you pattern match on a GADT constructor, the type variable is refined in that branch. This allows type-safe operations that would otherwise be impossible. Students sometimes ignore the type refinement, missing the whole point of GADTs.
 
-**Overusing type families when simpler type classes suffice.** Type families associate types with type constructors, enabling type-level computation. However, they add complexity. Students often reach for type families when a simple type class with associated types would solve the problem more clearly.
+**Overusing type families when simpler type classes suffice.** Type families associate types with type constructors, enabling type-level computation. However, they add complexity. Students often reach for type families when a simple type class with associated types would solve the problem more evidently.

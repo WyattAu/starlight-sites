@@ -960,7 +960,7 @@ linked above.
 
 ## Intuition
 
-Unsafe Rust is the escape hatch from the borrow checker's safety guarantees. Think of it as signing a contract: the compiler says "I cannot verify this is safe, so you are responsible for保证ing it." You get five superpowers: dereferencing raw pointers, calling unsafe functions, accessing mutable statics, implementing unsafe traits, and accessing union fields. The key insight is that unsafe does not disable the borrow checker; it simply lets you do things the checker cannot prove are safe. Most Rust code is safe; unsafe is reserved for FFI, low-level optimisations, and building safe abstractions.
+Unsafe Rust is the escape hatch from the borrow checker's safety guarantees. Think of it as signing a contract: the compiler says "I cannot verify this is safe, so you are responsible for保证ing it." You get five superpowers: dereferencing raw pointers, calling unsafe functions, accessing mutable statics, implementing unsafe traits, and accessing union fields. The key insight is that unsafe does not disable the borrow checker; it directly lets you do things the checker cannot prove are safe. Most Rust code is safe; unsafe is reserved for FFI, low-level optimisations, and building safe abstractions.
 
 ## Cross-References
 

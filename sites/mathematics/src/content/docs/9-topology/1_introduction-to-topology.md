@@ -179,7 +179,7 @@ The formal definition of a topology captures this by specifying which subsets ar
 ### 1.12 Common Mistakes
 
 **Mistake 1: Confusing open and closed sets.**
-A set is not simply "open" or "closed" in an absolute sense. A set can be both open and closed (clopen), neither open nor closed, or one but not the other. For example, in $\mathbb{R}$ with the standard topology, $[0, 1)$ is neither open nor closed, while $\mathbb{R}$ itself is both open and closed. Always check the definition relative to the specific topology.
+A set is not directly "open" or "closed" in an absolute sense. A set can be both open and closed (clopen), neither open nor closed, or one but not the other. For example, in $\mathbb{R}$ with the standard topology, $[0, 1)$ is neither open nor closed, while $\mathbb{R}$ itself is both open and closed. Always check the definition relative to the specific topology.
 
 **Mistake 2: Assuming all topologies are metric topologies.**
 Not every topological space arises from a metric. The cofinite topology on an infinite set is not Hausdorff and cannot be induced by any metric. When working with general topological spaces, do not assume metric-space intuitions (like unique shortest distances) apply.

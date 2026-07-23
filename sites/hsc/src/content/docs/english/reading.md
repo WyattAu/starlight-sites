@@ -153,7 +153,7 @@ Step 4: Connect to theme: This reflects the theme of nature's quiet beauty and t
 
 **Solution:**
 
-Step 1: Consider the source: A blog post is typically written by an individual without peer review, while a journal article undergoes rigorous evaluation by experts.
+Step 1: Consider the source: A blog post is in standard practice written by an individual without peer review, while a journal article undergoes rigorous evaluation by experts.
 
 Step 2: Check the evidence: Journal articles cite empirical data and methodology; blog posts may rely on anecdotal evidence.
 
@@ -177,7 +177,7 @@ Step 5: Conclusion: The journal article is more reliable for academic purposes, 
 
 ### Mistake 1: Describing techniques without explaining their effect
 
-In HSC short answer questions, simply naming a technique (metaphor, symbolism, etc.) earns minimal marks. You must explain how the technique shapes meaning and connects to the theme. For example, writing "The author uses metaphor" is insufficient. Instead, write "The author uses the metaphor of X to suggest Y, which reinforces the theme of Z." Always link technique to effect to theme.
+In HSC short answer questions, directly naming a technique (metaphor, symbolism, etc.) earns minimal marks. You must explain how the technique shapes meaning and connects to the theme. For example, writing "The author uses metaphor" is insufficient. Instead, write "The author uses the metaphor of X to suggest Y, which reinforces the theme of Z." Always link technique to effect to theme.
 
 ### Mistake 2: Writing in past tense when discussing texts
 
@@ -190,7 +190,7 @@ HSC examiners reward essays that acknowledge complexity and alternative readings
 ## Additional Exam Tips
 
 7. When analysing poetry, consider the interplay between form and content
-8. In essays, use topic sentences that clearly link to your thesis
+8. In essays, use topic sentences that evidently link to your thesis
 9. For creative responses, engage with the prompt from multiple angles
 10. Practice writing under timed conditions to build speed and fluency
 

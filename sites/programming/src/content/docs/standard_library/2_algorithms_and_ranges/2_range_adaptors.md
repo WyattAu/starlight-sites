@@ -841,7 +841,7 @@ int main() {
 
 **Why it matters:** Range adaptors enable composable, lazy data processing. Instead of writing nested loops with temporary vectors, you compose a pipeline that processes elements on-demand. This is more readable, more efficient (no temporary allocations), and more maintainable (each step is independent). The C++20 ranges library provides dozens of adaptors: `filter`, `transform`, `take`, `drop`, `join`, `split`, and more.
 
-**The key insight:** Range adaptors compose with `|` to create lazy data processing pipelines — each adaptor does one thing well, and they chain together naturally.
+**The key insight:** Range adaptors compose with `|` to create lazy data processing pipelines — each adaptor does one thing well, and they chain together logically.
 
 ## Common Pitfalls
 

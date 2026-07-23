@@ -333,7 +333,7 @@ blood cell production (polycythaemia).
 
 ## Common Mistakes
 
-**Confusing arteries with veins:** Arteries carry blood away from the heart (usually oxygenated). Veins carry blood toward the heart (usually deoxygenated). The exception is pulmonary circulation.
+**Confusing arteries with veins:** Arteries carry blood away from the heart (in most cases oxygenated). Veins carry blood toward the heart (in most cases deoxygenated). The exception is pulmonary circulation.
 
 **Forgetting that homeostasis involves negative feedback:** Most body systems work by detecting deviations from a set point and reversing them. Don't assume positive feedback is the norm.
 

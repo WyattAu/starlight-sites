@@ -705,7 +705,7 @@ Control integration.
 
 Computing systems are about **how hardware and software work together** to execute programs. The key abstractions — binary representation, logic gates, processors, memory — hide enormous complexity while creating performance trade-offs.
 
-**Binary intuition:** Computers use binary (base-2) because transistors have two states: on and off. This maps naturally to 1s and 0s. All data — numbers, text, images, programs — is ultimately stored as binary. The same binary pattern can represent different things depending on interpretation (a number vs a character).
+**Binary intuition:** Computers use binary (base-2) because transistors have two states: on and off. This maps logically to 1s and 0s. All data — numbers, text, images, programs — is ultimately stored as binary. The same binary pattern can represent different things depending on interpretation (a number vs a character).
 
 **Logic gate intuition:** Every computational operation can be built from three basic gates: AND, OR, and NOT. These are physical devices (transistors) that implement Boolean logic. Combinational circuits produce outputs that depend only on current inputs; sequential circuits have memory and produce outputs that depend on past inputs.
 

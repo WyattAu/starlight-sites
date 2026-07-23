@@ -426,7 +426,7 @@ Vocabulary in context is like deciphering a code. The word itself may have multi
 
 ## Common Mistakes
 
-**Choosing answers with absolute language.** Options containing words like "all," "never," "always," "only," or "completely" are almost always wrong in reading comprehension. Authors typically present balanced views, and extreme statements rarely reflect the passage accurately. Eliminate absolute options first.
+**Choosing answers with absolute language.** Options containing words like "all," "never," "always," "only," or "completely" are almost always wrong in reading comprehension. Authors in standard practice present balanced views, and extreme statements rarely reflect the passage accurately. Eliminate absolute options first.
 
 **Over-inferring beyond the passage content.** Reading comprehension answers must be directly supported by the text. Making logical leaps or bringing in outside knowledge leads to incorrect inferences. The correct answer is always a paraphrase or restatement of information explicitly stated in the passage.
 

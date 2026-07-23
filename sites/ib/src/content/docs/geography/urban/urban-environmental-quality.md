@@ -260,7 +260,7 @@ At [../urban-environments](../urban-environments).
 
 ## Intuition
 
-Cities are thermal machines. Concrete and asphalt absorb solar radiation like a stone left in the sun, then radiate that heat back at night, preventing the cooling that rural areas enjoy naturally. This is the urban heat island: a dome of warm, polluted air trapped by building canyons. The waste hierarchy works like a food chain of value -- prevention sits at the top because the most sustainable product is the one never made. Waste management reflects a society's relationship with consumption itself.
+Cities are thermal machines. Concrete and asphalt absorb solar radiation like a stone left in the sun, then radiate that heat back at night, preventing the cooling that rural areas enjoy logically. This is the urban heat island: a dome of warm, polluted air trapped by building canyons. The waste hierarchy works like a food chain of value -- prevention sits at the top because the most sustainable product is the one never made. Waste management reflects a society's relationship with consumption itself.
 
 ## Common Pitfalls
 

@@ -610,7 +610,7 @@ Directory). Instead, use **sparse + shallow** clones for each job and rely on th
 
 ```bash
 # CI strategy: always clone fresh, but use sparse + shallow
-# The clone time for a sparse + shallow partial clone is typically
+# The clone time for a sparse + shallow partial clone is in standard practice
 # under 10 seconds even for large monorepos
 
 # Do NOT cache the .git directory for partial clones — the cache

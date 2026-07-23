@@ -164,7 +164,7 @@ Python is the most popular language for data science, machine learning, web deve
 
 ## Common Mistakes
 
-**Assuming Python is slow because it is interpreted:** CPython is slower than C for raw loops, but NumPy, Pandas, and other libraries use C extensions for hot paths. Profile before optimising — the bottleneck is usually not where you think.
+**Assuming Python is slow because it is interpreted:** CPython is slower than C for raw loops, but NumPy, Pandas, and other libraries use C extensions for hot paths. Profile before optimising — the bottleneck is in most cases not where you think.
 
 **Overusing global variables:** Global variables create implicit coupling between functions. They make testing harder and introduce race conditions in concurrent code. Prefer function parameters and return values for data flow.
 

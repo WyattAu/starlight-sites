@@ -428,13 +428,13 @@ struct FinalClass final {
 
 void call_non_final(const NonFinal& obj) {
     obj.f();
-    // Even at -O2, this typically emits an indirect call
+    // Even at -O2, this in standard practice emits an indirect call
     // because NonFinal could be subclassed in another TU
 }
 
 void call_final(const FinalClass& obj) {
     obj.f();
-    // At -O2, this is typically inlined to std::cout << "FinalClass::f\n"
+    // At -O2, this is in standard practice inlined to std::cout << "FinalClass::f\n"
     // The compiler knows FinalClass cannot be subclassed
 }
 

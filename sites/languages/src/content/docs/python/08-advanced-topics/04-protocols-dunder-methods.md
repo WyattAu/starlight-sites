@@ -881,7 +881,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Intuition
 
-Dunder methods are the hooks where Python's built-in operations call your custom code. When you write `len(obj)`, Python is actually calling `obj.__len__()`, which is like giving your object a personality that responds to questions about itself. Protocols are social contracts in Python: if your object walks like a duck and quacks like a duck, Python treats it as a duck. This is more flexible than rigid inheritance because it lets unrelated objects cooperate simply by implementing the right methods, the way strangers can play a pickup game of basketball without joining the same team.
+Dunder methods are the hooks where Python's built-in operations call your custom code. When you write `len(obj)`, Python is actually calling `obj.__len__()`, which is like giving your object a personality that responds to questions about itself. Protocols are social contracts in Python: if your object walks like a duck and quacks like a duck, Python treats it as a duck. This is more flexible than rigid inheritance because it lets unrelated objects cooperate directly by implementing the right methods, the way strangers can play a pickup game of basketball without joining the same team.
 
 ## Worked Examples
 

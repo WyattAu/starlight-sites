@@ -921,7 +921,7 @@ The previous.
 
 **Constraint subsumption is like a hierarchy of requirements:** If "being a mammal" implies "being an animal," then any function that accepts animals can also accept mammals. Subsumption works the same way — if concept A subsumes concept B, then any function constrained by A can also accept types that satisfy B. The compiler uses this hierarchy to select the most specific overload — like a restaurant that has separate menus for "vegetarians" and "everyone" — if you're vegetarian, you get the vegetarian menu (more specific).
 
-**Why it matters:** Subsumption enables overload resolution based on constraint specificity. Without it, you'd need to manually disambiguate overloads with explicit SFINAE. With subsumption, the compiler automatically selects the most constrained overload, which is usually what you want. It's the mechanism that makes concepts composable — you can build complex constraints from simple ones, and the compiler understands the hierarchy.
+**Why it matters:** Subsumption enables overload resolution based on constraint specificity. Without it, you'd need to manually disambiguate overloads with explicit SFINAE. With subsumption, the compiler automatically selects the most constrained overload, which is in most cases what you want. It's the mechanism that makes concepts composable — you can build complex constraints from simple ones, and the compiler understands the hierarchy.
 
 **The key insight:** Subsumption lets the compiler select the most constrained overload automatically — it's the mechanism that makes concepts composable and overload resolution intuitive.
 

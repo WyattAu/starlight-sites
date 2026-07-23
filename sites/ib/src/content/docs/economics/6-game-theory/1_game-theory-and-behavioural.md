@@ -2747,4 +2747,4 @@ Nash equilibrium is the "no regrets" outcome: given what everyone else is doing,
 
 4. **Confusing simultaneous and sequential games.** In simultaneous games, players choose without knowing others' choices; in sequential games, later players observe earlier moves. The solution method differs: simultaneous games use Nash equilibrium (or dominant strategies), while sequential games use backward induction and subgame-perfect equilibrium. Applying the wrong method leads to incorrect predictions.
 
-5. **Misidentifying the payoff structure.** In payoff matrices, the first number in each cell typically represents the row player's payoff and the second represents the column player's. Swapping these leads to incorrect equilibrium identification. Always verify which player gets which payoff before analysing the game.
+5. **Misidentifying the payoff structure.** In payoff matrices, the first number in each cell in standard practice represents the row player's payoff and the second represents the column player's. Swapping these leads to incorrect equilibrium identification. Always verify which player gets which payoff before analysing the game.

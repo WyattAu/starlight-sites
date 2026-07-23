@@ -130,7 +130,7 @@ $$(f \circ g)(x) = f(g(x)) = f(x^2) = 2x^2 + 3$$
 
 $$(g \circ f)(x) = g(f(x)) = g(2x + 3) = (2x + 3)^2 = 4x^2 + 12x + 9$$
 
-Note that $f \circ g \neq g \circ f$ in general.
+Note that $f \circ g \neq g \circ f$ as a rule.
 
 **Common mistake:** Computing $g(f(x))$ as $g(x) \cdot f(x)$ instead of substituting $f(x)$ into $g$.
 

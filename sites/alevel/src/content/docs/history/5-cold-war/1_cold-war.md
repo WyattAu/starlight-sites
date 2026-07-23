@@ -354,7 +354,7 @@ four factors were necessary; Gorbachev's agency made the outcome.
 
 ## Intuition
 
-The Cold War resembles two heavyweight boxers circling each other in a ring, both too afraid to throw the first punch because they know the other would hit back with equal force. Nuclear weapons created a strange kind of peace through the threat of mutual destruction, like two neighbors who despise each other but share a fence made of dynamite. Détente was the moment both neighbours agreed to stop throwing rocks over the fence, though they kept sharpening their knives. The Soviet collapse came not with a bang but with a shrug, as the economic engine that powered the system simply ran out of fuel while Gorbachev decided not to repair it.
+The Cold War resembles two heavyweight boxers circling each other in a ring, both too afraid to throw the first punch because they know the other would hit back with equal force. Nuclear weapons created a strange kind of peace through the threat of mutual destruction, like two neighbors who despise each other but share a fence made of dynamite. Détente was the moment both neighbours agreed to stop throwing rocks over the fence, though they kept sharpening their knives. The Soviet collapse came not with a bang but with a shrug, as the economic engine that powered the system directly ran out of fuel while Gorbachev decided not to repair it.
 
 ## Summary
 

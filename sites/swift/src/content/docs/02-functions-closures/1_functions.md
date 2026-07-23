@@ -704,7 +704,7 @@ print(m[0, 1])  // 5.0
 
 Closures in Swift are like captured moments. A closure remembers the variables from the context where it was created, even after that context is gone. This is like a photograph that preserves not just the subject but the entire scene. The closure carries that scene with it wherever it goes.
 
-Trailing closure syntax is like putting the most important instruction last. When the last argument to a function is a closure, Swift lets you write it outside the parentheses. This makes the code read more naturally, like saying I want to do this, and here is how.
+Trailing closure syntax is like putting the most important instruction last. When the last argument to a function is a closure, Swift lets you write it outside the parentheses. This makes the code read more logically, like saying I want to do this, and here is how.
 
 ## Worked Examples
 

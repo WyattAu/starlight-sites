@@ -291,7 +291,7 @@ correspond to the matrices $\{I, R, R^2\}$.
 
 ## Common Mistakes
 
-**Confusing i² = -1 with i = √(-1):** The definition is i² = -1. Writing i = √(-1) is misleading because √ usually denotes the principal (non-negative) square root.
+**Confusing i² = -1 with i = √(-1):** The definition is i² = -1. Writing i = √(-1) is misleading because √ in most cases denotes the principal (non-negative) square root.
 
 **Forgetting that complex conjugates have the same modulus:** If z = a + bi, then |z| = |z̄| = √(a² + b²). The conjugate reflects across the real axis but doesn't change the distance from origin.
 

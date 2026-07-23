@@ -1051,7 +1051,7 @@ Think of probability as measuring the "size" of the favorable outcomes relative 
 
 2. **Applying the multiplication rule to dependent events without conditioning.** $P(A \cap B) = P(A)P(B)$ only holds for independent events. For dependent events, you must use $P(A \cap B) = P(A) \cdot P(B|A)$. Forgetting this leads to over- or under-estimating joint probabilities.
 
-3. **Reversing conditional probabilities (ignoring Bayes' theorem).** $P(A|B) \neq P(B|A)$ in general. A common error is assuming that because $B$ is likely given $A$, $A$ must also be likely given $B$. Bayes' theorem corrects this by incorporating the prior probabilities of both events.
+3. **Reversing conditional probabilities (ignoring Bayes' theorem).** $P(A|B) \neq P(B|A)$ as a rule. A common error is assuming that because $B$ is likely given $A$, $A$ must also be likely given $B$. Bayes' theorem corrects this by incorporating the prior probabilities of both events.
 
 4. **Double-counting outcomes in sample spaces.** When listing outcomes, ensure each is equally likely before dividing by the total. If outcomes are not equally likely, use weighted probabilities instead of simple fractions.
 

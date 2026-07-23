@@ -191,4 +191,4 @@ sidebar_position: 40
 
 **Assuming all approaches are equally scientific:** The biological and cognitive approaches use empirical, scientific methods (experiments, brain scans). The psychodynamic and humanistic approaches are harder to test empirically and are often criticised for lacking falsifiability. This does not mean they are wrong, but their evidence base is different.
 
-**Confusing Bandura's social learning theory with behaviourism:** Bandura's Bobo doll experiment showed that learning can occur through observation (modelling) without direct reinforcement. This challenged pure behaviourism, which required direct reinforcement. Social learning theory bridges behaviourism and cognitivism — it is not simply an extension of behaviourism.
+**Confusing Bandura's social learning theory with behaviourism:** Bandura's Bobo doll experiment showed that learning can occur through observation (modelling) without direct reinforcement. This challenged pure behaviourism, which required direct reinforcement. Social learning theory bridges behaviourism and cognitivism — it is not directly an extension of behaviourism.

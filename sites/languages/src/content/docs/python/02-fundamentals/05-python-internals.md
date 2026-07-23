@@ -583,7 +583,7 @@ print(a == b)   # True
 
 a = 257
 b = 257
-print(a is b)   # Implementation-dependent (usually False)
+print(a is b)   # Implementation-dependent (in most cases False)
 print(a == b)   # True (always correct)
 ```
 
@@ -808,7 +808,7 @@ assert a is b  # True (CPython), but not guaranteed
 
 a = 257
 b = 257
-assert a is b  # Usually False, but not guaranteed
+assert a is b  # In most cases False, but not guaranteed
 ```
 
 The integer caching range, string interning behavior, and tuple interning behavior are all CPython
