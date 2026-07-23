@@ -6,15 +6,8 @@
  * Usage: node scripts/split-further-studies.mjs
  */
 
-import {
-  cpSync,
-  existsSync,
-  mkdirSync,
-  readFileSync,
-  readdirSync,
-  writeFileSync,
-} from 'node:fs'
-import { join, dirname } from 'node:path'
+import { cpSync, existsSync, mkdirSync, readdirSync, writeFileSync } from 'node:fs'
+import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -31,10 +24,18 @@ const SITES = [
     desc: 'Proof-based undergraduate mathematics covering algebra, analysis, geometry, and more.',
     tagline: 'Proof-based undergraduate mathematics.',
     topics: [
-      'Abstract Algebra', 'Linear Algebra', 'Real Analysis', 'Multivariable Calculus',
-      'Ordinary Differential Equations', 'Complex Analysis', 'Number Theory',
-      'Probability and Statistics', 'Topology', 'Measure Theory',
-      'Functional Analysis', 'Differential Geometry',
+      'Abstract Algebra',
+      'Linear Algebra',
+      'Real Analysis',
+      'Multivariable Calculus',
+      'Ordinary Differential Equations',
+      'Complex Analysis',
+      'Number Theory',
+      'Probability and Statistics',
+      'Topology',
+      'Measure Theory',
+      'Functional Analysis',
+      'Differential Geometry',
     ],
   },
   {
@@ -46,8 +47,12 @@ const SITES = [
     desc: 'Undergraduate physics covering classical mechanics, electromagnetism, quantum mechanics, and more.',
     tagline: 'Undergraduate physics with derivations.',
     topics: [
-      'Classical Mechanics', 'Thermal Physics', 'Electromagnetism',
-      'Optics and Waves', 'Quantum Mechanics', 'Solid State Physics',
+      'Classical Mechanics',
+      'Thermal Physics',
+      'Electromagnetism',
+      'Optics and Waves',
+      'Quantum Mechanics',
+      'Solid State Physics',
       'Particle Physics and Cosmology',
     ],
   },
@@ -60,9 +65,14 @@ const SITES = [
     desc: 'Undergraduate computer science covering systems, theory, algorithms, and architecture.',
     tagline: 'Undergraduate CS — systems, theory, and algorithms.',
     topics: [
-      'Discrete Mathematics', 'Algorithms', 'Computer Networks',
-      'Databases', 'Operating Systems', 'Theory of Computation',
-      'Computer Architecture', 'Machine Learning',
+      'Discrete Mathematics',
+      'Algorithms',
+      'Computer Networks',
+      'Databases',
+      'Operating Systems',
+      'Theory of Computation',
+      'Computer Architecture',
+      'Machine Learning',
     ],
   },
   {
@@ -350,7 +360,12 @@ for (const site of SITES) {
   console.log(`\n=== Creating ${site.name}.wyattau.com ===`)
 
   // Create directory structure
-  for (const dir of ['src/components/starlight', 'src/styles', 'public/fonts', 'src/content/docs']) {
+  for (const dir of [
+    'src/components/starlight',
+    'src/styles',
+    'public/fonts',
+    'src/content/docs',
+  ]) {
     mkdirSync(join(siteDir, dir), { recursive: true })
   }
 
@@ -360,11 +375,17 @@ for (const site of SITES) {
   // Copy shared components from source site
   const sourceSite = join(ROOT, 'sites', site.source)
   for (const f of readdirSync(join(sourceSite, 'src', 'components', 'starlight'))) {
-    cpSync(join(sourceSite, 'src', 'components', 'starlight', f), join(siteDir, 'src', 'components', 'starlight', f))
+    cpSync(
+      join(sourceSite, 'src', 'components', 'starlight', f),
+      join(siteDir, 'src', 'components', 'starlight', f),
+    )
   }
 
   // Copy custom.css and content.config.ts
-  cpSync(join(sourceSite, 'src', 'styles', 'custom.css'), join(siteDir, 'src', 'styles', 'custom.css'))
+  cpSync(
+    join(sourceSite, 'src', 'styles', 'custom.css'),
+    join(siteDir, 'src', 'styles', 'custom.css'),
+  )
   cpSync(join(sourceSite, 'src', 'content.config.ts'), join(siteDir, 'src', 'content.config.ts'))
 
   // Copy public assets
@@ -378,7 +399,22 @@ for (const site of SITES) {
   // Write config files
   write(join(siteDir, 'astro.config.mjs'), astroConfig(site))
   write(join(siteDir, 'package.json'), pkgJson(site))
-  write(join(siteDir, 'tsconfig.json'), JSON.stringify({ extends: 'astro/tsconfigs/strict', compilerOptions: { jsx: 'preserve', jsxImportSource: 'solid-js', baseUrl: '.', paths: { '@components/*': ['src/components/*'], '@/*': ['src/*'] } } }, null, 2))
+  write(
+    join(siteDir, 'tsconfig.json'),
+    JSON.stringify(
+      {
+        extends: 'astro/tsconfigs/strict',
+        compilerOptions: {
+          jsx: 'preserve',
+          jsxImportSource: 'solid-js',
+          baseUrl: '.',
+          paths: { '@components/*': ['src/components/*'], '@/*': ['src/*'] },
+        },
+      },
+      null,
+      2,
+    ),
+  )
   write(join(siteDir, 'src', 'content', 'docs', 'index.mdx'), indexMdx(site))
 
   // content.config.ts already copied above
@@ -391,4 +427,3 @@ console.log(`Created ${SITES.length} new sites:`)
 for (const s of SITES) {
   console.log(`  https://${s.name}.wyattau.com (from ${s.source}/${s.srcDir})`)
 }
-

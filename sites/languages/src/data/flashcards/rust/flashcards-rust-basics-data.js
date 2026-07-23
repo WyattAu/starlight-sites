@@ -178,7 +178,7 @@ export const flashcardData = [
   },
   {
     id: 'rust-ownership-026',
-    front: 'What happens to a String\'s heap data when it is moved?',
+    front: "What happens to a String's heap data when it is moved?",
     back: 'The stack data (pointer, length, capacity) is copied to the new variable. The old variable becomes invalid. The heap data is NOT copied -- only the new owner manages it. When the new owner goes out of scope, the heap data is deallocated. This avoids double-free errors.',
     tags: ['rust', 'ownership'],
     difficulty: 'easy',

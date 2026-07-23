@@ -179,7 +179,7 @@ export const flashcards2 = [
   },
   {
     id: 'swift-access-control-026',
-    front: 'What are Swift\'s access control levels?',
+    front: "What are Swift's access control levels?",
     back: 'open (any module can access and subclass), public (any module can access, no subclassing outside), internal (same module, default), filePrivate (same file), private (same declaration/extension). Use the most restrictive level possible to enforce encapsulation.',
     tags: ['swift', 'access-control'],
     difficulty: 'easy',
@@ -194,7 +194,7 @@ export const flashcards2 = [
   {
     id: 'swift-deinit-028',
     front: 'What does deinit do in a Swift class?',
-    back: 'deinit is called when an instance\'s reference count reaches zero and it is about to be deallocated. Use it to clean up resources (close file handles, invalidate timers, unregister observers). deinit is not called for value types. You cannot call deinit directly or use it with structs.',
+    back: "deinit is called when an instance's reference count reaches zero and it is about to be deallocated. Use it to clean up resources (close file handles, invalidate timers, unregister observers). deinit is not called for value types. You cannot call deinit directly or use it with structs.",
     tags: ['swift', 'memory'],
     difficulty: 'easy',
   },

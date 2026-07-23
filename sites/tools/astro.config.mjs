@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'Tools',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description:
         'Algorithms, data structures, version control, licensing, and machine learning fundamentals.',
 

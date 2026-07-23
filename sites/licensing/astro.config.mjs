@@ -18,7 +18,7 @@ export default defineConfig({
     starlight({
       title: 'Licensing',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Software licensing reference notes.',
 
       components: {
@@ -32,12 +32,10 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
       },
-            sidebar: [
+      sidebar: [
         {
           label: 'Licensing',
-          items: [
-            { label: 'Open Source Licenses', slug: 'osi-licenses' },
-          ],
+          items: [{ label: 'Open Source Licenses', slug: 'osi-licenses' }],
         },
       ],
       head: [

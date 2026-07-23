@@ -18,7 +18,7 @@ export default defineConfig({
     starlight({
       title: 'Machine Learning',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Machine learning reference notes covering concepts and techniques.',
 
       components: {
@@ -32,12 +32,10 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
       },
-            sidebar: [
+      sidebar: [
         {
           label: 'Machine Learning',
-          items: [
-            { label: 'advanced topics', slug: 'advanced-topics' },
-          ],
+          items: [{ label: 'advanced topics', slug: 'advanced-topics' }],
         },
       ],
       head: [

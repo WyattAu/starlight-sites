@@ -18,7 +18,7 @@ export default defineConfig({
     starlight({
       title: 'Admissions',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'University admissions test preparation notes.',
 
       components: {
@@ -32,7 +32,7 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
       },
-            sidebar: [
+      sidebar: [
         {
           label: 'Admissions',
           items: [

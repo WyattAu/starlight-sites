@@ -22,7 +22,7 @@ export default defineConfig({
     starlight({
       title: 'TypeScript',
       pagefind: false,
-      expressiveCode: { themes: ["dracula", "github-light"] },
+      expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'TypeScript programming language notes.',
 
       components: {
@@ -35,7 +35,7 @@ export default defineConfig({
       locales: {
         root: { label: 'English', lang: 'en' },
       },
-            sidebar: [
+      sidebar: [
         {
           label: 'TypeScript',
           items: [
@@ -47,7 +47,10 @@ export default defineConfig({
             { label: 'TypeScript Fundamentals Flashcards', slug: 'flashcards-typescript-basics' },
             { label: 'Functions', slug: 'functions' },
             { label: 'Generics', slug: 'generics' },
-            { label: 'TypeScript Fundamentals Practice (Interactive)', slug: 'practice-typescript-basics' },
+            {
+              label: 'TypeScript Fundamentals Practice (Interactive)',
+              slug: 'practice-typescript-basics',
+            },
             { label: 'Tooling and Configuration', slug: 'tooling-and-configuration' },
             { label: 'Types and Annotations', slug: 'types-and-annotations' },
             { label: 'TypeScript with React', slug: 'typescript-with-react' },

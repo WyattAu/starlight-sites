@@ -151,7 +151,8 @@ export const practiceQuestions = [
     difficulty: 'medium',
   },
   {
-    question: 'What is the difference between std::unique_ptr and raw pointers in terms of RAII compliance?',
+    question:
+      'What is the difference between std::unique_ptr and raw pointers in terms of RAII compliance?',
     options: [
       'unique_ptr automatically calls delete when it goes out of scope; raw pointers do not',
       'Raw pointers are RAII-compliant; unique_ptr is not',
@@ -203,7 +204,8 @@ export const practiceQuestions = [
     difficulty: 'medium',
   },
   {
-    question: 'What happens if you delete a raw pointer that was obtained from std::unique_ptr::release()?',
+    question:
+      'What happens if you delete a raw pointer that was obtained from std::unique_ptr::release()?',
     options: [
       'It is safe and recommended practice',
       'It is undefined behavior if the pointer was already managed by a unique_ptr that went out of scope',

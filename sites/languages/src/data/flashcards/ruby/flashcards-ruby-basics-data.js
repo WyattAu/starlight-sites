@@ -156,7 +156,7 @@ export const flashcardData = [
   {
     id: 'ruby-freeze-023',
     front: 'What does Object.freeze do in Ruby?',
-    back: 'freeze prevents modification of an object\'s attributes. For a frozen string, << raises FrozenError. For a frozen array, push raises an error. freeze is shallow -- nested objects are not frozen. Use freeze to enforce immutability and prevent accidental modification of shared state.',
+    back: "freeze prevents modification of an object's attributes. For a frozen string, << raises FrozenError. For a frozen array, push raises an error. freeze is shallow -- nested objects are not frozen. Use freeze to enforce immutability and prevent accidental modification of shared state.",
     tags: ['ruby', 'objects'],
     difficulty: 'easy',
   },

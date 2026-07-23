@@ -221,16 +221,10 @@ describe('Dead-code absence', () => {
     // sw.js is now an intentional feature — registered in Head.astro
     // for offline reading support. All sites must have it and it must
     // match the canonical search-api/sw.js source.
-    const canonical = fs.readFileSync(
-      path.join(ROOT, 'search-api', 'sw.js'),
-      'utf8',
-    )
+    const canonical = fs.readFileSync(path.join(ROOT, 'search-api', 'sw.js'), 'utf8')
     for (const site of EXPECTED_SITES) {
       const sitePath = path.join(ROOT, 'sites', site, 'public', 'sw.js')
-      assert.ok(
-        fs.existsSync(sitePath),
-        `sites/${site}/public/sw.js must exist`,
-      )
+      assert.ok(fs.existsSync(sitePath), `sites/${site}/public/sw.js must exist`)
       const siteContent = fs.readFileSync(sitePath, 'utf8')
       assert.strictEqual(
         siteContent,

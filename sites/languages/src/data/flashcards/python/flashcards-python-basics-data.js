@@ -170,7 +170,7 @@ export const flashcardData = [
   {
     id: 'python-dunder-025',
     front: 'What are dunder methods and what are they used for?',
-    back: 'Dunder (double underscore) methods like __init__, __repr__, __add__, __len__ define how objects behave with built-in operations. __add__ enables +, __len__ enables len(), __str__ enables str(). They enable operator overloading and integration with Python\'s built-in functions.',
+    back: "Dunder (double underscore) methods like __init__, __repr__, __add__, __len__ define how objects behave with built-in operations. __add__ enables +, __len__ enables len(), __str__ enables str(). They enable operator overloading and integration with Python's built-in functions.",
     tags: ['python', 'oop'],
     difficulty: 'easy',
   },

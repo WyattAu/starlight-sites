@@ -6,16 +6,8 @@
  * Usage: node scripts/split-qualifications.mjs
  */
 
-import {
-  cpSync,
-  existsSync,
-  mkdirSync,
-  readFileSync,
-  readdirSync,
-  rmSync,
-  writeFileSync,
-} from 'node:fs'
-import { join, dirname } from 'node:path'
+import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
@@ -36,7 +28,16 @@ const QUALS = [
     title: 'AP',
     url: 'https://ap.wyattau.com',
     desc: 'Advanced Placement revision notes covering Calculus, Physics, Chemistry, Biology, and more.',
-    subjects: ['Calculus', 'Physics', 'Chemistry', 'Biology', 'Statistics', 'History', 'English', 'CS'],
+    subjects: [
+      'Calculus',
+      'Physics',
+      'Chemistry',
+      'Biology',
+      'Statistics',
+      'History',
+      'English',
+      'CS',
+    ],
   },
   {
     name: 'highers',
@@ -248,11 +249,19 @@ function pkgJson({ name, title }) {
 // TODO: subject links should map to actual content paths per site
 // e.g., Chemistry -> /chemistry/, Maths -> /maths/
 const SUBJECT_LINKS = {
-  Biology: '/biology/', Chemistry: '/chemistry/', Physics: '/physics/',
-  Mathematics: '/maths/', Maths: '/maths/', English: '/english/',
-  'Computer Science': '/computer-science/', CS: '/computer-science/',
-  Calculus: '/calculus-ab/', Statistics: '/statistics/', History: '/history/',
-  'Reading and Writing': '/reading-and-writing/', Science: '/science-question-bank/',
+  Biology: '/biology/',
+  Chemistry: '/chemistry/',
+  Physics: '/physics/',
+  Mathematics: '/maths/',
+  Maths: '/maths/',
+  English: '/english/',
+  'Computer Science': '/computer-science/',
+  CS: '/computer-science/',
+  Calculus: '/calculus-ab/',
+  Statistics: '/statistics/',
+  History: '/history/',
+  'Reading and Writing': '/reading-and-writing/',
+  Science: '/science-question-bank/',
 }
 
 function indexMdx({ title, desc, subjects }) {
@@ -278,7 +287,7 @@ ${title} revision notes covering core subjects with detailed explanations, worke
 <CardGrid>
 ${subjects
   .map(
-    (s) => `  <a href="${SUBJECT_LINKS[s] || '/intro/'}" class="landing-card">
+    s => `  <a href="${SUBJECT_LINKS[s] || '/intro/'}" class="landing-card">
     <Card title="${s}" icon="document">
       ${title} ${s} notes covering key definitions, core concepts, worked examples, and practice problems.
     </Card>
@@ -309,11 +318,7 @@ for (const qual of QUALS) {
   console.log(`\n=== Creating ${qual.name}.wyattau.com ===`)
 
   // Create directory structure
-  for (const dir of [
-    'src/components/starlight',
-    'src/styles',
-    'public/fonts',
-  ]) {
+  for (const dir of ['src/components/starlight', 'src/styles', 'public/fonts']) {
     mkdirSync(join(siteDir, dir), { recursive: true })
   }
 
@@ -332,7 +337,10 @@ for (const qual of QUALS) {
   }
 
   // Copy custom.css
-  cpSync(join(QUAL_SITE, 'src', 'styles', 'custom.css'), join(siteDir, 'src', 'styles', 'custom.css'))
+  cpSync(
+    join(QUAL_SITE, 'src', 'styles', 'custom.css'),
+    join(siteDir, 'src', 'styles', 'custom.css'),
+  )
 
   // Copy public assets
   const publicDir = join(siteDir, 'public')
