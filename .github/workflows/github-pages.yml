@@ -1,6 +1,10 @@
 # GitHub Pages Mirror Deployment
 # Deploys all sites to GitHub Pages for DA backlink acquisition
 # Canonical tags point to wyattau.com to avoid duplicate content penalty
+#
+# NOTE: This workflow is disabled for now due to deployment issues.
+# The primary deployment is via Cloudflare Pages (deploy.yml).
+# To enable, change the if condition below to 'true'.
 
 name: Deploy to GitHub Pages
 
@@ -26,6 +30,7 @@ concurrency:
 
 jobs:
   build:
+    if: false  # Set to true to enable GitHub Pages deployment
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
