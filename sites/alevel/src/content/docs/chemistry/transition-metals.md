@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Transition Metals", "url": "https://alevel.wyattau.com/chemistry/transition-metals"}]
-}
-</script>
 title: Transition Metals & Analytical Chemistry
 description: "A transition metal is defined as an element that forms at least one stable ion with a . This is the IUPAC definition and the one required by A-Level"
 date: 2026-04-21T00:00:00.000Z

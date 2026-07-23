@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "03 Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication"}, {"name": "Backup And Replication", "url": "https://truenas.wyattau.com/03-backup-and-replication/backup-and-replication"}]
-}
-</script>
 title: Backup and Replication
 description: "The 3-2-1 rule is the minimum standard for data protection: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 

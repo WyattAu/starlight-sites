@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/physics/diagnostics"}, {"name": "Diag Energy", "url": "https://gcse.wyattau.com/physics/diagnostics/diag-energy"}]
-}
-</script>
 title: "Energy -- Diagnostic Tests"
 description: "(a) Describe the energy transfers when a ball is thrown upwards and then caught at the same height. (b) A 0.5 kg ball is thrown vertically upwards at 10"
 tableOfContents: false

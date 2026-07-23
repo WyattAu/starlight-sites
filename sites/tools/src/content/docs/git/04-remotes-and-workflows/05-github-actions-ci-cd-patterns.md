@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "05 Github Actions Ci Cd Patterns", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns"}]
-}
-</script>
 title: GitHub Actions CI/CD Patterns
 description: "GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform Embedded directly into GitHub repositories. Workflows"
 

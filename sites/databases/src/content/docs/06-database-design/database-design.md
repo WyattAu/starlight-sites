@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "06 Database Design", "url": "https://databases.wyattau.com/06-database-design"}, {"name": "Database Design", "url": "https://databases.wyattau.com/06-database-design/database-design"}]
-}
-</script>
 title: Database Design
 description: "Database design is not a one-step activity. It is a disciplined process that moves from abstract Requirements to concrete physical implementation. Skipping"
 tags:

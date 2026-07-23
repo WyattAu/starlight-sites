@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "English", "url": "https://ap.wyattau.com/english"}, {"name": "2 Argument", "url": "https://ap.wyattau.com/english/2-argument"}, {"name": "2_argument", "url": "https://ap.wyattau.com/english/2-argument/2_argument"}]
-}
-</script>
 title: Argument
 description: "An argument is a reasoned attempt to persuade an audience to accept a claim."
 date: 2026-06-04T10:00:00.000Z

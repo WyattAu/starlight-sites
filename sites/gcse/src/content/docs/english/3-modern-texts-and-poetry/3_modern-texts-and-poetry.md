@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "3 Modern Texts And Poetry", "url": "https://gcse.wyattau.com/english/3-modern-texts-and-poetry"}, {"name": "3_modern Texts And Poetry", "url": "https://gcse.wyattau.com/english/3-modern-texts-and-poetry/3_modern-texts-and-poetry"}]
-}
-</script>
 title: Modern Texts and Poetry
 description: "(Poetry) | OCR Paper 2 | WJEC/Eduqas Paper 2 Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-22

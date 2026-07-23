@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "02 Arrays Strings", "url": "https://tools.wyattau.com/algorithms/02-arrays-strings"}, {"name": "Arrays And Strings", "url": "https://tools.wyattau.com/algorithms/02-arrays-strings/arrays-and-strings"}]
-}
-</script>
 title: Arrays and Strings
 description: "An array is a contiguous block of memory where each element occupies a fixed number of bytes and is Indexed by an integer offset from the base address. This"
 

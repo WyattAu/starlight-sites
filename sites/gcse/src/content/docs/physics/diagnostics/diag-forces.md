@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/physics/diagnostics"}, {"name": "Diag Forces", "url": "https://gcse.wyattau.com/physics/diagnostics/diag-forces"}]
-}
-</script>
 title: "Forces -- Diagnostic Tests"
 description: "Content notes."
 tableOfContents: false

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Independent Study", "url": "https://ib.wyattau.com/history/independent-study"}]
-}
-</script>
 title: IB History Independent Study
 description: "Guide to the IB History Extended Essay and Internal Assessment: choosing a research question, methodology, source evaluation, historiographical analysis, essay structure, supervisor meetings, and common pitfalls."
 sidebar_position: 24

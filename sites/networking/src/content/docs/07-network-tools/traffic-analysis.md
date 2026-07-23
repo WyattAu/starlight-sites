@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "07 Network Tools", "url": "https://networking.wyattau.com/07-network-tools"}, {"name": "Traffic Analysis", "url": "https://networking.wyattau.com/07-network-tools/traffic-analysis"}]
-}
-</script>
 title: Traffic Analysis
 description: "Network traffic analysis is the process of capturing, examining, and interpreting network traffic to Troubleshoot problems, detect anomalies, optimize"
 tags:

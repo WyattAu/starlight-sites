@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Fields", "url": "https://alevel.wyattau.com/physics/fields"}, {"name": "Electric Fields Depth", "url": "https://alevel.wyattau.com/physics/fields/electric-fields-depth"}]
-}
-</script>
 title: Electric Fields
 description: "The electrostatic force between two point charges and separated by Distance in v Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-23T00:00:00.000Z

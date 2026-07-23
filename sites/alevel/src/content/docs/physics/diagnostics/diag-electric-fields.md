@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Electric Fields", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-electric-fields"}]
-}
-</script>
 title: "Electric Fields -- Diagnostic Tests"
 description: "A-Level Physics Electric Fields -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false

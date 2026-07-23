@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "3 Inorganic Chemistry", "url": "https://chemistry.wyattau.com/3-inorganic-chemistry"}, {"name": "Main Group Chemistry", "url": "https://chemistry.wyattau.com/3-inorganic-chemistry/main-group-chemistry"}]
-}
-</script>
 title: Main-Group Chemistry
 description: "University Main-Group Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for rigorous review and exam preparation."
 date: 2026-05-31T00:00:00.000Z

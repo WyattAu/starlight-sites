@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Chemistry", "url": "https://gcse.wyattau.com/chemistry"}, {"name": "8 Organic Chemistry", "url": "https://gcse.wyattau.com/chemistry/8-organic-chemistry"}, {"name": "8_organic Chemistry", "url": "https://gcse.wyattau.com/chemistry/8-organic-chemistry/8_organic-chemistry"}]
-}
-</script>
 title: Organic Chemistry
 description: "is the study of carbon compounds. Carbon is unique because each carbon atom Can form four covalent bonds and can bond with other carbon atoms to form chains"
 date: 2026-04-14

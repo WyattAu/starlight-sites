@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "5 Plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology"}, {"name": "1_plant Biology", "url": "https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology"}]
-}
-</script>
 title: Plant Biology
 description: "Photosynthesis is the process by which photoautotrophs (plants, algae, cyanobacteria) convert light Energy into chemical energy stored in organic molecules."
 date: 2026-04-08T00:00:00.000Z

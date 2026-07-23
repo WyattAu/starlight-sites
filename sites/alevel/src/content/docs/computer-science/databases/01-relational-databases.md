@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Databases", "url": "https://alevel.wyattau.com/computer-science/databases"}, {"name": "01 Relational Databases", "url": "https://alevel.wyattau.com/computer-science/databases/01-relational-databases"}]
-}
-</script>
 title: Relational Databases
 description: "A organises data into (tables), each consisting of (rows) with attributes (columns). The model was introduced by E.F. Codd in 1970."
 date: 2025-06-02T16:25:28.480Z

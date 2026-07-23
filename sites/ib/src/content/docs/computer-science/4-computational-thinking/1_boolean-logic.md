@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "1_boolean Logic", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/1_boolean-logic"}]
-}
-</script>
 title: Boolean Logic
 description: "Rigorous IB computer science notes covering Boolean Logic. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

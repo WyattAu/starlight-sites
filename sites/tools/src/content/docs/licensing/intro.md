@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Licensing", "url": "https://tools.wyattau.com/licensing"}, {"name": "Intro", "url": "https://tools.wyattau.com/licensing/intro"}]
-}
-</script>
 title: Introduction to Licensing
 description: "Every piece of software you write, compile, or deploy is subject to copyright law by default. Under The Berne Convention (implemented in the US via the"
 

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "05 Standard Library", "url": "https://languages.wyattau.com/python/05-standard-library"}, {"name": "02 File Io", "url": "https://languages.wyattau.com/python/05-standard-library/02-file-io"}]
-}
-</script>
 title: File I/O
 description: "is the primary interface for file I/O in Python. It returns a file object (an instance of for text mode or / for binary mode) that Provides methods for"
 date: 2026-04-05T00:00:00.000Z

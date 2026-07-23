@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "5 Energetics", "url": "https://ib.wyattau.com/chemistry/5-energetics"}, {"name": "1_thermochemistry", "url": "https://ib.wyattau.com/chemistry/5-energetics/1_thermochemistry"}]
-}
-</script>
 title: Thermochemistry
 description: "Rigorous IB chemistry notes covering Thermochemistry. Includes definitions, derivations, worked examples, and exam-style problems. energy cycles."
 date: 2024-01-01T00:00:00Z

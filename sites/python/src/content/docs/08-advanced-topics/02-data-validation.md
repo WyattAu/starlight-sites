@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "08 Advanced Topics", "url": "https://python.wyattau.com/08-advanced-topics"}, {"name": "02 Data Validation", "url": "https://python.wyattau.com/08-advanced-topics/02-data-validation"}]
-}
-</script>
 title: Data Validation
 description: "Every non-trivial system receives data from sources it does not control: HTTP request bodies parsed From JSON, rows read from CSV files, configuration"
 date: 2026-04-05T00:00:00.000Z

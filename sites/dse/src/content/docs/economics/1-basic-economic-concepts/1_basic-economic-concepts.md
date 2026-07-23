@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "1 Basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts"}, {"name": "1_basic Economic Concepts", "url": "https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts"}]
-}
-</script>
 title: Basic Economic Concepts
 description: "Scarcity is the fundamental economic problem: human wants are unlimited, but the resources available To satisfy those wants are limited. Because resources"
 date: 2026-04-08T00:00:00.000Z

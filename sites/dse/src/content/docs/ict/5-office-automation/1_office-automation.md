@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "5 Office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation"}, {"name": "1_office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation/1_office-automation"}]
-}
-</script>
 title: Office Automation and Productivity
 description: "This document covers spreadsheet concepts, database usage from an end-user perspective, word Processing, presentation software, application integration, and"
 date: 2026-04-08T00:00:00.000Z

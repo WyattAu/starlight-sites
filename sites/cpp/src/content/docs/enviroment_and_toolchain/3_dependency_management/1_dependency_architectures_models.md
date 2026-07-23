@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "1_dependency_architectures_models", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models"}]
-}
-</script>
 title: Dependency Resolution
 description: "Unlike languages with a unified ecosystem (Rust/Cargo, Node/NPM, Python/Pip), C++ does not utilize a Centralized registry or a standard package manager."
 date: 2025-12-11T03:49:07.185Z

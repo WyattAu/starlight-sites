@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Diagnostics", "url": "https://linux.wyattau.com/diagnostics"}, {"name": "Diag Linux", "url": "https://linux.wyattau.com/diagnostics/diag-linux"}]
-}
-</script>
 title: "Diagnostic Test: Linux"
 description: "Self-assessment quiz on Linux fundamentals"
 sidebar_position: 60

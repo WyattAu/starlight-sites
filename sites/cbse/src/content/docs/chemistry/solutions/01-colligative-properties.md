@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Chemistry", "url": "https://cbse.wyattau.com/chemistry"}, {"name": "Solutions", "url": "https://cbse.wyattau.com/chemistry/solutions"}, {"name": "01 Colligative Properties", "url": "https://cbse.wyattau.com/chemistry/solutions/01-colligative-properties"}]
-}
-</script>
 title: "Colligative properties"
 description: "CBSE Class 12 chemistry: Colligative properties"
 ---

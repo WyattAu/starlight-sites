@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Computer Science", "url": "https://ap.wyattau.com/computer-science"}, {"name": "1 Computational Thinking", "url": "https://ap.wyattau.com/computer-science/1-computational-thinking"}, {"name": "1_computational Thinking", "url": "https://ap.wyattau.com/computer-science/1-computational-thinking/1_computational-thinking"}]
-}
-</script>
 title: Computational Thinking
 description: "Computational thinking is a problem-solving approach that involves breaking down complex problems, Finding patterns, abstracting details, and designing"
 date: 2026-04-14

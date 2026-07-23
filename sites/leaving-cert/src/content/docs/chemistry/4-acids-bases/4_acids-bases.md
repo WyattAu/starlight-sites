@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "4 Acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases"}, {"name": "4_acids Bases", "url": "https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases"}]
-}
-</script>
 title: Acids, Bases and Salt Preparation
 description: "This topic covers the properties of acids and bases, pH, strong and weak acids, buffers, and methods Of salt preparation. It is essential for both Ordinary"
 date: 2026-04-14

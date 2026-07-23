@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Probabilisticml", "url": "https://tools.wyattau.com/probabilisticml"}, {"name": "0_intro", "url": "https://tools.wyattau.com/probabilisticml/0_intro"}]
-}
-</script>
 title: Introduction to Probabilistic ML
 description: "Introduction to probabilistic machine learning concepts and methods."
 date: 2026-01-07T07:50:21.312Z

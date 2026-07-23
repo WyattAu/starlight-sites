@@ -1,37 +1,6 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "11 Functional Analysis", "url": "https://mathematics.wyattau.com/11-functional-analysis"}, {"name": "Index", "url": "https://mathematics.wyattau.com/11-functional-analysis/index"}]
-}
-</script>
 
-<!-- Course Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "Functional Analysis",
-  "description": "'Functional Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'",
-  "provider": {
-    "@type": "Organization",
-    "name": "Wyatt's Notes",
-    "url": "https://mathematics.wyattau.com"
-  },
-  "url": "https://mathematics.wyattau.com",
-  "educationalLevel": "Secondary",
-  "inLanguage": "en",
-  "isAccessibleForFree": true,
-  "hasCourseInstance": {
-    "@type": "CourseInstance",
-    "courseMode": "online",
-    "courseWorkload": "PT1H"
-  }
-}
-</script>
 title: Functional Analysis
 tags:
   - Mathematics

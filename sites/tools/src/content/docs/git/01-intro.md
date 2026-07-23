@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "01 Intro", "url": "https://tools.wyattau.com/git/01-intro"}]
-}
-</script>
 title: Introduction to Git
 description: "Git is a (DVCS) designed to track changes in source code During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce — where a"
 date: 2025-06-02T21:50:00.000Z

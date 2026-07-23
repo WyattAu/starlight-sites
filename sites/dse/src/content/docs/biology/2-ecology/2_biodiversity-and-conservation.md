@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "2_biodiversity And Conservation", "url": "https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation"}]
-}
-</script>
 title: Biodiversity and Conservation
 description: "Classification (taxonomy) is the science of grouping organisms based on shared characteristics."
 date: 2026-04-08T00:00:00.000Z

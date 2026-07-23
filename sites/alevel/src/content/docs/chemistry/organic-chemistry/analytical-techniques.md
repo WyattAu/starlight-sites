@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Organic Chemistry", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry"}, {"name": "Analytical Techniques", "url": "https://alevel.wyattau.com/chemistry/organic-chemistry/analytical-techniques"}]
-}
-</script>
 title: Analytical Techniques
 description: "Analytical techniques allow chemists to determine the structure, composition, and purity of organic Compounds. No single technique provides complete"
 date: 2026-04-22T00:00:00.000Z

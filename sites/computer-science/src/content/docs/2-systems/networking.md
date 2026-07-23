@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Systems", "url": "https://computer-science.wyattau.com/2-systems"}, {"name": "Networking", "url": "https://computer-science.wyattau.com/2-systems/networking"}]
-}
-</script>
 title: Networking
 description: "| Layer | Name | Function | Examples | | ----- | ------------ | --------------------------------- | -------------------------- | | 7 | Application | User"
 date: 2026-05-31T00:00:00.000Z

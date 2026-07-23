@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/physics/diagnostics"}, {"name": "Diag Electromagnetism Unification", "url": "https://alevel.wyattau.com/physics/diagnostics/diag-electromagnetism-unification"}]
-}
-</script>
 title: "Electromagnetism Unification -- Diagnostic Tests"
 description: "A-Level Physics Electromagnetism Unification -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

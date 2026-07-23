@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Respiration Depth", "url": "https://alevel.wyattau.com/biology/respiration-depth"}]
-}
-</script>
 title: Respiration (In Depth)
 description: "Cellular respiration is the controlled release of energy from organic molecules ( glucose) to produce ATP. It is an exergonic, enzyme-catalysed process that"
 date: 2026-04-18T00:00:00.000Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Physics", "url": "https://leaving-cert.wyattau.com/physics"}, {"name": "2 Waves", "url": "https://leaving-cert.wyattau.com/physics/2-waves"}, {"name": "2_waves", "url": "https://leaving-cert.wyattau.com/physics/2-waves/2_waves"}]
-}
-</script>
 title: Light and Waves
 description: "This topic covers the wave nature of light, sound, reflection, refraction, diffraction, Interference, and the electromagnetic spectrum. Waves are a major"
 date: 2026-04-14

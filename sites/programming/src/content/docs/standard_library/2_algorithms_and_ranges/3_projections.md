@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Standard_library", "url": "https://programming.wyattau.com/standard_library"}, {"name": "2_algorithms_and_ranges", "url": "https://programming.wyattau.com/standard_library/2_algorithms_and_ranges"}, {"name": "3_projections", "url": "https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/3_projections"}]
-}
-</script>
 title: Projections and Callable Objects
 description: "C++20 projections and callable objects for ranges."
 date: 2026-04-03T00:00:00.000Z

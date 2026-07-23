@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "04 Networking", "url": "https://linux.wyattau.com/04-networking"}, {"name": "Firewalls", "url": "https://linux.wyattau.com/04-networking/firewalls"}]
-}
-</script>
 title: Linux Firewalls
 description: "Netfilter is the Linux kernel subsystem that provides network packet filtering, NAT, and other Packet manipulation. It is the foundation for all Linux"
 

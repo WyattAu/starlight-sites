@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Wwii", "url": "https://dse.wyattau.com/history/wwii"}]
-}
-</script>
 title: "World War II in the Pacific and China"
 description: "Causes and course of WWII in the Pacific and China, the Second Sino-Japanese War, the Battle and Occupation of Hong Kong, and resistance movements during 1937-1945."
 sidebar_position: 1

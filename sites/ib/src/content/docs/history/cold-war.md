@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Cold War", "url": "https://ib.wyattau.com/history/cold-war"}]
-}
-</script>
 title: The Cold War
 date: 2026-05-31
 tags:

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Kinematics", "url": "https://dse.wyattau.com/physics/kinematics"}]
-}
-</script>
 title: Physics - Kinematics
 description: "DSE Physics - Kinematics notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and thorough revision."
 tags: [DSE, Physics]

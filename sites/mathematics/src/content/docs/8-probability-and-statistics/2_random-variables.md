@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "8 Probability And Statistics", "url": "https://mathematics.wyattau.com/8-probability-and-statistics"}, {"name": "2_random Variables", "url": "https://mathematics.wyattau.com/8-probability-and-statistics/2_random-variables"}]
-}
-</script>
 title: Random Variables
 description: 'UNIVERSITY Mathematics notes: Random Variables. Comprehensive study material with definitions, examples, and assessment tools.'
 tags:

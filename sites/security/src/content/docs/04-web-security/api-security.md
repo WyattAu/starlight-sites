@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "04 Web Security", "url": "https://security.wyattau.com/04-web-security"}, {"name": "Api Security", "url": "https://security.wyattau.com/04-web-security/api-security"}]
-}
-</script>
 title: API Security
 description: "REST APIs are stateless by design: each request must contain all information needed for Authentication and authorization. The server does not maintain"
 

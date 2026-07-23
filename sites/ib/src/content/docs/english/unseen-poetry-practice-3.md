@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Unseen Poetry Practice 3", "url": "https://ib.wyattau.com/english/unseen-poetry-practice-3"}]
-}
-</script>
 title: "IB Paper 1 Unseen Poetry Practice: Derek Walcott's A Far Cry from Africa"
 description: "Close reading analysis of Derek Walcott's 'A Far Cry from Africa' for IB English Paper 1. Postcolonial themes, formal verse, cultural tension, and examiner tips for higher marks."
 sidebar_position: 12

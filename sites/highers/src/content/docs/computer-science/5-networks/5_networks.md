@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "5 Networks", "url": "https://highers.wyattau.com/computer-science/5-networks"}, {"name": "5_networks", "url": "https://highers.wyattau.com/computer-science/5-networks/5_networks"}]
-}
-</script>
 title: Web Design and Development
 description: "Scottish Highers Computer Science Web Design and notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-14

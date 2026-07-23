@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science/computer-science"}]
-}
-</script>
 title: Computer Science
 description: "A Level Computer Science sits at the intersection of mathematics, engineering, and philosophy. It Teaches you to think precisely about computation — what"
 date: 2025-06-02T16:25:28.480Z

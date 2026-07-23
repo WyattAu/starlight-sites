@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Historical Investigation And Methodology", "url": "https://ib.wyattau.com/history/historical-investigation-and-methodology"}]
-}
-</script>
 title: Historical Investigation and Methodology
 tags:
   - IB

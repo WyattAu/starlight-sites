@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "1 Structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding"}, {"name": "1_structure Bonding", "url": "https://highers.wyattau.com/chemistry/1-structure-bonding/1_structure-bonding"}]
-}
-</script>
 title: Chemical Reactions and Bonding
 description: "Scottish Highers Chemistry Chemical Reactions and Bonding notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-14

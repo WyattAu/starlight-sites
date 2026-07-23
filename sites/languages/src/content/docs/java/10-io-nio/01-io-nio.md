@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "10 Io Nio", "url": "https://languages.wyattau.com/java/10-io-nio"}, {"name": "01 Io Nio", "url": "https://languages.wyattau.com/java/10-io-nio/01-io-nio"}]
-}
-</script>
 title: I/O, NIO, and the Path API
 description: "Java I/O, NIO, and the Path API notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation."
 date: 2026-04-04T00:00:00.000Z

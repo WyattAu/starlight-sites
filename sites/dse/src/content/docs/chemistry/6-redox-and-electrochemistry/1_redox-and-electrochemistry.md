@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "6 Redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry"}, {"name": "1_redox And Electrochemistry", "url": "https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry"}]
-}
-</script>
 title: Chemistry - Redox and Electrochemistry
 description: "DSE Chemistry - Redox and Electrochemistry notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 date: 2026-04-23T00:00:00.000Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure", "url": "https://alevel.wyattau.com/further-maths/pure"}, {"name": "Matrices And Transformations", "url": "https://alevel.wyattau.com/further-maths/pure/matrices-and-transformations"}]
-}
-</script>
 title: Matrices and Transformations (Extended)
 description: "This document covers matrix operations, determinants, inverses, 3x3 matrices, linear Transformations, and an introduction to eigenvalues and eigenvectors."
 date: 2026-04-23T00:00:00.000Z

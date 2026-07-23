@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "03 Centres Of Mass And Elastic Collisions", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions"}]
-}
-</script>
 title: Centres of Mass and Elastic Collisions
 description: "A-Level Further Maths Centres of Mass and Elastic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-02T00:00:00.000Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Intro", "url": "https://tuning.wyattau.com/intro"}]
-}
-</script>
 title: Introduction to Hardware Tuning
 description: "Hardware tuning reference covering undervolting, overclocking, memory tuning, stress testing Methodology, and platform-specific considerations for Intel,"
 

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "4_hamiltonian Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics/4_hamiltonian-mechanics"}]
-}
-</script>
 title: Hamiltonian Mechanics
 tags:
   - Physics

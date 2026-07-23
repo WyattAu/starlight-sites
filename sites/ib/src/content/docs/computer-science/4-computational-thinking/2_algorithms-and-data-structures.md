@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "4 Computational Thinking", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking"}, {"name": "2_algorithms And Data Structures", "url": "https://ib.wyattau.com/computer-science/4-computational-thinking/2_algorithms-and-data-structures"}]
-}
-</script>
 title: Algorithms and Data Structures
 description: "Rigorous IB computer science notes covering Algorithms and Data Structures. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

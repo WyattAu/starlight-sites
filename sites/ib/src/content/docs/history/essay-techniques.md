@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Essay Techniques", "url": "https://ib.wyattau.com/history/essay-techniques"}]
-}
-</script>
 title: IB History Essay Techniques
 description: "Comprehensive guide to IB History essay writing: command terms, PEEL structure, source analysis frameworks, Paper 1 and Paper 2 strategies, and marking criteria."
 sidebar_position: 20

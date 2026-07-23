@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "01 Cli Fundamentals", "url": "https://linux.wyattau.com/01-cli-fundamentals"}, {"name": "Text Processing", "url": "https://linux.wyattau.com/01-cli-fundamentals/text-processing"}]
-}
-</script>
 title: Text Processing
 description: "Regular expressions are the backbone of text processing on Linux. Three major flavors exist, each With different capabilities and syntax."
 

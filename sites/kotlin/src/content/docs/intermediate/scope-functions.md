@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "kotlin", "url": "https://kotlin.wyattau.com"}, {"name": "Intermediate", "url": "https://kotlin.wyattau.com/intermediate"}, {"name": "Scope Functions", "url": "https://kotlin.wyattau.com/intermediate/scope-functions"}]
-}
-</script>
 title: scope functions
 date: 2026-05-30
 tags:

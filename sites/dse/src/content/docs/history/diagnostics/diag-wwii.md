@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/history/diagnostics"}, {"name": "Diag Wwii", "url": "https://dse.wyattau.com/history/diagnostics/diag-wwii"}]
-}
-</script>
 title: "Diagnostic Test: World War II"
 description: "Self-assessment quiz on WWII in the Pacific and Hong Kong"
 sidebar_position: 10

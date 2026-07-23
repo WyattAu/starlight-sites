@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Go", "url": "https://languages.wyattau.com/go"}, {"name": "Concurrency", "url": "https://languages.wyattau.com/go/concurrency"}, {"name": "Race Conditions", "url": "https://languages.wyattau.com/go/concurrency/race-conditions"}]
-}
-</script>
 title: race conditions
 date: 2026-05-30
 tags:

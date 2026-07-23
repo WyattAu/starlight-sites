@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "06 Internals", "url": "https://tools.wyattau.com/git/06-internals"}, {"name": "02 Packing And Garbage Collection", "url": "https://tools.wyattau.com/git/06-internals/02-packing-and-garbage-collection"}]
-}
-</script>
 title: Packing and Garbage Collection
 description: "Packing and Garbage Collection: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2025-06-03T13:00:00.000Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "2 Macroeconomics", "url": "https://ib.wyattau.com/economics/2-macroeconomics"}, {"name": "4 Supply Side Policy", "url": "https://ib.wyattau.com/economics/2-macroeconomics/4-supply-side-policy"}]
-}
-</script>
 title: Supply-Side Policy
 description: "IB Economics Supply-Side Policy notes covering key definitions, core concepts, worked examples, and practice questions for solid study and thorough revision."
 date: 2026-05-21

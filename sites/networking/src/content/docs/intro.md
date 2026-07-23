@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "Intro", "url": "https://networking.wyattau.com/intro"}]
-}
-</script>
 title: Introduction to Networking
 description: "Every system you operate, deploy, or debug depends on networking. A container cannot reach its Database, a service returns 502 errors, DNS resolution stalls"
 tags:

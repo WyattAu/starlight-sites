@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Function_architecture", "url": "https://cpp.wyattau.com/function_architecture"}, {"name": "1_function_mechanics", "url": "https://cpp.wyattau.com/function_architecture/1_function_mechanics"}, {"name": "5_c_interop", "url": "https://cpp.wyattau.com/function_architecture/1_function_mechanics/5_c_interop"}]
-}
-</script>
 title: C-Interop and FFI
 description: "C++ uses to encode type information into function symbols, enabling overloading. C Does not mangle names — each function has a single symbol matching its"
 date: 2026-04-03T00:00:00.000Z

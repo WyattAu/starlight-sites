@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "03 Object Oriented", "url": "https://java.wyattau.com/03-object-oriented"}, {"name": "01 Classes", "url": "https://java.wyattau.com/03-object-oriented/01-classes"}]
-}
-</script>
 title: Classes and Inheritance
 description: "Java classes and inheritance fundamentals."
 categories: ['java']

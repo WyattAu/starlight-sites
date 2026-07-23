@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "haskell", "url": "https://haskell.wyattau.com"}, {"name": "04 Monads", "url": "https://haskell.wyattau.com/04-monads"}, {"name": "1_monads And Functors", "url": "https://haskell.wyattau.com/04-monads/1_monads-and-functors"}]
-}
-</script>
 title: Monads and Functors
 description: "A monad is a design pattern for structuring computations. In Haskell, a monad wraps a value in a computational context that defines how operations chain"
 date: 2026-06-04T10:00:00.000Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Intro", "url": "https://hsc.wyattau.com/intro"}]
-}
-</script>
 title: Introduction to HSC/VCE Notes
 date: 2026-05-30
 description: "The and the are the two major school-leaving qualifications in Australia. They are awarded upon completion of senior secondary schooling and are the primary"

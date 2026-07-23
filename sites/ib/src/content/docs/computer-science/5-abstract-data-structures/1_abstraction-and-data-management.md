@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "5 Abstract Data Structures", "url": "https://ib.wyattau.com/computer-science/5-abstract-data-structures"}, {"name": "1_abstraction And Data Management", "url": "https://ib.wyattau.com/computer-science/5-abstract-data-structures/1_abstraction-and-data-management"}]
-}
-</script>
 title: Abstraction and Data Management
 description: "Rigorous IB computer science notes covering Abstraction and Data Management. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

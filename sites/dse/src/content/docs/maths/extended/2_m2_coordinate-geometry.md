@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Extended", "url": "https://dse.wyattau.com/maths/extended"}, {"name": "2_m2_coordinate Geometry", "url": "https://dse.wyattau.com/maths/extended/2_m2_coordinate-geometry"}]
-}
-</script>
 title: "M2: Coordinate Geometry"
 description: "The gradient of a line passing through and is: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-06-04T10:00:00.000Z

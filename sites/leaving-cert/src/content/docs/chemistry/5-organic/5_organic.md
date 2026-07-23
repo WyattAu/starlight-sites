@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "5 Organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic"}, {"name": "5_organic", "url": "https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic"}]
-}
-</script>
 title: Organic Chemistry
 description: "ILC Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for effective revision and exam readiness."
 date: 2026-04-14

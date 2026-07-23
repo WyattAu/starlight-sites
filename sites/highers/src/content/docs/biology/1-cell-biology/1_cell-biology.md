@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://highers.wyattau.com/biology/1-cell-biology"}, {"name": "1_cell Biology", "url": "https://highers.wyattau.com/biology/1-cell-biology/1_cell-biology"}]
-}
-</script>
 title: Cell Biology
 description: "Scottish Highers Cell Biology notes covering key definitions, core concepts, worked examples, and practice questions for detailed exam preparation and revision."
 date: 2026-04-14

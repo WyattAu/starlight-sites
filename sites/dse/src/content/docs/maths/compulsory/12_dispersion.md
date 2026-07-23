@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "12_dispersion", "url": "https://dse.wyattau.com/maths/compulsory/12_dispersion"}]
-}
-</script>
 title: Dispersion
 description: "Statistics is the branch of mathematics concerned with the collection, organisation, analysis, and Interpretation of data. In the DSE compulsory syllabus,"
 date: 2025-06-03T16:18:22.480Z

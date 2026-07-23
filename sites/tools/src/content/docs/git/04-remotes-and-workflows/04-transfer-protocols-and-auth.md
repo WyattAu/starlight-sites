@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "04 Transfer Protocols And Auth", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/04-transfer-protocols-and-auth"}]
-}
-</script>
 title: Transfer Protocols and Authentication
 description: "Git communicates with remote repositories over two primary transport protocols: and . Both are widely supported by GitHub, GitLab, Bitbucket, Gitea, and"
 

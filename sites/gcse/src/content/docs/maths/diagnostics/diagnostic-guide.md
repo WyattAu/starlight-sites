@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://gcse.wyattau.com/maths/diagnostics/diagnostic-guide"}]
-}
-</script>
 title: "GCSE Maths -- Diagnostic Guide"
 description: "| Diagnostic File | Topics Covered | Source File | | -------------------------- | ---------------------------------------------------------------------------"
 tableOfContents: false

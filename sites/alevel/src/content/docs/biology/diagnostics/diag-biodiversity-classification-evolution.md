@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biodiversity Classification Evolution", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biodiversity-classification-evolution"}]
-}
-</script>
 title: "Biodiversity, Classification and Evolution -- Diagnostic Tests"
 description: "A-Level Biology Biodiversity, Classification and Evolution notes covering key definitions, core concepts, worked practice questions for diagnostic revision."
 tableOfContents: false

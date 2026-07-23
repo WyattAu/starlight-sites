@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Object_oriented", "url": "https://programming.wyattau.com/object_oriented"}, {"name": "2_runtime_polymorphism", "url": "https://programming.wyattau.com/object_oriented/2_runtime_polymorphism"}, {"name": "1_vtables", "url": "https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/1_vtables"}]
-}
-</script>
 title: Virtual Functions and vtables
 description: "Virtual functions are the foundation of runtime polymorphism in C++. When a member function is Declared The call is resolved at runtime based on the"
 date: 2026-04-03T00:00:00.000Z

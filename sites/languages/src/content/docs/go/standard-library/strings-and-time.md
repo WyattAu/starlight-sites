@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Go", "url": "https://languages.wyattau.com/go"}, {"name": "Standard Library", "url": "https://languages.wyattau.com/go/standard-library"}, {"name": "Strings And Time", "url": "https://languages.wyattau.com/go/standard-library/strings-and-time"}]
-}
-</script>
 title: strings and time
 date: 2026-05-30
 tags:

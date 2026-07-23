@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "11 Generics Reflection", "url": "https://java.wyattau.com/11-generics-reflection"}, {"name": "01 Generics", "url": "https://java.wyattau.com/11-generics-reflection/01-generics"}]
-}
-</script>
 title: Generics and Type Erasure
 description: "Before generics (JDK 5, 2004), the Java collections API worked with . Every retrieval Required a cast, and the compiler could not verify that you were"
 date: 2026-04-04T00:00:00.000Z

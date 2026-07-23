@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "1 Cell Biology", "url": "https://ib.wyattau.com/biology/1-cell-biology"}, {"name": "2_metabolism", "url": "https://ib.wyattau.com/biology/1-cell-biology/2_metabolism"}]
-}
-</script>
 title: Metabolism and Cell Biology
 description: "IB Biology -- enzyme kinetics (Michaelis-Menten, inhibition types), cellular respiration (glycolysis, Krebs cycle, electron transport chain), photosynthesis"
 date: 2024-01-01T00:00:00Z

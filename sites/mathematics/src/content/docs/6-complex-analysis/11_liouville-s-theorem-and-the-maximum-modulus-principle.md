@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "6 Complex Analysis", "url": "https://mathematics.wyattau.com/6-complex-analysis"}, {"name": "11_liouville S Theorem And The Maximum Modulus Principle", "url": "https://mathematics.wyattau.com/6-complex-analysis/11_liouville-s-theorem-and-the-maximum-modulus-principle"}]
-}
-</script>
 title: Liouville's Theorem and the Maximum Modulus Principle
 tags:
   - Mathematics

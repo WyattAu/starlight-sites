@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Setup", "url": "https://truenas.wyattau.com/setup"}, {"name": "Network Proxy", "url": "https://truenas.wyattau.com/setup/network-proxy"}]
-}
-</script>
 title: Network Proxy
 description: "- Obtain a DDNS domain (cloudflare, duckDNS, etc) - Dockge or portainer (prefered to install with custom docker compose as the app image from catalog cause"
 date: 2025-07-25T20:52:26.185Z

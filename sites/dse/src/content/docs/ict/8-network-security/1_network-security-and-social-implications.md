@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "8 Network Security", "url": "https://dse.wyattau.com/ict/8-network-security"}, {"name": "1_network Security And Social Implications", "url": "https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications"}]
-}
-</script>
 title: Network Security and Social Implications
 description: "This document extends the network security and social implications topics covered in with deeper analysis of Threats, security measures, legal frameworks,"
 date: 2026-04-08T00:00:00.000Z

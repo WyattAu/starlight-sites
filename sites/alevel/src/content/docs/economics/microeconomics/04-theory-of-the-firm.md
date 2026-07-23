@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Microeconomics", "url": "https://alevel.wyattau.com/economics/microeconomics"}, {"name": "04 Theory Of The Firm", "url": "https://alevel.wyattau.com/economics/microeconomics/04-theory-of-the-firm"}]
-}
-</script>
 title: Theory of the Firm
 description: "We define the following cost concepts for a firm producing quantity : Comprehensive educational content coverage with definitions and practice problems."
 date: 2025-06-02T16:25:28.480Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "6 Theory Of Computation", "url": "https://computer-science.wyattau.com/6-theory-of-computation"}, {"name": "4_turing Machines", "url": "https://computer-science.wyattau.com/6-theory-of-computation/4_turing-machines"}]
-}
-</script>
 title: Turing Machines
 tags:
   - Computing

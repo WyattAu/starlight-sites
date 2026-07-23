@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Physics", "url": "https://ap.wyattau.com/physics"}, {"name": "7 Circuits", "url": "https://ap.wyattau.com/physics/7-circuits"}, {"name": "7_circuits", "url": "https://ap.wyattau.com/physics/7-circuits/7_circuits"}]
-}
-</script>
 title: Circuits
 description: "Electric current is the rate of flow of charge: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-05-05

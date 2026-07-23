@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
-}
-</script>
 title: "Atomic Structure -- Diagnostic Tests"
 description: "DSE Chemistry Atomic Structure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 tableOfContents: false

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "2 Bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding"}, {"name": "2_bonding", "url": "https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding"}]
-}
-</script>
 title: Bonding
 description: "ILC Chemistry Bonding notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and examination practice."
 date: 2026-04-14

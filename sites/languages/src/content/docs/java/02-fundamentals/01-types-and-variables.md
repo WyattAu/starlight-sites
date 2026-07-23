@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "02 Fundamentals", "url": "https://languages.wyattau.com/java/02-fundamentals"}, {"name": "01 Types And Variables", "url": "https://languages.wyattau.com/java/02-fundamentals/01-types-and-variables"}]
-}
-</script>
 title: Types and Variables
 description: "Java types and variables fundamentals."
 categories: ['java']

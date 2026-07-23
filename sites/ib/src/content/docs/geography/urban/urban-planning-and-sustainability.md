@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Urban", "url": "https://ib.wyattau.com/geography/urban"}, {"name": "Urban Planning And Sustainability", "url": "https://ib.wyattau.com/geography/urban/urban-planning-and-sustainability"}]
-}
-</script>
 title: Urban Planning and Sustainability
 description: "Sustainable urban development seeks to meet the needs of the present urban population without Compromising the ability of future generations to meet their"
 

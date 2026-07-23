@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "7 Particle Physics And Cosmology", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology"}, {"name": "9_beyond The Standard Model", "url": "https://physics.wyattau.com/7-particle-physics-and-cosmology/9_beyond-the-standard-model"}]
-}
-</script>
 title: Beyond the Standard Model
 tags:
   - Physics

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Nuclear And Particle", "url": "https://alevel.wyattau.com/physics/nuclear-and-particle"}, {"name": "Particle Physics", "url": "https://alevel.wyattau.com/physics/nuclear-and-particle/particle-physics"}]
-}
-</script>
 title: Particle Physics
 description: "The Standard Model classifies all known fundamental particles and their interact Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-23T00:00:00.000Z

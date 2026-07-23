@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Haskell", "url": "https://languages.wyattau.com/haskell"}, {"name": "03 Type Classes", "url": "https://languages.wyattau.com/haskell/03-type-classes"}, {"name": "1_type Classes", "url": "https://languages.wyattau.com/haskell/03-type-classes/1_type-classes"}]
-}
-</script>
 title: Type Classes
 description: "Type classes are Haskell' s mechanism for -- defining interfaces that types can implement. Unlike OOP interfaces, type classes are separate from data types"
 date: 2026-06-04T10:00:00.000Z

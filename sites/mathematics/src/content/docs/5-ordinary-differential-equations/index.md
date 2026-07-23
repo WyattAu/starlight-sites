@@ -1,37 +1,6 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "5 Ordinary Differential Equations", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations"}, {"name": "Index", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations/index"}]
-}
-</script>
 
-<!-- Course Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "Differential Equations",
-  "description": "'Differential Equations: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'",
-  "provider": {
-    "@type": "Organization",
-    "name": "Wyatt's Notes",
-    "url": "https://mathematics.wyattau.com"
-  },
-  "url": "https://mathematics.wyattau.com",
-  "educationalLevel": "Secondary",
-  "inLanguage": "en",
-  "isAccessibleForFree": true,
-  "hasCourseInstance": {
-    "@type": "CourseInstance",
-    "courseMode": "online",
-    "courseWorkload": "PT1H"
-  }
-}
-</script>
 title: Differential Equations
 tags:
   - Mathematics

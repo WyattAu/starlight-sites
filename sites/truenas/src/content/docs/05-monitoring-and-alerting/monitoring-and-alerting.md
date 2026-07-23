@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "05 Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting"}, {"name": "Monitoring And Alerting", "url": "https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alerting"}]
-}
-</script>
 title: Monitoring and Alerting
 description: "The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems."
 

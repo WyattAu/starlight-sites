@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Practical Skills", "url": "https://alevel.wyattau.com/physics/practical-skills"}, {"name": "02 Experimental Design", "url": "https://alevel.wyattau.com/physics/practical-skills/02-experimental-design"}]
-}
-</script>
 title: Experimental Design
 description: "An independent variable is the variable that is deliberately manipulated or changed By the experimenter to observe its effect on the dependent variable."
 date: 2025-06-02T16:25:28.480Z

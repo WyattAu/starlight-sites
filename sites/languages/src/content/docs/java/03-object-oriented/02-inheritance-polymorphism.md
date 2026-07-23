@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "03 Object Oriented", "url": "https://languages.wyattau.com/java/03-object-oriented"}, {"name": "02 Inheritance Polymorphism", "url": "https://languages.wyattau.com/java/03-object-oriented/02-inheritance-polymorphism"}]
-}
-</script>
 title: Inheritance and Polymorphism
 description: "Java inheritance and polymorphism fundamentals."
 ---

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Elixir", "url": "https://languages.wyattau.com/elixir"}, {"name": "03 Concurrency", "url": "https://languages.wyattau.com/elixir/03-concurrency"}, {"name": "1_concurrency Otp", "url": "https://languages.wyattau.com/elixir/03-concurrency/1_concurrency-otp"}]
-}
-</script>
 title: Concurrency and OTP
 description: "Elixir concurrency and OTP fundamentals."
 date: 2026-06-04T10:00:00.000Z

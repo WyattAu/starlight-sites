@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "09 Jvm Internals", "url": "https://languages.wyattau.com/java/09-jvm-internals"}, {"name": "01 Class Loading Memory", "url": "https://languages.wyattau.com/java/09-jvm-internals/01-class-loading-memory"}]
-}
-</script>
 title: Class Loading and Memory Model
 description: "Java class loading and memory model."
 categories: ["java"]

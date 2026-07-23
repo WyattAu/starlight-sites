@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "7 Plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology"}, {"name": "1_plant Biology", "url": "https://ib.wyattau.com/biology/7-plant-biology/1_plant-biology"}]
-}
-</script>
 title: Plant Biology
 description: "Rigorous IB biology notes covering Plant Biology. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

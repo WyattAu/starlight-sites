@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "History", "url": "https://ap.wyattau.com/history"}, {"name": "3 Period 5", "url": "https://ap.wyattau.com/history/3-period-5"}, {"name": "3_period 5", "url": "https://ap.wyattau.com/history/3-period-5/3_period-5"}]
-}
-</script>
 title: Period 5 (1844-1877)
 description: "The idea of -- the belief that the United States was divinely ordained to expand across the North American continent -- drove westward expansion in the"
 date: 2026-06-04T10:00:00.000Z

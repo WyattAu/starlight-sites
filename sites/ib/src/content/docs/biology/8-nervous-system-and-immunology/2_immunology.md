@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "8 Nervous System And Immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology"}, {"name": "2_immunology", "url": "https://ib.wyattau.com/biology/8-nervous-system-and-immunology/2_immunology"}]
-}
-</script>
 title: Immunology
 description: "IB Biology — innate immunity, adaptive immunity, antibody structure and classes, T-cell and B-cell activation, immunological memory, vaccines, ELISA,"
 date: 2024-01-01T00:00:00Z

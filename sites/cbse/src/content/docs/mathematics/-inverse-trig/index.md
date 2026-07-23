@@ -1,37 +1,6 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Mathematics", "url": "https://cbse.wyattau.com/mathematics"}, {"name": " Inverse Trig", "url": "https://cbse.wyattau.com/mathematics/-inverse-trig"}, {"name": "Index", "url": "https://cbse.wyattau.com/mathematics/-inverse-trig/index"}]
-}
-</script>
 
-<!-- Course Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "Inverse Trigonometric Functions",
-  "description": "CBSE Class 12 mathematics: Inverse trigonometric functions, properties, and worked examples.",
-  "provider": {
-    "@type": "Organization",
-    "name": "Wyatt's Notes",
-    "url": "https://cbse.wyattau.com"
-  },
-  "url": "https://cbse.wyattau.com",
-  "educationalLevel": "Secondary",
-  "inLanguage": "en",
-  "isAccessibleForFree": true,
-  "hasCourseInstance": {
-    "@type": "CourseInstance",
-    "courseMode": "online",
-    "courseWorkload": "PT1H"
-  }
-}
-</script>
 title: "Inverse Trigonometric Functions"
 description: "CBSE Class 12 mathematics: Inverse trigonometric functions, properties, and worked examples."
 ---

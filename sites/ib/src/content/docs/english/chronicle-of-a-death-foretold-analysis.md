@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Chronicle Of A Death Foretold Analysis", "url": "https://ib.wyattau.com/english/chronicle-of-a-death-foretold-analysis"}]
-}
-</script>
 title: Chronicle of a Death Foretold — Close Reading and Analysis
 tags:
   - IB
