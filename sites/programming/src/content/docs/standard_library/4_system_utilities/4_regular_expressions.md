@@ -573,6 +573,8 @@ Index `-1`.
 - [Random Number Generation](./3_random_numbers.md)
 
 
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+
 ## Summary
 
 This topic covers the essential concepts and techniques related to regular expressions, including

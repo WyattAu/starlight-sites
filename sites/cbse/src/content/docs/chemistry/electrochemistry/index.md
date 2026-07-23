@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Electrochemistry with worked examples, pr
 }
 </script>
 
-# Electrochemistry
+## Electrochemistry
 
 Electrochemistry deals with the relationship between electrical energy and chemical reactions. It covers galvanic cells, electrolysis, conductance, and electrode potentials.
 

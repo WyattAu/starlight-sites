@@ -258,3 +258,6 @@ In linear magnetic materials, $\mathbf{B} = \mu \mathbf{H}$, so they are paralle
 - **[Maxwell's Equations](1_maxwell-s-equations.md)**: Magnetostatics is the time-independent limit of Maxwell's equations, where Faraday's law and the displacement current vanish.
 - **[Electrodynamics](4_electrodynamics.md)**: Electrodynamics extends magnetostatics to include time-varying fields and induction effects.
 - **[Solid State Physics: Electronic Band Structure](../6-solid-state-physics/5_electronic-band-structure.md)**: Magnetic properties of materials arise from electron band structure and exchange interactions.
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

@@ -28,7 +28,7 @@ description: "A-Level History Weimar and Nazi Germany 1918-1945 notes covering k
 }
 </script>
 
-# Weimar and Nazi Germany 1918-1945
+## Weimar and Nazi Germany 1918-1945
 
 The collapse of Imperial Germany, the turbulent Weimar Republic, and the rise and fall of the Nazi
 state represent one of the most studied and consequential periods in modern history.

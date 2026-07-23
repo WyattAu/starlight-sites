@@ -465,7 +465,7 @@ Mathematics provides the language for describing patterns, relationships, and ch
 
 ## Cross-References
 
-- [Algebra](/docs/alevel/mathematics/algebra)
-- [Calculus](/docs/alevel/mathematics/calculus)
-- [Statistics](/docs/alevel/mathematics/statistics)
-- [Trigonometry](/docs/alevel/mathematics/trigonometry)
+- [Algebra](/mathematics/algebra)
+- [Calculus](/mathematics/calculus)
+- [Statistics](/mathematics/statistics)
+- [Trigonometry](/mathematics/trigonometry)

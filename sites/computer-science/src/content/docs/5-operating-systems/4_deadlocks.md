@@ -240,3 +240,6 @@ is Overly restrictive.
 - **[Process Management](./2_process-management.md):** Process scheduling and lifecycle.
 - **[I/O Systems](./7_i-o-systems.md):** I/O resource allocation and deadlock.
 
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

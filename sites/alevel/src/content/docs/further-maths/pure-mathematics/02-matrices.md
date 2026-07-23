@@ -991,17 +991,17 @@ $\boxed{\lambda = 2 \text{ and } \lambda = 3}$
 ### 11.1 Matrices and complex numbers
 
 Complex eigenvalues lead to rotation-scaling transformations. See
-[Complex Numbers](/docs/alevel/further-maths/pure-mathematics/further-complex-numbers).
+[Complex Numbers](/further-maths/pure-mathematics/further-complex-numbers).
 
 ### 11.2 Matrices and vectors
 
 The cross product can be written as a matrix multiplication. See
-[Vectors in 3D](/docs/alevel/further-maths/pure-mathematics/further-vectors).
+[Vectors in 3D](/further-maths/pure-mathematics/further-vectors).
 
 ### 11.3 Matrices and further algebra
 
 Cayley--Hamilton connects matrices to polynomial algebra. See
-[Further Algebra](/docs/alevel/further-maths/pure-mathematics/further-algebra).
+[Further Algebra](/further-maths/pure-mathematics/further-algebra).
 
 ---
 

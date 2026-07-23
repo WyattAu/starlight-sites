@@ -54,10 +54,10 @@ There. One hook file delegates to many.
 ### Installing the Framework
 
 ```bash
-# Install via pip
+## Install via pip
 $ pip install pre-commit
 
-# Verify
+## Verify
 $ pre-commit --version
 pre-commit 3.7.1
 ```

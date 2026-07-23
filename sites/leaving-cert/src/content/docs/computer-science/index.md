@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Irish LC Computer Science
+## Irish LC Computer Science
 
 Leaving Certificate Computer Science covers hardware, programming, databases, networking, and
 computational thinking. The course combines theoretical computer science with practical software

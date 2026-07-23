@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Group 15, 16, 17, and 18 elements with pr
 }
 </script>
 
-# P-Block Elements
+## P-Block Elements
 
 P-block elements have their outermost electrons in p-orbitals. This topic covers Groups 15 (nitrogen family), 16 (oxygen family), 17 (halogens), and 18 (noble gases).
 

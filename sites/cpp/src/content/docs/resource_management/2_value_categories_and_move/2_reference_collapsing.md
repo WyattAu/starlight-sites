@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Reference Collapsing and Forwarding References
+## Reference Collapsing and Forwarding References
 
 Reference collapsing is the template mechanism that enables a single function template to accept
 Both lvalues and rvalues while preserving their original value category. Combined with

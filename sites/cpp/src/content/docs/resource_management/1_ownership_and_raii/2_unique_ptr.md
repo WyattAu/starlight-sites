@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Unique Ownership (std::unique_ptr) and EBO
+## Unique Ownership (std::unique_ptr) and EBO
 
 `std::unique_ptr` is the default smart pointer for exclusive ownership of heap-allocated objects. It
 Is zero-overhead relative to a raw pointer, supports custom deleters with Empty Base Optimization,

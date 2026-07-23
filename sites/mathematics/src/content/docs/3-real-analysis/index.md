@@ -72,7 +72,7 @@ description: "Real analysis reconstructs the calculus on a rigorous foundation. 
 }
 </script>
 
-# Real Analysis
+## Real Analysis
 
 Real analysis reconstructs the calculus on a rigorous foundation. Where the
 introductory calculus takes the real numbers, limits, and continuity as
@@ -161,3 +161,6 @@ Many proofs in real analysis implicitly rely on the Archimedean property (for an
 - **[Linear Algebra](../../2-linear-algebra/index.md):** Metric spaces and normed spaces.
 - **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Extensions to several variables.
 - **[Measure Theory](../../10-measure-theory/index.md):** Lebesgue integration extending Riemann integration.
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

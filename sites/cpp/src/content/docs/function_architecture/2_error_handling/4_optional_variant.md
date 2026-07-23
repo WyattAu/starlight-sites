@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Algebraic Error Handling
+## Algebraic Error Handling
 
 `std::optional` and `std::variant` are stack-allocated, type-safe alternatives to exceptions for
 Representing values that may be absent or that may hold one of several alternative types.

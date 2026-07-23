@@ -74,10 +74,10 @@ Algorithm.
 ### Enabling SHA-256
 
 ```bash
-# Initialize a new repository with SHA-256
+## Initialize a new repository with SHA-256
 $ git init --object-format=sha256
 
-# Configure globally for new repositories
+## Configure globally for new repositories
 $ git config --global init.defaultObjectFormat sha256
 
 # Check the hash algorithm of an existing repository (0=SHA-1, 1=SHA-256)

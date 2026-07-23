@@ -65,9 +65,9 @@ Common permission sets:
 ### Viewing Permissions
 
 ```bash
-# Long listing shows permissions, owner, group
+## Long listing shows permissions, owner, group
 ls -la /etc/passwd
-# -rw-r--r-- 1 root root 2847 Jan 15 10:30 /etc/passwd
+## -rw-r--r-- 1 root root 2847 Jan 15 10:30 /etc/passwd
 
 # Numeric view
 stat -c "%a %n' /etc/passwd

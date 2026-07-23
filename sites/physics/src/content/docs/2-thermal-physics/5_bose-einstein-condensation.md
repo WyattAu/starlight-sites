@@ -170,3 +170,8 @@ Bose-Einstein condensation is the ultimate quantum overcrowding. When bosonic at
 - **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: The grand canonical ensemble is the natural framework for deriving Bose-Einstein and Fermi-Dirac distributions.
 - **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature.md)**: The contrast between Bose and Fermi statistics leads to fundamentally different low-temperature behaviours.
 
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

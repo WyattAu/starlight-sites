@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Carbonyl Compounds
+## Carbonyl Compounds
 
 Carbonyl compounds contain the C=O functional group. The carbonyl carbon is $sp^2$ hybridised with
 Trigonal planar geometry. The oxygen is more electronegative than carbon, creating a polar bond

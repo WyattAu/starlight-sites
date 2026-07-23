@@ -23,7 +23,7 @@ tableOfContents: false
 }
 </script>
 
-# Diagnostic Test: Physics
+## Diagnostic Test: Physics
 
 10 multiple-choice questions covering mechanics, electricity, waves, nuclear physics, and thermal physics. Select the best answer for each question, then check your score using the answer key below.
 

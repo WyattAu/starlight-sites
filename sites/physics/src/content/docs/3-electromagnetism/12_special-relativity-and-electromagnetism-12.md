@@ -158,3 +158,8 @@ width $\sim 1/\gamma$ around the plane perpendicular to the motion. This is the 
 - [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The plane-wave solutions and energy-momentum tensor provide the starting point for the covariant field analysis.
 - [Special Relativity and Electromagnetism (Ch. 7)](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The field tensor and Lorentz transformation laws are developed in detail in the earlier chapter on special relativity.
 - [Radiation from Accelerating Charges](/physics/3-electromagnetism/10_radiation-from-accelerating-charges) -- The synchrotron radiation patterns arise from the field configurations of ultrarelativistic charges treated here.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Biology Diagnostic: Human Physiology
+## DSE Biology Diagnostic: Human Physiology
 
 ## Unit Test 1: Digestion and Villi Adaptations
 

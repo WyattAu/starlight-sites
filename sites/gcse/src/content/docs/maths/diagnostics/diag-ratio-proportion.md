@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Ratio, Proportion, and Rates of Change — Diagnostic Tests
+## Ratio, Proportion, and Rates of Change — Diagnostic Tests
 
 ## Unit Tests
 

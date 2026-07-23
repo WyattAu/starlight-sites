@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Chemical Reactions and Bonding
+## Chemical Reactions and Bonding
 
 ## Higher Chemical Bonding
 

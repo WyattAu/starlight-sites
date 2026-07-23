@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Werner's theory, IUPAC naming, isomerism,
 }
 </script>
 
-# Coordination Compounds
+## Coordination Compounds
 
 Coordination compounds contain a central metal atom/ion bonded to ligands through coordinate bonds. They are fundamental to analytical chemistry, catalysis, and bioinorganic chemistry.
 

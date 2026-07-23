@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Calling Conventions and Stack Management
+## Calling Conventions and Stack Management
 
 The C++ Standard does not prescribe a calling convention [N4950 §8.4.4]. On x86-64 Linux and macOS,
 The **System V AMD64 ABI** governs how functions pass arguments, return values, and manage the
@@ -756,6 +756,10 @@ Register arguments must be written to memory before the callee can access them.
 
 - [Overload Resolution](1_overload_resolution.md)
 - [C-Interop and FFI](5_c_interop.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Summary
 

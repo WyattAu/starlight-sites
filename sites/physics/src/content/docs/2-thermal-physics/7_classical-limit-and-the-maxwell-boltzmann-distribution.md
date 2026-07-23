@@ -209,3 +209,8 @@ The Maxwell-Boltzmann distribution is what quantum statistics looks like when pa
 - **[Statistical Mechanics](2_statistical-mechanics.md)**: The partition function approach to statistical mechanics reduces to the classical result when the thermal wavelength is small.
 - **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: The classical limit simplifies the grand partition function to recover the Maxwell-Boltzmann ideal gas.
 
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

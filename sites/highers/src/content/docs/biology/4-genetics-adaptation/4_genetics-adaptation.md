@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Genetics and Adaptation
+## Genetics and Adaptation
 
 <aside class="starlight-aside starlight-aside--note">
 ## Molecular Genetics

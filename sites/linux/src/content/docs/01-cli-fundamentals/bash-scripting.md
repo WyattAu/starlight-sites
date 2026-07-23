@@ -50,12 +50,12 @@ Three test constructs exist, with important differences:
 | Empty string safety | Requires quoting   | Safe without quotes |
 
 ```bash
-# POSIX test — requires quoting
+## POSIX test — requires quoting
 [ -f "$file" ] && echo "exists"
 [ "$var" = "value" ]
 [ "$n" -eq 5 ]
 
-# Bash test — no quoting required for most cases
+## Bash test — no quoting required for most cases
 [[ -f $file ]] && echo "exists"
 [[ $var == "value" ]]
 [[ $n -eq 5 ]]

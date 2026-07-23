@@ -72,13 +72,13 @@ The following configuration demonstrates how to fetch GoogleTest 1.14.0 and regi
 ```cmake
 include(FetchContent)
 
-# 1. Declare Dependency
+## 1. Declare Dependency
 FetchContent_Declare(
   googletest
   URL https://github.com/google/googletest/archive/refs/tags/v1.14.0.zip
 )
 
-# 2. Make available (downloads and adds targets)
+## 2. Make available (downloads and adds targets)
 # setting INSTALL_GTEST=OFF prevents installing GTest when running 'make install' on the project
 set(INSTALL_GTEST OFF CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)

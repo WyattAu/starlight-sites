@@ -112,9 +112,9 @@ Consider a linear dependency chain: **App $\to$ Engine $\to$ Core**.
 ### Scenario A: Strict Encapsulation (Private)
 
 ```cmake
-# Core/CMakeLists.txt
+## Core/CMakeLists.txt
 add_library(Core src/core.cpp)
-# Core uses OpenSSL internally.
+## Core uses OpenSSL internally.
 target_link_libraries(Core PRIVATE OpenSSL::Crypto)
 ```
 
@@ -719,6 +719,10 @@ The following table lists commonly used generator expressions for property propa
 - [vcpkg](3_vcpkg.md) -- How vcpkg manages property propagation for installed packages
 - [CPM.cmake](2_cpm.md) -- How `add_subdirectory` merges dependency properties
 - [Binary Caching](6_binary_caching.md) -- Binary artifacts and their dependency metadata
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Intuition
 

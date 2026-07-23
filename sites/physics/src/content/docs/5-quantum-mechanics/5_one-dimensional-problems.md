@@ -378,6 +378,11 @@ One-dimensional quantum problems are the laboratory where quantum weirdness beco
 - **[Operators and Observables](4_operators-and-observables.md)**: Operators like the Hamiltonian act on wave functions to extract energy eigenvalues.
 - **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom.md)**: The hydrogen atom extends 1D techniques to three dimensions with central potentials.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ### 5.7 Common Mistakes
 
 **Mistake 1: Assuming energy quantisation always occurs**

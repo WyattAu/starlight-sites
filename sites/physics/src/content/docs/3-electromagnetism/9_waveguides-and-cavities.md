@@ -161,6 +161,10 @@ TE$_{101}$ at 9.01 GHz is closest to 10 GHz. Fine-tuning the dimensions or inser
 - [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The phase velocity exceeding $c$ in waveguides is consistent with special relativity because only the group velocity carries information.
 - [Lasers](/physics/4-optics-and-waves/9_lasers) -- Laser cavities are optical resonators governed by the same standing-wave and quality-factor principles as microwave cavities.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+
 ## Key Relationships
 
 - **Cutoff frequency determines single-mode operation:** For a waveguide with $a > b$, the TE$_{10}$ mode has the lowest cutoff. Operating between $f_{c,10}$ and the next higher cutoff ensures only one mode propagates, avoiding modal dispersion.

@@ -78,10 +78,10 @@ Variable. This follows the **Provider Model**.
 Useful for sharing builds between different projects on the same disk.
 
 ```bash
-# Windows
+## Windows
 $env:VCPKG_BINARY_SOURCES="clear;files,C:\vcpkg-cache,readwrite"
 
-# Linux/macOS
+## Linux/macOS
 export VCPKG_BINARY_SOURCES="clear;files,/var/cache/vcpkg,readwrite"
 ```
 
@@ -490,3 +490,5 @@ Binary caching stores pre-compiled packages to avoid rebuilding dependencies. vc
 - [[enviroment_and_toolchain/2_build_system/4_build_caching.mdx]] - Build-level caching
 - [[enviroment_and_toolchain/3_dependency_management/3_vcpkg.md]] - vcpkg binary caching
 - [[enviroment_and_toolchain/3_dependency_management/4_conan.md]] - Conan binary packages
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)

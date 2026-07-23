@@ -201,7 +201,7 @@ Strategy. It produces identical merge results but with significant improvements:
 - **Memory usage**: Lower peak memory consumption.
 
 ```bash
-# Explicitly use ort (it's the default in Git 2.34+)
+## Explicitly use ort (it's the default in Git 2.34+)
 $ git merge -s ort feature-auth
 ```
 
@@ -240,7 +240,7 @@ The markers are:
 3. **Complete the merge** with `git commit` (or `git merge --continue` for ongoing merges).
 
 ```bash
-# See which files are conflicted
+## See which files are conflicted
 $ git status
 both modified:   src/auth.c
 

@@ -21,7 +21,7 @@ description: "CBSE Class 12 mathematics: Types of relations with reflexive, symm
 }
 </script>
 
-# Types of Relations
+## Types of Relations
 
 A relation $R$ from a set $A$ to a set $B$ is a subset of the Cartesian product $A \times B$. If $(a, b) \in R$, we write $aRb$ and say "$a$ is related to $b$ by $R$."
 

@@ -555,3 +555,7 @@ A universe with no boundary can be finite or infinite. For example, a closed uni
 - **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: Baryon number conservation and its possible violation are essential for understanding the matter-antimatter asymmetry.
 - **[Running Coupling Constants](7-particle-physics-and-cosmology/6_running-coupling-constants.md)**: The running of coupling constants affects the physics of the early universe and primordial nucleosynthesis.
 - **[Advanced Topics in Cosmology](7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology.md)**: Dark matter halos, the Sachs-Wolfe effect, and topological defects extend the basic cosmological framework.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

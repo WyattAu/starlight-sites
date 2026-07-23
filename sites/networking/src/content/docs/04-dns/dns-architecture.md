@@ -135,10 +135,10 @@ Than the current value on all slaves.
 Synchronization or when the slave is far behind.
 
 ```bash
-# Perform a full zone transfer with dig
+## Perform a full zone transfer with dig
 dig axfr example.com @ns1.example.com
 
-# With TSIG authentication
+## With TSIG authentication
 dig axfr example.com @ns1.example.com tsig-key.example.com
 ```
 

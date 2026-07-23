@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Constraint Subsumption and Overload Resolution
+## Constraint Subsumption and Overload Resolution
 
 When multiple constrained function templates are viable for a call, the compiler uses
 **subsumption** --- a partial ordering on constraints --- to select the most constrained candidate.

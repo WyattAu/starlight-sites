@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Drugs, food additives, cleansing agents, 
 }
 </script>
 
-# Chemistry in Everyday Life
+## Chemistry in Everyday Life
 
 This topic covers the chemistry behind drugs, food additives, detergents, and other everyday products.
 

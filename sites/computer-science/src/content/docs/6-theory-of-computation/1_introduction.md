@@ -158,3 +158,6 @@ Theory of computation asks: what can computers do, and how efficiently? The hier
 - [Context-Free Languages](/computer-science/6-theory-of-computation/3_context-free-languages)
 - [Turing Machines](/computer-science/6-theory-of-computation/4_turing-machines)
 
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

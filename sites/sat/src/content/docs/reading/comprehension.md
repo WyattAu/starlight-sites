@@ -21,7 +21,7 @@ description: "SAT reading: Comprehension"
 }
 </script>
 
-# Comprehension
+## Comprehension
 
 SAT reading study notes - Comprehension
 

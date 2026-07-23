@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Transition metals, properties, compounds,
 }
 </script>
 
-# D-Block Elements
+## D-Block Elements
 
 D-block elements (transition metals) have partially filled d-orbitals. They exhibit variable oxidation states, colored compounds, catalytic properties, and complex formation.
 

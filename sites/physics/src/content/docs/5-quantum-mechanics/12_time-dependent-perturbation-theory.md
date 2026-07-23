@@ -165,3 +165,8 @@ Time-dependent perturbation theory treats external influences as small disturban
 - **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: Time-dependent perturbation theory builds on the Schrodinger equation for time evolution.
 - **[Operators and Observables](4_operators-and-observables.md)**: Matrix elements of operators determine transition rates and selection rules.
 - **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom.md)**: Angular momentum theory provides the selection rules for electric dipole transitions.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

@@ -260,10 +260,10 @@ Paths for `&lt;&gt;`Then user include paths for `""`).
 The BMI for a header unit is named after the header path:
 
 ```bash
-# Clang generates BMIs with a path-based naming scheme
+## Clang generates BMIs with a path-based naming scheme
 clang++ -std=c++23 --precompile header_unit.hpp -o header_unit.hpp.pcm
 
-# MSVC uses an .ifc file alongside the header
+## MSVC uses an .ifc file alongside the header
 ```
 
 ### Clang Command Line

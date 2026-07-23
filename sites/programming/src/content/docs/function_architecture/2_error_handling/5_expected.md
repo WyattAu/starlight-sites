@@ -26,7 +26,7 @@ categories:
 }
 </script>
 
-# Monadic Error Handling (`std::expected`)
+## Monadic Error Handling (`std::expected`)
 
 `std::expected<T, E>` [N4950 §19.8], introduced in C++23, is a monadic type that holds either a
 Value of type `T` or an error of type `E`. It is the C++ equivalent of Rust's `Result<T, E>`.
@@ -810,6 +810,8 @@ int main() {
 - [Algebraic Error Handling — std::optional and std::variant](4_optional_variant.md)
 - [The noexcept Specifier](3_noexcept.md)
 - [Exception Safety Guarantees](2_exception_safety.md)
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Summary
 

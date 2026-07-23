@@ -29,12 +29,12 @@ description: "The traditional DNS resolver configuration file: Comprehensive edu
 The traditional DNS resolver configuration file:
 
 ```ini
-# /etc/resolv.conf
+## /etc/resolv.conf
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 nameserver 1.1.1.1
 
-# Search domains appended to unqualified names
+## Search domains appended to unqualified names
 search example.com internal.example.com
 
 # Sortlist for address ordering (rarely used)

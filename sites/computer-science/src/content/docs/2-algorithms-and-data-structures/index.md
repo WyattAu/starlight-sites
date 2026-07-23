@@ -72,7 +72,7 @@ tags:
 }
 </script>
 
-# Algorithms and Data Structures
+## Algorithms and Data Structures
 
 Algorithms and data structures form the core of practical computer science. An algorithm is a step-by-step procedure for solving a problem, while a data structure is an organised format for storing and manipulating data. The choice of data structure directly affects the efficiency of the algorithms that operate on it, making the study of both topics inseparable.
 
@@ -153,3 +153,6 @@ Each section includes:
 - **[Algorithm Analysis](./1_algorithm-analysis.md):** Formal complexity analysis for the algorithms studied here.
 - **[Dynamic Programming](./5_dynamic-programming.md):** Memoisation and tabulation patterns for optimisation problems.
 - **[Systems](../../2-systems/index.md):** Hardware systems that affect real-world algorithm performance.
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

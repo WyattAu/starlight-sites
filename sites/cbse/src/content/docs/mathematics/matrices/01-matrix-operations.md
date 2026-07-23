@@ -21,7 +21,7 @@ description: "CBSE Class 12 mathematics: Matrix operations with multiplication, 
 }
 </script>
 
-# Matrix operations
+## Matrix operations
 
 Study notes for CBSE Class 12 mathematics - Matrix operations.
 

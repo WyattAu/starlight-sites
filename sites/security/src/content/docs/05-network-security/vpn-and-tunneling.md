@@ -54,7 +54,7 @@ WireGuard uses **cryptokey routing**: each peer has a public/private key pair, a
 Allowed IP addresses define which packets are routed through the tunnel.
 
 ```ini
-# /etc/wireguard/wg0.conf (server)
+## /etc/wireguard/wg0.conf (server)
 
 [Interface]
 PrivateKey = <server_private_key>
@@ -64,7 +64,7 @@ PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o
 PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
 
 [Peer]
-# Client 1
+## Client 1
 PublicKey = <client1_public_key>
 AllowedIPs = 10.0.0.2/32
 

@@ -117,6 +117,11 @@ product.
 - **[Bounded Linear Operators](./3_bounded-linear-operators.md)**: Develops the theory of continuous linear maps on Hilbert spaces, where the adjoint operator plays a central role.
 - **[Compact Operators](./5_compact-operators.md)**: Uses the spectral theorem for compact self-adjoint operators on Hilbert spaces to decompose operators via orthonormal bases.
 
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
 ## Intuition
 
 Inner product spaces generalise the dot product to abstract vector spaces, enabling notions of angle and orthogonality. An inner product measures how aligned two vectors are, with zero indicating perpendicularity. The Cauchy-Schwarz inequality bounds this alignment, and the parallelogram law characterises exactly which norms arise from inner products. Hilbert spaces are complete inner product spaces, and the Riesz representation theorem guarantees that every continuous linear functional on a Hilbert space is itself given by an inner product. This self-referential structure, where a space is isometrically isomorphic to its dual, is what makes Hilbert spaces the natural home for quantum states, Fourier series, and least-squares approximation.

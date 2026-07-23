@@ -24,6 +24,10 @@ description: 'Runs directly on hardware. Examples: VMware ESXi, Xen, Hyper-V. Co
 }
 </script>
 
+## See Also
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
 ## Intuition
 
 Virtualization lets **one physical machine act as many** by sharing hardware resources across multiple isolated environments. The key insight is that most hardware is idle most of the time — virtualization exploits this by letting multiple operating systems share the same CPU, memory, and I/O devices.

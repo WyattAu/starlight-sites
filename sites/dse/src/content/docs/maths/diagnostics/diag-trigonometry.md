@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Trigonometry — Diagnostic Tests
+## Trigonometry — Diagnostic Tests
 
 ## Unit Tests
 

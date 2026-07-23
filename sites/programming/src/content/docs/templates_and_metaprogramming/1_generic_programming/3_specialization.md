@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Explicit and Partial Specialization
+## Explicit and Partial Specialization
 
 Specialization allows you to provide alternative implementations for specific sets of template
 Arguments. **Full specialization** replaces the primary template entirely for a specific type, while
@@ -870,6 +870,10 @@ int main() {
 - [Argument Deduction (Class and Function)](./2_argument_deduction.md)
 - [Dependent Names and Two-Phase Lookup](./4_dependent_names.md)
 - [Type Traits and Static Reflection Patterns](../3_compile_time_computation/4_type_traits.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Summary
 

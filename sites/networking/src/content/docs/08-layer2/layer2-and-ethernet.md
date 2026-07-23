@@ -741,11 +741,11 @@ The ARP cache maps IP addresses to MAC addresses and has a limited lifetime ( 20
 Linux, 4 hours on Windows). Viewing the ARP cache:
 
 ```
-# Linux
+## Linux
 ip neigh show
 arp -an
 
-# Windows
+## Windows
 arp -a
 ```
 

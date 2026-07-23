@@ -231,3 +231,8 @@ Doping increases conductivity only if the doping concentration is high enough to
 - **[Lattice Vibrations and Phonons](6-solid-state-physics/4_lattice-vibrations-and-phonons.md)**: Phonon scattering limits carrier mobility and determines the temperature dependence of conductivity.
 - **[Advanced Semiconductor Physics](6-solid-state-physics/15_advanced-semiconductor-physics.md)**: MOSFET operation, heterostructures, and the quantum Hall effect build on the basic semiconductor physics developed here.
 - **[Magnetism in Solids](6-solid-state-physics/10_magnetism-in-solids.md)**: Magnetic semiconductors and spin-dependent transport connect semiconductor physics to magnetic ordering.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# GCSE Biology Study Guide
+## GCSE Biology Study Guide
 
 A complete single-page revision guide covering the full GCSE Biology specification. Each section
 contains key concepts, definitions, and essential facts. Use this alongside the

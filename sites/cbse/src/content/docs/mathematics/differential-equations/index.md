@@ -69,7 +69,7 @@ description: "CBSE Class 12 mathematics: Order, degree, methods of solving, and 
 }
 </script>
 
-# Differential Equations
+## Differential Equations
 
 Differential equations relate a function to its derivatives. This topic covers classification, methods of solution (separation of variables, homogeneous equations, linear equations), and applications.
 

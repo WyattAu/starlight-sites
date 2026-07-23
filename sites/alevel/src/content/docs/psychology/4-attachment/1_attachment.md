@@ -28,7 +28,7 @@ description: "A-Level Psychology Attachment notes covering key definitions, core
 }
 </script>
 
-# Attachment
+## Attachment
 
 ## Introduction
 
@@ -490,6 +490,6 @@ Psychology bridges the gap between biological processes and human experience. Th
 
 ## Cross-References
 
-- [Research Methods](/docs/alevel/psychology/research-methods)
-- [Approaches in Psychology](/docs/alevel/psychology/approaches)
-- [Biopsychology](/docs/alevel/psychology/biopsychology)
+- [Research Methods](/psychology/research-methods)
+- [Approaches in Psychology](/psychology/approaches)
+- [Biopsychology](/psychology/biopsychology)

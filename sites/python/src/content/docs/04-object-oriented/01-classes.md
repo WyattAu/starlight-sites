@@ -61,7 +61,7 @@ class Tracer:
     def method(self):
         pass
 
-# Output when the module loads: "Class body is executing right now"
+## Output when the module loads: "Class body is executing right now"
 ```
 
 This means class bodies are **not** inert declarations. They are executable code. This property is
@@ -350,7 +350,7 @@ class D(B, C):
     pass
 
 print(D.__mro__)
-# (<class 'D'>, <class 'B'>, <class 'C'>, <class 'A'>, <class 'object'>)
+## (<class 'D'>, <class 'B'>, <class 'C'>, <class 'A'>, <class 'object'>)
 print(D().method())  # B
 ```
 

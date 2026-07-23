@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Arenes (Aromatic Compounds)
+## Arenes (Aromatic Compounds)
 
 Arenes are hydrocarbons containing one or more benzene rings. Benzene ($\mathrm{C}_6\mathrm{H}_6$)
 Is the archetypal aromatic compound. Its structure and reactivity differ fundamentally from those of

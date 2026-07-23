@@ -1202,7 +1202,7 @@ JS bootstrap file that loads and runs it in the browser. WASM compilation is an 
 
 ```bash
 dart compile wasm bin/app.dart
-# Output: app.wasm, app.mjs (JS module bootstrap)
+## Output: app.wasm, app.mjs (JS module bootstrap)
 ```
 
 ### Advantages over dart2js

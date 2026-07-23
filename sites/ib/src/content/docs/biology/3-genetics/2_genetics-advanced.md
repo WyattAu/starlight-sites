@@ -1600,7 +1600,7 @@ which has multiple Isoforms with different adhesive properties.
   [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology) for mitosis, meiosis
   overview, and chromosome structure.
 - **Mendelian genetics and inheritance**: Review
-  [.../3-genetics/1_genetics](../3-genetics/1_genetics) for monohybrid and dihybrid crosses, sex
+  [../1_genetics](./1_genetics) for monohybrid and dihybrid crosses, sex
   linkage.
 - **Evolution and population genetics**: Review
   [.../5-evolution-and-biodiversity/1_evolution](../5-evolution-and-biodiversity/1_evolution) for

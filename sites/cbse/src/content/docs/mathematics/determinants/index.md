@@ -69,7 +69,7 @@ description: "CBSE Class 12 mathematics: Determinants, properties, cofactor expa
 }
 </script>
 
-# Determinants
+## Determinants
 
 Determinants are scalar values associated with square matrices. They determine whether a matrix is invertible, represent area/volume scaling, and are used in Cramer's rule for solving linear systems.
 

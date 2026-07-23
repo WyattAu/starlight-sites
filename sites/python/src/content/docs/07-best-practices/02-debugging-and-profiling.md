@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Debugging and Profiling
+## Debugging and Profiling
 
 Debugging and profiling are not afterthoughts bolted onto a codebase after the fact. They are
 First-class engineering disciplines. A systems engineer does not guess about correctness or
@@ -199,7 +199,7 @@ Place a `.pdbrc` file in your home directory or the current working directory. P
 On startup and executes each line as a pdb command. Common uses:
 
 ```
-# ~/.pdbrc
+## ~/.pdbrc
 alias ll l .
 alias pp pp
 set ignore_raise 1

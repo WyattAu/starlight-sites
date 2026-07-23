@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Algebra — Diagnostic Tests
+## Algebra — Diagnostic Tests
 
 ## Unit Tests
 

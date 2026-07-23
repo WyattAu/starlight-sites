@@ -363,3 +363,6 @@ The action-reaction pair in Newton's third law always acts on different objects.
 - **[The Laws of Thermodynamics](../2-thermal-physics/1_the-laws-of-thermodynamics.md)**: The first law of thermodynamics extends conservation of energy to include heat transfer, building on mechanical energy conservation.
 - **[Statistical Mechanics](../2-thermal-physics/2_statistical-mechanics.md)**: Statistical mechanics provides the microscopic foundation for thermodynamic laws by averaging over particle dynamics.
 - **[Maxwell's Equations](../3-electromagnetism/1_maxwell-s-equations.md)**: Electromagnetic forces between charged particles are described by Maxwell's equations, extending Newtonian mechanics to electrodynamics.
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

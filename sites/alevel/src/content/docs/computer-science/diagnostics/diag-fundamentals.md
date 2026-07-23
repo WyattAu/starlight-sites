@@ -27,7 +27,7 @@ tableOfContents: false
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Fundamentals — Diagnostic Tests
+## Fundamentals — Diagnostic Tests
 
 ## Unit Tests
 

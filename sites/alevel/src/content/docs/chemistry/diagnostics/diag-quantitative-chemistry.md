@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
 
-# Quantitative Chemistry / Stoichiometry — Diagnostic Tests
+## Quantitative Chemistry / Stoichiometry — Diagnostic Tests
 
 ## Unit Tests
 

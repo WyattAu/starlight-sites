@@ -23,7 +23,7 @@ tableOfContents: false
 }
 </script>
 
-# Diagnostic Test: Algorithms
+## Diagnostic Test: Algorithms
 
 10 multiple-choice questions covering algorithms and data structures. Select the best answer for each question, then check your score using the answer key below.
 

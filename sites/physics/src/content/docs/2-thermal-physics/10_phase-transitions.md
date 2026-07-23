@@ -174,3 +174,8 @@ Phase transitions are sudden rearrangements of matter's structure. First-order t
 - **[Statistical Mechanics](2_statistical-mechanics.md)**: Phase transitions are understood through the partition function and free energy minima in statistical mechanics.
 - **[Bose-Einstein Condensation](5_bose-einstein-condensation.md)**: Bose-Einstein condensation is a quantum phase transition driven purely by Bose statistics.
 
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

@@ -22,7 +22,7 @@ description: "The demographic transition model (DTM) describes the shift from hi
 }
 </script>
 
-# Demographic Transition Model
+## Demographic Transition Model
 
 ## The Model: Structure and Stages
 

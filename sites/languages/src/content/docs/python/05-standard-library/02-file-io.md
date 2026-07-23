@@ -191,7 +191,7 @@ import os
 
 fd = os.open("file.txt", os.O_RDONLY)
 f = open(fd, "r", closefd=False)
-# Closing 'f' does not close the file descriptor
+## Closing 'f' does not close the file descriptor
 f.close()
 os.close(fd)  # Must close the descriptor explicitly
 ```
@@ -209,7 +209,7 @@ Processing:
 ```python
 with open("data.txt", "r", encoding="utf-8") as f:
     content = f.read()
-# f is guaranteed to be closed here, even if read() raised an exception
+## f is guaranteed to be closed here, even if read() raised an exception
 ```
 
 This is equivalent to:

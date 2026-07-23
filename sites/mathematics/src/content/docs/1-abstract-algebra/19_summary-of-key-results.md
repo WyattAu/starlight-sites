@@ -127,6 +127,9 @@ $\blacksquare$
 | Linear Algebra                 | WyattsNotes | [View](/docs/university/mathematics/linear-algebra)       |
 | Abstract Algebra — Harvard 122 | Harvard     | [View](https://people.math.harvard.edu/~elkies/M122.html) |
 
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+
 ## Key Relationships
 
 - **Extension degree and group order.** For a Galois extension $E/F$: $[E:F]=|\mathrm{Gal}(E/F)|$. This links field theory to group theory directly.

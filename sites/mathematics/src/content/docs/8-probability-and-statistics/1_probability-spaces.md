@@ -169,3 +169,8 @@ So only about 1.94% of positive tests are true positives, despite the high sensi
 - **[Sequences and Series of Functions](3-real-analysis/7_sequences-and-series-of-functions.md)**: Convergence of distribution functions and characteristic functions relies on uniform convergence theory.
 - **[Complex Numbers Review](6-complex-analysis/1_complex-numbers-review.md)**: Complex analysis provides the tools for understanding characteristic functions and moment generating functions in probability theory.
 
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

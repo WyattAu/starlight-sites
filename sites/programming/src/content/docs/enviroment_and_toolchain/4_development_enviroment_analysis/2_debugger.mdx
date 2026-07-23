@@ -76,10 +76,10 @@ Granularity of source-level mapping.
 | `-g3` | Maximum: Includes macro definitions and expanded macro locations. Useful for debugging macro-heavy code. | Large              |
 
 ```bash
-# Compile with maximum debug info including macros
+## Compile with maximum debug info including macros
 clang++ -g3 -O0 main.cpp -o app
 
-# Verify the DWARF sections present
+## Verify the DWARF sections present
 readelf -S app | grep debug
 ```
 

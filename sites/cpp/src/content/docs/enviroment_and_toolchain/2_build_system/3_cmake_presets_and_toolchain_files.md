@@ -51,10 +51,10 @@ Specific compiler versions on local machines (e.g., forcing Clang 17 over the sy
 Create a file named `cmake/toolchain-clang.cmake`:
 
 ```cmake
-# toolchain-clang.cmake
+## toolchain-clang.cmake
 set(CMAKE_SYSTEM_NAME Linux)
 
-# 1. Force Compilers
+## 1. Force Compilers
 # Use CACHE STRING to allow overriding if absolutely necessary, but default to specific binaries.
 set(CMAKE_C_COMPILER clang CACHE STRING "C Compiler")
 set(CMAKE_CXX_COMPILER clang++ CACHE STRING "C++ Compiler")

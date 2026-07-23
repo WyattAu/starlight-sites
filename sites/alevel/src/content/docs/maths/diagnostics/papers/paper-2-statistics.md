@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Paper 2 — Statistics
+## Paper 2 — Statistics
 
 **Time allowed:** 75 minutes **Total marks:** 50 **Topics covered:** All 5 statistics topics
 

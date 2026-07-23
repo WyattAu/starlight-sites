@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Atomic and Nuclear Physics — Diagnostic Tests
+## Atomic and Nuclear Physics — Diagnostic Tests
 
 ## Intuition
 

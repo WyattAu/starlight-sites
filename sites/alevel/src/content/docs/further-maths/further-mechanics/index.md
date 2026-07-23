@@ -74,7 +74,7 @@ description: 'A-Level Further Maths Further Mechanics notes covering key definit
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Further Mechanics
+## Further Mechanics
 
 Further Mechanics extends the classical mechanics from A-Level Mathematics into more complex and
 realistic scenarios: projectile motion in two dimensions, circular motion with varying forces,

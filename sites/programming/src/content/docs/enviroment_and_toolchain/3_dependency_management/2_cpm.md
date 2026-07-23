@@ -135,7 +135,7 @@ CPMAddPackage(
     "FMT_TEST OFF"     # Do not build fmt's tests
 )
 
-# Link against the target defined by fmt's CMakeLists.txt
+## Link against the target defined by fmt's CMakeLists.txt
 target_link_libraries(MyApplication PRIVATE fmt::fmt)
 ```
 
@@ -198,7 +198,7 @@ Project/
 **cmake/dependencies.cmake:**
 
 ```cmake
-# Centralized dependency declaration
+## Centralized dependency declaration
 CPMAddPackage(
   NAME nlohmann_json
   GITHUB_REPOSITORY nlohmann/json
@@ -750,3 +750,7 @@ CPM.cmake is a lightweight CMake package manager that fetches dependencies at co
 - [[enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator]] - CMake target integration
 - [[enviroment_and_toolchain/3_dependency_management/6_binary_caching]] - Caching fetched dependencies
 - [[enviroment_and_toolchain/3_dependency_management/3_vcpkg.md]] - Alternative: vcpkg
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)

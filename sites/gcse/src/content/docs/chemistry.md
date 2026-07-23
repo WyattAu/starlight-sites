@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# GCSE Chemistry Study Guide
+## GCSE Chemistry Study Guide
 
 A complete single-page revision guide covering the full GCSE Chemistry specification. Each section
 contains key concepts, definitions, and essential facts. Use this alongside the

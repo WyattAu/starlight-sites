@@ -511,10 +511,10 @@ Collection (e.g., Filebeat, Fluentd) to forward audit logs to a centralized log 
 ### pg_dump and pg_restore
 
 ```bash
-# Full database dump (custom format, parallel)
+## Full database dump (custom format, parallel)
 pg_dump -Fc -j 4 -f mydb.dump mydb
 
-# Schema-only dump
+## Schema-only dump
 pg_dump -s -f schema.sql mydb
 
 # Data-only dump

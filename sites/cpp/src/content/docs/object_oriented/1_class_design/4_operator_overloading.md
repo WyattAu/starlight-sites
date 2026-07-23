@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Operator Overloading: Arithmetic, Subscript, and Function Call
+## Operator Overloading: Arithmetic, Subscript, and Function Call
 
 C++ allows user-defined types to overload most operators, enabling natural syntax for custom types.
 This section covers the rules for overloading, member vs non-member design, and patterns for common

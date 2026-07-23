@@ -165,3 +165,10 @@ Functional analysis developed from concrete problems in integral equations, quan
 - [Lagrange's Theorem](/mathematics/1-abstract-algebra/3_lagrange-s-theorem) -- Group-theoretic foundations underpin the representation theory that functional analysis later extended to infinite dimensions.
 - [Lasers](/physics/4-optics-and-waves/9_lasers) -- Quantum optics and laser physics rely on Hilbert space formalism and spectral theory developed by von Neumann and others discussed here.
 - [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The Lorentz group and its representations are studied using the functional-analytic framework described in this chapter.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

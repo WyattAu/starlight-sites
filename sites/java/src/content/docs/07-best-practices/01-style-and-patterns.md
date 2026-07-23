@@ -1280,11 +1280,11 @@ configuration. The most important categories of flags are:
 **Memory allocation:**
 
 ```bash
-# Heap size
+## Heap size
 -Xms2g          # Initial heap size (minimum)
 -Xmx4g          # Maximum heap size
 
-# Metaspace (replaces PermGen in Java 8+)
+## Metaspace (replaces PermGen in Java 8+)
 -XX:MetaspaceSize=256m
 -XX:MaxMetaspaceSize=512m
 ```

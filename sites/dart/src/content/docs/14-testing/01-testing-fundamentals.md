@@ -83,7 +83,7 @@ Integration tests in both defect detection and developer velocity.
 ### Setup
 
 ```yaml
-# pubspec.yaml
+## pubspec.yaml
 dev_dependencies:
   test: ^1.25.0
 ```
@@ -92,7 +92,7 @@ For Flutter projects, the `flutter_test` package is the equivalent — it re-exp
 Flutter-specific bindings:
 
 ```yaml
-# pubspec.yaml (Flutter)
+## pubspec.yaml (Flutter)
 dev_dependencies:
   flutter_test:
     sdk: flutter

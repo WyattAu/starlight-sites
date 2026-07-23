@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Economics is the study of choices — how individuals, businesses, and governments allocate scarce resources.**
 
-# Demand, Supply, and Equilibrium — Diagnostic Tests
+## Demand, Supply, and Equilibrium — Diagnostic Tests
 
 ## Unit Tests
 

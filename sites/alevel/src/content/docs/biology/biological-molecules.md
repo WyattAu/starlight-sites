@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Biological Molecules
+## Biological Molecules
 
 Study guide covering the core biochemistry topics for A-Level Biology examinations.
 
@@ -412,6 +412,6 @@ linked above.
 
 ## Cross-References
 
-- [Biology](/alevel/biology)
-- [Cells](/alevel/biology/cells)
-- [Genetics and DNA](/alevel/biology/genetics-and-dna)
+- [Biology](/biology)
+- [Cells](/biology/cells)
+- [Genetics and DNA](/biology/genetics-and-dna)

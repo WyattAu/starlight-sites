@@ -27,7 +27,7 @@ tableOfContents: false
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Hyperbolic Functions — Diagnostic Tests
+## Hyperbolic Functions — Diagnostic Tests
 
 ## Unit Tests
 

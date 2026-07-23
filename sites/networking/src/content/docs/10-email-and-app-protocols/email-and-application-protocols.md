@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Email and Application Protocols
+## Email and Application Protocols
 
 Electronic mail and application-layer protocols form the backbone of human communication over the
 Internet. This document examines the architecture, protocols, and security mechanisms that enable

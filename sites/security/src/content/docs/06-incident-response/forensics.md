@@ -47,10 +47,10 @@ Chain of custody documentation:
 Every piece of evidence must be hashed immediately upon collection and re-verified at every stage:
 
 ```bash
-# Generate SHA-256 hashes of evidence files
+## Generate SHA-256 hashes of evidence files
 sha256sum disk_image.raw > disk_image.raw.sha256
 
-# Verify integrity at any point
+## Verify integrity at any point
 sha256sum -c disk_image.raw.sha256
 # disk_image.raw: OK
 

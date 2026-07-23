@@ -225,3 +225,8 @@ Advanced particle physics explores the frontier where the Standard Model meets u
 - **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: CP violation and flavour-changing transitions are constrained by the conservation laws and symmetry properties of the Standard Model.
 - **[Running Coupling Constants](7-particle-physics-and-cosmology/6_running-coupling-constants.md)**: The DGLAP equations and scaling violations are governed by the running of the strong coupling constant.
 - **[Group Theory in Particle Physics](7-particle-physics-and-cosmology/5_group-theory-in-particle-physics.md)**: Anomalies and the strong CP problem involve the group-theoretic structure of SU(3) colour.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# AP Calculus AB Study Guide
+## AP Calculus AB Study Guide
 
 Comprehensive study guide for AP Calculus AB, aligned with the College Board Course and Exam
 Description. Covers all AB-only topics: limits, derivatives, integrals, and differential equations.

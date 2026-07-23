@@ -196,7 +196,7 @@ class XmlHandler(AbstractHandler):
     pass
 
 print(RegisterSubclasses.registry)
-# {'JsonHandler': <class 'JsonHandler'>, 'XmlHandler': <class 'XmlHandler'>}
+## {'JsonHandler': <class 'JsonHandler'>, 'XmlHandler': <class 'XmlHandler'>}
 ```
 
 Note that `AbstractHandler` itself gets registered unless you explicitly exclude it. The `name`
@@ -233,7 +233,7 @@ class Table(metaclass=OrderedMeta):
     email = Column("email", "TEXT UNIQUE")
 
 print(Table._ordered_fields)
-# ['__module__', '__qualname__', 'id', 'name', 'email']
+## ['__module__', '__qualname__', 'id', 'name', 'email']
 ```
 
 Since Python 3.6, the default `dict` preserves insertion order as a language guarantee (not just a

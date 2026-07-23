@@ -1934,6 +1934,9 @@ $\blacksquare$
 | Algorithms and Data Structures | WyattsNotes | [View](/docs/university/computing/algorithms-and-data-structures)       |
 | Database Systems — CMU 15-445  | CMU         | [View](https://15445.courses.cs.cmu.edu/)                               |
 
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
 ## Intuition
 
 Databases solve a deceptively simple problem: how do you store and retrieve structured data reliably, concurrently, and efficiently? The relational model — tables with rows and columns, linked by primary and foreign keys — provides a clean mathematical foundation based on set theory and first-order logic. SQL is the query language that lets you express complex questions (find all students who have taken every CS course) without specifying *how* to retrieve the answer. The database management system (DBMS) figures out the most efficient execution plan, using indexes (B+ trees) to avoid scanning entire tables and query optimisation to reorder operations.

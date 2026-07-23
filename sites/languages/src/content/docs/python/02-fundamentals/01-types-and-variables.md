@@ -41,12 +41,12 @@ Confused, so it is worth being precise about what they mean.
   one operand to match the other.
 
 ```python
-# Dynamic: the name 'x' is rebound to different types
+## Dynamic: the name 'x' is rebound to different types
 x = 42           # int
 x = "hello"      # str
 x = [1, 2, 3]    # list
 
-# Strong: these raise TypeError, not silent coercion
+## Strong: these raise TypeError, not silent coercion
 "hello" + 42     # TypeError: can only concatenate str (not "int") to str
 [1, 2] + (3, 4)  # TypeError: can only concatenate list (not "tuple") to list
 ```

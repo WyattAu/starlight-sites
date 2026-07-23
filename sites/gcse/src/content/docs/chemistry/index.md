@@ -76,7 +76,7 @@ categories:
 }
 </script>
 
-# GCSE Chemistry
+## GCSE Chemistry
 
 Comprehensive revision notes for GCSE Chemistry, covering all major exam boards (AQA, Edexcel, OCR,
 WJEC).

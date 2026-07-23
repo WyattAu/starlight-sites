@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Atomic Structure
+## Atomic Structure
 
 Atomic structure is the foundation of chemistry, covering the composition of atoms, electron
 Configuration, atomic spectra, and periodic trends.

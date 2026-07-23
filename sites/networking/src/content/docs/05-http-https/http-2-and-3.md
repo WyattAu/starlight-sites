@@ -211,10 +211,10 @@ The SETTINGS frame configures connection-level parameters:
 | MAX_HEADER_LIST_SIZE   | unlimited | Maximum total header size                    |
 
 ```bash
-# Test HTTP/2 with curl
+## Test HTTP/2 with curl
 curl -I --http2 https://example.com
 
-# View HTTP/2 frames with nghttp
+## View HTTP/2 frames with nghttp
 nghttp -nv https://example.com
 
 # View detailed frame information

@@ -26,7 +26,7 @@ description: "This document covers the IB History topic on Democratic States for
 }
 </script>
 
-# Democratic States: Challenges and Crises (1918--1939)
+## Democratic States: Challenges and Crises (1918--1939)
 
 This document covers the IB History topic on Democratic States for Paper 2. It examines three case
 studies of democratic states facing severe challenges — Weimar Germany, the United States during the

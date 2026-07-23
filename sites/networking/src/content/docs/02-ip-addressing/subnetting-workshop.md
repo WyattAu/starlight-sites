@@ -802,13 +802,13 @@ After you have mastered the fundamentals.
 Docker creates private networks with subnets that you can specify:
 
 ```bash
-# Create a custom bridge network with a specific subnet
+## Create a custom bridge network with a specific subnet
 docker network create \
   --subnet=172.18.0.0/16 \
   --gateway=172.18.0.1 \
   my-network
 
-# Run containers on this network
+## Run containers on this network
 docker run --network my-network --ip 172.18.0.10 nginx
 docker run --network my-network --ip 172.18.0.11 redis
 ```

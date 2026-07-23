@@ -21,7 +21,7 @@ description: "HSC chemistry: Organic"
 }
 </script>
 
-# Organic
+## Organic
 
 HSC chemistry study notes - Organic
 

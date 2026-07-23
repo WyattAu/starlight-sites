@@ -304,6 +304,8 @@ Confirmation. Never call it with a path derived from untrusted user input withou
 - [Random Number Generation](./3_random_numbers.md)
 - [Regular Expressions](./4_regular_expressions.md)
 
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+
 ### File Metadata and `fs::file_time_type`
 
 `fs::file_time_type` represents file timestamps [N4950 §30.10.7.3]. In C++17/20, this is a

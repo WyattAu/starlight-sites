@@ -66,9 +66,9 @@ The SSH client configuration file supports per-host settings, pattern matching, 
 Blocks.
 
 ```text
-# ~/.ssh/config
+## ~/.ssh/config
 
-# Global defaults
+## Global defaults
 Host *
     ServerAliveInterval 60
     ServerAliveCountMax 3

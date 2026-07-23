@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# GCSE Physics Study Guide
+## GCSE Physics Study Guide
 
 A complete single-page revision guide covering the full GCSE Physics specification. Each section
 contains key concepts, definitions, and essential facts. Use this alongside the

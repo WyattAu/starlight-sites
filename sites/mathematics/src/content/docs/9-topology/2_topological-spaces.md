@@ -154,6 +154,13 @@ $\blacksquare$
 - **[Continuity and Homeomorphisms](4_continuity-and-homeomorphisms.md)**: Continuous functions between topological spaces preserve structure without requiring metrics.
 - **[Compactness](5_compactness.md)**: Compactness is a key property of topological spaces related to finite subcovers and sequential convergence.
 
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
 ## Intuition
 
 A topological space is what you get when you strip away all the structure you're used to — distances, angles, coordinates — and keep only the idea of "closeness." The only thing you're allowed to know is which points are near which other points, encoded by the collection of open sets. Think of it like a city where you can't measure distances but you can ask "is this neighbourhood near that neighbourhood?" The three axioms (empty set and whole space are open, arbitrary unions are open, finite intersections are open) are the minimum rules that make the concept of "nearness" behave consistently. Without them, you can't even define what it means for a function to be continuous.

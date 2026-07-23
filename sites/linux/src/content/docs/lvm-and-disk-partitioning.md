@@ -121,11 +121,11 @@ Internally. Misaligned writes on 512e drives cause read-modify-write cycles, deg
 Modern partitioning tools handle alignment automatically.
 
 ```bash
-# Check logical and physical sector size
+## Check logical and physical sector size
 cat /sys/block/sda/queue/logical_block_size
 cat /sys/block/sda/queue/physical_block_size
 
-# lsblk shows sector sizes
+## lsblk shows sector sizes
 lsblk -o NAME,LOG-SEC,PHY-SEC /dev/sda
 ```
 

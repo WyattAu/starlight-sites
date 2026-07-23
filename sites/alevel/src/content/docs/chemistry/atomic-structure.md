@@ -33,7 +33,7 @@ categories:
 
 **Atomic structure is like a solar system — electrons orbit the nucleus, but with quantum rules instead of gravity.**
 
-# Atomic Structure & Periodicity
+## Atomic Structure & Periodicity
 
 ## Subatomic Particles
 
@@ -990,6 +990,6 @@ linked above.
 </aside>
 ## Cross-References
 
-- [Chemistry](/alevel/chemistry)
-- [Atomic Structure](/alevel/chemistry/atomic-structure)
-- [Organic Chemistry](/alevel/chemistry/organic-chemistry)
+- [Chemistry](/chemistry)
+- [Atomic Structure](/chemistry/atomic-structure)
+- [Organic Chemistry](/chemistry/organic-chemistry)

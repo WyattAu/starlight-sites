@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Thermodynamics — Diagnostic Tests
+## Thermodynamics — Diagnostic Tests
 
 ## Intuition
 

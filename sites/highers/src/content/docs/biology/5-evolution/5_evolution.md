@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Life on Earth
+## Life on Earth
 
 ## Higher Biodiversity and Evolution
 

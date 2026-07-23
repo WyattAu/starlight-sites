@@ -26,7 +26,7 @@ description: "This document covers the IB History prescribed subject on Rights a
 }
 </script>
 
-# Rights and Protest
+## Rights and Protest
 
 This document covers the IB History prescribed subject on Rights and Protest for Paper 2. It
 examines Two major case studies -- the civil rights movement in the United States (1954--1965) and

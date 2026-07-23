@@ -73,7 +73,7 @@ tags:
 }
 </script>
 
-# A-Level Psychology
+## A-Level Psychology
 
 A-Level Psychology is the scientific study of mind and behaviour. It covers research methodology,
 cognitive processes, developmental psychology, social influence, biological bases of behaviour, and
@@ -218,6 +218,6 @@ Human behaviour emerges from the interaction of biological, cognitive, and socia
 
 ## Cross-References
 
-- [Research Methods](/docs/alevel/psychology/research-methods)
-- [Approaches in Psychology](/docs/alevel/psychology/approaches)
-- [Biopsychology](/docs/alevel/psychology/biopsychology)
+- [Research Methods](/psychology/research-methods)
+- [Approaches in Psychology](/psychology/approaches)
+- [Biopsychology](/psychology/biopsychology)

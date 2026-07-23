@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
 
-# Statistical Distributions — Diagnostic Tests
+## Statistical Distributions — Diagnostic Tests
 
 ## Unit Tests
 

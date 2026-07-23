@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Crystal structures, unit cells, packing, 
 }
 </script>
 
-# Solid State
+## Solid State
 
 Solid state chemistry covers the structure of crystalline solids, unit cells, packing arrangements, and defects in crystals.
 

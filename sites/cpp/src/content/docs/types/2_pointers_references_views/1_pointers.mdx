@@ -36,7 +36,7 @@ import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 **The key insight:** Pointer arithmetic is typed — adding 1 to an `int*` advances by 4 bytes (sizeof(int)), not 1 byte. This is why `void*` arithmetic is illegal — the compiler doesn't know the stride size. This type-aware arithmetic is what makes C++ pointers both powerful and dangerous.
 
-# Pointer Arithmetic, Array Decay, and Nullability
+## Pointer Arithmetic, Array Decay, and Nullability
 In high-level languages (Java, Python), references are opaque handles. In C++, pointers are direct
 Abstractions over virtual memory addresses with distinct arithmetic capabilities dependent on the
 **Type System**.

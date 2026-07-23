@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Differentiation — Diagnostic Tests
+## Differentiation — Diagnostic Tests
 
 ## Intuition
 

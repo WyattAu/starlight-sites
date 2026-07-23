@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Standard Library Concepts
+## Standard Library Concepts
 
 The `<concepts>` header [N4950 §18.4] provides a comprehensive set of predefined concepts that serve
 As building blocks for user-defined constraints. These concepts cover core language relationships,

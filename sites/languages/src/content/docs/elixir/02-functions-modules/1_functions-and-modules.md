@@ -102,7 +102,7 @@ defmodule Example do
   end
 end
 
-# Arity is part of the function identity
+## Arity is part of the function identity
 iex> &Example.process/1
 #Function<...>
 iex> &Example.process/2
@@ -152,7 +152,7 @@ Anonymous functions (also called lambdas or closures) are first-class values. Th
 ### fn...end Syntax
 
 ```elixir
-# Basic anonymous function
+## Basic anonymous function
 add = fn a, b -> a + b end
 iex> add.(2, 3)
 5

@@ -167,3 +167,6 @@ Cauchy's integral formula says the value of an analytic function inside a contou
 - **[Cauchy's Theorem](5_cauchy-s-theorem.md)**: Cauchy's theorem provides the foundation for the integral formula by establishing path independence.
 - **[Taylor and Laurent Series](7_taylor-and-laurent-series.md)**: The integral formula leads to power series representations of analytic functions.
 - **[Liouville's Theorem](11_liouville-s-theorem-and-the-maximum-modulus-principle.md)**: Liouville's theorem follows from Cauchy's estimates and characterizes bounded entire functions.
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

@@ -21,7 +21,7 @@ description: "SAT mathematics: Data analysis"
 }
 </script>
 
-# Data analysis
+## Data analysis
 
 SAT mathematics study notes - Data analysis
 

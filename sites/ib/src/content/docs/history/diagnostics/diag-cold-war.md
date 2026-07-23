@@ -22,7 +22,7 @@ sidebar_position: 30
 }
 </script>
 
-# Diagnostic Test: Cold War
+## Diagnostic Test: Cold War
 
 Answer each question. Check your answers against the key at the end.
 

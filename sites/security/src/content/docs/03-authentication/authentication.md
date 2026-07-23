@@ -58,12 +58,12 @@ Might authorize a request without authentication (anonymous access).
 Use a dedicated password hashing function with a unique random salt per password:
 
 ```python
-# Argon2id (recommended)
+## Argon2id (recommended)
 from argon2 import PasswordHasher
 ph = PasswordHasher(time_cost=3, memory_cost=65536, parallelism=4)
 hash = ph.hash("user_password")  # $argon2id$v=19$m=65536,t=3,p=4$...
 
-# bcrypt (widely supported)
+## bcrypt (widely supported)
 import bcrypt
 hash = bcrypt.hashpw(b"user_password", bcrypt.gensalt(rounds=12))
 

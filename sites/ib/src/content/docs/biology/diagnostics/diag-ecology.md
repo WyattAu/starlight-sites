@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Ecology — Diagnostic Tests
+## Ecology — Diagnostic Tests
 
 ## Intuition
 

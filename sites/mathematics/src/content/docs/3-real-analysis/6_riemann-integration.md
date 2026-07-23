@@ -344,3 +344,7 @@ can change its value.
 - **[Lebesgue Integration](../../10-measure-theory/6_lebesgue-integration.md)**: Lebesgue integration generalises Riemann integration and handles functions with more complex discontinuity patterns.
 
 </aside>
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

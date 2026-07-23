@@ -399,6 +399,11 @@ Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
 - **[Curves and Surfaces](4-multivariable-calculus/5_curves-and-surfaces.md)**: Line integrals and surface integrals require parametrisation of curves and surfaces using the tools from this chapter.
 - **[Optimization](4-multivariable-calculus/4_optimization.md)**: Conservative vector fields and potential functions connect to the theory of exact differentials and constrained optimisation.
 
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+
 ### 3.9 Intuition: What Do Curl, Divergence, and the Integral Theorems Mean?
 
 Divergence measures how much a vector field "flows out" of a point. If the divergence is positive, the point is a source; if negative, it is a sink. The divergence theorem says that the total flow out of a volume equals the total flux through its boundary, which is a conservation law: what flows in must flow out.

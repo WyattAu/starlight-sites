@@ -64,9 +64,9 @@ gitGraph
 - **Working tree changes**: Stored as the stash commit"s tree.
 
 ```bash
-# Inspect a stash entry
+## Inspect a stash entry
 $ git stash show -p stash@{0}
-# Shows the diff that the stash represents
+## Shows the diff that the stash represents
 
 # Show the stash as a commit
 $ git log --oneline --graph stash@{0}

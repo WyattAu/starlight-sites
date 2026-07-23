@@ -52,10 +52,10 @@ time complexity. Binary search reduces this to $O(\log_2 n)$:
 ## Basic Usage
 
 ```bash
-# Start a bisect session
+## Start a bisect session
 $ git bisect start
 
-# Mark the current commit as bad (bug is present)
+## Mark the current commit as bad (bug is present)
 $ git bisect bad
 
 # Mark a known-good commit

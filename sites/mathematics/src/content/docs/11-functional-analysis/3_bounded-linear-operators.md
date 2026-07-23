@@ -150,6 +150,11 @@ $(1, 1, 1, \ldots)$), $J$ is not surjective, so $c_0$ is not reflexive.
 - **[The Fundamental Theorems](./4_the-fundamental-theorems.md)**: Presents the Hahn-Banach, open mapping, and closed graph theorems that govern the behaviour of bounded operators between Banach spaces.
 - **[Compact Operators](./5_compact-operators.md)**: Studies a subclass of bounded operators with finite-dimensional-like properties, crucial for spectral theory.
 
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+
 ## Intuition
 
 Bounded linear operators are the continuous linear maps between normed spaces — they do not blow up small inputs into large outputs. The operator norm measures the maximum stretching factor. The open mapping theorem says that surjective bounded operators between Banach spaces are automatically open maps, which implies the bounded inverse theorem: an invertible bounded operator has a bounded inverse. The closed graph theorem provides a practical test: a linear operator is bounded if and only if its graph is closed. These three results — open mapping, bounded inverse, and closed graph — are the fundamental theorems of functional analysis, guaranteeing that well-behaved operators behave as expected.

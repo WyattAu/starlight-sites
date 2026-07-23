@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Electrical Circuits — Diagnostic Tests
+## Electrical Circuits — Diagnostic Tests
 
 ## Unit Tests
 

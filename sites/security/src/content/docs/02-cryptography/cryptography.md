@@ -187,10 +187,10 @@ Symmetric encryption is only as secure as key management. The key must be:
 4. **Destroyed when no longer needed** (cryptographic erasure. Overwriting key material in memory)
 
 ```bash
-# Generate a 256-bit random key (Linux)
+## Generate a 256-bit random key (Linux)
 openssl rand -base64 32
 
-# Generate a 256-bit random key (macOS)
+## Generate a 256-bit random key (macOS)
 dd if=/dev/urandom bs=32 count=1 2>/dev/null | base64
 ```
 

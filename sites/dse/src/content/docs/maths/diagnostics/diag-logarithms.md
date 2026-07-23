@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Logarithms — Diagnostic Tests
+## Logarithms — Diagnostic Tests
 
 ## Unit Tests
 

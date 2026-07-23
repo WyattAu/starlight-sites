@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# IB Chemistry — Diagnostic Guide
+## IB Chemistry — Diagnostic Guide
 
 ## Coverage Map
 

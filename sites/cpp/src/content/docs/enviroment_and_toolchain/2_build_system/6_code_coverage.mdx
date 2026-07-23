@@ -91,10 +91,10 @@ Run the application (or test suite). This generates `.gcda` files alongside the 
 Use `lcov` to capture the data and `genhtml` to visualize it.
 
 ```bash
-# 1. Capture coverage data
+## 1. Capture coverage data
 lcov --capture --directory . --output-file coverage.info
 
-# 2. Filter out system headers and external libraries (optional but recommended)
+## 2. Filter out system headers and external libraries (optional but recommended)
 lcov --remove coverage.info '/usr/*' '*/vcpkg/*' --output-file coverage_filtered.info
 
 # 3. Generate HTML report

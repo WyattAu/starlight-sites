@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Futures, Promises, and Async Flows
+## Futures, Promises, and Async Flows
 
 This section covers `std::future<T>``std::promise<T>``std::async` launch policies, the
 Future/promise pair as a basic async primitive, composability limitations, async file reading,

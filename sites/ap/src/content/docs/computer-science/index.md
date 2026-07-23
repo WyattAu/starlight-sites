@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# AP Computer Science
+## AP Computer Science
 
 Comprehensive revision notes for AP Computer Science, aligned with the College Board Course and Exam
 Description.

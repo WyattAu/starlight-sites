@@ -69,7 +69,7 @@ description: "A-Level Maths Pure Mathematics notes covering key definitions, cor
 }
 </script>
 
-# Pure Mathematics
+## Pure Mathematics
 
 Pure Mathematics is the backbone of A-Level Mathematics. It develops the algebraic fluency, calculus
 techniques, and proof skills that underpin every applied topic in the course. This section covers

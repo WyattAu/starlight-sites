@@ -28,7 +28,7 @@ tableOfContents: false
 }
 </script>
 
-# AP Calculus Diagnostic Guide
+## AP Calculus Diagnostic Guide
 
 ## Purpose
 
@@ -205,7 +205,7 @@ across all relevant topics.
 ## File Organization
 
 ```
-docs/docs_qualifications/ap/maths/diagnostics/
+docs/maths/diagnostics/
   DIAGNOSTIC_GUIDE.md              <-- This file
   diag-limits-continuity.md        <-- Limits and Continuity
   diag-derivatives.md              <-- Derivatives

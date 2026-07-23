@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Cache Coherency (MESI) and False Sharing
+## Cache Coherency (MESI) and False Sharing
 
 This section covers the MESI cache coherence protocol, cache line ownership and coherence traffic,
 False sharing, and padding/alignment techniques to prevent false sharing in multi-threaded programs.
@@ -595,7 +595,7 @@ MOESI's Owned state allows direct cache-to-cache transfer.
 On Linux, hardware performance counters can directly measure cache coherence events:
 
 ```bash
-# Count last-level cache misses (proxy for false sharing)
+## Count last-level cache misses (proxy for false sharing)
 perf stat -e cache-misses,cache-references,instructions ./my_program
 
 # Use perf c2c to detect false sharing specifically

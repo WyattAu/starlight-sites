@@ -23,7 +23,7 @@ tableOfContents: false
 }
 </script>
 
-# Diagnostic Test: Mathematics
+## Diagnostic Test: Mathematics
 
 10 multiple-choice questions covering algebra, calculus, trigonometry, probability, and statistics. Select the best answer for each question, then check your score using the answer key below.
 

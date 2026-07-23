@@ -27,7 +27,7 @@ tableOfContents: false
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Algorithms — Diagnostic Tests
+## Algorithms — Diagnostic Tests
 
 ## Unit Tests
 
@@ -36,7 +36,7 @@ tableOfContents: false
 **Question:** Determine the time complexity (in Big O notation) of each code fragment:
 
 ```python
-# Fragment A
+## Fragment A
 for i in range(n):
     for j in range(n):
         print(i, j)

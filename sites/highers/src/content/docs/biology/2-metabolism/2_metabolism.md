@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Metabolism and Survival
+## Metabolism and Survival
 
 <aside class="starlight-aside starlight-aside--note">
 ## Metabolism

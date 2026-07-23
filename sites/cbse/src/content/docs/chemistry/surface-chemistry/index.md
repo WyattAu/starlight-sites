@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Adsorption, colloids, catalysis, and work
 }
 </script>
 
-# Surface Chemistry
+## Surface Chemistry
 
 Surface chemistry studies phenomena occurring at surfaces and interfaces. It covers adsorption, catalysis, colloids, and their applications.
 

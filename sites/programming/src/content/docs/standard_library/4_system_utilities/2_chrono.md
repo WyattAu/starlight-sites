@@ -300,6 +300,8 @@ A system update.
 - [Random Number Generation](./3_random_numbers.md)
 - [Regular Expressions](./4_regular_expressions.md)
 
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+
 ### Clock Precision and `is_steady`
 
 The `is_steady` static member of each clock indicates whether the clock is monotonic [N4950

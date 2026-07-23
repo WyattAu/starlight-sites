@@ -72,7 +72,7 @@ tags:
 }
 </script>
 
-# Computer Networks
+## Computer Networks
 
 Computer networks enable the exchange of data between devices across local and wide areas. The study of networking is organised around layered models, such as the OSI seven-layer model and the TCP/IP model, which decompose communication into modular, independent components. Each layer provides services to the layer above while abstracting the implementation details of the layer below.
 
@@ -146,6 +146,9 @@ Each section includes:
 - **[Systems](../../2-systems/index.md):** Computer architecture and operating systems that networking relies on.
 - **[Network Security](./7_network-security.md):** TLS, encryption, and authentication protocols.
 - **[Databases](../../4-databases/index.md):** Distributed databases that depend on network communication.
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
 ## Common Mistakes
 

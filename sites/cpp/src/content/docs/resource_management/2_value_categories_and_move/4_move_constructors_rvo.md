@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Move Constructors, Assignment, Swap Idiom
+## Move Constructors, Assignment, Swap Idiom
 
 Move semantics allow resources to be transferred between objects without copying. The move
 Constructor steals resources from a source object, leaving it in a valid but unspecified state. The

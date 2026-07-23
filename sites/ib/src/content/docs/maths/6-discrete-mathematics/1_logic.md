@@ -26,7 +26,7 @@ categories:
 }
 </script>
 
-# The Logic Of Arguments
+## The Logic Of Arguments
 
 ## Arg1: Simple Logic
 

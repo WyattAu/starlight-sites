@@ -66,10 +66,10 @@ Is significantly faster than non-cone mode because Git can use directory-based p
 Instead of evaluating every pattern against every file.
 
 ```bash
-# Initialize sparse checkout with cone mode (the default in Git 2.37+)
+## Initialize sparse checkout with cone mode (the default in Git 2.37+)
 $ git sparse-checkout init --cone
 
-# Set the directories you want to check out
+## Set the directories you want to check out
 $ git sparse-checkout set src/core src/utils docs
 
 # Add more directories

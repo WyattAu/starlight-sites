@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# The Itanium Exception ABI
+## The Itanium Exception ABI
 
 The dominant exception model on all major platforms (GCC, Clang, MSVC on x64) is the **zero-cost
 Table-based** model specified informally by the Itanium C++ ABI and adopted as the de-facto standard
@@ -706,6 +706,11 @@ Removed in C++17. `std::terminate` is the only termination handler for exception
 
 - [Exception Safety Guarantees](2_exception_safety.md)
 - [The noexcept Specifier](3_noexcept.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Summary
 

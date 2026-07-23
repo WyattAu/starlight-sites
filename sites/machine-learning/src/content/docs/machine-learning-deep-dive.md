@@ -1,0 +1,49 @@
+---
+title: Machine Learning Deep Dive
+description: Comprehensive machine learning guide covering algorithms, neural networks, and practical applications.
+---
+
+## Introduction to Machine Learning
+
+- What is ML?
+- Types of ML
+- ML workflow
+- Evaluation metrics
+
+## Supervised Learning
+
+- Linear regression
+- Logistic regression
+- Decision trees
+- Random forests
+- SVM
+
+## Unsupervised Learning
+
+- K-means clustering
+- Hierarchical clustering
+- PCA
+- t-SNE
+
+## Neural Networks
+
+- Perceptrons
+- Backpropagation
+- Activation functions
+- Regularization
+
+## Deep Learning
+
+- CNNs
+- RNNs
+- LSTMs
+- Transformers
+- GANs
+
+## Practical ML
+
+- Feature engineering
+- Hyperparameter tuning
+- Model deployment
+- MLOps
+

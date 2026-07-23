@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Thread Execution (`std::jthread`) and Hardware Mapping
+## Thread Execution (`std::jthread`) and Hardware Mapping
 
 This section covers thread creation with `std::thread` and `std::jthread`Hardware concurrency
 Detection, join/detach semantics, RAII-based thread guards, cooperative cancellation via

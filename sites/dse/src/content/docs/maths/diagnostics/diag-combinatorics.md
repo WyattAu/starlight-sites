@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Combinatorics — Diagnostic Tests
+## Combinatorics — Diagnostic Tests
 
 ## Unit Tests
 

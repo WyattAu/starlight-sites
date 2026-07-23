@@ -67,11 +67,11 @@ e = Example()
 print(e.non_data)  # NonDataDescriptor for non_data
 print(e.data)      # DataDescriptor for data
 
-# Instance attribute overrides non-data descriptor
+## Instance attribute overrides non-data descriptor
 e.non_data = "override"
 print(e.non_data)  # override
 
-# Data descriptor always wins
+## Data descriptor always wins
 e.data = "override"  # Setting data = override
 print(e.data)        # DataDescriptor for data (descriptor wins)
 ```

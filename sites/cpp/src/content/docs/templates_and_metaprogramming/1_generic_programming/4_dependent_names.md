@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Dependent Names and Two-Phase Lookup
+## Dependent Names and Two-Phase Lookup
 
 In templates, the distinction between **dependent** and **non-dependent** names determines when name
 Lookup occurs. Dependent names (those that depend on a template parameter) are looked up at

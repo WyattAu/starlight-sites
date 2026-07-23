@@ -333,6 +333,11 @@ The Schrodinger equation is the quantum version of Newton's second law: it tells
 - **[Operators and Observables](4_operators-and-observables.md)**: Operators represent physical observables and act on wave functions to extract measurable quantities.
 - **[One-Dimensional Problems](5_one-dimensional-problems.md)**: The infinite square well and other 1D problems illustrate the application of the Schrodinger equation.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ### 3.10 Common Mistakes
 
 **Mistake 1: Forgetting to normalise the wave function**

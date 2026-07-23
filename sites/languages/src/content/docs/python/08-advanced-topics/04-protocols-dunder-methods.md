@@ -75,7 +75,7 @@ v = Vector(1.5, 2.5)
 print(repr(v))  # Vector(1.5, 2.5)
 print(str(v))   # (1.5, 2.5)
 print(v)        # (1.5, 2.5) — print() calls __str__
-# In REPL: v shows Vector(1.5, 2.5) — REPL calls __repr__
+## In REPL: v shows Vector(1.5, 2.5) — REPL calls __repr__
 ```
 
 ### \_\_bytes\_\_, \_\_bool\_\_, \_\_len\_\_, \_\_format\_\_
@@ -131,7 +131,7 @@ print(v1 == v2)      # True
 print(hash(v1) == hash(v2))  # True
 print({v1, v2})      # {Version(1, 2, 3)} — single element, hashable
 
-# Can be used as dict key
+## Can be used as dict key
 versions = {v1: "stable"}
 print(versions[v2])  # "stable"
 ```

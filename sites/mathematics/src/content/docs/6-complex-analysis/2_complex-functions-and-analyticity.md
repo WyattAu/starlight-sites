@@ -189,3 +189,6 @@ A complex function maps the plane to the plane, but requiring differentiability 
 - **[Cauchy-Riemann Equations](3_the-cauchy-riemann-equations.md)**: The Cauchy-Riemann equations are necessary and sufficient conditions for analyticity.
 - **[Complex Integration](4_complex-integration.md)**: Integration of analytic functions leads to powerful results like Cauchy's integral theorem.
 
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

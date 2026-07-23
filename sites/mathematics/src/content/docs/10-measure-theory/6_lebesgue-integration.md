@@ -157,6 +157,11 @@ The key advantage is that the Lebesgue integral can handle functions with wild d
 - **[Sigma-Algebras and Measurable Spaces](1_sigma-algebras-and-measurable-spaces.md)**: Measurable functions and their integrals are defined with respect to a sigma-algebra on the domain.
 - **[Riemann Integration](../../3-real-analysis/6_riemann-integration.md)**: Every Riemann integrable function is Lebesgue integrable, but the Lebesgue integral handles a strictly larger class of functions.
 
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
 ### 6.10 Worked Example: Applying DCT to a Sequence with Oscillations
 
 **Problem.** Evaluate $\lim_{n\to\infty} \int_0^\pi \frac{\sin(nx)}{n}\, dx$ using the dominated convergence theorem.

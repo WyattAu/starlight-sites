@@ -1096,7 +1096,7 @@ lead to involuntary movements (dyskinesias).
 - **Homeostasis and hormonal control** --> Review
   [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology)
 - **Immune system and neuromuscular disorders** --> Review
-  [.../8-nervous-system-and-immunology/2_immunology](../8-nervous-system-and-immunology/2_immunology)
+  [../2_immunology](./2_immunology)
 
 ---
 
@@ -1618,7 +1618,7 @@ and early Detection using biomarkers (PET imaging, cerebrospinal fluid analysis)
   [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology) for
   thermoregulation and blood glucose homeostasis.
 - **Immune system and neuromuscular disorders**: Review
-  [.../8-nervous-system-and-immunology/2_immunology](../8-nervous-system-and-immunology/2_immunology)
+  [../2_immunology](./2_immunology)
   for myasthenia gravis and multiple sclerosis.
 - **Endocrine system**: Review
   [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology) for

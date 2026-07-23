@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Algorithms and Programming
+## Algorithms and Programming
 
 This topic covers algorithm design, programming constructs, searching and sorting algorithms, and
 Computational problem solving.
@@ -383,7 +383,7 @@ def fibonacci(n):
 
 for i in range(10):
     print(fibonacci(i), end=" ")
-# 0 1 1 2 3 5 8 13 21 34
+## 0 1 1 2 3 5 8 13 21 34
 ```
 
 **Why recursive Fibonacci is $O(2^n)$.** Each call spawns two subcalls. The recursion tree has $2^n$

@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# GCSE English Study Guide
+## GCSE English Study Guide
 
 A complete single-page revision guide covering the full GCSE English Language specification. Each
 section contains key skills, methods, and essential advice. Use this alongside the

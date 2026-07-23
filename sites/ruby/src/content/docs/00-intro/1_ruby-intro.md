@@ -135,13 +135,13 @@ how something works in Ruby, it likely works exactly that way.
 This principle manifests in several ways:
 
 ```ruby
-# Everything is an object
+## Everything is an object
 5.class        # => Integer
 5.methods.sort  # => Array of methods available on 5
 nil.class       # => NilClass
 true.class      # => TrueClass
 
-# Consistent method naming conventions
+## Consistent method naming conventions
 "hello".length           # => 5
 [1, 2, 3].length         # => 3
 { a: 1, b: 2 }.length    # => 2

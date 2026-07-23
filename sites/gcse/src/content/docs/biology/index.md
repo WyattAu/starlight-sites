@@ -76,7 +76,7 @@ categories:
 }
 </script>
 
-# GCSE Biology
+## GCSE Biology
 
 Comprehensive revision notes for GCSE Biology, covering all major exam boards (AQA, Edexcel, OCR,
 WJEC).

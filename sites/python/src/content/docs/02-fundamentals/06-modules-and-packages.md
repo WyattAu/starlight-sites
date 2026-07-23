@@ -92,9 +92,9 @@ When the interpreter encounters an `import` statement, it performs the following
 ```python
 import sys
 
-# sys.modules is a dict of all loaded modules
+## sys.modules is a dict of all loaded modules
 print(len(sys.modules))  # typically 100+ even in a minimal script
-# The 'builtins' module is always present (contains print, len, etc.)
+## The 'builtins' module is always present (contains print, len, etc.)
 print('builtins' in sys.modules)  # True
 print('os' in sys.modules)        # False (until imported)
 

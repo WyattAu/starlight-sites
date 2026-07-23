@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Physics Diagnostic Guide
+## DSE Physics Diagnostic Guide
 
 ## Overview
 

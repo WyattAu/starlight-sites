@@ -525,3 +525,8 @@ Ordinary differential equations describe how quantities evolve, and each method 
 | [Differential Equations] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/5-calculus/5_differential-equations)                                      |
 | [Differential Equations] | University | [View](https://university.wyattau.com/docs/mathematics/4-ordinary-differential-equations/1_differential-equations)    |
 
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

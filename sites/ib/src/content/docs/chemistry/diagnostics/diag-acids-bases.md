@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Acids and Bases — Diagnostic Tests
+## Acids and Bases — Diagnostic Tests
 
 ## Intuition
 

@@ -53,7 +53,7 @@ The reflog is stored as plain text files:
 | `.git/logs/refs/heads/feature` | The `feature` branch              |
 
 ```bash
-# View the raw reflog file
+## View the raw reflog file
 $ cat .git/logs/HEAD
 ```
 
@@ -62,7 +62,7 @@ $ cat .git/logs/HEAD
 ### Viewing the Reflog
 
 ```bash
-# Show HEAD's reflog
+## Show HEAD's reflog
 $ git reflog
 
 # Show a specific branch's reflog

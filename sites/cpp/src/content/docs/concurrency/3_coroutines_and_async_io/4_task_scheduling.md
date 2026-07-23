@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Task Scheduling and Executors
+## Task Scheduling and Executors
 
 This section covers the task concept, coroutine-based pipeline processing, async/await patterns
 Across languages, structured concurrency with `when_all`/`when_any`A complete Task class wrapping A

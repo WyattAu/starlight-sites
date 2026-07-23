@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Classification, polymerization reactions,
 }
 </script>
 
-# Polymers
+## Polymers
 
 Polymers are large molecules made of repeating structural units (monomers). This topic covers classification, polymerization mechanisms, and important polymers.
 

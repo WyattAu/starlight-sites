@@ -21,7 +21,7 @@ description: "Introduction to ruby notes."
 }
 </script>
 
-# Ruby
+## Ruby
 
 Welcome to the Ruby notes. Ruby is a dynamic, interpreted language designed for programmer happiness — with a clean syntax, powerful metaprogramming capabilities, and an emphasis on convention over configuration.
 
@@ -58,7 +58,7 @@ Start with the basics: variables, methods, blocks, and classes. Then move to met
 ## Quick Reference
 
 ```ruby
-# Variables and types
+## Variables and types
 name = "Ruby"          # String
 version = 3.3          # Float
 count = 42             # Integer

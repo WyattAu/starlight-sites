@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Chemistry Diagnostic: Carbon Chemistry
+## DSE Chemistry Diagnostic: Carbon Chemistry
 
 ## Unit Test 1: Alkanes vs Alkenes Reactivity
 

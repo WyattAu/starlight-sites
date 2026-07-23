@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Operator Overloading: Arithmetic, Subscript, and Function Call
+## Operator Overloading: Arithmetic, Subscript, and Function Call
 
 C++ allows user-defined types to overload most operators, enabling natural syntax for custom types.
 This section covers the rules for overloading, member vs non-member design, and patterns for common
@@ -772,6 +772,10 @@ The built-in comma operator but not for the overloaded version. This is almost a
 - [Special Member Function Generation Rules](./3_special_member_functions.md)
 - [The Spaceship Operator](./5_spaceship_operator.md)
 - [Object Layout and the vptr](./1_object_layout_vptr.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Summary
 

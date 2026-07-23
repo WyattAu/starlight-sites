@@ -210,3 +210,8 @@ For external reflection ($n_1 < n_2$), $r_s < 0$ at all angles, meaning the refl
 
 Fresnel equations describe how light splits at an interface between two media. At normal incidence, reflection and transmission depend only on the refractive index mismatch. As the angle of incidence increases, the two polarisations behave differently: s-polarised light reflects more strongly, while p-polarised light can reach zero reflection at Brewster's angle. Total internal reflection occurs beyond the critical angle, where the transmitted wave becomes evanescent. The Fresnel coefficients encode both amplitude and phase changes, which is essential for understanding thin-film coatings and anti-reflection layers. The key physical picture is that the boundary conditions for the electric and magnetic fields force the reflected and transmitted amplitudes to adjust continuously with angle.
 
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

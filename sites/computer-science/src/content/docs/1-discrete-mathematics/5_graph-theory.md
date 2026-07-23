@@ -385,3 +385,6 @@ Graph theory studies networks of vertices connected by edges. Paths, cycles, and
 - [[1-discrete-mathematics/4_combinatorics]] - Counting graph structures
 - [[2-systems/networking]] - Network topology graphs
 - [[1-algorithms/data-structures]] - Graph data structures
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

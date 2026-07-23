@@ -28,7 +28,7 @@ description: "A-Level English Comparative Analysis notes covering key definition
 }
 </script>
 
-# Comparative Analysis
+## Comparative Analysis
 
 ## Introduction
 

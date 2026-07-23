@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Fiscal and Monetary Policy — Diagnostic Tests
+## Fiscal and Monetary Policy — Diagnostic Tests
 
 ## Unit Tests
 

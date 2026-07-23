@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Kinematics — Diagnostic Tests
+## Kinematics — Diagnostic Tests
 
 ## Intuition
 

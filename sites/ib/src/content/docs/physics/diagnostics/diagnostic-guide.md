@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# IB Physics Diagnostic Guide
+## IB Physics Diagnostic Guide
 
 ## Overview
 

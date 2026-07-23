@@ -72,7 +72,7 @@ tags:
 }
 </script>
 
-# IB Computer Science
+## IB Computer Science
 
 Complete revision notes for IB Computer Science, covering the full syllabus with worked examples,
 common pitfalls, and exam-style problems.

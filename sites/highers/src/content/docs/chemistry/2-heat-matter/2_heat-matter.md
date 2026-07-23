@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Energy and Matter
+## Energy and Matter
 
 ## Higher Energetics
 

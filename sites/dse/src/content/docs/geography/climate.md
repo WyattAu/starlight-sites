@@ -25,7 +25,7 @@ tableOfContents: false
 }
 </script>
 
-# Weather and Climate
+## Weather and Climate
 
 ## Key Terms
 

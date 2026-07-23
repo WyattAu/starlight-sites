@@ -550,11 +550,11 @@ Where non-Wi-Fi interference is less prevalent.
 ### Diagnostic Tools
 
 ```
-# Linux -- signal strength and quality
+## Linux -- signal strength and quality
 iwconfig wlan0
 iw dev wlan0 station dump
 
-# Linux -- scan for available networks
+## Linux -- scan for available networks
 iw dev wlan0 scan | grep -E "SSID|signal|freq"
 
 # macOS -- current connection details

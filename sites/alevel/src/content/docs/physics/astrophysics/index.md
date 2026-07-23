@@ -69,7 +69,7 @@ description: "A-Level Astrophysics notes covering key definitions, core concepts
 }
 </script>
 
-# Astrophysics
+## Astrophysics
 
 Astrophysics applies the laws of physics to the study of celestial objects and the universe as a
 whole. This optional topic covers stellar classification, the life cycle of stars, cosmological
@@ -222,7 +222,7 @@ From Newton's apple to quantum particles, physics explains how the world works t
 
 ## Cross-References
 
-- [Mechanics](/docs/alevel/physics/mechanics)
-- [Waves](/docs/alevel/physics/waves)
-- [Electricity](/docs/alevel/physics/electricity)
-- [Fields](/docs/alevel/physics/fields)
+- [Mechanics](/physics/mechanics)
+- [Waves](/physics/waves)
+- [Electricity](/physics/electricity)
+- [Fields](/physics/fields)

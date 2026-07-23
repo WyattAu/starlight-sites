@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# AP Physics 1 Study Guide
+## AP Physics 1 Study Guide
 
 Comprehensive study guide for AP Physics 1 (Algebra-Based), aligned with the College Board Course
 and Exam Description. Covers mechanics and rotational motion with emphasis on conceptual

@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Markets are like ecosystems — supply and demand are the predators and prey that keep them in balance.**
 
-# Market Failure — Diagnostic Tests
+## Market Failure — Diagnostic Tests
 
 ## Unit Tests
 

@@ -160,3 +160,6 @@ Coherence theory bridges the gap between perfectly monochromatic waves and reali
 - [Fourier Optics](/physics/4-optics-and-waves/19_fourier-optics-15) -- The Abbe theory of microscopy and spatial filtering depend directly on the coherence properties developed in this chapter.
 - [Lasers](/physics/4-optics-and-waves/9_lasers) -- Laser linewidth determines temporal coherence; single-mode lasers achieve long coherence lengths essential for interferometry.
 - [Common Pitfalls in Optics](/physics/4-optics-and-waves/18_common-pitfalls) -- Confusing temporal and spatial coherence and misidentifying coherence length are among the most common errors in optics.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

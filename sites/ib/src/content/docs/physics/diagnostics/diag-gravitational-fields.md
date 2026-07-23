@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Gravitational Fields — Diagnostic Tests
+## Gravitational Fields — Diagnostic Tests
 
 ## Intuition
 

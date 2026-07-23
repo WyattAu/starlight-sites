@@ -38,14 +38,14 @@ Integers in Elixir have arbitrary precision. There is no fixed-size integer type
 automatically allocates memory as needed for large values.
 
 ```elixir
-# Decimal notation
+## Decimal notation
 42
 1_000_000
 0xFF       # hexadecimal
 0o777      # octal
 0b1010     # binary
 
-# Arithmetic
+## Arithmetic
 iex> 2 + 3
 5
 iex> 10 - 4

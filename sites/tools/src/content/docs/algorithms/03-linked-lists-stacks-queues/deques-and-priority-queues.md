@@ -930,11 +930,11 @@ heapq.heappush(heap, 2)
 heapq.heappush(heap, 8)
 min_val = heapq.heappop(heap)  # 2
 
-# heapify existing list
+## heapify existing list
 arr = [5, 2, 8, 1, 9]
 heapq.heapify(arr)
 
-# n largest / smallest
+## n largest / smallest
 heapq.nlargest(3, arr)
 heapq.nsmallest(3, arr)
 

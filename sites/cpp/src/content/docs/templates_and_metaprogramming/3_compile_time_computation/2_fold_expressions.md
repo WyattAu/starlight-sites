@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Fold Expressions and Pack Expansion
+## Fold Expressions and Pack Expansion
 
 A **fold expression** reduces a parameter pack using a binary operator [N4950 §7.6.1], introduced in
 C++17. Fold expressions come in four forms (unary left/right, binary left/right) and provide a

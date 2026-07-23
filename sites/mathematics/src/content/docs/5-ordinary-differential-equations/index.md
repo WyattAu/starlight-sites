@@ -72,7 +72,7 @@ description: 'Differential Equations: comprehensive educational content notes wi
 }
 </script>
 
-# Differential Equations
+## Differential Equations
 
 ## Contents
 
@@ -139,3 +139,8 @@ Differential equations describe how systems evolve, from planetary orbits to pop
 - **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Vector calculus and partial derivatives; systems of ODEs use multivariable calculus.
 - **[Linear Algebra](../../2-linear-algebra/index.md):** Systems of linear ODEs using eigenvalues; matrix exponentials solve linear systems.
 - **[Complex Analysis](../../6-complex-analysis/index.md):** Contour integration for solving ODEs; the Laplace transform uses complex analysis.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

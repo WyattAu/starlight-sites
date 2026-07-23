@@ -58,10 +58,10 @@ Is for moving an entire branch, cherry-pick is for selecting individual commits.
 ### Picking a Single Commit
 
 ```bash
-# Check out the target branch
+## Check out the target branch
 $ git checkout main
 
-# Apply a specific commit from another branch
+## Apply a specific commit from another branch
 $ git cherry-pick a3f2b1c
 
 # The commit a3f2b1c is now applied as a new commit on main

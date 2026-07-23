@@ -115,11 +115,11 @@ original commit and applies it to the new base. This means:
 ## Basic Rebase
 
 ```bash
-# Rebase the current branch onto main
+## Rebase the current branch onto main
 $ git switch feature-auth
 $ git rebase main
 
-# Rebase a specific branch onto main (without switching)
+## Rebase a specific branch onto main (without switching)
 $ git rebase main feature-auth
 ```
 

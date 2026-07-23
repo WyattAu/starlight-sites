@@ -344,3 +344,6 @@ The deeper insight is that row reduction preserves the solution space while simp
 }
 </script>
 
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

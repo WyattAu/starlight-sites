@@ -149,6 +149,11 @@ of the $2m$-th Kramers pair at TRIM point $\Lambda_i$. A product of $-1$ indicat
 - **[Superconductivity](./7_superconductivity.md)**: Proximity-induced superconductivity at the interface with a topological insulator can host Majorana zero modes for topological quantum computation.
 - **[Transport Properties](./8_transport-properties.md)**: The quantized conductance of topological edge states and the chiral anomaly in Weyl semimetals are transport phenomena beyond the Drude model.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ## Intuition
 
 Topological insulators are materials that are insulating in the bulk but conducting on the surface, with guaranteed edge states that cannot be removed by disorder. The topology is a mathematical property of the electronic wavefunctions, analogous to the shape of a doughnut being different from a sphere. These surface states are protected by time-reversal symmetry and carry spin-polarized currents. Topological semimetals extend this idea, featuring band crossings that form points or lines in momentum space. These materials are platforms for exotic physics, including Majorana fermions that could serve as qubits for topological quantum computing.

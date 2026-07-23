@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Common Pitfalls
+## Common Pitfalls
 
 Smart pointers eliminate many classes of resource bugs, but misuse still leads to leaks, undefined
 Behavior, and performance regressions. This section covers the most common pitfalls encountered when

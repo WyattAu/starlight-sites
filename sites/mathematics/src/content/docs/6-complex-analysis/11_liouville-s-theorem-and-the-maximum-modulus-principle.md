@@ -189,3 +189,6 @@ Liouville's theorem states that bounded entire functions must be constant, which
 - **[Cauchy's Integral Formula](6_cauchy-s-integral-formula.md)**: Cauchy's estimates provide the quantitative foundation for Liouville's theorem.
 - **[Taylor and Laurent Series](7_taylor-and-laurent-series.md)**: Power series representations reveal the local behavior of analytic functions near singularities.
 - **[Conformal Mappings](10_conformal-mappings.md)**: The Riemann mapping theorem uses maximum modulus principles to establish conformal equivalences.
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

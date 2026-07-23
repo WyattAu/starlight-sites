@@ -1396,3 +1396,6 @@ $\blacksquare$
 - [Process Management](./2_process_management) -- Advanced scheduling and concurrency control extend the basic process management concepts.
 - [Memory Management](./5_memory-management) -- Virtual memory and paging systems are advanced topics building on basic memory management.
 - [Security](./9_security) -- Operating system security mechanisms protect processes, memory, and files from unauthorised access.
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

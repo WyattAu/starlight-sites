@@ -26,7 +26,7 @@ categories:
 }
 </script>
 
-# Widgets and Lifecycle
+## Widgets and Lifecycle
 
 ## 1. What is a Widget
 

@@ -505,7 +505,7 @@ def countdown(n):
 </details>
 
 For revision on data structures that use recursion, see
-[Trees](/docs/alevel/computer-science/data-structures/trees).
+[Trees](/computer-science/data-structures/trees).
 
 <hr />
 
@@ -670,12 +670,12 @@ Off-by-one errors occur when a loop iterates one time too many or one time too f
 An infinite loop occurs when the loop condition never becomes false.
 
 ```python
-# Bug: x never changes
+## Bug: x never changes
 x = 0
 while x < 10:
     print(x)
 
-# Bug: wrong increment direction
+## Bug: wrong increment direction
 x = 10
 while x > 0:
     x = x + 1  # x increases, never reaches 0

@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Sequences and Series — Diagnostic Tests
+## Sequences and Series — Diagnostic Tests
 
 ## Unit Tests
 

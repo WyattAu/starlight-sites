@@ -41,11 +41,11 @@ data = {
     "version": None,
 }
 
-# Serialize to string
+## Serialize to string
 json_str = json.dumps(data, indent=2, sort_keys=True)
 print(json_str)
 
-# Deserialize from string
+## Deserialize from string
 parsed = json.loads(json_str)
 print(parsed["host"])  # db-primary
 ```

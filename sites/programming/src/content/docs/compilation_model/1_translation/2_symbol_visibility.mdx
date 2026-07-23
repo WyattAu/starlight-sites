@@ -397,8 +397,8 @@ add_library(MyLib SHARED src/lib.cpp)
 set_target_properties(MyLib PROPERTIES
     DEFINE_SYMBOL MYLIB_EXPORT_BUILD
 )
-# When compiling MyLib's sources, CMake adds -DMYLIB_EXPORT_BUILD
-# The header's #if defined(MYLIB_EXPORT_BUILD) selects __declspec(dllexport)
+## When compiling MyLib's sources, CMake adds -DMYLIB_EXPORT_BUILD
+## The header's #if defined(MYLIB_EXPORT_BUILD) selects __declspec(dllexport)
 ```
 ### Cross-Platform Visibility Macro Pattern
 The canonical pattern for portable library visibility:

@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Rotational Motion — Diagnostic Tests
+## Rotational Motion — Diagnostic Tests
 
 ## Intuition
 

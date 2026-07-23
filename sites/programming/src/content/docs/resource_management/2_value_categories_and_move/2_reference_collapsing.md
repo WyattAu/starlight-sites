@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Reference Collapsing and Forwarding References
+## Reference Collapsing and Forwarding References
 
 Reference collapsing is the template mechanism that enables a single function template to accept
 Both lvalues and rvalues while preserving their original value category. Combined with
@@ -305,6 +305,9 @@ Combinatorial explosion.
 - [Value Taxonomy](1_value_taxonomy.md)
 - [Temporary Materialization](3_temporary_materialization.md)
 - [Move Constructors, Assignment, Swap Idiom](4_move_constructors_rvo.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 
 ## 5.1 Reference Collapsing Under the Hood
 

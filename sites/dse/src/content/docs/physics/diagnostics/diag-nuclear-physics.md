@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Nuclear Physics — Diagnostic Tests
+## Nuclear Physics — Diagnostic Tests
 
 ## Unit Tests
 

@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Molecular Biology — Diagnostic Tests
+## Molecular Biology — Diagnostic Tests
 
 ## Intuition
 

@@ -53,7 +53,7 @@ The condition expression can be any Python object. Python evaluates its truthine
 Be a boolean -- this is consistent with Python's broader philosophy of duck typing.
 
 ```python
-# All of these are valid conditional expressions
+## All of these are valid conditional expressions
 if [1, 2, 3]:
     print("non-empty list is truthy")
 
@@ -102,7 +102,7 @@ Python provides a conditional expression (often called the ternary operator) wit
 Reflects the English sentence structure:
 
 ```python
-# Python's ternary: value_if_true IF condition ELSE value_if_false
+## Python's ternary: value_if_true IF condition ELSE value_if_false
 status = "adult" if age >= 18 else "minor"
 
 # Equivalent long-form

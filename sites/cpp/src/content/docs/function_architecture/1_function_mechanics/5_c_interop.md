@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# C-Interop and FFI
+## C-Interop and FFI
 
 C++ uses **name mangling** to encode type information into function symbols, enabling overloading. C
 Does not mangle names — each function has a single symbol matching its source name. Interoperating

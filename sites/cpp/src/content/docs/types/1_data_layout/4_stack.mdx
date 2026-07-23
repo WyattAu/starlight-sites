@@ -287,7 +287,7 @@ int main() {
 ### Configuring Stack Size at Link Time (Windows)
 
 ```cmake
-# CMake: Set stack size to 4 MB reserve, 4 KB commit
+## CMake: Set stack size to 4 MB reserve, 4 KB commit
 target_link_options(App PRIVATE /STACK:4194304,4096)
 ```
 
@@ -450,7 +450,7 @@ The compiler cannot apply TCO if:
 ### Verifying TCO in Assembly
 
 ```bash
-# Compile with optimization to see TCO
+## Compile with optimization to see TCO
 clang++ -O2 -S -o - tco_example.cpp | grep -A 20 "factorial_tail"
 # With TCO: you will see a 'jmp' instruction instead of 'call'
 # Without TCO: you will see 'call factorial_tail'

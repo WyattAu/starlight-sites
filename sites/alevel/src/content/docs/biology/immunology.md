@@ -406,7 +406,7 @@ negative selection in the thymus or bone marrow.
 | Systemic lupus erythematosus (SLE) | Multiple tissues (skin, kidneys, joints)           | Antibodies against nuclear antigens; widespread tissue damage                                         |
 | Myasthenia gravis                  | Acetylcholine receptors at neuromuscular junctions | Antibodies block ACh receptors; muscle weakness and fatigue                                           |
 
-For the management of Type 1 diabetes, see [Homeostasis](/docs/alevel/biology/homeostasis).
+For the management of Type 1 diabetes, see [Homeostasis](/biology/homeostasis).
 
 ## 7. Vaccination
 
@@ -2348,6 +2348,6 @@ linked above.
 
 ## Cross-References
 
-- [Biology](/alevel/biology)
-- [Cells](/alevel/biology/cells)
-- [Genetics and DNA](/alevel/biology/genetics-and-dna)
+- [Biology](/biology)
+- [Cells](/biology/cells)
+- [Genetics and DNA](/biology/genetics-and-dna)

@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Functions — Diagnostic Tests
+## Functions — Diagnostic Tests
 
 ## Unit Tests
 

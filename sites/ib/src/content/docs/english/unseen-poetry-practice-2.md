@@ -22,7 +22,7 @@ sidebar_position: 11
 }
 </script>
 
-# IB Paper 1 Unseen Poetry Practice: Sylvia Plath's "Mirror"
+## IB Paper 1 Unseen Poetry Practice: Sylvia Plath's "Mirror"
 
 This page provides a detailed analysis of Sylvia Plath's "Mirror" as practice for IB English Paper 1. Published in *Crossing the Water* (1961), the poem is a compact, formally disciplined exploration of identity, ageing, and self-knowledge. Its first-person speaker -- the mirror itself -- makes it an ideal text for examining how persona, imagery, and tone interact to produce complex meaning. The analysis below is accompanied by comparison with Heaney's "Digging" and a self-assessment checklist for candidates.
 

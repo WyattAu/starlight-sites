@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# States of Matter — Diagnostic Tests
+## States of Matter — Diagnostic Tests
 
 ## Intuition
 

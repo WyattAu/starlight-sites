@@ -28,11 +28,11 @@ The `with` statement guarantees that setup and teardown code runs, even if an ex
 The block body. It is the primary mechanism for resource management in Python.
 
 ```python
-# Basic form
+## Basic form
 with open("data.txt") as f:
     content = f.read()
 
-# Equivalent to:
+## Equivalent to:
 f = open("data.txt")
 try:
     content = f.read()

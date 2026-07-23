@@ -48,7 +48,7 @@ A SPAN port mirrors traffic from one or more source ports to a destination port 
 Device is connected. Available on most managed switches.
 
 ```text
-# Cisco IOS SPAN configuration
+## Cisco IOS SPAN configuration
 monitor session 1 source interface Gi0/1 both
 monitor session 1 destination interface Gi0/24
 ```
@@ -109,7 +109,7 @@ Packets are copied to userspace. This is critical for performance -- capturing a
 ### Primitive Filters
 
 ```bash
-# By host (source or destination)
+## By host (source or destination)
 tcpdump -i eth0 host 192.168.1.100
 
 # By source host

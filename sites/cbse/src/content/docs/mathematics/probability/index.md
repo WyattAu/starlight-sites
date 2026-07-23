@@ -69,7 +69,7 @@ description: "CBSE Class 12 mathematics: Conditional probability, Bayes' theorem
 }
 </script>
 
-# Probability
+## Probability
 
 Probability quantifies the likelihood of events. This topic covers conditional probability, Bayes' theorem, random variables, and probability distributions.
 

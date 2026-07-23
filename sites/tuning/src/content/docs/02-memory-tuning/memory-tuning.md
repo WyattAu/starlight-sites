@@ -496,10 +496,10 @@ Default for systems with sufficient RAM.
 For desktops with 16 GB or more RAM:
 
 ```bash
-# Check current value
+## Check current value
 cat /proc/sys/vm/swappiness
 
-# Set to 10 for desktop use
+## Set to 10 for desktop use
 echo 10 | sudo tee /proc/sys/vm/swappiness
 
 # Make permanent

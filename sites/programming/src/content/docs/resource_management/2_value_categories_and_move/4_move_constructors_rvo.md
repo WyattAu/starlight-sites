@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Move Constructors, Assignment, Swap Idiom
+## Move Constructors, Assignment, Swap Idiom
 
 Move semantics allow resources to be transferred between objects without copying. The move
 Constructor steals resources from a source object, leaving it in a valid but unspecified state. The
@@ -943,6 +943,10 @@ Over `std::function` if copyability is not required. This avoids the internal he
 - [Reference Collapsing and Forwarding References](2_reference_collapsing.md)
 - [Temporary Materialization](3_temporary_materialization.md)
 - [Return Value Optimization (RVO) and NRVO](5_return_value_optimization.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Summary
 

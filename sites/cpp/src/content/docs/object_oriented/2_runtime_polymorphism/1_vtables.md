@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Virtual Functions and Dispatch Tables (vtables)
+## Virtual Functions and Dispatch Tables (vtables)
 
 Virtual functions are the foundation of runtime polymorphism in C++. When a member function is
 Declared `virtual`The call is resolved at runtime based on the object"s dynamic type through the

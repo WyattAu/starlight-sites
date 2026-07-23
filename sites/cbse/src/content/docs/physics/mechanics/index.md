@@ -69,7 +69,7 @@ description: "CBSE Class 12 physics: Newton's laws, work-energy theorem, rotatio
 }
 </script>
 
-# Mechanics
+## Mechanics
 
 Mechanics is the branch of physics dealing with motion and the forces that cause it. It encompasses Newton's laws of motion, work and energy, rotational dynamics, and gravitation.
 

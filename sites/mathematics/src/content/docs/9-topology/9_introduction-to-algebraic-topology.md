@@ -156,3 +156,8 @@ Algebraic topology translates geometric questions into algebra. A loop that cann
 - **[Separation Axioms](9-topology/8_separation-axioms.md)**: The separation axioms determine which topological spaces have well-behaved fundamental groups and classification results.
 - **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: The notion of convergence underpins the definition of homotopy and the fundamental group.
 
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

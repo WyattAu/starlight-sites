@@ -47,11 +47,11 @@ versions:
 ### Creating Threads
 
 ```ruby
-# Basic thread creation
+## Basic thread creation
 thread = Thread.new { puts "Hello from thread" }
 thread.join  # wait for completion
 
-# Thread with argument
+## Thread with argument
 thread = Thread.new("Alice") do |name|
   3.times { |i| puts "#{name}: iteration #{i}"; sleep(0.1) }
 end

@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Proof and Logic — Diagnostic Tests
+## Proof and Logic — Diagnostic Tests
 
 ## Intuition
 

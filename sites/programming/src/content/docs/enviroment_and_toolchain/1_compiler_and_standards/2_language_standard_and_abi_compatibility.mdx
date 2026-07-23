@@ -94,10 +94,10 @@ Clang allows switching the underlying standard library using the `-stdlib` flag.
 Testing for portability or using Clang on Linux.
 
 ```bash
-# Link against LLVM's libc++ (Requires libc++-dev installed)
+## Link against LLVM's libc++ (Requires libc++-dev installed)
 clang++ -std=c++23 -stdlib=libc++ main.cpp
 
-# Link against GNU's libstdc++ (Default on Linux)
+## Link against GNU's libstdc++ (Default on Linux)
 clang++ -std=c++23 -stdlib=libstdc++ main.cpp
 ```
 

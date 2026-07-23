@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Type Erasure: Function Pointers, std::function, std::move_only_function
+## Type Erasure: Function Pointers, std::function, std::move_only_function
 
 Type erasure allows heterogeneous callables to be stored and invoked through a uniform interface.
 This section covers the progression from raw function pointers to `std::function` and the C++23
@@ -758,3 +758,5 @@ linked above.
 - **[Types](../../types/):** Type system fundamentals.
 - **[Resource Management](../../resource_management/):** RAII and smart pointers.
 - **[Templates](../../templates_and_metaprogramming/):** Generic programming and metaprogramming.
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)

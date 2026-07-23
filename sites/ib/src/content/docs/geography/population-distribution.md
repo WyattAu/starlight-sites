@@ -22,7 +22,7 @@ description: "This section covers the IB Geography core extension on population 
 }
 </script>
 
-# Population Distribution
+## Population Distribution
 
 This section covers the IB Geography core extension on population distribution -- changing
 population. It examines the factors that influence where people live, the dynamics of population

@@ -185,10 +185,10 @@ struct ContentView: View {
 For development on Linux or for server-side Swift, install the Swift toolchain directly:
 
 ```bash
-# Install Swift on Ubuntu
+## Install Swift on Ubuntu
 sudo apt install swift
 
-# Verify
+## Verify
 swift --version
 
 # Run a Swift file directly

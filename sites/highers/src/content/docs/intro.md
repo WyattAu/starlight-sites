@@ -29,7 +29,7 @@ categories:
 }
 </script>
 
-# Scottish Highers and Advanced Highers
+## Scottish Highers and Advanced Highers
 
 Scottish Highers and Advanced Highers are the main qualifications taken by students in Scotland,
 between the ages of 16 and 18. They are administered by the **Scottish Qualifications Authority

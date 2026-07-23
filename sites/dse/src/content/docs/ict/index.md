@@ -70,7 +70,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE ICT
+## DSE ICT
 
 Complete revision notes for HKDSE Information and Communication Technology, covering the full
 syllabus with worked examples, practical exercises, and exam-style problems. Content follows the

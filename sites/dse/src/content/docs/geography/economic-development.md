@@ -25,7 +25,7 @@ tableOfContents: false
 }
 </script>
 
-# Industrial Location and Economic Development
+## Industrial Location and Economic Development
 
 ## Key Terms
 

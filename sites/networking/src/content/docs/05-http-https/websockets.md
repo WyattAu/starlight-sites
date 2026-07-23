@@ -83,12 +83,12 @@ The `Sec-WebSocket-Accept` value is computed as follows:
 4. Base64-encode the hash
 
 ```bash
-# Verify the handshake computation
+## Verify the handshake computation
 KEY="dGhlIHNhbXBsZSBub25jZQ=="
 GUID="258EAFA5-E914-47DA-95CA-C5AB0DC85B11"
 ACCEPT=$(printf "%s%s" "$KEY" "$GUID" | openssl dgst -sha1 -binary | base64)
 echo "$ACCEPT"
-# Output: s3pPLMBiTxaQ9kYGzzhZRbK+xOo=
+## Output: s3pPLMBiTxaQ9kYGzzhZRbK+xOo=
 ```
 
 This mechanism prevents a regular HTTP client from accidentally establishing a WebSocket connection,

@@ -42,10 +42,10 @@ Without worktrees, switching branches requires a clean working directory:
 
 ```bash
 $ git switch feature-auth
-# "error: Your local changes would be overwritten"
+## "error: Your local changes would be overwritten"
 $ git stash
 $ git switch feature-auth
-# ... work on feature ...
+## ... work on feature ...
 $ git switch main
 $ git stash pop
 # ... work on main ...

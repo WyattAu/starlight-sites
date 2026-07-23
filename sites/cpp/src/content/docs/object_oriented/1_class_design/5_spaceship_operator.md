@@ -26,7 +26,7 @@ categories:
 }
 </script>
 
-# The Spaceship Operator (`<=>`) and Default Comparisons
+## The Spaceship Operator (`<=>`) and Default Comparisons
 
 C++20 introduced the three-way comparison operator `<=>` (the "spaceship operator") as a unified
 Mechanism for defining all relational comparisons in a single declaration. Combined with

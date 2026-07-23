@@ -44,13 +44,13 @@ Understand the difference between a new connection, an established connection, a
 Connection.
 
 ```bash
-# nftables example: stateful firewall rules
+## nftables example: stateful firewall rules
 nft add table inet filter
 nft 'add chain inet filter input { type filter hook input priority 0; policy drop; }'
 nft 'add chain inet filter output { type filter hook output priority 0; policy accept; }'
 nft 'add chain inet filter forward { type filter hook forward priority 0; policy drop; }'
 
-# Allow established/related connections
+## Allow established/related connections
 nft add rule inet filter input ct state established,related accept
 
 # Allow loopback

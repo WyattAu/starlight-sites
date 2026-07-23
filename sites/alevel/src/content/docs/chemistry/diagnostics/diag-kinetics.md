@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Reaction kinetics is like watching a race — some reactions sprint to completion, while others stroll leisurely.**
 
-# Chemical Kinetics — Diagnostic Tests
+## Chemical Kinetics — Diagnostic Tests
 
 ## Unit Tests
 

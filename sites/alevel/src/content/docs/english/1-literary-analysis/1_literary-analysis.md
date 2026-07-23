@@ -28,7 +28,7 @@ description: "A-Level English Literary Analysis notes covering key definitions, 
 }
 </script>
 
-# Literary Analysis
+## Literary Analysis
 
 ## Introduction
 

@@ -190,3 +190,7 @@ The average sound speed $v_s$ used in the Debye model must account for both long
 - [Thermodynamic Response Functions](/physics/2-thermal-physics/17_thermodynamic-response-functions) -- The heat capacity $C_V$ derived from the Debye model is an example of the response functions treated in that chapter.
 - [Ising Model and Mean-Field Theory](/physics/2-thermal-physics/12_ising-model-and-mean-field-theory) -- Both the Debye model and mean-field theory illustrate how simplified models capture essential physics of phase transitions and collective excitations.
 - [Irreversible Thermodynamics and Fluctuations](/physics/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations) -- Phonon transport and thermal conductivity connect the equilibrium Debye model to irreversible thermodynamic processes.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

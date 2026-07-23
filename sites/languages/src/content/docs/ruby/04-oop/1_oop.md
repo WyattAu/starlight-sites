@@ -36,7 +36,7 @@ Object-oriented programming organises code around objects that bundle data with 
 ### Class Definition
 
 ```ruby
-# Basic class
+## Basic class
 class Person
   def initialize(name, age)
     @name = name
@@ -59,7 +59,7 @@ end
 alice = Person.new("Alice", 30)
 puts alice.greet  # => "Hello, I'm Alice, age 30"
 
-# Classes are first-class objects
+## Classes are first-class objects
 Person.class        # => Class
 Person.superclass    # => Object
 Person.ancestors      # => [Person, Object, Kernel, BasicObject]

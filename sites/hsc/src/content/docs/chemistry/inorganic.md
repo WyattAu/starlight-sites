@@ -21,7 +21,7 @@ description: "HSC chemistry: Inorganic"
 }
 </script>
 
-# Inorganic
+## Inorganic
 
 HSC chemistry study notes - Inorganic
 

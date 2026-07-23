@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Stoichiometry and Formulae
+## Stoichiometry and Formulae
 
 Stoichiometry is the quantitative study of chemical reactions, including mole calculations,
 Balancing equations, and determining empirical and molecular formulae. It also covers titration

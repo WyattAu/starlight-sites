@@ -324,10 +324,10 @@ git subtree split \
 ### Creating a New Repository from a Subdirectory
 
 ```bash
-# 1. In the parent repository, split the subdirectory into a new branch
+## 1. In the parent repository, split the subdirectory into a new branch
 $ git subtree split --prefix=vendor/lib -b lib-only
 
-# 2. Create a new bare repository from that branch
+## 2. Create a new bare repository from that branch
 $ git init --bare /tmp/lib-repo.git
 $ cd /tmp/lib-repo.git
 $ git pull ../parent-repo lib-only

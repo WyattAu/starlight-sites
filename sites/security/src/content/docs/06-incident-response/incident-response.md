@@ -224,7 +224,7 @@ Security posture.
 Detection rules translate threat intelligence into automated alerts in your SIEM or EDR:
 
 ```yaml
-# Sigma rule: Detect suspicious PowerShell execution
+## Sigma rule: Detect suspicious PowerShell execution
 title: Suspicious PowerShell Encoded Command
 status: production
 description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and"
@@ -246,7 +246,7 @@ tags:
 ```
 
 ```yaml
-# Sigma rule: Detect potential SSH brute force
+## Sigma rule: Detect potential SSH brute force
 title: SSH Brute Force Attempt
 status: production
 description: "NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and..."

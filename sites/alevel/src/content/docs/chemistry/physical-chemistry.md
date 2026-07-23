@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Physical Chemistry
+## Physical Chemistry
 
 Comprehensive study guide covering the core physical chemistry topics for A-Level examinations
 across all major exam boards.

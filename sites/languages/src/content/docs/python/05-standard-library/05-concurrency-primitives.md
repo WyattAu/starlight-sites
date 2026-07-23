@@ -93,8 +93,8 @@ r = threading.Thread(target=regular_worker)
 d.start()
 r.start()
 
-# When the main thread exits, daemon threads are killed immediately
-# Regular threads keep the process alive
+## When the main thread exits, daemon threads are killed immediately
+## Regular threads keep the process alive
 r.join()  # Wait for regular thread
 # Program exits here — daemon thread is terminated
 ```

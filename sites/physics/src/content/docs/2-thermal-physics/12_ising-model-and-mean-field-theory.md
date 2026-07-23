@@ -201,3 +201,7 @@ Critical exponents are universal: they depend only on the dimensionality of the 
 - [Irreversible Thermodynamics and Fluctuations](/physics/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations) -- The fluctuation-dissipation theorem connects the susceptibility divergence to spin fluctuations near criticality.
 - [The Debye Model of Solids](/physics/2-thermal-physics/16_the-debye-model-of-solids) -- The lattice dynamics and phonon spectrum of solids provide the microscopic foundation for understanding spin-phonon coupling in magnetic materials.
 
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

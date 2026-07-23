@@ -70,7 +70,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Economics
+## DSE Economics
 
 Complete revision notes for HKDSE Economics, covering both microeconomics and macroeconomics with
 worked examples, data-response practice, and exam-style problems. Content follows the HKEAA

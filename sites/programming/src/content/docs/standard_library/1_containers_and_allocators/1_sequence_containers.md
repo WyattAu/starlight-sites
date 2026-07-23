@@ -768,6 +768,10 @@ extra indirection adds 2-5 cycles per access compared to vector's single Indirec
 - [Iterator Categories, Traversal, Invalidation](./3_iterators.md)
 - [Polymorphic Memory Resources (PMR)](./4_pmr.md)
 
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+
 ## Intuition
 
 **Sequence containers are like different types of shelves:** `std::vector` is like a single long shelf — everything is in a row, great for browsing (iteration), but inserting in the middle requires shifting everything. `std::deque` is like a series of connected shelves — you can add new shelves at the ends without shifting, but middle insertions still require shifting. `std::list` is like a chain of individual shelves connected by arrows — you can insert anywhere by just rewiring the arrows, but you can't jump to the middle without following the arrows.

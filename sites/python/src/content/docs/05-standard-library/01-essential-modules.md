@@ -89,7 +89,7 @@ print(config_file.stem)           # 'settings'
 ```python
 import os
 
-# These have no pathlib equivalent
+## These have no pathlib equivalent
 pid = os.getpid()
 env_home = os.environ.get("HOME", "/tmp")
 os.chmod("/tmp/file.txt", 0o644)
@@ -169,7 +169,7 @@ First match wins. The initial value is populated from:
 import sys
 
 print(sys.path[:3])
-# ['/home/user/project', '/usr/lib/python312.zip', '/usr/lib/python3.12']
+## ['/home/user/project', '/usr/lib/python312.zip', '/usr/lib/python3.12']
 
 # Temporarily prepend a directory
 sys.path.insert(0, "/opt/custom_libs")

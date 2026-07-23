@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Thread-Local Storage (TLS)
+## Thread-Local Storage (TLS)
 
 This section covers the `thread_local` keyword, TLS implementation mechanisms, performance
 Characteristics, initialization guarantees, TLS in thread pools, and practical patterns such as
@@ -826,6 +826,11 @@ Deallocation of the entire pool.
 - [Thread Execution (std::jthread) and Hardware Mapping](./1_threads_jthread.md)
 - [Data Races and Critical Sections](./2_data_races.md)
 - [Mutexes, Shared Locks, and Deadlock Prevention](./3_mutexes_deadlocks.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Worked Examples
 

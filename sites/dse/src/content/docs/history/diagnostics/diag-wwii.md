@@ -22,7 +22,7 @@ sidebar_position: 10
 }
 </script>
 
-# Diagnostic Test: World War II
+## Diagnostic Test: World War II
 
 Answer each question. Check your answers against the key at the end.
 

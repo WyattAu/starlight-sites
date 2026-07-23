@@ -178,3 +178,8 @@ Thermodynamic pitfalls arise from confusing mathematical formalism with physical
 - **[The Laws of Thermodynamics](1_the-laws-of-thermodynamics.md)**: The ensemble distinctions and entropy arguments reviewed here rest on the foundational laws covered in this chapter.
 - **[Statistical Mechanics](2_statistical-mechanics.md)**: The correct use of ensembles and the $1/N!$ factor are clarified through the partition function formalism.
 - **[Phase Transitions](10_phase-transitions.md)**: The first-order versus continuous distinction is developed quantitatively in the phase transitions chapter.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

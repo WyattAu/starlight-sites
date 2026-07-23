@@ -72,7 +72,7 @@ description: "UNIVERSITY Physics notes: Electromagnetism. Comprehensive study ma
 }
 </script>
 
-# Electromagnetism
+## Electromagnetism
 
 ## Contents
 
@@ -139,6 +139,11 @@ Each section includes:
 - **[Classical Mechanics](../../1-classical-mechanics/index.md):** Electromagnetic forces in mechanics; charged particle dynamics.
 - **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum electrodynamics; the quantum theory of electromagnetic interactions.
 - **[Particle Physics](../../7-particle-physics-and-cosmology/index.md):** The photon is the gauge boson of electromagnetism in the Standard Model.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Common Mistakes
 

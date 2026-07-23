@@ -207,3 +207,8 @@ Homeomorphism preserves topological properties but not geometric ones. A coffee 
 - **[Metric Spaces](7_metric-spaces.md)**: Metric spaces induce topologies through open balls, providing concrete examples of topological concepts.
 - **[Continuity and Homeomorphisms](4_continuity-and-homeomorphisms.md)**: Continuous functions and homeomorphisms are fundamental morphisms in topology.
 - **[Topological Spaces](2_topological-spaces.md)**: Detailed study of topological space definitions, bases, and subspace topologies.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

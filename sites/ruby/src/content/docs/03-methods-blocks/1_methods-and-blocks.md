@@ -32,14 +32,14 @@ categories:
 ### Basic Methods
 
 ```ruby
-# Simple method definition
+## Simple method definition
 def greet
   puts "Hello, World!"
 end
 
 greet  # => prints "Hello, World!"
 
-# Method with parameters
+## Method with parameters
 def greet(name)
   puts "Hello, #{name}!"
 end

@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# GCSE Physics — Diagnostic Guide
+## GCSE Physics — Diagnostic Guide
 
 ## Coverage Map
 

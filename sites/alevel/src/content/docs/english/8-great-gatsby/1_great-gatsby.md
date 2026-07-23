@@ -33,7 +33,7 @@ description: "A-Level English revision notes on F. Scott Fitzgerald's The Great 
 
 **English literature explores the human experience through language — words painting pictures of life.**
 
-# The Great Gatsby
+## The Great Gatsby
 
 ## Introduction
 

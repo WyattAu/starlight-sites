@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Compare-and-Swap (CAS) Loops
+## Compare-and-Swap (CAS) Loops
 
 This section covers the CAS loop pattern, the difference between `compare_exchange_weak` and
 `compare_exchange_strong`When weak CAS is preferable, linearizability of CAS-based data Structures,
@@ -727,6 +727,12 @@ The head swings, so it can never be recycled and re-inserted. The tail pointer m
   cycles and bus bandwidth. Use `__builtin_ia32_pause()` on x86, `yield()` on ARM, or
   `std::this_thread::yield()` to reduce contention.
 
+
+## See Also
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Worked Examples
 

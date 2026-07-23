@@ -54,11 +54,11 @@ Naming conventions exist so that a reader can determine the role of a name from 
 Without needing to look up its definition.
 
 ```python
-# Module names: short, lowercase, no underscores for readability if single word
+## Module names: short, lowercase, no underscores for readability if single word
 import collections
 import json_parser
 
-# Package names: same as modules
+## Package names: same as modules
 # mypackage/
 
 # Class names: CapWords (CamelCase)

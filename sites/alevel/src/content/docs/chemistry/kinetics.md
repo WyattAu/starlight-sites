@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Chemical Kinetics
+## Chemical Kinetics
 
 Kinetics is the study of reaction rates and the factors that influence them. Thermodynamics tells us
 whether a reaction is feasible; kinetics tells us whether it occurs at an observable rate.
@@ -1110,9 +1110,9 @@ linked above.
 
 ## Cross-References
 
-- [Chemistry](/alevel/chemistry)
-- [Atomic Structure](/alevel/chemistry/atomic-structure)
-- [Organic Chemistry](/alevel/chemistry/organic-chemistry)
+- [Chemistry](/chemistry)
+- [Atomic Structure](/chemistry/atomic-structure)
+- [Organic Chemistry](/chemistry/organic-chemistry)
 
 ## Intuition
 

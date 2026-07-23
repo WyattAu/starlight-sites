@@ -52,11 +52,11 @@ graph TD
 ```
 
 ```bash
-# Inspect a DEB package without installing
+## Inspect a DEB package without installing
 dpkg-deb -I package.deb          # control info
 dpkg-deb -c package.deb          # list files
 
-# Inspect an RPM package without installing
+## Inspect an RPM package without installing
 rpm -qip package.rpm             # info
 rpm -qlp package.rpm             # list files
 rpm -q --scripts package.rpm     # install/remove scripts

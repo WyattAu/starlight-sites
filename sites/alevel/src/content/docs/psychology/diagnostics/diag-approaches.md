@@ -23,7 +23,7 @@ sidebar_position: 40
 }
 </script>
 
-# Diagnostic Test: Approaches
+## Diagnostic Test: Approaches
 
 **Instructions:** Attempt each question without referring to notes. Select the best answer from the four options provided. After completing all questions, check your answers against the key below.
 

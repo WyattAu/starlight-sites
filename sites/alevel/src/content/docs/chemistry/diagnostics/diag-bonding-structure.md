@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Chemical bonds are like握手 — atoms sharing or transferring electrons to become more stable.**
 
-# Bonding and Structure — Diagnostic Tests
+## Bonding and Structure — Diagnostic Tests
 
 ## Unit Tests
 

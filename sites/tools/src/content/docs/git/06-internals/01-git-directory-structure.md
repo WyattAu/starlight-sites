@@ -129,7 +129,7 @@ Local gitignore rules that are **not shared** with other developers (unlike `.gi
 tracked):
 
 ```bash
-# .git/info/exclude
+## .git/info/exclude
 *.swp
 .DS_Store
 ```
@@ -155,7 +155,7 @@ Each loose object is stored as a zlib-compressed file. The filename is the first
 the SHA-1, and the file content is the remaining 38 characters' worth of compressed data.
 
 ```bash
-# Decompress and view a loose object
+## Decompress and view a loose object
 $ python3 -c "import zlib; print(zlib.decompress(open('.git/objects/a3/f2b1c...','rb').read()).decode())"
 blob 13Hello, World
 

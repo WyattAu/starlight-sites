@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Defining Concepts and Requires Clauses
+## Defining Concepts and Requires Clauses
 
 C++20 introduced **concepts** --- named requirements for template parameters that allow the compiler
 To check, at the point of instantiation, whether a type satisfies a set of constraints. Concepts

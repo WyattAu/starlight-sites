@@ -21,7 +21,7 @@ description: "HSC mathematics: Algebra"
 }
 </script>
 
-# Algebra
+## Algebra
 
 HSC mathematics study notes - Algebra
 

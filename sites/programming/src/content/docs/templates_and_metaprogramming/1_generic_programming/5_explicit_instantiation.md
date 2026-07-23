@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Explicit Instantiation and Extern Templates
+## Explicit Instantiation and Extern Templates
 
 When templates are instantiated implicitly in every translation unit that uses them, compilation
 Time and binary size can grow significantly. C++ provides **explicit instantiation** and **extern
@@ -796,6 +796,10 @@ export template class DataBuffer<double>;
 - [Dependent Names and Two-Phase Lookup](./4_dependent_names.md)
 - [Template Argument Deduction and CTAD](./2_argument_deduction.md)
 - [SFINAE and Partial Specialization](./3_specialization.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Summary
 

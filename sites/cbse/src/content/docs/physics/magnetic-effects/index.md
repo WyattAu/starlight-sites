@@ -69,7 +69,7 @@ description: "CBSE Class 12 physics: Magnetic effects of current with Biot-Savar
 }
 </script>
 
-# Magnetic Effects of Current and Magnetism
+## Magnetic Effects of Current and Magnetism
 
 Magnetic effects of current covers the magnetic field produced by electric currents, force on moving charges in magnetic fields, and the behavior of materials in magnetic fields.
 

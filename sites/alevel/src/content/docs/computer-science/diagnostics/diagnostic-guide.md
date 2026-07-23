@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# A-Level Computer Science — Diagnostic Guide
+## A-Level Computer Science — Diagnostic Guide
 
 ## Coverage Map
 

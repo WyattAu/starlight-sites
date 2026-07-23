@@ -28,7 +28,7 @@ description: "A-Level History Historical Skills notes covering key definitions, 
 }
 </script>
 
-# Historical Skills
+## Historical Skills
 
 A-Level History rewards precise analytical thinking. You must evaluate sources, construct sustained
 arguments, and engage with competing historical interpretations. This section provides the core

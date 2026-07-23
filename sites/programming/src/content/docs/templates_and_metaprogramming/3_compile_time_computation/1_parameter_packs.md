@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Parameter Packs and Variadic Templates
+## Parameter Packs and Variadic Templates
 
 A **variadic template** accepts a variable number of template arguments via a **parameter pack**
 [N4950 §13.7.3]. Parameter packs come in two forms: type parameter packs and non-type parameter
@@ -599,6 +599,9 @@ int main() {
 - [Argument Deduction (Class and Function)](../1_generic_programming/2_argument_deduction.md)
 - [Template Instantiation, Monomorphization, and Code Bloat](../1_generic_programming/1_instantiation.md)
 
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 
 ## Summary
 

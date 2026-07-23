@@ -291,3 +291,5 @@ The Cauchy-Schwarz inequality is the foundation: it says the "correlation" betwe
 - **[Singular Value Decomposition](8_singular-value-decomposition.md)**: The SVD decomposes a matrix using orthonormal bases derived from inner products on $A^T A$ and $AA^T$.
 
 </aside>
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

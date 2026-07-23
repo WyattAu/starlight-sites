@@ -21,7 +21,7 @@ description: "The carbon cycle and carbon sequestration processes."
 }
 </script>
 
-# Carbon Cycle and Sequestration
+## Carbon Cycle and Sequestration
 
 ## Intuition
 

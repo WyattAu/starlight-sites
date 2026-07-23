@@ -44,7 +44,7 @@ No server-side session is required (but tokens must be stateless or validated).
 ### API Keys
 
 ```python
-# Simple API key in header
+## Simple API key in header
 API_KEYS = {
     "key_abc123': {'name': "service-a'', "scopes': ['read:users']},
     'key_def456': {'name': "service-b'', "scopes': ['read:users', 'write:orders']},
@@ -131,7 +131,7 @@ def verify_hmac_signature(request, api_secret):
 ### mTLS
 
 ```nginx
-# Nginx: require client certificates
+## Nginx: require client certificates
 server {
     listen 443 ssl;
     ssl_certificate /etc/nginx/server.crt;

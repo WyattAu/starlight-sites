@@ -28,7 +28,7 @@ description: "A-Level English Prose Analysis notes covering key definitions, cor
 }
 </script>
 
-# Prose Analysis
+## Prose Analysis
 
 ## Introduction
 

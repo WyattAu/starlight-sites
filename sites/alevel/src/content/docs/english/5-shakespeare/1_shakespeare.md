@@ -28,7 +28,7 @@ description: "A-Level English Shakespeare notes covering key definitions, core c
 }
 </script>
 
-# Shakespeare
+## Shakespeare
 
 ## Introduction
 

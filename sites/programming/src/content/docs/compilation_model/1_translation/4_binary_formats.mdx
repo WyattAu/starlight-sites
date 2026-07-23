@@ -429,7 +429,7 @@ Fills in when the DLL is loaded.
 Unlike ELF's lazy binding, Windows defaults to load-time binding (all IAT entries are resolved when
 The process starts). You can enable delay-load imports for DLLs that may not be needed:
 ```cmake
-# Delay-load a DLL
+## Delay-load a DLL
 target_link_options(app PRIVATE /DELAYLOAD:myplugin.dll)
 ```
 ### Thread-Local Storage (TLS)
@@ -446,7 +446,7 @@ The TLS model affects performance:
 | **Initial Exec**   | Faster, but the TLS block address is known at load time | One memory access                     |
 | **Local Exec**     | Fastest, TLS block address is a compile-time constant   | Direct offset from `fs/gs`            |
 ```cmake
-# Optimize TLS for executables (no shared library TLS access)
+## Optimize TLS for executables (no shared library TLS access)
 target_compile_options(app PRIVATE -ftls-model=initial-exec)
 ```
 Use `initial-exec` for performance-critical `thread_local` variables in executables. It breaks if

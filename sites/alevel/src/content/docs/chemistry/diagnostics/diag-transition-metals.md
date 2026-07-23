@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
 
-# Transition Metals — Diagnostic Tests
+## Transition Metals — Diagnostic Tests
 
 ## Unit Tests
 

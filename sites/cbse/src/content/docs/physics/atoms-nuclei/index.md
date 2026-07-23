@@ -69,7 +69,7 @@ description: "CBSE Class 12 physics: Atomic models, nuclear physics, radioactivi
 }
 </script>
 
-# Atoms and Nuclei
+## Atoms and Nuclei
 
 This topic covers the Bohr model of the hydrogen atom, X-ray production, nuclear structure, radioactivity, and nuclear energy.
 

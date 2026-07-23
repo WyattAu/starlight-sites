@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
 
-# Sequences and Series — Diagnostic Tests
+## Sequences and Series — Diagnostic Tests
 
 ## Unit Tests
 

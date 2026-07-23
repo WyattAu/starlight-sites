@@ -21,7 +21,7 @@ description: "Introduction to physics notes."
 }
 </script>
 
-# Physics
+## Physics
 
 Welcome to the physics notes. These notes cover undergraduate physics, from classical mechanics through quantum theory and statistical mechanics.
 
@@ -52,6 +52,11 @@ Physics describes the fundamental laws governing the universe — from the motio
 - **[Classical Mechanics](/docs/university/physics/classical-mechanics)**: Newtonian and Lagrangian mechanics describe motion of macroscopic objects.
 - **[Electromagnetism](/docs/university/physics/electromagnetism)**: Maxwell's equations unify electricity, magnetism, and light.
 - **[Quantum Mechanics](/docs/university/physics/quantum-mechanics)**: Quantum theory governs behaviour at atomic and subatomic scales.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Core Concepts
 

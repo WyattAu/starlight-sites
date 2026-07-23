@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Magnetic fields are like invisible dancers that exert forces on moving charges, creating elegant patterns.**
 
-# Magnetic Fields — Diagnostic Tests
+## Magnetic Fields — Diagnostic Tests
 
 ## Unit Tests
 

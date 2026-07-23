@@ -168,3 +168,8 @@ Identical particles are truly indistinguishable, not just similar. Swapping two 
 - **[Spin](7_spin.md)**: Spin is an intrinsic angular momentum that determines particle statistics and exchange symmetry.
 - **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom.md)**: Angular momentum theory provides the foundation for understanding spin statistics.
 - **[Approximation Methods](8_approximation-methods.md)**: Perturbation theory and variational methods are essential for solving many-body quantum problems.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

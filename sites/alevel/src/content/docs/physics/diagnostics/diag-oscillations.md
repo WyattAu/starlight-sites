@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Oscillations — Diagnostic Tests
+## Oscillations — Diagnostic Tests
 
 ## Unit Tests
 

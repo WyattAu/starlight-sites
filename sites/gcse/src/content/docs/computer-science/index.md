@@ -76,7 +76,7 @@ categories:
 }
 </script>
 
-# GCSE Computer Science
+## GCSE Computer Science
 
 Comprehensive revision notes for GCSE Computer Science, covering all major exam boards (AQA,
 Edexcel, OCR, WJEC).

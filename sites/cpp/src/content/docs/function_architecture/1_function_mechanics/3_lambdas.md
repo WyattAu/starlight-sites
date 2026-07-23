@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Lambda Expressions: Capture Layouts and Closure Types
+## Lambda Expressions: Capture Layouts and Closure Types
 
 A lambda expression produces a **closure object** — an unnamed object of an unnamed class type (the
 Closure type). This section covers lambda syntax, capture modes, generic lambdas, stateful lambda

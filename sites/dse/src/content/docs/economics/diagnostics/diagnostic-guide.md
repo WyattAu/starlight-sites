@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Economics — Diagnostic Guide
+## DSE Economics — Diagnostic Guide
 
 ## Coverage Map
 

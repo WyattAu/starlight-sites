@@ -364,10 +364,10 @@ Internal            NAT External        Destination
 ### NAT on Linux
 
 ```bash
-# Enable NAT (masquerade) for outbound traffic on eth0
+## Enable NAT (masquerade) for outbound traffic on eth0
 iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 
-# DNAT: Forward port 80 to internal server
+## DNAT: Forward port 80 to internal server
 iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j DNAT --to 192.168.1.10:80
 
 # SNAT with specific source address

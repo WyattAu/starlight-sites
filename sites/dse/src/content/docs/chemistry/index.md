@@ -70,7 +70,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Chemistry
+## DSE Chemistry
 
 Complete revision notes for HKDSE Chemistry, covering the full syllabus with worked examples,
 reaction mechanisms, and exam-style problems. Content is structured to build from fundamentals

@@ -22,7 +22,7 @@ sidebar_position: 11
 }
 </script>
 
-# Diagnostic Test: Climate
+## Diagnostic Test: Climate
 
 Answer each question. Check your answers against the key at the end.
 

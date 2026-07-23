@@ -171,6 +171,8 @@ The value $2.405$ is the first zero of $J_0$, which determines the cutoff of the
 - **[Dispersion](./11_dispersion.md)**: Material and waveguide dispersion limit the data rate in fibre communication by broadening optical pulses.
 - **[Electromagnetic Waves](./2_electromagnetic-waves.md)**: The wave equation and boundary conditions for electromagnetic fields in cylindrical waveguides determine the fibre modes.
 
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+
 ## Intuition
 
 Optical fibers guide light through total internal reflection, trapping it in a core surrounded by cladding with a lower refractive index. The critical angle determines the cone of acceptance: light entering within this cone is guided, while light at steeper angles escapes. Multimode fibers allow many paths, causing pulse spreading as different modes travel different distances. Single-mode fibers restrict light to one path, eliminating this dispersion and enabling long-distance communication. The cladding is not just protective but essential for guiding, and the fiber's bending radius determines how much light leaks out.

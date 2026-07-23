@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Electromagnetism Unification — Diagnostic Tests
+## Electromagnetism Unification — Diagnostic Tests
 
 ## Unit Tests
 

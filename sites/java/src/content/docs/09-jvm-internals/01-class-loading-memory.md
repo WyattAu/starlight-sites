@@ -182,8 +182,8 @@ Larger region.
 
 ```bash
 java -Xms512m -Xmx4g MyApp
-# -Xms: initial heap size
-# -Xmx: maximum heap size
+## -Xms: initial heap size
+## -Xmx: maximum heap size
 ```
 
 The young generation size is 1/3 of the total heap, but this is configurable. The ratio of Eden to

@@ -361,3 +361,6 @@ Logic is the foundation of mathematical reasoning and computer science. Proposit
 - [[1-discrete-mathematics/3_proof-techniques]] - Logical proof methods
 - [[3-theory/automata-and-formal-languages]] - Logic in formal languages
 - [[1-algorithms/algorithm-design]] - Logical reasoning in algorithms
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

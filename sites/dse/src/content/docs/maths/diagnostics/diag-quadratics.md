@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Quadratics — Diagnostic Tests
+## Quadratics — Diagnostic Tests
 
 ## Unit Tests
 

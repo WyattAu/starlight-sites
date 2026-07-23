@@ -65,10 +65,10 @@ pacman -S mingw-w64-ucrt-x86_64-ninja
 ### Linux
 
 ```bash
-# Debian/Ubuntu
+## Debian/Ubuntu
 sudo apt install ninja-build
 
-# RHEL/Fedora
+## RHEL/Fedora
 sudo dnf install ninja-build
 
 # Arch Linux

@@ -161,6 +161,10 @@ where $+$ is for fermions (Fermi-Dirac) and $-$ is for bosons (Bose-Einstein). T
 - **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature.md)**: The Sommerfeld expansion describes how Fermi-Dirac statistics modify the ideal gas at low temperatures.
 - **[Bose-Einstein Condensation](5_bose-einstein-condensation.md)**: Bose-Einstein condensation arises from Bose statistics in the grand canonical ensemble when $\mu$ approaches the ground state energy.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ## Applications
 
 - **Adsorption and surface science:** The grand canonical ensemble describes gas molecules adsorbing on a surface, where the number of adsorbed particles fluctuates as the system exchanges molecules with the gas phase.

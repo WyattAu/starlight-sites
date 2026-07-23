@@ -21,7 +21,7 @@ description: "Introduction to mathematics notes."
 }
 </script>
 
-# Mathematics
+## Mathematics
 
 Welcome to the mathematics notes. These notes cover proof-based undergraduate mathematics, from foundational algebraic structures to advanced analysis and geometry.
 
@@ -77,6 +77,11 @@ Mathematics is cumulative — each topic builds on previous ones. If you encount
 - **[Real Analysis](/docs/university/mathematics/real-analysis)**: Rigorous treatment of limits, continuity, and integration underpins calculus and its extensions.
 - **[Linear Algebra](/docs/university/mathematics/linear-algebra)**: Vector spaces and linear maps are used throughout mathematics, physics, and engineering.
 - **[Topology](/docs/university/mathematics/topology)**: Topological spaces generalise notions of closeness and continuity beyond metric spaces.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
 
 ## Common Mistakes
 

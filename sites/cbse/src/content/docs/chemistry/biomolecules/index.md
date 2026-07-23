@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Carbohydrates, proteins, nucleic acids, a
 }
 </script>
 
-# Biomolecules
+## Biomolecules
 
 Biomolecules are organic molecules essential for life. This topic covers carbohydrates, proteins, nucleic acids, and vitamins.
 

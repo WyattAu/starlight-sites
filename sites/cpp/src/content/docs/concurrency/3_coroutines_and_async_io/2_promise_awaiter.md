@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# The Coroutine Handle, Promise Type, and Awaiter
+## The Coroutine Handle, Promise Type, and Awaiter
 
 This section covers the three interacting components of the C++ coroutine machinery, `co_await`
 Expression semantics, the promise type vs awaiter distinction, `get_return_object()`

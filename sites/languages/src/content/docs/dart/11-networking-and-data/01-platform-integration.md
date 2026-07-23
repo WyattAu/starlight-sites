@@ -26,7 +26,7 @@ categories:
 }
 </script>
 
-# Platform Integration
+## Platform Integration
 
 ## Why Platform Integration
 

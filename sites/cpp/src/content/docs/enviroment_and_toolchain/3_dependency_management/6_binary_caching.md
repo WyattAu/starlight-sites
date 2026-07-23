@@ -78,10 +78,10 @@ Variable. This follows the **Provider Model**.
 Useful for sharing builds between different projects on the same disk.
 
 ```bash
-# Windows
+## Windows
 $env:VCPKG_BINARY_SOURCES="clear;files,C:\vcpkg-cache,readwrite"
 
-# Linux/macOS
+## Linux/macOS
 export VCPKG_BINARY_SOURCES="clear;files,/var/cache/vcpkg,readwrite"
 ```
 

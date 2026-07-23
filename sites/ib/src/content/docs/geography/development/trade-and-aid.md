@@ -21,7 +21,7 @@ description: "Global trade patterns and development aid."
 }
 </script>
 
-# Trade and Aid
+## Trade and Aid
 
 ## Intuition
 

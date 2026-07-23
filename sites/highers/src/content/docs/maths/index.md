@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Scottish Highers Mathematics
+## Scottish Highers Mathematics
 
 Higher Mathematics develops algebraic, trigonometric, and calculus skills essential for STEM
 subjects and university entry. The course covers functions, calculus, trigonometry, vectors, and

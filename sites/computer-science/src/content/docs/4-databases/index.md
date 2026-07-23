@@ -72,7 +72,7 @@ tags:
 }
 </script>
 
-# Database Systems
+## Database Systems
 
 Database systems provide mechanisms for the structured storage, retrieval, and management of data. The relational model, introduced by E.F. Codd, organises data into tables (relations) with well-defined schemas, enabling data integrity and efficient querying through structured query language (SQL). Understanding database design principles is essential for building systems that manage large volumes of data reliably.
 

@@ -152,6 +152,9 @@ snapshot but may still see phantoms (rows appearing/disappearing in range querie
 | [Databases] | DSE        | [View](https://dse.wyattau.com/docs/dse/ict/3-programming-and-databases/3_data-management)                 |
 | [Databases] | University | [View](https://university.wyattau.com/docs/computing/4-databases/1_databases)                              |
 
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
 ## Key Relationships Between Normal Forms
 
 | Normal form | Condition                                | Example violation       |

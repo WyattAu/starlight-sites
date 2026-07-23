@@ -74,7 +74,7 @@ description: 'A-Level Computer Science Data Structures notes covering key defini
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Data Structures
+## Data Structures
 
 Data structures are organised collections of data that enable efficient access, modification, and
 storage. Choosing the right data structure is one of the most impactful decisions in algorithm

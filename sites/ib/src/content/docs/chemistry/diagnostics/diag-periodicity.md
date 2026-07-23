@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Periodicity — Diagnostic Tests
+## Periodicity — Diagnostic Tests
 
 ## Intuition
 

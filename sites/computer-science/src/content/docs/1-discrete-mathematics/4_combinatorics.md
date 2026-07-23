@@ -307,3 +307,6 @@ Combinatorics counts and structures discrete objects. Permutations arrange objec
 - [[1-discrete-mathematics/6_recurrence-relations]] - Recurrences in counting
 - [[1-algorithms/complexity-theory]] - Counting in complexity analysis
 - [[3-theory/machine-learning-fundamentals]] - Probability distributions
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

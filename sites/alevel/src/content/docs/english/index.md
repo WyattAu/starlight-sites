@@ -81,7 +81,7 @@ description: "A-Level English notes covering key definitions, core concepts, wor
 
 **English literature explores the human experience through language — words painting pictures of life.**
 
-# A-Level English
+## A-Level English
 
 A-Level English Literature and Language are core subjects that develop critical thinking, analytical
 writing, and deep engagement with texts across periods and genres.
@@ -90,13 +90,13 @@ writing, and deep engagement with texts across periods and genres.
 
 | Section | Topic                                                             | Description                                                       |
 | ------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- |
-| 1       | [Literary Analysis](/docs/alevel/english/literary-analysis)       | Close reading, critical approaches, and literary devices          |
-| 2       | [Poetry](/docs/alevel/english/poetry-analysis)                    | Form, meter, imagery, sound devices, and anthology study          |
-| 3       | [Prose](/docs/alevel/english/prose-analysis)                      | Narrative voice, character, setting, theme, and genre             |
-| 4       | [Drama](/docs/alevel/english/drama-analysis)                      | Stagecraft, dramatic structure, dialogue, and theatrical context  |
-| 5       | [Shakespeare](/docs/alevel/english/shakespeare)                   | Language, themes, historical context, and critical interpretation |
-| 6       | [Comparative Analysis](/docs/alevel/english/comparative-analysis) | Comparing texts thematically, structurally, and contextually      |
-| 7       | [Unseen Texts](/docs/alevel/english/unseen-text-analysis)         | Timed analysis strategies and annotation techniques               |
+| 1       | [Literary Analysis](/english/literary-analysis)       | Close reading, critical approaches, and literary devices          |
+| 2       | [Poetry](/english/poetry-analysis)                    | Form, meter, imagery, sound devices, and anthology study          |
+| 3       | [Prose](/english/prose-analysis)                      | Narrative voice, character, setting, theme, and genre             |
+| 4       | [Drama](/english/drama-analysis)                      | Stagecraft, dramatic structure, dialogue, and theatrical context  |
+| 5       | [Shakespeare](/english/shakespeare)                   | Language, themes, historical context, and critical interpretation |
+| 6       | [Comparative Analysis](/english/comparative-analysis) | Comparing texts thematically, structurally, and contextually      |
+| 7       | [Unseen Texts](/english/unseen-text-analysis)         | Timed analysis strategies and annotation techniques               |
 
 ## Exam Boards
 

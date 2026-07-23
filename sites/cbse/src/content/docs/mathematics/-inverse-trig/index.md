@@ -69,7 +69,7 @@ description: "CBSE Class 12 mathematics: Inverse trigonometric functions, proper
 }
 </script>
 
-# Inverse Trigonometric Functions
+## Inverse Trigonometric Functions
 
 Inverse trigonometric functions reverse the action of trigonometric functions. They are essential for solving equations involving angles and for integration.
 

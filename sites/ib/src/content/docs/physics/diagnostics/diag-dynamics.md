@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Dynamics — Diagnostic Tests
+## Dynamics — Diagnostic Tests
 
 ## Intuition
 

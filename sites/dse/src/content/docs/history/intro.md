@@ -25,7 +25,7 @@ tags:
 }
 </script>
 
-# DSE History
+## DSE History
 
 Complete revision notes for HKDSE History, covering major themes in modern world history and
 regional developments in Asia. The syllabus emphasises analytical thinking, source evaluation, and

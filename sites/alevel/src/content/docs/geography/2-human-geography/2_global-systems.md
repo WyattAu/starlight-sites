@@ -24,7 +24,7 @@ description: "A-Level Geography Global Systems and Governance notes covering key
 }
 </script>
 
-# Global Systems and Governance
+## Global Systems and Governance
 
 ## Introduction
 

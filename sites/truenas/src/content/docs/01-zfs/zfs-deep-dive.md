@@ -194,10 +194,10 @@ A dataset (zfs filesystem) is a logical namespace within a pool. Each dataset ha
 Properties, mount point, and can have its own snapshots, quotas, and compression settings.
 
 ```bash
-# Create a dataset
+## Create a dataset
 zfs create tank/data
 
-# Set properties
+## Set properties
 zfs set compression=lz4 tank/data
 zfs set atime=off tank/data
 zfs set recordsize=128K tank/data

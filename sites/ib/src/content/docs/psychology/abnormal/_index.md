@@ -22,7 +22,7 @@ description: "This section covers the HL extension unit on abnormal psychology, 
 }
 </script>
 
-# Abnormal Psychology
+## Abnormal Psychology
 
 This section covers the HL extension unit on abnormal psychology, examining how psychological
 disorders are defined, classified, and explained from biological, cognitive, and sociocultural

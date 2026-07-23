@@ -184,3 +184,8 @@ The argument principle counts zeros and poles of a function by tracking how much
 - **[Singularities and Residue Theory](8_singularities-and-residue-theory.md)**: The residue theorem provides the computational foundation for the argument principle.
 - **[Liouville's Theorem](11_liouville-s-theorem-and-the-maximum-modulus-principle.md)**: Liouville's theorem characterizes bounded entire functions and is used to prove the fundamental theorem of algebra.
 - **[Conformal Mappings](10_conformal-mappings.md)**: The argument principle helps count zeros and poles in conformal mapping problems.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

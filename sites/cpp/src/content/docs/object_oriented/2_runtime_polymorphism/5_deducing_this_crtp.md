@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Explicit Object Parameters (Deducing This) and CRTP Replacement
+## Explicit Object Parameters (Deducing This) and CRTP Replacement
 
 C++23 introduces **explicit object parameters** (deducing this), which eliminates the need for the
 Curiously Recurring Template Pattern (CRTP) in most cases. This section covers the CRTP pattern, the

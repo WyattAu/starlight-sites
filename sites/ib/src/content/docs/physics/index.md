@@ -72,7 +72,7 @@ tags:
 }
 </script>
 
-# IB Physics
+## IB Physics
 
 Complete revision notes for IB Physics, covering the full syllabus with worked examples, common
 pitfalls, and exam-style problems.

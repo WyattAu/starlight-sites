@@ -197,3 +197,8 @@ Tychonoff's theorem guarantees that products of compact spaces are compact, and 
 | ---------------- | ----------------------------------------------------- |
 | Abstract Algebra | [View](/docs/university/mathematics/abstract-algebra) |
 
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

@@ -325,3 +325,5 @@ $\blacksquare$
 - **[Systems of Linear Equations](4_systems-of-linear-equations.md)**: The solution space of a homogeneous system is a subspace whose dimension is determined by rank-nullity.
 
 </aside>
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

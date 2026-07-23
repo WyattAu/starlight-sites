@@ -27,7 +27,7 @@ tableOfContents: false
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Maclaurin and Taylor Series — Diagnostic Tests
+## Maclaurin and Taylor Series — Diagnostic Tests
 
 ## Unit Tests
 

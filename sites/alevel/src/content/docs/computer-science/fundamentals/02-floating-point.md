@@ -629,7 +629,7 @@ x = 0.1 + 0.2
 y = 0.3
 print(x == y)  # False
 
-# Correct approach: compare within tolerance
+## Correct approach: compare within tolerance
 epsilon = 1e-9
 print(abs(x - y) < epsilon)  # True
 ```

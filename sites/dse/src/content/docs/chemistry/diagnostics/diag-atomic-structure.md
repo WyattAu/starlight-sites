@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Chemistry Diagnostic: Atomic Structure
+## DSE Chemistry Diagnostic: Atomic Structure
 
 ## Unit Test 1: Transition Metal Electron Configuration
 

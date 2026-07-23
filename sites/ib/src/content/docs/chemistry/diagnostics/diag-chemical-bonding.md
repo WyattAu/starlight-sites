@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Chemical Bonding — Diagnostic Tests
+## Chemical Bonding — Diagnostic Tests
 
 ## Intuition
 

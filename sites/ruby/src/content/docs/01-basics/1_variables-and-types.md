@@ -36,12 +36,12 @@ runtime.
 ### Variable Types and Scope
 
 ```ruby
-# Local variable -- lowercase or underscore
+## Local variable -- lowercase or underscore
 name = "Alice"
 count = 42
 _private = "convention for internal use"
 
-# Instance variable -- prefixed with @
+## Instance variable -- prefixed with @
 # Belongs to a specific object instance
 @name = "Bob"
 @items = []

@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Biology Diagnostic: Biodiversity and Conservation
+## DSE Biology Diagnostic: Biodiversity and Conservation
 
 ## Unit Test 1: Species Richness, Species Evenness, and Simpson"s Diversity Index
 

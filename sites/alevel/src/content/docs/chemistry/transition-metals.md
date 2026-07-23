@@ -33,7 +33,7 @@ categories:
 
 **Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
 
-# Transition Metals & Analytical Chemistry
+## Transition Metals & Analytical Chemistry
 
 ## The d-Block Elements
 

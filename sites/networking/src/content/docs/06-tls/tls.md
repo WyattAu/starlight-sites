@@ -311,11 +311,11 @@ Certificate:
 | PKCS#7 / P7B  | `.p7b``.p7c`       | Certificate chain (no private key)                                   | Base64 or Binary |
 
 ```bash
-# Convert between formats
+## Convert between formats
 openssl x509 -in cert.pem -outform DER -out cert.der
 openssl pkcs12 -export -out cert.pfx -inkey privkey.pem -in cert.pem -certfile chain.pem
 
-# View certificate details
+## View certificate details
 openssl x509 -in cert.pem -text -noout
 
 # Extract public key from certificate

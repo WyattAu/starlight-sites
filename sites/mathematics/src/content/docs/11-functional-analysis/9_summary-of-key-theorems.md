@@ -210,6 +210,11 @@ operators (Spectral).
 - [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The spectral theorem underpins the mode decomposition of electromagnetic fields in cavities and waveguides.
 - [Ising Model and Mean-Field Theory](/physics/2-thermal-physics/12_ising-model-and-mean-field-theory) -- Transfer matrix methods use operator theory to compute partition functions in statistical mechanics.
 
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+
 ## Common Mistakes
 
 - **Assuming weak convergence implies strong convergence:** Weak convergence (convergence of inner products) is strictly weaker than strong convergence (norm convergence). A sequence can converge weakly but not strongly (e.g., orthonormal basis in a Hilbert space).

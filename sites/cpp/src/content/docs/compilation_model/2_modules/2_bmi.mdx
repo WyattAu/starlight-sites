@@ -89,10 +89,10 @@ Clang generates BMIs (`.pcm` files) using the `--precompile` flag or as a side e
 Module interface unit.
 
 ```bash
-# Step 1: Generate BMI only
+## Step 1: Generate BMI only
 clang++ -std=c++23 --precompile math_utils.cppm -o math_utils.pcm
 
-# Step 2: Compile the BMI to an object file
+## Step 2: Compile the BMI to an object file
 clang++ -std=c++23 -c math_utils.pcm -o math_utils.o
 
 # Step 3: Compile a consumer that imports the module

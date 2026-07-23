@@ -22,7 +22,7 @@ description: "The cognitive level of analysis (CLOA) focuses on mental processes
 }
 </script>
 
-# Cognitive Level of Analysis
+## Cognitive Level of Analysis
 
 The cognitive level of analysis (CLOA) focuses on mental processes such as perception, memory,
 language, and decision making. It operates on the principle that the mind can be studied

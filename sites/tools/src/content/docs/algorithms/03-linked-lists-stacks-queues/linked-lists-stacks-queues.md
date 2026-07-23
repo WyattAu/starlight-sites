@@ -496,7 +496,7 @@ A deque (double-ended queue) supports insertion and deletion at both ends in $O(
 ```python
 from collections import deque
 
-# Python's built-in deque — implemented as a doubly-linked list of fixed-size blocks
+## Python's built-in deque — implemented as a doubly-linked list of fixed-size blocks
 d = deque()
 d.append(1)        # O(1) — enqueue back
 d.appendleft(0)    # O(1) — enqueue front
@@ -774,7 +774,7 @@ New head explicitly. For operations that might modify the head, use:
 
 ```python
 dummy = ListNode(0, head)
-# ... operate on dummy.next ...
+## ... operate on dummy.next ...
 return dummy.next
 ```
 

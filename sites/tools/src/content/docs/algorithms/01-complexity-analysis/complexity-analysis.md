@@ -53,12 +53,12 @@ Big-O provides an **upper bound** on the growth rate of a function. Saying $f(n)
 That $f(n)$ grows no faster than $n^2$ (up to a constant factor), for sufficiently large $n$.
 
 ```python
-# Example: nested loop is O(n^2)
+## Example: nested loop is O(n^2)
 def print_all_pairs(arr):
     for i in range(len(arr)):          # O(n)
         for j in range(len(arr)):      # O(n)
             print(arr[i], arr[j])      # O(1)
-# Total: O(n) * O(n) * O(1) = O(n^2)
+## Total: O(n) * O(n) * O(1) = O(n^2)
 ```
 
 ### Big-Omega: Lower Bound

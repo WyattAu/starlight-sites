@@ -28,7 +28,7 @@ description: "A-Level Psychology Research Methods notes covering key definitions
 }
 </script>
 
-# Research Methods
+## Research Methods
 
 ## Introduction
 
@@ -458,5 +458,5 @@ Human behaviour emerges from the interaction of biological, cognitive, and socia
 
 ## Cross-References
 
-- [Approaches in Psychology](/docs/alevel/psychology/approaches)
-- [Biopsychology](/docs/alevel/psychology/biopsychology)
+- [Approaches in Psychology](/psychology/approaches)
+- [Biopsychology](/psychology/biopsychology)

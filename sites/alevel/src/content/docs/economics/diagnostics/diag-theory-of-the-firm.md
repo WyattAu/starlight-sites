@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Economics is the study of choices — how individuals, businesses, and governments allocate scarce resources.**
 
-# Theory of the Firm — Diagnostic Tests
+## Theory of the Firm — Diagnostic Tests
 
 ## Unit Tests
 

@@ -264,3 +264,7 @@ All observable hadrons are colour singlets (colour-neutral). This is a consequen
 - **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: Gauge invariance under the Standard Model group determines the conserved quantum numbers of particles.
 - **[The Higgs Mechanism](7-particle-physics-and-cosmology/4_the-higgs-mechanism.md)**: The electroweak symmetry breaking pattern is determined by the SU(2) x U(1) group structure.
 - **[Running Coupling Constants](7-particle-physics-and-cosmology/6_running-coupling-constants.md)**: The beta functions of the gauge couplings depend on the group-theoretic factors of SU(3), SU(2), and U(1).
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

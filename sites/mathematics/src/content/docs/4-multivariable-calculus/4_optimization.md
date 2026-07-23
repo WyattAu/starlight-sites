@@ -265,3 +265,7 @@ Optimization asks: what is the best I can do under constraints? In unconstrained
 - **[Vector Calculus](4-multivariable-calculus/3_vector-calculus.md)**: Lagrange multipliers use the geometric relationship between gradients and tangent spaces, which is formalised in the study of conservative fields.
 - **[Sequences and Limits](3-real-analysis/2_sequences-and-limits.md)**: The extreme value theorem and convergence of iterative optimisation methods rely on completeness and compactness from real analysis.
 - **[Multiple Integrals](4-multivariable-calculus/2_multiple-integrals.md)**: Computing volumes and moments over constraint surfaces uses the multiple integration techniques developed in this chapter.
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

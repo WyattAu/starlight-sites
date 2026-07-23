@@ -21,7 +21,7 @@ description: "CBSE Class 12 physics: Electric field"
 }
 </script>
 
-# Electric field
+## Electric field
 
 Study notes for CBSE Class 12 physics - Electric field.
 

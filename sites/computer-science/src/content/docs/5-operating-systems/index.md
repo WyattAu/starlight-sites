@@ -72,7 +72,7 @@ tags:
 }
 </script>
 
-# Operating Systems
+## Operating Systems
 
 An operating system (OS) is system software that manages computer hardware and software resources and provides services for application programs. It acts as an intermediary between users and the computer hardware, allocating resources such as CPU time, memory, and I/O devices efficiently and fairly among competing processes.
 
@@ -148,6 +148,9 @@ Each section includes:
 - **[Systems](../../2-systems/index.md):** Computer architecture and hardware systems.
 - **[Databases](../../4-databases/index.md):** Transaction management and concurrency control.
 - **[Computer Networks](../../3-computer-networks/index.md):** Network I/O and protocol handling.
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
 ## Common Mistakes
 

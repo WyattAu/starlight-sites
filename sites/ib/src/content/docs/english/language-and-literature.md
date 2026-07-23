@@ -22,7 +22,7 @@ sidebar_position: 14
 }
 </script>
 
-# IB Language and Literature Course Overview
+## IB Language and Literature Course Overview
 
 IB English A: Language and Literature is a two-year course that examines the relationship between language and literature across a range of text types. It differs from English A: Literature in its inclusion of non-literary texts and its emphasis on how language constructs meaning in all forms of communication. This page provides a comprehensive overview of the course structure, assessment components, and strategies for success.
 

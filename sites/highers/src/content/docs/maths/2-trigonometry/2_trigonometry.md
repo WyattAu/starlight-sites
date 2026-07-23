@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Geometry and Trigonometry
+## Geometry and Trigonometry
 
 ## Higher Trigonometry
 

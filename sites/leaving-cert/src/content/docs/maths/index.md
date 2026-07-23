@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Irish LC Mathematics
+## Irish LC Mathematics
 
 Leaving Certificate Mathematics is a core subject covering algebra, calculus, geometry, probability,
 statistics, and number theory. The course is offered at Higher and Ordinary Level, with Higher Level

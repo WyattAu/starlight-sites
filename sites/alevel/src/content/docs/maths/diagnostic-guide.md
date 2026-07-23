@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# A-Level Mathematics: Diagnostic Test Guide
+## A-Level Mathematics: Diagnostic Test Guide
 
 ## 1. Purpose
 

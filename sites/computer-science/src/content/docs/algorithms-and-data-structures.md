@@ -2312,6 +2312,9 @@ $\blacksquare$
 | Algorithms — MIT 6.006   | MIT OCW     | [View](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/) |
 | AP Calculus              | AP          | [View](/ap/maths/)                                                             |
 
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
 ## Intuition
 
 Algorithms and data structures are the engine and chassis of computer science — algorithms are the step-by-step procedures for solving problems, and data structures are the organisations of data that make those algorithms efficient. The central question is always: given a problem, what is the best way to organise the data and process it? Big-O notation captures the essential trade-off: O(1) hash table lookups trade space for speed; O(log n) binary search works because sorted data eliminates half the possibilities at each step; O(n log n) merge sort achieves the theoretical minimum for comparison-based sorting because each comparison eliminates only one possibility.

@@ -26,7 +26,7 @@ description: "This document covers the IB History Cold War topic for Paper 2. It
 }
 </script>
 
-# The Cold War (1945--1991)
+## The Cold War (1945--1991)
 
 This document covers the IB History Cold War topic for Paper 2. It traces the development,
 escalation, and resolution of superpower rivalry between the United States and the Soviet Union,

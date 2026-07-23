@@ -806,11 +806,11 @@ Because the symptoms (intermittent connectivity, unreachable hosts) look like la
 Issues.
 
 ```bash
-# Check STP status on a Linux bridge
+## Check STP status on a Linux bridge
 bridge mdb show
 bridge link show
 
-# Check STP status on a switch (example)
+## Check STP status on a switch (example)
 # show spanning-tree
 # show spanning-tree vlan 10
 ```

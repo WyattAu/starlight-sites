@@ -69,7 +69,7 @@ description: "A-Level Physics Fields notes covering key definitions, core concep
 }
 </script>
 
-# Fields
+## Fields
 
 Fields describe the region of space around an object where another object experiences a force
 without physical contact. This section covers gravitational fields, electric fields, and magnetic
@@ -225,7 +225,7 @@ The universe operates through fundamental forces and energy transfers. Forces ar
 
 ## Cross-References
 
-- [Mechanics](/docs/alevel/physics/mechanics)
-- [Waves](/docs/alevel/physics/waves)
-- [Electricity](/docs/alevel/physics/electricity)
-- [Fields](/docs/alevel/physics/fields)
+- [Mechanics](/physics/mechanics)
+- [Waves](/physics/waves)
+- [Electricity](/physics/electricity)
+- [Fields](/physics/fields)

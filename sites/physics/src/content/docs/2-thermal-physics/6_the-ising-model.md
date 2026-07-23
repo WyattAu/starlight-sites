@@ -182,3 +182,7 @@ The Ising model is the simplest system showing how local interactions create glo
 }
 </script>
 
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

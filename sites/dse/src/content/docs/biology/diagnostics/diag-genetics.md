@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Biology Diagnostic: Genetics
+## DSE Biology Diagnostic: Genetics
 
 ## Unit Test 1: DNA Structure and Replication
 

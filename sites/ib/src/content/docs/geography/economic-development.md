@@ -22,7 +22,7 @@ description: "This section covers the IB Geography optional theme on economic de
 }
 </script>
 
-# Economic Development
+## Economic Development
 
 This section covers the IB Geography optional theme on economic development. It examines the nature
 of economic development at a variety of scales, the ways in which development can be measured, the

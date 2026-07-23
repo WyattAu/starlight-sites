@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Limits and Continuity — Diagnostic Tests
+## Limits and Continuity — Diagnostic Tests
 
 ## Unit Tests
 

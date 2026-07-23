@@ -344,3 +344,5 @@ factor of 57. $\blacksquare$
 - **[Singular Value Decomposition](8_singular-value-decomposition.md)**: The SVD factorises any matrix using its singular values, generalising the eigendecomposition.
 
 </aside>
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

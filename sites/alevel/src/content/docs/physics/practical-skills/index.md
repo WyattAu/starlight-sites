@@ -69,7 +69,7 @@ description: 'A-Level Physics Practical Skills notes covering key definitions, c
 }
 </script>
 
-# Practical Skills
+## Practical Skills
 
 Practical skills are integral to A-Level Physics. Examinations test your ability to design
 experiments, measure precisely, analyse data, and evaluate the reliability and validity of results.
@@ -186,7 +186,7 @@ Physics explores the fundamental rules governing matter, energy, space, and time
 
 ## Cross-References
 
-- [Mechanics](/docs/alevel/physics/mechanics)
-- [Waves](/docs/alevel/physics/waves)
-- [Electricity](/docs/alevel/physics/electricity)
-- [Fields](/docs/alevel/physics/fields)
+- [Mechanics](/physics/mechanics)
+- [Waves](/physics/waves)
+- [Electricity](/physics/electricity)
+- [Fields](/physics/fields)

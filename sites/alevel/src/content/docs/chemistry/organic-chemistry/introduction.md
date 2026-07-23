@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Organic Chemistry Introduction
+## Organic Chemistry Introduction
 
 Organic chemistry is the study of the structure, properties, composition, reactions, and preparation
 Of carbon-containing compounds. Carbon occupies a unique position in the periodic table: its ability

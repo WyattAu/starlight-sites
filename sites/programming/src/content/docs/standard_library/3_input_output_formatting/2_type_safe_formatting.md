@@ -74,7 +74,7 @@ format-spec       ::= [[fill] align] [sign] ["#"] ["0"] [width] ["." precision] 
 fill              ::= any character other than "{" or "}"
 align             ::= "<" | ">" | "^" | "="
 sign              ::= "+" | "-" | " "
-#                 ::= "#" (alternate form)
+##                 ::= "#" (alternate form)
 0                 ::= "0" (zero-padding)
 width             ::= nonnegative-integer | "{" [arg-id] "}"
 precision         ::= nonnegative-integer | "{" [arg-id] "}"
@@ -717,6 +717,10 @@ int main() {
 
 - [Stream Buffers and Locale Facets](./1_stream_buffers.md)
 - [Unicode Support](./3_unicode_support.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Common Pitfalls
 

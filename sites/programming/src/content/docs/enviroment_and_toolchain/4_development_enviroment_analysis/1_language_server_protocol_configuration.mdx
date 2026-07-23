@@ -134,10 +134,10 @@ Find the database.
 **Solution:** Create a symbolic link at the project root pointing to the active build configuration.
 
 ```bash
-# Linux/macOS
+## Linux/macOS
 ln -s build/linux-clang-debug/compile_commands.json compile_commands.json
 
-# Windows (PowerShell 5.0+)
+## Windows (PowerShell 5.0+)
 New-Item -ItemType SymbolicLink -Path compile_commands.json -Target build\windows-clang-debug\compile_commands.json
 ```
 

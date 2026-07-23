@@ -830,6 +830,11 @@ int main() {
 - [Range Materialization](./4_range_materialization.md)
 - [Parallel Algorithms](./5_parallel_algorithms.md)
 
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+
 ## Intuition
 
 **Range adaptors are like LEGO blocks for data processing:** Instead of writing a loop to filter, transform, and take elements, you compose range adaptors like LEGO blocks: `views::filter(pred) | views::transform(fn) | views::take(n)`. Each adaptor is a small, reusable piece that does one thing well. The pipeline (`|`) chains them together, and the result is a lazy view that computes values on-demand. It's like building a data processing pipeline from composable parts, instead of writing a monolithic loop.

@@ -22,7 +22,7 @@ description: "This section covers developmental psychology, examining how behavi
 }
 </script>
 
-# Developmental Psychology
+## Developmental Psychology
 
 This section covers developmental psychology, examining how behaviour changes across the lifespan
 with a focus on attachment, cognitive development, and adolescence.

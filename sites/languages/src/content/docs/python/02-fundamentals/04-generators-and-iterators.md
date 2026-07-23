@@ -106,8 +106,8 @@ The implications are significant:
 The `iter()` built-in has two distinct call signatures with fundamentally different semantics:
 
 ```python
-# Form 1: iter(iterable) -> iterator
-# Calls __iter__ on the object, or falls back to __getitem__
+## Form 1: iter(iterable) -> iterator
+## Calls __iter__ on the object, or falls back to __getitem__
 numbers = [1, 2, 3]
 it = iter(numbers)        # returns a list_iterator object
 print(type(it))           # <class 'list_iterator'>

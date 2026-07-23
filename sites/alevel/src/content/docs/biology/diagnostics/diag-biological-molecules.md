@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
 
-# Biological Molecules — Diagnostic Tests
+## Biological Molecules — Diagnostic Tests
 
 ## Unit Tests
 

@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Electricity and Magnetism — Diagnostic Tests
+## Electricity and Magnetism — Diagnostic Tests
 
 ## Unit Tests
 

@@ -72,3 +72,6 @@ Using more memory can make an algorithm faster, and vice versa:
 - **[Discrete Mathematics](../../1-discrete-mathematics/8_flashcards-discrete-mathematics.mdx):** Recurrence relations and combinatorics underpin algorithm analysis.
 - **[Theory of Computation](../../3-theory/flashcards-theory.mdx):** Complexity classes classify problems by their algorithmic difficulty.
 - **[Operating Systems](../../5-operating-systems/12_flashcards-operating-systems.mdx):** OS scheduling and resource management depend on algorithm efficiency.
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

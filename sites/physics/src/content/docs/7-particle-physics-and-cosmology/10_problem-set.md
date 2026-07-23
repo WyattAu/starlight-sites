@@ -166,6 +166,9 @@ Particle physics seeks the fundamental building blocks of matter and the forces 
 - **[Big Bang Cosmology](7-particle-physics-and-cosmology/7_big-bang-cosmology.md)**: Cosmology problems on dark matter halos, the CMB, and the Hubble constant connect to the Friedmann equations and observational cosmology.
 - **[Running Coupling Constants](7-particle-physics-and-cosmology/6_running-coupling-constants.md)**: Problems on the QCD running coupling and unification require understanding beta functions and the renormalisation group.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+
 ## Common Mistakes
 
 **Confusing quark flavors with generations:** Up, charm, top are generation 1, 2, 3 of the up-type quarks. Mixing flavors with generations gives wrong particle assignments.

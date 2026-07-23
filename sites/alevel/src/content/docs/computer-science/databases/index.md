@@ -69,7 +69,7 @@ description: "A-Level Computer Science Databases notes covering key definitions,
 }
 </script>
 
-# Databases
+## Databases
 
 Databases provide structured, persistent storage that enables efficient querying, updating, and
 management of data. A-Level focuses on the **relational model**, where data is organised into tables

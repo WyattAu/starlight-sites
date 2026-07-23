@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Particles and Waves
+## Particles and Waves
 
 <aside class="starlight-aside starlight-aside--note">
 </aside>

@@ -75,13 +75,13 @@ Header gives a maximum payload of 65,527 bytes. However, IP fragmentation limits
 Maximum to the path MTU minus IP and UDP headers ( 1472 bytes over standard Ethernet).
 
 ```bash
-# View current UDP buffer sizes
+## View current UDP buffer sizes
 sysctl net.core.rmem_max
 sysctl net.core.rmem_default
 sysctl net.core.wmem_max
 sysctl net.core.wmem_default
 
-# Increase UDP receive buffer for high-throughput applications
+## Increase UDP receive buffer for high-throughput applications
 sysctl -w net.core.rmem_max=16777216
 ```
 

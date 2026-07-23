@@ -182,6 +182,13 @@ the Radon-Nikodym theorem connects measures via densities.
 - **[Measurable Functions](./5_measurable-functions.md)**: Defines the function classes to which the convergence theorems and inequalities apply.
 - **[$L^p$ Spaces](./7_l-p-spaces.md)**: Provides the Banach space framework where Hölder and Minkowski inequalities govern the geometry.
 
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
 ## Common Mistakes
 
 - **Confusing pointwise convergence with $L^p$ convergence:** Pointwise convergence does not imply $L^p$ convergence (consider $f_n = n \cdot \mathbf{1}_{[0,1/n]}$). Conversely, $L^p$ convergence does not imply pointwise convergence everywhere — only almost everywhere along a subsequence.

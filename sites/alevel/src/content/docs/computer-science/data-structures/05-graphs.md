@@ -660,7 +660,7 @@ For undirected graphs, we additionally check that the back edge doesn't go to th
 </details>
 
 For revision on algorithms, see
-[Graph Algorithms](/docs/alevel/computer-science/algorithms/graph-algorithms).
+[Graph Algorithms](/computer-science/algorithms/graph-algorithms).
 
 
 ## Common Pitfalls

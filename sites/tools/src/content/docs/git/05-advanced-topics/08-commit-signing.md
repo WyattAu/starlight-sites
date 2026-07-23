@@ -38,7 +38,7 @@ Git's author and committer fields are **unauthenticated text**. Any operation th
 Object can set these fields to arbitrary values:
 
 ```bash
-# Anyone can claim to be anyone
+## Anyone can claim to be anyone
 $ git commit --author="Linus Torvalds <torvalds@linux-foundation.org>" -m "important fix"
 ```
 
@@ -91,7 +91,7 @@ Standard (RFC 4880 / RFC 9580) and provides both signing and encryption capabili
 ### Installing GPG
 
 ```bash
-# Debian/Ubuntu
+## Debian/Ubuntu
 $ sudo apt install gnupg
 
 # macOS

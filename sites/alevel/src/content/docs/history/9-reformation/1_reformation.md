@@ -29,7 +29,7 @@ description: "A-Level History The Reformation notes covering causes, Luther's ch
 }
 </script>
 
-# The Reformation c1500-1600
+## The Reformation c1500-1600
 
 The Reformation was the religious, political, and social upheaval that fractured Western Christendom
 in the sixteenth century. Beginning with Martin Luther's challenge to papal authority in 1517, it

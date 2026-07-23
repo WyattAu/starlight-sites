@@ -175,3 +175,8 @@ $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$. $\blacksquare$
 - **[Introduction to Partial Differential Equations](5-ordinary-differential-equations/8_introduction-to-partial-differential-equations.md)**: Fourier series are the essential tool for solving the heat and wave equations by separation of variables.
 - **[Sequences and Series of Functions](3-real-analysis/7_sequences-and-series-of-functions.md)**: Convergence of Fourier series relies on uniform convergence theory and the Weierstrass M-test.
 - **[Complex Numbers Review](6-complex-analysis/1_complex-numbers-review.md)**: Euler's formula converts between real and complex forms of the Fourier series.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

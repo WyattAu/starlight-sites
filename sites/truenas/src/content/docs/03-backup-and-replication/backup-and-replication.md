@@ -136,10 +136,10 @@ ZFS send/receive is the native mechanism for creating exact copies of datasets. 
 Block level, transferring only the changed blocks.
 
 ```bash
-# Initial full replication
+## Initial full replication
 zfs send -Rv tank/data@snapshot1 | ssh remote-nas zfs recv -F backup/data
 
-# Incremental replication
+## Incremental replication
 zfs send -Rvi tank/data@snapshot1 tank/data@snapshot2 | \
   ssh remote-nas zfs recv -F backup/data
 

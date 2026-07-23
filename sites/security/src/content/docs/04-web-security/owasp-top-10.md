@@ -30,13 +30,13 @@ Act outside their intended permissions.
 ### IDOR (Insecure Direct Object Reference)
 
 ```python
-# VULNERABLE: Any user can access any order by changing the ID
+## VULNERABLE: Any user can access any order by changing the ID
 @app.route("/api/orders/<order_id>')
 def get_order(order_id):
     order = db.query("SELECT * FROM orders WHERE id = %s", (order_id,))
     return jsonify(order)
 
-# SAFE: Verify the user owns the resource
+## SAFE: Verify the user owns the resource
 @app.route('/api/orders/<order_id>')
 @require_auth
 def get_order(order_id):

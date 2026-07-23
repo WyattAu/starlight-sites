@@ -21,7 +21,7 @@ description: "CBSE Class 12 chemistry: Colligative properties"
 }
 </script>
 
-# Colligative properties
+## Colligative properties
 
 Study notes for CBSE Class 12 chemistry - Colligative properties.
 

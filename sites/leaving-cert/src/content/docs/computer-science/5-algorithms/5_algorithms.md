@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Computational Thinking
+## Computational Thinking
 
 Computational thinking is a problem-solving approach that involves breaking down complex problems,
 Identifying patterns, abstracting details, and designing algorithms. This topic covers
@@ -420,7 +420,7 @@ def make_change(amount, coins=None):
 
 change = make_change(87)
 print(f"Change: {change}")
-# Output: Change: {50: 1, 20: 1, 10: 1, 5: 1, 2: 1}
+## Output: Change: {50: 1, 20: 1, 10: 1, 5: 1, 2: 1}
 ```
 
 <aside class="starlight-aside starlight-aside--caution">

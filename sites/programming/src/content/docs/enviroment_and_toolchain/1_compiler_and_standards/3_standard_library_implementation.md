@@ -808,3 +808,8 @@ The C++ standard library provides containers, algorithms, I/O, and utilities. li
 - [[enviroment_and_toolchain/1_compiler_and_standards/2_language_standard_and_abi_compatibility]] - Standard library versioning
 - [[enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models]] - Library integration patterns
 - [[enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration]] - Linking standard libraries
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)

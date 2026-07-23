@@ -21,7 +21,7 @@ description: "CBSE Class 12 physics: Work energy power"
 }
 </script>
 
-# Work energy power
+## Work energy power
 
 Study notes for CBSE Class 12 physics - Work energy power.
 

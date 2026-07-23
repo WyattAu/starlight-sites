@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Classification, preparation, reactions, a
 }
 </script>
 
-# Amines
+## Amines
 
 Amines are derivatives of ammonia where one or more H atoms are replaced by alkyl or aryl groups. They are classified as primary ($1°$), secondary ($2°$), or tertiary ($3°$).
 

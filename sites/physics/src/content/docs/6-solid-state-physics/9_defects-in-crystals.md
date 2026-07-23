@@ -185,6 +185,9 @@ MX is $n_S = N e^{-E_S/(2k_B T)}$, where $E_S$ is the energy to create a cation-
 - **[Transport Properties](./8_transport-properties.md)**: Defects contribute to electron scattering and residual resistivity, entering Matthiessen's rule as the temperature-independent component.
 - **[Superconductivity](./7_superconductivity.md)**: Defects can pin Abrikosov vortices in Type II superconductors, enhancing the critical current density.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+
 ## Intuition
 
 Crystal defects are breaks in the perfect periodicity of a lattice, and they profoundly influence material properties. Vacancies are missing atoms that allow diffusion and enable doping in semiconductors. Dislocations are line defects whose motion enables plastic deformation, explaining why metals are ductile rather than brittle. The Burgers vector characterizes the magnitude and direction of the lattice distortion. Grain boundaries separate regions of different crystal orientation and act as barriers to dislocation motion, which is why fine-grained metals are stronger. Point defects change the local electron density, creating energy levels in the band gap that can trap or release carriers.

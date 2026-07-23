@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Algorithms and Data Structures
+## Algorithms and Data Structures
 
 <aside class="starlight-aside starlight-aside--note">
 ## Algorithm Complexity

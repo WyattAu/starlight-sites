@@ -2239,3 +2239,6 @@ $\blacksquare$
 | Databases                      | WyattsNotes | [View](/docs/university/computing/databases)                  |
 | Operating Systems — MIT 6.S081 | MIT         | [View](https://pdos.csail.mit.edu/6.828/2021/schedule.html)   |
 
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

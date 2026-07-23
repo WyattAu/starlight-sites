@@ -100,9 +100,9 @@ brew install kotlin
 
 ```bash
 kotlin -version
-# Kotlin version 2.1.0-release (JRE 21.0.2+13)
+## Kotlin version 2.1.0-release (JRE 21.0.2+13)
 kotlinc -version
-# info: kotlinc-jvm 2.1.0 (JRE 21.0.2+13)
+## info: kotlinc-jvm 2.1.0 (JRE 21.0.2+13)
 ```
 
 ### Kotlin Playground

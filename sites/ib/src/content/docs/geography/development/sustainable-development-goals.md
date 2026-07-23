@@ -21,7 +21,7 @@ description: "UN Sustainable Development Goals for IB Geography."
 }
 </script>
 
-# Sustainable Development Goals
+## Sustainable Development Goals
 
 ## Intuition
 

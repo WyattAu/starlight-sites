@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Waves and Sound — Diagnostic Tests
+## Waves and Sound — Diagnostic Tests
 
 ## Unit Tests
 

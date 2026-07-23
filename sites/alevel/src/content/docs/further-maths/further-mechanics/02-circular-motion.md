@@ -1045,12 +1045,12 @@ Particle leaves the circular path. $\blacksquare$
 ### 11.1 Circular motion and projectiles
 
 Both involve resolving forces in 2D and applying Newton's second law. See
-[Projectile Motion](/docs/alevel/further-maths/further-mechanics/projectile-motion).
+[Projectile Motion](/further-maths/further-mechanics/projectile-motion).
 
 ### 11.2 Circular motion and differential equations
 
 Angular motion with non-constant angular acceleration leads to ODEs. See
-[Differential Equations](/docs/alevel/further-maths/pure-mathematics/differential-equations).
+[Differential Equations](/further-maths/pure-mathematics/differential-equations).
 
 ### 11.3 Energy conservation in circular motion
 
@@ -1372,8 +1372,8 @@ $T = \dfrac{2\pi}{\omega} = \boxed{2\pi\sqrt{l/g}}$. $\blacksquare$
 
 ## Cross-References
 
-- [Projectile Motion](/docs/alevel/further-maths/further-mechanics/projectile-motion) uses the same energy conservation and Newton's second law techniques applied to parabolic rather than circular trajectories.
-- [Centres of Mass and Elastic Collisions](/docs/alevel/further-maths/further-mechanics/centres-of-mass-and-elastic-collisions) extends particle dynamics to systems of particles, using momentum conservation alongside force analysis.
-- [Further Calculus](/docs/alevel/further-maths/pure-mathematics/further-calculus) provides the differentiation and integration methods required for angular velocity, angular acceleration, and energy derivations in circular motion.
-- [Vectors in 3D](/docs/alevel/further-maths/pure-mathematics/vectors-in-3d) supplies the vector notation and resolution techniques used to analyse forces in vertical and horizontal circles.
+- [Projectile Motion](/further-maths/further-mechanics/projectile-motion) uses the same energy conservation and Newton's second law techniques applied to parabolic rather than circular trajectories.
+- [Centres of Mass and Elastic Collisions](/further-maths/further-mechanics/centres-of-mass-and-elastic-collisions) extends particle dynamics to systems of particles, using momentum conservation alongside force analysis.
+- [Further Calculus](/further-maths/pure-mathematics/further-calculus) provides the differentiation and integration methods required for angular velocity, angular acceleration, and energy derivations in circular motion.
+- [Vectors in 3D](/further-maths/pure-mathematics/vectors-in-3d) supplies the vector notation and resolution techniques used to analyse forces in vertical and horizontal circles.
 

@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Computer Systems
+## Computer Systems
 
 This topic covers the architecture and organisation of computer systems, including the CPU, memory
 Hierarchy, input/output systems, and operating systems.

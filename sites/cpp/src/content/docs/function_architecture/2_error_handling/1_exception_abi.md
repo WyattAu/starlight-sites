@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# The Itanium Exception ABI
+## The Itanium Exception ABI
 
 The dominant exception model on all major platforms (GCC, Clang, MSVC on x64) is the **zero-cost
 Table-based** model specified informally by the Itanium C++ ABI and adopted as the de-facto standard

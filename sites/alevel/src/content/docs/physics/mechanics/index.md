@@ -69,7 +69,7 @@ description: "A-Level Physics Mechanics notes covering key definitions, core con
 }
 </script>
 
-# Mechanics
+## Mechanics
 
 Mechanics is the study of motion, forces, energy, and momentum — the foundational physics that
 describes how objects move and interact. This section covers everything from measurement techniques
@@ -203,7 +203,7 @@ Physics reveals that nature follows mathematical laws at every scale. Matter is 
 
 ## Cross-References
 
-- [Mechanics](/docs/alevel/physics/mechanics)
-- [Waves](/docs/alevel/physics/waves)
-- [Electricity](/docs/alevel/physics/electricity)
-- [Fields](/docs/alevel/physics/fields)
+- [Mechanics](/physics/mechanics)
+- [Waves](/physics/waves)
+- [Electricity](/physics/electricity)
+- [Fields](/physics/fields)

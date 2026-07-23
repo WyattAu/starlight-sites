@@ -57,11 +57,11 @@ graph TD
 **Layer 1 -- Physical:**
 
 ```bash
-# Check interface status
+## Check interface status
 ip link show
 ethtool eth0
 
-# Check link speed and duplex
+## Check link speed and duplex
 ethtool eth0 | grep -E "Speed|Duplex|Link detected"
 
 # Check cable (physical inspection, link lights)

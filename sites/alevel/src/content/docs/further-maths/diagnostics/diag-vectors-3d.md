@@ -27,7 +27,7 @@ tableOfContents: false
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Vectors in 3D — Diagnostic Tests
+## Vectors in 3D — Diagnostic Tests
 
 ## Unit Tests
 

@@ -40,14 +40,14 @@ Associated permissions.
 | `/etc/login.defs` | Default settings for user creation (UID range, password policy) |
 
 ```bash
-# View user information
+## View user information
 id                    # current user"s UID, GID, groups
 id username           # specific user
 finger username       # detailed user info
 getent passwd username  # from NSS (includes LDAP, etc.)
 getent group groupname
 
-# Create user
+## Create user
 useradd -m -s /bin/bash -G sudo,docker username  # create with home, shell, groups
 passwd username                                    # set password
 

@@ -177,3 +177,6 @@ A coset $gH$ is a set of elements, not a group (unless $H$ is normal). The quoti
 - **[Lagrange's Theorem](3_lagrange-s-theorem.md)**: Lagrange's theorem shows the order of a subgroup divides the order of the group.
 - **[Normal Subgroups and Quotient Groups](4_normal-subgroups-and-quotient-groups.md)**: Normal subgroups are those for which the quotient group construction is well-defined.
 
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

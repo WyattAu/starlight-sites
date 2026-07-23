@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Data Races and Critical Sections
+## Data Races and Critical Sections
 
 This section covers the formal definition of data races in the C++ memory model, their undefined
 Behavior consequences, critical sections, the distinction between data races and race conditions,
@@ -163,7 +163,7 @@ Even data races that appear harmless in practice can cause problems because:
 Runtime. It is available in GCC and Clang:
 
 ```bash
-# Compile with ThreadSanitizer
+## Compile with ThreadSanitizer
 g++ -std=c++23 -fsanitize=thread -g -O1 data_race_demo.cpp -o data_race_demo
 ./data_race_demo
 ```
@@ -522,6 +522,9 @@ public:
 - [Mutexes, Shared Locks, and Deadlock Prevention](./3_mutexes_deadlocks.md)
 - [Atomic Operations and Lock-Free Programming](../2_memory_model_and_atomics/3_atomic_operations.md)
 
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Summary
 

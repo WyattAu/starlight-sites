@@ -36,14 +36,14 @@ Methods and blocks are Ruby's building blocks for code organisation. Methods enc
 ### Basic Methods
 
 ```ruby
-# Simple method definition
+## Simple method definition
 def greet
   puts "Hello, World!"
 end
 
 greet  # => prints "Hello, World!"
 
-# Method with parameters
+## Method with parameters
 def greet(name)
   puts "Hello, #{name}!"
 end

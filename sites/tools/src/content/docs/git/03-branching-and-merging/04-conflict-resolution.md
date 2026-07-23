@@ -131,13 +131,13 @@ $ git commit  # (or git merge --continue / git rebase --continue)
 <aside class="starlight-aside starlight-aside--tip">
 ```bash
 $ git diff src/auth.c
-# Shows the conflict markers and your edits
+## Shows the conflict markers and your edits
 ```
 
 ### Strategy 2: Accept One Side Entirely
 
 ```bash
-# Accept our version (discard their changes)
+## Accept our version (discard their changes)
 $ git checkout --ours src/auth.c
 $ git add src/auth.c
 

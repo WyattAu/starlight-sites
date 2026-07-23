@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Genetics — Diagnostic Tests
+## Genetics — Diagnostic Tests
 
 ## Intuition
 

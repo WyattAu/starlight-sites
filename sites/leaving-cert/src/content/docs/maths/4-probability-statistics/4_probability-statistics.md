@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Probability and Statistics
+## Probability and Statistics
 
 Probability and statistics appear on both papers of the Leaving Certificate Mathematics examination.
 This topic covers counting principles, probability rules, distributions, hypothesis testing, and

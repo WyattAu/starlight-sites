@@ -72,7 +72,7 @@ tags:
 }
 </script>
 
-# IB Biology
+## IB Biology
 
 Complete revision notes for IB Biology, covering the full syllabus with worked examples, common
 pitfalls, and exam-style problems.

@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Memory Orderings: Relaxed, Acquire/Release, Sequentially Consistent
+## Memory Orderings: Relaxed, Acquire/Release, Sequentially Consistent
 
 This section covers the `std::memory_order` enum values, relaxed ordering, acquire/release
 Semantics, sequentially consistent ordering, a producer-consumer example with acquire/release, a

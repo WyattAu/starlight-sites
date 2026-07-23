@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Thread Execution (`std::jthread`) and Hardware Mapping
+## Thread Execution (`std::jthread`) and Hardware Mapping
 
 This section covers thread creation with `std::thread` and `std::jthread`Hardware concurrency
 Detection, join/detach semantics, RAII-based thread guards, cooperative cancellation via
@@ -296,6 +296,9 @@ int main() {
 - [Data Races and Critical Sections](./2_data_races.md)
 - [Mutexes, Shared Locks, and Deadlock Prevention](./3_mutexes_deadlocks.md)
 - [Condition Variables, Latches, and Barriers](./4_condition_variables.md)
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Thread Identifier and Native Handle
 

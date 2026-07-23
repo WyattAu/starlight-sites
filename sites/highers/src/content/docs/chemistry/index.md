@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Scottish Highers Chemistry
+## Scottish Highers Chemistry
 
 Higher Chemistry covers chemical reactions, bonding, energy changes, acids and bases, organic
 chemistry, and analytical techniques. The course builds on National 5 knowledge with greater depth

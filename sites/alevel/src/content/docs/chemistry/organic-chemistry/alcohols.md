@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Alcohols
+## Alcohols
 
 Alcohols are organic compounds containing one or more hydroxyl ($-\mathrm{OH}$) groups bonded to an
 $sp^3$ hybridised carbon atom. The general formula for a mono-alcohol is $\mathrm{R-OH}$. The

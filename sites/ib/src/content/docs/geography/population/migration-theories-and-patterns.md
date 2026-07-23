@@ -22,7 +22,7 @@ description: "Migration is the movement of people from one place to another with
 }
 </script>
 
-# Migration Theories and Patterns
+## Migration Theories and Patterns
 
 ## Definitions and Classifications
 

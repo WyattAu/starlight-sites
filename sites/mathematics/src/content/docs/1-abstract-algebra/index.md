@@ -72,7 +72,7 @@ description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19.
 }
 </script>
 
-# Abstract Algebra
+## Abstract Algebra
 
 ## Contents
 
@@ -147,3 +147,6 @@ Abstract algebra distils the essence of arithmetic into algebraic structures. A 
 - **[Linear Algebra](../../2-linear-algebra/index.md):** Vector spaces and linear transformations; vector spaces are modules over fields.
 - **[Number Theory](../../7-number-theory/index.md):** Group theory in modular arithmetic; (Z/nZ)* is a group under multiplication.
 - **[Topology](../../9-topology/index.md):** Topological groups and algebraic topology; group theory underpins homology groups.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

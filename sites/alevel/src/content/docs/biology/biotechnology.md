@@ -105,7 +105,7 @@ and blunt-end fragments.
 ### 2.1 Standard PCR
 
 PCR amplifies a specific DNA sequence in vitro. For details of the basic mechanism, see
-[Genetics and DNA](/docs/alevel/biology/genetics-and-dna).
+[Genetics and DNA](/biology/genetics-and-dna).
 
 ### 2.2 Quantitative PCR (qPCR)
 
@@ -148,7 +148,7 @@ transcriptomes.
 ### 3.1 DNA Gel Electrophoresis
 
 DNA fragments are separated by size through an agarose gel under an electric field. For details, see
-[Genetics and DNA](/docs/alevel/biology/genetics-and-dna).
+[Genetics and DNA](/biology/genetics-and-dna).
 
 ### 3.2 Protein Electrophoresis (SDS-PAGE)
 
@@ -176,7 +176,7 @@ molecular mass:
 ### 4.1 Sanger Sequencing (Chain-Termination Method)
 
 Developed by Frederick Sanger (1977). For details, see
-[Genetics and DNA](/docs/alevel/biology/genetics-and-dna).
+[Genetics and DNA](/biology/genetics-and-dna).
 
 ### 4.2 Next-Generation Sequencing (NGS)
 

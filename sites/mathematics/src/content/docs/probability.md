@@ -522,3 +522,8 @@ Probability quantifies uncertainty. The expected value is not a value you expect
 | Real Analysis                  | WyattsNotes | [View](/docs/university/mathematics/real-analysis)              |
 | Differential Equations         | WyattsNotes | [View](/docs/university/mathematics/differential-equations)     |
 | Probability — Harvard Stat 110 | Harvard     | [View](https://stat110.com/)                                    |
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

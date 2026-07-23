@@ -288,3 +288,6 @@ The Sachs-Wolfe effect is gravitational redshift in action: photons climbing out
 - **[The Standard Model](7-particle-physics-and-cosmology/1_the-standard-model.md)**: Topological defects from symmetry breaking and the neutrino sector connect particle physics to cosmological observations.
 - **[Beyond the Standard Model](7-particle-physics-and-cosmology/9_beyond-the-standard-model.md)**: Dark matter candidates and inflation models are motivated by questions beyond the Standard Model.
 - **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: The matter-antimatter asymmetry requires CP violation beyond the Standard Model, connecting to Sakharov conditions.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

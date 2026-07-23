@@ -26,7 +26,7 @@ categories:
 }
 </script>
 
-# Proof and Logic
+## Proof and Logic
 
 This note covers **IB Mathematics AA — Topic 1.4: Proof** in full depth. Everything here is
 Examinable at both Standard Level and Higher Level, with HL extensions marked where relevant.

@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Overload Resolution
+## Overload Resolution
 
 C++ function resolution is not a simple name match. The compiler performs a multi-phase search
 Through namespaces, ranks candidate functions against a strict hierarchy of conversion ranks, and
@@ -906,6 +906,10 @@ Dispatch (like Java). In C++, accessibility is a post-resolution check, not a pr
 
 - [Calling Conventions and Stack Management](2_calling_conventions.md)
 - [C-Interop and FFI](5_c_interop.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Summary
 

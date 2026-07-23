@@ -44,11 +44,11 @@ graph TD
 ### Interface Configuration
 
 ```bash
-# List all network interfaces
+## List all network interfaces
 ip link show
 ip -br link show           # brief output
 
-# Bring interface up/down
+## Bring interface up/down
 ip link set eth0 up
 ip link set eth0 down
 

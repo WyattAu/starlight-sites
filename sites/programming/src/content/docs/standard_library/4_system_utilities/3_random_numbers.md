@@ -299,6 +299,11 @@ Values in pairs, so the distribution object may cache one value internally for e
 - [Chrono Library](./2_chrono.md)
 - [Regular Expressions](./4_regular_expressions.md)
 
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+
 ### Engine State, Serialization, and Reproducibility
 
 Every random number engine maintains internal state that determines the next value in the sequence.

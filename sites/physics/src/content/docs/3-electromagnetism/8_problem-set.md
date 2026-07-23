@@ -545,6 +545,10 @@ Maxwell's equations are the four laws that govern all classical electromagnetic 
 - **[Electrodynamics](4_electrodynamics.md)**: The continuity equation and displacement current derivations require the time-dependent field equations from electrodynamics.
 - **[Electromagnetic Waves](5_electromagnetic-waves.md)**: Wave propagation problems in this set build directly on the wave equation derived from Maxwell's equations.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+
 ## Common Mistakes
 
 **Confusing divergence and curl:** Div E = ρ/ε₀ (charges create fields); curl E = -∂B/∂t (changing B creates E). Using the wrong one gives incorrect field solutions.

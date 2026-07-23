@@ -22,7 +22,7 @@ description: "Abnormal psychology is the HL extension unit in IB Psychology. It 
 }
 </script>
 
-# Abnormal Psychology
+## Abnormal Psychology
 
 Abnormal psychology is the HL extension unit in IB Psychology. It examines how psychological
 disorders are defined, classified, and explained, integrating the biological, cognitive, and

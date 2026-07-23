@@ -394,3 +394,5 @@ single host route. The Formula $2^n - 2$ usable hosts applies only for prefixes 
 - **[Data Link Layer](./3_data-link-layer.md):** MAC addressing and Ethernet protocols.
 - **[Transport Layer](./5_transport-layer.md):** TCP and UDP protocols.
 - **[Network Security](./7_network-security.md):** IPsec and network security protocols.
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

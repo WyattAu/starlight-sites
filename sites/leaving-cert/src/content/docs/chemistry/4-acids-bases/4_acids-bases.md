@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Acids, Bases and Salt Preparation
+## Acids, Bases and Salt Preparation
 
 This topic covers the properties of acids and bases, pH, strong and weak acids, buffers, and methods
 Of salt preparation. It is essential for both Ordinary and Higher Level.

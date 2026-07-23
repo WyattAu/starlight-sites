@@ -169,3 +169,6 @@ Operating system security is the bouncer, the lock, and the surveillance camera 
 
 - **[Site Home](../../):** Main landing page for computer-science notes.
 - **[Practice](../../practice-*.mdx):** Practice problems for revision.
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

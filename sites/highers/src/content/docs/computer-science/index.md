@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Scottish Highers Computer Science
+## Scottish Highers Computer Science
 
 Higher Computer Science covers hardware, software development, databases, algorithms, and web
 technologies. The course combines theoretical understanding with practical programming and system

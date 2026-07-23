@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# AP English Language
+## AP English Language
 
 Comprehensive revision notes for AP English Language and Composition, aligned with the College Board
 Course and Exam Description.

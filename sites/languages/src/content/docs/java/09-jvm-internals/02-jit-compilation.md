@@ -75,8 +75,8 @@ Performance boost for moderately hot methods, while C2 provides maximum throughp
 Methods. The profiling data collected at lower tiers feeds into C2's optimization decisions.
 
 ```bash
-# Tiered compilation is the default since Java 8
-# Explicitly enable (in case it was disabled):
+## Tiered compilation is the default since Java 8
+## Explicitly enable (in case it was disabled):
 java -XX:+TieredCompilation MyApp
 
 # Disable tiered compilation (use only C2):

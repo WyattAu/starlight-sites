@@ -31,7 +31,7 @@ categories:
 
 Thread-local storage gives each thread its own private copy of a variable, eliminating the need for synchronization when threads need independent state. Unlike static variables shared across threads, `thread_local` variables are created and destroyed with each thread, like giving each worker their own toolkit rather than sharing one. This is useful for thread-specific caches, random number generators, and error state. The tradeoff is that thread-local variables persist across function calls within a thread, which can cause subtle bugs if not managed carefully.
 
-# Thread-Local Storage (TLS)
+## Thread-Local Storage (TLS)
 
 This section covers the `thread_local` keyword, TLS implementation mechanisms, performance
 Characteristics, initialization guarantees, TLS in thread pools, and practical patterns such as

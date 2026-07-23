@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Chemistry Diagnostic: Acids, Bases and Salts
+## DSE Chemistry Diagnostic: Acids, Bases and Salts
 
 ## Unit Test 1: Weak Acid pH Calculation
 

@@ -33,7 +33,7 @@ import PracticeProblem from "@components/PracticeProblem";
 ### Example 1: Mutable Default Arguments (The Classic Pitfall)
 
 ```python
-# WRONG: Mutable default argument
+## WRONG: Mutable default argument
 def append_to(item, target=[]):
     target.append(item)
     return target
@@ -41,7 +41,7 @@ def append_to(item, target=[]):
 print(append_to(1))  # [1]
 print(append_to(2))  # [1, 2]  — surprise! The list was shared
 
-# RIGHT: Use None as default
+## RIGHT: Use None as default
 def append_to_fixed(item, target=None):
     if target is None:
         target = []

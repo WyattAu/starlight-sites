@@ -76,10 +76,10 @@ A bare repository is just the `.git/` directory without a working tree. It is th
 for remote servers (GitHub, GitLab, Gitea):
 
 ```bash
-# Create a bare repository
+## Create a bare repository
 $ git init --bare project.git
 
-# Clone from a bare repository
+## Clone from a bare repository
 $ git clone user@server:/path/to/project.git
 ```
 

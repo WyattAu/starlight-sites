@@ -27,7 +27,7 @@ sidebar_position: 30
 
 **History is like a vast library of human experience — learning from the past to understand the present.**
 
-# Diagnostic Test: Source Analysis
+## Diagnostic Test: Source Analysis
 
 Answer each question. Check your answers against the key at the end.
 

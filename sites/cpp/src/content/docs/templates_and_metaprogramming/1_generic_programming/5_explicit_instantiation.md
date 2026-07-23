@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Explicit Instantiation and Extern Templates
+## Explicit Instantiation and Extern Templates
 
 When templates are instantiated implicitly in every translation unit that uses them, compilation
 Time and binary size can grow significantly. C++ provides **explicit instantiation** and **extern

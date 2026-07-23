@@ -182,3 +182,6 @@ D'Alembert's principle requires that constraint forces do no virtual work. This 
 
 - **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation uses generalised coordinates to eliminate constraint forces.
 - **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism extends Lagrangian mechanics to phase space representations.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

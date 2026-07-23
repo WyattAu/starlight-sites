@@ -299,3 +299,8 @@ A single spin-1/2 particle has two states ($|\uparrow\rangle$ and $|\downarrow\r
 - **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom.md)**: Orbital angular momentum provides the foundation for understanding spin as an intrinsic angular momentum.
 - **[Operators and Observables](4_operators-and-observables.md)**: Operators represent physical observables and their commutation relations determine spin algebra.
 - **[Identical Particles and Exchange Symmetry](10_identical-particles-and-exchange-symmetry.md)**: Spin statistics connect spin to particle exchange symmetry and quantum statistics.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

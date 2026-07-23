@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Instruction Reordering and Happens-Before
+## Instruction Reordering and Happens-Before
 
 This section covers the as-if rule and compiler reordering, CPU-level store buffers and load
 Buffers, the happens-before and synchronizes-with relationships, sequential consistency vs relaxed
@@ -712,6 +712,10 @@ Loop or cache it in a register, without emitting any CPU barrier instructions.
 - [Cache Coherency (MESI) and False Sharing](./2_cache_coherency.md)
 - [Memory Orderings](./4_memory_orderings.md)
 - [Atomic Operations and Lock-Free Programming](./3_atomic_operations.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Summary
 

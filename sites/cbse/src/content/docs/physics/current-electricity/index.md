@@ -69,7 +69,7 @@ description: "CBSE Class 12 physics: Current electricity with Ohm's law, circuit
 }
 </script>
 
-# Current Electricity
+## Current Electricity
 
 Current electricity deals with the flow of electric charge through conductors. It covers Ohm's law, Kirchhoff's laws, series and parallel circuits, and electrical measurements.
 

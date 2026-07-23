@@ -516,6 +516,11 @@ Allocation attempt. Use it in unit tests to verify stack-only or no-heap-allocat
 - [Iterator Categories, Traversal, Invalidation](./3_iterators.md)
 
 
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+
 ## Intuition
 
 **PMR is like renting warehouse space:** Instead of each container owning its own memory (like buying storage units), PMR containers share a memory resource (like renting from a warehouse). The warehouse manager (memory resource) handles allocation and deallocation, and all containers using that resource can share the space. This is efficient for many small allocations — instead of calling `malloc` for each one, you carve them from a large pool.

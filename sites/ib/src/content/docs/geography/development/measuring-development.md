@@ -22,7 +22,7 @@ description: "Development is a multidimensional concept encompassing economic pr
 }
 </script>
 
-# Measuring Development
+## Measuring Development
 
 ## Intuition
 

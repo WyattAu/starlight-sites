@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Inheritance, Variation and Evolution — Diagnostic Tests
+## Inheritance, Variation and Evolution — Diagnostic Tests
 
 ## Unit Tests
 

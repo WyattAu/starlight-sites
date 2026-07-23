@@ -44,10 +44,10 @@ GB.
 ### Tuning ARC Size
 
 ```bash
-# Check current ARC statistics
+## Check current ARC statistics
 kstat -p zfs:0:arcstats
 
-# Key metrics:
+## Key metrics:
 # arc_size — Current ARC size in bytes
 # arc_hits — Number of cache hits
 # arc_misses — Number of cache misses

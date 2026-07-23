@@ -22,7 +22,7 @@ description: "refers to actions that reduce the sources or enhance the sinks of 
 }
 </script>
 
-# Climate Adaptation and Mitigation
+## Climate Adaptation and Mitigation
 
 ## Intuition
 

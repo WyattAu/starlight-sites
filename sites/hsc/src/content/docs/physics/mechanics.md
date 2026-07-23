@@ -21,7 +21,7 @@ description: "HSC physics: Mechanics"
 }
 </script>
 
-# Mechanics
+## Mechanics
 
 HSC physics study notes - Mechanics
 

@@ -223,6 +223,10 @@ Feynman diagrams are like sheet music for particle interactions. Each note repre
 - **[Conservation Laws and Symmetries](2_conservation-laws-and-symmetries.md)**: Each vertex in a Feynman diagram must conserve the quantum numbers governed by the symmetry principles in this chapter.
 - **[Running Coupling Constants](6_running-coupling-constants.md)**: Loop corrections in Feynman diagrams drive the energy dependence of coupling constants through renormalisation group evolution.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ## Common Mistakes
 
 **Confusing virtual and real particles:** Virtual particles in internal lines don't satisfy E² = p²c² + m²c⁴. They are off-shell and cannot be detected directly. Treating them as real gives wrong cross-sections.

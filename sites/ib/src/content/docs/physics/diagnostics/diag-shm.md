@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Simple Harmonic Motion — Diagnostic Tests
+## Simple Harmonic Motion — Diagnostic Tests
 
 ## Intuition
 

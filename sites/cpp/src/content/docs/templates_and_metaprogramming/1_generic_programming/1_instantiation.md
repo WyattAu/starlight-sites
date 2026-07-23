@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Template Instantiation, Monomorphization, and Code Bloat
+## Template Instantiation, Monomorphization, and Code Bloat
 
 Templates are blueprints the compiler uses to generate type-specific code on demand. This process —
 Called **instantiation** — produces optimized, type-specific functions and classes through

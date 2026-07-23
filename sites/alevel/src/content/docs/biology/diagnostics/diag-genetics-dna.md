@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Genetics is like a recipe book — DNA holds the instructions, and proteins are the dishes that get cooked.**
 
-# Genetics and DNA — Diagnostic Tests
+## Genetics and DNA — Diagnostic Tests
 
 ## Unit Tests
 

@@ -240,3 +240,8 @@ Scattering theory extracts information about forces by firing particles at targe
 - **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: The Schrodinger equation provides the foundation for scattering theory and partial wave analysis.
 - **[Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom.md)**: Angular momentum theory provides the partial wave expansion for scattering amplitudes.
 - **[Time-Dependent Perturbation Theory](12_time-dependent-perturbation-theory.md)**: Fermi's Golden Rule from time-dependent perturbation theory underlies transition rates in scattering.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

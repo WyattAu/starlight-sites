@@ -47,11 +47,11 @@ Key properties of Elixir processes:
 The `spawn/1` function creates a new process:
 
 ```elixir
-# spawn/1 - takes a zero-arity function
+## spawn/1 - takes a zero-arity function
 pid = spawn(fn -> IO.puts("Hello from process") end)
 #PID<0.123.0>
 
-# spawn/3 - takes module, function name, and arguments list
+## spawn/3 - takes module, function name, and arguments list
 pid = spawn(SomeModule, :some_function, [arg1, arg2])
 
 # The spawned process runs independently

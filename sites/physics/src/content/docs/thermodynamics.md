@@ -622,6 +622,11 @@ Thermodynamics describes how energy flows and transforms without tracking indivi
 | MIT 5.60 Thermodynamics        | [View](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-fall-2008/) |
 | Stanford Statistical Mechanics | [View](https://web.stanford.edu/~peastwood/statmech/)                       |
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ## Worked Examples
 
 ### Example 1: Carnot Efficiency Calculation

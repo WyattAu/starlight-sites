@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Dependency Injection
+## Dependency Injection
 
 ## What is Dependency Injection
 

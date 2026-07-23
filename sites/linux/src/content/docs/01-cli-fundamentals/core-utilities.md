@@ -51,10 +51,10 @@ Three main variants exist:
 | `grep -P` | PCRE         | Perl-Compatible Regular Expressions |
 
 ```bash
-# Basic pattern matching
+## Basic pattern matching
 grep "error" /var/log/syslog
 
-# Case-insensitive
+## Case-insensitive
 grep -i "warning" /var/log/syslog
 
 # Invert match (lines that do NOT match)

@@ -69,7 +69,7 @@ description: "A-Level Maths Statistics notes covering key definitions, core conc
 }
 </script>
 
-# Statistics
+## Statistics
 
 Statistics is the science of collecting, analysing, and drawing conclusions from data under
 uncertainty. A-Level Statistics covers data representation, probability theory, statistical
@@ -193,7 +193,7 @@ Behind every scientific discovery and technological innovation lies mathematics.
 
 ## Cross-References
 
-- [Algebra](/docs/alevel/mathematics/algebra)
-- [Calculus](/docs/alevel/mathematics/calculus)
-- [Statistics](/docs/alevel/mathematics/statistics)
-- [Trigonometry](/docs/alevel/mathematics/trigonometry)
+- [Algebra](/mathematics/algebra)
+- [Calculus](/mathematics/calculus)
+- [Statistics](/mathematics/statistics)
+- [Trigonometry](/mathematics/trigonometry)

@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Template Instantiation, Monomorphization, and Code Bloat
+## Template Instantiation, Monomorphization, and Code Bloat
 
 Templates are blueprints the compiler uses to generate type-specific code on demand. This process —
 Called **instantiation** — produces optimized, type-specific functions and classes through
@@ -924,6 +924,11 @@ public:
 - [Dependent Names and Two-Phase Lookup](./4_dependent_names.md)
 - [Explicit Instantiation and Extern Templates](./5_explicit_instantiation.md)
 - [Parameter Packs and Variadic Templates](../3_compile_time_computation/1_parameter_packs.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Summary
 

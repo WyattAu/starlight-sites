@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Integrals — Diagnostic Tests
+## Integrals — Diagnostic Tests
 
 ## Unit Tests
 

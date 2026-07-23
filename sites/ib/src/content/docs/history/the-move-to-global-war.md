@@ -24,7 +24,7 @@ description: "The Treaty of Versailles was the most consequential of the Paris P
 }
 </script>
 
-# The Move to Global War
+## The Move to Global War
 
 ## Part I: Peacemaking and Collective Security (1918--1935)
 

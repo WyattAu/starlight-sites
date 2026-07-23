@@ -71,7 +71,7 @@ objects. You can inspect it:
 
 ```bash
 readelf -h ./app | grep Entry
-# Entry point address: 0x401020
+## Entry point address: 0x401020
 ```
 
 On modern Linux with PIE (Position-Independent Executables), the entry point is a relative offset
@@ -305,7 +305,7 @@ Glibc is the most common CRT on Linux. Key characteristics:
 - Robust `dlopen`/`dlsym` for dynamic loading.
 
 ```bash
-# Inspect the CRT objects linked into your binary
+## Inspect the CRT objects linked into your binary
 ldd ./app
 readelf -d ./app | grep NEEDED
 ```

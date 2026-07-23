@@ -29,7 +29,7 @@ description: "A-Level History European Diplomacy notes covering Bismarck's allia
 }
 </script>
 
-# European Diplomacy 1871-1914
+## European Diplomacy 1871-1914
 
 The period between German unification in 1871 and the outbreak of the First World War in 1914 saw
 European diplomacy transform from a fluid balance of power into rigid alliance blocs poised for

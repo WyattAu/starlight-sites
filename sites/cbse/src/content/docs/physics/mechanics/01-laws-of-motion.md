@@ -21,7 +21,7 @@ description: "CBSE Class 12 Physics: Newton's three laws of motion with worked e
 }
 </script>
 
-# Newton's Laws of Motion
+## Newton's Laws of Motion
 
 ## First Law (Law of Inertia)
 

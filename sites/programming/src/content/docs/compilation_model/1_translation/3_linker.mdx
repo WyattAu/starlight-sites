@@ -142,7 +142,7 @@ void internal_helper();
 ```
 
 ```cmake
-# CMake: hide all symbols by default
+## CMake: hide all symbols by default
 set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 set(CMAKE_VISIBILITY_INLINES_HIDDEN ON)
 ```
@@ -199,7 +199,7 @@ Objects that register themselves via global constructors may never be pulled in 
 `U` references them.
 
 ```bash
-# Problem: libplugin.a defines init_plugin() via a global constructor,
+## Problem: libplugin.a defines init_plugin() via a global constructor,
 # but nothing in main.o references init_plugin() explicitly.
 clang++ main.o -lplugin  # init_plugin() is NEVER extracted
 

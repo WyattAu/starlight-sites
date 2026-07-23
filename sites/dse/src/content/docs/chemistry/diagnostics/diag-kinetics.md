@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Chemistry Diagnostic: Chemical Kinetics
+## DSE Chemistry Diagnostic: Chemical Kinetics
 
 ## Unit Test 1: Rate Equation Determination
 

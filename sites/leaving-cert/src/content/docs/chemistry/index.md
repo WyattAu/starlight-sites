@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Irish LC Chemistry
+## Irish LC Chemistry
 
 Leaving Certificate Chemistry covers atomic structure, bonding, stoichiometry, acids, bases, and
 organic chemistry. The course develops practical laboratory skills alongside theoretical

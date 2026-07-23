@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Java Examination Tool Sebset (JETS)
+## Java Examination Tool Sebset (JETS)
 
 The IB does not expect a specific standard of Java to be taught but a subset of Java called JETS for
 Students to present OOP concepts

@@ -170,3 +170,8 @@ $\blacksquare$
 - [Ising Model and Mean-Field Theory](/physics/2-thermal-physics/12_ising-model-and-mean-field-theory) -- Near $T_c$, the susceptibility divergence in the Ising model is a manifestation of the fluctuation-dissipation relation.
 - [The Debye Model of Solids](/physics/2-thermal-physics/16_the-debye-model-of-solids) -- Phonon thermal conductivity in the Debye model is an irreversible transport process governed by the same fluctuation principles.
 
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

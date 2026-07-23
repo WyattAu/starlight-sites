@@ -69,7 +69,7 @@ description: "CBSE Class 12 physics: Optics with reflection, refraction, lenses,
 }
 </script>
 
-# Optics
+## Optics
 
 Optics studies the behavior of light, including reflection, refraction, diffraction, and interference. It covers mirrors, lenses, optical instruments, and wave optics.
 

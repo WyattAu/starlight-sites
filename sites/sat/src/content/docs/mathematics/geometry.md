@@ -21,7 +21,7 @@ description: "SAT mathematics: Geometry"
 }
 </script>
 
-# Geometry
+## Geometry
 
 SAT mathematics study notes - Geometry
 

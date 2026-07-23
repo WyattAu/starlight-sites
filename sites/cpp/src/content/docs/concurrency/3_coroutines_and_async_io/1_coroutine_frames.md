@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Stackless Coroutine Frames and Heap Allocation
+## Stackless Coroutine Frames and Heap Allocation
 
 This section covers coroutines as suspendable functions, the stackless vs stackful design trade-off,
 Coroutine frame layout, heap allocation and elision, `std::coroutine_handle<P>` for manual lifetime

@@ -661,19 +661,19 @@ Therefore $P(X = k) \to \dfrac{e^{-\lambda}\lambda^k}{k!}$. $\blacksquare$
 
 If events occur according to a Poisson process with rate $\lambda$The time between consecutive
 Events follows the exponential distribution $\mathrm{Exp}(\lambda)$. See
-[Exponential and Continuous Random Variables](/docs/alevel/further-maths/further-statistics/exponential-continuous-rv).
+[Exponential and Continuous Random Variables](/further-maths/further-statistics/exponential-continuous-rv).
 
 ### 8.2 Geometric distribution and series summation
 
 The probability generating function $G_X(t) = \dfrac{pt}{1-qt}$ of the geometric distribution
 Connects to the summation of geometric series. See
-[Further Algebra](/docs/alevel/further-maths/pure-mathematics/further-algebra).
+[Further Algebra](/further-maths/pure-mathematics/further-algebra).
 
 ### 8.3 Poisson and hypothesis testing
 
 Goodness-of-fit tests using the chi-squared statistic compare observed and expected (Poisson)
 Frequencies. See
-[Chi-Squared Tests](/docs/alevel/further-maths/further-statistics/chi-squared-tests).
+[Chi-Squared Tests](/further-maths/further-statistics/chi-squared-tests).
 
 ---
 
@@ -985,7 +985,7 @@ $P(X > 3) = 0.75^3 = \boxed{0.4219}$.
 
 The inter-arrival times of a Poisson process follow the exponential distribution. If events occur at
 Rate $\lambda$ per unit time, the time between consecutive events is $\mathrm{Exp}(\lambda)$. See
-[Exponential and Continuous Random Variables](/docs/alevel/further-maths/further-statistics/exponential-continuous-rv).
+[Exponential and Continuous Random Variables](/further-maths/further-statistics/exponential-continuous-rv).
 
 ### 11.2 Poisson and binomial
 
@@ -996,7 +996,7 @@ $\lambda = np$.
 
 The chi-squared goodness-of-fit test is used to test whether data follows a Poisson or geometric
 Distribution. See
-[Chi-Squared Tests](/docs/alevel/further-maths/further-statistics/chi-squared-tests).
+[Chi-Squared Tests](/further-maths/further-statistics/chi-squared-tests).
 
 ---
 

@@ -172,6 +172,11 @@ Weak $L^p$ spaces are larger than $L^p$: $L^p \subseteq L^{p,\infty}$ with $\|f\
 - **[Normed Spaces and Banach Spaces](../11-functional-analysis/1_normed-spaces-and-banach-spaces.md)**: Places $L^p$ spaces in the broader framework of Banach space theory, where they serve as fundamental examples.
 - **[Inner Product Spaces and Hilbert Spaces](../11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces.md)**: Specialises the theory to $L^2$, where the inner product structure enables orthogonal projections and spectral theory.
 
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+
 ## Intuition
 
 $L^p$ spaces formalise the idea of "how big" a function is by integrating its $p$-th power. The $L^2$ space is the familiar Hilbert space of square-integrable functions — the setting for Fourier analysis and quantum mechanics. For $p \neq 2$, there is no inner product, only the norm. The key trade-off: larger $p$ penalises peaks more harshly, so $L^\infty$ measures the essential supremum (the worst-case value). Minkowski's inequality is the triangle inequality for these spaces, and Hölder's inequality controls how products of functions behave. The Riesz-Fischer theorem — $L^p$ is complete — is what makes integration theory work: Cauchy sequences of functions actually converge to a function.

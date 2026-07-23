@@ -24,7 +24,7 @@ description: "Analysis of A Streetcar Named Desire by Tennessee Williams."
 }
 </script>
 
-# A Streetcar Named Desire: Close Reading and Analysis
+## A Streetcar Named Desire: Close Reading and Analysis
 
 ## Intuition
 

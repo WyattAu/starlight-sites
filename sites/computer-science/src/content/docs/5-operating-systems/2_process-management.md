@@ -344,6 +344,10 @@ Named pipes (`mkfifo`) allow unrelated processes to communicate.
 **Signals.** Asynchronous notifications (integer payload only). Common: `SIGTERM``SIGKILL`
 `SIGSEGV``SIGCHLD`.
 
+## See Also
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
 ## Common Mistakes
 
 1. **Assuming `fork()` copies the entire address space.** Modern systems use copy-on-write (COW) for `fork()`. Pages are shared between parent and child until one writes, at which point a copy is made. This makes `fork()` nearly O(1), but the cost is paid at write time, not at fork time.

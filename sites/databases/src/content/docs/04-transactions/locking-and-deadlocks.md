@@ -798,7 +798,7 @@ When a query on the replica needs to read data that is being modified by WAL rep
 Waits up to `max_standby_streaming_delay` before canceling the query:
 
 ```conf
-# postgresql.conf (on the replica)
+## postgresql.conf (on the replica)
 max_standby_streaming_delay = 30s
 hot_standby_feedback = on
 ```

@@ -456,7 +456,7 @@ The LSP violation occurs if `Rectangle` allows independent setting of width and 
 ```python
 r = Square("red", 5)
 r.set_width(10)  # If Rectangle has this, width = 10, height = 5
-# Now r is no longer a valid square!
+## Now r is no longer a valid square!
 ```
 
 A `Square` used as a `Rectangle` can be put into an invalid state. This means `Square` is not a
@@ -713,7 +713,7 @@ class Library:
 </details>
 
 For revision on programming fundamentals, see
-[Programming Constructs](/docs/alevel/computer-science/programming/programming-constructs).
+[Programming Constructs](/computer-science/programming/programming-constructs).
 
 
 ## Common Pitfalls

@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Vectors are like arrows with both direction and magnitude — they point where you need to go and tell you how far.**
 
-# Vectors — Diagnostic Tests
+## Vectors — Diagnostic Tests
 
 ## Unit Tests
 

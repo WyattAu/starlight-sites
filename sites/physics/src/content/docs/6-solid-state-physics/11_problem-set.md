@@ -173,6 +173,11 @@ Solid-state physics studies how atoms arranged in crystals give rise to electron
 - **[Lattice Vibrations and Phonons](6-solid-state-physics/4_lattice-vibrations-and-phonons.md)**: Problems on specific heat, phonon dispersion, and thermal conductivity use the phonon framework.
 - **[Semiconductors](6-solid-state-physics/6_semiconductors.md)**: Problems on carrier concentration, Fermi level, and conductivity require the semiconductor physics developed in this chapter.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ## Common Mistakes
 
 **Confusing direct and reciprocal lattice vectors:** Direct lattice vectors describe real-space positions; reciprocal lattice vectors describe momentum space. Using the wrong one in Bragg's law gives wrong diffraction angles.

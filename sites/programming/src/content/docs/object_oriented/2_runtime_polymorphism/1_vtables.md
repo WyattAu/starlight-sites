@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Virtual Functions and Dispatch Tables (vtables)
+## Virtual Functions and Dispatch Tables (vtables)
 
 Virtual functions are the foundation of runtime polymorphism in C++. When a member function is
 Declared `virtual`The call is resolved at runtime based on the object"s dynamic type through the
@@ -743,6 +743,10 @@ Has no data members. This is the fundamental cost of runtime polymorphism.
 - [Inheritance, Object Slicing, and Virtual Destructors](./2_inheritance_slicing.md)
 - [Devirtualization and Final Specifiers](./3_devirtualization.md)
 - [Deducing This and CRTP](./5_deducing_this_crtp.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Summary
 

@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Solutions with colligative properties, Ra
 }
 </script>
 
-# Solutions
+## Solutions
 
 Solutions are homogeneous mixtures of two or more components. This topic covers concentration units, Raoult's law, colligative properties, and abnormal molar masses.
 

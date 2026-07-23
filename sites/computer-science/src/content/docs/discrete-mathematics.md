@@ -1851,3 +1851,6 @@ $\blacksquare$
 | Discrete Mathematics — MIT 6.042J | MIT OCW     | [View](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) |
 | AP Calculus                       | AP          | [View](/ap/maths/) |
 
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

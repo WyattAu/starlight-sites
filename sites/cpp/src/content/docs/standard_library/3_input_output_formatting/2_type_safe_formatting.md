@@ -78,7 +78,7 @@ format-spec       ::= [[fill] align] [sign] ["#"] ["0"] [width] ["." precision] 
 fill              ::= any character other than "{" or "}"
 align             ::= "<" | ">" | "^" | "="
 sign              ::= "+" | "-" | " "
-#                 ::= "#" (alternate form)
+##                 ::= "#" (alternate form)
 0                 ::= "0" (zero-padding)
 width             ::= nonnegative-integer | "{" [arg-id] "}"
 precision         ::= nonnegative-integer | "{" [arg-id] "}"

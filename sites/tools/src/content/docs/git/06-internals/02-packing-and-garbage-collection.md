@@ -67,10 +67,10 @@ When the number of loose objects exceeds `gc.auto` (default: 6700), Git automati
 into a **packfile**. You can also trigger packing manually:
 
 ```bash
-# Pack all loose objects
+## Pack all loose objects
 $ git gc
 
-# Pack aggressively (slower but better compression)
+## Pack aggressively (slower but better compression)
 $ git gc --aggressive
 ```
 

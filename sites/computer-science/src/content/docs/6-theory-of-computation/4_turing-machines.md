@@ -221,6 +221,9 @@ verifies one pair. If any pair mismatches, the string is not of the form $w\#w^R
 - **[Site Home](../../):** Main landing page for computer-science notes.
 - **[Practice](../../practice-*.mdx):** Practice problems for revision.
 
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
 ## Common Mistakes
 
 1. **Assuming non-deterministic TMs are more powerful than deterministic TMs.** NTMs and DTMs recognise exactly the same class of languages (the recursively enumerable languages). An NTM can be simulated by a deterministic TM using breadth-first search over all computation paths, though at an exponential cost in time.

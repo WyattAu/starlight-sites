@@ -1007,18 +1007,18 @@ $\blacksquare$
 ### 11.1 Exponential distribution and Poisson process
 
 The exponential distribution models inter-arrival times in a Poisson process. See
-[Poisson and Geometric Distributions](/docs/alevel/further-maths/further-statistics/poisson-geometric).
+[Poisson and Geometric Distributions](/further-maths/further-statistics/poisson-geometric).
 
 ### 11.2 Continuous distributions and integration
 
 Finding CDFs, means, and variances of continuous random variables requires integration. See
-[Further Calculus](/docs/alevel/further-maths/pure-mathematics/further-calculus).
+[Further Calculus](/further-maths/pure-mathematics/further-calculus).
 
 ### 11.3 Normal distribution and the CLT
 
 The Central Limit Theorem connects the exponential and uniform distributions to the normal
 Distribution. See
-[Chi-Squared Tests](/docs/alevel/further-maths/further-statistics/chi-squared-tests).
+[Chi-Squared Tests](/further-maths/further-statistics/chi-squared-tests).
 
 ---
 

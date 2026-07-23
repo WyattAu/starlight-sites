@@ -68,9 +68,9 @@ A **branch** is a reference that moves forward as you make commits. It is stored
 `.git/refs/heads/<branch-name>`.
 
 ```bash
-# Create a branch
+## Create a branch
 $ git branch feature-login
-# Equivalent to: echo $(git rev-parse HEAD) > .git/refs/heads/feature-login
+## Equivalent to: echo $(git rev-parse HEAD) > .git/refs/heads/feature-login
 
 # Switch to a branch
 $ git switch feature-login

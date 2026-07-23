@@ -193,3 +193,7 @@ The Huygens-Fresnel integral includes a $\cos\theta$ obliquity factor that suppr
 The Cornu spiral is a parametric plot of $(C(u), S(u))$ whose arc length and tangent angle encode the amplitude and phase of Fresnel diffraction. Students sometimes interpret the spiral itself as the intensity pattern, when in fact the intensity at each point is found by computing the chord length from the spiral's endpoint to the origin.
 
 Fresnel diffraction is the transition zone between near-field and far-field behavior. Close to an aperture, wavefront curvature matters and the pattern changes with distance. Fresnel zones divide the aperture into rings where contributions alternate in phase, like concentric ripples on a pond. Zone plates exploit this by blocking every other ring, focusing light like a lens. The straight-edge diffraction pattern shows light bending into the shadow, demonstrating that geometric optics is an approximation. Fraunhofer diffraction emerges when the screen is far enough that wavefronts appear flat.
+
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

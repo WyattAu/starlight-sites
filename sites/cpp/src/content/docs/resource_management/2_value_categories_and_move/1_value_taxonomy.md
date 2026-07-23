@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Value Taxonomy
+## Value Taxonomy
 
 Every C++ expression has a **value category** — a property that determines which operations are
 Legal on it and how it interacts with overloaded functions. C++17 defines three primary categories

@@ -76,7 +76,7 @@ categories:
 }
 </script>
 
-# GCSE Physics
+## GCSE Physics
 
 Comprehensive revision notes for GCSE Physics, covering all major exam boards (AQA, Edexcel, OCR,
 WJEC).

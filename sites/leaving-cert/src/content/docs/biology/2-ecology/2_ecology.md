@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Ecology
+## Ecology
 
 Ecology is the study of the relationships between living organisms and their environment. This topic
 Covers ecosystems, food chains, nutrient cycles, population dynamics, and human impact on the

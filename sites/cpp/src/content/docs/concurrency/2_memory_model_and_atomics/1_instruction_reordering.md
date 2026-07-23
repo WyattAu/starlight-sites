@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Instruction Reordering and Happens-Before
+## Instruction Reordering and Happens-Before
 
 This section covers the as-if rule and compiler reordering, CPU-level store buffers and load
 Buffers, the happens-before and synchronizes-with relationships, sequential consistency vs relaxed

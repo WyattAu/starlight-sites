@@ -141,8 +141,8 @@ Oh-My-Zsh is convenient but adds significant startup latency (100–300 ms). A m
 Hand-picked plugins is faster and more maintainable:
 
 ```bash
-# ~/.zshrc
-# -- History --
+## ~/.zshrc
+## -- History --
 HISTFILE=~/.zsh_history
 HISTSIZE=50000
 SAVEHIST=50000

@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Compare-and-Swap (CAS) Loops
+## Compare-and-Swap (CAS) Loops
 
 This section covers the CAS loop pattern, the difference between `compare_exchange_weak` and
 `compare_exchange_strong`When weak CAS is preferable, linearizability of CAS-based data Structures,

@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Programming -- Diagnostic Tests
+## Programming -- Diagnostic Tests
 
 ## Unit Tests
 

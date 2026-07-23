@@ -228,3 +228,6 @@ Bragg diffraction peaks occur when the scattering vector $\mathbf{G}$ is a recip
 - **[Diffraction](6-solid-state-physics/3_diffraction.md)**: Bragg diffraction and the Laue condition are formulated most naturally in terms of reciprocal lattice vectors.
 - **[Lattice Vibrations and Phonons](6-solid-state-physics/4_lattice-vibrations-and-phonons.md)**: Phonon wavevectors are defined in the Brillouin zone, which is the Wigner-Seitz cell of the reciprocal lattice.
 - **[Semiconductors](6-solid-state-physics/6_semiconductors.md)**: Electronic band structures are computed in the Brillouin zone of the reciprocal lattice.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

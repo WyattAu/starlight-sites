@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# GCSE Maths Study Guide
+## GCSE Maths Study Guide
 
 A complete single-page revision guide covering the full GCSE Mathematics specification. Each
 section contains key concepts, worked methods, and essential facts. Use this alongside the

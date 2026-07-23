@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Organic Chemistry
+## Organic Chemistry
 
 Organic chemistry is the study of carbon compounds. This topic covers homologous series, functional
 Groups, nomenclature, reaction mechanisms, and the chemistry of major organic families.

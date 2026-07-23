@@ -22,7 +22,7 @@ description: "- Understand the concepts of computational thinking - Identifying 
 }
 </script>
 
-# Prelude
+## Prelude
 
 ## Objective of the IB computer science program
 

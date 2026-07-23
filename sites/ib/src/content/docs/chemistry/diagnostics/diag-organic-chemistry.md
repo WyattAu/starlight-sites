@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Organic Chemistry — Diagnostic Tests
+## Organic Chemistry — Diagnostic Tests
 
 ## Intuition
 

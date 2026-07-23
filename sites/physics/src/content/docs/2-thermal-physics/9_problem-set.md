@@ -269,6 +269,11 @@ Thermal physics connects the microscopic world of individual particles to the ma
 - **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature.md)**: The Fermi energy problems are direct applications of the finite-temperature electron gas theory.
 - **[Classical Limit and the Maxwell-Boltzmann Distribution](7_classical-limit-and-the-maxwell-boltzmann-distribution.md)**: The high-temperature limit of quantum statistics recovers the classical ideal gas results tested in several problems.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ## Common Mistakes
 
 **Using wrong units for temperature in statistical mechanics:** All statistical formulas require absolute temperature (Kelvin). Using Celsius or Fahrenheit gives exponentially wrong Boltzmann factors.

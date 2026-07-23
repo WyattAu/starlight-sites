@@ -209,7 +209,7 @@ gluconeogenesis.
 | Treatment          | Insulin injections essential | Diet, exercise, oral drugs, sometimes insulin |
 | Ketoacidosis risk  | High                         | Low                                           |
 
-For more on the immune system and autoimmunity, see [Immunology](/docs/alevel/biology/immunology).
+For more on the immune system and autoimmunity, see [Immunology](/biology/immunology).
 
 <aside aria-label="Common Pitfall Students often write that "insulin converts glucose to glycogen." Insulin" class="starlight-aside starlight-aside--caution"><p class="starlight-aside__title" aria-hidden="true"><svg class="starlight-aside__icon" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L1 21h22L12 2Zm0 4l7.53 14H4.47L12 6Zm-1 5v4h2v-4h-2Zm0 6v2h2v-2h-2Z"/></svg>Common Pitfall Students often write that "insulin converts glucose to glycogen." Insulin</p>
 does not perform this conversion itself -- it is a signalling molecule that stimulates liver and
@@ -368,7 +368,7 @@ the impulse before passing it to the Bundle of His, the Purkyne tissue, and the 
 causing ventricular systole.
 
 For detailed cardiac cycle mechanics, see
-[Exchange and Transport](/docs/alevel/biology/exchange-and-transport).
+[Exchange and Transport](/biology/exchange-and-transport).
 
 ### 5.2 Autonomic Nervous System Control
 
@@ -2344,6 +2344,6 @@ linked above.
 
 ## Cross-References
 
-- [Biology](/alevel/biology)
-- [Cells](/alevel/biology/cells)
-- [Genetics and DNA](/alevel/biology/genetics-and-dna)
+- [Biology](/biology)
+- [Cells](/biology/cells)
+- [Genetics and DNA](/biology/genetics-and-dna)

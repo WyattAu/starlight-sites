@@ -139,6 +139,10 @@ $\blacksquare$
 - **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: Fermi-Dirac statistics emerge naturally from the grand canonical ensemble for non-interacting fermions.
 - **[Bose-Einstein Condensation](5_bose-einstein-condensation.md)**: Bose-Einstein condensation contrasts with Fermi gas behaviour, showing how quantum statistics determine low-temperature properties.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ### 4.8 Worked Example: Sommerfeld Correction to the Electron Density
 
 **Problem.** For a 3D free electron gas at $T = 100$ K with $\varepsilon_F = 5$ eV, compute the fractional change in the chemical potential $\mu(T)$ relative to $\varepsilon_F$.

@@ -95,10 +95,10 @@ Clang uses a unified driver model. Instead of requiring a separate prefixed bina
 Clang accepts a `-target` flag that dynamically selects the code generator:
 
 ```bash
-# Cross-compile for ARM64 Linux using Clang
+## Cross-compile for ARM64 Linux using Clang
 clang++ -target aarch64-linux-gnu --sysroot=/usr/aarch64-linux-gnu -std=c++23 main.cpp
 
-# Cross-compile for RISC-V bare metal
+## Cross-compile for RISC-V bare metal
 clang++ -target riscv64-unknown-elf -march=rv64imac -mabi=lp64 main.cpp
 
 # Cross-compile for Windows from Linux

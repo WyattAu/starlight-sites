@@ -33,7 +33,7 @@ description: "A-Level English exam techniques: essay planning, PEE/PEEL structur
 
 **English literature explores the human experience through language — words painting pictures of life.**
 
-# Exam Techniques
+## Exam Techniques
 
 ## Introduction
 

@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Optics — Diagnostic Tests
+## Optics — Diagnostic Tests
 
 ## Unit Tests
 

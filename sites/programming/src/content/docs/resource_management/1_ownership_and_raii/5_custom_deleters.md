@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Common Pitfalls
+## Common Pitfalls
 
 Smart pointers eliminate many classes of resource bugs, but misuse still leads to leaks, undefined
 Behavior, and performance regressions. This section covers the most common pitfalls encountered when
@@ -805,6 +805,9 @@ To debug.
 - [Shared Ownership (std::shared_ptr) and Control Block](3_shared_ptr.md)
 - [Weak Pointers and Cyclic Reference Breaking](4_weak_ptr.md)
 - [RAII Patterns](1_raii_patterns.md)
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Worked Examples
 

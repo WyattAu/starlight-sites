@@ -21,7 +21,7 @@ description: "高考 mathematics: Geometry with vectors, conic sections, and wor
 }
 </script>
 
-# Geometry
+## Geometry
 
 高考 mathematics 学习笔记 - Geometry
 

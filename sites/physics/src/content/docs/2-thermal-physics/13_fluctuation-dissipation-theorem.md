@@ -168,3 +168,8 @@ The total mean-square voltage across the capacitor is $\langle V_C^2 \rangle = k
 - **[Irreversible Thermodynamics and Fluctuations](19_irreversible-thermodynamics-and-fluctuations.md)**: Linear response theory is extended to irreversible processes and entropy production in this chapter.
 - **[Common Pitfalls](8_common-pitfalls.md)**: Confusing response functions with fluctuation quantities is a frequent error addressed in both sections.
 
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

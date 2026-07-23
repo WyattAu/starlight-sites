@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Cells are like tiny factories — each with specialized departments working together to keep the organism alive.**
 
-# Cells — Diagnostic Tests
+## Cells — Diagnostic Tests
 
 ## Unit Tests
 

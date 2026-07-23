@@ -170,3 +170,7 @@ Coupling constants are not truly constant: they change with energy scale through
 - **[Group Theory in Particle Physics](7-particle-physics-and-cosmology/5_group-theory-in-particle-physics.md)**: The beta function coefficients depend on the group-theoretic factors of SU(3), SU(2), and U(1).
 - **[Beyond the Standard Model](7-particle-physics-and-cosmology/9_beyond-the-standard-model.md)**: Gauge coupling unification requires new physics such as supersymmetry to bring the three couplings to convergence.
 - **[Advanced Topics in Particle Physics](7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics.md)**: Deep inelastic scattering and the DGLAP equations measure the running of the strong coupling constant.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

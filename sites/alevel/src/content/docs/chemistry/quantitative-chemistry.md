@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Quantitative Chemistry (Stoichiometry)
+## Quantitative Chemistry (Stoichiometry)
 
 ## The Mole Concept
 

@@ -69,7 +69,7 @@ description: "CBSE Class 12 mathematics: Integrals with integration techniques, 
 }
 </script>
 
-# Integrals
+## Integrals
 
 Integration is the reverse process of differentiation. This topic covers basic integrals, substitution, partial fractions, and definite integrals.
 

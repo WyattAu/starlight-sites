@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Integration — Diagnostic Tests
+## Integration — Diagnostic Tests
 
 ## Intuition
 

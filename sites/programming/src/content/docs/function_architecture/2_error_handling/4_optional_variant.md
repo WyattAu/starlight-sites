@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Algebraic Error Handling
+## Algebraic Error Handling
 
 `std::optional` and `std::variant` are stack-allocated, type-safe alternatives to exceptions for
 Representing values that may be absent or that may hold one of several alternative types.
@@ -221,6 +221,9 @@ int main() {
 
 - [The noexcept Specifier](3_noexcept.md)
 - [Monadic Error Handling — std::expected](5_expected.md)
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## 4.5 `std::optional` API Deep Dive
 

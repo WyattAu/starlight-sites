@@ -626,7 +626,7 @@ Open `coverage/html/index.html` in a browser to see line-by-line coverage.
 Enforce minimum coverage in CI to prevent regression:
 
 ```yaml
-# .github/workflows/test.yml
+## .github/workflows/test.yml
 - name: Check coverage
   run: |
     dart test --coverage=coverage

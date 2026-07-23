@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Polynomials — Diagnostic Tests
+## Polynomials — Diagnostic Tests
 
 ## Unit Tests
 

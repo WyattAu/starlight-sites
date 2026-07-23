@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Special Member Function Generation Rules
+## Special Member Function Generation Rules
 
 The compiler automatically generates special member functions (SMFs) — destructor, copy/move
 Constructors, and copy/move assignment operators — according to well-defined rules. Understanding
@@ -682,6 +682,10 @@ int main() {
 - [Access Control and Friendship](./2_access_control.md)
 - [Operator Overloading](./4_operator_overloading.md)
 
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Summary
 

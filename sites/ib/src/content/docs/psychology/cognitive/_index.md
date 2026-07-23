@@ -22,7 +22,7 @@ description: "This section covers the cognitive level of analysis, focusing on m
 }
 </script>
 
-# Cognitive Level of Analysis
+## Cognitive Level of Analysis
 
 This section covers the cognitive level of analysis, focusing on mental processes such as memory,
 thinking, language, and decision making.

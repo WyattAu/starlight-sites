@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# A-Level Chemistry
+## A-Level Chemistry
 
 A-Level Chemistry is a rigorous, mathematically grounded treatment of the principles governing
 chemical systems. It builds on GCSE foundations and introduces formal physical chemistry

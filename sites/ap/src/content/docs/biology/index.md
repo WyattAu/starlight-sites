@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# AP Biology
+## AP Biology
 
 Comprehensive revision notes for AP Biology, aligned with the College Board Course and Exam
 Description.

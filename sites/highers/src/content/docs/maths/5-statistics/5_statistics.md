@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Statistics and Probability
+## Statistics and Probability
 
 ## Higher Statistics
 

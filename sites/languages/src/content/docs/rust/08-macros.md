@@ -508,11 +508,11 @@ my_project/
 ```
 
 ```toml
-# workspace Cargo.toml
+## workspace Cargo.toml
 [workspace]
 members = ["my_macros", "my_app"]
 
-# my_app/Cargo.toml
+## my_app/Cargo.toml
 [dependencies]
 my_macros = { path = "../my_macros" }
 ```

@@ -66,10 +66,10 @@ Persistent (/var/log/journal/):
 ```
 
 ```bash
-# Check current storage mode
+## Check current storage mode
 journalctl --header | grep "Storage"
 
-# Enable persistent storage
+## Enable persistent storage
 sudo mkdir -p /var/log/journal
 sudo systemd-tmpfiles --create --prefix /var/log/journal
 sudo systemctl restart systemd-journald

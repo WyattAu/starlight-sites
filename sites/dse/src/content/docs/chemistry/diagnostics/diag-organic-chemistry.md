@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Chemistry Diagnostic: Organic Chemistry
+## DSE Chemistry Diagnostic: Organic Chemistry
 
 ## Unit Test 1: Functional Group Identification from Tests
 

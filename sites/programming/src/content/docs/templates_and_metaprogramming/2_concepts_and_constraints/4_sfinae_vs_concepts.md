@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# SFINAE vs Concepts
+## SFINAE vs Concepts
 
 **SFINAE** (Substitution Failure Is Not An Error) was the primary mechanism for constraining
 Templates from C++98 through C++17. C++20 concepts provide a cleaner, more expressive alternative
@@ -579,6 +579,9 @@ int main() {
 - [Standard Library Concepts](./3_standard_concepts.md)
 - [Type Traits and Static Reflection Patterns](../3_compile_time_computation/4_type_traits.md)
 
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 
 ## Summary
 

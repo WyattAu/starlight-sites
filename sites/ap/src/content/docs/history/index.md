@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# AP US History
+## AP US History
 
 Comprehensive revision notes for AP United States History (APUSH), aligned with the College Board
 Course and Exam Description.

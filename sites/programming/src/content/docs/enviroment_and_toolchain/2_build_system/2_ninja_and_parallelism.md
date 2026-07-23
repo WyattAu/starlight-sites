@@ -65,10 +65,10 @@ pacman -S mingw-w64-ucrt-x86_64-ninja
 ### Linux
 
 ```bash
-# Debian/Ubuntu
+## Debian/Ubuntu
 sudo apt install ninja-build
 
-# RHEL/Fedora
+## RHEL/Fedora
 sudo dnf install ninja-build
 
 # Arch Linux
@@ -771,3 +771,8 @@ Ninja is a small, fast build system that CMake can generate for. It excels at in
 - [[enviroment_and_toolchain/2_build_system/4_build_caching.mdx]] - Build caching for faster iterations
 - [[enviroment_and_toolchain/2_build_system/6_code_coverage.mdx]] - Coverage with parallel builds
 - [[enviroment_and_toolchain/2_build_system/5_unit_tests]] - Parallel test execution
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)

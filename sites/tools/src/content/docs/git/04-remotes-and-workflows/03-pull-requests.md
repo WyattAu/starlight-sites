@@ -192,7 +192,7 @@ For the `main` branch, configure:
 After all checks pass and approvals are granted, enable auto-merge:
 
 ```bash
-# Via GitHub CLI
+## Via GitHub CLI
 $ gh pr merge 42 --auto --squash
 ```
 

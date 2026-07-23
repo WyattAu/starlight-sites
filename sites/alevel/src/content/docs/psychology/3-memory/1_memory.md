@@ -28,7 +28,7 @@ description: "A-Level Psychology Memory notes covering key definitions, core con
 }
 </script>
 
-# Memory
+## Memory
 
 ## Introduction
 
@@ -449,6 +449,6 @@ The mind works like an information processing system. Perception filters raw sen
 
 ## Cross-References
 
-- [Research Methods](/docs/alevel/psychology/research-methods)
-- [Approaches in Psychology](/docs/alevel/psychology/approaches)
-- [Biopsychology](/docs/alevel/psychology/biopsychology)
+- [Research Methods](/psychology/research-methods)
+- [Approaches in Psychology](/psychology/approaches)
+- [Biopsychology](/psychology/biopsychology)

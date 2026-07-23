@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Biology Diagnostic: Human Reproduction and Homeostasis
+## DSE Biology Diagnostic: Human Reproduction and Homeostasis
 
 ## Unit Test 1: Hormonal Control of the Menstrual Cycle
 

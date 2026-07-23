@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Waves and Radiation
+## Waves and Radiation
 
 ## Higher Waves
 

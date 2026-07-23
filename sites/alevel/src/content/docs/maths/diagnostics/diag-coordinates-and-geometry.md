@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Geometry is the art of measuring and describing shapes — from simple triangles to complex solids.**
 
-# Coordinates and Geometry — Diagnostic Tests
+## Coordinates and Geometry — Diagnostic Tests
 
 ## Unit Tests
 

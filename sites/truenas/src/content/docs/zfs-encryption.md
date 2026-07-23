@@ -254,9 +254,9 @@ A passphrase is a human-memorable string that is stretched into a 256-bit key us
 The passphrase is prompted for interactively when the key needs to be loaded.
 
 ```bash
-# Create dataset with passphrase
+## Create dataset with passphrase
 zfs create -o encryption=on -o keyformat=passphrase -o keylocation=prompt tank/docs
-# Enter passphrase: ********
+## Enter passphrase: ********
 # Re-enter passphrase: ********
 
 # Load key (prompts for passphrase)

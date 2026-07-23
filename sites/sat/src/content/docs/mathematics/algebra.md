@@ -21,7 +21,7 @@ description: "SAT mathematics: Algebra"
 }
 </script>
 
-# Algebra
+## Algebra
 
 SAT mathematics study notes - Algebra
 

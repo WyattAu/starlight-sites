@@ -66,10 +66,10 @@ Git discovers hooks through a well-defined search path:
    directory:
 
 ```bash
-# Point Git to a custom hooks directory
+## Point Git to a custom hooks directory
 $ git config core.hooksPath .githooks
 
-# Verify the override is in effect
+## Verify the override is in effect
 $ git config core.hooksPath
 .githooks
 ```

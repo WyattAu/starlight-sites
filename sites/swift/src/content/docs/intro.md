@@ -21,7 +21,7 @@ description: "Introduction to swift notes."
 }
 </script>
 
-# Swift
+## Swift
 
 Welcome to the Swift notes. Swift is a modern language for iOS, macOS, watchOS, and tvOS development — combining the safety of a strong type system with the performance of compiled code and the expressiveness of modern syntax.
 

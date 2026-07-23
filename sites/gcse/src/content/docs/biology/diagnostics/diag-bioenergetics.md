@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Bioenergetics — Diagnostic Tests
+## Bioenergetics — Diagnostic Tests
 
 ## Unit Tests
 

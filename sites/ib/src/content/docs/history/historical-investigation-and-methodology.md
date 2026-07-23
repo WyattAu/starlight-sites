@@ -24,7 +24,7 @@ description: "This document provides a comprehensive guide to the IB History Int
 }
 </script>
 
-# Historical Investigation and Methodology
+## Historical Investigation and Methodology
 
 This document provides a comprehensive guide to the IB History Internal Assessment (IA) and the
 Methodological foundations underlying all historical inquiry. It covers the structure and

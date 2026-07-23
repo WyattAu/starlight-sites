@@ -56,7 +56,7 @@ Git does not enforce a single protocol for a repository. You can fetch over HTTP
 Or use different protocols for different remotes. The choice is per-remote URL, not per-repository.
 
 ```bash
-# A repository can have remotes using different protocols
+## A repository can have remotes using different protocols
 $ git remote -v
 origin    https://github.com/user/repo.git (fetch)
 origin    git@github.com:user/repo.git (push)
@@ -73,7 +73,7 @@ Smaller keys and faster operations. It is supported by OpenSSH 6.5+ (released Ja
 Major Git hosting platforms.
 
 ```bash
-# Generate an Ed25519 key (recommended)
+## Generate an Ed25519 key (recommended)
 $ ssh-keygen -t ed25519 -C "user@example.com"
 Generating public/private ed25519 key pair.
 Enter file in which to save the key (/home/user/.ssh/id_ed25519):

@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Lanthanoids, actinoids, properties, and w
 }
 </script>
 
-# F-Block Elements
+## F-Block Elements
 
 F-block elements include the lanthanoids (4f series) and actinoids (5f series). They are characterized by the filling of f-orbitals.
 

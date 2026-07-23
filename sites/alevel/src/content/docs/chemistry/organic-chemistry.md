@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Organic Chemistry
+## Organic Chemistry
 
 Organic chemistry is the study of carbon-containing compounds and their reactions. Carbon's ability
 to form four covalent bonds and catenate (form chains and rings) gives rise to an enormous diversity
@@ -966,6 +966,6 @@ linked above.
 </aside>
 ## Cross-References
 
-- [Chemistry](/alevel/chemistry)
-- [Atomic Structure](/alevel/chemistry/atomic-structure)
-- [Organic Chemistry](/alevel/chemistry/organic-chemistry)
+- [Chemistry](/chemistry)
+- [Atomic Structure](/chemistry/atomic-structure)
+- [Organic Chemistry](/chemistry/organic-chemistry)

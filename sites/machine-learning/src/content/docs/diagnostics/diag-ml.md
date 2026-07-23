@@ -23,7 +23,7 @@ tableOfContents: false
 }
 </script>
 
-# Diagnostic Test: Machine Learning
+## Diagnostic Test: Machine Learning
 
 10 multiple-choice questions covering machine learning fundamentals. Select the best answer for each question, then check your score using the answer key below.
 

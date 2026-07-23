@@ -483,7 +483,7 @@ Previously working functionality has not been broken (regressed).
 - Use version control to track which tests fail after each change
 
 For revision on software development, see
-[SDLC](/docs/alevel/computer-science/software-engineering/software-development-lifecycle).
+[SDLC](/computer-science/software-engineering/software-development-lifecycle).
 
 </details>
 

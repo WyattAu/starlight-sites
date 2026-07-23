@@ -47,7 +47,7 @@ Relevant revision page for further study.
 
 $1 \times 32 + 0 \times 16 + 1 \times 8 + 1 \times 4 + 0 \times 2 + 1 \times 1 = 32 + 8 + 4 + 1 = 45_{10}$
 
-**Revision:** [Number Systems](/docs/alevel/computer-science/fundamentals/number-systems)
+**Revision:** [Number Systems](/computer-science/fundamentals/number-systems)
 
 </details>
 
@@ -58,7 +58,7 @@ $1 \times 32 + 0 \times 16 + 1 \times 8 + 1 \times 4 + 0 \times 2 + 1 \times 1 =
 
 $37 = 00100101_2$. Flip: $11011010_2$. Add 1: $11011011_2$.
 
-**Revision:** [Number Systems](/docs/alevel/computer-science/fundamentals/number-systems)
+**Revision:** [Number Systems](/computer-science/fundamentals/number-systems)
 
 </details>
 
@@ -69,7 +69,7 @@ $37 = 00100101_2$. Flip: $11011010_2$. Add 1: $11011011_2$.
 
 'Z' = 65 + 25 = 90. (Uppercase letters are consecutive, A–Z spanning 26 characters.)
 
-**Revision:** [Number Systems](/docs/alevel/computer-science/fundamentals/number-systems)
+**Revision:** [Number Systems](/computer-science/fundamentals/number-systems)
 
 </details>
 
@@ -80,7 +80,7 @@ $37 = 00100101_2$. Flip: $11011010_2$. Add 1: $11011011_2$.
 
 $B \cdot (\overline{A} + A) = B \cdot 1 = B$ (by the identity law: $X + \overline{X} = 1$).
 
-**Revision:** [Boolean Algebra](/docs/alevel/computer-science/fundamentals/boolean-algebra)
+**Revision:** [Boolean Algebra](/computer-science/fundamentals/boolean-algebra)
 
 </details>
 
@@ -93,7 +93,7 @@ The MAR holds the address of the memory location to be read from or written to. 
 Phase, the PC is copied to the MAR so the CPU can read the instruction at that address.
 
 **Revision:**
-[Computer Architecture](/docs/alevel/computer-science/fundamentals/computer-architecture)
+[Computer Architecture](/computer-science/fundamentals/computer-architecture)
 
 </details>
 
@@ -109,7 +109,7 @@ Index 12?
 
 $500 + 12 \times 8 = 500 + 96 = 596$.
 
-**Revision:** [Arrays and Records](/docs/alevel/computer-science/data-structures/arrays-and-records)
+**Revision:** [Arrays and Records](/computer-science/data-structures/arrays-and-records)
 
 </details>
 
@@ -122,7 +122,7 @@ With $n$ elements?
 $O(1)$ — insert at the head by updating the new node's next pointer to the current head and updating
 The head pointer. No traversal needed.
 
-**Revision:** [Linked Lists](/docs/alevel/computer-science/data-structures/linked-lists)
+**Revision:** [Linked Lists](/computer-science/data-structures/linked-lists)
 
 </details>
 
@@ -135,7 +135,7 @@ The head pointer. No traversal needed.
 
 Verification: $(3 + 4) \times 2 - 7 = 14 - 7 = 7$. ✓
 
-**Revision:** [Stacks and Queues](/docs/alevel/computer-science/data-structures/stacks-and-queues)
+**Revision:** [Stacks and Queues](/computer-science/data-structures/stacks-and-queues)
 
 </details>
 
@@ -146,7 +146,7 @@ Verification: $(3 + 4) \times 2 - 7 = 14 - 7 = 7$. ✓
 
 $2^3 = 8$ nodes.
 
-**Revision:** [Trees](/docs/alevel/computer-science/data-structures/trees)
+**Revision:** [Trees](/computer-science/data-structures/trees)
 
 </details>
 
@@ -158,7 +158,7 @@ $2^3 = 8$ nodes.
 BFS (Breadth-First Search). BFS explores vertices level by level, so the first time a vertex is
 Discovered, the path to it is the shortest.
 
-**Revision:** [Graphs](/docs/alevel/computer-science/data-structures/graphs)
+**Revision:** [Graphs](/computer-science/data-structures/graphs)
 
 </details>
 
@@ -169,7 +169,7 @@ Discovered, the path to it is the shortest.
 
 $\alpha = 200/50 = 4.0$.
 
-**Revision:** [Hash Tables](/docs/alevel/computer-science/data-structures/hash-tables)
+**Revision:** [Hash Tables](/computer-science/data-structures/hash-tables)
 
 </details>
 
@@ -184,7 +184,7 @@ $\alpha = 200/50 = 4.0$.
 
 $O(\log n)$ — each comparison halves the search space.
 
-**Revision:** [Searching Algorithms](/docs/alevel/computer-science/algorithms/searching-algorithms)
+**Revision:** [Searching Algorithms](/computer-science/algorithms/searching-algorithms)
 
 </details>
 
@@ -196,7 +196,7 @@ $O(\log n)$ — each comparison halves the search space.
 Heap sort. (Merge sort is $O(n \log n)$ but not in-place; quick sort is in-place but $O(n^2)$ worst
 Case.)
 
-**Revision:** [Sorting Algorithms](/docs/alevel/computer-science/algorithms/sorting-algorithms)
+**Revision:** [Sorting Algorithms](/computer-science/algorithms/sorting-algorithms)
 
 </details>
 
@@ -208,7 +208,7 @@ Case.)
 $\Omega(n \log n)$. Proved using the **decision tree model**: a decision tree for sorting $n$
 Elements has at least $n!$ leaves, requiring height $\Omega(\log n!) = \Omega(n \log n)$.
 
-**Revision:** [Sorting Algorithms](/docs/alevel/computer-science/algorithms/sorting-algorithms)
+**Revision:** [Sorting Algorithms](/computer-science/algorithms/sorting-algorithms)
 
 </details>
 
@@ -220,7 +220,7 @@ Elements has at least $n!$ leaves, requiring height $\Omega(\log n!) = \Omega(n 
 Graphs with **negative edge weights**. Dijkstra's greedy choice assumes that once a vertex is
 Finalised, its distance cannot improve — this assumption fails with negative edges.
 
-**Revision:** [Graph Algorithms](/docs/alevel/computer-science/algorithms/graph-algorithms)
+**Revision:** [Graph Algorithms](/computer-science/algorithms/graph-algorithms)
 
 </details>
 
@@ -231,7 +231,7 @@ Finalised, its distance cannot improve — this assumption fails with negative e
 
 **Admissibility:** $h(v) \leq$ true cost from $v$ to the goal for all $v$.
 
-**Revision:** [Graph Algorithms](/docs/alevel/computer-science/algorithms/graph-algorithms)
+**Revision:** [Graph Algorithms](/computer-science/algorithms/graph-algorithms)
 
 </details>
 
@@ -243,7 +243,7 @@ Finalised, its distance cannot improve — this assumption fails with negative e
 $a = 2$, $b = 2$, $c = \log_2 2 = 1$. $f(n) = n = \Theta(n^1) = \Theta(n^c)$. Case 2:
 $T(n) = \Theta(n \log n)$.
 
-**Revision:** [Complexity Analysis](/docs/alevel/computer-science/algorithms/complexity-analysis)
+**Revision:** [Complexity Analysis](/computer-science/algorithms/complexity-analysis)
 
 </details>
 
@@ -259,7 +259,7 @@ $T(n) = \Theta(n \log n)$.
 `3` and `3.5`. `//` is integer division (floor), `/` is float division.
 
 **Revision:**
-[Programming Constructs](/docs/alevel/computer-science/programming/programming-constructs)
+[Programming Constructs](/computer-science/programming/programming-constructs)
 
 </details>
 
@@ -272,7 +272,7 @@ A **function** returns a value; a **procedure** performs an action (side effect)
 A value.
 
 **Revision:**
-[Programming Constructs](/docs/alevel/computer-science/programming/programming-constructs)
+[Programming Constructs](/computer-science/programming/programming-constructs)
 
 </details>
 
@@ -284,7 +284,7 @@ A value.
 $O(\phi^n)$ where $\phi = (1+\sqrt{5})/2 \approx 1.618$ (exponential).
 
 **Revision:**
-[Programming Constructs](/docs/alevel/computer-science/programming/programming-constructs)
+[Programming Constructs](/computer-science/programming/programming-constructs)
 
 </details>
 
@@ -296,7 +296,7 @@ $O(\phi^n)$ where $\phi = (1+\sqrt{5})/2 \approx 1.618$ (exponential).
 Encapsulation is the bundling of data and methods within a class, and restricting direct access to
 Internal state through access modifiers (public, private, protected).
 
-**Revision:** [OOP](/docs/alevel/computer-science/programming/object-oriented-programming)
+**Revision:** [OOP](/computer-science/programming/object-oriented-programming)
 
 </details>
 
@@ -308,7 +308,7 @@ Internal state through access modifiers (public, private, protected).
 Objects of a superclass shall be replaceable with objects of a subclass without breaking the
 Program.
 
-**Revision:** [OOP](/docs/alevel/computer-science/programming/object-oriented-programming)
+**Revision:** [OOP](/computer-science/programming/object-oriented-programming)
 
 </details>
 
@@ -321,7 +321,7 @@ For thread safety, hash stability (used as dictionary keys), security (prevent i
 Modification), and string interning (memory efficiency through reuse).
 
 **Revision:**
-[Data Representation in Programming](/docs/alevel/computer-science/programming/data-representation-in-programming)
+[Data Representation in Programming](/computer-science/programming/data-representation-in-programming)
 
 </details>
 
@@ -338,7 +338,7 @@ Requirements?
 The **Waterfall** model — its sequential phases suit stable requirements with clear milestones.
 
 **Revision:**
-[SDLC](/docs/alevel/computer-science/software-engineering/software-development-lifecycle)
+[SDLC](/computer-science/software-engineering/software-development-lifecycle)
 
 </details>
 
@@ -351,7 +351,7 @@ A sprint is a time-boxed iteration ( 2–4 weeks) in which the development team 
 shippable product increment.
 
 **Revision:**
-[SDLC](/docs/alevel/computer-science/software-engineering/software-development-lifecycle)
+[SDLC](/computer-science/software-engineering/software-development-lifecycle)
 
 </details>
 
@@ -363,7 +363,7 @@ shippable product increment.
 **Verification:** "Are we building the product right?" — checks conformance to specification.
 **Validation:** "Are we building the right product?" — checks that it meets user needs.
 
-**Revision:** [Testing](/docs/alevel/computer-science/software-engineering/testing)
+**Revision:** [Testing](/computer-science/software-engineering/testing)
 
 </details>
 
@@ -376,7 +376,7 @@ Boundary value analysis tests values at and around the boundaries of equivalence
 Off-by-one errors are most likely. Example: for a function accepting ages 0–120, test -1, 0, 1 and
 119, 120, 121.
 
-**Revision:** [Testing](/docs/alevel/computer-science/software-engineering/testing)
+**Revision:** [Testing](/computer-science/software-engineering/testing)
 
 </details>
 
@@ -389,7 +389,7 @@ No. Consider `if condition: x = 1`. A single test with `condition = True` achiev
 Coverage (both `x = 1` and subsequent code execute) but only 50% branch coverage (the false branch
 Is never taken).
 
-**Revision:** [Testing](/docs/alevel/computer-science/software-engineering/testing)
+**Revision:** [Testing](/computer-science/software-engineering/testing)
 
 </details>
 
@@ -404,7 +404,7 @@ Is never taken).
 
 Layer 3 (Network layer). Routers make forwarding decisions based on IP addresses.
 
-**Revision:** [Network Fundamentals](/docs/alevel/computer-science/networks/network-fundamentals)
+**Revision:** [Network Fundamentals](/computer-science/networks/network-fundamentals)
 
 </details>
 
@@ -417,7 +417,7 @@ Layer 3 (Network layer). Routers make forwarding decisions based on IP addresses
 2. Server sends **SYN-ACK**
 3. Client sends **ACK**
 
-**Revision:** [Network Fundamentals](/docs/alevel/computer-science/networks/network-fundamentals)
+**Revision:** [Network Fundamentals](/computer-science/networks/network-fundamentals)
 
 </details>
 
@@ -429,7 +429,7 @@ Layer 3 (Network layer). Routers make forwarding decisions based on IP addresses
 UDP has lower latency (no handshake, no retransmission). Delayed packets are useless for real-time
 Communication — better to skip them than wait for retransmission.
 
-**Revision:** [Network Fundamentals](/docs/alevel/computer-science/networks/network-fundamentals)
+**Revision:** [Network Fundamentals](/computer-science/networks/network-fundamentals)
 
 </details>
 
@@ -441,7 +441,7 @@ Communication — better to skip them than wait for retransmission.
 DNS (Domain Name System) translates human-readable domain names (e.g., `www.example.com`) into IP
 Addresses (e.g., `93.184.216.34`).
 
-**Revision:** [Network Fundamentals](/docs/alevel/computer-science/networks/network-fundamentals)
+**Revision:** [Network Fundamentals](/computer-science/networks/network-fundamentals)
 
 </details>
 
@@ -454,7 +454,7 @@ NAT (Network Address Translation) maps private IP addresses to a single public I
 Multiple devices on a LAN to share one internet-facing IP. It conserves IPv4 addresses and provides
 A basic level of security by hiding internal addresses.
 
-**Revision:** [Network Fundamentals](/docs/alevel/computer-science/networks/network-fundamentals)
+**Revision:** [Network Fundamentals](/computer-science/networks/network-fundamentals)
 
 </details>
 
@@ -468,7 +468,7 @@ $M = C^d \bmod n$. The keys are derived from two large primes $p, q$ where $n = 
 $ed \equiv 1 \pmod{(p-1)(q-1)}$. Security relies on the difficulty of factoring $n$ into $p$ and
 $q$.
 
-**Revision:** [Network Security](/docs/alevel/computer-science/networks/network-security)
+**Revision:** [Network Security](/computer-science/networks/network-security)
 
 </details>
 
@@ -480,7 +480,7 @@ $q$.
 **C**onfidentiality (data accessible only to authorised parties), **I**ntegrity (data not tampered
 With), **A**vailability (data accessible when needed).
 
-**Revision:** [Network Security](/docs/alevel/computer-science/networks/network-security)
+**Revision:** [Network Security](/computer-science/networks/network-security)
 
 </details>
 
@@ -496,7 +496,7 @@ With), **A**vailability (data accessible when needed).
 A **primary key** uniquely identifies each row in its table. A **foreign key** references the
 Primary key of another table, establishing a relationship.
 
-**Revision:** [Relational Databases](/docs/alevel/computer-science/databases/relational-databases)
+**Revision:** [Relational Databases](/computer-science/databases/relational-databases)
 
 </details>
 
@@ -512,7 +512,7 @@ GROUP BY student_id
 HAVING AVG(score) > 80;
 ```
 
-**Revision:** [Relational Databases](/docs/alevel/computer-science/databases/relational-databases)
+**Revision:** [Relational Databases](/computer-science/databases/relational-databases)
 
 </details>
 
@@ -523,7 +523,7 @@ HAVING AVG(score) > 80;
 
 `WHERE` filters rows **before** grouping; `HAVING` filters groups **after** `GROUP BY`.
 
-**Revision:** [Relational Databases](/docs/alevel/computer-science/databases/relational-databases)
+**Revision:** [Relational Databases](/computer-science/databases/relational-databases)
 
 </details>
 
@@ -534,7 +534,7 @@ HAVING AVG(score) > 80;
 
 **Partial dependencies** — non-key attributes depending on only part of a composite key.
 
-**Revision:** [Relational Databases](/docs/alevel/computer-science/databases/relational-databases)
+**Revision:** [Relational Databases](/computer-science/databases/relational-databases)
 
 </details>
 
@@ -545,7 +545,7 @@ HAVING AVG(score) > 80;
 
 **Atomicity:** A transaction is all-or-nothing — either all operations complete or none do.
 
-**Revision:** [Relational Databases](/docs/alevel/computer-science/databases/relational-databases)
+**Revision:** [Relational Databases](/computer-science/databases/relational-databases)
 
 </details>
 
@@ -563,7 +563,7 @@ Multiple transitions per state per input symbol, and accepts if ANY path leads t
 State.
 
 **Revision:**
-[Automata and Computability](/docs/alevel/computer-science/theory-of-computation/automata-and-computability)
+[Automata and Computability](/computer-science/theory-of-computation/automata-and-computability)
 
 </details>
 
@@ -577,7 +577,7 @@ First $p$ symbols (all $a$'s); removing $y$ yields unequal numbers of $a$'s and 
 In $L$.
 
 **Revision:**
-[Automata and Computability](/docs/alevel/computer-science/theory-of-computation/automata-and-computability)
+[Automata and Computability](/computer-science/theory-of-computation/automata-and-computability)
 
 </details>
 
@@ -591,7 +591,7 @@ Because assuming a decider $H$ exists leads to a contradiction when we construct
 Does the opposite of $H$ when run on itself.
 
 **Revision:**
-[Automata and Computability](/docs/alevel/computer-science/theory-of-computation/automata-and-computability)
+[Automata and Computability](/computer-science/theory-of-computation/automata-and-computability)
 
 </details>
 
@@ -604,7 +604,7 @@ Does the opposite of $H$ when run on itself.
 In polynomial time. P ⊆ NP. Whether P = NP is an open question.
 
 **Revision:**
-[Automata and Computability](/docs/alevel/computer-science/theory-of-computation/automata-and-computability)
+[Automata and Computability](/computer-science/theory-of-computation/automata-and-computability)
 
 </details>
 
@@ -617,7 +617,7 @@ Every effectively computable function is computable by a Turing machine. It is a
 Theorem) because "effectively computable" is an informal concept.
 
 **Revision:**
-[Automata and Computability](/docs/alevel/computer-science/theory-of-computation/automata-and-computability)
+[Automata and Computability](/computer-science/theory-of-computation/automata-and-computability)
 
 </details>
 

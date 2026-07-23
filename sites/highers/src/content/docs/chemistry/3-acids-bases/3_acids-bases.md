@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Acids and Bases
+## Acids and Bases
 
 ## Higher Acids and Bases
 

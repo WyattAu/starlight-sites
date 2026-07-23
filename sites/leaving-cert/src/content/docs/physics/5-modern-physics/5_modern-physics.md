@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Modern Physics
+## Modern Physics
 
 Modern physics covers the physics of the very small (atomic and subatomic scale) and the very fast.
 Key topics include the photoelectric effect, atomic models, nuclear physics, and radioactivity.

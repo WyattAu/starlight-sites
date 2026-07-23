@@ -69,7 +69,7 @@ description: "CBSE Class 12 mathematics: Relations, functions, types of relation
 }
 </script>
 
-# Relations and Functions
+## Relations and Functions
 
 Relations and functions form the foundation of higher mathematics. This topic covers types of relations, types of functions, composition, and invertibility.
 

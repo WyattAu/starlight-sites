@@ -22,7 +22,7 @@ description: "This section covers the IB Geography optional theme on freshwater 
 }
 </script>
 
-# Freshwater Issues
+## Freshwater Issues
 
 This section covers the IB Geography optional theme on freshwater -- issues and conflicts. It
 examines the hydrological cycle, the characteristics and functioning of drainage basins, the causes

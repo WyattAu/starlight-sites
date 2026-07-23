@@ -749,6 +749,10 @@ For performance-critical code where ordered iteration is not needed, consider al
 - [Iterator Categories, Traversal, Invalidation](./3_iterators.md)
 - [Polymorphic Memory Resources (PMR)](./4_pmr.md)
 
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+
 ## Intuition
 
 **Associative containers are like phone books:** `std::set` is like a phone book sorted alphabetically — you can look up any name in O(log n) time, but you can't have two people with the same name. `std::map` is like a phone book where each name has a phone number — it stores key-value pairs sorted by key. `std::unordered_set` is like a phone book organized by first letter — lookup is O(1) on average, but the entries aren't sorted. `std::unordered_map` is the most commonly used — it's a hash table with O(1) average lookup.

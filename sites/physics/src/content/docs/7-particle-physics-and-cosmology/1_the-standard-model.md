@@ -246,3 +246,8 @@ Some particles are their own antiparticles (such as the photon, $Z^0$, and $\pi^
 - **[Group Theory in Particle Physics](7-particle-physics-and-cosmology/5_group-theory-in-particle-physics.md)**: The SU(3) x SU(2) x U(1) gauge group structure is explained using group representations and Clebsch-Gordan decomposition.
 - **[The Higgs Mechanism](7-particle-physics-and-cosmology/4_the-higgs-mechanism.md)**: The Higgs mechanism breaks the electroweak symmetry, giving mass to the W and Z bosons while preserving gauge invariance.
 - **[Running Coupling Constants](7-particle-physics-and-cosmology/6_running-coupling-constants.md)**: The coupling constants of the Standard Model depend on the energy scale through the renormalisation group.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

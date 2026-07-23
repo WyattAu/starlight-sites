@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# The `noexcept` Specifier
+## The `noexcept` Specifier
 
 Since C++17, `noexcept` is part of the **function type system** [N4950 §14.5.1]. This has
 Significant implications for overload resolution, optimization, and exception safety guarantees.
@@ -574,6 +574,8 @@ int main() {
 - [Exception Safety Guarantees](2_exception_safety.md)
 - [The Itanium Exception ABI](1_exception_abi.md)
 
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Summary
 

@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Energy and Conservation — Diagnostic Tests
+## Energy and Conservation — Diagnostic Tests
 
 ## Intuition
 

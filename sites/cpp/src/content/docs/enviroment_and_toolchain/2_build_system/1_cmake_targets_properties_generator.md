@@ -42,10 +42,10 @@ A **Target** represents a build artifact or a logical grouping of dependencies.
 ### 1. Defining Targets
 
 ```cmake
-# 1. Executable: Compiles sources into a binary
+## 1. Executable: Compiles sources into a binary
 add_executable(App main.cpp)
 
-# 2. Static Library: Compiles into .a (Linux) or .lib (Windows)
+## 2. Static Library: Compiles into .a (Linux) or .lib (Windows)
 add_library(MathStatic STATIC math.cpp)
 
 # 3. Shared Library: Compiles into .so (Linux), .dylib (macOS), or .dll (Windows)

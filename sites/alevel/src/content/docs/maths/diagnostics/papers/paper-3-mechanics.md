@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Paper 3 — Mechanics
+## Paper 3 — Mechanics
 
 **Time allowed:** 75 minutes **Total marks:** 50 **Topics covered:** All 5 mechanics topics
 

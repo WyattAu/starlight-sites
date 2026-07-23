@@ -72,7 +72,7 @@ description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. Comprehensive education
 }
 </script>
 
-# Classical Mechanics
+## Classical Mechanics
 
 ## Contents
 
@@ -139,6 +139,11 @@ Each section includes:
 - **[Electromagnetism](../../3-electromagnetism/index.md):** Electromagnetic forces and fields; charged particle motion in electromagnetic fields.
 - **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Classical limit of quantum theory; the correspondence principle connects classical and quantum mechanics.
 - **[Mathematics](../../mathematics/index.md):** Multivariable calculus, linear algebra, and differential equations are the mathematical tools of classical mechanics.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Common Mistakes
 

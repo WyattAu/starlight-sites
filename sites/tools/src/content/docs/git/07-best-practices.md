@@ -40,11 +40,11 @@ categories:
 ## Recommended Global Configuration
 
 ```bash
-# Identity
+## Identity
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 
-# Default branch
+## Default branch
 git config --global init.defaultBranch main
 
 # Pull strategy: rebase instead of merge (cleaner history)

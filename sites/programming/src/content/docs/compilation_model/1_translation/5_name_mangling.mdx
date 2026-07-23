@@ -202,7 +202,7 @@ And `std::vector` each carry their full template argument lists. For complex typ
 Can exceed 1000 characters.
 
 ```bash
-# View the longest mangled names in a binary
+## View the longest mangled names in a binary
 nm -C ./app | awk '{ print length, $0 }' | sort -rn | head -20
 ```
 
@@ -350,7 +350,7 @@ Rust symbols:
 $ llvm-cxxfilt _ZN3net6Socket7connectEib
 net::Socket::connect(int, bool)
 
-# Pipe nm output through c++filt for readable output
+## Pipe nm output through c++filt for readable output
 $ nm ./app | c++filt
 ```
 

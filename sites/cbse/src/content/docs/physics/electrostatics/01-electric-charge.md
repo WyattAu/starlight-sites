@@ -21,7 +21,7 @@ description: "CBSE Class 12 physics: Electric charge with Coulomb's law, superpo
 }
 </script>
 
-# Electric charge
+## Electric charge
 
 Electric charge is a fundamental property of matter. This topic covers Coulomb's law, the superposition principle, quantization, and conservation of charge.
 

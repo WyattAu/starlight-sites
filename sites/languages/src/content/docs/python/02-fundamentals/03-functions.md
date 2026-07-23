@@ -61,10 +61,10 @@ print(greet.__qualname__)  # 'greet'
 print(callable(greet)) # True
 
 greet.__annotations__
-# {'name': <class 'str'>, 'return': <class 'str'>}
+## {'name': <class 'str'>, 'return': <class 'str'>}
 
 greet.__code__
-# <code object greet at 0x7f..., file "<stdin>", line 1>
+## <code object greet at 0x7f..., file "<stdin>", line 1>
 ```
 
 The function object carries its own metadata -- name, docstring, annotations, default values,

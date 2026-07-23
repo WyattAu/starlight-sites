@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Chemistry Diagnostic: Stoichiometry and Mole Concept
+## DSE Chemistry Diagnostic: Stoichiometry and Mole Concept
 
 ## Unit Test 1: Back-Titration
 

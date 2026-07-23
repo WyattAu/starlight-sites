@@ -307,6 +307,8 @@ State.
 - [Type-Safe Formatting](./2_type_safe_formatting.md)
 - [Unicode Support](./3_unicode_support.md)
 
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+
 ### Put Area and Get Area Pointer Model
 
 The stream buffer maintains six pointers that define the put area and get area [N4950 §30.4.4.2]:

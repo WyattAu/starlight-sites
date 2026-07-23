@@ -1706,7 +1706,7 @@ the presence and absence Of ADH.
   [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology) for membrane proteins,
   osmosis, and active transport.
 - **Gas exchange and haemoglobin**: Review
-  [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology) for the
+  [../1_human-physiology](./1_human-physiology) for the
   oxygen dissociation curve (within this document).
 - **Nervous system and heart regulation**: Review
   [../8-nervous-system-and-immunology/1_nervous-system](../8-nervous-system-and-immunology/1_nervous-system)

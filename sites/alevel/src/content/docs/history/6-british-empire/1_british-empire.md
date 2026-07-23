@@ -28,7 +28,7 @@ description: "A-Level History The British Empire c1688-1763 notes covering key d
 }
 </script>
 
-# The British Empire c1688-1763
+## The British Empire c1688-1763
 
 Between the Glorious Revolution and the end of the Seven Years" War, Britain transformed from a
 marginal European kingdom into a global imperial power. Commercial ambition, naval strength, and

@@ -485,7 +485,7 @@ project(ModuleDemo LANGUAGES CXX)
 
 add_library(Engine)
 
-# Declare module sources as a file set
+## Declare module sources as a file set
 target_sources(Engine
     PUBLIC
         FILE_SET cxx_modules TYPE CXX_MODULES
@@ -496,7 +496,7 @@ target_sources(Engine
             src/engine_physics.cppm   # Interface Partition
 )
 
-# Implementation units are regular sources
+## Implementation units are regular sources
 target_sources(Engine PRIVATE
     src/engine_impl.cpp
     src/engine_internals.cppm  # Implementation Partition

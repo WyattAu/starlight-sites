@@ -166,6 +166,13 @@ The **kernel** $k(x, y) = \langle k_x, k_y \rangle$ is a positive definite funct
 - **[Compact Operators](./5_compact-operators.md)**: The Fredholm alternative for compact operators is applied to solve integral equations arising in physics.
 - **[Weak and Weak* Convergence](./6_weak-and-weak-convergence.md)**: Weak compactness is essential for extracting convergent subsequences in the calculus of variations and PDE theory.
 
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
 ## Intuition
 
 Functional analysis provides the language and machinery for solving differential equations, signal processing, and machine learning. In PDE theory, weak solutions are obtained by projecting onto finite-dimensional subspaces via the Galerkin method, with existence guaranteed by the Lax-Milgram theorem. The Fourier transform decomposes signals into frequencies, and the sampling theorem connects continuous signals to their discrete representations. In quantum mechanics, states live in Hilbert space and observables are self-adjoint operators whose spectral decompositions determine measurement outcomes. In machine learning, reproducing kernel Hilbert spaces provide the mathematical framework for support vector machines and Gaussian processes, where inner products encode similarity between data points.

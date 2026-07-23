@@ -21,7 +21,7 @@ description: "Introduction to machine learning fundamentals, supervised and unsu
 }
 </script>
 
-# Introduction to Machine Learning
+## Introduction to Machine Learning
 
 Machine learning is a subfield of artificial intelligence that enables systems to learn from data and improve their performance without explicit programming. This site covers the mathematical foundations, algorithms, and practical considerations of modern ML.
 
@@ -204,7 +204,7 @@ Machine learning spans a rich landscape of algorithms and techniques. The field 
 **Problem:** Given a dataset of house sizes (x) and prices (y), perform one step of gradient descent to update the weights of a linear model y = wx + b.
 
 ```python
-# Dataset: (size in m^2, price in $1000s)
+## Dataset: (size in m^2, price in $1000s)
 X = [1.0, 2.0, 3.0, 4.0, 5.0]
 Y = [2.0, 4.0, 5.0, 4.0, 5.0]
 

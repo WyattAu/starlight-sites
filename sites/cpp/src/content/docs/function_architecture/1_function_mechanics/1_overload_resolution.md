@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Overload Resolution
+## Overload Resolution
 
 C++ function resolution is not a simple name match. The compiler performs a multi-phase search
 Through namespaces, ranks candidate functions against a strict hierarchy of conversion ranks, and

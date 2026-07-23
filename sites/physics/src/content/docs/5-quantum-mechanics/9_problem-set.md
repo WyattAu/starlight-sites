@@ -174,6 +174,11 @@ Working through quantum mechanics problems builds physical intuition about the c
 - **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: The Schrodinger equation provides the foundation for the problems in this set.
 - **[Operators and Observables](4_operators-and-observables.md)**: Operators represent physical observables and their properties are tested in these problems.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ## Common Mistakes
 
 **Forgetting that wave functions must be normalised:** The total probability must equal 1. Forgetting to normalise gives incorrect probability densities. Always check ∫|ψ|²dx = 1.

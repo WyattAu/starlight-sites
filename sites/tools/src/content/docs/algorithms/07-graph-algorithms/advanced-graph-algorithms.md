@@ -949,7 +949,7 @@ def dijkstra(n, edges, start):
     return dist
 
 dist = dijkstra(5, [(0,1,4),(0,2,1),(1,3,1),(2,1,2),(2,3,5),(3,4,3)], 0)
-# dist = [0, 3, 1, 4, 7]
+## dist = [0, 3, 1, 4, 7]
 ```
 
 Path to node 4: $0 \to 2 \to 1 \to 3 \to 4$ with cost $1 + 2 + 1 + 3 = 7$.

@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# AP Calculus
+## AP Calculus
 
 Comprehensive revision notes for AP Calculus AB/BC, aligned with the College Board Course and Exam
 Description.

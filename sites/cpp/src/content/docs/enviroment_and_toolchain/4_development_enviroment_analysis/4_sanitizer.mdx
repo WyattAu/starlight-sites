@@ -186,10 +186,10 @@ Environment variables.
 Common configurations for CI pipelines:
 
 ```bash
-# Halt execution immediately on error (default is true)
+## Halt execution immediately on error (default is true)
 export ASAN_OPTIONS=halt_on_error=1
 
-# Enable Leak Sanitizer (LSan) component (Linux only, distinct on macOS)
+## Enable Leak Sanitizer (LSan) component (Linux only, distinct on macOS)
 export ASAN_OPTIONS=detect_leaks=1
 
 # Symbolize output (requires llvm-symbolizer to be in PATH)

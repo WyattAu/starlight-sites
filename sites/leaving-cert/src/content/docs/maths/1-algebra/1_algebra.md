@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Algebra
+## Algebra
 
 Algebra is a fundamental area of the Leaving Certificate Mathematics syllabus, appearing in both
 Paper 1 and Paper 2. This topic covers algebraic expressions, equations, inequalities, complex

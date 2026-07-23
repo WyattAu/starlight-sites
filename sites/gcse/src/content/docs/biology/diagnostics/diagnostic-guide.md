@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# GCSE Biology — Diagnostic Guide
+## GCSE Biology — Diagnostic Guide
 
 ## Coverage Map
 

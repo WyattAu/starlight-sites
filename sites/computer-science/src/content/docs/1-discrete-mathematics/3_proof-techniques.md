@@ -208,3 +208,6 @@ Proof techniques establish mathematical truth. Direct proof assumes premises and
 - [[1-discrete-mathematics/2_sets-relations-and-functions]] - Set-theoretic proofs
 - [[1-algorithms/algorithm_design]] - Algorithm correctness proofs
 - [[1-algorithms/complexity-theory]] - Complexity proofs
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

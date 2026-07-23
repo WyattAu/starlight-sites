@@ -28,7 +28,7 @@ description: "A-Level Approaches in Psychology notes covering key definitions, c
 }
 </script>
 
-# Approaches in Psychology
+## Approaches in Psychology
 
 ## Introduction
 
@@ -610,5 +610,5 @@ The mind works like an information processing system. Perception filters raw sen
 
 ## Cross-References
 
-- [Research Methods](/docs/alevel/psychology/research-methods)
-- [Biopsychology](/docs/alevel/psychology/biopsychology)
+- [Research Methods](/psychology/research-methods)
+- [Biopsychology](/psychology/biopsychology)

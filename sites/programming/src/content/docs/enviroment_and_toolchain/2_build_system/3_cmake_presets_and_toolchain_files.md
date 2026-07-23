@@ -51,10 +51,10 @@ Specific compiler versions on local machines (e.g., forcing Clang 17 over the sy
 Create a file named `cmake/toolchain-clang.cmake`:
 
 ```cmake
-# toolchain-clang.cmake
+## toolchain-clang.cmake
 set(CMAKE_SYSTEM_NAME Linux)
 
-# 1. Force Compilers
+## 1. Force Compilers
 # Use CACHE STRING to allow overriding if absolutely necessary, but default to specific binaries.
 set(CMAKE_C_COMPILER clang CACHE STRING "C Compiler")
 set(CMAKE_CXX_COMPILER clang++ CACHE STRING "C++ Compiler")
@@ -661,3 +661,6 @@ CMake presets define reusable build configurations (debug, release, sanitizer bu
 - [[enviroment_and_toolchain/1_compiler_and_standards/4_crosscompilation_toolchains]] - Cross-compilation toolchains
 - [[enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator]] - Build type configuration
 - [[enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models]] - Dependency presets
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)

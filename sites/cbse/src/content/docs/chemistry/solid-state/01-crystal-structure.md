@@ -21,7 +21,7 @@ description: "CBSE Class 12 chemistry: Crystal structure"
 }
 </script>
 
-# Crystal structure
+## Crystal structure
 
 Study notes for CBSE Class 12 chemistry - Crystal structure.
 

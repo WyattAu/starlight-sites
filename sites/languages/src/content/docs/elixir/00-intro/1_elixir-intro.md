@@ -89,10 +89,10 @@ relationship has profound implications:
   the largest real-time systems in the world
 
 ```elixir
-# Elixir calling an Erlang function directly
+## Elixir calling an Erlang function directly
 :crypto.hash(:sha256, "hello")
 
-# Elixir using an Erlang library module
+## Elixir using an Erlang library module
 :timer.sleep(1000)
 
 # Elixir pattern matching on Erlang records

@@ -69,7 +69,7 @@ description: 'University-level chemistry notes covering physical, organic, and i
 }
 </script>
 
-# Chemistry
+## Chemistry
 
 Chemistry is the study of matter, its composition, structure, properties, and the transformations it undergoes during chemical reactions. At the university level, the discipline is conventionally divided into three main branches: physical chemistry, organic chemistry, and inorganic chemistry, each with distinct methodologies and theoretical frameworks.
 
@@ -144,3 +144,8 @@ All strong acids appear to have the same acidity in water because water levels t
 - **[Physical Chemistry](1-physical-chemistry/):** Covers thermodynamics, kinetics, quantum chemistry, and statistical mechanics.
 - **[Organic Chemistry](2-organic-chemistry/):** Covers reaction mechanisms, spectroscopy, and synthesis of carbon compounds.
 - **[Inorganic Chemistry](3-inorganic-chemistry/):** Explores coordination chemistry, main group chemistry, and solid-state chemistry.
+
+- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

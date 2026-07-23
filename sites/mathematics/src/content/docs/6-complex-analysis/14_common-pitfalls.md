@@ -164,3 +164,5 @@ The pitfalls in complex analysis stem from the deceptive similarity between real
 - **[Complex Functions and Analyticity](2_complex-functions-and-analyticity.md)**: Analytic functions are infinitely differentiable and satisfy the Cauchy-Riemann equations.
 - **[Cauchy's Theorem](5_cauchy-s-theorem.md)**: Cauchy's theorem requires analyticity on a simply connected domain for the integral to vanish.
 - **[Singularities and Residue Theory](8_singularities-and-residue-theory.md)**: The residue theorem computes contour integrals by summing contributions from singularities.
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

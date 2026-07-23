@@ -22,7 +22,7 @@ sidebar_position: 10
 }
 </script>
 
-# IB Paper 1 Unseen Poetry Practice: Seamus Heaney's "Digging"
+## IB Paper 1 Unseen Poetry Practice: Seamus Heaney's "Digging"
 
 This page provides a detailed analysis of Seamus Heaney's "Digging" as practice for IB English Paper 1. The poem, from Heaney's debut collection *Death of a Naturalist* (1966), is an exemplary unseen text because it operates on multiple registers simultaneously: memoir, elegy, meditation on craft, and declaration of poetic intent. The analysis below models the kind of response expected in a top-band Paper 1 answer, with examiner commentary on each section.
 

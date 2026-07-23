@@ -194,10 +194,10 @@ Superposition is a visually demanding benchmark that stresses both the GPU and V
 For GPU memory overclocking stability, use CUDA memtest (NVIDIA) or ROCm memtest (AMD):
 
 ```bash
-# NVIDIA CUDA memtest
+## NVIDIA CUDA memtest
 ./cuda_memtest.sh  # Runs all tests
 
-# Or specify iteration count
+## Or specify iteration count
 ./cuda_memtest.sh --iterations 10
 ```
 

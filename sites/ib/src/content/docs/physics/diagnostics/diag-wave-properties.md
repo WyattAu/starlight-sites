@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Wave Properties — Diagnostic Tests
+## Wave Properties — Diagnostic Tests
 
 ## Intuition
 

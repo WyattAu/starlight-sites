@@ -181,6 +181,10 @@ Gauge symmetry is the idea that potentials are not unique but the fields they pr
 - [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The Lorenz gauge condition $\partial_\mu A^\mu = 0$ is the covariant form of the gauge choice developed here.
 - [Radiation from Accelerating Charges](/physics/3-electromagnetism/10_radiation-from-accelerating-charges) -- The Liénard-Wiechert potentials yield the radiation fields treated in the Larmor and dipole formulas.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+
 ## Common Mistakes
 
 - **Assuming the Coulomb gauge is always the simplest choice:** The Coulomb gauge ($\nabla \cdot \mathbf{A} = 0$) simplifies static magnetic problems but makes the scalar potential instantaneous, which is inconvenient for radiation. The Lorenz gauge is better for wave propagation.

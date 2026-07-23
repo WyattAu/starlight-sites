@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Waves — Diagnostic Tests
+## Waves — Diagnostic Tests
 
 ## Unit Tests
 

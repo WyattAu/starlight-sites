@@ -26,7 +26,7 @@ categories:
 }
 </script>
 
-# Return Value Optimization (RVO) and NRVO
+## Return Value Optimization (RVO) and NRVO
 
 Return value optimization is the compiler's ability to construct a return value directly in the
 Caller's storage, eliminating unnecessary copies and moves. C++17 guarantees this for prvalue

@@ -299,6 +299,9 @@ The smoothed RTT converges toward the true average (~240 ms) and the RTO stabili
 - **[Application Layer](./6_application-layer.md):** HTTP and application protocols.
 - **[Network Security](./7_network-security.md):** TLS and transport security.
 
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
 ## Common Mistakes
 
 - **Confusing flow control with congestion control:** Flow control prevents the sender from overwhelming the receiver (per-connection); congestion control prevents the sender from overwhelming the network (global). They solve different problems with different mechanisms.

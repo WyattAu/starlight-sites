@@ -69,7 +69,7 @@ description: "A-Level Maths Mechanics notes covering key definitions, core conce
 }
 </script>
 
-# Mechanics
+## Mechanics
 
 Mechanics applies mathematical models to describe and predict the motion of objects under the
 influence of forces. A-Level Mechanics covers kinematics, Newton"s laws, moments, energy, and

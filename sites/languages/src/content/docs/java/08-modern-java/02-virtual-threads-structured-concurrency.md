@@ -673,7 +673,7 @@ A traditional thread dump (`jstack``kill -3`Or `Thread.getAllStackTraces()`) sho
 With virtual threads, a thread dump also shows virtual threads but in a different format:
 
 ```bash
-# Dump all threads including virtual threads
+## Dump all threads including virtual threads
 jcmd &lt;pid&gt; Thread.dump_to_file -all threads.txt
 ```
 
@@ -702,7 +702,7 @@ This tells you exactly where to add `ReentrantLock` or restructure the synchroni
 ### Monitoring Virtual Thread Count
 
 ```bash
-# Get current virtual thread count
+## Get current virtual thread count
 jcmd &lt;pid&gt; VM.native_memory summary
 
 # Or programmatically

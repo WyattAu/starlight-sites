@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# The Coroutine Handle, Promise Type, and Awaiter
+## The Coroutine Handle, Promise Type, and Awaiter
 
 This section covers the three interacting components of the C++ coroutine machinery, `co_await`
 Expression semantics, the promise type vs awaiter distinction, `get_return_object()`
@@ -782,6 +782,9 @@ To subtle bugs where the wrong coroutine is resumed.
 - [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames.md)
 - [Generators (std::generator)](./3_generators.md)
 - [Task Scheduling and Executors](./4_task_scheduling.md)
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Summary
 

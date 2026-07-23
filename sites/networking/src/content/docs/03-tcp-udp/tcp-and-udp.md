@@ -132,10 +132,10 @@ UDP is the right choice when:
 ### UDP in Practice
 
 ```bash
-# Test UDP connectivity with netcat
+## Test UDP connectivity with netcat
 nc -u -v 192.168.1.100 53
 
-# Send a DNS query over UDP
+## Send a DNS query over UDP
 dig @8.8.8.8 example.com
 
 # UDP-based services

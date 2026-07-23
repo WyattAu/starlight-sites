@@ -106,9 +106,9 @@ compiler.cppstd=23
 build_type=Release
 
 [options]
-# Force all dependencies to be static by default
+## Force all dependencies to be static by default
 *:shared=False
-# Specific override
+## Specific override
 openssl/*:shared=True
 
 [tool_requires]
@@ -903,3 +903,6 @@ Conan is a decentralized C++ package manager with a large community-maintained r
 - [[enviroment_and_toolchain/3_dependency_management/3_vcpkg.md]] - Alternative: vcpkg
 - [[enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator]] - CMake integration
 - [[enviroment_and_toolchain/3_dependency_management/6_binary_caching]] - Binary package distribution
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)

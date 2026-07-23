@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Internet and Data Communications — Diagnostic Tests
+## Internet and Data Communications — Diagnostic Tests
 
 ## Unit Tests
 

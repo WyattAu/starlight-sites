@@ -209,3 +209,6 @@ Nonlinear dynamics reveals that deterministic systems can produce unpredictable 
 - **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: Hamiltonian mechanics provides the phase space framework for analyzing nonlinear dynamics and chaos.
 - **[Hamiltonian Mechanics: Advanced Topics](11_hamiltonian-mechanics-advanced-topics.md)**: The KAM theorem and perturbation theory address the stability of Hamiltonian systems under perturbation.
 - **[Small Oscillations and Normal Modes](7_small-oscillations-and-normal-modes.md)**: Linear stability analysis near equilibrium points provides the foundation for understanding chaotic behavior.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Electrochemistry is like a conversation between electricity and chemistry — electrons flowing to create or consume reactions.**
 
-# Electrochemistry — Diagnostic Tests
+## Electrochemistry — Diagnostic Tests
 
 ## Unit Tests
 

@@ -140,7 +140,7 @@ Consolidates everything into one file.
 ### Legacy setup.py
 
 ```python
-# setup.py — legacy approach, still supported but discouraged
+## setup.py — legacy approach, still supported but discouraged
 from setuptools import setup, find_packages
 
 setup(
@@ -161,7 +161,7 @@ setup(
 ### Migration Path
 
 ```toml
-# pyproject.toml — modern replacement
+## pyproject.toml — modern replacement
 [build-system]
 requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"

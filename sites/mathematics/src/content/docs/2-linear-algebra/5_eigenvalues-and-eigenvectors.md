@@ -380,3 +380,5 @@ $\blacksquare$
 - **[Inner Product Spaces](7_inner-product-spaces.md)**: The spectral theorem for symmetric matrices guarantees an orthonormal basis of eigenvectors.
 
 </aside>
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

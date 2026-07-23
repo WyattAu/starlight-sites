@@ -216,7 +216,7 @@ Using overrides.
 Conan generates explicit lockfiles that capture the full resolved graph:
 
 ```text
-# conan.lock (simplified)
+## conan.lock (simplified)
 [graph_root]
     my-project/1.0.0
     requires: fmt/10.1.1, nlohmann-json/3.11.2
@@ -456,7 +456,7 @@ add_executable(app src/main.cpp)
 
 target_link_libraries(app PRIVATE fmt::fmt nlohmann_json::nlohmann_json)
 
-# Verify that linked targets actually exported what they claim
+## Verify that linked targets actually exported what they claim
 set(CMAKE_VERIFY_INTERFACE_HEADER_SETS ON)
 ```
 
@@ -778,3 +778,8 @@ Dependency management in C++ has historically been fragmented. Package managers 
 - [[enviroment_and_toolchain/3_dependency_management/3_vcpkg.md]] - vcpkg integration
 - [[enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator]] - CMake dependency targets
 - [[enviroment_and_toolchain/3_dependency_management/6_binary_caching]] - Binary dependency caching
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)

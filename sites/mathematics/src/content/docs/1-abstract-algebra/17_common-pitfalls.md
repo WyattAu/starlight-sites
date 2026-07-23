@@ -158,3 +158,7 @@ The pitfalls in abstract algebra arise from treating algebraic structures as if 
 - [Lagrange's Theorem](/mathematics/1-abstract-algebra/3_lagrange-s-theorem) -- Assuming the converse of Lagrange's theorem and confusing index with order are common group-theory mistakes.
 - [The Sylow Theorems](/mathematics/1-abstract-algebra/7_the-sylow-theorems) -- Miscounting Sylow subgroups and forgetting the congruence conditions are pitfalls that arise from incomplete application of Sylow theory.
 - [Euclidean Domains, PIDs, and UFDs](/mathematics/1-abstract-algebra/11_euclidean-domains-pids-and-ufds) -- Confusing irreducibles with primes and assuming every PID is Euclidean are ring-theory errors covered in this chapter.
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

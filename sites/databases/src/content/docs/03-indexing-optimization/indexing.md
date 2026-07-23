@@ -748,7 +748,7 @@ WITH (FORMAT csv, HEADER true);
 ```
 
 ```bash
-# For large imports, tune these settings during the load:
+## For large imports, tune these settings during the load:
 psql -c "SET maintenance_work_mem = '2GB';"
 psql -c "SET max_wal_size = '4GB';"
 psql -c "ALTER TABLE sensor_readings SET (autovacuum_enabled = false);"

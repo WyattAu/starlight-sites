@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# International Trade and Finance — Diagnostic Tests
+## International Trade and Finance — Diagnostic Tests
 
 ## Unit Tests
 

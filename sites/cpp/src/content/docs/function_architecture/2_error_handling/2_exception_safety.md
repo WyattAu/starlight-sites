@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Exception Safety Guarantees
+## Exception Safety Guarantees
 
 The exception safety taxonomy, formalized by Abrahams (2001) and referenced in the C++ Standard
 Library requirements, classifies every operation into four levels [N4950 §16.4.6.3].

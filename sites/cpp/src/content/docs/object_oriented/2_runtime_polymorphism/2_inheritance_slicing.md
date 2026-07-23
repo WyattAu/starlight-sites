@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Inheritance, Object Slicing, and Virtual Destructors
+## Inheritance, Object Slicing, and Virtual Destructors
 
 Inheritance allows derived classes to extend base classes, but copying polymorphic objects by value
 Causes **object slicing** -- the derived portion is discarded. This section covers single and

@@ -45,7 +45,7 @@ branch does not copy any files or objects — it writes a single reference:
 
 ```bash
 $ git branch feature-auth
-# Equivalent to: echo $(git rev-parse HEAD) > .git/refs/heads/feature-auth
+## Equivalent to: echo $(git rev-parse HEAD) > .git/refs/heads/feature-auth
 ```
 
 This means:
@@ -80,7 +80,7 @@ In the graph above:
 ### Creating Branches
 
 ```bash
-# Create a branch from HEAD (does not switch to it)
+## Create a branch from HEAD (does not switch to it)
 $ git branch feature-auth
 
 # Create and switch in one step

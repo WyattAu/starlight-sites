@@ -23,7 +23,7 @@ tableOfContents: false
 }
 </script>
 
-# Diagnostic Test: Mechanics
+## Diagnostic Test: Mechanics
 
 10 multiple-choice questions covering classical mechanics. Select the best answer for each question, then check your score using the answer key below.
 
@@ -254,3 +254,7 @@ tableOfContents: false
 
 - **[Site Home](../../):** Main landing page for physics notes.
 - **[Practice](../../practice-*.mdx):** Practice problems for revision.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

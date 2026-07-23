@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Market Structure and Theory of the Firm — Diagnostic Tests
+## Market Structure and Theory of the Firm — Diagnostic Tests
 
 ## Unit Tests
 

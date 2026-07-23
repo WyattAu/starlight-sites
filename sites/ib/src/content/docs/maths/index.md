@@ -72,7 +72,7 @@ tags:
 }
 </script>
 
-# IB Mathematics
+## IB Mathematics
 
 Complete revision notes for IB Mathematics, covering the full syllabus with worked examples, common
 pitfalls, and exam-style problems.

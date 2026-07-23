@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Lambda Expressions: Capture Layouts and Closure Types
+## Lambda Expressions: Capture Layouts and Closure Types
 
 A lambda expression produces a **closure object** — an unnamed object of an unnamed class type (the
 Closure type). This section covers lambda syntax, capture modes, generic lambdas, stateful lambda
@@ -720,3 +720,7 @@ linked above.
 - **[Types](../../types/):** Type system fundamentals.
 - **[Resource Management](../../resource_management/):** RAII and smart pointers.
 - **[Templates](../../templates_and_metaprogramming/):** Generic programming and metaprogramming.
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)

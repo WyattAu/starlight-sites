@@ -23,7 +23,7 @@ tableOfContents: false
 }
 </script>
 
-# Diagnostic Test: Security
+## Diagnostic Test: Security
 
 10 multiple-choice questions covering security fundamentals. Select the best answer for each question, then check your score using the answer key below.
 

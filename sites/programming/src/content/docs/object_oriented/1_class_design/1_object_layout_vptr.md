@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Object Layout, vptr, and the `this` Pointer
+## Object Layout, vptr, and the `this` Pointer
 
 Understanding how the compiler lays out objects in memory is fundamental to writing correct and
 Efficient C++. This section covers the memory layout of simple and polymorphic classes, the `this`
@@ -680,6 +680,9 @@ pointer, including key principles and practical applications.
 
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
+
+## See Also
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Worked Examples
 

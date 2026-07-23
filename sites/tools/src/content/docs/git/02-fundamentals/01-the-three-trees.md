@@ -279,10 +279,10 @@ The three-tree model is implemented entirely by plumbing commands. `git add file
 to:
 
 ```bash
-# Compute SHA-1 hash of the file and store it as a blob object
+## Compute SHA-1 hash of the file and store it as a blob object
 BLOB=$(git hash-object -w file.txt)
 
-# Update the index entry for file.txt to point to this blob
+## Update the index entry for file.txt to point to this blob
 git update-index --add --cacheinfo 100644,$BLOB,file.txt
 ```
 

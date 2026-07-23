@@ -136,10 +136,10 @@ Critical attributes to monitor:
 ### Monitoring Scrub Progress
 
 ```bash
-# Check scrub status
+## Check scrub status
 zpool status tank
 
-# Example output:
+## Example output:
 # pool: tank
 # status: scrub in progress since ...
 # scan: scrub repaired 0 in 12h34m with 0 errors on ...

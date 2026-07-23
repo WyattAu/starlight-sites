@@ -371,6 +371,10 @@ Band structure is like a highway system for electrons. In free space, electrons 
 - **[Superconductivity](./7_superconductivity.md)**: Cooper pairing and the superconducting gap arise from the electronic structure at the Fermi surface.
 - **[Topological Insulators and Semimetals](./13_topological-insulators-and-semimetals.md)**: Extends band theory to include topological invariants that classify insulating and semimetallic phases.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+
 ### 5.12 Common Mistakes
 
 **Mistake 1: Assuming that the free electron model applies to all metals.**

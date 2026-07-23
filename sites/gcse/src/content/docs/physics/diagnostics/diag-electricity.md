@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Electricity — Diagnostic Tests
+## Electricity — Diagnostic Tests
 
 ## Unit Tests
 

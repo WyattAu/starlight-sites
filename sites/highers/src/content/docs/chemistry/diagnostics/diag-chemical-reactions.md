@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Chemical Reactions -- Diagnostic Tests
+## Chemical Reactions -- Diagnostic Tests
 
 ## Unit Tests
 

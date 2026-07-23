@@ -164,3 +164,6 @@ Prime ideals are the ring-theoretic analogue of prime numbers: $I$ is prime if $
 - **[Homomorphisms and Isomorphism Theorems](5_homomorphisms-and-isomorphism-theorems.md)**: The kernel of a ring homomorphism is always an ideal, enabling the ring isomorphism theorem.
 - **[Field Theory](12_field-theory.md)**: Quotienting a polynomial ring by an irreducible ideal produces a field extension.
 
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

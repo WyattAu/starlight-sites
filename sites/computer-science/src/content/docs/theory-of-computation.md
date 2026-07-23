@@ -1922,3 +1922,6 @@ $\blacksquare$
 | Advanced Algorithms                | WyattsNotes | [View](/docs/university/computing/algorithms-advanced)                       |
 | Theory of Computation — MIT 18.404 | MIT         | [View](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/) |
 
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

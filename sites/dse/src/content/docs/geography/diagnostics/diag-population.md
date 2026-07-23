@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Geography Diagnostic: Population
+## DSE Geography Diagnostic: Population
 
 ## Unit Test 1: Population Pyramids and Structure
 

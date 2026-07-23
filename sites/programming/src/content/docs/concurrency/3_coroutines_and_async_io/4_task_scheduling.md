@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Task Scheduling and Executors
+## Task Scheduling and Executors
 
 This section covers the task concept, coroutine-based pipeline processing, async/await patterns
 Across languages, structured concurrency with `when_all`/`when_any`A complete Task class wrapping A
@@ -846,6 +846,11 @@ Computation cannot be cancelled until it reaches the next `co_await`.
 - [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter.md)
 - [Generators (std::generator)](./3_generators.md)
 - [Futures, Promises, and Async Flows](./5_futures_promises.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Summary
 

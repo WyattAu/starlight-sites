@@ -79,11 +79,11 @@ paths produce the same blob object.
 ### Creating a Blob
 
 ```bash
-# Create a blob from a file"s content and print its hash
+## Create a blob from a file"s content and print its hash
 $ echo "Hello, World" | git hash-object -w --stdin
 ce013625030ba8dba906f756967f9e9ca394464a
 
-# Verify the object exists
+## Verify the object exists
 $ git cat-file -t ce013625030ba8dba906f756967f9e9ca394464a
 blob
 

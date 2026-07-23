@@ -1547,7 +1547,7 @@ Consumer rights and practical implications.
   [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology) for DNA
   structure, base pairing, and mutation types.
 - **Advanced genetics and genetic engineering**: Review
-  [..../3-genetics/2_genetics-advanced](../3-genetics/2_genetics-advanced) for DNA technology,
+  [.../2_genetics-advanced](./2_genetics-advanced) for DNA technology,
   CRISPR, and detailed molecular mechanisms.
 - **Evolution and population genetics**: Review
   [.../5-evolution-and-biodiversity/1_evolution](../5-evolution-and-biodiversity/1_evolution) for

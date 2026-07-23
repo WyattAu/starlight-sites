@@ -22,7 +22,7 @@ sidebar_position: 12
 }
 </script>
 
-# IB Paper 1 Unseen Poetry Practice: Derek Walcott's "A Far Cry from Africa"
+## IB Paper 1 Unseen Poetry Practice: Derek Walcott's "A Far Cry from Africa"
 
 This page provides a detailed analysis of Derek Walcott's "A Far Cry from Africa" as practice for IB English Paper 1. Published in *In a Green Night* (1962), the poem is one of the most frequently anthologised responses to the Mau Mau Uprising in Kenya (1952--1960). It is an exemplary unseen text for IB candidates because it combines formal metrical control with passionate political content, and it concludes with a question that refuses resolution. The analysis below models the standard of response expected in a top-band Paper 1 answer.
 

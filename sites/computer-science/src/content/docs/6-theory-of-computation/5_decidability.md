@@ -275,6 +275,9 @@ about $B$.
 - **[Theory of Computation Flashcards](./8_flashcards-theory-of-computation.mdx):** Interactive flashcards covering complexity classes.
 - **[Algorithms](../../1-algorithms/index.md):** Algorithm design and complexity theory.
 
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
 ## Common Mistakes
 
 1. **Reversing the direction of a many-one reduction.** To prove $B$ is undecidable, you need $A \leq_m B$ where $A$ is known to be undecidable. This means "if $B$ is decidable, then $A$ is decidable" (contrapositive: $A$ undecidable implies $B$ undecidable). Reversing it to $B \leq_m A$ gives "if $A$ is decidable, then $B$ is decidable," which tells you nothing about $B$ when $A$ is undecidable.

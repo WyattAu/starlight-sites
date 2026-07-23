@@ -204,3 +204,8 @@ A $T_1$ space need not be $T_2$. The cofinite topology on an infinite set is $T_
 - **[Metric Spaces](9-topology/7_metric-spaces.md)**: Every metric space satisfies all separation axioms (T6), providing a concrete class of well-separated spaces.
 - **[Closed Sets, Closure, Interior, and Boundary](9-topology/3_closed-sets-closure-interior-and-boundary.md)**: Separation axioms formalise how well points and closed sets can be separated by open sets.
 - **[Introduction to Algebraic Topology](9-topology/9_introduction-to-algebraic-topology.md)**: Compact Hausdorff spaces are normal, which is essential for proving results about covering spaces and quotient maps.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

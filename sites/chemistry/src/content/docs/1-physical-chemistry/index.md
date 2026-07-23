@@ -69,7 +69,7 @@ description: 'Topics in physical chemistry including thermodynamics, kinetics, q
 }
 </script>
 
-# Physical Chemistry
+## Physical Chemistry
 
 Physical chemistry examines the physical principles underlying chemical systems. It draws on mathematics and physics to explain why reactions occur, how fast they proceed, and what determines the stability of molecular structures. Core topics include thermodynamics, chemical kinetics, quantum mechanics, and spectroscopy.
 
@@ -148,3 +148,8 @@ Entropy is a quantitative thermodynamic quantity measured in $\text{J K}^{-1}$, 
 - **[Organic Chemistry](../2-organic-chemistry/):** Covers reaction mechanisms and synthesis that build on physical chemistry principles.
 - **[Inorganic Chemistry](../3-inorganic-chemistry/):** Explores coordination chemistry and solid-state chemistry that use thermodynamic and kinetic concepts.
 - **[Chemical Kinetics](chemical-kinetics.md):** Detailed notes on reaction rates, rate laws, and activation energy.
+
+- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

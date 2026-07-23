@@ -27,7 +27,7 @@ tableOfContents: false
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Theory of Computation — Diagnostic Tests
+## Theory of Computation — Diagnostic Tests
 
 ## Unit Tests
 

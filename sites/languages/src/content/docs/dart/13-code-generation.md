@@ -26,7 +26,7 @@ categories:
 }
 </script>
 
-# Code Generation
+## Code Generation
 
 ## What is Code Generation
 
@@ -707,7 +707,7 @@ Conventions helps with `.gitignore` configuration and debugging.
 Generated files should be excluded from version control since they can be regenerated:
 
 ```gitignore
-# Code generation
+## Code generation
 *.g.dart
 *.freezed.dart
 *.gr.dart

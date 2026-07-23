@@ -2038,3 +2038,6 @@ Complex analysis studies functions of a complex variable that are differentiable
 | Differential Equations       | WyattsNotes | [View](/docs/university/mathematics/differential-equations)                              |
 | Complex Analysis — MIT 18.04 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-fall-2003/) |
 
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

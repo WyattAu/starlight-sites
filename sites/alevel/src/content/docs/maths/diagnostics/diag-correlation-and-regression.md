@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
 
-# Correlation and Regression — Diagnostic Tests
+## Correlation and Regression — Diagnostic Tests
 
 ## Unit Tests
 

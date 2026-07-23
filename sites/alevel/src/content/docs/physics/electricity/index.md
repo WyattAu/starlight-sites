@@ -69,7 +69,7 @@ description: "A-Level Physics Electricity notes covering key definitions, core c
 }
 </script>
 
-# Electricity
+## Electricity
 
 Electricity is the study of electric charge, current, potential difference, and the behaviour of
 components in electrical circuits. This section covers the fundamental principles of DC circuits,
@@ -196,13 +196,13 @@ From Newton's apple to quantum particles, physics explains how the world works t
 
 ## Cross-References
 
-- [Mechanics](/docs/alevel/physics/mechanics)
-- [Waves](/docs/alevel/physics/waves)
-- [Electricity](/docs/alevel/physics/electricity)
-- [Fields](/docs/alevel/physics/fields)
+- [Mechanics](/physics/mechanics)
+- [Waves](/physics/waves)
+- [Electricity](/physics/electricity)
+- [Fields](/physics/fields)
 
 ## Cross-References
 
-- [Physics](/alevel/physics)
-- [Mechanics](/alevel/physics/mechanics)
-- [Fields](/alevel/physics/fields)
+- [Physics](/physics)
+- [Mechanics](/physics/mechanics)
+- [Fields](/physics/fields)

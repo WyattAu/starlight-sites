@@ -211,3 +211,8 @@ Geodesics are the straightest possible paths on a curved surface. On a flat plan
 - [Differential Geometry Summary](/mathematics/12-differential-geometry/10_summary) -- The summary table of Christoffel symbols and curvature tensors provides the computational tools used throughout this chapter.
 - [Electromagnetic Waves](/physics/3-electromagnetism/5_electromagnetic-waves) -- The wave equation in curved spacetime uses geodesic deviation to describe tidal forces in general relativity.
 - [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- Minkowski spacetime is a flat Lorentzian manifold whose geodesics are the worldlines of free particles.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

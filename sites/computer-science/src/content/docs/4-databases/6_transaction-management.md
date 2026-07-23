@@ -274,3 +274,6 @@ Transaction management guarantees that database operations follow the ACID prope
 **Forgetting that transactions have overhead:** Each transaction requires logging, locking, and possibly two-phase commit. Don't wrap every single operation in a transaction if it's not needed.
 
 ## Cross-References
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

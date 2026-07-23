@@ -198,3 +198,6 @@ The value of the contour integral does not depend on the parameterization of the
 - **[Cauchy's Integral Formula](6_cauchy-s-integral-formula.md)**: The integral formula expresses the value of an analytic function at interior points via boundary integrals.
 - **[Residue Theory](8_singularities-and-residue-theory.md)**: The residue theorem computes contour integrals by summing contributions from singularities.
 
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

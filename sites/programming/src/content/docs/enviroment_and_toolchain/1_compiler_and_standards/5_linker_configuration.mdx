@@ -182,7 +182,7 @@ When using LTO with shared libraries, ensure that symbols intended for export ar
 Visible visibility. LTO can inline and eliminate symbols more aggressively, potentially removing
 Symbols that would otherwise be exported:
 ```cmake
-# Ensure public API symbols are preserved when building a shared library with LTO
+## Ensure public API symbols are preserved when building a shared library with LTO
 set_target_properties(MyLib PROPERTIES
     CXX_VISIBILITY_PRESET hidden
     VISIBILITY_INLINES_HIDDEN ON
@@ -551,7 +551,7 @@ Two or more translation units define the same symbol with external linkage. Comm
 A relocation requires more bits than the instruction encoding provides. Common on 32-bit x86 when
 The code model is `small` (default) but the binary exceeds 2GB.
 ```bash
-# Use the large code model if you have enormous binaries
+## Use the large code model if you have enormous binaries
 clang++ -mcmodel=large ...
 ```
 ---

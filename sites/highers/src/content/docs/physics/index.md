@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Scottish Highers Physics
+## Scottish Highers Physics
 
 Higher Physics covers mechanics, dynamics, electricity, waves, and radiation. The course emphasises
 both theoretical understanding and practical applications, preparing students for engineering and

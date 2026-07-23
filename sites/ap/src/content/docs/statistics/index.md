@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# AP Statistics
+## AP Statistics
 
 Comprehensive revision notes for AP Statistics, aligned with the College Board Course and Exam
 Description.

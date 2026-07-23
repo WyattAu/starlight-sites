@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# A-Level Physics Diagnostic Guide
+## A-Level Physics Diagnostic Guide
 
 ## Overview
 

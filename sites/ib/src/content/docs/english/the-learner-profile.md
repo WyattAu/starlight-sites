@@ -22,7 +22,7 @@ sidebar_position: 13
 }
 </script>
 
-# The IB Learner Profile in English
+## The IB Learner Profile in English
 
 The IB Learner Profile defines the attributes that the International Baccalaureate programme aims to develop in its students. In English, these attributes are not abstract ideals but practical requirements that shape how students read, write, discuss, and think. This page examines each relevant learner profile attribute in the context of English study, with specific attention to approaches to learning (ATL) skills, reflective practice, intellectual honesty, and connections to CAS (Creativity, Activity, Service).
 

@@ -69,7 +69,7 @@ description: "CBSE Class 12 mathematics: Derivatives with differentiation rules,
 }
 </script>
 
-# Derivatives
+## Derivatives
 
 Derivatives measure the rate of change of a function with respect to its variable. This topic covers basic rules, chain rule, implicit differentiation, and applications.
 

@@ -94,7 +94,7 @@ Heap
   G1, 6 for Parallel), it is promoted to the old generation.
 
 ```bash
-# Young generation sizing
+## Young generation sizing
 -Xmn512m              # Fixed young generation size: 512 MB
 -XX:NewRatio=2        # Old:Young = 2:1, so young = 1/3 of heap
 -XX:SurvivorRatio=8   # Eden:Survivor = 8:1, so each survivor = 1/10 of young
@@ -282,7 +282,7 @@ Only specific phases require STW pauses:
 ```bash
 -Xms4g                # Initial heap size (minimum)
 -Xmx4g                # Maximum heap size
-# Set Xms == Xmx to avoid dynamic resizing overhead
+## Set Xms == Xmx to avoid dynamic resizing overhead
 ```
 
 ### Collector Selection

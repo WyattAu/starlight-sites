@@ -156,3 +156,6 @@ Neutrinos are the most mysterious particles in the Standard Model: nearly massle
 - **[Conservation Laws and Symmetries](7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries.md)**: Lepton family number conservation and its possible violation are central to understanding neutrino oscillations and Majorana mass.
 - **[Beyond the Standard Model](7-particle-physics-and-cosmology/9_beyond-the-standard-model.md)**: The seesaw mechanism and neutrino mass generation are key motivations for physics beyond the Standard Model.
 - **[Big Bang Cosmology](7-particle-physics-and-cosmology/7_big-bang-cosmology.md)**: Neutrino decoupling and the effective number of relativistic species affect Big Bang nucleosynthesis and the CMB.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

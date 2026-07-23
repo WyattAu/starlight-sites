@@ -74,7 +74,7 @@ description: 'A-Level Computer Science Theory of Computation notes covering key 
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Theory of Computation
+## Theory of Computation
 
 The theory of computation studies what can be computed and what cannot. It provides the mathematical
 foundations that explain why some problems are solvable by algorithms and others are not, and

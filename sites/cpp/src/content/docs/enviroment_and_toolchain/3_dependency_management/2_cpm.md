@@ -135,7 +135,7 @@ CPMAddPackage(
     "FMT_TEST OFF"     # Do not build fmt's tests
 )
 
-# Link against the target defined by fmt's CMakeLists.txt
+## Link against the target defined by fmt's CMakeLists.txt
 target_link_libraries(MyApplication PRIVATE fmt::fmt)
 ```
 
@@ -198,7 +198,7 @@ Project/
 **cmake/dependencies.cmake:**
 
 ```cmake
-# Centralized dependency declaration
+## Centralized dependency declaration
 CPMAddPackage(
   NAME nlohmann_json
   GITHUB_REPOSITORY nlohmann/json

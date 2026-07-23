@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Born-Haber Cycles
+## Born-Haber Cycles
 
 Born-Haber cycles are thermochemical cycles that decompose the formation of an ionic solid into a
 Series of well-defined energetic steps. They allow the calculation of lattice enthalpy from

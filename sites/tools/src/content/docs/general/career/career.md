@@ -194,7 +194,7 @@ The STAR method structures your answers:
 ### Structure
 
 ```markdown
-# Your Name
+## Your Name
 
 email@example.com | github.com/yourusername | linkedin.com/in/yourusername
 

@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Light and Waves
+## Light and Waves
 
 This topic covers the wave nature of light, sound, reflection, refraction, diffraction,
 Interference, and the electromagnetic spectrum. Waves are a major area of the Leaving Certificate

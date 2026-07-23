@@ -142,6 +142,10 @@ $\blacksquare$
 | [Quantum Physics] | University | [View](https://university.wyattau.com/docs/physics/5-quantum-mechanics/1_quantum-mechanics)                |
 
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ## Intuition
 
 Density functional theory replaces the complicated many-body wavefunction with the much simpler electron density, which depends on only three spatial coordinates instead of three times the number of electrons. The Hohenberg-Kohn theorem guarantees that the ground state energy is a functional of the density, and the Kohn-Sham equations reformulate the problem as independent particles moving in an effective potential. This makes electronic structure calculations tractable for systems with hundreds of atoms. The exchange-correlation functional captures all the complicated many-body effects, and improving it is the central challenge of the field.

@@ -25,7 +25,7 @@ tableOfContents: false
 }
 </script>
 
-# Resources and Sustainability
+## Resources and Sustainability
 
 ## Key Terms
 

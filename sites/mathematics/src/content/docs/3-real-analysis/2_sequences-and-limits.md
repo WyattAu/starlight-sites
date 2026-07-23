@@ -302,6 +302,11 @@ $\limsup = 0$.
 - **[Metric Spaces](9-topology/7_metric-spaces.md)**: The epsilon-N definition of convergence generalises to metric spaces, where completeness and compactness play analogous roles.
 - **[Probability Spaces](8-probability-and-statistics/1_probability-spaces.md)**: Convergence of random variables (almost surely, in probability, in distribution) builds on the sequence convergence framework.
 
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
 ## Common Mistakes
 
 - **Confusing $\limsup$ and $\liminf$ with $\sup$ and $\inf$ of the range:** The supremum of the range $\{a_n\}$ is the largest value ever attained; $\limsup$ depends on the tail behaviour. For $a_n = 1/n$, $\sup = 1$ but $\limsup = 0$.

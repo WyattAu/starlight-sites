@@ -26,7 +26,7 @@ description: "This document covers the IB History topic on the Causes and Effect
 }
 </script>
 
-# Causes and Effects of Wars
+## Causes and Effects of Wars
 
 This document covers the IB History topic on the Causes and Effects of (20th Century) Wars for
 Paper 2. It examines the two World Wars in depth, comparing their origins, courses, and

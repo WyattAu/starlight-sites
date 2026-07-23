@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Irish LC Biology
+## Irish LC Biology
 
 Leaving Certificate Biology explores cells, ecology, genetics, plants, and human body systems. The
 course covers a wide range of biological concepts from molecular to ecosystem level, with

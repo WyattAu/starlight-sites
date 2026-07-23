@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Statistics — Diagnostic Tests
+## Statistics — Diagnostic Tests
 
 ## Intuition
 

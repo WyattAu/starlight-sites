@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Vectors — Diagnostic Tests
+## Vectors — Diagnostic Tests
 
 ## Intuition
 

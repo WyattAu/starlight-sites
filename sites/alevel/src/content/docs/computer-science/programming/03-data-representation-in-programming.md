@@ -212,7 +212,7 @@ Operations. This is an example of **context management**.
 ```python
 with open("file.txt", "r") as f:
     data = f.read()
-# File is automatically closed here
+## File is automatically closed here
 ```
 
 <hr />
@@ -420,7 +420,7 @@ Disadvantages?
 2. **Performance:** Concatenation in a loop is $O(n^2)$ without optimisation
 
 ```python
-# Inefficient: O(n^2) — creates new string each iteration
+## Inefficient: O(n^2) — creates new string each iteration
 s = ""
 for i in range(1000):
     s += str(i)
@@ -542,8 +542,8 @@ $\mathrm{Compressed} = 30.9 \div 2 \approx 15.45 \mathrm{ GB}$
 </details>
 
 For revision on number representation, see
-[Number Systems](/docs/alevel/computer-science/fundamentals/number-systems) and
-[Floating Point](/docs/alevel/computer-science/fundamentals/floating-point).
+[Number Systems](/computer-science/fundamentals/number-systems) and
+[Floating Point](/computer-science/fundamentals/floating-point).
 
 
 ## Common Pitfalls

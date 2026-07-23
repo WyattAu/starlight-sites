@@ -185,7 +185,7 @@ def query(sql: LiteralString, *args: object) -> None:
     ...
 
 table_name: str = input("Table name: ")  # type: str, NOT LiteralString
-# query(f"SELECT * FROM {table_name}")    # type error
+## query(f"SELECT * FROM {table_name}")    # type error
 
 query("SELECT * FROM users")              # OK -- literal
 query("SELECT * FROM " + "users")         # OK -- literal + literal = LiteralString
@@ -308,7 +308,7 @@ class Config(TypedDict):
     debug: bool
 
 hints = get_type_hints(Config)
-# {'host': <class 'str'>, 'port': <class 'int'>, 'debug': <class 'bool'>}
+## {'host': <class 'str'>, 'port': <class 'int'>, 'debug': <class 'bool'>}
 ```
 
 ### JSON Deserialization

@@ -301,3 +301,7 @@ The Poynting vector $\mathbf{S} = \mathbf{E} \times \mathbf{B}/\mu_0$ gives the 
 - [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The relativistic invariance of Maxwell's equations shows that EM waves propagate at $c$ in all frames.
 - [Radiation from Accelerating Charges](/physics/3-electromagnetism/10_radiation-from-accelerating-charges) -- The Larmor formula and dipole radiation patterns extend the plane-wave analysis to realistic sources.
 - [Lasers](/physics/4-optics-and-waves/9_lasers) -- Laser cavity modes are solutions of the wave equation with boundary conditions, connecting EM wave theory to laser physics.
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

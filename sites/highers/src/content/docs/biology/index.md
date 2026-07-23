@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Scottish Highers Biology
+## Scottish Highers Biology
 
 Higher Biology explores cell biology, metabolism, multicellular organisms, genetics, and evolution.
 The course emphasises scientific inquiry, data analysis, and understanding of biological systems at

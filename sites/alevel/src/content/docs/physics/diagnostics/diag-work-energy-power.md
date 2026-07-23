@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
 
-# Work, Energy and Power — Diagnostic Tests
+## Work, Energy and Power — Diagnostic Tests
 
 ## Unit Tests
 

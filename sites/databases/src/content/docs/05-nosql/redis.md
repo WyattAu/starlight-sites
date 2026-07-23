@@ -45,7 +45,7 @@ Despite being single-threaded for command execution, Redis uses **background I/O
 - Lazy freeing of large keys (`UNLINK` instead of `DEL`)
 
 ```conf
-# redis.conf
+## redis.conf
 io-threads 4
 io-threads-do-reads yes
 ```
@@ -69,7 +69,7 @@ Integers (which support atomic increment/decrement):
 ```bash
 SET user:1001:name "Alice"
 GET user:1001:name
-# "Alice"
+## "Alice"
 
 SET counter 100
 INCR counter

@@ -403,10 +403,10 @@ echo 0 | sudo tee /sys/block/nvme0n1/queue/read_ahead_kb
 ### mount Options for SSDs
 
 ```bash
-# ext4 with SSD optimizations
+## ext4 with SSD optimizations
 /dev/nvme0n1p2 / ext4 noatime,discard,errors=remount-ro 0 1
 
-# xfs with SSD optimizations
+## xfs with SSD optimizations
 /dev/nvme0n1p2 / xfs noatime,discard 0 0
 
 # Key options:

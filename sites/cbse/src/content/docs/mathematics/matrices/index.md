@@ -69,7 +69,7 @@ description: "CBSE Class 12 mathematics: Matrices with operations, determinants,
 }
 </script>
 
-# Matrices
+## Matrices
 
 Matrices are rectangular arrays of numbers used to represent linear transformations, solve systems of equations, and more. This topic covers operations, transpose, inverse, and determinants.
 

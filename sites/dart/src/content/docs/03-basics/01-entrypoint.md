@@ -118,8 +118,8 @@ Run it:
 
 ```bash
 dart run main.dart Dart --verbose
-# Output:
-# Name: Dart
+## Output:
+## Name: Dart
 # Verbose: true
 # Argument count: 2
 ```

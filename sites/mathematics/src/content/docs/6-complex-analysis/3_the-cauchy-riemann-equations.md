@@ -190,3 +190,6 @@ The Cauchy-Riemann equations are the complex analogue of requiring a function to
 - **[Complex Integration](4_complex-integration.md)**: Cauchy's integral theorem relies on the Cauchy-Riemann equations for its proof.
 - **[Taylor and Laurent Series](7_taylor-and-laurent-series.md)**: Analytic functions can be represented as power series, which follows from the Cauchy-Riemann equations.
 
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

@@ -431,3 +431,6 @@ Synthetic chemistry is like molecular LEGO: you start with simple, available bui
 | Reaction Mechanisms      | WyattsNotes | [View](/docs/university/chemistry/reaction-mechanisms)                |
 | Spectroscopy             | WyattsNotes | [View](/docs/university/chemistry/spectroscopy)                       |
 | Organic Synthesis — MIT 5.34 | MIT OCW | [View](https://ocw.mit.edu/courses/5-34-advanced-organic-chemistry-spring-2003/) |
+
+- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)

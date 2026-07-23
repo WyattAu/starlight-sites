@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Value Taxonomy
+## Value Taxonomy
 
 Every C++ expression has a **value category** — a property that determines which operations are
 Legal on it and how it interacts with overloaded functions. C++17 defines three primary categories
@@ -199,6 +199,10 @@ Traits or SFINAE constraints.
 
 - [Reference Collapsing and Forwarding References](2_reference_collapsing.md)
 - [Temporary Materialization](3_temporary_materialization.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## 3.1 Expression Classification Rules
 

@@ -24,7 +24,7 @@ description: "Gabriel Garcia Marquez, _Chronicle of a Death Foretold_ (1981), tr
 }
 </script>
 
-# Chronicle of a Death Foretold: Close Reading and Analysis
+## Chronicle of a Death Foretold: Close Reading and Analysis
 
 Gabriel Garcia Marquez, _Chronicle of a Death Foretold_ (1981), translated by Gregory Rabassa
 

@@ -72,7 +72,7 @@ description: "Measure Theory: comprehensive educational content notes with preci
 }
 </script>
 
-# Measure Theory
+## Measure Theory
 
 ## Contents
 
@@ -149,3 +149,8 @@ Pointwise convergence does not imply convergence in $L^p$ without a dominating f
 - **[Real Analysis](../../3-real-analysis/index.md):** Foundational analysis concepts extended by measure theory.
 - **[Functional Analysis](../../11-functional-analysis/index.md):** L^p spaces and operator theory built on measure.
 - **[Probability and Statistics](../../8-probability-and-statistics/index.md):** Measure-theoretic probability foundations.
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

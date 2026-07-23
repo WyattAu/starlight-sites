@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Electric and Magnetic Fields — Diagnostic Tests
+## Electric and Magnetic Fields — Diagnostic Tests
 
 ## Intuition
 

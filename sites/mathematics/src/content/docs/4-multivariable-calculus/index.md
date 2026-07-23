@@ -72,7 +72,7 @@ description: "Multivariable calculus extends the differential and integral calcu
 }
 </script>
 
-# Multivariable Calculus
+## Multivariable Calculus
 
 Multivariable calculus extends the differential and integral calculus to
 functions of several real variables. The partial derivative generalises the
@@ -160,3 +160,10 @@ Setting $\nabla f = \mathbf{0}$ is necessary but not sufficient. The Hessian mat
 - **[Linear Algebra](../../2-linear-algebra/index.md):** Jacobians and Hessians as matrices.
 - **[Real Analysis](../../3-real-analysis/index.md):** Foundational analysis for multivariable calculus.
 - **[Ordinary Differential Equations](../../5-ordinary-differential-equations/index.md):** Systems of ODEs using multivariable calculus.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

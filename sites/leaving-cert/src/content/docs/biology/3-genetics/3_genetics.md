@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Genetics and Evolution
+## Genetics and Evolution
 
 This topic covers DNA structure, protein synthesis, inheritance, genetic crosses, genetic
 Engineering, the Hardy-Weinberg principle, and the theory of evolution by natural selection.

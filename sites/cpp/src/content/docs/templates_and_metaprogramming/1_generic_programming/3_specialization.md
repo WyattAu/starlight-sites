@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Explicit and Partial Specialization
+## Explicit and Partial Specialization
 
 Specialization allows you to provide alternative implementations for specific sets of template
 Arguments. **Full specialization** replaces the primary template entirely for a specific type, while

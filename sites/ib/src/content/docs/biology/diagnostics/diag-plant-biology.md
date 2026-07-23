@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Plant Biology — Diagnostic Tests
+## Plant Biology — Diagnostic Tests
 
 ## Intuition
 

@@ -301,3 +301,8 @@ Partial differential equations extend ODEs to functions of multiple variables, d
 - **[Second-Order Linear ODEs](5-ordinary-differential-equations/3_second-order-linear-odes.mdx)**: The spatial ODEs arising from separation of variables are second-order linear equations with boundary conditions.
 - **[Laplace Transforms](5-ordinary-differential-equations/5_laplace-transforms.md)**: The Laplace transform can solve the heat equation in the time variable, converting the PDE to an ODE.
 - **[Vector Calculus](4-multivariable-calculus/3_vector-calculus.md)**: The gradient, divergence, and curl operators appearing in PDE formulations are central concepts in vector calculus.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

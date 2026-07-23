@@ -333,3 +333,5 @@ Vector spaces are the foundation of quantum computing: qubits exist in a 2-dimen
 - **[Linear Independence, Span, Basis, and Dimension](2_linear-independence-span-basis-and-dimension.md)**: Basis and dimension are defined in terms of linear independence and span of vector space elements.
 - **[Matrices](3_matrices.md)**: Matrices represent linear transformations between finite-dimensional vector spaces.
 - **[Linear Transformations](6_linear-transformations.mdx)**: Linear transformations are maps between vector spaces that preserve linear structure.
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

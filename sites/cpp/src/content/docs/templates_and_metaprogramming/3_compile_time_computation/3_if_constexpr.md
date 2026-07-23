@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Compile-Time Branching and Constexpr Functions
+## Compile-Time Branching and Constexpr Functions
 
 C++ provides multiple mechanisms for compile-time computation: `if constexpr` for type-based
 Dispatch within function bodies, `constexpr` functions that may be evaluated at compile time, and

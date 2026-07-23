@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Human Physiology — Diagnostic Tests
+## Human Physiology — Diagnostic Tests
 
 ## Intuition
 

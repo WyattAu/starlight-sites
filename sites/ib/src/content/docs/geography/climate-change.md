@@ -22,7 +22,7 @@ description: "This section covers the IB Geography core extension on global clim
 }
 </script>
 
-# Climate Change
+## Climate Change
 
 This section covers the IB Geography core extension on global climate -- vulnerability and
 resilience. It examines the physical and human dimensions of climate change, including the evidence

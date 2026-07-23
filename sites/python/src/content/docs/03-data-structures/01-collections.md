@@ -114,8 +114,8 @@ for i in range(10):
     lst.append(i)
     print(f"len={len(lst)}, sizeof={sys.getsizeof(lst)}")
 
-# Output pattern on 64-bit CPython:
-# len=0,  sizeof=56   (empty, 0 slots)
+## Output pattern on 64-bit CPython:
+## len=0,  sizeof=56   (empty, 0 slots)
 # len=1,  sizeof=88   (4 slots allocated)
 # len=2,  sizeof=88   (4 slots)
 # len=3,  sizeof=88   (4 slots)

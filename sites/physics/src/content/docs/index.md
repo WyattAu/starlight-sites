@@ -69,7 +69,7 @@ description: "This section develops university-level physics from first principl
 }
 </script>
 
-# Physics
+## Physics
 
 This section develops university-level physics from first principles, with
 emphasis on mathematical derivation and the explicit statement of assumptions.
@@ -140,6 +140,12 @@ Each section includes:
 - **Memorising formulas without understanding derivations:** Physics exams increasingly test understanding, not recall. Knowing that $E = \hbar\omega$ without understanding why it follows from the harmonic oscillator Hamiltonian leaves you unable to adapt to unfamiliar problems.
 - **Neglecting units and dimensional analysis:** Many errors in physics come from unit mismatches. Always check that your answer has the correct dimensions — it catches a large fraction of mistakes before you even compute numerically.
 - **Treating physics as a collection of isolated topics:** Classical mechanics, electromagnetism, and quantum mechanics are deeply connected. Understanding these connections (e.g., the classical limit $\hbar \to 0$, or how Maxwell's equations lead to special relativity) is what separates deep understanding from rote learning.
+
+## See Also
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Intuition
 

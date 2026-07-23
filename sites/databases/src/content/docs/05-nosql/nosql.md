@@ -236,12 +236,12 @@ Store -- it supports a rich set of data structures and operations.
 #### Redis Persistence
 
 ```bash
-# RDB (point-in-time snapshots):
+## RDB (point-in-time snapshots):
 save 900 1       # save after 900 seconds if at least 1 key changed
 save 300 10      # save after 300 seconds if at least 10 keys changed
 save 60 10000    # save after 60 seconds if at least 10000 keys changed
 
-# AOF (Append-Only File): every write operation is logged
+## AOF (Append-Only File): every write operation is logged
 appendonly yes
 appendfsync everysec   # fsync once per second (good balance)
 # appendfsync always    # fsync on every write (safest, slowest)

@@ -233,6 +233,8 @@ Polarization describes the orientation of a light wave's electric field oscillat
 - **[Geometric Optics](./6_geometric-optics.md)**: Provides the ray-tracing framework for understanding polarisation by reflection and Brewster windows.
 - **[Coherence](./8_coherence.md)**: Partially polarised light is described by the mutual coherence function, connecting polarisation to the coherence theory of partially polarised fields.
 
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+
 ## Common Mistakes
 
 **Mistake 1: Assuming a quarter-wave plate produces circular polarisation for any input angle**

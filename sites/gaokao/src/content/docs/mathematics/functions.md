@@ -21,7 +21,7 @@ description: "高考 mathematics: Functions"
 }
 </script>
 
-# Functions
+## Functions
 
 高考 mathematics 学习笔记 - Functions
 

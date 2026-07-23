@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Reactions, derivatives, and worked exampl
 }
 </script>
 
-# Carboxylic Acids
+## Carboxylic Acids
 
 Carboxylic acids contain the $-\text{COOH}$ functional group. They are weak acids due to resonance stabilization of the carboxylate ion.
 

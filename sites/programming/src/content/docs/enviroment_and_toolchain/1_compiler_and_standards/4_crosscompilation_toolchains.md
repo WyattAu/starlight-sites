@@ -95,10 +95,10 @@ Clang uses a unified driver model. Instead of requiring a separate prefixed bina
 Clang accepts a `-target` flag that dynamically selects the code generator:
 
 ```bash
-# Cross-compile for ARM64 Linux using Clang
+## Cross-compile for ARM64 Linux using Clang
 clang++ -target aarch64-linux-gnu --sysroot=/usr/aarch64-linux-gnu -std=c++23 main.cpp
 
-# Cross-compile for RISC-V bare metal
+## Cross-compile for RISC-V bare metal
 clang++ -target riscv64-unknown-elf -march=rv64imac -mabi=lp64 main.cpp
 
 # Cross-compile for Windows from Linux
@@ -794,3 +794,6 @@ Cross-compilation lets you build code for a different architecture than your dev
 - [[enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files]] - CMake toolchain configuration
 - [[enviroment_and_toolchain/1_compiler_and_standards/2_language_standard_and_abi_compatibility]] - ABI across architectures
 - [[enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism]] - Parallel cross-compilation
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)

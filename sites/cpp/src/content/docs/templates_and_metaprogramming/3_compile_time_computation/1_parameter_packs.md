@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Parameter Packs and Variadic Templates
+## Parameter Packs and Variadic Templates
 
 A **variadic template** accepts a variable number of template arguments via a **parameter pack**
 [N4950 §13.7.3]. Parameter packs come in two forms: type parameter packs and non-type parameter

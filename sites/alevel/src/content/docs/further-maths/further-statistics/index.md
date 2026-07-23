@@ -74,7 +74,7 @@ description: 'A-Level Further Maths Further Statistics notes covering key defini
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Further Statistics
+## Further Statistics
 
 Further Statistics extends the statistical methods from A-Level Mathematics, introducing continuous
 probability distributions, more sophisticated hypothesis tests, and the chi-squared family of tests

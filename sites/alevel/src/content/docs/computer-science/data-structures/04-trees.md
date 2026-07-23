@@ -592,7 +592,7 @@ Value 5.
 Parent of node 5 (index 4): parent index = $\lfloor(4-1)/2\rfloor = 1$ → value 3.
 
 For revision on sorting, see
-[Sorting Algorithms](/docs/alevel/computer-science/algorithms/sorting-algorithms).
+[Sorting Algorithms](/computer-science/algorithms/sorting-algorithms).
 
 <hr />
 

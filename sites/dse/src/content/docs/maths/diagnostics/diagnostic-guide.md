@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Mathematics Diagnostic Guide
+## DSE Mathematics Diagnostic Guide
 
 ## Purpose
 

@@ -160,3 +160,8 @@ Think of a set as a region of space with fuzzy edges. The interior is the core w
 - **[Introduction to Algebraic Topology](9-topology/9_introduction-to-algebraic-topology.md)**: The boundary operator in algebraic topology generalises the topological boundary concept to higher dimensions.
 - **[Common Pitfalls](9-topology/10_common-pitfalls.md)**: Confusing open with closed and misunderstanding closure under infinite operations are frequent errors.
 
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

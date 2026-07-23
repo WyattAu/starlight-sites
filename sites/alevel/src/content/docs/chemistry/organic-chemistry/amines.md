@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Amines
+## Amines
 
 Amines are organic derivatives of ammonia ($\mathrm{NH}_3$) in which one or more hydrogen atoms have
 Been replaced by alkyl or aryl groups. They are classified as primary ($1^\circ$), secondary

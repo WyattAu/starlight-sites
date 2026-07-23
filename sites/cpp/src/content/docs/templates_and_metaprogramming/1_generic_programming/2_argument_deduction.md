@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Argument Deduction (Class and Function)
+## Argument Deduction (Class and Function)
 
 Template argument deduction allows the compiler to infer template parameters from the types of
 Arguments provided at call sites or construction sites. This section covers function template

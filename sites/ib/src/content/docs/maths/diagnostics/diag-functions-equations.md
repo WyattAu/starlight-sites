@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Functions and Equations — Diagnostic Tests
+## Functions and Equations — Diagnostic Tests
 
 ## Intuition
 

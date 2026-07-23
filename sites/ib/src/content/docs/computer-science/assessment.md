@@ -21,7 +21,7 @@ description: "| Index | Objective | Paper 1 | Paper 2 | IA | Sum | | ----- | ---
 }
 </script>
 
-# Assessment objective
+## Assessment objective
 
 ## Intuition
 

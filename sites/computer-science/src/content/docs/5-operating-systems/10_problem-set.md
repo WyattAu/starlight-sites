@@ -592,3 +592,6 @@ $\blacksquare$
 | [Operating Systems] | A-Level    | [View](https://alevel-sciences.wyattau.com/docs/alevel/computer-science/fundamentals/05-operating-systems) |
 | [Operating Systems] | University | [View](https://university.wyattau.com/docs/computing/5-operating-systems/1_operating-systems)              |
 
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

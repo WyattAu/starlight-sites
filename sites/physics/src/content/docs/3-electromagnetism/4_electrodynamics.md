@@ -194,3 +194,7 @@ Faraday's law $\nabla \times \mathbf{E} = -\partial\mathbf{B}/\partial t$ applie
 - **[Magnetostatics](3_magnetostatics.md)**: Magnetostatics is the static limit where time derivatives vanish, describing steady currents without induction.
 - **[The Wave Equation](../4-optics-and-waves/1_the-wave-equation.md)**: The wave equation for electromagnetic fields follows from Maxwell's equations and describes light propagation.
 
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

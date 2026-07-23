@@ -69,7 +69,7 @@ description: "CBSE Class 12 physics: Electrostatics with Coulomb's law, electric
 }
 </script>
 
-# Electrostatics
+## Electrostatics
 
 Electrostatics studies electric charges at rest. It covers Coulomb's law, electric fields, Gauss's law, and electric potential.
 

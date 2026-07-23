@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Market Failure and Government Intervention — Diagnostic Tests
+## Market Failure and Government Intervention — Diagnostic Tests
 
 ## Unit Tests
 

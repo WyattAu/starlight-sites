@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Sequences and Series — Diagnostic Tests [BC Only]
+## Sequences and Series — Diagnostic Tests [BC Only]
 
 ## Unit Tests
 

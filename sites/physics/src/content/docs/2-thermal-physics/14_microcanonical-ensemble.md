@@ -207,3 +207,7 @@ For indistinguishable particles, the phase space volume must be divided by $N!$ 
 - **[The Laws of Thermodynamics](1_the-laws-of-thermodynamics.md)**: The microcanonical entropy $S = k_B \ln \Omega$ provides the microscopic foundation for the second law of thermodynamics.
 - **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble.md)**: The grand canonical ensemble further extends the framework to systems that exchange both energy and particles with a reservoir.
 
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

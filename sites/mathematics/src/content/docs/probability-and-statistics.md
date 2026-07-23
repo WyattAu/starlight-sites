@@ -2181,3 +2181,10 @@ $\blacksquare$
 | Differential Equations      | WyattsNotes | [View](/docs/university/mathematics/differential-equations) |
 | Statistics — Stanford CS229 | Stanford    | [View](https://cs229.stanford.edu/)                         |
 
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

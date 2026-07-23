@@ -21,7 +21,7 @@ description: "高考 physics: Mechanics"
 }
 </script>
 
-# Mechanics
+## Mechanics
 
 高考 physics 学习笔记 - Mechanics
 

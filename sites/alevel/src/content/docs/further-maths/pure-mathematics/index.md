@@ -69,7 +69,7 @@ description: "A-Level Further Maths Pure Mathematics notes covering key definiti
 }
 </script>
 
-# Pure Mathematics
+## Pure Mathematics
 
 The Further Pure Mathematics core extends A-Level Mathematics into the abstract and powerful
 territory required for university STEM study. These topics — complex numbers, matrices, advanced

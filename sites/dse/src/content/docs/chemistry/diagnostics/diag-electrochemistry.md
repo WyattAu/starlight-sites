@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Chemistry Diagnostic: Electrochemistry
+## DSE Chemistry Diagnostic: Electrochemistry
 
 ## Unit Test 1: Balancing Redox Equations
 

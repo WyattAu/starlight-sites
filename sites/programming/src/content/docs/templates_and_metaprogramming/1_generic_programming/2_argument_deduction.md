@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Argument Deduction (Class and Function)
+## Argument Deduction (Class and Function)
 
 Template argument deduction allows the compiler to infer template parameters from the types of
 Arguments provided at call sites or construction sites. This section covers function template
@@ -877,6 +877,10 @@ int main() {
 - [Explicit and Partial Specialization](./3_specialization.md)
 - [Parameter Packs and Variadic Templates](../3_compile_time_computation/1_parameter_packs.md)
 - [Dependent Names and Two-Phase Lookup](./4_dependent_names.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Summary
 

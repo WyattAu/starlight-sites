@@ -1864,6 +1864,9 @@ $\blacksquare$
 | Databases                      | WyattsNotes    | [View](/docs/university/computing/databases)                  |
 | Computer Networking — Stanford | Stanford CS144 | [View](https://cs144.github.io/)                              |
 
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
 ## Intuition
 
 Computer networking is the engineering discipline of getting data from point A to point B reliably, efficiently, and securely — across a medium that is inherently unreliable. The layered model (OSI or TCP/IP) exists because no single protocol can handle all the challenges simultaneously. Each layer solves one well-defined problem: the physical layer converts bits to signals, the data link layer handles local delivery with error detection, the network layer routes packets across multiple hops, the transport layer provides reliable end-to-end delivery, and the application layer implements user-facing protocols. This modularity is what allows Wi-Fi to coexist with fibre optics, and HTTP to run over both.

@@ -49,7 +49,7 @@ Solutions.
 $\dfrac{x^2-9}{x^2-x-6} = \dfrac{(x-3)(x+3)}{(x-3)(x+2)} = \dfrac{x+3}{x+2}$, $x \neq 3, -2$.
 
 **If you get this wrong, revise:**
-[Algebraic Expressions](/docs/alevel/maths/pure-mathematics/algebraic-expressions)
+[Algebraic Expressions](/maths/pure-mathematics/algebraic-expressions)
 
 </details>
 
@@ -58,7 +58,7 @@ $\dfrac{x^2-9}{x^2-x-6} = \dfrac{(x-3)(x+3)}{(x-3)(x+2)} = \dfrac{x+3}{x+2}$, $x
 $(x-2)(x-3) \geq 0$. The quadratic opens upward, so $x \leq 2$ or $x \geq 3$.
 
 **If you get this wrong, revise:**
-[Equations and Inequalities](/docs/alevel/maths/pure-mathematics/equations-and-inequalities)
+[Equations and Inequalities](/maths/pure-mathematics/equations-and-inequalities)
 
 </details>
 
@@ -68,7 +68,7 @@ $y = \dfrac{2x+1}{x-3} \implies y(x-3) = 2x+1 \implies yx - 3y = 2x + 1 \implies
 
 $f^{-1}(x) = \dfrac{3x+1}{x-2}$, $x \neq 2$.
 
-**If you get this wrong, revise:** [Functions](/docs/alevel/maths/pure-mathematics/functions)
+**If you get this wrong, revise:** [Functions](/maths/pure-mathematics/functions)
 
 </details>
 
@@ -81,7 +81,7 @@ $3x+5 = A(x+2) + B(x-1)$. $x=1$: $8 = 3A \implies A = 8/3$. $x=-2$: $-1 = -3B \i
 $= \dfrac{8/3}{x-1} + \dfrac{1/3}{x+2} = \dfrac{8}{3(x-1)} + \dfrac{1}{3(x+2)}$.
 
 **If you get this wrong, revise:**
-[Algebraic Expressions](/docs/alevel/maths/pure-mathematics/algebraic-expressions)
+[Algebraic Expressions](/maths/pure-mathematics/algebraic-expressions)
 
 </details>
 
@@ -92,7 +92,7 @@ $= \dfrac{8/3}{x-1} + \dfrac{1/3}{x+2} = \dfrac{8}{3(x-1)} + \dfrac{1}{3(x+2)}$.
 $a = 3$, $d = 4$. $S_{50} = \dfrac{50}{2}[2(3) + 49(4)] = 25(6 + 196) = 25 \times 202 = 5050$.
 
 **If you get this wrong, revise:**
-[Sequences and Series](/docs/alevel/maths/pure-mathematics/sequences-and-series)
+[Sequences and Series](/maths/pure-mathematics/sequences-and-series)
 
 </details>
 
@@ -101,7 +101,7 @@ $a = 3$, $d = 4$. $S_{50} = \dfrac{50}{2}[2(3) + 49(4)] = 25(6 + 196) = 25 \time
 $\binom{5}{3}(2)^2(-3x)^3 = 10 \times 4 \times (-27x^3) = -1080x^3$. Coefficient $= -1080$.
 
 **If you get this wrong, revise:**
-[Binomial Expansion](/docs/alevel/maths/pure-mathematics/binomial-expansion)
+[Binomial Expansion](/maths/pure-mathematics/binomial-expansion)
 
 </details>
 
@@ -110,7 +110,7 @@ $\binom{5}{3}(2)^2(-3x)^3 = 10 \times 4 \times (-27x^3) = -1080x^3$. Coefficient
 $a = 0.5$, $r = 0.2$. $|r| \lt 1$. $S_\infty = \dfrac{0.5}{1-0.2} = \dfrac{0.5}{0.8} = 0.625$.
 
 **If you get this wrong, revise:**
-[Sequences and Series](/docs/alevel/maths/pure-mathematics/sequences-and-series)
+[Sequences and Series](/maths/pure-mathematics/sequences-and-series)
 
 </details>
 
@@ -125,7 +125,7 @@ $2\sin x - 1 = 0 \implies \sin x = 1/2 \implies x = \pi/6, 5\pi/6$.
 
 $x = \pi/6, \pi/2, 5\pi/6, 3\pi/2$.
 
-**If you get this wrong, revise:** [Trigonometry](/docs/alevel/maths/pure-mathematics/trigonometry)
+**If you get this wrong, revise:** [Trigonometry](/maths/pure-mathematics/trigonometry)
 
 </details>
 
@@ -133,7 +133,7 @@ $x = \pi/6, \pi/2, 5\pi/6, 3\pi/2$.
 <summary>Q9. Prove that $\dfrac{1-\cos 2x}{1+\cos 2x} = \tan^2 x$.</summary>
 $\dfrac{1-\cos 2x}{1+\cos 2x} = \dfrac{2\sin^2 x}{2\cos^2 x} = \tan^2 x$. $\blacksquare$
 
-**If you get this wrong, revise:** [Trigonometry](/docs/alevel/maths/pure-mathematics/trigonometry)
+**If you get this wrong, revise:** [Trigonometry](/maths/pure-mathematics/trigonometry)
 
 </details>
 
@@ -144,7 +144,7 @@ $\dfrac{1-\cos 2x}{1+\cos 2x} = \dfrac{2\sin^2 x}{2\cos^2 x} = \tan^2 x$. $\blac
 $(2x-1)\ln 3 = \ln 7 \implies x = \dfrac{\ln 7 + \ln 3}{2\ln 3} = \dfrac{\ln 21}{2\ln 3} \approx 1.771$.
 
 **If you get this wrong, revise:**
-[Exponentials and Logarithms](/docs/alevel/maths/pure-mathematics/exponentials-and-logarithms)
+[Exponentials and Logarithms](/maths/pure-mathematics/exponentials-and-logarithms)
 
 </details>
 
@@ -155,7 +155,7 @@ $2000 = 500e^{6k} \implies e^{6k} = 4 \implies k = \dfrac{\ln 4}{6} = \dfrac{\ln
 $T_d = \dfrac{\ln 2}{k} = 3$ hours.
 
 **If you get this wrong, revise:**
-[Exponentials and Logarithms](/docs/alevel/maths/pure-mathematics/exponentials-and-logarithms)
+[Exponentials and Logarithms](/maths/pure-mathematics/exponentials-and-logarithms)
 
 </details>
 
@@ -168,7 +168,7 @@ $u = x^2e^x$$v = \sin x$. $u" = e^x(x^2+2x)$$v' = \cos x$.
 $\dfrac{dy}{dx} = \dfrac{e^x(x^2+2x)\sin x - x^2e^x\cos x}{\sin^2 x}$.
 
 **If you get this wrong, revise:**
-[Differentiation](/docs/alevel/maths/pure-mathematics/differentiation)
+[Differentiation](/maths/pure-mathematics/differentiation)
 
 </details>
 
@@ -179,7 +179,7 @@ $y' = 3x^2 - 3 = 0 \implies x = \pm 1$. $y'' = 6x$.
 $x=1$: $y'' = 6 \gt 0$Minimum at $(1, 0)$. $x=-1$: $y'' = -6 \lt 0$Maximum at $(-1, 4)$.
 
 **If you get this wrong, revise:**
-[Differentiation](/docs/alevel/maths/pure-mathematics/differentiation)
+[Differentiation](/maths/pure-mathematics/differentiation)
 
 </details>
 
@@ -188,7 +188,7 @@ $x=1$: $y'' = 6 \gt 0$Minimum at $(1, 0)$. $x=-1$: $y'' = -6 \lt 0$Maximum at $(
 $V = \dfrac{4}{3}\pi r^3$. $\dfrac{dV}{dt} = 4\pi r^2\dfrac{dr}{dt} = 4\pi(25)(3) = 300\pi\,\mathrm{cm}^3/\mathrm{s}$.
 
 **If you get this wrong, revise:**
-[Differentiation](/docs/alevel/maths/pure-mathematics/differentiation)
+[Differentiation](/maths/pure-mathematics/differentiation)
 
 </details>
 
@@ -198,7 +198,7 @@ $V = \dfrac{4}{3}\pi r^3$. $\dfrac{dV}{dt} = 4\pi r^2\dfrac{dr}{dt} = 4\pi(25)(3
 <summary>Q15. Evaluate $\displaystyle\int_0^1 x e^x\,dx$.</summary>
 By parts: $u=x$$dv=e^x\,dx$. $I = [xe^x]_0^1 - \int_0^1 e^x\,dx = e - (e-1) = 1$.
 
-**If you get this wrong, revise:** [Integration](/docs/alevel/maths/pure-mathematics/integration)
+**If you get this wrong, revise:** [Integration](/maths/pure-mathematics/integration)
 
 </details>
 
@@ -208,7 +208,7 @@ Intersection: $x^2 = x \implies x = 0, 1$.
 
 $A = \int_0^1 (x - x^2)\,dx = \left[\dfrac{x^2}{2} - \dfrac{x^3}{3}\right]_0^1 = \dfrac{1}{2} - \dfrac{1}{3} = \dfrac{1}{6}$.
 
-**If you get this wrong, revise:** [Integration](/docs/alevel/maths/pure-mathematics/integration)
+**If you get this wrong, revise:** [Integration](/maths/pure-mathematics/integration)
 
 </details>
 
@@ -220,7 +220,7 @@ $\mathbf{a}\cdot\mathbf{b} = 3-2-2 = -1$. $|\mathbf{a}| = \sqrt{6}$$|\mathbf{b}|
 
 $\cos\theta = \dfrac{-1}{\sqrt{84}} \implies \theta \approx 96.3^\circ$.
 
-**If you get this wrong, revise:** [Vectors](/docs/alevel/maths/pure-mathematics/vectors)
+**If you get this wrong, revise:** [Vectors](/maths/pure-mathematics/vectors)
 
 </details>
 
@@ -228,7 +228,7 @@ $\cos\theta = \dfrac{-1}{\sqrt{84}} \implies \theta \approx 96.3^\circ$.
 <summary>Q18. Write the equation of the line through $(1,2,-1)$ in direction $\begin{pmatrix}2\\-1\\3\end{pmatrix}$.</summary>
 $\mathbf{r} = \begin{pmatrix}1\\2\\-1\end{pmatrix} + t\begin{pmatrix}2\\-1\\3\end{pmatrix}$.
 
-**If you get this wrong, revise:** [Vectors](/docs/alevel/maths/pure-mathematics/vectors)
+**If you get this wrong, revise:** [Vectors](/maths/pure-mathematics/vectors)
 
 </details>
 
@@ -238,7 +238,7 @@ $\mathbf{r} = \begin{pmatrix}1\\2\\-1\end{pmatrix} + t\begin{pmatrix}2\\-1\\3\en
 <summary>Q19. Prove by contradiction that $\sqrt{5}$ is irrational.</summary>
 Suppose $\sqrt{5} = a/b$ in lowest terms. $5b^2 = a^2$So $5 \mid a^2 \implies 5 \mid a$. Write $a = 5k$: $5b^2 = 25k^2 \implies b^2 = 5k^2$So $5 \mid b$. Contradicts $\gcd(a,b)=1$. $\blacksquare$
 
-**If you get this wrong, revise:** [Proof](/docs/alevel/maths/pure-mathematics/proof)
+**If you get this wrong, revise:** [Proof](/maths/pure-mathematics/proof)
 
 </details>
 
@@ -247,7 +247,7 @@ Suppose $\sqrt{5} = a/b$ in lowest terms. $5b^2 = a^2$So $5 \mid a^2 \implies 5 
 *Base ($n=1$):* $1 = 1(2)(3)/6 = 1$. ✓
 *Step:* $\dfrac{k(k+1)(2k+1)}{6} + (k+1)^2 = \dfrac{(k+1)[k(2k+1)+6(k+1)]}{6} = \dfrac{(k+1)(2k^2+7k+6)}{6} = \dfrac{(k+1)(k+2)(2k+3)}{6}$. ✓
 
-**If you get this wrong, revise:** [Proof](/docs/alevel/maths/pure-mathematics/proof)
+**If you get this wrong, revise:** [Proof](/maths/pure-mathematics/proof)
 
 </details>
 
@@ -258,7 +258,7 @@ Suppose $\sqrt{5} = a/b$ in lowest terms. $5b^2 = a^2$So $5 \mid a^2 \implies 5 
 $f(1) = -2 \lt 0$$f(2) = 4 \gt 0$. Sign change, continuous function $\implies$ root in $(1,2)$.
 
 **If you get this wrong, revise:**
-[Numerical Methods](/docs/alevel/maths/pure-mathematics/numerical-methods)
+[Numerical Methods](/maths/pure-mathematics/numerical-methods)
 
 </details>
 
@@ -269,7 +269,7 @@ $f'(x)=3x^2-1$. $f(1.5)=3.375-1.5-2=-0.125$. $f'(1.5)=6.75-1=5.75$.
 $x_1 = 1.5-(-0.125/5.75) = 1.5+0.0217 = 1.5217$.
 
 **If you get this wrong, revise:**
-[Numerical Methods](/docs/alevel/maths/pure-mathematics/numerical-methods)
+[Numerical Methods](/maths/pure-mathematics/numerical-methods)
 
 </details>
 
@@ -284,7 +284,7 @@ $x_1 = 1.5-(-0.125/5.75) = 1.5+0.0217 = 1.5217$.
 $\bar{x} = 30/5 = 6$. $\sum x^2 = 16+64+36+4+100 = 220$. $\sigma^2 = 220/5 - 36 = 44-36 = 8$. $\sigma = 2\sqrt{2} \approx 2.83$.
 
 **If you get this wrong, revise:**
-[Data Representation](/docs/alevel/maths/statistics/data-representation)
+[Data Representation](/maths/statistics/data-representation)
 
 </details>
 
@@ -293,7 +293,7 @@ $\bar{x} = 30/5 = 6$. $\sum x^2 = 16+64+36+4+100 = 220$. $\sigma^2 = 220/5 - 36 
 $\bar{x} = 10(3)+50 = 80$. $\sigma_x = 10(2) = 20$.
 
 **If you get this wrong, revise:**
-[Data Representation](/docs/alevel/maths/statistics/data-representation)
+[Data Representation](/maths/statistics/data-representation)
 
 </details>
 
@@ -306,7 +306,7 @@ $r = \dfrac{24}{\sqrt{40 \times 25}} = \dfrac{24}{\sqrt{1000}} = \dfrac{24}{31.6
 $b = 24/40 = 0.6$$a = 7 - 0.6(5) = 4$. Line: $y = 4 + 0.6x$.
 
 **If you get this wrong, revise:**
-[Correlation and Regression](/docs/alevel/maths/statistics/correlation-and-regression)
+[Correlation and Regression](/maths/statistics/correlation-and-regression)
 
 </details>
 
@@ -316,7 +316,7 @@ $b = 24/40 = 0.6$$a = 7 - 0.6(5) = 4$. Line: $y = 4 + 0.6x$.
 <summary>Q26. $P(A)=0.6$$P(B)=0.5$$P(A \cap B)=0.3$. Find $P(A|B)$ and $P(A \cup B)$.</summary>
 $P(A|B) = 0.3/0.5 = 0.6$. $P(A \cup B) = 0.6+0.5-0.3 = 0.8$.
 
-**If you get this wrong, revise:** [Probability](/docs/alevel/maths/statistics/probability)
+**If you get this wrong, revise:** [Probability](/maths/statistics/probability)
 
 </details>
 
@@ -324,7 +324,7 @@ $P(A|B) = 0.3/0.5 = 0.6$. $P(A \cup B) = 0.6+0.5-0.3 = 0.8$.
 <summary>Q27. A bag has 5 red and 3 blue balls. Two are drawn without replacement. Find $P(\mathrm{both red})$.</summary>
 $P = \dfrac{5}{8} \times \dfrac{4}{7} = \dfrac{20}{56} = \dfrac{5}{14}$.
 
-**If you get this wrong, revise:** [Probability](/docs/alevel/maths/statistics/probability)
+**If you get this wrong, revise:** [Probability](/maths/statistics/probability)
 
 </details>
 
@@ -334,7 +334,7 @@ $P(T^+|D) = 0.95$$P(T^+|D') = 0.05$. $P(T^+) = 0.95(0.02) + 0.05(0.98) = 0.019 +
 
 $P(D|T^+) = 0.019/0.068 = 19/68 \approx 0.279$.
 
-**If you get this wrong, revise:** [Probability](/docs/alevel/maths/statistics/probability)
+**If you get this wrong, revise:** [Probability](/maths/statistics/probability)
 
 </details>
 
@@ -345,7 +345,7 @@ $P(D|T^+) = 0.019/0.068 = 19/68 \approx 0.279$.
 $P(X=4) = \binom{12}{4}(0.3)^4(0.7)^8 = 495 \times 0.0081 \times 0.0576 \approx 0.2311$.
 
 **If you get this wrong, revise:**
-[Statistical Distributions](/docs/alevel/maths/statistics/statistical-distributions)
+[Statistical Distributions](/maths/statistics/statistical-distributions)
 
 </details>
 
@@ -354,7 +354,7 @@ $P(X=4) = \binom{12}{4}(0.3)^4(0.7)^8 = 495 \times 0.0081 \times 0.0576 \approx 
 $P(X \gt 108) = P(Z \gt 8/8) = P(Z \gt 1) = 1 - 0.8413 = 0.1587$.
 
 **If you get this wrong, revise:**
-[Statistical Distributions](/docs/alevel/maths/statistics/statistical-distributions)
+[Statistical Distributions](/maths/statistics/statistical-distributions)
 
 </details>
 
@@ -363,7 +363,7 @@ $P(X \gt 108) = P(Z \gt 8/8) = P(Z \gt 1) = 1 - 0.8413 = 0.1587$.
 $P(X \leq 3) = e^{-5}\left(1+5+\dfrac{25}{2}+\dfrac{125}{6}\right) = e^{-5}(1+5+12.5+20.833) = 39.333 \times 0.00674 \approx 0.2650$.
 
 **If you get this wrong, revise:**
-[Statistical Distributions](/docs/alevel/maths/statistics/statistical-distributions)
+[Statistical Distributions](/maths/statistics/statistical-distributions)
 
 </details>
 
@@ -376,7 +376,7 @@ $H_0: p=0.5$$H_1: p>0.5$. Under $H_0$: $X \sim B(20,0.5)$.
 $P(X \geq 15) = 1-P(X \leq 14) \approx 0.0207 \lt 0.05$. **Reject** $H_0$: evidence of bias.
 
 **If you get this wrong, revise:**
-[Hypothesis Testing](/docs/alevel/maths/statistics/hypothesis-testing)
+[Hypothesis Testing](/maths/statistics/hypothesis-testing)
 
 </details>
 
@@ -386,7 +386,7 @@ Type I: Rejecting $H_0$ when $H_0$ is true (false positive).
 Type II: Failing to reject $H_0$ when $H_0$ is false (false negative).
 
 **If you get this wrong, revise:**
-[Hypothesis Testing](/docs/alevel/maths/statistics/hypothesis-testing)
+[Hypothesis Testing](/maths/statistics/hypothesis-testing)
 
 </details>
 
@@ -400,7 +400,7 @@ Type II: Failing to reject $H_0$ when $H_0$ is false (false negative).
 <summary>Q34. A car accelerates from $15\,\mathrm{m/s}$ to $35\,\mathrm{m/s}$ over $200\,\mathrm{m}$. Find the acceleration.</summary>
 $v^2 = u^2 + 2as \implies 1225 = 225 + 400a \implies a = 1000/400 = 2.5\,\mathrm{m/s}^2$.
 
-**If you get this wrong, revise:** [Kinematics](/docs/alevel/maths/mechanics/kinematics)
+**If you get this wrong, revise:** [Kinematics](/maths/mechanics/kinematics)
 
 </details>
 
@@ -408,7 +408,7 @@ $v^2 = u^2 + 2as \implies 1225 = 225 + 400a \implies a = 1000/400 = 2.5\,\mathrm
 <summary>Q35. A projectile is launched at $25\,\mathrm{m/s}$ at $50^\circ$ above horizontal. Find the maximum height.</summary>
 $H = \dfrac{(25\sin 50°)^2}{2(9.8)} = \dfrac{(19.15)^2}{19.6} = \dfrac{366.7}{19.6} \approx 18.71\,\mathrm{m}$.
 
-**If you get this wrong, revise:** [Kinematics](/docs/alevel/maths/mechanics/kinematics)
+**If you get this wrong, revise:** [Kinematics](/maths/mechanics/kinematics)
 
 </details>
 
@@ -416,7 +416,7 @@ $H = \dfrac{(25\sin 50°)^2}{2(9.8)} = \dfrac{(19.15)^2}{19.6} = \dfrac{366.7}{1
 <summary>Q36. A particle has velocity $v = 4t - t^2$ m/s. Find the total distance travelled from $t=0$ to $t=4$.</summary>
 $v=0$ at $t=0,4$. For $0<t<4$: $v>0$. $s = \int_0^4(4t-t^2)\,dt = [2t^2-t^3/3]_0^4 = 32-64/3 = 32/3 \approx 10.67\,\mathrm{m}$.
 
-**If you get this wrong, revise:** [Kinematics](/docs/alevel/maths/mechanics/kinematics)
+**If you get this wrong, revise:** [Kinematics](/maths/mechanics/kinematics)
 
 </details>
 
@@ -427,7 +427,7 @@ $v=0$ at $t=0,4$. For $0<t<4$: $v>0$. $s = \int_0^4(4t-t^2)\,dt = [2t^2-t^3/3]_0
 $R = 49\,\mathrm{N}$. $F_{\max} = 19.6\,\mathrm{N}$. $a = (30-19.6)/5 = 10.4/5 = 2.08\,\mathrm{m/s}^2$.
 
 **If you get this wrong, revise:**
-[Forces and Newton's Laws](/docs/alevel/maths/mechanics/forces-and-newtons-laws)
+[Forces and Newton's Laws](/maths/mechanics/forces-and-newtons-laws)
 
 </details>
 
@@ -438,7 +438,7 @@ $8g-T=8a$$T-5g=5a$. Adding: $3g=13a \implies a = 3g/13 \approx 2.26\,\mathrm{m/s
 $T = 5(g+a) = 5(9.8+2.26) = 60.3\,\mathrm{N}$.
 
 **If you get this wrong, revise:**
-[Forces and Newton's Laws](/docs/alevel/maths/mechanics/forces-and-newtons-laws)
+[Forces and Newton's Laws](/maths/mechanics/forces-and-newtons-laws)
 
 </details>
 
@@ -450,7 +450,7 @@ Moments about left end: $R_R \times 6 = 300 \times 3 + 200 \times 2 = 1300 \impl
 
 $R_L = 500 - 216.7 = 283.3\,\mathrm{N}$.
 
-**If you get this wrong, revise:** [Moments](/docs/alevel/maths/mechanics/moments)
+**If you get this wrong, revise:** [Moments](/maths/mechanics/moments)
 
 </details>
 
@@ -458,7 +458,7 @@ $R_L = 500 - 216.7 = 283.3\,\mathrm{N}$.
 <summary>Q40. Find the centre of mass of masses $3\,\mathrm{kg}$$4\,\mathrm{kg}$$5\,\mathrm{kg}$ at $(0,0)$$(6,0)$$(3,4)$.</summary>
 $\bar{x} = \dfrac{0+24+15}{12} = 39/12 = 3.25$. $\bar{y} = \dfrac{0+0+20}{12} = 5/3 \approx 1.67$.
 
-**If you get this wrong, revise:** [Moments](/docs/alevel/maths/mechanics/moments)
+**If you get this wrong, revise:** [Moments](/maths/mechanics/moments)
 
 </details>
 
@@ -468,7 +468,7 @@ $\bar{x} = \dfrac{0+24+15}{12} = 39/12 = 3.25$. $\bar{y} = \dfrac{0+0+20}{12} = 
 <summary>Q41. A car of mass $1000\,\mathrm{kg}$ has engine power $40\,\mathrm{kW}$. Find the maximum speed against a resistance of $500\,\mathrm{N}$.</summary>
 $P = Fv \implies 40000 = 500v \implies v = 80\,\mathrm{m/s}$.
 
-**If you get this wrong, revise:** [Energy and Work](/docs/alevel/maths/mechanics/energy-and-work)
+**If you get this wrong, revise:** [Energy and Work](/maths/mechanics/energy-and-work)
 
 </details>
 
@@ -476,7 +476,7 @@ $P = Fv \implies 40000 = 500v \implies v = 80\,\mathrm{m/s}$.
 <summary>Q42. A $2\,\mathrm{kg}$ ball is dropped from $15\,\mathrm{m}$. Find its speed just before impact using energy conservation.</summary>
 $mgh = \tfrac{1}{2}mv^2 \implies v = \sqrt{2(9.8)(15)} = \sqrt{294} \approx 17.1\,\mathrm{m/s}$.
 
-**If you get this wrong, revise:** [Energy and Work](/docs/alevel/maths/mechanics/energy-and-work)
+**If you get this wrong, revise:** [Energy and Work](/maths/mechanics/energy-and-work)
 
 </details>
 
@@ -486,7 +486,7 @@ $mgh = \tfrac{1}{2}mv^2 \implies v = \sqrt{2(9.8)(15)} = \sqrt{294} \approx 17.1
 <summary>Q43. A $4\,\mathrm{kg}$ body moving at $6\,\mathrm{m/s}$ collides with a $2\,\mathrm{kg}$ body at rest. They stick together. Find the common velocity.</summary>
 $4(6) + 2(0) = 6v \implies v = 4\,\mathrm{m/s}$.
 
-**If you get this wrong, revise:** [Momentum](/docs/alevel/maths/mechanics/momentum)
+**If you get this wrong, revise:** [Momentum](/maths/mechanics/momentum)
 
 </details>
 
@@ -494,7 +494,7 @@ $4(6) + 2(0) = 6v \implies v = 4\,\mathrm{m/s}$.
 <summary>Q44. A ball hits a wall at $10\,\mathrm{m/s}$ and rebounds at $7\,\mathrm{m/s}$. If its mass is $0.15\,\mathrm{kg}$Find the impulse.</summary>
 $J = m(v-u) = 0.15(-7-10) = 0.15(-17) = -2.55\,\mathrm{Ns}$. Magnitude: $2.55\,\mathrm{Ns}$.
 
-**If you get this wrong, revise:** [Momentum](/docs/alevel/maths/mechanics/momentum)
+**If you get this wrong, revise:** [Momentum](/maths/mechanics/momentum)
 
 </details>
 
@@ -505,7 +505,7 @@ Restitution: $v_2-v_1 = 0.5(5-(-3)) = 4 \implies v_2 = v_1+4$.
 
 $3v_1+2(v_1+4) = 9 \implies 5v_1 = 1 \implies v_1 = 0.2\,\mathrm{m/s}$$v_2 = 4.2\,\mathrm{m/s}$.
 
-**If you get this wrong, revise:** [Momentum](/docs/alevel/maths/mechanics/momentum)
+**If you get this wrong, revise:** [Momentum](/maths/mechanics/momentum)
 
 </details>
 

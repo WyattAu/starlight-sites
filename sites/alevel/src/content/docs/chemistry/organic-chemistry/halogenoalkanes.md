@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Halogenoalkanes
+## Halogenoalkanes
 
 Halogenoalkanes (also called alkyl halides) are compounds in which one or more hydrogen atoms of an
 Alkane have been replaced by a halogen atom. The general formula is $\mathrm{R-X}$Where $\mathrm{X}$

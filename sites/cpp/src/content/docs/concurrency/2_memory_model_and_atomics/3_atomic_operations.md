@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Atomic Operations and Lock-Free Programming
+## Atomic Operations and Lock-Free Programming
 
 This section covers `std::atomic<T>``std::atomic_ref<T>`The full set of atomic operations,
 `std::atomic_flag`The lock-free/wait-free/obstruction-free progress guarantees, the ABA problem, a

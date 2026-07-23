@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Probability — Diagnostic Tests
+## Probability — Diagnostic Tests
 
 ## Unit Tests
 

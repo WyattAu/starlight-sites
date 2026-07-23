@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Access Control and Friendship
+## Access Control and Friendship
 
 C++ provides fine-grained access control through `public``protected`And `private` specifiers, Plus
 the `friend` mechanism for granting selective access to non-members. Access control is enforced
@@ -804,6 +804,9 @@ Also inherits from `Base`Allowing access to `b.value_` would violate encapsulati
 - [Object Layout and the vptr](./1_object_layout_vptr.md)
 - [Operator Overloading](./4_operator_overloading.md)
 - [Deducing This and CRTP](../2_runtime_polymorphism/5_deducing_this_crtp.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 
 ## Summary
 

@@ -74,7 +74,7 @@ description: "A-Level Microeconomics notes covering key definitions, core concep
 
 **Microeconomics is like observing a single market — buyers and sellers interacting to set prices.**
 
-# Microeconomics
+## Microeconomics
 
 Microeconomics studies the behaviour of individual agents — consumers, firms, and markets — and how
 their interactions determine prices, resource allocation, and welfare outcomes. This section covers

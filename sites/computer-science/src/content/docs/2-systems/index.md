@@ -69,7 +69,7 @@ description: 'Topics in computer systems including operating systems, computer a
 }
 </script>
 
-# Systems
+## Systems
 
 Computer systems encompasses the hardware and software infrastructure that enables computation. This includes the design of processors and memory hierarchies, the management of processes and resources by operating systems, and the communication protocols that connect distributed systems. Understanding systems is essential for building efficient and reliable software.
 
@@ -136,6 +136,9 @@ Each section includes:
 - **[Operating Systems](../../5-operating-systems/index.md):** Deep dive into process management, memory, and synchronisation.
 - **[Databases](../../4-databases/index.md):** Transaction management and concurrency control.
 - **[Computer Networks](../../3-computer-networks/index.md):** Network architecture and protocol design.
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
 ## Common Mistakes
 

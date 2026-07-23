@@ -860,7 +860,7 @@ Genotypic ratio: $1\ FF : 2\ Ff : 1\ ff$.
 Probability of an affected child ($ff$) $= \frac{1}{4} = 25\%$.
 
 <b>If you get this wrong, revise:</b> [Monohybrid Inheritance](#51-monohybrid-inheritance) and
-[The Hardy-Weinberg Principle](/docs/alevel/biology/biodiversity-classification-evolution)
+[The Hardy-Weinberg Principle](/biology/biodiversity-classification-evolution)
 
 </details>
 
@@ -2086,9 +2086,9 @@ linked above.
 
 ## Cross-References
 
-- [Biology](/alevel/biology)
-- [Cells](/alevel/biology/cells)
-- [Genetics and DNA](/alevel/biology/genetics-and-dna)
+- [Biology](/biology)
+- [Cells](/biology/cells)
+- [Genetics and DNA](/biology/genetics-and-dna)
 
 ## Intuition
 

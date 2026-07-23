@@ -140,7 +140,7 @@ Linux uses a 64-bit counter that increments by 1 for each microsecond and by 64,
 Connection, making ISN prediction computationally infeasible.
 
 ```bash
-# View Linux ISN generation parameters
+## View Linux ISN generation parameters
 sysctl net.ipv4.tcp_timestamps
 sysctl net.ipv4.tcp_syncookies
 ```
@@ -198,7 +198,7 @@ Linux protects against this with `tcp_fin_timeout` (default 60 seconds). After t
 Kernel forcibly closes the connection and frees the resources.
 
 ```bash
-# View and adjust FIN_WAIT_2 timeout
+## View and adjust FIN_WAIT_2 timeout
 sysctl net.ipv4.tcp_fin_timeout
 
 # Count connections in FIN_WAIT_2 state

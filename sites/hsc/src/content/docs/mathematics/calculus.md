@@ -21,7 +21,7 @@ description: "HSC mathematics: Calculus"
 }
 </script>
 
-# Calculus
+## Calculus
 
 HSC mathematics study notes - Calculus
 

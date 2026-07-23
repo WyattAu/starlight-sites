@@ -94,7 +94,7 @@ Interpreter -> C1 (quick) -> C1 (detailed) -> C2 (or Graal) -> Native code
 When Graal is enabled, it replaces C2 as the top tier. Enable it with:
 
 ```bash
-# Enable Graal as the top-tier JIT compiler (requires GraalVM or JDK with Graal)
+## Enable Graal as the top-tier JIT compiler (requires GraalVM or JDK with Graal)
 java -XX:+UnlockExperimentalVMOptions -XX:+UseJVMCICompiler -jar app.jar
 ```
 
@@ -106,7 +106,7 @@ Graal can use profiling information from previous runs to guide compilation deci
 Particularly impactful for native image builds:
 
 ```bash
-# Step 1: Run the application with profiling enabled
+## Step 1: Run the application with profiling enabled
 java -agentlib:native-image-agent=config-output-dir=META-INF/native-image \
      -jar app.jar
 

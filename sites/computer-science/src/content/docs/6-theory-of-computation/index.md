@@ -72,7 +72,7 @@ tags:
 }
 </script>
 
-# Theory of Computation
+## Theory of Computation
 
 The theory of computation addresses the fundamental question of what can be computed and how efficiently computation can be carried out. It provides the mathematical framework for classifying computational problems by their inherent difficulty and for understanding the capabilities and limitations of different models of computation.
 
@@ -144,6 +144,9 @@ Each section includes:
 
 - **[Algorithms](../../1-algorithms/index.md):** Algorithm design and complexity analysis.
 - **[Discrete Mathematics](../../1-discrete-mathematics/index.md):** Mathematical foundations for formal languages.
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
 ## Common Mistakes
 

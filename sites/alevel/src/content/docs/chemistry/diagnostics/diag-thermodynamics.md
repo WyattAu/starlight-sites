@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Thermodynamics is like a bank account for energy — you can’t create or destroy it, only transfer or transform it.**
 
-# Thermodynamics and Energetics — Diagnostic Tests
+## Thermodynamics and Energetics — Diagnostic Tests
 
 ## Unit Tests
 

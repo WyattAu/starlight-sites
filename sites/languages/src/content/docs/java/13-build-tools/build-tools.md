@@ -138,14 +138,14 @@ Behavior. Running a phase executes all prior phases in order.
 | `deploy`   | Copy the artifact to a remote repository                            |
 
 ```bash
-# Run a specific phase (and all prior phases)
+## Run a specific phase (and all prior phases)
 mvn compile       # compile production code only
 mvn test          # compile + run tests
 mvn package       # compile + test + package into JAR
 mvn install       # package + install to local repo
 mvn clean install # clean + full build + install
 
-# Skip tests (not recommended as a habit)
+## Skip tests (not recommended as a habit)
 mvn package -DskipTests
 ```
 

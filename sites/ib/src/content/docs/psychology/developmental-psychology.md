@@ -22,7 +22,7 @@ description: "Developmental psychology examines how behaviour and mental process
 }
 </script>
 
-# Developmental Psychology
+## Developmental Psychology
 
 Developmental psychology examines how behaviour and mental processes change across the lifespan. In
 the IB Psychology course, this is an applied option assessed on Paper 2. It focuses on three core

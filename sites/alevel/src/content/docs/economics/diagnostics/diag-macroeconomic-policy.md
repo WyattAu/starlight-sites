@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Economic policy is like tuning an engine — adjusting levers to keep the economy running smoothly.**
 
-# Macroeconomic Policy — Diagnostic Tests
+## Macroeconomic Policy — Diagnostic Tests
 
 ## Unit Tests
 

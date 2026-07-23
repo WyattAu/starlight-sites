@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
 
-# Capacitance — Diagnostic Tests
+## Capacitance — Diagnostic Tests
 
 ## Unit Tests
 

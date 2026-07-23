@@ -39,8 +39,8 @@ Detect and repair. Migrations solve this by:
 ### Flyway
 
 ```bash
-# Naming convention: V{version}__{description}.sql
-# V1__create_users_table.sql
+## Naming convention: V{version}__{description}.sql
+## V1__create_users_table.sql
 # V2__add_email_index.sql
 # V3.1__add_phone_column.sql
 

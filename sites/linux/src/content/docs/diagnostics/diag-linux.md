@@ -23,7 +23,7 @@ tableOfContents: false
 }
 </script>
 
-# Diagnostic Test: Linux
+## Diagnostic Test: Linux
 
 10 multiple-choice questions covering Linux fundamentals. Select the best answer for each question, then check your score using the answer key below.
 

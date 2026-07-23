@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Probability Distributions — Diagnostic Tests
+## Probability Distributions — Diagnostic Tests
 
 ## Intuition
 

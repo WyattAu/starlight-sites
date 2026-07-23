@@ -21,7 +21,7 @@ description: "CBSE Class 12 physics: Rotational motion"
 }
 </script>
 
-# Rotational motion
+## Rotational motion
 
 Study notes for CBSE Class 12 physics - Rotational motion.
 

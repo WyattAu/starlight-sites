@@ -28,7 +28,7 @@ description: "A-Level History Russia 1917-1953 notes covering key definitions, c
 }
 </script>
 
-# Russia 1917-1953
+## Russia 1917-1953
 
 From the fall of the Romanov dynasty to the death of Stalin, Russia underwent revolutions, civil
 war, rapid industrialisation, mass terror, and a transformative victory in the Second World War that

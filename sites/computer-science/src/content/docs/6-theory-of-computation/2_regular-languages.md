@@ -408,6 +408,9 @@ Regular. Closure properties do not apply when one operand is non-regular.
 - [Turing Machines](./4_turing-machines) -- Finite automata that recognise regular languages are the simplest computational model in the hierarchy.
 - [Propositional Logic](../../1-discrete-mathematics/1_propositional-and-predicate-logic) -- Boolean algebra underpins both propositional logic and the transition functions of finite automata.
 
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
 ## Common Mistakes
 
 1. **Confusing NFAs with DFAs in terms of expressive power.** NFAs and DFAs recognise exactly the same class of languages (regular languages). An NFA is not "more powerful" — it is simply more convenient to construct. The subset construction converts any NFA to an equivalent DFA, though potentially with exponentially many states.

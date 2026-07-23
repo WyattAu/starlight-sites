@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Dependent Names and Two-Phase Lookup
+## Dependent Names and Two-Phase Lookup
 
 In templates, the distinction between **dependent** and **non-dependent** names determines when name
 Lookup occurs. Dependent names (those that depend on a template parameter) are looked up at
@@ -835,6 +835,10 @@ void good() {
 - [Explicit and Partial Specialization](./3_specialization.md)
 - [Explicit Instantiation and Extern Templates](./5_explicit_instantiation.md)
 - [Argument Deduction (Class and Function)](./2_argument_deduction.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Summary
 

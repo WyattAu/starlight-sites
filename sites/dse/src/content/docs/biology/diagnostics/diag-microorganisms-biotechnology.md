@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Biology Diagnostic: Microorganisms and Biotechnology
+## DSE Biology Diagnostic: Microorganisms and Biotechnology
 
 ## Unit Test 1: Bacterial and Viral Structure
 

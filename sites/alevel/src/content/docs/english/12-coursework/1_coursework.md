@@ -33,7 +33,7 @@ description: "A-Level English coursework guide: NEA requirements, independent re
 
 **English literature explores the human experience through language — words painting pictures of life.**
 
-# Coursework Guide
+## Coursework Guide
 
 ## Introduction
 

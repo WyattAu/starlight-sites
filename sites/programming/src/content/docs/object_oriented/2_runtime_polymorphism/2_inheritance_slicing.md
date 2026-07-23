@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Inheritance, Object Slicing, and Virtual Destructors
+## Inheritance, Object Slicing, and Virtual Destructors
 
 Inheritance allows derived classes to extend base classes, but copying polymorphic objects by value
 Causes **object slicing** -- the derived portion is discarded. This section covers single and
@@ -788,6 +788,10 @@ Additional vptrs (from multiple inheritance), and virtual base pointers all add 
 - [Virtual Functions and vtables](./1_vtables.md)
 - [Devirtualization and Final Specifiers](./3_devirtualization.md)
 - [RTTI, dynamic_cast, and typeid](./4_rtti_dynamic_cast.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Summary
 

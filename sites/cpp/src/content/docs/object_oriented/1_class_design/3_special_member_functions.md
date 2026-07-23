@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Special Member Function Generation Rules
+## Special Member Function Generation Rules
 
 The compiler automatically generates special member functions (SMFs) — destructor, copy/move
 Constructors, and copy/move assignment operators — according to well-defined rules. Understanding

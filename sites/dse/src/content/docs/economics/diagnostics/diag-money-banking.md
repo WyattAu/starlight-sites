@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Money and Banking — Diagnostic Tests
+## Money and Banking — Diagnostic Tests
 
 ## Unit Tests
 

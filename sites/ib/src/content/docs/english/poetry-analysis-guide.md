@@ -24,7 +24,7 @@ description: "Poetry is the most compressed and technically demanding literary f
 }
 </script>
 
-# Poetry Analysis Guide for IB English
+## Poetry Analysis Guide for IB English
 
 Poetry is the most compressed and technically demanding literary form. Every word, every line break,
 Every sound pattern carries weight in a way that is not true of prose. This density is what makes

@@ -31,7 +31,7 @@ categories:
 
 Mutexes are the traffic lights of concurrent programming, ensuring only one thread enters a critical section at a time. An uncontended mutex is essentially a single atomic operation, but contention triggers expensive kernel-level context switches. Deadlock prevention requires understanding the four Coffman conditions: mutual exclusion, hold-and-wait, no preemption, and circular wait. Breaking any one condition prevents deadlock. RAII lock wrappers like `std::lock_guard` and `std::scoped_lock` ensure locks are always released, eliminating a class of bugs where exceptions or early returns leave locks held.
 
-# Mutexes, Shared Locks, and Deadlock Prevention
+## Mutexes, Shared Locks, and Deadlock Prevention
 
 This section covers `std::mutex``std::recursive_mutex``std::timed_mutex`RAII lock wrappers
 (`std::lock_guard``std::scoped_lock`), reader-writer locks (`std::shared_mutex`), the four Coffman

@@ -69,7 +69,7 @@ description: "Many competitive university programmes require applicants to sit s
 }
 </script>
 
-# Admissions Tests
+## Admissions Tests
 
 Many competitive university programmes require applicants to sit specialised admissions tests as part of the selection process. These examinations assess aptitude, problem-solving ability, and subject-specific knowledge beyond what is measured by standard academic qualifications.
 

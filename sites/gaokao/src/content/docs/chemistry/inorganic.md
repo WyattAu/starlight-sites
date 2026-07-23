@@ -21,7 +21,7 @@ description: "高考 chemistry: Inorganic"
 }
 </script>
 
-# Inorganic
+## Inorganic
 
 高考 chemistry 学习笔记 - Inorganic
 

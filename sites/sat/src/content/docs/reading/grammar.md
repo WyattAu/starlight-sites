@@ -21,7 +21,7 @@ description: "SAT reading: Grammar"
 }
 </script>
 
-# Grammar
+## Grammar
 
 SAT reading study notes - Grammar
 

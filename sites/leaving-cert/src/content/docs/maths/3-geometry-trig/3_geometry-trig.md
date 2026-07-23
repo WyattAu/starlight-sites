@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Geometry and Trigonometry
+## Geometry and Trigonometry
 
 Geometry and trigonometry form a significant part of the Leaving Certificate syllabus, particularly
 Paper 2. This topic covers coordinate geometry, trigonometric functions, identities, and geometric

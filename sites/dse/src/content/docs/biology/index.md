@@ -70,7 +70,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Biology
+## DSE Biology
 
 Complete revision notes for HKDSE Biology, covering the full syllabus with worked examples,
 annotated diagrams, and exam-style problems. Content is organised around the HKEAA curriculum

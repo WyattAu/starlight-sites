@@ -72,7 +72,7 @@ description: 'Linear Algebra: comprehensive educational content notes with preci
 }
 </script>
 
-# Linear Algebra
+## Linear Algebra
 
 ## Contents
 
@@ -148,3 +148,6 @@ The column space of $A$ consists of all vectors $A\mathbf{x}$, while the null sp
 - **[Abstract Algebra](../../1-abstract-algebra/index.md):** Groups, rings, and modules.
 - **[Real Analysis](../../3-real-analysis/index.md):** Metric spaces and convergence.
 - **[Multivariable Calculus](../../4-multivariable-calculus/index.md):** Applications of linear algebra in calculus.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

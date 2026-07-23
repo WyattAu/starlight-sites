@@ -21,7 +21,7 @@ description: "高考 mathematics: Algebra"
 }
 </script>
 
-# Algebra
+## Algebra
 
 高考 mathematics 学习笔记 - Algebra
 

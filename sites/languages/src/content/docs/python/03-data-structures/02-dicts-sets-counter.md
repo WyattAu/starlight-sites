@@ -75,7 +75,7 @@ When two keys hash to the same slot, CPython probes the next slot using a linear
 Perturbation:
 
 ```python
-# Simplified probe sequence (actual CPython uses a more complex variant)
+## Simplified probe sequence (actual CPython uses a more complex variant)
 i = hash_value & (table_size - 1)  # Initial index
 while table[i] is not empty and table[i].key != target_key:
     i = (i * 5 + 1) & (table_size - 1)  # Linear probe with perturbation
@@ -103,7 +103,7 @@ for i in range(100):
     d[i] = i
     if i < 6:
         print(f"n={i}, table_size={len(d)}, sizeof={sys.getsizeof(d)}")
-# Sizes grow at approximately: 64, 64, 64, 64, 64, 232, 232, ...
+## Sizes grow at approximately: 64, 64, 64, 64, 64, 232, 232, ...
 # The table grows in discrete jumps
 ```
 

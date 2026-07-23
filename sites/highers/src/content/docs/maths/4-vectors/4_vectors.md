@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Vectors and Matrices
+## Vectors and Matrices
 
 ## Higher Vectors
 

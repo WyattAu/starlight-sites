@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Number and Algebra — Diagnostic Tests
+## Number and Algebra — Diagnostic Tests
 
 ## Intuition
 

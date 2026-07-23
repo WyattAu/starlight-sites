@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# AP Biology Study Guide
+## AP Biology Study Guide
 
 Comprehensive study guide for AP Biology, aligned with the College Board Course and Exam
 Description. Covers the full curriculum organised around the four Big Ideas: evolution, energetics,

@@ -76,7 +76,7 @@ categories:
 }
 </script>
 
-# GCSE Maths
+## GCSE Maths
 
 Comprehensive revision notes for GCSE Maths, covering all major exam boards (AQA, Edexcel, OCR,
 WJEC).

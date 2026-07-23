@@ -27,7 +27,7 @@ tableOfContents: false
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Computer Networks — Diagnostic Tests
+## Computer Networks — Diagnostic Tests
 
 ## Unit Tests
 

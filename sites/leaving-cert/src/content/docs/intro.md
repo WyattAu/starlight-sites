@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Irish Leaving Certificate
+## Irish Leaving Certificate
 
 The **Irish Leaving Certificate** (Leaving Cert or LC) is the final examination of the Irish
 Secondary school system, administered by the **State Examinations Commission** (SEC). It is taken by

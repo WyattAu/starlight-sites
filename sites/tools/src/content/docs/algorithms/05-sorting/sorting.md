@@ -741,8 +741,8 @@ def sort_by_multiple(records, keys):
         ]
     )
 
-# Example: sort employees by department (asc), then salary (desc)
-# sorted(employees, key=lambda e: (e.department, -e.salary))
+## Example: sort employees by department (asc), then salary (desc)
+## sorted(employees, key=lambda e: (e.department, -e.salary))
 ```
 
 ## Sorting Stability Proof

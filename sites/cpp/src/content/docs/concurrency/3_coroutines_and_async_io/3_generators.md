@@ -26,7 +26,7 @@ categories:
 }
 </script>
 
-# Generators (`std::generator<T>`) and Synchronous Yielding
+## Generators (`std::generator<T>`) and Synchronous Yielding
 
 This section covers C++23's `std::generator<T>``co_yield` as syntactic sugar, lazy evaluation
 Semantics, a comparison with Python generators, and a complete Fibonacci generator example with

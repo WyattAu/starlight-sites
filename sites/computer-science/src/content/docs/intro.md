@@ -142,6 +142,10 @@ across days (spaced practice) is more effective than cramming.
 | Consistency model | A contract specifying what values a read may return in a distributed store. |
 | Invariant | A property that holds throughout execution and is maintained by each operation. |
 
+## See Also
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
 ## Common Mistakes
 
 **Confusing complexity classes:** P is problems solvable in polynomial time. NP is problems verifiable in polynomial time. P ⊆ NP but it's unknown if P = NP. Don't assume they're the same.

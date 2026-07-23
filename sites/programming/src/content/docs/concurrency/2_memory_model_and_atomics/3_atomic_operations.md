@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Atomic Operations and Lock-Free Programming
+## Atomic Operations and Lock-Free Programming
 
 This section covers `std::atomic<T>``std::atomic_ref<T>`The full set of atomic operations,
 `std::atomic_flag`The lock-free/wait-free/obstruction-free progress guarantees, the ABA problem, a
@@ -305,6 +305,11 @@ low. For Longer critical sections, prefer `std::mutex` which blocks the thread a
 - [Memory Orderings](./4_memory_orderings.md)
 - [Compare-and-Swap (CAS) Loops](./5_cas_loops.md)
 - [Cache Coherency (MESI) and False Sharing](./2_cache_coherency.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Memory Order Arguments and Their Semantics
 

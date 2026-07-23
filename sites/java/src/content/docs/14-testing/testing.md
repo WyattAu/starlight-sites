@@ -840,10 +840,10 @@ void goodTest() {
 ### Ignoring Test Failures
 
 ```bash
-# BAD — ignoring test failures in CI
+## BAD — ignoring test failures in CI
 mvn package -DskipTests
 
-# GOOD — fix the failing test or temporarily disable it with @Disabled and a reason
+## GOOD — fix the failing test or temporarily disable it with @Disabled and a reason
 // @Disabled("Fix: issue #1234 — race condition in concurrent cache")
 ```
 

@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Constraint Subsumption and Overload Resolution
+## Constraint Subsumption and Overload Resolution
 
 When multiple constrained function templates are viable for a call, the compiler uses
 **subsumption** --- a partial ordering on constraints --- to select the most constrained candidate.
@@ -982,6 +982,11 @@ underlying theory, practical implementation, and key applications.
 
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
+
+## See Also
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Worked Examples
 

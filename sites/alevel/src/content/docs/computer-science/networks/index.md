@@ -74,7 +74,7 @@ description: 'A-Level Computer Science Networks notes covering key definitions, 
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Networks
+## Networks
 
 Computer networks enable communication between devices. A-Level covers the principles of how data is
 transmitted, routed, and secured across local and wide-area networks, as well as the protocols and

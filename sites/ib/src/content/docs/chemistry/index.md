@@ -72,7 +72,7 @@ tags:
 }
 </script>
 
-# IB Chemistry
+## IB Chemistry
 
 Complete revision notes for IB Chemistry, covering the full syllabus with worked examples, common
 pitfalls, and exam-style problems.

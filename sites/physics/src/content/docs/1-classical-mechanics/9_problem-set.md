@@ -615,6 +615,10 @@ Classical mechanics is the foundation of physics: it describes how objects move 
 - **[Central Force Problems](6_central-force-problems.mdx)**: The orbital mechanics and scattering problems draw on central force theory and the effective potential.
 - **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: Phase space analysis and canonical transformations are needed for the more advanced problems in this set.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+
 ## Common Mistakes
 
 **Forgetting that normal force does no work:** When a particle slides on a surface, the normal force is perpendicular to displacement and contributes zero work. Including it in energy calculations gives incorrect kinetic energy.

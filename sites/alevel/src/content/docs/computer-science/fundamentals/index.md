@@ -74,7 +74,7 @@ description: "A-Level Computer Science Fundamentals notes covering key definitio
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Fundamentals
+## Fundamentals
 
 The fundamentals section covers the foundational concepts that underpin all of computer science: how
 data is represented in binary, how processors execute instructions, how operating systems manage

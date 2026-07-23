@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Geometry — Diagnostic Tests
+## Geometry — Diagnostic Tests
 
 ## Unit Tests
 

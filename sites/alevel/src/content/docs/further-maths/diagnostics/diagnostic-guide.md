@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# A-Level Further Maths — Diagnostic Guide
+## A-Level Further Maths — Diagnostic Guide
 
 ## Coverage Map
 

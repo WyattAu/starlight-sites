@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Entropy and Gibbs Free Energy
+## Entropy and Gibbs Free Energy
 
 Enthalpy alone is insufficient to predict whether a reaction will occur spontaneously. The
 Dissolution of ammonium nitrate in water is endothermic yet proceeds spontaneously. The

@@ -21,7 +21,7 @@ description: "高考 physics: Electricity"
 }
 </script>
 
-# Electricity
+## Electricity
 
 高考 physics 学习笔记 - Electricity
 

@@ -21,7 +21,7 @@ description: "SAT writing: Essay"
 }
 </script>
 
-# Essay
+## Essay
 
 SAT writing study notes - Essay
 

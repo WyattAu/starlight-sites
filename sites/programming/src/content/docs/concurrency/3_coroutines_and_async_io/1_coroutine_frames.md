@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Stackless Coroutine Frames and Heap Allocation
+## Stackless Coroutine Frames and Heap Allocation
 
 This section covers coroutines as suspendable functions, the stackless vs stackful design trade-off,
 Coroutine frame layout, heap allocation and elision, `std::coroutine_handle<P>` for manual lifetime
@@ -773,6 +773,11 @@ int main() {
 - [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter.md)
 - [Generators (std::generator)](./3_generators.md)
 - [Task Scheduling and Executors](./4_task_scheduling.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Summary
 

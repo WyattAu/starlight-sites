@@ -436,7 +436,7 @@ Victim must click the crafted link.
 SQL injection exploits poor input handling to execute arbitrary SQL:
 
 ```python
-# Vulnerable
+## Vulnerable
 query = f"SELECT * FROM users WHERE username = '{username}'"
 ```
 

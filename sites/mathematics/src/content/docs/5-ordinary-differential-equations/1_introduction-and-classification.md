@@ -160,3 +160,6 @@ Differential equations describe how things change. An ODE relates a function to 
 - **[Introduction to Partial Differential Equations](5-ordinary-differential-equations/8_introduction-to-partial-differential-equations.md)**: The heat, wave, and Laplace equations are canonical PDEs that extend the ODE framework to multiple variables.
 - **[Stability and Phase Plane Analysis](5-ordinary-differential-equations/9_stability-and-phase-plane-analysis.md)**: Classifying ODEs by linearity and homogeneity determines which stability analysis techniques apply.
 
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

@@ -237,6 +237,11 @@ dipole ($D = 1.5$).
 - [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The covariant formulation of electrodynamics extends gauge invariance and the stress-energy tensor to relativistic settings.
 - [Radiation from Accelerating Charges](/physics/3-electromagnetism/10_radiation-from-accelerating-charges) -- The Larmor formula and radiation resistance connect the multipole expansion to practical antenna calculations.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ## Intuition
 
 Antenna theory describes how oscillating currents generate electromagnetic radiation. A half-wave dipole has a current distribution shaped like a half-sine wave along its length, producing a radiation pattern that is doughnut-shaped with maximum intensity broadside to the antenna. The radiation resistance quantifies how efficiently the antenna converts input power into radiated power. The key physical picture is that the accelerating charges in the antenna create time-varying electric and magnetic fields that detach from the antenna and propagate outward as a self-sustaining electromagnetic wave. The impedance matching between the antenna and the transmission line determines how much power is reflected versus radiated.

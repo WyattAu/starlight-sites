@@ -239,6 +239,11 @@ Optics problems revolve around a central theme: light behaves as a wave when the
 - **[Interference](3_interference.md)**: The thin-film and double-slit problems use the path difference and phase shift principles from interference theory.
 - **[Diffraction](4_diffraction.md)**: The grating and single-slit problems require the Fraunhofer diffraction formulas developed in this chapter.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ## Common Mistakes
 
 **Forgetting the half-wave phase shift on reflection:** Light reflecting off a denser medium undergoes a π phase shift. Forgetting this flips constructive/destructive interference conditions in thin-film problems.

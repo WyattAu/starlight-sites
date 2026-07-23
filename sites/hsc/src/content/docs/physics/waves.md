@@ -21,7 +21,7 @@ description: "HSC physics: Waves"
 }
 </script>
 
-# Waves
+## Waves
 
 HSC physics study notes - Waves
 

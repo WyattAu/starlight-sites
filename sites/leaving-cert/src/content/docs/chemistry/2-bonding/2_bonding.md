@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Bonding
+## Bonding
 
 Chemical bonding explains how atoms combine to form compounds. This topic covers ionic, covalent,
 And metallic bonding, molecular geometry, intermolecular forces, and electronegativity.

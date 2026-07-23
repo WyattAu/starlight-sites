@@ -24,7 +24,7 @@ description: "A-Level Geography Water and Carbon Cycles notes covering key defin
 }
 </script>
 
-# Water and Carbon Cycles
+## Water and Carbon Cycles
 
 ## Introduction
 

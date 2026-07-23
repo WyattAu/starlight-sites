@@ -72,7 +72,7 @@ tags:
 }
 </script>
 
-# Discrete Mathematics
+## Discrete Mathematics
 
 Discrete mathematics provides the mathematical foundations required throughout computer science. Unlike continuous mathematics, which studies quantities that vary smoothly, discrete mathematics concerns structures that are distinct and separated, such as integers, graphs, and logical propositions. Mastery of these concepts is essential for reasoning about algorithms, data structures, and computational systems.
 
@@ -144,6 +144,9 @@ Each section includes:
 
 - **[Algorithms](../../1-algorithms/index.md):** Algorithm design techniques that build on discrete math foundations.
 - **[Mathematics](../../mathematics/src/content/docs/index.mdx):** University-level mathematics including abstract algebra and number theory.
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
 ## Intuition
 

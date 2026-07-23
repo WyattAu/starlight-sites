@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Temporary Materialization
+## Temporary Materialization
 
 In C++17 and later, a prvalue is not an object — it is a recipe for constructing one. The prvalue is
 **materialized** into an actual object only when the language requires an identity: binding to a
@@ -397,6 +397,10 @@ A fallback).
 - [Value Taxonomy](1_value_taxonomy.md)
 - [Reference Collapsing and Forwarding References](2_reference_collapsing.md)
 - [Return Value Optimization (RVO) and NRVO](5_return_value_optimization.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## 5.4 Materialization Points
 

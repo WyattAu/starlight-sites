@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Classification, reactions, and worked exa
 }
 </script>
 
-# Alcohols, Phenols, and Ethers
+## Alcohols, Phenols, and Ethers
 
 Alcohols contain $-\text{OH}$ bonded to an sp$^3$ carbon. Phenols have $-\text{OH}$ bonded to an aromatic ring. Ethers have the structure R-O-R'.
 

@@ -116,7 +116,7 @@ Improve macOS compatibility:
 ### macOS-Specific SMB Auxiliary Parameters
 
 ```text
-# In SMB auxiliary parameters for macOS shares:
+## In SMB auxiliary parameters for macOS shares:
 vfs objects = catia fruit streams_xattr
 fruit:encoding = native
 fruit:metadata = stream
@@ -156,7 +156,7 @@ Issues with database files and applications that require strict file consistency
 For database files (SQLite, Microsoft Access), disable oplocks on the share:
 
 ```text
-# In SMB auxiliary parameters:
+## In SMB auxiliary parameters:
 kernel oplocks = no
 kernel share modes = no
 vfs objects = no

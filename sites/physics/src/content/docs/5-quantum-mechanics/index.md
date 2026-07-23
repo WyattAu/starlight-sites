@@ -72,7 +72,7 @@ description: 'UNIVERSITY Physics notes: Quantum Mechanics. Comprehensive study m
 }
 </script>
 
-# Quantum Mechanics
+## Quantum Mechanics
 
 ## Contents
 
@@ -141,6 +141,11 @@ Each section includes:
 - **[Electromagnetism](../../3-electromagnetism/index.md):** Quantum electrodynamics; the quantum theory of electromagnetic interactions.
 - **[Particle Physics](../../7-particle-physics-and-cosmology/index.md):** Quantum field theory and particle physics; quantum mechanics is the foundation.
 - **[Thermal Physics](../../2-thermal-physics/index.md):** Statistical mechanics uses quantum theory to explain thermodynamic properties.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Common Mistakes
 

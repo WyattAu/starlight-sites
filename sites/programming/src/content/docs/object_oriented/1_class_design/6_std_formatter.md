@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Custom Formatting: Extending `std::formatter`
+## Custom Formatting: Extending `std::formatter`
 
 C++20 introduced `<format>`Providing type-safe text formatting through `std::format`. To enable
 Formatting for user-defined types, you specialize `std::formatter<T, CharT>` in namespace `std`.
@@ -218,6 +218,8 @@ int main() {
 
 - [Operator Overloading](./4_operator_overloading.md)
 - [The Spaceship Operator](./5_spaceship_operator.md)
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## 6.5 Formatter for Containers and Compound Types
 

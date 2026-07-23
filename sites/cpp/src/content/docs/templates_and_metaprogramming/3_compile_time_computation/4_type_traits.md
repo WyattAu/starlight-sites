@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Type Traits and Static Reflection Patterns
+## Type Traits and Static Reflection Patterns
 
 Type traits provide compile-time type introspection and transformation, forming the foundation of
 Generic programming in C++. Combined with techniques like SFINAE, tag dispatch, `if constexpr`And

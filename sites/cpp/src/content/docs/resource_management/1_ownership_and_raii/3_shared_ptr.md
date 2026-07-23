@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Shared Ownership (std::shared_ptr) and Control Block
+## Shared Ownership (std::shared_ptr) and Control Block
 
 `std::shared_ptr` enables multiple owners to share a single heap-allocated object via a
 Reference-counted control block. While powerful, it carries significant overhead — atomic reference

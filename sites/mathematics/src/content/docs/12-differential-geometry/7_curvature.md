@@ -182,6 +182,11 @@ Einstein with $\mathrm{Ric} = (n-1)\kappa\, g$.
 - **[The Gauss-Bonnet Theorem](./8_the-gauss-bonnet-theorem.md)**: Connects the total Gaussian curvature of a surface to its Euler characteristic, a deep link between local geometry and global topology.
 - **[Applications](./9_applications.md)**: Applies curvature concepts to general relativity, gauge theory, and minimal surfaces.
 
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+
 ### 7.14 Common Mistakes
 
 ## Intuition

@@ -169,3 +169,8 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 - **[Bose-Einstein Condensation](5_bose-einstein-condensation.md)**: BEC is the macroscopic occupation of the ground state predicted by Bose-Einstein statistics at low temperatures.
 - **[Fermi Gas at Finite Temperature](4_fermi-gas-at-finite-temperature.md)**: The Fermi-Dirac distribution is applied to electrons in metals, giving the linear specific heat and Fermi surface.
 
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

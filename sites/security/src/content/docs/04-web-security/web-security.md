@@ -230,10 +230,10 @@ SELECT name, description FROM products WHERE id = ''" UNION SELECT username, pas
 **Primary defense: Parameterized queries (prepared statements).**
 
 ```python
-# VULNERABLE — string concatenation
+## VULNERABLE — string concatenation
 cursor.execute(f"SELECT * FROM users WHERE username = '{username}' AND password = '{password}'")
 
-# SAFE — parameterized query
+## SAFE — parameterized query
 cursor.execute("SELECT * FROM users WHERE username = ? AND password = ?", (username, password))
 
 # SAFE — ORM

@@ -227,3 +227,6 @@ Recurrence relations define sequences where each term depends on previous terms.
 - [[1-algorithms/complexity-theory]] - Complexity analysis
 - [[1-discrete-mathematics/4_combinatorics]] - Counting sequences
 - [[1-algorithms/data-structures]] - Recursive data structures
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

@@ -180,3 +180,8 @@ A space is totally disconnected if its only connected subsets are singletons. A 
 - **[Topological Spaces](2_topological-spaces.md)**: Topological spaces provide the framework for defining connectedness through separation properties.
 - **[Continuity and Homeomorphisms](4_continuity-and-homeomorphisms.md)**: Continuous functions preserve connectedness, and homeomorphisms preserve all topological invariants.
 
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

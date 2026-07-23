@@ -72,7 +72,7 @@ description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19.
 }
 </script>
 
-# Thermal Physics
+## Thermal Physics
 
 ## Contents
 
@@ -146,6 +146,11 @@ Each section includes:
 - **[Solid State Physics](../../6-solid-state-physics/index.md):** Statistical mechanics of solids; phonons and electronic heat capacity require thermal physics.
 - **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum statistics and thermal properties; Fermi-Dirac and Bose-Einstein distributions are quantum.
 - **[Mathematics](../../mathematics/index.md):** Probability theory and combinatorics underpin statistical mechanics.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Intuition
 

@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# AP Chemistry
+## AP Chemistry
 
 Comprehensive revision notes for AP Chemistry, aligned with the College Board Course and Exam
 Description.

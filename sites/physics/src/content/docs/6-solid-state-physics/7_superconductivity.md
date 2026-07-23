@@ -154,6 +154,11 @@ The Josephson effects are the basis for SQUIDs, voltage standards, and supercond
 - **[Transport Properties](./8_transport-properties.md)**: The zero resistance of superconductors contrasts with the finite resistivity arising from scattering in normal metals.
 - **[Advanced Topics in Superconductivity](./12_advanced-topics-in-superconductivity.md)**: Develops the Ginzburg-Landau phenomenological theory and Abrikosov vortex physics beyond the basic BCS framework.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ## Intuition
 
 Superconductivity is the complete disappearance of electrical resistance below a critical temperature. Electrons form Cooper pairs through interactions with the crystal lattice, and these pairs condense into a single quantum state that flows without scattering. The Meissner effect expels magnetic fields from the superconductor, creating the levitation effect. The BCS theory explains conventional superconductors, but high-temperature superconductors remain poorly understood, with theories involving spin fluctuations and stripe phases. The critical temperature record keeps rising, bringing us closer to room-temperature superconductivity, which would revolutionize power transmission and computing.

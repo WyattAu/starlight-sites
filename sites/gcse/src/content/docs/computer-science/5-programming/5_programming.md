@@ -42,12 +42,12 @@ A **variable** is a named storage location whose value can change during program
 A **constant** is a named value that does not change once assigned.
 
 ```python
-# Variables
+## Variables
 age = 15
 name = "Alice"
 height = 1.65
 
-# Constants (convention: UPPER_CASE)
+## Constants (convention: UPPER_CASE)
 PI = 3.14159
 MAX_SCORE = 100
 ```

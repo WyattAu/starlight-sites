@@ -78,10 +78,10 @@ Removing commit history is a destructive operation that creates a fresh reposito
 For selective history rewriting (removing specific files without losing all history):
 
 ```bash
-# Remove a file from all commits
+## Remove a file from all commits
 git filter-branch --force --index-filter   'git rm --cached --ignore-unmatch path/to/sensitive-file'   --prune-empty -- --all
 
-# Clean up and force-push
+## Clean up and force-push
 git reflog expire --expire=now --all
 git gc --prune=now --aggressive
 git push --force --all

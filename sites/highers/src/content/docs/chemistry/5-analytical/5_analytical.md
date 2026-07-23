@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Analytical Chemistry
+## Analytical Chemistry
 
 <aside class="starlight-aside starlight-aside--note">
 ## Analytical Techniques

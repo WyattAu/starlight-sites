@@ -196,3 +196,8 @@ A space is locally compact if every point has a compact neighbourhood, but this 
 - **[Connectedness](6_connectedness.md)**: Compactness and connectedness are both fundamental topological properties that characterize space structure.
 - **[Continuity and Homeomorphisms](4_continuity-and-homeomorphisms.md)**: Continuous functions preserve compactness, and homeomorphisms preserve all topological properties.
 
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

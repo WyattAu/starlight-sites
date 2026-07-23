@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Organic Chemistry
+## Organic Chemistry
 
 ## Higher Organic Chemistry
 

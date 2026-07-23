@@ -84,10 +84,10 @@ Lazy (match as little as possible — PCRE only):
 ### Lookahead and Lookbehind (PCRE)
 
 ```bash
-# Positive lookahead — match "foo" only when followed by "bar"
+## Positive lookahead — match "foo" only when followed by "bar"
 grep -P "foo(?=bar)' file.txt
 
-# Negative lookahead — match "foo" only when NOT followed by "bar"
+## Negative lookahead — match "foo" only when NOT followed by "bar"
 grep -P 'foo(?!bar)' file.txt
 
 # Positive lookbehind — match "bar" only when preceded by "foo"

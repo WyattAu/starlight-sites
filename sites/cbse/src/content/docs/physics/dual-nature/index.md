@@ -69,7 +69,7 @@ description: "CBSE Class 12 physics: Dual nature of radiation with photoelectric
 }
 </script>
 
-# Dual Nature of Radiation and Matter
+## Dual Nature of Radiation and Matter
 
 This topic covers the wave-particle duality of light and matter, including the photoelectric effect, Einstein's photon theory, and the de Broglie hypothesis.
 

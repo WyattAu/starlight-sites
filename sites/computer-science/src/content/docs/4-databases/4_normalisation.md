@@ -302,3 +302,6 @@ Normalization is the process of breaking a large, messy table into smaller, well
 - **[Relational Model](./2_relational-model.md):** Relational model fundamentals.
 - **[Indexing](./5_indexing.md):** Index structures for normalised schemas.
 - **[Query Optimisation](./7_query-optimisation.md):** How normalisation affects query planning.
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

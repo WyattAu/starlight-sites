@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Acids, Bases & Buffers
+## Acids, Bases & Buffers
 
 ## Acid-Base Definitions
 
@@ -1300,6 +1300,6 @@ linked above.
 </aside>
 ## Cross-References
 
-- [Chemistry](/alevel/chemistry)
-- [Atomic Structure](/alevel/chemistry/atomic-structure)
-- [Organic Chemistry](/alevel/chemistry/organic-chemistry)
+- [Chemistry](/chemistry)
+- [Atomic Structure](/chemistry/atomic-structure)
+- [Organic Chemistry](/chemistry/organic-chemistry)

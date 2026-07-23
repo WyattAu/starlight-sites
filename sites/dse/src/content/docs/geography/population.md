@@ -25,7 +25,7 @@ tableOfContents: false
 }
 </script>
 
-# Population and Migration
+## Population and Migration
 
 ## Key Terms
 

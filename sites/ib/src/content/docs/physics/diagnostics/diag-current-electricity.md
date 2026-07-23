@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Current Electricity — Diagnostic Tests
+## Current Electricity — Diagnostic Tests
 
 ## Intuition
 

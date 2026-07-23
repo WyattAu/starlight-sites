@@ -23,7 +23,7 @@ tableOfContents: false
 }
 </script>
 
-# Diagnostic Test: Performance Tuning
+## Diagnostic Test: Performance Tuning
 
 10 multiple-choice questions covering CPU tuning, memory management, I/O optimization, network tuning, and profiling tools. Select the best answer for each question, then check your score using the answer key below.
 

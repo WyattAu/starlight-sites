@@ -188,7 +188,7 @@ a.append(b)
 b.append(a)
 del a
 del b
-# Both lists have refcount 1 (each other), but are unreachable from the stack
+## Both lists have refcount 1 (each other), but are unreachable from the stack
 ```
 
 Without the cycle detector, these objects would leak permanently. CPython includes a cyclic garbage
@@ -269,7 +269,7 @@ del root
 del child
 
 gc.collect()
-# The nodes are in gc.garbage because __del__ prevents cycle collection
+## The nodes are in gc.garbage because __del__ prevents cycle collection
 ```
 
 **Avoid `__del__` whenever possible.** Use context managers (`with` blocks) for resource cleanup, or

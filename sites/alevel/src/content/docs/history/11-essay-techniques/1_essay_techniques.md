@@ -29,7 +29,7 @@ description: "A-Level History essay techniques covering argument construction, P
 }
 </script>
 
-# A-Level History Essay Techniques
+## A-Level History Essay Techniques
 
 Strong essay technique distinguishes students who demonstrate genuine historical understanding from
 those who merely recall facts. At A-Level, examiners assess your ability to construct sustained

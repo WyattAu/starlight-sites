@@ -23,7 +23,7 @@ tableOfContents: false
 }
 </script>
 
-# Diagnostic Test: TrueNAS
+## Diagnostic Test: TrueNAS
 
 10 multiple-choice questions covering ZFS concepts, pool management, datasets, shares, snapshots, replication, and networking. Select the best answer for each question, then check your score using the answer key below.
 

@@ -29,7 +29,7 @@ description: "A-Level History Industrial Revolution notes covering causes, techn
 }
 </script>
 
-# The British Industrial Revolution c1760-1840
+## The British Industrial Revolution c1760-1840
 
 The Industrial Revolution transformed Britain from an agrarian society into the world's first
 industrial nation. Between approximately 1760 and 1840, new technologies, economic structures, and

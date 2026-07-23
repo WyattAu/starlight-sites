@@ -25,7 +25,7 @@ tags:
 }
 </script>
 
-# A-Level History
+## A-Level History
 
 A-Level History develops your ability to analyse causes and consequences, evaluate historical
 interpretations, and construct sustained analytical arguments supported by evidence. This section

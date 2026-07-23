@@ -42,10 +42,10 @@ A **Target** represents a build artifact or a logical grouping of dependencies.
 ### 1. Defining Targets
 
 ```cmake
-# 1. Executable: Compiles sources into a binary
+## 1. Executable: Compiles sources into a binary
 add_executable(App main.cpp)
 
-# 2. Static Library: Compiles into .a (Linux) or .lib (Windows)
+## 2. Static Library: Compiles into .a (Linux) or .lib (Windows)
 add_library(MathStatic STATIC math.cpp)
 
 # 3. Shared Library: Compiles into .so (Linux), .dylib (macOS), or .dll (Windows)
@@ -661,3 +661,8 @@ CMake generates build files from a declarative configuration. Targets represent 
 - [[enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files]] - Presets and toolchain files
 - [[enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models]] - Fetching dependencies
 - [[enviroment_and_toolchain/2_build_system/5_unit_tests]] - Test target configuration
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)

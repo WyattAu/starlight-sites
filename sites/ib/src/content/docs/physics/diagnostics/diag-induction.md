@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Induction — Diagnostic Tests
+## Induction — Diagnostic Tests
 
 ## Intuition
 

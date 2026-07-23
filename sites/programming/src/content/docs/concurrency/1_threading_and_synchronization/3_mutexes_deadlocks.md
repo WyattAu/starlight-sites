@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Mutexes, Shared Locks, and Deadlock Prevention
+## Mutexes, Shared Locks, and Deadlock Prevention
 
 This section covers `std::mutex``std::recursive_mutex``std::timed_mutex`RAII lock wrappers
 (`std::lock_guard``std::scoped_lock`), reader-writer locks (`std::shared_mutex`), the four Coffman
@@ -738,6 +738,12 @@ deadlock prevention, including key principles and practical applications.
 
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
+
+## See Also
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Worked Examples
 

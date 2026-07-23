@@ -69,7 +69,7 @@ description: "Inorganic chemistry covers the chemistry of all elements except ca
 }
 </script>
 
-# Inorganic Chemistry
+## Inorganic Chemistry
 
 Inorganic chemistry covers the chemistry of all elements except carbon in its primary organic forms, although it includes organometallic compounds that bridge the two disciplines. The field is particularly concerned with the chemistry of transition metals, the structures and bonding of coordination compounds, and the properties of solid-state materials.
 
@@ -143,3 +143,8 @@ The trans effect governs the rate of ligand substitution in square planar comple
 - **[Physical Chemistry](../1-physical-chemistry/):** Covers thermodynamics, kinetics, and quantum chemistry that underpin inorganic chemistry concepts.
 - **[Organic Chemistry](../2-organic-chemistry/):** Covers reaction mechanisms and synthesis that complement inorganic coordination chemistry.
 - **[Coordination Chemistry](coordination-chemistry.md):** Detailed notes on transition metal complexes and ligand field theory.
+
+- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

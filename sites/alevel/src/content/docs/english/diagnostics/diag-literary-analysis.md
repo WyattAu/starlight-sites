@@ -27,7 +27,7 @@ sidebar_position: 30
 
 **Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
 
-# Diagnostic Test: Literary Analysis
+## Diagnostic Test: Literary Analysis
 
 Answer each question. Check your answers against the key at the end.
 

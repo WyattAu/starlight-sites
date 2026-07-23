@@ -22,7 +22,7 @@ sidebar_position: 10
 }
 </script>
 
-# Diagnostic Test: Urbanization
+## Diagnostic Test: Urbanization
 
 Answer each question. Check your answers against the key at the end.
 

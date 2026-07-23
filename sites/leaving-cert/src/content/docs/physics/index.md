@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Irish LC Physics
+## Irish LC Physics
 
 Leaving Certificate Physics covers mechanics, waves, electricity, heat, and modern physics. The
 course develops analytical and problem-solving skills through mathematical modelling of physical

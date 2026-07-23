@@ -72,7 +72,7 @@ description: "UNIVERSITY Physics notes: Particle Physics and Cosmology. Comprehe
 }
 </script>
 
-# Particle Physics and Cosmology
+## Particle Physics and Cosmology
 
 ## Contents
 
@@ -142,6 +142,11 @@ Particle physics seeks to identify the fundamental building blocks of matter and
 - **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum field theory foundations.
 - **[Classical Mechanics](../../1-classical-mechanics/index.md):** Gravitational theory in cosmology.
 - **[Thermal Physics](../../2-thermal-physics/index.md):** Thermodynamics of the early universe.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Common Mistakes
 

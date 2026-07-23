@@ -21,7 +21,7 @@ description: "This page provides a summary of key concepts across all five thema
 }
 </script>
 
-# IB Physics -- Course Wrap-Up
+## IB Physics -- Course Wrap-Up
 
 This page provides a summary of key concepts across all five thematic areas of IB Physics and
 strategies for final revision.

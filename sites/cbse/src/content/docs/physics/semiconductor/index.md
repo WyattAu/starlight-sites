@@ -69,7 +69,7 @@ description: "CBSE Class 12 physics: Semiconductor devices, diodes, transistors,
 }
 </script>
 
-# Semiconductor Electronics
+## Semiconductor Electronics
 
 Semiconductor electronics covers the physics of semiconductor materials, p-n junction diodes, transistors, and digital logic circuits.
 

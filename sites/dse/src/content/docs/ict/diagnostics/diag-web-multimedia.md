@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Web Development and Multimedia — Diagnostic Tests
+## Web Development and Multimedia — Diagnostic Tests
 
 ## Unit Tests
 

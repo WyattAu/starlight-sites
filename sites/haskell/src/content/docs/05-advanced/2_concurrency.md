@@ -660,10 +660,10 @@ results = map slowComputation [1..8] `using` parList rdeepseq
 ## Compiling for Parallelism
 
 ```bash
-# Enable threading and parallel GC
+## Enable threading and parallel GC
 ghc -O2 -threaded -rtsopts -with-rtsopts=-N MyProgram.hs
 
-# -N: use all available cores
+## -N: use all available cores
 # -N4: use exactly 4 cores
 # -N2: use exactly 2 cores
 

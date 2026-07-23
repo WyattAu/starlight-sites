@@ -101,6 +101,9 @@ Computational imaging combines optical hardware with algorithmic processing to o
 | [Refraction and Optics] | DSE        | [View](https://dse.wyattau.com/docs/dse/physics/2-waves/2_waves-and-optics)                                            |
 | [Refraction and Optics] | University | [View](https://university.wyattau.com/docs/physics/4-optics-and-waves/1_optics-and-wave-physics) |
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+
 ### 19.3 Key Relationships
 
 | Concept               | Formula                                                               | Meaning                                                 |

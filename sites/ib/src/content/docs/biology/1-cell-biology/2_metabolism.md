@@ -1013,7 +1013,7 @@ Absorption spectrum are similar but not identical.
 - **Molecular biology -- protein structure** --> Review
   [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)
 - **Cell biology -- membrane transport** --> Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)
+  [../1_cell-biology](./1_cell-biology)
 - **Plant biology -- transpiration and transport** --> Review
   [.../7-plant-biology/1_plant-biology](../7-plant-biology/1_plant-biology)
 - **Human physiology -- gas exchange** --> Review
@@ -1514,7 +1514,7 @@ because:
   [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology) for
   protein structure, active sites, and enzyme classification.
 - **Membrane transport and proton gradients**: Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology) for membrane structure and
+  [../1_cell-biology](./1_cell-biology) for membrane structure and
   transport proteins.
 - **Plant transport and transpiration**: Review
   [.../7-plant-biology/1_plant-biology](../7-plant-biology/1_plant-biology) for stomatal regulation
@@ -1523,7 +1523,7 @@ because:
   [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology) for
   respiratory physiology and oxygen transport.
 - **ATP and cellular energy**: Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology) for mitochondria structure
+  [../1_cell-biology](./1_cell-biology) for mitochondria structure
   and ATP synthase.
 - **Gene regulation of metabolic enzymes**: Review
   [..../3-genetics/2_genetics-advanced](../3-genetics/2_genetics-advanced) for operon regulation of

@@ -69,7 +69,7 @@ description: "The study of algorithms is central to computer science. An algorit
 }
 </script>
 
-# Algorithms
+## Algorithms
 
 The study of algorithms is central to computer science. An algorithm is a finite, well-defined sequence of instructions that solves a computational problem. The analysis of algorithms concerns their correctness and efficiency, measured in terms of time complexity (how the number of operations grows with input size) and space complexity (how memory usage grows).
 
@@ -135,6 +135,9 @@ Each section includes:
 
 - **[Algorithm Analysis](../../2-algorithms-and-data-structures/1_algorithm-analysis.md):** Formal complexity analysis for the algorithms studied here.
 - **[Discrete Mathematics](../../mathematics/src/content/docs/1-abstract-algebra/index.md):** Graph theory and combinatorics foundations for algorithm design.
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
 ## Common Mistakes
 

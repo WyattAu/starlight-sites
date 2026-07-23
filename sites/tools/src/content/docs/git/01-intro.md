@@ -137,11 +137,11 @@ Git is optimized for text files.
 ### Essential Configuration
 
 ```bash
-# Identity — required for commits
+## Identity — required for commits
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 
-# Default branch name (Git 2.28+)
+## Default branch name (Git 2.28+)
 git config --global init.defaultBranch main
 
 # Editor for commit messages and interactive rebase

@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# RTTI, dynamic_cast, and Typeid
+## RTTI, dynamic_cast, and Typeid
 
 Run-Time Type Information (RTTI) allows programs to query the dynamic type of polymorphic objects at
 Runtime. This section covers `dynamic_cast` for safe downcasting, the `typeid` operator for type
@@ -532,7 +532,7 @@ Disabling RTTI removes the `type_info` metadata from the binary and makes `dynam
 Contexts.
 
 ```bash
-# GCC / Clang
+## GCC / Clang
 g++ -fno-rtti -O2 main.cpp
 
 # MSVC

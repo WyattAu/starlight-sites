@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Futures, Promises, and Async Flows
+## Futures, Promises, and Async Flows
 
 This section covers `std::future<T>``std::promise<T>``std::async` launch policies, the
 Future/promise pair as a basic async primitive, composability limitations, async file reading,
@@ -589,6 +589,9 @@ Manual `stop_token` integration as shown above is the recommended approach.
 - [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter.md)
 - [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames.md)
 
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Common Pitfalls
 

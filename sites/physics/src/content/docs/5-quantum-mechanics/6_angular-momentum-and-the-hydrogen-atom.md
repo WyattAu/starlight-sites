@@ -272,6 +272,11 @@ Angular momentum in quantum mechanics is like a spinning top that can only point
 - **[Spin](7_spin.md)**: Spin is an intrinsic angular momentum that extends the orbital angular momentum formalism.
 - **[Scattering Theory](13_scattering-theory.md)**: Scattering theory applies angular momentum techniques to analyze particle collisions.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ### 6.7 Common Mistakes
 
 **Mistake 1: Confusing the orbital quantum number $l$ with the magnetic quantum number $m$**

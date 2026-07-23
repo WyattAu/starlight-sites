@@ -196,9 +196,9 @@ flowchart TD
 ### Workflow
 
 ```bash
-# Start a feature
+## Start a feature
 $ git switch -c feature/login develop
-# ... work ...
+## ... work ...
 $ git switch develop
 $ git merge --no-ff feature/login
 $ git branch -d feature/login

@@ -656,7 +656,7 @@ Backing `byte[]` is identical and points them to the same array. This is a GC-ti
 A runtime API.
 
 ```bash
-# Enable string deduplication with G1
+## Enable string deduplication with G1
 java -XX:+UseG1GC -XX:+StringDeduplication ...
 ```
 

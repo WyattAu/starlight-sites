@@ -1079,7 +1079,7 @@ $\blacksquare$
 ```python
 tree = SegmentTree([1, 2, 3, 4, 5, 6])
 tree.range_update(1, 3, 3)  # Add 3 to indices 1, 2, 3
-# Array is now [1, 5, 6, 7, 5, 6]
+## Array is now [1, 5, 6, 7, 5, 6]
 result = tree.query(0, 4)    # 1 + 5 + 6 + 7 + 5 = 24
 ```
 

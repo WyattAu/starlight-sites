@@ -130,7 +130,7 @@ expect_used = "warn"
 Each member crate inherits from the workspace:
 
 ```toml
-# crates/core/Cargo.toml
+## crates/core/Cargo.toml
 [package]
 name = "my-core"
 version.workspace = true
@@ -203,7 +203,7 @@ Unifies them — all enabled features are active for all dependents. This can ca
 Behavior:
 
 ```toml
-# crate-a/Cargo.toml
+## crate-a/Cargo.toml
 [dependencies]
 shared = { version = "1", features = ["feature-x"] }
 

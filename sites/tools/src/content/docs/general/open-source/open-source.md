@@ -359,7 +359,7 @@ Some projects require a Contributor License Agreement (CLA) or a Developer Certi
   you have the right to submit it) by adding a `Signed-off-by:` line to your commit message.
 
 ```bash
-# DCO sign-off
+## DCO sign-off
 git commit -s -m "Fix memory leak in parser"
 ```
 
@@ -567,7 +567,7 @@ Start with tests and work up to understand the implementation:
 ### Interactive Rebase
 
 ```bash
-# Rebase the last 5 commits interactively
+## Rebase the last 5 commits interactively
 git rebase -i HEAD~5
 
 # Common operations:

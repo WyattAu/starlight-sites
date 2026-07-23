@@ -69,7 +69,7 @@ description: "A-Level Computer Science Algorithms notes covering key definitions
 }
 </script>
 
-# Algorithms
+## Algorithms
 
 Algorithms are the core of computer science: well-defined, finite procedures that transform inputs
 into outputs. This section covers the design, analysis, and implementation of the algorithms you

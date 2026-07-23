@@ -173,7 +173,7 @@ Chaining and logging.
 The Pythonic approach — try the operation and handle exceptions:
 
 ```python
-# EAFP — try and handle
+## EAFP — try and handle
 def get_value(data, key, default=None):
     try:
         return data[key]
@@ -191,7 +191,7 @@ print(get_value(42, "x"))           # None
 Check conditions before operating:
 
 ```python
-# LBYL — check first
+## LBYL — check first
 def get_value_lbyl(data, key, default=None):
     if isinstance(data, dict) and key in data:
         return data[key]

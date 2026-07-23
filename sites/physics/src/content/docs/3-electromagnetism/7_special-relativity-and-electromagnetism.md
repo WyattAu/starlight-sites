@@ -174,3 +174,7 @@ Special relativity and electromagnetism are two aspects of the same theory. Elec
 - [Potentials and Gauge Transformations](/physics/3-electromagnetism/6_potentials-and-gauge-transformations) -- The Lorenz gauge condition $\partial_\mu A^\mu = 0$ is the four-vector form of the gauge choice introduced in the potentials chapter.
 - [Radiation from Accelerating Charges](/physics/3-electromagnetism/10_radiation-from-accelerating-charges) -- The relativistic Larmor formula and Liénard-Wiechert fields extend the dipole radiation analysis to moving charges.
 
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)

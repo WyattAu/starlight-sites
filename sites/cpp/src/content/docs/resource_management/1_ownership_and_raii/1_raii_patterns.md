@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# RAII Patterns
+## RAII Patterns
 
 RAII (Resource Acquisition Is Initialization) is the foundational C++ idiom that binds resource
 Lifetime to object lifetime. By acquiring resources in constructors and releasing them in

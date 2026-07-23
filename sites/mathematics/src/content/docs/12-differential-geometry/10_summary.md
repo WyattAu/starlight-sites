@@ -179,3 +179,10 @@ Differential geometry studies curved spaces by doing calculus on them. A manifol
 - [Geodesics](/mathematics/12-differential-geometry/6_geodesics) -- Geodesics, Jacobi fields, and the exponential map extend the metric geometry summarized here.
 - [Key Theorems in Functional Analysis](/mathematics/11-functional-analysis/9_summary-of-key-theorems) -- The spectral theorem and compact operator theory underpin the analytical methods used in differential geometry.
 - [Lagrange's Theorem](/mathematics/1-abstract-algebra/3_lagrange-s-theorem) -- Group-theoretic structures appear in the study of Lie groups and symmetry of manifolds.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

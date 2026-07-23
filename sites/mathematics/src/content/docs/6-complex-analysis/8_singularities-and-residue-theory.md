@@ -194,3 +194,6 @@ The residue at a pole of order $m$ is given by $\mathrm{Res}(f, z_0) = \frac{1}{
 - **[Cauchy's Theorem](5_cauchy-s-theorem.md)**: Cauchy's theorem for multiply connected domains leads to the residue theorem.
 - **[Applications of Contour Integration](9_applications-of-contour-integration.md)**: The residue theorem is applied to evaluate real integrals and solve physics problems.
 
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

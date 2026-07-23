@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Software Design and Development
+## Software Design and Development
 
 ## Higher Software Design
 

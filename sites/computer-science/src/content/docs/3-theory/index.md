@@ -69,7 +69,7 @@ description: "Theoretical computer science establishes the formal foundations of
 }
 </script>
 
-# Theory
+## Theory
 
 Theoretical computer science establishes the formal foundations of the discipline. It addresses fundamental questions about what can be computed, how efficiently computation can be performed, and what mathematical structures underpin computational processes. The three principal areas are automata theory, computability theory, and complexity theory.
 
@@ -136,6 +136,9 @@ Each section includes:
 - **[Algorithms](../../1-algorithms/index.md):** Algorithm design and complexity theory.
 - **[Databases](../../4-databases/index.md):** Query optimisation using automata theory.
 - **[Computer Networks](../../3-computer-networks/index.md):** Protocol design based on formal languages.
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
 ## Common Mistakes
 

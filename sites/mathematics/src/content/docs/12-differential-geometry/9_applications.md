@@ -167,6 +167,13 @@ uses Calabi-Yau manifolds, and manifold learning algorithms exploit geometry for
 - **[The Gauss-Bonnet Theorem](./8_the-gauss-bonnet-theorem.md)**: Relates total Gaussian curvature to the Euler characteristic, explaining cartographic constraints and serving as a prototype for index theorems.
 - **[Tangent Spaces and Tangent Bundles](./2_tangent-spaces-and-tangent-bundles.md)**: Provides the tangent bundle and connection theory needed to formulate geodesics in general relativity and gauge fields.
 
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
 ## Common Mistakes
 
 **Mistake 1: Confusing the metric signature in general relativity with Riemannian geometry**

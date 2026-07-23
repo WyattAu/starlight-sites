@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Preparation, reactions, nucleophilic subs
 }
 </script>
 
-# Haloalkanes and Haloarenes
+## Haloalkanes and Haloarenes
 
 Haloalkanes are alkanes with one or more halogen atoms. They are important intermediates in organic synthesis due to the reactivity of the C-X bond.
 

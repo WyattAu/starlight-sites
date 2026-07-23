@@ -45,9 +45,9 @@ elsif score >= 70
 else
   puts "Grade: F"
 end
-# => "Grade: B"
+## => "Grade: B"
 
-# if as a modifier (postfix)
+## if as a modifier (postfix)
 puts "Pass" if score >= 60
 puts "Fail" if score < 60
 

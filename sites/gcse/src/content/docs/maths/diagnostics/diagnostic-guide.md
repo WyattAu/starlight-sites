@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# GCSE Maths — Diagnostic Guide
+## GCSE Maths — Diagnostic Guide
 
 ## Coverage Map
 

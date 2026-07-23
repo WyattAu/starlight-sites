@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Data and Databases
+## Data and Databases
 
 This topic covers data representation, data types, database concepts, SQL, normalisation, and data
 Integrity.

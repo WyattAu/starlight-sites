@@ -249,3 +249,8 @@ Quantum mechanics emerged because classical physics kept hitting walls. Imagine 
 - **[Postulates of Quantum Mechanics](2_postulates-of-quantum-mechanics.md)**: The postulates provide the mathematical framework for understanding the wave-particle duality discovered experimentally.
 - **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: The Schrodinger equation describes how quantum states evolve in time, building on the historical motivation.
 - **[Electromagnetism](../3-electromagnetism/1_maxwell-s-equations.md)**: Maxwell's equations describe classical electromagnetism, which fails to explain blackbody radiation and the photoelectric effect.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

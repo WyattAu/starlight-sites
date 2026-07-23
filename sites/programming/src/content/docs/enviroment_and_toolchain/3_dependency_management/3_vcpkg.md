@@ -269,7 +269,7 @@ In classic mode, vcpkg operates as a global package manager. Packages are instal
 Directory and selected via environment variables.
 
 ```bash
-# Classic mode (legacy, not recommended)
+## Classic mode (legacy, not recommended)
 vcpkg install fmt:x64-windows
 vcpkg integrate install  # modifies system-wide CMake settings
 ```
@@ -287,7 +287,7 @@ Manifest mode (enabled by default since vcpkg 2022.11.12) ties dependencies to t
 `vcpkg.json` in the project root. This is the only mode discussed in this document.
 
 ```bash
-# Manifest mode (automatic when vcpkg.json exists)
+## Manifest mode (automatic when vcpkg.json exists)
 vcpkg install  # reads vcpkg.json, installs to vcpkg_installed/
 ```
 
@@ -762,3 +762,5 @@ vcpkg is Microsoft's C++ package manager with a large catalog of pre-built libra
 - [[enviroment_and_toolchain/3_dependency_management/6_binary_caching]] - vcpkg binary caching
 - [[enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files]] - Toolchain integration
 - [[enviroment_and_toolchain/3_dependency_management/4_conan.md]] - Alternative: Conan
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)

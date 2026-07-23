@@ -46,7 +46,7 @@ exceptionally well-suited for metaprogramming because:
 Ruby classes are never closed. You can reopen and modify any class, including built-in ones:
 
 ```ruby
-# Reopening a class
+## Reopening a class
 class String
   def palindrome?
     self == reverse
@@ -60,7 +60,7 @@ end
 "racecar".palindrome?  # => true
 "hello".shout          # => "HELLO!"
 
-# Monkey patching built-in classes
+## Monkey patching built-in classes
 class Integer
   def even?
     self % 2 == 0

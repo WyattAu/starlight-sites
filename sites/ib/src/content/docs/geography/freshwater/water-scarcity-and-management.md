@@ -21,7 +21,7 @@ description: "Water scarcity and freshwater management strategies."
 }
 </script>
 
-# Water Scarcity and Management
+## Water Scarcity and Management
 
 ## Defining Water Scarcity
 

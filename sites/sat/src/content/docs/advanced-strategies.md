@@ -415,6 +415,6 @@ review, and test-day simulation builds the stamina and strategy needed for peak 
 
 | Topic                  | Link                                                |
 | ---------------------- | --------------------------------------------------- |
-| SAT Overview           | [View](/docs_qualifications/sat/sat-overview)       |
-| SAT Math Strategies    | [View](/docs_qualifications/sat/math-strategies)    |
-| SAT Reading Strategies | [View](/docs_qualifications/sat/reading-strategies) |
+| SAT Overview           | [View](/sat-overview)       |
+| SAT Math Strategies    | [View](/math-strategies)    |
+| SAT Reading Strategies | [View](/reading-strategies) |

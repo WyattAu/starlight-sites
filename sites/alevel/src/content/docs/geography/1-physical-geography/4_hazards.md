@@ -24,7 +24,7 @@ description: "A-Level Geography Hazards notes covering key definitions, core con
 }
 </script>
 
-# Hazards
+## Hazards
 
 ## Introduction
 

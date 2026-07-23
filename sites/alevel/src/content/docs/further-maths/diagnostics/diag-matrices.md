@@ -27,7 +27,7 @@ tableOfContents: false
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Matrices — Diagnostic Tests
+## Matrices — Diagnostic Tests
 
 ## Unit Tests
 

@@ -282,6 +282,11 @@ m$^{-1}$.
 - **[Polarization](./5_polarization.md)**: Explores the vector nature of the electric field, including linear, circular, and elliptical polarisation states.
 - **[Geometric Optics](./6_geometric-optics.md)**: Takes the high-frequency limit of electromagnetic wave propagation, reducing wave equations to ray tracing.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ## Intuition
 
 Total internal reflection occurs when light tries to pass from a denser medium to a less dense medium at too steep an angle. Instead of refracting, the light bounces back completely, with an evanescent wave that decays exponentially into the less dense medium. This evanescent field is real but carries no net energy away from the interface. The critical angle depends only on the ratio of refractive indices. This principle underpins fiber optic communication, where light is trapped inside a glass core by repeated total internal reflections, traveling long distances with minimal loss. The penetration depth of the evanescent wave can be tuned by changing the angle of incidence.

@@ -294,6 +294,11 @@ the Hamiltonian formulation requires special treatment (Dirac brackets or Constr
 - **[Noether's Theorem](5_noether-s-theorem-and-conservation-laws.md)**: Noether's theorem connects symmetries to conserved quantities, which are expressed as Poisson brackets in Hamiltonian mechanics.
 - **[Quantum Mechanics](../5-quantum-mechanics/2_postulates-of-quantum-mechanics.md)**: The Hamiltonian becomes an operator in quantum mechanics, and Poisson brackets become commutators.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ### 4.11 Common Mistakes
 
 **Mistake 1: Assuming the Hamiltonian always equals $T + V$**

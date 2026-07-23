@@ -194,11 +194,11 @@ Key dataset options:
 | Recordsize  | 128K              | Default. Use 1M for large media files, 16K or 8K for databases               |
 
 ```bash
-# Verify compression savings from the CLI
+## Verify compression savings from the CLI
 zfs get compressratio tank/media
 zfs get compressratio tank/apps
 
-# List all datasets
+## List all datasets
 zfs list -o name,used,avail,refer,mountpoint
 ```
 

@@ -160,3 +160,6 @@ The quotient group $G/N$ collapses all elements of $N$ to the identity, creating
 - **[Lagrange's Theorem](3_lagrange-s-theorem.md)**: Lagrange's theorem constrains the index of a normal subgroup and the order of the quotient group.
 - **[Homomorphisms and Isomorphism Theorems](5_homomorphisms-and-isomorphism-theorems.md)**: The first isomorphism theorem shows that every quotient group arises from a homomorphism.
 - **[Groups](1_groups.md)**: The group axioms underpin the construction of normal subgroups and quotient groups.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

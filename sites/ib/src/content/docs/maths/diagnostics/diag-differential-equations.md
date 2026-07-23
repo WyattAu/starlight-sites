@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Differential Equations — Diagnostic Tests
+## Differential Equations — Diagnostic Tests
 
 ## Unit Tests
 

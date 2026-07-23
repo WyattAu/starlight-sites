@@ -72,7 +72,7 @@ description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19.
 }
 </script>
 
-# Optics and Wave Physics
+## Optics and Wave Physics
 
 ## Contents
 
@@ -149,6 +149,11 @@ Each section includes:
 - **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum optics and photonics; photons are quantum particles of light.
 - **[Classical Mechanics](../../1-classical-mechanics/index.md):** Wave mechanics foundations; oscillations and vibrations are mechanical waves.
 - **[Mathematics](../../mathematics/index.md):** Fourier analysis and complex numbers are essential mathematical tools for optics.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Intuition
 

@@ -566,3 +566,6 @@ Fundamental data structures include arrays, linked lists, stacks, queues, hash t
 - [[2-algorithms-and-data-structures/1_algorithm_analysis]] - Complexity analysis
 - [[1-algorithms/algorithm_design]] - Algorithm-structure pairing
 - [[3-theory/automata-and-formal-languages]] - Formal structure models
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

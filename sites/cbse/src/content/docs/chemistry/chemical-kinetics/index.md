@@ -69,7 +69,7 @@ description: "CBSE Class 12 chemistry: Chemical kinetics with rate laws, order o
 }
 </script>
 
-# Chemical Kinetics
+## Chemical Kinetics
 
 Chemical kinetics studies the rate of chemical reactions and the factors affecting them. It covers rate laws, reaction orders, Arrhenius equation, and reaction mechanisms.
 

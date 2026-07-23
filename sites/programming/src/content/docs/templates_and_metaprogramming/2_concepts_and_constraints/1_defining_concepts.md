@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Defining Concepts and Requires Clauses
+## Defining Concepts and Requires Clauses
 
 C++20 introduced **concepts** --- named requirements for template parameters that allow the compiler
 To check, at the point of instantiation, whether a type satisfies a set of constraints. Concepts
@@ -914,6 +914,10 @@ Constrained template parameter.
 - [Constraint Subsumption and Overload Resolution](./2_constraint_subsumption.md)
 - [Standard Library Concepts](./3_standard_concepts.md)
 - [SFINAE vs Concepts](./4_sfinae_vs_concepts.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Summary
 

@@ -71,10 +71,10 @@ Garbage collector, and all dependencies. No external shared libraries are requir
 Download from [go.dev/dl](https://go.dev/dl/) or use a package manager:
 
 ```bash
-# Linux (snap)
+## Linux (snap)
 sudo snap install go --classic
 
-# macOS (homebrew)
+## macOS (homebrew)
 brew install go
 
 # Verify

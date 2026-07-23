@@ -192,3 +192,10 @@ Joint distributions describe how two or more random variables vary together. Ind
 - **[Random Variables](2_random-variables.md)**: Random variables provide the building blocks for constructing joint distributions and analyzing dependence.
 - **[Probability Spaces](1_probability-spaces.md)**: Probability spaces provide the measure-theoretic foundation for defining joint distributions.
 - **[Limit Theorems](4_limit-theorems.md)**: The central limit theorem extends to sums of independent random variables with different distributions.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

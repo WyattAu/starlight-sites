@@ -71,7 +71,7 @@ description: 'Topology: comprehensive educational content notes with precise def
 }
 </script>
 
-# Topology
+## Topology
 
 ## Contents
 
@@ -138,3 +138,6 @@ Topology is the study of properties preserved under continuous deformation. Imag
 - **[Real Analysis](../../3-real-analysis/index.md):** Metric spaces and topological spaces; every metric space induces a topology.
 - **[Abstract Algebra](../../1-abstract-algebra/index.md):** Topological groups and algebraic topology; group theory underpins homology and fundamental groups.
 - **[Differential Geometry](../../12-differential-geometry/index.md):** Smooth manifolds as topological spaces; differential geometry adds calculus to topology.
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

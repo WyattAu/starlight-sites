@@ -386,6 +386,10 @@ and $C \to a$.
 
 </details>
 
+## See Also
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
 ## Common Mistakes
 
 1. **Confusing leftmost derivations with parse trees.** A leftmost derivation is a sequence of rule applications where the leftmost non-terminal is always expanded first. A parse tree is a tree representation of the derivation. Multiple derivations can yield the same parse tree, so the derivation is not unique to the tree.

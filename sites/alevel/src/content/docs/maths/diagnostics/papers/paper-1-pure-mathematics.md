@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Paper 1 — Pure Mathematics
+## Paper 1 — Pure Mathematics
 
 **Time allowed:** 120 minutes **Total marks:** 100 **Topics covered:** All 14 pure mathematics
 topics

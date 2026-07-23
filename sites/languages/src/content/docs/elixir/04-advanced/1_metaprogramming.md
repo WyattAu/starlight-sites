@@ -60,11 +60,11 @@ iex> quote do: 1 + 2
 
 iex> quote do: "hello"
 "hello"
-# Literals represent themselves (they are not tuples)
+## Literals represent themselves (they are not tuples)
 
 iex> quote do: x
 {:x, [], Elixir}
-# Variables are three-element tuples: {name, meta, context}
+## Variables are three-element tuples: {name, meta, context}
 
 iex> quote do: foo(1, 2)
 {:foo, [], [1, 2]}

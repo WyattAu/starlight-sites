@@ -395,6 +395,9 @@ Just that page.
 - [Virtualization](./8_virtualization) -- Memory virtualization extends basic memory management to support multiple virtual machines.
 - [File Systems](./6_file-systems) -- Memory-mapped files blur the boundary between memory management and file system operations.
 
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
 ## Common Mistakes
 
 1. **Confusing virtual addresses with physical addresses.** Processes always see virtual addresses. The MMU translates them to physical addresses using page tables. A virtual address 0x7fff0000 in one process maps to a completely different physical frame than the same virtual address in another process.

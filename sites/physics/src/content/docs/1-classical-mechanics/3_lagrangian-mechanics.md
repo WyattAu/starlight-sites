@@ -341,6 +341,9 @@ natural before identifying $h$ With the total energy.
 - **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism extends Lagrangian mechanics to phase space and provides energy conservation.
 - **[Noether's Theorem](5_noether-s-theorem-and-conservation-laws.md)**: Noether's theorem connects symmetries of the Lagrangian to conserved quantities.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+
 ### 3.11 Common Mistakes
 
 **Mistake 1: Including constraint forces in the Lagrangian**

@@ -107,13 +107,13 @@ A hard link is an additional directory entry pointing to the same inode. The ino
 process has the file open, the inode and its data blocks are freed.
 
 ```bash
-# Demonstrate hard links
+## Demonstrate hard links
 echo "content" > file1.txt
 ln file1.txt file2.txt        # hard link
 ln -s file1.txt file3.txt     # symbolic link
 
 stat file1.txt
-# Inode: 123456  Links: 2
+## Inode: 123456  Links: 2
 
 stat file2.txt
 # Inode: 123456  Links: 2  (same inode)

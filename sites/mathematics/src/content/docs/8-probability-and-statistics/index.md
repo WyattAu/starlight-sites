@@ -72,7 +72,7 @@ tags:
 }
 </script>
 
-# Probability Theory
+## Probability Theory
 
 ## Contents
 
@@ -127,6 +127,12 @@ Probability Theory is the mathematics of uncertainty. Imagine you have a coin th
 3. **Draw diagrams**: Visualise distributions and random variables
 4. **Learn standard examples**: Know the properties of common distributions (normal, binomial, Poisson)
 5. **Connect to applications**: Relate probability theory to statistics, finance, and physics
+
+## See Also
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
 ## Common Mistakes
 

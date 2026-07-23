@@ -70,7 +70,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Physics
+## DSE Physics
 
 Complete revision notes for HKDSE Physics, covering the full syllabus with worked examples, common
 pitfalls, and exam-style problems. Topics are aligned to the HKEAA curriculum and structured for

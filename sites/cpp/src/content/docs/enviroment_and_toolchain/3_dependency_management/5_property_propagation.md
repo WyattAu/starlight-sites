@@ -112,9 +112,9 @@ Consider a linear dependency chain: **App $\to$ Engine $\to$ Core**.
 ### Scenario A: Strict Encapsulation (Private)
 
 ```cmake
-# Core/CMakeLists.txt
+## Core/CMakeLists.txt
 add_library(Core src/core.cpp)
-# Core uses OpenSSL internally.
+## Core uses OpenSSL internally.
 target_link_libraries(Core PRIVATE OpenSSL::Crypto)
 ```
 

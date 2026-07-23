@@ -72,7 +72,7 @@ description: 'A-Level Geography notes covering key definitions, core concepts, w
 }
 </script>
 
-# A-Level Geography
+## A-Level Geography
 
 This section contains comprehensive revision notes for A-Level Geography, aligned with the AQA
 specification. Content is organised into three core areas:

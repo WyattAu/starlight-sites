@@ -171,6 +171,10 @@ The fraction is $E_{\text{rad}}/K \approx 3.76 \times 10^{-14}$, which is neglig
 - [Special Relativity and Electromagnetism](/physics/3-electromagnetism/7_special-relativity-and-electromagnetism) -- The relativistic field transformations explain the $\gamma^4$ and $\gamma^6$ scaling of synchrotron and linear radiation.
 - [Potentials and Gauge Transformations](/physics/3-electromagnetism/6_potentials-and-gauge-transformations) -- The Liénard-Wiechert potentials are the retarded solutions to the wave equations for potentials derived in that chapter.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+
 ## Intuition
 
 Radiation is how accelerating charges shed energy. The Larmor formula shows that power radiated is proportional to the square of acceleration, so rapidly changing charges radiate intensely. The toroidal radiation pattern means antennas radiate maximally perpendicular to their axis, like a doughnut of energy. Synchrotron radiation becomes directional at relativistic speeds because the radiation cone narrows, like a lighthouse beam. Bremsstrahlung produces a continuous X-ray spectrum because the deceleration is随机. The radiation reaction force is the charge feeling its own field, a subtle effect that becomes important in extreme environments.

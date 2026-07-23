@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Basic Economic Concepts — Diagnostic Tests
+## Basic Economic Concepts — Diagnostic Tests
 
 ## Unit Tests
 

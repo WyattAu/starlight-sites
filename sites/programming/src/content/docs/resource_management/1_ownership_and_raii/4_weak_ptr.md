@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Weak Pointers and Cyclic Reference Breaking
+## Weak Pointers and Cyclic Reference Breaking
 
 `std::weak_ptr` is a non-owning observer of a `shared_ptr`-managed object. Its primary use case is
 Breaking reference cycles in graph structures — the most common source of memory leaks in
@@ -928,6 +928,9 @@ A weak_ptr is a non-owning observer, like a security camera that watches a share
 - [Common Pitfalls](5_custom_deleters.md)
 - [Unique Ownership (std::unique_ptr) and EBO](2_unique_ptr.md)
 - [RAII Patterns](1_raii_patterns.md)
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Summary
 

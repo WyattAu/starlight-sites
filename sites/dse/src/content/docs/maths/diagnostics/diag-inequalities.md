@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Inequalities — Diagnostic Tests
+## Inequalities — Diagnostic Tests
 
 ## Unit Tests
 

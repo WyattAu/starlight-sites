@@ -22,7 +22,7 @@ description: "This section covers the biological level of analysis, examining th
 }
 </script>
 
-# Biological Level of Analysis
+## Biological Level of Analysis
 
 This section covers the biological level of analysis, examining the physiological bases of behaviour
 including the brain, neurotransmitters, hormones, and genetics.

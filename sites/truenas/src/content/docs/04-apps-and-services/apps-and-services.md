@@ -63,7 +63,7 @@ For applications not in the catalog, deploy custom Docker Compose or Helm charts
 5. Deploy.
 
 ```yaml
-# Example Docker Compose for a custom app
+## Example Docker Compose for a custom app
 services:
   myapp:
     image: myapp:latest
@@ -206,7 +206,7 @@ Gaming, ML workloads, or transcoding.
 **Configuration steps:**
 
 ```bash
-# Enable IOMMU (add to TrueNAS kernel parameters)
+## Enable IOMMU (add to TrueNAS kernel parameters)
 # For Intel: intel_iommu=on iommu=pt
 # For AMD: amd_iommu=on iommu=pt
 

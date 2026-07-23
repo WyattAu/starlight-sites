@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# C-Interop and FFI
+## C-Interop and FFI
 
 C++ uses **name mangling** to encode type information into function symbols, enabling overloading. C
 Does not mangle names — each function has a single symbol matching its source name. Interoperating
@@ -778,6 +778,9 @@ Static initialization order problem entirely.
 
 - [Calling Conventions and Stack Management](2_calling_conventions.md)
 - [Type Erasure](4_type_erasure.md)
+
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Summary
 

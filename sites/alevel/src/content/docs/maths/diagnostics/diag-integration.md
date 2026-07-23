@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
 
-# Integration — Diagnostic Tests
+## Integration — Diagnostic Tests
 
 ## Unit Tests
 

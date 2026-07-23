@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# CLI Tools
+## CLI Tools
 
 Building command-line interfaces in Python is not a "pick one and go" decision. The standard library
 Gives you `sys.argv` (bare metal) and `argparse` (batteries-included), while third-party libraries
@@ -197,7 +197,7 @@ Instead of `default`. When the flag is absent entirely, `default` is stored.
 parser.add_argument("--sort", nargs="?", const="asc", default="none",
                     choices=["asc", "desc"],
                     help="Sort order (omit for no sorting)")
-# --sort      → "asc" (const)
+## --sort      → "asc" (const)
 # --sort desc → "desc" (explicit value)
 # (omitted)   → "none" (default)
 ```

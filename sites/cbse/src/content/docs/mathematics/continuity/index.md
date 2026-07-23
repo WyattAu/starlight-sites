@@ -69,7 +69,7 @@ description: "CBSE Class 12 mathematics: Continuity, differentiability, chain ru
 }
 </script>
 
-# Continuity and Differentiability
+## Continuity and Differentiability
 
 Continuity ensures a function has no breaks, jumps, or holes. Differentiability ensures a function has a defined derivative. Every differentiable function is continuous, but not vice versa.
 

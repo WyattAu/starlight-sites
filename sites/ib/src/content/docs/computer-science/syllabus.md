@@ -21,7 +21,7 @@ description: "First assessment 2025. The course is organized into five core them
 }
 </script>
 
-# IB Computer Science Syllabus Overview
+## IB Computer Science Syllabus Overview
 
 First assessment 2025. The course is organized into five core themes studied at both Standard Level
 (SL) and Higher Level (HL), plus an HL Extension with three additional topics.

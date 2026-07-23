@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Heat and Thermodynamics
+## Heat and Thermodynamics
 
 This topic covers temperature, heat transfer, specific heat capacity, latent heat, gas laws, and the
 Laws of thermodynamics. These concepts connect the microscopic behaviour of particles (kinetic

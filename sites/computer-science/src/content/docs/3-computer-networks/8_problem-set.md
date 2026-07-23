@@ -199,3 +199,6 @@ $\blacksquare$
 | [Networks] | DSE        | [View](https://dse.wyattau.com/docs/dse/ict/4-networking-and-internet/1_internet-and-data-communications) |
 | [Networks] | University | [View](https://university.wyattau.com/docs/computing/3-computer-networks/1_computer-networks)             |
 
+
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

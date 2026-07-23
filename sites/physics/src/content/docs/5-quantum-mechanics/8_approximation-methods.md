@@ -242,6 +242,10 @@ Approximation methods tackle quantum problems that cannot be solved exactly. Per
 - **[One-Dimensional Problems](5_one-dimensional-problems.md)**: Exactly solvable 1D problems provide test cases for approximation methods.
 - **[Variational Methods](11_variational-methods.md)**: The variational principle provides a systematic approach to estimating ground state energies.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ## Common Mistakes
 
 - **Using perturbation theory when the perturbation is not small:** Perturbation theory assumes $V' \ll E_n - E_m$. If the perturbation is comparable to energy spacings, the series diverges and the results are meaningless. Check the validity condition before applying.

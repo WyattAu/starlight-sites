@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Atomic Structure and Atomic Theory — Diagnostic Tests
+## Atomic Structure and Atomic Theory — Diagnostic Tests
 
 ## Intuition
 

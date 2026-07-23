@@ -27,7 +27,7 @@ tableOfContents: false
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-# Further Algebra — Diagnostic Tests
+## Further Algebra — Diagnostic Tests
 
 ## Unit Tests
 

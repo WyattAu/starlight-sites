@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
 
-# Superposition and Interference — Diagnostic Tests
+## Superposition and Interference — Diagnostic Tests
 
 ## Unit Tests
 

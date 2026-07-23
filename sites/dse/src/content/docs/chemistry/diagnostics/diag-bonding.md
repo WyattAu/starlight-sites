@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Chemistry Diagnostic: Bonding
+## DSE Chemistry Diagnostic: Bonding
 
 ## Unit Test 1: VSEPR for Complex Molecules
 

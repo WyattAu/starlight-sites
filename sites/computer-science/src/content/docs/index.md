@@ -69,7 +69,7 @@ description: 'University-level computing notes covering discrete mathematics, al
 }
 </script>
 
-# Computing
+## Computing
 
 Computing is the systematic study of algorithmic processes, encompassing both the theoretical foundations and practical applications of computation. A rigorous education in computing requires understanding the mathematical structures that underpin algorithms, the engineering principles that govern system design, and the theoretical limits that constrain what can be computed.
 
@@ -132,6 +132,10 @@ Each section includes:
 3. **Connect theory and practice**: Relate theoretical concepts to real-world applications
 4. **Learn the patterns**: Recognise common design patterns and algorithms
 5. **Seek feedback**: Discuss solutions with peers or tutors
+
+## See Also
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
 ## Common Mistakes
 

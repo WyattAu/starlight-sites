@@ -518,10 +518,10 @@ Valgrind Massif is a heap profiler that tracks memory usage over time, helping i
 Excessive allocations:
 
 ```bash
-# Compile with debug symbols
+## Compile with debug symbols
 g++ -g -O0 my_app.cpp -o my_app
 
-# Run with Massif
+## Run with Massif
 valgrind --tool=massif ./my_app
 
 # View the profile

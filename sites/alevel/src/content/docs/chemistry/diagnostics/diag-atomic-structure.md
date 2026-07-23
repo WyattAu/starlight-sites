@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Atomic structure is like a solar system — electrons orbit the nucleus, but with quantum rules instead of gravity.**
 
-# Atomic Structure and Periodicity — Diagnostic Tests
+## Atomic Structure and Periodicity — Diagnostic Tests
 
 ## Unit Tests
 

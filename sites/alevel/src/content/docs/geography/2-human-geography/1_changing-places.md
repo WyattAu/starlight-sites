@@ -24,7 +24,7 @@ description: "A-Level Geography Changing Places notes covering key definitions, 
 }
 </script>
 
-# Changing Places
+## Changing Places
 
 ## Introduction
 

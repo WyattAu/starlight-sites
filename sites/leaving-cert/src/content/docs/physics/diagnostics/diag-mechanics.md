@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Mechanics -- Diagnostic Tests
+## Mechanics -- Diagnostic Tests
 
 ## Unit Tests
 

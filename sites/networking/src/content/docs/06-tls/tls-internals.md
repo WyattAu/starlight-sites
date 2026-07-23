@@ -400,7 +400,7 @@ The client sends a query to the CA's OCSP responder asking whether a specific ce
 Revoked. The responder returns "good", "revoked", or "unknown".
 
 ```bash
-# Check certificate revocation with openssl
+## Check certificate revocation with openssl
 openssl ocsp -issuer intermediate.pem -cert server.pem \
   -url http://ocsp.example.com/ -resp_text
 ```
@@ -411,7 +411,7 @@ The server periodically obtains an OCSP response from the CA and "staples" it to
 The client does not need to contact the CA directly, improving performance and privacy.
 
 ```bash
-# Test OCSP stapling with openssl
+## Test OCSP stapling with openssl
 openssl s_client -connect example.com:443 -status -servername example.com
 ```
 

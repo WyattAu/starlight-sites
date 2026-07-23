@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Database Design and Development
+## Database Design and Development
 
 ## Higher Database Design
 

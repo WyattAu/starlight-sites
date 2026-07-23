@@ -484,6 +484,9 @@ undecidable).
 - [Algorithm Analysis](../../2-algorithms-and-data-structures/1_algorithm-analysis) -- Complexity theory classifies the computational difficulty of problems that algorithms attempt to solve.
 - [Regular Languages](./2_regular-languages) -- The Chomsky hierarchy places regular languages at the simplest level of the complexity hierarchy.
 
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
 ## Common Mistakes
 
 1. **Confusing NP-hard with NP-complete.** NP-hard means "at least as hard as every problem in NP" (under polynomial-time reductions). NP-complete means NP-hard *and* in NP. The halting problem is NP-hard but not NP-complete because it is not in NP (it is not even decidable). A problem can be NP-hard without being verifiable in polynomial time.

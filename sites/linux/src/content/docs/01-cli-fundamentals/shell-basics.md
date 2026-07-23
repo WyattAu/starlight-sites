@@ -138,10 +138,10 @@ Here-document.
 ### Basic Redirection Operators
 
 ```bash
-# Redirect stdout to a file (truncate)
+## Redirect stdout to a file (truncate)
 command > file
 
-# Redirect stdout to a file (append)
+## Redirect stdout to a file (append)
 command >> file
 
 # Redirect stderr to a file

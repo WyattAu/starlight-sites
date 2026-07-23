@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Waves and Optics — Diagnostic Tests
+## Waves and Optics — Diagnostic Tests
 
 ## Unit Tests
 

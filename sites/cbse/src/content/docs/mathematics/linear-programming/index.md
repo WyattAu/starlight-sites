@@ -69,7 +69,7 @@ description: "CBSE Class 12 mathematics: Linear programming with graphical metho
 }
 </script>
 
-# Linear Programming
+## Linear Programming
 
 Linear programming is an optimization technique for maximizing or minimizing a linear objective function subject to linear constraints. It has applications in resource allocation, production planning, and transportation.
 

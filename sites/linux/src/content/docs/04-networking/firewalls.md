@@ -110,10 +110,10 @@ Outgoing packet:
 ### Rule Syntax
 
 ```bash
-# Basic rule format
+## Basic rule format
 iptables -t TABLE -A CHAIN [matches] -j TARGET
 
-# Add rule to INPUT chain
+## Add rule to INPUT chain
 iptables -A INPUT -s 10.0.0.0/24 -p tcp --dport 22 -j ACCEPT
 
 # Insert at position (1 = first rule)

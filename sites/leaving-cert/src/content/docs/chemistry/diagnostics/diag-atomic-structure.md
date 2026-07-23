@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Atomic Structure -- Diagnostic Tests
+## Atomic Structure -- Diagnostic Tests
 
 ## Unit Tests
 

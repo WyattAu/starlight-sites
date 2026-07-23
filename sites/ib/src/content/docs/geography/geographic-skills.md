@@ -21,7 +21,7 @@ description: "Map scale expresses the relationship between distance on the map a
 }
 </script>
 
-# Geographic Skills
+## Geographic Skills
 
 ## Intuition
 

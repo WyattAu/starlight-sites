@@ -24,7 +24,7 @@ description: "A-Level Geography Population and the Environment notes covering ke
 }
 </script>
 
-# Population and the Environment
+## Population and the Environment
 
 ## Introduction
 

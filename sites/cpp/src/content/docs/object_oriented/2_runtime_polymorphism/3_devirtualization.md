@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Devirtualization and Final Specifiers
+## Devirtualization and Final Specifiers
 
 **Devirtualization** is a compiler optimization that replaces a virtual function call with a direct
 Call or inlines it entirely, eliminating the vtable lookup overhead. This section covers the
@@ -366,7 +366,7 @@ project(LtoExample)
 
 set(CMAKE_CXX_STANDARD 23)
 
-# Enable LTO for all targets
+## Enable LTO for all targets
 include(CheckIPOSupported)
 check_ipo_supported(RESULT ipo_supported)
 if(ipo_supported)

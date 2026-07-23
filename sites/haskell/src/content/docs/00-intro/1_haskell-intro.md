@@ -398,10 +398,10 @@ GHC features:
 - **Language extensions**: Hundreds of extensions enabled via pragmas
 
 ```bash
-# Compile a Haskell program
+## Compile a Haskell program
 ghc Main.hs -O2 -o myprogram
 
-# Run the interactive REPL
+## Run the interactive REPL
 ghci MyModule.hs
 
 # Compile with optimizations and threading

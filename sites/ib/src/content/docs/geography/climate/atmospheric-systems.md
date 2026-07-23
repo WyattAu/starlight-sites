@@ -21,7 +21,7 @@ description: "Global atmospheric circulation and climate systems."
 }
 </script>
 
-# Atmospheric Systems
+## Atmospheric Systems
 
 ## Intuition
 

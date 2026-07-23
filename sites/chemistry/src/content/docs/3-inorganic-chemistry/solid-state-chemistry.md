@@ -466,3 +466,6 @@ Solid-state chemistry explores how atoms pack together in crystalline materials 
 | Statistical Mechanics    | WyattsNotes | [View](/docs/university/chemistry/statistical-mechanics)              |
 | Solid-State Physics      | WyattsNotes | [View](/docs/university/physics/solid-state-physics)                  |
 | Solid-State Chemistry — MIT 3.091 | MIT OCW | [View](https://ocw.mit.edu/courses/3-091-introduction-to-solid-state-chemistry-fall-2018/) |
+
+- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)

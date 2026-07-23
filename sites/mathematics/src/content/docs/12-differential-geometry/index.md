@@ -72,7 +72,7 @@ tags:
 }
 </script>
 
-# Differential Geometry
+## Differential Geometry
 
 Differential geometry is the study of geometric properties of spaces that possess a smooth structure, allowing the tools of calculus to be applied. It provides the mathematical language for describing the curvature of surfaces and higher-dimensional manifolds, and has profound applications in physics (general relativity), engineering (computer vision), and pure mathematics.
 
@@ -142,6 +142,12 @@ When writing $X = X^i \partial/\partial x^i$, the components $X^i$ depend on the
 
 **Mistake 3: Treating the differential as a linear map between tangent spaces of the same manifold**
 The pushforward $df_p : T_pM \to T_{f(p)}N$ maps between tangent spaces of *different* manifolds when $f : M \to N$. A common error is writing $df_p : T_pM \to T_pM$, which only makes sense when $f$ is a self-map and even then is misleading.
+
+## See Also
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
 
 ## Study Tips
 

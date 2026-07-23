@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Condition Variables, Latches, and Barriers
+## Condition Variables, Latches, and Barriers
 
 This section covers `std::condition_variable` and `std::condition_variable_any`Spurious wakeups,
 Producer-consumer patterns, and the C++20 synchronization primitives `std::latch` and `std::barrier`

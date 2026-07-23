@@ -69,7 +69,7 @@ description: "A-Level Thermal Physics notes covering key definitions, core conce
 }
 </script>
 
-# Thermal Physics
+## Thermal Physics
 
 Thermal physics studies the behaviour of matter through the relationship between heat, work,
 temperature, and energy. It bridges the microscopic world of molecular motion with the macroscopic
@@ -184,7 +184,7 @@ Physics reveals that nature follows mathematical laws at every scale. Matter is 
 
 ## Cross-References
 
-- [Mechanics](/docs/alevel/physics/mechanics)
-- [Waves](/docs/alevel/physics/waves)
-- [Electricity](/docs/alevel/physics/electricity)
-- [Fields](/docs/alevel/physics/fields)
+- [Mechanics](/physics/mechanics)
+- [Waves](/physics/waves)
+- [Electricity](/physics/electricity)
+- [Fields](/physics/fields)

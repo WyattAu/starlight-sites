@@ -268,12 +268,12 @@ Used. The old token is immediately invalidated:
 ### Revocation (RFC 7009)
 
 ```bash
-# Revoke a specific token
+## Revoke a specific token
 curl -X POST https://auth.example.com/revoke \
   -H "Authorization: Basic base64(client_id:client_secret)" \
   -d "token=eyJhbGci..."
 
-# Revoke a refresh token
+## Revoke a refresh token
 curl -X POST https://auth.example.com/revoke \
   -H "Authorization: Basic base64(client_id:client_secret)" \
   -d "token=refresh_token_value&amp;token_type_hint=refresh_token"

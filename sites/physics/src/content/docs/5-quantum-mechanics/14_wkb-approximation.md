@@ -170,3 +170,8 @@ WKB is the semiclassical bridge between classical and quantum mechanics. When th
 - **[Approximation Methods](8_approximation-methods.md)**: The WKB approximation is one of the key semiclassical methods in quantum mechanics.
 - **[One-Dimensional Problems](5_one-dimensional-problems.md)**: Exactly solvable 1D problems provide test cases for WKB approximation.
 - **[Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation.md)**: The Schrodinger equation provides the foundation for WKB analysis.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

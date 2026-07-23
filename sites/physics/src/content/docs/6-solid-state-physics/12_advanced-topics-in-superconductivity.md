@@ -199,6 +199,11 @@ critical current density $J_c$ (determined by vortex pinning) is the key enginee
 - **[Electronic Band Structure](./5_electronic-band-structure.md)**: The density of states at the Fermi level and the Fermi velocity enter the BCS expressions for the coherence length and penetration depth.
 - **[Topological Insulators and Semimetals](./13_topological-insulators-and-semimetals.md)**: Majorana zero modes at the interface of a superconductor and a topological insulator provide a platform for topological quantum computing.
 
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
 ## Intuition
 
 Superconductivity is the complete disappearance of electrical resistance below a critical temperature. Electrons pair up into Cooper pairs through lattice vibrations, forming a macroscopic quantum state that flows without scattering. Type I superconductors expel all magnetic flux (Meissner effect), while Type II superconductors allow flux to penetrate in quantized vortices. The Ginzburg-Landau theory describes the superconducting order parameter as a complex field whose magnitude squared gives the density of superconducting electrons. The coherence length and penetration depth compete: when the penetration depth exceeds the coherence length, the material becomes Type II. Josephson junctions exploit the phase sensitivity of the supercurrent to create ultra-sensitive magnetometers and voltage standards.

@@ -113,10 +113,10 @@ flutter doctor
 In production or multi-project environments, you need to pin Flutter/Dart versions per project:
 
 ```bash
-# Install fvm
+## Install fvm
 dart pub global activate fvm
 
-# Install a specific Flutter version
+## Install a specific Flutter version
 fvm install 3.24.0
 fvm use 3.24.0
 

@@ -314,7 +314,7 @@ Traefik automatically renews certificates before expiry (default: 30 days before
 Intervention needed. Check certificate status:
 
 ```bash
-# View stored certificates
+## View stored certificates
 curl -s http://localhost:8080/api/http/routers | jq '.[].tls'
 ```
 
@@ -325,7 +325,7 @@ curl -s http://localhost:8080/api/http/routers | jq '.[].tls'
 Generate a hashed password:
 
 ```bash
-# Using htpasswd
+## Using htpasswd
 apt install apache2-utils
 htpasswd -nb admin yourpassword
 

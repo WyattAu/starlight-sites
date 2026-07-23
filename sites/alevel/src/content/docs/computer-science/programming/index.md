@@ -69,7 +69,7 @@ description: "A-Level Computer Science Programming notes covering key definition
 }
 </script>
 
-# Programming
+## Programming
 
 Programming is the practical application of computational thinking: translating algorithms into
 executable code. This section covers the programming constructs, paradigms, and techniques required

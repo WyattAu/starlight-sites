@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Access Control and Friendship
+## Access Control and Friendship
 
 C++ provides fine-grained access control through `public``protected`And `private` specifiers, Plus
 the `friend` mechanism for granting selective access to non-members. Access control is enforced

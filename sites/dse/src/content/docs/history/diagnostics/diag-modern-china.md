@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE History Diagnostic: Modern China
+## DSE History Diagnostic: Modern China
 
 ## Unit Test 1: The Republic of China (1912-1949)
 

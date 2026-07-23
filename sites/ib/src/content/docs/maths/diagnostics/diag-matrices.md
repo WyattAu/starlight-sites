@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Matrices — Diagnostic Tests
+## Matrices — Diagnostic Tests
 
 ## Intuition
 

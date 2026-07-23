@@ -221,3 +221,6 @@ coupled or driven systems, numerical integration of the full Euler equations is 
 - **[Rigid Body Dynamics](8_rigid-body-dynamics.md)**: Basic rigid body dynamics provides the foundation for understanding advanced topics like gyroscopic precession.
 - **[Lagrangian Mechanics](3_lagrangian-mechanics.md)**: The Lagrangian formulation gives the effective potential for analyzing tops and gyroscopes.
 - **[Hamiltonian Mechanics](4_hamiltonian-mechanics.md)**: The Hamiltonian formalism provides phase space representation of rigid body motion.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -26,7 +26,7 @@ categories:
 }
 </script>
 
-# Generators (`std::generator<T>`) and Synchronous Yielding
+## Generators (`std::generator<T>`) and Synchronous Yielding
 
 This section covers C++23's `std::generator<T>``co_yield` as syntactic sugar, lazy evaluation
 Semantics, a comparison with Python generators, and a complete Fibonacci generator example with
@@ -188,6 +188,10 @@ one element.
 - [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames.md)
 - [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter.md)
 - [Task Scheduling and Executors](./4_task_scheduling.md)
+
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 
 ## Coroutine Generator Mechanism
 

@@ -28,7 +28,7 @@ description: "A-Level Psychology Social Influence notes covering key definitions
 }
 </script>
 
-# Social Influence
+## Social Influence
 
 ## Introduction
 
@@ -421,6 +421,6 @@ Our minds are prediction machines, constantly building models of the world to gu
 
 ## Cross-References
 
-- [Research Methods](/docs/alevel/psychology/research-methods)
-- [Approaches in Psychology](/docs/alevel/psychology/approaches)
-- [Biopsychology](/docs/alevel/psychology/biopsychology)
+- [Research Methods](/psychology/research-methods)
+- [Approaches in Psychology](/psychology/approaches)
+- [Biopsychology](/psychology/biopsychology)

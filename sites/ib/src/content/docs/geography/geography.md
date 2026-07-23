@@ -22,7 +22,7 @@ description: "IB Geography is a two-year course that examines the relationships 
 }
 </script>
 
-# IB Geography (SL/HL)
+## IB Geography (SL/HL)
 
 ## Intuition
 

@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Analytical Techniques
+## Analytical Techniques
 
 Analytical techniques allow chemists to determine the structure, composition, and purity of organic
 Compounds. No single technique provides complete structural information; instead, a combination of

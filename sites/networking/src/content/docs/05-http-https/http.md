@@ -65,7 +65,7 @@ New user each time.
 Many APIs violate this).
 
 ```bash
-# HTTP methods with curl
+## HTTP methods with curl
 curl -X GET https://api.example.com/users/1
 curl -X POST -H "Content-Type: application/json" -d "{"name":"Alice"}' https://api.example.com/users
 curl -X PUT -H "Content-Type: application/json" -d '{"name":"Alice Updated"}' https://api.example.com/users/1
@@ -394,7 +394,7 @@ HTTP/3 adoption is growing rapidly:
   443, which breaks HTTP/3.
 
 ```bash
-# Check if a server supports HTTP/3
+## Check if a server supports HTTP/3
 curl --http3 https://www.cloudflare.com
 curl -I --alt-svc https://www.google.com  # Look for Alt-Svc header
 ```

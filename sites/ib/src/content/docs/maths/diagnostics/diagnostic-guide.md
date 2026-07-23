@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# IB Mathematics: Diagnostic Test Guide
+## IB Mathematics: Diagnostic Test Guide
 
 ## 1. Purpose
 

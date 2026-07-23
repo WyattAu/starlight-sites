@@ -476,3 +476,8 @@ Thermodynamics tells us which processes can happen and how much energy they invo
 | Quantum Chemistry        | WyattsNotes | [View](/docs/university/chemistry/quantum-chemistry)                  |
 | Statistical Mechanics    | WyattsNotes | [View](/docs/university/chemistry/statistical-mechanics)               |
 | Thermodynamics — MIT 5.60| MIT OCW     | [View](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/) |
+
+- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

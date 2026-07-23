@@ -30,7 +30,7 @@ tableOfContents: false
 
 **The key insight:** The decay constant describes the probability of decay per unit time, and the exponential law emerges from the collective behavior of many random events.
 
-# Radioactivity — Diagnostic Tests
+## Radioactivity — Diagnostic Tests
 
 ## Unit Tests
 

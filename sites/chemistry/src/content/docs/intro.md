@@ -70,6 +70,12 @@ Chemistry is a cumulative subject — each concept builds on previous knowledge.
 
 **Memorising reaction mechanisms without understanding electron flow:** Organic chemistry mechanisms follow electron-pushing rules (nucleophiles attack electrophiles, arrows go from electron-rich to electron-poor). Memorising specific mechanisms without understanding this principle makes it impossible to predict products of unfamiliar reactions.
 
+## See Also
+- [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+
 ## Intuition
 
 Chemistry is the science of matter and its transformations — what things are made of, how they change, and why. At its heart, chemistry is about electrons: how they're arranged in atoms, how they're shared or transferred between atoms in chemical bonds, and how they flow during chemical reactions. The periodic table isn't just a chart to memorise — it's a map of electron configurations that predicts chemical behaviour. Elements in the same group have similar properties because they have the same number of valence electrons. Understanding this connection between electron structure and chemical properties is what transforms chemistry from rote memorisation into a logical, predictive science.

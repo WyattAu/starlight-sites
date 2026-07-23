@@ -197,3 +197,10 @@ The definition of a ring does not require a multiplicative identity $1$. Some au
 - **[Homomorphisms and Isomorphism Theorems](5_homomorphisms-and-isomorphism-theorems.md)**: Ring homomorphisms preserve both addition and multiplication, generalising group homomorphisms.
 - **[Field Theory](12_field-theory.md)**: Fields are commutative rings in which every nonzero element has a multiplicative inverse.
 
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

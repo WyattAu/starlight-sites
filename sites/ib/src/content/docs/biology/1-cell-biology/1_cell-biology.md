@@ -1565,7 +1565,7 @@ activation Of new transcription factors and the silencing of genes for alternati
   [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology) for
   membrane protein structure and fluid mosaic model.
 - **Enzymes and metabolism**: Review
-  [.../1-cell-biology/2_metabolism](../1-cell-biology/2_metabolism) for ATP, respiration, and
+  [../2_metabolism](./2_metabolism) for ATP, respiration, and
   photosynthesis in organelles.
 - **Cell division and meiosis**: Review [.../3-genetics/1_genetics](../3-genetics/1_genetics) for
   meiosis and genetic recombination.

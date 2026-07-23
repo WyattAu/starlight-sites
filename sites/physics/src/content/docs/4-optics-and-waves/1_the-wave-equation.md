@@ -318,3 +318,7 @@ The superposition principle applies only to linear media. In non-linear optics (
 - **[Maxwell's Equations](../3-electromagnetism/1_maxwell-s-equations.md)**: The electromagnetic wave equation is derived from Maxwell's equations in free space by taking curls of Faraday's and Ampere-Maxwell's laws.
 - **[Electrodynamics](../3-electromagnetism/4_electrodynamics.md)**: Electrodynamics provides the foundation for understanding how changing electric and magnetic fields propagate as waves.
 - **[Interference](3_interference.md)**: The superposition of wave solutions to the wave equation produces interference patterns used in Young's double slit and Fabry-Perot interferometers.
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

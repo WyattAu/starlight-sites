@@ -285,10 +285,10 @@ matches or exceeds OS-managed P-state performance while using less power.
 Enable HWP on Linux:
 
 ```bash
-# Verify HWP is active
+## Verify HWP is active
 cat /sys/devices/system/cpu/intel_pstate/status
 
-# If it shows "active", HWP is enabled
+## If it shows "active", HWP is enabled
 # The kernel must be booted with intel_pstate=active or the default
 ```
 

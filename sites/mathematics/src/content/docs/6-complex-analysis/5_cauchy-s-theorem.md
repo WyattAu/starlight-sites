@@ -173,3 +173,8 @@ Cauchy's theorem says the integral of an analytic function around a closed conto
 - **[Cauchy's Integral Formula](6_cauchy-s-integral-formula.md)**: The integral formula extends Cauchy's theorem to express function values via boundary integrals.
 - **[Singularities and Residue Theory](8_singularities-and-residue-theory.md)**: The residue theorem computes integrals by summing contributions from singularities inside contours.
 
+
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)

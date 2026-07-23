@@ -181,3 +181,8 @@ The identity $d^2 = 0$ becomes $\nabla \times (\nabla f) = 0$ and $\nabla \cdot 
 - **[Riemannian Geometry](5_riemannian-geometry.md)**: The Hodge star operator on differential forms uses the Riemannian metric to relate $k$-forms to $(n-k)$-forms.
 - **[Curvature](7_curvature.md)**: The curvature tensor can be expressed using differential forms and the exterior derivative.
 
+
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

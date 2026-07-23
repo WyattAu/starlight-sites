@@ -619,10 +619,10 @@ And you care about index insertion performance.
 Copies the entire database. Simple to restore but slow to create and requires the most storage.
 
 ```bash
-# PostgreSQL: pg_dump (logical backup)
+## PostgreSQL: pg_dump (logical backup)
 pg_dump -Fc mydb > mydb.dump
 
-# PostgreSQL: pg_basebackup (physical backup, requires WAL archiving)
+## PostgreSQL: pg_basebackup (physical backup, requires WAL archiving)
 pg_basebackup -h db-primary -D /var/lib/postgresql/backup -Ft -z -P
 ```
 

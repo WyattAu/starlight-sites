@@ -27,7 +27,7 @@ tableOfContents: false
 
 **Probability is like a weather forecast — it tells you the likelihood of events, but never guarantees outcomes.**
 
-# Probability — Diagnostic Tests
+## Probability — Diagnostic Tests
 
 ## Unit Tests
 

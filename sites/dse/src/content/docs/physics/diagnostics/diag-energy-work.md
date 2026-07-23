@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# Energy and Work — Diagnostic Tests
+## Energy and Work — Diagnostic Tests
 
 ## Unit Tests
 

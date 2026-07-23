@@ -69,7 +69,7 @@ description: "A-Level Nuclear "
 }
 </script>
 
-# Nuclear & Quantum Physics
+## Nuclear & Quantum Physics
 
 Nuclear and quantum physics explores the behaviour of matter at the smallest scales — from the
 structure of the atom and radioactive decay to the wave-particle duality that challenges classical

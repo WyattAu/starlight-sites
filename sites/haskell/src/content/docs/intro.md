@@ -21,7 +21,7 @@ description: "Introduction to Haskell notes."
 }
 </script>
 
-# Haskell
+## Haskell
 
 Welcome to the Haskell notes. Haskell is a purely functional, lazily evaluated language with a strong static type system. Everything is an expression, side effects are managed through monads, and types are inferred unless you annotate them.
 

@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Condition Variables, Latches, and Barriers
+## Condition Variables, Latches, and Barriers
 
 This section covers `std::condition_variable` and `std::condition_variable_any`Spurious wakeups,
 Producer-consumer patterns, and the C++20 synchronization primitives `std::latch` and `std::barrier`
@@ -670,6 +670,10 @@ barriers, including key principles and practical applications.
 
 A thorough understanding of these concepts, combined with regular practice and review, is essential
 for mastery of this topic.
+
+## See Also
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
 
 ## Worked Examples
 

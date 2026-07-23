@@ -240,3 +240,7 @@ Most materials are not ferromagnetic; they are diamagnetic, paramagnetic, antife
 - **[Lattice Vibrations and Phonons](6-solid-state-physics/4_lattice-vibrations-and-phonons.md)**: Magnons (spin waves) are the magnetic analogue of phonons, describing collective excitations of ordered spins.
 - **[Semiconductors](6-solid-state-physics/6_semiconductors.md)**: Diluted magnetic semiconductors and spintronics combine semiconductor physics with magnetic ordering.
 - **[Many-Body Physics in Solids](6-solid-state-physics/14_many-body-physics-in-solids.md)**: Exchange interactions and magnetic ordering arise from the many-body physics of interacting electrons.
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)

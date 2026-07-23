@@ -37,9 +37,9 @@ Needed. File descriptors are non-negative integers maintained by the kernel per-
 | 3+  | custom | (none)              | Application-defined file descriptors |
 
 ```bash
-# View file descriptors for a process
+## View file descriptors for a process
 ls -la /proc/$$/fd/
-# 0 -> /dev/pts/0
+## 0 -> /dev/pts/0
 # 1 -> /dev/pts/0
 # 2 -> /dev/pts/0
 # 255 -> /dev/pts/0 (script file)

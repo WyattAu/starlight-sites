@@ -149,6 +149,13 @@ $n$, $m(C) \leq \lim_{n\to\infty} (2/3)^n = 0$. $\blacksquare$
 - **[Measurable Functions](./5_measurable-functions.md)**: Defines functions that are compatible with the measurable set structure, forming the basis for Lebesgue integration.
 - **[Radon-Nikodym Derivative and Lebesgue Decomposition](./9_radon-nikodym-derivative-and-lebesgue-decomposition.md)**: Uses the decomposition of measures into absolutely continuous and singular parts, concepts rooted in the measurability theory here.
 
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
 ## Intuition
 
 Lebesgue measurability determines which sets can be assigned a consistent "size." The outer measure covers any set with intervals from above, but only measurable sets satisfy the property that their size equals the sizes of their pieces added together. The Vitali construction shows that not all sets are measurable: using the axiom of Choice, you can build a set that is so irregular that no consistent measure can be assigned. The Cantor set shows the opposite extreme — an uncountable set with measure zero, demonstrating that measure and cardinality are unrelated. Lebesgue measurability is the sweet spot: large enough to include all Borel sets and null sets, but small enough to avoid pathological constructions.

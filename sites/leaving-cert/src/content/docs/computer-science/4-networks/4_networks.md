@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Networking and Security
+## Networking and Security
 
 This topic covers computer networks, network models, protocols, security threats, and defensive
 Measures.

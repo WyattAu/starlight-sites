@@ -25,7 +25,7 @@ tags:
 }
 </script>
 
-# DSE Geography
+## DSE Geography
 
 Complete revision notes for HKDSE Geography, covering both human and physical geography with worked
 examples, data-response practice, and exam-style problems. Content follows the HKEAA curriculum

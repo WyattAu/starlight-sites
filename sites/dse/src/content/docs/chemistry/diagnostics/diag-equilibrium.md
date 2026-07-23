@@ -22,7 +22,7 @@ tableOfContents: false
 }
 </script>
 
-# DSE Chemistry Diagnostic: Chemical Equilibrium
+## DSE Chemistry Diagnostic: Chemical Equilibrium
 
 ## Unit Test 1: Kc Calculation
 

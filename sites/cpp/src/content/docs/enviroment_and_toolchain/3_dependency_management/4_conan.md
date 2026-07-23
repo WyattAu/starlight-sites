@@ -106,9 +106,9 @@ compiler.cppstd=23
 build_type=Release
 
 [options]
-# Force all dependencies to be static by default
+## Force all dependencies to be static by default
 *:shared=False
-# Specific override
+## Specific override
 openssl/*:shared=True
 
 [tool_requires]

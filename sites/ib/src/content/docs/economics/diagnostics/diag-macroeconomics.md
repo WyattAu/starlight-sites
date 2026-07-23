@@ -23,7 +23,7 @@ sidebar_position: 40
 }
 </script>
 
-# Diagnostic Test: Macroeconomics
+## Diagnostic Test: Macroeconomics
 
 **Instructions:** Attempt each question without referring to notes. Select the best answer from the four options provided. After completing all questions, check your answers against the key below.
 

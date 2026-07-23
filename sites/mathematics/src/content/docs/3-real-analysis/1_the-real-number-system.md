@@ -269,6 +269,13 @@ the set, but $\sup(0, 1) = 1$ which does not belong to $(0, 1)$.
 - **[Real Analysis](../../3-real-analysis/):** Rigorous treatment of real numbers and calculus.
 - **[Practice](../../practice-*.mdx):** Practice problems for revision.
 
+- [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
+- [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+- [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
+- [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
+- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
+- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
 ## Common Mistakes
 
 - **Confusing supremum with maximum:** The maximum must be an element of the set; the supremum need not be. $\sup(0,1) = 1$ but $\max(0,1)$ does not exist. Always check whether $\sup(S) \in S$ before claiming it is a maximum.

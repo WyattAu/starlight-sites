@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# Bonding & Structure
+## Bonding & Structure
 
 Chemical bonding is the consequence of electrostatic interactions between nuclei and electrons that
 result in a lower-energy arrangement than the separated atoms. This module classifies bonds by the
@@ -976,6 +976,6 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 </aside>
 ## Cross-References
 
-- [Chemistry](/alevel/chemistry)
-- [Atomic Structure](/alevel/chemistry/atomic-structure)
-- [Organic Chemistry](/alevel/chemistry/organic-chemistry)
+- [Chemistry](/chemistry)
+- [Atomic Structure](/chemistry/atomic-structure)
+- [Organic Chemistry](/chemistry/organic-chemistry)

@@ -779,6 +779,11 @@ Parallel-capable algorithms.
 - [Projections and Callable Objects](./3_projections.md)
 - [Range Materialization](./4_range_materialization.md)
 
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+
 ## Common Pitfalls
 
 1. Forgetting that $O(n \log n)$ average-case for quicksort becomes $O(n^2)$ worst-case on already

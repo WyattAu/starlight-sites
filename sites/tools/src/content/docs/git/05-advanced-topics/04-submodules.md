@@ -82,10 +82,10 @@ does not store any of the submodule's files.
 ### Adding a Submodule
 
 ```bash
-# Add a submodule at a specific path
+## Add a submodule at a specific path
 $ git submodule add https://github.com/org/library.git src/lib
 
-# Add at a specific commit
+## Add at a specific commit
 $ git submodule add -b v2.0 https://github.com/org/library.git src/lib
 
 # Add from a local path

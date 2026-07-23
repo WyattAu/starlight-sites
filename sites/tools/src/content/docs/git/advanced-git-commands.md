@@ -54,10 +54,10 @@ Presenting the replacement as if it were the original.
 ### Basic Syntax
 
 ```bash
-# Replace one object with another
+## Replace one object with another
 git replace <original-object> <replacement-object>
 
-# Replace using an edited version of the original
+## Replace using an edited version of the original
 git replace --edit <object>
 
 # Graft: make a commit appear to have a different parent

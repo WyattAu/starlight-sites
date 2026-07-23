@@ -28,7 +28,7 @@ description: "A-Level Biopsychology notes covering key definitions, core concept
 }
 </script>
 
-# Biopsychology
+## Biopsychology
 
 ## Introduction
 
@@ -559,5 +559,5 @@ Psychology bridges the gap between biological processes and human experience. Th
 
 ## Cross-References
 
-- [Research Methods](/docs/alevel/psychology/research-methods)
-- [Approaches in Psychology](/docs/alevel/psychology/approaches)
+- [Research Methods](/psychology/research-methods)
+- [Approaches in Psychology](/psychology/approaches)

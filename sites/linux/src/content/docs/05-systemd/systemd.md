@@ -82,10 +82,10 @@ Systemd searches for unit files in several directories, with later directories o
 Ones:
 
 ```bash
-# Show the search path
+## Show the search path
 systemctl show -p UnitPath
 
-# Typical search order:
+## Typical search order:
 # 1. /etc/systemd/system/          (administrator overrides)
 # 2. /run/systemd/system/          (runtime configuration)
 # 3. /usr/lib/systemd/system/      (package-installed units)

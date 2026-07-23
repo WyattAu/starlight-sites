@@ -74,7 +74,7 @@ tableOfContents: false
 
 DSE Mathematics covers the essential mathematical toolkit for university and career readiness. Algebra provides the language for expressing relationships, functions model real-world quantities, and geometry develops spatial reasoning. Probability and statistics enable informed decision-making under uncertainty. The subject is structured to build from concrete calculations to abstract reasoning, developing the problem-solving skills that transfer across all disciplines.
 
-# DSE Mathematics
+## DSE Mathematics
 
 Complete revision notes for HKDSE Mathematics (Compulsory Part), covering the full curriculum with
 worked examples, common pitfalls, and exam-style problems. All topics are structured for systematic

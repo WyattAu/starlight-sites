@@ -21,7 +21,7 @@ description: "Introduction to typescript notes."
 }
 </script>
 
-# TypeScript
+## TypeScript
 
 Welcome to the TypeScript notes. TypeScript is a superset of JavaScript that adds static type checking — catching errors at compile time rather than runtime. It compiles to plain JavaScript, so it runs anywhere JavaScript runs.
 

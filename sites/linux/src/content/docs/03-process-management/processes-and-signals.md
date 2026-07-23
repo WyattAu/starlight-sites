@@ -137,12 +137,12 @@ clone(NULL, 0, SIGCHLD, 0);
 ```
 
 ```bash
-# View process/thread IDs
+## View process/thread IDs
 ps -eLf              # LWP (Lightweight Process) = TID
 ps -T -p $PID        # Show threads of a specific process
 ls /proc/$PID/task/  # Each directory is a TID
 
-# Process relationships
+## Process relationships
 ps -eo pid,ppid,pgid,sid,comm
 pstree               # Tree view of process hierarchy
 ```

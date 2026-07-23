@@ -72,7 +72,7 @@ description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. Comprehensi
 }
 </script>
 
-# Solid State Physics
+## Solid State Physics
 
 ## Contents
 
@@ -142,6 +142,11 @@ Each section includes:
 - **[Quantum Mechanics](../../5-quantum-mechanics/index.md):** Quantum theory of solids; band theory is built on quantum mechanics.
 - **[Electromagnetism](../../3-electromagnetism/index.md):** Electromagnetic properties of materials; dielectrics and conductors are electromagnetic phenomena.
 - **[Mathematics](../../mathematics/index.md):** Fourier transforms, group theory, and linear algebra are essential mathematical tools.
+
+- [Calculus](https://mathematics.wyattau.com/docs/calculus)
+- [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
+- [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+- [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
 ## Common Mistakes
 

@@ -69,10 +69,10 @@ Processes objects as a stream, making it both fast and memory-efficient.
 ### pip Install (Recommended)
 
 ```bash
-# Install from PyPI
+## Install from PyPI
 $ pip install git-filter-repo
 
-# Verify installation
+## Verify installation
 $ git filter-repo --version
 git-filter-repo 2.45.0
 ```

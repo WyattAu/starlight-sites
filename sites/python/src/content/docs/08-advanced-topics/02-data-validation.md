@@ -565,10 +565,10 @@ class Event(BaseModel):
 event = Event(name="deploy", timestamp=datetime(2026, 4, 5, 12, 0, 0), count=3)
 
 event.model_dump()
-# {'name': "deploy'', "timestamp': datetime.datetime(2026, 4, 5, 12, 0), 'count': 3}
+## {'name': "deploy'', "timestamp': datetime.datetime(2026, 4, 5, 12, 0), 'count': 3}
 
 event.model_dump(mode="json")
-# {'name': "deploy'', "timestamp': "2026-04-05T12:00:00'', "count': 3}
+## {'name': "deploy'', "timestamp': "2026-04-05T12:00:00'', "count': 3}
 
 event.model_dump_json()
 # '{"name":"deploy","timestamp":"2026-04-05T12:00:00","count":3}'

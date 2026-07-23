@@ -809,6 +809,11 @@ int main() {
 - [Iterator-Sentinel Model](./1_iterator_sentinel.md)
 - [Parallel Algorithms](./5_parallel_algorithms.md)
 
+- [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
+- [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
+- [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+- [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
+
 ## Common Pitfalls
 
 1. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not

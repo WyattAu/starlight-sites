@@ -28,7 +28,7 @@ description: "A-Level History Tudor England 1485-1603 notes covering key definit
 }
 </script>
 
-# Tudor England 1485-1603
+## Tudor England 1485-1603
 
 The Tudor period transformed England from a fractured medieval kingdom into a confident early modern
 state. Religious upheaval, dynastic insecurity, and the growth of royal government define this era.

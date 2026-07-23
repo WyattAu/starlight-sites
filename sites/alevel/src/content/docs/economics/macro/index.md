@@ -74,7 +74,7 @@ description: 'A-Level Macroeconomics notes covering key definitions, core concep
 
 **Macroeconomics is like looking at the big picture — inflation, growth, and unemployment affecting entire nations.**
 
-# Macroeconomics
+## Macroeconomics
 
 Macroeconomics studies the behaviour of the economy as a whole — national output, inflation,
 unemployment, the balance of payments, and the policy tools governments and central banks use to

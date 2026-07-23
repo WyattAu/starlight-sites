@@ -28,7 +28,7 @@ categories:
 }
 </script>
 
-# AP Physics
+## AP Physics
 
 Comprehensive revision notes for AP Physics C, aligned with the College Board Course and Exam
 Description.

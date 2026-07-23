@@ -26,7 +26,7 @@ description: "This document covers the IB History prescribed subject on Authorit
 }
 </script>
 
-# Authoritarian States (20th Century)
+## Authoritarian States (20th Century)
 
 This document covers the IB History prescribed subject on Authoritarian States for Paper 2. It
 examines three case studies — Nazi Germany, Fascist Italy, and the Stalinist USSR — analysing the

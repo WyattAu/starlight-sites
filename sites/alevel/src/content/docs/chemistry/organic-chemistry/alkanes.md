@@ -27,7 +27,7 @@ categories:
 }
 </script>
 
-# Alkanes
+## Alkanes
 
 Alkanes are saturated hydrocarbons with the general formula $\mathrm{C}_n\mathrm{H}_{2n+2}$.
 "Saturated" means every carbon atom is bonded to the maximum possible number of hydrogen atoms --

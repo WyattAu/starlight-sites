@@ -50,10 +50,10 @@ The `test_helper.exs` file typically sets up the test environment:
 ```elixir
 ExUnit.start()
 
-# Set test environment
+## Set test environment
 Application.ensure_all_started(:my_app)
 
-# Configure database
+## Configure database
 Ecto.Adapters.SQL.Sandbox.mode(MyApp.Repo, :manual)
 ```
 

@@ -424,7 +424,7 @@ Response sizes (up to 4096 bytes). If DNSSEC responses exceed the path MTU and I
 Needed messages are blocked, resolution fails.
 
 ```bash
-# Validate DNSSEC for a domain
+## Validate DNSSEC for a domain
 dig example.com DNSKEY +dnssec
 dig example.com +dnssec +cd  # check mode (disable validation)
 delv example.com              # DNSSEC validation tool (BIND 9.12+)
@@ -454,7 +454,7 @@ Reverse DNS maps IP addresses to domain names using PTR records in the `in-addr.
 `ip6.arpa` (IPv6) domains.
 
 ```bash
-# Query reverse DNS
+## Query reverse DNS
 dig -x 93.184.216.34
 
 # Query reverse DNS for IPv6

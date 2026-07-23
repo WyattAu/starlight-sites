@@ -29,11 +29,11 @@ Intervals. It wakes up every minute, checks all crontab files for matching time 
 Executes due commands.
 
 ```bash
-# Check if cron is running
+## Check if cron is running
 systemctl status cron        # Debian/Ubuntu
 systemctl status crond       # Fedora/RHEL
 
-# Start/enable cron
+## Start/enable cron
 systemctl enable --now cron
 systemctl enable --now crond
 ```
