@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Probabilisticml", "url": "https://tools.wyattau.com/probabilisticml"}, {"name": "1_fundamentals", "url": "https://tools.wyattau.com/probabilisticml/1_fundamentals"}, {"name": "1_supervised_learning", "url": "https://tools.wyattau.com/probabilisticml/1_fundamentals/1_supervised_learning"}]
+}
+</script>
 title: Supervised Learning
 description: "Supervised learning is the field of training models to act as a mapping between a set of inputs to a Set of output. To conduct supervised learning, a"
 date: 2026-01-07T08:38:26.907Z

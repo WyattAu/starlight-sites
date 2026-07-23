@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diag Complex Numbers", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diag-complex-numbers"}]
+}
+</script>
 title: "Complex Numbers -- Diagnostic Tests"
 description: "A-Level Further Maths Complex Numbers -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

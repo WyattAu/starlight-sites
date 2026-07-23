@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "15_advanced Semiconductor Physics", "url": "https://physics.wyattau.com/6-solid-state-physics/15_advanced-semiconductor-physics"}]
+}
+</script>
 title: Advanced Semiconductor Physics
 tags:
   - Physics

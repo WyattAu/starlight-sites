@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "06 Tls", "url": "https://networking.wyattau.com/06-tls"}, {"name": "Tls Internals", "url": "https://networking.wyattau.com/06-tls/tls-internals"}]
+}
+</script>
 title: TLS Internals
 description: "This document goes deeper into TLS internals than the TLS fundamentals document, covering the record Layer architecture, detailed handshake message formats"
 tags:

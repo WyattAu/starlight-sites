@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "2 Atomic Structure", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure"}, {"name": "1_atomic Theory", "url": "https://ib.wyattau.com/chemistry/2-atomic-structure/1_atomic-theory"}]
+}
+</script>
 title: Atomic Theory
 description: "IB Chemistry — atomic models from Dalton to quantum mechanics, electron configuration, orbital theory, and periodic properties."
 date: 2024-01-01T00:00:00Z

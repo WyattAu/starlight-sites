@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "4_polynomials", "url": "https://dse.wyattau.com/maths/compulsory/4_polynomials"}]
+}
+</script>
 title: Polynomials
 description: "A polynomial in one variable is an expression of the form Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2025-06-03T13:29:40.310Z

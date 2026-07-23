@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Intro", "url": "https://tools.wyattau.com/general/intro"}]
+}
+</script>
 title: Introduction to General Notes
 description: 'This resource is created not based on any curriculum, but a amalgamation of what Comprehensive educational content coverage with definitions and practice proble'
 date: 2025-05-15T22:45:51.828Z

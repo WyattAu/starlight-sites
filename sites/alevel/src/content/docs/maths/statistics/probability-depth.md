@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "Probability Depth", "url": "https://alevel.wyattau.com/maths/statistics/probability-depth"}]
+}
+</script>
 title: Probability (Extended)
 description: "This document extends the core probability material with rigorous treatments of conditional Probability, independence, Venn diagrams, tree diagrams, and"
 date: 2026-04-23T00:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "04 Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning"}, {"name": "Storage Tuning", "url": "https://tuning.wyattau.com/04-storage-tuning/storage-tuning"}]
+}
+</script>
 title: Storage Tuning
 description: "| Technology | Sequential Read | Sequential Write | 4K Random Read (IOPS) | 4K Random Write (IOPS) | Latency | | ------------------- | ------------------ |"
 

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "8 Probability And Statistics", "url": "https://mathematics.wyattau.com/8-probability-and-statistics"}, {"name": "1_probability Spaces", "url": "https://mathematics.wyattau.com/8-probability-and-statistics/1_probability-spaces"}]
+}
+</script>
 title: Probability Spaces
 description: "University Mathematics Probability Theory notes covering key definitions, core concepts, worked examples, and practice questions for practical revision."
 tags:

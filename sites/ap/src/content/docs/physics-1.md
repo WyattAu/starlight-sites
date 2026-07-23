@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Physics 1", "url": "https://ap.wyattau.com/physics-1"}]
+}
+</script>
 title: AP Physics 1 Study Guide
 description: "Comprehensive study guide for AP Physics 1 (Algebra-Based), aligned with the College Board Course and Exam Description. Covers mechanics and rotational"
 date: 2026-05-31

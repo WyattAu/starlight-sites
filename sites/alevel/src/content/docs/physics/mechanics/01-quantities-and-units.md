@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Physics", "url": "https://alevel.wyattau.com/physics"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/physics/mechanics"}, {"name": "01 Quantities And Units", "url": "https://alevel.wyattau.com/physics/mechanics/01-quantities-and-units"}]
+}
+</script>
 title: Quantities and Units
 description: "We begin with the most fundamental question in physics: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2025-06-02T16:25:28.480Z

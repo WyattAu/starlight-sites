@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "07 Dart3 Features", "url": "https://dart.wyattau.com/07-dart3-features"}, {"name": "02 Sealed Classes", "url": "https://dart.wyattau.com/07-dart3-features/02-sealed-classes"}]
+}
+</script>
 title: Sealed Classes
 description: "Sealed classes are a language-level constraint that restricts a class hierarchy to a known, finite Set of subtypes, all of which must be declared in the"
 date: 2026-04-05T00:00:00.000Z

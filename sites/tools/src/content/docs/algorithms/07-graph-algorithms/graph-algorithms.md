@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "07 Graph Algorithms", "url": "https://tools.wyattau.com/algorithms/07-graph-algorithms"}, {"name": "Graph Algorithms", "url": "https://tools.wyattau.com/algorithms/07-graph-algorithms/graph-algorithms"}]
+}
+</script>
 title: Graph Algorithms
 description: "Graph algorithms including shortest paths and minimum spanning trees."
 ---

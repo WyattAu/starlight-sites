@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Standard_library", "url": "https://programming.wyattau.com/standard_library"}, {"name": "4_system_utilities", "url": "https://programming.wyattau.com/standard_library/4_system_utilities"}, {"name": "4_regular_expressions", "url": "https://programming.wyattau.com/standard_library/4_system_utilities/4_regular_expressions"}]
+}
+</script>
 title: Regular Expressions
 description: "(C++11) provides regular expression matching, searching, and replacement using the ECMAScript regex grammar by default. This section covers the three main"
 date: 2026-04-03T00:00:00.000Z

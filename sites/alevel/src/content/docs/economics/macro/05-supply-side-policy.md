@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Macro", "url": "https://alevel.wyattau.com/economics/macro"}, {"name": "05 Supply Side Policy", "url": "https://alevel.wyattau.com/economics/macro/05-supply-side-policy"}]
+}
+</script>
 title: Supply-Side Policy
 description: "We define as government policies designed to increase the productive Capacity of the economy by shifting the long-run aggregate supply (LRAS) curve to the"
 date: 2025-06-02T16:25:28.480Z

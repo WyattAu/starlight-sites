@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "1 Physical Geography", "url": "https://alevel.wyattau.com/geography/1-physical-geography"}, {"name": "4_hazards", "url": "https://alevel.wyattau.com/geography/1-physical-geography/4_hazards"}]
+}
+</script>
 title: Hazards
 date: 2026-05-21
 tags: [alevel, alevel-geography]

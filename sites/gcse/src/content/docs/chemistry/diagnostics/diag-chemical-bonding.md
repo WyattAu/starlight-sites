@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Chemistry", "url": "https://gcse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Chemical Bonding", "url": "https://gcse.wyattau.com/chemistry/diagnostics/diag-chemical-bonding"}]
+}
+</script>
 title: "Chemical Bonding -- Diagnostic Tests"
 description: "Chemical Bonding -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false

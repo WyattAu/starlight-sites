@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "6_sequences And Series", "url": "https://ib.wyattau.com/maths/5-calculus/6_sequences-and-series"}]
+}
+</script>
 title: "Sequences and Series"
 description: "IB Mathematics — arithmetic and geometric sequences, sigma notation, Maclaurin and Taylor series, convergence, and the binomial theorem."
 date: 2024-01-01T00:00:00Z

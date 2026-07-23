@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "4 Optics And Waves", "url": "https://physics.wyattau.com/4-optics-and-waves"}, {"name": "16_detailed Diffraction Theory", "url": "https://physics.wyattau.com/4-optics-and-waves/16_detailed-diffraction-theory"}]
+}
+</script>
 title: Detailed Diffraction Theory
 tags:
   - Physics

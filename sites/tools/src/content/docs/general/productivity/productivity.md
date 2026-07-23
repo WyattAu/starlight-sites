@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity"}, {"name": "Productivity", "url": "https://tools.wyattau.com/general/productivity/productivity"}]
+}
+</script>
 title: Developer Productivity
 description: "The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) separated by 5-minute breaks, with a longer 15–30 minute break every 4"
 

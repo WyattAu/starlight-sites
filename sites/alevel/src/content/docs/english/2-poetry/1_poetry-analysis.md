@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "2 Poetry", "url": "https://alevel.wyattau.com/english/2-poetry"}, {"name": "1_poetry Analysis", "url": "https://alevel.wyattau.com/english/2-poetry/1_poetry-analysis"}]
+}
+</script>
 title: Poetry Analysis
 date: 2026-01-15T00:00:00.000Z
 tags:

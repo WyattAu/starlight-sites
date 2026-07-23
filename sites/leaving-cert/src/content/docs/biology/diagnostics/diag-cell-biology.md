@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Biology", "url": "https://leaving-cert.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/biology/diagnostics"}, {"name": "Diag Cell Biology", "url": "https://leaving-cert.wyattau.com/biology/diagnostics/diag-cell-biology"}]
+}
+</script>
 title: "Cell Biology -- Diagnostic Tests"
 description: "QUALIFICATIONS Ilc notes: Cell Biology -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."
 tableOfContents: false

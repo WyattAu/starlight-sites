@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/economics/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://dse.wyattau.com/economics/diagnostics/diagnostic-guide"}]
+}
+</script>
 title: "DSE Economics -- Diagnostic Guide"
 description: "| Diagnostic File | Topics Covered | Source File | | ------------------------------------------------------------ | -----------------------------------------"
 tableOfContents: false

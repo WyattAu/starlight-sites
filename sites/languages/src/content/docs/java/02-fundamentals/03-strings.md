@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Java", "url": "https://languages.wyattau.com/java"}, {"name": "02 Fundamentals", "url": "https://languages.wyattau.com/java/02-fundamentals"}, {"name": "03 Strings", "url": "https://languages.wyattau.com/java/02-fundamentals/03-strings"}]
+}
+</script>
 title: Strings and Text Processing
 description: "is the most used class in the Java platform. It is Implements And And its instances are . Every character in a is stored internally as UTF-16 code units in"
 

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "5 Office Automation", "url": "https://dse.wyattau.com/ict/5-office-automation"}, {"name": "2_office Applications", "url": "https://dse.wyattau.com/ict/5-office-automation/2_office-applications"}]
+}
+</script>
 title: Office Applications in Depth
 description: "This document extends the spreadsheet, database, and office automation topics in with advanced Spreadsheet functions, deeper database operations, and"
 date: 2026-04-08T00:00:00.000Z

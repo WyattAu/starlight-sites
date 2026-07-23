@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "7 Unseen Texts", "url": "https://alevel.wyattau.com/english/7-unseen-texts"}, {"name": "1_unseen Text Analysis", "url": "https://alevel.wyattau.com/english/7-unseen-texts/1_unseen-text-analysis"}]
+}
+</script>
 title: Unseen Text Analysis
 date: 2026-01-15T00:00:00.000Z
 tags:

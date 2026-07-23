@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "General", "url": "https://tools.wyattau.com/general"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment"}, {"name": "Dev Environment", "url": "https://tools.wyattau.com/general/dev-environment/dev-environment"}]
+}
+</script>
 title: Development Environment Setup
 description: "Modern terminal emulators use the GPU for rendering, enabling smooth scrolling and proper Unicode support."
 ---

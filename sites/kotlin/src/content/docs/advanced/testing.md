@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "kotlin", "url": "https://kotlin.wyattau.com"}, {"name": "Advanced", "url": "https://kotlin.wyattau.com/advanced"}, {"name": "Testing", "url": "https://kotlin.wyattau.com/advanced/testing"}]
+}
+</script>
 title: Testing
 description: "Unit testing in Kotlin with JUnit5, Mockk, and Kotest frameworks"
 date: 2026-04-18

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Fundamentals", "url": "https://alevel.wyattau.com/computer-science/fundamentals"}, {"name": "02 Floating Point", "url": "https://alevel.wyattau.com/computer-science/fundamentals/02-floating-point"}]
+}
+</script>
 title: Floating Point Representation
 description: "Fixed-point representation allocates a fixed number of bits to the integer and fractional parts, Limiting both range and precision. decouples these: it uses"
 date: 2025-06-02T16:25:28.480Z

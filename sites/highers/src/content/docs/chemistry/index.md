@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "Index", "url": "https://highers.wyattau.com/chemistry/index"}]
+}
+</script>
 title: Scottish Highers Chemistry
 description: "Higher Chemistry covers chemical reactions, bonding, energy changes, acids and bases, organic chemistry, and analytical techniques. The course builds on"
 date: 2026-04-14

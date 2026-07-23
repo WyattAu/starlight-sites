@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Intro", "url": "https://cbse.wyattau.com/intro"}]
+}
+</script>
 title: Introduction to CBSE Notes
 date: 2026-05-30
 description: "The is a national-level board of education in India for public and private schools, controlled and managed by the Union Government of India. It is one of"

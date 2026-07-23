@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Statistics", "url": "https://ap.wyattau.com/statistics"}, {"name": "2 Sampling Experimentation", "url": "https://ap.wyattau.com/statistics/2-sampling-experimentation"}, {"name": "2_sampling And Experimentation", "url": "https://ap.wyattau.com/statistics/2-sampling-experimentation/2_sampling-and-experimentation"}]
+}
+</script>
 title: Sampling and Experimentation
 description: "- : The entire group of individuals about which we want information - : A subset of the population that is actually studied - : A study that collects data"
 date: 2026-06-04T10:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "python", "url": "https://python.wyattau.com"}, {"name": "05 Standard Library", "url": "https://python.wyattau.com/05-standard-library"}, {"name": "01 Essential Modules", "url": "https://python.wyattau.com/05-standard-library/01-essential-modules"}]
+}
+</script>
 title: Essential Modules
 description: "The module is a collection of free functions that operate on path strings. It was designed In an era before Python had a coherent object model for paths."
 date: 2025-06-04T14:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "Hypothesis Testing Depth", "url": "https://alevel.wyattau.com/maths/statistics/hypothesis-testing-depth"}]
+}
+</script>
 title: Hypothesis Testing (Extended)
 description: "This document provides a rigorous treatment of hypothesis testing methodology, including null and Alternative hypotheses, significance levels, Type I and II"
 date: 2026-04-23T00:00:00.000Z

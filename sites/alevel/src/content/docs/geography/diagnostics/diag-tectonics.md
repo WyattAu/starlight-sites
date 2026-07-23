@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/geography/diagnostics"}, {"name": "Diag Tectonics", "url": "https://alevel.wyattau.com/geography/diagnostics/diag-tectonics"}]
+}
+</script>
 title: "Diagnostic Test: Tectonics"
 description: "Self-assessment quiz on A-Level physical geography tectonics"
 tableOfContents: false

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "10 State Management", "url": "https://dart.wyattau.com/10-state-management"}, {"name": "01 State Management", "url": "https://dart.wyattau.com/10-state-management/01-state-management"}]
+}
+</script>
 title: State Management
 description: "Flutter renders UI by calling on widgets. The method returns a widget tree based On the current state. When state changes, must be called again to produce"
 date: 2026-04-05T00:00:00.000Z

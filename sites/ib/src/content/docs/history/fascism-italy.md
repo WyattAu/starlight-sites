@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Fascism Italy", "url": "https://ib.wyattau.com/history/fascism-italy"}]
+}
+</script>
 title: Fascist Italy
 description: "IB History coverage of Fascist Italy: Mussolini's rise to power, Doctrine of Fascism, corporatism, foreign policy, social policies, and comparisons with Nazi Germany and Stalinist USSR."
 sidebar_position: 22

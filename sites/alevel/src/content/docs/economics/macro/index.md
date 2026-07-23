@@ -1,6 +1,37 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Macro", "url": "https://alevel.wyattau.com/economics/macro"}, {"name": "Index", "url": "https://alevel.wyattau.com/economics/macro/index"}]
+}
+</script>
 
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Macroeconomics",
+  "description": "'A-Level Macroeconomics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision and exam readiness.'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://alevel.wyattau.com"
+  },
+  "url": "https://alevel.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: Macroeconomics
 description: 'A-Level Macroeconomics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision and exam readiness.'
 ---

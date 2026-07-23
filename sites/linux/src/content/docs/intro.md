@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "Intro", "url": "https://linux.wyattau.com/intro"}]
+}
+</script>
 title: Introduction to Linux
 description: "Introduction to Linux operating system fundamentals."
 ---

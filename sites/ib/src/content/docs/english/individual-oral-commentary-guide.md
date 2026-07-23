@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Individual Oral Commentary Guide", "url": "https://ib.wyattau.com/english/individual-oral-commentary-guide"}]
+}
+</script>
 title: Individual Oral Commentary Guide
 description: "Guide for the IB English Individual Oral Commentary assessment."
 ---

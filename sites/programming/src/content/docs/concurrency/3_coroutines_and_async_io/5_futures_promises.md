@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Concurrency", "url": "https://programming.wyattau.com/concurrency"}, {"name": "3_coroutines_and_async_io", "url": "https://programming.wyattau.com/concurrency/3_coroutines_and_async_io"}, {"name": "5_futures_promises", "url": "https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/5_futures_promises"}]
+}
+</script>
 title: Futures, Promises, and Async Flows
 description: "This section covers launch policies, the Future/promise pair as a basic async primitive, composability limitations, async file reading, Parallel computation"
 date: 2026-04-03T00:00:00.000Z

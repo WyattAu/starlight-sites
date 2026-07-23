@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Biological", "url": "https://ib.wyattau.com/psychology/biological"}, {"name": "Neuroplasticity And Neurotransmission", "url": "https://ib.wyattau.com/psychology/biological/neuroplasticity-and-neurotransmission"}]
+}
+</script>
 title: Neuroplasticity and Neurotransmission
 description: "Synaptic transmission is the process by which neurons communicate with one another. It is the Fundamental mechanism underlying all neural activity, from"
 

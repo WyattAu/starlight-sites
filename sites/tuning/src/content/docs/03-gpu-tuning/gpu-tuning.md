@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "03 Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning"}, {"name": "Gpu Tuning", "url": "https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning"}]
+}
+</script>
 title: GPU Tuning
 description: "NVIDIA GPUs are organized into Streaming Multiprocessors (SMs), each containing a set of CUDA cores, Shared memory, register files, and scheduling units."
 

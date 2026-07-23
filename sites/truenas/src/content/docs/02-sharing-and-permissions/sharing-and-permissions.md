@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "02 Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions"}, {"name": "Sharing And Permissions", "url": "https://truenas.wyattau.com/02-sharing-and-permissions/sharing-and-permissions"}]
+}
+</script>
 title: Sharing and Permissions
 description: "Server Message Block (SMB) is the primary file sharing protocol for Windows environments. TrueNAS Uses Samba to provide SMB sharing. Modern versions support"
 

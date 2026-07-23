@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "kotlin", "url": "https://kotlin.wyattau.com"}, {"name": "Basics", "url": "https://kotlin.wyattau.com/basics"}, {"name": "Control Flow", "url": "https://kotlin.wyattau.com/basics/control-flow"}]
+}
+</script>
 title: Control Flow
 description: "In Kotlin, is an expression -- it returns a value. There is no ternary operator  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-18

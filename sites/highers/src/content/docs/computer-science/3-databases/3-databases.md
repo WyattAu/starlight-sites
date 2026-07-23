@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "3 Databases", "url": "https://highers.wyattau.com/computer-science/3-databases"}, {"name": "3 Databases", "url": "https://highers.wyattau.com/computer-science/3-databases/3-databases"}]
+}
+</script>
 title: "3 Databases"
 description: "Database concepts for Scottish Highers Computer Science."
 ---

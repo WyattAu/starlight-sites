@@ -1,6 +1,37 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/maths/mechanics"}, {"name": "Index", "url": "https://alevel.wyattau.com/maths/mechanics/index"}]
+}
+</script>
 
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Mechanics",
+  "description": "A-Level Maths Mechanics notes covering key definitions, core concepts, worked examples, and practice questions for systematic exam preparation and revision.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://alevel.wyattau.com"
+  },
+  "url": "https://alevel.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: Mechanics
 description: "A-Level Maths Mechanics notes covering key definitions, core concepts, worked examples, and practice questions for systematic exam preparation and revision."
 ---

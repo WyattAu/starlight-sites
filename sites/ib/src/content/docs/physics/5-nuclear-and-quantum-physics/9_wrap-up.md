@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "5 Nuclear And Quantum Physics", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics"}, {"name": "9_wrap Up", "url": "https://ib.wyattau.com/physics/5-nuclear-and-quantum-physics/9_wrap-up"}]
+}
+</script>
 title: Wrap Up
 description: "Comprehensive IB physics notes on Wrap Up key concepts and principles. Covers key definitions, worked examples, and practice problems for revision."
 date: 2024-01-01T00:00:00Z

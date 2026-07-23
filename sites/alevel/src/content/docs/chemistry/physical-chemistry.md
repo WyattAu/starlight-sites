@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry"}]
+}
+</script>
 title: Physical Chemistry
 description: "Comprehensive study guide covering the core physical chemistry topics for A-Level examinations across all major exam boards."
 date: 2026-05-31T00:00:00.000Z

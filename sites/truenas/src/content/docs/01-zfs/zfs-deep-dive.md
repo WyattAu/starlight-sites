@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "01 Zfs", "url": "https://truenas.wyattau.com/01-zfs"}, {"name": "Zfs Deep Dive", "url": "https://truenas.wyattau.com/01-zfs/zfs-deep-dive"}]
+}
+</script>
 title: ZFS Deep Dive
 description: "ZFS is not a traditional filesystem. It is a combined volume manager and filesys Comprehensive educational content coverage with definitions and practice proble"
 

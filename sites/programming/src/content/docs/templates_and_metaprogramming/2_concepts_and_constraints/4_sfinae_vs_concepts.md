@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://programming.wyattau.com/templates_and_metaprogramming"}, {"name": "2_concepts_and_constraints", "url": "https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints"}, {"name": "4_sfinae_vs_concepts", "url": "https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/4_sfinae_vs_concepts"}]
+}
+</script>
 title: SFINAE vs Concepts
 description: "(Substitution Failure Is Not An Error) was the primary mechanism for constraining Templates from C++98 through C++17. C++20 concepts provide a cleaner, more"
 date: 2026-04-03T00:00:00.000Z

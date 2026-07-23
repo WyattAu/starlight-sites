@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/history/diagnostics"}, {"name": "Diag Modern China", "url": "https://dse.wyattau.com/history/diagnostics/diag-modern-china"}]
+}
+</script>
 title: "Modern China -- Diagnostic Tests"
 description: "Modern China -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false

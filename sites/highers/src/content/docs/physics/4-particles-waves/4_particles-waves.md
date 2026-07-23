@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "4 Particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves"}, {"name": "4_particles Waves", "url": "https://highers.wyattau.com/physics/4-particles-waves/4_particles-waves"}]
+}
+</script>
 title: Particles and Waves
 description: "This chapter covers Physics content, extending beyond Higher level. Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-14

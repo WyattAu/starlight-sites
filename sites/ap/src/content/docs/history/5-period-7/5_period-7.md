@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "History", "url": "https://ap.wyattau.com/history"}, {"name": "5 Period 7", "url": "https://ap.wyattau.com/history/5-period-7"}, {"name": "5_period 7", "url": "https://ap.wyattau.com/history/5-period-7/5_period-7"}]
+}
+</script>
 title: Period 7 (1890-Present)
 description: "Progressivism was a reform movement that sought to address the social, political, and economic problems caused by industrialisation, urbanisation, and"
 date: 2026-06-04T10:00:00.000Z

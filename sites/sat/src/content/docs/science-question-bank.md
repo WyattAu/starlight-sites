@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Science Question Bank", "url": "https://sat.wyattau.com/science-question-bank"}]
+}
+</script>
 title: Science Practice Questions
 date: 2026-05-30
 tags:

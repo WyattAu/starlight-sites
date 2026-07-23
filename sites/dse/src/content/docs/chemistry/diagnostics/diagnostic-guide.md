@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://dse.wyattau.com/chemistry/diagnostics/diagnostic-guide"}]
+}
+</script>
 title: "DSE Chemistry Diagnostic Tests -- Guide"
 description: "These diagnostic tests target the questions within the HKDSE Chemistry specification. Each test is designed to expose deep misconceptions that separate"
 tableOfContents: false

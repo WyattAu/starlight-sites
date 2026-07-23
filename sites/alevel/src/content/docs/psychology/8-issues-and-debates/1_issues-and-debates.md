@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Psychology", "url": "https://alevel.wyattau.com/psychology"}, {"name": "8 Issues And Debates", "url": "https://alevel.wyattau.com/psychology/8-issues-and-debates"}, {"name": "1_issues And Debates", "url": "https://alevel.wyattau.com/psychology/8-issues-and-debates/1_issues-and-debates"}]
+}
+</script>
 title: Issues and Debates
 date: 2026-05-12T00:00:00.000Z
 tags:

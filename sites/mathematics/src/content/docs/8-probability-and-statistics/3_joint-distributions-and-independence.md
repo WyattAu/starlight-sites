@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "8 Probability And Statistics", "url": "https://mathematics.wyattau.com/8-probability-and-statistics"}, {"name": "3_joint Distributions And Independence", "url": "https://mathematics.wyattau.com/8-probability-and-statistics/3_joint-distributions-and-independence"}]
+}
+</script>
 title: Joint Distributions and Independence
 description: 'UNIVERSITY Mathematics notes: Joint Distributions and Independence. Comprehensive study material with definitions, examples, and assessment tools.'
 tags:

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "11 Networking And Data", "url": "https://dart.wyattau.com/11-networking-and-data"}, {"name": "01 Platform Integration", "url": "https://dart.wyattau.com/11-networking-and-data/01-platform-integration"}]
+}
+</script>
 title: Platform Integration
 description: "Flutter platform integration and native code access."
 date: 2026-04-05T00:00:00.000Z

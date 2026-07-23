@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Human Reproduction Homeostasis", "url": "https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis"}]
+}
+</script>
 title: "Human Reproduction and Homeostasis -- Diagnostic Tests"
 description: "DSE Biology Human Reproduction and Homeostasis -- notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

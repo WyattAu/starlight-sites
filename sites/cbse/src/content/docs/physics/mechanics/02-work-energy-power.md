@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}, {"name": "Mechanics", "url": "https://cbse.wyattau.com/physics/mechanics"}, {"name": "02 Work Energy Power", "url": "https://cbse.wyattau.com/physics/mechanics/02-work-energy-power"}]
+}
+</script>
 title: "Work energy power"
 description: "CBSE Class 12 physics: Work energy power"
 ---

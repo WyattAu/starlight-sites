@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming"}, {"name": "1_generic_programming", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/1_generic_programming"}, {"name": "4_dependent_names", "url": "https://cpp.wyattau.com/templates_and_metaprogramming/1_generic_programming/4_dependent_names"}]
+}
+</script>
 title: Dependent Names and Two-Phase Lookup
 description: "In templates, the distinction between and names determines when name Lookup occurs. Dependent names (those that depend on a template parameter) are looked"
 date: 2026-04-03T00:00:00.000Z

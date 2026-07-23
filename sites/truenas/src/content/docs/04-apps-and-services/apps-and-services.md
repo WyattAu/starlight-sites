@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "04 Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services"}, {"name": "Apps And Services", "url": "https://truenas.wyattau.com/04-apps-and-services/apps-and-services"}]
+}
+</script>
 title: Apps and Services
 description: "TrueNAS SCALE uses a Kubernetes-based application framework. Apps run as Helm charts deployed into a Lightweight Kubernetes cluster managed by TrueNAS. This"
 

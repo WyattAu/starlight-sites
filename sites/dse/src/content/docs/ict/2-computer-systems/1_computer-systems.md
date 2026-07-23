@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "2 Computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems"}, {"name": "1_computer Systems", "url": "https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems"}]
+}
+</script>
 title: Fundamentals of Computer Systems
 description: "The CPU is the primary component that executes instructions. It consists of thre Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-08T00:00:00.000Z

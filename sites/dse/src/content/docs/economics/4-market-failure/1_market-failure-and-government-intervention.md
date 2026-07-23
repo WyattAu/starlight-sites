@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "4 Market Failure", "url": "https://dse.wyattau.com/economics/4-market-failure"}, {"name": "1_market Failure And Government Intervention", "url": "https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention"}]
+}
+</script>
 title: Market Failure and Government Intervention
 description: "Market failure occurs when the free market, operating without government intervention, fails to Allocate resources in a way that maximises economic welfare."
 date: 2026-04-08T00:00:00.000Z

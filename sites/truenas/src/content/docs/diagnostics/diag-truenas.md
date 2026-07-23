@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Diagnostics", "url": "https://truenas.wyattau.com/diagnostics"}, {"name": "Diag Truenas", "url": "https://truenas.wyattau.com/diagnostics/diag-truenas"}]
+}
+</script>
 title: "Diagnostic Test: TrueNAS"
 description: "Self-assessment quiz on TrueNAS"
 sidebar_position: 60

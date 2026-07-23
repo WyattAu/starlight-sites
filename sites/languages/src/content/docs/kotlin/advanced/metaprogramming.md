@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Advanced", "url": "https://languages.wyattau.com/kotlin/advanced"}, {"name": "Metaprogramming", "url": "https://languages.wyattau.com/kotlin/advanced/metaprogramming"}]
+}
+</script>
 title: Metaprogramming
 description: 'Reflection allows inspection of classes, functions, properties, and annotations at runtime. Kotlin Reflection requires an additional dependency.'
 date: 2026-04-18

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "4 Multivariable Calculus", "url": "https://mathematics.wyattau.com/4-multivariable-calculus"}, {"name": "4_optimization", "url": "https://mathematics.wyattau.com/4-multivariable-calculus/4_optimization"}]
+}
+</script>
 title: Optimization
 tags:
   - Mathematics

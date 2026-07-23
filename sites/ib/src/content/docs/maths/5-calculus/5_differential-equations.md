@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "5 Calculus", "url": "https://ib.wyattau.com/maths/5-calculus"}, {"name": "5_differential Equations", "url": "https://ib.wyattau.com/maths/5-calculus/5_differential-equations"}]
+}
+</script>
 title: "Differential Equations"
 description: "IB Mathematics — first order separable equations, integrating factors, second order homogeneous equations, applications, and numerical methods."
 date: 2024-01-01T00:00:00Z

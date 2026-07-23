@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "8_geometries", "url": "https://dse.wyattau.com/maths/compulsory/8_geometries"}]
+}
+</script>
 title: Geometries
 description: "Coordinate geometry provides a bridge between algebraic equations and geometric figures, enabling The use of algebraic methods to solve geometric problems"
 date: 2025-06-03T16:20:00.000Z

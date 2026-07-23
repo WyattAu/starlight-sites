@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "7 Organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry"}, {"name": "1_organic Chemistry", "url": "https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry"}]
+}
+</script>
 title: Organic Chemistry
 description: "Organic chemistry is the study of carbon compounds. The definition traditionally excludes simple Carbon compounds such as carbon monoxide (), carbon dioxide"
 date: 2026-04-07T00:00:00.000Z

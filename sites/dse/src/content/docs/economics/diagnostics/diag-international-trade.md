@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/economics/diagnostics"}, {"name": "Diag International Trade", "url": "https://dse.wyattau.com/economics/diagnostics/diag-international-trade"}]
+}
+</script>
 title: "International Trade and Finance -- Diagnostic Tests"
 description: "DSE Economics International Trade and Finance -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

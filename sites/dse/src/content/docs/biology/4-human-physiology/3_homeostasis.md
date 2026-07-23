@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "3_homeostasis", "url": "https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis"}]
+}
+</script>
 title: Homeostasis
 description: "Homeostasis is the maintenance of a constant internal environment despite changes in the external environment. It is essential for the proper functioning of"
 date: 2026-04-08T00:00:00.000Z

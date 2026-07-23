@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "databases", "url": "https://databases.wyattau.com"}, {"name": "03 Indexing Optimization", "url": "https://databases.wyattau.com/03-indexing-optimization"}, {"name": "Query Optimization", "url": "https://databases.wyattau.com/03-indexing-optimization/query-optimization"}]
+}
+</script>
 title: Query Optimization
 description: "Query optimization techniques for database performance."
 ---

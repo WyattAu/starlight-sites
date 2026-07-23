@@ -1,6 +1,37 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "Index", "url": "https://gcse.wyattau.com/computer-science/index"}]
+}
+</script>
 
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "GCSE Computer Science",
+  "description": "Comprehensive revision notes for GCSE Computer Science, covering all major exam  Comprehensive educational content coverage with definitions and practice proble",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://gcse.wyattau.com"
+  },
+  "url": "https://gcse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: GCSE Computer Science
 description: "Comprehensive revision notes for GCSE Computer Science, covering all major exam  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14

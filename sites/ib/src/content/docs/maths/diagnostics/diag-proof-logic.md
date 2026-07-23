@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diag Proof Logic", "url": "https://ib.wyattau.com/maths/diagnostics/diag-proof-logic"}]
+}
+</script>
 title: "Proof and Logic -- Diagnostic Tests"
 description: "IB Maths Proof and Logic -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness."
 tableOfContents: false

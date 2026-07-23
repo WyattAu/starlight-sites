@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "1 Classical Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics"}, {"name": "3_lagrangian Mechanics", "url": "https://physics.wyattau.com/1-classical-mechanics/3_lagrangian-mechanics"}]
+}
+</script>
 title: Lagrangian Mechanics
 tags:
   - Physics

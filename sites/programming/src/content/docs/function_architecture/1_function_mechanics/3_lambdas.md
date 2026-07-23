@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Function_architecture", "url": "https://programming.wyattau.com/function_architecture"}, {"name": "1_function_mechanics", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics"}, {"name": "3_lambdas", "url": "https://programming.wyattau.com/function_architecture/1_function_mechanics/3_lambdas"}]
+}
+</script>
 title: Lambda Expressions — Capture Layouts and Closure Types
 description: "A lambda expression produces a — an unnamed object of an unnamed class type (the Closure type). This section covers lambda syntax, capture modes, generic"
 date: 2026-04-03T00:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "09 Jvm Internals", "url": "https://java.wyattau.com/09-jvm-internals"}, {"name": "01 Class Loading Memory", "url": "https://java.wyattau.com/09-jvm-internals/01-class-loading-memory"}]
+}
+</script>
 title: Class Loading and Memory Model
 description: "Java class loading and memory model."
 categories: ["java"]

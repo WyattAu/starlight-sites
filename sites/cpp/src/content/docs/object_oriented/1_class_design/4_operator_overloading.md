@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Object_oriented", "url": "https://cpp.wyattau.com/object_oriented"}, {"name": "1_class_design", "url": "https://cpp.wyattau.com/object_oriented/1_class_design"}, {"name": "4_operator_overloading", "url": "https://cpp.wyattau.com/object_oriented/1_class_design/4_operator_overloading"}]
+}
+</script>
 title: Operator Overloading
 description: "C++ allows user-defined types to overload most operators, enabling natural syntax for custom types. This section covers the rules for overloading, member vs"
 date: 2026-04-03T00:00:00.000Z

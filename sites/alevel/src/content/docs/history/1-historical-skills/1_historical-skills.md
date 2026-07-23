@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "History", "url": "https://alevel.wyattau.com/history"}, {"name": "1 Historical Skills", "url": "https://alevel.wyattau.com/history/1-historical-skills"}, {"name": "1_historical Skills", "url": "https://alevel.wyattau.com/history/1-historical-skills/1_historical-skills"}]
+}
+</script>
 title: Historical Skills
 date: 2026-05-21T00:00:00.000Z
 tags:

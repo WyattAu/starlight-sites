@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "04 Further Calculus", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/04-further-calculus"}]
+}
+</script>
 title: Further Calculus
 description: "This topic extends the calculus of A Level Mathematics to more powerful integration techniques, Inverse trigonometric functions, volumes of revolution, arc"
 date: 2026-04-02T00:00:00.000Z

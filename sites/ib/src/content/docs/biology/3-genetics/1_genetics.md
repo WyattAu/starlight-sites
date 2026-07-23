@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "3 Genetics", "url": "https://ib.wyattau.com/biology/3-genetics"}, {"name": "1_genetics", "url": "https://ib.wyattau.com/biology/3-genetics/1_genetics"}]
+}
+</script>
 title: Genetics
 description: "IB Biology — meiosis, Mendelian genetics, inheritance patterns, gene expression, mutations, biotechnology, PCR, and genetic modification."
 date: 2024-01-01T00:00:00Z

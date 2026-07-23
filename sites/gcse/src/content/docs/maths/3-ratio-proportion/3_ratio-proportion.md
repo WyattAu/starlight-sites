@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "3 Ratio Proportion", "url": "https://gcse.wyattau.com/maths/3-ratio-proportion"}, {"name": "3_ratio Proportion", "url": "https://gcse.wyattau.com/maths/3-ratio-proportion/3_ratio-proportion"}]
+}
+</script>
 title: Ratio, Proportion, and Rates of Change
 description: 'A compares quantities of the same kind. Ratios are written in their simplest form by Dividing all parts by their highest common factor.'
 date: 2026-04-14

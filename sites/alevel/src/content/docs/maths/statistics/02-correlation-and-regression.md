@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "02 Correlation And Regression", "url": "https://alevel.wyattau.com/maths/statistics/02-correlation-and-regression"}]
+}
+</script>
 title: Correlation and Regression
 description: "| Board | Paper | Notes | | ---------- | ------- | ----------------------------------- | | AQA | Paper 1 | PMCC, regression lines | | Edexcel | P1 |"
 date: 2025-06-02T16:25:28.480Z

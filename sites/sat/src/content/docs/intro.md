@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "sat", "url": "https://sat.wyattau.com"}, {"name": "Intro", "url": "https://sat.wyattau.com/intro"}]
+}
+</script>
 title: Introduction to SAT Notes
 date: 2026-05-30
 description: "The SAT, administered by the College Board, is a standardised test widely used for undergraduate admissions in the United States. Since 2024 the SAT has"

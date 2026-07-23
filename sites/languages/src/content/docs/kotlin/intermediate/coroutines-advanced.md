@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Kotlin", "url": "https://languages.wyattau.com/kotlin"}, {"name": "Intermediate", "url": "https://languages.wyattau.com/kotlin/intermediate"}, {"name": "Coroutines Advanced", "url": "https://languages.wyattau.com/kotlin/intermediate/coroutines-advanced"}]
+}
+</script>
 title: coroutines advanced
 date: 2026-05-30
 tags:

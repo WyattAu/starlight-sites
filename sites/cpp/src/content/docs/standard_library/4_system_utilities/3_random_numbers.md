@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Standard_library", "url": "https://cpp.wyattau.com/standard_library"}, {"name": "4_system_utilities", "url": "https://cpp.wyattau.com/standard_library/4_system_utilities"}, {"name": "3_random_numbers", "url": "https://cpp.wyattau.com/standard_library/4_system_utilities/3_random_numbers"}]
+}
+</script>
 title: Random Number Generation
 description: "The header provides a modular random number generation system consisting of engines (stateful objects producing random number sequences), distributions"
 date: 2026-04-03T00:00:00.000Z

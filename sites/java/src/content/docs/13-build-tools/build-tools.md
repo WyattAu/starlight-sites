@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "13 Build Tools", "url": "https://java.wyattau.com/13-build-tools"}, {"name": "Build Tools", "url": "https://java.wyattau.com/13-build-tools/build-tools"}]
+}
+</script>
 title: Build Tools and Dependency Management
 description: "Java projects follow a standard directory layout established by Maven and adopte Comprehensive educational content coverage with definitions and practice proble"
 

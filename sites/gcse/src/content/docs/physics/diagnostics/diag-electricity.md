@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Physics", "url": "https://gcse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electricity", "url": "https://gcse.wyattau.com/physics/diagnostics/diag-electricity"}]
+}
+</script>
 title: "Electricity -- Diagnostic Tests"
 description: "(a) Define current, voltage, and resistance. (b) A circuit has a 12 V battery connected to a resistor of 4 . Calculate the current. (c) A bulb has a"
 tableOfContents: false

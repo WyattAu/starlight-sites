@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "5 Ordinary Differential Equations", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations"}, {"name": "9_stability And Phase Plane Analysis", "url": "https://mathematics.wyattau.com/5-ordinary-differential-equations/9_stability-and-phase-plane-analysis"}]
+}
+</script>
 title: Stability and Phase Plane Analysis
 tags:
   - Mathematics

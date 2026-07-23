@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "06 Concurrency", "url": "https://rust.wyattau.com/06-concurrency"}, {"name": "Channels And Message Passing", "url": "https://rust.wyattau.com/06-concurrency/channels-and-message-passing"}]
+}
+</script>
 title: Channels and Message Passing
 description: "Channels implement the actor model — concurrent tasks communicate by sending messages rather than Sharing memory. Rust provides several channel types, each"
 

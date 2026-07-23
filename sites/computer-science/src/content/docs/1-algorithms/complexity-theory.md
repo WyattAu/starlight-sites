@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Complexity Theory", "url": "https://computer-science.wyattau.com/1-algorithms/complexity-theory"}]
+}
+</script>
 title: Complexity Theory
 description: "University Computer Science Complexity Theory notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."
 date: 2026-05-31T00:00:00.000Z

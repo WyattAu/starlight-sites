@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "5_property_propagation", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/5_property_propagation"}]
+}
+</script>
 title: Property Propagation
 description: "Understanding property propagation in C++ build systems."
 date: 2025-12-11T05:21:57.536Z

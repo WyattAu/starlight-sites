@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Calculus Ab", "url": "https://ap.wyattau.com/calculus-ab"}]
+}
+</script>
 title: AP Calculus AB Study Guide
 description: "Comprehensive study guide for AP Calculus AB, aligned with the College Board Course and Exam Description. Covers all AB-only topics: limits, derivatives,"
 date: 2026-05-31

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Chemistry", "url": "https://leaving-cert.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://leaving-cert.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://leaving-cert.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
+}
+</script>
 title: "Atomic Structure -- Diagnostic Tests"
 description: "QUALIFICATIONS Ilc notes: Atomic Structure -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools."
 tableOfContents: false

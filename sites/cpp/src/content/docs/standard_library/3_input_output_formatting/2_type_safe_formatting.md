@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Standard_library", "url": "https://cpp.wyattau.com/standard_library"}, {"name": "3_input_output_formatting", "url": "https://cpp.wyattau.com/standard_library/3_input_output_formatting"}, {"name": "2_type_safe_formatting", "url": "https://cpp.wyattau.com/standard_library/3_input_output_formatting/2_type_safe_formatting"}]
+}
+</script>
 title: Type-Safe Formatting (std::format, std::print)
 description: "C++20 introduced A type-safe formatting function that checks argument types at Compile time using a concise format specification syntax. C++23 added and for"
 date: 2026-04-03T00:00:00.000Z

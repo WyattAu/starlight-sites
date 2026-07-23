@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "5 Programming", "url": "https://gcse.wyattau.com/computer-science/5-programming"}, {"name": "5_programming", "url": "https://gcse.wyattau.com/computer-science/5-programming/5_programming"}]
+}
+</script>
 title: Programming
 description: "Programming: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2026-04-14

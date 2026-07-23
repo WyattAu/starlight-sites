@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gaokao", "url": "https://gaokao.wyattau.com"}, {"name": "Intro", "url": "https://gaokao.wyattau.com/intro"}]
+}
+</script>
 title: Introduction to Gaokao Notes
 date: 2026-05-30
 description: "The (高考, formally the National College Entrance Examination) is the standardised examination used for university admission in China. It is widely regarded"

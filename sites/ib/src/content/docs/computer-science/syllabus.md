@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Syllabus", "url": "https://ib.wyattau.com/computer-science/syllabus"}]
+}
+</script>
 title: Syllabus
 description: "First assessment 2025. The course is organized into five core themes studied at both Standard Level (SL) and Higher Level (HL), plus an HL Extension with"
 ---

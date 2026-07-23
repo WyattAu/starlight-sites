@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "06 Collections", "url": "https://dart.wyattau.com/06-collections"}, {"name": "01 Collections Deep Dive", "url": "https://dart.wyattau.com/06-collections/01-collections-deep-dive"}]
+}
+</script>
 title: Collections Deep Dive
 description: "Dart collections deep dive and hierarchy."
 date: 2026-04-05T00:00:00.000Z

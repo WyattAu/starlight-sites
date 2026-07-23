@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Standard_library", "url": "https://cpp.wyattau.com/standard_library"}, {"name": "4_system_utilities", "url": "https://cpp.wyattau.com/standard_library/4_system_utilities"}, {"name": "1_filesystem", "url": "https://cpp.wyattau.com/standard_library/4_system_utilities/1_filesystem"}]
+}
+</script>
 title: Filesystem Library
 description: "(C++17) provides a portable interface for manipulating paths, querying file Metadata, iterating directories, and performing file operations. It abstracts"
 date: 2026-04-03T00:00:00.000Z

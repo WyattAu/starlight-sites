@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "10 Measure Theory", "url": "https://mathematics.wyattau.com/10-measure-theory"}, {"name": "8_fubini And Tonelli Theorems", "url": "https://mathematics.wyattau.com/10-measure-theory/8_fubini-and-tonelli-theorems"}]
+}
+</script>
 title: Fubini and Tonelli Theorems
 tags:
   - Mathematics

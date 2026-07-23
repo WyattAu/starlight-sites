@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://ib.wyattau.com/maths/diagnostics/diagnostic-guide"}]
+}
+</script>
 title: Diagnostic Test Guide
 description: "This document defines the diagnostic testing framework for IB Mathematics. The Diagnostic tests are the hardest questions within the specification, designed"
 tableOfContents: false

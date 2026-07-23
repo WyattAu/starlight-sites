@@ -1,6 +1,37 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "Index", "url": "https://gcse.wyattau.com/english/index"}]
+}
+</script>
 
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "GCSE English Literature",
+  "description": "GCSE English Literature is a compulsory qualification across all major examination boards in England, Wales, and Northern Ireland. The course requires",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://gcse.wyattau.com"
+  },
+  "url": "https://gcse.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: GCSE English Literature
 description: "GCSE English Literature is a compulsory qualification across all major examination boards in England, Wales, and Northern Ireland. The course requires"
 date: 2026-04-22

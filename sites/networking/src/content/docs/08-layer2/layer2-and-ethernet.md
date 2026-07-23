@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "08 Layer2", "url": "https://networking.wyattau.com/08-layer2"}, {"name": "Layer2 And Ethernet", "url": "https://networking.wyattau.com/08-layer2/layer2-and-ethernet"}]
+}
+</script>
 title: Layer 2 and Ethernet
 description: "Layer 2 networking and Ethernet fundamentals."
 date: 2026-04-08T00:00:00.000Z

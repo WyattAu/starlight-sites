@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "linux", "url": "https://linux.wyattau.com"}, {"name": "02 File Systems", "url": "https://linux.wyattau.com/02-file-systems"}, {"name": "File Permissions", "url": "https://linux.wyattau.com/02-file-systems/file-permissions"}]
+}
+</script>
 title: File Permissions and ACLs
 description: "Every file and directory on a Linux system carries a set of permission bits that control which users Can read, write, or execute it. The kernel enforces"
 

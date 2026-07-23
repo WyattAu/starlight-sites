@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Computer Science", "url": "https://highers.wyattau.com/computer-science"}, {"name": "2 Software", "url": "https://highers.wyattau.com/computer-science/2-software"}, {"name": "2_software", "url": "https://highers.wyattau.com/computer-science/2-software/2_software"}]
+}
+</script>
 title: Software Design and Development
 description: "Scottish Highers Computer Science Software Design and notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 date: 2026-04-14

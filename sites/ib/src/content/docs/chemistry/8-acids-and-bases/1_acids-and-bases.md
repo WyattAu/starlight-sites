@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "8 Acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases"}, {"name": "1_acids And Bases", "url": "https://ib.wyattau.com/chemistry/8-acids-and-bases/1_acids-and-bases"}]
+}
+</script>
 title: Acids and Bases
 description: "Rigorous IB chemistry notes covering Acids and Bases. Includes definitions, derivations, worked examples, and exam-style problems. buffers, titrations,"
 date: 2024-01-01T00:00:00Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Physics", "url": "https://ib.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/physics/diagnostics"}, {"name": "Diag Dynamics", "url": "https://ib.wyattau.com/physics/diagnostics/diag-dynamics"}]
+}
+</script>
 title: "Dynamics -- Diagnostic Tests"
 description: "IB Physics Dynamics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."
 tableOfContents: false

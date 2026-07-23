@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Microeconomics", "url": "https://alevel.wyattau.com/economics/microeconomics"}, {"name": "06 Distribution Of Income", "url": "https://alevel.wyattau.com/economics/microeconomics/06-distribution-of-income"}]
+}
+</script>
 title: Distribution of Income
 description: "The plots the cumulative proportion of total income received by the cumulative Proportion of the population, ordered from poorest to richest."
 date: 2025-06-02T16:25:28.480Z

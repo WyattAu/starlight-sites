@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "5 Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems"}, {"name": "1_introduction To Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems/1_introduction-to-operating-systems"}]
+}
+</script>
 title: Introduction to Operating Systems
 tags:
   - Computing

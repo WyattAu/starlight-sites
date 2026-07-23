@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Biology", "url": "https://ap.wyattau.com/biology"}, {"name": "2 Cell Structure And Function", "url": "https://ap.wyattau.com/biology/2-cell-structure-and-function"}, {"name": "2_cell Structure And Function", "url": "https://ap.wyattau.com/biology/2-cell-structure-and-function/2_cell-structure-and-function"}]
+}
+</script>
 title: Cell Structure and Function
 description: "Qualifications Biology Cell Structure and Function notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation."
 date: 2026-04-14

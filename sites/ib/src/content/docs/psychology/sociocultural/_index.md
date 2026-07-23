@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Sociocultural", "url": "https://ib.wyattau.com/psychology/sociocultural"}, {"name": "_index", "url": "https://ib.wyattau.com/psychology/sociocultural/_index"}]
+}
+</script>
 title: Sociocultural Level of Analysis
 description: "This section covers the sociocultural level of analysis, investigating how the social environment and cultural context influence behaviour."
 

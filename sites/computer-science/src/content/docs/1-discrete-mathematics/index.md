@@ -1,6 +1,37 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Discrete Mathematics", "url": "https://computer-science.wyattau.com/1-discrete-mathematics"}, {"name": "Index", "url": "https://computer-science.wyattau.com/1-discrete-mathematics/index"}]
+}
+</script>
 
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Discrete Mathematics",
+  "description": "Discrete mathematics provides the mathematical foundations required throughout computer science. Unlike continuous mathematics, which studies quantities",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://computer-science.wyattau.com"
+  },
+  "url": "https://computer-science.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: Discrete Mathematics
 description: "Discrete mathematics provides the mathematical foundations required throughout computer science. Unlike continuous mathematics, which studies quantities"
 tags:

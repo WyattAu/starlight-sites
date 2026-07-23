@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "04 Dns", "url": "https://networking.wyattau.com/04-dns"}, {"name": "Dns", "url": "https://networking.wyattau.com/04-dns/dns"}]
+}
+</script>
 title: DNS
 description: "Domain Name System fundamentals and configuration."
 tags:

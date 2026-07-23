@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Concurrency", "url": "https://programming.wyattau.com/concurrency"}, {"name": "2_memory_model_and_atomics", "url": "https://programming.wyattau.com/concurrency/2_memory_model_and_atomics"}, {"name": "5_cas_loops", "url": "https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/5_cas_loops"}]
+}
+</script>
 title: Compare-and-Swap (CAS) Loops
 description: "This section covers the CAS loop pattern, the difference between and When weak CAS is preferable, linearizability of CAS-based data Structures, a lock-free"
 date: 2026-04-03T00:00:00.000Z

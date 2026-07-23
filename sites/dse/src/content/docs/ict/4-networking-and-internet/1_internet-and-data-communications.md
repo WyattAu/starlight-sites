@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "4 Networking And Internet", "url": "https://dse.wyattau.com/ict/4-networking-and-internet"}, {"name": "1_internet And Data Communications", "url": "https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications"}]
+}
+</script>
 title: Internet and Data Communications
 description: "| Type | Full Name | Range | Example | | ------- | --------------------- | ------------------------- | ------------------------------------------------- | |"
 date: 2026-04-08T00:00:00.000Z

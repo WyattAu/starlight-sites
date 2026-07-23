@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Maths", "url": "https://leaving-cert.wyattau.com/maths"}, {"name": "1 Algebra", "url": "https://leaving-cert.wyattau.com/maths/1-algebra"}, {"name": "1_algebra", "url": "https://leaving-cert.wyattau.com/maths/1-algebra/1_algebra"}]
+}
+</script>
 title: Algebra
 description: "Algebra is a fundamental area of the Leaving Certificate Mathematics syllabus, appearing in both Paper 1 and Paper 2. This topic covers algebraic"
 date: 2026-04-14

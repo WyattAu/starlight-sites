@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Functions", "url": "https://languages.wyattau.com/typescript/functions"}]
+}
+</script>
 title: Functions
 description: "Every function parameter may carry a type annotation. When the annotation is present, the compiler Verifies that all call sites provide arguments of the"
 date: 2026-04-22T00:00:00.000Z

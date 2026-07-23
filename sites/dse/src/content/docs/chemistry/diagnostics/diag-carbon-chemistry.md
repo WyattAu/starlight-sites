@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Carbon Chemistry", "url": "https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry"}]
+}
+</script>
 title: "Carbon Chemistry -- Diagnostic Tests"
 description: "DSE Carbon Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision."
 tableOfContents: false

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Language And Literature", "url": "https://ib.wyattau.com/english/language-and-literature"}]
+}
+</script>
 title: "IB Language and Literature Course Overview"
 description: "Comprehensive overview of IB Language and Literature: Paper 1, Paper 2, HL Essay, Individual Oral, assessment weightings, key differences from English A Literature, and study strategies."
 sidebar_position: 14

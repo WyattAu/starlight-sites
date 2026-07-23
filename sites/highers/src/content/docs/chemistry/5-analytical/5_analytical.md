@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "5 Analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical"}, {"name": "5_analytical", "url": "https://highers.wyattau.com/chemistry/5-analytical/5_analytical"}]
+}
+</script>
 title: Analytical Chemistry
 description: "Scottish Highers Analytical Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
 date: 2026-04-14

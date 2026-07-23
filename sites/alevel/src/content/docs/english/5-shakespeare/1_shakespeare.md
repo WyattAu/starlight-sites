@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "5 Shakespeare", "url": "https://alevel.wyattau.com/english/5-shakespeare"}, {"name": "1_shakespeare", "url": "https://alevel.wyattau.com/english/5-shakespeare/1_shakespeare"}]
+}
+</script>
 title: Shakespeare
 date: 2026-01-15T00:00:00.000Z
 tags:

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/economics/diagnostics"}, {"name": "Diag Theory Of The Firm", "url": "https://alevel.wyattau.com/economics/diagnostics/diag-theory-of-the-firm"}]
+}
+</script>
 title: "Theory of the Firm -- Diagnostic Tests"
 description: "A-Level Economics Theory of the Firm -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

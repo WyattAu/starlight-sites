@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "2 Macroeconomics", "url": "https://ib.wyattau.com/economics/2-macroeconomics"}, {"name": "2 Fiscal Policy", "url": "https://ib.wyattau.com/economics/2-macroeconomics/2-fiscal-policy"}]
+}
+</script>
 title: Fiscal Policy
 description: "Fiscal policy involves government decisions about taxation and spending to influ Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-05-21

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "2 19th Century Novel", "url": "https://gcse.wyattau.com/english/2-19th-century-novel"}, {"name": "2_19th Century Novel", "url": "https://gcse.wyattau.com/english/2-19th-century-novel/2_19th-century-novel"}]
+}
+</script>
 title: The 19th-Century Novel
 description: "The 19th-Century Novel: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2026-04-22

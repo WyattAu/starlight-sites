@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Mechanics", "url": "https://alevel.wyattau.com/further-maths/further-mechanics"}, {"name": "01 Projectile Motion", "url": "https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion"}]
+}
+</script>
 title: Projectile Motion
 description: "Projectile motion is the motion of a body launched into the air and subject only to the acceleration Due to gravity. By resolving the initial velocity into"
 date: 2026-04-02T00:00:00.000Z

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "History", "url": "https://dse.wyattau.com/history"}, {"name": "Chinese Revolution", "url": "https://dse.wyattau.com/history/chinese-revolution"}]
+}
+</script>
 title: "The Chinese Revolution"
 description: "Fall of the Qing Dynasty, warlord era, rise of the CCP and KMT, Long March, Nanjing Decade, Second United Front, Chinese Civil War, and establishment of the PRC."
 sidebar_position: 3

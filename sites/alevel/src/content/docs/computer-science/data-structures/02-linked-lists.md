@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Data Structures", "url": "https://alevel.wyattau.com/computer-science/data-structures"}, {"name": "02 Linked Lists", "url": "https://alevel.wyattau.com/computer-science/data-structures/02-linked-lists"}]
+}
+</script>
 title: Linked Lists
 description: "A is a linear data structure where each element (called a ) contains data And a reference (pointer) to the next node. Unlike arrays, elements are stored"
 date: 2025-06-02T16:25:28.480Z

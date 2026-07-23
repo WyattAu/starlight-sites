@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics/economics"}]
+}
+</script>
 title: Economics
 description: "A Level Economics is the study of how societies allocate scarce resources. It develops a rigorous Analytical framework for understanding markets, firms,"
 date: 2025-06-02T16:25:28.480Z

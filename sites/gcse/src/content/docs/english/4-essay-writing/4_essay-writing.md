@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "English", "url": "https://gcse.wyattau.com/english"}, {"name": "4 Essay Writing", "url": "https://gcse.wyattau.com/english/4-essay-writing"}, {"name": "4_essay Writing", "url": "https://gcse.wyattau.com/english/4-essay-writing/4_essay-writing"}]
+}
+</script>
 title: Essay Writing for GCSE English Literature
 description: "GCSE Essay Writing for GCSE English Literature notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation."
 date: 2026-04-22

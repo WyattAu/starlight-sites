@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Algorithms And Data Structures", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures"}, {"name": "9_algorithms Advanced", "url": "https://computer-science.wyattau.com/2-algorithms-and-data-structures/9_algorithms-advanced"}]
+}
+</script>
 title: Algorithms (Advanced)
 description: "Algorithms (Advanced): comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2026-05-06T00:00:00.000Z

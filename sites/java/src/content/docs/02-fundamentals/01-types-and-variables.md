@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "02 Fundamentals", "url": "https://java.wyattau.com/02-fundamentals"}, {"name": "01 Types And Variables", "url": "https://java.wyattau.com/02-fundamentals/01-types-and-variables"}]
+}
+</script>
 title: Types and Variables
 description: "Java types and variables fundamentals."
 categories: ['java']

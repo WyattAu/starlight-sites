@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "5_bose Einstein Condensation", "url": "https://physics.wyattau.com/2-thermal-physics/5_bose-einstein-condensation"}]
+}
+</script>
 title: Bose-Einstein Condensation
 tags:
   - Physics

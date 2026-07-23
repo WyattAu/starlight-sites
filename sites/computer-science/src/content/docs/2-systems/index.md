@@ -1,6 +1,37 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "2 Systems", "url": "https://computer-science.wyattau.com/2-systems"}, {"name": "Index", "url": "https://computer-science.wyattau.com/2-systems/index"}]
+}
+</script>
 
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Systems",
+  "description": "'Topics in computer systems including operating systems, computer architecture, concurrency, and networking fundamentals.'",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://computer-science.wyattau.com"
+  },
+  "url": "https://computer-science.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
 title: Systems
 description: 'Topics in computer systems including operating systems, computer architecture, concurrency, and networking fundamentals.'
 ---

@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "6 Resource Management", "url": "https://ib.wyattau.com/computer-science/6-resource-management"}, {"name": "1_databases", "url": "https://ib.wyattau.com/computer-science/6-resource-management/1_databases"}]
+}
+</script>
 title: Databases
 description: "Rigorous IB computer science notes covering Databases. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

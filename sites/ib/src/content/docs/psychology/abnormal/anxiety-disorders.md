@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Abnormal", "url": "https://ib.wyattau.com/psychology/abnormal"}, {"name": "Anxiety Disorders", "url": "https://ib.wyattau.com/psychology/abnormal/anxiety-disorders"}]
+}
+</script>
 title: Anxiety Disorders
 description: "Anxiety disorders are characterised by excessive, persistent fear and anxiety that are Disproportionate to the actual threat and that significantly impair"
 

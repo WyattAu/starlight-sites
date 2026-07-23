@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/physics/diagnostics"}, {"name": "Diag Electricity Magnetism", "url": "https://dse.wyattau.com/physics/diagnostics/diag-electricity-magnetism"}]
+}
+</script>
 title: "Electricity and Magnetism -- Diagnostic Tests"
 description: "DSE Physics Electricity and Magnetism -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

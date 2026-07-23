@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Biology", "url": "https://ap.wyattau.com/biology"}, {"name": "1 Chemistry Of Life", "url": "https://ap.wyattau.com/biology/1-chemistry-of-life"}, {"name": "1_chemistry Of Life", "url": "https://ap.wyattau.com/biology/1-chemistry-of-life/1_chemistry-of-life"}]
+}
+</script>
 title: Chemistry of Life
 description: "The most common elements in living organisms: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-04-14

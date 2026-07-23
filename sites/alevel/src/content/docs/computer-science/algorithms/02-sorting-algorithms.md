@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Algorithms", "url": "https://alevel.wyattau.com/computer-science/algorithms"}, {"name": "02 Sorting Algorithms", "url": "https://alevel.wyattau.com/computer-science/algorithms/02-sorting-algorithms"}]
+}
+</script>
 title: Sorting Algorithms
 description: "Given an array Rearrange the elements into non-decreasing Order: Comprehensive educational content coverage with definitions and practice problems."
 date: 2025-06-02T16:25:28.480Z

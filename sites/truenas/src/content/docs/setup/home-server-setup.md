@@ -1,5 +1,13 @@
 ---
 
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "truenas", "url": "https://truenas.wyattau.com"}, {"name": "Setup", "url": "https://truenas.wyattau.com/setup"}, {"name": "Home Server Setup", "url": "https://truenas.wyattau.com/setup/home-server-setup"}]
+}
+</script>
 title: Setting Up Home Server
 description: "For a homelab NAS running TrueNAS SCALE, CPU choice depends on the workload: Comprehensive educational content coverage with definitions and practice problems."
 date: 2025-07-11T17:57:30.362Z
