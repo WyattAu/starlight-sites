@@ -84,10 +84,10 @@ const breadcrumbSchema = generateBreadcrumbSchema({
 // Only generate page-specific schemas when frontmatter data exists
 const hasFAQ = entry?.data?.faq && Array.isArray(entry.data.faq) && entry.data.faq.length > 0;
 const hasHowTo = entry?.data?.howTo && Array.isArray(entry.data.howTo) && entry.data.howTo.steps?.length > 0;
-const hasCourse = entry?.data?.course && entry.data.course.name;
-const hasVideo = entry?.data?.video && entry.data.video.name;
-const hasImage = entry?.data?.image && entry.data.image.url;
-const hasCode = entry?.data?.code && entry.data.code.name;
+const hasCourse = entry?.data?.course?.name;
+const hasVideo = entry?.data?.video?.name;
+const hasImage = entry?.data?.image?.url;
+const hasCode = entry?.data?.code?.name;
 
 // Generate FAQ schema from frontmatter or fallback to site-wide FAQ for homepage only
 const faqSchema = hasFAQ
@@ -187,11 +187,12 @@ const codeSchema = hasCode ? generateSoftwareSourceCodeSchema(entry.data.code) :
 <!-- SEO Meta Tags -->
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 <meta name="googlebot" content="index, follow" />
-<link rel="canonical" href={pageUrl} />
+<!-- Canonical URL: always point to wyattau.com to avoid duplicate content -->
+<link rel="canonical" href={pageUrl.replace(/username\.github\.io|wyattau\.github\.io/g, 'wyattau.com').replace(/gitlab\.io/g, 'wyattau.com')} />
 
 <!-- Hreflang for i18n -->
-<link rel="alternate" hreflang="en" href={pageUrl} />
-<link rel="alternate" hreflang="x-default" href={pageUrl} />
+<link rel="alternate" hreflang="en" href={pageUrl.replace(/username\.github\.io|wyattau\.github\.io/g, 'wyattau.com').replace(/gitlab\.io/g, 'wyattau.com')} />
+<link rel="alternate" hreflang="x-default" href={pageUrl.replace(/username\.github\.io|wyattau\.github\.io/g, 'wyattau.com').replace(/gitlab\.io/g, 'wyattau.com')} />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="article" />

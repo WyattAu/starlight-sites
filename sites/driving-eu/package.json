@@ -1,0 +1,25 @@
+{
+  "name": "@wyattau/driving-eu",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.1",
+    "@astrojs/sitemap": "^3.4.0",
+    "@astrojs/solid-js": "^6.0.2",
+    "@tailwindcss/vite": "^4.1.8",
+    "astro": "^6.4.8",
+    "astro-compress": "^1.1.55",
+    "solid-js": "^1.9.7",
+    "starlight-blog": "^0.1.4",
+    "starlight-links-validator": "^0.14.3",
+    "starlight-view-transitions": "^0.3.4",
+    "tailwindcss": "^4.1.8"
+  }
+}
