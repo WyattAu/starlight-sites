@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Elixir", "url": "https://languages.wyattau.com/elixir"}, {"name": "00 Intro", "url": "https://languages.wyattau.com/elixir/00-intro"}, {"name": "1_elixir Intro", "url": "https://languages.wyattau.com/elixir/00-intro/1_elixir-intro"}]
-}
-</script>
 title: Introduction to Elixir
 description: "Elixir is a programming language that runs on the . It was designed to build scalable, maintainable, and fault-tolerant applications by combining the"
 date: 2026-06-04T10:00:00.000Z

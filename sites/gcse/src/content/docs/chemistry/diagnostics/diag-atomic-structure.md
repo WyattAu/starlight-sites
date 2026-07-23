@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Chemistry", "url": "https://gcse.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Atomic Structure", "url": "https://gcse.wyattau.com/chemistry/diagnostics/diag-atomic-structure"}]
-}
-</script>
 title: "Atomic Structure -- Diagnostic Tests"
 description: "Atomic Structure -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 tableOfContents: false

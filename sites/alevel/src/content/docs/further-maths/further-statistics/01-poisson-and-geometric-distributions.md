@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Statistics", "url": "https://alevel.wyattau.com/further-maths/further-statistics"}, {"name": "01 Poisson And Geometric Distributions", "url": "https://alevel.wyattau.com/further-maths/further-statistics/01-poisson-and-geometric-distributions"}]
-}
-</script>
 title: Poisson and Geometric Distributions
 description: "The Poisson and geometric distributions model discrete random variables arising from counting Processes. The Poisson distribution counts the number of rare"
 date: 2026-04-02T00:00:00.000Z

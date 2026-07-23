@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "6 Comparative Analysis", "url": "https://alevel.wyattau.com/english/6-comparative-analysis"}, {"name": "1_comparative Analysis", "url": "https://alevel.wyattau.com/english/6-comparative-analysis/1_comparative-analysis"}]
-}
-</script>
 title: Comparative Analysis
 date: 2026-01-15T00:00:00.000Z
 tags:

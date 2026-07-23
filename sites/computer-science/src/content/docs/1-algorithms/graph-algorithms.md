@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Graph Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms/graph-algorithms"}]
-}
-</script>
 title: Graph Algorithms
 description: "Explores vertices in order of increasing distance from the source. Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-05-31T00:00:00.000Z

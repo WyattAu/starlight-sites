@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "5 Operating Systems", "url": "https://computer-science.wyattau.com/5-operating-systems"}, {"name": "4_deadlocks", "url": "https://computer-science.wyattau.com/5-operating-systems/4_deadlocks"}]
-}
-</script>
 title: Deadlocks
 tags:
   - Computing

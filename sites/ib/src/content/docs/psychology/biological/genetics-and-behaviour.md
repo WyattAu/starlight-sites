@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Biological", "url": "https://ib.wyattau.com/psychology/biological"}, {"name": "Genetics And Behaviour", "url": "https://ib.wyattau.com/psychology/biological/genetics-and-behaviour"}]
-}
-</script>
 title: Genetics and Behaviour
 description: "The question of how much behaviour is determined by genes versus environment is one of the oldest And most contentious in psychology. Behaviour genetics is"
 

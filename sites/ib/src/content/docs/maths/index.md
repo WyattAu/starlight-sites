@@ -1,37 +1,6 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "Index", "url": "https://ib.wyattau.com/maths/index"}]
-}
-</script>
 
-<!-- Course Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "IB Mathematics",
-  "description": "Complete IB Mathematics revision notes covering algebra, functions, trigonometry, calculus, probability, statistics, vectors, and matrices. Worked examples,",
-  "provider": {
-    "@type": "Organization",
-    "name": "Wyatt's Notes",
-    "url": "https://ib.wyattau.com"
-  },
-  "url": "https://ib.wyattau.com",
-  "educationalLevel": "Secondary",
-  "inLanguage": "en",
-  "isAccessibleForFree": true,
-  "hasCourseInstance": {
-    "@type": "CourseInstance",
-    "courseMode": "online",
-    "courseWorkload": "PT1H"
-  }
-}
-</script>
 title: IB Mathematics
 description: "Complete IB Mathematics revision notes covering algebra, functions, trigonometry, calculus, probability, statistics, vectors, and matrices. Worked examples,"
 date: 2024-01-01T00:00:00Z

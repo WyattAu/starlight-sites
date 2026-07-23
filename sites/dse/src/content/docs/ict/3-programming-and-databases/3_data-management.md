@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "3_data Management", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management"}]
-}
-</script>
 title: Data Management
 description: "This document covers data management topics for the DSE ICT examination, including data structures, Database models, data integrity, security, privacy"
 date: 2026-04-08T00:00:00.000Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "13 Code Generation", "url": "https://languages.wyattau.com/dart/13-code-generation"}]
-}
-</script>
 title: Code Generation
 description: "Code generation in Dart is the process of automatically producing Dart source code from annotations, Builders, and configuration at build time."
 date: 2026-04-05T00:00:00.000Z

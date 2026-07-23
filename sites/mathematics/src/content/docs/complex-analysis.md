@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "Complex Analysis", "url": "https://mathematics.wyattau.com/complex-analysis"}]
-}
-</script>
 title: Complex Analysis
 description: "Complex Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2026-04-24T00:00:00.000Z

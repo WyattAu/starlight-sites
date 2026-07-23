@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Climate", "url": "https://ib.wyattau.com/geography/climate"}, {"name": "Climate Adaptation And Mitigation", "url": "https://ib.wyattau.com/geography/climate/climate-adaptation-and-mitigation"}]
-}
-</script>
 title: Climate Adaptation and Mitigation
 description: "refers to actions that reduce the sources or enhance the sinks of greenhouse gases, Thereby reducing the magnitude of future climate change. Mitigation"
 

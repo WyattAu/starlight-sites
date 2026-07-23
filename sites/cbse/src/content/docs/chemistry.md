@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Chemistry", "url": "https://cbse.wyattau.com/chemistry"}]
-}
-</script>
 title: CBSE Chemistry Study Guide
 date: 2026-05-31
 description: "Qualifications Chemistry.Md CBSE Chemistry Study notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation."

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths/further-maths"}]
-}
-</script>
 title: Further Mathematics
 description: "A Level Further Mathematics extends the tools of pure mathematics to more abstract and powerful Settings, introduces advanced statistical methods, and"
 date: 2026-04-02T00:00:00.000Z

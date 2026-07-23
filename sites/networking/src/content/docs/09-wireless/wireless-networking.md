@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "09 Wireless", "url": "https://networking.wyattau.com/09-wireless"}, {"name": "Wireless Networking", "url": "https://networking.wyattau.com/09-wireless/wireless-networking"}]
-}
-</script>
 title: Wireless Networking
 description: "Wireless networking fundamentals and protocols."
 date: 2026-04-08T00:00:00.000Z

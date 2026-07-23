@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://dse.wyattau.com/biology/diagnostics"}, {"name": "Diag Evolution Ecology", "url": "https://dse.wyattau.com/biology/diagnostics/diag-evolution-ecology"}]
-}
-</script>
 title: "Evolution and Ecology -- Diagnostic Tests"
 description: "DSE Biology Evolution and Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for clear revision."
 tableOfContents: false

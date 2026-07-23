@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "2 Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry"}, {"name": "1_mole Concept And Stoichiometry", "url": "https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry"}]
-}
-</script>
 title: Chemistry - Mole Concept and Stoichiometry
 description: 'The relative atomic mass of an element is the weighted average mass of one atom of the element Relative to the mass of one atom of carbon-12.'
 tags: [DSE, Chemistry]

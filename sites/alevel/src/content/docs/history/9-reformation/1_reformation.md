@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "History", "url": "https://alevel.wyattau.com/history"}, {"name": "9 Reformation", "url": "https://alevel.wyattau.com/history/9-reformation"}, {"name": "1_reformation", "url": "https://alevel.wyattau.com/history/9-reformation/1_reformation"}]
-}
-</script>
 title: "The Reformation c1500-1600"
 date: 2026-07-18T00:00:00.000Z
 sidebar_position: 12

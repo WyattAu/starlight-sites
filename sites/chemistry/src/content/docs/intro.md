@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "chemistry", "url": "https://chemistry.wyattau.com"}, {"name": "Intro", "url": "https://chemistry.wyattau.com/intro"}]
-}
-</script>
 title: Chemistry
 description: "Introduction to Chemistry notes."
 ---

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Genetics Advanced", "url": "https://alevel.wyattau.com/biology/genetics-advanced"}]
-}
-</script>
 title: Advanced Genetics
 description: "occurs when the expression of one gene (the epistatic gene) is affected or masked by one or more independently inherited genes at different loci. This"
 date: 2026-04-18T00:00:00.000Z

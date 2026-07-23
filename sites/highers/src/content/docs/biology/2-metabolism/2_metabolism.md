@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "2 Metabolism", "url": "https://highers.wyattau.com/biology/2-metabolism"}, {"name": "2_metabolism", "url": "https://highers.wyattau.com/biology/2-metabolism/2_metabolism"}]
-}
-</script>
 title: Metabolism and Survival
 description: "Scottish Highers Biology Metabolism and Survival notes covering key definitions, core concepts, worked examples, and practice questions for detailed revision."
 date: 2026-04-14

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Physics", "url": "https://dse.wyattau.com/physics"}, {"name": "Dse Physics", "url": "https://dse.wyattau.com/physics/dse-physics"}]
-}
-</script>
 title: DSE Physics
 description: "DSE Physics revision notes covering key concepts and practice problems."
 date: 2026-04-23T00:00:00.000Z

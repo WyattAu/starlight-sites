@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/history/diagnostics"}, {"name": "Diag Cold War", "url": "https://ib.wyattau.com/history/diagnostics/diag-cold-war"}]
-}
-</script>
 title: "Diagnostic Test: Cold War"
 description: "Self-assessment quiz on IB Cold War history"
 sidebar_position: 30

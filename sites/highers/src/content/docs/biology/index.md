@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Biology", "url": "https://highers.wyattau.com/biology"}, {"name": "Index", "url": "https://highers.wyattau.com/biology/index"}]
-}
-</script>
 title: Scottish Highers Biology
 description: "Higher Biology explores cell biology, metabolism, multicellular organisms, genetics, and evolution. The course emphasises scientific inquiry, data analysis,"
 date: 2026-04-14

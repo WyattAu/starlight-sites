@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Physics", "url": "https://hsc.wyattau.com/physics"}, {"name": "Mechanics", "url": "https://hsc.wyattau.com/physics/mechanics"}]
-}
-</script>
 title: "Mechanics"
 description: "HSC physics: Mechanics"
 ---

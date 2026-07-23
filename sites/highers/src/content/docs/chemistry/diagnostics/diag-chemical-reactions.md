@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Chemistry", "url": "https://highers.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Chemical Reactions", "url": "https://highers.wyattau.com/chemistry/diagnostics/diag-chemical-reactions"}]
-}
-</script>
 title: "Chemical Reactions -- Diagnostic Tests"
 description: "Comprehensive educational content notes on chemical reactions -- diagnostic tests with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false

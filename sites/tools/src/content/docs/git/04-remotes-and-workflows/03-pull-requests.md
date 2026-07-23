@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "04 Remotes And Workflows", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows"}, {"name": "03 Pull Requests", "url": "https://tools.wyattau.com/git/04-remotes-and-workflows/03-pull-requests"}]
-}
-</script>
 title: Pull Requests
 description: "A pull request (PR) — called a in GitLab — is a proposal to merge a branch into another branch, accompanied by a code review discussion. While is a local"
 date: 2025-06-03T15:00:00.000Z

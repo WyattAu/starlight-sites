@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "5 Statistics", "url": "https://highers.wyattau.com/maths/5-statistics"}, {"name": "5_statistics", "url": "https://highers.wyattau.com/maths/5-statistics/5_statistics"}]
-}
-</script>
 title: Statistics and Probability
 description: "Scottish Highers Maths Statistics and Probability notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 date: 2026-04-14

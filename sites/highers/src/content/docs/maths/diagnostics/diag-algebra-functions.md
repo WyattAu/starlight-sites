@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "Diagnostics", "url": "https://highers.wyattau.com/maths/diagnostics"}, {"name": "Diag Algebra Functions", "url": "https://highers.wyattau.com/maths/diagnostics/diag-algebra-functions"}]
-}
-</script>
 title: "Algebra and Functions -- Diagnostic Tests"
 description: "Comprehensive educational content notes on algebra and functions -- diagnostic tests with precise definitions, worked examples, and common pitfalls."
 tableOfContents: false

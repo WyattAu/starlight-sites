@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "03 Authentication", "url": "https://security.wyattau.com/03-authentication"}, {"name": "Authentication", "url": "https://security.wyattau.com/03-authentication/authentication"}]
-}
-</script>
 title: Authentication and Authorization
 description: "Authentication and authorization fundamentals."
 ---

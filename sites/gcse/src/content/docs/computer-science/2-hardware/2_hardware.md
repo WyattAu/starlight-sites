@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Computer Science", "url": "https://gcse.wyattau.com/computer-science"}, {"name": "2 Hardware", "url": "https://gcse.wyattau.com/computer-science/2-hardware"}, {"name": "2_hardware", "url": "https://gcse.wyattau.com/computer-science/2-hardware/2_hardware"}]
-}
-</script>
 title: Computer Systems
 description: "The is the brain of the computer. It processes data and executes Instructions. Comprehensive educational content coverage with definitions and practice problems"
 date: 2026-04-14

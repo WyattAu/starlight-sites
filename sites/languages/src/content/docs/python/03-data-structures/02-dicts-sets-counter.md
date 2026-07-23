@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Python", "url": "https://languages.wyattau.com/python"}, {"name": "03 Data Structures", "url": "https://languages.wyattau.com/python/03-data-structures"}, {"name": "02 Dicts Sets Counter", "url": "https://languages.wyattau.com/python/03-data-structures/02-dicts-sets-counter"}]
-}
-</script>
 title: Dicts, Sets, and Collections Deep Dive
 description: "Python dicts are hash tables. CPython implements them using a combination of a sparse array of Indices and a dense array of entries, a design introduced in"
 

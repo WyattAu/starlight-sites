@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "3_dependency_management", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management"}, {"name": "3_vcpkg", "url": "https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/3_vcpkg"}]
-}
-</script>
 title: vcpkg
 description: "), modern C++"
 date: 2025-12-11T04:55:37.164Z

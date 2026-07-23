@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "07 Best Practices", "url": "https://java.wyattau.com/07-best-practices"}, {"name": "01 Style And Patterns", "url": "https://java.wyattau.com/07-best-practices/01-style-and-patterns"}]
-}
-</script>
 title: Style and Patterns
 description: "Java style guide and design patterns."
 categories: ["java"]

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "05 Advanced Topics", "url": "https://tools.wyattau.com/git/05-advanced-topics"}, {"name": "08 Commit Signing", "url": "https://tools.wyattau.com/git/05-advanced-topics/08-commit-signing"}]
-}
-</script>
 title: Commit Signing
 description: "Commit signing uses cryptographic signatures to prove that a commit was authored by the holder of a Specific private key. The signature is stored as part of"
 

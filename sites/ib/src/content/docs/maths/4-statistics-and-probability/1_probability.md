@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "4 Statistics And Probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability"}, {"name": "1_probability", "url": "https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability"}]
-}
-</script>
 title: Probability
 description: "Rigorous IB mathematics notes covering Probability. Includes definitions, derivations, worked examples, and exam-style problems. and distributions."
 date: 2024-01-01T00:00:00Z

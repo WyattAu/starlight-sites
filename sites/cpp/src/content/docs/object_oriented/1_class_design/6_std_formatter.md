@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Object_oriented", "url": "https://cpp.wyattau.com/object_oriented"}, {"name": "1_class_design", "url": "https://cpp.wyattau.com/object_oriented/1_class_design"}, {"name": "6_std_formatter", "url": "https://cpp.wyattau.com/object_oriented/1_class_design/6_std_formatter"}]
-}
-</script>
 title: Custom Formatting with std::formatter
 description: "C++20 introduced Providing type-safe text formatting through . To enable Formatting for user-defined types, you specialize in namespace . This section"
 date: 2026-04-03T00:00:00.000Z

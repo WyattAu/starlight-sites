@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "History", "url": "https://alevel.wyattau.com/history"}, {"name": "7 Industrial Revolution", "url": "https://alevel.wyattau.com/history/7-industrial-revolution"}, {"name": "1_industrial_revolution", "url": "https://alevel.wyattau.com/history/7-industrial-revolution/1_industrial_revolution"}]
-}
-</script>
 title: "The British Industrial Revolution c1760-1840"
 date: 2026-07-18T00:00:00.000Z
 sidebar_position: 10

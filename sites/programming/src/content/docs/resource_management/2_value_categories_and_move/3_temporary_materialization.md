@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Resource_management", "url": "https://programming.wyattau.com/resource_management"}, {"name": "2_value_categories_and_move", "url": "https://programming.wyattau.com/resource_management/2_value_categories_and_move"}, {"name": "3_temporary_materialization", "url": "https://programming.wyattau.com/resource_management/2_value_categories_and_move/3_temporary_materialization"}]
-}
-</script>
 title: Temporary Materialization
 description: "In C++17 and later, a prvalue is not an object — it is a recipe for constructing one. The prvalue is into an actual object only when the language requires"
 date: 2026-04-03T00:00:00.000Z

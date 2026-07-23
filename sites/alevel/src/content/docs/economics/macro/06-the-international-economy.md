@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Economics", "url": "https://alevel.wyattau.com/economics"}, {"name": "Macro", "url": "https://alevel.wyattau.com/economics/macro"}, {"name": "06 The International Economy", "url": "https://alevel.wyattau.com/economics/macro/06-the-international-economy"}]
-}
-</script>
 title: The International Economy
 description: "Numerical examples and covers the Ricardian and Heckscher-Ohlin models. focuses on the gains From trade and limitations of the comparative advantage model."
 date: 2025-06-02T16:25:28.480Z

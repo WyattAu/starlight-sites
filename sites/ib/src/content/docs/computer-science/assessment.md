@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Assessment", "url": "https://ib.wyattau.com/computer-science/assessment"}]
-}
-</script>
 title: Assessment
 description: "| Index | Objective | Paper 1 | Paper 2 | IA | Sum | | ----- | --------------------------------------------------- | ------- | ------- | ----- | --- | | 1 |"
 ---

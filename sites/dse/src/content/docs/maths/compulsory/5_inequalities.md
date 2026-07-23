@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Compulsory", "url": "https://dse.wyattau.com/maths/compulsory"}, {"name": "5_inequalities", "url": "https://dse.wyattau.com/maths/compulsory/5_inequalities"}]
-}
-</script>
 title: Inequalities
 description: "An inequality states that one expression is greater than or less than another. Inequalities arise when finding the and of functions, and are closely related"
 date: 2025-06-03T16:21:00.000Z

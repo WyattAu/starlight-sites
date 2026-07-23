@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "5 Quantitative Economics", "url": "https://ib.wyattau.com/economics/5-quantitative-economics"}, {"name": "2 Index Numbers", "url": "https://ib.wyattau.com/economics/5-quantitative-economics/2-index-numbers"}]
-}
-</script>
 title: Index Numbers
 description: "IB Economics Index Numbers notes covering key definitions, core concepts, worked examples, and practice questions for focused revision and exam readiness."
 date: 2026-05-21

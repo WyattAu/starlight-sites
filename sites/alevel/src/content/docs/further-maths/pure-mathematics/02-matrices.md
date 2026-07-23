@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "02 Matrices", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices"}]
-}
-</script>
 title: Matrices
 description: "Matrices provide a compact algebraic framework for representing and manipulating systems of linear Equations, geometric transformations, and — at a more"
 date: 2026-04-02T00:00:00.000Z

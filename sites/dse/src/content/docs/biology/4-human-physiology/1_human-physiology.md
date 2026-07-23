@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "4 Human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology"}, {"name": "1_human Physiology", "url": "https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology"}]
-}
-</script>
 title: Human Physiology
 description: "A balanced diet provides all essential nutrients in the correct proportions to maintain health."
 date: 2026-04-08T00:00:00.000Z

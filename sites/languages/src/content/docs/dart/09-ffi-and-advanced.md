@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "09 Ffi And Advanced", "url": "https://languages.wyattau.com/dart/09-ffi-and-advanced"}]
-}
-</script>
 title: FFI and Advanced Topics
 description: "Dart FFI and Advanced Topics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision."
 date: 2026-04-07T00:00:00.000Z

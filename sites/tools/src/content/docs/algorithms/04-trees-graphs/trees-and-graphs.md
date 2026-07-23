@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "04 Trees Graphs", "url": "https://tools.wyattau.com/algorithms/04-trees-graphs"}, {"name": "Trees And Graphs", "url": "https://tools.wyattau.com/algorithms/04-trees-graphs/trees-and-graphs"}]
-}
-</script>
 title: Trees and Graphs
 description: "A tree is a connected, acyclic, undirected graph. In computer science, trees are Comprehensive educational content coverage with definitions and practice proble"
 

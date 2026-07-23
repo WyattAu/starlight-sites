@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://programming.wyattau.com/enviroment_and_toolchain"}, {"name": "2_build_system", "url": "https://programming.wyattau.com/enviroment_and_toolchain/2_build_system"}, {"name": "3_cmake_presets_and_toolchain_files", "url": "https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files"}]
-}
-</script>
 title: CMake Presets and Toolchain Files
 description: "A major challenge in C++ systems engineering is . A developer on Linux, a Developer on Windows, and a CI/CD agent should all generate the build environment"
 date: 2025-12-10T06:16:47.022Z

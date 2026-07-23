@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Standard_library", "url": "https://cpp.wyattau.com/standard_library"}, {"name": "2_algorithms_and_ranges", "url": "https://cpp.wyattau.com/standard_library/2_algorithms_and_ranges"}, {"name": "2_range_adaptors", "url": "https://cpp.wyattau.com/standard_library/2_algorithms_and_ranges/2_range_adaptors"}]
-}
-</script>
 title: Range Adaptors, Views, and Composition
 description: "Range adaptors are lazy, composable transformations applied to ranges via the pipe operator . Each adaptor returns a --- a lightweight object that refers to"
 date: 2026-04-03T00:00:00.000Z

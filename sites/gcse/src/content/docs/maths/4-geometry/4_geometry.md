@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Maths", "url": "https://gcse.wyattau.com/maths"}, {"name": "4 Geometry", "url": "https://gcse.wyattau.com/maths/4-geometry"}, {"name": "4_geometry", "url": "https://gcse.wyattau.com/maths/4-geometry/4_geometry"}]
-}
-</script>
 title: Geometry
 description: "| Property | Statement | | -------------------------- | -------------------- | | Angles on a straight line | Sum to | | Angles at a point | Sum to | |"
 date: 2026-04-14

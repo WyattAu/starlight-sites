@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "09 Vectors In 3d", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d"}]
-}
-</script>
 title: Vectors in 3D
 description: "This chapter extends the study of vectors from A Level Mathematics into three dimensions, Introducing the vector (cross) product, equations of planes, and"
 date: 2026-04-02T00:00:00.000Z

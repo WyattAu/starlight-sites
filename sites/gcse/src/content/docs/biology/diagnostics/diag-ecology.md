@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "gcse", "url": "https://gcse.wyattau.com"}, {"name": "Biology", "url": "https://gcse.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://gcse.wyattau.com/biology/diagnostics"}, {"name": "Diag Ecology", "url": "https://gcse.wyattau.com/biology/diagnostics/diag-ecology"}]
-}
-</script>
 title: "Ecology -- Diagnostic Tests"
 description: "A food chain in a woodland ecosystem is: oak tree caterpillar blue tit Comprehensive educational content coverage with definitions and practice problems."
 tableOfContents: false

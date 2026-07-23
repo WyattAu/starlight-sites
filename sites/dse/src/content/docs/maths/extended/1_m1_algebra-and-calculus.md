@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Maths", "url": "https://dse.wyattau.com/maths"}, {"name": "Extended", "url": "https://dse.wyattau.com/maths/extended"}, {"name": "1_m1_algebra And Calculus", "url": "https://dse.wyattau.com/maths/extended/1_m1_algebra-and-calculus"}]
-}
-</script>
 title: "M1: Algebra and Calculus"
 description: "Solving linear inequalities follows the same principles as solving linear equations, with one critical difference: multiplying or dividing both sides by a"
 date: 2026-06-04T10:00:00.000Z

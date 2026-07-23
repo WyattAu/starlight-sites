@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Urban Environments", "url": "https://ib.wyattau.com/geography/urban-environments"}]
-}
-</script>
 title: Urban Environments
 description: "This section covers the IB Geography optional theme on urban environments. It examines the global trends in urbanisation, the spatial structure of cities,"
 

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "05 Advanced Topics", "url": "https://tools.wyattau.com/git/05-advanced-topics"}, {"name": "05 Worktrees", "url": "https://tools.wyattau.com/git/05-advanced-topics/05-worktrees"}]
-}
-</script>
 title: Worktrees
 description: "allows you to have from the same repository, each checked out to a different branch. Unlike (which temporarily shelves changes) or switching branches (which"
 date: 2025-06-03T17:00:00.000Z

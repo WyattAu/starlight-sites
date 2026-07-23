@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Templates_and_metaprogramming", "url": "https://programming.wyattau.com/templates_and_metaprogramming"}, {"name": "1_generic_programming", "url": "https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming"}, {"name": "2_argument_deduction", "url": "https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/2_argument_deduction"}]
-}
-</script>
 title: Argument Deduction (Class and Function)
 description: "Template argument deduction allows the compiler to infer template parameters from the types of Arguments provided at call sites or construction sites. This"
 date: 2026-04-03T00:00:00.000Z

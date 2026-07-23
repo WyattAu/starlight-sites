@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Biology", "url": "https://ib.wyattau.com/biology"}, {"name": "5 Evolution And Biodiversity", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity"}, {"name": "1_evolution", "url": "https://ib.wyattau.com/biology/5-evolution-and-biodiversity/1_evolution"}]
-}
-</script>
 title: Evolution in Depth
 description: "IB Biology -- evidence for evolution, natural selection types, speciation mechanisms, adaptive radiation, convergent evolution, gradualism vs punctuated"
 date: 2024-01-01T00:00:00Z

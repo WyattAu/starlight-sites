@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Poetry Analysis Guide", "url": "https://ib.wyattau.com/english/poetry-analysis-guide"}]
-}
-</script>
 title: Poetry Analysis Guide for IB English
 tags:
   - IB

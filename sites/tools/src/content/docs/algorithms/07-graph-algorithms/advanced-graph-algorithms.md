@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "07 Graph Algorithms", "url": "https://tools.wyattau.com/algorithms/07-graph-algorithms"}, {"name": "Advanced Graph Algorithms", "url": "https://tools.wyattau.com/algorithms/07-graph-algorithms/advanced-graph-algorithms"}]
-}
-</script>
 title: Advanced Graph Algorithms
 description: "Algorithms Advanced Graph Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 

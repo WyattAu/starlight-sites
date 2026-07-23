@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Biological Level Of Analysis", "url": "https://ib.wyattau.com/psychology/biological-level-of-analysis"}]
-}
-</script>
 title: Biological Level of Analysis
 description: "The biological level of analysis (BLOA) examines the physiological bases of behaviour, including the role of the brain, neurotransmitters, hormones, and"
 

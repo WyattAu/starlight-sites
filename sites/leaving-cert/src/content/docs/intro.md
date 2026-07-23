@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Intro", "url": "https://leaving-cert.wyattau.com/intro"}]
-}
-</script>
 title: Irish Leaving Certificate
 date: 2026-04-14
 description: "The (Leaving Cert or LC) is the final examination of the Irish Secondary school system, administered by the (SEC). It is taken by students aged 16 to 19"

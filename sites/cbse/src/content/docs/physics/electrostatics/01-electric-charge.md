@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}, {"name": "Electrostatics", "url": "https://cbse.wyattau.com/physics/electrostatics"}, {"name": "01 Electric Charge", "url": "https://cbse.wyattau.com/physics/electrostatics/01-electric-charge"}]
-}
-</script>
 title: "Electric charge"
 description: "CBSE Class 12 physics: Electric charge with Coulomb's law, superposition principle, and worked examples."
 ---

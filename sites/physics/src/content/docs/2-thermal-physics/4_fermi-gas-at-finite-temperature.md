@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "4_fermi Gas At Finite Temperature", "url": "https://physics.wyattau.com/2-thermal-physics/4_fermi-gas-at-finite-temperature"}]
-}
-</script>
 title: Fermi Gas at Finite Temperature
 tags:
   - Physics

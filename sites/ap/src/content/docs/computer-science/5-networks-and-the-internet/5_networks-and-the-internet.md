@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Computer Science", "url": "https://ap.wyattau.com/computer-science"}, {"name": "5 Networks And The Internet", "url": "https://ap.wyattau.com/computer-science/5-networks-and-the-internet"}, {"name": "5_networks And The Internet", "url": "https://ap.wyattau.com/computer-science/5-networks-and-the-internet/5_networks-and-the-internet"}]
-}
-</script>
 title: Networks and the Internet
 description: "The Internet is a global network of interconnected computer networks. Key concep Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-14

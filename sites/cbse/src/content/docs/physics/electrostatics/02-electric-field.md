@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Physics", "url": "https://cbse.wyattau.com/physics"}, {"name": "Electrostatics", "url": "https://cbse.wyattau.com/physics/electrostatics"}, {"name": "02 Electric Field", "url": "https://cbse.wyattau.com/physics/electrostatics/02-electric-field"}]
-}
-</script>
 title: "Electric field"
 description: "CBSE Class 12 physics: Electric field"
 ---

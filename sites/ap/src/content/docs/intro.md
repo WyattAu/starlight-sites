@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Intro", "url": "https://ap.wyattau.com/intro"}]
-}
-</script>
 title: Introduction to AP Notes
 date: 2026-04-14
 description: "The Advanced Placement (AP) program, administered by the College Board, allows US high school Students to take college-level courses and earn credit or"

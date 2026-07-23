@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Maths", "url": "https://leaving-cert.wyattau.com/maths"}, {"name": "4 Probability Statistics", "url": "https://leaving-cert.wyattau.com/maths/4-probability-statistics"}, {"name": "4_probability Statistics", "url": "https://leaving-cert.wyattau.com/maths/4-probability-statistics/4_probability-statistics"}]
-}
-</script>
 title: Probability and Statistics
 description: "Probability and statistics appear on both papers of the Leaving Certificate Mathematics examination. This topic covers counting principles, probability"
 date: 2026-04-14

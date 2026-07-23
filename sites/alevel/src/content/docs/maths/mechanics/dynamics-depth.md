@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Mechanics", "url": "https://alevel.wyattau.com/maths/mechanics"}, {"name": "Dynamics Depth", "url": "https://alevel.wyattau.com/maths/mechanics/dynamics-depth"}]
-}
-</script>
 title: Dynamics (Extended)
 description: "description: This document provides a rigorous treatment of Newton's laws, connected particles, pulleys, friction, Inclined planes, momentum, and impulse."
 date: 2026-04-23T00:00:00.000Z

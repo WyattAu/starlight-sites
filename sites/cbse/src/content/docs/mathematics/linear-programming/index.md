@@ -1,37 +1,6 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cbse", "url": "https://cbse.wyattau.com"}, {"name": "Mathematics", "url": "https://cbse.wyattau.com/mathematics"}, {"name": "Linear Programming", "url": "https://cbse.wyattau.com/mathematics/linear-programming"}, {"name": "Index", "url": "https://cbse.wyattau.com/mathematics/linear-programming/index"}]
-}
-</script>
 
-<!-- Course Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "Linear Programming",
-  "description": "CBSE Class 12 mathematics: Linear programming with graphical method, simplex method, and worked examples.",
-  "provider": {
-    "@type": "Organization",
-    "name": "Wyatt's Notes",
-    "url": "https://cbse.wyattau.com"
-  },
-  "url": "https://cbse.wyattau.com",
-  "educationalLevel": "Secondary",
-  "inLanguage": "en",
-  "isAccessibleForFree": true,
-  "hasCourseInstance": {
-    "@type": "CourseInstance",
-    "courseMode": "online",
-    "courseWorkload": "PT1H"
-  }
-}
-</script>
 title: "Linear Programming"
 description: "CBSE Class 12 mathematics: Linear programming with graphical method, simplex method, and worked examples."
 ---

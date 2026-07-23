@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "rust", "url": "https://rust.wyattau.com"}, {"name": "03 Structs Enums", "url": "https://rust.wyattau.com/03-structs-enums"}, {"name": "Advanced Patterns", "url": "https://rust.wyattau.com/03-structs-enums/advanced-patterns"}]
-}
-</script>
 title: Advanced Struct and Enum Patterns
 description: "Rust Advanced Struct and Enum Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision."
 

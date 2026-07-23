@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Economics", "url": "https://dse.wyattau.com/economics"}, {"name": "8 Money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking"}, {"name": "1_money And Banking", "url": "https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking"}]
-}
-</script>
 title: Money and Banking
 description: "Money is anything that is generally accepted as a medium of exchange. It serves  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-04-08T00:00:00.000Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "security", "url": "https://security.wyattau.com"}, {"name": "05 Network Security", "url": "https://security.wyattau.com/05-network-security"}, {"name": "Vpn And Tunneling", "url": "https://security.wyattau.com/05-network-security/vpn-and-tunneling"}]
-}
-</script>
 title: VPN and Tunneling
 description: "VPN and network tunneling fundamentals."
 ---

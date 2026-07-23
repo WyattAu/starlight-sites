@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ruby", "url": "https://ruby.wyattau.com"}, {"name": "03 Methods Blocks", "url": "https://ruby.wyattau.com/03-methods-blocks"}, {"name": "1_methods And Blocks", "url": "https://ruby.wyattau.com/03-methods-blocks/1_methods-and-blocks"}]
-}
-</script>
 title: Methods and Blocks
 description: "Methods and Blocks: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2026-06-04T10:00:00.000Z

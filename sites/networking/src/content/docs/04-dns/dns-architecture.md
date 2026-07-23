@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "04 Dns", "url": "https://networking.wyattau.com/04-dns"}, {"name": "Dns Architecture", "url": "https://networking.wyattau.com/04-dns/dns-architecture"}]
-}
-</script>
 title: DNS Architecture and Operations
 description: "DNS infrastructure is the backbone of Internet naming. Beyond the recursive resolution process Covered in the DNS fundamentals document, this deep dive"
 tags:

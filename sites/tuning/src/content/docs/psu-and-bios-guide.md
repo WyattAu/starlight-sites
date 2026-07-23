@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Psu And Bios Guide", "url": "https://tuning.wyattau.com/psu-and-bios-guide"}]
-}
-</script>
 title: PSU Selection and BIOS Configuration
 description: "A power supply unit (PSU) converts alternating current (AC) from the wall outlet into the direct Current (DC) voltages required by PC components. Wall mains"
 date: 2026-04-07T00:00:00.000Z

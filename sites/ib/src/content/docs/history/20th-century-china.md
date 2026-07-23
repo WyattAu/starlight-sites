@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "History", "url": "https://ib.wyattau.com/history"}, {"name": "20th Century China", "url": "https://ib.wyattau.com/history/20th-century-china"}]
-}
-</script>
 title: 20th Century China
 description: "Comprehensive IB History coverage of 20th-century China: the fall of the Qing Dynasty, warlord period, CCP-KMT rivalry, Nanjing decade, Second Sino-Japanese War, Civil War, PRC establishment, Mao's China, and Reform and Opening Up."
 sidebar_position: 21

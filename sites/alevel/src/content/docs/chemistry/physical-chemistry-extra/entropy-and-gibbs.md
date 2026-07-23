@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Physical Chemistry Extra", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry-extra"}, {"name": "Entropy And Gibbs", "url": "https://alevel.wyattau.com/chemistry/physical-chemistry-extra/entropy-and-gibbs"}]
-}
-</script>
 title: Entropy and Gibbs Free Energy
 description: "Enthalpy alone is insufficient to predict whether a reaction will occur spontaneously. The Dissolution of ammonium nitrate in water is endothermic yet"
 date: 2026-04-22T00:00:00.000Z

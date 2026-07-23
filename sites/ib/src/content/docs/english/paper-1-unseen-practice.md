@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "English", "url": "https://ib.wyattau.com/english"}, {"name": "Paper 1 Unseen Practice", "url": "https://ib.wyattau.com/english/paper-1-unseen-practice"}]
-}
-</script>
 title: Paper 1 Unseen Practice
 description: "This document provides original practice passages and guided commentary for IB English Paper 1. Each extract is accompanied by a detailed annotated analysis"
 ---

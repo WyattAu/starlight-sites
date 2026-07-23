@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Algorithms", "url": "https://tools.wyattau.com/algorithms"}, {"name": "06 Dynamic Programming", "url": "https://tools.wyattau.com/algorithms/06-dynamic-programming"}, {"name": "Greedy Algorithms", "url": "https://tools.wyattau.com/algorithms/06-dynamic-programming/greedy-algorithms"}]
-}
-</script>
 title: Greedy Algorithms
 description: "A greedy algorithm makes the locally optimal choice at each step, hoping this leads to a globally Optimal solution. Unlike dynamic programming, greedy"
 

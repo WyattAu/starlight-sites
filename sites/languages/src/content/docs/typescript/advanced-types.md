@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Typescript", "url": "https://languages.wyattau.com/typescript"}, {"name": "Advanced Types", "url": "https://languages.wyattau.com/typescript/advanced-types"}]
-}
-</script>
 title: advanced types
 date: 2026-05-30
 tags:

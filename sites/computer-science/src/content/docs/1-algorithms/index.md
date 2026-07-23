@@ -1,37 +1,6 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "1 Algorithms", "url": "https://computer-science.wyattau.com/1-algorithms"}, {"name": "Index", "url": "https://computer-science.wyattau.com/1-algorithms/index"}]
-}
-</script>
 
-<!-- Course Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "Algorithms",
-  "description": "The study of algorithms is central to computer science. An algorithm is a finite, well-defined sequence of instructions that solves a computational problem.",
-  "provider": {
-    "@type": "Organization",
-    "name": "Wyatt's Notes",
-    "url": "https://computer-science.wyattau.com"
-  },
-  "url": "https://computer-science.wyattau.com",
-  "educationalLevel": "Secondary",
-  "inLanguage": "en",
-  "isAccessibleForFree": true,
-  "hasCourseInstance": {
-    "@type": "CourseInstance",
-    "courseMode": "online",
-    "courseWorkload": "PT1H"
-  }
-}
-</script>
 title: Algorithms
 description: "The study of algorithms is central to computer science. An algorithm is a finite, well-defined sequence of instructions that solves a computational problem."
 ---

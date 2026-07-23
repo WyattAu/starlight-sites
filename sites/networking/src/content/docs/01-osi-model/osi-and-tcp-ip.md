@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "01 Osi Model", "url": "https://networking.wyattau.com/01-osi-model"}, {"name": "Osi And Tcp Ip", "url": "https://networking.wyattau.com/01-osi-model/osi-and-tcp-ip"}]
-}
-</script>
 title: OSI and TCP/IP Models
 description: "Network reference models provide a structured vocabulary for discussing protocol behavior. They are Not implementations -- they are abstractions that help"
 tags:

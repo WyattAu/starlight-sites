@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "computer-science", "url": "https://computer-science.wyattau.com"}, {"name": "3 Computer Networks", "url": "https://computer-science.wyattau.com/3-computer-networks"}, {"name": "7_network Security", "url": "https://computer-science.wyattau.com/3-computer-networks/7_network-security"}]
-}
-</script>
 title: Network Security
 tags:
   - Computing

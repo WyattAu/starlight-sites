@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Algorithms", "url": "https://alevel.wyattau.com/computer-science/algorithms"}, {"name": "04 Complexity Analysis", "url": "https://alevel.wyattau.com/computer-science/algorithms/04-complexity-analysis"}]
-}
-</script>
 title: Complexity Analysis
 description: "Complexity Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2025-06-02T16:25:28.480Z

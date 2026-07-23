@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "5 Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics"}, {"name": "2_postulates Of Quantum Mechanics", "url": "https://physics.wyattau.com/5-quantum-mechanics/2_postulates-of-quantum-mechanics"}]
-}
-</script>
 title: Postulates of Quantum Mechanics
 tags:
   - Physics

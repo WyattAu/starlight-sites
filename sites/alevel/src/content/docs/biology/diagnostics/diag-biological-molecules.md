@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Biology", "url": "https://alevel.wyattau.com/biology"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/biology/diagnostics"}, {"name": "Diag Biological Molecules", "url": "https://alevel.wyattau.com/biology/diagnostics/diag-biological-molecules"}]
-}
-</script>
 title: "Biological Molecules -- Diagnostic Tests"
 description: "A-Level Biology Biological Molecules -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision."
 tableOfContents: false

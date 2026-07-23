@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Physics", "url": "https://highers.wyattau.com/physics"}, {"name": "5 Waves Radiation", "url": "https://highers.wyattau.com/physics/5-waves-radiation"}, {"name": "5_waves Radiation", "url": "https://highers.wyattau.com/physics/5-waves-radiation/5_waves-radiation"}]
-}
-</script>
 title: Waves and Radiation
 description: "A wave is a disturbance that transfers energy without transferring matter. Comprehensive educational content coverage with definitions and practice problems."
 date: 2026-04-14

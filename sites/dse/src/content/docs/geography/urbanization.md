@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Geography", "url": "https://dse.wyattau.com/geography"}, {"name": "Urbanization", "url": "https://dse.wyattau.com/geography/urbanization"}]
-}
-</script>
 title: Urbanisation and Urban Processes
 description: "Urban land use models, Hong Kong new towns, urban sprawl, squatter settlements, container port development, and urban renewal strategies for DSE Geography."
 sidebar_position: 1

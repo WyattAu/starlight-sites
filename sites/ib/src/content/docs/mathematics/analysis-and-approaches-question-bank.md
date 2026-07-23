@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Mathematics", "url": "https://ib.wyattau.com/mathematics"}, {"name": "Analysis And Approaches Question Bank", "url": "https://ib.wyattau.com/mathematics/analysis-and-approaches-question-bank"}]
-}
-</script>
 title: Analysis and Approaches Question Bank
 tags:
   - maths

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "09 Jvm Internals", "url": "https://java.wyattau.com/09-jvm-internals"}, {"name": "02 Jit Compilation", "url": "https://java.wyattau.com/09-jvm-internals/02-jit-compilation"}]
-}
-</script>
 title: JIT Compilation and Deoptimization
 description: "Java JIT compilation and deoptimization."
 categories: ["java"]

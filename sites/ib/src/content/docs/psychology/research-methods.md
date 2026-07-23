@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Research Methods", "url": "https://ib.wyattau.com/psychology/research-methods"}]
-}
-</script>
 title: Research Methods in Psychology
 description: "Psychology is a science because it uses empirical methods to investigate questions about behaviour And mental processes. The scientific method in psychology"
 

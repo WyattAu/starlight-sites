@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
-}
-</script>
 title: Chemistry - Energetics / Thermochemistry
 description: "The heat content of a system at constant pressure. It is a state function. Comprehensive educational content coverage with definitions and practice problems."
 tags: [DSE, Chemistry]

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "highers", "url": "https://highers.wyattau.com"}, {"name": "Maths", "url": "https://highers.wyattau.com/maths"}, {"name": "4 Vectors", "url": "https://highers.wyattau.com/maths/4-vectors"}, {"name": "4_vectors", "url": "https://highers.wyattau.com/maths/4-vectors/4_vectors"}]
-}
-</script>
 title: Vectors and Matrices
 description: 'Scottish Highers Maths Vectors and Matrices notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.'
 date: 2026-04-14

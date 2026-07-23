@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science/computer-science"}]
-}
-</script>
 title: Computer Science
 description: "- Understand the concepts of computational thinking - Identifying a problem - Accessing the feasibility of solving the problem - Understanding the"
 

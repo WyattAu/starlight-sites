@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Biological", "url": "https://ib.wyattau.com/psychology/biological"}, {"name": "_index", "url": "https://ib.wyattau.com/psychology/biological/_index"}]
-}
-</script>
 title: Biological Level of Analysis
 description: "This section covers the biological level of analysis, examining the physiological bases of behaviour including the brain, neurotransmitters, hormones, and"
 

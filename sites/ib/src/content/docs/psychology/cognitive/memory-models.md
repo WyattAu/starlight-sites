@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Psychology", "url": "https://ib.wyattau.com/psychology"}, {"name": "Cognitive", "url": "https://ib.wyattau.com/psychology/cognitive"}, {"name": "Memory Models", "url": "https://ib.wyattau.com/psychology/cognitive/memory-models"}]
-}
-</script>
 title: Memory Models
 description: "The multi-store model (MSM) proposed by Atkinson and Shiffrin is one of the most influential models In cognitive psychology. It conceptualises memory as"
 

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Chemistry", "url": "https://ib.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://ib.wyattau.com/chemistry/diagnostics"}, {"name": "Diag States Of Matter", "url": "https://ib.wyattau.com/chemistry/diagnostics/diag-states-of-matter"}]
-}
-</script>
 title: "States of Matter -- Diagnostic Tests"
 description: "IB Chemistry States of Matter -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for clear revision."
 tableOfContents: false

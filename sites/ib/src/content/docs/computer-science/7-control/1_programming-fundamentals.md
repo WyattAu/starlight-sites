@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "7 Control", "url": "https://ib.wyattau.com/computer-science/7-control"}, {"name": "1_programming Fundamentals", "url": "https://ib.wyattau.com/computer-science/7-control/1_programming-fundamentals"}]
-}
-</script>
 title: Programming Fundamentals
 description: "Rigorous IB computer science notes covering Programming Fundamentals. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z

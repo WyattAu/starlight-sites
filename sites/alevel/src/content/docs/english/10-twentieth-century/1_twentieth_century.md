@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "English", "url": "https://alevel.wyattau.com/english"}, {"name": "10 Twentieth Century", "url": "https://alevel.wyattau.com/english/10-twentieth-century"}, {"name": "1_twentieth_century", "url": "https://alevel.wyattau.com/english/10-twentieth-century/1_twentieth_century"}]
-}
-</script>
 title: "Twentieth-Century Literature"
 date: 2026-01-15T00:00:00.000Z
 sidebar_position: 12

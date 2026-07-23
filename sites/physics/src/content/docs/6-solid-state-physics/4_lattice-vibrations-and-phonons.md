@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "6 Solid State Physics", "url": "https://physics.wyattau.com/6-solid-state-physics"}, {"name": "4_lattice Vibrations And Phonons", "url": "https://physics.wyattau.com/6-solid-state-physics/4_lattice-vibrations-and-phonons"}]
-}
-</script>
 title: Lattice Vibrations and Phonons
 tags:
   - Physics

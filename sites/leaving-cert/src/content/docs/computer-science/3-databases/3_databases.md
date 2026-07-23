@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "leaving-cert", "url": "https://leaving-cert.wyattau.com"}, {"name": "Computer Science", "url": "https://leaving-cert.wyattau.com/computer-science"}, {"name": "3 Databases", "url": "https://leaving-cert.wyattau.com/computer-science/3-databases"}, {"name": "3_databases", "url": "https://leaving-cert.wyattau.com/computer-science/3-databases/3_databases"}]
-}
-</script>
 title: Data and Databases
 description: "ILC Computer Science Data and Databases notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision."
 date: 2026-04-14

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tools", "url": "https://tools.wyattau.com"}, {"name": "Git", "url": "https://tools.wyattau.com/git"}, {"name": "06 Internals", "url": "https://tools.wyattau.com/git/06-internals"}, {"name": "01 Git Directory Structure", "url": "https://tools.wyattau.com/git/06-internals/01-git-directory-structure"}]
-}
-</script>
 title: Git Directory Structure
 description: "The directory is the heart of a Git repository. It contains all metadata, object data, configuration, and hooks. Understanding its structure is essential"
 date: 2025-06-03T12:00:00.000Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "05 Http Https", "url": "https://networking.wyattau.com/05-http-https"}, {"name": "Websockets", "url": "https://networking.wyattau.com/05-http-https/websockets"}]
-}
-</script>
 title: WebSockets
 description: "WebSockets (RFC 6455) provide full-duplex, bidirectional communication over a single TCP connection. Unlike HTTP, which follows a request-response model,"
 tags:

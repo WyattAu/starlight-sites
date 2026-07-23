@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Geography", "url": "https://ib.wyattau.com/geography"}, {"name": "Urban", "url": "https://ib.wyattau.com/geography/urban"}, {"name": "Urban Environmental Quality", "url": "https://ib.wyattau.com/geography/urban/urban-environmental-quality"}]
-}
-</script>
 title: Urban Environmental Quality
 description: "An urban microclimate refers to the distinctive climatic conditions within and immediately Surrounding an urban area, which differ from the climate of the"
 

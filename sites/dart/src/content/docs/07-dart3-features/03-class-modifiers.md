@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "07 Dart3 Features", "url": "https://dart.wyattau.com/07-dart3-features"}, {"name": "03 Class Modifiers", "url": "https://dart.wyattau.com/07-dart3-features/03-class-modifiers"}]
-}
-</script>
 title: Class Modifiers
 description: "Dart 3 introduces class modifiers — keywords that restrict how a class can be used by other Libraries. Before Dart 3, any class could be extended,"
 date: 2026-04-05T00:00:00.000Z

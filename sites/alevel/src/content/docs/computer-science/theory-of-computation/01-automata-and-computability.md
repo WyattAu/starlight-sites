@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Computer Science", "url": "https://alevel.wyattau.com/computer-science"}, {"name": "Theory Of Computation", "url": "https://alevel.wyattau.com/computer-science/theory-of-computation"}, {"name": "01 Automata And Computability", "url": "https://alevel.wyattau.com/computer-science/theory-of-computation/01-automata-and-computability"}]
-}
-</script>
 title: Automata and Computability
 description: "Automata and Computability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 date: 2025-06-02T16:25:28.480Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Concurrency", "url": "https://cpp.wyattau.com/concurrency"}, {"name": "1_threading_and_synchronization", "url": "https://cpp.wyattau.com/concurrency/1_threading_and_synchronization"}, {"name": "1_threads_jthread", "url": "https://cpp.wyattau.com/concurrency/1_threading_and_synchronization/1_threads_jthread"}]
-}
-</script>
 title: Thread Execution (std::jthread) and Hardware Mapping
 description: "This section covers thread creation with and Hardware concurrency Detection, join/detach semantics, RAII-based thread guards, cooperative cancellation via"
 date: 2026-04-03T00:00:00.000Z

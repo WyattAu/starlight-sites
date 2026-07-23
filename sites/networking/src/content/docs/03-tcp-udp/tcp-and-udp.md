@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "networking", "url": "https://networking.wyattau.com"}, {"name": "03 Tcp Udp", "url": "https://networking.wyattau.com/03-tcp-udp"}, {"name": "Tcp And Udp", "url": "https://networking.wyattau.com/03-tcp-udp/tcp-and-udp"}]
-}
-</script>
 title: TCP and UDP
 description: "The transport layer provides end-to-end communication services between processes on different hosts. Two protocols dominate: TCP (reliable,"
 tags:

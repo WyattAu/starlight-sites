@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "Intro", "url": "https://java.wyattau.com/intro"}]
-}
-</script>
 title: Introduction to Java
 description: 'Java Introduction to Java notes covering key definitions, core concepts, worked examples, and practice questions for structured review and exam preparation.'
 

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "tuning", "url": "https://tuning.wyattau.com"}, {"name": "Undervolting And Overclocking", "url": "https://tuning.wyattau.com/undervolting-and-overclocking"}]
-}
-</script>
 title: Undervolting and Overclocking
 description: "Undervolting is the process of reducing the operating voltage (Vcore for CPUs and Vddc for GPUs) Supplied below the voltage level defined by the"
 date: 2025-06-12T16:37:43.317Z

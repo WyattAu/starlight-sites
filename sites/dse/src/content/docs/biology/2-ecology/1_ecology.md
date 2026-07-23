@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Biology", "url": "https://dse.wyattau.com/biology"}, {"name": "2 Ecology", "url": "https://dse.wyattau.com/biology/2-ecology"}, {"name": "1_ecology", "url": "https://dse.wyattau.com/biology/2-ecology/1_ecology"}]
-}
-</script>
 title: Evolution and Ecology
 description: "Evolution is the cumulative change in the heritable characteristics of a population Over successive generations, driven by mechanisms such as natural"
 date: 2026-04-07T00:00:00.000Z

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Function_architecture", "url": "https://cpp.wyattau.com/function_architecture"}, {"name": "2_error_handling", "url": "https://cpp.wyattau.com/function_architecture/2_error_handling"}, {"name": "5_expected", "url": "https://cpp.wyattau.com/function_architecture/2_error_handling/5_expected"}]
-}
-</script>
 title: Monadic Error Handling — std::expected
 description: "The std::expected type for error handling with contextual information and monadic composition operations in modern C++ programs."
 date: 2026-04-03T00:00:00.000Z

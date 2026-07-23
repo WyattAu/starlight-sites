@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/further-maths/diagnostics"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/further-maths/diagnostics/diagnostic-guide"}]
-}
-</script>
 title: "A-Level Further Maths -- Diagnostic Guide"
 description: "| Diagnostic File | Topics Covered | Source File | | --------------------------------- | --------------------------------------------------------------------"
 tableOfContents: false

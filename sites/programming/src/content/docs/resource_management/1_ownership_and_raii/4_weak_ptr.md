@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Resource_management", "url": "https://programming.wyattau.com/resource_management"}, {"name": "1_ownership_and_raii", "url": "https://programming.wyattau.com/resource_management/1_ownership_and_raii"}, {"name": "4_weak_ptr", "url": "https://programming.wyattau.com/resource_management/1_ownership_and_raii/4_weak_ptr"}]
-}
-</script>
 title: Weak Pointers and Cyclic Reference Breaking
 description: "is a non-owning observer of a -managed object. Its primary use case is Breaking reference cycles in graph structures — the most common source of memory"
 date: 2026-04-03T00:00:00.000Z

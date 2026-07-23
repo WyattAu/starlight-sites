@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "java", "url": "https://java.wyattau.com"}, {"name": "08 Modern Java", "url": "https://java.wyattau.com/08-modern-java"}, {"name": "01 Records Sealed Patterns", "url": "https://java.wyattau.com/08-modern-java/01-records-sealed-patterns"}]
-}
-</script>
 title: Records, Sealed Classes, and Pattern Matching
 description: "Java records, sealed classes, and pattern matching."
 categories: ["java"]

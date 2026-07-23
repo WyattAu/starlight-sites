@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ap", "url": "https://ap.wyattau.com"}, {"name": "Statistics", "url": "https://ap.wyattau.com/statistics"}, {"name": "5 Regression", "url": "https://ap.wyattau.com/statistics/5-regression"}, {"name": "5_regression", "url": "https://ap.wyattau.com/statistics/5-regression/5_regression"}]
-}
-</script>
 title: Regression
 description: "A scatterplot displays the relationship between two measured on the same individuals. The explanatory variable () is plotted on the horizontal axis and the"
 date: 2026-06-04T10:00:00.000Z

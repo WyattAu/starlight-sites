@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Diagnostic Guide", "url": "https://alevel.wyattau.com/maths/diagnostic-guide"}]
-}
-</script>
 title: "A-Level Maths -- Diagnostic Test Guide"
 description: "A-Level Maths -- Diagnostic Test notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision."
 tableOfContents: false

@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Dart", "url": "https://languages.wyattau.com/dart"}, {"name": "05 Async", "url": "https://languages.wyattau.com/dart/05-async"}, {"name": "01 Async And Futures", "url": "https://languages.wyattau.com/dart/05-async/01-async-and-futures"}]
-}
-</script>
 title: Async and Futures
 description: "Dart runs on a with an isolated memory model. Unlike languages with Threads (Java, C++, Rust), Dart uses — the single thread processes Events from a queue,"
 date: 2025-07-20T11:00:00.000Z

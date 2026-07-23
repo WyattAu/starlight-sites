@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Psychology", "url": "https://alevel.wyattau.com/psychology"}, {"name": "1 Research Methods", "url": "https://alevel.wyattau.com/psychology/1-research-methods"}, {"name": "1_research Methods", "url": "https://alevel.wyattau.com/psychology/1-research-methods/1_research-methods"}]
-}
-</script>
 title: Research Methods
 date: 2026-05-12T00:00:00.000Z
 tags:

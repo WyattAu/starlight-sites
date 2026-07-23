@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Chemistry", "url": "https://alevel.wyattau.com/chemistry"}, {"name": "Diagnostics", "url": "https://alevel.wyattau.com/chemistry/diagnostics"}, {"name": "Diag Electrochemistry", "url": "https://alevel.wyattau.com/chemistry/diagnostics/diag-electrochemistry"}]
-}
-</script>
 title: "Electrochemistry -- Diagnostic Tests"
 description: "A-Level Electrochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation."
 tableOfContents: false

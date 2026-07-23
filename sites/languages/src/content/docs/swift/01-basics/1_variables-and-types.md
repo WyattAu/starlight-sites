@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "languages", "url": "https://languages.wyattau.com"}, {"name": "Swift", "url": "https://languages.wyattau.com/swift"}, {"name": "01 Basics", "url": "https://languages.wyattau.com/swift/01-basics"}, {"name": "1_variables And Types", "url": "https://languages.wyattau.com/swift/01-basics/1_variables-and-types"}]
-}
-</script>
 title: Variables and Types
 description: "Swift distinguishes between (mutable) and (immutable). Prefer over whenever the  Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-06-04T10:00:00.000Z

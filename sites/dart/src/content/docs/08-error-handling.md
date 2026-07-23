@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dart", "url": "https://dart.wyattau.com"}, {"name": "08 Error Handling", "url": "https://dart.wyattau.com/08-error-handling"}]
-}
-</script>
 title: Error Handling
 description: "Dart draws a sharp line between two families of throwable objects: and . This is not a stylistic preference -- it is a semantic contract. means something wen"
 date: 2026-04-05T00:00:00.000Z

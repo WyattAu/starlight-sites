@@ -1,13 +1,5 @@
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Computer Science", "url": "https://ib.wyattau.com/computer-science"}, {"name": "8 Object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming"}, {"name": "1_object Oriented Programming", "url": "https://ib.wyattau.com/computer-science/8-object-oriented-programming/1_object-oriented-programming"}]
-}
-</script>
 title: JETS
 description: "Rigorous IB computer science notes covering JETS. Includes definitions, derivations, worked examples, and exam-style problems."
 date: 2024-01-01T00:00:00Z
