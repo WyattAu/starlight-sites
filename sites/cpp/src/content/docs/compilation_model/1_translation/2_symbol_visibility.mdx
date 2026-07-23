@@ -9,14 +9,6 @@ categories:
   - cpp
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Compilation_model", "url": "https://cpp.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://cpp.wyattau.com/compilation_model/1_translation"}, {"name": "2_symbol_visibility", "url": "https://cpp.wyattau.com/compilation_model/1_translation/2_symbol_visibility"}]
-}
-</script>
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 While the compiler processes one Translation Unit (TU) at a time, the **Linker** fuses them
@@ -233,14 +225,6 @@ endif()
 
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Compilation_model", "url": "https://cpp.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://cpp.wyattau.com/compilation_model/1_translation"}, {"name": "2_symbol_visibility", "url": "https://cpp.wyattau.com/compilation_model/1_translation/2_symbol_visibility"}]
-}
-</script>
 ## Linkage in Detail
 ### Internal Linkage Mechanics
 When the compiler assigns internal linkage to a symbol, it emits that symbol with the `STB_LOCAL`
@@ -316,14 +300,6 @@ Included in multiple TUs (unless it was `const` or `constexpr`Which already had 
 Exemptions).
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Compilation_model", "url": "https://cpp.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://cpp.wyattau.com/compilation_model/1_translation"}, {"name": "2_symbol_visibility", "url": "https://cpp.wyattau.com/compilation_model/1_translation/2_symbol_visibility"}]
-}
-</script>
 ## Visibility in Depth
 ### ELF Symbol Visibility Levels
 The ELF specification defines four visibility levels:
@@ -421,14 +397,6 @@ target_compile_definitions(MyLib PRIVATE MYLIB_BUILDING)
 ```
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Compilation_model", "url": "https://cpp.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://cpp.wyattau.com/compilation_model/1_translation"}, {"name": "2_symbol_visibility", "url": "https://cpp.wyattau.com/compilation_model/1_translation/2_symbol_visibility"}]
-}
-</script>
 ## The ODR and ABI Stability
 ### ABI Stability and Symbol Versioning
 When a shared library is updated, its exported symbols may change signature or layout. ELF supports
@@ -468,14 +436,6 @@ Behavior** and manifests as corrupted floating-point values or subtle numerical 
 4. Use `-fvisibility=hidden` to minimize the symbol surface and reduce collision risk.
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Compilation_model", "url": "https://cpp.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://cpp.wyattau.com/compilation_model/1_translation"}, {"name": "2_symbol_visibility", "url": "https://cpp.wyattau.com/compilation_model/1_translation/2_symbol_visibility"}]
-}
-</script>
 ## Intuition
 
 **Controlling what's visible:** Symbol visibility is like deciding what to show on a store window — some symbols are public (visible to other translation units), others are private.

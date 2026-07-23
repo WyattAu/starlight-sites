@@ -9,14 +9,6 @@ categories:
   - cpp
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "1_compiler_and_standards", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards"}, {"name": "5_linker_configuration", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration"}]
-}
-</script>
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 The linker is the final stage of the translation pipeline. It accepts object files (`.o` or `.obj`)
@@ -70,14 +62,6 @@ Incremental link times by an order of magnitude.
 
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "1_compiler_and_standards", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards"}, {"name": "5_linker_configuration", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration"}]
-}
-</script>
 ## Linker Comparison Matrix
 | Feature                  | GNU ld.bfd     | GNU gold       | LLVM LLD              | Mold                 | MSVC link.exe  |
 | :----------------------- | :------------- | :------------- | :-------------------- | :------------------- | :------------- |
@@ -129,14 +113,6 @@ endif()
 ```
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "1_compiler_and_standards", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards"}, {"name": "5_linker_configuration", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration"}]
-}
-</script>
 ## Link Time Optimization (LTO)
 Link Time Optimization (also known as IPO - Interprocedural Optimization) allows the compiler to
 Perform optimizations across translation unit boundaries. Instead of generating machine code in the
@@ -182,14 +158,6 @@ set_target_properties(MyLib PROPERTIES
 ```
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "1_compiler_and_standards", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards"}, {"name": "5_linker_configuration", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration"}]
-}
-</script>
 ## Symbol Stripping
 For release builds, removing debug symbols reduces binary size significantly.
 ### Linux/macOS
@@ -204,14 +172,6 @@ Windows separates debug symbols into a `.pdb` file. The executable is stripped b
 Mode.
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "1_compiler_and_standards", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards"}, {"name": "5_linker_configuration", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration"}]
-}
-</script>
 ## Verification
 To verify which linker is being used, inspect the verbose output of the build system.
 1. **Configure CMake with Verbose Output:**
@@ -240,14 +200,6 @@ String dump of section '.comment':
 ```
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "1_compiler_and_standards", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards"}, {"name": "5_linker_configuration", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration"}]
-}
-</script>
 ## Linker Internals: How the Linker Works
 Understanding what the linker actually does at the binary level is critical for diagnosing obscure
 Build failures and optimizing binary output.
@@ -513,14 +465,6 @@ target_link_options(app PRIVATE
 The `LINKER:` prefix in CMake 3.13+ automatically adds the `-Wl,` wrapper, improving portability.
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "1_compiler_and_standards", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards"}, {"name": "5_linker_configuration", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration"}]
-}
-</script>
 ## Common Linker Errors and Their Causes
 ### "undefined reference to `symbol`"
 The linker could not find a definition for the referenced symbol. Common causes:
@@ -548,14 +492,6 @@ clang++ -mcmodel=large ...
 ```
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Enviroment_and_toolchain", "url": "https://cpp.wyattau.com/enviroment_and_toolchain"}, {"name": "1_compiler_and_standards", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards"}, {"name": "5_linker_configuration", "url": "https://cpp.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration"}]
-}
-</script>
 ## Intuition
 
 **Connecting code:** The linker is like a puzzle assembler — it connects object files into an executable, resolving references between them.

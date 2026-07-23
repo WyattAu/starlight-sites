@@ -9,14 +9,6 @@ categories:
   - cpp
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Types", "url": "https://programming.wyattau.com/types"}, {"name": "1_data_layout", "url": "https://programming.wyattau.com/types/1_data_layout"}, {"name": "1_fundamental_types", "url": "https://programming.wyattau.com/types/1_data_layout/1_fundamental_types"}]
-}
-</script>
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 In managed languages (Java, C#), types are abstract constraints enforced by a virtual machine. In
@@ -238,14 +230,6 @@ int safe_add(int a, int b) {
 
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Types", "url": "https://programming.wyattau.com/types"}, {"name": "1_data_layout", "url": "https://programming.wyattau.com/types/1_data_layout"}, {"name": "1_fundamental_types", "url": "https://programming.wyattau.com/types/1_data_layout/1_fundamental_types"}]
-}
-</script>
 ## Floating-Point Representation in Depth
 ### IEEE 754 Binary Layout
 An IEEE 754 floating-point number encodes a signed value using three fields:
@@ -319,14 +303,6 @@ clang++ -O3 -ffast-math app.cpp -o app
 On NaN propagation for error detection, or code that compares floating-point values for equality.
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Types", "url": "https://programming.wyattau.com/types"}, {"name": "1_data_layout", "url": "https://programming.wyattau.com/types/1_data_layout"}, {"name": "1_fundamental_types", "url": "https://programming.wyattau.com/types/1_data_layout/1_fundamental_types"}]
-}
-</script>
 ## Alignment and Padding
 ### Natural Alignment
 Every fundamental type has an **alignment requirement**: the address at which it must be stored must
@@ -428,14 +404,6 @@ uint32_t safe_read(const PackedU32& p) {
 ```
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Types", "url": "https://programming.wyattau.com/types"}, {"name": "1_data_layout", "url": "https://programming.wyattau.com/types/1_data_layout"}, {"name": "1_fundamental_types", "url": "https://programming.wyattau.com/types/1_data_layout/1_fundamental_types"}]
-}
-</script>
 ## C++23 Extended Floating-Point Types
 The `<stdfloat>` header (C++23) introduces fixed-width floating-point types that map to hardware or
 Software implementations:
@@ -456,14 +424,6 @@ Precision. The reduced mantissa halves memory bandwidth compared to `float32` wh
 Same dynamic range, preventing overflow/underflow in deep learning workloads.
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Types", "url": "https://programming.wyattau.com/types"}, {"name": "1_data_layout", "url": "https://programming.wyattau.com/types/1_data_layout"}, {"name": "1_fundamental_types", "url": "https://programming.wyattau.com/types/1_data_layout/1_fundamental_types"}]
-}
-</script>
 ## Boolean Type and Integer Promotion
 ### `bool` and Integer Conversion
 In C++, `bool` is a fundamental type that can hold values `true` (1) or `false` (0). When a `bool`
@@ -508,14 +468,6 @@ int main() {
 ```
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Types", "url": "https://programming.wyattau.com/types"}, {"name": "1_data_layout", "url": "https://programming.wyattau.com/types/1_data_layout"}, {"name": "1_fundamental_types", "url": "https://programming.wyattau.com/types/1_data_layout/1_fundamental_types"}]
-}
-</script>
 ## Intuition
 
 Fundamental types are the alphabet of the machine — each one maps directly to a register or a specific instruction set. An `int` is not an abstract concept; it is a specific number of bits that the CPU knows how to add, subtract, and compare in a single cycle. The data model (LP64 vs LLP64) is like different countries using different paper sizes — the same type has different sizes on different platforms, which is why you cannot assume `long` is always 8 bytes. Endianness is about which end of the number you read first — like reading a number left-to-right versus right-to-left. These details matter when data crosses system boundaries: a file written on one machine may be garbled on another if the byte order is different.

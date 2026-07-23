@@ -9,14 +9,6 @@ categories:
   - cpp
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Compilation_model", "url": "https://programming.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://programming.wyattau.com/compilation_model/1_translation"}, {"name": "4_binary_formats", "url": "https://programming.wyattau.com/compilation_model/1_translation/4_binary_formats"}]
-}
-</script>
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 ## Intuition
@@ -250,14 +242,6 @@ Non-zero values will bloat the file on disk.
 
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Compilation_model", "url": "https://programming.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://programming.wyattau.com/compilation_model/1_translation"}, {"name": "4_binary_formats", "url": "https://programming.wyattau.com/compilation_model/1_translation/4_binary_formats"}]
-}
-</script>
 ## ELF Structure in Depth
 ELF is the dominant binary format on Linux and forms the basis for understanding how the OS
 Interacts with compiled C++ code. Every ELF file begins with an ELF header that identifies the file
@@ -405,14 +389,6 @@ readelf -r ./app | grep JUMP_SLOT
 ```
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Compilation_model", "url": "https://programming.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://programming.wyattau.com/compilation_model/1_translation"}, {"name": "4_binary_formats", "url": "https://programming.wyattau.com/compilation_model/1_translation/4_binary_formats"}]
-}
-</script>
 ## PE/COFF Structure in Depth
 ### Import Address Table (IAT)
 The Windows equivalent of the GOT+PLT mechanism is the IAT. When a Windows executable calls a
@@ -445,14 +421,6 @@ Use `initial-exec` for performance-critical `thread_local` variables in executab
 The variable is accessed from a dynamically loaded shared library.
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Compilation_model", "url": "https://programming.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://programming.wyattau.com/compilation_model/1_translation"}, {"name": "4_binary_formats", "url": "https://programming.wyattau.com/compilation_model/1_translation/4_binary_formats"}]
-}
-</script>
 ## Mach-O Structure in Depth
 Mach-O uses **Load Commands** rather than section/program header tables. Key load commands:
 | Load Command         | Description                                                          |
@@ -478,14 +446,6 @@ MacOS optimizes startup by pre-linking all system libraries into a single shared
 And reduces page faults. The cache is mapped read-only and shared across all processes.
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Compilation_model", "url": "https://programming.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://programming.wyattau.com/compilation_model/1_translation"}, {"name": "4_binary_formats", "url": "https://programming.wyattau.com/compilation_model/1_translation/4_binary_formats"}]
-}
-</script>
 ## Stripping and Debug Information
 Debug information is stored in special sections that can be removed without affecting program
 Execution.
@@ -512,14 +472,6 @@ Executable itself. MSVC always generates a `.pdb` in debug builds and optionally
 (`/Zi` flag).
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "programming", "url": "https://programming.wyattau.com"}, {"name": "Compilation_model", "url": "https://programming.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://programming.wyattau.com/compilation_model/1_translation"}, {"name": "4_binary_formats", "url": "https://programming.wyattau.com/compilation_model/1_translation/4_binary_formats"}]
-}
-</script>
 ## Common Pitfalls
 - **Assuming `.bss` is "free."** While `.bss` costs nothing on disk, it consumes virtual memory at
   runtime. A 1GB `.bss` array will cause the OS to commit 1GB of zeroed pages (physical memory or

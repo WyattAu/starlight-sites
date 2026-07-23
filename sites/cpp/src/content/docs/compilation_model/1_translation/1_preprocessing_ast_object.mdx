@@ -4,14 +4,6 @@ title: Preprocessing and AST Generation, and Object Code
 description: "Understanding the translation stages are critical for debugging compilation errors, optimizing build Times, and understanding. The pipeline processes one at"
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Compilation_model", "url": "https://cpp.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://cpp.wyattau.com/compilation_model/1_translation"}, {"name": "1_preprocessing_ast_object", "url": "https://cpp.wyattau.com/compilation_model/1_translation/1_preprocessing_ast_object"}]
-}
-</script>
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 Understanding the translation stages are critical for debugging compilation errors, optimizing build
@@ -236,14 +228,6 @@ Yet. Resolving these symbols is the job of the **Linker**.
 
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Compilation_model", "url": "https://cpp.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://cpp.wyattau.com/compilation_model/1_translation"}, {"name": "1_preprocessing_ast_object", "url": "https://cpp.wyattau.com/compilation_model/1_translation/1_preprocessing_ast_object"}]
-}
-</script>
 ## Translation Phases Defined by the Standard
 The C++ standard [N4950 §5.1.1] defines the translation of a source file into an executable as a
 Sequence of **translation phases** (also called "phases of translation"). These are numbered 1
@@ -263,14 +247,6 @@ Phases 1-4 constitute preprocessing. Phase 8 is where the compiler frontend perf
 Analysis and builds the AST. Phase 9 is linking.
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Compilation_model", "url": "https://cpp.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://cpp.wyattau.com/compilation_model/1_translation"}, {"name": "1_preprocessing_ast_object", "url": "https://cpp.wyattau.com/compilation_model/1_translation/1_preprocessing_ast_object"}]
-}
-</script>
 ## The Preprocessor in Depth
 ### Translation Units and Header Units
 A **Translation Unit (TU)** [N4950 §5.1.1] is the output of phases 1-7: a single preprocessed source
@@ -378,14 +354,6 @@ Find the guard), but it is not part of the C++ standard. Every major compiler su
 Modules will eventually eliminate the need for both approaches.
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Compilation_model", "url": "https://cpp.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://cpp.wyattau.com/compilation_model/1_translation"}, {"name": "1_preprocessing_ast_object", "url": "https://cpp.wyattau.com/compilation_model/1_translation/1_preprocessing_ast_object"}]
-}
-</script>
 ## The AST in Depth
 ### How the Compiler Represents C++ Constructs
 The AST is a tree where each node represents a language construct. Understanding the AST structure
@@ -436,14 +404,6 @@ c++filt _ZN4math3addEii
 ```
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Compilation_model", "url": "https://cpp.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://cpp.wyattau.com/compilation_model/1_translation"}, {"name": "1_preprocessing_ast_object", "url": "https://cpp.wyattau.com/compilation_model/1_translation/1_preprocessing_ast_object"}]
-}
-</script>
 ## Intermediate Representation in Depth
 ### LLVM IR Structure
 LLVM IR is a typed, SSA-based assembly language. Every value is computed exactly once and assigned
@@ -492,14 +452,6 @@ g++ -fdump-tree-optimized sum.cpp
 The output shows the same optimization (loop elimination) in GCC's representation.
 ---
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "cpp", "url": "https://cpp.wyattau.com"}, {"name": "Compilation_model", "url": "https://cpp.wyattau.com/compilation_model"}, {"name": "1_translation", "url": "https://cpp.wyattau.com/compilation_model/1_translation"}, {"name": "1_preprocessing_ast_object", "url": "https://cpp.wyattau.com/compilation_model/1_translation/1_preprocessing_ast_object"}]
-}
-</script>
 ## Object Files in Depth
 ### Relocation Entries
 When the compiler generates an object file, it cannot know the final addresses of symbols defined in
